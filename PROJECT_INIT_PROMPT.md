@@ -151,7 +151,8 @@ Commit = freeze. Python (cfbd client library); flag if the user prefers R. Repo 
 `NCAAF Data 2026/` (user's connected folder):
 - `Phil Steele 2026 - <Conf> (searchable).pdf` ×12 — USE THESE (AAC, ACC, B10, B12, CUSA, General, Independents, MAC, Mountain West, PAC12, SBC, SEC). One leftover raw scan (`Phil Steele 2026 - CUSA.pdf`, 70 MB) — ignore; user may delete.
 - `Athlon 2026 - *.pdf` ×13 — born-digital, searchable (11 conference files + General Rankings + General Stories).
-- `PFF_*.csv` ×27 — 2025 player/team premium stats (incl. `PFF_2025_team_grades.csv`).
+- `PFF_*.csv` — 2025 player/team premium stats (27 files) plus historical team grades: `PFF_20XX_team_grades.csv` per season (2024 done; more years may be added — same schema, year in filename). Useful for backtest context and grading exemplars.
+  - [repo-sync note 2026-07-12, session 2] The historical delivery landed as `PFF History/{2021..2024}/` on the device — 7 tables per year (team grades + passing/rushing/receiving/blocking/defense/special-teams summaries), mirrored to `data/pff_history/` in the repo and schema-verified against the 2025 exports (`pipeline/check_pff_history.py`).
 - `PFF_data_dictionary.json` / `PFF_data_dictionary.md` — definitions for all 2,354 columns across the 27 files; look up any PFF column here (the original key images were deleted as superseded).
 - `anchors/` — `anchor_sources.json` (manifest), `anchors_overall_2026-07-12.csv` (5×138 blend input), per-source captures (SP+, FEI, Massey, FPI, TeamRankings), `team_name_map.csv` (fill the CFBD column at §0). **Compute-phase only.**
 - `Win Totals from 2025.csv` — 2025 preseason win totals, ~135 FBS teams. Schema: `TEAM`, then per-book season win totals with the price in parens ("5.5 (-200)") for Bet365/FanDuel/DraftKings/Caesars/BetRivers, plus DK/BR/Bet365 conference win totals (sparse). Parse total and juice separately. **Compute-phase only.**

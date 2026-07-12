@@ -9,6 +9,7 @@ Preseason power ratings for all 138 FBS teams (2026). Private: contains paid PFF
 ```
 data/cfbd/        league-wide CFBD pulls, date-stamped subdirs + pull manifests
 data/pff/         27 PFF 2025 exports + data dictionary (research + flag-pass use)
+data/pff_history/ PFF 2021-2024: team grades + 6 position summaries per year (conversion backtest)
 data/anchors/     ⚠ COMPUTE PHASE ONLY (blinding, brief §4) — consensus captures + team_name_map.csv
 data/win_totals/  ⚠ COMPUTE PHASE ONLY (blinding, brief §4) — 2025 preseason win totals
 data/backtest/    backtest inputs/outputs
