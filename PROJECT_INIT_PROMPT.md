@@ -131,7 +131,7 @@ Commit = freeze. Python (cfbd client library); flag if the user prefers R. Repo 
 - ~~Magazine formats~~ RESOLVED: Phil Steele scanned→searchable conversions done; Athlon born-digital.
 - ~~Last year's preseason win totals~~ RESOLVED: in folder. Odds API decision now decidable with the backtest.
 - ~~PFF+ export reality check~~ RESOLVED: 27 tables exported + data dictionary.
-- **Sim double-counting:** confirm the user's simulator injects game-level noise separately from our epistemic band. (Still unanswered.)
+- ~~Sim double-counting~~ RESOLVED 2026-07-12 (session 2): user confirms the simulator injects game-level randomness itself → the variance band is epistemic-only, scaled below raw backtest miss (which includes in-season noise).
 - **FEI blinding placement** (§6 note) — resolve at build step 3.
 - **Massey own-model vs. composite** (§6 note) — resolve before first real blend run.
 - **k and cap tuning** after the pilot and when August anchors land.
