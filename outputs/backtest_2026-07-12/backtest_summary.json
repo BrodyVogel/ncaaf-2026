@@ -1,0 +1,32 @@
+{
+  "generated_from_cfbd_dir": "data/cfbd/2026-07-12",
+  "n_team_seasons": 1426,
+  "year_range": [
+    2015,
+    2025
+  ],
+  "base_sigma_full_model": 7.584,
+  "naive_sigma": 8.344,
+  "coeffs": {
+    "intercept": -4.2799,
+    "prev_SP+": 0.7905,
+    "returning": 7.7354,
+    "coach_change": -2.3943,
+    "portal_in": 0.0839
+  },
+  "tstats": {
+    "intercept": -7.56,
+    "prev_SP+": 50.13,
+    "returning": 9.56,
+    "coach_change": -4.68,
+    "portal_in": 3.54
+  },
+  "multipliers": {
+    "returning: low tercile": 1.035,
+    "returning: mid tercile": 1.02,
+    "returning: high tercile": 0.939,
+    "coach change = yes": 1.154,
+    "coach change = no": 0.957
+  },
+  "caveat": "base_sigma here is preseason-MISS vs FINAL SP+, which conflates epistemic (true-strength) uncertainty with in-season randomness. Splitting those ties to the open sim double-counting question; treat this as an upper bound on the epistemic band until resolved. PFF unit grades are the next signal to add (step 3)."
+}
