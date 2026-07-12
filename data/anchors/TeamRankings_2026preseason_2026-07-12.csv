@@ -1,0 +1,139 @@
+rank,team_raw,norm_key,tr_predictive
+1,Ohio St,ohiostate,32.3
+2,Oregon,oregon,29.5
+3,Notre Dame,notredame,29.1
+4,Indiana,indiana,29.0
+5,Georgia,georgia,28.4
+6,Texas,texas,28.4
+7,Miami,miamifl,25.3
+8,Texas Tech,texastech,23.8
+9,Texas A&M,texasam,22.7
+10,Mississippi,olemiss,22.3
+11,LSU,lsu,22.1
+12,Oklahoma,oklahoma,22.0
+13,Alabama,alabama,21.6
+14,USC,usc,20.9
+15,Michigan,michigan,19.8
+16,Florida,florida,17.4
+17,Tennessee,tennessee,16.8
+18,Washington,washington,16.4
+19,Penn St,pennstate,16.4
+20,Missouri,missouri,15.4
+21,BYU,byu,14.6
+22,SMU,smu,14.4
+23,Iowa,iowa,13.9
+24,Louisville,louisville,13.7
+25,Auburn,auburn,13.4
+26,Utah,utah,12.8
+27,South Carolina,southcarolina,12.2
+28,Clemson,clemson,11.6
+29,Houston,houston,10.6
+30,Kansas St,kansasstate,10.2
+31,Pittsburgh,pittsburgh,10.0
+32,Vanderbilt,vanderbilt,9.8
+33,Illinois,illinois,9.2
+34,Virginia,virginia,9.0
+35,Kentucky,kentucky,8.9
+36,Arizona St,arizonastate,8.7
+37,Arizona,arizona,8.7
+38,TCU,tcu,8.4
+39,Wisconsin,wisconsin,8.4
+40,UCLA,ucla,8.2
+41,Virginia Tech,virginiatech,8.2
+42,Minnesota,minnesota,8.1
+43,Nebraska,nebraska,8.0
+44,Florida St,floridastate,7.3
+45,Oklahoma St,oklahomastate,6.7
+46,Boise St,boisestate,6.7
+47,Mississippi St,mississippistate,6.4
+48,NC State,ncstate,6.2
+49,Georgia Tech,georgiatech,5.8
+50,Kansas,kansas,5.4
+51,Northwestern,northwestern,4.8
+52,Arkansas,arkansas,4.7
+53,Baylor,baylor,4.6
+54,West Virginia,westvirginia,4.5
+55,California,california,4.0
+56,UCF,ucf,3.3
+57,Maryland,maryland,2.9
+58,Wake Forest,wakeforest,2.4
+59,North Carolina,northcarolina,2.1
+60,Fresno St,fresnostate,2.0
+61,Duke,duke,1.9
+62,San Diego St,sandiegostate,1.1
+63,Navy,navy,0.9
+64,Rutgers,rutgers,0.8
+65,Cincinnati,cincinnati,0.3
+66,Iowa St,iowastate,0.0
+67,Syracuse,syracuse,-0.2
+68,Michigan St,michiganstate,-0.3
+69,UNLV,unlv,-0.8
+70,Army,army,-1.2
+71,Colorado,colorado,-1.4
+72,UTSA,utsa,-1.5
+73,J Madison,jamesmadison,-1.5
+74,Memphis,memphis,-1.5
+75,Washington St,washingtonstate,-1.6
+76,Texas St,texasstate,-2.0
+77,New Mexico,newmexico,-2.1
+78,Purdue,purdue,-2.1
+79,S Florida,southflorida,-2.4
+80,North Dakota State,northdakotastate,-2.8
+81,Tulane,tulane,-2.8
+82,Stanford,stanford,-3.0
+83,E Carolina,eastcarolina,-3.7
+84,Utah St,utahstate,-3.8
+85,Old Dominion,olddominion,-4.6
+86,Boston College,bostoncollege,-6.2
+87,Hawai'i,hawaii,-6.3
+88,Air Force,airforce,-7.4
+89,Troy,troy,-7.7
+90,W Michigan,westernmichigan,-8.3
+91,W Kentucky,westernkentucky,-8.4
+92,Liberty,liberty,-8.5
+93,Toledo,toledo,-8.6
+94,Louisiana Tech,louisianatech,-8.6
+95,N Texas,northtexas,-8.7
+96,Florida Atlantic,floridaatlantic,-8.7
+97,Marshall,marshall,-8.8
+98,Oregon St,oregonstate,-10.0
+99,Louisiana,louisiana,-10.3
+100,Tulsa,tulsa,-10.3
+101,Miami OH,miamioh,-10.6
+102,Colorado St,coloradostate,-10.7
+103,Jacksonville St,jacksonvillestate,-10.7
+104,S Alabama,southalabama,-10.8
+105,Ohio,ohio,-10.9
+106,Temple,temple,-10.9
+107,UConn,connecticut,-10.9
+108,App State,appalachianstate,-10.9
+109,Arkansas St,arkansasstate,-11.0
+110,Georgia So,georgiasouthern,-11.7
+111,Delaware,delaware,-12.5
+112,C Michigan,centralmichigan,-12.6
+113,Wyoming,wyoming,-13.3
+114,Coastal Car,coastalcarolina,-13.8
+115,E Michigan,easternmichigan,-13.9
+116,Kennesaw St,kennesawstate,-14.2
+117,San Jose St,sanjosestate,-14.9
+118,Florida Intl,floridainternational,-15.0
+119,Rice,rice,-15.2
+120,Buffalo,buffalo,-16.5
+121,Bowling Green,bowlinggreen,-17.7
+122,Southern Miss,southernmiss,-17.7
+123,Akron,akron,-17.9
+124,Nevada,nevada,-18.1
+125,UAB,uab,-18.2
+126,New Mexico St,newmexicostate,-18.4
+127,Missouri St,missouristate,-18.9
+128,Sacramento State,sacramentostate,-19.2
+129,Georgia St,georgiastate,-19.4
+130,UL Monroe,louisianamonroe,-19.8
+131,N Illinois,northernillinois,-20.6
+132,Middle Tenn,middletennessee,-20.9
+133,UTEP,utep,-21.0
+134,Kent St,kentstate,-22.1
+135,Ball St,ballstate,-23.0
+136,Charlotte,charlotte,-23.3
+137,Sam Houston,samhouston,-24.1
+138,UMass,massachusetts,-28.5

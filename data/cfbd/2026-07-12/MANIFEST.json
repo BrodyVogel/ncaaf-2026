@@ -1,0 +1,806 @@
+[
+ {
+  "name": "teams_fbs_2026",
+  "endpoint": "/teams/fbs",
+  "params": {
+   "year": 2026
+  },
+  "pulled_utc": "2026-07-12T20:36:30+00:00",
+  "http_status": 200,
+  "n_records": 138,
+  "calllimit_remaining": "29998"
+ },
+ {
+  "name": "portal_2026",
+  "endpoint": "/player/portal",
+  "params": {
+   "year": 2026
+  },
+  "pulled_utc": "2026-07-12T20:36:33+00:00",
+  "http_status": 200,
+  "n_records": 4427,
+  "calllimit_remaining": "29993"
+ },
+ {
+  "name": "games_2026_regular",
+  "endpoint": "/games",
+  "params": {
+   "year": 2026,
+   "seasonType": "regular"
+  },
+  "pulled_utc": "2026-07-12T20:36:33+00:00",
+  "http_status": 200,
+  "n_records": 888,
+  "calllimit_remaining": "29992"
+ },
+ {
+  "name": "sp_2014",
+  "endpoint": "/ratings/sp",
+  "params": {
+   "year": 2014
+  },
+  "pulled_utc": "2026-07-12T20:36:34+00:00",
+  "http_status": 200,
+  "n_records": 129,
+  "calllimit_remaining": "29990"
+ },
+ {
+  "name": "sp_2015",
+  "endpoint": "/ratings/sp",
+  "params": {
+   "year": 2015
+  },
+  "pulled_utc": "2026-07-12T20:36:35+00:00",
+  "http_status": 200,
+  "n_records": 129,
+  "calllimit_remaining": "29989"
+ },
+ {
+  "name": "sp_2016",
+  "endpoint": "/ratings/sp",
+  "params": {
+   "year": 2016
+  },
+  "pulled_utc": "2026-07-12T20:36:36+00:00",
+  "http_status": 200,
+  "n_records": 129,
+  "calllimit_remaining": "29988"
+ },
+ {
+  "name": "sp_2017",
+  "endpoint": "/ratings/sp",
+  "params": {
+   "year": 2017
+  },
+  "pulled_utc": "2026-07-12T20:36:36+00:00",
+  "http_status": 200,
+  "n_records": 129,
+  "calllimit_remaining": "29987"
+ },
+ {
+  "name": "sp_2018",
+  "endpoint": "/ratings/sp",
+  "params": {
+   "year": 2018
+  },
+  "pulled_utc": "2026-07-12T20:36:37+00:00",
+  "http_status": 200,
+  "n_records": 131,
+  "calllimit_remaining": "29986"
+ },
+ {
+  "name": "sp_2019",
+  "endpoint": "/ratings/sp",
+  "params": {
+   "year": 2019
+  },
+  "pulled_utc": "2026-07-12T20:36:37+00:00",
+  "http_status": 200,
+  "n_records": 131,
+  "calllimit_remaining": "29985"
+ },
+ {
+  "name": "sp_2020",
+  "endpoint": "/ratings/sp",
+  "params": {
+   "year": 2020
+  },
+  "pulled_utc": "2026-07-12T20:36:37+00:00",
+  "http_status": 200,
+  "n_records": 131,
+  "calllimit_remaining": "29984"
+ },
+ {
+  "name": "sp_2021",
+  "endpoint": "/ratings/sp",
+  "params": {
+   "year": 2021
+  },
+  "pulled_utc": "2026-07-12T20:36:38+00:00",
+  "http_status": 200,
+  "n_records": 131,
+  "calllimit_remaining": "29983"
+ },
+ {
+  "name": "sp_2022",
+  "endpoint": "/ratings/sp",
+  "params": {
+   "year": 2022
+  },
+  "pulled_utc": "2026-07-12T20:36:38+00:00",
+  "http_status": 200,
+  "n_records": 132,
+  "calllimit_remaining": "29982"
+ },
+ {
+  "name": "sp_2023",
+  "endpoint": "/ratings/sp",
+  "params": {
+   "year": 2023
+  },
+  "pulled_utc": "2026-07-12T20:36:39+00:00",
+  "http_status": 200,
+  "n_records": 134,
+  "calllimit_remaining": "29981"
+ },
+ {
+  "name": "sp_2024",
+  "endpoint": "/ratings/sp",
+  "params": {
+   "year": 2024
+  },
+  "pulled_utc": "2026-07-12T20:36:40+00:00",
+  "http_status": 200,
+  "n_records": 135,
+  "calllimit_remaining": "29980"
+ },
+ {
+  "name": "sp_2025",
+  "endpoint": "/ratings/sp",
+  "params": {
+   "year": 2025
+  },
+  "pulled_utc": "2026-07-12T20:36:40+00:00",
+  "http_status": 200,
+  "n_records": 137,
+  "calllimit_remaining": "29979"
+ },
+ {
+  "name": "returning_2014",
+  "endpoint": "/player/returning",
+  "params": {
+   "year": 2014
+  },
+  "pulled_utc": "2026-07-12T20:36:41+00:00",
+  "http_status": 200,
+  "n_records": 125,
+  "calllimit_remaining": "29978"
+ },
+ {
+  "name": "returning_2015",
+  "endpoint": "/player/returning",
+  "params": {
+   "year": 2015
+  },
+  "pulled_utc": "2026-07-12T20:36:41+00:00",
+  "http_status": 200,
+  "n_records": 128,
+  "calllimit_remaining": "29977"
+ },
+ {
+  "name": "returning_2016",
+  "endpoint": "/player/returning",
+  "params": {
+   "year": 2016
+  },
+  "pulled_utc": "2026-07-12T20:36:42+00:00",
+  "http_status": 200,
+  "n_records": 128,
+  "calllimit_remaining": "29976"
+ },
+ {
+  "name": "returning_2017",
+  "endpoint": "/player/returning",
+  "params": {
+   "year": 2017
+  },
+  "pulled_utc": "2026-07-12T20:36:42+00:00",
+  "http_status": 200,
+  "n_records": 128,
+  "calllimit_remaining": "29975"
+ },
+ {
+  "name": "returning_2018",
+  "endpoint": "/player/returning",
+  "params": {
+   "year": 2018
+  },
+  "pulled_utc": "2026-07-12T20:36:43+00:00",
+  "http_status": 200,
+  "n_records": 130,
+  "calllimit_remaining": "29974"
+ },
+ {
+  "name": "returning_2019",
+  "endpoint": "/player/returning",
+  "params": {
+   "year": 2019
+  },
+  "pulled_utc": "2026-07-12T20:36:43+00:00",
+  "http_status": 200,
+  "n_records": 130,
+  "calllimit_remaining": "29973"
+ },
+ {
+  "name": "returning_2020",
+  "endpoint": "/player/returning",
+  "params": {
+   "year": 2020
+  },
+  "pulled_utc": "2026-07-12T20:36:44+00:00",
+  "http_status": 200,
+  "n_records": 130,
+  "calllimit_remaining": "29972"
+ },
+ {
+  "name": "returning_2021",
+  "endpoint": "/player/returning",
+  "params": {
+   "year": 2021
+  },
+  "pulled_utc": "2026-07-12T20:36:44+00:00",
+  "http_status": 200,
+  "n_records": 128,
+  "calllimit_remaining": "29971"
+ },
+ {
+  "name": "returning_2022",
+  "endpoint": "/player/returning",
+  "params": {
+   "year": 2022
+  },
+  "pulled_utc": "2026-07-12T20:36:45+00:00",
+  "http_status": 200,
+  "n_records": 130,
+  "calllimit_remaining": "29970"
+ },
+ {
+  "name": "returning_2023",
+  "endpoint": "/player/returning",
+  "params": {
+   "year": 2023
+  },
+  "pulled_utc": "2026-07-12T20:36:46+00:00",
+  "http_status": 200,
+  "n_records": 131,
+  "calllimit_remaining": "29969"
+ },
+ {
+  "name": "returning_2024",
+  "endpoint": "/player/returning",
+  "params": {
+   "year": 2024
+  },
+  "pulled_utc": "2026-07-12T20:36:46+00:00",
+  "http_status": 200,
+  "n_records": 133,
+  "calllimit_remaining": "29968"
+ },
+ {
+  "name": "returning_2025",
+  "endpoint": "/player/returning",
+  "params": {
+   "year": 2025
+  },
+  "pulled_utc": "2026-07-12T20:36:46+00:00",
+  "http_status": 200,
+  "n_records": 134,
+  "calllimit_remaining": "29967"
+ },
+ {
+  "name": "talent_2015",
+  "endpoint": "/talent",
+  "params": {
+   "year": 2015
+  },
+  "pulled_utc": "2026-07-12T20:36:47+00:00",
+  "http_status": 200,
+  "n_records": 232,
+  "calllimit_remaining": "29966"
+ },
+ {
+  "name": "talent_2016",
+  "endpoint": "/talent",
+  "params": {
+   "year": 2016
+  },
+  "pulled_utc": "2026-07-12T20:36:47+00:00",
+  "http_status": 200,
+  "n_records": 237,
+  "calllimit_remaining": "29965"
+ },
+ {
+  "name": "talent_2017",
+  "endpoint": "/talent",
+  "params": {
+   "year": 2017
+  },
+  "pulled_utc": "2026-07-12T20:36:48+00:00",
+  "http_status": 200,
+  "n_records": 157,
+  "calllimit_remaining": "29964"
+ },
+ {
+  "name": "talent_2018",
+  "endpoint": "/talent",
+  "params": {
+   "year": 2018
+  },
+  "pulled_utc": "2026-07-12T20:36:48+00:00",
+  "http_status": 200,
+  "n_records": 237,
+  "calllimit_remaining": "29963"
+ },
+ {
+  "name": "talent_2019",
+  "endpoint": "/talent",
+  "params": {
+   "year": 2019
+  },
+  "pulled_utc": "2026-07-12T20:36:49+00:00",
+  "http_status": 200,
+  "n_records": 231,
+  "calllimit_remaining": "29962"
+ },
+ {
+  "name": "talent_2020",
+  "endpoint": "/talent",
+  "params": {
+   "year": 2020
+  },
+  "pulled_utc": "2026-07-12T20:36:49+00:00",
+  "http_status": 200,
+  "n_records": 219,
+  "calllimit_remaining": "29961"
+ },
+ {
+  "name": "talent_2021",
+  "endpoint": "/talent",
+  "params": {
+   "year": 2021
+  },
+  "pulled_utc": "2026-07-12T20:36:50+00:00",
+  "http_status": 200,
+  "n_records": 224,
+  "calllimit_remaining": "29960"
+ },
+ {
+  "name": "talent_2022",
+  "endpoint": "/talent",
+  "params": {
+   "year": 2022
+  },
+  "pulled_utc": "2026-07-12T20:36:50+00:00",
+  "http_status": 200,
+  "n_records": 233,
+  "calllimit_remaining": "29959"
+ },
+ {
+  "name": "talent_2023",
+  "endpoint": "/talent",
+  "params": {
+   "year": 2023
+  },
+  "pulled_utc": "2026-07-12T20:36:51+00:00",
+  "http_status": 200,
+  "n_records": 240,
+  "calllimit_remaining": "29958"
+ },
+ {
+  "name": "talent_2024",
+  "endpoint": "/talent",
+  "params": {
+   "year": 2024
+  },
+  "pulled_utc": "2026-07-12T20:36:51+00:00",
+  "http_status": 200,
+  "n_records": 134,
+  "calllimit_remaining": "29957"
+ },
+ {
+  "name": "talent_2025",
+  "endpoint": "/talent",
+  "params": {
+   "year": 2025
+  },
+  "pulled_utc": "2026-07-12T20:36:52+00:00",
+  "http_status": 200,
+  "n_records": 134,
+  "calllimit_remaining": "29956"
+ },
+ {
+  "name": "portal_2021",
+  "endpoint": "/player/portal",
+  "params": {
+   "year": 2021
+  },
+  "pulled_utc": "2026-07-12T20:36:53+00:00",
+  "http_status": 200,
+  "n_records": 1770,
+  "calllimit_remaining": "29955"
+ },
+ {
+  "name": "portal_2022",
+  "endpoint": "/player/portal",
+  "params": {
+   "year": 2022
+  },
+  "pulled_utc": "2026-07-12T20:36:53+00:00",
+  "http_status": 200,
+  "n_records": 2273,
+  "calllimit_remaining": "29954"
+ },
+ {
+  "name": "portal_2023",
+  "endpoint": "/player/portal",
+  "params": {
+   "year": 2023
+  },
+  "pulled_utc": "2026-07-12T20:36:54+00:00",
+  "http_status": 200,
+  "n_records": 2502,
+  "calllimit_remaining": "29953"
+ },
+ {
+  "name": "portal_2024",
+  "endpoint": "/player/portal",
+  "params": {
+   "year": 2024
+  },
+  "pulled_utc": "2026-07-12T20:36:54+00:00",
+  "http_status": 200,
+  "n_records": 3378,
+  "calllimit_remaining": "29952"
+ },
+ {
+  "name": "portal_2025",
+  "endpoint": "/player/portal",
+  "params": {
+   "year": 2025
+  },
+  "pulled_utc": "2026-07-12T20:36:55+00:00",
+  "http_status": 200,
+  "n_records": 4499,
+  "calllimit_remaining": "29951"
+ },
+ {
+  "name": "records_2014",
+  "endpoint": "/records",
+  "params": {
+   "year": 2014
+  },
+  "pulled_utc": "2026-07-12T20:36:56+00:00",
+  "http_status": 200,
+  "n_records": 301,
+  "calllimit_remaining": "29950"
+ },
+ {
+  "name": "records_2015",
+  "endpoint": "/records",
+  "params": {
+   "year": 2015
+  },
+  "pulled_utc": "2026-07-12T20:36:56+00:00",
+  "http_status": 200,
+  "n_records": 294,
+  "calllimit_remaining": "29949"
+ },
+ {
+  "name": "records_2016",
+  "endpoint": "/records",
+  "params": {
+   "year": 2016
+  },
+  "pulled_utc": "2026-07-12T20:36:57+00:00",
+  "http_status": 200,
+  "n_records": 293,
+  "calllimit_remaining": "29948"
+ },
+ {
+  "name": "records_2017",
+  "endpoint": "/records",
+  "params": {
+   "year": 2017
+  },
+  "pulled_utc": "2026-07-12T20:36:57+00:00",
+  "http_status": 200,
+  "n_records": 290,
+  "calllimit_remaining": "29947"
+ },
+ {
+  "name": "records_2018",
+  "endpoint": "/records",
+  "params": {
+   "year": 2018
+  },
+  "pulled_utc": "2026-07-12T20:36:58+00:00",
+  "http_status": 200,
+  "n_records": 297,
+  "calllimit_remaining": "29946"
+ },
+ {
+  "name": "records_2019",
+  "endpoint": "/records",
+  "params": {
+   "year": 2019
+  },
+  "pulled_utc": "2026-07-12T20:36:59+00:00",
+  "http_status": 200,
+  "n_records": 298,
+  "calllimit_remaining": "29945"
+ },
+ {
+  "name": "records_2020",
+  "endpoint": "/records",
+  "params": {
+   "year": 2020
+  },
+  "pulled_utc": "2026-07-12T20:36:59+00:00",
+  "http_status": 200,
+  "n_records": 404,
+  "calllimit_remaining": "29944"
+ },
+ {
+  "name": "records_2021",
+  "endpoint": "/records",
+  "params": {
+   "year": 2021
+  },
+  "pulled_utc": "2026-07-12T20:37:00+00:00",
+  "http_status": 200,
+  "n_records": 430,
+  "calllimit_remaining": "29943"
+ },
+ {
+  "name": "records_2022",
+  "endpoint": "/records",
+  "params": {
+   "year": 2022
+  },
+  "pulled_utc": "2026-07-12T20:37:01+00:00",
+  "http_status": 200,
+  "n_records": 666,
+  "calllimit_remaining": "29942"
+ },
+ {
+  "name": "records_2023",
+  "endpoint": "/records",
+  "params": {
+   "year": 2023
+  },
+  "pulled_utc": "2026-07-12T20:37:02+00:00",
+  "http_status": 200,
+  "n_records": 665,
+  "calllimit_remaining": "29941"
+ },
+ {
+  "name": "records_2024",
+  "endpoint": "/records",
+  "params": {
+   "year": 2024
+  },
+  "pulled_utc": "2026-07-12T20:37:03+00:00",
+  "http_status": 200,
+  "n_records": 668,
+  "calllimit_remaining": "29940"
+ },
+ {
+  "name": "records_2025",
+  "endpoint": "/records",
+  "params": {
+   "year": 2025
+  },
+  "pulled_utc": "2026-07-12T20:37:04+00:00",
+  "http_status": 200,
+  "n_records": 668,
+  "calllimit_remaining": "29939"
+ },
+ {
+  "name": "coaches_2014",
+  "endpoint": "/coaches",
+  "params": {
+   "year": 2014
+  },
+  "pulled_utc": "2026-07-12T20:37:04+00:00",
+  "http_status": 200,
+  "n_records": 132,
+  "calllimit_remaining": "29938"
+ },
+ {
+  "name": "coaches_2015",
+  "endpoint": "/coaches",
+  "params": {
+   "year": 2015
+  },
+  "pulled_utc": "2026-07-12T20:37:05+00:00",
+  "http_status": 200,
+  "n_records": 132,
+  "calllimit_remaining": "29937"
+ },
+ {
+  "name": "coaches_2016",
+  "endpoint": "/coaches",
+  "params": {
+   "year": 2016
+  },
+  "pulled_utc": "2026-07-12T20:37:05+00:00",
+  "http_status": 200,
+  "n_records": 134,
+  "calllimit_remaining": "29936"
+ },
+ {
+  "name": "coaches_2017",
+  "endpoint": "/coaches",
+  "params": {
+   "year": 2017
+  },
+  "pulled_utc": "2026-07-12T20:37:06+00:00",
+  "http_status": 200,
+  "n_records": 139,
+  "calllimit_remaining": "29935"
+ },
+ {
+  "name": "coaches_2018",
+  "endpoint": "/coaches",
+  "params": {
+   "year": 2018
+  },
+  "pulled_utc": "2026-07-12T20:37:06+00:00",
+  "http_status": 200,
+  "n_records": 139,
+  "calllimit_remaining": "29934"
+ },
+ {
+  "name": "coaches_2019",
+  "endpoint": "/coaches",
+  "params": {
+   "year": 2019
+  },
+  "pulled_utc": "2026-07-12T20:37:07+00:00",
+  "http_status": 200,
+  "n_records": 134,
+  "calllimit_remaining": "29933"
+ },
+ {
+  "name": "coaches_2020",
+  "endpoint": "/coaches",
+  "params": {
+   "year": 2020
+  },
+  "pulled_utc": "2026-07-12T20:37:07+00:00",
+  "http_status": 200,
+  "n_records": 137,
+  "calllimit_remaining": "29932"
+ },
+ {
+  "name": "coaches_2021",
+  "endpoint": "/coaches",
+  "params": {
+   "year": 2021
+  },
+  "pulled_utc": "2026-07-12T20:37:08+00:00",
+  "http_status": 200,
+  "n_records": 153,
+  "calllimit_remaining": "29931"
+ },
+ {
+  "name": "coaches_2022",
+  "endpoint": "/coaches",
+  "params": {
+   "year": 2022
+  },
+  "pulled_utc": "2026-07-12T20:37:08+00:00",
+  "http_status": 200,
+  "n_records": 146,
+  "calllimit_remaining": "29930"
+ },
+ {
+  "name": "coaches_2023",
+  "endpoint": "/coaches",
+  "params": {
+   "year": 2023
+  },
+  "pulled_utc": "2026-07-12T20:37:09+00:00",
+  "http_status": 200,
+  "n_records": 143,
+  "calllimit_remaining": "29929"
+ },
+ {
+  "name": "coaches_2024",
+  "endpoint": "/coaches",
+  "params": {
+   "year": 2024
+  },
+  "pulled_utc": "2026-07-12T20:37:09+00:00",
+  "http_status": 200,
+  "n_records": 152,
+  "calllimit_remaining": "29928"
+ },
+ {
+  "name": "coaches_2025",
+  "endpoint": "/coaches",
+  "params": {
+   "year": 2025
+  },
+  "pulled_utc": "2026-07-12T20:37:10+00:00",
+  "http_status": 200,
+  "n_records": 136,
+  "calllimit_remaining": "29927"
+ },
+ {
+  "name": "roster_2026",
+  "endpoint": "/roster",
+  "params": {
+   "year": 2026
+  },
+  "pulled_utc": "2026-07-12T20:38:36+00:00",
+  "http_status": 200,
+  "n_records": 0,
+  "calllimit_remaining": "29924"
+ },
+ {
+  "name": "roster_2025",
+  "endpoint": "/roster",
+  "params": {
+   "year": 2025
+  },
+  "pulled_utc": "2026-07-12T20:38:39+00:00",
+  "http_status": 200,
+  "n_records": 30072,
+  "calllimit_remaining": "29923"
+ },
+ {
+  "name": "sp_2026",
+  "endpoint": "/ratings/sp",
+  "params": {
+   "year": 2026
+  },
+  "pulled_utc": "2026-07-12T20:38:40+00:00",
+  "http_status": 200,
+  "n_records": 0,
+  "calllimit_remaining": "29922"
+ },
+ {
+  "name": "returning_2026",
+  "endpoint": "/player/returning",
+  "params": {
+   "year": 2026
+  },
+  "pulled_utc": "2026-07-12T20:38:40+00:00",
+  "http_status": 200,
+  "n_records": 0,
+  "calllimit_remaining": "29921"
+ },
+ {
+  "name": "talent_2026",
+  "endpoint": "/talent",
+  "params": {
+   "year": 2026
+  },
+  "pulled_utc": "2026-07-12T20:38:41+00:00",
+  "http_status": 200,
+  "n_records": 0,
+  "calllimit_remaining": "29920"
+ },
+ {
+  "name": "coaches_2026",
+  "endpoint": "/coaches",
+  "params": {
+   "year": 2026
+  },
+  "pulled_utc": "2026-07-12T20:38:41+00:00",
+  "http_status": 200,
+  "n_records": 0,
+  "calllimit_remaining": "29919"
+ }
+]

@@ -1,0 +1,139 @@
+rank,team_raw,norm_key,fpi,proj_wl
+1,Ohio State Buckeyes,ohiostate,28.7,10.2-2.4
+2,Texas Longhorns,texas,26.9,9.8-2.7
+3,Notre Dame Fighting Irish,notredame,25.9,10.7-1.3
+4,Oregon Ducks,oregon,25.3,10.2-2.3
+5,Georgia Bulldogs,georgia,24.8,9.9-2.5
+6,Indiana Hoosiers,indiana,23.1,10.1-2.3
+7,Miami Hurricanes,miamifl,21.8,10.4-2.3
+8,Alabama Crimson Tide,alabama,20.1,8.6-3.6
+9,LSU Tigers,lsu,20.0,8.4-3.8
+10,Texas Tech Red Raiders,texastech,20.0,10.8-1.8
+11,Texas A&M Aggies,texasam,20.0,8.4-3.8
+12,Oklahoma Sooners,oklahoma,17.8,7.5-4.6
+13,USC Trojans,usc,17.0,8.2-3.9
+14,Ole Miss Rebels,olemiss,16.0,7.3-4.8
+15,Michigan Wolverines,michigan,15.9,7.8-4.3
+16,Tennessee Volunteers,tennessee,15.1,7.3-4.7
+17,Penn State Nittany Lions,pennstate,13.7,9.0-3.2
+18,Florida Gators,florida,13.6,6.7-5.3
+19,Clemson Tigers,clemson,13.4,8.1-4.1
+20,BYU Cougars,byu,13.1,8.7-3.6
+21,Missouri Tigers,missouri,12.2,6.7-5.3
+22,Auburn Tigers,auburn,12.0,6.6-5.4
+23,South Carolina Gamecocks,southcarolina,11.7,6.4-5.6
+24,SMU Mustangs,smu,11.1,8.3-4.0
+25,Iowa Hawkeyes,iowa,10.6,7.6-4.4
+26,Washington Huskies,washington,9.9,7.0-5.0
+27,Louisville Cardinals,louisville,9.5,7.6-4.6
+28,Florida State Seminoles,floridastate,9.3,6.7-5.4
+29,Vanderbilt Commodores,vanderbilt,9.0,6.2-5.8
+30,Nebraska Cornhuskers,nebraska,8.8,6.7-5.3
+31,Utah Utes,utah,8.5,7.7-4.4
+32,Virginia Cavaliers,virginia,7.9,7.7-4.4
+33,Virginia Tech Hokies,virginiatech,7.4,7.0-5.1
+34,Arizona Wildcats,arizona,7.2,7.3-4.8
+35,Houston Cougars,houston,7.1,7.4-4.7
+36,Pittsburgh Panthers,pittsburgh,6.6,7.1-5.0
+37,Baylor Bears,baylor,6.5,6.6-5.5
+38,TCU Horned Frogs,tcu,6.4,6.8-5.3
+39,Illinois Fighting Illini,illinois,6.3,6.7-5.3
+40,Kentucky Wildcats,kentucky,5.4,4.6-7.4
+41,Kansas State Wildcats,kansasstate,5.1,7.0-5.1
+42,North Carolina Tar Heels,northcarolina,4.9,5.8-6.2
+43,Wisconsin Badgers,wisconsin,4.8,6.5-5.5
+44,Arizona State Sun Devils,arizonastate,4.8,6.0-6.1
+45,Colorado Buffaloes,colorado,4.5,6.0-6.1
+46,Cincinnati Bearcats,cincinnati,4.4,6.4-5.7
+47,Arkansas Razorbacks,arkansas,4.4,4.3-7.7
+48,Georgia Tech Yellow Jackets,georgiatech,4.2,5.8-6.3
+49,Mississippi State Bulldogs,mississippistate,4.1,4.6-7.4
+50,Boise State Broncos,boisestate,4.0,7.8-3.8
+51,NC State Wolfpack,ncstate,3.7,6.7-5.4
+52,Duke Blue Devils,duke,3.5,6.0-6.1
+53,Wake Forest Demon Deacons,wakeforest,3.4,6.3-5.8
+54,Oklahoma State Cowboys,oklahomastate,3.3,6.0-6.1
+55,Kansas Jayhawks,kansas,2.8,6.0-6.0
+56,Tulane Green Wave,tulane,2.3,8.2-4.2
+57,UCF Knights,ucf,2.1,6.1-5.9
+58,UNLV Rebels,unlv,1.8,9.0-3.6
+59,San Diego State Aztecs,sandiegostate,1.4,7.5-4.0
+60,Northwestern Wildcats,northwestern,1.4,4.9-7.1
+61,Maryland Terrapins,maryland,1.0,5.4-6.6
+62,California Golden Bears,california,0.9,5.6-6.5
+63,Minnesota Golden Gophers,minnesota,0.6,5.3-6.7
+64,UCLA Bruins,ucla,0.5,5.1-6.9
+65,Michigan State Spartans,michiganstate,0.3,4.6-7.4
+66,West Virginia Mountaineers,westvirginia,0.2,5.4-6.6
+67,Rutgers Scarlet Knights,rutgers,-0.2,5.1-6.9
+68,East Carolina Pirates,eastcarolina,-0.6,8.0-4.3
+69,Navy Midshipmen,navy,-0.7,7.9-4.4
+70,Syracuse Orange,syracuse,-0.8,4.8-7.2
+71,Purdue Boilermakers,purdue,-0.9,4.3-7.7
+72,Iowa State Cyclones,iowastate,-0.9,5.1-6.9
+73,South Florida Bulls,southflorida,-0.9,8.4-3.8
+74,Memphis Tigers,memphis,-1.9,7.0-5.2
+75,James Madison Dukes,jamesmadison,-2.0,8.2-4.2
+76,Hawai'i Rainbow Warriors,hawaii,-2.4,7.9-4.5
+77,Fresno State Bulldogs,fresnostate,-2.5,6.2-5.0
+78,Boston College Eagles,bostoncollege,-2.7,4.0-8.1
+79,Toledo Rockets,toledo,-3.0,8.4-4.0
+80,Stanford Cardinal,stanford,-3.3,3.9-8.1
+81,New Mexico Lobos,newmexico,-3.5,7.7-4.7
+82,Western Michigan Broncos,westernmichigan,-4.0,7.7-4.6
+83,Washington State Cougars,washingtonstate,-4.1,5.1-6.1
+84,Texas State Bobcats,texasstate,-4.3,5.6-5.6
+85,Old Dominion Monarchs,olddominion,-4.4,7.3-5.0
+86,Western Kentucky Hilltoppers,westernkentucky,-4.9,7.2-5.3
+87,Southern Miss Golden Eagles,southernmiss,-5.1,6.9-5.3
+88,UTSA Roadrunners,utsa,-5.3,6.4-5.7
+89,Army Black Knights,army,-5.6,6.4-5.7
+90,North Texas Mean Green,northtexas,-6.4,6.2-5.9
+91,Delaware Blue Hens,delaware,-6.6,6.9-5.5
+92,Utah State Aggies,utahstate,-6.7,4.7-6.4
+93,Air Force Falcons,airforce,-6.8,7.2-5.1
+94,Miami (OH) RedHawks,miamioh,-7.0,7.2-5.1
+95,Troy Trojans,troy,-7.4,6.6-5.6
+96,Liberty Flames,liberty,-7.7,7.4-4.9
+97,Ohio Bobcats,ohio,-8.0,7.1-5.1
+98,Oregon State Beavers,oregonstate,-8.1,4.4-6.7
+99,Louisiana Ragin' Cajuns,louisiana,-8.3,6.9-5.3
+100,North Dakota State Bison,northdakotastate,-8.3,6.6-5.6
+101,Jacksonville State Gamecocks,jacksonvillestate,-8.5,7.0-5.3
+102,Temple Owls,temple,-8.6,5.5-6.5
+103,Georgia Southern Eagles,georgiasouthern,-8.7,5.7-6.4
+104,Marshall Thundering Herd,marshall,-8.8,6.5-5.6
+105,Tulsa Golden Hurricane,tulsa,-9.0,5.7-6.3
+106,Kennesaw State Owls,kennesawstate,-9.0,6.5-5.8
+107,Arkansas State Red Wolves,arkansasstate,-9.2,6.3-5.9
+108,Louisiana Tech Bulldogs,louisianatech,-9.6,5.6-6.5
+109,App State Mountaineers,appalachianstate,-9.8,6.1-6.0
+110,Missouri State Bears,missouristate,-10.3,5.7-6.5
+111,Sacramento State Hornets,sacramentostate,-10.4,6.7-5.5
+112,South Alabama Jaguars,southalabama,-10.5,5.4-6.7
+113,Buffalo Bulls,buffalo,-10.8,6.6-5.5
+114,UConn Huskies,connecticut,-11.2,4.8-7.2
+115,Florida Atlantic Owls,floridaatlantic,-11.3,5.1-6.9
+116,Nevada Wolf Pack,nevada,-11.9,4.8-7.3
+117,Coastal Carolina Chanticleers,coastalcarolina,-12.1,5.2-6.9
+118,Colorado State Rams,coloradostate,-12.4,3.6-7.5
+119,Florida International Panthers,floridainternational,-12.6,5.9-6.2
+120,Central Michigan Chippewas,centralmichigan,-12.8,5.6-6.6
+121,Wyoming Cowboys,wyoming,-13.1,5.4-6.6
+122,Rice Owls,rice,-13.4,4.0-8.0
+123,Bowling Green Falcons,bowlinggreen,-13.7,4.7-7.4
+124,San José State Spartans,sanjosestate,-14.3,5.0-8.0
+125,Northern Illinois Huskies,northernillinois,-14.5,4.3-7.8
+126,Charlotte 49ers,charlotte,-14.6,3.9-8.1
+127,Georgia State Panthers,georgiastate,-15.2,4.6-7.5
+128,UAB Blazers,uab,-15.5,4.0-8.0
+129,New Mexico State Aggies,newmexicostate,-15.7,4.4-7.6
+130,Middle Tennessee Blue Raiders,middletennessee,-16.1,4.7-7.4
+131,Eastern Michigan Eagles,easternmichigan,-16.3,4.8-7.3
+132,UTEP Miners,utep,-16.6,4.1-8.0
+133,Akron Zips,akron,-16.9,4.4-7.7
+134,Ball State Cardinals,ballstate,-17.3,4.2-7.8
+135,Kent State Golden Flashes,kentstate,-17.9,3.8-8.3
+136,Sam Houston Bearkats,samhouston,-18.4,3.9-8.2
+137,Massachusetts Minutemen,massachusetts,-18.8,4.9-7.2
+138,UL Monroe Warhawks,louisianamonroe,-19.3,3.4-8.6

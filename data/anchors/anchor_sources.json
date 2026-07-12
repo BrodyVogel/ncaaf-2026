@@ -1,0 +1,92 @@
+{
+ "meta": {
+  "title": "CFB 2026 anchor/reference source manifest + dated capture",
+  "captured_date": "2026-07-12",
+  "purpose": "Catalogue of consensus rating sources for the 2026 power-ratings pipeline, plus dated value captures.",
+  "BLINDING": "COMPUTE-PHASE ONLY. Every source here is a 2026 consensus/power rating. Per project rules these must NEVER be shown to the grading layer or copied into /snapshots. Use only in the blend code.",
+  "team_naming": "team_raw = each source's own spelling. norm_key = provisional cross-source key (validated identical across all 5 sources, 138/138). FINAL mapping target is the CFBD canonical team list (not yet wired).",
+  "usage": "anchors_overall_<date>.csv = one overall rating per team per source (5 x 138 = 690 rows) - the blend input. Per-source CSVs carry components (off/def splits, Massey Pwr, FPI proj W-L).",
+  "capture_method": "SP+/FEI via WebFetch 2026-07-12; Massey/FPI/TeamRankings transcribed from user's in-browser copy 2026-07-12 (browser extension not connected).",
+  "n_files": 6
+ },
+ "sources": [
+  {
+   "name": "SP+ (Bill Connelly)",
+   "key": "sp_plus",
+   "url": "https://www.espn.com/college-football/story/_/id/48306284/2026-college-football-sp+-rankings-138-fbs-teams",
+   "class": "anchor (reference scale for the blend)",
+   "blinded_from_grading": true,
+   "format": "ESPN article table (WebFetch-readable)",
+   "coverage": "138 FBS",
+   "team_naming": "UConn, FIU, UMass, UL-Monroe, Ole Miss, Sam Houston, Miami/Miami (OH)",
+   "update_cadence": "preseason drop; occasional summer revision",
+   "capture_status": "CAPTURED (reference)",
+   "capture_file": "SP+_2026preseason_2026-07-12.csv",
+   "captured_date": "2026-07-12",
+   "fields": "rank, overall, off, def",
+   "canonical_source": "CFBD /ratings/sp - swap this ESPN capture for CFBD once the API key is live"
+  },
+  {
+   "name": "FEI (Brian Fremeau / BCF Toys)",
+   "key": "fei",
+   "url": "https://bcftoys.com/2026-fei",
+   "class": "research supplement per brief SS6, but a 2026 projection - also trips SS4 blinding; resolve placement at snapshot-tooling time",
+   "blinded_from_grading": true,
+   "format": "static HTML (WebFetch-readable)",
+   "coverage": "138 FBS",
+   "team_naming": "Connecticut, Florida International, Massachusetts, UL Monroe",
+   "update_cadence": "preseason drop (stable until games)",
+   "capture_status": "CAPTURED",
+   "capture_file": "FEI_2026preseason_2026-07-12.csv",
+   "captured_date": "2026-07-12",
+   "fields": "rank, FEI, OFEI, DFEI, SFEI (ELS/GLS/ALS/EWD/GWD/AWD on page, not captured)"
+  },
+  {
+   "name": "Massey (own model, NCAA CF)",
+   "key": "massey",
+   "url": "https://masseyratings.com/cf/ncaa/ratings",
+   "class": "anchor (interim consensus until August)",
+   "blinded_from_grading": true,
+   "format": "JS-rendered table (not WebFetch-able); captured from user's browser view",
+   "coverage": "138 FBS",
+   "team_naming": "Ohio St, Miami FL/OH, N Dakota St, UT San Antonio, WKU, MTSU, ULM, CS Sacramento, Kennesaw, Kent",
+   "update_cadence": "recomputed continuously - date every pull",
+   "capture_status": "CAPTURED",
+   "capture_file": "Massey_2026preseason_2026-07-12.csv",
+   "captured_date": "2026-07-12",
+   "fields": "rat (rank-primary, ~5.9-9.3), pwr/off/def (0-100-ish scale), hfa, ssf, exp W-L",
+   "notes": "This URL is Massey's OWN model, not the Massey COMPOSITE consensus at masseyratings.com/cf/compare that the project brief names as the anchor. Decide which to wire before the first real blend run. SoS column degenerate preseason (all 0.00) - dropped."
+  },
+  {
+   "name": "ESPN FPI",
+   "key": "fpi",
+   "url": "https://www.espn.com/college-football/fpi",
+   "class": "anchor (adds to blend)",
+   "blinded_from_grading": true,
+   "format": "JS-rendered table; captured from user's browser view (2026 dropdown)",
+   "coverage": "138 FBS",
+   "team_naming": "ESPN 'Team Mascot' names (mapped via longest-prefix)",
+   "update_cadence": "live model - will drift; date every pull",
+   "capture_status": "CAPTURED",
+   "capture_file": "FPI_2026preseason_2026-07-12.csv",
+   "captured_date": "2026-07-12",
+   "fields": "rank, FPI, proj W-L (page also has win-out/conf/playoff/NC probabilities - not captured)",
+   "notes": "Vintage confirmed 2026 preseason via the page's 2026 season selector. An earlier WebFetch of this URL returned the completed-2025 table - the page serves stale data to non-JS fetchers, so always verify vintage on capture."
+  },
+  {
+   "name": "TeamRankings - Predictive",
+   "key": "teamrankings",
+   "url": "https://www.teamrankings.com/college-football/ranking/predictive-by-other",
+   "class": "anchor (adds to blend)",
+   "blinded_from_grading": true,
+   "format": "HTML table but fetch-blocked (403); captured from user's browser view",
+   "coverage": "138 FBS",
+   "team_naming": "TR short forms (Ohio St, J Madison, S Florida, Georgia So, Coastal Car, Florida Intl, Middle Tenn)",
+   "update_cadence": "live model - will drift; date every pull",
+   "capture_status": "CAPTURED",
+   "capture_file": "TeamRankings_2026preseason_2026-07-12.csv",
+   "captured_date": "2026-07-12",
+   "fields": "rank, predictive rating (only meaningful preseason column; record/home-away/last-5 are placeholders)"
+  }
+ ]
+}

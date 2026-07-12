@@ -1,0 +1,139 @@
+rank,team_raw,norm_key,fei_overall,fei_off,fei_def,fei_st
+1,Ohio State,ohiostate,1.52,.65,.85,.04
+2,Oregon,oregon,1.40,.72,.61,.07
+3,Georgia,georgia,1.34,.62,.63,.10
+4,Notre Dame,notredame,1.29,.55,.71,.06
+5,Indiana,indiana,1.14,.44,.63,.09
+6,Alabama,alabama,1.07,.48,.57,.03
+7,Utah,utah,.97,.45,.44,.07
+8,Ole Miss,olemiss,.93,.55,.29,.10
+9,Texas Tech,texastech,.89,.07,.74,.09
+10,Michigan,michigan,.89,.39,.42,.07
+11,Penn State,pennstate,.89,.32,.44,.12
+12,Miami,miamifl,.88,.35,.55,.01
+13,Texas,texas,.88,.24,.56,.09
+14,Texas A&M,texasam,.85,.29,.52,.06
+15,Oklahoma,oklahoma,.80,.10,.63,.08
+16,Tennessee,tennessee,.80,.47,.32,.03
+17,USC,usc,.79,.63,.12,.04
+18,Washington,washington,.78,.36,.39,.00
+19,Iowa,iowa,.74,-.10,.68,.16
+20,BYU,byu,.61,.29,.31,.02
+21,Kansas State,kansasstate,.60,.24,.38,.00
+22,Vanderbilt,vanderbilt,.59,.49,.06,.04
+23,Missouri,missouri,.56,.10,.40,.04
+24,LSU,lsu,.55,.11,.42,.03
+25,Illinois,illinois,.52,.26,.22,.06
+26,Auburn,auburn,.51,.01,.46,.03
+27,Louisville,louisville,.50,.02,.40,.08
+28,Florida State,floridastate,.47,.29,.21,-.04
+29,Clemson,clemson,.47,.02,.44,.00
+30,SMU,smu,.44,.20,.27,.00
+31,TCU,tcu,.43,.18,.24,.00
+32,South Carolina,southcarolina,.43,-.07,.43,.06
+33,Iowa State,iowastate,.43,.10,.34,.01
+34,Arizona,arizona,.38,.13,.30,-.04
+35,Florida,florida,.36,.00,.27,.10
+36,Pittsburgh,pittsburgh,.33,-.06,.42,-.03
+37,NC State,ncstate,.33,.13,.23,-.01
+38,James Madison,jamesmadison,.29,.02,.29,-.02
+39,Arkansas,arkansas,.28,.28,-.02,.00
+40,Kansas,kansas,.28,.32,-.08,.04
+41,Wisconsin,wisconsin,.27,-.22,.42,.05
+42,Kentucky,kentucky,.27,-.12,.34,.03
+43,Arizona State,arizonastate,.26,.05,.26,-.06
+44,Nebraska,nebraska,.25,.02,.15,.08
+45,Cincinnati,cincinnati,.24,.20,.01,.03
+46,Washington State,washingtonstate,.23,-.08,.32,-.01
+47,Virginia,virginia,.22,-.05,.26,-.01
+48,Mississippi State,mississippistate,.22,.07,.14,.02
+49,Baylor,baylor,.20,.13,.02,.05
+50,Georgia Tech,georgiatech,.20,.13,.01,.05
+51,Minnesota,minnesota,.20,-.01,.22,.00
+52,Wake Forest,wakeforest,.19,-.14,.31,.02
+53,Boise State,boisestate,.19,-.03,.21,-.01
+54,Duke,duke,.17,.18,-.06,.04
+55,Tulane,tulane,.14,-.03,.16,.04
+56,Houston,houston,.13,.06,.10,-.03
+57,South Florida,southflorida,.10,.04,.09,-.03
+58,Northwestern,northwestern,.09,-.15,.21,.04
+59,Maryland,maryland,.08,-.16,.23,.02
+60,UCLA,ucla,.08,.00,.01,.05
+61,Toledo,toledo,.07,-.17,.18,.03
+62,North Texas,northtexas,.07,.27,-.14,-.06
+63,Memphis,memphis,.05,.02,.05,-.01
+64,UCF,ucf,.04,-.14,.20,-.02
+65,East Carolina,eastcarolina,.04,-.09,.15,-.03
+66,Navy,navy,.03,.03,.01,-.01
+67,Rutgers,rutgers,.01,.17,-.21,.06
+68,Michigan State,michiganstate,-.02,-.08,.04,.04
+69,Army,army,-.02,-.08,.06,.02
+70,UTSA,utsa,-.02,.02,-.01,-.03
+71,Old Dominion,olddominion,-.03,-.22,.26,-.06
+72,San Diego State,sandiegostate,-.06,-.37,.23,.07
+73,California,california,-.07,-.16,.08,-.01
+74,West Virginia,westvirginia,-.07,-.13,.08,-.04
+75,Virginia Tech,virginiatech,-.08,-.08,-.04,.00
+76,Purdue,purdue,-.10,-.11,.03,-.01
+77,UNLV,unlv,-.12,-.04,-.12,.04
+78,Fresno State,fresnostate,-.14,-.38,.20,.02
+79,Colorado,colorado,-.15,-.17,.06,-.06
+80,Boston College,bostoncollege,-.22,-.13,-.11,.01
+81,North Carolina,northcarolina,-.23,-.13,-.12,.03
+82,Air Force,airforce,-.23,.14,-.33,-.04
+83,Stanford,stanford,-.24,-.30,.06,.00
+84,Oklahoma State,oklahomastate,-.25,-.26,.02,.01
+85,Western Michigan,westernmichigan,-.25,-.30,.10,-.04
+86,Syracuse,syracuse,-.26,-.29,.08,-.03
+87,Ohio,ohio,-.28,-.15,-.06,-.06
+88,Texas State,texasstate,-.28,.00,-.22,-.07
+89,Utah State,utahstate,-.28,-.12,-.14,-.02
+90,Marshall,marshall,-.30,-.29,.01,-.02
+91,Western Kentucky,westernkentucky,-.30,-.21,-.07,-.01
+92,Miami (OH),miamioh,-.32,-.37,.02,.02
+93,Troy,troy,-.36,-.45,.11,-.02
+94,Hawaii,hawaii,-.37,-.27,-.17,.05
+95,Oregon State,oregonstate,-.37,-.23,-.04,-.12
+96,New Mexico,newmexico,-.37,-.30,-.09,.00
+97,Liberty,liberty,-.41,-.16,-.26,-.01
+98,Louisiana,louisiana,-.46,-.28,-.17,-.02
+99,Connecticut,connecticut,-.46,-.18,-.27,.01
+100,Jacksonville State,jacksonvillestate,-.49,-.32,-.13,-.05
+101,Wyoming,wyoming,-.50,-.53,.05,-.03
+102,Louisiana Tech,louisianatech,-.51,-.41,-.12,.01
+103,Appalachian State,appalachianstate,-.52,-.22,-.30,-.02
+104,South Alabama,southalabama,-.52,-.19,-.25,-.07
+105,San Jose State,sanjosestate,-.53,-.31,-.14,-.08
+106,Coastal Carolina,coastalcarolina,-.58,-.32,-.17,-.09
+107,Georgia Southern,georgiasouthern,-.60,-.10,-.47,-.03
+108,Missouri State,missouristate,-.60,-.20,-.40,.00
+109,Colorado State,coloradostate,-.61,-.38,-.26,.00
+110,Kennesaw State,kennesawstate,-.61,-.31,-.25,-.03
+111,Central Michigan,centralmichigan,-.64,-.45,-.14,-.03
+112,Arkansas State,arkansasstate,-.64,-.45,-.21,.03
+113,Temple,temple,-.64,-.26,-.33,-.09
+114,Florida Atlantic,floridaatlantic,-.65,-.27,-.32,-.07
+115,Tulsa,tulsa,-.66,-.45,-.17,-.07
+116,Northern Illinois,northernillinois,-.68,-.45,-.21,-.01
+117,Southern Miss,southernmiss,-.69,-.50,-.13,-.05
+118,UAB,uab,-.70,-.26,-.39,-.08
+119,Bowling Green,bowlinggreen,-.71,-.65,-.06,.00
+120,Buffalo,buffalo,-.72,-.65,-.05,-.03
+121,Nevada,nevada,-.77,-.56,-.19,-.05
+122,Georgia State,georgiastate,-.79,-.33,-.35,-.11
+123,Eastern Michigan,easternmichigan,-.80,-.32,-.45,-.03
+124,Delaware,delaware,-.80,-.40,-.40,.00
+125,Florida International,floridainternational,-.83,-.56,-.21,-.05
+126,Rice,rice,-.85,-.55,-.20,-.08
+127,Middle Tennessee,middletennessee,-.86,-.48,-.39,-.02
+128,UTEP,utep,-.89,-.63,-.21,-.07
+129,New Mexico State,newmexicostate,-.89,-.57,-.28,-.03
+130,Ball State,ballstate,-.95,-.63,-.28,-.05
+131,North Dakota State,northdakotastate,-1.00,-.50,-.50,.00
+132,Sacramento State,sacramentostate,-1.00,-.50,-.50,.00
+133,UL Monroe,louisianamonroe,-1.02,-.53,-.32,-.17
+134,Sam Houston,samhouston,-1.02,-.65,-.33,-.04
+135,Kent State,kentstate,-1.06,-.43,-.55,-.05
+136,Charlotte,charlotte,-1.06,-.63,-.35,-.03
+137,Akron,akron,-1.06,-.61,-.33,-.11
+138,Massachusetts,massachusetts,-1.54,-.75,-.75,-.08

@@ -1,0 +1,691 @@
+source,team_raw,norm_key,overall_rating,rank,scale,captured_date
+SP+ (ESPN ref),Ohio State,ohiostate,31.8,1,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Oregon,oregon,28.3,2,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Notre Dame,notredame,25.8,3,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Georgia,georgia,25.5,4,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Indiana,indiana,24.5,5,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Texas,texas,23.7,6,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Texas Tech,texastech,23.1,7,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Miami,miamifl,21.0,8,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Texas A&M,texasam,20.3,9,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),LSU,lsu,20.2,10,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Alabama,alabama,18.2,11,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Oklahoma,oklahoma,17.2,12,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),USC,usc,16.8,13,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Michigan,michigan,16.1,14,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Tennessee,tennessee,16.0,15,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Ole Miss,olemiss,15.9,16,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Penn State,pennstate,15.7,17,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),BYU,byu,15.5,18,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Florida,florida,14.9,19,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Missouri,missouri,14.8,20,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Washington,washington,14.5,21,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Iowa,iowa,13.6,22,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Clemson,clemson,12.8,23,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),South Carolina,southcarolina,12.1,24,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Utah,utah,11.9,25,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Auburn,auburn,11.2,26,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Louisville,louisville,11.0,27,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),SMU,smu,10.9,28,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Kansas State,kansasstate,10.4,29,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Arizona,arizona,10.2,30,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Vanderbilt,vanderbilt,10.0,31,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Virginia Tech,virginiatech,9.4,32,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Illinois,illinois,9.3,33,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),TCU,tcu,9.1,34,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Florida State,floridastate,8.8,35,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Houston,houston,8.2,36,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Nebraska,nebraska,7.7,37,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Oklahoma State,oklahomastate,7.1,38,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Boise State,boisestate,6.8,39,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Virginia,virginia,6.6,40,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Pittsburgh,pittsburgh,6.5,41,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Arizona State,arizonastate,6.4,42,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Georgia Tech,georgiatech,6.0,43,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Duke,duke,5.7,44,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Minnesota,minnesota,5.2,45,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),UCLA,ucla,5.1,46,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Arkansas,arkansas,5.0,47,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),NC State,ncstate,4.9,48,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Northwestern,northwestern,4.6,49,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Cincinnati,cincinnati,4.5,50,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Baylor,baylor,4.5,51,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Mississippi State,mississippistate,3.9,52,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Kentucky,kentucky,3.8,53,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),North Carolina,northcarolina,3.8,54,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Maryland,maryland,3.8,55,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),California,california,3.7,56,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Kansas,kansas,3.7,57,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Wake Forest,wakeforest,3.6,58,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),UNLV,unlv,2.8,59,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),UCF,ucf,2.3,60,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Wisconsin,wisconsin,1.8,61,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Rutgers,rutgers,1.8,62,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Navy,navy,1.1,63,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Iowa State,iowastate,1.0,64,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Colorado,colorado,0.9,65,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),West Virginia,westvirginia,0.8,66,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Michigan State,michiganstate,0.4,67,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),New Mexico,newmexico,-0.5,68,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Syracuse,syracuse,-0.7,69,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Memphis,memphis,-1.1,70,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),San Diego State,sandiegostate,-1.3,71,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),North Dakota State,northdakotastate,-1.4,72,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),UTSA,utsa,-1.5,73,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Boston College,bostoncollege,-1.5,74,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Stanford,stanford,-1.9,75,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),East Carolina,eastcarolina,-2.0,76,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),James Madison,jamesmadison,-2.1,77,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Fresno State,fresnostate,-2.3,78,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Air Force,airforce,-2.4,79,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),South Florida,southflorida,-2.8,80,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Miami (OH),miamioh,-2.9,81,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Purdue,purdue,-2.9,82,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Army,army,-3.0,83,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Hawaii,hawaii,-3.9,84,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Washington State,washingtonstate,-5.3,85,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Western Kentucky,westernkentucky,-5.3,86,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Tulane,tulane,-5.5,87,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Old Dominion,olddominion,-5.8,88,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Texas State,texasstate,-5.9,89,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Troy,troy,-6.0,90,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Oregon State,oregonstate,-6.3,91,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Marshall,marshall,-6.4,92,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Liberty,liberty,-6.4,93,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Florida Atlantic,floridaatlantic,-7.1,94,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Western Michigan,westernmichigan,-7.2,95,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Tulsa,tulsa,-7.6,96,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Utah State,utahstate,-7.7,97,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Jacksonville State,jacksonvillestate,-7.7,98,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Colorado State,coloradostate,-8.3,99,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Louisiana Tech,louisianatech,-8.3,100,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Arkansas State,arkansasstate,-8.5,101,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Temple,temple,-8.7,102,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Georgia Southern,georgiasouthern,-8.9,103,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Louisiana,louisiana,-9.1,104,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Kennesaw State,kennesawstate,-9.3,105,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Wyoming,wyoming,-9.6,106,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),UConn,connecticut,-11.2,107,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Toledo,toledo,-11.5,108,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),North Texas,northtexas,-11.8,109,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Buffalo,buffalo,-11.9,110,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Appalachian State,appalachianstate,-12.1,111,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Nevada,nevada,-12.2,112,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Central Michigan,centralmichigan,-12.4,113,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Delaware,delaware,-13.0,114,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Bowling Green,bowlinggreen,-13.3,115,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),South Alabama,southalabama,-13.3,116,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Ohio,ohio,-13.6,117,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),FIU,floridainternational,-13.7,118,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Coastal Carolina,coastalcarolina,-13.8,119,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Rice,rice,-14.7,120,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Eastern Michigan,easternmichigan,-15.0,121,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),San Jose State,sanjosestate,-15.5,122,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),New Mexico State,newmexicostate,-16.4,123,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),UAB,uab,-18.1,124,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Northern Illinois,northernillinois,-18.2,125,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Missouri State,missouristate,-18.7,126,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Akron,akron,-19.5,127,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Kent State,kentstate,-20.1,128,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),UTEP,utep,-20.5,129,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Sacramento State,sacramentostate,-22.7,130,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Southern Miss,southernmiss,-23.3,131,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),UL-Monroe,louisianamonroe,-24.3,132,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Georgia State,georgiastate,-25.1,133,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Ball State,ballstate,-25.2,134,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Middle Tennessee,middletennessee,-26.0,135,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Sam Houston,samhouston,-26.3,136,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),UMass,massachusetts,-30.9,137,SP+ points vs avg,2026-07-12
+SP+ (ESPN ref),Charlotte,charlotte,-32.4,138,SP+ points vs avg,2026-07-12
+FEI,Ohio State,ohiostate,1.52,1,FEI (pts/poss vs avg),2026-07-12
+FEI,Oregon,oregon,1.40,2,FEI (pts/poss vs avg),2026-07-12
+FEI,Georgia,georgia,1.34,3,FEI (pts/poss vs avg),2026-07-12
+FEI,Notre Dame,notredame,1.29,4,FEI (pts/poss vs avg),2026-07-12
+FEI,Indiana,indiana,1.14,5,FEI (pts/poss vs avg),2026-07-12
+FEI,Alabama,alabama,1.07,6,FEI (pts/poss vs avg),2026-07-12
+FEI,Utah,utah,.97,7,FEI (pts/poss vs avg),2026-07-12
+FEI,Ole Miss,olemiss,.93,8,FEI (pts/poss vs avg),2026-07-12
+FEI,Texas Tech,texastech,.89,9,FEI (pts/poss vs avg),2026-07-12
+FEI,Michigan,michigan,.89,10,FEI (pts/poss vs avg),2026-07-12
+FEI,Penn State,pennstate,.89,11,FEI (pts/poss vs avg),2026-07-12
+FEI,Miami,miamifl,.88,12,FEI (pts/poss vs avg),2026-07-12
+FEI,Texas,texas,.88,13,FEI (pts/poss vs avg),2026-07-12
+FEI,Texas A&M,texasam,.85,14,FEI (pts/poss vs avg),2026-07-12
+FEI,Oklahoma,oklahoma,.80,15,FEI (pts/poss vs avg),2026-07-12
+FEI,Tennessee,tennessee,.80,16,FEI (pts/poss vs avg),2026-07-12
+FEI,USC,usc,.79,17,FEI (pts/poss vs avg),2026-07-12
+FEI,Washington,washington,.78,18,FEI (pts/poss vs avg),2026-07-12
+FEI,Iowa,iowa,.74,19,FEI (pts/poss vs avg),2026-07-12
+FEI,BYU,byu,.61,20,FEI (pts/poss vs avg),2026-07-12
+FEI,Kansas State,kansasstate,.60,21,FEI (pts/poss vs avg),2026-07-12
+FEI,Vanderbilt,vanderbilt,.59,22,FEI (pts/poss vs avg),2026-07-12
+FEI,Missouri,missouri,.56,23,FEI (pts/poss vs avg),2026-07-12
+FEI,LSU,lsu,.55,24,FEI (pts/poss vs avg),2026-07-12
+FEI,Illinois,illinois,.52,25,FEI (pts/poss vs avg),2026-07-12
+FEI,Auburn,auburn,.51,26,FEI (pts/poss vs avg),2026-07-12
+FEI,Louisville,louisville,.50,27,FEI (pts/poss vs avg),2026-07-12
+FEI,Florida State,floridastate,.47,28,FEI (pts/poss vs avg),2026-07-12
+FEI,Clemson,clemson,.47,29,FEI (pts/poss vs avg),2026-07-12
+FEI,SMU,smu,.44,30,FEI (pts/poss vs avg),2026-07-12
+FEI,TCU,tcu,.43,31,FEI (pts/poss vs avg),2026-07-12
+FEI,South Carolina,southcarolina,.43,32,FEI (pts/poss vs avg),2026-07-12
+FEI,Iowa State,iowastate,.43,33,FEI (pts/poss vs avg),2026-07-12
+FEI,Arizona,arizona,.38,34,FEI (pts/poss vs avg),2026-07-12
+FEI,Florida,florida,.36,35,FEI (pts/poss vs avg),2026-07-12
+FEI,Pittsburgh,pittsburgh,.33,36,FEI (pts/poss vs avg),2026-07-12
+FEI,NC State,ncstate,.33,37,FEI (pts/poss vs avg),2026-07-12
+FEI,James Madison,jamesmadison,.29,38,FEI (pts/poss vs avg),2026-07-12
+FEI,Arkansas,arkansas,.28,39,FEI (pts/poss vs avg),2026-07-12
+FEI,Kansas,kansas,.28,40,FEI (pts/poss vs avg),2026-07-12
+FEI,Wisconsin,wisconsin,.27,41,FEI (pts/poss vs avg),2026-07-12
+FEI,Kentucky,kentucky,.27,42,FEI (pts/poss vs avg),2026-07-12
+FEI,Arizona State,arizonastate,.26,43,FEI (pts/poss vs avg),2026-07-12
+FEI,Nebraska,nebraska,.25,44,FEI (pts/poss vs avg),2026-07-12
+FEI,Cincinnati,cincinnati,.24,45,FEI (pts/poss vs avg),2026-07-12
+FEI,Washington State,washingtonstate,.23,46,FEI (pts/poss vs avg),2026-07-12
+FEI,Virginia,virginia,.22,47,FEI (pts/poss vs avg),2026-07-12
+FEI,Mississippi State,mississippistate,.22,48,FEI (pts/poss vs avg),2026-07-12
+FEI,Baylor,baylor,.20,49,FEI (pts/poss vs avg),2026-07-12
+FEI,Georgia Tech,georgiatech,.20,50,FEI (pts/poss vs avg),2026-07-12
+FEI,Minnesota,minnesota,.20,51,FEI (pts/poss vs avg),2026-07-12
+FEI,Wake Forest,wakeforest,.19,52,FEI (pts/poss vs avg),2026-07-12
+FEI,Boise State,boisestate,.19,53,FEI (pts/poss vs avg),2026-07-12
+FEI,Duke,duke,.17,54,FEI (pts/poss vs avg),2026-07-12
+FEI,Tulane,tulane,.14,55,FEI (pts/poss vs avg),2026-07-12
+FEI,Houston,houston,.13,56,FEI (pts/poss vs avg),2026-07-12
+FEI,South Florida,southflorida,.10,57,FEI (pts/poss vs avg),2026-07-12
+FEI,Northwestern,northwestern,.09,58,FEI (pts/poss vs avg),2026-07-12
+FEI,Maryland,maryland,.08,59,FEI (pts/poss vs avg),2026-07-12
+FEI,UCLA,ucla,.08,60,FEI (pts/poss vs avg),2026-07-12
+FEI,Toledo,toledo,.07,61,FEI (pts/poss vs avg),2026-07-12
+FEI,North Texas,northtexas,.07,62,FEI (pts/poss vs avg),2026-07-12
+FEI,Memphis,memphis,.05,63,FEI (pts/poss vs avg),2026-07-12
+FEI,UCF,ucf,.04,64,FEI (pts/poss vs avg),2026-07-12
+FEI,East Carolina,eastcarolina,.04,65,FEI (pts/poss vs avg),2026-07-12
+FEI,Navy,navy,.03,66,FEI (pts/poss vs avg),2026-07-12
+FEI,Rutgers,rutgers,.01,67,FEI (pts/poss vs avg),2026-07-12
+FEI,Michigan State,michiganstate,-.02,68,FEI (pts/poss vs avg),2026-07-12
+FEI,Army,army,-.02,69,FEI (pts/poss vs avg),2026-07-12
+FEI,UTSA,utsa,-.02,70,FEI (pts/poss vs avg),2026-07-12
+FEI,Old Dominion,olddominion,-.03,71,FEI (pts/poss vs avg),2026-07-12
+FEI,San Diego State,sandiegostate,-.06,72,FEI (pts/poss vs avg),2026-07-12
+FEI,California,california,-.07,73,FEI (pts/poss vs avg),2026-07-12
+FEI,West Virginia,westvirginia,-.07,74,FEI (pts/poss vs avg),2026-07-12
+FEI,Virginia Tech,virginiatech,-.08,75,FEI (pts/poss vs avg),2026-07-12
+FEI,Purdue,purdue,-.10,76,FEI (pts/poss vs avg),2026-07-12
+FEI,UNLV,unlv,-.12,77,FEI (pts/poss vs avg),2026-07-12
+FEI,Fresno State,fresnostate,-.14,78,FEI (pts/poss vs avg),2026-07-12
+FEI,Colorado,colorado,-.15,79,FEI (pts/poss vs avg),2026-07-12
+FEI,Boston College,bostoncollege,-.22,80,FEI (pts/poss vs avg),2026-07-12
+FEI,North Carolina,northcarolina,-.23,81,FEI (pts/poss vs avg),2026-07-12
+FEI,Air Force,airforce,-.23,82,FEI (pts/poss vs avg),2026-07-12
+FEI,Stanford,stanford,-.24,83,FEI (pts/poss vs avg),2026-07-12
+FEI,Oklahoma State,oklahomastate,-.25,84,FEI (pts/poss vs avg),2026-07-12
+FEI,Western Michigan,westernmichigan,-.25,85,FEI (pts/poss vs avg),2026-07-12
+FEI,Syracuse,syracuse,-.26,86,FEI (pts/poss vs avg),2026-07-12
+FEI,Ohio,ohio,-.28,87,FEI (pts/poss vs avg),2026-07-12
+FEI,Texas State,texasstate,-.28,88,FEI (pts/poss vs avg),2026-07-12
+FEI,Utah State,utahstate,-.28,89,FEI (pts/poss vs avg),2026-07-12
+FEI,Marshall,marshall,-.30,90,FEI (pts/poss vs avg),2026-07-12
+FEI,Western Kentucky,westernkentucky,-.30,91,FEI (pts/poss vs avg),2026-07-12
+FEI,Miami (OH),miamioh,-.32,92,FEI (pts/poss vs avg),2026-07-12
+FEI,Troy,troy,-.36,93,FEI (pts/poss vs avg),2026-07-12
+FEI,Hawaii,hawaii,-.37,94,FEI (pts/poss vs avg),2026-07-12
+FEI,Oregon State,oregonstate,-.37,95,FEI (pts/poss vs avg),2026-07-12
+FEI,New Mexico,newmexico,-.37,96,FEI (pts/poss vs avg),2026-07-12
+FEI,Liberty,liberty,-.41,97,FEI (pts/poss vs avg),2026-07-12
+FEI,Louisiana,louisiana,-.46,98,FEI (pts/poss vs avg),2026-07-12
+FEI,Connecticut,connecticut,-.46,99,FEI (pts/poss vs avg),2026-07-12
+FEI,Jacksonville State,jacksonvillestate,-.49,100,FEI (pts/poss vs avg),2026-07-12
+FEI,Wyoming,wyoming,-.50,101,FEI (pts/poss vs avg),2026-07-12
+FEI,Louisiana Tech,louisianatech,-.51,102,FEI (pts/poss vs avg),2026-07-12
+FEI,Appalachian State,appalachianstate,-.52,103,FEI (pts/poss vs avg),2026-07-12
+FEI,South Alabama,southalabama,-.52,104,FEI (pts/poss vs avg),2026-07-12
+FEI,San Jose State,sanjosestate,-.53,105,FEI (pts/poss vs avg),2026-07-12
+FEI,Coastal Carolina,coastalcarolina,-.58,106,FEI (pts/poss vs avg),2026-07-12
+FEI,Georgia Southern,georgiasouthern,-.60,107,FEI (pts/poss vs avg),2026-07-12
+FEI,Missouri State,missouristate,-.60,108,FEI (pts/poss vs avg),2026-07-12
+FEI,Colorado State,coloradostate,-.61,109,FEI (pts/poss vs avg),2026-07-12
+FEI,Kennesaw State,kennesawstate,-.61,110,FEI (pts/poss vs avg),2026-07-12
+FEI,Central Michigan,centralmichigan,-.64,111,FEI (pts/poss vs avg),2026-07-12
+FEI,Arkansas State,arkansasstate,-.64,112,FEI (pts/poss vs avg),2026-07-12
+FEI,Temple,temple,-.64,113,FEI (pts/poss vs avg),2026-07-12
+FEI,Florida Atlantic,floridaatlantic,-.65,114,FEI (pts/poss vs avg),2026-07-12
+FEI,Tulsa,tulsa,-.66,115,FEI (pts/poss vs avg),2026-07-12
+FEI,Northern Illinois,northernillinois,-.68,116,FEI (pts/poss vs avg),2026-07-12
+FEI,Southern Miss,southernmiss,-.69,117,FEI (pts/poss vs avg),2026-07-12
+FEI,UAB,uab,-.70,118,FEI (pts/poss vs avg),2026-07-12
+FEI,Bowling Green,bowlinggreen,-.71,119,FEI (pts/poss vs avg),2026-07-12
+FEI,Buffalo,buffalo,-.72,120,FEI (pts/poss vs avg),2026-07-12
+FEI,Nevada,nevada,-.77,121,FEI (pts/poss vs avg),2026-07-12
+FEI,Georgia State,georgiastate,-.79,122,FEI (pts/poss vs avg),2026-07-12
+FEI,Eastern Michigan,easternmichigan,-.80,123,FEI (pts/poss vs avg),2026-07-12
+FEI,Delaware,delaware,-.80,124,FEI (pts/poss vs avg),2026-07-12
+FEI,Florida International,floridainternational,-.83,125,FEI (pts/poss vs avg),2026-07-12
+FEI,Rice,rice,-.85,126,FEI (pts/poss vs avg),2026-07-12
+FEI,Middle Tennessee,middletennessee,-.86,127,FEI (pts/poss vs avg),2026-07-12
+FEI,UTEP,utep,-.89,128,FEI (pts/poss vs avg),2026-07-12
+FEI,New Mexico State,newmexicostate,-.89,129,FEI (pts/poss vs avg),2026-07-12
+FEI,Ball State,ballstate,-.95,130,FEI (pts/poss vs avg),2026-07-12
+FEI,North Dakota State,northdakotastate,-1.00,131,FEI (pts/poss vs avg),2026-07-12
+FEI,Sacramento State,sacramentostate,-1.00,132,FEI (pts/poss vs avg),2026-07-12
+FEI,UL Monroe,louisianamonroe,-1.02,133,FEI (pts/poss vs avg),2026-07-12
+FEI,Sam Houston,samhouston,-1.02,134,FEI (pts/poss vs avg),2026-07-12
+FEI,Kent State,kentstate,-1.06,135,FEI (pts/poss vs avg),2026-07-12
+FEI,Charlotte,charlotte,-1.06,136,FEI (pts/poss vs avg),2026-07-12
+FEI,Akron,akron,-1.06,137,FEI (pts/poss vs avg),2026-07-12
+FEI,Massachusetts,massachusetts,-1.54,138,FEI (pts/poss vs avg),2026-07-12
+Massey (own model),Ohio St,ohiostate,9.30,1,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Indiana,indiana,9.18,2,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Notre Dame,notredame,9.02,3,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Oregon,oregon,9.00,4,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Georgia,georgia,8.89,5,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Mississippi,olemiss,8.74,6,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Alabama,alabama,8.74,7,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Penn St,pennstate,8.73,8,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Texas,texas,8.70,9,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Miami FL,miamifl,8.68,10,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Texas Tech,texastech,8.65,11,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Michigan,michigan,8.63,12,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Utah,utah,8.62,13,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),USC,usc,8.53,14,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Washington,washington,8.50,15,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Iowa,iowa,8.50,16,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Oklahoma,oklahoma,8.50,17,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Texas A&M,texasam,8.49,18,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Tennessee,tennessee,8.47,19,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),BYU,byu,8.34,20,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Missouri,missouri,8.30,21,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Louisville,louisville,8.30,22,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),LSU,lsu,8.29,23,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Iowa St,iowastate,8.26,24,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),SMU,smu,8.26,25,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Vanderbilt,vanderbilt,8.24,26,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Clemson,clemson,8.24,27,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),TCU,tcu,8.23,28,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Kansas St,kansasstate,8.21,29,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Illinois,illinois,8.21,30,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Arizona,arizona,8.18,31,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Auburn,auburn,8.18,32,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),South Carolina,southcarolina,8.16,33,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Florida,florida,8.12,34,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Arizona St,arizonastate,8.03,35,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Florida St,floridastate,8.03,36,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Wisconsin,wisconsin,8.02,37,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Georgia Tech,georgiatech,8.01,38,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Nebraska,nebraska,8.00,39,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Arkansas,arkansas,7.98,40,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Kentucky,kentucky,7.98,41,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Pittsburgh,pittsburgh,7.98,42,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Duke,duke,7.96,43,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Virginia,virginia,7.96,44,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Kansas,kansas,7.93,45,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),NC State,ncstate,7.92,46,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Houston,houston,7.90,47,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),James Madison,jamesmadison,7.89,48,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Minnesota,minnesota,7.89,49,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Cincinnati,cincinnati,7.87,50,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Northwestern,northwestern,7.87,51,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Baylor,baylor,7.86,52,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Mississippi St,mississippistate,7.86,53,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Boise St,boisestate,7.85,54,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Tulane,tulane,7.84,55,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Michigan St,michiganstate,7.82,56,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Washington St,washingtonstate,7.82,57,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Rutgers,rutgers,7.79,58,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Maryland,maryland,7.79,59,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),UCLA,ucla,7.79,60,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Wake Forest,wakeforest,7.78,61,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),South Florida,southflorida,7.74,62,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),UCF,ucf,7.73,63,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),North Texas,northtexas,7.69,64,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Memphis,memphis,7.68,65,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),East Carolina,eastcarolina,7.68,66,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),West Virginia,westvirginia,7.66,67,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Virginia Tech,virginiatech,7.65,68,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),California,california,7.65,69,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Colorado,colorado,7.65,70,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),N Dakota St,northdakotastate,7.62,71,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Navy,navy,7.59,72,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),North Carolina,northcarolina,7.57,73,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Purdue,purdue,7.57,74,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),UT San Antonio,utsa,7.57,75,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Toledo,toledo,7.56,76,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Army,army,7.54,77,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),UNLV,unlv,7.54,78,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Old Dominion,olddominion,7.53,79,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Boston College,bostoncollege,7.51,80,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),San Diego St,sandiegostate,7.46,81,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Fresno St,fresnostate,7.45,82,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Stanford,stanford,7.43,83,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Oklahoma St,oklahomastate,7.39,84,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Syracuse,syracuse,7.37,85,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Ohio,ohio,7.34,86,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Oregon St,oregonstate,7.31,87,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Utah St,utahstate,7.31,88,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Texas St,texasstate,7.28,89,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),W Michigan,westernmichigan,7.24,90,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Miami OH,miamioh,7.24,91,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),WKU,westernkentucky,7.23,92,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Air Force,airforce,7.23,93,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),New Mexico,newmexico,7.23,94,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Marshall,marshall,7.22,95,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Troy,troy,7.17,96,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Hawaii,hawaii,7.14,97,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Connecticut,connecticut,7.13,98,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Wyoming,wyoming,7.09,99,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Louisiana Tech,louisianatech,7.04,100,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),South Alabama,southalabama,7.03,101,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Louisiana,louisiana,7.00,102,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),San Jose St,sanjosestate,6.99,103,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Jacksonville St,jacksonvillestate,6.97,104,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Ga Southern,georgiasouthern,6.95,105,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Temple,temple,6.94,106,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Appalachian St,appalachianstate,6.92,107,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Liberty,liberty,6.91,108,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),C Michigan,centralmichigan,6.90,109,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Bowling Green,bowlinggreen,6.90,110,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Nevada,nevada,6.88,111,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),FL Atlantic,floridaatlantic,6.86,112,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Arkansas St,arkansasstate,6.86,113,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Colorado St,coloradostate,6.86,114,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),N Illinois,northernillinois,6.84,115,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Coastal Car,coastalcarolina,6.83,116,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Tulsa,tulsa,6.81,117,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Missouri St,missouristate,6.78,118,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Southern Miss,southernmiss,6.77,119,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Buffalo,buffalo,6.75,120,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),UAB,uab,6.73,121,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Rice,rice,6.72,122,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),E Michigan,easternmichigan,6.68,123,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Florida Intl,floridainternational,6.66,124,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Georgia St,georgiastate,6.62,125,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),CS Sacramento,sacramentostate,6.59,126,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Kennesaw,kennesawstate,6.57,127,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),MTSU,middletennessee,6.57,128,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Delaware,delaware,6.56,129,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),New Mexico St,newmexicostate,6.54,130,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Akron,akron,6.53,131,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Ball St,ballstate,6.53,132,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),UTEP,utep,6.53,133,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Charlotte,charlotte,6.49,134,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),ULM,louisianamonroe,6.46,135,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Sam Houston St,samhouston,6.43,136,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Kent,kentstate,6.32,137,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+Massey (own model),Massachusetts,massachusetts,5.90,138,Massey Rat (~5.9-9.3); Pwr/Off/Def in per-source csv,2026-07-12
+ESPN FPI,Ohio State Buckeyes,ohiostate,28.7,1,FPI points vs avg,2026-07-12
+ESPN FPI,Texas Longhorns,texas,26.9,2,FPI points vs avg,2026-07-12
+ESPN FPI,Notre Dame Fighting Irish,notredame,25.9,3,FPI points vs avg,2026-07-12
+ESPN FPI,Oregon Ducks,oregon,25.3,4,FPI points vs avg,2026-07-12
+ESPN FPI,Georgia Bulldogs,georgia,24.8,5,FPI points vs avg,2026-07-12
+ESPN FPI,Indiana Hoosiers,indiana,23.1,6,FPI points vs avg,2026-07-12
+ESPN FPI,Miami Hurricanes,miamifl,21.8,7,FPI points vs avg,2026-07-12
+ESPN FPI,Alabama Crimson Tide,alabama,20.1,8,FPI points vs avg,2026-07-12
+ESPN FPI,LSU Tigers,lsu,20.0,9,FPI points vs avg,2026-07-12
+ESPN FPI,Texas Tech Red Raiders,texastech,20.0,10,FPI points vs avg,2026-07-12
+ESPN FPI,Texas A&M Aggies,texasam,20.0,11,FPI points vs avg,2026-07-12
+ESPN FPI,Oklahoma Sooners,oklahoma,17.8,12,FPI points vs avg,2026-07-12
+ESPN FPI,USC Trojans,usc,17.0,13,FPI points vs avg,2026-07-12
+ESPN FPI,Ole Miss Rebels,olemiss,16.0,14,FPI points vs avg,2026-07-12
+ESPN FPI,Michigan Wolverines,michigan,15.9,15,FPI points vs avg,2026-07-12
+ESPN FPI,Tennessee Volunteers,tennessee,15.1,16,FPI points vs avg,2026-07-12
+ESPN FPI,Penn State Nittany Lions,pennstate,13.7,17,FPI points vs avg,2026-07-12
+ESPN FPI,Florida Gators,florida,13.6,18,FPI points vs avg,2026-07-12
+ESPN FPI,Clemson Tigers,clemson,13.4,19,FPI points vs avg,2026-07-12
+ESPN FPI,BYU Cougars,byu,13.1,20,FPI points vs avg,2026-07-12
+ESPN FPI,Missouri Tigers,missouri,12.2,21,FPI points vs avg,2026-07-12
+ESPN FPI,Auburn Tigers,auburn,12.0,22,FPI points vs avg,2026-07-12
+ESPN FPI,South Carolina Gamecocks,southcarolina,11.7,23,FPI points vs avg,2026-07-12
+ESPN FPI,SMU Mustangs,smu,11.1,24,FPI points vs avg,2026-07-12
+ESPN FPI,Iowa Hawkeyes,iowa,10.6,25,FPI points vs avg,2026-07-12
+ESPN FPI,Washington Huskies,washington,9.9,26,FPI points vs avg,2026-07-12
+ESPN FPI,Louisville Cardinals,louisville,9.5,27,FPI points vs avg,2026-07-12
+ESPN FPI,Florida State Seminoles,floridastate,9.3,28,FPI points vs avg,2026-07-12
+ESPN FPI,Vanderbilt Commodores,vanderbilt,9.0,29,FPI points vs avg,2026-07-12
+ESPN FPI,Nebraska Cornhuskers,nebraska,8.8,30,FPI points vs avg,2026-07-12
+ESPN FPI,Utah Utes,utah,8.5,31,FPI points vs avg,2026-07-12
+ESPN FPI,Virginia Cavaliers,virginia,7.9,32,FPI points vs avg,2026-07-12
+ESPN FPI,Virginia Tech Hokies,virginiatech,7.4,33,FPI points vs avg,2026-07-12
+ESPN FPI,Arizona Wildcats,arizona,7.2,34,FPI points vs avg,2026-07-12
+ESPN FPI,Houston Cougars,houston,7.1,35,FPI points vs avg,2026-07-12
+ESPN FPI,Pittsburgh Panthers,pittsburgh,6.6,36,FPI points vs avg,2026-07-12
+ESPN FPI,Baylor Bears,baylor,6.5,37,FPI points vs avg,2026-07-12
+ESPN FPI,TCU Horned Frogs,tcu,6.4,38,FPI points vs avg,2026-07-12
+ESPN FPI,Illinois Fighting Illini,illinois,6.3,39,FPI points vs avg,2026-07-12
+ESPN FPI,Kentucky Wildcats,kentucky,5.4,40,FPI points vs avg,2026-07-12
+ESPN FPI,Kansas State Wildcats,kansasstate,5.1,41,FPI points vs avg,2026-07-12
+ESPN FPI,North Carolina Tar Heels,northcarolina,4.9,42,FPI points vs avg,2026-07-12
+ESPN FPI,Wisconsin Badgers,wisconsin,4.8,43,FPI points vs avg,2026-07-12
+ESPN FPI,Arizona State Sun Devils,arizonastate,4.8,44,FPI points vs avg,2026-07-12
+ESPN FPI,Colorado Buffaloes,colorado,4.5,45,FPI points vs avg,2026-07-12
+ESPN FPI,Cincinnati Bearcats,cincinnati,4.4,46,FPI points vs avg,2026-07-12
+ESPN FPI,Arkansas Razorbacks,arkansas,4.4,47,FPI points vs avg,2026-07-12
+ESPN FPI,Georgia Tech Yellow Jackets,georgiatech,4.2,48,FPI points vs avg,2026-07-12
+ESPN FPI,Mississippi State Bulldogs,mississippistate,4.1,49,FPI points vs avg,2026-07-12
+ESPN FPI,Boise State Broncos,boisestate,4.0,50,FPI points vs avg,2026-07-12
+ESPN FPI,NC State Wolfpack,ncstate,3.7,51,FPI points vs avg,2026-07-12
+ESPN FPI,Duke Blue Devils,duke,3.5,52,FPI points vs avg,2026-07-12
+ESPN FPI,Wake Forest Demon Deacons,wakeforest,3.4,53,FPI points vs avg,2026-07-12
+ESPN FPI,Oklahoma State Cowboys,oklahomastate,3.3,54,FPI points vs avg,2026-07-12
+ESPN FPI,Kansas Jayhawks,kansas,2.8,55,FPI points vs avg,2026-07-12
+ESPN FPI,Tulane Green Wave,tulane,2.3,56,FPI points vs avg,2026-07-12
+ESPN FPI,UCF Knights,ucf,2.1,57,FPI points vs avg,2026-07-12
+ESPN FPI,UNLV Rebels,unlv,1.8,58,FPI points vs avg,2026-07-12
+ESPN FPI,San Diego State Aztecs,sandiegostate,1.4,59,FPI points vs avg,2026-07-12
+ESPN FPI,Northwestern Wildcats,northwestern,1.4,60,FPI points vs avg,2026-07-12
+ESPN FPI,Maryland Terrapins,maryland,1.0,61,FPI points vs avg,2026-07-12
+ESPN FPI,California Golden Bears,california,0.9,62,FPI points vs avg,2026-07-12
+ESPN FPI,Minnesota Golden Gophers,minnesota,0.6,63,FPI points vs avg,2026-07-12
+ESPN FPI,UCLA Bruins,ucla,0.5,64,FPI points vs avg,2026-07-12
+ESPN FPI,Michigan State Spartans,michiganstate,0.3,65,FPI points vs avg,2026-07-12
+ESPN FPI,West Virginia Mountaineers,westvirginia,0.2,66,FPI points vs avg,2026-07-12
+ESPN FPI,Rutgers Scarlet Knights,rutgers,-0.2,67,FPI points vs avg,2026-07-12
+ESPN FPI,East Carolina Pirates,eastcarolina,-0.6,68,FPI points vs avg,2026-07-12
+ESPN FPI,Navy Midshipmen,navy,-0.7,69,FPI points vs avg,2026-07-12
+ESPN FPI,Syracuse Orange,syracuse,-0.8,70,FPI points vs avg,2026-07-12
+ESPN FPI,Purdue Boilermakers,purdue,-0.9,71,FPI points vs avg,2026-07-12
+ESPN FPI,Iowa State Cyclones,iowastate,-0.9,72,FPI points vs avg,2026-07-12
+ESPN FPI,South Florida Bulls,southflorida,-0.9,73,FPI points vs avg,2026-07-12
+ESPN FPI,Memphis Tigers,memphis,-1.9,74,FPI points vs avg,2026-07-12
+ESPN FPI,James Madison Dukes,jamesmadison,-2.0,75,FPI points vs avg,2026-07-12
+ESPN FPI,Hawai'i Rainbow Warriors,hawaii,-2.4,76,FPI points vs avg,2026-07-12
+ESPN FPI,Fresno State Bulldogs,fresnostate,-2.5,77,FPI points vs avg,2026-07-12
+ESPN FPI,Boston College Eagles,bostoncollege,-2.7,78,FPI points vs avg,2026-07-12
+ESPN FPI,Toledo Rockets,toledo,-3.0,79,FPI points vs avg,2026-07-12
+ESPN FPI,Stanford Cardinal,stanford,-3.3,80,FPI points vs avg,2026-07-12
+ESPN FPI,New Mexico Lobos,newmexico,-3.5,81,FPI points vs avg,2026-07-12
+ESPN FPI,Western Michigan Broncos,westernmichigan,-4.0,82,FPI points vs avg,2026-07-12
+ESPN FPI,Washington State Cougars,washingtonstate,-4.1,83,FPI points vs avg,2026-07-12
+ESPN FPI,Texas State Bobcats,texasstate,-4.3,84,FPI points vs avg,2026-07-12
+ESPN FPI,Old Dominion Monarchs,olddominion,-4.4,85,FPI points vs avg,2026-07-12
+ESPN FPI,Western Kentucky Hilltoppers,westernkentucky,-4.9,86,FPI points vs avg,2026-07-12
+ESPN FPI,Southern Miss Golden Eagles,southernmiss,-5.1,87,FPI points vs avg,2026-07-12
+ESPN FPI,UTSA Roadrunners,utsa,-5.3,88,FPI points vs avg,2026-07-12
+ESPN FPI,Army Black Knights,army,-5.6,89,FPI points vs avg,2026-07-12
+ESPN FPI,North Texas Mean Green,northtexas,-6.4,90,FPI points vs avg,2026-07-12
+ESPN FPI,Delaware Blue Hens,delaware,-6.6,91,FPI points vs avg,2026-07-12
+ESPN FPI,Utah State Aggies,utahstate,-6.7,92,FPI points vs avg,2026-07-12
+ESPN FPI,Air Force Falcons,airforce,-6.8,93,FPI points vs avg,2026-07-12
+ESPN FPI,Miami (OH) RedHawks,miamioh,-7.0,94,FPI points vs avg,2026-07-12
+ESPN FPI,Troy Trojans,troy,-7.4,95,FPI points vs avg,2026-07-12
+ESPN FPI,Liberty Flames,liberty,-7.7,96,FPI points vs avg,2026-07-12
+ESPN FPI,Ohio Bobcats,ohio,-8.0,97,FPI points vs avg,2026-07-12
+ESPN FPI,Oregon State Beavers,oregonstate,-8.1,98,FPI points vs avg,2026-07-12
+ESPN FPI,Louisiana Ragin' Cajuns,louisiana,-8.3,99,FPI points vs avg,2026-07-12
+ESPN FPI,North Dakota State Bison,northdakotastate,-8.3,100,FPI points vs avg,2026-07-12
+ESPN FPI,Jacksonville State Gamecocks,jacksonvillestate,-8.5,101,FPI points vs avg,2026-07-12
+ESPN FPI,Temple Owls,temple,-8.6,102,FPI points vs avg,2026-07-12
+ESPN FPI,Georgia Southern Eagles,georgiasouthern,-8.7,103,FPI points vs avg,2026-07-12
+ESPN FPI,Marshall Thundering Herd,marshall,-8.8,104,FPI points vs avg,2026-07-12
+ESPN FPI,Tulsa Golden Hurricane,tulsa,-9.0,105,FPI points vs avg,2026-07-12
+ESPN FPI,Kennesaw State Owls,kennesawstate,-9.0,106,FPI points vs avg,2026-07-12
+ESPN FPI,Arkansas State Red Wolves,arkansasstate,-9.2,107,FPI points vs avg,2026-07-12
+ESPN FPI,Louisiana Tech Bulldogs,louisianatech,-9.6,108,FPI points vs avg,2026-07-12
+ESPN FPI,App State Mountaineers,appalachianstate,-9.8,109,FPI points vs avg,2026-07-12
+ESPN FPI,Missouri State Bears,missouristate,-10.3,110,FPI points vs avg,2026-07-12
+ESPN FPI,Sacramento State Hornets,sacramentostate,-10.4,111,FPI points vs avg,2026-07-12
+ESPN FPI,South Alabama Jaguars,southalabama,-10.5,112,FPI points vs avg,2026-07-12
+ESPN FPI,Buffalo Bulls,buffalo,-10.8,113,FPI points vs avg,2026-07-12
+ESPN FPI,UConn Huskies,connecticut,-11.2,114,FPI points vs avg,2026-07-12
+ESPN FPI,Florida Atlantic Owls,floridaatlantic,-11.3,115,FPI points vs avg,2026-07-12
+ESPN FPI,Nevada Wolf Pack,nevada,-11.9,116,FPI points vs avg,2026-07-12
+ESPN FPI,Coastal Carolina Chanticleers,coastalcarolina,-12.1,117,FPI points vs avg,2026-07-12
+ESPN FPI,Colorado State Rams,coloradostate,-12.4,118,FPI points vs avg,2026-07-12
+ESPN FPI,Florida International Panthers,floridainternational,-12.6,119,FPI points vs avg,2026-07-12
+ESPN FPI,Central Michigan Chippewas,centralmichigan,-12.8,120,FPI points vs avg,2026-07-12
+ESPN FPI,Wyoming Cowboys,wyoming,-13.1,121,FPI points vs avg,2026-07-12
+ESPN FPI,Rice Owls,rice,-13.4,122,FPI points vs avg,2026-07-12
+ESPN FPI,Bowling Green Falcons,bowlinggreen,-13.7,123,FPI points vs avg,2026-07-12
+ESPN FPI,San José State Spartans,sanjosestate,-14.3,124,FPI points vs avg,2026-07-12
+ESPN FPI,Northern Illinois Huskies,northernillinois,-14.5,125,FPI points vs avg,2026-07-12
+ESPN FPI,Charlotte 49ers,charlotte,-14.6,126,FPI points vs avg,2026-07-12
+ESPN FPI,Georgia State Panthers,georgiastate,-15.2,127,FPI points vs avg,2026-07-12
+ESPN FPI,UAB Blazers,uab,-15.5,128,FPI points vs avg,2026-07-12
+ESPN FPI,New Mexico State Aggies,newmexicostate,-15.7,129,FPI points vs avg,2026-07-12
+ESPN FPI,Middle Tennessee Blue Raiders,middletennessee,-16.1,130,FPI points vs avg,2026-07-12
+ESPN FPI,Eastern Michigan Eagles,easternmichigan,-16.3,131,FPI points vs avg,2026-07-12
+ESPN FPI,UTEP Miners,utep,-16.6,132,FPI points vs avg,2026-07-12
+ESPN FPI,Akron Zips,akron,-16.9,133,FPI points vs avg,2026-07-12
+ESPN FPI,Ball State Cardinals,ballstate,-17.3,134,FPI points vs avg,2026-07-12
+ESPN FPI,Kent State Golden Flashes,kentstate,-17.9,135,FPI points vs avg,2026-07-12
+ESPN FPI,Sam Houston Bearkats,samhouston,-18.4,136,FPI points vs avg,2026-07-12
+ESPN FPI,Massachusetts Minutemen,massachusetts,-18.8,137,FPI points vs avg,2026-07-12
+ESPN FPI,UL Monroe Warhawks,louisianamonroe,-19.3,138,FPI points vs avg,2026-07-12
+TeamRankings Predictive,Ohio St,ohiostate,32.3,1,points vs avg,2026-07-12
+TeamRankings Predictive,Oregon,oregon,29.5,2,points vs avg,2026-07-12
+TeamRankings Predictive,Notre Dame,notredame,29.1,3,points vs avg,2026-07-12
+TeamRankings Predictive,Indiana,indiana,29.0,4,points vs avg,2026-07-12
+TeamRankings Predictive,Georgia,georgia,28.4,5,points vs avg,2026-07-12
+TeamRankings Predictive,Texas,texas,28.4,6,points vs avg,2026-07-12
+TeamRankings Predictive,Miami,miamifl,25.3,7,points vs avg,2026-07-12
+TeamRankings Predictive,Texas Tech,texastech,23.8,8,points vs avg,2026-07-12
+TeamRankings Predictive,Texas A&M,texasam,22.7,9,points vs avg,2026-07-12
+TeamRankings Predictive,Mississippi,olemiss,22.3,10,points vs avg,2026-07-12
+TeamRankings Predictive,LSU,lsu,22.1,11,points vs avg,2026-07-12
+TeamRankings Predictive,Oklahoma,oklahoma,22.0,12,points vs avg,2026-07-12
+TeamRankings Predictive,Alabama,alabama,21.6,13,points vs avg,2026-07-12
+TeamRankings Predictive,USC,usc,20.9,14,points vs avg,2026-07-12
+TeamRankings Predictive,Michigan,michigan,19.8,15,points vs avg,2026-07-12
+TeamRankings Predictive,Florida,florida,17.4,16,points vs avg,2026-07-12
+TeamRankings Predictive,Tennessee,tennessee,16.8,17,points vs avg,2026-07-12
+TeamRankings Predictive,Washington,washington,16.4,18,points vs avg,2026-07-12
+TeamRankings Predictive,Penn St,pennstate,16.4,19,points vs avg,2026-07-12
+TeamRankings Predictive,Missouri,missouri,15.4,20,points vs avg,2026-07-12
+TeamRankings Predictive,BYU,byu,14.6,21,points vs avg,2026-07-12
+TeamRankings Predictive,SMU,smu,14.4,22,points vs avg,2026-07-12
+TeamRankings Predictive,Iowa,iowa,13.9,23,points vs avg,2026-07-12
+TeamRankings Predictive,Louisville,louisville,13.7,24,points vs avg,2026-07-12
+TeamRankings Predictive,Auburn,auburn,13.4,25,points vs avg,2026-07-12
+TeamRankings Predictive,Utah,utah,12.8,26,points vs avg,2026-07-12
+TeamRankings Predictive,South Carolina,southcarolina,12.2,27,points vs avg,2026-07-12
+TeamRankings Predictive,Clemson,clemson,11.6,28,points vs avg,2026-07-12
+TeamRankings Predictive,Houston,houston,10.6,29,points vs avg,2026-07-12
+TeamRankings Predictive,Kansas St,kansasstate,10.2,30,points vs avg,2026-07-12
+TeamRankings Predictive,Pittsburgh,pittsburgh,10.0,31,points vs avg,2026-07-12
+TeamRankings Predictive,Vanderbilt,vanderbilt,9.8,32,points vs avg,2026-07-12
+TeamRankings Predictive,Illinois,illinois,9.2,33,points vs avg,2026-07-12
+TeamRankings Predictive,Virginia,virginia,9.0,34,points vs avg,2026-07-12
+TeamRankings Predictive,Kentucky,kentucky,8.9,35,points vs avg,2026-07-12
+TeamRankings Predictive,Arizona St,arizonastate,8.7,36,points vs avg,2026-07-12
+TeamRankings Predictive,Arizona,arizona,8.7,37,points vs avg,2026-07-12
+TeamRankings Predictive,TCU,tcu,8.4,38,points vs avg,2026-07-12
+TeamRankings Predictive,Wisconsin,wisconsin,8.4,39,points vs avg,2026-07-12
+TeamRankings Predictive,UCLA,ucla,8.2,40,points vs avg,2026-07-12
+TeamRankings Predictive,Virginia Tech,virginiatech,8.2,41,points vs avg,2026-07-12
+TeamRankings Predictive,Minnesota,minnesota,8.1,42,points vs avg,2026-07-12
+TeamRankings Predictive,Nebraska,nebraska,8.0,43,points vs avg,2026-07-12
+TeamRankings Predictive,Florida St,floridastate,7.3,44,points vs avg,2026-07-12
+TeamRankings Predictive,Oklahoma St,oklahomastate,6.7,45,points vs avg,2026-07-12
+TeamRankings Predictive,Boise St,boisestate,6.7,46,points vs avg,2026-07-12
+TeamRankings Predictive,Mississippi St,mississippistate,6.4,47,points vs avg,2026-07-12
+TeamRankings Predictive,NC State,ncstate,6.2,48,points vs avg,2026-07-12
+TeamRankings Predictive,Georgia Tech,georgiatech,5.8,49,points vs avg,2026-07-12
+TeamRankings Predictive,Kansas,kansas,5.4,50,points vs avg,2026-07-12
+TeamRankings Predictive,Northwestern,northwestern,4.8,51,points vs avg,2026-07-12
+TeamRankings Predictive,Arkansas,arkansas,4.7,52,points vs avg,2026-07-12
+TeamRankings Predictive,Baylor,baylor,4.6,53,points vs avg,2026-07-12
+TeamRankings Predictive,West Virginia,westvirginia,4.5,54,points vs avg,2026-07-12
+TeamRankings Predictive,California,california,4.0,55,points vs avg,2026-07-12
+TeamRankings Predictive,UCF,ucf,3.3,56,points vs avg,2026-07-12
+TeamRankings Predictive,Maryland,maryland,2.9,57,points vs avg,2026-07-12
+TeamRankings Predictive,Wake Forest,wakeforest,2.4,58,points vs avg,2026-07-12
+TeamRankings Predictive,North Carolina,northcarolina,2.1,59,points vs avg,2026-07-12
+TeamRankings Predictive,Fresno St,fresnostate,2.0,60,points vs avg,2026-07-12
+TeamRankings Predictive,Duke,duke,1.9,61,points vs avg,2026-07-12
+TeamRankings Predictive,San Diego St,sandiegostate,1.1,62,points vs avg,2026-07-12
+TeamRankings Predictive,Navy,navy,0.9,63,points vs avg,2026-07-12
+TeamRankings Predictive,Rutgers,rutgers,0.8,64,points vs avg,2026-07-12
+TeamRankings Predictive,Cincinnati,cincinnati,0.3,65,points vs avg,2026-07-12
+TeamRankings Predictive,Iowa St,iowastate,0.0,66,points vs avg,2026-07-12
+TeamRankings Predictive,Syracuse,syracuse,-0.2,67,points vs avg,2026-07-12
+TeamRankings Predictive,Michigan St,michiganstate,-0.3,68,points vs avg,2026-07-12
+TeamRankings Predictive,UNLV,unlv,-0.8,69,points vs avg,2026-07-12
+TeamRankings Predictive,Army,army,-1.2,70,points vs avg,2026-07-12
+TeamRankings Predictive,Colorado,colorado,-1.4,71,points vs avg,2026-07-12
+TeamRankings Predictive,UTSA,utsa,-1.5,72,points vs avg,2026-07-12
+TeamRankings Predictive,J Madison,jamesmadison,-1.5,73,points vs avg,2026-07-12
+TeamRankings Predictive,Memphis,memphis,-1.5,74,points vs avg,2026-07-12
+TeamRankings Predictive,Washington St,washingtonstate,-1.6,75,points vs avg,2026-07-12
+TeamRankings Predictive,Texas St,texasstate,-2.0,76,points vs avg,2026-07-12
+TeamRankings Predictive,New Mexico,newmexico,-2.1,77,points vs avg,2026-07-12
+TeamRankings Predictive,Purdue,purdue,-2.1,78,points vs avg,2026-07-12
+TeamRankings Predictive,S Florida,southflorida,-2.4,79,points vs avg,2026-07-12
+TeamRankings Predictive,North Dakota State,northdakotastate,-2.8,80,points vs avg,2026-07-12
+TeamRankings Predictive,Tulane,tulane,-2.8,81,points vs avg,2026-07-12
+TeamRankings Predictive,Stanford,stanford,-3.0,82,points vs avg,2026-07-12
+TeamRankings Predictive,E Carolina,eastcarolina,-3.7,83,points vs avg,2026-07-12
+TeamRankings Predictive,Utah St,utahstate,-3.8,84,points vs avg,2026-07-12
+TeamRankings Predictive,Old Dominion,olddominion,-4.6,85,points vs avg,2026-07-12
+TeamRankings Predictive,Boston College,bostoncollege,-6.2,86,points vs avg,2026-07-12
+TeamRankings Predictive,Hawai'i,hawaii,-6.3,87,points vs avg,2026-07-12
+TeamRankings Predictive,Air Force,airforce,-7.4,88,points vs avg,2026-07-12
+TeamRankings Predictive,Troy,troy,-7.7,89,points vs avg,2026-07-12
+TeamRankings Predictive,W Michigan,westernmichigan,-8.3,90,points vs avg,2026-07-12
+TeamRankings Predictive,W Kentucky,westernkentucky,-8.4,91,points vs avg,2026-07-12
+TeamRankings Predictive,Liberty,liberty,-8.5,92,points vs avg,2026-07-12
+TeamRankings Predictive,Toledo,toledo,-8.6,93,points vs avg,2026-07-12
+TeamRankings Predictive,Louisiana Tech,louisianatech,-8.6,94,points vs avg,2026-07-12
+TeamRankings Predictive,N Texas,northtexas,-8.7,95,points vs avg,2026-07-12
+TeamRankings Predictive,Florida Atlantic,floridaatlantic,-8.7,96,points vs avg,2026-07-12
+TeamRankings Predictive,Marshall,marshall,-8.8,97,points vs avg,2026-07-12
+TeamRankings Predictive,Oregon St,oregonstate,-10.0,98,points vs avg,2026-07-12
+TeamRankings Predictive,Louisiana,louisiana,-10.3,99,points vs avg,2026-07-12
+TeamRankings Predictive,Tulsa,tulsa,-10.3,100,points vs avg,2026-07-12
+TeamRankings Predictive,Miami OH,miamioh,-10.6,101,points vs avg,2026-07-12
+TeamRankings Predictive,Colorado St,coloradostate,-10.7,102,points vs avg,2026-07-12
+TeamRankings Predictive,Jacksonville St,jacksonvillestate,-10.7,103,points vs avg,2026-07-12
+TeamRankings Predictive,S Alabama,southalabama,-10.8,104,points vs avg,2026-07-12
+TeamRankings Predictive,Ohio,ohio,-10.9,105,points vs avg,2026-07-12
+TeamRankings Predictive,Temple,temple,-10.9,106,points vs avg,2026-07-12
+TeamRankings Predictive,UConn,connecticut,-10.9,107,points vs avg,2026-07-12
+TeamRankings Predictive,App State,appalachianstate,-10.9,108,points vs avg,2026-07-12
+TeamRankings Predictive,Arkansas St,arkansasstate,-11.0,109,points vs avg,2026-07-12
+TeamRankings Predictive,Georgia So,georgiasouthern,-11.7,110,points vs avg,2026-07-12
+TeamRankings Predictive,Delaware,delaware,-12.5,111,points vs avg,2026-07-12
+TeamRankings Predictive,C Michigan,centralmichigan,-12.6,112,points vs avg,2026-07-12
+TeamRankings Predictive,Wyoming,wyoming,-13.3,113,points vs avg,2026-07-12
+TeamRankings Predictive,Coastal Car,coastalcarolina,-13.8,114,points vs avg,2026-07-12
+TeamRankings Predictive,E Michigan,easternmichigan,-13.9,115,points vs avg,2026-07-12
+TeamRankings Predictive,Kennesaw St,kennesawstate,-14.2,116,points vs avg,2026-07-12
+TeamRankings Predictive,San Jose St,sanjosestate,-14.9,117,points vs avg,2026-07-12
+TeamRankings Predictive,Florida Intl,floridainternational,-15.0,118,points vs avg,2026-07-12
+TeamRankings Predictive,Rice,rice,-15.2,119,points vs avg,2026-07-12
+TeamRankings Predictive,Buffalo,buffalo,-16.5,120,points vs avg,2026-07-12
+TeamRankings Predictive,Bowling Green,bowlinggreen,-17.7,121,points vs avg,2026-07-12
+TeamRankings Predictive,Southern Miss,southernmiss,-17.7,122,points vs avg,2026-07-12
+TeamRankings Predictive,Akron,akron,-17.9,123,points vs avg,2026-07-12
+TeamRankings Predictive,Nevada,nevada,-18.1,124,points vs avg,2026-07-12
+TeamRankings Predictive,UAB,uab,-18.2,125,points vs avg,2026-07-12
+TeamRankings Predictive,New Mexico St,newmexicostate,-18.4,126,points vs avg,2026-07-12
+TeamRankings Predictive,Missouri St,missouristate,-18.9,127,points vs avg,2026-07-12
+TeamRankings Predictive,Sacramento State,sacramentostate,-19.2,128,points vs avg,2026-07-12
+TeamRankings Predictive,Georgia St,georgiastate,-19.4,129,points vs avg,2026-07-12
+TeamRankings Predictive,UL Monroe,louisianamonroe,-19.8,130,points vs avg,2026-07-12
+TeamRankings Predictive,N Illinois,northernillinois,-20.6,131,points vs avg,2026-07-12
+TeamRankings Predictive,Middle Tenn,middletennessee,-20.9,132,points vs avg,2026-07-12
+TeamRankings Predictive,UTEP,utep,-21.0,133,points vs avg,2026-07-12
+TeamRankings Predictive,Kent St,kentstate,-22.1,134,points vs avg,2026-07-12
+TeamRankings Predictive,Ball St,ballstate,-23.0,135,points vs avg,2026-07-12
+TeamRankings Predictive,Charlotte,charlotte,-23.3,136,points vs avg,2026-07-12
+TeamRankings Predictive,Sam Houston,samhouston,-24.1,137,points vs avg,2026-07-12
+TeamRankings Predictive,UMass,massachusetts,-28.5,138,points vs avg,2026-07-12
