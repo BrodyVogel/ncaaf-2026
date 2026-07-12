@@ -1,139 +1,139 @@
-rank,team_raw,norm_key,sp_plus_overall,sp_plus_off,sp_plus_def
-1,Ohio State,ohiostate,31.8,40.6,8.8
-2,Oregon,oregon,28.3,40.7,12.6
-3,Notre Dame,notredame,25.8,40.2,14.6
-4,Georgia,georgia,25.5,38.2,13.3
-5,Indiana,indiana,24.5,37.4,13.5
-6,Texas,texas,23.7,37.6,14.3
-7,Texas Tech,texastech,23.1,37.6,14.7
-8,Miami,miamifl,21.0,34.4,13.7
-9,Texas A&M,texasam,20.3,37.3,16.7
-10,LSU,lsu,20.2,32.5,12.5
-11,Alabama,alabama,18.2,31.3,12.6
-12,Oklahoma,oklahoma,17.2,31.6,14.7
-13,USC,usc,16.8,37.7,20.5
-14,Michigan,michigan,16.1,32.8,16.2
-15,Tennessee,tennessee,16.0,38.7,23.0
-16,Ole Miss,olemiss,15.9,35.0,19.7
-17,Penn State,pennstate,15.7,33.6,18.6
-18,BYU,byu,15.5,33.3,18.1
-19,Florida,florida,14.9,30.2,15.9
-20,Missouri,missouri,14.8,32.2,16.9
-21,Washington,washington,14.5,32.4,17.6
-22,Iowa,iowa,13.6,30.3,17.3
-23,Clemson,clemson,12.8,29.5,17.0
-24,South Carolina,southcarolina,12.1,29.9,18.4
-25,Utah,utah,11.9,33.0,21.1
-26,Auburn,auburn,11.2,28.4,17.5
-27,Louisville,louisville,11.0,30.6,19.7
-28,SMU,smu,10.9,31.9,20.7
-29,Kansas State,kansasstate,10.4,33.1,23.0
-30,Arizona,arizona,10.2,31.5,20.8
-31,Vanderbilt,vanderbilt,10.0,33.4,24.1
-32,Virginia Tech,virginiatech,9.4,31.1,21.5
-33,Illinois,illinois,9.3,31.5,22.7
-34,TCU,tcu,9.1,31.3,21.9
-35,Florida State,floridastate,8.8,29.7,20.6
-36,Houston,houston,8.2,31.3,22.8
-37,Nebraska,nebraska,7.7,29.2,21.5
-38,Oklahoma State,oklahomastate,7.1,30.0,23.4
-39,Boise State,boisestate,6.8,29.9,22.8
-40,Virginia,virginia,6.6,26.3,19.9
-41,Pittsburgh,pittsburgh,6.5,30.2,23.8
-42,Arizona State,arizonastate,6.4,28.2,21.2
-43,Georgia Tech,georgiatech,6.0,28.8,23.4
-44,Duke,duke,5.7,32.8,27.5
-45,Minnesota,minnesota,5.2,25.3,19.5
-46,UCLA,ucla,5.1,29.0,23.9
-47,Arkansas,arkansas,5.0,34.1,29.3
-48,NC State,ncstate,4.9,30.7,25.3
-49,Northwestern,northwestern,4.6,24.5,20.4
-50,Cincinnati,cincinnati,4.5,29.6,25.4
-51,Baylor,baylor,4.5,32.2,28.3
-52,Mississippi State,mississippistate,3.9,30.1,26.7
-53,Kentucky,kentucky,3.8,25.0,21.2
-54,North Carolina,northcarolina,3.8,24.5,21.1
-55,Maryland,maryland,3.8,26.1,22.7
-56,California,california,3.7,29.2,25.2
-57,Kansas,kansas,3.7,29.0,25.9
-58,Wake Forest,wakeforest,3.6,24.2,20.7
-59,UNLV,unlv,2.8,31.2,28.4
-60,UCF,ucf,2.3,24.5,22.1
-61,Wisconsin,wisconsin,1.8,20.6,18.5
-62,Rutgers,rutgers,1.8,30.4,28.7
-63,Navy,navy,1.1,27.8,26.9
-64,Iowa State,iowastate,1.0,22.9,22.4
-65,Colorado,colorado,0.9,26.3,24.9
-66,West Virginia,westvirginia,0.8,26.3,25.6
-67,Michigan State,michiganstate,0.4,26.7,25.9
-68,New Mexico,newmexico,-0.5,25.3,26.4
-69,Syracuse,syracuse,-0.7,23.9,25.0
-70,Memphis,memphis,-1.1,28.3,30.0
-71,San Diego State,sandiegostate,-1.3,23.1,25.0
-72,North Dakota State,northdakotastate,-1.4,24.4,25.8
-73,UTSA,utsa,-1.5,29.5,31.2
-74,Boston College,bostoncollege,-1.5,25.4,27.4
-75,Stanford,stanford,-1.9,22.7,24.0
-76,East Carolina,eastcarolina,-2.0,24.2,26.0
-77,James Madison,jamesmadison,-2.1,25.0,26.7
-78,Fresno State,fresnostate,-2.3,20.6,22.9
-79,Air Force,airforce,-2.4,25.3,27.7
-80,South Florida,southflorida,-2.8,27.5,30.1
-81,Miami (OH),miamioh,-2.9,19.5,22.9
-82,Purdue,purdue,-2.9,23.8,27.4
-83,Army,army,-3.0,24.5,27.6
-84,Hawaii,hawaii,-3.9,25.3,29.8
-85,Washington State,washingtonstate,-5.3,19.9,25.1
-86,Western Kentucky,westernkentucky,-5.3,25.2,31.0
-87,Tulane,tulane,-5.5,22.2,28.3
-88,Old Dominion,olddominion,-5.8,20.2,25.3
-89,Texas State,texasstate,-5.9,31.8,37.8
-90,Troy,troy,-6.0,23.6,29.8
-91,Oregon State,oregonstate,-6.3,20.9,26.5
-92,Marshall,marshall,-6.4,28.5,35.2
-93,Liberty,liberty,-6.4,25.5,31.7
-94,Florida Atlantic,floridaatlantic,-7.1,27.2,34.9
-95,Western Michigan,westernmichigan,-7.2,19.0,25.8
-96,Tulsa,tulsa,-7.6,23.5,31.7
-97,Utah State,utahstate,-7.7,23.7,30.9
-98,Jacksonville State,jacksonvillestate,-7.7,24.8,32.0
-99,Colorado State,coloradostate,-8.3,18.8,27.0
-100,Louisiana Tech,louisianatech,-8.3,22.3,30.6
-101,Arkansas State,arkansasstate,-8.5,23.7,32.3
-102,Temple,temple,-8.7,25.2,34.3
-103,Georgia Southern,georgiasouthern,-8.9,23.2,32.1
-104,Louisiana,louisiana,-9.1,25.2,33.9
-105,Kennesaw State,kennesawstate,-9.3,21.3,30.1
-106,Wyoming,wyoming,-9.6,16.0,25.0
-107,UConn,connecticut,-11.2,20.3,32.1
-108,Toledo,toledo,-11.5,16.7,27.9
-109,North Texas,northtexas,-11.8,23.6,35.2
-110,Buffalo,buffalo,-11.9,15.7,28.1
-111,Appalachian State,appalachianstate,-12.1,21.2,33.6
-112,Nevada,nevada,-12.2,17.4,30.0
-113,Central Michigan,centralmichigan,-12.4,17.4,29.6
-114,Delaware,delaware,-13.0,22.7,35.4
-115,Bowling Green,bowlinggreen,-13.3,14.8,28.3
-116,South Alabama,southalabama,-13.3,22.7,35.4
-117,Ohio,ohio,-13.6,13.3,26.2
-118,FIU,floridainternational,-13.7,21.5,35.0
-119,Coastal Carolina,coastalcarolina,-13.8,21.1,34.4
-120,Rice,rice,-14.7,17.0,32.2
-121,Eastern Michigan,easternmichigan,-15.0,17.8,32.8
-122,San Jose State,sanjosestate,-15.5,18.6,33.6
-123,New Mexico State,newmexicostate,-16.4,17.0,33.4
-124,UAB,uab,-18.1,20.3,37.9
-125,Northern Illinois,northernillinois,-18.2,13.8,31.8
-126,Missouri State,missouristate,-18.7,16.7,34.9
-127,Akron,akron,-19.5,13.0,31.9
-128,Kent State,kentstate,-20.1,15.9,35.5
-129,UTEP,utep,-20.5,14.7,34.7
-130,Sacramento State,sacramentostate,-22.7,15.1,37.9
-131,Southern Miss,southernmiss,-23.3,16.4,39.2
-132,UL-Monroe,louisianamonroe,-24.3,14.3,37.9
-133,Georgia State,georgiastate,-25.1,17.0,41.4
-134,Ball State,ballstate,-25.2,12.2,36.7
-135,Middle Tennessee,middletennessee,-26.0,13.7,39.9
-136,Sam Houston,samhouston,-26.3,14.1,40.0
-137,UMass,massachusetts,-30.9,9.6,40.1
-138,Charlotte,charlotte,-32.4,10.4,42.3
+rank,team_raw,norm_key,sp_plus_overall,sp_plus_off,sp_plus_def,sp_plus_st,sp_plus_off_rank,sp_plus_def_rank,sp_plus_st_rank
+1,Ohio State,ohiostate,31.8,40.6,8.8,0.1,2,1,67
+2,Oregon,oregon,28.3,40.7,12.6,0.3,1,3,50
+3,Notre Dame,notredame,25.8,40.2,14.6,0.3,3,9,47
+4,Georgia,georgia,25.5,38.2,13.3,0.6,5,5,3
+5,Indiana,indiana,24.5,37.4,13.5,0.5,9,6,22
+6,Texas,texas,23.7,37.6,14.3,0.4,7,8,31
+7,Texas Tech,texastech,23.1,37.6,14.7,0.2,8,11,54
+8,Miami,miamifl,21.0,34.4,13.7,0.3,12,7,42
+9,Texas A&M,texasam,20.3,37.3,16.7,-0.3,10,14,99
+10,LSU,lsu,20.2,32.5,12.5,0.2,21,2,53
+11,Alabama,alabama,18.2,31.3,12.6,-0.4,32,4,109
+12,Oklahoma,oklahoma,17.2,31.6,14.7,0.4,27,10,33
+13,USC,usc,16.8,37.7,20.5,-0.3,6,29,100
+14,Michigan,michigan,16.1,32.8,16.2,-0.5,20,13,113
+15,Tennessee,tennessee,16.0,38.7,23.0,0.4,4,50,34
+16,Ole Miss,olemiss,15.9,35.0,19.7,0.7,11,25,1
+17,Penn State,pennstate,15.7,33.6,18.6,0.6,14,23,6
+18,BYU,byu,15.5,33.3,18.1,0.3,16,20,45
+19,Florida,florida,14.9,30.2,15.9,0.5,39,12,17
+20,Missouri,missouri,14.8,32.2,16.9,-0.5,24,15,118
+21,Washington,washington,14.5,32.4,17.6,-0.3,22,19,96
+22,Iowa,iowa,13.6,30.3,17.3,0.6,38,17,10
+23,Clemson,clemson,12.8,29.5,17.0,0.3,48,16,41
+24,South Carolina,southcarolina,12.1,29.9,18.4,0.5,44,21,19
+25,Utah,utah,11.9,33.0,21.1,0.0,18,34,74
+26,Auburn,auburn,11.2,28.4,17.5,0.3,55,18,51
+27,Louisville,louisville,11.0,30.6,19.7,0.2,36,26,55
+28,SMU,smu,10.9,31.9,20.7,-0.4,25,32,104
+29,Kansas State,kansasstate,10.4,33.1,23.0,0.3,17,49,49
+30,Arizona,arizona,10.2,31.5,20.8,-0.5,29,33,119
+31,Vanderbilt,vanderbilt,10.0,33.4,24.1,0.6,15,56,7
+32,Virginia Tech,virginiatech,9.4,31.1,21.5,-0.2,34,38,89
+33,Illinois,illinois,9.3,31.5,22.7,0.4,28,44,30
+34,TCU,tcu,9.1,31.3,21.9,-0.2,31,40,87
+35,Florida State,floridastate,8.8,29.7,20.6,-0.3,45,30,94
+36,Houston,houston,8.2,31.3,22.8,-0.4,30,45,101
+37,Nebraska,nebraska,7.7,29.2,21.5,0.1,49,39,69
+38,Oklahoma State,oklahomastate,7.1,30.0,23.4,0.5,42,52,26
+39,Boise State,boisestate,6.8,29.9,22.8,-0.3,43,46,93
+40,Virginia,virginia,6.6,26.3,19.9,0.2,63,27,58
+41,Pittsburgh,pittsburgh,6.5,30.2,23.8,0.1,40,53,60
+42,Arizona State,arizonastate,6.4,28.2,21.2,-0.6,57,37,129
+43,Georgia Tech,georgiatech,6.0,28.8,23.4,0.6,53,51,11
+44,Duke,duke,5.7,32.8,27.5,0.4,19,81,36
+45,Minnesota,minnesota,5.2,25.3,19.5,-0.5,71,24,125
+46,UCLA,ucla,5.1,29.0,23.9,0.0,52,54,71
+47,Arkansas,arkansas,5.0,34.1,29.3,0.3,13,91,44
+48,NC State,ncstate,4.9,30.7,25.3,-0.4,35,64,103
+49,Northwestern,northwestern,4.6,24.5,20.4,0.5,78,28,29
+50,Cincinnati,cincinnati,4.5,29.6,25.4,0.3,46,65,46
+51,Baylor,baylor,4.5,32.2,28.3,0.6,23,87,2
+52,Mississippi State,mississippistate,3.9,30.1,26.7,0.5,41,76,21
+53,Kentucky,kentucky,3.8,25.0,21.2,0.0,75,36,75
+54,North Carolina,northcarolina,3.8,24.5,21.1,0.4,80,35,32
+55,Maryland,maryland,3.8,26.1,22.7,0.3,65,43,39
+56,California,california,3.7,29.2,25.2,-0.3,50,62,95
+57,Kansas,kansas,3.7,29.0,25.9,0.6,51,70,9
+58,Wake Forest,wakeforest,3.6,24.2,20.7,0.0,83,31,78
+59,UNLV,unlv,2.8,31.2,28.4,0.1,33,89,66
+60,UCF,ucf,2.3,24.5,22.1,-0.1,79,41,83
+61,Wisconsin,wisconsin,1.8,20.6,18.5,-0.3,106,22,97
+62,Rutgers,rutgers,1.8,30.4,28.7,0.1,37,90,68
+63,Navy,navy,1.1,27.8,26.9,0.2,58,77,56
+64,Iowa State,iowastate,1.0,22.9,22.4,0.5,94,42,27
+65,Colorado,colorado,0.9,26.3,24.9,-0.5,64,57,116
+66,West Virginia,westvirginia,0.8,26.3,25.6,0.1,62,66,63
+67,Michigan State,michiganstate,0.4,26.7,25.9,-0.4,61,69,105
+68,New Mexico,newmexico,-0.5,25.3,26.4,0.6,68,73,13
+69,Syracuse,syracuse,-0.7,23.9,25.0,0.4,85,59,35
+70,Memphis,memphis,-1.1,28.3,30.0,0.5,56,95,18
+71,San Diego State,sandiegostate,-1.3,23.1,25.0,0.6,93,60,5
+72,North Dakota State,northdakotastate,-1.4,24.4,25.8,0.0,82,67,76
+73,UTSA,utsa,-1.5,29.5,31.2,0.1,47,102,59
+74,Boston College,bostoncollege,-1.5,25.4,27.4,0.5,67,80,28
+75,Stanford,stanford,-1.9,22.7,24.0,-0.6,97,55,128
+76,East Carolina,eastcarolina,-2.0,24.2,26.0,-0.2,84,71,84
+77,James Madison,jamesmadison,-2.1,25.0,26.7,-0.4,76,75,102
+78,Fresno State,fresnostate,-2.3,20.6,22.9,0.0,105,47,79
+79,Air Force,airforce,-2.4,25.3,27.7,0.1,70,83,65
+80,South Florida,southflorida,-2.8,27.5,30.1,-0.3,59,98,91
+81,Miami (OH),miamioh,-2.9,19.5,22.9,0.5,111,48,16
+82,Purdue,purdue,-2.9,23.8,27.4,0.6,86,79,4
+83,Army,army,-3.0,24.5,27.6,0.1,81,82,64
+84,Hawaii,hawaii,-3.9,25.3,29.8,0.6,69,93,8
+85,Washington State,washingtonstate,-5.3,19.9,25.1,-0.1,110,61,81
+86,Western Kentucky,westernkentucky,-5.3,25.2,31.0,0.5,73,101,24
+87,Tulane,tulane,-5.5,22.2,28.3,0.6,99,86,14
+88,Old Dominion,olddominion,-5.8,20.2,25.3,-0.7,109,63,134
+89,Texas State,texasstate,-5.9,31.8,37.8,0.1,26,129,61
+90,Troy,troy,-6.0,23.6,29.8,0.2,90,94,52
+91,Oregon State,oregonstate,-6.3,20.9,26.5,-0.7,104,74,137
+92,Marshall,marshall,-6.4,28.5,35.2,0.3,54,124,48
+93,Liberty,liberty,-6.4,25.5,31.7,-0.2,66,104,88
+94,Florida Atlantic,floridaatlantic,-7.1,27.2,34.9,0.5,60,120,20
+95,Western Michigan,westernmichigan,-7.2,19.0,25.8,-0.4,112,68,106
+96,Tulsa,tulsa,-7.6,23.5,31.7,0.5,91,103,23
+97,Utah State,utahstate,-7.7,23.7,30.9,-0.5,87,100,117
+98,Jacksonville State,jacksonvillestate,-7.7,24.8,32.0,-0.5,77,107,126
+99,Colorado State,coloradostate,-8.3,18.8,27.0,-0.1,113,78,82
+100,Louisiana Tech,louisianatech,-8.3,22.3,30.6,0.0,98,99,70
+101,Arkansas State,arkansasstate,-8.5,23.7,32.3,0.1,88,111,62
+102,Temple,temple,-8.7,25.2,34.3,0.3,74,117,38
+103,Georgia Southern,georgiasouthern,-8.9,23.2,32.1,0.0,92,109,72
+104,Louisiana,louisiana,-9.1,25.2,33.9,-0.5,72,116,115
+105,Kennesaw State,kennesawstate,-9.3,21.3,30.1,-0.5,101,97,127
+106,Wyoming,wyoming,-9.6,16.0,25.0,-0.6,124,58,130
+107,UConn,connecticut,-11.2,20.3,32.1,0.6,107,108,15
+108,Toledo,toledo,-11.5,16.7,27.9,-0.4,121,84,108
+109,North Texas,northtexas,-11.8,23.6,35.2,-0.2,89,123,90
+110,Buffalo,buffalo,-11.9,15.7,28.1,0.6,126,85,12
+111,Appalachian State,appalachianstate,-12.1,21.2,33.6,0.3,102,115,40
+112,Nevada,nevada,-12.2,17.4,30.0,0.4,117,96,37
+113,Central Michigan,centralmichigan,-12.4,17.4,29.6,-0.2,116,92,86
+114,Delaware,delaware,-13.0,22.7,35.4,-0.3,96,126,98
+115,Bowling Green,bowlinggreen,-13.3,14.8,28.3,0.3,128,88,43
+116,South Alabama,southalabama,-13.3,22.7,35.4,-0.7,95,125,136
+117,Ohio,ohio,-13.6,13.3,26.2,-0.6,134,72,132
+118,FIU,floridainternational,-13.7,21.5,35.0,-0.3,100,122,92
+119,Coastal Carolina,coastalcarolina,-13.8,21.1,34.4,-0.5,103,118,112
+120,Rice,rice,-14.7,17.0,32.2,0.5,119,110,25
+121,Eastern Michigan,easternmichigan,-15.0,17.8,32.8,0.0,115,112,73
+122,San Jose State,sanjosestate,-15.5,18.6,33.6,-0.5,114,114,120
+123,New Mexico State,newmexicostate,-16.4,17.0,33.4,-0.1,118,113,80
+124,UAB,uab,-18.1,20.3,37.9,-0.5,108,132,123
+125,Northern Illinois,northernillinois,-18.2,13.8,31.8,-0.2,132,105,85
+126,Missouri State,missouristate,-18.7,16.7,34.9,-0.5,122,121,122
+127,Akron,akron,-19.5,13.0,31.9,-0.6,135,106,131
+128,Kent State,kentstate,-20.1,15.9,35.5,-0.5,125,127,121
+129,UTEP,utep,-20.5,14.7,34.7,-0.5,129,119,114
+130,Sacramento State,sacramentostate,-22.7,15.1,37.9,0.0,127,131,76
+131,Southern Miss,southernmiss,-23.3,16.4,39.2,-0.4,123,133,110
+132,UL-Monroe,louisianamonroe,-24.3,14.3,37.9,-0.7,130,130,138
+133,Georgia State,georgiastate,-25.1,17.0,41.4,-0.7,120,137,133
+134,Ball State,ballstate,-25.2,12.2,36.7,-0.7,136,128,135
+135,Middle Tennessee,middletennessee,-26.0,13.7,39.9,0.2,133,134,57
+136,Sam Houston,samhouston,-26.3,14.1,40.0,-0.4,131,135,107
+137,UMass,massachusetts,-30.9,9.6,40.1,-0.5,138,136,124
+138,Charlotte,charlotte,-32.4,10.4,42.3,-0.5,137,138,111
