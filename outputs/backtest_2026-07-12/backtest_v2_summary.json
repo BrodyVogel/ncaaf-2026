@@ -1,0 +1,39 @@
+{
+  "panel_n": 656,
+  "years": [
+    2021,
+    2025
+  ],
+  "raw_miss_sd": 7.902,
+  "churn_model": {
+    "intercept": 1.2939,
+    "ret": 1.1829,
+    "cc": -0.626,
+    "power": -3.6228,
+    "bluechip_z": -0.1384
+  },
+  "churn_model_tstats": {
+    "intercept": 1.65,
+    "ret": 1.11,
+    "cc": -0.84,
+    "power": -5.5,
+    "bluechip_z": -0.42
+  },
+  "resid_sd": 7.666,
+  "loyo_sd": 7.781,
+  "multipliers": {
+    "returning low": 0.981,
+    "returning mid": 1.016,
+    "returning high": 1.003,
+    "coach change": 1.129,
+    "no change": 0.961,
+    "power": 1.033,
+    "G5": 0.963
+  },
+  "epistemic_sigma": {
+    "4.0": 6.54,
+    "4.5": 6.21,
+    "5.0": 5.81
+  },
+  "notes": "miss = final - TRUE preseason SP+. 247 z within year, NA->0. Coach subtypes exploratory. See run stdout in git log / report."
+}

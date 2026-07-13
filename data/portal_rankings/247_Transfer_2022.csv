@@ -1,0 +1,132 @@
+fbs_rank,rank_247,team,norm_key,commits,avg,points
+1,1,USC,usc,20,90.00,91.41
+2,2,Ole Miss,olemiss,20,88.71,80.46
+3,3,LSU,lsu,15,88.27,69.51
+4,4,Alabama,alabama,5,94.40,58.00
+5,5,Oklahoma,oklahoma,13,88.15,57.71
+6,6,Texas,texas,7,91.00,57.58
+7,7,Nebraska,nebraska,15,86.29,55.25
+8,8,South Carolina,southcarolina,9,89.44,54.64
+9,9,UCLA,ucla,13,88.42,54.23
+10,10,Florida State,floridastate,14,87.17,51.82
+11,11,Arkansas,arkansas,8,90.43,51.76
+12,12,Miami,miamifl,11,88.00,50.75
+13,13,TCU,tcu,14,86.79,50.35
+14,14,SMU,smu,17,86.25,48.86
+15,15,UCF,ucf,14,88.33,47.90
+16,16,Louisville,louisville,12,88.11,46.88
+17,17,Arizona State,arizonastate,14,86.07,45.27
+18,18,Missouri,missouri,14,86.50,44.41
+19,19,Florida,florida,6,89.83,43.40
+20,20,Michigan State,michiganstate,9,89.00,42.98
+21,21,Georgia Tech,georgiatech,16,86.45,42.49
+22,22,Kansas,kansas,15,85.83,40.71
+23,23,Oregon,oregon,11,87.25,40.18
+24,24,Washington,washington,9,87.38,38.83
+25,25,Auburn,auburn,9,87.86,36.98
+26,26,Texas Tech,texastech,14,84.91,36.49
+27,27,Kentucky,kentucky,10,88.17,36.22
+28,28,Arizona,arizona,9,86.38,35.93
+29,29,Indiana,indiana,15,84.09,34.97
+30,30,Rutgers,rutgers,7,87.00,34.51
+31,31,West Virginia,westvirginia,12,86.29,30.89
+32,32,Kansas State,kansasstate,8,86.00,30.63
+33,33,South Florida,southflorida,14,82.85,30.17
+34,34,Wisconsin,wisconsin,6,85.83,29.45
+35,35,Mississippi State,mississippistate,9,87.80,29.25
+36,36,Syracuse,syracuse,8,85.14,29.14
+37,37,Cincinnati,cincinnati,7,87.20,28.62
+38,38,Fresno State,fresnostate,10,86.50,28.31
+39,39,North Carolina,northcarolina,5,87.40,28.17
+40,40,Minnesota,minnesota,8,85.83,28.05
+41,41,Houston,houston,12,85.50,27.88
+42,42,BYU,byu,6,88.25,27.49
+43,43,Southern Miss,southernmiss,11,84.10,27.37
+44,44,Tennessee,tennessee,8,87.00,26.71
+45,45,Washington State,washingtonstate,7,88.25,26.61
+46,46,Virginia,virginia,7,86.80,26.32
+47,47,Pittsburgh,pittsburgh,6,88.25,26.11
+48,48,Buffalo,buffalo,20,83.40,26.09
+49,49,South Alabama,southalabama,16,82.40,25.83
+50,50,California,california,6,88.00,25.78
+51,51,Michigan,michigan,3,90.00,25.03
+52,52,Temple,temple,12,83.88,24.49
+53,53,Utah State,utahstate,10,84.83,24.32
+54,54,Utah,utah,4,87.50,24.32
+55,0,UMass,massachusetts,19,81.54,24.23
+56,55,Memphis,memphis,10,86.00,23.90
+57,57,New Mexico State,newmexicostate,8,86.00,22.98
+58,58,Boise State,boisestate,6,87.25,22.67
+59,59,East Carolina,eastcarolina,15,81.63,22.23
+60,60,Akron,akron,19,82.63,21.94
+61,61,Purdue,purdue,8,85.60,21.74
+62,62,Liberty,liberty,13,83.29,21.65
+63,63,Vanderbilt,vanderbilt,7,85.20,21.57
+64,64,Western Kentucky,westernkentucky,11,83.29,21.17
+65,65,Colorado State,coloradostate,12,83.14,21.04
+66,66,Virginia Tech,virginiatech,5,86.25,20.94
+67,67,Tulane,tulane,9,84.80,20.42
+68,68,Marshall,marshall,14,83.14,20.04
+69,69,Florida Atlantic,floridaatlantic,12,83.50,19.80
+70,70,San Jose State,sanjosestate,9,84.60,19.23
+71,71,Ohio State,ohiostate,4,91.00,19.08
+72,72,FIU,floridainternational,12,82.14,18.55
+73,73,UTSA,utsa,10,84.50,18.42
+74,74,Notre Dame,notredame,4,90.50,18.31
+75,75,Baylor,baylor,3,90.00,17.08
+76,77,Texas State,texasstate,19,81.57,16.41
+77,78,Colorado,colorado,6,84.00,16.28
+78,79,Miami (OH),miamioh,9,84.50,16.02
+79,80,North Texas,northtexas,10,82.17,15.31
+80,81,Penn State,pennstate,3,89.00,15.25
+81,82,Hawaii,hawaii,14,83.00,14.94
+82,83,UNLV,unlv,8,83.50,14.28
+83,84,Toledo,toledo,9,83.50,14.17
+84,85,Duke,duke,8,85.00,13.86
+85,86,Oklahoma State,oklahomastate,4,85.33,13.79
+86,87,Middle Tennessee,middletennessee,11,83.00,13.70
+87,88,Charlotte,charlotte,4,84.67,13.24
+88,88,Tulsa,tulsa,7,84.67,13.24
+89,92,Arkansas State,arkansasstate,11,82.75,12.51
+90,93,San Diego State,sandiegostate,7,84.00,12.40
+91,94,Rice,rice,7,84.00,11.97
+92,95,Maryland,maryland,7,86.00,11.83
+93,96,Louisiana Tech,louisianatech,13,82.00,11.72
+94,97,Northwestern,northwestern,6,82.00,11.62
+95,98,Illinois,illinois,9,83.67,11.32
+96,99,NC State,ncstate,2,86.50,11.27
+97,101,Eastern Michigan,easternmichigan,6,81.25,10.78
+98,102,Texas A&M,texasam,2,92.00,10.72
+99,103,UAB,uab,2,86.00,10.66
+100,105,Kent State,kentstate,7,81.25,10.56
+101,107,Wake Forest,wakeforest,4,85.00,10.07
+102,108,UConn,connecticut,9,82.33,10.07
+103,109,Boston College,bostoncollege,4,85.00,9.66
+104,110,Iowa State,iowastate,3,84.50,9.26
+105,111,Appalachian State,appalachianstate,8,84.00,8.92
+106,112,Nevada,nevada,16,89.00,7.96
+107,112,Stanford,stanford,1,89.00,7.96
+108,115,Ball State,ballstate,5,83.50,7.71
+109,119,Georgia Southern,georgiasouthern,12,82.50,6.98
+110,122,New Mexico,newmexico,7,82.00,6.48
+111,123,Iowa,iowa,1,87.00,6.29
+112,128,Central Michigan,centralmichigan,3,81.00,6.17
+113,131,James Madison,jamesmadison,6,81.00,5.74
+114,132,Oregon State,oregonstate,1,86.00,5.56
+115,133,Wyoming,wyoming,4,80.50,5.48
+116,134,Bowling Green,bowlinggreen,7,80.50,5.36
+117,140,Troy,troy,5,84.00,4.34
+118,148,Louisiana-Monroe,louisianamonroe,6,82.00,3.41
+119,153,Ohio,ohio,3,81.00,3.03
+120,156,Clemson,clemson,1,80.00,2.69
+121,156,Northern Illinois,northernillinois,4,80.00,2.69
+122,156,Old Dominion,olddominion,4,80.00,2.69
+123,170,Georgia State,georgiastate,4,79.00,2.39
+124,170,UTEP,utep,2,79.00,2.39
+NA,NA,Air Force,airforce,NA,NA,NA
+NA,NA,Army,army,NA,NA,NA
+NA,NA,Coastal Caro.,coastalcarolina,NA,NA,NA
+NA,NA,Georgia,georgia,NA,NA,NA
+NA,NA,Louisiana,louisiana,NA,NA,NA
+NA,NA,Navy,navy,NA,NA,NA
+NA,NA,WMU,westernmichigan,NA,NA,NA

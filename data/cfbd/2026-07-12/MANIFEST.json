@@ -738,17 +738,6 @@
   "calllimit_remaining": "29927"
  },
  {
-  "name": "roster_2026",
-  "endpoint": "/roster",
-  "params": {
-   "year": 2026
-  },
-  "pulled_utc": "2026-07-12T20:38:36+00:00",
-  "http_status": 200,
-  "n_records": 0,
-  "calllimit_remaining": "29924"
- },
- {
   "name": "roster_2025",
   "endpoint": "/roster",
   "params": {
@@ -760,15 +749,83 @@
   "calllimit_remaining": "29923"
  },
  {
+  "name": "roster_2026",
+  "endpoint": "/roster",
+  "params": {
+   "year": 2026
+  },
+  "pulled_utc": "2026-07-13T00:57:15+00:00",
+  "http_status": 200,
+  "n_records": 0,
+  "calllimit_remaining": "29918"
+ },
+ {
+  "name": "roster_2022",
+  "endpoint": "/roster",
+  "params": {
+   "year": 2022
+  },
+  "pulled_utc": "2026-07-13T00:57:19+00:00",
+  "http_status": 200,
+  "n_records": 30401,
+  "calllimit_remaining": "29917"
+ },
+ {
+  "name": "roster_2023",
+  "endpoint": "/roster",
+  "params": {
+   "year": 2023
+  },
+  "pulled_utc": "2026-07-13T00:57:21+00:00",
+  "http_status": 200,
+  "n_records": 22465,
+  "calllimit_remaining": "29916"
+ },
+ {
+  "name": "roster_2024",
+  "endpoint": "/roster",
+  "params": {
+   "year": 2024
+  },
+  "pulled_utc": "2026-07-13T00:57:23+00:00",
+  "http_status": 200,
+  "n_records": 22843,
+  "calllimit_remaining": "29915"
+ },
+ {
+  "name": "games_2025_regular",
+  "endpoint": "/games",
+  "params": {
+   "year": 2025,
+   "seasonType": "regular"
+  },
+  "pulled_utc": "2026-07-13T00:57:27+00:00",
+  "http_status": 200,
+  "n_records": 3745,
+  "calllimit_remaining": "29914"
+ },
+ {
+  "name": "games_2025_postseason",
+  "endpoint": "/games",
+  "params": {
+   "year": 2025,
+   "seasonType": "postseason"
+  },
+  "pulled_utc": "2026-07-13T00:57:27+00:00",
+  "http_status": 200,
+  "n_records": 86,
+  "calllimit_remaining": "29913"
+ },
+ {
   "name": "sp_2026",
   "endpoint": "/ratings/sp",
   "params": {
    "year": 2026
   },
-  "pulled_utc": "2026-07-12T20:38:40+00:00",
+  "pulled_utc": "2026-07-13T00:57:28+00:00",
   "http_status": 200,
   "n_records": 0,
-  "calllimit_remaining": "29922"
+  "calllimit_remaining": "29912"
  },
  {
   "name": "returning_2026",
@@ -776,10 +833,10 @@
   "params": {
    "year": 2026
   },
-  "pulled_utc": "2026-07-12T20:38:40+00:00",
+  "pulled_utc": "2026-07-13T00:57:28+00:00",
   "http_status": 200,
   "n_records": 0,
-  "calllimit_remaining": "29921"
+  "calllimit_remaining": "29911"
  },
  {
   "name": "talent_2026",
@@ -787,10 +844,10 @@
   "params": {
    "year": 2026
   },
-  "pulled_utc": "2026-07-12T20:38:41+00:00",
+  "pulled_utc": "2026-07-13T00:57:29+00:00",
   "http_status": 200,
   "n_records": 0,
-  "calllimit_remaining": "29920"
+  "calllimit_remaining": "29910"
  },
  {
   "name": "coaches_2026",
@@ -798,9 +855,9 @@
   "params": {
    "year": 2026
   },
-  "pulled_utc": "2026-07-12T20:38:41+00:00",
+  "pulled_utc": "2026-07-13T00:57:29+00:00",
   "http_status": 200,
   "n_records": 0,
-  "calllimit_remaining": "29919"
+  "calllimit_remaining": "29909"
  }
 ]

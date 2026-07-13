@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "date": "2026-07-12",
+    "status": "PROPOSED - k/cap adopted from calibration; band scale PENDING user decision",
+    "derived_from": [
+      "pipeline/step2_backtest_v2.py (real preseason-SP+ misses 2021-2025, n=656)",
+      "pipeline/step4_conversion_calibration.py (PFF returning-weighted units 2022-2025, n=534)",
+      "pipeline/market_check_2025.py (2025 win-totals benchmark, n=136)"
+    ]
+  },
+  "blend": {
+    "k": 0.30,
+    "k_rationale": "calibrated gamma: overall +0.32 (t=+10), off +0.36, def +0.35; stable 2023-2025 (~0.36-0.37), weaker 2022 (0.18); threshold sensitivity 0.28-0.33; rounded DOWN for membership-lookahead caveat. Old default 0.5 was too aggressive.",
+    "cap": 6.0,
+    "cap_rationale": "tail linearity holds (|resid|>4: gamma 0.32, t=9.8) so the old +-5 cap was tighter than evidence requires; +-6 binds only ~p90 of |k*resid|. Pilot-tune.",
+    "residual_vs": "blended anchor (production); calibration measured vs SP+ alone - re-verify at pilot",
+    "power_adjustment": "NONE standalone. The 2021-2025 power/G5 anchor bias (power teams -3.8 pts vs G5 in realized misses, 4 of 5 years) is SUBSUMED by the grade residual (corr resid~power = -0.70; power coef dies to -0.4 t=-0.5 once resid included). Applying both would double-count."
+  },
+  "mechanical_churn_adjustments": {
+    "returning_production": "NONE - priced by real preseason SP+ (t=+1.1 vs real misses)",
+    "coach_change": "NONE mean-level - priced (t=-0.8)",
+    "portal": "NONE - both bluechip count and 247 class rankings priced (t~=0); portal features dropped from anchor adjustment entirely"
+  },
+  "variance": {
+    "base_sigma_epistemic": null,
+    "PENDING": "user decision on in-season noise assumption: resid SD 7.67 -> epistemic 6.5/6.2/5.8 at noise 4.0/4.5/5.0. Brief sanity scale (avg +-3.5-4.5) is inconsistent with portal-era data.",
+    "multipliers": {
+      "coach_change": 1.13,
+      "returning_low_tercile": 1.0,
+      "returning_high_tercile": 1.0,
+      "power": 1.0,
+      "notes": "returning-production and class multipliers FLAT vs real misses - dropped. Coach-change bump survives. Snapshot data-confidence bumps to be added at grading time per brief."
+    }
+  },
+  "market_benchmark_2025": {
+    "market_MAE_wins": 1.95, "sp_plus_MAE_wins": 1.91,
+    "miss_correlation": 0.969,
+    "note": "anchor ~= market quality; both miss the same teams; edge must come from signal orthogonal to both (the grades layer)."
+  },
+  "flagged_for_future": {
+    "coach_subtypes": "first-FBS-job-at-G5 (FCS->G5 proxy) +0.86 vs others -1.03 mean miss (t=+1.3, n=52); prior-FBS-HC-exp +0.94 vs -1.22 (t=+1.4, n=58). Suggestive, underpowered - revisit after 2026.",
+    "calibration_2022_weakness": "gamma 0.18 in 2022 vs ~0.36 later - 2021 PFF season thinner/COVID-odd; watch if adding years."
+  }
+}

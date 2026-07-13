@@ -37,6 +37,10 @@ def main(outdir: str) -> None:
     pull("teams_fbs_2026", "/teams/fbs", {"year": 2026})
     pull("roster_2026", "/roster", {"year": 2026})
     pull("roster_2025", "/roster", {"year": 2025})  # baseline until CFBD loads 2026 rosters
+    for y in (2022, 2023, 2024):                    # historical rosters: PFF returning-weighted units
+        pull(f"roster_{y}", "/roster", {"year": y})
+    pull("games_2025_regular", "/games", {"year": 2025, "seasonType": "regular"})  # market check
+    pull("games_2025_postseason", "/games", {"year": 2025, "seasonType": "postseason"})
     pull("sp_2026", "/ratings/sp", {"year": 2026})
     pull("returning_2026", "/player/returning", {"year": 2026})
     pull("talent_2026", "/talent", {"year": 2026})
