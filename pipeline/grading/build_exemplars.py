@@ -71,12 +71,19 @@ def main():
         for pid, (tn, vol, grade) in load_unit_year(table, 2025, positions, vol_col, grade_col).items():
             if lookup(tn) == team and vol >= min_pv:
                 rows.append((vol, grade, pid))
-        rows.sort(reverse=True)
+        # volume leaders AND best-graded qualifiers (2026-07-13 amendment: volume-only
+        # selection could showcase a good unit's dullest grades - e.g. Temple OL)
+        by_vol = sorted(rows, reverse=True)[:2]
+        by_grade = sorted(rows, key=lambda r: -r[1])[:2]
+        picked, seen = [], set()
+        for vol, grade, pid in by_vol + by_grade:
+            if pid not in seen:
+                seen.add(pid); picked.append((vol, grade, pid))
         # resolve names
         names = {}
         for r in csv.DictReader(open(f"data/pff/PFF_{table}.csv")):
             names[r["player_id"]] = r["player"]
-        return [(names.get(pid, pid), int(vol), grade) for vol, grade, pid in rows[:2]]
+        return [(names.get(pid, pid), int(vol), grade) for vol, grade, pid in picked[:4]]
 
     lines = ["# FIXED CALIBRATION EXEMPLAR BLOCK — built 2026-07-13 from PFF 2025 (as played)",
              "# Scale: grade = percentile among 2025 FBS units of the same group.",

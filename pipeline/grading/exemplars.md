@@ -4,13 +4,13 @@
 
 ## Global anchors (compare every grade against these)
 - **95** — Cincinnati QB 2025 (P4): unit PFF 90.3. Key: Brendan Sorsby (PFF 90.3, 378 vol).
-- **85** — Temple OL 2025 (G5): unit PFF 69.3. Key: Jackson Pruitt (PFF 65.5, 742 vol), Diego Barajas (PFF 71.1, 734 vol).
-- **70** — Nevada DB 2025 (G5): unit PFF 69.9. Key: Murvin Kenion III (PFF 76.1, 730 vol), AJ Odums (PFF 81.7, 696 vol).
-- **60** — Wake Forest DL 2025 (P4): unit PFF 69.3. Key: Langston Hardy (PFF 75.2, 668 vol), Dallas Afalava (PFF 59.9, 522 vol).
-- **50** — Alabama WRTE 2025 (P4): unit PFF 66.1. Key: Germie Bernard (PFF 71.9, 508 vol), Ryan Coleman-Williams (PFF 66.5, 375 vol).
-- **35** — South Alabama LB 2025 (G5): unit PFF 64.0. Key: Blayne Myrick (PFF 62.0, 599 vol), Darius McKenzie (PFF 69.1, 552 vol).
+- **85** — Temple OL 2025 (G5): unit PFF 69.3. Key: Jackson Pruitt (PFF 65.5, 742 vol), Diego Barajas (PFF 71.1, 734 vol), Giakoby Hills (PFF 77.0, 725 vol), Eric King (PFF 74.9, 625 vol).
+- **70** — Nevada DB 2025 (G5): unit PFF 69.9. Key: Murvin Kenion III (PFF 76.1, 730 vol), AJ Odums (PFF 81.7, 696 vol), Bryson Snelling (PFF 76.2, 206 vol).
+- **60** — Wake Forest DL 2025 (P4): unit PFF 69.3. Key: Langston Hardy (PFF 75.2, 668 vol), Dallas Afalava (PFF 59.9, 522 vol), Mateen Ibirogba (PFF 77.3, 395 vol).
+- **50** — Alabama WRTE 2025 (P4): unit PFF 66.1. Key: Germie Bernard (PFF 71.9, 508 vol), Ryan Coleman-Williams (PFF 66.5, 375 vol), Josh Cuevas (PFF 69.6, 328 vol).
+- **35** — South Alabama LB 2025 (G5): unit PFF 64.0. Key: Blayne Myrick (PFF 62.0, 599 vol), Darius McKenzie (PFF 69.1, 552 vol), Caleb Dozier (PFF 68.5, 242 vol).
 - **19** — Kentucky RB 2025 (P4): unit PFF 71.0. Key: Seth McGowan (PFF 70.1, 166 vol), Dante Dowdell (PFF 72.3, 112 vol).
-- **8** — Florida Atlantic DB 2025 (G5): unit PFF 61.2. Key: Chris Keys Jr. (PFF 51.8, 629 vol), Terez Reid (PFF 79.3, 604 vol).
+- **8** — Florida Atlantic DB 2025 (G5): unit PFF 61.2. Key: Chris Keys Jr. (PFF 51.8, 629 vol), Terez Reid (PFF 79.3, 604 vol), Damarius McGhee (PFF 68.2, 412 vol).
 
 ## Per-group percentile references (2025, snap-weighted unit PFF grade)
 
