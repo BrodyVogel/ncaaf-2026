@@ -749,17 +749,6 @@
   "calllimit_remaining": "29923"
  },
  {
-  "name": "roster_2026",
-  "endpoint": "/roster",
-  "params": {
-   "year": 2026
-  },
-  "pulled_utc": "2026-07-13T00:57:15+00:00",
-  "http_status": 200,
-  "n_records": 0,
-  "calllimit_remaining": "29918"
- },
- {
   "name": "roster_2022",
   "endpoint": "/roster",
   "params": {
@@ -817,15 +806,70 @@
   "calllimit_remaining": "29913"
  },
  {
+  "name": "roster_2026",
+  "endpoint": "/roster",
+  "params": {
+   "year": 2026
+  },
+  "pulled_utc": "2026-07-13T17:12:53+00:00",
+  "http_status": 200,
+  "n_records": 0,
+  "calllimit_remaining": "29908"
+ },
+ {
+  "name": "recruiting_teams_2023",
+  "endpoint": "/recruiting/teams",
+  "params": {
+   "year": 2023
+  },
+  "pulled_utc": "2026-07-13T17:12:53+00:00",
+  "http_status": 200,
+  "n_records": 177,
+  "calllimit_remaining": "29907"
+ },
+ {
+  "name": "recruiting_teams_2024",
+  "endpoint": "/recruiting/teams",
+  "params": {
+   "year": 2024
+  },
+  "pulled_utc": "2026-07-13T17:12:54+00:00",
+  "http_status": 200,
+  "n_records": 194,
+  "calllimit_remaining": "29906"
+ },
+ {
+  "name": "recruiting_teams_2025",
+  "endpoint": "/recruiting/teams",
+  "params": {
+   "year": 2025
+  },
+  "pulled_utc": "2026-07-13T17:12:55+00:00",
+  "http_status": 200,
+  "n_records": 232,
+  "calllimit_remaining": "29905"
+ },
+ {
+  "name": "recruiting_teams_2026",
+  "endpoint": "/recruiting/teams",
+  "params": {
+   "year": 2026
+  },
+  "pulled_utc": "2026-07-13T17:12:56+00:00",
+  "http_status": 200,
+  "n_records": 0,
+  "calllimit_remaining": "29904"
+ },
+ {
   "name": "sp_2026",
   "endpoint": "/ratings/sp",
   "params": {
    "year": 2026
   },
-  "pulled_utc": "2026-07-13T00:57:28+00:00",
+  "pulled_utc": "2026-07-13T17:12:56+00:00",
   "http_status": 200,
   "n_records": 0,
-  "calllimit_remaining": "29912"
+  "calllimit_remaining": "29903"
  },
  {
   "name": "returning_2026",
@@ -833,10 +877,10 @@
   "params": {
    "year": 2026
   },
-  "pulled_utc": "2026-07-13T00:57:28+00:00",
+  "pulled_utc": "2026-07-13T17:12:57+00:00",
   "http_status": 200,
   "n_records": 0,
-  "calllimit_remaining": "29911"
+  "calllimit_remaining": "29902"
  },
  {
   "name": "talent_2026",
@@ -844,10 +888,10 @@
   "params": {
    "year": 2026
   },
-  "pulled_utc": "2026-07-13T00:57:29+00:00",
+  "pulled_utc": "2026-07-13T17:12:57+00:00",
   "http_status": 200,
   "n_records": 0,
-  "calllimit_remaining": "29910"
+  "calllimit_remaining": "29901"
  },
  {
   "name": "coaches_2026",
@@ -855,9 +899,9 @@
   "params": {
    "year": 2026
   },
-  "pulled_utc": "2026-07-13T00:57:29+00:00",
+  "pulled_utc": "2026-07-13T17:12:58+00:00",
   "http_status": 200,
   "n_records": 0,
-  "calllimit_remaining": "29909"
+  "calllimit_remaining": "29900"
  }
 ]

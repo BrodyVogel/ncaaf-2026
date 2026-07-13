@@ -41,6 +41,8 @@ def main(outdir: str) -> None:
         pull(f"roster_{y}", "/roster", {"year": y})
     pull("games_2025_regular", "/games", {"year": 2025, "seasonType": "regular"})  # market check
     pull("games_2025_postseason", "/games", {"year": 2025, "seasonType": "postseason"})
+    for y in (2023, 2024, 2025, 2026):                 # recruiting team ranks: unproven-player priors
+        pull(f"recruiting_teams_{y}", "/recruiting/teams", {"year": y})
     pull("sp_2026", "/ratings/sp", {"year": 2026})
     pull("returning_2026", "/player/returning", {"year": 2026})
     pull("talent_2026", "/talent", {"year": 2026})

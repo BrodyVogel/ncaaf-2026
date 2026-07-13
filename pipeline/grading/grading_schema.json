@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Position-group grade output (brief SS3), one unit per grading call",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["team", "unit", "grade", "confidence", "bracketing_exemplars",
+               "rationale_bullets", "key_players", "data_gaps", "g5_guard_note"],
+  "properties": {
+    "team": {"type": "string", "description": "CFBD school name (canonical)"},
+    "unit": {"enum": ["QB", "RB", "WRTE", "OL", "DL", "LB", "DB", "ST"]},
+    "grade": {"type": "integer", "minimum": 0, "maximum": 100},
+    "confidence": {"enum": ["H", "M", "L"]},
+    "bracketing_exemplars": {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 2},
+    "rationale_bullets": {"type": "array", "items": {"type": "string"}, "minItems": 3, "maxItems": 6},
+    "key_players": {
+      "type": "array", "minItems": 1, "maxItems": 6,
+      "items": {"type": "object", "additionalProperties": false,
+                "required": ["name", "role", "evidence"],
+                "properties": {"name": {"type": "string"}, "role": {"type": "string"},
+                               "evidence": {"type": "string"}}}
+    },
+    "data_gaps": {"type": "array", "items": {"type": "string"}},
+    "g5_guard_note": {"type": ["string", "null"],
+                      "description": "REQUIRED non-null iff G5 team and grade > 75"}
+  }
+}

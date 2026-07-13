@@ -20,69 +20,12 @@ Volume floors (player-level min to carry a grade / unit-level min to trust the u
 
 Usage: python3 step4_conversion_calibration.py
 """
-import csv, json, re, unicodedata
+import csv, json
 import numpy as np
 
 D = "data/cfbd/2026-07-12"
-UNITS = {  # unit: (table, positions, vol_col, grade_col, min_player_vol, min_unit_vol)
-    "QB":   ("passing_summary",  {"QB"},        "dropbacks",            "grades_offense", 100, 100),
-    "RB":   ("rushing_summary",  {"HB", "FB"},  "attempts",             "grades_offense",  60, 100),
-    "WRTE": ("receiving_summary",{"WR", "TE"},  "routes",               "grades_offense", 150, 300),
-    "OL":   ("offense_blocking", {"T", "G", "C"},"snap_counts_offense", "grades_offense", 200, 600),
-    "DL":   ("defense_summary",  {"DI", "ED"},  "snap_counts_defense",  "grades_defense", 200, 400),
-    "LB":   ("defense_summary",  {"LB"},        "snap_counts_defense",  "grades_defense", 200, 400),
-    "DB":   ("defense_summary",  {"CB", "S"},   "snap_counts_defense",  "grades_defense", 200, 400),
-}
-OFF_UNITS, DEF_UNITS = ["QB", "RB", "WRTE", "OL"], ["DL", "LB", "DB"]
-
-ALIAS = {  # player-file team_name -> norm_key (hand-verified); None = not an FBS panel team
-    "ARK STATE": "arkansasstate", "BOSTON COL": "bostoncollege", "BOWL GREEN": "bowlinggreen",
-    "C MICHIGAN": "centralmichigan", "COAST CAR": "coastalcarolina", "DOMINION": "olddominion",
-    "E CAROLINA": "eastcarolina", "E MICHIGAN": "easternmichigan", "FAU": "floridaatlantic",
-    "FIU": "floridainternational", "GA SOUTHRN": "georgiasouthern", "JAMES MAD": "jamesmadison",
-    "JVILLE ST": "jacksonvillestate", "KENNESAW": "kennesawstate", "LA LAFAYET": "louisiana",
-    "MIDDLE TN": "middletennessee", "MO STATE": "missouristate", "N CAROLINA": "northcarolina",
-    "N ILLINOIS": "northernillinois", "N TEXAS": "northtexas", "NEW MEX ST": "newmexicostate",
-    "NWESTERN": "northwestern", "S ALABAMA": "southalabama", "S CAROLINA": "southcarolina",
-    "S DIEGO ST": "sandiegostate", "S JOSE ST": "sanjosestate", "SM HOUSTON": "samhouston",
-    "SO MISS": "southernmiss", "UCONN": "connecticut", "UMASS": "massachusetts",
-    "USF": "southflorida", "W KENTUCKY": "westernkentucky", "W MICHIGAN": "westernmichigan",
-    "W VIRGINIA": "westvirginia", "WAKE": "wakeforest", "W GEORGIA": None,
-}
-EXP = {"st": "state", "okla": "oklahoma", "colo": "colorado", "app": "appalachian",
-       "miss": "mississippi", "tenn": "tennessee", "wash": "washington", "mich": "michigan",
-       "fla": "florida", "ill": "illinois", "wis": "wisconsin", "minn": "minnesota",
-       "ariz": "arizona", "ore": "oregon", "neb": "nebraska", "tex": "texas", "wyo": "wyoming"}
-
-def norm(s):
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
-    return re.sub(r"[^a-z0-9]", "", s)
-
-def build_team_lookup():
-    n2c = {r["norm_key"]: r["cfbd_school"] for r in csv.DictReader(open("data/anchors/team_name_map.csv"))}
-    def lookup(team_name):
-        if team_name in ALIAS:
-            k = ALIAS[team_name]
-            return n2c.get(k) if k else None
-        k = norm("".join(EXP.get(w, w) for w in team_name.lower().split()))
-        return n2c.get(k) or n2c.get(norm(team_name))
-    return n2c, lookup
-
-def table_path(table, y):
-    return f"data/pff_history/{y}/{table}_{y}.csv" if y < 2025 else f"data/pff/PFF_{table}.csv"
-
-def load_unit_year(table, y, positions, vol_col, grade_col):
-    """player_id -> (team_name, vol, grade) for the given unit-table-year."""
-    out = {}
-    for r in csv.DictReader(open(table_path(table, y))):
-        if r["position"] not in positions:
-            continue
-        try:
-            vol, grade = float(r[vol_col] or 0), float(r[grade_col])
-        except ValueError:
-            continue
-        out[r["player_id"]] = (r["team_name"], vol, grade)
-    return out
+from pff_common import (UNITS, OFF_UNITS, DEF_UNITS, build_team_lookup,
+                        table_path, load_unit_year)
 
 def team_spec(y, n2c):
     path = f"data/pff_history/{y}/PFF_{y}_team_grades.csv" if y < 2025 else "data/pff/PFF_2025_team_grades.csv"

@@ -24,6 +24,16 @@ outputs/          ratings tables, run logs
 2. Network egress must allow `api.collegefootballdata.com` (+ `apinext.`) and `github.com`.
 3. Follow brief §0.
 
+## Per-team pipeline (build steps 3-4, tooling in place)
+
+1. `python3 pipeline/snapshot_build.py "<CFBD school>"` — deterministic evidence pack
+2. Research pass per `pipeline/RESEARCH_PROCEDURE.md` (OurLads two-deep, magazines, news)
+3. `python3 pipeline/blinding_check.py snapshots/<Team_Dir>` → commit = FREEZE
+4. Grade 8 units in-session: `pipeline/grading/GRADING_PROMPT.md` + `exemplars.md` (FIXED
+   scale anchors — never regenerate) → `grades.json` per `grading_schema.json`
+5. League-wide fit/blend/variance when all teams graded (adopted params:
+   `outputs/backtest_2026-07-12/PARAMETERS.json` — k=0.30, cap=±6, epistemic σ=6.0)
+
 ## Blinding (brief §4 — HARD)
 
 Nothing in `data/anchors/` or `data/win_totals/` may be read during research/snapshot/grading work. Reconciliation with consensus happens only in compute code.
