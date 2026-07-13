@@ -132,9 +132,9 @@ Commit = freeze. Python (cfbd client library); flag if the user prefers R. Repo 
 - ~~Last year's preseason win totals~~ RESOLVED: in folder. Odds API decision now decidable with the backtest.
 - ~~PFF+ export reality check~~ RESOLVED: 27 tables exported + data dictionary.
 - ~~Sim double-counting~~ RESOLVED 2026-07-12 (session 2): user confirms the simulator injects game-level randomness itself → the variance band is epistemic-only, scaled below raw backtest miss (which includes in-season noise).
-- **FEI blinding placement** (§6 note) — resolve at build step 3.
-- **Massey own-model vs. composite** (§6 note) — resolve before first real blend run.
-- **k and cap tuning** after the pilot and when August anchors land.
+- ~~FEI blinding placement~~ RESOLVED 2026-07-13: FEI is IN the anchor blend; compute-only, blinded from grading.
+- ~~Massey own-model vs. composite~~ RESOLVED 2026-07-13: own model (composite ingests SP+/FPI → double-weighting).
+- **k and cap tuning** — CALIBRATED 2026-07-13 from PFF-unit backtest: k=0.30, cap=±6 (see outputs/backtest_2026-07-12/PARAMETERS.json). Re-check after pilot + August anchors.
 - **Python vs. R** — Python assumed, unconfirmed.
 - **Pick Six ingestion** — inventory when it arrives (~tomorrow); P4 anchor input only.
 

@@ -31,7 +31,7 @@
       "name": "FEI (Brian Fremeau / BCF Toys)",
       "key": "fei",
       "url": "https://bcftoys.com/2026-fei",
-      "class": "research supplement per brief SS6, but a 2026 projection - also trips SS4 blinding; resolve placement at snapshot-tooling time",
+      "class": "anchor - IN the blend (resolved 2026-07-13, user D3); compute-only, blinded from grading",
       "blinded_from_grading": true,
       "format": "static HTML (WebFetch-readable)",
       "coverage": "138 FBS",
@@ -56,7 +56,7 @@
       "capture_file": "Massey_2026preseason_2026-07-12.csv",
       "captured_date": "2026-07-12",
       "fields": "rat (rank-primary, ~5.9-9.3), pwr/off/def (0-100-ish scale), hfa, ssf, exp W-L",
-      "notes": "This URL is Massey's OWN model, not the Massey COMPOSITE consensus at masseyratings.com/cf/compare that the project brief names as the anchor. Decide which to wire before the first real blend run. SoS column degenerate preseason (all 0.00) - dropped."
+      "notes": "RESOLVED 2026-07-13 (user D2): Massey OWN MODEL feeds the blend. Composite rejected - it ingests SP+/FPI and would double-weight them. SoS column degenerate preseason (all 0.00) - dropped."
     },
     {
       "name": "ESPN FPI",
