@@ -31,12 +31,15 @@
     "picksix_weight_decision": "stays 1.0 (2026-07-14): no measured accuracy basis; reviews != calibration; ordinal + P4-only. Revisit if historical Pick Six previews become available for backtest, or after 2026 misses are measured."
   },
   "blend": {
-    "k": 0.30,
+    "k": 0.35,
     "cap": 6.0,
-    "ratified": "2026-07-13 (user D4)",
-    "k_rationale": "calibrated gamma +0.32 (t=+10), stable 2023-2025, sens 0.28-0.33; rounded down for membership lookahead (realized-play membership stood in for preseason depth charts)",
-    "cap_rationale": "tails linear (t=+9.8 beyond |resid|>4); +-6 binds ~p90 of |k x resid|",
-    "pilot_recheck": "k/cap re-examined after two-team pilot and when August anchors land (brief SS11)"
+    "ratified": "2026-07-14 (user; supersedes k=0.30 of 2026-07-13)",
+    "k_rationale": "recalibrated on competition-ADJUSTED grades (step4b, LOYO offsets): gamma solo +0.389 (t=+8.3), joint-with-class +0.322, threshold sens 0.32-0.39; 0.35 = middle, shade conservative for membership lookahead. Production grades live on the adjusted ruler, so k must be calibrated in that space.",
+    "cap_rationale": "adjusted residuals smaller (p90 |k x resid| ~3.8) - cap +-6 binds ~p99; tails linear (t=+8.1). Kept.",
+    "class_term": "anchor de-biasing, computed PER RUN: per_side = (3.49 - blend_tilt_vs_SPplus)/2. Today: G5 +1.68 / P4 -1.68. Auto-rescales when KFord joins. Basis: power coef -3.49 (t=-5.3) conditional on adjusted grades; independent churn-backtest estimate -3.8.",
+    "st_term": "ST percentile -> +-1.0 max additive",
+    "flagged_not_adopted": "class-specific k (P4 0.48 / G5 0.22) - revisit after pilot/season",
+    "pilot_recheck": "k/cap/class re-examined after two-team pilot and when August anchors land"
   },
   "variance": {
     "base_sigma_epistemic": 6.0,
@@ -59,5 +62,21 @@
     "allowed_mosaic_inputs": "unit-level and player-level assessments from magazines and Pick Six, attributed + dated, never sole justification",
     "research_depth_mandate": "obsessive standard adopted: mandatory source sweep (P4/ND: Steele+Athlon+PickSix; G5: Steele+Athlon), research_log.md incl. dead ends, per-unit dossiers, >=3 sources/unit, data_gap requires logged failed search",
     "note": "richer grades likely carry MORE signal than the PFF-only calibration proxy -> k=0.30 stays conservative; pilot rechecks"
+  },
+  "grades_scale": {
+    "ruler": "exemplars v3 FINAL: percentile among 2025 FBS units AFTER conference adjustment",
+    "offsets_file": "data/backtest/conf_offsets_2021_2025.json (full-sample; LOYO variant used only inside step4b calibration)",
+    "anchor_coherence_rule": "global exemplar anchors require raw-vs-adjusted percentile gap <= 20 (guideposts must be intuitive; the discount table teaches the adjustment)"
+  },
+  "anchor_robustness": {
+    "adopted": "2026-07-14 (user)",
+    "winsorize": "source > 5 pts from median of other sources -> pulled to median +-5, logged",
+    "dispersion_flag": "top-decile cross-source dispersion -> auto-flag for review pass",
+    "dispersion_band": "x1.10 band multiplier for top-decile dispersion (judgment-based; calibrate when history exists)"
+  },
+  "outputs_spec": {
+    "adopted": "2026-07-14 (user requirement)",
+    "build_sheet": "every team ships full derivation: 8 unit grades (w/ confidence + bracketing exemplars) -> learned conversion weights -> grade-implied off/def -> residuals -> per-source anchor values (raw + normalized + winsorized flags) -> blend -> class term -> k x resid (capped) -> ST -> final + band. Nothing opaque.",
+    "overrides": "outputs/overrides.csv (team, field, value, reason, date) - user-directed only, applied LAST, logged in run log, never silent. E.g. sided with Pick Six against blend on a team where its argument is strong."
   }
 }

@@ -138,7 +138,8 @@ Commit = freeze. Python (cfbd client library); flag if the user prefers R. Repo 
 - ~~Sim double-counting~~ RESOLVED 2026-07-12 (session 2): user confirms the simulator injects game-level randomness itself → the variance band is epistemic-only, scaled below raw backtest miss (which includes in-season noise).
 - ~~FEI blinding placement~~ RESOLVED 2026-07-13: FEI is IN the anchor blend; compute-only, blinded from grading.
 - ~~Massey own-model vs. composite~~ RESOLVED 2026-07-13: own model (composite ingests SP+/FPI → double-weighting).
-- **k and cap tuning** — CALIBRATED 2026-07-13 from PFF-unit backtest: k=0.30, cap=±6 (see outputs/backtest_2026-07-12/PARAMETERS.json). Re-check after pilot + August anchors.
+- **k and cap tuning** — RECALIBRATED 2026-07-14 on competition-adjusted grades: **k=0.35, cap=±6, + per-run anchor class term (±1.68 today)**; grades ruler = conference-adjusted exemplars v3 (see PARAMETERS.json). Re-check after pilot + August anchors.
+- [ADDED 2026-07-14] **Output transparency (user requirement):** every rating ships with its full build sheet (units → learned weights → implied O/D → residual → per-source anchor values → blend → adjustments → final + band) and a logged, user-directed override mechanism (`outputs/overrides.csv`) — never silent.
 - **Python vs. R** — Python assumed, unconfirmed.
 - **Pick Six ingestion** — inventory when it arrives (~tomorrow); P4 anchor input only.
 

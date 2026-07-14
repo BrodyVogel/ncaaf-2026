@@ -32,7 +32,10 @@ outputs/          ratings tables, run logs
 4. Grade 8 units in-session: `pipeline/grading/GRADING_PROMPT.md` + `exemplars.md` (FIXED
    scale anchors — never regenerate) → `grades.json` per `grading_schema.json`
 5. League-wide fit/blend/variance when all teams graded (adopted params:
-   `outputs/backtest_2026-07-12/PARAMETERS.json` — k=0.30, cap=±6, epistemic σ=6.0)
+   `outputs/backtest_2026-07-12/PARAMETERS.json` — k=0.35, cap=±6, per-run class term,
+   epistemic σ=6.0; grades on the conference-adjusted exemplars-v3 ruler)
+6. Outputs: per-team BUILD SHEET (full derivation, per-source anchor values) +
+   `outputs/overrides.csv` for logged user-directed overrides — never silent
 
 ## Blinding (brief §4 — HARD)
 

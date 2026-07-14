@@ -1,8 +1,9 @@
-# FIXED GRADING PROMPT TEMPLATE — v1.1 (2026-07-14)
+# FIXED GRADING PROMPT TEMPLATE — v1.2 (2026-07-14)
 
 One position group per call, same template every call (brief §3). Grading is performed
-interactively in-session, supervised (brief §9). v1.1 adds: assembly manifest,
+interactively in-session, supervised (brief §9). v1.1 added: assembly manifest,
 quant/qual integration rules, worked example, blinding v2 evidence classes.
+v1.2 adds: the competition-discount rule (exemplar scale is conference-adjusted).
 
 ## Assembly manifest — what a grading call contains, in order
 1. This template (with {TEAM}/{UNIT} filled)
@@ -58,6 +59,13 @@ expected starters — not last year's unit.
    sole justification for a grade (§4 v2 guardrail).
 7. **Trust volume**: a PFF grade on 700 snaps is evidence; on 80 snaps it's a hint.
    Below ~100 snaps / 60 attempts / 150 routes, prior-year grades are weak signals.
+8. **Discount for competition** (v1.2): raw PFF grades are NOT opponent-adjusted. When
+   weighing any player's raw PFF evidence, apply the conference discount table (end of
+   exemplars.md) by the conference where the grade was EARNED — a MAC OL grade carries
+   ~a 15-point discount vs the same number earned in the SEC; a MAC transfer's grade
+   stays discounted after he moves up. Elite G5 seasons survive the discount; ordinary
+   ones don't. The exemplar percentiles already have this baked in — never double-apply
+   it to the exemplar reference values themselves.
 
 ## Scale discipline
 
