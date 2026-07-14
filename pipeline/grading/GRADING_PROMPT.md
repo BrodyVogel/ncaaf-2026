@@ -59,7 +59,12 @@ expected starters — not last year's unit.
    sole justification for a grade (§4 v2 guardrail).
 7. **Trust volume**: a PFF grade on 700 snaps is evidence; on 80 snaps it's a hint.
    Below ~100 snaps / 60 attempts / 150 routes, prior-year grades are weak signals.
-8. **Discount for competition** (v1.2): raw PFF grades are NOT opponent-adjusted. When
+8. **LB caution** (v1.2.1): LB is empirically the noisiest PFF unit signal — worst
+   agreement with PFF's own team-level view (corr 0.50 vs 0.80–0.93 for every other
+   group), largest competition offsets, smallest learned conversion weight. For LB,
+   lean on run-defense/coverage SUB-grades and scouting consensus over overall grades,
+   and expect wider honest uncertainty.
+9. **Discount for competition** (v1.2): raw PFF grades are NOT opponent-adjusted. When
    weighing any player's raw PFF evidence, apply the conference discount table (end of
    exemplars.md) by the conference where the grade was EARNED — a MAC OL grade carries
    ~a 15-point discount vs the same number earned in the SEC; a MAC transfer's grade
