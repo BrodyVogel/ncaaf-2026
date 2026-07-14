@@ -1,0 +1,18 @@
+{
+ "team": "Memphis",
+ "conference": "American Athletic",
+ "created_utc": "2026-07-14T23:21:53+00:00",
+ "assembler_git_rev": "167cf12",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (re-pull August)",
+  "D2/FCS arrivals (Stokes, Ellis, Tuck, etc.) have no PFF rows; LaForge (K) 2025 stats not found - logged gap",
+  "QB battle + C/LT/MLB/CB starters unresolved until fall camp (no spring game - weather-postponed)",
+  "CFBD portal feed incomplete for Memphis (Woudsma missing; Montgomery name variant) - rows manually recovered"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-14",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1 (all 8 steps; loop-until-dry in research_log.md)",
+ "coach_change": "Huff (SM) in for Silverfield (Arkansas) Dec 2025 - variance multiplier 1.13 applies"
+}

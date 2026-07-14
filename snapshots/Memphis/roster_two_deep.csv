@@ -1,0 +1,38 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Marcus Stokes OR Air Noland,JR/SO,West Florida (D2) / South Carolina,"OPEN BATTLE into fall (Huff 4/4: 'heavyweight slugging'); Athlon+PS project Stokes; OurLads Feb had Noland. Stokes: 18 st 4890 yds (66% 44-21) + 987 rush 3.8 at UWF, 2025 Harlon Hill finalist, PS QB#31. Noland: ex-Ohio St 4-star, 2 gm 13 att (67%) at SC 2025, PS#45"
+QB,QB,3,Denzel Gardner,RFR,Southern Miss transfer,followed Huff; no snaps
+RB,RB,1,Jaylin Carter,SO,Southern Miss transfer,166 yds (4.4) 9 gm 2025; PFF 68.4/38 att; receiving back
+RB,RB,1,Dallan Hayden,SR,Colorado transfer (ex-Ohio St),Memphis native; career 264-1185-8; 70-326 2025; PFF 66.2/70
+RB,RB,2,Manny Covey,JR,Cincinnati transfer,career 260 yds (5.6) 3Y; PR ~10 avg 2025; committee expected (Athlon)
+WRTE,WR,1,Tychaun Chapman,SR,Southern Miss transfer,449 yds (17.9?) 2025 SM + UNC/Marshall before; PS WR#31; "team's fastest" (PS); PFF 67.1/193 rt
+WRTE,WR,1,Terrell Timmons Jr.,SR,Colorado transfer (ex-NC State),274 (19.6) 2Y NCSU + 80 (11.4) 2Y Colorado; field-stretcher; PFF 66.6/37 rt
+WRTE,WR,1,Stonka Burnside OR Alante Brown,SO/SR(7th yr),Mississippi St / Michigan St transfers,DISCREPANCY: PS starts Burnside (PS WR#34 "will thrive"); Athlon starts Brown (speedy big-play; 4 KR 53.5 avg 2025). CFBD lists Burnside as S - position ambiguity noted
+WRTE,WR,2,Brady Kluse,JR,RETURNER,340 yds (10.9) #4 on 2025 team; PFF 63.6/227 rt
+WRTE,WR,2,Jemyri Davis,JR,Kansas State transfer,4 gm 8 yds at KSU 2025; PFF 43.x/65? low vol
+WRTE,WR,2,Jermane Hayes / Bryce Dorsey,SO/SO,Southern Miss transfer / returner,depth
+WRTE,TE,1,Hunter Tipton,SR,Middle Tennessee transfer,39-411 2025 (CFN); PFF 62.1/363 routes; also 1 st at LT'24? (PS OCR ambiguous)
+WRTE,TE,2,TJ Johnson / Aidan O'Callaghan,JR/SO,WVU / Weber St transfers,PS#82 Johnson; depth
+OL,LT,1,Riley McGehee OR Carde Smith,JR/RFR,Arkansas State / Colorado (ex-USC),Athlon LT=McGehee; OurLads Feb LT=C.Smith. McGehee PFF 67.7/985 at ArkSt
+OL,LG,1,Parker Mitchell OR Skyler Grant,SR/SR,RETURNER (only returning starter) / Old Dominion,Mitchell PFF 59.1/915 2025; Athlon LG=Mitchell; PS RG=Woudsma w/ Mitchell LG; OurLads Feb LG=S.Grant (PFF 60.3/830 ODU)
+OL,C,1,Koby Keenum OR Phillip Gray,JR/SR,Mississippi St / Richmond (FCS),DISCREPANCY: Athlon C=Keenum (low snaps at MissSt; 11 gm 2Y Kentucky before); PS C=Gray (15 st 36 gm 4Y Richmond)
+OL,RG,1,Maarten Woudsma,SR,Old Dominion transfer,19 st 42 gm 4Y at ODU; PFF 62.4/871 2025; Decker's ODU connection
+OL,RT,1,Aaron Karas,SR,Colorado State transfer,PFF 64.3/779 at CSU 2025
+OL,OL,2,Brian Grant / Xavier Allen / Jonathan Young,SR/SR/SR,Tennessee / Bucknell (FCS) / returner,B.Grant PFF 51.0/70 at Tenn; depth
+DL,DE,1,J'Mond Tapp,SR,Southern Miss transfer (ex-Texas),PFF 90.0/636 2025 (!); 12 st 70 tkl 12 TFL 7.5 sk 1st-tm All-SBC; "NFL line potential" (PS); Athlon AAC #1 transfer
+DL,NT,1,J'mari Monette OR Jaden McKinney,SR/SR,Indiana / Southern Miss,Monette career 4 tkl at Indiana (Athlon NG). McKinney PFF 74.7/313 at SM (PS DT1)
+DL,DT,1,Taylor Burton,SR,RETURNER,PFF 68.7/295 2025; 20 gm 19 tkl 5 TFL 2Y (incl UT-Martin before)
+DL,DE,1,Elijah Kinsler,SO,Southern Miss transfer,4 gm at SM 2025; 3 gm at WVU '24 - thin sample (PS DE1)
+DL,DL,2,Jabari Ishmael / K.J. Miles / Xavier Miles / Devan Lowe / Eric Thomas / Joseph Head / DeAngelo Thompson,,SoMiss/Temple/Charlotte/GaSouthern/Syracuse/MissSt/Syracuse,Ishmael 66.6/314 SM; KJ Miles 59.0/334 Temple; Lowe 56.8/372 GaSo; E.Thomas 6-5 360 Cuse (low snaps); rotation-by-committee
+LB,MLB,1,Jayden Parrish OR Zach Ruffin,SO/SO,Florida State / Southern Miss,DISCREPANCY: Athlon MLB=Parrish (3 gm 2 tkl 2Y FSU); PS MLB=Ruffin (4 tkl at SM). Beyond Montgomery "rest of LBs have amassed only 23 career tackles" (Athlon)
+LB,WLB,1,Mike Montgomery,SR,Southern Miss transfer,PFF 75.2/649 2025; 105 tkl 6 TFL 3rd-tm All-SBC; 149 tkl 2Y Portland St before; unit leader (Athlon)
+LB,LB,2,Trey McDonald / Tylon Nash / Wolf Walker / Christian Thatcher / Donovan Mathena,,Virginia/returner/FR/Utah/returner,all low-to-zero volume
+DB,CB,1,Ellis Ellis Jr.,SR,Austin Peay (FCS) transfer,16 st 12 tkl 14 PBU 4 INT 2025 (PS) - ball-hawk numbers at FCS level
+DB,CB,1,Anthony Richard Jr. OR Chauncey Logan Jr.,SR/GR,Southern Miss / RETURNER,Richard PFF 79.7/521 at SM (13 st 31 tkl 10 pd); Logan 64.8/202 2025 Memphis
+DB,NB,1,Ian Foster,JR,Southern Miss transfer (ex-Marshall),PFF 84.9/815 2025 (!); 75 tkl 3.5 TFL 10 pd; "punishing tackler... smothering man" (Athlon); KR ace (led nation 50+ KRs at Marshall '24); followed Huff Marshall->SM->Memphis
+DB,S,1,Ahmere Foster,SR,Southern Miss transfer,PFF 76.3/816 2025
+DB,S,1,Dylan King OR Dylan Smith,SR/JR,Southern Miss / Oklahoma State,King low vol at SM; Smith low vol at OkSt; Athlon starts both Fosters+Smith; OurLads SS=King
+DB,DB,2,Darius Malcolm / Dilan Williamson / Beni Mwamba / Jordan Bell,,Wofford/Concordia-StP (D2)/UTC/returner,depth; Burnside cross-listed S
+ST,K,1,Philippe LaForge,SO,Coastal Carolina transfer,2025 Coastal stats not found (gap); 2025 Memphis K Spetic -> Texas
+ST,P,1,Harrison Tuck,SR,Alabama State (FCS) transfer,Aussie (ex-AFL); 41.8 avg 2025; 3-yr FCS punter
+ST,KR/PR,1,Ian Foster / Alante Brown / Manny Covey,,transfers,Foster nation-best 50+ KRs at Marshall '24; Brown 53.5 KR avg 2025; Covey ~10 PR avg at Cincy
+ST,STC,1,Tim Conner,,staff,STC: Cincinnati '23-'25, Louisville '22, Georgia Tech '19-'21 (PS); LS Simmons (Cincy transfer)

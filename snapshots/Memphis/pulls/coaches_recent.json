@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Ryan",
+  "lastName": "Silverfield",
+  "hireDate": "2019-12-13T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Memphis",
+    "year": 2024,
+    "games": 13,
+    "wins": 11,
+    "losses": 2,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": 24,
+    "srs": 3.2,
+    "spOverall": 9.6,
+    "spOffense": 36.7,
+    "spDefense": 28.2
+   }
+  ]
+ },
+ {
+  "firstName": "Ryan",
+  "lastName": "Silverfield",
+  "hireDate": "2019-12-13T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Memphis",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 2.5,
+    "spOverall": 7.6,
+    "spOffense": 34.3,
+    "spDefense": 28.3
+   }
+  ]
+ }
+]
