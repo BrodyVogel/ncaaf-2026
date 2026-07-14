@@ -8,7 +8,7 @@
 
 ## Global anchors (bracket every grade with these)
 - **97** — Texas QB 2025 (P4, raw PFF 87.3 → adj 95.0): 1 qualifying — 1 at 72+, 0 below 58; volume leader Arch Manning (87.3 on 463 dropbacks).
-- **92** — Northwestern DL 2025 (P4, raw PFF 71.1 → adj 81.5): 7 qualifying — 3 at 72+, 0 below 58; volume leader Michael Kilbane (84.0 on 491 snaps).
+- **91** — Kentucky DL 2025 (P4, raw PFF 73.5 → adj 81.4): 7 qualifying — 4 at 72+, 0 below 58; volume leader Mi'Quise Humphrey-Grace (72.9 on 502 snaps), best grade Tavion Gadson (80.4 on 345).
 - **84** — Texas Tech OL 2025 (P4, raw PFF 66.9 → adj 75.4): 5 qualifying — 0 at 72+, 1 below 58; volume leader Sheridan Wilson (66.4 on 962 snaps), best grade Howard Sampson (71.8 on 926).
 - **78** — Houston WRTE 2025 (P4, raw PFF 67.7 → adj 71.1): 5 qualifying — 2 at 72+, 2 below 58; volume leader Amare Thomas (79.2 on 397 routes).
 - **72** — Washington State DB 2025 (G5, raw PFF 72.8 → adj 72.5): 7 qualifying — 2 at 72+, 0 below 58; volume leader Caleb Francl (71.4 on 708 snaps), best grade Tucker Large (81.4 on 650).

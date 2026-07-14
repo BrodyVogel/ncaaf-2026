@@ -6,7 +6,10 @@ played, snap-weighted PFF aggregates). Exemplars are named 2025 units pinned at 
 percentiles; every grading call compares against the same anchors. 2025 facts are
 blinding-safe.
 
-v3 FINAL (2026-07-14, user-ratified: competition-adjusted scale):
+v3.1 FINAL (2026-07-14): + team-grade corroboration filter for anchors (an anchor's
+  adjusted percentile must sit within 25 of PFF's own team-grade percentile for that
+  unit's side - the Northwestern-DL rule; unit percentile TABLES unchanged)
+v3 (competition-adjusted scale):
   - unit aggregates adjusted by conference offsets (data/backtest/conf_offsets_2021_2025.json)
     BEFORE percentile ranking - raw PFF is not opponent-adjusted (the Gleason fix)
   - anchors show raw and adjusted aggregates; conference discount table appended
@@ -19,6 +22,7 @@ carried from v2:
 Run ONCE, commit, NEVER regenerate (the generator remains for audit only).
 """
 import csv, json, sys, os
+import numpy as np
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from pff_common import UNITS, build_team_lookup, team_unit_grades_asplayed, load_unit_year
 from step4b_calibration_conf_adjusted import group_of, confs
@@ -67,6 +71,20 @@ def main():
                 if lookup(tn) == team and vol >= min_pv]
         return sorted(rows, reverse=True)
 
+    # team-grade corroboration: PFF's own team-level column(s) for the unit's side
+    TEAMCOLS = {"QB": ["PASS"], "RB": ["RUN"], "WRTE": ["RECV"], "OL": ["RBLK", "PBLK"],
+                "DL": ["RDEF", "PRSH"], "LB": ["RDEF", "TACK"], "DB": ["COV"]}
+    tg_rows = list(csv.DictReader(open("data/pff/PFF_2025_team_grades.csv")))
+    p2c = {r["pff_2025"]: r["cfbd_school"] for r in csv.DictReader(open("data/anchors/team_name_map.csv"))}
+    def teamcol_pct(unit, team):
+        pcts = []
+        for c in TEAMCOLS[unit]:
+            vals = sorted(float(r[c]) for r in tg_rows)
+            mine = [float(r[c]) for r in tg_rows if p2c.get(r["TEAM"]) == team]
+            if mine:
+                pcts.append(100 * sum(1 for x in vals if x < mine[0]) / (len(vals) - 1))
+        return np.mean(pcts) if pcts else None
+
     def robust(unit, team, vol):
         min_uv = UNITS[unit][5]
         need = 1 if unit == "QB" else 2
@@ -89,6 +107,10 @@ def main():
             adj_pct = 100 * i / (len(arr) - 1)
             if exemplar and abs(adj_pct - raw_pct[(t, unit)]) > 20:
                 continue   # anchor coherence: guideposts where raw and adjusted agree
+            if exemplar:
+                tc = teamcol_pct(unit, t)
+                if tc is not None and abs(adj_pct - tc) > 25:
+                    continue   # corroboration: PFF's team-level view must agree (NW-DL rule)
             return round(adj_pct), g, t, raw
         return round(100 * idx / (len(arr) - 1)), arr[idx][0], arr[idx][1], arr[idx][3]
 

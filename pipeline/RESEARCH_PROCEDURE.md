@@ -1,12 +1,29 @@
-# Per-team research procedure — v2.0 (2026-07-14). Implements brief §5 + blinding §4 v2.
+# Per-team research procedure — v2.1 (2026-07-14). Implements brief §5 + blinding §4 v2.
 
-Supersedes v1. Changes: obsessive-depth mandate (research_log, unit dossiers, source
-minimums), Pick Six joins the magazine sweep for P4/ND under blinding v2, player
-valuations become an explicit mosaic. Commit = freeze, unchanged.
+Supersedes v1/v2. v2: obsessive-depth mandate (research_log, unit dossiers, source
+minimums), Pick Six in the magazine sweep for P4/ND, valuation mosaic. v2.1: the
+checklist is explicitly the FLOOR — open-ended discovery + dry-well + disconfirmation
+standards added. Commit = freeze, unchanged.
 
 **The standard: obsessive.** Research depth is the edge. Rocks under rocks. A data gap
 is a *finding that the information does not exist*, proven by a logged failed search —
 never a shrug. There is no "too much research."
+
+**The checklist below is the FLOOR, never the ceiling.** Three standards sit on top:
+
+- **Loop until dry.** After the mandatory sweep, keep following threads — any source
+  type, any angle — until **three consecutive genuinely-new searches surface nothing
+  material**. Log the dry well ("searches N, N+1, N+2 returned nothing new") as the
+  proof research actually ended rather than merely stopped.
+- **Hunt disconfirmation.** For every unit, at least one search whose explicit goal is
+  to BREAK the forming thesis ("Iowa OL looks strong — search: iowa offensive line
+  concerns/injuries/departures 2026"). Confirming what you already believe is the
+  cheapest research there is; the edge lives in what would have changed the grade.
+- **No source type is off the menu.** Podcasts and radio hits (transcripts/summaries),
+  camp interviews, local TV reports, message boards and team blogs (tier-4: leads to
+  verify upward, never citable alone), coach pressers, portal crystal-balls. Anything
+  found gets a reliability tier noted in the dossier. Time spent is not a constraint;
+  unverifiable rumor entering a dossier as fact is the only sin.
 
 Trigger: **"Run the pipeline for Team X."** Interactive, supervised (brief §9). Stop
 with ONE question when truly blocked. Clean teams first, messy last.
