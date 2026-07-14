@@ -1,0 +1,218 @@
+{
+ "team": "Memphis",
+ "units": {
+  "QB": {"grade": 40, "confidence": "L"},
+  "RB": {"grade": 42, "confidence": "M"},
+  "WRTE": {"grade": 45, "confidence": "M"},
+  "OL": {"grade": 38, "confidence": "L"},
+  "DL": {"grade": 52, "confidence": "M"},
+  "LB": {"grade": 30, "confidence": "L"},
+  "DB": {"grade": 74, "confidence": "M"},
+  "ST": {"grade": 50, "confidence": "L"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-14",
+  "snapshot_rev": "frozen 2026-07-14 (post c091163)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; full assembly per manifest; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB -, RB -, WRTE 26, OL 40, DL 33, LB -, DB 76, ST 52) vs grades; deltas documented",
+   "WRTE": "+19 (proxy dragged by departed Braham 79.1/364 volume; blind to PS's incoming-experience parity framing and Chapman/Tipton roles)",
+   "OL": "-2 (agree)",
+   "DL": "+19 (proxy appears to miss/underweight Tapp 90.0/636 and the SM adds - its own name/membership handling; grades weigh the recovered evidence directly)",
+   "DB": "-2 (agree)",
+   "ST": "-2 (agree)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Memphis",
+   "unit": "QB",
+   "grade": 40,
+   "confidence": "L",
+   "bracketing_exemplars": ["Illinois RB 2025 (32)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "Zero FBS production returns or arrives: 2025 was 86th-pctile as-played but entirely Brendon Lewis (PFF 87.2 on 447 dropbacks, graduated); the 2026 room is Stokes (Division II) + Noland (13 career FBS attempts).",
+    "Stokes's D2 resume is real and deep: 18 starts, 4,890 yds (66%, 44-21 TD-INT), 987 rush yds at West Florida; 2025 Harlon Hill finalist; PS QB#31 positional rank; Athlon 2026: 'expected to land the starting job.' Dual-threat profile fits Decker's speed-spread (attributed).",
+    "Noland provides pedigree insurance: former consensus top-100/4-star (Ohio State signee), 2 gm/13 att (67%) at South Carolina 2025, PS#45; CFN 2026-07-07 calls him a 'big-time QB prospect.' Huff 2026-04-04: 'heavyweight slugging it' - both playing well enough to keep it open.",
+    "Nothing resolves before fall: no starter named in spring AND the public spring game was weather-postponed (rollingout 2026-04-18) - zero live-competition data exists for either QB vs FBS defense.",
+    "Placement: better-credentialed room than a bare open battle (extensive D2 dominance + blue-chip pedigree) but a two-level translation for the favorite - below FBS average at 40, above Iowa-QB-32-style rooms on production, below the Nebraska-WRTE-50 average band."
+   ],
+   "key_players": [
+    {"name": "Marcus Stokes", "role": "QB1 favorite (PS + Athlon)", "evidence": "18 st, 4,890 (66%, 44-21) + 987 rush at West Florida (D2); 2025 Harlon Hill finalist; PS QB#31"},
+    {"name": "Air Noland", "role": "QB1 challenger", "evidence": "ex-Ohio St 4-star; 2 gm, 13 att (67%) at South Carolina 2025; PS#45; 'heavyweight' battle per Huff (On3 2026-04-04)"}
+   ],
+   "data_gaps": [
+    "No D2 PFF data exists for Stokes; no meaningful FBS sample for Noland",
+    "Battle unresolved into fall camp; no spring game played (weather)",
+    "Decker's QB usage at Memphis unobserved (scheme install year)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Memphis",
+   "unit": "RB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "Nothing returns from a 46th-pctile 2025 room (Smith 73.6/102 followed Silverfield to Arkansas; Desrosiers/Peasant expired).",
+    "Three-transfer committee, all hint-volume positives, none a proven FBS lead back: Hayden (Colorado/Ohio St: career 264-1,185-8; PFF 66.2 on 70 att 2025, B12-earned -> ~73 adj), Carter (SM: 166 yds, 68.4/38 att, receiving profile), Covey (Cincy: career 260 yds, 5.6/carry).",
+    "Athlon 2026: the three 'should get the bulk of the carries' - explicit committee; Hayden 'a powerful back,' Memphis native (homecoming angle noted, not weighted).",
+    "All-transfer OL in front (only one returning starter) caps the projection; no source calls RB a strength. 42 = fringe-below-average nationally: real bodies, no headliner."
+   ],
+   "key_players": [
+    {"name": "Dallan Hayden", "role": "committee lead candidate", "evidence": "career 264-1,185-8 (Ohio St + Colorado); 70-326 in 2025; PFF 66.2/70 (CFN 2026-07-07; PS lineup)"},
+    {"name": "Jaylin Carter", "role": "receiving back (followed Huff)", "evidence": "166 yds (4.4) at SM 2025; PFF 68.4/38 att"}
+   ],
+   "data_gaps": [
+    "No back has >102 FBS attempts in a season; lead-back identity unresolved",
+    "Decker-scheme RB usage split unobserved at Memphis"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Memphis",
+   "unit": "WRTE",
+   "grade": 45,
+   "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "2025 was 63rd pctile on big volume but the top three are gone (Braham 79.1/364 expired, Hawkins 69.6/347 to Arkansas, Bussey expired); Kluse (63.6/227, 340 yds) is the returning veteran at #4-turned-#2.",
+    "Incoming FBS production is real but mid-grade: Chapman (SM: 449 yds @ ~18/catch, PFF 67.1/193, PS WR#31, 'team's fastest' - PS), TE Tipton (MTSU: 39-411, PFF 62.1 on 363 routes, CUSA-earned -> ~58 adj), Timmons (NC State/Colorado deep threat), Burnside (PS WR#34 'will thrive' - opinion + pedigree, 1 career catch), A.Brown (7th-year MSU speed).",
+    "PS's own quant framing (attributed): Chapman + Tipton 'each topping 400 yards in '25 so are on par with 2025 experience-wise' - replacement-level-for-this-room, not an upgrade.",
+    "Scheme tailwind: 'receivers will line up wider in Decker's scheme' (Athlon) and the room is built on speed - but no proven FBS #1 target and the QB is unknown. 45 = slightly below national average: adequate FBS volume, no headliner, unsettled QB."
+   ],
+   "key_players": [
+    {"name": "Tychaun Chapman", "role": "WR1 (slot/speed)", "evidence": "449 yds ~18.0/catch at SM 2025; PFF 67.1/193 routes; PS WR#31, 'team's fastest'"},
+    {"name": "Hunter Tipton", "role": "TE1", "evidence": "39-411 at MTSU 2025; PFF 62.1 on 363 routes (CFN 2026-07-07; PS lineup)"},
+    {"name": "Brady Kluse", "role": "returning veteran WR", "evidence": "340 yds (10.9) 2025; PFF 63.6/227 routes"}
+   ],
+   "data_gaps": [
+    "WR3 unresolved (PS=Burnside vs Athlon=A.Brown); Burnside has 1 career catch",
+    "No proven FBS #1 target on the roster; target distribution depends on unsettled QB"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Memphis",
+   "unit": "OL",
+   "grade": 38,
+   "confidence": "L",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "The 2025 line's best players are gone (Burke 84.5/765 expired; Breland 69.4/845 to Arkansas; Walker 60.9/881 to Baylor); Mitchell (59.1 on 915 snaps) is the roster's ONLY returning starter - and his grade is the weakest of the projected five.",
+    "Five FBS-volume transfers with mid-to-low grades: McGehee (ArkSt 67.7/985), Woudsma (ODU 62.4/871, 19 career starts), S.Grant (ODU 60.3/830), Karas (CSU 64.3/779, MWC-earned -> ~54 adj), plus a C battle between low-snap Keenum (MissSt) and FCS Gray (Richmond, 15 starts). Experience without quality: PS's portal box counts 63 starts added.",
+    "Zero cohesion (no two projected starters have played together) and two spots open (C: PS=Gray vs Athlon=Keenum; LT: Athlon=McGehee vs OurLads=C.Smith) in a new scheme with an unsettled QB - the canonical all-transfer gel risk, and NO source praises the unit (disconfirmation hunt found only neutral-to-cautious framing).",
+    "Mitigants: two ODU linemen follow OC Decker (scheme familiarity, attributed), and the aggregate profile (~60-63 adj) sits clearly above the WKU-OL-25 anchor sketch (55.4 adj, 2 players below 58). 38 = bottom-third nationally but not broken."
+   ],
+   "key_players": [
+    {"name": "Riley McGehee", "role": "LT/RT (Athlon LT1)", "evidence": "PFF 67.7 on 985 snaps at Arkansas State 2025 - highest-volume, best-graded projected starter"},
+    {"name": "Maarten Woudsma", "role": "RG (followed Decker from ODU)", "evidence": "62.4 on 871 snaps, 19 career starts at ODU (row manually recovered - absent from CFBD portal feed)"},
+    {"name": "Parker Mitchell", "role": "LG, only returning starter", "evidence": "PFF 59.1 on 915 snaps 2025"}
+   ],
+   "data_gaps": [
+    "C and LT starters unresolved across sources (07/2026)",
+    "Carde Smith (Colorado RS FR, ex-USC pedigree) has zero college snaps - could change the LT math either way",
+    "No line-cohesion evidence possible pre-season for an all-transfer unit"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Memphis",
+   "unit": "DL",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "All four 2025 starters gone incl. 1st-tm AAC Whitlow (79.4/633) from a 51st-pctile unit - but the replacement headliner is better than anyone he lost: J'Mond Tapp (SM, ex-Texas): PFF 90.0 on 636 snaps, 12 TFL, 7.5 sk, 10 QBH, 1st-tm All-SBC; Athlon's #1 AAC transfer; PS: 'NFL line potential' (edge #27). SBC discount (-6) still leaves ~84 adj - an elite G5 edge.",
+    "Supporting cast is rotation-grade: McKinney (SM 74.7/313 -> ~69 adj), Burton (returner, 68.7/295), then Ishmael (66.6/314), KJ Miles (Temple 59.0/334), Lowe (GaSo 56.8/372), with Kinsler projected to start at DE on a 4-game SM sample and Monette (career 4 tackles at Indiana) at NG per Athlon.",
+    "PS caution (attributed): the adds 'do not have as many full-time starters' as the departed group - interior proven depth is the thin spot.",
+    "Guidry's 4-2-5 install is a two-way wildcard, but the SM front pieces (Tapp/McKinney/Ishmael/Kinsler) arrive with scheme continuity under the same staff. 52 = average-plus nationally: one elite piece lifting an otherwise middling group."
+   ],
+   "key_players": [
+    {"name": "J'Mond Tapp", "role": "DE1, the unit's identity", "evidence": "PFF 90.0/636, 70 tkl, 12 TFL, 7.5 sk, 1st-tm All-SBC at SM 2025; 'NFL line potential' (PS); Athlon AAC #1 transfer"},
+    {"name": "Jaden McKinney", "role": "DT/NG starter", "evidence": "PFF 74.7 on 313 snaps at SM 2025; 27 tkl, 2 FF"},
+    {"name": "Taylor Burton", "role": "DT, only returning DL contributor", "evidence": "PFF 68.7 on 295 snaps 2025"}
+   ],
+   "data_gaps": [
+    "Kinsler (projected starting DE) has a 4-game SM sample; Monette (projected NG) has 4 career tackles",
+    "Interior rotation quality behind Burton/McKinney unproven at AAC level"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Memphis",
+   "unit": "LB",
+   "grade": 30,
+   "confidence": "L",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "UNLV LB 2025 (40)"],
+   "rationale_bullets": [
+    "LB caution rule applies (noisiest PFF signal, biggest offsets) - and even so the picture is thin: all three 2025 LBs are gone from a unit that was only 14th-pctile adjusted anyway.",
+    "One proven piece: Mike Montgomery (SM): PFF 75.2 on 649 snaps (row manually recovered - CFBD name variant), 105 tkl, 6 TFL, 3rd-tm All-SBC; 'leader of the unit' (Athlon 2026). SBC LB discount (-8) -> ~67 adj: a solid G5 starter, not a star.",
+    "The second spot is production-empty: Athlon starts Parrish (FSU: 3 gm, 2 career tackles); PS starts Ruffin (SM: 4 tackles); Athlon's own warning: 'the rest of the linebackers have amassed only 23 career tackles.'",
+    "Mitigant: Guidry's 4-2-5 needs only two LBs and Montgomery arrives with scheme continuity. 30 = bottom-quarter nationally: one mid-tier proven starter + a void, below the UNLV-LB-40 anchor sketch (which had a proven 808-snap leader plus two more qualifiers)."
+   ],
+   "key_players": [
+    {"name": "Mike Montgomery", "role": "WLB, unit leader", "evidence": "PFF 75.2/649, 105 tkl, 6 TFL, 3rd-tm All-SBC at SM 2025; 149 tkl over 2Y at Portland St before"},
+    {"name": "Jayden Parrish", "role": "MLB candidate (Athlon)", "evidence": "3 gm, 2 career tackles at FSU - pedigree-only projection"}
+   ],
+   "data_gaps": [
+    "MLB unresolved (Athlon=Parrish vs PS=Ruffin; CFBD lists Ruffin as S)",
+    "Total non-Montgomery LB production = 23 career tackles (Athlon 2026)",
+    "Montgomery run-def vs coverage sub-grade split not decisive for projection"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Memphis",
+   "unit": "DB",
+   "grade": 74,
+   "confidence": "M",
+   "bracketing_exemplars": ["Washington State DB 2025 (72)", "Houston WRTE 2025 (78)"],
+   "rationale_bullets": [
+    "The roster's best transfer haul, centered on Ian Foster (SM, followed Huff Marshall->SM->Memphis): PFF 84.9 on 815 snaps, 75 tkl, 10 pd; Athlon: 'punishing tackler... blitz off the edge... smothering man-to-man' at nickel. SBC discount (-4) -> ~81 adj - elite-G5-defender territory.",
+    "Two more high-volume quality SM pieces: Ahmere Foster (76.3/816 -> ~72 adj) and CB Anthony Richard (79.7/521 -> ~76 adj, 10 pd) - three projected starters at 72+ adjusted with 500+ snap 2025 volume.",
+    "CB1 Ellis Ellis Jr. (Austin Peay - FCS): 16 st, 12 tkl, 14 PBU, 4 INT 2025 - elite FCS ball production, projected starter by both magazines; FCS->AAC translation is the open risk. Returner Logan (64.8/202) and low-volume King/D.Smith fill out; depth behind is D2/FCS priors.",
+    "Context both ways: 2025 Memphis DBs were only 37th pctile and the good safeties left for P4s - but this group replaces them wholesale, and Guidry (ex-Miami DC) is a DB-side coach. Substance-check: better top-end than the WSU-DB-72 anchor sketch (best 81.4/650; Memphis projects an ~81 adj + ~76 + ~72), thinner known depth - 74.",
+    "Shadow proxy independently lands 76 (rare proxy-grade agreement; proxy can't even see FCS Ellis)."
+   ],
+   "key_players": [
+    {"name": "Ian Foster", "role": "NB, defensive centerpiece", "evidence": "PFF 84.9/815, 75 tkl, 3.5 TFL, 10 pd at SM 2025; Athlon scouting praise; also elite KR resume"},
+    {"name": "Anthony Richard Jr.", "role": "CB", "evidence": "PFF 79.7 on 521 snaps at SM 2025; 13 st, 31 tkl, 10 pd"},
+    {"name": "Ahmere Foster", "role": "S", "evidence": "PFF 76.3 on 816 snaps at SM 2025"},
+    {"name": "Ellis Ellis Jr.", "role": "CB1 (both magazines)", "evidence": "16 st, 12 tkl, 14 PBU, 4 INT at Austin Peay (FCS) 2025"}
+   ],
+   "data_gaps": [
+    "Ellis FCS->AAC translation unproven; he is the projected CB1",
+    "Safety spot 2 unresolved (Athlon=D.Smith vs OurLads=King, both low 2025 volume)",
+    "Depth beyond the top 6 is D2/FCS-prior only"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Memphis",
+   "unit": "ST",
+   "grade": 50,
+   "confidence": "L",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "2025 SPEC 74.1 was mid-tier and its makers are gone - K Spetic was poached BY TEXAS (quality-loss signal), P/LS departed, and the staff turned over (new STC Tim Conner: Cincinnati '23-'25, Louisville, GT - experienced hire, attributed to PS).",
+    "Kicker is a verified data gap: LaForge (Coastal Carolina SO) has no findable 2025 stat line after three logged searches - graded as unknown-average with Castaneda (returner) behind. Punter Tuck (Alabama State - FCS): Aussie, 3-year starter, 41.8 avg 2025 - adequate prior.",
+    "The return room is the real strength (attributed, Athlon): Ian Foster led the nation in 50+ and 40+ kick returns at Marshall 2024; A.Brown averaged 53.5 on 4 KR in 2025; Covey ~10/PR at Cincy - 'experienced return specialists.'",
+    "50 = dead-average: credentialed returners and coordinator offset an unknown kicker and wholesale turnover; confidence L until LaForge is observable."
+   ],
+   "key_players": [
+    {"name": "Philippe LaForge", "role": "K (Coastal Carolina transfer)", "evidence": "2025 stats not found in accessible sources - logged gap (research_log 2026-07-14)"},
+    {"name": "Harrison Tuck", "role": "P", "evidence": "41.8 avg 2025 at Alabama State (FCS); 3-year starter; ex-Australian Rules (Athlon)"},
+    {"name": "Ian Foster", "role": "KR", "evidence": "led nation in KO returns of 50+ (3) and 40+ (5) at Marshall 2024 (Athlon)"}
+   ],
+   "data_gaps": [
+    "LaForge 2025 kicking stats unavailable (3 searches logged) - the unit's biggest unknown",
+    "Coverage/block units unobservable pre-season on a 51-transfer roster"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
