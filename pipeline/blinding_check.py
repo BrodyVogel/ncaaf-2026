@@ -1,19 +1,25 @@
 #!/usr/bin/env python3
-"""Blinding lint (brief §4): scan snapshot text for consensus/market leakage.
+"""Blinding lint (brief §4 v2): scan snapshot text for TEAM-LEVEL-OVERALL/market leakage.
 
 Run before every snapshot freeze: python3 blinding_check.py snapshots/Kansas_State
-Flags forbidden tokens for manual review (warn-list, human judgment on context —
-e.g. a coach quote saying "we were ranked" is fine; a copied SP+ number is not).
-Exits 1 if anything is flagged so a freeze script can gate on it.
+v2 (2026-07-14): unit/player-level magazine & Pick Six citations are now LEGAL
+("Athlon: #8 OL nationally" is fine, attributed). Flags target overall team
+ratings/rankings/finish predictions and market numbers. Warn-list — human judgment on
+context at freeze time. Exits 1 if anything is flagged so a freeze can gate on it.
 """
 import os, re, sys
 
 TOKENS = [
+    # anchor-source numbers (always forbidden)
     r"\bsp\+", r"\bspplus", r"\bfpi\b", r"\bfei\b", r"\bmassey", r"team\s*rankings",
-    r"\bkford", r"game\s*grader", r"pick\s*six\s*previews", r"win\s+total", r"over/under", r"\bo/u\b",
-    r"\bodds\b", r"\bvegas\b", r"\bfuture[s]?\s+price", r"power\s+rating",
-    r"power\s+ranking", r"predicted\s+order", r"picked\s+to\s+finish",
-    r"preseason\s+(no\.|rank|top.?25|#)", r"\bconsensus\b",
+    r"\bkford", r"game\s*grader",
+    # market numbers (always forbidden)
+    r"win\s+total", r"over/under", r"\bo/u\b", r"\bodds\b", r"\bvegas\b",
+    r"\bfuture[s]?\s+price",
+    # team-level overall judgments (forbidden; unit-level ranks are legal)
+    r"power\s+rating", r"power\s+ranking", r"overall\s+rank", r"predicted\s+order",
+    r"picked\s+to\s+finish", r"projected\s+record", r"top.?25\s+(team|overall)",
+    r"preseason\s+(no\.|rank(?!ing[s]?\s+(the|their|its)))",
 ]
 SCAN_EXT = (".md", ".csv", ".json", ".txt")
 

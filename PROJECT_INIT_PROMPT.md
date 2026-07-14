@@ -60,10 +60,13 @@ band_i = base_sigma × Π(multipliers_i)
 - The band is epistemic. Game-level randomness belongs in the user's sim — see OPEN item on double-counting.
 **Sequencing:** the cross-sectional fit needs *all* teams' grades. Per-team runs produce **grades + a provisional vs-anchor readout**; final ratings compute league-wide at the end. Do not fit the regression on partial data except as a rough progress check.
 
-## 4. Blinding rule — SETTLED, HARD
-The grading layer must never see consensus ratings, market lines, win totals, SP+/FPI/KFord/Massey/TeamRankings numbers, or any 2026 power ranking. Enforce at two points:
-1. **Snapshot creation:** no consensus/market numbers are copied into snapshots. In particular: **nothing from `anchors/` or the win-totals files may be read during research/snapshot/grading work.** Those live in the folder for the compute phase only (the manifest inside says the same).
-2. **Grading prompts:** instruct the grader to disregard any ranking it happens to encounter and grade solely from snapshot evidence.
+## 4. Blinding rule — v2 [AMENDED 2026-07-14, user-approved; supersedes the original hard-total ban]
+The line is drawn at TEAM-LEVEL OVERALL judgments and market numbers:
+**STILL FORBIDDEN in research/snapshots/grading:** overall team ratings, rankings, projections, and predicted finishes from anyone — anchor-source numbers (SP+/FPI/FEI/Massey/TR/KFord), Pick Six's overall rank & predicted order, magazines' predicted order of finish & national top-25s — and every market number (win totals, odds, futures). These are what the blend reconciles grades against; letting them in makes the residual circular.
+**ALLOWED as mosaic inputs (attributed + dated, never the sole justification):** unit-level and player-level assessments from magazines and Pick Six (unit rankings/write-ups, all-conference teams, player ratings), General-file content at unit/player/coach granularity, scheme and coaching analysis.
+Enforce at two points:
+1. **Snapshot creation:** nothing from `anchors/` or the win-totals files is ever read during research/snapshot/grading work; no forbidden-class numbers are copied into snapshots (Pick Six page-header overall ranks are read past, never recorded). `pipeline/blinding_check.py` lints every freeze.
+2. **Grading prompts:** disregard any overall ranking encountered; grades cite primary evidence alongside any allowed opinion; bracketing-exemplar discipline is the anti-anchoring backstop.
 Reconciliation with consensus happens **only in code** (§3). The flag is `|residual| > threshold`, and it goes to the user, never to a silent model-side correction.
 
 ## 5. Verification & data-hygiene rules — SETTLED, HARD
@@ -72,6 +75,7 @@ Reconciliation with consensus happens **only in code** (§3). The flag is `|resi
 - **Fringe roster status requires ≥2 independent sources** (OurLads plus one of ESPN / RotoWire / The Sideline). One source suffices only when context is overwhelming.
 - **Every player in the two-deep carries a data-confidence flag.** Low confidence widens the variance band.
 - **Unproven players get priors, not fake grades** — recruiting composite, prior program level, portal valuation, draft/scout buzz, with explicitly wide uncertainty.
+- [ADDED 2026-07-14] **Research depth is a design requirement, not a preference:** exhaustive per-team source sweep, a research_log.md recording every source consulted (including dead ends), per-unit evidence dossiers, ≥3 independent sources per unit (or a logged "exhausted" note), and no data_gap declared without a logged failed search. Player valuations are a MOSAIC (Sideline + 247/On3 + magazines + beat), never one source.
 - [NEW] **Team-name hygiene:** all joins key on the CFBD school name via `anchors/team_name_map.csv`. Do not string-match team names ad hoc — the sources use six different spelling conventions (Ole Miss/Mississippi, UConn/Connecticut, USF, UL Monroe/ULM, both Miamis, TR's "J Madison"/"Georgia So", Massey's "CS Sacramento"/"MTSU"/"Kent", etc.).
 
 ## 6. Data sources & status — [UPDATED 2026-07-12: acquisition is essentially done]
@@ -141,7 +145,7 @@ Commit = freeze. Python (cfbd client library); flag if the user prefers R. Repo 
 ## 12. Anti-goals — do not
 - Re-litigate settled design: the tier rubric is dead; the blend is the mechanism; blinding is mandatory.
 - Produce narrative team reports.
-- Let any consensus or market number touch the grading layer (that includes everything in `anchors/` and the win-totals files).
+- Let any TEAM-LEVEL OVERALL consensus number or market number touch the grading layer (that includes everything in `anchors/` and the win-totals files). [AMENDED 2026-07-14: unit/player-level magazine & Pick Six assessments are allowed mosaic inputs per §4 v2.]
 - Bulk-export or scrape PFF (the 27 CSVs already in the folder are the PFF data).
 - Make programmatic Anthropic API calls or build artifacts that do.
 - Silently "correct" a rating that disagrees with consensus — that disagreement is the product. Flag it.
