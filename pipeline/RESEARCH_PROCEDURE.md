@@ -26,7 +26,10 @@ pack is already filtered/tagged — do not re-scrape PFF (brief §12). CFBD 2026
 production is a known gap until August; note it, don't approximate silently.
 
 ## 3. Magazines (SECONDARY: identification + history)
-Phil Steele conference file (searchable) + Athlon conference file, this team's pages:
+**Phil Steele + Athlon ONLY. The Pick Six PDFs are NOT research sources** — they are a
+2026 prediction product (anchor input, compute phase); opening them during research
+violates §4 blinding. Phil Steele conference file (searchable) + Athlon conference
+file, this team's pages:
 - EXTRACT: personnel notes, injuries, position battles, scheme changes, coach quotes,
   two-deep discrepancies vs step 1 (resolve toward primary sources; note conflicts).
 - **NEVER copy**: predicted order of finish, unit rankings, ratings, win totals — those

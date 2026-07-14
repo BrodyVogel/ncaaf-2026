@@ -9,15 +9,25 @@
     ]
   },
   "anchor": {
-    "sources_live": {"sp_plus": 2.0, "fei": 1.0, "massey_own_model": 1.0, "espn_fpi": 1.0, "teamrankings": 1.0},
-    "sources_august": {"kford": 2.0, "pick_six_game_grader": "1.0, P4-only"},
+    "sources_live": {
+      "sp_plus": 2.0,
+      "fei": 1.0,
+      "massey_own_model": 1.0,
+      "espn_fpi": 1.0,
+      "teamrankings": 1.0,
+      "pick_six_rank": "1.0, P4-only, ordinal (order-statistic conversion in loader)"
+    },
+    "sources_august": {
+      "kford": 2.0
+    },
     "weight_rationale": "user leans SP+ (verified vintage, scale reference, interpretability); KFord gets the same 2x lean when it publishes (user's most-trusted source). Others diversify.",
     "normalization": "per source: z-score across its FBS coverage -> x SP+SD + SP+mean (points vs avg team)",
     "od_split": "blended overall, split into off/def using SP+'s component shape",
     "mechanical_adjustments": "NONE (churn priced by anchors - proven; power/G5 bias delivered via grades blend)",
     "refresh_protocol": "re-pull all live sources days before Week 0; re-date; log capture set per compute run",
     "massey_decision": "own model (composite would double-weight SP+/FPI which it ingests) - resolved 2026-07-13",
-    "fei_decision": "IN the blend; compute-only, blinded from grading - resolved 2026-07-13"
+    "fei_decision": "IN the blend; compute-only, blinded from grading - resolved 2026-07-13",
+    "picksix_decision": "CAPTURED 2026-07-14. Game Grader = retrospective results, not used; the 2026 prediction (overall rank of 68) is the anchor input, weight 1.0, P4 teams only - G5 teams simply average one fewer source."
   },
   "blend": {
     "k": 0.30,
@@ -30,7 +40,10 @@
   "variance": {
     "base_sigma_epistemic": 6.0,
     "adopted": "2026-07-13 (user D1); overrides brief SS3 sanity scale, which portal-era data does not support",
-    "multipliers": {"coach_change": 1.13, "data_confidence": "set at grading time per snapshot flags"},
+    "multipliers": {
+      "coach_change": 1.13,
+      "data_confidence": "set at grading time per snapshot flags"
+    },
     "dropped_multipliers": "returning production, class - flat vs real misses",
     "note": "band is epistemic-only; user's simulator injects game-level randomness"
   },

@@ -88,6 +88,21 @@
       "capture_file": "TeamRankings_2026preseason_2026-07-12.csv",
       "captured_date": "2026-07-12",
       "fields": "rank, predictive rating (only meaningful preseason column; record/home-away/last-5 are placeholders)"
+    },
+    {
+      "name": "Pick Six Previews (Brett Ciancia)",
+      "key": "pick_six",
+      "class": "anchor - P4 ONLY (68 teams), ordinal. Convert overall rank 1-68 to points in the anchor loader via order-statistic mapping onto the P4 slice of the blended distribution. Blinded from grading.",
+      "blinded_from_grading": true,
+      "format": "6 PDFs in folder (General + ACC/B10/B12/SEC + Notre Dame), text-searchable",
+      "coverage": "68 P4 (17 ACC, 18 B10, 16 B12, 16 SEC, Notre Dame)",
+      "team_naming": "full uppercase on team pages (MIAMI, TEXAS CHRISTIAN); parser maps to CFBD",
+      "update_cadence": "annual preview; no summer re-pull expected",
+      "capture_status": "CAPTURED 2026-07-14 via pipeline/parse_picksix.py (68/68 validated, overall ranks unique; conf-rank ties preserved as published)",
+      "capture_file": "PickSix_2026preseason_2026-07-14.csv",
+      "captured_date": "2026-07-14",
+      "fields": "overall_rank (1-68), conf_rank, conference, team_raw, cfbd_school",
+      "notes": "IMPORTANT: Game Grader tables in the General PDF are 2025 RESULTS / 3-yr averages (retrospective, image-embedded) - NOT the 2026 projection. The brief anticipated Game Grader as the anchor input; the actual 2026 projection Pick Six publishes is the predicted order + overall rank (Game-Grader-driven internally), so THAT is the capture. PDFs also hold per-team previews - NEVER open during research (blinding SS4)."
     }
   ]
 }

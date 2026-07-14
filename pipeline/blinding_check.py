@@ -10,7 +10,7 @@ import os, re, sys
 
 TOKENS = [
     r"\bsp\+", r"\bspplus", r"\bfpi\b", r"\bfei\b", r"\bmassey", r"team\s*rankings",
-    r"\bkford", r"game\s*grader", r"win\s+total", r"over/under", r"\bo/u\b",
+    r"\bkford", r"game\s*grader", r"pick\s*six\s*previews", r"win\s+total", r"over/under", r"\bo/u\b",
     r"\bodds\b", r"\bvegas\b", r"\bfuture[s]?\s+price", r"power\s+rating",
     r"power\s+ranking", r"predicted\s+order", r"picked\s+to\s+finish",
     r"preseason\s+(no\.|rank|top.?25|#)", r"\bconsensus\b",
