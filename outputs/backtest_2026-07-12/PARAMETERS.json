@@ -78,5 +78,21 @@
     "adopted": "2026-07-14 (user requirement)",
     "build_sheet": "every team ships full derivation: 8 unit grades (w/ confidence + bracketing exemplars) -> learned conversion weights -> grade-implied off/def -> residuals -> per-source anchor values (raw + normalized + winsorized flags) -> blend -> class term -> k x resid (capped) -> ST -> final + band. Nothing opaque.",
     "overrides": "outputs/overrides.csv (team, field, value, reason, date) - user-directed only, applied LAST, logged in run log, never silent. E.g. sided with Pick Six against blend on a team where its argument is strong."
+  },
+  "audit_qa": {
+    "adopted": "2026-07-14 (user-approved audit round 1)",
+    "shadow_proxy": "pipeline/shadow_proxy_2026.py -> every build sheet shows LLM grade | proxy grade; systematic divergence = k re-exam trigger",
+    "anchoring_tripwire": "compute_ratings warns if fit R2 > 0.75 (proxy baseline 0.46-0.68); dress rehearsal measured off 0.54 / def 0.61",
+    "test_retest": "pipeline/qa_regrade_sample.py: seeded 5% re-grade sample; gate median|d|<=5, p90<=8"
+  },
+  "compute_phase": {
+    "built": "2026-07-14",
+    "modules": [
+      "anchor_loader.py",
+      "compute_ratings.py",
+      "shadow_proxy_2026.py",
+      "qa_regrade_sample.py"
+    ],
+    "dress_rehearsal": "full 138-team run on shadow grades: R2 in baseline, top-10 sane, cap fires correctly; proxy-mode flag list contaminated by 50-imputes (documented, vanishes with real grades)"
   }
 }

@@ -1,0 +1,6391 @@
+{
+ "_meta": {
+  "run_utc": "2026-07-14T19:51:55+00:00",
+  "captures": "anchors 2026-07-12 (SP+ human-verified) + PickSix 2026-07-14",
+  "weights": {
+   "SP+": 2.0,
+   "FEI": 1.0,
+   "Massey": 1.0,
+   "FPI": 1.0,
+   "TR": 1.0,
+   "PickSix": 1.0
+  },
+  "class_per_side": 1.68,
+  "blend_tilt": 0.126,
+  "dispersion_flag_threshold": 10.43,
+  "n_winsorized": 63
+ },
+ "winsor_log": [
+  {
+   "team": "Air Force",
+   "source": "SP+",
+   "raw": -2.4,
+   "winsorized": -2.44,
+   "median_others": -7.44
+  },
+  {
+   "team": "Army",
+   "source": "FPI",
+   "raw": -7.01,
+   "winsorized": -6.57,
+   "median_others": -1.57
+  },
+  {
+   "team": "Charlotte",
+   "source": "SP+",
+   "raw": -32.4,
+   "winsorized": -26.89,
+   "median_others": -21.89
+  },
+  {
+   "team": "Charlotte",
+   "source": "FPI",
+   "raw": -17.49,
+   "winsorized": -17.69,
+   "median_others": -22.69
+  },
+  {
+   "team": "Colorado State",
+   "source": "SP+",
+   "raw": -8.3,
+   "winsorized": -8.57,
+   "median_others": -13.57
+  },
+  {
+   "team": "Delaware",
+   "source": "Massey",
+   "raw": -19.88,
+   "winsorized": -17.72,
+   "median_others": -12.72
+  },
+  {
+   "team": "Delaware",
+   "source": "FPI",
+   "raw": -8.17,
+   "winsorized": -9.99,
+   "median_others": -14.99
+  },
+  {
+   "team": "Florida",
+   "source": "FEI",
+   "raw": 8.03,
+   "winsorized": 9.9,
+   "median_others": 14.9
+  },
+  {
+   "team": "Florida",
+   "source": "Massey",
+   "raw": 9.37,
+   "winsorized": 9.9,
+   "median_others": 14.9
+  },
+  {
+   "team": "Florida",
+   "source": "TR",
+   "raw": 16.17,
+   "winsorized": 15.58,
+   "median_others": 10.58
+  },
+  {
+   "team": "Florida Atlantic",
+   "source": "SP+",
+   "raw": -7.1,
+   "winsorized": -8.7,
+   "median_others": -13.7
+  },
+  {
+   "team": "Georgia State",
+   "source": "SP+",
+   "raw": -25.1,
+   "winsorized": -23.47,
+   "median_others": -18.47
+  },
+  {
+   "team": "Houston",
+   "source": "FEI",
+   "raw": 3.07,
+   "winsorized": 3.2,
+   "median_others": 8.2
+  },
+  {
+   "team": "Indiana",
+   "source": "PickSix",
+   "raw": 20.64,
+   "winsorized": 21.43,
+   "median_others": 26.43
+  },
+  {
+   "team": "Iowa State",
+   "source": "FEI",
+   "raw": 9.54,
+   "winsorized": 4.52,
+   "median_others": -0.48
+  },
+  {
+   "team": "Iowa State",
+   "source": "Massey",
+   "raw": 11.99,
+   "winsorized": 4.52,
+   "median_others": -0.48
+  },
+  {
+   "team": "James Madison",
+   "source": "FEI",
+   "raw": 6.52,
+   "winsorized": 2.99,
+   "median_others": -2.01
+  },
+  {
+   "team": "James Madison",
+   "source": "Massey",
+   "raw": 5.06,
+   "winsorized": 2.99,
+   "median_others": -2.01
+  },
+  {
+   "team": "Kennesaw State",
+   "source": "Massey",
+   "raw": -19.69,
+   "winsorized": -16.93,
+   "median_others": -11.93
+  },
+  {
+   "team": "LSU",
+   "source": "FEI",
+   "raw": 12.13,
+   "winsorized": 15.2,
+   "median_others": 20.2
+  },
+  {
+   "team": "LSU",
+   "source": "Massey",
+   "raw": 12.56,
+   "winsorized": 15.2,
+   "median_others": 20.2
+  },
+  {
+   "team": "Massachusetts",
+   "source": "FPI",
+   "raw": -22.39,
+   "winsorized": -26.58,
+   "median_others": -31.58
+  },
+  {
+   "team": "Miami",
+   "source": "PickSix",
+   "raw": 27.16,
+   "winsorized": 26.0,
+   "median_others": 21.0
+  },
+  {
+   "team": "Middle Tennessee",
+   "source": "SP+",
+   "raw": -26.0,
+   "winsorized": -24.47,
+   "median_others": -19.47
+  },
+  {
+   "team": "New Mexico",
+   "source": "SP+",
+   "raw": -0.5,
+   "winsorized": -0.94,
+   "median_others": -5.94
+  },
+  {
+   "team": "North Carolina",
+   "source": "FEI",
+   "raw": -4.69,
+   "winsorized": -2.66,
+   "median_others": 2.34
+  },
+  {
+   "team": "North Dakota State",
+   "source": "SP+",
+   "raw": -1.4,
+   "winsorized": -1.66,
+   "median_others": -6.66
+  },
+  {
+   "team": "North Dakota State",
+   "source": "FEI",
+   "raw": -21.29,
+   "winsorized": -7.28,
+   "median_others": -2.28
+  },
+  {
+   "team": "North Dakota State",
+   "source": "Massey",
+   "raw": -0.01,
+   "winsorized": -1.66,
+   "median_others": -6.66
+  },
+  {
+   "team": "North Dakota State",
+   "source": "FPI",
+   "raw": -10.15,
+   "winsorized": -7.28,
+   "median_others": -2.28
+  },
+  {
+   "team": "North Texas",
+   "source": "SP+",
+   "raw": -11.8,
+   "winsorized": -8.32,
+   "median_others": -3.32
+  },
+  {
+   "team": "North Texas",
+   "source": "FEI",
+   "raw": 1.78,
+   "winsorized": -3.38,
+   "median_others": -8.38
+  },
+  {
+   "team": "North Texas",
+   "source": "Massey",
+   "raw": 1.31,
+   "winsorized": -3.38,
+   "median_others": -8.38
+  },
+  {
+   "team": "North Texas",
+   "source": "TR",
+   "raw": -8.81,
+   "winsorized": -8.32,
+   "median_others": -3.32
+  },
+  {
+   "team": "Ohio",
+   "source": "SP+",
+   "raw": -13.6,
+   "winsorized": -12.78,
+   "median_others": -7.78
+  },
+  {
+   "team": "Ohio",
+   "source": "Massey",
+   "raw": -5.26,
+   "winsorized": -5.36,
+   "median_others": -10.36
+  },
+  {
+   "team": "Oklahoma",
+   "source": "PickSix",
+   "raw": 24.07,
+   "winsorized": 22.52,
+   "median_others": 17.52
+  },
+  {
+   "team": "Oklahoma State",
+   "source": "FEI",
+   "raw": -5.12,
+   "winsorized": -0.41,
+   "median_others": 4.59
+  },
+  {
+   "team": "Oklahoma State",
+   "source": "Massey",
+   "raw": -4.32,
+   "winsorized": -0.41,
+   "median_others": 4.59
+  },
+  {
+   "team": "Penn State",
+   "source": "Massey",
+   "raw": 20.8,
+   "winsorized": 20.48,
+   "median_others": 15.48
+  },
+  {
+   "team": "Sacramento State",
+   "source": "FPI",
+   "raw": -12.6,
+   "winsorized": -15.3,
+   "median_others": -20.3
+  },
+  {
+   "team": "Southern Miss",
+   "source": "SP+",
+   "raw": -23.3,
+   "winsorized": -20.27,
+   "median_others": -15.27
+  },
+  {
+   "team": "Southern Miss",
+   "source": "FPI",
+   "raw": -6.43,
+   "winsorized": -11.68,
+   "median_others": -16.68
+  },
+  {
+   "team": "Texas",
+   "source": "FPI",
+   "raw": 30.85,
+   "winsorized": 26.68,
+   "median_others": 21.68
+  },
+  {
+   "team": "Texas",
+   "source": "TR",
+   "raw": 26.7,
+   "winsorized": 26.68,
+   "median_others": 21.68
+  },
+  {
+   "team": "Toledo",
+   "source": "SP+",
+   "raw": -11.5,
+   "winsorized": -7.56,
+   "median_others": -2.56
+  },
+  {
+   "team": "Toledo",
+   "source": "FEI",
+   "raw": 1.78,
+   "winsorized": -1.35,
+   "median_others": -6.35
+  },
+  {
+   "team": "Toledo",
+   "source": "Massey",
+   "raw": -1.13,
+   "winsorized": -1.35,
+   "median_others": -6.35
+  },
+  {
+   "team": "Toledo",
+   "source": "TR",
+   "raw": -8.72,
+   "winsorized": -7.56,
+   "median_others": -2.56
+  },
+  {
+   "team": "Tulane",
+   "source": "SP+",
+   "raw": -5.5,
+   "winsorized": -2.26,
+   "median_others": 2.74
+  },
+  {
+   "team": "Tulane",
+   "source": "TR",
+   "raw": -3.16,
+   "winsorized": -2.26,
+   "median_others": 2.74
+  },
+  {
+   "team": "UTSA",
+   "source": "FPI",
+   "raw": -6.66,
+   "winsorized": -6.22,
+   "median_others": -1.22
+  },
+  {
+   "team": "Utah",
+   "source": "FEI",
+   "raw": 21.19,
+   "winsorized": 16.9,
+   "median_others": 11.9
+  },
+  {
+   "team": "Utah",
+   "source": "Massey",
+   "raw": 18.74,
+   "winsorized": 16.9,
+   "median_others": 11.9
+  },
+  {
+   "team": "Vanderbilt",
+   "source": "PickSix",
+   "raw": 4.85,
+   "winsorized": 5.0,
+   "median_others": 10.0
+  },
+  {
+   "team": "Virginia Tech",
+   "source": "FEI",
+   "raw": -1.45,
+   "winsorized": 3.14,
+   "median_others": 8.14
+  },
+  {
+   "team": "Virginia Tech",
+   "source": "Massey",
+   "raw": 0.56,
+   "winsorized": 3.14,
+   "median_others": 8.14
+  },
+  {
+   "team": "Washington State",
+   "source": "SP+",
+   "raw": -5.3,
+   "winsorized": -4.14,
+   "median_others": 0.86
+  },
+  {
+   "team": "Washington State",
+   "source": "FEI",
+   "raw": 5.23,
+   "winsorized": 1.36,
+   "median_others": -3.64
+  },
+  {
+   "team": "Washington State",
+   "source": "Massey",
+   "raw": 3.74,
+   "winsorized": 1.36,
+   "median_others": -3.64
+  },
+  {
+   "team": "Washington State",
+   "source": "FPI",
+   "raw": -5.26,
+   "winsorized": -4.14,
+   "median_others": 0.86
+  },
+  {
+   "team": "Wisconsin",
+   "source": "SP+",
+   "raw": 1.8,
+   "winsorized": 2.24,
+   "median_others": 7.24
+  },
+  {
+   "team": "Wyoming",
+   "source": "FPI",
+   "raw": -15.75,
+   "winsorized": -15.23,
+   "median_others": -10.23
+  }
+ ],
+ "teams": {
+  "Air Force": {
+   "sources": {
+    "SP+": {
+     "raw": -2.4,
+     "normalized": -2.4,
+     "used": -2.44,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": -0.23,
+     "normalized": -4.69,
+     "used": -4.69,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.23,
+     "normalized": -7.32,
+     "used": -7.32,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -6.8,
+     "normalized": -8.41,
+     "used": -8.41,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -7.4,
+     "normalized": -7.57,
+     "used": -7.57,
+     "winsorized": false
+    }
+   },
+   "blend": -5.48,
+   "dispersion": 6.01,
+   "off": 23.76,
+   "dfn": 29.24,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Akron": {
+   "sources": {
+    "SP+": {
+     "raw": -19.5,
+     "normalized": -19.5,
+     "used": -19.5,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -1.06,
+     "normalized": -22.58,
+     "used": -22.58,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.53,
+     "normalized": -20.44,
+     "used": -20.44,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -16.9,
+     "normalized": -20.17,
+     "used": -20.17,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -17.9,
+     "normalized": -17.62,
+     "used": -17.62,
+     "winsorized": false
+    }
+   },
+   "blend": -19.97,
+   "dispersion": 4.97,
+   "off": 12.77,
+   "dfn": 32.13,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Alabama": {
+   "sources": {
+    "SP+": {
+     "raw": 18.2,
+     "normalized": 18.2,
+     "used": 18.2,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 1.07,
+     "normalized": 23.34,
+     "used": 23.34,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.74,
+     "normalized": 20.99,
+     "used": 20.99,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 20.1,
+     "normalized": 22.93,
+     "used": 22.93,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 21.6,
+     "normalized": 20.19,
+     "used": 20.19,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 16,
+     "normalized": 17.06,
+     "used": 17.06,
+     "winsorized": false
+    }
+   },
+   "blend": 20.13,
+   "dispersion": 6.28,
+   "off": 32.27,
+   "dfn": 11.63,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "App State": {
+   "sources": {
+    "SP+": {
+     "raw": -12.1,
+     "normalized": -12.1,
+     "used": -12.1,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.52,
+     "normalized": -10.94,
+     "used": -10.94,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.92,
+     "normalized": -13.13,
+     "used": -13.13,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -9.8,
+     "normalized": -11.9,
+     "used": -11.9,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -10.9,
+     "normalized": -10.92,
+     "used": -10.92,
+     "winsorized": false
+    }
+   },
+   "blend": -11.85,
+   "dispersion": 2.21,
+   "off": 21.33,
+   "dfn": 33.47,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Arizona": {
+   "sources": {
+    "SP+": {
+     "raw": 10.2,
+     "normalized": 10.2,
+     "used": 10.2,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.38,
+     "normalized": 8.47,
+     "used": 8.47,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.18,
+     "normalized": 10.49,
+     "used": 10.49,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 7.2,
+     "normalized": 7.9,
+     "used": 7.9,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 8.7,
+     "normalized": 7.84,
+     "used": 7.84,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 33,
+     "normalized": 8.95,
+     "used": 8.95,
+     "winsorized": false
+    }
+   },
+   "blend": 9.15,
+   "dispersion": 2.65,
+   "off": 30.98,
+   "dfn": 21.32,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Arizona State": {
+   "sources": {
+    "SP+": {
+     "raw": 6.4,
+     "normalized": 6.4,
+     "used": 6.4,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.26,
+     "normalized": 5.88,
+     "used": 5.88,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.03,
+     "normalized": 7.68,
+     "used": 7.68,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 4.8,
+     "normalized": 5.11,
+     "used": 5.11,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 8.7,
+     "normalized": 7.84,
+     "used": 7.84,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 32,
+     "normalized": 9.18,
+     "used": 9.18,
+     "winsorized": false
+    }
+   },
+   "blend": 6.93,
+   "dispersion": 4.08,
+   "off": 28.46,
+   "dfn": 20.94,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Arkansas": {
+   "sources": {
+    "SP+": {
+     "raw": 5.0,
+     "normalized": 5.0,
+     "used": 5.0,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.28,
+     "normalized": 6.31,
+     "used": 6.31,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.98,
+     "normalized": 6.74,
+     "used": 6.74,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 4.4,
+     "normalized": 4.64,
+     "used": 4.64,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 4.7,
+     "normalized": 4.01,
+     "used": 4.01,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 58,
+     "normalized": 2.07,
+     "used": 2.07,
+     "winsorized": false
+    }
+   },
+   "blend": 4.83,
+   "dispersion": 4.67,
+   "off": 34.01,
+   "dfn": 29.39,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Arkansas State": {
+   "sources": {
+    "SP+": {
+     "raw": -8.5,
+     "normalized": -8.5,
+     "used": -8.5,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.64,
+     "normalized": -13.53,
+     "used": -13.53,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.86,
+     "normalized": -14.26,
+     "used": -14.26,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -9.2,
+     "normalized": -11.2,
+     "used": -11.2,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -11.0,
+     "normalized": -11.01,
+     "used": -11.01,
+     "winsorized": false
+    }
+   },
+   "blend": -11.17,
+   "dispersion": 5.76,
+   "off": 22.37,
+   "dfn": 33.63,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Army": {
+   "sources": {
+    "SP+": {
+     "raw": -3.0,
+     "normalized": -3.0,
+     "used": -3.0,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.02,
+     "normalized": -0.16,
+     "used": -0.16,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.54,
+     "normalized": -1.51,
+     "used": -1.51,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -5.6,
+     "normalized": -7.01,
+     "used": -6.57,
+     "winsorized": true
+    },
+    "TR": {
+     "raw": -1.2,
+     "normalized": -1.63,
+     "used": -1.63,
+     "winsorized": false
+    }
+   },
+   "blend": -2.64,
+   "dispersion": 6.85,
+   "off": 24.68,
+   "dfn": 27.42,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Auburn": {
+   "sources": {
+    "SP+": {
+     "raw": 11.2,
+     "normalized": 11.2,
+     "used": 11.2,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.51,
+     "normalized": 11.27,
+     "used": 11.27,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.18,
+     "normalized": 10.49,
+     "used": 10.49,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 12.0,
+     "normalized": 13.5,
+     "used": 13.5,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 13.4,
+     "normalized": 12.34,
+     "used": 12.34,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 26,
+     "normalized": 11.55,
+     "used": 11.55,
+     "winsorized": false
+    }
+   },
+   "blend": 11.65,
+   "dispersion": 3.0,
+   "off": 28.62,
+   "dfn": 17.28,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "BYU": {
+   "sources": {
+    "SP+": {
+     "raw": 15.5,
+     "normalized": 15.5,
+     "used": 15.5,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.61,
+     "normalized": 13.42,
+     "used": 13.42,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.34,
+     "normalized": 13.49,
+     "used": 13.49,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 13.1,
+     "normalized": 14.78,
+     "used": 14.78,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 14.6,
+     "normalized": 13.49,
+     "used": 13.49,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 17,
+     "normalized": 16.36,
+     "used": 16.36,
+     "winsorized": false
+    }
+   },
+   "blend": 14.65,
+   "dispersion": 2.93,
+   "off": 32.87,
+   "dfn": 18.53,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Ball State": {
+   "sources": {
+    "SP+": {
+     "raw": -25.2,
+     "normalized": -25.2,
+     "used": -25.2,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.95,
+     "normalized": -20.21,
+     "used": -20.21,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.53,
+     "normalized": -20.44,
+     "used": -20.44,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -17.3,
+     "normalized": -20.64,
+     "used": -20.64,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -23.0,
+     "normalized": -22.5,
+     "used": -22.5,
+     "winsorized": false
+    }
+   },
+   "blend": -22.37,
+   "dispersion": 4.99,
+   "off": 13.62,
+   "dfn": 35.28,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Baylor": {
+   "sources": {
+    "SP+": {
+     "raw": 4.5,
+     "normalized": 4.5,
+     "used": 4.5,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.2,
+     "normalized": 4.58,
+     "used": 4.58,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.86,
+     "normalized": 4.49,
+     "used": 4.49,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 6.5,
+     "normalized": 7.09,
+     "used": 7.09,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 4.6,
+     "normalized": 3.92,
+     "used": 3.92,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 52,
+     "normalized": 3.81,
+     "used": 3.81,
+     "winsorized": false
+    }
+   },
+   "blend": 4.7,
+   "dispersion": 3.28,
+   "off": 32.3,
+   "dfn": 28.2,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Boise State": {
+   "sources": {
+    "SP+": {
+     "raw": 6.8,
+     "normalized": 6.8,
+     "used": 6.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.19,
+     "normalized": 4.37,
+     "used": 4.37,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.85,
+     "normalized": 4.31,
+     "used": 4.31,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 4.0,
+     "normalized": 4.18,
+     "used": 4.18,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 6.7,
+     "normalized": 5.93,
+     "used": 5.93,
+     "winsorized": false
+    }
+   },
+   "blend": 5.4,
+   "dispersion": 2.62,
+   "off": 29.2,
+   "dfn": 23.5,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Boston College": {
+   "sources": {
+    "SP+": {
+     "raw": -1.5,
+     "normalized": -1.5,
+     "used": -1.5,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.22,
+     "normalized": -4.47,
+     "used": -4.47,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.51,
+     "normalized": -2.07,
+     "used": -2.07,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -2.7,
+     "normalized": -3.63,
+     "used": -3.63,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -6.2,
+     "normalized": -6.42,
+     "used": -6.42,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 67,
+     "normalized": -3.26,
+     "used": -3.26,
+     "winsorized": false
+    }
+   },
+   "blend": -3.26,
+   "dispersion": 4.92,
+   "off": 24.52,
+   "dfn": 28.28,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Bowling Green": {
+   "sources": {
+    "SP+": {
+     "raw": -13.3,
+     "normalized": -13.3,
+     "used": -13.3,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.71,
+     "normalized": -15.04,
+     "used": -15.04,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.9,
+     "normalized": -13.51,
+     "used": -13.51,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -13.7,
+     "normalized": -16.44,
+     "used": -16.44,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -17.7,
+     "normalized": -17.43,
+     "used": -17.43,
+     "winsorized": false
+    }
+   },
+   "blend": -14.84,
+   "dispersion": 4.13,
+   "off": 14.03,
+   "dfn": 29.07,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Buffalo": {
+   "sources": {
+    "SP+": {
+     "raw": -11.9,
+     "normalized": -11.9,
+     "used": -11.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.72,
+     "normalized": -15.25,
+     "used": -15.25,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.75,
+     "normalized": -16.32,
+     "used": -16.32,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -10.8,
+     "normalized": -13.07,
+     "used": -13.07,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -16.5,
+     "normalized": -16.28,
+     "used": -16.28,
+     "winsorized": false
+    }
+   },
+   "blend": -14.12,
+   "dispersion": 4.42,
+   "off": 14.59,
+   "dfn": 29.21,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "California": {
+   "sources": {
+    "SP+": {
+     "raw": 3.7,
+     "normalized": 3.7,
+     "used": 3.7,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.07,
+     "normalized": -1.24,
+     "used": -1.24,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.65,
+     "normalized": 0.56,
+     "used": 0.56,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 0.9,
+     "normalized": 0.56,
+     "used": 0.56,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 4.0,
+     "normalized": 3.34,
+     "used": 3.34,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 50,
+     "normalized": 4.44,
+     "used": 4.44,
+     "winsorized": false
+    }
+   },
+   "blend": 2.15,
+   "dispersion": 5.68,
+   "off": 28.43,
+   "dfn": 25.97,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Central Michigan": {
+   "sources": {
+    "SP+": {
+     "raw": -12.4,
+     "normalized": -12.4,
+     "used": -12.4,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.64,
+     "normalized": -13.53,
+     "used": -13.53,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.9,
+     "normalized": -13.51,
+     "used": -13.51,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -12.8,
+     "normalized": -15.4,
+     "used": -15.4,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -12.6,
+     "normalized": -12.54,
+     "used": -12.54,
+     "winsorized": false
+    }
+   },
+   "blend": -13.3,
+   "dispersion": 3.0,
+   "off": 16.95,
+   "dfn": 30.05,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Charlotte": {
+   "sources": {
+    "SP+": {
+     "raw": -32.4,
+     "normalized": -32.4,
+     "used": -26.89,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": -1.06,
+     "normalized": -22.58,
+     "used": -22.58,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.49,
+     "normalized": -21.19,
+     "used": -21.19,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -14.6,
+     "normalized": -17.49,
+     "used": -17.69,
+     "winsorized": true
+    },
+    "TR": {
+     "raw": -23.3,
+     "normalized": -22.79,
+     "used": -22.79,
+     "winsorized": false
+    }
+   },
+   "blend": -23.0,
+   "dispersion": 14.91,
+   "off": 15.1,
+   "dfn": 37.6,
+   "p4": false,
+   "dispersion_flag": true
+  },
+  "Cincinnati": {
+   "sources": {
+    "SP+": {
+     "raw": 4.5,
+     "normalized": 4.5,
+     "used": 4.5,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.24,
+     "normalized": 5.45,
+     "used": 5.45,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.87,
+     "normalized": 4.68,
+     "used": 4.68,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 4.4,
+     "normalized": 4.64,
+     "used": 4.64,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 0.3,
+     "normalized": -0.2,
+     "used": -0.2,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 60,
+     "normalized": 1.45,
+     "used": 1.45,
+     "winsorized": false
+    }
+   },
+   "blend": 3.57,
+   "dispersion": 5.64,
+   "off": 29.14,
+   "dfn": 25.86,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Clemson": {
+   "sources": {
+    "SP+": {
+     "raw": 12.8,
+     "normalized": 12.8,
+     "used": 12.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.47,
+     "normalized": 10.41,
+     "used": 10.41,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.24,
+     "normalized": 11.62,
+     "used": 11.62,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 13.4,
+     "normalized": 15.13,
+     "used": 15.13,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 11.6,
+     "normalized": 10.62,
+     "used": 10.62,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 23,
+     "normalized": 13.12,
+     "used": 13.12,
+     "winsorized": false
+    }
+   },
+   "blend": 12.36,
+   "dispersion": 4.72,
+   "off": 29.28,
+   "dfn": 17.22,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Coastal Carolina": {
+   "sources": {
+    "SP+": {
+     "raw": -13.8,
+     "normalized": -13.8,
+     "used": -13.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.58,
+     "normalized": -12.23,
+     "used": -12.23,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.83,
+     "normalized": -14.82,
+     "used": -14.82,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -12.1,
+     "normalized": -14.58,
+     "used": -14.58,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -13.8,
+     "normalized": -13.69,
+     "used": -13.69,
+     "winsorized": false
+    }
+   },
+   "blend": -13.82,
+   "dispersion": 2.58,
+   "off": 21.09,
+   "dfn": 34.41,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Colorado": {
+   "sources": {
+    "SP+": {
+     "raw": 0.9,
+     "normalized": 0.9,
+     "used": 0.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.15,
+     "normalized": -2.96,
+     "used": -2.96,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.65,
+     "normalized": 0.56,
+     "used": 0.56,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 4.5,
+     "normalized": 4.76,
+     "used": 4.76,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -1.4,
+     "normalized": -1.82,
+     "used": -1.82,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 62,
+     "normalized": 0.78,
+     "used": 0.78,
+     "winsorized": false
+    }
+   },
+   "blend": 0.44,
+   "dispersion": 7.72,
+   "off": 26.07,
+   "dfn": 25.13,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Colorado State": {
+   "sources": {
+    "SP+": {
+     "raw": -8.3,
+     "normalized": -8.3,
+     "used": -8.57,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": -0.61,
+     "normalized": -12.88,
+     "used": -12.88,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.86,
+     "normalized": -14.26,
+     "used": -14.26,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -12.4,
+     "normalized": -14.93,
+     "used": -14.93,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -10.7,
+     "normalized": -10.73,
+     "used": -10.73,
+     "winsorized": false
+    }
+   },
+   "blend": -11.66,
+   "dispersion": 6.63,
+   "off": 17.12,
+   "dfn": 28.68,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Delaware": {
+   "sources": {
+    "SP+": {
+     "raw": -13.0,
+     "normalized": -13.0,
+     "used": -13.0,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.8,
+     "normalized": -16.98,
+     "used": -16.98,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.56,
+     "normalized": -19.88,
+     "used": -17.72,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": -6.6,
+     "normalized": -8.17,
+     "used": -9.99,
+     "winsorized": true
+    },
+    "TR": {
+     "raw": -12.5,
+     "normalized": -12.45,
+     "used": -12.45,
+     "winsorized": false
+    }
+   },
+   "blend": -13.86,
+   "dispersion": 11.71,
+   "off": 22.27,
+   "dfn": 35.83,
+   "p4": false,
+   "dispersion_flag": true
+  },
+  "Duke": {
+   "sources": {
+    "SP+": {
+     "raw": 5.7,
+     "normalized": 5.7,
+     "used": 5.7,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.17,
+     "normalized": 3.94,
+     "used": 3.94,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.96,
+     "normalized": 6.37,
+     "used": 6.37,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 3.5,
+     "normalized": 3.59,
+     "used": 3.59,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 1.9,
+     "normalized": 1.33,
+     "used": 1.33,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 54,
+     "normalized": 3.56,
+     "used": 3.56,
+     "winsorized": false
+    }
+   },
+   "blend": 4.31,
+   "dispersion": 5.03,
+   "off": 32.11,
+   "dfn": 28.19,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "East Carolina": {
+   "sources": {
+    "SP+": {
+     "raw": -2.0,
+     "normalized": -2.0,
+     "used": -2.0,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.04,
+     "normalized": 1.13,
+     "used": 1.13,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.68,
+     "normalized": 1.12,
+     "used": 1.12,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -0.6,
+     "normalized": -1.18,
+     "used": -1.18,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -3.7,
+     "normalized": -4.03,
+     "used": -4.03,
+     "winsorized": false
+    }
+   },
+   "blend": -1.16,
+   "dispersion": 5.16,
+   "off": 24.62,
+   "dfn": 25.58,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Eastern Michigan": {
+   "sources": {
+    "SP+": {
+     "raw": -15.0,
+     "normalized": -15.0,
+     "used": -15.0,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.8,
+     "normalized": -16.98,
+     "used": -16.98,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.68,
+     "normalized": -17.63,
+     "used": -17.63,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -16.3,
+     "normalized": -19.47,
+     "used": -19.47,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -13.9,
+     "normalized": -13.79,
+     "used": -13.79,
+     "winsorized": false
+    }
+   },
+   "blend": -16.31,
+   "dispersion": 5.68,
+   "off": 17.14,
+   "dfn": 33.46,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Florida": {
+   "sources": {
+    "SP+": {
+     "raw": 14.9,
+     "normalized": 14.9,
+     "used": 14.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.36,
+     "normalized": 8.03,
+     "used": 9.9,
+     "winsorized": true
+    },
+    "Massey": {
+     "raw": 8.12,
+     "normalized": 9.37,
+     "used": 9.9,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": 13.6,
+     "normalized": 15.36,
+     "used": 15.36,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 17.4,
+     "normalized": 16.17,
+     "used": 15.58,
+     "winsorized": true
+    },
+    "PickSix": {
+     "raw": 29,
+     "normalized": 10.58,
+     "used": 10.58,
+     "winsorized": false
+    }
+   },
+   "blend": 13.02,
+   "dispersion": 8.14,
+   "off": 29.26,
+   "dfn": 16.84,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Florida Atlantic": {
+   "sources": {
+    "SP+": {
+     "raw": -7.1,
+     "normalized": -7.1,
+     "used": -8.7,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": -0.65,
+     "normalized": -13.74,
+     "used": -13.74,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.86,
+     "normalized": -14.26,
+     "used": -14.26,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -11.3,
+     "normalized": -13.65,
+     "used": -13.65,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -8.7,
+     "normalized": -8.81,
+     "used": -8.81,
+     "winsorized": false
+    }
+   },
+   "blend": -11.31,
+   "dispersion": 7.16,
+   "off": 25.1,
+   "dfn": 37.0,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Florida International": {
+   "sources": {
+    "SP+": {
+     "raw": -13.7,
+     "normalized": -13.7,
+     "used": -13.7,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.83,
+     "normalized": -17.62,
+     "used": -17.62,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.66,
+     "normalized": -18.01,
+     "used": -18.01,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -12.6,
+     "normalized": -15.16,
+     "used": -15.16,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -15.0,
+     "normalized": -14.84,
+     "used": -14.84,
+     "winsorized": false
+    }
+   },
+   "blend": -15.51,
+   "dispersion": 4.31,
+   "off": 20.6,
+   "dfn": 35.9,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Florida State": {
+   "sources": {
+    "SP+": {
+     "raw": 8.8,
+     "normalized": 8.8,
+     "used": 8.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.47,
+     "normalized": 10.41,
+     "used": 10.41,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.03,
+     "normalized": 7.68,
+     "used": 7.68,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 9.3,
+     "normalized": 10.35,
+     "used": 10.35,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 7.3,
+     "normalized": 6.5,
+     "used": 6.5,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 42,
+     "normalized": 5.56,
+     "used": 5.56,
+     "winsorized": false
+    }
+   },
+   "blend": 8.3,
+   "dispersion": 4.84,
+   "off": 29.45,
+   "dfn": 20.85,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Fresno State": {
+   "sources": {
+    "SP+": {
+     "raw": -2.3,
+     "normalized": -2.3,
+     "used": -2.3,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.14,
+     "normalized": -2.75,
+     "used": -2.75,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.45,
+     "normalized": -3.19,
+     "used": -3.19,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -2.5,
+     "normalized": -3.4,
+     "used": -3.4,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 2.0,
+     "normalized": 1.43,
+     "used": 1.43,
+     "winsorized": false
+    }
+   },
+   "blend": -2.08,
+   "dispersion": 4.83,
+   "off": 20.71,
+   "dfn": 22.79,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Georgia": {
+   "sources": {
+    "SP+": {
+     "raw": 25.5,
+     "normalized": 25.5,
+     "used": 25.5,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 1.34,
+     "normalized": 29.16,
+     "used": 29.16,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.89,
+     "normalized": 23.8,
+     "used": 23.8,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 24.8,
+     "normalized": 28.41,
+     "used": 28.41,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 28.4,
+     "normalized": 26.7,
+     "used": 26.7,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 5,
+     "normalized": 26.13,
+     "used": 26.13,
+     "winsorized": false
+    }
+   },
+   "blend": 26.46,
+   "dispersion": 5.36,
+   "off": 38.68,
+   "dfn": 12.82,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Georgia Southern": {
+   "sources": {
+    "SP+": {
+     "raw": -8.9,
+     "normalized": -8.9,
+     "used": -8.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.6,
+     "normalized": -12.67,
+     "used": -12.67,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.95,
+     "normalized": -12.57,
+     "used": -12.57,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -8.7,
+     "normalized": -10.62,
+     "used": -10.62,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -11.7,
+     "normalized": -11.68,
+     "used": -11.68,
+     "winsorized": false
+    }
+   },
+   "blend": -10.89,
+   "dispersion": 3.77,
+   "off": 22.21,
+   "dfn": 33.09,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Georgia State": {
+   "sources": {
+    "SP+": {
+     "raw": -25.1,
+     "normalized": -25.1,
+     "used": -23.47,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": -0.79,
+     "normalized": -16.76,
+     "used": -16.76,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.62,
+     "normalized": -18.76,
+     "used": -18.76,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -15.2,
+     "normalized": -18.19,
+     "used": -18.19,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -19.4,
+     "normalized": -19.05,
+     "used": -19.05,
+     "winsorized": false
+    }
+   },
+   "blend": -19.95,
+   "dispersion": 8.34,
+   "off": 19.57,
+   "dfn": 38.83,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Georgia Tech": {
+   "sources": {
+    "SP+": {
+     "raw": 6.0,
+     "normalized": 6.0,
+     "used": 6.0,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.2,
+     "normalized": 4.58,
+     "used": 4.58,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.01,
+     "normalized": 7.31,
+     "used": 7.31,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 4.2,
+     "normalized": 4.41,
+     "used": 4.41,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 5.8,
+     "normalized": 5.07,
+     "used": 5.07,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 40,
+     "normalized": 5.71,
+     "used": 5.71,
+     "winsorized": false
+    }
+   },
+   "blend": 5.58,
+   "dispersion": 2.9,
+   "off": 28.59,
+   "dfn": 23.61,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Hawai'i": {
+   "sources": {
+    "SP+": {
+     "raw": -3.9,
+     "normalized": -3.9,
+     "used": -3.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.37,
+     "normalized": -7.71,
+     "used": -7.71,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.14,
+     "normalized": -9.01,
+     "used": -9.01,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -2.4,
+     "normalized": -3.28,
+     "used": -3.28,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -6.3,
+     "normalized": -6.51,
+     "used": -6.51,
+     "winsorized": false
+    }
+   },
+   "blend": -5.72,
+   "dispersion": 5.73,
+   "off": 24.39,
+   "dfn": 30.71,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Houston": {
+   "sources": {
+    "SP+": {
+     "raw": 8.2,
+     "normalized": 8.2,
+     "used": 8.2,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.13,
+     "normalized": 3.07,
+     "used": 3.2,
+     "winsorized": true
+    },
+    "Massey": {
+     "raw": 7.9,
+     "normalized": 5.24,
+     "used": 5.24,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 7.1,
+     "normalized": 7.79,
+     "used": 7.79,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 10.6,
+     "normalized": 9.66,
+     "used": 9.66,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 30,
+     "normalized": 9.97,
+     "used": 9.97,
+     "winsorized": false
+    }
+   },
+   "blend": 7.47,
+   "dispersion": 6.89,
+   "off": 30.93,
+   "dfn": 23.17,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Illinois": {
+   "sources": {
+    "SP+": {
+     "raw": 9.3,
+     "normalized": 9.3,
+     "used": 9.3,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.52,
+     "normalized": 11.48,
+     "used": 11.48,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.21,
+     "normalized": 11.06,
+     "used": 11.06,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 6.3,
+     "normalized": 6.85,
+     "used": 6.85,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 9.2,
+     "normalized": 8.32,
+     "used": 8.32,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 38,
+     "normalized": 6.91,
+     "used": 6.91,
+     "winsorized": false
+    }
+   },
+   "blend": 9.03,
+   "dispersion": 4.63,
+   "off": 31.37,
+   "dfn": 22.83,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Indiana": {
+   "sources": {
+    "SP+": {
+     "raw": 24.5,
+     "normalized": 24.5,
+     "used": 24.5,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 1.14,
+     "normalized": 24.85,
+     "used": 24.85,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 9.18,
+     "normalized": 29.24,
+     "used": 29.24,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 23.1,
+     "normalized": 26.43,
+     "used": 26.43,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 29.0,
+     "normalized": 27.27,
+     "used": 27.27,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 9,
+     "normalized": 20.64,
+     "used": 21.43,
+     "winsorized": true
+    }
+   },
+   "blend": 25.46,
+   "dispersion": 8.6,
+   "off": 37.88,
+   "dfn": 13.02,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Iowa": {
+   "sources": {
+    "SP+": {
+     "raw": 13.6,
+     "normalized": 13.6,
+     "used": 13.6,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.74,
+     "normalized": 16.23,
+     "used": 16.23,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.5,
+     "normalized": 16.49,
+     "used": 16.49,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 10.6,
+     "normalized": 11.86,
+     "used": 11.86,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 13.9,
+     "normalized": 12.82,
+     "used": 12.82,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 24,
+     "normalized": 12.23,
+     "used": 12.23,
+     "winsorized": false
+    }
+   },
+   "blend": 13.83,
+   "dispersion": 4.63,
+   "off": 30.42,
+   "dfn": 17.18,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Iowa State": {
+   "sources": {
+    "SP+": {
+     "raw": 1.0,
+     "normalized": 1.0,
+     "used": 1.0,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.43,
+     "normalized": 9.54,
+     "used": 4.52,
+     "winsorized": true
+    },
+    "Massey": {
+     "raw": 8.26,
+     "normalized": 11.99,
+     "used": 4.52,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": -0.9,
+     "normalized": -1.53,
+     "used": -1.53,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 0.0,
+     "normalized": -0.48,
+     "used": -0.48,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 65,
+     "normalized": -2.11,
+     "used": -2.11,
+     "winsorized": false
+    }
+   },
+   "blend": 0.99,
+   "dispersion": 14.1,
+   "off": 22.89,
+   "dfn": 22.41,
+   "p4": true,
+   "dispersion_flag": true
+  },
+  "Jacksonville State": {
+   "sources": {
+    "SP+": {
+     "raw": -7.7,
+     "normalized": -7.7,
+     "used": -7.7,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.49,
+     "normalized": -10.29,
+     "used": -10.29,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.97,
+     "normalized": -12.19,
+     "used": -12.19,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -8.5,
+     "normalized": -10.39,
+     "used": -10.39,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -10.7,
+     "normalized": -10.73,
+     "used": -10.73,
+     "winsorized": false
+    }
+   },
+   "blend": -9.83,
+   "dispersion": 4.49,
+   "off": 23.73,
+   "dfn": 33.07,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "James Madison": {
+   "sources": {
+    "SP+": {
+     "raw": -2.1,
+     "normalized": -2.1,
+     "used": -2.1,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.29,
+     "normalized": 6.52,
+     "used": 2.99,
+     "winsorized": true
+    },
+    "Massey": {
+     "raw": 7.89,
+     "normalized": 5.06,
+     "used": 2.99,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": -2.0,
+     "normalized": -2.81,
+     "used": -2.81,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -1.5,
+     "normalized": -1.92,
+     "used": -1.92,
+     "winsorized": false
+    }
+   },
+   "blend": -0.49,
+   "dispersion": 9.34,
+   "off": 25.8,
+   "dfn": 25.9,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Kansas": {
+   "sources": {
+    "SP+": {
+     "raw": 3.7,
+     "normalized": 3.7,
+     "used": 3.7,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.28,
+     "normalized": 6.31,
+     "used": 6.31,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.93,
+     "normalized": 5.81,
+     "used": 5.81,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 2.8,
+     "normalized": 2.78,
+     "used": 2.78,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 5.4,
+     "normalized": 4.68,
+     "used": 4.68,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 61,
+     "normalized": 1.14,
+     "used": 1.14,
+     "winsorized": false
+    }
+   },
+   "blend": 4.02,
+   "dispersion": 5.17,
+   "off": 29.16,
+   "dfn": 25.74,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Kansas State": {
+   "sources": {
+    "SP+": {
+     "raw": 10.4,
+     "normalized": 10.4,
+     "used": 10.4,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.6,
+     "normalized": 13.21,
+     "used": 13.21,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.21,
+     "normalized": 11.06,
+     "used": 11.06,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 5.1,
+     "normalized": 5.46,
+     "used": 5.46,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 10.2,
+     "normalized": 9.28,
+     "used": 9.28,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 31,
+     "normalized": 9.39,
+     "used": 9.39,
+     "winsorized": false
+    }
+   },
+   "blend": 9.88,
+   "dispersion": 7.75,
+   "off": 32.84,
+   "dfn": 23.26,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Kennesaw State": {
+   "sources": {
+    "SP+": {
+     "raw": -9.3,
+     "normalized": -9.3,
+     "used": -9.3,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.61,
+     "normalized": -12.88,
+     "used": -12.88,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.57,
+     "normalized": -19.69,
+     "used": -16.93,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": -9.0,
+     "normalized": -10.97,
+     "used": -10.97,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -14.2,
+     "normalized": -14.08,
+     "used": -14.08,
+     "winsorized": false
+    }
+   },
+   "blend": -12.24,
+   "dispersion": 10.39,
+   "off": 19.83,
+   "dfn": 31.57,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Kent State": {
+   "sources": {
+    "SP+": {
+     "raw": -20.1,
+     "normalized": -20.1,
+     "used": -20.1,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -1.06,
+     "normalized": -22.58,
+     "used": -22.58,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.32,
+     "normalized": -24.38,
+     "used": -24.38,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -17.9,
+     "normalized": -21.34,
+     "used": -21.34,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -22.1,
+     "normalized": -21.64,
+     "used": -21.64,
+     "winsorized": false
+    }
+   },
+   "blend": -21.69,
+   "dispersion": 4.28,
+   "off": 15.11,
+   "dfn": 36.29,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Kentucky": {
+   "sources": {
+    "SP+": {
+     "raw": 3.8,
+     "normalized": 3.8,
+     "used": 3.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.27,
+     "normalized": 6.09,
+     "used": 6.09,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.98,
+     "normalized": 6.74,
+     "used": 6.74,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 5.4,
+     "normalized": 5.81,
+     "used": 5.81,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 8.9,
+     "normalized": 8.03,
+     "used": 8.03,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 45,
+     "normalized": 4.97,
+     "used": 4.97,
+     "winsorized": false
+    }
+   },
+   "blend": 5.61,
+   "dispersion": 4.23,
+   "off": 25.9,
+   "dfn": 20.3,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "LSU": {
+   "sources": {
+    "SP+": {
+     "raw": 20.2,
+     "normalized": 20.2,
+     "used": 20.2,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.55,
+     "normalized": 12.13,
+     "used": 15.2,
+     "winsorized": true
+    },
+    "Massey": {
+     "raw": 8.29,
+     "normalized": 12.56,
+     "used": 15.2,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": 20.0,
+     "normalized": 22.81,
+     "used": 22.81,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 22.1,
+     "normalized": 20.67,
+     "used": 20.67,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 12,
+     "normalized": 18.21,
+     "used": 18.21,
+     "winsorized": false
+    }
+   },
+   "blend": 18.93,
+   "dispersion": 10.68,
+   "off": 31.86,
+   "dfn": 13.14,
+   "p4": true,
+   "dispersion_flag": true
+  },
+  "Liberty": {
+   "sources": {
+    "SP+": {
+     "raw": -6.4,
+     "normalized": -6.4,
+     "used": -6.4,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.41,
+     "normalized": -8.57,
+     "used": -8.57,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.91,
+     "normalized": -13.32,
+     "used": -13.32,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -7.7,
+     "normalized": -9.45,
+     "used": -9.45,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -8.5,
+     "normalized": -8.62,
+     "used": -8.62,
+     "winsorized": false
+    }
+   },
+   "blend": -8.79,
+   "dispersion": 6.92,
+   "off": 24.3,
+   "dfn": 32.9,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Louisiana": {
+   "sources": {
+    "SP+": {
+     "raw": -9.1,
+     "normalized": -9.1,
+     "used": -9.1,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.46,
+     "normalized": -9.65,
+     "used": -9.65,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.0,
+     "normalized": -11.63,
+     "used": -11.63,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -8.3,
+     "normalized": -10.15,
+     "used": -10.15,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -10.3,
+     "normalized": -10.34,
+     "used": -10.34,
+     "winsorized": false
+    }
+   },
+   "blend": -10.0,
+   "dispersion": 2.53,
+   "off": 24.75,
+   "dfn": 34.35,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Louisiana Tech": {
+   "sources": {
+    "SP+": {
+     "raw": -8.3,
+     "normalized": -8.3,
+     "used": -8.3,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.51,
+     "normalized": -10.72,
+     "used": -10.72,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.04,
+     "normalized": -10.88,
+     "used": -10.88,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -9.6,
+     "normalized": -11.67,
+     "used": -11.67,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -8.6,
+     "normalized": -8.72,
+     "used": -8.72,
+     "winsorized": false
+    }
+   },
+   "blend": -9.76,
+   "dispersion": 3.37,
+   "off": 21.57,
+   "dfn": 31.33,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Louisville": {
+   "sources": {
+    "SP+": {
+     "raw": 11.0,
+     "normalized": 11.0,
+     "used": 11.0,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.5,
+     "normalized": 11.05,
+     "used": 11.05,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.3,
+     "normalized": 12.74,
+     "used": 12.74,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 9.5,
+     "normalized": 10.58,
+     "used": 10.58,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 13.7,
+     "normalized": 12.63,
+     "used": 12.63,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 19,
+     "normalized": 14.36,
+     "used": 14.36,
+     "winsorized": false
+    }
+   },
+   "blend": 11.91,
+   "dispersion": 3.78,
+   "off": 31.06,
+   "dfn": 19.24,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Marshall": {
+   "sources": {
+    "SP+": {
+     "raw": -6.4,
+     "normalized": -6.4,
+     "used": -6.4,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.3,
+     "normalized": -6.2,
+     "used": -6.2,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.22,
+     "normalized": -7.51,
+     "used": -7.51,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -8.8,
+     "normalized": -10.74,
+     "used": -10.74,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -8.8,
+     "normalized": -8.91,
+     "used": -8.91,
+     "winsorized": false
+    }
+   },
+   "blend": -7.69,
+   "dispersion": 4.54,
+   "off": 27.85,
+   "dfn": 35.85,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Maryland": {
+   "sources": {
+    "SP+": {
+     "raw": 3.8,
+     "normalized": 3.8,
+     "used": 3.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.08,
+     "normalized": 2.0,
+     "used": 2.0,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.79,
+     "normalized": 3.18,
+     "used": 3.18,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 1.0,
+     "normalized": 0.68,
+     "used": 0.68,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 2.9,
+     "normalized": 2.29,
+     "used": 2.29,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 56,
+     "normalized": 2.62,
+     "used": 2.62,
+     "winsorized": false
+    }
+   },
+   "blend": 2.62,
+   "dispersion": 3.12,
+   "off": 25.51,
+   "dfn": 23.29,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Massachusetts": {
+   "sources": {
+    "SP+": {
+     "raw": -30.9,
+     "normalized": -30.9,
+     "used": -30.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -1.54,
+     "normalized": -32.93,
+     "used": -32.93,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 5.9,
+     "normalized": -32.26,
+     "used": -32.26,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -18.8,
+     "normalized": -22.39,
+     "used": -26.58,
+     "winsorized": true
+    },
+    "TR": {
+     "raw": -28.5,
+     "normalized": -27.76,
+     "used": -27.76,
+     "winsorized": false
+    }
+   },
+   "blend": -30.22,
+   "dispersion": 10.55,
+   "off": 9.94,
+   "dfn": 39.76,
+   "p4": false,
+   "dispersion_flag": true
+  },
+  "Memphis": {
+   "sources": {
+    "SP+": {
+     "raw": -1.1,
+     "normalized": -1.1,
+     "used": -1.1,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.05,
+     "normalized": 1.35,
+     "used": 1.35,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.68,
+     "normalized": 1.12,
+     "used": 1.12,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -1.9,
+     "normalized": -2.7,
+     "used": -2.7,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -1.5,
+     "normalized": -1.92,
+     "used": -1.92,
+     "winsorized": false
+    }
+   },
+   "blend": -0.72,
+   "dispersion": 4.05,
+   "off": 28.49,
+   "dfn": 29.81,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Miami": {
+   "sources": {
+    "SP+": {
+     "raw": 21.0,
+     "normalized": 21.0,
+     "used": 21.0,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.88,
+     "normalized": 19.25,
+     "used": 19.25,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.68,
+     "normalized": 19.87,
+     "used": 19.87,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 21.8,
+     "normalized": 24.91,
+     "used": 24.91,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 25.3,
+     "normalized": 23.73,
+     "used": 23.73,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 3,
+     "normalized": 27.16,
+     "used": 26.0,
+     "winsorized": true
+    }
+   },
+   "blend": 22.25,
+   "dispersion": 7.92,
+   "off": 35.03,
+   "dfn": 13.07,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Miami (OH)": {
+   "sources": {
+    "SP+": {
+     "raw": -2.9,
+     "normalized": -2.9,
+     "used": -2.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.32,
+     "normalized": -6.63,
+     "used": -6.63,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.24,
+     "normalized": -7.13,
+     "used": -7.13,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -7.0,
+     "normalized": -8.64,
+     "used": -8.64,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -10.6,
+     "normalized": -10.63,
+     "used": -10.63,
+     "winsorized": false
+    }
+   },
+   "blend": -6.47,
+   "dispersion": 7.73,
+   "off": 17.71,
+   "dfn": 24.69,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Michigan": {
+   "sources": {
+    "SP+": {
+     "raw": 16.1,
+     "normalized": 16.1,
+     "used": 16.1,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.89,
+     "normalized": 19.46,
+     "used": 19.46,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.63,
+     "normalized": 18.93,
+     "used": 18.93,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 15.9,
+     "normalized": 18.04,
+     "used": 18.04,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 19.8,
+     "normalized": 18.47,
+     "used": 18.47,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 14,
+     "normalized": 17.85,
+     "used": 17.85,
+     "winsorized": false
+    }
+   },
+   "blend": 17.85,
+   "dispersion": 3.36,
+   "off": 33.67,
+   "dfn": 15.33,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Michigan State": {
+   "sources": {
+    "SP+": {
+     "raw": 0.4,
+     "normalized": 0.4,
+     "used": 0.4,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.02,
+     "normalized": -0.16,
+     "used": -0.16,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.82,
+     "normalized": 3.74,
+     "used": 3.74,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 0.3,
+     "normalized": -0.13,
+     "used": -0.13,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -0.3,
+     "normalized": -0.77,
+     "used": -0.77,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 59,
+     "normalized": 1.77,
+     "used": 1.77,
+     "winsorized": false
+    }
+   },
+   "blend": 0.75,
+   "dispersion": 4.51,
+   "off": 26.87,
+   "dfn": 25.73,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Middle Tennessee": {
+   "sources": {
+    "SP+": {
+     "raw": -26.0,
+     "normalized": -26.0,
+     "used": -24.47,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": -0.86,
+     "normalized": -18.27,
+     "used": -18.27,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.57,
+     "normalized": -19.69,
+     "used": -19.69,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -16.1,
+     "normalized": -19.24,
+     "used": -19.24,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -20.9,
+     "normalized": -20.49,
+     "used": -20.49,
+     "winsorized": false
+    }
+   },
+   "blend": -21.1,
+   "dispersion": 7.73,
+   "off": 16.15,
+   "dfn": 37.45,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Minnesota": {
+   "sources": {
+    "SP+": {
+     "raw": 5.2,
+     "normalized": 5.2,
+     "used": 5.2,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.2,
+     "normalized": 4.58,
+     "used": 4.58,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.89,
+     "normalized": 5.06,
+     "used": 5.06,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 0.6,
+     "normalized": 0.21,
+     "used": 0.21,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 8.1,
+     "normalized": 7.27,
+     "used": 7.27,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 44,
+     "normalized": 5.28,
+     "used": 5.28,
+     "winsorized": false
+    }
+   },
+   "blend": 4.69,
+   "dispersion": 7.05,
+   "off": 25.04,
+   "dfn": 19.76,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Mississippi State": {
+   "sources": {
+    "SP+": {
+     "raw": 3.9,
+     "normalized": 3.9,
+     "used": 3.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.22,
+     "normalized": 5.02,
+     "used": 5.02,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.86,
+     "normalized": 4.49,
+     "used": 4.49,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 4.1,
+     "normalized": 4.29,
+     "used": 4.29,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 6.4,
+     "normalized": 5.64,
+     "used": 5.64,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 43,
+     "normalized": 5.35,
+     "used": 5.35,
+     "winsorized": false
+    }
+   },
+   "blend": 4.66,
+   "dispersion": 1.74,
+   "off": 30.48,
+   "dfn": 26.32,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Missouri": {
+   "sources": {
+    "SP+": {
+     "raw": 14.8,
+     "normalized": 14.8,
+     "used": 14.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.56,
+     "normalized": 12.35,
+     "used": 12.35,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.3,
+     "normalized": 12.74,
+     "used": 12.74,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 12.2,
+     "normalized": 13.73,
+     "used": 13.73,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 15.4,
+     "normalized": 14.26,
+     "used": 14.26,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 27,
+     "normalized": 11.5,
+     "used": 11.5,
+     "winsorized": false
+    }
+   },
+   "blend": 13.45,
+   "dispersion": 3.3,
+   "off": 31.53,
+   "dfn": 17.57,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Missouri State": {
+   "sources": {
+    "SP+": {
+     "raw": -18.7,
+     "normalized": -18.7,
+     "used": -18.7,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.6,
+     "normalized": -12.67,
+     "used": -12.67,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.78,
+     "normalized": -15.76,
+     "used": -15.76,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -10.3,
+     "normalized": -12.48,
+     "used": -12.48,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -18.9,
+     "normalized": -18.57,
+     "used": -18.57,
+     "winsorized": false
+    }
+   },
+   "blend": -16.15,
+   "dispersion": 6.22,
+   "off": 17.98,
+   "dfn": 33.62,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "NC State": {
+   "sources": {
+    "SP+": {
+     "raw": 4.9,
+     "normalized": 4.9,
+     "used": 4.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.33,
+     "normalized": 7.39,
+     "used": 7.39,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.92,
+     "normalized": 5.62,
+     "used": 5.62,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 3.7,
+     "normalized": 3.83,
+     "used": 3.83,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 6.2,
+     "normalized": 5.45,
+     "used": 5.45,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 41,
+     "normalized": 5.57,
+     "used": 5.57,
+     "winsorized": false
+    }
+   },
+   "blend": 5.38,
+   "dispersion": 3.56,
+   "off": 30.94,
+   "dfn": 25.06,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Navy": {
+   "sources": {
+    "SP+": {
+     "raw": 1.1,
+     "normalized": 1.1,
+     "used": 1.1,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.03,
+     "normalized": 0.92,
+     "used": 0.92,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.59,
+     "normalized": -0.57,
+     "used": -0.57,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -0.7,
+     "normalized": -1.3,
+     "used": -1.3,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 0.9,
+     "normalized": 0.38,
+     "used": 0.38,
+     "winsorized": false
+    }
+   },
+   "blend": 0.27,
+   "dispersion": 2.4,
+   "off": 27.39,
+   "dfn": 27.31,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Nebraska": {
+   "sources": {
+    "SP+": {
+     "raw": 7.7,
+     "normalized": 7.7,
+     "used": 7.7,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.25,
+     "normalized": 5.66,
+     "used": 5.66,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.0,
+     "normalized": 7.12,
+     "used": 7.12,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 8.8,
+     "normalized": 9.77,
+     "used": 9.77,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 8.0,
+     "normalized": 7.17,
+     "used": 7.17,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 37,
+     "normalized": 7.03,
+     "used": 7.03,
+     "winsorized": false
+    }
+   },
+   "blend": 7.45,
+   "dispersion": 4.11,
+   "off": 29.07,
+   "dfn": 21.63,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Nevada": {
+   "sources": {
+    "SP+": {
+     "raw": -12.2,
+     "normalized": -12.2,
+     "used": -12.2,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.77,
+     "normalized": -16.33,
+     "used": -16.33,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.88,
+     "normalized": -13.88,
+     "used": -13.88,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -11.9,
+     "normalized": -14.35,
+     "used": -14.35,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -18.1,
+     "normalized": -17.81,
+     "used": -17.81,
+     "winsorized": false
+    }
+   },
+   "blend": -14.46,
+   "dispersion": 5.61,
+   "off": 16.27,
+   "dfn": 31.13,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "New Mexico": {
+   "sources": {
+    "SP+": {
+     "raw": -0.5,
+     "normalized": -0.5,
+     "used": -0.94,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": -0.37,
+     "normalized": -7.71,
+     "used": -7.71,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.23,
+     "normalized": -7.32,
+     "used": -7.32,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -3.5,
+     "normalized": -4.56,
+     "used": -4.56,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -2.1,
+     "normalized": -2.49,
+     "used": -2.49,
+     "winsorized": false
+    }
+   },
+   "blend": -3.99,
+   "dispersion": 7.21,
+   "off": 23.55,
+   "dfn": 28.15,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "New Mexico State": {
+   "sources": {
+    "SP+": {
+     "raw": -16.4,
+     "normalized": -16.4,
+     "used": -16.4,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.89,
+     "normalized": -18.92,
+     "used": -18.92,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.54,
+     "normalized": -20.26,
+     "used": -20.26,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -15.7,
+     "normalized": -18.77,
+     "used": -18.77,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -18.4,
+     "normalized": -18.1,
+     "used": -18.1,
+     "winsorized": false
+    }
+   },
+   "blend": -18.14,
+   "dispersion": 3.86,
+   "off": 16.13,
+   "dfn": 34.27,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "North Carolina": {
+   "sources": {
+    "SP+": {
+     "raw": 3.8,
+     "normalized": 3.8,
+     "used": 3.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.23,
+     "normalized": -4.69,
+     "used": -2.66,
+     "winsorized": true
+    },
+    "Massey": {
+     "raw": 7.57,
+     "normalized": -0.94,
+     "used": -0.94,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 4.9,
+     "normalized": 5.22,
+     "used": 5.22,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 2.1,
+     "normalized": 1.53,
+     "used": 1.53,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 57,
+     "normalized": 2.34,
+     "used": 2.34,
+     "winsorized": false
+    }
+   },
+   "blend": 1.87,
+   "dispersion": 9.91,
+   "off": 23.53,
+   "dfn": 22.07,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "North Dakota State": {
+   "sources": {
+    "SP+": {
+     "raw": -1.4,
+     "normalized": -1.4,
+     "used": -1.66,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": -1.0,
+     "normalized": -21.29,
+     "used": -7.28,
+     "winsorized": true
+    },
+    "Massey": {
+     "raw": 7.62,
+     "normalized": -0.01,
+     "used": -1.66,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": -8.3,
+     "normalized": -10.15,
+     "used": -7.28,
+     "winsorized": true
+    },
+    "TR": {
+     "raw": -2.8,
+     "normalized": -3.16,
+     "used": -3.16,
+     "winsorized": false
+    }
+   },
+   "blend": -3.78,
+   "dispersion": 21.28,
+   "off": 23.21,
+   "dfn": 26.99,
+   "p4": false,
+   "dispersion_flag": true
+  },
+  "North Texas": {
+   "sources": {
+    "SP+": {
+     "raw": -11.8,
+     "normalized": -11.8,
+     "used": -8.32,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": 0.07,
+     "normalized": 1.78,
+     "used": -3.38,
+     "winsorized": true
+    },
+    "Massey": {
+     "raw": 7.69,
+     "normalized": 1.31,
+     "used": -3.38,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": -6.4,
+     "normalized": -7.94,
+     "used": -7.94,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -8.7,
+     "normalized": -8.81,
+     "used": -8.32,
+     "winsorized": true
+    }
+   },
+   "blend": -6.61,
+   "dispersion": 13.58,
+   "off": 26.2,
+   "dfn": 32.6,
+   "p4": false,
+   "dispersion_flag": true
+  },
+  "Northern Illinois": {
+   "sources": {
+    "SP+": {
+     "raw": -18.2,
+     "normalized": -18.2,
+     "used": -18.2,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.68,
+     "normalized": -14.39,
+     "used": -14.39,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.84,
+     "normalized": -14.63,
+     "used": -14.63,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -14.5,
+     "normalized": -17.38,
+     "used": -17.38,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -20.6,
+     "normalized": -20.2,
+     "used": -20.2,
+     "winsorized": false
+    }
+   },
+   "blend": -17.17,
+   "dispersion": 5.81,
+   "off": 14.32,
+   "dfn": 31.28,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Northwestern": {
+   "sources": {
+    "SP+": {
+     "raw": 4.6,
+     "normalized": 4.6,
+     "used": 4.6,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.09,
+     "normalized": 2.21,
+     "used": 2.21,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.87,
+     "normalized": 4.68,
+     "used": 4.68,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 1.4,
+     "normalized": 1.15,
+     "used": 1.15,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 4.8,
+     "normalized": 4.11,
+     "used": 4.11,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 55,
+     "normalized": 3.31,
+     "used": 3.31,
+     "winsorized": false
+    }
+   },
+   "blend": 3.52,
+   "dispersion": 3.53,
+   "off": 23.96,
+   "dfn": 20.94,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Notre Dame": {
+   "sources": {
+    "SP+": {
+     "raw": 25.8,
+     "normalized": 25.8,
+     "used": 25.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 1.29,
+     "normalized": 28.09,
+     "used": 28.09,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 9.02,
+     "normalized": 26.24,
+     "used": 26.24,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 25.9,
+     "normalized": 29.69,
+     "used": 29.69,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 29.1,
+     "normalized": 27.37,
+     "used": 27.37,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 4,
+     "normalized": 26.51,
+     "used": 26.51,
+     "winsorized": false
+    }
+   },
+   "blend": 27.07,
+   "dispersion": 3.89,
+   "off": 40.84,
+   "dfn": 13.96,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Ohio": {
+   "sources": {
+    "SP+": {
+     "raw": -13.6,
+     "normalized": -13.6,
+     "used": -12.78,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": -0.28,
+     "normalized": -5.77,
+     "used": -5.77,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.34,
+     "normalized": -5.26,
+     "used": -5.36,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": -8.0,
+     "normalized": -9.8,
+     "used": -9.8,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -10.9,
+     "normalized": -10.92,
+     "used": -10.92,
+     "winsorized": false
+    }
+   },
+   "blend": -9.57,
+   "dispersion": 8.34,
+   "off": 15.32,
+   "dfn": 24.18,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Ohio State": {
+   "sources": {
+    "SP+": {
+     "raw": 31.8,
+     "normalized": 31.8,
+     "used": 31.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 1.52,
+     "normalized": 33.05,
+     "used": 33.05,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 9.3,
+     "normalized": 31.49,
+     "used": 31.49,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 28.7,
+     "normalized": 32.95,
+     "used": 32.95,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 32.3,
+     "normalized": 30.43,
+     "used": 30.43,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 2,
+     "normalized": 28.28,
+     "used": 28.28,
+     "winsorized": false
+    }
+   },
+   "blend": 31.4,
+   "dispersion": 4.77,
+   "off": 40.4,
+   "dfn": 9.0,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Oklahoma": {
+   "sources": {
+    "SP+": {
+     "raw": 17.2,
+     "normalized": 17.2,
+     "used": 17.2,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.8,
+     "normalized": 17.52,
+     "used": 17.52,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.5,
+     "normalized": 16.49,
+     "used": 16.49,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 17.8,
+     "normalized": 20.25,
+     "used": 20.25,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 22.0,
+     "normalized": 20.57,
+     "used": 20.57,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 6,
+     "normalized": 24.07,
+     "used": 22.52,
+     "winsorized": true
+    }
+   },
+   "blend": 18.82,
+   "dispersion": 7.58,
+   "off": 32.41,
+   "dfn": 13.89,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Oklahoma State": {
+   "sources": {
+    "SP+": {
+     "raw": 7.1,
+     "normalized": 7.1,
+     "used": 7.1,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.25,
+     "normalized": -5.12,
+     "used": -0.41,
+     "winsorized": true
+    },
+    "Massey": {
+     "raw": 7.39,
+     "normalized": -4.32,
+     "used": -0.41,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": 3.3,
+     "normalized": 3.36,
+     "used": 3.36,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 6.7,
+     "normalized": 5.93,
+     "used": 5.93,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 47,
+     "normalized": 4.59,
+     "used": 4.59,
+     "winsorized": false
+    }
+   },
+   "blend": 3.89,
+   "dispersion": 12.22,
+   "off": 28.4,
+   "dfn": 25.0,
+   "p4": true,
+   "dispersion_flag": true
+  },
+  "Old Dominion": {
+   "sources": {
+    "SP+": {
+     "raw": -5.8,
+     "normalized": -5.8,
+     "used": -5.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.03,
+     "normalized": -0.38,
+     "used": -0.38,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.53,
+     "normalized": -1.69,
+     "used": -1.69,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -4.4,
+     "normalized": -5.61,
+     "used": -5.61,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -4.6,
+     "normalized": -4.89,
+     "used": -4.89,
+     "winsorized": false
+    }
+   },
+   "blend": -4.03,
+   "dispersion": 5.42,
+   "off": 21.09,
+   "dfn": 24.41,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Ole Miss": {
+   "sources": {
+    "SP+": {
+     "raw": 15.9,
+     "normalized": 15.9,
+     "used": 15.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.93,
+     "normalized": 20.32,
+     "used": 20.32,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.74,
+     "normalized": 20.99,
+     "used": 20.99,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 16.0,
+     "normalized": 18.16,
+     "used": 18.16,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 22.3,
+     "normalized": 20.86,
+     "used": 20.86,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 10,
+     "normalized": 19.93,
+     "used": 19.93,
+     "winsorized": false
+    }
+   },
+   "blend": 18.87,
+   "dispersion": 5.09,
+   "off": 36.48,
+   "dfn": 18.22,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Oregon": {
+   "sources": {
+    "SP+": {
+     "raw": 28.3,
+     "normalized": 28.3,
+     "used": 28.3,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 1.4,
+     "normalized": 30.46,
+     "used": 30.46,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 9.0,
+     "normalized": 25.87,
+     "used": 25.87,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 25.3,
+     "normalized": 28.99,
+     "used": 28.99,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 29.5,
+     "normalized": 27.75,
+     "used": 27.75,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 1,
+     "normalized": 31.92,
+     "used": 31.92,
+     "winsorized": false
+    }
+   },
+   "blend": 28.8,
+   "dispersion": 6.05,
+   "off": 40.95,
+   "dfn": 12.35,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Oregon State": {
+   "sources": {
+    "SP+": {
+     "raw": -6.3,
+     "normalized": -6.3,
+     "used": -6.3,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.37,
+     "normalized": -7.71,
+     "used": -7.71,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.31,
+     "normalized": -5.82,
+     "used": -5.82,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -8.1,
+     "normalized": -9.92,
+     "used": -9.92,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -10.0,
+     "normalized": -10.06,
+     "used": -10.06,
+     "winsorized": false
+    }
+   },
+   "blend": -7.68,
+   "dispersion": 4.24,
+   "off": 20.21,
+   "dfn": 27.19,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Penn State": {
+   "sources": {
+    "SP+": {
+     "raw": 15.7,
+     "normalized": 15.7,
+     "used": 15.7,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.89,
+     "normalized": 19.46,
+     "used": 19.46,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.73,
+     "normalized": 20.8,
+     "used": 20.48,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": 13.7,
+     "normalized": 15.48,
+     "used": 15.48,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 16.4,
+     "normalized": 15.21,
+     "used": 15.21,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 20,
+     "normalized": 14.15,
+     "used": 14.15,
+     "winsorized": false
+    }
+   },
+   "blend": 16.6,
+   "dispersion": 6.65,
+   "off": 34.05,
+   "dfn": 18.15,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Pittsburgh": {
+   "sources": {
+    "SP+": {
+     "raw": 6.5,
+     "normalized": 6.5,
+     "used": 6.5,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.33,
+     "normalized": 7.39,
+     "used": 7.39,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.98,
+     "normalized": 6.74,
+     "used": 6.74,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 6.6,
+     "normalized": 7.2,
+     "used": 7.2,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 10.0,
+     "normalized": 9.09,
+     "used": 9.09,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 39,
+     "normalized": 6.55,
+     "used": 6.55,
+     "winsorized": false
+    }
+   },
+   "blend": 7.14,
+   "dispersion": 2.59,
+   "off": 30.52,
+   "dfn": 23.48,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Purdue": {
+   "sources": {
+    "SP+": {
+     "raw": -2.9,
+     "normalized": -2.9,
+     "used": -2.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.1,
+     "normalized": -1.88,
+     "used": -1.88,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.57,
+     "normalized": -0.94,
+     "used": -0.94,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -0.9,
+     "normalized": -1.53,
+     "used": -1.53,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -2.1,
+     "normalized": -2.49,
+     "used": -2.49,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 68,
+     "normalized": -3.33,
+     "used": -3.33,
+     "winsorized": false
+    }
+   },
+   "blend": -2.28,
+   "dispersion": 2.38,
+   "off": 24.11,
+   "dfn": 27.09,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Rice": {
+   "sources": {
+    "SP+": {
+     "raw": -14.7,
+     "normalized": -14.7,
+     "used": -14.7,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.85,
+     "normalized": -18.06,
+     "used": -18.06,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.72,
+     "normalized": -16.88,
+     "used": -16.88,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -13.4,
+     "normalized": -16.09,
+     "used": -16.09,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -15.2,
+     "normalized": -15.03,
+     "used": -15.03,
+     "winsorized": false
+    }
+   },
+   "blend": -15.91,
+   "dispersion": 3.36,
+   "off": 16.39,
+   "dfn": 32.81,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Rutgers": {
+   "sources": {
+    "SP+": {
+     "raw": 1.8,
+     "normalized": 1.8,
+     "used": 1.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.01,
+     "normalized": 0.49,
+     "used": 0.49,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.79,
+     "normalized": 3.18,
+     "used": 3.18,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -0.2,
+     "normalized": -0.72,
+     "used": -0.72,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 0.8,
+     "normalized": 0.28,
+     "used": 0.28,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 63,
+     "normalized": 0.58,
+     "used": 0.58,
+     "winsorized": false
+    }
+   },
+   "blend": 1.06,
+   "dispersion": 3.9,
+   "off": 30.03,
+   "dfn": 29.07,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "SMU": {
+   "sources": {
+    "SP+": {
+     "raw": 10.9,
+     "normalized": 10.9,
+     "used": 10.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.44,
+     "normalized": 9.76,
+     "used": 9.76,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.26,
+     "normalized": 11.99,
+     "used": 11.99,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 11.1,
+     "normalized": 12.45,
+     "used": 12.45,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 14.4,
+     "normalized": 13.3,
+     "used": 13.3,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 21,
+     "normalized": 14.1,
+     "used": 14.1,
+     "winsorized": false
+    }
+   },
+   "blend": 11.91,
+   "dispersion": 4.34,
+   "off": 32.41,
+   "dfn": 20.19,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Sacramento State": {
+   "sources": {
+    "SP+": {
+     "raw": -22.7,
+     "normalized": -22.7,
+     "used": -22.7,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -1.0,
+     "normalized": -21.29,
+     "used": -21.29,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.59,
+     "normalized": -19.32,
+     "used": -19.32,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -10.4,
+     "normalized": -12.6,
+     "used": -15.3,
+     "winsorized": true
+    },
+    "TR": {
+     "raw": -19.2,
+     "normalized": -18.86,
+     "used": -18.86,
+     "winsorized": false
+    }
+   },
+   "blend": -20.03,
+   "dispersion": 10.1,
+   "off": 16.44,
+   "dfn": 36.56,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Sam Houston": {
+   "sources": {
+    "SP+": {
+     "raw": -26.3,
+     "normalized": -26.3,
+     "used": -26.3,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -1.02,
+     "normalized": -21.72,
+     "used": -21.72,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.43,
+     "normalized": -22.32,
+     "used": -22.32,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -18.4,
+     "normalized": -21.92,
+     "used": -21.92,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -24.1,
+     "normalized": -23.55,
+     "used": -23.55,
+     "winsorized": false
+    }
+   },
+   "blend": -23.69,
+   "dispersion": 4.58,
+   "off": 15.41,
+   "dfn": 38.69,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "San Diego State": {
+   "sources": {
+    "SP+": {
+     "raw": -1.3,
+     "normalized": -1.3,
+     "used": -1.3,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.06,
+     "normalized": -1.02,
+     "used": -1.02,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.46,
+     "normalized": -3.01,
+     "used": -3.01,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 1.4,
+     "normalized": 1.15,
+     "used": 1.15,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 1.1,
+     "normalized": 0.57,
+     "used": 0.57,
+     "winsorized": false
+    }
+   },
+   "blend": -0.82,
+   "dispersion": 4.15,
+   "off": 23.34,
+   "dfn": 24.76,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "San Jos\u00e9 State": {
+   "sources": {
+    "SP+": {
+     "raw": -15.5,
+     "normalized": -15.5,
+     "used": -15.5,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.53,
+     "normalized": -11.16,
+     "used": -11.16,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.99,
+     "normalized": -11.82,
+     "used": -11.82,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -14.3,
+     "normalized": -17.14,
+     "used": -17.14,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -14.9,
+     "normalized": -14.75,
+     "used": -14.75,
+     "winsorized": false
+    }
+   },
+   "blend": -14.31,
+   "dispersion": 5.99,
+   "off": 19.19,
+   "dfn": 33.01,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "South Alabama": {
+   "sources": {
+    "SP+": {
+     "raw": -13.3,
+     "normalized": -13.3,
+     "used": -13.3,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.52,
+     "normalized": -10.94,
+     "used": -10.94,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.03,
+     "normalized": -11.07,
+     "used": -11.07,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -10.5,
+     "normalized": -12.72,
+     "used": -12.72,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -10.8,
+     "normalized": -10.82,
+     "used": -10.82,
+     "winsorized": false
+    }
+   },
+   "blend": -12.02,
+   "dispersion": 2.48,
+   "off": 23.34,
+   "dfn": 34.76,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "South Carolina": {
+   "sources": {
+    "SP+": {
+     "raw": 12.1,
+     "normalized": 12.1,
+     "used": 12.1,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.43,
+     "normalized": 9.54,
+     "used": 9.54,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.16,
+     "normalized": 10.12,
+     "used": 10.12,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 11.7,
+     "normalized": 13.15,
+     "used": 13.15,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 12.2,
+     "normalized": 11.19,
+     "used": 11.19,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 28,
+     "normalized": 11.37,
+     "used": 11.37,
+     "winsorized": false
+    }
+   },
+   "blend": 11.37,
+   "dispersion": 3.6,
+   "off": 29.53,
+   "dfn": 18.77,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "South Florida": {
+   "sources": {
+    "SP+": {
+     "raw": -2.8,
+     "normalized": -2.8,
+     "used": -2.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.1,
+     "normalized": 2.43,
+     "used": 2.43,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.74,
+     "normalized": 2.24,
+     "used": 2.24,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -0.9,
+     "normalized": -1.53,
+     "used": -1.53,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -2.4,
+     "normalized": -2.78,
+     "used": -2.78,
+     "winsorized": false
+    }
+   },
+   "blend": -0.87,
+   "dispersion": 5.23,
+   "off": 28.46,
+   "dfn": 29.14,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Southern Miss": {
+   "sources": {
+    "SP+": {
+     "raw": -23.3,
+     "normalized": -23.3,
+     "used": -20.27,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": -0.69,
+     "normalized": -14.61,
+     "used": -14.61,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.77,
+     "normalized": -15.94,
+     "used": -15.94,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -5.1,
+     "normalized": -6.43,
+     "used": -11.68,
+     "winsorized": true
+    },
+    "TR": {
+     "raw": -17.7,
+     "normalized": -17.43,
+     "used": -17.43,
+     "winsorized": false
+    }
+   },
+   "blend": -16.7,
+   "dispersion": 16.87,
+   "off": 19.7,
+   "dfn": 35.9,
+   "p4": false,
+   "dispersion_flag": true
+  },
+  "Stanford": {
+   "sources": {
+    "SP+": {
+     "raw": -1.9,
+     "normalized": -1.9,
+     "used": -1.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.24,
+     "normalized": -4.9,
+     "used": -4.9,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.43,
+     "normalized": -3.57,
+     "used": -3.57,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -3.3,
+     "normalized": -4.33,
+     "used": -4.33,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -3.0,
+     "normalized": -3.36,
+     "used": -3.36,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 66,
+     "normalized": -2.25,
+     "used": -2.25,
+     "winsorized": false
+    }
+   },
+   "blend": -3.17,
+   "dispersion": 3.0,
+   "off": 22.06,
+   "dfn": 24.64,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Syracuse": {
+   "sources": {
+    "SP+": {
+     "raw": -0.7,
+     "normalized": -0.7,
+     "used": -0.7,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.26,
+     "normalized": -5.33,
+     "used": -5.33,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.37,
+     "normalized": -4.69,
+     "used": -4.69,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -0.8,
+     "normalized": -1.42,
+     "used": -1.42,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -0.2,
+     "normalized": -0.68,
+     "used": -0.68,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 64,
+     "normalized": 0.39,
+     "used": 0.39,
+     "winsorized": false
+    }
+   },
+   "blend": -1.88,
+   "dispersion": 5.72,
+   "off": 23.31,
+   "dfn": 25.59,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "TCU": {
+   "sources": {
+    "SP+": {
+     "raw": 9.1,
+     "normalized": 9.1,
+     "used": 9.1,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.43,
+     "normalized": 9.54,
+     "used": 9.54,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.23,
+     "normalized": 11.43,
+     "used": 11.43,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 6.4,
+     "normalized": 6.97,
+     "used": 6.97,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 8.4,
+     "normalized": 7.56,
+     "used": 7.56,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 25,
+     "normalized": 11.67,
+     "used": 11.67,
+     "winsorized": false
+    }
+   },
+   "blend": 9.34,
+   "dispersion": 4.69,
+   "off": 31.42,
+   "dfn": 21.78,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Temple": {
+   "sources": {
+    "SP+": {
+     "raw": -8.7,
+     "normalized": -8.7,
+     "used": -8.7,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.64,
+     "normalized": -13.53,
+     "used": -13.53,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.94,
+     "normalized": -12.76,
+     "used": -12.76,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -8.6,
+     "normalized": -10.5,
+     "used": -10.5,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -10.9,
+     "normalized": -10.92,
+     "used": -10.92,
+     "winsorized": false
+    }
+   },
+   "blend": -10.85,
+   "dispersion": 4.83,
+   "off": 24.12,
+   "dfn": 35.38,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Tennessee": {
+   "sources": {
+    "SP+": {
+     "raw": 16.0,
+     "normalized": 16.0,
+     "used": 16.0,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.8,
+     "normalized": 17.52,
+     "used": 17.52,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.47,
+     "normalized": 15.93,
+     "used": 15.93,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 15.1,
+     "normalized": 17.11,
+     "used": 17.11,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 16.8,
+     "normalized": 15.6,
+     "used": 15.6,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 15,
+     "normalized": 17.8,
+     "used": 17.8,
+     "winsorized": false
+    }
+   },
+   "blend": 16.56,
+   "dispersion": 2.2,
+   "off": 38.98,
+   "dfn": 22.72,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Texas": {
+   "sources": {
+    "SP+": {
+     "raw": 23.7,
+     "normalized": 23.7,
+     "used": 23.7,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.88,
+     "normalized": 19.25,
+     "used": 19.25,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.7,
+     "normalized": 20.24,
+     "used": 20.24,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 26.9,
+     "normalized": 30.85,
+     "used": 26.68,
+     "winsorized": true
+    },
+    "TR": {
+     "raw": 28.4,
+     "normalized": 26.7,
+     "used": 26.68,
+     "winsorized": true
+    },
+    "PickSix": {
+     "raw": 7,
+     "normalized": 21.68,
+     "used": 21.68,
+     "winsorized": false
+    }
+   },
+   "blend": 23.13,
+   "dispersion": 11.61,
+   "off": 37.32,
+   "dfn": 14.58,
+   "p4": true,
+   "dispersion_flag": true
+  },
+  "Texas A&M": {
+   "sources": {
+    "SP+": {
+     "raw": 20.3,
+     "normalized": 20.3,
+     "used": 20.3,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.85,
+     "normalized": 18.6,
+     "used": 18.6,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.49,
+     "normalized": 16.3,
+     "used": 16.3,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 20.0,
+     "normalized": 22.81,
+     "used": 22.81,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 22.7,
+     "normalized": 21.24,
+     "used": 21.24,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 13,
+     "normalized": 18.1,
+     "used": 18.1,
+     "winsorized": false
+    }
+   },
+   "blend": 19.67,
+   "dispersion": 6.51,
+   "off": 36.98,
+   "dfn": 17.02,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Texas State": {
+   "sources": {
+    "SP+": {
+     "raw": -5.9,
+     "normalized": -5.9,
+     "used": -5.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.28,
+     "normalized": -5.77,
+     "used": -5.77,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.28,
+     "normalized": -6.38,
+     "used": -6.38,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -4.3,
+     "normalized": -5.49,
+     "used": -5.49,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -2.0,
+     "normalized": -2.4,
+     "used": -2.4,
+     "winsorized": false
+    }
+   },
+   "blend": -5.31,
+   "dispersion": 3.98,
+   "off": 32.1,
+   "dfn": 37.5,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Texas Tech": {
+   "sources": {
+    "SP+": {
+     "raw": 23.1,
+     "normalized": 23.1,
+     "used": 23.1,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.89,
+     "normalized": 19.46,
+     "used": 19.46,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.65,
+     "normalized": 19.3,
+     "used": 19.3,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 20.0,
+     "normalized": 22.81,
+     "used": 22.81,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 23.8,
+     "normalized": 22.3,
+     "used": 22.3,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 8,
+     "normalized": 21.63,
+     "used": 21.63,
+     "winsorized": false
+    }
+   },
+   "blend": 21.67,
+   "dispersion": 3.8,
+   "off": 36.89,
+   "dfn": 15.41,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Toledo": {
+   "sources": {
+    "SP+": {
+     "raw": -11.5,
+     "normalized": -11.5,
+     "used": -7.56,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": 0.07,
+     "normalized": 1.78,
+     "used": -1.35,
+     "winsorized": true
+    },
+    "Massey": {
+     "raw": 7.56,
+     "normalized": -1.13,
+     "used": -1.35,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": -3.0,
+     "normalized": -3.98,
+     "used": -3.98,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -8.6,
+     "normalized": -8.72,
+     "used": -7.56,
+     "winsorized": true
+    }
+   },
+   "blend": -4.89,
+   "dispersion": 13.28,
+   "off": 20.0,
+   "dfn": 24.6,
+   "p4": false,
+   "dispersion_flag": true
+  },
+  "Troy": {
+   "sources": {
+    "SP+": {
+     "raw": -6.0,
+     "normalized": -6.0,
+     "used": -6.0,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.36,
+     "normalized": -7.49,
+     "used": -7.49,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.17,
+     "normalized": -8.44,
+     "used": -8.44,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -7.4,
+     "normalized": -9.1,
+     "used": -9.1,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -7.7,
+     "normalized": -7.85,
+     "used": -7.85,
+     "winsorized": false
+    }
+   },
+   "blend": -7.48,
+   "dispersion": 3.1,
+   "off": 22.86,
+   "dfn": 30.54,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Tulane": {
+   "sources": {
+    "SP+": {
+     "raw": -5.5,
+     "normalized": -5.5,
+     "used": -2.26,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": 0.14,
+     "normalized": 3.29,
+     "used": 3.29,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.84,
+     "normalized": 4.12,
+     "used": 4.12,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 2.3,
+     "normalized": 2.2,
+     "used": 2.2,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -2.8,
+     "normalized": -3.16,
+     "used": -2.26,
+     "winsorized": true
+    }
+   },
+   "blend": 0.47,
+   "dispersion": 9.62,
+   "off": 25.19,
+   "dfn": 25.31,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Tulsa": {
+   "sources": {
+    "SP+": {
+     "raw": -7.6,
+     "normalized": -7.6,
+     "used": -7.6,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.66,
+     "normalized": -13.96,
+     "used": -13.96,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.81,
+     "normalized": -15.19,
+     "used": -15.19,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -9.0,
+     "normalized": -10.97,
+     "used": -10.97,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -10.3,
+     "normalized": -10.34,
+     "used": -10.34,
+     "winsorized": false
+    }
+   },
+   "blend": -10.94,
+   "dispersion": 7.59,
+   "off": 21.83,
+   "dfn": 33.37,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "UAB": {
+   "sources": {
+    "SP+": {
+     "raw": -18.1,
+     "normalized": -18.1,
+     "used": -18.1,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.7,
+     "normalized": -14.82,
+     "used": -14.82,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.73,
+     "normalized": -16.69,
+     "used": -16.69,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -15.5,
+     "normalized": -18.54,
+     "used": -18.54,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -18.2,
+     "normalized": -17.9,
+     "used": -17.9,
+     "winsorized": false
+    }
+   },
+   "blend": -17.36,
+   "dispersion": 3.72,
+   "off": 20.67,
+   "dfn": 37.53,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "UCF": {
+   "sources": {
+    "SP+": {
+     "raw": 2.3,
+     "normalized": 2.3,
+     "used": 2.3,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.04,
+     "normalized": 1.13,
+     "used": 1.13,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.73,
+     "normalized": 2.06,
+     "used": 2.06,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 2.1,
+     "normalized": 1.96,
+     "used": 1.96,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 3.3,
+     "normalized": 2.67,
+     "used": 2.67,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 48,
+     "normalized": 4.54,
+     "used": 4.54,
+     "winsorized": false
+    }
+   },
+   "blend": 2.42,
+   "dispersion": 3.41,
+   "off": 24.56,
+   "dfn": 22.04,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "UCLA": {
+   "sources": {
+    "SP+": {
+     "raw": 5.1,
+     "normalized": 5.1,
+     "used": 5.1,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.08,
+     "normalized": 2.0,
+     "used": 2.0,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.79,
+     "normalized": 3.18,
+     "used": 3.18,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 0.5,
+     "normalized": 0.1,
+     "used": 0.1,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 8.2,
+     "normalized": 7.36,
+     "used": 7.36,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 49,
+     "normalized": 4.5,
+     "used": 4.5,
+     "winsorized": false
+    }
+   },
+   "blend": 3.91,
+   "dispersion": 7.27,
+   "off": 28.4,
+   "dfn": 24.5,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "UConn": {
+   "sources": {
+    "SP+": {
+     "raw": -11.2,
+     "normalized": -11.2,
+     "used": -11.2,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.46,
+     "normalized": -9.65,
+     "used": -9.65,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.13,
+     "normalized": -9.19,
+     "used": -9.19,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -11.2,
+     "normalized": -13.53,
+     "used": -13.53,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -10.9,
+     "normalized": -10.92,
+     "used": -10.92,
+     "winsorized": false
+    }
+   },
+   "blend": -10.95,
+   "dispersion": 4.34,
+   "off": 20.43,
+   "dfn": 31.97,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "UL Monroe": {
+   "sources": {
+    "SP+": {
+     "raw": -24.3,
+     "normalized": -24.3,
+     "used": -24.3,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -1.02,
+     "normalized": -21.72,
+     "used": -21.72,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.46,
+     "normalized": -21.76,
+     "used": -21.76,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -19.3,
+     "normalized": -22.97,
+     "used": -22.97,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -19.8,
+     "normalized": -19.44,
+     "used": -19.44,
+     "winsorized": false
+    }
+   },
+   "blend": -22.41,
+   "dispersion": 4.86,
+   "off": 15.24,
+   "dfn": 36.96,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "UNLV": {
+   "sources": {
+    "SP+": {
+     "raw": 2.8,
+     "normalized": 2.8,
+     "used": 2.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.12,
+     "normalized": -2.32,
+     "used": -2.32,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.54,
+     "normalized": -1.51,
+     "used": -1.51,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 1.8,
+     "normalized": 1.61,
+     "used": 1.61,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -0.8,
+     "normalized": -1.25,
+     "used": -1.25,
+     "winsorized": false
+    }
+   },
+   "blend": 0.36,
+   "dispersion": 5.12,
+   "off": 29.98,
+   "dfn": 29.62,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "USC": {
+   "sources": {
+    "SP+": {
+     "raw": 16.8,
+     "normalized": 16.8,
+     "used": 16.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.79,
+     "normalized": 17.31,
+     "used": 17.31,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.53,
+     "normalized": 17.05,
+     "used": 17.05,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 17.0,
+     "normalized": 19.32,
+     "used": 19.32,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 20.9,
+     "normalized": 19.52,
+     "used": 19.52,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 11,
+     "normalized": 18.69,
+     "used": 18.69,
+     "winsorized": false
+    }
+   },
+   "blend": 17.93,
+   "dispersion": 2.72,
+   "off": 38.26,
+   "dfn": 19.94,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "UTEP": {
+   "sources": {
+    "SP+": {
+     "raw": -20.5,
+     "normalized": -20.5,
+     "used": -20.5,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.89,
+     "normalized": -18.92,
+     "used": -18.92,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 6.53,
+     "normalized": -20.44,
+     "used": -20.44,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -16.6,
+     "normalized": -19.82,
+     "used": -19.82,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -21.0,
+     "normalized": -20.58,
+     "used": -20.58,
+     "winsorized": false
+    }
+   },
+   "blend": -20.13,
+   "dispersion": 1.67,
+   "off": 14.89,
+   "dfn": 34.51,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "UTSA": {
+   "sources": {
+    "SP+": {
+     "raw": -1.5,
+     "normalized": -1.5,
+     "used": -1.5,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.02,
+     "normalized": -0.16,
+     "used": -0.16,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.57,
+     "normalized": -0.94,
+     "used": -0.94,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -5.3,
+     "normalized": -6.66,
+     "used": -6.22,
+     "winsorized": true
+    },
+    "TR": {
+     "raw": -1.5,
+     "normalized": -1.92,
+     "used": -1.92,
+     "winsorized": false
+    }
+   },
+   "blend": -2.04,
+   "dispersion": 6.5,
+   "off": 29.23,
+   "dfn": 31.47,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Utah": {
+   "sources": {
+    "SP+": {
+     "raw": 11.9,
+     "normalized": 11.9,
+     "used": 11.9,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.97,
+     "normalized": 21.19,
+     "used": 16.9,
+     "winsorized": true
+    },
+    "Massey": {
+     "raw": 8.62,
+     "normalized": 18.74,
+     "used": 16.9,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": 8.5,
+     "normalized": 9.42,
+     "used": 9.42,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 12.8,
+     "normalized": 11.77,
+     "used": 11.77,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 22,
+     "normalized": 13.78,
+     "used": 13.78,
+     "winsorized": false
+    }
+   },
+   "blend": 13.22,
+   "dispersion": 11.77,
+   "off": 33.66,
+   "dfn": 20.44,
+   "p4": true,
+   "dispersion_flag": true
+  },
+  "Utah State": {
+   "sources": {
+    "SP+": {
+     "raw": -7.7,
+     "normalized": -7.7,
+     "used": -7.7,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.28,
+     "normalized": -5.77,
+     "used": -5.77,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.31,
+     "normalized": -5.82,
+     "used": -5.82,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -6.7,
+     "normalized": -8.29,
+     "used": -8.29,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -3.8,
+     "normalized": -4.12,
+     "used": -4.12,
+     "winsorized": false
+    }
+   },
+   "blend": -6.57,
+   "dispersion": 4.17,
+   "off": 24.27,
+   "dfn": 30.33,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Vanderbilt": {
+   "sources": {
+    "SP+": {
+     "raw": 10.0,
+     "normalized": 10.0,
+     "used": 10.0,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.59,
+     "normalized": 12.99,
+     "used": 12.99,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.24,
+     "normalized": 11.62,
+     "used": 11.62,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 9.0,
+     "normalized": 10.0,
+     "used": 10.0,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 9.8,
+     "normalized": 8.9,
+     "used": 8.9,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 46,
+     "normalized": 4.85,
+     "used": 5.0,
+     "winsorized": true
+    }
+   },
+   "blend": 9.79,
+   "dispersion": 8.15,
+   "off": 33.29,
+   "dfn": 24.21,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Virginia": {
+   "sources": {
+    "SP+": {
+     "raw": 6.6,
+     "normalized": 6.6,
+     "used": 6.6,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.22,
+     "normalized": 5.02,
+     "used": 5.02,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.96,
+     "normalized": 6.37,
+     "used": 6.37,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 7.9,
+     "normalized": 8.72,
+     "used": 8.72,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 9.0,
+     "normalized": 8.13,
+     "used": 8.13,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 35,
+     "normalized": 7.52,
+     "used": 7.52,
+     "winsorized": false
+    }
+   },
+   "blend": 6.99,
+   "dispersion": 3.7,
+   "off": 26.5,
+   "dfn": 19.7,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Virginia Tech": {
+   "sources": {
+    "SP+": {
+     "raw": 9.4,
+     "normalized": 9.4,
+     "used": 9.4,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.08,
+     "normalized": -1.45,
+     "used": 3.14,
+     "winsorized": true
+    },
+    "Massey": {
+     "raw": 7.65,
+     "normalized": 0.56,
+     "used": 3.14,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": 7.4,
+     "normalized": 8.14,
+     "used": 8.14,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 8.2,
+     "normalized": 7.36,
+     "used": 7.36,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 34,
+     "normalized": 8.76,
+     "used": 8.76,
+     "winsorized": false
+    }
+   },
+   "blend": 7.05,
+   "dispersion": 10.85,
+   "off": 29.92,
+   "dfn": 22.68,
+   "p4": true,
+   "dispersion_flag": true
+  },
+  "Wake Forest": {
+   "sources": {
+    "SP+": {
+     "raw": 3.6,
+     "normalized": 3.6,
+     "used": 3.6,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.19,
+     "normalized": 4.37,
+     "used": 4.37,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.78,
+     "normalized": 2.99,
+     "used": 2.99,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 3.4,
+     "normalized": 3.48,
+     "used": 3.48,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 2.4,
+     "normalized": 1.81,
+     "used": 1.81,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 53,
+     "normalized": 3.59,
+     "used": 3.59,
+     "winsorized": false
+    }
+   },
+   "blend": 3.35,
+   "dispersion": 2.56,
+   "off": 24.07,
+   "dfn": 20.83,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Washington": {
+   "sources": {
+    "SP+": {
+     "raw": 14.5,
+     "normalized": 14.5,
+     "used": 14.5,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": 0.78,
+     "normalized": 17.09,
+     "used": 17.09,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.5,
+     "normalized": 16.49,
+     "used": 16.49,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 9.9,
+     "normalized": 11.05,
+     "used": 11.05,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 16.4,
+     "normalized": 15.21,
+     "used": 15.21,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 18,
+     "normalized": 14.81,
+     "used": 14.81,
+     "winsorized": false
+    }
+   },
+   "blend": 14.81,
+   "dispersion": 6.04,
+   "off": 32.55,
+   "dfn": 17.45,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Washington State": {
+   "sources": {
+    "SP+": {
+     "raw": -5.3,
+     "normalized": -5.3,
+     "used": -4.14,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": 0.23,
+     "normalized": 5.23,
+     "used": 1.36,
+     "winsorized": true
+    },
+    "Massey": {
+     "raw": 7.82,
+     "normalized": 3.74,
+     "used": 1.36,
+     "winsorized": true
+    },
+    "FPI": {
+     "raw": -4.1,
+     "normalized": -5.26,
+     "used": -4.14,
+     "winsorized": true
+    },
+    "TR": {
+     "raw": -1.6,
+     "normalized": -2.02,
+     "used": -2.02,
+     "winsorized": false
+    }
+   },
+   "blend": -1.95,
+   "dispersion": 10.53,
+   "off": 21.57,
+   "dfn": 23.43,
+   "p4": false,
+   "dispersion_flag": true
+  },
+  "West Virginia": {
+   "sources": {
+    "SP+": {
+     "raw": 0.8,
+     "normalized": 0.8,
+     "used": 0.8,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.07,
+     "normalized": -1.24,
+     "used": -1.24,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.66,
+     "normalized": 0.74,
+     "used": 0.74,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 0.2,
+     "normalized": -0.25,
+     "used": -0.25,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 4.5,
+     "normalized": 3.82,
+     "used": 3.82,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 51,
+     "normalized": 3.93,
+     "used": 3.93,
+     "winsorized": false
+    }
+   },
+   "blend": 1.23,
+   "dispersion": 5.17,
+   "off": 26.51,
+   "dfn": 25.39,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Western Kentucky": {
+   "sources": {
+    "SP+": {
+     "raw": -5.3,
+     "normalized": -5.3,
+     "used": -5.3,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.3,
+     "normalized": -6.2,
+     "used": -6.2,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.23,
+     "normalized": -7.32,
+     "used": -7.32,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -4.9,
+     "normalized": -6.19,
+     "used": -6.19,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -8.4,
+     "normalized": -8.52,
+     "used": -8.52,
+     "winsorized": false
+    }
+   },
+   "blend": -6.47,
+   "dispersion": 3.22,
+   "off": 24.61,
+   "dfn": 31.59,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Western Michigan": {
+   "sources": {
+    "SP+": {
+     "raw": -7.2,
+     "normalized": -7.2,
+     "used": -7.2,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.25,
+     "normalized": -5.12,
+     "used": -5.12,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.24,
+     "normalized": -7.13,
+     "used": -7.13,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -4.0,
+     "normalized": -5.14,
+     "used": -5.14,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": -8.3,
+     "normalized": -8.43,
+     "used": -8.43,
+     "winsorized": false
+    }
+   },
+   "blend": -6.7,
+   "dispersion": 3.31,
+   "off": 19.25,
+   "dfn": 25.55,
+   "p4": false,
+   "dispersion_flag": false
+  },
+  "Wisconsin": {
+   "sources": {
+    "SP+": {
+     "raw": 1.8,
+     "normalized": 1.8,
+     "used": 2.24,
+     "winsorized": true
+    },
+    "FEI": {
+     "raw": 0.27,
+     "normalized": 6.09,
+     "used": 6.09,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 8.02,
+     "normalized": 7.49,
+     "used": 7.49,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": 4.8,
+     "normalized": 5.11,
+     "used": 5.11,
+     "winsorized": false
+    },
+    "TR": {
+     "raw": 8.4,
+     "normalized": 7.56,
+     "used": 7.56,
+     "winsorized": false
+    },
+    "PickSix": {
+     "raw": 36,
+     "normalized": 7.24,
+     "used": 7.24,
+     "winsorized": false
+    }
+   },
+   "blend": 5.42,
+   "dispersion": 5.76,
+   "off": 22.41,
+   "dfn": 16.69,
+   "p4": true,
+   "dispersion_flag": false
+  },
+  "Wyoming": {
+   "sources": {
+    "SP+": {
+     "raw": -9.6,
+     "normalized": -9.6,
+     "used": -9.6,
+     "winsorized": false
+    },
+    "FEI": {
+     "raw": -0.5,
+     "normalized": -10.51,
+     "used": -10.51,
+     "winsorized": false
+    },
+    "Massey": {
+     "raw": 7.09,
+     "normalized": -9.94,
+     "used": -9.94,
+     "winsorized": false
+    },
+    "FPI": {
+     "raw": -13.1,
+     "normalized": -15.75,
+     "used": -15.23,
+     "winsorized": true
+    },
+    "TR": {
+     "raw": -13.3,
+     "normalized": -13.21,
+     "used": -13.21,
+     "winsorized": false
+    }
+   },
+   "blend": -11.35,
+   "dispersion": 6.15,
+   "off": 15.13,
+   "dfn": 25.87,
+   "p4": false,
+   "dispersion_flag": false
+  }
+ }
+}

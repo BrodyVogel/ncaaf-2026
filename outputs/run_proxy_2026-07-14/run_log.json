@@ -1,0 +1,21 @@
+{
+ "run_utc": "2026-07-14T19:52:49+00:00",
+ "label": "PROXY-PROVISIONAL (mechanical shadow grades - NOT the product)",
+ "code_rev": "e30e2eb",
+ "anchor_run": "outputs/anchor_runs/anchor_run_2026-07-14.json",
+ "grades_source": "data/backtest/shadow_proxy_2026.json",
+ "k": 0.35,
+ "cap": 6.0,
+ "sigma": 6.0,
+ "class_per_side": 1.68,
+ "n_teams": 138,
+ "fit_r2": {
+  "off": 0.538,
+  "dfn": 0.615
+ },
+ "tripwire_fired": false,
+ "tripwire_note": "baseline (0.46, 0.68); >0.75 = anchoring warning",
+ "resid_flag_threshold": 10.94,
+ "n_overrides": 0,
+ "overrides": []
+}
