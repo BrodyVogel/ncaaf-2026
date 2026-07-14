@@ -1,0 +1,23 @@
+{
+ "run_utc": "2026-07-14T22:40:25+00:00",
+ "team": "Iowa",
+ "final": 10.72,
+ "rank": 21,
+ "band": 6.72,
+ "resid": -6.05,
+ "adj": -2.12,
+ "class_term": -1.68,
+ "st": 0.2,
+ "anchor_blend": 13.83,
+ "implied_off": 29.39,
+ "implied_def": 22.2,
+ "anchor_off": 30.42,
+ "anchor_def": 17.18,
+ "fit_r2": {
+  "off": 0.537,
+  "dfn": 0.612
+ },
+ "low_conf_units": 4,
+ "code_rev": "dbb1e4f",
+ "mode": "PILOT-OOS"
+}

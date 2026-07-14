@@ -1,216 +1,367 @@
 {
-  "_meta": {
-    "graded_utc": "2026-07-14",
-    "snapshot_rev": "c091163 (frozen 2026-07-14)",
-    "prompt": "GRADING_PROMPT.md v1.2.2",
-    "exemplars": "exemplars.md v3.1 FROZEN",
-    "grader": "in-session supervised (brief §9); full assembly per manifest",
-    "shadow_proxy_divergence": {
-      "note": "proxy (QB -, RB 71, WRTE -, OL 95, DL 31, LB 90, DB 93, ST 94) vs grades below; large deltas documented in-grade",
-      "OL": "-8 (proxy overweights returning stars' 2025 grades; ignores 3-new-starter role-expansion risk)",
-      "DL": "+17 (proxy overweights Ingold's 234 backup MAC snaps; blind to Epenesa pedigree + Parker scheme + FCS-starter priors)",
-      "LB": "-32 (LB caution rule: proxy inflated by +16.1 B10 LB offset and Buffington's 85.1 on 28 snaps)",
-      "DB": "-13 (proxy blind to CB2/FS unproven spots)",
-      "ST": "-34 (proxy carries 2025 SPEC 88.0 earned entirely by departed K/P/RS/STC)"
-    }
+ "team": "Iowa",
+ "units": {
+  "QB": {
+   "grade": 32,
+   "confidence": "L"
   },
-  "grades": [
+  "RB": {
+   "grade": 70,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 87,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 48,
+   "confidence": "L"
+  },
+  "LB": {
+   "grade": 58,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 80,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 60,
+   "confidence": "L"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-14",
+  "snapshot_rev": "c091163 (frozen 2026-07-14)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised (brief \u00a79); full assembly per manifest",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB -, RB 71, WRTE -, OL 95, DL 31, LB 90, DB 93, ST 94) vs grades below; large deltas documented in-grade",
+   "OL": "-8 (proxy overweights returning stars' 2025 grades; ignores 3-new-starter role-expansion risk)",
+   "DL": "+17 (proxy overweights Ingold's 234 backup MAC snaps; blind to Epenesa pedigree + Parker scheme + FCS-starter priors)",
+   "LB": "-32 (LB caution rule: proxy inflated by +16.1 B10 LB offset and Buffington's 85.1 on 28 snaps)",
+   "DB": "-13 (proxy blind to CB2/FS unproven spots)",
+   "ST": "-34 (proxy carries 2025 SPEC 88.0 earned entirely by departed K/P/RS/STC)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Iowa",
+   "unit": "QB",
+   "grade": 32,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25)",
+    "UNLV LB 2025 (40)"
+   ],
+   "rationale_bullets": [
+    "Zero qualifying 2025 volume returns: Gronowski (PFF 83.3 on 308 dropbacks, 2025) is gone; the room's entire career output is Brown 27-43-403-6-3 (Auburn 2024 + Iowa 2025, PFF 54.4 on 21 dropbacks) and Hecklinski 2-2-8 (3 dropbacks). Prior-driven grade by rule 3/4.",
+    "Battle open into August (Ferentz 2026-04-26: 'back-and-forth... at least through the majority of August'); spring showcase was poor \u2014 Hecklinski 10-of-22, Brown 3-of-10 (Gazette 2026-04-26), corroborated 10-of-20/99 yds (Dear Old Gold 2026-04-27).",
+    "Attributed mosaic is mixed, not bleak: Phil Steele 2026 ranks Hecklinski #51 at the position and projects Brown QB1; Lester calls Hecklinski a 'gunslinger' (Pick Six 2026); Athlon 2026: 'neither played enough in 2025 to know.' SI 2026-07-07: 'single biggest question mark' in half a decade.",
+    "Hit case: system QB behind a strong OL in a run-first scheme replicates Gronowski-lite efficiency (Iowa's 2025 as-played QB pctile was 80 with a 5th-yr FCS champion). Miss case: pre-2025 Iowa passing (bottom-decile). Evidence balance sits below FBS average; staff's no-portal-QB signal (Athlon 2026) is confidence, not proof.",
+    "Grade 32 = clearly below-average FBS unit with real bust tail, above the FIU QB 15 anchor (a PROVEN mediocre starter at 59.0/302 \u2014 Iowa's upside scenario beats that room; its floor matches it)."
+   ],
+   "key_players": [
     {
-      "team": "Iowa",
-      "unit": "QB",
-      "grade": 32,
-      "confidence": "L",
-      "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "UNLV LB 2025 (40)"],
-      "rationale_bullets": [
-        "Zero qualifying 2025 volume returns: Gronowski (PFF 83.3 on 308 dropbacks, 2025) is gone; the room's entire career output is Brown 27-43-403-6-3 (Auburn 2024 + Iowa 2025, PFF 54.4 on 21 dropbacks) and Hecklinski 2-2-8 (3 dropbacks). Prior-driven grade by rule 3/4.",
-        "Battle open into August (Ferentz 2026-04-26: 'back-and-forth... at least through the majority of August'); spring showcase was poor — Hecklinski 10-of-22, Brown 3-of-10 (Gazette 2026-04-26), corroborated 10-of-20/99 yds (Dear Old Gold 2026-04-27).",
-        "Attributed mosaic is mixed, not bleak: Phil Steele 2026 ranks Hecklinski #51 at the position and projects Brown QB1; Lester calls Hecklinski a 'gunslinger' (Pick Six 2026); Athlon 2026: 'neither played enough in 2025 to know.' SI 2026-07-07: 'single biggest question mark' in half a decade.",
-        "Hit case: system QB behind a strong OL in a run-first scheme replicates Gronowski-lite efficiency (Iowa's 2025 as-played QB pctile was 80 with a 5th-yr FCS champion). Miss case: pre-2025 Iowa passing (bottom-decile). Evidence balance sits below FBS average; staff's no-portal-QB signal (Athlon 2026) is confidence, not proof.",
-        "Grade 32 = clearly below-average FBS unit with real bust tail, above the FIU QB 15 anchor (a PROVEN mediocre starter at 59.0/302 — Iowa's upside scenario beats that room; its floor matches it)."
-      ],
-      "key_players": [
-        {"name": "Jeremy Hecklinski", "role": "presumptive QB1 (OurLads 06/15/2026, Athlon; most 1st-team spring reps)", "evidence": "2-2-8 + rush TD 2025; passed Brown midseason 2025 (Pick Six); 10-of-22 spring game (Gazette 2026-04-26); PS 2026 #51 positional rank"},
-        {"name": "Hank Brown", "role": "QB2, live battle (PS projects him QB1)", "evidence": "career 27-43-403-6-3; 11-21-107-1-1 at Iowa 2025; struggled 'in September spots' 2025 (Pick Six); 3-of-10 spring game vs pressure (Gazette/DOG 2026-04)"}
-      ],
-      "data_gaps": [
-        "No qualifying 2025 PFF volume for either candidate (both below 100-dropback floor)",
-        "Winner unnamed until ~late August (Ferentz 2026-04-26) — grade assumes Hecklinski-or-Brown equivalence",
-        "No Sideline/valuation-market entry surfaced for either QB (searches logged 2026-07-14)"
-      ],
-      "g5_guard_note": null
+     "name": "Jeremy Hecklinski",
+     "role": "presumptive QB1 (OurLads 06/15/2026, Athlon; most 1st-team spring reps)",
+     "evidence": "2-2-8 + rush TD 2025; passed Brown midseason 2025 (Pick Six); 10-of-22 spring game (Gazette 2026-04-26); PS 2026 #51 positional rank"
     },
     {
-      "team": "Iowa",
-      "unit": "RB",
-      "grade": 70,
-      "confidence": "M",
-      "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
-      "rationale_bullets": [
-        "Quant baseline is real and returns: Moulton PFF 82.3 on 171 att (2025, B10 offset −0.4 ≈ 81.9 adj), 5.2 ypc, 0 fumbles, All-B10 HM — as an individual that sits near the RB p75 reference (Auburn 83.4).",
-        "Credentialed depth added: L.J. Phillips Jr. (South Dakota, MVFC-FCS) FCS-leading 1,921 yds/19 TD 2025, 1st-team FCS AA, 55 carries of 10+; SI 2026-01-16 attributes PFF 92.8 (best FCS RB). FCS discount applied — projected as quality rotation, not co-star; Williams (5.8 ypc 2025) third.",
-        "Departures immaterial to the top of the depth chart: Patterson (77.4 on 60 att) and Washington (27 att) took 87 combined 2025 attempts to MSU/NMSU.",
-        "Context risk: 2025 as-played unit pctile was only 59 despite the Joe Moore line; 2026 breaks in three new OL starters — argues against grading the room past Moulton's individual level. Moulton's modest explosiveness (breakaway 25.5%, elusive 46.4, 2025) caps the ceiling."
-      ],
-      "key_players": [
-        {"name": "Kamari Moulton", "role": "workhorse RB1 (all sources)", "evidence": "170-878-5, 5.2 ypc, PFF 82.3/171 att, All-B10 HM 2025; hands 90.6, 0 fumbles"},
-        {"name": "L.J. Phillips Jr.", "role": "RB2 / change-of-pace (Athlon depth chart)", "evidence": "1,921 yds, 19 TD 2025 at South Dakota (FCS 1st-tm AA); SI 2026-01-16: PFF 92.8, highest-graded FCS RB"}
-      ],
-      "data_gaps": [
-        "Phillips FCS→B10 translation unproven (no FBS snaps; no PFF row in FBS files)",
-        "Run-blocking quality of the rebuilt OL interior unknown until fall (RG battle open per OurLads 06/15/2026)"
-      ],
-      "g5_guard_note": null
-    },
-    {
-      "team": "Iowa",
-      "unit": "WRTE",
-      "grade": 42,
-      "confidence": "M",
-      "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
-      "rationale_bullets": [
-        "2025 production was bad — as-played 16th pctile adj; team RECV grade 66.5 was Iowa's worst side-category (PFF 2025) — but the bad volume left: Gill (59.7/205 rt), S. Phillips (61.9/187), Anderson (49.5/105) all gone.",
-        "Best returning pieces argue up: Vander Zee PFF 79.7 on 96 routes (2025, injury-shortened — hint, not evidence), TE Vonnahme led the TEAM 29-434-3 as a freshman (68.0/140 rt, 85.7% contested), and SI 2026-07-07 calls TE the roster's strongest room (Ostrenga/Ortwerth behind him).",
-        "Two credentialed FCS arrivals take real routes: Diaz (UTRGV: 875/11 TD, PS FCS Freshman of the Year) + James (Furman: 65-796-8, FCS Freshman AA) — combined 1,677/18 with a 'vertical, explosive element' (Pick Six 2026). FCS discount keeps them priors, not proof.",
-        "Spring: KJ Parker was the consensus breakout (contested catches — DOG + Gazette, 2026-04); but James/Buie/Diaz/Smith were held out (minor injuries, Gazette 2026-04-26), so the new room barely practiced together.",
-        "Returning-weighted quant baseline ≈ 61.2 adj ≈ p25; named upgrades (VZ/Vonnahme trajectory, adds replacing sub-60 volume) justify 42, not 50 — QB uncertainty and zero proven WR1 keep it below average. SI 2026-07-07 lists WR among the question marks."
-      ],
-      "key_players": [
-        {"name": "Reece Vander Zee", "role": "projected #1 WR (Pick Six)", "evidence": "PFF 79.7 on 96 routes 2025 (best returning offensive grade); size/athleticism cited (Pick Six 2026)"},
-        {"name": "DJ Vonnahme", "role": "TE1, 'Tight End U' heir", "evidence": "led team 29-434-3 as FR 2025; 68.0/140 routes; bowl breakout (Pick Six 2026)"},
-        {"name": "Tony Diaz", "role": "starting slot/WR (Athlon depth chart)", "evidence": "875 yds/11 TD at UTRGV 2025; PS FCS Freshman of the Year; spring teammate praise (KCRG 2026-04-09)"}
-      ],
-      "data_gaps": [
-        "No returning WR met the 150-route volume floor in 2025 — every WR projection is sub-volume or FCS-translated",
-        "FCS arrivals have no PFF rows (premium files FBS-only); their route-level quality is inferred from box scores + honors",
-        "How targets distribute with an unsettled QB — unknowable until fall"
-      ],
-      "g5_guard_note": null
-    },
-    {
-      "team": "Iowa",
-      "unit": "OL",
-      "grade": 87,
-      "confidence": "M",
-      "bracketing_exemplars": ["Texas Tech OL 2025 (84)", "Kentucky DL 2025 (91)"],
-      "rationale_bullets": [
-        "Two elite proven anchors return at volume: Lauck PFF 84.8 on 701 snaps and Pieper 83.5 on 757 (2025, B10) — both grade ABOVE the departed Rimington winner Logan Jones (79.0/766); Pick Six 2026: 'both should be All-America candidates.'",
-        "The loss is real: Jones/Dunker/Stephens = 2,177 snaps at 79.0–85.6 (2025), 110 career starts, three 1st-tm All-B10 (Athlon 2026) — 3 of 5 spots are first-year starters, and Klatt (2026-05-11, unit-level) worries about exactly this in a run-first scheme.",
-        "But the replacements have positive indicators, not blanks: Leighton Jones 73.9/125 ('a lock at guard' — Pick Six), Dotzler 75.9/140 (veteran RT), and JMU transfer Wilson 69.4 on 394 true-freshman guard snaps (SBC, offset ≈0) vs Myslinski (60.0/57) in an open RG battle (OurLads vs Athlon disagree, 06-07/2026).",
-        "Pieper's G→C switch drew specific positive spring reporting (KCRG 2026-04-09: 'a natural,' 'good communicator') and the program's OL development record + Joe Moore culture (2025 winners, 2024 semifinalists) is an attributed systemic prior, not prestige-anchoring.",
-        "Substance-check vs anchors: projected five has 4 players at 72+ raw (2025 basis) with an elite top-2 — richer than the TT OL 84 sketch (0 at 72+), close to the Kentucky DL 91 sketch (4 at 72+); new-starter/position-switch risk lands it 87, below 91."
-      ],
-      "key_players": [
-        {"name": "Trevor Lauck", "role": "LT, returning starter", "evidence": "PFF 84.8 on 701 snaps 2025; AA candidate (Pick Six 2026)"},
-        {"name": "Kade Pieper", "role": "C (moved from G)", "evidence": "PFF 83.5 on 757 snaps 2025, 3rd-tm All-B10; spring move praised by teammates (KCRG 2026-04-09)"},
-        {"name": "Trent Wilson", "role": "RG battle (OurLads starter 06/15/2026)", "evidence": "69.4 on 394 guard snaps at JMU 2025 as true FR, 1 start, CFP appearance; SI portal-rank #3 (2026-01-16)"}
-      ],
-      "data_gaps": [
-        "RG unresolved (OurLads=Wilson vs Athlon=Myslinski) as of 07/2026",
-        "Pieper has zero career game snaps at center — spring praise is practice-only evidence",
-        "Interior depth beyond the six named is 3-star developmental (Pick Six 2026)"
-      ],
-      "g5_guard_note": null
-    },
-    {
-      "team": "Iowa",
-      "unit": "DL",
-      "grade": 48,
-      "confidence": "L",
-      "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
-      "rationale_bullets": [
-        "Steepest personnel cliff on the roster: 6 of the top 8 depart (Graves 71.9/598, Hurkett 72.7/546, Llewellyn 72.3/544, Pace 64.6/426, Allen 73.5/282→Vanderbilt, Pittman) — ~87% of 2025 snaps from an 85th-pctile-adj unit (P6/PS agree on the 6-of-8 framing).",
-        "What returns is rotation-grade: Hawthorne 61.8/295 (spring MCL sprain, DOG 2026-04-27) and Merrieweather 60.9/221 (2025, B10 +10.3 offset → ~72 adj each at rotational usage); Epenesa is pedigree-only (former 5-star, 75.9 on 33 snaps 2025; 'poised for a breakthrough' — Pick Six 2026).",
-        "Arrivals are FCS/MAC with real-but-discounted credentials: K. Brown (Elon, 12 sacks, 2nd-tm FCS AA — first 12-sack Elon season), Stevenson (Holy Cross 3-yr starter 'space-eater' — projected DT starter per Athlon), Ingold (NIU) graded 46.4 on 234 MAC snaps (weak).",
-        "Spring disconfirmation was blunt: interior 'problematic,' unit 'did not look overly impressive' (DOG 2026-04-27) — the negative spring read matches the quant gap.",
-        "Mitigants keep it near-average rather than bad: Parker's scheme 'minimizes complex demands on linemen' (SI 2026-07-07), his defense is top-10 opp-adjusted in 6 of 8 years (Pick Six), and the B10 DL context (+10.3 fitted offset, 2021-25) flatters returning grades. 48 = just below FBS average with wide honest error."
-      ],
-      "key_players": [
-        {"name": "Iose Epenesa", "role": "DE1 ('set' per spring reports)", "evidence": "former 5-star; PFF 75.9 on 33 snaps 2025; breakout framing (Pick Six 2026; DOG 2026-04-27)"},
-        {"name": "Bryce Hawthorne", "role": "DT1 returner", "evidence": "61.8 on 295 snaps 2025; 15 tkl/3 TFL; MCL sprain in spring (DOG 2026-04-27)"},
-        {"name": "Kahmari Brown", "role": "edge rotation/starter candidate", "evidence": "12 sacks, 66 tkl at Elon 2025 (FCS 2nd-tm AA; Hawk Fanatic 2026-01-28)"},
-        {"name": "Brice Stevenson", "role": "projected DT starter (Athlon depth chart)", "evidence": "3-yr Holy Cross starter; 37 tkl/3.5 TFL 2025 (Hawk Fanatic 2026-01-28)"}
-      ],
-      "data_gaps": [
-        "FCS starters (Stevenson, K. Brown) have no PFF rows — B10 translation is pure prior",
-        "Epenesa projection rests on 33 snaps + pedigree",
-        "Hawthorne MCL recovery status not updated since 2026-04-27 (searches logged)",
-        "Olagbaju origin conflict (CFBD: North Dakota vs Hawk Fanatic: St. Thomas) — depth only"
-      ],
-      "g5_guard_note": null
-    },
-    {
-      "team": "Iowa",
-      "unit": "LB",
-      "grade": 58,
-      "confidence": "L",
-      "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
-      "rationale_bullets": [
-        "LB caution rule applies in full: the +16.1 B10 LB offset is the largest and least-trusted in the fitted table, and LB is the noisiest PFF unit signal — the 89th-pctile 2025 as-played number and the shadow proxy's 90 are both treated skeptically.",
-        "The entire 2025 starting trio departs (Sharar 76.1/753 — 6th-rd pick, Harrell 60.5/307, Rexroth 66.3/242); the one proven returner is Montgomery: 69.8 on 423 snaps, took over Harrell's job late 2025, 44 tkl/7 starts (SI 2026-04-29) — a solid-not-star B10 starter.",
-        "The second and third spots are projection: Buffington (85.1 on 28 snaps 2025 — a hint, not evidence) and Weisskopf, both former 4-stars 'drawing huge praise and could jump up into starting jobs' (Pick Six 2026); WLB battle unresolved (Athlon=Buffington vs OurLads=Van Kekerix, a 2022 HS signee).",
-        "Program prior is attributed but generic ('consistently reliable' — SI 2026-07-07). One mid-tier proven starter + credible pedigree behind him lands slightly above FBS average: 58."
-      ],
-      "key_players": [
-        {"name": "Jayden Montgomery", "role": "MLB, returning starter", "evidence": "PFF 69.8 on 423 snaps 2025; 44 tkl, 7 starts; took Harrell's job late season (Pick Six 2026)"},
-        {"name": "Cam Buffington", "role": "WLB favorite (Athlon depth chart)", "evidence": "ex-4-star; 85.1 on 28 snaps 2025 (tiny sample); 'huge praise' (Pick Six 2026)"}
-      ],
-      "data_gaps": [
-        "WLB starter unresolved (Athlon vs OurLads conflict, 06-07/2026)",
-        "Buffington/Weisskopf have 28/0 meaningful 2025 snaps — placement rests on pedigree + camp reports",
-        "Montgomery run-def vs coverage sub-grade split not decisive at his volume"
-      ],
-      "g5_guard_note": null
-    },
-    {
-      "team": "Iowa",
-      "unit": "DB",
-      "grade": 80,
-      "confidence": "M",
-      "bracketing_exemplars": ["Houston WRTE 2025 (78)", "Kentucky DL 2025 (91)"],
-      "rationale_bullets": [
-        "Two high-volume proven starters return from the #1 opponent-adjusted pass defense (Pick Six 2026): Lutmer 83.5 on 725 snaps (2nd-tm All-B10: 71 tkl, 3 INT, 10 PBU, TD — 'star of the defense' at CASH) and Lee 75.2 on 572 (2025, B10 +6.3 offset).",
-        "The best-credentialed portal add starts at SS: T. Brown 72.9 on 735 snaps at JMU 2025 (SBC −4 discount → ~69 adj), HM All-Sun Belt on a playoff defense, held LSU/FSU/UCLA/Wisconsin offers (SI 2026-01-16 ranked him the #1 Iowa add); beat note 2026-05-26: he and Hawkins 'progressing.'",
-        "The losses are elite but the core survives them: Nwankpa (70.9/741, KC), Hall (78.3/602), Entringer (65.7/697→Louisville) = 3 All-B10 gone, yet the projected top-3 (Lutmer/Lee/Brown) all graded 72.9+ raw at 570+ snaps in 2025.",
-        "Risk is concentrated at CB2 and FS: Watson graded 58.6/224 (allowed 12/149 — SI 2026-04-29) vs Godfrey 69.7/89 unresolved; FS Hawkins is an FCS Freshman AA (Villanova: 59 tkl/2 INT/9 PBU 2025) — promising prior, no FBS snaps. SI 2026-07-07: 'lacks depth opposite Lee.'",
-        "Parker's DB development record (top-10 opp-adj defense 6 of 8 years — Pick Six) is the attributed mitigant; 80 = top-25-unit territory, below the 94th-pctile 2025 as-played level, above the Houston WRTE 78 anchor on core quality."
-      ],
-      "key_players": [
-        {"name": "Zach Lutmer", "role": "CASH, returning star", "evidence": "PFF 83.5 on 725 snaps 2025; 2nd-tm All-B10; 3 INT/10 PBU; 'next great Iowa DB' (Athlon 2026)"},
-        {"name": "Deshaun Lee", "role": "CB1, returning starter", "evidence": "PFF 75.2 on 572 snaps 2025"},
-        {"name": "Tyler Brown", "role": "SS (JMU transfer)", "evidence": "72.9 on 735 snaps, 80 tkl 2025 at JMU; SI 2026-01-16 #1 portal add w/ P4 offer sheet"},
-        {"name": "Anthony Hawkins", "role": "FS (Villanova transfer)", "evidence": "FCS Freshman AA 2025: 59 tkl, 2 INT, 9 PBU; 'cover skills to start at free safety' (Pick Six 2026)"}
-      ],
-      "data_gaps": [
-        "CB2 unresolved (OurLads=Watson vs Athlon=Godfrey, 06-07/2026); Watson's 2025 coverage numbers were poor",
-        "Hawkins/Styles FCS→B10 translation unproven (no PFF rows)",
-        "hawkcentral 2026-05-26 secondary-progress detail unreadable (robots) — headline direction only"
-      ],
-      "g5_guard_note": null
-    },
-    {
-      "team": "Iowa",
-      "unit": "ST",
-      "grade": 60,
-      "confidence": "L",
-      "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Washington State DB 2025 (72)"],
-      "rationale_bullets": [
-        "The rule's cleanest 'past grade ≠ future personnel' case: 2025 team SPEC 88.0 (PFF) was earned by K Stevens (NFL), P Dakin (→MSU), 2x-Jet-Award RS Wetjen (NFL, program-record return TDs), and STC Woods (→MSU) — all gone (PS 2026: effectively zero returning ST starters).",
-        "The kicker is genuinely credentialed: Ozick (NDSU) 16-18 FG 2025, career 19-23 w/ 54 long, 2nd-tm AP FCS AA off the national-title team (SI 2026-06-10) — kicking translates with the mildest FCS discount; only competition is Buhr (1 career kickoff).",
-        "Punting is a full projection: Philpott (Simpson, DIVISION III: 43.9 avg, AP D3 AA — a two-level jump) vs Everitt (raw Melbourne signee; Iowa's Aussie-punter precedent is real but individual-unproven); battle open (OurLads vs Athlon disagree, 06-07/2026).",
-        "Return game regresses by construction — Wetjen was historic ('replacing [him] could require a group effort' — Athlon 2026); committee of Parker/Lutmer/Watson/Doll named (OurLads 06/15/2026).",
-        "Institutional prior (Iowa ST elite for decades, roster buy-in) is attributed (Pick Six: 'nation-best special teams' as identity) but the coordinator is a first-timer (Polizzi, 5th yr in program — SI 2026-06-10). 60 = modestly above average: credentialed K + culture, minus all-new specialists and coach."
-      ],
-      "key_players": [
-        {"name": "Eli Ozick", "role": "K (NDSU transfer)", "evidence": "16-18 FG 2025, career 19-23, 54 long; 2nd-tm AP FCS AA (SI 2026-06-10)"},
-        {"name": "Tanner Philpott", "role": "P battle (OurLads P1 06/15/2026)", "evidence": "43.9 avg, 16 inside-20 at Simpson (D3) 2025; AP D3 All-America"},
-        {"name": "Chris Polizzi", "role": "new STC", "evidence": "5th year in program, first coordinating; replaces Woods→MSU (SI 2026-06-10)"}
-      ],
-      "data_gaps": [
-        "Punter battle unresolved; neither candidate has an FBS snap",
-        "Return roles committee-listed only (OurLads 06/15/2026); no primary RS named",
-        "No coverage/block-unit personnel data in any accessible source (searches logged 2026-07-14)"
-      ],
-      "g5_guard_note": null
+     "name": "Hank Brown",
+     "role": "QB2, live battle (PS projects him QB1)",
+     "evidence": "career 27-43-403-6-3; 11-21-107-1-1 at Iowa 2025; struggled 'in September spots' 2025 (Pick Six); 3-of-10 spring game vs pressure (Gazette/DOG 2026-04)"
     }
-  ]
+   ],
+   "data_gaps": [
+    "No qualifying 2025 PFF volume for either candidate (both below 100-dropback floor)",
+    "Winner unnamed until ~late August (Ferentz 2026-04-26) \u2014 grade assumes Hecklinski-or-Brown equivalence",
+    "No Sideline/valuation-market entry surfaced for either QB (searches logged 2026-07-14)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Iowa",
+   "unit": "RB",
+   "grade": 70,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
+   "rationale_bullets": [
+    "Quant baseline is real and returns: Moulton PFF 82.3 on 171 att (2025, B10 offset \u22120.4 \u2248 81.9 adj), 5.2 ypc, 0 fumbles, All-B10 HM \u2014 as an individual that sits near the RB p75 reference (Auburn 83.4).",
+    "Credentialed depth added: L.J. Phillips Jr. (South Dakota, MVFC-FCS) FCS-leading 1,921 yds/19 TD 2025, 1st-team FCS AA, 55 carries of 10+; SI 2026-01-16 attributes PFF 92.8 (best FCS RB). FCS discount applied \u2014 projected as quality rotation, not co-star; Williams (5.8 ypc 2025) third.",
+    "Departures immaterial to the top of the depth chart: Patterson (77.4 on 60 att) and Washington (27 att) took 87 combined 2025 attempts to MSU/NMSU.",
+    "Context risk: 2025 as-played unit pctile was only 59 despite the Joe Moore line; 2026 breaks in three new OL starters \u2014 argues against grading the room past Moulton's individual level. Moulton's modest explosiveness (breakaway 25.5%, elusive 46.4, 2025) caps the ceiling."
+   ],
+   "key_players": [
+    {
+     "name": "Kamari Moulton",
+     "role": "workhorse RB1 (all sources)",
+     "evidence": "170-878-5, 5.2 ypc, PFF 82.3/171 att, All-B10 HM 2025; hands 90.6, 0 fumbles"
+    },
+    {
+     "name": "L.J. Phillips Jr.",
+     "role": "RB2 / change-of-pace (Athlon depth chart)",
+     "evidence": "1,921 yds, 19 TD 2025 at South Dakota (FCS 1st-tm AA); SI 2026-01-16: PFF 92.8, highest-graded FCS RB"
+    }
+   ],
+   "data_gaps": [
+    "Phillips FCS\u2192B10 translation unproven (no FBS snaps; no PFF row in FBS files)",
+    "Run-blocking quality of the rebuilt OL interior unknown until fall (RG battle open per OurLads 06/15/2026)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Iowa",
+   "unit": "WRTE",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "2025 production was bad \u2014 as-played 16th pctile adj; team RECV grade 66.5 was Iowa's worst side-category (PFF 2025) \u2014 but the bad volume left: Gill (59.7/205 rt), S. Phillips (61.9/187), Anderson (49.5/105) all gone.",
+    "Best returning pieces argue up: Vander Zee PFF 79.7 on 96 routes (2025, injury-shortened \u2014 hint, not evidence), TE Vonnahme led the TEAM 29-434-3 as a freshman (68.0/140 rt, 85.7% contested), and SI 2026-07-07 calls TE the roster's strongest room (Ostrenga/Ortwerth behind him).",
+    "Two credentialed FCS arrivals take real routes: Diaz (UTRGV: 875/11 TD, PS FCS Freshman of the Year) + James (Furman: 65-796-8, FCS Freshman AA) \u2014 combined 1,677/18 with a 'vertical, explosive element' (Pick Six 2026). FCS discount keeps them priors, not proof.",
+    "Spring: KJ Parker was the consensus breakout (contested catches \u2014 DOG + Gazette, 2026-04); but James/Buie/Diaz/Smith were held out (minor injuries, Gazette 2026-04-26), so the new room barely practiced together.",
+    "Returning-weighted quant baseline \u2248 61.2 adj \u2248 p25; named upgrades (VZ/Vonnahme trajectory, adds replacing sub-60 volume) justify 42, not 50 \u2014 QB uncertainty and zero proven WR1 keep it below average. SI 2026-07-07 lists WR among the question marks."
+   ],
+   "key_players": [
+    {
+     "name": "Reece Vander Zee",
+     "role": "projected #1 WR (Pick Six)",
+     "evidence": "PFF 79.7 on 96 routes 2025 (best returning offensive grade); size/athleticism cited (Pick Six 2026)"
+    },
+    {
+     "name": "DJ Vonnahme",
+     "role": "TE1, 'Tight End U' heir",
+     "evidence": "led team 29-434-3 as FR 2025; 68.0/140 routes; bowl breakout (Pick Six 2026)"
+    },
+    {
+     "name": "Tony Diaz",
+     "role": "starting slot/WR (Athlon depth chart)",
+     "evidence": "875 yds/11 TD at UTRGV 2025; PS FCS Freshman of the Year; spring teammate praise (KCRG 2026-04-09)"
+    }
+   ],
+   "data_gaps": [
+    "No returning WR met the 150-route volume floor in 2025 \u2014 every WR projection is sub-volume or FCS-translated",
+    "FCS arrivals have no PFF rows (premium files FBS-only); their route-level quality is inferred from box scores + honors",
+    "How targets distribute with an unsettled QB \u2014 unknowable until fall"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Iowa",
+   "unit": "OL",
+   "grade": 87,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Texas Tech OL 2025 (84)",
+    "Kentucky DL 2025 (91)"
+   ],
+   "rationale_bullets": [
+    "Two elite proven anchors return at volume: Lauck PFF 84.8 on 701 snaps and Pieper 83.5 on 757 (2025, B10) \u2014 both grade ABOVE the departed Rimington winner Logan Jones (79.0/766); Pick Six 2026: 'both should be All-America candidates.'",
+    "The loss is real: Jones/Dunker/Stephens = 2,177 snaps at 79.0\u201385.6 (2025), 110 career starts, three 1st-tm All-B10 (Athlon 2026) \u2014 3 of 5 spots are first-year starters, and Klatt (2026-05-11, unit-level) worries about exactly this in a run-first scheme.",
+    "But the replacements have positive indicators, not blanks: Leighton Jones 73.9/125 ('a lock at guard' \u2014 Pick Six), Dotzler 75.9/140 (veteran RT), and JMU transfer Wilson 69.4 on 394 true-freshman guard snaps (SBC, offset \u22480) vs Myslinski (60.0/57) in an open RG battle (OurLads vs Athlon disagree, 06-07/2026).",
+    "Pieper's G\u2192C switch drew specific positive spring reporting (KCRG 2026-04-09: 'a natural,' 'good communicator') and the program's OL development record + Joe Moore culture (2025 winners, 2024 semifinalists) is an attributed systemic prior, not prestige-anchoring.",
+    "Substance-check vs anchors: projected five has 4 players at 72+ raw (2025 basis) with an elite top-2 \u2014 richer than the TT OL 84 sketch (0 at 72+), close to the Kentucky DL 91 sketch (4 at 72+); new-starter/position-switch risk lands it 87, below 91."
+   ],
+   "key_players": [
+    {
+     "name": "Trevor Lauck",
+     "role": "LT, returning starter",
+     "evidence": "PFF 84.8 on 701 snaps 2025; AA candidate (Pick Six 2026)"
+    },
+    {
+     "name": "Kade Pieper",
+     "role": "C (moved from G)",
+     "evidence": "PFF 83.5 on 757 snaps 2025, 3rd-tm All-B10; spring move praised by teammates (KCRG 2026-04-09)"
+    },
+    {
+     "name": "Trent Wilson",
+     "role": "RG battle (OurLads starter 06/15/2026)",
+     "evidence": "69.4 on 394 guard snaps at JMU 2025 as true FR, 1 start, CFP appearance; SI portal-rank #3 (2026-01-16)"
+    }
+   ],
+   "data_gaps": [
+    "RG unresolved (OurLads=Wilson vs Athlon=Myslinski) as of 07/2026",
+    "Pieper has zero career game snaps at center \u2014 spring praise is practice-only evidence",
+    "Interior depth beyond the six named is 3-star developmental (Pick Six 2026)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Iowa",
+   "unit": "DL",
+   "grade": 48,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Steepest personnel cliff on the roster: 6 of the top 8 depart (Graves 71.9/598, Hurkett 72.7/546, Llewellyn 72.3/544, Pace 64.6/426, Allen 73.5/282\u2192Vanderbilt, Pittman) \u2014 ~87% of 2025 snaps from an 85th-pctile-adj unit (P6/PS agree on the 6-of-8 framing).",
+    "What returns is rotation-grade: Hawthorne 61.8/295 (spring MCL sprain, DOG 2026-04-27) and Merrieweather 60.9/221 (2025, B10 +10.3 offset \u2192 ~72 adj each at rotational usage); Epenesa is pedigree-only (former 5-star, 75.9 on 33 snaps 2025; 'poised for a breakthrough' \u2014 Pick Six 2026).",
+    "Arrivals are FCS/MAC with real-but-discounted credentials: K. Brown (Elon, 12 sacks, 2nd-tm FCS AA \u2014 first 12-sack Elon season), Stevenson (Holy Cross 3-yr starter 'space-eater' \u2014 projected DT starter per Athlon), Ingold (NIU) graded 46.4 on 234 MAC snaps (weak).",
+    "Spring disconfirmation was blunt: interior 'problematic,' unit 'did not look overly impressive' (DOG 2026-04-27) \u2014 the negative spring read matches the quant gap.",
+    "Mitigants keep it near-average rather than bad: Parker's scheme 'minimizes complex demands on linemen' (SI 2026-07-07), his defense is top-10 opp-adjusted in 6 of 8 years (Pick Six), and the B10 DL context (+10.3 fitted offset, 2021-25) flatters returning grades. 48 = just below FBS average with wide honest error."
+   ],
+   "key_players": [
+    {
+     "name": "Iose Epenesa",
+     "role": "DE1 ('set' per spring reports)",
+     "evidence": "former 5-star; PFF 75.9 on 33 snaps 2025; breakout framing (Pick Six 2026; DOG 2026-04-27)"
+    },
+    {
+     "name": "Bryce Hawthorne",
+     "role": "DT1 returner",
+     "evidence": "61.8 on 295 snaps 2025; 15 tkl/3 TFL; MCL sprain in spring (DOG 2026-04-27)"
+    },
+    {
+     "name": "Kahmari Brown",
+     "role": "edge rotation/starter candidate",
+     "evidence": "12 sacks, 66 tkl at Elon 2025 (FCS 2nd-tm AA; Hawk Fanatic 2026-01-28)"
+    },
+    {
+     "name": "Brice Stevenson",
+     "role": "projected DT starter (Athlon depth chart)",
+     "evidence": "3-yr Holy Cross starter; 37 tkl/3.5 TFL 2025 (Hawk Fanatic 2026-01-28)"
+    }
+   ],
+   "data_gaps": [
+    "FCS starters (Stevenson, K. Brown) have no PFF rows \u2014 B10 translation is pure prior",
+    "Epenesa projection rests on 33 snaps + pedigree",
+    "Hawthorne MCL recovery status not updated since 2026-04-27 (searches logged)",
+    "Olagbaju origin conflict (CFBD: North Dakota vs Hawk Fanatic: St. Thomas) \u2014 depth only"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Iowa",
+   "unit": "LB",
+   "grade": 58,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "LB caution rule applies in full: the +16.1 B10 LB offset is the largest and least-trusted in the fitted table, and LB is the noisiest PFF unit signal \u2014 the 89th-pctile 2025 as-played number and the shadow proxy's 90 are both treated skeptically.",
+    "The entire 2025 starting trio departs (Sharar 76.1/753 \u2014 6th-rd pick, Harrell 60.5/307, Rexroth 66.3/242); the one proven returner is Montgomery: 69.8 on 423 snaps, took over Harrell's job late 2025, 44 tkl/7 starts (SI 2026-04-29) \u2014 a solid-not-star B10 starter.",
+    "The second and third spots are projection: Buffington (85.1 on 28 snaps 2025 \u2014 a hint, not evidence) and Weisskopf, both former 4-stars 'drawing huge praise and could jump up into starting jobs' (Pick Six 2026); WLB battle unresolved (Athlon=Buffington vs OurLads=Van Kekerix, a 2022 HS signee).",
+    "Program prior is attributed but generic ('consistently reliable' \u2014 SI 2026-07-07). One mid-tier proven starter + credible pedigree behind him lands slightly above FBS average: 58."
+   ],
+   "key_players": [
+    {
+     "name": "Jayden Montgomery",
+     "role": "MLB, returning starter",
+     "evidence": "PFF 69.8 on 423 snaps 2025; 44 tkl, 7 starts; took Harrell's job late season (Pick Six 2026)"
+    },
+    {
+     "name": "Cam Buffington",
+     "role": "WLB favorite (Athlon depth chart)",
+     "evidence": "ex-4-star; 85.1 on 28 snaps 2025 (tiny sample); 'huge praise' (Pick Six 2026)"
+    }
+   ],
+   "data_gaps": [
+    "WLB starter unresolved (Athlon vs OurLads conflict, 06-07/2026)",
+    "Buffington/Weisskopf have 28/0 meaningful 2025 snaps \u2014 placement rests on pedigree + camp reports",
+    "Montgomery run-def vs coverage sub-grade split not decisive at his volume"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Iowa",
+   "unit": "DB",
+   "grade": 80,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Houston WRTE 2025 (78)",
+    "Kentucky DL 2025 (91)"
+   ],
+   "rationale_bullets": [
+    "Two high-volume proven starters return from the #1 opponent-adjusted pass defense (Pick Six 2026): Lutmer 83.5 on 725 snaps (2nd-tm All-B10: 71 tkl, 3 INT, 10 PBU, TD \u2014 'star of the defense' at CASH) and Lee 75.2 on 572 (2025, B10 +6.3 offset).",
+    "The best-credentialed portal add starts at SS: T. Brown 72.9 on 735 snaps at JMU 2025 (SBC \u22124 discount \u2192 ~69 adj), HM All-Sun Belt on a playoff defense, held LSU/FSU/UCLA/Wisconsin offers (SI 2026-01-16 ranked him the #1 Iowa add); beat note 2026-05-26: he and Hawkins 'progressing.'",
+    "The losses are elite but the core survives them: Nwankpa (70.9/741, KC), Hall (78.3/602), Entringer (65.7/697\u2192Louisville) = 3 All-B10 gone, yet the projected top-3 (Lutmer/Lee/Brown) all graded 72.9+ raw at 570+ snaps in 2025.",
+    "Risk is concentrated at CB2 and FS: Watson graded 58.6/224 (allowed 12/149 \u2014 SI 2026-04-29) vs Godfrey 69.7/89 unresolved; FS Hawkins is an FCS Freshman AA (Villanova: 59 tkl/2 INT/9 PBU 2025) \u2014 promising prior, no FBS snaps. SI 2026-07-07: 'lacks depth opposite Lee.'",
+    "Parker's DB development record (top-10 opp-adj defense 6 of 8 years \u2014 Pick Six) is the attributed mitigant; 80 = top-25-unit territory, below the 94th-pctile 2025 as-played level, above the Houston WRTE 78 anchor on core quality."
+   ],
+   "key_players": [
+    {
+     "name": "Zach Lutmer",
+     "role": "CASH, returning star",
+     "evidence": "PFF 83.5 on 725 snaps 2025; 2nd-tm All-B10; 3 INT/10 PBU; 'next great Iowa DB' (Athlon 2026)"
+    },
+    {
+     "name": "Deshaun Lee",
+     "role": "CB1, returning starter",
+     "evidence": "PFF 75.2 on 572 snaps 2025"
+    },
+    {
+     "name": "Tyler Brown",
+     "role": "SS (JMU transfer)",
+     "evidence": "72.9 on 735 snaps, 80 tkl 2025 at JMU; SI 2026-01-16 #1 portal add w/ P4 offer sheet"
+    },
+    {
+     "name": "Anthony Hawkins",
+     "role": "FS (Villanova transfer)",
+     "evidence": "FCS Freshman AA 2025: 59 tkl, 2 INT, 9 PBU; 'cover skills to start at free safety' (Pick Six 2026)"
+    }
+   ],
+   "data_gaps": [
+    "CB2 unresolved (OurLads=Watson vs Athlon=Godfrey, 06-07/2026); Watson's 2025 coverage numbers were poor",
+    "Hawkins/Styles FCS\u2192B10 translation unproven (no PFF rows)",
+    "hawkcentral 2026-05-26 secondary-progress detail unreadable (robots) \u2014 headline direction only"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Iowa",
+   "unit": "ST",
+   "grade": 60,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Washington State DB 2025 (72)"
+   ],
+   "rationale_bullets": [
+    "The rule's cleanest 'past grade \u2260 future personnel' case: 2025 team SPEC 88.0 (PFF) was earned by K Stevens (NFL), P Dakin (\u2192MSU), 2x-Jet-Award RS Wetjen (NFL, program-record return TDs), and STC Woods (\u2192MSU) \u2014 all gone (PS 2026: effectively zero returning ST starters).",
+    "The kicker is genuinely credentialed: Ozick (NDSU) 16-18 FG 2025, career 19-23 w/ 54 long, 2nd-tm AP FCS AA off the national-title team (SI 2026-06-10) \u2014 kicking translates with the mildest FCS discount; only competition is Buhr (1 career kickoff).",
+    "Punting is a full projection: Philpott (Simpson, DIVISION III: 43.9 avg, AP D3 AA \u2014 a two-level jump) vs Everitt (raw Melbourne signee; Iowa's Aussie-punter precedent is real but individual-unproven); battle open (OurLads vs Athlon disagree, 06-07/2026).",
+    "Return game regresses by construction \u2014 Wetjen was historic ('replacing [him] could require a group effort' \u2014 Athlon 2026); committee of Parker/Lutmer/Watson/Doll named (OurLads 06/15/2026).",
+    "Institutional prior (Iowa ST elite for decades, roster buy-in) is attributed (Pick Six: 'nation-best special teams' as identity) but the coordinator is a first-timer (Polizzi, 5th yr in program \u2014 SI 2026-06-10). 60 = modestly above average: credentialed K + culture, minus all-new specialists and coach."
+   ],
+   "key_players": [
+    {
+     "name": "Eli Ozick",
+     "role": "K (NDSU transfer)",
+     "evidence": "16-18 FG 2025, career 19-23, 54 long; 2nd-tm AP FCS AA (SI 2026-06-10)"
+    },
+    {
+     "name": "Tanner Philpott",
+     "role": "P battle (OurLads P1 06/15/2026)",
+     "evidence": "43.9 avg, 16 inside-20 at Simpson (D3) 2025; AP D3 All-America"
+    },
+    {
+     "name": "Chris Polizzi",
+     "role": "new STC",
+     "evidence": "5th year in program, first coordinating; replaces Woods\u2192MSU (SI 2026-06-10)"
+    }
+   ],
+   "data_gaps": [
+    "Punter battle unresolved; neither candidate has an FBS snap",
+    "Return roles committee-listed only (OurLads 06/15/2026); no primary RS named",
+    "No coverage/block-unit personnel data in any accessible source (searches logged 2026-07-14)"
+   ],
+   "g5_guard_note": null
+  }
+ ]
 }
