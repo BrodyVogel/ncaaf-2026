@@ -45,6 +45,10 @@ def main():
     c2p = {r["cfbd_school"]: r["pff_2025"] for r in csv.DictReader(open("data/anchors/team_name_map.csv"))}
 
     root = os.path.join(args.out, team.replace(" ", "_"))
+    if os.path.exists(os.path.join(root, "META.json")) and os.environ.get("REBUILD") != "1":
+        # fail loud (2026-07-14): re-assembly overwrites research skeletons and resets META.
+        # A frozen/in-progress snapshot must never be clobbered by a casual re-run.
+        sys.exit(f"REFUSING to rebuild existing snapshot {root} (set REBUILD=1 to override)")
     for sub in ("pulls", "pff"):
         os.makedirs(os.path.join(root, sub), exist_ok=True)
 
@@ -80,7 +84,10 @@ def main():
             mapped = lookup(r["team_name"])
             if mapped == team:
                 rows_out.append({**r, "_provenance": "2025_this_team"})
-            elif r["player"].lower() in arrivals:
+            elif (arrivals.get(r["player"].lower())
+                  and lookup(r["team_name"]) == arrivals[r["player"].lower()]):
+                # name AND origin-school must both match (fix 2026-07-14: name-only matching
+                # pulled same-named strangers, e.g. Clemson WR "Tyler Brown" into Iowa's pack)
                 rows_out.append({**r, "_provenance": f"arrival_2025_at_{r['team_name']}"})
         if rows_out:
             with open(f"{root}/pff/unit_{unit}.csv", "w", newline="") as f:

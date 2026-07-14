@@ -19,6 +19,7 @@ TOKENS = [
     # team-level overall judgments (forbidden; unit-level ranks are legal)
     r"power\s+rating", r"power\s+ranking", r"overall\s+rank", r"predicted\s+order",
     r"picked\s+to\s+finish", r"projected\s+record", r"top.?25\s+(team|overall)",
+    r"national\s+forecast", r"(conference|big\s*ten|sec|acc|big\s*12)\s+prediction",
     r"preseason\s+(no\.|rank(?!ing[s]?\s+(the|their|its)))",
 ]
 SCAN_EXT = (".md", ".csv", ".json", ".txt")

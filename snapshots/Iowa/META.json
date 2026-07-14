@@ -1,0 +1,16 @@
+{
+ "team": "Iowa",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-14T22:04:49+00:00",
+ "assembler_git_rev": "c8c5fe9",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (re-pull in August)",
+  "FCS arrivals have no PFF rows (premium files FBS-only) - evidence via news/magazines with competition discounts",
+  "Open battles unresolved until August: QB1, RG, WLB, CB2, P (flagged in roster_two_deep.csv)"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-14",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1 (all 8 steps; loop-until-dry logged in research_log.md)"
+}
