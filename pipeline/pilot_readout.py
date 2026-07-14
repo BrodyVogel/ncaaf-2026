@@ -24,6 +24,8 @@ def main(anchor_path, team, snapdir, outdir):
     run = json.load(open(anchor_path)); A = run["teams"]
     proxy = json.load(open("data/backtest/shadow_proxy_2026.json"))["grades"]
     gj = json.load(open(os.path.join(snapdir, team.replace(" ", "_"), "grades.json")))
+    meta = json.load(open(os.path.join(snapdir, team.replace(" ", "_"), "META.json")))
+    coach_mult = 1.13 if meta.get("coach_change") else 1.0
     real = {u: gj["units"][u]["grade"] for u in gj["units"]}
     low_conf = sum(1 for u in gj["units"] if gj["units"][u]["confidence"] == "L")
 
@@ -62,7 +64,7 @@ def main(anchor_path, team, snapdir, outdir):
     final = final_raw - mean_shift
     rank = 1 + sum(1 for t, v in finals.items() if v - mean_shift > final)
 
-    band = SIGMA * (1.10 if A[team]["dispersion_flag"] else 1.0) * (1 + 0.03 * min(low_conf, 5))
+    band = SIGMA * coach_mult * (1.10 if A[team]["dispersion_flag"] else 1.0) * (1 + 0.03 * min(low_conf, 5))
 
     os.makedirs(outdir, exist_ok=True)
     src = A[team]["sources"]
@@ -89,7 +91,7 @@ def main(anchor_path, team, snapdir, outdir):
               "", "## 4. Assembly",
               f"- anchor {A[team]['blend']:+.2f}  class {cls:+.2f}  k×resid {adj:+.2f} (k={K}, cap ±{CAP})  "
               f"ST {st:+.2f}  → recentered ({mean_shift:+.2f}) → **{final:+.2f}**",
-              f"- band: {SIGMA} × dispersion({'1.10' if A[team]['dispersion_flag'] else '1.00'}) × "
+              f"- band: {SIGMA} × coach({coach_mult}) × dispersion({'1.10' if A[team]['dispersion_flag'] else '1.00'}) × "
               f"conf(1+0.03×{low_conf}) = ±{band:.2f}",
               "", "## 5. Pilot caveats",
               "- Conversion weights are proxy-fitted (real-grade refit happens at full 138).",

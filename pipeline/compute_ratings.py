@@ -27,7 +27,7 @@ def main(anchor_path, grades_src, outdir, proxy_mode=False):
     A = run["teams"]
     proxy = json.load(open("data/backtest/shadow_proxy_2026.json"))["grades"]
 
-    grades, conf_flags = {}, {}
+    grades, conf_flags, coach_flags = {}, {}, {}
     if proxy_mode:
         for t, g in json.load(open(grades_src))["grades"].items():
             grades[t] = {u: (g[u] if g[u] is not None else 50) for u in g}
@@ -40,6 +40,9 @@ def main(anchor_path, grades_src, outdir, proxy_mode=False):
                 t = gj["team"]
                 grades[t] = {u: gj["units"][u]["grade"] for u in gj["units"]}
                 conf_flags[t] = sum(1 for u in gj["units"] if gj["units"][u]["confidence"] == "L")
+                mp = os.path.join(grades_src, d, "META.json")
+                if os.path.exists(mp):
+                    coach_flags[t] = bool(json.load(open(mp)).get("coach_change"))
 
     teams = [t for t in grades if t in A]
     partial = len(teams) < len(A)
@@ -58,7 +61,8 @@ def main(anchor_path, grades_src, outdir, proxy_mode=False):
         cls = -run["_meta"]["class_per_side"] if A[t]["p4"] else run["_meta"]["class_per_side"]
         st = ((grades[t].get("ST") or 50) - 50) / 50 * 1.0
         final = A[t]["blend"] + cls + adj + st
-        band = SIGMA * (1.10 if A[t]["dispersion_flag"] else 1.0) * (1 + 0.03 * min(conf_flags.get(t, 0), 5))
+        band = SIGMA * (1.13 if coach_flags.get(t) else 1.0) * (1.10 if A[t]["dispersion_flag"] else 1.0) \
+               * (1 + 0.03 * min(conf_flags.get(t, 0), 5))  # coach_change x1.13 per PARAMETERS (wired 2026-07-14)
         rows.append(dict(team=t, final=final, anchor=A[t]["blend"], class_term=round(cls, 2),
                          resid=round(resid, 2), adj=round(adj, 2), st=round(st, 2),
                          band=round(band, 2), dispersion_flag=A[t]["dispersion_flag"],
