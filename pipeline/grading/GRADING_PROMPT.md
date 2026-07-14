@@ -64,13 +64,18 @@ expected starters — not last year's unit.
    group), largest competition offsets, smallest learned conversion weight. For LB,
    lean on run-defense/coverage SUB-grades and scouting consensus over overall grades,
    and expect wider honest uncertainty.
-9. **Discount for competition** (v1.2): raw PFF grades are NOT opponent-adjusted. When
-   weighing any player's raw PFF evidence, apply the conference discount table (end of
-   exemplars.md) by the conference where the grade was EARNED — a MAC OL grade carries
-   ~a 15-point discount vs the same number earned in the SEC; a MAC transfer's grade
-   stays discounted after he moves up. Elite G5 seasons survive the discount; ordinary
-   ones don't. The exemplar percentiles already have this baked in — never double-apply
-   it to the exemplar reference values themselves.
+9. **Discount for competition — ALL raw performance data** (v1.2.2): no raw stat is
+   opponent-adjusted unless its source says so. PFF grades: apply the conference
+   discount table (end of exemplars.md) by the conference where the grade was EARNED —
+   a MAC OL grade carries ~a 15-point discount vs the same number in the SEC, and a
+   transfer's grade stays discounted after he moves up. Box-score/CFBD stats (YPA,
+   yards, TDs), magazine stat lines, Pick Six stat profiles: same directional logic —
+   no fitted table exists, so weigh them with their schedule context, and any
+   load-bearing raw stat in a dossier must carry that context ("8.9 YPA, MAC
+   schedule"; "6 of 9 TDs vs bottom-50 defenses"). Already-adjusted numbers need no
+   discount: the anchor models, and returning-production shares (self-referential).
+   The exemplar percentiles have the adjustment baked in — never double-apply it to
+   the exemplar reference values themselves.
 
 ## Scale discipline
 

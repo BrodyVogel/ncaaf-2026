@@ -44,9 +44,12 @@ grades row, skeletons. This is the FLOOR of the snapshot, never the snapshot.
   don't silently pick a winner.
 
 ## 2. Stats (CFBD + staged PFF only)
-Machine-read beats web search. Every number carries a season year. Do not re-scrape PFF
-(brief §12) — the staged pack has it. CFBD 2026 returning production absent until
-August: derive "who returns" bottom-up from the two-deep + player-level PFF instead.
+Machine-read beats web search. Every number carries a season year — **and every
+load-bearing raw stat carries its competition context** (conference/schedule note;
+"vs FBS only" where relevant). Raw production is not opponent-adjusted anywhere unless
+the source says so (prompt rule 9). Do not re-scrape PFF (brief §12) — the staged pack
+has it. CFBD 2026 returning production absent until August: derive "who returns"
+bottom-up from the two-deep + player-level PFF instead.
 
 ## 3. Magazine + preview sweep (SECONDARY: identification, history, unit/player opinion)
 **P4 + Notre Dame: Phil Steele + Athlon + Pick Six team pages. G5: Phil Steele + Athlon.**
