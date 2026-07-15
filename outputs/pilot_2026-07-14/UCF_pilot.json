@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-15T18:54:18+00:00",
+ "team": "UCF",
+ "final": 2.05,
+ "rank": 58,
+ "band": 6.0,
+ "resid": -2.2,
+ "adj": -0.77,
+ "class_term": -0.0,
+ "st": -0.1,
+ "anchor_blend": 2.42,
+ "resid_level": -1.36,
+ "resid_shape": -0.84,
+ "implied_off": 24.9,
+ "implied_def": 24.58,
+ "anchor_off": 24.56,
+ "anchor_def": 22.04,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.614
+ },
+ "low_conf_units": 0,
+ "code_rev": "4a4b7cd",
+ "mode": "PILOT-OOS"
+}
