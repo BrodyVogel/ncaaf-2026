@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-15T17:47:50+00:00",
+ "team": "Kansas",
+ "final": 2.64,
+ "rank": 56,
+ "band": 6.0,
+ "resid": -4.82,
+ "adj": -1.69,
+ "class_term": -0.0,
+ "st": -0.2,
+ "anchor_blend": 4.02,
+ "resid_level": -1.85,
+ "resid_shape": -2.97,
+ "implied_off": 24.56,
+ "implied_def": 25.96,
+ "anchor_off": 29.16,
+ "anchor_def": 25.74,
+ "fit_r2": {
+  "off": 0.547,
+  "dfn": 0.615
+ },
+ "low_conf_units": 0,
+ "code_rev": "0eb4874",
+ "mode": "PILOT-OOS"
+}
