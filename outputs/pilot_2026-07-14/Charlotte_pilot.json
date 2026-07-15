@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-07-15T00:18:47+00:00",
+ "run_utc": "2026-07-15T16:48:29+00:00",
  "team": "Charlotte",
  "final": -17.49,
  "rank": 135,
@@ -9,6 +9,8 @@
  "class_term": 1.68,
  "st": -0.56,
  "anchor_blend": -23.0,
+ "resid_level": 12.17,
+ "resid_shape": -0.87,
  "implied_off": 21.09,
  "implied_def": 32.28,
  "anchor_off": 15.1,
@@ -18,6 +20,6 @@
   "dfn": 0.609
  },
  "low_conf_units": 6,
- "code_rev": "2cca7ae",
+ "code_rev": "a364d6e",
  "mode": "PILOT-OOS"
 }

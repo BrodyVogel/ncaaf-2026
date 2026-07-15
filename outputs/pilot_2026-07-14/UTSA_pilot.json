@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-07-15T16:25:18+00:00",
+ "run_utc": "2026-07-15T16:48:31+00:00",
  "team": "UTSA",
  "final": -1.25,
  "rank": 73,
@@ -9,6 +9,8 @@
  "class_term": 1.68,
  "st": 0.04,
  "anchor_blend": -2.04,
+ "resid_level": 1.21,
+ "resid_shape": -5.2,
  "implied_off": 25.4,
  "implied_def": 31.63,
  "anchor_off": 29.23,
@@ -18,6 +20,6 @@
   "dfn": 0.615
  },
  "low_conf_units": 4,
- "code_rev": "50523c9",
+ "code_rev": "a364d6e",
  "mode": "PILOT-OOS"
 }

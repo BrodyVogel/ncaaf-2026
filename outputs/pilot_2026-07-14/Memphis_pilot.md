@@ -18,6 +18,7 @@ FINAL: **+1.71** (rank 54/138 in hybrid field)  band ±7.59
 - grade-implied off +23.38 vs anchor off +28.49
 - grade-implied def +23.89 vs anchor def +29.81
 - residual (off-minus-def, grades-vs-anchor): **+0.81**
+- resid decomposition (diagnostic): level +0.71 (=-0.541x anchor margin - the calibrated fade) + shape +0.09 (roster signal)
 
 ## 3. Anchor (per source: raw → normalized → used)
 - SP+      -1.1 → -1.1 → -1.1

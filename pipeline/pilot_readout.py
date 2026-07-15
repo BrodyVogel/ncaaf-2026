@@ -15,6 +15,10 @@ import numpy as np
 
 OFF_UNITS, DEF_UNITS = ["QB", "RB", "WRTE", "OL"], ["DL", "LB", "DB"]
 K, CAP, SIGMA = 0.35, 6.0, 6.0
+# Diagnostic-only (2026-07-15 compression review): resid = LEVEL component (grade
+# compression harvesting anchor mean-reversion; ~81% of resid variance) + SHAPE
+# component (roster signal). Slope fit on n=20 real-graded teams; refit at full-138.
+LEVEL_SLOPE = -0.541
 
 def ols(X, y):
     b, *_ = np.linalg.lstsq(X, y, rcond=None)
@@ -82,6 +86,9 @@ def main(anchor_path, team, snapdir, outdir):
               if False else
               f"- grade-implied def {implied_def:+.2f} vs anchor def {A[team]['dfn']:+.2f}",
               f"- residual (off-minus-def, grades-vs-anchor): **{resid:+.2f}**",
+              f"- resid decomposition (diagnostic): level {LEVEL_SLOPE * (A[team]['off'] - A[team]['dfn']):+.2f} "
+              f"(={LEVEL_SLOPE}x anchor margin - the calibrated fade) + shape "
+              f"{resid - LEVEL_SLOPE * (A[team]['off'] - A[team]['dfn']):+.2f} (roster signal)",
               "", "## 3. Anchor (per source: raw → normalized → used)"]
     for s, v in src.items():
         lines.append(f"- {s:8s} {v['raw']} → {v['normalized']} → {v['used']}"
@@ -104,7 +111,10 @@ def main(anchor_path, team, snapdir, outdir):
     json.dump(dict(run_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
                    team=team, final=round(final, 2), rank=rank, band=round(band, 2),
                    resid=round(resid, 2), adj=round(adj, 2), class_term=round(cls, 2),
-                   st=round(st, 2), anchor_blend=A[team]["blend"], implied_off=round(implied_off, 2),
+                   st=round(st, 2), anchor_blend=A[team]["blend"],
+                   resid_level=round(LEVEL_SLOPE * (A[team]["off"] - A[team]["dfn"]), 2),
+                   resid_shape=round(resid - LEVEL_SLOPE * (A[team]["off"] - A[team]["dfn"]), 2),
+                   implied_off=round(implied_off, 2),
                    implied_def=round(implied_def, 2), anchor_off=A[team]["off"], anchor_def=A[team]["dfn"],
                    fit_r2=dict(off=round(r2o, 3), dfn=round(r2d, 3)), low_conf_units=low_conf,
                    code_rev=git_rev, mode="PILOT-OOS"),

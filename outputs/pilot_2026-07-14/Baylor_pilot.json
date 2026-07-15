@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-07-15T16:39:54+00:00",
+ "run_utc": "2026-07-15T16:48:29+00:00",
  "team": "Baylor",
  "final": 1.59,
  "rank": 55,
@@ -9,6 +9,8 @@
  "class_term": -1.68,
  "st": 0.04,
  "anchor_blend": 4.7,
+ "resid_level": -2.22,
+ "resid_shape": -3.38,
  "implied_off": 24.52,
  "implied_def": 26.02,
  "anchor_off": 32.3,
@@ -18,6 +20,6 @@
   "dfn": 0.615
  },
  "low_conf_units": 1,
- "code_rev": "b9a9d84",
+ "code_rev": "a364d6e",
  "mode": "PILOT-OOS"
 }

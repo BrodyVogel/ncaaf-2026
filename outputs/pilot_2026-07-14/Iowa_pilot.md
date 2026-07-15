@@ -18,6 +18,7 @@ FINAL: **+10.72** (rank 21/138 in hybrid field)  band ±6.72
 - grade-implied off +29.39 vs anchor off +30.42
 - grade-implied def +22.20 vs anchor def +17.18
 - residual (off-minus-def, grades-vs-anchor): **-6.05**
+- resid decomposition (diagnostic): level -7.16 (=-0.541x anchor margin - the calibrated fade) + shape +1.11 (roster signal)
 
 ## 3. Anchor (per source: raw → normalized → used)
 - SP+      13.6 → 13.6 → 13.6
@@ -30,7 +31,7 @@ FINAL: **+10.72** (rank 21/138 in hybrid field)  band ±6.72
 
 ## 4. Assembly
 - anchor +13.83  class -1.68  k×resid -2.12 (k=0.35, cap ±6.0)  ST +0.20  → recentered (-0.49) → **+10.72**
-- band: 6.0 × dispersion(1.00) × conf(1+0.03×4) = ±6.72
+- band: 6.0 × coach(1.0) × dispersion(1.00) × conf(1+0.03×4) = ±6.72
 
 ## 5. Pilot caveats
 - Conversion weights are proxy-fitted (real-grade refit happens at full 138).
