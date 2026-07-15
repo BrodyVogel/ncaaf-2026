@@ -1,0 +1,36 @@
+{
+ "id": 151,
+ "school": "East Carolina",
+ "mascot": "Pirates",
+ "abbreviation": "ECU",
+ "alternateNames": [
+  "ECU",
+  "East Carolina"
+ ],
+ "conference": "American Athletic",
+ "division": null,
+ "classification": "fbs",
+ "color": "#4b1869",
+ "alternateColor": "#f0907b",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/151.png"
+ ],
+ "twitter": "@ECUPiratesFB",
+ "location": {
+  "id": 3699,
+  "name": "Dowdy-Ficklen Stadium",
+  "city": "Greenville",
+  "state": "NC",
+  "zip": "27858",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 35.5968486,
+  "longitude": -77.364564,
+  "elevation": "19.0564537",
+  "capacity": 50000,
+  "constructionYear": 1963,
+  "grass": true,
+  "dome": false
+ }
+}
