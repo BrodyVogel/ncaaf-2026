@@ -1,0 +1,36 @@
+{
+ "id": 197,
+ "school": "Oklahoma State",
+ "mascot": "Cowboys",
+ "abbreviation": "OKST",
+ "alternateNames": [
+  "OKST",
+  "Oklahoma St"
+ ],
+ "conference": "Big 12",
+ "division": null,
+ "classification": "fbs",
+ "color": "#FF7300",
+ "alternateColor": "#000000",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/197.png"
+ ],
+ "twitter": "@CowboyFB",
+ "location": {
+  "id": 3646,
+  "name": "Boone Pickens Stadium",
+  "city": "Stillwater",
+  "state": "OK",
+  "zip": "74078",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 36.125673,
+  "longitude": -97.066513,
+  "elevation": "276.4808655",
+  "capacity": 55509,
+  "constructionYear": 1919,
+  "grass": false,
+  "dome": false
+ }
+}

@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Mike",
+  "lastName": "Gundy",
+  "hireDate": "2005-01-03T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Oklahoma State",
+    "year": 2024,
+    "games": 12,
+    "wins": 3,
+    "losses": 9,
+    "ties": 0,
+    "preseasonRank": 17,
+    "postseasonRank": null,
+    "srs": -1.8,
+    "spOverall": -2.6,
+    "spOffense": 29.4,
+    "spDefense": 31.7
+   }
+  ]
+ },
+ {
+  "firstName": "Mike",
+  "lastName": "Gundy",
+  "hireDate": "2005-01-03T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Oklahoma State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -11.3,
+    "spOverall": -15.1,
+    "spOffense": 15.2,
+    "spDefense": 31.6
+   }
+  ]
+ }
+]

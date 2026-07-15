@@ -1,0 +1,20 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Braydon Nelson,190617,T,N TEXAS,14,100.0,0,251,71.6,69.0,71.3,4,16,505,100.0,100.0,97.0,8,25,5,961,0,0,736,961,537,537,49,173,424,3,arrival_2025_at_N TEXAS
+Johnny Dickson III,157660,G,N TEXAS,13,100.0,0,251,71.9,73.3,72.6,2,9,430,100.0,100.0,98.3,4,13,2,818,0,0,0,818,456,456,818,0,362,0,arrival_2025_at_N TEXAS
+Bob Schick,144103,G,OKLA STATE,12,100.0,0,262,56.8,73.8,52.7,1,16,417,100.0,100.0,97.7,6,18,1,774,0,774,0,774,437,437,0,0,337,0,2025_this_team
+Nuku Mafi,188730,T,OKLA STATE,12,100.0,0,262,48.2,56.7,43.0,3,15,399,100.0,100.0,97.0,1,21,3,755,0,0,694,755,417,417,0,53,338,7,2025_this_team
+Grant Seagren,170240,T,OKLA STATE,11,100.0,0,262,63.7,69.8,56.6,3,9,387,100.0,100.0,98.4,1,12,0,713,0,0,11,713,404,404,0,701,309,0,2025_this_team
+Austin Kawecki,157799,C,OKLA STATE,11,100.0,1,262,62.4,76.8,57.8,0,10,376,100.0,100.0,98.1,3,12,2,710,658,0,0,710,394,394,52,0,316,0,2025_this_team
+Joseph Hanson,175807,T,COAST CAR,10,100.0,0,141,71.9,71.5,68.9,1,13,281,100.0,100.0,96.8,3,16,2,572,0,0,0,572,301,301,0,572,271,0,arrival_2025_at_COAST CAR
+Noah McKinney,158136,G,OKLA STATE,7,100.0,0,262,66.5,84.0,59.9,0,2,217,100.0,100.0,98.6,2,4,2,390,0,0,0,390,228,228,367,23,162,0,2025_this_team
+Jakobe Sanders,174307,G,OKLA STATE,9,100.0,0,262,60.0,66.3,58.0,1,4,194,100.0,100.0,98.7,2,5,0,374,0,0,0,374,201,201,374,0,173,0,2025_this_team
+Desmond Magiya,173208,T,N TEXAS,11,100.0,0,251,65.9,55.4,68.6,1,6,182,100.0,100.0,98.1,2,7,0,368,0,116,251,368,196,196,0,0,172,1,arrival_2025_at_N TEXAS
+Ashton Lepo,158388,T,MICH STATE,4,100.0,0,223,55.2,50.0,59.3,1,4,104,100.0,100.0,96.6,1,6,1,189,0,0,0,189,110,110,0,189,79,0,arrival_2025_at_MICH STATE
+Kasen Carpenter,173292,C,OKLA STATE,7,100.0,0,262,59.6,66.8,56.6,1,1,71,100.0,100.0,98.6,0,2,0,140,135,3,0,140,76,76,0,0,64,2,2025_this_team
+Markell Samuel,122253,T,OKLA STATE,1,100.0,0,262,55.9,86.3,44.7,0,1,35,100.0,100.0,98.6,0,1,0,76,0,0,74,76,38,38,0,0,38,2,2025_this_team
+Tyler Mercer,183479,C,KANSAS,3,100.0,0,198,66.5,78.0,63.3,0,0,11,100.0,100.0,100.0,0,0,0,44,44,0,0,44,11,11,0,0,33,0,arrival_2025_at_KANSAS
+Gage Stanaland,174310,G,OKLA STATE,7,100.0,0,262,40.9,78.0,39.8,0,0,8,100.0,100.0,100.0,0,0,0,40,0,16,0,40,8,8,0,0,32,24,2025_this_team
+Davis Dotson,157806,T,OKLA STATE,2,100.0,0,262,58.6,64.5,55.5,0,0,10,100.0,100.0,100.0,0,0,0,15,0,0,0,15,11,11,0,15,4,0,2025_this_team
+Jacob Sexton,158081,T,OKLAHOMA,1,100.0,0,261,60.6,79.0,57.2,0,0,4,100.0,100.0,100.0,0,0,0,6,0,0,6,6,4,4,0,0,2,0,arrival_2025_at_OKLAHOMA
+Chewy Wade,157801,T,OKLA STATE,1,100.0,0,262,55.5,,54.1,0,0,0,,,,0,0,0,4,0,0,4,4,0,0,0,0,4,0,2025_this_team
+Lavaka Taukeiaho,164490,G,OKLA STATE,1,100.0,0,262,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,0,1,0,0,0,0,1,0,2025_this_team

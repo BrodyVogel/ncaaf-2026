@@ -1,0 +1,36 @@
+{
+ "team": "Oklahoma State",
+ "conference": "Big 12",
+ "created_utc": "2026-07-15T17:59:40+00:00",
+ "assembler_git_rev": "c9e9519",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "OL arrangement unsettled (PS vs Athlon disagree; 9-transfer pool)",
+  "No P4 tape on the offensive spine (QB/RB/WR1 all G5-graded)",
+  "Romney LB tape thin (49.6/101) vs projected-starter framing",
+  "Horn (TTech) no 2025 tape (injury); Epps injury-return",
+  "Entire operation new: HC/OC/DC + 60+ players"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": "Gundy fired Sept '25 -> Eric Morris (from North Texas 12-2) - x1.13; brought OC Brophy + DC Cassity + 18 NT players",
+ "portal_withdrawal_overrides": [
+  "Cameron Epps"
+ ],
+ "portal_departure_confirmed": [
+  "Darius Thomas",
+  "Camron Heard",
+  "Sam Jackson V",
+  "Da'Wain Lofton",
+  "Mason Schubert",
+  "Davis Dotson",
+  "Ryker Haff",
+  "Jaden Perez"
+ ],
+ "adjudication_notes": {
+  "Cameron Epps": "portal destination None; PRESENT on Athlon May two-deep (S backup #12) + PS May lineup (NB backup, PS#141) + P6 prose 'back from injury' -> WITHDREW, returns",
+  "others": "8 destination-None outs absent from all May prints -> adjudicated GONE per standing rule"
+ }
+}
