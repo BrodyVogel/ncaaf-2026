@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-15T17:58:54+00:00",
+ "team": "Kansas State",
+ "final": 7.34,
+ "rank": 35,
+ "band": 6.78,
+ "resid": -9.04,
+ "adj": -3.16,
+ "class_term": -0.0,
+ "st": 0.1,
+ "anchor_blend": 9.88,
+ "resid_level": -5.18,
+ "resid_shape": -3.85,
+ "implied_off": 26.45,
+ "implied_def": 25.91,
+ "anchor_off": 32.84,
+ "anchor_def": 23.26,
+ "fit_r2": {
+  "off": 0.538,
+  "dfn": 0.616
+ },
+ "low_conf_units": 0,
+ "code_rev": "b187b85",
+ "mode": "PILOT-OOS"
+}
