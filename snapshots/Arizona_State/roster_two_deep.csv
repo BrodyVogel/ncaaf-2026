@@ -1,17 +1,32 @@
-unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
-QB,1,,,,,,,,
-QB,2,,,,,,,,
-RB,1,,,,,,,,
-RB,2,,,,,,,,
-WRTE,1,,,,,,,,
-WRTE,2,,,,,,,,
-OL,1,,,,,,,,
-OL,2,,,,,,,,
-DL,1,,,,,,,,
-DL,2,,,,,,,,
-LB,1,,,,,,,,
-LB,2,,,,,,,,
-DB,1,,,,,,,,
-DB,2,,,,,,,,
-ST,1,,,,,,,,
-ST,2,,,,,,,,
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Cutter Boley,SO,Kentucky transfer (Athlon-bold*),"former 4*; started 10 games as RS-Fr; 65% comp, 12 INT (OC Arroyo attributes many to desperation heaves); #12 SEC QB Rating / #6 among P4 freshmen (P6); PFF 59.4/387 at UK; 6-5. DEPARTED: Leavitt (76.4/310, injury-shortened) -> LSU as top-rated transfer; Sims (67.5/222) expired"
+QB,QB,2,Mikey Keene / Jake Fette,SR / FR,Michigan transfer / Top100 signee,"Keene: 34 career starts (UCF/Fresno), no qualifying 2025 tape at Michigan; Fette 'stole the show in spring' (P6) and could win backup job"
+RB,RB,1,Kyson Brown,JR,returner,"2025 opening-game starter, back at full strength from season-ending injury (Athlon); PFF 74.4/35"
+RB,RB,2,Marquis Gillis / Jason Brown Jr. / David Avit,SR / SO / JR,Delaware State + Villanova transfers + returner,"Gillis: Top-10 FCS back (1,200 yds, 6.5/carry) - no FBS tape; Jason Brown 134 in Sun Bowl (72.9/20); Avit = short-yardage hammer (FCS). DEPARTED: Raleek Brown (80.7/265, 1,141 @ 6.1) -> Texas; Udoh (65.4/79) -> Liberty"
+WRTE,WR,1,Omarion Miller,SR,Colorado transfer (Athlon-bold*),"All-B12 at Colorado; team MVP; #3 transfer WR nationally (P6); PFF 67.9/313; 'a special player' (opposing B12 assistant, Athlon)"
+WRTE,WR,1,Reed Harris,JR,Boston College transfer (Athlon-bold*),"four-star transfer hype, vertical threat (P6); PFF 65.6/477"
+WRTE,WR,1,Raiden Vines-Bright,SO,Washington transfer (Athlon-bold*),"broke into UW rotation as true FR (P6); PFF 63.4/271"
+WRTE,WR,2,Jalen Moss / Jaren Hamilton / Derek Eusebio,SR / JR / JR,returners,"Moss returns in slot (60.3/184); Eusebio = All-B12 HM, P6's 'lone returning starter on offense' (57.4/265); Hamilton KR. DEPARTED: Tyson (82.9/300) -> NFL #8 overall; McClain (53.6/458) expired"
+WRTE,TE,1,Khamari Anderson,SR,returner (yr-3),"former 4* (P6); Metayer (56.3/273, B12 honors) graduated; AJ Ia (yr-1, former 4*) behind; adds Ingman (Portland St) + A.Miller (Tulane)"
+OL,LT,1,Champ Westbrooks / Jarmaine Mitchell,SO / JR,returner / JUCO transfer (FEED MISS - manual),"Athlon starter Westbrooks (yr-1, no 2025 snaps found); Mitchell = nation's #1 overall JUCO prospect, Georgia flip, P6's projected starter - NOT in CFBD portal feed (JUCO); no PFF tape"
+OL,LG,1,Wade Helton,SO,returner,"2025 starting C (53.0/555), moves to LG; backup: Siosaia Lapuaho (Athlon 2026-transfer asterisk; NOT in CFBD feed; origin unverified - no attributed tape)"
+OL,C,1,Tana Alo-Tupuola,JR,Georgia Tech transfer (Athlon-bold*),"'stole' GT's starter off a top-rated line (P6); helped GT rank among top FBS rushing attacks (Athlon); PFF 57.1/455 (repair add)"
+OL,RG,1,Maki Stewart,SO,returner,"late-season starts (P6); PFF 70.6/260 - best returning OL grade"
+OL,RT,1,Luke Baklenko,SR,Oklahoma transfer (Athlon-bold*),"two-year Stanford starter, OU backup 2025 (67.9/155); should win RT (P6)"
+OL,ALL,9,DEPARTED,,,"ALL FIVE 2025 starters gone: LT Iheanachor (72.5/860) -> NFL 1st round; Scott (60.2/852) expired; Atkins (66.0/792) -> Missouri; Obigbo (54.7/531) expired; Coleman (68.1/381) expired; Helton the exception (returns, moved C->LG); Na'a -> UCLA; Su'a out"
+DL,DE,1,Jalen Thompson,SR,Michigan State transfer (Athlon-bold*),"P4 starter add (P6); PFF 68.2/420"
+DL,DT,1,C.J. Fite,JR,RETURNING STARTER (bold),"the star: all-conference candidate NT (Athlon); returned after considering early NFL entry (P6); PFF 68.5/587"
+DL,DT,1,MyKeil Gardner,SO,returner (yr-2),Athlon DC starter
+DL,DE,1,Clayton Smith,SR,returner (ELIGIBILITY APPEAL - magazine override),"2024 starting DE won appeal for bonus 2026 year (P6-explicit); PFF 65.8/469"
+DL,DE,2,Emar'rion Winston / Julian Hugo / Kirt Vakalahi,SR / FR / JR,Baylor transfer + signee + JUCO,"Winston: P4 starter add (65.9/586); Hugo: 4*, 'spring hero per practice reports' (P6); Vakalahi 6-5 260 JUCO wildcard. DEPARTED: Wodtly (77.6/467), O'Neal (64.6/519), Dorbah (68.2/360), Kongaika (64.2/500, expired), Cooper (187, expired)"
+LB,ILB,1,Owen Long,JR,Colorado State transfer (Athlon-bold*),"FBS' leading tackler 2025; 1st-team All-MW; 4* transfer grades; 'flying all over the field in spring' (P6); PFF 71.0/770"
+LB,ILB,1,Martell Hughes,JR,returner,"400 partial-starter snaps, rises to starter (P6); PFF 61.6/308"
+LB,ILB,2,Zyrus Fiaseu / Ramere Davis,SR(6th) / JR,returner (6TH-YEAR - magazine override) + NAU transfer,"Fiaseu 'sixth-year returner... starter-level' (Athlon-explicit; yr-4 override); 61.5/101. DEPARTED: Crook (82.4/733) + Elliott (67.5/649) - both 2nd-tm All-B12, 199 combined tackles, 1-2 on team; Romney -> OkSt; Krew Jackson (70.0/29) yr-4 expired"
+DB,CB,1,Ashton Stamps,JR,LSU transfer (Athlon-bold*),"two-year LSU starter who fell out of the lineup in '25 (18 snaps, 77.5 grade); Athlon projects starter"
+DB,CB,1,Rodney Bimage Jr.,SO,returner,"'ready to shine' (Athlon); yr-1 reserve"
+DB,NB,1,Adrian Wilson,JR,RETURNING STARTER (bold),"stepped up after Alford injury (P6); possible FS->NB move (Athlon); PFF 66.3/652"
+DB,SS,1,Montana Warren,JR,returner,"surged at nickel (P6); PFF 58.7/377"
+DB,FS,1,Lyrik Rawls,SR,Kansas transfer (Athlon-bold*),"led Kansas w/ 57 solo tackles (Athlon); 73 tackles (P6); PFF 71.4/632"
+DB,DB,2,Jessiah McGrew / Nigel Pringle / Caleb Chester / Chance Rucker / Antoine Belgrave-Shorter,SO / FR / / / ,FIU + Arkansas + Texas + Michigan State + Penn State transfers,"McGrew 72.5/769 at FIU - best incoming DB tape. DEPARTED (all 5 original starters): Abney (86.3/785) -> NFL; Robinson (70.5/659) -> Wisconsin; Rowser (69.9/804) expired; Breedlove (60.4/593) expired; Alford (injured, 122) expired; Klemm/Bal/Fall/McGinnis/Nkuba also out"
+ST,K,1,Carson Smith,SR,Austin Peay transfer,"FCS UAC Specialist of the Year (Athlon)"
+ST,P,1,Nick McLarty,SO,Ohio State transfer,"big-legged Australian (Athlon); 2025 ASU = 2nd-worst FBS net punting; McKenzie -> Kennesaw. Team SPEC 68.2 = 20th pctile"
