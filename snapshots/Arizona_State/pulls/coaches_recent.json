@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Kenny",
+  "lastName": "Dillingham",
+  "hireDate": "2022-11-27T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Arizona State",
+    "year": 2024,
+    "games": 14,
+    "wins": 11,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": 7,
+    "srs": 13.4,
+    "spOverall": 9.4,
+    "spOffense": 32.4,
+    "spDefense": 20.9
+   }
+  ]
+ },
+ {
+  "firstName": "Kenny",
+  "lastName": "Dillingham",
+  "hireDate": "2022-11-27T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Arizona State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 5.8,
+    "spOverall": 3.9,
+    "spOffense": 28.3,
+    "spDefense": 22.7
+   }
+  ]
+ }
+]
