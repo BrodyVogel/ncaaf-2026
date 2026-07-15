@@ -1,0 +1,19 @@
+{
+ "team": "BYU",
+ "conference": "Big 12",
+ "created_utc": "2026-07-15T14:43:44+00:00",
+ "assembler_git_rev": "25bf1e0",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "PS box not extracted (OCR-garbled; logged trim)",
+  "All three specialists new (K career-backup, P true FR)",
+  "New secondary coaches (Gilford -> Michigan)",
+  "QB depth = 2 career snaps while Lyons on mission",
+  "Uluave/Glasker honors-vs-grade split (LB caution applied)"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": false
+}

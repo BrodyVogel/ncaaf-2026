@@ -1,0 +1,110 @@
+[
+ {
+  "season": 2026,
+  "firstName": "Jake",
+  "lastName": "Clifton",
+  "position": "LB",
+  "origin": "Kansas State",
+  "destination": "BYU",
+  "transferDate": "2026-01-13T14:19:00.000Z",
+  "rating": 0.85,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Paki",
+  "lastName": "Finau",
+  "position": "IOL",
+  "origin": "Washington",
+  "destination": "BYU",
+  "transferDate": "2026-01-12T23:50:00.000Z",
+  "rating": 0.87,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Cade",
+  "lastName": "Uluave",
+  "position": "LB",
+  "origin": "California",
+  "destination": "BYU",
+  "transferDate": "2026-01-13T03:24:00.000Z",
+  "rating": 0.94,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Walker",
+  "lastName": "Lyons",
+  "position": "TE",
+  "origin": "USC",
+  "destination": "BYU",
+  "transferDate": "2026-01-09T18:03:00.000Z",
+  "rating": 0.9,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Zak",
+  "lastName": "Yamauchi",
+  "position": "IOL",
+  "origin": "Stanford",
+  "destination": "BYU",
+  "transferDate": "2026-01-12T16:18:00.000Z",
+  "rating": 0.86,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Jayven",
+  "lastName": "Williams",
+  "position": "CB",
+  "origin": "Mississippi State",
+  "destination": "BYU",
+  "transferDate": "2026-01-16T15:29:00.000Z",
+  "rating": 0.85,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Kyler",
+  "lastName": "Kasper",
+  "position": "WR",
+  "origin": "Oregon",
+  "destination": "BYU",
+  "transferDate": "2026-01-08T16:10:00.000Z",
+  "rating": 0.86,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Jr",
+  "lastName": "Sia",
+  "position": "OT",
+  "origin": "Utah State",
+  "destination": "BYU",
+  "transferDate": "2026-01-12T23:50:00.000Z",
+  "rating": 0.85,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Roger",
+  "lastName": "Saleapaga II",
+  "position": "TE",
+  "origin": "Oregon",
+  "destination": "BYU",
+  "transferDate": "2026-01-17T00:54:00.000Z",
+  "rating": 0.91,
+  "stars": 4,
+  "eligibility": "Immediate"
+ }
+]

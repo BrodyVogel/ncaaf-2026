@@ -1,0 +1,18 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Bruce Mitchell,157431,C,BYU,14,100.0,0,128,77.8,79.2,77.1,1,6,443,100.0,100.0,98.8,3,9,2,923,923,0,0,923,472,472,0,0,451,0,2025_this_team
+Isaiah Jatta,171896,T,BYU,14,100.0,1,128,66.1,63.7,70.6,10,12,411,100.0,100.0,97.1,11,23,1,869,0,2,867,869,437,437,0,0,432,0,2025_this_team
+Andrew Gentry,162815,T,BYU,14,100.0,0,128,69.4,68.8,67.5,1,15,381,100.0,100.0,97.6,4,17,1,796,0,0,0,796,406,406,0,793,390,2,2025_this_team
+Jr Sia,176156,T,UTAH ST,13,100.0,2,329,48.6,49.7,51.6,0,22,405,100.0,100.0,96.3,7,26,4,731,0,2,0,731,438,438,0,727,293,1,arrival_2025_at_UTAH ST
+Kyle Sfarcioc,147834,G,BYU,14,100.0,0,128,66.0,64.1,65.5,2,6,287,100.0,100.0,98.3,2,9,1,606,0,75,1,606,304,304,522,0,302,1,2025_this_team
+Austin Leausa,141684,G,BYU,14,100.0,1,128,56.2,65.3,54.9,4,6,256,100.0,100.0,98.0,4,10,0,544,0,0,54,544,274,274,361,129,270,0,2025_this_team
+Weylin Lapuaho,157628,G,BYU,10,100.0,0,128,62.3,77.9,59.0,1,6,240,100.0,100.0,98.5,2,7,0,475,0,473,0,475,256,256,0,0,219,2,2025_this_team
+Paki Finau,183636,G,WASHINGTON,13,100.0,0,340,61.3,72.7,56.3,1,8,223,100.0,100.0,98.0,0,9,0,426,0,373,23,426,229,229,2,27,197,0,arrival_2025_at_WASHINGTON
+Sonny Makasini,72324,G,BYU,14,100.0,0,128,72.9,75.0,71.2,2,4,198,100.0,100.0,98.5,0,6,0,423,0,377,0,423,212,212,43,0,211,2,2025_this_team
+Zak Yamauchi,200315,G,STANFORD,4,100.0,1,300,49.0,15.1,57.7,1,3,77,100.0,100.0,92.2,1,8,4,142,0,136,0,142,81,81,6,0,61,0,arrival_2025_at_STANFORD
+Trevin Ostler,163253,G,BYU,9,98.9,0,128,64.2,76.2,65.3,0,0,16,94.1,94.1,100.0,1,0,0,92,0,38,3,93,16,17,6,0,76,45,2025_this_team
+Trevor Pay,189652,C,BYU,4,100.0,0,128,72.6,76.9,68.4,0,0,7,100.0,100.0,100.0,0,0,0,47,47,0,0,47,7,7,0,0,40,0,2025_this_team
+Joe Brown,183759,G,BYU,3,100.0,0,128,58.9,0.0,63.1,0,1,7,100.0,100.0,92.9,0,1,0,44,0,6,0,44,7,7,38,0,37,0,2025_this_team
+Siosiua Latu-Finau,203993,T,BYU,3,100.0,0,128,59.1,80.7,56.5,0,0,7,100.0,100.0,100.0,0,0,0,44,0,0,44,44,7,7,0,0,37,0,2025_this_team
+Jake Griffin,175022,T,BYU,4,100.0,0,128,43.6,43.8,60.9,0,0,7,100.0,100.0,100.0,2,0,0,27,0,0,0,27,7,7,0,25,20,1,2025_this_team
+Kaden Chidester,175012,T,BYU,2,100.0,0,128,50.9,,51.4,0,0,0,,,,0,0,0,14,0,0,0,14,0,0,0,13,14,0,2025_this_team
+Andrew Williams,198226,T,BYU,2,100.0,0,128,60.2,,59.7,0,0,0,,,,0,0,0,9,0,0,0,9,0,0,0,9,9,0,2025_this_team
