@@ -1,0 +1,351 @@
+{
+ "team": "Texas Tech",
+ "units": {
+  "QB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 72,
+   "confidence": "H"
+  },
+  "WRTE": {
+   "grade": 62,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 60,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 65,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 62,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 70,
+   "confidence": "H"
+  },
+  "ST": {
+   "grade": 65,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 96, RB 92, WRTE 91, OL 87, DL 85, LB 89, DB 93, ST 96)",
+   "QB": "-46 vs proxy 96 (CONTAMINATED: proxy rides Sorsby's 90.3/400 arrival tape - his college career ended in June, he never plays; real room = Hammond off ACL + Francis)",
+   "WRTE": "-29 vs proxy 91 (proxy scales departed Douglas/Virgil volume + G5 import tape linearly)",
+   "LB": "-27 vs proxy 89 (proxy can't price the Butkus winner's departure premium)",
+   "OL": "-27 vs proxy 87 (proxy counts the 2nd-tm guard's 949 snaps that left)",
+   "ST": "-31 vs proxy 96 (proxy rides the #2-STR season; new punter + regression baked into 65)",
+   "global": "every unit graded below proxy - the proxy linearly extends a 98th-pctile as-played season; grades price the QB/DL/LB star exits and G5 guard"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Texas Tech",
+   "unit": "QB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The Sorsby plan died in June - his college career ended amid the legal battle (P6, printed post-resolution; the flag from the Cincinnati build, verified here). He was the #2 transfer QB; he is not a rating input.",
+    "Will Hammond (78.8/129) is the guy: Top200 pedigree, career 1,151/9 across 2 starts plus relief (won the Utah 4Q in relief, 2 rush TD vs Kansas, 64-yd run), dual-threat - and an ACL rehab with a 'full return in mid-August, just in time for kickoff' (P6).",
+    "Kirk Francis (58.0/98 in '25; 3,045/18-13 career at Tulsa) is real-starts insurance with weak recent tape; Lloyd Jones III (PS#39) develops behind.",
+    "50 = average: high-quality small-sample tape and elite surroundings against ACL timing and two career starts. PS pre-resolution: 'fine year if he is the starter.'"
+   ],
+   "key_players": [
+    {
+     "name": "Will Hammond",
+     "role": "QB1, returner (ACL - August return)",
+     "evidence": "PFF 78.8/129; career 1,151/9"
+    },
+    {
+     "name": "Kirk Francis",
+     "role": "QB2 transfer (Tulsa)",
+     "evidence": "PFF 58.0/98; 3,045 career"
+    }
+   ],
+   "data_gaps": [
+    "Hammond rehab timeline",
+    "Zero 10-start seasons in the room"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Texas Tech",
+   "unit": "RB",
+   "grade": 72,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "Washington State DB 2025 (72)",
+    "Houston WRTE 2025 (78)"
+   ],
+   "rationale_bullets": [
+    "Both All-B12 sophomores return: Dickey (76.0; 1,124 at 5.4, 1st-team B12, 263 vs Kansas) and Williams (88.4; 868 at 5.6 plus 371 receiving as the team's #5 receiver and a 99-yd KR TD).",
+    "Joyner (USC 4* transfer; 478 at 7.6 in '24) is back healthy behind them - 'somehow they retained all three' (P6); PS calls it his #7 RB corps nationally.",
+    "72, H: two proven P4 all-league backs plus blue-chip depth; H because tape, feeds, and all three books agree completely."
+   ],
+   "key_players": [
+    {
+     "name": "Cameron Dickey",
+     "role": "RB1, returning",
+     "evidence": "PFF 76.0; 1,124 @ 5.4, 1st-tm B12"
+    },
+    {
+     "name": "J'Koby Williams",
+     "role": "RB1B, returning",
+     "evidence": "PFF 88.4; 868 + 371 rec, All-B12"
+    },
+    {
+     "name": "Quinten Joyner",
+     "role": "RB3, returner (USC '25 transfer, OFY)",
+     "evidence": "478 @ 7.6 at USC '24"
+    }
+   ],
+   "data_gaps": [],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Texas Tech",
+   "unit": "WRTE",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
+   "rationale_bullets": [
+    "The inside is elite: TE Carter (82.2; 624, 2nd-team B12, 2nd among league TEs) returns with All-MW Carpenter (69.8; Nevada's leading receiver) added behind him.",
+    "Outside is a reload: Douglas (846) and Virgil (705) were both drafted; Eakin (67.4; 637) is the lone returning starter, with 5* Hudson (78.1/7 gm) carrying breakout framing.",
+    "The haul is P4-real: K.Johnson (69.0; 695 at Pitt, two-year starter), Simmons (71.2; 457 at 18.3 at Auburn, Top200), Lee (80.2; 589 at 18.4 Liberty), J.Jones (1,167 at 22.9, 1st-team SWAC); Top100 FR Campbell behind. 'Plenty of firepower here yet again' (P6).",
+    "62 = comfortably above average: depth and TE quality proven, top-line production new."
+   ],
+   "key_players": [
+    {
+     "name": "Terrance Carter Jr.",
+     "role": "TE1, returning",
+     "evidence": "PFF 82.2; 624, 2nd-tm B12"
+    },
+    {
+     "name": "Coy Eakin",
+     "role": "WR1, returning starter",
+     "evidence": "PFF 67.4; 637 @ 13.3"
+    },
+    {
+     "name": "Kenny Johnson",
+     "role": "WR transfer (Pittsburgh)",
+     "evidence": "PFF 69.0; 695 @ 14.5; also PR"
+    },
+    {
+     "name": "Micah Hudson",
+     "role": "WR, returner (5*)",
+     "evidence": "PFF 78.1/7gm; breakout framing"
+    }
+   ],
+   "data_gaps": [
+    "Hudson production vs pedigree",
+    "Target tree with a new QB"
+   ],
+   "g5_guard_note": "Lee (Liberty) and J.Jones (SWAC) tape G5/FCS-discounted; the 62 leans on Carter/Eakin/Johnson P4 tape"
+  },
+  {
+   "team": "Texas Tech",
+   "unit": "OL",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Three All-B12-caliber starters return: Sampson (71.8/926; 3rd-team B12 LT), Ponton (69.2/942; 14 starts at RT), Wilson (66.4/962; 27 starts at C) - from a line that was 84th-pctile pass-block/70th run-block.",
+    "The guard pair re-forms: 2nd-team B12 Carter (70.8/949) and Jados left; Church (65.1/514; Louisville 4*-transfer) and Zambrano (25 FCS starts) step in with 5* Ojo, Top100 Gilmore, and Upshaw (PS#50) as the young wave - 'deepest OLine' of the McGuire era (PS).",
+    "P6's honest read of '25: 'strong enough to win the conference, but on the Playoff tier a limiting factor' (#60 Run Push, #51 Pass Pro; 1 ypc and 4 sacks vs Oregon).",
+    "60 = above average: three proven P4 tackles/center, interior projection."
+   ],
+   "key_players": [
+    {
+     "name": "Howard Sampson",
+     "role": "LT, returning",
+     "evidence": "PFF 71.8/926; 3rd-tm B12"
+    },
+    {
+     "name": "Jacob Ponton",
+     "role": "RT, returning",
+     "evidence": "PFF 69.2/942; 14 st"
+    },
+    {
+     "name": "Jordan Church",
+     "role": "G transfer (Louisville)",
+     "evidence": "PFF 65.1/514; 4* transfer grade"
+    }
+   ],
+   "data_gaps": [
+    "Guard pair cohesion"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Texas Tech",
+   "unit": "DL",
+   "grade": 65,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
+   "rationale_bullets": [
+    "The '25 line (68 rush ypg at 2.2, 41 sacks; RDEF and PRSH both 99th pctile) lost four drafted starters: Bailey (93.3; 1st-team AA, 14.5 sk), Height (92.5; 10 sk), Hunter (80.4; 2nd-team AA), Gill-Howard.",
+    "What stays is real: Holmes (85.3/564; 3rd-team B12, 9 TFL - the best returning tape) and Cofield (73.8/287).",
+    "The reload is curated, G5-heavy: Trick (91.3/671; 1st-team MAC, 8.5 sk), White (82.9/642; 19.5 sk over two SDSU years), Mathis (84.5/453; 2nd-team MAC), Ibirogba (77.3/395; top-rated 4* transfer from Wake), Laventure (76.1/657; 10.5 TFL), Butler (74.0/305 UW), plus 5* FR Guyton. McGuire: Trick/Holmes/White are 'next year's NFL draft picks.'",
+    "65 = clearly above average, not the '25 monster - PS's 'figure to be less dominant' is the sober read."
+   ],
+   "key_players": [
+    {
+     "name": "A.J. Holmes Jr.",
+     "role": "DT, returning",
+     "evidence": "PFF 85.3/564; 3rd-tm B12, 9 TFL"
+    },
+    {
+     "name": "Adam Trick",
+     "role": "ED transfer (Miami OH)",
+     "evidence": "PFF 91.3/671; 1st-tm MAC, 8.5 sk"
+    },
+    {
+     "name": "Trey White",
+     "role": "ED transfer (San Diego State)",
+     "evidence": "PFF 82.9/642; 19.5 sk L2Y"
+    }
+   ],
+   "data_gaps": [
+    "G5 edges vs P4 tackles",
+    "Interior rotation after Hunter"
+   ],
+   "g5_guard_note": "Trick 91.3 / White 82.9 / Mathis 84.5 earned vs MAC/MW; guard holds the unit at 65 vs the proxy's 85"
+  },
+  {
+   "team": "Texas Tech",
+   "unit": "LB",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
+   "rationale_bullets": [
+    "The Butkus winner is gone: Rodriguez (93.0/772; 117 tkl, 11 TFL, 7 FF, 4 INT, unanimous AA, 5th in the Heisman) - P6 calls him irreplaceable, and he is.",
+    "But the duo that remains is the best returning-tape LB pair graded this round: Roberts (86.3/791; 3rd-team B12, 90 tkl, B12 title-game MVP with 2 INTs) + Romaine (76.5/517; two-time All-B12 at Kansas State, the #2 LB transfer).",
+    "Platt (67.9/357; 40 tkl at Houston - '25 tape real despite P6's stale injury line) and Golwas (71.7/99) give depth; 'they remain strong but will miss their Heisman contending LB' (PS).",
+    "62 = solidly above average on two proven P4 all-league starters."
+   ],
+   "key_players": [
+    {
+     "name": "Ben Roberts",
+     "role": "MLB, returning",
+     "evidence": "PFF 86.3/791; title-game MVP"
+    },
+    {
+     "name": "Austin Romaine",
+     "role": "WLB transfer (Kansas State)",
+     "evidence": "PFF 76.5/517; 2x All-B12"
+    },
+    {
+     "name": "Corey Platt Jr.",
+     "role": "LB transfer (Houston)",
+     "evidence": "PFF 67.9/357; 40 tkl"
+    }
+   ],
+   "data_gaps": [
+    "Rodriguez's takeaway production (7 FF/4 INT) irreplaceable"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Texas Tech",
+   "unit": "DB",
+   "grade": 70,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
+   "rationale_bullets": [
+    "Four starters return from a 99th-pctile coverage unit (#8 PDR), three with 80+ tape: Pollock (82.5/797; 1st-team B12, 13 pd, 5 INT - 'high NFL DC next year'), Jordan (82.3/794; 14 st FS), Curry (80.9/745; 14 st STAR, #4 tackler), plus Boyd (73.4/528; 9 pd).",
+    "The one opening goes to Morgan (71.5/113; Top200 'spring hero and ballhawk'), and the depth tape is real: Hampton (82.7/97), Balfour (72.2/334).",
+    "The loss is the drafted FS Wisniewski (83.9/808; #3 tackler); PS: 'remains strong… will probably drop some.'",
+    "70, H = just under the WSU-DB-72 exemplar: three 80+ returning starters; H on tape/source unanimity."
+   ],
+   "key_players": [
+    {
+     "name": "Brice Pollock",
+     "role": "CB1, returning",
+     "evidence": "PFF 82.5/797; 1st-tm B12, 5 INT"
+    },
+    {
+     "name": "Brenden Jordan",
+     "role": "FS, returning",
+     "evidence": "PFF 82.3/794; 14 st"
+    },
+    {
+     "name": "John Curry",
+     "role": "STAR, returning",
+     "evidence": "PFF 80.9/745; 72 tkl"
+    },
+    {
+     "name": "Peyton Morgan",
+     "role": "S, new starter (spring winner)",
+     "evidence": "PFF 71.5/113; Top200"
+    }
+   ],
+   "data_gaps": [
+    "Wisniewski's tackling volume replacement"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Texas Tech",
+   "unit": "ST",
+   "grade": 65,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
+   "rationale_bullets": [
+    "Harrington returns as a Groza semifinalist and 1st-team All-B12: 22-28 with a 58-long, 41-42 PAT, 76 touchbacks on 103 kickoffs.",
+    "The return and block units were elite: J'Koby's 99-yd KR TD, five blocked punts, 95th-pctile SPEC (PS's #2 STR season, their magazine-era high).",
+    "The only loss is P Burgess (43.5/40.4 net); Karoll (UCLA/Tulane vet: 43.5 avg but 36.7 team net LY) is a modest step down on tape. PS projects a '5th straight top 25 finish.'",
+    "65 = solidly above average: elite kicker + return game, new punter and regression-from-#2 priced in."
+   ],
+   "key_players": [
+    {
+     "name": "Stone Harrington",
+     "role": "K, returning",
+     "evidence": "22-28, L58; Groza semi, 1st-tm B12"
+    },
+    {
+     "name": "Will Karoll",
+     "role": "P transfer (UCLA)",
+     "evidence": "43.5 avg / 36.7 team net LY"
+    }
+   ],
+   "data_gaps": [
+    "Net punting downgrade risk"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
