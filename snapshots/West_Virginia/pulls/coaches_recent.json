@@ -1,0 +1,65 @@
+[
+ {
+  "firstName": "Neal",
+  "lastName": "Brown",
+  "hireDate": "2019-01-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "West Virginia",
+    "year": 2024,
+    "games": 12,
+    "wins": 6,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 1.2,
+    "spOverall": 2.1,
+    "spOffense": 30.1,
+    "spDefense": 29.7
+   }
+  ]
+ },
+ {
+  "firstName": "Chad",
+  "lastName": "Scott",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "West Virginia",
+    "year": 2024,
+    "games": 1,
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 1.2,
+    "spOverall": 2.1,
+    "spOffense": 30.1,
+    "spDefense": 29.7
+   }
+  ]
+ },
+ {
+  "firstName": "Rich",
+  "lastName": "Rodriguez",
+  "hireDate": "2024-12-11T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "West Virginia",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -2.6,
+    "spOverall": -6.8,
+    "spOffense": 22.8,
+    "spDefense": 30
+   }
+  ]
+ }
+]

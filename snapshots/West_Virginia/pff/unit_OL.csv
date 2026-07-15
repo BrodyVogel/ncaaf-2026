@@ -1,0 +1,18 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Amare Grayson,189783,G,JVILLE ST,14,100.0,1,196,68.5,73.1,66.0,1,8,412,100.0,100.0,98.7,4,10,1,1008,0,0,21,1008,440,440,985,0,568,1,arrival_2025_at_JVILLE ST
+Nick Krahe,173185,T,W VIRGINIA,12,100.0,1,343,63.5,71.9,57.4,3,13,378,100.0,100.0,97.6,7,17,1,860,0,0,856,860,395,395,0,0,465,4,2025_this_team
+Carsten Casady,171035,T,UCONN,12,100.0,1,146,72.1,62.8,75.3,8,19,441,100.0,100.0,96.9,6,27,0,774,0,0,0,774,465,465,0,767,309,6,arrival_2025_at_UCONN
+Landen Livingston,157364,C,W VIRGINIA,11,100.0,0,343,64.7,89.7,55.2,1,3,343,100.0,100.0,99.1,1,5,1,754,754,0,0,754,357,357,0,0,397,0,2025_this_team
+Ty'Kieast Crawford,122177,T,W VIRGINIA,11,100.0,0,343,62.4,59.9,62.4,3,13,309,100.0,100.0,96.4,2,19,3,705,0,0,0,705,321,321,0,698,384,7,2025_this_team
+Kimo Makane'ole,146767,G,W VIRGINIA,11,100.0,1,343,44.4,62.0,39.5,4,8,319,100.0,100.0,97.8,3,13,1,694,0,0,0,694,332,332,689,0,362,0,2025_this_team
+Wes King,157673,G,WYOMING,12,100.0,0,351,66.2,74.8,65.5,1,9,355,100.0,100.0,98.6,6,10,0,683,0,683,0,683,386,386,0,0,297,0,arrival_2025_at_WYOMING
+Walter Young Bear,133127,G,W VIRGINIA,9,100.0,0,343,53.2,53.8,52.9,2,6,240,100.0,100.0,97.5,6,10,2,566,0,471,0,566,251,251,95,0,315,0,2025_this_team
+Donovan Haslam,164024,G,W VIRGINIA,10,100.0,1,343,61.7,74.7,59.7,0,4,188,100.0,100.0,98.9,3,4,0,444,0,401,0,444,196,196,36,0,248,5,2025_this_team
+Devin Vass,173124,G,KANSAS ST,9,100.0,0,199,55.3,54.9,53.1,0,8,190,100.0,100.0,97.9,0,8,0,420,0,31,0,420,199,199,389,0,221,0,arrival_2025_at_KANSAS ST
+Malik Agbo,163837,T,W VIRGINIA,7,100.0,0,343,57.2,64.4,53.4,1,1,72,100.0,100.0,98.6,1,2,0,182,0,0,0,182,77,77,0,172,105,7,2025_this_team
+Carson Lee,86142,C,W VIRGINIA,6,100.0,0,343,61.4,43.4,64.5,0,0,42,100.0,100.0,100.0,1,0,0,140,124,0,0,140,45,45,16,0,95,0,2025_this_team
+Josh Aisosa,184585,G,W VIRGINIA,5,100.0,0,343,47.9,44.1,47.6,0,1,9,100.0,100.0,94.4,0,1,0,47,0,0,0,47,11,11,42,5,36,0,2025_this_team
+Mickel Clay,164277,T,W VIRGINIA,1,100.0,0,343,69.1,74.2,67.5,0,0,2,100.0,100.0,100.0,0,0,0,12,0,0,12,12,2,2,0,0,10,0,2025_this_team
+Brandon Homady,199543,T,W VIRGINIA,2,100.0,0,343,67.8,66.5,67.6,0,0,1,100.0,100.0,100.0,0,0,0,8,0,0,6,8,1,1,0,0,7,2,2025_this_team
+Robby Martin,183365,G,W VIRGINIA,1,100.0,0,343,48.8,72.9,58.9,0,0,2,100.0,100.0,100.0,1,0,0,6,0,6,0,6,2,2,0,0,4,0,2025_this_team
+Xavier Bausley,163939,T,W VIRGINIA,1,100.0,0,343,60.0,,60.0,0,0,0,,,,0,0,0,2,0,0,0,2,0,0,0,2,2,0,2025_this_team

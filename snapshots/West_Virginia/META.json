@@ -1,0 +1,46 @@
+{
+ "team": "West Virginia",
+ "conference": "Big 12",
+ "created_utc": "2026-07-15T19:08:06+00:00",
+ "assembler_git_rev": "f9cf4f3",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "QB battle (Hawkins 34-snap sample vs Fox 55.0 tape)",
+  "Bray: zero 2025 tape (medical return)",
+  "Athlon-only JUCO/late adds not in transfer feed (J.Thomas, Wiley, Allen, D.Williams, Hutchins)",
+  "11 new defensive starters - third straight secondary rebuild",
+  "19 new starters overall (second transition cycle)"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": false,
+ "portal_withdrawal_overrides": [],
+ "portal_departure_confirmed": [
+  "Zae Jennings",
+  "Jude Edwards",
+  "Tyshawn Dues",
+  "Ethan Chill",
+  "Clay Ash",
+  "Jordan McCants",
+  "Matthias Squire",
+  "Devonte Golden-Nelson",
+  "BJ Hendrickson III",
+  "Wyatt Minor",
+  "Kannon Katzer",
+  "Mickel Clay",
+  "Justin Smith-Brown",
+  "Keenan Eck",
+  "Tye Edwards",
+  "Jarel Williams",
+  "Jackson Biser"
+ ],
+ "yr4_return_overrides_documented": [
+  "Jaden Bray"
+ ],
+ "adjudication_notes": {
+  "destination_none": "17 outs, none on any May print -> GONE per standing rule (second-cycle purge pattern)",
+  "Jaden Bray": "yr-4 medical return: P6 'clear #1 receiver' + Athlon May WR1 BOLD; no 2025 tape row"
+ }
+}
