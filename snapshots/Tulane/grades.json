@@ -18,7 +18,7 @@
    "confidence": "L"
   },
   "DL": {
-   "grade": 38,
+   "grade": 35,
    "confidence": "M"
   },
   "LB": {
@@ -49,7 +49,8 @@
    "ST": "-24 (proxy rides departed punters; K is new-proven, P open)"
   },
   "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Ed Smith DL 61.1/413 (S Alabama) - verified SBC rotation body; DL 50 unchanged (grade already believed the attributed depth claims this confirms).",
-  "departure_correction_2026_07_15": "Hopper wrongly claimed as returning (portal-out -> Colorado was in the frozen pulls; research misread). DL 50 -> 38. Caught by P6-Colorado cross-ref; departure_check.py now a permanent gate."
+  "departure_correction_2026_07_15": "Hopper wrongly claimed as returning (portal-out -> Colorado was in the frozen pulls; research misread). DL 50 -> 38. Caught by P6-Colorado cross-ref; departure_check.py now a permanent gate.",
+  "departure_correction_2_2026_07_15": "McAlpine -> Kansas caught via P6-Kansas cross-ref at the Kansas build; wrong-first-name key_player had blinded departure_check. Full-room audit: DL 38 -> 35; Guidry (83.7/134) surfaced."
  },
  "grades_detail": [
   {
@@ -176,26 +177,26 @@
   {
    "team": "Tulane",
    "unit": "DL",
-   "grade": 38,
+   "grade": 35,
    "confidence": "M",
    "bracketing_exemplars": [
     "UNLV LB 2025 (40)",
     "Wake Forest DL 2025 (60)"
    ],
    "rationale_bullets": [
-    "CORRECTED 2026-07-15 (departure check): Hopper (80.2/661 - the elite interior anchor) is GONE to Colorado (portal Jan 5; P6-Colorado bills him as their headline DL add). The original 50 was built on his return - that claim was wrong.",
-    "SIX losses total: Hopper + Nairne (Pitt), Dyson (NC State), Norman (Tennessee) to P4s + Hamilton/Westmoreland expired, from a 37th-pctile as-played unit.",
-    "What actually returns: McAlpine (65.2/437), Garner (69.8/274) + repair-add Ed Smith (61.1/413 at S.Alabama); the attributed depth claims (Sumrall: backups 'good enough to start elsewhere') now carry the room alone.",
-    "38 = below average: credible rotation bodies, no anchor."
+    "SECOND CORRECTION 2026-07-15: McAlpine (65.2/437) is ALSO gone - portal to Kansas Jan 6 (P6-Kansas bills him as their 2nd-tm All-AAC NT add). The first correction fixed Hopper but re-cited McAlpine as returning under a wrong first name, which blinded the gate. Third-pass full-room audit run.",
+    "SEVEN of the nine 100+-snap 2025 DL are gone: Hopper (Colorado), McAlpine (Kansas), Dyson (NC State), Norman (Tennessee), Nairne (Pitt) + Westmoreland (79.2/295), Hamilton (70.4/469) expired.",
+    "What actually returns: Guidry (83.7/134 - an elite small-sample grade the original research never surfaced), Garner (69.8/274), Shepard (60.0/253), Henderson (64.0/122) + repair-add Ed Smith (61.1/413).",
+    "35 = bottom-third: quality flashes without a proven volume anchor; the attributed depth claims now carry real weight or the room craters."
    ],
    "key_players": [
     {
-     "name": "Patrick McAlpine",
+     "name": "Geordan Guidry",
      "role": "DT, returning",
-     "evidence": "PFF 65.2/437"
+     "evidence": "PFF 83.7/134 - elite flash"
     },
     {
-     "name": "Kentrell Garner",
+     "name": "Jah'rie Garner",
      "role": "DE, returning",
      "evidence": "PFF 69.8/274"
     },

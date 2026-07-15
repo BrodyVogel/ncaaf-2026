@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-07-15T17:10:52+00:00",
+ "run_utc": "2026-07-15T17:41:32+00:00",
  "team": "Tulane",
- "final": -0.31,
+ "final": -0.4,
  "rank": 66,
  "band": 7.39,
- "resid": -3.78,
- "adj": -1.32,
+ "resid": -4.04,
+ "adj": -1.41,
  "class_term": 0.0,
  "st": 0.04,
  "anchor_blend": 0.47,
  "resid_level": 0.06,
- "resid_shape": -3.85,
+ "resid_shape": -4.1,
  "implied_off": 24.63,
- "implied_def": 28.53,
+ "implied_def": 28.79,
  "anchor_off": 25.19,
  "anchor_def": 25.31,
  "fit_r2": {
@@ -20,6 +20,6 @@
   "dfn": 0.628
  },
  "low_conf_units": 3,
- "code_rev": "c8f504d",
+ "code_rev": "108cd58",
  "mode": "PILOT-OOS"
 }

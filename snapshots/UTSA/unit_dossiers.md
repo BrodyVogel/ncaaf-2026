@@ -24,7 +24,7 @@ Proxy (audit): QB 50 | RB 88 | WRTE 57 | OL 38 | DL 1 | LB 19 | DB 11 | ST 16.
 
 ## DL — 7th pctile and raided
 - Ozowalu (74.5) -> Oklahoma, Otutu -> Cincy, Wimberly -> Baylor, J.Jones (74.5) expired. Returns
-  Anyanwu (63.4/278) -> VIRGINIA [corrected 2026-07-15], Buxton (62.7/275), Shaw (59.0/397, yr-2), Blaylock. Adds: TT pair
+  Anyanwu (63.4/278) -> VIRGINIA [corrected 2026-07-15], Jameian Buxton (62.7/275), Vic Shaw (59.0/397) -> NMSU [corrected 2026-07-15], Blaylock. Adds: TT pair
   (Spencer/Smith), Fite (UL), Acheampong (BG), Baldwin (UTEP). 22, L.
 
 ## LB — Banks expired; mid-tier returns

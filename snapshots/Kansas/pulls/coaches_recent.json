@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Lance",
+  "lastName": "Leipold",
+  "hireDate": "2021-04-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Kansas",
+    "year": 2024,
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": 22,
+    "postseasonRank": null,
+    "srs": 10.8,
+    "spOverall": 4.9,
+    "spOffense": 32.4,
+    "spDefense": 26.5
+   }
+  ]
+ },
+ {
+  "firstName": "Lance",
+  "lastName": "Leipold",
+  "hireDate": "2021-04-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Kansas",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 3.2,
+    "spOverall": 4.1,
+    "spOffense": 30.9,
+    "spDefense": 28.5
+   }
+  ]
+ }
+]

@@ -40,7 +40,18 @@ def check(root):
         outs[player_norm(r["firstName"] + " " + r["lastName"])] = r.get("destination")
     meta = json.load(open(f"{root}/META.json")) if os.path.exists(f"{root}/META.json") else {}
     overrides = {player_norm(n) for n in meta.get("portal_withdrawal_overrides", [])}
+    name_exceptions = {player_norm(n) for n in meta.get("known_name_exceptions", [])}
     violations = []
+
+    roster_names = set()
+    rp = f"{root}/pulls/roster_2025.json"
+    if os.path.exists(rp):
+        for pl in json.load(open(rp)):
+            roster_names.add(player_norm(pl.get("firstName", "") + " " + pl.get("lastName", "")))
+    ip = f"{root}/pulls/portal_2026_in.json"
+    if os.path.exists(ip):
+        for pl in json.load(open(ip)):
+            roster_names.add(player_norm(pl.get("firstName", "") + " " + pl.get("lastName", "")))
 
     # 1) grades.json key_players
     gp = f"{root}/grades.json"
@@ -49,6 +60,21 @@ def check(root):
             for kp in d.get("key_players", []):
                 nm = player_norm(kp["name"])
                 role = kp.get("role", "").lower()
+                variant_known = any((r.startswith(nm) or nm.startswith(r))
+                                    for r in roster_names if len(nm) > 8 and len(r) > 8)
+                if nm in name_exceptions or any(w in role for w in ("signee", "prospect", "recruit", "fr,", "battle")):
+                    pass
+                elif nm not in roster_names and nm not in outs and not variant_known:
+                    # unknown name = possible mis-citation (the McAlpine lesson): match by surname
+                    sur = nm  # squashed; use last capitalized token of original
+                    toks = kp["name"].split()
+                    sur = player_norm(toks[-1]) if toks else nm
+                    sur_hits = [o for o in outs if o.endswith(sur) and len(sur) > 6]
+                    if sur_hits:
+                        violations.append((d["unit"], kp["name"], f"UNKNOWN NAME; surname matches portal-out {sur_hits}", "key_player-misnamed"))
+                    else:
+                        violations.append((d["unit"], kp["name"], "UNKNOWN NAME (not in roster/arrivals/outs)", "key_player-unknown"))
+                    continue
                 if nm in outs and not any(w in role for w in ("transfer", "add", "signee")):
                     dest = outs[nm]
                     if dest:

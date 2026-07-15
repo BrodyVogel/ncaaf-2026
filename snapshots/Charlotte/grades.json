@@ -49,7 +49,8 @@
    "LB": "+28 (LB caution: proxy can't see Willis's extra year (71.5 grade) or JUCO adds)",
    "ST": "+18 (proxy misses returning P + retained STC; K crisis still prices the unit low)"
   },
-  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Wadle WRTE/TE 48.6/112 (GaSt) - below-average tape for a third TE; 44 unchanged."
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Wadle WRTE/TE 48.6/112 (GaSt) - below-average tape for a third TE; 44 unchanged.",
+  "name_correction_2026_07_15": "'Nic Cruji' unverifiable AND 'Drew Cunningham' = feed's Andrew Cunningham (portal-out) - checker's surname-match caught it. Verified returners: Shirley 56.1/605, Green 61.8/199. Grade 18 unchanged (floor-tier)."
  },
  "grades_detail": [
   {
@@ -168,19 +169,14 @@
    ],
    "key_players": [
     {
-     "name": "Nic Cruji",
-     "role": "C (Maine)",
-     "evidence": "36 career FCS starts - the unit's most proven piece"
+     "name": "Dallas Shirley",
+     "role": "OL, returning",
+     "evidence": "PFF 56.1/605"
     },
     {
-     "name": "J'ven Williams",
-     "role": "LT (Penn State)",
-     "evidence": "former 4-star; 2 career snaps - pedigree-only projection"
-    },
-    {
-     "name": "Kristos Fernandez",
-     "role": "RT, lone returning starter",
-     "evidence": "PFF 50.3 on 337 snaps 2025 (7 starts)"
+     "name": "Rod Green",
+     "role": "OL, returning",
+     "evidence": "PFF 61.8/199"
     }
    ],
    "data_gaps": [

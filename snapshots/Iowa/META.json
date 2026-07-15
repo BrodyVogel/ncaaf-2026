@@ -12,5 +12,8 @@
  "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
  "frozen": true,
  "research_completed_utc": "2026-07-14",
- "research_procedure": "RESEARCH_PROCEDURE.md v2.1 (all 8 steps; loop-until-dry logged in research_log.md)"
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1 (all 8 steps; loop-until-dry logged in research_log.md)",
+ "known_name_exceptions": [
+  "Chris Polizzi"
+ ]
 }

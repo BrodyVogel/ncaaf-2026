@@ -61,6 +61,13 @@ def ledger(root):
                 continue
             grade = next((r[k] for k in GRADE_KEYS if r.get(k)), "?")
             nm = player_norm(r["player"])
+            if nm not in outs:
+                # variant match: unique surname in outs (Drew vs Andrew Cunningham)
+                toks = r["player"].split()
+                sur = player_norm(toks[-1]) if toks else nm
+                hits = [o for o in outs if o.endswith(sur) and len(sur) > 6]
+                if len(hits) == 1:
+                    nm = hits[0]
             if nm in outs:
                 dest = outs[nm]
                 if dest:

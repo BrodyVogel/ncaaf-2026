@@ -18,7 +18,7 @@
    "confidence": "L"
   },
   "DL": {
-   "grade": 20,
+   "grade": 18,
    "confidence": "L"
   },
   "LB": {
@@ -48,7 +48,8 @@
    "ST": "+36 (proxy artifact vs Athlon's returns-all claim)"
   },
   "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +High RB 54.0/23 (Cal) - confirms the 'usage minimal' discount already in the rationale; +Osondu LB 1 snap (inert). No changes.",
-  "departure_correction_2026_07_15": "Overmyer->Houston, Anyanwu->Virginia (feed destinations); Wyrick portal-no-dest + absent from Athlon chart = gone; McCuin->Ohio St per PS. WRTE 52->48, DL 22->20, DB 28->23. departure_check.py now a permanent gate."
+  "departure_correction_2026_07_15": "Overmyer->Houston, Anyanwu->Virginia (feed destinations); Wyrick portal-no-dest + absent from Athlon chart = gone; McCuin->Ohio St per PS. WRTE 52->48, DL 22->20, DB 28->23. departure_check.py now a permanent gate.",
+  "departure_correction_3_2026_07_15": "Vic Shaw -> NMSU (was cited as returning under PS's 'Vie' variant + my invented first names blinded the gate). DL 20 -> 18. Names corrected: Jameian Buxton, AJ Wilson, Cam Upshaw Jr."
  },
  "grades_detail": [
   {
@@ -126,7 +127,7 @@
      "evidence": "PFF 71.4/270"
     },
     {
-     "name": "Jamel Wilson",
+     "name": "AJ Wilson",
      "role": "WR",
      "evidence": "PFF 66.3/237"
     }
@@ -166,27 +167,22 @@
   {
    "team": "UTSA",
    "unit": "DL",
-   "grade": 20,
+   "grade": 18,
    "confidence": "L",
    "bracketing_exemplars": [
     "Florida International QB 2025 (15)",
     "Western Kentucky OL 2025 (25)"
    ],
    "rationale_bullets": [
-    "CORRECTED 2026-07-15 (departure check): Anyanwu (63.4/278, listed yr-2 returner) is GONE to Virginia (portal Jan 9).",
-    "Remaining: Buxton (62.7/275), Shaw (59.0/397) + the Texas Tech transfer pair - a floor-tier room that lost one of its few rotation grades.",
-    "20 = bottom-sixth: thinner than the original 22."
+    "THIRD-PASS CORRECTION 2026-07-15: Vic Shaw (59.0/397) is in the portal-out feed -> New Mexico State (PS's 'Vie Shaw' = Vic Shaw; caught when the hardened name-verification gate flagged the mis-cited first name).",
+    "The room is now: Jameian Buxton (62.7/275, yr-3) + the Texas Tech transfer pair over a floor-tier baseline - Anyanwu (Virginia) and Shaw (NMSU) both gone from the original grade's returner list.",
+    "18 = bottom-eighth: thinnest verified DL of the graded set."
    ],
    "key_players": [
     {
-     "name": "Trey Buxton",
+     "name": "Jameian Buxton",
      "role": "DE, returning",
      "evidence": "PFF 62.7/275"
-    },
-    {
-     "name": "Vie Shaw",
-     "role": "DI, yr-2",
-     "evidence": "PFF 59.0/397"
     }
    ],
    "data_gaps": [
@@ -237,9 +233,9 @@
    ],
    "key_players": [
     {
-     "name": "Grayson Upshaw",
+     "name": "Cam Upshaw Jr.",
      "role": "S, returning",
-     "evidence": "rotation returner"
+     "evidence": "PFF 77.0/102"
     }
    ],
    "data_gaps": [
@@ -263,9 +259,14 @@
    ],
    "key_players": [
     {
-     "name": "(primary specialists)",
-     "role": "returning group",
-     "evidence": "'returns all of last year's primary options' (Athlon 2026)"
+     "name": "Michael Petro",
+     "role": "K, returning (Athlon chart)",
+     "evidence": "UTSA 'returns all primary options' - Athlon"
+    },
+    {
+     "name": "Caile Hogan",
+     "role": "P, returning (Athlon chart)",
+     "evidence": "Athlon depth chart"
     }
    ],
    "data_gaps": [

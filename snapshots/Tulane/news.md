@@ -17,3 +17,7 @@
   Agu ACL recovery status beyond Athlon's framing unknown.
 
 - CORRECTION 2026-07-15 (departure check): Hopper -> Colorado (portal Jan 5). Original research claimed his return; DL re-graded 50 -> 38.
+
+- SECOND CORRECTION 2026-07-15: McAlpine -> Kansas (was re-cited as returning under a wrong first
+  name after the Hopper fix). Full-room audit run; Guidry (83.7/134) surfaced as the real returner.
+  DL 38 -> 35.

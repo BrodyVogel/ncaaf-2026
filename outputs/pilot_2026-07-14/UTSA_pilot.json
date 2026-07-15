@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-07-15T17:10:52+00:00",
+ "run_utc": "2026-07-15T17:41:32+00:00",
  "team": "UTSA",
- "final": -2.9,
+ "final": -2.96,
  "rank": 80,
  "band": 6.72,
- "resid": -3.99,
- "adj": -1.4,
+ "resid": -4.16,
+ "adj": -1.46,
  "class_term": 0.0,
  "st": 0.04,
  "anchor_blend": -2.04,
  "resid_level": 1.21,
- "resid_shape": -5.2,
+ "resid_shape": -5.37,
  "implied_off": 25.4,
- "implied_def": 31.63,
+ "implied_def": 31.8,
  "anchor_off": 29.23,
  "anchor_def": 31.47,
  "fit_r2": {
@@ -20,6 +20,6 @@
   "dfn": 0.615
  },
  "low_conf_units": 4,
- "code_rev": "c8f504d",
+ "code_rev": "108cd58",
  "mode": "PILOT-OOS"
 }

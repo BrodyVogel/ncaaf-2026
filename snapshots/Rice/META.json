@@ -21,5 +21,8 @@
  ],
  "portal_departure_confirmed": [
   "John Long"
+ ],
+ "known_name_exceptions": [
+  "Tariq Watson"
  ]
 }

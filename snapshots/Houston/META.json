@@ -17,5 +17,8 @@
  "coach_change": false,
  "portal_departure_confirmed": [
   "Zavian Tibbs"
+ ],
+ "known_name_exceptions": [
+  "Keisean Henderson"
  ]
 }

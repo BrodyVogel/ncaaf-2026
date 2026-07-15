@@ -25,7 +25,9 @@ Proxy (audit): QB 77 | WRTE 56 | OL 33 | DL 10 | LB 1 | DB 15 | ST 76.
   full rebuild. 30, L.
 
 ## DL — six stalwarts out incl. the anchor (CORRECTED 2026-07-15, departure check)
-- RETURNS: McAlpine (65.2/437), Garner (69.8/274) + Ed Smith (61.1/413, S.Alabama - repair add).
+- RETURNS (2nd correction 2026-07-15): Guidry (83.7/134 - elite flash), Garner (69.8/274), Shepard
+  (60.0/253), Henderson (64.0/122) + Ed Smith (61.1/413, repair add). McAlpine (65.2/437) -> KANSAS
+  (Jan 6; caught via P6-Kansas cross-ref - the first correction had mis-named him and dodged the gate).
 - GONE: Hopper (80.2/661, elite interior) -> COLORADO [original doc wrongly claimed his return;
   his portal-out entry (Jan 5) was in this snapshot's own pulls] + Nairne (Pitt), Dyson (NC State),
   Norman (Tennessee) + Hamilton/Westmoreland expired.

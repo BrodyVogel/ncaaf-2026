@@ -15,5 +15,8 @@
  "frozen": true,
  "research_completed_utc": "2026-07-15",
  "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
- "coach_change": false
+ "coach_change": false,
+ "known_name_exceptions": [
+  "Jake Fette"
+ ]
 }

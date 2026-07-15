@@ -18,5 +18,9 @@
  "portal_departure_confirmed": [
   "Christian Ross",
   "Samson Israel"
+ ],
+ "known_name_exceptions": [
+  "Maarten Woudsma",
+  "Mike Montgomery"
  ]
 }

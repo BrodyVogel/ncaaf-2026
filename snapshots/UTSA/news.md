@@ -13,3 +13,5 @@
   status unverified (not in feed, not Athlon-named - logged).
 
 - CORRECTION 2026-07-15 (departure check): Overmyer -> Houston, Anyanwu -> Virginia, Wyrick portal-no-dest adjudicated GONE (not on Athlon chart); McCuin -> Ohio St (PS). WRTE 52->48, DL 22->20, DB 28->23.
+
+- THIRD CORRECTION 2026-07-15: Vic Shaw -> NMSU (portal-out; 'Vie Shaw' PS variant). DL 20 -> 18. Key-player first names corrected (Jameian/AJ/Cam).
