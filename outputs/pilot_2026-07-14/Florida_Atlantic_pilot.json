@@ -1,0 +1,23 @@
+{
+ "run_utc": "2026-07-15T01:33:32+00:00",
+ "team": "Florida Atlantic",
+ "final": -7.74,
+ "rank": 103,
+ "band": 6.36,
+ "resid": 4.09,
+ "adj": 1.43,
+ "class_term": 1.68,
+ "st": 0.0,
+ "anchor_blend": -11.31,
+ "implied_off": 24.24,
+ "implied_def": 32.05,
+ "anchor_off": 25.1,
+ "anchor_def": 37.0,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.608
+ },
+ "low_conf_units": 2,
+ "code_rev": "c50c35a",
+ "mode": "PILOT-OOS"
+}
