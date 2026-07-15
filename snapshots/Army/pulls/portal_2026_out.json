@@ -1,0 +1,26 @@
+[
+ {
+  "season": 2026,
+  "firstName": "Josh",
+  "lastName": "Manecke",
+  "position": "OT",
+  "origin": "Army",
+  "destination": "James Madison",
+  "transferDate": "2026-01-14T00:25:00.000Z",
+  "rating": 0.79,
+  "stars": 2,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Trey",
+  "lastName": "Tremba",
+  "position": "RB",
+  "origin": "Army",
+  "destination": null,
+  "transferDate": "2025-12-29T22:48:00.000Z",
+  "rating": null,
+  "stars": null,
+  "eligibility": "Immediate"
+ }
+]

@@ -1,0 +1,14 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Brady Small,171015,C,ARMY,13,100.0,0,114,79.6,66.0,79.7,0,4,169,100.0,100.0,98.8,2,4,0,893,893,0,0,893,185,185,0,0,708,0,2025_this_team
+Teddy Williams,171030,T,ARMY,13,100.0,0,114,90.3,63.6,89.9,2,7,169,100.0,100.0,96.7,4,10,1,892,0,0,0,892,185,185,0,800,707,91,2025_this_team
+Henry Appleton,170956,T,ARMY,13,100.0,0,114,72.2,48.7,72.6,3,6,169,100.0,100.0,97.3,1,9,0,892,0,0,778,892,185,185,0,1,707,113,2025_this_team
+Will Jeffcoat,147322,G,ARMY,13,100.0,0,114,91.3,65.1,90.2,1,5,169,100.0,100.0,98.2,2,6,0,890,0,890,0,890,185,185,0,0,705,0,2025_this_team
+Paolo Gennarelli,170976,G,ARMY,11,100.0,3,114,62.8,60.3,64.6,1,4,127,100.0,100.0,98.0,6,5,0,674,0,0,0,674,139,139,673,0,535,1,2025_this_team
+Braden Bartosh,124649,G,ARMY,6,100.0,0,114,68.9,83.3,66.5,1,0,43,100.0,100.0,98.8,0,1,0,234,0,6,0,234,47,47,228,0,187,0,2025_this_team
+Tanner Bivins,163175,C,ARMY,1,100.0,0,114,76.1,70.3,74.0,0,0,1,100.0,100.0,100.0,0,0,0,9,9,0,0,9,1,1,0,0,8,0,2025_this_team
+Ned Brady,163176,T,ARMY,1,100.0,0,114,51.4,0.0,57.6,0,0,1,100.0,100.0,100.0,0,0,0,9,0,0,0,9,1,1,0,8,8,1,2025_this_team
+Tyler Lee,170986,T,ARMY,4,100.0,0,114,68.8,,68.4,0,0,0,,,,0,0,0,8,0,0,3,8,0,0,0,2,8,3,2025_this_team
+Lane Parks,130215,G,ARMY,2,100.0,0,114,73.3,70.6,72.7,0,0,1,100.0,100.0,100.0,0,0,0,7,0,5,0,7,1,1,2,0,6,0,2025_this_team
+Kyle Kloska,158589,C,ARMY,2,100.0,0,114,65.2,,66.4,0,0,0,,,,0,0,0,5,2,3,0,5,0,0,0,0,5,0,2025_this_team
+Xavier Archawski,190494,T,ARMY,2,100.0,0,114,60.9,71.6,60.2,0,0,1,100.0,100.0,100.0,0,0,0,5,0,0,4,5,1,1,0,0,4,1,2025_this_team
+Josh Manecke,190527,T,ARMY,1,100.0,0,114,60.0,,54.6,0,0,0,,,,0,0,0,2,0,0,2,2,0,0,0,0,2,0,2025_this_team
