@@ -1,0 +1,26 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Michael Van Buren Jr.,SO,LSU transfer (Miss State 2024 before),Athlon favorite; started 4 games for LSU 2025 (PFF 68.8/181) + full-time MissSt starter as FR 2024; former 4-star; Byrum Brown (91.5/405) -> Auburn w/ Golesh
+QB,QB,2,Luke Kromenhoek / Jayden Bradford / KJ Cooper,,Miss State / Liberty / Texas Southern,depth
+RB,RB,1,D.J. Crowther,,Dartmouth (FCS) transfer,929 yds 10 TD 2025 (Athlon)
+RB,RB,1,Jason Collins Jr.,,Morgan State (FCS) transfer,1009 yds in 18 career games (Athlon)
+RB,RB,2,Alvon Isaac,SO,returner (yr-2),PFF 65.3/74; Davenport (83.9/97) -> Auburn; Franklin expired
+WRTE,WR,1,Bryson Rodgers,,Ohio State transfer,Tampa-area product who PLAYED FOR HARTLINE at OSU (Athlon)
+WRTE,WR,1,Mudia Reuben,SR,RETURNER (Athlon explicit holdover),PFF 70.8/193 (year-field says 4 - Athlon overrides)
+WRTE,WR,2,Arhmad Branch / Jaron Glover / Cameron Seldon / Armani Winfield / Kenny Odom,,Purdue / MissSt / VaTech / CSU / UTEP,P4 quartet + G5 vets; DEPARTED: Singleton (74.0/343) + Koger + Neptune + Nimrod all -> Auburn
+WRTE,TE,1,Wyatt Sullivan,,returner (yr-3),PFF 56.0/151; + Caton (Oregon) / Clyburn (Furman)
+OL,OL,1,Ethan Green / Michael Wooten / Julius Tate / Caleb Cook / Devin Davis,,Cincinnati / Arizona / Coastal / GaSouthern / Charlotte,"largest OL in school history (6-5 315 avg - Athlon)"; ENTIRE 2025 line gone (Best 72.3/879 + Skinner -> Auburn; McLaughlin/Herring/Shrader/Bowman year-4 expired)
+OL,OL,2,Jaylin Acevedo / Cash Hudson / Kahari Finley,,Navy / Missouri State / Morgan State,depth adds
+DL,JACK,1,C.J. Hicks,,Ohio State transfer,former 5-star; hybrid Jack (Athlon)
+DL,JACK,1,Shamar Meikle,,Oregon State transfer,hybrid Jack pair w/ Hicks (Athlon)
+DL,NT,1,Major Dillard,,Norfolk State (FCS) transfer,330 lbs - "will demand attention" (Athlon)
+DL,DL,2,Asani Redwood / Terrell Jones / Terry Simmons / Harrysson Ngassa / Marshon Oxley,,WVU / Virginia / Duke / Illinois / WVU,P4-depth rebuild; DEPARTED (yr-4 expired): Mitchell (80.2/439) + Flowers (79.4/394) + Lee (73.6/479) + Celiscar (57.7/546); Singleton IV -> SMU
+LB,OLB,1,Grayson Howard,,Florida transfer,former starter; injury-plagued 2025 (Athlon) - "playmaking potential"
+LB,LB,1,Zavier Hamilton / Rodney Hill,SO/SO,returners (yr-2),Hamilton 64.5/205; Hill 72.2/148; DEPARTED: Mac Harris (83.4/818) + Shuler (62.3/803) yr-4 expired
+LB,LB,2,Michael Harris / Sam Robinson,,Maryland / Rutgers,M.Harris 64.8/67; Robinson 44.2/97
+DB,S,1,Tavin Ward,SR,RETURNER (Athlon explicit: 4th season as starter),PFF 68.2/642 - "leadership and stability"
+DB,CB,1,Za'Quan Bryan,,Minnesota transfer,"playmaking potential" (Athlon)
+DB,S,1,Israel Boyce,,West Virginia transfer,Athlon named
+DB,DB,2,Tayvion Beasley / Teddy Foster / A'mon Lane-Ganus / Amarion Fortenberry / JR Rosenberg / Malcolm Ziglar / Ayden Jackson / Cedrick Hawkins,,BYU/Florida/Auburn/KSU/A&M/UNC/GaSo/returner,P4 quantity; DEPARTED: Duclona (74.7/581) -> GT + Lee (66.4/656) -> SMU + Chenault -> Utah + Rucker/Stokes/Knox/Gaskin expired/Auburn
+ST,K,1,Nico Gramatica,SO,RETURNER (yr-2),18-24 FG 2025 (Athlon); Zouagui (2nd K) -> Kentucky
+ST,P,1,(unnamed; Lawson Thorn - Wingate D2 - added),,,gap: 2026 punter unconfirmed in accessible sources
+ST,COORD,1,Brian Hartline (HC yr 1) / DC Josh Aldridge (ECU),,,COACH CHANGE x1.13; Aldridge's ECU D led AAC in 7 categories 2025 (348.8 ypg / 20.3 ppg)

@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Alex",
+  "lastName": "Golesh",
+  "hireDate": "2022-12-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "South Florida",
+    "year": 2024,
+    "games": 13,
+    "wins": 7,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -4.5,
+    "spOverall": -2.3,
+    "spOffense": 29.5,
+    "spDefense": 33.4
+   }
+  ]
+ },
+ {
+  "firstName": "Alex",
+  "lastName": "Golesh",
+  "hireDate": "2022-12-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "South Florida",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 12.6,
+    "spOverall": 11.6,
+    "spOffense": 37.7,
+    "spDefense": 25.3
+   }
+  ]
+ }
+]

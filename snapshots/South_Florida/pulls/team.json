@@ -1,0 +1,36 @@
+{
+ "id": 58,
+ "school": "South Florida",
+ "mascot": "Bulls",
+ "abbreviation": "USF",
+ "alternateNames": [
+  "USF",
+  "South Florida"
+ ],
+ "conference": "American Athletic",
+ "division": null,
+ "classification": "fbs",
+ "color": "#004A36",
+ "alternateColor": "#231f20",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/58.png"
+ ],
+ "twitter": "@USFFootball",
+ "location": {
+  "id": 3886,
+  "name": "Raymond James Stadium",
+  "city": "Tampa",
+  "state": "FL",
+  "zip": "33620",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 27.9758691,
+  "longitude": -82.5033344,
+  "elevation": "11.07972908",
+  "capacity": 65828,
+  "constructionYear": 1998,
+  "grass": true,
+  "dome": false
+ }
+}
