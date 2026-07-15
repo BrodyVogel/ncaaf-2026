@@ -16,5 +16,13 @@
  "coach_change": "Mortensen first full season (interim after Dilfer mid-2025 firing) - x1.13 applies",
  "portal_withdrawal_overrides": [
   "Calib Perez"
+ ],
+ "portal_departure_confirmed": [
+  "Amorie Morrison",
+  "Eddy Toussom",
+  "J.C. Sivley",
+  "JaSire Peterson",
+  "Jeremiah Vessel",
+  "Pierre Royster"
  ]
 }

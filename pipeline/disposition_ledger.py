@@ -27,7 +27,7 @@ GRADE_KEYS = ("grades_offense", "grades_defense")
 
 
 def ledger(root):
-    outs, roster, overrides = {}, {}, set()
+    outs, roster, overrides, confirmed_gone = {}, {}, set(), set()
     op = f"{root}/pulls/portal_2026_out.json"
     if os.path.exists(op):
         for r in json.load(open(op)):
@@ -38,7 +38,9 @@ def ledger(root):
             roster[player_norm(p.get("firstName", "") + " " + p.get("lastName", ""))] = p.get("year")
     mp = f"{root}/META.json"
     if os.path.exists(mp):
-        overrides = {player_norm(n) for n in json.load(open(mp)).get("portal_withdrawal_overrides", [])}
+        meta = json.load(open(mp))
+        overrides = {player_norm(n) for n in meta.get("portal_withdrawal_overrides", [])}
+        confirmed_gone = {player_norm(n) for n in meta.get("portal_departure_confirmed", [])}
     rows = []
     for u in ["QB", "RB", "WRTE", "OL", "DL", "LB", "DB"]:
         f = f"{root}/pff/unit_{u}.csv"
@@ -65,6 +67,8 @@ def ledger(root):
                     status = f"PORTAL->{dest}"
                 elif nm in overrides:
                     status = "WITHDREW (override)"
+                elif nm in confirmed_gone:
+                    status = "PORTAL(none)-GONE (adjudicated)"
                 else:
                     status = "PORTAL(none)-ADJUDICATE"
             elif roster.get(nm) == 4:

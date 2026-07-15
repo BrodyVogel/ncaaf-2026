@@ -17,5 +17,8 @@
  "coach_change": false,
  "portal_withdrawal_overrides": [
   "Wilky Denaud"
+ ],
+ "portal_departure_confirmed": [
+  "Eric Brantley Jr."
  ]
 }

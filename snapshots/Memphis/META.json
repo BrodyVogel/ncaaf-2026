@@ -14,5 +14,9 @@
  "frozen": true,
  "research_completed_utc": "2026-07-14",
  "research_procedure": "RESEARCH_PROCEDURE.md v2.1 (all 8 steps; loop-until-dry in research_log.md)",
- "coach_change": "Huff (SM) in for Silverfield (Arkansas) Dec 2025 - variance multiplier 1.13 applies"
+ "coach_change": "Huff (SM) in for Silverfield (Arkansas) Dec 2025 - variance multiplier 1.13 applies",
+ "portal_departure_confirmed": [
+  "Christian Ross",
+  "Samson Israel"
+ ]
 }
