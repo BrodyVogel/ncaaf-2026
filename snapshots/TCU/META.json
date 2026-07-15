@@ -29,6 +29,10 @@
  "adjudication_notes": {
   "Ka'Morreun Pimpton": "portal destination None; Athlon May TE1 + PS May lineup (PS#51) + P6 'exploded in spring' -> WITHDREW, returns",
   "Paul Oyewale": "portal destination None; Athlon May DE1 + PS May lineup DE1 + P6 'rotational veteran' -> WITHDREW, returns",
-  "others": "4 destination-None outs absent from all May prints -> GONE per standing rule"
- }
+  "others": "4 destination-None outs absent from all May prints -> GONE per standing rule",
+  "ledger_audit_2026-07-15": "2026-07-15 league ledger audit (user-prompted): status from the FROZEN research prose/two-deep (May-print evidence class); auto-ledger heuristic rows corrected to match. Zero grade impact - grades were prose-based throughout."
+ },
+ "yr4_return_overrides_documented": [
+  "Cade Bennett"
+ ]
 }

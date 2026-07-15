@@ -10,3 +10,5 @@
 - charlotte49ers.com spring notebook: fetched via search snippet only (QB room feature) - low content.
 - Pierre-Nau + Tradarius Smith origins absent from CFBD portal feed (JUCO pathway) - resolved via PS/Athlon.
 - Sean Brown (78.0/229 in 2025) destination: not in CFBD portal-out; "lost" per Post - assumed graduated/left; no article found.
+
+- Eli Samples (OL): feed eligibility=Withdrawn supersedes the May-print-absence GONE adjudication. Depth piece (60.2/129) - no grade impact. 2026-07-15.

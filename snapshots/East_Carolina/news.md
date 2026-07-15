@@ -10,3 +10,5 @@
 - underdogdynasty ECU preview robots-disallowed; 247 ECU articles VIP-paywalled (headlines only).
 - 2025 ECU kicker identity (why Conrad "takes over again") - not found in accessible sources; Conrad's own 2025 usage unclear (logged gap).
 - reflector.com spring-game article date not printed on page (April 2026 by context).
+
+- Samuel Dankah (LB): feed eligibility=Withdrawn supersedes the GONE adjudication. 57.3/528 volume returns to a unit graded 25L on quality (returning volume already counted) - no grade impact. 2026-07-15.

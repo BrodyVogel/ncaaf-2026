@@ -11,3 +11,5 @@
 - Scarlee Jean (G, 63.9 on 970 snaps 2025): absent from 2026 Athlon chart, NOT in portal feed, no
   departure article found - presumed eligibility-expired; UNRESOLVED (logged).
 - Veltkamp shoulder surgery recovery status: no post-spring update found (2 searches).
+
+- Vince Fiacable (IOL): feed eligibility=Withdrawn confirms the Athlon-chart return (RG1; best returning OL grade). Override registered 2026-07-15 (league field audit).

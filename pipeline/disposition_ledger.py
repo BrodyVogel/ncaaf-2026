@@ -37,7 +37,7 @@ def ledger(root):
         for p in json.load(open(rp)):
             roster[player_norm(p.get("firstName", "") + " " + p.get("lastName", ""))] = p.get("year")
     mp = f"{root}/META.json"
-    nfl_declares = set()
+    nfl_declares, research_gone, yr4_returns = set(), set(), set()
     if os.path.exists(mp):
         meta = json.load(open(mp))
         overrides = {player_norm(n) for n in meta.get("portal_withdrawal_overrides", [])}
@@ -45,6 +45,11 @@ def ledger(root):
         # early NFL declares are invisible to feeds (not portal, not yr-4); research
         # documents them in META nfl_declare_confirmed + news.md (Utah Fano/Lomu case)
         nfl_declares = {player_norm(n) for n in meta.get("nfl_declare_confirmed", [])}
+        # research-confirmed departures the feeds miss for other reasons (feed year-field
+        # wrong, short-surname portal name-form, academy grads) - 2026-07-15 league audit
+        research_gone = {player_norm(n) for n in meta.get("departure_confirmed_research", [])}
+        # yr-4 players whose RETURN is magazine-evidenced (bonus/medical year, May prints)
+        yr4_returns = {player_norm(n) for n in meta.get("yr4_return_overrides_documented", [])}
     rows = []
     for u in ["QB", "RB", "WRTE", "OL", "DL", "LB", "DB"]:
         f = f"{root}/pff/unit_{u}.csv"
@@ -96,6 +101,10 @@ def ledger(root):
                     status = "PORTAL(none)-ADJUDICATE"
             elif nm in nfl_declares:
                 status = "NFL-DECLARE (research)"
+            elif nm in research_gone:
+                status = "GONE (research)"
+            elif nm in yr4_returns:
+                status = "RETURNS (yr4 override, May-print)"
             elif roster.get(nm) == 4:
                 status = "EXPIRED(yr4)*"  # * unless magazine override recorded in news.md
             else:

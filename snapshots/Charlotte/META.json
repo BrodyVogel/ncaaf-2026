@@ -17,11 +17,19 @@
  "coach_change": false,
  "portal_withdrawal_overrides": [
   "Curtis Simpson",
+  "Eli Samples",
   "Gavin Willis"
  ],
  "portal_departure_confirmed": [
   "Cheick Kaba",
-  "Eli Samples",
   "Mason Bowers"
- ]
+ ],
+ "yr4_return_overrides_documented": [
+  "Gus McGee",
+  "Kristos Fernandez"
+ ],
+ "adjudication_notes": {
+  "ledger_audit_2026-07-15": "2026-07-15 league ledger audit (user-prompted): status from the FROZEN research prose/two-deep (May-print evidence class); auto-ledger heuristic rows corrected to match. Zero grade impact - grades were prose-based throughout.",
+  "Eli Samples": "feed eligibility='Withdrawn' (2026-07-15 field audit): depth OL 60.2/129; was adjudicated GONE on May-print absence - feed flag supersedes; no grade impact (backup, low grade)"
+ }
 }

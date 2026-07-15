@@ -13,5 +13,15 @@
  "frozen": true,
  "research_completed_utc": "2026-07-15",
  "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
- "coach_change": "Neal Brown in for Eric Morris (OkState) Dec 2025 - x1.13 applies"
+ "coach_change": "Neal Brown in for Eric Morris (OkState) Dec 2025 - x1.13 applies",
+ "departure_confirmed_research": [
+  "Tay Yanta II"
+ ],
+ "adjudication_notes": {
+  "ledger_audit_2026-07-15": "2026-07-15 league ledger audit (user-prompted): status from the FROZEN research prose/two-deep (May-print evidence class); auto-ledger heuristic rows corrected to match. Zero grade impact - grades were prose-based throughout.",
+  "Jayden Becks": "feed eligibility='Withdrawn' (2026-07-15 field audit): RB, negligible 2025 volume; immaterial"
+ },
+ "portal_withdrawal_overrides": [
+  "Jayden Becks"
+ ]
 }

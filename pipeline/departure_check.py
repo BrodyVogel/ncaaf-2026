@@ -44,6 +44,8 @@ def check(root):
     # early NFL declares: research-confirmed GONE (META nfl_declare_confirmed); citing one
     # as a returner is a violation exactly like a portal departure (Utah Fano/Lomu case)
     nfl_declares = {player_norm(n) for n in meta.get("nfl_declare_confirmed", [])}
+    # same for other research-confirmed departures the feeds miss (2026-07-15 audit)
+    nfl_declares |= {player_norm(n) for n in meta.get("departure_confirmed_research", [])}
     violations = []
 
     roster_names = set()
