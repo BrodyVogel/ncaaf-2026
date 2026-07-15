@@ -1,0 +1,325 @@
+{
+ "team": "Houston",
+ "units": {
+  "QB": {
+   "grade": 62,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 55,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 60,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 42,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 73, RB null, WRTE 76, OL 62, DL 71, LB 52, DB 70, ST 40)",
+   "OL": "-16 vs proxy 62 (proxy counts expired Merryman/Wykoff/Brooks as returning; my 46 prices the verified trio instead)",
+   "DL": "-16 vs proxy 71 (proxy rides expired Walls/Allen - the top two)",
+   "DB": "-10 vs proxy 70 (proxy carries expired All-B12 pair McCutchin/Brown)",
+   "QB": "-11 vs proxy 73 (proxy near-right for once; mine slightly lower on efficiency tier)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Houston",
+   "unit": "QB",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
+   "rationale_bullets": [
+    "Weigman returns off a career year: 74.4/437, 2,705 (65%, 25-9) + 700 rush/11 TD, #5 B12 rating, Texas Bowl MVP - with his first healthy offseason AND first repeat coordinator (Nagle yr 2).",
+    "The room behind him is unique: the #1 overall recruit (Henderson) may take packages; Carney (Cuse) adds a third layer.",
+    "The scout's line is attributed: 'a stud. Tough, gritty, winner... they'll run the hell out of him.'",
+    "62 = solidly above average: proven P4 production + dual continuity, efficiency a notch under elite."
+   ],
+   "key_players": [
+    {
+     "name": "Conner Weigman",
+     "role": "QB1",
+     "evidence": "PFF 74.4/437; 2,705/25-9 + 700/11"
+    },
+    {
+     "name": "Keisean Henderson",
+     "role": "5* #1 overall, packages",
+     "evidence": "P6/Athlon spring reports"
+    }
+   ],
+   "data_gaps": [
+    "Henderson usage"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Houston",
+   "unit": "RB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Connors (76.6/337; 977 + 254 rec) graduated - but the replacement is scheme-native: Hughes ran for 1,378 + 1,401 in Fritz's own Tulane offense before a buried 70-yard year at Oregon.",
+    "Depth is proven: Butler (75.5/104), Sanford (2024 leading rusher, back from ACL). PS: '3-headed monster... all block well.'",
+    "52 = above average: the Hughes projection carries coach-continuity evidence; the burial year and ACL return are the risk."
+   ],
+   "key_players": [
+    {
+     "name": "Makhi Hughes",
+     "role": "RB1",
+     "evidence": "2,779 yds over 2Y for Fritz at Tulane; 70 yds at Oregon LY"
+    },
+    {
+     "name": "DJ Butler",
+     "role": "RB2",
+     "evidence": "PFF 75.5/104"
+    }
+   ],
+   "data_gaps": [
+    "Hughes rebound",
+    "Sanford ACL"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Houston",
+   "unit": "WRTE",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "A 1st-team All-B12 WR1 returns: Thomas (79.2/397 - 966/12); the 2025 offense funneled 141 catches to him + Koziol vs 45 for everyone else.",
+    "Koziol (78.9/322, FBS TE-high 74 rec) left for the NFL, but the swap is verified: Overmyer (76.2/212 - 'NFL-caliber,' Athlon) + Walker (69.4/419; 1,714 over 2Y at OSU).",
+    "Depth thickens (Young 8 starts, Athlon-bold Broussard, Turner/Tounkara, 4* Bushnell); PS: 'more depth and playmaking options than in recent seasons.'",
+    "58 = above average: elite piece + verified replacements, no proven third target."
+   ],
+   "key_players": [
+    {
+     "name": "Amare Thomas",
+     "role": "WR1, 1st-tm All-B12",
+     "evidence": "PFF 79.2/397; 966/12"
+    },
+    {
+     "name": "Patrick Overmyer",
+     "role": "TE1",
+     "evidence": "PFF 76.2/212 at UTSA"
+    },
+    {
+     "name": "Trent Walker",
+     "role": "WR2",
+     "evidence": "PFF 69.4/419; 1,714 L2Y"
+    }
+   ],
+   "data_gaps": [
+    "Third-target emergence"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Houston",
+   "unit": "OL",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The baseline is bad (27th-pctile as-played, #106 P6 Run Push) and the returning tackles are the weakest verified pieces (Ebosele 54.5/957, Agnello 62.5/773).",
+    "But the incoming trio is the best OL tape haul of our round: Hurst (80.7/934, 1st-tm AAC - 'one of the better guards in the portal'), Boswell (77.0/819, 1st-tm MAC), Terrill (76.8/734, All-MAC) - each better than anything they lose.",
+    "The trajectory is attributed: 135->178 rush and 33->19 sacks year-over-year; PS: 'should continue to improve.'",
+    "46 = fringe-below-average: three verified all-league adds pull a bottom-third line toward the middle; the tackles cap it."
+   ],
+   "key_players": [
+    {
+     "name": "Shadre Hurst",
+     "role": "LG",
+     "evidence": "PFF 80.7/934; 1st-tm All-AAC"
+    },
+    {
+     "name": "Anthony Boswell",
+     "role": "C",
+     "evidence": "PFF 77.0/819; 1st-tm MAC"
+    },
+    {
+     "name": "Drew Terrill",
+     "role": "RT",
+     "evidence": "PFF 76.8/734; All-MAC"
+    }
+   ],
+   "data_gaps": [
+    "Tackle play",
+    "New-five cohesion"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Houston",
+   "unit": "DL",
+   "grade": 55,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "An 84th-pctile as-played unit loses exactly its top two: Walls (77.4/779, sack leader) and Allen (73.3/679, #1 tackler).",
+    "The rotation that returns is real: Laufau (72.1/696), Mack (69.6/515, 5 sk), McCutchin (68.2/379), Parker - plus adds Porter (Oregon 4*, 66.3/245), D.Thomas (OkSt), All-Ivy Egodogbare.",
+    "PS: 'need that crop of big DL to emerge... depth and talent mix to be as good or better' - conditional, attributed.",
+    "55 = above average: quality rotation, top-end departed."
+   ],
+   "key_players": [
+    {
+     "name": "Khalil Laufau",
+     "role": "DT, returning starter",
+     "evidence": "PFF 72.1/696"
+    },
+    {
+     "name": "Brandon Mack II",
+     "role": "JACK",
+     "evidence": "PFF 69.6/515; 5 sk"
+    }
+   ],
+   "data_gaps": [
+    "Interior after Allen"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Houston",
+   "unit": "LB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Both 2025 flankers gone (Garner 65.2/665 grad; Platt 67.9/357 -> TT); Fotu (67.2/543, bold) anchors the middle.",
+    "Adds carry production pedigree with modest grades: Yates (62.5/371 at Ole Miss; 115 tkl at Marshall '24), Malone (64.8/342 WKU).",
+    "PS: 'the first 3 are rock solid but the team is still looking for a fourth ILB.' LB caution rule: grades and framing roughly agree - average-minus room.",
+    "48 = fringe-average."
+   ],
+   "key_players": [
+    {
+     "name": "Sione Fotu",
+     "role": "MLB, returning starter",
+     "evidence": "PFF 67.2/543"
+    },
+    {
+     "name": "Jaden Yates",
+     "role": "WLB",
+     "evidence": "9 st at Ole Miss; 115 tkl at Marshall '24"
+    }
+   ],
+   "data_gaps": [
+    "Fourth ILB"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Houston",
+   "unit": "DB",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
+   "rationale_bullets": [
+    "Three bold returning starters (James 77.8/562 - all-league; Allen 76.3/676; Webb 65.9/812, all 13 starts) from an 88th-pctile unit - Athlon calls it 'the unit's strength.'",
+    "The losses are elite (L.McCutchin 78.2/796 + W.Brown 83.9/490, both All-B12) and the depth thinned by graduations.",
+    "Adds are targeted: White (Tulane All-AAC, 68.5/654) at nickel, Mayo (SFA, 4 INT - 'played well against Houston in the opener'), 4* Melvin early.",
+    "60 = top-40: three proven starters + verified nickel vs two elite exits."
+   ],
+   "key_players": [
+    {
+     "name": "Will James",
+     "role": "CB1, all-league",
+     "evidence": "PFF 77.8/562"
+    },
+    {
+     "name": "Jordan Allen",
+     "role": "SS",
+     "evidence": "PFF 76.3/676"
+    },
+    {
+     "name": "Javion White",
+     "role": "STAR",
+     "evidence": "All-AAC at Tulane; PFF 68.5/654"
+    }
+   ],
+   "data_gaps": [
+    "CB2 (FCS tape)",
+    "Thinned depth"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Houston",
+   "unit": "ST",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The 6-1 one-score season leaned on K Sanchez (21-26, three game-winners) - and he's gone, with a three-way battle behind (experienced Yoakam vs #1-prospect Noel vs Dimas).",
+    "P Dougherty returns (44.1 career-best avg, but 39.2 net and a #84-88 STR history); RM Mews gone.",
+    "SPEC 72.4 = 40th pctile; PS: 'may take a step back.' 42 = below average."
+   ],
+   "key_players": [
+    {
+     "name": "Liam Dougherty",
+     "role": "P, returning",
+     "evidence": "44.1 avg / 39.2 net"
+    },
+    {
+     "name": "Evan Noel",
+     "role": "K battle",
+     "evidence": "#1 K prospect of 2025 class"
+    }
+   ],
+   "data_gaps": [
+    "Zero returning FG tape"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
