@@ -1,0 +1,110 @@
+{
+ "team": "South Florida",
+ "units": {
+  "QB": {"grade": 48, "confidence": "M"},
+  "RB": {"grade": 38, "confidence": "M"},
+  "WRTE": {"grade": 48, "confidence": "M"},
+  "OL": {"grade": 32, "confidence": "L"},
+  "DL": {"grade": 35, "confidence": "M"},
+  "LB": {"grade": 30, "confidence": "L"},
+  "DB": {"grade": 30, "confidence": "L"},
+  "ST": {"grade": 48, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 62, WRTE 20, OL 34, DL 49, DB 19, ST 38)",
+   "QB": "-14 (proxy over-credits Van Buren's 68.8 LSU row at face value; grade prices the Brown->VB downgrade)",
+   "WRTE": "+28 (proxy misses Reuben's magazine-verified return + the P4 quartet + Hartline brand)",
+   "DL": "-14 (proxy rides yr-4 seniors as returning - artifact, superseded by roster-class check)",
+   "DB": "+11 (Ward verified returning + P4 adds)",
+   "ST": "+10 (returning 18-24 kicker)"
+  }
+ },
+ "grades_detail": [
+  {"team": "South Florida", "unit": "QB", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "Losing a 93rd-pctile season (Byrum Brown 91.5/405 -> Auburn with Golesh) but replacing it with the best-credentialed new QB in this AAC batch: Van Buren started 4 games for LSU in 2025 (PFF 68.8/181) AND was Mississippi State's full-time starter as a true freshman in 2024; former 4-star; Athlon's stated favorite.",
+    "Depth is real (Kromenhoek-MissSt, Bradford-Liberty); Hartline's OSU offensive pedigree is the scheme tailwind (attributed).",
+    "48 = fringe-average: proven young P4 starting production, clear downgrade from Brown, upside profile."
+   ],
+   "key_players": [{"name": "Michael Van Buren Jr.", "role": "QB1 favorite (Athlon)", "evidence": "4 LSU starts 2025 (68.8/181); MissSt full-time FR starter 2024; former 4-star"}],
+   "data_gaps": ["Battle not formally closed", "Fit in Hartline's first playcalling structure unknown"],
+   "g5_guard_note": null},
+  {"team": "South Florida", "unit": "RB", "grade": 38, "confidence": "M",
+   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "rationale_bullets": [
+    "Every 2025 back is gone (Davenport 83.9/97 to Auburn; Franklin expired); the room is an FCS import pair - Crowther (Dartmouth: 929/10 - Ivy discount is heavy) and Collins (Morgan St: 1,009 career) - plus yr-2 Isaac (65.3/74).",
+    "Athlon frames reliance on the two imports explicitly; no FBS production in the room.",
+    "38 = bottom-third with translation risk stacked."
+   ],
+   "key_players": [{"name": "D.J. Crowther", "role": "RB1 (Dartmouth)", "evidence": "929 yds, 10 TD 2025 FCS (Athlon)"}],
+   "data_gaps": ["Ivy/MEAC translation", "No FBS carries in the room beyond 74"],
+   "g5_guard_note": null},
+  {"team": "South Florida", "unit": "WRTE", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "The Hartline showcase: a P4 quartet (Rodgers-OSU who played for him, Branch-Purdue, Glover-MissSt, Seldon-VT) around verified holdovers Reuben (70.8/193 - magazine-override return) and TE Sullivan; the HC's NFL-WR-development brand is the attributed multiplier.",
+    "Departures were the 2025 volume (Singleton 74.0/343 + three more to Auburn) from a 64th-pctile room.",
+    "48 = fringe-average: no proven FBS #1 yet, highest-upside skill room in the batch."
+   ],
+   "key_players": [{"name": "Mudia Reuben", "role": "holdover WR", "evidence": "PFF 70.8/193; Athlon-verified 2026 return"}, {"name": "Bryson Rodgers", "role": "WR (OSU, Hartline history)", "evidence": "played for Hartline at Ohio State (Athlon)"}],
+   "data_gaps": ["Quartet's combined 2025 production is modest", "QB timing new"],
+   "g5_guard_note": null},
+  {"team": "South Florida", "unit": "OL", "grade": 32, "confidence": "L",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Illinois RB 2025 (32)"],
+   "rationale_bullets": [
+    "The entire 2025 line is gone (Best 72.3/879 + Skinner 70.8/412 to Auburn; four 600+-snap seniors expired) from a 55th-pctile unit.",
+    "The rebuild is mass-first ('largest line in school history,' 6-5/315 avg - Athlon) via G5/P4-backup transfers (Green-Cincy, Wooten-Arizona, Tate-Coastal, Cook-GaSo, Davis-Charlotte); none carries a strong 2025 grade at volume.",
+    "32 = bottom-third: zero cohesion, zero proven starters, size as the only documented asset."
+   ],
+   "key_players": [{"name": "Ethan Green", "role": "OT (Cincinnati)", "evidence": "transfer starter candidate (Athlon OL framing)"}],
+   "data_gaps": ["No projected starter has a 2025 grade above the mid-60s at volume", "Alignment unknown"],
+   "g5_guard_note": null},
+  {"team": "South Florida", "unit": "DL", "grade": 35, "confidence": "M",
+   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "rationale_bullets": [
+    "The quality seniors are gone (Mitchell 80.2/439, Flowers 79.4/394, Lee 73.6/479 - roster-class verified) from a 28th-pctile unit; the proxy's 49 rides that senior artifact and is superseded.",
+    "The rebuild has real pedigree: Hicks (OSU former 5-star) + Meikle (Oregon State) at the hybrid Jack, 330-lb Dillard at NT, plus WVU/UVA/Duke/Illinois depth - and DC Aldridge imports the credo from an ECU defense that led the AAC in seven categories (Athlon).",
+    "35 = bottom-third with the widest scheme-driven upside in the bottom tier."
+   ],
+   "key_players": [{"name": "C.J. Hicks", "role": "Jack (Ohio State)", "evidence": "former 5-star; 'havoc-creating' framing (Athlon)"}, {"name": "Major Dillard", "role": "NT (Norfolk State)", "evidence": "330 lbs; 'will demand attention' (Athlon)"}],
+   "data_gaps": ["Hicks's OSU snaps were limited (unverified volume)", "FCS NT translation"],
+   "g5_guard_note": null},
+  {"team": "South Florida", "unit": "LB", "grade": 30, "confidence": "L",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Illinois RB 2025 (32)"],
+   "rationale_bullets": [
+    "The 83.4-graded 818-snap anchor (Mac Harris) and his 803-snap partner (Shuler) both expired; what returns is young and small-sample (Hill 72.2/148, Hamilton 64.5/205 - both yr-2).",
+    "Howard (Florida) is the swing piece: a former SEC starter coming off an injury-plagued 2025 ('playmaking potential' - Athlon); Maryland/Rutgers adds behind.",
+    "LB caution; 30 = bottom-third: pedigree + youth, no proven current production."
+   ],
+   "key_players": [{"name": "Grayson Howard", "role": "OLB (Florida)", "evidence": "former starter; injury-plagued 2025 (Athlon)"}, {"name": "Rodney Hill", "role": "LB, yr-2 returner", "evidence": "PFF 72.2 on 148 snaps 2025"}],
+   "data_gaps": ["Howard health", "No returner above 205 snaps"],
+   "g5_guard_note": null},
+  {"team": "South Florida", "unit": "DB", "grade": 30, "confidence": "L",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Illinois RB 2025 (32)"],
+   "rationale_bullets": [
+    "One verified anchor: Ward (68.2/642), entering his FOURTH season as a starter (Athlon magazine-override return) - 'leadership and stability.'",
+    "Everything else turned over: Duclona (74.7/581) to GT, Lee to SMU, Chenault to Utah, Stokes (75.0/320) + Rucker + Knox expired, Gaskin to Auburn - from a 22nd-pctile unit.",
+    "The restock is P4 quantity (Minnesota/WVU/BYU/Florida/Auburn/KSU/A&M/UNC) without named 2025 production; Aldridge's DB usage arrives with him. 30 = bottom-third."
+   ],
+   "key_players": [{"name": "Tavin Ward", "role": "S, 4th-year starter", "evidence": "PFF 68.2/642; Athlon-verified holdover"}, {"name": "Za'Quan Bryan", "role": "CB (Minnesota)", "evidence": "'playmaking potential' (Athlon)"}],
+   "data_gaps": ["No add has verified 2025 starter volume", "CB spots wholly unproven"],
+   "g5_guard_note": null},
+  {"team": "South Florida", "unit": "ST", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "K Gramatica (yr-2) returns off 18-for-24 (75%) - adequate, not elite; the second 2025 kicker left for Kentucky.",
+    "The punter is UNCONFIRMED in accessible sources (only specialist add is D2 Wingate's Thorn) - a real gap on a rebuilt roster.",
+    "2025 SPEC 72.0. 48 = just below average: returning K, unknown P, new coverage cores."
+   ],
+   "key_players": [{"name": "Nico Gramatica", "role": "K, returning", "evidence": "18-24 FG 2025 (Athlon)"}],
+   "data_gaps": ["2026 punter unconfirmed (logged)"],
+   "g5_guard_note": null}
+ ]
+}
