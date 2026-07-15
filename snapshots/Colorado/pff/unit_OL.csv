@@ -1,0 +1,18 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Demetrius Hunter,156167,C,HOUSTON,12,100.0,2,182,59.7,57.9,61.9,2,8,357,100.0,100.0,98.3,8,11,1,811,811,0,0,811,391,391,0,0,420,0,arrival_2025_at_HOUSTON
+Zarian McGill,156763,C,COLORADO,12,100.0,0,143,72.6,83.5,67.6,1,8,453,100.0,100.0,98.8,2,10,1,798,798,0,0,798,472,472,0,0,326,0,2025_this_team
+Zylon Crisler,158202,G,COLORADO,12,100.0,0,143,63.8,76.1,58.3,3,15,439,100.0,100.0,97.9,2,18,0,773,0,0,0,773,459,459,773,0,314,0,2025_this_team
+Taj White,162921,T,RUTGERS,11,100.0,0,278,65.6,54.0,70.6,9,15,378,100.0,100.0,95.8,4,28,4,755,0,0,0,755,402,402,0,754,353,0,arrival_2025_at_RUTGERS
+Xavier Hill,124098,G,COLORADO,11,100.0,0,143,65.9,86.8,54.9,0,9,411,100.0,100.0,98.2,1,12,3,723,0,524,0,723,428,428,0,199,295,0,2025_this_team
+Leon Bell,175895,T,CAL,10,99.8,0,130,61.9,65.7,60.1,3,14,338,99.7,99.7,96.6,6,20,3,582,0,0,0,583,362,363,0,582,220,1,arrival_2025_at_CAL
+Jordan Seaton,183886,T,COLORADO,9,100.0,2,143,65.8,84.1,52.0,0,5,312,100.0,100.0,98.6,4,7,2,561,0,0,560,561,328,328,0,0,233,0,2025_this_team
+Larry Johnson III,174729,T,COLORADO,9,100.0,0,143,64.0,65.5,59.8,0,15,241,100.0,100.0,96.5,0,16,1,447,0,6,0,447,251,251,0,440,196,0,2025_this_team
+Yahya Attia,190778,G,COLORADO,10,98.8,1,143,58.1,64.9,59.8,1,8,174,98.3,97.8,97.4,3,9,0,335,15,271,0,339,182,186,17,0,153,28,2025_this_team
+Kareem Harden,176571,T,COLORADO,7,100.0,0,143,69.5,77.8,65.5,2,4,178,100.0,100.0,97.2,2,8,2,320,0,0,244,320,186,186,11,63,134,2,2025_this_team
+Bo Hughley,176330,T,GEORGIA,10,100.0,0,173,61.0,70.7,59.3,1,3,116,100.0,100.0,98.3,2,4,0,247,0,0,73,247,123,123,0,173,124,1,arrival_2025_at_GEORGIA
+Jayven Richardson,184485,T,MISSOURI,6,100.0,0,229,61.6,29.4,68.0,1,3,78,100.0,100.0,94.9,0,6,2,197,0,0,185,197,80,80,0,7,117,4,arrival_2025_at_MISSOURI
+Andre Roye Jr.,156451,T,COLORADO,7,100.0,1,143,48.4,50.1,61.6,1,4,75,100.0,100.0,95.3,4,6,1,118,0,0,5,118,79,79,0,110,39,3,2025_this_team
+Chauncey Gooden,198300,G,COLORADO,3,100.0,0,143,49.0,78.6,40.2,0,0,11,100.0,100.0,100.0,0,0,0,18,0,7,0,18,11,11,7,0,7,4,2025_this_team
+Jayvon McFadden,199861,G,OHIO STATE,1,100.0,0,260,57.0,73.9,56.2,0,0,2,100.0,100.0,100.0,0,0,0,15,0,0,0,15,2,2,15,0,13,0,arrival_2025_at_OHIO STATE
+Aki Ogunbiyi,124335,G,COLORADO,2,100.0,0,143,54.9,10.7,60.3,1,0,3,100.0,100.0,83.3,0,1,0,8,0,0,3,8,3,3,5,0,5,0,2025_this_team
+Tyler Brown,98070,G,COLORADO,1,100.0,0,143,72.4,,70.5,0,0,0,,,,0,0,0,5,0,5,0,5,0,0,0,0,5,0,2025_this_team
