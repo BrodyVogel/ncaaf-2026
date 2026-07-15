@@ -120,7 +120,7 @@ def main(anchor_path, grades_src, outdir, proxy_mode=False):
                   f"k×resid {r['adj']:+.2f} (k={K}, cap ±{CAP})  ST {r['st']:+.2f}  "
                   f"→ recentered → **{r['final']:+.2f}**",
                   f"- band: 6.0 × dispersion({'1.10' if r['dispersion_flag'] else '1.00'}) × "
-                  f"conf(1+0.03×{r['low_conf_units']}) = ±{r['band']}",
+                  f"conf(1+0.03×{min(r['low_conf_units'], 5)}) = ±{r['band']}",
                   f"- flags: resid_flag={r['resid_flag']}, dispersion_flag={r['dispersion_flag']}"]
         open(f"{outdir}/build_sheets/{t.replace(' ', '_')}.md", "w").write("\n".join(lines))
 

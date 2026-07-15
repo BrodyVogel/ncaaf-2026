@@ -29,7 +29,7 @@ FINAL: **-17.49** (rank 135/138 in hybrid field)  band ±7.59
 
 ## 4. Assembly
 - anchor -23.00  class +1.68  k×resid +3.96 (k=0.35, cap ±6.0)  ST -0.56  → recentered (-0.44) → **-17.49**
-- band: 6.0 × coach(1.0) × dispersion(1.10) × conf(1+0.03×6) = ±7.59
+- band: 6.0 × coach(1.0) × dispersion(1.10) × conf(1+0.03×5) = ±7.59
 
 ## 5. Pilot caveats
 - Conversion weights are proxy-fitted (real-grade refit happens at full 138).

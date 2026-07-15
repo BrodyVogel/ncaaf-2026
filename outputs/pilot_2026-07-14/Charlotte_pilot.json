@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-07-15T00:18:18+00:00",
+ "run_utc": "2026-07-15T00:18:47+00:00",
  "team": "Charlotte",
  "final": -17.49,
  "rank": 135,
@@ -18,6 +18,6 @@
   "dfn": 0.609
  },
  "low_conf_units": 6,
- "code_rev": "c8f9247",
+ "code_rev": "2cca7ae",
  "mode": "PILOT-OOS"
 }

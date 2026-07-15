@@ -92,7 +92,7 @@ def main(anchor_path, team, snapdir, outdir):
               f"- anchor {A[team]['blend']:+.2f}  class {cls:+.2f}  k×resid {adj:+.2f} (k={K}, cap ±{CAP})  "
               f"ST {st:+.2f}  → recentered ({mean_shift:+.2f}) → **{final:+.2f}**",
               f"- band: {SIGMA} × coach({coach_mult}) × dispersion({'1.10' if A[team]['dispersion_flag'] else '1.00'}) × "
-              f"conf(1+0.03×{low_conf}) = ±{band:.2f}",
+              f"conf(1+0.03×{min(low_conf, 5)}) = ±{band:.2f}",
               "", "## 5. Pilot caveats",
               "- Conversion weights are proxy-fitted (real-grade refit happens at full 138).",
               "- Rank is vs a 137-proxy field — indicative only.",
