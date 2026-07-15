@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-15T17:28:39+00:00",
+ "team": "Houston",
+ "final": 6.15,
+ "rank": 40,
+ "band": 6.0,
+ "resid": -4.75,
+ "adj": -1.66,
+ "class_term": -0.0,
+ "st": -0.16,
+ "anchor_blend": 7.47,
+ "resid_level": -4.2,
+ "resid_shape": -0.55,
+ "implied_off": 27.02,
+ "implied_def": 24.01,
+ "anchor_off": 30.93,
+ "anchor_def": 23.17,
+ "fit_r2": {
+  "off": 0.537,
+  "dfn": 0.615
+ },
+ "low_conf_units": 0,
+ "code_rev": "fe5e4c1",
+ "mode": "PILOT-OOS"
+}
