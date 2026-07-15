@@ -1,0 +1,65 @@
+[
+ {
+  "firstName": "Tom",
+  "lastName": "Herman",
+  "hireDate": "2022-12-01T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Florida Atlantic",
+    "year": 2024,
+    "games": 10,
+    "wins": 2,
+    "losses": 8,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -15.4,
+    "spOverall": -12.7,
+    "spOffense": 20.8,
+    "spDefense": 32.1
+   }
+  ]
+ },
+ {
+  "firstName": "Chad",
+  "lastName": "Lunsford",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Florida Atlantic",
+    "year": 2024,
+    "games": 2,
+    "wins": 1,
+    "losses": 1,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -15.4,
+    "spOverall": -12.7,
+    "spOffense": 20.8,
+    "spDefense": 32.1
+   }
+  ]
+ },
+ {
+  "firstName": "Zach",
+  "lastName": "Kittley",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Florida Atlantic",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -11.2,
+    "spOverall": -8.7,
+    "spOffense": 27.8,
+    "spDefense": 38.1
+   }
+  ]
+ }
+]

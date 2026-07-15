@@ -1,0 +1,16 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Scarlee Jean,160961,G,FAU,12,100.0,0,165,63.9,75.2,56.6,4,14,621,100.0,100.0,98.6,6,18,0,970,0,565,78,970,663,663,0,318,307,3,2025_this_team
+Vincent Fiacable,144836,C,FAU,12,100.0,0,165,67.9,83.2,60.8,0,6,621,100.0,100.0,99.4,5,7,1,967,967,0,0,967,661,661,0,0,306,0,2025_this_team
+Ja'Kavion Nonar,162800,T,FAU,11,100.0,3,165,56.9,61.0,56.4,6,25,562,100.0,100.0,96.9,11,33,2,876,0,0,865,876,602,602,0,1,274,8,2025_this_team
+Alex Atcavage,123591,G,FAU,9,100.0,0,165,57.5,57.0,56.5,3,16,457,100.0,100.0,97.9,7,19,0,720,0,0,0,720,485,485,716,0,235,2,2025_this_team
+Daughtry Richardson,156281,T,FAU,8,100.0,1,165,50.1,47.5,52.2,7,10,416,100.0,100.0,96.8,5,22,5,650,0,0,0,650,441,441,0,644,209,2,2025_this_team
+Okino King,156526,G,FAU,7,100.0,0,165,62.2,72.1,57.6,1,3,291,100.0,100.0,98.6,3,6,2,465,0,294,0,465,312,312,170,0,153,1,2025_this_team
+Mauricio Hinds,183406,G,FAU,6,100.0,0,165,47.3,30.4,54.9,0,5,137,100.0,100.0,96.7,2,7,2,212,0,107,2,212,149,149,85,13,63,4,2025_this_team
+Keon Rohe,183417,T,FAU,4,100.0,0,165,50.7,62.4,58.9,0,0,10,100.0,100.0,100.0,1,0,0,22,0,0,19,22,12,12,0,0,10,1,2025_this_team
+Braden Cunningham,183402,C,FAU,2,100.0,0,165,63.9,75.8,61.7,0,0,6,100.0,100.0,100.0,0,0,0,18,16,0,0,18,6,6,0,2,12,0,2025_this_team
+Ovie Dubre,169908,G,FAU,5,100.0,0,165,66.2,77.2,66.0,0,0,5,100.0,100.0,100.0,0,0,0,13,0,5,0,13,7,7,5,0,6,0,2025_this_team
+Michael Unis,162939,G,FAU,1,100.0,0,165,62.2,10.5,66.5,0,0,4,100.0,100.0,100.0,0,0,0,8,0,0,0,8,4,4,8,0,4,0,2025_this_team
+Qae'Shon Sapp,156287,G,FAU,1,100.0,0,165,74.1,73.8,73.3,0,0,2,100.0,100.0,100.0,0,0,0,8,0,8,0,8,2,2,0,0,6,0,2025_this_team
+Vincent Forney,193336,T,FAU,1,100.0,0,165,62.0,75.3,59.7,0,0,4,100.0,100.0,100.0,0,0,0,8,0,0,8,8,4,4,0,0,4,0,2025_this_team
+Carson Osmus,190380,G,FAU,1,100.0,0,165,64.5,,64.5,0,0,0,,,,0,0,0,3,0,3,0,3,0,0,0,0,3,0,2025_this_team
+Robert Medici,189403,T,FAU,1,100.0,0,165,57.0,,52.3,0,0,0,,,,0,0,0,3,0,0,0,3,0,0,0,3,3,0,2025_this_team
