@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-15T17:20:51+00:00",
+ "team": "Colorado",
+ "final": 0.36,
+ "rank": 61,
+ "band": 6.0,
+ "resid": -1.19,
+ "adj": -0.42,
+ "class_term": -0.0,
+ "st": -0.16,
+ "anchor_blend": 0.44,
+ "resid_level": -0.51,
+ "resid_shape": -0.68,
+ "implied_off": 24.9,
+ "implied_def": 25.15,
+ "anchor_off": 26.07,
+ "anchor_def": 25.13,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.615
+ },
+ "low_conf_units": 0,
+ "code_rev": "7ef6ca0",
+ "mode": "PILOT-OOS"
+}
