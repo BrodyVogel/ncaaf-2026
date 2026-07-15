@@ -1,0 +1,24 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Owen McCown,SR(yr3),RETURNING STARTER (3rd yr starting),PFF 71.9/450; limited spring (sports hernia surgery); "potential to emerge as one of the top signal-callers in the Group of 6 if he can avoid the injuries" (Athlon)
+QB,QB,2,Brandon Tennison,,returner,PFF 65.0/41
+RB,RB,1,Will Henderson III,SO(yr1),RETURNER - breakout,866 yds 6 TD 2025; PFF 85.1/125; "speedy" (Athlon)
+RB,RB,2,Brandon High Jr. / A'Marion Peterson,,California / returner,High "impact transfer" (Athlon); Henry (74.2/152) yr-4 expired
+WRTE,WR,1,David Amador II,JR(yr2),RETURNER - standout (Athlon),PFF 71.4/270
+WRTE,WR,1,AJ Wilson,SR(yr3),RETURNER - standout (Athlon),PFF 66.3/237
+WRTE,WR,2,T.J. West / James Madison II / Zahn Coakley,,Texas Tech / Missouri / App State,"impact transfers" (Athlon); McCuin (77.7/322) -> OHIO STATE
+WRTE,TE,1,Patrick Overmyer,SO(yr2),returner,PFF 76.2/212; Thomas (62.8/206) -> Texas A&M; "new faces at tight end" note refers to room turnover
+OL,LT,1,Kamar Missouri,,returner,PFF 47.6/836 (the weak spot)
+OL,C,1,Ben Rios,SR(yr3),returner,PFF 56.4/786
+OL,OL,1,Deandre Marshall / Darrell Jones,JR(yr3)/JR(yr3),returners,66.3/631 + 57.0/614; Timmons (56.4/753) yr-4 expired; "new faces at left guard" (Athlon); adds Henry (OkSt) + Kebe (Ohio) + Senegal (CSU)
+DL,DE,1,Nnanna Anyanwu,SO(yr2),returner,PFF 63.4/278
+DL,NT,1,Jameian Buxton,JR(yr3),returner,PFF 62.7/275
+DL,DL,2,Vic Shaw / Cam Blaylock / Jaylan Jones,SO(yr2)/,returners,DEPARTED: Ozowalu (74.5/341) -> OKLAHOMA + Otutu -> Cincinnati + Wimberly -> Baylor + J.Jones (74.5/278) yr-4 expired; adds Spencer + Smith (Texas Tech) + Fite (UL) + Acheampong (BG) + Baldwin (UTEP)
+LB,ILB,1,Brandon Tucker,SR(yr3),returner,PFF 72.1/302 - best returning LB
+LB,ILB,1,James Walley Jr.,,returner,PFF 71.3/165; Banks (69.4/713) yr-4 expired; Blackshire (54.3/393) status unchecked
+LB,OLB,2,Eze Osondu / Kendrick Blackshire,,California / returner,adds
+DB,S,1,Jimmy Wyrick,JR(yr2),RETURNER,PFF 78.3/676 - the defensive anchor
+DB,S,1,Cam Upshaw Jr.,SO(yr2),returner,low vol; Milton (62.4/613) yr-4 expired
+DB,CB,1,Jakevian Rodgers,,returner,PFF 63.7/301; DEPARTED: Martin -> Texas Tech + Meier -> Cincinnati
+DB,DB,2,Joel Rogers / Nate Robinson / Xavier Walton,,LSU / Marist / Angelo State (D2),adds; Lewis (65.9/281) + Wilkerson (67.2/268) status unchecked
+ST,ALL,1,(returns ALL primary specialists - Athlon),,,"UTSA returns all of last year's primary options on special teams"; P Chambers -> SFA is the exception
+ST,COORD,1,Jeff Traylor yr 7; NEW OC Rick Bowie (Burke -> Kentucky),,,no coach multiplier (HC unchanged); OC-change tempo/downfield shift noted

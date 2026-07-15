@@ -1,0 +1,37 @@
+{
+ "id": 2636,
+ "school": "UTSA",
+ "mascot": "Roadrunners",
+ "abbreviation": "UTSA",
+ "alternateNames": [
+  "Texas-San Antonio",
+  "UTSA",
+  "UTSA"
+ ],
+ "conference": "American Athletic",
+ "division": null,
+ "classification": "fbs",
+ "color": "#002A5C",
+ "alternateColor": "#f47321",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2636.png"
+ ],
+ "twitter": null,
+ "location": {
+  "id": 3604,
+  "name": "Alamodome",
+  "city": "San Antonio",
+  "state": "TX",
+  "zip": "78299",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 29.4169834,
+  "longitude": -98.4788143,
+  "elevation": "201.5526886",
+  "capacity": 36582,
+  "constructionYear": 1993,
+  "grass": false,
+  "dome": true
+ }
+}

@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Jeff",
+  "lastName": "Traylor",
+  "hireDate": "2019-12-09T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "UTSA",
+    "year": 2024,
+    "games": 13,
+    "wins": 7,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -3.6,
+    "spOverall": 2.2,
+    "spOffense": 32.3,
+    "spDefense": 31.5
+   }
+  ]
+ },
+ {
+  "firstName": "Jeff",
+  "lastName": "Traylor",
+  "hireDate": "2019-12-09T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "UTSA",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 1.5,
+    "spOverall": 3.7,
+    "spOffense": 33.3,
+    "spDefense": 30
+   }
+  ]
+ }
+]

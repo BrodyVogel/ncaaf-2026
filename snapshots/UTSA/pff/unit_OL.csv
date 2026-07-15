@@ -1,0 +1,14 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Kamar Missouri,129890,T,UTSA,13,100.0,1,331,47.6,50.2,45.6,4,15,455,100.0,100.0,97.3,4,22,3,836,0,1,835,836,486,486,0,0,350,0,2025_this_team
+Ben Rios,158827,C,UTSA,12,100.0,0,331,56.4,76.9,50.7,3,6,426,100.0,100.0,98.7,5,10,1,786,786,0,0,786,456,456,0,0,330,0,2025_this_team
+Trevor Timmons,145577,G,UTSA,12,100.0,0,331,56.4,55.4,54.6,3,9,409,100.0,100.0,98.3,2,13,1,753,0,752,1,753,438,438,0,0,315,0,2025_this_team
+Deandre Marshall,158822,T,UTSA,12,100.0,0,331,66.3,55.0,70.7,3,9,334,100.0,100.0,97.0,2,16,4,631,0,0,0,631,356,356,0,629,275,1,2025_this_team
+Darrell Jones,180349,G,UTSA,12,100.0,0,331,57.0,67.4,57.9,0,6,334,100.0,100.0,98.8,6,7,1,614,0,0,0,614,356,356,614,0,258,0,2025_this_team
+Jaylen Garth,123115,T,UTSA,4,100.0,0,331,48.6,48.5,47.5,1,7,140,100.0,100.0,96.4,2,9,1,250,0,0,0,250,149,149,0,250,101,0,2025_this_team
+Cory Godinet,174093,G,UTSA,9,100.0,0,331,60.9,56.6,62.2,1,3,128,100.0,100.0,97.7,1,5,1,245,0,0,0,245,136,136,245,0,109,0,2025_this_team
+Luke Lapeze,145517,C,UTSA,6,100.0,0,331,57.8,57.6,59.3,0,6,70,100.0,100.0,95.7,1,6,0,146,146,0,0,146,73,73,0,0,73,0,2025_this_team
+Demetris Allen,98082,G,UTSA,8,100.0,0,331,35.2,55.5,39.2,0,2,72,100.0,100.0,97.2,4,3,1,142,0,137,3,142,76,76,2,0,66,0,2025_this_team
+Jonah Miller,146553,T,UTSA,5,100.0,0,331,76.2,88.5,68.4,0,0,56,100.0,100.0,100.0,0,0,0,122,0,0,93,122,60,60,0,29,62,0,2025_this_team
+Davion Hurth,190257,T,UTSA,8,100.0,0,331,64.1,86.4,59.6,0,0,39,100.0,100.0,100.0,0,0,0,96,0,0,0,96,42,42,71,17,54,0,2025_this_team
+Devron Williams Jr.,184361,G,UTSA,6,100.0,0,331,67.7,51.8,69.0,0,0,16,100.0,100.0,93.7,0,1,1,43,0,42,0,43,16,16,0,0,27,0,2025_this_team
+A'marion Breland,204429,T,UTSA,1,100.0,0,331,70.0,72.8,70.3,0,0,2,100.0,100.0,100.0,0,0,0,6,0,0,0,6,2,2,0,6,4,0,2025_this_team
