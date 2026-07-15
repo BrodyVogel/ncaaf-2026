@@ -1,0 +1,23 @@
+{
+ "run_utc": "2026-07-15T02:55:05+00:00",
+ "team": "Arizona",
+ "final": 5.99,
+ "rank": 35,
+ "band": 6.0,
+ "resid": -5.14,
+ "adj": -1.8,
+ "class_term": -1.68,
+ "st": -0.16,
+ "anchor_blend": 9.15,
+ "implied_off": 29.91,
+ "implied_def": 25.38,
+ "anchor_off": 30.98,
+ "anchor_def": 21.32,
+ "fit_r2": {
+  "off": 0.536,
+  "dfn": 0.615
+ },
+ "low_conf_units": 0,
+ "code_rev": "02f43be",
+ "mode": "PILOT-OOS"
+}
