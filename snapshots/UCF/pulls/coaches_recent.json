@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Gus",
+  "lastName": "Malzahn",
+  "hireDate": "2021-02-15T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "UCF",
+    "year": 2024,
+    "games": 12,
+    "wins": 4,
+    "losses": 8,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 6.2,
+    "spOverall": 2.8,
+    "spOffense": 29,
+    "spDefense": 25.8
+   }
+  ]
+ },
+ {
+  "firstName": "Scott",
+  "lastName": "Frost",
+  "hireDate": "2015-01-01T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "UCF",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -0.8,
+    "spOverall": -1.2,
+    "spOffense": 23.2,
+    "spDefense": 24
+   }
+  ]
+ }
+]

@@ -1,0 +1,32 @@
+{
+ "team": "UCF",
+ "conference": "Big 12",
+ "created_utc": "2026-07-15T18:45:02+00:00",
+ "assembler_git_rev": "dc99cd6",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "K: Stone has zero career FG attempts (Athlon flag)",
+  "OL interior unsettled (PS vs Athlon centers differ); one returning starter",
+  "RB room zero proven FBS volume (Watson injury-marked, Swint no tape)",
+  "Barnett tape (71.1) vs hardware (SBC POY) spread",
+  "Lockett coming off week-4 injury year"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": false,
+ "portal_withdrawal_overrides": [
+  "Horace Lockett"
+ ],
+ "portal_departure_confirmed": [
+  "Keshaun Hudson",
+  "Troy Ford",
+  "Josh Dorsainvil",
+  "Carl Jenkins Jr."
+ ],
+ "adjudication_notes": {
+  "Horace Lockett": "portal destination None; Athlon May DT1 + prose, PS May NT1 (PS#109), P6 'playing well before his week-four injury' -> WITHDREW, returns",
+  "others": "4 destination-None outs absent from all May prints -> GONE per standing rule"
+ }
+}

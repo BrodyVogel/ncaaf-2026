@@ -1,0 +1,37 @@
+{
+ "id": 2116,
+ "school": "UCF",
+ "mascot": "Knights",
+ "abbreviation": "UCF",
+ "alternateNames": [
+  "Central Florida",
+  "UCF",
+  "UCF"
+ ],
+ "conference": "Big 12",
+ "division": null,
+ "classification": "fbs",
+ "color": "#ba9b37",
+ "alternateColor": "#000000",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2116.png"
+ ],
+ "twitter": "@UCF_Football",
+ "location": {
+  "id": 3652,
+  "name": "FBC Mortgage Stadium",
+  "city": "Orlando",
+  "state": "FL",
+  "zip": "32816",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 28.6079765,
+  "longitude": -81.1927233,
+  "elevation": "20.94113731",
+  "capacity": 44206,
+  "constructionYear": 2007,
+  "grass": true,
+  "dome": false
+ }
+}
