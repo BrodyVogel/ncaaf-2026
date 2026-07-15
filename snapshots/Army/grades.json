@@ -1,0 +1,182 @@
+{
+ "team": "Army",
+ "units": {
+  "QB": {"grade": 62, "confidence": "M"},
+  "RB": {"grade": 38, "confidence": "M"},
+  "WRTE": {"grade": 40, "confidence": "M"},
+  "OL": {"grade": 84, "confidence": "M"},
+  "DL": {"grade": 25, "confidence": "M"},
+  "LB": {"grade": 15, "confidence": "L"},
+  "DB": {"grade": 22, "confidence": "L"},
+  "ST": {"grade": 65, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 62, RB -, WRTE -, OL 92, DL 18, LB -, DB 36, ST 58)",
+   "QB": "0 (exact agreement)",
+   "OL": "-8 (proxy carries Jeffcoat-era grades fully; grade prices the 91.3-snap replacement + pass-pro ceiling)",
+   "DL": "+7 (proxy weights departed rotation; grade credits 3 returning starters + option-defense context)",
+   "DB": "-14 (proxy weights returning Mayes/2025 grades; grade prices losing 4 of 5 secondary starters)",
+   "ST": "+7 (grade credits both specialists returning w/ documented quality; proxy is team-SPEC percentile)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Army",
+   "unit": "QB",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "rationale_bullets": [
+    "Proven option engine returns: Hellums 2025 - 304 carries (2nd nationally), 1,223 yds, 18 rush TD (T-3rd), PFF 77.0 (AAC +0.4 -> 77.4 adj = 61st pctile as-played) after starting the year 3rd string (Athlon 2026).",
+    "Continuity is the whole case: same scheme (Monken yr 13), second full offseason as QB1, spring reports specific improvement in 'footwork, fundamentals, and reads' (GBK 2026-04-20).",
+    "The cap is the passing: 694 yds at 54% (4-3) in 2025 - defenses can load the box; the unit's national ceiling is bounded by design.",
+    "62 = above-average FBS QB unit: a returning percentile-61 producer with system fit, graded slightly above his as-played level for the experience trajectory, held below 70 by the one-dimensionality."
+   ],
+   "key_players": [
+    {"name": "Cale Hellums", "role": "QB1, option engine", "evidence": "304-1,223-18 rushing + 694 pass (54%) 2025; PFF 77.0/126 db; spring frontrunner (GBK 2026-04-20)"}
+   ],
+   "data_gaps": ["QB2 unresolved (Luter vs Washington, fall camp)", "No meaningful passing sample to project improvement from"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Army",
+   "unit": "RB",
+   "grade": 38,
+   "confidence": "M",
+   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "rationale_bullets": [
+    "2025 corps as-played was 26th pctile and lost its best piece: Short (78.6 PFF; 1,009 scrimmage yds) departed, Bartosh stepped away with a neck injury ('hurting Army's big-play ability' - Athlon 2026).",
+    "The emergence is real but small-sample: Nwawuihe - 'Army found its featured back' (Athlon) - 196 yds at 9.3/carry incl. 171 + 2 TD in the Fenway Bowl (vs a depleted UConn per PS - discounted accordingly); QB background adds formation value.",
+    "Returning role players are adequate: Howard (13 starts at slotback), Rendina (72.2/39), C.Smith (67.0/56); and Athlon notes the staff wants Hellums (40% of carries) 'to share the touches' - more volume coming to this group.",
+    "38 = below-average nationally: one promising sophomore + committee depth in a scheme that manufactures RB efficiency, minus the two biggest 2025 playmakers."
+   ],
+   "key_players": [
+    {"name": "Godspower Nwawuihe", "role": "featured back (Athlon)", "evidence": "196 yds (9.3/carry) 2025; 171 + 2 TD in Fenway Bowl; sophomore"},
+    {"name": "Samari Howard", "role": "slotback, returning starter", "evidence": "13 starts 2025; 133 receiving yds (12.1/rec)"}
+   ],
+   "data_gaps": ["Nwawuihe's 2025 sample is 4 games/21 carries", "Bartosh return from neck injury: no timetable found"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Army",
+   "unit": "WRTE",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": ["Illinois RB 2025 (32)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "No qualifying 2025 unit volume exists (option offense: team-high 113 routes) - grade rests on quality-of-role evidence, not volume production.",
+    "All three contributors return (PS: 'more experienced'): Anderson - PFF 78.1, 381 yds at 27.2/catch (9 starts) - a legitimate deep threat who converts the offense's rare shots; TE Poloskey (64.6/105, 13 starts); Olawole depth.",
+    "The unit's national value is inherently bounded: it blocks for the option and hits explosives - but the personnel executing that role graded well (78.1 leader) and is fully intact.",
+    "40 = bottom-third nationally with high role-certainty: below Nebraska-WRTE-50 (an average-volume average room), above Illinois-RB-32 on returning quality."
+   ],
+   "key_players": [
+    {"name": "Brady Anderson", "role": "WR1 / deep specialist", "evidence": "381 yds at 27.2/catch, 9 starts 2025; PFF 78.1 on 113 routes"},
+    {"name": "Parker Poloskey", "role": "TE1", "evidence": "13 starts 2025; first Army TE receiving TD since 2008 (PS)"}
+   ],
+   "data_gaps": ["National comparison of option WRTE rooms is scale-limited by design (noted, not resolvable)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Army",
+   "unit": "OL",
+   "grade": 84,
+   "confidence": "M",
+   "bracketing_exemplars": ["Houston WRTE 2025 (78)", "Kentucky DL 2025 (91)"],
+   "rationale_bullets": [
+    "2025 as-played was 94th pctile nationally (80.7 adj on 4,475 snaps) and FOUR of five starters return (Athlon): C Small (79.6/893; 39 consecutive starts; 1st-tm All-AAC - PS), RT Williams (90.3/892), LT Appleton (72.2/892), RG Gennarelli (62.8/674).",
+    "The one loss is the best grade: Jeffcoat (91.3/890); Kloska (6 gm 2025) steps in at LG. Small (spring, attributed): the 2026 group 'could match the caliber of Army's 2024 line' (GBK 2026-04-20).",
+    "Honesty about shape: this is run-block excellence (team RBLK 86.4) with poor pass pro (PBLK 56.6) that the scheme rarely exposes - the grade prices what the unit does at elite level, discounted for what it can't.",
+    "84 = at the Texas Tech OL anchor with a better sketch (3 returners at 72+ raw incl. a 90.3, vs the anchor's 0 at 72+), below Kentucky-DL-91 for the Jeffcoat loss + one-dimensionality."
+   ],
+   "key_players": [
+    {"name": "Teddy Williams", "role": "RT", "evidence": "PFF 90.3 on 892 snaps 2025"},
+    {"name": "Brady Small", "role": "C, 39 consecutive starts", "evidence": "PFF 79.6/893; 1st-tm All-AAC 2025 (PS)"},
+    {"name": "Kyle Kloska", "role": "LG, new starter", "evidence": "6 games 2025; replaces Jeffcoat (91.3/890)"}
+   ],
+   "data_gaps": ["Kloska has no starting sample", "Pass-pro exposure vs better AAC edges unmeasurable until played"],
+   "g5_guard_note": "G5 >75 justified: 94th-pctile 2025 as-played on 4,475 snaps; 4/5 starters return incl. 90.3-graded RT and All-AAC C with 39 straight starts; two magazines + spring reporting corroborate the unit as the team's identity."
+  },
+  {
+   "team": "Army",
+   "unit": "DL",
+   "grade": 25,
+   "confidence": "M",
+   "bracketing_exemplars": ["Florida International QB 2025 (15)", "Illinois RB 2025 (32)"],
+   "rationale_bullets": [
+    "The tension is real and both halves are true: Athlon calls DL 'Army's most experienced defensive unit' (all three starters return - Bousum 66.6/631 w/ 29 tkl 8 TFL and 'pro potential', Harris-Miller 66.5/309 3rd-yr starter, Stowers 61.1/225), yet the unit's 2025 as-played national percentile was 9 after the AAC DL adjustment (-5.9).",
+    "Returning-weighted baseline: ~65.5 raw -> ~59.6 adj ≈ p22 nationally - the returners are experienced but graded modestly, and ~45% of unit snaps left (Ford 64.8/670, Latore 64.3/491, Tuioti).",
+    "Option-defense context (fewer snaps behind a clock-eating offense; bend-don't-break) explains some team-level success (PA 21.6/gm) that unit grades don't credit - noted, worth a small nudge, not a regrade.",
+    "25 = bottom-third-to-quartile: continuity + Bousum's trajectory hold it above the FIU-QB-15 anchor; the national quality evidence keeps it well under Illinois-RB-32... at 25, matching the WKU-OL sketch level."
+   ],
+   "key_players": [
+    {"name": "Jack Bousum", "role": "DE, best returner", "evidence": "PFF 66.6/631; 29 tkl, 8 TFL 2025; 'pro potential' (Athlon 2026)"},
+    {"name": "Kody Harris-Miller", "role": "NG, 3rd-year starter", "evidence": "PFF 66.5/309; 'anchors most experienced defensive unit' (Athlon)"}
+   ],
+   "data_gaps": ["Rotation depth behind the three starters is 5-6-game samples", "New DC Dixon's front usage unobserved"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Army",
+   "unit": "LB",
+   "grade": 15,
+   "confidence": "L",
+   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6)", "Western Kentucky OL 2025 (25)"],
+   "rationale_bullets": [
+    "Worst-case configuration: the 2025 unit was 2nd-pctile nationally as-played (44.7 adj - the AAC LB offset of -10.7 is brutal and the LB caution rule applies to both directions), and BOTH 802-snap starters (captains Fortner 55.8, Thomas 55.1) are gone.",
+    "The replacements have essentially no production: Banks (8 gm, 2 tkl - 'first shot'), Moss (4 gm), Walton (11 gm, 8 tkl); Athlon: the job 'may not be decided until fall camp' and 'the inexperience at inside linebacker is also concerning'; Monken himself expects early mental errors (GBK 2026-04-20).",
+    "Mitigants are thin but real: internal DC promotion (Dixon) preserves scheme; academy LBs are systematically developed; and the LB noise rule means the 2nd-pctile baseline overstates certainty of badness.",
+    "15 = above the FAU-DB-6 anchor (which was a *functioning* poor unit at volume), below WKU-OL-25: an unproven room inheriting the weakest-graded context in the league."
+   ],
+   "key_players": [
+    {"name": "Bryson Banks", "role": "ILB, first shot (Athlon)", "evidence": "8 games, 2 tackles 2025; sophomore"},
+    {"name": "Elijah Walton", "role": "ILB candidate", "evidence": "11 games, 8 tackles 2025"}
+   ],
+   "data_gaps": ["Neither ILB starter decided (fall camp)", "Combined returning LB production: ~12 tackles"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Army",
+   "unit": "DB",
+   "grade": 22,
+   "confidence": "L",
+   "bracketing_exemplars": ["Florida International QB 2025 (15)", "Western Kentucky OL 2025 (25)"],
+   "rationale_bullets": [
+    "Four of five secondary starters gone (Larkin 72.3/724, Matteson 68.5/679, Shields 62.7/675, Weaver 67.0/477, plus Nnadozie 79.7/248) from a unit that was only 32nd pctile as-played.",
+    "The one returner is genuinely useful: CB Mayes (65.5/692) produced 4 INT + 3 PBU in 2025 - ballhawk output - but Athlon frames it exactly: 'Army's lone returning starter in the secondary needs to have a big season.'",
+    "Everything else is projection: Porter (SO, 11 gm, 2 tkl) at CB2, C.Williams (72.0 on 32 snaps - a hint) at safety, rover Tallman (2 tkl); 'younger on defense than in years past' (Athlon 2026).",
+    "22 = bottom-sixth nationally: one proven piece + youth, slightly better than the LB room because Mayes is real and the baseline was less dire."
+   ],
+   "key_players": [
+    {"name": "Jaydan Mayes", "role": "CB1, lone returning starter", "evidence": "PFF 65.5/692; 4 INT, 3 PBU, 29 tkl 2025 (PS line)"},
+    {"name": "Julian Porter", "role": "CB2 (sophomore)", "evidence": "11 games, 2 tackles 2025; 'important role' (Athlon)"}
+   ],
+   "data_gaps": ["Both safety spots + rover effectively unproven (32 combined meaningful snaps)", "New DC's coverage shell unobserved"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Army",
+   "unit": "ST",
+   "grade": 65,
+   "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "rationale_bullets": [
+    "Both specialists return with documented quality: K Jones - 15 FG in 2025 (most by an Army kicker since 2010), made his final 5 attempts including a walk-off winner vs Air Force; P Wagenseller - 43.1 avg, 'a field-position game-changer' (Athlon 2026); both drew specific Monken praise in spring (GBK 2026-04-20).",
+    "2025 team SPEC was 75.3 (PFF) - solidly above average - and unlike Iowa/Memphis, the people who earned it are back.",
+    "Academy coverage-unit culture (deep, disciplined rosters) is a stable prior; the open item is the return game (Short handled touches; 2026 roles unnamed - logged gap).",
+    "65 = comfortably above average: returning proven K + P + system, held under 70 by the unnamed returners."
+   ],
+   "key_players": [
+    {"name": "Dawson Jones", "role": "K, returning", "evidence": "15 FG 2025 (most since 2010); made last 5 incl. walk-off vs Air Force (Athlon)"},
+    {"name": "James Wagenseller", "role": "P, returning", "evidence": "43.1 avg 2025; Monken spring praise (GBK 2026-04-20)"}
+   ],
+   "data_gaps": ["PR/KR assignments unnamed in accessible sources"],
+   "g5_guard_note": null
+  }
+ ]
+}
