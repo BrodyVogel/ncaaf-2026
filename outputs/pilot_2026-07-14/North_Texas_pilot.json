@@ -1,0 +1,23 @@
+{
+ "run_utc": "2026-07-15T01:45:36+00:00",
+ "team": "North Texas",
+ "final": -4.46,
+ "rank": 89,
+ "band": 8.35,
+ "resid": -0.29,
+ "adj": -0.1,
+ "class_term": 1.68,
+ "st": 0.1,
+ "anchor_blend": -6.61,
+ "implied_off": 23.46,
+ "implied_def": 30.15,
+ "anchor_off": 26.2,
+ "anchor_def": 32.6,
+ "fit_r2": {
+  "off": 0.538,
+  "dfn": 0.614
+ },
+ "low_conf_units": 4,
+ "code_rev": "cb9ddc2",
+ "mode": "PILOT-OOS"
+}
