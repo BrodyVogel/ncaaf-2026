@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Brian",
+  "lastName": "Newberry",
+  "hireDate": "2022-12-19T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Navy",
+    "year": 2024,
+    "games": 13,
+    "wins": 10,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 5.7,
+    "spOverall": 3.5,
+    "spOffense": 29.5,
+    "spDefense": 24.4
+   }
+  ]
+ },
+ {
+  "firstName": "Brian",
+  "lastName": "Newberry",
+  "hireDate": "2022-12-19T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Navy",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 2.1,
+    "spOverall": 6.2,
+    "spOffense": 33.6,
+    "spDefense": 27.9
+   }
+  ]
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "season": 2026,
+  "firstName": "Justin",
+  "lastName": "Ross",
+  "position": "CB",
+  "origin": "Navy",
+  "destination": "Virginia",
+  "transferDate": "2026-01-14T16:36:00.000Z",
+  "rating": 0.86,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Jaylin",
+  "lastName": "Acevedo",
+  "position": "OT",
+  "origin": "Navy",
+  "destination": "South Florida",
+  "transferDate": "2026-01-16T19:59:00.000Z",
+  "rating": 0.85,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Brady",
+  "lastName": "McDonough",
+  "position": "QB",
+  "origin": "Navy",
+  "destination": "Georgetown",
+  "transferDate": "2026-01-10T19:11:00.000Z",
+  "rating": null,
+  "stars": 2,
+  "eligibility": "Immediate"
+ }
+]

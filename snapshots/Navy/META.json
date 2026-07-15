@@ -1,0 +1,17 @@
+{
+ "team": "Navy",
+ "conference": "American Athletic",
+ "created_utc": "2026-07-15T01:34:08+00:00",
+ "assembler_git_rev": "213d4d1",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "CFBD 2026 feeds pending",
+  "Woodson has zero career starts (captaincy + flashes only)",
+  "K Welch no college attempts; Listorti injury status"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": false
+}
