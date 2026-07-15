@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-15T19:16:53+00:00",
+ "team": "West Virginia",
+ "final": 0.36,
+ "rank": 62,
+ "band": 6.0,
+ "resid": -3.46,
+ "adj": -1.21,
+ "class_term": -0.0,
+ "st": -0.16,
+ "anchor_blend": 1.23,
+ "resid_level": -0.61,
+ "resid_shape": -2.85,
+ "implied_off": 25.2,
+ "implied_def": 27.54,
+ "anchor_off": 26.51,
+ "anchor_def": 25.39,
+ "fit_r2": {
+  "off": 0.54,
+  "dfn": 0.617
+ },
+ "low_conf_units": 0,
+ "code_rev": "806f35b",
+ "mode": "PILOT-OOS"
+}
