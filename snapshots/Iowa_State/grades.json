@@ -1,0 +1,304 @@
+{
+ "team": "Iowa State",
+ "units": {
+  "QB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 40,
+   "confidence": "L"
+  },
+  "OL": {
+   "grade": 32,
+   "confidence": "L"
+  },
+  "DL": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 40,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 52,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 47, RB null, WRTE 43, OL 26, DL 60, LB null, DB 40, ST 21)",
+   "DL": "-14 vs proxy 60 (proxy counts departed/drafted bodies; my 46 prices the Wazzu import)",
+   "ST": "+31 vs proxy 21 (proxy rides the departed punter; Konrardy + natl-best KR return)",
+   "QB": "+1, DB +0: proxy directionally right - the exodus has destinations it can see"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Iowa State",
+   "unit": "QB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Becht (80.0/409; 3rd all-time in Cyclone passing) followed Campbell to PSU with his backup - but the replacement is the best-credentialed piece of the rebuild: Raynor (74.5/615; 3,361 @ 66.5%, 19-11; two-time All-SBC; 9,877/67 career), who won the job in spring and imported his own TE.",
+    "Flores (58.6/312; 7 INT/3 TD at OkSt) is a real second option with P4 snaps.",
+    "PS's attributed read: 'last year's Cyclone pass numbers are attainable for Raynor.'",
+    "48 = fringe-average: proven G5 volume + decent tape into a brand-new power-run scheme."
+   ],
+   "key_players": [
+    {
+     "name": "Jaylen Raynor",
+     "role": "QB1",
+     "evidence": "PFF 74.5/615; All-SBC x2; 9,877 career yds"
+    },
+    {
+     "name": "Zane Flores",
+     "role": "QB2",
+     "evidence": "8 OkSt starts; PFF 58.6/312"
+    }
+   ],
+   "data_gaps": [
+    "Scheme fit (downhill/PA)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Iowa State",
+   "unit": "RB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The dynamic duo left (Hansen 950 -> PSU; Sama 732 -> Wisconsin) and the marquee depth add (Allah) tore his Achilles in spring.",
+    "What's left: Pettaway (72.8/85; MAC FrOY largely on returns - 365 rush), Flora (return ace, 58 rush yds), Barnes (65.1/90).",
+    "A power-rushing OC (Roehl, ex-NDSU) with no returning 400-yard rusher behind a 15-start OL. 42 = below average."
+   ],
+   "key_players": [
+    {
+     "name": "Cameron Pettaway",
+     "role": "RB1",
+     "evidence": "MAC FrOY; 365 rush; PFF 72.8/85"
+    },
+    {
+     "name": "Aiden Flora",
+     "role": "RB/PR",
+     "evidence": "26.1 PR avg, TD"
+    }
+   ],
+   "data_gaps": [
+    "No proven volume back"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Iowa State",
+   "unit": "WRTE",
+   "grade": 40,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The top EIGHT receivers depart (both 500-yd WRs + both TEs to PSU); Overby is the lone returning rotation piece.",
+    "The verified adds are one high-grade small sample (Hayes 83.6/162 from Tulane) + the QB's own TE (Fortenberry 57.0/361) + FCS production with no rows (Jackson-Tarleton).",
+    "PS's 'production won't drop much' rests on 2025 already being depressed (top-4 = 1,774). 40, L: eleven transfers, one verified above-average tape."
+   ],
+   "key_players": [
+    {
+     "name": "Omari Hayes",
+     "role": "WR1",
+     "evidence": "PFF 83.6/162 at Tulane"
+    },
+    {
+     "name": "Tyler Fortenberry",
+     "role": "TE1",
+     "evidence": "Raynor's ArkSt TE; 32 rec"
+    }
+   ],
+   "data_gaps": [
+    "FCS adds unverifiable",
+    "No returning production"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Iowa State",
+   "unit": "OL",
+   "grade": 32,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
+   "rationale_bullets": [
+    "All five starters gone; the rebuilt line has 15 CAREER FBS STARTS and zero FBS full-time starters (PS) - four of five projected starters have no PFF rows at all (Tarleton FCS-AA Smith, D2 Maas, Montana Amick, injured-2025 Taylor).",
+    "Rogers' counter is attributed but unverifiable: 'the deepest O-Line that he has been a part of.'",
+    "32 = bottom-sixth: the thinnest verified OL of our round; the FCS-AA pedigree is the upside case."
+   ],
+   "key_players": [
+    {
+     "name": "Braden Smith",
+     "role": "C/G",
+     "evidence": "Tarleton FCS All-American (no PFF row)"
+    },
+    {
+     "name": "Jake Taylor",
+     "role": "LT",
+     "evidence": "2024 OU starter; injured 2025"
+    }
+   ],
+   "data_gaps": [
+    "Zero verifiable tape at 4 of 5 spots"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Iowa State",
+   "unit": "DL",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The 2025 unit was 1st-pctile as-played with 13 sacks, and its anchor (Orange) was drafted - the floor is fully priced in.",
+    "The Wazzu import is real: Terrell (86.8/409 - 7 sk/12 TFL, the round's second-best incoming DL grade), Lamb (69.4/433, 'huge spring reviews'), Ta'ase (68.7/283), Janikowski (72.1/168) - and their system allowed 125 (3.8) with 31 sacks last year.",
+    "Hawk + Gilbert are the incumbents; the 4-man-front switch fits the personnel.",
+    "46 = fringe-below-average: elite top add onto a terrible baseline, FCS depth behind."
+   ],
+   "key_players": [
+    {
+     "name": "Isaac Terrell",
+     "role": "DE",
+     "evidence": "PFF 86.8/409; 7 sk/12 TFL at Wazzu"
+    },
+    {
+     "name": "Zaimir Hawk",
+     "role": "NT, incumbent",
+     "evidence": "returning starter"
+    }
+   ],
+   "data_gaps": [
+    "Depth after the Wazzu four"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Iowa State",
+   "unit": "LB",
+   "grade": 40,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The #1, #2, and #3 tacklers all followed Campbell to PSU from what he'd called his best LB corps in a decade.",
+    "The replacements' tape runs behind their framing: Schlimgen ('rising star') at 58.8/308, Willich at 55.9/196; the production stars have no rows (D2 Harlon Hill winner Exline's 143 tackles; FCS-AA Smith). Caution rule leans tape.",
+    "40, L: high-variance room - the D2/FCS pedigree could hit, but nothing verified clears average."
+   ],
+   "key_players": [
+    {
+     "name": "Sullivan Schlimgen",
+     "role": "MLB",
+     "evidence": "PFF 58.8/308 at Wazzu"
+    },
+    {
+     "name": "Tristan Exline",
+     "role": "LB",
+     "evidence": "D2 Harlon Hill winner; 143 tkl (no row)"
+    }
+   ],
+   "data_gaps": [
+    "No-row production stars"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Iowa State",
+   "unit": "DB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Top six DBs gone (40 starts) AND the marquee add - Awls (74.3/602; 5 INT, 1st-tm MAC) - tore his ACL in spring.",
+    "What remains: M.Jones (70.1/651 JaxSt), pedigree-fading Singletary (64.3/251), Washington (55.0/406), no-row FCS pieces (Harper, S.Johnson, Goodman), incumbents Surges/Coffey; the books disagree on the starting config (battles).",
+    "PS's comp is direct: the similarly-built Wazzu '25 secondary finished #66 in his PDR. 40 = below average."
+   ],
+   "key_players": [
+    {
+     "name": "Malcolm Jones",
+     "role": "S/SLB",
+     "evidence": "PFF 70.1/651 at JaxSt"
+    },
+    {
+     "name": "Drew Surges",
+     "role": "SS, incumbent",
+     "evidence": "Athlon starter"
+    }
+   ],
+   "data_gaps": [
+    "Config unsettled",
+    "Awls OFY"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Iowa State",
+   "unit": "ST",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "The one improved room: Konrardy returns (14-18 with a SCHOOL-RECORD 63-yarder and a second career 54-yd game-winner vs Iowa; 'one of the best in the country' - Athlon) and the nation's #1 kick returner arrives (Pettaway, 33.0).",
+    "Flora (26.1 PR, TD) doubles the return threat; the P job is open (Perkins' 40.8 net departs; Aussie Gurney vs Lounsbury).",
+    "SPEC 21st pctile rides the departed punt game; the 2026 K/return core is verified elite. 52 = average-plus."
+   ],
+   "key_players": [
+    {
+     "name": "Kyle Konrardy",
+     "role": "K",
+     "evidence": "school-record 63-yd FG; 2 GWs vs Iowa"
+    },
+    {
+     "name": "Cameron Pettaway",
+     "role": "KR",
+     "evidence": "natl-best 33.0 avg"
+    }
+   ],
+   "data_gaps": [
+    "P open"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
