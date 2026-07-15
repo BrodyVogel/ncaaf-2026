@@ -1,0 +1,36 @@
+{
+ "id": 239,
+ "school": "Baylor",
+ "mascot": "Bears",
+ "abbreviation": "BAY",
+ "alternateNames": [
+  "BAY",
+  "Baylor"
+ ],
+ "conference": "Big 12",
+ "division": null,
+ "classification": "fbs",
+ "color": "#154734",
+ "alternateColor": "#ffb81c",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/239.png"
+ ],
+ "twitter": "@BUFootball",
+ "location": {
+  "id": 4727,
+  "name": "McLane Stadium",
+  "city": "Waco",
+  "state": "TX",
+  "zip": "76704",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 31.5582015,
+  "longitude": -97.1156702,
+  "elevation": "117.0538101",
+  "capacity": 45140,
+  "constructionYear": 2014,
+  "grass": false,
+  "dome": false
+ }
+}
