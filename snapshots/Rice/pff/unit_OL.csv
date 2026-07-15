@@ -1,0 +1,17 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Luke Miller,190648,T,RICE,13,99.5,0,275,60.0,56.2,60.2,4,6,252,98.4,98.5,97.6,2,11,1,824,0,0,319,828,263,267,0,364,561,145,2025_this_team
+Sean Sullivan,151161,T,RICE,13,100.0,0,275,62.3,51.7,63.7,6,5,232,100.0,100.0,97.2,2,12,1,719,0,0,379,719,241,241,0,340,478,0,2025_this_team
+Patrick Valent,173252,G,RICE,13,100.0,0,275,64.1,76.0,61.0,0,4,182,100.0,100.0,98.9,0,4,0,589,0,260,0,589,191,191,329,0,398,0,2025_this_team
+David Stickle,122419,C,RICE,9,100.0,0,275,63.6,56.8,62.6,2,2,178,100.0,100.0,97.2,0,7,3,580,580,0,0,580,185,185,0,0,395,0,2025_this_team
+John Long,145399,G,RICE,8,100.0,0,275,57.9,60.3,57.2,0,3,104,100.0,100.0,98.6,2,3,0,367,0,213,0,367,106,106,154,0,261,0,2025_this_team
+Netane Fehoko,173238,G,RICE,9,100.0,1,275,58.2,60.3,60.2,0,3,108,100.0,100.0,97.7,3,4,1,335,5,193,0,335,112,112,137,0,223,0,2025_this_team
+Cole Principe,204281,G,RICE,7,100.0,1,275,64.8,72.8,64.9,0,3,107,100.0,100.0,98.6,2,3,0,301,8,117,0,301,111,111,176,0,190,0,2025_this_team
+Nate Bledsoe,173227,C,RICE,7,100.0,0,275,63.7,56.2,64.0,1,1,94,100.0,100.0,98.9,2,2,0,293,293,0,0,293,98,98,0,0,195,0,2025_this_team
+Weston Kropp,163002,G,RICE,7,100.0,0,275,54.5,35.4,55.0,1,1,56,100.0,100.0,98.2,0,2,0,183,0,98,0,183,59,59,85,0,124,0,2025_this_team
+Luke Needham,173246,T,RICE,3,100.0,0,275,75.2,46.4,75.0,0,1,28,100.0,100.0,94.6,0,2,1,115,0,0,49,115,29,29,0,66,86,0,2025_this_team
+Justin Michaelis,204278,T,RICE,5,100.0,0,275,50.6,61.2,49.1,0,2,17,100.0,100.0,94.1,0,2,0,61,0,0,29,61,18,18,0,32,43,0,2025_this_team
+Cullen Witt,190651,T,RICE,3,97.8,0,275,61.5,65.6,60.4,0,0,11,91.7,91.7,100.0,0,0,0,45,0,0,12,46,11,12,0,5,34,29,2025_this_team
+Peyton Farmer,173237,T,RICE,3,100.0,0,275,40.3,76.7,37.3,0,0,7,100.0,100.0,100.0,0,0,0,17,0,0,8,17,7,7,0,8,10,1,2025_this_team
+Brad Baur,162989,T,RICE,2,100.0,0,275,54.4,71.7,52.0,0,0,5,100.0,100.0,100.0,0,0,0,13,0,0,1,13,5,5,0,12,8,0,2025_this_team
+Cole Morgan,176266,G,RICE,1,100.0,0,275,58.6,68.2,58.2,0,0,1,100.0,100.0,100.0,0,0,0,5,0,4,0,5,1,1,1,0,4,0,2025_this_team
+Trace Norfleet,163004,G,RICE,1,100.0,0,275,60.9,68.2,60.4,0,0,1,100.0,100.0,100.0,0,0,0,5,0,1,0,5,1,1,4,0,4,0,2025_this_team

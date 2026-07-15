@@ -1,0 +1,30 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Jacurri Brown,SR,UCF transfer (Miami before),Athlon chart QB1; run-first profile fits Abell option; Jenkins (67.2/207) -> Kansas
+QB,QB,2,Gael Ochoa,SO,UNLV transfer,competition (Athlon text)
+RB,RB,1,Quinton Jackson,SR,RETURNING STARTER (bold),leading rusher; PFF 71.9/179; ~205 team rush ypg 2025
+RB,RB,2,D'Andre Hardeman Jr.,SO,returner,PFF 66.0/82; Alexander (73.8/74) -> Coastal
+WRTE,WR,1,Braylen Walker / Payton Matthews / Jordan Clark,SR/SO/FR,returners,small roles 2025; Turner (72.9/220) expired + Dickmann -> Wake
+WRTE,WR,2,Barry Jackson Jr. / Ben Grice / Davis Lane / Max Mosey,JR/SO/,Cincinnati / Wake Forest / Virginia / Holy Cross,transfer restock; option offense = low WR volume
+WRTE,TE,1,James Falk,JR,returner,PFF 47.8/55
+OL,LT,1,Peyton Farmer,JR,returner,new starter
+OL,LG,1,Patrick Valent,JR,RETURNING STARTER (bold),PFF 64.1/589
+OL,C,1,Nate Bledsoe,JR,returner,PFF 63.7/293; Stickle (63.6/580) expired
+OL,RG,1,Cole Principe,SO,returner,PFF 64.8/301
+OL,RT,1,Luke Miller,SO,RETURNING STARTER (bold),PFF 60.0/828 as FR; Sullivan (62.3/719) expired
+DL,DE,1,Joseph Mutombo,JR,RETURNING STARTER (bold),PFF 48.9/235 (grade-role divergence noted)
+DL,DT,1,Aquantis Clemmons,JR,returner,PFF 66.4/353
+DL,DT,1,Dillan Botts,SR,RETURNING STARTER (bold),PFF 69.4/345
+DL,RUSH,1,Chibby Nwajuaku,SR,returner,PFF 74.5/311 - best returning DL grade; DEPARTED: Anyanwu (84.9/657 star) + Boenisch (64.2/503) expired
+DL,DL,2,Michael Daley / Preston Zinter / Tariq May,JR/,returner / Notre Dame / Eastern Washington,Daley 68.2/157; Zinter = ND pedigree edge
+LB,LB,1,Beau Barton,JR,returner (new starter),no 2025 volume; Morris (67.8/827) -> Rutgers + Awe (58.0/824) expired
+LB,LB,1,Cooper King,JR,returner (new starter),no 2025 volume
+LB,LB,2,Austin Harnetiaux / Jesus Machado,,Nevada / Houston,Harnetiaux 50.7/298
+DB,VIPER,1,Jo Chavez,JR,returner,PFF 59.6/394
+DB,CB,1,Tariq Watson,SR,transfer (NOT in CFBD feed - Athlon chart),origin unverified - feed miss logged
+DB,CB,1,Jerrick Harper,SR,returner,PFF 51.1/453
+DB,S,1,Ahran Ogbor,SO,returner,low vol
+DB,S,1,Daveon Hook,SR,returner,PFF 50.7/286; DEPARTED: Williams (72.7/651 best DB) -> MissSt + Porter/Stevenson/Crump/Kane expired
+DB,DB,2,Jamir Benjamin / Kyren Condoll / Zach Cody / Caden VerMaas / AJ Brown / Koa Akui,,UCLA/Duke/Coastal/Nebraska/UAB/SacSt,P4-depth patchwork adds
+ST,K,1,Enock Gota,,RETURNER,10-13 FG 2025; 37 touchbacks each of past 2 yrs; no 50+ makes
+ST,P,1,Charlie Durkin,,Kent State transfer,41.4 avg; 6 of 50+; 14 inside-20 2025; Bacchetta -> Georgia Tech
+ST,COORD,1,(Abell yr 2 - continuity),,,option scheme yr 2; no coach multiplier

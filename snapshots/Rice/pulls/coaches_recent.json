@@ -1,0 +1,65 @@
+[
+ {
+  "firstName": "Pete",
+  "lastName": "Alamar",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Rice",
+    "year": 2024,
+    "games": 4,
+    "wins": 2,
+    "losses": 2,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -8.6,
+    "spOverall": -11.4,
+    "spOffense": 20.5,
+    "spDefense": 30.4
+   }
+  ]
+ },
+ {
+  "firstName": "Mike",
+  "lastName": "Bloomgren",
+  "hireDate": "2017-12-06T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Rice",
+    "year": 2024,
+    "games": 8,
+    "wins": 2,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -8.6,
+    "spOverall": -11.4,
+    "spOffense": 20.5,
+    "spDefense": 30.4
+   }
+  ]
+ },
+ {
+  "firstName": "Scott",
+  "lastName": "Abell",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Rice",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -15.1,
+    "spOverall": -14.8,
+    "spOffense": 17.7,
+    "spDefense": 33.9
+   }
+  ]
+ }
+]
