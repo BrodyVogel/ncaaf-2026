@@ -1,0 +1,23 @@
+{
+ "run_utc": "2026-07-15T02:05:14+00:00",
+ "team": "Tulsa",
+ "final": -5.71,
+ "rank": 95,
+ "band": 6.18,
+ "resid": 9.16,
+ "adj": 3.21,
+ "class_term": 1.68,
+ "st": -0.1,
+ "anchor_blend": -10.94,
+ "implied_off": 24.0,
+ "implied_def": 26.38,
+ "anchor_off": 21.83,
+ "anchor_def": 33.37,
+ "fit_r2": {
+  "off": 0.538,
+  "dfn": 0.619
+ },
+ "low_conf_units": 1,
+ "code_rev": "ff7d85e",
+ "mode": "PILOT-OOS"
+}
