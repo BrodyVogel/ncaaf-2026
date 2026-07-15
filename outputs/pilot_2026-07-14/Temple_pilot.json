@@ -1,0 +1,23 @@
+{
+ "run_utc": "2026-07-15T01:57:24+00:00",
+ "team": "Temple",
+ "final": -7.72,
+ "rank": 102,
+ "band": 6.72,
+ "resid": 3.13,
+ "adj": 1.1,
+ "class_term": 1.68,
+ "st": -0.1,
+ "anchor_blend": -10.85,
+ "implied_off": 24.96,
+ "implied_def": 33.09,
+ "anchor_off": 24.12,
+ "anchor_def": 35.38,
+ "fit_r2": {
+  "off": 0.541,
+  "dfn": 0.611
+ },
+ "low_conf_units": 4,
+ "code_rev": "61ce985",
+ "mode": "PILOT-OOS"
+}
