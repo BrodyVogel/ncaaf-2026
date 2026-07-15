@@ -1,0 +1,332 @@
+{
+ "team": "West Virginia",
+ "units": {
+  "QB": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 42,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 20, RB 55, WRTE 43, OL 45, DL 33, LB 35, DB 29, ST 61)",
+   "QB": "+24 vs proxy 20 (proxy rides the five-QB carousel's 7th-pctile tape; the '26 room is Hawkins 74.1 + the Fox package)",
+   "DB": "+11 vs proxy 29 (proxy prices the 10th-pctile COV holdovers; Wilson 74.2/801 + Latimer + volume adds are new information)",
+   "DL": "+9 vs proxy 33 (all-new rotation with all-league G5 edges vs the departed 46th-pctile group)",
+   "ST": "-19 vs proxy 61 (proxy rides the departed specialists; both new legs, unproven FG job)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "West Virginia",
+   "unit": "QB",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Fox (55.0/196) finished '25 as the first WVU true-freshman starter since 1952: 1,276 at 59% (7-6) plus 201 rushing, with both B12 wins (45-35 over #22 Houston, Colorado) and the 301-yard TCU near-miss - the narrative is ahead of the tape grade.",
+    "Hawkins (74.1/34; Oklahoma) is Athlon's printed QB1 - '24 true-FR starts 'in a tough spot,' 'the mobile QB Rich Rod covets' (PS).",
+    "RichRod (attributed): 'deepest QB room he has ever had' - two capable dual-threats, neither with a proven full season, in the scheme that most amplifies the position.",
+    "44 = below average from a 7th-pctile PASS base, with real scheme-fit upside."
+   ],
+   "key_players": [
+    {
+     "name": "Michael Hawkins Jr.",
+     "role": "QB1 transfer (Oklahoma)",
+     "evidence": "PFF 74.1/34; '24 OU starts"
+    },
+    {
+     "name": "Scotty Fox Jr.",
+     "role": "QB, returning (finished '25 starter)",
+     "evidence": "PFF 55.0/196; 1,276 + 2 B12 wins"
+    }
+   ],
+   "data_gaps": [
+    "Battle unresolved",
+    "Neither has a full proven season"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "West Virginia",
+   "unit": "RB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Cam Cook (85.9) arrives as the Division I rushing champ - 1,659 and 16 TD at 5.6 at Jacksonville State (PS: 2nd-team AA) - imported into exactly the scheme his numbers were built in; 'will be the workhorse' (P6).",
+    "Depth is rebuilt on pedigree: 4* FR Latimer (PS#22) as the printed RB2, JC Boswell (1,109 at 9.5), FB Luke, Cheeks (PS#41).",
+    "The departed room produced the worst unit percentile in the B12 set (RUN 2nd pctile) amid the injury cascade - the floor is low and the import is real. G5 guard on the 85.9 (CUSA).",
+    "52 = average-plus: elite G5 volume + scheme fit, behind an unproven line."
+   ],
+   "key_players": [
+    {
+     "name": "Cam Cook",
+     "role": "RB1 transfer (Jacksonville State)",
+     "evidence": "PFF 85.9; D1-leading 1,659 + 16 TD"
+    },
+    {
+     "name": "Amari Latimer",
+     "role": "RB2 (4* freshman signee)",
+     "evidence": "PS#22 FR; Athlon RB2"
+    }
+   ],
+   "data_gaps": [
+    "Zero returning FBS carries of note"
+   ],
+   "g5_guard_note": "Cook's 85.9/1,659 is CUSA-graded; scheme-fit + workhorse role hold the unit above average"
+  },
+  {
+   "team": "West Virginia",
+   "unit": "WRTE",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Bray returns as 'the clear #1 receiver to build around' (P6) - a yr-4 medical-return (documented; Athlon May WR1 in bold) with zero 2025 tape after the early season-ending injury.",
+    "The rotation is transfers: Epps (68.2; Troy slot starter + return man), Neider (69.3 UConn), Strachan (USC via Boise), Francis (LSU Top200 FR); TE = Ward plus P4 backups Ball (6'7) and Sapp, with 12-personnel plans.",
+    "The departed trio (Vaughn 66.7, Weimer, Gallagher) led a 10th-pctile RECV room that totaled 1,116 WR yards - the bar is on the floor.",
+    "44 = fringe-below-average: one proven-in-2024 piece plus projection."
+   ],
+   "key_players": [
+    {
+     "name": "Jaden Bray",
+     "role": "WR1, returning (yr-4 medical - documented)",
+     "evidence": "Athlon May WR1 bold; no '25 tape"
+    },
+    {
+     "name": "DJ Epps",
+     "role": "slot transfer (Troy)",
+     "evidence": "PFF 68.2; also KR/PR"
+    },
+    {
+     "name": "John Neider",
+     "role": "WR transfer (UConn)",
+     "evidence": "PFF 69.3/13gm"
+    }
+   ],
+   "data_gaps": [
+    "Bray post-injury form",
+    "No returning production"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "West Virginia",
+   "unit": "OL",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Two starters return (Krahe 63.5/860 - HM All-B12; Livingston 64.7/754) and the import volume is real: Grayson (68.5/1008; 1st-team CUSA), Casady (72.1/774 UConn - best incoming tape), King (66.2/683), Vass (55.3/420; KSU's final seven starts), plus Top100 FR Brown with 'instant starter' framing - ~120 career starts in the room.",
+    "The coach is the story: Rick Trickett hired back for his 53rd season - the 2001-06 WVU lines and JSU's top-five rushing lines are his resume; Athlon calls the line 'the engine of the offense.'",
+    "The base is the floor: #121 Run Push / #120 Pass Pro, a 9% sack rate, RBLK 8th pctile.",
+    "46 = fringe-below-average: proven mass + coach prior vs a from-the-basement rebuild."
+   ],
+   "key_players": [
+    {
+     "name": "Nick Krahe",
+     "role": "G, returning starter",
+     "evidence": "PFF 63.5/860; HM All-B12"
+    },
+    {
+     "name": "Carsten Casady",
+     "role": "T transfer (UConn)",
+     "evidence": "PFF 72.1/774"
+    },
+    {
+     "name": "Amare Grayson",
+     "role": "G transfer (Jacksonville State)",
+     "evidence": "PFF 68.5/1008; 1st-tm CUSA"
+    }
+   ],
+   "data_gaps": [
+    "Center battle (Griffin/King/Livingston)",
+    "RT (Agbo vs FR Brown)"
+   ],
+   "g5_guard_note": "Grayson/King/Griffin tape is G5-graded; Casady + the Trickett prior carry the 46"
+  },
+  {
+   "team": "West Virginia",
+   "unit": "DL",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "All four starters and the top six trench players are gone - All-B12 Vesterinen (71.6/553) graduated; Siders/Grant/Kelly expired; Redwood, Russell, Jones portaled - 7 DL and 48 starts out.",
+    "The reload: Gabriel (64.1/287) projected at NT, all-league G5 ends Holloman (70.7/805; 5.5 TFL - 'a major disruptor' per Athlon) and Durham-Campbell (3rd-team SBC; 5 sacks), Haastrup (Oregon Top250), Afogho (66.1/481), JUCO All-American Henson plus a premium JUCO class (PS#3/31/33/69).",
+    "The books split: P6 'an upgraded room from 2025 despite the loss'; PS 'should at least equal last year… size up front could be a concern.'",
+    "42 = below average from a 46th-pctile RDEF/26th PRSH base: plausible parity, zero proven P4 pieces."
+   ],
+   "key_players": [
+    {
+     "name": "Harper Holloman",
+     "role": "ED transfer (Western Kentucky)",
+     "evidence": "PFF 70.7/805; 5.5 TFL"
+    },
+    {
+     "name": "Ezekiel Durham-Campbell",
+     "role": "ED transfer (Coastal Carolina)",
+     "evidence": "3rd-tm SBC; 5 sk"
+    },
+    {
+     "name": "Nate Gabriel",
+     "role": "NT, returner (moves up)",
+     "evidence": "PFF 64.1/287"
+    }
+   ],
+   "data_gaps": [
+    "Interior size vs physical B12 fronts",
+    "JUCO class translation"
+   ],
+   "g5_guard_note": "Holloman/Durham-Campbell all-league tape is CUSA/SBC-graded; guard holds the unit at 42"
+  },
+  {
+   "team": "West Virginia",
+   "unit": "LB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "All three starters depart (#1/#3/#4 tacklers): team tackle leader Perry (64.9/572; the nickel PS files here), sack leader Carrico (62.6/520; 4.5), C.Wilson (57.6/523); Bogle (73.4/255) also left for Arkansas.",
+    "Cutter (68.7/311; 2 st, 39 tkl) rises; Stolsky (64.1/540; FAU starter) battles Hood (54.6/366 Illinois); Patterson (UNLV) and Hall (Villanova) among seven adds - '6 with 39+ tackles in a season' (PS).",
+    "PS's own summary: 'may not have a star yet, but it'll be a lot deeper.' 40 = below average: volume without a proven B12 piece."
+   ],
+   "key_players": [
+    {
+     "name": "Ben Cutter",
+     "role": "LB, returner (rises)",
+     "evidence": "PFF 68.7/311; 39 tkl"
+    },
+    {
+     "name": "Tyler Stolsky",
+     "role": "LB transfer (Florida Atlantic)",
+     "evidence": "PFF 64.1/540"
+    }
+   ],
+   "data_gaps": [
+    "Second LB spot battle",
+    "No returning starter"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "West Virginia",
+   "unit": "DB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The third all-new secondary in three years: every safety departed plus the top three corners, off a unit that was 10th-pctile COV, #123 PDR, and #66 of 68 P4 opponent-adjusted vs the pass.",
+    "The adds are the most real part: Wilson (74.2/801 at Memphis - the best incoming DB tape), Wisconsin starter Latimer (59.8/422) at nickel, Rawlinson (Kent St), Reddic (SFA), Bradford (LSU, PS#100), Powdrell (60.1/738); '25 backups Taylor and Robinson move up; Top100 FR Sieg is the wildcard.",
+    "PS: 'same shape as last year but could move up some'; RichRod's length emphasis is the design bet. 40 = below average: real pieces, zero continuity, no proven P4 corner."
+   ],
+   "key_players": [
+    {
+     "name": "Kamari Wilson",
+     "role": "S transfer (Memphis)",
+     "evidence": "PFF 74.2/801"
+    },
+    {
+     "name": "Geimere Latimer II",
+     "role": "NB transfer (Wisconsin)",
+     "evidence": "PFF 59.8/422; starter"
+    },
+    {
+     "name": "Jaire Rawlinson",
+     "role": "CB transfer (Kent State)",
+     "evidence": "Kent St starter"
+    }
+   ],
+   "data_gaps": [
+    "Corner room entirely unproven vs P4",
+    "Safety pairings"
+   ],
+   "g5_guard_note": "Wilson/Reddic/Rawlinson tape is G5/FCS-graded"
+  },
+  {
+   "team": "West Virginia",
+   "unit": "ST",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Everyone is new: the '25 K (10-12, L50), P, KR, and PR all left; the adds are P Hansen (44.1 net at Colorado State - PS's exclamation-point number and the one clear upgrade), K Cassidy (WKU) vs Notaro (Alabama), and Epps on returns.",
+    "The '25 unit graded 61st-pctile SPEC but finished #116 in PS's STR - PS projects 'a decent rise with better team depth.'",
+    "42 = fringe-below-average: one verified leg (punter), an unproven FG job, new return men."
+   ],
+   "key_players": [
+    {
+     "name": "Bryan Hansen",
+     "role": "P transfer (Colorado State)",
+     "evidence": "44.1 net"
+    },
+    {
+     "name": "Jack Cassidy",
+     "role": "K transfer (Western Kentucky)",
+     "evidence": "FBS experience; battle w/ Notaro"
+    }
+   ],
+   "data_gaps": [
+    "FG job unresolved"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
