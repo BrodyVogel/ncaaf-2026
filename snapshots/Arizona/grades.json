@@ -1,0 +1,300 @@
+{
+ "team": "Arizona",
+ "units": {
+  "QB": {
+   "grade": 88,
+   "confidence": "H"
+  },
+  "RB": {
+   "grade": 55,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 42,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 93, RB 42, WRTE 37, OL 77, DL 45, LB 50, DB 64, ST 33)",
+   "WRTE": "+15 vs proxy 37 (proxy sees Hutson/Whatley exits only; misses Gallagher/Jordan/Rusk adds + Spivey quality)",
+   "OL": "-19 vs proxy 77 (proxy counts graduated seniors Decambra/Maae/Buchanan as returning - yr-4-no-portal artifact)",
+   "DB": "-18 vs proxy 64 (proxy counts bodies; 4 drafted + 1 UDFA + 2 expired = 6,700 snaps invisible to it)",
+   "RB": "+13 vs proxy 42 (proxy over-weights Mahdi exit; Reescano 83.0-run-grade return is the quality)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Arizona",
+   "unit": "QB",
+   "grade": 88,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "Texas Tech OL 2025 (84)",
+    "Kentucky DL 2025 (91)"
+   ],
+   "rationale_bullets": [
+    "Reigning 1st-team All-B12 QB returns: Fifita 85.1 PFF on 534 snaps, 3,228-29-6, 103.6 rating, 26 big-time throws vs 1.9% TWP - 92nd-pctile as-played unit.",
+    "The continuity kicker both magazines lead with: first career season with a returning play-caller (Doege yr 2); added +220 designed-run yds as a new dimension.",
+    "Held back from 90+ by depth (Locke thin tape, Bray FR) and the rebuilt OL/WR context around him.",
+    "88 = clear top-15 unit: elite proven starter + scheme continuity, non-elite room depth."
+   ],
+   "key_players": [
+    {
+     "name": "Noah Fifita",
+     "role": "QB1, 3rd-yr starter, All-B12",
+     "evidence": "PFF 85.1/534; 3,228-29; 2 INT over final 7 (P6)"
+    }
+   ],
+   "data_gaps": [
+    "Backup separation unknown"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Arizona",
+   "unit": "RB",
+   "grade": 55,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Committee loses its volume leader (Mahdi, 851 designed yds, 75.8 PFF) but keeps the efficiency: Reescano 76.1 offense / 83.0 run grade, 9 TD, 3.24 YCO/att.",
+    "Craig (65.5, Kansas walk-off) is the proven change-up; Roberts (Marshall, 69.4/171) adds tested depth - P6 frames Reescano/Craig as 'thunder-lightning.'",
+    "No returning 800-yd back and the line in front loses 3 starters; 55 = slightly above average on quality-over-volume."
+   ],
+   "key_players": [
+    {
+     "name": "Kedrick Reescano",
+     "role": "RB1",
+     "evidence": "PFF 76.1, 83.0 run, 9 TD incl Cincinnati winner"
+    },
+    {
+     "name": "Quincy Craig",
+     "role": "RB2",
+     "evidence": "PFF 65.5; Kansas game-winner"
+    }
+   ],
+   "data_gaps": [
+    "Carry split unresolved"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Arizona",
+   "unit": "WRTE",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Top two producers gone (Hutson 75.5/383, 764 yds; Whatley 66.6/279) from a unit that played at just the 49th pctile even with them.",
+    "Return quality is real but thin on volume: Spivey (All-B12 HM, 8 TD on 25 touches, 63.0 PFF), Hunter moves up (60.4), Richardson 299 as FR.",
+    "Adds carry pedigree over production: Gallagher (WVU starter, 58.6 PFF slot), Top100 DJ Jordan (USC); TE room rebuilt around Powell's return + Rusk (Illinois starter).",
+    "P6's 'the 2026 room looks like an upgrade' is attributed opinion; 52 = average-plus: breadth without a proven WR1."
+   ],
+   "key_players": [
+    {
+     "name": "Tre Spivey",
+     "role": "WR1 candidate",
+     "evidence": "8 TD on 25 touches, All-B12 HM; PFF 63.0/313"
+    },
+    {
+     "name": "Rodney Gallagher III",
+     "role": "transfer slot",
+     "evidence": "WVU starter; PFF 58.6/256"
+    }
+   ],
+   "data_gaps": [
+    "No returning 500-yd wideout"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Arizona",
+   "unit": "OL",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "2025 as-played 79th pctile, but 3 of 5 starters gone: lone all-league OL LT Buchanan (70.9/737), C Decambra (67.9/898), G Maae (63.9/753).",
+    "Right side intact and good: Bounds (72.3/628, 80.3 pass block - 6th-year override) + Doost (67.2/878, yr 2, Athlon-bolded).",
+    "Replacements are injury-forced 2025 fill-ins with 'mixed results' (P6: Lado, Tapa'atoutai) + Washington spot-starter Henning at C.",
+    "58 = above average: two proven returning starters and last year's run-game trajectory, discounted for 3 new interior/left-side pieces."
+   ],
+   "key_players": [
+    {
+     "name": "Tristan Bounds",
+     "role": "RT, 6th yr",
+     "evidence": "PFF 72.3/628, 80.3 pass block"
+    },
+    {
+     "name": "Alexander Doost",
+     "role": "RG, yr 2",
+     "evidence": "PFF 67.2/878"
+    }
+   ],
+   "data_gaps": [
+    "LT/C/LG unsettled"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Arizona",
+   "unit": "DL",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The three best-graded linemen expired (magazine-silent yr-4s): ED R.Wilson (78.0/428), DI McKnight (76.4/449), DI Savea (64.2/379) - the top-end pass rush leaves.",
+    "Continuity is real underneath: 6 of top 10 front-six back incl. captain Tre Smith off injury (79.0 in 4 gms; 8.5 TFL/4.5 sk career), Palu, B12 All-Freshman Pese.",
+    "3-3-5 front eats blocks by design; as-played 55th pctile fades on the expirations. 48 = fractionally below average."
+   ],
+   "key_players": [
+    {
+     "name": "Tre Smith",
+     "role": "ED, captain, returns from injury",
+     "evidence": "PFF 79.0/144 in 4 gms; 60 tkl/8.5 TFL career"
+    },
+    {
+     "name": "Mays Pese",
+     "role": "DI, yr 2",
+     "evidence": "B12 All-Freshman (P6)"
+    }
+   ],
+   "data_gaps": [
+    "Smith health",
+    "Interior rotation behind Palu/Pese"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Arizona",
+   "unit": "LB",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "The signature room of Gonzales's 3-3-5 mostly returns: Brown (75.9/752, 87.1 run grade, 3rd-yr starter), Mann, Robinson, Kennedy hybrid (65.5/537).",
+    "One volume loss: M.Harris (72.0/612) expired - half of last year's top tackling duo.",
+    "LB-caution rule applied: here grades AND production agree on Brown, and the as-played unit was 78th pctile.",
+    "58 = above average: proven multi-starter core in a proven scheme, minus one starter-grade body."
+   ],
+   "key_players": [
+    {
+     "name": "Taye Brown",
+     "role": "LB1, 3rd-yr starter",
+     "evidence": "PFF 75.9/752; 87.1 run grade"
+    },
+    {
+     "name": "Chase Kennedy",
+     "role": "LB/ED hybrid",
+     "evidence": "PFF 65.5/537, 4 sk"
+    }
+   ],
+   "data_gaps": [
+    "Depth behind top four"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Arizona",
+   "unit": "DB",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Historic exodus from a 95th-pctile unit: FOUR DBs NFL-drafted (tied record) + 1 UDFA - Stukes (90.1/608), Johnson (84.8/771), Smith - plus expired Garnes (68.6/700), Dansby (74.0/506). 6,700 career snaps out (Athlon).",
+    "One real anchor returns: Cole (All-B12, 4 INT, lone returning starter).",
+    "Reload is 8 transfers of volume-not-blue-chip profile: Hartzog (Nebraska starter), FCS All-Big Sky Chapa, All-MW Boss, Top100s Austin/Tagoa'i - vs 'second-worst from the portal' context.",
+    "P6's own Illinois-2022 comp (#1 pass D -> #70) with the offsetting note that 'the mastermind coordinator returns' (Gonzales extended, Broyles semifinalist).",
+    "46 = slightly below average: elite DC + one All-B12 corner floor it; seven new starters cap it."
+   ],
+   "key_players": [
+    {
+     "name": "Jay'vion Cole",
+     "role": "CB1, lone returning starter",
+     "evidence": "All-B12, 4 INT"
+    },
+    {
+     "name": "Malcolm Hartzog",
+     "role": "transfer S/CB",
+     "evidence": "Nebraska starter, position-flexible (P6)"
+    }
+   ],
+   "data_gaps": [
+    "8-transfer cohesion unknowable",
+    "No returning starter at S"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Arizona",
+   "unit": "ST",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "K Salgado-Medina returns off 19-31 (most misses since 1999; 5-12 from 40-49) with snapping inconsistencies a documented factor and a 57-yd make showing the leg; 'more consistent throughout the spring' (Athlon).",
+    "P Prasuhn left (SDSU); Aussie Ridley the likely starter - unproven.",
+    "Return game gains Mizell/Gallagher speed. 42 = below average: documented 2025 dysfunction, partial mitigants."
+   ],
+   "key_players": [
+    {
+     "name": "Michael Salgado-Medina",
+     "role": "K, yr 2",
+     "evidence": "19-31 FG, 57-long; spring-consistency note (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "New punter",
+    "New snapper unverified"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
