@@ -1,17 +1,27 @@
-unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
-QB,1,,,,,,,,
-QB,2,,,,,,,,
-RB,1,,,,,,,,
-RB,2,,,,,,,,
-WRTE,1,,,,,,,,
-WRTE,2,,,,,,,,
-OL,1,,,,,,,,
-OL,2,,,,,,,,
-DL,1,,,,,,,,
-DL,2,,,,,,,,
-LB,1,,,,,,,,
-LB,2,,,,,,,,
-DB,1,,,,,,,,
-DB,2,,,,,,,,
-ST,1,,,,,,,,
-ST,2,,,,,,,,
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Cole Ballard,JR,returner ("slight edge" - P6),"ex-walk-on, Daniels' backup; career 35-64-445-3-4 + 209 rush; solid '23 start vs KSU (PS)"
+QB,QB,2,Isaiah Marshall / Chase Jenkins,SO / JR,returner + Rice transfer,"Marshall: dual-threat, QB-run package ('24: #4 rusher 160 @ 10.7); Jenkins: 12 Rice starts - 1,025 pass (9-2) + 531 rush, 12th AAC rating; PFF 67.2/214. DEPARTED: Daniels (77.1/385; 2,531 at 62%, 22-7 + 404 rush) - 6th-yr era ends w/ the Utah pick-six"
+RB,RB,1,Dylan Edwards,JR,Kansas State transfer (Athlon*),"electric Top-150/200, Derby KS native, 3rd program (Colorado/KSU); 815 total yds '24, injured '25 (69.9/49); KR too; Leipold: 'Andy's really going to enjoy... creative with him'"
+RB,RB,2,Yasin Willis / Jalen Dupree,JR / JR,Syracuse + Colorado State transfers,"Willis = Cuse lead rusher 558 (66.6/145); Dupree = CSU lead 527-508 (71.7/136). DEPARTED: Hishaw (74.8/175; 587) + Williams (79.0/139; 560) expired. PS: 'deep room that should at least match '24's numbers'"
+WRTE,WR,1,Nik McMillan,SR,Buffalo transfer (Athlon*),"1st-team All-MAC: led MAC at 82 ypg (~981); school-record 7 straight 100-yd games (P6); PFF 71.6/454"
+WRTE,WR,1,Cam Pickett,SR,returner,"tied team lead 45 rec (476, 10.6); slot; PFF 67.1/234; ex-Ball St (3rd Tm MAC '24)"
+WRTE,WR,1,Nahzae Cox,SR,Middle Tennessee transfer (Athlon*),"6-3 deep threat (P6); PFF 62.1/366"
+WRTE,TE,1,Carson Bruhn / Jailen Butler,SO / SR,returner (injury) + ODU transfer,"Bruhn broke in as RS-FR pre-injury; Butler 47.1/169. DEPARTED: Henderson (70.9/332; 786 @ 17.0, All-B12) + TE Groen (63.1/237) + Wentz (61.1/216) expired; Kubecka (rotation) returns"
+OL,LT,1,Calvin Clements,JR,RETURNING STARTER (bold),"'NFL caliber' (PS/Leipold framing) vs PFF 52.2/707 - framing/tape split recorded"
+OL,LG,1,Amir Herring,JR,RETURNING STARTER (bold),"returning starter"
+OL,C,1,Kasen Carpenter,JR,Oklahoma State transfer (Athlon*),"ex-Tulsa starting C; PFF 59.6/140"
+OL,RG,1,Connor Stroh,JR,Texas transfer (Athlon*),"5 Texas starts; PFF 59.7/310"
+OL,RT,1,Nick Morrow,JR,California transfer (Athlon*),"16 career starts at T; PFF 61.0/421. DEPARTED: ALL THREE All-B12 OL - Baynes (74.2/751), Foster (69.0/748), Cruz (70.3/663) - expired. 2025: #11 P6 Run Push, as-played 81st pctile. Incoming 85 career starts = 'on par' (PS); 'gap between 1's and 2's very narrow'"
+DL,DE,1,Leroy Harris III,JR,returner,"All-B12 (P6); top returning sack man (4.5); Athlon 'top pass-rusher'"
+DL,DT,1,Blake Herold,JR,returner,"'could push for all-league honors' (P6); 5 TFL; PFF 72.7/460"
+DL,DT,1,Tre'Von McAlpine,SR,Tulane transfer (Athlon*),"2nd-team All-AAC run-stuffing NT (P6); PFF 65.2/437 [the departure our gate missed twice - now correctly on Kansas]"
+DL,DE,2,David Santiago / Alex Bray / Dakyus Brinkley / Eamon Smalls,JR / SR / / ,MSU transfer + returners + UAB transfer,"Santiago 72.3/248 (MSU starter); Brinkley 'rising star' (P6); Smalls 65.0/416 (UAB, 10 st - PS-surfaced add). DEPARTED: all four starters - Withers (64.2/421), Dunn (67.6/406), Finkley (65.8/404), Caldwell expired; ~2,000 DL snaps lost (P6)"
+LB,MLB,1,Trey Lathan,SR,RETURNING STARTER (bold),"RETAINED top playmaker: team-high 86 tkl, 7 TFL, INT, FF, 2 FR; the UCF goal-line FR + game-sealing tackle (P6); PFF 74.5/713; ex-WVU"
+LB,LB,1,Daveon 'Bam' Crouch,SR,Boston College transfer (Athlon*),"BC captain: 13 st, 77 tkl in '24; REDSHIRTED 2025 (PS) - no '25 tape"
+LB,LB,2,Jibreel Al-Amin / Quincy Davis / Landyn Watson / Jaron Willis,/ / / ,Marshall + transfers + Kentucky + South Carolina,"Al-Amin 63.6/517 (Marshall, 11 st/65 tkl '24 per PS Landon Watson note - names per feed); Q.Davis 73.0/314. DEPARTED: Kamara (63.4/529, B12 honors) expired. PS: 'more depth... keep the LBs fresh late'"
+DB,CB,1,Jalen Todd,JR,RETURNING STARTER (bold),"PFF 70.7/611"
+DB,CB,1,Austin Alexander,SO,RETURNING STARTER (bold),"PFF 61.0/542; Gibbs = top-4 CB room (Leipold likes)"
+DB,S,1,Taylor Davis,JR,RETURNING STARTER (bold),"PFF 55.2/591"
+DB,S,1,Corey Gordon,SR,Louisville transfer (Athlon*),"Louisville starting S; PFF 67.5/371. DEPARTED: Rawls (71.4/632, #2 tklr) -> Arizona State [cross-ref]; Graham expired. Adds: Pearson 63.0/504, J.Harris (Miami/UGA 'NFL factories'). 2025 PDR #101 - 'biggest question mark' (PS)"
+ST,K,1,Martin Connington,SO,Michigan State transfer (Athlon*),"replaces Grozza-semifinalist Marjan (16-17, L49) - DEPARTED"
+ST,P,1,Matthew Gill,FR,signee,"replaces Lappin (45.3, 42.2 NET - elite) - DEPARTED. 2025 STR #12 / SPEC 77th pctile; PS: 'may take a Stock Market drop.' KR Edwards, PR Nagy"
