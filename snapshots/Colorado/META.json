@@ -5,14 +5,19 @@
  "assembler_git_rev": "fbd7f09",
  "cfbd_pull_dir": "data/cfbd/2026-07-12",
  "known_gaps": [
-  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
-  "2026 recruiting team ranks not on CFBD - use 247 site at research time for class context",
-  "two-deep, magazines.md, news.md, Sideline valuations = research phase (RESEARCH_PROCEDURE.md)"
+  "QB battle open (Lewis rFr vs Wilson)",
+  "42-transfer cohesion + dual new-scheme install unknowable pre-season",
+  "K = rFr with no tape vs 6-10 journeyman",
+  "11 arrivals have no PFF rows (FCS/Sac St) - PS/magazine production only",
+  "L.Johnson chart conflict (Athlon bold starter vs PS depth)"
  ],
  "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
- "frozen": false,
+ "frozen": true,
  "portal_departure_confirmed": [
   "Reginald Hughes",
   "Tavian Coleman"
- ]
+ ],
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": false
 }

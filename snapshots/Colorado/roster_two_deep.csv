@@ -1,17 +1,32 @@
-unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
-QB,1,,,,,,,,
-QB,2,,,,,,,,
-RB,1,,,,,,,,
-RB,2,,,,,,,,
-WRTE,1,,,,,,,,
-WRTE,2,,,,,,,,
-OL,1,,,,,,,,
-OL,2,,,,,,,,
-DL,1,,,,,,,,
-DL,2,,,,,,,,
-LB,1,,,,,,,,
-LB,2,,,,,,,,
-DB,1,,,,,,,,
-DB,2,,,,,,,,
-ST,1,,,,,,,,
-ST,2,,,,,,,,
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Julian Lewis,rFR,returner (PS#2 overall),"5-star, 17yo in 2025; 2 starts + 4 gm, 589 yds (55.3%), 4 TD / 0 INT as true FR - redshirt retained; PFF 72.1/121; 'surged late' (P6); 'I look for Lewis to thrive in the Go-Go offense' (PS). DEPARTED: Salter (64.4/277; 9 starts; combined room 2,434 at 58.7%, 17-11) expired; Staub -> Tennessee"
+QB,QB,2,Isaac Wilson,SO,Utah transfer (Athlon*),"7 starts at Utah in '24 as true FR (more INT than TD - P6); 2 snaps '25; 4* pedigree; pushing Lewis (Athlon). + true FR Sweetwyne (PS#80)"
+RB,RB,1,Richard Young,JR,Alabama transfer (PS#2 RB),"1 st, 15 gm, 234 (4.0) over 3Y at Bama - pedigree over tape; 210-lb power (P6)"
+RB,RB,2,Damian Henderson II / JaQuail Smith / DeKalon Taylor / Micah Welch,JR / SO / SR / JR,Sacramento State transfers + returners,"Henderson 565 (6.2) + Smith 511 (6.7) IN MARION'S OFFENSE at Sac St (scheme-fit); Taylor back healthy (OFY wk 4; '24: 909 @ 6.0 at Incarnate Word); Welch = 2025 team-high 384 (4.0), Athlon-bold. CU's leading rusher hasn't topped 400 in FOUR years (PS); scheme goes ~69% run. DEPARTED: Hayden (66.2/106) -> Memphis; Price -> Oregon"
+WRTE,WR,1,Danny Scudero,SR,San Jose State transfer (Athlon-bold*),"led FBS with 1,297 (14.7); 2nd-team ALL-AMERICA (PS); Biletnikoff semifinalist (P6); PFF 74.3/507"
+WRTE,WR,1,Kam Perry,SR,Miami OH transfer (Athlon*),"976 @ 22.7 (!), 1st-team All-MAC (PS); PFF 77.3/370 - best incoming grade"
+WRTE,WR,1,DeAndre Moore Jr.,SR,Texas transfer (Athlon*),"7 st, 532 (14.9) at Texas; 4* (P6); PFF 71.7/263"
+WRTE,WR,2,Joseph Williams / Ernest Campbell / Quentin Gibson,JR / SO / SO,returner (Athlon-bold) + Sac St transfer + returner,"Williams: 2025 #2 (489, 13.2); 1,071 over 2Y incl. Tulsa; PFF 67.7/298; Campbell: 6 st, 755 @ 20.4 at Sac St + 4.3 speed (P6); Gibson KR. DEPARTED: O.Miller (67.9/313; team-high 808) -> ASU; Dre'lon Miller -> Baylor; S.Brown (54.6/372) expired; Hykeem Williams out"
+WRTE,TE,1,Zach Atkins,SR,RETURNING (Athlon-bold),"7 st, 149 (7.5); PFF 53.5/208; 'utilized more' in new scheme (P6)"
+OL,LT,1,Bo Hughley,JR,Georgia transfer (Athlon*),"6-7; 2 st, 10 gm at UGA; 'looks like an NFL OT' (PS opinion)"
+OL,LG,1,Chauncey Gooden,rFR,returner,"6-3 380; 4 games (RS) as true FR; Attia (58.1/339, 3 starts) behind"
+OL,C,1,Demetrius Hunter,SR,Houston transfer (Athlon*),"24 starts L2Y at Houston; PFF 59.7/811; Kinney (Lafayette, 2nd-tm Patriot) behind"
+OL,RG,1,Jose Soto,JR,Sacramento State transfer (Athlon*),"11 starts at Sac St (scheme-fit); McFadden (rFr) behind"
+OL,RT,1,Leon Bell,SR,California transfer (Athlon*),"6-8; 8 st, 11 gm at Cal (PFF 61.9/583); 'NFL OT' (PS opinion); White (Rutgers, 20 st L2Y, 65.6/755) + Roye (MD) + Houston (FIU '23) depth"
+OL,ALL,9,DEPARTED + context,,,"GONE (4 starters): Seaton (65.8/561, 5*) -> LSU; McGill (72.6/798 - best 2025 grade) + Crisler (63.8/773) + X.Hill (65.9/723) expired; Harden expired. Larry Johnson (64.0/447, Athlon-bold lone returning starter) now DEPTH per PS chart. Rebuilt line = 100 career FBS starts (PS); 27 different OL starters in 3 years; 2025: 126 rush (3.5), 38 sacks"
+DL,DT,1,Santana Hopper,SR,Tulane transfer (Athlon*),"1st-team All-AAC; 13 st, 31 tkl, 10.5 tfl at Tulane; App St '23-'24 before (16 st, 8.5 sk); PFF 80.2/661 - the headliner (P6); [the transfer that exposed our departure-check gap]"
+DL,DT,1,Ezra Christensen,SR,New Mexico State transfer,"13 st, 42 tkl, 11 tfl; PFF 88.6/494 - the best grade on the roster"
+DL,DE,1,Balansama Kamara,SR,Albany transfer (Athlon*),"12 st, 67 tkl, 7.5 sk, 1st-team CAA (PS); no PFF row (FCS)"
+DL,DE,1,Vili Taufatofua,SR,San Jose State transfer,"11 st, 34 tkl, 7 tfl, HM MWC (PS); PFF 71.8/454"
+DL,DL,2,Yamil Talib / Dylan Manuel / Samu Taumanupepe / Sedrick Smith / Toby Anene / Lamont Lester,SO / JR / SR / JR / SR / SO,Charlotte + AppSt + Baylor + Maryland + NDSU + Monmouth transfers,"Talib 79.0/374 (CLT cross-ref); Manuel 71.4/434; Taumanupepe 6-3 375 lbs (Baylor cross-ref); Anene (NDSU) + Lester (9.5 sk L3Y Monmouth) FCS rushers - no rows. DEPARTED: ALL FOUR starters - A.Walker (70.4/560) + Wade (65.0/518) + Barnes + McNeill expired; Davis-Swain -> A&M; Oatis -> Ole Miss; Okunlola -> VT; Merritt -> Clemson; McPherson -> PSU (the 'five to P4 rosters' - P6). 2025: 223 rush allowed (2nd-worst natl), 13 sacks"
+LB,ILB,1,Liona Lefau,SR,Texas transfer (Athlon*),"22 starts, 132 tkl, 8 tfl, 6 pd L2Y at Texas (PS#37); PFF 61.7/462"
+LB,ILB,1,Gideon Lampron,SR,Bowling Green transfer (Athlon*),"12 st, 119 tkl, 17.5 tfl, 1st-team MAC; 1st-tm Pioneer at Dayton '24 - climbing levels; PFF 86.6/753 (manual append: PFF name corrupted 'Gideon ESPN Lampron')"
+LB,LB,2,Tyler Martinez / Rodney Colton / Carson Crawford,SR / FR / FR,NMSU transfer + signees,"Martinez: 16 st, 123 tkl L2Y, 2nd-tm CUSA; PFF 66.2/218. DEPARTED: ALL THREE starters - Hughes (54.6/516, portal-no-dest = GONE adjudicated), J.Brown (63.5/472) + French (44.9/322) expired; Myers (70.1/318) -> UAB. 2025 as-played 9th pctile"
+DB,NB,1,Boo Carter,JR,Tennessee transfer (Athlon*),"former Top100; 5 st, 22 gm, 63 tkl L2Y at Tenn; 'rocky ride... big spring' (Athlon); may get offensive snaps (P6)"
+DB,CB,1,Cree Thomas,rFR,Notre Dame transfer (Athlon*),"3 games at ND; 'star potential' (Athlon); pedigree over tape"
+DB,CB,1,Makari Vickers,JR,returner (PS starter),"OU transfer in '25; 2 st, 8 gm here; RJ Johnson (3 st L2Y) + Omodia (Lamar: 19 st, 89 tkl, 19 pd L2Y - no PFF row) behind"
+DB,SS,1,Naeten Mitchell,JR,New Mexico State transfer (Athlon*),"12 st, 93 tkl, 9 pd, 2nd-team CUSA; PFF 64.8/845"
+DB,FS,1,Randon Fontenette,SR,Vanderbilt transfer (Athlon*),"24 st, 125 tkl, 14.5 tfl, 15 pd L2Y at Vandy; former 4*; PFF 68.2/790"
+DB,DB,2,Justin Eaglin / Emory Floyd / Ben Finneseth / Jaydan Hardy,SR / SO / SR / JR,JMU + AppSt transfers + returner (yr-4 OVERRIDE) + OU transfer,"Eaglin: All-SBC, 11 st, 13 pd (74.7/679); Floyd 13 st, 57 tkl (69.0/846); Finneseth = P6's 'only returning player with more than six starts' (yr-4, magazine override; 6 st, 27 tkl). DEPARTED: Byard (75.0/595) -> A&M; Stoutmire (72.4/461) -> Arkansas; McKinney (66.6/597) -> ND; Parks -> TCU; Hodge (57.0/844) expired; Slaughter -> Purdue; Love -> MissSt; Branch -> UCF. 9 transfer DBs in (3 full-time starters - PS); 'stronger at S than CB' (PS)"
+ST,P,1,Damon Greaves,SR,RETURNING,"'solid first year' (Athlon); 44 punts (43.7), 37.4 net here LY; Kansas '23-'24 before"
+ST,K,1,Elliot Arnold,rFR,returner (battle),"DNP as true FR; 'strong leg, ready' (Athlon); vs journeyman McCormick (6-10 FG LY at Grambling). DEPARTED: Mata (school-record career FG%, 9-11 LY) graduated. STR history #111/#97 (PS); team SPEC 75.7 = 60th pctile"
