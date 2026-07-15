@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Jon",
+  "lastName": "Sumrall",
+  "hireDate": "2023-12-08T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Tulane",
+    "year": 2024,
+    "games": 14,
+    "wins": 9,
+    "losses": 5,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 7.4,
+    "spOverall": 5.7,
+    "spOffense": 32.9,
+    "spDefense": 27.1
+   }
+  ]
+ },
+ {
+  "firstName": "Jon",
+  "lastName": "Sumrall",
+  "hireDate": "2023-12-08T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Tulane",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 3,
+    "spOverall": 6.3,
+    "spOffense": 32.4,
+    "spDefense": 27.6
+   }
+  ]
+ }
+]

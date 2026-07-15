@@ -1,0 +1,17 @@
+{
+ "team": "Tulane",
+ "conference": "American Athletic",
+ "created_utc": "2026-07-15T01:57:56+00:00",
+ "assembler_git_rev": "455a1e3",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "PS box not OCR'd (logged)",
+  "QB camp battle open; punter OPEN (both left)",
+  "Agu ACL status"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": "Hall promoted after Sumrall -> Florida - x1.13 applies (internal-continuity mitigant noted)"
+}
