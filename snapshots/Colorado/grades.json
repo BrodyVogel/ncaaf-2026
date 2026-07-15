@@ -1,0 +1,337 @@
+{
+ "team": "Colorado",
+ "units": {
+  "QB": {
+   "grade": 45,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 56,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 55,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 47,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 42,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 64, RB null, WRTE 75, OL 44, DL 68, LB 53, DB 47, ST 61)",
+   "WRTE": "-19 vs proxy 75 (proxy rides departed O.Miller/S.Brown bodies; my 56 already credits the haul)",
+   "QB": "-19 vs proxy 64 (proxy counts the departed rotation's volume; Lewis is 121 snaps)",
+   "DL": "-13 vs proxy 68 (proxy counts expired Walker/Wade as returning; my 55 prices the haul instead)",
+   "RB": "proxy null - engine imputes 50; mine 48"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Colorado",
+   "unit": "QB",
+   "grade": 45,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The 2025 three-man rotation (2,434 combined at 58.7%, 17-11) is gone except its best piece: Lewis - 5-star, 589 yds (55.3%), 4 TD / 0 INT in 2 starts as a 17-YEAR-OLD, redshirt kept; PFF 72.1/121 is the best small-sample QB tape in our rebuild cohort.",
+    "PS's read is attributed and bullish ('I look for Lewis to thrive in the Go-Go offense'); the Athlon scout's caveat is the counterweight ('how good can he be in Year 2 while still being a young guy').",
+    "Wilson (7 true-FR starts at Utah, more INT than TD) is a real battle entrant, not just depth.",
+    "45 = fringe-below-average: elite trajectory on 121 snaps, brand-new scheme, no proven FBS starter in the room."
+   ],
+   "key_players": [
+    {
+     "name": "Julian Lewis",
+     "role": "QB1 (presumptive)",
+     "evidence": "589 (55.3%), 4-0; PFF 72.1/121; 5-star"
+    },
+    {
+     "name": "Isaac Wilson",
+     "role": "QB battle",
+     "evidence": "7 starts at Utah '24"
+    }
+   ],
+   "data_gaps": [
+    "Battle unresolved",
+    "Go-Go install"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Colorado",
+   "unit": "RB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The baseline is dead-last: 0th-pctile as-played, and no CU rusher has topped 400 yards in four years (PS).",
+    "The reload is uniquely scheme-targeted: Marion brought his own Sac St pair - Henderson (565 @ 6.2) and Smith (511 @ 6.7) IN THIS OFFENSE - plus Bama pedigree Young (PS#2 transfer RB) and a healthy Taylor (909 @ 6.0 at IW '24); Welch (team-high 384, Athlon-bold) returns.",
+    "The scheme runs ~69% of snaps, and PS calls it 'one of the most improved RB rooms in the FBS' (opinion, attributed).",
+    "48 = fringe-average: coordinator-continuity evidence for the transfers is the strongest we've seen; zero returning FBS volume caps it."
+   ],
+   "key_players": [
+    {
+     "name": "Damian Henderson II",
+     "role": "RB, scheme import",
+     "evidence": "565 @ 6.2 in Marion's Sac St offense"
+    },
+    {
+     "name": "Richard Young",
+     "role": "RB, pedigree",
+     "evidence": "Bama; PS#2 transfer RB; 234 career yds"
+    },
+    {
+     "name": "Micah Welch",
+     "role": "returning leader",
+     "evidence": "384 yds (4.0), Athlon-bold"
+    }
+   ],
+   "data_gaps": [
+    "Committee order",
+    "FCS-to-B12 translation"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Colorado",
+   "unit": "WRTE",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "The best verified WR haul of the round: Scudero (74.3/507 - FBS-leading 1,297, PS 2nd-team All-America), Perry (77.3/370 - 976 @ 22.7, 1st-tm MAC), Moore (71.7/263, Texas starter), Campbell (755 @ 20.4 at Sac St).",
+    "Returning glue is real: J.Williams (67.7/298; 1,071 over two years) + TE Atkins (used more in the new scheme).",
+    "P6: 'the clear strength of the roster'; the Athlon scout: 'they're always gonna have receivers... that's Deion's deal.'",
+    "56 = above average: three 70+ tapes + the national receiving leader, capped by QB uncertainty and a run-first scheme."
+   ],
+   "key_players": [
+    {
+     "name": "Danny Scudero",
+     "role": "WR1",
+     "evidence": "1,297 yds (FBS #1); PFF 74.3/507; PS 2nd-tm AA"
+    },
+    {
+     "name": "Kam Perry",
+     "role": "WR",
+     "evidence": "976 @ 22.7, 1st-tm MAC; PFF 77.3/370"
+    },
+    {
+     "name": "Joseph Williams",
+     "role": "returning #2",
+     "evidence": "PFF 67.7/298"
+    }
+   ],
+   "data_gaps": [
+    "Target distribution in run-heavy scheme"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Colorado",
+   "unit": "OL",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The fourth straight rebuild: 27 different starters in 3 years; the best 2025 grade (McGill 72.6/798) expired and Seaton left as a 5-star; Athlon's lone bold returner (L.Johnson) is DEPTH on PS's chart.",
+    "The incoming eight carry 100 career FBS starts: Hunter (24 st, 59.7/811), White (20 st, 65.6/755), Bell (8 st, 61.9/583), Soto (11 st in Marion's offense), Hughley (UGA, 2 st) - PS: 'Bell and Hughley look like NFL OTs' (opinion).",
+    "2025 already improved to the 65th pctile as-played, but output stayed poor (38 sacks) and the scout blames scheming - the new OC is part of the fix thesis.",
+    "40 = below average: experience mass + two projectable tackles, no above-average verified starter."
+   ],
+   "key_players": [
+    {
+     "name": "Demetrius Hunter",
+     "role": "C",
+     "evidence": "24 st L2Y at Houston; PFF 59.7/811"
+    },
+    {
+     "name": "Taj White",
+     "role": "T/G",
+     "evidence": "20 st L2Y at Rutgers; PFF 65.6/755"
+    },
+    {
+     "name": "Leon Bell",
+     "role": "RT",
+     "evidence": "8 st at Cal; PFF 61.9/583; 6-8"
+    }
+   ],
+   "data_gaps": [
+    "LG = redshirt FR",
+    "Five new starters' cohesion"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Colorado",
+   "unit": "DL",
+   "grade": 55,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "All four starters gone from a unit that allowed 223 rush ypg (2nd-worst natl) with 13 sacks - the floor was already in.",
+    "The replacement tape is the best DL haul we've graded: Hopper (80.2/661, 1st-tm AAC), Christensen (88.6/494 - the roster's best grade), Talib (79.0/374), Taufatofua (71.8/454), Manuel (71.4/434) + 375-lb Taumanupepe and 1st-tm CAA Kamara (67 tkl, 7.5 sk).",
+    "PS's calibrated take: 'improved numbers but not to '24's level' (the '24 unit led the B12 in sacks).",
+    "55 = above average: five 70+ verified tapes stepping up one level, first-year DC install the cap."
+   ],
+   "key_players": [
+    {
+     "name": "Santana Hopper",
+     "role": "DT, 1st-tm AAC",
+     "evidence": "PFF 80.2/661 at Tulane; 8.5 sk at App St prior"
+    },
+    {
+     "name": "Ezra Christensen",
+     "role": "DT",
+     "evidence": "PFF 88.6/494 at NMSU"
+    },
+    {
+     "name": "Yamil Talib",
+     "role": "ED",
+     "evidence": "PFF 79.0/374 at Charlotte"
+    }
+   ],
+   "data_gaps": [
+    "G5-to-B12 translation en masse"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Colorado",
+   "unit": "LB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Wholesale replacement of a 9th-pctile room (all three starters gone; best returner had graded 54.6).",
+    "Lampron arrives with grade AND production aligned: 86.6/753, 119 tkl, 17.5 tfl, 1st-tm MAC - after 1st-tm Pioneer at Dayton the year before (a two-level climber; his PFF row was name-corrupted and manually restored).",
+    "Lefau (22 starts, 132 tkl at Texas) is P4-proven; Martinez (123 tkl L2Y, 2nd-tm CUSA) adds volume; PS: 'one of the best [LB units] they've had' (opinion).",
+    "LB caution rule satisfied on Lampron (tape agrees). 50 = average: massive upgrade from the baseline, unproven together."
+   ],
+   "key_players": [
+    {
+     "name": "Gideon Lampron",
+     "role": "ILB",
+     "evidence": "PFF 86.6/753; 119 tkl, 1st-tm MAC"
+    },
+    {
+     "name": "Liona Lefau",
+     "role": "ILB",
+     "evidence": "22 st, 132 tkl L2Y at Texas"
+    }
+   ],
+   "data_gaps": [
+    "Zero returning snaps at LB"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Colorado",
+   "unit": "DB",
+   "grade": 47,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Zero returning starters (Athlon DEFENSE (0)); the 2025 quality left with destinations (Byard 75.0 -> A&M, Stoutmire 72.4 -> Arkansas, McKinney -> ND).",
+    "Nine transfers, four with 650+ snaps of 64-75 tape: Eaglin (74.7/679, All-SBC), Floyd (69.0/846), Fontenette (68.2/790 - 125 tkl at Vandy, to FS), Mitchell (64.8/845, 2nd-tm CUSA); wildcards Carter (Tenn Top100, 'big spring') and Thomas (ND, 'star potential').",
+    "PS: 'stronger at S than CB' - the CB room is pedigree (Thomas rFr) + returners (Vickers) + FCS tape (Omodia 19 st/89 tkl, no PFF row).",
+    "47 = fringe-average: real safety tape + the program's DB brand vs zero continuity and thin verified CB play."
+   ],
+   "key_players": [
+    {
+     "name": "Justin Eaglin",
+     "role": "CB/NB",
+     "evidence": "All-SBC at JMU; PFF 74.7/679"
+    },
+    {
+     "name": "Randon Fontenette",
+     "role": "FS",
+     "evidence": "24 st, 125 tkl at Vandy; PFF 68.2/790"
+    },
+    {
+     "name": "Boo Carter",
+     "role": "NB wildcard",
+     "evidence": "Tenn Top100; 63 tkl L2Y"
+    }
+   ],
+   "data_gaps": [
+    "CB2 verified tape thin",
+    "Nine-transfer cohesion"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Colorado",
+   "unit": "ST",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The kicker who set the school career FG% record graduated; the battle is a redshirt FR with no tape ('strong leg' - Athlon) vs a journeyman who went 6-10 last year.",
+    "P Greaves returns off a 'solid first year' (43.7 avg / 37.4 net - modest); STR history is poor (#111/#97 per PS).",
+    "Return game gains Carter/Gibson speed. 42 = below average: half-stable, half-unknown."
+   ],
+   "key_players": [
+    {
+     "name": "Damon Greaves",
+     "role": "P, returning",
+     "evidence": "44 punts, 37.4 net"
+    },
+    {
+     "name": "Elliot Arnold",
+     "role": "K battle",
+     "evidence": "rFr, no tape"
+    }
+   ],
+   "data_gaps": [
+    "K unresolved with zero tape"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
