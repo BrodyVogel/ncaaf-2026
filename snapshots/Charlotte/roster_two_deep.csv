@@ -1,0 +1,37 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Cole Gonzales,SR,Pittsburgh transfer (WCU before),3-WAY BATTLE: took majority of spring snaps "did a great job" (Albin 7/8); WCU career 20 st 6682 yds (63% 52-23) #3 all-time; 22 db at Pitt 2025
+QB,QB,2,Conner Harrell,JR(RS),returner (UNC before),BEST 2025 grade (PFF 72.3/106): 4 st 737 (67% 4-2) before ACL tear (wk4 at Rice); rehab "right on schedule" (Albin); held out spring team periods
+QB,QB,3,Grayson Loftis,SO(RS),returner (Duke before),1415 yds (55% 8-8) 10 gm 2025; turnover-prone/benched; most career practice snaps; PFF 58.8/267
+RB,RB,1,Chance Williams OR committee,SR,Cincinnati transfer (Grambling before),7 st 1181 (5.4) 2Y Grambling; 102 yds at Cincy; PS starts him
+RB,RB,1,Henry Rutledge,SR,returner (Grambling before),356 (7.4) 2025; 878 (5.9) Grambling '23; 25.2 KR avg; Albin: "four guys who could be the starter"
+RB,RB,2,Jariel Cobb / Khamani Alexander / D'Mariun Perteet,SO/SO/JR,returner / App State / Coastal Carolina,Cobb 59.5/51; Alexander 50 yds AppSt; Perteet no 2025 PFF row (verified - low usage)
+WRTE,SLT,1,Jaden Barnes,SR,App State transfer,8 st 608 (11.1) at AppSt 2025; PFF 72.0/303 routes; 12 st 1287 (8.0) 2Y - the headline add
+WRTE,WR,1,Adam Hopkins,JR,returner,4 gm 2025; PS starts him
+WRTE,WR,1,Derrick Eley,SR,returner,5 catches 2025 (97 yds 19.4; PFF 71.6/55) but "emerged as the top WR... most improved unit on team lights years ahead" (Albin via PS)
+WRTE,WR,2,Zyheem Collick / Cam Pedro / Tank Boston / Jaylen Hampton,SO/SR/SO/SO,Bryant / SEMO / NC State / returner,Collick 479 (19.1) Bryant; Pedro 1771 (11.5) 2Y SEMO (FCS); Boston 11 yds NCST
+WRTE,TE,1,Gus McGee,SR,returning starter,9 st 127 yds 2025; PFF 58.7/192
+WRTE,TE,2,Logan Mauldin / Lane Wadle,SR/JR,McNeese / Georgia State,Mauldin 21 st 529 (13.6) 2Y McNeese; Wadle 48.6/112 GaSt
+OL,LT,1,J'ven Williams,JR,Penn State transfer,former 4-star; 2 career snaps at PSU - pedigree only
+OL,LG,1,Luke Sandy,SR,Wyoming transfer,3 st 38 gm 4Y; PFF 65.9/174 2025
+OL,C,1,Nic Cruji,SR,Maine (FCS) transfer,36 starts at Maine - most proven addition
+OL,RG,1,Reginhard Pierre-Nau,JR,JUCO (PS #82 JC; Morehouse before),NOT in CFBD portal feed (JUCO pathway) - verified via PS/Athlon
+OL,RT,1,Kristos Fernandez,SR,returning starter (LIU before),7 st (5 LT/2 RT) 2025; PFF 50.3/337; only returning OL starter
+OL,OL,2,Dom Silvia / Rod Green / Isaiah Bullerdick / Jake Allen,SO/JR/SR/FR,returners + JUCO,Green 61.8/199; unit avg +17 lbs vs 2025 (Albin)
+DL,DE,1,DJ Burgess,JR,JUCO (returned),24 st 91 tkl 16.5 TFL 2Y JUCO; out-for-year 2025 (1 st); recovering from surgery (7/8)
+DL,NT,1,Devin Ancrum,FR,North Carolina transfer,1 gm at UNC 2025
+DL,DT,1,Jamarrion Solomon,SR,returning starter (FIU before),7 st 29 tkl 2025; PFF 61.6/353
+DL,DE,1,Curtis Simpson,SO,returner (withdrew from portal),PFF 62.7/353 2025
+DL,DL,2,Jaylon Johnson / D'Nas White / Shaka Sangarie / Caleb Irving / Aye Tifase,SR/SO/JR/SO/SR,JUCO / Catawba (D2) / Drake (FCS) / returner (Purdue past) / returner (FSU past),Johnson 7 st 50.6/326; DEPARTED: Talib 79.0/374 (best DL) + Mullen 65.0/415 + Liverpool 65.6/304 + X.Miles (Memphis) + Kaba; Taz Williams OUT for 2026
+LB,WLB,1,Kadin Schmitz,SR,returning starter (Ohio before - followed Albin),11 st 66 tkl 2025; PFF 54.5/511; 25 gm at Ohio
+LB,ILB,1,Gavin Willis,SR,returning starter (Bucknell before),EXTRA YEAR granted; PFF 71.5/342 (best returning def grade); 2 st 54 tkl 2025; 198 tkl 2Y Bucknell
+LB,LB,2,Jerry Wall / Parker Statz / Darius Wallace / Sellen Bowman,JR/SO/SO/,JUCO / returners,Wall 109 tkl 20.5 TFL 2Y JUCO; Bowman spring standout (Post 7/8); DEPARTED: Taylor 61.6/589 + Williford 57.9/503
+DB,CB,1,CJ Clinkscales Jr.,SR,returning starter (Boston College before),12 st 48 tkl 2025; PFF 64.3/471; post-shoulder surgery (7/8)
+DB,CB,1,Tradarius Smith,JR,JUCO (PS #186 JC),22 tkl 1 INT 2Y JUCO; NOT in CFBD portal feed; backup Croft (Kansas: 10 gm 1 tkl)
+DB,HUSKY,1,Collin Gill,JR,returner,PFF 68.5/365 2025
+DB,S,1,Dy'Lon Womack,SO,returner,10 gm 10 tkl 2025; "should be one of the top guys" (PS)
+DB,S,1,Shamar McIntosh,SO,Maryland transfer,6 gm 2Y at Maryland (nickel per Post)
+DB,DB,2,Nireek Sharpe / Zayden Laing-Taylor / Jonathan Patterson / DeQuinder Williams,JR/JR/JR/SO,JUCOs + returner,Patterson 76 tkl 13 pd 2Y JC; Laing-Taylor 9 pbu JC; DEPARTED: Conley 75.4/459 + Bootle 67.5/434 (Arizona) + Franklin + Grant (AppSt) + McGee + Curtain + Baldwin
+ST,K,1,Aiden Bui,FR,only kicker on roster,Boyd transferred to Michigan State; 2025 team: 9 FG made (last in AAC)
+ST,P,1,Bronson Long,SR,returner,40+ avg 2025 (Post 7/8); Bennett (2024 P) had gone to JMU
+ST,KR/PR,1,Henry Rutledge / (open),SR,returner,25.2 KR avg (PS)
+ST,STC,1,Brian Haines,,retained,NO coordinator changes: Fitch (OC) Faanes (DC) Haines (STC) all back (Post 7/8)

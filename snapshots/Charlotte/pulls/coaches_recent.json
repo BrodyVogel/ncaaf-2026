@@ -1,0 +1,65 @@
+[
+ {
+  "firstName": "Tim",
+  "lastName": "Brewster",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Charlotte",
+    "year": 2024,
+    "games": 2,
+    "wins": 2,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -12.4,
+    "spOverall": -15.3,
+    "spOffense": 21.4,
+    "spDefense": 37.6
+   }
+  ]
+ },
+ {
+  "firstName": "Biff",
+  "lastName": "Poggi",
+  "hireDate": "2022-11-15T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Charlotte",
+    "year": 2024,
+    "games": 10,
+    "wins": 3,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -12.4,
+    "spOverall": -15.3,
+    "spOffense": 21.4,
+    "spDefense": 37.6
+   }
+  ]
+ },
+ {
+  "firstName": "Tim",
+  "lastName": "Albin",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Charlotte",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -21.8,
+    "spOverall": -26.7,
+    "spOffense": 14.5,
+    "spDefense": 39.8
+   }
+  ]
+ }
+]

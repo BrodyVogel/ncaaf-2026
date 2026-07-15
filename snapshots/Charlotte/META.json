@@ -1,0 +1,17 @@
+{
+ "team": "Charlotte",
+ "conference": "American Athletic",
+ "created_utc": "2026-07-15T00:08:50+00:00",
+ "assembler_git_rev": "b73c098",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "CFBD 2026 feeds not yet published; CFBD portal feed misses JUCO arrivals (Pierre-Nau, T.Smith) - resolved via magazines",
+  "QB three-way battle + Harrell ACL status resolve in fall camp",
+  "K Bui: zero college data; DL Burgess surgery status; Clinkscales shoulder"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": false
+}

@@ -1,0 +1,36 @@
+{
+ "id": 2429,
+ "school": "Charlotte",
+ "mascot": "49ers",
+ "abbreviation": "CLT",
+ "alternateNames": [
+  "CLT",
+  "Charlotte"
+ ],
+ "conference": "American Athletic",
+ "division": null,
+ "classification": "fbs",
+ "color": "#046A38",
+ "alternateColor": "#B9975B",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2429.png"
+ ],
+ "twitter": "@CharlotteFTBL",
+ "location": {
+  "id": 4418,
+  "name": "Jerry Richardson Stadium",
+  "city": "Charlotte",
+  "state": "NC",
+  "zip": "28223",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 35.3105033,
+  "longitude": -80.7401194,
+  "elevation": "190.365509",
+  "capacity": 15300,
+  "constructionYear": 2013,
+  "grass": false,
+  "dome": false
+ }
+}
