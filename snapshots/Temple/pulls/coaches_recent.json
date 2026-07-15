@@ -1,0 +1,65 @@
+[
+ {
+  "firstName": "Stan",
+  "lastName": "Drayton",
+  "hireDate": "2021-12-15T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Temple",
+    "year": 2024,
+    "games": 10,
+    "wins": 3,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -17,
+    "spOverall": -20.3,
+    "spOffense": 17.3,
+    "spDefense": 37.8
+   }
+  ]
+ },
+ {
+  "firstName": "Everett",
+  "lastName": "Withers",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Temple",
+    "year": 2024,
+    "games": 2,
+    "wins": 0,
+    "losses": 2,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -17,
+    "spOverall": -20.3,
+    "spOffense": 17.3,
+    "spDefense": 37.8
+   }
+  ]
+ },
+ {
+  "firstName": "K.C.",
+  "lastName": "Keeler",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Temple",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -7,
+    "spOverall": -5.1,
+    "spOffense": 27.1,
+    "spDefense": 33.2
+   }
+  ]
+ }
+]

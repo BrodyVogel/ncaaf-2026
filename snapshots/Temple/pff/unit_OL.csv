@@ -1,0 +1,16 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Jackson Pruitt,162622,G,TEMPLE,12,100.0,0,306,65.5,76.0,61.6,1,7,394,100.0,100.0,99.0,1,8,0,742,0,0,0,742,409,409,742,0,333,0,2025_this_team
+Diego Barajas,173257,T,TEMPLE,12,100.0,0,306,71.1,62.1,73.8,3,16,389,100.0,100.0,97.0,4,21,2,734,0,0,0,734,404,404,0,734,330,0,2025_this_team
+Grayson Mains,158120,C,TEMPLE,12,100.0,0,306,58.7,72.8,51.7,2,14,383,100.0,100.0,97.9,0,16,0,726,726,0,0,726,398,398,0,0,328,0,2025_this_team
+Giakoby Hills,190662,T,TEMPLE,12,100.0,0,306,77.0,64.3,78.5,2,9,386,100.0,100.0,97.8,2,14,3,725,0,0,725,725,400,400,0,0,325,0,2025_this_team
+Eric King,173275,G,TEMPLE,10,100.0,0,306,74.9,78.0,73.0,1,4,331,100.0,100.0,98.6,1,7,2,625,0,625,0,625,345,345,0,0,280,0,2025_this_team
+Mausa Palu,184792,G,TEMPLE,4,100.0,0,306,65.7,67.4,64.3,0,0,66,100.0,100.0,100.0,0,0,0,141,0,139,1,141,69,69,1,0,72,0,2025_this_team
+Chris Smith,173282,C,TEMPLE,4,100.0,0,306,59.0,79.8,55.9,0,0,17,100.0,100.0,100.0,0,0,0,47,47,0,0,47,19,19,0,0,28,0,2025_this_team
+Kevin Terry,173285,T,TEMPLE,3,100.0,0,306,63.2,64.8,61.4,0,0,14,100.0,100.0,100.0,0,0,0,42,0,0,42,42,16,16,0,0,26,0,2025_this_team
+Luke Watson,173286,T,TEMPLE,4,100.0,0,306,70.7,80.4,66.6,0,0,11,100.0,100.0,100.0,0,0,0,41,0,0,0,41,13,13,0,41,28,0,2025_this_team
+John Stone,170318,G,RUTGERS,7,100.0,0,278,74.6,80.3,73.0,0,0,10,100.0,100.0,100.0,0,0,0,35,0,26,0,35,11,11,0,0,24,0,arrival_2025_at_RUTGERS
+Davray Venu,190676,G,TEMPLE,2,100.0,0,306,64.1,76.8,62.9,0,0,3,100.0,100.0,100.0,0,0,0,21,0,0,0,21,5,5,21,0,16,0,2025_this_team
+Kevin Smithwick,173283,G,TEMPLE,3,100.0,0,306,53.1,71.9,52.0,0,0,3,100.0,100.0,100.0,0,0,0,15,2,1,2,15,3,3,10,0,12,0,2025_this_team
+C.J. Van Buren,153940,G,TEMPLE,2,100.0,0,306,61.5,71.9,60.5,0,0,3,100.0,100.0,100.0,0,0,0,10,0,10,0,10,3,3,0,0,7,0,2025_this_team
+Shane Toolan,190674,T,TEMPLE,2,100.0,0,306,59.8,66.9,59.2,0,0,0,,100.0,,0,0,0,6,0,0,5,6,1,1,1,0,5,0,2025_this_team
+Ransom McDermott,183317,T,LOUISVILLE,1,100.0,0,210,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,0,1,0,0,0,1,1,0,arrival_2025_at_LOUISVILLE

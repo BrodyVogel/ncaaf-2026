@@ -1,0 +1,36 @@
+{
+ "id": 218,
+ "school": "Temple",
+ "mascot": "Owls",
+ "abbreviation": "TEM",
+ "alternateNames": [
+  "TEM",
+  "Temple"
+ ],
+ "conference": "American Athletic",
+ "division": null,
+ "classification": "fbs",
+ "color": "#A80532",
+ "alternateColor": "#a7a9ac",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/218.png"
+ ],
+ "twitter": "@Temple_FB",
+ "location": {
+  "id": 3806,
+  "name": "Lincoln Financial Field",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19122",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 39.9007995,
+  "longitude": -75.1675414,
+  "elevation": "3.198706865",
+  "capacity": 69879,
+  "constructionYear": 2003,
+  "grass": false,
+  "dome": false
+ }
+}

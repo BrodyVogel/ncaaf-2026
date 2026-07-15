@@ -1,0 +1,30 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Jaxon Smolik,SO,Penn State transfer,Athlon chart QB1; no meaningful PSU snaps; Simon (66.7/357) + McCoy yr-4 expired
+QB,QB,2,Ajani Sheppard,JR,Washington State transfer,backup profile
+RB,RB,1,Samuel Brown V,JR,Rutgers transfer,real B10 experience; Ducker (83.0/157) + H.Smith (74.2/62) yr-4 expired
+RB,RB,2,Keveun Mason,SO,returner,depth
+WRTE,TE,1,Peter Clarke,SR(yr3+),RETURNING STARTER (bold),PFF 90.5/210 - ELITE returning TE grade
+WRTE,WR,1,Colin Chase,SR,RETURNING STARTER (bold),PFF 64.9/375
+WRTE,WR,1,JoJo Bermudez,SR,RETURNING STARTER (bold),PFF 68.5/291
+WRTE,WR,1,Jayce Freeman,SR,Stony Brook (FCS) transfer,chart starter
+WRTE,WR,2,Demonte Greene / Reis Stocksdale / Rameir Hardy,JR/SR/SO,Midwestern St (D2) / Bowling Green / returner,Stocksdale 51.9/54; Hollawayne (63.1/343) expired
+OL,LT,1,Giakoby Hills,SO,RETURNING STARTER (bold),PFF 77.0/725 as FR/SO - best returning OL
+OL,LG,1,Eric King,JR,RETURNING STARTER (bold),PFF 74.9/625
+OL,C,1,Grayson Mains,SR,RETURNING STARTER (bold),PFF 58.7/726
+OL,RG,1,Jackson Pruitt,SR,RETURNING STARTER (bold),PFF 65.5/742
+OL,RT,1,Luke Watson,JR,returner,new starter; Barajas (71.1/734) yr-4 expired; adds Stone (Rutgers) + Aamland (Rutgers) + McDermott (Louisville) depth
+DL,DE,1,Cameron Jones,SO,returner (yr-1 in 2025),new starter
+DL,DT,1,Joseph Auzenne,SR,returner,PFF 58.3/282
+DL,DT,1,Kevin Hornbeak,SR,Tiffin (D2) transfer,chart starter
+DL,EDGE,1,Jaylon Joseph,SR,Lafayette (FCS) transfer,chart starter; DEPARTED: Stewart (88.0/290 - elite ED) + Haye (67.2/442) + Poteat (72.1/308) yr-4 expired + Whitaker + Miles -> Memphis
+DL,DL,2,Kaleb Artis / Quante Gillians / Lamar Fairfax / Deshon Dodson,,Penn State / Syracuse / Memphis / Albany,P4-depth + FCS adds
+LB,LB,1,Curly Ordonez,SR(yr3+),RETURNING STARTER (bold),PFF 68.2/571
+LB,LB,1,Eric Stuart,SR,returner,PFF 53.8/279
+LB,LB,2,Katin Surprenant / Cookie Desiderio / JaMair Diaz,,returner / UMass / Sam Houston,Surprenant 68.0/290; C.Stewart LB-listed (88.0) expired
+DB,S,1,Avery Powell,SR,RETURNING STARTER (bold),PFF 44.4/456 (grade-role divergence - the one returning starter graded worst)
+DB,S,1,Kolin Dinkins,SR,Penn State transfer,chart starter
+DB,S,1,Saboor Karriem,SR,Illinois transfer,chart starter
+DB,CB,1,Denzel Chavis,SO,returner,low vol
+DB,CB,1,Devontae Ward-Grant,FR,freshman,TRUE FRESHMAN chart starter; DEPARTED: Morton (74.2/394) + Jones (73.5/380) + Osueke (59.4/653) + Castleberry (62.6/560) expired; Gould (UCF) adds
+ST,K,1,Carl Hardin,JR,returner,2025 stats not captured (gap)
+ST,COORD,1,K.C. Keeler yr 2,,,no coach multiplier; "12 power-conference transfers" (opposing-coach quote via Athlon)
