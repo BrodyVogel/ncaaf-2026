@@ -1,0 +1,36 @@
+{
+ "id": 66,
+ "school": "Iowa State",
+ "mascot": "Cyclones",
+ "abbreviation": "ISU",
+ "alternateNames": [
+  "ISU",
+  "Iowa State"
+ ],
+ "conference": "Big 12",
+ "division": null,
+ "classification": "fbs",
+ "color": "#822433",
+ "alternateColor": "#fdca2f",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/66.png"
+ ],
+ "twitter": "@CycloneFB",
+ "location": {
+  "id": 3772,
+  "name": "Jack Trice Stadium",
+  "city": "Ames",
+  "state": "IA",
+  "zip": "50011",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 42.0139977,
+  "longitude": -93.6357716,
+  "elevation": "274.9135437",
+  "capacity": 61500,
+  "constructionYear": 1975,
+  "grass": true,
+  "dome": false
+ }
+}

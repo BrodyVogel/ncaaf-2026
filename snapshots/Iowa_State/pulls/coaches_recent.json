@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Matt",
+  "lastName": "Campbell",
+  "hireDate": "2015-11-29T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Iowa State",
+    "year": 2024,
+    "games": 14,
+    "wins": 11,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": 15,
+    "srs": 11.2,
+    "spOverall": 10.3,
+    "spOffense": 30.8,
+    "spDefense": 20.2
+   }
+  ]
+ },
+ {
+  "firstName": "Matt",
+  "lastName": "Campbell",
+  "hireDate": "2015-11-29T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Iowa State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 9.6,
+    "spOverall": 9.9,
+    "spOffense": 28.1,
+    "spDefense": 19.5
+   }
+  ]
+ }
+]

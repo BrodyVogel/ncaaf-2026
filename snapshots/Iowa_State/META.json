@@ -1,0 +1,18 @@
+{
+ "team": "Iowa State",
+ "conference": "Big 12",
+ "created_utc": "2026-07-15T17:29:16+00:00",
+ "assembler_git_rev": "04dd14b",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "4 projected OL starters + DE Crawford have zero PFF rows (FCS/D2)",
+  "DB starting config conflicts across books (battles)",
+  "Awls (top DB add) OFY - ACL; Allah (RB) Achilles",
+  "60-newcomer cohesion + dual scheme change unknowable"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": "Campbell -> Penn State (Dec 5); Rogers (SDSU/Wazzu) hired - x1.13 applies"
+}
