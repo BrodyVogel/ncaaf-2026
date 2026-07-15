@@ -1,0 +1,21 @@
+{
+ "team": "Houston",
+ "conference": "Big 12",
+ "created_utc": "2026-07-15T17:21:50+00:00",
+ "assembler_git_rev": "abc96b5",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "K battle 3-way, zero returning FG tape",
+  "Hughes projection rides 2024 Tulane form (70 yds at Oregon LY)",
+  "Henderson usage plan unknowable",
+  "P6-vs-Athlon origin conflict on D.Thomas adjudicated to OkSt (feed+PFF)"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": false,
+ "portal_departure_confirmed": [
+  "Zavian Tibbs"
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "id": 248,
+ "school": "Houston",
+ "mascot": "Cougars",
+ "abbreviation": "HOU",
+ "alternateNames": [
+  "HOU",
+  "Houston"
+ ],
+ "conference": "Big 12",
+ "division": null,
+ "classification": "fbs",
+ "color": "#c92a39",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/248.png"
+ ],
+ "twitter": "@UHCougarFB",
+ "location": {
+  "id": 4728,
+  "name": "TDECU Stadium",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77004",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 29.7219885,
+  "longitude": -95.3491623,
+  "elevation": "9.57440567",
+  "capacity": 40000,
+  "constructionYear": 2014,
+  "grass": false,
+  "dome": false
+ }
+}

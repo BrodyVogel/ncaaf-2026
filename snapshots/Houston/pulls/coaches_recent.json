@@ -1,0 +1,65 @@
+[
+ {
+  "firstName": "Willie",
+  "lastName": "Fritz",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Houston",
+    "year": 2024,
+    "games": 12,
+    "wins": 4,
+    "losses": 8,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -2,
+    "spOverall": -8.2,
+    "spOffense": 18.1,
+    "spDefense": 24.5
+   }
+  ]
+ },
+ {
+  "firstName": "Dana",
+  "lastName": "Holgorsen",
+  "hireDate": "2019-01-01T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Houston",
+    "year": 2024,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -2,
+    "spOverall": -8.2,
+    "spOffense": 18.1,
+    "spDefense": 24.5
+   }
+  ]
+ },
+ {
+  "firstName": "Willie",
+  "lastName": "Fritz",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Houston",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 6.3,
+    "spOverall": 7.4,
+    "spOffense": 31.5,
+    "spDefense": 23
+   }
+  ]
+ }
+]
