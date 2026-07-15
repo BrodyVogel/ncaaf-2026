@@ -1,0 +1,14 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Adam Lepkowski,145455,C,UAB,12,100.0,1,321,69.9,78.7,66.3,1,8,486,100.0,100.0,98.5,6,12,3,873,871,0,0,873,515,515,0,0,358,2,2025_this_team
+JonDarius Morgan,146917,G,UAB,12,99.9,1,321,70.6,78.4,66.4,3,8,482,99.8,99.8,98.9,2,11,0,867,0,0,1,868,510,511,847,14,357,6,2025_this_team
+Brandon Sneh,185813,T,UAB,11,99.9,2,321,70.6,78.4,66.4,3,18,461,99.8,99.8,96.9,6,25,4,794,0,2,760,795,490,491,1,0,304,16,2025_this_team
+Logan Moore,173338,T,UAB,11,100.0,4,321,65.0,58.2,73.2,3,22,380,100.0,100.0,95.4,11,30,5,650,0,1,0,650,406,406,2,624,244,12,2025_this_team
+Calib Perez,122381,G,UAB,10,100.0,1,321,62.4,69.9,59.1,0,10,308,100.0,100.0,98.4,3,10,0,548,0,545,0,548,328,328,1,1,220,1,2025_this_team
+Baron Franks II,150396,G,UAB,5,100.0,0,321,59.5,66.5,57.4,2,7,157,100.0,100.0,97.1,1,9,0,306,0,287,0,306,166,166,15,3,140,1,2025_this_team
+Barry Walker,183496,T,UAB,4,100.0,0,321,70.0,64.5,69.7,1,1,81,100.0,100.0,97.5,0,3,1,163,0,37,0,163,83,83,5,113,80,3,2025_this_team
+Keyon Cox,174344,T,OREGON ST,4,100.0,0,265,62.5,68.1,56.9,2,2,94,100.0,100.0,97.9,0,4,0,162,0,0,162,162,100,100,0,0,62,0,arrival_2025_at_OREGON ST
+Kyrik Mason,148009,T,UAB,3,100.0,0,321,60.1,54.3,61.0,0,2,49,100.0,100.0,95.9,2,3,1,89,0,0,0,89,51,51,0,84,38,5,2025_this_team
+Payton Kirkland,173160,T,UAB,2,100.0,0,321,50.1,32.2,53.6,0,2,24,100.0,100.0,95.8,0,2,0,78,0,0,74,78,24,24,0,0,54,2,2025_this_team
+Rod Orr Jr.,143891,T,UAB,3,100.0,0,321,70.2,67.4,75.8,0,0,2,100.0,100.0,100.0,0,0,0,5,0,0,0,5,2,2,0,0,3,3,2025_this_team
+Jaden Ligon,190771,C,UAB,2,100.0,0,321,60.0,,59.3,0,0,0,,,,0,0,0,2,0,0,0,2,0,0,0,0,2,1,2025_this_team
+Ryan Gunter,163018,T,UAB,1,100.0,0,321,59.7,,57.4,0,0,0,,,,0,0,0,2,0,0,0,2,0,0,0,0,2,0,2025_this_team

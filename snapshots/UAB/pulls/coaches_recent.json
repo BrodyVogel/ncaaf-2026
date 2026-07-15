@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Trent",
+  "lastName": "Dilfer",
+  "hireDate": "2022-11-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "UAB",
+    "year": 2024,
+    "games": 12,
+    "wins": 3,
+    "losses": 9,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -11.6,
+    "spOverall": -11.3,
+    "spOffense": 25.9,
+    "spDefense": 38
+   }
+  ]
+ },
+ {
+  "firstName": "Trent",
+  "lastName": "Dilfer",
+  "hireDate": "2022-11-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "UAB",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -14.3,
+    "spOverall": -15.8,
+    "spOffense": 25.5,
+    "spDefense": 39.8
+   }
+  ]
+ }
+]
