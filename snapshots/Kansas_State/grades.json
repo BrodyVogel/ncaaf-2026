@@ -1,0 +1,319 @@
+{
+ "team": "Kansas State",
+ "units": {
+  "QB": {
+   "grade": 60,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 45,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 55,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 74, RB 53, WRTE 52, OL 51, DL 46, LB 26, DB 52, ST 92)",
+   "ST": "-37 vs proxy 92 (both legs returning is real, but proxy over-rides specialists; as-played SPEC 68th pctile says above-average, not elite)",
+   "QB": "-14 vs proxy 74 (proxy rides Johnson's record-setting volume; grade tempers on the accuracy tier - #9/#11 B12 rating, 58.3%)",
+   "LB": "+18 vs proxy 26 (proxy sees the Purnell/Romaine exodus; can't see Mason's All-CUSA volume arriving)",
+   "OL": "-7 vs proxy 51 (proxy can't see that four of five starters walked; Pastore alone carries the returning grade)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Kansas State",
+   "unit": "QB",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Avery Johnson (74.8/391) returns for year three: single-season school records of 25 pass TD and 605 QB rush yards, tied the career pass-TD record (48) - but boom-or-bust efficiency (58.3%, #9/#11 in B12 rating).",
+    "The reunion is the story: Klein recruited him, coached his first starts as '23 OC, and Johnson 'wanted to play in Klein's offense' (P6); the downhill-power scheme fits the run threat.",
+    "Blake Barnett = 'similar skill set and even stronger arm' (PS) behind him.",
+    "60 = above average: proven dual-threat volume + scheme/coach fit, held out of the 65+ tier by the accuracy record."
+   ],
+   "key_players": [
+    {
+     "name": "Avery Johnson",
+     "role": "QB1, returning starter",
+     "evidence": "PFF 74.8/391; 2,712 + 605 rush, 25 TD"
+    },
+    {
+     "name": "Blake Barnett",
+     "role": "QB2, returner",
+     "evidence": "'even stronger arm' (PS); 4 games '25"
+    }
+   ],
+   "data_gaps": [
+    "Accuracy ceiling in a new install"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kansas State",
+   "unit": "RB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Joe Jackson (67.2/254) returns off 911 at 5.4 with the school-record 293 vs Utah; the late-'25 surge (plus 142 vs Colorado) is the verified form.",
+    "Rodney Fields Jr. (75.4/156) arrives from Oklahoma State - 614 at 5.0 plus 276 receiving, 'arguably [OkSt's] best player' (P6) - and Jay Harris (Oregon) adds depth.",
+    "As-played 7th pctile was an injury/committee artifact (Edwards hurt on his first touch, since -> Kansas); the 2026 duo is tape-real. 52 = average-plus."
+   ],
+   "key_players": [
+    {
+     "name": "Joe Jackson",
+     "role": "RB1, returner",
+     "evidence": "PFF 67.2/254; 911 @ 5.4, school-record 293"
+    },
+    {
+     "name": "Rodney Fields Jr.",
+     "role": "RB transfer (Oklahoma State)",
+     "evidence": "PFF 75.4/156; 614 + 276 rec"
+    }
+   ],
+   "data_gaps": [
+    "Carry split in Gleeson's offense"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kansas State",
+   "unit": "WRTE",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "The TE pair carries it: Garrett Oakley (72.2/233, school record holder) + former 5-star Linkon Cure = 'one of the best TE pairs in the B12' (P6).",
+    "The WR room thinned: Jayce Brown (75.0/243; 712 @ 17.4) -> LSU and Bradley graduated; Jaron Tibbs (68.5/336; 595 @ 12.7) is the lone returning WR starter.",
+    "Adds are projection: Brandon White (60.1/341, Hawaii starter) is the only 2025 tape; Joshua Manning (Johnson connection, 'could be the surprise breakout' - P6) and Izaiah Williams are no-tape former 4-stars.",
+    "52 = average-plus on the TE strength; WR2+ is unproven."
+   ],
+   "key_players": [
+    {
+     "name": "Garrett Oakley",
+     "role": "TE1, returning",
+     "evidence": "PFF 72.2/233; school-record holder"
+    },
+    {
+     "name": "Jaron Tibbs",
+     "role": "WR1, returner",
+     "evidence": "PFF 68.5/336; 595 @ 12.7"
+    },
+    {
+     "name": "Joshua Manning",
+     "role": "WR transfer, no 2025 tape",
+     "evidence": "former 4*; P6 breakout candidate"
+    }
+   ],
+   "data_gaps": [
+    "Manning/Williams zero 2025 tape",
+    "WR depth behind Tibbs"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kansas State",
+   "unit": "OL",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Four of five starters gone (46 starts): 1st-team B12 C Sam Hecht (80.3/759, #5 in PS's draft-capital ranks), Andrew Leingang (65.3/692), Taylor Poitier (66.3/658), JB Nelson - from an 87th-pctile as-played line.",
+    "John Pastore (76.2/715) is the anchor - best returning grade on the roster - with injury-returns George Fitzpatrick (ex-Ohio State, missed '25) and Gus Hawkins.",
+    "The interior is a three-way 3-star-transfer battle (Tanner Morley 66.3/252, Delvin Morris 56.7/472, Keiton Jones 8 snaps); PS: they 'figure to take a step back'; Klein 'not worried' (attributed).",
+    "44 = fringe-below-average: one proven piece plus projection."
+   ],
+   "key_players": [
+    {
+     "name": "John Pastore",
+     "role": "C/G, returning",
+     "evidence": "PFF 76.2/715; 'sound pass-blocker' (P6)"
+    },
+    {
+     "name": "George Fitzpatrick",
+     "role": "T, injury-return",
+     "evidence": "ex-Ohio State; missed 2025"
+    }
+   ],
+   "data_gaps": [
+    "3-way interior battle",
+    "Fitzpatrick health"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kansas State",
+   "unit": "DL",
+   "grade": 45,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Seven linemen gone (48 starts/142 tackles/17.5 sacks): Stufflebean/Ilalio/Seumalo expired; edges Tobi Osunsanmi and Chiddi Obiazor (68.6/497) BOTH -> Indiana.",
+    "The reload leads with two premium edges: Wendell Gregory (71.4/419) - PS's B12 Defensive Newcomer of the Year at Oklahoma State, 'best Oklahoma State defender' (P6) - and Elijah Hill (70.6/299), who led C-USA with 9 sacks as a freshman.",
+    "Interior is thinner tape: Kamari Burns (68.6/174, Cincinnati) and Ramsey (54.8/137, Kentucky) = 'limited experience but P4' (P6); PS: 'completely rebuilt... bigger upside on the edge.'",
+    "45 = fringe-below-average from the 26th-pctile as-played base: real edge upside, unproven interior."
+   ],
+   "key_players": [
+    {
+     "name": "Wendell Gregory",
+     "role": "ED transfer (Oklahoma State)",
+     "evidence": "PFF 71.4/419; B12 Def. Newcomer of Year"
+    },
+    {
+     "name": "Elijah Hill",
+     "role": "ED transfer (Kennesaw State)",
+     "evidence": "PFF 70.6/299; 9 sacks led C-USA as FR"
+    }
+   ],
+   "data_gaps": [
+    "Interior rotation",
+    "Two-deep cohesion"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kansas State",
+   "unit": "LB",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The top two are gone: Desmond Purnell (66.1/728, #1 tackler) graduated and 2x All-B12 Austin Romaine (76.5/517) -> Texas Tech.",
+    "Mekhi Mason (66.7/679) arrives with All-CUSA volume (12 starts, 68 tackles at Louisiana Tech); Gabe Powers (63.0/189) and Asa Newsom return; sophomore Darien Whitaker 'has drawn big reviews' (P6).",
+    "PS's 'won't fall off much' is opinion against the tape's top-end loss (Romaine was the roster's best defender). 44 = below average, cushioned by verified volume."
+   ],
+   "key_players": [
+    {
+     "name": "Mekhi Mason",
+     "role": "LB transfer (Louisiana Tech)",
+     "evidence": "PFF 66.7/679; All-CUSA, 68 tkl"
+    },
+    {
+     "name": "Darien Whitaker",
+     "role": "LB, returner",
+     "evidence": "'big reviews' (P6)"
+    }
+   ],
+   "data_gaps": [
+    "Replacing Romaine's top-end"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kansas State",
+   "unit": "DB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "The corner tandem is the case: all-league Zashon Rich (68.6/837) + Donovan McIntosh (67.0/470), who entered the portal and withdrew (override recorded; on Athlon's May depth chart, P6-explicit returning starter) - PS: 'very talented secondary, led by a corner tandem.'",
+    "Losses are real: VJ Payne (73.3/722, #7 DC) graduated, Maldonado expired, Qua Moss (68.2/513) -> Tennessee, Daniel Cobbs -> Baylor.",
+    "Adds bring tape: Ja'Son Prevard (71.8/585, 3rd-team ACC at Virginia), Koy Beasley (71.3/647), Adrian Maddox (UGA 'spring hero' - P6); PS projects 'near the top 25' PDR.",
+    "52 = average-plus: verified tandem + tape-real adds against safety turnover."
+   ],
+   "key_players": [
+    {
+     "name": "Zashon Rich",
+     "role": "CB1, returning",
+     "evidence": "PFF 68.6/837; all-league (P6)"
+    },
+    {
+     "name": "Donovan McIntosh",
+     "role": "CB2, returning starter (portal withdrawal - override)",
+     "evidence": "PFF 67.0/470; Athlon May depth chart"
+    },
+    {
+     "name": "Ja'Son Prevard",
+     "role": "NB transfer (Virginia)",
+     "evidence": "PFF 71.8/585; 3rd-team ACC"
+    }
+   ],
+   "data_gaps": [
+    "Safety spots post-Payne"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kansas State",
+   "unit": "ST",
+   "grade": 55,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Both legs return: K Luis Rodriguez (13-15 FG as the new kicker) and P Simon McClannan (42.5 avg / 39.2 net, 39 touchbacks on 70 kickoffs).",
+    "PS: 'all but [KR] Noemberg back so will be a typical KSt ST unit' - the program's ST tradition is a persistent edge; depth adds Hammond (Toledo) and Davidson.",
+    "As-played SPEC 68th pctile with everything back: 55 = above average, short of elite because the '25 unit itself wasn't."
+   ],
+   "key_players": [
+    {
+     "name": "Luis Rodriguez",
+     "role": "K, returning",
+     "evidence": "13-15 FG"
+    },
+    {
+     "name": "Simon McClannan",
+     "role": "P, returning",
+     "evidence": "42.5 / 39.2 net; 39 TB"
+    }
+   ],
+   "data_gaps": [
+    "KR replacement"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}

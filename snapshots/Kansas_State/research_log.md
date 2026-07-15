@@ -15,3 +15,4 @@
 7. Beat sweep trimmed (paywall). Logged.
 
 DRY 2026-07-15 (unknowables: OL interior battle, Manning breakout, first-year-HC install).
+- 2026-07-15 post-freeze correction: 'Josh Manning' -> 'Joshua Manning' (feed-exact name; departure gate flagged the variant in grades.json key_players; magazines print 'Josh'). roster_two_deep.csv + grades.json updated.
