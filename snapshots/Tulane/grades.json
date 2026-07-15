@@ -1,0 +1,110 @@
+{
+ "team": "Tulane",
+ "units": {
+  "QB": {"grade": 45, "confidence": "L"},
+  "RB": {"grade": 58, "confidence": "M"},
+  "WRTE": {"grade": 46, "confidence": "M"},
+  "OL": {"grade": 30, "confidence": "L"},
+  "DL": {"grade": 50, "confidence": "M"},
+  "LB": {"grade": 28, "confidence": "L"},
+  "DB": {"grade": 42, "confidence": "M"},
+  "ST": {"grade": 52, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 77, WRTE 56, OL 33, DL 10, LB 1, DB 15, ST 76)",
+   "QB": "-32 (proxy rides Retzlaff's 81.6 - he's gone; membership artifact)",
+   "DL": "+40 (proxy misses Hopper's yr-3 return + the depth design; roster-class verified)",
+   "LB": "+27 (volume returns; caution rule)",
+   "DB": "+27 (proxy misses the young core's classes - Tchienchou/Adams/Shine all yr-1/2)",
+   "ST": "-24 (proxy rides departed punters; K is new-proven, P open)"
+  }
+ },
+ "grades_detail": [
+  {"team": "Tulane", "unit": "QB", "grade": 45, "confidence": "L",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "Retzlaff's 75th-pctile season (81.6/431) is done; the battle is two credible options: Chriss (Houston - prior starting tape at Louisiana, dual-threat) vs Semonza ('good numbers at Ball State in 2024' - Athlon; 3rd string at Tulane 2025).",
+    "Both have real FBS production history unlike most open G5 battles in this batch; neither projects to Retzlaff's level.",
+    "45 = below-average with two floors: the strongest two-man open battle graded so far behind ECU's."
+   ],
+   "key_players": [{"name": "Zeon Chriss", "role": "QB1 candidate (Houston)", "evidence": "prior Louisiana starting tape; dual-threat (Athlon)"}, {"name": "Kadin Semonza", "role": "QB1 candidate", "evidence": "productive Ball State 2024 starter (Athlon)"}],
+   "data_gaps": ["Camp battle open", "Neither has 2025 volume"],
+   "g5_guard_note": null},
+  {"team": "Tulane", "unit": "RB", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "'Loaded backfield' (Athlon) with the batch's best young returner: McClure (year-1) - 98 rush ypg at 6.5 ypc over the final five games, PFF 76.8; retained against portal interest (attributed).",
+    "Turner (won the 2025 preseason job before an opener ankle injury) and FSU's Lucas (versatile + elite return profile) stack behind; Gordon (72.8/128) to Tennessee is absorbable.",
+    "58 = above average: youth, depth, and late-2025 form."
+   ],
+   "key_players": [{"name": "Jamauri McClure", "role": "RB1, budding star (Athlon)", "evidence": "98 ypg + 6.5 ypc final 5 games 2025; PFF 76.8/83"}, {"name": "Jaylin Lucas", "role": "RB/returner (FSU)", "evidence": "versatile fit (Athlon)"}],
+   "data_gaps": ["McClure full-season volume is 83 attempts"],
+   "g5_guard_note": null},
+  {"team": "Tulane", "unit": "WRTE", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "Two mid-tier starters return (Brown-Stephens 41-523, 65.9/283; Lewis 69.9/152) but the top grades left upward (Preston 71.8/300 to Indiana; Hayes 83.6/162 to Iowa State).",
+    "LSU's Hill brings speed (attributed), UCF/Syracuse adds fill; TE room fully rebuilt (ODU/Duke).",
+    "46 = fringe-below-average from a 66th-pctile 2025 room that lost its ceiling."
+   ],
+   "key_players": [{"name": "Anthony Brown-Stephens", "role": "WR1, returner", "evidence": "41-523-2 2025 (Athlon)"}, {"name": "Destyn Hill", "role": "WR (LSU)", "evidence": "'speedy' (Athlon)"}],
+   "data_gaps": ["TE production zero returning"],
+   "g5_guard_note": null},
+  {"team": "Tulane", "unit": "OL", "grade": 30, "confidence": "L",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Illinois RB 2025 (32)"],
+   "rationale_bullets": [
+    "One returning starter - and it's a year-1 player switching positions (Baker, 60.2/908, T->G per Athlon's explicit 'lone returning starting lineman' line, which also caught Hurst (80.7/934) as gone despite his class - magazine-override applied).",
+    "The rebuild is BC-backup + FCS/D2 (Mickow 59.6/93; Marks - Mercer; Rushing - Mars Hill) around expired 700-970-snap seniors.",
+    "30 = bottom-third: the roster's weakest link on an otherwise talented two-deep."
+   ],
+   "key_players": [{"name": "Reese Baker", "role": "G (lone returning starter)", "evidence": "PFF 60.2/908 as year-1; moving inside (Athlon)"}],
+   "data_gaps": ["Four new starters unidentified at positions", "Hurst destination unverified (gone per Athlon)"],
+   "g5_guard_note": null},
+  {"team": "Tulane", "unit": "DL", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "Five stalwarts left for P4s (Nairne-Pitt, Dyson-NCST, Norman-Tennessee + two expired) - but the design absorbed it: Hopper (80.2 on 661 - elite interior, year-3) returns with McAlpine (65.2/437) and Garner (69.8/274).",
+    "The depth claim is attributed twice (Athlon: 'incredibly deep... should not have a significant drop-off'; Sumrall: backups 'good enough to start elsewhere'), and the proxy's 10 is a documented membership artifact.",
+    "50 = average: one elite returning piece + credible rotation vs real quality drain."
+   ],
+   "key_players": [{"name": "Santana Hopper", "role": "DT, returning", "evidence": "PFF 80.2 on 661 snaps 2025; year-3"}, {"name": "Jah'rie Garner", "role": "EDGE, returner", "evidence": "PFF 69.8/274"}],
+   "data_gaps": ["Which backups step into the five vacated roles"],
+   "g5_guard_note": null},
+  {"team": "Tulane", "unit": "LB", "grade": 28, "confidence": "L",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Illinois RB 2025 (32)"],
+   "rationale_bullets": [
+    "The paradox again (as-played 4th pctile): Rodgers returns with 80 tackles and a title-game pick-6 but a 54.8 grade; Agu was leading the team in tackles before a week-5 ACL (35.0 grade = injury-year noise).",
+    "Hughes (S.Alabama 53.9/275) adds; Howard (71.6/572 - the best grade) expired.",
+    "LB caution rule: production-vs-grade conflict recorded, grade leans quant with an Agu-health kicker. 28."
+   ],
+   "key_players": [{"name": "Chris Rodgers", "role": "LB, returning", "evidence": "80 tkl, title-game pick-6 2025; PFF 54.8/791 - divergence"}, {"name": "Dickson Agu", "role": "LB, ACL return", "evidence": "led team in tackles through week 5 (Athlon)"}],
+   "data_gaps": ["Agu recovery", "Grade-production conflict"],
+   "g5_guard_note": null},
+  {"team": "Tulane", "unit": "DB", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "The young core returns: Tchienchou (yr-2: 83 tkl, AAC title game defensive MVP; 62.9/707), Adams (yr-2: 53 tkl without starting; 65.9/546), Shine (yr-1: 61.4/704), Moore (67.4/244) - 'six of the top 10 tacklers return' is concentrated here.",
+    "The best cover grade left (J.Johnson 76.2/834 to Arkansas) plus White to Houston; adds are P4/G5 depth (TT/Louisville/USF).",
+    "42 = fringe-below-average from a 25th-pctile as-played unit whose returning volume is young and improving."
+   ],
+   "key_players": [{"name": "Jack Tchienchou", "role": "S, returning", "evidence": "83 tkl; AAC title game defensive MVP (Athlon); year-2"}, {"name": "Kevin Adams III", "role": "S/NB", "evidence": "53 tkl, 4th on team, no starts (Athlon)"}],
+   "data_gaps": ["CB1 replacement for Johnson unproven"],
+   "g5_guard_note": null},
+  {"team": "Tulane", "unit": "ST", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "The kicker arrives proven: Courville 26-of-34 across 2023-24 at Ball State with two 50+ makes in 2024 (Athlon).",
+    "Punting is the documented concern - both 2025 punters followed Sumrall to Florida; no named replacement (logged).",
+    "Lucas's return-game upside is attributed ('coaches love [his] potential'). 2025 SPEC 79.6 rode the departed specialists; 52 = average-plus K/returns, punter tail-risk."
+   ],
+   "key_players": [{"name": "Jackson Courville", "role": "K (via OSU/Ball State)", "evidence": "26-34 career FG, two 50+ in 2024 (Athlon)"}, {"name": "Jaylin Lucas", "role": "KR (FSU)", "evidence": "return potential praised (Athlon)"}],
+   "data_gaps": ["Punter unnamed (both left)"],
+   "g5_guard_note": null}
+ ]
+}
