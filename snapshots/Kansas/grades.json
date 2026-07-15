@@ -1,0 +1,308 @@
+{
+ "team": "Kansas",
+ "units": {
+  "QB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 45,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 40,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 40, RB 23, WRTE 25, OL 46, DL 57, LB 31, DB 29, ST 78)",
+   "ST": "-38 vs proxy 78 (both specialists departed; proxy rides them)",
+   "LB": "+21 vs proxy 31 (proxy can't see Lathan's portal withdrawal - he returns)",
+   "RB": "+25 vs proxy 23 (proxy sees the expired pair only; three lead-back transfers invisible)",
+   "DB": "+13 vs proxy 29 (three returning starters + adds)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Kansas",
+   "unit": "QB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Daniels (77.1/385) departs after six years; the battle is capable-not-proven: Ballard ('slight edge'; 35-64-445 career), Marshall (QB-run package; 'does not get rattled' - PS), Jenkins (Rice: 67.2/214; 1,025 + 531 rush, 12th AAC rating).",
+    "The real asset is the system: Kotelnicki returns from PSU to an offense he ran to consecutive top-10 P6 finishes here, with the QB coach retained.",
+    "42 = below average on proven play; the scheme is the upside case."
+   ],
+   "key_players": [
+    {
+     "name": "Cole Ballard",
+     "role": "QB1 (slight edge)",
+     "evidence": "career 35-64-445; Daniels' backup"
+    },
+    {
+     "name": "Chase Jenkins",
+     "role": "QB battle",
+     "evidence": "12 Rice starts; PFF 67.2/214"
+    }
+   ],
+   "data_gaps": [
+    "3-way battle"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kansas",
+   "unit": "RB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The 500-yd pair expired (Hishaw 74.8/175, Williams 79.0/139); the reload is three lead-backs-elsewhere: Willis (Cuse's 558; 66.6/145), Dupree (CSU's 527; 71.7/136), Edwards (KSU; electric, injury-marked, 69.9/49).",
+    "PS: 'a deep room that should at least match 24's numbers'; Leipold's Edwards quote signals featured usage.",
+    "48 = fringe-average: verified committee depth, no proven B12 lead."
+   ],
+   "key_players": [
+    {
+     "name": "Dylan Edwards",
+     "role": "RB/KR wildcard",
+     "evidence": "815 total '24 at KSU; PFF 69.9/49"
+    },
+    {
+     "name": "Jalen Dupree",
+     "role": "RB",
+     "evidence": "CSU-leading 527; PFF 71.7/136"
+    }
+   ],
+   "data_gaps": [
+    "Edwards health"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kansas",
+   "unit": "WRTE",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The speed (Henderson 70.9/332; 786 @ 17.0, All-B12) and both TEs expired; Pickett (67.1/234, 45 rec) and Kubecka return.",
+    "McMillan (71.6/454) is the one verified producer: 1st-tm MAC, ~1,000 yards, a school-record 7 straight 100-yd games at Buffalo; Cox (62.1/366) adds the 6-3 frame.",
+    "44 = fringe-below-average: one real producer + role players in a proven-QB-less passing game."
+   ],
+   "key_players": [
+    {
+     "name": "Nik McMillan",
+     "role": "WR1",
+     "evidence": "1st-tm MAC; PFF 71.6/454"
+    },
+    {
+     "name": "Cam Pickett",
+     "role": "slot, returning",
+     "evidence": "45 rec; PFF 67.1/234"
+    }
+   ],
+   "data_gaps": [
+    "Post-Daniels target tree"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kansas",
+   "unit": "OL",
+   "grade": 45,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "All three All-B12 linemen expired (Baynes 74.2/751, Foster 69.0/748, Cruz 70.3/663) from an 81st-pctile line.",
+    "Returning bolds split framing-vs-tape: Clements is 'NFL caliber' per PS/Leipold at PFF 52.2/707; Herring solid.",
+    "The transfer trio is experience-over-grade (Morrow 61.0/421 w/ 16 starts; Stroh 59.7/310; Carpenter 59.6/140); 85 incoming career starts = 'on par' (PS).",
+    "45 = fringe-below-average: the 2024 memory (211 ypg/10 sacks) is gone with the all-league interior."
+   ],
+   "key_players": [
+    {
+     "name": "Calvin Clements",
+     "role": "LT, returning starter",
+     "evidence": "PFF 52.2/707; 'NFL caliber' framing"
+    },
+    {
+     "name": "Nick Morrow",
+     "role": "RT",
+     "evidence": "16 career starts; PFF 61.0/421"
+    }
+   ],
+   "data_gaps": [
+    "Clements split",
+    "New interior"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kansas",
+   "unit": "DL",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "All four starters expired (~2,000 snaps: Withers/Dunn/Finkley/Caldwell) - but the two best pieces stay: Harris III (All-B12 per P6; top sack man) and Herold (72.7/460, 'all-league push').",
+    "Adds are verified rotation: McAlpine (65.2/437 - Tulane's 2nd-tm AAC NT), Smalls (65.0/416 - UAB), Santiago (72.3/248 - MSU starter).",
+    "PS: 'should be similar up front.' 50 = average."
+   ],
+   "key_players": [
+    {
+     "name": "Blake Herold",
+     "role": "DT, returning",
+     "evidence": "PFF 72.7/460"
+    },
+    {
+     "name": "Leroy Harris III",
+     "role": "DE, returning",
+     "evidence": "All-B12; 4.5 sk"
+    },
+    {
+     "name": "Tre'Von McAlpine",
+     "role": "NT transfer",
+     "evidence": "PFF 65.2/437 at Tulane"
+    }
+   ],
+   "data_gaps": [
+    "Rotation depth"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kansas",
+   "unit": "LB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "The retention win: Lathan (74.5/713; team-high 86 tkl, 7 TFL, INT, FF, 2 FR) entered the portal and CAME BACK - all three books print him as the returning centerpiece (withdrawal override recorded).",
+    "Kamara (63.4/529) expired; the adds bring starts: Crouch (BC captain, 13 st/77 tkl in '24, redshirted '25), Al-Amin (63.6/517), Q.Davis (73.0/314).",
+    "PS: 'more depth here than last year.' 52 = average-plus around one high-end piece."
+   ],
+   "key_players": [
+    {
+     "name": "Trey Lathan",
+     "role": "MLB, retained",
+     "evidence": "PFF 74.5/713; 86 tkl"
+    },
+    {
+     "name": "Daveon Crouch",
+     "role": "LB transfer",
+     "evidence": "BC captain; 77 tkl '24 (RS '25)"
+    }
+   ],
+   "data_gaps": [
+    "Crouch rust"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kansas",
+   "unit": "DB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Three bold starters return (Todd 70.7/611, Alexander 61.0/542, Davis 55.2/591) from a 30th-pctile unit that was PS's 'biggest question mark' (PDR #101).",
+    "Rawls (71.4/632, #2 tklr) left for ASU; adds bring moderate tape: Gordon (67.5/371, Louisville starter), Pearson (63.0/504), Harris (Miami/UGA pedigree).",
+    "PS projects a PDR rise on experience; the baseline tempers it. 42 = below average."
+   ],
+   "key_players": [
+    {
+     "name": "Jalen Todd",
+     "role": "CB, returning starter",
+     "evidence": "PFF 70.7/611"
+    },
+    {
+     "name": "Corey Gordon",
+     "role": "S transfer",
+     "evidence": "PFF 67.5/371 at Louisville"
+    }
+   ],
+   "data_gaps": [
+    "Takeaway generation"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kansas",
+   "unit": "ST",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The 2025 unit hit #12 in PS's STR - and BOTH legs depart (Groza-semifinalist Marjan 16-17; Lappin's elite 42.2 net).",
+    "Replacements: transfer K Connington (MSU) + true-FR P Gill; Edwards upgrades KR.",
+    "PS: 'may take a Stock Market drop.' 40 = below average: SPEC 77th pctile is fully departed."
+   ],
+   "key_players": [
+    {
+     "name": "Martin Connington",
+     "role": "K transfer",
+     "evidence": "MSU"
+    },
+    {
+     "name": "Dylan Edwards",
+     "role": "KR",
+     "evidence": "return specialist pedigree"
+    }
+   ],
+   "data_gaps": [
+    "Zero returning specialist tape"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
