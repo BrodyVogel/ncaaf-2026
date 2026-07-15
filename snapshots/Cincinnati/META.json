@@ -1,0 +1,19 @@
+{
+ "team": "Cincinnati",
+ "conference": "Big 12",
+ "created_utc": "2026-07-15T14:50:18+00:00",
+ "assembler_git_rev": "9827e6d",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "PS box not extracted (OCR-garbled; logged trim)",
+  "8 arrivals have zero PFF tape (FCS/D2/Ivy/injured) - magazine attribution only",
+  "Woody scheme label differs between books (3-4 vs 3-3-5)",
+  "Sorsby eligibility line flagged for Texas Tech verification",
+  "WRTE room = spring reports + FCS stats; L confidence"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": false
+}
