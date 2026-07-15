@@ -1,0 +1,23 @@
+{
+ "run_utc": "2026-07-15T14:57:05+00:00",
+ "team": "Cincinnati",
+ "final": 1.31,
+ "rank": 58,
+ "band": 6.18,
+ "resid": -3.13,
+ "adj": -1.1,
+ "class_term": -1.68,
+ "st": 0.04,
+ "anchor_blend": 3.57,
+ "implied_off": 27.16,
+ "implied_def": 27.01,
+ "anchor_off": 29.14,
+ "anchor_def": 25.86,
+ "fit_r2": {
+  "off": 0.538,
+  "dfn": 0.615
+ },
+ "low_conf_units": 1,
+ "code_rev": "ee4c821",
+ "mode": "PILOT-OOS"
+}
