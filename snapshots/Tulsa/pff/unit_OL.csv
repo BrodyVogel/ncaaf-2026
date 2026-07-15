@@ -1,0 +1,16 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Simon Wilson,170493,C,TULSA,12,100.0,2,320,66.4,69.8,64.2,2,7,459,100.0,100.0,99.0,4,9,0,910,899,0,0,910,499,499,11,0,411,0,2025_this_team
+Malachi Preciado,162892,C,S ALABAMA,12,100.0,0,288,61.8,66.2,59.9,2,6,331,100.0,100.0,98.5,2,9,1,842,842,0,0,842,363,363,0,0,479,0,arrival_2025_at_S ALABAMA
+JaQuan Adams,176868,T,TULSA,11,100.0,0,320,69.7,73.5,64.1,0,14,416,100.0,100.0,98.1,2,15,1,811,0,4,798,811,446,446,0,0,365,8,2025_this_team
+Sean Hill,122867,G,TULSA,12,100.0,0,320,52.3,69.0,45.3,4,8,404,100.0,100.0,98.3,3,13,1,791,0,783,3,791,438,438,3,0,353,1,2025_this_team
+Cam East,163655,T,TULSA,10,100.0,1,320,61.3,65.5,57.3,3,14,289,100.0,100.0,96.4,3,19,2,616,0,0,82,616,321,321,0,529,295,5,2025_this_team
+Brody Duffel,190720,T,TULSA,10,100.0,0,320,51.9,57.5,48.6,1,11,222,100.0,100.0,95.5,1,16,4,424,0,0,37,424,241,241,4,377,183,5,2025_this_team
+Ian Mayes,204365,G,TULSA,7,100.0,0,320,60.1,56.7,60.3,0,9,182,100.0,100.0,97.0,1,10,1,402,0,90,0,402,204,204,311,0,198,0,2025_this_team
+Codie Hornsby,160223,G,TULSA,8,100.0,0,320,56.5,27.7,61.8,1,9,123,100.0,100.0,95.9,2,10,0,248,0,47,0,248,134,134,199,1,114,0,2025_this_team
+Hunter Erb,158647,G,TULSA,9,100.0,0,320,59.9,63.7,59.2,2,2,128,100.0,100.0,98.4,1,4,0,245,0,2,0,245,135,135,240,2,110,0,2025_this_team
+Ender Aguilar,131638,G,TULSA,4,100.0,0,320,60.7,54.6,60.7,0,4,86,100.0,100.0,97.7,0,4,0,158,0,0,0,158,92,92,157,0,66,0,2025_this_team
+Will Morris,131016,C,TULSA,3,100.0,0,320,51.9,13.5,60.7,0,1,15,100.0,100.0,96.7,0,1,0,41,40,0,0,41,17,17,0,0,24,0,2025_this_team
+Colten Christian,190716,G,TULSA,8,100.0,0,320,59.9,78.9,57.9,0,0,3,100.0,100.0,100.0,0,0,0,26,0,10,9,26,3,3,0,0,23,6,2025_this_team
+Bennett Ringleb,173312,T,TULSA,5,100.0,0,320,56.1,74.5,52.6,0,0,7,100.0,100.0,100.0,0,0,0,25,0,0,0,25,8,8,0,19,17,6,2025_this_team
+Evan McClure,188775,G,TULSA,1,100.0,0,320,61.0,72.9,59.8,0,0,3,100.0,100.0,100.0,1,0,0,13,0,0,0,13,4,4,13,0,9,0,2025_this_team
+Josh Love,190738,G,TULSA,1,100.0,0,320,60.0,,60.0,0,0,0,,,,0,0,0,3,0,3,0,3,0,0,0,0,3,0,2025_this_team

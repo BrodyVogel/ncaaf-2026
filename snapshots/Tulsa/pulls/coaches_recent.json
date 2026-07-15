@@ -1,0 +1,65 @@
+[
+ {
+  "firstName": "Ryan",
+  "lastName": "Switzer",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Tulsa",
+    "year": 2024,
+    "games": 1,
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -23.8,
+    "spOverall": -20.6,
+    "spOffense": 21.2,
+    "spDefense": 40.3
+   }
+  ]
+ },
+ {
+  "firstName": "Kevin",
+  "lastName": "Wilson",
+  "hireDate": "2022-12-05T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Tulsa",
+    "year": 2024,
+    "games": 11,
+    "wins": 3,
+    "losses": 8,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -23.8,
+    "spOverall": -20.6,
+    "spOffense": 21.2,
+    "spDefense": 40.3
+   }
+  ]
+ },
+ {
+  "firstName": "Tre",
+  "lastName": "Lamb",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Tulsa",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -11.3,
+    "spOverall": -10,
+    "spOffense": 21.7,
+    "spDefense": 33.1
+   }
+  ]
+ }
+]

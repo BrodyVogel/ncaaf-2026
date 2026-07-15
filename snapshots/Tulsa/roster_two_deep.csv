@@ -1,0 +1,27 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Baylor Hayes,SO,RETURNING STARTER (bold),9 starts (last 6) 2025: 2158 yds 12 TD + 376 rush; upset W at Oklahoma State; coaches' "It Factor" (Athlon); PFF 59.2/372 (grade-production divergence); Francis (58.0/92) -> Texas Tech
+QB,QB,2,Dexter Williams II,SR,Kennesaw State transfer,PFF 60.9/142
+RB,RB,1,Trequan Jones,SR,Old Dominion transfer,PFF 85.9/103 - "PFF's 3rd-highest graded transfer RB" (Athlon attributed); late portal boost
+RB,RB,2,Seth Davis / Damari Alston / DJ McKinney,JR/,MissSt / Auburn / New Mexico,Richardson (79.7/213) expired + Allen out
+WRTE,WR,1,David Wells Jr. / Jimmy Calloway / Oran Singleton Jr.,JR/SR/SR,Oregon State / Tulane / West Virginia,all-transfer WR row; DEPARTED: Steptoe (61.1/299) -> Minnesota + Booker -> KSU + Tease; "must replace three leading receivers" (Athlon)
+WRTE,WR,2,Grayson Tempest / Josh Smith / Donnell Gee,SR/SO/SO,returners,Tempest 62.2/190
+WRTE,TE,1,Grant McAtee,JR,North Central (D3) transfer,Foley (72.5/266) -> Louisville
+OL,RT,1,Cam East,SR,RETURNING STARTER (bold),PFF 61.3/616
+OL,OL,1,Brody Duffel / Ian Mayes / Hunter Erb / Will Morris,JR/SO/SR/JR,returners,"six others combined to appear in 32 games" (Athlon); Wilson C (66.4/910) + Adams T (69.7/811) expired
+OL,OL,2,Alan Pond / Malachi Preciado / Josh Love / Jack Hood,,transfer (origin unlisted) / South Alabama / returners,Pond* feed-gap noted
+DL,DL,1,Tai Newhouse,SR,RETURNING STARTER (bold),PFF 71.6/412
+DL,DL,1,Arias Nash,SR,Virginia Tech transfer,chart starter
+DL,DL,1,Kyran Duhon,JR,Oklahoma State transfer,chart starter
+DL,DL,1,Thomas Davis,SR,App State transfer,chart starter; DEPARTED: Burnett (79.2/526) -> Rutgers + Hjelle (79.3/388) -> Indiana + Hardiman (80.4/461) + Johnson (74.0/503) expired
+DL,DL,2,Hudson Ball / Ty Cooper / Byron Turner,SO(yr1)/,returners,Ball 68.0/479 as yr-1; Cooper 66.4/386; Turner 67.7/279
+LB,LB,1,Chris Thompson Jr.,SR,returner/transfer (chart),PFF-row not found (gap)
+LB,LB,1,C.J. Turner,JR,returner,PFF 72.5/93; DEPARTED: Coney (87.6/823 - ELITE) -> Texas A&M + Anglin -> KSU
+LB,LB,2,William Alexander / Devin Hightower,SR(yr3)/,returner / UAB transfer,Alexander 69.7/528; Hightower 70.0/652 at UAB
+DB,CB,1,Elijah Green,JR(yr2),RETURNING STARTER (bold),PFF 79.3/809 - elite young CB
+DB,CB,1,JD Drew,SR(yr3),RETURNING STARTER (bold),PFF 66.3/635
+DB,STAR,1,Devin Robinson,JR(yr2),RETURNING STARTER (bold),PFF 70.2/627
+DB,S,1,Zach Williams,JR(yr2),RETURNING STARTER (bold),PFF 76.3/689
+DB,S,1,Dedaunte Scott,SO,returner,low vol; DEPARTED: L.Smith (69.5/822) expired + G.Williams expired; adds Williford (Baylor) + Hand (ETSU) + Leathers (IdSt)
+ST,K,1,Marlon Hauck,,Mississippi State transfer,2 career XP attempts and NO FG in 4 years (Athlon) - unproven; "spring auditions"
+ST,P,1,Max Tulen,,Bethune-Cookman (FCS) transfer,Melbourne AUS; 44.6 avg on 44 punts 2025 (Athlon); Davies (3-yr Aussie P) -> California
+ST,COORD,1,Tre Lamb yr 2,,,no coach multiplier; portal "open house" innovation note (opposing-coach quote)
