@@ -1,0 +1,346 @@
+{
+ "team": "Oklahoma State",
+ "units": {
+  "QB": {
+   "grade": 62,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 60,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 55,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 45,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 45,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 76, RB 97, WRTE 76, OL 58, DL 42, LB 81, DB 51, ST 7)",
+   "RB": "-37 vs proxy 97 (proxy scales Hawkins' 92.6 G5 tape raw; G5 guard discounts the level jump)",
+   "LB": "-29 vs proxy 81 (same guard on Wesloski's 90.6; Romney's 49.6 P4 tape is the counterweight)",
+   "WRTE": "-21 vs proxy 76 (Young 89.0 + Coleman 81.1 are AAC-graded; only Barnes/Bowick bring P4 tape)",
+   "QB": "-14 vs proxy 76 (Mestemaker 88.3 vs AAC; scheme continuity partially offsets, hence 62 not lower)",
+   "ST": "+38 vs proxy 7 (proxy rides the departed 7th-pctile unit; Keltner/Pozzobon arrive with real tape)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Oklahoma State",
+   "unit": "QB",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
+   "rationale_bullets": [
+    "Drew Mestemaker (88.3/536) arrives as the national passing champ - 4,379 at 68.7%, 34-9, #4 QB Rating, 1st-team AAC, #3 transfer QB of the cycle - with 'first NFL-caliber quarterback since Mason Rudolph' framing (P6).",
+    "The continuity is the multiplier: HC Morris + OC Brophy ran the exact offense at North Texas; all three books lead with it ('probably the most improved QB position in the country' - PS).",
+    "Grant Jordan (64.8/130; Yale/UMass starts) is a real backup.",
+    "62 = above average: elite G5 production in-scheme, discounted for the level jump (Weigman's 62 at Houston is the deliberate comparable: P4 tape + injury history vs elite-G5 + continuity)."
+   ],
+   "key_players": [
+    {
+     "name": "Drew Mestemaker",
+     "role": "QB1 transfer (North Texas)",
+     "evidence": "PFF 88.3/536; 4,379 yds, 34-9, 1st-tm AAC"
+    },
+    {
+     "name": "Grant Jordan",
+     "role": "QB2 transfer (Massachusetts)",
+     "evidence": "PFF 64.8/130; 9 st Yale '24"
+    }
+   ],
+   "data_gaps": [
+    "Zero P4 tape",
+    "One full year as a starter"
+   ],
+   "g5_guard_note": "88.3/4,379 earned vs AAC; graded above-average P4, not elite, pending P4 tape - scheme continuity is the offset that holds it at 62"
+  },
+  {
+   "team": "Oklahoma State",
+   "unit": "RB",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Caleb Hawkins (92.6; 231 att/1,431 at 6.2) led the AAC in rushing and the FBS in rushing TDs (25; Athlon: freshman-record 29 total) and made PS 3rd-team All-America - now in the same scheme.",
+    "The depth is verified volume, not projection: Adeyi (68.5; 1,017 at 7.1 for NT in '23), Page III (Tarleton-leading 839 at 7.5 as a FR), Mason (735 D2), KD Jones (PS#29 FR); PS: 'quality situational depth behind Hawkins.'",
+    "All '25 backs are gone (combined 1,172 at 4.4 - 8th-pctile as-played), which loses nothing of value.",
+    "60 = above average with the G5 discount; the proxy's 97 is what the tape says if you ignore the level."
+   ],
+   "key_players": [
+    {
+     "name": "Caleb Hawkins",
+     "role": "RB1 transfer (North Texas)",
+     "evidence": "PFF 92.6; 1,434 @ 6.2, FBS-leading 25 rush TD"
+    },
+    {
+     "name": "Tre Page III",
+     "role": "RB2 transfer (Tarleton State)",
+     "evidence": "839 @ 7.5 as FR (FCS; no PFF map)"
+    }
+   ],
+   "data_gaps": [
+    "Hawkins vs P4 fronts"
+   ],
+   "g5_guard_note": "92.6/1,434 earned vs AAC; graded 60 not 70+ - in-scheme transplant + verified depth keep it above average"
+  },
+  {
+   "team": "Oklahoma State",
+   "unit": "WRTE",
+   "grade": 55,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Wyatt Young (89.0; 70-1,264 at 18.1, 1st-team AAC) arrives as Mestemaker's favorite target, in-scheme; Coleman (81.1; 928 over two NT years) follows.",
+    "The P4 tape is the differentiator vs a pure G5 haul: Barnes (76.9; 547 at 14.0 + 143 rush at Wake Forest, 4* transfer) and 6'5 Bowick (70.4; Morris: 'NFL caliber').",
+    "Volume behind them: Polk (62.9; 525 at Akron), Harris II (62.5; 419 at Ohio), Lewis (NT); TE Green (LSU; PS TE#4) won the spring job but his tape is blocking-first (2 rec).",
+    "55 = average-plus: deep, multi-sourced, real P4 pieces - topline still G5-graded."
+   ],
+   "key_players": [
+    {
+     "name": "Wyatt Young",
+     "role": "WR1 transfer (North Texas)",
+     "evidence": "PFF 89.0; 1,264 @ 18.1, 1st-tm AAC"
+    },
+    {
+     "name": "Chris Barnes",
+     "role": "WR transfer (Wake Forest)",
+     "evidence": "PFF 76.9; 547 @ 14.0 + KR/PR"
+    },
+    {
+     "name": "Donovan Green",
+     "role": "TE transfer (LSU), won spring job",
+     "evidence": "PS TE#4; blocking-first (2 rec)"
+    }
+   ],
+   "data_gaps": [
+    "TE receiving production",
+    "Target distribution vs P4 coverage"
+   ],
+   "g5_guard_note": "Young 89.0 + Coleman 81.1 vs AAC; Barnes/Bowick P4 tape is why this sits 55 rather than dropping to average"
+  },
+  {
+   "team": "Oklahoma State",
+   "unit": "OL",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "An all-transfer starting five from a nine-transfer pool (117 incoming career starts): Nelson (71.6/961, All-AAC), Dickson III (71.9/818, 2nd-team AAC), Hanson (71.9/572, 4th-team SBC), Sexton (60.6; 14 starts across four years at OU), Lepo (55.2/189 MSU), Mercer (66.5/44 KU) - PS and Athlon print different arrangements (battle unsettled).",
+    "Seven '25 linemen gone (54 starts), six to P4 rosters - but that line was 14th-pctile in run blocking anyway (75th pass-block, 22 sacks).",
+    "Three 70+ PFF linemen and NT scheme familiarity (Dickson/Nelson/Mercer/Magiya) vs chemistry-from-scratch and thin P4 tape; Morris 'confident in his top 7 or 8' (PS).",
+    "44 = fringe-below-average: real pieces, unproven at this level, zero continuity."
+   ],
+   "key_players": [
+    {
+     "name": "Johnny Dickson III",
+     "role": "G transfer (North Texas)",
+     "evidence": "PFF 71.9/818; 2nd-tm AAC"
+    },
+    {
+     "name": "Braydon Nelson",
+     "role": "T transfer (North Texas)",
+     "evidence": "PFF 71.6/961; All-AAC, 24 st L2Y"
+    },
+    {
+     "name": "Jacob Sexton",
+     "role": "G/T transfer (Oklahoma)",
+     "evidence": "PFF 60.6; 14 st across 4 yrs"
+    }
+   ],
+   "data_gaps": [
+    "Arrangement unsettled (PS vs Athlon differ)",
+    "Zero returning snaps"
+   ],
+   "g5_guard_note": "Nelson/Dickson All-AAC grades earned vs G5 fronts; guard keeps the unit below average despite three 70+ tapes"
+  },
+  {
+   "team": "Oklahoma State",
+   "unit": "DL",
+   "grade": 45,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Seven linemen gone (30 st/117 tkl/9 sk) including the best player: Gregory (71.4/419, B12 Def Newcomer of the Year) -> Kansas State; Duhon (70.1/230) -> Tulsa, Nnodim -> Penn State.",
+    "Retained partials are real: Jaleel Johnson (78.2/150 - best returning tape on the defense, injury-shortened) and Malik Charles (67.5/279; 4 st, 28 tkl, 3 sk).",
+    "Ten transfers arrive as a deep 62-73 rotation with no premium anchor: Huddleston (70.4/409 NT), Clements (66.4/368 NG), Williams (69.9/249 FSU 'pass rush specialist'), Lawson (68.8/226), Rigsby (73.2/133), White (71.6/60, ex-PSU 4*), DJ Jackson (62.2/350).",
+    "'25 was RDEF 50th / PRSH 16th pctile; PS: 'better shape on the outside… still needs reliable interior run-stuffers.' 45 = fringe-below-average."
+   ],
+   "key_players": [
+    {
+     "name": "Jaleel Johnson",
+     "role": "DE, returning partial starter",
+     "evidence": "PFF 78.2/150; injury-shortened '25"
+    },
+    {
+     "name": "Keviyan Huddleston",
+     "role": "ED transfer (North Texas)",
+     "evidence": "PFF 70.4/409; 5 sk"
+    },
+    {
+     "name": "James Williams",
+     "role": "ED transfer (Florida State)",
+     "evidence": "PFF 69.9/249; 6 st"
+    }
+   ],
+   "data_gaps": [
+    "Interior run defense",
+    "Johnson health"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Oklahoma State",
+   "unit": "LB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Ethan Wesloski (90.6/804; 9 st, 113 tkl, 9 TFL, 2nd-team AAC) followed DC Cassity - the single best defensive tape in the incoming class, in-scheme.",
+    "Isaiah Chisom (66.6/546; 84 tkl at UCLA) brings real P4 volume; Trip White RETURNS (69.5/294; PS loosely filed the ex-Ole Miss returner among adds - PFF/roster confirm '25 snaps here); Puckett (DII All-American) and Winner-Johnson (Tulane) behind. 'Top 4 LBs are set' (PS).",
+    "Romney (49.6/101 at ASU; 13 tkl in 10 gm) is the tape-vs-framing weak link among projected starters.",
+    "GONE: McCoy (60.6/666, #2 tackler) graduated; Esonwune, Utu, Oliphant portal. 52 = average-plus."
+   ],
+   "key_players": [
+    {
+     "name": "Ethan Wesloski",
+     "role": "MLB transfer (North Texas)",
+     "evidence": "PFF 90.6/804; 113 tkl, 2nd-tm AAC"
+    },
+    {
+     "name": "Isaiah Chisom",
+     "role": "LB transfer (UCLA)",
+     "evidence": "PFF 66.6/546; 84 tkl"
+    },
+    {
+     "name": "Tate Romney",
+     "role": "WLB transfer (Arizona State)",
+     "evidence": "PFF 49.6/101; 13 tkl in 10 gm"
+    }
+   ],
+   "data_gaps": [
+    "Romney tape vs role"
+   ],
+   "g5_guard_note": "Wesloski's 90.6 earned vs AAC; guard caps the unit at average-plus rather than the proxy's 81"
+  },
+  {
+   "team": "Oklahoma State",
+   "unit": "DB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "LaDainian Fields (77.2/255; 12 starts as a true sophomore) is the defense's lone returning starter and a quality young piece; Cameron Epps withdrew from the portal (override: Athlon May two-deep + PS lineup + P6 'back from injury') adding 51 tkl/3 INT of L3Y experience.",
+    "The '25 unit was 8th-pctile COV (#132 PDR, 65.6%, 28-6) and three starters left - the reload can't lose much.",
+    "Eight arrivals with real tape: Bodnar (71.8/581 Liberty; 'huge spring praise from Morris'), Lewis (75.9/437; NT's top corner), Jackson (69.9/458; 130 tkl L3Y), Hammonds (64.0/582), Phillips (77.3/149 Mizzou), Horn (14 st/30 gm L3Y at TTech; no '25 tape).",
+    "48 = fringe-average: volume + youth upside, one proven P4 starter total; NT was #37 PDR under this staff."
+   ],
+   "key_players": [
+    {
+     "name": "LaDainian Fields",
+     "role": "CB, returning starter (lone one)",
+     "evidence": "PFF 77.2/255; 12 st as true SO"
+    },
+    {
+     "name": "Christian Bodnar",
+     "role": "NB transfer (Liberty)",
+     "evidence": "PFF 71.8/581; 44 tkl, 2 sk"
+    },
+    {
+     "name": "Kollin Lewis",
+     "role": "CB transfer (North Texas)",
+     "evidence": "PFF 75.9/437; NT's top corner"
+    },
+    {
+     "name": "Cameron Epps",
+     "role": "S, returning (portal withdrawal - override)",
+     "evidence": "51 tkl/3 INT L3Y; injured '25"
+    }
+   ],
+   "data_gaps": [
+    "Horn 2025 layoff",
+    "Safety arrangement"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Oklahoma State",
+   "unit": "ST",
+   "grade": 45,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Both legs are new but tape-real: K Keltner (SMU: 13 st, 14-of-20, long 51, 42 TB - 'asked to increase his consistency' per Athlon) and P Pozzobon (SFA: FCS Freshman All-American, 41.8 avg/40.5 net, 17 inside-20).",
+    "Barnes is the return-game upgrade ('highlight-reel plays at Wake Forest'); LS Yates follows from NT.",
+    "The departed unit was 7th-pctile SPEC and P Pahl (46.5) was its one strength; PS: 'wont drop much with better depth.'",
+    "45 = fringe-below-average: proven-ish legs, no elite piece, whole operation new."
+   ],
+   "key_players": [
+    {
+     "name": "Sam Keltner",
+     "role": "K transfer (SMU)",
+     "evidence": "14-20 FG, 42 TB"
+    },
+    {
+     "name": "Lachie Pozzobon",
+     "role": "P transfer (Stephen F. Austin)",
+     "evidence": "FCS FR All-American; 41.8/40.5 net"
+    }
+   ],
+   "data_gaps": [
+    "Keltner accuracy",
+    "FCS-to-P4 punting jump"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
