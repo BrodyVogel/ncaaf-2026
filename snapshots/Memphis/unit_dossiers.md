@@ -168,3 +168,12 @@ Confidence: LOW.
   signal; 2025 as-played percentiles above are full-season including it.
 - OCR verification: PS coach box, ret-starters box, projected lineup verified against page images.
 - Gaps: LaForge kicking stats; D2/FCS arrivals have no PFF rows; OurLads stale (Feb).
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Brendon Lewis (87.2/474) EXPIRED(yr4)*
+- RB: Sutton Smith (73.6/149) PORTAL->Arkansas; Greg Desrosiers Jr. (75.6/129) EXPIRED(yr4)*
+- WRTE: Cortez Braham Jr. (79.1/364) EXPIRED(yr4)*; Jamari Hawkins (69.6/347) PORTAL->Arkansas; Marcello Bussey (61.5/260) EXPIRED(yr4)*; Brady Kluse (63.6/227) RETURNS; Christian Ross (59.7/178) PORTAL(none)-ADJUDICATE; Bryce Anderson (58.3/128) PORTAL->UL Monroe; Matt Adcock (60.4/111) PORTAL->Arkansas
+- OL: Parker Mitchell (59.1/915) RETURNS; Yakari Walker (60.9/881) RETURNS; Malachi Breland (69.4/845) PORTAL->Arkansas; Chris Adams (67.4/843) EXPIRED(yr4)*; Travis Burke (84.5/765) EXPIRED(yr4)*; Ethan Newman (66.9/167) PORTAL->Nevada
+- DL: William Whitlow Jr. (79.4/633) EXPIRED(yr4)*; Jalen Bell (76.8/532) EXPIRED(yr4)*; Pooda Walker (71.3/450) EXPIRED(yr4)*; Taylor Burton (68.7/295) RETURNS; Jayden Marable (67.4/222) PORTAL->New Mexico; Rayyan Buell (68.4/221) EXPIRED(yr4)*; Isaiah Green (63.3/121) EXPIRED(yr4)*
+- LB: Drue Watts (59.1/809) EXPIRED(yr4)*; Everett Roussaw Jr. (63.8/777) PORTAL->Arizona; Sam Brumfield (68.2/714) EXPIRED(yr4)*; Crews Law (65.4/164) PORTAL->East Carolina; Jayden Flaker (64.7/111) EXPIRED(yr4)*
+- DB: Kamari Wilson (74.2/801) PORTAL->West Virginia; Chris Bracy (68.6/758) PORTAL->Michigan; Omarion Cooper (69.7/738) EXPIRED(yr4)*; DeMarco Ward (64.8/644) PORTAL->Pittsburgh; Jaidyn Denis (64.8/439) EXPIRED(yr4)*; Jeremiah Jordan (66.6/369) PORTAL->UAB; Chauncey Logan Jr. (64.8/202) EXPIRED(yr4)*; Samson Israel (58.1/197) PORTAL(none)-ADJUDICATE; Isheem Young (56.1/100) EXPIRED(yr4)*

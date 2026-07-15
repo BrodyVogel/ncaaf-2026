@@ -68,3 +68,12 @@ NFL-drafted DBs + 1 UDFA don't show as losses the way the portal does. Real numb
   secondary and 3/5 of the OL. P6 context facts: #8 B12 five-year recruiting, "second-worst from the
   portal with just one four-star transfer the past two cycles" — the reload is volume, not blue-chip.
 - Schedule noted as context only (toughest B12 draw; six of top seven) — NOT a rating input.
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Noah Fifita (85.1/534) RETURNS
+- RB: Ismail Mahdi (75.8/173) EXPIRED(yr4)*; Kedrick Reescano (76.1/116) RETURNS
+- WRTE: Kris Hutson (75.5/356) EXPIRED(yr4)*; Tre Spivey (63.0/287) RETURNS; Javin Whatley (66.6/260) EXPIRED(yr4)*; Chris Hunter (60.4/254) RETURNS; Sam Olson (46.2/204) EXPIRED(yr4)*; Cameron Barmore (61.3/159) RETURNS; Luke Wysong (62.5/145) EXPIRED(yr4)*; Giovanni Richardson (68.0/101) RETURNS
+- OL: Ka'ena Decambra (67.9/898) EXPIRED(yr4)*; Alexander Doost (67.2/878) RETURNS; Chubba Maae (63.9/753) EXPIRED(yr4)*; Ty Buchanan (70.9/737) EXPIRED(yr4)*; Tristan Bounds (72.3/628) EXPIRED(yr4)*; Matthew Lado (64.5/346) RETURNS; Rhino Tapa'atoutai (46.8/231) RETURNS; Michael Wooten (52.0/230) PORTAL->South Florida
+- DL: Chase Kennedy (65.5/537) RETURNS; Leroy Palu (58.4/489) RETURNS; Deshawn McKnight (76.4/449) EXPIRED(yr4)*; Riley Wilson (78.0/428) EXPIRED(yr4)*; Tiaoalii Savea (64.2/379) EXPIRED(yr4)*; Mays Pese (58.8/356) RETURNS; Malachi Bailey (67.2/315) EXPIRED(yr4)*; Dominic Lolesio (59.8/284) RETURNS; Julian Savaiinaea (61.9/208) RETURNS; Tre Smith (79.0/144) EXPIRED(yr4)*
+- LB: Taye Brown (75.9/752) RETURNS; Max Harris (72.0/612) EXPIRED(yr4)*; Jabari Mann (68.8/169) RETURNS
+- DB: Dalton Johnson (84.8/771) EXPIRED(yr4)*; Genesis Smith (80.0/771) RETURNS; Ayden Garnes (68.6/700) EXPIRED(yr4)*; Treydan Stukes (90.1/608) EXPIRED(yr4)*; Michael Dansby (74.0/506) EXPIRED(yr4)*; Jay'Vion Cole (86.3/381) RETURNS; Gavin Hunter (65.0/239) RETURNS; Marquis Groves-Killebrew (61.9/168) PORTAL->California; Coleman Patmon (56.9/102) RETURNS

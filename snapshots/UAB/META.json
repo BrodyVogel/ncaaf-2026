@@ -13,5 +13,8 @@
  "frozen": true,
  "research_completed_utc": "2026-07-15",
  "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
- "coach_change": "Mortensen first full season (interim after Dilfer mid-2025 firing) - x1.13 applies"
+ "coach_change": "Mortensen first full season (interim after Dilfer mid-2025 firing) - x1.13 applies",
+ "portal_withdrawal_overrides": [
+  "Calib Perez"
+ ]
 }

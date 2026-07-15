@@ -49,3 +49,12 @@ Proxy (audit): RB 35 | OL 43 | DL 12 | DB 1 | ST 30 (QB/WRTE/LB null).
 - Option identity yr 2 (opposing-coach quote on prep burden - one of THREE AAC option teams w/ the
   academies). Offense trades explosiveness for possession; defense was the fatal flaw (DB 2nd pctile).
 - 30 red-zone TDs 2025 (Athlon) - red-zone efficiency was real even at 19.1 ppg.
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Chase Jenkins (67.2/214) PORTAL->Kansas
+- RB: Quinton Jackson (71.9/296) RETURNS; D'Andre Hardeman Jr. (66.0/127) RETURNS; Daelen Alexander (73.8/113) PORTAL->Coastal Carolina
+- WRTE: Aaron Turner (72.9/220) EXPIRED(yr4)*; Drayden Dickmann (61.5/209) PORTAL->Wake Forest
+- OL: Luke Miller (60.0/828) RETURNS; Sean Sullivan (62.3/719) EXPIRED(yr4)*; Patrick Valent (64.1/589) WITHDREW (override); David Stickle (63.6/580) EXPIRED(yr4)*; John Long (57.9/367) PORTAL(none)-ADJUDICATE; Netane Fehoko (58.2/335) RETURNS; Cole Principe (64.8/301) RETURNS; Nate Bledsoe (63.7/293) RETURNS; Weston Kropp (54.5/183) RETURNS; Luke Needham (75.2/115) RETURNS
+- DL: Tony Anyanwu (84.9/657) EXPIRED(yr4)*; Blake Boenisch (64.2/503) EXPIRED(yr4)*; Aquantis Clemmons (66.4/353) RETURNS; Dillan Botts (69.4/345) RETURNS; Chibby Nwajuaku (74.5/311) RETURNS; Joseph Mutombo (48.9/235) RETURNS; Christopher Clark-Jolivet (50.1/225) RETURNS; Michael Daley (68.2/157) RETURNS; Elroyal Morris III (42.6/117) EXPIRED(yr4)*
+- LB: Ty Morris (67.8/827) PORTAL->Rutgers; Andrew Awe (58.0/824) EXPIRED(yr4)*; Blaise Tita (56.2/117) EXPIRED(yr4)*
+- DB: Omari Porter (53.7/715) EXPIRED(yr4)*; Marcus Williams (72.7/651) PORTAL->Mississippi State; Peyton Stevenson (57.4/577) EXPIRED(yr4)*; Jerrick Harper (51.1/453) RETURNS; Jack Kane (59.4/435) EXPIRED(yr4)*; Jo Chavez (59.6/394) RETURNS; Khary Crump (55.0/358) EXPIRED(yr4)*; Daveon Hook (50.7/286) EXPIRED(yr4)*; Bailey Fletcher (59.0/102) RETURNS; Ephraim Dotson (47.9/101) PORTAL->Lamar

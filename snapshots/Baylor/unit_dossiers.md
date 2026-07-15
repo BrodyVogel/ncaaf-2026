@@ -87,3 +87,12 @@ Proxy (audit): QB 57 | RB 45 | WRTE 87 | OL 36 | DL 50 | LB 20 | DB 60 | ST 97.
 - Cross-refs verified vs our own snapshots: Moore FROM UAB, Walker FROM Memphis, Wimberly FROM
   UTSA, McGowan FROM Charlotte, Williford TO Tulsa, Winston TO ASU — all consistent.
 - Schedule context only — NOT a rating input.
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Sawyer Robertson (70.3/590) EXPIRED(yr4)*
+- RB: Bryson Washington (70.3/163) PORTAL->Auburn; Caden Knighten (68.3/111) RETURNS
+- WRTE: Josh Cameron (72.4/512) EXPIRED(yr4)*; Ashtyn Hawkins (62.1/458) EXPIRED(yr4)*; Kole Wilson (66.0/345) EXPIRED(yr4)*; Michael Trigg (72.5/319) EXPIRED(yr4)*; Kobe Prentice (72.3/161) EXPIRED(yr4)*; Matthew Klopfenstein (50.7/137) RETURNS
+- OL: Ryan Lengyel (60.4/962) EXPIRED(yr4)*; Kaden Sieracki (63.0/948) RETURNS; Coleton Price (71.0/842) PORTAL->Kentucky; Omar Aigbedion (80.0/684) EXPIRED(yr4)*; Sidney Fugar (62.8/534) EXPIRED(yr4)*; Sean Thompkins Jr. (50.1/460) PORTAL->LSU; Koltin Sieracki (59.1/411) RETURNS
+- DL: Emar'rion Winston (65.9/586) PORTAL->Arizona State; Devonte Tezino (63.3/510) RETURNS; Jackie Marshall (55.7/504) EXPIRED(yr4)*; Cooper Lanz (73.5/476) EXPIRED(yr4)*; Matthew Fobbs-White (68.3/387) PORTAL->Virginia; DK Kalu (59.7/281) PORTAL->Florida; Kyler Jordan (67.7/191) RETURNS; Adonis Friloux (61.3/134) EXPIRED(yr4)*; Kamauryn Morgan (60.0/125) PORTAL->Missouri
+- LB: Keaton Thomas (69.3/793) PORTAL->Ole Miss; Kyland Reed (58.7/606) RETURNS; Kaleb Burns (47.0/133) RETURNS
+- DB: Devyn Bobby (64.7/802) EXPIRED(yr4)*; DJ Coleman (70.0/593) PORTAL->Florida; LeVar Thornton Jr. (64.5/522) RETURNS; Jacob Redding (75.2/468) RETURNS; Caldra Williford (68.1/339) PORTAL->Tulsa; Kendrick Simpkins (60.7/333) EXPIRED(yr4)*; Reggie Bush II (66.9/331) RETURNS; Tyler Turner (64.4/326) RETURNS; Tevin Williams III (65.3/302) EXPIRED(yr4)*; Caden Jenkins (69.4/155) PORTAL->North Texas; Micah Gifford (59.1/104) RETURNS

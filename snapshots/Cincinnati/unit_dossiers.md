@@ -73,3 +73,12 @@ proxy OL 97 is legitimate for once: the trio really returns.)
 - Cross-refs verified: Otutu FROM UTSA (in their outs), Wilson FROM GaState. TT flag recorded
   (Sorsby eligibility).
 - Second-worst B12 five-year recruiting noted as context; schedule NOT a rating input.
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Brendan Sorsby (90.3/400) PORTAL->Texas Tech
+- RB: Tawee Walker (85.0/167) EXPIRED(yr4)*; Evan Pryor (73.8/109) PORTAL->Florida
+- WRTE: Caleb Goodie (63.5/303) PORTAL->Missouri; Joe Royer (59.8/279) EXPIRED(yr4)*; Cyrus Allen (72.6/273) EXPIRED(yr4)*; Jeff Caldwell (70.0/221) EXPIRED(yr4)*; Noah Jennings (67.1/209) PORTAL->Minnesota; Isaiah Johnson (67.9/102) RETURNS
+- OL: Joe Cotton (69.9/771) RETURNS; Gavin Gerhardt (68.4/767) EXPIRED(yr4)*; Taran Tyo (72.7/766) RETURNS; Evan Tengesdahl (85.4/735) RETURNS; Deondre Buford (55.1/689) EXPIRED(yr4)*; Xavier Lozowicki (71.1/103) RETURNS
+- DL: Jalen Hunt (76.4/536) EXPIRED(yr4)*; Mikah Coleman (57.6/449) PORTAL->Miami (OH); Marquaze Parker (55.1/395) RETURNS; Isaiah Rogers (63.1/375) EXPIRED(yr4)*; Dontay Corleone (72.6/352) EXPIRED(yr4)*; Jaylon White-McClain (56.8/289) RETURNS; Kamari Burns (68.6/174) PORTAL->Kansas State; Rob Jackson (54.9/132) EXPIRED(yr4)*; CJ McCray (59.5/112) EXPIRED(yr4)*
+- LB: Jake Golday (82.4/681) EXPIRED(yr4)*; Jonathan Thompson (73.5/592) RETURNS; Jack Dingle (62.5/545) EXPIRED(yr4)*; Simeon Coleman (65.6/413) RETURNS; Brian Simms III (74.3/304) RETURNS; Montay Weedon (57.8/297) RETURNS
+- DB: Matthew McDoom (68.6/739) EXPIRED(yr4)*; Christian Harrison (67.3/685) PORTAL->Arkansas; Trevon Gola-Callard (66.2/628) EXPIRED(yr4)*; Logan Wilson (72.5/547) EXPIRED(yr4)*; Quan Sanks (56.9/506) RETURNS; Antwan Peek Jr. (81.4/424) RETURNS; Daniel James (59.2/304) RETURNS; Ormanie Arnold (56.4/258) PORTAL->New Mexico; Xavier Williams (71.6/251) EXPIRED(yr4)*; Tayden Barnes (45.3/185) PORTAL->New Mexico State

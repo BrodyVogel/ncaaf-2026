@@ -88,3 +88,12 @@ Shadow proxy 2026 (audit only): QB - | RB 55 | WRTE 35 | OL 34 | DL 38 | LB 1 | 
   (Sides, Gray from NT), defense imports Memphis's DC with two Memphis LBs - unusual double scheme-import
   with personnel bridges. No coach-change variance multiplier (HC unchanged).
 - PS box: portal starts added ~45 / lost ~76; homegrown 61.5%.
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Katin Houser (84.0/473) PORTAL->Illinois
+- RB: London Montgomery (73.3/187) PORTAL->Florida; Marlon Gunn Jr. (81.0/139) EXPIRED(yr4)*; Parker Jenkins (70.1/104) PORTAL->Lamar
+- WRTE: Anthony Smith (72.4/376) EXPIRED(yr4)*; Yannick Smith (66.3/334) PORTAL->SMU; Brock Spalding (70.8/274) RETURNS; Desirrio Riles (62.0/205) PORTAL->Florida State; Jayvontay Conner (69.8/147) PORTAL->Vanderbilt; Payton Mangrum (59.8/112) EXPIRED(yr4)*
+- OL: Emmanuel Kojo Poku (63.0/977) RETURNS; Darius Bell (53.5/976) EXPIRED(yr4)*; Jimarion McCrimon (56.9/866) PORTAL->NC State; Cooper Trnavsky (47.0/602) EXPIRED(yr4)*; Kyle Long (48.1/516) EXPIRED(yr4)*; Panda Askew (62.1/470) EXPIRED(yr4)*; Bryce Weaver (59.7/388) RETURNS; Jayson Tarpeh (44.7/160) EXPIRED(yr4)*; Marleo Neolien (60.9/112) RETURNS
+- DL: J.D. Lampley (51.5/546) EXPIRED(yr4)*; Ryheem Craig (59.4/464) EXPIRED(yr4)*; Zion Wilson (74.4/458) PORTAL->Virginia; Preston Carr (75.6/408) RETURNS; Jasiyah Robinson (77.9/407) EXPIRED(yr4)*; Rion Roseborough (61.0/371) RETURNS; Julien Davis (73.2/318) RETURNS; Justin Benton (63.3/250) PORTAL->North Texas; Kieran Davis (70.5/192) RETURNS
+- LB: Dameon Wilson (48.3/532) EXPIRED(yr4)*; DJ Johnson Jr. (53.2/530) RETURNS; Samuel Dankah (57.3/528) PORTAL(none)-ADJUDICATE; Jackson Barker (66.0/179) RETURNS
+- DB: Ja'Marley Riddle (69.0/730) PORTAL->Georgia; Teagan Wilk (66.5/639) EXPIRED(yr4)*; TyMir Brown (78.4/598) EXPIRED(yr4)*; Jordy Lowery (63.7/460) PORTAL->Florida; Jonathan Jean (69.8/419) EXPIRED(yr4)*; Kevon Merrell Jr. (72.2/347) RETURNS; Rasheed Reason (57.2/317) EXPIRED(yr4)*; Ayden Duncanson (56.9/271) RETURNS; Key Crowell (62.8/188) PORTAL->Illinois State; Kamaurri McKinley (58.8/179) RETURNS; Chance Graves (72.5/173) EXPIRED(yr4)*

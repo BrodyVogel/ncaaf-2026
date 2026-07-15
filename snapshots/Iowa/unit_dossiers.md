@@ -161,3 +161,12 @@ Confidence: LOW-MEDIUM (credentialed kicker; everything else projection).
 - OCR verification: PS returning-starters box and QB career lines verified against rendered page images.
 - Known evidence gaps: FCS arrivals have no PFF rows (premium files are FBS-only) — their evidence is
   news/magazine-based with competition discounts; CFBD 2026 returning-production/ratings feeds not yet live.
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Mark Gronowski (83.3/322) EXPIRED(yr4)*
+- RB: Kamari Moulton (82.3/202) RETURNS
+- WRTE: Jacob Gill (59.7/205) EXPIRED(yr4)*; Sam Phillips (61.9/187) EXPIRED(yr4)*; DJ Vonnahme (68.0/140) RETURNS; Dayton Howard (58.8/119) RETURNS; Kaden Wetjen (64.9/108) EXPIRED(yr4)*; Seth Anderson (49.5/105) EXPIRED(yr4)*
+- OL: Logan Jones (79.0/766) EXPIRED(yr4)*; Kade Pieper (83.5/757) RETURNS; Gennings Dunker (81.6/729) EXPIRED(yr4)*; Trevor Lauck (84.8/701) RETURNS; Beau Stephens (85.6/682) EXPIRED(yr4)*; Jack Dotzler (75.9/140) RETURNS; Leighton Jones (73.9/125) RETURNS
+- DL: Aaron Graves (71.9/598) EXPIRED(yr4)*; Ethan Hurkett (72.7/546) EXPIRED(yr4)*; Max Llewellyn (72.3/544) EXPIRED(yr4)*; Jonah Pace (64.6/426) EXPIRED(yr4)*; Bryce Hawthorne (61.8/295) RETURNS; Brian Allen Jr. (73.5/282) PORTAL->Vanderbilt; Kenneth Merrieweather (60.9/221) RETURNS; Jeremiah Pittman (52.0/137) EXPIRED(yr4)*
+- LB: Karson Sharar (76.1/753) EXPIRED(yr4)*; Jayden Montgomery (69.8/423) RETURNS; Jaden Harrell (60.5/307) EXPIRED(yr4)*; Jaxon Rexroth (66.3/242) EXPIRED(yr4)*
+- DB: Xavier Nwankpa (70.9/741) EXPIRED(yr4)*; Zach Lutmer (83.5/725) RETURNS; Koen Entringer (65.7/697) PORTAL->Louisville; TJ Hall (78.3/602) EXPIRED(yr4)*; Deshaun Lee (75.2/572) RETURNS; Jaylen Watson (58.6/224) RETURNS

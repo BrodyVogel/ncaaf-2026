@@ -55,3 +55,12 @@ Proxy (audit): QB 62 | WRTE 20 | OL 34 | DL 49 | DB 19 | ST 38 (RB/LB null).
 - The double-scheme-import pattern again (like ECU): new HC brings OSU WR pedigree; new DC imports the
   AAC's best 2025 defense with its credo. Resources context (attributed): near-P4 spending.
 - 14-player Auburn exodus = the single largest same-destination drain in the AAC this cycle.
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Byrum Brown (91.5/431) PORTAL->Auburn
+- RB: Nykahi Davenport (83.9/151) PORTAL->Auburn; Alvon Isaac (65.3/115) WITHDREW (override); Sam Franklin (73.6/103) EXPIRED(yr4)*
+- WRTE: Keshaun Singleton (74.0/343) PORTAL->Auburn; Jeremiah Koger (70.2/258) PORTAL->Auburn; Christian Neptune (63.1/208) PORTAL->Auburn; Mudia Reuben (70.8/193) EXPIRED(yr4)*; Chas Nimrod (68.8/174) PORTAL->Auburn; Wyatt Sullivan (56.0/151) RETURNS; JeyQuan Smith (60.5/127) RETURNS; Jonathan Echols (58.1/102) PORTAL->Auburn
+- OL: Cole Best (72.3/879) PORTAL->Auburn; Zane Herring (66.6/840) EXPIRED(yr4)*; Thomas Shrader (60.4/822) EXPIRED(yr4)*; Connor McLaughlin (69.6/744) EXPIRED(yr4)*; Derek Bowman (61.0/638) EXPIRED(yr4)*; Cole Skinner (70.8/412) PORTAL->Auburn; Jack Wilty (59.7/100) EXPIRED(yr4)*
+- DL: Josh Celiscar (57.7/546) EXPIRED(yr4)*; Rico Watson III (64.3/537) EXPIRED(yr4)*; Devin Lee (73.6/479) EXPIRED(yr4)*; Traevon Mitchell (80.2/439) PORTAL(none)-ADJUDICATE; D.J. Harris (62.2/435) EXPIRED(yr4)*; Dennard Flowers (79.4/394) EXPIRED(yr4)*; Ira Singleton IV (65.2/357) PORTAL->SMU; Jacob Merrifield (62.9/296) EXPIRED(yr4)*; Michael Williams II (63.5/218) EXPIRED(yr4)*; Levi Smiley (62.3/179) RETURNS; Ryan Jenkins (64.9/128) RETURNS
+- LB: Mac Harris (83.4/818) EXPIRED(yr4)*; Jhalyn Shuler (62.3/803) EXPIRED(yr4)*; Zavier Hamilton (64.5/205) RETURNS; Rodney Hill (72.2/148) RETURNS
+- DB: Fred Gaskin III (57.7/737) PORTAL->Auburn; De'Shawn Rucker (63.0/709) EXPIRED(yr4)*; Jarvis Lee (66.4/656) PORTAL->SMU; Tavin Ward (68.2/642) EXPIRED(yr4)*; Jonas Duclona (74.7/581) PORTAL->Georgia Tech; James Chenault (66.2/434) PORTAL->Utah; Ben Knox (60.9/367) EXPIRED(yr4)*; Jaelen Stokes (75.0/320) EXPIRED(yr4)*; Cedrick Hawkins Jr. (67.0/154) RETURNS

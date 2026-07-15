@@ -85,3 +85,12 @@ Shadow proxy 2026 (audit only): QB 62 | RB - | WRTE - | OL 92 | DL 18 | LB - | D
 - 2025 shape: L to FCS Tarleton (OT) opener, W at Kansas State, L Navy 6-28, bowl W over depleted UConn.
 - 8 new defensive starters + first-year (internal) DC vs 8 returning offensive starters (PS 8/8 OFF, 3/3 DEF).
 - Evidence-cleaning: bowl blowout was vs an opt-out-depleted opponent (PS) - don't over-credit.
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Cale Hellums (77.0/137) RETURNS
+- RB: Noah Short (78.6/608) EXPIRED(yr4)*; Samari Howard (57.1/514) RETURNS; Hayden Reed (56.2/276) EXPIRED(yr4)*; Jake Rendina (72.2/197) RETURNS; Carson Smith (67.0/182) RETURNS
+- WRTE: Brady Anderson (78.1/113) RETURNS; Parker Poloskey (64.6/105) RETURNS
+- OL: Brady Small (79.6/893) RETURNS; Teddy Williams (90.3/892) RETURNS; Henry Appleton (72.2/892) RETURNS; Will Jeffcoat (91.3/890) EXPIRED(yr4)*; Paolo Gennarelli (62.8/674) RETURNS; Braden Bartosh (68.9/234) EXPIRED(yr4)*
+- DL: Eric Ford (64.8/670) EXPIRED(yr4)*; Jack Bousum (66.6/631) RETURNS; Jack Latore (64.3/491) EXPIRED(yr4)*; Kody Harris-Miller (66.5/309) RETURNS; Jacob Tuioti (47.2/264) EXPIRED(yr4)*; Dillon Stowers (61.1/225) RETURNS; Deshontez Gray (59.4/174) EXPIRED(yr4)*; Noah Nixon (47.0/135) RETURNS
+- LB: Kalib Fortner (55.8/802) EXPIRED(yr4)*; Andon Thomas (55.1/802) EXPIRED(yr4)*
+- DB: Casey Larkin (72.3/724) EXPIRED(yr4)*; Jaydan Mayes (65.5/692) RETURNS; Collin Matteson (68.5/679) EXPIRED(yr4)*; Gavin Shields (62.7/675) EXPIRED(yr4)*; Justin Weaver (67.0/477) EXPIRED(yr4)*; Jabril Williams (66.5/250) EXPIRED(yr4)*; Stephen Nnadozie (79.7/248) RETURNS; Jaxon Hammond (62.7/208) RETURNS; Cole Searight (59.4/138) RETURNS

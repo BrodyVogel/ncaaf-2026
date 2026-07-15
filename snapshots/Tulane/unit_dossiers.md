@@ -50,3 +50,12 @@ Proxy (audit): QB 77 | WRTE 56 | OL 33 | DL 10 | LB 1 | DB 15 | ST 76.
 - The continuity bet: internal promotion + retained assistants + 6 of top 10 tacklers + the RB room vs
   losing QB1/OL/DL-stars/WR1/both punters upward. Program funding note (attributed): can retain
   non-star talent.
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Jake Retzlaff (81.6/449) RETURNS
+- RB: Javin Gordon (72.8/192) PORTAL->Tennessee; Jamauri McClure (76.8/108) RETURNS
+- WRTE: Shazz Preston (71.8/300) PORTAL->Indiana; Anthony Brown-Stephens (65.9/283) RETURNS; Bryce Bohanon (68.1/194) EXPIRED(yr4)*; Justyn Reid (52.5/170) PORTAL->Louisville; Omari Hayes (83.6/162) PORTAL->Iowa State; Zycarl Lewis Jr. (69.9/152) RETURNS; Johnny Pascuzzi (63.5/133) EXPIRED(yr4)*; Tre Shackelford (62.5/118) EXPIRED(yr4)*
+- OL: Jack Hollifield (57.5/971) EXPIRED(yr4)*; Shadre Hurst (80.7/934) PORTAL->Houston; Reese Baker (60.2/908) RETURNS; Derrick Graham (68.6/898) EXPIRED(yr4)*; Jordan Hall (60.7/712) EXPIRED(yr4)*; Darion Reed (47.5/248) RETURNS; Elijah Baker (46.7/187) RETURNS
+- DL: Santana Hopper (80.2/661) PORTAL->Colorado; Kameron Hamilton (70.4/469) EXPIRED(yr4)*; Harvey Dyson (67.6/451) PORTAL->NC State; Jordan Norman (71.8/448) PORTAL->Tennessee; Tre'Von McAlpine (65.2/437) PORTAL->Kansas; Mo Westmoreland (79.2/295) EXPIRED(yr4)*; Jah'rie Garner (69.8/274) RETURNS; Derrick Shepard Jr. (60.0/253) RETURNS; Armondous Cooley (56.5/251) EXPIRED(yr4)*; Eliyt Nairne (59.5/186) PORTAL->Pittsburgh; Geordan Guidry (83.7/134) RETURNS; Gerrod Henderson (64.0/122) RETURNS; Elijah Champaigne (52.2/103) EXPIRED(yr4)*
+- LB: Chris Rodgers (54.8/791) RETURNS; Sam Howard (71.6/572) EXPIRED(yr4)*; Makai Williams (57.6/382) RETURNS; Dickson Agu (35.0/212) RETURNS
+- DB: Jahiem Johnson (76.2/834) PORTAL->Arkansas; Jack Tchienchou (62.9/707) RETURNS; E'zaiah Shine (61.4/704) RETURNS; Javion White (68.5/654) PORTAL->Houston; Bailey Despanie (62.5/560) EXPIRED(yr4)*; Kevin Adams III (65.9/546) RETURNS; TJ Smith (59.0/270) RETURNS; Joshua Moore (67.4/244) RETURNS; LJ Green (63.2/210) RETURNS; Isaiah Wadsworth (71.9/209) EXPIRED(yr4)*

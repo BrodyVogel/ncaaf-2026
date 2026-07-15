@@ -63,3 +63,11 @@ Shadow proxy 2026 (audit): QB - | RB - | WRTE - | OL 44 | DL 5 | LB 16 | DB 18 |
 - 11-2 team returning its OL + defensive spine but NOT its engine (QB/RB/SB trio = 68% of yards).
 - DC change (Lewis) with returning back-seven continuity; OC continuity yr 3.
 - Academy: zero portal exposure; the projection risk is concentrated in one man (Woodson).
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Blake Horvath (82.1/197) EXPIRED(yr4)*
+- RB: Brandon Chatman (61.0/540) EXPIRED(yr4)*; Eli Heidenreich (92.9/533) EXPIRED(yr4)*; Alex Tecza (76.8/483) EXPIRED(yr4)*
+- OL: Ben Purvis (70.8/824) EXPIRED(yr4)*; Sean Crowley (58.2/809) RETURNS; Hoke Smith II (61.9/697) RETURNS; Cam Nichols (65.6/589) RETURNS; Malcolm Johnson (60.2/427) RETURNS; Jaylin Acevedo (54.7/399) PORTAL->South Florida; Toran Smith (64.5/196) RETURNS; Jake Polito (57.2/136) RETURNS
+- DL: Landon Robinson (78.2/713) EXPIRED(yr4)*; Luke Pirris (65.2/712) EXPIRED(yr4)*; Griffen Willis (58.8/643) RETURNS; Julien Moutome (62.2/623) RETURNS; Adam Klenk (70.9/274) EXPIRED(yr4)*; Kendall Whiteside (59.2/206) EXPIRED(yr4)*; Xavyer Arrington (56.0/146) RETURNS
+- LB: MarcAnthony Parker (58.0/662) RETURNS; Coleman Cauley (79.2/517) RETURNS; Job Grant (51.1/319) RETURNS; Marcus Bleazard (62.7/103) RETURNS
+- DB: Giuseppe Sessi (62.7/815) RETURNS; Phillip Hamilton (62.7/752) RETURNS; Justin Ross (57.1/466) PORTAL->Virginia; Jaxson Campbell (67.7/459) EXPIRED(yr4)*; Irabonoise Oniha (70.0/399) RETURNS; Andrew Duhart (54.8/271) EXPIRED(yr4)*; Kenneth McShan (68.6/263) EXPIRED(yr4)*; Seth English (48.3/194) RETURNS; Bryce Allen (58.4/178) RETURNS; Nick Bell (53.9/174) RETURNS; Cam Robinson (68.6/132) RETURNS

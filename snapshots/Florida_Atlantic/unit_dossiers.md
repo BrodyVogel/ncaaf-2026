@@ -72,3 +72,12 @@ Shadow proxy 2026 (audit): QB 57 | RB - | WRTE 54 | OL 44 | DL 14 | LB 5 | DB 2 
   FBS-worst. The bull case: air raid yr-2 jumps (Kittley track record) + everything stops being new.
 - Program context (attributed): NIL/funding lags the league (opposing-coach quote).
 - Evidence-cleaning: 42-3 finale w/ Q3 benching = late-season spiral on an injured QB.
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Caden Veltkamp (73.2/589) RETURNS
+- RB: Gemari Sands (76.2/130) PORTAL->Florida State; Kaden Shields-Dutton (75.8/108) RETURNS
+- WRTE: Easton Messer (75.4/518) RETURNS; Jayshon Platt (64.4/499) PORTAL->Illinois; Dominique Henry (61.2/465) RETURNS; Asaad Waseem (67.3/380) PORTAL->Purdue; Jabari Smith Jr. (61.7/135) PORTAL->Ball State; Michael Kirch (58.8/135) EXPIRED(yr4)*; Branden Hoch (65.7/103) RETURNS
+- OL: Scarlee Jean (63.9/970) EXPIRED(yr4)*; Vincent Fiacable (67.9/967) RETURNS; Ja'Kavion Nonar (56.9/876) RETURNS; Alex Atcavage (57.5/720) EXPIRED(yr4)*; Daughtry Richardson (50.1/650) PORTAL->Coastal Carolina; Okino King (62.2/465) RETURNS; Mauricio Hinds (47.3/212) RETURNS
+- DL: CJ Doggette Jr. (63.4/658) RETURNS; Gavench Marcelin (62.3/482) RETURNS; Naejaun Barber (69.3/436) EXPIRED(yr4)*; Bryce Langston (61.0/409) EXPIRED(yr4)*; Deshaun Batiste (65.6/390) RETURNS; Josh Roberts (60.7/316) RETURNS; Wilky Denaud (74.9/306) WITHDREW (override); Eric Brantley Jr. (68.2/263) PORTAL(none)-ADJUDICATE; Tyclean Luman (68.2/134) RETURNS; Enyce Sledge (47.2/112) RETURNS; Earl Miller Jr. (62.1/101) EXPIRED(yr4)*
+- LB: Leon Hart Jr. (53.3/638) RETURNS; Tyler Stolsky (64.1/540) PORTAL->West Virginia; Khmari Johnson (65.2/394) RETURNS; Zyere Horton (59.3/288) RETURNS
+- DB: Chris Keys Jr. (51.8/629) EXPIRED(yr4)*; Terez Reid (79.3/604) EXPIRED(yr4)*; Dillion Williams (59.5/586) EXPIRED(yr4)*; Jayden Sweeney (59.0/515) RETURNS; Chris Tooley III (51.2/423) RETURNS; Damarius McGhee (68.2/412) EXPIRED(yr4)*; Zion Paret (58.7/275) PORTAL->UConn; Damon Allen (59.1/252) RETURNS; Derrick Rogers (59.3/225) RETURNS; Lawrence Johnson (78.7/179) PORTAL->Florida International; Wendol Philord (72.7/169) EXPIRED(yr4)*

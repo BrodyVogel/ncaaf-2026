@@ -90,3 +90,12 @@ Shadow proxy 2026 (audit only): QB 24 | RB - | WRTE 80 | OL 31 | DL 0 | LB 2 | D
 - PS portal-starts box: added ~19 vs lost ~55 career starts - the roster got less experienced.
 - 2025 evidence-cleaning: 14.3 ppg offense w/ 3 QBs + injured starter; late-season Harrell absence
   depressed everything. Baseline percentiles already reflect a broken season.
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Grayson Loftis (58.8/277) RETURNS; Conner Harrell (72.3/115) RETURNS
+- RB: Rod Gainey Jr. (63.5/101) PORTAL->LSU
+- WRTE: Javen Nicholas (74.8/373) PORTAL->Duke; E. Jai Mason (64.7/288) EXPIRED(yr4)*; Sean Brown (78.0/229) EXPIRED(yr4)*; Miles Burris (55.6/192) PORTAL->Akron; Gus McGee (58.7/192) EXPIRED(yr4)*; Jake Young (51.2/108) PORTAL->Western Carolina
+- OL: Mo Clipper Jr. (54.8/701) PORTAL->Georgia Southern; Dallas Shirley (56.1/605) RETURNS; Mason Bowers (51.4/470) PORTAL(none)-ADJUDICATE; Jesse Ramil (65.5/426) EXPIRED(yr4)*; Tyler Gibson (53.2/377) PORTAL->UCF; Kristos Fernandez (50.3/337) EXPIRED(yr4)*; Devin Davis (59.2/257) PORTAL->South Florida; Rod Green (61.8/199) RETURNS; Drew Cunningham (64.2/163) RETURNS; Eli Samples (60.2/129) PORTAL(none)-ADJUDICATE; Jonny King (52.5/117) EXPIRED(yr4)*
+- DL: Braden Mullen (65.0/415) EXPIRED(yr4)*; Yamil Talib (79.0/374) PORTAL->Colorado; Jamarrion Solomon (61.6/353) RETURNS; Curtis Simpson (62.7/353) WITHDREW (override); Jaylon Johnson (50.6/326) RETURNS; Zion Shockley (56.9/311) EXPIRED(yr4)*; Jorel Liverpool (65.6/304) EXPIRED(yr4)*; Xavier Miles (46.3/267) PORTAL->Memphis; Cheick Kaba (41.5/252) PORTAL(none)-ADJUDICATE; Caleb Irving (54.7/249) RETURNS; Jalar Holley (56.9/241) EXPIRED(yr4)*
+- LB: Shay Taylor (61.6/589) EXPIRED(yr4)*; Kadin Schmitz (54.5/511) RETURNS; Reid Williford (57.9/503) EXPIRED(yr4)*; Gavin Willis (71.5/342) WITHDREW (override)
+- DB: CJ Clinkscales Jr. (64.3/471) RETURNS; Ja'Qurious Conley (75.4/459) EXPIRED(yr4)*; Dwight Bootle (67.5/434) PORTAL->Arizona; Randy Franklin (60.5/432) EXPIRED(yr4)*; Cary Grant (53.7/431) PORTAL->App State; Treyveon McGee (57.0/392) EXPIRED(yr4)*; Caleb Curtain (52.9/388) EXPIRED(yr4)*; Thai Baldwin (51.1/387) EXPIRED(yr4)*; Collin Gill (68.5/365) RETURNS; Gavin Shipman (58.2/311) EXPIRED(yr4)*; Derrick Edwards (62.8/231) EXPIRED(yr4)*; Dy'Lon Womack (55.0/104) RETURNS

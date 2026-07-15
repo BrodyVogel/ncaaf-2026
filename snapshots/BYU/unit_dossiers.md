@@ -74,3 +74,12 @@ Proxy (audit): QB 83 | RB 95 | WRTE 51 | OL 69 | DL 57 | LB 30 | DB 90 | ST 99.
   room) and a promoted-from-ST coordinator holding a top-25 defense together.
 - Retention verified against the feed: portal-out = 13 depth pieces; largest loss 305 snaps.
 - Schedule context only - NOT a rating input.
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Bear Bachmeier (78.9/464) RETURNS
+- RB: LJ Martin (86.3/360) RETURNS
+- WRTE: Parker Kingston (72.6/347) RETURNS; Chase Roberts (74.5/342) EXPIRED(yr4)*; Carsen Ryan (81.8/304) EXPIRED(yr4)*; Cody Hagen (55.3/196) RETURNS; Jojo Phillips (53.3/195) RETURNS; Tiger Bachmeier (56.9/102) RETURNS
+- OL: Bruce Mitchell (77.8/923) RETURNS; Isaiah Jatta (66.1/869) EXPIRED(yr4)*; Andrew Gentry (69.4/796) RETURNS; Kyle Sfarcioc (66.0/606) RETURNS; Austin Leausa (56.2/544) RETURNS; Weylin Lapuaho (62.3/475) EXPIRED(yr4)*; Sonny Makasini (72.9/423) RETURNS
+- DL: Keanu Tanuvasa (63.2/544) RETURNS; Logan Lutui (69.1/537) EXPIRED(yr4)*; John Taumoepeau (74.3/537) EXPIRED(yr4)*; Bodie Schoonover (69.6/455) RETURNS; Viliami Po'uha (63.3/362) RETURNS; Hunter Clegg (70.3/253) RETURNS; Tausili Akana (64.3/197) RETURNS; Anisi Purcell (66.2/153) RETURNS; Nusi Taumoepeau (62.8/130) RETURNS; Justin Kirkland (64.6/107) EXPIRED(yr4)*
+- LB: Isaiah Glasker (57.3/815) RETURNS; Jack Kelly (68.7/658) EXPIRED(yr4)*; Siale Esera (62.0/481) RETURNS; Ace Kaufusi (62.5/170) RETURNS; Max Alford (62.9/142) PORTAL->Michigan; Miles Hall (58.3/137) RETURNS
+- DB: Evan Johnson (82.4/824) RETURNS; Tanner Wall (81.3/739) EXPIRED(yr4)*; Faletau Satuala (81.6/617) RETURNS; Therrian Alexander III (69.6/530) RETURNS; Raider Damuni (64.6/421) RETURNS; Mory Bamba (68.4/396) EXPIRED(yr4)*; Tayvion Beasley (62.2/305) PORTAL->South Florida; Tommy Prassas (64.3/152) RETURNS; Jonathan Kabeya (46.6/152) RETURNS; Jayden Dunlap (58.8/144) EXPIRED(yr4)*
