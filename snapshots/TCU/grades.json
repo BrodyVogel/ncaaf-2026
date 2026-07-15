@@ -1,0 +1,331 @@
+{
+ "team": "TCU",
+ "units": {
+  "QB": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 55,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB 83, WRTE 72, OL 72, DL 46, LB None, DB 63, ST 45)",
+   "DL": "+12 vs proxy 46 (proxy treats Oyewale 77.5/503 as GONE - it can't see the portal withdrawal; 7 of top 8 actually return)",
+   "RB": "-31 vs proxy 83 (proxy rides Payne/Battle/Barnes tape; Barnes expired and nobody has lead-back volume)",
+   "WRTE": "-22 vs proxy 72 (proxy counts McAlister-era complementary tape; the 1,190-yd engine left)",
+   "OL": "-20 vs proxy 72 (proxy sees returning snap-mass; grade discounts 49th-pctile run blocking + unsettled interior)",
+   "QB": "None->46 (Craig has no PFF row - FCS; proxy defaults 50, grade sits just below on the level jump)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "TCU",
+   "unit": "QB",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Hoover (76.8/480; 3,472 yds, 29-13, school single-season record holder) left for Indiana - the one meaningful defection from an elite-retention roster.",
+    "Jaden Craig arrives as Harvard's all-time passing leader (6,074/52 career; 52-12 TD-INT; 2,889 at 61.5% with 25-7 in '25, 1st-team Ivy) - 'top 10 QB NFL prospect' (PS), unquestioned starter (P6), with mobility at 6'3 230.",
+    "The FCS guard bites hardest here: zero FBS snaps, P6-flagged accuracy, and a simultaneous new pro-style OC install (Sammis).",
+    "46 = fringe-below-average: ISU's Raynor earned 48 with three years of FBS tape; Craig's buzz is higher, his level is lower."
+   ],
+   "key_players": [
+    {
+     "name": "Jaden Craig",
+     "role": "QB1 transfer (Harvard/FCS)",
+     "evidence": "6,074/52 career; 1st-tm Ivy; no FBS tape"
+    },
+    {
+     "name": "Adam Schobel",
+     "role": "QB2, rFR (2027 heir framing)",
+     "evidence": "Top200 '25 recruit; PS#26"
+    }
+   ],
+   "data_gaps": [
+    "Zero FBS tape",
+    "New OC install"
+   ],
+   "g5_guard_note": "Ivy/FCS production graded with the hardest level discount in the set; NFL-prospect framing keeps it at 46 rather than lower"
+  },
+  {
+   "team": "TCU",
+   "unit": "RB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Payne (77.6; 623 at 5.7) returns off the late surge - 174 vs Cincinnati, 103 vs Houston, the four-tackle-breaking OT winner vs USC - with P6 projecting 1,000 as Sammis tilts run.",
+    "Battle (72.8; 349 at 5.5 in '24) and Denman (69.8; 178 as a true FR) give proven depth; Barnes (77.3, injured mid-year) expired.",
+    "'25 RUN was 51st pctile on a committee and nobody has carried a lead-back load (Payne 109 carries); the room is good tape without proven volume. 52 = average-plus."
+   ],
+   "key_players": [
+    {
+     "name": "Jeremy Payne",
+     "role": "RB1, returning",
+     "evidence": "PFF 77.6; 623 @ 5.7, late surge"
+    },
+    {
+     "name": "Trent Battle",
+     "role": "RB2, returning",
+     "evidence": "PFF 72.8; 349 @ 5.5 in '24"
+    }
+   ],
+   "data_gaps": [
+    "Lead-back volume unproven"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "TCU",
+   "unit": "WRTE",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The 90th-pctile RECV engine departs: McAlister (76.1; 1,190/10, 3rd-team AA, Biletnikoff semifinalist), Manjack (69.9; 579), TE Rogers (72.4; 319).",
+    "Dwyer (71.1; 730/7, 3rd-team B12) steps up as the #1; TE Pimpton (Top100 pedigree; 'exploded in spring… third-down favorite' - withdrawal override, triple-sourced) and Kaiuway (78.2/8 gm) give the pro-style install real TE material.",
+    "Behind them it's pedigree over production: former 4*s Small (186 as FR), Shelton ('6'4 spring hero'), James (ex-ND), plus Scott (S Alabama) - PS: 'less talented and exp'd… no true star yet.'",
+    "50 = average: one proven producer + TE quality + unproven youth."
+   ],
+   "key_players": [
+    {
+     "name": "Jordan Dwyer",
+     "role": "WR1, returning",
+     "evidence": "PFF 71.1; 730/7, 3rd-tm B12"
+    },
+    {
+     "name": "Ka'Morreun Pimpton",
+     "role": "TE1, returning (portal withdrawal - override)",
+     "evidence": "Top100 pedigree; Athlon May TE1"
+    },
+    {
+     "name": "Ed Small",
+     "role": "slot, returner",
+     "evidence": "PFF 63.7; 186 @ 11.6 as FR"
+    }
+   ],
+   "data_gaps": [
+    "WR2/3 production",
+    "Pimpton receiving volume (career-thin)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "TCU",
+   "unit": "OL",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Three-plus starters return: Taylor-Whitfield (66.7/895; third-year LT, 'most impressive spring lineman'), Bennett (60.4/564; year 7 via appeal), Van Hoy (13 gm), Hughes (injury return), Powers (65.4/376).",
+    "The transfer pair is quality: Buchanon (70.7/892; 2nd-team CUSA, 2 sacks over 1,600 snaps at FIU) + McKinney (66.5/390; near-4* transfer grade from OkSt) - 95 career FBS starts in the room.",
+    "PS: 'best OL in years… most size and strength of the Dykes era'; Athlon-Dykes: 'deepest of his tenure.' The counterweight: 49th-pctile run blocking and #103/#97 Run Push two straight years, with the interior arrangement unsettled (PS and Athlon print different centers).",
+    "52 = average-plus: pass-pro floor is real (78th pctile), the run-game proof isn't."
+   ],
+   "key_players": [
+    {
+     "name": "Ben Taylor-Whitfield",
+     "role": "LT, returning starter",
+     "evidence": "PFF 66.7/895; 22 st L2Y"
+    },
+    {
+     "name": "Jaheim Buchanon",
+     "role": "C/G transfer (FIU)",
+     "evidence": "PFF 70.7/892; 2nd-tm CUSA"
+    },
+    {
+     "name": "Noah McKinney",
+     "role": "G transfer (Oklahoma State)",
+     "evidence": "PFF 66.5/390; 5 st '25"
+    }
+   ],
+   "data_gaps": [
+    "Interior arrangement",
+    "Run-blocking proof"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "TCU",
+   "unit": "DL",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Seven of the top eight return from a 97th-pctile run defense (5th in B12): Oyewale (77.5/503 - best returning tape; withdrawal override, triple-sourced), Chapman (68.7/514; top-10 B12 pressures as a '24 FR), Din-Mbuh (68.7/488), Markis Deal (63.9/546; PS#26, 'poised for a breakout'), T.Johnson (68.1/307).",
+    "The only loss is Devean Deal (75.1/802; 13 st, 3.5 sk); adds are rotation-plus: Hayward (64.0/347 WKU) at STAR, Ofili (58.6/69 TTech), premium JUCOs Mickell (PS#6JC)/Cole.",
+    "P6 ('strength of the 2026 defense') and PS ('could be HC Dykes' best DL since he's been in Fort Worth') independently lead with this unit; the flaw is a 21st-pctile pass rush.",
+    "58 = solidly above average: elite run tape + returning mass, rush production unproven."
+   ],
+   "key_players": [
+    {
+     "name": "Paul Oyewale",
+     "role": "DE, returning (portal withdrawal - override)",
+     "evidence": "PFF 77.5/503; 31 tkl, 7.5 TFL"
+    },
+    {
+     "name": "Zach Chapman",
+     "role": "DE/STUD, returning",
+     "evidence": "PFF 68.7/514; top-10 B12 pressures '24"
+    },
+    {
+     "name": "Markis Deal",
+     "role": "NT, returning",
+     "evidence": "PFF 63.9/546; 20 st L2Y"
+    }
+   ],
+   "data_gaps": [
+    "Pass-rush ceiling"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "TCU",
+   "unit": "LB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Both starters are gone and they were the unit: Elarms-Orr (84.4/897; 1st-team B12, 130 tackles - #4 in P4) and Obiazor (71.5/728; 88 tackles) - 'two of the top five fastest linebackers at the NFL Combine' (P6). The 93rd-pctile TACK grade walked out with them.",
+    "Carroll (71.5/219; 'set to emerge at MLB') is the one set piece with quality small-sample tape; WLB is Short (58.0/114 at VT) vs Teason (71.2/35) vs redshirt freshmen - 'more uncertainty' (PS), 'biggest question mark' (Athlon).",
+    "PS's 'won't drop too much' is opinion against two NFL-caliber departures. 42 = below average."
+   ],
+   "key_players": [
+    {
+     "name": "Max Carroll",
+     "role": "MLB, returner (steps up)",
+     "evidence": "PFF 71.5/219; 34 tkl"
+    },
+    {
+     "name": "Michael Short",
+     "role": "WLB transfer (Virginia Tech)",
+     "evidence": "PFF 58.0/114; 22 tkl in 4 gm"
+    }
+   ],
+   "data_gaps": [
+    "WLB battle",
+    "Depth behind Carroll"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "TCU",
+   "unit": "DB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Johnson (72.7/906; 2nd-team All-B12, 96 tkl, 5 INT - 'a stud at SS' per PS) and Glover (71.0/659; 13 st) anchor the returning group; Gil Jackson (61.0/134; 6'3) is the spring-surge consensus at the other corner with Kylin Jackson (65.1/227) to nickel.",
+    "Losses are real: Clark (80.4/725; 3x All-B12), nickel Jordan (69.5/601), Canada (63.0/655) - from a unit that was already 43rd-pctile COV (#70 PDR).",
+    "Fields (72.8/775; C-USA Defensive POY, 92 tkl at LTech) fills Clark's spot; K.Carroll (74.6/722 CMU) and Parks (49.7/431 Colorado) add corner depth - 'outstanding depth, especially at corner… Stock Market rise in the PDR' (PS).",
+    "52 = average-plus: proven safety tape + depth, corner production still projection."
+   ],
+   "key_players": [
+    {
+     "name": "Jamel Johnson",
+     "role": "SS, returning",
+     "evidence": "PFF 72.7/906; 96 tkl, 5 INT, 2nd-tm B12"
+    },
+    {
+     "name": "Jacob Fields",
+     "role": "FS transfer (Louisiana Tech)",
+     "evidence": "PFF 72.8/775; C-USA Def POY"
+    },
+    {
+     "name": "Vernon Glover Jr.",
+     "role": "CB, returning starter",
+     "evidence": "PFF 71.0/659; 13 st, 7 pd"
+    }
+   ],
+   "data_gaps": [
+    "CB2 (spring-surge vs transfer tape)"
+   ],
+   "g5_guard_note": "Fields' DPOY tape is CUSA-graded; unit grade leans on the returning P4 safeties, not the import"
+  },
+  {
+   "team": "TCU",
+   "unit": "ST",
+   "grade": 55,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Both legs are verified: Lemmermann returns (PS's #2 kicker, 'NFL leg'; 15-22 with a 48-long in '24 before the '25 injury) alongside McCashland (9-12 in relief) - both kickers back.",
+    "Chance (LTech) brings elite punting volume: 66 punts, 47.3 avg, 43.3 net, 28 inside-20, long of 72; KR Everhart and PR Dwyer return.",
+    "'25 SPEC was 45th pctile (#91 STR) amid the kicker injury; PS explicitly projects a 'Stock Market climb.' 55 = above average on tape, short of elite until it shows at altitude."
+   ],
+   "key_players": [
+    {
+     "name": "Kyle Lemmermann",
+     "role": "K, returning (injury bounce-back)",
+     "evidence": "15-22 in '24; PS#2 K"
+    },
+    {
+     "name": "John Hoyet Chance",
+     "role": "P transfer (Louisiana Tech)",
+     "evidence": "47.3/43.3 net on 66 punts"
+    }
+   ],
+   "data_gaps": [
+    "Lemmermann health"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
