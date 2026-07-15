@@ -62,10 +62,22 @@ def ledger(root):
             grade = next((r[k] for k in GRADE_KEYS if r.get(k)), "?")
             nm = player_norm(r["player"])
             if nm not in outs:
-                # variant match: unique surname in outs (Drew vs Andrew Cunningham)
+                # variant match: unique surname in outs AND compatible first name
+                # (Drew vs Andrew Cunningham = same person, first name is a prefix/suffix
+                # variant). Surname alone is NOT enough: Max Carroll (LB, returns) must not
+                # match Derrick Carroll (RB, portal) - the 2026-07-15 TCU false positive.
                 toks = r["player"].split()
                 sur = player_norm(toks[-1]) if toks else nm
-                hits = [o for o in outs if o.endswith(sur) and len(sur) > 6]
+                first = player_norm(toks[0]) if toks else ""
+                hits = []
+                for o in outs:
+                    if not (o.endswith(sur) and len(sur) > 6):
+                        continue
+                    o_first = o[: len(o) - len(sur)].strip()
+                    if len(first) >= 3 and len(o_first) >= 3 and (
+                            o_first.startswith(first) or o_first.endswith(first)
+                            or first.startswith(o_first) or first.endswith(o_first)):
+                        hits.append(o)
                 if len(hits) == 1:
                     nm = hits[0]
             if nm in outs:

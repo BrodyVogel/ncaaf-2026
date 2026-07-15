@@ -1,0 +1,34 @@
+{
+ "team": "TCU",
+ "conference": "Big 12",
+ "created_utc": "2026-07-15T18:18:16+00:00",
+ "assembler_git_rev": "f055b5b",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "Craig: zero FBS tape (Harvard/FCS; no PFF row)",
+  "WLB unsettled (Short/Teason/rFr battle)",
+  "OL interior arrangement unsettled (PS vs Athlon centers differ)",
+  "New OC install (Briles -> Sammis pro-style) on top of QB change",
+  "Lemmermann injury history"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": false,
+ "portal_withdrawal_overrides": [
+  "Ka'Morreun Pimpton",
+  "Paul Oyewale"
+ ],
+ "portal_departure_confirmed": [
+  "Rohon Kazadi",
+  "Elijah Jackson",
+  "Derrick Carroll",
+  "Gekyle Baker"
+ ],
+ "adjudication_notes": {
+  "Ka'Morreun Pimpton": "portal destination None; Athlon May TE1 + PS May lineup (PS#51) + P6 'exploded in spring' -> WITHDREW, returns",
+  "Paul Oyewale": "portal destination None; Athlon May DE1 + PS May lineup DE1 + P6 'rotational veteran' -> WITHDREW, returns",
+  "others": "4 destination-None outs absent from all May prints -> GONE per standing rule"
+ }
+}

@@ -1,0 +1,15 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Ben Taylor-Whitfield,173151,T,TCU,13,100.0,1,305,66.7,72.6,63.8,5,13,496,100.0,100.0,97.6,9,21,3,895,0,0,578,895,522,522,0,313,373,4,2025_this_team
+Jaheim Buchanon,175543,G,FIU,13,100.0,0,166,70.7,75.7,68.0,5,9,468,100.0,100.0,98.3,2,15,1,892,30,860,0,892,501,501,0,2,391,0,arrival_2025_at_FIU
+Coltin Deery,162790,C,TCU,13,100.0,1,305,64.2,77.2,62.8,1,7,451,100.0,100.0,98.2,9,12,4,812,812,0,0,812,476,476,0,0,336,0,2025_this_team
+Carson Bruno,145245,G,TCU,13,100.0,0,305,64.8,74.2,59.4,1,16,434,100.0,100.0,97.6,1,19,2,780,0,0,0,780,453,453,505,275,327,0,2025_this_team
+Cade Bennett,122956,G,TCU,11,100.0,0,305,60.4,72.9,54.5,2,7,338,100.0,100.0,98.1,1,11,2,564,0,562,1,564,353,353,0,0,211,1,2025_this_team
+Remington Strickland,147014,G,TCU,13,99.6,1,305,67.8,87.4,64.1,0,0,245,99.6,99.2,100.0,3,0,0,502,110,276,1,504,258,260,107,0,244,9,2025_this_team
+Quinton Harris,157296,T,TCU,11,100.0,0,305,52.9,48.4,56.8,2,7,237,100.0,100.0,98.1,3,9,0,427,0,0,106,427,250,250,1,318,177,2,2025_this_team
+Noah McKinney,158136,G,OKLA STATE,7,100.0,0,262,66.5,84.0,59.9,0,2,217,100.0,100.0,98.6,2,4,2,390,0,0,0,390,228,228,367,23,162,0,arrival_2025_at_OKLA STATE
+Cooper Powers,173146,G,TCU,9,100.0,0,305,65.4,77.2,62.4,0,2,186,100.0,100.0,99.5,1,2,0,376,4,56,0,376,197,197,316,0,179,0,2025_this_team
+Ryan Hughes,183827,T,TCU,5,100.0,0,305,56.5,59.0,55.5,2,2,135,100.0,100.0,97.8,2,5,1,232,0,0,232,232,143,143,0,0,89,0,2025_this_team
+Witten Van Hoy,199268,T,TCU,4,100.0,0,305,86.5,77.2,84.0,0,0,6,100.0,100.0,100.0,0,0,0,25,0,0,0,25,6,6,0,22,19,3,2025_this_team
+Rasheed Jackson,172954,G,TCU,2,100.0,0,305,86.0,39.2,86.8,0,1,6,100.0,100.0,91.7,0,1,0,22,0,13,9,22,6,6,0,0,16,0,2025_this_team
+Dylan Kinney,165690,G,TCU,2,100.0,0,305,76.7,66.2,78.6,0,1,12,100.0,100.0,95.8,0,1,0,21,0,21,0,21,12,12,0,0,9,0,2025_this_team
+Gannon Gaubert,163830,C,TCU,1,100.0,0,305,60.0,,59.9,0,0,0,,,,0,0,0,3,3,0,0,3,0,0,0,0,3,0,2025_this_team
