@@ -1,0 +1,177 @@
+{
+ "team": "Florida Atlantic",
+ "units": {
+  "QB": {"grade": 55, "confidence": "M"},
+  "RB": {"grade": 40, "confidence": "M"},
+  "WRTE": {"grade": 50, "confidence": "M"},
+  "OL": {"grade": 35, "confidence": "M"},
+  "DL": {"grade": 30, "confidence": "M"},
+  "LB": {"grade": 20, "confidence": "L"},
+  "DB": {"grade": 15, "confidence": "L"},
+  "ST": {"grade": 50, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 57, RB -, WRTE 54, OL 44, DL 14, LB 5, DB 2, ST 45)",
+   "QB": "-2 (agree; grade shades down for shoulder surgery + FBS-worst INTs)",
+   "WRTE": "-4 (agree)",
+   "OL": "-9 (proxy counts Jean's 970 snaps as returning; his status is unresolved - grade excludes him)",
+   "DL": "+16 (proxy underweights that the ENTIRE rotation returns + 3 transfer adds; continuity-of-mediocrity beats decimation)",
+   "LB": "+15 (floor-pinned proxy; Hart + two 288-394-snap returners are worth something)",
+   "DB": "+13 (proxy 2 = the anchor unit frozen in place; grade credits Reid/McGhee returning + overhaul adds)",
+   "ST": "+5 (SMU kicker upgrade framing)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Florida Atlantic",
+   "unit": "QB",
+   "grade": 55,
+   "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "The starter returns in his coordinator's system: Veltkamp (PFF 73.2 on 555 dropbacks - 55th pctile as-played) confirmed back (Kittley 2025-11-30: 'the number one piece is at quarterback, and he's already coming back'); 3,648 yds, 24 TD in year 1 of the air raid.",
+    "The warts are equally documented: FBS-leading 17 INT on an FBS-worst 29-giveaway team, a Q3 benching in the 42-3 finale, and a non-throwing-shoulder injury he played through that required offseason surgery (recovery status unverified - logged gap).",
+    "Year-2-in-system + returning WR1 (Messer) is the classic air-raid jump profile (attributed: Athlon - 'Year 2 in Kittley's offense could yield further fireworks'); the 494-yd program-record game shows the ceiling.",
+    "55 = above-average: proven 3,600-yard volume production with real continuity, shaded below 60 for the turnover tail and shoulder."
+   ],
+   "key_players": [
+    {"name": "Caden Veltkamp", "role": "QB1, returning", "evidence": "3,648 yds, 24-17 2025; PFF 73.2/555; confirmed returning (Palm Beach Post 2025-11-30); shoulder surgery noted"}
+   ],
+   "data_gaps": ["Shoulder recovery status post-spring not found", "No proven backup (Devillier: 22 career dropbacks)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Florida Atlantic",
+   "unit": "RB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": ["Illinois RB 2025 (32)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "The best grade left (Sands 76.2/104 -> FSU); the named replacement is real but small-sample: Shields-Dutton (75.8 on 84 att) - 'the pivot... could produce a more reliable run game' (Athlon 2026).",
+    "2025 as-played was 50th pctile, but behind a 50.0 team run-block grade the room's true level is hard to separate from the line; depth behind Shields-Dutton is Terrell (62.3/54) + two D2 transfers (priors only).",
+    "Air raid deprioritizes the position (volume cap); 40 = below-average with one quality piece."
+   ],
+   "key_players": [
+    {"name": "Kaden Shields-Dutton", "role": "RB1 (named pivot)", "evidence": "PFF 75.8 on 84 att 2025; Athlon 2026 framing"}
+   ],
+   "data_gaps": ["84 career attempts for the lead back", "D2 adds unverifiable"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Florida Atlantic",
+   "unit": "WRTE",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "WR1 returns at volume: Messer 75.4 on 518 routes (2025) - the Kittley/WKU import who is the system's proven centerpiece; Henry (61.2/465) also returns as a bolded starter.",
+    "Losses are the middle of the room (Platt 64.4/499 to Illinois; Waseem 67.3/380 to Purdue); adds are adequate (Garcia - BG 66.9/220; chart-starter Valsin; TE AJ Johnson from Villanova).",
+    "The scheme guarantees route volume (1,862 unit routes in 2025 - as-played 52nd pctile) and the QB returns; 50 = exactly average: one proven high-volume target, replaceable pieces elsewhere."
+   ],
+   "key_players": [
+    {"name": "Easton Messer", "role": "WR1, returning starter", "evidence": "PFF 75.4 on 518 routes 2025"},
+    {"name": "RJ Garcia II", "role": "rotation add", "evidence": "PFF 66.9/220 at Bowling Green 2025"}
+   ],
+   "data_gaps": ["Valsin's origin/resume unlisted in feeds (Athlon chart only)", "TE is FCS-prior"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Florida Atlantic",
+   "unit": "OL",
+   "grade": 35,
+   "confidence": "M",
+   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "rationale_bullets": [
+    "Two bolded starters return (Fiacable 67.9/967 - the best returning grade; Nonar 56.9/876) plus experienced depth (King 62.2/465, Atcavage 57.5/720) from a 35th-pctile as-played unit that pass-protected acceptably (68.7 team PBLK) for an air raid.",
+    "The fills are speculative: LG slated for a D2 transfer (Meredith-Smith, LIU Post - Athlon), RT for a snapless Georgia Tech transfer (Galloway); and Jean's 970-snap absence is unresolved (excluded from projection - logged).",
+    "35 = bottom-third: two real pieces, scheme-fit passable, interior projection thin."
+   ],
+   "key_players": [
+    {"name": "Vincent Fiacable", "role": "RG/C, returning starter", "evidence": "PFF 67.9 on 967 snaps 2025"},
+    {"name": "Ja'Kavion Nonar", "role": "LT, returning starter", "evidence": "PFF 56.9 on 876 snaps 2025"}
+   ],
+   "data_gaps": ["Jean status unresolved", "LG/RT are D2/no-snap projections"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Florida Atlantic",
+   "unit": "DL",
+   "grade": 30,
+   "confidence": "M",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Illinois RB 2025 (32)"],
+   "rationale_bullets": [
+    "Continuity-of-mediocrity plus reinforcements: effectively the whole 2025 rotation returns (Doggette 63.4/658 - sack leader; Barber 69.3/436; Denaud 74.9/306; Batiste 65.6/390; Marcelin 62.3/482; Brantley 68.2/263) from a 15th-pctile unit that got gashed (200+ rush ypg allowed - Athlon).",
+    "Three transfer adds with modest FBS tape: Crable (Ohio 64.4/565, MAC-earned), Bax (TCU 62.6/244), Burris (SMU 65.3/50 - CFBD feed miss recovered via Athlon).",
+    "The bull case is snap-share migration to the better-graded returners (Denaud/Barber/Brantley all out-grade the 2025 volume leaders); the bear case is that this exact group produced bottom-sixth play. 30 splits it, above the proxy's decimation-priced 14."
+   ],
+   "key_players": [
+    {"name": "CJ Doggette Jr.", "role": "DT, returning starter", "evidence": "team sack leader 2025 (Athlon); PFF 63.4/658"},
+    {"name": "Wilky Denaud", "role": "DE, best returning grade", "evidence": "PFF 74.9 on 306 snaps 2025"}
+   ],
+   "data_gaps": ["Whether snap redistribution actually happens is a camp question", "Burris sample is 50 snaps"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Florida Atlantic",
+   "unit": "LB",
+   "grade": 20,
+   "confidence": "L",
+   "bracketing_exemplars": ["Florida International QB 2025 (15)", "Western Kentucky OL 2025 (25)"],
+   "rationale_bullets": [
+    "5th-pctile as-played unit whose best grade left (Stolsky 64.1/540 -> West Virginia); the returning anchor is volume-not-grade (Hart: top tackler per Athlon, PFF 53.3/638).",
+    "Returning depth is modest (K.Johnson 65.2/394, Horton 59.3/288); the portal add started 18 snaps at Kansas (Sipp - Athlon chart starter).",
+    "LB caution rule both ways; 20 = bottom-sixth: real returning volume, no evidence of quality."
+   ],
+   "key_players": [
+    {"name": "Leon Hart Jr.", "role": "LB, returning top tackler", "evidence": "PFF 53.3 on 638 snaps 2025; 'decorated returnee' (Athlon)"},
+    {"name": "Joseph Sipp Jr.", "role": "LB (Kansas)", "evidence": "18 snaps at Kansas 2025 - projection"}
+   ],
+   "data_gaps": ["Sipp has no meaningful tape", "Grade-production divergence on Hart"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Florida Atlantic",
+   "unit": "DB",
+   "grade": 15,
+   "confidence": "L",
+   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6)", "Western Kentucky OL 2025 (25)"],
+   "rationale_bullets": [
+    "This unit IS the frozen scale's 6-anchor (2025: 9 qualifying, volume leader Keys 51.8/629, best Reid 79.3/604) - and it returns most of itself from the worst-PPG defense in program history (36.3), with 8 takeaways (5th-fewest FBS).",
+    "What argues above the anchor: Reid (79.3) and McGhee (68.2/412) return, Philord (72.7/169) flashed, and the 'considerable overhaul' (Athlon) adds JK Johnson (OkSt, chart starter), D2 All-American Ware (Ferris State - feed-miss recovery, priors only), Foster (LSU), Reynolds (Illinois).",
+    "What holds it down: the overhaul's FBS tape is 244 mediocre OkSt snaps; Reid isn't bolded on the 2026 chart (role unclear - logged); and the low-grade volume (Keys, Sweeney, Tooley) returns too.",
+    "15 = above its own 6-anchor on returning quality + adds, firmly bottom-eighth."
+   ],
+   "key_players": [
+    {"name": "Terez Reid", "role": "CB, best returning grade (role unclear)", "evidence": "PFF 79.3 on 604 snaps 2025; not bolded on Athlon 2026 chart"},
+    {"name": "JK Johnson", "role": "CB (Oklahoma State)", "evidence": "PFF 58.8 on 244 snaps 2025"},
+    {"name": "Ahlston Ware", "role": "S (Ferris State)", "evidence": "D2 All-American, national champion (Athlon) - no FBS tape"}
+   ],
+   "data_gaps": ["Reid's 2026 role", "Ware D2 translation", "Why the chart benches the unit's best 2025 grade - unresolved"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Florida Atlantic",
+   "unit": "ST",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "Both specialists are new and framed as upgrades (Athlon: 'newcomers at punter and kicker could provide an upgrade'): K Rogers arrives from SMU (P4 job), P Chandley from Georgia State; 2025 K Nelms left for ODU.",
+    "2025 team SPEC was 73.1 (~45th pctile); coordinator continuity (Kittley yr 2 staff).",
+    "50 = average: credentialed newcomers, no proven FBS kicking line in hand for either at FAU."
+   ],
+   "key_players": [
+    {"name": "Collin Rogers", "role": "K (SMU)", "evidence": "held the SMU kicking job (P4) before transferring (Athlon 2026 chart)"},
+    {"name": "Reed Chandley", "role": "P (Georgia State)", "evidence": "Athlon 2026 chart starter"}
+   ],
+   "data_gaps": ["Neither specialist's exact 2025 stat line found in accessible sources (logged)"],
+   "g5_guard_note": null
+  }
+ ]
+}
