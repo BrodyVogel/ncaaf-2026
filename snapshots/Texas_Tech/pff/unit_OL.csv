@@ -1,0 +1,18 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Sheridan Wilson,157336,C,TEXAS TECH,14,100.0,0,315,66.4,90.9,62.8,1,3,505,100.0,100.0,99.6,11,4,0,962,962,0,0,962,529,529,0,0,433,0,2025_this_team
+Davion Carter,158004,G,TEXAS TECH,14,100.0,0,315,70.8,84.4,64.8,3,5,496,100.0,100.0,99.0,0,9,1,949,0,0,1,949,520,520,946,0,429,2,2025_this_team
+Jacob Ponton,184909,T,TEXAS TECH,14,99.9,0,315,69.2,66.8,73.8,6,11,496,99.8,99.8,97.1,10,23,6,941,0,0,13,942,520,521,0,926,421,3,2025_this_team
+Howard Sampson,156612,T,TEXAS TECH,14,100.0,1,315,71.8,82.3,69.7,1,9,479,100.0,100.0,98.1,15,14,4,926,0,0,925,926,502,502,0,1,424,0,2025_this_team
+Will Jados,145817,G,TEXAS TECH,14,100.0,0,315,55.6,65.9,52.7,1,12,463,100.0,100.0,97.9,5,16,3,878,0,852,25,878,484,484,0,0,394,1,2025_this_team
+Jordan Church,169904,G,LOUISVILLE,13,100.0,1,210,65.1,50.0,69.1,2,9,269,100.0,100.0,97.6,2,12,1,514,0,2,0,514,287,287,508,0,227,0,arrival_2025_at_LOUISVILLE
+Cash Cleveland,190781,G,TEXAS TECH,5,100.0,0,315,56.7,69.0,52.5,0,2,72,100.0,100.0,98.6,1,2,0,158,43,101,0,158,79,79,14,0,79,0,2025_this_team
+D'Anthis Upshaw Jr.,191358,T,TEXAS TECH,8,100.0,0,315,66.6,59.7,65.7,0,1,39,100.0,100.0,98.7,0,1,0,124,0,0,103,124,44,44,0,9,80,10,2025_this_team
+Daniel Sill,173648,T,TEXAS TECH,7,100.0,0,315,72.3,55.4,73.1,0,1,34,100.0,100.0,98.5,1,1,0,114,0,6,0,114,38,38,24,83,76,0,2025_this_team
+Vinny Sciury,130632,G,TEXAS TECH,7,100.0,0,315,48.3,51.5,46.1,1,0,34,100.0,100.0,98.5,0,1,0,108,0,106,0,108,38,38,0,0,70,2,2025_this_team
+Patrick McMath,199307,C,TEXAS TECH,4,100.0,0,315,54.3,54.1,54.8,1,0,25,100.0,100.0,98.0,0,1,0,69,69,0,0,69,27,27,0,0,42,0,2025_this_team
+Hunter Zambrano,138220,T,TEXAS TECH,2,100.0,0,315,62.8,58.3,62.7,0,0,29,100.0,100.0,100.0,0,0,0,57,0,0,0,57,29,29,0,56,28,1,2025_this_team
+Holton Hendrix,184900,G,TEXAS TECH,3,100.0,0,315,66.1,71.4,64.8,0,0,13,100.0,100.0,100.0,0,0,0,49,0,0,0,49,16,16,49,0,33,0,2025_this_team
+Connor Carty,199312,G,TEXAS TECH,4,100.0,0,315,53.8,71.4,50.3,0,1,14,100.0,100.0,96.4,0,1,0,44,0,0,0,44,16,16,44,0,28,0,2025_this_team
+Elias Gillen,204352,T,TEXAS TECH,1,100.0,0,315,71.6,73.9,70.8,0,0,4,100.0,100.0,100.0,0,0,0,10,0,0,10,10,5,5,0,0,5,0,2025_this_team
+Danilo Guberinich,204355,G,TEXAS TECH,1,100.0,0,315,59.5,73.9,58.3,0,0,4,100.0,100.0,100.0,0,0,0,9,0,9,0,9,5,5,0,0,4,0,2025_this_team
+Jurrien Loftin,157331,T,TEXAS TECH,2,100.0,0,315,60.0,,60.0,0,0,0,,,,0,0,0,5,2,3,0,5,0,0,0,0,5,0,2025_this_team

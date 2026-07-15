@@ -1,0 +1,32 @@
+{
+ "team": "Texas Tech",
+ "conference": "Big 12",
+ "created_utc": "2026-07-15T18:33:19+00:00",
+ "assembler_git_rev": "a88d400",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "Hammond ACL timeline (mid-August 'just in time' per P6)",
+  "DL reload = G5-heavy tape vs four drafted starters",
+  "WR top-line production all-new (Eakin the lone returning starter)",
+  "Guard pair re-forming (Church/Zambrano)",
+  "Proxy QB contaminated by Sorsby arrival tape (career over - never plays)"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": false,
+ "portal_withdrawal_overrides": [],
+ "portal_departure_confirmed": [
+  "Justin Horne",
+  "Kelby Valsin",
+  "Roy Alexander"
+ ],
+ "player_status_notes": {
+  "Brendan Sorsby": "arrival on feed but college career ENDED June 2026 (legal battle; P6 post-press) - NOT a rating input; cross-team flag from Cincinnati build verified and closed",
+  "Jacob Hand": "portal round-trip (destination = Texas Tech) - returns as K depth, no override needed"
+ },
+ "adjudication_notes": {
+  "others": "Horne/Valsin/Alexander destination-None, absent from all May prints -> GONE per standing rule"
+ }
+}

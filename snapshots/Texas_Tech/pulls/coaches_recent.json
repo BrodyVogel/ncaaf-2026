@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Joey",
+  "lastName": "McGuire",
+  "hireDate": "2021-11-08T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Texas Tech",
+    "year": 2024,
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 3.9,
+    "spOverall": 4.3,
+    "spOffense": 33.5,
+    "spDefense": 30.8
+   }
+  ]
+ },
+ {
+  "firstName": "Joey",
+  "lastName": "McGuire",
+  "hireDate": "2021-11-08T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Texas Tech",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 22.3,
+    "spOverall": 27.6,
+    "spOffense": 39.3,
+    "spDefense": 12.3
+   }
+  ]
+ }
+]
