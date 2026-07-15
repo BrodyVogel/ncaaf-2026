@@ -1,14 +1,38 @@
 {
  "team": "UAB",
  "units": {
-  "QB": {"grade": 42, "confidence": "M"},
-  "RB": {"grade": 45, "confidence": "M"},
-  "WRTE": {"grade": 38, "confidence": "M"},
-  "OL": {"grade": 45, "confidence": "M"},
-  "DL": {"grade": 28, "confidence": "M"},
-  "LB": {"grade": 25, "confidence": "L"},
-  "DB": {"grade": 15, "confidence": "L"},
-  "ST": {"grade": 55, "confidence": "M"}
+  "QB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 38,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 45,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 31,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 25,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 15,
+   "confidence": "L"
+  },
+  "ST": {
+   "grade": 55,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-15",
@@ -23,88 +47,236 @@
    "DL": "+15 (Grantham middle rebuild + Tate return over pure floor)",
    "DB": "+10 (nine adds + Grantham over frozen floor)",
    "ST": "+54 (proxy artifact: misses Delange's verified return - 31-38 career FG)"
-  }
+  },
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +McReynolds RB 87.6/124 (ULM), +Dean DL 65.1/414, +Nelson DL 67.0/60 (GaSt). RB 45->48, DL 28->31."
  },
  "grades_detail": [
-  {"team": "UAB", "unit": "QB", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+  {
+   "team": "UAB",
+   "unit": "QB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "Burton (year-2) gets the clear runway after two flash starts - the Memphis upset (251/3) and Rice (213/2) - with a 72.2 PFF on 118 dropbacks; Athlon projects 'a huge leap.'",
     "Kitna's 64.6/362 volume is gone; no proven backup named.",
     "42 = below-average: small-sample promise with a first-full-season staff, above the open-battle rooms, below proven returners."
    ],
-   "key_players": [{"name": "Ryder Burton", "role": "QB1, first year as clear-cut starter", "evidence": "2 starts 2025 (Memphis upset 251/3); PFF 72.2/118 (Athlon)"}],
-   "data_gaps": ["118 career dropbacks", "backup unnamed"],
-   "g5_guard_note": null},
-  {"team": "UAB", "unit": "RB", "grade": 45, "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
-   "rationale_bullets": [
-    "'Loaded backfield' (Athlon) built in the portal: Robinson II (Georgia pedigree power back, injury-slowed), Simpkins (Coastal, 68.3/123) + McReynolds (ULM) - the latter two combined 1,228 yds/5 TD in 2025.",
-    "Jackson (81.0/167) presumed expired; the imports replace him with quantity + pedigree.",
-    "45 = fringe-below-average: no proven lead, three credible options."
+   "key_players": [
+    {
+     "name": "Ryder Burton",
+     "role": "QB1, first year as clear-cut starter",
+     "evidence": "2 starts 2025 (Memphis upset 251/3); PFF 72.2/118 (Athlon)"
+    }
    ],
-   "key_players": [{"name": "Rod Robinson II", "role": "RB (Georgia)", "evidence": "6-1 235; 'great power runner if healthy' (Athlon)"}],
-   "data_gaps": ["Robinson health history", "Committee order"],
-   "g5_guard_note": null},
-  {"team": "UAB", "unit": "WRTE", "grade": 38, "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "data_gaps": [
+    "118 career dropbacks",
+    "backup unnamed"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UAB",
+   "unit": "RB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "'Loaded backfield' (Athlon) built in the portal: McReynolds (ULM) now has verified tape - PFF 87.6 on 124 att (repair add) - alongside Simpkins (Coastal, 68.3/123); the two combined 1,228 yds/5 TD in 2025. Robinson II (Georgia pedigree, injury-slowed) is the power option.",
+    "Jackson (81.0/167) presumed expired; the imports replace him with quantity AND now one verified high-grade lead.",
+    "48 = fringe-average: an 87.6-graded G5 lead + two credible options; one notch under Tulsa's RB room (same shape, stronger corroboration there)."
+   ],
+   "key_players": [
+    {
+     "name": "Rod Robinson II",
+     "role": "RB (Georgia)",
+     "evidence": "6-1 235; 'great power runner if healthy' (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "Robinson health history",
+    "Committee order"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UAB",
+   "unit": "WRTE",
+   "grade": 38,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "The best 2025 player was poached by Oregon (Hooks 82.3/356); the remaining case is K.Brown (65.9/99) IF his spring ankle allows ('depth could be dicey if [he] can't come back' - Athlon) + TE Ferguson's breakout framing.",
     "Adds are P4-depth (Reid-Wake, Daniels-OU, Smith-Memphis).",
     "38 = bottom-third with an explicit injury contingency."
    ],
-   "key_players": [{"name": "Kaleb Brown", "role": "WR1 if healthy", "evidence": "spring ankle injury; PFF 65.9/99 (Athlon)"}, {"name": "Antonio Ferguson", "role": "TE, breakout framing", "evidence": "'poised for a breakout season' (Athlon)"}],
-   "data_gaps": ["Brown ankle status", "No returning 300-route producer"],
-   "g5_guard_note": null},
-  {"team": "UAB", "unit": "OL", "grade": 45, "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "key_players": [
+    {
+     "name": "Kaleb Brown",
+     "role": "WR1 if healthy",
+     "evidence": "spring ankle injury; PFF 65.9/99 (Athlon)"
+    },
+    {
+     "name": "Antonio Ferguson",
+     "role": "TE, breakout framing",
+     "evidence": "'poised for a breakout season' (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "Brown ankle status",
+    "No returning 300-route producer"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UAB",
+   "unit": "OL",
+   "grade": 45,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "Two leaders return (Lepkowski 69.9/873, Perez 62.4/548 - Athlon-named) from a 62nd-pctile unit, but two starters were poached upward (Sneh 70.6/795 to MissSt, Moore 65.0/650 to Baylor) - the proxy's 74 counts them and is a verified artifact.",
     "'Depth should be a strength' (Athlon) with Walker (70.0/163), Franks, and P4-adjacent adds (Cox-Oregon State, Young-WVU).",
     "45 = fringe-below-average: real returning core, half the line to rebuild."
    ],
-   "key_players": [{"name": "Adam Lepkowski", "role": "C, returning leader", "evidence": "PFF 69.9 on 873 snaps 2025"}],
-   "data_gaps": ["RT/LT replacements unsettled"],
-   "g5_guard_note": null},
-  {"team": "UAB", "unit": "DL", "grade": 28, "confidence": "M",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Illinois RB 2025 (32)"],
+   "key_players": [
+    {
+     "name": "Adam Lepkowski",
+     "role": "C, returning leader",
+     "evidence": "PFF 69.9 on 873 snaps 2025"
+    }
+   ],
+   "data_gaps": [
+    "RT/LT replacements unsettled"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UAB",
+   "unit": "DL",
+   "grade": 31,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25)",
+    "Illinois RB 2025 (32)"
+   ],
    "rationale_bullets": [
     "5th-pctile as-played in 2025; Grantham's middle rebuild imports Cunningham (YSU) + Spencer (ODU) around Tate's return from a fall-camp Achilles (330 lbs, was slated to anchor).",
-    "Edges are a 4th-team Georgia-origin veteran (Dean) and a 'twitchy... undersized' FCS riser (Gold); returning rotation graded 60-65.",
-    "28 = bottom-third: real bodies, unproven middle, health-dependent anchor."
+    "Edge adds now carry verified tape (repair): Dean 65.1 on 414 snaps + Nelson 67.0/60 at Georgia State - starter-level SBC production, not just pedigree - plus the 'twitchy... undersized' FCS riser Gold; returning rotation graded 60-65.",
+    "31 = bottom-third: real bodies with some verified edge tape, unproven middle, health-dependent anchor."
    ],
-   "key_players": [{"name": "Nigel Tate", "role": "DT, Achilles return", "evidence": "330 lbs; tore Achilles fall camp 2025 (Athlon)"}, {"name": "Marlin Dean", "role": "EDGE", "evidence": "6-5 240; 4th college team (Athlon)"}],
-   "data_gaps": ["Tate health", "FCS/G5 add translation"],
-   "g5_guard_note": null},
-  {"team": "UAB", "unit": "LB", "grade": 25, "confidence": "L",
-   "bracketing_exemplars": ["Florida International QB 2025 (15)", "Illinois RB 2025 (32)"],
+   "key_players": [
+    {
+     "name": "Nigel Tate",
+     "role": "DT, Achilles return",
+     "evidence": "330 lbs; tore Achilles fall camp 2025 (Athlon)"
+    },
+    {
+     "name": "Marlin Dean",
+     "role": "EDGE",
+     "evidence": "6-5 240; 4th college team (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "Tate health",
+    "FCS/G5 add translation"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UAB",
+   "unit": "LB",
+   "grade": 25,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15)",
+    "Illinois RB 2025 (32)"
+   ],
    "rationale_bullets": [
     "The best 2025 LB left for a conference rival (Hightower 70.0/652 to Tulsa); the new middle is Byard (MTSU 55.2/321) + Esonwune (OkSt 55.5/338) - whose Grantham-system familiarity is the attributed selling point (31 tkl in it).",
     "Returning depth (Pitcher 60.1/307, Toussom 69.2/284) is modest; as-played was 11th pctile.",
     "LB caution; 25 = bottom-quarter."
    ],
-   "key_players": [{"name": "Ike Esonwune", "role": "ILB (OkSt, Grantham system)", "evidence": "31 tkl 2025; PFF 55.5/338 (Athlon)"}],
-   "data_gaps": ["Neither import graded above 56"],
-   "g5_guard_note": null},
-  {"team": "UAB", "unit": "DB", "grade": 15, "confidence": "L",
-   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6)", "Western Kentucky OL 2025 (25)"],
+   "key_players": [
+    {
+     "name": "Ike Esonwune",
+     "role": "ILB (OkSt, Grantham system)",
+     "evidence": "31 tkl 2025; PFF 55.5/338 (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "Neither import graded above 56"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UAB",
+   "unit": "DB",
+   "grade": 15,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6)",
+    "Western Kentucky OL 2025 (25)"
+   ],
    "rationale_bullets": [
     "The floor case: 2025 as-played was 0th percentile (team coverage grade 38.9 - the worst in this batch), and the rebuild is total: NINE DB adds around yr-2 returner Gulley (59.9/396, 'up-and-down' - Athlon).",
     "The imports have real names (Sweeting - Marshall, 'could be the best coverage cornerback'; Jordan - Memphis 66.6/369; Pierce - OkSt; Pratt - SMU; Wokomah - Baylor) and Grantham's DB pedigree is the mitigant.",
     "15 = above the FAU-6 anchor because the imports are credible; deep bottom-eighth because nothing is proven together."
    ],
-   "key_players": [{"name": "Darrell Sweeting", "role": "CB (Marshall)", "evidence": "'could be the best coverage cornerback' (Athlon)"}, {"name": "Jeremiah Jordan", "role": "S (Memphis)", "evidence": "PFF 66.6 on 369 snaps 2025"}],
-   "data_gaps": ["Nine-way rebuild cohesion unknowable"],
-   "g5_guard_note": null},
-  {"team": "UAB", "unit": "ST", "grade": 55, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "key_players": [
+    {
+     "name": "Darrell Sweeting",
+     "role": "CB (Marshall)",
+     "evidence": "'could be the best coverage cornerback' (Athlon)"
+    },
+    {
+     "name": "Jeremiah Jordan",
+     "role": "S (Memphis)",
+     "evidence": "PFF 66.6 on 369 snaps 2025"
+    }
+   ],
+   "data_gaps": [
+    "Nine-way rebuild cohesion unknowable"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UAB",
+   "unit": "ST",
+   "grade": 55,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "The proven piece the proxy can't see (its 1 is a documented artifact): K Delange returns with a 31-of-38 career FG line and ALL 60 XP over two seasons as the starter (Athlon).",
     "KO specialist Simpson also returns; punter unnamed (gap).",
     "55 = above average on kicker quality alone; the punter hole caps it."
    ],
-   "key_players": [{"name": "Jonah Delange", "role": "K, returning 2-yr starter", "evidence": "31-38 FG, 60-60 XP career (Athlon)"}],
-   "data_gaps": ["Punter unnamed"],
-   "g5_guard_note": null}
+   "key_players": [
+    {
+     "name": "Jonah Delange",
+     "role": "K, returning 2-yr starter",
+     "evidence": "31-38 FG, 60-60 XP career (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "Punter unnamed"
+   ],
+   "g5_guard_note": null
+  }
  ]
 }

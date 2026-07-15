@@ -46,7 +46,8 @@
    "OL": "-19 vs proxy 77 (proxy counts graduated seniors Decambra/Maae/Buchanan as returning - yr-4-no-portal artifact)",
    "DB": "-18 vs proxy 64 (proxy counts bodies; 4 drafted + 1 UDFA + 2 expired = 6,700 snaps invisible to it)",
    "RB": "+13 vs proxy 42 (proxy over-weights Mahdi exit; Reescano 83.0-run-grade return is the quality)"
-  }
+  },
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Bootle DB 67.5/434 (Charlotte) - a 9th transfer DB with real CUSA tape; DB 46 unchanged (grade already priced an 8-body volume reload; cohesion/P4-level starter quality remain the cap, not body count)."
  },
  "grades_detail": [
   {

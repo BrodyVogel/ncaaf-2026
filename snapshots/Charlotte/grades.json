@@ -1,14 +1,38 @@
 {
  "team": "Charlotte",
  "units": {
-  "QB": {"grade": 38, "confidence": "L"},
-  "RB": {"grade": 35, "confidence": "M"},
-  "WRTE": {"grade": 44, "confidence": "M"},
-  "OL": {"grade": 18, "confidence": "L"},
-  "DL": {"grade": 14, "confidence": "L"},
-  "LB": {"grade": 30, "confidence": "L"},
-  "DB": {"grade": 20, "confidence": "L"},
-  "ST": {"grade": 22, "confidence": "L"}
+  "QB": {
+   "grade": 38,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 35,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 18,
+   "confidence": "L"
+  },
+  "DL": {
+   "grade": 14,
+   "confidence": "L"
+  },
+  "LB": {
+   "grade": 30,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 20,
+   "confidence": "L"
+  },
+  "ST": {
+   "grade": 22,
+   "confidence": "L"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-15",
@@ -24,7 +48,8 @@
    "DL": "+14 (proxy 0 is floor-pinned; grade credits Solomon/Simpson returning volume + healthy-Burgess upside)",
    "LB": "+28 (LB caution: proxy can't see Willis's extra year (71.5 grade) or JUCO adds)",
    "ST": "+18 (proxy misses returning P + retained STC; K crisis still prices the unit low)"
-  }
+  },
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Wadle WRTE/TE 48.6/112 (GaSt) - below-average tape for a third TE; 44 unchanged."
  },
  "grades_detail": [
   {
@@ -32,7 +57,10 @@
    "unit": "QB",
    "grade": 38,
    "confidence": "L",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "Three-way battle with genuinely different profiles: Gonzales (WCU career 20 st, 6,682 yds, 63%, 52-23 - #3 all-time at WCU; took majority of spring snaps, 'did a great job' - Albin 2026-07-08), Harrell (best 2025 grade: PFF 72.3/106, 737 yds at 67% before wk-4 ACL; rehab 'on schedule'), Loftis (1,415 yds, 55%, 8-8 - turnover-benched).",
     "The favorite is an elite FCS producer with a two-level discount and 22 FBS dropbacks; the insurance is a 67%-completion returner coming off ACL; the floor is a below-average proven FBS starter. That's a real distribution, not a void.",
@@ -40,10 +68,21 @@
     "38 = below-average with upside skew: above Illinois-RB-32, below the UNLV-LB-40 anchor; capped by the FCS translation + ACL variables (confidence L)."
    ],
    "key_players": [
-    {"name": "Cole Gonzales", "role": "QB1 favorite (both magazines + spring)", "evidence": "6,682 (63%, 52-23) at WCU; majority spring snaps (Albin, Post 2026-07-08)"},
-    {"name": "Conner Harrell", "role": "challenger, ACL rehab", "evidence": "PFF 72.3/106, 737 yds 67% 2025 pre-injury; 'right on schedule' (Albin, Niner Times 2026-03-27)"}
+    {
+     "name": "Cole Gonzales",
+     "role": "QB1 favorite (both magazines + spring)",
+     "evidence": "6,682 (63%, 52-23) at WCU; majority spring snaps (Albin, Post 2026-07-08)"
+    },
+    {
+     "name": "Conner Harrell",
+     "role": "challenger, ACL rehab",
+     "evidence": "PFF 72.3/106, 737 yds 67% 2025 pre-injury; 'right on schedule' (Albin, Niner Times 2026-03-27)"
+    }
    ],
-   "data_gaps": ["Harrell ACL readiness for camp unknown", "Gonzales has 22 career FBS dropbacks"],
+   "data_gaps": [
+    "Harrell ACL readiness for camp unknown",
+    "Gonzales has 22 career FBS dropbacks"
+   ],
    "g5_guard_note": null
   },
   {
@@ -51,7 +90,10 @@
    "unit": "RB",
    "grade": 35,
    "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "Five-man committee with no proven FBS lead (Albin: 'four guys who could be the starter'): Rutledge (356 at 7.4 in 2025 + Grambling 878 past + KR value), C.Williams (Grambling 1,181 (5.4), then 102 yds at Cincy), Cobb, Alexander (AppSt), Perteet (Coastal, no 2025 volume - verified).",
     "The best 2025 grade left (Gainey 63.5/74 -> LSU); 2025 as-played was 17th pctile behind a broken OL.",
@@ -59,10 +101,21 @@
     "35 = bottom-third: slightly above the Illinois-RB-32 anchor sketch on depth, below 40 on proof."
    ],
    "key_players": [
-    {"name": "Henry Rutledge", "role": "committee lead / KR", "evidence": "356 yds (7.4) 2025; 878 (5.9) at Grambling 2023; 25.2 KR avg (PS)"},
-    {"name": "Chance Williams", "role": "PS projected starter", "evidence": "7 st, 1,181 (5.4) 2Y at Grambling; 102 yds at Cincinnati 2025"}
+    {
+     "name": "Henry Rutledge",
+     "role": "committee lead / KR",
+     "evidence": "356 yds (7.4) 2025; 878 (5.9) at Grambling 2023; 25.2 KR avg (PS)"
+    },
+    {
+     "name": "Chance Williams",
+     "role": "PS projected starter",
+     "evidence": "7 st, 1,181 (5.4) 2Y at Grambling; 102 yds at Cincinnati 2025"
+    }
    ],
-   "data_gaps": ["Lead back unresolved", "All resumes are FCS or low-volume FBS"],
+   "data_gaps": [
+    "Lead back unresolved",
+    "All resumes are FCS or low-volume FBS"
+   ],
    "g5_guard_note": null
   },
   {
@@ -70,7 +123,10 @@
    "unit": "WRTE",
    "grade": 44,
    "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "The one functional 2025 unit (as-played 60th pctile) - but its two best grades left (S.Brown 78.0/229; Nicholas 74.8/373 -> Duke) plus McGowan (-> Baylor) and Burris.",
     "The replacement math is credible: Barnes (AppSt - SBC): 8 st, 608 (11.1), PFF 72.0 on 303 routes - a proven G5 producer; Collick (Bryant: 479 at 19.1) and Pedro (SEMO: 1,771 over 2Y) add FCS juice; Eley (71.6/55) is the returning riser (Albin via PS: 'most improved unit... light years ahead' - attributed coach-speak, weighted lightly).",
@@ -78,10 +134,21 @@
     "44 = fringe-below-average: proxy's 80 is rejected (it can't see the departures' quality), but Barnes + speed + last year's functionality keep this the roster's best offensive unit. QB uncertainty caps it."
    ],
    "key_players": [
-    {"name": "Jaden Barnes", "role": "WR1 (slot)", "evidence": "PFF 72.0/303 routes, 608 yds at App State 2025"},
-    {"name": "Derrick Eley", "role": "emerged WR (Albin via PS)", "evidence": "5 catches, 97 yds (19.4), PFF 71.6/55 2025; 'top WR' per HC"}
+    {
+     "name": "Jaden Barnes",
+     "role": "WR1 (slot)",
+     "evidence": "PFF 72.0/303 routes, 608 yds at App State 2025"
+    },
+    {
+     "name": "Derrick Eley",
+     "role": "emerged WR (Albin via PS)",
+     "evidence": "5 catches, 97 yds (19.4), PFF 71.6/55 2025; 'top WR' per HC"
+    }
    ],
-   "data_gaps": ["Post-Barnes pecking order unset", "Pedro/Collick FCS translation unproven"],
+   "data_gaps": [
+    "Post-Barnes pecking order unset",
+    "Pedro/Collick FCS translation unproven"
+   ],
    "g5_guard_note": null
   },
   {
@@ -89,7 +156,10 @@
    "unit": "OL",
    "grade": 18,
    "confidence": "L",
-   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6)", "Western Kentucky OL 2025 (25)"],
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6)",
+    "Western Kentucky OL 2025 (25)"
+   ],
    "rationale_bullets": [
     "Second consecutive full rebuild: 2025's line (as-played 25th pctile, team PBLK 52.7 - near-worst) loses another six bodies (Clipper -> GaSouthern, Gibson -> UCF, Davis -> USF, Bowers, Samples, Cunningham); Fernandez (50.3 on 337 snaps) is the only returning starter and the weakest-graded projected 2026 starter... and still likely the RT.",
     "The 2026 five is a bet-collection: PSU ex-4-star J.Williams (2 career snaps), Maine's Cruji (36 FCS starts - the most proven), Wyoming's Sandy (3 career starts), JUCO Pierre-Nau (PS JC #82; absent from the CFBD feed - recovered via magazines), Fernandez.",
@@ -97,11 +167,26 @@
     "18 = bottom-sixth: above the FAU-DB-6 anchor (a functioning-but-bad unit), well below the WKU-OL-25 sketch (which had seven qualifying FBS bodies)."
    ],
    "key_players": [
-    {"name": "Nic Cruji", "role": "C (Maine)", "evidence": "36 career FCS starts - the unit's most proven piece"},
-    {"name": "J'ven Williams", "role": "LT (Penn State)", "evidence": "former 4-star; 2 career snaps - pedigree-only projection"},
-    {"name": "Kristos Fernandez", "role": "RT, lone returning starter", "evidence": "PFF 50.3 on 337 snaps 2025 (7 starts)"}
+    {
+     "name": "Nic Cruji",
+     "role": "C (Maine)",
+     "evidence": "36 career FCS starts - the unit's most proven piece"
+    },
+    {
+     "name": "J'ven Williams",
+     "role": "LT (Penn State)",
+     "evidence": "former 4-star; 2 career snaps - pedigree-only projection"
+    },
+    {
+     "name": "Kristos Fernandez",
+     "role": "RT, lone returning starter",
+     "evidence": "PFF 50.3 on 337 snaps 2025 (7 starts)"
+    }
    ],
-   "data_gaps": ["Zero cohesion evidence possible", "Pierre-Nau JUCO tape unavailable in accessible sources"],
+   "data_gaps": [
+    "Zero cohesion evidence possible",
+    "Pierre-Nau JUCO tape unavailable in accessible sources"
+   ],
    "g5_guard_note": null
   },
   {
@@ -109,7 +194,10 @@
    "unit": "DL",
    "grade": 14,
    "confidence": "L",
-   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6)", "Florida International QB 2025 (15)"],
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6)",
+    "Florida International QB 2025 (15)"
+   ],
    "rationale_bullets": [
     "2025 as-played was 2nd pctile nationally - and the one good grade (Talib 79.0/374) departed, along with Mullen (65.0/415), Liverpool (65.6/304), and X.Miles (to Memphis); Taz Williams is already ruled out for 2026 (Post 2026-07-08).",
     "What returns is below-average volume: Solomon (61.6/353), Simpson (62.7/353 - pulled out of the portal), J.Johnson (50.6/326), Irving (54.7/249).",
@@ -117,10 +205,21 @@
     "14 = bottom-decile: above FAU-DB-6 on returning volume, at the FIU-QB-15 line because a healthy Burgess is a real if fragile upgrade path. Proxy 0 is directionally aligned."
    ],
    "key_players": [
-    {"name": "DJ Burgess", "role": "DE, swing variable", "evidence": "91 tkl, 16.5 TFL over 2 JUCO years; OFY 2025 after 1 start; surgery recovery (Post 2026-07-08)"},
-    {"name": "Jamarrion Solomon", "role": "DT, returning starter", "evidence": "PFF 61.6/353, 29 tkl 2025"}
+    {
+     "name": "DJ Burgess",
+     "role": "DE, swing variable",
+     "evidence": "91 tkl, 16.5 TFL over 2 JUCO years; OFY 2025 after 1 start; surgery recovery (Post 2026-07-08)"
+    },
+    {
+     "name": "Jamarrion Solomon",
+     "role": "DT, returning starter",
+     "evidence": "PFF 61.6/353, 29 tkl 2025"
+    }
    ],
-   "data_gaps": ["Burgess health", "Interior two-deep beyond Solomon is D2/FCS/freshman projection"],
+   "data_gaps": [
+    "Burgess health",
+    "Interior two-deep beyond Solomon is D2/FCS/freshman projection"
+   ],
    "g5_guard_note": null
   },
   {
@@ -128,7 +227,10 @@
    "unit": "LB",
    "grade": 30,
    "confidence": "L",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Illinois RB 2025 (32)"],
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25)",
+    "Illinois RB 2025 (32)"
+   ],
    "rationale_bullets": [
     "The least-broken defensive unit: both projected starters return - Willis (extra eligibility year GRANTED - Post 2026-07-08; PFF 71.5/342 = best returning defensive grade; 198 tkl over 2Y at Bucknell before) and Schmitz (11 st, 66 tkl; 54.5/511; followed Albin from Ohio).",
     "JUCO add Wall (109 tkl, 20.5 TFL over 2Y) + spring-standout Bowman (Post) give actual depth; departed Taylor/Williford graded 57-62 - replaceable.",
@@ -136,10 +238,21 @@
     "30 = bottom-third but clearly above the room's 2025 percentile: two returning starters, one good grade, real depth adds."
    ],
    "key_players": [
-    {"name": "Gavin Willis", "role": "ILB, extra-year returner", "evidence": "PFF 71.5 on 342 snaps 2025; 54 tkl; 198 tkl over 2Y at Bucknell (PS)"},
-    {"name": "Kadin Schmitz", "role": "WLB, returning starter", "evidence": "11 st, 66 tkl 2025; PFF 54.5/511"}
+    {
+     "name": "Gavin Willis",
+     "role": "ILB, extra-year returner",
+     "evidence": "PFF 71.5 on 342 snaps 2025; 54 tkl; 198 tkl over 2Y at Bucknell (PS)"
+    },
+    {
+     "name": "Kadin Schmitz",
+     "role": "WLB, returning starter",
+     "evidence": "11 st, 66 tkl 2025; PFF 54.5/511"
+    }
    ],
-   "data_gaps": ["Willis's grade is on 342 snaps (part-time role)", "Wall's JUCO production unverified beyond PS line"],
+   "data_gaps": [
+    "Willis's grade is on 342 snaps (part-time role)",
+    "Wall's JUCO production unverified beyond PS line"
+   ],
    "g5_guard_note": null
   },
   {
@@ -147,7 +260,10 @@
    "unit": "DB",
    "grade": 20,
    "confidence": "L",
-   "bracketing_exemplars": ["Florida International QB 2025 (15)", "Western Kentucky OL 2025 (25)"],
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15)",
+    "Western Kentucky OL 2025 (25)"
+   ],
    "rationale_bullets": [
     "Poached and patched: best DB Conley (75.4/459) and CB Bootle (67.5/434 -> Arizona) lead EIGHT departures from a unit that was already 7th pctile as-played.",
     "Three usable returners: Clinkscales (12 st, 64.3/471 - post-shoulder surgery), Gill (HUSKY, 68.5/365), Womack ('should be one of the top guys' - PS; 10 gm).",
@@ -155,11 +271,26 @@
     "20 = bottom-sixth: three real pieces above the FIU-15 line; nothing arguing average."
    ],
    "key_players": [
-    {"name": "CJ Clinkscales Jr.", "role": "CB1, returning starter", "evidence": "12 st, 48 tkl 2025; PFF 64.3/471; shoulder surgery rehab (Post 2026-07-08)"},
-    {"name": "Collin Gill", "role": "HUSKY, returner", "evidence": "PFF 68.5 on 365 snaps 2025"},
-    {"name": "Dy'Lon Womack", "role": "S, riser", "evidence": "10 gm 2025; 'should be one of the top guys' (PS 2026)"}
+    {
+     "name": "CJ Clinkscales Jr.",
+     "role": "CB1, returning starter",
+     "evidence": "12 st, 48 tkl 2025; PFF 64.3/471; shoulder surgery rehab (Post 2026-07-08)"
+    },
+    {
+     "name": "Collin Gill",
+     "role": "HUSKY, returner",
+     "evidence": "PFF 68.5 on 365 snaps 2025"
+    },
+    {
+     "name": "Dy'Lon Womack",
+     "role": "S, riser",
+     "evidence": "10 gm 2025; 'should be one of the top guys' (PS 2026)"
+    }
    ],
-   "data_gaps": ["CB2 = JUCO projection (T.Smith)", "Clinkscales shoulder status for camp"],
+   "data_gaps": [
+    "CB2 = JUCO projection (T.Smith)",
+    "Clinkscales shoulder status for camp"
+   ],
    "g5_guard_note": null
   },
   {
@@ -167,7 +298,10 @@
    "unit": "ST",
    "grade": 22,
    "confidence": "L",
-   "bracketing_exemplars": ["Florida International QB 2025 (15)", "Western Kentucky OL 2025 (25)"],
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15)",
+    "Western Kentucky OL 2025 (25)"
+   ],
    "rationale_bullets": [
     "Kicking crisis, plainly stated: K Boyd transferred to Michigan State and the ONLY kicker on the roster is a freshman (Bui) with zero college attempts; 2025 Charlotte made 9 FG - last in the American (Post 2026-07-08).",
     "The rest is adequate: P Long returns at 40+ avg; Rutledge returns at 25.2 KR; STC Haines retained (no coordinator turnover anywhere).",
@@ -175,10 +309,20 @@
     "22 = bottom-sixth: above FIU-15 on the punting/returner floor, below WKU-25 on the kicker tail-risk."
    ],
    "key_players": [
-    {"name": "Aiden Bui", "role": "K (only one on roster)", "evidence": "freshman, zero college attempts; Boyd -> Michigan State (Post 2026-07-08)"},
-    {"name": "Bronson Long", "role": "P, returner", "evidence": "40+ yard average 2025 (Post 2026-07-08)"}
+    {
+     "name": "Aiden Bui",
+     "role": "K (only one on roster)",
+     "evidence": "freshman, zero college attempts; Boyd -> Michigan State (Post 2026-07-08)"
+    },
+    {
+     "name": "Bronson Long",
+     "role": "P, returner",
+     "evidence": "40+ yard average 2025 (Post 2026-07-08)"
+    }
    ],
-   "data_gaps": ["Bui has no observable data at any level in accessible sources (logged)"],
+   "data_gaps": [
+    "Bui has no observable data at any level in accessible sources (logged)"
+   ],
    "g5_guard_note": null
   }
  ]

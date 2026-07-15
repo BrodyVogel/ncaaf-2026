@@ -1,14 +1,38 @@
 {
  "team": "Rice",
  "units": {
-  "QB": {"grade": 38, "confidence": "L"},
-  "RB": {"grade": 48, "confidence": "M"},
-  "WRTE": {"grade": 30, "confidence": "M"},
-  "OL": {"grade": 42, "confidence": "M"},
-  "DL": {"grade": 30, "confidence": "M"},
-  "LB": {"grade": 18, "confidence": "L"},
-  "DB": {"grade": 12, "confidence": "L"},
-  "ST": {"grade": 52, "confidence": "M"}
+  "QB": {
+   "grade": 38,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 30,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 30,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 18,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 12,
+   "confidence": "L"
+  },
+  "ST": {
+   "grade": 52,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-15",
@@ -23,88 +47,240 @@
    "DL": "+18 (proxy prices Anyanwu's exit fully; Nwajuaku/Botts/Clemmons + ND add keep a floor)",
    "DB": "+11 (proxy floor-pinned; three sub-60 returners + P4-depth adds are slightly better than 1)",
    "ST": "+22 (proxy misses returning K Gota + Durkin's Kent State line)"
-  }
+  },
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Lane RB row (VA, minimal) + Machado LB 66.6/15 (Houston). No changes."
  },
  "grades_detail": [
-  {"team": "Rice", "unit": "QB", "grade": 38, "confidence": "L",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+  {
+   "team": "Rice",
+   "unit": "QB",
+   "grade": 38,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "Second consecutive new QB (Jenkins 67.2/207 portaled to Kansas): Jacurri Brown (Miami->UCF, senior) vs Ochoa (UNLV) - both brought in explicitly 'to run the offense' (Athlon 2026).",
     "Brown's athletic profile is the exact Abell-option archetype; his FBS passing resume is thin/inefficient and neither has 2025 volume.",
     "The option floor (2025: ~205 rush ypg with a lesser runner) holds this at 38 rather than lower; no passing proof caps it there."
    ],
-   "key_players": [{"name": "Jacurri Brown", "role": "QB1 (Athlon chart)", "evidence": "Miami/UCF stops; runner profile; no 2025 volume row"}],
-   "data_gaps": ["Battle unresolved", "Brown's career passing efficiency not in accessible sweeps"],
-   "g5_guard_note": null},
-  {"team": "Rice", "unit": "RB", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "key_players": [
+    {
+     "name": "Jacurri Brown",
+     "role": "QB1 (Athlon chart)",
+     "evidence": "Miami/UCF stops; runner profile; no 2025 volume row"
+    }
+   ],
+   "data_gaps": [
+    "Battle unresolved",
+    "Brown's career passing efficiency not in accessible sweeps"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Rice",
+   "unit": "RB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "The leading rusher returns bolded (Q.Jackson 71.9 on 179 att) in a scheme that averaged ~205 rush ypg and scored 30 red-zone TDs (Athlon 2026).",
     "Hardeman (66.0/82, SO) backs; Alexander (73.8/74) left for Coastal - absorbable.",
     "48 = just below average nationally: proven system workhorse, modest explosiveness, scheme volume guaranteed."
    ],
-   "key_players": [{"name": "Quinton Jackson", "role": "RB1, returning starter", "evidence": "PFF 71.9/179; leading rusher 2025 (Athlon)"}],
-   "data_gaps": ["QB run share vs RB share under a new QB unknown"],
-   "g5_guard_note": null},
-  {"team": "Rice", "unit": "WRTE", "grade": 30, "confidence": "M",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Illinois RB 2025 (32)"],
+   "key_players": [
+    {
+     "name": "Quinton Jackson",
+     "role": "RB1, returning starter",
+     "evidence": "PFF 71.9/179; leading rusher 2025 (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "QB run share vs RB share under a new QB unknown"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Rice",
+   "unit": "WRTE",
+   "grade": 30,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25)",
+    "Illinois RB 2025 (32)"
+   ],
    "rationale_bullets": [
     "'Lost most of their skill position players' (Athlon): Turner (72.9/220) expired, Dickmann to Wake; returning WRs had minimal 2025 usage (Matthews 57.1/85, Walker).",
     "Restock is depth-grade (B.Jackson-Cincy, Grice-Wake, Lane-UVA, Mosey-Holy Cross); TE Falk graded 47.8.",
     "Option structure caps the role; the personnel caps it further. 30 = bottom-quarter."
    ],
-   "key_players": [{"name": "Braylen Walker", "role": "WR (Athlon chart)", "evidence": "minimal 2025 usage; senior returner"}],
-   "data_gaps": ["No returning receiver above 85 routes"],
-   "g5_guard_note": null},
-  {"team": "Rice", "unit": "OL", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "key_players": [
+    {
+     "name": "Braylen Walker",
+     "role": "WR (Athlon chart)",
+     "evidence": "minimal 2025 usage; senior returner"
+    }
+   ],
+   "data_gaps": [
+    "No returning receiver above 85 routes"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Rice",
+   "unit": "OL",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "Young returning core: Miller graded 60.0 on 828 snaps AS A FRESHMAN (bold), Valent (64.1/589, bold), plus Bledsoe (63.7) and Principe (64.8) - four pieces with 2025 volume in a run scheme.",
     "Expirations (Stickle 580, Sullivan 719 snaps) are mid-grade losses, not stars; 2025 as-played was 40th pctile.",
     "42 = fringe-below-average with a young-improver tailwind (Miller's freshman volume is the upside case)."
    ],
-   "key_players": [{"name": "Luke Miller", "role": "RT, returning starter (SO)", "evidence": "PFF 60.0 on 828 snaps as a freshman 2025"}, {"name": "Patrick Valent", "role": "LG, returning starter", "evidence": "PFF 64.1/589"}],
-   "data_gaps": ["LT Farmer has no meaningful 2025 volume"],
-   "g5_guard_note": null},
-  {"team": "Rice", "unit": "DL", "grade": 30, "confidence": "M",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Illinois RB 2025 (32)"],
+   "key_players": [
+    {
+     "name": "Luke Miller",
+     "role": "RT, returning starter (SO)",
+     "evidence": "PFF 60.0 on 828 snaps as a freshman 2025"
+    },
+    {
+     "name": "Patrick Valent",
+     "role": "LG, returning starter",
+     "evidence": "PFF 64.1/589"
+    }
+   ],
+   "data_gaps": [
+    "LT Farmer has no meaningful 2025 volume"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Rice",
+   "unit": "DL",
+   "grade": 30,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25)",
+    "Illinois RB 2025 (32)"
+   ],
    "rationale_bullets": [
     "The star is gone (Anyanwu 84.9 on 657 - expired, roster-class verified) but the supporting cast returns intact: Nwajuaku (74.5/311 - best returning), Botts (69.4/345, bold), Clemmons (66.4/353), Daley (68.2/157).",
     "Notre Dame transfer Zinter adds pedigree at edge; bolded DE Mutombo's 48.9 grade vs his chart role is a recorded divergence.",
     "2025 as-played 32nd pctile; losing the 84.9 costs real pressure value. 30 = bottom-third with a stable floor."
    ],
-   "key_players": [{"name": "Chibby Nwajuaku", "role": "RUSH, best returning DL", "evidence": "PFF 74.5 on 311 snaps 2025"}, {"name": "Dillan Botts", "role": "DT, returning starter", "evidence": "PFF 69.4/345"}],
-   "data_gaps": ["Zinter's ND usage minimal", "Mutombo grade-role divergence"],
-   "g5_guard_note": null},
-  {"team": "Rice", "unit": "LB", "grade": 18, "confidence": "L",
-   "bracketing_exemplars": ["Florida International QB 2025 (15)", "Western Kentucky OL 2025 (25)"],
+   "key_players": [
+    {
+     "name": "Chibby Nwajuaku",
+     "role": "RUSH, best returning DL",
+     "evidence": "PFF 74.5 on 311 snaps 2025"
+    },
+    {
+     "name": "Dillan Botts",
+     "role": "DT, returning starter",
+     "evidence": "PFF 69.4/345"
+    }
+   ],
+   "data_gaps": [
+    "Zinter's ND usage minimal",
+    "Mutombo grade-role divergence"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Rice",
+   "unit": "LB",
+   "grade": 18,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15)",
+    "Western Kentucky OL 2025 (25)"
+   ],
    "rationale_bullets": [
     "Both 820+-snap starters gone (Morris 67.8/827 to Rutgers; Awe 58.0/824 expired) from a 10th-pctile unit.",
     "The Athlon-chart starters (Barton, King) have no 2025 volume; adds are modest (Harnetiaux - Nevada 50.7/298; Machado - Houston depth).",
     "LB caution; 18 = bottom-sixth: total turnover onto unproven bodies."
    ],
-   "key_players": [{"name": "Beau Barton", "role": "LB (chart starter)", "evidence": "no 2025 volume - projection"}],
-   "data_gaps": ["Neither starter has meaningful tape"],
-   "g5_guard_note": null},
-  {"team": "Rice", "unit": "DB", "grade": 12, "confidence": "L",
-   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6)", "Florida International QB 2025 (15)"],
+   "key_players": [
+    {
+     "name": "Beau Barton",
+     "role": "LB (chart starter)",
+     "evidence": "no 2025 volume - projection"
+    }
+   ],
+   "data_gaps": [
+    "Neither starter has meaningful tape"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Rice",
+   "unit": "DB",
+   "grade": 12,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6)",
+    "Florida International QB 2025 (15)"
+   ],
    "rationale_bullets": [
     "2nd-pctile as-played in 2025, then lost its best player (Williams 72.7/651 to Mississippi State) AND four senior contributors (Porter/Stevenson/Crump/Kane - roster-class verified).",
     "Nothing returning graded above 60 (Chavez 59.6, Harper 51.1, Hook 50.7); the restock is P4-depth quantity (UCLA/Duke/Nebraska/Coastal/UAB) with no FBS starter volume, plus a chart-starting CB whose origin the feeds don't even list (Watson - logged).",
     "12 = above the FAU-DB-6 anchor only on body count; below FIU-15."
    ],
-   "key_players": [{"name": "Jo Chavez", "role": "VIPER, returner", "evidence": "PFF 59.6 on 394 snaps 2025"}, {"name": "Tariq Watson", "role": "CB (chart starter)", "evidence": "origin unverified - CFBD feed miss (logged)"}],
-   "data_gaps": ["Watson origin", "No projected starter above 60 PFF"],
-   "g5_guard_note": null},
-  {"team": "Rice", "unit": "ST", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "key_players": [
+    {
+     "name": "Jo Chavez",
+     "role": "VIPER, returner",
+     "evidence": "PFF 59.6 on 394 snaps 2025"
+    },
+    {
+     "name": "Tariq Watson",
+     "role": "CB (chart starter)",
+     "evidence": "origin unverified - CFBD feed miss (logged)"
+    }
+   ],
+   "data_gaps": [
+    "Watson origin",
+    "No projected starter above 60 PFF"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Rice",
+   "unit": "ST",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "K Gota returns: 10-of-13 FG plus an elite kickoff leg (37 touchbacks in each of the past two seasons - Athlon); range limit (no 50+ makes) noted.",
     "P upgraded with a real line: Durkin (Kent State) 41.4 avg, six 50+ punts, 14 inside-20 (Athlon); replaces Bacchetta (to Georgia Tech).",
     "Proxy's 30 misses both facts. 52 = average-plus for a possession-and-field-position team that leans on exactly this."
    ],
-   "key_players": [{"name": "Enock Gota", "role": "K, returning", "evidence": "10-13 FG; 37 touchbacks x2 years (Athlon)"}, {"name": "Charlie Durkin", "role": "P (Kent State)", "evidence": "41.4 avg, 14 inside-20 2025 (Athlon)"}],
-   "data_gaps": ["Return roles unnamed"],
-   "g5_guard_note": null}
+   "key_players": [
+    {
+     "name": "Enock Gota",
+     "role": "K, returning",
+     "evidence": "10-13 FG; 37 touchbacks x2 years (Athlon)"
+    },
+    {
+     "name": "Charlie Durkin",
+     "role": "P (Kent State)",
+     "evidence": "41.4 avg, 14 inside-20 2025 (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "Return roles unnamed"
+   ],
+   "g5_guard_note": null
+  }
  ]
 }

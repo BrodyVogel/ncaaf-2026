@@ -1,14 +1,38 @@
 {
  "team": "Tulsa",
  "units": {
-  "QB": {"grade": 45, "confidence": "M"},
-  "RB": {"grade": 50, "confidence": "M"},
-  "WRTE": {"grade": 32, "confidence": "M"},
-  "OL": {"grade": 38, "confidence": "M"},
-  "DL": {"grade": 38, "confidence": "M"},
-  "LB": {"grade": 33, "confidence": "L"},
-  "DB": {"grade": 58, "confidence": "M"},
-  "ST": {"grade": 45, "confidence": "M"}
+  "QB": {
+   "grade": 45,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 32,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 38,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 33,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 45,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-15",
@@ -22,88 +46,238 @@
    "RB": "+20 (Jones's 85.9 + attributed PFF-transfer-rank; proxy dilutes)",
    "DB": "-6 (agree - strength)",
    "ST": "-18 (proxy rides departed P; K is a 2-XP unknown)"
-  }
+  },
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Madkins DL 62.4/498 (LaTech), +McKinney RB 68.3/110 (UNM), +Nash DL 48.3/9. DL 38->40; RB 50 unchanged (McKinney was already priced as depth)."
  },
  "grades_detail": [
-  {"team": "Tulsa", "unit": "QB", "grade": 45, "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+  {
+   "team": "Tulsa",
+   "unit": "QB",
+   "grade": 45,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "The rare returning starter in this batch: Hayes (year-1) made 9 starts incl. the last 6 - 2,158 yds, 12 TD, 376 rush yds, and a 19-12 upset at Oklahoma State; Athlon: coaches rave about his 'It Factor.'",
     "The quant is skeptical: PFF 59.2 on 372 dropbacks (16th-pctile as-played) - the conflict is recorded and the grade leans toward the numbers, offset by age/return/scheme-fit trajectory.",
     "45 = below-average with a genuine year-2 step-up case; KSU's Williams (60.9/142) is real insurance."
    ],
-   "key_players": [{"name": "Baylor Hayes", "role": "QB1, returning starter (SO)", "evidence": "9 starts, 2,158/12 + 376 rush 2025; OkState upset; PFF 59.2/372 - divergence recorded"}],
-   "data_gaps": ["Whether the grade or the production is the signal - unresolvable preseason"],
-   "g5_guard_note": null},
-  {"team": "Tulsa", "unit": "RB", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "key_players": [
+    {
+     "name": "Baylor Hayes",
+     "role": "QB1, returning starter (SO)",
+     "evidence": "9 starts, 2,158/12 + 376 rush 2025; OkState upset; PFF 59.2/372 - divergence recorded"
+    }
+   ],
+   "data_gaps": [
+    "Whether the grade or the production is the signal - unresolvable preseason"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Tulsa",
+   "unit": "RB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "The headline add carries an attributed PFF credential: Jones (ODU) graded 85.9 on 103 att and Athlon cites him as 'PFF's third-highest graded transfer RB.'",
     "Depth restocked (S.Davis-MissSt, Alston-Auburn, McKinney-NM); Richardson (79.7/213) expired from a 55th-pctile room.",
     "50 = average: one strong SBC-graded lead + P4-depth committee."
    ],
-   "key_players": [{"name": "Trequan Jones", "role": "RB1 (ODU)", "evidence": "PFF 85.9/103; Athlon-attributed PFF transfer-RB rank #3"}],
-   "data_gaps": ["Jones volume was 103 att"],
-   "g5_guard_note": null},
-  {"team": "Tulsa", "unit": "WRTE", "grade": 32, "confidence": "M",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Illinois RB 2025 (32)"],
+   "key_players": [
+    {
+     "name": "Trequan Jones",
+     "role": "RB1 (ODU)",
+     "evidence": "PFF 85.9/103; Athlon-attributed PFF transfer-RB rank #3"
+    }
+   ],
+   "data_gaps": [
+    "Jones volume was 103 att"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Tulsa",
+   "unit": "WRTE",
+   "grade": 32,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25)",
+    "Illinois RB 2025 (32)"
+   ],
    "rationale_bullets": [
     "All three leading receivers AND the TE are gone (Steptoe to Minnesota, Booker, Tease; Foley 72.5/266 to Louisville) from an already-42nd-pctile room.",
     "The 2026 starting row is all transfers with modest resumes (Wells-Oregon State, Calloway-Tulane, Singleton-WVU) over low-usage returners; TE is a D3 transfer.",
     "32 = bottom-quarter."
    ],
-   "key_players": [{"name": "Jimmy Calloway", "role": "WR (Tulane)", "evidence": "chart starter (Athlon)"}],
-   "data_gaps": ["No projected starter had 300+ 2025 routes"],
-   "g5_guard_note": null},
-  {"team": "Tulsa", "unit": "OL", "grade": 38, "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "key_players": [
+    {
+     "name": "Jimmy Calloway",
+     "role": "WR (Tulane)",
+     "evidence": "chart starter (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "No projected starter had 300+ 2025 routes"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Tulsa",
+   "unit": "OL",
+   "grade": 38,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "East returns bolded (61.3/616) with six spares who 'combined to appear in 32 games' (Athlon) - experience without grades; the two best 2025 grades (Adams 69.7/811, Wilson 66.4/910) expired.",
     "Adds include a feed-gap transfer (Pond - origin unlisted, logged) and South Alabama's Preciado.",
     "38 = bottom-third: 'relatively experienced' (Athlon) but quality-unproven."
    ],
-   "key_players": [{"name": "Cam East", "role": "RT, returning starter", "evidence": "PFF 61.3/616"}],
-   "data_gaps": ["Four starting spots unsettled; Pond origin"],
-   "g5_guard_note": null},
-  {"team": "Tulsa", "unit": "DL", "grade": 38, "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "key_players": [
+    {
+     "name": "Cam East",
+     "role": "RT, returning starter",
+     "evidence": "PFF 61.3/616"
+    }
+   ],
+   "data_gaps": [
+    "Four starting spots unsettled; Pond origin"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Tulsa",
+   "unit": "DL",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "Raided but not emptied: Burnett (79.2) to Rutgers, Hjelle (79.3) to Indiana, Hardiman (80.4) + Johnson (74.0) expired - four of the top grades from a 52nd-pctile unit.",
-    "What survives is real rotation: Newhouse (71.6/412, bold), Ball (68.0/479 as a year-1), Cooper (66.4/386), Turner (67.7/279); three chart-starting transfer adds (Nash-VT, Duhon-OkSt, Davis-AppSt).",
-    "38 = below-average: the floor held, the ceiling left."
+    "What survives is real rotation: Newhouse (71.6/412, bold), Ball (68.0/479 as a year-1), Cooper (66.4/386), Turner (67.7/279); transfer adds now include verified every-down tape (repair): Madkins 62.4 on 498 snaps at La Tech, alongside chart-starters Nash-VT (48.3/9 - pedigree only), Duhon-OkSt, Davis-AppSt.",
+    "40 = below-average: the floor held and got a verified body deeper; the ceiling left."
    ],
-   "key_players": [{"name": "Tai Newhouse", "role": "DL, returning starter", "evidence": "PFF 71.6/412"}, {"name": "Hudson Ball", "role": "DL, yr-1 riser", "evidence": "PFF 68.0 on 479 snaps as year-1"}],
-   "data_gaps": ["Transfer starters' 2025 volumes modest"],
-   "g5_guard_note": null},
-  {"team": "Tulsa", "unit": "LB", "grade": 33, "confidence": "L",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "key_players": [
+    {
+     "name": "Tai Newhouse",
+     "role": "DL, returning starter",
+     "evidence": "PFF 71.6/412"
+    },
+    {
+     "name": "Hudson Ball",
+     "role": "DL, yr-1 riser",
+     "evidence": "PFF 68.0 on 479 snaps as year-1"
+    }
+   ],
+   "data_gaps": [
+    "Transfer starters' 2025 volumes modest"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Tulsa",
+   "unit": "LB",
+   "grade": 33,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "Coney (87.6 on 823 snaps) to Texas A&M is the single biggest individual loss in this AAC batch.",
     "What remains is usable: Alexander (69.7/528, yr-3), C.J. Turner (72.5/93), and UAB's Hightower (70.0/652 - a real starter add); chart-starter Thompson's PFF row couldn't be located (logged).",
     "LB caution; 33 = bottom-third: adequate bodies, elite anchor gone."
    ],
-   "key_players": [{"name": "Devin Hightower", "role": "LB (UAB)", "evidence": "PFF 70.0 on 652 snaps 2025"}, {"name": "William Alexander", "role": "LB, returner", "evidence": "PFF 69.7/528"}],
-   "data_gaps": ["Thompson identity/row", "Post-Coney signal-calling"],
-   "g5_guard_note": null},
-  {"team": "Tulsa", "unit": "DB", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "key_players": [
+    {
+     "name": "Devin Hightower",
+     "role": "LB (UAB)",
+     "evidence": "PFF 70.0 on 652 snaps 2025"
+    },
+    {
+     "name": "William Alexander",
+     "role": "LB, returner",
+     "evidence": "PFF 69.7/528"
+    }
+   ],
+   "data_gaps": [
+    "Thompson identity/row",
+    "Post-Coney signal-calling"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Tulsa",
+   "unit": "DB",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "The best returning secondary in the AAC batch by grades-at-volume: E.Green (79.3/809), Z.Williams (76.3/689), Robinson (70.2/627, STAR), Drew (66.3/635) - all bold, all year-2/3.",
     "The one expiration (L.Smith 69.5/822) is the weakest of the five; adds are depth (Baylor/ETSU/Idaho State).",
     "58 = above average: four proven pieces, young and ascending, from a 57th-pctile as-played unit."
    ],
-   "key_players": [{"name": "Elijah Green", "role": "CB, returning (yr-2)", "evidence": "PFF 79.3 on 809 snaps 2025"}, {"name": "Zach Williams", "role": "S, returning (yr-2)", "evidence": "PFF 76.3/689"}],
-   "data_gaps": ["S2 (Scott) low volume"],
-   "g5_guard_note": null},
-  {"team": "Tulsa", "unit": "ST", "grade": 45, "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "key_players": [
+    {
+     "name": "Elijah Green",
+     "role": "CB, returning (yr-2)",
+     "evidence": "PFF 79.3 on 809 snaps 2025"
+    },
+    {
+     "name": "Zach Williams",
+     "role": "S, returning (yr-2)",
+     "evidence": "PFF 76.3/689"
+    }
+   ],
+   "data_gaps": [
+    "S2 (Scott) low volume"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Tulsa",
+   "unit": "ST",
+   "grade": 45,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "Spring 'auditions' at both spots (Athlon): K Hauck arrives from MissSt with TWO career XP and zero FG - a pure unknown; P Tulen (Bethune-Cookman, Melbourne) has a real line (44.6 on 44) replacing a 3-year Aussie starter who left for Cal.",
     "2025 SPEC 76.8 rode the departed punter; proxy 63 inherits it.",
     "45 = slightly below average: proven-ish P, unproven K."
    ],
-   "key_players": [{"name": "Max Tulen", "role": "P (Bethune-Cookman)", "evidence": "44.6 avg on 44 punts 2025 (Athlon)"}, {"name": "Marlon Hauck", "role": "K (MissSt)", "evidence": "2 career XP, no FG in 4 years (Athlon)"}],
-   "data_gaps": ["Kicker has no meaningful data at any level"],
-   "g5_guard_note": null}
+   "key_players": [
+    {
+     "name": "Max Tulen",
+     "role": "P (Bethune-Cookman)",
+     "evidence": "44.6 avg on 44 punts 2025 (Athlon)"
+    },
+    {
+     "name": "Marlon Hauck",
+     "role": "K (MissSt)",
+     "evidence": "2 career XP, no FG in 4 years (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "Kicker has no meaningful data at any level"
+   ],
+   "g5_guard_note": null
+  }
  ]
 }

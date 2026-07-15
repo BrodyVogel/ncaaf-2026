@@ -1,14 +1,38 @@
 {
  "team": "East Carolina",
  "units": {
-  "QB": {"grade": 44, "confidence": "L"},
-  "RB": {"grade": 56, "confidence": "M"},
-  "WRTE": {"grade": 46, "confidence": "M"},
-  "OL": {"grade": 30, "confidence": "M"},
-  "DL": {"grade": 54, "confidence": "M"},
-  "LB": {"grade": 25, "confidence": "L"},
-  "DB": {"grade": 55, "confidence": "M"},
-  "ST": {"grade": 52, "confidence": "M"}
+  "QB": {
+   "grade": 44,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 56,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 30,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 54,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 25,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 55,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 52,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-15",
@@ -25,7 +49,8 @@
    "LB": "+24 (LB caution: proxy floor-pins at 1; two returning 500-snap starters + DC-linked adds are worth something)",
    "DB": "+17 (proxy can't fully credit Gamble's 787-snap SBC starter row + five returning 66-78 contributors)",
    "ST": "+3 (agree)"
-  }
+  },
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Joseph WRTE 60.7/21 (Miami) - 21 routes, depth flier as priced. No change."
  },
  "grades_detail": [
   {
@@ -33,7 +58,10 @@
    "unit": "QB",
    "grade": 44,
    "confidence": "L",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "Total replacement of an 81st-pctile unit: Houser (PFF 84.0 on 442 dropbacks 2025) left for Illinois; the battle runs to the opener (Athlon: Harrell 'likely won't declare a winner until the opener').",
     "The candidates carry real P4 pedigree with thin recent tape: Griffis (Wake starting experience; 83.2 on 36 TT snaps 2025 - hint) vs Williams (Miami: started as a true FR in 2023, 19 dropbacks since; 6-5 225 'QB central casting' - Athlon).",
@@ -41,10 +69,21 @@
     "New OC Davis's North Texas offenses were prolific (attributed) and two of his old skill players arrived with him - a QB-friendly landing spot. 44 = below-average with a proven-scheme tailwind: the best-credentialed of the three open G5 QB battles graded so far (Memphis 40, Charlotte 38) on FBS experience."
    ],
    "key_players": [
-    {"name": "Mitch Griffis", "role": "QB1 candidate ('slightly more experience' - Athlon)", "evidence": "Wake Forest starting experience; PFF 83.2/36 at Texas Tech 2025; spring TD drive (Reflector)"},
-    {"name": "Emory Williams", "role": "QB1 candidate", "evidence": "Miami: true-FR starts 2023, 19 db 2025; 6-5 225 (Athlon)"}
+    {
+     "name": "Mitch Griffis",
+     "role": "QB1 candidate ('slightly more experience' - Athlon)",
+     "evidence": "Wake Forest starting experience; PFF 83.2/36 at Texas Tech 2025; spring TD drive (Reflector)"
+    },
+    {
+     "name": "Emory Williams",
+     "role": "QB1 candidate",
+     "evidence": "Miami: true-FR starts 2023, 19 db 2025; 6-5 225 (Athlon)"
+    }
    ],
-   "data_gaps": ["Winner undeclared until Week 1", "Neither QB has a meaningful 2025 sample"],
+   "data_gaps": [
+    "Winner undeclared until Week 1",
+    "Neither QB has a meaningful 2025 sample"
+   ],
    "g5_guard_note": null
   },
   {
@@ -52,17 +91,30 @@
    "unit": "RB",
    "grade": 56,
    "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "Four backs graded 75-82 on the 2026 roster: returners Engleman (81.9/60; 5.2 ypc 2025) + Gunn (81.0/112), plus Gray (North Texas: 82.2/58; 152 yds + 2 TD in the New Mexico Bowl - and he played for new OC Davis) and Allen (Marshall: 75.8/77).",
     "The departures are absorbable: Montgomery (73.3/157) to Florida was the volume leader but grades below all four current backs; 2025 as-played was 50th pctile.",
     "Committee structure is the only cap - no one has carried 160+ FBS attempts - but the quality floor across four bodies is the roster's cleanest strength. Proxy agrees (55)."
    ],
    "key_players": [
-    {"name": "Ashton Gray", "role": "RB1 (Athlon starter; scheme bridge)", "evidence": "PFF 82.2/58 at North Texas 2025; 152 + 2 TD in New Mexico Bowl; played in Davis's offense"},
-    {"name": "TJ Engleman Jr.", "role": "returning co-lead", "evidence": "5.2 ypc 2025; PFF 81.9 on 60 att"}
+    {
+     "name": "Ashton Gray",
+     "role": "RB1 (Athlon starter; scheme bridge)",
+     "evidence": "PFF 82.2/58 at North Texas 2025; 152 + 2 TD in New Mexico Bowl; played in Davis's offense"
+    },
+    {
+     "name": "TJ Engleman Jr.",
+     "role": "returning co-lead",
+     "evidence": "5.2 ypc 2025; PFF 81.9 on 60 att"
+    }
    ],
-   "data_gaps": ["No proven lead-load back (max 157 att in the room's history)"],
+   "data_gaps": [
+    "No proven lead-load back (max 157 att in the room's history)"
+   ],
    "g5_guard_note": null
   },
   {
@@ -70,17 +122,31 @@
    "unit": "WRTE",
    "grade": 46,
    "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "The 2025 room (66th pctile as-played) lost its volume: A.Smith (72.4/376) expired, Y.Smith (66.3/334) to SMU, both TEs to FSU/Vanderbilt; Spalding (70.8/274) is the returning starter.",
     "The restock is scheme-targeted: Sides (88-1,092 career IN Davis's NT offense - the fit is the argument; his 2025 grade was a modest 57.7/357), Hamilton (Furman FCS: 40-5 at 13.6), Joseph (Miami slot/KR speed), Melvin (Wake), TE Smith Flores (UTRGV FCS).",
     "Athlon's 'deep wide receiver unit' describes bodies more than proven grades; with an unsettled QB and one returning starter, 46 = fringe-below-average with scheme-fit upside."
    ],
    "key_players": [
-    {"name": "Brock Spalding", "role": "returning starter", "evidence": "PFF 70.8 on 274 routes 2025"},
-    {"name": "Landon Sides", "role": "WR1 (Athlon chart)", "evidence": "88-1,092 career in OC Davis's North Texas offense; PFF 57.7/357 2025"}
+    {
+     "name": "Brock Spalding",
+     "role": "returning starter",
+     "evidence": "PFF 70.8 on 274 routes 2025"
+    },
+    {
+     "name": "Landon Sides",
+     "role": "WR1 (Athlon chart)",
+     "evidence": "88-1,092 career in OC Davis's North Texas offense; PFF 57.7/357 2025"
+    }
    ],
-   "data_gaps": ["Post-Spalding grade quality unproven at AAC level", "TE room is FCS/low-grade projection"],
+   "data_gaps": [
+    "Post-Spalding grade quality unproven at AAC level",
+    "TE room is FCS/low-grade projection"
+   ],
    "g5_guard_note": null
   },
   {
@@ -88,17 +154,31 @@
    "unit": "OL",
    "grade": 30,
    "confidence": "M",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Illinois RB 2025 (32)"],
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25)",
+    "Illinois RB 2025 (32)"
+   ],
    "rationale_bullets": [
     "2025 was 25th pctile as-played with a dire 48.7 team run-block grade - and the two best-graded starters left upward (Poku 63.0/977 to South Carolina; McCrimon 56.9/866 to NC State).",
     "The rebuild is experience-heavy, grade-light: C Best (Kennesaw All-CUSA, 62.7 on 988 snaps - the anchor), RT Creel (SoMiss, 56.6/930), RG Kramer (29 FCS starts), LT Weaver (returner, 59.7/388, 'impressed in the spring' - Athlon), LG K.Jones (returning depth).",
     "Spring disconfirmation: 'protection remained an early concern' (Reflector). Every projected starter has real volume; none has graded above 63. 30 = bottom-third, above WKU-25 on experience mass."
    ],
    "key_players": [
-    {"name": "Brandon Best", "role": "C (Kennesaw)", "evidence": "All-CUSA 2025; PFF 62.7 on 988 snaps"},
-    {"name": "Bryce Weaver", "role": "LT, returner", "evidence": "PFF 59.7/388; spring praise (Athlon 2026)"}
+    {
+     "name": "Brandon Best",
+     "role": "C (Kennesaw)",
+     "evidence": "All-CUSA 2025; PFF 62.7 on 988 snaps"
+    },
+    {
+     "name": "Bryce Weaver",
+     "role": "LT, returner",
+     "evidence": "PFF 59.7/388; spring praise (Athlon 2026)"
+    }
    ],
-   "data_gaps": ["Zero returning starter-pairs (cohesion)", "Interior depth behind the five is thin"],
+   "data_gaps": [
+    "Zero returning starter-pairs (cohesion)",
+    "Interior depth behind the five is thin"
+   ],
    "g5_guard_note": null
   },
   {
@@ -106,7 +186,10 @@
    "unit": "DL",
    "grade": 54,
    "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "The returning slice is the good slice: Robinson (77.9/407, 5 sacks - Athlon's 'only starter back'), Carr (75.6/408), J.Davis (73.2/318), K.Davis (70.5/192), and DuJour (82.9 on 82 - flash) all return; the 2025 splash profile was elite (4th nationally at 7.8 TFL/gm; 26th rush D - Athlon).",
     "The as-played 24th pctile is real but composition-driven: low-graded volume (Lampley 51.5/546, Craig 59.4/464) dragged the snap-weighted average - and those players return as depth, not as the identity.",
@@ -114,11 +197,26 @@
     "54 = average-plus: four returning 70+ grades with splash production, graded between the Nebraska-50 and Wake-DL-60 sketches (Wake's sketch - 4 at 72+ - is nearly ECU's exact profile, minus Wake's volume leader)."
    ],
    "key_players": [
-    {"name": "Jasiyah Robinson", "role": "DE, returning starter", "evidence": "PFF 77.9/407, 5 sacks 2025 (Athlon)"},
-    {"name": "Preston Carr", "role": "NT", "evidence": "PFF 75.6 on 408 snaps 2025"},
-    {"name": "Kendrick DuJour", "role": "EDGE flash", "evidence": "PFF 82.9 on 82 snaps 2025 (hint volume)"}
+    {
+     "name": "Jasiyah Robinson",
+     "role": "DE, returning starter",
+     "evidence": "PFF 77.9/407, 5 sacks 2025 (Athlon)"
+    },
+    {
+     "name": "Preston Carr",
+     "role": "NT",
+     "evidence": "PFF 75.6 on 408 snaps 2025"
+    },
+    {
+     "name": "Kendrick DuJour",
+     "role": "EDGE flash",
+     "evidence": "PFF 82.9 on 82 snaps 2025 (hint volume)"
+    }
    ],
-   "data_gaps": ["New DC's front usage unobserved", "Splash-vs-grade tension (elite TFL rate, mediocre snap-weighted grades) unresolved by data"],
+   "data_gaps": [
+    "New DC's front usage unobserved",
+    "Splash-vs-grade tension (elite TFL rate, mediocre snap-weighted grades) unresolved by data"
+   ],
    "g5_guard_note": null
   },
   {
@@ -126,17 +224,31 @@
    "unit": "LB",
    "grade": 25,
    "confidence": "L",
-   "bracketing_exemplars": ["Florida International QB 2025 (15)", "Illinois RB 2025 (32)"],
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15)",
+    "Illinois RB 2025 (32)"
+   ],
    "rationale_bullets": [
     "The paradox unit, resolved toward the quant per the rules: 2025 as-played was the national floor (0th pctile adj; team tackling grade 44.6 corroborates) - yet Athlon calls DJ Johnson (53.2/530) a 'tackling machine' anchoring a crew with 'experience and potential.' Conflicts lean quant; the conflict is recorded.",
     "Both 500-snap starters return (Johnson, Wilson 48.3/532) plus better-graded depth (Barker 66.0/179, Holmes 73.3/80) and the Law brothers arrive from Memphis WITH the new DC (C.Law 65.4/164) - continuity and bodies, if not proven quality.",
     "LB caution rule cuts both ways: the floor-percentile overstates certainty of badness, the scouting praise overstates quality. 25 = bottom-quarter: above Army-LB-15 (which returns nothing), below the Illinois-RB-32 sketch."
    ],
    "key_players": [
-    {"name": "DJ Johnson Jr.", "role": "MLB, returning starter", "evidence": "PFF 53.2/530 2025; 'tackling machine... anchors' (Athlon) - divergence recorded"},
-    {"name": "Crews Law", "role": "LB (arrived with DC Hankins)", "evidence": "PFF 65.4 on 164 snaps at Memphis 2025"}
+    {
+     "name": "DJ Johnson Jr.",
+     "role": "MLB, returning starter",
+     "evidence": "PFF 53.2/530 2025; 'tackling machine... anchors' (Athlon) - divergence recorded"
+    },
+    {
+     "name": "Crews Law",
+     "role": "LB (arrived with DC Hankins)",
+     "evidence": "PFF 65.4 on 164 snaps at Memphis 2025"
+    }
    ],
-   "data_gaps": ["Grade-vs-scouting conflict unresolved", "New DC's LB usage in a 4-2-5-style front unknown"],
+   "data_gaps": [
+    "Grade-vs-scouting conflict unresolved",
+    "New DC's LB usage in a 4-2-5-style front unknown"
+   ],
    "g5_guard_note": null
   },
   {
@@ -144,7 +256,10 @@
    "unit": "DB",
    "grade": 55,
    "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "Poached at the top (Riddle 69.0/730 to Georgia; Lowery 63.7/460 to Florida) but five contributors return at 66-78: Brown (78.4/598 - the best returning grade), Merrell (72.2/347, nickel, 'consistently performing' in spring), Jean (69.8/419), Wilk (66.5/639), Graves (72.5/173).",
     "The headline add is proven at volume: Gamble (App State: 71.0 on 787 snaps - a full-time SBC starter; 'positioned to star' - Reflector; 'plug right in' - Athlon), plus P4 depth (Bowden-Minnesota, Peterson-UCF, Mosby-Louisville) and FIU's Levells.",
@@ -152,11 +267,26 @@
     "55 = above-average: six players at 66+ adjusted-ish with volume, no elite anchor."
    ],
    "key_players": [
-    {"name": "TyMir Brown", "role": "CB1, returner", "evidence": "PFF 78.4 on 598 snaps 2025"},
-    {"name": "Zyeir Gamble", "role": "S (App State)", "evidence": "PFF 71.0 on 787 snaps 2025; spring star framing (Reflector 2026-04)"},
-    {"name": "Kevon Merrell Jr.", "role": "NB, returning starter", "evidence": "PFF 72.2/347 2025"}
+    {
+     "name": "TyMir Brown",
+     "role": "CB1, returner",
+     "evidence": "PFF 78.4 on 598 snaps 2025"
+    },
+    {
+     "name": "Zyeir Gamble",
+     "role": "S (App State)",
+     "evidence": "PFF 71.0 on 787 snaps 2025; spring star framing (Reflector 2026-04)"
+    },
+    {
+     "name": "Kevon Merrell Jr.",
+     "role": "NB, returning starter",
+     "evidence": "PFF 72.2/347 2025"
+    }
    ],
-   "data_gaps": ["Safety alignment next to Gamble unsettled", "Mosby's 47.8 Louisville grade on 32 snaps is a caution, not evidence"],
+   "data_gaps": [
+    "Safety alignment next to Gamble unsettled",
+    "Mosby's 47.8 Louisville grade on 32 snaps is a caution, not evidence"
+   ],
    "g5_guard_note": null
   },
   {
@@ -164,17 +294,30 @@
    "unit": "ST",
    "grade": 52,
    "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "The kicker's resume is genuinely good: Conrad - primary K in 2023-24, career 36-of-51, tied an NCAA record with five 40+ makes in one 2023 game - 'takes over again this fall' (Athlon). Why he wasn't the 2025 kicker is an unresolved gap (logged), which caps confidence, not the grade.",
     "P O'Halloran (42.1 on 21 punts, 2025) returns with FCS transfer competition (Huether); KR upgrades to Miami transfer Joseph; PR Pearson returns.",
     "2025 team SPEC was 73.4 (solid); with a proven K + returning P + faster KR, 52 = average-plus; a missed FG in the spring game (Reflector) is noted, not weighted."
    ],
    "key_players": [
-    {"name": "Andrew Conrad", "role": "K, returning to the job", "evidence": "career 36-51 FG; NCAA-record-tying five 40+ FGs in a 2023 game (Athlon 2026)"},
-    {"name": "Tomas O'Halloran", "role": "P", "evidence": "42.1 avg on 21 punts 2025"}
+    {
+     "name": "Andrew Conrad",
+     "role": "K, returning to the job",
+     "evidence": "career 36-51 FG; NCAA-record-tying five 40+ FGs in a 2023 game (Athlon 2026)"
+    },
+    {
+     "name": "Tomas O'Halloran",
+     "role": "P",
+     "evidence": "42.1 avg on 21 punts 2025"
+    }
    ],
-   "data_gaps": ["Conrad's 2025 usage story unresolved (2 searches logged)"],
+   "data_gaps": [
+    "Conrad's 2025 usage story unresolved (2 searches logged)"
+   ],
    "g5_guard_note": null
   }
  ]

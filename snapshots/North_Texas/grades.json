@@ -1,14 +1,38 @@
 {
  "team": "North Texas",
  "units": {
-  "QB": {"grade": 35, "confidence": "L"},
-  "RB": {"grade": 52, "confidence": "M"},
-  "WRTE": {"grade": 38, "confidence": "M"},
-  "OL": {"grade": 35, "confidence": "L"},
-  "DL": {"grade": 15, "confidence": "L"},
-  "LB": {"grade": 40, "confidence": "M"},
-  "DB": {"grade": 35, "confidence": "L"},
-  "ST": {"grade": 55, "confidence": "M"}
+  "QB": {
+   "grade": 35,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 38,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 35,
+   "confidence": "L"
+  },
+  "DL": {
+   "grade": 15,
+   "confidence": "L"
+  },
+  "LB": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 35,
+   "confidence": "L"
+  },
+  "ST": {
+   "grade": 55,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-15",
@@ -23,88 +47,246 @@
    "DL": "+14 (proxy floor; Benton/P4 adds give a floor above 1)",
    "LB": "-10 (proxy same senior artifact partially; Alexander is real)",
    "ST": "+5 (returning 92.3% kicker)"
-  }
+  },
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Thomas DL 51.5/89 (Cal) below-avg depth, +Priester OL 1-snap row (inert). No changes."
  },
  "grades_detail": [
-  {"team": "North Texas", "unit": "QB", "grade": 35, "confidence": "L",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+  {
+   "team": "North Texas",
+   "unit": "QB",
+   "grade": 35,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "The 87th-pctile 2025 season (Mestemaker 88.3 on 506 dropbacks) left for Oklahoma State with the coach; the 2026 room is Jackson (UCF: 59.4 on 349 - proven-mediocre volume) vs Jimerson (yr-2, 4 games as a true FR - Athlon names him first).",
     "Neal Brown's offenses are run-first (Athlon final-analysis framing), lowering the QB bar but not erasing it; battle unresolved in accessible sources (logged).",
     "35 = bottom-third: a real-but-modest veteran floor (Jackson) under an unknown ceiling (Jimerson)."
    ],
-   "key_players": [{"name": "Tayven Jackson", "role": "QB1 candidate", "evidence": "PFF 59.4 on 349 dropbacks at UCF 2025"}, {"name": "Chris Jimerson Jr.", "role": "QB1 candidate (Athlon first mention)", "evidence": "4 games as true freshman 2025"}],
-   "data_gaps": ["Battle unresolved", "Jimerson has no scouting profile in accessible sources"],
-   "g5_guard_note": null},
-  {"team": "North Texas", "unit": "RB", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "key_players": [
+    {
+     "name": "Tayven Jackson",
+     "role": "QB1 candidate",
+     "evidence": "PFF 59.4 on 349 dropbacks at UCF 2025"
+    },
+    {
+     "name": "Chris Jimerson Jr.",
+     "role": "QB1 candidate (Athlon first mention)",
+     "evidence": "4 games as true freshman 2025"
+    }
+   ],
+   "data_gaps": [
+    "Battle unresolved",
+    "Jimerson has no scouting profile in accessible sources"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "North Texas",
+   "unit": "RB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "The best coach-fit transfer in the class: Jahiem White was a Freshman All-American UNDER Neal Brown at WVU in 2023 (Athlon; AAC transfers panel #2) - scheme, staff, and role all bridge.",
     "Hawkins (92.6/231 - a 91st-pctile room's engine) left for OkState; depth restocked with P4 bodies (Haygood-Mizzou, Page-Texas).",
     "Brown's run-first identity concentrates value here. 52 = average-plus on fit + pedigree without 2025 G5 production in hand."
    ],
-   "key_players": [{"name": "Jahiem White", "role": "RB1 (WVU)", "evidence": "FR All-American under Brown 2023 (Athlon 2026); Athlon AAC transfer #2"}],
-   "data_gaps": ["White's 2025 WVU usage/grade not captured in accessible sweeps (logged)"],
-   "g5_guard_note": null},
-  {"team": "North Texas", "unit": "WRTE", "grade": 38, "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "key_players": [
+    {
+     "name": "Jahiem White",
+     "role": "RB1 (WVU)",
+     "evidence": "FR All-American under Brown 2023 (Athlon 2026); Athlon AAC transfer #2"
+    }
+   ],
+   "data_gaps": [
+    "White's 2025 WVU usage/grade not captured in accessible sweeps (logged)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "North Texas",
+   "unit": "WRTE",
+   "grade": 38,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "Total wipeout of an 84th-pctile room: Young (89.0/343) and Coleman (81.1/208) to OkState, Dorner (79.9/372) expired, Sides to ECU.",
     "The restock is credential-light for the volume required: D2 All-American Chukwurah, Milliner (UAB 68.9/160), P4 depth pieces (Martin-OU, Stevenson-Utah), three transfer TEs.",
     "38 = bottom-third: bodies exist; nothing projects as a proven FBS #1."
    ],
-   "key_players": [{"name": "TJ Chukwurah", "role": "WR (Black Hills State)", "evidence": "D2 All-American (Athlon 2026)"}, {"name": "Corri Milliner", "role": "WR (UAB)", "evidence": "PFF 68.9 on 160 routes 2025"}],
-   "data_gaps": ["No returning route above 111", "TE room entirely new"],
-   "g5_guard_note": null},
-  {"team": "North Texas", "unit": "OL", "grade": 35, "confidence": "L",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "key_players": [
+    {
+     "name": "TJ Chukwurah",
+     "role": "WR (Black Hills State)",
+     "evidence": "D2 All-American (Athlon 2026)"
+    },
+    {
+     "name": "Corri Milliner",
+     "role": "WR (UAB)",
+     "evidence": "PFF 68.9 on 160 routes 2025"
+    }
+   ],
+   "data_gaps": [
+    "No returning route above 111",
+    "TE room entirely new"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "North Texas",
+   "unit": "OL",
+   "grade": 35,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "The 82nd-pctile line that paved the nation's most rushing TDs is gone: Blair (82.7/868), Yanta (72.1/969), Obidegwu (74.3/685) expired (roster-class verified); Nelson/Dickson/Magiya to OkState.",
     "The rebuild has one proven anchor (Strong - GaSo, 30 career starts) plus P4 spare parts (Umeozulu-Texas, Williams+Fenuku-Mizzou) and Cunningham (Charlotte 64.2/163).",
     "Proxy's 67 is a documented membership artifact (seniors without portal exits counted as returning). 35 = bottom-third with cohesion risk everywhere."
    ],
-   "key_players": [{"name": "Chandler Strong", "role": "OL anchor (Georgia Southern)", "evidence": "30 career starts (Athlon 2026)"}],
-   "data_gaps": ["Alignment unknown (no reliable 2026 chart in accessible sources)", "Zero returning starter snaps"],
-   "g5_guard_note": null},
-  {"team": "North Texas", "unit": "DL", "grade": 15, "confidence": "L",
-   "bracketing_exemplars": ["Florida International QB 2025 (15)", "Western Kentucky OL 2025 (25)"],
+   "key_players": [
+    {
+     "name": "Chandler Strong",
+     "role": "OL anchor (Georgia Southern)",
+     "evidence": "30 career starts (Athlon 2026)"
+    }
+   ],
+   "data_gaps": [
+    "Alignment unknown (no reliable 2026 chart in accessible sources)",
+    "Zero returning starter snaps"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "North Texas",
+   "unit": "DL",
+   "grade": 15,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15)",
+    "Western Kentucky OL 2025 (25)"
+   ],
    "rationale_bullets": [
     "Already the weakness (12th pctile as-played; 130th rush D at 215.7 ypg - Athlon) and now gutted: Day (75.4/654) to Utah plus five more departures.",
     "Athlon's own framing: Washington (PFF 49.4 on 347) has 'the most experience among returning defensive linemen.'",
     "Adds are P4-depth lottery tickets (Priester-VT, Curtis-Minnesota, Thomas-Cal) + Benton (ECU 63.3/250). 15 = bottom-eighth, at the FIU anchor."
    ],
-   "key_players": [{"name": "Terrell Washington", "role": "DL, most-experienced returner", "evidence": "PFF 49.4 on 347 snaps 2025 (Athlon framing)"}, {"name": "Justin Benton", "role": "DT (ECU)", "evidence": "PFF 63.3 on 250 snaps 2025"}],
-   "data_gaps": ["New DC's front unknown", "No projected starter has 400 FBS snaps"],
-   "g5_guard_note": null},
-  {"team": "North Texas", "unit": "LB", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "Nebraska WRTE 2025 (50)"],
+   "key_players": [
+    {
+     "name": "Terrell Washington",
+     "role": "DL, most-experienced returner",
+     "evidence": "PFF 49.4 on 347 snaps 2025 (Athlon framing)"
+    },
+    {
+     "name": "Justin Benton",
+     "role": "DT (ECU)",
+     "evidence": "PFF 63.3 on 250 snaps 2025"
+    }
+   ],
+   "data_gaps": [
+    "New DC's front unknown",
+    "No projected starter has 400 FBS snaps"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "North Texas",
+   "unit": "LB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "An elite 2025 room (Wesloski 90.6/804 to OkState; Fields 78.1/880 and Whitter 79.8/468 expired) is gone entirely - the proxy's 50 partially rides the senior artifact.",
     "The replacement headliner is real: Alexander (Arkansas State: 77.0 on 585 snaps; SBC -8 -> ~69 adj) plus Barker (SMU 61.5/242) and C.Johnson (Texas State).",
     "LB caution rule; 40 = fringe-below-average: one proven G5 starter + adds, zero continuity."
    ],
-   "key_players": [{"name": "Aaron Alexander", "role": "LB (Arkansas State)", "evidence": "PFF 77.0 on 585 snaps 2025; 'should bolster' (Athlon)"}],
-   "data_gaps": ["Second LB spot wholly unproven"],
-   "g5_guard_note": null},
-  {"team": "North Texas", "unit": "DB", "grade": 35, "confidence": "L",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "key_players": [
+    {
+     "name": "Aaron Alexander",
+     "role": "LB (Arkansas State)",
+     "evidence": "PFF 77.0 on 585 snaps 2025; 'should bolster' (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "Second LB spot wholly unproven"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "North Texas",
+   "unit": "DB",
+   "grade": 35,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "The 8th-in-FBS pass defense (166.2 ypg - Athlon) is entirely gone (Jones 77.1/886, Fisher 73.8/718, Armstead 68.7/702, Lewis 75.9/437 - expired/OkState; Smith-Young to Duke).",
     "The rebuild has a scheme bridge: the Jenkins twins followed DC Powledge from Baylor and 'should fill starting roles' (Athlon); the rest is P4-depth quantity (Auburn/WVU/Boise/Arkansas x2) without FBS starter volume.",
     "35 = bottom-third: better credentialed than the DL rebuild, nothing proven at volume."
    ],
-   "key_players": [{"name": "Caden Jenkins", "role": "CB (Baylor, DC bridge)", "evidence": "followed Powledge; 'should fill starting roles' (Athlon 2026)"}, {"name": "Cameren Jenkins", "role": "S (Baylor, twin)", "evidence": "same"}],
-   "data_gaps": ["No projected starter has 300+ FBS snaps at position"],
-   "g5_guard_note": null},
-  {"team": "North Texas", "unit": "ST", "grade": 55, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "key_players": [
+    {
+     "name": "Caden Jenkins",
+     "role": "CB (Baylor, DC bridge)",
+     "evidence": "followed Powledge; 'should fill starting roles' (Athlon 2026)"
+    },
+    {
+     "name": "Cameren Jenkins",
+     "role": "S (Baylor, twin)",
+     "evidence": "same"
+    }
+   ],
+   "data_gaps": [
+    "No projected starter has 300+ FBS snaps at position"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "North Texas",
+   "unit": "ST",
+   "grade": 55,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "The roster's best returning asset: K Nguma (year-2) made 92.3% of his FG attempts in 2025 (Athlon).",
     "The App State specialist battery arrives around him (P Ratliff, LS Poff, K De Freitas as competition) - imported competence at every spot.",
     "2025 SPEC 73.9. 55 = above average: proven young kicker + credentialed imports on a roster with little else proven."
    ],
-   "key_players": [{"name": "Kali Nguma", "role": "K, returning", "evidence": "92.3% FG 2025 (Athlon); year-2 player"}, {"name": "Ian Ratliff", "role": "P (App State)", "evidence": "portal battery import w/ LS Poff"}],
-   "data_gaps": ["Return game unnamed"],
-   "g5_guard_note": null}
+   "key_players": [
+    {
+     "name": "Kali Nguma",
+     "role": "K, returning",
+     "evidence": "92.3% FG 2025 (Athlon); year-2 player"
+    },
+    {
+     "name": "Ian Ratliff",
+     "role": "P (App State)",
+     "evidence": "portal battery import w/ LS Poff"
+    }
+   ],
+   "data_gaps": [
+    "Return game unnamed"
+   ],
+   "g5_guard_note": null
+  }
  ]
 }

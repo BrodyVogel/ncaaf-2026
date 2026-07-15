@@ -1,16 +1,16 @@
 {
- "run_utc": "2026-07-15T02:09:20+00:00",
+ "run_utc": "2026-07-15T14:24:43+00:00",
  "team": "UAB",
- "final": -11.93,
- "rank": 122,
+ "final": -11.75,
+ "rank": 121,
  "band": 7.19,
- "resid": 9.18,
- "adj": 3.21,
+ "resid": 9.69,
+ "adj": 3.39,
  "class_term": 1.68,
  "st": 0.1,
  "anchor_blend": -17.36,
- "implied_off": 24.21,
- "implied_def": 31.89,
+ "implied_off": 24.47,
+ "implied_def": 31.64,
  "anchor_off": 20.67,
  "anchor_def": 37.53,
  "fit_r2": {
@@ -18,6 +18,6 @@
   "dfn": 0.609
  },
  "low_conf_units": 2,
- "code_rev": "297062e",
+ "code_rev": "8537938",
  "mode": "PILOT-OOS"
 }
