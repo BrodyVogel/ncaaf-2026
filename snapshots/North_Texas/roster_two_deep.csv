@@ -1,0 +1,23 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Tayven Jackson OR Chris Jimerson Jr.,SR/SO,UCF transfer / returner,Jackson PFF 59.4/349 at UCF 2025 (Indiana before); Jimerson 4 gm as true FR 2025; Ditta (ECU 59.6/30) 3rd. Mestemaker (88.3/506) -> Oklahoma State w/ HC Morris
+RB,RB,1,Jahiem White,JR,West Virginia transfer,Freshman All-American UNDER NEAL BROWN at WVU 2023; Athlon AAC #2 transfer ("big-play potential + P4 experience"); Hawkins (92.6/231) -> OkState
+RB,RB,2,Brendon Haygood / Colin Page / Nick Osho,,Missouri / Texas / Indiana State,depth adds; McGill -> ACU; Gray -> ECU
+WRTE,WR,1,TJ Chukwurah,,Black Hills State (D2) transfer,D2 All-American (Athlon)
+WRTE,WR,1,Corri Milliner,,UAB transfer,PFF 68.9/160
+WRTE,WR,2,Josiah Martin / Justin Stevenson / James Tyre / Grayson O'Bara,,Oklahoma / Utah / W.Carolina / Dartmouth,P4+FCS depth; DEPARTED: Young (89.0/343) -> OkSt + Dorner (79.9/372 SR expired) + Coleman (81.1/208) -> OkSt + Sides -> ECU
+WRTE,TE,1,Drew Clemens / Max Reese / Brec Long,,Utah / Miss State / South Alabama,Long 64.3/42; Tre Williams (56.2/296) expired
+OL,OL,1,Chandler Strong,SR,Georgia Southern transfer,30 career starts (Athlon) - the anchor add
+OL,OL,1,Neto Umeozulu,,Texas transfer,P4 pedigree; Johnny Williams IV + Henry Fenuku (Missouri) also in
+OL,OL,2,Andrew Cunningham,,Charlotte transfer,PFF 64.2/163 at CLT; DEPARTED: Blair (82.7/868 expired) + Yanta (72.1/969 SR) + Obidegwu (74.3/685 SR) + Nelson/Dickson/Magiya -> OkState; effectively ZERO returning OL starters
+DL,DL,1,Terrell Washington,SO,returner,"most experience among returning DL" (Athlon) - PFF 49.4/347
+DL,DL,1,Jahzari Priester / Justin Benton / Steven Curtis,,Virginia Tech / ECU / Minnesota,Benton 63.3/250 at ECU; P4 depth adds
+DL,EDGE,2,Curlee Thomas / David Onuoha / Udoka Ezeani / Davion Rhodes,,Cal / UMass / UTEP / GaSouthern,DEPARTED: Day (75.4/654) -> Utah + Huddleston/Clements/Pierce/Williams/Vailea (OkSt/Cal); 2025 unit was already 12th pctile
+LB,LB,1,Aaron Alexander,,Arkansas State transfer,PFF 77.0/585 - the headline defensive add
+LB,LB,1,Zakye Barker,,SMU transfer,PFF 61.5/242
+LB,LB,2,Chantz Johnson / Cedric Roberts,,Texas State / Alcorn,DEPARTED: Wesloski (90.6/804) -> OkSt + Fields (78.1/880 SR) + Whitter (79.8/468 SR) - an elite 2025 LB room gone entirely
+DB,CB,1,Caden Jenkins,,Baylor transfer (followed DC Powledge),"should fill starting roles" w/ twin (Athlon)
+DB,S,1,Cameren Jenkins,,Baylor transfer (twin),same
+DB,DB,2,Taye Seymore / Jason Cross / Ja'Bree Bickham / Jaden Allen / Keshawn Davila / Brandon Jones / Zach Johnson,,Auburn / WVU / Boise / Arkansas / Arkansas / McNeese / SE Louisiana,P4-depth patchwork; DEPARTED: entire 8th-in-FBS pass D (Jones 77.1/886 SR + Fisher 73.8/718 SR + Armstead 68.7/702 SR + Smith-Young -> Duke + Lewis/Hammonds/Jackson -> OkSt)
+ST,K,1,Kali Nguma,SO,RETURNER,92.3% FG 2025 (Athlon) - year-2 player, the roster's best returning asset
+ST,P,1,Ian Ratliff,,App State transfer,w/ LS Poff + K De Freitas (all App State specialists imported)
+ST,COORD,1,Neal Brown (HC yr 1) / DC Matt Powledge (Baylor),,,COACH CHANGE x1.13; Morris -> Oklahoma State (took QB/RB/WR1/3 OL/4 DB/1 LB/2 DL)

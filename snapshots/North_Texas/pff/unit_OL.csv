@@ -1,0 +1,18 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Tay Yanta II,144742,C,N TEXAS,14,100.0,0,251,72.1,84.2,71.4,1,8,508,100.0,100.0,99.1,10,9,0,969,967,0,1,969,541,541,0,0,428,0,2025_this_team
+Braydon Nelson,190617,T,N TEXAS,14,100.0,0,251,71.6,69.0,71.3,4,16,505,100.0,100.0,97.0,8,25,5,961,0,0,736,961,537,537,49,173,424,3,2025_this_team
+Gabe Blair,145323,G,N TEXAS,13,100.0,0,251,82.7,80.8,82.1,0,11,441,100.0,100.0,98.3,0,13,2,868,0,768,0,868,472,472,100,0,396,0,2025_this_team
+Johnny Dickson III,157660,G,N TEXAS,13,100.0,0,251,71.9,73.3,72.6,2,9,430,100.0,100.0,98.3,4,13,2,818,0,0,0,818,456,456,818,0,362,0,2025_this_team
+Chandler Strong,158365,C,GA SOUTHRN,13,100.0,0,174,63.2,73.1,58.0,2,10,388,100.0,100.0,97.7,2,15,3,712,712,0,0,712,407,407,0,0,305,0,arrival_2025_at_GA SOUTHRN
+Jimto Obidegwu,144395,T,N TEXAS,12,100.0,0,251,74.3,78.7,69.4,2,8,346,100.0,100.0,98.6,2,10,0,685,0,0,0,685,367,367,0,684,318,1,2025_this_team
+Desmond Magiya,173208,T,N TEXAS,11,100.0,0,251,65.9,55.4,68.6,1,6,182,100.0,100.0,98.1,2,7,0,368,0,116,251,368,196,196,0,0,172,1,2025_this_team
+Ugonna Nnanna,123675,G,N TEXAS,8,100.0,0,251,62.1,73.5,58.5,0,0,62,100.0,100.0,98.4,0,1,1,133,0,118,14,133,63,63,0,0,70,0,2025_this_team
+Larry Moore III,123149,T,N TEXAS,8,99.2,0,251,62.1,49.5,64.5,0,3,53,100.0,98.2,97.2,0,3,0,131,0,0,0,132,55,56,14,116,76,0,2025_this_team
+Keon Johnson,173205,T,N TEXAS,8,100.0,0,251,55.4,60.0,53.7,0,2,26,100.0,100.0,96.2,0,2,0,103,0,0,20,103,32,32,29,52,71,1,2025_this_team
+Neto Umeozulu,163866,G,TEXAS,4,100.0,0,311,67.7,86.3,64.2,0,1,31,100.0,100.0,98.4,0,1,0,76,0,73,3,76,31,31,0,0,45,0,arrival_2025_at_TEXAS
+Amarion Berry,190603,C,N TEXAS,7,100.0,0,251,65.2,78.2,62.5,0,0,8,100.0,100.0,100.0,0,0,0,65,63,0,0,65,10,10,0,0,55,1,2025_this_team
+Johnny Williams IV,173193,T,MISSOURI,3,100.0,0,229,63.8,75.9,61.2,0,0,8,100.0,100.0,100.0,0,0,0,52,0,0,12,52,8,8,0,40,44,0,arrival_2025_at_MISSOURI
+Dylan Shaw,173647,G,N TEXAS,2,100.0,0,251,55.5,82.7,50.9,0,0,18,100.0,100.0,100.0,0,0,0,45,0,29,0,45,20,20,16,0,25,0,2025_this_team
+Henry Fenuku,198875,G,MISSOURI,3,100.0,0,229,78.3,74.3,75.7,0,0,3,100.0,100.0,100.0,0,0,0,20,4,0,0,20,3,3,16,0,17,0,arrival_2025_at_MISSOURI
+Jaymon Lamb,178179,T,N TEXAS,3,100.0,0,251,65.2,,64.1,0,0,0,,,,0,0,0,14,0,0,7,14,0,0,0,3,14,3,2025_this_team
+Willie Goodacre,197641,G,N TEXAS,1,100.0,0,251,60.5,72.6,60.0,0,0,1,100.0,100.0,100.0,0,0,0,4,0,0,0,4,1,1,4,0,3,0,2025_this_team

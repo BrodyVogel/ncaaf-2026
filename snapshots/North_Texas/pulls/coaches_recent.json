@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Eric",
+  "lastName": "Morris",
+  "hireDate": "2022-12-13T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "North Texas",
+    "year": 2024,
+    "games": 13,
+    "wins": 6,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -5.5,
+    "spOverall": -4.5,
+    "spOffense": 33.3,
+    "spDefense": 37
+   }
+  ]
+ },
+ {
+  "firstName": "Eric",
+  "lastName": "Morris",
+  "hireDate": "2022-12-13T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "North Texas",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 10.6,
+    "spOverall": 13.8,
+    "spOffense": 43.1,
+    "spDefense": 28.6
+   }
+  ]
+ }
+]
