@@ -1,0 +1,111 @@
+{
+ "team": "Navy",
+ "units": {
+  "QB": {"grade": 45, "confidence": "L"},
+  "RB": {"grade": 40, "confidence": "M"},
+  "WRTE": {"grade": 38, "confidence": "M"},
+  "OL": {"grade": 48, "confidence": "M"},
+  "DL": {"grade": 18, "confidence": "M"},
+  "LB": {"grade": 40, "confidence": "M"},
+  "DB": {"grade": 32, "confidence": "M"},
+  "ST": {"grade": 55, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (OL 44, DL 5, LB 16, DB 18, ST 57)",
+   "OL": "+4 (agree; All-AAC RT + 4 returning starters)",
+   "DL": "+13 (proxy prices the All-American's departure fully; Klenk/Willis + scheme rotation keep a floor)",
+   "LB": "+24 (LB caution: proxy misses that BOTH ILBs return incl. Cauley 79.2/517)",
+   "DB": "+14 (proxy misses the 4-of-5 continuity + the Hamilton-move improvement arc)",
+   "ST": "-2 (agree)"
+  }
+ },
+ "grades_detail": [
+  {"team": "Navy", "unit": "QB", "grade": 45, "confidence": "L",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "First-year starter replacing a 75th-pctile season (Horvath 82.1/188), but with real markers: named team CAPTAIN (official, 2026-04-26), led TD drives in relief vs ECU 2025, 104 rush yds vs SMU (PS), 6-3 with 'sprinter's speed' and time at QB/SB/WR (Athlon 2026).",
+    "System continuity is strong (Cronic's hybrid Wing-T, year 3) and option QBs inherit manufactured production; the passing ceiling and zero starts cap it.",
+    "CFN's glowing stat line was detected as a Horvath conflation and excluded (conflicts lean the corroborating magazines - logged).",
+    "45 = below-average nationally, top of the 'unproven with strong indicators' band - above Iowa-32-style voids, below Army's proven Hellums (62)."
+   ],
+   "key_players": [{"name": "Braxton Woodson", "role": "QB1, captain", "evidence": "captain (navysports.com 2026-04-26); relief TD drives vs ECU + 104 rush vs SMU 2025 (PS); zero starts"}],
+   "data_gaps": ["No starting sample", "Career passing totals unverifiable in accessible sources"],
+   "g5_guard_note": null},
+  {"team": "Navy", "unit": "RB", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Illinois RB 2025 (32)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "The 77th-pctile 2025 corps is gone with the big three: Tecza (76.8/158) and Heidenreich (92.9 on 77 att + 51 catches) took most of the non-Horvath production.",
+    "Returners are system-fit but unproven: C.Robinson won the spring most-improved award (Athlon), Bryant rotates, FB Listorti is a hamstring 'question mark,' Chatman graded 61.0/55.",
+    "Wing-T manufactures slotback yards - the scheme floor holds this at 40 rather than lower; nothing argues average."
+   ],
+   "key_players": [{"name": "Charles Robinson", "role": "SB, spring riser", "evidence": "Admiral Mack Award (most improved), spring 2026 (Athlon)"}],
+   "data_gaps": ["Listorti health", "No returner above 61 PFF at meaningful volume"],
+   "g5_guard_note": null},
+  {"team": "Navy", "unit": "WRTE", "grade": 38, "confidence": "M",
+   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "rationale_bullets": [
+    "Option room with no qualifying 2025 volume; the pieces returning are decent for the role: Hutchison (72.8/49 - team's fastest player, shoulder-shortened 2025), TE Norris (69.2/47), Guerin (57.0/89).",
+    "OC Cronic explicitly wants split ends/TEs to become passing-game factors in year 3 (Athlon) - a usage bump signaled by the staff, not yet evidence.",
+    "38 = bottom-third: below Army's WRTE-40 (whose top grade was 78.1 at 2x the routes)."
+   ],
+   "key_players": [{"name": "Luke Hutchison", "role": "WR1/deep threat", "evidence": "PFF 72.8/49; fastest offensive player; missed 7 games 2025 - shoulder (Athlon)"}],
+   "data_gaps": ["Usage projection rests on a coordinator quote"],
+   "g5_guard_note": null},
+  {"team": "Navy", "unit": "OL", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "Four returning starters (Crowley 58.2/809, Nichols 65.6/589, Hoke Smith 61.9/697, M.Johnson 60.2/427) from a 42nd-pctile as-played unit - and Johnson carries All-AAC recognition ('among the best blockers in the AAC' - CFN 2026-06-03).",
+    "The best 2025 grade departs (Purvis 70.8/824); the returning grades are mid-tier, which caps a continuity story short of Army's 84-grade room.",
+    "48 = just below average: maximum continuity, moderate quality."
+   ],
+   "key_players": [{"name": "Malcolm Johnson", "role": "RT, All-AAC", "evidence": "PFF 60.2/427; All-AAC honors 2025 (CFN)"}, {"name": "Cam Nichols", "role": "C, returning starter", "evidence": "PFF 65.6/589"}],
+   "data_gaps": ["LG is a 136-snap returner"],
+   "g5_guard_note": null},
+  {"team": "Navy", "unit": "DL", "grade": 18, "confidence": "M",
+   "bracketing_exemplars": ["Florida International QB 2025 (15)", "Western Kentucky OL 2025 (25)"],
+   "rationale_bullets": [
+    "Loses a 1st-team All-American NG (Robinson 78.2/713) plus two more 600+-snap pieces (Pirris, Moutome) from a unit already just 22nd pctile - 'pass rush a genuine concern' (Athlon 2026).",
+    "Returning quality is one flash (Klenk 70.9/274) + one bold starter (Willis 58.8/643); the front is 'woefully undersized' by scheme design and rotation-managed (CFN).",
+    "18 = bottom-sixth: above FIU-15 on scheme-fit rotation, below WKU-25 on the star-sized hole."
+   ],
+   "key_players": [{"name": "Adam Klenk", "role": "DE, best returning grade", "evidence": "PFF 70.9 on 274 snaps 2025"}, {"name": "Griffen Willis", "role": "DT, returning starter", "evidence": "PFF 58.8/643"}],
+   "data_gaps": ["NG replacement is a 146-snap junior", "New DC's front preferences unobserved"],
+   "g5_guard_note": null},
+  {"team": "Navy", "unit": "LB", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Illinois RB 2025 (32)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "Both ILBs return with real profiles: Cauley (PFF 79.2 on 517 snaps - the best returning defensive grade on the roster) and Parker (team-high 97 tkl, 6.5 TFL; 58.0/662) - combined 176 tackles (Athlon 2026).",
+    "The 15th-pctile as-played number is dragged by the -10.7 AAC LB offset and a departed low grade; LB caution rule applies to the baseline more than to Cauley's individual season.",
+    "OLB spots are sophomore projections (Miller, C.Johnson) under a new DC. 40 = fringe-below-average: a proven, well-graded ILB duo with young edges."
+   ],
+   "key_players": [{"name": "Coleman Cauley", "role": "ILB, returning starter", "evidence": "PFF 79.2 on 517 snaps 2025"}, {"name": "MarcAnthony Parker", "role": "ILB, returning starter", "evidence": "97 tkl (team high), 6.5 TFL 2025 (CFN)"}],
+   "data_gaps": ["Both OLBs unproven", "New DC scheme usage"],
+   "g5_guard_note": null},
+  {"team": "Navy", "unit": "DB", "grade": 32, "confidence": "M",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "UNLV LB 2025 (40)"],
+   "rationale_bullets": [
+    "Four of five return, including the fix that worked: pass defense 'improved dramatically' after Hamilton's midseason move to safety (Athlon), and he led the secondary with 3 INT (CFN); Sessi (81 tkl, signal-caller, captain) anchors.",
+    "Raw grades stay modest (Sessi/Hamilton 62.7 at 750+ snaps; Oniha 70.0/399 the best) from a 15th-pctile as-played unit; losses are absorbable (Ross 57.1 to Virginia, Campbell 67.7).",
+    "32 = bottom-third with continuity and a documented late-2025 improvement arc; the new DC inherits rather than rebuilds."
+   ],
+   "key_players": [{"name": "Giuseppe Sessi", "role": "SS, captain/signal-caller", "evidence": "81 tkl (2nd on team) 2025; captain (2026-04-26)"}, {"name": "Phillip Hamilton", "role": "FS", "evidence": "3 INT led secondary 2025 (CFN); PFF 62.7/752"}],
+   "data_gaps": ["CB2 experience thin behind Bell/Oniha"],
+   "g5_guard_note": null},
+  {"team": "Navy", "unit": "ST", "grade": 55, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "The punter is a proven weapon: Carlson 44.5 avg as a freshman-season starter (Athlon 2026); academy coverage culture behind him.",
+    "The kicker is the risk: Welch (SO, no attempts) replaces Kirkwood's precision season (53-53 XP, 10-11 FG - CFN) on a team that wins close games.",
+    "2025 team SPEC 75.2; 55 = above average on the punter/coverage floor, capped by the unproven K."
+   ],
+   "key_players": [{"name": "Jacob Carlson", "role": "P, returning", "evidence": "44.5 avg 2025 (Athlon)"}, {"name": "Justin Welch", "role": "K, first-year", "evidence": "replaces Kirkwood (53-53 XP, 10-11 FG 2025 - CFN); no attempts"}],
+   "data_gaps": ["Welch has no college attempts", "Return roles unnamed"],
+   "g5_guard_note": null}
+ ]
+}
