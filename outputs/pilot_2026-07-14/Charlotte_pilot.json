@@ -1,0 +1,23 @@
+{
+ "run_utc": "2026-07-15T00:18:18+00:00",
+ "team": "Charlotte",
+ "final": -17.49,
+ "rank": 135,
+ "band": 7.59,
+ "resid": 11.3,
+ "adj": 3.96,
+ "class_term": 1.68,
+ "st": -0.56,
+ "anchor_blend": -23.0,
+ "implied_off": 21.09,
+ "implied_def": 32.28,
+ "anchor_off": 15.1,
+ "anchor_def": 37.6,
+ "fit_r2": {
+  "off": 0.542,
+  "dfn": 0.609
+ },
+ "low_conf_units": 6,
+ "code_rev": "c8f9247",
+ "mode": "PILOT-OOS"
+}
