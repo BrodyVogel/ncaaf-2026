@@ -56,7 +56,8 @@
     "fcs_to_g5_coaches": "+1.9 pts vs other coach changes, t=+1.3 (n=52) - underpowered for a mechanical adjustment; handled qualitatively in grading evidence; re-test after 2026",
     "coach_prior_hc_experience": "similar magnitude, t=+1.4 - same treatment",
     "roster_membership_sensitivity": "optional gamma re-measure with CFBD-roster membership (expected 0.25-0.30); not run",
-    "low_conf_band_term": "+3%/L-unit and dispersion x1.10 are judgment values - calibrate against realized 2026 misses + test-retest disagreement after season"
+    "low_conf_band_term": "+3%/L-unit and dispersion x1.10 are judgment values - calibrate against realized 2026 misses + test-retest disagreement after season",
+    "component_specific_k": "2026-07-15: split k into level vs shape loadings at full-138 recheck (resid_pattern_check.py findings: anchor under-regresses at -0.193/pt; applied level-fade 0.202 matches; shape loading untested separately)"
   },
   "blinding_v2": {
     "adopted": "2026-07-14 (user-approved amendment to settled SS4)",
