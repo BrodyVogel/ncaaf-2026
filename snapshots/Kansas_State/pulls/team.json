@@ -1,0 +1,36 @@
+{
+ "id": 2306,
+ "school": "Kansas State",
+ "mascot": "Wildcats",
+ "abbreviation": "KSU",
+ "alternateNames": [
+  "KSU",
+  "Kansas St"
+ ],
+ "conference": "Big 12",
+ "division": null,
+ "classification": "fbs",
+ "color": "#3c0969",
+ "alternateColor": "#e2e3e4",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2306.png"
+ ],
+ "twitter": "@KStateFB",
+ "location": {
+  "id": 3636,
+  "name": "Bill Snyder Family Stadium",
+  "city": "Manhattan",
+  "state": "KS",
+  "zip": "66502",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 39.2020096,
+  "longitude": -96.5938395,
+  "elevation": "328.0574646",
+  "capacity": 50000,
+  "constructionYear": 1968,
+  "grass": false,
+  "dome": false
+ }
+}

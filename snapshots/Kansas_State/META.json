@@ -1,0 +1,28 @@
+{
+ "team": "Kansas State",
+ "conference": "Big 12",
+ "created_utc": "2026-07-15T17:48:26+00:00",
+ "assembler_git_rev": "befc154",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "OL interior unsettled (3-way transfer battle)",
+  "Manning: 4* pedigree, zero 2025 tape",
+  "New DL two-deep cohesion",
+  "First-year HC w/ strong continuity mitigants"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": "Klieman retired -> Collin Klein (alum; OC here 22-23; A&M OC) - x1.13 w/ continuity mitigants",
+ "portal_withdrawal_overrides": [
+  "Donovan McIntosh"
+ ],
+ "portal_departure_confirmed": [
+  "Terrence Enos Jr."
+ ],
+ "adjudication_notes": {
+  "Donovan McIntosh": "portal destination None; PRESENT on May-printed Athlon KSU depth chart (CB) + P6 explicit 'two returning starters are the two corners: Donovan McIntosh and all-league Zashon Rich' -> WITHDREW, returns",
+  "Terrence Enos Jr.": "portal destination None; ABSENT from Athlon KSU depth chart, no dated beat note of withdrawal -> adjudicated GONE per standing rule"
+ }
+}
