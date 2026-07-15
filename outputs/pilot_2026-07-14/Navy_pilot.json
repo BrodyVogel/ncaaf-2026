@@ -1,0 +1,23 @@
+{
+ "run_utc": "2026-07-15T01:39:31+00:00",
+ "team": "Navy",
+ "final": 0.31,
+ "rank": 63,
+ "band": 6.18,
+ "resid": -6.34,
+ "adj": -2.22,
+ "class_term": 1.68,
+ "st": 0.1,
+ "anchor_blend": 0.27,
+ "implied_off": 24.13,
+ "implied_def": 30.39,
+ "anchor_off": 27.39,
+ "anchor_def": 27.31,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.622
+ },
+ "low_conf_units": 1,
+ "code_rev": "f2ef3a5",
+ "mode": "PILOT-OOS"
+}
