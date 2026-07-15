@@ -1,13 +1,13 @@
 # Tulane — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **+1.70** (rank 55/138 in hybrid field)  band ±7.39
+FINAL: **+1.34** (rank 58/138 in hybrid field)  band ±7.39
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    45 | proxy 77
 - RB    58 | proxy —
 - WRTE  46 | proxy 56
 - OL    30 | proxy 33
-- DL    50 | proxy 10
+- DL    38 | proxy 10
 - LB    28 | proxy 1
 - DB    42 | proxy 15
 - ST    52 | proxy 76
@@ -16,8 +16,8 @@ FINAL: **+1.70** (rank 55/138 in hybrid field)  band ±7.39
 - off: QB:+0.073 RB:+0.092 WRTE:+0.037 OL:+0.082  (R²=0.54)
 - def: DL:-0.084 LB:-0.064 DB:-0.095  (R²=0.63)
 - grade-implied off +24.63 vs anchor off +25.19
-- grade-implied def +27.52 vs anchor def +25.31
-- residual (off-minus-def, grades-vs-anchor): **-2.77**
+- grade-implied def +28.53 vs anchor def +25.31
+- residual (off-minus-def, grades-vs-anchor): **-3.78**
 
 ## 3. Anchor (per source: raw → normalized → used)
 - SP+      -5.5 → -5.5 → -2.26  [WINSORIZED]
@@ -28,7 +28,7 @@ FINAL: **+1.70** (rank 55/138 in hybrid field)  band ±7.39
 - blend 0.47  (dispersion 9.62)
 
 ## 4. Assembly
-- anchor +0.47  class +1.68  k×resid -0.97 (k=0.35, cap ±6.0)  ST +0.04  → recentered (-0.48) → **+1.70**
+- anchor +0.47  class +1.68  k×resid -1.32 (k=0.35, cap ±6.0)  ST +0.04  → recentered (-0.48) → **+1.34**
 - band: 6.0 × coach(1.13) × dispersion(1.00) × conf(1+0.03×3) = ±7.39
 
 ## 5. Pilot caveats

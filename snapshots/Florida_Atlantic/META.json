@@ -7,11 +7,15 @@
  "known_gaps": [
   "CFBD 2026 feeds not published; portal feed missed Burris/Ware/Valsin origin (recovered via Athlon)",
   "Veltkamp offseason shoulder surgery - recovery status unverified",
-  "OL: Jean absence unresolved; C/RG alignment fluid"
+  "OL: Jean absence unresolved; C/RG alignment fluid",
+  "portal-withdrawal override recorded: Denaud: portal 2025-12-05 no dest; on Athlon May chart (p6) = withdrew"
  ],
  "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
  "frozen": true,
  "research_completed_utc": "2026-07-15",
  "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
- "coach_change": false
+ "coach_change": false,
+ "portal_withdrawal_overrides": [
+  "Wilky Denaud"
+ ]
 }

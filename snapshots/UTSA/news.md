@@ -11,3 +11,5 @@
 ## Dead ends (logged)
 - PS box not OCR'd (logged trim); San Antonio Express-News paywall; Blackshire/Lewis/Wilkerson 2026
   status unverified (not in feed, not Athlon-named - logged).
+
+- CORRECTION 2026-07-15 (departure check): Overmyer -> Houston, Anyanwu -> Virginia, Wyrick portal-no-dest adjudicated GONE (not on Athlon chart); McCuin -> Ohio St (PS). WRTE 52->48, DL 22->20, DB 28->23.

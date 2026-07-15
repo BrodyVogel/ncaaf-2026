@@ -15,3 +15,5 @@
 ## Dead ends (logged)
 - nola.com paywall; PS Tulane box not OCR'd (logged trim); spring game detail inaccessible;
   Agu ACL recovery status beyond Athlon's framing unknown.
+
+- CORRECTION 2026-07-15 (departure check): Hopper -> Colorado (portal Jan 5). Original research claimed his return; DL re-graded 50 -> 38.

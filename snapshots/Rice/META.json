@@ -7,11 +7,16 @@
  "known_gaps": [
   "PS box not OCR'd (conscious trim, logged)",
   "CB Watson origin unverified (feed miss)",
-  "QB battle Brown/Ochoa unresolved; LB starters have no 2025 volume"
+  "QB battle Brown/Ochoa unresolved; LB starters have no 2025 volume",
+  "portal-withdrawal override recorded: B.Walker + Valent: portal Jan no dest; both on Athlon May chart (Valent BOLD) = withdrew"
  ],
  "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
  "frozen": true,
  "research_completed_utc": "2026-07-15",
  "research_procedure": "RESEARCH_PROCEDURE.md v2.1 (with logged PS-box trim)",
- "coach_change": false
+ "coach_change": false,
+ "portal_withdrawal_overrides": [
+  "Braylen Walker",
+  "Patrick Valent"
+ ]
 }

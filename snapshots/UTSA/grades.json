@@ -10,7 +10,7 @@
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 52,
+   "grade": 48,
    "confidence": "M"
   },
   "OL": {
@@ -18,7 +18,7 @@
    "confidence": "L"
   },
   "DL": {
-   "grade": 22,
+   "grade": 20,
    "confidence": "L"
   },
   "LB": {
@@ -26,7 +26,7 @@
    "confidence": "L"
   },
   "DB": {
-   "grade": 28,
+   "grade": 23,
    "confidence": "L"
   },
   "ST": {
@@ -47,7 +47,8 @@
    "DB": "+17 (Wyrick anchor + adds over floor)",
    "ST": "+36 (proxy artifact vs Athlon's returns-all claim)"
   },
-  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +High RB 54.0/23 (Cal) - confirms the 'usage minimal' discount already in the rationale; +Osondu LB 1 snap (inert). No changes."
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +High RB 54.0/23 (Cal) - confirms the 'usage minimal' discount already in the rationale; +Osondu LB 1 snap (inert). No changes.",
+  "departure_correction_2026_07_15": "Overmyer->Houston, Anyanwu->Virginia (feed destinations); Wyrick portal-no-dest + absent from Athlon chart = gone; McCuin->Ohio St per PS. WRTE 52->48, DL 22->20, DB 28->23. departure_check.py now a permanent gate."
  },
  "grades_detail": [
   {
@@ -107,27 +108,27 @@
   {
    "team": "UTSA",
    "unit": "WRTE",
-   "grade": 52,
+   "grade": 48,
    "confidence": "M",
    "bracketing_exemplars": [
     "Nebraska WRTE 2025 (50)",
     "Wake Forest DL 2025 (60)"
    ],
    "rationale_bullets": [
-    "Two standouts + the TE return from a 75th-pctile room (Amador 71.4/270 - yr-2; Wilson 66.3/237; Overmyer 76.2/212 - yr-2); the ceiling piece was poached by Ohio State (McCuin 77.7/322).",
-    "Adds are P4-depth with pedigree (West-TT, Madison-Mizzou) in a scheme now built for downfield shots.",
-    "52 = average-plus: strong returning base, star gone, QB health linked."
+    "CORRECTED 2026-07-15 (departure check): TE Overmyer (76.2/212, the best returning grade) is GONE to Houston (portal Jan 7); PS separately confirms McCuin (77.7/322) left for Ohio State.",
+    "What actually returns: Amador (71.4/270, yr-2) + Wilson (66.3/237) + P4 depth transfers.",
+    "48 = fringe-average: a real yr-2 WR1 and credible volume, minus both of last year's best grades."
    ],
    "key_players": [
     {
-     "name": "David Amador II",
-     "role": "WR, returning standout",
-     "evidence": "PFF 71.4/270 2025 (Athlon)"
+     "name": "David Amador",
+     "role": "WR1, yr-2",
+     "evidence": "PFF 71.4/270"
     },
     {
-     "name": "Patrick Overmyer",
-     "role": "TE, yr-2 returner",
-     "evidence": "PFF 76.2/212"
+     "name": "Jamel Wilson",
+     "role": "WR",
+     "evidence": "PFF 66.3/237"
     }
    ],
    "data_gaps": [
@@ -165,22 +166,27 @@
   {
    "team": "UTSA",
    "unit": "DL",
-   "grade": 22,
+   "grade": 20,
    "confidence": "L",
    "bracketing_exemplars": [
     "Florida International QB 2025 (15)",
     "Western Kentucky OL 2025 (25)"
    ],
    "rationale_bullets": [
-    "7th-pctile as-played AND raided: Ozowalu (74.5) to Oklahoma, Otutu to Cincinnati, Wimberly to Baylor, J.Jones (74.5) expired.",
-    "Returns are young rotation (Anyanwu 63.4/278 - yr-2, Buxton 62.7/275, Shaw 59.0/397 - yr-2); adds are quantity (TT pair, UL's Fite, BG's Acheampong, UTEP's Baldwin).",
-    "22 = bottom-sixth: the youth is the only argument above the FIU line."
+    "CORRECTED 2026-07-15 (departure check): Anyanwu (63.4/278, listed yr-2 returner) is GONE to Virginia (portal Jan 9).",
+    "Remaining: Buxton (62.7/275), Shaw (59.0/397) + the Texas Tech transfer pair - a floor-tier room that lost one of its few rotation grades.",
+    "20 = bottom-sixth: thinner than the original 22."
    ],
    "key_players": [
     {
-     "name": "Nnanna Anyanwu",
-     "role": "DE, yr-2 returner",
-     "evidence": "PFF 63.4/278"
+     "name": "Trey Buxton",
+     "role": "DE, returning",
+     "evidence": "PFF 62.7/275"
+    },
+    {
+     "name": "Vie Shaw",
+     "role": "DI, yr-2",
+     "evidence": "PFF 59.0/397"
     }
    ],
    "data_gaps": [
@@ -218,22 +224,22 @@
   {
    "team": "UTSA",
    "unit": "DB",
-   "grade": 28,
+   "grade": 23,
    "confidence": "L",
    "bracketing_exemplars": [
     "Western Kentucky OL 2025 (25)",
     "Illinois RB 2025 (32)"
    ],
    "rationale_bullets": [
-    "Wyrick anchors (78.3 on 676 - year-2, the defensive centerpiece) but the room thinned: Milton expired, BOTH corners poached (Martin-Texas Tech, Meier-Cincinnati).",
-    "Rodgers (63.7/301) is the top returning CB; adds are LSU depth (Rogers) + FCS/D2 priors; as-played was 20th pctile with the departed corners.",
-    "28 = bottom-third: one excellent young safety, rebuilt everything else."
+    "CORRECTED 2026-07-15 (departure check): Wyrick (78.3/676 - 'the defensive anchor' of the original grade) entered the portal Dec 20 and is NOT on Athlon's May chart; adjudicated GONE.",
+    "Both 2025 CBs were already poached and Milton expired; what remains is Upshaw + transfer adds over a floor-tier baseline.",
+    "23 = bottom-quarter: the anchor premium in the original 28 is removed."
    ],
    "key_players": [
     {
-     "name": "Jimmy Wyrick",
-     "role": "S, yr-2 anchor",
-     "evidence": "PFF 78.3 on 676 snaps 2025"
+     "name": "Grayson Upshaw",
+     "role": "S, returning",
+     "evidence": "rotation returner"
     }
    ],
    "data_gaps": [

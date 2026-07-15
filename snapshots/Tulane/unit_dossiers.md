@@ -4,7 +4,7 @@ Compiled 2026-07-15. Sumrall->Florida; Hall promoted (x1.13, continuity mitigant
 young defensive core (6 of top 10 tacklers) + RB room, loses QB/OL/DL-stars/WR1 upward. AAC offsets std.
 
 Proxy (audit): QB 77 | WRTE 56 | OL 33 | DL 10 | LB 1 | DB 15 | ST 76.
-(Proxy QB 77 = Retzlaff artifact - he's done; DL 10 misses Hopper's yr-3 return; ST 76 rides departed punters.)
+(Proxy QB 77 = Retzlaff artifact - he's done; DL 10 was RIGHT (Hopper gone - correction 2026-07-15); ST 76 rides departed punters.)
 
 ## QB — 2025 as-played 75th pctile (Retzlaff 81.6/431, done)
 - Chriss (Houston; prior Louisiana starts - real dual-threat FBS tape) vs Semonza (productive 2024 MAC
@@ -24,9 +24,11 @@ Proxy (audit): QB 77 | WRTE 56 | OL 33 | DL 10 | LB 1 | DB 15 | ST 76.
   Hall out. Adds: Mickow (BC 59.6/93), Marks (Mercer FCS), Rushing (Mars Hill D2). As-played 48th ->
   full rebuild. 30, L.
 
-## DL — five stalwarts to P4s, but the room was deep by design
-- RETURNS: Hopper (80.2/661, yr-3 - elite interior), McAlpine (65.2/437), Garner (69.8/274).
-- GONE to P4: Nairne (Pitt), Dyson (NC State), Norman (Tennessee) + Hamilton/Westmoreland expired.
+## DL — six stalwarts out incl. the anchor (CORRECTED 2026-07-15, departure check)
+- RETURNS: McAlpine (65.2/437), Garner (69.8/274) + Ed Smith (61.1/413, S.Alabama - repair add).
+- GONE: Hopper (80.2/661, elite interior) -> COLORADO [original doc wrongly claimed his return;
+  his portal-out entry (Jan 5) was in this snapshot's own pulls] + Nairne (Pitt), Dyson (NC State),
+  Norman (Tennessee) + Hamilton/Westmoreland expired.
 - Attributed depth claim: Sumrall's backups "good enough to start elsewhere"; Athlon: "should not have
   a significant drop-off." Balanced vs as-played 37th: 50, M.
 

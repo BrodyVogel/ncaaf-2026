@@ -14,7 +14,7 @@ Proxy (audit): QB 50 | RB 88 | WRTE 57 | OL 38 | DL 1 | LB 19 | DB 11 | ST 16.
   Proxy 88 slightly hot (Henderson volume 125 att). 58, M.
 
 ## WRTE — standouts return, star poached
-- Amador (71.4/270, yr-2) + Wilson (66.3/237) + TE Overmyer (76.2/212, yr-2) return; McCuin (77.7/322)
+- Amador (71.4/270, yr-2) + Wilson (66.3/237) return; TE Overmyer (76.2/212) -> HOUSTON [corrected 2026-07-15]; McCuin (77.7/322)
   -> Ohio State; adds West (TT) + Madison (Mizzou). As-played 75th. 52, M.
 
 ## OL — the offense's weak link
@@ -24,7 +24,7 @@ Proxy (audit): QB 50 | RB 88 | WRTE 57 | OL 38 | DL 1 | LB 19 | DB 11 | ST 16.
 
 ## DL — 7th pctile and raided
 - Ozowalu (74.5) -> Oklahoma, Otutu -> Cincy, Wimberly -> Baylor, J.Jones (74.5) expired. Returns
-  Anyanwu (63.4/278, yr-2), Buxton (62.7/275), Shaw (59.0/397, yr-2), Blaylock. Adds: TT pair
+  Anyanwu (63.4/278) -> VIRGINIA [corrected 2026-07-15], Buxton (62.7/275), Shaw (59.0/397, yr-2), Blaylock. Adds: TT pair
   (Spencer/Smith), Fite (UL), Acheampong (BG), Baldwin (UTEP). 22, L.
 
 ## LB — Banks expired; mid-tier returns
@@ -32,7 +32,7 @@ Proxy (audit): QB 50 | RB 88 | WRTE 57 | OL 38 | DL 1 | LB 19 | DB 11 | ST 16.
   As-played 17th. LB caution. 30, L.
 
 ## DB — Wyrick anchors a thinned room
-- Wyrick (78.3/676, yr-2 - the defensive anchor) + Upshaw return; Milton expired; BOTH CBs poached
+- Wyrick (78.3/676) -> PORTAL Dec 20, not on Athlon chart = GONE [corrected 2026-07-15]; Upshaw returns; Milton expired; BOTH CBs poached
   (Martin-TT, Meier-Cincy); Rodgers (63.7/301) returns; adds Rogers (LSU) + FCS/D2 depth. 28, L.
 
 ## ST — continuity claim

@@ -18,7 +18,7 @@
    "confidence": "L"
   },
   "DL": {
-   "grade": 50,
+   "grade": 38,
    "confidence": "M"
   },
   "LB": {
@@ -48,7 +48,8 @@
    "DB": "+27 (proxy misses the young core's classes - Tchienchou/Adams/Shine all yr-1/2)",
    "ST": "-24 (proxy rides departed punters; K is new-proven, P open)"
   },
-  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Ed Smith DL 61.1/413 (S Alabama) - verified SBC rotation body; DL 50 unchanged (grade already believed the attributed depth claims this confirms)."
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Ed Smith DL 61.1/413 (S Alabama) - verified SBC rotation body; DL 50 unchanged (grade already believed the attributed depth claims this confirms).",
+  "departure_correction_2026_07_15": "Hopper wrongly claimed as returning (portal-out -> Colorado was in the frozen pulls; research misread). DL 50 -> 38. Caught by P6-Colorado cross-ref; departure_check.py now a permanent gate."
  },
  "grades_detail": [
   {
@@ -175,27 +176,33 @@
   {
    "team": "Tulane",
    "unit": "DL",
-   "grade": 50,
+   "grade": 38,
    "confidence": "M",
    "bracketing_exemplars": [
     "UNLV LB 2025 (40)",
     "Wake Forest DL 2025 (60)"
    ],
    "rationale_bullets": [
-    "Five stalwarts left for P4s (Nairne-Pitt, Dyson-NCST, Norman-Tennessee + two expired) - but the design absorbed it: Hopper (80.2 on 661 - elite interior, year-3) returns with McAlpine (65.2/437) and Garner (69.8/274).",
-    "The depth claim is attributed twice (Athlon: 'incredibly deep... should not have a significant drop-off'; Sumrall: backups 'good enough to start elsewhere'), and the proxy's 10 is a documented membership artifact.",
-    "50 = average: one elite returning piece + credible rotation vs real quality drain."
+    "CORRECTED 2026-07-15 (departure check): Hopper (80.2/661 - the elite interior anchor) is GONE to Colorado (portal Jan 5; P6-Colorado bills him as their headline DL add). The original 50 was built on his return - that claim was wrong.",
+    "SIX losses total: Hopper + Nairne (Pitt), Dyson (NC State), Norman (Tennessee) to P4s + Hamilton/Westmoreland expired, from a 37th-pctile as-played unit.",
+    "What actually returns: McAlpine (65.2/437), Garner (69.8/274) + repair-add Ed Smith (61.1/413 at S.Alabama); the attributed depth claims (Sumrall: backups 'good enough to start elsewhere') now carry the room alone.",
+    "38 = below average: credible rotation bodies, no anchor."
    ],
    "key_players": [
     {
-     "name": "Santana Hopper",
+     "name": "Patrick McAlpine",
      "role": "DT, returning",
-     "evidence": "PFF 80.2 on 661 snaps 2025; year-3"
+     "evidence": "PFF 65.2/437"
     },
     {
-     "name": "Jah'rie Garner",
-     "role": "EDGE, returner",
+     "name": "Kentrell Garner",
+     "role": "DE, returning",
      "evidence": "PFF 69.8/274"
+    },
+    {
+     "name": "Ed Smith",
+     "role": "DI transfer",
+     "evidence": "PFF 61.1/413 at South Alabama"
     }
    ],
    "data_gaps": [
