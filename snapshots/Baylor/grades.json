@@ -1,0 +1,334 @@
+{
+ "team": "Baylor",
+ "units": {
+  "QB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 38,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 47,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 38,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 52,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 57, RB 45, WRTE 87, OL 36, DL 50, LB 20, DB 60, ST 97)",
+   "WRTE": "-43 vs proxy 87 (expiration artifact: all four WRs + Trigg are yr-4-no-portal 'returners' to it; every one is gone)",
+   "LB": "+18 vs proxy 20 (proxy misses Barnes override return + transfer adds; my 38 is still L-confidence)",
+   "ST": "-45 vs proxy 97 (proxy rides both specialists; K left LATE portal window, only the Ray Guy punter returns)",
+   "QB": "-7 vs proxy 57 (proxy credits Robertson-era passing infrastructure; my 50 prices Lagway directly)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Baylor",
+   "unit": "QB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The volume king graduated (Robertson 70.3/590; 3,681-31, both top-5 national) and the replacement is the cycle's biggest QB swing: Lagway - #1 QB of the 2024 class, 16 Florida starts, 66.7/401 off his worst year (2nd-best SEC rating 2024 -> second-worst 2025).",
+    "The scheme-fit case is attributed and unusually specific: Spavital's offense 'reminds me of my high school offense' (5,500/75 in it at Willis); 6-5 240 adds a run element.",
+    "Depth is 7 career snaps (Bennett); the line in front is rebuilt.",
+    "50 = average: elite ceiling, off-year floor, no depth."
+   ],
+   "key_players": [
+    {
+     "name": "DJ Lagway",
+     "role": "QB1",
+     "evidence": "5-star, 16 UF starts; PFF 66.7/401"
+    },
+    {
+     "name": "Nate Bennett",
+     "role": "QB2",
+     "evidence": "7 career snaps"
+    }
+   ],
+   "data_gaps": [
+    "Lagway rebound unknowable",
+    "Zero proven depth"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Baylor",
+   "unit": "RB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "13th-pctile as-played room loses its volume back (Washington 70.3/163, fumbles -> Auburn).",
+    "The 2026 plan IS an injury return: Pendergrass missed all of 2025 (foot) and is the named lead (P6/Athlon agree); Knighten (68.3 on 111 att as a true FR) is the proven-est piece.",
+    "42 = below average: no returning 500-yd producer, lead back off a lost season, pass-tempo scheme."
+   ],
+   "key_players": [
+    {
+     "name": "Dawson Pendergrass",
+     "role": "RB1, injury return",
+     "evidence": "missed 2025 (foot); named lead (P6)"
+    },
+    {
+     "name": "Caden Knighten",
+     "role": "RB2",
+     "evidence": "104/469 as true FR; PFF 68.3/111"
+    }
+   ],
+   "data_gaps": [
+    "Pendergrass health",
+    "Committee order"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Baylor",
+   "unit": "WRTE",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Total target wipeout from a 75th-pctile room: all four WRs (Cameron 72.4/512 1st-tm All-B12, Hawkins, Wilson, Prentice) + TE Trigg (72.5/319) gone.",
+    "The replacement haul's verified tape is moderate: Freeman (66.0/266 OkSt), Gilmore (64.7/240 UK), Livingston TE (76.2 on just 60 routes, followed Lagway); the framed headliner Miller spent 2025 at RB (53.4/130) - his WR tape is 2024.",
+    "Returners Porter (58.4/78) + redshirt-override Brown IV (50 career routes) are projection, not production.",
+    "44 = fringe-below-average: bodies and pedigree without a proven 300-route FBS target; proxy's 87 is a documented expiration artifact."
+   ],
+   "key_players": [
+    {
+     "name": "Dre'lon Miller",
+     "role": "WR1 (framed)",
+     "evidence": "Colorado; 2024 WR starts, 2025 RB 53.4/130"
+    },
+    {
+     "name": "Gavin Freeman",
+     "role": "WR/KR",
+     "evidence": "PFF 66.0/266 at OkSt"
+    },
+    {
+     "name": "Tony Livingston",
+     "role": "TE",
+     "evidence": "Florida 4*; 76.2/60"
+    }
+   ],
+   "data_gaps": [
+    "No returning volume target",
+    "Miller position translation"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Baylor",
+   "unit": "OL",
+   "grade": 38,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
+   "rationale_bullets": [
+    "4 of 5 starters gone from a 56th-pctile line - incl. the All-B12 anchor (Aigbedion 80.0/684) and two SEC-poached starters (Price 71.0/842 -> UK; Thompkins -> LSU).",
+    "The rebuild is G5-transfer-grade on real volume: Walker (Memphis C, 60.9/881 - manual-append row), Moore (UAB LT, 65.0/650), Rhett (61.0/669), Hale (48.1/695); Kibble (Texas LG) is a 38-snap projection; Sieracki (63.0/948) is the lone returning starter.",
+    "P6's frame is attributed: 'the starting five were all three-star recruits or transfers.'",
+    "38 = bottom-third-plus: more verified (if modest) tape than a bare rebuild, no above-average returner but Sieracki."
+   ],
+   "key_players": [
+    {
+     "name": "Kaden Sieracki",
+     "role": "RT, lone returning starter",
+     "evidence": "PFF 63.0/948"
+    },
+    {
+     "name": "Yakiri Walker",
+     "role": "C",
+     "evidence": "PFF 60.9/881 at Memphis"
+    },
+    {
+     "name": "Logan Moore",
+     "role": "LT",
+     "evidence": "PFF 65.0/650 at UAB"
+    }
+   ],
+   "data_gaps": [
+    "LG = 38-snap transfer",
+    "Interior chemistry"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Baylor",
+   "unit": "DL",
+   "grade": 47,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The 2025 floor was historic: 24th-pctile as-played, 13 sacks = fewest by a B12 defense in a decade - and the program's response is documented ('most money we've spent on defense' - Aranda; Klanderman's havoc scheme).",
+    "Seven adds carry tape: Ponder (80.9/392 S.Miss - best incoming grade), Mack (74.8/206), K.Washington (70.8/382), Wheeler (70.7/420 Indiana - appeal PENDING), Whyce (65.7/412), Wimberly, Davis (KState JACK); plus the #1 overall JUCO prospect Hardy (no tape).",
+    "Returning: Tezino (63.3/510, bold) + late-season starter Kyler Jordan; the losses (Lanz 73.5, Winston, Fobbs-White) thin what worked.",
+    "47 = fringe-average: heavy verified reinforcement onto a bad floor; Wheeler's pending status and G5-weighted tape cap it."
+   ],
+   "key_players": [
+    {
+     "name": "Garrick Ponder",
+     "role": "ED add",
+     "evidence": "PFF 80.9/392 at Southern Miss"
+    },
+    {
+     "name": "Devonte Tezino",
+     "role": "DT, returning starter",
+     "evidence": "PFF 63.3/510"
+    },
+    {
+     "name": "Hosea Wheeler",
+     "role": "DT add",
+     "evidence": "PFF 70.7/420; appeal PENDING"
+    }
+   ],
+   "data_gaps": [
+    "Wheeler eligibility",
+    "First-year DC install"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Baylor",
+   "unit": "LB",
+   "grade": 38,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
+   "rationale_bullets": [
+    "The leader left (Thomas 69.3/793 -> Ole Miss) from a 38th-pctile room.",
+    "The above-average case rides one injury return: Barnes (yr-4 override; former C-USA POY at FIU; 62.0 on 67 snaps in 2025). Around him: Reed (58.7/606, demoted to Athlon's 2nd string), Burns (47.0/133, 'rising four-star' starting as a So), adds graded 46-54.",
+    "LB caution rule applied - and here it bites: pedigree is the only strong signal and it is health-dependent. 38, L."
+   ],
+   "key_players": [
+    {
+     "name": "Travion Barnes",
+     "role": "ILB, injury return",
+     "evidence": "former CUSA POY (FIU); 62.0/67 in 2025"
+    },
+    {
+     "name": "Kaleb Burns",
+     "role": "ILB, So starter",
+     "evidence": "PFF 47.0/133; rising 4* (P6)"
+    }
+   ],
+   "data_gaps": [
+    "Barnes health/form",
+    "Burns projection on 133 snaps"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Baylor",
+   "unit": "DB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "The roster's best-shaped unit: two All-B12-honored starters return (Redding 75.2/468 - the team's best returning grade, the KSU pick-six; Thornton 64.5/522) plus Bush (66.9/331) and yr-2 T.Turner.",
+    "The pedigree add is attributed: D.Turner (Northwestern All-B10, back from ACL) - Klanderman's 'difference-maker'; verified depth arrives with tape (Cobbs 69.7/415 KState, D.Jordan 66.2/232 OU, McKelvey 65.8/319).",
+    "Losses are real but second-order (Bobby 802 expired, Coleman -> Florida, Williford -> Tulsa).",
+    "52 = average-plus: honored returners + tape-verified depth, capped by CB2 battle and a first-year scheme."
+   ],
+   "key_players": [
+    {
+     "name": "Jacob Redding",
+     "role": "S, All-B12",
+     "evidence": "PFF 75.2/468"
+    },
+    {
+     "name": "LeVar Thornton Jr.",
+     "role": "CB, All-B12",
+     "evidence": "PFF 64.5/522"
+    },
+    {
+     "name": "Devin Turner",
+     "role": "S, ACL return",
+     "evidence": "NW All-B10; 'difference-maker' (DC)"
+    }
+   ],
+   "data_gaps": [
+    "CB2 unresolved",
+    "Turner post-ACL form"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Baylor",
+   "unit": "ST",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "96th-pctile SPEC (88.2) in 2025, and the driver returns: P Williams, a Ray Guy finalist at 46.9 ypp.",
+    "The kicker half resets late: Hawkins left in the late portal window (-> Ohio State); Armstrong has ZERO career FG attempts (kickoffs only, highly-rated HS leg per Athlon).",
+    "52 = average-plus: elite punting retained, placekicking a pure unknown, returns open."
+   ],
+   "key_players": [
+    {
+     "name": "Palmer Williams",
+     "role": "P",
+     "evidence": "Ray Guy finalist; 46.9 ypp (Athlon)"
+    },
+    {
+     "name": "Rhett Armstrong",
+     "role": "K",
+     "evidence": "0 career FGA"
+    }
+   ],
+   "data_gaps": [
+    "K job unproven",
+    "Return spots open"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
