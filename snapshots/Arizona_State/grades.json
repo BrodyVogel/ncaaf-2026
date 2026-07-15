@@ -1,0 +1,319 @@
+{
+ "team": "Arizona State",
+ "units": {
+  "QB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 45,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 56,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 36,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 51,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 40,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 38, RB null, WRTE 71, OL 32, DL 57, LB 50, DB 75, ST 20)",
+   "DB": "-27 vs proxy 75 (yr-4 artifact: Rowser 804 + Breedlove 593 counted as returning; all five starters actually gone)",
+   "WRTE": "-15 vs proxy 71 (proxy likely counts drafted Tyson as returning - yr-3 early entrant invisible to it; my 56 already credits the transfer class)",
+   "QB": "+10 vs proxy 38 (proxy rides Leavitt exit; Boley/Keene/Fette arrivals invisible)",
+   "ST": "+20 vs proxy 20 (departed-specialist artifact; pedigree replacements invisible)",
+   "RB": "proxy null (no qualifying membership) - engine imputes 50"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Arizona State",
+   "unit": "QB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The 2024 title QB left (Leavitt 76.4/310, injury-shortened -> LSU as the cycle's top transfer); the replacement room is credible but unproven above-average: Boley (former 4*, 10 P4 starts as RS-Fr, #12 SEC QB Rating, 59.4 PFF/387, 12 INT w/ OC-attributed context).",
+    "Depth is real: Keene (34 career starts, no 2025 tape) + Top100 FR Fette ('stole the show in spring' - P6); OC Arroyo returns for continuity.",
+    "Athlon's operative caveat is attributed: 'will need to prove that they didn't regress too much at quarterback.'",
+    "48 = fringe-average: three credible layers, none with proven above-average FBS tape."
+   ],
+   "key_players": [
+    {
+     "name": "Cutter Boley",
+     "role": "QB1 (presumptive)",
+     "evidence": "10 starts at Kentucky as RS-Fr; 65%, 12 INT; PFF 59.4/387"
+    },
+    {
+     "name": "Jake Fette",
+     "role": "Top100 FR, backup battle",
+     "evidence": "P6 spring report"
+    }
+   ],
+   "data_gaps": [
+    "No spring depth chart at QB2",
+    "Boley INT profile vs context"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Arizona State",
+   "unit": "RB",
+   "grade": 45,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The workhorse left with 4* grades (Raleek Brown 80.7/265, 1,141 @ 6.1 -> Texas); Udoh followed (Liberty).",
+    "Returns are quality-flash, volume-thin: Kyson Brown (74.4 on 35 snaps, 2025 opening-day starter back from season-ending injury), Jason Brown Jr. (72.9/20, 134-yd Sun Bowl).",
+    "Adds are FCS: Gillis (Top-10 FCS back, 1,200 @ 6.5) + Avit (short-yardage). Athlon calls it 'deep and talented'; no returning FBS volume.",
+    "45 = fringe-below-average: committee of unproven-at-volume pieces behind a rebuilt line."
+   ],
+   "key_players": [
+    {
+     "name": "Kyson Brown",
+     "role": "RB1",
+     "evidence": "2025 opener starter; injury; PFF 74.4/35"
+    },
+    {
+     "name": "Marquis Gillis",
+     "role": "transfer RB",
+     "evidence": "1,200 yds @ 6.5 at Delaware State (FCS)"
+    }
+   ],
+   "data_gaps": [
+    "Carry split wide open",
+    "Gillis FBS translation"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Arizona State",
+   "unit": "WRTE",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "The 8th-pctile as-played number is an artifact of Tyson's in-and-out injury year (82.9/300, drafted #8 overall) + McClain's 53.6 on 458 routes (expired).",
+    "The reload is the nation's top-ranked WR transfer class (Athlon): Omarion Miller (Colorado MVP, All-B12, 67.9/313), Reed Harris (BC, 65.6/477), Vines-Bright (UW, 63.4/271) - 'all three look like future NFL Draft picks' (attributed).",
+    "Returning glue: Moss (60.3/184 slot), Eusebio (All-B12 HM, 57.4/265); TE = former-4* pedigree (Anderson/Ia), zero production.",
+    "56 = above average: three verified P4 tapes + depth, capped by zero returning chemistry with a new QB and an unproven TE room."
+   ],
+   "key_players": [
+    {
+     "name": "Omarion Miller",
+     "role": "WR1",
+     "evidence": "All-B12 at Colorado, team MVP; PFF 67.9/313"
+    },
+    {
+     "name": "Reed Harris",
+     "role": "WR, vertical",
+     "evidence": "PFF 65.6/477 at BC"
+    }
+   ],
+   "data_gaps": [
+    "TE production nil",
+    "New-QB chemistry"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Arizona State",
+   "unit": "OL",
+   "grade": 36,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
+   "rationale_bullets": [
+    "Total rebuild: ALL FIVE 2025 starters gone (Iheanachor 72.5/860 -> NFL R1; Scott/Obigbo/Coleman expired; Atkins -> Missouri) from a unit that played at just the 42nd pctile WITH them.",
+    "The verified incoming tape is modest: Alo-Tupuola (GT starter, 57.1/455 - repair add) at C, Baklenko (2-yr Stanford starter, 67.9/155 at OU) at RT; best returning grade is Stewart's 70.6 on 260.",
+    "LT is a yr-1 (Westbrooks) vs a no-tape JUCO (#1 overall prospect Mitchell, feed-missed); Helton moves C->LG off a 53.0.",
+    "P6's attributed doubt: 'a third-straight Top 40 finish in OL Run Push is in question.' 36 = bottom-third with a credible-pedigree path out."
+   ],
+   "key_players": [
+    {
+     "name": "Tana Alo-Tupuola",
+     "role": "C",
+     "evidence": "GT starter; PFF 57.1/455"
+    },
+    {
+     "name": "Maki Stewart",
+     "role": "RG",
+     "evidence": "PFF 70.6/260, late-2025 starts"
+    }
+   ],
+   "data_gaps": [
+    "LT unresolved",
+    "Zero returning continuity at 4 spots"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Arizona State",
+   "unit": "DL",
+   "grade": 51,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "The defense's star returns: Fite (68.5/587), an all-conference-candidate NT who turned down an early NFL bid, plus Clayton Smith (65.8/469) on a P6-verified eligibility-appeal year and yr-2 starter Gardner.",
+    "The exits took the top grade (Wodtly 77.6/467) and three more rotation pieces (O'Neal, Dorbah, Kongaika).",
+    "Restock is P4-starter tape, not projection: Thompson (MSU, 68.2/420) + Winston (Baylor, 65.9/586), plus 4* 'spring hero' Hugo; Athlon: 'should again be very stout.'",
+    "51 = average-plus: a star, an 8-man credible rotation, no elite edge."
+   ],
+   "key_players": [
+    {
+     "name": "C.J. Fite",
+     "role": "NT, the anchor",
+     "evidence": "PFF 68.5/587; all-conf candidate (Athlon)"
+    },
+    {
+     "name": "Jalen Thompson",
+     "role": "DE transfer",
+     "evidence": "MSU starter; PFF 68.2/420"
+    }
+   ],
+   "data_gaps": [
+    "Edge pass-rush ceiling post-Wodtly"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Arizona State",
+   "unit": "LB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Both 2nd-team All-B12 tacklers graduated (Crook 82.4/733, Elliott 67.5/649 - 199 combined tackles, 1-2 on the team) from a 77th-pctile room.",
+    "The replacement is the FBS' leading tackler: Long (CSU, 1st-tm All-MW, 4* transfer grades, 71.0/770) - P6: makes this 'a reload instead of a rebuild'; Hughes rises off 400 partial-starter snaps; Fiaseu (Athlon-explicit 6th year) is 'starter-level.'",
+    "LB caution rule applied: Long is a volume tackler, but grade and production AGREE (71.0 on 770).",
+    "50 = average: real starter replacement + experienced depth, minus an 82.4 alpha."
+   ],
+   "key_players": [
+    {
+     "name": "Owen Long",
+     "role": "LB1",
+     "evidence": "FBS tackle leader at CSU; PFF 71.0/770"
+    },
+    {
+     "name": "Martell Hughes",
+     "role": "LB2",
+     "evidence": "PFF 61.6/308, rises to starter"
+    }
+   ],
+   "data_gaps": [
+    "Depth after top four"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Arizona State",
+   "unit": "DB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "All five original starters gone (Abney 86.3/785 -> NFL; Robinson 70.5/659 -> Wisconsin; Rowser/Breedlove/Alford expired) - but TWO real contributors return: Wilson (66.3/652, Athlon-bold) and Warren (58.7/377).",
+    "The 7-transfer reload carries verified tape: Rawls (Kansas, 71.4/632), McGrew (FIU, 72.5/769), Stamps (2-yr LSU starter, 77.5 on 18 snaps in '25) + Bimage rising.",
+    "Athlon's attributed frame: 'ASU's biggest question, especially the all-important nickel'; proxy's 75 is a documented yr-4-artifact (counts Rowser/Breedlove as returning).",
+    "48 = fringe-average: better-floored than a bare five-out reset - two returners + three tape-verified adds - capped by CB uncertainty and cohesion."
+   ],
+   "key_players": [
+    {
+     "name": "Adrian Wilson",
+     "role": "NB/S, returning starter",
+     "evidence": "PFF 66.3/652"
+    },
+    {
+     "name": "Lyrik Rawls",
+     "role": "FS transfer",
+     "evidence": "PFF 71.4/632; led KU in solo tackles"
+    },
+    {
+     "name": "Ashton Stamps",
+     "role": "CB1",
+     "evidence": "2-yr LSU starter; 77.5/18 in 2025"
+    }
+   ],
+   "data_gaps": [
+    "CB2 unproven",
+    "7-add cohesion"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Arizona State",
+   "unit": "ST",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "2025 team SPEC 68.2 = 20th pctile; 'second-worst in the FBS in net punting' (Athlon) and the punter left.",
+    "Both jobs go to pedigree imports: McLarty (OSU, 'big-legged Australian') and K Carson Smith (Austin Peay, FCS UAC Specialist of the Year) - credentialed, unproven at FBS.",
+    "40 = below average: documented 2025 dysfunction, replacement case is pedigree-only."
+   ],
+   "key_players": [
+    {
+     "name": "Carson Smith",
+     "role": "K",
+     "evidence": "FCS UAC Specialist of the Year (Athlon)"
+    },
+    {
+     "name": "Nick McLarty",
+     "role": "P",
+     "evidence": "OSU transfer (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "Neither specialist has FBS game tape"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
