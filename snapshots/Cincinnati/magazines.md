@@ -58,5 +58,30 @@ allowed as context; 2026 team-level projections EXCLUDED.
 - 2026 transfer asterisks: French, Gibson, Fenner, Wolford, Henry, Payne, Perry(via battle),
   T.Johnson, Otutu, Hough, Maciorowski, Wilson, Finley, Worthy, Goodwill, Cannon, Beeler.
 
-## Phil Steele 2026 (B12 PDF searchable text OCR-garbled for this section; box not extracted -
-   logged trim consistent w/ prior B12 teams.)
+## Phil Steele 2026 (B12 PDF p13; VISUAL page-read 2026-07-15 — replaces earlier trim)
+- QB: Sorsby '25: 7-1 start w/ 19-1 ratio ("mentioned in the Heisman race"), 4-4 ratio next 3, finished
+  2,800 (61.6%, 27-5) — "HE HIT THE PORTAL BEFORE THE BOWL" (Jones/Lichtenberg played the Navy bowl).
+  French '25: 2,929 (64%, 20-8) + 315 rush in his 2nd yr starting. DEPTH CORRECTION: O'Brien (Penn) =
+  2,376 yds (67%, 15-6) — real Ivy production (our earlier "no tape" note = no PFF row, not no production).
+  PS: Jones "bigger arm than Sorsby and is a dangerous runner"; "will have a capable QB."
+- RB: '25: Walker led 709 (5.9) [513 at OU '23, 864 at Wisconsin '24 — journeyman], Pryor #3 (532, 6.9),
+  Covey 199 (7.1) — all 3 depart. Perry = 1,384 (5.1) over 2Y at Louisiana. Tabb 445 (3.9) Stanford.
+  Zion Johnson 106 (4.8). PS: "very deep room... 4 backs he can trust... close to '25's numbers."
+- WR/TE: Royer broke the SCHOOL TE RECEPTION RECORD (50) — a Travis Kelce record; Allen 674 (13.2)
+  tied school single-season TD-rec record (13); "added 3 transfers who have been full-time starters and
+  added speed that was lacking."
+- OL: lose C + RT (25/83 career starts); "return a 1ST, 2ND and 3RD TM BIG 12 OL" (Tengesdahl/Tyo/Cotton
+  at different all-conf levels); 2025: 8 sacks allowed, Joe Moore semifinalist; "remain one of the Big 12's
+  top O-lines. LG Tengesdahl and LT Cotton both have NFL potential." Origins: Tyo 11/23 starts Ball St;
+  Cotton 2nd Tm MVFC S.Dakota. [Validates OL 76.]
+- DL: Corleone ("the Godfather," #2 DC MIN era... 10 st, 13 tkl '25) + all 3 starters gone; add 5 transfers
+  (3 full-time starters, 2 FCS); PS: "last year's numbers were not great"; scheme shift = "pin its ears back."
+- LB: '25 detail: six LBs drew starts; unit allowed 41 ypg ABOVE average; lose 1st-tm Golday (#1 tklr),
+  Dingle (10 st), + #8 tklr; return #2/#6/#10/#12 tacklers; Peek = Thorpe semifinalist; add 4 transfers
+  led by Maciorowski.
+- DB: PDR collapse: 5 straight top-20 (2018-22) -> #69 -> #69 -> #124 in '25 WITH JUST TWO INTERCEPTIONS
+  ALL YEAR; "lose all 4 starters again... can only improve"; Satterfield "really likes his safety room."
+- ST: Rusnak 13-17 LY, 28-32 CAREER (came from Charlotte: 11-11 in '24); Fletcher 45.4 (41.7 net), Mason
+  Fletcher's brother, 2nd Tm SEC at Arkansas '23; 2025 STR #51. [Exact match to our 51st-pctile SPEC.]
+- Coaches: Satterfield career 80-56 (Louisville/App St); co-OCs Cardwell + Thomas = internal promotions
+  ('23-'25 staff); DC Woody: Army DC '20-'25, GTech DC '18; STC Paschall.

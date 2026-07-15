@@ -22,7 +22,7 @@
    "confidence": "M"
   },
   "LB": {
-   "grade": 48,
+   "grade": 50,
    "confidence": "M"
   },
   "DB": {
@@ -46,7 +46,8 @@
    "DB": "-20 vs proxy 90 (proxy carries Wall's 739 departed snaps; my 70 prices Johnson/Satuala + coach loss)",
    "LB": "+18 vs proxy 30 (proxy can't see Uluave; my 48 still honors the caution rule)",
    "QB": "-11 vs proxy 83 (mine prices thin depth + 8th-in-B12 efficiency; trajectory keeps it 72)"
-  }
+  },
+  "ps_backfill_2026_07_15": "PS visual page-read: LB 48->50 (three-source qualitative vs tape; lean retained). QB depth text corrected (Bourguet = 4 career starts at WMich '23, not 2 career snaps). ST 42 VALIDATED (PS: 'may be my biggest concern for '26')."
  },
  "grades_detail": [
   {
@@ -211,7 +212,7 @@
   {
    "team": "BYU",
    "unit": "LB",
-   "grade": 48,
+   "grade": 50,
    "confidence": "M",
    "bracketing_exemplars": [
     "UNLV LB 2025 (40)",
@@ -220,7 +221,8 @@
    "rationale_bullets": [
     "The magazines and the tape disagree, and the caution rule sides with the tape: Uluave (#1 LB transfer, All-ACC, 100 tkl, 'All-America candidate') graded 60.5/662; Glasker ('do-it-all,' bold) graded 57.3/815; the as-played room sat at the 18th pctile.",
     "Kelly (68.7/658, the best grade) went pro; Esera (62.0/481) returns as the third bold starter.",
-    "Production, honors, and scheme familiarity are real - the room's floor is proven starters; the grades say the ceiling is not All-America. 48 = fringe-average."
+    "Production, honors, and scheme familiarity are real - the room's floor is proven starters; the grades say the ceiling is not All-America. 48 = fringe-average.",
+    "PS-backfill 2026-07-15: PS calls Uluave 4th-team All-America and the unit 'already solid... even stronger' - the THIRD independent qualitative source against the PFF-grade read. Caution-rule lean retained but softened one notch. 48 -> 50."
    ],
    "key_players": [
     {

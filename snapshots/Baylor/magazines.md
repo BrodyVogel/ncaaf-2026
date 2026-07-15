@@ -67,5 +67,29 @@ allowed as context; 2026 team-level projections EXCLUDED.
 - 2026 transfer asterisks: Miller, Moore, Kibble, Walker, Lagway, Freeman, Livingston, Rhett, Hale,
   Wimberly, Mack, Hardy, K.Walker, Whyce, Wheeler, R.Davis, Ponder, McKelvey, D.Jordan, McCalister.
 
-## Phil Steele 2026 (B12 PDF searchable text OCR-garbled for this section; box not extracted -
-   logged trim consistent w/ Arizona + ASU.)
+## Phil Steele 2026 (B12 PDF p14; VISUAL page-read 2026-07-15 — replaces earlier trim)
+- QB: Robertson '25: 3,681 (60%, 31-12), Senior Bowl invite. LAGWAY INJURY CONTEXT (new fact): "was
+  not 100% last year after an AUGUST INJURY and threw for 2,284 (63%) with just a 16-14 ratio... A 100%
+  healthy Lagway was a Heisman contender into '25 and he is healthy again." PS: "should rebound...
+  tough to match Robertson's stats."
+- RB: 2024 baseline (new facts): Washington 1,028 (5.9) as rFr; PENDERGRASS WAS #2 IN 2024 with 671
+  (5.5) incl. 6-142 vs OkSt + 11-104 vs Kansas — real volume before the '25 foot injury (OFY in August).
+  Turner + Knighten were VHT frosh ('25); "Aranda called it his best RB corps." 2026: lose Washington,
+  "the other 3 return" + true FR Ryelan Morris (PS#23); PS: "should top last year's production."
+- WR: 2025 receiving: Cameron 872 (12.6), Trigg 694 (13.9), Hawkins 621, Wilson 591, Prentice 380 —
+  "all 5 depart. They add in 4 transfers."
+- OL: lose 5 OL (45/120 career starts); INCOMING TRANSFERS HAVE 93 CAREER STARTS (Memphis/Toledo/
+  S.Alabama/UAB); PS: "prioritized the OL... will be deeper and more physical" and "could have improved
+  numbers despite losing 4 starters."
+- DL: '25 disappointing: 197 (4.9) rush allowed, 12 sacks; lose 4 DL (35 st/101 tkl/6 sk); return Tezino +
+  8 transfer adds (5 with 6+ career starts); PS: "the best Baylor DL since Aranda arrived, with depth and
+  talent at all 4 spots and new DC Klanderman always fields a tough run D."
+- LB: '25 injuries: Williams played 1 game, BARNES 4, Jackson 3 — all OFY; Barnes = CUSA DEFENSIVE POY
+  (FIU) precision; return Reed (#4 tklr) + Barnes; add K-St STAR Cobbs + K.Walker (10 st, 57 tkl GaSt);
+  PS: "as long as the unit maintains better health they will be improved... Barnes... a difference-maker."
+- DB: PDR arc #125('23) -> #64('24) -> #49('25); Turner REDSHIRTED '25 ("Turner RS and is back") + "3 DBs
+  who had 5+ starts" return + 5 transfer adds; PS: "stronger unit... only needing a man-cover safety."
+- ST: '25 = #7 STR (best since '05-era runs); Williams Ray Guy finalist (46.9, 45.0 net); K Hawkins 18-22
+  w/ 54-yd GW vs KSU — departs; PS: "may take a step back."
+- Coaches: Aranda yr 7 ('21 B12 title; ex-Wisconsin/LSU DC); OC Spavital yr 3 (up-tempo install); DC
+  Klanderman (KSU '20-'25).

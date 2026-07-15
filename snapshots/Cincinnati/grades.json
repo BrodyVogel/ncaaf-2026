@@ -2,7 +2,7 @@
  "team": "Cincinnati",
  "units": {
   "QB": {
-   "grade": 42,
+   "grade": 44,
    "confidence": "M"
   },
   "RB": {
@@ -47,13 +47,14 @@
    "QB": "+13 vs proxy 29 (proxy sees only Sorsby's exit; French's arrival invisible to it)",
    "DB": "-7 vs proxy 52 (proxy counts yr-4 DBs as returning; the wave is gone)",
    "WRTE": "proxy null (no qualifying membership) - engine imputes 50; mine 40"
-  }
+  },
+  "ps_backfill_2026_07_15": "PS visual page-read: QB 42->44 (O'Brien depth real). Sorsby left BEFORE the bowl (news corrected). OL 76 validated (1st/2nd/3rd-tm B12 trio, 8 sacks allowed). DB 45 validated (PDR #124, 2 INTs all year)."
  },
  "grades_detail": [
   {
    "team": "Cincinnati",
    "unit": "QB",
-   "grade": 42,
+   "grade": 44,
    "confidence": "M",
    "bracketing_exemplars": [
     "UNLV LB 2025 (40)",
@@ -63,7 +64,8 @@
     "The 95th-pctile QB left: Sorsby (90.3/400) to Texas Tech as the cycle's top-rated transfer - 'the engine of that team' (opposing assistant, Athlon).",
     "French (GaSouthern) brings proven volume (5,760/37 + 554 rush over two years; 65.4/498) with mediocre efficiency (6th SBC QB Rating 2025, 9th in 2024) and a two-level jump.",
     "Scheme continuity helps: RPO/PA fit drew him and Satterfield retains play-calling.",
-    "42 = below average: real starter, real efficiency questions, thin depth (9 Ivy-and-backup snaps)."
+    "42 = below average: real starter, real efficiency questions, thin depth (9 Ivy-and-backup snaps).",
+    "PS-backfill 2026-07-15: O'Brien (Penn) threw for 2,376 (67%, 15-6) - real Ivy production behind French (PS: French 2,929/20-8 in '25); the 'no proven depth' knock was a PFF-coverage artifact, not reality. 42 -> 44."
    ],
    "key_players": [
     {

@@ -31,3 +31,6 @@
 - PS box not extracted (OCR-garbled searchable text; logged trim - P6/Athlon carried spring +
   eligibility detail).
 - Beat sweep trimmed (azcentral paywall); magazine coverage included spring-practice facts; logged.
+
+- PS-BACKFILL 2026-07-15: S.Lapuaho origin RESOLVED = JUCO (PS#8JC; explains feed absence);
+  Mitchell = PS#2JC (P6 says #1 overall - attributed difference); PS projects P Floyd (returner) over McLarty.

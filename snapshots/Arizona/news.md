@@ -13,3 +13,8 @@
 ## Dead ends (logged)
 - PS box not OCR'd (logged trim - P6/Athlon carried spring + eligibility detail this team).
 - Beat sweep trimmed (AZ Daily Star paywall) - magazine coverage included spring-practice facts; logged.
+
+- PS-BACKFILL CORRECTIONS 2026-07-15: QB2 Locke -> Tarleton State (was wrongly listed as depth);
+  LB add Roussaw (Memphis, 63.8/777) + DB Molette (UConn, 63.4/739, PS-projected BS starter) +
+  OL depth Nate Hale (SJSU) surfaced by PS page-read - all were in the CFBD feed + PFF pack;
+  research pass had not surfaced them. LB 58->60; DB 46 documented-hold.

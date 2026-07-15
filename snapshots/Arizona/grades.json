@@ -22,7 +22,7 @@
    "confidence": "M"
   },
   "LB": {
-   "grade": 58,
+   "grade": 60,
    "confidence": "M"
   },
   "DB": {
@@ -47,7 +47,8 @@
    "DB": "-18 vs proxy 64 (proxy counts bodies; 4 drafted + 1 UDFA + 2 expired = 6,700 snaps invisible to it)",
    "RB": "+13 vs proxy 42 (proxy over-weights Mahdi exit; Reescano 83.0-run-grade return is the quality)"
   },
-  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Bootle DB 67.5/434 (Charlotte) - a 9th transfer DB with real CUSA tape; DB 46 unchanged (grade already priced an 8-body volume reload; cohesion/P4-level starter quality remain the cap, not body count)."
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Bootle DB 67.5/434 (Charlotte) - a 9th transfer DB with real CUSA tape; DB 46 unchanged (grade already priced an 8-body volume reload; cohesion/P4-level starter quality remain the cap, not body count).",
+  "ps_backfill_2026_07_15": "PS visual page-read: +Roussaw LB add (58->60); Molette (UConn 63.4/739) documented as PS-projected BS starter within the priced 8-transfer reload (DB 46 holds); QB depth corrected (Locke -> Tarleton St; backups all untested - 88 H holds on Fifita); Cole honors precision (3rd-tm)."
  },
  "grades_detail": [
   {
@@ -207,7 +208,7 @@
   {
    "team": "Arizona",
    "unit": "LB",
-   "grade": 58,
+   "grade": 60,
    "confidence": "M",
    "bracketing_exemplars": [
     "Nebraska WRTE 2025 (50)",
@@ -217,7 +218,8 @@
     "The signature room of Gonzales's 3-3-5 mostly returns: Brown (75.9/752, 87.1 run grade, 3rd-yr starter), Mann, Robinson, Kennedy hybrid (65.5/537).",
     "One volume loss: M.Harris (72.0/612) expired - half of last year's top tackling duo.",
     "LB-caution rule applied: here grades AND production agree on Brown, and the as-played unit was 78th pctile.",
-    "58 = above average: proven multi-starter core in a proven scheme, minus one starter-grade body."
+    "58 = above average: proven multi-starter core in a proven scheme, minus one starter-grade body.",
+    "PS-backfill 2026-07-15: +Roussaw (Memphis OLB, 12 st/64 tkl, PFF 63.8/777) - a full-time G5 starter add the original research missed; fills the M.Harris hole body-for-body. 58 -> 60."
    ],
    "key_players": [
     {

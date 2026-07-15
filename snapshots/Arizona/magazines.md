@@ -45,5 +45,27 @@ allowed as context; 2026 team-level projections EXCLUDED.
 - Depth chart bolding: OFFENSE (4): SPIVEY, DOOST, BOUNDS, FIFITA.
 - (Team-level judgment numbers EXCLUDED.)
 
-## Phil Steele 2026 (B12 PDF p7 located; box not OCR'd - P6+Athlon coverage unusually deep incl. spring;
-   logged trim.)
+## Phil Steele 2026 (B12 PDF p7 = book 180-181; VISUAL page-read 2026-07-15 — replaces earlier "box not OCR'd" trim)
+- QB: Fifita "3228 (64%, 29-6), 1st Tm B12"; school-record 29 TD passes; "only QB in school history to top
+  70% for a season" (2,869 at 72.4% in '23). BACKUPS = untested Anderson (rFr), Haugo (rFr), Rios (Fr
+  PS#14), Bray — NOTE: Locke NOT listed (feed: -> Tarleton State; corrects our earlier depth note).
+- RB: lose Mahdi (859, 6.4); Reescano #2 again (396, 4.8) + Craig (364, 5.6); add Roberts (512, 5.7 Marshall)
+  + rFr signees Warren/Yarborough — "could be just as strong."
+- WR: lose Hutson (11 st, #1, 740, 13.0), Whatley (13 st, #2, 443, 11.7), Wysong (274); Spivey #3 (381,
+  16.6) + Hunter #4 (372, 13.8) return + Powell back; 6 transfer adds.
+- OL: lose 3 starters (37/69 career starts); add 3 transfers (2 starters); Tapa'atoutai another yr off '24
+  ACL; "61 career starts — on par with last year."
+- DL: lose 3 DL who combined 21 st/73 tkl/3 sk; "of the DL that started the last 5, three return"; captain
+  Smith back (was OFY after 4 starts).
+- LB: lose Stukes (NB, 10 st), M.Harris (12 st, #3 tklr), R.Wilson (4 st, #6 tklr); ADD "Memphis, Nebraska
+  and Georgetown starters" — Roussaw (Memphis: 12 st, 64 tkl LY; PFF 63.8/777) at OLB2, Hartzog
+  (Nebraska: 32 st/108 tkl L4Y) at STAR; PS: "down a notch in '26."
+- DB: 2025 = #1 in PS PDR (54%, 9-22 ratio!); Stukes + Johnson first same-year 1st-tm All-Conf DBs since
+  1972; lose Johnson/Smith/Garnes/Dansby; "including transfers they have 5 DBs that have been full-time
+  starters adding 6,499 career snaps thru the portal but will drop in the PDR losing 3 NFL DC's."
+  PS PROJECTED STARTERS: FC Cole (3rd Tm B12 — precision on honors) + BS LEE MOLETTE (UConn: 13 st,
+  65 tkl, 2.5 tfl, 4 pd LY; PFF 63.4/739) + FS Dayien Austin (Oregon, 30 gm L3Y) + STAR Hartzog; Bootle = FC2.
+- ST: lose KO man (66/75 TB!) and P (37.6 net); K Salgado-Medina 19-31 detail w/ 6 punts (41.8) as
+  emergency P; P = true FR Ridley (Perth, PS#41).
+- Coaches: Brennan 3rd yr (SJSU 2017-23 rebuild, '20 MW title); OC Doege yr 2 (Air Raid, Marshall OC '24);
+  DC Gonzales yr 2 (NM HC '20-23, LB/STC here '24); STC Naviar (SMU ST '22, CCU DC '23-24, Broyles nom).

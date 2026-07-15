@@ -71,5 +71,28 @@ allowed as context; 2026 team-level projections EXCLUDED.
   S.Lapuaho, A.Miller (TE), Boley, Gillis, Thompson, Winston, Long (LB Owen), Stamps, Rawls, McGrew,
   Smith (K), McLarty (P).
 
-## Phil Steele 2026 (B12 PDF searchable text is OCR-garbled for this section; box not extracted -
-   P6+Athlon coverage unusually deep incl. spring notes; logged trim consistent w/ Arizona.)
+## Phil Steele 2026 (B12 PDF p11 = book 188-189; VISUAL page-read 2026-07-15 — replaces earlier trim)
+- QB: Leavitt '25: 1,628 (61%, 10-3) before OFY; Sims 1,261 (56%, 10-6) as fill-in — both depart. Boley
+  2025 AT KENTUCKY: 2,160 yds (66%, 15-12). Keene: 34 starts (Fresno-era incl. a 29-0 win OVER ASU in
+  '24). Fette PS#10. PS opinion: "the numbers were down in '25 so despite Leavitt's transfer there won't
+  be much dropoff."
+- RB: Skattebo history (school-record 1,711 in '24); Raleek Brown led '25 w/ 1,141 (6.1), 4 100+ games ->
+  Texas. Kyson Brown was OFY WEEK 2 (his '24: #3, 351, 4.0). Demarius Robinson STARTED THE BOWL.
+  Gillis (Del St): 12 st, 1,166 (6.4). Avit (Villanova): 7 st, 523 (5.3). PS: "down a few notches without Raleek."
+- WR: Tyson '24: 1,101 (14.7) = 3x the #2; OFY vs Arizona. Miller (Colorado): 8 st, 808 (18.0), 2nd Tm B12.
+  Harris (BC): 2 st, 169 at 24.1/catch (deep threat profile). Moss: 4 st, 273 (11.7).
+- OL: 2026 line's career starts = 29 (departing starters had 50); Alo-Tupuola PS-precision: "4 st, 10 gm LY"
+  at GT (partial starter, not full-time); Helton = Iowa State transfer origin (DNP '24 there); PS puts Helton
+  RG / Stewart LG; LT = Mitchell (PS#2JC) w/ Klemm (1 st LY) behind; SIOSAIA LAPUAHO = JUCO (PS#8JC)
+  — resolves the origin gap in our earlier research (not FBS; explains CFBD feed absence).
+- DL: lose Dorbah (7 st, 18 tkl, 4 sk), O'Neal (10 st, 32 tkl, 3 sk), Kongaika (12 st, 20 tkl) + "two other DL
+  (9 st, 61 tkl, 10.5 sk!)"; adds "less experienced" but coach likes depth/versatility.
+- LB: lose #1, #2, #11 tacklers; Long "led the nation with 151 tackles"; Ramere Davis (NAU): 12 st, 65 tkl,
+  5.5 sk. PS: "the top 3 will be very productive but there's a significant dropoff after that trio."
+- DB: '25 = #38 PDR w/ all 4 starters (Alford OFY after 2); lose 4 starters, add 8 transfers; McGrew (FIU):
+  12 st, 68 tkl, 4 int, 2nd Tm CUSA. Stamps: 17 st/75 tkl/16 pd over 3Y at LSU. Attributed coach-speak:
+  "looks like a hoops team... top units in the Big 12"; PS: "figure to drop some."
+- ST: 3-year STR history #119/#114/#126 (dire); '25 K Jesus Gomez (22-30) departs; PS projects P KANYON
+  FLOYD (returner: 36 punts, 33.4 net LY) STARTING over McLarty (1 punt LY at OSU) — battle, either way
+  poor '25 baseline. K C.Smith (Austin Peay): 14-17 FG, 1st Tm UAC.
+- Coaches: Dillingham yr 4 (B12 COY '24); OC Arroyo yr 3; DC Ward yr 4 (WSU '22, Nevada '20-21, Cuse '16-19).

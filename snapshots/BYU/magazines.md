@@ -67,5 +67,29 @@ allowed as context; 2026 team-level projections EXCLUDED.
 - 2026 transfer asterisks: Kasper, Finau, Yamauchi, Sia, W.Lyons, Saleapaga, Uluave, Clifton,
   J.Williams.
 
-## Phil Steele 2026 (B12 PDF searchable text OCR-garbled for this section; box not extracted -
-   logged trim consistent w/ prior B12 teams.)
+## Phil Steele 2026 (B12 PDF p4; VISUAL page-read 2026-07-15 — replaces earlier trim)
+- QB: Bachmeier "originally signed with Stanford... most talented" of the room; 3,033 (65%, 15-7) + 527
+  rush (3.6, #2 rusher); "351 yards vs West Virginia when they took the training wheels off." DEPTH
+  CORRECTION: Bourguet = "experienced vet backup" — 4 starts, 713 yds (55%, 4-1) at W.Michigan '23
+  (not just his 2 BYU snaps); Enock Watson returned from mission.
+- RB: Martin arc: 518('23) -> 718 in 10 gm('24) -> 1,305 (5.5) + #4 receiver (255) '25; "expected to leave
+  for the NFL but returns"; Moa "now healthy" (4 gm '25); Damuni #5; add true FR Eka.
+- WR/TE: Kingston led '25 w/ 928 (13.9) [expelled]; Roberts 802 (14.9) + TE Ryan 631 (12.3, #7 DC GB)
+  depart; Phillips was BANGED UP, missed 6 games ('25: 161 yds) — injury context for the low grade.
+- OL: lose 3 starters (36/99 career starts) but "return 4 OL with 49 career starts" + 3 transfers (17 st) —
+  "close to 2025 unit"; Sitake: Mitchell "one of the best C's in the country."
+- DL: '25: replaced all 4 starters and still improved to 123 (3.7) rush / 30 sacks; Tanuvasa = "NFL talent";
+  Akana was a Texas transfer (PS#13); lose a DE (14 st, #5 tklr) + a DT (9 st) — "more experienced and
+  even stronger... bulkiest team he's had."
+- LB: 2024 room (Kelly/Taggart/Glasker) = "one of the best ever units here" (190 tkl, 27 tfl, 10 sk); '25:
+  Kelly led w/ 10 sacks (#6 DC NYG) — departs; ULUAVE = 4TH-TEAM ALL-AMERICA per PS; "this was
+  already a solid unit, and the addition of Uluave makes it even stronger." [Third qualitative source
+  running counter to the PFF-grade read — recorded for the caution-rule ledger.]
+- DB: PDR arc: #1 in '24 (13-22 ratio, 22 INT tied #1 FBS w/ Texas) -> #11 in '25 (17 INT, 17 TD allowed);
+  lose FS Wall (14 st, #2 tklr); "Johnson and Satuala are both NFL Caliber" + Sitake "feels great about
+  his first 4 corners."
+- ST: '24 = #4 STR (Ferrin 24-27, 16 straight; Vander Haar 42.8/40.0 net; Kingston 2 PR TD). '25: #57.
+  2026: lose K (22-29 career-year 4-6 from 50+), P (42.8 net), PR AND LS — PS: "this may be my biggest
+  concern for '26." [Validates our ST 42 vs proxy 99.]
+- Coaches: Sitake 10th-season framing (72-43, 7 bowls 5-2; ex-Utah DC '05-'14); OC Roderick yr 5;
+  DC Poppinga was STC/DE coach here '23-'25 (Boise STC '22) — DE-room familiarity noted.

@@ -1,9 +1,9 @@
 # Cincinnati — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **+1.31** (rank 58/138 in hybrid field)  band ±6.18
+FINAL: **+1.36** (rank 57/138 in hybrid field)  band ±6.18
 
 ## 1. Unit grades (LLM real | shadow proxy)
-- QB    42 | proxy 29
+- QB    44 | proxy 29
 - RB    50 | proxy 44
 - WRTE  40 | proxy —
 - OL    76 | proxy 97
@@ -15,9 +15,9 @@ FINAL: **+1.31** (rank 58/138 in hybrid field)  band ±6.18
 ## 2. Conversion (fitted on 137 proxy teams, applied OOS)
 - off: QB:+0.073 RB:+0.093 WRTE:+0.037 OL:+0.081  (R²=0.54)
 - def: DL:-0.085 LB:-0.058 DB:-0.095  (R²=0.62)
-- grade-implied off +27.16 vs anchor off +29.14
+- grade-implied off +27.31 vs anchor off +29.14
 - grade-implied def +27.01 vs anchor def +25.86
-- residual (off-minus-def, grades-vs-anchor): **-3.13**
+- residual (off-minus-def, grades-vs-anchor): **-2.98**
 
 ## 3. Anchor (per source: raw → normalized → used)
 - SP+      4.5 → 4.5 → 4.5
@@ -29,7 +29,7 @@ FINAL: **+1.31** (rank 58/138 in hybrid field)  band ±6.18
 - blend 3.57  (dispersion 5.64)
 
 ## 4. Assembly
-- anchor +3.57  class -1.68  k×resid -1.10 (k=0.35, cap ±6.0)  ST +0.04  → recentered (-0.47) → **+1.31**
+- anchor +3.57  class -1.68  k×resid -1.04 (k=0.35, cap ±6.0)  ST +0.04  → recentered (-0.47) → **+1.36**
 - band: 6.0 × coach(1.0) × dispersion(1.00) × conf(1+0.03×1) = ±6.18
 
 ## 5. Pilot caveats

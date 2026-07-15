@@ -2,11 +2,11 @@
  "team": "Baylor",
  "units": {
   "QB": {
-   "grade": 50,
+   "grade": 52,
    "confidence": "M"
   },
   "RB": {
-   "grade": 42,
+   "grade": 44,
    "confidence": "M"
   },
   "WRTE": {
@@ -14,7 +14,7 @@
    "confidence": "M"
   },
   "OL": {
-   "grade": 38,
+   "grade": 40,
    "confidence": "M"
   },
   "DL": {
@@ -46,13 +46,14 @@
    "LB": "+18 vs proxy 20 (proxy misses Barnes override return + transfer adds; my 38 is still L-confidence)",
    "ST": "-45 vs proxy 97 (proxy rides both specialists; K left LATE portal window, only the Ray Guy punter returns)",
    "QB": "-7 vs proxy 57 (proxy credits Robertson-era passing infrastructure; my 50 prices Lagway directly)"
-  }
+  },
+  "ps_backfill_2026_07_15": "PS visual page-read: QB 50->52 (injury context), RB 42->44 (2024 Pendergrass volume), OL 38->40 (93 incoming career starts). DL 47 held (PS 'best Baylor DL since Aranda arrived' noted); LB 38 L held (PS optimism is health-conditional - the same caveat)."
  },
  "grades_detail": [
   {
    "team": "Baylor",
    "unit": "QB",
-   "grade": 50,
+   "grade": 52,
    "confidence": "M",
    "bracketing_exemplars": [
     "UNLV LB 2025 (40)",
@@ -62,7 +63,8 @@
     "The volume king graduated (Robertson 70.3/590; 3,681-31, both top-5 national) and the replacement is the cycle's biggest QB swing: Lagway - #1 QB of the 2024 class, 16 Florida starts, 66.7/401 off his worst year (2nd-best SEC rating 2024 -> second-worst 2025).",
     "The scheme-fit case is attributed and unusually specific: Spavital's offense 'reminds me of my high school offense' (5,500/75 in it at Willis); 6-5 240 adds a run element.",
     "Depth is 7 career snaps (Bennett); the line in front is rebuilt.",
-    "50 = average: elite ceiling, off-year floor, no depth."
+    "50 = average: elite ceiling, off-year floor, no depth.",
+    "PS-backfill 2026-07-15: Lagway's 2025 came on an August injury ('not 100%... a 100% healthy Lagway was a Heisman contender into '25 and he is healthy again' - PS). Injury attribution strengthens the rebound case. 50 -> 52."
    ],
    "key_players": [
     {
@@ -85,7 +87,7 @@
   {
    "team": "Baylor",
    "unit": "RB",
-   "grade": 42,
+   "grade": 44,
    "confidence": "M",
    "bracketing_exemplars": [
     "UNLV LB 2025 (40)",
@@ -94,7 +96,8 @@
    "rationale_bullets": [
     "13th-pctile as-played room loses its volume back (Washington 70.3/163, fumbles -> Auburn).",
     "The 2026 plan IS an injury return: Pendergrass missed all of 2025 (foot) and is the named lead (P6/Athlon agree); Knighten (68.3 on 111 att as a true FR) is the proven-est piece.",
-    "42 = below average: no returning 500-yd producer, lead back off a lost season, pass-tempo scheme."
+    "42 = below average: no returning 500-yd producer, lead back off a lost season, pass-tempo scheme.",
+    "PS-backfill 2026-07-15: Pendergrass was Baylor's #2 back in 2024 with 671 @ 5.5 (6-142 vs OkSt) - real volume before the foot injury; 3 of 4 backs return + Morris. 42 -> 44."
    ],
    "key_players": [
     {
@@ -155,7 +158,7 @@
   {
    "team": "Baylor",
    "unit": "OL",
-   "grade": 38,
+   "grade": 40,
    "confidence": "M",
    "bracketing_exemplars": [
     "Illinois RB 2025 (32)",
@@ -165,7 +168,8 @@
     "4 of 5 starters gone from a 56th-pctile line - incl. the All-B12 anchor (Aigbedion 80.0/684) and two SEC-poached starters (Price 71.0/842 -> UK; Thompkins -> LSU).",
     "The rebuild is G5-transfer-grade on real volume: Walker (Memphis C, 60.9/881 - manual-append row), Moore (UAB LT, 65.0/650), Rhett (61.0/669), Hale (48.1/695); Kibble (Texas LG) is a 38-snap projection; Sieracki (63.0/948) is the lone returning starter.",
     "P6's frame is attributed: 'the starting five were all three-star recruits or transfers.'",
-    "38 = bottom-third-plus: more verified (if modest) tape than a bare rebuild, no above-average returner but Sieracki."
+    "38 = bottom-third-plus: more verified (if modest) tape than a bare rebuild, no above-average returner but Sieracki.",
+    "PS-backfill 2026-07-15: the incoming transfer class carries 93 career starts (Memphis/Toledo/S.Ala/UAB) vs my grade-quality-only read; experience mass matters for OL cohesion. 38 -> 40."
    ],
    "key_players": [
     {

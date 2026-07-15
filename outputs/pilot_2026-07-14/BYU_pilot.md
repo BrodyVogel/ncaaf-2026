@@ -1,6 +1,6 @@
 # BYU — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **+11.29** (rank 21/138 in hybrid field)  band ±6.00
+FINAL: **+11.33** (rank 21/138 in hybrid field)  band ±6.00
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    72 | proxy 83
@@ -8,7 +8,7 @@ FINAL: **+11.29** (rank 21/138 in hybrid field)  band ±6.00
 - WRTE  48 | proxy 51
 - OL    68 | proxy 69
 - DL    52 | proxy 57
-- LB    48 | proxy 30
+- LB    50 | proxy 30
 - DB    70 | proxy 90
 - ST    42 | proxy 99
 
@@ -16,8 +16,8 @@ FINAL: **+11.29** (rank 21/138 in hybrid field)  band ±6.00
 - off: QB:+0.072 RB:+0.093 WRTE:+0.036 OL:+0.082  (R²=0.53)
 - def: DL:-0.083 LB:-0.062 DB:-0.093  (R²=0.61)
 - grade-implied off +32.01 vs anchor off +32.87
-- grade-implied def +23.41 vs anchor def +18.53
-- residual (off-minus-def, grades-vs-anchor): **-5.75**
+- grade-implied def +23.29 vs anchor def +18.53
+- residual (off-minus-def, grades-vs-anchor): **-5.62**
 
 ## 3. Anchor (per source: raw → normalized → used)
 - SP+      15.5 → 15.5 → 15.5
@@ -29,7 +29,7 @@ FINAL: **+11.29** (rank 21/138 in hybrid field)  band ±6.00
 - blend 14.65  (dispersion 2.93)
 
 ## 4. Assembly
-- anchor +14.65  class -1.68  k×resid -2.01 (k=0.35, cap ±6.0)  ST -0.16  → recentered (-0.49) → **+11.29**
+- anchor +14.65  class -1.68  k×resid -1.97 (k=0.35, cap ±6.0)  ST -0.16  → recentered (-0.49) → **+11.33**
 - band: 6.0 × coach(1.0) × dispersion(1.00) × conf(1+0.03×0) = ±6.00
 
 ## 5. Pilot caveats
