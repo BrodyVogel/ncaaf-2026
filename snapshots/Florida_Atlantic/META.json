@@ -5,10 +5,13 @@
  "assembler_git_rev": "3355dcb",
  "cfbd_pull_dir": "data/cfbd/2026-07-12",
  "known_gaps": [
-  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
-  "2026 recruiting team ranks not on CFBD - use 247 site at research time for class context",
-  "two-deep, magazines.md, news.md, Sideline valuations = research phase (RESEARCH_PROCEDURE.md)"
+  "CFBD 2026 feeds not published; portal feed missed Burris/Ware/Valsin origin (recovered via Athlon)",
+  "Veltkamp offseason shoulder surgery - recovery status unverified",
+  "OL: Jean absence unresolved; C/RG alignment fluid"
  ],
  "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
- "frozen": false
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": false
 }
