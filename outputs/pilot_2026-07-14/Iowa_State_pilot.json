@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-15T17:35:37+00:00",
+ "team": "Iowa State",
+ "final": -0.0,
+ "rank": 63,
+ "band": 8.13,
+ "resid": -4.38,
+ "adj": -1.53,
+ "class_term": -0.0,
+ "st": 0.04,
+ "anchor_blend": 0.99,
+ "resid_level": -0.26,
+ "resid_shape": -4.12,
+ "implied_off": 23.31,
+ "implied_def": 27.2,
+ "anchor_off": 22.89,
+ "anchor_def": 22.41,
+ "fit_r2": {
+  "off": 0.538,
+  "dfn": 0.615
+ },
+ "low_conf_units": 3,
+ "code_rev": "739e221",
+ "mode": "PILOT-OOS"
+}
