@@ -1,0 +1,339 @@
+{
+ "team": "UCF",
+ "units": {
+  "QB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 45,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 24, RB None, WRTE 63, OL 32, DL 57, LB 48, DB 67, ST 77)",
+   "QB": "+28 vs proxy 24 (proxy weights the departed 5th-pctile passing season; Barnett's POY import is the whole story)",
+   "ST": "-32 vs proxy 77 (proxy rides the departed K's 76th-pctile season; the new K has zero career FG attempts - Athlon flag)",
+   "DL": "-9 vs proxy 57 (proxy counts Lockett's 85.2 small-sample and Dall raw; grade discounts the edge exodus + injury year)",
+   "DB": "-9 vs proxy 67 (four of five back is real; Dunnam's 75.3/781 exit and G5/FCS depth temper it)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "UCF",
+   "unit": "QB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "All three 2025 QBs left a 5th-pctile passing offense; Alonza Barnett III arrives as the 2025 Sun Belt POY: 2,806 (58%, 23-8) plus 589 rushing and 15 rush TD (6th among QBs), 21-6 as a starter, a CFP appearance - 'a winner to build the 2026 team around' (P6).",
+    "The dual-threat fit with Frost's scheme is the consensus story across all three books; his late-'24 ACL is now two seasons back.",
+    "The tape tempers the hardware: PFF 71.1/433 and a 58% completion rate - good, not elite, and Sun Belt-graded (G5 guard).",
+    "Jenkins (33 FIU starts, 6,713 career) is a proven backup; 4* Marriott is the program's highest-rated QB commit. 52 = average-plus."
+   ],
+   "key_players": [
+    {
+     "name": "Alonza Barnett III",
+     "role": "QB1 transfer (James Madison)",
+     "evidence": "PFF 71.1/433; SBC POY, 38 total TD"
+    },
+    {
+     "name": "Keyone Jenkins",
+     "role": "QB2 transfer (FIU)",
+     "evidence": "PFF 59.0/316; 33 starts"
+    }
+   ],
+   "data_gaps": [
+    "Accuracy (58%) vs P4 coverage"
+   ],
+   "g5_guard_note": "SBC POY production graded with the level discount; fit + winner profile hold it above average"
+  },
+  {
+   "team": "UCF",
+   "unit": "RB",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Both producers left for the pros (Montgomery 76.9; 705 workhorse yards; Nixon 69.9; 554 explosive) and Gage followed to LSU.",
+    "The reload is talent-over-proof: Watson (64.5; led the FBS at 8.9 ypc in '24 but injury-marked, 755 career yards), Chambers (1,273 at 5.2 - FCS), Swint (PS#26 pedigree, zero tape after the redshirt).",
+    "'25's 48th-pctile RUN grade came 'in spite of the line' (#29 ypc vs #95 Run Push) - the room profile stays explosive, but nobody has carried an FBS load. 46 = fringe-below-average."
+   ],
+   "key_players": [
+    {
+     "name": "Duke Watson",
+     "role": "RB1 transfer (Louisville)",
+     "evidence": "PFF 64.5; FBS-best 8.9 ypc in '24"
+    },
+    {
+     "name": "Landen Chambers",
+     "role": "RB transfer (Central Arkansas)",
+     "evidence": "1,273 @ 5.2 (FCS)"
+    },
+    {
+     "name": "Taevion Swint",
+     "role": "RB, returner (redshirt)",
+     "evidence": "PS#26; zero college tape"
+    }
+   ],
+   "data_gaps": [
+    "Zero proven FBS volume",
+    "Watson health"
+   ],
+   "g5_guard_note": "Chambers' 1,273 is FCS-graded; Watson's ypc is 41-carry-sample '24"
+  },
+  {
+   "team": "UCF",
+   "unit": "WRTE",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The retained core is real: Thomas (69.0; 53/528 used everywhere), TE Wade (68.5; 43/523/5 - every program TE record, All-B12 HM, a must-retain), Charles (59.1; 26/290 as a true FR with 'highlight reel' framing).",
+    "Additions bring resumes, not P4 tape: Derry (Monmouth 1st-team FCS AA; 1,123 at 14.8), Bibbs (70.3; 383 at ULM); Farmer returns from the missed season.",
+    "'25 RECV was 10th pctile - but it was fed by a broken QB room; PS: 'much more experienced and should top the last two years production.'",
+    "48 = fringe-average: quality retained pieces, no proven P4 No. 1."
+   ],
+   "key_players": [
+    {
+     "name": "Duane Thomas Jr.",
+     "role": "WR1, returning",
+     "evidence": "PFF 69.0; 53/528, all-purpose"
+    },
+    {
+     "name": "Dylan Wade",
+     "role": "TE1, returning (must-retain)",
+     "evidence": "PFF 68.5; 43/523/5, All-B12 HM"
+    },
+    {
+     "name": "Josh Derry",
+     "role": "WR transfer (Monmouth)",
+     "evidence": "1st-tm FCS AA; 1,123 @ 14.8"
+    }
+   ],
+   "data_gaps": [
+    "Outside WR1 vs P4 corners",
+    "Farmer post-injury form"
+   ],
+   "g5_guard_note": "Derry's AA season is FCS-graded; the 48 leans on the returning P4 trio"
+  },
+  {
+   "team": "UCF",
+   "unit": "OL",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "One returning starter (Cushman 63.1/753) plus Meadows' four starts - four '25 starters gone from a line that was 23rd-pctile run-blocking, #95 in P6's Run Push, and 'heavily penalized… often killing drives.'",
+    "Four three-star transfers rebuild it: Tabansi (64.6/828; 25 Buffalo starts), Wayburn (71.9/445 UConn - the best incoming tape), Terpstra (MSU; 1 start), Gibson (53.2 Charlotte); 60 incoming career starts.",
+    "The interior is unsettled (PS prints Meadows at center, Athlon Terpstra); staff confidence ('improved over last year' - PS) is from a low base.",
+    "40 = below average: the second straight transfer-built line protecting a new QB."
+   ],
+   "key_players": [
+    {
+     "name": "Preston Cushman",
+     "role": "RT, returning starter (lone one)",
+     "evidence": "PFF 63.1/753; 12 st"
+    },
+    {
+     "name": "Brady Wayburn",
+     "role": "G transfer (UConn)",
+     "evidence": "PFF 71.9/445; 10 st L2Y"
+    },
+    {
+     "name": "Henry Tabansi",
+     "role": "T transfer (Buffalo)",
+     "evidence": "PFF 64.6/828; 25 starts"
+    }
+   ],
+   "data_gaps": [
+    "Center battle",
+    "Penalty cleanup"
+   ],
+   "g5_guard_note": "Tabansi/Wayburn/Gibson tape is MAC/UConn/CUSA-graded"
+  },
+  {
+   "team": "UCF",
+   "unit": "DL",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The edge pair left for the pros (Lawrence 80.1/470 + Kelly 76.2/492 - 10 of 27 team sacks) and the interior lost Walker (70.7) to Ohio State, LeBlanc to Maryland, Lora to Purdue.",
+    "What returns is better than the proxy sees: RJ Jackson (69.3/456; 11 st), Lockett (withdrawal override, triple-sourced - 85.2 on 113 snaps before the week-4 injury), 4* Nixon (62.8) and Edwards.",
+    "Dall (79.3/628; All-MAC, 8.5 TFL, 7 pd) is the best incoming tape among seven transfers (Collins 12 OreSt starts, Gurley 10.5 TFL FCS, Talley, Top200 Harrold off a DNP).",
+    "PS: 'depth but might be down a notch… looking for more interior pressure'; Athlon: edge is 'the biggest question.' From RDEF 80th/PRSH 71st: 48 = fringe-average."
+   ],
+   "key_players": [
+    {
+     "name": "RJ Jackson Jr.",
+     "role": "DT, returning",
+     "evidence": "PFF 69.3/456; 11 st"
+    },
+    {
+     "name": "Horace Lockett",
+     "role": "DT, returning (portal withdrawal - override)",
+     "evidence": "PFF 85.2/113 pre-injury"
+    },
+    {
+     "name": "Bruno Dall",
+     "role": "ED transfer (Akron)",
+     "evidence": "PFF 79.3/628; All-MAC"
+    }
+   ],
+   "data_gaps": [
+    "Edge production replacement",
+    "Lockett post-injury"
+   ],
+   "g5_guard_note": "Dall's 79.3 is MAC-graded; Gurley FCS - guard keeps the unit at fringe-average despite depth"
+  },
+  {
+   "team": "UCF",
+   "unit": "LB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Carter (75.9/692; team-high 92 tackles, 4th-team B12) was a must-retain and stayed - 'should push for all-league honors again' (P6).",
+    "The second level rebuilds with volume: Culbreath (66.4/626; 13 st, 71 tkl, 9 TFL at ODU), Curtis (63.3/321; Wisconsin 4*, 40 tackles as a USC freshman), Henry (67 tkl at UMass); Jennings (70.3/135) returns.",
+    "Kozlowski (75.6/531; #2 tackler) graduated. PS: 'this unit is smart and really packs a punch.' 52 = average-plus around one proven star."
+   ],
+   "key_players": [
+    {
+     "name": "Lewis Carter",
+     "role": "LB1, returning (must-retain)",
+     "evidence": "PFF 75.9/692; 92 tkl, 4th-tm B12"
+    },
+    {
+     "name": "Jahleel Culbreath",
+     "role": "LB transfer (Old Dominion)",
+     "evidence": "PFF 66.4/626; 71 tkl, 9 TFL"
+    },
+    {
+     "name": "Tackett Curtis",
+     "role": "LB transfer (Wisconsin)",
+     "evidence": "PFF 63.3/321; 4* pedigree"
+    }
+   ],
+   "data_gaps": [
+    "MLB/WLB arrangement"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UCF",
+   "unit": "DB",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Four of five starters return from a 75th-pctile coverage unit: Bellamy (76.4/666; 4th-team B12, 8 pbu - 'the top corner'), A.Jackson (66.8/557; 5 pbu), Marshall (64.5/476; 2 INT, must-retain), Henderson (71.0/700; 61 tkl).",
+    "The lone loss is real - Dunnam (75.3/781, #3 tackler) - and the open safety is a battle: J.Williams (68.1), Bartrum (Harvard 3rd-team FCS AA; 83 tkl), Wayne St's 12-pd Johnson, Flagg.",
+    "PS: 'maybe they can climb to that '23 [#16 PDR] level… a solid defensive backfield'; Athlon calls the secondary the strength. 58 = the roster's most proven unit."
+   ],
+   "key_players": [
+    {
+     "name": "Jayden Bellamy",
+     "role": "CB1, returning (must-retain)",
+     "evidence": "PFF 76.4/666; 4th-tm B12"
+    },
+    {
+     "name": "Braeden Marshall",
+     "role": "NB, returning (must-retain)",
+     "evidence": "PFF 64.5/476; 2 INT"
+    },
+    {
+     "name": "Demari Henderson",
+     "role": "S, returning",
+     "evidence": "PFF 71.0/700; 61 tkl"
+    }
+   ],
+   "data_gaps": [
+    "Open safety battle"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UCF",
+   "unit": "ST",
+   "grade": 45,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The punter is proven: Bertrams (Wisconsin; 45.3 avg/40.1 net in '24, PS#25) - a real upgrade path; ST coordinator Alamar is retained after lifting the unit #108 -> #73.",
+    "The placekicker is not: Stone (Texas) is a kickoff specialist (98 KO/56 TB in '24) who 'has never attempted a field goal in a college game' (Athlon's explicit flag); K Ruelas (15-17, L54) is gone.",
+    "KR Nixon (the KR-TD) also departs (FR Kaj Baker takes over). From a 76th-pctile SPEC season: 45 = fringe-below-average - the FG void is the swing risk PS's 'wont drop much' underweights."
+   ],
+   "key_players": [
+    {
+     "name": "Atticus Bertrams",
+     "role": "P transfer (Wisconsin)",
+     "evidence": "45.3/40.1 net in '24; PS#25"
+    },
+    {
+     "name": "Will Stone",
+     "role": "K transfer (Texas)",
+     "evidence": "KO specialist; zero career FG att"
+    }
+   ],
+   "data_gaps": [
+    "FG job entirely unproven"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
