@@ -1,0 +1,23 @@
+{
+ "run_utc": "2026-07-15T14:49:36+00:00",
+ "team": "BYU",
+ "final": 11.29,
+ "rank": 21,
+ "band": 6.0,
+ "resid": -5.75,
+ "adj": -2.01,
+ "class_term": -1.68,
+ "st": -0.16,
+ "anchor_blend": 14.65,
+ "implied_off": 32.01,
+ "implied_def": 23.41,
+ "anchor_off": 32.87,
+ "anchor_def": 18.53,
+ "fit_r2": {
+  "off": 0.535,
+  "dfn": 0.613
+ },
+ "low_conf_units": 0,
+ "code_rev": "99b6a67",
+ "mode": "PILOT-OOS"
+}
