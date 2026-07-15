@@ -1,0 +1,18 @@
+{
+ "team": "Arizona",
+ "conference": "Big 12",
+ "created_utc": "2026-07-15T02:43:32+00:00",
+ "assembler_git_rev": "7391267",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "PS box not OCR'd (logged trim)",
+  "8-transfer DB room cohesion unknowable pre-season",
+  "Tre Smith season-ending-injury recovery status",
+  "K Salgado-Medina rebound (spring note only)"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": false
+}

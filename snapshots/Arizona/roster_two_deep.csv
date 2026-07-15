@@ -1,0 +1,28 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Noah Fifita,SR,RETURNING STARTER,1st-team All-B12 (first UA QB in 50 yrs); 3228 yds 29 TD; 2 INT over final 7 games; +220 designed-run yds; career TD record (73); PFF 85.1/493; first year with SAME OC (Doege)
+RB,RB,1,Kedrick Reescano,SR(yr3),returner,9 TD incl Cincinnati game-winner; PFF 76.1/84; "thunder-lightning" pair (P6)
+RB,RB,1,Quincy Craig,SR(yr3),returner,Kansas game-winner; PFF 65.5/64; Mahdi (75.8/135; 859 yds) graduated
+RB,RB,2,Antwan Roberts,,Marshall transfer,PFF 69.4/89
+WRTE,WR,1,Tre Spivey,JR(yr2),RETURNING STARTER (bold),All-B12 HM: 8 TD on 25 touches; 6-4; PFF 63.0/287 (grade-production divergence)
+WRTE,WR,1,Chris Hunter,SR(yr3),returner,moves up (P6); PFF 60.4/254
+WRTE,WR,2,Gio Richardson / Isaiah Mizell / DJ Jordan / Jordan Ross / Rodney Gallagher,SO/SO/SO/JR/SR,returners + USC/CSU/WVU transfers,Richardson 299 yds as FR (68.0/101); Mizell = fastest player; Jordan = USC Top100; Gallagher = WVU starter; DEPARTED: Hutson (75.5/356) + Whatley (66.6/260) - top two
+WRTE,TE,1,Tyler Powell OR Cole Rusk,,returner (injury) / Illinois transfer,Powell's 2025 ended on first play; Rusk started at Illinois; top two TEs graduated; 4-star Gabalis FR
+OL,LT,1,Matthew Lado,SO(yr1),returner (moves up),PFF 64.5/346 - injury-forced 2025 action "mixed results" (P6)
+OL,LG,1,Rhino Tapa'atoutai,JR,returner (moves up),PFF 46.8/231 - same P6 caveat
+OL,C,1,Zach Henning,JR,Washington transfer,starting experience at UW via injuries (P6); Decambra (67.9/898) gone
+OL,RG,1,Alexander Doost,JR(yr2),RETURNING STARTER (bold),PFF 67.2/878
+OL,RT,1,Tristan Bounds,SR,RETURNING STARTER (bold; 6TH YEAR awarded - P6 override),PFF 72.3/628; DEPARTED: Buchanan (70.9/737 - lone all-league OL) + Maae (63.9/753)
+DL,DL,1,Leroy Palu,SR(yr3),returner,PFF 58.4/489 - middle
+DL,DL,1,Mays Pese,SO(yr1),returner,B12 All-Freshman (P6); PFF 58.8/356
+DL,EDGE,1,Tre Smith,,returner from season-ending injury,team captain; career 60 tkl 8.5 TFL 4.5 sk (P6)
+DL,DL,2,Julian Savaiinaea / Dominic Lolesio,,returners,DEPARTED (yr-4): McKnight (76.4/449) + Wilson (78.0/428) + Savea (64.2/379) + Bailey (67.2/315)
+LB,LB,1,Taye Brown,,RETURNER - 3rd-year starter (P6),PFF 75.9/752
+LB,LB/EDGE,1,Chase Kennedy,SR(yr3),returner,backer/edge hybrid (P6); PFF 65.5/537
+LB,LB,2,Jabari Mann / Myron Robinson / Everett Roussaw / Matai Tagoa'i,SO/SO/,returners + Memphis/USC transfers,Mann 68.8/169 (Red Rover pick-6); Robinson 77.4/83; Roussaw 63.8/777 at Memphis; Tagoa'i (USC Top100) moved LB->S; Harris (72.0/612) yr-4 expired
+DB,CB,1,Jay'Vion Cole,,RETURNER - lone returning starter (P6),All-B12; 4 INT; PFF 86.3/381
+DB,DB,1,Malcolm Hartzog,,Nebraska transfer,"can play every position" (P6); Nebraska starter
+DB,S,1,Cam Chapa / Daylen Austin,,N.Colorado / Oregon,Chapa 1st-tm All-Big Sky (FCS); Austin former Top100
+DB,CB,2,Tyrese Boss / Zuri Watson / Dwight Bootle / Lee Molette / G.Hunter,,Wyoming/Howard/Charlotte/UConn/returner,Boss All-MW; EIGHT transfer DBs total; DEPARTED: Stukes (90.1/608) + Johnson (84.8/771) + Smith (80.0/771) = 1st/1st/3rd-tm All-B12 - FOUR DBs drafted (tied NFL record) + 1 UDFA; Dansby/Garnes yr-4 expired
+ST,K,1,Michael Salgado-Medina,JR(yr2),RETURNER,19-31 FG 2025 (most UA misses since 1999; snapping inconsistencies a factor); 5-12 from 40-49 but 57-yd make; "more consistent throughout the spring" (Athlon)
+ST,P,1,Chase Ridley OR Carter Schwartz,,Australian signee / Louisville transfer,Ridley "likely starter for the opener" (Athlon)
+ST,COORD,1,Brennan yr 3; BOTH coordinators return (Doege OC / Gonzales DC - Broyles semifinalist + extension),,,no coach multiplier; continuity is the program story (Athlon)
