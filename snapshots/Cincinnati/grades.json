@@ -1,0 +1,320 @@
+{
+ "team": "Cincinnati",
+ "units": {
+  "QB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 40,
+   "confidence": "L"
+  },
+  "OL": {
+   "grade": 76,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 32,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 55,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 45,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 52,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 29, RB 44, WRTE null, OL 97, DL 13, LB 52, DB 52, ST 52)",
+   "OL": "-21 vs proxy 97 (proxy legitimately sees the trio return; mine discounts two open spots + Gerhardt loss)",
+   "DL": "+19 vs proxy 13 (proxy floor-pinned; adds + Burns keep mine at 32)",
+   "QB": "+13 vs proxy 29 (proxy sees only Sorsby's exit; French's arrival invisible to it)",
+   "DB": "-7 vs proxy 52 (proxy counts yr-4 DBs as returning; the wave is gone)",
+   "WRTE": "proxy null (no qualifying membership) - engine imputes 50; mine 40"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Cincinnati",
+   "unit": "QB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "The 95th-pctile QB left: Sorsby (90.3/400) to Texas Tech as the cycle's top-rated transfer - 'the engine of that team' (opposing assistant, Athlon).",
+    "French (GaSouthern) brings proven volume (5,760/37 + 554 rush over two years; 65.4/498) with mediocre efficiency (6th SBC QB Rating 2025, 9th in 2024) and a two-level jump.",
+    "Scheme continuity helps: RPO/PA fit drew him and Satterfield retains play-calling.",
+    "42 = below average: real starter, real efficiency questions, thin depth (9 Ivy-and-backup snaps)."
+   ],
+   "key_players": [
+    {
+     "name": "JC French IV",
+     "role": "QB1",
+     "evidence": "5,760/37 two-yr at GaSouthern; PFF 65.4/498"
+    }
+   ],
+   "data_gaps": [
+    "Two-level jump",
+    "No proven depth"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Cincinnati",
+   "unit": "RB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Walker (85.0/167, All-B12) + Pryor (1,231 combined) gone; the named starter is a spring-surge FR (Zion Johnson, bowl start, 67.4/29).",
+    "The battle behind him has tape: All-SBC Perry (74.6/192), Tabb (72.6/125), Payne (71.3/13) - and Athlon's plan is explicit: 'lean heavily on the ground game' behind a #5-ypc line.",
+    "50 = average: committee quality + elite run-blocking context, no proven FBS volume lead."
+   ],
+   "key_players": [
+    {
+     "name": "Zion Johnson",
+     "role": "RB1 (named)",
+     "evidence": "bowl start; spring surge (P6)"
+    },
+    {
+     "name": "Zylan Perry",
+     "role": "RB, All-SBC",
+     "evidence": "PFF 74.6/192 at Louisiana"
+    }
+   ],
+   "data_gaps": [
+    "Carry split",
+    "FR lead projection"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Cincinnati",
+   "unit": "WRTE",
+   "grade": 40,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Top three WRs (Allen 13 TD/3rd natl; Goodie; Caldwell) + drafted TE Royer gone from a room that even WITH them played at the 52nd pctile.",
+    "The verified add is one hot small sample: Wolford (80.3/143, 27 y/c All-MAC); the spring #1 (Gibson) has ZERO 2025 tape; three more adds are FCS/D2 with no PFF rows.",
+    "P6's own metaphor is the confidence grade: 'roulette chips' with a good house record. 40, L."
+   ],
+   "key_players": [
+    {
+     "name": "Cade Wolford",
+     "role": "WR add",
+     "evidence": "PFF 80.3/143; 27 y/c All-MAC"
+    },
+    {
+     "name": "JV Gibson",
+     "role": "spring WR1",
+     "evidence": "no 2025 tape; 70 FCS catches 2024"
+    }
+   ],
+   "data_gaps": [
+    "FCS/D2 adds unverifiable",
+    "Gibson health"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Cincinnati",
+   "unit": "OL",
+   "grade": 76,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Washington State DB 2025 (72)",
+    "Houston WRTE 2025 (78)"
+   ],
+   "rationale_bullets": [
+    "The trio jointly announced return: Tengesdahl (85.4/735 - Athlon 'All-American'), Tyo (72.7/766), Cotton (69.9/771) - from a 90th-pctile line that was #2 in national sack rate, #3 in P6 Run Push, #5 in ypc, Joe Moore semifinalist.",
+    "Two spots open (Gerhardt 68.4/767 + Buford gone), but the fill-ins graded well in samples: Lozowicki 71.1/103, Milon 75.4/53 (Athlon DC override).",
+    "76 = top-25: elite verified core + system, discounted for two new starters."
+   ],
+   "key_players": [
+    {
+     "name": "Evan Tengesdahl",
+     "role": "LG, All-American",
+     "evidence": "PFF 85.4/735"
+    },
+    {
+     "name": "Taran Tyo",
+     "role": "C/G",
+     "evidence": "PFF 72.7/766"
+    },
+    {
+     "name": "Joe Cotton",
+     "role": "LT",
+     "evidence": "PFF 69.9/771"
+    }
+   ],
+   "data_gaps": [
+    "RG/RT settling"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Cincinnati",
+   "unit": "DL",
+   "grade": 32,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
+   "rationale_bullets": [
+    "A 22nd-pctile unit lost both All-B12 pieces (Hunt 76.4/536, Corleone 72.6/352 - NFL) plus a starter to the portal.",
+    "What returns is framing-vs-grade: Parker is the books' 'best pass-rusher' at PFF 55.1/395; Burns (68.6/174) is the best returning number.",
+    "Adds are one UTSA rotation body (Otutu 60.8/287) + no-tape FCS/D2 production claims (T.Johnson 12 sacks at NCC). Woody's scheme is coaching, not personnel.",
+    "32 = bottom-third: the floor of the roster."
+   ],
+   "key_players": [
+    {
+     "name": "Marquaze Parker",
+     "role": "DE",
+     "evidence": "PFF 55.1/395; spring/framing star"
+    },
+    {
+     "name": "Chidera Otutu",
+     "role": "DT add",
+     "evidence": "PFF 60.8/287 at UTSA"
+    }
+   ],
+   "data_gaps": [
+    "No-tape FCS adds",
+    "Interior after Corleone"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Cincinnati",
+   "unit": "LB",
+   "grade": 55,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Golday (82.4/681) was drafted in the 2nd round, but this is the one defensive room that kept verified tape: Thompson (73.5/592, bold, 'all-league push' - P6) and Simms (74.3/304).",
+    "Maciorowski (64.6/611, 97 tackles at NIU) imports the volume role; Coleman (65.6/413) adds depth.",
+    "LB caution rule: grades and roles align on the returners. 55 = above average."
+   ],
+   "key_players": [
+    {
+     "name": "Jonathan Thompson",
+     "role": "ILB, 3rd-yr starter",
+     "evidence": "PFF 73.5/592"
+    },
+    {
+     "name": "Brian Simms III",
+     "role": "OLB",
+     "evidence": "PFF 74.3/304"
+    },
+    {
+     "name": "Filip Maciorowski",
+     "role": "ILB add",
+     "evidence": "97 tkl at NIU; PFF 64.6/611"
+    }
+   ],
+   "data_gaps": [
+    "Golday-sized playmaking"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Cincinnati",
+   "unit": "DB",
+   "grade": 45,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Five of six top-volume DBs gone (yr-4 wave McDoom/Gola-Callard/Wilson + transfers Harrison/Sanks) from a pass D that was bottom-5 P4 WITH them.",
+    "The unit is Peek: 81.4/424, All-B12, Thorpe semifinalist, the 'do-it-all hybrid' who 'will lead the way' (P6).",
+    "The reload has real MAC volume: Beeler (76.3/771), Cannon (74.3/752, All-MAC), Finley (64.1/674) - 'as many as four could start.'",
+    "45 = fringe-below-average: one elite piece + credible G5 tape stepping up from a bad baseline."
+   ],
+   "key_players": [
+    {
+     "name": "Antwan Peek Jr.",
+     "role": "NB, All-B12",
+     "evidence": "PFF 81.4/424; Thorpe semi"
+    },
+    {
+     "name": "Jasper Beeler",
+     "role": "S add",
+     "evidence": "PFF 76.3/771 at NIU"
+    },
+    {
+     "name": "MJ Cannon",
+     "role": "CB add",
+     "evidence": "PFF 74.3/752; All-MAC"
+    }
+   ],
+   "data_gaps": [
+    "Four new starters possible",
+    "P4 translation"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Cincinnati",
+   "unit": "ST",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "Both specialists return from a 51st-pctile SPEC unit: K Rusnak ('perfect most of the year'; the 3-miss BYU night the blemish) and P Fletcher - 'great first seasons... another step forward' (Athlon).",
+    "I.Johnson (fastest player) takes both return jobs.",
+    "52 = average-plus: two returning starters at K/P is the most stable special-teams profile in the batch."
+   ],
+   "key_players": [
+    {
+     "name": "Stephen Rusnak",
+     "role": "K",
+     "evidence": "returning starter"
+    },
+    {
+     "name": "Max Fletcher",
+     "role": "P",
+     "evidence": "returning starter"
+    }
+   ],
+   "data_gaps": [
+    "Return production unproven"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
