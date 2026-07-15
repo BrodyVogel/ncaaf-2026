@@ -37,10 +37,14 @@ def ledger(root):
         for p in json.load(open(rp)):
             roster[player_norm(p.get("firstName", "") + " " + p.get("lastName", ""))] = p.get("year")
     mp = f"{root}/META.json"
+    nfl_declares = set()
     if os.path.exists(mp):
         meta = json.load(open(mp))
         overrides = {player_norm(n) for n in meta.get("portal_withdrawal_overrides", [])}
         confirmed_gone = {player_norm(n) for n in meta.get("portal_departure_confirmed", [])}
+        # early NFL declares are invisible to feeds (not portal, not yr-4); research
+        # documents them in META nfl_declare_confirmed + news.md (Utah Fano/Lomu case)
+        nfl_declares = {player_norm(n) for n in meta.get("nfl_declare_confirmed", [])}
     rows = []
     for u in ["QB", "RB", "WRTE", "OL", "DL", "LB", "DB"]:
         f = f"{root}/pff/unit_{u}.csv"
@@ -90,6 +94,8 @@ def ledger(root):
                     status = "PORTAL(none)-GONE (adjudicated)"
                 else:
                     status = "PORTAL(none)-ADJUDICATE"
+            elif nm in nfl_declares:
+                status = "NFL-DECLARE (research)"
             elif roster.get(nm) == 4:
                 status = "EXPIRED(yr4)*"  # * unless magazine override recorded in news.md
             else:

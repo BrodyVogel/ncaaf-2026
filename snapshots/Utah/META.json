@@ -1,0 +1,38 @@
+{
+ "team": "Utah",
+ "conference": "Big 12",
+ "created_utc": "2026-07-15T18:54:58+00:00",
+ "assembler_git_rev": "9488830",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "OL: zero returning starts (two 1st-rd declares); 5* FR + FCS RT projected",
+  "DL: both DEs + top 3 DTs gone from a worst-since-'96 run D",
+  "OC handoff Beck -> McGiven ('similar' scheme, partial continuity)",
+  "Corner room: one returning starter",
+  "Dampier injury history"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": true,
+ "research_completed_utc": "2026-07-15",
+ "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
+ "coach_change": "Whittingham -> Michigan (21 yrs); Scalley promoted (HC-in-waiting since '23, won the bowl) - x1.13 w/ maximal continuity mitigants",
+ "portal_withdrawal_overrides": [],
+ "portal_departure_confirmed": [
+  "Devin Green"
+ ],
+ "nfl_declare_confirmed": [
+  "Spencer Fano",
+  "Caleb Lomu",
+  "Logan Fano"
+ ],
+ "yr4_return_overrides_documented": [
+  "Alex Harrison",
+  "Rabbit Evans",
+  "Zereoue Williams"
+ ],
+ "adjudication_notes": {
+  "Devin Green": "destination-None, absent from all May prints -> GONE per standing rule",
+  "nfl_declares": "Fano/Lomu drafted 1st rd (P6/PS explicit); L.Fano = P6 'all four DL gone' + PS 'both starting DEs depart' + successors named; new META mechanism, see research_log",
+  "yr4_returns": "Harrison bonus-eligibility (P6) + Evans medical-year (P6/Athlon/PS) - documented in news.md per EXPIRED(yr4)* convention"
+ }
+}

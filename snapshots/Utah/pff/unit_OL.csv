@@ -1,0 +1,14 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Tanoa Togiai,131879,G,UTAH,13,100.0,0,328,60.4,86.7,54.6,0,7,393,100.0,100.0,99.1,4,7,0,896,0,861,19,896,418,418,0,16,478,0,2025_this_team
+Jaren Kump,131859,C,UTAH,12,100.0,0,328,66.3,69.3,65.3,0,9,367,100.0,100.0,98.5,5,10,1,844,844,0,0,844,391,391,0,0,453,0,2025_this_team
+Caleb Lomu,176655,T,UTAH,12,100.0,0,328,68.4,82.1,62.0,2,6,359,100.0,100.0,98.9,4,8,0,823,0,0,800,823,383,383,0,18,440,4,2025_this_team
+Spencer Fano,174217,T,UTAH,12,100.0,1,328,83.9,81.5,79.9,0,5,358,100.0,100.0,99.3,5,5,0,822,0,0,0,822,382,382,0,777,440,45,2025_this_team
+Michael Mokofisi,146439,G,UTAH,13,100.0,0,328,55.9,62.9,54.4,2,10,355,100.0,100.0,98.3,5,12,0,815,0,2,0,815,379,379,813,0,436,0,2025_this_team
+Solatoa Moea'i,174216,G,UTAH,11,99.7,0,328,62.2,77.4,53.1,0,2,126,99.2,99.2,99.2,1,2,0,335,0,2,0,336,131,132,0,1,204,328,2025_this_team
+Keith Olson,158501,T,UTAH,12,100.0,0,328,64.6,77.0,59.6,0,2,98,100.0,100.0,99.0,0,2,0,295,0,18,0,295,101,101,33,136,194,97,2025_this_team
+Zereoue Williams,146440,T,UTAH,8,100.0,0,328,60.7,85.4,54.4,0,0,54,100.0,100.0,100.0,0,0,0,156,0,0,151,156,55,55,0,1,101,3,2025_this_team
+Alex Harrison,131856,C,UTAH,8,100.0,0,328,68.2,69.4,69.7,0,2,47,100.0,100.0,97.9,2,2,0,143,134,9,0,143,48,48,0,0,95,0,2025_this_team
+Roger Alderman,176647,G,UTAH,8,100.0,0,328,58.8,59.1,57.6,0,2,43,100.0,100.0,97.7,0,2,0,134,0,3,0,134,44,44,131,0,90,0,2025_this_team
+Reece Parmenter,183867,G,UTAH,8,100.0,0,328,68.6,80.5,66.8,0,0,19,100.0,100.0,100.0,0,0,0,84,0,83,0,84,19,19,1,0,65,0,2025_this_team
+Isaiah Kema,205325,C,OHIO STATE,4,100.0,0,260,68.2,76.4,65.2,0,0,7,100.0,100.0,100.0,0,0,0,31,31,0,0,31,7,7,0,0,24,0,arrival_2025_at_OHIO STATE
+Kalolo Ta'aga,183629,T,UTAH,1,100.0,0,328,55.3,14.0,56.8,0,0,2,100.0,100.0,100.0,0,0,0,16,0,0,0,16,2,2,0,16,14,0,2025_this_team

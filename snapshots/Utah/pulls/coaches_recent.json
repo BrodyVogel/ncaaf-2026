@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Kyle",
+  "lastName": "Whittingham",
+  "hireDate": "2004-12-08T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Utah",
+    "year": 2024,
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": 12,
+    "postseasonRank": null,
+    "srs": 6.1,
+    "spOverall": 7.7,
+    "spOffense": 23.6,
+    "spDefense": 17.2
+   }
+  ]
+ },
+ {
+  "firstName": "Kyle",
+  "lastName": "Whittingham",
+  "hireDate": "2004-12-08T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Utah",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 21.3,
+    "spOverall": 22.2,
+    "spOffense": 39.7,
+    "spDefense": 17.5
+   }
+  ]
+ }
+]

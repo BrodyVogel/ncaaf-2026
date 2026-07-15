@@ -41,6 +41,9 @@ def check(root):
     meta = json.load(open(f"{root}/META.json")) if os.path.exists(f"{root}/META.json") else {}
     overrides = {player_norm(n) for n in meta.get("portal_withdrawal_overrides", [])}
     name_exceptions = {player_norm(n) for n in meta.get("known_name_exceptions", [])}
+    # early NFL declares: research-confirmed GONE (META nfl_declare_confirmed); citing one
+    # as a returner is a violation exactly like a portal departure (Utah Fano/Lomu case)
+    nfl_declares = {player_norm(n) for n in meta.get("nfl_declare_confirmed", [])}
     violations = []
 
     roster_names = set()
@@ -81,6 +84,8 @@ def check(root):
                         violations.append((d["unit"], kp["name"], f"-> {dest}", "key_player"))
                     elif nm not in overrides:
                         violations.append((d["unit"], kp["name"], "portal (no dest), no override", "key_player"))
+                if nm in nfl_declares:
+                    violations.append((d["unit"], kp["name"], "NFL declare (research-confirmed GONE)", "key_player"))
 
     # 2) dossier RETURN-claim lines
     dp = f"{root}/unit_dossiers.md"

@@ -1,0 +1,36 @@
+{
+ "id": 254,
+ "school": "Utah",
+ "mascot": "Utes",
+ "abbreviation": "UTAH",
+ "alternateNames": [
+  "UTAH",
+  "Utah"
+ ],
+ "conference": "Big 12",
+ "division": null,
+ "classification": "fbs",
+ "color": "#ea002a",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/254.png"
+ ],
+ "twitter": "@Utah_Football",
+ "location": {
+  "id": 587,
+  "name": "Rice-Eccles Stadium",
+  "city": "Salt Lake City",
+  "state": "UT",
+  "zip": "84112",
+  "countryCode": "US",
+  "timezone": "America/Denver",
+  "latitude": 40.7599724,
+  "longitude": -111.8488255,
+  "elevation": "1411.543579",
+  "capacity": 51444,
+  "constructionYear": 1998,
+  "grass": false,
+  "dome": false
+ }
+}
