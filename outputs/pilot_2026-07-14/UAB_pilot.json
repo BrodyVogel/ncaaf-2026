@@ -1,0 +1,23 @@
+{
+ "run_utc": "2026-07-15T02:09:20+00:00",
+ "team": "UAB",
+ "final": -11.93,
+ "rank": 122,
+ "band": 7.19,
+ "resid": 9.18,
+ "adj": 3.21,
+ "class_term": 1.68,
+ "st": 0.1,
+ "anchor_blend": -17.36,
+ "implied_off": 24.21,
+ "implied_def": 31.89,
+ "anchor_off": 20.67,
+ "anchor_def": 37.53,
+ "fit_r2": {
+  "off": 0.541,
+  "dfn": 0.609
+ },
+ "low_conf_units": 2,
+ "code_rev": "297062e",
+ "mode": "PILOT-OOS"
+}
