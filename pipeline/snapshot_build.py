@@ -12,7 +12,7 @@ Usage: python3 snapshot_build.py "Kansas State" [--out snapshots]
 """
 import argparse, csv, json, os, subprocess, sys, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from pff_common import UNITS, build_team_lookup, load_unit_rows
+from pff_common import UNITS, build_team_lookup, load_unit_rows, player_norm
 
 D = "data/cfbd/2026-07-12"
 FORBIDDEN = ("data/anchors", "data/win_totals")
@@ -76,18 +76,21 @@ def main():
 
     # --- PFF evidence pack per unit: 2025 rows for this team + arrivals' 2025 rows at origin
     pff_names_25 = {}  # for provenance: which PFF team_name strings map to this team
-    arrivals = {(p.get("firstName", "") + " " + p.get("lastName", "")).strip().lower(): p.get("origin")
+    arrivals = {player_norm(p.get("firstName", "") + " " + p.get("lastName", "")): p.get("origin")
                 for p in portal if p.get("destination") == team}
     for unit, (table, positions, vol_col, grade_col, _, _) in UNITS.items():
         rows_out = []
         for r in load_unit_rows(table, 2025, positions):
             mapped = lookup(r["team_name"])
+            pn = player_norm(r["player"])
             if mapped == team:
                 rows_out.append({**r, "_provenance": "2025_this_team"})
-            elif (arrivals.get(r["player"].lower())
-                  and lookup(r["team_name"]) == arrivals[r["player"].lower()]):
+            elif arrivals.get(pn) and mapped == arrivals[pn]:
                 # name AND origin-school must both match (fix 2026-07-14: name-only matching
-                # pulled same-named strangers, e.g. Clemson WR "Tyler Brown" into Iowa's pack)
+                # pulled same-named strangers, e.g. Clemson WR "Tyler Brown" into Iowa's pack).
+                # Names are normalized on both sides (fix 2026-07-15: exact lowercase matching
+                # dropped PFF "D.J. McKinney" vs CFBD "DJ McKinney", "Dwight Bootle" vs
+                # "Dwight Bootle II"); origins resolve via the non-FBS overlay too.
                 rows_out.append({**r, "_provenance": f"arrival_2025_at_{r['team_name']}"})
         if rows_out:
             with open(f"{root}/pff/unit_{unit}.csv", "w", newline="") as f:

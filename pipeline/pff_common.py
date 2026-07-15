@@ -4,7 +4,7 @@
 Used by: step4_conversion_calibration.py (k/cap), grading/build_exemplars.py (scale
 anchors), snapshot_build.py (per-team evidence packs). One definition, everywhere.
 """
-import csv, re, unicodedata
+import csv, os, re, unicodedata
 
 UNITS = {  # unit: (table, positions, vol_col, grade_col, min_player_vol, min_unit_vol)
     "QB":   ("passing_summary",  {"QB"},         "dropbacks",            "grades_offense", 100, 100),
@@ -18,6 +18,8 @@ UNITS = {  # unit: (table, positions, vol_col, grade_col, min_player_vol, min_un
 OFF_UNITS, DEF_UNITS = ["QB", "RB", "WRTE", "OL"], ["DL", "LB", "DB"]
 
 ALIAS = {  # PFF player-file team_name -> norm_key (hand-verified); None = not a panel team
+    "CAL": "california", "GA STATE": "georgiastate", "GA TECH": "georgiatech",
+    "LA MONROE": "louisianamonroe", "LA TECH": "louisianatech", "VA TECH": "virginiatech",
     "ARK STATE": "arkansasstate", "BOSTON COL": "bostoncollege", "BOWL GREEN": "bowlinggreen",
     "C MICHIGAN": "centralmichigan", "COAST CAR": "coastalcarolina", "DOMINION": "olddominion",
     "E CAROLINA": "eastcarolina", "E MICHIGAN": "easternmichigan", "FAU": "floridaatlantic",
@@ -40,10 +42,35 @@ def norm(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     return re.sub(r"[^a-z0-9]", "", s)
 
-def build_team_lookup(map_path="data/anchors/team_name_map.csv"):
-    """Returns (norm_key->cfbd dict, player-file-team-name->cfbd resolver)."""
+def player_norm(s):
+    """Normalize a player name for CFBD<->PFF matching: fold accents, drop punctuation,
+    strip TRAILING generational suffixes only (initial-style names like 'JR Rosenberg'
+    keep their letters), squash spaces. 'D.J. McKinney' == 'DJ McKinney'; 'Dwight
+    Bootle II' == 'Dwight Bootle'; 'J.R. Rosenberg' == 'JR Rosenberg'. Collision risk
+    is bounded by the name+origin match in the builder."""
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+    s = re.sub(r"[^a-z0-9 ]", " ", s)
+    toks = s.split()
+    while len(toks) > 2 and toks[-1] in ("jr", "sr", "ii", "iii", "iv", "v"):
+        toks.pop()
+    return "".join(toks)
+
+def build_team_lookup(map_path="data/anchors/team_name_map.csv",
+                      nonfbs_path="data/anchors/pff_nonfbs_map.csv"):
+    """Returns (norm_key->cfbd dict, player-file-team-name->cfbd resolver).
+
+    Resolution order: non-FBS overlay (exact PFF name -> CFBD school string; lets FCS/D2
+    arrival origins match) -> hand-verified FBS ALIAS -> abbreviation expansion -> norm.
+    The overlay is a separate file so the 138-row FBS map (anchor-pipeline canon) is
+    untouched. Added 2026-07-15 after the arrival-row drop bug (see repair_pff_arrivals.py).
+    """
     n2c = {r["norm_key"]: r["cfbd_school"] for r in csv.DictReader(open(map_path))}
+    nonfbs = {}
+    if os.path.exists(nonfbs_path):
+        nonfbs = {r["pff_name"]: r["cfbd_school"] for r in csv.DictReader(open(nonfbs_path))}
     def lookup(team_name):
+        if team_name in nonfbs:
+            return nonfbs[team_name]
         if team_name in ALIAS:
             k = ALIAS[team_name]
             return n2c.get(k) if k else None
