@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-15T18:17:18+00:00",
+ "team": "Oklahoma State",
+ "final": 3.73,
+ "rank": 51,
+ "band": 7.46,
+ "resid": -1.57,
+ "adj": -0.55,
+ "class_term": -0.0,
+ "st": -0.1,
+ "anchor_blend": 3.89,
+ "resid_level": -1.84,
+ "resid_shape": 0.27,
+ "implied_off": 27.6,
+ "implied_def": 25.77,
+ "anchor_off": 28.4,
+ "anchor_def": 25.0,
+ "fit_r2": {
+  "off": 0.543,
+  "dfn": 0.615
+ },
+ "low_conf_units": 0,
+ "code_rev": "3fcf137",
+ "mode": "PILOT-OOS"
+}
