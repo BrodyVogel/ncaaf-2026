@@ -1,12 +1,12 @@
 {
- "run_utc": "2026-07-15T16:48:30+00:00",
+ "run_utc": "2026-07-15T17:10:52+00:00",
  "team": "UAB",
- "final": -11.75,
+ "final": -13.41,
  "rank": 121,
  "band": 7.19,
  "resid": 9.69,
  "adj": 3.39,
- "class_term": 1.68,
+ "class_term": 0.0,
  "st": 0.1,
  "anchor_blend": -17.36,
  "resid_level": 9.12,
@@ -20,6 +20,6 @@
   "dfn": 0.609
  },
  "low_conf_units": 2,
- "code_rev": "a364d6e",
+ "code_rev": "c8f504d",
  "mode": "PILOT-OOS"
 }

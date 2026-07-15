@@ -1,6 +1,6 @@
 # Temple — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **-7.72** (rank 102/138 in hybrid field)  band ±6.72
+FINAL: **-9.37** (rank 102/138 in hybrid field)  band ±6.72
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    35 | proxy —
@@ -29,7 +29,7 @@ FINAL: **-7.72** (rank 102/138 in hybrid field)  band ±6.72
 - blend -10.85  (dispersion 4.83)
 
 ## 4. Assembly
-- anchor -10.85  class +1.68  k×resid +1.10 (k=0.35, cap ±6.0)  ST -0.10  → recentered (-0.46) → **-7.72**
+- anchor -10.85  class +0.00  k×resid +1.10 (k=0.35, cap ±6.0)  ST -0.10  → recentered (-0.48) → **-9.37**
 - band: 6.0 × coach(1.0) × dispersion(1.00) × conf(1+0.03×4) = ±6.72
 
 ## 5. Pilot caveats

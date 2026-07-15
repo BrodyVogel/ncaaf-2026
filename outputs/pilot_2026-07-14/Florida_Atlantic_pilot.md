@@ -1,6 +1,6 @@
 # Florida Atlantic — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **-7.74** (rank 103/138 in hybrid field)  band ±6.36
+FINAL: **-9.40** (rank 103/138 in hybrid field)  band ±6.36
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    55 | proxy 57
@@ -29,7 +29,7 @@ FINAL: **-7.74** (rank 103/138 in hybrid field)  band ±6.36
 - blend -11.31  (dispersion 7.16)
 
 ## 4. Assembly
-- anchor -11.31  class +1.68  k×resid +1.43 (k=0.35, cap ±6.0)  ST +0.00  → recentered (-0.46) → **-7.74**
+- anchor -11.31  class +0.00  k×resid +1.43 (k=0.35, cap ±6.0)  ST +0.00  → recentered (-0.48) → **-9.40**
 - band: 6.0 × coach(1.0) × dispersion(1.00) × conf(1+0.03×2) = ±6.36
 
 ## 5. Pilot caveats

@@ -1,12 +1,12 @@
 {
- "run_utc": "2026-07-15T16:48:30+00:00",
+ "run_utc": "2026-07-15T17:10:52+00:00",
  "team": "Rice",
- "final": -11.1,
+ "final": -12.76,
  "rank": 117,
  "band": 6.54,
  "resid": 7.56,
  "adj": 2.65,
- "class_term": 1.68,
+ "class_term": 0.0,
  "st": 0.04,
  "anchor_blend": -15.91,
  "resid_level": 8.88,
@@ -20,6 +20,6 @@
   "dfn": 0.612
  },
  "low_conf_units": 3,
- "code_rev": "a364d6e",
+ "code_rev": "c8f504d",
  "mode": "PILOT-OOS"
 }

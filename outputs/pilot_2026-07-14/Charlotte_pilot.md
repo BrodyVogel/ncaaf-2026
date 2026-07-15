@@ -1,6 +1,6 @@
 # Charlotte — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **-17.49** (rank 135/138 in hybrid field)  band ±7.59
+FINAL: **-19.14** (rank 135/138 in hybrid field)  band ±7.59
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    38 | proxy 24
@@ -29,7 +29,7 @@ FINAL: **-17.49** (rank 135/138 in hybrid field)  band ±7.59
 - blend -23.0  (dispersion 14.91, FLAGGED
 
 ## 4. Assembly
-- anchor -23.00  class +1.68  k×resid +3.96 (k=0.35, cap ±6.0)  ST -0.56  → recentered (-0.44) → **-17.49**
+- anchor -23.00  class +0.00  k×resid +3.96 (k=0.35, cap ±6.0)  ST -0.56  → recentered (-0.46) → **-19.14**
 - band: 6.0 × coach(1.0) × dispersion(1.10) × conf(1+0.03×5) = ±7.59
 
 ## 5. Pilot caveats

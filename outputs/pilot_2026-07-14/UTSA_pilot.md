@@ -1,6 +1,6 @@
 # UTSA — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **-1.25** (rank 73/138 in hybrid field)  band ±6.72
+FINAL: **-2.90** (rank 80/138 in hybrid field)  band ±6.72
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    55 | proxy 50
@@ -29,7 +29,7 @@ FINAL: **-1.25** (rank 73/138 in hybrid field)  band ±6.72
 - blend -2.04  (dispersion 6.5)
 
 ## 4. Assembly
-- anchor -2.04  class +1.68  k×resid -1.40 (k=0.35, cap ±6.0)  ST +0.04  → recentered (-0.47) → **-1.25**
+- anchor -2.04  class +0.00  k×resid -1.40 (k=0.35, cap ±6.0)  ST +0.04  → recentered (-0.50) → **-2.90**
 - band: 6.0 × coach(1.0) × dispersion(1.00) × conf(1+0.03×4) = ±6.72
 
 ## 5. Pilot caveats

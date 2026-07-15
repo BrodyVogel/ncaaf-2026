@@ -1,6 +1,6 @@
 # Memphis — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **+1.71** (rank 54/138 in hybrid field)  band ±7.59
+FINAL: **+0.05** (rank 63/138 in hybrid field)  band ±7.59
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    40 | proxy —
@@ -29,7 +29,7 @@ FINAL: **+1.71** (rank 54/138 in hybrid field)  band ±7.59
 - blend -0.72  (dispersion 4.05)
 
 ## 4. Assembly
-- anchor -0.72  class +1.68  k×resid +0.28 (k=0.35, cap ±6.0)  ST +0.00  → recentered (-0.46) → **+1.71**
+- anchor -0.72  class +0.00  k×resid +0.28 (k=0.35, cap ±6.0)  ST +0.00  → recentered (-0.49) → **+0.05**
 - band: 6.0 × coach(1.13) × dispersion(1.00) × conf(1+0.03×4) = ±7.59
 
 ## 5. Pilot caveats

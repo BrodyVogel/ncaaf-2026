@@ -1,12 +1,12 @@
 {
- "run_utc": "2026-07-15T16:48:30+00:00",
+ "run_utc": "2026-07-15T17:10:51+00:00",
  "team": "Navy",
- "final": 0.31,
- "rank": 63,
+ "final": -1.34,
+ "rank": 71,
  "band": 6.18,
  "resid": -6.34,
  "adj": -2.22,
- "class_term": 1.68,
+ "class_term": 0.0,
  "st": 0.1,
  "anchor_blend": 0.27,
  "resid_level": -0.04,
@@ -20,6 +20,6 @@
   "dfn": 0.622
  },
  "low_conf_units": 1,
- "code_rev": "a364d6e",
+ "code_rev": "c8f504d",
  "mode": "PILOT-OOS"
 }

@@ -1,6 +1,6 @@
 # Iowa — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **+10.72** (rank 21/138 in hybrid field)  band ±6.72
+FINAL: **+12.42** (rank 21/138 in hybrid field)  band ±6.72
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    32 | proxy —
@@ -30,7 +30,7 @@ FINAL: **+10.72** (rank 21/138 in hybrid field)  band ±6.72
 - blend 13.83  (dispersion 4.63)
 
 ## 4. Assembly
-- anchor +13.83  class -1.68  k×resid -2.12 (k=0.35, cap ±6.0)  ST +0.20  → recentered (-0.49) → **+10.72**
+- anchor +13.83  class -0.00  k×resid -2.12 (k=0.35, cap ±6.0)  ST +0.20  → recentered (-0.51) → **+12.42**
 - band: 6.0 × coach(1.0) × dispersion(1.00) × conf(1+0.03×4) = ±6.72
 
 ## 5. Pilot caveats

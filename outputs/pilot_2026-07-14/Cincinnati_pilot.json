@@ -1,12 +1,12 @@
 {
- "run_utc": "2026-07-15T16:48:29+00:00",
+ "run_utc": "2026-07-15T17:10:50+00:00",
  "team": "Cincinnati",
- "final": 1.36,
- "rank": 57,
+ "final": 3.06,
+ "rank": 54,
  "band": 6.18,
  "resid": -2.98,
  "adj": -1.04,
- "class_term": -1.68,
+ "class_term": -0.0,
  "st": 0.04,
  "anchor_blend": 3.57,
  "resid_level": -1.77,
@@ -20,6 +20,6 @@
   "dfn": 0.615
  },
  "low_conf_units": 1,
- "code_rev": "a364d6e",
+ "code_rev": "c8f504d",
  "mode": "PILOT-OOS"
 }

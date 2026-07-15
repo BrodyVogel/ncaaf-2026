@@ -1,6 +1,6 @@
 # Baylor — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **+1.59** (rank 55/138 in hybrid field)  band ±6.18
+FINAL: **+3.29** (rank 53/138 in hybrid field)  band ±6.18
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    52 | proxy 57
@@ -30,7 +30,7 @@ FINAL: **+1.59** (rank 55/138 in hybrid field)  band ±6.18
 - blend 4.7  (dispersion 3.28)
 
 ## 4. Assembly
-- anchor +4.70  class -1.68  k×resid -1.96 (k=0.35, cap ±6.0)  ST +0.04  → recentered (-0.49) → **+1.59**
+- anchor +4.70  class -0.00  k×resid -1.96 (k=0.35, cap ±6.0)  ST +0.04  → recentered (-0.51) → **+3.29**
 - band: 6.0 × coach(1.0) × dispersion(1.00) × conf(1+0.03×1) = ±6.18
 
 ## 5. Pilot caveats

@@ -1,6 +1,6 @@
 # Tulane — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **+1.34** (rank 58/138 in hybrid field)  band ±7.39
+FINAL: **-0.31** (rank 66/138 in hybrid field)  band ±7.39
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    45 | proxy 77
@@ -29,7 +29,7 @@ FINAL: **+1.34** (rank 58/138 in hybrid field)  band ±7.39
 - blend 0.47  (dispersion 9.62)
 
 ## 4. Assembly
-- anchor +0.47  class +1.68  k×resid -1.32 (k=0.35, cap ±6.0)  ST +0.04  → recentered (-0.48) → **+1.34**
+- anchor +0.47  class +0.00  k×resid -1.32 (k=0.35, cap ±6.0)  ST +0.04  → recentered (-0.50) → **-0.31**
 - band: 6.0 × coach(1.13) × dispersion(1.00) × conf(1+0.03×3) = ±7.39
 
 ## 5. Pilot caveats

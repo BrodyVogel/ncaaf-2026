@@ -1,12 +1,12 @@
 {
- "run_utc": "2026-07-15T16:48:30+00:00",
+ "run_utc": "2026-07-15T17:10:51+00:00",
  "team": "North Texas",
- "final": -4.46,
- "rank": 89,
+ "final": -6.12,
+ "rank": 91,
  "band": 8.35,
  "resid": -0.29,
  "adj": -0.1,
- "class_term": 1.68,
+ "class_term": 0.0,
  "st": 0.1,
  "anchor_blend": -6.61,
  "resid_level": 3.46,
@@ -20,6 +20,6 @@
   "dfn": 0.614
  },
  "low_conf_units": 4,
- "code_rev": "a364d6e",
+ "code_rev": "c8f504d",
  "mode": "PILOT-OOS"
 }

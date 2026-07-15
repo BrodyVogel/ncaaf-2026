@@ -1,6 +1,6 @@
 # BYU — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **+11.33** (rank 21/138 in hybrid field)  band ±6.00
+FINAL: **+13.03** (rank 21/138 in hybrid field)  band ±6.00
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    72 | proxy 83
@@ -30,7 +30,7 @@ FINAL: **+11.33** (rank 21/138 in hybrid field)  band ±6.00
 - blend 14.65  (dispersion 2.93)
 
 ## 4. Assembly
-- anchor +14.65  class -1.68  k×resid -1.97 (k=0.35, cap ±6.0)  ST -0.16  → recentered (-0.49) → **+11.33**
+- anchor +14.65  class -0.00  k×resid -1.97 (k=0.35, cap ±6.0)  ST -0.16  → recentered (-0.51) → **+13.03**
 - band: 6.0 × coach(1.0) × dispersion(1.00) × conf(1+0.03×0) = ±6.00
 
 ## 5. Pilot caveats

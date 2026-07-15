@@ -1,12 +1,12 @@
 {
- "run_utc": "2026-07-15T16:48:30+00:00",
+ "run_utc": "2026-07-15T17:10:52+00:00",
  "team": "Temple",
- "final": -7.72,
+ "final": -9.37,
  "rank": 102,
  "band": 6.72,
  "resid": 3.13,
  "adj": 1.1,
- "class_term": 1.68,
+ "class_term": 0.0,
  "st": -0.1,
  "anchor_blend": -10.85,
  "resid_level": 6.09,
@@ -20,6 +20,6 @@
   "dfn": 0.611
  },
  "low_conf_units": 4,
- "code_rev": "a364d6e",
+ "code_rev": "c8f504d",
  "mode": "PILOT-OOS"
 }

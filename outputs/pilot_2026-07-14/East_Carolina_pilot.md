@@ -1,6 +1,6 @@
 # East Carolina — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **+0.75** (rank 61/138 in hybrid field)  band ±6.36
+FINAL: **-0.91** (rank 70/138 in hybrid field)  band ±6.36
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    44 | proxy —
@@ -29,7 +29,7 @@ FINAL: **+0.75** (rank 61/138 in hybrid field)  band ±6.36
 - blend -1.16  (dispersion 5.16)
 
 ## 4. Assembly
-- anchor -1.16  class +1.68  k×resid -0.28 (k=0.35, cap ±6.0)  ST +0.04  → recentered (-0.47) → **+0.75**
+- anchor -1.16  class +0.00  k×resid -0.28 (k=0.35, cap ±6.0)  ST +0.04  → recentered (-0.49) → **-0.91**
 - band: 6.0 × coach(1.0) × dispersion(1.00) × conf(1+0.03×2) = ±6.36
 
 ## 5. Pilot caveats

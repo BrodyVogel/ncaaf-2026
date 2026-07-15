@@ -1,6 +1,6 @@
 # North Texas — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **-4.46** (rank 89/138 in hybrid field)  band ±8.35
+FINAL: **-6.12** (rank 91/138 in hybrid field)  band ±8.35
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    35 | proxy 31
@@ -29,7 +29,7 @@ FINAL: **-4.46** (rank 89/138 in hybrid field)  band ±8.35
 - blend -6.61  (dispersion 13.58, FLAGGED
 
 ## 4. Assembly
-- anchor -6.61  class +1.68  k×resid -0.10 (k=0.35, cap ±6.0)  ST +0.10  → recentered (-0.47) → **-4.46**
+- anchor -6.61  class +0.00  k×resid -0.10 (k=0.35, cap ±6.0)  ST +0.10  → recentered (-0.49) → **-6.12**
 - band: 6.0 × coach(1.13) × dispersion(1.10) × conf(1+0.03×4) = ±8.35
 
 ## 5. Pilot caveats

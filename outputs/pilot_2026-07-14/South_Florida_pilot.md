@@ -1,6 +1,6 @@
 # South Florida — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **-0.77** (rank 70/138 in hybrid field)  band ±7.39
+FINAL: **-2.42** (rank 77/138 in hybrid field)  band ±7.39
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    48 | proxy 62
@@ -29,7 +29,7 @@ FINAL: **-0.77** (rank 70/138 in hybrid field)  band ±7.39
 - blend -0.87  (dispersion 5.23)
 
 ## 4. Assembly
-- anchor -0.87  class +1.68  k×resid -2.01 (k=0.35, cap ±6.0)  ST -0.04  → recentered (-0.48) → **-0.77**
+- anchor -0.87  class +0.00  k×resid -2.01 (k=0.35, cap ±6.0)  ST -0.04  → recentered (-0.50) → **-2.42**
 - band: 6.0 × coach(1.13) × dispersion(1.00) × conf(1+0.03×3) = ±7.39
 
 ## 5. Pilot caveats

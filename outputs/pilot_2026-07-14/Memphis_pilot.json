@@ -1,12 +1,12 @@
 {
- "run_utc": "2026-07-15T16:48:30+00:00",
+ "run_utc": "2026-07-15T17:10:51+00:00",
  "team": "Memphis",
- "final": 1.71,
- "rank": 54,
+ "final": 0.05,
+ "rank": 63,
  "band": 7.59,
  "resid": 0.81,
  "adj": 0.28,
- "class_term": 1.68,
+ "class_term": 0.0,
  "st": 0.0,
  "anchor_blend": -0.72,
  "resid_level": 0.71,
@@ -20,6 +20,6 @@
   "dfn": 0.619
  },
  "low_conf_units": 4,
- "code_rev": "a364d6e",
+ "code_rev": "c8f504d",
  "mode": "PILOT-OOS"
 }

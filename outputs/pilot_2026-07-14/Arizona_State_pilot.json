@@ -1,12 +1,12 @@
 {
- "run_utc": "2026-07-15T16:48:29+00:00",
+ "run_utc": "2026-07-15T17:10:49+00:00",
  "team": "Arizona State",
- "final": 2.56,
- "rank": 51,
+ "final": 4.27,
+ "rank": 50,
  "band": 6.0,
  "resid": -8.49,
  "adj": -2.97,
- "class_term": -1.68,
+ "class_term": -0.0,
  "st": -0.2,
  "anchor_blend": 6.93,
  "resid_level": -4.07,
@@ -20,6 +20,6 @@
   "dfn": 0.614
  },
  "low_conf_units": 0,
- "code_rev": "a364d6e",
+ "code_rev": "c8f504d",
  "mode": "PILOT-OOS"
 }

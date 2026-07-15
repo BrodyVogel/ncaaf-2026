@@ -1,12 +1,12 @@
 {
- "run_utc": "2026-07-15T16:48:30+00:00",
+ "run_utc": "2026-07-15T17:10:52+00:00",
  "team": "South Florida",
- "final": -0.77,
- "rank": 70,
+ "final": -2.42,
+ "rank": 77,
  "band": 7.39,
  "resid": -5.76,
  "adj": -2.01,
- "class_term": 1.68,
+ "class_term": 0.0,
  "st": -0.04,
  "anchor_blend": -0.87,
  "resid_level": 0.37,
@@ -20,6 +20,6 @@
   "dfn": 0.614
  },
  "low_conf_units": 3,
- "code_rev": "a364d6e",
+ "code_rev": "c8f504d",
  "mode": "PILOT-OOS"
 }

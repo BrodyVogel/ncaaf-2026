@@ -1,6 +1,6 @@
 # Rice — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **-11.10** (rank 117/138 in hybrid field)  band ±6.54
+FINAL: **-12.76** (rank 117/138 in hybrid field)  band ±6.54
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    38 | proxy —
@@ -29,7 +29,7 @@ FINAL: **-11.10** (rank 117/138 in hybrid field)  band ±6.54
 - blend -15.91  (dispersion 3.36)
 
 ## 4. Assembly
-- anchor -15.91  class +1.68  k×resid +2.65 (k=0.35, cap ±6.0)  ST +0.04  → recentered (-0.44) → **-11.10**
+- anchor -15.91  class +0.00  k×resid +2.65 (k=0.35, cap ±6.0)  ST +0.04  → recentered (-0.47) → **-12.76**
 - band: 6.0 × coach(1.0) × dispersion(1.00) × conf(1+0.03×3) = ±6.54
 
 ## 5. Pilot caveats

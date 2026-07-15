@@ -1,6 +1,6 @@
 # Tulsa — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **-5.65** (rank 95/138 in hybrid field)  band ±6.18
+FINAL: **-7.31** (rank 95/138 in hybrid field)  band ±6.18
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    45 | proxy 15
@@ -29,7 +29,7 @@ FINAL: **-5.65** (rank 95/138 in hybrid field)  band ±6.18
 - blend -10.94  (dispersion 7.59)
 
 ## 4. Assembly
-- anchor -10.94  class +1.68  k×resid +3.26 (k=0.35, cap ±6.0)  ST -0.10  → recentered (-0.45) → **-5.65**
+- anchor -10.94  class +0.00  k×resid +3.26 (k=0.35, cap ±6.0)  ST -0.10  → recentered (-0.47) → **-7.31**
 - band: 6.0 × coach(1.0) × dispersion(1.00) × conf(1+0.03×1) = ±6.18
 
 ## 5. Pilot caveats

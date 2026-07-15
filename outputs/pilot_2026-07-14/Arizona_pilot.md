@@ -1,6 +1,6 @@
 # Arizona — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **+6.03** (rank 35/138 in hybrid field)  band ±6.00
+FINAL: **+7.73** (rank 35/138 in hybrid field)  band ±6.00
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    88 | proxy 93
@@ -30,7 +30,7 @@ FINAL: **+6.03** (rank 35/138 in hybrid field)  band ±6.00
 - blend 9.15  (dispersion 2.65)
 
 ## 4. Assembly
-- anchor +9.15  class -1.68  k×resid -1.76 (k=0.35, cap ±6.0)  ST -0.16  → recentered (-0.48) → **+6.03**
+- anchor +9.15  class -0.00  k×resid -1.76 (k=0.35, cap ±6.0)  ST -0.16  → recentered (-0.50) → **+7.73**
 - band: 6.0 × coach(1.0) × dispersion(1.00) × conf(1+0.03×0) = ±6.00
 
 ## 5. Pilot caveats

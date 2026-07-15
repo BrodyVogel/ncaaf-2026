@@ -1,6 +1,6 @@
 # Arizona State — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **+2.56** (rank 51/138 in hybrid field)  band ±6.00
+FINAL: **+4.27** (rank 50/138 in hybrid field)  band ±6.00
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    48 | proxy 38
@@ -30,7 +30,7 @@ FINAL: **+2.56** (rank 51/138 in hybrid field)  band ±6.00
 - blend 6.93  (dispersion 4.08)
 
 ## 4. Assembly
-- anchor +6.93  class -1.68  k×resid -2.97 (k=0.35, cap ±6.0)  ST -0.20  → recentered (-0.48) → **+2.56**
+- anchor +6.93  class -0.00  k×resid -2.97 (k=0.35, cap ±6.0)  ST -0.20  → recentered (-0.51) → **+4.27**
 - band: 6.0 × coach(1.0) × dispersion(1.00) × conf(1+0.03×0) = ±6.00
 
 ## 5. Pilot caveats

@@ -1,12 +1,12 @@
 {
- "run_utc": "2026-07-15T16:48:29+00:00",
+ "run_utc": "2026-07-15T17:10:50+00:00",
  "team": "East Carolina",
- "final": 0.75,
- "rank": 61,
+ "final": -0.91,
+ "rank": 70,
  "band": 6.36,
  "resid": -0.8,
  "adj": -0.28,
- "class_term": 1.68,
+ "class_term": 0.0,
  "st": 0.04,
  "anchor_blend": -1.16,
  "resid_level": 0.52,
@@ -20,6 +20,6 @@
   "dfn": 0.618
  },
  "low_conf_units": 2,
- "code_rev": "a364d6e",
+ "code_rev": "c8f504d",
  "mode": "PILOT-OOS"
 }
