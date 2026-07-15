@@ -1,0 +1,338 @@
+{
+ "team": "Utah",
+ "units": {
+  "QB": {
+   "grade": 70,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 65,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 62,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-15",
+  "snapshot_rev": "frozen 2026-07-15",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 68, RB 72, WRTE 48, OL 96, DL 66, LB 68, DB 52, ST 81)",
+   "OL": "-50 vs proxy 96 (CONTAMINATED: proxy rides Fano 83.9/822 + Lomu 68.4/823 - both drafted in the 1st round as early declares, invisible to feeds; META nfl_declare_confirmed)",
+   "DL": "-22 vs proxy 66 (partly contaminated by L.Fano 78.8/515, also an early declare; plus Daley 92.0 -> Michigan)",
+   "LB": "-22 vs proxy 68 (proxy counts Barton/Damuni/Snowden mass that left)",
+   "ST": "-19 vs proxy 81 (real everyone-back unit; grade is 62 on its own merits - proxy overscales)",
+   "DB": "+6 vs proxy 52 (PDR #2 lineage + Bennee/Reed tape; proxy underweights the returning safety room)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Utah",
+   "unit": "QB",
+   "grade": 70,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
+   "rationale_bullets": [
+    "Dampier (83.1/391) returns off B12 Newcomer of the Year: 2,490 at 64% with a 24-5 TD-INT plus 835 rush yards as the team's #2 rusher - 'the most elusive pocket scrambler in America' (P6) - having improved accuracy and turnovers in the P4 step-up.",
+    "Ficklin (90.5/44) is the explicit tag-team piece: 10 rush TD at 8.4 per carry, a start, 3-0 passing - 'these two don't mind sharing' and could share the field.",
+    "The subtraction is the OC: Beck (the '25 fix) followed Whittingham to Michigan; McGiven ran the 'similar' QB-as-#1-rusher offense at Utah State with more vertical shots - continuity is partial, not full.",
+    "70 = clearly above average: the best returning dual-threat tape in the league, tempered by the scheme handoff and Dampier's injury history."
+   ],
+   "key_players": [
+    {
+     "name": "Devon Dampier",
+     "role": "QB1, returning starter",
+     "evidence": "PFF 83.1/391; 24-5, 835 rush; B12 NOY"
+    },
+    {
+     "name": "Byrd Ficklin",
+     "role": "QB2/package, returner",
+     "evidence": "PFF 90.5/44; 10 rush TD @ 8.4"
+    }
+   ],
+   "data_gaps": [
+    "McGiven install fidelity",
+    "Dampier durability"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Utah",
+   "unit": "RB",
+   "grade": 65,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
+   "rationale_bullets": [
+    "Parker (81.4) returns as the bellcow: 981 at 6.6 - the #2 per-carry mark in P4 (min. 100 carries) behind only the Heisman runner-up.",
+    "Depth is real: Bray (67.7; 272 at 6.8 true-FR speed), Chavez-Soto (81.4 at SJSU; the 'short-yardage bulldozer'), 5* FR Bell (PS#28).",
+    "The caveat: the school-record 3,462 rush yards came behind the #2 Run Push line in the country - which is entirely gone. 65 = solidly above average on the back's own tape."
+   ],
+   "key_players": [
+    {
+     "name": "Wayshawn Parker",
+     "role": "RB1, returning starter",
+     "evidence": "PFF 81.4; 981 @ 6.6, 3rd-tm B12"
+    },
+    {
+     "name": "Steve Chavez-Soto",
+     "role": "RB transfer (San Jose State)",
+     "evidence": "PFF 81.4/8gm; 446 @ 5.1"
+    }
+   ],
+   "data_gaps": [
+    "Production behind a new line"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Utah",
+   "unit": "WRTE",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "The top three pass-catchers left: Davis (75.3; 725), drafted TE Bentley (76.9; 620), Buchanan (427 at 16.4) to Michigan.",
+    "The imports are targeted: Pegan (73.7; 929 at 15.4 - WITH new OC McGiven at Utah State, All-MW, 4* transfer grade) + Shoels (63.9; 768, All-MW, 4* grade); returners Simmons (66.8; 280 at 18.7), N.Johnson (73.8), Whittemore, and TE Andrews off the injury year fill in.",
+    "Scalley's superlative ('best WR crew we've ever had at Utah' / PS: 'most dangerous in his 20 years') runs against a 13-years-without-a-1,000-yarder history and MW-graded tape.",
+    "52 = average-plus: real additions with scheme fit, unproven vs P4 coverage."
+   ],
+   "key_players": [
+    {
+     "name": "Braden Pegan",
+     "role": "WR1 transfer (Utah State)",
+     "evidence": "PFF 73.7; 929 @ 15.4 w/ McGiven"
+    },
+    {
+     "name": "Kyri Shoels",
+     "role": "WR transfer (San Jose State)",
+     "evidence": "PFF 63.9; 768 @ 13.0"
+    },
+    {
+     "name": "Larry Simmons",
+     "role": "WR, top returnee",
+     "evidence": "PFF 66.8; 280 @ 18.7"
+    }
+   ],
+   "data_gaps": [
+    "TE production (Andrews post-injury)",
+    "No proven P4 No. 1"
+   ],
+   "g5_guard_note": "Pegan/Shoels are MW-graded 4*-transfers; the McGiven connection is the offset that holds 52"
+  },
+  {
+   "team": "Utah",
+   "unit": "OL",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "All five starters from the 'best line ever' (94th-pctile pass-block, #2 Run Push, 266 rush at 6.0, 14 sacks) are gone - Fano (83.9/822) and Lomu (68.4/823) as FIRST-ROUND early declares - plus ace line coach Harding.",
+    "What returns is the jumbo package: Moea'i (62.2/336) and Olson (64.6/295) step in at guard, Harrison (68.2/143; yr-4 bonus season) battles Kema (Ohio State) at center, Williams (60.7/156; yr-4 override, LT1 on both May prints).",
+    "The upside pieces are unproven here: Jefferson (Montana State FCS champ) at RT and 5* FR Obot (PS#9, 'could start right away' - PS starts him at LG).",
+    "The Utah OL pipeline ('next in a long line of elite Ute blockers') is a real prior, but 'the biggest question mark on offense' (PS) is the sober read. 46 = fringe-below-average with a high ceiling."
+   ],
+   "key_players": [
+    {
+     "name": "Solatoa Moea'i",
+     "role": "G, returner (6th lineman)",
+     "evidence": "PFF 62.2/336; jumbo vet"
+    },
+    {
+     "name": "Kelvin Obot",
+     "role": "LT/LG (5* freshman signee)",
+     "evidence": "PS#9 FR; Idaho POY"
+    },
+    {
+     "name": "Cedric Jefferson",
+     "role": "RT transfer (Montana State)",
+     "evidence": "13 st; FCS national champ"
+    }
+   ],
+   "data_gaps": [
+    "Zero returning starts",
+    "FR/FCS tackles vs B12 edges"
+   ],
+   "g5_guard_note": "Jefferson FCS-graded; Obot has zero college tape - pipeline prior is the only lift"
+  },
+  {
+   "team": "Utah",
+   "unit": "DL",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Both starting DEs and the top three DTs are gone: Daley (92.0/513; led P4 in sacks/game) and Lea'ea to Michigan, L.Fano (78.8/515) as an NFL early declare, Vimahi expired, Vakalahi to Penn State.",
+    "And the '25 unit was already the problem: 181 rush ypg allowed at 4.8 - Utah's worst since 1996 - with RDEF 43rd/TACK 18th pctile ('the worst in the Big 12 against the run… that's not them' - Athlon scouting quote).",
+    "The reload: Holtzclaw (73.8/341 - best returning tape) and Dillon (61.9/341; PS: 35 tkl, 3.5 sk) move up; Moe (83.1/213 SJSU) is premium small-sample; Day (75.4/654; 14 NT starts) is the volume add; Kaufusi/Sepulona inside.",
+    "PS: 'As the DL goes, so goes the entire defense this season.' 44 = below average until proven."
+   ],
+   "key_players": [
+    {
+     "name": "Lance Holtzclaw",
+     "role": "DE, returner (moves up)",
+     "evidence": "PFF 73.8/341"
+    },
+    {
+     "name": "Jireh Moe",
+     "role": "DT transfer (San Jose State)",
+     "evidence": "PFF 83.1/213"
+    },
+    {
+     "name": "Ethan Day",
+     "role": "DE/DL transfer (North Texas)",
+     "evidence": "PFF 75.4/654; 14 st"
+    }
+   ],
+   "data_gaps": [
+    "Interior run-stopping",
+    "Pass rush after Daley"
+   ],
+   "g5_guard_note": "Moe/Day/Samsula tape is MW/CUSA-graded; guard holds the unit at 44"
+  },
+  {
+   "team": "Utah",
+   "unit": "LB",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
+   "rationale_bullets": [
+    "Hall (70.1/642; #1 tackler, 13 st, 67 tkl) returns as the anchor of what was PS's #12 corps.",
+    "Everything else thinned: Barton (61.7/637), Damuni (78.7/313), and nickel Snowden (69.3/632, to Michigan) are gone, and the staff signed NO transfers - Polu (68.6/96), Reynolds (65.2/239; PS starter line 4 st, 28 tkl), Elliss (68.0/114) inherit roles.",
+    "PS's own read: 'less experienced and talented.' 46 = fringe-below-average: one proven starter plus projection."
+   ],
+   "key_players": [
+    {
+     "name": "Johnathan Hall",
+     "role": "LB1, returning starter",
+     "evidence": "PFF 70.1/642; #1 tackler"
+    },
+    {
+     "name": "Trey Reynolds",
+     "role": "LB, returner (moves up)",
+     "evidence": "PFF 65.2/239; 4 st"
+    }
+   ],
+   "data_gaps": [
+    "Zero additions",
+    "Nickel replacement for Snowden"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Utah",
+   "unit": "DB",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
+   "rationale_bullets": [
+    "The safety room is the strength: Bennee (74.1/676; 4 INT, 9 pd - 'a play-maker' with All-B12 hype), plus Evans (yr-4 medical return, on all three May prints) and 6th-year Ritchie back from injuries.",
+    "The corner room turned over: Snowden (Michigan) and four others left for P4 rosters; E.Davis ('Scooby'; 58.2/627, 20 starts over two years) is the lone returning corner, with Reed (77.3/580 at Akron - genuine tape; PS: 18 st, 79 tkl L2Y) vs Chenault (66.2/434 USF) for the other spot and JUCO Caldwell (82.7/106) at nickel.",
+    "The lineage is elite: PDR #3 then #2 the last two years, a 22-year pick-six streak - 'they lose two starters but remain one of the nation's best (as always)' (PS).",
+    "58 = above average: proven safeties + real corner tape additions, thinner margins than the Utah standard."
+   ],
+   "key_players": [
+    {
+     "name": "Jackson Bennee",
+     "role": "S, returning starter",
+     "evidence": "PFF 74.1/676; 4 INT"
+    },
+    {
+     "name": "Elijah Davis",
+     "role": "CB, returning starter (lone one)",
+     "evidence": "PFF 58.2/627; 20 st L2Y"
+    },
+    {
+     "name": "Elijah Reed",
+     "role": "CB transfer (Akron)",
+     "evidence": "PFF 77.3/580; 18 st L2Y"
+    },
+    {
+     "name": "Rabbit Evans",
+     "role": "S, returner (yr-4 medical - documented)",
+     "evidence": "May prints x3; 5 st '24"
+    }
+   ],
+   "data_gaps": [
+    "CB2 battle",
+    "Corner depth vs P4"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Utah",
+   "unit": "ST",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
+   "rationale_bullets": [
+    "Everyone returns from the 81st-pctile unit (PS #29 STR): K Curtis ('Legatron,' 60+ leg: 10-14 with a 54-long, 60 TB on 83 KO), P Phillips (42.3-42.9 avg, ~40 net), PR Carvalho (75-yd PR TD), KR Whittemore.",
+    "PS: 'with everyone back will move up even more this year.'",
+    "62 = solidly above average: proven legs and return game; Curtis's FG volume (14-15 attempts) is the only sample caveat."
+   ],
+   "key_players": [
+    {
+     "name": "Dillon Curtis",
+     "role": "K, returning",
+     "evidence": "10-14, L54; 60 TB"
+    },
+    {
+     "name": "Orion Phillips",
+     "role": "P, returning",
+     "evidence": "42.3-42.9 avg, ~40 net"
+    }
+   ],
+   "data_gaps": [
+    "Curtis FG sample size"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
