@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T15:41:48+00:00",
+ "team": "Minnesota",
+ "final": 5.25,
+ "rank": 44,
+ "band": 6.0,
+ "resid": -0.17,
+ "adj": -0.06,
+ "class_term": -0.0,
+ "st": 0.12,
+ "anchor_blend": 4.69,
+ "resid_level": -2.86,
+ "resid_shape": 2.69,
+ "implied_off": 27.58,
+ "implied_def": 22.48,
+ "anchor_off": 25.04,
+ "anchor_def": 19.76,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.613
+ },
+ "low_conf_units": 0,
+ "code_rev": "33517be",
+ "mode": "PILOT-OOS"
+}
