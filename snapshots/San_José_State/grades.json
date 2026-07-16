@@ -1,0 +1,220 @@
+{
+ "team": "San José State",
+ "units": {
+  "QB": {"grade": 20, "confidence": "L"},
+  "RB": {"grade": 16, "confidence": "M"},
+  "WRTE": {"grade": 16, "confidence": "L"},
+  "OL": {"grade": 14, "confidence": "M"},
+  "DL": {"grade": 16, "confidence": "M"},
+  "LB": {"grade": 14, "confidence": "M"},
+  "DB": {"grade": 12, "confidence": "M"},
+  "ST": {"grade": 22, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (cff1aa3)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 5, RB None, WRTE None, OL 9, DL 42, LB 31, DB None, ST 67) - artifact #47",
+   "DL": "-26 vs proxy 42 - team RDEF p73 carryover while six of the top seven leave (WMU-DL-82 family)",
+   "LB": "-17 vs proxy 31 - same mechanism",
+   "ST": "-45 vs proxy 67 - SPEC carryover",
+   "QB": "+15 vs proxy 5, OL +5 vs 9 - assorted"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "San José State",
+   "unit": "QB",
+   "grade": 20,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Eget (3,047 @ 59%, 17-9) -> Duke; his 2025 backups combined 44% with 0-8 - and two of them (McDaniel, Amisone-now-WR) are the residue.",
+    "Three-way: Weaver (Hawai'i - 136 MWC snaps, 55.5 -> 48.2 adj; 2 st, 60%, 6-3) vs rFr McDaniel (spring leader, 17 snaps) vs true-FR Rolovich.",
+    "The system context is real - 552-att record, two straight national receiving leaders - but system premium is expressed as the L flag, not grade points (GRADING_BIAS_DIAG evidence-first rule).",
+    "20 L = SacSt tier; above NIU/Ball St 18 on Weaver's actual FBS sample, below the 22 tier."
+   ],
+   "key_players": [
+    {"name": "Luke Weaver", "role": "QB1 candidate (transfer, Hawai'i)", "evidence": "136 snaps 55.5 (48.2 adj); 2 st, 628 @ 60%, 6-3"},
+    {"name": "Robert McDaniel", "role": "QB1 candidate (returning rFr; spring leader)", "evidence": "17 snaps, 40.8; 3rd string '25"},
+    {"name": "Daniel Rolovich", "role": "QB3 (true FR)", "evidence": "Athlon #4 recruit; 'big arm'"}
+   ],
+   "data_gaps": ["three-way unresolved", "Weaver sample = 2 starts"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "San José State",
+   "unit": "RB",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Bates returns with the offense's best tape (80.5 -> 71.6 adj; team-best 7.1 ypc as a reserve) and both prints' RB1 + KR1 roles.",
+    "Chavez-Soto (81.4) was harvested by Utah; Chalk expired; Radcliffe print-GONE - the room is Bates + small samples.",
+    "Teu (75.2 tiny sample) + WVU depth body Jacklich (Mercer '24: 842) + rFr/FR.",
+    "16 = Buffalo/Toledo tier: one quality returning back, no proven volume behind."
+   ],
+   "key_players": [
+    {"name": "Jabari Bates", "role": "RB1 (returning)", "evidence": "80.5 (71.6 adj); 7.1 ypc; ~50 ypg as reserve"},
+    {"name": "Viliami Teu", "role": "RB2 (returning)", "evidence": "75.2/17 att; 70 yds"},
+    {"name": "Tyler Jacklich", "role": "depth (transfer, West Virginia)", "evidence": "8 att '25; Mercer '24: 842 yds"}
+   ],
+   "data_gaps": ["Bates never carried a starter load"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "San José State",
+   "unit": "WRTE",
+   "grade": 16,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "The entire producing trio left for P4s: Scudero (74.3/507 - the 2025 NATIONAL receiving-yards leader) to Colorado, Smith (525 routes) to UCLA, Shoels (473) to Utah; TE Canaan expired.",
+    "The rebuild fits the system's proven mold (first-year transfers become leaders): Riley (ex-Arizona, Wk-1 injury '25, Athlon WR1), Ivey (Penn State), Anderson (SacSt 361 @ 15.0 - the two-sided feed miss), QB-convert Amisone.",
+    "Zero returning production; TE room is 9 career routes + freshmen.",
+    "16 L = NIU/Toledo tier on evidence; the L carries the system upside (two straight national leaders) AND the zero-production downside."
+   ],
+   "key_players": [
+    {"name": "Malachi Riley", "role": "WR1 (returning; Wk-1 injury '25)", "evidence": "ex-Arizona 97 @ 19.4; 20 routes '25"},
+    {"name": "Anthony Ivey", "role": "WR (transfer, Penn State)", "evidence": "22 gm, 15.0 avg L2Y"},
+    {"name": "Jordan Anderson", "role": "WR (transfer, SacSt - TWO-SIDED FEED MISS)", "evidence": "12 gm, 361 @ 15.0 FCS '25"},
+    {"name": "Tama Amisone", "role": "WR (QB convert)", "evidence": "205 pass + 160 rush '25 as run-threat QB"}
+   ],
+   "data_gaps": ["no returning 100-yd receiver", "TE room bare", "system-vs-evidence spread"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "San José State",
+   "unit": "OL",
+   "grade": 14,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Two returning starters are real: Harbert (816 snaps, 14 st L2Y, all-league candidate per Athlon; 47.6 adj) and Chen (680 snaps, 13 career starts; 52.1 adj).",
+    "The 13-sacks-allowed headline was scheme: as-played PBLK p11 and RBLK p2 - the tape was bad, and the worst of it (Lapuaho 33.1 on 829 snaps) left.",
+    "Projected LT is a Nebraska DNP rFr (Tapu, Athlon LT1); other adds are 1-snap pedigree bodies (Taukeiaho-OKSt, Tupou-BYU).",
+    "14 = Toledo tier: real returning starts, poor underlying grades, unproven edges."
+   ],
+   "key_players": [
+    {"name": "Joseph Harbert", "role": "C (returning starter)", "evidence": "816 snaps, 57.7 (47.6 adj); 14 st L2Y"},
+    {"name": "Tyler Chen", "role": "G (returning starter)", "evidence": "680 snaps, 62.2 (52.1 adj); 13 career st"},
+    {"name": "Brian Tapu", "role": "LT1 (transfer, Nebraska)", "evidence": "rFr, DNP; PS#91"},
+    {"name": "Daniel Moleni", "role": "G (returning)", "evidence": "157 snaps; 3 st (RG) '25"}
+   ],
+   "data_gaps": ["LT = zero-tape rFr", "interior depth thin"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "San José State",
+   "unit": "DL",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Six of the top seven leave - Latu (71.8/780), all-MWC NT Faga (78.4/528), Moe (83.1 -> Utah), Taufatofua (71.8 -> Colorado), Likio, Hola.",
+    "But the retained rotation is real by this round's standards: Stearns (62.5 adj/232, 6 career st), Langi (69.2 adj/208 - 'the top guy'), Siaosi (165), Finau (192), Lewis (spring buzz both prints) = ~840 returning snaps.",
+    "Adds are modest: McGlothen (SacSt FCS), Shewell (ASU 15 snaps), rFr Tuiileila. PS: 'small side... may take a step back' but 'one of the deepest units.'",
+    "16: more returning DL than NIU/SacSt/Toledo kept; below KSU 22."
+   ],
+   "key_players": [
+    {"name": "Solomone Langi", "role": "NT (returning)", "evidence": "208 snaps, 71.4 (69.2 adj)"},
+    {"name": "Justin Stearns", "role": "DE (returning)", "evidence": "232 snaps, 64.7 (62.5 adj); 6 career st"},
+    {"name": "Jayland McGlothen", "role": "DT (transfer, SacSt)", "evidence": "5 st, 31 tkl FCS '25"},
+    {"name": "Nate Lewis", "role": "DE (returning)", "evidence": "44 snaps; two-print spring development"}
+   ],
+   "data_gaps": ["size concern (PS)", "edge depth past Stearns"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "San José State",
+   "unit": "LB",
+   "grade": 14,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "The tackle leaders leave: McNeal-Franklin (818 snaps, #1 tackler, no-dest GONE) + Pollard (802, yr4).",
+    "Powell is the defense's one returning starter-equivalent (416 snaps, 59.6 adj; 6 st in both '24 and '25) - PS caps him; Athlon's (0) label disagrees; the starts are documented.",
+    "Behind him: spring-praise bodies (Danielson, Lee), injury returnee Carter (slated '25 starter), FCS Mahuka ('big impression'), yr4-override Hoeft.",
+    "14 = CMU/KSU tier: one modest starter + fill."
+   ],
+   "key_players": [
+    {"name": "Ethan Powell", "role": "OLB (returning starter)", "evidence": "416 snaps, 64.3 (59.6 adj); 6 st '24 + 6 st '25"},
+    {"name": "Aizik Mahuka", "role": "MLB (transfer, Weber St)", "evidence": "24 gm, 35 tkl L2Y; spring impression"},
+    {"name": "Zane Carter", "role": "OLB (returning from injury)", "evidence": "JC PS#208; slated '25 starter, missed year"},
+    {"name": "Naseri Danielson", "role": "MLB (returning)", "evidence": "1 st '24; solid spring"}
+   ],
+   "data_gaps": ["Carter health", "no returning 500-snap LB"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "San José State",
+   "unit": "DB",
+   "grade": 12,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "All four starters + the best reserve leave: Revis (853, no-dest), Thomas (794 -> Wash St), Bainer (702), Apalit-Williams (653), Turner-Gooden (71.4/342 - research-GONE).",
+    "COV was p5 as-played WITH those players; PS: 'they cannot drop much more in the PDR.'",
+    "The rebuild: Buxton (SDSU, 148 snaps at 69.8 - the room's best tape), FCS starters (Dukes 177 career tkl, Walker 12 st), WR-convert Tagovailoa-Amosa, injury returnees Carrillo/Womack.",
+    "12 = NIU tier: import volume without FBS quality evidence."
+   ],
+   "key_players": [
+    {"name": "Isaiah Buxton", "role": "CB (transfer, SDSU)", "evidence": "148 snaps, 69.8 (67.4 adj)"},
+    {"name": "Brian Dukes Jr.", "role": "S (transfer, Cal Poly)", "evidence": "37 gm, 177 tkl over 4 FCS years"},
+    {"name": "Greco Carrillo", "role": "CB (returning from injury)", "evidence": "missed '25; would have started"},
+    {"name": "Tuli Tagovailoa-Amosa", "role": "S (WR convert) + PR", "evidence": "74 routes '25; 2 st"},
+    {"name": "Pierce Walker", "role": "S (transfer, Portland St)", "evidence": "12 st, 73 tkl, 6 pbu FCS '25"}
+   ],
+   "data_gaps": ["zero returning starters", "convert + injury-return projection"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "San José State",
+   "unit": "ST",
+   "grade": 22,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Carrizosa is the best returning specialist of the MWC round so far: 45.6 avg / 40.4 net, PS 'NFL potential,' Athlon all-league candidate.",
+    "K import Sinatra (Idaho St: 18-22, L/56, 2nd-Tm FCS AA) should fix the 12-23 team FG line; Brown (4-7) relegated to competition.",
+    "Return games were negative differentials (-3.2 PR / -4.3 KR); Bates/T-A take over.",
+    "22 = SacSt/Buffalo tier: elite P + accomplished FCS K on a unit PS ranked #125."
+   ],
+   "key_players": [
+    {"name": "Trent Carrizosa", "role": "P (returning)", "evidence": "39 punts, 45.6 / 40.4 net; PS#144"},
+    {"name": "Trajan Sinatra", "role": "K (transfer, Idaho St)", "evidence": "18-22 FG, L/56; 2nd-Tm FCS AA"},
+    {"name": "Jabari Bates", "role": "KR (returning)", "evidence": "RB1 doubling"}
+   ],
+   "data_gaps": ["coverage units rebuilt", "K unproven at FBS"],
+   "g5_guard_note": null
+  }
+ ]
+}
