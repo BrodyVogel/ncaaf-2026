@@ -1,0 +1,13 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Trevor Brock,171197,T,BUFFALO,12,100.0,0,126,75.1,69.9,75.2,8,17,461,100.0,100.0,97.1,2,26,1,828,0,125,0,828,483,483,0,702,345,0,2025_this_team
+Henry Tabansi,171215,T,BUFFALO,12,100.0,1,126,64.6,65.6,67.4,4,16,462,100.0,100.0,96.8,8,25,5,828,0,0,827,828,483,483,0,0,345,0,2025_this_team
+Tyler Doty,130407,G,BUFFALO,12,100.0,0,126,75.1,77.6,76.0,7,2,459,100.0,100.0,98.6,4,11,2,817,0,23,0,817,481,481,793,0,336,0,2025_this_team
+James Carrington III,145687,C,BUFFALO,12,100.0,0,126,65.0,77.0,61.0,2,6,364,100.0,100.0,98.6,3,9,1,656,410,239,0,656,384,384,7,0,272,0,2025_this_team
+Alex Heininger,158582,G,BUFFALO,10,100.0,0,126,62.8,75.4,57.2,3,4,263,100.0,100.0,98.3,0,8,1,484,0,452,0,484,277,277,30,2,207,0,2025_this_team
+Jake Timm,142493,C,BUFFALO,10,100.0,0,126,70.0,77.2,66.3,0,7,222,100.0,100.0,98.4,1,7,0,436,436,0,0,436,228,228,0,0,208,0,2025_this_team
+Tyrone Davis,188142,T,BUFFALO,5,100.0,0,126,55.5,28.2,81.3,4,6,82,100.0,100.0,92.7,4,11,1,150,0,0,12,150,87,87,0,138,63,0,2025_this_team
+Ahmaan Thomas,193094,G,BUFFALO,1,100.0,0,126,62.2,,61.7,0,0,0,,,,0,0,0,16,0,0,0,16,0,0,16,0,16,0,2025_this_team
+Gabriel Arena,174774,T,BUFFALO,2,100.0,0,126,77.6,60.5,77.1,0,0,1,100.0,100.0,100.0,0,0,0,8,0,0,7,8,1,1,0,0,7,0,2025_this_team
+Chayce Chadwick,184023,G,BUFFALO,1,100.0,0,126,53.2,,53.2,0,0,0,,,,0,0,0,7,0,7,0,7,0,0,0,0,7,0,2025_this_team
+Joe Crocker,126666,G,BAYLOR,1,100.0,0,118,47.2,71.3,46.6,0,0,1,100.0,100.0,100.0,0,0,0,6,0,0,0,6,1,1,6,0,5,0,arrival_2025_at_BAYLOR
+Jacob Merritt,158391,T,BUFFALO,1,100.0,0,126,59.7,,59.4,0,0,0,,,,0,0,0,4,0,0,0,4,0,0,0,4,4,0,2025_this_team

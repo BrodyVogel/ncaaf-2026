@@ -1,0 +1,61 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Jason Wright,FR,returning,rFr; 43 rush att @ 2.9 as running QB; ZERO pass attempts; Athlon starter 'high ceiling two-way threat'; PS#131
+QB,QB,1,Elijah Holmes,JR,transfer:Wingate (D2),D2: 3040 @ 59% 24-6 + 290 rush (12 st); PS projected starter — open battle
+QB,QB,3,Qur'an McNeil,FR,recruit,true FR; PS QB#55
+QB,QB,3,Mason Cumbie,JR,returning,no tape
+RB,RB,1,Terrance Shelton Jr.,JR,returning,64.5/59; 244 @ 4.3 (#2 rusher); Lembo: 'younger version of Henderson'
+RB,RB,2,Messiah Burch,JR,returning,67.1/11; gadget back; 194 rush + 98 rec L2Y
+RB,RB,2,James McNeil Jr.,SO,returning,80.8/12 (tiny); 67 @ 5.6 LY
+RB,RB,3,Chase Enlow,FR,recruit,true FR; in for spring
+WRTE,WR,1,Jasaiah Gathings,SR,returning,RETURNING STARTER; 60.9/379; 410 @ 11.4 (10 st); yr4 override (both prints); Akron '23 2nd-Tm MAC -> UConn '24
+WRTE,WR,1,Chance Morrow,SR,returning,66.6/69; 6-4 red-zone threat; ex-Louisville RS; 258 rec L3Y
+WRTE,WR,1,Patrick Clacks III,SO,returning,48.7/173; 71 yds LY
+WRTE,WR,2,Jaylin Andrews,JR,transfer:East Stroudsburg (D2),FEED-GAP arrival; D2 all-conf 623 @ 15.6
+WRTE,WR,2,Tyrell Simmons Jr.,SO,returning,spring riser per Athlon
+WRTE,WR,2,Dwayne Early Jr.,FR,returning,rFr; spring riser per Athlon
+WRTE,TE,1,Trevor Wilson,SR,transfer:Campbell,FCS 11 st 193 @ 16.1
+WRTE,TE,1,Clint Walker,SR,transfer:Davenport (D2),FEED-GAP arrival; D2 96 rec + 73 rush
+WRTE,TE,2,Michael Gelatko,FR,returning,rFr; Athlon TE1
+OL,LT,1,Gabriel Arena,JR,returning,77.6/8 (tiny); ex-Virginia Tech RS '23; 9 gm '24 + 6 gm '25; PS#132
+OL,LT,2,Jackson Davenport,FR,returning,rFr; PS#371
+OL,LG,1,Thomas Barr,FR,returning,rFr; PS#201; PS LG1/Athlon C1
+OL,LG,2,Paul Clark,SO,returning,Athlon LG1; depth
+OL,C,1,Nino Francavilla,SO,transfer:Miami,5 gm true + RS at Miami (FL); PS C1
+OL,C,2,Ahmaan Thomas,SO,returning,62.2/16; 1 gm LY
+OL,RG,1,Alex Heininger,SR,returning,RETURNING STARTER (lone one); 62.8/484; 9 st then OFY injury; ex-CMU RS '22
+OL,RG,2,Joe Crocker,JR,transfer:Baylor,47.2/6 at Baylor; 18 gm L2Y; PS OL#67
+OL,RT,1,Tyrone Davis,SO,returning,55.5/150; 1 start (at C)
+OL,RT,2,Nathan Natoli,SR,transfer:Bucknell,FCS 20 starts/24 gm L3Y
+DL,DE,1,Sedrick Vessah,JR,transfer:PennWest California (D2),D2 all-league: 52 tkl 11.5 sk 4.5 tfl
+DL,DE,2,Will Clark,SO,returning,59.2/14; 'nice spring' per Athlon
+DL,NT,1,Cornell Evans,SR,returning,RETURNING STARTER (lone DL); 50.7/399; 7 st 14 tkl
+DL,NT,2,Stantavious Smith,JR,transfer:Florida A&M,FCS; 18 tkl; USF RS '23
+DL,NT,2,Mason Nickel,SO,transfer:Saginaw Valley State (D2),D2 23 tkl
+DL,DT,1,Christopher Climes,FR,returning,60.9/10; rFr
+DL,DT,2,Rex Stinchcomb,FR,returning,58.0/4; rFr
+DL,JACK,1,Logan Goodwin,JR,transfer:Indiana-Pennsylvania (D2),D2 all-league: 64 tkl 12.5 sk 8.5 tfl L2Y
+DL,JACK,2,Caleb Oliver,JR,transfer:Wofford,FCS 2 st 35 tkl 7 tfl
+DL,DE,3,Jacari Bennett,SO,returning,35.6/17
+LB,MLB,1,Joey Cheshire,SR,transfer:Cornell,FCS 10 st 73 tkl 4 tfl; 'impressed coaches early' per Athlon
+LB,MLB,2,Stevie Bracey,SR,transfer:Virginia,PS#125; 1 st 20 tkl UVA '23; med-RS '24; 2 gm LY
+LB,WLB,1,Zach Bergmann,SR,transfer:Missouri Southern St (D2),D2 100 tkl 5.5 tfl 2 int
+LB,WLB,2,George Hill,FR,returning,rFr; 'will challenge for rotational spot'
+LB,LB,3,Jordan Owens,JR,returning,60.0/2
+LB,LB,3,Jack Garbolino,FR,recruit,true FR
+DB,CB,1,Kobi Blackwell,SO,returning,RETURNING STARTER; 74.0/401; 7 st 8 pd as rFr; 'all-MAC caliber' (PS)
+DB,CB,2,Oliver Bridges,SR,returning,64.4/230; ex-Cincy; 3 st L2Y
+DB,CB,1,Keontez Bradley,SR,returning,RETURNING STARTER; 60.4/480; 8 st 28 tkl 4 pbu; ex-Arizona St
+DB,CB,2,Ramari Taylor,SO,returning,depth
+DB,NB,1,SaVeon Brown,SR,returning,RETURNING STARTER; 64.2/701; 8 st #7 tklr 6.5 tfl; WITHDRAWN override STAYS
+DB,NB,2,Jordan Owens,JR,returning,also LB; depth
+DB,S,1,Miles Greer,SR,returning,75.2/631; 74 tkl #3 tklr (no starts); 1st-Tm PSAC Shepherd '24; PR1
+DB,S,2,John Keough,JR,returning,72.2/58
+DB,S,1,Ronnell Davis,SO,returning,59.8/32; Athlon S1
+DB,S,2,Xavier Leonard,SO,returning,68.7/3
+DB,CB,3,Sayre Smothers,SO,transfer:The Citadel,FCS 29 tkl 12 gm
+ST,K,1,Oliver Hautanen,FR,returning,rFr; PS K#67; ZERO college action
+ST,K,2,Zach McGowan,SR,transfer:SUNY Brockport (D3),FEED-GAP arrival; D3 7-8 FG L/41; also 9 punts 36.6
+ST,P,1,Andrew VanSlyke,JR,transfer:James Madison,DNP at JMU
+ST,P,2,Ethan Stumpf,SO,returning,PS#63; 'yet to punt'; ECU RS
+ST,KR,1,Terrance Shelton Jr.,JR,returning,unproven
+ST,PR,1,Miles Greer,SR,returning,unproven (Snow's PR TD was UB's first in 10 yrs)

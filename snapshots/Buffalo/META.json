@@ -1,0 +1,55 @@
+{
+ "team": "Buffalo",
+ "conference": "Mid-American",
+ "created_utc": "2026-07-16T20:09:29+00:00",
+ "assembler_git_rev": "f3ef87b",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Pete Lembo yr 3 (14-11 UB; career 126-76). ALL THREE coordinators new: DC Bowen->Pitt (replaced by Dougherty), new OC Tokarz (ex-Norvell/FSU), new STC McLaughlin. x1.13 does NOT apply (HC-only rule); coordinator churn noted as variance.",
+ "portal_departure_confirmed": [
+  "Mitch Viviano",
+  "Marquis Cooper"
+ ],
+ "portal_withdrawal_overrides": [
+  "SaVeon Brown"
+ ],
+ "yr4_return_overrides_documented": [
+  "Jasaiah Gathings"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Clint Walker": "D2 Davenport feed-gap arrival (PS TE1) - whitelisted",
+  "Jaylin Andrews": "D2 East Stroudsburg feed-gap arrival (PS WR line, all-conf 623) - whitelisted",
+  "Zach McGowan": "D3 SUNY Brockport feed-gap arrival (PS K/P lines) - whitelisted",
+  "Chase Enlow": "true FR recruit (Athlon #4 recruit, PS 'in for spring') - not a portal entity",
+  "Qur'an McNeil": "true FR recruit (PS QB#55, Athlon #3 recruit) - not a portal entity",
+  "Mason Cumbie": "PS QB depth listing - roster walk-on/depth, no feed entry"
+ },
+ "feed_gap_arrivals_documented": [
+  "Clint Walker (TE - D2 Davenport; PS TE1; D2-source gap)",
+  "Jaylin Andrews (WR - D2 East Stroudsburg, all-conf 623 @ 15.6; PS WR2)",
+  "Zach McGowan (K/P - D3 SUNY Brockport, 7-8 FG L/41; PS K2)"
+ ],
+ "position_notes": {
+  "SaVeon Brown": "portal-entry-and-return override (Withdrawn/no-dest out-feed vs BOTH prints starting him at NB). STAYS. 64.2/701 - most-used returning DB.",
+  "Red Murdock": "consensus All-American, NFL 7th-rd DEN (PS) - exit via yr4 expiry, no declare entry needed",
+  "Charlton Goodell": "feed yr4 but PS 2026 lineup lists him ('Charleston Goodell') as deep DT depth - single-print, zero grade impact, treated EXPIRED (news.md residual note)",
+  "Mathew Hilty": "feed yr4 but PS lineup lists 'Matthew Hitty' as WLB depth - single-print, 1 career snap, treated EXPIRED (news.md residual note)",
+  "Jason Wright": "rFr QB1 candidate has NO PFF row (43 rushes as running QB, 0 pass att - below file thresholds)",
+  "Logan Goodwin": "JACK edge - counted DL per Athlon DE slot; D2 IUP 12.5 sk L2Y",
+  "Miles Greer": "graded on UB '25 tape (75.2/631); his 1st-Tm PSAC Shepherd '24 tape is D2 no-cell",
+  "Jordan Owens": "appears at both LB depth and NB depth in prints - counted once (LB room), noted in DB two-deep",
+  "Joe Crocker": "Baylor arrival row 47.2/6 (B12 cell on 6 snaps - treated as pedigree, not tape)"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "QB battle (Wright vs Holmes) - Athlon and PS project DIFFERENT starters; room has zero FBS pass attempts",
+  "K and P jobs: zero FBS-tape candidates on both",
+  "LB room: 2 returning FBS snaps total",
+  "proxy void (QB/RB/WRTE/OL/DL/LB None) - artifacts #18-23, widest of project"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

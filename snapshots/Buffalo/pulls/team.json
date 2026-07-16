@@ -1,0 +1,36 @@
+{
+ "id": 2084,
+ "school": "Buffalo",
+ "mascot": "Bulls",
+ "abbreviation": "BUF",
+ "alternateNames": [
+  "BUF",
+  "Buffalo"
+ ],
+ "conference": "Mid-American",
+ "division": null,
+ "classification": "fbs",
+ "color": "#041A9B",
+ "alternateColor": "#ebebeb",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2084.png"
+ ],
+ "twitter": "@UBFootball",
+ "location": {
+  "id": 3965,
+  "name": "UB Stadium",
+  "city": "Amherst",
+  "state": "NY",
+  "zip": "14260",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 42.9991334,
+  "longitude": -78.7775113,
+  "elevation": "181.5759735",
+  "capacity": 30270,
+  "constructionYear": 1993,
+  "grass": false,
+  "dome": false
+ }
+}
