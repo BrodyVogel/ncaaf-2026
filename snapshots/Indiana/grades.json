@@ -1,0 +1,176 @@
+{
+ "team": "Indiana",
+ "units": {
+  "QB": {"grade": 70, "confidence": "M"},
+  "RB": {"grade": 62, "confidence": "M"},
+  "WRTE": {"grade": 65, "confidence": "M"},
+  "OL": {"grade": 74, "confidence": "H"},
+  "DL": {"grade": 77, "confidence": "M"},
+  "LB": {"grade": 77, "confidence": "M"},
+  "DB": {"grade": 72, "confidence": "M"},
+  "ST": {"grade": 65, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (1fd56c8)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "exemplar mechanics were run AT dossier time (Illinois RB lesson); all eight final grades match the dossier planned lines exactly."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 87, RB 70, WRTE 96, OL 72, DL 82, LB 95, DB 100, ST 94)",
+   "DB": "-28 vs proxy 100 (proxy counts Ponds 89.9/778 + Moore 82.5/777 + Boykin 90.0/583 - two NFL declares and a yr4, all GONE)",
+   "WRTE": "-31 vs proxy 96 (proxy rides Cooper 87.4/367 + Sarratt 86.1/345 - both drafted)",
+   "LB": "-18 vs proxy 95 (proxy counts Fisher 67.8/759 - 1st-tm AA, drafted)",
+   "QB": "-17 vs proxy 87 (proxy carries Mendoza's 91.6 Heisman tape; Hoover's B12-adjusted 82.8 with a turnover tax replaces it)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Indiana", "unit": "QB", "grade": 70, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "rationale_bullets": [
+    "Hoover's quantitative baseline is strong and fully-proven: 76.8 PFF on 480 dropbacks at TCU 2025 (B12-earned, +6 table offset -> 82.8 adjusted - at the p75 unit reference of 81.1), with 9,629 yds / 71 TD over 31 starts - 'the most productive returning QB in FBS' (Athlon).",
+    "The named, dated tax in both books: 42 turnovers in 31 starts (P6 2026); 'a turnover issue that needs fixing' (Athlon 2026).",
+    "The situational prior is the most validated in the graded set: Cignetti's two prior transfer QBs here finished 2nd-team B10 (Rourke 2024) and Heisman/#1-pick (Mendoza 2025); Cignetti says Hoover is 'at a similar point post-spring' (P6); full OC continuity plus a Joe Moore-favorite OL.",
+    "Depth is the fragility: QB2 is FR Tyler Cherry after A.Mendoza portaled (Georgia Tech) - one injury from an unproven room.",
+    "70, M = scale twin of Utah's 2026 QB room (70): Hoover's adjusted tape is a tick below Dampier's but arrives into a stronger, fully-continuous system."
+   ],
+   "key_players": [
+    {"name": "Josh Hoover", "role": "QB1 (transfer, TCU)", "evidence": "76.8 PFF/480 dropbacks 2025; 9,629/71 TD across 31 starts 2023-25 (PS/P6/Athlon)"},
+    {"name": "Tyler Cherry", "role": "QB2 (true FR)", "evidence": "no college tape; Athlon two-deep QB2"}
+   ],
+   "data_gaps": ["Wilson feed-year conflict (news.md) leaves QB3 ambiguity; not load-bearing", "No dated camp report on Hoover's INT profile beyond the books' May prints"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Indiana", "unit": "RB", "grade": 62, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "rationale_bullets": [
+    "Both 1,000-yd backs left (Black 83.4/186 - rd-3 SF; Hemby 81.0/230), but the room reloads three-deep with real evidence at each slot.",
+    "Martin: 89.6 PFF on 78 attempts 2025 (elite efficiency, small sample) - 505 yds @ 6.5 as the #3; 'primed to have a breakout season' (Athlon 2026).",
+    "Richard: 72.5/145 at Boston College (ACC-earned +5 -> 77.5), 749 @ 5.2 as a P4 starter, four-star transfer rank (P6) - with P6's named flaw (two goal-line fumbles).",
+    "Beebe returns from the wk-3 injury (1,276 @ 5.8 F3Y at UAB, AAC-earned) as proven G5 volume depth; PS: 'a strong deep room just like 25.'",
+    "Weighted adjusted aggregate ~80.9 lands ~p65 but on only ~250 combined 2025 attempts - sample width caps the grade at 62, M behind the set's best line."
+   ],
+   "key_players": [
+    {"name": "Khobie Martin", "role": "RB1", "evidence": "89.6 PFF/78 att, 505 yds @ 6.5 2025"},
+    {"name": "Turbo Richard", "role": "RB1B (transfer, Boston College)", "evidence": "72.5/145, 749 @ 5.2 2025; 4* transfer rank (P6)"},
+    {"name": "Lee Beebe Jr.", "role": "RB3/KR (injury return)", "evidence": "OFY after 3 gm 2025; 1,276 @ 5.8 2022-24 at UAB (PS)"}
+   ],
+   "data_gaps": ["No dated camp report on the RB1 pecking order", "Beebe's recovery status beyond PS lineup inclusion"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Indiana", "unit": "WRTE", "grade": 65, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Houston WRTE 2025 (78)"],
+   "rationale_bullets": [
+    "The 99th-pctile RECV tree lost its top: Sarratt (86.1/345; nation-high 15 TD; rd-4 BAL), Cooper (87.4/367; rd-1 NYJ - NFL declare, META override), EJ Williams (65.2/299), All-B10 TE Nowakowski (79.6/230; rd-5 PIT).",
+    "Becker is the proven star who stays: 89.1 PFF/199 routes (B10 -1 -> 88.1), 679 @ 20.0, the title-game 4th-down hero - 'one of the country's top playmakers' by season's end (Athlon 2026).",
+    "Verified imports at volume: Marsh 67.5/386 at MSU (-> 66.5; MSU's #1 WR, ~1,300 yds over two seasons; 'paid a s— ton' - Athlon scout) and Preston 71.8/300 at Tulane (AAC +0; 16.8/catch, top-5 AAC); Morris adds a zero-2025-tape slot option ('spring hero' - P6; yr4 medical override documented).",
+    "TE is the named hole: 'the biggest question heading into fall camp' (P6) - FR blocker Barker + 4* Miami transfer Schott (92.1 on 5 routes = no evidence); Shanahan mooting 4-WR sets is itself the tell.",
+    "Mechanical aggregate (~73.2, ~p88) overweights Becker's 199-route part-season; the Athlon scout's 'very young... biggest glaring thing' consensus and the TE void pull the grade to 65, M - above average, below the Houston-78 anchor."
+   ],
+   "key_players": [
+    {"name": "Charlie Becker", "role": "WR1 (returning starter)", "evidence": "89.1 PFF/199 routes, 679 @ 20.0 2025; title-game hero"},
+    {"name": "Nick Marsh", "role": "WR2 (transfer, Michigan State)", "evidence": "67.5/386 routes 2025; MSU's top receiver (P6)"},
+    {"name": "Shazz Preston", "role": "WR3/slot (transfer, Tulane)", "evidence": "71.8/300 routes; 16.8/catch top-5 AAC 2025 (P6)"},
+    {"name": "Brock Schott", "role": "TE (transfer, Miami; 4*)", "evidence": "92.1 on 5 routes 2025 - pedigree, no volume"}
+   ],
+   "data_gaps": ["TE usage split unresolved (P6, as of May prints)", "Morris's recovery/role beyond 'spring hero' note"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Indiana", "unit": "OL", "grade": 74, "confidence": "H",
+   "bracketing_exemplars": ["Washington State DB 2025 (72)", "Texas Tech OL 2025 (84)"],
+   "rationale_bullets": [
+    "Four starters return from the national-title line (Joe Moore semifinalist - P6): LT Smith 85.7/1028 (B10 -1 -> 84.7) - All-American and reigning B10 Offensive Lineman of the Year - plus Evans 73.2/796, Lynch 62.4/993, and playoff-riser Ajani 65.2/361.",
+    "The lone starter loss is real but singular: All-B10 C Coogan (78.0/1027; rd-6 TEN); Benson (66.5/836) also gone.",
+    "The replacement is a verified P4 starter: Brunner 66.5/694 at Wisconsin (-> 65.5), the #3 interior-lineman transfer this cycle (P6), 24 career starts (PS).",
+    "As-played 2025: PBLK 82p / RBLK 98p; PS calls them 'once again a Joe Moore Award favorite.'",
+    "Weighted starter aggregate ~70.8 (~p72) plus elite-LT skew and returning-start mass lands 74, H - the set's first H-confidence line: settled two-deep, proven production at volume."
+   ],
+   "key_players": [
+    {"name": "Carter Smith", "role": "LT (returning starter)", "evidence": "85.7 PFF/1028 snaps 2025; AA + B10 OL of the Year"},
+    {"name": "Joe Brunner", "role": "LG (transfer, Wisconsin)", "evidence": "66.5/694 2025; #3 iOL transfer (P6); 24 career starts (PS)"},
+    {"name": "Drew Evans", "role": "C (returning starter)", "evidence": "73.2/796 2025"},
+    {"name": "Adedamola Ajani", "role": "RT", "evidence": "65.2/361 2025; 'surged up the depth chart in the playoffs' (P6)"}
+   ],
+   "data_gaps": ["Interior alignment print conflict (P6 sketches Lynch at C; PS/Athlon print Evans C / Lynch RG) - personnel identical either way"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Indiana", "unit": "DL", "grade": 77, "confidence": "M",
+   "bracketing_exemplars": ["Washington State DB 2025 (72)", "Texas Tech OL 2025 (84)"],
+   "rationale_bullets": [
+    "The DT pair returns from a 46-sack (#2 FBS) / 129-TFL (#1 FBS) front: Tucker 77.9/604 (B10 +10 -> 87.9; 'could push for All-America honors' - P6) and Landino 65.4/567 (-> 75.4; 'a wrecking-ball throughout the season') - 'could be one of the nation's best pairs' (P6).",
+    "Five DL are gone (37 combined starts - PS): Kamara 71.9/649, Daley 78.2/529, Wheeler 70.7/420 (Baylor), Wyatt, Ratcliff - the entire end rotation.",
+    "The rebuild is verified-P4-quality: BOTH Kansas State starting ends - All-B12 Obiazor 68.6/497 (B12 +3 -> 71.6) and 'elite pass rusher' Osunsanmi 67.7/251 (-> 70.7) - plus Hjelle 79.3/388 at Tulsa (AAC -6 -> 73.3) and ND's Burnham (65 tkl/6 sk career).",
+    "Ndukwe (66.8/197 -> 76.8) 'played well after the starters were injured' (P6) and gives an in-house sixth piece; weighted adjusted aggregate ~77.0 (~p78) with six pieces at 70+ adjusted.",
+    "PS's 'figure to be down a notch' is honored with M confidence and one tick under the mechanical: 77 - the new ends have to gel, but the interior floor is elite."
+   ],
+   "key_players": [
+    {"name": "Tyrique Tucker", "role": "DT1 (returning starter)", "evidence": "77.9 PFF/604 snaps 2025; AA push (P6)"},
+    {"name": "Mario Landino", "role": "DT2 (returning starter)", "evidence": "65.4/567 2025; 9.5 sk L2Y (PS)"},
+    {"name": "Chiddi Obiazor", "role": "DE1 (transfer, Kansas State)", "evidence": "68.6/497 2025; All-B12 (P6)"},
+    {"name": "Tobi Osunsanmi", "role": "DE (transfer, Kansas State)", "evidence": "67.7/251 2025; 'elite pass rusher' (P6)"}
+   ],
+   "data_gaps": ["Burnham's 2025 grade/volume not in unit csv top rows", "End rotation shares across four adds unresolved pre-camp"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Indiana", "unit": "LB", "grade": 77, "confidence": "M",
+   "bracketing_exemplars": ["Oregon State LB 2025 (p75 ref, 77.4)", "Iowa LB 2025 (p90 ref, 86.5)"],
+   "rationale_bullets": [
+    "Two full-volume All-B10 starters return: Hardy 73.2/756 (B10 +16 -> 89.2; the team's #1 tackler; 124 tkl/9 sk/11.5 TFL L2Y) and Jones 71.3/664 (-> 87.3; #4 tackler). At 660-760 snaps each, the big B10 offset's small-sample caveat does not apply.",
+    "The subtraction is the defense's brain: 1st-team AA MLB Fisher (67.8/759 raw; rd-7 HOU) - 'the quarterback-of-the-defense' (P6); PS explicitly calls them 'down a notch with the loss of their leader.'",
+    "Depth is the named risk: Turner (61.7/82) and Utzinger (59.2/49) are hints, not evidence; PS: 'not as deep and need a 3rd LB to emerge'; P6 expects more 4-2-5 with the proven pair - which reduces the third spot's exposure.",
+    "LB-caution rule (v1.2.1) applied: grade leans on the pair's full-volume proven tape rather than the mechanical ~p88, landing 77, M at the p75 reference - a top-25 unit that would be top-10 with a proven third."
+   ],
+   "key_players": [
+    {"name": "Rolijah Hardy", "role": "OLB (returning starter)", "evidence": "73.2 PFF/756 snaps 2025; All-B10; #1 tackler"},
+    {"name": "Isaiah Jones", "role": "ILB (returning starter)", "evidence": "71.3/664 2025; All-B10"}
+   ],
+   "data_gaps": ["3rd LB unresolved (PS/P6, May prints)", "Run-defense/coverage sub-grades not in unit csv extract"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Indiana", "unit": "DB", "grade": 72, "confidence": "M",
+   "bracketing_exemplars": ["Washington State DB 2025 (72)", "BYU DB 2025 (p90 ref, 77.1)"],
+   "rationale_bullets": [
+    "Two elite full-volume returners anchor the room: CB Sharpe 84.1/818 (B10 +6 -> 90.1; 'AA and NFL potential' - PS; the title-sealing INT) and S Ferrell 80.1/819 (-> 86.1; 8 INT L3Y).",
+    "The outflow is three of the four best 2025 tapes: 1st-tm AA CB Ponds 89.9/778 (rd-2 NYJ; NFL-declare override), 1st-tm S Moore 82.5/777, NB Boykin 90.0/583 - plus Boyd (89.6/47) to Colorado.",
+    "The CB2 answer is a battle of pedigree vs tape: Harris (ex-5*, PS#3 CB rank) arrives from Penn State with modest raw tape (60.7/493 -> 66.7) vs Gandy (70.9/133 -> 76.9, '25 Pitt arrival); Zachman (79.6/116 -> 85.6; 7th-yr Wisconsin Green Dot, Wk-3 OFY) and Sanks (13 st/92 tkl at Cincy) reinforce safety.",
+    "Rover is the soft spot: SO Baldwin (56.1/39) with Sanks behind (Athlon two-deep).",
+    "PS: 'they are my #9 rated secondary' + PDR #12 two straight years; the mechanical aggregate (~82.9) is Zachman-inflated - 72, M holds the WSU-72 anchor's exact scale position: elite top, projection at CB2/rover."
+   ],
+   "key_players": [
+    {"name": "Jamari Sharpe", "role": "CB1 (returning starter)", "evidence": "84.1 PFF/818 snaps 2025; title-sealing INT (P6)"},
+    {"name": "Amare Ferrell", "role": "S (returning starter)", "evidence": "80.1/819 2025; 8 INT L3Y (PS)"},
+    {"name": "A.J. Harris", "role": "CB2 battle (transfer, Penn State)", "evidence": "60.7/493 at PSU 2025; ex-5*; PS#3 CB"},
+    {"name": "Preston Zachman", "role": "FS (transfer, Wisconsin; 7th yr)", "evidence": "79.6/116 2025 (Wk-3 OFY); 20 st/130 tkl/7 INT career"}
+   ],
+   "data_gaps": ["Harris-vs-Gandy battle unresolved (P6, May print)", "Baldwin's rover readiness - 39 career snaps"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Indiana", "unit": "ST", "grade": 65, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "rationale_bullets": [
+    "ST rule: start at the prior-season SPEC percentile - 93rd ('best in the country' - Athlon; PS STR #19; 9 blocked kicks in two years; two PR TDs) - and adjust for verified personnel changes.",
+    "The kicker returns: Radicic is 28-of-30 on FGs since 2024 (PS#5 kicker; 'a sneaky weapon' - Athlon).",
+    "The subtractions are real: KO specialist Franke (46 TB on 51 KO; 58-yd school record) and the P (38.6 avg) both gone.",
+    "Replacements are credible and verified: P Gowers (Hawai'i: 49 punts, 46.2 avg, 25 I20 - PS 'top notch'; open battle with returner Warren per Athlon/PS conflict), KO McAteer (Troy; 56-yd spring FG), LS Clausen (ISU).",
+    "65, M = down from the 93p baseline for two new legs and the battle, scale-consistent with Utah ST (62 from an 81p prior with full retention)."
+   ],
+   "key_players": [
+    {"name": "Nico Radicic", "role": "K (returning)", "evidence": "28-30 FG 2024-25; PS#5 K"},
+    {"name": "Billy Gowers", "role": "P (transfer, Hawai'i)", "evidence": "49 punts, 46.2 avg, 25 I20 2025 (PS lineup)"}
+   ],
+   "data_gaps": ["P1 battle: PS prints Gowers, Athlon prints Warren (news.md)"],
+   "g5_guard_note": null
+  }
+ ]
+}
