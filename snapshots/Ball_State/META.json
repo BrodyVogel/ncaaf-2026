@@ -24,7 +24,8 @@
  "known_name_exceptions": {
   "Derek Fields": "prints as 'DJ Fields' (Athlon starter) - same player, Withdrawn STAYS",
   "Sterling Smith": "feed-gap arrival ex-Purdue (Athlon S1 + text) - whitelisted; resolves Purdue's no-dest adjudication",
-  "Kameron Anthony": "Rutgers build lists 'Kameron Anthony' ex-Ball St - consistent, outbound verified"
+  "Kameron Anthony": "Rutgers build lists 'Kameron Anthony' ex-Ball St - consistent, outbound verified",
+  "DJ Fields": "feed name 'Derek Fields' (Withdrawn STAYS override) - print name whitelisted for departure_check"
  },
  "feed_gap_arrivals_documented": [
   "Sterling Smith (S - Athlon S1 + 'hopes are high for incoming Purdue transfer'; absent from the in-feed; destination-resolution for Purdue's no-dest out)"
