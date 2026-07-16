@@ -40,3 +40,8 @@
 - 2026-07-16 planned grades set; G5 guard N/A (max 34).
 - 2026-07-16 gates: disposition_ledger --write, departure_check, blinding_check
   — results below.
+- 2026-07-16 grades.json written + schema-validated (8/8); post-freeze META
+  addendum: known_name_exceptions "Gabe Funk" (feed "Gabriel Funk" name-form,
+  departure_check key_player escape) - name-form only, not substantive.
+- 2026-07-16 pilot_readout: FINAL -13.67 (r121/138), band ±6.18 (QB L x1.03;
+  coach 1.0; dispersion 1.00). resid +3.79 = level +8.14 + shape -4.34.

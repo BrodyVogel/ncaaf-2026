@@ -1,0 +1,350 @@
+{
+ "team": "Bowling Green",
+ "units": {
+  "QB": {
+   "grade": 34,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 28,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 18,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 10,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 34,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 30,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 30,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 18,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (e6c4d93)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB 7, WRTE None, OL None, DL 10, LB 58, DB 18, ST 44) - three-unit void, items #15-17 on the running artifact list",
+   "DL": "+24 vs proxy 10 (proxy drops Withdrawn-portal Bradley 85.3/349, the print-confirmed returning anchor - Washington-QB pattern)",
+   "LB": "-28 vs proxy 58 (proxy counts departed Lampron 86.6/753, portal to Colorado - counts-departed artifact)",
+   "DB": "+12 vs proxy 18 (proxy drops yr4-feed JoJo Johnson 74.9, print-confirmed CB1)",
+   "RB": "+21 vs proxy 7 (proxy under-weights Dendy 80.6/108, both prints' clear RB1)",
+   "ST": "-26 vs proxy 44 (proxy counts all three departed specialists; the 2026 room has a zero-attempt K)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Bowling Green",
+   "unit": "QB",
+   "grade": 34,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15 anchor, 58.8)",
+    "Syracuse QB 2025 (p25 ref, 63.2)"
+   ],
+   "rationale_bullets": [
+    "Only FBS tape in the room is Najm's 33.7/85 (3 st, 473 @ 50% as the #4 QB) -> MAC -10 = 24-equiv; the team PASS grade was p2 nationally.",
+    "Novosad (Oregon, ex-4-star, QB2 behind Nix/Gabriel/Moore) is pure pedigree - 4 passes in 3 years; Athlon 'potentially elite... the guy in the fall', PS QB #14 but PS's own lineup starts Kastantin - OPEN battle.",
+    "Kastantin is real D2 production (3,658 @ 57%, 37 TD + 710 rush over 3 yrs; 9 st, 1,974, 19-5 in '25) - no offset cell, unproven vs FBS.",
+    "34, L: pedigree ceiling on a production floor of nothing; nets even with Akron QB 34 (proven-MAC floor, lower ceiling) and far above FIU-15 (empty room, no pedigree)."
+   ],
+   "key_players": [
+    {
+     "name": "Austin Novosad",
+     "role": "QB1 candidate (transfer, Oregon)",
+     "evidence": "69.7/2 - no real tape; ex-4-star; Athlon 'potentially elite'"
+    },
+    {
+     "name": "Jay Kastantin",
+     "role": "QB1 candidate (transfer, D2 Assumption - feed-gap)",
+     "evidence": "3,658/37 TD + 710 rush over 3 D2 years; PS projected starter"
+    },
+    {
+     "name": "Hunter Najm",
+     "role": "QB3/returning floor",
+     "evidence": "33.7/85; 473 @ 50% as 2025's #4 QB"
+    }
+   ],
+   "data_gaps": [
+    "open two-way battle - prints disagree on the starter",
+    "zero combined FBS production between the top two candidates"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Bowling Green",
+   "unit": "RB",
+   "grade": 28,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32 anchor)",
+    "Maryland RB 2025 (p25 ref, 69.6)"
+   ],
+   "rationale_bullets": [
+    "Dendy 80.6/108 (493 @ 4.6, three straight 100-yd games - first BG back to do it since 2017) is the best returning raw RB grade of the MAC round; MAC -13 = 67.6-equiv, ~p25 player value with a 1,000-yd print projection.",
+    "Zero proven depth: Pettaway (72.8, MAC FrOY -> Iowa State) and McMillian (69.0, research-confirmed gone) took the rest of the committee; behind Dendy it's Amachree 53.0/7, FCS import Baldwin (Charleston Southern 778 @ 4.9, no cell), and a true FR.",
+    "Durability is the tail risk - Dendy missed the first 7 games of 2025.",
+    "28: a real RB1 pulls this well clear of Akron 16 / Ball State 8, but a one-deep room can't reach the Illinois-32 anchor."
+   ],
+   "key_players": [
+    {
+     "name": "Austyn Dendy",
+     "role": "RB1 (returning)",
+     "evidence": "80.6/108; 493 @ 4.6; ex-Missouri; Athlon 1,000-yd shot"
+    },
+    {
+     "name": "Ke'Marion Baldwin",
+     "role": "RB2 (transfer, Charleston Southern)",
+     "evidence": "FCS 778 @ 4.9 - no offset cell"
+    }
+   ],
+   "data_gaps": [
+    "Dendy durability (7 missed games)",
+    "FCS-to-MAC translation for Baldwin"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Bowling Green",
+   "unit": "WRTE",
+   "grade": 18,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Ball State WRTE 2025 (p3 ref, 53.9)",
+    "Middle Tennessee WRTE 2025 (p10 ref, 57.5)"
+   ],
+   "rationale_bullets": [
+    "Top 6 receivers depart but combined for just 1,394 @ 11.1 (RECV p15) - the post-Fannin room was already broken.",
+    "TE-led by scheme (12/13 personnel; a TE has led the team in receiving 3 straight years): Cleaver 72.9/46 (11 st, blocking profile - 11 catches at 3.7), Jacon-Duffy 69.6/28, Scoby 65.4/7 projected as the featured piece on 7 routes of tape.",
+    "WRs are reserves-promoted (Ridley 58.7/52, Sharp 54.7/44) plus no-cell imports (2nd-Tm CAA Dawson 575 @ 13.7, SCSt Sowell, D3 Pillarelli 876).",
+    "18: more mid-volume quality than Ball State's 12-room, nobody close to Akron's 28-level returning production; zero returning 200-yd FBS receiver."
+   ],
+   "key_players": [
+    {
+     "name": "Blane Cleaver",
+     "role": "A-TE1 (returning starter, yr4 override)",
+     "evidence": "72.9/46; 11 st"
+    },
+    {
+     "name": "Jeremiah Scoby",
+     "role": "Y-TE1, projected featured target",
+     "evidence": "65.4/7; PS TE #126"
+    },
+    {
+     "name": "Isaiah Dawson",
+     "role": "WR (transfer, Richmond)",
+     "evidence": "FCS 575 @ 13.7, 2nd-Tm CAA"
+    }
+   ],
+   "data_gaps": [
+    "featured-target projection rests on 7 routes",
+    "three no-cell imports"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Bowling Green",
+   "unit": "OL",
+   "grade": 10,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25 anchor)",
+    "Central Michigan OL 2025 (p3 ref, 41.5)"
+   ],
+   "rationale_bullets": [
+    "ALL FIVE 2025 starters gone (3,233 starter snaps: Pabst 71.0 -> FSU, Fatukasi 66.0, Padgett 63.8, Burns 62.9, Kilfoyl 53.4) - RBLK p65 was earned entirely by departed players.",
+    "Returning: 642 unit snaps total, zero starts beyond Thomas's 2 (53.1/355 -> MAC -15 = 38-equiv best piece); Bolyn 60.0/182, Sanchez 55.8/93, Harris 37.8/12.",
+    "Lone addition with FBS tape is Funk (App State - ONE game); the rest are rFr/true FR. PS: 'the OLine is the major question mark.'",
+    "10 - project low for OL, below Ball State 12: Ball State returned THREE full-volume starters of similar raw quality; this room returns none. Confidently low - the evidence is thin-and-bad, not merely thin."
+   ],
+   "key_players": [
+    {
+     "name": "James Thomas Jr.",
+     "role": "RT1 (returning)",
+     "evidence": "53.1/355; 2 career starts - most-experienced returnee"
+    },
+    {
+     "name": "Gabe Funk",
+     "role": "LT1 (transfer, App State)",
+     "evidence": "1 FBS game"
+    },
+    {
+     "name": "Brody Bolyn",
+     "role": "C1 (returning)",
+     "evidence": "60.0/182; 1 career start"
+    }
+   ],
+   "data_gaps": [
+    "zero returning starters",
+    "LT import has one game of tape"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Bowling Green",
+   "unit": "DL",
+   "grade": 34,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60 anchor)",
+    "East Carolina DL 2025 (p25 ref, 60.5)"
+   ],
+   "rationale_bullets": [
+    "Both sack leaders return: Bradley 85.3/349 (5 sk; MAC -6 = 79.3-equiv, a p75-90 player and the round's best returning DL grade) - Withdrawn-portal override STAYS, both prints start him - and George 63.2/407 (4 sk, moves to NT).",
+    "Loses 1,780+ snaps around them (Afogho 66.1/481 -> WVU, Kelly 64.8/472, Branch-Haynes 63.3/467, Thomison 76.2/132 -> Illinois, Booker 55.6/361 expired).",
+    "Interior depth is below-average: White 51.4/163, Louisville import Brown 51.8/15 (PS DT #56, ACC +1), Garner 42.6/62, rFr Olverson 53.9/37; Kostus (ex-CMU feed-gap) hasn't played since '24.",
+    "34: one elite piece + one solid + thin interior = p30-35 unit; PRSH p60 supports the edge-led read. Athlon: 'front six has the potential to be strong.'"
+   ],
+   "key_players": [
+    {
+     "name": "Myles Bradley",
+     "role": "RUSH1 (returning; withdrawal override)",
+     "evidence": "85.3/349, 5 sk; both prints start him"
+    },
+    {
+     "name": "Eriq George",
+     "role": "NT1 (returning; son of HC)",
+     "evidence": "63.2/407, 4 sk; EDGE->NT move"
+    },
+    {
+     "name": "Selah Brown",
+     "role": "DT1 (transfer, Louisville)",
+     "evidence": "51.8/15; PS DT #56"
+    }
+   ],
+   "data_gaps": [
+    "interior rebuild after three 460+ snap departures",
+    "Kostus injury layoff since '24"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Bowling Green",
+   "unit": "LB",
+   "grade": 30,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40 anchor)",
+    "Nevada LB 2025 (p25 ref, 56.3)"
+   ],
+   "rationale_bullets": [
+    "Lampron 86.6/753 (#1 tackler, 1st-Tm MAC, 17.5 tfl) departs to Colorado - the single biggest loss on the roster.",
+    "Pringle is a Rojas-pattern trust case: ACL after 3 games but 27 tkl/6 tfl/INT/2 FF production (#11 MAC tackler at injury) + BOTH prints corroborate All-MAC ceiling -> trust 68.0/171 (56-equiv).",
+    "Real second piece in Hines 66.9/237 (54.9-equiv, 3 st); Odom 61.5/94 at SLB; Mitchell 78.2 on 17 snaps.",
+    "Ellis's samples conflict (Purdue 44.9/34 small-bad vs TnSt '24 FrOY 86-tkl full volume, FCS no-cell) - LB caution rule cuts both ways; graded on the FBS-volume pieces. 30: clear of Akron 12/Ball State 8, short of the UNLV-40 anchor."
+   ],
+   "key_players": [
+    {
+     "name": "Dorian Pringle",
+     "role": "MLB1 (returning starter)",
+     "evidence": "68.0/171; 27 tkl/6 tfl in 3 gm, ACL; Athlon All-MAC ceiling"
+    },
+    {
+     "name": "Andrew Hines III",
+     "role": "MLB2 (returning)",
+     "evidence": "66.9/237; 3 st, 22 tkl"
+    },
+    {
+     "name": "Sanders Ellis",
+     "role": "WLB1 (transfer, Purdue)",
+     "evidence": "44.9/34 at Purdue; TnSt '24 Big South-OVC Def FrOY under George/Bowden"
+    }
+   ],
+   "data_gaps": [
+    "Pringle ACL recovery",
+    "Ellis conflicting samples"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Bowling Green",
+   "unit": "DB",
+   "grade": 30,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV DB 2025 (p25 ref, 62.8)",
+    "Syracuse DB 2025 (p50 ref, 66.9)"
+   ],
+   "rationale_bullets": [
+    "Legit CB1/FS pair returns: JoJo Johnson 74.9/308 (MAC-best 13 PBU; yr4 override, both prints) = 71.9-equiv, and Pascal 66.7/731 (80 tkl, #2 on team, 'leader of the secondary') = 63.7-equiv.",
+    "Loses 2,300 snaps around them: Cannon 74.3/752 -> Cincinnati, McClendon 54.4/719, Lorfils 61.1/423, Washington 55.0/406 -> Iowa State.",
+    "Depth is FCS imports and rookies: Braxton (NCCU 1st-Tm MEAC, no cell), Sawyer (CharSo), Hale (NMSU 7 st/44 tkl), Wright (FAU 53.8/70). Athlon: 'the secondary isn't deep.'",
+    "30: two above-average starters cap-limited by everything behind them; clear of Akron 22/Ball State 14, well short of p50 rooms."
+   ],
+   "key_players": [
+    {
+     "name": "JoJo Johnson",
+     "role": "CB1 (returning, yr4 override)",
+     "evidence": "74.9/308; MAC-best 13 PBU; ex-Indiana"
+    },
+    {
+     "name": "Kal-El Pascal",
+     "role": "FS1 (returning starter)",
+     "evidence": "66.7/731; 80 tkl, INT"
+    },
+    {
+     "name": "Drey Braxton",
+     "role": "CB2 (transfer, NC Central)",
+     "evidence": "FCS 1st-Tm MEAC; 12 st, 8 pd"
+    }
+   ],
+   "data_gaps": [
+    "post-top-two depth is entirely unproven at FBS level"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Bowling Green",
+   "unit": "ST",
+   "grade": 18,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Ball State ST 2026 (10, this round - 3-of-7 K + no-tape P)",
+    "Akron ST 2026 (24, this round)"
+   ],
+   "rationale_bullets": [
+    "All three 2025 anchors gone from a PS-#34 unit: K Kleather (19-22 FG, 56-yarder) -> Northwestern, P Henderson (40.5) expired, KR Pettaway (FBS-best 33.0, 1st-Tm MAC) -> Iowa State.",
+    "K Kenner is a walk-on career HOLDER with zero college FG attempts - the round's worst kicker situation (below even Ball State's 3-of-7 Holmer on evidence).",
+    "P Kingston (SEMO: 41.0/38.2 net, 22 in-20, 2nd-Tm OVC) is the one real asset; KR Amachree and PR Ridley are unproven.",
+    "18: the punter import holds this above Ball State's 10; the zero-tape kicker keeps it under Akron's 24. New STC adds variance, not level."
+   ],
+   "key_players": [
+    {
+     "name": "Ryan Kingston",
+     "role": "P1 (transfer, SEMO)",
+     "evidence": "41.0 avg / 38.2 net, 22 inside-20, 2nd-Tm OVC"
+    },
+    {
+     "name": "Travis Kenner",
+     "role": "K1 (returning walk-on)",
+     "evidence": "career holder; zero college FG attempts"
+    }
+   ],
+   "data_gaps": [
+    "kicker has never attempted a college FG",
+    "both return jobs unproven"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}

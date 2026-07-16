@@ -29,7 +29,8 @@
   "Jay Kastantin": "D2 Assumption feed-gap arrival (PS projected starter + Athlon chart*) - whitelisted",
   "Kade Kostus": "ex-CMU feed-gap arrival (Athlon chart* + PS DL text) - whitelisted; verify CMU-side at CMU build",
   "Reddik Pillarelli": "D3 Ohio Wesleyan feed-gap arrival (PS lineup) - whitelisted",
-  "Chris McMillian": "PFF 'McMillian' vs PS text 'McMillan' - same player, departure confirmed by research"
+  "Chris McMillian": "PFF 'McMillian' vs PS text 'McMillan' - same player, departure confirmed by research",
+  "Gabe Funk": "feed name 'Gabriel Funk' (App State in-feed) - print name-form whitelisted"
  },
  "feed_gap_arrivals_documented": [
   "Jay Kastantin (QB - D2 Assumption; PS projected starter; D2-source gap)",
