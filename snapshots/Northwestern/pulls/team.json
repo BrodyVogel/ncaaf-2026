@@ -1,0 +1,36 @@
+{
+ "id": 77,
+ "school": "Northwestern",
+ "mascot": "Wildcats",
+ "abbreviation": "NU",
+ "alternateNames": [
+  "NU",
+  "Northwestern"
+ ],
+ "conference": "Big Ten",
+ "division": null,
+ "classification": "fbs",
+ "color": "#582c83",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/77.png"
+ ],
+ "twitter": "@NUFBFamily",
+ "location": {
+  "id": 5960,
+  "name": "Lanny and Sharon Martin Stadium",
+  "city": "Evanston",
+  "state": "IL",
+  "zip": null,
+  "countryCode": "US",
+  "timezone": null,
+  "latitude": null,
+  "longitude": null,
+  "elevation": null,
+  "capacity": null,
+  "constructionYear": null,
+  "grass": null,
+  "dome": false
+ }
+}

@@ -1,0 +1,17 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Jackson Carsello,145040,C,NWESTERN,13,100.0,0,256,78.1,78.2,76.2,3,9,406,100.0,100.0,98.3,3,13,1,840,840,0,0,840,434,434,0,0,406,0,2025_this_team
+Caleb Tiernan,145042,T,NWESTERN,13,100.0,0,256,70.5,84.3,59.7,4,6,401,100.0,100.0,98.0,4,13,3,835,0,0,830,835,430,430,0,1,405,4,2025_this_team
+Ezomo Oratokhai,190888,G,NWESTERN,13,100.0,1,256,72.3,80.7,70.6,0,10,401,100.0,100.0,98.5,5,11,1,835,0,832,0,835,430,430,1,0,405,2,2025_this_team
+Evan Beerntsen,103865,G,NWESTERN,13,100.0,0,256,79.3,74.4,81.3,0,6,399,100.0,100.0,99.2,5,6,0,832,0,1,0,832,428,428,829,0,404,2,2025_this_team
+Grant Seagren,170240,T,OKLA STATE,11,100.0,0,262,63.7,69.8,56.6,3,9,387,100.0,100.0,98.4,1,12,0,713,0,0,11,713,404,404,0,701,309,0,arrival_2025_at_OKLA STATE
+Martes Lewis,129659,T,NWESTERN,13,100.0,0,256,64.2,71.3,60.6,3,4,291,100.0,100.0,98.1,6,9,2,638,0,0,1,638,319,319,0,633,319,4,2025_this_team
+Deuce McGuire,162846,T,NWESTERN,9,100.0,0,256,56.5,56.0,54.9,0,5,120,100.0,100.0,97.1,0,6,1,229,0,0,0,229,122,122,1,221,107,7,2025_this_team
+Nick Herzog,162842,G,NWESTERN,4,100.0,0,256,56.5,56.9,55.6,1,0,14,100.0,100.0,96.4,0,1,0,37,0,0,0,37,14,14,37,0,23,0,2025_this_team
+Xavior Gray,100263,T,NWESTERN,3,100.0,0,256,72.3,39.2,75.3,0,2,8,100.0,100.0,87.5,0,2,0,27,0,0,17,27,8,8,0,10,19,0,2025_this_team
+Anthony Birsa,176506,C,NWESTERN,3,100.0,0,256,74.8,76.2,70.9,0,0,6,100.0,100.0,100.0,0,0,0,26,21,4,0,26,6,6,0,0,20,1,2025_this_team
+Jack Bailey,98061,C,NWESTERN,1,100.0,0,256,61.5,81.1,58.1,0,0,9,100.0,100.0,100.0,0,0,0,15,0,15,0,15,9,9,0,0,6,0,2025_this_team
+Idrys Cotton,190880,G,NWESTERN,2,100.0,0,256,66.0,75.1,64.9,0,0,3,100.0,100.0,100.0,0,0,0,15,0,15,0,15,3,3,0,0,12,0,2025_this_team
+Dennis Rahouski,190889,T,NWESTERN,2,100.0,0,256,65.7,74.7,64.2,0,0,2,100.0,100.0,100.0,0,0,0,10,0,0,10,10,2,2,0,0,8,0,2025_this_team
+Matt Keeler,144743,T,NWESTERN,1,100.0,0,256,58.2,56.4,58.4,0,0,4,100.0,100.0,100.0,0,0,0,7,0,0,7,7,4,4,0,0,3,0,2025_this_team
+Talan Chandler,184473,C,NWESTERN,2,100.0,0,256,60.6,71.2,60.1,0,0,1,100.0,100.0,100.0,0,0,0,6,6,0,0,6,1,1,0,0,5,0,2025_this_team
+Arkel Anugwom,176081,T,ALABAMA,1,100.0,0,103,72.6,,75.4,0,0,0,,,,0,0,0,4,0,0,4,4,0,0,0,0,4,0,arrival_2025_at_ALABAMA

@@ -1,0 +1,54 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Aidan Chiles,SR,transfer:Michigan State,63.4/261 '25; 20 career starts; Kelly-recruited
+QB,QB,2,Nicco Marchiol,SR,transfer:West Virginia,69.9/120; 7 career starts
+QB,QB,3,Ryan Boe,SO,returning,72.6/9
+RB,RB,1,Caleb Komolafe,JR,returning,RETURNING STARTER; 75.9/189; 941/11 All-B10
+RB,RB,2,Joseph Himon II,SR,returning,78.7/99; 486 @ 4.9
+RB,RB,3,Gavin Sawchuk,JR,transfer:Florida State,74.8/109; 1600 career (OU/FSU)
+RB,RB,3,Robby Preckel,SO,returning,69.9/42; short-yardage
+WRTE,WR,1,Griffin Wilde,SR,returning,RETURNING STARTER; 79.8/366; 71/880/8 3rd-tm All-B10
+WRTE,WR,2,Ricky Ahumaraeze,JR,returning,64.1/147
+WRTE,WR,1,Hayden Eligon II,JR,returning,RETURNING STARTER; 74.5/285; late-season surge
+WRTE,WR,2,Jaden McDuffie,FR,recruit,Top150 4*; on two-deep (P6)
+WRTE,WR,1,Drew Wagner,JR,returning,64.8/113
+WRTE,WR,2,Chase Farrell,SO,returning,
+WRTE,TE,1,Alex Honig,SR,transfer:UConn,69.1/113; 6'6+ in-line blocker
+WRTE,TE,2,Luke Dehnicke,SO,transfer:Minnesota Duluth,D2 All-American
+OL,LT,1,Grant Seagren,JR,transfer:Oklahoma State,63.7/713; proven starter
+OL,LT,2,Dennis Rahouski,SO,returning,
+OL,LG,1,Deuce McGuire,SR,returning,56.5/229
+OL,LG,2,Trey Boyd,FR,recruit,
+OL,C,1,Ezomo Oratokhai,SO,returning,RETURNING STARTER; 72.3/835; G/C flex
+OL,C,2,Idrys Cotton,SO,returning,66.0/15
+OL,RG,1,Idrys Cotton,SO,returning,Athlon dual-lists; battle w/ Birsa
+OL,RG,2,Anthony Birsa,JR,returning,74.8/26
+OL,RT,1,Arkel Anugwom,JR,transfer:Alabama,no volume; 'unknown' (P6)
+OL,RT,2,David Anchondo,JR,transfer:Saginaw Valley State,D2
+DL,DE,1,Michael Kilbane,SR,returning,84.0/491; 7.5 TFL 3.5 sk
+DL,DE,2,Dominic Kirks,SO,transfer:Ohio State,no volume
+DL,DT,1,Brendan Flakes,SR,returning,RETURNING STARTER; 59.7/374
+DL,DT,2,Tyler Gant,JR,returning,53.9/103
+DL,DT,1,Mason Mayne,FR,recruit,
+DL,DT,2,Migo Jackson,SR,returning,71.1/60
+DL,DE,1,Jamaal Johnson,SR,transfer:UCF,68.5/255
+DL,DE,2,Callen Campbell,SO,returning,51.0/187
+DL,DT,3,Glory Stephen-Wangboje,JR,transfer:Sacred Heart,FCS
+LB,LB,1,Kobie McKinzie,SR,transfer:Oklahoma,61.6/331; 8 OU starts; 4* transfer grade
+LB,LB,2,Payton Roth,JR,returning,52.3/25
+LB,LB,1,Braydon Brus,SR,returning,RETURNING STARTER; 61.7/740; 81 tkl
+LB,LB,2,Nigel Glover,JR,returning,79.0/7; PS 'high ceiling'
+DB,CB,1,Josh Fussell,JR,returning,RETURNING STARTER; 62.5/504; 16 career starts
+DB,CB,2,Ore Adeyi,SR,returning,feed yr4 EXPIRED vs Athlon print - feed governs (news.md)
+DB,CB,1,Montae Pate,SR,transfer:Weber State,FCS
+DB,CB,2,Marquet Dorsey Jr.,SO,returning,
+DB,NB,1,Braden Turner,SR,returning,RETURNING STARTER; 79.0/593; Star
+DB,NB,2,Brenden Deasfernandes,SR,transfer:Central Michigan,73.1/631
+DB,S,1,Robert Fitzgerald,SR,returning,RETURNING STARTER; 77.9/725; all-league; #1 tkl
+DB,S,2,Alijah Jones,SO,returning,65.5/47
+DB,S,1,Damon Walters,JR,returning,57.2/50; health key (Athlon)
+DB,S,2,Jon Jon Stevens Jr.,SO,returning,51.7/99
+ST,K,1,Jackson Kleather,SR,transfer:Bowling Green,27-31 career
+ST,P,1,Nikola Dugandzic,FR,returning,rFr; PS#5 punter
+ST,LS,1,Evan Boutorwick,JR,transfer:Michigan,
+ST,KR,1,Joseph Himon II,SR,returning,
+ST,PR,1,Drew Wagner,JR,returning,

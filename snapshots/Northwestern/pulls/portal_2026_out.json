@@ -1,0 +1,98 @@
+[
+ {
+  "season": 2026,
+  "firstName": "Hunter",
+  "lastName": "Welcing",
+  "position": "TE",
+  "origin": "Northwestern",
+  "destination": "Ohio State",
+  "transferDate": "2026-01-12T20:29:00.000Z",
+  "rating": 0.91,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Evan",
+  "lastName": "Smith",
+  "position": "CB",
+  "origin": "Northwestern",
+  "destination": "Duke",
+  "transferDate": "2026-01-17T20:35:00.000Z",
+  "rating": 0.86,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Dillon",
+  "lastName": "Tatum",
+  "position": "S",
+  "origin": "Northwestern",
+  "destination": "Miami (OH)",
+  "transferDate": "2026-01-06T21:48:00.000Z",
+  "rating": null,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Hayden",
+  "lastName": "Wright",
+  "position": "OT",
+  "origin": "Northwestern",
+  "destination": "Houston",
+  "transferDate": "2026-01-05T17:20:00.000Z",
+  "rating": null,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Jack",
+  "lastName": "Olsen",
+  "position": "K",
+  "origin": "Northwestern",
+  "destination": "Miami",
+  "transferDate": "2026-01-17T00:59:00.000Z",
+  "rating": 0.85,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Anto",
+  "lastName": "Saka",
+  "position": "EDGE",
+  "origin": "Northwestern",
+  "destination": "Texas A&M",
+  "transferDate": "2026-01-07T17:36:00.000Z",
+  "rating": 0.92,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Nick",
+  "lastName": "Herzog",
+  "position": "OT",
+  "origin": "Northwestern",
+  "destination": null,
+  "transferDate": "2026-01-08T21:22:00.000Z",
+  "rating": null,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Dashun",
+  "lastName": "Reeder",
+  "position": "RB",
+  "origin": "Northwestern",
+  "destination": "UConn",
+  "transferDate": "2026-01-24T19:31:00.000Z",
+  "rating": 0.84,
+  "stars": 3,
+  "eligibility": "Immediate"
+ }
+]

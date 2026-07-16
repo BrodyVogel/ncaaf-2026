@@ -1,0 +1,30 @@
+{
+ "team": "Northwestern",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T15:55:08+00:00",
+ "assembler_git_rev": "91b5a19",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Braun yr 4 - NO HC change. NEW OC Chip Kelly (+Neuheisel QB, Drevno OL, Creighton ST); DC McGarigle yr 3. x1.13 does NOT apply.",
+ "portal_departure_confirmed": ["Nick Herzog"],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Caleb Tieman": "Caleb Tiernan"
+ },
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Ore Adeyi": "feed yr4 EXPIRED governs over single Athlon backup print (news.md)",
+  "Braden Turner": "Star/nickel - PS groups him with LBs, Athlon at NB; counted DB (PFF classification)"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "QB battle (Chiles presumptive vs Marchiol)",
+  "Walters health at FS; interior DL development"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}
