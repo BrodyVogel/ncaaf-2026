@@ -1,0 +1,62 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Angel Flores,SR,returning,82.5/39; THE RUNNER: 107 att 527 @ 4.9 8 TD; 19-of-28 passing; missed 4 gm hurt; PS#127
+QB,QB,1,Jadyn Glasser,SO,returning,80.1/14; THE PASSER: 439 yds starting final 3 of '24; OFY vs Pitt '25; strong spring; two-QB plan BY DESIGN
+QB,QB,2,Marcus Beamon,JR,returning,66.2/6; ran for 88 in '24
+QB,QB,3,Daniel Gomez,FR,returning,rFr; PS#184
+RB,RB,1,Vaughn Blue,JR,transfer:Liberty,65.3/47 at Liberty; 441 @ 5.4 + 162 rec L2Y
+RB,RB,2,Brock Townsend,SO,returning,73.9/82; 418 @ 5.1; 'will be a factor'
+RB,RB,2,Jayden Clerveaux,SO,transfer:Holy Cross,FCS 1704 @ 4.7 2Y (762 LY)
+RB,RB,3,Trav Moore,FR,recruit,true FR; PS#89; Athlon #1 recruit; spring riser
+RB,FB,1,Rusty VanWetzinga IV,JR,returning,41.1/13 (TE row); ex-Iowa; 5 st; 21-personnel anchor
+WRTE,WR,1,Langston Lewis,SR,returning,RETURNING STARTER; 73.9/245; 3rd-Tm All-MAC 596 @ 13.9; WITHDRAWN override STAYS
+WRTE,WR,1,Nasir Williams,SO,returning,69.3/29; strong spring; PS#323
+WRTE,WR,2,Braylen Naves,FR,returning,rFr; Athlon WR2
+WRTE,WR,2,Justin Ruffin Jr.,SO,returning,62.8/41; 63 yds LY; KR1/PR1
+WRTE,WR,2,Shawn Foster II,JR,transfer:Michigan State,1 gm at MSU (pre-2025); gap-year origin
+WRTE,WR,3,Collin Payne,SR,returning,61.7/31; JC '24 producer
+WRTE,WR,3,Dontae Robinson,JR,transfer:Sacramento State,feed TE/PS WR; 1713 @ 14.5 JC '23-24; RS'd at Sac St '25
+WRTE,TE,1,Jaden Allen,SR,transfer:Fordham,FCS 11 st 327 @ 17.2; PS TE#153; PS TE1
+WRTE,TE,2,Myles Peters,SO,returning,depth; Athlon TE2 (Athlon's TE1 = VanWetzinga, the FB - 21/12-personnel hybrid)
+OL,LT,1,Jacob Booth,JR,returning,61.6/387; 23 gm backup; PORTAL-RETURN override STAYS (both prints LT1)
+OL,LT,2,Trevor Swan,SR,transfer:Georgetown,FCS 23 st L2Y
+OL,LG,1,Jacob Russell,JR,returning,RETURNING STARTER; 61.2/508; 13 st @ LT; 'all-league candidate'
+OL,LG,2,Dasan Smith,SO,returning,54.3/518; 11 st as rFr
+OL,C,1,Losini Maka,SR,transfer:Georgetown,FCS 12 st 2nd-Tm Patriot Lg LY
+OL,C,2,Matthew Nehf,JR,returning,RETURNING STARTER; 51.3/352; 9 st @ RG then OFY; Athlon RG1
+OL,RG,1,John Iannuzzi,SR,returning,81.2/56; 1st-Tm Ivy Columbia '24; 1 st then OFY LY; yr4 override (both prints)
+OL,RG,2,Brady Ploucha,SR,returning,65.2/529; 5 st LY + 12 st '24; PS#171
+OL,RT,1,Martin Koivisto,SR,returning,RETURNING STARTER; 52.8/731; 13 st; PS#178
+OL,RT,2,John Williams,SO,transfer:JC,FEED-GAP arrival; PS#252JC
+OL,OT,3,Nic DiSanto,SR,transfer:Eastern Illinois,FCS 30 st L3Y
+DL,DE,1,Korver Demma,JR,returning,RETURNING STARTER; 68.3/468; 13 st 27 tkl 3.5 sk; JC '24
+DL,DE,2,Hunter Zirkle,JR,transfer:unknown,FEED-GAP arrival (Athlon*); PS '50 tkl LY' origin unprinted
+DL,DE,1,JJ Douglas,SO,returning,59.6/228; true-FR TE->DE convert; 'break out in Year 2' per Athlon
+DL,DE,2,James Reinbold,SR,transfer:Cornell,FEED-GAP arrival; FCS 18 st 74 tkl 5 sk L2Y
+DL,NT,1,Quavion Bird,SO,returning,RETURNING STARTER; 54.2/222; took over position mid-year
+DL,NT,2,Max Van Fleet,SR,transfer:Cornell,FEED-GAP arrival; FCS 10 st 32 tkl LY
+DL,DT,1,Jaxon Cherry,JR,transfer:unknown,FEED-GAP arrival (Athlon* starter); origin unprinted
+DL,DT,2,Joey VanWetzinga,SO,returning,60.0/170; injured spring per PS (OFY '26 note - monitor)
+DL,DT,3,Malik Denkins,SO,returning,62.1/66
+DL,DE,3,Landon Swanson,SO,returning,66.3/47; also TE per PS
+LB,MLB,1,Xavier White,JR,returning,60.1/181; rotation LY; NFL dad / Charles White great-uncle
+LB,MLB,2,Jeremiah Alston,JR,returning,72.9/2 (tiny)
+LB,WLB,1,Victor Earl,SO,returning,60.0/80; limited bench action LY
+LB,WLB,2,Antonio Cherry Jr.,SO,transfer:unknown,FEED-GAP arrival (Athlon* depth)
+LB,SLB,1,Drew Esper,FR,recruit,TRUE FR projected starter (Athlon); #3 recruit
+LB,SLB,2,Elijah Reynolds,FR,recruit,true FR; #4 recruit
+DB,CB,1,Jaion Jackson,JR,returning,RETURNING STARTER; 64.0/610; 3rd-yr starter; 'unquestioned leader of the back line'
+DB,CB,2,Max Macklem,FR,returning,rFr; PS depth
+DB,CB,1,JaJuan Jones,FR,recruit,true FR in CB2 battle; Athlon #10 recruit
+DB,CB,2,Ty Williams,SR,transfer:unknown,FEED-GAP arrival (Athlon*); CB2 battle
+DB,S,1,Justin Taylor,JR,transfer:Wyoming,60.4/276 at Wyoming; 1 st 19 tkl; 2 gm Wisc '24
+DB,S,2,Tysen Campbell,SO,returning,3 tkl LY
+DB,S,1,Darrell Bryant Jr.,SR,transfer:Northern Colorado,FCS 11 st 75 tkl LY; North Carolina '24: 8 st 52 tkl
+DB,S,2,Colton Benaitis,FR,recruit,true FR; Athlon #2 recruit
+DB,NB,2,Donavan Philord,SO,transfer:Campbell,FCS 33 tkl 1 pbu 2 int as rFr; PS#210
+DB,CB,3,Kyle Krebs,SR,returning,69.1/70
+DB,S,3,Ed Conoran,SR,returning,81.2/51 (tiny)
+ST,K,1,Caden VanHuis,FR,returning,rFr; PS K#20; UA All-America game HS; zero college attempts
+ST,K,2,Braxton Doak,FR,recruit,true FR; PS#71
+ST,P,1,Declan Duley,JR,returning,RETURNING; 13 st 54 punts 41.1 L/71 18-I20 37.9 net; PS P#14; orig Illinois
+ST,KR,1,Justin Ruffin Jr.,SO,returning,'25 returns were negative (-1.1 KR)
+ST,PR,1,Justin Ruffin Jr.,SO,returning,'25 -2.1 PR

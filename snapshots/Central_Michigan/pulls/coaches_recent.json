@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Jim",
+  "lastName": "McElwain",
+  "hireDate": "2018-12-03T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Central Michigan",
+    "year": 2024,
+    "games": 12,
+    "wins": 4,
+    "losses": 8,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -13.1,
+    "spOverall": -15.8,
+    "spOffense": 17.7,
+    "spDefense": 34.3
+   }
+  ]
+ },
+ {
+  "firstName": "Matt",
+  "lastName": "Drinkall",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Central Michigan",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -8.4,
+    "spOverall": -8.8,
+    "spOffense": 17.6,
+    "spDefense": 25.7
+   }
+  ]
+ }
+]

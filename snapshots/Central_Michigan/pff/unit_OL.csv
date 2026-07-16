@@ -1,0 +1,17 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Martin Koivisto,158592,T,C MICHIGAN,13,100.0,1,134,52.8,19.2,65.4,7,13,263,100.0,100.0,95.4,7,22,2,731,0,0,0,731,282,282,0,729,449,2,2025_this_team
+Brady Ploucha,158599,G,C MICHIGAN,13,100.0,0,134,65.2,73.7,63.9,0,5,202,100.0,100.0,97.8,2,7,2,529,0,153,0,529,214,214,376,0,315,0,2025_this_team
+Dasan Smith,191046,G,C MICHIGAN,12,100.0,0,134,54.3,43.1,57.8,4,6,175,100.0,100.0,96.0,5,12,2,518,0,513,0,518,190,190,5,0,328,0,2025_this_team
+Jacob Russell,177806,T,C MICHIGAN,13,100.0,0,134,61.2,60.2,59.0,2,4,179,100.0,100.0,97.2,0,8,2,508,0,67,441,508,196,196,0,0,312,0,2025_this_team
+Apisa Poumele,198247,C,C MICHIGAN,13,100.0,0,134,53.5,31.7,56.7,3,7,183,100.0,100.0,96.2,0,12,2,491,491,0,0,491,194,194,0,0,297,0,2025_this_team
+Jacob Booth,171222,T,C MICHIGAN,13,100.0,0,134,61.6,27.2,75.6,3,7,142,100.0,100.0,95.1,5,12,2,387,0,0,345,387,147,147,0,42,240,0,2025_this_team
+Matthew Nehf,171238,G,C MICHIGAN,9,100.0,0,134,51.3,54.7,54.2,1,1,117,100.0,100.0,98.3,4,3,1,352,0,13,0,352,128,128,339,0,224,0,2025_this_team
+Ryan Blum,171221,C,C MICHIGAN,13,100.0,0,134,53.6,22.5,63.1,5,3,107,100.0,100.0,95.3,3,9,1,334,334,0,0,334,118,118,0,0,216,0,2025_this_team
+Dominique Maiava,204749,G,C MICHIGAN,6,100.0,0,134,50.4,22.4,56.4,3,0,31,100.0,100.0,95.2,1,3,0,90,0,0,0,90,31,31,84,0,59,0,2025_this_team
+John Iannuzzi,148722,G,C MICHIGAN,1,100.0,0,134,81.2,66.9,80.6,0,1,13,100.0,100.0,96.2,0,1,0,56,0,56,0,56,14,14,0,0,42,0,2025_this_team
+Jacob Saurbeck,191044,T,C MICHIGAN,5,100.0,0,134,41.7,0.0,62.9,0,2,16,100.0,100.0,87.5,0,3,1,43,0,0,17,43,18,18,0,26,25,0,2025_this_team
+Luis Martinez,184673,T,C MICHIGAN,6,100.0,0,134,54.0,45.3,53.9,0,0,10,100.0,100.0,100.0,0,0,0,39,0,8,22,39,12,12,9,0,27,0,2025_this_team
+Blake Schlegel,204748,G,C MICHIGAN,5,100.0,0,134,55.8,79.3,52.1,0,0,7,100.0,100.0,100.0,0,0,0,23,0,15,0,23,9,9,8,0,14,0,2025_this_team
+Triston Pierre,204759,T,C MICHIGAN,2,100.0,0,134,51.8,20.0,60.3,0,0,6,100.0,100.0,100.0,0,0,0,14,0,0,0,14,8,8,0,14,6,0,2025_this_team
+Dane Sickler,184676,T,C MICHIGAN,2,100.0,0,134,81.7,66.9,80.3,0,0,1,100.0,100.0,100.0,0,0,0,12,0,0,0,12,1,1,0,12,11,0,2025_this_team
+Talon Smith,204755,G,C MICHIGAN,1,100.0,0,134,59.8,,59.6,0,0,0,,,,0,0,0,4,0,0,0,4,0,0,4,0,4,0,2025_this_team

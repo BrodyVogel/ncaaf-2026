@@ -1,0 +1,81 @@
+{
+ "team": "Central Michigan",
+ "conference": "Mid-American",
+ "created_utc": "2026-07-16T20:24:16+00:00",
+ "assembler_git_rev": "48affae",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Matt Drinkall yr 2 (7-6; career 49-23; Army OL / Joe Moore Award pedigree). OC Chapin + DC Cronin both yr 2; STC Murphy yr 7. Pro->Power Spread switch is strategic. x1.13 does NOT apply.",
+ "portal_departure_confirmed": [
+  "Bryce Rowe",
+  "Jordan Kelly",
+  "Travis Ambrose",
+  "Oumar Conde",
+  "Jacob Saurbeck",
+  "Andre Thomas",
+  "Ryan Blum",
+  "Kade Kostus"
+ ],
+ "portal_withdrawal_overrides": [
+  "Langston Lewis",
+  "Jacob Booth"
+ ],
+ "yr4_return_overrides_documented": [
+  "John Iannuzzi"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Tommy McIntosh",
+  "D.J. Bennett"
+ ],
+ "known_name_exceptions": {
+  "James Reinbold": "Cornell feed-gap arrival (PS DE line: 18 st, 74 tkl, 5 sk L2Y) - whitelisted",
+  "Max Van Fleet": "Cornell feed-gap arrival (PS NT line + Athlon DT depth) - whitelisted",
+  "Hunter Zirkle": "feed-gap arrival (Athlon* transfer; PS '50 tkl LY', origin unprinted) - whitelisted",
+  "Jaxon Cherry": "feed-gap arrival (Athlon* DT starter; origin unprinted) - whitelisted",
+  "Antonio Cherry Jr.": "feed-gap arrival (Athlon* depth) - whitelisted",
+  "Ty Williams": "feed-gap arrival (Athlon* CB2 battle) - whitelisted",
+  "John Williams": "JC feed-gap arrival (PS#252JC) - whitelisted",
+  "Gavin Spillers": "feed 'Spillers' vs PS 'Spiller' - same player (Mars Hill D2 in-feed)",
+  "Braylen Naves": "PS 'Braylin', Athlon 'Braylen' - same rFr WR",
+  "Trav Moore": "true FR recruit (PS#89, Athlon #1 recruit) - not a portal entity",
+  "Drew Esper": "true FR recruit (Athlon LB starter) - not a portal entity",
+  "JaJuan Jones": "true FR recruit (Athlon CB2 battle) - not a portal entity",
+  "Colton Benaitis": "true FR recruit - not a portal entity",
+  "Elijah Reynolds": "true FR recruit - not a portal entity",
+  "Braxton Doak": "true FR K recruit (PS#71) - not a portal entity",
+  "Max Macklem": "rFr roster depth (PS CB line) - no feed entry expected",
+  "D.J. Bennett": "PFF 'D.J.' vs roster 'Daniel' Bennett (DL, yr4) - name form defeated ledger yr4 match (DeWalt pattern); expired, neither print lists him. GONE (research)."
+ },
+ "feed_gap_arrivals_documented": [
+  "James Reinbold (DE - Cornell, 18 st 74 tkl 5 sk L2Y; PS)",
+  "Max Van Fleet (NT - Cornell, 10 st 32 tkl LY; PS + Athlon)",
+  "Hunter Zirkle (DE - Athlon* transfer, PS '50 tkl LY', origin unprinted)",
+  "Jaxon Cherry (DT - Athlon* starter, origin unprinted)",
+  "Antonio Cherry Jr. (LB - Athlon* depth, origin unprinted)",
+  "Ty Williams (CB - Athlon* CB2 battle, origin unprinted)",
+  "John Williams (OT - JC, PS#252JC)"
+ ],
+ "position_notes": {
+  "Langston Lewis": "portal-entry-and-return override (Withdrawn/no-dest vs BOTH prints starting him). STAYS. 73.9/245 3rd-Tm All-MAC - the offense's best returning skill player.",
+  "Jacob Booth": "portal-entry-and-return override (Immediate/no-dest vs BOTH prints' LT1). STAYS. Cole Martin/Yates precedent.",
+  "Tommy McIntosh": "NOT portal, NOT feed-yr4 - PS: out of eligibility, 'appealing eligibility'; neither print lists him 2026. GONE (research). If appeal granted -> favorable surprise, monitorable.",
+  "Kade Kostus": "out-feed Immediate/no-dest -> destination Bowling Green (adjudicated at BGSU build via prints; BGSU in-feed missed him). PLAYED at CMU '25 (46.1/103), contra PS-BGSU 'injured 24' note. Loop closed, zero grade impact both sides.",
+  "Angel Flores + Jadyn Glasser": "two-QB plan BY DESIGN per both prints (runner/passer split) - no battle ambiguity; role clarity is why QB is not L-confidence",
+  "John Iannuzzi": "yr4 feed but both prints start him at RG (1st-Tm Ivy Columbia '24; 1 st then OFY at CMU) - May-print override",
+  "Joey VanWetzinga": "PS: injured spring, 'OFY 26' - DT rotation thinner; monitor",
+  "Shawn Foster II": "in-feed origin Michigan State but NOT in MSU frozen snapshot - MSU stint pre-2025 (PS: '1 gm Mich St'); gap-year origin label, no MSU retro issue",
+  "Dontae Robinson": "feed TE / PS WR; JC 1,713 '23-24; RS'd at Sacramento State '25 - forward flag for Sac State build",
+  "Rusty VanWetzinga IV": "FB; Athlon lists him as TE1 (21/12-personnel hybrid); ex-Iowa"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "Zirkle/Jaxon Cherry/Antonio Cherry/Ty Williams transfer origins unprinted in either magazine",
+  "LB: true-FR projected starter (Esper); zero proven pieces",
+  "McIntosh eligibility appeal outcome unknown (treated gone)",
+  "proxy voids QB/RB/WRTE/LB (#24-27) + DL floor-clip 0 / OL 4 divergences"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}
