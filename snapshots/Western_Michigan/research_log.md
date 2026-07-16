@@ -46,3 +46,12 @@
   seven wiped. 1 L-unit -> conf x1.03; coach x1.0.
 - 2026-07-16 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-16 grades.json written + schema-validated (8/8); departure_check
+  re-run with underscore form after a space-name SKIP (gate then ran
+  clean); ledger 38 rows / 0 to adjudicate.
+- 2026-07-16 pilot_readout: FINAL -8.22 (r98/138), band ±6.18 (coach 1.0 x
+  dispersion 1.0 x conf 1.03). ZERO winsorization; dispersion 3.31 =
+  TIGHTEST anchor agreement of the MAC round (all five sources -5..-8).
+  resid -4.55 = level +3.41 + shape -7.96: grades WARMER than anchors on
+  offense (+1.78) and cooler on defense (+6.33 pts-allowed) - the
+  asymmetric-champion signature. MAC #2 of 13 on the board.
