@@ -1,0 +1,55 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Colton Joseph,JR,transfer:Old Dominion,78.9/355; SBC OPOY; 1000+ rush; 4200/1600/56 TD career
+QB,QB,2,Danny O'Neil,SO,returning,51.3/123; injured gm 4; back for fall camp
+QB,QB,3,Carter Smith,FR,returning,42.4/60; true-FR November duty
+RB,RB,1,Abu Sama III,SR,transfer:Iowa State,80.0/140; 1933 career; Snowmageddon 270
+RB,RB,2,Darrion Dupree,JR,returning,61.2/83; '25 lead rusher
+RB,RB,2,Bryan Jackson II,SO,transfer:USC,63.4/36
+RB,RB,3,Nate Palmer,SO,transfer:TCU,70.1/30
+WRTE,WR,1,Chris Brooks Jr.,SR,returning,RETURNING STARTER; 61.1/131; moves up
+WRTE,WR,2,Shamar Rigby,JR,transfer:Oklahoma State,63.7/251; OkSt starter; slot
+WRTE,WR,1,Jaylon Domingeaux,SR,transfer:Southeastern Louisiana,FCS
+WRTE,WR,2,Malachi Coleman,JR,transfer:Minnesota,54.3/86; ex-Top100
+WRTE,WR,1,Tyrell Henry,SR,returning,62.6/32; yr4 override; spring praise; KR/PR
+WRTE,WR,2,Eugene Hilton Jr.,SO,returning,59.3/76; 4*; Withdrawn override STAYS
+WRTE,WR,3,Zion Kearney,JR,transfer:Oklahoma,56.9/19; ex-Top100
+WRTE,TE,1,Grant Stec,SO,returning,62.7/52; FR flash before injury
+WRTE,TE,2,Jacob Harris,JR,transfer:Bowling Green,74.1/146; 5 TD
+OL,LT,1,Kevin Heywood,SO,returning,'25 preseason ACL; was projected starter
+OL,LT,2,PJ Wilkins,JR,transfer:Ole Miss,61.0/189
+OL,LG,1,Colin Cubberly,SO,returning,RETURNING STARTER; 59.2/393
+OL,LG,2,Ryan Cory,SO,returning,41.5/100
+OL,C,1,Austin Kawecki,SR,transfer:Oklahoma State,62.4/710; OkSt starting C
+OL,C,2,Stylz Blackmon,JR,transfer:Augustana,D2
+OL,RG,1,Emerson Mandell,SO,returning,RETURNING STARTER; 62.6/704
+OL,RG,2,Blake Cherry,SO,transfer:Arkansas,61.8/25
+OL,RT,1,Lucas Simmons,JR,transfer:Florida State,no volume
+OL,RT,2,Nolan Davenport,FR,returning,59.5/3
+DL,DE,1,Charles Perkins,SR,returning,62.9/73; Withdrawn override STAYS
+DL,DE,2,Junior Poyser,JR,transfer:Buffalo,71.0/423; All-MAC
+DL,DT,1,Hammond Russell IV,SR,transfer:West Virginia,63.7/226
+DL,DT,2,Nolan Vils,JR,returning,depth
+DL,DT,3,DeNigel Cooper,SO,transfer:App State,66.1/395
+DL,EDGE,1,Sebastian Cheeks,SR,returning,70.2/368; #2 in pressures
+DL,EDGE,2,Tyreese Fearbry,SR,returning,78.2/73
+DL,EDGE,3,Justus Boone,SR,transfer:Arkansas,54.5/444
+DL,EDGE,3,Jayden Loftin,SO,transfer:Tennessee,no volume
+LB,ILB,1,Mason Posa,SO,returning,RETURNING STARTER; 80.0/363; All-B10 as FR; retention win
+LB,ILB,2,Thomas Heiberger,SO,returning,65.5/95
+LB,ILB,1,Cooper Catalano,SO,returning,RETURNING STARTER; 69.4/362; FR phenom pair
+LB,ILB,2,Jon Jon Kamara,SO,transfer:Kansas,58.2/239
+DB,CB,1,Javan Robinson,SR,transfer:Arizona State,70.5/659; 2-yr B12 starter; 'a certainty'
+DB,CB,2,Eric Fletcher Jr.,SO,transfer:Oklahoma State,64.8/271
+DB,CB,1,Cai Bates,SO,transfer:Florida State,58.5/26; ex-4*
+DB,CB,2,Jai'mier Scott,FR,recruit,true FR signee
+DB,NB,1,Bryce West,SO,transfer:Ohio State,67.8/91; ex-4*
+DB,NB,2,Raphael Dunn,SO,returning,depth
+DB,S,1,Matthew Jung,SR,returning,RETURNING STARTER; 64.2/628; 'filled in well'
+DB,S,2,Matthew Traynor,JR,returning,55.1/36
+DB,S,1,Marvin Burks Jr.,SR,transfer:Missouri,75.2/605; SEC experience
+DB,S,2,Cairo Skanes,SO,returning,55.0/80
+ST,K,1,Gavin Lahm,SR,returning,yr4 override (redshirted-for-eligibility per Athlon); big-leg KO; unproven FG
+ST,P,1,Sean West,SO,returning,replaces Bertrams (-> UCF)
+ST,P,2,Ethan Tranel,JR,transfer:Wisconsin-La Crosse,D3
+ST,KR,1,Tyrell Henry,SR,returning,yr4 override
+ST,PR,1,Tyrell Henry,SR,returning,'25 PR avg 7.8 - must improve (Athlon)

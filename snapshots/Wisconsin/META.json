@@ -1,0 +1,44 @@
+{
+ "team": "Wisconsin",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T17:59:11+00:00",
+ "assembler_git_rev": "ae0a890",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Fickell yr 4 (17-21) - November vote of confidence. OC Grimes yr 2; DC Tressel continuity; NEW OL coach Mateos (ex-Arkansas); FIRST full-time STC Ligashesky (ex-Minnesota). x1.13 does NOT apply.",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Charles Perkins",
+  "Eugene Hilton Jr."
+ ],
+ "yr4_return_overrides_documented": [
+  "Gavin Lahm",
+  "Tyrell Henry"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Geimere Latimer Jr.": "PFF row 'Geimere Latimer II' - same player, portal -> West Virginia",
+  "Jay'viar Suggs": "PFF 'Jay'Viar Suggs' - capitalization variant, yr4 expiry"
+ },
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Mason Reiger": "feed LB / PFF DL (P6 calls him OLB) - yr4 expiry; his 82.4/514 was the pass-rush anchor",
+  "Darryl Peterson": "feed LB / PFF DL - yr4 expiry (81.0/385)",
+  "Gavin Lahm": "yr4 override - Athlon-EXPLICIT 'redshirted last season in order to be eligible this season' (the round's cleanest override case)",
+  "Eugene Hilton Jr.": "Withdrawn + P6 prose 'the staff kept four-star Eugene Hilton away from the portal' - STAYS",
+  "Justus Boone": "2026 arrival; '25 tape at Arkansas (444 snaps) per PFF provenance",
+  "Lucas Simmons": "Athlon prints 'Lucas Simmons-Johansson' - same player, ex-FSU"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "Joseph G5->P4 translation; O'Neil health (QB2)",
+  "Heywood ACL return at LT; RT (Simmons no volume)",
+  "DL interior all-G5 projection; edge depth behind Cheeks/Fearbry",
+  "K Lahm unproven on FG; P room unproven",
+  "four new DB starters into a p22 coverage"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

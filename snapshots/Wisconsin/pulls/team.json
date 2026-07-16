@@ -1,0 +1,36 @@
+{
+ "id": 275,
+ "school": "Wisconsin",
+ "mascot": "Badgers",
+ "abbreviation": "WIS",
+ "alternateNames": [
+  "WIS",
+  "Wisconsin"
+ ],
+ "conference": "Big Ten",
+ "division": null,
+ "classification": "fbs",
+ "color": "#c4012f",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/275.png"
+ ],
+ "twitter": "@BadgerFootball",
+ "location": {
+  "id": 347,
+  "name": "Camp Randall Stadium",
+  "city": "Madison",
+  "state": "WI",
+  "zip": "53711",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 43.06994,
+  "longitude": -89.4126943,
+  "elevation": "263.604126",
+  "capacity": 80321,
+  "constructionYear": 1917,
+  "grass": false,
+  "dome": false
+ }
+}

@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Luke",
+  "lastName": "Fickell",
+  "hireDate": "2022-11-27T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Wisconsin",
+    "year": 2024,
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 4,
+    "spOverall": 3,
+    "spOffense": 23,
+    "spDefense": 19.8
+   }
+  ]
+ },
+ {
+  "firstName": "Luke",
+  "lastName": "Fickell",
+  "hireDate": "2022-11-27T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Wisconsin",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 2.3,
+    "spOverall": -4.4,
+    "spOffense": 17.4,
+    "spDefense": 20.9
+   }
+  ]
+ }
+]
