@@ -1,0 +1,48 @@
+{
+ "team": "Akron",
+ "conference": "Mid-American",
+ "created_utc": "2026-07-16T19:17:32+00:00",
+ "assembler_git_rev": "785e8eb",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Moorhead yr 5 (13-35; calls his own plays). DC Tibesar yr 5; STC yr 4. Full staff continuity. x1.13 does NOT apply.",
+ "portal_departure_confirmed": [
+  "Ben Kamara"
+ ],
+ "portal_withdrawal_overrides": [
+  "Cyrus Durham"
+ ],
+ "yr4_return_overrides_documented": [
+  "Colin Lyons",
+  "Amarie Archer",
+  "Daymon David",
+  "Iesa Jarmon"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Malcolm DeWalt IV"
+ ],
+ "known_name_exceptions": {
+  "Malcom DeWalt IV": "PFF 'Malcolm DeWalt IV' - spelling variant; yr4 expiry",
+  "Aamii Branch": "Athlon 'Aamii'/PS 'AAMIL' - same player, returning NB"
+ },
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Cyrus Durham": "EDGE - feed Withdrawn/no-dest; BOTH charts start him ('will start again' - Athlon). STAYS. DL anchor.",
+  "Alex Branch": "yr4 NOT overridden: PS PSL lists him (MEDRS '24 note) but PS text counts the corresponding tackler LOSS and Athlon omits him - contradicted single source. EXPIRED stands.",
+  "Donelius Johnson": "feed FIU?? - no: feed lists Dwight Nunoo ex-FIU; D.Johnson's tape is Kennesaw '24 (89 tkl, 8 st), OFY injury '25. Projected WLB1 (PS).",
+  "Daymon David": "yr4 medical override - 'former Oregon transfer... return from injury' (Athlon S1).",
+  "Jason Hocker": "Athlon prints 'Jason', PS 'Josh' - same player (yr1 LB).",
+  "Reese Poffenbarger": "QB1 - zero FBS starter tape (8 NT snaps '25); FCS Albany resume is the basis. Confidence L."
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "QB: no FBS starter tape in the room (Poffenbarger FCS resume + Moorhead system)",
+  "LB: zero returning volume; Athlon and PS chart different starting pairs",
+  "OL: LT/RG battles (Athlon vs PS PSL disagree); pass-pro p12 prior",
+  "D. Johnson injury return; David injury return; Patrick concussion history"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

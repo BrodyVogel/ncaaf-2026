@@ -1,0 +1,57 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Reese Poffenbarger,SR,transfer:North Texas,53.9/8 ('25); Albany FCS star '22-23 (3603 @ 59%; 2nd-tm CAA); backup since
+QB,QB,2,Brayden Roggow,SO,returning,65.6/17; rFr
+QB,QB,3,Semaj Beals,FR,recruit,true FR signee
+RB,RB,1,Jordan Gant,SR,returning,RETURNING STARTER; 75.7/212; 1032 @ 4.8; 2nd-tm All-MAC; first 1000-yd Zip since 2008
+RB,RB,2,Sean Patrick,SO,returning,67.1/69; 274 @ 4.0; '25 concussion; PR1
+RB,RB,3,Marquese Williams,SO,returning,60.1/21
+RB,RB,3,Taven Curry,SR,returning,70.5/10; ULM origin
+WRTE,WR,1,Marcel Williams,SO,returning,RETURNING STARTER; 75.1/302; 641 @ 14.2; 2nd-tm All-MAC
+WRTE,WR,2,Cameron Monteiro,SO,returning,51.0/128; Pitt RS origin
+WRTE,WR,1,Kyan Mason,SO,returning,73.6/191; 481 @ 14.6 as rFr; slot
+WRTE,WR,2,Paul Davis,SO,returning,minimal tape
+WRTE,WR,1,Miles Burris,JR,transfer:Charlotte,55.6/192; 5 st, 134 LY
+WRTE,WR,2,Titus Myers,SO,transfer:Old Dominion,6 gm LY
+WRTE,TE,1,Conner Cravaack,JR,returning,56.0/215; 6 st, 294 L2Y
+WRTE,TE,2,Elijah Alexander,SO,recruit,JUCO signee (Laney; 391 @ 11.4)
+WRTE,TE,3,Wyatt Hook,SO,transfer:Michigan State,rFr; no tape
+OL,LT,1,Carlos Slayden,SR,transfer:Southern Miss,49.7/147; Troy before
+OL,LT,2,Dayne Shor,JR,returning,Athlon LT1; UConn origin
+OL,LG,1,Amarie Archer,SR,returning,62.1/421; yr4 override; 6 st
+OL,LG,2,Nick Stopiak,SR,returning,minimal tape
+OL,C,1,Colin Lyons,SR,returning,RETURNING STARTER; 65.6/644; yr4 override; 12 st
+OL,C,2,Max Mobley,JR,returning,73.5/12
+OL,RG,1,Brandon Smith,JR,transfer:South Dakota,FCS; 13 gm
+OL,RG,2,Alex Fox,SR,returning,66.3/10; Athlon RG1
+OL,RT,1,Allen Jones Jr.,SR,returning,RETURNING STARTER; 66.2/352; 7 st
+OL,RT,2,Jonathon Gould,FR,returning,rFr
+DL,EDGE,1,Cyrus Durham,JR,returning,RETURNING STARTER; 64.7/699; Withdrawn override STAYS; 3 sk, 5.5 tfl, 9 qbh
+DL,EDGE,2,Jahvon Frazier,SO,returning,52.8/101; twin
+DL,NG,1,Jon'Trell Mixon,JR,returning,58.4/170
+DL,NG,2,Vaughn Highland,SR,transfer:Arkansas-Pine Bluff,FCS; 12 sk, 38 tkl LY
+DL,DT,1,Ronald Hull,JR,returning,RETURNING STARTER; 65.0/553; 12 st
+DL,DT,2,Jaidn Brown-Demery,FR,returning,rFr
+DL,RUSH,1,Dahvon Frazier,SO,returning,53.6/191; twin
+DL,RUSH,2,Kurtis Waye,SO,transfer:Clark Atlanta,D2
+LB,WLB,1,Donelius Johnson,SR,transfer:Florida International,89 tkl/9 tfl/8 st at Kennesaw '24; OFY inj '25... (feed FIU; Kennesaw tape '24)
+LB,WLB,2,Eddie Smith,JR,recruit,JUCO signee (Mt San Jacinto)
+LB,MLB,1,Jude Buchanan,SR,recruit,Western University CANADA; ODU RS '22
+LB,MLB,2,Jeremiah Jones,SR,recruit,JUCO signee; 111 tkl L2Y
+LB,LB,3,Jason Hocker,SO,returning,59.6/40; Athlon LB1
+LB,LB,3,Gavin James,FR,returning,Athlon LB1 (2nd spot)
+DB,CB,1,Catrell White,SO,returning,2 st, 8 tkl L2Y
+DB,CB,2,Keyveon Johnson,SO,returning,3 gm
+DB,CB,1,Zach Hobson,SR,transfer:Old Dominion,66.6/17; Concord/WV State D2 before
+DB,CB,2,Caiden Newsome,JR,transfer:Holy Cross,FCS; 22 gm, 37 tkl, 7 pbu
+DB,CB,3,Shamar McNeil,JR,transfer:Missouri,61.9/27
+DB,CB,3,Dawayne Galloway Jr.,FR,transfer:West Virginia,rFr RS; no tape
+DB,NB,1,Aamii Branch,JR,returning,58.6/294; 3 st, 19 tkl; Kilgore JUCO origin
+DB,NB,2,Iesa Jarmon,SR,returning,yr4 override (depth; LOW)
+DB,S,1,Daymon David,SR,returning,yr4 override (medical); ex-Oregon; Athlon S1
+DB,S,2,Jamari Somerville,JR,returning,56.0/146; 1 st, 19 tkl
+DB,S,1,Rodrick Hunter,SO,returning,60.5/292; 4 st, 28 tkl
+DB,S,2,Mehki Flowers,SR,returning,67.1/286; ex-Penn St '23-24; PS BS1
+ST,K,1,Matthew Schramm,SO,returning,12-of-13 (L48; 4-5 from 40+)
+ST,P,1,Joseph Castle,SR,returning,42.9 avg / 35.9 team net; 12 st
+ST,KR,1,Terence Thomas,SR,returning,69.9/144 (DB)
+ST,PR,1,Sean Patrick,SO,returning,

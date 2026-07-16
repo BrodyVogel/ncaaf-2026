@@ -1,0 +1,20 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Keylen Davis,163067,G,AKRON,12,100.0,2,102,65.7,49.1,72.5,0,13,385,100.0,100.0,97.3,4,17,4,691,0,0,0,691,407,407,691,0,284,0,2025_this_team
+Colin Lyons,156881,C,AKRON,12,100.0,0,102,65.6,66.2,67.8,2,7,339,100.0,100.0,98.4,5,10,1,644,643,0,0,644,360,360,0,0,284,0,2025_this_team
+Maasai King,199584,T,AKRON,12,100.0,1,102,67.2,63.4,65.8,1,13,297,100.0,100.0,97.0,2,16,2,524,0,0,0,524,315,315,0,524,209,0,2025_this_team
+Kenneth McManus IV,203959,G,AKRON,12,100.0,0,102,64.4,59.2,65.2,1,12,271,100.0,100.0,97.2,1,14,1,505,0,504,0,505,286,286,0,0,219,1,2025_this_team
+Delvin Morris,176273,C,AKRON,12,100.0,1,102,56.7,53.9,62.5,1,6,261,100.0,100.0,98.7,5,7,0,472,210,0,210,472,280,280,30,21,192,1,2025_this_team
+Amarie Archer,190404,G,AKRON,12,100.0,0,102,62.1,53.9,62.6,3,5,224,100.0,100.0,97.8,0,9,1,421,0,352,0,421,239,239,69,0,182,0,2025_this_team
+Darrell Johnson Jr.,173441,T,AKRON,10,100.0,0,102,59.3,59.5,56.2,3,5,220,100.0,100.0,95.9,0,13,5,395,0,0,394,395,227,227,1,0,168,0,2025_this_team
+Allen Jones Jr.,187996,T,AKRON,11,100.0,1,102,66.2,70.4,67.3,2,5,180,100.0,100.0,97.5,4,8,1,352,0,0,0,352,187,187,62,290,165,0,2025_this_team
+Jayme Motley-Simmons,98490,T,AKRON,8,100.0,0,102,62.3,58.2,61.7,3,4,127,100.0,100.0,94.9,2,10,3,247,0,0,246,247,137,137,0,0,110,1,2025_this_team
+Carlos Slayden,190704,G,SO MISS,7,100.0,0,296,49.7,36.8,55.3,1,6,73,100.0,100.0,93.8,2,8,1,147,0,78,0,147,77,77,65,0,70,4,arrival_2025_at_SO MISS
+Javirea Moore,182923,T,AKRON,1,100.0,0,102,45.0,0.6,54.8,0,1,8,100.0,100.0,93.7,0,1,0,20,0,0,0,20,9,9,0,20,11,0,2025_this_team
+Jonas Mann,176295,T,AKRON,3,100.0,0,102,61.5,74.4,59.3,0,0,4,100.0,100.0,100.0,0,0,0,15,0,0,7,15,5,5,0,8,10,0,2025_this_team
+Max Mobley,190977,C,AKRON,4,100.0,0,102,73.5,74.3,71.6,0,0,1,100.0,100.0,100.0,0,0,0,12,10,0,0,12,3,3,0,1,9,0,2025_this_team
+Alex Fox,190967,G,AKRON,2,100.0,0,102,66.3,69.5,65.7,0,0,1,100.0,100.0,100.0,0,0,0,10,0,0,0,10,2,2,10,0,8,0,2025_this_team
+Jeremiah Ndaiga,190979,T,AKRON,2,100.0,0,102,56.4,66.6,53.8,0,0,1,100.0,100.0,100.0,0,0,0,5,0,0,5,5,1,1,0,0,4,0,2025_this_team
+Nick Stopiak,163075,G,AKRON,1,100.0,0,102,60.0,69.5,60.0,0,0,1,100.0,100.0,100.0,1,0,0,4,0,4,0,4,2,2,0,0,2,0,2025_this_team
+Jacob Kumfert,159492,G,AKRON,2,100.0,0,102,60.0,,60.0,0,0,0,,,,0,0,0,2,0,1,0,2,0,0,1,0,2,0,2025_this_team
+AJ George,144220,G,AKRON,1,100.0,0,102,58.5,,57.9,0,0,0,,,,0,0,0,2,0,2,0,2,0,0,0,0,2,0,2025_this_team
+Jonathan Gould,203956,G,AKRON,1,100.0,0,102,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,1,1,0,0,0,0,1,0,2025_this_team

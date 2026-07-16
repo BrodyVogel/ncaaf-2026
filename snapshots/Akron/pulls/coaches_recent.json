@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Joe",
+  "lastName": "Moorhead",
+  "hireDate": "2021-12-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Akron",
+    "year": 2024,
+    "games": 12,
+    "wins": 4,
+    "losses": 8,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -12.9,
+    "spOverall": -17.9,
+    "spOffense": 15.7,
+    "spDefense": 34.6
+   }
+  ]
+ },
+ {
+  "firstName": "Joe",
+  "lastName": "Moorhead",
+  "hireDate": "2021-12-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Akron",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -14.6,
+    "spOverall": -13.9,
+    "spOffense": 17.2,
+    "spDefense": 29.3
+   }
+  ]
+ }
+]

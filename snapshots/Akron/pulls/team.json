@@ -1,0 +1,36 @@
+{
+ "id": 2006,
+ "school": "Akron",
+ "mascot": "Zips",
+ "abbreviation": "AKR",
+ "alternateNames": [
+  "AKR",
+  "Akron"
+ ],
+ "conference": "Mid-American",
+ "division": null,
+ "classification": "fbs",
+ "color": "#00285e",
+ "alternateColor": "#84754e",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2006.png"
+ ],
+ "twitter": "@ZipsFB",
+ "location": {
+  "id": 3768,
+  "name": "InfoCision Stadium",
+  "city": "Akron",
+  "state": "OH",
+  "zip": "44399",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 41.0725534,
+  "longitude": -81.5083408,
+  "elevation": "321.2875061",
+  "capacity": 30000,
+  "constructionYear": 2009,
+  "grass": false,
+  "dome": false
+ }
+}
