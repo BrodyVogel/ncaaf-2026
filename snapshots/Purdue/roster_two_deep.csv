@@ -1,0 +1,59 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Ryan Browne,JR,returning,RETURNING STARTER; 69.1/418; all 12 starts; 2153 @ 59%; 9-10 TD-INT; shoulder (gm 7)
+QB,QB,2,Evans Chuba,SO,returning,'25 add ex-Wash St; no meaningful tape
+QB,QB,2,Bennett Meredith,SR,returning,1 st 3 gm L3Y
+RB,RB,1,Fame Ijeboi,SO,transfer:Minnesota,75.5/98; 454 @ 4.6 L2Y
+RB,RB,1,Jerrick Gibson,SO,transfer:Texas,68.7/36; 529 @ 4.6 L2Y
+RB,RB,2,Travis Terrell Jr.,JR,transfer:Jackson State,FCS 1067 @ 6.0 L2Y; KR/PR ace
+RB,RB,2,Antonio Harris,SO,returning,74.9/69; 305 @ 4.4
+WRTE,WR,1,Xavier Townsend,SR,transfer:Iowa State,69.5/93; UCF before; 243 @ 13.5 LY
+WRTE,WR,2,De'Nylon Morrissette,SR,returning,missed all '25 (injury); '24 WR1
+WRTE,WR,1,Asaad Waseem,JR,transfer:Florida Atlantic,67.3/380; 66-699 LY
+WRTE,WR,2,Jesse Watson,SO,returning,52.2/130
+WRTE,WR,1,Bisi Owens,SR,transfer:Pennsylvania,All-Ivy; 25 st 1664 @ 12.1 L3Y (FCS)
+WRTE,WR,2,Jaylan Hornsby,SO,transfer:Syracuse,49.2/154
+WRTE,WR,3,Chauncey Magwood,SR,returning,yr4 override (PS-only print); 58.9/22
+WRTE,TE,1,George Burhenn,JR,returning,67.3/61; injury-limited (4 gm)
+WRTE,TE,2,Kylan Fox,JR,transfer:UCF,53.7/102
+OL,LT,1,Joey Tanona,SR,returning,RETURNING STARTER; 60.2/793; 'the anchor'
+OL,LT,2,Jude McCoskey,SR,returning,55.2/48; 20 st F2Y IndSt
+OL,LG,1,Marques Easley,SO,transfer:Georgia,44.5/10; Top250 recruit; no volume
+OL,LG,2,Marc Nave Jr.,SO,returning,no tape
+OL,C,1,Boaz Stanley,SR,transfer:South Carolina,49.6/606; 21 st L2Y
+OL,C,2,Ethan Trent,JR,returning,55.9/544
+OL,RG,1,Micah Banuelos,JR,transfer:USC,54.0/402; 5 st L3Y
+OL,RG,2,Makai Saina,SO,transfer:USC,no volume
+OL,RT,1,Nuku Mafi,SO,transfer:Oklahoma State,48.2/755; 12 st LY
+OL,RT,2,Jatavius Shivers,JR,transfer:South Carolina,51.3/81
+DL,DE,1,Elo Modozie,SR,transfer:Georgia,59.6/149; 4* transfer; 3rd-tm AAC Army '24 (7.5 sk F2Y)
+DL,DE,2,Jeremy Lewis,JR,recruit,JUCO signee; PS#61JC
+DL,DT,1,TJ Lindsey,SO,returning,65.8/68; ACL recovery
+DL,DT,2,Curt Neal,SR,transfer:Illinois,69.4/253; B10 vet
+DL,DT,1,Ian Jeffries,JR,returning,RETURNING STARTER; 66.0/435; ArkSt before
+DL,DT,2,Wisdom Simms,SR,transfer:North Carolina Central,FCS; 4 sk L2Y
+DL,DE,1,Trey Smith,JR,returning,60.4/196
+DL,DE,2,CJ Madden,SR,returning,RETURNING STARTER; 64.9/433; Georgia F2Y
+DL,DE,3,Breeon Ishmail,JR,returning,59.0/339
+DL,DT,3,Rodney Lora,SR,transfer:UCF,71.0/289
+DL,EDGE,3,Keyshawn Burgos,SR,transfer:Virginia Tech,57.9/73
+LB,LB,1,Charles Correa,JR,returning,RETURNING STARTER; 48.2/699; 96 tkl; 'heartbeat of the defense'
+LB,LB,2,Anthony Speca,JR,transfer:Penn State,55.8/48; ex-4*
+LB,LB,1,Jojo Hayden,JR,transfer:Illinois,60.9/244
+LB,LB,2,Winston Berglund,JR,returning,42.0/73; Withdrawn override STAYS
+LB,LB,3,Hudson Miller,JR,transfer:Toledo,73.5/115
+LB,LB,3,Tre Moore,SR,transfer:San Diego,FCS 61 tkl 6 sk
+DB,CB,1,Hudauri Hines,JR,returning,RETURNING STARTER; 56.3/636
+DB,CB,2,Ryan Turner,SR,returning,71.3/103
+DB,CB,1,Don Saunders,SR,transfer:Utah,66.9/166; 6'4; Cal Poly before (5 int F2Y)
+DB,CB,2,Dee Newsome,JR,transfer:Samford,FCS
+DB,NB,1,Smiley Bradford,JR,returning,61.1/406; Withdrawn override STAYS
+DB,NB,2,Mister Clark,JR,transfer:Florida International,66.4/776; 1st-tm All-CUSA; NB1 per PS
+DB,S,1,John Slaughter,SR,transfer:Colorado,55.4/297
+DB,S,2,Ta'Vari Hampton,SO,returning,minimal tape
+DB,S,1,Jaden Mangham,SR,transfer:Michigan,58.2/350; All-B10 HM '23 at MSU
+DB,S,2,Justin Denson Jr.,SO,transfer:Michigan State,15 tkl L2Y at MSU
+ST,K,1,Seth Turner,JR,returning,KO man (30 TB); FG audition
+ST,K,2,Jacobo Echeverria Lozano,FR,recruit,true FR signee; PS#25
+ST,P,1,Dylan Drennan,SO,transfer:Buffalo,2nd-tm MAC; 44.8 avg / 41.6 net
+ST,KR,1,Travis Terrell Jr.,JR,transfer:Jackson State,'quick and elusive'
+ST,PR,1,Travis Terrell Jr.,JR,transfer:Jackson State,

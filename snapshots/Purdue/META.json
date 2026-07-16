@@ -1,0 +1,45 @@
+{
+ "team": "Purdue",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T16:50:53+00:00",
+ "assembler_git_rev": "811ca68",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Odom yr 2 (2-10). OC Henson yr 2. DC CHANGE: Scherer fired, Kevin Kane back (Purdue DC '23-24, last in B10 both years). New OL coach Crabtree. x1.13 does NOT apply (HC-only rule).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Winston Berglund",
+  "Smiley Bradford",
+  "D'Mon Marable"
+ ],
+ "yr4_return_overrides_documented": [
+  "Chauncey Magwood"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Spencer Porath",
+  "Bradyn Welch-Joiner"
+ ],
+ "known_name_exceptions": {
+  "Bradyn Joiner": "Bradyn Welch-Joiner",
+  "D'mon Marable": "D'Mon Marable"
+ },
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Mister Clark": "feed S; plays NB (PS NB1 / Athlon NB2) - counted DB",
+  "Chauncey Magwood": "yr4 return override on a SOLE-SOURCE print (PS PSL WR2; 2 gm '25 = redshirt pattern) - LOW confidence, depth-only impact",
+  "Travis Terrell Jr.": "RB feed; primary role KR/PR (both prints)",
+  "Elo Modozie": "EDGE - Georgia '25 (149 snaps) after 3rd-tm AAC at Army '24; SEC offset on '25 tape, Army pedigree noted",
+  "Tre Moore": "San Diego (Pioneer FCS) - no offset cell, treated unproven"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "K unsettled (open audition: Turner/Echeverria Lozano/Weeter)",
+  "NB battle (Bradford vs Clark) and RB1 (Ijeboi vs Gibson) print-split",
+  "Browne shoulder (gm-7 '25) - no surgery printed",
+  "Morrissette return from full-season injury; Burhenn durability; Lindsey ACL"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

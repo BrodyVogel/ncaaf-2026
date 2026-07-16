@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Ryan",
+  "lastName": "Walters",
+  "hireDate": "2022-12-13T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Purdue",
+    "year": 2024,
+    "games": 12,
+    "wins": 1,
+    "losses": 11,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -8,
+    "spOverall": -16.2,
+    "spOffense": 19.2,
+    "spDefense": 33.6
+   }
+  ]
+ },
+ {
+  "firstName": "Barry",
+  "lastName": "Odom",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Purdue",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -1.6,
+    "spOverall": -6.1,
+    "spOffense": 21.9,
+    "spDefense": 29.9
+   }
+  ]
+ }
+]
