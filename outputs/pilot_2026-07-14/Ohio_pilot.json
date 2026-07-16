@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T21:42:09+00:00",
+ "team": "Ohio",
+ "final": -11.5,
+ "rank": 114,
+ "band": 6.98,
+ "resid": -5.48,
+ "adj": -1.92,
+ "class_term": 0.0,
+ "st": -0.52,
+ "anchor_blend": -9.57,
+ "resid_level": 4.79,
+ "resid_shape": -10.27,
+ "implied_off": 16.95,
+ "implied_def": 31.29,
+ "anchor_off": 15.32,
+ "anchor_def": 24.18,
+ "fit_r2": {
+  "off": 0.549,
+  "dfn": 0.618
+ },
+ "low_conf_units": 1,
+ "code_rev": "8fb97ff",
+ "mode": "PILOT-OOS"
+}

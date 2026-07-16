@@ -44,3 +44,10 @@
   (deliberate; G5 guard N/A, fires >75).
 - 2026-07-16 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-16 grades.json written + schema-validated (8/8); gates re-run clean.
+- 2026-07-16 pilot_readout: FINAL -11.50 (r114/138), band ±6.98 (COACH x1.13
+  FIRES - first of round; QB L x1.03) = widest band of the round. DOUBLE
+  WINSORIZATION (project first): SP+ -13.6->-12.78 (too low) AND Massey
+  -5.26->-5.36 (too high) - anchors disagree hard (dispersion 8.34, under
+  flag). resid -5.48 = level +4.79 + shape -10.27 = LARGEST negative shape
+  of the project (the p70 offense left; anchors haven't priced it).
