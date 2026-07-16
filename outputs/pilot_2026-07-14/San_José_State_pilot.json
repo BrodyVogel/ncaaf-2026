@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T23:50:32+00:00",
+ "team": "San Jos\u00e9 State",
+ "final": -15.58,
+ "rank": 126,
+ "band": 6.36,
+ "resid": -3.47,
+ "adj": -1.21,
+ "class_term": 0.0,
+ "st": -0.56,
+ "anchor_blend": -14.31,
+ "resid_level": 7.48,
+ "resid_shape": -10.94,
+ "implied_off": 16.54,
+ "implied_def": 33.82,
+ "anchor_off": 19.19,
+ "anchor_def": 33.01,
+ "fit_r2": {
+  "off": 0.535,
+  "dfn": 0.617
+ },
+ "low_conf_units": 2,
+ "code_rev": "e25e534",
+ "mode": "PILOT-OOS"
+}

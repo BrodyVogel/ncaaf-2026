@@ -31,3 +31,8 @@
   evidence-first per GRADING_BIAS_DIAG. 2 L -> conf x1.06.
 - 2026-07-16 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-16 grades.json written + schema-validated (8/8); ledger 33 rows
+  / 0 to adjudicate; gates clean.
+- 2026-07-16 pilot_readout: FINAL -15.58 (r126/138), band ±6.36 (conf
+  x1.06 [2 L]). Zero winsorization; dispersion 5.99. Raw resid -3.47
+  (grades modestly cooler, offense-side -2.65).
