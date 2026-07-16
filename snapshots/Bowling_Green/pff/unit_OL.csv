@@ -1,0 +1,12 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Nate Pabst,145639,T,BOWL GREEN,12,100.0,0,122,71.0,67.5,70.0,2,11,335,100.0,100.0,97.8,2,14,1,767,0,0,0,767,355,355,273,493,412,0,2025_this_team
+Tunde Fatukasi,129876,T,BOWL GREEN,12,100.0,0,122,66.0,73.4,67.8,1,10,330,100.0,100.0,97.7,12,13,2,761,72,0,689,761,350,350,0,0,411,0,2025_this_team
+Alex Padgett,145657,C,BOWL GREEN,11,100.0,0,122,63.8,72.4,60.8,2,3,300,100.0,100.0,97.8,3,9,4,696,696,0,0,696,319,319,0,0,377,0,2025_this_team
+Jake Burns,123558,G,BOWL GREEN,11,100.0,1,122,62.9,74.0,58.6,1,6,264,100.0,100.0,98.3,1,8,1,606,0,606,0,606,279,279,0,0,327,0,2025_this_team
+Andrew Kilfoyl,144486,G,BOWL GREEN,11,100.0,0,122,53.4,50.1,51.9,1,8,182,100.0,100.0,97.0,0,10,1,403,0,0,0,403,193,193,403,0,210,0,2025_this_team
+James Thomas Jr.,173376,T,BOWL GREEN,11,100.0,0,122,53.1,39.7,57.0,1,5,155,100.0,100.0,96.1,1,9,3,355,0,0,72,355,164,164,0,283,191,0,2025_this_team
+Brody Bolyn,173365,G,BOWL GREEN,6,100.0,0,122,60.0,69.7,56.8,1,1,72,100.0,100.0,95.8,0,4,2,182,9,97,0,182,78,78,76,0,104,0,2025_this_team
+Alexis Sanchez,164434,G,BOWL GREEN,8,100.0,0,122,55.8,47.8,55.7,0,1,40,100.0,100.0,96.2,0,2,1,93,0,74,0,93,44,44,19,0,49,0,2025_this_team
+Alex Harris,191007,T,BOWL GREEN,2,100.0,0,122,37.8,0.0,57.7,0,0,7,100.0,100.0,85.7,1,1,1,12,0,0,12,12,8,8,0,0,4,0,2025_this_team
+Caden Campbell,191004,G,BOWL GREEN,2,100.0,0,122,58.7,,58.5,0,0,0,,,,0,0,0,6,0,0,0,6,0,0,6,0,6,0,2025_this_team
+Ethan Kraatz,198194,G,BOWL GREEN,1,100.0,0,122,58.4,,57.8,0,0,0,,,,0,0,0,4,0,0,4,4,0,0,0,0,4,0,2025_this_team

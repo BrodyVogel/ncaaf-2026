@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Scot",
+  "lastName": "Loeffler",
+  "hireDate": "2018-11-28T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Bowling Green",
+    "year": 2024,
+    "games": 13,
+    "wins": 7,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -1.9,
+    "spOverall": -1.8,
+    "spOffense": 25.6,
+    "spDefense": 27.2
+   }
+  ]
+ },
+ {
+  "firstName": "Eddie",
+  "lastName": "George",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Bowling Green",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -14.4,
+    "spOverall": -12.6,
+    "spOffense": 15.4,
+    "spDefense": 28.8
+   }
+  ]
+ }
+]

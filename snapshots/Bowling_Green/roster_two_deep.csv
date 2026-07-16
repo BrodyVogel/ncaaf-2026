@@ -1,0 +1,60 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Austin Novosad,JR,transfer:Oregon,69.7/2 (no real tape); ex-4-star; QB2 behind Nix/Gabriel/Moore; Athlon: 'the guy in the fall'
+QB,QB,1,Jay Kastantin,JR,transfer:Assumption (D2),FEED-GAP arrival; D2: 3658 pass/710 rush/37 TD 3yrs; PS projected starter — open battle
+QB,QB,2,Hunter Najm,SO,returning,33.7/85; 3 st LY; 473 @ 50% as #4 QB; Wash St RS '24
+QB,QB,3,Jarin Mock,FR,recruit,true FR; PS#113
+RB,RB,1,Austyn Dendy,SO,returning,80.6/108; 493 @ 4.6; 3 straight 100-yd games; ex-Missouri RS; 1000-yd shot per Athlon
+RB,RB,2,Ke'Marion Baldwin,JR,transfer:Charleston Southern,FCS 778 @ 4.9
+RB,RB,2,Nakai Amachree,SO,returning,53.0/7; KR1; PS RB#141
+RB,RB,3,Marceleno Carey,FR,recruit,true FR
+RB,FB,1,Leo Kemp,SR,returning,52.8/1 (FB); 4 st LY; SDSU '23/UCLA '24
+WRTE,WR,1,Winn Sharp,SO,returning,54.7/44; 46 yds @ 9.2 as rFr
+WRTE,WR,1,Brennan Ridley,JR,returning,58.7/52; 110 @ 27.5 LY; Hampton '24: 7 st 596; PR1
+WRTE,WR,2,Isaiah Dawson,SO,transfer:Richmond,FCS 575 @ 13.7; 2nd-Tm CAA
+WRTE,WR,2,Nick Sowell,JR,transfer:South Carolina State,FCS 247 @ 11.8
+WRTE,WR,2,Trey Johnson,SR,returning,52.5/40; 22 gm L2Y
+WRTE,WR,3,Austin Clay,SO,returning,RS Mich St '24; no tape
+WRTE,WR,3,Reddik Pillarelli,SO,transfer:Ohio Wesleyan (D3),FEED-GAP arrival; D3 876 @ 15.1
+WRTE,TE,1,Jeremiah Scoby,SO,returning,65.4/7; PS TE#126; projected featured pass-catcher
+WRTE,TE,1,Blane Cleaver,SR,returning,RETURNING STARTER; 72.9/46; 11 st; yr4 override (both prints)
+WRTE,TE,2,Eli Jacon-Duffy,SO,returning,69.6/28; 6 st LY
+OL,LT,1,Gabe Funk,SO,transfer:App State,1 game at App St LY; PS OL#323
+OL,LT,2,Ethan Kraatz,FR,returning,58.4/4; rFr
+OL,LG,1,Alexis Sanchez,SR,returning,55.8/93; NAU '22-24; rotational LY
+OL,LG,2,Zane Panchula,FR,returning,rFr
+OL,C,1,Brody Bolyn,JR,returning,60.0/182; 1 career start
+OL,C,2,Masyn Zahursky,FR,returning,rFr
+OL,RG,1,Alex Harris,SO,returning,37.8/12; 8 gm LY; PS#375
+OL,RG,2,Caden Campbell,SO,returning,58.7/6
+OL,RT,1,James Thomas Jr.,JR,returning,53.1/355; 2 starts; the most-experienced returnee
+OL,RT,2,Vincent Giordano,FR,returning,rFr; PS#422
+DL,RUSH,1,Myles Bradley,SR,returning,85.3/349; 5 sk; WITHDRAWN override STAYS (both prints start him)
+DL,RUSH,2,Kade Kostus,SR,transfer:Central Michigan,FEED-GAP arrival; 14 st '23 at CMU; injured '24
+DL,EDGE,1,Jaimion Olverson,FR,returning,53.9/37; Athlon DE1 as rFr
+DL,EDGE,2,Quentin Lewis,FR,returning,62.3/7
+DL,NT,1,Eriq George,SR,returning,63.2/407; 4 sk; moves inside; son of HC; TnSt 2nd-Tm BS-OVC '24
+DL,NT,2,Dior Garner,FR,returning,42.6/62
+DL,DT,1,Selah Brown,SR,transfer:Louisville,51.8/15 at Louisville; PS DT#56
+DL,DT,2,Dayln White,JR,returning,51.4/163
+DL,DT,3,Timothy Taylor Jr.,FR,transfer:Jacksonville State,RS at JaxSt LY
+LB,MLB,1,Dorian Pringle,SO,returning,RETURNING STARTER; 68.0/171; 27 tkl 6 tfl in 3 gm then ACL; All-MAC ceiling per Athlon
+LB,MLB,2,Andrew Hines III,SO,returning,66.9/237; 3 st 22 tkl LY
+LB,WLB,1,Sanders Ellis,JR,transfer:Purdue,44.9/34 at Purdue; TnSt '24: BS-OVC Def FrOY 86 tkl 13 tfl under George/Bowden
+LB,WLB,2,Jonathan Goins,SO,transfer:Alabama A&M,FCS depth
+LB,SLB,1,AJ Odom,SR,returning,61.5/94; 2 st 8 tkl LY; ex-Memphis
+LB,SLB,2,Kingston Seals,FR,recruit,true FR
+LB,LB,3,Jabari Mitchell,JR,returning,78.2/17 (tiny); 12 gm
+DB,CB,1,JoJo Johnson,SR,returning,74.9/308; MAC-best 13 PBU; yr4 override (both prints); ex-Indiana
+DB,CB,2,Josira Andrews,SO,returning,64.6/36
+DB,CB,1,Drey Braxton,JR,transfer:North Carolina Central,FCS 1st-Tm MEAC; 12 st 40 tkl 8 pd
+DB,CB,2,Nick Sawyer,SR,transfer:Charleston Southern,FCS; KennSt '23-24 + CharSo LY 15 tkl 8 pd
+DB,FS,1,Kal-El Pascal,JR,returning,RETURNING STARTER; 66.7/731; 80 tkl (#2); secondary leader
+DB,FS,2,Jahai Johnson,FR,returning,60.9/3; rFr
+DB,BS,1,Preston Estoesta,SO,returning,58.1/298; 4 st 29 tkl
+DB,BS,2,D'kyah Banks,SO,returning,depth
+DB,S,3,Armahn Hale,SR,transfer:New Mexico State,7 st 44 tkl at NMSU LY
+DB,S,3,Mike Wright III,SR,transfer:Florida Atlantic,53.8/70 at FAU LY
+ST,K,1,Travis Kenner,JR,returning,walk-on; career HOLDER — zero college FG attempts
+ST,P,1,Ryan Kingston,SR,transfer:Southeast Missouri State,FCS 41.0 avg/38.2 net; 22 in-20; 2nd-Tm OVC
+ST,KR,1,Nakai Amachree,SO,returning,unproven (Pettaway FBS-best 33.0 departed)
+ST,PR,1,Brennan Ridley,JR,returning,unproven

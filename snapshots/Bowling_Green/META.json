@@ -1,0 +1,60 @@
+{
+ "team": "Bowling Green",
+ "conference": "Mid-American",
+ "created_utc": "2026-07-16T19:43:09+00:00",
+ "assembler_git_rev": "3995e88",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Eddie George yr 2 (4-8; career 28-30: TnSt 24-22). New DC Joe Bowden = internal promotion (George's 5-yr LB coach); Nosal sole OC; new STC Froelich. x1.13 does NOT apply (HC-only rule).",
+ "portal_departure_confirmed": [
+  "TJ Nelson",
+  "Allen Middleton",
+  "Caleb Goodloe",
+  "Tyron Steed",
+  "Bam Booker"
+ ],
+ "portal_withdrawal_overrides": [
+  "Myles Bradley",
+  "Malik Moses"
+ ],
+ "yr4_return_overrides_documented": [
+  "JoJo Johnson",
+  "Blane Cleaver"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Chris McMillian"
+ ],
+ "known_name_exceptions": {
+  "Jay Kastantin": "D2 Assumption feed-gap arrival (PS projected starter + Athlon chart*) - whitelisted",
+  "Kade Kostus": "ex-CMU feed-gap arrival (Athlon chart* + PS DL text) - whitelisted; verify CMU-side at CMU build",
+  "Reddik Pillarelli": "D3 Ohio Wesleyan feed-gap arrival (PS lineup) - whitelisted",
+  "Chris McMillian": "PFF 'McMillian' vs PS text 'McMillan' - same player, departure confirmed by research"
+ },
+ "feed_gap_arrivals_documented": [
+  "Jay Kastantin (QB - D2 Assumption; PS projected starter; D2-source gap)",
+  "Kade Kostus (DE - ex-Central Michigan '23 starter, injured '24; Athlon* + PS 'add 4 transfers'; MAC-internal forward flag for CMU build)",
+  "Reddik Pillarelli (WR - D3 Ohio Wesleyan 876 @ 15.1; PS lineup)"
+ ],
+ "position_notes": {
+  "Myles Bradley": "portal-entry-and-return override (Withdrawn/no-dest out-feed vs BOTH prints starting him). STAYS. 85.3/349 - defense's best player; material call, doubly sourced.",
+  "Malik Moses": "Withdrawn/no-dest, yr<4, in neither print - withdrawal honored, STAYS as depth (8 career snaps, grade-irrelevant).",
+  "Bam Booker": "Withdrawn/no-dest but feed yr=4 - eligibility EXPIRED governs; not on 2026 team.",
+  "Eriq George": "son of HC; moves EDGE->NT in 2026; TnSt '24 2nd-Tm Big South-OVC tape is FCS (no cell) - graded on BGSU 63.2/407",
+  "Dorian Pringle": "Rojas pattern: ACL after 3 games, 27 tkl/6 tfl production, BOTH prints All-MAC-ceiling corroboration - trust 68.0/171",
+  "Sanders Ellis": "conflicting samples: Purdue 44.9/34 (small-bad, B10 +2) vs TnSt '24 FrOY 86-tkl full volume (FCS no-cell); graded on FBS-volume pieces around him",
+  "John Baker IV": "in-feed from=Toledo (MAC-internal, forward flag); PS lineup line OCR-merged with Timothy Taylor's JaxSt note - feed origin governs",
+  "Jeremiah Scoby": "listed WR in PFF file, plays Y-TE (PS) / TE (Athlon) - counted TE in WRTE room",
+  "Ke'Marion Baldwin": "PS narrative 'CSU transfer' = Charleston Southern (lineup: 'Char Sthm') - FCS, no cell"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "QB battle (Novosad vs Kastantin) - Athlon and PS project DIFFERENT starters",
+  "K: zero-attempt walk-on (career holder); KR/PR unproven after all three ST anchors departed",
+  "OL: zero returning starters - thinnest OL evidence base of the project",
+  "proxy void (QB/WRTE/OL None) - artifacts #15-17; DL/LB/ST proxy divergences documented in dossier"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}
