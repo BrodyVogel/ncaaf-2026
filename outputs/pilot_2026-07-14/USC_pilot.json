@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T17:47:52+00:00",
+ "team": "USC",
+ "final": 15.56,
+ "rank": 17,
+ "band": 6.0,
+ "resid": -8.2,
+ "adj": -2.87,
+ "class_term": -0.0,
+ "st": 0.0,
+ "anchor_blend": 17.93,
+ "resid_level": -9.91,
+ "resid_shape": 1.71,
+ "implied_off": 30.88,
+ "implied_def": 20.76,
+ "anchor_off": 38.26,
+ "anchor_def": 19.94,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.613
+ },
+ "low_conf_units": 0,
+ "code_rev": "938b3ab",
+ "mode": "PILOT-OOS"
+}
