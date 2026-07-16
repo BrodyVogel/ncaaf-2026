@@ -1,0 +1,31 @@
+{
+ "team": "Illinois",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T14:06:34+00:00",
+ "assembler_git_rev": "5defadc",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Bielema yr 6 - NO HC change. DC Henry -> Notre Dame; new DC Hauck (Montana) installs 3-3-5. OC Lunney + OL coach Miller retained. x1.13 does NOT apply (HC-only rule).",
+ "portal_departure_confirmed": ["Kellen Francis", "Tyson Rooks", "Alexander Capka-Jones", "Easton Baker"],
+ "yr4_return_overrides_documented": ["Xavier Scott"],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "portal_withdrawal_overrides": [],
+ "known_name_exceptions": {
+  "Juice Clarke": "Jaheim Clarke",
+  "Will Holmes": "William Holmes"
+ },
+ "feed_gap_arrivals_documented": ["Lars Rau (P, Texas State - in Athlon+PS prints, absent from transfer feed)", "JUCO: Jakwon Morris, Ismael Kante, Maika Matelau, TJ Taylor, Alfred Washington"],
+ "position_notes": {
+  "Kaden Feagin": "RB -> TE conversion (graded WRTE)",
+  "Daniel Brown": "PFF-classified DL 2025 (edge); plays LB in 2026 3-3-5 (graded LB)"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "Laughery camp durability status - no dated report as of capture",
+  "RB/WRTE pff csv volume columns are attempts/routes (ledger threshold reads these)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

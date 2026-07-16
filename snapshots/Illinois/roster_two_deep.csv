@@ -1,0 +1,50 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Katin Houser,SR,transfer:East Carolina,12 st '25; 3300 yds 19-6; began at Michigan State
+QB,QB,2,Carson Boyd,FR,recruit,Hampton portaled to Southern Miss
+RB,RB,1,Aidan Laughery,SR,returning,injury history; P6 'best of the bunch if healthy'
+RB,RB,2,Ca'Lil Valentine,JR,returning,led team 614 rush yds '25
+WRTE,WR,1,Hudson Clement,SR,returning,RETURNING STARTER; 36 rec '25; ex-WVU ('24)
+WRTE,WR,2,Brayden Trimble,FR,recruit,
+WRTE,WR,1,Alex Perry,SR,transfer:FIU,1st-tm All-CUSA; 6'5
+WRTE,WR,2,Nas Rankin,FR,recruit,4*
+WRTE,WR,1,Collin Dixon,JR,returning,RETURNING STARTER; 35 rec '25
+WRTE,WR,2,Ty Robinson,SR,transfer:Ball State,
+WRTE,TE,1,Kaden Feagin,SR,returning,converted RB (spring); 76.8 PFF '25 at RB
+WRTE,TE,2,Christian Abney,SR,returning,74.8/12gm backup tape
+OL,LT,1,Christian Martin,JR,transfer:Colorado State,12 st '25 (53.2 PFF)
+OL,LT,2,Zafir Stewart,SO,returning,
+OL,LG,1,Brandon Hansen,JR,returning,NOT Henderson - distinct player (54.4/67)
+OL,LG,2,TJ Taylor,JR,JUCO,top-5 JUCO OL (P6)
+OL,C,1,Jake Renfro,SR,transfer:Wisconsin,B10 starting exp; injury-limited 225 snaps '25
+OL,C,2,TJ McMillen,JR,returning,73.0/88
+OL,RG,1,Brandon Henderson,SR,returning,RETURNING STARTER (lone one); 59.7/818
+OL,RG,2,Eddie Tuerk,SO,returning,
+OL,RT,1,Nathan Knapik,SO,returning,74.8/80; strong bowl w/ Davis out
+OL,RT,2,Maika Matelau,SO,JUCO,top-5 JUCO OL (P6)
+DL,DE,1,Pat Farrell,JR,returning,60.9/203; rotation -> starter
+DL,DE,2,Darrell Prater,SR,transfer:Jacksonville State,60.3/413 CUSA
+DL,NT,1,Joe Barna,JR,returning,70.8/323; strong bowl
+DL,NT,2,William Holmes,JR,transfer:Utah State,Athlon prints 'Will Holmes'
+DL,DE,1,Carter Janki,SR,transfer:Pennsylvania,All-Ivy (FCS)
+DL,DE,2,Isaiah Thomison,JR,transfer:Bowling Green,76.2/132 MAC
+LB,LB,1,James Kreutz,SR,returning,63.0/244
+LB,LB,2,Ismael Kante,SR,JUCO,#1 JUCO LB (P6)
+LB,LB,1,Daniel Brown,SR,returning,PFF-classified DL '25 (57.4/211 edge); plays LB in 3-3-5
+LB,LB,2,Robert Edmonson,JR,transfer:Colorado State,70.6/331 MW
+LB,LB,1,Grant Beerman,SO,returning,70.1/15; 4*; P6 'next star'
+LB,LB,2,Jaylen Stewart,FR,recruit,
+DB,CB,1,Jaheim Clarke,SR,returning,RETURNING STARTER; prints as 'Juice Clarke'; 61.8/533; 5 INT career
+DB,CB,2,Nick Hankins Jr.,FR,recruit,4* (top signee)
+DB,CB,1,Jakwon Morris,JR,JUCO,#1 JUCO CB (P6)
+DB,CB,2,Deuce Fillmore,SR,transfer:Georgia State,68.8/498 SB
+DB,STAR,1,Xavier Scott,SR,returning,RETURNING STARTER; yr4 override RETURNS; 1st-tm B10 '24
+DB,STAR,2,Tanner Heckel,JR,returning,RETURNING-STARTER flag (Athlon); 64.0/506
+DB,S,1,Mac Resetich,SR,returning,55.1/217
+DB,S,2,Andre Lovett Jr.,SO,returning,
+DB,S,1,Matthew Bailey,SR,returning,RETURNING STARTER; 72.9/693; team-high 76 tkl
+DB,S,2,Jacob Eberhart,FR,recruit,4*
+ST,K,1,Ethan Moczulski,SR,transfer:Washington,KO specialist; career 1-2 FG
+ST,P,1,Lars Rau,SO,transfer:Texas State,NOT in CFBD feed (documented gap); 24 punts 36.3
+ST,LS,1,Zach Haber,SR,transfer:Arkansas,
+ST,KR,1,Ca'Lil Valentine,JR,returning,
+ST,PR,1,Jayshon Platt,SR,transfer:FAU,

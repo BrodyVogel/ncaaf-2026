@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Bret",
+  "lastName": "Bielema",
+  "hireDate": "2020-12-19T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Illinois",
+    "year": 2024,
+    "games": 13,
+    "wins": 10,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": 16,
+    "srs": 8.8,
+    "spOverall": 9.6,
+    "spOffense": 29,
+    "spDefense": 20.9
+   }
+  ]
+ },
+ {
+  "firstName": "Bret",
+  "lastName": "Bielema",
+  "hireDate": "2020-12-19T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Illinois",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 12.3,
+    "spOverall": 12.9,
+    "spOffense": 33.3,
+    "spDefense": 21.7
+   }
+  ]
+ }
+]

@@ -1,0 +1,15 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Josh Gesky,144808,G,ILLINOIS,13,100.0,0,187,72.4,73.4,71.3,4,7,428,100.0,100.0,98.5,1,12,1,849,0,849,0,849,456,456,0,0,393,0,2025_this_team
+Brandon Henderson,174027,G,ILLINOIS,13,100.0,0,187,59.7,65.4,58.1,2,14,416,100.0,100.0,97.6,5,18,2,818,0,0,0,818,442,442,797,20,376,1,2025_this_team
+Melvin Priestly,167108,T,ILLINOIS,13,99.9,2,187,65.9,71.5,68.1,0,12,421,99.8,99.8,98.1,10,14,2,816,0,0,0,817,449,450,0,816,367,1,2025_this_team
+Josh Kreutz,144805,C,ILLINOIS,12,100.0,3,187,57.7,52.9,62.0,2,10,399,100.0,100.0,98.0,9,14,2,782,782,0,0,782,426,426,0,0,356,0,2025_this_team
+Christian Martin,173491,T,COLO STATE,12,100.0,1,144,53.2,48.2,57.1,5,35,459,100.0,100.0,95.2,6,42,2,778,0,0,777,778,490,490,0,0,288,0,arrival_2025_at_COLO STATE
+J.C. Davis,157231,T,ILLINOIS,12,100.0,0,187,87.8,77.4,86.7,2,13,389,100.0,100.0,97.3,1,18,3,776,0,0,775,776,417,417,0,0,359,1,2025_this_team
+Jake Renfro,123577,C,WISCONSIN,4,100.0,0,349,69.8,73.2,71.4,1,2,100,100.0,100.0,97.5,3,4,1,225,225,0,0,225,105,105,0,0,120,0,arrival_2025_at_WISCONSIN
+TJ McMillen,174029,C,ILLINOIS,9,100.0,1,187,73.0,73.8,72.0,0,1,33,100.0,100.0,98.5,2,1,0,88,79,0,0,88,34,34,0,0,54,8,2025_this_team
+Nathan Knapik,186164,T,ILLINOIS,4,100.0,0,187,74.8,70.1,73.3,0,1,39,100.0,100.0,98.7,0,1,0,80,0,0,75,80,39,39,0,5,41,0,2025_this_team
+Brandon Hansen,183503,G,ILLINOIS,6,100.0,0,187,54.4,87.2,54.0,0,0,19,100.0,100.0,100.0,1,0,0,67,0,0,0,67,21,21,63,0,46,4,2025_this_team
+Dezmond Schuster,175956,T,ILLINOIS,4,100.0,0,187,69.6,80.0,66.6,0,0,4,100.0,100.0,100.0,0,0,0,29,0,0,10,29,4,4,0,14,25,5,2025_this_team
+Kellen Francis,189662,G,ILLINOIS,3,100.0,0,187,55.5,,56.0,0,0,0,,,,0,0,0,7,0,7,0,7,0,0,0,0,7,0,2025_this_team
+Eddie Tuerk,183514,G,ILLINOIS,2,100.0,0,187,58.8,73.6,58.1,0,0,1,100.0,100.0,100.0,0,0,0,6,0,5,0,6,1,1,1,0,5,0,2025_this_team
+Zafir Stewart,183513,T,ILLINOIS,1,100.0,0,187,61.2,74.6,60.0,0,0,1,100.0,100.0,100.0,0,0,0,5,0,0,0,5,1,1,0,5,4,0,2025_this_team
