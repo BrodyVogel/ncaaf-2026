@@ -1,0 +1,57 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Keldric Luster,JR,transfer:Texas State,76.3/3 (no real tape); SMU before; dual threat; 85 career ttl yds
+QB,QB,1,Tyler Mizzell,JR,transfer:Concord University,D2: 2889 @ 57% 26-10 + 377 rush; Wake Forest rFr origin
+QB,QB,3,Khalel Wright,FR,returning,rFr; Uremovich signee
+RB,RB,1,TJ Horton,JR,returning,67.1/61; 180 @ 3.0; physical; KR 24.5 w/ 90-yarder
+RB,RB,2,Jalen Bonds,FR,returning,71.6/27; true-FR flash (129 ttl yds in 3 gm)
+RB,RB,2,Johnny Thompson Jr.,JR,transfer:Kansas,59.2/19; 107 @ 4.5 L2Y
+RB,RB,3,Elijah Jackson,JR,returning,58.1/9; Purdue origin
+WRTE,WR,1,Donovan Hamilton,SO,returning,RETURNING STARTER; 61.4/217; 244 @ 12.2; 11 st; 'potential All-MAC'
+WRTE,WR,2,Elisha Durham,SO,returning,60.5/27
+WRTE,WR,1,Jamarion McDougle,SR,returning,72.2/28; 43 @ 21.5
+WRTE,WR,2,CJ Nelson,SR,transfer:Eastern Illinois,FCS; 12 st, 671 @ 16.0; Houston RS '23
+WRTE,WR,1,Isaiah Thacker,JR,returning,29 career yds
+WRTE,WR,2,Jabari Smith Jr.,JR,transfer:Florida Atlantic,61.7/135; 462 @ 14.4 career
+WRTE,WR,3,Corey Thompson Jr.,JR,transfer:Utah State,UNLV '23-24; RS LY
+WRTE,TE,1,Tate Hoover,JR,returning,RETURNING STARTER; 65.0/39; 7 st
+WRTE,TE,2,Alex Scherle,SR,transfer:Rice,13 gm LY
+WRTE,TE,3,Sean Ward,SR,transfer:Dartmouth,FCS; 5 st
+OL,LT,1,Chris Hood,SR,returning,RETURNING STARTER; 57.4/455; 12 st LY + 8 st '24
+OL,LT,2,Sam Spicer,FR,recruit,true FR signee
+OL,LG,1,Zach Bandy,SO,returning,63.4/29
+OL,LG,2,Misael Sandoval,JR,transfer:Vanderbilt,17 gm L2Y
+OL,C,1,Cole Mosier,JR,returning,RETURNING STARTER; 50.6/485; 10 st; MedRS '24
+OL,C,2,Grant Haworth,SO,returning,no tape
+OL,RG,1,Jacob Jeudy,SR,transfer:Concord University,D2 2nd-tm all-league; 11 st
+OL,RG,2,Luke Dalton,SR,returning,minimal tape
+OL,RT,1,Tristan Cook,SO,returning,RETURNING STARTER; 53.0/754; 12 st; MedRS '24; 'potential All-MAC'
+OL,RT,2,Brady Barrowman,FR,returning,rFr
+DL,EDGE,1,Ben Marsh,JR,returning,59.7/109; rotational
+DL,EDGE,2,Austin Stief,SR,transfer:Davenport,D2
+DL,NG,1,Spencer Vaka,JR,returning,'elevated at nose guard'
+DL,NG,2,Keilan Smith,JR,transfer:Cincinnati,depth
+DL,DT,1,Ameir Glenn,SO,returning,58.3/260; rotational
+DL,DT,2,Kendrick Gilbert,JR,transfer:Louisville,depth
+DL,RUSH,1,Jared Badie,SR,transfer:San Diego State,59.0/131; 'immediate impact... only season'; Illinois HS origin
+DL,RUSH,2,Layton Starks,SO,returning,45.4/198
+LB,LB,1,Mikeah Webster,FR,returning,74.2/10; true-FR '25; Athlon starter
+LB,LB,2,Gavin Forsha,SR,transfer:Tennessee State,FCS
+LB,LB,1,Cincear Lewis,SR,transfer:Cincinnati,71.3/51 (tiny)
+LB,LB,2,Kaleb Stewart,SO,recruit,transfer per Athlon chart; low profile
+LB,LB,3,Jovan Clark,SR,transfer:Washington State,depth
+LB,SNIPER,1,Cole Earlewine,JR,returning,hybrid
+DB,CB,1,Willizhuan Yates,JR,returning,RETURNING STARTER; 71.7/360; portal-return override STAYS; 3-yr starter
+DB,CB,2,Jordan Suggs,SO,returning,depth
+DB,CB,1,DJ Fields,JR,returning,56.3/442; Withdrawn override STAYS; S->CB move; 34 tkl
+DB,CB,2,Donovan Lanier,FR,recruit,true FR signee
+DB,S,1,Deondre Shepherd,SO,returning,56.1/121; starting experience
+DB,S,2,Stone Perkins,FR,recruit,true FR signee
+DB,S,1,Sterling Smith,JR,transfer:Purdue,FEED-GAP arrival (Athlon S1 + text); resolves Purdue no-dest
+DB,S,2,Kamron Chamble,FR,recruit,true FR signee
+DB,CB,3,Chris Jackson,SR,transfer:Colorado State,71.0/40
+DB,CB,3,Diante Griffin,SO,transfer:Ohio State,zero-snap depth
+DB,CB,3,Cedric Franklin II,SO,transfer:Arkansas State,depth
+ST,K,1,Carson Holmer,SR,returning,3-7 L/23 LY ('won the job last spring but lost it')
+ST,P,1,Cole Stumbaugh,SO,returning,yr1; no tape
+ST,KR,1,TJ Horton,JR,returning,24.5 avg; 90-yarder
+ST,PR,1,Willizhuan Yates,JR,returning,

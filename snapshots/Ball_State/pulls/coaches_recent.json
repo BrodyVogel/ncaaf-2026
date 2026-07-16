@@ -1,0 +1,65 @@
+[
+ {
+  "firstName": "Colin",
+  "lastName": "Johnson",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Ball State",
+    "year": 2024,
+    "games": 2,
+    "wins": 0,
+    "losses": 2,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -13.4,
+    "spOverall": -19.8,
+    "spOffense": 21.3,
+    "spDefense": 40.8
+   }
+  ]
+ },
+ {
+  "firstName": "Mike",
+  "lastName": "Neu",
+  "hireDate": "2016-01-17T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Ball State",
+    "year": 2024,
+    "games": 10,
+    "wins": 3,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -13.4,
+    "spOverall": -19.8,
+    "spOffense": 21.3,
+    "spDefense": 40.8
+   }
+  ]
+ },
+ {
+  "firstName": "Mike",
+  "lastName": "Uremovich",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Ball State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -19.1,
+    "spOverall": -23,
+    "spOffense": 13.4,
+    "spDefense": 34.4
+   }
+  ]
+ }
+]

@@ -1,0 +1,36 @@
+{
+ "id": 2050,
+ "school": "Ball State",
+ "mascot": "Cardinals",
+ "abbreviation": "BALL",
+ "alternateNames": [
+  "BALL",
+  "Ball State"
+ ],
+ "conference": "Mid-American",
+ "division": null,
+ "classification": "fbs",
+ "color": "#DA0000",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2050.png"
+ ],
+ "twitter": "@BallStateFB",
+ "location": {
+  "id": 3919,
+  "name": "Scheumann Stadium",
+  "city": "Muncie",
+  "state": "IN",
+  "zip": "47306",
+  "countryCode": "US",
+  "timezone": "America/Indiana/Indianapolis",
+  "latitude": 40.2159422,
+  "longitude": -85.4161148,
+  "elevation": "285.481781",
+  "capacity": 22500,
+  "constructionYear": 1967,
+  "grass": false,
+  "dome": false
+ }
+}

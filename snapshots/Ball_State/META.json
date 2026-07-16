@@ -1,0 +1,49 @@
+{
+ "team": "Ball State",
+ "conference": "Mid-American",
+ "created_utc": "2026-07-16T19:32:02+00:00",
+ "assembler_git_rev": "36864a6",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Uremovich yr 2 (4-8; his own OC; ex-Butler 23-11). DC Knowles continuity. x1.13 does NOT apply.",
+ "portal_departure_confirmed": [
+  "Micah Wing",
+  "Trey Firestone",
+  "Michael Gravely Jr.",
+  "Eric Weatherly",
+  "Qua Ashley",
+  "Caden Johnson"
+ ],
+ "portal_withdrawal_overrides": [
+  "Derek Fields",
+  "Willizhuan Yates"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Derek Fields": "prints as 'DJ Fields' (Athlon starter) - same player, Withdrawn STAYS",
+  "Sterling Smith": "feed-gap arrival ex-Purdue (Athlon S1 + text) - whitelisted; resolves Purdue's no-dest adjudication",
+  "Kameron Anthony": "Rutgers build lists 'Kameron Anthony' ex-Ball St - consistent, outbound verified"
+ },
+ "feed_gap_arrivals_documented": [
+  "Sterling Smith (S - Athlon S1 + 'hopes are high for incoming Purdue transfer'; absent from the in-feed; destination-resolution for Purdue's no-dest out)"
+ ],
+ "position_notes": {
+  "Willizhuan Yates": "portal-entry-and-return override (no-dest Immediate out-feed vs Athlon-BOLD returning starter + PS FCB1). STAYS. DB anchor.",
+  "Jared Badie": "RUSH - SDSU '25 tape (59.0/131); 'his only season at Ball State' (Athlon) - one-year rental",
+  "Cole Earlewine": "'SNIPER' hybrid (Athlon) - counted LB",
+  "Tyler Mizzell": "D2 Concord tape (no offset cell); Wake Forest rFr origin",
+  "Mikeah Webster": "true-FR '25 (74.2/10); Athlon LB starter as a FR"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "QB battle (Luster vs Mizzell) - 'a chance both will play'",
+  "LB: zero returning volume; SNIPER hybrid usage unclear",
+  "K: Holmer re-audition after 3-of-7; P Stumbaugh no tape",
+  "proxy void (6 units None) - evidence-only grading documented"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}
