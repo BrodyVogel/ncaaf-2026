@@ -1,0 +1,30 @@
+{
+ "team": "Michigan State",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T15:19:57+00:00",
+ "assembler_git_rev": "8eb33c5",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "Smith FIRED yr2 -> Fitzgerald (NU 2006-22; 2 yrs out). x1.13 APPLIES. Mitigant: DC Rossi retained (+Bullough); OC Sheridan + STC Woods (Iowa) new.",
+ "portal_departure_confirmed": ["Ryland Jessee", "Rodney Bullard Jr.", "Dyson Sims", "Semaj Bridgeman"],
+ "portal_withdrawal_overrides": ["Chrishon McCray", "Rustin Young"],
+ "yr4_return_overrides_documented": ["Nikai Martinez", "Isaac Smith"],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {},
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Kenny Soares Jr.": "PFF-classed LB (58.2/656 at NC State); plays EDGE here - graded in DL unit per two-deep",
+  "Carson Gulker": "Ferris State D2 'Super Back' - counted at TE; no FBS tape",
+  "Khalil Majeed": "feed yr4 EXPIRED governs over single Athlon backup print (news.md)",
+  "NiJhay Burt": "feed yr4 EXPIRED governs over single Athlon backup print (news.md)"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "Isaac Smith yr4 override carries an Athlon two-deep omission dissent",
+  "QB battle (Fancher push) and OL alignment unresolved in prints"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

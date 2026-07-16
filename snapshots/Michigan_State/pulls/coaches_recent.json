@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Jonathan",
+  "lastName": "Smith",
+  "hireDate": "2023-11-25T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Michigan State",
+    "year": 2024,
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -2.8,
+    "spOverall": -4.6,
+    "spOffense": 18,
+    "spDefense": 24.1
+   }
+  ]
+ },
+ {
+  "firstName": "Jonathan",
+  "lastName": "Smith",
+  "hireDate": "2023-11-25T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Michigan State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -0.3,
+    "spOverall": -3.4,
+    "spOffense": 26.6,
+    "spDefense": 28.7
+   }
+  ]
+ }
+]

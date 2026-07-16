@@ -1,0 +1,16 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Ben Murawski,158624,T,UCONN,12,100.0,1,146,75.9,54.4,86.4,6,15,438,100.0,100.0,96.9,4,24,3,773,0,0,765,773,459,459,0,0,314,7,arrival_2025_at_UCONN
+Conner Moore,164394,T,MICH STATE,12,100.0,1,223,68.3,52.8,78.9,3,21,433,100.0,100.0,95.8,6,30,6,765,0,0,226,765,455,455,0,538,310,1,2025_this_team
+Robert Wright Jr.,174210,T,GA SOUTHRN,12,100.0,0,174,67.4,74.9,58.9,2,13,416,100.0,100.0,97.0,0,20,5,752,0,1,0,752,436,436,0,742,316,9,arrival_2025_at_GA SOUTHRN
+Matt Gulbin,144191,C,MICH STATE,11,100.0,1,223,82.6,87.8,81.9,1,2,405,100.0,100.0,99.1,4,5,2,727,727,0,0,727,426,426,0,0,301,0,2025_this_team
+Caleb Carter,132433,G,MICH STATE,11,100.0,0,223,52.0,37.9,57.6,0,21,325,100.0,100.0,95.2,4,26,5,586,0,313,0,586,340,340,273,0,246,0,2025_this_team
+Gavin Broscious,158375,G,MICH STATE,11,100.0,0,223,60.6,61.5,60.7,0,11,280,100.0,100.0,98.0,2,11,0,485,0,485,0,485,295,295,0,0,190,0,2025_this_team
+Rustin Young,190332,T,MICH STATE,10,100.0,0,223,51.5,41.3,55.6,5,18,262,100.0,100.0,94.5,0,26,3,448,0,0,409,448,276,276,0,39,172,0,2025_this_team
+Nick Sharpe,144205,G,S CAROLINA,8,100.0,1,289,65.9,69.3,65.0,2,3,221,100.0,100.0,97.5,2,8,3,392,0,390,0,392,237,237,0,0,155,0,arrival_2025_at_S CAROLINA
+Rakeem Johnson,190323,G,MICH STATE,7,100.0,0,223,50.7,43.8,54.0,2,8,166,100.0,100.0,97.0,2,10,0,271,0,0,0,271,169,169,238,30,102,3,2025_this_team
+Kristian Phillips,158395,G,MICH STATE,6,100.0,0,223,63.2,83.4,58.9,0,2,115,100.0,100.0,99.1,1,2,0,240,0,0,0,240,125,125,240,0,115,0,2025_this_team
+Ashton Lepo,158388,T,MICH STATE,4,100.0,0,223,55.2,50.0,59.3,1,4,104,100.0,100.0,96.6,1,6,1,189,0,0,0,189,110,110,0,189,79,0,2025_this_team
+Stanton Ramil,174051,T,MICH STATE,5,100.0,0,223,74.3,75.4,79.1,0,3,71,100.0,100.0,95.1,4,5,2,163,0,0,163,163,73,73,0,0,90,0,2025_this_team
+Cooper Terpstra,175470,C,MICH STATE,1,100.0,0,223,74.8,61.8,79.6,1,1,41,100.0,100.0,97.6,1,2,0,71,71,0,0,71,42,42,0,0,29,0,2025_this_team
+Luka Vincic,162446,G,MICH STATE,2,100.0,0,223,86.9,79.4,90.7,0,1,28,100.0,100.0,98.2,0,1,0,47,0,0,0,47,29,29,47,0,18,0,2025_this_team
+Andrew Dennis,190318,T,MICH STATE,1,100.0,0,223,60.0,,60.0,0,0,0,,,,1,0,0,1,0,0,0,1,0,0,0,1,1,0,2025_this_team

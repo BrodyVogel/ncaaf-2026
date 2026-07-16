@@ -1,0 +1,53 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Alessio Milivojevic,SO,returning,71.3/205; 64% 10-3 in Nov run
+QB,QB,2,Cam Fancher,SR,transfer:UCF,62.7/98; 28 career starts (Marshall/FAU/UCF)
+RB,RB,1,Cam Edwards,SR,transfer:UConn,86.0/209 att; 1240 yds (IND-cell discount judgment)
+RB,RB,2,Brandon Tullis,JR,returning,66.5/68; 301 @ 4.4
+RB,RB,3,Jaziun Patterson,SR,transfer:Iowa,77.4/60; 811 @ 4.5 3Y
+RB,RB,3,Marvis Parrish,SO,transfer:Western Kentucky,576 @ 5.4; CUSA All-FR
+WRTE,WR,1,Fredrick Moore,JR,transfer:Michigan,45.9/5; 3* transfer grade
+WRTE,WR,2,Samson Gash,FR,recruit,Top250; #1 WR recruit in Michigan
+WRTE,WR,1,KK Smith,JR,transfer:Notre Dame,73.3/50; 3* transfer grade
+WRTE,WR,2,Jack Yanachik,JR,returning,
+WRTE,WR,1,Chrishon McCray,SR,returning,withdrawal override STAYS; 64.9/268; 2nd-tm MAC '24
+WRTE,WR,2,Zach Washington,FR,recruit,
+WRTE,TE,1,Carson Gulker,SR,transfer:Ferris State,D2; 73 career TDs; 'Super Back'
+WRTE,TE,2,Brennan Parachek,JR,returning,39.8/3
+OL,LT,1,Ben Murawski,SR,transfer:UConn,75.9/773 (IND-cell judgment)
+OL,LT,2,Robert Wright Jr.,JR,transfer:Georgia Southern,67.4/752
+OL,LG,1,Nick Sharpe,SR,transfer:South Carolina,65.9/392 SEC
+OL,LG,2,Luka Vincic,SR,returning,86.9/47
+OL,C,1,Trent Fraley,SR,transfer:North Dakota State,FCS All-American; Rimington winner
+OL,C,2,Antonio Johnson,FR,recruit,
+OL,RG,1,Rakeem Johnson,SO,returning,50.7/271
+OL,RG,2,Andrew Dennis,SO,returning,
+OL,RT,1,Conner Moore,SR,returning,RETURNING STARTER (the only one on offense); 68.3/765
+OL,RT,2,Rustin Young,SO,returning,withdrawal override STAYS; 51.5/448
+DL,EDGE,1,Kenny Soares Jr.,SR,transfer:NC State,58.2/656; PS 'top pass rusher'; Fitzgerald NU tie
+DL,EDGE,2,Anelu Lafaele,SO,returning,67.7/68
+DL,DT,1,Ben Roberts,SR,returning,69.9/161; pre-injury form (P6)
+DL,DT,2,Derrick Simmons,FR,returning,Top250 4*; breakout flag (P6)
+DL,DT,1,Eli Coenen,JR,transfer:Illinois,61.4/222
+DL,DT,2,Mikeshun Beeler,SO,returning,
+DL,DL,1,Kekai Burnett,SO,returning,64.5/70
+DL,DL,2,Carlos Hazelwood,SO,transfer:Toledo,78.1/83 MAC
+DL,EDGE,3,Isaac Smith,SR,returning,yr4 override RETURNS (news.md - Athlon omission dissent); 63.5/286
+LB,WLB,1,Caleb Wheatland,SR,transfer:Auburn,65.3/19 '25; former Maryland starter
+LB,WLB,2,Dion Crawford,SR,transfer:Buffalo,64.7/644; All-MAC
+LB,MLB,1,Jordan Hall,SR,returning,RETURNING STARTER; 76.1/643; All-B10; #1 tkl
+LB,MLB,2,Brady Pretzlaff,SO,returning,51.0/29
+DB,CB,1,Charles Brantley,SR,transfer:Miami,back to MSU; 24 career starts here; All-B10 HM '24
+DB,CB,2,Tyran Chappell,SO,transfer:Houston Christian,FCS
+DB,CB,1,Tre Bell,SR,transfer:Iowa State,67.4/638
+DB,CB,2,NiJhay Burt,SR,returning,feed yr4 EXPIRED vs Athlon print - feed governs (news.md)
+DB,NB,1,Michael Richard,SR,transfer:Louisiana Tech,67.4/603; 2 yrs starting
+DB,NB,2,Khalil Majeed,SR,returning,feed yr4 EXPIRED vs Athlon print - feed governs (news.md)
+DB,S,1,Nikai Martinez,SR,returning,yr4 override RETURNS; 61.6/197 injury yr
+DB,S,2,Devin Vaught,JR,transfer:Maine,FCS
+DB,S,1,Aveon Grose,SR,returning,62.2/156; game-sealing INT vs MD
+DB,S,2,Deuce Edwards,FR,recruit,
+ST,K,1,Liam Boyd,SR,transfer:Charlotte,4-6 short / 3-4 long '25
+ST,P,1,Rhys Dakin,JR,transfer:Iowa,40.2 net; followed STC Woods
+ST,LS,1,Nick Duzansky,SO,transfer:Oregon,
+ST,KR,1,Kenneth Williams,JR,transfer:Nebraska,
+ST,PR,1,Samson Gash,FR,recruit,
