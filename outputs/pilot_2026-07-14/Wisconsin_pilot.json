@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T18:08:04+00:00",
+ "team": "Wisconsin",
+ "final": 5.49,
+ "rank": 42,
+ "band": 6.0,
+ "resid": -1.12,
+ "adj": -0.39,
+ "class_term": -0.0,
+ "st": -0.04,
+ "anchor_blend": 5.42,
+ "resid_level": -3.09,
+ "resid_shape": 1.97,
+ "implied_off": 27.26,
+ "implied_def": 22.66,
+ "anchor_off": 22.41,
+ "anchor_def": 16.69,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.612
+ },
+ "low_conf_units": 0,
+ "code_rev": "abf95f8",
+ "mode": "PILOT-OOS"
+}
