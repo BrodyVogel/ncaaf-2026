@@ -55,6 +55,10 @@ Format: `- YYYY-MM-DD [source] fact`. Facts only — no forecasts.
 - Z. Williams (WR): injury-limited '25 (43 routes) after being Utah's '24 #1.
 
 ## Misc
+- Kameryn Crawford (DE): the CFBD roster_2025 feed OMITS him entirely despite
+  592 USC snaps in the 2025 PFF file and returning-starter prints in all three
+  magazines — a roster-feed gap, whitelisted via known_name_exceptions
+  (gate catch at departure_check). 2026-07-16.
 - Jamaal Jarrett (DT): PS's "360 lb Georgia" tag = his ORIGIN school; PFF
   provenance 2025_this_team (54 USC snaps) — a 2025-cycle add, NOT a 2026
   transfer; Athlon prints him without the transfer asterisk. No cross-ref due.

@@ -18,7 +18,9 @@
   "Kamari Ramsey"
  ],
  "departure_confirmed_research": [],
- "known_name_exceptions": {},
+ "known_name_exceptions": {
+  "Kameryn Crawford": "CFBD roster_2025 feed OMITS him entirely - 592 USC snaps in the 2025 PFF file (prov 2025_this_team), returning starter in all three prints. Roster-feed gap, whitelisted."
+ },
  "feed_gap_arrivals_documented": [],
  "position_notes": {
   "Jamaal Jarrett": "2025-CYCLE add ex-Georgia (PFF prov 2025_this_team, 54 snaps; Athlon no-asterisk; PS 'Georgia' = origin) - NOT a 2026 transfer, no cross-ref due",
