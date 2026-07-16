@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Greg",
+  "lastName": "Schiano",
+  "hireDate": "2019-11-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Rutgers",
+    "year": 2024,
+    "games": 13,
+    "wins": 7,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 5.1,
+    "spOverall": 6.4,
+    "spOffense": 28.5,
+    "spDefense": 22.8
+   }
+  ]
+ },
+ {
+  "firstName": "Greg",
+  "lastName": "Schiano",
+  "hireDate": "2019-11-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Rutgers",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 2.4,
+    "spOverall": 1,
+    "spOffense": 31.6,
+    "spDefense": 30.7
+   }
+  ]
+ }
+]

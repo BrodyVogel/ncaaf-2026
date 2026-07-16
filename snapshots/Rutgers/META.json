@@ -1,0 +1,50 @@
+{
+ "team": "Rutgers",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T17:09:52+00:00",
+ "assembler_git_rev": "b847fe1",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Schiano yr 7 (stint 2; 99-108). OC Ciarrocca yr 4 retained. NEW DC Travis Johansen (South Dakota HC/DC, FCS) after 64-day search; co-DCs Smith+Sparber fired. x1.13 does NOT apply (HC-only rule).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Kwabena Asamoah",
+  "Tyler Needham",
+  "Dantae Chin",
+  "Ryder Langsdale",
+  "Terrence Salami",
+  "Zaire Angoy",
+  "Keshon Griffin",
+  "Doug Blue-Eli",
+  "Chris Joines",
+  "Jai Patel",
+  "Michael O'Connor",
+  "Justin Cesaire",
+  "Sebastian Jusma",
+  "DJ Allen",
+  "Moses Walker"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Terrence Salami": "PS prints 'Terrence Salami' at C1; PFF row 'Terrence Salami' 68.8/49"
+ },
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Hank Zilinskas": "2025-CYCLE arrival ex-Colorado (11 st '23-24 there; 1 gm at Rutgers LY) - correctly absent from 2026 in-feed",
+  "Jesse Ofurie": "feed DB; PS STUD1 (hybrid) - counted DB",
+  "Moses Walker": "OFY after 4 gm '25; Athlon bolds as returning starter - LB2 by PS",
+  "FEED ANOMALY": "14 print-confirmed 2026 players at feed yr=4 (largest cluster in graded set; likely COVID/redshirt accounting) - all overridden with per-player print evidence in news.md"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "QB battle (Lonergan vs Surace) into August",
+  "C battle (Salami vs H. Zilinskas); LT (Langsdale vs Needham slotting)",
+  "FCS translation risk: Munn/Jones/Dawud/Allison projected into major roles",
+  "Walker/Langsdale/Chin/Blue-Eli injury returns"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

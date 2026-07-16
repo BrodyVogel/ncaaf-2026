@@ -1,0 +1,54 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Dylan Lonergan,JR,transfer:Boston College,70.8/330; 9 st, 2025 @ 67%, 12-5; benched late; ex-Alabama 4*
+QB,QB,1,AJ Surace,SO,returning,66.5/12; ex-4*; 2-yr backup; battle into August
+QB,QB,3,Sean Ashenfelder,FR,returning,rFr; no tape
+RB,RB,1,Antwan Raymond,JR,returning,RETURNING STARTER; 89.0/244; 1241 @ 5.1; 2nd-tm All-B10; Doak semifinalist
+RB,RB,2,Clay Thevenin,JR,transfer:Louisiana Tech,78.1/130; 634 @ 4.8
+RB,RB,2,Ja'shon Benjamin,JR,returning,73.4/68; 328 @ 4.8
+WRTE,WR,1,KJ Duff,JR,returning,RETURNING STARTER; 83.4/438; 1084 @ 18.1; 2nd-tm All-B10; 6'6 alpha
+WRTE,WR,1,Ben Black,JR,returning,57.7/118; veteran backup moving up
+WRTE,WR,2,Michael Thomas III,FR,returning,76.2/6 (tiny); slot
+WRTE,WR,2,Dyzier Carter,FR,recruit,4* true FR signee; slot
+WRTE,WR,3,Jourdin Houston,FR,returning,rFr
+WRTE,TE,1,Logan Blake,JR,returning,47.6/23; 3 st L2Y
+WRTE,TE,2,Kameron Anthony,SO,transfer:Ball State,45.7/101; 10 st, 117 yds LY
+OL,LT,1,Ryder Langsdale,SR,returning,yr4 override (medical; missed '25); original projected starter
+OL,LT,2,Tyler Needham,SR,returning,RETURNING STARTER; 67.6/751; yr4 override; 20 st L2Y; PS LT1
+OL,LG,1,Dantae Chin,SR,returning,61.2/98; yr4 override (medical); 6 st L2Y
+OL,C,1,Terrence Salami,SR,returning,68.8/49; yr4 override (PS C1; 21 gm L2Y)
+OL,C,2,Hank Zilinskas,SR,returning,60.0/2; '25-cycle add; 11 st at Colorado '23-24
+OL,C,3,Isaiah Cook,SR,transfer:Delaware State,FCS; 32 st L5Y
+OL,RG,1,Kwabena Asamoah,SR,returning,RETURNING STARTER; 71.5/849; yr4 override; 2x All-B10
+OL,RG,2,Chris Vigna,FR,returning,81.3/23 (tiny)
+OL,RT,1,Moshood Giwa,JR,returning,79.1/111; 1 st, 10 gm
+OL,RT,2,Everett Small,JR,transfer:Eastern Michigan,64.3/830; 11 st
+DL,DE,1,Malachi Davis,SR,transfer:Toledo,81.5/442; 3rd-tm MAC; 5.5 sk
+DL,DE,2,Farell Gnago,SO,returning,76.0/102
+DL,DT,1,Rondo Porter,JR,transfer:App State,79.2/534; 12 st, 43 tkl, 5 tfl
+DL,DT,2,Zaire Angoy,SR,returning,62.8/332; yr4 override; 11 st
+DL,DT,1,Doug Blue-Eli,SR,returning,yr4 override (medical; missed '25); 10 st at USF prior
+DL,DT,2,Keshon Griffin,SR,returning,63.4/305; yr4 override; 11 st, 25 gm
+DL,DE,1,J'Dan Burnett,SR,transfer:Tulsa,79.2/526; 2nd-tm AAC; 6.5 sk
+DL,DT,3,Jaedin Lee,JR,transfer:Maine,FCS; 12 st, 32 tkl
+DL,DE,3,DJ Allen,SR,returning,66.5/39; yr4 override (PS DE2)
+LB,LB,1,Ty Morris,SR,transfer:Rice,67.8/827; All-AAC; 88 tkl, 9.5 tfl
+LB,LB,2,Moses Walker,SR,returning,68.0/137; OFY (4 gm); '24: 100+ tkl as soph; Athlon bolds as starter
+LB,LB,1,Abram Wright,SR,returning,RETURNING STARTER; 59.0/463; 7 st, 58 tkl
+LB,LB,2,Sean Allison,SR,transfer:Drake,FCS Pioneer POY; 125 tkl
+LB,LB,3,DJ McClary,SO,returning,66.4/26
+DB,CB,1,Zahmir Dawud,SR,transfer:Villanova,FCS; 13 st, 44 tkl, 13 pd
+DB,CB,1,Kevyn Humes,JR,transfer:Maryland,61.4/330; 3 st
+DB,CB,2,Bradlee Jones,SR,transfer:The Citadel,FCS; 9 st, 53 tkl
+DB,CB,2,Mikey Munn,JR,transfer:South Dakota,FCS All-American; led nation in INT; followed Johansen
+DB,CB,3,Kevin Levy,SO,returning,39.0/67
+DB,NB,1,Jesse Ofurie,SR,returning,45.6/35; PS STUD1
+DB,S,1,Kaj Sanders,JR,returning,RETURNING STARTER; 45.6/620; lone returning starter; 108 tkl L2Y
+DB,S,1,Chris Joines,SR,returning,67.3/38; yr4 override (PS FS1); 14 st at Mercer '24
+DB,S,2,DK Gilley,JR,returning,minimal tape
+DB,S,3,Sebastian Jusma,SR,returning,43.4/27; yr4 override (PS depth)
+ST,K,1,Jai Patel,SR,returning,yr4 override; 13-18 LY; school-record 83% in '23
+ST,P,1,Jakob Anderson,JR,returning,41.8-41.9 net LY
+ST,KO,1,Jack Scullion,JR,returning,33 TB / 67 KO
+ST,LS,1,Michael O'Connor,SR,returning,yr4 override
+ST,KR,1,Ben Black,JR,returning,heavy fair-catch approach
+ST,PR,1,Ben Black,JR,returning,

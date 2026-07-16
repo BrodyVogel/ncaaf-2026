@@ -1,0 +1,36 @@
+{
+ "id": 164,
+ "school": "Rutgers",
+ "mascot": "Scarlet Knights",
+ "abbreviation": "RUTG",
+ "alternateNames": [
+  "RUTG",
+  "Rutgers"
+ ],
+ "conference": "Big Ten",
+ "division": null,
+ "classification": "fbs",
+ "color": "#d21034",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/164.png"
+ ],
+ "twitter": "@Rfootball",
+ "location": {
+  "id": 6577,
+  "name": "SHI Stadium",
+  "city": "Piscataway",
+  "state": "NJ",
+  "zip": "08854",
+  "countryCode": "US",
+  "timezone": null,
+  "latitude": 40.5462553,
+  "longitude": -74.4660408,
+  "elevation": null,
+  "capacity": 52454,
+  "constructionYear": null,
+  "grass": false,
+  "dome": false
+ }
+}

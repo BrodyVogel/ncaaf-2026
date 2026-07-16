@@ -1,0 +1,15 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Kwabena Asamoah,156503,G,RUTGERS,12,100.0,0,278,71.5,76.9,68.3,4,6,441,100.0,100.0,98.6,0,11,1,849,0,0,0,849,466,466,849,0,383,0,2025_this_team
+Bryan Felter,129877,G,RUTGERS,12,100.0,0,278,69.8,64.4,70.5,4,8,441,100.0,100.0,98.0,1,15,3,846,0,846,0,846,466,466,0,0,380,0,2025_this_team
+Gus Zilinskas,145132,C,RUTGERS,12,100.0,0,278,73.2,76.5,69.5,0,12,439,100.0,100.0,98.6,0,12,0,836,836,0,0,836,464,464,0,0,372,0,2025_this_team
+Everett Small,184060,T,E MICHIGAN,12,99.9,0,160,64.3,68.3,61.4,0,21,435,99.8,99.8,96.9,2,24,3,829,149,0,680,830,467,468,0,0,362,1,arrival_2025_at_E MICHIGAN
+Taj White,162921,T,RUTGERS,11,100.0,0,278,65.6,54.0,70.6,9,15,378,100.0,100.0,95.8,4,28,4,755,0,0,0,755,402,402,0,754,353,0,2025_this_team
+Tyler Needham,145131,T,RUTGERS,12,100.0,0,278,67.6,49.2,75.1,1,12,393,100.0,100.0,97.1,2,18,5,751,0,0,655,751,415,415,0,95,336,0,2025_this_team
+Moshood Giwa,171590,T,RUTGERS,7,100.0,0,278,79.1,78.1,75.5,1,1,62,100.0,100.0,98.4,0,2,0,111,0,0,110,111,65,65,0,0,46,0,2025_this_team
+Dantae Chin,156504,T,RUTGERS,2,100.0,0,278,61.2,49.7,69.5,0,0,54,100.0,100.0,98.1,1,1,1,98,0,0,98,98,56,56,0,0,42,0,2025_this_team
+Terrence Salami,145134,C,RUTGERS,8,100.0,0,278,68.8,68.9,66.8,0,0,12,100.0,100.0,100.0,0,0,0,49,36,2,0,49,13,13,2,0,36,0,2025_this_team
+John Stone,170318,G,RUTGERS,7,100.0,0,278,74.6,80.3,73.0,0,0,10,100.0,100.0,100.0,0,0,0,35,0,26,0,35,11,11,0,0,24,0,2025_this_team
+Justin Cesaire,205357,T,RUTGERS,3,100.0,0,278,68.1,79.5,73.9,0,0,10,100.0,100.0,100.0,1,0,0,26,0,0,0,26,11,11,0,25,15,0,2025_this_team
+Chris Vigna,199130,G,RUTGERS,1,100.0,0,278,81.3,80.3,82.1,0,0,10,100.0,100.0,100.0,0,0,0,23,0,0,0,23,11,11,23,0,12,0,2025_this_team
+Kenny Jones,184658,T,RUTGERS,1,100.0,0,278,61.0,79.8,56.8,0,0,5,100.0,100.0,100.0,0,0,0,11,0,0,11,11,5,5,0,0,6,0,2025_this_team
+Hank Zilinskas,171911,C,RUTGERS,1,100.0,0,278,60.0,,56.0,0,0,0,,,,0,0,0,2,2,0,0,2,0,0,0,0,2,0,2025_this_team
