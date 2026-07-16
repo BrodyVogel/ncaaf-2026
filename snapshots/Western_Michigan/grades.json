@@ -1,0 +1,232 @@
+{
+ "team": "Western Michigan",
+ "units": {
+  "QB": {"grade": 46, "confidence": "M"},
+  "RB": {"grade": 28, "confidence": "M"},
+  "WRTE": {"grade": 26, "confidence": "M"},
+  "OL": {"grade": 28, "confidence": "M"},
+  "DL": {"grade": 18, "confidence": "M"},
+  "LB": {"grade": 16, "confidence": "L"},
+  "DB": {"grade": 30, "confidence": "M"},
+  "ST": {"grade": 28, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (d01620e)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 64, RB 19, WRTE 17, OL 8, DL 82, LB None, DB 29, ST 74) - artifact #45 on the running list",
+   "DL": "-64 vs proxy 82 - second-largest divergence of the project (after Toledo ST -66), same mechanism inverted: team-PRSH p93 carryover while the entire 7-man rotation (incl. MAC DPOY Tucker 91.4) expires yr4",
+   "OL": "+20 vs proxy 8 - proxy yr4-drops the 4 losses but cannot credit the 3 returning 600+ snap starters",
+   "ST": "-46 vs proxy 74 - team-SPEC carryover",
+   "QB": "-18 vs proxy 64 - the proxy's one legitimately-sourced read (Lowry feed-visible); mine is lower on national-percentile scale + depth void",
+   "RB": "+9, WRTE +9, DB +1 - assorted"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Western Michigan",
+   "unit": "QB",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40, exemplar anchor)",
+    "Nebraska WRTE 2025 (50, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Lowry is the MAC Offensive POY and the conference's best returning QB tape: 88.6 PFF on 330 snaps (78.2 MAC-adj), 1,803 @ 63% with 9-3, plus 963 rush yds / 14 rush TD - 10-1 as the starter.",
+    "System continuity is total: same HC (yr 4), same OC (yr 3), run-first identity built around him.",
+    "The cap is real: 6.9 ypa (Athlon: 'could stand to improve') and a depth chart of an Illinois DNP rFr (Petty) and nothing - one injury from crisis.",
+    "46 = highest unit grade of the MAC round: clearly above EMU 40/CMU 38 (lesser returning tape), just below FBS-average QB rooms (Nebraska WRTE 50 rail)."
+   ],
+   "key_players": [
+    {"name": "Broc Lowry", "role": "QB1 (returning, MAC OPOY)", "evidence": "88.6/330 (78.2 adj); 1,803 @ 63% 9-3 + 963 rush, 14 TD; 10-1 as starter"},
+    {"name": "Trey Petty", "role": "QB2 (transfer, Illinois)", "evidence": "DNP rFr; PS#47"},
+    {"name": "Jaxson Dosh", "role": "QB3 (true FR)", "evidence": "Athlon #2 recruit"}
+   ],
+   "data_gaps": ["zero proven depth behind Lowry", "arm-volume ceiling untested"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Western Michigan",
+   "unit": "RB",
+   "grade": 28,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25, exemplar anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Buckley: 79.6 on 178 att (66.3 adj), 1,003 @ 5.6, 3rd-Tm All-MAC - his SECOND 1,000-yd season ('23: 1,003 @ 5.3), closing 193 vs Miami + 174 in the bowl.",
+    "Depth is pedigree-real: Cabana (Michigan, PS#18), Green (Arkansas: 964 career @ 4.7), Mataele (252 LY + JC 1,000-yd history).",
+    "The 67%-run offense with a 963-yd rushing QB guarantees volume for the room.",
+    "28 > Ohio 20 (the round's prior best): only proven returning 1,000-yd back in the MAC round; below the Illinois RB 32 P4 rail."
+   ],
+   "key_players": [
+    {"name": "Jalen Buckley", "role": "RB1 (returning, 3rd-Tm All-MAC)", "evidence": "1,003 @ 5.6; 79.6/178 (66.3 adj); two 1,000-yd seasons"},
+    {"name": "Ofa Mataele", "role": "RB2 (returning)", "evidence": "66.7/57; 252 @ 4.4; JC 1,000-yd history"},
+    {"name": "AJ Green", "role": "depth (transfer, Arkansas)", "evidence": "964 career @ 4.7; RS'd '25"},
+    {"name": "Cole Cabana", "role": "depth (returning, ex-Michigan)", "evidence": "PS#18 pedigree; 8 att '25"}
+   ],
+   "data_gaps": ["Green/Cabana have no meaningful recent volume"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Western Michigan",
+   "unit": "WRTE",
+   "grade": 26,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25, exemplar anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Two of the top three return: Brooks (67.2/246 -> 60.1 adj; 372 @ 13.8) and Chenault (64.2/242 -> 57.1; 277 as a true FR) - real MAC starter production, modest grades.",
+    "Nelson (VMI 519 @ 14.8, RS'd '25) has two-print spring buzz; Gouldsby (JC, 5 KR TDs) adds juice; TE1 is a split-print battle of imports (Parks NMSU vs Levicki Presbyterian 783 @ 16.3).",
+    "Losses are real but replaceable-tier: T.Williams (478, team lead), TE Bosma, Brescia.",
+    "26 = KSU tier: returning production without a proven headliner; below EMU 34, above Buffalo 22. Low-volume pass game caps ceiling and floor."
+   ],
+   "key_players": [
+    {"name": "Baylin Brooks", "role": "WR1 (returning)", "evidence": "67.2/246 (60.1 adj); 372 @ 13.8, 12 st"},
+    {"name": "Aveion Chenault", "role": "WR2 (returning)", "evidence": "64.2/242 (57.1 adj); 277 @ 12.0 as true FR"},
+    {"name": "Egypt Nelson", "role": "WR3 (returning; VMI history)", "evidence": "519 @ 14.8 VMI '23-24; spring buzz both prints"},
+    {"name": "Nate Levicki", "role": "TE1 candidate (transfer, Presbyterian - FEED-GAP)", "evidence": "14 st, 783 @ 16.3 FCS"},
+    {"name": "Adam Parks", "role": "TE1 candidate (transfer, NMSU)", "evidence": "65 @ 21.7 L2Y; 15 routes '25"}
+   ],
+   "data_gaps": ["TE1 split-print", "Nelson zero WMU tape", "Gouldsby JC-only evidence"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Western Michigan",
+   "unit": "OL",
+   "grade": 28,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25, exemplar anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Three returning 600+ snap starters - Schuster (921, 14 st, 1st-Tm MAC per PS), Dabo (766, 14 st), Whitenack (614, 8 st, ex-Illinois) - PLUS the starting C (Schleicher) back from injury: the most returning OL quality in the MAC round.",
+    "The adjusted grades are honest about quality: 40.9-54.4 adj across the returners; PBLK was p19 (masked by Lowry's mobility); the unit's real value is run-blocking (RUN p68) for a 67%-run offense it fits perfectly.",
+    "Losses: Anderson (73.1/824 - the line's best player), Vaughan, Vandervest, Hofer (4 OL, 34 starts LY).",
+    "Depth adds pedigree (Roebuck-Michigan PS#84, B.Smith-Illinois St 7 st) rather than proof.",
+    "28 = CMU tier, just under Miami 30; >> Toledo 14. The continuity is the value; the tape caps it below 30."
+   ],
+   "key_players": [
+    {"name": "Chad Schuster", "role": "T (returning starter)", "evidence": "921 snaps, 14 st, 1st-Tm MAC; 64.1 -> 48.9 adj"},
+    {"name": "Hunter Whitenack", "role": "G/T (returning starter)", "evidence": "614 snaps, 8 st; 69.6 -> 54.4 adj; ex-Illinois"},
+    {"name": "Gavin Dabo", "role": "G (returning starter)", "evidence": "766 snaps, 14 st; 56.1 -> 40.9 adj"},
+    {"name": "Jeremy Schleicher", "role": "C (returning from OFY injury)", "evidence": "3 st '25; both prints' C1"},
+    {"name": "Ben Roebuck", "role": "swing (transfer, Michigan)", "evidence": "14 B10 snaps; PS#84"}
+   ],
+   "data_gaps": ["Schleicher health", "interior depth unproven", "print disagreement on tackle alignment"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Western Michigan",
+   "unit": "DL",
+   "grade": 18,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "The entire seven-man rotation expires via yr4: MAC DPOY Tucker (91.4/579, 14.5 sk, 21 TFL - the highest-graded MAC defender of 2025), McGraw, Fisher, Tyler, Al-Garawi, Lee, Stewart. The p93 PRSH / 43-sack engine is fully gone; PS: 'tough to duplicate.'",
+    "Echoles (Ball St: 288 MAC snaps, 78.2 -> 71.8 adj, 3 st) is a genuinely good MAC edge import - the room's one proven piece.",
+    "The rest is rotational returners (Frazier 57.2 adj/140, Gustwiller, Gerig) + sub-FBS/pedigree bets: Gardner (LIU 12 st/7 sk - feed-gap), Burley (NAIA), Tibbs (Houston depth; Tucker's JUCO teammate), Tounkara (OSU walk-on RS), Alexander (UNC 11 snaps).",
+    "18 = Toledo/EMU/Ohio tier (import-rebuilt front), below KSU 22/CMU 24 (returning FBS tape). Echoles > Toledo's returning scraps, Zock > Echoles as projection - net wash with Toledo."
+   ],
+   "key_players": [
+    {"name": "DeJuan Echoles Jr.", "role": "edge (transfer, Ball State)", "evidence": "288 snaps, 78.2 -> 71.8 MAC-adj; 3 st, 26 tkl, 3 sk"},
+    {"name": "Dakari Frazier", "role": "DT (returning)", "evidence": "63.6/140 (57.2 adj); 3 st, 19 gm"},
+    {"name": "Scoop Gardner", "role": "DE1 (transfer, Long Island - FEED-GAP)", "evidence": "12 st, 52 tkl, 7 sk, 7.5 TFL at LIU"},
+    {"name": "Zavian Tibbs", "role": "DT (transfer, Houston)", "evidence": "20 gm, 11 tkl L2Y; no '25 tape row"},
+    {"name": "KJ Burley", "role": "edge (transfer, Keiser NAIA - FEED-GAP)", "evidence": "55 tkl, 5.5 sk, 9.5 TFL NAIA; ex-MTSU RS"}
+   ],
+   "data_gaps": ["six projected rotation bodies carry sub-FBS or trivial-sample evidence", "Tucker replacement unidentified"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Western Michigan",
+   "unit": "LB",
+   "grade": 16,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Toledo LB 2026 (16, this round - same rebuilt-room shape)"
+   ],
+   "rationale_bullets": [
+    "Saipaia (80.7/700) AND Camden (80.5/653) - the two highest-graded high-volume MAC LBs of 2025, both one-year FCS/D2 rentals - depart via yr4.",
+    "Returners are low-volume: Moon (82.6 on 136 snaps -> 70.6 adj - excellent grade, reserve role; ex-Purdue) and Moore (57.3/174 -> 45.3).",
+    "The re-run of last year's portal trick: Betts (Butler CC: 96 tkl, 4.5 sk - feed-gap) + Anes (Tennessee: 34 snaps, PS#75 pedigree).",
+    "TACK p26 says the tackling floor was shaky even WITH the stars.",
+    "16 L = Toledo/SacSt/EMU tier. L: the 136-snap lead sample + JUCO/34-snap adds make this the widest evidence gap on the roster."
+   ],
+   "key_players": [
+    {"name": "Domanick Moon", "role": "LB1 (returning)", "evidence": "82.6/136 (70.6 adj); 42 tkl L2Y; ex-Purdue"},
+    {"name": "Dillon Moore", "role": "LB (returning)", "evidence": "57.3/174 (45.3 adj); 29 gm L3Y"},
+    {"name": "Justyce Betts", "role": "LB (transfer, Butler CC - FEED-GAP)", "evidence": "96 tkl, 4.5 sk LY at JC"},
+    {"name": "Brenden Anes", "role": "LB (transfer, Tennessee)", "evidence": "34 SEC snaps, 47.0; PS#75"}
+   ],
+   "data_gaps": ["no returning 300-snap LB", "JC translation", "PS mentions 4 JUCO adds, only Betts named"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Western Michigan",
+   "unit": "DB",
+   "grade": 30,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25, exemplar anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Five returning 350+ snap contributors at 61-66 adj: Franklin (682 snaps; 3rd-Tm MAC; 10 pbu), Sims (695; 13 st; yr4 override, two prints), Peters (353; true-FR nickel buzz), Davis (561; 10 st; ex-Michigan signee), Pope (459; 3 int) - the round's second-best returning secondary volume after Buffalo.",
+    "Thomas back on a print-documented medical year (EKU '24: 13 st, 45 tkl, 14 pbu) + adds McCullough (Louisville; Athlon S1), Crump (VMI 173 tkl), Owens (Princeton), two Presbyterian starters.",
+    "Losses: Hallock (75.0/790, 2nd-Tm MAC) and Wofford (542 snaps) - the top S and a starting CB.",
+    "PS caveat honored: the COV p53 unit 'was aided by a solid pass rush' that no longer exists - grade holds at 30, not higher.",
+    "30 > EMU 28/Miami 26, << Buffalo 42."
+   ],
+   "key_players": [
+    {"name": "Joshua Franklin", "role": "NB (returning, 3rd-Tm All-MAC)", "evidence": "66.5/682 (63.2 adj); 12 st, 53 tkl, 10 pbu"},
+    {"name": "Jarvarius Sims", "role": "CB (returning; yr4 override)", "evidence": "66.4/695 (63.1 adj); 13 st, 64 tkl"},
+    {"name": "John Peters", "role": "CB/NB (returning)", "evidence": "67.2/353 (63.9 adj) as a true FR"},
+    {"name": "Micah Davis", "role": "S (returning)", "evidence": "64.8/561 (61.5 adj); 10 st, 60 tkl"},
+    {"name": "Joey Pope", "role": "S (returning)", "evidence": "69.1/459 (65.8 adj); 6 st, 3 int"},
+    {"name": "Daeh McCullough", "role": "S (transfer, Louisville)", "evidence": "21 snaps '25; PS#38; Athlon S1 projection"}
+   ],
+   "data_gaps": ["pass-rush dependency of 2025 coverage numbers", "Thomas health (MedRS LY)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Western Michigan",
+   "unit": "ST",
+   "grade": 28,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25, exemplar anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Both specialist jobs return proven MAC performers: K Domschke (yr4 override, two prints; 13-19 LY with 10-of-13 from 40+; career 22-34 L/52) and P Millmore (2-yr starter; 57 punts, 42.4 / 38.9 net, 11 of 50+; PS#84).",
+    "Gouldsby (JC: 5 return TDs in two years) is the best returner-weapon candidate in the MAC round; LS solved via VT import Doyle after losing the incumbent to Oregon.",
+    "SPEC 79.2 p74 as-played; PS ST rank #30. The flaw: Domschke's inside-40 accuracy (13-19 overall despite the 40+ split).",
+    "28 > KSU/CMU 26, < Miami 40. Proxy 74 = team-grade carryover, not personnel."
+   ],
+   "key_players": [
+    {"name": "Palmer Domschke", "role": "K (returning; yr4 override)", "evidence": "13-19 L/50 LY (10-13 from 40+); career 22-34"},
+    {"name": "Ryan Millmore", "role": "P (returning)", "evidence": "57 punts 42.4 / 38.9 net; 11 of 50+"},
+    {"name": "Kordell Gouldsby", "role": "KR/PR (transfer, Hutchinson CC - FEED-GAP)", "evidence": "5 KR TDs in 2 JC years"},
+    {"name": "Drew Doyle", "role": "LS (transfer, Virginia Tech)", "evidence": "PS#30; 1 gm VT '25"}
+   ],
+   "data_gaps": ["Gouldsby unproven at FBS", "Domschke short-range accuracy"],
+   "g5_guard_note": null
+  }
+ ]
+}
