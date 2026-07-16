@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Thomas",
+  "lastName": "Hammock",
+  "hireDate": "2019-01-18T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Northern Illinois",
+    "year": 2024,
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -1.1,
+    "spOverall": -3.5,
+    "spOffense": 20,
+    "spDefense": 21.6
+   }
+  ]
+ },
+ {
+  "firstName": "Thomas",
+  "lastName": "Hammock",
+  "hireDate": "2019-01-18T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Northern Illinois",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -17.2,
+    "spOverall": -16.7,
+    "spOffense": 12,
+    "spDefense": 28.1
+   }
+  ]
+ }
+]

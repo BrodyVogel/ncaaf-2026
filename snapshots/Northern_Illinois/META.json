@@ -1,0 +1,82 @@
+{
+ "team": "Northern Illinois",
+ "conference": "Mountain West",
+ "created_utc": "2026-07-16T23:24:45+00:00",
+ "assembler_git_rev": "bfd7671",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "Thomas Hammock -> Seattle Seahawks (RB coach) in FEBRUARY 2026. Rob Harley INTERIM HC (NIU DC '25; Ark St DC '21-24; Pitt LB '15-20) - first HC job, post-signing-day takeover, interim all season. Hauser precedent -> x1.13 APPLIES. Co-OCs Sanders (yr2, ex-D2 Charleston HC 27-8) + Petersen (added). DC title split-print: PS says Cory Connolly, Athlon says Harley.",
+ "portal_departure_confirmed": [
+  "Michael Jimmar",
+  "Miles Thompson",
+  "Jackson Proctor",
+  "Abiathar Curry",
+  "Thomas McCoy",
+  "Tanner Rinderknecht",
+  "Gary Givens III"
+ ],
+ "portal_withdrawal_overrides": [
+  "DeAree Rogers"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Josh Holst"
+ ],
+ "known_name_exceptions": {
+  "DeAree Rogers": "out-feed Immediate/no-dest vs BOTH prints anchoring him (Athlon BOLD WR1 'No. 1 target' + PR1; PS caps '10 st, 506'). Portal-return override STAYS - Houston/Booth precedent. Load-bearing: best returning tape on the roster (77.3/262).",
+  "Josh Holst": "QB, 173 snaps/6 starts '25: NOT in out-feed, NOT yr4 (roster yr=2), but BOTH prints' exhaustive QB-room lists exclude him ('Macon and Davidson return... challenged by Hamric, Brown, Johnson'). research-GONE, destination unknown (Spoth pattern).",
+  "Lazaro Rogers": "RB, true FR '25 (33 att): feed-silent, yr=1, PS affirmatively lists him among losses ('lose... Rogers (2 st)'). Sub-100-vol - GONE per print, below ledger adjudication bar.",
+  "Mathias Smith-Davis": "IN-FEED DUPLICATE: fed as BOTH 'Mathias Davis' and 'Mathias Smith-Davis' (EDGE, Central State) - same player, counted once. Prints use Smith-Davis (1st-Tm All-SIAC). New feed-artifact type.",
+  "Mathias Davis": "duplicate feed alias of Mathias Smith-Davis - see above.",
+  "Kenji Lewis": "yr4 + PS-only depth line (3 gm, 1 rec LY; Ark-PB history) - EXPIRED per Goodell/Hilty single-print depth-body treatment.",
+  "Cam Thompson": "FBS-SOURCE FEED-GAP: Athlon WR2* - absent from in-feed. Boomerang: NIU '24 (9 st, 391 @ 14.0) -> Mississippi State '25 (3 gm) -> back. His '24 NIU tape used with MAC cell.",
+  "Matthew Scarlett": "Athlon DT2, PS line '20 gm, 57 tkl L2Y' with origin cut in crop - feed-gap, origin UNRESOLVED (Strickland precedent).",
+  "Joseph Nnamuchi": "Athlon DE1 transfer-* - feed-gap, origin unresolved.",
+  "Brady Kerperin": "Athlon WLB2 transfer-* - feed-gap, origin unresolved.",
+  "Yassine Falke": "print discrepancy on source level: Athlon 'NAIA Marian,' PS 'D-III Marion' - non-FBS either way, no offset cell.",
+  "Daine Hanson": "OT <- Texas-Permian Basin (D2): IN the feed, in NEITHER print - reverse gap, depth body.",
+  "Broderick Windham": "S->LB position move per both prints - counted in LB room (128 DB snaps '25)."
+ },
+ "feed_gap_arrivals_documented": [
+  "Ean Hamric (QB - D2 Charleston; in-scheme w/ OC Sanders)",
+  "Cam Thompson (WR - MISSISSIPPI STATE; FBS-source gap, boomerang)",
+  "Kevin Holmes Jr. (WR - D2 TAMU-Kingsville)",
+  "Tavaris Coles (WR - JC, PS#296JC)",
+  "Ty Mead (OL - D2 Northwood)",
+  "Jacob McGhee (DL - D2 Lincoln MO)",
+  "Chris Allen (DL - NC A&T)",
+  "Kole Sneed (DL - FCS St Thomas, 2nd-Tm All-PFL)",
+  "James Bradley (DL - MVSU)",
+  "Matthew Scarlett (DL - origin unresolved)",
+  "Joseph Nnamuchi (DL - origin unresolved)",
+  "Cooper Mau (LB - JC)",
+  "Brady Kerperin (LB - origin unresolved)",
+  "Aaron Warren (DB - D2 Eastern New Mexico)",
+  "Justin Harris (DB - Duquesne -> D2 Central State)",
+  "Liam Lindo (DB - Bryant; Ark-PB '24)",
+  "Yassine Falke (DB - NAIA/D-III Marian/Marion)",
+  "Marshall Washington (DB - Long Island)",
+  "Kyron Conyers (DB - Long Island)",
+  "Ryan Short (K/P - FCS Butler, all-conf)"
+ ],
+ "position_notes": {
+  "FEED COVERAGE": "in-feed carries 6 of ~23 print-visible arrivals (26%) - PROJECT-WORST coverage; 20 gaps documented (prior record CMU 7). Cause: D2/JC/FCS/NAIA-dominant class.",
+  "MAC offsets": "apply to ALL returning tape (ex-MAC) incl. Thompson's '24 NIU tape",
+  "Jay'shon Thomas": "converted TE (9 gm as rFr TE) - only returning DL starter",
+  "Amari Washington": "rFr, 50 snaps 65.1 - two-print spring buzz ('coaches excited')",
+  "Cincinnati x3": "Beeler + Jacob Finley + Maciorowski all to Cincinnati - largest single-destination defensive exit of the MWC round so far",
+  "K battle": "split print: Athlon K1 = rFr Schlenhardt; PS K1 = Butler transfer Short (15-16 FG)",
+  "TE room": "Fowler (14 yds) + rFr/FR only - thinnest TE room of the project"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "Scarlett/Nnamuchi/Kerperin origins unresolved (print crops cut)",
+  "Holst destination unknown (research-GONE)",
+  "DC title split-print (Connolly vs Harley)",
+  "PS ST-rank boxes disagree (#113 prose vs #118 box) - both bottom-quartile"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

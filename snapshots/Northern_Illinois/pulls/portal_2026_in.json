@@ -1,0 +1,74 @@
+[
+ {
+  "season": 2026,
+  "firstName": "Chevy",
+  "lastName": "Trask Jr.",
+  "position": "OT",
+  "origin": "South Carolina State",
+  "destination": "Northern Illinois",
+  "transferDate": "2026-01-20T06:00:00.000Z",
+  "rating": 0.83,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Daine",
+  "lastName": "Hanson",
+  "position": "OT",
+  "origin": "Texas-Permian Basin",
+  "destination": "Northern Illinois",
+  "transferDate": "2026-04-27T15:17:00.000Z",
+  "rating": null,
+  "stars": null,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Tyrese",
+  "lastName": "Stanley",
+  "position": "S",
+  "origin": "Morehouse College",
+  "destination": "Northern Illinois",
+  "transferDate": "2025-11-13T18:46:00.000Z",
+  "rating": 0.85,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Mathias",
+  "lastName": "Davis",
+  "position": "EDGE",
+  "origin": "Central State",
+  "destination": "Northern Illinois",
+  "transferDate": "2025-12-15T15:30:00.000Z",
+  "rating": 0.8,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Mathias",
+  "lastName": "Smith-Davis",
+  "position": "EDGE",
+  "origin": "Central State",
+  "destination": "Northern Illinois",
+  "transferDate": "2025-12-15T17:22:00.000Z",
+  "rating": null,
+  "stars": null,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Avery",
+  "lastName": "Jones",
+  "position": "S",
+  "origin": "Lafayette",
+  "destination": "Northern Illinois",
+  "transferDate": "2026-01-08T02:03:00.000Z",
+  "rating": 0.84,
+  "stars": 3,
+  "eligibility": "Immediate"
+ }
+]

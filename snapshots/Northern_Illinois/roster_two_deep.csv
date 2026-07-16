@@ -1,0 +1,58 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Brady Davidson,SO,returning,108 snaps 37.6 raw (27.2 MAC-adj); 2 st as true FR; 384 @ 46% 3-3; Athlon QB1
+QB,QB,1,Jalen Macon,SR,returning,30 snaps 71.3 (60.9 adj); hand injury '25; 216 rush @ 4.8; PS QB1; run-first
+QB,QB,2,Ean Hamric,SR,transfer:Charleston (D2),FEED-GAP; 17 st 2967 @ 59% 30-5 + 962 rush L2Y; league title; dual threat
+QB,QB,3,Dryshawn Brown,FR,recruit,PS#84
+RB,RB,1,Telly Johnson Jr.,JR,returning,124 att 71.6 (58.3 adj); 7 st 712 @ 5.7 (3.9 excl 4 long TDs); 97 rec
+RB,RB,2,Elijah Porter,SO,returning,12 att 72.2; PS#280
+RB,RB,3,Romelo Ware,SO,returning,PS#204
+RB,RB,3,Triston White,FR,returning,rFr PS#190
+WRTE,WR,1,DeAree Rogers,SR,returning,PORTAL-RETURN OVERRIDE STAYS; 262 routes 77.3 (70.2 adj); 10 st 506 @ 11.0; BOLD WR1 + PR1
+WRTE,WR,1,Kevin Holmes Jr.,JR,transfer:Texas A&M-Kingsville (D2),FEED-GAP; 11 st 609 @ 10.5
+WRTE,WR,1,Rickey Taylor Jr.,SO,returning,76 routes 67.0 (59.9 adj); 141 @ 14.9; missed half '25 hurt
+WRTE,WR,2,Cam Thompson,SR,transfer:Mississippi State,FEED-GAP (FBS-source); boomerang: 9 st 391 @ 14.0 at NIU '24; 3 gm MissSt '25
+WRTE,WR,2,La'Don Bryant,SO,returning,156 routes 48.5 (41.4 adj); 5 st 78 yds L2Y
+WRTE,WR,2,Tavaris Coles,JR,transfer:JC,FEED-GAP; PS#296JC
+WRTE,WR,3,George Dimopoulos,JR,returning,138 routes 53.5; 6 st 115 L2Y
+WRTE,TE,1,Jason Fowler,SO,returning,PS#156; 6 gm 14 yds LY; room otherwise rFr/FR
+OL,LT,1,Ross Liegel,SO,returning,384 snaps 70.0 (54.8 adj); 6 st; BOLD; PS#310
+OL,LT,2,Ben Gustafson,SO,returning,9 snaps; PS#278
+OL,LG,1,Luke Skartvedt,JR,returning,12 gm as rFr; DNP '25; PS#385
+OL,LG,2,Tyler Chambers,FR,returning,rFr; 16 snaps 53.6; PS#361
+OL,C,1,Landon Hron,JR,returning,749 snaps 66.3 (51.1 adj); 12 st (10 C / 2 LG); BOLD
+OL,C,2,Logan Gross,SO,returning,16 snaps 68.1
+OL,RG,1,Ty Mead,SR,transfer:Northwood (D2),FEED-GAP; 32 gm 3-yr D2 starter
+OL,RG,2,Jacob Welch,JR,returning,38 snaps 62.4; ex-D2 Northwood (pre-2025)
+OL,RT,1,Lane Mahnesmith,SO,returning,63 snaps 44.7; 8 gm; PS#399
+OL,RT,2,Chevy Trask Jr.,SR,transfer:South Carolina State,in feed; 8 gm Temple '23; DNP '25; PS#373
+DL,DE,1,Jay'shon Thomas,JR,returning,392 snaps 60.1 (53.7 adj); 3 st 21 tkl; ex-TE
+DL,DE,2,James Bradley,JR,transfer:Mississippi Valley State,FEED-GAP; 10 gm 23 tkl 6.5 TFL
+DL,DT,1,Jacob McGhee,JR,transfer:Lincoln MO (D2),FEED-GAP; 22 st 80 tkl 10.5 TFL 7 qbh
+DL,DT,2,Matthew Scarlett,JR,transfer:unresolved,FEED-GAP origin cut in crop; 20 gm 57 tkl L2Y
+DL,DT,1,Amari Washington,FR,returning,rFr; 50 snaps 65.1 (58.7 adj); 'coaches excited'
+DL,DT,2,Montrel Canion,FR,returning,rFr; 29 snaps 58.9
+DL,DE,1,Joseph Nnamuchi,JR,transfer:unresolved,FEED-GAP; Athlon DE1*
+DL,DE,2,Mathias Smith-Davis,SO,transfer:Central State (D2),IN FEED (DUPLICATED as 'Mathias Davis'); 1st-Tm All-SIAC
+DL,RUSH,3,Kole Sneed,JR,transfer:St Thomas (FCS),FEED-GAP; 12 st 41 tkl 4.5 sk 2nd-Tm All-PFL
+DL,DT,3,Chris Allen,SR,transfer:North Carolina A&T,FEED-GAP; 22 gm 48 tkl L3Y
+LB,MLB,1,Cooper Mau,JR,transfer:JC,FEED-GAP; Athlon MLB1
+LB,MLB,1,Jack Murray,FR,recruit,TRUE FR; PS MLB1; PS#148 'impressed in spring'
+LB,MLB,2,Kimar Nelson,FR,returning,rFr; 4 gm 5 tkl; 'came on strong late' (Athlon)
+LB,WLB,1,Broderick Windham,SR,returning,S->LB move (both prints); 128 DB snaps 59.6; 1 st 12 tkl
+LB,WLB,2,Brady Kerperin,SO,transfer:unresolved,FEED-GAP; Athlon WLB2*
+LB,LB,3,Jake Gassaway,JR,returning,62 snaps 61.7
+DB,CB,1,Dev'ion Reynolds,SO,returning,316 snaps 50.7 (47.4 adj); 4 st 16 tkl; KR (96-yd TD)
+DB,CB,2,Marshall Washington,JR,transfer:Long Island,FEED-GAP; 19 st 59 tkl 8 pbu 2 int L2Y
+DB,CB,1,Yassine Falke,JR,transfer:Marian (NAIA),FEED-GAP; 12 st 44 tkl 9 pbu 5 int; all-conf
+DB,CB,2,Liam Lindo,SR,transfer:Bryant,FEED-GAP; Ark-PB '24; 4 st 35 tkl 8 pbu 2 int at Bryant LY
+DB,NB,1,Aaron Warren,SR,transfer:Eastern New Mexico (D2),FEED-GAP; 7 pbu 1 int LY
+DB,NB,2,Avery Jones,SR,transfer:Lafayette,in feed; 12 gm 47 tkl 3 int LY
+DB,S,1,Justin Harris,JR,transfer:Central State (D2),FEED-GAP; Duquesne '24; 6 tkl 4 pbu 3 int LY
+DB,S,2,Malik Armstrong,SR,returning,27 snaps 61.7; 19 gm 2 tkl L2Y
+DB,S,1,Tyrese Stanley,JR,transfer:Morehouse (D2),in feed; 20 st 79 tkl L2Y
+DB,S,2,Kyron Conyers,JR,transfer:Long Island,FEED-GAP; 2 st 36 tkl 4 pbu LY
+ST,P,1,Jake Ference,SO,returning,30 punts 43.6 L/61; PS#58; replaced Vuckovic mid-year
+ST,K,1,Ryan Short,SR,transfer:Butler (FCS),FEED-GAP; 12 st 15-16 FG L/45 + 36 punts 37.4; all-conf
+ST,K,2,JJ Schlenhardt,FR,returning,rFr; Athlon K1
+ST,KR,1,Dev'ion Reynolds,SO,returning,96-yd KR TD; 25.3 avg
+ST,PR,1,DeAree Rogers,SR,returning,PR1 both prints

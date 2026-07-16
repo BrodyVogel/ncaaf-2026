@@ -1,0 +1,36 @@
+{
+ "id": 2459,
+ "school": "Northern Illinois",
+ "mascot": "Huskies",
+ "abbreviation": "NIU",
+ "alternateNames": [
+  "NIU",
+  "N Illinois"
+ ],
+ "conference": "Mountain West",
+ "division": null,
+ "classification": "fbs",
+ "color": "#F1122C",
+ "alternateColor": "#cc0000",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2459.png"
+ ],
+ "twitter": "@NIU_Football",
+ "location": {
+  "id": 3764,
+  "name": "Huskie Stadium",
+  "city": "DeKalb",
+  "state": "IL",
+  "zip": "60115",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 41.9339586,
+  "longitude": -88.7778357,
+  "elevation": "267.4530029",
+  "capacity": 23595,
+  "constructionYear": 1965,
+  "grass": false,
+  "dome": false
+ }
+}
