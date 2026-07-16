@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T23:38:01+00:00",
+ "team": "Northern Illinois",
+ "final": -17.92,
+ "rank": 134,
+ "band": 7.39,
+ "resid": -1.73,
+ "adj": -0.61,
+ "class_term": 0.0,
+ "st": -0.64,
+ "anchor_blend": -17.17,
+ "resid_level": 9.18,
+ "resid_shape": -10.91,
+ "implied_off": 15.9,
+ "implied_def": 34.6,
+ "anchor_off": 14.32,
+ "anchor_def": 31.28,
+ "fit_r2": {
+  "off": 0.529,
+  "dfn": 0.619
+ },
+ "low_conf_units": 3,
+ "code_rev": "d7db549",
+ "mode": "PILOT-OOS"
+}

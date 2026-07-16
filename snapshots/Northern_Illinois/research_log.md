@@ -38,3 +38,9 @@
   churn markdown. 3 L-units -> conf x1.09; coach x1.13.
 - 2026-07-16 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-16 grades.json written + schema-validated (8/8); ledger 36 rows /
+  0 to adjudicate; gates clean.
+- 2026-07-16 pilot_readout: FINAL -17.92 (r134/138), band ±7.39 (coach
+  1.13 x conf 1.09 [3 L]). Zero winsorization; dispersion 5.81. Raw resid
+  -1.73 (near-anchor). NOTE per GRADING_BIAS_DIAG: level/shape line now
+  labeled proxy-fit-regime; raw resid is the reportable number.
