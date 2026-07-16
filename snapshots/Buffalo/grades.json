@@ -1,0 +1,212 @@
+{
+ "team": "Buffalo",
+ "units": {
+  "QB": {"grade": 22, "confidence": "L"},
+  "RB": {"grade": 16, "confidence": "M"},
+  "WRTE": {"grade": 22, "confidence": "M"},
+  "OL": {"grade": 16, "confidence": "M"},
+  "DL": {"grade": 14, "confidence": "M"},
+  "LB": {"grade": 12, "confidence": "L"},
+  "DB": {"grade": 42, "confidence": "M"},
+  "ST": {"grade": 22, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (6b0c2c1)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB None, WRTE None, OL None, DL None, LB None, DB 45, ST 82) - six-unit void, items #18-23 on the running artifact list (widest of project)",
+   "DB": "-3 vs proxy 45 - rare near-agreement (four returning volume DBs are feed-visible)",
+   "ST": "-60 vs proxy 82 (proxy counts all three departed specialists: Howes, Drennan->Purdue, Snow->NC State; the 2026 room has zero FBS-tape specialists)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Buffalo",
+   "unit": "QB",
+   "grade": 22,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15 anchor, 58.8)",
+    "Ball State QB 2026 (18, this round - D2 volume + journeyman, no pedigree)"
+   ],
+   "rationale_bullets": [
+    "The room has ZERO FBS pass attempts: both 2025 QBs expired (Roberson 58.6/429 with 2,520 yds; Gray); Wright's 2025 usage was 43 RUSHES as a running QB with no passes.",
+    "Split-print battle, second straight build: Athlon starts rFr Wright ('promising... high ceiling as a two-way threat'); PS's lineup starts D2 Wingate transfer Holmes (3,040 @ 59%, 24-6, 290 rush - real volume, no offset cell).",
+    "True FR McNeil is PS QB #55; new OC Tokarz system install adds friction; PASS graded p15 even WITH the departed starter.",
+    "22, L: +4 over Ball State's 18 on Wright's print buzz and McNeil's FR rank; well below Akron/BGSU 34 (proven MAC floor or P4 pedigree)."
+   ],
+   "key_players": [
+    {"name": "Jason Wright", "role": "QB1 candidate (returning rFr)", "evidence": "43 rush @ 2.9, ZERO pass att; Athlon starter; PS#131"},
+    {"name": "Elijah Holmes", "role": "QB1 candidate (transfer, D2 Wingate)", "evidence": "3,040 @ 59%, 24-6 + 290 rush; PS projected starter"},
+    {"name": "Qur'an McNeil", "role": "QB3 (true FR)", "evidence": "PS QB #55; Athlon #3 recruit"}
+   ],
+   "data_gaps": ["zero FBS pass attempts in the room", "split-print starter projection"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Buffalo",
+   "unit": "RB",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Ball State RB 2026 (8, this round - similar returning shape, worse YPC)",
+    "Bowling Green RB 2026 (28, this round - real 80-grade RB1)"
+   ],
+   "rationale_bullets": [
+    "Top two rushers gone: Henderson 66.8/180 (755 yds) expired, Sperling 75.7/39 -> UTEP; no returning 100-carry back.",
+    "Shelton 64.5/59 (244 @ 4.3) -> MAC -13 = 51.5-equiv, propped by the HC quote ('a younger version of Henderson'); Burch 67.1/11 is a gadget piece; McNeil Jr.'s 80.8 is 12 carries.",
+    "Context cuts against projection: RUN graded p17 behind a p85 RBLK line - the backs underperformed a good line, and the line is gone too.",
+    "16 = Akron 16: above Ball State's 8 on Shelton's trajectory + Enlow (Athlon #4 recruit), far below Bowling Green's 28."
+   ],
+   "key_players": [
+    {"name": "Terrance Shelton Jr.", "role": "RB1 (returning)", "evidence": "64.5/59; 244 @ 4.3; HC comp to Henderson"},
+    {"name": "Messiah Burch", "role": "RB2 gadget (returning)", "evidence": "67.1/11; 194 rush + 98 rec L2Y"}
+   ],
+   "data_gaps": ["no returning 100-carry back", "true-FR Enlow unseen"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Buffalo",
+   "unit": "WRTE",
+   "grade": 22,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Bowling Green WRTE 2026 (18, this round)",
+    "Akron WRTE 2026 (28, this round)"
+   ],
+   "rationale_bullets": [
+    "Both All-MAC WRs left for P4: McMillan 71.6/454 (975 yds, UB-record six straight 100-yd games) -> Kansas; Snow 74.9/448 (815) -> NC State. Both volume TEs expired.",
+    "Gathings 60.9/379 (410 @ 11.4, 10 st; yr4 override, both prints) -> -7 = 53.9-equiv is the lone proven FBS piece; Morrow 66.6/69 is a 6-4 red-zone niche; Clacks 48.7/173 graded poorly on volume.",
+    "Imports are all no-cell: D2 all-conf Andrews (623 @ 15.6), FCS TE Wilson (11 st), D2 TE Walker (feed-gap).",
+    "22: returns ~610 receiving yards (vs BGSU's ~250) but lacks BGSU's TE-grade quality; nobody near Akron's 28-level returning production."
+   ],
+   "key_players": [
+    {"name": "Jasaiah Gathings", "role": "WR1 (returning starter, yr4 override)", "evidence": "60.9/379; 410 @ 11.4; 2nd-Tm MAC at Akron '23"},
+    {"name": "Chance Morrow", "role": "WR (returning)", "evidence": "66.6/69; 6-4 red-zone threat"},
+    {"name": "Jaylin Andrews", "role": "WR (transfer, D2 E. Stroudsburg)", "evidence": "623 @ 15.6, all-conf; feed-gap arrival"}
+   ],
+   "data_gaps": ["one proven FBS receiver", "three no-cell imports projected into rotation"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Buffalo",
+   "unit": "OL",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Akron OL 2026 (14, this round)",
+    "Western Kentucky OL 2025 (25 anchor)"
+   ],
+   "rationale_bullets": [
+    "Five 2025 regulars gone (3,565 snaps: Brock 75.1/828, Tabansi 64.6/828 -> UCF, Doty 75.1/817, Carrington 65.0/656, Timm 70.0/436) - PBLK p66/RBLK p85 leaves with them.",
+    "Heininger 62.8/484 (9 st, then out-for-year injury) is the lone returning starter -> -15 = 47.8-equiv; Davis 55.5/150 has one start (at C); Arena's 77.6 is 8 snaps.",
+    "Imports have pedigree, not FBS tape: Crocker (Baylor, 18 gm L2Y, PS OL #67), Francavilla (Miami FL), Natoli (20 FCS starts at Bucknell).",
+    "16: one real starter + pedigree imports beats BGSU's 10 (zero starters) and Ball State's 12 (low-graded trio) on evidence quality. Athlon: 'not clear that the Bulls upgraded there.'"
+   ],
+   "key_players": [
+    {"name": "Alex Heininger", "role": "RG1 (lone returning starter)", "evidence": "62.8/484; 9 st then OFY injury"},
+    {"name": "Joe Crocker", "role": "G (transfer, Baylor)", "evidence": "18 gm L2Y at Baylor; PS OL #67; verified in Baylor's frozen out-feed"},
+    {"name": "Gabriel Arena", "role": "LT1 (returning)", "evidence": "77.6/8; ex-Virginia Tech; 9 gm '24"}
+   ],
+   "data_gaps": ["four new starters minimum", "Heininger injury return"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Buffalo",
+   "unit": "DL",
+   "grade": 14,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Akron DL 2026 (12, this round)",
+    "Bowling Green DL 2026 (34, this round - returning elite edge)"
+   ],
+   "rationale_bullets": [
+    "~2,700 snaps depart: White 70.9/678, Stewart 58.1/662 (9.5 sk in '24), Poyser 71.0/423 -> Wisconsin, Wolo 65.9/404, Morgan 63.5/349 -> Kennesaw, Ballard 69.7/166 -> BC. RDEF p64/PRSH p79 leave nearly whole.",
+    "Lone returning starter Evans 50.7/399 grades 44.7-equiv after the MAC offset - below every departed regular; next FBS tape is Will Clark's 14 snaps.",
+    "The reload is D2/FCS: all-league edges Vessah (11.5 sk) and Goodwin (12.5 sk, 8.5 tfl L2Y) have real production, no offset cell.",
+    "14: above Akron's 12 on the import quality; nowhere near BGSU's 34. PS's 2024 rebuilt-line precedent is prose, not tape."
+   ],
+   "key_players": [
+    {"name": "Cornell Evans", "role": "NT1 (lone returning starter)", "evidence": "50.7/399; 7 st"},
+    {"name": "Sedrick Vessah", "role": "DE1 (transfer, D2 PennWest Cal)", "evidence": "52 tkl, 11.5 sk, 4.5 tfl - all-league"},
+    {"name": "Logan Goodwin", "role": "JACK1 (transfer, D2 IUP)", "evidence": "64 tkl, 12.5 sk, 8.5 tfl L2Y - all-league"}
+   ],
+   "data_gaps": ["one returning starter", "D2-to-MAC translation for both edges"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Buffalo",
+   "unit": "LB",
+   "grade": 12,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Ball State LB 2026 (8, this round)",
+    "Akron LB 2026 (12, this round)"
+   ],
+   "rationale_bullets": [
+    "1,915 snaps of the round's best LB tape depart: consensus All-American Murdock 91.1/837 (#1 tklr, 142; NFL 7th-rd DEN), Crawford 64.7/644 -> Michigan State, Gonser 74.7/434 expired. This room was the league p50 LB reference.",
+    "2 returning FBS snaps in the entire 2026 room (Owens/Hilty-class depth). TACK p90 leaves with Murdock.",
+    "All-transfer rebuild with real lower-division production: Cheshire (Cornell, 10 st, 73 tkl - 'impressed coaches early'), Bergmann (D2, 100 tkl), Bracey (Virginia, PS #125, med-RS history) - all no-cell or tiny.",
+    "12, L = Akron 12: above Ball State's 8 on import quality; the Dolac->Murdock development lineage lost its architect (DC Bowen to Pitt)."
+   ],
+   "key_players": [
+    {"name": "Joey Cheshire", "role": "MLB1 (transfer, Cornell)", "evidence": "10 st, 73 tkl, 4 tfl FCS"},
+    {"name": "Zach Bergmann", "role": "WLB1 (transfer, D2 Missouri Southern)", "evidence": "100 tkl, 5.5 tfl, 2 int"},
+    {"name": "Stevie Bracey", "role": "MLB2 (transfer, Virginia)", "evidence": "PS #125; 1 st '23, med-RS '24"}
+   ],
+   "data_gaps": ["2 returning FBS snaps", "every projected starter is a no-cell import"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Buffalo",
+   "unit": "DB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Bowling Green DB 2026 (30, this round)",
+    "UNLV DB 2025 (p25 ref, 62.8)"
+   ],
+   "rationale_bullets": [
+    "Four returning volume pieces, all 60+: Blackwell 74.0/401 (7 st, 8 pd as rFr), Greer 75.2/631 (74 tkl, #3 tklr), SaVeon Brown 64.2/701 (NB, 8 st - Withdrawn-portal override STAYS, both prints start him), Bradley 60.4/480 (8 st). PS: Blackwell and Bradley 'both all-MAC caliber.'",
+    "#23 national pass defense (186.4 ypg) with the core four back; offset -3 leaves Blackwell/Greer ~71-72-equiv.",
+    "Losses are absorbable: Solomon Brown 72.9/625 expired, McNair 66.5/543 -> Virginia, McCartherens 76.5/106 -> Marshall, Cooper adjudicated gone.",
+    "42: best DB room of the MAC round and this team's lone above-average FBS unit; thin depth behind the four caps it."
+   ],
+   "key_players": [
+    {"name": "Kobi Blackwell", "role": "CB1 (returning starter)", "evidence": "74.0/401; 7 st, 8 pd as rFr"},
+    {"name": "Miles Greer", "role": "S1 (returning)", "evidence": "75.2/631; 74 tkl; 1st-Tm PSAC '24"},
+    {"name": "SaVeon Brown", "role": "NB1 (returning starter; withdrawal override)", "evidence": "64.2/701; 8 st, #7 tklr, 6.5 tfl"}
+   ],
+   "data_gaps": ["depth behind the top four is rookies/FCS"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Buffalo",
+   "unit": "ST",
+   "grade": 22,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Bowling Green ST 2026 (18, this round - proven P import)",
+    "Akron ST 2026 (24, this round)"
+   ],
+   "rationale_bullets": [
+    "SPEC p82 / PS STR #13 departs entirely: K Howes (14-17) expired, P Drennan -> Purdue, PR Snow (first UB PR TD in 10 yrs) -> NC State.",
+    "No 2026 candidate has taken a meaningful college rep: K Hautanen (rFr, PS K #67, zero action) vs D3 McGowan (7-8 FG); P VanSlyke (JMU, DNP) vs Stumpf ('yet to punt').",
+    "The system is print-corroborated elite: opposing coach ('a pain in the a- on special teams'), Lembo ex-STC of the year, new STC McLaughlin's UNH led FCS in blocked punts in '23.",
+    "22: personnel-blank + system-strong lands above BGSU's 18 (which has a proven P but no system edge) and under Akron's 24."
+   ],
+   "key_players": [
+    {"name": "Oliver Hautanen", "role": "K1 (returning rFr)", "evidence": "PS K #67; zero college action"},
+    {"name": "Andrew VanSlyke", "role": "P1 (transfer, JMU)", "evidence": "DNP at JMU"}
+   ],
+   "data_gaps": ["zero FBS-tape specialists at K and P", "both return jobs unproven"],
+   "g5_guard_note": null
+  }
+ ]
+}

@@ -39,3 +39,8 @@
 - 2026-07-16 planned grades set; G5 guard N/A (max 42).
 - 2026-07-16 gates: disposition_ledger --write, departure_check, blinding_check
   — results below.
+- 2026-07-16 grades.json written + schema-validated (8/8); gates re-run clean.
+- 2026-07-16 pilot_readout: FINAL -14.01 (r123/138), band ±6.36 (QB+LB L x1.06;
+  coach 1.0; dispersion 1.00). resid +0.48 = level +7.91 + shape -7.43 (biggest
+  negative shape of the round after Ball State - the exodus vs as-played-p54
+  tension, documented in dossier cross-cutting).

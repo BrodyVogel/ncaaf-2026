@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T20:22:53+00:00",
+ "team": "Buffalo",
+ "final": -14.01,
+ "rank": 123,
+ "band": 6.36,
+ "resid": 0.48,
+ "adj": 0.17,
+ "class_term": 0.0,
+ "st": -0.56,
+ "anchor_blend": -14.12,
+ "resid_level": 7.91,
+ "resid_shape": -7.43,
+ "implied_off": 17.15,
+ "implied_def": 31.29,
+ "anchor_off": 14.59,
+ "anchor_def": 29.21,
+ "fit_r2": {
+  "off": 0.55,
+  "dfn": 0.616
+ },
+ "low_conf_units": 2,
+ "code_rev": "6b0c2c1",
+ "mode": "PILOT-OOS"
+}
