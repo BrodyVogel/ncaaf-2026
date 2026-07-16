@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T22:18:41+00:00",
+ "team": "Toledo",
+ "final": -9.12,
+ "rank": 102,
+ "band": 7.91,
+ "resid": -12.13,
+ "adj": -4.25,
+ "class_term": 0.0,
+ "st": -0.52,
+ "anchor_blend": -4.89,
+ "resid_level": 2.49,
+ "resid_shape": -14.62,
+ "implied_off": 16.7,
+ "implied_def": 33.43,
+ "anchor_off": 20.0,
+ "anchor_def": 24.6,
+ "fit_r2": {
+  "off": 0.537,
+  "dfn": 0.628
+ },
+ "low_conf_units": 2,
+ "code_rev": "52b7d59",
+ "mode": "PILOT-OOS"
+}
