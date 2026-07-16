@@ -1,0 +1,171 @@
+{
+ "team": "Purdue",
+ "units": {
+  "QB": {"grade": 44, "confidence": "M"},
+  "RB": {"grade": 48, "confidence": "M"},
+  "WRTE": {"grade": 40, "confidence": "M"},
+  "OL": {"grade": 38, "confidence": "M"},
+  "DL": {"grade": 58, "confidence": "M"},
+  "LB": {"grade": 46, "confidence": "M"},
+  "DB": {"grade": 44, "confidence": "M"},
+  "ST": {"grade": 54, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (56798c9)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines; the Welch-Joiner ledger fix (RETURNS -> GONE-research) happened pre-freeze and the OL dossier already treated him as departed."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 43, RB 44, WRTE 25, OL 32, DL 74, LB 52, DB 19, ST 96)",
+   "DL": "-16 vs proxy 74 (proxy rides 6-of-top-8 returning volume; the as-played RDEF was p2, PRSH p10, and the only proven sack producer expired)",
+   "DB": "+25 vs proxy 19 (proxy is the mostly-expired '25 room; the rebuilt two-deep adds Clark's All-CUSA volume, Mangham/Saunders P4 tape, and keeps Hines/Bradford)",
+   "WRTE": "+15 vs proxy 25 (proxy can't see Waseem's 66-699 FAU volume or the injury-return of Morrissette)",
+   "ST": "-42 vs proxy 96 (proxy is the as-played SPEC; BOTH legs departed - the K to a feed-gap exit - leaving a proven P, an open K audition, and the retained coordinator)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Purdue", "unit": "QB", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Syracuse QB 2025 (p25 ref, 63.2)", "Maryland QB 2025 (p50 ref, 71.8)"],
+   "rationale_bullets": [
+    "Browne returns as the settled, publicly endorsed starter: all 12 starts (first Purdue QB since Blough '16), 69.1 PFF/418 dropbacks (B10 +1 -> 70.1, ~p45 tape), 2,153 @ 59% with 9 TD/10 INT - 'dead last on the Big Ten QB Rating leaderboard' (P6).",
+    "The in-season split is documented: 'his first six games were noticeably better than his final six, perhaps due to a shoulder injury he took in the seventh game' (P6); yr 2 in Henson's system is the continuity case, and Odom: 'I believe in Ryan Browne.'",
+    "The depth is unproven: Singleton (69.9/75) left for App State; Chuba (no tape), Meredith (1 start L3Y), G. Odom, true FR Berry battle for QB2 (PS).",
+    "44, M: a full-volume returning starter whose adjusted tape sits just under the p50 reference but whose ratio/rating outcomes and empty QB2 room hold the grade below the MSU-53/Northwestern-52 tier."
+   ],
+   "key_players": [
+    {"name": "Ryan Browne", "role": "QB1 (returning starter)", "evidence": "69.1 PFF/418 2025; 12/12 starts, 2,153 @ 59%, 9-10 TD-INT"},
+    {"name": "Evans Chuba", "role": "QB2 candidate", "evidence": "ex-Wash St '25 add; no meaningful tape"}
+   ],
+   "data_gaps": ["Browne shoulder (game-7 '25; no surgery printed)", "QB2 battle unresolved"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Purdue", "unit": "RB", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Maryland RB 2025 (p25 ref, 69.6)", "Memphis RB 2025 (p50 ref, 76.9)"],
+   "rationale_bullets": [
+    "Mockobee (73.7/125; four straight team-leading seasons, #4 all-time at 2,987) expires and the room is rebuilt as a committee.",
+    "The imports grade well on small samples: Ijeboi (75.5 PFF/98 at Minnesota - 'a big freshman workload'), Gibson (68.7/36 at Texas, SEC +10 -> 78.7; 529 @ 4.6 career), Terrell (Jackson St FCS; 1,067 @ 6.0 - the designated return ace); Harris returns (74.9/69 behind QBs #4-5).",
+    "PS's lean: 'I do like the talent in this room... this unit could top '25's production (top 4 RB 1271 yd).'",
+    "48, M: adjusted aggregate ~76 (~p48 tape) with no back over 98 FBS carries and a rebuilt line in front - talent up, proof absent."
+   ],
+   "key_players": [
+    {"name": "Fame Ijeboi", "role": "RB1A (transfer, Minnesota)", "evidence": "75.5 PFF/98 att 2025; 454 @ 4.6 L2Y"},
+    {"name": "Jerrick Gibson", "role": "RB1B (transfer, Texas)", "evidence": "68.7/36 2025; 529 @ 4.6 L2Y at Texas"},
+    {"name": "Travis Terrell Jr.", "role": "RB3/KR-PR (transfer, Jackson State)", "evidence": "1,067 @ 6.0 L2Y (FCS); 'quick and elusive' (Athlon)"}
+   ],
+   "data_gaps": ["no proven P4 volume back", "Terrell FCS-only tape"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Purdue", "unit": "WRTE", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Missouri State WRTE 2025 (p25 ref, 61.3)", "Nebraska WRTE 2025 (50 anchor, 66.4)"],
+   "rationale_bullets": [
+    "The second consecutive total restart: the '25 top four (Jackson 65.1/379, Tuggle 56.7/395 -> S. Carolina, Horton 62.3/248, Branch 70.5/97 -> USF) all depart; 'drops were a big issue' and there has been no 'true game-changing receiver since Charlie Jones in 2022' (P6).",
+    "The one proven FBS import: Waseem (67.3 PFF/380 at FAU - 66 catches, 699 yds). Townsend (69.5/93 at ISU -> 72.5) was rotational; Owens is All-Ivy FCS tape; Hornsby graded 49.2 at Syracuse.",
+    "The return case: Morrissette (the pre-'25 WR1) is back from a season-long injury with zero '25 tape, and TE Burhenn (67.3/61; 4 games) 'could be special' if healthy (Athlon) with Fox (UCF) behind him.",
+    "Magwood's yr4 return override is registered on a PS-only print (58.9/22) - depth impact only, LOW confidence.",
+    "40, M: weighted aggregate ~64 (~p40) resting on one mid-tier producer, two injury returns, and hope."
+   ],
+   "key_players": [
+    {"name": "Asaad Waseem", "role": "WR1 (transfer, FAU)", "evidence": "67.3 PFF/380 routes; 66-699 in 2025"},
+    {"name": "De'Nylon Morrissette", "role": "WR (returning)", "evidence": "missed all of 2025 (injury); '24 top returnee"},
+    {"name": "George Burhenn", "role": "TE1 (returning)", "evidence": "67.3/61 2025; 4 games (injury)"}
+   ],
+   "data_gaps": ["Morrissette/Burhenn health", "Owens FCS-to-B10 translation"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Purdue", "unit": "OL", "grade": 38, "confidence": "M",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25 anchor, 55.4)", "Michigan OL 2025 (p50 ref, 65.5)"],
+   "rationale_bullets": [
+    "The two best returning tapes left (Welch-Joiner 62.3/791 -> FSU - a name-form feed case adjudicated GONE-research; Purvis 62.8/496 -> S. Carolina); Coly and St. John expired. The '25 line was PBLK p22 / RBLK p15 with the sack-rate halving (10% -> 5%) as the lone bright spot.",
+    "The anchor: Tanona (60.2 PFF/793 -> 59.2) - 'the best of the blockers' (Athlon) - at LT under new line coach Crabtree.",
+    "Six imports with starter volume, none of it graded well: Stanley (49.6/606 at S. Carolina, SEC +13 -> 62.6), Mafi (48.2/755 at OkSt -> 56.2), Banuelos (54.0/402 at USC -> 53.0), Easley (Georgia Top250; 10 snaps), Shivers (51.3/81), Saina (no volume). 56 combined career starts (PS).",
+    "38, M: projected-starter aggregate ~57 (~p27) - quantity and experience without a single above-average adjusted tape; graded between the WKU-25 anchor and the p50 line, nearer the anchor."
+   ],
+   "key_players": [
+    {"name": "Joey Tanona", "role": "LT (returning starter)", "evidence": "60.2 PFF/793 2025; 12 st, 22 gm L2Y"},
+    {"name": "Boaz Stanley", "role": "C (transfer, South Carolina)", "evidence": "49.6/606 (SEC +13 -> 62.6); 21 st L2Y"},
+    {"name": "Nuku Mafi", "role": "RT (transfer, Oklahoma State)", "evidence": "48.2/755; 12 st 2025"}
+   ],
+   "data_gaps": ["Easley (Top250) has 10 career snaps", "five projected starters, four new units of cohesion"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Purdue", "unit": "DL", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60 anchor, 70.5)", "Baylor DL 2025 (p50 ref, 67.7)"],
+   "rationale_bullets": [
+    "The roster's one returning core - '6 of the top 8 back' (PS): Jeffries (66.0 PFF/435, B10 +10 -> 76.0; returning starter), Madden (64.9/433 -> 74.9), Ishmail (59.0/339 -> 69.0), T. Smith (60.4/196 -> 70.4), Lindsey (65.8/68 -> 75.8; ACL recovery). P6 called the interior 'a relative bright spot.'",
+    "The incoming tape is solid: Neal (69.4/253 at Illinois -> 79.4 - the best in the room), Lora (71.0/289 at UCF -> 74.0), Modozie (59.6/149 at Georgia -> 67.6; the lone 4* transfer, 7.5 sk at Army '24), JUCO Lewis.",
+    "The two holes: Nunnally (69.7/563 -> 79.7) expired with 'more sacks than the rest of the room combined' (P6), and the as-played team results (RDEF p2, PRSH p10) never matched the individual grades.",
+    "58, M: the two-deep aggregate (~72) reads exactly like the Wake-60 anchor (deep, solid, starless), discounted two for the p2 as-played floor and the unproven pass rush."
+   ],
+   "key_players": [
+    {"name": "Ian Jeffries", "role": "DT (returning starter)", "evidence": "66.0 PFF/435 2025 (-> 76.0); 8 st at ArkSt F2Y"},
+    {"name": "Curt Neal", "role": "DT (transfer, Illinois)", "evidence": "69.4/253 (B10 +10 -> 79.4)"},
+    {"name": "CJ Madden", "role": "DE (returning)", "evidence": "64.9/433 (-> 74.9); Georgia F2Y"},
+    {"name": "Elo Modozie", "role": "DE (transfer, Georgia)", "evidence": "59.6/149 SEC; 3rd-tm AAC at Army '24 (7.5 sk F2Y)"}
+   ],
+   "data_gaps": ["pass-rush replacement for Nunnally", "Lindsey ACL", "tape-vs-team-result contradiction"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Purdue", "unit": "LB", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40 anchor, 62.9)", "Buffalo LB 2025 (p50 ref, 66.5)"],
+   "rationale_bullets": [
+    "Correa returns as 'the ultimate warrior, the heartbeat of the defense' (Dienhart via P6) with 96 tackles at full volume - but the tape is poor (48.2 PFF/699, B10 +16 -> 64.2) on a defense that tackled at p4.",
+    "Powell (58.7/744 -> 74.7; #1 tackler, B10 honors) expired and Sanford (54.1/362) left for Pitt - the '25 volume mostly walked.",
+    "Seven transfers restock it: Hayden (60.9/244 at Illinois -> 76.9), Speca (55.8/48 at PSU -> 71.8; ex-4*), Miller (73.5/115 at Toledo, MAC -12 -> 61.5), Moore (San Diego FCS; 61 tkl, 6 sk). PS: 'more experienced and improved.'",
+    "LB caution rule bites everywhere: the room's ONLY full-volume 2025 tape is Correa's 48.2; every better number is small-sample (244, 115, 48 snaps) or down-level - exactly the offset-inflated profile the rule discounts.",
+    "46, M: paper aggregate ~66 (~p48) graded down to just above the UNLV-40 anchor."
+   ],
+   "key_players": [
+    {"name": "Charles Correa", "role": "LB1 (returning starter)", "evidence": "48.2 PFF/699 2025; 96 tkl, 3 sk; 12 starts"},
+    {"name": "Jojo Hayden", "role": "LB (transfer, Illinois)", "evidence": "60.9/244 (B10 +16 -> 76.9)"},
+    {"name": "Anthony Speca", "role": "LB (transfer, Penn State)", "evidence": "55.8/48 2025; ex-4* recruit"}
+   ],
+   "data_gaps": ["no full-volume quality tape anywhere in the room", "Speca/Hayden samples tiny"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Purdue", "unit": "DB", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["UNLV DB 2025 (p25 ref, 62.8)", "Syracuse DB 2025 (p50 ref, 66.9)"],
+   "rationale_bullets": [
+    "The '25 room (COV p2, 4 INT - a B10 low) mostly expired: Ra-El (61.8/754), Grimes (52.8/677), Slusher (66.4/460), McLaurin, Wakley, Coffey all yr4.",
+    "The retained pieces are real: Hines (56.3/636 -> 62.3; 'should form a nice CB duo' with Saunders - Athlon), Bradford (61.1/406 -> 67.1; Withdrawn override STAYS, printed in both charts), Turner (71.3/103 -> 77.3 small).",
+    "Six portal adds + two JUCOs: Clark (66.4 PFF/776 at FIU, CUSA -6 -> 60.4; 1st-team All-CUSA), Saunders (66.9/166 at Utah -> 68.9; 6'4), Mangham (58.2/350 at Michigan -> 64.2; All-B10 HM at MSU '23), Slaughter (55.4/297 at Colorado -> 57.4), Denson (MSU), Newsome (Samford).",
+    "P6's caution is structural: the same veteran-transfer strategy 'did not pay off' last cycle.",
+    "44, M: two-deep adjusted ~64 (~p33 tape) with genuine depth and zero volume tape above 69 adjusted - graded a tier above the expired room it replaces."
+   ],
+   "key_players": [
+    {"name": "Mister Clark", "role": "NB (transfer, FIU)", "evidence": "66.4 PFF/776; 1st-team All-CUSA (12 st, 63 tkl, 13 pb, 3 int)"},
+    {"name": "Hudauri Hines", "role": "CB1 (returning starter)", "evidence": "56.3/636 2025; 11 st, 38 tkl L2Y"},
+    {"name": "Don Saunders", "role": "CB (transfer, Utah)", "evidence": "66.9/166 (B12 +2 -> 68.9); 5 int F2Y at Cal Poly"},
+    {"name": "Jaden Mangham", "role": "S (transfer, Michigan)", "evidence": "58.2/350; All-B10 HM at MSU 2023"}
+   ],
+   "data_gaps": ["scheme fit under Kane (his '23-24 units were last in B10)", "JUCO/FCS depth unscouted"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Purdue", "unit": "ST", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "ST rule: start at the p95 as-played SPEC (raw 88.1; PS STR #52 after #117/#131) and adjust: BOTH legs are gone - K Porath (14-15, the first 50+ FG since '19; a feed-gap departure, dual-print confirmed) and the P (42.3 net).",
+    "The proven replacement: P Drennan (Buffalo - 2nd-team MAC; 65 punts, 44.8 avg / 41.6 net). The K is an open audition (Turner the KO man with 30 TB, true FR Echeverria Lozano PS#25, Weeter).",
+    "The system holds: ST coach Shibest retained ('a schematic edge' - Athlon); Odom's UNLV ran the #1 ST (PS). Return game upgrades with Terrell ('quick and elusive').",
+    "54, M: elite prior + retained coordinator + proven P + return-ace add, minus an unsettled kicker."
+   ],
+   "key_players": [
+    {"name": "Dylan Drennan", "role": "P (transfer, Buffalo)", "evidence": "2nd-team MAC; 65 punts, 44.8/41.6 net 2025"},
+    {"name": "Travis Terrell Jr.", "role": "KR/PR (transfer, Jackson State)", "evidence": "return ace; 'quick and elusive' (Athlon)"}
+   ],
+   "data_gaps": ["K audition unresolved", "Porath exit destination unknown (feed gap)"],
+   "g5_guard_note": null
+  }
+ ]
+}

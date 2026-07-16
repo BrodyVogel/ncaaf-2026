@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T17:08:44+00:00",
+ "team": "Purdue",
+ "final": -1.15,
+ "rank": 70,
+ "band": 6.0,
+ "resid": 1.6,
+ "adj": 0.56,
+ "class_term": -0.0,
+ "st": 0.08,
+ "anchor_blend": -2.28,
+ "resid_level": 1.61,
+ "resid_shape": -0.01,
+ "implied_off": 24.04,
+ "implied_def": 25.42,
+ "anchor_off": 24.11,
+ "anchor_def": 27.09,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.615
+ },
+ "low_conf_units": 0,
+ "code_rev": "56798c9",
+ "mode": "PILOT-OOS"
+}
