@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T16:24:41+00:00",
+ "team": "Oregon",
+ "final": 24.48,
+ "rank": 5,
+ "band": 6.0,
+ "resid": -14.56,
+ "adj": -5.09,
+ "class_term": -0.0,
+ "st": 0.24,
+ "anchor_blend": 28.8,
+ "resid_level": -15.47,
+ "resid_shape": 0.92,
+ "implied_off": 32.83,
+ "implied_def": 18.78,
+ "anchor_off": 40.95,
+ "anchor_def": 12.35,
+ "fit_r2": {
+  "off": 0.532,
+  "dfn": 0.604
+ },
+ "low_conf_units": 0,
+ "code_rev": "5d1e95a",
+ "mode": "PILOT-OOS"
+}
