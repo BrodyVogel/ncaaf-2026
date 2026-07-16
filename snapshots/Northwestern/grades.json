@@ -1,0 +1,171 @@
+{
+ "team": "Northwestern",
+ "units": {
+  "QB": {"grade": 52, "confidence": "M"},
+  "RB": {"grade": 58, "confidence": "M"},
+  "WRTE": {"grade": 64, "confidence": "M"},
+  "OL": {"grade": 46, "confidence": "M"},
+  "DL": {"grade": 52, "confidence": "M"},
+  "LB": {"grade": 52, "confidence": "M"},
+  "DB": {"grade": 68, "confidence": "M"},
+  "ST": {"grade": 40, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (78722de)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "exemplar mechanics run at dossier time; all eight finals match the dossier planned lines."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 40, RB 52, WRTE 95, OL 69, DL 90, LB 74, DB 88, ST 28)",
+   "DL": "-38 vs proxy 90 (proxy counts the departed front - Hubbard/Saka/Bastone/Story - alongside Kilbane)",
+   "WRTE": "-31 vs proxy 95 (proxy rides the Wilde/Eligon duo at full weight; grade holds the mid-tier/TE caveats)",
+   "OL": "-23 vs proxy 69 (proxy counts both draft picks; four starters gone)",
+   "QB": "+12 vs proxy 40 (proxy sees no returning volume; grade prices the Chiles/Marchiol imports + Kelly system prior)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Northwestern", "unit": "QB", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "A two-transfer battle: Chiles (63.4 PFF/261 at MSU -> 64.4; near-five-star in 2023, 20 career starts, 3,807 @ 61% with 24-14 + 452 rush; benched late 2025 but with a 10-3 late ratio - 'still graded as a Top 15 transfer quarterback' - P6) vs Marchiol (69.9/120 at WVU, B12 +6 -> 75.9; 7 career starts).",
+    "The scheme is the elevator: Chip Kelly's offenses (Oregon/UCLA/OSU 2024 title) consistently outperform their inputs, and Kelly RECRUITED Chiles at UCLA (Athlon); both QBs bring the dual-threat profile the system requires.",
+    "The 2025 baseline was below average (57/68 P4 adjusted - P6) with Stone (68.4/430, yr4) now gone; 'a transfer has opened the season as starter every year here since 2019' (PS).",
+    "Braun (attributed): 'they have 3 guys they can win with and the room is much deeper.'",
+    "52, M = two mid tapes + an unresolved battle + a real system prior - a coin-flip room with a competent floor."
+   ],
+   "key_players": [
+    {"name": "Aidan Chiles", "role": "QB1 presumptive (transfer, Michigan State)", "evidence": "63.4/261 2025; 20 career starts; Top-15 transfer QB grade (P6)"},
+    {"name": "Nicco Marchiol", "role": "QB battle (transfer, West Virginia)", "evidence": "69.9/120 2025; 7 career starts"}
+   ],
+   "data_gaps": ["Battle unresolved in prints", "Chiles's benching context vs Kelly-fit upside"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Northwestern", "unit": "RB", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "Komolafe returns off a proven year: 75.9 PFF/189 att; 941 @ 5.0 with 11 TD and All-B10 honors; four 100-yard games after C.Porter's injury.",
+    "The depth is real: Himon (78.7/99; 486 @ 4.9), Sawchuk (74.8/109 at FSU, ACC +5 -> 79.8; 1,600 career yds at OU/FSU), Preckel short-yardage, M.Porter (BG).",
+    "Kelly's pattern (P6): a shared backfield (Henderson/Judkins at OSU) - and 'Kelly has never failed to produce an effective, productive run game.'",
+    "PS: 'my #26 RB corps.' C.Porter's career ends (yr4, second season-ending injury).",
+    "Weighted aggregate ~76.5 (~p48) + breadth + scheme floor = 58, M."
+   ],
+   "key_players": [
+    {"name": "Caleb Komolafe", "role": "RB1 (returning starter)", "evidence": "75.9 PFF/189; 941 @ 5.0, 11 TD, All-B10 2025"},
+    {"name": "Gavin Sawchuk", "role": "RB (transfer, FSU)", "evidence": "74.8/109 2025; 1,600 career (P6)"},
+    {"name": "Joseph Himon II", "role": "RB2 (returning)", "evidence": "78.7/99; 486 @ 4.9 2025"}
+   ],
+   "data_gaps": ["Carry split under Kelly", "M.Porter role"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Northwestern", "unit": "WRTE", "grade": 64, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Houston WRTE 2025 (78)"],
+   "rationale_bullets": [
+    "The duo is the case: Wilde (79.8 PFF/366 routes -> 78.8; 71/880/8 - 3rd-team All-B10, the school's best receiving season since 2016) + Eligon (74.5/285 -> 73.5; 521 @ 14.1 with over half in the final three games - the vertical complement).",
+    "The named caveat is Braun's own: 'The mid-tier of that wide receiver room is going to have to elevate' - Ahumaraeze (64.1/147), Wagner (64.8/113), Covey behind; Top150 4* FR McDuffie joins the two-deep (P6).",
+    "TE flipped: all-league Welcing (61.0/203) to Ohio State; in come blocker Honig (69.1/113 at UConn) and D2 All-American Dehnicke - Athlon is 'bullish,' the tape is neutral.",
+    "No transfer WRs taken (Athlon) - the bet is returning development inside Kelly's tempo.",
+    "Weighted aggregate ~73.4 (~p88) is duo-driven; mid-tier and TE hold it at 64, M."
+   ],
+   "key_players": [
+    {"name": "Griffin Wilde", "role": "WR1 (returning starter)", "evidence": "79.8 PFF/366; 71/880/8, 3rd-tm All-B10 2025"},
+    {"name": "Hayden Eligon II", "role": "WR2 (returning starter)", "evidence": "74.5/285; 521 @ 14.1 2025, late surge"},
+    {"name": "Alex Honig", "role": "TE (transfer, UConn)", "evidence": "69.1/113 2025; 6'6+ in-line blocker"}
+   ],
+   "data_gaps": ["Mid-tier WR development", "TE receiving output under Kelly"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Northwestern", "unit": "OL", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "The 2025 line was the program's best in years - PBLK 93p / RBLK 86p, Push #133 -> #71, pass pro #60 -> #27, 17 sacks (P6/PS) - and FOUR starters left, including both draft picks (Beerntsen 79.3/832, rd-7 BAL; Tiernan 70.5/835, rd-3 MIN) plus Carsello (78.1/840) and Lewis (64.2/638).",
+    "Oratokhai (72.3/835 -> 71.3) is the lone returning starter - 'the top guy' (PS) with G/C flex.",
+    "The imports: Seagren (63.7/713 at OkSt, B12 +8 -> 71.7 - 'a proven starter... the biggest addition' - Athlon), Anugwom (Alabama - zero volume, 'unknown' per P6), Anchondo (D2). Career starts drop to 43 (PS); 'they signed zero four-star linemen' (P6).",
+    "The counterweight: Kelly's system + Drevno; 'Kelly has never failed to produce an effective, productive run game' (P6).",
+    "Two real tapes + unknowns + a proven-scheme prior = 46, M."
+   ],
+   "key_players": [
+    {"name": "Ezomo Oratokhai", "role": "C/G (returning starter)", "evidence": "72.3 PFF/835 2025"},
+    {"name": "Grant Seagren", "role": "LT (transfer, Oklahoma State)", "evidence": "63.7/713 2025; proven starter (Athlon)"}
+   ],
+   "data_gaps": ["Three starting spots unsettled", "Anugwom's readiness (no volume)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Northwestern", "unit": "DL", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "Kilbane is the anchor: 84.0 PFF/491 (B10 +10 -> 94.0) - the second-best DL tape in this B10 round behind Michigan's Daley; 7.5 TFL, 3.5 sk (Athlon).",
+    "The entire rest of the starting front left: Hubbard (74.5/355; 20.5 career sacks - 5th all-time at NU), Saka (72.7/347) to Texas A&M ('their future first-rounder was poached' - P6), both DTs Bastone (70.5/455) + Story (68.5/401).",
+    "The interior is the stated problem: Flakes (59.7/374 -> 69.7) with 'questions... around him' (Athlon); adds are J.Johnson (68.5/255 at UCF -> 71.5), Kirks (OSU, no volume), FCS Stephen-Wangboje, FR Mayne. PS: 'they need some guys to develop on the interior.'",
+    "Context: RDEF 33p last year WITH the departed front; the PRSH 81p leaves with Hubbard/Saka.",
+    "Mechanical aggregate ~75 (~p74) is one-player-driven; 52, M = an elite edge over a bottom-third interior."
+   ],
+   "key_players": [
+    {"name": "Michael Kilbane", "role": "DE1 (returning)", "evidence": "84.0 PFF/491 2025; 7.5 TFL"},
+    {"name": "Jamaal Johnson", "role": "DE (transfer, UCF)", "evidence": "68.5/255 2025"},
+    {"name": "Brendan Flakes", "role": "DT (returning starter)", "evidence": "59.7/374 2025"}
+   ],
+   "data_gaps": ["Interior DT rotation", "Kirks's usage (no 2025 volume at OSU)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Northwestern", "unit": "LB", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "Brus returns at volume: 61.7 PFF/740 (-> 77.7 with the +16); 81 tackles in his first starting season; 'one of the most talented LBs' (PS).",
+    "The leader leaves: Uihlein (70.4/736 - 2nd-team All-B10; 100 tackles, 4 INT).",
+    "The replacement is a pedigree import: McKinzie (61.6/331 at Oklahoma, SEC +14 -> 75.6; 8 starts; 4* transfer grade; 'should start in Uihlein's spot' - P6). Glover (79.0 on 7 snaps; PS#56) is the high-ceiling depth question.",
+    "PS: 'they should remain strong.' LB caution: the raw tapes are 61-62; the offsets do the flattering.",
+    "52, M = average: one proven-volume returner, one pedigree import, thin behind."
+   ],
+   "key_players": [
+    {"name": "Braydon Brus", "role": "LB (returning starter)", "evidence": "61.7 PFF/740; 81 tackles 2025"},
+    {"name": "Kobie McKinzie", "role": "LB (transfer, Oklahoma)", "evidence": "61.6/331 2025; 4* transfer grade (P6)"}
+   ],
+   "data_gaps": ["Glover's emergence (7 snaps)", "Depth beyond the top three"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Northwestern", "unit": "DB", "grade": 68, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "rationale_bullets": [
+    "Three stars return: Fitzgerald (77.9 PFF/725 -> 83.9 - all-league, #1 tackler), Turner (79.0/593 -> 85.0 - the Star/nickel), Fussell (62.5/504 -> 68.5; 16 career starts). Athlon: 'one of the Big Ten's best secondaries'; Braun (via PS): 'the best the back half has looked in years.'",
+    "The subtraction helps: Wallace (55.0/630 - the worst full-volume tape, yr4) leaves; ledger correction - F.Davis II (65.7/550) RETURNS per feed as unprinted rotation depth.",
+    "IN: Deasfernandes (73.1/631 at CMU, MAC -3 -> 70.1), Pate (Weber St). Walters (57.2/50) health is 'key' at field safety (Athlon).",
+    "Context: COV 40p as-played and PDR #73 temper the names; P6: 'above average... on returning production alone.'",
+    "Weighted aggregate ~77.3 (~p85) - two-star-driven; CB2/FS projection lands it 68, M."
+   ],
+   "key_players": [
+    {"name": "Robert Fitzgerald", "role": "S (returning starter)", "evidence": "77.9 PFF/725; all-league; #1 tackler 2025"},
+    {"name": "Braden Turner", "role": "NB/Star (returning starter)", "evidence": "79.0/593 2025"},
+    {"name": "Josh Fussell", "role": "CB1 (returning starter)", "evidence": "62.5/504; 16 career starts"}
+   ],
+   "data_gaps": ["CB2 (Pate FCS vs Dorsey)", "Walters health"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Northwestern", "unit": "ST", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Illinois RB 2025 (32)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "ST rule: start at the 28th-percentile prior SPEC (STR #95 - PS) and adjust for personnel: BOTH legs are new - K Olsen -> Miami, P Akers (45.4/39.9) expired.",
+    "The replacements are credible: Kleather (Bowling Green; 27-31 over two seasons) and rFr Dugandzic - PS's #5-ranked PUNTER - plus LS Boutorwick (Michigan) and a dedicated ST assistant.",
+    "PS's own read: 'they will be better than expected and should make a climb in the STR despite losing their K and P.'",
+    "40, M = up from the base on credible legs + coordinator focus, capped by zero P4 kicking volume."
+   ],
+   "key_players": [
+    {"name": "Jackson Kleather", "role": "K (transfer, Bowling Green)", "evidence": "27-31 FG career (Athlon)"},
+    {"name": "Nikola Dugandzic", "role": "P (rFr)", "evidence": "PS#5 punter"}
+   ],
+   "data_gaps": ["Return-game production (Himon/Wagner unproven as returners)"],
+   "g5_guard_note": null
+  }
+ ]
+}
