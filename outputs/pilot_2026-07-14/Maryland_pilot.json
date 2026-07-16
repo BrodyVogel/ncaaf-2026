@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T15:06:50+00:00",
+ "team": "Maryland",
+ "final": 2.54,
+ "rank": 56,
+ "band": 6.0,
+ "resid": -0.83,
+ "adj": -0.29,
+ "class_term": -0.0,
+ "st": -0.28,
+ "anchor_blend": 2.62,
+ "resid_level": -1.2,
+ "resid_shape": 0.37,
+ "implied_off": 24.39,
+ "implied_def": 23.0,
+ "anchor_off": 25.51,
+ "anchor_def": 23.29,
+ "fit_r2": {
+  "off": 0.54,
+  "dfn": 0.618
+ },
+ "low_conf_units": 0,
+ "code_rev": "cd1ec51",
+ "mode": "PILOT-OOS"
+}
