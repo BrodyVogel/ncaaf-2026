@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T16:14:25+00:00",
+ "team": "Ohio State",
+ "final": 26.36,
+ "rank": 2,
+ "band": 6.0,
+ "resid": -16.74,
+ "adj": -5.86,
+ "class_term": -0.0,
+ "st": 0.28,
+ "anchor_blend": 31.4,
+ "resid_level": -16.99,
+ "resid_shape": 0.25,
+ "implied_off": 34.98,
+ "implied_def": 20.32,
+ "anchor_off": 40.4,
+ "anchor_def": 9.0,
+ "fit_r2": {
+  "off": 0.524,
+  "dfn": 0.607
+ },
+ "low_conf_units": 0,
+ "code_rev": "e0af7a5",
+ "mode": "PILOT-OOS"
+}
