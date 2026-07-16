@@ -1,0 +1,28 @@
+{
+ "team": "Maryland",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T14:55:56+00:00",
+ "assembler_git_rev": "52459c9",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Locksley yr 8 - NO HC change (hot-seat context documented, not a multiplier). NEW OC Trickett (Jax State); DC Monachino retained.",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": ["Isaiah Wright"],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {},
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Zion Elee": "5* FR recruit (#1 DE) - Athlon starts him at OLB; counted in DL unit (edge) alongside PFF-classified Stewart/Mathis",
+  "Lavon Johnson": "2026 in-feed arrival from Texas; Athlon 'returning' prose is loose; low/no 2025 volume - priors only"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "Gilchrist injury-recovery status beyond P6 note",
+  "RG battle (Howerton/Hills/Gilchrist) unresolved in prints"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

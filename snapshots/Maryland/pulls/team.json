@@ -1,0 +1,36 @@
+{
+ "id": 120,
+ "school": "Maryland",
+ "mascot": "Terrapins",
+ "abbreviation": "MD",
+ "alternateNames": [
+  "MD",
+  "Maryland"
+ ],
+ "conference": "Big Ten",
+ "division": null,
+ "classification": "fbs",
+ "color": "#D5002B",
+ "alternateColor": "#ffcd00",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/120.png"
+ ],
+ "twitter": "@TerpsFootball",
+ "location": {
+  "id": 3665,
+  "name": "SECU Stadium",
+  "city": "College Park",
+  "state": "MD",
+  "zip": "20742",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 38.9903332,
+  "longitude": -76.9473792,
+  "elevation": "32.68748093",
+  "capacity": 51802,
+  "constructionYear": 1950,
+  "grass": false,
+  "dome": false
+ }
+}

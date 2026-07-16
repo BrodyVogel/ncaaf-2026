@@ -1,0 +1,15 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Michael Hershey,188250,C,MARYLAND,12,100.0,1,215,66.5,83.5,57.0,2,8,512,100.0,100.0,99.0,3,10,0,764,764,0,0,764,523,523,0,0,241,0,2025_this_team
+Alan Herron,181445,T,MARYLAND,12,100.0,0,215,71.2,80.3,58.7,2,19,509,100.0,100.0,97.3,2,24,3,760,0,0,13,760,521,521,0,746,239,0,2025_this_team
+Rahtrel Perry,165008,T,MARYLAND,12,100.0,0,215,55.3,64.0,45.0,6,23,502,100.0,100.0,96.7,1,31,2,752,0,0,725,752,513,513,0,7,239,19,2025_this_team
+Aliou Bah,157068,G,MARYLAND,12,100.0,0,215,60.7,72.3,54.7,2,13,460,100.0,100.0,98.4,2,15,0,681,0,0,0,681,470,470,681,0,211,0,2025_this_team
+Isaiah Wright,129909,G,MARYLAND,12,100.0,0,215,59.6,73.5,51.2,1,16,432,100.0,100.0,97.8,1,18,1,651,0,644,7,651,443,443,0,0,208,0,2025_this_team
+Tellek Lockette,163512,G,TEXAS ST,4,100.0,0,314,72.0,87.7,69.6,0,1,121,100.0,100.0,99.6,2,1,0,277,2,0,0,277,131,131,275,0,146,0,arrival_2025_at_TEXAS ST
+Ryan Howerton,183526,G,MARYLAND,9,100.0,1,215,57.3,57.2,57.7,1,4,111,100.0,100.0,97.7,1,5,0,190,0,58,0,190,114,114,127,4,76,0,2025_this_team
+Amory Hills,200305,G,MARYLAND,9,100.0,0,215,64.8,90.2,59.0,0,0,56,100.0,100.0,100.0,0,0,0,110,0,110,0,110,58,58,0,0,52,0,2025_this_team
+Trevor Szymanski,188267,C,MARYLAND,8,100.0,0,215,41.7,9.3,52.1,1,0,17,100.0,100.0,97.1,0,1,0,58,48,0,0,58,19,19,0,0,39,10,2025_this_team
+Carlos Moore,159110,T,MARYLAND,3,100.0,0,215,58.9,64.3,57.0,0,0,14,100.0,100.0,100.0,0,0,0,38,0,0,0,38,15,15,0,38,23,0,2025_this_team
+Davon Watkins,188268,T,MARYLAND,3,100.0,0,215,61.1,52.1,61.6,0,0,12,100.0,100.0,100.0,0,0,0,31,0,0,31,31,12,12,0,0,19,0,2025_this_team
+Anthony Robsock,188263,T,MARYLAND,2,100.0,0,215,39.4,0.0,50.1,1,0,5,100.0,100.0,90.0,0,1,0,18,0,0,11,18,6,6,0,3,12,4,2025_this_team
+Jaylen Gilchrist,198727,T,MARYLAND,1,100.0,0,215,45.3,85.2,42.2,0,0,11,100.0,100.0,100.0,1,0,0,18,0,0,17,18,12,12,0,0,6,1,2025_this_team
+Logan Bennett,183525,G,MARYLAND,1,100.0,0,215,58.8,66.8,59.0,0,0,1,100.0,100.0,100.0,0,0,0,4,0,0,0,4,1,1,4,0,3,0,2025_this_team

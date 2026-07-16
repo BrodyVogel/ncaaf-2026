@@ -1,0 +1,50 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Malik Washington,SO,returning,RETURNING STARTER; 71.3/519; 2963 yds 17-9 as true FR
+QB,QB,2,Devin Kargman,JR,transfer:Kent State,51.6/19; 7 career starts 43%
+RB,RB,1,DeJuan Williams,SO,returning,RETURNING STARTER; 68.9/128; 501 rush + 426 rec
+RB,RB,2,Harry Dalton III,FR,transfer:USC,rFr; 4* '25 class; 75.1/8
+RB,RB,3,Iverson Howard,SO,returning,64.4/39; KR
+WRTE,WR,1,Kaleb Webb,SR,returning,63.5/225; 22 rec @ 14.5 top returning WR
+WRTE,WR,2,Zymear Smith,FR,returning,4*
+WRTE,WR,1,Na'eem Abdul-Rahim Gladding,JR,transfer:Old Dominion,75.5/342; All-Sun Belt
+WRTE,WR,2,Jordan Scott,SR,returning,
+WRTE,WR,1,Chris Durr Jr.,JR,transfer:Wyoming,67.9/222; Wyoming's top WR
+WRTE,WR,2,Ryan Manning,JR,returning,
+WRTE,TE,1,Dorian Fleming,JR,returning,RETURNING STARTER; 52.3/330; 40 rec (2nd among B10 TE)
+WRTE,TE,2,Preston Howard,SR,transfer:Auburn,40.0/197; former Terp returning
+OL,LT,1,Rahtrel Perry,SR,returning,RETURNING STARTER; 55.3/752
+OL,LT,2,Davon Watkins,SO,returning,
+OL,LG,1,Tellek Lockette,SR,transfer:Texas State,72.0/277; 3-yr starter
+OL,LG,2,Carlos Moore,SR,returning,
+OL,C,1,Michael Hershey,JR,returning,RETURNING STARTER; 66.5/764; All-B10-Academic
+OL,C,2,Trevor Szymanski,SO,returning,
+OL,RG,1,Ryan Howerton,SO,returning,57.3/190
+OL,RG,2,Amory Hills,SO,returning,64.8/110
+OL,RT,1,Isaiah Wright,SR,returning,RETURNING STARTER; yr4 override RETURNS (news.md); 59.6/651
+OL,RT,2,Jaylen Gilchrist,FR,returning,Top100; back from season-ending injury
+DL,DE,1,Sidney Stewart,SO,returning,RETURNING STARTER; 63.3/585; FR AA; 10.5 TFL FR record
+DL,DE,2,DD Holmes,SO,returning,65.4/219
+DL,NT,1,Eyan Thomas,JR,returning,RETURNING STARTER; 64.2/397; 300+
+DL,NT,2,Derrick LeBlanc,JR,transfer:UCF,68.9/158
+DL,DT,1,Lavon Johnson,SR,transfer:Texas,2026 arrival (feed); low '25 volume; Athlon prose loose
+DL,DT,2,EJ Moore Jr.,JR,returning,56.7/173
+DL,DE,1,Zahir Mathis,SO,returning,RETURNING STARTER; 68.6/474; Top100; 6 sk
+DL,DE,2,Nahsir Taylor,SO,returning,65.7/270
+DL,EDGE,1,Zion Elee,FR,recruit,5*; #1 DE / #5 overall 2026; Athlon OLB starter
+LB,MLB,1,Daniel Wingate,SR,returning,RETURNING STARTER; 71.6/660; 100+ tkl (first since 2018)
+LB,MLB,2,Keyshawn Flowers,JR,returning,56.1/217
+LB,ILB,1,Trey Reddick,JR,returning,RETURNING STARTER; 56.6/445
+LB,ILB,2,Keyari James,SO,returning,
+LB,LB,1,Carlton Smith,SO,returning,57.7/466; 64 tkl as true FR
+DB,CB,1,Jamare Glasker,SR,returning,RETURNING STARTER; 65.1/616; HM All-B10
+DB,CB,2,Amari Jackson,SR,transfer:Boston College,66.6/149
+DB,CB,1,Dontay Joyner,SR,returning,RETURNING STARTER; 73.7/726; HM All-B10; draft prospect
+DB,CB,2,Judah Jenkins,SO,returning,
+DB,SS,1,Lavain Scruggs,SR,returning,RETURNING STARTER; 69.2/558
+DB,SS,2,Gavin Edwards,JR,returning,61.2/129
+DB,FS,1,Messiah Delhomme,SO,returning,62.2/375; ex-blue-chip (PS#32)
+DB,FS,2,Darrell Carey,FR,recruit,Athlon: 'next big thing'
+ST,K,1,Sean O'Haire,SO,returning,1st-tm All-B10; 21-24 (87.5%)
+ST,P,1,Bryce McFerson,SR,returning,2nd-tm All-B10; 44.2 avg
+ST,KR,1,Iverson Howard,SO,returning,
+ST,PR,1,Ricardo Cooper Jr.,JR,returning,91.9/11

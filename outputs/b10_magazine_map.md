@@ -4,7 +4,7 @@
 Team           | P6    | Athlon | PS
 Illinois       | 22-23 | 2      | 13
 Indiana        | 6-7   | 4      | 4
-Maryland       | 30-31 | 6      | 17
+Maryland       | 31-32 | 6      | 17
 Michigan       | 10-11 | 7      | 7
 Michigan State | 32-33 | 8      | 19
 Minnesota      | 24-25 | 9      | 12

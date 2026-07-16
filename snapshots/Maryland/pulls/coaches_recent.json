@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Mike",
+  "lastName": "Locksley",
+  "hireDate": "2018-12-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Maryland",
+    "year": 2024,
+    "games": 12,
+    "wins": 4,
+    "losses": 8,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -2,
+    "spOverall": -3.9,
+    "spOffense": 23.3,
+    "spDefense": 27.1
+   }
+  ]
+ },
+ {
+  "firstName": "Mike",
+  "lastName": "Locksley",
+  "hireDate": "2018-12-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Maryland",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -0.8,
+    "spOverall": 0.6,
+    "spOffense": 24.4,
+    "spDefense": 24.7
+   }
+  ]
+ }
+]
