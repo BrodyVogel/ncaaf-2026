@@ -1,0 +1,60 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Carson Conklin,JR,transfer:Fresno State,BOOMERANG (Sac St '23-24: FCS FR All-American; 2876 @ 62% 28-12 in '24); Fresno '25: 48.1/105 3 st 354 @ 49%; PS#73
+QB,QB,2,Brian Salazar,JR,transfer:JC,JC LY: 3210 @ 63% 36-11 (11 gm)
+QB,QB,3,Jackson Sharman,JR,transfer:Idaho State,FCS 332 career yds
+QB,QB,3,Jaylen Patterson,FR,transfer:New Mexico State,RS at NMSU LY; PS#148
+RB,RB,1,Jamar Curtis,SR,transfer:Lafayette-via-roster,WITHDRAWN override STAYS; FCS AA at Lafayette (3500+ ttl 35 TD; 1460 in '23); RS'd hurt '25 (155 @ 4.2); KR1
+RB,RB,2,Davion Godley,SR,transfer:Weber State,FCS 1142 @ 5.8 over 2 yrs
+RB,RB,2,Curron Borders,SO,returning,361 @ 5.6 in '24; 'could miss 2nd straight season with injury' - monitor
+RB,RB,3,Cincere Rhaney,FR,transfer:San Diego State,72.5/5 at SDSU; PS#128
+WRTE,WR,1,Matt Coleman,SR,transfer:San José State,4 st 651 @ 9.9 over 3 yrs at SJSU
+WRTE,WR,1,Jace Wilson,SR,returning,UTSA '23-24 (105 yds); 4 st 56 yds at Sac St LY
+WRTE,WR,1,Onterrio Smith Jr.,JR,returning,20 gm 45 yds L2Y
+WRTE,WR,2,Kenyon Shabazz,JR,transfer:JC,PS#307JC
+WRTE,WR,2,Khai Taylor,JR,transfer:JC,PS#165JC; Athlon #5 recruit
+WRTE,WR,3,Ellijah Washington,FR,transfer:Oregon State,RS'd; zero tape
+WRTE,WR,3,Dezmyn Hardy,FR,recruit,true FR; PS#466; Athlon #6
+WRTE,TE,1,Jordan Williams,SR,returning,RETURNING STARTER (the offense's only one); 10 st 170 @ 15.5; Colo St RS '24
+WRTE,TE,2,Cedric Anton,JR,transfer:Tiffin University,D2 10 gm 14 yds
+WRTE,TE,3,Kyle Koontz,SO,transfer:Houston Christian,FCS 4 st; RS'd here '24
+OL,LT,1,Bryson Summers,SR,returning,2 st @ RG '24 + 2 st @ LT '25 (9-12 gm); ex-Coastal DNP; PS#320JC
+OL,LT,2,Richard McKay,JR,returning,5 gm L2Y; PS#265
+OL,LG,1,Jamin Guilbert,JR,transfer:JC,PS#326JC
+OL,LG,2,Brandon Sousa,SR,returning,4 gm L3Y
+OL,C,1,Hayden Frazier,JR,transfer:JC,PS#307JC
+OL,C,2,Luke Slater,SO,returning,11 gm LY
+OL,RG,1,Vae Soifua,SR,transfer:Weber State,4 st 6 gm at Weber '25; BYU RS '22; PS#276
+OL,RG,2,DeAnthony Sheffield,JR,returning,1 gm LY
+OL,RT,1,Shontrail Key,SR,returning,11 st at Incarnate Word LY (FCS); Arizona rFr '22/Grambling '23/UIW '24; PS#294
+OL,RT,2,Jeremiah Stallworth,SO,returning,3 st 6 gm as true FR
+OL,OT,3,Garrison Blank,FR,transfer:UCLA,rFr; zero tape; UCLA flag CLOSED
+DL,DE,1,Xavier Williams,SR,returning,RETURNING STARTER; 11 st 31 tkl 6 SACKS LY (FCS); OFY-inj '24; 25 gm '22-23
+DL,DE,2,Isiah Chala,JR,transfer:Fresno State,63.3/5 at Fresno; 5 gm 2 tfl
+DL,DT,1,Jamel Howard,JR,transfer:Wisconsin,50.1/4; 1 gm at Wisc LY; 'won a starting job in the spring'; Wisconsin flag CLOSED
+DL,DT,2,Malachi Kindle,SO,returning,7 gm 5 tkl as true
+DL,DT,1,Austin Chambers,SO,transfer:JC,RS Auburn '24 -> JC LY
+DL,DT,2,Nick Dimitris,SR,transfer:Florida A&M,FCS depth
+DL,DE,3,Ivan Moore Jr.,SO,transfer:Northern Illinois,53.2/6; RS at NIU '24
+DL,DT,3,Will Weber,JR,transfer:UTEP,injured spring OFY per PS - monitor
+DL,DT,3,Devyn Blake,FR,recruit,true FR; PS#416; Athlon #1 recruit
+LB,MLB,1,Derek Houston,JR,returning,PORTAL-RETURN override STAYS (Immediate/no-dest vs both prints); 71 tkl 4.5 tfl as rFr '24; 5 st then OFY '25
+LB,MLB,2,Alex Rocha,SR,returning,RETURNING STARTER (Athlon bold); 7 st 49 tkl 4.5 tfl LY
+LB,WLB,1,Fata Puloka,JR,returning,6 st 43 tkl 4.5 tfl LY; 5 st '24
+LB,WLB,2,Ivan Moore Jr.,SO,transfer:Northern Illinois,also DL; RS NIU
+LB,SLB,1,Darson Jeanty,SR,transfer:Lafayette,FCS 9 st 33 tkl 2.5 sk LY
+LB,SLB,2,Tim Thomas,SR,transfer:Fresno State,41.7/90; 17 gm 14 tkl L2Y
+LB,LB,3,Diego Davis,SR,returning,3 st 27 tkl LY
+DB,CB,1,Elias Mullican,SR,returning,10 st 28 tkl 2 int '24; 3 st 13 tkl 6 pbu '25
+DB,CB,2,Noah King,FR,transfer:Colorado,zero tape
+DB,CB,1,Malikai Nichols,SO,transfer:Saint Francis (PA),FCS 9 gm 11 tkl 3 pbu as rFr
+DB,CB,2,Donovan Turner,SR,transfer:Illinois,UMass '23 5 gm / JC '24 / DNP Illinois '25
+DB,S,1,Boogsie Silvera,SR,transfer:South Florida,51.0/25 at USF; McNeese '23-24: 19 st 153 tkl; CharSo '22
+DB,S,2,Nikko Klemm,SO,transfer:Arizona State,DNP at ASU as rFr
+DB,S,1,Amari Wallace,FR,transfer:Miami,rFr; PS#49 - the VHT; zero tape
+DB,S,2,Naytel Mitchell,FR,returning,rFr
+DB,S,1,Dionte Thornton,SR,transfer:Portland State,FCS 12 st 34 tkl 5 pbu LY; Boise St '23 origin - RESOLVED as 2026 arrival
+DB,CB,3,Qualyn McQueen,SR,transfer:Nebraska-Kearney,D2 8 gm 15 tkl
+ST,K,1,Grant Meadors,JR,returning,RETURNING; 12-15 FG L/42 51-52 PAT LY; ex-Oregon; PS#23
+ST,P,1,Jay Brockhaus,JR,transfer:Southeastern Louisiana,10 st 50 punts 38.8 (36.2 net) '23 + 38.7 net '24 at SELU; DNP '25; job 'not finalized until fall'
+ST,KR,1,Jamar Curtis,SR,returning,per Athlon
+ST,PR,1,Jaxon Fresques,SO,returning,73 all-purpose LY

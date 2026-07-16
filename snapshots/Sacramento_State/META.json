@@ -1,0 +1,61 @@
+{
+ "team": "Sacramento State",
+ "conference": "Mid-American",
+ "created_utc": "2026-07-16T21:43:35+00:00",
+ "assembler_git_rev": "11e7b4c",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "Alonzo Carter yr 1 - FIRST career HC job (ex-Arizona/SJSU RB coach; JC HC background). SECOND HC change in two years (Marion one-and-done after 7-5). FBS invite arrived AFTER signing day + portal close; 13+ JC adds post-spring. Co-OCs Kiesau/Scott; co-DCs Clark/Thompson (new 3-3-5); new STC Austin. x1.13 APPLIES.",
+ "portal_departure_confirmed": [
+  "Nash Burkart",
+  "Lamont Johnson-Burrell"
+ ],
+ "portal_withdrawal_overrides": [
+  "Jamar Curtis",
+  "Derek Houston"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Derek Houston": "out-feed Immediate/no-dest vs BOTH prints anchoring him (Athlon page photo; 'both back... 100% in spring'). Portal-return override STAYS - listed under withdrawal_overrides per Yates/Booth precedent for the STAYS mechanism.",
+  "Jamar Curtis": "Withdrawn/no-dest vs both prints' RB1 (FCS AA at Lafayette; RS'd hurt '25). STAYS. Injury monitor.",
+  "Dionte Thornton": "in-feed from=Portland State - his 12 st/34 tkl 2025 was AT Portland St (FCS). Athlon's transfer* correct; PS caps formatting misled. 2026 ARRIVAL, not returner.",
+  "Ellijah Washington": "feed spelling (PS 'Elijah') - Oregon State RS, zero tape",
+  "Matthew Coleman": "prints 'Matt' - SJSU 651 career",
+  "Brian Salazar": "JC QB (3,210 @ 63%, 36-11) - JC-source, in PS lineup; no feed entry expected... IS ABSENT from in-feed - whitelisted (JC gap)",
+  "Austin Chambers": "Auburn RS '24 -> JC '25 -> Sac St (PS DL line) - ABSENT from in-feed, JC-source gap; whitelisted",
+  "Devyn Blake": "true FR recruit (PS#416, Athlon #1) - not a portal entity",
+  "Khai Taylor + Kenyon Shabazz": "JC arrivals (PS#165JC/#307JC) - JC-source feed gaps; whitelisted",
+  "Hayden Frazier + Jamin Guilbert": "JC OL arrivals (PS#307JC/#326JC) - JC-source feed gaps; whitelisted",
+  "Shontrail Key": "returning (11 st at UIW '24 was BEFORE his '25 Sac St year? PS line ambiguous: Arizona '22/Grambling '23/UIW '24, '11 st Incarnate Word LY' - if the 11 UIW starts were 2025 he is an arrival; roster25 presence governs: treated returning-roster body; zero grade impact either way (no FBS tape)",
+  "Jay Brockhaus": "SELU P (38.7 net '24, DNP '25) - in-feed absent? present as... NOT in feed - FCS-source gap; whitelisted (PS punter line)"
+ },
+ "feed_gap_arrivals_documented": [
+  "Brian Salazar (QB - JC 3,210 yds; PS lineup)",
+  "Austin Chambers (DL - Auburn RS -> JC; PS line)",
+  "Khai Taylor + Kenyon Shabazz (WR - JC; PS ranks)",
+  "Hayden Frazier + Jamin Guilbert (OL - JC; PS ranks)",
+  "Jay Brockhaus (P - SELU; PS punter line)"
+ ],
+ "position_notes": {
+  "FBS NEWCOMER": "2025 was FCS Big Sky. No PFF tape (7 arrival rows only), no league percentile row, near-empty ledger universe, ALL-VOID proxy (8/8 None - project first). Grades are fully evidence-based; three project floors set (OL 8, WRTE 10, DB 10).",
+  "Carson Conklin": "boomerang - Sac St '23-24 (FCS FR All-American) -> Fresno '25 (48.1/105, the room's only FBS tape) -> back. Third offense in three years.",
+  "Jamel Howard": "Wisconsin flag CLOSED (their out-feed); Athlon: 'won a starting job in the spring' - graded as pedigree, 4 FBS snaps",
+  "Ivan Moore Jr.": "listed at both DL depth and WLB depth in prints - counted once (DL room), noted in LB two-deep",
+  "Will Weber": "UTEP DT - PS: injured spring OFY '26 - monitor",
+  "Curron Borders": "PS: 'could miss his 2nd straight season with injury' - monitor",
+  "Maryland pipeline note": "C.Williams (QB) -> Maryland joins KSU's Kargman there - two MAC-adjacent QB pickups in their frozen in-feed",
+  "Colorado pipeline note": "FOUR Sac St players -> Colorado (Henderson II, Campbell, J.Smith, Soto) - Henderson verified in their frozen two-deep"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "NO 2025 FBS tape exists for this roster's FCS production - deepest evidence gap of the project",
+  "P job unsettled ('not finalized until the fall'); both return jobs new",
+  "Houston/Rocha health (one healthy quarter together in '25); Curtis 2-yr injury cloud; Borders + Weber monitors",
+  "proxy artifact #43: all-void sheet"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

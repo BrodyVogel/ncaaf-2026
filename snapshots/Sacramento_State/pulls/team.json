@@ -1,0 +1,37 @@
+{
+ "id": 16,
+ "school": "Sacramento State",
+ "mascot": "Hornets",
+ "abbreviation": "SAC",
+ "alternateNames": [
+  "Cal State Sacramento",
+  "SAC",
+  "Sacramento St"
+ ],
+ "conference": "Mid-American",
+ "division": null,
+ "classification": "fbs",
+ "color": "#00573C",
+ "alternateColor": "#cdb97d",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/16.png"
+ ],
+ "twitter": "@SacHornetsFB",
+ "location": {
+  "id": 3757,
+  "name": "Hornet Stadium",
+  "city": "Sacramento",
+  "state": "CA",
+  "zip": "95819",
+  "countryCode": "US",
+  "timezone": "America/Los_Angeles",
+  "latitude": 38.5556718,
+  "longitude": -121.4229607,
+  "elevation": "12.30015659",
+  "capacity": 21195,
+  "constructionYear": 1969,
+  "grass": false,
+  "dome": false
+ }
+}
