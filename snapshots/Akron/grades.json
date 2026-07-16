@@ -1,0 +1,164 @@
+{
+ "team": "Akron",
+ "units": {
+  "QB": {"grade": 34, "confidence": "L"},
+  "RB": {"grade": 16, "confidence": "M"},
+  "WRTE": {"grade": 28, "confidence": "M"},
+  "OL": {"grade": 14, "confidence": "M"},
+  "DL": {"grade": 12, "confidence": "M"},
+  "LB": {"grade": 12, "confidence": "L"},
+  "DB": {"grade": 22, "confidence": "M"},
+  "ST": {"grade": 24, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (aadf7b3)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines; the DeWalt name-form fix (RETURNS -> GONE-research) happened pre-freeze and the DB dossier already treated him as departed."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None*, RB 3, WRTE 24, OL None*, DL 14, LB None*, DB 43, ST 25) - *QB/OL/LB None = artifacts #6-8; RB 3 verified REAL (Akron is the exemplars' p3 RB reference row)",
+   "RB": "+13 vs proxy 3 (proxy is the '25 as-played row; full continuity + a returning 1,000-yd 2nd-team All-MAC workhorse lift the projection one band)",
+   "DB": "-21 vs proxy 43 (proxy counts departed DeWalt 79.5/589 + Reed 77.3/580 - the two best tapes)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Akron", "unit": "QB", "grade": 34, "confidence": "L",
+   "bracketing_exemplars": ["Florida International QB 2025 (15 anchor, 58.8)", "Syracuse QB 2025 (p25 ref, 63.2)"],
+   "rationale_bullets": [
+    "The room has zero FBS starter tape: Finley (70.0 PFF/439; 2,475 @ 51%, 19-9) expired, and the replacement is Poffenbarger - 8 North Texas snaps in '25, two years as a backup behind Cam Ward and Mestemaker, but a REAL FCS resume (3,603 @ 59%, 36-13, 2nd-team CAA at Albany '23; Athlon credits 60 pass TD across his two FCS starting years).",
+    "The system is the case: Moorhead calls his own plays and his Akron offenses have out-produced their talent (the scout: 'you feel pretty confident about where that's headed').",
+    "PS: 'he looked good in the spring and with no one in front of him, can now show his true colors. He should top Finley's stats.'",
+    "Depth: Roggow (65.6/17 rFr) + Broughton + true FR Beals - nothing proven.",
+    "34, L: above the FIU-15 anchor (whose vol leader graded 59.0 at FBS level) on pedigree + system, capped hard by the zero-FBS-tape reality. Confidence L is the honest label."
+   ],
+   "key_players": [
+    {"name": "Reese Poffenbarger", "role": "QB1 (transfer, North Texas)", "evidence": "FCS Albany '23: 3,603 @ 59%, 36-13 (2nd-tm CAA); 8 FBS snaps since"},
+    {"name": "Brayden Roggow", "role": "QB2 (returning)", "evidence": "65.6/17; rFr"}
+   ],
+   "data_gaps": ["zero FBS starter tape in the room", "FCS-to-MAC translation two years removed"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Akron", "unit": "RB", "grade": 16, "confidence": "M",
+   "bracketing_exemplars": ["Akron RB 2025 (p3 ref, 60.3)", "Eastern Michigan RB 2025 (p10 ref, 63.5)"],
+   "rationale_bullets": [
+    "Everything returns: Gant (75.7 PFF/212, MAC -13 -> 62.7) - 1,032 @ 4.8, 2nd-team All-MAC, the first 1,000-yard Zip since 2008, a Doak Walker POW - plus Patrick (67.1/69; concussion-shortened) and M. Williams.",
+    "PS: 'one of the MAC's top RB corps' and the program's first returning 1,000-yd rusher of its FBS era; RBLK graded p74 in front of them.",
+    "The scale is the ceiling: the adjusted aggregate (~61) IS the exemplars' Akron-p3 RB row - a good MAC room is a bottom-decile national unit by construction.",
+    "16, M: full continuity + the proven workhorse lift the projection one band above the as-played row; the -13 offset holds it there."
+   ],
+   "key_players": [
+    {"name": "Jordan Gant", "role": "RB1 (returning starter)", "evidence": "75.7 PFF/212; 1,032 @ 4.8; 2nd-tm All-MAC"},
+    {"name": "Sean Patrick", "role": "RB2 (returning)", "evidence": "67.1/69; 274 @ 4.0; '25 concussion"}
+   ],
+   "data_gaps": ["OL rebuild in front", "Patrick health"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Akron", "unit": "WRTE", "grade": 28, "confidence": "M",
+   "bracketing_exemplars": ["Missouri State WRTE 2025 (p25 ref, 61.3)", "Nebraska WRTE 2025 (50 anchor, 66.4)"],
+   "rationale_bullets": [
+    "Two real MAC producers return: M. Williams (75.1 PFF/302, -7 -> 68.1) - 641 @ 14.2, 2nd-team All-MAC after a 30-458 closing month - and Mason (73.6/191 -> 66.6) - 481 @ 14.6 as a redshirt freshman slot.",
+    "Polk (62.9/330; 3rd-team MAC) left for Oklahoma State; Walker and Grear expired - the depth is imports: Burris (55.6/192 at Charlotte), Myers (ODU), JUCO Hilburn.",
+    "TE: Cravaack returns (56.0/215) with JUCO E. Alexander and a zero-tape MSU rFr (Hook) behind.",
+    "28, M: the two returning tapes bracket the p25-p50 references at MAC discount; the aggregate (~62) lands just above the Missouri State p25 row. The best-graded unit on the roster."
+   ],
+   "key_players": [
+    {"name": "Marcel Williams", "role": "WR1 (returning starter)", "evidence": "75.1 PFF/302; 641 @ 14.2; 2nd-tm All-MAC"},
+    {"name": "Kyan Mason", "role": "slot (returning)", "evidence": "73.6/191; 481 @ 14.6 as rFr"},
+    {"name": "Miles Burris", "role": "WR (transfer, Charlotte)", "evidence": "55.6/192; 5 st, 134 yds 2025"}
+   ],
+   "data_gaps": ["WR3/TE production void", "new QB chemistry"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Akron", "unit": "OL", "grade": 14, "confidence": "M",
+   "bracketing_exemplars": ["Akron OL 2025 (p10 ref, 48.4)", "Western Kentucky OL 2025 (25 anchor, 55.4)"],
+   "rationale_bullets": [
+    "Four of the six biggest '25 snap counts left UP the chain: Davis (65.7/691) to Pitt, King (67.2/524) to Iowa State, McManus (64.4/505) to Auburn, Morris (56.7/472) to Kansas State - the FBS-lowest-NIL retention problem in one unit.",
+    "The returning spine is real for this level: Lyons (65.6/644; 12 starts; yr4 override, dual-print C1) + A. Jones (66.2/352; 7 starts) + Archer (62.1/421; yr4 override) + four more rotational returners (Athlon counts seven).",
+    "The '25 split diagnoses the unit: RBLK p74 (they moved people for Gant) vs PBLK p12 (Finley ran for his life).",
+    "Imports are FCS/D2/SBC-fringe (B. Smith-South Dakota, Slayden 49.7/147 at USM, Falkner-D2, Hampton-FCS).",
+    "14, M: the returning-starter aggregate (~50 adjusted) sits ON the exemplars' Akron-p10 OL row; continuity at three spots against four departed volume tapes nets a hair above it."
+   ],
+   "key_players": [
+    {"name": "Colin Lyons", "role": "C (returning starter; yr4 override)", "evidence": "65.6 PFF/644; 12 st"},
+    {"name": "Allen Jones Jr.", "role": "RT (returning starter)", "evidence": "66.2/352; 7 st"},
+    {"name": "Amarie Archer", "role": "LG (returning; yr4 override)", "evidence": "62.1/421; 6 st"}
+   ],
+   "data_gaps": ["LT/RG battles (charts disagree)", "pass-pro fix with lesser talent"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Akron", "unit": "DL", "grade": 12, "confidence": "M",
+   "bracketing_exemplars": ["Charlotte DL 2025 (p3 ref, 53.5)", "Buffalo DL 2025 (p10 ref, 57.2)"],
+   "rationale_bullets": [
+    "The two best tapes left: Laventure (76.1 PFF/657; 1st-team MAC DE) to Texas Tech and Dall (79.3/628) to UCF - plus Murphy (63.3/333) to WKU. The RDEF p54 / PRSH p60 prior walked out with them.",
+    "The anchor stayed via override: Durham (64.7/699 -> 58.7) - feed Withdrawn, both charts start him ('will start again after a productive sophomore season' - Athlon); 12 st, 3 sk, 5.5 tfl, 9 qbh.",
+    "Hull (65.0/553 -> 59.0; 12 starts) and Mixon return inside with the Frazier twins rotating; the imports are an FCS sack artist (Highland - 12 sacks at Arkansas-Pine Bluff, no offset cell) and a D2 edge (Waye).",
+    "12, M: two 58-59 adjusted starters over sub-55 depth lands between the Charlotte-p3 and Buffalo-p10 DL rows - the PS optimism ('improve again') is a coaching claim the tape doesn't carry."
+   ],
+   "key_players": [
+    {"name": "Cyrus Durham", "role": "EDGE (returning starter; Withdrawn STAYS)", "evidence": "64.7 PFF/699; 3 sk, 5.5 tfl, 9 qbh; 12 st"},
+    {"name": "Ronald Hull", "role": "DT (returning starter)", "evidence": "65.0/553; 12 st"},
+    {"name": "Vaughn Highland", "role": "NG (transfer, Arkansas-Pine Bluff)", "evidence": "12 sk, 38 tkl 2025 (FCS)"}
+   ],
+   "data_gaps": ["pass rush post-Laventure/Dall", "FCS/D2 import translation"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Akron", "unit": "LB", "grade": 12, "confidence": "L",
+   "bracketing_exemplars": ["Liberty LB 2025 (p3 ref, 47.4)", "Rice LB 2025 (p10 ref, 52.2)"],
+   "rationale_bullets": [
+    "The entire 2025 unit is gone: Cooper (69.1 PFF/515; #1 tackler; yr4), Summers (79.3/506; yr4), Spriggs (78.9/351; to Southern Miss), Boswell (to Texas), Benenge (no-dest) - zero returning volume.",
+    "The rebuild is pedigree-thin: D. Johnson (89 tkl, 9 tfl, 8 st at Kennesaw in '24 - CUSA tape, OFY '25 injury) is the one proven piece; behind him a Canadian-university MLB (Buchanan), a 33-snap FIU transfer (Nunoo), two JUCOs, and yr1 returners (Hocker 59.6/40).",
+    "The charts can't agree on a starting pair (Athlon: Hocker/James; PS: Johnson/Buchanan) - 'nine guys slugging it out' (PS).",
+    "12, L: evidence-graded below the Rice-p10 row, held off the Liberty-p3 floor by the Johnson resume. L-confidence - the widest-variance unit of the MAC round so far."
+   ],
+   "key_players": [
+    {"name": "Donelius Johnson", "role": "WLB (transfer; Kennesaw '24 tape)", "evidence": "89 tkl, 9 tfl, 8 st in '24; OFY injury '25"},
+    {"name": "Jude Buchanan", "role": "MLB candidate", "evidence": "Western University (Canada); ODU RS '22"}
+   ],
+   "data_gaps": ["zero returning volume", "Johnson injury return", "Canadian/JUCO translation"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Akron", "unit": "DB", "grade": 22, "confidence": "M",
+   "bracketing_exemplars": ["Eastern Michigan DB 2025 (p10 ref, 59.0)", "UNLV DB 2025 (p25 ref, 62.8)"],
+   "rationale_bullets": [
+    "Athlon calls it 'the strength' - a relative frame: the two best tapes are gone (DeWalt 79.5/589 - a yr4 expiry the feed hid behind a spelling variant, ledger-caught - and Reed 77.3/580 to Utah), plus four more yr4s and a no-dest out ('4 DBs, 37 starts' - PS).",
+    "The returning cluster is young and mid: Hunter (60.5/292 -> 57.5), Flowers (67.1/286 -> 64.1; ex-Penn St), Thomas (69.9/144 -> 66.9), Aamii Branch (58.6/294; 'coaches are high on' - Athlon), Somerville + the yr4-override medical return David (ex-Oregon; Athlon S1).",
+    "Imports are depth-grade: Hobson (ODU, 17 snaps), McNeil (Missouri, 27), Galloway (WVU RS, zero), Newsome (Holy Cross FCS).",
+    "22, M: two-deep adjusted ~57-64 with nothing over 67 - between the EMU-p10 and UNLV-p25 rows; the proxy's 43 counts the departed pair."
+   ],
+   "key_players": [
+    {"name": "Mehki Flowers", "role": "S (returning)", "evidence": "67.1 PFF/286 (-> 64.1); ex-PSU '23-24; PS BS1"},
+    {"name": "Rodrick Hunter", "role": "S (returning)", "evidence": "60.5/292; 4 st, 28 tkl"},
+    {"name": "Daymon David", "role": "S (returning; yr4 medical override)", "evidence": "ex-Oregon; injury return; Athlon S1"},
+    {"name": "Aamii Branch", "role": "NB (returning)", "evidence": "58.6/294; 3 st, 19 tkl"}
+   ],
+   "data_gaps": ["David/Johnson injury returns", "CB2 (three no-tape imports compete)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Akron", "unit": "ST", "grade": 24, "confidence": "M",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "UNLV LB 2025 (40)"],
+   "rationale_bullets": [
+    "ST rule: start at the p25 as-played SPEC (PS STR #130) and adjust: BOTH specialists return - Schramm went 12-of-13 with a 48 long and 4-of-5 from 40+ after relieving a 4-of-10 starter; Castle averaged 42.9 with a 68 long but a 35.9 TEAM NET (coverage/operation leaks).",
+    "PS: 'with Castle and Schramm both back, I look for a solid climb.' KR Thomas and PR Patrick return; STC yr 4 continuity.",
+    "24, M: a genuinely proven K + full continuity, against a net-punting problem and a bottom-quartile prior."
+   ],
+   "key_players": [
+    {"name": "Matthew Schramm", "role": "K (returning)", "evidence": "12-of-13, L/48, 4-of-5 from 40+"},
+    {"name": "Joseph Castle", "role": "P (returning)", "evidence": "42.9 avg, L/68; 35.9 team net"}
+   ],
+   "data_gaps": ["punt coverage (net gap)", "return-game ceiling"],
+   "g5_guard_note": null
+  }
+ ]
+}

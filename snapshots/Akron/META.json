@@ -24,9 +24,14 @@
  ],
  "known_name_exceptions": {
   "Malcom DeWalt IV": "PFF 'Malcolm DeWalt IV' - spelling variant; yr4 expiry",
-  "Aamii Branch": "Athlon 'Aamii'/PS 'AAMIL' - same player, returning NB"
+  "Aamii Branch": "Athlon 'Aamii'/PS 'AAMIL' - same player, returning NB",
+  "Donelius Johnson": "feed-gap arrival (PS-printed WLB1) - whitelisted for departure_check",
+  "Jude Buchanan": "feed-gap arrival (PS-printed MLB1; Canadian-university path) - whitelisted"
  },
- "feed_gap_arrivals_documented": [],
+ "feed_gap_arrivals_documented": [
+  "Donelius Johnson (LB - PS PSL WLB1; 89 tkl/8 st at Kennesaw '24, OFY '25 injury; absent from CFBD roster AND portal feeds)",
+  "Jude Buchanan (MLB - PS PSL MLB1; Western University CANADA; absent from all CFBD feeds - non-NCAA transfer path)"
+ ],
  "position_notes": {
   "Cyrus Durham": "EDGE - feed Withdrawn/no-dest; BOTH charts start him ('will start again' - Athlon). STAYS. DL anchor.",
   "Alex Branch": "yr4 NOT overridden: PS PSL lists him (MEDRS '24 note) but PS text counts the corresponding tackler LOSS and Athlon omits him - contradicted single source. EXPIRED stands.",

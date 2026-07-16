@@ -82,3 +82,11 @@ Format: `- YYYY-MM-DD [source] fact`. Facts only — no forecasts.
   '25 as-played aggregate) — the proxy agrees with the scale.
 - As-played splits: PBLK p12 vs RBLK p74 (pass-pro was the line's failure);
   PASS p56 died with Finley's exit.
+
+## Feed-gap arrivals (documented; gate catch 2026-07-16)
+- Donelius Johnson (LB) and Jude Buchanan (MLB): BOTH absent from CFBD's
+  roster AND portal feeds entirely — Johnson via an injury-lost '25 (Kennesaw
+  '24 tape), Buchanan via a Canadian-university transfer path CFBD does not
+  track. Both are PS-printed projected starters. Registered in
+  feed_gap_arrivals_documented + whitelisted; the darkest feed corner of the
+  MAC round so far.
