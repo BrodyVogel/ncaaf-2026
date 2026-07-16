@@ -1,0 +1,61 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Rocco Becht,SR,transfer:Iowa State,80.0/409; 39 career starts; most experienced FBS QB; non-throwing shoulder rehab
+QB,QB,2,Alex Manske,FR,transfer:Iowa State,64.6/8; rFr; came with Becht
+QB,QB,3,Peyton Falzone,FR,recruit,3*; Athlon top-recruit #5
+RB,RB,1,Carson Hansen,SR,transfer:Iowa State,77.9/188; 952 @ 5.1; All-B12 2nd tm; between-tackles workhorse
+RB,RB,2,James Peoples,JR,transfer:Ohio State,76.3/62; Top100; home-run explosiveness
+RB,RB,2,Quinton Martin Jr.,SO,returning,62.4/20; bowl star 20-103; PS#3 recruit '24; KR1
+RB,RB,3,Cam Wallace,SO,returning,69.8/6; Withdrawn override STAYS
+WRTE,WR,1,Chase Sowell,SR,transfer:Iowa State,65.6/264; three straight 500-yd seasons; B12 Newcomer
+WRTE,WR,2,Keith Jones Jr.,SO,transfer:Grambling,FCS
+WRTE,WR,1,Brett Eskildsen,JR,transfer:Iowa State,66.6/263; led ISU 526/5; league honors
+WRTE,WR,2,Karon Brookins,FR,transfer:Iowa State,ISU FR; came with Becht
+WRTE,WR,1,Koby Howard,SO,returning,63.8/84; ex-4*; WR3; PR1
+WRTE,WR,2,Zay Robinson,FR,transfer:Iowa State,ISU FR
+WRTE,TE,1,Benjamin Brahmer,SR,transfer:Iowa State,65.7/298; #2 TE transfer; Mackey semifinalist; 6'7
+WRTE,TE,2,Andrew Rappleyea,JR,returning,63.0/139; Top100
+WRTE,TE,2,Gabe Burkle,SR,transfer:Iowa State,58.9/195; 2-yr ISU starter
+OL,LT,1,Malachi Goodman,FR,returning,Top100 trio at T; no meaningful tape
+OL,LT,2,Owen Aliciene,FR,returning,75.2/22 (tiny)
+OL,LG,1,Trevor Buhr,JR,transfer:Iowa State,64.5/453; All-B12; 'a lock at guard' (P6)
+OL,LG,2,Vaea Ikakoula,FR,transfer:Iowa State,61.3/45
+OL,C,1,Brock Riker,SO,transfer:Texas State,71.7/868; Campbell: 'could be the best C in the FBS'
+OL,C,2,Dominic Rulli,SR,returning,71.3/109
+OL,RG,1,Cooper Cousins,JR,returning,67.5/177; bowl-game G starter
+OL,RG,2,Donnie Harbour,SO,returning,no tape
+OL,RT,1,Anthony Donkoh,JR,returning,RETURNING STARTER; 69.3/693; only returning starter; G->T; 'AAOT' (Campbell)
+OL,RT,2,Garrett Sexton,SO,returning,59.1/35; Top100
+DL,DE,1,Alexander McPherson,SO,transfer:Colorado,63.6/211; EDGE
+DL,DE,2,Yvan Kemajou,SO,returning,66.6/238
+DL,DT,1,Siale Taupaki,SR,transfer:UCLA,63.0/290; played for Lynn at UCLA; 8th season; 319+ lbs
+DL,DT,2,Keanu Williams,SR,transfer:UCLA,65.8/458; 319+ lbs
+DL,DT,1,Armstrong Nnodim,SO,transfer:Oklahoma State,66.7/243; 319+ lbs
+DL,DT,2,Ty Blanding,JR,returning,61.7/228
+DL,DT,3,Dallas Vakalahi,SO,transfer:Utah,56.1/221
+DL,DT,3,Alijah Carnell,SO,transfer:Iowa State,62.4/123
+DL,DE,1,Ikenna Ezeogu,SR,transfer:Iowa State,57.8/566; ISU starter; 319+ lbs
+DL,DE,2,Max Granville,SO,returning,4*; negligible '25 snaps (no PFF row)
+DL,EDGE,3,Lavar Arrington II,SO,returning,moves LB->edge; no PFF row
+LB,LB,1,Tony Rojas,JR,returning,RETURNING STARTER; 73.5/176; captain; ACL (pre-UCLA); PS#19 LB; 'top returning defensive player'
+LB,LB,2,Alex Tatsch,SO,returning,60.3/108
+LB,LB,1,Caleb Bacon,SR,transfer:Iowa State,70.2/652; 4* transfer OLB; 17.5 TFL combined w/ Ebel
+LB,LB,2,Cael Brezina,JR,transfer:Iowa State,70.4/328; packs the two-deep
+LB,LB,1,Kooper Ebel,SR,transfer:Iowa State,64.1/664; 2-yr ISU MLB starter
+LB,LB,2,Cam Smith,FR,returning,60.8/1
+DB,CB,1,Audavion Collins,SR,returning,RETURNING STARTER; 68.3/538; interim-continuity retention
+DB,CB,2,Jahmir Joseph,FR,returning,82.4/91 (small); rFr
+DB,CB,1,Daryus Dixson,SO,returning,78.3/320; true-FR surge 'caused two veterans to transfer out' (P6)
+DB,CB,2,Ibn McDaniels,JR,transfer:Syracuse,58.9/109
+DB,NB,1,Zion Tracy,SR,returning,RETURNING STARTER; 63.7/435; 'Swiss Army knife' (Campbell)
+DB,NB,2,Chris Fileppo,SO,transfer:West Virginia,51.1/104
+DB,S,1,Marcus Neal Jr.,JR,transfer:Iowa State,78.8/697; 4* transfer; B12 HM; 11 TFL; 'will captain the secondary'
+DB,S,2,Jamison Patton,SR,transfer:Iowa State,58.3/497
+DB,S,1,Jeremiah Cooper,SR,transfer:Iowa State,73.3/191; injury yr; 'would be in the NFL right now' (PS/Campbell); All-B12 '23-24
+DB,S,2,Vaboue Toure,SO,returning,54.9/90
+DB,S,3,Omarion Davis,SO,transfer:Boston College,56.7/153
+ST,K,1,Ryan Barker,JR,returning,18-of-19; FBS-best 94.7%; perfect inside 50
+ST,K,2,Cristiano Rosa,JR,transfer:James Madison,
+ST,P,1,Nathan Tiyce,SO,transfer:Mississippi State,'need a P to emerge' (PS)
+ST,LS,1,,,,
+ST,KR,1,Quinton Martin Jr.,SO,returning,
+ST,PR,1,Koby Howard,SO,returning,

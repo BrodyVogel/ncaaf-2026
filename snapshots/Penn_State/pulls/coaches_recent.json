@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "James",
+  "lastName": "Franklin",
+  "hireDate": "2014-01-11T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Penn State",
+    "year": 2024,
+    "games": 16,
+    "wins": 13,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": 8,
+    "postseasonRank": 5,
+    "srs": 19.3,
+    "spOverall": 24.6,
+    "spOffense": 37.5,
+    "spDefense": 13.1
+   }
+  ]
+ },
+ {
+  "firstName": "James",
+  "lastName": "Franklin",
+  "hireDate": "2014-01-11T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Penn State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 14.4,
+    "spOverall": 18.1,
+    "spOffense": 35.1,
+    "spDefense": 18.8
+   }
+  ]
+ }
+]

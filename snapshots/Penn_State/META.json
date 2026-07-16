@@ -1,0 +1,38 @@
+{
+ "team": "Penn State",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T16:25:45+00:00",
+ "assembler_git_rev": "c6fd231",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "Franklin FIRED Oct 2025 (104-45); MATT CAMPBELL in from Iowa State (3x B12 COY) with OC Mouser + DC Lynn (PSU alum, 4-3). Interim Terry Smith and STC Lustig retained. x1.13 APPLIES.",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Cam Wallace"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [
+  "Olaivavega Ioane"
+ ],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {},
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Zuriah Fisher": "EDGE (feed) - counted DL; portal -> USC",
+  "Lavar Arrington II": "LB -> edge move (Athlon/P6); no PFF row (negligible '25 snaps)",
+  "Kolin Dinkins": "S -> Temple (distinct from Khalil Dinkins TE, yr4 expiry)",
+  "Hunter Sowell": "ISU DB arrival (5 snaps) - distinct from Chase Sowell WR",
+  "Siale Taupaki": "UCLA arrival - played for DC Lynn there; 8th season",
+  "James Peoples": "RB ex-Ohio State - verified from OSU build side"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "LT (FR Goodman vs Aliciene) and P (Tiyce) unsettled",
+  "Becht non-throwing-shoulder rehab (limited spring)",
+  "all safeties in new roles (4-3 install); Rojas ACL return",
+  "no punter tape; LS unlisted in prints"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

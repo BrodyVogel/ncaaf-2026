@@ -1,0 +1,36 @@
+{
+ "id": 213,
+ "school": "Penn State",
+ "mascot": "Nittany Lions",
+ "abbreviation": "PSU",
+ "alternateNames": [
+  "PSU",
+  "Penn State"
+ ],
+ "conference": "Big Ten",
+ "division": null,
+ "classification": "fbs",
+ "color": "#041E42",
+ "alternateColor": "#FFFFFF",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/213.png"
+ ],
+ "twitter": "@PennStateFball",
+ "location": {
+  "id": 3632,
+  "name": "Beaver Stadium",
+  "city": "University Park",
+  "state": "PA",
+  "zip": "16802",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 40.8121958,
+  "longitude": -77.8561023,
+  "elevation": "354.1551514",
+  "capacity": 106572,
+  "constructionYear": 1960,
+  "grass": true,
+  "dome": false
+ }
+}
