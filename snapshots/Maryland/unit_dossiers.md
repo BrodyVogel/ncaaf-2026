@@ -48,7 +48,8 @@ open question the grades adjudicate. WRTE 24 correctly sees all three starting W
   issues).
 - IN: Gladding (75.5/342 at ODU, SBC −1 -> 74.5; All-Sun Belt) + Durr (67.9/222 at
   Wyoming, MWC −4 -> 63.9; their #1) — combined 96/1,136/10 in '25 (P6); TE Howard
-  back from Auburn (40.0/197 — poor tape even with the SEC offset); 4* FR McDuffie.
+  back from Auburn (40.0/197 — poor tape even with the SEC offset). [ERRATUM
+  2026-07-16: McDuffie reference removed — he is Northwestern's FR, not Maryland's.]
 - Mechanical: weighted aggregate ~63 → ~p33. New room built from G5 imports + unproven
   returners; the one above-average tape (Gladding) is Sun-Belt-earned. 40, M.
 

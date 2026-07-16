@@ -1,14 +1,38 @@
 {
  "team": "Maryland",
  "units": {
-  "QB": {"grade": 60, "confidence": "M"},
-  "RB": {"grade": 38, "confidence": "M"},
-  "WRTE": {"grade": 40, "confidence": "M"},
-  "OL": {"grade": 40, "confidence": "M"},
-  "DL": {"grade": 63, "confidence": "M"},
-  "LB": {"grade": 53, "confidence": "M"},
-  "DB": {"grade": 60, "confidence": "M"},
-  "ST": {"grade": 36, "confidence": "M"}
+  "QB": {
+   "grade": 60,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 38,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 63,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 53,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 60,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 36,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -25,12 +49,19 @@
    "LB": "-25 vs proxy 78 (LB caution: the +16 offset turns two sub-58 raw tapes into 72+; only Wingate's 71.6/660 is proven at volume)",
    "DB": "-21 vs proxy 81 (proxy counts Huskey 83.6/678 - drafted - and the Roland/Lee/Humes depth exodus; P6's opponent-adjusted pass-D rank is the bearish dissent)",
    "QB": "+10 vs proxy 50 (second-year-starter consensus: 'elite' per opposing coach, spread refit, freshman-record baseline)"
-  }
+  },
+  "erratum_2026-07-16": "WRTE rationale contained a McDuffie clause belonging to Northwestern (cross-page extraction contamination). Removed. Grade drivers (Gladding/Durr imports, 3 starters gone, Fleming tape, 7p RECV) unchanged - WRTE stays 40 M. Owner alerted."
  },
  "grades_detail": [
   {
-   "team": "Maryland", "unit": "QB", "grade": 60, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Washington State DB 2025 (72)"],
+   "team": "Maryland",
+   "unit": "QB",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Washington State DB 2025 (72)"
+   ],
    "rationale_bullets": [
     "Washington's true-freshman baseline is real: 71.3 PFF/519 dropbacks (B10 +1 -> 72.3, at the p50 unit reference), 2,963 yds, 17-9, freshman school records, 773 yds in his first three games - best P4 true-FR debut since 2018 (P6).",
     "Named context: he did it behind the FBS's worst run-blocking tape (RBLK 0th pctile) and a WR room leading the nation in drops - and the elite 2% sack rate was partly his quick release (P6).",
@@ -39,15 +70,32 @@
     "Depth is weak (Kargman: 51.6/19; 43% career at Kent State). 60, M = mechanical p51 plus the trajectory consensus, well short of proven-tape rooms like Indiana's Hoover (70)."
    ],
    "key_players": [
-    {"name": "Malik Washington", "role": "QB1 (returning starter, SO)", "evidence": "71.3 PFF/519 dropbacks 2025; 2,963 yds 17-9 as true FR; freshman school records"},
-    {"name": "Devin Kargman", "role": "QB2 (transfer, Kent State)", "evidence": "51.6/19 2025; 7 career starts, 43% (PS)"}
+    {
+     "name": "Malik Washington",
+     "role": "QB1 (returning starter, SO)",
+     "evidence": "71.3 PFF/519 dropbacks 2025; 2,963 yds 17-9 as true FR; freshman school records"
+    },
+    {
+     "name": "Devin Kargman",
+     "role": "QB2 (transfer, Kent State)",
+     "evidence": "51.6/19 2025; 7 career starts, 43% (PS)"
+    }
    ],
-   "data_gaps": ["No dated spring statistical reporting on the Trickett install", "Bernhard (FR, PS#39) camp standing unknown"],
+   "data_gaps": [
+    "No dated spring statistical reporting on the Trickett install",
+    "Bernhard (FR, PS#39) camp standing unknown"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Maryland", "unit": "RB", "grade": 38, "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "team": "Maryland",
+   "unit": "RB",
+   "grade": 38,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "Williams returns as the proven piece: 68.9 PFF/128 att (B10 -0), 501 rush @ 3.9 plus 426 receiving yds - most by a Maryland RB since 2001 (P6); 45 catches (Athlon).",
     "Mechanical: 68.9 sits just below the p25 RB reference (Maryland '25 itself is the p25 aggregate at 69.6); the room's returning tape is bottom-quartile.",
@@ -56,51 +104,110 @@
     "38, M = a tick over the Illinois-32 exemplar: comparable returning grades, better receiving value, similar line problem."
    ],
    "key_players": [
-    {"name": "DeJuan Williams", "role": "RB1 (returning starter, SO)", "evidence": "68.9 PFF/128 att; 501 rush + 426 rec 2025"},
-    {"name": "Harry Dalton III", "role": "RB2 (transfer, USC rFr)", "evidence": "4* 2025 class (P6/PS); 8 career attempts"}
+    {
+     "name": "DeJuan Williams",
+     "role": "RB1 (returning starter, SO)",
+     "evidence": "68.9 PFF/128 att; 501 rush + 426 rec 2025"
+    },
+    {
+     "name": "Harry Dalton III",
+     "role": "RB2 (transfer, USC rFr)",
+     "evidence": "4* 2025 class (P6/PS); 8 career attempts"
+    }
    ],
-   "data_gaps": ["Committee shares under Trickett unknown", "Dalton's spring standing unreported"],
+   "data_gaps": [
+    "Committee shares under Trickett unknown",
+    "Dalton's spring standing unreported"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Maryland", "unit": "WRTE", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "Nebraska WRTE 2025 (50)"],
+   "team": "Maryland",
+   "unit": "WRTE",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "All three starting WRs depart (P6): Knotts (65.6/418; 717 @ 16.3), Farooq (64.6/377), O.Smith (55.3/460) - from a room that graded 7th percentile in RECV and led the nation in drops (Athlon).",
     "The imports carry the room: Gladding 75.5/342 at Old Dominion (SBC -1 -> 74.5; All-Sun Belt) and Durr 67.9/222 at Wyoming (MWC -4 -> 63.9; their #1) - combined 96/1,136/10 in 2025 (P6, level-flagged).",
     "Returners are unproven or low-graded: Webb (63.5/225; 22 rec @ 14.5), 4* Z.Smith (competing, per P6); TE Fleming caught 40 balls (2nd among B10 TEs) but graded 52.3/330 - volume without grade.",
-    "TE add Howard (Auburn) graded 40.0/197 - poor tape even with the SEC offset; 4* Top150 FR McDuffie is on the two-deep (P6).",
-    "Weighted aggregate ~63 → ~p33. 40, M = bottom-third: one Sun-Belt-proven receiver, everything else projection - but a real floor-raise vs the 7th-pctile 2025 room."
+    "TE add Howard (Auburn) graded 40.0/197 - poor tape even with the SEC offset. [Erratum 2026-07-16: an earlier McDuffie clause removed - he is a Northwestern FR; contamination during page extraction. Grade unaffected.]",
+    "Weighted aggregate ~63 \u2192 ~p33. 40, M = bottom-third: one Sun-Belt-proven receiver, everything else projection - but a real floor-raise vs the 7th-pctile 2025 room."
    ],
    "key_players": [
-    {"name": "Na'eem Abdul-Rahim Gladding", "role": "WR1 (transfer, Old Dominion)", "evidence": "75.5 PFF/342 routes 2025; All-Sun Belt (P6)"},
-    {"name": "Chris Durr Jr.", "role": "WR (transfer, Wyoming)", "evidence": "67.9/222 2025; Wyoming's top receiver (P6)"},
-    {"name": "Dorian Fleming", "role": "TE1 (returning starter)", "evidence": "52.3/330; 40 catches 2025 - 2nd among B10 TEs (Athlon)"}
+    {
+     "name": "Na'eem Abdul-Rahim Gladding",
+     "role": "WR1 (transfer, Old Dominion)",
+     "evidence": "75.5 PFF/342 routes 2025; All-Sun Belt (P6)"
+    },
+    {
+     "name": "Chris Durr Jr.",
+     "role": "WR (transfer, Wyoming)",
+     "evidence": "67.9/222 2025; Wyoming's top receiver (P6)"
+    },
+    {
+     "name": "Dorian Fleming",
+     "role": "TE1 (returning starter)",
+     "evidence": "52.3/330; 40 catches 2025 - 2nd among B10 TEs (Athlon)"
+    }
    ],
-   "data_gaps": ["Webb/Z.Smith/McDuffie battle unresolved (P6, May print)", "Whether the drops problem was personnel (gone) or scheme (fixable)"],
+   "data_gaps": [
+    "Webb/Z.Smith battle unresolved (P6, May print)",
+    "Whether the drops problem was personnel (gone) or scheme (fixable)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Maryland", "unit": "OL", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "Nebraska WRTE 2025 (50)"],
+   "team": "Maryland",
+   "unit": "OL",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "The split-personality tape: PBLK 81st pctile with a 2% sack rate (#1 in P6's pass-pro metric, 9 sacks all year) vs RBLK 0th percentile and #128 Run Push - the worst run-blocking grade in FBS.",
     "Three starters return (91 career starts - PS): Hershey 66.5/764 (All-B10-Academic C), Perry 55.3/752, and Wright 59.6/651 - the yr4 RETURNS override (Athlon two-deep bold + prose + PS unit math; P6's 'three starters gone' noted as the dissent, news.md).",
     "GONE: the best tape - All-B10 Herron (71.2/760) - and Bah (60.7/681, to LSU).",
     "IN: Lockette 72.0/277 at Texas State (SBC -0) - the best adjusted number on the projected line, 3-year starter; Gilchrist (Top100) back from a season-ending injury, 'should become an all-league star' (P6) but has no tape.",
-    "Weighted aggregate ~61 → ~p33 with the reliable-volume grades mediocre. 40, M = the experience mass and elite pass-pro skill hold it at bottom-third rather than bottom-quartile; the run game is the named fix mandate."
+    "Weighted aggregate ~61 \u2192 ~p33 with the reliable-volume grades mediocre. 40, M = the experience mass and elite pass-pro skill hold it at bottom-third rather than bottom-quartile; the run game is the named fix mandate."
    ],
    "key_players": [
-    {"name": "Michael Hershey", "role": "C (returning starter)", "evidence": "66.5 PFF/764 snaps 2025; All-B10-Academic"},
-    {"name": "Isaiah Wright", "role": "RT (returning starter; yr4 override)", "evidence": "59.6/651 2025; Athlon bold two-deep + prose 2026"},
-    {"name": "Tellek Lockette", "role": "LG (transfer, Texas State)", "evidence": "72.0/277 2025; 3-yr starter (P6)"}
+    {
+     "name": "Michael Hershey",
+     "role": "C (returning starter)",
+     "evidence": "66.5 PFF/764 snaps 2025; All-B10-Academic"
+    },
+    {
+     "name": "Isaiah Wright",
+     "role": "RT (returning starter; yr4 override)",
+     "evidence": "59.6/651 2025; Athlon bold two-deep + prose 2026"
+    },
+    {
+     "name": "Tellek Lockette",
+     "role": "LG (transfer, Texas State)",
+     "evidence": "72.0/277 2025; 3-yr starter (P6)"
+    }
    ],
-   "data_gaps": ["Gilchrist recovery status", "RG battle (Howerton/Hills/Gilchrist) unresolved"],
+   "data_gaps": [
+    "Gilchrist recovery status",
+    "RG battle (Howerton/Hills/Gilchrist) unresolved"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Maryland", "unit": "DL", "grade": 63, "confidence": "M",
-   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "team": "Maryland",
+   "unit": "DL",
+   "grade": 63,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
    "rationale_bullets": [
     "The edge pair is the case: Mathis 68.6/474 (B10 +10 -> 78.6; Top100, Shaun Alexander FR-of-Year semifinalist, 6 sk) + Stewart 63.3/585 (-> 73.3; FR All-American; school-record 10.5 TFL by a freshman) - 'already one of the best young pass rush duos in America' (P6) - plus five-star Zion Elee, the #1 DE and #5 overall recruit in the class (Athlon starts him at OLB day one).",
     "The interior is the named problem: run D collapsed to 176 ypg (4.4) with six straight 190+ games (PS); RDEF 39th pctile; Fontus portaled (Syracuse) and yr4 Rice (71.4/566 - quietly the best full-volume tape) expired.",
@@ -109,17 +216,42 @@
     "63, M = above-average: the edge talent is top-25-caliber, the interior is not, and Elee is unpriced upside."
    ],
    "key_players": [
-    {"name": "Zahir Mathis", "role": "DE (returning starter, SO)", "evidence": "68.6 PFF/474 2025; 6 sk; FR-of-Year semifinalist"},
-    {"name": "Sidney Stewart", "role": "DE (returning starter, SO)", "evidence": "63.3/585 2025; FR AA; 10.5 TFL freshman record"},
-    {"name": "Zion Elee", "role": "EDGE (5* FR signee)", "evidence": "#1 DE / #5 overall 2026 class (P6); Athlon two-deep starter"},
-    {"name": "Eyan Thomas", "role": "NT (returning starter)", "evidence": "64.2/397 2025; 300+ lbs"}
+    {
+     "name": "Zahir Mathis",
+     "role": "DE (returning starter, SO)",
+     "evidence": "68.6 PFF/474 2025; 6 sk; FR-of-Year semifinalist"
+    },
+    {
+     "name": "Sidney Stewart",
+     "role": "DE (returning starter, SO)",
+     "evidence": "63.3/585 2025; FR AA; 10.5 TFL freshman record"
+    },
+    {
+     "name": "Zion Elee",
+     "role": "EDGE (5* FR signee)",
+     "evidence": "#1 DE / #5 overall 2026 class (P6); Athlon two-deep starter"
+    },
+    {
+     "name": "Eyan Thomas",
+     "role": "NT (returning starter)",
+     "evidence": "64.2/397 2025; 300+ lbs"
+    }
    ],
-   "data_gaps": ["Lavon Johnson's Texas volume/grade (no unit-csv row)", "Elee's alignment (Athlon OLB vs P6 edge)"],
+   "data_gaps": [
+    "Lavon Johnson's Texas volume/grade (no unit-csv row)",
+    "Elee's alignment (Athlon OLB vs P6 edge)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Maryland", "unit": "LB", "grade": 53, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "team": "Maryland",
+   "unit": "LB",
+   "grade": 53,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "Full retention: Wingate 71.6/660 (B10 +16 -> 87.6) - the first 100-tackle Maryland season since 2018, 'a future pro on the inside' (PS) - plus Reddick 56.6/445, C.Smith 57.7/466 (64 tkl as a TRUE FR), Flowers 56.1/217. Only Harris (64.8/67, to USF) leaves.",
     "Attributed consensus is positive but honor-free: Locksley calls it 'the strength of the defense'; PS 'an underrated unit' - no All-B10 names in the room.",
@@ -127,35 +259,80 @@
     "53, M = average-plus: one proven tackle machine, ascending youth (C.Smith's true-FR volume is a real signal), full continuity - versus modest raw grades everywhere but MLB."
    ],
    "key_players": [
-    {"name": "Daniel Wingate", "role": "MLB (returning starter)", "evidence": "71.6 PFF/660 2025; 100+ tackles (first Terp since 2018)"},
-    {"name": "Carlton Smith", "role": "LB (SO)", "evidence": "57.7/466; 64 tkl as a true FR 2025"},
-    {"name": "Trey Reddick", "role": "ILB (returning starter)", "evidence": "56.6/445 2025; #5 tackler (PS)"}
+    {
+     "name": "Daniel Wingate",
+     "role": "MLB (returning starter)",
+     "evidence": "71.6 PFF/660 2025; 100+ tackles (first Terp since 2018)"
+    },
+    {
+     "name": "Carlton Smith",
+     "role": "LB (SO)",
+     "evidence": "57.7/466; 64 tkl as a true FR 2025"
+    },
+    {
+     "name": "Trey Reddick",
+     "role": "ILB (returning starter)",
+     "evidence": "56.6/445 2025; #5 tackler (PS)"
+    }
    ],
-   "data_gaps": ["Run-defense/coverage sub-grades unavailable in extract (LB-caution preferred signal)"],
+   "data_gaps": [
+    "Run-defense/coverage sub-grades unavailable in extract (LB-caution preferred signal)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Maryland", "unit": "DB", "grade": 60, "confidence": "M",
-   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "team": "Maryland",
+   "unit": "DB",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
    "rationale_bullets": [
     "Both corners return with honors: Joyner 73.7/726 (B10 +6 -> 79.7; HM All-B10, 'draft prospect' - Athlon) + Glasker 65.1/616 (-> 71.1; HM All-B10); PS: '7 of the top 8 back... The CBs are a strength.'",
     "The star leaves: Huskey 83.6/678 - the do-it-all safety, drafted (PS '#3 DC JAX') - plus a depth exodus (Roland 67.7/376 + Lee 64.3/282 to Arkansas, Humes 61.4/330 to Rutgers, McIntosh to Charlotte).",
     "Safety answers: Scruggs 69.2/558 (-> 75.2) returns at SS; ex-blue-chip Delhomme 62.2/375 'ready for a starting role' (P6); BC transfer Jackson 66.6/149.",
     "The signal conflict is held, not averaged: nation-best 19 INTs and PDR #69 vs P6's opponent-adjusted '52nd of 68 P4 in pass defense' and COV 40th pctile as-played - INT-heavy, coverage-soft.",
-    "Weighted aggregate ~74 (~p78) minus the best tape and the adjusted-metrics dissent → 60, M: solidly above average on the corner pair, capped by the Huskey hole."
+    "Weighted aggregate ~74 (~p78) minus the best tape and the adjusted-metrics dissent \u2192 60, M: solidly above average on the corner pair, capped by the Huskey hole."
    ],
    "key_players": [
-    {"name": "Dontay Joyner", "role": "CB1 (returning starter)", "evidence": "73.7 PFF/726 2025; HM All-B10"},
-    {"name": "Jamare Glasker", "role": "CB2 (returning starter)", "evidence": "65.1/616 2025; HM All-B10"},
-    {"name": "Lavain Scruggs", "role": "SS (returning starter)", "evidence": "69.2/558 2025"},
-    {"name": "Messiah Delhomme", "role": "FS (SO)", "evidence": "62.2/375 2025; ex-blue-chip (PS#32)"}
+    {
+     "name": "Dontay Joyner",
+     "role": "CB1 (returning starter)",
+     "evidence": "73.7 PFF/726 2025; HM All-B10"
+    },
+    {
+     "name": "Jamare Glasker",
+     "role": "CB2 (returning starter)",
+     "evidence": "65.1/616 2025; HM All-B10"
+    },
+    {
+     "name": "Lavain Scruggs",
+     "role": "SS (returning starter)",
+     "evidence": "69.2/558 2025"
+    },
+    {
+     "name": "Messiah Delhomme",
+     "role": "FS (SO)",
+     "evidence": "62.2/375 2025; ex-blue-chip (PS#32)"
+    }
    ],
-   "data_gaps": ["FS battle (Delhomme vs Carey) unresolved", "How much of the 19-INT haul was Huskey-driven"],
+   "data_gaps": [
+    "FS battle (Delhomme vs Carey) unresolved",
+    "How much of the 19-INT haul was Huskey-driven"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Maryland", "unit": "ST", "grade": 36, "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "team": "Maryland",
+   "unit": "ST",
+   "grade": 36,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "ST rule: start at the prior SPEC percentile - 21st - and adjust for personnel, which is unchanged-to-positive: BOTH decorated legs return.",
     "K O'Haire: 1st-team All-B10; 21-24 (87.5% - 2nd-most accurate season in school history); led the league at 1.75 FG/gm (Athlon).",
@@ -164,10 +341,20 @@
     "36, M = above the baseline for leg quality and continuity, capped by the unit-wide tape."
    ],
    "key_players": [
-    {"name": "Sean O'Haire", "role": "K (returning)", "evidence": "21-24, 87.5% 2025; 1st-tm All-B10"},
-    {"name": "Bryce McFerson", "role": "P (returning)", "evidence": "44.2 avg 2025; 2nd-tm All-B10"}
+    {
+     "name": "Sean O'Haire",
+     "role": "K (returning)",
+     "evidence": "21-24, 87.5% 2025; 1st-tm All-B10"
+    },
+    {
+     "name": "Bryce McFerson",
+     "role": "P (returning)",
+     "evidence": "44.2 avg 2025; 2nd-tm All-B10"
+    }
    ],
-   "data_gaps": ["Coverage-unit personnel turnover not separately tracked"],
+   "data_gaps": [
+    "Coverage-unit personnel turnover not separately tracked"
+   ],
    "g5_guard_note": null
   }
  ]

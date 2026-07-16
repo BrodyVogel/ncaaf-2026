@@ -49,7 +49,8 @@ eight straight losses (three by one score: UW 20-24, NEB 31-34, UCLA 17-20).
   Fleming (40 catches — 2nd among B10 TEs; 351 @ 8.8) is the top returning catcher.
 - IN: Durr (Wyoming's top receiver) + Gladding (Old Dominion; All-Sun Belt) — combined
   96 rec, 1,136 yds, 10 TD in '25 (P6); TE Preston Howard back from Auburn (former
-  Terp); 4* Top150 FR McDuffie on the two-deep (P6).
+  Terp). [ERRATUM 2026-07-16: a 'FR McDuffie' clause removed — that player is
+  Northwestern's (P6 NU article); cross-page contamination during extraction.]
 
 ## OL
 - '25: elite pass protection — sack on just 2% of attempts, #1 in P6's pass-pro

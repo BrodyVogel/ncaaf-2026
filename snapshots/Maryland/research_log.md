@@ -14,3 +14,4 @@
   Colorado, Temple). Forward flags: J.Martin -> Ohio State; Humes -> Rutgers.
 - Gaps searched, not established: Gilchrist recovery timeline; Elee's exact alignment
   (Athlon OLB vs P6 "off the edges"); RG battle (Howerton/Hills/Gilchrist).
+- 2026-07-16 ERRATUM (post-freeze, owner-alerted): McDuffie clause removed from magazines/dossier/grades WRTE rationale — Northwestern player, cross-page contamination; zero grade impact (drivers unchanged).
