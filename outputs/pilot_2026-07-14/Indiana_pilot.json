@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T14:54:04+00:00",
+ "team": "Indiana",
+ "final": 21.65,
+ "rank": 7,
+ "band": 6.0,
+ "resid": -13.25,
+ "adj": -4.64,
+ "class_term": -0.0,
+ "st": 0.3,
+ "anchor_blend": 25.46,
+ "resid_level": -13.45,
+ "resid_shape": 0.2,
+ "implied_off": 31.0,
+ "implied_def": 19.39,
+ "anchor_off": 37.88,
+ "anchor_def": 13.02,
+ "fit_r2": {
+  "off": 0.53,
+  "dfn": 0.606
+ },
+ "low_conf_units": 0,
+ "code_rev": "5df27dd",
+ "mode": "PILOT-OOS"
+}

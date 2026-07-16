@@ -40,7 +40,7 @@
    ],
    "key_players": [
     {"name": "Josh Hoover", "role": "QB1 (transfer, TCU)", "evidence": "76.8 PFF/480 dropbacks 2025; 9,629/71 TD across 31 starts 2023-25 (PS/P6/Athlon)"},
-    {"name": "Tyler Cherry", "role": "QB2 (true FR)", "evidence": "no college tape; Athlon two-deep QB2"}
+    {"name": "Tyler Cherry", "role": "QB2 (true FR signee)", "evidence": "no college tape; Athlon two-deep QB2"}
    ],
    "data_gaps": ["Wilson feed-year conflict (news.md) leaves QB3 ambiguity; not load-bearing", "No dated camp report on Hoover's INT profile beyond the books' May prints"],
    "g5_guard_note": null
