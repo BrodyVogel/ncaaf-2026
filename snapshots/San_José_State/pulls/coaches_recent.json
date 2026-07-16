@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Ken",
+  "lastName": "Niumatalolo",
+  "hireDate": "2024-01-21T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "San Jos\u00e9 State",
+    "year": 2024,
+    "games": 13,
+    "wins": 7,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -7.1,
+    "spOverall": -5.5,
+    "spOffense": 26.1,
+    "spDefense": 30.1
+   }
+  ]
+ },
+ {
+  "firstName": "Ken",
+  "lastName": "Niumatalolo",
+  "hireDate": "2024-01-21T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "San Jos\u00e9 State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -14.4,
+    "spOverall": -14.3,
+    "spOffense": 21.6,
+    "spDefense": 34.4
+   }
+  ]
+ }
+]

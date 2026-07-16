@@ -1,0 +1,60 @@
+{
+ "team": "San José State",
+ "conference": "Mountain West",
+ "created_utc": "2026-07-16T23:39:00+00:00",
+ "assembler_git_rev": "369f94e",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Niumatalolo yr 3 (10-15 here; 119-98 career; Navy all-time wins leader). DC-only change (Filimoeatu promoted internally - ran the final two games of '25); new pass-game coordinator Norwood. HC-only rule: x1.0.",
+ "portal_departure_confirmed": [
+  "Denaris DeRosa",
+  "Joseph Bey",
+  "Noah McNeal-Franklin",
+  "Isiah Revis"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Malakai Hoeft"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Larry Turner-Gooden"
+ ],
+ "known_name_exceptions": {
+  "Larry Turner-Gooden": "S, 342 snaps at 71.4 (best returning DB tape): NOT in out-feed, NOT yr4, absent from BOTH prints' 15-deep DB rooms. research-GONE, destination unknown (Spoth pattern).",
+  "Lamar Radcliffe": "RB, 67 att at 70.8: feed-silent, not yr4, PS affirmative 'only Bates and Teu return.' GONE per print; sub-100-vol (below ledger bar).",
+  "Jordan Anderson": "WR <- Sacramento State (PS: 12 gm, 361 @ 15.0 LY at SacSt; Athlon WR2*): ABSENT from SJSU in-feed AND SacSt out-feed - FIRST TWO-SIDED FEED MISS of the project. SacSt retro check: their WRTE graded 10 (floor) with the exodus priced - no retro impact.",
+  "Dejon Roney": "yr4 + PS-only depth line (1 st, 29 gm L3Y) - EXPIRED per Goodell/Hilty.",
+  "Floyd Chalk IV": "yr4; PS notes he CHOSE to RS in '25 (wk 5) so the feed year may miscount, but both prints' 2026 RB rooms exclude him ('only Bates and Teu return') - expired, print-consistent.",
+  "Malakai Hoeft": "feed yr4; returns per TWO prints (Athlon OLB2 + PS JC line). Override STAYS.",
+  "Tama Amisone": "QB->WR position convert (both prints). His 62 QB snaps at 65.6 stay QB-room evidence for 2025 context only; graded in WRTE room 2026.",
+  "Tuli Tagovailoa-Amosa": "WR->S convert (both prints; 84 rec yds '25). Graded in DB room; also PR1.",
+  "Ethan Powell": "starter-label print split: PS caps (returning starter, 6 st '24 + 6 st '25) vs Athlon DEFENSE (0). Starts documented; treated as the defense's one returning starter-equivalent.",
+  "Daniel Tuliau": "Athlon C2 (Sr) PS#394 - not in feed; feed-gap depth, origin unresolved.",
+  "Matthew Coleman": "out-feed -> Sacramento State; already closed from SacSt side ('Matt Coleman' cited-form exception there). Both-feed agreement verified this build.",
+  "Walker Eget": "QB -> Duke (out-feed) + yr4 both true; departure doubly confirmed."
+ },
+ "feed_gap_arrivals_documented": [
+  "Jordan Anderson (WR - Sacramento State; TWO-SIDED feed miss)",
+  "Daniel Tuliau (OL - origin unresolved; Athlon C2)"
+ ],
+ "position_notes": {
+  "P4 HARVEST": "10 FBS-destination exits: Scudero (2025 NATIONAL receiving-yards leader) + Taufatofua -> Colorado; Moe + Chavez-Soto + Shoels -> UTAH (x3); Smith -> UCLA; Eget -> Duke; J.Thomas -> Wash St; Hale -> Arizona; Presley -> Colorado St.",
+  "SYSTEM NOTE": "national receiving-yardage leader in BOTH Niumatalolo years (Nash '24 triple crown, Scudero '25) - both first-year transfers; 552-att record '24. Modest premium credited at QB/WRTE via L-flags, not higher grades (per GRADING_BIAS_DIAG evidence-first rule).",
+  "Isaiah Buxton": "SDSU arrival WITH 2025 tape (148 snaps, 69.8 -> 67.4 MWC-adj) - the DB room's best evidence.",
+  "Luke Weaver": "Hawai'i arrival tape (136 snaps, 55.5 -> 48.2 MWC-adj) - intra-round: verify vs Hawai'i out-feed at their build.",
+  "Jackson Barton": "Nevada arrival (11 snaps) - intra-round: verify vs Nevada out-feed at their build.",
+  "Trent Carrizosa": "ex-Colorado ('22) pre-2025 move, no retro; 45.6/40.4 net, PS 'NFL potential.'",
+  "13-game schedule": "2026 slate lists 13 games (Hawai'i-trip exemption)."
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "Turner-Gooden + Radcliffe destinations unknown",
+  "QB three-way unresolved (spring leader = McDaniel)",
+  "Tuliau origin unresolved",
+  "PS internal discrepancy: forecast prose 'one returning starter on offense' vs lineup caps x2 (Harbert, Chen)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

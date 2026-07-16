@@ -1,0 +1,15 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Peseti Lapuaho,159070,T,S JOSE ST,12,100.0,0,285,33.1,31.0,39.2,4,27,522,100.0,100.0,96.8,6,32,1,829,0,0,828,829,555,555,0,0,274,0,2025_this_team
+Joseph Harbert,157842,C,S JOSE ST,12,100.0,0,285,57.7,57.6,57.5,4,13,514,100.0,100.0,98.3,6,17,0,816,619,20,4,816,546,546,120,53,270,0,2025_this_team
+Sione Nomani,188840,G,S JOSE ST,12,100.0,4,285,46.8,55.1,46.6,3,11,458,100.0,100.0,98.5,13,14,0,736,0,736,0,736,487,487,0,0,249,0,2025_this_team
+Tyler Chen,173000,G,S JOSE ST,11,100.0,0,285,62.2,60.1,63.0,0,16,427,100.0,100.0,97.7,4,18,2,680,0,34,10,680,454,454,514,122,226,0,2025_this_team
+Nathan Hale,174865,T,S JOSE ST,10,100.0,0,285,53.7,59.9,45.2,7,16,412,100.0,100.0,97.2,2,23,0,670,0,0,0,670,440,440,0,670,230,0,2025_this_team
+Hudson Mesa,90875,C,S JOSE ST,8,100.0,0,285,56.3,46.0,61.0,1,6,145,100.0,100.0,97.6,2,7,0,226,226,0,0,226,151,151,0,0,75,0,2025_this_team
+Daniel Moleni,188839,G,S JOSE ST,3,100.0,1,285,59.3,74.5,55.7,0,2,98,100.0,100.0,99.0,2,2,0,157,0,0,0,157,103,103,157,0,54,0,2025_this_team
+Denaris DeRosa Jr.,157839,G,S JOSE ST,8,100.0,0,285,56.7,39.2,59.9,0,2,47,100.0,100.0,97.9,0,2,0,76,0,31,0,76,52,52,45,0,24,0,2025_this_team
+Uluakinofo Taliauli,157841,G,S JOSE ST,1,100.0,0,285,53.5,23.2,59.0,0,2,15,100.0,100.0,93.3,0,2,0,22,0,22,0,22,15,15,0,0,7,0,2025_this_team
+Simeon Afalava,199138,G,S JOSE ST,2,100.0,0,285,47.9,61.0,45.9,0,0,6,100.0,100.0,100.0,0,0,0,11,0,2,0,11,6,6,9,0,5,0,2025_this_team
+Manuel Serna,188846,G,S JOSE ST,1,100.0,0,285,60.0,66.4,60.0,0,0,1,100.0,100.0,100.0,0,0,0,2,0,0,2,2,1,1,0,0,1,0,2025_this_team
+Makoni Manukainiu,188837,T,S JOSE ST,1,100.0,0,285,60.0,,59.7,0,0,0,,,,0,0,0,2,0,0,0,2,0,0,0,0,2,2,2025_this_team
+Lavaka Taukeiaho,164490,G,OKLA STATE,1,100.0,0,262,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,0,1,0,0,0,0,1,0,arrival_2025_at_OKLA STATE
+Brian Tapu,199794,T,NEBRASKA,1,100.0,0,238,60.0,66.7,,0,0,1,100.0,100.0,100.0,0,0,0,1,0,0,1,1,1,1,0,0,0,0,arrival_2025_at_NEBRASKA

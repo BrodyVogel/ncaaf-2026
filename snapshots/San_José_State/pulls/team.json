@@ -1,0 +1,37 @@
+{
+ "id": 23,
+ "school": "San Jos\u00e9 State",
+ "mascot": "Spartans",
+ "abbreviation": "SJSU",
+ "alternateNames": [
+  "San Jose St.",
+  "SJSU",
+  "San Jos\u00e9 St"
+ ],
+ "conference": "Mountain West",
+ "division": null,
+ "classification": "fbs",
+ "color": "#005893",
+ "alternateColor": "#fdba31",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/23.png"
+ ],
+ "twitter": "@SanJoseStateFB",
+ "location": {
+  "id": 3935,
+  "name": "CEFCU Stadium",
+  "city": "San Jose",
+  "state": "CA",
+  "zip": "95112",
+  "countryCode": "US",
+  "timezone": "America/Los_Angeles",
+  "latitude": 37.3196675,
+  "longitude": -121.8682962,
+  "elevation": "28.30708694",
+  "capacity": 30456,
+  "constructionYear": 1933,
+  "grass": false,
+  "dome": false
+ }
+}

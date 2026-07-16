@@ -1,0 +1,55 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Robert McDaniel,FR,returning,rFr; 17 snaps 40.8; 3rd-string '25; spring leader; Athlon QB1
+QB,QB,1,Luke Weaver,SR,transfer:Hawai'i,136 snaps 55.5 MWC '25 (48.2 adj); 2 st 628 @ 60% 6-3 + 115 rush; PS QB1
+QB,QB,2,Daniel Rolovich,FR,recruit,true FR; 'big kid big arm'
+RB,RB,1,Jabari Bates,SR,returning,80.5 grade (71.6 adj); 7.1 ypc team-best; ~50 ypg as reserve; KR1
+RB,RB,2,Viliami Teu,JR,returning,75.2/17 att; 70 @ 4.1
+RB,RB,3,Tyler Jacklich,JR,transfer:West Virginia,8 att '25; Mercer '24: 842 yds
+RB,RB,3,Sir Autry,FR,returning,rFr PS#197
+WRTE,WR,1,Malachi Riley,JR,returning,20 routes 59.0; Wk1 injury '25; ex-Arizona (97 @ 19.4); Athlon WR1
+WRTE,WR,1,Anthony Ivey,SR,transfer:Penn State,22 gm 15.0 avg L2Y; pedigree add
+WRTE,WR,2,Jordan Anderson,SO,transfer:Sacramento State,TWO-SIDED FEED MISS; 12 gm 361 @ 15.0 FCS '25
+WRTE,WR,2,Tama Amisone,SO,returning,QB->WR convert; 62 QB snaps 65.6 '25; run threat
+WRTE,WR,2,Dominique McKenzie,SO,transfer:BYU,2 routes '25; 41 rush yds
+WRTE,WR,3,Cooper Hoch,JR,returning,79 routes 56.2; 4 st 25 gm L2Y
+WRTE,WR,3,Carson Clark,FR,recruit,PS#123; Athlon #1 recruit
+WRTE,TE,1,Jerry McClure,JR,transfer:San Diego State,9 routes '25; 10 gm L2Y; thin TE room
+OL,C,1,Joseph Harbert,SR,returning,816 snaps 57.7 (47.6 MWC-adj); 14 st L2Y; BOLD; all-league candidate
+OL,RG,1,Tyler Chen,JR,returning,680 snaps 62.2 (52.1 adj); 13 career st (10 RG/2 RT/1 C); BOLD
+OL,LG,1,Daniel Moleni,SR,returning,157 snaps 59.3; 3 st (RG) '25
+OL,LT,1,Brian Tapu,FR,transfer:Nebraska,rFr; DNP at Nebraska; PS#91; Athlon LT1
+OL,LT,2,Lavaka Taukeiaho,SR,transfer:Oklahoma State,1 snap '25; Weber St 9 st '24
+OL,RT,1,Simeon Afalava,SR,returning,11 snaps 47.9; JC '24; 12 gm '25
+OL,RT,2,Ikinasio Tupou,SO,transfer:BYU,1 gm L2Y; PS#189
+OL,RG,2,Makoni Manukainiu,SO,returning,16 gm L2Y; PS#294
+OL,C,2,Daniel Tuliau,SR,transfer:unresolved,PS#394; Athlon C2; origin not in feed - feed-gap depth
+DL,DE,1,Justin Stearns,SR,returning,232 snaps 64.7 (62.5 adj); 6 career st; PS#147
+DL,DE,2,Jeremiah Tuiileila,FR,transfer:San Diego State,rFr DNP; PS#209
+DL,NT,1,Solomone Langi,SR,returning,208 snaps 71.4 (69.2 adj); 'the top guy' (PS)
+DL,NT,2,Jayland McGlothen,JR,transfer:Sacramento State,5 st 31 tkl FCS '25; SacSt flag RETIRED
+DL,DT,1,Noa Siaosi,JR,returning,165 snaps 52.1 (49.9 adj)
+DL,DT,2,Ian Shewell,SR,transfer:Arizona State,15 snaps '25; NM '22: 3 st
+DL,DE,1,Nate Lewis,SR,returning,44 snaps 59.3; 'athletic... development' (Athlon)
+DL,DE,2,Etu Finau,SR,returning,192 snaps 47.8
+LB,OLB,1,Ethan Powell,SR,returning,416 snaps 64.3 (59.6 adj); 6 st '24 + 6 st '25; PS caps vs Athlon (0) label split
+LB,OLB,2,Dylan Lee,JR,returning,16 snaps 62.7; 25 gm L2Y; solid spring
+LB,MLB,1,Naseri Danielson,JR,returning,30 snaps 61.9; 1 st '24; solid spring
+LB,MLB,2,Aizik Mahuka,JR,transfer:Weber State,24 gm 35 tkl 4 tfl L2Y FCS; big spring impression
+LB,OLB,1,Zane Carter,JR,returning,JC PS#208; DNP '25 (injury); slated '25 starter
+LB,OLB,2,Malakai Hoeft,SR,returning,yr4-OVERRIDE (2 prints); JC; 17 gm 8 tkl L2Y
+DB,CB,1,Kejuan Bullard Jr.,SR,returning,12 gm '25; PS#299
+DB,CB,2,Maliki Crawford,JR,returning,2 gm '25; PS#66
+DB,CB,1,Greco Carrillo,SO,returning,DNP '25 (injury; would have started); 3 gm '24
+DB,CB,2,Isaiah Buxton,SO,transfer:San Diego State,148 snaps 69.8 '25 (67.4 MWC-adj) - the room's best tape
+DB,S,1,Brian Dukes Jr.,SR,transfer:Cal Poly,37 gm 177 tkl last 4 yrs FCS
+DB,S,2,Jackson Barton,SO,transfer:Nevada,11 snaps '25; intra-round fwd (Nevada build)
+DB,S,1,Tuli Tagovailoa-Amosa,SO,returning,WR->S convert (both prints); 74 routes 54.7 '25
+DB,S,2,Pierce Walker,SO,transfer:Portland State,12 st 73 tkl 4.5 tfl 6 pbu FCS '25
+DB,ROV,1,Dylan Womack,SR,returning,PS Rover1; 23 gm 7 tkl L2Y; DNP F2Y
+DB,S,3,Jonathan Watts,SO,transfer:Idaho State,in feed
+ST,P,1,Trent Carrizosa,SR,returning,39 punts 45.6 / 40.4 net; PS#144 'NFL potential'; ex-Colorado
+ST,K,1,Trajan Sinatra,JR,transfer:Idaho State,18-22 FG L/56; 2nd-Tm FCS AA; 1st-Tm Big Sky
+ST,K,2,Mathias Brown,JR,returning,4-7 FG L/46 '25
+ST,KR,1,Jabari Bates,SR,returning,KR1 both prints
+ST,PR,1,Tuli Tagovailoa-Amosa,SO,returning,PR1 both prints
+ST,LS,1,Dylan Aguilera,SR,transfer:Lafayette,in feed
