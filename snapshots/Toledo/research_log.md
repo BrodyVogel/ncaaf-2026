@@ -47,3 +47,15 @@
   resolved toward tape. 2 L-units -> conf x1.06; with coach x1.13.
 - 2026-07-16 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-16 grades.json written + schema-validated (8/8); gates re-run
+  clean (ledger 37 rows / 0 to adjudicate).
+- 2026-07-16 pilot_readout: FINAL -9.12 (r102/138), band ±7.91 = NEW WIDEST
+  OF THE PROJECT (coach 1.13 x dispersion 1.10 x conf 1.06 [2 L-units]).
+  QUADRUPLE WINSORIZATION - project first: SP+ (-11.5 -> -7.56), TR (-8.72
+  -> -7.56), FEI (+1.78 -> -1.35), Massey (-1.13 -> -1.35) all clipped;
+  only FPI used raw. Anchor sources split into two camps (returning-
+  production systems -8..-12 vs program-prior systems -1..+2); dispersion
+  13.28 = PROJECT HIGH, flag fired. resid -12.13 = level +2.49 + shape
+  -14.62 (LARGEST NEGATIVE SHAPE of the project; prior: Ohio -10.27).
+  k x resid -4.25 (unclipped). Grades cooler than anchors on BOTH sides
+  (off -3.30, def +8.83 points-allowed).
