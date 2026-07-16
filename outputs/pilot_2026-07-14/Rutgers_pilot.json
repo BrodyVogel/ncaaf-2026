@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T17:23:06+00:00",
+ "team": "Rutgers",
+ "final": 2.01,
+ "rank": 59,
+ "band": 6.0,
+ "resid": 1.67,
+ "adj": 0.59,
+ "class_term": -0.0,
+ "st": -0.12,
+ "anchor_blend": 1.06,
+ "resid_level": -0.52,
+ "resid_shape": 2.19,
+ "implied_off": 28.68,
+ "implied_def": 26.04,
+ "anchor_off": 30.03,
+ "anchor_def": 29.07,
+ "fit_r2": {
+  "off": 0.54,
+  "dfn": 0.614
+ },
+ "low_conf_units": 0,
+ "code_rev": "2d49954",
+ "mode": "PILOT-OOS"
+}

@@ -1,0 +1,174 @@
+{
+ "team": "Rutgers",
+ "units": {
+  "QB": {"grade": 52, "confidence": "M"},
+  "RB": {"grade": 74, "confidence": "M"},
+  "WRTE": {"grade": 60, "confidence": "M"},
+  "OL": {"grade": 50, "confidence": "M"},
+  "DL": {"grade": 54, "confidence": "M"},
+  "LB": {"grade": 54, "confidence": "M"},
+  "DB": {"grade": 36, "confidence": "M"},
+  "ST": {"grade": 44, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (2d49954)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines; the Moses Walker yr4-override ledger catch happened pre-freeze and the LB dossier already counted him returning."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 53, RB 58, WRTE 101*, OL 12*, DL 70, LB 43, DB 6, ST 19) - *WRTE 101 and OL 12 flagged as generator artifacts in the dossier",
+   "RB": "+16 vs proxy 58 (proxy under-weights Raymond's 89.0/244 - the best returning RB tape in the B10 round)",
+   "WRTE": "-41 vs artifact proxy 101 (impossible value; grade reflects Duff alone among proven pieces)",
+   "OL": "+38 vs artifact proxy 12 (contradicts three 69-73-graded 830+-snap '25 bodies; two return via yr4 overrides)",
+   "DL": "-16 vs proxy 70 (proxy counts the four departed starters; the restock is all G5-discounted)",
+   "DB": "+30 vs proxy 6 (proxy is the historic-bad '25 room; the rebuild adds FCS/G5 quantity - graded 36, still the round's lowest)",
+   "ST": "+25 vs proxy 19 (full continuity incl. a school-record-career K; '25 was the outlier of the Patel era)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Rutgers", "unit": "QB", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Syracuse QB 2025 (p25 ref, 63.2)", "Maryland QB 2025 (p50 ref, 71.8)"],
+   "rationale_bullets": [
+    "Kaliakmanis (88.8 PFF/463 - 3,124 @ 62%, 20-7, rd-7 WAS) expires off the best Rutgers offense of the B10 era; the replacement is a two-4*s August battle.",
+    "Lonergan (70.8/330 at BC, ACC +2 -> 72.8): 9 starts, 2,025 @ 67%, 12-5 - Saban-recruited, O'Brien-handpicked, strong September, then 'slowed down once opposing coordinators got some film, and he was eventually benched' (P6).",
+    "Surace (66.5/12): ex-4*, two-year incumbent backup, 'high ceiling but minimal snaps' (P6); Athlon lists him first, PS starts Lonergan.",
+    "The system case: Ciarrocca yr 4 with back-to-back top offenses and elite support (Raymond, Duff, two OL anchors).",
+    "52, M: the better tape (72.8 adj at 330 dropbacks) comes with a benching; the incumbent is unproven; the scheme and skill talent hold the floor at league-median-minus."
+   ],
+   "key_players": [
+    {"name": "Dylan Lonergan", "role": "QB1 candidate (transfer, Boston College)", "evidence": "70.8 PFF/330; 9 st, 2,025 @ 67%, 12-5 in 2025"},
+    {"name": "AJ Surace", "role": "QB1 candidate (returning)", "evidence": "66.5/12; ex-4*; 2-yr backup"}
+   ],
+   "data_gaps": ["battle unresolved into August", "Lonergan's benching - film-adjustment or talent ceiling?"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Rutgers", "unit": "RB", "grade": 74, "confidence": "M",
+   "bracketing_exemplars": ["Memphis RB 2025 (p50 ref, 76.9)", "Arizona State RB 2025 (p90 ref, 87.9)"],
+   "rationale_bullets": [
+    "Raymond returns as the best returning RB tape in the B10 round: 89.0 PFF/244 att, 1,241 @ 5.1, 2nd-team All-B10, Doak Walker semifinalist - and the 41-carry/240-yard Purdue game ranks third all-time at Rutgers behind two Ray Rice games (P6).",
+    "The retention itself was the offseason's headline win (P6's three-requirements frame) - he closed 2025 with 161 vs Minnesota and 189 vs Penn State.",
+    "Support: Benjamin (73.4/68; 328 @ 4.8) and Thevenin (78.1/130 at LA Tech, CUSA -8 -> 70.1; 634 @ 4.8); RBLK graded p96 in '25.",
+    "PS: 'Raymond should net them a 4th-straight 1,000 yard rusher.'",
+    "74, M: an ~p92 tape workhorse at real volume, tempered by a rebuilt pass-pro line and a thinner room behind him."
+   ],
+   "key_players": [
+    {"name": "Antwan Raymond", "role": "RB1 (returning starter)", "evidence": "89.0 PFF/244; 1,241 @ 5.1; 2nd-tm All-B10; Doak semifinalist"},
+    {"name": "Clay Thevenin", "role": "RB2 (transfer, LA Tech)", "evidence": "78.1/130 (CUSA -8 -> 70.1); 634 @ 4.8"}
+   ],
+   "data_gaps": ["OL pass-pro floor may force loaded boxes", "no proven RB2 at P4 level"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Rutgers", "unit": "WRTE", "grade": 60, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50 anchor, 66.4)", "Houston WRTE 2025 (78 anchor, 71.1)"],
+   "rationale_bullets": [
+    "Duff is a true alpha: 83.4 PFF/438 routes (B10 -1 -> 82.4, ~p90 tape), 1,084 @ 18.1, 2nd-team All-B10, 6'6 with a 17-yard aDOT - 'one of the best players in the Big Ten this season' (Athlon).",
+    "Everything behind him left or is unproven: Strong (78.9/356) to Cal with a 4* exit ranking, Sheffield (61.8/419) and TE Fletcher (76.0/189) expired; Black (57.7/118) moves up; M. Thomas (76.2/6) and 4* true FR Carter man the slot; the TE room is Blake (47.6/23) + Anthony (45.7/101 at Ball St, MAC -7 -> 38.7).",
+    "PS still calls the corps 'strong'; Athlon expects a real competition behind Duff.",
+    "60, M: the Houston-78 exemplar shape (one elite volume leader over a thin cast) argues above the ~63 aggregate; the total lack of a proven #2 argues below. Graded at the midpoint of those pulls."
+   ],
+   "key_players": [
+    {"name": "KJ Duff", "role": "WR1 (returning starter)", "evidence": "83.4 PFF/438; 1,084 @ 18.1; 2nd-tm All-B10"},
+    {"name": "Ben Black", "role": "WR2 (returning)", "evidence": "57.7/118; 2 st, 119 yds 2025"},
+    {"name": "Dyzier Carter", "role": "slot (4* true FR signee)", "evidence": "recruit - top-10 class signee; Athlon slot WR1"}
+   ],
+   "data_gaps": ["zero proven #2", "TE room production void"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Rutgers", "unit": "OL", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["Michigan OL 2025 (p50 ref, 65.5)", "Western Kentucky OL 2025 (25 anchor, 55.4)"],
+   "rationale_bullets": [
+    "Two proven anchors return via the yr4-skew overrides (both triple-print-evidenced): Asamoah (71.5 PFF/849 -> 70.5; consecutive All-B10 seasons; 'a lock' - Athlon) and Needham (67.6/751 -> 66.6; 20 st L2Y) - 'a combined 55 starts' (P6).",
+    "Two original '25 projected starters return from injury (Langsdale, Chin 61.2/98) and the C battle is Salami (68.8/49; PS C1) vs H. Zilinskas (11 st at Colorado '23-24); Giwa (79.1/111) mans RT with Vigna (81.3/23) rising.",
+    "GONE: G. Zilinskas (73.2/836) + Felter (69.8/846) graduated, White (65.6/755) to Colorado, Stone to Temple - three of the five volume tapes.",
+    "The split personality: RBLK graded p96 (Raymond's lanes) while pass pro collapsed (#127, 10% sack rate; PBLK p45). New OL coach (Turner).",
+    "50, M: anchor quality at league-average tape levels, real returning experience, but half the '25 volume is gone and the pass-pro floor is documented."
+   ],
+   "key_players": [
+    {"name": "Kwabena Asamoah", "role": "RG (returning starter; yr4 override)", "evidence": "71.5 PFF/849; 2x All-B10"},
+    {"name": "Tyler Needham", "role": "T (returning starter; yr4 override)", "evidence": "67.6/751; 20 st L2Y"},
+    {"name": "Moshood Giwa", "role": "RT (returning)", "evidence": "79.1/111; 1 st, 10 gm 2025"}
+   ],
+   "data_gaps": ["C battle unresolved", "Langsdale/Chin health", "pass-pro fix under a new line coach"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Rutgers", "unit": "DL", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Baylor DL 2025 (p50 ref, 67.7)", "Wake Forest DL 2025 (60 anchor, 70.5)"],
+   "rationale_bullets": [
+    "The entire 2025 starting line is gone: O'Neill (74.5/471; the top pass rusher), Weaver (61.1/402), Thompson (61.8/353) graduated, Walker (67.1/337) to Georgia Tech - off a front that allowed 284 rush ypg over the last six games with 2 sacks (PS).",
+    "The restock is an all-league G5 trio, every one a 3* transfer: Davis (81.5 PFF/442 at Toledo, MAC -6 -> 75.5; 3rd-team MAC, 5.5 sk), Burnett (79.2/526 at Tulsa, AAC -6 -> 73.2; 2nd-team AAC, 6.5 sk), Porter (79.2/534 at App State, SBC -6 -> 73.2).",
+    "Returning interior via yr4 overrides: Angoy (62.8/332 -> 72.8) + Griffin (63.4/305 -> 73.4) + Blue-Eli (injury return; 10 st at USF prior) + Gnago (76.0/102 -> 86.0 small).",
+    "Athlon's frame is the tell: 'coaches hope one of the defensive end transfers could be the first Scarlet Knight to collect five sacks in a season in a decade.'",
+    "54, M: the adjusted two-deep (~73) resembles the Wake-60 anchor but with ZERO returning P4 starter volume, a p3 as-played RDEF prior, and a first-year FCS coordinator - discounted below the anchor."
+   ],
+   "key_players": [
+    {"name": "Malachi Davis", "role": "DE (transfer, Toledo)", "evidence": "81.5 PFF/442 (MAC -6 -> 75.5); 5.5 sk, 3rd-tm MAC"},
+    {"name": "J'Dan Burnett", "role": "DE (transfer, Tulsa)", "evidence": "79.2/526 (AAC -6 -> 73.2); 6.5 sk, 2nd-tm AAC"},
+    {"name": "Rondo Porter", "role": "DT (transfer, App State)", "evidence": "79.2/534 (SBC -6 -> 73.2); 12 st"},
+    {"name": "Zaire Angoy", "role": "DT (returning; yr4 override)", "evidence": "62.8/332 (-> 72.8); 11 st 2025"}
+   ],
+   "data_gaps": ["G5-to-B10 translation for all three imports", "Blue-Eli injury return", "new scheme"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Rutgers", "unit": "LB", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Buffalo LB 2025 (p50 ref, 66.5)", "Nevada LB 2025 (p25 ref, 56.3)"],
+   "rationale_bullets": [
+    "Two live returners: Wright (59.0 PFF/463, B10 +16 -> 75.0; 7 st, 58 tkl) and Moses Walker (68.0/137 -> 84.0) - OFY after four games; in '24 he was the first Rutgers soph over 100 tackles since 2020. Athlon BOLDS Walker as a returning starter (his yr4 feed-skew override was a ledger-review catch, documented in news.md).",
+    "The import: Morris (67.8/827 at Rice, AAC -11 -> 56.8) - All-AAC with 88 tkl and 9.5 tfl at genuine full volume, heavily discounted by the offset; Allison (Drake - Pioneer POY, 125 tkl) is FCS tape.",
+    "Djabome (51.0/659) expires - the weakest full-volume tape in the room leaves.",
+    "LB caution applied: Walker's 84.0 rides 137 snaps (injury-shortened, pedigree-corroborated - the Rojas pattern); Wright's 75.0 is offset-driven; Morris is the only full-volume '25 body.",
+    "54, M: 'Schiano is known for crafting solid LB corps' (PS); graded at the caution-weighted aggregate, in the MSU-53/Minnesota-55 tier."
+   ],
+   "key_players": [
+    {"name": "Abram Wright", "role": "LB1 (returning starter)", "evidence": "59.0 PFF/463 (B10 +16 -> 75.0); 58 tkl"},
+    {"name": "Moses Walker", "role": "LB (returning; yr4 override)", "evidence": "68.0/137; OFY '25; 100+ tkl as soph '24"},
+    {"name": "Ty Morris", "role": "LB (transfer, Rice)", "evidence": "67.8/827; All-AAC, 88 tkl, 9.5 tfl"}
+   ],
+   "data_gaps": ["Walker health", "Morris AAC discount vs volume", "Allison FCS translation"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Rutgers", "unit": "DB", "grade": 36, "confidence": "M",
+   "bracketing_exemplars": ["UNLV DB 2025 (p25 ref, 62.8)", "Ball State DB 2025 (p3 ref, 55.8)"],
+   "rationale_bullets": [
+    "The 2025 unit was the worst statistical defense P6 has ever graded (#131 opponent QB rating, #130 y/a, dead last adjusted) and then lost four of five starters: Mascoe (77.2/590 - the best tape) to Texas, Henderson (59.7/600) to Virginia, Elad (63.1/670) and C. Miller (56.8/660) expired.",
+    "The 'lone returning starter' (P6) is Sanders (45.6 PFF/620 -> 51.6) - poor tape at full volume; Levy (39.0/67), Ofurie (45.6/35; PS STUD1), and yr4-override Joines (67.3/38; 14 st at Mercer '24) fill roles.",
+    "The rebuild is FCS-first: Munn (South Dakota - FCS All-American, national INT leader, followed DC Johansen), Jones (Citadel), Dawud (Villanova; 13 pd) all 3* transfer grades, plus Humes (61.4/330 at Maryland -> 67.4) as the lone P4 import tape.",
+    "Schiano: cornerback is 'the most competitive' camp battle - all three spots new.",
+    "36, M: the round's lowest secondary grade - one adjusted tape above 67 (on 38 snaps), an FCS-translation bet at three spots, and a p3/p15 as-played floor. Above the FAU-6 band strictly on import quantity and coaching reset."
+   ],
+   "key_players": [
+    {"name": "Kaj Sanders", "role": "S (returning starter)", "evidence": "45.6 PFF/620; 108 tkl L2Y"},
+    {"name": "Mikey Munn", "role": "CB (transfer, South Dakota)", "evidence": "FCS All-American; led nation in INT; followed Johansen"},
+    {"name": "Kevyn Humes", "role": "CB (transfer, Maryland)", "evidence": "61.4/330 (B10 +6 -> 67.4); 3 st"}
+   ],
+   "data_gaps": ["FCS trio translation", "zero returning above-average P4 tape", "new scheme"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Rutgers", "unit": "ST", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "ST rule: start at the p19 as-played SPEC (PS STR slide #23 -> #83 -> #107) and adjust for total continuity: K Patel (yr4 override; 13-18 LY but a school-record 83% in '23 and 15-19 with a 51-yarder in '24), P Anderson (41.8-41.9 net), KO man Scullion (33 TB), LS O'Connor all return.",
+    "The program identity is real: NCAA-leading 67 blocked kicks since '09; 'they remain very aggressive in trying to block kicks' (Athlon, who calls the '25 unit 'solid' - the one dissenting print).",
+    "No new legs to scout - the question is whether the Patel-era career level (top-30 STR '23) or the '25 slide is signal.",
+    "44, M: full personnel continuity and a proven-career K lift it off the as-played floor; the two-year results slide caps it below average."
+   ],
+   "key_players": [
+    {"name": "Jai Patel", "role": "K (returning; yr4 override)", "evidence": "13-18 '25; school-record 83% '23; 15-19 L51 '24"},
+    {"name": "Jakob Anderson", "role": "P (returning)", "evidence": "41.8-41.9 net 2025"}
+   ],
+   "data_gaps": ["'25 slide vs career-level signal", "return game (heavy fair-catch scheme)"],
+   "g5_guard_note": null
+  }
+ ]
+}
