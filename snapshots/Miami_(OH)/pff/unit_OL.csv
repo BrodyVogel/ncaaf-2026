@@ -1,0 +1,14 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Kris Manu,188285,C,MIAMI OH,14,100.0,0,221,61.0,67.7,60.4,3,8,402,100.0,100.0,98.4,5,12,1,809,809,0,0,809,428,428,0,0,381,0,2025_this_team
+Greg Smith Jr.,171292,G,MIAMI OH,14,100.0,0,221,52.4,29.7,58.0,5,14,402,100.0,100.0,96.1,3,25,6,796,0,796,0,796,426,426,0,0,370,0,2025_this_team
+Eric Smith,158012,T,MIAMI OH,14,100.0,0,221,44.7,19.5,61.5,8,21,398,100.0,100.0,95.4,6,33,4,793,0,0,792,793,422,422,0,0,371,0,2025_this_team
+Drew Terrill,158015,T,MIAMI OH,12,100.0,1,221,76.8,66.7,76.7,1,9,365,100.0,100.0,97.8,2,13,3,734,0,0,0,734,389,389,0,708,345,25,2025_this_team
+Evan Malcore,158043,T,N ILLINOIS,12,100.0,0,254,74.5,71.3,72.0,0,7,282,100.0,100.0,97.0,1,12,5,715,0,1,713,715,297,297,0,1,418,0,arrival_2025_at_N ILLINOIS
+Jacob Schorsch,188291,G,MIAMI OH,14,100.0,0,221,46.6,19.0,58.2,3,14,257,100.0,100.0,95.5,4,20,3,532,0,0,87,532,268,268,330,94,264,20,2025_this_team
+Austin Uke,146364,G,MIAMI OH,11,100.0,0,221,62.7,51.6,64.1,1,10,211,100.0,100.0,96.9,0,12,1,387,0,62,0,387,227,227,325,0,160,0,2025_this_team
+Gavin Rohrs,158013,G,MIAMI OH,12,100.0,0,221,54.8,36.1,57.5,2,3,76,100.0,100.0,95.4,2,6,1,232,0,0,0,232,82,82,230,0,150,1,2025_this_team
+Mitchell Butler,176415,C,MIAMI OH,13,100.0,0,221,69.6,41.7,69.1,0,3,34,100.0,100.0,95.6,0,3,0,150,87,0,0,150,36,36,0,0,114,63,2025_this_team
+Andrew Lowry,171281,T,MIAMI OH,10,100.0,0,221,78.4,17.4,86.8,1,4,26,100.0,100.0,90.4,0,5,0,92,0,0,0,92,29,29,3,88,63,0,2025_this_team
+Brandon Lawhorn Moore,158011,G,MIAMI OH,7,100.0,0,221,81.8,63.8,80.1,0,0,1,100.0,100.0,100.0,0,0,0,39,0,38,0,39,1,1,0,0,38,0,2025_this_team
+Aiden Howard,188280,T,MIAMI OH,6,100.0,0,221,66.3,,65.0,0,0,0,,,,0,0,0,25,0,0,17,25,0,0,0,6,25,2,2025_this_team
+Marcus White,158033,G,MIAMI OH,3,100.0,0,221,61.6,,61.1,0,0,0,,,,0,0,0,8,0,0,0,8,0,0,8,0,8,0,2025_this_team

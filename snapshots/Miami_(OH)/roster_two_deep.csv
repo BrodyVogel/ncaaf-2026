@@ -1,0 +1,61 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Thomas Gotkowski,SO,returning,59.1/109; 3 st 575 @ 44% 4-1; 'saved their season' (HC); Athlon QB1 - split-print battle
+QB,QB,1,David McComb,FR,transfer:Kansas,RS at Kansas (zero tape); PS#34; PS lineup QB1
+QB,QB,2,Caleb Heavner,SR,transfer:Fort Hays State (D2),FEED-GAP arrival; D2 3239 pass + 1017 rush over 21 gm
+QB,QB,3,Andrew Bellisari,FR,recruit,true FR; PS#121; Athlon #2 recruit
+RB,RB,1,Rodney Nelson,JR,transfer:Monmouth,FCS CAA PLAYER OF THE YEAR: 1802 @ 6.2 18 TD; 'bulk of the carries'
+RB,RB,2,Cade Yacamelli,SR,transfer:Wisconsin,64.6/38; 571 @ 5.3 over 3 yrs; support role; Wisconsin flag CLOSED
+RB,RB,2,D'Shawntae Jones,SO,returning,79.8/62; 1 st 277 @ 4.4; PS#169
+RB,RB,3,Josh Ringer,SO,returning,65.5/20; 11 gm at RB LY
+WRTE,WR,1,Keith Reynolds,JR,returning,RETURNING STARTER; 64.4/324; 12 st 352 @ 9.8; ex-Washington; KR1 (3rd-Tm MAC)
+WRTE,WR,1,Braylon Isom,SO,returning,60.6/166; 4 st 158 @ 14.4 L2Y
+WRTE,WR,1,Damarion Witten,JR,transfer:Ohio State,DNP at OSU as rFr (gap-in-feed origin); PS WR#22 - P4 pedigree
+WRTE,WR,2,Devin Hyatt,JR,transfer:Arizona,55.0/10; 14 gm 119 @ 14.9 at Arizona L2Y
+WRTE,WR,2,Quintin Simmons,FR,transfer:Kentucky,RS at UK LY
+WRTE,WR,2,Carl Jenkins,SO,transfer:unknown,FEED-GAP arrival (Athlon*; origin unprinted)
+WRTE,WR,3,Maleek Huggins,SR,transfer:unknown,FEED-GAP arrival (Athlon*; origin unprinted)
+WRTE,WR,3,Lynel Billups-Williams,JR,returning,51.7/113; 2 st; PR1 (4th-Tm MAC 9.8)
+WRTE,TE,1,Trey Zvonar,FR,returning,rFr
+WRTE,TE,2,Christian Ross,JR,transfer:Memphis,3 st 174 @ 9.7 at Memphis LY
+OL,LT,1,Eric Smith,SR,returning,RETURNING STARTER; 44.7/793; 14 st 2nd-Tm MAC (Athlon: 3rd-Tm) - grade/honors tension noted
+OL,LT,2,Brian Beidatsch,SR,transfer:Duquesne,FCS 12 st 1st-Tm NEC LY; 5 st '24
+OL,LG,1,Greg Smith Jr.,JR,returning,RETURNING STARTER; 52.4/796; 14 st
+OL,LG,2,Brandon Lawhorn Moore,SR,returning,81.8/39 (tiny); 15 gm L3Y
+OL,C,1,Kris Manu,SO,returning,RETURNING STARTER; 61.0/809; 14 st
+OL,C,2,Mitchell Butler,JR,returning,69.6/150; 1 st 10 gm; ex-So.Miss RS
+OL,RG,1,Jacob Schorsch,SO,returning,46.6/532; 7 st; PS RG1/Athlon omits
+OL,RG,2,Andrew Lowry,JR,returning,78.4/92; 8 gm; Athlon LG1
+OL,RT,1,Evan Malcore,SR,transfer:Northern Illinois,74.5/715 at NIU (12 st); 32 career starts; 3rd-Tm MAC; NIU->MWC fwd flag
+OL,RT,2,Devontae Armstrong,SO,transfer:Ohio State,DNP at OSU as rFr (gap-in-feed origin)
+OL,OT,3,Shaun Shahu,SR,transfer:Saginaw Valley State (D2),D2 11 st as rFr
+DL,DE,1,Grant Lyons,SR,returning,64.8/244; 1 st 12 tkl 2 sk
+DL,DE,2,Devin Bell,SO,returning,63.1/279; 11 gm 13 tkl as rFr
+DL,DE,1,Bai Jobe,JR,returning,59.9/342; 1 st 16 tkl 4 sk; ex-Kentucky
+DL,DE,2,James Schott,JR,returning,64.0/269; 14 gm 18 tkl 3.5 sk; ex-Michigan St
+DL,DE,3,Mikah Coleman,SR,transfer:Cincinnati,57.6/449; 12 st 33 tkl 4 tfl at Cincy - FBS starter import
+DL,DT,1,Roosevelt Andrews III,JR,returning,RETURNING STARTER; 62.9/486; 13 st 19 tkl 4 tfl
+DL,DT,2,Marcus Moore Jr.,JR,transfer:Purdue,69.1/41; 8 st 31 tkl at Akron '24; RS'd Purdue '25; Purdue flag CLOSED
+DL,DT,1,Brach Rice,SO,returning,57.9/313; 4 st 16 tkl; PS#272
+DL,DT,2,OJ Alexander,SO,returning,60.3/227; 12 gm 13 tkl
+LB,WLB,1,Malcolm McCain,JR,returning,RETURNING STARTER; 65.1/586; 2 st 73 tkl 5.5 tfl - leading returning tackler; PS#225
+LB,WLB,2,Luke Myers,SR,returning,44.2/8; depth
+LB,MLB,1,Blayne Myrick,SR,transfer:South Alabama,62.0/599; 11 st at USA LY; 1st-Tm All-Sun Belt '24 (13 st 101 tkl); 'contend for all-conference'
+LB,MLB,2,Brock Uihlein,JR,returning,90.7/124 (small); 8 st 2 tfl; 'steady performer'
+LB,SLB,1,CJ Young,JR,transfer:Kent State,FEED-GAP arrival (both feeds silent - walk-on pattern); 74.3/563 at KSU; 2nd-Tm All-MAC 89 tkl 8 tfl; KSU flag resolved
+LB,SLB,2,Christian McKinney,JR,returning,65.9/84; 9 tkl 2 sk 3 int L2Y
+LB,LB,3,Tyler Dikos,JR,returning,73.0/43
+DB,CB,1,Kaleb Martin,JR,returning,RETURNING STARTER; 61.3/567; 1 st 21 tkl 3 pd
+DB,CB,2,Amariyun Knighten,SR,transfer:Indiana,67.2/20; 40 tkl 7 pd at NIU '23-24; MedRS at IND '25
+DB,CB,1,Adrian Walker Jr.,SO,returning,66.2/314
+DB,CB,2,Toney Coleman Jr.,JR,returning,43.8/255
+DB,NB,1,Eli Coppess,SR,returning,66.7/148; 1 st
+DB,NB,2,Jackson Pons,SO,returning,9 gm 4 tkl as true; MedRS LY
+DB,S,1,Mychal Yharbrough,SR,returning,63.1/655; 10 st 48 tkl; WITHDRAWN override STAYS; CB->S switch; 'impressed in spring'
+DB,S,2,Leo Colombi,SO,returning,71.2/49
+DB,S,1,Dillon Tatum,SR,transfer:Northwestern,58.6/103 at NW; Mich St '22-23: 9 st 59 tkl; PS#55
+DB,S,2,Ben Minich,SO,transfer:Notre Dame,56.3/15; 26 gm 9 tkl at ND L2Y; PS#61
+DB,CB,3,Mason Ellens,FR,transfer:Iowa State,RS'd at ISU '25 (gap-in-feed; PS 'Ellins')
+ST,K,1,Kellan McLaughlin,JR,returning,3-yr KO specialist (71 KO/40 TB LY); takes FG job; career 2-2 FG
+ST,P,1,Pierse Stainton,SR,returning,RETURNING; 63 punts 42.3 (39.9 net) 12-50+; USF '24 origin
+ST,KR,1,Keith Reynolds,JR,returning,3rd-Tm MAC KR; 28.5 avg 1 TD
+ST,PR,1,Lynel Billups-Williams,JR,returning,4th-Tm MAC PR 9.8 (Athlon lists Agee - divergence noted)

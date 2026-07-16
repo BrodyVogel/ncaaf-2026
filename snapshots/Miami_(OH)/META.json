@@ -1,0 +1,61 @@
+{
+ "team": "Miami (OH)",
+ "conference": "Mid-American",
+ "created_utc": "2026-07-16T21:19:31+00:00",
+ "assembler_git_rev": "25ddae1",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Chuck Martin yr 13 (72-74; career 146-81; tied longest-tenured MAC HC). OC Ragland + DC Brechin internal continuity; 2nd-yr STC Alward. x1.13 does NOT apply.",
+ "portal_departure_confirmed": [
+  "Jameil Hamm",
+  "Noah Ehrlich",
+  "Tito Glass Jr."
+ ],
+ "portal_withdrawal_overrides": [
+  "Mychal Yharbrough"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "CJ Young": "feed-gap arrival from Kent State (BOTH feeds silent - walk-on pattern). Athlon-explicit: '2nd-Tm All-MAC at Kent State, transferring in'; PS caps starter with KSU line. Resolves KSU build's research-GONE destination. 74.3/563 KSU tape counts here.",
+  "Caleb Heavner": "D2 Fort Hays feed-gap arrival (PS QB line: 3,239 + 1,017 rush) - whitelisted",
+  "Carl Jenkins": "feed-gap arrival (Athlon* WR; origin unprinted) - whitelisted",
+  "Maleek Huggins": "feed-gap arrival (Athlon* WR; origin unprinted; PS shows 'Maleek Higgins' variant) - whitelisted",
+  "Damarion Witten": "in-feed origin Ohio State but NOT in OSU frozen snapshot - zero-snap rFr DNP below their roster pull. Gap-in-feed origin, no OSU retro issue.",
+  "Devontae Armstrong": "in-feed origin Ohio State - same zero-snap DNP class as Witten. No retro issue.",
+  "Mason Ellens": "in-feed origin Iowa State (PS spells 'Ellins') - zero-snap RS body, gap-in-feed origin. No ISU retro issue.",
+  "Rodney Nelson": "origin CONFLICT: feed+Athlon say Monmouth (CAA Player of the Year, 1,802 @ 6.2); PS narrative says 'Merrimack' and PS lineup line reads 'D-II Fort Hays' - PS variants REJECTED, Monmouth governs.",
+  "Andrew Bellisari": "true FR QB recruit (PS#121, Athlon #2) - not a portal entity",
+  "Brady Simmons": "Athlon WR4 slot (56.8/19 returning depth) - roster body"
+ },
+ "feed_gap_arrivals_documented": [
+  "CJ Young (LB - Kent State 2nd-Tm All-MAC; walk-on double-feed silence; print-adjudicated both sides)",
+  "Caleb Heavner (QB - D2 Fort Hays)",
+  "Carl Jenkins (WR - Athlon*, origin unprinted)",
+  "Maleek Huggins (WR - Athlon*, origin unprinted)"
+ ],
+ "position_notes": {
+  "Mychal Yharbrough": "portal-entry-and-return override (Withdrawn/no-dest vs BOTH prints). STAYS. 63.1/655 - and switches CB->S (Athlon S starter, 'impressed in the spring').",
+  "Thomas Gotkowski vs David McComb": "SPLIT-PRINT QB battle: Athlon 'expected to be QB1' = Gotkowski; PS lineup = McComb. Graded open (L).",
+  "Adam Trick": "91.3/671 1st-Tm MAC DE -> Texas Tech, who also took KSU's Mathis (84.5) - TTU harvested the MAC's two best returning edges",
+  "Khory Moss": "out-feed -> AKRON closes the Akron build's 'Moss<-Miami(OH)' flag; his 71.5/14 tape row exists in Akron's unit_DB as depth",
+  "Marcus Moore Jr.": "in-feed from=Purdue (RS'd there '25, 69.1/41; 8 st at Akron '24) - Purdue out-feed lacks him (sub-threshold), their build clean. Flag closed.",
+  "Cade Yacamelli": "in-feed from=Wisconsin (in Wisconsin's frozen out-feed) - flag closed",
+  "Evan Malcore": "NIU 3rd-Tm MAC RT (74.5/715, 32 career starts) - NIU's MWC-round build will see this departure (forward flag)",
+  "Eric Smith": "14 st + 2nd/3rd-Tm MAC honors vs 44.7 PFF grade - honors-vs-grade tension noted in dossier; graded on tape",
+  "Blayne Myrick": "2026 arrival: 1st-Tm All-Sun Belt '24 (13 st, 101 tkl); his 2025 (62.0/599, 11 st) was AT South Alabama - PS's 'here LY' phrasing misleads",
+  "Kellan McLaughlin": "3-yr KO specialist (71 KO/40 TB) inherits FG duty with a 2-2 career FG line - the ST room's one hole"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "QB battle (Gotkowski vs McComb) - prints disagree on the starter",
+  "Safety rebuild: both 2025 starters (1st-Tm + 2nd-Tm MAC) gone",
+  "FG kicker: pedigreed specialist with 2 career attempts",
+  "Jenkins/Huggins transfer origins unprinted in either magazine",
+  "proxy artifact #37 (RB None); LB 16 blind to import reload"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}
