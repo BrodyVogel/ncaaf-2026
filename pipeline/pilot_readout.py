@@ -15,9 +15,14 @@ import numpy as np
 
 OFF_UNITS, DEF_UNITS = ["QB", "RB", "WRTE", "OL"], ["DL", "LB", "DB"]
 K, CAP, SIGMA = 0.35, 6.0, 6.0
-# Diagnostic-only (2026-07-15 compression review): resid = LEVEL component (grade
-# compression harvesting anchor mean-reversion; ~81% of resid variance) + SHAPE
-# component (roster signal). Slope fit on n=20 real-graded teams; refit at full-138.
+# Diagnostic-only (2026-07-15 compression review; CORRECTED 2026-07-16, see
+# outputs/GRADING_BIAS_DIAG_2026-07-16.md): resid = LEVEL + SHAPE. The steep level
+# trend is largely a PROPERTY OF THE PROXY-FIT CONVERSION REGIME (scale mismatch
+# with real grades): proxy-regime slope at n=61 is -0.41 (R2 0.73); under a
+# real-grade conversion refit it collapses to -0.16 (R2 0.19). SHAPE therefore
+# carries conversion artifact, NOT pure roster signal — do not read conference-
+# level shape means as grading signal. Slope fit on n=20 (B10-heavy); refit
+# JOINTLY with conversion weights at full-138. Never enters the final rating.
 LEVEL_SLOPE = -0.541
 
 def ols(X, y):
@@ -87,9 +92,9 @@ def main(anchor_path, team, snapdir, outdir):
               "- (anchor off/def = SP+'s published splits, level-shifted by half the blend-vs-SP+ gap so off - def == blend;"
               " the residual nets to implied_margin - blend, so the SP+ shape never moves the final number)",
               f"- residual (off-minus-def, grades-vs-anchor): **{resid:+.2f}**",
-              f"- resid decomposition (diagnostic): level {LEVEL_SLOPE * (A[team]['off'] - A[team]['dfn']):+.2f} "
-              f"(={LEVEL_SLOPE}x anchor margin - the calibrated fade) + shape "
-              f"{resid - LEVEL_SLOPE * (A[team]['off'] - A[team]['dfn']):+.2f} (roster signal)",
+              f"- resid decomposition (diagnostic, PROXY-FIT REGIME): level {LEVEL_SLOPE * (A[team]['off'] - A[team]['dfn']):+.2f} "
+              f"(={LEVEL_SLOPE}x anchor margin) + shape "
+              f"{resid - LEVEL_SLOPE * (A[team]['off'] - A[team]['dfn']):+.2f} (roster signal + conversion artifact; see GRADING_BIAS_DIAG)",
               "", "## 3. Anchor (per source: raw → normalized → used)"]
     for s, v in src.items():
         lines.append(f"- {s:8s} {v['raw']} → {v['normalized']} → {v['used']}"

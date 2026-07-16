@@ -78,3 +78,50 @@ shifts the burden onto me, but doesn't independently prove my grades wrong.
   checkpoint now, not at 138; (b) isolate the defense dummy — my grades vs the
   anchors; (c) treat low-confidence MAC defensive grades as candidates to drift
   toward anchor, and stop letting them drive market leans until validated.
+
+---
+
+## Verification pass (Fable, same day — model switched back)
+
+Re-ran every computation; one attribution corrected, everything else reproduces.
+
+- **Finding 1 CORRECTED — "-0.541 is overfit" is the wrong mechanism.** In the
+  proxy-fit regime (the regime the constant describes), the n=61 slope is
+  **-0.41 with R2 0.73** (zero-intercept form -0.409) — the "~81% of resid
+  variance" comment was approximately true FOR THAT REGIME, and the n=20 -> n=61
+  drift (-0.541 -> -0.41) is moderate, not wild. Opus's -0.163 / 19% figures
+  describe the REAL-REFIT regime — a different conversion. Correct statement:
+  the steep level trend is largely a PROPERTY OF THE PROXY-FIT CONVERSION's
+  scale mismatch with real grades; refit the conversion and the level trend
+  mostly dissolves. This STRENGTHENS the overall diagnosis (shape was
+  conversion-artifact-contaminated) while correcting the attribution. The
+  LEVEL_SLOPE constant must be re-fit jointly with any conversion refit.
+- Finding 0 reproduced (9/13 MAC positive raw resid; the wrap sentence was a
+  shape-vs-resid conflation). Finding 2 reproduced exactly (R2 0.82/0.73; MAC
+  -1.76, AAC +2.93; gradient dissolves). Finding 3 reproduced (Spearman 0.94).
+  Finding 4 stands as the open concern (MAC def dummy -4.24 -> +4.58 margin).
+- **Finding 5 STRENGTHENED.** Fixed the 75% match rate (502 -> 651 of ~656;
+  only San José State's accent-norm edge case remains) and added within-year
+  demeaning: G5 corr **+0.009** (n=276), G5 bottom-quartile churn mean
+  **+1.70 ABOVE preseason** (43% below). The churn-markdown rationale is
+  refuted at every reasonable specification.
+- Final-impact computation reproduced (pipeline/diag_final_impact_61.py):
+  proxy-fit vs real-refit-61 conversion, same field, same recentering — MAC
+  mean final -14.94 -> -16.67 (**mean Δ -1.73**, range -1.05..-2.52, all 13
+  down); all-61 mean |Δ| 0.97. Level/shape confirmed absent from the final
+  path in code (adj = clip(K x resid) only). Caveats stand: refit-on-61 is a
+  stand-in for the production refit-on-138 (G5-heavy field, 27/61), and
+  production recenters over the full hybrid field — direction robust,
+  magnitude provisional.
+
+### Implemented on the back of this diagnostic (2026-07-16)
+1. pilot_readout.py LEVEL_SLOPE comment corrected + printed decomposition
+   relabeled "(proxy-fit regime)" — no numeric/behavior change.
+2. MAC wrap: dated correction block appended (shape sentence withdrawn;
+   Toledo/WMU market leans withdrawn; Toledo's anchor-side dispersion note
+   retained).
+3. Deferred to the refit checkpoint (owner approval obtained for the
+   diagnostic, not for parameter changes): joint refit of conversion weights +
+   level slope on real grades (production plan = at 138; consider an interim
+   checkpoint at ~90-100 builds), and the Finding-4 defense-dummy
+   investigation (is it my MAC defense grading or the anchors?).
