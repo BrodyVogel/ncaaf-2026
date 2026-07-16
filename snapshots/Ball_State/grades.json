@@ -1,0 +1,162 @@
+{
+ "team": "Ball State",
+ "units": {
+  "QB": {"grade": 18, "confidence": "L"},
+  "RB": {"grade": 8, "confidence": "M"},
+  "WRTE": {"grade": 12, "confidence": "M"},
+  "OL": {"grade": 12, "confidence": "M"},
+  "DL": {"grade": 8, "confidence": "M"},
+  "LB": {"grade": 8, "confidence": "L"},
+  "DB": {"grade": 14, "confidence": "M"},
+  "ST": {"grade": 10, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (cd6d519)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB None, WRTE None, OL 2, DL None, LB None, DB None, ST 12) - six-unit void, items #9-14 on the running artifact list; evidence-only grading documented",
+   "OL": "+10 vs proxy 2 (three returning starters incl. both tackles; the '25 aggregate was floor-level and the proxy sees only that)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Ball State", "unit": "QB", "grade": 18, "confidence": "L",
+   "bracketing_exemplars": ["Florida International QB 2025 (15 anchor, 58.8)", "Sam Houston QB 2025 (p3 ref, 47.1)"],
+   "rationale_bullets": [
+    "Kelly (58.6 PFF/393 -> 48.6) expires after a survival season: 1,583 @ 56%, team-high 600 rush at 2.8, FORTY-NINE sacks absorbed.",
+    "The replacements have zero FBS production: Luster (76.3/3 - 85 career total yards across SMU/Texas St; 'a really big arm... like a RB playing QB' - PS) and Mizzell (D-II Concord: 2,889 @ 57%, 26-10 + 377 rush; Wake Forest rFr origin). Athlon: 'a chance both will play.'",
+    "The system fit is the argument (PS: 'QB's that fit Uremovich's system') - the Butler offense ran through dual-threat QBs.",
+    "18, L: a hair above the FIU-15 anchor on the dual-QB hedge and D2 volume, below every room with actual FBS tape. The 49-sack context caps any projection."
+   ],
+   "key_players": [
+    {"name": "Keldric Luster", "role": "QB1 candidate (transfer, Texas State)", "evidence": "85 career ttl yds (SMU/TxSt); dual threat"},
+    {"name": "Tyler Mizzell", "role": "QB1 candidate (transfer, Concord - D2)", "evidence": "2,889 @ 57%, 26-10 + 377 rush in D2 2025"}
+   ],
+   "data_gaps": ["zero FBS production in the room", "D2-to-MAC translation"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Ball State", "unit": "RB", "grade": 8, "confidence": "M",
+   "bracketing_exemplars": ["Akron RB 2025 (p3 ref, 60.3)", "Eastern Michigan RB 2025 (p10 ref, 63.5)"],
+   "rationale_bullets": [
+    "Ashley (62.9 PFF/116; 547 @ 4.6 - the room's lead) left with no destination; the returns are Horton (67.1/61 -> 54.1; 180 @ 3.0, 'physical', real KR value) and true-FR flash Bonds (71.6/27; two late starts).",
+    "The import is a 19-carry Kansas reserve (J. Thompson, 107 career yards).",
+    "PS's 'most production since '23' hope starts from a 980-then-844-yard three-back base.",
+    "8, M: no returning back over 116 carries; the adjusted aggregate (~56) sits below the Akron-p3 row's neighborhood - a bottom-5 national room."
+   ],
+   "key_players": [
+    {"name": "TJ Horton", "role": "RB1 (returning)", "evidence": "67.1 PFF/110; 180 @ 3.0 + 24.5 KR w/ 90-yarder"},
+    {"name": "Jalen Bonds", "role": "RB2 (returning)", "evidence": "71.6/27; true-FR flash; 2 late starts"}
+   ],
+   "data_gaps": ["no proven volume anywhere", "OL run push p22 in front"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Ball State", "unit": "WRTE", "grade": 12, "confidence": "M",
+   "bracketing_exemplars": ["Ball State WRTE 2025 (p3 ref, 53.9)", "Middle Tennessee WRTE 2025 (p10 ref, 57.5)"],
+   "rationale_bullets": [
+    "Six of the top seven targets are gone (Magwood, Weatherly no-dest, Robinson to Illinois, Gross, TE Cassens, Anthony to Rutgers) from a room whose top five managed just 1,060 yards.",
+    "The returning case: Hamilton (61.4 PFF/217 -> 54.4; 244 @ 12.2, 11 starts) - Athlon's 'potential All-MAC player' - plus McDougle (72.2/28 small) and TE Hoover (7 starts).",
+    "The imports add breadth, not proof: J. Smith (61.7/135 at FAU), Nelson (E. Illinois FCS - 671 @ 16.0), C. Thompson (Utah St RS), NAIA/Dartmouth/Rice depth. Athlon: 'deeper and faster.'",
+    "12, M: this team IS the exemplars' p3 WRTE row (53.9); the projected aggregate clears it by roughly a band on import quantity."
+   ],
+   "key_players": [
+    {"name": "Donovan Hamilton", "role": "WR1 (returning starter)", "evidence": "61.4 PFF/217; 244 @ 12.2; 11 st"},
+    {"name": "Jabari Smith Jr.", "role": "WR (transfer, FAU)", "evidence": "61.7/135; 462 @ 14.4 career"},
+    {"name": "Tate Hoover", "role": "TE1 (returning starter)", "evidence": "65.0/39; 7 st"}
+   ],
+   "data_gaps": ["no proven alpha at any level above FCS", "new-QB chemistry"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Ball State", "unit": "OL", "grade": 12, "confidence": "M",
+   "bracketing_exemplars": ["Central Michigan OL 2025 (p3 ref, 41.5)", "Akron OL 2025 (p10 ref, 48.4)"],
+   "rationale_bullets": [
+    "Athlon calls it 'the strongest unit on offense' - three starters return: Hood LT (57.4 PFF/455; 20 career starts), Cook RT (53.0/754; 'a potential All-MAC candidate'; MedRS '24), Mosier C (50.6/485; MedRS '24).",
+    "The departures took the volume: Roberts (754 snaps), Hess (470), Lucas (523, to San Diego State), Dolan.",
+    "The guard spots are open battles among a D-II all-leaguer (Jeudy), a Vanderbilt reserve (Sandoval), a Dartmouth starter (Wentz), and returners Bandy/Dalton.",
+    "Context cuts both ways: PBLK p20 behind 49 sacks (some QB-held), RBLK p22.",
+    "12, M: the returning-starter aggregate (~39-42 adjusted) brackets the CMU-p3 row; continuity at three spots is worth a band over the floor, no more."
+   ],
+   "key_players": [
+    {"name": "Tristan Cook", "role": "RT (returning starter)", "evidence": "53.0 PFF/754; 12 st; MedRS '24"},
+    {"name": "Chris Hood", "role": "LT (returning starter)", "evidence": "57.4/455; 20 career starts"},
+    {"name": "Cole Mosier", "role": "C (returning starter)", "evidence": "50.6/485; 10 st"}
+   ],
+   "data_gaps": ["both guard spots unsettled", "pass-pro fix with a new QB"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Ball State", "unit": "DL", "grade": 8, "confidence": "M",
+   "bracketing_exemplars": ["Charlotte DL 2025 (p3 ref, 53.5)", "Buffalo DL 2025 (p10 ref, 57.2)"],
+   "rationale_bullets": [
+    "The one elite trait dissolves: Voorhis (78.0 PFF/595) - the Bryant transfer who broke the school sack record - expires, and Echoles (78.2/288) takes the other bookend to Western Michigan; Conley (75.7/533) to Washington; Hughes/Hudson/Zachary expire. PRSH was p85; everything that earned it is gone.",
+    "The returns are reserves by Athlon's own frame ('needs players who were reserves last season to step up'): Glenn (58.3/260), Marsh (59.7/109), Vaka 'elevated' at nose, Starks (45.4/198).",
+    "Seven transfers arrive with 'a combined 1 FBS start' (PS): Badie (59.0/131 at SDSU; a one-year rental per Athlon), Cincinnati/Louisville/Pitt depth pieces, a D2 edge.",
+    "8, M: nothing returning or arriving above 57 adjusted at volume - the Charlotte-p3 band."
+   ],
+   "key_players": [
+    {"name": "Jared Badie", "role": "RUSH (transfer, San Diego State)", "evidence": "59.0 PFF/131; 'immediate impact... his only season' (Athlon)"},
+    {"name": "Ameir Glenn", "role": "DT (returning)", "evidence": "58.3/260; rotational in '25"},
+    {"name": "Spencer Vaka", "role": "NG (returning)", "evidence": "'elevated at the nose guard spot' (Athlon)"}
+   ],
+   "data_gaps": ["pass rush fully unproven", "'12 DL can play' claim vs 1 combined FBS start"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Ball State", "unit": "LB", "grade": 8, "confidence": "L",
+   "bracketing_exemplars": ["Liberty LB 2025 (p3 ref, 47.4)", "Rice LB 2025 (p10 ref, 52.2)"],
+   "rationale_bullets": [
+    "The entire room expires at once: Chea (71.1 PFF/527), Stemler (67.2/380), Beebe (54.6/349), Wiegold, Simpson - the top six LB tacklers - plus Wing and C. Johnson out with no destination.",
+    "The rebuild has no starter tape: C. Lewis (71.3/51 at Cincinnati - a 51-snap number), true FR Webster (74.2/10; an Athlon projected starter AS A FRESHMAN), Wash St/FCS depth (Clark, Forsha, Burckhardt), and the SNIPER hybrid Earlewine.",
+    "PS states it plainly: none of the adds 'have been starters'; the counter is Uremovich's athleticism claim and Athlon's pedigree-hope 'difference-makers' line.",
+    "8, L: zero returning volume for the second MAC build in a row - the Liberty-p3 band, L-confidence."
+   ],
+   "key_players": [
+    {"name": "Cincear Lewis", "role": "LB (transfer, Cincinnati)", "evidence": "71.3 PFF/51 (tiny sample)"},
+    {"name": "Mikeah Webster", "role": "LB (returning; Athlon starter as FR)", "evidence": "74.2/10; true-FR 2025"}
+   ],
+   "data_gaps": ["zero returning volume", "FR/FCS-dependent two-deep"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Ball State", "unit": "DB", "grade": 14, "confidence": "M",
+   "bracketing_exemplars": ["Ball State DB 2025 (p3 ref, 55.8)", "Eastern Michigan DB 2025 (p10 ref, 59.0)"],
+   "rationale_bullets": [
+    "The two retention wins are the unit: Yates (71.7 PFF/360 -> 68.7) - the portal-entry-and-return override; 'a three-year starter and the team's top player in coverage' (Athlon BOLD) - and Fields (56.3/442 -> 53.3; Withdrawn STAYS; the S-to-CB mover with 34 tackles).",
+    "Seven contributors leave: J. Lewis (yr4), Pearson (to Kansas), Whitner (to Liberty), Gravely (no-dest), Harmon (to UMass), McCargo (yr4), McClain (to New Mexico). COV was p4.",
+    "The adds: Sterling Smith (the Purdue FEED-GAP arrival - Athlon S1, 'hopes are high') + Jackson (71.0/40 at CSU) + zero-snap P4 depth (Griffin/OSU) + FR class.",
+    "14, M: this team is ALSO the exemplars' p3 DB row (55.8); Yates plus import quantity clears it by about a band."
+   ],
+   "key_players": [
+    {"name": "Willizhuan Yates", "role": "CB1 (returning starter; portal-return override)", "evidence": "71.7 PFF/360; 3-yr starter; 'top player in coverage'"},
+    {"name": "DJ Fields", "role": "CB (returning; Withdrawn STAYS)", "evidence": "56.3/442; 34 tkl; S->CB move"},
+    {"name": "Sterling Smith", "role": "S (transfer, Purdue; feed-gap arrival)", "evidence": "Athlon S1; 'hopes are high' (text-confirmed)"}
+   ],
+   "data_gaps": ["safety spots FR/import-dependent", "Smith's Purdue tape was reserve-level"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Ball State", "unit": "ST", "grade": 10, "confidence": "M",
+   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6)", "Florida International QB 2025 (15)"],
+   "rationale_bullets": [
+    "ST rule: start at the p12 as-played SPEC (STR ~#129) and adjust: the '25 kicking failed twice over - Holmer went 3-of-7 (long 23) and lost the job; the FCS-AA fix (Pippin, 6-of-9) LEFT; P Saul (36.1 net) LEFT.",
+    "2026 is Holmer's re-audition plus a no-tape yr1 punter (Stumbaugh).",
+    "The return game is the asset: KR Horton (24.5 with a 90-yarder) + PR Yates; PS expects heavy starter usage on ST.",
+    "10, M: an unproven-legs unit off a bottom-decile prior, held off the floor by the return game."
+   ],
+   "key_players": [
+    {"name": "Carson Holmer", "role": "K (returning)", "evidence": "3-of-7, L/23 in '25; re-auditioning"},
+    {"name": "TJ Horton", "role": "KR (returning)", "evidence": "24.5 avg; 90-yard TD vs Akron"}
+   ],
+   "data_gaps": ["both legs unproven", "coverage units rebuilt"],
+   "g5_guard_note": null
+  }
+ ]
+}

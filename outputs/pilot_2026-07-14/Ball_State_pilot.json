@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T19:42:02+00:00",
+ "team": "Ball State",
+ "final": -21.84,
+ "rank": 137,
+ "band": 6.36,
+ "resid": 2.41,
+ "adj": 0.84,
+ "class_term": 0.0,
+ "st": -0.8,
+ "anchor_blend": -22.37,
+ "resid_level": 11.72,
+ "resid_shape": -9.3,
+ "implied_off": 15.42,
+ "implied_def": 34.67,
+ "anchor_off": 13.62,
+ "anchor_def": 35.28,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.625
+ },
+ "low_conf_units": 2,
+ "code_rev": "64f635c",
+ "mode": "PILOT-OOS"
+}
