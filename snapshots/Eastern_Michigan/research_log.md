@@ -41,3 +41,10 @@
 - 2026-07-16 planned grades set; G5 guard N/A (max 40).
 - 2026-07-16 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-16 grades.json written + schema-validated (8/8); gates re-run clean.
+- 2026-07-16 pilot_readout: FINAL -15.27 (r126/138), band ±6.00 (FIRST MAC
+  build with zero L units - conf x1.0; coach 1.0; dispersion 1.00, anchor
+  dispersion 5.68). resid +3.07 = level +8.83 + shape -5.76. NOTE: first
+  MAC-round build where grades are WARMER than anchors on the defense
+  (implied 32.07 < anchor 33.46 points-allowed) - the returning-good-parts
+  story vs the as-played p4 tape.

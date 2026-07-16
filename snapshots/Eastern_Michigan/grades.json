@@ -1,0 +1,214 @@
+{
+ "team": "Eastern Michigan",
+ "units": {
+  "QB": {"grade": 40, "confidence": "M"},
+  "RB": {"grade": 14, "confidence": "M"},
+  "WRTE": {"grade": 34, "confidence": "M"},
+  "OL": {"grade": 18, "confidence": "M"},
+  "DL": {"grade": 18, "confidence": "M"},
+  "LB": {"grade": 16, "confidence": "M"},
+  "DB": {"grade": 28, "confidence": "M"},
+  "ST": {"grade": 24, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (6cbb74f)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines. First MAC-round build with ZERO L-confidence units (10 print-confirmed returning starters = unusually well-evidenced rooms)."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB None, WRTE 6, OL 14, DL 5, LB None, DB 3, ST 3) - items #28-30 on the running artifact list; the divergences here are dominated by the 10-player yr4-feed skew (Rutgers pattern), not the usual counts-departed artifact",
+   "WRTE": "+28 vs proxy 6 - LARGEST proxy-vs-grade gap of the project: proxy expires yr4-feed Devereaux and the returning All-MAC trio",
+   "DB": "+25 vs proxy 3 (proxy expires yr4-feed Llewellyn 71.7/716 + Marshall)",
+   "QB": "proxy None despite the round's most proven returning QB (yr4-feed Kim, 7th season granted)",
+   "DL": "+13 vs proxy 5 (proxy expires yr4-feed Evans + Adam)",
+   "ST": "+21 vs proxy 3 (proxy misses returning K Kessinger 17-23)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Eastern Michigan",
+   "unit": "QB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Central Michigan QB 2026 (38, this round - two 80-grade small samples)",
+    "Syracuse QB 2025 (p25 ref, 63.2)"
+   ],
+   "rationale_bullets": [
+    "Noah Kim returns on a GRANTED 7TH SEASON (yr4 override, PS-explicit): 67.6/467 on 12 starts, MAC-leading 2,817 @ 61.4%, 18-11, plus 186 rush - the most PROVEN returning QB of the MAC round.",
+    "First returning EMU starting QB since 2017; HC Creighton: 'Kim will be the best QB in the MAC this year.'",
+    "MAC -10 = 57.6-equiv on full volume; full-season proven production edges CMU's small-sample upside pair.",
+    "40, M: depth behind him is thin (no-tape Stuckey, rFr Button, Yale RS McCaughey) but the grade rides the proven starter."
+   ],
+   "key_players": [
+    {"name": "Noah Kim", "role": "QB1 (returning starter; yr4 override - 7th season)", "evidence": "67.6/467; 2,817 @ 61.4%, 18-11; led MAC in passing"},
+    {"name": "Brogan McCaughey", "role": "QB depth (transfer, Yale)", "evidence": "390 @ 60% in 2 gm '24; RS'd LY"}
+   ],
+   "data_gaps": ["zero proven depth behind Kim"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Eastern Michigan",
+   "unit": "RB",
+   "grade": 14,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Ball State RB 2026 (8, this round)",
+    "Buffalo RB 2026 (16, this round)"
+   ],
+   "rationale_bullets": [
+    "Both top backs expired: McMillan 78.5/178 (1,014 @ 5.7 - first Eagle with 100 rush + 100 rec in a game) and Dunlap 74.0/105 (428).",
+    "Top returning rusher is Mattord with 48 yards (67.9/6); zero returning 50-carry backs.",
+    "Grad add Bennett's real production (1,907 @ 6.1 at Coastal Carolina) is 2+ years old; his 2025 was 4 carries at Virginia Tech. James (Syracuse) RS'd LY.",
+    "14: above Ball State's 8 on Bennett's pedigree + the Kim-Bennett CCU familiarity; below Buffalo's 16 (Shelton's 244 real yards beat anything here). PS: 'won't match 25's solid production.'"
+   ],
+   "key_players": [
+    {"name": "Braydon Bennett", "role": "RB1 (grad transfer, Virginia Tech)", "evidence": "61.7/4 LY; CCU '21-24: 1,907 @ 6.1 with QB Kim"},
+    {"name": "Joey Mattord", "role": "RB2 (returning)", "evidence": "67.9/6; 48 yds - top returning rusher"}
+   ],
+   "data_gaps": ["zero recent volume anywhere in the room"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Eastern Michigan",
+   "unit": "WRTE",
+   "grade": 34,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Central Michigan WRTE 2026 (28, this round - one All-MAC anchor)",
+    "Nebraska WRTE 2025 (50 anchor)"
+   ],
+   "rationale_bullets": [
+    "Top 3 pass-catchers RETURN - the round's best returning receiving corps: Devereaux 67.0/309 (3rd-Tm All-MAC, 510 @ 15.0, 7 TD; yr4 override), TE Long 61.6/336 (2nd-Tm All-MAC, 37-357-3), Mack 69.4/153 (333 @ 16.7; 6-179 vs Miami OH as a true FR).",
+    "Veteran depth behind them: Prosper 57.6/168 (2 st), Lemaster 74.4/17 (ex-Kentucky), Fox (ex-CSU/JC).",
+    "Losses are #5/#6 only (Lockett GONE-adjudicated; Rooks/Wheeler expired). PS: 'could have their best output since 21.'",
+    "34: two all-conference honorees + a third proven piece beats every one-anchor room this round; RECV p38 as played caps it below the Nebraska-50 anchor region."
+   ],
+   "key_players": [
+    {"name": "Nick Devereaux", "role": "WR1 (returning starter; yr4 override)", "evidence": "67.0/309; 3rd-Tm All-MAC; 510 @ 15.0, 7 TD"},
+    {"name": "Joshua Long", "role": "TE1 (returning starter)", "evidence": "61.6/336; 2nd-Tm All-MAC; 37-357-3"},
+    {"name": "Harold Mack", "role": "WR2 (returning)", "evidence": "69.4/153; 333 @ 16.7 as true FR"}
+   ],
+   "data_gaps": ["no 70+ volume grade in the room"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Eastern Michigan",
+   "unit": "OL",
+   "grade": 18,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Buffalo OL 2026 (16, this round)",
+    "Western Kentucky OL 2025 (25 anchor)"
+   ],
+   "rationale_bullets": [
+    "Loses 4 of 6 volume linemen (2,600+ snaps): Small 64.3/830 -> Rutgers, Snively 66.8/703 -> BC, Rewolinski 72.8/570 expired, Indestad 50.3/194 -> UCLA, plus Dahoue/Saunders.",
+    "Keeps a real center (Gallegos 66.2/708, 9 st) and a 17-start RT (Anderson 52.5/524; yr4 override) - two returning starters beats Buffalo's one.",
+    "Import class is pedigree-over-tape: Brumfield (JC All-American, RS'd at Oklahoma State, zero FBS snaps - the piece opposing coaches name), Dellinger (MSU, injured DNP L2Y), Kayed/McMillan/Payne (FCS-level starts).",
+    "18: PS's 'best in years' is continuity prose; PBLK p32/RBLK p55 as played and the imports are unproven. Below the WKU-25 anchor."
+   ],
+   "key_players": [
+    {"name": "Nicholas Gallegos", "role": "C1 (returning starter)", "evidence": "66.2/708; 9 st"},
+    {"name": "Joshua Anderson", "role": "RT1 (returning starter; yr4 override)", "evidence": "52.5/524; 17 st L2Y"},
+    {"name": "Tyler Brumfield", "role": "LT1 (transfer, Oklahoma State)", "evidence": "JC AA; zero FBS snaps; opposing-coach praise"}
+   ],
+   "data_gaps": ["three new starters from zero-FBS-tape imports"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Eastern Michigan",
+   "unit": "DL",
+   "grade": 18,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Buffalo DL 2026 (14, this round)",
+    "Central Michigan DL 2026 (24, this round)"
+   ],
+   "rationale_bullets": [
+    "Good returning QUANTITY (~1,900 snaps, most of the round's rebuilt rooms): Evans 66.0/569 (11 st; yr4 override), Byas 66.2/287 (Def Newcomer OY), Gonzalez, Tayou, Gilbert, Patterson, Thomas, Hardin.",
+    "But the two best interior players expired (Green 76.2/534, Martin 67.6/535) from a unit that allowed a league-worst 232.1 rush ypg (RDEF p8; team TACK p1).",
+    "Adds are real-but-no-cell: 2nd-Tm Southland NT Christian (Lamar, 13 st), D2 Oluwayemi, JC Adam (PS#60JC - missed ALL 2025, projects to start per Athlon; yr4 override).",
+    "18: volume over quality - above Buffalo's one-starter 14, below CMU's 24. Athlon: 'needs more from its front seven.'"
+   ],
+   "key_players": [
+    {"name": "Carter Evans", "role": "DE1 (returning starter; yr4 override)", "evidence": "66.0/569; 11 st, 37 tkl, 5.5 tfl"},
+    {"name": "Quincy Byas", "role": "EDGE1 (returning)", "evidence": "66.2/287; Def Newcomer OY as true FR"},
+    {"name": "Peyton Christian", "role": "NT1 (transfer, Lamar)", "evidence": "FCS 2nd-Tm Southland; 13 st, 38 tkl, 3 sk"}
+   ],
+   "data_gaps": ["interior rebuilt around FCS adds", "Adam unseen since '24 (injury)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Eastern Michigan",
+   "unit": "LB",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Central Michigan LB 2026 (14, this round)",
+    "Bowling Green LB 2026 (30, this round)"
+   ],
+   "rationale_bullets": [
+    "Manning 60.1/661 returns (10 st, 73 tkl - #2 tackler, TFL co-lead; yr4 override; roster lists him DB) - the most returning LB volume of the round's thin rooms.",
+    "Mowchan 53.1/304 (yr4 override) has battled injuries two straight seasons; Eliuk 59.0/164 is the third piece.",
+    "JUCO adds bought real volume: McDuffey (86 tkl) + Flowers (103 tkl) - no offset cell.",
+    "16, M (not L): the starters are KNOWN - but the unit graded TACK p1 and allowed foes +70 ypg over average at the second level. Confidently mediocre."
+   ],
+   "key_players": [
+    {"name": "Barry Manning", "role": "WLB1 (returning starter; yr4 override)", "evidence": "60.1/661; 73 tkl, 5.5 tfl"},
+    {"name": "Zach Mowchan", "role": "MLB1 (returning; yr4 override)", "evidence": "53.1/304; injury-battled"},
+    {"name": "Elgin McDuffey", "role": "MLB2 (JC transfer)", "evidence": "86 tkl at JC L2Y"}
+   ],
+   "data_gaps": ["JUCO translation", "Mowchan durability"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Eastern Michigan",
+   "unit": "DB",
+   "grade": 28,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Bowling Green DB 2026 (30, this round)",
+    "Central Michigan DB 2026 (22, this round)"
+   ],
+   "rationale_bullets": [
+    "Llewellyn 71.7/716 (2nd-Tm All-MAC S, team MVP, 102 tkl, 2 int; yr4 override) is the round's #2 returning DB grade - 68.7-equiv on full volume.",
+    "Six returners with 180+ snaps: Marshall 59.6/479 (yr4 override), Salas 55.7/322, Coley 64.2/204 (ex-MSU, full-time now), Dobbs 59.1/286, Norman, Rogers - 'deep and experienced backline' (Athlon).",
+    "But the experience UNDERPERFORMED: COV graded p11, PS PDR #107. Losses absorbable (Scott 63.0/504 -> Nevada; Deener expired; both Mondses GONE).",
+    "28: one star + volume-at-55-64 lands between CMU's one-anchor 22 and BGSU's two-anchor 30; far from Buffalo's 42."
+   ],
+   "key_players": [
+    {"name": "Bryce Llewellyn", "role": "S1 (returning starter; yr4 override)", "evidence": "71.7/716; 2nd-Tm All-MAC; team MVP; 102 tkl"},
+    {"name": "Jason Marshall", "role": "BAN1 (returning; yr4 override)", "evidence": "59.6/479; 64 tkl"},
+    {"name": "Caleb Coley", "role": "CB1 (returning)", "evidence": "64.2/204; ex-Michigan St"}
+   ],
+   "data_gaps": ["experience-vs-tape tension (COV p11 with these bodies)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Eastern Michigan",
+   "unit": "ST",
+   "grade": 24,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Akron ST 2026 (24, this round)",
+    "Central Michigan ST 2026 (26, this round - returning P #14)"
+   ],
+   "rationale_bullets": [
+    "K Rudy Kessinger returns: 17-23 FG (L/50), 28-28 PAT, 8-of-14 from 40+ as a rFr - the best returning kicker of the MAC round.",
+    "P is a battle of zero-2025-tape candidates: Hull (orig Missouri, DNP LY) vs Samaha (ex-Michigan/Akron, PS P #13 on pedigree); school-record P Tomasek (46.0) expired.",
+    "SPEC graded p3 as played even WITH the departed punter - return/coverage units were bad; PS-only KO specialist Dibert treated expired (residual note).",
+    "24 = Akron 24: proven K + unproven P + weak return game; CMU's returning P #14 edges this room."
+   ],
+   "key_players": [
+    {"name": "Rudy Kessinger", "role": "K1 (returning)", "evidence": "17-23 FG, L/50; 8-14 from 40+"},
+    {"name": "Adam Samaha", "role": "P1 candidate (transfer, Akron)", "evidence": "PS P #13; DNP at Akron LY"}
+   ],
+   "data_gaps": ["P battle between two DNPs", "return game unproven"],
+   "g5_guard_note": null
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T20:52:59+00:00",
+ "team": "Eastern Michigan",
+ "final": -15.27,
+ "rank": 126,
+ "band": 6.0,
+ "resid": 3.07,
+ "adj": 1.07,
+ "class_term": 0.0,
+ "st": -0.52,
+ "anchor_blend": -16.31,
+ "resid_level": 8.83,
+ "resid_shape": -5.76,
+ "implied_off": 18.82,
+ "implied_def": 32.07,
+ "anchor_off": 17.14,
+ "anchor_def": 33.46,
+ "fit_r2": {
+  "off": 0.536,
+  "dfn": 0.612
+ },
+ "low_conf_units": 0,
+ "code_rev": "6cbb74f",
+ "mode": "PILOT-OOS"
+}
