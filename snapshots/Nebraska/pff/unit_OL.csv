@@ -1,0 +1,22 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Justin Evans,156464,C,NEBRASKA,13,100.0,0,238,78.6,84.0,75.0,1,9,429,100.0,100.0,98.8,3,10,0,798,798,0,0,798,443,443,0,0,355,0,2025_this_team
+Henry Lutovsky,145003,G,NEBRASKA,13,100.0,1,238,65.7,80.6,60.6,2,7,429,100.0,100.0,99.0,7,9,0,798,0,798,0,798,443,443,0,0,355,0,2025_this_team
+Brendan Black,174658,G,IOWA STATE,12,100.0,0,193,66.9,57.6,69.3,1,6,347,100.0,100.0,97.8,3,11,4,738,8,0,0,738,372,372,727,0,366,2,arrival_2025_at_IOWA STATE
+Rocco Spindler,147478,G,NEBRASKA,12,100.0,0,238,68.8,84.4,62.7,0,4,359,100.0,100.0,99.2,0,5,1,686,0,0,0,686,372,372,686,0,314,0,2025_this_team
+Elijah Pritchett,163611,T,NEBRASKA,13,100.0,1,238,68.5,73.1,68.4,0,5,271,100.0,100.0,97.2,6,10,5,552,0,0,552,552,283,283,0,0,269,0,2025_this_team
+Turner Corcoran,129684,T,NEBRASKA,13,100.0,0,238,56.1,45.8,58.9,2,10,234,100.0,100.0,95.3,0,17,5,462,0,0,113,462,238,238,0,283,224,66,2025_this_team
+Tree Babalade,175918,T,S CAROLINA,7,100.0,0,289,60.1,68.5,55.0,1,19,236,100.0,100.0,95.3,3,21,1,421,0,0,23,421,255,255,0,398,166,0,arrival_2025_at_S CAROLINA
+Gunnar Gottula,170227,T,NEBRASKA,7,100.0,0,238,70.0,69.5,70.5,1,7,195,100.0,100.0,94.9,2,14,6,338,0,0,160,338,204,204,0,174,134,4,2025_this_team
+Paul Mubenga,172488,G,LSU,9,100.0,0,211,51.6,63.8,44.7,2,3,160,100.0,100.0,97.8,0,6,1,298,0,244,0,298,175,175,54,0,123,0,arrival_2025_at_LSU
+Teddy Prochazka,145004,T,NEBRASKA,6,100.0,0,238,66.7,55.7,69.7,0,8,159,100.0,100.0,95.0,0,12,4,270,0,0,2,270,162,162,0,268,108,0,2025_this_team
+Tyler Knaak,158492,G,NEBRASKA,9,100.0,0,238,65.0,74.5,60.2,0,2,97,100.0,100.0,99.0,0,2,0,193,0,0,0,193,100,100,87,106,93,0,2025_this_team
+Sam Sledge,170241,G,NEBRASKA,3,100.0,0,238,50.9,85.7,43.1,0,0,27,100.0,100.0,100.0,0,0,0,55,0,0,0,55,29,29,54,0,26,1,2025_this_team
+Jake Peters,183577,C,NEBRASKA,3,100.0,0,238,72.2,81.0,67.9,0,0,16,100.0,100.0,100.0,0,0,0,34,33,0,0,34,17,17,1,0,17,0,2025_this_team
+Jason Maciejczak,170234,G,NEBRASKA,2,100.0,0,238,79.5,83.5,79.6,0,0,16,100.0,100.0,100.0,0,0,0,33,0,33,0,33,17,17,0,0,16,0,2025_this_team
+Brock Knutson,170230,G,NEBRASKA,2,100.0,0,238,69.2,78.6,68.0,0,0,7,100.0,100.0,100.0,0,0,0,19,0,5,0,19,7,7,14,0,12,0,2025_this_team
+Preston Taumua,183589,T,NEBRASKA,2,100.0,0,238,70.1,79.2,67.0,0,0,7,100.0,100.0,100.0,0,0,0,19,0,0,19,19,7,7,0,0,12,0,2025_this_team
+Jacob Brandl,175478,G,NEBRASKA,2,100.0,0,238,47.0,76.2,45.4,0,0,5,100.0,100.0,100.0,0,0,0,16,5,11,0,16,5,5,0,0,11,0,2025_this_team
+Houston Ka'aha'aina-Torres,199796,C,NEBRASKA,2,100.0,0,238,62.0,74.9,60.3,0,0,4,100.0,100.0,100.0,0,0,0,14,11,0,0,14,4,4,3,0,10,0,2025_this_team
+Shawn Hammerbeck,199795,T,NEBRASKA,2,100.0,0,238,51.3,75.7,60.2,0,0,4,100.0,100.0,100.0,1,0,0,13,0,0,0,13,4,4,0,13,9,0,2025_this_team
+Grant Brix,183550,T,NEBRASKA,1,100.0,0,238,60.8,69.7,60.1,0,0,2,100.0,100.0,100.0,0,0,0,5,0,0,0,5,2,2,2,3,3,0,2025_this_team
+Brian Tapu,199794,T,NEBRASKA,1,100.0,0,238,60.0,66.7,,0,0,1,100.0,100.0,100.0,0,0,0,1,0,0,1,1,1,1,0,0,0,0,2025_this_team

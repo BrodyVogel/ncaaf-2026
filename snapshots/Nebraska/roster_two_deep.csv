@@ -1,0 +1,53 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Anthony Colandrea,SR,transfer:UNLV,89.9/514; MW POY; 3459 23-5 + 649 rush
+QB,QB,2,TJ Lateef,SO,returning,52.0/155; won UCLA start
+QB,QB,3,Daniel Kaelin,SO,transfer:Virginia,58.0/56; returned to NEB
+RB,RB,1,Mekhi Nelson,SO,returning,82.3/28
+RB,RB,2,Isaiah Mozee,SO,returning,73.1/26; converted WR
+RB,RB,3,Kwinten Ives,SO,returning,75.9/20; hamstring '25
+RB,RB,3,Jamal Rule,FR,recruit,PS#46; 75-yd spring TD
+WRTE,WR,1,Nyziah Hunter,JR,returning,RETURNING STARTER; 69.0/334; 617 yds
+WRTE,WR,2,Quinn Clark,SO,returning,68.5/86
+WRTE,WR,1,Kwazi Gilmer,JR,transfer:UCLA,61.0/430; 12 st
+WRTE,WR,2,Cortez Mills Jr.,SO,returning,65.7/83
+WRTE,WR,1,Jacory Barney Jr.,JR,returning,RETURNING STARTER; 68.8/316
+WRTE,TE,1,Luke Lindenmeyer,SR,returning,RETURNING STARTER; 66.9/279; HM All-B10
+WRTE,TE,2,Janiran Bonner,JR,returning,
+OL,LT,1,Elijah Pritchett,SR,returning,RETURNING STARTER; 68.5/552; ex-5*
+OL,LT,2,Claude Mpouma,FR,recruit,
+OL,LG,1,Paul Mubenga,JR,transfer:LSU,51.6/298; 11 st
+OL,LG,2,Sam Sledge,JR,returning,50.9/55
+OL,C,1,Justin Evans,SR,returning,RETURNING STARTER; 78.6/798
+OL,C,2,Jake Peters,SO,returning,
+OL,RG,1,Brendan Black,SR,transfer:Iowa State,66.9/738; 30 career starts; 4* transfer grade
+OL,RG,2,Tyler Knaak,SR,returning,65.0/193
+OL,RT,1,Tree Babalade,JR,transfer:South Carolina,60.1/421; 15 st
+OL,RT,2,Gunnar Gottula,JR,returning,RETURNING-STARTER flag; 70.0/338; OFY '25
+DL,DE,1,Anthony Jones Jr.,SR,transfer:UCLA,59.1/490
+DL,DE,2,Williams Nwaneri,SO,returning,RETURNING-STARTER flag; 63.4/463; ex-5*
+DL,DT,1,Riley Van Poppel,JR,returning,58.4/375
+DL,DT,2,Sua Lefotu,JR,returning,
+DL,DT,1,Jahsear Whittington,SO,transfer:Pittsburgh,70.6/250; FR breakout
+DL,DT,2,Owen Stoudmire,SR,transfer:Boston College,69.7/80
+DL,DE,1,Cameron Lenhardt,SO,returning,RETURNING STARTER; 56.6/370
+DL,DE,2,Kade Pietrzak,SO,returning,54.4/278
+LB,LB,1,Vincent Shavers Jr.,JR,returning,RETURNING STARTER; 70.3/547; 61 tkl 7.5 TFL
+LB,LB,2,Dexter Foster,JR,transfer:Oregon State,62.5/436; 6'3
+LB,LB,1,Owen Chambliss,JR,transfer:San Diego State,85.5/765; 110 tkl under Aurich; 1st-tm All-MW
+LB,LB,2,Dawson Merritt,SO,returning,63.2/106
+LB,LB,3,Will Hawthorne,JR,transfer:Iowa State,
+DB,CB,1,Andrew Marshall,SR,returning,RETURNING STARTER; 70.0/662; All-B10
+DB,CB,2,Victor Evans III,SR,transfer:Florida International,66.0/481
+DB,CB,1,Jeremiah Charles,JR,returning,spring-game starter
+DB,CB,2,Danny Odem III,FR,recruit,5*; battles Charles
+DB,S,1,Dwayne McDougle III,SR,transfer:San Diego State,79.3/716; Aurich's own S
+DB,S,2,Caleb Benning,SO,returning,62.6/101
+DB,S,1,Jamir Conn,SR,returning,75.5/114
+DB,S,2,Rex Guthrie,SO,returning,RETURNING-STARTER flag; 59.1/532; started last 8
+DB,NB,1,Donovan Jones,SO,returning,RETURNING STARTER; 72.2/658; moves to nickel
+DB,NB,2,Mario Buford,SO,returning,
+ST,K,1,Kyle Cunanan,JR,returning,16-19 (L52)
+ST,P,1,Archie Wilson,SO,returning,ambipedal Aussie; 39.4/38.3 net
+ST,LS,1,Jack Wills,JR,transfer:Michigan State,
+ST,KR,1,Jacory Barney Jr.,JR,returning,
+ST,PR,1,Jacory Barney Jr.,JR,returning,

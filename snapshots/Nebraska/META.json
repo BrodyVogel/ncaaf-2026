@@ -1,0 +1,31 @@
+{
+ "team": "Nebraska",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T15:42:42+00:00",
+ "assembler_git_rev": "47cd077",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Rhule yr 4 - NO HC change. NEW DC Aurich (SDSU, 4-2-5) + new OL coach Wade; OC Holgorsen continues. x1.13 does NOT apply (HC-only).",
+ "portal_departure_confirmed": ["Rahmir Stewart", "Jamarion Parker", "Brice Turner"],
+ "portal_withdrawal_overrides": ["Braylen Prude", "Dylan Parrott", "Willis McGahee IV"],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": ["Emmett Johnson"],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Anthony Jones": "Anthony Jones Jr."
+ },
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Victor Evans III": "feed CB (FIU); Athlon CB2 backup; one PS line groups him with DL adds - feed governs (DB)",
+  "Elijah Jeudy": "yr4 EXPIRED per feed; P6 says portal to Miami - GONE either way",
+  "Dasan McCullough": "PFF DL csv (66.0/350); PS calls him JLB - GONE (yr4) either way"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "RB1 identity (no returning volume)",
+  "CB2 battle (Odem FR vs Charles)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}
