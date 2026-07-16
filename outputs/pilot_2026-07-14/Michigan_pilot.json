@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T15:18:52+00:00",
+ "team": "Michigan",
+ "final": 14.91,
+ "rank": 18,
+ "band": 6.98,
+ "resid": -10.16,
+ "adj": -3.56,
+ "class_term": -0.0,
+ "st": 0.1,
+ "anchor_blend": 17.85,
+ "resid_level": -9.92,
+ "resid_shape": -0.24,
+ "implied_off": 30.0,
+ "implied_def": 21.82,
+ "anchor_off": 33.67,
+ "anchor_def": 15.33,
+ "fit_r2": {
+  "off": 0.537,
+  "dfn": 0.611
+ },
+ "low_conf_units": 1,
+ "code_rev": "9a432cb",
+ "mode": "PILOT-OOS"
+}
