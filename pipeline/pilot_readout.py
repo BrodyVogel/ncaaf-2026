@@ -82,9 +82,10 @@ def main(anchor_path, team, snapdir, outdir):
               "- off: " + " ".join(f"{u}:{bo[1+i]:+.3f}" for i, u in enumerate(OFF_UNITS)) + f"  (R²={r2o:.2f})",
               "- def: " + " ".join(f"{u}:{bd[1+i]:+.3f}" for i, u in enumerate(DEF_UNITS)) + f"  (R²={r2d:.2f})",
               f"- grade-implied off {implied_off:+.2f} vs anchor off {A[team]['off']:+.2f}",
-              f"- grade-implied def {implied_def:+.2f} vs anchor def {A[team]['dfn']:+.2f} (def: lower=better in SP+ space)"
-              if False else
-              f"- grade-implied def {implied_def:+.2f} vs anchor def {A[team]['dfn']:+.2f}",
+              f"- grade-implied def {implied_def:+.2f} vs anchor def {A[team]['dfn']:+.2f}"
+              f"  (def is points-allowed scale: LOWER = better; higher implied than anchor = grades COOLER on the defense)",
+              "- (anchor off/def = SP+'s published splits, level-shifted by half the blend-vs-SP+ gap so off - def == blend;"
+              " the residual nets to implied_margin - blend, so the SP+ shape never moves the final number)",
               f"- residual (off-minus-def, grades-vs-anchor): **{resid:+.2f}**",
               f"- resid decomposition (diagnostic): level {LEVEL_SLOPE * (A[team]['off'] - A[team]['dfn']):+.2f} "
               f"(={LEVEL_SLOPE}x anchor margin - the calibrated fade) + shape "

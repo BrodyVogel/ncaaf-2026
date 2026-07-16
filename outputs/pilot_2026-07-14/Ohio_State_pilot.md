@@ -16,7 +16,8 @@ FINAL: **+26.36** (rank 2/138 in hybrid field)  band ±6.00
 - off: QB:+0.070 RB:+0.091 WRTE:+0.036 OL:+0.082  (R²=0.52)
 - def: DL:-0.084 LB:-0.055 DB:-0.095  (R²=0.61)
 - grade-implied off +34.98 vs anchor off +40.40
-- grade-implied def +20.32 vs anchor def +9.00
+- grade-implied def +20.32 vs anchor def +9.00  (def is points-allowed scale: LOWER = better; higher implied than anchor = grades COOLER on the defense)
+- (anchor off/def = SP+'s published splits, level-shifted by half the blend-vs-SP+ gap so off - def == blend; the residual nets to implied_margin - blend, so the SP+ shape never moves the final number)
 - residual (off-minus-def, grades-vs-anchor): **-16.74**
 - resid decomposition (diagnostic): level -16.99 (=-0.541x anchor margin - the calibrated fade) + shape +0.25 (roster signal)
 
