@@ -1,0 +1,68 @@
+{
+ "team": "Kent State",
+ "conference": "Mid-American",
+ "created_utc": "2026-07-16T20:54:18+00:00",
+ "assembler_git_rev": "8e215f2",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Mark Carney yr 2 (5-7; interim from mid-April '25, awarded full-time in-season after the BGSU comeback). OC Patterson yr 2; DC Valeria promoted July '25; ST analyst Josh Cribbs. x1.13 does NOT apply (Carney was acting HC for all of 2025).",
+ "portal_departure_confirmed": [
+  "CJ Montes",
+  "Gavin Garcia",
+  "Canaan Williams",
+  "Joel Boamah"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Derrick Jackson III"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "CJ Young",
+  "Jaire Rawlison",
+  "Abdoualye Diallo"
+ ],
+ "known_name_exceptions": {
+  "Derrick Jackson III": "feed yr=4 is a CLEAR ERROR - he was a 2024 TRUE FRESHMAN (7 st as true; both prints 'SO.' 2026 starter). Override with feed-error annotation.",
+  "CJ Young": "walk-on (safety-turned-LB, #2 tackler 74.3/563) - no portal entry, no yr4 flag, but PS-named 2026 loss + absent from both prints. GONE (research). Walk-on feed silence = McMillian pattern.",
+  "Semaj Bridgeman": "feed-gap arrival ex-Michigan St (Athlon* + PS lineup); MSU frozen META portal_departure_confirmed already carried him - destination now resolved to KSU. Loop closed.",
+  "Mason Imbt": "SFU 3rd-Tm NEC '24, DNP '25 - FCS-source feed gap; PS RG depth line. Whitelisted.",
+  "Colton Ford": "D2 Benedict P (67 punts 39.4) - D2-source feed gap; PS punter line. Whitelisted.",
+  "Jaire Rawlinson": "feed 'Rawlinson' vs PFF 'Rawlison' - same CB, portal->West Virginia",
+  "Junior Diallo": "feed 'Junior' vs PFF 'Abdoualye' Diallo - same OT, portal->Tennessee Tech",
+  "Mofe Adewole": "PS 'Adewolf' vs feed/Athlon 'Adewole' - Athlon form used",
+  "Ethan Thanthanavong": "PS 'Thanthanvong' variant - feed form used",
+  "Hudson Chasko": "JC '23-24, OFY at KSU LY - 2025 roster body, returns",
+  "Brandon White": "true FR recruit in RB battle - not a portal entity",
+  "Lennox Lemon": "true FR recruit (Athlon #4) - not a portal entity",
+  "William Johnson III": "true FR recruit (Athlon #7) - not a portal entity",
+  "Jared Kelley": "roster depth WR - no feed entry expected",
+  "Jaire Rawlison": "PFF 'Rawlison' vs feed 'Rawlinson' (portal->West Virginia) - name form defeated ledger portal match (Welch-Joiner pattern). GONE (research, dest WVU).",
+  "Abdoualye Diallo": "PFF 'Abdoualye' vs feed 'Junior' Diallo (portal->Tennessee Tech; 6-char surname below matcher threshold). GONE (research, dest TnTech)."
+ },
+ "feed_gap_arrivals_documented": [
+  "Semaj Bridgeman (EDGE - ex-Michigan '23/Michigan St '24-25; PS#28; MSU-side departure adjudicated in their frozen META)",
+  "Mason Imbt (OL - SFU 3rd-Tm NEC '24, DNP '25)",
+  "Colton Ford (P - D2 Benedict, 67 punts 39.4)"
+ ],
+ "position_notes": {
+  "Dru DeShields": "kept from portal; 18-3 ratio flatters a modest 60.6 tape grade; 3 prior ACLs (healthy '25); PBLK-p0 context both masked and stressed him",
+  "Rocco Nicholl": "BOOMERANG: KSU '22-24 (8 st, 61 tkl '24) -> USF '25 (77.8/42) -> back. Graded on the KSU starter history + AAC small sample.",
+  "Jaxon Dunn": "Athlon bold returning starter but INJURED IN SPRING - PS '? for 26'. Kept in two-deep with monitor flag; OL grade already prices the risk.",
+  "Tevin Tucker": "S 44.6/567 - not portal/yr4/prints. Defaults RETURNS as unlisted depth; zero grade lift either way. Transparency note.",
+  "Da'Realyst Clark": "Athlon credits 2 KR TDs + 1st-Tm All-MAC returner; PS garble ('2 c...') could read 'called back' - Athlon's unambiguous version credited, ambiguity noted.",
+  "Gus Goodell": "LS, feed-yr4 with a PS-only 2026 depth line - EXPIRED, Goodell/Hilty single-print treatment (namesake coincidence with the Buffalo case).",
+  "Wayne Harris vs Ayden Harris": "Athlon depth chart bolds 'AYDEN HARRIS' at slot WR - a name conflation: Wayne Harris is the returning 8-start slot/PR star; Ayden Harris is an RB (PS#139). Wayne used as WR starter, Athlon error noted.",
+  "Rico Steele": "RS'd at BGSU '24 (pre-2025 move, not in BGSU's 2025 feeds) - no cross-ref obligation; 8 gm KSU backup LY"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "RB1 unresolved - four-way battle with zero returning production",
+  "Both kicking jobs unproven (3-way K battle; P regained by a 31.4-avg Aussie)",
+  "Dunn spring injury status ('? for 26')",
+  "proxy voids RB/WRTE (#31-32); LB 23 counts departed walk-on Young"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

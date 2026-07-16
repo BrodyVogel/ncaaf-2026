@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Kenni",
+  "lastName": "Burns",
+  "hireDate": "2022-12-14T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Kent State",
+    "year": 2024,
+    "games": 12,
+    "wins": 0,
+    "losses": 12,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -26.8,
+    "spOverall": -33,
+    "spOffense": 12.6,
+    "spDefense": 43.8
+   }
+  ]
+ },
+ {
+  "firstName": "Mark",
+  "lastName": "Carney",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Kent State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -16.1,
+    "spOverall": -19.3,
+    "spOffense": 17,
+    "spDefense": 34.9
+   }
+  ]
+ }
+]

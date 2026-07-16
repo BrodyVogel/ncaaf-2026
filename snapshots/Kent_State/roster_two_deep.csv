@@ -1,0 +1,62 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Dru DeShields,JR,returning,RETURNING STARTER; 60.6/300; 2030 @ 56.7% 18-3; 9 st; 3 prior ACLs (healthy '25); PS#93
+QB,QB,2,Ethan Thanthanavong,SO,transfer:Defiance College (NAIA),1466 @ 66% 10-6; 'strongest arm in room' per PS
+QB,QB,3,Nolan Good,FR,returning,39.2/12; rFr; PS#161
+QB,QB,3,Deante Ruffin,FR,returning,47.8/10; rFr; PS#78
+RB,RB,1,Jakorion Caffey,SO,transfer:Cincinnati,51.0/2; 2 gm at Cincy as rFr; PS#94; four-way battle
+RB,RB,1,Mason King,SR,transfer:Illinois State,FCS 883 @ 6.6 in '23 (OLD tape); RS at NIU '21
+RB,RB,2,Donovan Delaney Jr.,SR,returning,49.1/15
+RB,RB,2,Brandon White,FR,recruit,true FR in battle
+RB,RB,3,Marques Hicks,JR,returning,57.9/4
+RB,FB,1,Hunter Hopperton,SR,returning,RETURNING STARTER (Athlon bold); 59.5/63 (TE row); 9 st 38 yds
+WRTE,WR,1,Da'Realyst Clark,SR,returning,67.0/47; 3 st 108 @ 36.0; KR star taking larger WR role; Butler '24 origin
+WRTE,WR,1,Wayne Harris,SO,returning,RETURNING STARTER; 66.7/257; 383 @ 10.8 led team in rec as rFr; big spring
+WRTE,WR,1,Ardell Banks,JR,returning,64.4/103; 2 st 205 @ 17.1; ex-Kentucky RS
+WRTE,WR,2,Jay Jay Etheridge,JR,returning,47.5/61; 2 st 167 L2Y
+WRTE,WR,2,Jared Kelley,JR,returning,depth
+WRTE,WR,3,Javier Willis,JR,transfer:Tiffin University (D2),D2 producer
+WRTE,TE,1,Terik Mulder,SR,returning,71.5/120; 19-198-4; 'All-MAC candidate'; Presbyterian '23 origin
+WRTE,TE,2,Zy'aire Fletcher,FR,returning,89.4/17 (tiny); rFr
+OL,LT,1,Tyler Meadows,SO,returning,RETURNING STARTER; 37.6/426; 7 st 9 gm as TRUE FR; PS#419
+OL,LT,2,Hudson Chasko,SR,returning,JC '23-24; OFY (inj) at KSU LY
+OL,LG,1,Cecil Wilson,JR,returning,1 st '23; 7 gm '24; OFY (inj) LY - injury return
+OL,LG,2,Boston Crowell,FR,returning,53.6/106; rFr
+OL,C,1,Ben Midea,JR,transfer:Saint Francis (PA),FCS 9 st LY
+OL,C,2,Rico Steele,SO,returning,RS at BGSU '24 (pre-2025 move); 8 gm backup at KSU LY
+OL,RG,1,Dustyn Morell,SR,returning,RETURNING STARTER; 64.4/470; 28 career starts (8+9+11)
+OL,RG,2,Mason Imbt,SR,transfer:Saint Francis (PA),FEED-GAP arrival; 11 st @ OG 3rd-Tm NEC '24; DNP '25
+OL,RT,1,Mofe Adewole,SR,transfer:Robert Morris,FCS 12 st @ RT LY; 25 career gm there
+OL,RT,2,William Johnson III,FR,recruit,true FR; PS#375
+OL,G,3,Jaxon Dunn,SO,returning,RETURNING-ISH (Athlon bold); 60.4/568; 8 st as rFr; INJURED SPRING '? for 26' (PS) - monitor
+DL,DE,1,Jaihien Roy,SO,returning,62.5/310; 3rd-yr program riser
+DL,DE,2,Semaj Bridgeman,JR,transfer:Michigan State,FEED-GAP arrival (MSU frozen META departure - loop closed); RS Mich '23; 12 gm 6 tkl MSU LY; PS#28
+DL,DE,1,Antonio Bottiggi,SO,returning,63.1/121; 3rd-yr program riser
+DL,DE,2,Mohammed Hazime,SR,returning,52.7/54
+DL,NT,1,Thomas Aden,SR,returning,RETURNING STARTER; 67.7/392; ex-Pitt; 9 st 24 tkl; 'Grandfather' of unit
+DL,NT,2,Darian Blachewicz,SO,returning,69.2/214; 21 tkl 3.5 tfl as TRUE FR - riser
+DL,DT,1,Josue Cordoba,SO,returning,RETURNING STARTER (Athlon bold); 60.8/150
+DL,DT,2,Camdon Wilborn,SO,transfer:Robert Morris,FCS 5 st 51 tkl 2.5 tfl LY
+DL,DT,3,Mason Maddox,JR,returning,53.9/385
+DL,DT,3,Aiden Burgess,SO,returning,61.6/121
+LB,LB,1,Rocco Nicholl,SR,transfer:South Florida,77.8/42 at USF; BOOMERANG - KSU '22-24 (8 st 61 tkl '24); 'one of the leaders'
+LB,LB,2,Sayed Abuhamdeh,JR,returning,56.3/327; 38 tkl; top returnee
+LB,LB,1,Hayden Dawahare,JR,transfer:Kentucky,85.9/9 (tiny); 10 gm 2 tkl at UK LY
+LB,LB,2,Trey Rubinstein,SO,returning,56.8/71
+LB,LB,3,Nate Gregory,FR,transfer:Coastal Carolina,73.9/4 (tiny); PS#179; RS at CCU LY
+LB,LB,3,Quan Rhodes-McKee,SO,transfer:Duquesne,FCS depth
+DB,S,1,Derrick Jackson III,SO,returning,RETURNING STARTER; 57.1/575; 7 st 49 tkl as TRUE FR; yr4 override (FEED ERROR - '24 true FR)
+DB,S,2,Clinton Robinson,SO,returning,61.3/86
+DB,S,1,Joel Cordoba,SO,returning,50.3/552; 8 st 68 tkl as TRUE FR; Athlon 'both starting safeties back'
+DB,S,2,Norey Johnson,SR,transfer:Houston Christian,FCS 11 gm 43 tkl LY
+DB,NB,1,D.J. Barnes,SR,returning,47.5/399; 70% of snaps LY; West Florida D2 '23-24 origin
+DB,NB,2,Martell Buchanan,FR,returning,51.5/7; rFr
+DB,CB,1,A'tiq Muhammad,SR,returning,60.9/260; 5 st 28 tkl LY; ex-UTEP '23
+DB,CB,2,Lennox Lemon,FR,recruit,true FR; Athlon #4 recruit
+DB,CB,1,Davion Pritchard,SO,transfer:Pittsburgh,64.1/10 at Pitt; Athlon CB2* in learning-curve battle
+DB,CB,2,Angelo Stockstill,JR,returning,55.8/171
+ST,K,1,Sean Leonard,FR,returning,rFr; PS#31; redshirt LY; THREE-WAY battle
+ST,K,2,Eli Tucker,SO,transfer:Saint Francis (PA),RS West Liberty; 30 KO/8 TB at SFU LY
+ST,P,1,Jake Stoeckel,FR,returning,Australian; 9 punts 31.4 LY (lost job then regained top spot per Athlon)
+ST,P,2,Colton Ford,JR,transfer:Benedict College (D2),FEED-GAP arrival; 67 punts 39.4 L/69 30-I20
+ST,KR,1,Da'Realyst Clark,SR,returning,1st-Tm All-MAC returner; 28.3 avg; 2 KR TDs (Athlon)
+ST,PR,1,Wayne Harris,SO,returning,MAC-best 13.2 PR avg + PR TD; PS 1st-Tm MAC PR
