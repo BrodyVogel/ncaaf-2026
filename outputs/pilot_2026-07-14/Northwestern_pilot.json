@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T16:03:45+00:00",
+ "team": "Northwestern",
+ "final": 4.13,
+ "rank": 50,
+ "band": 6.0,
+ "resid": 0.92,
+ "adj": 0.32,
+ "class_term": -0.0,
+ "st": -0.2,
+ "anchor_blend": 3.52,
+ "resid_level": -1.63,
+ "resid_shape": 2.56,
+ "implied_off": 27.17,
+ "implied_def": 23.22,
+ "anchor_off": 23.96,
+ "anchor_def": 20.94,
+ "fit_r2": {
+  "off": 0.542,
+  "dfn": 0.616
+ },
+ "low_conf_units": 0,
+ "code_rev": "e2087d8",
+ "mode": "PILOT-OOS"
+}
