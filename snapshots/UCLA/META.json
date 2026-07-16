@@ -1,0 +1,39 @@
+{
+ "team": "UCLA",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T17:24:10+00:00",
+ "assembler_git_rev": "9c6b228",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "Foster FIRED after 0-3 (interim Skipper 3-6 incl. the 42-37 win over #7 PSU). BOB CHESNEY in from James Madison (132-52; JMU 21-6/SBC title/CFP) with BOTH JMU coordinators (OC Kennedy, DC Hitschler) + 10 JMU players + STC Canan. x1.13 APPLIES.",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Scooter Jackson",
+  "Mateen Bhaghani",
+  "A.J. Fuimaono",
+  "Cole Martin"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {},
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Cole Martin": "out-feed eligibility=Immediate/no-dest but BOTH prints return him (P6 'back at strong safety'; Athlon BOLD) - portal-entry-and-return override, Michigan-build precedent",
+  "Scooter Jackson": "feed S; Athlon-bold NB starter - counted DB",
+  "Darold DeNgohe": "Rutgers '25 injury-shortened (64.0/160); JMU '24 with this staff - B10 offset on the '25 tape",
+  "Sammy Omosigho": "feed LB ex-Oklahoma; 297-snap rotation sample - LB caution applied",
+  "Maxwell Roy": "OSU rFr, zero snaps - located in OSU's frozen out-feed (no prose expected)",
+  "Jaivian Thomas": "PS spells 'Javian' - same player (Cal '24 arrival, 2025 UCLA tape)"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "C battle (Yoon vs Robell) and RT (Schmidt 37-snap '25 sample)",
+  "DT interior projection (DeNgohe injury return, Roy no-tape, Ford 77 snaps)",
+  "P battle (Gerrand vs Barry)",
+  "JMU->B10 translation across 10 imports"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

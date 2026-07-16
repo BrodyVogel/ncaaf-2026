@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Deshaun",
+  "lastName": "Foster",
+  "hireDate": "2024-02-12T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "UCLA",
+    "year": 2024,
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 2.1,
+    "spOverall": -1.3,
+    "spOffense": 21.3,
+    "spDefense": 23.3
+   }
+  ]
+ },
+ {
+  "firstName": "Deshaun",
+  "lastName": "Foster",
+  "hireDate": "2024-02-12T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "UCLA",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -1.1,
+    "spOverall": -8.7,
+    "spOffense": 21.7,
+    "spDefense": 30.4
+   }
+  ]
+ }
+]

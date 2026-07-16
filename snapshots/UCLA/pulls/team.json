@@ -1,0 +1,36 @@
+{
+ "id": 26,
+ "school": "UCLA",
+ "mascot": "Bruins",
+ "abbreviation": "UCLA",
+ "alternateNames": [
+  "UCLA",
+  "UCLA"
+ ],
+ "conference": "Big Ten",
+ "division": null,
+ "classification": "fbs",
+ "color": "#2774ae",
+ "alternateColor": "#f2a900",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/26.png"
+ ],
+ "twitter": "@UCLAFootball",
+ "location": {
+  "id": 1056,
+  "name": "Rose Bowl",
+  "city": "Pasadena",
+  "state": "CA",
+  "zip": "90095",
+  "countryCode": "US",
+  "timezone": "America/Los_Angeles",
+  "latitude": 34.1613284,
+  "longitude": -118.1676462,
+  "elevation": "245.1772461",
+  "capacity": 88565,
+  "constructionYear": 1922,
+  "grass": true,
+  "dome": false
+ }
+}

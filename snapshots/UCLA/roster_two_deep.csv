@@ -1,0 +1,58 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Nico Iamaleava,JR,returning,RETURNING STARTER; 72.0/425; 5*; 1928 @ 64.4 + team-high 505 rush; Nov concussion
+QB,QB,2,Madden Iamaleava,FR,returning,rFr; brother
+QB,QB,3,Ty Dieffenbach,SR,transfer:Cal Poly,FCS; 1305 @ 56.7
+RB,RB,1,Wayne Knight,SR,transfer:James Madison,81.3/206; 1373 @ 6.6-6.9; 110 vs Oregon (CFP); 5'7
+RB,RB,2,Anthony Woods,SR,returning,72.0/63; 294 @ 4.7; 1155 at Idaho '23
+RB,RB,2,Jaivian Thomas,JR,returning,72.9/81; 294 @ 3.6; Cal '24
+RB,RB,3,Dylan Lee,SO,transfer:Iowa State,77.0/25
+WRTE,WR,1,Leland Smith,SR,transfer:San José State,62.3/525; 688 @ 16.0; 6'4
+WRTE,WR,2,Aidan Mizell,JR,transfer:Florida,68.6/125; Top100; 4* transfer grade; track speed
+WRTE,WR,1,Landon Ellis,SR,transfer:James Madison,77.8/268; 624 @ 17.3; all-league
+WRTE,WR,2,Semaj Morgan,SR,transfer:Michigan,55.7/163
+WRTE,WR,1,Brian Rowe Jr.,SO,transfer:South Carolina,60.7/177; 2025 4*; top guy out of spring (PS)
+WRTE,WR,2,Mikey Matthews,SR,returning,58.0/291; slot vet
+WRTE,TE,1,Brayden Loftin,SR,transfer:Kansas State,50.5/83
+WRTE,TE,2,Josh Phifer,JR,transfer:James Madison,blocking TE; 3 st
+WRTE,TE,3,Harry Lodge,SR,transfer:Wake Forest,6 st L3Y
+OL,LT,1,Jordan Davis,SR,transfer:South Alabama,48.6/572; 30 st, 3-yr starter
+OL,LT,2,Mack Indestad,SR,transfer:Eastern Michigan,50.3/194; 9 st
+OL,LG,1,Eugene Brooks,SO,returning,RETURNING STARTER; 65.1/696; 'their best one' (P6)
+OL,LG,2,Sean Na'a,SR,transfer:Arizona State,7 st L3Y
+OL,C,1,Sam Yoon,SR,returning,59.2/743; Athlon bold C1; 20 st L3Y
+OL,C,2,Riley Robell,JR,transfer:James Madison,65.1/627; All-SBC; PS C1
+OL,C,3,Derek Osman,SR,transfer:Harvard,All-Ivy; 21 st (FCS)
+OL,RG,1,Carter Sweazie,SR,transfer:James Madison,64.1/805; All-SBC; 23 st
+OL,RG,2,Julian Armella,SR,returning,54.4/306; FSU '22-24
+OL,RT,1,Hall Schmidt,SR,transfer:Boise State,69.5/37; 12 st L3Y; '24 CFP starter
+OL,RT,2,Jensen Somerville,FR,returning,46.5/68
+DL,DE,1,Sahir West,SO,transfer:James Madison,80.5/562; 7 sk, 14 TFL; SBC FR of the Year
+DL,DE,2,Dallin Havea,SO,transfer:Utah Tech,FCS
+DL,DT,1,Darold DeNgohe,SR,transfer:Rutgers,64.0/160 ('25 injury-shortened); JMU '24
+DL,DT,2,A.J. Fuimaono,JR,returning,56.8/209; Withdrawn override STAYS
+DL,DT,1,Maxwell Roy,FR,transfer:Ohio State,rFr; 300+ lbs; no tape
+DL,DT,2,Tyson Ford,JR,transfer:California,54.5/77; Top100 pedigree (ex-ND)
+DL,DE,1,Aiden Gobaira,SR,transfer:James Madison,76.1/481; 4 sk
+DL,DE,2,Ryan McCulloch,JR,transfer:California,75.4/210; 'California's best edge rusher'
+DL,DT,3,Amier Washington,SO,transfer:Texas Tech,67.2/93
+DL,DT,3,Jewelous Walls,SO,returning,64.0/131
+LB,LB,1,Jalen Woods,SR,returning,RETURNING STARTER; 61.7/414; lone returning LB starter
+LB,LB,2,Drew Spinogatti,SR,transfer:James Madison,77.2/463; 17 st
+LB,LB,1,Sammy Omosigho,SR,transfer:Oklahoma,72.1/297; 4* transfer; 50 tkl LY
+LB,LB,2,Anthony Sacca,JR,transfer:Notre Dame,2025 4*; no volume
+LB,LB,3,Donavyn Pellot,FR,returning,56.1/181
+DB,CB,1,Rodrick Pleasant,JR,returning,RETURNING STARTER; 72.2/609; 'arguably their top defender'
+DB,CB,2,Osiris Gilbert,SO,transfer:UConn,69.6/288
+DB,CB,1,Robert Stafford III,JR,returning,52.5/273
+DB,CB,2,Dante Lovett,JR,transfer:Virginia Tech,46.1/63; P6 projects CB2
+DB,NB,1,Scooter Jackson,SR,returning,RETURNING STARTER; 69.2/493; Withdrawn override STAYS
+DB,NB,2,DJ Barksdale,SR,transfer:James Madison,73.1/782; All-SBC; 27 st 2Y
+DB,S,1,Cole Martin,SR,returning,RETURNING STARTER; 60.6/750; portal-return override STAYS
+DB,S,2,Ta'Shawn James,JR,transfer:Iowa State,69.9/333
+DB,S,1,Tao Johnson,SR,transfer:Utah,68.9/802; Utah starter; 'phenomenal' (Chesney)
+DB,S,2,Malik Hartford,JR,transfer:Ohio State,64.7/38
+ST,K,1,Mateen Bhaghani,SR,returning,Withdrawn override STAYS; 83% career; 36-44 L2Y
+ST,P,1,Curtis Gerrand,SO,transfer:Sam Houston,43.0 avg / 40.2 net
+ST,P,2,Chase Barry,SO,transfer:Oklahoma State,
+ST,KR,1,Mikey Matthews,SR,returning,
+ST,PR,1,Wayne Knight,SR,transfer:James Madison,9.5/PR in '25
