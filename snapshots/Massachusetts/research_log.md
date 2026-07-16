@@ -44,3 +44,12 @@
 - 2026-07-16 planned grades set; G5 guard N/A (max 30).
 - 2026-07-16 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-16 grades.json written + schema-validated (8/8); Adkins yr4 override
+  added on ledger-review pass (Athlon-bold returning starter I initially
+  missed - the ledger gate worked as designed).
+- 2026-07-16 pilot_readout: FINAL -25.80 (r138/138 - new project floor), band
+  ±6.80. THREE PROJECT FIRSTS: (1) FPI WINSORIZED (-22.39 -> -26.58, >5 from
+  median-of-others; 3rd winsorization event of project), (2) DISPERSION FLAG
+  FIRED for the first time ever (10.55 - anchors genuinely disagree; band
+  x1.10), (3) rank 138. resid +13.06 = level +16.13 (largest fade of project)
+  + shape -3.08. QB L x1.03. k-resid +4.57 still under the ±6 cap.

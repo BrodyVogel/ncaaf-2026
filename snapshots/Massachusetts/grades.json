@@ -1,0 +1,211 @@
+{
+ "team": "Massachusetts",
+ "units": {
+  "QB": {"grade": 22, "confidence": "L"},
+  "RB": {"grade": 10, "confidence": "M"},
+  "WRTE": {"grade": 14, "confidence": "M"},
+  "OL": {"grade": 12, "confidence": "M"},
+  "DL": {"grade": 12, "confidence": "M"},
+  "LB": {"grade": 30, "confidence": "M"},
+  "DB": {"grade": 16, "confidence": "M"},
+  "ST": {"grade": 20, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (b94b9c4)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB None, WRTE None, OL 2, DL None, LB 33, DB 0, ST 10) - items #33-36 on the running artifact list",
+   "LB": "-3 vs proxy 33 - rare near-agreement (Martin/Hinspeter feed-visible)",
+   "DB": "+16 vs proxy 0 (floor-clip: proxy drops Withdrawn-portal Bournes and counts departed Greene/Craig)",
+   "OL": "+10 vs proxy 2 (proxy blind to the 769-snap Colorado State import and the Franks yr4 override)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Massachusetts",
+   "unit": "QB",
+   "grade": 22,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Buffalo QB 2026 (22, this round - same zero-FBS-tape shape)",
+    "Ball State QB 2026 (18, this round)"
+   ],
+   "rationale_bullets": [
+    "All three 2025 QBs left (Jordan -> Oklahoma State's two-deep, Rose -> Utah, Hairston -> Merrimack) - the room is ALL transfers with zero returning FBS tape.",
+    "Watson (VT): 2 career starts, 551 @ 58%, one ACC-OPOW week, never won the job - backup-grade P4 pedigree plus local-star narrative; 55.0/8 LY.",
+    "RJ Johnson (FCS FAMU: 2,597 @ 65%, 18-4 on 12 st) and Inagawa (Drake: 1,393 @ 68%) are real FCS volume, no offset cell.",
+    "22, L = Buffalo 22: pedigree-plus-FCS-production over Ball State's 18; the three-way battle and no-cell tape cap it."
+   ],
+   "key_players": [
+    {"name": "William Watson III", "role": "QB1 candidate (transfer, Virginia Tech)", "evidence": "2 st, 551 @ 58%; ACC OPOW once; 55.0/8 LY"},
+    {"name": "RJ Johnson III", "role": "QB1 candidate (transfer, FCS Florida A&M)", "evidence": "2,597 @ 65%, 18-4, 12 st"}
+   ],
+   "data_gaps": ["zero returning FBS tape", "three-way battle"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Massachusetts",
+   "unit": "RB",
+   "grade": 10,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Kent State RB 2026 (10, this round)",
+    "Ball State RB 2026 (8, this round)"
+   ],
+   "rationale_bullets": [
+    "Top two depart (Hood 368 -> Southern Miss; Griffin 245 research-GONE); top returnee is true-FR Faulkner's 114 yards at 2.9.",
+    "Athlon's projected RB1 is Murray State's Washington - 340 @ 3.9 FCS tape, no cell; Marshall journeyman Williams-Thomas graded 69.1 on 35 snaps.",
+    "RUN graded p1 as played; the room adds NAIA volume (Kimmons 892, feed-gap) and a true FR.",
+    "10 = Kent State 10: same zero-production battle shape; above only Ball State's 8."
+   ],
+   "key_players": [
+    {"name": "Jordan Washington", "role": "RB1 (transfer, FCS Murray St)", "evidence": "340 @ 3.9; Athlon projected starter"},
+    {"name": "Elijah Faulkner", "role": "RB2 (returning)", "evidence": "63.5/40; 114 @ 2.9 as true FR"}
+   ],
+   "data_gaps": ["no returning 50-carry back", "projected starter's tape is 3.9 ypc FCS"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Massachusetts",
+   "unit": "WRTE",
+   "grade": 14,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Ball State WRTE 2026 (12, this round)",
+    "Bowling Green WRTE 2026 (18, this round)"
+   ],
+   "rationale_bullets": [
+    "RECV graded p0 - dead last in FBS - and the #1 receiver left (Gibson 71.0/295 -> Virginia); every returning grade sits 55-58 raw.",
+    "The new OC (Fannin's TE coach at BGSU) will feature the two returning starters - TEs Dowling 55.0/258 (10 st) and Adkins 55.2/123 (yr4 override, injury return).",
+    "Harding back from OFY (364 @ 15.8 L2Y, 'Watson's top target') and Griffin Jr.'s pedigree is BC '22-23 (14 st, 579) with two minimal Wisconsin years since.",
+    "14: Griffin/Harding pedigree + TE-scheme fit over Ball State's 12; below BGSU's 18 (their tiny-sample grades are better)."
+   ],
+   "key_players": [
+    {"name": "Max Dowling", "role": "TE1 (returning starter)", "evidence": "55.0/258; 10 st, 199 yds"},
+    {"name": "T.Y. Harding", "role": "WR1 (returning, injury)", "evidence": "57.5/32; OFY after 3 gm; 364 @ 15.8 L2Y"},
+    {"name": "Joseph Griffin Jr.", "role": "WR1 (transfer, Wisconsin)", "evidence": "BC '22-23: 14 st, 579 @ 13.5; Watson's HS teammate"}
+   ],
+   "data_gaps": ["Griffin's recent tape minimal", "Harding/Adkins health"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Massachusetts",
+   "unit": "OL",
+   "grade": 12,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Ball State OL 2026 (12, this round)",
+    "Kent State OL 2026 (12, this round)"
+   ],
+   "rationale_bullets": [
+    "PBLK graded p1 (the MAC round owns FBS's bottom three: KSU p0, CMU/UMass p1) and six volume linemen expired.",
+    "The imports carry the projection: Urionabarrenechea (Colorado State, 59.8/769, 12 st - the room's only real recent volume, MWC -10 = 49.8-equiv), Knox (McNeese 12 st), Klingensmith (W&M 12 st).",
+    "Returnees grade 40-49 (Taylor 49.0/345, Miller 47.9/288, J.King 40.5/212); Franks (ex-NW/Duke) returns from a lost year (yr4 override).",
+    "12: three-import injection with no piece above 50-equiv - the BSU/KSU 12-tier exactly."
+   ],
+   "key_players": [
+    {"name": "Aitor Urionabarrenechea", "role": "RG1 (transfer, Colorado State)", "evidence": "59.8/769; 12 st at CSU"},
+    {"name": "Greg Knox", "role": "LT1 (transfer, FCS McNeese)", "evidence": "12 st at LT LY"},
+    {"name": "Brock Taylor", "role": "LG1 (returning)", "evidence": "49.0/345; 4-5 st"}
+   ],
+   "data_gaps": ["three new-import starters", "Franks unseen since '23"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Massachusetts",
+   "unit": "DL",
+   "grade": 12,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Akron DL 2026 (12, this round)",
+    "Buffalo DL 2026 (14, this round)"
+   ],
+   "rationale_bullets": [
+    "The two best players left: White 90.2/470 (the round's #2 edge grade) -> SMU and Onuoha 76.6/397 -> North Texas; ~2,300 more snaps expired. PRSH p55 leaves with them.",
+    "The reclamation headline is Nobles - 10 sacks at Jackson St '24 (FCS, no cell), missed ALL of 2025, yr4 override; both prints call him the team's best player when healthy.",
+    "Around him: Passmore 53.3/297, Indiana's DePaepe brothers (25 + 8 snaps), UConn/W&M/SFU depth adds - tiny samples and no-cell tape.",
+    "12 = Akron 12: an injured FCS star + thin returning rotation; Nobles' health is the one tail-up."
+   ],
+   "key_players": [
+    {"name": "Joshua Nobles", "role": "DE1 (returning from injury; yr4 override)", "evidence": "12 st, 57 tkl, 10 sk at Jackson St '24; missed all '25"},
+    {"name": "Tim Passmore Jr.", "role": "NT1 (returning)", "evidence": "53.3/297"},
+    {"name": "Andrew DePaepe", "role": "DE (transfer, Indiana)", "evidence": "59.5/25"}
+   ],
+   "data_gaps": ["Nobles health", "zero returning above-average tape"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Massachusetts",
+   "unit": "LB",
+   "grade": 30,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Bowling Green LB 2026 (30, this round)",
+    "UNLV LB 2025 (40 anchor)"
+   ],
+   "rationale_bullets": [
+    "The round's best returning DUO: Martin 70.6/690 (104 tkl, 3rd-Tm All-MAC, 9 st; ex-Arizona; All-MAC candidate) + Hinspeter 76.2/330 (9.9 tkl/gm through 7 games before injury; ex-Rutgers).",
+    "Hinspeter is a Rojas-pattern trust case: injury-shortened, production-corroborated by both prints.",
+    "FCS volume behind them: Iseah (NC A&T, 173 tkl L3Y), Council (SFU, 11 st), Bendolph - no cells but real depth bodies.",
+    "30 = BGSU 30: Martin's volume matches Pringle's ceiling; TACK p41 was this defense's best sub-grade. The unit is the team's one strength."
+   ],
+   "key_players": [
+    {"name": "Tyler Martin", "role": "MLB1 (returning starter)", "evidence": "70.6/690; 104 tkl; 3rd-Tm All-MAC"},
+    {"name": "Timmy Hinspeter", "role": "WLB1 (returning starter)", "evidence": "76.2/330; 9.9 tkl/gm before injury"}
+   ],
+   "data_gaps": ["Hinspeter health", "depth is no-cell FCS"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Massachusetts",
+   "unit": "DB",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Ball State DB 2026 (14, this round)",
+    "Kent State DB 2026 (18, this round)"
+   ],
+   "rationale_bullets": [
+    "COV graded p1 and the PDR ratio was 29-4 - the floor argument - though both starting safeties return: Daniel 65.0/524 (9 st, 75 tkl; Georgetown 7-int pedigree) + Bournes 49.1/524 (WITHDRAWN-portal override STAYS, both prints).",
+    "Magee back from OFY (65.0/158; Davidson 17-pd pedigree; PR1) and Brown-Ivy import Reed (30 st, 27 pbu, 7 int there; 4 UCF games - gap-in-feed) 'turned heads in the spring.'",
+    "Harmon (ex-Ball State, 48.9/429) and Rutgers' Robinson fill the nickel/depth; Greene/Craig/Bailey/Barnes all gone.",
+    "16: Daniel is the one above-average piece; between Ball State's 14 and Kent State's 18."
+   ],
+   "key_players": [
+    {"name": "Zeraun Daniel", "role": "S1 (returning starter)", "evidence": "65.0/524; 9 st, 75 tkl"},
+    {"name": "Kendall Bournes", "role": "S1 (returning starter; withdrawal override)", "evidence": "49.1/524; 11 st, 62 tkl"},
+    {"name": "T.J. Magee", "role": "CB1 (returning, injury)", "evidence": "65.0/158; missed final 9"}
+   ],
+   "data_gaps": ["29-4 ratio as played", "CB room is injury-return + no-cell Ivy tape"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Massachusetts",
+   "unit": "ST",
+   "grade": 20,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Bowling Green ST 2026 (18, this round)",
+    "Buffalo ST 2026 (22, this round)"
+   ],
+   "rationale_bullets": [
+    "K Derek Morris returns (ex-Cal): 10-16 with a program-record long and 3-of-5 from 50-plus - a real leg and the unit's one proven asset.",
+    "P rebuilt via the Aussie pipeline (Phillipson 'takes over'; Streeter arriving) after the team-MVP-ish Andrews expired.",
+    "KR Harding + PR Magee have pedigree but are both injury returns; SPEC graded p10 and PS STR was #134 two straight years.",
+    "20: Morris lifts it over BGSU's 18; the rest of the operation keeps it under Buffalo's 22."
+   ],
+   "key_players": [
+    {"name": "Derek Morris", "role": "K1 (returning)", "evidence": "10-16 FG; 3-5 from 50+; program-record long"},
+    {"name": "Edward Phillipson", "role": "P1 (returning rFr)", "evidence": "Australian; RS'd '25; zero attempts"}
+   ],
+   "data_gaps": ["P has never punted", "return men are injury returns"],
+   "g5_guard_note": null
+  }
+ ]
+}

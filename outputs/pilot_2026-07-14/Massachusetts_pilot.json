@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T21:18:08+00:00",
+ "team": "Massachusetts",
+ "final": -25.8,
+ "rank": 138,
+ "band": 6.8,
+ "resid": 13.06,
+ "adj": 4.57,
+ "class_term": 0.0,
+ "st": -0.6,
+ "anchor_blend": -30.22,
+ "resid_level": 16.13,
+ "resid_shape": -3.08,
+ "implied_off": 16.02,
+ "implied_def": 32.79,
+ "anchor_off": 9.94,
+ "anchor_def": 39.76,
+ "fit_r2": {
+  "off": 0.545,
+  "dfn": 0.616
+ },
+ "low_conf_units": 1,
+ "code_rev": "b94b9c4",
+ "mode": "PILOT-OOS"
+}
