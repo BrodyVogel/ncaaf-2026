@@ -1,0 +1,36 @@
+{
+ "id": 2711,
+ "school": "Western Michigan",
+ "mascot": "Broncos",
+ "abbreviation": "WMU",
+ "alternateNames": [
+  "WMU",
+  "W Michigan"
+ ],
+ "conference": "Mid-American",
+ "division": null,
+ "classification": "fbs",
+ "color": "#532e1f",
+ "alternateColor": "#8b7f79",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2711.png"
+ ],
+ "twitter": "@WMU_Football",
+ "location": {
+  "id": 3980,
+  "name": "Waldo Stadium",
+  "city": "Kalamazoo",
+  "state": "MI",
+  "zip": "49008",
+  "countryCode": "US",
+  "timezone": "America/Detroit",
+  "latitude": 42.2860064,
+  "longitude": -85.6007573,
+  "elevation": "243.8211212",
+  "capacity": 30200,
+  "constructionYear": 1939,
+  "grass": false,
+  "dome": false
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "team": "Western Michigan",
+ "conference": "Mid-American",
+ "created_utc": "2026-07-16T22:20:26+00:00",
+ "assembler_git_rev": "4049ef9",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Lance Taylor yr 4 (20-19; 2025 MAC Coach of the Year, MAC champions). DC left for NFL Chargers but Greer Martini PROMOTED from LB room, 'keeping the same system and terminology' (PS); Athlon lists co-DCs Martini/Payne. HC-only rule (Carney precedent): x1.0.",
+ "portal_departure_confirmed": [
+  "Devin Miles",
+  "Isaiah Paul",
+  "Jason Mitchell",
+  "Mark Konecny",
+  "Tre' Hartwell",
+  "Fitzroy Ledgister",
+  "Popeye Williams",
+  "Jordan Buckley",
+  "Derek Pennington"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Jarvarius Sims",
+  "Palmer Domschke",
+  "Jordon Thomas"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Jordan Buckley": "DE, portal->None, 2 snaps-adjacent depth - NOT RB Jalen Buckley (returning star). Name-collision documented.",
+  "Jordon Thomas": "yr4 override on a SINGLE print - accepted because PS documents the extra-year mechanism itself ('MedRS LY' lineup note + prose 'get back Thomas (awarded extra yr)'), not mere depth-chart presence. Athlon chart silent. First single-print yr4 override of the round; grade impact minimal (CB2/3). Wingate->EKU->WMU journeyman.",
+  "Jori Benson": "yr4 + PS-only NT2 depth line (19 snaps LY; RS UConn '22, DNP Utah '23-24) = EXPIRED per Goodell/Hilty single-print depth-body treatment.",
+  "Nadame Tucker": "MAC DPOY (91.4/579, 14.5 sk): yr4 expiry; draft-bound presumed, not print-confirmed - no nfl_declare entry.",
+  "Scoop Gardner": "Athlon DE1* / PS Rush line - ABSENT from in-feed. Origin LONG ISLAND (LIU) verified by zoom crop: 12 st, 52 tkl, 7 sk, 7.5 tfl, 4 qbh LY. FCS-source feed gap.",
+  "Nate Levicki": "PS TE1 / Athlon TE2* - ABSENT from in-feed. Presbyterian (FCS): 14 st, 783 @ 16.3. Split-print TE1 vs Parks.",
+  "Kordell Gouldsby": "Athlon WR2 + KR/PR1* - ABSENT from in-feed. Hutchinson CC (JC): 5 KR TDs in 2 yrs.",
+  "Justyce Betts": "Athlon LB2* + PS line - ABSENT from in-feed. Butler CC (JC): 96 tkl, 4.5 sk LY.",
+  "KJ Burley": "PS Rush-room line - ABSENT from in-feed. Keiser (NAIA) LY: 12 gm, 55 tkl, 5.5 sk, 9.5 tfl; RS MTSU '24.",
+  "Jacob Bailey": "PS OL depth - ABSENT from in-feed. 'RS JMU LY' - depth body, no grade impact.",
+  "Cade Conley": "TE, 77 routes 59.4 LY: not yr4, not in out-feed, absent from BOTH prints. Sub-100-vol (below ledger universe) - expires silently per sub-threshold convention; transparency note only.",
+  "Tailique Williams": "PFF spelling; feed yr4 list spells 'Talique'. Same player, yr4 GONE (team-leading 478 rec yds).",
+  "Teegan Haines": "PS LB depth mention - not in roster25/feeds; unknown source, sub-impact; not counted."
+ },
+ "feed_gap_arrivals_documented": [
+  "Scoop Gardner (DE - Long Island/LIU FCS; Athlon DE1*)",
+  "Nate Levicki (TE - Presbyterian FCS; split-print TE1)",
+  "Kordell Gouldsby (WR/KR - Hutchinson CC)",
+  "Justyce Betts (LB - Butler CC: 96 tkl LY)",
+  "KJ Burley (DE - Keiser NAIA via MTSU RS)",
+  "Jacob Bailey (OL - RS JMU LY; depth)"
+ ],
+ "position_notes": {
+  "DeJuan Echoles Jr.": "feed position LB / PFF ED - counted in DL room (Rush). MAC cell: 78.2 -> 71.8 adj on 288 Ball St snaps.",
+  "Isaiah Street": "WMU out-feed -> Ohio confirms the Ohio-side adjudication; ZERO 2025 WMU tape (consistent with the stale-origin finding). Double-closed.",
+  "Domanick Moon": "ex-Purdue (rFr '23) - pre-2025 move, no retro obligation. 82.6 on 136 snaps = high-grade reserve sample.",
+  "Jarvarius Sims": "CMU '22-23 -> UConn RS '24 -> WMU '25: pre-2025 moves, no retro obligation.",
+  "Cole Cabana + Egypt Nelson": "returners with pre-2025 P4/FCS origins (Michigan rFr / VMI) - no feed entries expected.",
+  "Brenden Anes": "SEC LB cell +14.01 on a 34-snap 47.0 sample - flagged non-load-bearing (pedigree input only).",
+  "Palmer Domschke": "kicked '22-'23 (22-34, L52), RS '24, kicked '25 (13-19, 10-13 from 40+) - yr4 feed miscount from the RS year.",
+  "OL alignment": "Athlon LT Schuster/RT Whitenack vs PS RT Schuster/LG Whitenack - room graded, not slots.",
+  "TE1": "split-print: Athlon Parks* vs PS Levicki - both imports, both counted."
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "2026 recruiting team ranks not on CFBD - use 247 site at research time for class context",
+  "Cade Conley disposition unresolved (sub-threshold)",
+  "Tucker NFL path unconfirmed in prints",
+  "Betts and 3 other JUCO LB adds per PS - only Betts named",
+  "DL rotation projection is 6 bodies of sub-FBS/pedigree evidence"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

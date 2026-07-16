@@ -1,0 +1,17 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Chad Schuster,158307,T,W MICHIGAN,14,100.0,0,347,64.1,59.1,63.3,5,12,351,100.0,100.0,96.7,1,20,3,921,0,0,0,921,374,374,0,918,547,2,2025_this_team
+Raheem Anderson II,144926,C,W MICHIGAN,14,100.0,0,347,73.1,83.2,69.6,3,1,306,100.0,100.0,99.3,2,4,0,824,781,14,0,824,325,325,28,0,499,0,2025_this_team
+Gavin Dabo,193092,G,W MICHIGAN,14,100.0,0,347,56.1,36.4,59.0,3,6,295,100.0,100.0,96.8,2,14,5,766,0,0,0,766,314,314,765,0,452,0,2025_this_team
+Hunter Whitenack,158229,G,W MICHIGAN,12,100.0,0,347,69.6,72.5,68.9,1,2,216,100.0,100.0,98.4,3,5,2,614,0,606,0,614,226,226,6,0,388,1,2025_this_team
+Zach Vaughan,123404,T,W MICHIGAN,9,100.0,0,347,61.2,56.2,60.0,2,4,165,100.0,100.0,97.6,1,7,1,484,0,0,466,484,179,179,0,16,305,1,2025_this_team
+Adam Vandervest,130667,T,W MICHIGAN,13,100.0,0,347,50.0,47.1,49.8,5,6,197,100.0,100.0,96.2,0,13,2,483,0,0,468,483,206,206,0,0,277,14,2025_this_team
+John Hofer,145935,G,W MICHIGAN,12,100.0,0,347,60.4,60.4,58.5,3,3,182,100.0,100.0,98.4,2,6,0,457,0,319,0,457,198,198,137,0,259,0,2025_this_team
+Jeremy Schleicher,190157,C,W MICHIGAN,3,100.0,0,347,55.7,53.3,55.7,0,2,69,100.0,100.0,98.6,0,2,0,155,155,0,0,155,74,74,0,0,81,0,2025_this_team
+Conor Kenzinger,190148,T,W MICHIGAN,2,100.0,0,347,65.5,59.2,65.2,0,1,6,100.0,100.0,91.7,0,1,0,19,0,0,3,19,6,6,0,16,13,0,2025_this_team
+Trevor Shaw,158158,G,W MICHIGAN,3,100.0,0,347,38.1,77.4,34.9,0,0,5,100.0,100.0,100.0,0,0,0,18,0,3,0,18,5,5,12,3,13,0,2025_this_team
+Liam Vaughan,200042,C,W MICHIGAN,1,100.0,0,347,73.3,75.9,70.3,0,0,6,100.0,100.0,100.0,0,0,0,16,16,0,0,16,6,6,0,0,10,0,2025_this_team
+Spencer Beckeman,205554,T,W MICHIGAN,1,100.0,0,347,66.1,79.2,63.1,0,0,6,100.0,100.0,100.0,0,0,0,16,0,0,16,16,6,6,0,0,10,0,2025_this_team
+Ben Roebuck,190840,G,MICHIGAN,1,100.0,0,222,53.7,,53.4,0,0,0,,,,0,0,0,14,0,5,0,14,0,0,9,0,14,0,arrival_2025_at_MICHIGAN
+Jacob Krause,190149,G,W MICHIGAN,2,100.0,0,347,45.2,73.3,54.0,0,0,2,100.0,100.0,100.0,1,0,0,9,0,9,0,9,2,2,0,0,7,0,2025_this_team
+Jack Parker,171402,G,W MICHIGAN,2,100.0,0,347,46.7,67.3,46.5,0,0,1,100.0,100.0,100.0,0,0,0,7,0,4,0,7,1,1,3,0,6,0,2025_this_team
+Jake Chellman,193091,G,W MICHIGAN,2,100.0,0,347,75.0,67.3,73.7,0,0,1,100.0,100.0,100.0,0,0,0,7,3,0,0,7,1,1,4,0,6,0,2025_this_team

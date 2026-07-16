@@ -1,0 +1,61 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Broc Lowry,JR,returning,MAC OPOY: 88.6/330 (78.2 MAC-adj); 1803 @ 63% 9-3 + 963 rush 14 TD; 10-1 as starter; BOLD both prints
+QB,QB,2,Trey Petty,SO,transfer:Illinois,DNP rFr; PS#47
+QB,QB,3,Mason Reynolds,SO,returning,no tape
+QB,QB,3,Jaxson Dosh,FR,recruit,Athlon #2 recruit
+RB,RB,1,Jalen Buckley,SR,returning,79.6/178 att (66.3 adj); 1003 @ 5.6; 3rd-Tm All-MAC; 1003 in '23 too; BOLD
+RB,RB,2,Ofa Mataele,SR,returning,66.7/57 att; 252 (4.4); JC 1000-yd history
+RB,RB,3,Cole Cabana,JR,returning,ex-Michigan (PS#18); 8 att '25; pre-2025 move
+RB,RB,3,AJ Green,SR,transfer:Arkansas,964 career @ 4.7; RS Ark LY; 3 att '25 arrival row
+WRTE,WR,1,Baylin Brooks,JR,returning,67.2/246 routes (60.1 adj); 372 @ 13.8 (12 st); SDSU origin pre-2025; BOLD
+WRTE,WR,1,Aveion Chenault,SO,returning,64.2/242 (57.1 adj); 277 @ 12.0 as true FR; BOLD
+WRTE,WR,1,Egypt Nelson,JR,returning,VMI 519 @ 14.8 '23-24; RS'd '25; 'turned heads' spring
+WRTE,WR,2,Terence Marshall,SO,returning,57.6/55; 45 yds LY
+WRTE,WR,2,Kordell Gouldsby,JR,transfer:Hutchinson CC,FEED-GAP (JC); 5 KR TDs; Athlon WR2+KR/PR
+WRTE,WR,2,Keivin Boone-Nelson II,SR,returning,9 routes
+WRTE,TE,1,Adam Parks,JR,transfer:New Mexico State,15 routes 55.4 '25 arrival row; 65 @ 21.7 L2Y; Athlon TE1 (split-print vs Levicki)
+WRTE,TE,1,Nate Levicki,SR,transfer:Presbyterian,FEED-GAP (FCS); 14 st 783 @ 16.3; PS TE1
+WRTE,WR,3,Emazon Littlejohn,SO,transfer:South Carolina,DNP rFr
+OL,LT,1,Chad Schuster,SR,returning,64.1/921 snaps (48.9 adj); 14 st 1st-Tm MAC; Athlon LT/PS RT; BOLD
+OL,LT,2,Ben Roebuck,SO,transfer:Michigan,14 snaps 53.7 B10 '25; PS#84
+OL,LG,1,Liam Vaughan,FR,returning,73.3/16 (rFr); PS#308
+OL,LG,2,Brandon Smith,SR,transfer:Illinois State,FCS; 7 st then OFY broken leg LY; 1 gm WMU '23 history
+OL,C,1,Jeremy Schleicher,SO,returning,55.7/155; 3 st then OFY inj '25; both prints C1
+OL,C,2,Nolan Miller,FR,returning,rFr
+OL,RG,1,Gavin Dabo,SO,returning,56.1/766 (40.9 adj); 14 st; BOLD
+OL,RG,2,Jacob Krause,SO,returning,2-gm backup
+OL,RT,1,Hunter Whitenack,SR,returning,69.6/614 (54.4 adj); 8 st; ex-Illinois; Athlon RT/PS LG; BOLD
+OL,RT,2,KJ Kotalik,FR,returning,rFr 6'8"
+DL,DE,1,Scoop Gardner,JR,transfer:Long Island,FEED-GAP (FCS LIU): 12 st 52 tkl 7 sk 7.5 TFL 4 qbh LY; Athlon DE1*
+DL,DE,2,Austin Alexander,SO,transfer:North Carolina,11 snaps 64.3 ACC '25 arrival row
+DL,NT,1,Ahmed Tounkara,SO,transfer:Ohio State,6'8" RS walk-on; DNP
+DL,NT,2,Dalton Gustwiller,JR,returning,55.7/108 (49.3 adj)
+DL,DT,1,Dakari Frazier,JR,returning,63.6/140 (57.2 adj); 3 st 19 gm
+DL,DT,2,Zavian Tibbs,SR,transfer:Houston,20 gm 11 tkl L2Y; JUCO teammate of Tucker; no '25 tape row
+DL,RUSH,1,DeJuan Echoles Jr.,SR,transfer:Ball State,288 snaps 78.2 MAC '25 (71.8 adj); 3 st; PS#262
+DL,RUSH,2,KJ Burley,SO,transfer:Keiser (NAIA),FEED-GAP; ex-MTSU RS; 55 tkl 5.5 sk 9.5 TFL NAIA LY
+DL,DE,3,Will Gerig,SO,returning,69.9/75 (63.5 adj)
+DL,DT,3,August Johanningsmeier,SR,returning,51.8/45; OFY LY
+LB,MLB,1,Domanick Moon,SR,returning,82.6/136 (70.6 adj); 24 gm 42 tkl L2Y; ex-Purdue rFr '23
+LB,MLB,2,Brenden Anes,SO,transfer:Tennessee,34 snaps 47.0 SEC '25; PS#75
+LB,WLB,1,Dillon Moore,SR,returning,57.3/174 (45.3 adj); 29 gm 35 tkl L3Y; PS#187
+LB,WLB,2,Justyce Betts,SO,transfer:Butler CC,FEED-GAP (JC): 96 tkl 4.5 sk LY
+LB,LB,3,Gabe Welch,JR,returning,55.0/33; Butler CC '24: 70 tkl
+LB,LB,3,Andrew Baker,SO,returning,68.7/10
+DB,NB,1,Joshua Franklin,SR,returning,66.5/682 (63.2 adj); 12 st 53 tkl 10 pbu 3rd-Tm MAC; BOLD
+DB,NB,2,Cam'ron Barber,SO,transfer:Presbyterian,FCS: 13 st 43 tkl 8 pbu 2nd-Tm PFL
+DB,CB,1,Jarvarius Sims,SR,returning,yr4-OVERRIDE (2 prints); 66.4/695 (63.1 adj); 13 st 64 tkl; CMU '22-23/UConn RS '24
+DB,CB,2,Willard Ferrell,SR,transfer:Presbyterian,FCS: 13 st 44 tkl 8 pbu 1 int L2Y
+DB,CB,1,John Peters,SO,returning,67.2/353 (63.9 adj); true-FR nickel buzz both prints
+DB,CB,2,Jordon Thomas,SR,returning,yr4-OVERRIDE (single-print mechanism-explicit: MedRS LY 'awarded extra yr'); EKU 13 st 45 tkl 14 pbu '24
+DB,FS,1,Micah Davis,JR,returning,64.8/561 (61.5 adj); 10 st 60 tkl 1 int; ex-Michigan signee; BOLD
+DB,FS,2,Daeh McCullough,JR,transfer:Louisville,21 snaps 61.0 '25 arrival row; PS#38; Athlon S1*
+DB,BS,1,Joey Pope,JR,returning,69.1/459 (65.8 adj); 6 st 44 tkl 3 int
+DB,BS,2,Tahj Owens,JR,transfer:Princeton,Ivy: 10 st 65 tkl '24; RS'd LY
+DB,S,3,Kouri Crump,SR,transfer:VMI,FCS: 24 st 173 tkl 9.5 pbu L2Y
+ST,K,1,Palmer Domschke,SR,returning,yr4-OVERRIDE (2 prints); 13-19 L50 LY (10-13 from 40+); career 22-34 L52
+ST,P,1,Ryan Millmore,JR,returning,57 punts 42.4 avg / 38.9 net LY (2-yr starter); PS#84
+ST,KR,1,Kordell Gouldsby,JR,transfer:Hutchinson CC,5 KR TDs at JC
+ST,PR,1,Kordell Gouldsby,JR,transfer:Hutchinson CC,Athlon PR1
+ST,LS,1,Drew Doyle,SO,transfer:Virginia Tech,PS#30; replaces LS lost to Oregon
+ST,K,2,Zac Zeman,FR,recruit,PS#32 K/KO

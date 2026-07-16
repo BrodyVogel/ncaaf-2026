@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Lance",
+  "lastName": "Taylor",
+  "hireDate": "2022-12-08T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Western Michigan",
+    "year": 2024,
+    "games": 13,
+    "wins": 6,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -7.6,
+    "spOverall": -10.2,
+    "spOffense": 24.7,
+    "spDefense": 36
+   }
+  ]
+ },
+ {
+  "firstName": "Lance",
+  "lastName": "Taylor",
+  "hireDate": "2022-12-08T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Western Michigan",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -0.1,
+    "spOverall": -1.4,
+    "spOffense": 21.7,
+    "spDefense": 21.8
+   }
+  ]
+ }
+]
