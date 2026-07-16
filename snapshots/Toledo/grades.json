@@ -1,0 +1,233 @@
+{
+ "team": "Toledo",
+ "units": {
+  "QB": {"grade": 22, "confidence": "L"},
+  "RB": {"grade": 16, "confidence": "M"},
+  "WRTE": {"grade": 16, "confidence": "L"},
+  "OL": {"grade": 14, "confidence": "M"},
+  "DL": {"grade": 18, "confidence": "M"},
+  "LB": {"grade": 16, "confidence": "M"},
+  "DB": {"grade": 16, "confidence": "M"},
+  "ST": {"grade": 24, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (cf02669)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB None, WRTE None, OL 5, DL 9, LB 14, DB 17, ST 90) - artifact #44 on the running list",
+   "ST": "-66 vs proxy 90 - LARGEST single-unit proxy divergence of the project: proxy credits team SPEC p90 while blind to BOTH kickers departing (Cunanan->TxSt, Hammond->KSU) and to the FCS arrival K",
+   "OL": "+9 vs proxy 5 - proxy drops Withdrawn Gales (override STAYS) and can't see Senda/Rector/Carwise arrivals",
+   "DL": "+9 vs proxy 9 - proxy blind to Zock/Odinjor/Camese imports",
+   "LB": "+2 vs proxy 14 - near-agreement by accident (proxy sees Long/Zay; blind to feed-gap Fox/Prince)",
+   "DB": "-1 vs proxy 17 - coincidental convergence"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Toledo",
+   "unit": "QB",
+   "grade": 22,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Gleason (90.5 on 364 snaps; 2,517 @ 64%, p96 team PASS) is expired; Osborne (QB2) followed Candle to UConn.",
+    "Richter is both prints' QB1: 3 starts as rFr '24, career 66% / 7:1 TD:INT, 30 snaps at 73.8 raw (63.4 MAC-adj) in '25 - coherent flashes, tiny sample, 'strongest arm on the team' (PS).",
+    "Behind him: D2 Robinson (Lenoir-Rhyne 2,391 @ 20-6 - real volume, no offset cell) and rFr Moses (PS#118).",
+    "New offense (Reisert, ex-Tiffin HC) despite Richter's building continuity.",
+    "22 L = UMass/Buffalo/Ohio tier: legitimate-but-unproven room; above Ball St 18/SacSt 20, far below CMU 38."
+   ],
+   "key_players": [
+    {"name": "John Alan Richter", "role": "QB1 (returning, Jr)", "evidence": "3 st '24; career 66%, 7 TD/1 INT; 30 snaps 73.8 raw '25"},
+    {"name": "Khamoni Robinson", "role": "QB2 (transfer, D2 Lenoir-Rhyne)", "evidence": "2,391 yds, 20-6 TD-INT"},
+    {"name": "Walter Moses", "role": "QB3 (rFr)", "evidence": "PS#118 recruit rank"}
+   ],
+   "data_gaps": ["30-snap FBS sample on QB1", "D2 tape has no offset cell", "new scheme"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Toledo",
+   "unit": "RB",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Ohio RB 2026 (20, this round - returning FBS volume beats imported FCS volume)"
+   ],
+   "rationale_bullets": [
+    "Trayanum (1,015 yds; 76.7/182) and Christian (528; portal->None, print-confirmed gone) take ~90% of 2025 carries out.",
+    "CJ Miller (Mercer: 957 rush, 1st-Tm SoCon, 1,267 scrimmage/17 TD) arrives WITH his entire offensive staff - the strongest form of the FCS-import case (in-scheme, zero install cost).",
+    "Depth is real bodies: Walendzak (ret; led team rushing '23), Ison (Mercer, in-scheme), C.Smith (PSU, 14 B10 att), Drennen (ex-UK).",
+    "16 = Buffalo RB tier; above SacSt/EMU 14 (Miller healthy + in-scheme vs Curtis's injury cloud), below Ohio 20 (returning FBS volume)."
+   ],
+   "key_players": [
+    {"name": "CJ Miller", "role": "RB1 (transfer, Mercer - in-scheme)", "evidence": "957 rush, 1st-Tm SoCon; 1,267 scrimmage, 17 TD"},
+    {"name": "Connor Walendzak", "role": "RB2/change-up (returning)", "evidence": "led Toledo rushing '23; 32 att 61.5 '25"},
+    {"name": "Autavius Ison", "role": "depth (transfer, Mercer)", "evidence": "in-scheme follower"},
+    {"name": "Corey Smith", "role": "depth (transfer, Penn State)", "evidence": "14 att, 63.3 B10 '25"}
+   ],
+   "data_gaps": ["Miller's FCS-to-FBS translation", "no returning 100-carry back"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Toledo",
+   "unit": "WRTE",
+   "grade": 16,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Buffalo WRTE 2026 (22, this round - returning FBS producers)"
+   ],
+   "rationale_bullets": [
+    "Top three WRs + TE1 all gone (Vandeross 81.3/386, Rudolph, Holley, Petersen) + Ezirim (WKU, praised by opposing coach) + Crosby (research-GONE) + five more receivers to UConn.",
+    "Replacements are FCS/D2 producers: Dabbs (Mercer 856 @ 19.0, in-scheme), Bond (Lindenwood 701, Jerry Rice finalist), Gilbert (SEMO); Simpson's ~950-yd FBS season is from 2023 (3 routes since).",
+    "Hammer (MAC PR-yardage leader x2, 35 routes) converts to WR1 - elite athleticism, unproven receiving volume.",
+    "The one MAC-proven piece is TE Newell (Akron): 16 career starts but 43.7 raw -> 36.6 adj - durability without grade.",
+    "16 L: above UMass 14/SacSt 10 on producer quality; below Buffalo 22/KSU 26 (returning FBS tape). Widest outcome range on the roster."
+   ],
+   "key_players": [
+    {"name": "Adjatay Dabbs", "role": "WR1 candidate (transfer, Mercer - in-scheme)", "evidence": "856 @ 19.0 ypc"},
+    {"name": "Bryson Hammer", "role": "WR (returning) + PR", "evidence": "35 routes 61.7; MAC PR-yardage leader 2 straight yrs"},
+    {"name": "Rico Bond", "role": "WR (transfer, Lindenwood)", "evidence": "701 yds; Jerry Rice Award finalist"},
+    {"name": "Anthony Simpson", "role": "WR (transfer, Michigan)", "evidence": "UMass '23 ~950 yds; 3 routes '25"},
+    {"name": "Jake Newell", "role": "TE1 (transfer, Akron)", "evidence": "16 career MAC starts; 43.7 raw -> 36.6 adj"}
+   ],
+   "data_gaps": ["no returning 100-route receiver", "FCS/D2 translation on three projected starters", "Strickland origin unresolved (feed-gap)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Toledo",
+   "unit": "OL",
+   "grade": 14,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Boswell (77.0/819 - the anchor C, -> Houston), Spoth (706, research-GONE), Rhett (669, -> Baylor), Fouty (639, yr4) = 4 of 5 primary starters out.",
+    "Gales STAYS (Withdrawn override, both prints): 11 starts at LT but 48.3 raw -> 33.1 adj on a p26 PBLK line - Athlon's 'All-MAC candidate' is print-vs-tape divergence; tape governs.",
+    "Traore (yr4 override; 388 snaps, 4 st) + Harder (396) + Hofer (73.2/115, best returning grade) = real continuity by round standards; the returning grades are just bad (33-44 adj).",
+    "Projected interior: Senda (Auburn, 16 career snaps - pedigree only) + Rector/Carwise (Gardner-Webb FCS).",
+    "14 = above BGSU 10/Ohio 12/KSU 12 (three returning starters incl. both tackles), below Buffalo 16/EMU 18."
+   ],
+   "key_players": [
+    {"name": "Stephen Gales", "role": "LT (returning starter; withdrawal-override STAYS)", "evidence": "646 snaps, 11 st; 48.3 raw -> 33.1 MAC-adj"},
+    {"name": "Ibrahim Traore", "role": "RT (returning; yr4 override)", "evidence": "388 snaps, 4 st; 56.8 -> 41.6 adj"},
+    {"name": "Jonathan Harder", "role": "LG (returning)", "evidence": "396 snaps; 59.1 -> 43.9 adj"},
+    {"name": "Dylan Senda", "role": "C (transfer, Auburn)", "evidence": "16 SEC snaps - trivial sample"},
+    {"name": "Matt Hofer", "role": "swing T (returning)", "evidence": "115 snaps at 73.2 raw"}
+   ],
+   "data_gaps": ["interior = zero FBS starts", "Senda sample trivial", "Spoth destination unknown"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Toledo",
+   "unit": "DL",
+   "grade": 18,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "ALL SIX starters who drew a start are gone (21 combined sacks; Poynter 82.1, Dunn 84.7, Davis 81.5 -> Rutgers) + Hazelwood (78.1 -> Mich St): the p98 PRSH unit is fully erased.",
+    "Zock is the MAC's best FCS defensive import this cycle: 2025 FCS DPOY (20 TFL, 11.5 sk), SoCon FrOY before that, declined P4 offers to follow his staff - in-scheme.",
+    "Odinjor (UAB: 492 AAC snaps, 10 st, 56.4 adj) + Z.Johnson (UAB: 121, 63.7 adj) are actual FBS rotation pieces; Camese (Mercer, MedRS '25) adds in-scheme interior experience.",
+    "Returning scraps only (Lambert-Pipkin 65, Chandler 41 - both yr4/RM-history bodies via override).",
+    "18 = EMU/Ohio tier: real import quality, zero returning production; below KSU 22/CMU 24 (returning FBS tape)."
+   ],
+   "key_players": [
+    {"name": "Andrew Zock", "role": "DE1 (transfer, Mercer - in-scheme)", "evidence": "FCS DPOY: 20 TFL, 11.5 sk; P4 offers declined"},
+    {"name": "Ezra Odinjor", "role": "DE (transfer, UAB)", "evidence": "492 snaps, 10 st; 62.3 -> 56.4 AAC-adj"},
+    {"name": "Caden Camese", "role": "DT (transfer, Mercer)", "evidence": "3 st, 30 tkl '23-24; MedRS '25"},
+    {"name": "Zach Johnson", "role": "DE rotation (transfer, UAB)", "evidence": "121 snaps, 69.6 -> 63.7 adj as true FR"},
+    {"name": "Damon Ollison II", "role": "DE (returning; yr4 override; LB->DE)", "evidence": "PS#75; ~no 2025 tape"}
+   ],
+   "data_gaps": ["Zock FCS-to-FBS translation", "Camese coming off MedRS", "interior rotation unsettled"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Toledo",
+   "unit": "LB",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Sacramento State LB 2026 (16, this round - same FCS-volume shape, returning vs imported)"
+   ],
+   "rationale_bullets": [
+    "Sherman (77.5/686 -> UConn), D'Appolonia (71.1/638 -> Syracuse), H.Miller (73.5 -> Purdue) - the entire productive core departs.",
+    "Fox (12 st, 85 tkl, 8.5 TFL) and Prince (53 tkl, 10.5 TFL) are BOTH All-SoCon and BOTH feed-gap arrivals (in-feed omits them; caught on print cross-check) - in-scheme Mercer imports.",
+    "Jackson (Penn St, PS#28) is a zero-tape pedigree bet with matching spring buzz in both prints.",
+    "Long (360 snaps, 46.5 adj - journeyman) + Zay (49 snaps, 73.4) are the returning contribution; Athlon's #1/#6/#7/#8 recruits are all LBs (future, not 2026).",
+    "16 = SacSt/EMU tier: demonstrated FCS volume + P4 lottery ticket; above CMU/KSU 14, far below Ohio 40/BGSU 30."
+   ],
+   "key_players": [
+    {"name": "Julian Fox", "role": "LB1 (transfer, Mercer - in-scheme; FEED-GAP arrival)", "evidence": "12 st, 85 tkl, 8.5 TFL, All-SoCon"},
+    {"name": "Isaac Prince", "role": "LB (transfer, Mercer - in-scheme; FEED-GAP arrival)", "evidence": "53 tkl, 3 sk, 10.5 TFL, All-SoCon"},
+    {"name": "Kari Jackson", "role": "LB (transfer, Penn State)", "evidence": "PS#28; zero 2025 defensive tape; 2 yrs PSU"},
+    {"name": "Langston Long", "role": "LB (returning)", "evidence": "360 snaps, 58.5 -> 46.5 adj; Virginia/USF journeyman"}
+   ],
+   "data_gaps": ["both projected FCS starters feed-invisible", "Jackson zero tape", "FCS translation"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Toledo",
+   "unit": "DB",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Kent State DB 2026 (18, this round - returning FBS snaps beat imported FCS honors)"
+   ],
+   "rationale_bullets": [
+    "The entire top five by snaps is gone: Fuller (82.6/711), A.Smith (70.6/746), McNeil-Warren (91.9/654, NFL - 'potential first-rounder'), Bowers (71.8/515), Awls (74.3/602 -> Iowa St), plus Kelly (76.6 -> JMU) and four more. COV p90 erased; PS: 'biggest area of concern.'",
+    "The one real FBS piece arriving: Armorion Smith (MSU, 425 B10 snaps, 6-7 st, 50.3 -> 56.6 adj) - starter experience, mediocre grade.",
+    "Returning rotation: Thompson (268, 66.1 adj) + Hohler (93, 71.0 adj) - useful safeties, never starters.",
+    "Import class carries three FCS first-teamers (Watkins Mercer, Hutchinson 1st-Tm SoCon, C.Jones 1st-Tm All-Patriot as a true So) + D3 Conteh with two-print spring buzz.",
+    "16 = UMass tier: more real bodies than SacSt 10/Ball St 14, below KSU 18/CMU 22 (returning FBS snaps)."
+   ],
+   "key_players": [
+    {"name": "Armorion Smith", "role": "S (transfer, Michigan State)", "evidence": "425 B10 snaps, 6-7 st; 50.3 -> 56.6 adj"},
+    {"name": "Nicholas Thompson", "role": "S (returning)", "evidence": "268 snaps, 69.4 -> 66.1 adj"},
+    {"name": "Donovan Watkins", "role": "S (transfer, Mercer - in-scheme)", "evidence": "26 career FCS starts; 2 int, 9 pbu LY"},
+    {"name": "Cam Jones", "role": "CB (transfer, Holy Cross)", "evidence": "1st-Tm All-Patriot as true So: 56 tkl, 2 int, 7 pbu"},
+    {"name": "Kaleb Hutchinson", "role": "NB (transfer, Mercer)", "evidence": "11 st, 68 tkl, 1st-Tm SoCon"}
+   ],
+   "data_gaps": ["no returning starter", "FCS translation on three projected starters", "CB1 job unsettled"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Toledo",
+   "unit": "ST",
+   "grade": 24,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "P Duran returns (60 punts, 40.6 / 36.6 net, PS#55) and PR Hammer returns (MAC PR-yardage leader two straight years - the league's best returner).",
+    "BOTH 2025 kickers left (Cunanan -> Texas St, Hammond -> K-State); Griffith (Mercer all-time scorer, 14-17, half the makes 40+) is an accomplished FCS leg, unproven FBS.",
+    "SPEC 84.3 p90 as-played; proxy's 90 is artifact #44 (blind to the double-K departure) - graded on 2026 personnel, not team carryover.",
+    "24 = EMU/Ohio tier: two above-average returning specialists + FCS K; above SacSt/Buffalo 22, below KSU/CMU 26 and Miami 40."
+   ],
+   "key_players": [
+    {"name": "Emilio Duran", "role": "P (returning)", "evidence": "60 punts 40.6, 36.6 net; PS#55"},
+    {"name": "Bryson Hammer", "role": "PR (returning)", "evidence": "led MAC in PR yardage 2 straight years"},
+    {"name": "Reice Griffith", "role": "K (transfer, Mercer)", "evidence": "14-17 FG, half of makes 40+; program all-time scorer"}
+   ],
+   "data_gaps": ["K unproven at FBS", "P job 'up for grabs' per Athlon (Duran vs Meincke/Probst)", "KR new (Bond)"],
+   "g5_guard_note": null
+  }
+ ]
+}
