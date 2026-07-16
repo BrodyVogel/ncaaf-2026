@@ -1,0 +1,59 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Jayden Maiava,SR,returning,RETURNING STARTER; 86.2/461; 3711 @ 9.2 Y/A; 24-10; 3rd-tm All-B10
+QB,QB,2,Sam Huard,SR,returning,72.7/1; yr4 override (dual-print QB2); 2247 at Cal Poly '23
+QB,QB,3,Jonas Williams,FR,recruit,true FR signee; PS#7
+RB,RB,1,Waymond Jordan,SR,returning,RETURNING STARTER; 81.6/88; 576 @ 6.5; OFY after 6
+RB,RB,1,King Miller,SO,returning,RETURNING STARTER; 80.2/156; 972 @ 6.2; the Michigan 158
+RB,RB,2,Deshonne Redeaux,FR,recruit,Top100 true FR signee; 'fastest RB'
+RB,RB,2,Shahn Alston,FR,recruit,Top100 true FR signee; physical
+WRTE,WR,1,Tanook Hines,SO,returning,RETURNING STARTER; 75.9/243; 561 @ 16.5; KR1
+WRTE,WR,2,Kayden Dixon-Wyatt,FR,recruit,near-5* true FR signee
+WRTE,WR,1,Terrell Anderson,JR,transfer:NC State,72.1/280; 629 @ 16.1; 4* transfer
+WRTE,WR,2,Boobie Feaster,FR,recruit,near-5* true FR signee
+WRTE,WR,1,Zacharyus Williams,SO,returning,58.3/43; Utah's '24 #1; injury-limited '25
+WRTE,WR,2,Trent Mosley,FR,recruit,Top200 true FR signee; PR1
+WRTE,TE,1,Tucker Ashcraft,JR,transfer:Wisconsin,55.4/20; blocking TE; 'instant impact'
+WRTE,TE,2,Mark Bowman,FR,recruit,5* true FR signee; 'could start right away'
+WRTE,TE,2,Josiah Jefferson,JR,recruit,JUCO signee; Athlon TE1
+OL,LT,1,Elijah Paige,JR,returning,RETURNING STARTER; 69.9/310; 'the anchor'; 20 st L2Y
+OL,LT,2,Aaron Dunn,FR,returning,35.6/28
+OL,LG,1,Tobias Raymond,JR,returning,RETURNING STARTER; 54.9/840; 13 st at 3 spots
+OL,LG,2,Hayden Treter,SO,returning,44.4/108
+OL,C,1,Kilian O'Connor,SR,returning,RETURNING STARTER; 66.8/329
+OL,C,2,Willi Wascher,FR,returning,DNP LY
+OL,RG,1,Alani Noa,SR,returning,RETURNING STARTER; 56.5/619; 22 st L2Y
+OL,RG,2,Kaylon Miller,JR,returning,60.5/357; 3 st
+OL,RT,1,Justin Tauanuu,SO,returning,RETURNING STARTER; 53.8/839; 12 st
+OL,RT,2,Keenyi Pepe,FR,recruit,5* true FR signee; nation's #1 tackle
+DL,DE,1,Kameryn Crawford,JR,returning,RETURNING STARTER; 67.5/592; top sack guy
+DL,DE,2,Luke Wafle,FR,recruit,5* true FR signee; #1 DE in class
+DL,DT,1,Jide Abasiri,JR,returning,RETURNING STARTER; 66.9/450
+DL,DT,2,Floyd Boucard,SO,returning,65.6/173
+DL,DT,1,Jahkeem Stewart,SO,returning,66.6/231; 5*; FR All-America; foot issue as true FR
+DL,DT,2,Jamaal Jarrett,JR,returning,65.0/54; 360 lb; '25-cycle add ex-Georgia
+DL,DE,1,Braylan Shelby,SR,returning,62.1/459; 4.5 sk
+DL,DE,2,Zuriah Fisher,SR,transfer:Penn State,64.5/438; 4* transfer; PSU starter
+DL,DT,3,Alex VanSumeren,SR,transfer:Michigan State,66.6/476; 12 st MSU starter
+DL,DT,3,Jaimeon Winfield,FR,recruit,5* true FR signee
+LB,LB,1,Desman Stephens II,JR,returning,RETURNING STARTER; 64.6/712; 89 tkl (#1)
+LB,LB,2,Elijah Newby,SO,returning,67.5/30
+LB,LB,1,Deven Bryant,JR,transfer:Washington,66.6/520; 10 st, 62 tkl
+LB,LB,2,Jadyn Walker,SO,returning,49.4/305; PS WLB1
+LB,LB,3,Talanoa Ili,FR,recruit,Top100 true FR signee
+LB,LB,3,GianCarlo Rufo,SR,transfer:Georgetown,FCS; 103 tkl
+DB,CB,1,Jontez Williams,SR,transfer:Iowa State,83.6/202; #1 transfer corner; All-B12
+DB,CB,2,Prophet Brown,SR,returning,yr4 override (triple-print); injury return; PS FS1
+DB,CB,1,Marcelles Williams,SO,returning,RETURNING STARTER; 64.0/643
+DB,CB,2,Chasen Johnson,SO,returning,54.9/34; injury return (out by mid-Sept '25)
+DB,NB,1,Alex Graham,FR,returning,65.2/140
+DB,NB,2,Elbert Hill IV,FR,recruit,Top100 true FR signee
+DB,S,1,Christian Pierce,SR,returning,RETURNING STARTER; 66.2/622
+DB,S,2,Marquis Gallegos,SO,returning,67.9/46
+DB,S,1,Kennedy Urlacher,JR,returning,58.2/281
+DB,S,2,Kendarius Reddick,FR,returning,57.0/72
+DB,CB,3,Carrington Pierce,SO,transfer:Oklahoma State,depth
+ST,K,1,Ryon Sayeri,SO,returning,21-25 FG (L54); 68 TB/89 KO; 'standout'
+ST,K,2,Caden Chittenden,SO,returning,26-33 at UNLV '24; injured LY
+ST,P,1,Lachlan Carrigan,SO,transfer:Memphis,replaces a 35.6-net P
+ST,KR,1,Tanook Hines,SO,returning,
+ST,PR,1,Trent Mosley,FR,recruit,true FR signee

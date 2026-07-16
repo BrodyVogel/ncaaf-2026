@@ -1,0 +1,40 @@
+{
+ "team": "USC",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T17:35:44+00:00",
+ "assembler_git_rev": "2953e75",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Riley yr 5 (35-18; 90-28 career). DC CHANGE: Lynn -> Penn State; GARY PATTERSON in (TCU 4-2-5). NEW STC Ekeler ex-Nebraska. x1.13 does NOT apply (HC-only rule).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Sam Huard",
+  "Prophet Brown"
+ ],
+ "nfl_declare_confirmed": [
+  "Makai Lemon",
+  "Ja'Kobi Lane",
+  "Kamari Ramsey"
+ ],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {},
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Jamaal Jarrett": "2025-CYCLE add ex-Georgia (PFF prov 2025_this_team, 54 snaps; Athlon no-asterisk; PS 'Georgia' = origin) - NOT a 2026 transfer, no cross-ref due",
+  "Kamari Ramsey": "S; PS classifies NB - counted DB; yr3 declare (rd-5 HOU)",
+  "Ryon Sayeri": "feed position P; he is the K (21-25 FG) - counted ST",
+  "Deven Bryant": "LB ex-Washington - forward-flag verified when Washington builds (next)",
+  "Josiah Jefferson": "JUCO TE signee - Athlon TE1"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "OL tape-vs-results ambiguity (PFF p28/p19 vs P6 Top-25 results; 7 injury combos)",
+  "safety rebuild under Patterson (both '25 stars gone)",
+  "TE1 battle (Ashcraft/Bowman FR/Jefferson JC)",
+  "true-FR OL starters possible (Athlon scout)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

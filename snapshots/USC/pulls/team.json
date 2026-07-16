@@ -1,0 +1,36 @@
+{
+ "id": 30,
+ "school": "USC",
+ "mascot": "Trojans",
+ "abbreviation": "USC",
+ "alternateNames": [
+  "USC",
+  "USC"
+ ],
+ "conference": "Big Ten",
+ "division": null,
+ "classification": "fbs",
+ "color": "#9e2237",
+ "alternateColor": "#ffcc00",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/30.png"
+ ],
+ "twitter": "@uscfb",
+ "location": {
+  "id": 477,
+  "name": "Los Angeles Memorial Coliseum",
+  "city": "Los Angeles",
+  "state": "CA",
+  "zip": "90089",
+  "countryCode": "US",
+  "timezone": "America/Los_Angeles",
+  "latitude": 34.014167,
+  "longitude": -118.287778,
+  "elevation": "42.50374222",
+  "capacity": 77500,
+  "constructionYear": 1923,
+  "grass": true,
+  "dome": false
+ }
+}

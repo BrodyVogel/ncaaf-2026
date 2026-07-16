@@ -1,0 +1,110 @@
+[
+ {
+  "season": 2026,
+  "firstName": "Tucker",
+  "lastName": "Ashcraft",
+  "position": "TE",
+  "origin": "Wisconsin",
+  "destination": "USC",
+  "transferDate": "2026-01-15T04:28:00.000Z",
+  "rating": 0.88,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Alex",
+  "lastName": "VanSumeren",
+  "position": "DL",
+  "origin": "Michigan State",
+  "destination": "USC",
+  "transferDate": "2026-01-06T22:34:00.000Z",
+  "rating": 0.89,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "GianCarlo",
+  "lastName": "Rufo",
+  "position": "LB",
+  "origin": "Georgetown",
+  "destination": "USC",
+  "transferDate": "2026-02-06T23:34:00.000Z",
+  "rating": 0.8,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Zuriah",
+  "lastName": "Fisher",
+  "position": "EDGE",
+  "origin": "Penn State",
+  "destination": "USC",
+  "transferDate": "2026-01-12T20:31:00.000Z",
+  "rating": 0.92,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Jontez",
+  "lastName": "Williams",
+  "position": "CB",
+  "origin": "Iowa State",
+  "destination": "USC",
+  "transferDate": "2026-01-04T18:30:00.000Z",
+  "rating": 0.93,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Terrell",
+  "lastName": "Anderson",
+  "position": "WR",
+  "origin": "NC State",
+  "destination": "USC",
+  "transferDate": "2026-01-05T17:13:00.000Z",
+  "rating": 0.94,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Deven",
+  "lastName": "Bryant",
+  "position": "LB",
+  "origin": "Washington",
+  "destination": "USC",
+  "transferDate": "2026-01-04T18:28:00.000Z",
+  "rating": 0.87,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Carrington",
+  "lastName": "Pierce",
+  "position": "CB",
+  "origin": "Oklahoma State",
+  "destination": "USC",
+  "transferDate": "2025-12-14T21:32:00.000Z",
+  "rating": 0.8,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Lachlan",
+  "lastName": "Carrigan",
+  "position": "P",
+  "origin": "Memphis",
+  "destination": "USC",
+  "transferDate": "2026-01-09T02:51:13.000Z",
+  "rating": null,
+  "stars": null,
+  "eligibility": "Immediate"
+ }
+]

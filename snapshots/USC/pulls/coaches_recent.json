@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Lincoln",
+  "lastName": "Riley",
+  "hireDate": "2021-11-28T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "USC",
+    "year": 2024,
+    "games": 13,
+    "wins": 7,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": 23,
+    "postseasonRank": null,
+    "srs": 12.1,
+    "spOverall": 11.9,
+    "spOffense": 35.6,
+    "spDefense": 24
+   }
+  ]
+ },
+ {
+  "firstName": "Lincoln",
+  "lastName": "Riley",
+  "hireDate": "2021-11-28T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "USC",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 15.5,
+    "spOverall": 16.9,
+    "spOffense": 38.9,
+    "spDefense": 21
+   }
+  ]
+ }
+]

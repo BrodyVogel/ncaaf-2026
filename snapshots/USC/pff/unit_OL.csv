@@ -1,0 +1,15 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Tobias Raymond,176641,T,USC,13,100.0,1,326,54.9,49.4,55.9,1,23,428,100.0,100.0,97.0,3,25,1,840,0,311,402,840,464,464,0,126,376,1,2025_this_team
+Justin Tauanuu,183630,T,USC,13,100.0,0,326,53.8,53.9,52.2,7,23,428,100.0,100.0,96.0,1,32,2,839,0,0,126,839,463,463,0,712,376,1,2025_this_team
+Alani Noa,176640,G,USC,11,100.0,0,326,56.5,54.0,55.7,1,11,321,100.0,100.0,97.8,1,13,1,619,0,0,0,619,349,349,618,0,270,1,2025_this_team
+J'Onre Reed,176030,C,USC,10,100.0,0,326,60.1,58.7,62.9,4,13,295,100.0,100.0,96.8,4,18,1,557,556,0,0,557,321,321,0,0,236,1,2025_this_team
+Micah Banuelos,176635,G,USC,7,100.0,0,326,54.0,59.2,50.0,1,5,205,100.0,100.0,98.0,1,7,1,402,0,294,0,402,222,222,107,0,180,1,2025_this_team
+Kaylon Miller,183623,G,USC,10,100.0,0,326,60.5,74.0,56.6,1,3,176,100.0,100.0,98.9,1,4,0,357,0,210,0,357,194,194,145,0,163,1,2025_this_team
+Kilian O'Connor,158463,C,USC,8,100.0,0,326,66.8,60.3,69.0,2,1,154,100.0,100.0,99.0,3,3,0,329,329,0,0,329,165,165,0,0,164,0,2025_this_team
+Elijah Paige,174221,T,USC,7,100.0,0,326,69.9,84.0,60.2,1,5,156,100.0,100.0,98.1,0,6,0,310,0,0,309,310,163,163,0,0,147,1,2025_this_team
+Hayden Treter,190358,G,USC,7,100.0,0,326,44.4,40.2,43.4,0,2,49,100.0,100.0,98.0,0,2,0,108,0,72,1,108,54,54,10,19,54,6,2025_this_team
+Elijah Vaikona,199422,T,USC,4,100.0,0,326,72.7,74.7,69.2,0,0,22,100.0,100.0,100.0,0,0,0,55,0,0,19,55,23,23,0,27,32,9,2025_this_team
+Aaron Dunn,199419,T,USC,1,100.0,0,326,35.6,56.1,40.8,0,0,14,100.0,100.0,100.0,1,0,0,28,0,0,28,28,15,15,0,0,13,0,2025_this_team
+Ratumana Bulabalavu,190346,G,USC,2,100.0,0,326,73.4,,72.5,0,0,0,,,,0,0,0,6,0,0,0,6,0,0,5,0,6,0,2025_this_team
+Alex Payne,199410,T,USC,1,100.0,0,326,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,0,1,0,0,0,1,1,0,2025_this_team
+Willi Wascher,199412,C,USC,1,100.0,0,326,60.0,,60.0,0,0,0,,,,0,0,0,1,1,0,0,1,0,0,0,0,1,0,2025_this_team
