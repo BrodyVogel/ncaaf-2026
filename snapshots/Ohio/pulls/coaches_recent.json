@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Tim",
+  "lastName": "Albin",
+  "hireDate": "2021-07-14T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Ohio",
+    "year": 2024,
+    "games": 14,
+    "wins": 11,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 1.7,
+    "spOverall": 2.3,
+    "spOffense": 27.2,
+    "spDefense": 23.9
+   }
+  ]
+ },
+ {
+  "firstName": "Brian",
+  "lastName": "Smith",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Ohio",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -3.5,
+    "spOverall": -4,
+    "spOffense": 23.2,
+    "spDefense": 25.2
+   }
+  ]
+ }
+]

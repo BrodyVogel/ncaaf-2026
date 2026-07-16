@@ -1,0 +1,66 @@
+{
+ "team": "Ohio",
+ "conference": "Mid-American",
+ "created_utc": "2026-07-16T21:32:03+00:00",
+ "assembler_git_rev": "4921e27",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "John Hauser yr 1 (career 1-0 - bowl interim promoted). THIRD HC in three years: Albin->Charlotte after '24; Brian Smith (9-3 reg season) FIRED late '25 off-field. OC Isphording retained; DC Mattix back-to-staff with attacking-scheme install. x1.13 APPLIES (HC-only rule; Solich-culture continuity noted but rule is binary). Distinct from KSU/Carney (who acted ~all of 2025).",
+ "portal_departure_confirmed": [
+  "Alfred Jordan Jr.",
+  "Danny Novickas",
+  "David Dellenbach",
+  "Parker Navarro"
+ ],
+ "portal_withdrawal_overrides": [
+  "Duncan Brune",
+  "Nehemiah Dukes"
+ ],
+ "yr4_return_overrides_documented": [
+  "Nick Poulos",
+  "Max Rodarte",
+  "Tigana Cisse",
+  "Magnus Haines",
+  "Ronald Jackson Jr.",
+  "Nathan Hale",
+  "Joshua Johnson"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Parker Navarro": "out-feed to=Professional / elig=PendingAppeal - treated GONE (pro; yr4 regardless). Odd feed state logged.",
+  "Tyler Gillison": "Athlon 'Gillison' = PS 'Gleason' (EDGE ex-Michigan St; 56.7/11) - feed form 'Gillison' used",
+  "Trumain Lawson": "PS 'Truman' variant - feed form used (LIU Post OT)",
+  "Isaiah Street": "in-feed origin 'Western Michigan' is STALE - his last two years were NAIA Marion (20 st, 112 tkl, 16 sk per PS); WMU stop was 2023 (2 gm). No WMU-side obligation; noted so the WMU build doesn't chase it.",
+  "Barry Dillon vs KJ Sejour": "PS garble merged them - TWO players: Dillon<-Incarnate Word (12 st, 25 tkl), Sejour<-Chattanooga (41 tkl as rFr). Feed confirms both.",
+  "Andrew Metzger": "Athlon* TE (Kansas St 5 gm L2Y) NOT in the in-feed - single-print transfer, whitelisted; zero tape",
+  "Riley Palmeter": "NAIA Marion TE (in-feed) - no cell",
+  "Levi Davis": "true FR QB recruit (PS#89, Athlon #7) - not a portal entity",
+  "Kam Wright": "G 69.5/188 - not in portal/yr4/prints two-deeps; default RETURNS as unlisted depth, zero grade impact"
+ },
+ "feed_gap_arrivals_documented": [
+  "Andrew Metzger (TE - Kansas State, 5 gm L2Y; Athlon* only)"
+ ],
+ "position_notes": {
+  "Duncan Brune": "portal-entry-and-return override (Withdrawn/no-dest vs both prints' RB1). STAYS. 65.5/120, 585 @ 4.9.",
+  "Nehemiah Dukes": "portal-entry-and-return override (Withdrawn/no-dest vs both prints starting him at NT). STAYS. 56.2/550, 13 st.",
+  "Charlie Christopher": "90.7/384 as a TRUE FRESHMAN (#3 tackler) - the round's best returning LB grade; both prints bold",
+  "Michael Molnar": "Rojas pattern: 8 st then OFY (ACL), 62 tkl, both prints anchor him - trust 80.3/396",
+  "Eli Thompson": "feed lists CB; Athlon starts him at S; PS at NB - counted DB (Holy Cross 2nd-Tm Patriot, 85 tkl)",
+  "Cassius Hulbert": "feed position DL; both prints play him at C - counted OL (D2 Tiffin 22 st)",
+  "Cody Raymond": "in-feed from=Wisconsin (EDGE) - IS in Wisconsin's frozen out-feed + roster_2025 (grep lesson: JSON splits firstName/lastName; compound-string searches miss). Zero tape both sides. Wisconsin forward flag CLOSED.",
+  "Will Hryszko": "in from Kent State (8-11 FG) - the KSU build's MAC-internal forward flag CLOSED; both prints' K1 here",
+  "LB 40 note": "equals the UNLV global anchor deliberately - Christopher+Molnar are the two best returning MAC-earned LB grades of the round on real volume"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "QB battle (Vezza vs Poulos) - prints disagree; zero meaningful returning FBS tape",
+  "OL: zero returning starts at any spot (biggest OL exodus of the round)",
+  "most projected offensive starters missed spring (PS)",
+  "new-DC scheme install variance",
+  "proxy artifacts #38-42 (five-void sheet)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

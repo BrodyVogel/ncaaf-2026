@@ -1,0 +1,59 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Matt Vezza,JR,transfer:New Hampshire,FCS 2673 @ 61% 19-7 + 601 rush (13 st); Athlon QB1 - split-print battle
+QB,QB,1,Nick Poulos,SR,returning,52.5/13; '24: 271 @ 45% (1 st); RS'd '25; yr4 override; PS QB1
+QB,QB,3,Levi Davis,FR,recruit,true FR; PS#89; Athlon #7 recruit
+QB,QB,3,Hype Grand,FR,returning,rFr; PS#108
+RB,RB,1,Duncan Brune,JR,returning,65.5/120; 585 @ 4.9 8 TD; WITHDRAWN override STAYS; 218 lbs @ 10.85 100m
+RB,RB,2,Victor Rosa,SR,transfer:UConn,65.1/30; 302 total yds '25; 636 @ 4.5 in '22
+RB,RB,3,Mike Taylor,FR,returning,rFr; PS#72
+RB,RB,3,Irving Brown,FR,returning,rFr; PS#193
+WRTE,WR,1,Dom Dorwart,SO,returning,RETURNING STARTER (the offense's ONLY one); 53.5/215; 7 st 119 @ 10.8
+WRTE,WR,1,Max Rodarte,SR,returning,60.9/98; 3 st 86 yds - OFY gm 4; yr4 override; PR1
+WRTE,WR,1,Delaney Crawford,SR,returning,60.0/1; orig Virginia; PS#120
+WRTE,WR,2,Eian Pugh,SR,returning,63.0/65; 1 st 112 career; ex-Illinois
+WRTE,WR,2,Preston Bowman,FR,transfer:Kentucky,RS at UK LY; PS#105
+WRTE,WR,2,Ian VerSteeg,SR,transfer:Wake Forest,9 gm at Wake '24
+WRTE,TE,1,AJ Miller,SO,returning,PS#139
+WRTE,TE,2,Andrew Metzger,JR,transfer:Kansas State,5 gm at KSt L2Y; PS#64
+WRTE,TE,3,Jake Furtney,SO,transfer:Illinois,RS at Illinois '24
+OL,LT,1,Jarian Shelby,SR,returning,77.4/19; 8-10 gm backup L2Y; PS#392
+OL,LT,2,Trumain Lawson,FR,transfer:LIU Post,7 gm at LIU LY
+OL,LG,1,Seth Anstead,SO,returning,62.5/21; 12 gm backup as rFr; PS#327
+OL,LG,2,Josh Waite,SR,returning,60.2/7; 17 st D2 Shippensburg '23-24
+OL,C,1,Bryce Parson,SO,returning,68.6/24; 4 gm as rFr; PS#177
+OL,C,2,Cassius Hulbert,SR,transfer:Tiffin University,D2 22 st L2Y (feed lists DL - prints say OL)
+OL,RG,1,CJ Dawson,SR,transfer:Gardner-Webb,FCS 23 st L2Y + 11 gm D2 Tiffin
+OL,RG,2,Sandro Malicevic,SR,transfer:Eastern Illinois,FCS 7 st L2Y
+OL,RT,1,Tigana Cisse,SR,returning,66.6/92; 7 st at Idaho F2Y; 4 gm LY; yr4 override
+OL,RT,2,Joshua Johnson,SR,returning,scout team; ex-E.Illinois; yr4 override (both prints depth)
+DL,DE,1,Tyler Gillison,SR,transfer:Michigan State,56.7/11 at MSU (8 gm 2 tkl); Athlon 'Gillison'/PS 'Gleason'
+DL,DE,2,Evan Herrmann,JR,returning,68.7/179; 13 gm 15 tkl 6 qbh; ex-Vanderbilt RS
+DL,DE,1,Joseph Marsh,JR,returning,65.3/165; 8 tkl 2 sk
+DL,DE,2,Ike Ackerman,FR,returning,66.6/36; rFr
+DL,NT,1,Nehemiah Dukes,SR,returning,RETURNING STARTER; 56.2/550; 13 st 30 tkl; WITHDRAWN override STAYS; YSU '23-24 origin
+DL,NT,2,Ty Neubert,FR,returning,56.0/63; rFr
+DL,DT,1,Austin Mitchell,JR,returning,RETURNING-ISH (Athlon bold); 57.9/282; 3 st 11 tkl 1 int
+DL,DT,2,Nathan Hale,SR,returning,66.2/218; 13 gm 17 tkl 4 qbh; yr4 override
+DL,DT,3,Derek Reagans,SR,returning,52.5/184; 13 gm 1.5 sk
+DL,JACK,3,Isaiah Street,SR,transfer:NAIA Marion,20 st 112 tkl 16 SK at Marion L2Y; feed origin 'Western Michigan' is his 2023 stop (stale label)
+LB,OLB,1,Jack Fries,SR,returning,RETURNING STARTER; 61.4/409; 7 st 54 tkl 5 pbu 1 int
+LB,OLB,2,Jermaine Minnis,FR,recruit,true FR
+LB,ILB,1,Michael Molnar,SR,returning,RETURNING STARTER; 80.3/396; 8 st then OFY (ACL) 62 tkl 5 tfl - Rojas-pattern trust
+LB,ILB,2,Cody Raymond,SO,transfer:Wisconsin,RS'd at Wisconsin (zero tape); Wisconsin flag CLOSED
+LB,ILB,1,Charlie Christopher,SO,returning,RETURNING STARTER; 90.7/384; #3 tackler as a TRUE FR - round-best returning LB grade
+LB,ILB,2,Jasen Kelly,SO,returning,71.3/21
+DB,HUSKY,1,Darren James-Hamilton,SO,transfer:Elon,FCS 12 st 81 tkl 9 pbu 2 int
+DB,HUSKY,2,Lukas Stiles,JR,returning,depth
+DB,CB,1,Barry Dillon,SO,transfer:Incarnate Word,FCS 12 st 25 tkl 4 pbu 1 int
+DB,CB,2,Kendall Bannister,JR,returning,67.5/348
+DB,CB,1,Ronald Jackson Jr.,SR,returning,59.9/33; yr4 override (Athlon CB starter)
+DB,CB,2,KJ Sejour,SO,transfer:Chattanooga,FCS 41 tkl 1 int as rFr
+DB,S,1,DJ Walker,JR,returning,RETURNING STARTER; 60.7/795; 13 st 61 tkl; 2nd-Tm MAC '24; 'coach on the field'
+DB,S,2,JT Haskins,JR,returning,70.0/22
+DB,S,1,Eli Thompson,JR,transfer:Holy Cross,FCS 12 st 2nd-Tm Patriot 85 tkl (feed lists CB; Athlon S1)
+DB,S,2,DJ Morton,SO,returning,60.2/3
+ST,K,1,Will Hryszko,SR,transfer:Kent State,8-11 FG L/39 31-31 PAT LY; KSU MAC-internal flag CLOSED
+ST,K,2,Brack Peacock,JR,returning,15-18 FG at Incarnate Word '24; 3-6 L/44 at Ohio LY
+ST,P,1,Magnus Haines,SR,returning,RETURNING; 40 punts 42.3 L/68 13-I20 36.1 net; 'one of the top punters in the MAC'; yr4 override
+ST,KR,1,Duncan Brune,JR,returning,big-play ability per Athlon
+ST,PR,1,Max Rodarte,SR,returning,big-play ability per Athlon

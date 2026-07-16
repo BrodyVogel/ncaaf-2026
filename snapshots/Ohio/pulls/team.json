@@ -1,0 +1,36 @@
+{
+ "id": 195,
+ "school": "Ohio",
+ "mascot": "Bobcats",
+ "abbreviation": "OHIO",
+ "alternateNames": [
+  "OHIO",
+  "Ohio"
+ ],
+ "conference": "Mid-American",
+ "division": null,
+ "classification": "fbs",
+ "color": "#295A29",
+ "alternateColor": "#e4bb85",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/195.png"
+ ],
+ "twitter": "@OhioFootball",
+ "location": {
+  "id": 3876,
+  "name": "Peden Stadium",
+  "city": "Athens",
+  "state": "OH",
+  "zip": "45701",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 39.3212794,
+  "longitude": -82.1034315,
+  "elevation": "194.230896",
+  "capacity": 24000,
+  "constructionYear": 1929,
+  "grass": false,
+  "dome": false
+ }
+}
