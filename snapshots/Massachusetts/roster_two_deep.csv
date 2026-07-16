@@ -1,0 +1,59 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,William Watson III,JR,transfer:Virginia Tech,55.0/8 at VT LY; 2 career st 551 @ 58% 1-2; ACC OPOW once; Springfield local; PS#30
+QB,QB,2,RJ Johnson III,JR,transfer:Florida A&M,FCS 2597 @ 65% 18-4 (12 st); orig Toledo scout team
+QB,QB,3,Logan Inagawa,SO,transfer:Drake,FCS 1393 @ 68% 9-4 + 398 rush
+QB,QB,3,Aedan McCarthy,FR,recruit,true FR; PS#137; 'strongest arm'
+RB,RB,1,Jordan Washington,SO,transfer:Murray State,FCS 340 @ 3.9; Athlon projected RB1
+RB,RB,2,Elijah Faulkner,SO,returning,63.5/40; 114 @ 2.9 as true FR; top returnee
+RB,RB,2,Justin Williams-Thomas,JR,transfer:Marshall,69.1/35 at Marshall; Tenn->Cal->Marshall journeyman; PS#77
+RB,RB,3,Curtis Kimmons,JR,transfer:NAIA,FEED-GAP arrival; NAIA 892 @ 5.5
+RB,RB,3,Justin Lewis,FR,recruit,true FR; PS#71
+WRTE,WR,1,T.Y. Harding,SR,returning,RETURNING-ISH; 57.5/32; OFY after 3 gm; 364 @ 15.8 L2Y; 'Watson's top target'; KR1
+WRTE,WR,1,Joseph Griffin Jr.,SR,transfer:Wisconsin,BC '22-23: 14 st 579 @ 13.5 -> Wisconsin '24-25 (minimal); Watson's HS teammate; PS#44
+WRTE,WR,2,Devin Matthews,JR,transfer:East Texas A&M,FCS 2 st 649 @ 18.0
+WRTE,WR,2,Kezion Dia-Johnson,SO,returning,55.0/90; 1 st 73 yds
+WRTE,WR,3,Elijah Pedro,FR,returning,55.5/52; rFr
+WRTE,WR,3,Jabari Lewis,JR,transfer:D2,FEED-GAP arrival; D2 9 st '24
+WRTE,TE,1,Max Dowling,SR,returning,RETURNING STARTER; 55.0/258; 10 st 199 @ 10.0; UT-Martin origin; featured in new OC scheme
+WRTE,TE,2,Reece Adkins,SR,returning,RETURNING STARTER; 55.2/123; 7 st 133 @ 14.6; out last 4 injured
+OL,LT,1,Greg Knox,SR,transfer:McNeese,FCS 12 st @ LT LY + 9 st as rFr
+OL,LT,2,Jaxon King,SR,returning,40.5/212
+OL,LG,1,Brock Taylor,SO,returning,49.0/345; 4-5 st
+OL,LG,2,Samu Suominen,FR,returning,RS scout team
+OL,C,1,Peyton Miller,JR,returning,47.9/288; 3 st 10 gm
+OL,C,2,Tanner Burlingame,SO,returning,81.2/14 (tiny); DNP as rFr
+OL,RG,1,Aitor Urionabarrenechea,JR,transfer:Colorado State,59.8/769 at CSU (12 st) - the room's best real tape; PS#294
+OL,RG,2,Riley Bloch,FR,returning,rFr
+OL,RT,1,Zachary Franks,SR,returning,ex-Northwestern ('22-23: 4 st 18 gm) + Duke RS; INJURED all '25; yr4 override (both prints)
+OL,RT,2,Greg Klingensmith,SR,transfer:William & Mary,FCS 12 st LY; 6 st then OFY '24
+DL,DE,1,Joshua Nobles,SR,returning,MISSED ALL '25 (inj); WMU '22-23 (23 gm 3.5 sk) + Jackson St '24 (12 st 57 tkl 10 SK); yr4 override; 'team's top player' claim
+DL,DE,2,Justin Krueger,SO,transfer:William & Mary,FCS depth
+DL,DE,1,Andrew DePaepe,JR,transfer:Indiana,59.5/25 at Indiana; Athlon DE starter
+DL,DE,2,William DePaepe,SO,transfer:Indiana,63.6/8 at Indiana; brothers
+DL,NT,1,Tim Passmore Jr.,SR,returning,53.3/297; UConn RS '22 origin
+DL,NT,2,Zakar Morris,SO,transfer:Albany,FCS 11 gm
+DL,DT,1,Aubrey Melvin,FR,transfer:UConn,rFr depth
+DL,DT,2,Kamarion Thomas,FR,transfer:unknown,FEED-GAP arrival (Athlon* backup; origin unprinted)
+DL,EDGE,3,Zachary Betts,JR,transfer:Saint Francis (PA),FCS 11 st 49 tkl 6 sk 3 tfl
+DL,EDGE,3,Jermaine Wiggins Jr.,JR,returning,48.4/104
+LB,MLB,1,Tyler Martin,SR,returning,RETURNING STARTER; 70.6/690; 104 tkl 3rd-Tm All-MAC; ex-Arizona; All-MAC candidate
+LB,MLB,2,Joshua Iseah,SR,transfer:North Carolina A&T,FCS 173 tkl 13 tfl L3Y (35 gm)
+LB,WLB,1,Timmy Hinspeter,SR,returning,RETURNING STARTER; 76.2/330; 9.9 tkl/gm through 7 gm then OFY; ex-Rutgers
+LB,WLB,2,Kendric Council,JR,transfer:Saint Francis (PA),FCS 11 st 53 tkl 6.5 tfl
+LB,LB,3,Khari Bendolph,SO,transfer:Jacksonville State,51.6/49 at JaxSt as true
+LB,LB,3,David Timson,FR,returning,68.5/10; rFr
+DB,CB,1,T.J. Magee,SR,returning,65.0/158; 3 st then OFY (missed final 9); Davidson '23-24: 19 st 17 pd; PR1
+DB,CB,2,Raheim Sexil,JR,returning,57.1/141
+DB,CB,1,Isaiah Reed,SR,transfer:UCF,Brown '21-24: 30 st 148 tkl 27 pbu 7 int; 4 gm at UCF '25 (gap-in-feed); 'turned heads in spring'
+DB,CB,2,Corey Warner,FR,recruit,true FR; Athlon #4 recruit
+DB,NB,1,Michael Robinson,SR,transfer:Rutgers,20 gm 9 tkl at Rutgers L2Y; Athlon NB1
+DB,NB,2,DD Snyder,SR,returning,72.1/66; RS Illinois '21 origin; feed double-entry dedupe note
+DB,S,1,Zeraun Daniel,SR,returning,RETURNING STARTER; 65.0/524; 9 st 75 tkl; Georgetown '23-24: 15 st 7 int
+DB,S,2,Keith Sarkodieh,SO,returning,55.9/78
+DB,S,1,Kendall Bournes,SR,returning,RETURNING STARTER; 49.1/524; 11 st 62 tkl; WITHDRAWN override STAYS; D2 Concord origin
+DB,S,2,Jahmad Harmon,SR,transfer:Ball State,48.9/429 at BSU (5 st 28 tkl); Ball State flag CLOSED
+ST,K,1,Derek Morris,JR,returning,RETURNING; 10-16 FG (3-5 from 50+) program-record long; ex-Cal (11-15 there); PS#41
+ST,P,1,Edward Phillipson,SO,returning,Australian; RS'd '25; 'takes over' per Athlon
+ST,P,2,Michael Streeter,SO,transfer:Australia,Aussie arriving after spring
+ST,KR,1,T.Y. Harding,SR,returning,injury return
+ST,PR,1,T.J. Magee,SR,returning,injury return

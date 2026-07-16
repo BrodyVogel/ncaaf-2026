@@ -1,0 +1,65 @@
+[
+ {
+  "firstName": "Don",
+  "lastName": "Brown",
+  "hireDate": "2021-11-22T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Massachusetts",
+    "year": 2024,
+    "games": 10,
+    "wins": 2,
+    "losses": 8,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -17.4,
+    "spOverall": -21.9,
+    "spOffense": 20.5,
+    "spDefense": 40.3
+   }
+  ]
+ },
+ {
+  "firstName": "Shane",
+  "lastName": "Montgomery",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Massachusetts",
+    "year": 2024,
+    "games": 2,
+    "wins": 0,
+    "losses": 2,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -17.4,
+    "spOverall": -21.9,
+    "spOffense": 20.5,
+    "spDefense": 40.3
+   }
+  ]
+ },
+ {
+  "firstName": "Joe",
+  "lastName": "Harasymiak",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Massachusetts",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -32.3,
+    "spOverall": -36.6,
+    "spOffense": 7.8,
+    "spDefense": 42.8
+   }
+  ]
+ }
+]

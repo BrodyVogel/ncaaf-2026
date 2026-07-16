@@ -1,0 +1,69 @@
+{
+ "team": "Massachusetts",
+ "conference": "Mid-American",
+ "created_utc": "2026-07-16T21:07:46+00:00",
+ "assembler_git_rev": "98632a1",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Joe Harasymiak yr 2 (0-12; hired Dec 4 2024; ex-Maine HC 20-15/FCS COY, Rutgers DC Broyles-nominee x2). NEW OC Max Warner (BGSU co-OC, Fannin's TE coach); DC Keyte yr 2. x1.13 does NOT apply.",
+ "portal_departure_confirmed": [
+  "Tyree Kelly",
+  "Paul Tchio",
+  "Kenyon Massey",
+  "Donovan Dyson",
+  "Jenoa Alford",
+  "Shambre Jackson",
+  "Nick Hawthorne"
+ ],
+ "portal_withdrawal_overrides": [
+  "Kendall Bournes"
+ ],
+ "yr4_return_overrides_documented": [
+  "Joshua Nobles",
+  "Zachary Franks",
+  "Reece Adkins"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Rocko Griffin"
+ ],
+ "known_name_exceptions": {
+  "Rocko Griffin": "RB 61.2/53 - no portal entry, no yr4 flag, but PS 'the top two depart' + absent from both prints. GONE (research), McMillian pattern.",
+  "Curtis Kimmons": "NAIA feed-gap arrival (PS narrative: 892 @ 5.5) - whitelisted",
+  "Jabari Lewis": "D2 feed-gap arrival (PS narrative: 9 st '24) - whitelisted",
+  "Kamarion Thomas": "feed-gap arrival (Athlon* DT backup; origin unprinted) - whitelisted",
+  "Isaiah Reed": "in-feed origin UCF but NOT in UCF frozen snapshot - his '25 was 4 late-add games there (real tape = Brown '21-24: 30 st). Gap-in-feed origin, no UCF retro issue.",
+  "Joseph Griffin Jr.": "Wisconsin out-feed lacks him (sub-ledger '25 usage there; his tape row exists in their unit_WRTE) - UMass in-feed + both prints confirm. Wisconsin-build forward flag CLOSED.",
+  "DD Snyder": "feed lists him twice ('DD Snyder' + 'Dd Snyder Ii') - dedupe note, one player (72.1/66 depth)",
+  "Michael Streeter": "Australian P joining after spring (PS) - no feed entry expected",
+  "Aedan McCarthy": "true FR QB recruit (PS#137/Athlon #1) - not a portal entity",
+  "Corey Warner": "true FR CB recruit (Athlon #4) - not a portal entity",
+  "Justin Lewis": "true FR RB recruit (PS#71/Athlon #10) - not a portal entity"
+ },
+ "feed_gap_arrivals_documented": [
+  "Curtis Kimmons (RB - NAIA, 892 @ 5.5; PS)",
+  "Jabari Lewis (WR - D2, 9 st '24; PS)",
+  "Kamarion Thomas (DT - Athlon* backup, origin unprinted)"
+ ],
+ "position_notes": {
+  "Kendall Bournes": "portal-entry-and-return override (Withdrawn/no-dest vs BOTH prints starting him at SS). STAYS. 49.1/524.",
+  "Joshua Nobles": "yr4 + missed ALL '25 (injury before opener) - both prints start him; Athlon: 'might have been the team's top player.' Real tape = 10 sk at Jackson St '24 (FCS no-cell) + WMU '22-23. Graded as pedigree-with-injury-risk.",
+  "Zachary Franks": "yr4 + injured all '25 - Athlon-explicit RT return; ex-Northwestern/Duke. Override.",
+  "Marques White": "90.2/470 - the round's #2 edge grade - departed to SMU; with Heldman (CMU) and Mathis (KSU) gone too, the MAC lost its three best 2025 DL to expiry/P4 portal",
+  "Malcolm Greene + Derrieon Craig": "roster mislabels both DL - they are DBs (CB 643 / S 633 snaps). Expired either way; noted for feed hygiene.",
+  "Sullivan Weidman + Jeremiah McGill": "unlisted depth (466/377 snaps, weak grades) - not in portal/yr4/prints; default RETURNS, zero grade impact",
+  "Aitor Urionabarrenechea": "769 snaps at Colorado State '25 (12 st) - the OL room's only real recent volume; MWC OL -10 cell",
+  "William Watson III": "VT pedigree is backup-grade (2 starts, never won the job) + local-star/HS-teammate-of-Griffin narrative; 55.0/8 LY",
+  "Reece Adkins": "yr4 feed but BOTH prints return him as TE starter (Athlon bold + PS caps; 7 st, 133 @ 14.6, missed last 4 injured). Override - caught on ledger review pass."
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "QB: three-way all-transfer battle, zero returning FBS tape",
+  "Nobles/Franks/Magee/Harding/Hinspeter all returning from injury years - health variance is the roster's biggest lever",
+  "30 players missed time in '25 - injury-regression upside is narrative, not tape",
+  "proxy voids QB/RB/WRTE/DL (#33-36)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}
