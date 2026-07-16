@@ -1,0 +1,176 @@
+{
+ "team": "Illinois",
+ "units": {
+  "QB": {"grade": 62, "confidence": "M"},
+  "RB": {"grade": 32, "confidence": "M"},
+  "WRTE": {"grade": 48, "confidence": "M"},
+  "OL": {"grade": 38, "confidence": "M"},
+  "DL": {"grade": 41, "confidence": "M"},
+  "LB": {"grade": 46, "confidence": "L"},
+  "DB": {"grade": 62, "confidence": "M"},
+  "ST": {"grade": 30, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (511c1b2)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "dossier planned-grade lines were written pre-mechanical-check; grading calls applied the frozen per-group percentile references and discount table, moving: QB 58->62, RB 44->32, OL 40->38, DL 40->41, LB 44->46, DB 61->62, ST 40->30. grades.json is the authority.",
+   "RB": "largest move: 2026 aggregate (Valentine 69.6 + Laughery 69.4, B10 -0) ~= 69.5 sits AT the p25 reference (Maryland 69.6) and BELOW the 71.8 aggregate that defined the frozen 32 exemplar (which included Feagin 76.8, now at TE) - the mechanical read caps the room at its own 2025 print",
+   "ST": "ST rule (percentile of prior SPEC, adjusted for personnel) starts at 33p and adjusts DOWN for three departed specialists incl. the proven K; planned 40 had drifted up without evidence"
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 82, RB 33, WRTE 53, OL 19, DL 44, LB 61, DB 64, ST 33)",
+   "QB": "-20 vs proxy 82 (proxy rides Houser's UNDISCOUNTED 84.0 and prices no P4-translation risk: MSU stint 58.5%, rebuilt OL, no mobility, FR-only depth)",
+   "OL": "+19 vs proxy 19 (proxy is returning-volume-driven and sees 4 of 5 starter-snap blocks vanish; grading credits verified arrivals Renfro/Martin + Knapik's bowl tape, still bottom-quartile)",
+   "LB": "-15 vs proxy 61 (proxy counts Hood 366 + Hayden 244 snaps that portaled out to WVU/Purdue)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Illinois", "unit": "QB", "grade": 62, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "rationale_bullets": [
+    "Houser arrives with genuine full-volume tape: 84.0 PFF on 473 dropbacks at ECU in 2025 (AAC QB discount is +0 - the table converts it at par), 12 starts, 3,300 yds, 65.9%, 19-6, 4th in AAC rating; two-year ECU line 5,306/37-17.",
+    "The adjusted tape alone argues p75+ (QB unit p75 reference = South Carolina 81.1); the grade is pulled well below the mechanical read for named risks: his earlier P4 stint was ordinary (Michigan State: 7 starts, 1,132 yds, 58.5%), P6 flags that he 'lacks the elusiveness of Altmyer... an issue given the complete rebuild of the offensive line,' and the OL projects bottom-quartile (38).",
+    "Mitigants: OC Lunney continuity (system stays; only the QB changes), former 4* pedigree, PS top-15 QB listing (unit-level, attributed), Athlon spring reporting ('strong impression... talent and leadership').",
+    "Depth is zero-proof: backup is FR Carson Boyd after Hampton portaled to Southern Miss - one injury from a cliff.",
+    "Scale check vs completed set: clearly above ISU's Raynor (48, weaker tape) and TCU's Craig (46, FCS jump); clearly below Utah's returning dual-threat room (70, in-house tape). 62 = solidly above-average B10 QB play with real translation variance."
+   ],
+   "key_players": [
+    {"name": "Katin Houser", "role": "QB1 (transfer, East Carolina)", "evidence": "84.0 PFF/473 dropbacks 2025; 3,300 yds 19-6 at 65.9%; 4th in AAC rating (PS/P6)"},
+    {"name": "Carson Boyd", "role": "QB2 (true FR)", "evidence": "no college tape; Hampton portaled to Southern Miss (feed, 2026)"}
+   ],
+   "data_gaps": ["No spring-game statistical reporting beyond Athlon's qualitative note as of 2026-07-16", "ECU pass-protection context for his 84.0 (line quality there) not established"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Illinois", "unit": "RB", "grade": 32, "confidence": "M",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "UNLV LB 2025 (40)"],
+   "rationale_bullets": [
+    "Direct exemplar collision: Illinois RB 2025 IS the frozen 32 anchor (adjusted aggregate 71.8; volume leader Valentine 69.6/131 att, best grade Feagin 76.8/122). The 2026 room returns Valentine (69.6) and Laughery (69.4/75 att) but LOSES its best grade to the TE room - Feagin's conversion is confirmed by both Athlon and P6.",
+    "Mechanical read: 2026 two-back aggregate ~69.5 (B10 RB offset -0) sits exactly at the p25 reference (Maryland 69.6) and below the 32-exemplar's own 71.8 - the room cannot mechanically exceed its 2025 print, which the season validated (RUN 49th pctile as-played, #98 ypc per P6's metrics despite a 96th-pctile RBLK grade).",
+    "Up-args are real but soft: both backs return with age curve (614 team-leading yds for Valentine; 996 combined), P6 says Laughery 'may be the best of the bunch if he can avoid injuries' (durability unproven - zero dated camp reporting), and no negative news. No additions to the room.",
+    "32 = hold the exemplar's scale position: same room, one year older, minus its biggest body, behind a rebuilt line."
+   ],
+   "key_players": [
+    {"name": "Ca'Lil Valentine", "role": "RB1/1B", "evidence": "69.6 PFF/131 att 2025; team-high 614 rush yds (P6)"},
+    {"name": "Aidan Laughery", "role": "RB1/1A", "evidence": "69.4 PFF/75 att 2025; P6: 'best of the bunch IF he can avoid injuries'"}
+   ],
+   "data_gaps": ["Laughery health status for camp - no dated report as of 2026-07-16", "No verified RB3 after Feagin's move (FR depth unlisted in prints)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Illinois", "unit": "WRTE", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "The 93rd-pctile RECV tree lost its trunk: Beatty (82.4/343 routes; 3rd-team All-B10, #2 in B10 YAC - P6) expired, Bowick (70.4/161) to Oklahoma State, and BOTH TEs - Rusk (79.2/112; 4* transfer grade, best TE yards here since 2020) to Arizona, Arkin (68.7/175) expired.",
+    "What returns is proven-average B10 tape: Clement 68.9/287 routes (36 rec; ex-WVU 1,221 yds F2Y) and Dixon 67.1/309 (35 rec) - 'Houser's top targets' (Athlon), combined 1,002 yds in 2025.",
+    "Imports carry stated discounts: Perry 74.7/393 at FIU (CUSA -4 -> 70.7; 1st-team All-CUSA, 6'5) and Platt 64.4/499 at FAU (SBC -1 -> 63.4) combined for 1,560 yds 'at the non-AQ level' (P6's own caveat); Robinson 58.2/126 (MAC -7 -> 51.2) is depth.",
+    "Volume-weighted 2026 aggregate ~66.5 sits at the p50 reference (Nebraska 66.4); the TE room drags below it - Feagin has 76.8 RB tape but zero TE snaps ('could have a major impact' is projection - Athlon), Abney's 74.8 is 12-game backup volume.",
+    "48 = a whisker under average: adequate breadth, no proven #1, TE conversion risk; 4* FR Rankin is unpriced upside (P6: 'could push into the rotation')."
+   ],
+   "key_players": [
+    {"name": "Hudson Clement", "role": "WR1 (returning starter)", "evidence": "68.9 PFF/287 routes, 36 rec 2025; 1,221 yds F2Y at WVU (PS)"},
+    {"name": "Alex Perry", "role": "WR2 (transfer, FIU)", "evidence": "74.7 PFF/393 routes 2025; 1st-team All-CUSA, 840 yds (P6/PS)"},
+    {"name": "Kaden Feagin", "role": "TE1 (converted RB)", "evidence": "76.8 PFF at RB 2025; spring reps at TE (Athlon+P6)"}
+   ],
+   "data_gaps": ["Feagin's blocking viability at TE - no snap evidence exists", "Rankin (4* FR) camp standing unreported as of 2026-07-16"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Illinois", "unit": "OL", "grade": 38, "confidence": "M",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "Four starters gone including 1st-team All-B10 (P6; PS: 4th-team AA) JC Davis (87.8/776): Gesky (72.4/849), Priestly (65.9/817), J.Kreutz (57.7/782) all expired. Henderson (59.7/818, B10 -1 -> 58.7) is the lone returning starter - and his is mediocre full-season tape.",
+    "The damning baseline: the 2025 line was one of the nation's most VETERAN and still ran #50 OL Run Push / #98 ypc / #110 pass protection with a 9% sack rate (P6's metrics; PBLK 46th pctile as-played) - 'and that was with a top-notch scrambler' (P6). The rebuild starts below that.",
+    "Verified arrivals are partial answers: Renfro (69.8/225 at Wisconsin - injury-limited; 20 starts F2Y at Cincinnati; 'Big Ten starting experience' - P6) at C; Martin (53.2/778 at Colorado State, MWC -10 -> 43.2 adjusted on real volume - the worst reliable tape among projected starters) at LT.",
+    "Knapik's 74.8 on 80 snaps (strong bowl with Davis out - P6) and McMillen's 73.0/88 are hints, not evidence (sub-100 threshold); Hansen (54.4/67) is the Athlon LG1; three of the top five JUCO OL (Matelau/Taylor/Washington - P6) are unpriced wildcards.",
+    "Weighted starter aggregate ~59.6 lands between p25 (WKU 55.4) and p50 (Michigan 65.5), and the reliable-volume tapes are the bad ones. 38 = bottom-quartile P4 line with real bust tail; proxy 19 marks the floor case."
+   ],
+   "key_players": [
+    {"name": "Brandon Henderson", "role": "RG (lone returning starter)", "evidence": "59.7 PFF/818 snaps 2025"},
+    {"name": "Jake Renfro", "role": "C (transfer, Wisconsin)", "evidence": "69.8/225 2025 (injury-limited); 20 starts F2Y at Cincinnati (PS)"},
+    {"name": "Christian Martin", "role": "LT (transfer, Colorado State)", "evidence": "53.2/778, 12 starts 2025 (PS)"},
+    {"name": "Nathan Knapik", "role": "RT", "evidence": "74.8/80 2025; 'played well in the bowl game' (P6)"}
+   ],
+   "data_gaps": ["JUCO trio's spring standing vs the printed two-deep unreported", "Renfro durability (injury-limited 2025) - no dated camp report"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Illinois", "unit": "DL", "grade": 41, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "Nine rotation linemen out: Jacas (78.0/529; 1st-team All-B10, league-high 11 sacks, drafted), Thompson (76.5/402), Bryant (70.6/388), Lowery (64.7/272), Hunt (64.5/163) expired; scheme-change exodus sent Durojaiye (74.5/372) to SC, McCullom (66.5/294) to A&M, Neal (69.4/253) to Purdue, Coenen (61.4/222) to MSU. PS: 'lose their entire starting front seven.'",
+    "The B10 +10 DL offset makes the two returners genuinely credible: Barna 70.8/323 -> 80.8 adjusted ('played well in the bowl' - P6) and Farrell 60.9/203 -> 70.9 - but both were rotation players behind an elite front (rising-tide risk on rotational grades) now elevated to starter loads in a first-year 3-3-5.",
+    "The backfill is all non-AQ, P6's word 'rotational': Prater 60.3/413 at Jax State (CUSA -8 -> 52.3), Thomison 76.2/132 MAC (-6 -> 70.2, sub-150 sample), Sullivan (Wazzu), All-Ivy Janki (FCS - heavy judgment discount), Holmes (Utah State backup). None has started a P4 game.",
+    "Attributed scouting cuts both ways: opposing B10 assistant called the departed group 'outrageously good... every bit as good as Penn State's, Michigan's and Ohio State's' - and 'most of that group has left.'",
+    "41 = just above the UNLV-LB 40 anchor and below Utah DL's 44 (which returned deeper adjusted tape plus better imports): two real pieces, zero returning starters, G5 depth, new scheme."
+   ],
+   "key_players": [
+    {"name": "Joe Barna", "role": "NT1", "evidence": "70.8 PFF/323 snaps 2025 (B10-earned); strong bowl (P6)"},
+    {"name": "Pat Farrell", "role": "DE1", "evidence": "60.9/203 2025; rotation-to-starter (P6); 'learned from Jacas' (Athlon)"},
+    {"name": "Isaiah Thomison", "role": "DE2 (transfer, Bowling Green)", "evidence": "76.2/132 2025 (MAC, small sample)"}
+   ],
+   "data_gaps": ["Sullivan's and Holmes's 2025 grade/volume not in unit csv top rows - rotational depth unverified", "3-3-5 alignment fits (who plays the 5-tech vs edge-stand-up) unreported"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Illinois", "unit": "LB", "grade": 46, "confidence": "L",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Buffalo LB 2025 (p50 ref, 66.5)"],
+   "rationale_bullets": [
+    "Effectively three new starters: MLB Rosiek (71.4/427 - the best 2025 tape) expired; Hood (54.6/366) to WVU, Hayden (60.9/244) to Purdue, Odeluga (54.7/173) expired.",
+    "The B10 +16 LB offset (largest in the table) flatters the returners mechanically - Kreutz 63.0/244 -> 79.0, Beerman 70.1 -> 86.1 - but v1.2.1 LB caution applies in full: LB is the noisiest PFF unit signal, Kreutz's sample is rotational (244 snaps), and Beerman's is 15 snaps of pure projection behind 4* pedigree and P6's 'could become their next star.'",
+    "Brown converts from edge (57.4/211 PFF-classified DL 2025; former JUCO All-American - P6) to stand-up LB in the 3-3-5; Edmonson (70.6/331 at CSU, MWC -5 -> 65.6) and #1 JUCO LB Kante (P6) fill the two-deep.",
+    "Scouting consensus is neutral-to-mildly-positive (Athlon: Kreutz/Brown 'the top returnees'), with no all-league claims for anyone in the room.",
+    "46, L = below-average with honest width: the offset argues average-plus, the samples/conversions/scheme-change argue bottom-third; confidence L because the unit hinges on unproven players (prompt rule 4)."
+   ],
+   "key_players": [
+    {"name": "James Kreutz", "role": "LB1", "evidence": "63.0 PFF/244 snaps 2025 (B10-earned)"},
+    {"name": "Grant Beerman", "role": "LB (4* SO)", "evidence": "70.1/15 snaps 2025; P6 'impressed as a freshman'"},
+    {"name": "Daniel Brown", "role": "LB (edge conversion)", "evidence": "57.4/211 2025 at edge; former JUCO All-American (P6)"},
+    {"name": "Robert Edmonson", "role": "LB2 (transfer, Colorado State)", "evidence": "70.6/331 2025 (MW)"}
+   ],
+   "data_gaps": ["Run-defense/coverage sub-grades not in unit csv extract (LB-caution preferred signal unavailable)", "Kante's JUCO tape quality beyond P6's #1 ranking unverified"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Illinois", "unit": "DB", "grade": 62, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "rationale_bullets": [
+    "Three all-league players return - P6: 'three all-league stars in the defensive backfield... the clear strength of the defense, and the overall team': Bailey 72.9/693 (B10 +6 -> 78.9; team-high 76 tkl), X.Scott (1st-team All-B10 2024; 68.3/151 injury-limited 2025; 'turned down the pros' - P6; yr4 return override, triple-sourced), Clarke 61.8/533 (24 career starts, 5 INT; 'honors candidate' - Athlon).",
+    "Real depth behind them: Heckel 64.0/506 (Athlon returning-starter flag at STAR), Resetich 55.1/217 at S, Fillmore 68.8/498 (Ga State, SBC -4 -> 64.8), Finley 65.1/248 (NIU), Williams (ETAMU: 20 st/139 tkl).",
+    "The subtraction is the best 2025 tape: M.Scott 77.0/786 (3-yr starter, 2x captain) expired, plus Cox 58.4/690; CB1 becomes #1 JUCO CB Morris (P6) - unpriced.",
+    "Honest tension held in the grade: reputation and names vs COV 23rd pctile as-played 2025 (the corners leaked - Cox 58.4, Clarke's 61.8 is modest raw) and a weighted aggregate ~68.9 that sits p57-60 (DB p50 = 66.9, p75 = 73.0). X.Scott's true level (his 2024 1st-team tape) argues the 151-snap 2025 sample understates the room.",
+    "62 = top-third-of-B10 secondary, two ticks above the mechanical read on scouting consensus, well below the WSU-72 anchor while the CB1 is a JUCO projection."
+   ],
+   "key_players": [
+    {"name": "Matthew Bailey", "role": "S1 (returning starter)", "evidence": "72.9 PFF/693 snaps; team-high 76 tkl 2025 (Athlon)"},
+    {"name": "Xavier Scott", "role": "STAR (returning starter)", "evidence": "1st-tm All-B10 2024; 68.3/151 (injury) 2025; yr4 override RETURNS (P6+Athlon two-deep)"},
+    {"name": "Jaheim Clarke", "role": "CB1 (prints as 'Juice')", "evidence": "61.8/533 2025; 24 st, 5 INT career (Athlon)"},
+    {"name": "Jakwon Morris", "role": "CB (JUCO signee)", "evidence": "#1 JUCO cornerback (P6); documented feed-gap arrival (news.md)"}
+   ],
+   "data_gaps": ["X.Scott's 2025 injury nature/recovery timeline unreported in prints", "Morris's JUCO tape unverified beyond P6 rank"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Illinois", "unit": "ST", "grade": 30, "confidence": "M",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "UNLV LB 2025 (40)"],
+   "rationale_bullets": [
+    "ST rule: start at the prior-season SPEC percentile (33rd; STR #51 per PS) and adjust only for verified personnel changes - which are net-negative: ALL THREE specialists left, including the proven leg (Olano won the bowl with a late FG, then Texas A&M).",
+    "K Moczulski returns to the program from Washington as a career KICKOFF specialist (74 KO/51 TB in 2025; career 1-2 FG) - placekicking is unproven at any volume.",
+    "P Rau (Texas State) brings a weak verified baseline: 24 punts at 36.3 avg (PS); he is feed-absent but two-print confirmed (Athlon two-deep starter).",
+    "Return games are the bright spot: KR Valentine returns; PR Platt was a proven G5 returner (FAU).",
+    "30 = below the 33p baseline: two unproven-or-weak legs replacing a proven one, new LS (Haber, Arkansas)."
+   ],
+   "key_players": [
+    {"name": "Ethan Moczulski", "role": "K (transfer, Washington)", "evidence": "74 KO/51 TB 2025; career 1-2 FG (Athlon/PS)"},
+    {"name": "Lars Rau", "role": "P (transfer, Texas State)", "evidence": "24 punts, 36.3 avg 2025 (PS); feed-absent, two-print verified"}
+   ],
+   "data_gaps": ["No camp reporting on the FG battle (Moczulski vs unlisted alternatives)", "Rau's feed absence means no eligibility cross-check beyond prints"],
+   "g5_guard_note": null
+  }
+ ]
+}
