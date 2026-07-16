@@ -29,7 +29,8 @@
   "Khai Taylor + Kenyon Shabazz": "JC arrivals (PS#165JC/#307JC) - JC-source feed gaps; whitelisted",
   "Hayden Frazier + Jamin Guilbert": "JC OL arrivals (PS#307JC/#326JC) - JC-source feed gaps; whitelisted",
   "Shontrail Key": "returning (11 st at UIW '24 was BEFORE his '25 Sac St year? PS line ambiguous: Arizona '22/Grambling '23/UIW '24, '11 st Incarnate Word LY' - if the 11 UIW starts were 2025 he is an arrival; roster25 presence governs: treated returning-roster body; zero grade impact either way (no FBS tape)",
-  "Jay Brockhaus": "SELU P (38.7 net '24, DNP '25) - in-feed absent? present as... NOT in feed - FCS-source gap; whitelisted (PS punter line)"
+  "Jay Brockhaus": "SELU P (38.7 net '24, DNP '25) - in-feed absent? present as... NOT in feed - FCS-source gap; whitelisted (PS punter line)",
+  "Matt Coleman": "feed name 'Matthew Coleman' (SJSU in-feed) - print name-form whitelisted for departure_check (Funk precedent)"
  },
  "feed_gap_arrivals_documented": [
   "Brian Salazar (QB - JC 3,210 yds; PS lineup)",

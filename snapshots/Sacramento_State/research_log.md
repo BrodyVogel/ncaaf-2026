@@ -44,3 +44,12 @@
   4 L-units (QB/RB/DL/DB) -> conf x1.12 stacking with coach x1.13.
 - 2026-07-16 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-16 grades.json written + schema-validated (8/8); departure_check
+  caught the Matt/Matthew Coleman cited-name form (Funk precedent) - fixed
+  via known_name_exceptions; gates re-run clean.
+- 2026-07-16 pilot_readout: FINAL -19.61 (r135/138), band ±7.59 = WIDEST OF
+  THE PROJECT (coach 1.13 x conf 1.12 [4 L-units] stack). FPI winsorized
+  AGAIN (-12.6 -> -15.3; FPI systematically kind to bad teams - 3rd FPI
+  event). Dispersion 10.1 just under the flag. resid +1.42 = level +10.88 +
+  shape -9.47. First build this round where grades are cooler than anchors
+  on OFFENSE too (-0.74).

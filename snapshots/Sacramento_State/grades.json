@@ -1,0 +1,205 @@
+{
+ "team": "Sacramento State",
+ "units": {
+  "QB": {"grade": 20, "confidence": "L"},
+  "RB": {"grade": 14, "confidence": "L"},
+  "WRTE": {"grade": 10, "confidence": "M"},
+  "OL": {"grade": 8, "confidence": "M"},
+  "DL": {"grade": 10, "confidence": "L"},
+  "LB": {"grade": 16, "confidence": "M"},
+  "DB": {"grade": 10, "confidence": "L"},
+  "ST": {"grade": 22, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (9dbb540)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines. FBS-NEWCOMER build: fully evidence-based (no PFF tape, no percentile row); three project floors set (OL 8, WRTE 10, DB 10); four L-units."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy ALL-VOID (8/8 None) - artifact #43, the project's first fully-empty sheet. Every grade is out-of-model; no divergences computable."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Sacramento State",
+   "unit": "QB",
+   "grade": 20,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Ball State QB 2026 (18, this round)",
+    "Ohio/UMass/Buffalo QB 2026 (22, this round - FCS-producer rooms)"
+   ],
+   "rationale_bullets": [
+    "Conklin boomerangs: FCS Freshman All-American at Sac St (2,876 @ 62%, 28-12 in '24 - on a 3-win team), then the room's ONLY FBS tape at Fresno: 48.1/105, 354 @ 49% in 3 starts - and it is bad.",
+    "JC Salazar (3,210 @ 63%, 36-11) is real JC volume (feed-gap); Sharman/Patterson depth.",
+    "Both 2025 QBs left (C.Williams 1,621+378 -> Maryland; Rashada -> Mississippi State); this is Conklin's third offense in three years.",
+    "20, L: strong-FCS pedigree discounted by the failed FBS cameo - between Ball State's 18 and the 22-tier FCS-producer rooms."
+   ],
+   "key_players": [
+    {"name": "Carson Conklin", "role": "QB1 (boomerang via Fresno State)", "evidence": "FCS FR All-American '24; 48.1/105 at Fresno '25"},
+    {"name": "Brian Salazar", "role": "QB2 (JC, feed-gap)", "evidence": "3,210 @ 63%, 36-11 JC"}
+   ],
+   "data_gaps": ["only FBS tape in room is a bad 105-snap sample", "third scheme in three years"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Sacramento State",
+   "unit": "RB",
+   "grade": 14,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Eastern Michigan RB 2026 (14, this round)",
+    "UMass/Kent State RB 2026 (10, this round)"
+   ],
+   "rationale_bullets": [
+    "Curtis (Withdrawn-portal override STAYS - both prints' RB1) is a genuine FCS All-American (3,500+ total, 35 TD at Lafayette) with a two-year injury cloud (RS'd hurt '25).",
+    "Godley (Weber St 1,142 over 2 yrs) and SDSU's Rhaney (72.5/5) back him; Borders 'could miss his 2nd straight season.'",
+    "The top five 2025 rushers departed (Hammond 1,216; Henderson + Smith to Colorado).",
+    "14, L = EMU 14: FCS-star pedigree over the 10-floor rooms; health is the whole bet."
+   ],
+   "key_players": [
+    {"name": "Jamar Curtis", "role": "RB1 (returning; withdrawal override)", "evidence": "FCS AA at Lafayette; 1,460 in '23; RS'd hurt '25"},
+    {"name": "Davion Godley", "role": "RB2 (transfer, Weber St)", "evidence": "FCS 1,142 @ 5.8 over 2 yrs"}
+   ],
+   "data_gaps": ["both lead backs have injury clouds"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Sacramento State",
+   "unit": "WRTE",
+   "grade": 10,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Ball State WRTE 2026 (12, this round)",
+    "UMass WRTE 2026 (14, this round)"
+   ],
+   "rationale_bullets": [
+    "The 2025 room 'hit the transfer portal almost as a unit' (Athlon) - the #1 (755 @ 20.4) and #2 gone.",
+    "Returns: TE Jordan Williams (10 st, 170 @ 15.5 - the offense's lone returning starter) + O.Smith (45 yds in 20 games).",
+    "Adds are SJSU possession depth (Coleman 651 career @ 9.9), UTSA depth history (Wilson), JCs and a D2 TE - no P4 pedigree beyond zero-tape RS bodies.",
+    "10 - new project WRTE floor: below Ball State's 12 (their Hamilton beat anything here)."
+   ],
+   "key_players": [
+    {"name": "Jordan Williams", "role": "TE1 (returning starter)", "evidence": "10 st, 170 @ 15.5"},
+    {"name": "Matt Coleman", "role": "WR1 (transfer, San Jose St)", "evidence": "4 st, 651 career @ 9.9"}
+   ],
+   "data_gaps": ["no returning 200-yd receiver", "JC-heavy two-deep"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Sacramento State",
+   "unit": "OL",
+   "grade": 8,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Bowling Green OL 2026 (10, this round - previous floor)",
+    "Ball State OL 2026 (12, this round)"
+   ],
+   "rationale_bullets": [
+    "ZERO returning FBS-level starts anywhere: Summers (4 career FCS starts) and Stallworth (3 st as a true FR) are the veterans.",
+    "Two projected starters are direct JC arrivals (C Frazier, LG Guilbert); the imports are Weber St's Soifua (4 FCS st) and UIW's Key (11 FCS st); UCLA rFr Blank has zero tape.",
+    "This line steps UP a division behind a new scheme; Athlon: 'questions along both lines, which is never good when a team is stepping up a level.'",
+    "8 - NEW PROJECT OL FLOOR, below BGSU's 10 (their zero-starter room at least had FBS-adjacent bodies)."
+   ],
+   "key_players": [
+    {"name": "Bryson Summers", "role": "LT1 (returning)", "evidence": "2 st @ RG '24 + 2 st @ LT '25"},
+    {"name": "Vae Soifua", "role": "RG1 (transfer, Weber St)", "evidence": "4 st, 6 gm there '25"}
+   ],
+   "data_gaps": ["zero FBS starts on the entire two-deep"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Sacramento State",
+   "unit": "DL",
+   "grade": 10,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Akron/UMass DL 2026 (12, this round)",
+    "Ball State DL 2026 (8, this round)"
+   ],
+   "rationale_bullets": [
+    "Loses 7 DL with 19.5 combined sacks from the FCS unit.",
+    "X.Williams returns (11 st, 31 tkl, 6 sk in the Big Sky - the one proven piece, with a '24 injury year behind him).",
+    "The reload is zero-to-five-snap FBS bodies: Wisconsin's Howard (50.1/4 - spring starter per Athlon), Fresno's Chala (63.3/5), NIU-RS Moore, Auburn-RS/JC Chambers, FAMU's Dimitris, UTEP's Weber (spring injury monitor).",
+    "10, L: one strong-FCS edge + unknowable rotation, learning a 3-3 stack, up a division."
+   ],
+   "key_players": [
+    {"name": "Xavier Williams", "role": "DE1 (returning starter)", "evidence": "11 st, 31 tkl, 6 sk (FCS)"},
+    {"name": "Jamel Howard", "role": "DT1 (transfer, Wisconsin)", "evidence": "50.1/4; won the job in spring"}
+   ],
+   "data_gaps": ["rotation unknowable", "new 3-3 stack"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Sacramento State",
+   "unit": "LB",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Central Michigan/Kent State LB 2026 (14, this round)",
+    "Massachusetts LB 2026 (30, this round)"
+   ],
+   "rationale_bullets": [
+    "The team's best unit per BOTH prints: Houston (71 tkl, 4.5 tfl as a rFr '24; 5 st then OFY '25 - his Immediate/no-dest portal entry is OVERRIDDEN, both prints anchor him and he is Athlon's page photo) + Rocha (7 st, 49 tkl - bold returning starter) + Puloka (6 st, 43 tkl).",
+    "Lafayette's Jeanty (9 st, 33 tkl) and Fresno's Thomas add FCS/FBS-fringe depth.",
+    "Houston and Rocha were healthy together for ONE QUARTER in 2025; both 100% in spring - the health caveat is real.",
+    "16: three returning FCS starters with volume beats the FBS-thin 14-rooms; the division jump caps it far below UMass's FBS-tape 30."
+   ],
+   "key_players": [
+    {"name": "Derek Houston", "role": "MLB1 (returning; portal-return override)", "evidence": "71 tkl as rFr '24; 5 st '25 then OFY"},
+    {"name": "Alex Rocha", "role": "MLB2 (returning starter)", "evidence": "7 st, 49 tkl, 4.5 tfl"}
+   ],
+   "data_gaps": ["health (one healthy quarter together)", "all FCS tape"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Sacramento State",
+   "unit": "DB",
+   "grade": 10,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Ball State DB 2026 (14, this round)",
+    "Florida Atlantic DB 2025 (6 global floor anchor)"
+   ],
+   "rationale_bullets": [
+    "'A complete overhaul' (Athlon): all four 2025 starters gone, incl. 1st-Tm Big Sky S Akui (-> Rice).",
+    "The returning piece is Mullican (3 st '25, 10 st '24); the NINE adds have 25 combined 2025 FBS snaps (Silvera's USF cameo) - the rest is FCS starts (Thornton 12 st at Portland St, resolved as an arrival), zero-tape P4 RS bodies (Miami's Wallace PS#49, ASU's Klemm, Illinois' Turner, Colorado's King) and D2/FCS fills.",
+    "New 3-3-5, up a division, with a secondary built after the portal closed.",
+    "10, L: above only the FAU-6 global floor tier; below Ball State's 14."
+   ],
+   "key_players": [
+    {"name": "Boogsie Silvera", "role": "S1 (transfer, USF)", "evidence": "51.0/25; McNeese 153 tkl '23-24"},
+    {"name": "Amari Wallace", "role": "S1 (transfer, Miami FL)", "evidence": "rFr, PS#49, zero tape"},
+    {"name": "Elias Mullican", "role": "CB1 (returning)", "evidence": "3 st '25; 10 st '24"}
+   ],
+   "data_gaps": ["nine transfers, 25 combined FBS snaps"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Sacramento State",
+   "unit": "ST",
+   "grade": 22,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Buffalo ST 2026 (22, this round)",
+    "UMass ST 2026 (20, this round)"
+   ],
+   "rationale_bullets": [
+    "K Grant Meadors returns - ex-Oregon, 12-of-15 FG (L42), 51-52 PAT - the roster's one proven FBS-pedigree specialist.",
+    "P unsettled ('won't be finalized until the fall'): SELU's Brockhaus (38.7 net '24) DNP'd 2025.",
+    "Both 2025 return men gone; KR to Curtis (health), PR Fresques (73 all-purpose yards).",
+    "22 = Buffalo 22: a real kicker + blank everything else."
+   ],
+   "key_players": [
+    {"name": "Grant Meadors", "role": "K1 (returning)", "evidence": "12-15 FG, L/42; ex-Oregon"},
+    {"name": "Jay Brockhaus", "role": "P1 (transfer, SELU - feed-gap)", "evidence": "38.7 net '24; DNP '25"}
+   ],
+   "data_gaps": ["punter unsettled", "return jobs new"],
+   "g5_guard_note": null
+  }
+ ]
+}
