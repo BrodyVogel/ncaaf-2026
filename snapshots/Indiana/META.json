@@ -1,0 +1,32 @@
+{
+ "team": "Indiana",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T14:35:31+00:00",
+ "assembler_git_rev": "048e1e6",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Cignetti yr 3 (27-2). Full continuity: OCs Shanahan+Sunseri, DC Haines (Broyles winner) all retained. x1.13 does NOT apply.",
+ "portal_departure_confirmed": ["Finn Walters", "Mitch Verstegen"],
+ "portal_withdrawal_overrides": ["Bruno Massel IV", "Jackson Wasserstrom"],
+ "yr4_return_overrides_documented": ["Tyler Morris"],
+ "nfl_declare_confirmed": ["Fernando Mendoza", "Omar Cooper Jr.", "D'Angelo Ponds"],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Quan Sanks": "Jiquan Sanks",
+  "Adeamola Ajani": "Adedamola Ajani"
+ },
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Devan Boykin": "NB - counted in DB unit; yr4 EXPIRED (PS confirms gone)",
+  "Grant Wilson": "QB - feed yr4 EXPIRED governs over PS 'So' lineup print (news.md); 1 career snap",
+  "Bryson Bonds": "DB - feed yr4 EXPIRED governs over PS NB-backup print; Athlon omits (news.md)"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "P1 battle unresolved in prints (PS: Gowers; Athlon: Warren)",
+  "TE room usage (Barker vs Schott) and 3rd LB unresolved as of capture"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

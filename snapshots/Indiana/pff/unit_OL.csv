@@ -1,0 +1,13 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Carter Smith,156399,T,INDIANA,16,100.0,0,190,85.7,87.7,83.4,0,7,452,100.0,100.0,98.8,7,9,2,1028,0,0,1019,1028,483,483,0,0,545,6,2025_this_team
+Pat Coogan,147482,C,INDIANA,16,100.0,0,190,78.0,84.0,75.3,0,10,452,100.0,100.0,98.9,2,10,0,1027,1027,0,0,1027,483,483,0,0,544,0,2025_this_team
+Bray Lynch,156401,G,INDIANA,16,100.0,0,190,62.4,63.1,61.2,1,12,437,100.0,100.0,98.1,5,15,2,993,1,0,0,993,468,468,992,0,525,0,2025_this_team
+Kahlil Benson,129434,T,INDIANA,16,100.0,0,190,66.5,54.9,72.3,1,19,355,100.0,100.0,96.1,5,24,4,836,0,0,0,836,382,382,0,835,454,1,2025_this_team
+Drew Evans,158693,G,INDIANA,12,100.0,0,190,73.2,78.0,73.4,2,7,349,100.0,100.0,98.7,4,9,0,796,0,796,0,796,374,374,0,0,422,0,2025_this_team
+Joe Brunner,158690,G,WISCONSIN,12,100.0,0,349,66.5,72.7,63.9,2,7,316,100.0,100.0,98.6,1,9,0,694,0,690,1,694,328,328,0,2,366,1,arrival_2025_at_WISCONSIN
+Adedamola Ajani,193152,G,INDIANA,12,100.0,0,190,65.2,54.2,67.0,2,4,144,100.0,100.0,96.5,1,8,2,361,0,174,2,361,150,150,72,112,211,1,2025_this_team
+Zen Michalski,145062,T,INDIANA,15,100.0,0,190,63.1,64.0,64.0,0,2,108,100.0,100.0,97.2,2,4,2,308,0,90,0,308,112,112,8,149,196,61,2025_this_team
+Evan Lawrence,188669,T,INDIANA,7,100.0,0,190,61.5,69.7,59.3,0,0,12,100.0,100.0,100.0,0,0,0,69,0,0,69,69,12,12,0,0,57,0,2025_this_team
+Austin Leibfried,188670,C,INDIANA,7,100.0,0,190,65.3,77.6,62.5,0,0,12,100.0,100.0,100.0,0,0,0,69,69,0,0,69,12,12,0,0,57,0,2025_this_team
+Baylor Wilkin,198548,G,INDIANA,4,100.0,0,190,62.5,76.0,61.1,0,0,5,100.0,100.0,100.0,0,0,0,32,0,26,0,32,5,5,6,0,27,0,2025_this_team
+Matt Marek,198537,G,INDIANA,3,100.0,0,190,64.0,50.5,63.9,1,0,5,100.0,100.0,90.0,0,1,0,30,0,11,0,30,5,5,19,0,25,0,2025_this_team

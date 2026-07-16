@@ -1,0 +1,53 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Josh Hoover,SR,transfer:TCU,31 st / 9629 yds / 71 TD L3Y; 76.8/480 '25
+QB,QB,2,Tyler Cherry,FR,recruit,PS lists Grant Wilson (feed yr4 conflict - news.md)
+RB,RB,1,Khobie Martin,SO,returning,89.6/78 att; 505 yds @ 6.5 as RB3
+RB,RB,2,Turbo Richard,JR,transfer:Boston College,72.5/145; 749 @ 5.2; 4* transfer rank
+RB,RB,3,Lee Beebe Jr.,SR,returning,injury return (OFY wk3); 1276 F3Y at UAB
+WRTE,WR,1,Charlie Becker,JR,returning,RETURNING STARTER; 89.1/199 routes; title-game hero
+WRTE,WR,2,Lebron Bond,SO,returning,
+WRTE,WR,1,Nick Marsh,JR,transfer:Michigan State,67.5/386; MSU's top WR
+WRTE,WR,2,Davion Chandler,SO,returning,
+WRTE,WR,1,Tyler Morris,SR,returning,yr4 medical override RETURNS; Michigan '25 arrival; OFY '25
+WRTE,WR,2,Shazz Preston,SR,transfer:Tulane,71.8/300; Tulane #1 WR; 16.8/catch
+WRTE,TE,1,Andrew Barker,FR,returning,blocking TE
+WRTE,TE,2,Brock Schott,FR,transfer:Miami,4*; receiving TE; 92.1/5 (no volume)
+OL,LT,1,Carter Smith,SR,returning,RETURNING STARTER; 85.7/1028; AA + B10 OL of Year
+OL,LT,2,Baylor Wilkin,FR,returning,
+OL,LG,1,Joe Brunner,SR,transfer:Wisconsin,66.5/694; #3 iOL transfer (P6)
+OL,LG,2,Evan Parker,FR,returning,
+OL,C,1,Drew Evans,SR,returning,RETURNING STARTER; 73.2/796
+OL,C,2,Austin Leibfried,SO,returning,65.3/69
+OL,RG,1,Bray Lynch,SR,returning,RETURNING STARTER; 62.4/993
+OL,RG,2,Matt Marek,FR,returning,
+OL,RT,1,Adedamola Ajani,SO,returning,65.2/361; playoff surge
+OL,RT,2,Ben Novak,FR,returning,
+DL,DE,1,Chiddi Obiazor,JR,transfer:Kansas State,68.6/497; All-B12
+DL,DE,2,Daniel Ndukwe,JR,returning,66.8/197
+DL,DT,1,Tyrique Tucker,SR,returning,RETURNING STARTER; 77.9/604; AA push (P6)
+DL,DT,2,Joe Hjelle,SR,transfer:Tulsa,79.3/388 AAC
+DL,DT,1,Mario Landino,JR,returning,RETURNING STARTER; 65.4/567; 9.5 sk L2Y
+DL,DT,2,Kyler Garcia,FR,returning,
+DL,DE,1,Tobi Osunsanmi,SR,transfer:Kansas State,67.7/251; 'elite pass rusher' (P6)
+DL,DE,2,Josh Burnham,SR,transfer:Notre Dame,65 tkl 6 sk career at ND
+LB,OLB,1,Rolijah Hardy,JR,returning,RETURNING STARTER; 73.2/756; All-B10; #1 tkl
+LB,OLB,2,Kaiden Turner,SR,returning,61.7/82; 25 gm career
+LB,ILB,1,Isaiah Jones,SR,returning,RETURNING STARTER; 71.3/664; All-B10
+LB,ILB,2,Jeff Utzinger,SR,returning,59.2/49
+DB,CB,1,Jamari Sharpe,SR,returning,RETURNING STARTER; 84.1/818; AA potential (PS)
+DB,CB,2,Carson Williams,SO,transfer:Montana State,FCS; 47 tkl 9 pb
+DB,CB,1,A.J. Harris,SR,transfer:Penn State,60.7/493 at PSU; ex-5*; PS#3 CB; battle w/ Gandy
+DB,CB,2,Ryland Gandy,SR,returning,70.9/133; Pitt '25 arrival (not a 2026 transfer)
+DB,ROVER,1,Byron Baldwin Jr.,SO,returning,56.1/39; 9 gm as true FR
+DB,ROVER,2,Jiquan Sanks,JR,transfer:Cincinnati,'Quan Sanks' in prints; 13 st 92 tkl L2Y
+DB,S,1,Amare Ferrell,SR,returning,RETURNING STARTER; 80.1/819; 8 INT L3Y
+DB,S,2,Jaylen Bell,SO,returning,66.6/58
+DB,S,1,Preston Zachman,SR,transfer:Wisconsin,79.6/116 (Wk3 OFY); 7th yr; Green Dot
+DB,S,2,Garrett Reese,SO,returning,
+ST,K,1,Nico Radicic,JR,returning,28-30 FG since '24; PS#5 K
+ST,P,1,Billy Gowers,SO,transfer:Hawai'i,49 punts 46.2 '25; Athlon prints Warren P1 (battle)
+ST,P,2,Quinn Warren,JR,returning,25 KO 11 TB '25
+ST,K,2,Paddy McAteer,JR,transfer:Troy,KO man; 56-yd spring FG
+ST,LS,1,Drew Clausen,SR,transfer:Iowa State,26 gm L2Y at ISU
+ST,KR,1,Lee Beebe Jr.,SR,returning,
+ST,PR,1,Tyler Morris,SR,returning,

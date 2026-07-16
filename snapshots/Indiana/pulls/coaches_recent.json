@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Curt",
+  "lastName": "Cignetti",
+  "hireDate": "2023-11-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Indiana",
+    "year": 2024,
+    "games": 13,
+    "wins": 11,
+    "losses": 2,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": 10,
+    "srs": 17.7,
+    "spOverall": 20.1,
+    "spOffense": 35,
+    "spDefense": 16.4
+   }
+  ]
+ },
+ {
+  "firstName": "Curt",
+  "lastName": "Cignetti",
+  "hireDate": "2023-11-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Indiana",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 27.3,
+    "spOverall": 32.4,
+    "spOffense": 40.8,
+    "spDefense": 9.9
+   }
+  ]
+ }
+]
