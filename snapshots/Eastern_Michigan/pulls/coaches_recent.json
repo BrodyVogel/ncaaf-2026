@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Chris",
+  "lastName": "Creighton",
+  "hireDate": "2013-12-11T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Eastern Michigan",
+    "year": 2024,
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -12.1,
+    "spOverall": -13.3,
+    "spOffense": 20.5,
+    "spDefense": 34.3
+   }
+  ]
+ },
+ {
+  "firstName": "Chris",
+  "lastName": "Creighton",
+  "hireDate": "2013-12-11T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Eastern Michigan",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -16.2,
+    "spOverall": -14.7,
+    "spOffense": 19.4,
+    "spDefense": 34.1
+   }
+  ]
+ }
+]

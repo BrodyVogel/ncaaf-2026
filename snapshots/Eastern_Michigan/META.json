@@ -1,0 +1,76 @@
+{
+ "team": "Eastern Michigan",
+ "conference": "Mid-American",
+ "created_utc": "2026-07-16T20:38:57+00:00",
+ "assembler_git_rev": "c135357",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Chris Creighton yr 13 (61-83 EMU; career 200-129). OC Piatkowski yr 7; co-DCs Omli/Teegardin; STC Kurzner returns. x1.13 does NOT apply.",
+ "portal_departure_confirmed": [
+  "Terry Lockett",
+  "Braden Laux",
+  "Christian Kiptoo",
+  "Marco Patierno",
+  "Deterrius Clayton",
+  "Andrew Steger",
+  "Caden Vanderbush",
+  "Zavian Dilworth",
+  "James Monds III",
+  "Terrelle Elmore",
+  "Jayvin Norman",
+  "Carter Herriman",
+  "Alijah Alexander",
+  "Tamarley Smith",
+  "Jaylyn Monds",
+  "Zah'eed Pierre"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Noah Kim",
+  "Nick Devereaux",
+  "Carter Evans",
+  "Joshua Anderson",
+  "Bryce Llewellyn",
+  "Barry Manning",
+  "Zach Mowchan",
+  "Jason Marshall",
+  "Jefferson Adam",
+  "Dennis Strey Jr."
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Joey Mattord": "PFF 'Mattord' vs PS 'Mattford' - same RB, PFF form used",
+  "Guzzy Kayed": "feed 'Kayed' vs PS 'Kayad' - same OL, feed form used",
+  "Nate Henry": "PS RG-note transfer (Drake 22 st) - roster addition not in feed; whitelisted",
+  "Davion Williams": "PS BAN depth (Charleston Southern '23-24, DNP at EMU LY) - on-roster body, no feed entry expected",
+  "Jonah Flowers": "JC arrival (PS WLB line: 103 tkl JC L2Y) - JC-source feed gap; whitelisted",
+  "Elgin McDuffey": "JC arrival (PS MLB line: 86 tkl JC L2Y; Athlon #10 recruit) - JC-source feed gap; whitelisted",
+  "Jefferson Adam": "JC arrival PS#60JC (missed all '25, preseason inj) - yr4 feed + JC gap; Athlon-explicit projected starter"
+ },
+ "feed_gap_arrivals_documented": [
+  "Elgin McDuffey (LB - JC, 86 tkl L2Y; PS + Athlon recruit list)",
+  "Jonah Flowers (LB - JC, 103 tkl L2Y; PS)",
+  "Nate Henry (OL - Drake, 22 st L2Y; PS RG note)"
+ ],
+ "position_notes": {
+  "Noah Kim": "yr4 feed but GRANTED 7TH SEASON (PS explicit; Athlon '5th year, 2nd as starter'). THE critical override - ledger would expire the QB1. 67.6/467, MAC-leading 2817.",
+  "Barry Manning": "roster position DB, plays WLB (forced to LB by '25 injuries per Athlon; 'capable of playing safety') - counted LB",
+  "Jefferson Adam": "missed ALL 2025 preseason-injury; Athlon 'projects to start' - graded as unproven JC pedigree, not tape",
+  "Adam Samaha": "Akron forward flag CLOSED: in-feed from=Akron + PS 'RS, 1 gm, 1-1 PAT at Michigan 23. DNP at Akron LY.' PS P#13 on pedigree; zero 2025 tape",
+  "Tyler McMillan": "in-feed origin Illinois but NOT in Illinois frozen snapshot - DNP year never reached CFBD roster (career = NW-St/SEMO starts). Gap-in-feed origin, no Illinois retro issue",
+  "Braydon Bennett": "feed origin Virginia Tech (61.7/4 LY); Athlon 'saw little action with the Hokies'; CCU 1907 @ 6.1 is '21-24 old tape - graded as journeyman pedigree",
+  "Mekhi Fox": "92.4 PFF grade is ONE route - ignored as evidence",
+  "single-print yr4 residuals": "Bailey (PS), Ja'Quel Mack (Athlon), Dibert (PS - '25 KO specialist), Holt (PS), Bell (PS roster line) - treated EXPIRED, zero grade impact, news.md notes"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "P job: both candidates (Hull, Samaha) have zero 2025 tape",
+  "RB room: zero returning 50-carry backs; Bennett's production is 2+ years old",
+  "Adam (projected DE starter) unseen since 2024 (JC) - injury return",
+  "proxy voids QB/RB/LB (#28-30) + WRTE 6 vs 34 largest gap of project (yr4-skew)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

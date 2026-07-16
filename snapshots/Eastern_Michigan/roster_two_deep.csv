@@ -1,0 +1,59 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Noah Kim,SR,returning,RETURNING STARTER; 67.6/467; 2817 @ 61.4% 18-11 (led MAC); 12 st; yr4 override - 7th season granted (PS); ex-MSU
+QB,QB,2,Jace Stuckey,SO,returning,PS#115; no tape
+QB,QB,3,Bryce Button,FR,returning,rFr; Scout Team POY '25; PS#133
+QB,QB,3,Brogan McCaughey,SR,transfer:Yale,390 @ 60% in 2 gm '24; RS'd at Yale LY
+RB,RB,1,Braydon Bennett,SR,transfer:Virginia Tech,61.7/4 at VT LY; CCU '21-24: 1907 @ 6.1 (w/ QB Kim); PS#118
+RB,RB,2,Joey Mattord,SR,returning,67.9/6; 48 yds - top returning rusher
+RB,RB,2,Malachi James,JR,transfer:Syracuse,55.8/1; RS'd at Syracuse LY
+RB,RB,3,Amareon Blue,FR,returning,rFr; PS#100
+WRTE,WR,1,Nick Devereaux,SR,returning,RETURNING STARTER; 67.0/309; 3rd-Tm All-MAC; 510 @ 15.0 7 TD; yr4 override
+WRTE,WR,1,Benson Prosper,SR,returning,57.6/168; 2 st; PS#57JC pedigree
+WRTE,WR,2,Harold Mack,SO,returning,69.4/153; 333 @ 16.7; 6-179 vs Miami (OH) as true FR
+WRTE,WR,2,Mekhi Fox,JR,returning,92.4/1 (1 route); ex-Colorado St/JC
+WRTE,WR,3,Antonio Floyd,SO,returning,54.2/16
+WRTE,TE,1,Joshua Long,JR,returning,RETURNING STARTER; 61.6/336; 2nd-Tm All-MAC; 37-357-3
+WRTE,TE,2,Tanner Lemaster,SR,returning,74.4/17; ex-Kentucky; 69 yds LY
+OL,LT,1,Tyler Brumfield,JR,transfer:Oklahoma State,JC All-American; RS'd at OkSt LY; PS#52JC; opposing-coach praise piece
+OL,LT,2,Tyler McMillan,SR,transfer:Illinois,6 st NW-St + 11 st SEMO '24; DNP at Illinois LY (gap-in-feed origin)
+OL,LG,1,Guzzy Kayed,JR,transfer:Saint Francis (PA),FCS 2 st 18 gm L2Y
+OL,LG,2,Dennis Strey Jr.,SR,returning,12 gm L2Y; yr4 override (both prints' LG2)
+OL,C,1,Nicholas Gallegos,SR,returning,RETURNING STARTER; 66.2/708; 9 st 12 gm
+OL,C,2,Carter Miculka,FR,recruit,true FR
+OL,RG,1,Cole Dellinger,JR,transfer:Michigan State,injured DNP at MSU L2Y; PS#39
+OL,RG,2,Nate Henry,SR,transfer:Drake,FCS 22 st at Drake L2Y (PS RG note)
+OL,RT,1,Joshua Anderson,SR,returning,RETURNING STARTER; 52.5/524; 17 st L2Y; yr4 override; PS#263
+OL,RT,2,Elijha Payne,JR,transfer:Delaware State,DNP Arizona '24; 5 gm Del St LY
+DL,DE,1,Carter Evans,SR,returning,RETURNING STARTER; 66.0/569; 11 st 37 tkl 5.5 tfl; yr4 override
+DL,DE,2,Hector Gonzalez,SO,returning,58.3/261; 2 st 16 tkl as true
+DL,DE,1,Jefferson Adam,SR,transfer:JC,PS#60JC; missed ALL 2025 (preseason inj); 'projects to start' - yr4 override (Athlon-explicit)
+DL,DE,2,Ronn Hardin,SR,returning,71.0/82; 1 st 12 tkl
+DL,NT,1,Peyton Christian,SR,transfer:Lamar,FCS 2nd-Tm Southland; 13 st 38 tkl 3 sk
+DL,NT,2,Joseph Oluwayemi,JR,transfer:Harding University,D2; 16 gm 29 tkl 7 tfl
+DL,DT,1,Makhi Gilbert,SR,returning,63.6/181; Samford '23-24 origin; 4 st LY
+DL,DT,2,Warren-Stevens Tayou,SR,returning,58.7/334; W. Georgia D2 '24 origin
+DL,DT,3,Javon Thomas,SO,returning,48.8/149
+DL,DT,3,Noah Patterson,JR,returning,65.6/128
+DL,EDGE,1,Quincy Byas,SO,returning,66.2/287; EM Def Newcomer OY as true FR; 3 st 23 tkl 3 sk
+DL,EDGE,2,Marvell Eggleston,SO,returning,60.7/17
+LB,WLB,1,Barry Manning,SR,returning,RETURNING STARTER; 60.1/661; 10 st 73 tkl 5.5 tfl (#2 tklr); yr4 override; roster lists DB
+LB,WLB,2,Jonah Flowers,JR,transfer:JC,103 tkl at JC L2Y
+LB,MLB,1,Zach Mowchan,SR,returning,53.1/304; injury-battled 2 seasons; yr4 override
+LB,MLB,2,Elgin McDuffey,JR,transfer:JC,86 tkl at JC L2Y; Athlon #10 recruit
+LB,LB,3,Bryce Eliuk,SR,returning,59.0/164
+DB,S,1,Bryce Llewellyn,SR,returning,RETURNING STARTER; 71.7/716; 2nd-Tm All-MAC; team MVP; 102 tkl; yr4 override
+DB,S,2,Ray Hester,JR,returning,60.1/30
+DB,BAN,1,Jason Marshall,SR,returning,59.6/479; 4 st 64 tkl; yr4 override
+DB,BAN,2,Davion Williams,SR,transfer:Charleston Southern,FCS 20 gm 91 tkl '23-24; DNP at EMU LY (PS)
+DB,FS,1,Juan Salas,SR,returning,RETURNING STARTER (Athlon bold); 55.7/322; 6 st 34 tkl; PR1
+DB,FS,2,Tylan Boykin,FR,returning,45.9/20; rFr
+DB,CB,1,Caleb Coley,SR,returning,64.2/204; ex-Michigan St '23-24; 'full-time starter' now
+DB,CB,2,Jordan Toney,SO,returning,OFY (inj) LY; 1 st '24
+DB,CB,1,Caleb Dobbs,JR,returning,59.1/286; 3 st 13 tkl
+DB,CB,2,Donmiel Rogers,SO,returning,50.5/185; 3 st as true
+DB,NB,3,Jaivian Norman,SR,returning,57.7/264; 8 st 40 tkl L2Y
+ST,K,1,Rudy Kessinger,SO,returning,RETURNING; 17-23 FG L/50 28-28 PAT as rFr; 8-14 from 40+
+ST,P,1,Daniel Hull,JR,returning,orig Missouri; 1 gm '24, DNP LY; PS#94 - battle
+ST,P,1,Adam Samaha,JR,transfer:Akron,PS P#13; Michigan '23 (1 gm) -> Akron (DNP LY); battle
+ST,KR,1,Benson Prosper,SR,returning,per Athlon
+ST,PR,1,Juan Salas,SR,returning,per Athlon
