@@ -1,0 +1,56 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Dante Moore,JR,returning,RETURNING STARTER; 90.2/480; Heisman favorite
+QB,QB,2,Dylan Raiola,JR,transfer:Nebraska,62.4/305; stayed after Moore's return
+QB,QB,3,Akili Smith Jr.,FR,returning,rFr; PS#9 '25
+RB,RB,1,Jordon Davison,SO,returning,89.1/113; 667 @ 5.9; 15 TD
+RB,RB,2,Dierre Hill Jr.,SO,returning,90.8/74; 656 @ 8.7 (nation-best ypc)
+RB,RB,3,Tradarian Ball,FR,recruit,Top100; PS#4
+RB,RB,3,Simeon Price,JR,transfer:Colorado,69.7/21
+WRTE,WR,1,Dakorien Moore,SO,returning,RETURNING STARTER; 74.5/235; #1 WR recruit '25
+WRTE,WR,2,Gatlin Bair,FR,recruit,5*
+WRTE,WR,1,Iverson Hooks,SR,transfer:UAB,82.3/356; ~900 yds
+WRTE,WR,2,Jalen Lott,FR,recruit,5*
+WRTE,WR,1,Jeremiah McClellan,SO,returning,RETURNING STARTER; 71.8/275
+WRTE,WR,2,Evan Stewart,SR,returning,yr4 medical override RETURNS; 5*; 613 yds '24; no '25 tape
+WRTE,TE,1,Jamari Johnson,JR,returning,RETURNING STARTER; 78.1/208; 'matching Sadiq' late
+WRTE,TE,2,Andrew Olesh,SO,transfer:Penn State,Top50
+WRTE,TE,3,Kendre Harrison,FR,recruit,Top50
+OL,LT,1,Fox Crader,SO,returning,61.1/138; battle w/ Addison
+OL,LT,2,Ziyare Addison,FR,returning,Top100
+OL,LG,1,Dave Iuli,SR,returning,RETURNING STARTER; 61.9/907; 3rd-yr starter
+OL,LG,2,Kawika Rogers,SR,returning,67.7/108
+OL,C,1,Iapani Laloulu,SR,returning,RETURNING STARTER; 69.1/884; 1st-tm AA (PS)
+OL,C,2,Bryce Boulton,JR,returning,
+OL,RG,1,Douglas Utu,FR,returning,56.4/10
+OL,RG,2,Demetri Manning,FR,recruit,
+OL,RT,1,Michael Bennett III,SR,transfer:Yale,Ivy; veteran challenge group
+OL,RT,2,Gernorris Wilson,JR,returning,56.4/171
+DL,DE,1,Matayo Uiagalelei,SR,returning,RETURNING STARTER; 82.2/726; led B10 sacks '24
+DL,DE,2,Aydin Breland,SO,returning,Top200
+DL,DT,1,Bear Alexander,SR,returning,RETURNING STARTER; 73.3/581
+DL,DT,2,Matthew Johnson,FR,returning,
+DL,DT,1,A'Mauri Washington,SR,returning,RETURNING STARTER; 80.0/656; NFL-caliber (PS)
+DL,DT,2,D'Antre Robinson,JR,transfer:North Carolina,67.7/377; UNC starter
+DL,EDGE,1,Teitum Tuioti,SR,returning,RETURNING STARTER; 83.8/705; 5.5 sk
+DL,EDGE,2,Nasir Wyatt,SO,returning,Top200
+DL,EDGE,3,Elijah Rushing,SO,returning,5*; 51.1/73
+DL,EDGE,3,Markus Dixon,SO,transfer:Clemson,PS#29
+LB,ILB,1,Jerry Mixon,SR,returning,RETURNING STARTER; 72.9/560; breakout '25
+LB,ILB,2,Gavin Nix,FR,returning,72.4/45
+LB,ILB,1,Devon Jackson,SR,returning,66.1/370; Top100; sprinter speed
+LB,ILB,2,Brayden Platt,SO,returning,55.0/30
+DB,CB,1,Brandon Finney Jr.,SO,returning,RETURNING STARTER; 78.9/694; FR All-America
+DB,CB,2,Aaron Scott Jr.,JR,transfer:Ohio State,64.8/106; 5*
+DB,CB,1,Ify Obidegwu,SO,returning,RETURNING STARTER; 67.7/423
+DB,CB,2,Na'eem Offord,SO,returning,58.2/245; 5*; breakout flag
+DB,NB,1,Carl Williams IV,JR,transfer:Baylor,nickel
+DB,NB,2,Zach Grisham,SR,returning,
+DB,S,1,Koi Perich,JR,transfer:Minnesota,61.0/789 ('25 slump); 2x All-B10; #1 transfer S
+DB,S,2,Peyton Woodyard,JR,returning,72.4/172
+DB,S,1,Aaron Flowers,SO,returning,RETURNING STARTER; 68.0/741
+DB,S,2,Trey McNutt,FR,recruit,5*
+ST,K,1,Keaton Emmett,SO,transfer:Nevada,battle w/ Hurych/Graziano
+ST,P,1,Bailey Ettridge,SO,transfer:unknown,Athlon print; NOT in feed (gap - news.md)
+ST,LS,1,RJ Todd,JR,transfer:unknown,Athlon print; NOT in feed (gap - news.md)
+ST,KR,1,Koi Perich,JR,transfer:Minnesota,
+ST,PR,1,Dakorien Moore,SO,returning,

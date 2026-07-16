@@ -1,0 +1,32 @@
+{
+ "team": "Oregon",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T16:15:42+00:00",
+ "assembler_git_rev": "481a745",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Lanning yr 5 (extension). Both coordinators left for HC jobs: OC Mehringer promoted internally, DC Hampton (Tulane) in; STC Lorig retained. x1.13 does NOT apply.",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": ["Evan Stewart"],
+ "nfl_declare_confirmed": ["Dillon Thieneman", "Kenyon Sadiq"],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Trey Mcnutt": "Trey McNutt"
+ },
+ "feed_gap_arrivals_documented": ["Bailey Ettridge (P - Athlon print, absent from feed)", "RJ Todd (LS - Athlon print, absent from feed)"],
+ "position_notes": {
+  "Jadon Canady": "NB - counted DB; yr4 expires (rd-4 KC)",
+  "Markus Dixon": "Clemson EDGE (feed) - PS's WR-paragraph mention was OCR bleed, excluded from WRTE",
+  "Teitum Tuioti": "roster feed lists LB; PFF classifies DL edge - counted DL (starting front)"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "LT battle (Crader vs Addison); RG (FR Utu)",
+  "K battle (Emmett vs Hurych/Graziano)",
+  "Perich 2025-slump vs 2024-form recovery"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

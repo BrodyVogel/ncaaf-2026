@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Dan",
+  "lastName": "Lanning",
+  "hireDate": "2021-12-11T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Oregon",
+    "year": 2024,
+    "games": 14,
+    "wins": 13,
+    "losses": 1,
+    "ties": 0,
+    "preseasonRank": 3,
+    "postseasonRank": 3,
+    "srs": 17.1,
+    "spOverall": 26,
+    "spOffense": 40.8,
+    "spDefense": 16.3
+   }
+  ]
+ },
+ {
+  "firstName": "Dan",
+  "lastName": "Lanning",
+  "hireDate": "2021-12-11T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Oregon",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 22.1,
+    "spOverall": 25.9,
+    "spOffense": 38.7,
+    "spDefense": 13.5
+   }
+  ]
+ }
+]
