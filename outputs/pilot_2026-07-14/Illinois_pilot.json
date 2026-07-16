@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T14:33:13+00:00",
+ "team": "Illinois",
+ "final": 5.75,
+ "rank": 41,
+ "band": 6.18,
+ "resid": -9.71,
+ "adj": -3.4,
+ "class_term": -0.0,
+ "st": -0.4,
+ "anchor_blend": 9.03,
+ "resid_level": -4.62,
+ "resid_shape": -5.09,
+ "implied_off": 23.96,
+ "implied_def": 25.13,
+ "anchor_off": 31.37,
+ "anchor_def": 22.83,
+ "fit_r2": {
+  "off": 0.544,
+  "dfn": 0.614
+ },
+ "low_conf_units": 1,
+ "code_rev": "009359a",
+ "mode": "PILOT-OOS"
+}
