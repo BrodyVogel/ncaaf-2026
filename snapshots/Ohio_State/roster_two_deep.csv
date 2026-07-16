@@ -1,0 +1,55 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Julian Sayin,SO,returning,RETURNING STARTER; 92.9/438; Heisman finalist; NCAA-record 78.4%
+QB,QB,2,Tavien St. Clair,FR,returning,PS#3 '25 recruit; 50.7/2
+QB,QB,3,Justyn Martin,SR,transfer:Maryland,depth add
+RB,RB,1,Bo Jackson,SO,returning,RETURNING STARTER; 86.6/178; 1090 @ 6.1 as FR
+RB,RB,2,Isaiah West,SO,returning,76.5/59; 310 @ 5.3
+RB,RB,3,Ja'Kobi Jackson,JR,transfer:Florida,67.0/27; 509 @ 5.4 in '24
+RB,ATH,3,Legend Bey,FR,recruit,Top100; Tyreek/Samuel comps (Day)
+WRTE,WR,1,Jeremiah Smith,JR,returning,RETURNING STARTER; 90.7/362; unanimous AA; 1243/12
+WRTE,WR,2,Phillip Bell,FR,recruit,
+WRTE,WR,1,Brandon Inniss,SR,returning,RETURNING STARTER; 63.4/267; 5*
+WRTE,WR,2,Kyle Parker,JR,transfer:LSU,62.9/249
+WRTE,WR,1,Chris Henry Jr.,FR,returning,5*; spring surge to #2
+WRTE,WR,2,Devin McCuin,SR,transfer:UTSA,77.7/322; All-AAC 65/726
+WRTE,TE,1,Nate Roberts,SO,returning,Top200; 'spring hero' (P6)
+WRTE,TE,2,Hunter Welcing,SR,transfer:Northwestern,61.0/203; all-league at NU
+WRTE,TE,3,Mason Williams,SO,transfer:Ohio,74.4/164; All-MAC
+OL,LT,1,Austin Siereveld,JR,returning,RETURNING STARTER; 83.5/810; zero sacks allowed; AA shot
+OL,LT,2,Sam Greer,FR,recruit,4*
+OL,LG,1,Luke Montgomery,SR,returning,RETURNING STARTER; 73.4/837; All-B10
+OL,LG,2,Jake Cook,FR,recruit,
+OL,C,1,Carson Hinzman,SR,returning,RETURNING STARTER; yr4 override RETURNS; 73.6/841
+OL,C,2,Joshua Padilla,JR,returning,73.7/128
+OL,RG,1,Phillip Daniels,JR,returning,RETURNING STARTER; 66.1/761; All-B10
+OL,RG,2,Gabe VanSickle,SO,returning,59.5/154
+OL,RT,1,Ian Moore,SO,returning,69.7/150; 'spring hero' 5th-spot battle
+OL,RT,2,Carter Lowe,FR,returning,
+DL,DE,1,Kenyatta Jackson Jr.,SR,returning,RETURNING STARTER (only one); 72.7/549
+DL,DE,2,Beau Atkinson,SR,returning,feed yr4 - print noise; 51.9/214 (news.md)
+DL,DT,1,Eddrick Houston,JR,returning,59.6/324; 5*; breakout flag (P6)
+DL,DT,2,Jason Moore,JR,returning,
+DL,DT,1,James Smith,SR,transfer:Alabama,55.3/422; ex-5*; 4* transfer grade
+DL,DT,2,John Walker,JR,transfer:UCF,70.7/495; Top100
+DL,DE,1,Zion Grady,SO,returning,74.8/104
+DL,DE,2,Qua Russaw,JR,transfer:Alabama,67.6/215; ex-5*
+DL,DT,3,Will Smith Jr.,JR,returning,72.6/224
+LB,MLB,1,Payton Pierce,JR,returning,82.2/263; PS#14; 43 tkl
+LB,MLB,2,Cincere Johnson,FR,recruit,5*; #1 LB of 2026
+LB,WLB,1,Christian Alliegro,SR,transfer:Wisconsin,62.3/449; #3 LB transfer (P6)
+LB,WLB,2,Riley Pettijohn,SO,returning,66.6/77; Top100
+LB,LB,3,TJ Alford,SO,returning,Top100; spring standout (P6)
+DB,CB,1,Jermaine Mathews Jr.,SR,returning,RETURNING STARTER; 62.2/695; 'top corner' role
+DB,CB,2,Dominick Kelly,SO,transfer:Georgia,58.2/61
+DB,CB,1,Devin Sanchez,SO,returning,60.8/323; 5*; 'next #1 DC' (PS)
+DB,CB,2,Cam Calhoun,JR,transfer:Alabama,60.6/51
+DB,NB,1,Earl Little Jr.,SR,transfer:Florida State,69.1/674; 2nd-tm ACC '24
+DB,NB,2,Miles Lockhart,SO,returning,
+DB,SS,1,Jaylen McClain,JR,returning,RETURNING STARTER; 78.1/708; star potential
+DB,SS,2,Blaine Bradford,FR,recruit,Top100
+DB,FS,1,Terry Moore,SR,transfer:Duke,2nd-tm ACC '24
+DB,FS,2,Leroy Roker III,SO,returning,70.2/82
+ST,K,1,Connor Hawkins,SO,transfer:Baylor,'top notch' (PS)
+ST,P,1,Joe McGuire,JR,returning,42.1/41.2 net; 29 punts
+ST,KR,1,Legend Bey,FR,recruit,
+ST,PR,1,Brandon Inniss,SR,returning,

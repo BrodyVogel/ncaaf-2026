@@ -1,0 +1,44 @@
+{
+ "team": "Ohio State",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T16:04:52+00:00",
+ "assembler_git_rev": "a427a39",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Day yr 8 (extension). DC Patricia yr 2 RETAINED. NEW OC Arthur Smith (ex-NFL HC). x1.13 does NOT apply.",
+ "portal_departure_confirmed": [
+  "Mason Maggs",
+  "Ty Howard"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Carson Hinzman",
+  "Kenyatta Jackson Jr."
+ ],
+ "nfl_declare_confirmed": [
+  "Carnell Tate",
+  "Caleb Downs",
+  "Arvell Reese",
+  "Kayden McDonald",
+  "Max Klare"
+ ],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Jaylen McClain": "Jaylen McClain"
+ },
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Lorenzo Styles Jr.": "NB - counted DB; yr4 expires",
+  "Beau Atkinson": "Athlon prints him DE2 (Sr.) but feed yr4 expires him - feed governs, print noise (51.9/214)",
+  "Legend Bey": "FR ATH - slot/H/KR hybrid; counted RB room per P6 usage"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "5th OL spot (Padilla/Moore/VanSickle)",
+  "LB starting pair beyond Pierce",
+  "T.Moore's 2025 volume at Duke (not in csv top rows)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

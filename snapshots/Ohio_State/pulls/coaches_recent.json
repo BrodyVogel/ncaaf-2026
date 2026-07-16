@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Ryan",
+  "lastName": "Day",
+  "hireDate": "2018-12-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Ohio State",
+    "year": 2024,
+    "games": 16,
+    "wins": 14,
+    "losses": 2,
+    "ties": 0,
+    "preseasonRank": 2,
+    "postseasonRank": 1,
+    "srs": 24.6,
+    "spOverall": 31.2,
+    "spOffense": 39.5,
+    "spDefense": 9.2
+   }
+  ]
+ },
+ {
+  "firstName": "Ryan",
+  "lastName": "Day",
+  "hireDate": "2018-12-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Ohio State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 26.6,
+    "spOverall": 30.1,
+    "spOffense": 37.6,
+    "spDefense": 7.7
+   }
+  ]
+ }
+]
