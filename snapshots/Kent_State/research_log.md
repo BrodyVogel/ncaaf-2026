@@ -40,3 +40,8 @@
 - 2026-07-16 planned grades set; G5 guard N/A (max 32).
 - 2026-07-16 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-16 grades.json written + schema-validated (8/8); gates re-run clean.
+- 2026-07-16 pilot_readout: FINAL -19.77 (r136/138), band ±6.00 (zero-L again;
+  coach 1.0; dispersion 1.00). resid +5.50 = level +11.46 (round-max fade of a
+  round-worst anchor blend -21.69) + shape -5.96. Grades warmer than anchors
+  on the defense by 3.50 (EMU pattern - anchors price the 1-23-era tape).

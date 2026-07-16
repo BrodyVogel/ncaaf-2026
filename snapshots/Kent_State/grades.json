@@ -1,0 +1,213 @@
+{
+ "team": "Kent State",
+ "units": {
+  "QB": {"grade": 32, "confidence": "M"},
+  "RB": {"grade": 10, "confidence": "M"},
+  "WRTE": {"grade": 26, "confidence": "M"},
+  "OL": {"grade": 12, "confidence": "M"},
+  "DL": {"grade": 22, "confidence": "M"},
+  "LB": {"grade": 14, "confidence": "M"},
+  "DB": {"grade": 18, "confidence": "M"},
+  "ST": {"grade": 26, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (e7b5480)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines. Second straight zero-L build (rooms are thin but well-evidenced)."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 9, RB None, WRTE None, OL 2, DL 9, LB 23, DB 1, ST 13) - items #31-32 on the running artifact list",
+   "LB": "-9 vs proxy 23 (proxy COUNTS departed walk-on CJ Young 74.3/563 - no feed entry for his departure; the counts-departed artifact in its purest form)",
+   "DB": "+17 vs proxy 1 (proxy expires feed-yr4-ERROR Jackson III, a 2024 true freshman)",
+   "QB": "+23 vs proxy 9 (proxy dilutes returning DeShields with departed Montes/Kargman rows)",
+   "ST": "+13 vs proxy 13 (proxy cannot see the returning All-MAC return duo)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Kent State",
+   "unit": "QB",
+   "grade": 32,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Akron QB 2026 (34, this round)",
+    "Ball State QB 2026 (18, this round)"
+   ],
+   "rationale_bullets": [
+    "DeShields returns after being kept out of the portal: 2,030 @ 56.7%, 18-3 TD/INT, 9 starts as a first-year starter (60.6/300).",
+    "The RATIO flatters the tape: 60.6 raw (-10 MAC = 50.6-equiv) is a modest process grade, earned behind the WORST pass-blocking grade in FBS (PBLK p0) - context that both masked and stressed him.",
+    "Print superlatives are real ('one of the MAC's top QBs' - PS; 'doesn't turn the football over, ever' - opposing coach) and he is another year off 3 prior ACLs.",
+    "32, M: below CMU 38/EMU 40 on raw-grade evidence, a hair under Akron's 34, far above Ball State's empty-room 18."
+   ],
+   "key_players": [
+    {"name": "Dru DeShields", "role": "QB1 (returning starter)", "evidence": "60.6/300; 2,030 @ 56.7%, 18-3; 9 st"},
+    {"name": "Ethan Thanthanavong", "role": "QB2 (transfer, NAIA Defiance)", "evidence": "1,466 @ 66%, 10-6; no cell"}
+   ],
+   "data_gaps": ["ACL history", "ratio-vs-grade divergence"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kent State",
+   "unit": "RB",
+   "grade": 10,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Ball State RB 2026 (8, this round)",
+    "Eastern Michigan RB 2026 (14, this round)"
+   ],
+   "rationale_bullets": [
+    "Top 3 rushers gone (997 combined): Garcia 77.1/145 (647 yds) GONE-adjudicated, Nubin expired.",
+    "Four-way battle with zero returning production: Caffey (2 career gm at Cincinnati), FCS King (883 @ 6.6 - in 2023), Delaney 49.1/15, true FR White, NAIA Armentrout.",
+    "RUN graded p6 as played WITH the departed starter; Athlon: 'the most uncertainty heading into the season.'",
+    "10: above Ball State's 8 on import count alone; below EMU's 14 (Bennett's pedigree beats this pool)."
+   ],
+   "key_players": [
+    {"name": "Jakorion Caffey", "role": "RB1 candidate (transfer, Cincinnati)", "evidence": "51.0/2; 2 gm as rFr; PS#94"},
+    {"name": "Mason King", "role": "RB1 candidate (transfer, FCS Illinois St)", "evidence": "883 @ 6.6 in 2023 - old tape"}
+   ],
+   "data_gaps": ["no RB1 from spring", "zero returning 40-carry backs"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kent State",
+   "unit": "WRTE",
+   "grade": 26,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Central Michigan WRTE 2026 (28, this round)",
+    "Buffalo WRTE 2026 (22, this round)"
+   ],
+   "rationale_bullets": [
+    "RECV graded p82 - the team's one good unit tape - and four contributors return: W.Harris 66.7/257 (383 yds, led team in receptions as rFr), Mulder TE 71.5/120 ('All-MAC candidate', 19-198-4), Banks 64.4/103 (205 @ 17.1), Clark 67.0/47 (larger WR role planned).",
+    "Loses the top two by yardage: Wolford 80.3/143 (509 @ 26.8) -> Cincinnati, Martin 72.1/230 (507) -> Virginia.",
+    "Offsets put the returning four at 57-65-equiv - mid-grade depth without an all-conference WR.",
+    "26: four returning mid pieces beat Buffalo's one-anchor 22; one tick under CMU/Akron 28 (their anchors out-grade anyone here)."
+   ],
+   "key_players": [
+    {"name": "Wayne Harris", "role": "slot WR1 (returning starter)", "evidence": "66.7/257; 383 @ 10.8; big spring per Athlon"},
+    {"name": "Terik Mulder", "role": "TE1 (returning)", "evidence": "71.5/120; 19-198-4; All-MAC candidate"},
+    {"name": "Da'Realyst Clark", "role": "WR (returning KR star)", "evidence": "67.0/47; 108 @ 36.0 receiving"}
+   ],
+   "data_gaps": ["no returning 400-yd receiver"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kent State",
+   "unit": "OL",
+   "grade": 12,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Ball State OL 2026 (12, this round)",
+    "Bowling Green OL 2026 (10, this round)"
+   ],
+   "rationale_bullets": [
+    "PBLK graded p0 - the worst pass-blocking grade in FBS - and RBLK p26, largely with this personnel.",
+    "Three returning starters is quantity without quality: Morell 64.4/470 (28 career starts - the one solid grade), Dunn 60.4/568 (INJURED IN SPRING, '? for 26' per PS), Meadows 37.6/426 (the round's worst returning-starter grade, at LT).",
+    "Imports are FCS-level: Midea (St Francis 9 st), Adewole (Robert Morris 12 st), Imbt (SFU 3rd-Tm NEC '24, DNP '25 - feed-gap). Departed: Masterson/Diallo -> Tennessee Tech, Rivera -> California.",
+    "12 = Ball State 12: three starters back mirrors their frozen room almost exactly (similar raw grades, full volume); Dunn's health is the downside tail."
+   ],
+   "key_players": [
+    {"name": "Dustyn Morell", "role": "RG1 (returning starter)", "evidence": "64.4/470; 28 career starts"},
+    {"name": "Tyler Meadows", "role": "LT1 (returning starter)", "evidence": "37.6/426; 7 st as a true FR"},
+    {"name": "Jaxon Dunn", "role": "G (returning; injury monitor)", "evidence": "60.4/568; 8 st as rFr; spring injury '? for 26'"}
+   ],
+   "data_gaps": ["Dunn spring injury", "FBS-worst pass-pro tape"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kent State",
+   "unit": "DL",
+   "grade": 22,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Central Michigan DL 2026 (24, this round)",
+    "Eastern Michigan DL 2026 (18, this round)"
+   ],
+   "rationale_bullets": [
+    "~1,850 returning snaps of real rotation: Aden 67.7/392 (ex-Pitt, 9 st, the 'Grandfather'), Blachewicz 69.2/214 (21 tkl as a TRUE FR - the riser), Roy 62.5/310 + Bottiggi 63.1/121 (3rd-year program edges), Maddox, J.Cordoba, Burgess.",
+    "The best player left for P4: Mathis 84.5/453 -> Texas Tech; four yr4 rotation bodies also expired (~1,450 snaps).",
+    "Rush D improved 265 -> 191 ypg in year 1 of the 'Darkside' scheme; adds Bridgeman (ex-Michigan/MSU - feed-gap, MSU loop closed) + RMU's Wilborn (51 tkl).",
+    "22: more returning quality than EMU's 18, less than CMU's 24; nothing returning grades above 62-equiv."
+   ],
+   "key_players": [
+    {"name": "Thomas Aden", "role": "NT1 (returning starter)", "evidence": "67.7/392; 9 st; ex-Pitt"},
+    {"name": "Darian Blachewicz", "role": "DT (returning riser)", "evidence": "69.2/214; 21 tkl, 3.5 tfl as true FR"},
+    {"name": "Jaihien Roy", "role": "DE1 (returning)", "evidence": "62.5/310; 3rd-year program riser"}
+   ],
+   "data_gaps": ["no returning high-end piece post-Mathis"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kent State",
+   "unit": "LB",
+   "grade": 14,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Central Michigan LB 2026 (14, this round)",
+    "Buffalo LB 2026 (12, this round)"
+   ],
+   "rationale_bullets": [
+    "Loses ~1,530 snaps of its top three tacklers: Woods 63.8/616 (#1) expired, walk-on Young 74.3/563 (#2) research-GONE, C.Williams 68.9/349 (#6) GONE - from a unit already 125th in total defense.",
+    "Nicholl boomerangs (KSU '24: 8 st, 61 tkl -> USF '25: 77.8 on 42 snaps -> back; 'one of the leaders') - his local starter history is the room's best evidence.",
+    "Abuhamdeh 56.3/327 is the top returnee (44-equiv); Kentucky's Dawahare (85.9/9) and Coastal's Gregory are tiny-sample pedigree.",
+    "14 = CMU 14: a real name + a mid returnee beats Buffalo's all-import 12; nowhere near BGSU's 30."
+   ],
+   "key_players": [
+    {"name": "Rocco Nicholl", "role": "LB1 (boomerang transfer, USF)", "evidence": "8 st, 61 tkl at KSU '24; 77.8/42 at USF"},
+    {"name": "Sayed Abuhamdeh", "role": "LB (returning)", "evidence": "56.3/327; 38 tkl"},
+    {"name": "Hayden Dawahare", "role": "LB (transfer, Kentucky)", "evidence": "85.9/9 - tiny sample"}
+   ],
+   "data_gaps": ["top-3 tackler exodus", "import samples tiny"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kent State",
+   "unit": "DB",
+   "grade": 18,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Ball State DB 2026 (14, this round)",
+    "Central Michigan DB 2026 (22, this round)"
+   ],
+   "rationale_bullets": [
+    "Both true-FR safeties return as sophs with real volume: Jackson III 57.1/575 (7 st, 49 tkl; feed-yr4 ERROR overridden - he was a 2024 true freshman) + J.Cordoba 50.3/552 (8 st, 68 tkl).",
+    "The two best coverage grades left (Rawlinson 66.1/692 -> WVU via name-form research fix; Miller 65.0/522 expired) from a COV-p7 unit; nickel Barnes graded 47.5 on 70% of snaps.",
+    "Corners all new: Muhammad 60.9/260 (5 st) vs Pitt transfer Pritchard (64.1/10) vs FRs - 'a learning curve there' (Athlon).",
+    "18: the soph-S volume keeps it off the Ball State floor; the year-2 jump is projection, not tape."
+   ],
+   "key_players": [
+    {"name": "Derrick Jackson III", "role": "S1 (returning starter; yr4 feed-error override)", "evidence": "57.1/575; 7 st, 49 tkl as true FR"},
+    {"name": "Joel Cordoba", "role": "S1 (returning starter)", "evidence": "50.3/552; 8 st, 68 tkl as true FR"},
+    {"name": "Davion Pritchard", "role": "CB (transfer, Pittsburgh)", "evidence": "64.1/10 at Pitt"}
+   ],
+   "data_gaps": ["corners unresolved", "experience is true-FR-grade tape"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Kent State",
+   "unit": "ST",
+   "grade": 26,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Central Michigan ST 2026 (26, this round - proven P #14)",
+    "Eastern Michigan ST 2026 (24, this round - proven K)"
+   ],
+   "rationale_bullets": [
+    "The round's best return duo, both back: Clark (1st-Tm All-MAC returner, 28.3 KR avg, 2 KR TDs per Athlon) + W.Harris (MAC-best 13.2 PR avg + a PR TD) - three return TDs of demonstrated value.",
+    "Kicking rebuilt from scratch: K Hryszko (8-11) -> OHIO (MAC-internal flag), P Durkin -> Rice; Aussie Stoeckel (31.4 on 9 punts) 'regained the top spot' vs D2 Ford (39.4, feed-gap); 3-way K battle led by rFr Leonard (PS #31).",
+    "SPEC graded p12 overall despite the return stars - coverage/kicking dragged it.",
+    "26 = CMU 26: elite proven returners offset the empty kicking jobs; PS expects 'a solid climb.'"
+   ],
+   "key_players": [
+    {"name": "Da'Realyst Clark", "role": "KR1 (returning)", "evidence": "1st-Tm All-MAC returner; 28.3; 2 KR TDs"},
+    {"name": "Wayne Harris", "role": "PR1 (returning)", "evidence": "MAC-best 13.2 + PR TD"}
+   ],
+   "data_gaps": ["3-way K battle", "P job between a 31.4-avg holdover and a D2 import"],
+   "g5_guard_note": null
+  }
+ ]
+}

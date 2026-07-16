@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T21:06:13+00:00",
+ "team": "Kent State",
+ "final": -19.77,
+ "rank": 136,
+ "band": 6.0,
+ "resid": 5.5,
+ "adj": 1.93,
+ "class_term": 0.0,
+ "st": -0.48,
+ "anchor_blend": -21.69,
+ "resid_level": 11.46,
+ "resid_shape": -5.96,
+ "implied_off": 17.11,
+ "implied_def": 32.79,
+ "anchor_off": 15.11,
+ "anchor_def": 36.29,
+ "fit_r2": {
+  "off": 0.533,
+  "dfn": 0.609
+ },
+ "low_conf_units": 0,
+ "code_rev": "e7b5480",
+ "mode": "PILOT-OOS"
+}
