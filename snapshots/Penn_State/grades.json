@@ -1,0 +1,177 @@
+{
+ "team": "Penn State",
+ "units": {
+  "QB": {"grade": 74, "confidence": "H"},
+  "RB": {"grade": 68, "confidence": "M"},
+  "WRTE": {"grade": 58, "confidence": "M"},
+  "OL": {"grade": 58, "confidence": "M"},
+  "DL": {"grade": 60, "confidence": "M"},
+  "LB": {"grade": 68, "confidence": "M"},
+  "DB": {"grade": 70, "confidence": "M"},
+  "ST": {"grade": 66, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (5cceb68)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines; the C.Coleman 81.1/150 ledger catch was folded into the DL dossier pre-freeze and does not move the 60 (he is a departure - it reinforces the no-proven-edge case)."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 84, RB 73, WRTE 60, OL 78, DL 57, LB 65, DB 78, ST 91)",
+   "QB": "-10 vs proxy 84 (proxy rides Becht's raw arrival tape; grade tempers for the down-year raw line, thin depth, league jump)",
+   "OL": "-20 vs proxy 78 (proxy counts the four DEPARTED starters - Ioane/Rucci/Shelton/Dawkins; the live line has one returning starter and a no-tape FR at LT)",
+   "DB": "-8 vs proxy 78 (proxy counts departed Wheatley 85.9/658 and Mack 79.0/493)",
+   "ST": "-25 vs proxy 91 (proxy is as-played SPEC with the departed punter; K/coverage elite, P unknown)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Penn State", "unit": "QB", "grade": 74, "confidence": "H",
+   "bracketing_exemplars": ["South Carolina QB 2025 (p75 ref, 81.1)", "Rutgers QB 2025 (p90 ref, 89.3)"],
+   "rationale_bullets": [
+    "Becht arrives as 'the most experienced FBS quarterback' (Athlon): 39 career starts, 26 wins, 2,500+ snaps; 2nd in P4 career yardage, 3rd in passing TD (P6). His down-year 2025 (2,584 @ 60.5%, 16-9) still tape-graded 80.0 PFF/409 (B12 +6 -> 86.0, ~p82 tape).",
+    "The continuity is unique for a coach-change build: his OC (Mouser), top two WRs, top two TEs, and RB all transferred with him - the scheme install risk that normally taxes a new-HC QB is largely pre-paid.",
+    "The tempering: 'his deep ball is excellent, but he'll need to hit the shorter lay-ups with more consistency' (P6); a genuine down year by raw line; offseason surgery on the NON-throwing shoulder limited spring (VR-headset reps - Athlon).",
+    "Depth is thin: Manske (64.6/8, came from Ames) and FR Falzone behind him.",
+    "74, H = the third QB situation of the B10 round (Sayin 91, Moore 89 clear; Indiana 70 below): a 39-start veteran with top-quintile adjusted tape, graded under his tape percentile for the raw-line dip and the B12->B10 jump."
+   ],
+   "key_players": [
+    {"name": "Rocco Becht", "role": "QB1 (transfer, Iowa State)", "evidence": "80.0 PFF/409 2025 at ISU (B12 +6 -> 86.0); 39 career starts, 26 wins"},
+    {"name": "Alex Manske", "role": "QB2 (transfer, Iowa State)", "evidence": "64.6/8 2025; followed Becht from Ames"}
+   ],
+   "data_gaps": ["shoulder rehab (non-throwing) - limited spring", "no B10 tape"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Penn State", "unit": "RB", "grade": 68, "confidence": "M",
+   "bracketing_exemplars": ["Memphis RB 2025 (p50 ref, 76.9)", "Auburn RB 2025 (p75 ref, 83.4)"],
+   "rationale_bullets": [
+    "The record duo is gone - Allen (89.7/210; school rushing record 4,180; All-American; rd-6 WAS) + Singleton (school TD record 45) - and the staff imported a complete replacement pair.",
+    "Hansen (77.9/188 at ISU, B12 +7 -> 84.9): 952 @ 5.1, All-B12 2nd team, 'between-the-tackles workhorse' (P6) - Becht's own back, in Mouser's power-run scheme.",
+    "Peoples (76.3/62 at Ohio State; Top100; 'home-run explosiveness' - P6) + returning Martin (62.4/20; bowl star 20-103; PS#3 '24 recruit) + Wallace (Withdrawn override STAYS).",
+    "PS: 'this unit remains strong despite the loss of two career-leading RBs.'",
+    "68, M: weighted aggregate ~80 (~p78 tape) discounted for modest samples (188 B12 att + 62 OSU att) and the line rebuild in front of them."
+   ],
+   "key_players": [
+    {"name": "Carson Hansen", "role": "RB1 (transfer, Iowa State)", "evidence": "77.9 PFF/188 att; 952 @ 5.1, All-B12 2nd tm 2025"},
+    {"name": "James Peoples", "role": "RB2 (transfer, Ohio State)", "evidence": "76.3/62 2025; Top100 recruit"},
+    {"name": "Quinton Martin Jr.", "role": "RB3/KR (returning)", "evidence": "62.4/20; 20-103 Pinstripe; PS#3 PA recruit '24"}
+   ],
+   "data_gaps": ["Hansen behind a rebuilt line", "Peoples volume unproven"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Penn State", "unit": "WRTE", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50 anchor, 66.4)", "Oklahoma WRTE 2025 (p75 ref, 70.4)"],
+   "rationale_bullets": [
+    "P6's structural frame: 'this position has held back the Penn State offense for several years and it's another restart after last year's top four all departed' (Pena 75.0/288, Ross 70.3/246, Hudson 59.0/262 all yr4; Reynolds -> VT).",
+    "The counter is chemistry: Becht's own top targets came with him - C.Sowell (65.6/264 -> 68.6; three straight 500-yd seasons, B12 Newcomer) + Eskildsen (66.6/263 -> 69.6; led ISU with 526/5).",
+    "The TE room is the strength: Brahmer (65.7/298 -> 68.7; #2 TE transfer, Mackey semifinalist, 6'7 - 'will continue the program's recent string of draft picks' - Athlon) + Burkle (58.9/195 -> 61.9) + returning Top100 Rappleyea (63.0/139).",
+    "No alpha anywhere in the room; Howard (63.8/84, ex-4*) is the top returning WR tape.",
+    "58, M: weighted aggregate ~66.5 sits ON the Nebraska-50 anchor (66.4); graded up to 58 for the TE depth, the QB-familiarity carryover, and proven mid-tier volume across five bodies."
+   ],
+   "key_players": [
+    {"name": "Chase Sowell", "role": "WR1 (transfer, Iowa State)", "evidence": "65.6 PFF/264 routes; 3 straight 500-yd seasons"},
+    {"name": "Benjamin Brahmer", "role": "TE1 (transfer, Iowa State)", "evidence": "65.7/298; Mackey semifinalist; #2 TE transfer"},
+    {"name": "Brett Eskildsen", "role": "WR2 (transfer, Iowa State)", "evidence": "66.6/263; ISU-leading 526 yds/5 TD 2025"}
+   ],
+   "data_gaps": ["no proven alpha", "ISU FRs (Brookins/Robinson) unscouted at volume"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Penn State", "unit": "OL", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Michigan OL 2025 (p50 ref, 65.5)", "Louisville OL 2025 (p75 ref, 71.2)"],
+   "rationale_bullets": [
+    "Four starters and 122 career starts left - Ioane (79.6/614; FIRST-ROUND; yr3 declare override), Shelton (70.6/721; rd-4), Dawkins (70.3/723), Rucci (75.3/611) - taking the as-played PBLK 89p / RBLK 87p with them.",
+    "The rebuilt interior is proven: Riker (71.7/868 at Texas State, SBC -0; Campbell: 'could be the best C in the FBS' - PS) + Buhr (64.5/453 at ISU, B12 +8 -> 72.5; All-B12; 'a lock at guard' - P6) + Cousins (67.5/177; bowl G starter).",
+    "The tackles are the seam: Donkoh (69.3/693 -> 68.3), the ONLY returning starter, moves G->T; LT1 is a no-tape FR (Goodman) over Aliciene (75.2/22 tiny); P6: 'the offensive line needs a crash course in preseason camp.'",
+    "PS: 'figure to be down a notch' vs Campbell's ISU 'absolute strength' - and Campbell's OL-development record (16 NFL picks off 8 four-stars at ISU) is the qualitative upside case.",
+    "58, M: projected-starter aggregate ~67 (~p52) with a FR LT and a converted RT; graded just above p50 on the proven interior, well under the proxy's departed-tape 78."
+   ],
+   "key_players": [
+    {"name": "Brock Riker", "role": "C (transfer, Texas State)", "evidence": "71.7 PFF/868 snaps 2025; 'best C in FBS' candidate per Campbell (PS)"},
+    {"name": "Trevor Buhr", "role": "LG (transfer, Iowa State)", "evidence": "64.5/453 (B12 +8 -> 72.5); All-B12 2025"},
+    {"name": "Anthony Donkoh", "role": "RT (returning starter)", "evidence": "69.3/693 2025; G->T move; Campbell 'AAOT'"}
+   ],
+   "data_gaps": ["FR LT (Goodman) - zero tape", "line cohesion: five projected starters, four new"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Penn State", "unit": "DL", "grade": 60, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60 anchor, 70.5)", "UCF DL 2025 (p75 ref, 75.2)"],
+   "rationale_bullets": [
+    "Total teardown: all four starters gone (Dennis-Sutton 80.1/641 rd-4; Durant 63.9/476 rd-5; Gilliam -> Tenn; Fisher -> USC), 'the top five defensive tackles are gone' (P6), AND the best per-snap tape left too (C.Coleman 81.1/150 -> Tennessee - ledger-review catch).",
+    "The 300-lb restock is real and B10-tested: K.Williams (65.8/458 at UCLA, +10 -> 75.8) + Taupaki (63.0/290 -> 73.0; played for DC Lynn at UCLA; 8th season) + Nnodim (66.7/243 at OkSt -> 69.7) + Ezeogu (57.8/566 at ISU -> 60.8) + McPherson/Vakalahi/Carnell rotation.",
+    "The best returning adjusted tapes are rotational: Kemajou (66.6/238 -> 76.6) + Blanding (61.7/228 -> 71.7) + 4* Granville (negligible snaps) + Arrington II (LB->edge move).",
+    "The seam: nobody on the roster has a proven P4 pass-rush season - PRSH 77p was Dennis-Sutton's; Lynn's scheme funnels to the LBs by design (Athlon).",
+    "60, M: the two-deep aggregate (~70) sits ON the Wake-60 anchor profile (70.5) - deep, solid, starless; run-stuffing depth argues up, the edge void argues down."
+   ],
+   "key_players": [
+    {"name": "Keanu Williams", "role": "DT (transfer, UCLA)", "evidence": "65.8 PFF/458 2025 (B10 +10 -> 75.8); 319+ lbs"},
+    {"name": "Siale Taupaki", "role": "DT (transfer, UCLA)", "evidence": "63.0/290 (-> 73.0); played for Lynn at UCLA; 8th season"},
+    {"name": "Yvan Kemajou", "role": "DE (returning)", "evidence": "66.6/238 2025 (-> 76.6) - best returning adjusted tape"},
+    {"name": "Ikenna Ezeogu", "role": "DE (transfer, Iowa State)", "evidence": "57.8/566 (-> 60.8); ISU starter volume"}
+   ],
+   "data_gaps": ["zero proven edge production", "Granville/Arrington - pedigree, no tape"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Penn State", "unit": "LB", "grade": 68, "confidence": "M",
+   "bracketing_exemplars": ["Buffalo LB 2025 (p50 ref, 66.5)", "Oregon State LB 2025 (p75 ref, 77.4)"],
+   "rationale_bullets": [
+    "Rojas returns as captain and 'Penn State's top returning defensive player' (Athlon): 73.5/176 (B10 +16 -> 89.5), PS#19 LB - the 176-snap sample is injury-shortened (ACL before UCLA, 'a turning point'), not benched, and Athlon frames his retention as the offseason win.",
+    "The entire ISU trio imported at full volume: Bacon (70.2/652, B12 +5 -> 75.2; 4* transfer) + Ebel (64.1/664 -> 69.1; 2-yr MLB starter; 17.5 TFL combined with Bacon - Athlon) + Brezina (70.4/328 -> 75.4). Four proven starters for three spots.",
+    "The cost: A.Campbell (70.3/769 -> 86.3; #1 tackler) followed Knowles to Tennessee; DeLuca (65.1/535) expired.",
+    "PS: 'my #12 rated LB corps'; Lynn's interior-size plan 'seeks to funnel plays to the linebackers' (Athlon) - the scheme feeds this unit; Campbell's 'best LB room he has ever had' discounted as coach-speak.",
+    "68, M: weighted aggregate ~78 (~p76) graded under tape percentile per the LB-caution rule (Rojas's 89.5 is a small sample; the full-volume ISU trio carries the floor)."
+   ],
+   "key_players": [
+    {"name": "Tony Rojas", "role": "LB1 (returning starter, captain)", "evidence": "73.5 PFF/176 2025 (ACL-shortened; B10 +16 -> 89.5); PS#19 LB"},
+    {"name": "Caleb Bacon", "role": "OLB (transfer, Iowa State)", "evidence": "70.2/652 (-> 75.2); 4* transfer grade"},
+    {"name": "Kooper Ebel", "role": "MLB (transfer, Iowa State)", "evidence": "64.1/664 (-> 69.1); 2-yr ISU starter"},
+    {"name": "Cael Brezina", "role": "LB4 (transfer, Iowa State)", "evidence": "70.4/328 (-> 75.4)"}
+   ],
+   "data_gaps": ["Rojas ACL return timeline", "trio's 3-3-3-to-4-3 scheme translation"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Penn State", "unit": "DB", "grade": 70, "confidence": "M",
+   "bracketing_exemplars": ["UCF DB 2025 (p75 ref, 73.0)", "Washington State DB 2025 (72 anchor)"],
+   "rationale_bullets": [
+    "The retained cluster is the quiet win of the interim continuity (Terry Smith stayed): Collins (68.3/538 -> 74.3; returning starter CB) + Tracy (63.7/435 -> 69.7; 'Swiss Army knife' - Campbell) + Dixson (78.3/320 -> 84.3; the true-FR surge that 'caused two veterans to transfer out' - P6).",
+    "ISU's entire safety room imported: Neal (78.8/697, B12 +2 -> 80.8; 4*; 11 TFL; 'will captain the secondary' - Athlon) + Cooper (73.3/191 -> 75.3; injury year; 'would be in the NFL right now if he did not get injured' - Campbell via PS; All-B12 '23-24) + Patton (58.3/497 -> 60.3).",
+    "The cost is the top of the old room: Wheatley (85.9/658 - the roster's best 2025 tape; yr4) + Mack (79.0/493 -> NCSU) + Lane (70.4/290 -> Tenn) + Harris (-> Indiana) + Washington (-> Clemson).",
+    "PS: 'should get back towards the top in the PDR - Campbell's Iowa St secondaries were #10, #5 and #34 the last 3 years'; DC Lynn's UCLA/USC secondaries are the scheme pedigree; every safety is in a new role (4-3 install).",
+    "70, M: two-deep weighted ~76 (~p72 tape) - quality and genuine depth at all five spots, graded at the tape line minus the scheme-change friction and the departed top tapes."
+   ],
+   "key_players": [
+    {"name": "Marcus Neal Jr.", "role": "S1 (transfer, Iowa State)", "evidence": "78.8 PFF/697 (B12 +2 -> 80.8); 11 TFL; B12 HM 2025"},
+    {"name": "Daryus Dixson", "role": "CB (returning)", "evidence": "78.3/320 as true FR (-> 84.3)"},
+    {"name": "Audavion Collins", "role": "CB1 (returning starter)", "evidence": "68.3/538 (-> 74.3); retained through coach change"},
+    {"name": "Jeremiah Cooper", "role": "S2 (transfer, Iowa State)", "evidence": "73.3/191 injury yr (-> 75.3); All-B12 '23-24"}
+   ],
+   "data_gaps": ["all safeties in new roles (scheme change)", "Cooper injury recovery"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Penn State", "unit": "ST", "grade": 66, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "rationale_bullets": [
+    "ST rule: start at the 90th-percentile as-played SPEC (PS STR #14) and adjust for personnel/continuity.",
+    "The kicker is the FBS's best: Barker 18-of-19, led the nation at 94.7%, perfect inside 50 (Athlon/PS) - retained through the coach change.",
+    "The system stays: STC Lustig RETAINED (yr 3, 'a successful first season' - Athlon) - the only coordinator continuity on the staff. Returns: Martin KR, Howard PR.",
+    "The hole: P Thompson (42.6 net) expired; Tiyce (Miss State) + Rosa (JMU) in. PS: 'they remain solid but do need a P to emerge.'",
+    "66, M: elite K + retained coordinator + strong coverage prior, minus one unknown leg."
+   ],
+   "key_players": [
+    {"name": "Ryan Barker", "role": "K (returning)", "evidence": "18-of-19 (94.7%, FBS best), perfect inside 50 in 2025"},
+    {"name": "Nathan Tiyce", "role": "P (transfer, Mississippi State)", "evidence": "replaces a 42.6-net punter; unproven"}
+   ],
+   "data_gaps": ["punter unknown", "LS unlisted in prints"],
+   "g5_guard_note": null
+  }
+ ]
+}
