@@ -1,0 +1,169 @@
+{
+ "team": "Minnesota",
+ "units": {
+  "QB": {"grade": 58, "confidence": "M"},
+  "RB": {"grade": 54, "confidence": "M"},
+  "WRTE": {"grade": 44, "confidence": "M"},
+  "OL": {"grade": 60, "confidence": "M"},
+  "DL": {"grade": 64, "confidence": "M"},
+  "LB": {"grade": 55, "confidence": "M"},
+  "DB": {"grade": 64, "confidence": "M"},
+  "ST": {"grade": 56, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (056d942)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "exemplar mechanics run at dossier time; all eight finals match the dossier planned lines."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 48, RB 51, WRTE 35, OL 60, DL 64, LB 76, DB 88, ST 100)",
+   "DB": "-24 vs proxy 88 (proxy counts Perich's 789 snaps - portaled to Oregon - and rides the B10 +6 on the full room)",
+   "LB": "-21 vs proxy 76 (LB caution: the +16 offset inflates modest raws behind Baranowski)",
+   "ST": "-44 vs proxy 100 (K departed after a 14-21 season; Perich's elite return games gone; K battle has zero collegiate attempts)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Minnesota", "unit": "QB", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Washington State DB 2025 (72)"],
+   "rationale_bullets": [
+    "Lindsey's redshirt-freshman baseline: 70.5 PFF/440 dropbacks (B10 +1 -> 71.5, ~p49), 2,382 @ 63%, 18-6 - '#11 in the Big Ten in QB Rating, tied with fellow freshman Bryce Underwood' (P6).",
+    "Ball-security and late-game evidence: six INTs all year; game-winning drives to beat Rutgers and Michigan State; Fleck - 'took really good command of the offense.'",
+    "Second-year program is named and specific (P6): pre-snap reads, audibles, pocket elusiveness; 'should get a second-year bonus.'",
+    "The ceiling caveat: the offense around him ranked #131 in long-passing explosiveness (P6) - the tape is command-over-splash.",
+    "58, M = two ticks under the Washington/Underwood 60 tier: same tape zone, full staff continuity, less pedigree heat."
+   ],
+   "key_players": [
+    {"name": "Drake Lindsey", "role": "QB1 (returning starter, SO)", "evidence": "70.5 PFF/440; 2,382 @ 63%, 18-6 2025"},
+    {"name": "Michael Merdinger", "role": "QB3 (transfer, Liberty)", "evidence": "67.7/59 2025; UNC bowl starter 2024 (PS)"}
+   ],
+   "data_gaps": ["No dated spring reporting beyond books", "QB2 pecking (Shikenjanski vs Merdinger)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Minnesota", "unit": "RB", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "Taylor is proven at rate: 77.5 PFF/143 att (at the p52 RB reference), 670 @ 5.6 in an injury-shortened year, 986 in 2024, back-to-back 100s to close; 'the offense was noticeably different with him in the backfield' (P6).",
+    "The health file is the cap: ~5 games missed in 2025, an IFS stretch as a freshman; Athlon documents the offseason body work (chef, Pilates).",
+    "Depth is names-plus-hints: Turner (77.7/16; 864 @ 8.3 at Marshall in 2024, OFY wk 3), Washington (81.1/21), the Purdue swap (Thomas in, Ijeboi 75.5/98 out), FRs Estrada/Bates.",
+    "Team context: RUN 46p as-played, #116-128 ypg by book - the line and injuries share blame.",
+    "54, M = above-average: elite-adjacent rate stats on fragile volume."
+   ],
+   "key_players": [
+    {"name": "Darius Taylor", "role": "RB1 (returning starter)", "evidence": "77.5 PFF/143 att; 670 @ 5.6 2025; 986 in 2024"},
+    {"name": "A.J. Turner", "role": "RB2 (returning; injury)", "evidence": "864 @ 8.3 at Marshall 2024; OFY wk 3 2025 (PS)"}
+   ],
+   "data_gaps": ["Taylor camp health", "RB2 pecking after Turner's OFY"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Minnesota", "unit": "WRTE", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "Returned breadth, no proven No. 1: Tracy (68.9/315 -> 67.9; 1st-tm MAC in 2024) + Smith (62.9/230) combined 65/873/10 (P6); Athlon: 'retained its Nos. 2-4 pass-catchers.'",
+    "The imports address named problems: Steptoe (61.1/299, AAC +0) 'led the AAC in average depth of target' - the vertical fix for a #131 long-passing offense; Jennings (67.1/209, AAC) tops Athlon's add list; Thompson (52.6/226 at Auburn, SEC +6 -> 58.6) is a former FIVE-STAR whose actual tape is poor - pedigree lottery ticket, priced as priors (prompt rule 3).",
+    "GONE: Brockington (71.3/309) plus BOTH TE producers (Geers, Biber); the TE room is a print conflict (Athlon: Walsh; P6: Oklahoma transfer Helms) - battle documented.",
+    "2025 context: RECV 40th percentile.",
+    "Mechanical aggregate ~63.5 (~p32) + breadth = 44, M."
+   ],
+   "key_players": [
+    {"name": "Javon Tracy", "role": "WR (returning)", "evidence": "68.9 PFF/315 routes 2025; 1st-tm MAC 2024"},
+    {"name": "Zion Steptoe", "role": "WR (transfer, Tulsa)", "evidence": "61.1/299; led AAC in aDOT 2025 (P6)"},
+    {"name": "Perry Thompson", "role": "slot (transfer, Auburn; ex-5*)", "evidence": "52.6/226 2025 - pedigree vs tape conflict"}
+   ],
+   "data_gaps": ["TE1 battle (Walsh vs Helms)", "Whether Thompson's spring justified the 'instant impact' line"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Minnesota", "unit": "OL", "grade": 60, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "rationale_bullets": [
+    "The three best tapes return: Johnson (75.1/757 -> 74.1) - PS's 1st-TEAM ALL-AMERICAN at LG - Roy (68.6/766 -> 67.6; PS#40, 'on NFL scouts radar'), Beers (64.0/759 -> 63.0), plus Nelson (62.7/197, moved up late).",
+    "The two WORST full-volume tapes leave: Ray (62.1/748) and Marshall (49.6/644) - subtraction as addition.",
+    "The books split and both are held: P6 '#123 in my OL Run Push... rebuilding the right side' vs PS 'one of the offense's strengths'; the PFF tape sides nearer PS (RBLK 74p, PBLK 57p, 24 sacks).",
+    "RT is the open spot: FR Shipp (Athlon print) vs Warren (50.3/76 at Tennessee - Top100 pedigree, poor tiny tape).",
+    "Mechanical returning aggregate ~67.8 (~p55) + the weak-link subtraction + a PS-AA anchor = 60, M."
+   ],
+   "key_players": [
+    {"name": "Greg Johnson", "role": "LG (returning starter)", "evidence": "75.1 PFF/757 2025; PS 1st-team All-American"},
+    {"name": "Nathan Roy", "role": "LT (returning starter)", "evidence": "68.6/766 2025; PS#40"},
+    {"name": "Ashton Beers", "role": "C (returning starter)", "evidence": "64.0/759 2025"}
+   ],
+   "data_gaps": ["RT battle (Shipp FR vs Warren)", "Run-push vs pass-pro split under the same line returning"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Minnesota", "unit": "DL", "grade": 64, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "rationale_bullets": [
+    "The edge trio is the case: A.Smith (71.6/671 -> 81.6; 1st-tm All-B10; B10-best 12.5 sacks - first double-digit Gopher season since 2009; turned down the NFL) + Menz (67.2/386 -> 77.2; 6.5 sk) + Bush (69.1/691 at Cal -> 70.1; 'Cal's best pass rusher'; 91 pressures/13 sk over three years - Athlon). P6: 'one of the best in the Big Ten.'",
+    "The interior is a stated rebuild: 'the top four defensive tackles departing' (P6) - Eastern (67.3/499) and Logan-Redding (57.4/415) headline. Replacements are G5-discounted: Crowder (76.5/317 at Marshall, SBC -6 -> 70.5; 'needs to be an anchor'), Chapman (73.9/316 at FIU, CUSA -8 -> 65.9), Kaba (72.3/154 -> 66.3).",
+    "The signal conflict is held, not averaged: 35 sacks, a 9-sack school record vs Nebraska, #4 Negative Play Rate (P6) - versus RDEF 40p / PRSH 36p as-played; the havoc clustered against bad offenses.",
+    "Howard (56.8/423 -> 66.8; Athlon returning-starter flag) deepens the rotation.",
+    "Mechanical weighted aggregate ~73.5 (~p70); interior projection risk lands it 64, M."
+   ],
+   "key_players": [
+    {"name": "Anthony Smith", "role": "DE1 (returning starter)", "evidence": "71.6 PFF/671; B10-best 12.5 sacks 2025; declined NFL"},
+    {"name": "TJ Bush Jr.", "role": "DE (transfer, Cal)", "evidence": "69.1/691 2025; 91 pressures L3Y (Athlon)"},
+    {"name": "Naquan Crowder", "role": "DT (transfer, Marshall)", "evidence": "76.5/317 2025; 310-320 lbs"}
+   ],
+   "data_gaps": ["Interior rotation shares", "Whether the sack profile survives better OLs"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Minnesota", "unit": "LB", "grade": 55, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "Baranowski is the best returning LB tape in the B10 set so far: 77.2 PFF/667 snaps (-> 93.2 with the +16, but the raw number needs no help); All-B10; 103 tackles - the first 100-tackle Gopher season since 2018.",
+    "Behind him: Kingsbury (61.2/266 -> 77.2, #8 tackler), Karmo (59.5/156), hints in Carrier (75.7/21) and Gerlach (70.8/63). GONE: Williams (67.7/664, 12 starts).",
+    "Fleck (attributed): '6 deep at LB... a strength of the D'; the tape says one star plus ascending role players; A.Marshall (53.9/295 at EMU, MAC -12) is depth only.",
+    "LB caution: the room's non-Baranowski raws are modest; the offset does the flattering. 55, M."
+   ],
+   "key_players": [
+    {"name": "Maverick Baranowski", "role": "LB1 (returning starter)", "evidence": "77.2 PFF/667; All-B10; 103 tackles 2025"},
+    {"name": "Matt Kingsbury", "role": "LB2 (returning)", "evidence": "61.2/266 2025; #8 tackler (PS)"}
+   ],
+   "data_gaps": ["LB2/3 rotation", "No sub-grade extract for the caution-preferred signals"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Minnesota", "unit": "DB", "grade": 64, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "rationale_bullets": [
+    "Nestor is the headline tape: 81.5 PFF/608 (B10 +6 -> 87.5) - the best returning CB grade in this conference build so far; HM All-B10; Fleck's 'ultimate competitor.' Brown (69.9/639 -> 75.9; HM All-B10) anchors safety - Athlon: 'more reliable than Perich a year ago.'",
+    "The famous departure is priced by tape, not name: Perich (to Oregon) graded 61.0 on 789 snaps in his slump year - the 2025 on-field loss is real but modest; the return-game/ceiling loss shows up in ST.",
+    "The rest is projection: A.West (62.7/381 as an MSU true FR) 'could be the starter opposite Nestor' (P6); Harden the midseason convert 'impressed'; Gousby (61.5/435); FCS wildcard M.Smith (Lehigh).",
+    "Context held: PDR #96, COV 35p as-played - the unit's names outran its 2025 tape.",
+    "Mechanical aggregate ~75.4 (~p80) is two-player-driven; CB2/NB projection pulls it to 64, M."
+   ],
+   "key_players": [
+    {"name": "John Nestor", "role": "CB1 (returning starter)", "evidence": "81.5 PFF/608 2025; HM All-B10"},
+    {"name": "Kerry Brown", "role": "S (returning starter)", "evidence": "69.9/639 2025; HM All-B10"},
+    {"name": "Aydan West", "role": "CB2 (transfer, Michigan State)", "evidence": "62.7/381 as true FR 2025"}
+   ],
+   "data_gaps": ["CB2 battle", "NB (Monroe 78.9/49) sample too small to trust"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Minnesota", "unit": "ST", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "ST rule: start at the 99th-percentile prior SPEC, then subtract the two engines that left: K Denaberg (14-21, 2-7 from 40+ - the weakness, but still the only proven leg) and Perich's elite double-duty returns (6.7 PR / 26.3 KR).",
+    "What returns is real: P Weston (42.6/38.6 net - 'a quality first season') and LS Soukup ('Mr Reliable and an NFL prospect' - PS).",
+    "The K battle is a genuine zero: Sunderland (Michigan) vs D.Jackson - 'neither has attempted a collegiate field goal' (Athlon).",
+    "PS's STR #88 dissents from the PFF SPEC 99 (coverage/return units vs grade) - both held. 56, M."
+   ],
+   "key_players": [
+    {"name": "Tom Weston", "role": "P (returning)", "evidence": "42.6 avg / 38.6 net 2025"},
+    {"name": "Beckham Sunderland", "role": "K battle (transfer, Michigan)", "evidence": "zero collegiate FG attempts (Athlon)"}
+   ],
+   "data_gaps": ["K battle unresolved", "KR/PR replacements for Perich"],
+   "g5_guard_note": null
+  }
+ ]
+}
