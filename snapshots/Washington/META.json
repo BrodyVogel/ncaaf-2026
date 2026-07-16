@@ -1,0 +1,42 @@
+{
+ "team": "Washington",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T17:48:58+00:00",
+ "assembler_git_rev": "35dd7dc",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Fisch yr 3 (15-11; calls the offense). DC Walters yr 2. STC Petrilli retained. x1.13 does NOT apply.",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Demond Williams Jr."
+ ],
+ "yr4_return_overrides_documented": [
+  "Geirean Hatchett",
+  "Jacob Manu",
+  "CJ Christian"
+ ],
+ "nfl_declare_confirmed": [
+  "Denzel Boston"
+ ],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {},
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Demond Williams Jr.": "portal-OUT feed entry (Immediate/no-dest) vs the P6-documented contract->portal->near-lawsuit->RETURN sequence; all three prints start him. Override STAYS. Proxy QB 15 is the resulting artifact.",
+  "Jordan Washington": "RB - severe spring injury, DOUBTFUL (P6) though Athlon charts him RB1/KR1; graded to the P6 note",
+  "Jacob Manu": "yr4 override; 233-snap injury-shortened '25; the '24 star - Rojas pattern",
+  "Zaydrius Rainey-Sale": "LB/edge wildcard (P6) - counted LB",
+  "Logan George": "EDGE ex-Ohio State (unit_DL row there) - counted DL",
+  "Elijah Brown": "QB - 2026-cycle arrival ex-Stanford (PFF prov shows '25 Stanford tape)"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "J. Washington availability (doubtful) - RB room has no returning healthy volume",
+  "LT battle (5* FR Greene vs Dieterich)",
+  "DL two-deep: five spots project to transfers/FRs",
+  "WR2/3: six 4*s competing (youth)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

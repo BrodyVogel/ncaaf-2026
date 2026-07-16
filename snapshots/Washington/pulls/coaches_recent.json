@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Jedd",
+  "lastName": "Fisch",
+  "hireDate": "2024-01-14T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Washington",
+    "year": 2024,
+    "games": 13,
+    "wins": 6,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 4.8,
+    "spOverall": 3.1,
+    "spOffense": 27.3,
+    "spDefense": 22.4
+   }
+  ]
+ },
+ {
+  "firstName": "Jedd",
+  "lastName": "Fisch",
+  "hireDate": "2024-01-14T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Washington",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 17.4,
+    "spOverall": 18.4,
+    "spOffense": 34.5,
+    "spDefense": 15.3
+   }
+  ]
+ }
+]

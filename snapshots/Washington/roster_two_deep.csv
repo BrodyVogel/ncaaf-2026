@@ -1,0 +1,55 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Demond Williams Jr.,JR,returning,RETURNING STARTER; 79.1/461; portal-return override STAYS; 4th B10 rating + 611 rush
+QB,QB,2,Elijah Brown,SO,transfer:Stanford,56.7/152
+QB,QB,3,Treston McMillan,FR,recruit,true FR signee
+RB,RB,1,Jordan Washington,SO,returning,82.7/27; severe spring injury - DOUBTFUL (P6); Athlon still RB1
+RB,RB,1,Jayden Limar,SR,transfer:Oregon,73.0/46; 4*
+RB,RB,2,Trey Cooley,SR,transfer:Troy,vet depth
+RB,RB,2,Brian Bonner Jr.,FR,recruit,4* true FR signee; rotation expected
+WRTE,WR,1,Christian Moss,SR,transfer:Kennesaw State,65.7/397; KSU's #2 target
+WRTE,WR,2,Jordan Clay,FR,recruit,Top200 true FR signee
+WRTE,WR,1,Dezmen Roebuck,SO,returning,RETURNING STARTER; 70.1/360; 42-560-7 as FR
+WRTE,WR,2,Mason James,FR,recruit,Top200 true FR signee
+WRTE,WR,1,Rashid Williams,JR,returning,68.5/24; starter until Sept injury
+WRTE,WR,2,Chris Lawson,SO,returning,66.4/47; '25 4*
+WRTE,WR,3,Bodpegn Miller,SO,transfer:Ohio State,Top200 '25 signee; no volume
+WRTE,TE,1,Decker DeGraaf,JR,returning,RETURNING STARTER; 56.0/323; 32-360
+WRTE,TE,2,Kade Eldridge,SO,returning,73.4/12; missed half of '25
+OL,LT,1,Kodi Greene,FR,recruit,5* true FR signee; 'expected to start right away'
+OL,LT,2,Kolt Dieterich,JR,transfer:Sam Houston,72.0/763; 4* transfer
+OL,LG,1,John Mills,SO,returning,RETURNING STARTER; 70.2/589; Freshman All-America
+OL,LG,2,Jake Flores,FR,recruit,true FR signee
+OL,C,1,Landen Hatchett,SR,returning,RETURNING STARTER; 62.1/532
+OL,C,2,Geirean Hatchett,SR,returning,66.9/775; yr4 override; 'brothers are back' (P6)
+OL,RG,1,Champ Taulealea,FR,returning,56.8/103
+OL,RG,2,Lowen Colman-Brusa,FR,recruit,true FR signee
+OL,RT,1,Drew Azzopardi,SR,returning,RETURNING STARTER; 69.0/656
+OL,RT,2,Soane Faasolo,JR,returning,31.6/78
+DL,DT,1,Elinneus Davis,JR,returning,RETURNING STARTER; 70.8/424; 'the anchor at nose tackle'
+DL,DT,2,DeSean Watts,JR,transfer:Sacramento State,FCS
+DL,DT,1,Derek Colman-Brusa,FR,recruit,Top200 true FR signee
+DL,DT,2,Darin Conley,JR,transfer:Ball State,75.7/533; Ball St starter
+DL,DT,3,Kai McClendon,SO,transfer:Mississippi State,12 gm as true FR; missed '25 (knee)
+DL,EDGE,1,Jacob Lane,SR,returning,RETURNING STARTER; 67.3/556; co-sack leader
+DL,EDGE,2,Logan George,JR,transfer:Ohio State,edge depth; low volume
+DL,EDGE,2,Isaiah Ward,JR,returning,63.3/277; back from injury
+DL,EDGE,3,Russell Davis II,SR,returning,back from injury
+DL,EDGE,3,Devin Hyde,SO,returning,73.9/70
+LB,ILB,1,Jacob Manu,SR,returning,68.9/233; yr4 override; injury-shortened; 'All-B10 push' (P6)
+LB,ILB,2,Xe'ree Alexander,SR,returning,68.4/518; 70 tkl (#2)
+LB,ILB,1,Taariq Al-Uqdah,JR,returning,RETURNING STARTER; 64.1/152; original starter back from injury
+LB,OLB,2,Zaydrius Rainey-Sale,SO,returning,67.8/266; Top100 wildcard (LB/edge)
+LB,LB,3,Ramzak Fruean,FR,recruit,4* true FR signee
+DB,CB,1,Dylan Robinson,SO,returning,67.9/371; Top200; 5 starts as true FR; 'first-round traits'
+DB,CB,2,Rahsjon Duncan,FR,recruit,4* true FR signee
+DB,CB,1,Emmanuel Karnley,JR,transfer:Virginia,71.6/657; ACC starter; 6'3
+DB,CB,2,Jeron Jones,FR,recruit,true FR signee
+DB,NB,1,Rahshawn Clark,SO,returning,74.7/387; PR1
+DB,S,1,Alex McLaughlin,SR,returning,RETURNING STARTER; 70.7/842; defensive MVP; All-B10 HM; 2 def TDs
+DB,S,2,CJ Christian,SR,returning,yr4 override (Athlon depth print; LOW)
+DB,S,1,Rylon Dillard-Allen,SO,returning,71.6/377; Freshman All-American (Athlon)
+DB,S,2,Gavin Day,FR,recruit,4* true FR signee
+ST,K,1,Tyler Robles,JR,transfer:Texas State,2nd-tm All-SBC; 21-23 (91.3%)
+ST,P,1,Hunter Green,SR,transfer:San Diego State,#6 nationally; 47.0 avg
+ST,KR,1,Jordan Washington,SO,returning,injury flag
+ST,PR,1,Rahshawn Clark,SO,returning,
