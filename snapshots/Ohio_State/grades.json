@@ -1,0 +1,173 @@
+{
+ "team": "Ohio State",
+ "units": {
+  "QB": {"grade": 91, "confidence": "H"},
+  "RB": {"grade": 76, "confidence": "M"},
+  "WRTE": {"grade": 86, "confidence": "M"},
+  "OL": {"grade": 80, "confidence": "H"},
+  "DL": {"grade": 76, "confidence": "M"},
+  "LB": {"grade": 64, "confidence": "M"},
+  "DB": {"grade": 72, "confidence": "M"},
+  "ST": {"grade": 64, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (b0c0d89)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "exemplar mechanics run at dossier time; all eight finals match the dossier planned lines."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 96, RB 87, WRTE 91, OL 81, DL 74, LB 96, DB 91, ST 84)",
+   "LB": "-32 vs proxy 96 (proxy counts BOTH drafted first-round All-Americans - Reese yr3-declare + S.Styles)",
+   "DB": "-19 vs proxy 91 (proxy counts Downs yr3-declare 87.5/682 + Igbinosun 82.0/655)",
+   "WRTE": "-5 vs proxy 91 (proxy counts Tate 88.6/290 - the #4 overall pick, yr3 declare - and Klare)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Ohio State", "unit": "QB", "grade": 91, "confidence": "H",
+   "bracketing_exemplars": ["Rutgers QB 2025 (p90 ref, 89.3)", "Texas QB 2025 (97)"],
+   "rationale_bullets": [
+    "Sayin's tape is the best in the graded set: 92.9 PFF on 438 dropbacks (B10 +1 -> 93.9 - a hair under the Texas-97 anchor's 95.0 adjusted), with an NCAA regular-season RECORD 78.4% completion rate, 3,610 yds, 32-8, a Heisman-finalist seat, and the Shaun Alexander award - as a redshirt freshman.",
+    "The named flaw is specific and showed up when it mattered (P6): off-script creation - 'unable to create when the pocket broke down' vs Indiana/Miami, with critical first-half INTs in both losses; 'the Craig Krenzel type plays' are the stated ask for 2026.",
+    "PS: 'held under wraps in some games... will probably top 4,000 yards this year and is a Heisman Frontrunner.' The new OC (Arthur Smith) tilts run-first and QB-friendly.",
+    "Depth: St. Clair (PS#3 recruit) + J.Martin (Maryland) - unproven but pedigree-deep.",
+    "91, H = between the p90 reference and the 97 anchor: elite proven volume with one documented ceiling question."
+   ],
+   "key_players": [
+    {"name": "Julian Sayin", "role": "QB1 (returning starter, SO)", "evidence": "92.9 PFF/438; NCAA-record 78.4%; 3,610, 32-8; Heisman finalist 2025"},
+    {"name": "Tavien St. Clair", "role": "QB2 (rFr)", "evidence": "PS#3 2025 recruit; 2 career dropbacks"}
+   ],
+   "data_gaps": ["Off-script development is a projection", "Arthur Smith install specifics"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Ohio State", "unit": "RB", "grade": 76, "confidence": "M",
+   "bracketing_exemplars": ["Auburn RB 2025 (p75 ref, 83.4)", "Arizona State RB 2025 (p90 ref, 87.9)"],
+   "rationale_bullets": [
+    "Bo Jackson returns off a 'surprise 1,000-yard freshman season' (P6): 86.6 PFF/178 att - between the p75/p90 RB references - 1,090 @ 6.1 with six 100-yard games; 'the most explosive back' (PS).",
+    "The room behind him is deep and young: West (76.5/59; 'borderline sensational' - Athlon), Ja'Kobi Jackson (67.0/27 at Florida; 509 @ 5.4 in 2024), rFr Rogers (PS#6), and Top100 ATH Bey (Day's Tyreek Hill/Curtis Samuel comps; slot/H hybrid).",
+    "GONE: short-yardage Donaldson (73.2/96, yr4) and Peoples (76.3/62, to Penn State) - rotation, not the engine.",
+    "Context: RBLK 93p line largely returns; run-game explosiveness (#73 - P6) is the named fix and the new OC's trademark is power run.",
+    "Weighted aggregate ~84 (~p77) = 76, M."
+   ],
+   "key_players": [
+    {"name": "Bo Jackson", "role": "RB1 (returning starter, SO)", "evidence": "86.6 PFF/178; 1,090 @ 6.1 as FR 2025"},
+    {"name": "Isaiah West", "role": "RB2 (SO)", "evidence": "76.5/59; 310 @ 5.3 2025"},
+    {"name": "Legend Bey", "role": "ATH/slot (FR signee)", "evidence": "Top100; Day's Hill/Samuel comps (P6)"}
+   ],
+   "data_gaps": ["Carry distribution under Arthur Smith", "Bey's actual role"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Ohio State", "unit": "WRTE", "grade": 86, "confidence": "M",
+   "bracketing_exemplars": ["Houston WRTE 2025 (78)", "Ohio State WRTE 2025 (p97 ref, 77.7 agg)"],
+   "rationale_bullets": [
+    "Jeremiah Smith returns for a final season: 90.7 PFF/362 routes (-> 89.7), unanimous All-American, 1,243/12 - 'many believe the best overall player in college football' (P6), on pace to break every school receiving record.",
+    "The subtraction is real: Tate (88.6/290) went FOURTH OVERALL (yr3 declare override), both All-B10 TEs left (Klare 69.3/302 - declare override; Kacmarek 77.5/115), and two 5* backups (Graham, Porter) portaled to Notre Dame - 'likely due to the breakout of five-star Chris Henry who surged all the way to the #2 role in spring' (P6).",
+    "The reload: Henry (5*, no volume - projection), Inniss (63.4/267) in the trio, McCuin (77.7/322 at UTSA, AAC +0 - All-AAC, 65/726), Parker (62.9/249 at LSU -> 68.9); TE via Welcing (61.0/203, all-league at NU), All-MAC M.Williams (74.4/164 -> 67.4), Top200 Roberts ('the spring hero').",
+    "Hartline's conveyor-belt prior: 'at least two future first-round picks in the room' every year since 2019 (P6).",
+    "Mechanical aggregate ~76.6 sits just under the room's own 2025 p97 print. 86, M = top-5 room: one transcendent player + projection at #2/TE."
+   ],
+   "key_players": [
+    {"name": "Jeremiah Smith", "role": "WR1 (returning starter)", "evidence": "90.7 PFF/362; unanimous AA; 1,243/12 2025"},
+    {"name": "Chris Henry Jr.", "role": "WR2 (5*, spring surge)", "evidence": "won the #2 role in spring (P6); minimal volume"},
+    {"name": "Devin McCuin", "role": "WR (transfer, UTSA)", "evidence": "77.7/322; All-AAC 65/726 2025"}
+   ],
+   "data_gaps": ["Henry's readiness (projection)", "TE receiving share under Arthur Smith"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Ohio State", "unit": "OL", "grade": 80, "confidence": "H",
+   "bracketing_exemplars": ["Louisville OL 2025 (p75 ref, 71.2)", "Texas Tech OL 2025 (84)"],
+   "rationale_bullets": [
+    "Four returning starters, ALL FOUR All-B10, 89-91 combined career starts - 'one of the most veteran lines in America' (P6); 'a clear Joe Moore Award contender in 2026' (PS).",
+    "Siereveld (83.5 PFF/810 -> 82.5) did not allow a single sack all season - 'their best shot at an All-America season' (P6); Hinzman (73.6/841; yr4 override RETURNS, double-print), Montgomery (73.4/837), Daniels (66.1/761).",
+    "The departure is addition-by-subtraction: Tshabola (56.3/607 - the room's worst full-volume tape) to Kentucky; the 5th spot is a Top200 battle (Padilla 73.7/128 vs Moore 69.7/150 vs VanSickle).",
+    "The honest counterweight: Indiana + Miami got 10 sacks and held OSU to 2.1 ypc - PBLK 64p as-played is the one soft number in the profile (RBLK 93p).",
+    "Weighted aggregate ~73.3 (~p78) + pedigree mass + settled two-deep = 80, H."
+   ],
+   "key_players": [
+    {"name": "Austin Siereveld", "role": "T (returning All-B10)", "evidence": "83.5 PFF/810; zero sacks allowed 2025"},
+    {"name": "Carson Hinzman", "role": "C (yr4 override RETURNS)", "evidence": "73.6/841; All-B10; P6+Athlon double-print"},
+    {"name": "Luke Montgomery", "role": "G (returning All-B10)", "evidence": "73.4/837 2025"}
+   ],
+   "data_gaps": ["5th starter battle", "Whether the elite-front problem was personnel or scheme"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Ohio State", "unit": "DL", "grade": 76, "confidence": "M",
+   "bracketing_exemplars": ["UCF DL 2025 (p75 ref, 75.2)", "Texas A&M DL 2025 (p90 ref, 81.2)"],
+   "rationale_bullets": [
+    "The two best tapes left: Curry (90.6/610; 11 sk, 16.5 TFL) and 1st-team AA McDonald (86.2/448; rd-2 - a yr3 declare the override catches), plus Malone, Atkinson, and EIGHT portal backups (PS).",
+    "What returns is credible: Jackson Jr. (72.7/549 -> 82.7 - 'the only returning starter,' himself a yr4 override RETURNS documented by both books), W.Smith Jr. (72.6/224 -> 82.6), Grady (74.8/104), and 5* Houston (59.6/324 -> 69.6; 'ready for a breakout season at tackle' - P6).",
+    "The imports are the reload: both Alabama linemen - J.Smith (55.3/422, SEC +8 -> 63.3; pedigree over tape) and Russaw (67.6/215 -> 75.6) - plus Top100 UCF starter Walker (70.7/495, B12 +3 -> 73.7).",
+    "Post-adjustment the room carries FIVE pieces at 73+ - Kentucky-91-anchor breadth without the 90+ star; Larry Johnson's development record is the qualitative floor (Athlon).",
+    "76, M - even with 'zero returning starters' framing, the adjusted quality and pipeline hold a top-30 grade; PS: 'loaded with 4th and 5th year players and, of course, talent.'"
+   ],
+   "key_players": [
+    {"name": "Kenyatta Jackson Jr.", "role": "DE1 (yr4 override RETURNS)", "evidence": "72.7 PFF/549; 'only returning starter on the line' (P6)"},
+    {"name": "James Smith", "role": "DT (transfer, Alabama)", "evidence": "55.3/422 2025; ex-5*, 4* transfer grade"},
+    {"name": "John Walker", "role": "DT (transfer, UCF)", "evidence": "70.7/495 2025; Top100"},
+    {"name": "Eddrick Houston", "role": "DT (5*, breakout flag)", "evidence": "59.6/324 2025; P6 breakout call"}
+   ],
+   "data_gaps": ["Interior rotation shares", "Whether J.Smith's Bama tape understates him (P6 thinks so)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Ohio State", "unit": "LB", "grade": 64, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Oregon State LB 2025 (p75 ref, 77.4)"],
+   "rationale_bullets": [
+    "The teardown is total: ALL THREE starters gone - two All-American FIRST-ROUNDERS (S.Styles 88.6/663; Reese 76.5/651 - yr3 declare override) plus the NB. P6: 'even the greatest reloading programs would struggle here.'",
+    "The reload is the best available anywhere: Pierce (82.2/263 -> 98.2 adjusted - elite rotational tape at a moderate sample; PS#14), Alliegro (62.3/449 at Wisconsin -> 78.3; 'the #3 linebacker transfer'), Top100s Pettijohn (66.6/77) and Alford ('the early standout' in spring), and the #1 LB recruit in the class (5* Cincere Johnson).",
+    "PS's read is the grade's shape: 'they remain solid, but are less experienced and a concern.'",
+    "LB caution (noisiest unit) + moderate samples + the +16 offset doing real work = 64, M - clearly above average on pedigree and Pierce's tape, two tiers below what left."
+   ],
+   "key_players": [
+    {"name": "Payton Pierce", "role": "MLB (returning)", "evidence": "82.2 PFF/263 2025; PS#14"},
+    {"name": "Christian Alliegro", "role": "WLB (transfer, Wisconsin)", "evidence": "62.3/449 2025; #3 LB transfer (P6)"},
+    {"name": "Cincere Johnson", "role": "LB (5* FR signee)", "evidence": "#1 LB of the 2026 class (P6)"}
+   ],
+   "data_gaps": ["Starting pair unresolved", "Pierce at full-time volume is a projection"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Ohio State", "unit": "DB", "grade": 72, "confidence": "M",
+   "bracketing_exemplars": ["Washington State DB 2025 (72)", "BYU DB 2025 (p90 ref, 77.1)"],
+   "rationale_bullets": [
+    "The losses are historic: Downs (87.5/682 - a top-7 pick, yr3 declare override; 'one of their best safeties of all-time' - P6) + 1st-tm B10 CB Igbinosun (82.0/655; rd-2) + the NB, plus a five-man portal wave (Delane/Scott/West/Hartford/Haddad).",
+    "What returns is real: McClain (78.1/708 -> 84.1; 'star potential'), Mathews (62.2/695 -> 68.2; 'welcoming his new role as the top corner' - Athlon), and 5* SOPH Sanchez (60.8/323; 'poised to be yet another Buckeye great'; PS: 'could be that next #1 DC').",
+    "The imports address safety directly: two 2nd-team All-ACC pieces - Little (69.1/674 at FSU -> 70.1) and T.Moore (Duke; limited 2025 volume - prior-year honors carry the case) - plus 5* Timmons and Top100 Bradford.",
+    "Context: PDR #15, COV 91p in 2025; PS: 'may drop some.' Walton's development record and the DBU pipeline are the qualitative floor.",
+    "Mechanical aggregate ~72.9 (~p75) = 72, M - exactly the WSU-72 anchor's position, matching Indiana's room."
+   ],
+   "key_players": [
+    {"name": "Jaylen McClain", "role": "SS (returning starter)", "evidence": "78.1 PFF/708 2025"},
+    {"name": "Jermaine Mathews Jr.", "role": "CB1 (returning)", "evidence": "62.2/695 2025"},
+    {"name": "Devin Sanchez", "role": "CB (5* SO)", "evidence": "60.8/323 2025; PS next-#1-DC call"},
+    {"name": "Earl Little Jr.", "role": "NB (transfer, FSU)", "evidence": "69.1/674 2025; 2nd-tm ACC 2024"}
+   ],
+   "data_gaps": ["T.Moore's 2025 volume (injury?)", "Sanchez's sophomore leap is projection"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Ohio State", "unit": "ST", "grade": 64, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "rationale_bullets": [
+    "ST rule: start at the 84th-percentile prior SPEC (PS STR #36) and adjust for the K swap: Fielding (16-20, with misses vs Indiana AND Miami - the named postseason cost) is gone; Hawkins arrives from Baylor - 'top notch' (PS).",
+    "P McGuire returns (42.1 avg/41.2 net on just 29 punts - the offense rarely punted).",
+    "Returns: Inniss + FR Bey (Top100 speed). Athlon's caution is historical: 'ill-timed missed kicks, lackluster punt returns and inconsistent kick coverage have haunted OSU.'",
+    "64, M = strong prior, lateral-to-up K swap, proven P."
+   ],
+   "key_players": [
+    {"name": "Connor Hawkins", "role": "K (transfer, Baylor)", "evidence": "'top notch' (PS); Baylor 2025"},
+    {"name": "Joe McGuire", "role": "P (returning)", "evidence": "42.1/41.2 net 2025"}
+   ],
+   "data_gaps": ["Hawkins's exact 2025 line (in Baylor's frozen build)", "KO operation post-Fielding"],
+   "g5_guard_note": null
+  }
+ ]
+}
