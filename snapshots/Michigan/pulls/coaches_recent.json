@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Sherrone",
+  "lastName": "Moore",
+  "hireDate": "2024-01-26T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Michigan",
+    "year": 2024,
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "ties": 0,
+    "preseasonRank": 9,
+    "postseasonRank": null,
+    "srs": 8.9,
+    "spOverall": 10.6,
+    "spOffense": 24.1,
+    "spDefense": 15.1
+   }
+  ]
+ },
+ {
+  "firstName": "Sherrone",
+  "lastName": "Moore",
+  "hireDate": "2024-01-26T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Michigan",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 11,
+    "spOverall": 12.4,
+    "spOffense": 30.9,
+    "spDefense": 17
+   }
+  ]
+ }
+]

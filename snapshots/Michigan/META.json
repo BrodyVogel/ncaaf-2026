@@ -1,0 +1,33 @@
+{
+ "team": "Michigan",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T15:08:01+00:00",
+ "assembler_git_rev": "8d2f1e0",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "Moore FIRED (scandal); Whittingham (Utah, 21 yrs) hired pre-bowl with intact imported staff (OC Beck, DC Hill, OL Harding, STC Coombs). x1.13 APPLIES. NCAA probation + fine exposure documented (context only).",
+ "portal_departure_confirmed": ["Jake Garcia"],
+ "portal_withdrawal_overrides": ["Andrew Sprague", "Jake Guarnera", "Enow Etta", "Bryson Kuzdzal", "Zeke Berry", "Christian Pierce"],
+ "yr4_return_overrides_documented": ["Rod Moore", "Zeke Berry"],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Jonah Leaea": "Jonah Lea'ea"
+ },
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Salesi Moa": "feed CB from Utah; Athlon WR3 backup; P6 notes WR spring reps - position fluid, counted DB with note",
+  "Jaishawn Barham": "PFF-classified DL (79.3/375); PS calls him LB - GONE either way (yr4)",
+  "Christian Pierce": "same-school portal round-trip (out dest=Michigan + in origin=Michigan) - STAYS",
+  "Lawrence Hattar": "Withdrawn flag but feed yr4 and absent from prints - EXPIRED (withdrawal moot)"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "Daley injury recovery status beyond P6 'back for fall camp'",
+  "Berry portal-entry timing vs print dates (risk documented in news.md)",
+  "S battle (Bracy/S.Moa/Curtis) and LB pecking order unresolved"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

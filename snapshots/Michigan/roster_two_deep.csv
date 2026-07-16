@@ -1,0 +1,53 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Bryce Underwood,SO,returning,RETURNING STARTER; 69.3/417; 2025 #1 overall recruit
+QB,QB,2,Brayden Fowler-Nicolosi,SR,transfer:Colorado State,50.7/99 '25; 3460 yds '23
+RB,RB,1,Jordan Marshall,JR,returning,87.8/150; All-B10; 932/10TD
+RB,RB,2,Savion Hiter,FR,recruit,5*; PS#1 RB recruit
+RB,RB,3,Bryson Kuzdzal,SR,returning,withdrawal override STAYS; 70.9/76
+WRTE,WR,1,Andrew Marsh,SO,returning,RETURNING STARTER; 75.8/288; FR All-B10; 45/651 post-Sept
+WRTE,WR,2,Channing Goodwin,JR,returning,52.1/149
+WRTE,WR,1,JJ Buchanan,SO,transfer:Utah,64.2/277; #5 WR transfer (P6)
+WRTE,WR,2,Jamar Browder,SO,returning,
+WRTE,WR,1,Jaime Ffrench Jr.,SO,transfer:Texas,Top50 recruit; low '25 volume
+WRTE,WR,2,Salesi Moa,FR,transfer:Utah,feed CB; Athlon WR3 backup; position fluid
+WRTE,TE,1,Zack Marshall,SR,returning,66.0/122; 16 rec
+WRTE,TE,2,Hogan Hansen,JR,returning,67.0/57
+OL,LT,1,Blake Frazier,JR,returning,RETURNING STARTER; 64.4/505; thrived as FR (P6)
+OL,LT,2,Andrew Babalola,SO,returning,5* '25; missed fall camp injured
+OL,LG,1,Evan Link,SR,returning,RETURNING STARTER; 63.3/373; may shift inside
+OL,LG,2,Avery Gach,SO,returning,
+OL,C,1,Jake Guarnera,JR,returning,RETURNING STARTER; withdrawal override STAYS; 71.3/710
+OL,C,2,Houston Ka'aha'aina-Torres,SO,transfer:Nebraska,62.0/14
+OL,RG,1,Nathan Efobi,SR,returning,66.9/352
+OL,RG,2,Luke Hamilton,JR,returning,
+OL,RT,1,Andrew Sprague,JR,returning,RETURNING STARTER; withdrawal override STAYS; 72.6/740; All-B10
+OL,RT,2,Brady Norton,SR,returning,56.4/204
+DL,DE,1,John Henry Daley,SR,transfer:Utah,92.0/513; 1st-tm AA; nation-leading 11.5 sk pre-injury
+DL,DE,2,Nate Marshall,SO,returning,63.8/89; Top100 '25
+DL,DT,1,Enow Etta,SR,returning,withdrawal override STAYS; 62.7/295
+DL,DT,2,Jonah Lea'ea,SR,transfer:Utah,66.1/623; Utah starting DT
+DL,DT,1,Trey Pierce,SR,returning,RETURNING STARTER; 72.9/405
+DL,DT,2,Deyvid Palepale,JR,returning,
+DL,DE,1,Cameron Brandt,SR,returning,59.2/405; 3rd end last yr
+DL,DE,2,Dominic Nichols,JR,returning,72.2/198
+DL,EDGE,1,Carter Meadows,FR,recruit,5*
+LB,ILB,1,Troy Bowles,SR,returning,60.6/210; PS#7 LB
+LB,ILB,2,Nathaniel Owusu-Boateng,SO,returning,54.4/75; Top200 rFr
+LB,ILB,1,Chase Taylor,SO,returning,62.8/80
+LB,ILB,2,Aisea Moa,SR,transfer:Michigan State,63.6/180
+LB,LB,3,Nathaniel Staehling,JR,transfer:North Dakota State,FCS standout
+LB,LB,3,Max Alford,SR,transfer:BYU,62.9/142
+DB,CB,1,Jyaire Hill,SR,returning,RETURNING STARTER; 77.6/710; all-league
+DB,CB,2,Shamari Earls,SO,returning,
+DB,CB,1,Zeke Berry,SR,returning,RETURNING STARTER; DOUBLE OVERRIDE (news.md); 65.8/562
+DB,CB,2,Jo'Ziah Edmond,JR,returning,
+DB,NB,1,Smith Snowden,SR,transfer:Utah,69.3/632; 2nd-tm All-B12
+DB,NB,2,Chris Bracy,JR,transfer:Memphis,68.6/758; 10 st 81 tkl
+DB,S,1,Rod Moore,SR,returning,yr4 override RETURNS (ACL medical); 64.0/85; 3x captain
+DB,S,2,Mason Curtis,JR,returning,76.4/369
+DB,S,1,Chris Bracy,JR,transfer:Memphis,S/NB dual-listed by Athlon
+DB,S,2,Jordan Young,SO,returning,53.5/148
+ST,K,1,Trey Butkowski,SO,transfer:Pittsburgh,20-23 FG as FR
+ST,P,1,Cameron Brown,SO,transfer:UNLV,41.1 net
+ST,KR,1,Andrew Marsh,SO,returning,
+ST,PR,1,Andrew Marsh,SO,returning,
