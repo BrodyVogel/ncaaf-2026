@@ -1,0 +1,12 @@
+{
+ "Texas_Tech": {"QB":58,"RB":86,"WRTE":75,"OL":79,"DL":81,"LB":78,"DB":86,"ST":91},
+ "BYU": {"QB":81,"RB":90,"WRTE":42,"OL":81,"DL":56,"LB":42,"DB":83,"ST":42},
+ "Utah": {"QB":84,"RB":77,"WRTE":54,"OL":48,"DL":54,"LB":55,"DB":61,"ST":80},
+ "Houston": {"QB":73,"RB":62,"WRTE":76,"OL":61,"DL":62,"LB":53,"DB":67,"ST":38},
+ "Kansas": {"QB":40,"RB":32,"WRTE":44,"OL":52,"DL":60,"LB":50,"DB":38,"ST":45},
+ "Iowa_State": {"QB":52,"RB":30,"WRTE":41,"OL":24,"DL":57,"LB":27,"DB":42,"ST":48},
+ "Tulane": {"QB":30,"RB":49,"WRTE":48,"OL":25,"DL":30,"LB":15,"DB":24,"ST":60},
+ "Memphis": {"QB":35,"RB":32,"WRTE":41,"OL":36,"DL":47,"LB":35,"DB":71,"ST":52},
+ "East_Carolina": {"QB":40,"RB":61,"WRTE":42,"OL":34,"DL":45,"LB":20,"DB":56,"ST":50},
+ "Charlotte": {"QB":25,"RB":15,"WRTE":50,"OL":20,"DL":4,"LB":10,"DB":16,"ST":25}
+}
