@@ -1,0 +1,16 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Anthony Boswell,190901,C,TOLEDO,13,100.0,2,316,77.0,79.9,80.1,2,8,422,100.0,100.0,98.8,9,10,0,819,819,0,0,819,448,448,0,0,371,0,2025_this_team
+Ethan Spoth,156998,G,TOLEDO,13,100.0,0,316,61.6,55.0,63.1,3,15,363,100.0,100.0,97.5,2,18,0,706,0,0,1,706,387,387,705,0,319,0,2025_this_team
+Cole Rhett,171386,T,TOLEDO,13,100.0,1,316,61.0,39.8,73.8,5,20,331,100.0,100.0,95.0,8,29,4,669,0,0,77,669,345,345,0,587,324,5,2025_this_team
+Stephen Gales,171377,T,TOLEDO,13,100.0,0,316,48.3,51.1,49.8,5,15,331,100.0,100.0,95.5,6,25,5,646,0,0,645,646,354,354,0,0,292,1,2025_this_team
+Carter Fouty,156989,G,TOLEDO,11,100.0,1,316,63.6,58.0,63.0,3,8,320,100.0,100.0,98.0,1,12,1,639,0,503,0,639,338,338,135,0,301,1,2025_this_team
+Jonathan Harder,164145,G,TOLEDO,11,100.0,0,316,59.1,74.2,54.9,0,9,191,100.0,100.0,97.6,2,9,0,396,0,395,0,396,203,203,0,0,193,1,2025_this_team
+Ibrahim Traore,129796,T,TOLEDO,11,100.0,0,316,56.8,59.7,58.3,3,11,197,100.0,100.0,95.9,5,15,1,388,0,0,179,388,213,213,1,207,175,1,2025_this_team
+Matt Hofer,184126,T,TOLEDO,9,100.0,0,316,73.2,68.6,70.9,0,3,41,100.0,100.0,96.3,0,3,0,115,0,3,0,115,44,44,0,112,71,0,2025_this_team
+Brian Keane,171380,C,TOLEDO,5,100.0,0,316,71.2,67.7,68.0,0,0,26,100.0,100.0,100.0,0,0,0,90,90,0,0,90,28,28,0,0,62,0,2025_this_team
+Raphael Greene-Nyarko,199318,G,TOLEDO,4,100.0,0,316,51.6,30.0,57.0,0,0,17,100.0,100.0,94.1,1,1,1,56,0,0,0,56,18,18,56,0,38,0,2025_this_team
+Jacob Kropchak,190131,G,TOLEDO,3,100.0,0,316,71.6,73.9,70.7,0,0,2,100.0,100.0,100.0,0,0,0,18,0,6,0,18,3,3,12,0,15,0,2025_this_team
+Dylan Senda,174057,T,AUBURN,2,100.0,0,115,57.7,36.1,60.3,0,0,8,100.0,100.0,100.0,0,0,0,16,0,0,0,16,8,8,6,10,8,0,arrival_2025_at_AUBURN
+Christian Medlock,171321,G,TOLEDO,2,100.0,0,316,60.9,,60.7,0,0,0,,,,0,0,0,5,0,0,5,5,0,0,0,0,5,0,2025_this_team
+Maddox Marcotte,184130,C,TOLEDO,1,100.0,0,316,60.0,,60.0,0,0,0,,,,0,0,0,1,0,1,0,1,0,0,0,0,1,0,2025_this_team
+Isiah Switzer,205431,C,TOLEDO,1,100.0,0,316,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,1,1,0,0,0,0,1,0,2025_this_team

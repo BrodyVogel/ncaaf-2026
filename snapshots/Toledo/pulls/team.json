@@ -1,0 +1,36 @@
+{
+ "id": 2649,
+ "school": "Toledo",
+ "mascot": "Rockets",
+ "abbreviation": "TOL",
+ "alternateNames": [
+  "TOL",
+  "Toledo"
+ ],
+ "conference": "Mid-American",
+ "division": null,
+ "classification": "fbs",
+ "color": "#0a2240",
+ "alternateColor": "#ffcd00",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2649.png"
+ ],
+ "twitter": "@ToledoFB",
+ "location": {
+  "id": 3739,
+  "name": "Glass Bowl",
+  "city": "Toledo",
+  "state": "OH",
+  "zip": "43606",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 41.6574777,
+  "longitude": -83.6135652,
+  "elevation": "181.4839783",
+  "capacity": 26038,
+  "constructionYear": 1937,
+  "grass": false,
+  "dome": false
+ }
+}

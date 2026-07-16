@@ -1,0 +1,57 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,John Alan Richter,JR,returning,career backup: 3 st '24; 66% 7-1 career; 30 snaps 73.8 '25; Athlon+PS QB1 'strongest arm'
+QB,QB,2,Khamoni Robinson,JR,transfer:Lenoir-Rhyne,D2: 2391 @ 20-6; no offset cell
+QB,QB,3,Walter Moses,FR,returning,rFr PS#118
+RB,RB,1,CJ Miller,JR,transfer:Mercer,957 rush 1st-Tm SoCon; 1267 scrimmage 17 TD; in-scheme (Jacobs)
+RB,RB,2,Autavius Ison,JR,transfer:Mercer,in-scheme depth
+RB,RB,2,Connor Walendzak,SR,returning,led team rushing '23; 32 att 61.5 '25
+RB,RB,3,Corey Smith,SO,transfer:Penn State,14 att 63.3 B10 '25 (adj 62.9); pedigree body
+RB,RB,3,Mike Drennen II,SR,returning,ex-Kentucky; 10 att 74.4 '25
+WRTE,WR,1,Bryson Hammer,JR,returning,35 routes 61.7; MAC PR-yardage leader 2 straight yrs; moves to WR1
+WRTE,WR,1,Kalvin Gilbert Jr.,JR,transfer:Southeast Missouri State,FCS
+WRTE,WR,1,Anthony Simpson,SR,transfer:Michigan,UMass '23 ~950 yds; 3 routes at Michigan '25
+WRTE,WR,2,Adjatay Dabbs,JR,transfer:Mercer,856 @ 19.0 FCS; in-scheme
+WRTE,WR,2,Rico Bond,SO,transfer:Lindenwood,701 yds; Jerry Rice Award finalist
+WRTE,WR,2,Tashi Braceful,SO,returning,8 routes 68.1 '25
+WRTE,TE,1,Jake Newell,SR,transfer:Akron,MAC tape: 92 routes 43.7 raw -> 36.6 adj; 16 career starts; PS#67
+WRTE,TE,2,Peyton Strickland,SR,transfer:unknown,Athlon TE2*; FEED-GAP arrival (origin unresolved)
+WRTE,TE,3,Tucker Kelleher,SO,transfer:BYU,no 2025 tape row
+OL,LT,1,Stephen Gales,SR,returning,WITHDRAWN-override STAYS; 646 snaps 48.3 raw (33.1 MAC-adj); 11 st; Athlon bold 'All-MAC candidate'
+OL,LT,2,Matt Hofer,SO,returning,115 snaps 73.2 (58.0 adj)
+OL,LG,1,Jonathan Harder,SR,returning,396 snaps 59.1 (43.9 adj); ex-Cincinnati
+OL,LG,2,Christian Medlock,JR,returning,5 snaps
+OL,C,1,Dylan Senda,JR,transfer:Auburn,16 snaps 57.7 SEC '25 (adj 71.2 - trivial sample)
+OL,C,2,Luke Rector,JR,transfer:Gardner-Webb,12 FCS starts
+OL,RG,1,Ahmad Carwise,SO,transfer:Gardner-Webb,FCS
+OL,RG,2,Dominic Johnson,SO,transfer:Georgia State,no 2025 tape row
+OL,RT,1,Ibrahim Traore,SR,returning,yr4-OVERRIDE (2 prints); 388 snaps 56.8 (41.6 adj); 4 st
+OL,RT,2,Nick Thomas,SR,transfer:Rhode Island,FCS
+DL,DE,1,Andrew Zock,JR,transfer:Mercer,FCS DPOY '25: 20 TFL 11.5 sk; SoCon FrOY; P4 offers declined; in-scheme
+DL,DE,2,Zach Johnson,SO,transfer:UAB,121 snaps 69.6 AAC (adj 63.7)
+DL,DT,1,Caden Camese,SR,transfer:Mercer,MedRS '25; 3 st 24 gm '23-24; in-scheme
+DL,DT,2,Cam Gwinn,FR,returning,8 snaps
+DL,DT,1,Lucas Lambert-Pipkin,JR,returning,65 snaps 53.4 (47.0 adj); Robert Morris '24
+DL,DT,2,Nathaniel Chandler,JR,returning,yr4-OVERRIDE (2 prints); 41 snaps 60.5 (54.1 adj); Sacred Heart '23
+DL,DE,1,Damon Ollison II,SR,returning,yr4-OVERRIDE (2 prints); LB->DE move; ~no '25 tape; PS#75
+DL,DE,2,Ezra Odinjor,JR,transfer:UAB,492 snaps 62.3 AAC (adj 56.4); 10 st; ex-Georgia Tech RS
+LB,LB,1,Langston Long,SR,returning,360 snaps 58.5 (46.5 adj); Virginia '22 -> USF '24 -> Toledo
+LB,LB,2,Isaac Zay,SO,returning,49 snaps 73.4 (61.4 adj)
+LB,LB,1,Julian Fox,JR,transfer:Mercer,12 st 85 tkl 8.5 TFL All-SoCon; in-scheme; FEED-GAP arrival (documented)
+LB,LB,2,Kari Jackson,SO,transfer:Penn State,2 yrs PSU; zero 2025 defensive tape; PS#28
+LB,LB,3,Isaac Prince,SR,transfer:Mercer,12 gm 53 tkl 10.5 TFL All-SoCon; in-scheme; FEED-GAP arrival (Athlon prose; not on its 22-chart)
+DB,CB,1,Hyajah Miller,SO,returning,20 snaps '25
+DB,CB,2,Tyrell Russell,FR,returning,rFr; RS 1 gm
+DB,CB,1,Cam Jones,JR,transfer:Holy Cross,1st-Tm All-Patriot as true So: 56 tkl 2 int 7 pbu
+DB,CB,2,Israel Petite,SO,transfer:Robert Morris,12 gm 36 tkl 2 int as rFr
+DB,NB,1,Mo Conteh,SR,transfer:Ohio Dominican,D3: 9 gm 50 tkl; 'turning heads'
+DB,NB,2,Kaleb Hutchinson,SR,transfer:Mercer,11 st 68 tkl 1st-Tm SoCon
+DB,S,1,Nicholas Thompson,JR,returning,268 snaps 69.4 (66.1 adj)
+DB,S,2,Dylan Hohler,JR,returning,93 snaps 74.3 (71.0 adj)
+DB,S,1,Donovan Watkins,JR,transfer:Mercer,12 st 34 tkl 2 int 9 pbu; 14 st as rFr
+DB,S,2,Armorion Smith,SR,transfer:Michigan State,425 B10 snaps 50.3 (adj 56.6); 6-7 st; PS#136
+ST,K,1,Reice Griffith,SR,transfer:Mercer,14-17 FG; half of makes 40+; Mercer all-time scorer
+ST,P,1,Emilio Duran,SR,returning,60 punts 40.6 / 36.6 net; PS#55; job 'up for grabs' per Athlon
+ST,P,2,Markus Meincke,JR,transfer:Mercer,from Germany
+ST,PR,1,Bryson Hammer,JR,returning,led MAC in PR yardage 2 straight years
+ST,KR,1,Rico Bond,SO,transfer:Lindenwood,new
+ST,LS,1,Max Allen,SR,transfer:Mercer,LS

@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Jason",
+  "lastName": "Candle",
+  "hireDate": "2015-12-02T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Toledo",
+    "year": 2024,
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -2,
+    "spOverall": -2.5,
+    "spOffense": 24.5,
+    "spDefense": 26.3
+   }
+  ]
+ },
+ {
+  "firstName": "Jason",
+  "lastName": "Candle",
+  "hireDate": "2015-12-02T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Toledo",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 6.2,
+    "spOverall": 6,
+    "spOffense": 25.8,
+    "spDefense": 18.5
+   }
+  ]
+ }
+]

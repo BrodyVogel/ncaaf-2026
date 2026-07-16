@@ -1,0 +1,71 @@
+{
+ "team": "Toledo",
+ "conference": "Mid-American",
+ "created_utc": "2026-07-16T21:54:41+00:00",
+ "assembler_git_rev": "988bd01",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "Jason Candle (10 yrs, program wins leader 81-44) -> UConn Dec 2025. Mike Jacobs from Mercer - FIRST FBS HC job (94-23 career: Lenoir-Rhyne D2 -> Mercer FCS, B2B SoCon titles, 15-1 league last 2 yrs). Full staff/scheme turnover both sides (OC Reisert ex-Tiffin HC; DC Brown from Mercer). x1.13 APPLIES.",
+ "portal_departure_confirmed": [
+  "Kenji Christian",
+  "Braedyn Moore",
+  "Owen Gibbs",
+  "Esean Carter",
+  "Maddox Marcotte"
+ ],
+ "portal_withdrawal_overrides": [
+  "Stephen Gales"
+ ],
+ "yr4_return_overrides_documented": [
+  "Ibrahim Traore",
+  "Nathaniel Chandler",
+  "Damon Ollison II"
+ ],
+ "nfl_declare_confirmed": [
+  "Emmanuel McNeil-Warren"
+ ],
+ "departure_confirmed_research": [
+  "Ethan Spoth",
+  "Terrell Crosby Jr."
+ ],
+ "known_name_exceptions": {
+  "Stephen Gales": "out-feed elig=Withdrawn/no-dest vs BOTH prints anchoring him as THE returning offensive starter (Athlon bold LT 'All-MAC candidate' + counts OFFENSE (1); PS '11 st returns'). WITHDREW (override) STAYS - Bradley/Curtis precedent.",
+  "Ethan Spoth": "706-snap 2025 starting G: NOT in out-feed, NOT yr4 (roster yr=3), absent from BOTH prints' two-deeps; both prints affirmatively count returning starters without him (Athlon OFFENSE (1); PS 'just two starters are back'). research-GONE, destination unknown (DeWalt pattern; mass-exodus feed silence).",
+  "Terrell Crosby Jr.": "137-route 2025 WR: same pattern as Spoth - feed-silent, yr=3, absent from both prints. research-GONE, destination unknown.",
+  "Nate Chandler": "feed yr4 name-form 'Nate' vs PFF/Athlon 'Nathaniel Chandler' - same player; yr4-return override (two prints: Athlon DT2 'Jr.', PS '5 gm, 3 tkl here LY' + Sacred Heart history).",
+  "Damon Ollison II": "feed yr4 LB; returns per two prints (Athlon DE1 'Sr.', PS 'Damon Ollison PS#75'). Position moved LB->DE. Override STAYS.",
+  "Ibrahim Traore": "feed yr4; returns per two prints (Athlon RT starter 'Sr.', PS 'Traore 4 st'). Override STAYS.",
+  "Peyton Strickland": "Athlon TE2 with transfer-* (Sr.) - ABSENT from in-feed; origin unresolved by prints. Feed-gap arrival.",
+  "Hunter Probst": "P, PS#29 - RECRUIT entity, not a portal body (Blake precedent); no feed row expected.",
+  "Michael-Arinze Ezirim": "returning WR body (So, 'no stats 5 gm as rFr LY') - NOT CC Ezirim (TE, -> WKU per out-feed). Name-collision note.",
+  "Mike Drennen II": "returning RB (10 att 74.4 '25 at Toledo per provenance) - Kentucky origin PRE-2025; PS phrasing 'add' refers to room assembly, not a 2026 move. No feed entry expected.",
+  "Isaac Prince": "Mercer LB arrival - NOT in in-feed; Athlon prose names him All-SoCon arrival with Fox; PS line '12 gm, 53 tkl, 3 sk, 10.5 tfl at Mercer LY'. FEED-GAP arrival (Mercer pipeline), documented.",
+  "Julian Fox": "Mercer LB arrival - Athlon STARTER (LB1, transfer-*) + PS line '12 st, 85 tkl, 8.5 tfl at Mercer LY' - yet ABSENT from in-feed. FEED-GAP arrival (Mercer pipeline). Both All-SoCon Mercer LBs are feed-invisible; the feed's Mercer count (11) undercounts Athlon's 14."
+ },
+ "feed_gap_arrivals_documented": [
+  "Peyton Strickland (TE - Athlon TE2*; origin unresolved)",
+  "Isaac Prince (LB - Mercer, Athlon prose + PS line; absent from in-feed)",
+  "Julian Fox (LB - Mercer, Athlon LB1* + PS line; absent from in-feed)"
+ ],
+ "position_notes": {
+  "Damon Ollison II": "LB in roster25/feed; DE1 per Athlon 2026 chart - counted in DL room",
+  "Jake Newell": "Akron MAC tape carries WRTE-7.12 offset: 43.7 raw -> 36.6 adj",
+  "Armorion Smith": "MSU B10 DB tape carries +6.33: 50.3 raw -> 56.6 adj (425 snaps)",
+  "Ezra Odinjor + Zach Johnson": "UAB AAC DL tape carries -5.89: 62.3->56.4 (492 snaps) / 69.6->63.7 (121)",
+  "Dylan Senda": "Auburn SEC OL cell +13.45 on a 16-snap sample - pedigree signal only, not load-bearing",
+  "Caden Camese": "MedRS 2025 at Mercer - zero '25 tape; '23-24 production only",
+  "Kari Jackson": "zero 2025 defensive tape at PSU - pedigree-only grade input (PS#28)",
+  "IN-SCHEME NOTE": "Mercer import core (11 feed + Prince/Strickland-adjacent; Athlon says 14) arrives with its entire staff - FCS translation discount partially offset at RB/DL/LB in grading"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "2026 recruiting team ranks not on CFBD - use 247 site at research time for class context",
+  "Athlon results-column OCR jumbled (record verified from header; individual game scores partially unreliable)",
+  "Spoth/Crosby destinations unknown (research-GONE)",
+  "P job unsettled (Duran vs Meincke/Probst per Athlon)",
+  "Strickland origin unresolved"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}
