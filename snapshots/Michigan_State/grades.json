@@ -1,0 +1,174 @@
+{
+ "team": "Michigan State",
+ "units": {
+  "QB": {"grade": 53, "confidence": "M"},
+  "RB": {"grade": 48, "confidence": "M"},
+  "WRTE": {"grade": 38, "confidence": "M"},
+  "OL": {"grade": 46, "confidence": "M"},
+  "DL": {"grade": 44, "confidence": "M"},
+  "LB": {"grade": 53, "confidence": "M"},
+  "DB": {"grade": 44, "confidence": "M"},
+  "ST": {"grade": 26, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (d4c47dc)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "exemplar mechanics run at dossier time; all eight finals match the dossier planned lines."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 50, RB 31, WRTE None, OL 46, DL None, LB 52, DB 50, ST 2)",
+   "WRTE": "proxy BLANK (no qualifying volume); 38 prices McCray's withdrawal-return + priors-only imports",
+   "DL": "proxy BLANK; 44 prices the I.Smith override + Roberts + non-AQ imports",
+   "RB": "+17 vs proxy 31 (proxy can't see Edwards/Patterson/Parrish arrivals - the room is bought, not returned)",
+   "ST": "+24 vs proxy 2 (Woods + Dakin import from Iowa; proxy sees only the departed specialists)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Michigan State", "unit": "QB", "grade": 53, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "Milivojevic earned the job in November: 71.3 PFF/205 dropbacks (B10 +1 -> 72.3, at the p50 unit reference), 64.2% with 10-3 over the final four starts (PS); 'his QB Rating would have placed ninth in the Big Ten' (P6).",
+    "The named tax (Athlon): 25 sacks in his four starts - 'he'll need a quicker trigger and help from his offensive line' - and the line is now five new starters.",
+    "Sample honesty: 205 dropbacks is a hint-plus, not a season; a new OC (Sheridan) installs on top of it.",
+    "Depth is genuinely useful: Fancher (62.7/98 at UCF; 28 career FBS starts) 'will push Milivojevic' (PS).",
+    "53, M = fringe-average: the adjusted tape is average-P4-starter quality, the sample and the sack context cap it."
+   ],
+   "key_players": [
+    {"name": "Alessio Milivojevic", "role": "QB1 (SO)", "evidence": "71.3 PFF/205 dropbacks; 64.2%, 10-3 in four Nov starts 2025"},
+    {"name": "Cam Fancher", "role": "QB2 (transfer, UCF)", "evidence": "62.7/98 2025; 28 career starts (PS)"}
+   ],
+   "data_gaps": ["Fancher push (PS) unresolved", "Sheridan scheme unknown until kickoff (P6)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Michigan State", "unit": "RB", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "The room is bought: Edwards (86.0 PFF/209 att at UCONN - the independents cell carries a -14 mechanical discount to ~72, flagged as judgment; 1,240 actual rush yds @ 5.9 with Athlon's own 'weaker schedule' caveat) is the likely starter (P6).",
+    "Patterson (77.4/60 at IOWA - B10-real tape, tiny sample; 811 @ 4.5 over three years) and Parrish (WKU; 576 @ 5.4; C-USA All-Freshman) give proven-level depth; K.Williams (Nebraska) adds return value.",
+    "RETURN: Tullis (66.5/68; 301 @ 4.4 short-yardage role) + Clarizio (PS#39) off the injury year. GONE: Frazier (74.8/117) to Ole Miss.",
+    "PS: 'should easily top the last 2 years' production'; P6: 'it remains a deep room.'",
+    "Mechanical aggregate ~72 at modest volumes (~p37) + depth quantity = 48, M."
+   ],
+   "key_players": [
+    {"name": "Cam Edwards", "role": "RB1 (transfer, UConn)", "evidence": "86.0 PFF/209 att; 1,240 yds @ 5.9 2025 (PS)"},
+    {"name": "Jaziun Patterson", "role": "RB2 (transfer, Iowa)", "evidence": "77.4/60 2025; 811 @ 4.5 career (PS)"},
+    {"name": "Brandon Tullis", "role": "RB3 (returning)", "evidence": "66.5/68; 301 @ 4.4 2025"}
+   ],
+   "data_gaps": ["Committee shares under Sheridan", "Clarizio recovery status"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Michigan State", "unit": "WRTE", "grade": 38, "confidence": "M",
+   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "rationale_bullets": [
+    "All three B10-honored catchers are gone: Marsh (67.5/386 - to Indiana as a Top 10 transfer WR), Kelly (66.8/403), TE Velling (63.2/300); TE Masunas (76.8/105) also left for Texas. The proxy prints a BLANK - no qualifying returning volume.",
+    "McCray (64.9/268 -> 63.9) is the room's proven piece - a portal withdrawal who stays and 'steps up into the lead role' (P6).",
+    "The adds are priors, not production: KK Smith (73.3 on 50 routes at ND), F.Moore (45.9/5 at Michigan) - 'high-potential players stuck in crowded rooms... three-star transfers' (P6) - and D2 'Super Back' Gulker (73 career TDs at Ferris State; no FBS tape, heavy level judgment).",
+    "Top250 FR Gash (#1 WR recruit in Michigan) 'could earn playing time right away' (P6).",
+    "Real-route aggregate ~64 (~p30). 38, M = bottom-third with upside entirely in unproven players."
+   ],
+   "key_players": [
+    {"name": "Chrishon McCray", "role": "WR1 (withdrawal override)", "evidence": "64.9 PFF/268 routes 2025; 2nd-tm MAC 2024"},
+    {"name": "KK Smith", "role": "WR (transfer, Notre Dame)", "evidence": "73.3/50 routes 2025 - pedigree, no volume"},
+    {"name": "Carson Gulker", "role": "TE/Super Back (transfer, Ferris State D2)", "evidence": "73 career TDs across roles (P6); no FBS tape"}
+   ],
+   "data_gaps": ["Gulker's FBS translation (D2)", "Gash camp standing"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Michigan State", "unit": "OL", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "One returning starter - C.Moore (68.3/765 -> 67.3), the only returning offensive starter on the team - after losing seven OL (38 career starts) incl. the best tape (Gulbin 82.6/727, yr4) and Ramil (74.3/163, to Auburn).",
+    "Five imports with 72 career starts (PS): Murawski (75.9/773 at UCONN - the IND-cell -22 mechanical is too dark for a line both books tout; judged mid-60s effective), Wright (67.4/752, Ga Southern), Sharpe (65.9/392 at South Carolina, SEC +13 -> 78.9), Fraley (NDSU - FCS All-American and FCS Rimington winner, level-discounted).",
+    "The context that matters for the QB grade too: 37 sacks allowed (PBLK 12th pctile), 25 in Milivojevic's four starts.",
+    "Coach-attributed optimism, weighted as opinion: Fitzgerald says the group 'improved most in the spring... all 5 OL have all-conference potential' (PS).",
+    "Mechanical mix ~64 (~p42) minus five-new-starters gel risk = 46, M."
+   ],
+   "key_players": [
+    {"name": "Conner Moore", "role": "RT (returning starter)", "evidence": "68.3 PFF/765 snaps 2025"},
+    {"name": "Ben Murawski", "role": "LT (transfer, UConn)", "evidence": "75.9/773 2025; 'highly-touted' (P6)"},
+    {"name": "Trent Fraley", "role": "C (transfer, NDSU)", "evidence": "FCS All-American; FCS Rimington winner (PS)"}
+   ],
+   "data_gaps": ["Alignment beyond Athlon print", "Fraley's FBS translation (FCS)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Michigan State", "unit": "DL", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "Five DL gone (29 starts - PS): VanSumeren (66.6/476) to USC, Thompson (68.2/420) to ASU, Santiago (72.3/248) to Kansas, Kelly + Dunnigan expired. The proxy prints a BLANK for the unit.",
+    "What returns: I.Smith (63.5/286 -> 73.5; yr4 RETURNS override - P6 explicit + PS one-starter-back arithmetic, with Athlon's two-deep omission documented as the dissent), Roberts (69.9/161 -> 79.9; 'playing well at DT before a midseason injury' - P6), Top250 4* Simmons ('ready for a breakout').",
+    "The adds are non-AQ or modest-tape: Soares (58.2/656 at NC State -> 59.2; PFF-classed LB, plays EDGE here per two-deep; PS 'figures to be the top pass rusher'), Coenen (61.4/222 at Illinois -> 71.4), Hazelwood (78.1/83 at Toledo -> 72.1, small sample), Weber St + SEMO depth.",
+    "Athlon is blunt: 'the defensive line room is thin again, which will cause problems'; 9 takeaways in 2025 (6th-fewest) is pinned on the front.",
+    "Mechanical aggregate ~67 (~p48) is dragged by Soares's high-volume mediocre tape; the I.Smith override risk and depth thinness land it at 44, M."
+   ],
+   "key_players": [
+    {"name": "Isaac Smith", "role": "EDGE (yr4 override RETURNS)", "evidence": "63.5 PFF/286 2025; P6 'returning starter at edge'; Athlon omission noted"},
+    {"name": "Ben Roberts", "role": "DT (returning)", "evidence": "69.9/161 2025 (pre-injury)"},
+    {"name": "Kenny Soares Jr.", "role": "EDGE (transfer, NC State)", "evidence": "58.2/656 2025; PS 'top pass rusher' projection"},
+    {"name": "Eli Coenen", "role": "DT (transfer, Illinois)", "evidence": "61.4/222 2025"}
+   ],
+   "data_gaps": ["I.Smith override carries the Athlon-omission dissent", "Simmons (FR) readiness"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Michigan State", "unit": "LB", "grade": 53, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "rationale_bullets": [
+    "Hall is the real thing: 76.1 PFF/643 snaps (B10 +16 -> 92.1, but the RAW 76.1 at full volume needs no offset help - same evidence class as Indiana's returning pair), All-B10, #1 tackler; 'returns to lead the defense' (P6).",
+    "GONE: Matthews (73.8/699, #2 tackler), Snow (to Texas), both NBs (counted at DB).",
+    "The imports are experienced but discounted: Crawford (64.7/644 at Buffalo, MAC -12 -> 52.7; All-MAC) and Wheatland (65.3 on 19 snaps at Auburn; a former Maryland starter). PS: 'a good sized and very experienced group.'",
+    "LB caution applies: beyond Hall, the tape is either non-P4-discounted or tiny; Pretzlaff (51.0/29) is the young depth.",
+    "53, M = average-plus on one star + imported floor."
+   ],
+   "key_players": [
+    {"name": "Jordan Hall", "role": "MLB (returning starter)", "evidence": "76.1 PFF/643 2025; All-B10; #1 tackler"},
+    {"name": "Dion Crawford", "role": "WLB (transfer, Buffalo)", "evidence": "64.7/644 2025; All-MAC"},
+    {"name": "Caleb Wheatland", "role": "WLB (transfer, Auburn)", "evidence": "65.3/19 2025; former Maryland starter (P6)"}
+   ],
+   "data_gaps": ["Crawford-vs-Wheatland starting split", "No sub-grade data for the LB-caution preferred signals"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Michigan State", "unit": "DB", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "rationale_bullets": [
+    "'Their top six defensive backs are gone' (P6): M.Bell (79.1/716 - the best tape), Spencer (64.5/674), Eaton (62.5/418), plus the portal wave (A.Smith to Toledo, West to Minnesota, Willie to UNC, Hughes to Hawai'i, Rucker to ASU). Context: #117 in opponent QB rating; PDR #119 (PS).",
+    "The overrides carry the returns: Martinez (61.6/197 -> 67.6; injury-shortened year; 'back as the top safety' - triple-prose-sourced yr4 override) and Grose (62.2/156; the Maryland game-sealing INT).",
+    "The imports are moderate: T.Bell (67.4/638 at Iowa State, B12 +2 -> 69.4; 'adds length' - PS), Richard (67.4/603 at LaTech, CUSA -6 -> 61.4; 2 years starting), and the homecoming - Brantley (24 career MSU starts, All-B10 HM 2024; buried at Miami 2025 - a prior, not tape).",
+    "FCS depth fills the two-deep (Chappell, Vaught, Stodghill).",
+    "Mechanical aggregate ~66 (~p45); the '25 torching and the Brantley/Martinez health-and-form questions cap it at 44, M."
+   ],
+   "key_players": [
+    {"name": "Nikai Martinez", "role": "S (yr4 override RETURNS)", "evidence": "61.6 PFF/197 2025 (injury); 'top safety for 2026' (P6)"},
+    {"name": "Tre Bell", "role": "CB (transfer, Iowa State)", "evidence": "67.4/638 2025"},
+    {"name": "Charles Brantley", "role": "CB (return to MSU via Miami)", "evidence": "All-B10 HM 2024 at MSU; buried at Miami 2025 (P6)"}
+   ],
+   "data_gaps": ["Brantley's 2025 Miami snap count (not in csv)", "Rover/NB pecking order"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Michigan State", "unit": "ST", "grade": 26, "confidence": "M",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25)", "Illinois RB 2025 (32)"],
+   "rationale_bullets": [
+    "ST rule: start at the prior SPEC percentile - the 2nd - with PS STR #114; then adjust for personnel, which is all-new: K Connington (12-16) to Kansas, P Eckley DRAFTED (48.5/38.1 net - the unit's one elite piece), LS churn.",
+    "The coordinator import is the up-arg: LeVar Woods - 'made Iowa special teams famous' (Athlon) - brings his own Aussie punter Dakin (40.2 net at Iowa).",
+    "K Boyd (Charlotte) arrives with a named flaw: 'missed more short kicks (4-for-6) than long (3-for-4)' (Athlon).",
+    "26, M = off the floor on the Woods/Dakin import (PS: 'can only move up'), capped by an unproven kicker and two years of operational chaos."
+   ],
+   "key_players": [
+    {"name": "Rhys Dakin", "role": "P (transfer, Iowa)", "evidence": "40.2 net 2025; followed STC Woods"},
+    {"name": "Liam Boyd", "role": "K (transfer, Charlotte)", "evidence": "4-6 short / 3-4 long 2025 (Athlon)"}
+   ],
+   "data_gaps": ["Whether Weeks (NAU) pushes Dakin", "Coverage-unit personnel unknowable pre-season"],
+   "g5_guard_note": null
+  }
+ ]
+}
