@@ -1,0 +1,54 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Drake Lindsey,SO,returning,RETURNING STARTER; 70.5/440; 18-6 as rFR
+QB,QB,2,Max Shikenjanski,JR,returning,77.9/6
+QB,QB,3,Michael Merdinger,JR,transfer:Liberty,67.7/59; UNC '24 bowl starter
+RB,RB,1,Darius Taylor,SR,returning,RETURNING STARTER; 77.5/143; injury history
+RB,RB,2,A.J. Turner,SR,returning,77.7/16; OFY wk3; 864 @ 8.3 Marshall '24
+RB,RB,3,Grant Washington,SO,returning,81.1/21
+RB,RB,3,Jaron Thomas,SO,transfer:Purdue,66.7/2
+WRTE,WR,1,Jalen Smith,SO,returning,RETURNING STARTER; 62.9/230
+WRTE,WR,2,Perry Thompson,JR,transfer:Auburn,52.6/226; ex-5*; slot impact projection
+WRTE,WR,1,Javon Tracy,SR,returning,68.9/315; 1st-tm MAC '24
+WRTE,WR,2,Zion Steptoe,JR,transfer:Tulsa,61.1/299; led AAC aDOT
+WRTE,WR,1,Noah Jennings,SR,transfer:Cincinnati,67.1/209
+WRTE,TE,1,Pierce Walsh,JR,returning,64.1/71; Athlon TE1
+WRTE,TE,2,Kaden Helms,SR,transfer:Oklahoma,52.0/59; P6 TE1 (battle - news.md)
+OL,LT,1,Nathan Roy,SO,returning,RETURNING STARTER; 68.6/766; PS#40 NFL radar
+OL,LT,2,Kaveon Lee,FR,recruit,
+OL,LG,1,Greg Johnson,SR,returning,RETURNING STARTER; 75.1/757; PS 1st-team AA
+OL,LG,2,Nick Spence,FR,recruit,
+OL,C,1,Ashton Beers,SR,returning,RETURNING STARTER; 64.0/759
+OL,C,2,Brett Carroll,SO,returning,73.2/44
+OL,RG,1,Tony Nelson,SR,returning,62.7/197; started final 2
+OL,RG,2,Jaden Ball,SO,returning,
+OL,RT,1,Daniel Shipp,FR,returning,Athlon RT1
+OL,RT,2,Bennett Warren,SO,transfer:Tennessee,50.3/76; Top100 '24 recruit
+DL,DE,1,Anthony Smith,SR,returning,RETURNING STARTER; 71.6/671; 1st-tm All-B10; 12.5 sk
+DL,DE,2,Karter Menz,JR,returning,67.2/386; 6.5 sk
+DL,DT,1,Naquan Crowder,JR,transfer:Marshall,76.5/317; 310-320 lbs
+DL,DT,2,Jaylin Hicks,SO,returning,
+DL,DT,1,Riley Sunram,SO,returning,
+DL,DT,2,Xion Chapman,JR,transfer:Florida International,73.9/316
+DL,DE,1,TJ Bush Jr.,SR,transfer:California,69.1/691; 91 pressures/13 sk L3Y
+DL,DE,2,Jaxon Howard,SO,returning,RETURNING-STARTER flag (Athlon); 56.8/423
+DL,DT,3,Sid Kaba,JR,transfer:Marshall,72.3/154
+LB,LB,1,Maverick Baranowski,SR,returning,RETURNING STARTER; 77.2/667; All-B10; 103 tkl
+LB,LB,2,Mason Carrier,SO,returning,75.7/21
+LB,LB,1,Matt Kingsbury,JR,returning,61.2/266
+LB,LB,2,Emmanuel Karmo,SO,returning,59.5/156
+LB,LB,3,Andrew Marshall,JR,transfer:Eastern Michigan,53.9/295
+DB,CB,1,John Nestor,SR,returning,RETURNING STARTER; 81.5/608; HM All-B10
+DB,CB,2,Naiim Parrish,SO,returning,
+DB,CB,1,Aydan West,SO,transfer:Michigan State,62.7/381 as true FR
+DB,CB,2,Mike Gerald,SO,returning,50.0/142
+DB,NB,1,Garrison Monroe,JR,returning,78.9/49
+DB,NB,2,Zahir Rainer,SO,returning,
+DB,S,1,Kerry Brown,JR,returning,RETURNING STARTER; 69.9/639; HM All-B10
+DB,S,2,Zack Harden,SO,returning,midseason S convert
+DB,S,1,Aidan Gousby,SR,returning,61.5/435
+DB,S,2,Mekhai Smith,JR,transfer:Lehigh,All-Patriot FCS
+ST,K,1,Beckham Sunderland,SR,transfer:Michigan,no college FG attempts (battle w/ D.Jackson)
+ST,P,1,Tom Weston,JR,returning,42.6 / 38.6 net
+ST,LS,1,Alan Soukup,SO,returning,'Mr Reliable... NFL prospect' (PS)
+ST,KR,1,Noah Jennings,SR,transfer:Cincinnati,
+ST,PR,1,Javon Tracy,SR,returning,

@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "P.J.",
+  "lastName": "Fleck",
+  "hireDate": "2017-01-06T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Minnesota",
+    "year": 2024,
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 12.6,
+    "spOverall": 10.4,
+    "spOffense": 25.6,
+    "spDefense": 15.4
+   }
+  ]
+ },
+ {
+  "firstName": "P.J.",
+  "lastName": "Fleck",
+  "hireDate": "2017-01-06T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Minnesota",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 0.7,
+    "spOverall": 1.5,
+    "spOffense": 23.8,
+    "spDefense": 20.8
+   }
+  ]
+ }
+]

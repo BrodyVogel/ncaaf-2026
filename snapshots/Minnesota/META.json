@@ -1,0 +1,31 @@
+{
+ "team": "Minnesota",
+ "conference": "Big Ten",
+ "created_utc": "2026-07-16T15:32:43+00:00",
+ "assembler_git_rev": "630fcca",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Fleck yr 10 (extension). OC Harbaugh yr 4, DC Collins yr 2. Full continuity.",
+ "portal_departure_confirmed": ["Quentin Redding", "Cristian Driver"],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Fame Ijaboi": "Fame Ijeboi"
+ },
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Zack Harden": "midseason WR->S convert (P6) - counted DB",
+  "Daniel Jackson": "PK yr1 (K battle) - distinct from the departed WR of the same name"
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "K battle (Sunderland vs Jackson - zero collegiate attempts)",
+  "TE1 print conflict (Athlon Walsh vs P6 Helms)",
+  "Taylor camp health"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

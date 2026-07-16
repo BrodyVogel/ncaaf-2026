@@ -1,0 +1,36 @@
+{
+ "id": 135,
+ "school": "Minnesota",
+ "mascot": "Golden Gophers",
+ "abbreviation": "MINN",
+ "alternateNames": [
+  "MINN",
+  "Minnesota"
+ ],
+ "conference": "Big Ten",
+ "division": null,
+ "classification": "fbs",
+ "color": "#5e0a2f",
+ "alternateColor": "#fab41c",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/135.png"
+ ],
+ "twitter": "@GopherFootball",
+ "location": {
+  "id": 3953,
+  "name": "Huntington Bank Stadium",
+  "city": "Minneapolis",
+  "state": "MN",
+  "zip": "55488",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 44.976525,
+  "longitude": -93.2245462,
+  "elevation": "254.3902283",
+  "capacity": 50850,
+  "constructionYear": 2009,
+  "grass": false,
+  "dome": false
+ }
+}
