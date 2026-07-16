@@ -1,0 +1,213 @@
+{
+ "team": "Central Michigan",
+ "units": {
+  "QB": {"grade": 38, "confidence": "M"},
+  "RB": {"grade": 28, "confidence": "M"},
+  "WRTE": {"grade": 28, "confidence": "M"},
+  "OL": {"grade": 28, "confidence": "M"},
+  "DL": {"grade": 24, "confidence": "M"},
+  "LB": {"grade": 14, "confidence": "L"},
+  "DB": {"grade": 22, "confidence": "M"},
+  "ST": {"grade": 26, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (b9b71a2)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB None, WRTE None, OL 4, DL 0, LB None, DB 15, ST 7) - four-unit void, items #24-27 on the running artifact list",
+   "OL": "+24 vs proxy 4 (proxy drops portal-return Booth and cannot see the Iannuzzi yr4 override or the 7-player feed-gap import cluster)",
+   "DL": "+24 vs proxy 0 (floor-clip; proxy misses ~1,200 returning rotation snaps behind the Heldman/Decker exodus)",
+   "ST": "+19 vs proxy 7 (proxy misses returning P Duley, 13 st, PS P#14)",
+   "DB": "+7 vs proxy 15 (directionally aligned - five 350+ snap departures)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Central Michigan",
+   "unit": "QB",
+   "grade": 38,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Akron QB 2026 (34, this round - proven-MAC floor)",
+    "Syracuse QB 2025 (p25 ref, 63.2)"
+   ],
+   "rationale_bullets": [
+    "First MAC-round room with genuine returning FBS QB quality: Flores 82.5/39 (107 att, 527 @ 4.9, 8 TD as the designated runner) and Glasser 80.1/14 (439 yds starting the final 3 of '24 as a true FR; OFY '25; strong spring) both return.",
+    "The two-QB rotation is BY DESIGN per both prints (runner/passer split) - role clarity, not a battle; and the 2026 Power Spread is being installed specifically for the QB-run identity.",
+    "Cost: Labas (1,854 @ 71% - the actual 2025 passing production) expired; PS expects a step back in passing volume.",
+    "38, M: above every MAC-round QB so far on returning FBS tape; capped by small samples and the departed passer."
+   ],
+   "key_players": [
+    {"name": "Angel Flores", "role": "QB1a - the runner (returning)", "evidence": "82.5/39; 527 rush @ 4.9, 8 TD; 19-of-28 passing"},
+    {"name": "Jadyn Glasser", "role": "QB1b - the passer (returning)", "evidence": "80.1/14; 439 yds in 3 starts as '24 true FR; strong spring"}
+   ],
+   "data_gaps": ["both samples small", "Glasser injury year ('25 OFY vs Pitt)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Central Michigan",
+   "unit": "RB",
+   "grade": 28,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Bowling Green RB 2026 (28, this round - one-man room, higher peak)",
+    "Akron RB 2026 (16, this round)"
+   ],
+   "rationale_bullets": [
+    "Real two-deep with FBS production on both rows: Townsend 73.9/82 (418 @ 5.1) returns and Liberty transfer Blue 65.3/47 (441 @ 5.4 + 162 rec L2Y) takes RB1.",
+    "Holy Cross transfer Clerveaux (1,704 @ 4.7 over 2Y) adds FCS volume; true FR Moore (PS #89, Athlon #1 recruit) was a spring riser; FB VanWetzinga (5 st) anchors the 21-personnel identity.",
+    "Losses absorbable: Biggins 76.1 expired and Cornist 76.0 -> UConn, but the room retains more proven RB depth than any MAC-round team except BGSU's one-man room.",
+    "28 = BGSU 28: depth-over-peak vs peak-over-peak - nets even; well clear of Akron 16."
+   ],
+   "key_players": [
+    {"name": "Vaughn Blue", "role": "RB1 (transfer, Liberty)", "evidence": "65.3/47; 441 @ 5.4 + 162 rec L2Y"},
+    {"name": "Brock Townsend", "role": "RB2 (returning)", "evidence": "73.9/82; 418 @ 5.1"}
+   ],
+   "data_gaps": ["no returning 100-carry back", "scheme-change usage unknown"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Central Michigan",
+   "unit": "WRTE",
+   "grade": 28,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Akron WRTE 2026 (28, this round)",
+    "Buffalo WRTE 2026 (22, this round)"
+   ],
+   "rationale_bullets": [
+    "Lewis 73.9/245 (3rd-Tm All-MAC, 596 @ 13.9, B2B 100-yd games) is the best returning WR grade of the MAC round - and sat in the portal feed as Withdrawn/no-dest; both prints start him, override STAYS.",
+    "Team RECV graded p80; behind Lewis it's spring buzz (Williams 69.3/29) and sub-50-target samples (Ruffin, Payne, Kruisenga).",
+    "TE import Allen (Fordham, 11 st, 327 @ 17.2) is a real FCS receiving TE (no cell); Robinson (JC 1,713) and Foster (ex-MSU) are projection.",
+    "Losses: Davis 74.4/150 -> Virginia, McIntosh 65.3/228 (eligibility appeal, treated gone), Temple -> Oregon State. 28 = Akron 28, above Buffalo 22 on the All-MAC anchor piece."
+   ],
+   "key_players": [
+    {"name": "Langston Lewis", "role": "WR1 (returning starter; withdrawal override)", "evidence": "73.9/245; 3rd-Tm All-MAC; 596 @ 13.9"},
+    {"name": "Jaden Allen", "role": "TE1 (transfer, Fordham)", "evidence": "FCS 11 st, 327 @ 17.2; PS TE #153"},
+    {"name": "Nasir Williams", "role": "WR2 (returning)", "evidence": "69.3/29; strong spring"}
+   ],
+   "data_gaps": ["McIntosh appeal outcome", "no proven WR2"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Central Michigan",
+   "unit": "OL",
+   "grade": 28,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25 anchor)",
+    "Buffalo OL 2026 (16, this round - next-best MAC-round OL)"
+   ],
+   "rationale_bullets": [
+    "~46 career FBS starts return - by far the most of the MAC round: Koivisto 52.8/731 (13 st), Russell 61.2/508 (13 st, 'all-league candidate'), Nehf 51.3/352 (9 st), Booth 61.6/387 (23 gm - portal-return override, both prints' LT1), Ploucha 65.2/529, Iannuzzi 81.2/56 (1st-Tm Ivy '24; yr4 override).",
+    "Imports add lower-division starts: Georgetown's Maka (2nd-Tm Patriot Lg) + Swan, E. Illinois DiSanto (30 st), JC John Williams. HC is a Joe Moore Award OL coach; PS: 'may have the best OLine in the MAC.'",
+    "The counterweight is tape QUALITY: PBLK graded p1 (30.3, second-worst in FBS - partly 3-QB chaos but earned by largely this personnel); returning grades run 51-65 raw.",
+    "28: continuity + coaching pedigree over bottom-of-FBS pass-pro tape - just above the WKU-25 anchor and #1 OL of the MAC round."
+   ],
+   "key_players": [
+    {"name": "Jacob Russell", "role": "LG1 (returning starter)", "evidence": "61.2/508; 13 st at LT; all-league candidate per Athlon"},
+    {"name": "Martin Koivisto", "role": "RT1 (returning starter)", "evidence": "52.8/731; 13 st"},
+    {"name": "Jacob Booth", "role": "LT1 (returning; portal-return override)", "evidence": "61.6/387; 23 gm as backup"}
+   ],
+   "data_gaps": ["PBLK p1 vs continuity-case tension", "Nehf/Iannuzzi both returning from OFY"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Central Michigan",
+   "unit": "DL",
+   "grade": 24,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Bowling Green DL 2026 (34, this round - elite returning edge)",
+    "Buffalo DL 2026 (14, this round)"
+   ],
+   "rationale_bullets": [
+    "Loses the round's best DL tape: Heldman 93.2/568 (10.5 sk, #5 tackler) expired, plus Decker 60.7/484, Hayden 65.9/261 -> EKU, Bennett/Fisher/Conde/Kostus.",
+    "But ~1,200 rotation snaps return - more than Buffalo/Akron/Ball State combined: Demma 68.3/468 (13 st), Douglas 59.6/228 (TE->DE convert, 'break out in Year 2'), Bird 54.2/222, VanWetzinga 60.0/170 (spring injury - monitor), Denkins, Swanson.",
+    "Cornell feed-gap imports Reinbold (18 st, 74 tkl, 5 sk) and Van Fleet are real FCS starters; Zirkle/Cherry origins unprinted.",
+    "24: solid returning rotation without a high-end piece - between Buffalo's 14 (one starter) and BGSU's 34 (returning 85-grade edge)."
+   ],
+   "key_players": [
+    {"name": "Korver Demma", "role": "DE1 (returning starter)", "evidence": "68.3/468; 13 st, 27 tkl, 3.5 sk"},
+    {"name": "JJ Douglas", "role": "DE (returning)", "evidence": "59.6/228 as true-FR TE->DE convert; breakout buzz"},
+    {"name": "James Reinbold", "role": "DE (transfer, Cornell - feed-gap)", "evidence": "18 st, 74 tkl, 5 sk L2Y FCS"}
+   ],
+   "data_gaps": ["no returning piece above 62-equiv", "two import origins unprinted"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Central Michigan",
+   "unit": "LB",
+   "grade": 14,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Buffalo LB 2026 (12, this round)",
+    "Bowling Green LB 2026 (30, this round)"
+   ],
+   "rationale_bullets": [
+    "Everything left: Kwiatkowski 75.4/732 (#1 tklr, 2nd-Tm MAC, 3x POW) and Cochran 73.0/678 (#2 tklr) expired, plus L.Brown 61.6/409 and the rest - the top returnees combined for 42 tackles.",
+    "2026 room: White 60.1/181 (rotation), Earl 60.0/80 (bench), and TRUE FR Esper projected to start (Athlon) - zero proven pieces, no import production bought.",
+    "PS: 'looks weaker and is my biggest question'; Athlon: 'completely rebuilt.'",
+    "14, L: a hair above Buffalo's 12 on ~265 returning FBS snaps (vs their 2), far below BGSU's 30."
+   ],
+   "key_players": [
+    {"name": "Xavier White", "role": "MLB1 (returning)", "evidence": "60.1/181; rotation LY"},
+    {"name": "Victor Earl", "role": "WLB1 (returning)", "evidence": "60.0/80; limited bench action"},
+    {"name": "Drew Esper", "role": "SLB1 (true FR)", "evidence": "Athlon projected starter; #3 recruit"}
+   ],
+   "data_gaps": ["true-FR projected starter", "no import production"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Central Michigan",
+   "unit": "DB",
+   "grade": 22,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Akron DB 2026 (22, this round)",
+    "Bowling Green DB 2026 (30, this round)"
+   ],
+   "rationale_bullets": [
+    "A COV-p81 unit loses five 350+ snap pieces: Carroll 74.6/722 -> TCU, Deasfernandes 73.1/631 -> Northwestern, Spann 74.5/519, Gordon 69.4/422, Rikard, Blackwell, plus Snell and Rowe.",
+    "Jackson 64.0/610 (3rd-year starter, 'unquestioned leader of the back line') is the one returning volume piece; Wyoming transfer Taylor 60.4/276 is the only other FBS tape.",
+    "Fills are FCS/journeyman/rookie: Bryant (UNC '24 -> N. Colorado 75 tkl), Philord (Campbell), feed-gap Ty Williams, true FRs J.Jones and Benaitis in the two-deep battle.",
+    "22 = Akron 22: PS expects the pass-defense rating 'to take a drop' - one anchor, everything else projection."
+   ],
+   "key_players": [
+    {"name": "Jaion Jackson", "role": "CB1 (returning starter)", "evidence": "64.0/610; 3rd-year starter"},
+    {"name": "Justin Taylor", "role": "S1 (transfer, Wyoming)", "evidence": "60.4/276; 1 st, 19 tkl there"},
+    {"name": "Darrell Bryant Jr.", "role": "S1 (transfer, N. Colorado)", "evidence": "FCS 11 st, 75 tkl; UNC '24: 8 st"}
+   ],
+   "data_gaps": ["CB2 is a true-FR-vs-unknown-transfer battle", "safety spots inexperienced per Athlon"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Central Michigan",
+   "unit": "ST",
+   "grade": 26,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Akron ST 2026 (24, this round)",
+    "Buffalo ST 2026 (22, this round - system, no personnel)"
+   ],
+   "rationale_bullets": [
+    "P Declan Duley returns - 54 punts, 41.1 avg, 37.9 net, 18-I20, 13 st (PS P #14): the first proven returning specialist of the MAC round.",
+    "K job goes to rFr VanHuis (PS K #20, UA All-America HS pedigree, zero attempts) after Graham (14-17) expired; pedigreed rather than anonymous.",
+    "The unit's 2025 tape was bad (SPEC p7, PS STR #122; negative PR/KR per PS) and Ruffin's return jobs stay unproven.",
+    "26: the returning P #14 pulls this to the top of the MAC-round ST rooms despite the p7 team tape."
+   ],
+   "key_players": [
+    {"name": "Declan Duley", "role": "P1 (returning)", "evidence": "13 st; 41.1 avg / 37.9 net; PS P #14"},
+    {"name": "Caden VanHuis", "role": "K1 (returning rFr)", "evidence": "PS K #20; UA All-America HS; zero attempts"}
+   ],
+   "data_gaps": ["K has zero attempts", "return game was negative in '25"],
+   "g5_guard_note": null
+  }
+ ]
+}

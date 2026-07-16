@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T20:37:48+00:00",
+ "team": "Central Michigan",
+ "final": -12.81,
+ "rank": 117,
+ "band": 6.18,
+ "resid": 1.39,
+ "adj": 0.49,
+ "class_term": 0.0,
+ "st": -0.48,
+ "anchor_blend": -13.3,
+ "resid_level": 7.09,
+ "resid_shape": -5.7,
+ "implied_off": 20.57,
+ "implied_def": 32.29,
+ "anchor_off": 16.95,
+ "anchor_def": 30.05,
+ "fit_r2": {
+  "off": 0.537,
+  "dfn": 0.615
+ },
+ "low_conf_units": 1,
+ "code_rev": "b9b71a2",
+ "mode": "PILOT-OOS"
+}

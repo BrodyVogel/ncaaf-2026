@@ -41,3 +41,7 @@
 - 2026-07-16 planned grades set; G5 guard N/A (max 38).
 - 2026-07-16 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-16 grades.json written + schema-validated (8/8); gates re-run clean.
+- 2026-07-16 pilot_readout: FINAL -12.81 (r117/138), band ±6.18 (LB L x1.03;
+  coach 1.0; dispersion 1.00, anchor dispersion 3.0 tightest of round).
+  resid +1.39 = level +7.09 + shape -5.70.
