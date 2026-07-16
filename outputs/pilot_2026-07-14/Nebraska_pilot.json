@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-16T15:52:13+00:00",
+ "team": "Nebraska",
+ "final": 6.96,
+ "rank": 35,
+ "band": 6.0,
+ "resid": -3.53,
+ "adj": -1.23,
+ "class_term": -0.0,
+ "st": 0.24,
+ "anchor_blend": 7.45,
+ "resid_level": -4.03,
+ "resid_shape": 0.5,
+ "implied_off": 27.38,
+ "implied_def": 23.46,
+ "anchor_off": 29.07,
+ "anchor_def": 21.63,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.614
+ },
+ "low_conf_units": 0,
+ "code_rev": "74e4a8e",
+ "mode": "PILOT-OOS"
+}
