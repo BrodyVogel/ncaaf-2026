@@ -40,3 +40,8 @@
 - 2026-07-16 planned grades set; G5 guard N/A (max 40).
 - 2026-07-16 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-16 grades.json written + schema-validated (8/8); gates re-run clean.
+- 2026-07-16 pilot_readout: FINAL -7.41 (r95/138 - MAC round lead), band ±6.18
+  (QB L x1.03). resid -3.55 = level +3.78 + shape -7.33 - FIRST NEGATIVE
+  residual of the MAC round: anchors (SP+ -2.9) price the p76 defense whose
+  stars all left; grades 5.62 cooler on the D. Dispersion 7.73 (no flag).

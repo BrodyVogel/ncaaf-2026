@@ -1,0 +1,216 @@
+{
+ "team": "Miami (OH)",
+ "units": {
+  "QB": {"grade": 30, "confidence": "L"},
+  "RB": {"grade": 26, "confidence": "M"},
+  "WRTE": {"grade": 24, "confidence": "M"},
+  "OL": {"grade": 30, "confidence": "M"},
+  "DL": {"grade": 28, "confidence": "M"},
+  "LB": {"grade": 38, "confidence": "M"},
+  "DB": {"grade": 26, "confidence": "M"},
+  "ST": {"grade": 40, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-16",
+  "snapshot_rev": "frozen 2026-07-16 (a4426e7)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 6, RB None, WRTE 6, OL 3, DL 9, LB 16, DB 3, ST 56) - item #37 on the running artifact list",
+   "LB": "+22 vs proxy 16 (proxy blind to BOTH import all-conference LBs: Young is a double-feed-gap walk-on, Myrick a portal-in)",
+   "OL": "+27 vs proxy 3 (proxy cannot see Malcore's 74.5/715 arrival row or weigh 49 returning starts)",
+   "DB": "+23 vs proxy 3 (drops Withdrawn-portal Yharbrough; counts departed Blakey/Walters/Beasley)",
+   "ST": "-16 vs proxy 56 - directionally aligned for once (everything but the K returns)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Miami (OH)",
+   "unit": "QB",
+   "grade": 30,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Kent State QB 2026 (32, this round - proven-but-modest returning starter)",
+    "Buffalo QB 2026 (22, this round - zero FBS tape)"
+   ],
+   "rationale_bullets": [
+    "Split-print battle: Athlon expects Gotkowski ('expected to be QB1 in the fall'); PS's lineup starts Kansas RS McComb (PS #34, zero tape).",
+    "Gotkowski's tape is thin and mixed: 59.1/109, 575 @ 44%, 4-1 - late-season wins over Buffalo/Ball St ('saved their season' - HC) then significant regression in the title game and bowl.",
+    "D2 Heavner (3,239 + 1,017 rush at Fort Hays - feed-gap) adds real no-cell volume; Finn (MAC MVP '23, left the team in November) and Hesson both expired.",
+    "30, L: some returning FBS tape + P4-RS pedigree beats the zero-tape rooms (UMass/Buffalo 22); the 44% completion rate and open battle cap it under KSU's 32."
+   ],
+   "key_players": [
+    {"name": "Thomas Gotkowski", "role": "QB1 candidate (returning)", "evidence": "59.1/109; 3 st, 575 @ 44%, 4-1"},
+    {"name": "David McComb", "role": "QB1 candidate (transfer, Kansas)", "evidence": "RS, zero tape; PS #34"},
+    {"name": "Caleb Heavner", "role": "QB2 (transfer, D2 Fort Hays - feed-gap)", "evidence": "3,239 pass + 1,017 rush over 21 gm"}
+   ],
+   "data_gaps": ["split-print starter", "no candidate above 109 FBS pass snaps"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Miami (OH)",
+   "unit": "RB",
+   "grade": 26,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Central Michigan RB 2026 (28, this round)",
+    "Buffalo RB 2026 (16, this round)"
+   ],
+   "rationale_bullets": [
+    "Headliner add: Rodney Nelson - FCS Monmouth CAA PLAYER OF THE YEAR (1,802 @ 6.2, 18 TD); Athlon expects 'the bulk of the carries' (origin verified vs feed; PS's Merrimack/Fort-Hays variants rejected).",
+    "Real support: Wisconsin's Yacamelli (64.6/38; B10 +5 tiny) + returning rFr Jones 79.8/62 (277 @ 4.4, 1 st, PS #169).",
+    "Loses Brunson 75.3 (767 yds) + Tracy to expiry, but the committee's quality arguably improves.",
+    "26: FCS-POY-led committee lands just under CMU/BGSU's 28 (their FBS tape beats his no-cell tape) and far over Buffalo's 16."
+   ],
+   "key_players": [
+    {"name": "Rodney Nelson", "role": "RB1 (transfer, FCS Monmouth)", "evidence": "CAA POY; 1,802 @ 6.2, 18 TD"},
+    {"name": "D'Shawntae Jones", "role": "RB2 (returning)", "evidence": "79.8/62; 277 @ 4.4; PS #169"},
+    {"name": "Cade Yacamelli", "role": "RB2 (transfer, Wisconsin)", "evidence": "64.6/38; 571 @ 5.3 over 3 yrs"}
+   ],
+   "data_gaps": ["FCS-to-MAC translation for the headliner"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Miami (OH)",
+   "unit": "WRTE",
+   "grade": 24,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Kent State WRTE 2026 (26, this round)",
+    "Buffalo WRTE 2026 (22, this round)"
+   ],
+   "rationale_bullets": [
+    "Loses ~2,050 receiving yards: Perry 77.3/370 (976 @ 22.7) -> Colorado, Weaver 69.7/400 (642) -> Syracuse, Colzie expired, TE Shane 78.6 expired.",
+    "Reynolds 64.4/324 (12 st, 352; ex-Washington) is the one proven returnee; Isom 60.6/166 next.",
+    "The reload is P4-pedigree-over-tape: Witten (Ohio State DNP, PS WR #22), Hyatt (Arizona), Q.Simmons (Kentucky RS), feed-gap Jenkins/Huggins; TE = rFr Zvonar + Memphis's Ross.",
+    "24: one 12-start anchor + credentialed unknowns - between Buffalo's 22 and KSU's four-mid-piece 26. 'Almost all the receivers will be newcomers' (Athlon)."
+   ],
+   "key_players": [
+    {"name": "Keith Reynolds", "role": "WR1 (returning starter)", "evidence": "64.4/324; 12 st, 352 @ 9.8"},
+    {"name": "Damarion Witten", "role": "WR (transfer, Ohio State)", "evidence": "PS WR #22; zero-snap rFr (gap-in-feed origin)"},
+    {"name": "Braylon Isom", "role": "WR (returning)", "evidence": "60.6/166; 158 @ 14.4 L2Y"}
+   ],
+   "data_gaps": ["P4 adds have ~10 combined FBS targets", "two import origins unprinted"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Miami (OH)",
+   "unit": "OL",
+   "grade": 30,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Central Michigan OL 2026 (28, this round - previous round-best)",
+    "Western Kentucky OL 2025 (25 anchor)"
+   ],
+   "rationale_bullets": [
+    "The round's most experienced room: ~49 returning FBS starts (E.Smith 14 at LT with 2nd/3rd-Tm MAC honors, Manu 14 at C, G.Smith 14, Schorsch 7) PLUS NIU's Malcore - 74.5/715, 32 career starts, 3rd-Tm MAC - the best imported OL tape of the round.",
+    "Honors-vs-grade tension priced: E.Smith's 44.7 raw is the round's worst returning-honoree grade; PBLK graded p3 with largely this personnel - but RBLK graded p76 (this line mauls in the run game).",
+    "Depth is real: Lowry 78.4/92, Lawhorn Moore 81.8/39, Butler 69.6/150, Duquesne's 1st-Tm NEC Beidatsch, OSU's Armstrong. Loses RT Terrill 76.8/734 -> Houston.",
+    "30: edges CMU's 28 on Malcore + start volume; the pass-pro tape keeps it well under the p50 region."
+   ],
+   "key_players": [
+    {"name": "Evan Malcore", "role": "RT1 (transfer, NIU)", "evidence": "74.5/715; 32 career starts; 3rd-Tm MAC"},
+    {"name": "Kris Manu", "role": "C1 (returning starter)", "evidence": "61.0/809; 14 st"},
+    {"name": "Eric Smith", "role": "LT1 (returning starter)", "evidence": "44.7/793; 14 st; 2nd/3rd-Tm MAC honors vs grade tension"}
+   ],
+   "data_gaps": ["PBLK p3 with returning personnel", "honors-grade divergence at LT"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Miami (OH)",
+   "unit": "DL",
+   "grade": 28,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Bowling Green DL 2026 (34, this round - elite returning edge)",
+    "Central Michigan DL 2026 (24, this round)"
+   ],
+   "rationale_bullets": [
+    "Loses the star - Trick 91.3/671 (1st-Tm MAC, 8.5 sk) -> Texas Tech (who also took KSU's Mathis: TTU harvested the MAC's two best edges) - plus NT Washington (expired).",
+    "But keeps the round's DEEPEST returning rotation: ~2,200 snaps at 57-65 raw (Andrews 62.9/486 with 13 st, Jobe, Rice, Schott, Bell, Lyons, Alexander).",
+    "Real FBS import: Cincinnati starter Coleman (57.6/449, 12 st) + Purdue RS Moore (8 st at Akron '24).",
+    "28: floor-high, ceiling-modest - above CMU's 24 on depth, below BGSU's 34 (Bradley beats anyone here). PRSH p90 fades with Trick."
+   ],
+   "key_players": [
+    {"name": "Roosevelt Andrews III", "role": "DT1 (returning starter)", "evidence": "62.9/486; 13 st"},
+    {"name": "Mikah Coleman", "role": "DE (transfer, Cincinnati)", "evidence": "57.6/449; 12 st, 33 tkl"},
+    {"name": "Bai Jobe", "role": "DE (returning)", "evidence": "59.9/342; 1 st, 4 sk; ex-Kentucky"}
+   ],
+   "data_gaps": ["no returning 70+ piece post-Trick", "'will need another DE' (PS)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Miami (OH)",
+   "unit": "LB",
+   "grade": 38,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40 anchor)",
+    "Bowling Green LB 2026 (30, this round)"
+   ],
+   "rationale_bullets": [
+    "The reload beats the exodus: CJ Young (74.3/563, 2nd-Tm All-MAC at Kent State - a double-feed-gap walk-on move, print-adjudicated both sides) + Myrick (1st-Tm All-Sun Belt '24; 62.0/599, 11 st at South Alabama LY) + McCain 65.1/586 (73 tkl, leading returning tackler).",
+    "Uihlein 90.7/124 (8 st, 'steady performer') is the round's best small-sample LB grade.",
+    "Departed: Kuwatch 82.1/703 (#1 tklr) + Hondru 82.2/487 (2nd-Tm MAC) - both expired; the imports replace honors with honors.",
+    "38: the deepest honors-bearing LB room of the round - Athlon calls it 'the strongest unit,' Martin his best group; just under the UNLV-40 anchor on offset drag."
+   ],
+   "key_players": [
+    {"name": "CJ Young", "role": "LB1 (transfer, Kent State - feed-gap)", "evidence": "74.3/563; 2nd-Tm All-MAC; 89 tkl, 8 tfl"},
+    {"name": "Blayne Myrick", "role": "MLB1 (transfer, South Alabama)", "evidence": "62.0/599; 1st-Tm All-Sun Belt '24"},
+    {"name": "Malcolm McCain", "role": "WLB1 (returning starter)", "evidence": "65.1/586; 73 tkl"}
+   ],
+   "data_gaps": ["two import starters in a new scheme"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Miami (OH)",
+   "unit": "DB",
+   "grade": 26,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Eastern Michigan DB 2026 (28, this round)",
+    "Central Michigan DB 2026 (22, this round)"
+   ],
+   "rationale_bullets": [
+    "Loses 2,300+ snaps of the round's best safety tape: Blakey 84.1/911 (1st-Tm MAC, #1 tklr) + Walters 74.0/761 (2nd-Tm) expired, Beasley 71.3/647 -> Kansas State.",
+    "Returns two volume CBs - K.Martin 61.3/567 + Walker 66.2/314 - and converts Yharbrough 63.1/655 to safety (Withdrawn-portal override STAYS; 'impressed in the spring').",
+    "P4 pedigree fills: Tatum (MSU 9-st history -> NW '25), Minich (ND), Knighten (40 tkl at NIU '23-24; Indiana MedRS), Ellens (ISU RS).",
+    "26: two returning volume corners + a converted starter beats CMU's one-anchor 22; the unproven safety pair keeps it under EMU's 28."
+   ],
+   "key_players": [
+    {"name": "Kaleb Martin", "role": "CB1 (returning starter)", "evidence": "61.3/567; 1 st, 21 tkl"},
+    {"name": "Mychal Yharbrough", "role": "S1 (returning; withdrawal override; CB->S)", "evidence": "63.1/655; 10 st, 48 tkl"},
+    {"name": "Dillon Tatum", "role": "S1 (transfer, Northwestern)", "evidence": "58.6/103; MSU '22-23: 9 st"}
+   ],
+   "data_gaps": ["both safety spots effectively new", "P4 adds have thin recent tape"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Miami (OH)",
+   "unit": "ST",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Central Michigan ST 2026 (26, this round - previous round-best)",
+    "Kent State ST 2026 (26, this round - elite returners, empty kicking)"
+   ],
+   "rationale_bullets": [
+    "Everything returns except the placekicker: P Stainton (63 punts, 42.3, 39.9 net, 12-50+), KR Reynolds (3rd-Tm MAC, 28.5, TD), PR Billups-Williams (4th-Tm MAC, 9.8), KO specialist McLaughlin (71 KO/40 TB).",
+    "The lone loss is real - Dzioban (1st-Tm MAC, 20-23, program-best 86.8% career) -> Auburn - and his replacement is a pedigreed 3-year specialist with a 2-2 career FG line, not a walk-on.",
+    "The systemic component is print-corroborated at the institutional level: 'one of the best special teams coordinator jobs in the country... always top-25 efficient' (opposing coach); PS STR #21 '25 / #1 '23.",
+    "40: the round's best ST room by a wide margin - two all-conference returners + proven P + elite system, docked for the FG hole."
+   ],
+   "key_players": [
+    {"name": "Pierse Stainton", "role": "P1 (returning)", "evidence": "63 punts, 42.3 avg, 39.9 net"},
+    {"name": "Keith Reynolds", "role": "KR1 (returning)", "evidence": "3rd-Tm MAC; 28.5, 1 TD"},
+    {"name": "Kellan McLaughlin", "role": "K1 (returning KO specialist)", "evidence": "71 KO/40 TB; 2-2 career FG"}
+   ],
+   "data_gaps": ["FG job on 2 career attempts"],
+   "g5_guard_note": null
+  }
+ ]
+}
