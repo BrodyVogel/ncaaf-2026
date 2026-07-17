@@ -1,0 +1,39 @@
+{
+ "team": "Virginia",
+ "conference": "ACC",
+ "created_utc": "2026-07-17T20:31:37+00:00",
+ "assembler_git_rev": "1f3b4b1",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Tony Elliott - Athlon 'fifth-year head coach' + 'Record at School: 22-26 (4 years)'; PS '5th Year Here'. -> YEAR 5 -> NO coach change (band x1.00). OC Des Kitchings, DC John Rudzinski. Verified BOTH sources.",
+ "conference_note": "ACC (P4). R14: ACC cells POSITIVE on returning tape (QB +2.08, RB +4.90, WRTE +2.36, OL +3.54, DL +1.19, LB +2.13, DB +1.18). Arrivals on origin cells: Pribula Missouri/SEC (+7.72 QB - big; weighted for his part-time/turnover-prone role), Holstein Pitt/ACC; Peyton Lewis Tennessee/SEC, Middlebrook MTSU/CUSA, Beebe UAB/AAC; Rico Flores UCLA/B10, Da'Shawn Martin Kent St/MAC, Tyson Davis C.Mich/MAC, Gibson UMass/IND, Connor Cox UNC/ACC; Brubaker S.Carolina/SEC, Payne USC/B10; Fobbs-White Baylor/B12, Anyanwu UTSA/AAC, Zion Wilson ECU/AAC, Henry-Young Coastal/SBC, J.Allen+Choute UAB+UConn, Larry Yale (no cell); Hillman+Baxter Michigan/B10, Agard Wisconsin/B10, Henderson Rutgers/B10, McNair Buffalo/MAC, Jaylen Jones Ga State/SBC, Justin Ross Navy/AAC, Christian Ellis Virginia Tech/ACC.",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": ["Maddox Marcellus", "Kameron Courtney"],
+ "yr4_return_overrides_documented": ["McKale Boley", "Noah Josey", "Drake Metcalf", "Dakota Twitty", "Fisher Camac", "Donavon Platt"],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "McKale Boley": "LT, yr4, but Athlon BOLD LT starter (Sr.) + PS + All-ACC '25 -> RETURNS (yr4_return_override). 72.0/855. The OL is 'the most experienced in the nation' (164 career starts).",
+  "Noah Josey": "LG, yr4, Athlon BOLD starter (Sr.) + All-ACC '25 -> RETURNS (yr4_return_override). 66.8/983.",
+  "Drake Metcalf": "C, yr4, Athlon BOLD starter (Sr.) + PS -> RETURNS (yr4_return_override). 64.6/911.",
+  "Dakota Twitty": "TE, yr4, Athlon TE1 starter (Sr.) -> RETURNS (yr4_return_override). 54.5/108.",
+  "Fisher Camac": "DE, yr4, Athlon BOLD DE starter (Sr.) - 'the Cavaliers' best pass-rusher' -> RETURNS (yr4_return_override). 80.6/428.",
+  "Donavon Platt": "CB, yr4, Athlon BOLD CB starter (Sr.) -> RETURNS (yr4_return_override). 69.4/576.",
+  "Maddox Marcellus": "LB, portal-None but Athlon 'paired as starters [w/ Robinson]' + PS 2026 contributor -> WITHDREW (portal_withdrawal_override). 76.0/334 (came from EKU in '25).",
+  "Kameron Courtney": "WR, portal-None but Athlon WR3 starter (Jr.) on the 2026 chart -> WITHDREW (portal_withdrawal_override). 62.2/147. (May-print listing; a role player, not one of the 'six of top seven' lost.)",
+  "Chandler Morris": "QB, yr4, 77.4/499 (2025 starter, led the 11-3) - GONE. Athlon lists transfer Pribula QB1 (no Morris); PS 'both QBs moved on'. Well-traveled 5th-yr (Oklahoma/TCU/North Texas/UVA) -> eligibility exhausted. EXPIRED(yr4).",
+  "Devin Neal": "S, yr4, 88.0/566 (elite, #1 tackler) - GONE. Athlon 'the role previously occupied by Devin Neal'; PS 'lose S Neal'. EXPIRED(yr4).",
+  "Mitchell Melton": "EDGE, yr4, 85.8/610 (top DL grade) - GONE. PS 'lose DE Mitchell Melton (14 st, 5 sk)'; not on 2026 chart. EXPIRED(yr4).",
+  "Jahmeer Carter": "DT, yr4, 78.3/251 - GONE. PS 'lose NT Jahmeer Carter (14 st)'; not on 2026 chart. EXPIRED(yr4)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts",
+  "11-3 (school record) but an OLD, experienced team -> heavy yr4 attrition (QB Morris, S Neal 88.0, EDGE Melton 85.8, DT Carter 78.3, RB Taylor) alongside 30 incoming transfers",
+  "OL returns intact as yr4 seniors ('most experienced in the nation', 165-182 career starts, 2 All-ACC) - the backbone; but PBLK was only p39 in '25",
+  "WR gutted ('lost six of top seven receptions leaders') -> all-transfer reload = the team's clear question mark (heavy projection, graded L)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T00:00:00+00:00"
+}

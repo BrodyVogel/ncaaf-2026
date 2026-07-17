@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Tony",
+  "lastName": "Elliott",
+  "hireDate": "2021-12-10T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Virginia",
+    "year": 2024,
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -1.9,
+    "spOverall": -5.1,
+    "spOffense": 23.7,
+    "spDefense": 29.3
+   }
+  ]
+ },
+ {
+  "firstName": "Tony",
+  "lastName": "Elliott",
+  "hireDate": "2021-12-10T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Virginia",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 9.8,
+    "spOverall": 11.1,
+    "spOffense": 28.8,
+    "spDefense": 18.1
+   }
+  ]
+ }
+]

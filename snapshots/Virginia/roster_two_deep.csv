@@ -1,0 +1,44 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Beau Pribula,QB,SR,transfer:Missouri,Athlon,PS,M,76.1/334 (SEC +7.72 -> 83.8 adj, weighted down for #3-starter/turnover role); 1941 yds 11-9; dual-threat
+QB,2,Eli Holstein,QB,SR,transfer:Pittsburgh,Athlon,PS,L,58.7/153 (ACC); 8 st 7-1 at Pitt '24, lost job '25
+RB,1,Peyton Lewis,RB,JR,transfer:Tennessee,Athlon,PS,M,76.0/71 (SEC +10.17 -> 86.2 adj, small sample); "most elite size/speed in Elliott's tenure"
+RB,2,Jekail Middlebrook,RB,SR,transfer:Middle Tennessee,Athlon,PS,M,79.1/140 (CUSA -7.50 -> 71.6 adj); "plenty of touches"
+RB,3,Xavier Brown,RB,JR,returning,Athlon,PS,M,72.9/51 (ACC +4.90 -> 77.8 adj, small sample); returning depth
+RB,4,Solomon Beebe,RB,JR,transfer:UAB,Athlon,PS,L,77.3/56 (AAC +2.15 -> 79.5 adj, tiny); KR
+WRTE,1,Rico Flores Jr.,WR,SR,transfer:UCLA,Athlon,PS,L,63.0/226 (B10 -1.26 -> 61.7 adj); headline WR add
+WRTE,2,Da'Shawn Martin,WR,JR,transfer:Kent State,Athlon,PS,L,72.1/230 (MAC -7.12 -> 65.0 adj)
+WRTE,3,Tyson Davis,WR,JR,transfer:Central Michigan,Athlon,PS,L,74.4/150 (MAC -7.12 -> 67.3 adj)
+WRTE,4,Jacquon Gibson,WR,SR,transfer:Massachusetts,Athlon,PS,L,71.0/295 (IND -5.25 -> 65.8 adj); also PR
+WRTE,5,Kameron Courtney,WR,JR,returning,Athlon,PS,L,62.2/147 (portal-None WITHDREW; 64.6 adj)
+WRTE,6,Dakota Twitty,TE,SR,returning,Athlon,PS,L,54.5/108 (yr4_return_override; 56.9 adj); TE1
+WRTE,7,Connor Cox,TE,SO,transfer:North Carolina,Athlon,PS,L,68.7/62 (ACC +2.36 -> 71.1 adj)
+OL,1,McKale Boley,LT,SR,returning,Athlon,PS,H,72.0/855 (yr4_return_override; ACC +3.54 -> 75.5 adj); All-ACC '25; BOLD
+OL,2,Noah Josey,LG,SR,returning,Athlon,PS,H,66.8/983 (yr4_return_override; 70.3 adj); All-ACC '25; BOLD
+OL,3,Drake Metcalf,C,SR,returning,Athlon,PS,M,64.6/911 (yr4_return_override; 68.1 adj); BOLD
+OL,4,Makilan Thomas,RG,SR,returning,Athlon,PS,M,experienced returner (injured '25); "165 career starts" group
+OL,5,Monroe Mills,RT,SR,returning,Athlon,PS,M,experienced returner (injured '25)
+OL,6,Ben York,T,JR,returning,Athlon,PS,L,65.8/262; depth
+OL,7,Ryan Brubaker,C,SR,transfer:South Carolina,Athlon,PS,L,SEC IOL; depth
+DL,1,Fisher Camac,DE,SR,returning,Athlon,PS,H,80.6/428 (yr4_return_override; ACC +1.19 -> 81.8 adj); "best pass-rusher"; BOLD
+DL,2,Jason Hammond,DT,SR,returning,Athlon,PS,M,66.7/360 (67.9 adj); BOLD; 4th year
+DL,3,Anthony Britton,DT,SR,returning,Athlon,PS,M,69.4/227 (70.6 adj); 4th year
+DL,4,Matthew Fobbs-White,DE,SR,transfer:Baylor,Athlon,PS,M,68.3/387 (B12 +3.12 -> 71.4 adj)
+DL,5,Zion Wilson,DT,SR,transfer:East Carolina,Athlon,PS,M,74.4/458 (AAC -5.89 -> 68.5 adj); ECU starter (7 sk)
+DL,6,Nnanna Anyanwu,DE,SR,transfer:UTSA,Athlon,PS,L,63.4/278 (AAC -5.89 -> 57.5 adj)
+DL,7,Darrion Henry-Young,DT,SR,transfer:Coastal Carolina,Athlon,PS,L,63.7/134 (SBC -6.50 -> 57.2 adj)
+LB,1,Kam Robinson,LB,SR,returning,Athlon,PS,M,70.6/416 (ACC +2.13 -> 72.7 adj); ACC DPOY cand; missed 6 gms '25 (collarbone+ACL); BOLD
+LB,2,Maddox Marcellus,LB,SR,returning,Athlon,PS,M,76.0/334 (portal-None WITHDREW; 78.1 adj); "paired as starters"
+LB,3,Landon Danley,LB,SR,returning,Athlon,PS,L,62.5/299 (64.6 adj); depth
+LB,4,Caleb Hardy,LB,SR,returning,Athlon,PS,L,64.2/157 (66.3 adj); depth
+DB,1,Ethan Minter,S,JR,returning,Athlon,PS,M,71.9/523 (ACC +1.18 -> 73.1 adj); BOLD
+DB,2,Brandyn Hillman,S,SR,transfer:Michigan,Athlon,PS,M,70.3/545 (B10 +6.33 -> 76.6 adj); "next productive safety"
+DB,3,Corey Costner,SPUR,SO,returning,Athlon,PS,M,71.3/260 (72.5 adj); returning
+DB,4,Donavon Platt,CB,SR,returning,Athlon,PS,M,69.4/576 (yr4_return_override; 70.6 adj); BOLD
+DB,5,Jacobie Henderson,CB,SR,transfer:Rutgers,Athlon,PS,M,59.7/600 (B10 +6.33 -> 66.0 adj)
+DB,6,Jaylen Jones,S,SR,transfer:Georgia State,Athlon,PS,L,73.2/563 (SBC -3.62 -> 69.6 adj)
+DB,7,Omillio Agard,CB,JR,transfer:Wisconsin,Athlon,PS,L,63.6/304 (B10 +6.33 -> 69.9 adj)
+DB,8,Christian Ellis,S,SR,transfer:Virginia Tech,Athlon,PS,L,64.1/94 (ACC); xref closed
+ST,1,Will Bettridge,K,SR,returning,Athlon,PS,H,trusted 5th-yr starter
+ST,2,Daniel Sparks,P,SR,returning,Athlon,PS,H,trusted 5th-yr starter
+ST,3,Solomon Beebe,KR,JR,transfer:UAB,Athlon,PS,M,KR
+ST,4,Jacquon Gibson,PR,SR,transfer:Massachusetts,Athlon,PS,M,PR

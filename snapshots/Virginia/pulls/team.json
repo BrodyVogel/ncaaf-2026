@@ -1,0 +1,36 @@
+{
+ "id": 258,
+ "school": "Virginia",
+ "mascot": "Cavaliers",
+ "abbreviation": "UVA",
+ "alternateNames": [
+  "UVA",
+  "Virginia"
+ ],
+ "conference": "ACC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#232d4b",
+ "alternateColor": "#f84c1e",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/258.png"
+ ],
+ "twitter": "@UVAFootball",
+ "location": {
+  "id": 3923,
+  "name": "Scott Stadium",
+  "city": "Charlottesville",
+  "state": "VA",
+  "zip": "22904",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 38.0311801,
+  "longitude": -78.5137897,
+  "elevation": "170.4677429",
+  "capacity": 61500,
+  "constructionYear": 1931,
+  "grass": true,
+  "dome": false
+ }
+}
