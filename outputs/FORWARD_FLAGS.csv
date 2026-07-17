@@ -7,7 +7,7 @@ Oregon_State,Jones,MAC-round origin,origin check parked at MAC wrap - see mac_wr
 Middle_Tennessee,Lee,Sacramento_State,SacSt exit - verify in-feed,open,2026-07-17,
 Mississippi_State,Jaden Rashada,Sacramento_State,QB exit - verify in-feed,open,2026-07-17,
 LSU,Jackson Harris,Hawai'i,WR 83.9/345 (963 @ 19.7) - verify in-feed + expect featured arrival,open,2026-07-17,
-Wake_Forest,Wondame Davis Jr.,UTEP,WR 62.8/322 (the 23.5-ypc leader) - verify in-feed,open,2026-07-17,
+Wake_Forest,Wondame Davis Jr.,UTEP,WR 62.8/322 (the 23.5-ypc leader) - verify in-feed,closed,2026-07-17,wake-build-2026-07-18 (in-feed verified: Wondame Davis WR<-UTEP)
 Kentucky,Mark Robinson,UTEP,OT 53.0/813 starter - verify in-feed,open,2026-07-17,
 California,Ashten Emory,UTEP,RB 71.5/119 team rushing leader - verify in-feed,open,2026-07-17,
 Syracuse,Malachi Nelson,UTEP,QB 55.6/222 (ex-PS#1 recruit) - verify in-feed,closed,2026-07-17,syracuse-build-2026-07-18 (in-feed verified: Nelson QB<-UTEP)

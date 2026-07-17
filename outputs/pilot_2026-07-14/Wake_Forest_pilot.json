@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T20:30:33+00:00",
+ "team": "Wake Forest",
+ "final": 2.98,
+ "rank": 54,
+ "band": 6.36,
+ "resid": -2.73,
+ "adj": -0.96,
+ "class_term": -0.0,
+ "st": 0.08,
+ "anchor_blend": 3.35,
+ "resid_level": -1.75,
+ "resid_shape": -0.98,
+ "implied_off": 25.32,
+ "implied_def": 24.82,
+ "anchor_off": 24.07,
+ "anchor_def": 20.83,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.618
+ },
+ "low_conf_units": 2,
+ "code_rev": "f4e0779",
+ "mode": "PILOT-OOS"
+}
