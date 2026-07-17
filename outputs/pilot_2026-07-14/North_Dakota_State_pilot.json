@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T01:41:26+00:00",
+ "team": "North Dakota State",
+ "final": -8.67,
+ "rank": 101,
+ "band": 7.19,
+ "resid": -13.44,
+ "adj": -4.7,
+ "class_term": 0.0,
+ "st": -0.72,
+ "anchor_blend": -3.78,
+ "resid_level": 2.04,
+ "resid_shape": -15.48,
+ "implied_off": 16.47,
+ "implied_def": 33.69,
+ "anchor_off": 23.21,
+ "anchor_def": 26.99,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.615
+ },
+ "low_conf_units": 3,
+ "code_rev": "2a405cb",
+ "mode": "PILOT-OOS"
+}

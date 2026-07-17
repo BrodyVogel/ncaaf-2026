@@ -37,3 +37,11 @@
 - 2026-07-17 gates: disposition_ledger --write (0 rows — no FBS tape
   universe, SacSt pattern); departure_check North_Dakota_State:
   clean; blinding_check: clean.
+- 2026-07-17 POST-FREEZE readout observation (no parameter change):
+  FOUR of five anchors winsorized (SP+ −1.4→−1.66, FEI −21.29→−7.28,
+  Massey −0.01→−1.66, FPI −10.15→−7.28; TR untouched) — a project
+  first. Raw dispersion 21.28 = the expected elite-newcomer
+  pathology: sources have no common frame for NDSU (FEI prices
+  bottom-tier unknown; Massey/SP+ price top-half). The winsorizer +
+  dispersion flag (×1.10) handled it as designed; band ±7.19 =
+  widest of round, appropriately.
