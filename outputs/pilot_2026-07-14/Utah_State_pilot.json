@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T16:26:57+00:00",
+ "team": "Utah State",
+ "final": -6.51,
+ "rank": 93,
+ "band": 6.18,
+ "resid": -0.54,
+ "adj": -0.19,
+ "class_term": 0.0,
+ "st": -0.24,
+ "anchor_blend": -6.57,
+ "resid_level": 3.28,
+ "resid_shape": -3.82,
+ "implied_off": 22.05,
+ "implied_def": 28.65,
+ "anchor_off": 24.27,
+ "anchor_def": 30.33,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.615
+ },
+ "low_conf_units": 1,
+ "code_rev": "726aed5",
+ "mode": "PILOT-OOS"
+}

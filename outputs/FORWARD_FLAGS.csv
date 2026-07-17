@@ -1,5 +1,5 @@
 dest_team_dir,player,from_team,note,status,added,closed_by
-Utah_State,Markie Grant,Wyoming,CB 64.4/316 departed Wyoming - verify in-feed + grade as arrival,open,2026-07-17,
+Utah_State,Markie Grant,Wyoming,CB 64.4/316 departed Wyoming - verify in-feed + grade as arrival,closed,2026-07-17,usu-build-2026-07-17 (in-feed verified)
 San_Diego_State,Oliver,Sacramento_State,SacSt exit (MAC-round flag) - verify in-feed,closed,2026-07-17,sdsu-build-2026-07-17 (in-feed verified)
 Fresno_State,Mosley,Sacramento_State,SacSt exit - verify in-feed,closed,2026-07-17,fresno-build-2026-07-17 (both-sided verified)
 Fresno_State,Hampsten,Sacramento_State,SacSt exit - verify in-feed,closed,2026-07-17,fresno-build-2026-07-17 (both-sided verified)
@@ -37,5 +37,5 @@ Texas_State,John Smith,Colorado_State,S departed CSU for Texas State - verify TX
 San_Diego_State,Kai Wallin,Oregon_State,EDGE (69.2/260) departed OSU for SDSU - verify SDSU in-feed,closed,2026-07-17,sdsu-build-2026-07-17 (in-feed verified)
 Washington_State,Jalil Tucker,Oregon_State,CB (56.8/506) departed OSU for Wazzu - verify in-feed,open,2026-07-17,
 Washington_State,Darrius Clemons,Oregon_State,WR departed OSU for Wazzu - verify in-feed,open,2026-07-17,
-Utah_State,L.J. Johnson Jr.,Texas_State,WR departed TXST for Utah State - verify in-feed,open,2026-07-17,
+Utah_State,L.J. Johnson Jr.,Texas_State,WR departed TXST for Utah State - verify in-feed,closed,2026-07-17,usu-build-2026-07-17 (in-feed verified)
 Washington_State,Khamari Terrell,Texas_State,CB (64.3/606) departed TXST for Wazzu - verify in-feed,open,2026-07-17,
