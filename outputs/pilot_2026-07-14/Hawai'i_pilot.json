@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T01:11:25+00:00",
+ "team": "Hawai'i",
+ "final": -9.36,
+ "rank": 103,
+ "band": 6.72,
+ "resid": -9.71,
+ "adj": -3.4,
+ "class_term": 0.0,
+ "st": -0.76,
+ "anchor_blend": -5.72,
+ "resid_level": 3.42,
+ "resid_shape": -13.13,
+ "implied_off": 17.3,
+ "implied_def": 33.33,
+ "anchor_off": 24.39,
+ "anchor_def": 30.71,
+ "fit_r2": {
+  "off": 0.541,
+  "dfn": 0.618
+ },
+ "low_conf_units": 4,
+ "code_rev": "ea500a6",
+ "mode": "PILOT-OOS"
+}
