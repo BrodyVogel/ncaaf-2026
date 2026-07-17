@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T00:53:00+00:00",
+ "team": "Wyoming",
+ "final": -13.59,
+ "rank": 121,
+ "band": 6.54,
+ "resid": -5.9,
+ "adj": -2.06,
+ "class_term": 0.0,
+ "st": -0.68,
+ "anchor_blend": -11.35,
+ "resid_level": 5.81,
+ "resid_shape": -11.71,
+ "implied_off": 16.98,
+ "implied_def": 33.62,
+ "anchor_off": 15.13,
+ "anchor_def": 25.87,
+ "fit_r2": {
+  "off": 0.536,
+  "dfn": 0.618
+ },
+ "low_conf_units": 3,
+ "code_rev": "17c85b1",
+ "mode": "PILOT-OOS"
+}
