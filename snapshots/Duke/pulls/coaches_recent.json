@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Manny",
+  "lastName": "Diaz",
+  "hireDate": "2023-12-07T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Duke",
+    "year": 2024,
+    "games": 13,
+    "wins": 9,
+    "losses": 4,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 1.6,
+    "spOverall": 5.6,
+    "spOffense": 26.7,
+    "spDefense": 21.3
+   }
+  ]
+ },
+ {
+  "firstName": "Manny",
+  "lastName": "Diaz",
+  "hireDate": "2023-12-07T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Duke",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 5.2,
+    "spOverall": 6.6,
+    "spOffense": 34.8,
+    "spDefense": 29.2
+   }
+  ]
+ }
+]

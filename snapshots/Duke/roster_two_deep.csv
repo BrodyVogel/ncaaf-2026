@@ -1,0 +1,38 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Walker Eget,QB,SR,transfer:San Jose State,Athlon,PS,M,67.5/441 (MWC -7.35 -> 60.2 adj); 3,051 yds 17-9 at SJSU; proven, a level down
+QB,2,Dan Mahan,QB,FR,returning,Athlon,PS,L,true-Fr; QB2
+RB,1,Nate Sheppard,RB,SO,returning,Athlon,PS,H,89.5/200 (ACC +4.90 -> 94.4 adj); 1,132 yds 11 TD as a Fr; STAR; retained
+RB,2,CJ Campbell Jr.,RB,SR,transfer:Rutgers,Athlon,PS,M,70.9/22 (B10, small); depth
+RB,3,Jaquez Moore,RB,SR,returning,Athlon,PS,L,71.6/40 (yr4? - depth returner)
+WRTE,1,Jeremiah Hasley,TE,SR,returning,Athlon,PS,M,72.3/323 (ACC +2.36 -> 74.7 adj); BOLD; the top returning receiver
+WRTE,2,Jared Richardson,WR,SR,transfer:Pennsylvania,Athlon,PS,M,FCS 1,000-yd receiver (no cell); projected WR1
+WRTE,3,Javen Nicholas,WR,SR,transfer:Charlotte,Athlon,PS,M,74.8/373 (CUSA -4.19 -> 70.6 adj)
+WRTE,4,Jayden Moore,WR,SO,returning,Athlon,PS,L,63.4/52 (65.8 adj); returning; also KR
+WRTE,5,Nate Kurisky,TE,JR,transfer:Louisville,Athlon,PS,L,60.3/161 (ACC +2.36 -> 62.7 adj)
+OL,1,Matt Craycraft,C,SR,returning,Athlon,PS,M,68.4/988 (ACC +3.54 -> 71.9 adj); BOLD
+OL,2,Jordan Larsen,LG,SR,returning,Athlon,PS,M,52.5/780 (56.0 adj); BOLD
+OL,3,Nick Del Grande,LT,SR,transfer:Coastal Carolina,Athlon,PS,M,79.0/663 (SBC -0.35 -> 78.7 adj); 2x All-SBC
+OL,4,Micah Sahakian,RT,SR,returning,Athlon,PS,M,back from injury (missed '25)
+OL,5,Bradley Smith,RG,SO,returning,Athlon,PS,L,66.5/337 (70.0 adj)
+OL,6,Braden Miller,T,SR,transfer:California,Athlon,PS,L,52.5/502 (depth)
+DL,1,Kevin O'Connor,ED,JR,returning,Athlon,PS,M,74.7/210 (ACC +1.19 -> 75.9 adj)
+DL,2,Wesley Williams,ED,JR,returning,Athlon,PS,M,71.9/639 (73.1 adj)
+DL,3,Preston Watson,DT,JR,returning,Athlon,PS,M,67.2/305 (68.4 adj)
+DL,4,David Anderson,DT,JR,returning,Athlon,PS,M,66.3/232 (67.5 adj)
+DL,5,Tyshon Reed,VYPER,JR,returning,Athlon,PS,M,62.4/235 (63.6 adj)
+DL,6,Owen Wafle,DT,SO,transfer:Penn State,Athlon,PS,L,68.3/103 (B10, small)
+DL,7,Bryce Davis,ED,SO,returning,Athlon,PS,L,65.5/155 (66.7 adj); "PS#9, emerges"
+LB,1,Luke Mergott,LB,JR,returning,Athlon,PS,M,66.4/788 (ACC +2.13 -> 68.5 adj)
+LB,2,Nick Morris Jr.,LB,SR,returning,Athlon,PS,M,60.2/150 (yr4_return_override; returning from ACL)
+LB,3,Kendall Johnson,LB,JR,returning,Athlon,PS,L,48.9/359 (depth)
+LB,4,Jon Morris,LB,JR,transfer:UConn,Athlon,PS,L,IND LB; depth
+DB,1,Dylan Flowers,CB,JR,transfer:Western Kentucky,Athlon,PS,M,76.6/369 (CUSA -4.19 -> 72.4 adj)
+DB,2,Evan Smith,CB,JR,transfer:Northwestern,Athlon,PS,M,70.1/82 (B10 +6.33 -> 76.4 adj, small sample)
+DB,3,Patrick Smith-Young,S,JR,transfer:North Texas,Athlon,PS,M,71.6/659 (AAC -3.27 -> 68.3 adj)
+DB,4,DaShawn Stone,S,JR,returning,Athlon,PS,M,51.6/755 (52.8 adj); BOLD; #3 tackler
+DB,5,Landan Callahan,CB,JR,returning,Athlon,PS,L,59.0/577 (60.2 adj)
+DB,6,Kimari Robinson,CB,JR,returning,Athlon,PS,L,63.4/554 (64.6 adj)
+DB,7,Che Ojarikre,CB,SR,transfer:Stanford,Athlon,PS,L,53.7/435 (ACC); depth
+ST,1,Cosme Salas,K,SO,returning,Athlon,PS,M,KO specialist stepping into placekicking; "strong leg, must prove accurate"
+ST,2,Kade Reynoldson,P,SR,returning,Athlon,PS,H,44.6 avg; "one of ACC's better punters"
+ST,3,Nate Sheppard,PR,SO,returning,Athlon,PS,M,PR (explosive)

@@ -1,0 +1,14 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Matt Craycraft,162694,C,DUKE,14,100.0,1,154,68.4,74.1,64.3,1,13,559,100.0,100.0,98.0,4,18,4,988,988,0,0,988,595,595,0,0,393,0,2025_this_team
+Justin Pickett,143870,G,DUKE,14,100.0,1,154,67.9,75.0,67.2,2,18,558,100.0,100.0,98.0,7,21,1,988,0,0,0,988,594,594,897,88,394,0,2025_this_team
+Bruno Fina,131791,T,DUKE,14,100.0,1,154,64.7,64.8,64.2,7,17,555,100.0,100.0,97.1,7,28,4,983,0,0,972,983,591,591,0,0,392,7,2025_this_team
+Brian Parker II,162699,T,DUKE,13,100.0,1,154,85.5,83.4,83.9,2,15,504,100.0,100.0,97.7,4,20,3,902,0,0,0,902,538,538,0,899,364,0,2025_this_team
+Jordan Larsen,164839,G,DUKE,14,100.0,2,154,52.5,60.0,47.4,1,15,445,100.0,100.0,97.5,3,19,3,780,0,777,0,780,473,473,0,0,307,0,2025_this_team
+Nick Del Grande,156673,T,COAST CAR,10,100.0,0,141,79.0,88.1,69.6,3,8,300,100.0,100.0,98.2,0,11,0,663,0,0,663,663,321,321,0,0,342,0,arrival_2025_at_COAST CAR
+Braden Miller,158392,T,CAL,11,100.0,0,130,52.5,55.1,54.5,4,11,300,100.0,100.3,96.8,5,17,2,502,0,49,83,502,315,314,22,341,187,6,arrival_2025_at_CAL
+Bradley Smith,189397,G,DUKE,14,100.0,0,154,66.5,74.7,62.7,0,6,170,100.0,100.0,97.6,0,7,1,337,16,211,0,337,180,180,90,0,157,17,2025_this_team
+Caleb Dorris,170044,T,DUKE,7,100.0,0,154,58.9,33.9,60.9,0,1,5,100.0,100.0,90.0,0,1,0,28,0,0,24,28,5,5,0,1,23,0,2025_this_team
+Gemyel Allen,189374,G,DUKE,6,100.0,0,154,61.9,,61.4,0,0,0,,,,0,0,0,20,0,0,0,20,0,0,17,0,20,0,2025_this_team
+Reagan McCranie,170055,G,DUKE,3,100.0,0,154,45.0,,45.2,0,0,0,,,,0,0,0,16,0,16,0,16,0,0,0,0,16,0,2025_this_team
+Cole Allen,204010,T,DUKE,2,100.0,0,154,58.2,,57.9,0,0,0,,,,0,0,0,13,0,0,0,13,0,0,0,13,13,0,2025_this_team
+Jack Small,189394,T,DUKE,2,100.0,0,154,60.0,,60.3,0,0,0,,,,0,0,0,3,0,0,0,3,0,0,0,3,3,0,2025_this_team
