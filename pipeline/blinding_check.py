@@ -50,4 +50,7 @@ def main(root):
     return 0
 
 if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        sys.exit('usage: python3 pipeline/blinding_check.py "<Team Space Name>"  '
+                 "(per-team gate; no sweep mode)")
     sys.exit(main(sys.argv[1]))
