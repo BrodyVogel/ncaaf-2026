@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T15:05:03+00:00",
+ "team": "Colorado State",
+ "final": -12.36,
+ "rank": 115,
+ "band": 7.39,
+ "resid": -1.69,
+ "adj": -0.59,
+ "class_term": 0.0,
+ "st": -0.6,
+ "anchor_blend": -11.66,
+ "resid_level": 6.25,
+ "resid_shape": -7.94,
+ "implied_off": 18.38,
+ "implied_def": 31.63,
+ "anchor_off": 17.12,
+ "anchor_def": 28.68,
+ "fit_r2": {
+  "off": 0.536,
+  "dfn": 0.621
+ },
+ "low_conf_units": 3,
+ "code_rev": "76bc976",
+ "mode": "PILOT-OOS"
+}

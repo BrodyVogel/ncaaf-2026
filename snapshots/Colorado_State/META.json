@@ -30,7 +30,9 @@
   "Mukendi Wa-Kalonji": "DL captain (18 st, 95 tkl), year==4 -> EXPIRED; PS explicitly 'lost'. Athlon bold-lists him (stale print); R15 data-over-print + PS corroboration -> GONE.",
   "Kenyon Agurs": "graded in DL (edge, 474 snaps, rushes the passer) though Athlon lists him under LB; 72.3 -> 70.1 MWC-adj, the roster's best defender."
  },
- "feed_gap_arrivals_documented": [],
+ "feed_gap_arrivals_documented": [
+  "Kali Nguma (K <- North Texas): named by BOTH prints ('North Texas transfer Kali Nguma' - PS + Athlon) as the new kicker but absent from the CFBD portal-in feed (specialists frequently miss the feed). 23-39 FG over 2 yr (AAC). Real arrival, feed gap."
+ ],
  "position_notes": {
   "QB": "no proven starter tape - Hejny (OkSt 4-star, opener-then-OFY, sample-useless) vs Farrar (UConn) real battle; Curry (55.0 adj) lone experienced returner. Pedigree+scheme case, not a floor.",
   "RB": "Mel Brown (UConn '24: 673 @ 5.7 + 1st-Tm KR) + Robinson (UConn '24: 731 @ 6.8), IND-crushed on paper but real production in Mora's outside-zone scheme 'with a lot of good backs'. The roster's best unit.",
