@@ -1,0 +1,38 @@
+[
+ {
+  "season": 2026,
+  "firstName": "Keith",
+  "lastName": "Williams Jr.",
+  "position": "LB",
+  "origin": "Cornell",
+  "destination": "North Dakota State",
+  "transferDate": "2026-01-27T22:37:00.000Z",
+  "rating": null,
+  "stars": null,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Kene",
+  "lastName": "Anene",
+  "position": "IOL",
+  "origin": "Kansas",
+  "destination": "North Dakota State",
+  "transferDate": "2026-01-05T15:56:00.000Z",
+  "rating": 0.85,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Caleb",
+  "lastName": "McGrath",
+  "position": "P",
+  "origin": "Minnesota",
+  "destination": "North Dakota State",
+  "transferDate": "2026-01-11T03:43:00.000Z",
+  "rating": null,
+  "stars": 2,
+  "eligibility": "Immediate"
+ }
+]

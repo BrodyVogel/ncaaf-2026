@@ -1,0 +1,52 @@
+{
+ "team": "North Dakota State",
+ "conference": "Mountain West",
+ "created_utc": "2026-07-17T01:27:39+00:00",
+ "assembler_git_rev": "9038ade",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Polasek yr 3 (26-3; won FCS national title in yr 1). OC Larson yr 2, DC Olson yr 2, Goeser yr 17, STC Littlejohn yr 2 - full continuity. x1.0.",
+ "fbs_newcomer": true,
+ "newcomer_note": "FCS (MVFC) in 2025 - no PFF FBS tape, no percentile row, proxy all-void (artifact #43 pattern; SacSt precedent). ELITE entrant: 12-1 #1 AP, 10 of last 15 FCS titles, 9-5 vs FBS since 2004, NFL pipeline (QB drafted back-to-back years, WR drafted, Zabel #18 overall '25).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [
+  "Cole Payton",
+  "Bryce Lance"
+ ],
+ "departure_confirmed_research": [
+  "Baricka Kpeenu"
+ ],
+ "known_name_exceptions": {
+  "Cole Payton / Bryce Lance": "NFL DRAFT exits (Payton #5 DC PHI 2nd-Tm AA; Lance #4 DC NO) - print-documented, not portal/yr4.",
+  "Baricka Kpeenu": "RB led team 1,005 @ 5.3 - feed-silent + absent BOTH prints + PS text explicit 'he departs' -> departure_confirmed_research (Spoth + print-explicit). Brother Barry Kpeenu (So, PS#266) STAYS.",
+  "Keith Williams Jr.": "Cornell LB arrival per FEED + Athlon; PS lineup first-names him 'Damian' = conflation with Fr Damian Devine (#50 in Athlon). Cornell tape (3 st, 64 tkl, 8 pd, 3rd-Tm Ivy) belongs to Keith.",
+  "Kene Anene": "Kansas IOL->RT per feed + Athlon + PS text; PS lineup 'Akene' = typo. NAME COLLISION: unrelated DE Toby Anene departed to Colorado.",
+  "Truman Werremeyer": "FB 2nd-Tm MVFC, yr4 + PS 'departs as does their FB' - print-consistent expiry.",
+  "Chris Harris": "WR 392 yds '25, yr4, absent both 2026 prints - expired (PS lose-list enumerated only Lance/Nelson/TE).",
+  "Safety slotting": "Athlon starts Eady + Givance w/ Crumby bolded at S2; PS starts Crumby FS + Givance SS - three safety-starters, room graded not slots."
+ },
+ "feed_gap_arrivals_documented": [
+  "Jeremiah Patterson (WR <- Arizona): PS-only lineup listing (6 st, 196 @ 7.5 L2Y at AZ); not in feed, not in Athlon -> single-print per Strickland precedent.",
+  "Jordan McCants (WR <- Jacksonville State): PS-only ('24: 145 @ 9.7) -> single-print per Strickland precedent."
+ ],
+ "position_notes": {
+  "Nathan Hayes": "QB1 with ZERO career starts (10 gm relief: 381 @ 57% 4-1) - fifth-in-line of a position with 5 straight NFL draft picks.",
+  "Griffin Empey": "C, 13 st, 1st-Tm FCS All-American - anchor of the round's best evidence-backed OL.",
+  "Donovan Woolen": "SLB 13 st, 41 tkl, 12 pd - #1 tackler, 'best overall player on D', All-MVFC.",
+  "Keenan Wilson": "DT 13 st, 8 TFL, 3rd-Tm FCS AA - leads 'the heart and soul of the defense' (9 of top 12 back).",
+  "Kene Anene": "76.4 on 4 snaps at Kansas - the only FBS tape row on the roster; sample-useless, pedigree note.",
+  "P4/NFL raid pattern": "QB+WR1 drafted; LB1 (Staehling 1st-Tm AA) -> Michigan on final portal day; DE1 (T.Anene) -> Colorado; 2 OL -> Vanderbilt/Michigan St; both CBs -> UCF/Delaware. The exits document the level.",
+  "2025 shape": "444 ypg/41 ppg off; 252 ypg/13 ppg def (#1 FCS scoring); 148 pass ypg @ 54%; 12-0 then 29-28 playoff upset by Illinois St as 24-pt favorites."
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "NO FBS tape anywhere on roster except Anene's 4 snaps - all grades FCS-evidence-based",
+  "K job unresolved (Klein career 1-1 FG vs Fr Onuonga)",
+  "FCS roster year fields approximate; prints govern class years"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}

@@ -1,0 +1,36 @@
+{
+ "id": 2449,
+ "school": "North Dakota State",
+ "mascot": "Bison",
+ "abbreviation": "NDSU",
+ "alternateNames": [
+  "NDSU",
+  "N Dakota St"
+ ],
+ "conference": "Mountain West",
+ "division": null,
+ "classification": "fbs",
+ "color": "#01402A",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2449.png"
+ ],
+ "twitter": "@NDSUFootball",
+ "location": {
+  "id": 3714,
+  "name": "Fargodome",
+  "city": "Fargo",
+  "state": "ND",
+  "zip": "51802",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 46.9029938,
+  "longitude": -96.8003251,
+  "elevation": "274.4847717",
+  "capacity": 18700,
+  "constructionYear": 1992,
+  "grass": false,
+  "dome": true
+ }
+}

@@ -1,0 +1,86 @@
+[
+ {
+  "season": 2026,
+  "firstName": "Toby",
+  "lastName": "Anene",
+  "position": "EDGE",
+  "origin": "North Dakota State",
+  "destination": "Colorado",
+  "transferDate": "2026-01-05T23:18:00.000Z",
+  "rating": 0.87,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Nathaniel",
+  "lastName": "Staehling",
+  "position": "LB",
+  "origin": "North Dakota State",
+  "destination": "Michigan",
+  "transferDate": "2026-01-16T16:19:00.000Z",
+  "rating": 0.86,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Eli",
+  "lastName": "Ozick",
+  "position": "K",
+  "origin": "North Dakota State",
+  "destination": "Iowa",
+  "transferDate": "2026-01-04T20:23:00.000Z",
+  "rating": null,
+  "stars": null,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Beau",
+  "lastName": "Johnson",
+  "position": "OT",
+  "origin": "North Dakota State",
+  "destination": "Vanderbilt",
+  "transferDate": "2026-01-05T17:53:00.000Z",
+  "rating": 0.87,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Trent",
+  "lastName": "Fraley",
+  "position": "IOL",
+  "origin": "North Dakota State",
+  "destination": "Michigan State",
+  "transferDate": "2026-01-07T17:45:00.000Z",
+  "rating": 0.86,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Jailen",
+  "lastName": "Duffie",
+  "position": "CB",
+  "origin": "North Dakota State",
+  "destination": "UCF",
+  "transferDate": "2026-01-08T03:32:00.000Z",
+  "rating": 0.85,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Jaquise",
+  "lastName": "Alexander",
+  "position": "CB",
+  "origin": "North Dakota State",
+  "destination": "Delaware",
+  "transferDate": "2026-01-11T02:01:00.000Z",
+  "rating": 0.84,
+  "stars": 3,
+  "eligibility": "Immediate"
+ }
+]

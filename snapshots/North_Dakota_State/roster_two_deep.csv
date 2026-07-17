@@ -1,0 +1,49 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Nathan Hayes,SR,returning,heir apparent - ZERO career starts; 10 gm 381 @ 57% 4-1 LY; '24: 214 @ 63%; runner; PS#200
+QB,QB,2,Trey Drake,JR,returning,3 gm LY; PS#327
+QB,QB,3,Preston Brown,SO,returning,8 gm as true Fr; PS#208
+QB,QB,3,Zander Smith,FR,returning,rFr DNP; PS#195
+RB,RB,1,DJ Scott,JR,returning,502 @ 5.3 (#3 rusher); 13 gm; 'will try to double those numbers'
+RB,RB,2,Myles Mitchell,FR,returning,78 @ 4.3; rFr; PS#219
+RB,RB,2,Cortez LeGreant,JR,returning,131 @ 5.2; ex-Minnesota ('25 arrival)
+RB,FB,2,Nyeoti Punni,SR,transfer:Holy Cross,FCS: 12 gm 415 @ 5.9; FB role
+RB,RB,3,Barry Kpeenu,SO,returning,PS#266; brother of departed Baricka
+WRTE,WR,1,Jackson Williams,JR,returning,3 st 293 @ 17.2 (#4 '25); also elite KR/PR; BOLD-adjacent (Athlon lists non-bold)
+WRTE,WR,1,Mekhi Collins,SR,returning,3 st 25 gm 462 @ 21.0 L2Y; PS#204
+WRTE,WR,2,Isiah St. Romain,SO,returning,11 gm 50 @ 12.5
+WRTE,WR,2,Jeremiah Patterson,SR,transfer:Arizona,FEED-GAP (PS-only); 6 st 196 @ 7.5 L2Y at AZ
+WRTE,WR,3,Jordan McCants,JR,transfer:Jacksonville State,FEED-GAP (PS-only); '24: 145 @ 9.7
+WRTE,TE,1,Reis Kessel,SO,returning,4 st 335 @ 22.3; BOLD-adjacent (PS caps)
+WRTE,TE,2,Kaden Zenzen,SR,returning,2 st 13 gm; PS#205
+OL,C,1,Griffin Empey,JR,returning,13 st; 1st-Tm FCS ALL-AMERICAN; BOLD both prints
+OL,RG,1,Josh Magin,SR,returning,12 st (at RT '25); BOLD both prints
+OL,LG,1,Nate Tastad,SO,returning,13 st; 1st-Tm FCS FROSH AA; BOLD both prints
+OL,RT,1,Kene Anene,SO,transfer:Kansas,76.4 on 4 SNAPS at Kansas (sample-useless pedigree); 'immediate fit... solidified the unit in spring'; PS lineup 'Akene' = typo
+OL,LT,1,Ryan Babatz,SO,returning,1 st 9 gm as true Fr; PS#236
+OL,G,2,Nate Schneckloth,JR,returning,6 gm '24 + 10 gm LY; PS#419
+OL,C,2,Gage Schmidt,SO,returning,12 gm LY
+DL,DT,1,Keenan Wilson,JR,returning,13 st 37 tkl 8 TFL; 3rd-Tm FCS AA; 'all-conference... leads the group'; BOLD both prints
+DL,DE,1,Kelton McCaslin,SR,returning,12 st 23 tkl; BOLD both prints
+DL,DE,1,Matthew Stenbroten,SO,returning,13 gm 11 tkl; PS#164
+DL,DT,1,Logan Larson,SR,returning,1 st 13 gm 17 tkl
+DL,DE,2,Victor Isele,JR,returning,12 gm 12 tkl 3 sk
+DL,DT,2,Alijah Wayne,SO,returning,PS#155
+DL,DE,2,Anthony Okes,JR,transfer:Montana Tech,NAIA: 49 tkl
+LB,SLB,1,Donovan Woolen,JR,returning,13 st 41 tkl 5 tfl 12 pd; #1 tackler; 'best overall player on D'; All-MVFC; BOLD both prints
+LB,WLB,1,Keith Williams Jr.,JR,transfer:Cornell,Ivy 3rd-Tm: 3 st 10 gm 64 tkl 8 pd (PS lineup 'Damian' = conflation w/ Fr Damian Devine)
+LB,MLB,1,Gavin Sell,FR,returning,rFr; 3 gm 9 tkl; 'should emerge in his first year as a starter'
+LB,LB,2,Peder Haugo,SO,returning,13 gm 21 tkl 2 sk; PS#246
+LB,LB,2,Oliver Lucht,JR,returning,depth
+DB,SS,1,Darius Givance,SR,returning,12 st 37 tkl 6 pd; 2nd-Tm MVFC; BOLD both prints
+DB,FS,1,Jaylin Crumby,JR,returning,14 st 23 gm 47 tkl 5 pd L2Y; BOLD both prints (Athlon bolds at S2)
+DB,S,1,Taylen Eady,SO,returning,3 st 13 gm; Athlon starts him (battle w/ Crumby slotting)
+DB,CB,1,DJ Voltz,SR,transfer:Saginaw Valley,D2: 10 gm 18 tkl 8 pd
+DB,CB,1,EJ Davis,SO,transfer:Wayne St,D2: 8 pd
+DB,CB,2,Chance Tucker,SR,transfer:North Dakota,FCS: 14 gm 3 tkl; PS#179
+DB,CB,2,Najee Nelson,JR,returning,6 gm 3 tkl; depth piece '25
+DB,S,2,Will Steil,SO,returning,10 gm depth
+ST,P,1,Aaron Bickerton,SR,returning,34 punts 45.4 (39.5 net) L64 12-I20; All-MVFC; BOLD (PS caps)
+ST,K,1,Drew Klein,SR,returning,career 1-1 FG (a 46-yarder) + kickoffs; job open
+ST,K,2,Jayden Onuonga,FR,recruit,PS#451
+ST,P,2,Caleb McGrath,JR,transfer:Minnesota,DNP 3Y; PS#16 (position rank)
+ST,KR/PR,1,Jackson Williams,JR,returning,32.1 KR avg + 13.9 PR avg - elite return tape
