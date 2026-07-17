@@ -1,0 +1,36 @@
+{
+ "id": 59,
+ "school": "Georgia Tech",
+ "mascot": "Yellow Jackets",
+ "abbreviation": "GT",
+ "alternateNames": [
+  "GT",
+  "Georgia Tech"
+ ],
+ "conference": "ACC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#003057",
+ "alternateColor": "#b3a369",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/59.png"
+ ],
+ "twitter": "@GeorgiaTechFB",
+ "location": {
+  "id": 721,
+  "name": "Bobby Dodd Stadium",
+  "city": "Atlanta",
+  "state": "GA",
+  "zip": "30332",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 33.7724449,
+  "longitude": -84.3928054,
+  "elevation": "279.300415",
+  "capacity": 55000,
+  "constructionYear": 1913,
+  "grass": false,
+  "dome": false
+ }
+}

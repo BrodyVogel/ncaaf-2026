@@ -1,0 +1,38 @@
+{
+ "team": "Georgia Tech",
+ "conference": "ACC",
+ "created_utc": "2026-07-17T23:28:21+00:00",
+ "assembler_git_rev": "215664e",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Brent Key - Athlon 'Record at School: 27-20 (3+ years)'; PS '5th Year Here / 5th Overall.' NO change (band x1.00). NEW OC George Godsey (+ co-OC Chris Weinke) and NEW DC Jason Semore (4th DC in 4 years - continuity risk noted in D grades, but coordinator changes do NOT trigger band multiplier). Verified BOTH sources.",
+ "conference_note": "ACC (P4). R14: ACC cells POSITIVE on returning tape; arrivals on origin cells. Arrivals: Alberto Mendoza Indiana/B10 (+0.55 QB - tiny sample, first-time starter, weighted DOWN), Justice Haynes Michigan/B10 (-0.40 RB - proven), Isaiah Fuhrmann Elon/FCS (NO CELL, evidence-only), Jaiven Plummer California/ACC, Gavin Harris New Mexico State/CUSA (-4.19 WRTE), Chris Corbo Dartmouth/Ivy (NO CELL), Spencer Mermans Yale/Ivy (NO CELL); Joseph Ionata Alabama/SEC (+13.45 OL - tiny sample weighted DOWN), Markell Samuel Oklahoma State/B12 (+8.45 OL), Favour Edwin Auburn/SEC (OL); Jordan Walker Rutgers/B10 (+10.38 DL - B10-inflated weighted DOWN), Tawfiq Thomas Colorado/B12 (+3.12 DL), Vincent Carroll-Jackson UConn/AAC (-5.89 DL), Noah Carter Alabama/SEC (+7.87 DL - small sample weighted DOWN), Taje McCoy Oklahoma State/B12 (+3.12 DL), Tim Griffin Cincinnati/B12 (DL); Jonas Duclona South Florida/AAC (-3.27 DB), Jaylen Mbakwe Alabama/SEC (WR->CB convert), Savion Riley Colorado/B12 (+1.85 DB); Alex Bacchetta Rice/AAC (P).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": ["Melvin Jordan IV"],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Haynes King": "QB, 85.9/408 (the 2025 starter, ELITE) - GONE (yr4 graduation). Athlon 'a new QB, with Haynes King graduating after three years as the starter'; PS 'lose the driving force in QB Haynes King.' -> Indiana transfer Alberto Mendoza QB1. EXPIRED(yr4). VERIFIED BOTH.",
+  "Jamal Haynes": "RB, 531 rush yds '25 (66.1/125) - GONE (yr4). Omitted from BOTH RB two-deeps (Justice Haynes + Hosley project); distinct person from ARRIVAL Justice Haynes (Michigan). EXPIRED(yr4).",
+  "Justice Haynes": "RB ARRIVAL (Michigan, ex-Alabama), 81.1/121 - NOT Jamal Haynes. RB1. PS#3 RB; Athlon 'biggest portal splash'; opposing coach 'big-time NFL back.'",
+  "Eric Rivers": "WR, 72.7/314 (top-2 WR by production) - GONE (yr4). PS 'Rivers led with 658... all three depart'; Athlon 'attrition hit WR hard.' EXPIRED(yr4). VERIFIED BOTH.",
+  "Malik Rutherford": "WR, 77.7/198 (top-2 WR by production) - GONE (yr4). PS 'Rutherford #2... all three depart.' EXPIRED(yr4). VERIFIED BOTH.",
+  "Keylan Rutledge": "OL, 76.7/872 (BEST OL, clear starter) - GONE (yr4). PS 'lose three starters'; Athlon names only Mackenny+Carney as returnees. EXPIRED(yr4). VERIFIED BOTH.",
+  "Joe Fusile": "OL, 63.0/628 (starter) - GONE (yr4). Omitted both charts. EXPIRED(yr4).",
+  "Jordan van den Berg": "DL, 75.0/553 (BEST DL, clear starter) - GONE (yr4). Omitted from BOTH DL charts; PS 'lose two starters' on DL. EXPIRED(yr4). VERIFIED BOTH.",
+  "Melvin Jordan IV": "LB, portal-None but Athlon '45 Melvin Jordan IV (Sr.)' MLB depth + PS 'Melvin Jordan #2, 12 st, back' -> WITHDREW (portal_withdrawal_override). 76.6/148. VERIFIED BOTH.",
+  "Fenix Felton": "S, 51.3/86 - RETURNS (Athlon 'returning safeties Tae Harris and Fenix Felton'). Sub-100 vol; not carried as a grade driver but a returning body.",
+  "Aidan Birr": "K, RETURNS - Athlon 'one of the best placekickers in the country'; elite ST driver."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts. HEAVY churn (19 in / 20 out) + a large yr4 graduation wave (King, Jamal Haynes, Rivers, Rutherford, Rutledge, Fusile, van den Berg, Alexander, Moore, Stone, Triplette, Daniels, Powell-Lee, Harvey, Shelley).",
+  "9-4 (6-2 ACC) in '25 - a GOOD record built on QB Haynes King (85.9, elite) + OC Buster Faulkner; opposing ACC assistant: 'those two hid a lot of deficiencies... wouldn't have been more than average without them.' BOTH now gone (King graduated, Faulkner departed). 2026 = new QB (Mendoza, unproven), new OC, new DC (4th in 4 yrs).",
+  "STRENGTHS retained: RB (Justice Haynes Michigan + Hosley 697yds - elite backfield) and ST (K Aidan Birr, elite). WEAKNESSES: WR/TE gutted (top-3 WRs Rivers/Rutherford/Canion all gone; only frosh Jordan Allen + FCS/transfer bodies), DL rebuilt off a weak base ('25 PRSH p21, TACK p18, DEF p22 - 9 TO, 13 sacks).",
+  "OL loses 3 starters (incl best-two Rutledge+Fusile) but keeps Mackenny (LT) + Carney (G, 'NFL caliber') under OL-guru HC Key. DB loses 4 starters to graduation; adds Duclona (USF, good) + keeps Tae Harris/Tobe/Hill."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T23:46:00Z"
+}

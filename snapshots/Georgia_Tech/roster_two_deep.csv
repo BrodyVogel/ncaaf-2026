@@ -1,0 +1,41 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Alberto Mendoza,QB,SO,transfer:Indiana,Athlon,PS,L,85.5/25 tiny sample (B10 +0.55 -> ~86 but weighted DOWN hard - first-time starter); brother of Heisman winner Fernando; 190 rush; PS#87
+QB,2,Grady Adamson,QB,FR,returning,Athlon,PS,L,true-fr QB2
+RB,1,Justice Haynes,RB,SR,transfer:Michigan,Athlon,PS,H,81.1/121 (B10 -0.40 -> 80.7 adj); proven Bama+Michigan; PS#3 RB; "big-time NFL back"
+RB,2,Malachi Hosley,RB,SR,returning,Athlon,PS,H,79.5/96 (small sample); led GT RBs 697 rush yds '25
+RB,3,Chad Alexander,RB,JR,returning,Athlon,PS,L,depth
+WRTE,1,Jordan Allen,WR,SO,returning,Athlon,PS,M,77.8/72 (small sample); promising true-fr (320 yds); "higher expectations"
+WRTE,2,Isaiah Fuhrmann,WR,JR,transfer:Elon,Athlon,PS,L,FCS (NO CELL, evidence-only); 907 yds/19.7 at Elon; bigger-bodied target
+WRTE,3,Jaiven Plummer,WR,SR,transfer:California,Athlon,PS,L,54.9/55 (ACC +2.36 -> 57.3 adj); small sample
+WRTE,4,Gavin Harris,TE,SR,transfer:New Mexico State,Athlon,PS,M,62.0/412 (CUSA -4.19 -> 57.8 adj); 1st-tm CUSA TE; TE1
+WRTE,5,Chris Corbo,TE,SR,transfer:Dartmouth,Athlon,PS,L,Ivy (NO CELL); 2x FCS all-conf TE
+OL,1,Ethan Mackenny,OT,JR,returning,Athlon,PS,M,67.8/757 (ACC +3.54 -> 71.3 adj); LT; "all-conf caliber"
+OL,2,Malachi Carney,G,SR,returning,Athlon,PS,M,67.9/768 (ACC +3.54 -> 71.4 adj); moves RT->guard; "NFL caliber"
+OL,3,Joseph Ionata,C,SO,transfer:Alabama,Athlon,PS,L,63.8/27 (SEC +13.45 -> tiny sample, weighted DOWN); C1
+OL,4,Kevin Peay Jr.,G,FR,returning,Athlon,PS,L,rFr; LG projected
+OL,5,Jameson Riggs,OT,SO,returning,Athlon,PS,L,48.8/196 (ACC +3.54 -> 52.3 adj); RT projected
+OL,6,Markell Samuel,OT,SR,transfer:Oklahoma State,Athlon,PS,L,55.9/76 (B12 +8.45 -> small sample); OT depth
+DL,1,Jordan Walker,DE,SR,transfer:Rutgers,Athlon,PS,M,67.1/337 (B10 +10.38 -> 77.5 adj, B10-inflated weighted DOWN); 5 sk/57 tkl
+DL,2,Tawfiq Thomas,DT,SR,transfer:Colorado,Athlon,PS,M,81.3/95 (B12 +3.12 -> 84.4 adj, small sample); high grade
+DL,3,Vincent Carroll-Jackson,NT,JR,transfer:UConn,Athlon,PS,M,58.9/494 (AAC -5.89 -> 53.0 adj); starter volume
+DL,4,Noah Carter,DE,SO,transfer:Alabama,Athlon,PS,M,70.5/88 (SEC +7.87 -> 78.4 adj, small sample weighted DOWN); 11 gm at Bama
+DL,5,A.J. Hoffler,ED,SR,returning,Athlon,PS,M,53.8/449 (ACC +1.19 -> 55.0 adj); BOLD returning starter
+DL,6,Amontrae Bradford,ED,JR,returning,Athlon,PS,M,60.2/258 (ACC +1.19 -> 61.4 adj); BOLD; 7 st/20 tkl
+DL,7,Taje McCoy,ED,SR,transfer:Oklahoma State,Athlon,PS,L,70.2/185 (B12 +3.12 -> 73.3 adj)
+DL,8,Christian Garrett,NT,FR,returning,Athlon,PS,L,rFr; PS NT1 projected
+DL,9,Brayden Manley,ED,SR,returning,PS,PS,M,66.8/347 (ACC +1.19 -> 68.0 adj); returning DE rotation; 3 sk
+LB,1,E.J. Lightsey,LB,SR,returning,Athlon,PS,M,68.6/671 (ACC +2.13 -> 70.7 adj); BOLD; top tackler (76 tkl); new scheme
+LB,2,Kyle Efford,LB,SR,returning,Athlon,PS,M,64.3/578 (ACC +2.13 -> 66.4 adj); BOLD; top tackler (67 tkl)
+LB,3,Melvin Jordan IV,LB,SR,returning,Athlon,PS,L,76.6/148 (portal_withdrawal_override); MLB2; both mags "12 st, back"
+LB,4,Cayman Spaulding,LB,SR,returning,Athlon,PS,L,58.5/322 (ACC +2.13 -> 60.6 adj); depth
+DB,1,Jonas Duclona,CB,JR,transfer:South Florida,Athlon,PS,M,74.7/581 (AAC -3.27 -> 71.4 adj); 5 st/35 tkl/5 PBU
+DB,2,Zachary Tobe,CB,SR,returning,Athlon,PS,M,64.1/418 (ACC +1.18 -> 65.3 adj); BOLD; 12 st
+DB,3,Tae Harris,S,SO,returning,Athlon,PS,M,72.2/203 (ACC +1.18 -> 73.4 adj); small sample; ascending
+DB,4,Jaylen Mbakwe,CB,JR,transfer:Alabama,Athlon,PS,L,WR->CB convert; 75.8/13 (WR routes tiny); projection at CB
+DB,5,Kelvin Hill,NB,JR,returning,Athlon,PS,M,61.6/408 (ACC +1.18 -> 62.8 adj); NB starter
+DB,6,Savion Riley,S,SR,transfer:Colorado,Athlon,PS,L,transfer S (Vandy->Colorado); modest (48 tkl '23)
+DB,7,Daiquan White,CB,SR,returning,Athlon,PS,L,65.0/288 (66.2 adj); depth
+ST,1,Aidan Birr,K,SR,returning,Athlon,PS,H,"one of the best PKs in the country"; 25-28 FG '25; elite
+ST,2,Alex Bacchetta,P,SR,transfer:Rice,Athlon,PS,L,AAC transfer P; new
+ST,3,Jaylen Mbakwe,PR,JR,transfer:Alabama,Athlon,PS,M,return threat (PR)
+ST,4,Shane Marshall,KR,SO,returning,Athlon,PS,L,KR

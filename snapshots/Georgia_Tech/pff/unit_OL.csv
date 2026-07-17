@@ -1,0 +1,15 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Keylan Rutledge,156597,G,GA TECH,13,100.0,0,176,76.7,78.4,76.8,2,4,418,100.0,100.0,99.3,5,6,0,872,0,0,0,872,440,440,871,0,432,1,2025_this_team
+Malachi Carney,157867,T,GA TECH,13,99.9,0,176,67.9,72.7,68.2,3,12,368,100.0,99.7,97.1,9,18,3,767,0,2,0,768,387,388,0,763,380,3,2025_this_team
+Ethan Mackenny,170073,T,GA TECH,13,100.0,0,176,67.8,75.1,65.6,5,4,354,100.0,100.0,98.4,5,10,1,757,0,0,749,757,370,370,0,0,387,8,2025_this_team
+Harrison Moore,183220,C,GA TECH,11,100.0,0,176,64.0,69.0,66.7,6,9,316,100.0,100.0,97.6,7,15,0,682,427,254,0,682,332,332,0,0,350,1,2025_this_team
+Joe Fusile,143914,G,GA TECH,13,100.0,0,176,63.0,67.7,59.7,1,11,311,100.0,100.0,98.1,1,12,0,628,0,620,0,628,327,327,4,1,301,3,2025_this_team
+Tana Alo-Tupuola,183209,C,GA TECH,10,100.0,1,176,57.1,56.4,62.9,5,10,213,100.0,100.0,96.5,7,15,0,455,455,0,0,455,225,225,0,0,230,0,2025_this_team
+Jameson Riggs,183224,T,GA TECH,11,100.0,0,176,48.8,49.1,50.5,2,5,98,100.0,100.0,96.4,1,7,0,196,0,0,105,196,104,104,0,90,92,1,2025_this_team
+Markell Samuel,122253,T,OKLA STATE,1,100.0,0,262,55.9,86.3,44.7,0,1,35,100.0,100.0,98.6,0,1,0,76,0,0,74,76,38,38,0,0,38,2,arrival_2025_at_OKLA STATE
+Joseph Ionata,184537,C,ALABAMA,2,100.0,0,103,63.8,64.9,62.3,0,1,14,100.0,100.0,96.4,0,1,0,27,27,0,0,27,16,16,0,0,11,0,arrival_2025_at_ALABAMA
+Ben Galloway,170069,T,GA TECH,4,100.0,0,176,71.9,63.2,73.5,1,1,12,100.0,100.0,91.7,0,2,0,22,0,0,0,22,14,14,1,21,8,0,2025_this_team
+Josh Petty,199683,T,GA TECH,6,100.0,0,176,76.4,46.3,77.1,0,1,8,100.0,100.0,93.7,0,1,0,21,1,0,19,21,8,8,0,0,13,1,2025_this_team
+Will Reed,155401,G,GA TECH,2,100.0,0,176,58.3,74.0,57.5,0,0,3,100.0,100.0,100.0,0,0,0,6,0,0,0,6,3,3,6,0,3,0,2025_this_team
+Kevin Peay Jr.,199681,G,GA TECH,1,100.0,0,176,54.5,69.7,56.2,0,0,2,100.0,100.0,100.0,0,0,0,4,0,4,0,4,2,2,0,0,2,0,2025_this_team
+Peyton Joseph,199687,T,GA TECH,1,100.0,0,176,59.5,67.9,58.5,0,0,2,100.0,100.0,100.0,0,0,0,4,0,0,0,4,2,2,0,4,2,0,2025_this_team
