@@ -1,0 +1,46 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Jayden Denegal,SR,returning,296 snaps 66.5 (59.2 MWC-adj); BOLD; returning starter; healthy post shoulder surgery; 143-243 1807 9-8
+QB,QB,2,Stone Saunders,SO,transfer:Kentucky,PS#28; depth
+RB,RB,1,Lucky Sutton,SR,returning,254 att 85.1 (76.2 MWC-adj); BOLD; 1,297/10; top returning RB nationally
+RB,RB,1,Javion Kinnard,SO,transfer:Colorado State,68.2 (11 att); receiving back; All-MW PR; xref closed
+RB,RB,2,Christian Washington,SR,returning,99 att 72.7 (63.8 adj); also KR
+RB,RB,2,Byron Cardwell Jr.,SR,returning,48 att 79.9 (71.0 adj)
+WRTE,WR,1,Jordan Napier,JR,returning,185 routes 77.4 (73.7 MWC-adj); BOLD; WR1; coming off ACL
+WRTE,WR,1,Jacob Bostick,SR,returning,140 routes 57.1 (53.4 adj); BOLD; coming off ACL
+WRTE,WR,1,Donovan Brown,SR,returning,310 routes 64.7 (61.0 adj); BOLD
+WRTE,WR,2,Bert Emanuel Jr.,SR,returning,ex-backup QB moved to WR; bowl: 170 rush 2 TD
+WRTE,WR,2,Justius Lowe,SR,transfer:Oregon,62 routes 57.3 (B10)
+WRTE,TE,1,Jackson Ford,JR,returning,121 routes 57.0 (53.3 adj)
+WRTE,WR,3,Ayo Shotomide-King,SO,transfer:Oklahoma State,16 routes 55.3 (B12, tiny)
+OL,LT,1,Joseph Borjon,SR,returning,808 snaps 66.3 (56.2 adj); BOLD; yr4 override
+OL,LG,1,Kalan Ellis,SR,returning,703 snaps 55.2 (45.1 adj); BOLD
+OL,RG,1,Matthew Montgomery,JR,transfer:Western Illinois,FCS IOL; projected starter
+OL,RT,1,Dennis Jones,SR,transfer:Texas Southern,FCS OT; projected starter
+OL,C,1,Michael Leville Watkins,SO,returning,34 snaps 74.9 (tiny); young C
+OL,C,2,Isaac Lucas,JR,transfer:Ball State,523 snaps 62.2 (MAC); depth
+OL,T,2,Evan Lawrence,SO,transfer:Indiana,69 snaps (B10, tiny)
+OL,T,2,Mercer Luniewski,SO,transfer:Michigan State,B10 depth
+DL,DT,1,Malachi Finau,SR,returning,375 snaps 66.3 (64.1 MWC-adj); BOLD
+DL,ED,1,Brady Nassar,SR,returning,397 snaps 69.4 (67.2 adj); top returning edge
+DL,DT,1,Amari Comier,SR,returning,319 snaps 67.7 (65.5 adj)
+DL,DT,2,Krishna Clay,SR,returning,305 snaps 57.0 (54.8 adj)
+DL,ED,2,Kai Wallin,SR,transfer:Oregon State,260 snaps 69.2 (adj); xref closed
+DL,ED,2,Djibril Rahman,JR,transfer:Rutgers,160 snaps 64.0 (B10)
+DL,ED,3,Nate Henrich,JR,transfer:Gannon,D2 edge (no cell)
+DL,DT,3,Gavriel Lightfoot,SO,transfer:Colorado,B12 depth
+LB,LB,1,Tano Letuli,SR,returning,209 snaps 90.5 (85.8 MWC-adj); BOLD; elite but coming off ACL
+LB,LB,1,Sione Hala,SR,transfer:Weber State,FCS 64 tkl (no cell); productive
+LB,LB,2,Jeramiah Lewis,SO,transfer,LB depth
+LB,LB,2,Cameron Cooper,JR,transfer:Western Colorado,D2 (no cell)
+DB,S,1,Dalesean Staley,SR,returning,829 snaps 68.8 (66.4 adj); BOLD; only returning secondary starter; portal-withdrawal override
+DB,S,1,Jalen Thomeson,SR,transfer:Ohio,777 snaps 74.7 (MAC -3.31 -> 71.4 adj); best DB add
+DB,S,1,Josiah Cox,SR,returning,222 snaps 59.8 (57.4 adj)
+DB,CB,1,Jamison Starks,SO,returning,young CB; minimal tape
+DB,CB,1,Mike Lindsay,SO,transfer:Idaho State,FCS CB (no cell)
+DB,S,2,Josh Hunter,SR,returning,202 snaps 61.0 (58.6 adj)
+DB,CB,2,Caleb Ricks,SO,transfer:Idaho,CB depth
+DB,S,2,Solomon Davis,SO,transfer:Oregon,40 snaps (B10, tiny)
+ST,K,1,Nick Clegg,SO,returning,new kicker (Plascencia graduated); unproven
+ST,P,1,Tashi Dorje,SR,returning,new punter (Green transferred); 50-yд avg on 3 punts (tiny)
+ST,KR,1,Christian Washington,SR,returning,KR
+ST,PR,1,Javion Kinnard,SO,transfer:Colorado State,All-MW PR

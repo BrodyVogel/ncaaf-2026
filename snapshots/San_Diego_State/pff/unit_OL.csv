@@ -1,0 +1,14 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Christian Jones,146145,T,S DIEGO ST,13,99.9,0,284,66.2,58.8,65.3,3,14,321,99.7,99.7,96.7,1,19,2,826,0,0,822,827,347,348,0,0,479,4,2025_this_team
+Bayo Kannike,141282,G,S DIEGO ST,13,99.9,2,284,66.2,69.1,66.6,0,9,318,99.7,99.7,98.6,6,9,0,814,0,1,1,815,344,345,810,0,470,2,2025_this_team
+Joseph Borjon,158713,T,S DIEGO ST,13,99.9,2,284,66.3,63.1,64.1,2,10,316,99.7,99.7,97.2,3,15,3,807,0,0,0,808,339,340,0,806,468,2,2025_this_team
+Ross Ulugalu-Maseuli,146155,C,S DIEGO ST,13,100.0,1,284,70.4,77.4,67.6,0,5,315,100.0,100.0,99.2,3,5,0,804,804,0,0,804,337,337,0,0,467,0,2025_this_team
+Kalan Ellis,144042,G,S DIEGO ST,13,99.7,0,284,55.2,59.7,54.1,4,8,270,99.6,99.3,96.7,3,15,3,701,0,698,0,703,291,293,0,0,410,4,2025_this_team
+Isaac Lucas,176118,G,BALL ST,9,100.0,1,117,62.2,63.4,62.1,1,8,255,100.0,100.0,97.8,2,10,1,523,0,0,0,523,270,270,523,0,253,0,arrival_2025_at_BALL ST
+Saipale Fuimaono,184198,G,S DIEGO ST,12,100.0,0,284,58.0,54.0,57.3,2,2,71,100.0,100.0,97.2,0,4,0,221,45,125,1,221,81,81,12,35,140,2,2025_this_team
+Evan Lawrence,188669,T,INDIANA,7,100.0,0,190,61.5,69.7,59.3,0,0,12,100.0,100.0,100.0,0,0,0,69,0,0,69,69,12,12,0,0,57,0,arrival_2025_at_INDIANA
+Cam May,160532,T,S DIEGO ST,6,100.0,0,284,53.8,36.6,55.4,0,0,6,100.0,100.0,83.3,0,1,1,52,0,0,52,52,8,8,0,0,44,0,2025_this_team
+Chase Duarte,204515,G,S DIEGO ST,6,100.0,0,284,55.7,10.4,58.2,0,1,6,100.0,100.0,91.7,0,1,0,52,0,0,0,52,8,8,52,0,44,0,2025_this_team
+Ikbahl Kassim,200178,G,S DIEGO ST,5,100.0,0,284,47.8,78.8,46.1,0,0,5,100.0,100.0,100.0,1,0,0,44,0,44,0,44,6,6,0,0,38,0,2025_this_team
+Michael Leville Watkins,183642,C,S DIEGO ST,4,100.0,0,284,74.9,42.8,72.9,0,0,5,100.0,100.0,100.0,0,0,0,34,26,8,0,34,7,7,0,0,27,0,2025_this_team
+Ashdon Wnetrzak,200173,T,S DIEGO ST,4,100.0,0,284,66.0,58.5,64.9,0,0,3,100.0,100.0,100.0,1,0,0,33,0,0,0,33,4,4,0,33,29,0,2025_this_team

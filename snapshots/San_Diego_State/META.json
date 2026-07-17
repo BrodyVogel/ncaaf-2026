@@ -1,0 +1,52 @@
+{
+ "team": "San Diego State",
+ "conference": "Pac-12",
+ "created_utc": "2026-07-17T15:57:51+00:00",
+ "assembler_git_rev": "0448e8e",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Sean Lewis, Athlon 'Record at School: 12-13 (2 years)' -> YEAR 3 -> NO coach change (band x1.00). DC Rob Aurich left for Nebraska; new DC Demetrius Sumler (coordinator change only, not HC).",
+ "conference_note": "EX-MWC (9-4, 6-2) -> Pac-12 2026. R14: MWC cells on returning tape (QB -7.35, RB -8.95, WRTE -3.70, OL -10.08, DL -2.19, LB -4.74, DB -2.43). Arrivals on origin cells: Thomeson Ohio/MAC (-3.31), Wallin OSU (near-zero remnant), Rahman Rutgers/B10, Lowe Oregon/B10, Saunders Kentucky/SEC, Lucas Ball St/MAC, Lawrence Indiana/B10. FCS/D2 arrivals = no cell (evidence-only): Hala (Weber St), D.Jones (Texas Southern), Montgomery (W.Illinois), Henrich (Gannon D2), Cooper (W.Colorado D2), Lindsay (Idaho St).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Dalesean Staley"
+ ],
+ "yr4_return_overrides_documented": [
+  "Joseph Borjon"
+ ],
+ "nfl_declare_confirmed": [
+  "Chris Johnson"
+ ],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Joseph Borjon": "LT, CFBD year==4, but Athlon lists 'JOSEPH BORJON (SR.)' BOLD at LT -> yr4 RETURN override. 808 snaps 66.3 -> 56.2 adj; the anchor of a rebuilt line.",
+  "Dalesean Staley": "S, ledger PORTAL(none)-ADJUDICATE, but Athlon lists 'DALESEAN STALEY (SR.)' BOLD as 'the only returning starter in the secondary' -> portal-withdrawal override. 829 snaps 68.8 -> 66.4 adj.",
+  "Chris Johnson": "CB, POY, yr4 - Athlon 'to the NFL' + PS '#1 DC MIA' (drafted) -> nfl_declare_confirmed GONE. 634 snaps 91.6; the elite corner (a huge secondary loss).",
+  "Trey White": "DE, portal -> Texas Tech -> GONE. 642 snaps 82.9; the DL stud/pass-rush anchor.",
+  "Owen Chambliss": "LB, portal -> Nebraska -> GONE. 765 snaps 85.5; the LB workhorse.",
+  "Dwayne McDougle III": "S, portal -> Nebraska -> GONE. 716 snaps 79.3.",
+  "Christian Jones": "OT, yr4, NOT in the two-deep (RT is D.Jones*) -> GONE. 827 snaps 66.2.",
+  "Bayo Kannike": "G, yr4, NOT in the two-deep (RG is Montgomery*) -> GONE. 815 snaps 66.2.",
+  "Ross Ulugalu-Maseuli": "C, yr4, NOT in the two-deep (C is Watkins) -> GONE. 804 snaps 70.4; the best returning OL grade (a real loss).",
+  "Saipale Fuimaono": "G, yr4, NOT in the two-deep -> GONE. 221 snaps 58.0.",
+  "Niles King": "EDGE, yr4, NOT in the two-deep -> GONE. 417 snaps 73.8.",
+  "Sam Benjamin": "DI, yr4, NOT in the two-deep -> GONE. 391 snaps 65.4.",
+  "Mister Williams": "LB, yr4, NOT in the two-deep -> GONE. 554 snaps 69.8.",
+  "Brady Anderson": "LB, yr4, NOT in the two-deep -> GONE. 119 snaps 72.6.",
+  "Bryce Phillips": "CB, yr4, NOT in the two-deep -> GONE. 737 snaps 76.2.",
+  "Eric Butler": "CB, yr4, NOT in the two-deep -> GONE. 639 snaps 64.7.",
+  "Deshawn McCuin": "CB, yr4, NOT in the two-deep -> GONE. 223 snaps 71.1.",
+  "Lucky Sutton": "RB1 returns (BOLD); 254 att 85.1 -> 76.2 adj; a genuine stud, the offense's centerpiece.",
+  "Tano Letuli": "LB returns (BOLD) but coming off reconstructive knee surgery on only 209 '25 snaps; elite grade (90.5) tempered by the ACL + volume in the grade."
+ },
+ "feed_gap_arrivals_documented": [],
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon 2026 depth chart",
+  "entire 2026 CB room unproven (Starks, Lindsay, Ricks) - projection risk (DB graded L)",
+  "Napier + Bostick (WR) and Letuli (LB) all rehabbing knee surgery",
+  "both ST specialists (K, P) new"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}

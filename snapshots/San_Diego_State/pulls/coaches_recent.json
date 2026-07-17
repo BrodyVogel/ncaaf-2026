@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Sean",
+  "lastName": "Lewis",
+  "hireDate": "2023-11-29T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "San Diego State",
+    "year": 2024,
+    "games": 12,
+    "wins": 3,
+    "losses": 9,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -16.6,
+    "spOverall": -15.4,
+    "spOffense": 17.7,
+    "spDefense": 32.1
+   }
+  ]
+ },
+ {
+  "firstName": "Sean",
+  "lastName": "Lewis",
+  "hireDate": "2023-11-29T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "San Diego State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 3.6,
+    "spOverall": 6.7,
+    "spOffense": 24.4,
+    "spDefense": 19.6
+   }
+  ]
+ }
+]
