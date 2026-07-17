@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T16:19:01+00:00",
+ "team": "Texas State",
+ "final": -4.3,
+ "rank": 85,
+ "band": 6.18,
+ "resid": 1.96,
+ "adj": 0.69,
+ "class_term": 0.0,
+ "st": -0.16,
+ "anchor_blend": -5.31,
+ "resid_level": 2.92,
+ "resid_shape": -0.96,
+ "implied_off": 25.88,
+ "implied_def": 29.32,
+ "anchor_off": 32.1,
+ "anchor_def": 37.5,
+ "fit_r2": {
+  "off": 0.535,
+  "dfn": 0.609
+ },
+ "low_conf_units": 1,
+ "code_rev": "eff6e84",
+ "mode": "PILOT-OOS"
+}

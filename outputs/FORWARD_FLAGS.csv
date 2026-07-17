@@ -26,14 +26,16 @@ Virginia_Tech,Devin Alves,Hawai'i,arrival-ORIGIN verify: UH WR - confirm VT out-
 Virginia,Bjorn Jurgensen,Hawai'i,arrival-ORIGIN verify: UH QB2 (rFr DNP) - confirm UVA out-feed,open,2026-07-17,
 Missouri,Tavorus Jones,UTEP,arrival-ORIGIN verify: UTEP RB1 - confirm Mizzou out-feed,open,2026-07-17,
 Western_Kentucky,Ezirim,MAC-round,MAC wrap parked flag (CUSA) - see mac_wrap_2026-07-16.md,open,2026-07-17,
-Texas_State,Cunanan,MAC-round,MAC wrap parked flag (SBC) - see mac_wrap_2026-07-16.md,open,2026-07-17,
+Texas_State,Cunanan,MAC-round,MAC wrap parked flag (SBC) - see mac_wrap_2026-07-16.md,closed,2026-07-17,txst-build-2026-07-17 (in-feed verified)
 James_Madison,Kelly,MAC-round,MAC wrap parked flag (SBC) - see mac_wrap_2026-07-16.md,open,2026-07-17,
 Georgia_State,D.Johnson,MAC-round,arrival-ORIGIN verify (D.Johnson left GaSt for a MAC team) - see mac_wrap,open,2026-07-17,
 VARIOUS_P4,"Senda, Green, Anes, Alexander, McCullough, Littlejohn, Doyle",MAC-round,SEC/ACC origin-check bulk flag - resolve each at the named origin's build (see mac_wrap_2026-07-16.md),open,2026-07-17,
 UAB,Anta'Veon McKenzie,Sacramento_State,SacSt-log flag; VERIFIED 2026-07-17: present in UAB in-feed (built before SacSt - feed both-sided),closed,2026-07-17,audit-2026-07-17
 Oregon_State,Jayden Tuia,Colorado_State,arrival-ORIGIN verify: CSU OL (66 snaps) from Oregon State - confirm OSU out-feed carries him,closed,2026-07-17,osu-build-2026-07-17 (in OSU out-feed)
 San_Diego_State,Javion Kinnard,Colorado_State,RB departed CSU for SDSU (had 91-yd PR TD '25) - verify SDSU in-feed,closed,2026-07-17,sdsu-build-2026-07-17 (in-feed verified)
-Texas_State,John Smith,Colorado_State,S departed CSU for Texas State - verify TXST in-feed,open,2026-07-17,
+Texas_State,John Smith,Colorado_State,S departed CSU for Texas State - verify TXST in-feed,closed,2026-07-17,txst-build-2026-07-17 (in-feed verified)
 San_Diego_State,Kai Wallin,Oregon_State,EDGE (69.2/260) departed OSU for SDSU - verify SDSU in-feed,closed,2026-07-17,sdsu-build-2026-07-17 (in-feed verified)
 Washington_State,Jalil Tucker,Oregon_State,CB (56.8/506) departed OSU for Wazzu - verify in-feed,open,2026-07-17,
 Washington_State,Darrius Clemons,Oregon_State,WR departed OSU for Wazzu - verify in-feed,open,2026-07-17,
+Utah_State,L.J. Johnson Jr.,Texas_State,WR departed TXST for Utah State - verify in-feed,open,2026-07-17,
+Washington_State,Khamari Terrell,Texas_State,CB (64.3/606) departed TXST for Wazzu - verify in-feed,open,2026-07-17,
