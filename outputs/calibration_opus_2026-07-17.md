@@ -110,3 +110,11 @@ variance shared by the reference set. Recommendation: treat median as the
 operative gate (passes), proceed to Pac-12 with the standing archetype-watch
 applied per grade + a live round-end recheck on fresh Pac-12 units. Owner
 decision recorded below.
+
+## OWNER DECISION (2026-07-17)
+
+Brody approved proceeding to the Pac-12 on the median-calibration basis:
+grade the 8 teams now with the archetype-watch applied per unit + every
+grade delivered with full formula/rationale + a blind round-end recheck of
+fresh Pac-12 units as live verification. No further pre-round calibration
+passes (evidence shows p90≤8 is below the reference set's noise floor).
