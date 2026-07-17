@@ -1,0 +1,53 @@
+{
+ "team": "Texas State",
+ "conference": "Pac-12",
+ "created_utc": "2026-07-17T16:09:03+00:00",
+ "assembler_git_rev": "5ada9a7",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC GJ Kinne, Athlon 'Record at School: 23-16 (3 years)' + 'since he arrived in 2022' -> RETURNING -> NO coach change (band x1.00). NEW DC Will Windham (South Alabama) replaces Dexter McCoil - coordinator change only, not HC.",
+ "conference_note": "EX-SBC (7-6, 3-5) -> Pac-12 2026. R14: SBC cells on returning tape - offense near-zero (QB -1.01, RB -2.02, WRTE -0.74, OL -0.35), defense discounted hard (DL -6.50, LB -8.20, DB -3.62). Arrivals on origin cells: Reisig BC/ACC, R.Jackson TCU/B12, Boone UNC/ACC, Early Missouri/SEC, Owens Arizona/B12, James Arkansas/SEC, Woody ULM/SBC, Mackey+Sample Ark St/SBC, Ricks Liberty/CUSA, Cunanan Toledo/MAC. FCS/D2 arrivals = no cell: Bradford (McNeese), Patterson (SFA), D.Jackson depth.",
+ "portal_departure_confirmed": [
+  "Kalil Alexander",
+  "Tymere Jackson",
+  "Bobby Crosby"
+ ],
+ "portal_withdrawal_overrides": [
+  "Ryan Nolan",
+  "Jaylen Jenkins"
+ ],
+ "yr4_return_overrides_documented": [
+  "Bryce Carter",
+  "Terrence Cooks II"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Brad Jackson": "QB1 returns (BOLD); 470 snaps 79.2 -> 78.2 SBC-adj; 3,224/21 + 744 rush/17 - an elite dual-threat, the round's best QB.",
+  "Bryce Carter": "DT, yr4, Athlon lists 'BRYCE CARTER (SR.)' BOLD -> yr4 RETURN override. 312 snaps 62.0 -> 55.5 adj.",
+  "Terrence Cooks II": "ILB, yr4, Athlon lists him ILB1 + text 'three of the top-6 tacklers' -> yr4 RETURN override. 325 snaps 69.2 -> 61.0 adj.",
+  "Ryan Nolan": "S, ledger PORTAL(none), but Athlon 'RYAN NOLAN (SR.)' BOLD + 'return #2 tackler at FS' -> portal-withdrawal override. 681 snaps 75.7 -> 72.1 adj.",
+  "Jaylen Jenkins": "RB/KR, out-feed -> None, but Athlon lists him RB1 (Sr.) + ST 'returns for his senior season' -> portal-withdrawal override. Led SBC in KR (27.0).",
+  "Kalil Alexander": "EDGE, portal-out -> None, NOT print-listed -> GONE. 613 snaps 68.7.",
+  "Tymere Jackson": "EDGE, portal-out -> None, NOT print-listed -> GONE. 408 snaps 76.6 (a big pass-rush loss).",
+  "Bobby Crosby": "S, portal-out -> None, NOT print-listed -> GONE. 605 snaps 63.6.",
+  "Lincoln Pare": "RB, yr4, NOT in the two-deep -> GONE. 288 att 80.6; the 1,128-yд workhorse (Burrell becomes the lead).",
+  "Jordan Sanders": "DL, portal -> Florida State -> GONE. 366 snaps 77.6.",
+  "Devarrick Woods": "DL, portal -> Clemson -> GONE. 177 snaps 74.2.",
+  "Kamren Washington": "DL, portal -> Baylor -> GONE. 382 snaps 70.8.",
+  "Kenard Snyder": "DL, yr4, NOT in the two-deep -> GONE. 376 snaps 74.4.",
+  "Treylin Payne": "LB, yr4, NOT in the two-deep -> GONE. 601 snaps 77.8; the best LB.",
+  "Jaden Rios": "CB, yr4, NOT in the two-deep -> GONE. 495 snaps 74.2.",
+  "Dorion Strawn": "OT, yr4, NOT in the two-deep -> GONE. 917 snaps 75.6.",
+  "Greg Burrell": "RB returns (not yr4, not portal); 100 att 86.3 -> 84.3 SBC-adj; 671 @ 6.7 - the efficient returning lead (Athlon featured Jenkins/Burgess in the two-deep, but Burrell returns per the feeds + PS + 'nearly all skill returns')."
+ },
+ "feed_gap_arrivals_documented": [],
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon 2026 depth chart",
+  "DL is a near-total pass-rush rebuild (graded L)",
+  "Trez Moore (CB starter) + Schultz/Badusi (OL starters) have no PFF tape pulled - projection"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}

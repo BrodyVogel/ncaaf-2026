@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "G.J.",
+  "lastName": "Kinne",
+  "hireDate": "2022-12-02T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Texas State",
+    "year": 2024,
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 0.9,
+    "spOverall": 5.4,
+    "spOffense": 34.2,
+    "spDefense": 28.4
+   }
+  ]
+ },
+ {
+  "firstName": "G.J.",
+  "lastName": "Kinne",
+  "hireDate": "2022-12-02T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Texas State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -1.6,
+    "spOverall": 2.3,
+    "spOffense": 36.6,
+    "spDefense": 34.6
+   }
+  ]
+ }
+]

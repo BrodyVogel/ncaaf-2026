@@ -1,0 +1,49 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Brad Jackson,SO,returning,470 snaps 79.2 (78.2 SBC-adj); BOLD; 3,224/21 + 744 rush/17; elite dual-threat
+QB,QB,2,Shaker Reisig,SO,transfer:Boston College,26 snaps 48.7 (ACC); insurance
+RB,RB,1,Greg Burrell,JR,returning,100 att 86.3 (84.3 SBC-adj); 671 @ 6.7; efficient returning lead (Pare yr4-gone)
+RB,RB,1,Jaylen Jenkins,SR,returning,31 att 63.3; KR (led SBC 27.0, 100-yд TD); portal-none withdrawal override
+RB,RB,2,Torrance Burgess Jr.,SR,returning,depth
+WRTE,WR,1,Beau Sparks,SR,returning,434 routes 79.5 (78.8 SBC-adj); BOLD; 1,200 yds; also PR
+WRTE,WR,1,Chris Dawn Jr.,SR,returning,359 routes 74.3 (73.6 adj); BOLD; 1,007 yds
+WRTE,TE,1,Blake Smith,SR,returning,152 routes 59.0 (58.3 adj); BOLD
+WRTE,WR,2,Kylen Evans,SO,returning,245 routes 52.6 (51.9 adj)
+WRTE,WR,2,Davian Jackson,SO,transfer:Mississippi State,SEC WR
+WRTE,WR,2,Zechariah Sample,SO,transfer:Arizona State,10 routes 53.6 (B12, tiny)
+WRTE,TE,2,Ty Stamey,JR,returning,90 routes 57.3 (56.6 adj)
+OL,LT,1,Sully Burns,SR,returning,937 snaps 68.6 (68.3 SBC-adj); BOLD
+OL,C,1,Justin DeLeon,JR,returning,421 snaps 67.1 (66.8 adj)
+OL,RT,1,Rasheed Jackson,JR,transfer:TCU,22 snaps 86.0 (B12, tiny); projected starter
+OL,LG,1,Cameron Schultz,JR,returning,LG starter; limited tape
+OL,RG,1,Bamidele Badusi,JR,returning,RG starter; limited tape
+OL,G,2,Jaylen Early,SR,transfer:Missouri,52 snaps 65.1 (SEC)
+OL,T,2,William Boone,JR,transfer:North Carolina,98 snaps 71.8 (ACC)
+OL,C,2,Ezra Dotson-Oyetade,SO,returning,84 snaps 74.0 (tiny)
+DL,EDGE,1,DonTerry Russell,SR,returning,298 snaps 64.9 (58.4 SBC-adj)
+DL,ED,1,Ta'Derius Collins,JR,returning,155 snaps 71.9 (65.4 adj)
+DL,DT,1,Bryce Carter,SR,returning,312 snaps 62.0 (55.5 adj); BOLD; yr4 override
+DL,DT,1,Chancellor Owens,JR,transfer:Arizona,32 snaps 75.3 (B12, tiny)
+DL,DT,2,Tae Woody,SR,transfer:UL Monroe,219 snaps 66.2 (SBC)
+DL,DT,2,J.P. Deeter,JR,returning,122 snaps 52.0 (45.5 adj)
+DL,DE,2,Jo'Laison Landry,JR,returning,DE starter; limited tape
+DL,DT,3,Phillip Bradford,JR,transfer:McNeese,FCS (no cell)
+DL,DT,3,Kaleb James,SO,transfer:Arkansas,17 snaps (SEC, tiny)
+LB,ILB,1,Terrence Cooks II,SR,returning,325 snaps 69.2 (61.0 SBC-adj); yr4 override; top-6 tackler
+LB,ILB,1,Ayden Jones,JR,returning,454 snaps 61.3 (53.1 adj); BOLD; top-6 tackler
+LB,ILB,1,Javante Mackey,JR,transfer:Arkansas State,153 snaps 63.1 (SBC); MLB
+LB,LB,2,Cole Nilles,JR,returning,181 snaps 65.4 (57.2 adj)
+LB,LB,2,Jordan Sample,JR,transfer:Arkansas State,SBC depth
+DB,S,1,Ryan Nolan,SR,returning,681 snaps 75.7 (72.1 SBC-adj); BOLD; #2 tackler; portal-none withdrawal override
+DB,CB,1,Craig Royal Jr.,SR,returning,311 snaps 72.9 (69.3 adj)
+DB,NB,1,Amarion Atwood,JR,returning,438 snaps 59.1 (55.5 adj); BOLD
+DB,CB,1,Trez Moore,SR,transfer,CB starter; no tape pulled
+DB,S,1,Chase Davis,JR,returning,145 snaps 60.8 (57.2 adj)
+DB,CB,2,Christopher Jones,SO,returning,164 snaps 65.9 (62.3 adj)
+DB,NB,2,Will Mitchell II,SO,returning,159 snaps 59.0 (55.4 adj)
+DB,CB,2,Dexter Ricks Jr.,JR,transfer:Liberty,367 snaps 60.8 (CUSA)
+DB,S,2,John Smith,SO,transfer:Colorado State,S; xref closed
+DB,CB,2,Michael Patterson,SO,transfer:Stephen F. Austin,FCS CB (no cell)
+ST,K,1,Dylan Cunanan,JR,transfer:Toledo,23-32 FG (72%) over 2Y (MAC); xref closed
+ST,P,1,Thomas Flintoff,FR,transfer,Australian Fr punter
+ST,KR,1,Jaylen Jenkins,SR,returning,led SBC in KR (27.0); 100-yд TD
+ST,PR,1,Beau Sparks,SR,returning,PR

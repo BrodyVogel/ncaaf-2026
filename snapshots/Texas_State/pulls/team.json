@@ -1,0 +1,36 @@
+{
+ "id": 326,
+ "school": "Texas State",
+ "mascot": "Bobcats",
+ "abbreviation": "TXST",
+ "alternateNames": [
+  "TXST",
+  "Texas St"
+ ],
+ "conference": "Pac-12",
+ "division": null,
+ "classification": "fbs",
+ "color": "#4e1719",
+ "alternateColor": "#b4975a",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/326.png"
+ ],
+ "twitter": "@TXStateFootball",
+ "location": {
+  "id": 3644,
+  "name": "Bobcat Stadium (TX)",
+  "city": "San Marcos",
+  "state": "TX",
+  "zip": "78666",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 29.8910008,
+  "longitude": -97.9255735,
+  "elevation": "177.8676453",
+  "capacity": 30000,
+  "constructionYear": 1981,
+  "grass": false,
+  "dome": false
+ }
+}
