@@ -1,0 +1,34 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Ashton Daniels,QB,SR,transfer:Auburn,Athlon,PS,L,71.0/163 (SEC +7.72 -> 78.7 adj, weighted down; limited '25 action + career inconsistency); ex-Stanford starter
+QB,2,Kevin Sperry,QB,FR,returning,Athlon,PS,L,true-Fr; QB2
+RB,1,Quintrevion Wisner,RB,SR,transfer:Texas,Athlon,PS,H,77.3/130 (SEC +10.17 -> 87.5 adj); proven Texas back
+RB,2,Ousmane Kromah,RB,SO,returning,Athlon,PS,M,79.7/72 (ACC +4.90 -> 84.6 adj, small sample)
+RB,3,Samuel Singleton Jr.,RB,SO,returning,Athlon,PS,M,85.1/51 (ACC +4.90 -> 90.0 adj, tiny sample); "three-headed monster"
+WRTE,1,Duce Robinson,WR,SR,returning,Athlon,PS,H,79.5/357 (ACC +2.36 -> 81.9 adj); BOLD; 1,000-yd season; a star
+WRTE,2,Micahi Danzy,WR,SO,returning,Athlon,PS,H,70.1/276 (72.5 adj); BOLD; "explosiveness leaves defenses in the dust"
+WRTE,3,Jayvan Boggs,WR,SO,returning,Athlon,PS,M,64.2/91 (66.6 adj)
+WRTE,4,Desirrio Riles,TE,SO,transfer:East Carolina,Athlon,PS,L,62.0/205 (AAC +0.45 -> 62.5 adj); TE1
+OL,1,Nate Pabst,RG,SR,transfer:Bowling Green,Athlon,PS,L,71.0/767 (MAC -15.20 -> 55.8 adj)
+OL,2,Xavier Chaplin,LT,SR,transfer:Auburn,Athlon,PS,L,55.5/823 (SEC +13.45 -> 68.9 adj, weighted down; 55.5 base)
+OL,3,André Otto,LG,JR,returning,Athlon,PS,L,65.5/79 (69.0 adj, small sample)
+OL,4,Chimdia Nwaiwu,RT,JR,transfer:transfer,Athlon,PS,L,transfer OT; projected RT
+OL,5,Paul Bowling,G,SO,transfer:Troy,Athlon,PS,L,63.8/752 (SBC -0.35 -> 63.5 adj)
+DL,1,Deante McCray,DT,SR,returning,Athlon,PS,M,72.5/297 (ACC +1.19 -> 73.7 adj)
+DL,2,Daniel Lyons,NT,SR,returning,Athlon,PS,M,69.0/425 (70.2 adj); "a leader in the middle"
+DL,3,Rylan Kennedy,JACK,SR,transfer:Texas A&M,Athlon,PS,M,68.1/176 (SEC +7.87 -> 76.0 adj); only DE added
+DL,4,Jordan Sanders,DT,JR,transfer:Texas State,Athlon,PS,M,77.6/366 (SBC -6.50 -> 71.1 adj)
+DL,5,Darryll Desir,DE,SO,returning,Athlon,PS,M,66.3/300 (67.5 adj; portal_withdrawal_override)
+DL,6,Mandrell Desir,DT,SO,returning,Athlon,PS,L,57.4/339 (58.6 adj; portal_withdrawal_override)
+LB,1,Chris Jones,MLB,JR,transfer:Southern Miss,Athlon,PS,M,67.8/706 (SBC -8.20 -> 59.6 adj); top-10 FBS tackler (133 tkl)
+LB,2,Blake Nichelson,LB,SR,returning,Athlon,PS,M,66.8/420 (ACC +2.13 -> 68.9 adj); BOLD
+LB,3,Omar Graham Jr.,LB,SR,returning,Athlon,PS,M,67.6/318 (69.7 adj; portal_withdrawal_override)
+LB,4,Mikai Gbayor,LB,SR,transfer:North Carolina,Athlon,PS,M,67.1/252 (ACC +2.13 -> 69.2 adj); played under DC White at Nebraska
+DB,1,Ja'Bril Rawls,CB,JR,returning,Athlon,PS,M,73.0/374 (ACC +1.18 -> 74.2 adj); BOLD; portal_withdrawal_override; "crucial"
+DB,2,Ashlynd Barker,S,JR,returning,Athlon,PS,M,71.8/488 (73.0 adj; portal_withdrawal_override); rover; "crucial"
+DB,3,Nehemiah Chandler,CB,SO,transfer:South Alabama,Athlon,PS,M,71.6/608 (SBC -3.62 -> 68.0 adj)
+DB,4,Ma'khi Jones,S,SO,transfer:Duke,Athlon,PS,M,65.8/305 (ACC +1.18 -> 67.0 adj); xref closed
+DB,5,Quindarrius Jones,CB,SR,returning,Athlon,PS,L,61.4/70 (returning depth)
+DB,6,Karson Hobbs,CB,JR,transfer:Notre Dame,Athlon,PS,L,48.4/108 (IND); depth
+ST,1,Gabe Panikowski,K,JR,transfer:Oklahoma State,Athlon,PS,L,B12 K; all-new specialist
+ST,2,Daniel Hughes,P,JR,transfer:New Mexico,Athlon,PS,L,MWC P; all-new
+ST,3,Samuel Singleton Jr.,KR,SO,returning,Athlon,PS,M,return threat

@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Mike",
+  "lastName": "Norvell",
+  "hireDate": "2019-12-07T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Florida State",
+    "year": 2024,
+    "games": 12,
+    "wins": 2,
+    "losses": 10,
+    "ties": 0,
+    "preseasonRank": 10,
+    "postseasonRank": null,
+    "srs": -6.7,
+    "spOverall": -3.2,
+    "spOffense": 20.1,
+    "spDefense": 25.3
+   }
+  ]
+ },
+ {
+  "firstName": "Mike",
+  "lastName": "Norvell",
+  "hireDate": "2019-12-07T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Florida State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 8.4,
+    "spOverall": 7.2,
+    "spOffense": 29.3,
+    "spDefense": 21.2
+   }
+  ]
+ }
+]

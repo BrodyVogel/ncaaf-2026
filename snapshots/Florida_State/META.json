@@ -1,0 +1,35 @@
+{
+ "team": "Florida State",
+ "conference": "ACC",
+ "created_utc": "2026-07-17T23:06:10+00:00",
+ "assembler_git_rev": "bcb5b32",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Mike Norvell - Athlon 'Record at School 38-34 (6 years)' + 'enters his seventh season firmly on the hot seat'; PS '7th Year Here.' NO change (band x1.00). 2nd-yr DC Tony White (ex-Nebraska); new OC Tim Harris. Verified BOTH sources.",
+ "conference_note": "ACC (P4). R14: ACC cells POSITIVE on returning tape; arrivals on origin cells. Arrivals: Ashton Daniels Auburn/SEC (+7.72 QB - weighted down for limited action + career inconsistency), Wisner Texas/SEC (+10.17 RB), Gemari Sands FAU/AAC; Chaplin Auburn/SEC (+13.45 OL - weighted down, 55.5 base), Pabst Bowling Green/MAC, Bowling Troy/SBC, Nwaiwu (transfer); Kennedy Texas A&M/SEC, Jordan Sanders Texas St/SBC; Chris Jones Southern Miss/SBC, Gbayor North Carolina/ACC; Chandler South Alabama/SBC, Ma'khi Jones Duke/ACC, Hobbs Notre Dame/IND; Panikowski Oklahoma State/B12 (K), Hughes New Mexico/MWC (P).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": ["Mandrell Desir", "Darryll Desir", "Omar Graham Jr.", "Ashlynd Barker", "Ja'Bril Rawls"],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Mandrell Desir": "DL, portal-None but Athlon DT2 + 'retain twin DL' + PS 'twins return' -> WITHDREW (portal_withdrawal_override). 57.4/339.",
+  "Darryll Desir": "DL/EDGE, portal-None but Athlon DE starter + 'retain twin DL' + PS 'twins return' -> WITHDREW (portal_withdrawal_override). 66.3/300.",
+  "Omar Graham Jr.": "LB, portal-None but Athlon LB2 + PS 'Graham (#9 tklr) [is] back' -> WITHDREW (portal_withdrawal_override). 67.6/318.",
+  "Ashlynd Barker": "S/Rover, portal-None but Athlon 'rover Ashlynd Barker crucial' + PS 'Barker moves to Rover' -> WITHDREW (portal_withdrawal_override). 71.8/488.",
+  "Ja'Bril Rawls": "CB, portal-None but Athlon BOLD CB starter + 'crucial' -> WITHDREW (portal_withdrawal_override). 73.0/374.",
+  "Tommy Castellanos": "QB, yr4, 85.1/394 (the 2025 starter, elite) - GONE. Athlon 'breaking in a new QB for the 3rd straight season' -> Auburn transfer Ashton Daniels QB1. EXPIRED(yr4).",
+  "Duce Robinson": "WR, 79.5/357 (1,000-yd season) - RETAINED. Athlon BOLD + 'could be one of the best WR duos in the country' (w/ Danzy).",
+  "Jerry Wilson": "CB, 70.9/712 - NOT a 2026 starter (Athlon CB chart is Rawls/Chandler + Q.Jones/Lester; omits him). Possible name-collision with roster yr4 'Jeremiah Wilson' (gone). Not carried in the two-deep either way; grade-immaterial."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts. MASSIVE churn (22 in / 43 out; PS 'lost 37/61 starts').",
+  "5-7 in '25. LOADED skill (elite WR duo Robinson+Danzy; 3-back committee Wisner/Kromah/Singleton) but a NEW QB (Auburn transfer Daniels, inconsistent) + an ENTIRELY NEW OL (2nd straight year) - the two swings.",
+  "FIVE portal-withdrawals (Desir twins, Graham, Barker, Rawls) - chaotic offseason; all Athlon+PS-confirmed 2026 contributors. HC Norvell on the hot seat (Y7).",
+  "Weak D base ('25 PRSH p28, COV p24) revamped with transfers; all-new specialists (K Panikowski OkSt, P Hughes NMex)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T00:00:00+00:00"
+}
