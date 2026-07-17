@@ -1,0 +1,50 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Jackson Arnold,SR,transfer:Auburn,295 snaps 66.2 '25 (SEC QB +7.72 -> 73.9 adj); career 18 P4 starts 3293 @ 63% 22-8 + 871 rush; PS#5; benched at OU + AUB
+QB,QB,2,Alex Orji,SR,returning,yr4-OVERRIDE (2 prints); ex-Michigan; OFY Sept '25; run-first
+QB,QB,3,Sebastian Circo,FR,returning,rFr PS#163
+RB,RB,1,Jai'Den Thomas,SR,returning,148 att 90.7 (81.8 MWC-adj) - BEST RB GRADE OF G5 ROUNDS; 1036 @ 7.0 12 TD; 1st-Tm MW; 4th-yr starter; BOLD
+RB,RB,2,Jaylon Glover,SR,returning,64 att 73.4 (64.5 adj); Utah '23 pedigree; 384 @ 6.0
+RB,RB,3,Kamran Williams,FR,returning,rFr PS#65
+WRTE,WR,1,Kayden McGee,SO,returning,team's fastest; ST TD hero; 97 @ 32.3 '24; minimal receiving tape
+WRTE,WR,1,Taeshaun Lyons,JR,returning,114 routes 62.4 (58.7 adj); 241 @ 15.0
+WRTE,WR,1,DeAngelo Irvin Jr.,SR,returning,210 routes 54.0; 4 st; KR/PR
+WRTE,WR,2,Taz Reddicks,JR,transfer:Oregon State,203 routes 66.6 '25 (PAC +4.56 -> 71.2 adj); 391 @ 13.0 - the room's best tape
+WRTE,WR,2,Amorion Walker,SR,transfer:Middle Tennessee,208 routes 52.6 (CUSA -4.19 -> 48.4); Michigan history
+WRTE,WR,3,Troy Stellato,SR,transfer:Kentucky,26 routes '25; Clemson '23-24: 585 @ 9.3
+WRTE,TE,1,Keyan Burnett,SR,transfer:Arizona,43 routes 39.5 '25; PS#7 TE; 272 career @ 10.5
+WRTE,TE,2,Velltray Jefferson,SR,transfer:JC,PS#38JC; 14 gm '25
+OL,C,1,Austin Boyd,SR,returning,896 snaps 65.4 (55.3 adj); 13 st (RT) 2nd-Tm MW; MOVES T->C; BOLD
+OL,LT,1,Will Thomas,SR,returning,838 snaps 54.4 (44.3 adj); 14 st; BOLD
+OL,LG,1,Colton Thomasson,JR,transfer:Baylor,18 snaps '25; 24 gm L2Y; PS#48; 6'8"
+OL,RG,1,Griffin Scroggs,SR,transfer:App State,442 snaps 63.6 '25 (SBC -0.35 -> 63.3); 9 st L2Y
+OL,RT,1,Jackson Brown,JR,transfer:Pittsburgh,34 snaps 71.1 '25; 1 st 16 gm L2Y; PS#114
+OL,C,2,BJ Tolo,JR,transfer:New Mexico State,FEED-GAP; 21 st L2Y (16 RG/4 C/1 LG)
+OL,OL,2,Amare Taase,SO,returning,66 snaps; 4 gm
+OL,OL,2,Alekai Afoa,JR,transfer:JC,DNP '25; JC history
+DL,DT,1,Lucas Conti,JR,returning,WITHDRAWN-override STAYS; 426 snaps 67.5 (65.3 adj); 11 st; lone returning starter; BOLD
+DL,DE,1,Andre Porter,SO,returning,75 snaps 88.4 (86.2 adj) - elite flash; both prints project expanded role (Rojas credit)
+DL,DE,1,Landen Thomas,JR,returning,212 snaps 64.0 (61.8 adj); ex-AZSt
+DL,DE,2,Elias Rudolph,SO,returning,113 snaps 66.5; PS#50; PS-line history ambiguity (PFF provenance = UNLV '25)
+DL,NT,2,Cohen Fuller,SR,returning,326 snaps 56.4; 3 st 27 tkl; PS NG1 (Athlon chart omits - room graded)
+DL,DT,2,Mohamed Altayeb,SR,returning,68 snaps 44.2
+DL,DE,3,Kenji Scanlan,SO,returning,35 snaps 68.2
+DL,DE,3,Herb Gray,SO,transfer:Tennessee,8 snaps '25
+LB,WLB,1,Blesyng Alualu-Tuiolemotu,JR,returning,488 snaps 63.3 (58.6 adj); 11 st 61 tkl; 'cornerstone'; BOLD
+LB,MLB,1,Cam Santee,SR,transfer:Holy Cross,FCS CAA DEFENSIVE POY: 12 st 110 tkl 14 TFL; 'green dot guy'
+LB,MLB,2,Kamuela Ka'aihue,SR,returning,184 snaps 64.9 (60.2 adj)
+LB,WLB,2,Dee Crayton,SR,transfer:Clemson,79 snaps 65.7 '25 (ACC LB +2.13 -> 67.8); 30 gm career
+LB,LB,3,Mark Iheanachor,FR,transfer:SMU,18 snaps '25; rFr
+DB,S,1,Jake Pope,SR,returning,781 snaps 51.3 (48.9 adj) - starter volume POOR grade; Bama x2 + UGA pedigree; 14 st 81 tkl; BOLD
+DB,S,1,Tre Fulton,SO,returning,359 snaps 70.7 (68.3 adj); 33 tkl
+DB,CB,1,Quandarius Keyes,SR,returning,384 snaps 74.7 (72.3 adj) - best returning DB grade; 5 st
+DB,CB,1,Denver Harris,SR,returning,yr4-OVERRIDE (2 prints); 88 snaps 53.3; ex-Texas A&M 5-star + UTSA history; PS#3 pedigree tag
+DB,CB,2,Mumu Bin-Wahad,SR,returning,366 snaps 67.0 (64.6 adj)
+DB,NB,1,Kyron Chambers,SR,transfer:SMU,410 snaps 62.6 '25 (ACC DB +1.18 -> 63.8); 2 st 30 tkl
+DB,S,2,Landyn Cleveland,JR,transfer:Oklahoma State,288 snaps 57.6 (B12 +1.85 -> 59.5); 2 st 33 tkl
+DB,S,2,Tony-Louis Nkuba,SO,transfer:Arizona State,FEED-GAP (ASU no-dest RESOLVED); 6 gm 6 tkl '25
+DB,CB,2,Avery Helm,SR,transfer:TCU,TWO-SIDED MISS #6; PS-only; Florida '21-22 + TCU; 11 st '23; 3 gm L2Y
+DB,CB,3,Jaylen Allen,SO,returning,24 snaps; 70.1
+ST,K,1,Ramon Villela,JR,returning,15-20 FG (4-7 40+) L/50 58-58 PAT; game-winner vs Miami OH + OT-forcer vs Utah St
+ST,P,1,Matt Choules,FR,transfer:Kennesaw State,Australian (Canberra); DNP at KSU; PS#446
+ST,P,2,Ethan Schwartz,SO,transfer:Saddleback JC,L/52; 5 I-20; JC whitelisted
+ST,KR,1,DeAngelo Irvin Jr.,SR,returning,KR+PR both prints

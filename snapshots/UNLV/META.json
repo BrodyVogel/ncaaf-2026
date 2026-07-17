@@ -1,0 +1,68 @@
+{
+ "team": "UNLV",
+ "conference": "Mountain West",
+ "created_utc": "2026-07-17T00:13:41+00:00",
+ "assembler_git_rev": "69996aa",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Mullen yr 2 (10-4, MW title game; 113-65 career). OC Dennis + DC Guenther retained; ST-coordinator continuity broken (duties shift toward Mullen per PS - crop partially cut). x1.0.",
+ "portal_departure_confirmed": [
+  "Justin Flowe",
+  "Jaden Bradley",
+  "Nijrell Eason II",
+  "Yasir Muhammad"
+ ],
+ "portal_withdrawal_overrides": [
+  "Lucas Conti"
+ ],
+ "yr4_return_overrides_documented": [
+  "Alex Orji",
+  "Denver Harris"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Jaheem Joseph",
+  "Laterrance Welch",
+  "DaeDae Reynolds"
+ ],
+ "known_name_exceptions": {
+  "Lucas Conti": "out-feed Withdrawn/no-dest vs BOTH prints (Athlon BOLD DT1 + PS caps 'lone starter back'). WITHDREW override STAYS.",
+  "Justin Flowe": "out-feed Withdrawn/no-dest; PS lists him MLB depth (12 gm, 14 tkl LY) but Athlon chart EXCLUDES him. STAYS bar requires TWO prints -> GONE (portal_departure_confirmed) with transparency note: PS's single-print listing = documented deviation risk. Grade impact <= depth (72.1/84).",
+  "Jaheem Joseph": "S, 762 snaps at 66.3: feed-silent, not yr4, absent from BOTH prints' 15-deep DB rooms. research-GONE - LARGEST-VOLUME ghost of the project (prior: Spoth 706).",
+  "Laterrance Welch": "CB, 569 snaps at 73.4: same pattern. research-GONE.",
+  "DaeDae Reynolds": "WR, 247 routes at 65.4: feed-silent; PS affirmative 'all four depart.' research-GONE.",
+  "Alex Orji": "feed yr4; Athlon QB2 + PS lineup/prose ('OFY in September and is back') - two prints. STAYS.",
+  "Denver Harris": "feed yr4; Athlon CB1 + PS FC1 line (UTSA '23-24 history; ex-Texas A&M 5-star) - two prints. STAYS.",
+  "Aamaris Brown / Aamaris Brown-Bunkley": "ROSTER-FILE NAME DUPLICATE: yr4 list carries both forms of the same player (1st-Tm MW NB). Counted once; expired (PS lists among losses).",
+  "Tony-Louis Nkuba": "Arizona State out-feed lists destination=None; both prints place him at UNLV. ASU no-dest RESOLVED (their build unaffected). Feed-gap arrival.",
+  "Avery Helm": "TWO-SIDED FEED MISS #6: absent TCU out-feed + UNLV in-feed. PS-ONLY anchor (lineup line + prose 'he and Pope are the top DBs'); Athlon silent. Single-print arrival (Strickland precedent). TCU retro clean (3 gm L2Y depth).",
+  "BJ Tolo": "Athlon C2* - absent from in-feed. NMSU (CUSA): 21 st L2Y. Feed-gap.",
+  "Elias Rudolph": "PS line implies Miami-FL 2025 history but PFF provenance = 2025_this_team (113 snaps at UNLV). PFF governs; PS line noted as garble/pre-2025 reference.",
+  "Ethan Schwartz": "P - Saddleback JC; JC-source gap, whitelisted.",
+  "Ricky White": "2025 #1 WR (1,041) = 7th-round draft choice - pre-adjudicated (not in 2026 universe)."
+ },
+ "feed_gap_arrivals_documented": [
+  "BJ Tolo (IOL - New Mexico State; Athlon C2*)",
+  "Tony-Louis Nkuba (S - Arizona State; no-dest resolved)",
+  "Avery Helm (CB - TCU; two-sided miss #6, PS-only)"
+ ],
+ "position_notes": {
+  "Jai'Den Thomas": "90.7 PFF on 148 att -> 81.8 MWC-adj = best RB tape of the G5 rounds; 1st-Tm MW; fourth-year starter.",
+  "Jackson Arnold": "SEC QB cell +7.72 on 295 Auburn snaps -> 73.9 adj; 18 career P4 starts. Benched at OU and Auburn - pedigree vs consistency risk graded into 36.",
+  "Andre Porter": "88.4 on 75 snaps + two-print expanded-role corroboration = Rojas-pattern credit at DL.",
+  "Austin Boyd": "2nd-Tm MW at RT, moving to C (both prints).",
+  "Colandrea -> Nebraska": "MW POY departure closed both-feed (their in-feed).",
+  "Omeire -> New Mexico": "dual-closed (UNM build verified both feeds).",
+  "ST": "Shibest-era #1/#2 STR pedigree; '25 #64; architect gone (duties shift toward Mullen per PS)."
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "Joseph/Welch/Reynolds destinations unknown (research-GONEs)",
+  "STC identity for 2026 unresolved (PS crop cut)",
+  "P = zero FBS punts (Choules DNP + JC Schwartz)",
+  "Villela FG line prints differ (15-20 Athlon vs 14-19 PS)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}

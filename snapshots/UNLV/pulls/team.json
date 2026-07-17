@@ -1,0 +1,37 @@
+{
+ "id": 2439,
+ "school": "UNLV",
+ "mascot": "Rebels",
+ "abbreviation": "UNLV",
+ "alternateNames": [
+  "Nevada-Las Vegas",
+  "UNLV",
+  "UNLV"
+ ],
+ "conference": "Mountain West",
+ "division": null,
+ "classification": "fbs",
+ "color": "#b10202",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2439.png"
+ ],
+ "twitter": "@UNLVFootball",
+ "location": {
+  "id": 6501,
+  "name": "Allegiant Stadium",
+  "city": "Las Vegas",
+  "state": "NV",
+  "zip": "89154",
+  "countryCode": "US",
+  "timezone": null,
+  "latitude": 36.1672559,
+  "longitude": -115.1485163,
+  "elevation": null,
+  "capacity": 65000,
+  "constructionYear": null,
+  "grass": false,
+  "dome": true
+ }
+}
