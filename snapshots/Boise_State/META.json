@@ -1,0 +1,50 @@
+{
+ "team": "Boise State",
+ "conference": "Pac-12",
+ "created_utc": "2026-07-17T14:26:09+00:00",
+ "assembler_git_rev": "4dd84bd",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Danielson yr 4 (24-8; co-OC -> interim -> full HC; program on 3 straight conf titles). New co-DC Terence Brown (Chinander stays DC); OCs Potter/Hill retained. x1.0 (HC-only rule).",
+ "conference_note": "EX-MWC -> Pac-12 2026. R14: MWC offsets on all returning Boise tape; arrivals on origin-conference cells.",
+ "portal_departure_confirmed": [
+  "Davon Banks",
+  "Austin Bolt",
+  "Eyitayo Omotinugbon",
+  "Hayden Hanks",
+  "Jarrett Reeser",
+  "Kamryn Jones",
+  "JJ Talo"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Ben Ford",
+  "Malik Sherrod"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Ben Ford": "WR yr4 but BOTH prints return him (72.0/158 -> 68.3 adj) -> R7 two-print override.",
+  "Malik Sherrod": "RB yr4 but BOTH prints feature as returning back (2025 Boise tape 69.4/84; 966 @ 5.6 Fresno '23). NOT a 2026 portal arrival despite PS 'add' phrasing (references his '23 Fresno career) -> R7 override.",
+  "Mason Randolph": "C yr4, 70.1/831 but OFY Week 3 '25 (medical); neither print's 2026 C1 (Athlon=Jason Steele, PS=Taufa) -> EXPIRED(yr4) + note.",
+  "A'Marion McCoy": "CB yr4, 76.7/528 - part of 'lost nearly entire secondary' (Athlon); not in either 2026 two-deep -> EXPIRED(yr4). A real loss.",
+  "Zander Esty": "IOL arrival from Oregon State (intra-round; OSU unbuilt) - in-feed present; verify OSU out-feed at OSU build."
+ },
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Jayden Virgin-Morgan": "75.6/728 -> 73.4 MWC-adj; 10 sk, 15 TFL; turned down NFL; PS P12 Defensive POY candidate - the roster's best defender.",
+  "Sire Gaines": "86.2/162 att -> 77.3 adj; 811 @ 5.0 as a true Fr - the RB room's best tape.",
+  "JeRico Washington Jr.": "Kennesaw 78.9/975 -> 72.7 CUSA-adj; forced 10 TO; the secondary reload's anchor.",
+  "Maddux Madsen": "3rd-yr starter, 3018 @ 62% 23-6, but 0-4 vs Power 4 and 61.1 MWC-adj.",
+  "OL": "lost 2nd-Tm MW LT Casey (80.0/942) + both '25 centers; returning grades 34-54 adj; PBLK p16 pass-pro the risk.",
+  "Secondary turnover": "4 starters out (McCoy 76.7, Earby 66.7, Z.Washington 57.2, Benefield 66.2->LSU); reloaded with JeRico Washington + Mickey (ND) + Jamerson (TCU) + Tillmon (S.Dakota)."
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "Morris (Southern FCS), Edward + Ethridge (D2), Tillmon (S.Dakota FCS) arrivals have no FBS tape",
+  "Madsen injury-recurrence risk (missed 4 gm '25)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (National Forecast / Pac-12 Prediction / Phil's Forecast / STR excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}

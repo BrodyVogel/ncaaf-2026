@@ -1,0 +1,15 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Kage Casey,157197,T,BOISE ST,13,100.0,1,120,80.0,80.1,75.8,1,5,478,100.0,100.0,98.5,2,10,4,942,0,0,934,942,508,508,0,0,434,8,2025_this_team
+Daylon Metoyer,190992,T,BOISE ST,13,100.0,1,120,44.4,45.2,50.1,2,34,458,100.0,100.0,95.9,10,37,1,908,0,0,0,908,486,486,0,908,422,0,2025_this_team
+Roger Carreon,163374,G,BOISE ST,14,100.0,0,120,64.0,52.4,66.7,1,11,445,100.0,100.0,98.2,5,14,2,885,0,0,0,885,473,473,885,0,412,0,2025_this_team
+Mason Randolph,145991,C,BOISE ST,14,100.0,0,120,70.1,55.3,73.4,0,13,420,100.0,100.0,97.7,3,16,3,831,418,381,0,831,445,445,32,0,386,0,2025_this_team
+Jason Steele,173457,G,BOISE ST,11,100.0,1,120,62.2,58.3,62.1,2,15,352,100.0,100.0,96.7,3,20,3,647,0,568,0,647,373,373,78,0,274,0,2025_this_team
+Zach Holmes,146342,C,BOISE ST,14,100.0,1,120,65.0,58.9,74.9,2,10,324,100.0,100.0,97.8,13,13,1,641,641,0,0,641,346,346,0,0,295,0,2025_this_team
+Zander Esty,176397,G,OREGON ST,5,100.0,1,265,55.9,38.1,64.3,1,1,86,100.0,100.0,97.7,3,3,1,174,53,34,0,174,94,94,84,0,80,0,arrival_2025_at_OREGON ST
+Kyle Cox,176291,T,BOISE ST,8,100.0,0,120,49.1,14.4,61.7,0,6,55,100.0,100.0,90.9,0,8,2,124,0,0,124,124,58,58,0,0,66,0,2025_this_team
+Jake Steele,157843,T,BOISE ST,7,100.0,0,120,51.2,36.6,64.5,2,5,57,100.0,100.0,92.1,2,8,1,120,0,0,0,120,60,60,5,114,60,0,2025_this_team
+Tyler Keinath,164945,G,BOISE ST,9,100.0,0,120,58.8,65.4,57.1,0,0,30,100.0,100.0,100.0,0,0,0,106,0,74,0,106,31,31,32,0,75,0,2025_this_team
+Carson Rasmussen,176280,G,BOISE ST,11,100.0,0,120,74.7,60.9,77.0,1,2,37,100.0,100.0,95.9,0,3,0,94,0,38,0,94,38,38,29,7,56,19,2025_this_team
+Hall Schmidt,163388,T,BOISE ST,2,100.0,0,120,69.5,39.9,74.4,0,1,13,100.0,100.0,96.2,1,1,0,37,0,0,0,37,15,15,0,37,22,0,2025_this_team
+JJ Talo,157203,G,BOISE ST,3,100.0,0,120,63.0,60.5,62.2,0,0,1,100.0,100.0,100.0,0,0,0,11,0,5,0,11,1,1,5,0,10,0,2025_this_team
+Stewart Taufa,199598,C,BOISE ST,2,100.0,0,120,65.4,70.8,65.2,0,0,0,,100.0,,0,0,0,7,7,0,0,7,1,1,0,0,6,0,2025_this_team

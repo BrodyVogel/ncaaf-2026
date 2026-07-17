@@ -1,0 +1,36 @@
+{
+ "id": 68,
+ "school": "Boise State",
+ "mascot": "Broncos",
+ "abbreviation": "BOIS",
+ "alternateNames": [
+  "BOIS",
+  "Boise St"
+ ],
+ "conference": "Pac-12",
+ "division": null,
+ "classification": "fbs",
+ "color": "#0033a0",
+ "alternateColor": "#fa4616",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/68.png"
+ ],
+ "twitter": "@BroncoSportsFB",
+ "location": {
+  "id": 3653,
+  "name": "Albertsons Stadium",
+  "city": "Boise",
+  "state": "ID",
+  "zip": "83725",
+  "countryCode": "US",
+  "timezone": "America/Boise",
+  "latitude": 43.6028839,
+  "longitude": -116.1958882,
+  "elevation": "823.2221069",
+  "capacity": 36387,
+  "constructionYear": 1970,
+  "grass": false,
+  "dome": false
+ }
+}

@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Spencer",
+  "lastName": "Danielson",
+  "hireDate": "2023-12-03T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Boise State",
+    "year": 2024,
+    "games": 14,
+    "wins": 12,
+    "losses": 2,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": 8,
+    "srs": 9.9,
+    "spOverall": 10.1,
+    "spOffense": 35.3,
+    "spDefense": 24.2
+   }
+  ]
+ },
+ {
+  "firstName": "Spencer",
+  "lastName": "Danielson",
+  "hireDate": "2023-12-03T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Boise State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 4.3,
+    "spOverall": 3.1,
+    "spOffense": 29.1,
+    "spDefense": 25.1
+   }
+  ]
+ }
+]

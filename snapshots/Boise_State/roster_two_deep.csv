@@ -1,0 +1,50 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Maddux Madsen,SR,returning,369 snaps 68.4 (61.1 MWC-adj); 3018 @ 62% 23-6 + 221 rush; 3rd-yr starter; 0-4 vs P4; missed 4 gm inj; BOLD
+QB,QB,2,Max Cutforth,SO,returning,196 snaps 54.7 (47.4 adj); PS#2 VHT; MW title-game MVP relief
+RB,RB,1,Dylan Riley,JR,returning,193 att 78.9 (70.0 adj); 1125 @ 5.8; BOLD
+RB,RB,2,Sire Gaines,SO,returning,162 att 86.2 (77.3 adj); 811 @ 5.0 as true Fr
+RB,RB,2,Malik Sherrod,SR,returning,84 att 69.4 (60.5 adj); yr4 override (2 prints); 966 @ 5.6 Fresno '23
+RB,RB,3,Juelz Goff,SO,transfer:Pittsburgh,70 att 68.9 (ACC +4.9 -> 73.8 adj); 270 @ 3.9; PS#67
+RB,RB,3,Harry Stewart III,SO,transfer:Kansas,21 att 64.7 (B12 +7.24 -> 71.9, tiny); PS#58
+WRTE,WR,1,Cameron Bates,JR,returning,265 routes 58.4 (54.7 adj); 8 st 325 @ 15.5; vertical/end-around; BOLD; KR
+WRTE,WR,1,Ben Ford,SR,returning,158 routes 72.0 (68.3 adj); yr4 override (2 prints); 251 @ 15.5
+WRTE,TE,1,Matt Wagner,JR,returning,179 routes 57.1 (53.4 adj); 10 st 251 @ 10.6; 6'5 safe hands
+WRTE,WR,2,Quinton Brown,SO,returning,45 routes 71.6 (67.9, tiny); PR
+WRTE,WR,2,Rasean Jones,FR,returning,true Fr; 'top newcomer' (PS); Athlon #3 recruit
+WRTE,WR,2,Darren Morris,SR,transfer:Southern,FCS; Athlon WR1* depth
+WRTE,WR,3,Qumonte Williams Jr.,SO,returning,35 routes 47.6
+OL,LT,1,Kyle Cox,JR,returning,124 snaps 49.1 (39.0 adj); Athlon LT1
+OL,LT,1,Tyler Ethridge,SR,transfer:CSU-Pueblo,D2; Athlon LT1* swing
+OL,LG,1,Carson Rasmussen,JR,returning,94 snaps 74.7 (64.6, tiny); Athlon LG1
+OL,C,1,Jason Steele,JR,returning,647 snaps 62.2 (52.1 adj); BOLD; moves G->C
+OL,RG,1,Roger Carreon,SR,returning,885 snaps 64.0 (53.9 adj); BOLD
+OL,RT,1,Daylon Metoyer,SR,returning,908 snaps 44.4 (34.3 adj); BOLD - weak spot
+OL,G,2,Zander Esty,JR,transfer:Oregon State,174 snaps 55.9 '25; intra-round arrival (verify at OSU build)
+OL,T,2,Stewart Taufa,FR,returning,rFr; PS C1 projection
+DL,EDGE,1,Jayden Virgin-Morgan,SR,returning,728 snaps 75.6 (73.4 adj); 10 sk 15 TFL; P12 DPOY candidate (PS); turned down NFL; BOLD
+DL,DE,1,Max Stege,SR,returning,626 snaps 67.9 (65.7 adj); 4 sk 8 TFL L3Y; BOLD
+DL,NT,1,David Latu,SR,returning,215 snaps 69.5 (67.3 adj)
+DL,DT,1,Michael Madrie,JR,returning,302 snaps 63.9 (61.7 adj)
+DL,DT,1,Mikaio Edward,JR,transfer:Central Washington,D2; Athlon DT1*
+DL,ED,2,Roman Caywood,SO,returning,150 snaps 77.9 (75.7 adj) flash
+DL,ED,2,Sterling Lane II,SO,returning,50 snaps 77.6 (75.4, tiny) flash
+DL,ED,2,Bol Bol,SO,returning,54 snaps 59.9
+DL,DI,2,Lopez Sanusi,SO,returning,277 snaps 56.1 (53.9 adj)
+LB,OLB,1,Boen Phelps,JR,returning,638 snaps 65.8 (61.1 adj); 9 st #3 tklr; speed/coverage; BOLD
+LB,ILB,1,Jake Ripp,SR,returning,428 snaps 62.0 (57.3 adj)
+LB,LB,2,Logan Brantley,JR,transfer:Kansas,53 snaps 64.3 (B12 +5.09 -> 69.4, tiny)
+LB,LB,2,Mana Tuioti,SO,returning,35 snaps 65.2
+LB,ILB,2,Syncere Brackett-Lambey,SO,returning,depth
+DB,NB,1,Jaden Mickey,SR,returning,570 snaps 65.8 (63.4 adj); ND transfer; moves to CB; unit leader
+DB,CB,1,JeRico Washington Jr.,JR,transfer:Kennesaw State,975 snaps 78.9 (CUSA -6.16 -> 72.7 adj); forced 10 TO; 2nd-Tm CUSA
+DB,CB,1,Sherrod Smith,JR,returning,268 snaps 73.0 (70.6 adj)
+DB,CB,2,Demetrius Freeney Jr.,SR,returning,125 snaps 71.4 (69.0 adj)
+DB,CB,2,Cam Jamerson,SO,transfer:TCU,ex-TCU CB
+DB,S,1,Derek Ganter Jr.,JR,returning,239 snaps 67.1 (64.7 adj); BOLD
+DB,S,1,Roman Tillmon,JR,transfer:South Dakota,FCS; willing tackler; Athlon S1*
+DB,S,2,Taebron Bennie-Powell,SO,transfer:Notre Dame,13 snaps '25; ND depth
+DB,S,2,Travis Anderson,SO,returning,79 snaps 63.2
+ST,K,1,Colton Boomer,SR,returning,9-13 FG (3/3 from 50+); 61 TB/77 KO; UCF transfer
+ST,P,1,Oscar Doyle,SR,returning,43.5 avg / 40.2 net; Weber St transfer
+ST,KR,1,Cameron Bates,JR,returning,KR
+ST,PR,1,Quinton Brown,SO,returning,PR
