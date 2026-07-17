@@ -13,7 +13,8 @@
  ],
  "portal_withdrawal_overrides": [
   "Kirby Vorhees",
-  "Tony Freeman"
+  "Tony Freeman",
+  "Leo Pulalasi"
  ],
  "yr4_return_overrides_documented": [],
  "nfl_declare_confirmed": [],
@@ -21,6 +22,7 @@
  "known_name_exceptions": {
   "Kirby Vorhees": "RB, ledger PORTAL(none), but Athlon lists 'KIRBY VORHEES (JR.)' BOLD as RB1 -> portal-withdrawal override. 137 att 72.4 -> 63.5 adj; the returning lead back.",
   "Tony Freeman": "WR, ledger PORTAL(none), but Athlon lists 'TONY FREEMAN (SR.)' BOLD as WR1 -> portal-withdrawal override. 279 routes 76.0 -> 72.3 adj; the offense's best returner.",
+  "Leo Pulalasi": "RB, ledger PORTAL(none), but Athlon names him in 'the running back trio of Kirby Vorhees, Maxwell Woods and Leo Pulalasi' -> portal-withdrawal override. 38 att 71.2 -> 62.3 adj; the RB3.",
   "Zevi Eckhaus": "QB, yr4, the '25 starter, NOT in the two-deep (QB is Pinnick*) -> GONE. 373 snaps 74.5.",
   "Joshua Meredith": "WR, yr4, NOT in the two-deep -> GONE. 362 routes 72.5.",
   "Tucker Large": "S, yr4, NOT in the two-deep -> GONE. 650 snaps 81.4; the secondary's stud (a huge loss).",

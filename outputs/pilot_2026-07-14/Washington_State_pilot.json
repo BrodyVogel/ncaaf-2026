@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T16:35:34+00:00",
+ "team": "Washington State",
+ "final": -4.12,
+ "rank": 85,
+ "band": 7.91,
+ "resid": -6.61,
+ "adj": -2.31,
+ "class_term": 0.0,
+ "st": -0.36,
+ "anchor_blend": -1.95,
+ "resid_level": 1.01,
+ "resid_shape": -7.62,
+ "implied_off": 21.55,
+ "implied_def": 30.02,
+ "anchor_off": 21.57,
+ "anchor_def": 23.43,
+ "fit_r2": {
+  "off": 0.538,
+  "dfn": 0.619
+ },
+ "low_conf_units": 2,
+ "code_rev": "2490cde",
+ "mode": "PILOT-OOS"
+}

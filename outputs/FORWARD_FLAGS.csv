@@ -35,7 +35,7 @@ Oregon_State,Jayden Tuia,Colorado_State,arrival-ORIGIN verify: CSU OL (66 snaps)
 San_Diego_State,Javion Kinnard,Colorado_State,RB departed CSU for SDSU (had 91-yd PR TD '25) - verify SDSU in-feed,closed,2026-07-17,sdsu-build-2026-07-17 (in-feed verified)
 Texas_State,John Smith,Colorado_State,S departed CSU for Texas State - verify TXST in-feed,closed,2026-07-17,txst-build-2026-07-17 (in-feed verified)
 San_Diego_State,Kai Wallin,Oregon_State,EDGE (69.2/260) departed OSU for SDSU - verify SDSU in-feed,closed,2026-07-17,sdsu-build-2026-07-17 (in-feed verified)
-Washington_State,Jalil Tucker,Oregon_State,CB (56.8/506) departed OSU for Wazzu - verify in-feed,open,2026-07-17,
-Washington_State,Darrius Clemons,Oregon_State,WR departed OSU for Wazzu - verify in-feed,open,2026-07-17,
+Washington_State,Jalil Tucker,Oregon_State,CB (56.8/506) departed OSU for Wazzu - verify in-feed,closed,2026-07-17,wsu-build-2026-07-17 (in-feed verified)
+Washington_State,Darrius Clemons,Oregon_State,WR departed OSU for Wazzu - verify in-feed,closed,2026-07-17,wsu-build-2026-07-17 (in-feed verified)
 Utah_State,L.J. Johnson Jr.,Texas_State,WR departed TXST for Utah State - verify in-feed,closed,2026-07-17,usu-build-2026-07-17 (in-feed verified)
-Washington_State,Khamari Terrell,Texas_State,CB (64.3/606) departed TXST for Wazzu - verify in-feed,open,2026-07-17,
+Washington_State,Khamari Terrell,Texas_State,CB (64.3/606) departed TXST for Wazzu - verify in-feed,closed,2026-07-17,wsu-build-2026-07-17 (in-feed verified)
