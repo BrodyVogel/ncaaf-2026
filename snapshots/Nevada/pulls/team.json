@@ -1,0 +1,36 @@
+{
+ "id": 2440,
+ "school": "Nevada",
+ "mascot": "Wolf Pack",
+ "abbreviation": "NEV",
+ "alternateNames": [
+  "NEV",
+  "Nevada"
+ ],
+ "conference": "Mountain West",
+ "division": null,
+ "classification": "fbs",
+ "color": "#002d62",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2440.png"
+ ],
+ "twitter": "@NevadaFootball",
+ "location": {
+  "id": 3816,
+  "name": "Mackay Stadium",
+  "city": "Reno",
+  "state": "NV",
+  "zip": "89557",
+  "countryCode": "US",
+  "timezone": "America/Los_Angeles",
+  "latitude": 39.5469459,
+  "longitude": -119.8175435,
+  "elevation": "1406.57605",
+  "capacity": 27000,
+  "constructionYear": 1966,
+  "grass": false,
+  "dome": false
+ }
+}

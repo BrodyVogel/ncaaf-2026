@@ -1,0 +1,52 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Carter Jones,SO,returning,202 snaps 49.8 (42.5 MWC-adj); 6 st 1019 @ 64% 6-8 as true FR; BOLD
+QB,QB,1,Luke Duncan,JR,transfer:UCLA,34 snaps 60.9 '25; 1 st (vs Ohio St) 235 @ 62% 2-0; PS#32
+QB,QB,3,AJ Bianco,SR,returning,60 snaps 57.3; 975 career @ 58%
+RB,RB,1,Herschel Turner,JR,returning,68 att 70.0 (61.1 adj); 395 @ 5.1; injury/fumble-limited late; ex-Utah St (pre-'25)
+RB,RB,2,Dominic Kelley,SO,returning,23 att 68.0; FB label; power flash
+RB,RB,2,Janerious Jackson,JR,transfer:JC,FEED-GAP; 220 lb; PS#69JC
+RB,RB,3,Ky Woods,SR,returning,18 att; KR1 (first KR TD since 2015)
+WRTE,WR,1,Damien Morgan,SR,transfer:Idaho State,FEED-GAP; 12 st 607 @ 11.4 FCS
+WRTE,WR,1,Gary Givens III,JR,transfer:Northern Illinois,FEED-GAP (FBS-source; NIU no-dest RESOLVED); 100 yds at NIU '25; Valpo '24: 352 @ 15.3
+WRTE,WR,1,Marshaun Brown,JR,returning,177 routes 64.1 (60.4 adj); 16 rec; leading returner
+WRTE,WR,2,Jaceon Doss,SR,transfer:Towson,1107 @ 19.1 L2Y FCS
+WRTE,WR,2,Donnie Cheers,JR,transfer:Southeast Missouri State,650 @ 11.8 L2Y FCS
+WRTE,WR,3,Daijon Calimon,SO,returning,22 routes; 34 yds
+WRTE,TE,1,DJ Asiasi,FR,returning,rFr; 4 gm 5 yds; PS#84; Athlon TE1
+WRTE,TE,2,Jayden O'Rourke,SR,returning,6'9"; 11 gm 25 yds
+OL,LT,1,Jack Foster,SR,returning,WITHDRAWN-override STAYS; 738 snaps 62.8 (52.7 adj); 12 st; Idaho '24; BOLD
+OL,LT,2,RJ Esmon,JR,returning,DNP L2Y
+OL,LG,1,Snoop Leota-Amaama,SR,returning,381 snaps 50.9 (40.8 adj); 5 st (RG); ex-Virginia
+OL,LG,2,Jackson Ramsey,FR,returning,rFr
+OL,C,1,Jacob Norcross,JR,transfer:Memphis,77 snaps 71.5 '25 (72.7 AAC-adj); Kennesaw 12 st '24
+OL,C,2,Ethan Lowell,SO,returning,DNP L2Y
+OL,RG,1,Ethan Newman,JR,transfer:Memphis,167 snaps 66.9 '25 (68.1 adj); Kennesaw 15 st '22-23
+OL,RG,2,Tyler Miller,SO,returning,100 snaps 59.3; 1 st (RG)
+OL,RT,1,Zach Cochnauer,SR,returning,WITHDRAWN-override STAYS; 640 snaps 79.5 (69.4 adj); 10 st 4th-Tm MWC; BEST OL TAPE OF MWC ROUND; BOLD
+OL,RT,2,Jose Balver-Mendoza,SO,transfer:Montana,4 gm '25 FCS
+DL,DE,1,Dylan LaBarbera,SR,returning,668 snaps 91.0 (88.8 adj); 12 st 87 tkl 18 TFL 1st-Tm MWC; DPOY candidate; 'Captain Insano'; BOLD
+DL,DE,2,Kameron Brown,FR,returning,rFr; 53 snaps 74.2
+DL,NT,1,Logologo Va'a,SR,returning,241 snaps 69.1 (66.9 adj); 'a force at NT'
+DL,NT,2,James Gillespie,SR,transfer:Sacramento State,17 tkl FCS '25; SacSt flag RETIRED
+DL,DT,1,Tanner Vaughan,SR,returning,yr4-OVERRIDE (2 prints); 158 snaps 67.7 (65.5 adj)
+DL,DT,2,David Paine Jr.,SO,returning,122 snaps 74.3 (72.1 adj)
+DL,DE,1,Myles Williams,SR,returning,yr4-OVERRIDE (2 prints); 102 snaps 67.1; Cal '23 pre-2025
+DL,DE,2,Brandon Amaniampong,JR,transfer:Indiana State,8 gm 16 tkl FCS '25
+LB,MLB,1,EJ Smith,SR,returning,280 snaps 65.4 (60.7 adj); 8 st 29 tkl 2 int then OFY; team leader; BOLD
+LB,MLB,2,Poasa Utu,JR,transfer:Oklahoma State,49 snaps 67.2 '25 (B12 trivial sample); PS#163
+LB,WLB,1,Jeremy Naborne-Owens,SR,transfer:Colorado State,299 snaps 55.3 '25 at CSU (50.6 MWC-adj); 4 st 36 tkl; 'NFL body'
+LB,WLB,2,Alosio Maluia,SO,returning,depth
+DB,CB,1,Aiden Walker,SO,returning,362 snaps 63.7 (61.3 adj); 4 st as true FR; 'top player on the back line'
+DB,CB,2,Zavien Abercrombie,SO,returning,17 snaps
+DB,CB,1,Bryson Snelling,JR,returning,206 snaps 76.2 (73.8 adj); 4 st 5 pd
+DB,CB,2,Selman Bridges,SO,transfer:Arkansas,22 snaps '25; 6'4"
+DB,NB,1,Joshua Scott,SR,transfer:Eastern Michigan,504 snaps 63.0 at EMU '25 (59.7 MAC-adj); 10 st; PS#159JC
+DB,S,1,Bishop Turner,JR,returning,306 snaps 70.3 (67.9 adj); 1 st 21 tkl; BOLD
+DB,S,2,Jaylen Webb,JR,transfer:Boise State,no '25 tape row; PS#15-adjacent DB add
+DB,S,1,Larry Turner-Gooden,SR,transfer:San José State,TWO-SIDED FEED MISS #2; 342 snaps 71.4 at SJSU '25 (69.0 MWC-adj); PS#27; SJSU research-GONE RESOLVED
+DB,S,3,Cooper Wilson,JR,returning,41 snaps; 9 gm
+ST,K,1,Joe McFadden,SR,returning,yr4-OVERRIDE (2 prints); 19-25 FG L/50 20-20 PAT; UConn '23
+ST,P,1,Ewan Baulch,FR,recruit,Australian (100+ Aussie-rules appearances Brunswick FC); job open
+ST,P,2,Jacob Fernandez,FR,recruit,Australian
+ST,KR,1,Ky Woods,SR,returning,first Nevada KR TD since 2015
+ST,PR,1,Gerick Robinson,SR,returning,yr4-OVERRIDE (2 prints); 2 gm no stats '25

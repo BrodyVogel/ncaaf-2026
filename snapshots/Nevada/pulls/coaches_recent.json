@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Jeff",
+  "lastName": "Choate",
+  "hireDate": "2023-12-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Nevada",
+    "year": 2024,
+    "games": 13,
+    "wins": 3,
+    "losses": 10,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -9.2,
+    "spOverall": -15.2,
+    "spOffense": 21,
+    "spDefense": 34.2
+   }
+  ]
+ },
+ {
+  "firstName": "Jeff",
+  "lastName": "Choate",
+  "hireDate": "2023-12-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Nevada",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -13.3,
+    "spOverall": -13.4,
+    "spOffense": 14.2,
+    "spDefense": 28.7
+   }
+  ]
+ }
+]

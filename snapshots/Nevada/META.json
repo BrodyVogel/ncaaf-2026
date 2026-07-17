@@ -1,0 +1,70 @@
+{
+ "team": "Nevada",
+ "conference": "Mountain West",
+ "created_utc": "2026-07-16T23:51:22+00:00",
+ "assembler_git_rev": "e82a3f6",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Choate yr 3 (6-19; Montana St 11-4/semis '19; Texas co-DC). OC-only change (Bartolone in - ex-Colorado pass-game coord; run-heavy -> Air Raid/spread switch); DC Ioane retained. HC-only rule: x1.0.",
+ "portal_departure_confirmed": [
+  "Edward Rhambo",
+  "Stone Combs",
+  "Jordan Brown",
+  "Nahji Logan",
+  "Nehemiah Burleson",
+  "Zaiden Wallace",
+  "Ashton Hayes",
+  "Ailama Morton",
+  "Dorian Hoze"
+ ],
+ "portal_withdrawal_overrides": [
+  "Zach Cochnauer",
+  "Jack Foster"
+ ],
+ "yr4_return_overrides_documented": [
+  "Tanner Vaughan",
+  "Myles Williams",
+  "Joe McFadden",
+  "Gerick Robinson"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Zach Cochnauer": "out-feed Withdrawn/no-dest vs BOTH prints bold/caps RT1 (79.5/640, 4th-Tm MWC - best OL tape of MWC round). WITHDREW override STAYS (Gales precedent).",
+  "Jack Foster": "out-feed Withdrawn/no-dest vs BOTH prints bold/caps LT1 (62.8/738, 12 st). WITHDREW override STAYS. First DOUBLE-tackle withdrawal-override.",
+  "Larry Turner-Gooden": "arrival from SJSU - ABSENT from Nevada in-feed AND SJSU out-feed = TWO-SIDED FEED MISS #2 (Anderson precedent). Both prints anchor him (PS#27 SS1 '1 st, 10 gm, 28 tkl LY at SJ St'; Athlon S*). RESOLVES the SJSU research-GONE (their grades unaffected - he was graded departed).",
+  "Gary Givens III": "arrival from NIU - NIU out-feed listed destination=None; Nevada in-feed ABSENT; both Nevada prints show him WR2* ('9 gm, 100 (11.0) LY at NIU'). Destination-miss resolved + feed-gap arrival (FBS-source). NIU side unaffected (graded GONE).",
+  "Myles Williams": "feed yr4 with stale LB position label - he is the DE (Athlon DE1 + PS line; Cal '23 pre-2025 history). yr4 override STAYS.",
+  "Tanner Vaughan": "feed yr4; Athlon DT1 + PS line. Override STAYS.",
+  "Joe McFadden": "feed yr4 (RS year at UConn skews clock); Athlon K1 + PS caps '19-25 FG here LY'. Override STAYS.",
+  "Gerick Robinson": "feed yr4; Athlon PR1 + PS line. Override STAYS (minor role).",
+  "Damien Morgan": "Athlon WR1* - ABSENT from in-feed. Idaho St (FCS): 12 st, 607 @ 11.4. Feed-gap.",
+  "Janerious Jackson": "PS#69JC RB - JC-source feed gap; whitelisted.",
+  "Ewan Baulch + Jacob Fernandez": "Australian punter RECRUITS (Baulch: 100+ Aussie-rules appearances, Brunswick FC) - not portal entities (Blake precedent).",
+  "Herschel Turner": "ex-Utah St, arrived BEFORE 2025 (395 @ 5.1 at Nevada '25 per provenance) - returner, no feed entry expected.",
+  "EJ Smith": "OFY mid-season '25 (8 st before injury); PS#156JC label reflects JC history - returner with 280 snaps of '25 Nevada tape."
+ },
+ "feed_gap_arrivals_documented": [
+  "Damien Morgan (WR - Idaho State FCS; Athlon WR1*)",
+  "Gary Givens III (WR - Northern Illinois; FBS-source; NIU no-dest resolved)",
+  "Larry Turner-Gooden (S - San José State; FBS-source; TWO-SIDED miss #2)",
+  "Janerious Jackson (RB - JC)"
+ ],
+ "position_notes": {
+  "Dylan LaBarbera": "91.0 PFF on 668 snaps -> 88.8 MWC-adj: the best returning defender graded in the G5 rounds. 1st-Tm MWC, 17-18 TFL, DPOY candidate + NFL future (both prints); 'Captain Insano' (opposing coach).",
+  "Joshua Scott": "EMU arrival tape 63.0/504 (10 st) -> 59.7 MAC-adj; EMU out-feed closed both-feed.",
+  "Memphis pipeline": "Norcross + Newman both Kennesaw St -> Memphis '25 -> Nevada; AAC OL cell on their '25 tape.",
+  "Jett Carpenter": "TE 69.8/246 -> TEXAS TECH (their in-feed closed): TTU's third G5-harvest closure of the project.",
+  "system change": "run-heavy -> 'Air Raid or Spread option' (PS) under new OC Bartolone; QB battle decided in the new system.",
+  "Athlon chart artifacts": "guard spots mirrored (Newman/Leota-Amaama both listed twice); Scott/Webb listed at multiple DB spots - chart typos noted, rooms graded not slots."
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "P job = two Australian freshmen + a HS recruit (total void of college tape)",
+  "QB battle unresolved (new system)",
+  "Rhambo/Combs destinations unknown (no-dest GONEs)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-16T00:00:00+00:00"
+}

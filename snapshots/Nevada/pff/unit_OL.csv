@@ -1,0 +1,12 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Andrew Madrigal,71502,C,NEVADA,12,100.0,0,239,67.9,72.8,65.9,1,8,363,100.0,100.0,98.5,2,10,1,748,747,0,0,748,386,386,1,0,362,0,2025_this_team
+Jack Foster,158975,T,NEVADA,12,100.0,1,239,62.8,65.7,62.1,3,10,357,100.0,100.0,97.9,6,14,1,738,0,0,737,738,378,378,0,0,360,0,2025_this_team
+Josh Grabowski,158237,G,NEVADA,12,100.0,0,239,58.0,72.9,53.1,3,7,320,100.0,100.0,98.1,2,11,1,678,0,207,0,678,341,341,471,0,337,0,2025_this_team
+Zach Cochnauer,164205,T,NEVADA,11,99.8,0,239,79.5,65.0,80.8,0,10,316,100.0,99.7,98.1,1,11,1,639,0,0,0,640,335,336,0,638,304,1,2025_this_team
+Snoop Leota-Amaama,156365,G,NEVADA,9,100.0,0,239,50.9,52.9,48.7,0,5,201,100.0,100.0,98.8,1,5,0,381,0,360,0,381,217,217,19,0,164,0,2025_this_team
+Trenton Scott,121987,T,NEVADA,11,99.7,0,239,71.3,67.3,74.0,0,5,139,100.0,99.3,98.2,2,5,0,313,0,0,9,314,146,147,199,101,167,3,2025_this_team
+Ethan Newman,173798,G,MEMPHIS,8,100.0,0,218,66.9,79.1,65.8,0,2,94,100.0,100.0,98.9,1,2,0,167,0,1,0,167,99,99,161,0,68,5,arrival_2025_at_MEMPHIS
+Hadine Diaby,171814,G,NEVADA,4,100.0,0,239,55.9,37.2,57.9,2,4,69,100.0,100.0,95.7,0,6,0,141,0,141,0,141,72,72,0,0,69,0,2025_this_team
+Tyler Miller,184190,G,NEVADA,5,100.0,0,239,59.3,28.4,64.6,1,2,52,100.0,100.0,93.3,0,5,2,100,0,40,0,100,54,54,58,0,46,0,2025_this_team
+Jacob Norcross,190299,G,MEMPHIS,3,100.0,0,218,71.5,70.7,71.2,1,0,40,100.0,100.0,98.7,0,1,0,77,5,72,0,77,42,42,0,0,35,0,arrival_2025_at_MEMPHIS
+Henry Sellards,190050,T,NEVADA,5,100.0,0,239,60.3,69.0,59.3,0,0,2,100.0,100.0,100.0,0,0,0,11,0,0,0,11,2,2,0,8,9,2,2025_this_team
