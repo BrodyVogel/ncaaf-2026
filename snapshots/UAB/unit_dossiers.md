@@ -27,6 +27,8 @@ Proxy (audit): QB 52 | RB 27 | OL 74 | DL 13 | LB 31 | DB 5 | ST 1.
 - Was 5th pctile. Adds: Cunningham (YSU), Spencer (ODU), Dean (edge, 4th team), Gold (FCS); Tate
   (330 lb) returns off fall-camp Achilles. Returns Odinjor/Smalls/Warren (60-65 range). 28, M.
 
+> CORRECTION 2026-07-17 (two-deep reconcile audit): DL re-graded 31 -> 16 L. See news.md + grades.json _meta.corrections. The room text above counts departed/expired player(s) now removed.
+
 ## LB — best returner left for Tulsa
 - Hightower (70.0/652) -> Tulsa; new middle = Byard (MTSU 55.2/321) + Esonwune (OkSt 55.5/338 -
   Grantham-system familiarity); Pitcher depth (Toussom: portal, no dest, off Athlon chart = GONE - ledger adjudication 2026-07-15). As-played 11th. 25, L.

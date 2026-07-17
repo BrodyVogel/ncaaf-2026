@@ -113,6 +113,102 @@ def ledger(root):
     return rows
 
 
+# ---- HANDOFF HARDENING (2026-07-17, items 4b/4c) ----------------------------
+GONE_CLASS = ("EXPIRED(yr4)", "PORTAL->", "PORTAL(none)", "GONE (research)",
+              "NFL-DECLARE")
+
+
+def validate_overrides(root):
+    """4b: every META override key must be a BARE PLAYER NAME that matches its
+    universe (roster for yr4/nfl/research entries; out-feed for portal entries).
+    Born from the Stuhlsatz slip: a sentence-form key silently matched nothing
+    and the override never applied."""
+    errors = []
+    mp = f"{root}/META.json"
+    if not os.path.exists(mp):
+        return errors
+    meta = json.load(open(mp))
+    outs, roster = set(), set()
+    op = f"{root}/pulls/portal_2026_out.json"
+    if os.path.exists(op):
+        outs = {player_norm(r["firstName"] + " " + r["lastName"])
+                for r in json.load(open(op))}
+    rp = f"{root}/pulls/roster_2025.json"
+    if os.path.exists(rp):
+        roster = {player_norm(p.get("firstName", "") + " " + p.get("lastName", ""))
+                  for p in json.load(open(rp))}
+    # pff tape-row names: research/nfl/yr4 entries may legitimately match the
+    # tape name form rather than the CFBD roster form (ECU Poku case)
+    pff_names = set()
+    for u in ["QB", "RB", "WRTE", "OL", "DL", "LB", "DB"]:
+        f = f"{root}/pff/unit_{u}.csv"
+        if os.path.exists(f):
+            for r in csv.DictReader(open(f)):
+                pff_names.add(player_norm(r.get("player", "")))
+    wide = roster | outs | pff_names
+    fields = [("portal_withdrawal_overrides", outs, "out-feed"),
+              ("portal_departure_confirmed", outs, "out-feed"),
+              ("yr4_return_overrides_documented", wide, "roster/tape"),
+              ("nfl_declare_confirmed", wide, "roster/tape"),
+              ("departure_confirmed_research", wide, "roster/tape/out-feed")]
+    for field, universe, uname in fields:
+        for entry in meta.get(field, []):
+            if not universe:
+                continue  # no pull to validate against (rare; newcomer edge)
+            nm = player_norm(entry)
+            if nm in universe:
+                continue
+            # near match ONLY for name-like keys (<=4 tokens): suffix variants
+            # such as 'Anthony Beavers Jr.' vs roster 'Anthony Beavers'.
+            # Sentence-form keys must NEVER near-match (they contain the name
+            # but the ledger's exact-match set ignores them - Stuhlsatz slip).
+            if len(entry.split()) <= 4 and any(
+                    nm and len(nm) > 8 and (nm in u or u in nm) for u in universe):
+                continue
+            hint = (" (sentence-form key: use the BARE player name; put the "
+                    "rationale in known_name_exceptions/news.md)"
+                    if len(entry.split()) > 4 else "")
+            errors.append(f"OVERRIDE-KEY ERROR [{field}] '{entry[:60]}' matches no "
+                          f"{uname} name{hint} - the override is NOT applying")
+    return errors
+
+
+def reconcile_twodeep(root, rows):
+    """4c: any ledger name with a GONE-class status that appears in the 2026
+    roster_two_deep.csv player column is a HARD ERROR. This automates the
+    manual prints-vs-ledger reconciliation that caught Stuhlsatz (Wyoming) and
+    McCoy (Hawai'i) - both two-print 2026 starters rendered EXPIRED until the
+    yr4 override was set. Allowed in the two-deep: RETURNS* and WITHDREW."""
+    errors = []
+    tdp = f"{root}/roster_two_deep.csv"
+    if not os.path.exists(tdp):
+        return errors
+    try:
+        rdr = csv.DictReader(open(tdp))
+        pcol = next((c for c in (rdr.fieldnames or []) if c.lower() == "player"), None)
+        if not pcol:
+            return [f"reconcile: no 'player' column in {tdp} (header: {rdr.fieldnames})"]
+        two_deep = set()
+        for r in rdr:
+            for name in (r.get(pcol) or "").split("/"):
+                nm = player_norm(name.strip())
+                if nm:
+                    two_deep.add(nm)
+    except Exception as e:  # malformed csv must fail loud, not silent
+        return [f"reconcile: cannot parse {tdp}: {e}"]
+    for u, player, g, v, status in rows:
+        if any(status.startswith(s) for s in GONE_CLASS):
+            if player_norm(player) in two_deep:
+                errors.append(
+                    f"LEDGER-vs-TWO-DEEP CONFLICT [{u}] {player} ({g}/{v:.0f}): "
+                    f"ledger says '{status}' but the player is IN the 2026 "
+                    f"two-deep. Either the two-deep is wrong, or an override is "
+                    f"missing (yr4_return_overrides / portal_withdrawal_overrides "
+                    f"- bare-name key). Stuhlsatz/McCoy class.")
+    return errors
+# -----------------------------------------------------------------------------
+
+
 def render(team, rows):
     out = [f"\n## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)"]
     for u in ["QB", "RB", "WRTE", "OL", "DL", "LB", "DB"]:
@@ -125,15 +221,22 @@ def render(team, rows):
 
 
 if __name__ == "__main__":
-    args = [a for a in sys.argv[1:] if a != "--write"]
+    args = [a for a in sys.argv[1:] if a not in ("--write", "--check")]
     write = "--write" in sys.argv
+    check_only = "--check" in sys.argv   # validation + reconcile only, no ledger text
     dirs = [f"snapshots/{d}" for d in args] or sorted(
         d for d in __import__("glob").glob("snapshots/*") if os.path.isdir(d))
+    total_errors = 0
     for d in dirs:
         team = os.path.basename(d)
+        if not os.path.isdir(d):
+            print(f"{team}: snapshot dir MISSING ({d}) - check Team_Dir spelling")
+            total_errors += 1
+            continue
         rows = ledger(d)
         text = render(team, rows)
         flags = [r for r in rows if "ADJUDICATE" in r[4]]
+        errors = validate_overrides(d) + reconcile_twodeep(d, rows)
         if write and os.path.exists(f"{d}/unit_dossiers.md"):
             t = open(f"{d}/unit_dossiers.md").read()
             marker = "## DISPOSITION LEDGER"
@@ -141,5 +244,13 @@ if __name__ == "__main__":
                 t = t[:t.index(marker)].rstrip() + "\n"
             open(f"{d}/unit_dossiers.md", "w").write(t + text)
             print(f"{team}: ledger written ({len(rows)} rows, {len(flags)} to adjudicate)")
+        elif check_only:
+            print(f"{team}: {len(rows)} rows, {len(flags)} to adjudicate, "
+                  f"{len(errors)} error(s)")
         else:
             print(f"=== {team}{text}")
+        for e in errors:
+            print(f"  !! {team}: {e}")
+        total_errors += len(errors)
+    if total_errors:
+        sys.exit(f"DISPOSITION GATE FAILED: {total_errors} error(s)")

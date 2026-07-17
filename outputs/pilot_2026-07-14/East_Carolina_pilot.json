@@ -1,17 +1,17 @@
 {
- "run_utc": "2026-07-15T17:10:50+00:00",
+ "run_utc": "2026-07-17T02:58:13+00:00",
  "team": "East Carolina",
- "final": -0.91,
- "rank": 70,
+ "final": -1.1,
+ "rank": 71,
  "band": 6.36,
- "resid": -0.8,
- "adj": -0.28,
+ "resid": -1.35,
+ "adj": -0.47,
  "class_term": 0.0,
  "st": 0.04,
  "anchor_blend": -1.16,
  "resid_level": 0.52,
- "resid_shape": -1.32,
- "implied_off": 24.36,
+ "resid_shape": -1.87,
+ "implied_off": 23.81,
  "implied_def": 26.12,
  "anchor_off": 24.62,
  "anchor_def": 25.58,
@@ -20,6 +20,6 @@
   "dfn": 0.618
  },
  "low_conf_units": 2,
- "code_rev": "c8f504d",
+ "code_rev": "6895cad",
  "mode": "PILOT-OOS"
 }

@@ -1,22 +1,22 @@
 unit,pos,depth,player,class,origin,note
-QB,QB,1,Ryder Burton,JR(yr2),RETURNER - first year as clear-cut starter,2 career starts: 251/3TD in Memphis upset + 213/2 vs Rice; PFF 72.2/118; "look for Burton to take a huge leap" (Athlon); Kitna (64.6/362) gone
+QB,QB,1,Ryder Burton,JR(yr2),RETURNER - first year as clear-cut starter,"2 career starts: 251/3TD in Memphis upset + 213/2 vs Rice; PFF 72.2/118; ""look for Burton to take a huge leap"" (Athlon); Kitna (64.6/362) gone"
 RB,RB,1,Rod Robinson II,,Georgia transfer,6-1 235 power back; injuries slowed UGA progression (Athlon)
 RB,RB,1,Ja'Vin Simpkins / Bam McReynolds,,Coastal Carolina / UL Monroe,combined 1228 yds 5 TD 2025 (Athlon); Simpkins PFF 68.3/123
-WRTE,WR,1,Kaleb Brown,SR(yr3),returner,spring ankle injury - "depth could be dicey if he can't come back" (Athlon); PFF 65.9/99
-WRTE,TE,1,Antonio Ferguson,SO(yr2),returner,"poised for a breakout season" (Athlon)
+WRTE,WR,1,Kaleb Brown,SR(yr3),returner,"spring ankle injury - ""depth could be dicey if he can't come back"" (Athlon); PFF 65.9/99"
+WRTE,TE,1,Antonio Ferguson,SO(yr2),returner,poised for a breakout season (Athlon)
 WRTE,WR,2,EJ Reid / KJ Daniels / CJ Smith,,Wake Forest / Oklahoma / Memphis,adds; Hooks (82.3/356 - best 2025 WR) -> OREGON (portal verified); Hawkins (66.6/316) unmentioned
 OL,C,1,Adam Lepkowski,SR(yr3),RETURNER - unit leader (Athlon),PFF 69.9/873
 OL,G,1,Calib Perez,SR(yr3),RETURNER - unit leader (Athlon),PFF 62.4/548
-OL,OL,2,Barry Walker / Baron Franks / Keyon Cox / Cooper Young,,returners + Oregon State / WVU,"depth should be a strength" (Athlon); Sneh (70.6/795) -> Mississippi State + Moore (65.0/650) -> Baylor (portal verified); Morgan (70.6/868) presumed expired
-DL,DT,1,Cam Cunningham / Chris Spencer / Nigel Tate,,Youngstown St / Old Dominion / RETURNER (Achilles),Tate 330 lbs - tore Achilles in 2025 fall camp, was slated to anchor (Athlon); "strong up the middle" framing
+OL,OL,2,Barry Walker / Keyon Cox / Cooper Young,,returners + Oregon State / WVU,CORRECTION 2026-07-17: Franks (yr4-expired) removed. depth should be a strength (Athlon); Sneh (70.6/795) -> Mississippi State + Moore (65.0/650) -> Baylor (portal verified); Morgan (70.6/868) presumed expired
+DL,DT,1,Cam Cunningham / Chris Spencer / Nigel Tate,,Youngstown St / Old Dominion / RETURNER (Achilles),Tate 330 lbs - tore Achilles in 2025 fall camp," was slated to anchor (Athlon); ""strong up the middle"" framing"
 DL,EDGE,1,Marlin Dean,,Georgia-origin (4th team; via Georgia State),6-5 240 (Athlon)
-DL,EDGE,1,Blanche Gold,,Morgan State (FCS),"twitchy, intriguing" but undersized (Athlon)
-DL,DL,2,Ezra Odinjor / Eamon Smalls / Denver Warren,,returners,62.3/492 + 65.0/416 + 60.1/424
-LB,ILB,1,Muaaz Byard,,Middle Tennessee transfer,PFF 55.2/321; "strong up the middle" pair
+DL,EDGE,1,Blanche Gold,,Morgan State (FCS),"twitchy, intriguing but undersized (Athlon)"
+DL,DL,2,Denver Warren,,returners,CORRECTION 2026-07-17: Smalls PORTAL->Kansas removed (double-counted; graded as arrival there). CORRECTION 2026-07-17: Odinjor PORTAL->Toledo + Smalls PORTAL->Kansas removed (double-counted; graded as arrivals there). 62.3/492 + 65.0/416 + 60.1/424
+LB,ILB,1,Muaaz Byard,,Middle Tennessee transfer,"PFF 55.2/321; ""strong up the middle"" pair"
 LB,ILB,1,Ike Esonwune,,Oklahoma State transfer,31 tkl 2025; PLAYED IN GRANTHAM'S SYSTEM at OkSt (Athlon); PFF 55.5/338
-LB,LB,2,Calvin Pitcher / Eddy Toussom / Mantrez Walker / Braden Sullivan,,returners + Colorado / EKU,Hightower (70.0/652 best 2025 LB) -> TULSA
-DB,CB,1,Delvon Gulley,JR(yr2),RETURNER,"up-and-down season" (Athlon); PFF 59.9/396
-DB,CB,1,Darrell Sweeting,,Marshall transfer,"could be the best coverage cornerback" (Athlon)
+LB,LB,2,Mantrez Walker / Braden Sullivan,,returners + Colorado / EKU,CORRECTION 2026-07-17: Toussom GONE (adjudicated 2026-07-15) removed. CORRECTION 2026-07-17: Pitcher (yr4-expired) + Toussom (GONE adjudicated 2026-07-15) removed. Hightower (70.0/652 best 2025 LB) -> TULSA
+DB,CB,1,Delvon Gulley,JR(yr2),RETURNER,up-and-down season (Athlon); PFF 59.9/396
+DB,CB,1,Darrell Sweeting,,Marshall transfer,could be the best coverage cornerback (Athlon)
 DB,S,1,Jeremiah Jordan,,Memphis transfer,PFF 66.6/369 at Memphis
 DB,S,1,Jotavion Pierce,,Oklahoma State transfer,Grantham-system familiarity
 DB,DB,2,Elijah Pratt / Kris Wokomah / Fullbright / Theodule / Thompson / + more,,SMU/Baylor/OkSt/SoMiss/Memphis,NINE DB adds - Grantham rebuild from an 0th-pctile 2025 unit (team COV 38.9)

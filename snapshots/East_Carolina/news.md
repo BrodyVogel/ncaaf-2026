@@ -12,3 +12,4 @@
 - reflector.com spring-game article date not printed on page (April 2026 by context).
 
 - Samuel Dankah (LB): feed eligibility=Withdrawn supersedes the GONE adjudication. 57.3/528 volume returns to a unit graded 25L on quality (returning volume already counted) - no grade impact. 2026-07-15.
+- 2026-07-17 [CORRECTION - two-deep reconcile audit] RB: Marlon Gunn Jr. (81.0/112) yr4-expired, zero print evidence of return; was counted as one of four room legs. RB re-graded 56 -> 50. Two-deep row fixed. Also: OL depth trio (Askew/Trnavsky/Long, all yr4-expired) removed from the OL,2 returner cell - the graded 2026 five (Weaver/K.Jones/Best/Kramer/Creel) never included them; OL grade unchanged.

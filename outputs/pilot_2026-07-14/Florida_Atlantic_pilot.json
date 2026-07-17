@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-07-15T17:10:50+00:00",
+ "run_utc": "2026-07-17T02:58:13+00:00",
  "team": "Florida Atlantic",
- "final": -9.4,
- "rank": 103,
+ "final": -9.51,
+ "rank": 104,
  "band": 6.36,
- "resid": 4.09,
- "adj": 1.43,
+ "resid": 3.76,
+ "adj": 1.32,
  "class_term": 0.0,
  "st": 0.0,
  "anchor_blend": -11.31,
  "resid_level": 6.44,
- "resid_shape": -2.34,
- "implied_off": 24.24,
- "implied_def": 32.05,
+ "resid_shape": -2.68,
+ "implied_off": 24.08,
+ "implied_def": 32.22,
  "anchor_off": 25.1,
  "anchor_def": 37.0,
  "fit_r2": {
@@ -20,6 +20,6 @@
   "dfn": 0.608
  },
  "low_conf_units": 2,
- "code_rev": "c8f504d",
+ "code_rev": "6895cad",
  "mode": "PILOT-OOS"
 }

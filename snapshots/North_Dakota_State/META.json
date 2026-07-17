@@ -15,12 +15,10 @@
   "Cole Payton",
   "Bryce Lance"
  ],
- "departure_confirmed_research": [
-  "Baricka Kpeenu"
- ],
+ "departure_confirmed_research": [],
  "known_name_exceptions": {
   "Cole Payton / Bryce Lance": "NFL DRAFT exits (Payton #5 DC PHI 2nd-Tm AA; Lance #4 DC NO) - print-documented, not portal/yr4.",
-  "Baricka Kpeenu": "RB led team 1,005 @ 5.3 - feed-silent + absent BOTH prints + PS text explicit 'he departs' -> departure_confirmed_research (Spoth + print-explicit). Brother Barry Kpeenu (So, PS#266) STAYS.",
+  "Baricka Kpeenu": "RB led team 1,005 @ 5.3 - departs per PS print-explicit. NOT in the CFBD FCS roster pull (only brother Barry appears, twice - duplicate rows) and no tape rows exist, so there is no ledger row to flip: documentation-only. Moved from departure_confirmed_research 2026-07-17.",
   "Keith Williams Jr.": "Cornell LB arrival per FEED + Athlon; PS lineup first-names him 'Damian' = conflation with Fr Damian Devine (#50 in Athlon). Cornell tape (3 st, 64 tkl, 8 pd, 3rd-Tm Ivy) belongs to Keith.",
   "Kene Anene": "Kansas IOL->RT per feed + Athlon + PS text; PS lineup 'Akene' = typo. NAME COLLISION: unrelated DE Toby Anene departed to Colorado.",
   "Truman Werremeyer": "FB 2nd-Tm MVFC, yr4 + PS 'departs as does their FB' - print-consistent expiry.",

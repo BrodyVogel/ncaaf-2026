@@ -46,6 +46,8 @@ proxy OL 97 is legitimate for once: the trio really returns.)
 - IN: Otutu (60.8/287 UTSA), Hough (D2, no tape), T.Johnson (NCC — 12 sacks FCS, no row).
 - Woody's scheme is the bet; the personnel is bottom-third. 32, M.
 
+> CORRECTION 2026-07-17 (two-deep reconcile audit): DL re-graded 32 -> 28 M. See news.md + grades.json _meta.corrections. The room text above counts departed/expired player(s) now removed.
+
 ## LB — the drafted star leaves, but this room kept real tape
 - GONE: Golday (82.4/681, NFL 2nd round) + Dingle (62.5/545 expired).
 - RETURN: Thompson (73.5/592 — bold, 3rd-yr starter, "all-league push"), Simms (74.3/304 — the

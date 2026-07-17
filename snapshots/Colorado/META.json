@@ -25,5 +25,11 @@
  ],
  "adjudication_notes": {
   "Brady Kopetz": "feed eligibility='Withdrawn' (2026-07-15 field audit): TE, sub-threshold 2025 (no PFF row); immaterial"
+ },
+ "yr4_return_overrides_documented": [
+  "Ben Finneseth"
+ ],
+ "known_name_exceptions": {
+  "Ben Finneseth": "P6-explicit 'only returning player with >6 starts' - override documented at build; META key added 2026-07-17 (audit)"
  }
 }

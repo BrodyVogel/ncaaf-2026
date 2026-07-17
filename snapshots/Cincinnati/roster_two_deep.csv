@@ -1,30 +1,30 @@
 unit,pos,depth,player,class,origin,note
 QB,QB,1,JC French IV,SR,Georgia Southern transfer (Athlon-bold*),"5,760 pass yds / 37 TD + 554 rush over past two seasons; 6th in SBC QB Rating 2025 (9th in 2024) - volume over efficiency; drawn by RPO/play-action fit (P6); PFF 65.4/498. DEPARTED: Sorsby (90.3/400 - elite) -> Texas Tech as the cycle's TOP-RATED transfer; Cincinnati sued over contract break (P6; see research_log flag for TT)"
-QB,QB,2,Samaj Jones / Liam O'Brien,SO / ,returner + Penn transfer,"Jones 9 career snaps; O'Brien (Ivy) no PFF tape"
-RB,RB,1,Zion Johnson,FR,returner,"bowl-game start; 'surged in spring... the most explosive of the bunch' - Satterfield named him starter (P6); 67.4/29"
+QB,QB,2,Samaj Jones / Liam O'Brien,SO / ,returner + Penn transfer,Jones 9 career snaps; O'Brien (Ivy) no PFF tape
+RB,RB,1,Zion Johnson,FR,returner,bowl-game start; 'surged in spring... the most explosive of the bunch' - Satterfield named him starter (P6); 67.4/29
 RB,RB,2,Zylan Perry / Gi'Bran Payne / Cole Tabb,JR / SR / ,Louisiana + Notre Dame + Stanford transfers,"Perry All-Sun Belt (74.6/192); Payne P4 backup (71.3/13); Tabb (72.6/125). DEPARTED: Walker (85.0/167, All-B12) graduated + Pryor (73.8/109) -> Florida = 1,231 combined yds"
-WRTE,WR,1,JV Gibson,SR,Oklahoma transfer (Athlon-bold*),"spring #1 (P6); injury-limited 2025 at OU (NO qualifying tape); 70 catches at FCS in 2024"
+WRTE,WR,1,JV Gibson,SR,Oklahoma transfer (Athlon-bold*),spring #1 (P6); injury-limited 2025 at OU (NO qualifying tape); 70 catches at FCS in 2024
 WRTE,WR,1,Isaiah Johnson,JR,returner,"'lightning speed' (Athlon), rotation last year (67.9/102); also KR/PR"
-WRTE,WR,1,Larenzo Fenner,JR,South Dakota transfer (Athlon-bold*),"15 FCS TD (P6); no PFF row"
+WRTE,WR,1,Larenzo Fenner,JR,South Dakota transfer (Athlon-bold*),15 FCS TD (P6); no PFF row
 WRTE,WR,2,Cade Wolford / Malachi Henry / Flynn Schiele,SO / JR / ,Kent State + Central Arkansas + D2 Colorado Mines transfers,"Wolford: 27 yds/catch All-MAC - PFF 80.3/143 (best incoming tape; P6: may get run-game touches); Henry 10 FCS TD (no row); Schiele D2 w/ 4* transfer grade (no row). DEPARTED top 3: Allen (72.6/273; 13 TD - 3rd natl; 2nd-tm All-B12) expired, Goodie (63.5/303) -> Missouri, Caldwell (70.0/221; all-time Combine performance) expired. Jennings (67.1/209) returns as depth (not on Athlon DC)"
 WRTE,TE,1,Gavin Grover,JR,returner,"'next in line' in the TE legacy (P6): 250 snaps as true FR (58.2/51 routes). DEPARTED: Royer (59.8/279, All-B12) - NFL 5th round"
-OL,LT,1,Joe Cotton,SR,RETURNING STARTER (bold),"one of the December joint-announcement trio (P6); PFF 69.9/771"
-OL,LG,1,Evan Tengesdahl,JR,RETURNING STARTER (bold),"ALL-AMERICAN (Athlon); PFF 85.4/735 - elite"
-OL,C,1,Taran Tyo,SR,RETURNING STARTER (bold),"PFF 72.7/766; trio makes 'one of the strongest Big 12 lines yet again' (P6)"
-OL,RG,1,Xavier Lozowicki,JR,returner,"projected fill-in (P6); PFF 71.1/103"
+OL,LT,1,Joe Cotton,SR,RETURNING STARTER (bold),one of the December joint-announcement trio (P6); PFF 69.9/771
+OL,LG,1,Evan Tengesdahl,JR,RETURNING STARTER (bold),ALL-AMERICAN (Athlon); PFF 85.4/735 - elite
+OL,C,1,Taran Tyo,SR,RETURNING STARTER (bold),PFF 72.7/766; trio makes 'one of the strongest Big 12 lines yet again' (P6)
+OL,RG,1,Xavier Lozowicki,JR,returner,projected fill-in (P6); PFF 71.1/103
 OL,RT,1,Judea Milon,SR,returner (DC-listing - magazine override),"yr-4 but Athlon-explicit RT starter; PFF 75.4/53; P6 alt: Latulippe. DEPARTED: Gerhardt (68.4/767, C) + Buford (55.1/689, RT) expired. 2025: #2 natl Sack Rate, #3 P6 OL Run Push, #5 ypc, Joe Moore semifinalist"
-DL,DE,1,Marquaze Parker,JR,returner,"'emerged in spring as the top pass rusher' (P6); 'consistent since his true freshman season... best pass-rusher' (Athlon); PFF 55.1/395 - framing vs grade split"
-DL,DT,1,Josh Hough,SR,PennWest California (D2) transfer*,"no PFF tape (D2)"
-DL,DT,1,Chidera Otutu,JR,UTSA transfer*,"PFF 60.8/287 (cross-ref UTSA snapshot)"
-DL,DE,2,Thomas Johnson / Jaylon White-McClain / Kamari Burns,SR / SR / ,NC Central transfer + returners,"T.Johnson: 12 sacks/18 TFL at FCS (P6; no PFF row); White-McClain 56.8/289; Burns 68.6/174. DEPARTED: BOTH All-B12 linemen - Corleone (72.6/352, NFL) + Hunt (76.4/536) graduated; Coleman (57.6/449) -> Miami OH; Rogers (63.1/375) expired. 2025 as-played 22nd pctile"
+DL,DE,1,Marquaze Parker,JR,returner,'emerged in spring as the top pass rusher' (P6); 'consistent since his true freshman season... best pass-rusher' (Athlon); PFF 55.1/395 - framing vs grade split
+DL,DT,1,Josh Hough,SR,PennWest California (D2) transfer*,no PFF tape (D2)
+DL,DT,1,Chidera Otutu,JR,UTSA transfer*,PFF 60.8/287 (cross-ref UTSA snapshot)
+DL,DE,2,Thomas Johnson / Jaylon White-McClain,SR / SR / ,NC Central transfer + returners,"CORRECTION 2026-07-17: Burns PORTAL->Kansas State removed (starts at their DT1). T.Johnson: 12 sacks/18 TFL at FCS (P6; no PFF row); White-McClain 56.8/289; Burns 68.6/174. DEPARTED: BOTH All-B12 linemen - Corleone (72.6/352, NFL) + Hunt (76.4/536) graduated; Coleman (57.6/449) -> Miami OH; Rogers (63.1/375) expired. 2025 as-played 22nd pctile"
 LB,ILB,1,Jonathan Thompson,SR,RETURNING STARTER (bold),"3rd-yr starter, 'should push for all-league honors' (P6); PFF 73.5/592"
-LB,ILB,1,Filip Maciorowski,JR,Northern Illinois transfer (Athlon-bold*),"97 tackles (P6); 'the Golday role' (Athlon); PFF 64.6/611"
-LB,OLB,1,Brian Simms III,JR,returner,"moves into starting role (P6); PFF 74.3/304 - strong grade"
-LB,LB,2,Simeon Coleman / Damaine Wilson,JR / SO,returner + GaState transfer,"Coleman 65.6/413; Wilson 45.7/127. DEPARTED: Golday (82.4/681) - NFL 2nd round; Dingle (62.5/545) expired"
+LB,ILB,1,Filip Maciorowski,JR,Northern Illinois transfer (Athlon-bold*),97 tackles (P6); 'the Golday role' (Athlon); PFF 64.6/611
+LB,OLB,1,Brian Simms III,JR,returner,moves into starting role (P6); PFF 74.3/304 - strong grade
+LB,LB,2,Simeon Coleman / Damaine Wilson,JR / SO,returner + GaState transfer,Coleman 65.6/413; Wilson 45.7/127. DEPARTED: Golday (82.4/681) - NFL 2nd round; Dingle (62.5/545) expired
 DB,NB,1,Antwan Peek Jr.,SR,RETURNING STARTER,"the lone returning secondary starter: All-B12, Jim Thorpe semifinalist; PFF 81.4/424 - elite; 'do-it-all hybrid... will lead the way' (P6)"
-DB,S,1,Jasper Beeler,SR,Northern Illinois transfer (Athlon-bold*),"PFF 76.3/771 - big-volume MAC tape"
-DB,S,1,Ty Goodwill,JR,South Alabama transfer (Athlon-bold*),"spring standout (P6)"
-DB,CB,1,MJ Cannon,SR,Bowling Green transfer (Athlon-bold*),"All-MAC + spring standout (P6); PFF 74.3/752"
-DB,CB,2,Kenny Worthy / Jacob Finley / CJ Jones,SO / SR / FR,transfers + signee,"Finley (NIU) 64.1/674; 'as many as four [portal DBs] could start' (P6). DEPARTED: McDoom (68.6/739) + Gola-Callard (66.2/628) + L.Wilson (72.5/547) + X.Williams (251) expired; Harrison (67.3/685) + Sanks (56.9/506) transferred (Athlon). 9 of 11 defensive starters gone overall"
-ST,K,1,Stephen Rusnak,SR,RETURNING,"'perfect most of the year' but 3 misses vs BYU (P6); 'great first season' (Athlon)"
-ST,P,1,Max Fletcher,SR,RETURNING,"'great first season... another step forward' (Athlon); I.Johnson = KR/PR (fastest player). Team SPEC 74.1 = 51st pctile"
+DB,S,1,Jasper Beeler,SR,Northern Illinois transfer (Athlon-bold*),PFF 76.3/771 - big-volume MAC tape
+DB,S,1,Ty Goodwill,JR,South Alabama transfer (Athlon-bold*),spring standout (P6)
+DB,CB,1,MJ Cannon,SR,Bowling Green transfer (Athlon-bold*),All-MAC + spring standout (P6); PFF 74.3/752
+DB,CB,2,Kenny Worthy / Jacob Finley / CJ Jones,SO / SR / FR,transfers + signee,Finley (NIU) 64.1/674; 'as many as four [portal DBs] could start' (P6). DEPARTED: McDoom (68.6/739) + Gola-Callard (66.2/628) + L.Wilson (72.5/547) + X.Williams (251) expired; Harrison (67.3/685) + Sanks (56.9/506) transferred (Athlon). 9 of 11 defensive starters gone overall
+ST,K,1,Stephen Rusnak,SR,RETURNING,'perfect most of the year' but 3 misses vs BYU (P6); 'great first season' (Athlon)
+ST,P,1,Max Fletcher,SR,RETURNING,'great first season... another step forward' (Athlon); I.Johnson = KR/PR (fastest player). Team SPEC 74.1 = 51st pctile

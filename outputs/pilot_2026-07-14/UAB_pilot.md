@@ -1,13 +1,13 @@
 # UAB — PILOT build sheet [REAL grades, proxy-fitted conversion (OOS)]
 
-FINAL: **-13.41** (rank 121/138 in hybrid field)  band ±7.19
+FINAL: **-13.84** (rank 123/138 in hybrid field)  band ±7.39
 
 ## 1. Unit grades (LLM real | shadow proxy)
 - QB    42 | proxy 52
 - RB    48 | proxy 27
 - WRTE  38 | proxy —
 - OL    45 | proxy 74
-- DL    31 | proxy 13
+- DL    16 | proxy 13
 - LB    25 | proxy 31
 - DB    15 | proxy 5
 - ST    55 | proxy 1
@@ -16,9 +16,10 @@ FINAL: **-13.41** (rank 121/138 in hybrid field)  band ±7.19
 - off: QB:+0.071 RB:+0.088 WRTE:+0.037 OL:+0.085  (R²=0.54)
 - def: DL:-0.082 LB:-0.060 DB:-0.095  (R²=0.61)
 - grade-implied off +24.47 vs anchor off +20.67
-- grade-implied def +31.64 vs anchor def +37.53
-- residual (off-minus-def, grades-vs-anchor): **+9.69**
-- resid decomposition (diagnostic): level +9.12 (=-0.541x anchor margin - the calibrated fade) + shape +0.57 (roster signal)
+- grade-implied def +32.88 vs anchor def +37.53  (def is points-allowed scale: LOWER = better; higher implied than anchor = grades COOLER on the defense)
+- (anchor off/def = SP+'s published splits, level-shifted by half the blend-vs-SP+ gap so off - def == blend; the residual nets to implied_margin - blend, so the SP+ shape never moves the final number)
+- residual (off-minus-def, grades-vs-anchor): **+8.45**
+- resid decomposition (diagnostic, PROXY-FIT REGIME): level +9.12 (=-0.541x anchor margin) + shape -0.67 (roster signal + conversion artifact; see GRADING_BIAS_DIAG)
 
 ## 3. Anchor (per source: raw → normalized → used)
 - SP+      -18.1 → -18.1 → -18.1
@@ -29,8 +30,8 @@ FINAL: **-13.41** (rank 121/138 in hybrid field)  band ±7.19
 - blend -17.36  (dispersion 3.72)
 
 ## 4. Assembly
-- anchor -17.36  class +0.00  k×resid +3.39 (k=0.35, cap ±6.0)  ST +0.10  → recentered (-0.46) → **-13.41**
-- band: 6.0 × coach(1.13) × dispersion(1.00) × conf(1+0.03×2) = ±7.19
+- anchor -17.36  class +0.00  k×resid +2.96 (k=0.35, cap ±6.0)  ST +0.10  → recentered (-0.46) → **-13.84**
+- band: 6.0 × coach(1.13) × dispersion(1.00) × conf(1+0.03×3) = ±7.39
 
 ## 5. Pilot caveats
 - Conversion weights are proxy-fitted (real-grade refit happens at full 138).

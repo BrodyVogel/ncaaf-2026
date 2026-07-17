@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-07-15T17:10:50+00:00",
+ "run_utc": "2026-07-17T02:58:12+00:00",
  "team": "Cincinnati",
- "final": 3.06,
- "rank": 54,
+ "final": 2.95,
+ "rank": 55,
  "band": 6.18,
- "resid": -2.98,
- "adj": -1.04,
+ "resid": -3.32,
+ "adj": -1.16,
  "class_term": -0.0,
  "st": 0.04,
  "anchor_blend": 3.57,
  "resid_level": -1.77,
- "resid_shape": -1.21,
+ "resid_shape": -1.55,
  "implied_off": 27.31,
- "implied_def": 27.01,
+ "implied_def": 27.35,
  "anchor_off": 29.14,
  "anchor_def": 25.86,
  "fit_r2": {
@@ -20,6 +20,6 @@
   "dfn": 0.615
  },
  "low_conf_units": 1,
- "code_rev": "c8f504d",
+ "code_rev": "6895cad",
  "mode": "PILOT-OOS"
 }

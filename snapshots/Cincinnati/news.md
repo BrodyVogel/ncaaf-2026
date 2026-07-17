@@ -31,3 +31,4 @@
 - PS box not extracted (OCR-garbled searchable text; logged trim).
 - Beat sweep trimmed (Cincinnati Enquirer paywall); magazine coverage carried spring detail
   (Zion Johnson named starter, Gibson spring #1, Parker top rusher, Cannon/Goodwill standouts). Logged.
+- 2026-07-17 [CORRECTION - two-deep reconcile audit] DL: Kamari Burns (68.6/174) counted as a returner but PORTAL->Kansas State (their build starts him DT1, cross-ref'd). DL re-graded 32 -> 28. Two-deep row fixed.

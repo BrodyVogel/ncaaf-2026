@@ -28,3 +28,4 @@
 - PS box not extracted (OCR-garbled searchable text; logged trim).
 - Beat sweep trimmed (Deseret/SL Trib paywalls); magazine coverage carried spring + retention
   detail. Logged.
+- 2026-07-17 [CORRECTION - audit] Justin Kirkland: yr4 return override was documented at build but the META bare-name key was missing (Stuhlsatz-format class); key added, ledger re-run. Grades unaffected.

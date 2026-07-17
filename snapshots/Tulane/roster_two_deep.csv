@@ -1,19 +1,19 @@
 unit,pos,depth,player,class,origin,note
-QB,QB,1,Zeon Chriss(-Gremillion) OR Kadin Semonza,SR/SO,Houston transfer / returner (Ball State before),camp battle (Athlon): Chriss dual-threat (Louisiana starts before Houston); Semonza "good numbers at Ball State 2024" then 3rd string Tulane 2025; Retzlaff (81.6/431) done
-RB,RB,1,Jamauri McClure,SO(yr1),RETURNER - "budding star",98 rush ypg + 6.5 ypc over final 5 games 2025 (Athlon); PFF 76.8/83; was 5th string early 2025
+QB,QB,1,Zeon Chriss(-Gremillion) OR Kadin Semonza,SR/SO,Houston transfer / returner (Ball State before),"camp battle (Athlon): Chriss dual-threat (Louisiana starts before Houston); Semonza ""good numbers at Ball State 2024"" then 3rd string Tulane 2025; Retzlaff (81.6/431) done"
+RB,RB,1,Jamauri McClure,SO(yr1),"RETURNER - ""budding star""",98 rush ypg + 6.5 ypc over final 5 games 2025 (Athlon); PFF 76.8/83; was 5th string early 2025
 RB,RB,1,Maurice Turner,JR,returner,won 2025 preseason job then high-ankle sprain in opener (Athlon)
 RB,RB,2,Jaylin Lucas / Johnnie Daniels / DJ Dugar,,FSU / MissSt / OkState,Lucas versatile + elite returner potential; Gordon (72.8/128) -> Tennessee + Barnes -> Iowa State
 WRTE,WR,1,Anthony Brown-Stephens,,RETURNER,41-523-2 2025 (Athlon); PFF 65.9/283
 WRTE,WR,1,Zycarl Lewis Jr.,,RETURNER,24-330 2025; PFF 69.9/152
-WRTE,WR,1,Destyn Hill,,LSU transfer,"speedy" (Athlon)
+WRTE,WR,1,Destyn Hill,,LSU transfer,speedy (Athlon)
 WRTE,WR,2,Bredell Richardson / Gabe Daniels,,UCF / Syracuse,adds; DEPARTED: Preston (71.8/300) -> Indiana + Hayes (83.6/162) -> Iowa State
 WRTE,TE,1,Dawson Johnson / Vance Bolyard,,Old Dominion / Duke,Reid -> Louisville + Miller -> ASU + Pascuzzi expired
 OL,G,1,Reese Baker,SO(yr1),LONE RETURNING STARTER (Athlon explicit),moved inside T->G; PFF 60.2/908 as yr-1
 OL,OL,1,Ryan Mickow / Gavin Marks / Riley Rushing,,Boston College / Mercer / Mars Hill (D2),rebuild; DEPARTED: Hurst (80.7/934 - magazine-override: gone despite yr-3) + Graham (68.6/898) + Hollifield (57.5/971) + Hall expired/portal
-DL,DT,1,Santana Hopper,SR(yr3),RETURNER,PFF 80.2/661 - elite interior returner
-DL,DT,1,Tre'Von McAlpine,SR(yr3),returner,PFF 65.2/437
+DL,DT,1,(slot open - correction),SR(yr3),RETURNER,CORRECTION 2026-07-17: STALE ROW: Hopper PORTAL->Colorado (corrected 2026-07-15; DL re-graded 50->38 then); Guidry (83.7/134) = the real returner. PFF 80.2/661 - elite interior returner
+DL,DT,1,(slot open - correction),SR(yr3),returner,CORRECTION 2026-07-17: STALE ROW: McAlpine PORTAL->Kansas (second correction 2026-07-15). PFF 65.2/437
 DL,EDGE,1,Jah'rie Garner,SO(yr2),returner,PFF 69.8/274
-DL,DL,2,Ed Smith / Reshad Sterling / Jordan Mcallister,,S.Alabama / Houston / New Hampshire,adds; DEPARTED to P4: Nairne -> Pitt + Dyson -> NC State + Norman -> Tennessee (+ Hamilton/Westmoreland expired); Sumrall (attributed): backups "good enough to start elsewhere" - "incredibly deep... should not have a significant drop-off" (Athlon)
+DL,DL,2,Ed Smith / Reshad Sterling / Jordan Mcallister,,S.Alabama / Houston / New Hampshire,"adds; DEPARTED to P4: Nairne -> Pitt + Dyson -> NC State + Norman -> Tennessee (+ Hamilton/Westmoreland expired); Sumrall (attributed): backups ""good enough to start elsewhere"" - ""incredibly deep... should not have a significant drop-off"" (Athlon)"
 LB,LB,1,Chris Rodgers,SR(yr3),RETURNER,80 tkl 2025 incl pick-6 in AAC title game; PFF 54.8/791 (grade-production divergence)
 LB,LB,1,Dickson Agu,SO(yr2),RETURNER off ACL,was leading team in tackles before wk-5 ACL tear (Athlon); PFF 35.0/212 (injury-year noise)
 LB,LB,2,Dalton Hughes / Makai Williams,,S.Alabama / returner,Hughes 53.9/275; Howard (71.6/572) expired
@@ -22,6 +22,6 @@ DB,S,1,Kevin Adams III,SO(yr2),returner,53 tkl (4th on team) without starting (A
 DB,CB,1,E'zaiah Shine,SO(yr1),returner,PFF 61.4/704 as yr-1
 DB,DB,2,Joshua Moore / Macho Stevenson / Justin Agu / Kajuan Banks,,returner + TexasTech/Louisville/USF adds,DEPARTED: J.Johnson (76.2/834) -> Arkansas + White (68.5/654) -> Houston + Despanie expired
 ST,K,1,Jackson Courville,,Ohio State transfer (Ball State before),26-34 FG at Ball St 2023-24 incl two 50+ in 2024 (Athlon)
-ST,P,1,(OPEN - "punting is a concern"),,,BOTH 2025 punters (Clark + Durkin) -> Florida
-ST,KR,1,Jaylin Lucas,,FSU transfer,"coaches love Lucas' potential on returns" (Athlon)
-ST,COORD,1,Will Hall (HC - INTERNAL PROMOTION) after Sumrall -> Florida,,,x1.13 applies (HC changed); mitigant: "retained key assistants... continuity within the building" (Athlon)
+ST,P,1,"(OPEN - ""punting is a concern"")",,,BOTH 2025 punters (Clark + Durkin) -> Florida
+ST,KR,1,Jaylin Lucas,,FSU transfer,coaches love Lucas' potential on returns (Athlon)
+ST,COORD,1,Will Hall (HC - INTERNAL PROMOTION) after Sumrall -> Florida,,,"x1.13 applies (HC changed); mitigant: ""retained key assistants... continuity within the building"" (Athlon)"

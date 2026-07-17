@@ -25,6 +25,8 @@ Shadow proxy 2026 (audit only): QB - | RB 55 | WRTE 35 | OL 34 | DL 38 | LB 1 | 
   risk only.
 - ≥3 sources: PFF, Athlon, Reflector. Confidence: M.
 
+> CORRECTION 2026-07-17 (two-deep reconcile audit): RB re-graded 56 -> 50 M. See news.md + grades.json _meta.corrections. The room text above counts departed/expired player(s) now removed.
+
 ## WRTE — 2025 as-played 66th pctile — volume left, role players remain
 - DEPARTED: A.Smith (72.4/376 - leading receiver, expired), Y.Smith (66.3/334 -> SMU), TEs Riles (-> FSU)
   + Conner (-> Vanderbilt).

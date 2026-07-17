@@ -1,35 +1,35 @@
 unit,pos,depth,player,class,origin,note
-QB,QB,1,Mitch Griffis OR Emory Williams,SR/JR,Texas Tech (Wake before) / Miami,BATTLE to the opener (Athlon; Harrell won't declare early). Griffis: Wake starting experience + PFF 83.2/36 at TT 2025; Williams 6-5 225 "QB central casting" - Miami: 19 db 2025; started as true FR 2023. Houser (84.0/442) -> Illinois
+QB,QB,1,Mitch Griffis OR Emory Williams,SR/JR,Texas Tech (Wake before) / Miami,"BATTLE to the opener (Athlon; Harrell won't declare early). Griffis: Wake starting experience + PFF 83.2/36 at TT 2025; Williams 6-5 225 ""QB central casting"" - Miami: 19 db 2025; started as true FR 2023. Houser (84.0/442) -> Illinois"
 QB,QB,3,(no proven 3rd),,,Ditta -> North Texas; Jeter -> Alcorn St
 RB,RB,1,Ashton Gray,SO,North Texas transfer,PFF 82.2/58; 152 yds 2 TD in New Mexico Bowl; Athlon starter; scheme match w/ OC Davis (from NT)
 RB,RB,1,TJ Engleman Jr.,,returner,5.2 ypc 2025; PFF 81.9/60
-RB,RB,2,Marlon Gunn Jr. / Michael Allen,,returner / Marshall transfer,Gunn 81.0/112; Allen 75.8/77; Montgomery (73.3/157) -> Florida; Jenkins -> Lamar
+RB,RB,2,Michael Allen,,returner / Marshall transfer,"CORRECTION 2026-07-17: Gunn (yr4-expired, no print evidence) removed. Gunn 81.0/112; Allen 75.8/77; Montgomery (73.3/157) -> Florida; Jenkins -> Lamar"
 WRTE,WR,1,Landon Sides,SR,North Texas transfer,88-1092 career IN Jordan Davis's NT offense (scheme continuity); PFF 57.7/357 2025
 WRTE,WR,1,Brock Spalding,SR,RETURNING STARTER (Athlon bold),PFF 70.8/274 2025
 WRTE,WR,2,Ja'Keith Hamilton / Ray Ray Joseph / Jeremiah Melvin / Ty Johnson,JR/JR/,Furman / Miami / Wake Forest / returner,Hamilton 40-5 at 13.6 (FCS); Joseph slot speed + KR; Melvin 54.0/54; DEPARTED: A.Smith (72.4/376) expired + Y.Smith (66.3/334) -> SMU
 WRTE,TE,1,Ismael Smith Flores,JR,UTRGV (FCS) transfer,Athlon starter; Riles (TE) -> FSU + Conner (TE) -> Vanderbilt
 WRTE,TE,2,Kanen Hamlett,,App State transfer,PFF 44.1/134
-OL,LT,1,Bryce Weaver,JR,returner,PFF 59.7/388; "impressed in the spring" (Athlon)
+OL,LT,1,Bryce Weaver,JR,returner,"PFF 59.7/388; ""impressed in the spring"" (Athlon)"
 OL,LG,1,Karson Jones,JR,returner,depth 2025
 OL,C,1,Brandon Best,SR,Kennesaw State transfer,All-CUSA 2025; PFF 62.7/988 - the anchor add (6-4 313)
 OL,RG,1,Ethan Kramer,SR,Northern Arizona (FCS) transfer,29 career FCS starts
-OL,RT,1,Hayes Creel,SR,Southern Miss transfer,PFF 56.6/930 2025; "solid" (Athlon)
-OL,OL,2,Panda Askew / Cooper Trnavsky / Kyle Long / Niko Paic,,returners + Valparaiso (FCS),DEPARTED: Poku (63.0/977) -> South Carolina + McCrimon (56.9/866) -> NC State + Bell (53.5/976) off chart; 2025 team RBLK 48.7 (dire)
+OL,RT,1,Hayes Creel,SR,Southern Miss transfer,"PFF 56.6/930 2025; ""solid"" (Athlon)"
+OL,OL,2,Niko Paic,,returners + Valparaiso (FCS),CORRECTION 2026-07-17: Long (yr4-expired) removed. CORRECTION 2026-07-17: Trnavsky (yr4-expired) removed. CORRECTION 2026-07-17: Askew/Trnavsky/Long (all yr4-expired) removed; graded five never included them. DEPARTED: Poku (63.0/977) -> South Carolina + McCrimon (56.9/866) -> NC State + Bell (53.5/976) off chart; 2025 team RBLK 48.7 (dire)
 DL,DE,1,Jasiyah Robinson,SR,RETURNING STARTER (only one up front per Athlon),PFF 77.9/407; 5 sacks 2025
 DL,NT,1,Preston Carr,SR,returner (rotation),PFF 75.6/408
 DL,DT,1,Rion Roseborough,JR,returner (rotation),PFF 61.0/371
 DL,EDGE,1,Julien Davis,JR,returner (rotation),PFF 73.2/318; also K.Davis 70.5/192 + DuJour 82.9/82 return
 DL,DL,2,Ryheem Craig / J.D. Lampley / Torin Brazell,,returners,Craig 59.4/464 + Lampley 51.5/546 (low-graded volume also returns); DEPARTED: Wilson (74.4/458) -> Virginia + Benton -> N.Texas + McIver -> So.Miss; 2025: 4th natl 7.8 TFL/gm + 26th rush D (Athlon) vs poor unit tackling (team TACK 44.6)
-LB,MLB,1,DJ Johnson Jr.,,returning starter,"tackling machine... anchors" (Athlon); PFF 53.2/530 (grade-production divergence noted)
+LB,MLB,1,DJ Johnson Jr.,,returning starter,tackling machine... anchors (Athlon); PFF 53.2/530 (grade-production divergence noted)
 LB,WLB,1,Dameon Wilson,,returning starter,PFF 48.3/532
 LB,LB,2,Crews Law / Cade Law / Jackson Barker / Noah Holmes,,Memphis transfers (arrived w/ DC Hankins) + returners,C.Law 65.4/164; Barker 66.0/179; Holmes 73.3/80; Dankah departed
 DB,CB,1,TyMir Brown,,returner,PFF 78.4/598 - best returning DB grade
 DB,CB,1,Jonathan Jean / Rae'mon Mosby,,returner / Louisville transfer,Jean 69.8/419; Mosby 47.8/32
-DB,NB,1,Kevon Merrell Jr.,,returning starter (Athlon),PFF 72.2/347; spring: "consistently performing"
-DB,S,1,Zyeir Gamble,,App State transfer,PFF 71.0/787 - full-time SBC starter; spring: "positioned to star"
+DB,NB,1,Kevon Merrell Jr.,,returning starter (Athlon),"PFF 72.2/347; spring: ""consistently performing"""
+DB,S,1,Zyeir Gamble,,App State transfer,"PFF 71.0/787 - full-time SBC starter; spring: ""positioned to star"""
 DB,S,1,Teagan Wilk,,returner,PFF 66.5/639; also Graves 72.5/173 returns; DEPARTED: Riddle (69.0/730) -> Georgia + Lowery (63.7/460) -> Florida
 DB,DB,2,Ashton Levells / Jaylen Bowden / Christian Peterson / Myles Pollard,,FIU / Minnesota / UCF / Memphis transfers,Bowden 76.9/21; Peterson 64.2/30; Pollard no 2025 row (verified)
-ST,K,1,Andrew Conrad,SR,returner (primary K 2023-24),career 36-51 FG; tied NCAA record w/ five 40+ FGs in one 2023 game; "takes over again" (Athlon)
+ST,K,1,Andrew Conrad,SR,returner (primary K 2023-24),"career 36-51 FG; tied NCAA record w/ five 40+ FGs in one 2023 game; ""takes over again"" (Athlon)"
 ST,P,1,Tomas O'Halloran OR Elliot Huether,SO/,returner (AUS) / St. Thomas transfer,O'Halloran 42.1 on 21 punts 2025
 ST,KR/PR,1,Ray Ray Joseph / Kyler Pearson,JR/SR,Miami transfer / returner,per Athlon specialists box
-ST,COORD,1,(HC Harrell continuity; both coordinators NEW),,,OC Jordan Davis (North Texas - "lit up scoreboards"); DC Jordon Hankins (from Memphis); HC unchanged -> no coach multiplier
+ST,COORD,1,(HC Harrell continuity; both coordinators NEW),,,"OC Jordan Davis (North Texas - ""lit up scoreboards""); DC Jordon Hankins (from Memphis); HC unchanged -> no coach multiplier"

@@ -17,13 +17,15 @@
  "research_procedure": "RESEARCH_PROCEDURE.md v2.1",
  "coach_change": false,
  "known_name_exceptions": [
-  "Jake Fette"
+  "Jake Fette",
+  "Zyrus Fiaseu: Athlon-explicit 'sixth-year returner' - override documented in news.md at build; META key added 2026-07-17 (audit)"
  ],
  "nfl_declare_confirmed": [
   "Keith Abney II"
  ],
  "yr4_return_overrides_documented": [
-  "Clayton Smith"
+  "Clayton Smith",
+  "Zyrus Fiaseu"
  ],
  "adjudication_notes": {
   "ledger_audit_2026-07-15": "2026-07-15 league ledger audit (user-prompted): status from the FROZEN research prose/two-deep (May-print evidence class); auto-ledger heuristic rows corrected to match. Zero grade impact - grades were prose-based throughout."

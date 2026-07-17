@@ -18,8 +18,8 @@
    "confidence": "M"
   },
   "DL": {
-   "grade": 31,
-   "confidence": "M"
+   "grade": 16,
+   "confidence": "L"
   },
   "LB": {
    "grade": 25,
@@ -48,7 +48,10 @@
    "DB": "+10 (nine adds + Grantham over frozen floor)",
    "ST": "+54 (proxy artifact: misses Delange's verified return - 31-38 career FG)"
   },
-  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +McReynolds RB 87.6/124 (ULM), +Dean DL 65.1/414, +Nelson DL 67.0/60 (GaSt). RB 45->48, DL 28->31."
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +McReynolds RB 87.6/124 (ULM), +Dean DL 65.1/414, +Nelson DL 67.0/60 (GaSt). RB 45->48, DL 28->31.",
+  "corrections": [
+   "2026-07-17: DL 31 -> 16 L (two-deep reconcile audit; see news.md)"
+  ]
  },
  "grades_detail": [
   {
@@ -166,16 +169,18 @@
   {
    "team": "UAB",
    "unit": "DL",
-   "grade": 31,
-   "confidence": "M",
+   "grade": 16,
+   "confidence": "L",
    "bracketing_exemplars": [
-    "Western Kentucky OL 2025 (25)",
-    "Illinois RB 2025 (32)"
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
    ],
    "rationale_bullets": [
-    "5th-pctile as-played in 2025; Grantham's middle rebuild imports Cunningham (YSU) + Spencer (ODU) around Tate's return from a fall-camp Achilles (330 lbs, was slated to anchor).",
-    "Edge adds now carry verified tape (repair): Dean 65.1 on 414 snaps + Nelson 67.0/60 at Georgia State - starter-level SBC production, not just pedigree - plus the 'twitchy... undersized' FCS riser Gold; returning rotation graded 60-65.",
-    "31 = bottom-third: real bodies with some verified edge tape, unproven middle, health-dependent anchor."
+    "CORRECTION 2026-07-17 (two-deep reconcile audit): Odinjor (62.3/492 PORTAL->Toledo) and Smalls (65.0/416 PORTAL->Kansas) were counted as 2 of the 3 named returning-rotation tapes - both are graded as ARRIVALS in the Toledo and Kansas builds (double-counted). Removed.",
+    "Post-correction room: Warren 60.1/424 (54.2 AAC-adj) is the only returning rotation tape; Dean 65.1/414 (SBC-adj 58.6) + Nelson 67.0/60 carry the edge-add tape; Tate (330 lb) returns off a fall-camp Achilles with no 2025 snaps; Cunningham (YSU)/Spencer (ODU)/Gold (FCS) are no-cell adds.",
+    "16 L: one thin FBS tape anchor + one real SBC edge import + a health-dependent anchor + sub-FBS bodies - the Hawai'i-DL-16L shape, a tier below it on adjusted tape.",
+    "NOTE: pre-correction body text read '28, M' while grades.json shipped 31 (a repair pass added Dean/Nelson tape without updating the body) - both superseded by this correction.",
+    "[pre-correction rationale superseded; original grade 31]"
    ],
    "key_players": [
     {

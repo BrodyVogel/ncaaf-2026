@@ -13,3 +13,4 @@
 ## Dead ends (logged)
 - al.com paywall; PS box not OCR'd (logged trim); punter identity unnamed; Kitna/Jackson/Morgan/Hawkins
   departures unconfirmed-mechanism (not in portal feed; presumed expired - consistent w/ Athlon silence).
+- 2026-07-17 [CORRECTION - two-deep reconcile audit] DL: Odinjor -> Toledo + Smalls -> Kansas were counted as returners while graded as arrivals at their destinations (double-count). DL re-graded 31 -> 16 L. Two-deep row fixed. Also: Pitcher (LB, yr4) + Franks (OL, yr4) removed from two-deep returner cells (depth mentions; LB/OL grades unchanged - depth-level only). Toussom row was stale (GONE adjudicated 2026-07-15).

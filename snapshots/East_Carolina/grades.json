@@ -6,7 +6,7 @@
    "confidence": "L"
   },
   "RB": {
-   "grade": 56,
+   "grade": 50,
    "confidence": "M"
   },
   "WRTE": {
@@ -50,7 +50,10 @@
    "DB": "+17 (proxy can't fully credit Gamble's 787-snap SBC starter row + five returning 66-78 contributors)",
    "ST": "+3 (agree)"
   },
-  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Joseph WRTE 60.7/21 (Miami) - 21 routes, depth flier as priced. No change."
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Joseph WRTE 60.7/21 (Miami) - 21 routes, depth flier as priced. No change.",
+  "corrections": [
+   "2026-07-17: RB 56 -> 50 M (two-deep reconcile audit; see news.md)"
+  ]
  },
  "grades_detail": [
   {
@@ -89,16 +92,17 @@
   {
    "team": "East Carolina",
    "unit": "RB",
-   "grade": 56,
+   "grade": 50,
    "confidence": "M",
    "bracketing_exemplars": [
-    "Nebraska WRTE 2025 (50)",
-    "Wake Forest DL 2025 (60)"
+    "UNLV LB 2025 (40, exemplar anchor)",
+    "Nebraska WRTE 2025 (50, exemplar anchor)"
    ],
    "rationale_bullets": [
-    "Four backs graded 75-82 on the 2026 roster: returners Engleman (81.9/60; 5.2 ypc 2025) + Gunn (81.0/112), plus Gray (North Texas: 82.2/58; 152 yds + 2 TD in the New Mexico Bowl - and he played for new OC Davis) and Allen (Marshall: 75.8/77).",
-    "The departures are absorbable: Montgomery (73.3/157) to Florida was the volume leader but grades below all four current backs; 2025 as-played was 50th pctile.",
-    "Committee structure is the only cap - no one has carried 160+ FBS attempts - but the quality floor across four bodies is the roster's cleanest strength. Proxy agrees (55)."
+    "CORRECTION 2026-07-17 (two-deep reconcile audit): Gunn (81.0/112) is yr4-expired with ZERO print evidence of a 2026 return (no magazine mention; not in either print's chart) - the 'four backs graded 75-82' is three.",
+    "Post-correction: Engleman 81.9/60 + Gray 82.2/58 (NT arrival; 152 + 2 TD New Mexico Bowl) + Allen 75.8/77 (Marshall) - the quality floor holds but the highest-volume leg is gone.",
+    "50: at the Nebraska-WRTE-50 rail instead of above it; committee cap binds harder with three sub-80-attempt backs.",
+    "[pre-correction rationale superseded; original grade 56]"
    ],
    "key_players": [
     {

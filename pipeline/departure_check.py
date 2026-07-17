@@ -33,8 +33,13 @@ def check(root):
     team = os.path.basename(root)
     op = f"{root}/pulls/portal_2026_out.json"
     if not os.path.exists(op):
-        print(f"{team}: no portal_out pull - SKIP")
-        return []
+        # HARDENED 2026-07-17 (handoff item 4a): a missing pull used to print
+        # "SKIP" and return clean - which silently passed the gate when the
+        # team arg was given in space form instead of underscore form (the
+        # Western Michigan near-miss). A gate that can't see its inputs FAILS.
+        print(f"  {team}: portal_out pull MISSING ({op}) - gate cannot run. "
+              f"Check the Team_Dir spelling (underscore form, exact accents/apostrophes).")
+        return [("gate", team, "portal_out pull missing", op)]
     outs = {}
     for r in json.load(open(op)):
         outs[player_norm(r["firstName"] + " " + r["lastName"])] = r.get("destination")

@@ -13,3 +13,5 @@
 - Veltkamp shoulder surgery recovery status: no post-spring update found (2 searches).
 
 - Vince Fiacable (IOL): feed eligibility=Withdrawn confirms the Athlon-chart return (RG1; best returning OL grade). Override registered 2026-07-15 (league field audit).
+- 2026-07-17 [CORRECTION - two-deep reconcile audit] DL: Brantley (68.2/263) adjudicated GONE in META but counted in the rotation text. DL re-graded 30 -> 28. Two-deep row fixed. Also: Keys (DB, yr4-expired, 51.8/629) removed from the DB two-deep cell (volume-context mention; DB 15 L unchanged - room graded at the exemplar floor).
+- 2026-07-17 [CORRECTION - two-deep reconcile audit] OL: Atcavage (57.5/720, yr4-expired, no override) counted as experienced depth. OL re-graded 35 -> 33. Two-deep row fixed.

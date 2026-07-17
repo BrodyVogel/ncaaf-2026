@@ -18,7 +18,7 @@
    "confidence": "M"
   },
   "DL": {
-   "grade": 32,
+   "grade": 28,
    "confidence": "M"
   },
   "LB": {
@@ -48,7 +48,10 @@
    "DB": "-7 vs proxy 52 (proxy counts yr-4 DBs as returning; the wave is gone)",
    "WRTE": "proxy null (no qualifying membership) - engine imputes 50; mine 40"
   },
-  "ps_backfill_2026_07_15": "PS visual page-read: QB 42->44 (O'Brien depth real). Sorsby left BEFORE the bowl (news corrected). OL 76 validated (1st/2nd/3rd-tm B12 trio, 8 sacks allowed). DB 45 validated (PDR #124, 2 INTs all year)."
+  "ps_backfill_2026_07_15": "PS visual page-read: QB 42->44 (O'Brien depth real). Sorsby left BEFORE the bowl (news corrected). OL 76 validated (1st/2nd/3rd-tm B12 trio, 8 sacks allowed). DB 45 validated (PDR #124, 2 INTs all year).",
+  "corrections": [
+   "2026-07-17: DL 32 -> 28 M (two-deep reconcile audit; see news.md)"
+  ]
  },
  "grades_detail": [
   {
@@ -183,17 +186,17 @@
   {
    "team": "Cincinnati",
    "unit": "DL",
-   "grade": 32,
+   "grade": 28,
    "confidence": "M",
    "bracketing_exemplars": [
-    "Illinois RB 2025 (32)",
-    "UNLV LB 2025 (40)"
+    "Western Kentucky OL 2025 (25, exemplar anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
    ],
    "rationale_bullets": [
-    "A 22nd-pctile unit lost both All-B12 pieces (Hunt 76.4/536, Corleone 72.6/352 - NFL) plus a starter to the portal.",
-    "What returns is framing-vs-grade: Parker is the books' 'best pass-rusher' at PFF 55.1/395; Burns (68.6/174) is the best returning number.",
-    "Adds are one UTSA rotation body (Otutu 60.8/287) + no-tape FCS/D2 production claims (T.Johnson 12 sacks at NCC). Woody's scheme is coaching, not personnel.",
-    "32 = bottom-third: the floor of the roster."
+    "CORRECTION 2026-07-17 (two-deep reconcile audit): Burns (68.6/174) - 'the best returning number' in the original rationale - is PORTAL->Kansas State, where their build starts him at DT1 with a Cincinnati cross-ref. Removed from the room.",
+    "Post-correction: Parker 55.1/395 ('best pass-rusher' framing vs grade) + White-McClain 56.8/289 + Otutu 60.8/287 arrival (54.9 AAC-adj) + no-tape FCS/D2 claims; both All-B12 pieces already gone.",
+    "28: drops below the Illinois-RB-32 rail - bottom-third personnel on a coaching bet, now without its best returning grade.",
+    "[pre-correction rationale superseded; original grade 32]"
    ],
    "key_players": [
     {

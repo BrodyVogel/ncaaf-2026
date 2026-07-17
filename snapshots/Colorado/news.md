@@ -35,3 +35,4 @@
 ## Dead ends (logged)
 - Beat sweep trimmed (BuffZone paywall); magazines carried spring detail (RB trio "stood out,"
   Carter "big spring," Arnold readiness). Logged.
+- 2026-07-17 [CORRECTION - audit] Ben Finneseth: yr4 return override was documented at build but the META bare-name key was missing (Stuhlsatz-format class); key added, ledger re-run. Grades unaffected.

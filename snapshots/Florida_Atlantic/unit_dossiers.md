@@ -36,6 +36,8 @@ Shadow proxy 2026 (audit): QB 57 | RB - | WRTE 54 | OL 44 | DL 14 | LB 5 | DB 2 
 - Two proven-ish pieces + D2/pedigree fills; 2025 pass-pro was serviceable (68.7 team PBLK) for the
   scheme. Sources: PFF, PS, Athlon. Confidence: L-M -> M.
 
+> CORRECTION 2026-07-17 (two-deep reconcile audit): OL re-graded 35 -> 33 M (Atcavage yr4-expired removed from depth count). See news.md.
+
 ## DL — 2025 as-played 15th pctile; most bodies return + three transfers
 - RETURNS: Doggette (63.4/658, sack leader), Barber (69.3/436), Denaud (74.9/306), Batiste (65.6/390),
   Marcelin (62.3/482), Brantley (68.2/263) - the whole rotation, effectively (PS DEF 7/6).
@@ -44,6 +46,8 @@ Shadow proxy 2026 (audit): QB 57 | RB - | WRTE 54 | OL 44 | DL 14 | LB 5 | DB 2 
 - The unit was bad (gashed: 200+ rush ypg allowed) but is now deep, experienced, and reinforced -
   continuity-of-mediocrity with upside from Denaud/Barber snap growth.
 - Sources: PFF, PS, Athlon. Confidence: M.
+
+> CORRECTION 2026-07-17 (two-deep reconcile audit): DL re-graded 30 -> 28 M. See news.md + grades.json _meta.corrections. The room text above counts departed/expired player(s) now removed.
 
 ## LB — 2025 as-played 5th pctile; top tackler back, best grade gone
 - Hart (53.3/638 - top tackler, "decorated" per Athlon) returns; Stolsky (64.1/540 - the best LB grade)

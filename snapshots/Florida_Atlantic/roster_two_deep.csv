@@ -1,7 +1,7 @@
 unit,pos,depth,player,class,origin,note
-QB,QB,1,Caden Veltkamp,SR,RETURNING STARTER (WKU before w/ Kittley),3648 yds 24-17 2025 (17 INT led FBS); program-record 494 vs UConn; played w/ non-throwing shoulder injury -> offseason surgery; Kittley: "the number one piece"; PFF 73.2/555
+QB,QB,1,Caden Veltkamp,SR,RETURNING STARTER (WKU before w/ Kittley),"3648 yds 24-17 2025 (17 INT led FBS); program-record 494 vs UConn; played w/ non-throwing shoulder injury -> offseason surgery; Kittley: ""the number one piece""; PFF 73.2/555"
 QB,QB,2,Drew Devillier,,Rice transfer,22 db at Rice (54.7); depth
-RB,RB,1,Kaden Shields-Dutton,JR,returner,PFF 75.8/84; "the pivot to Shields-Dutton" (Athlon); Sands (76.2/104) -> FSU
+RB,RB,1,Kaden Shields-Dutton,JR,returner,"PFF 75.8/84; ""the pivot to Shields-Dutton"" (Athlon); Sands (76.2/104) -> FSU"
 RB,RB,2,Xavier Terrell / Brady Tillman / Leonard Farrow,,returner + D2 transfers,Terrell 62.3/54; Tillman (Edward Waters) + Farrow (Fairmont St) = D2 priors
 WRTE,WR,1,Easton Messer,SR,RETURNING STARTER (WKU-with-Kittley pipeline),PFF 75.4/518 - WR1
 WRTE,WR,1,Dominique Henry,SR,RETURNING STARTER,PFF 61.2/465
@@ -13,12 +13,12 @@ OL,LG,1,Aqil Meredith-Smith,SO,LIU Post (D2) transfer,D2 prior
 OL,C,1,Braden Cunningham OR Vincent Fiacable,SO/SR,returner / RETURNING STARTER,Fiacable 67.9/967 shown at RG on Athlon chart; C/RG alignment fluid
 OL,RG,1,Vincent Fiacable,SR,RETURNING STARTER,PFF 67.9/967 - best returning OL grade
 OL,RT,1,Ben Galloway,JR,Georgia Tech transfer,no meaningful GT snaps (pedigree/depth past)
-OL,OL,2,Okino King / Alex Atcavage / Aiden Jones / Kortez Winslow,,returners + VMI/Lamar transfers,King 62.2/465 + Atcavage 57.5/720 return; Scarlee Jean (63.9/970) absent from 2026 chart + not in portal - presumed expired (UNRESOLVED, logged); Richardson -> Coastal
+OL,OL,2,Okino King / Aiden Jones / Kortez Winslow,,returners + VMI/Lamar transfers,CORRECTION 2026-07-17: Atcavage (yr4-expired) removed; OL re-graded 35->33. King 62.2/465 + Atcavage 57.5/720 return; Scarlee Jean (63.9/970) absent from 2026 chart + not in portal - presumed expired (UNRESOLVED, logged); Richardson -> Coastal
 DL,DE,1,Jay Crable,JR,Ohio transfer,PFF 64.4/565 at Ohio (MAC)
 DL,DT,1,CJ Doggette Jr.,SR,RETURNING STARTER,leading sack-getter (Athlon); PFF 63.4/658
 DL,DT,1,Blake Burris,SR,SMU transfer (NOT in CFBD portal feed - Athlon),PFF 65.3/50 at SMU (tiny sample)
 DL,DE,1,Jonathan Bax,SR,TCU transfer,PFF 62.6/244 at TCU
-DL,DL,2,Naejaun Barber / Wilky Denaud / Deshaun Batiste / Gavench Marcelin / Eric Brantley,,returners,Barber 69.3/436 + Denaud 74.9/306 + Batiste 65.6/390 + Marcelin 62.3/482 + Brantley 68.2/263 - deep returning rotation
+DL,DL,2,Naejaun Barber / Wilky Denaud / Deshaun Batiste / Gavench Marcelin,,returners,CORRECTION 2026-07-17: Brantley (GONE adjudicated) removed. Barber 69.3/436 + Denaud 74.9/306 + Batiste 65.6/390 + Marcelin 62.3/482 + Brantley 68.2/263 - deep returning rotation
 LB,LB,1,Joseph Sipp Jr.,SR,Kansas transfer,18 snaps at KU 2025 - thin
 LB,LB,1,Leon Hart Jr.,JR,RETURNING STARTER,top tackler 2025 (Athlon); PFF 53.3/638
 LB,LB,2,Khmari Johnson / Zyere Horton,,returners,K.Johnson 65.2/394 + Horton 59.3/288; DEPARTED: Stolsky (64.1/540 - best LB grade) -> West Virginia
@@ -27,7 +27,7 @@ DB,CB,1,JK Johnson,SR,Oklahoma State transfer,PFF 58.8/244 at OkSt
 DB,NB,1,Derrick Rogers,JR,returner,PFF 59.3/225
 DB,S,1,Damon Allen,SO,returner (listed S on chart; CB 2025),PFF 59.1/252
 DB,S,1,Jayden Sweeney,SR,returner,PFF 59.0/515
-DB,DB,2,Terez Reid / Chris Keys / Chris Tooley / Ahlston Ware / Wallace Foster / Amar Reynolds,,returners + Ferris St (D2 AA - NOT in CFBD feed) + LSU + Illinois,Reid 79.3/604 RETURNS (best DB) but not bold on chart; Ware = D2 national champ AA safety (Athlon); Foster 1 snap LSU; DEPARTED: L.Johnson (78.7/179) -> FIU
-ST,K,1,Collin Rogers,SR,SMU transfer,"newcomers... could provide an upgrade" (Athlon); Nelms -> ODU
+DB,DB,2,Terez Reid / Chris Tooley / Ahlston Ware / Wallace Foster / Amar Reynolds,,returners + Ferris St (D2 AA - NOT in CFBD feed) + LSU + Illinois,CORRECTION 2026-07-17: Keys (yr4-expired) removed. Reid 79.3/604 RETURNS (best DB) but not bold on chart; Ware = D2 national champ AA safety (Athlon); Foster 1 snap LSU; DEPARTED: L.Johnson (78.7/179) -> FIU
+ST,K,1,Collin Rogers,SR,SMU transfer,newcomers... could provide an upgrade (Athlon); Nelms -> ODU
 ST,P,1,Reed Chandley,JR,Georgia State transfer,
 ST,COORD,1,(Kittley yr 2 - continuity),,,no HC change; 2025 SPEC 73.1

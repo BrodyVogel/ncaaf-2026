@@ -59,3 +59,4 @@ injuries, suspensions, position battles, staff changes. Facts only - no forecast
 - 2026-07-17 [context] '25: 444 ypg / 41 ppg offense; 252 ypg / 13
   ppg defense (#1 FCS scoring D); +96 ypg margin vs Valley; 12-0
   before the Illinois St playoff loss (29-28 as 24-pt favorites).
+- 2026-07-17 [audit] Baricka Kpeenu research-GONE entry moved to known_name_exceptions: absent from the CFBD FCS roster pull entirely (no row to flip; documentation-only).

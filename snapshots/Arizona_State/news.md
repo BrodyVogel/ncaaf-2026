@@ -34,3 +34,4 @@
 
 - PS-BACKFILL 2026-07-15: S.Lapuaho origin RESOLVED = JUCO (PS#8JC; explains feed absence);
   Mitchell = PS#2JC (P6 says #1 overall - attributed difference); PS projects P Floyd (returner) over McLarty.
+- 2026-07-17 [CORRECTION - audit] Zyrus Fiaseu: yr4 return override was documented at build but the META bare-name key was missing (Stuhlsatz-format class); key added, ledger re-run. Grades unaffected.
