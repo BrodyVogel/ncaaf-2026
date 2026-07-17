@@ -30,3 +30,9 @@
   passing problem. 3 L -> conf x1.09; coach x1.0.
 - 2026-07-16 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-17 grades.json written + schema-validated (8/8); ledger 40 rows
+  / 0 to adjudicate; gates clean.
+- 2026-07-17 pilot_readout: FINAL -14.93 (r125/138), band ±6.54 (conf
+  x1.09 [3 L]). Zero winsorization; dispersion 5.61. Raw resid -0.81 —
+  essentially AT-anchor (grades warmer on offense +0.59, cooler on
+  defense +1.40).

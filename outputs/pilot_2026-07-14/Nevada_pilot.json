@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T00:01:55+00:00",
+ "team": "Nevada",
+ "final": -14.93,
+ "rank": 125,
+ "band": 6.54,
+ "resid": -0.81,
+ "adj": -0.28,
+ "class_term": 0.0,
+ "st": -0.68,
+ "anchor_blend": -14.46,
+ "resid_level": 8.04,
+ "resid_shape": -8.85,
+ "implied_off": 16.86,
+ "implied_def": 32.53,
+ "anchor_off": 16.27,
+ "anchor_def": 31.13,
+ "fit_r2": {
+  "off": 0.538,
+  "dfn": 0.62
+ },
+ "low_conf_units": 3,
+ "code_rev": "9218bec",
+ "mode": "PILOT-OOS"
+}
