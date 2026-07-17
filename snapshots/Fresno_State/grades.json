@@ -1,0 +1,157 @@
+{
+ "team": "Fresno State",
+ "units": {
+  "QB": {"grade": 30, "confidence": "L"},
+  "RB": {"grade": 46, "confidence": "M"},
+  "WRTE": {"grade": 38, "confidence": "M"},
+  "OL": {"grade": 40, "confidence": "M"},
+  "DL": {"grade": 44, "confidence": "M"},
+  "LB": {"grade": 40, "confidence": "M"},
+  "DB": {"grade": 44, "confidence": "M"},
+  "ST": {"grade": 48, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-17",
+  "snapshot_rev": "frozen 2026-07-17 (13cba26)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; archetype-watch applied; percentile-mapped per exemplars.md tables; disposition gate split yr4 keep-vs-drop before grading); anchor values not consulted",
+  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 30/RB 46/WRTE 38/OL 40/DL 44/LB 40/DB 44/ST 48)."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB 24, WRTE 0, OL 11, DL 33, LB 27, DB 75, ST 79) keys the as-played 2025 team tape.",
+   "DB": "-31 vs proxy 75 - proxy keys the COV p82 tape of three DEPARTED yr4 starters (Hamilton, Bracha, Wilson); the 2026 back end is Simeon Harris + Powell over two no-tape young CBs.",
+   "ST": "-31 vs proxy 79 - proxy keys SPEC p79, but the kicker is an unproven D2 transfer (specialist turnover); coordinator + coverage + P/KR continuity keep it above average, not p79.",
+   "OL": "+29 vs proxy 11 - proxy floors the line, but it graded PBLK p87 and returns three starters incl. a P12-quality OT tandem.",
+   "WRTE": "+38 vs proxy 0 - the top three WR return with a legit WR1 (Freeman 68.9 adj), well above the proxy floor."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Fresno State", "unit": "QB", "grade": 30, "confidence": "L",
+   "bracketing_exemplars": ["Florida International QB 2025 (15, exemplar anchor)", "New Mexico QB 2025 (34, round exemplar)"],
+   "rationale_bullets": [
+    "Near-total reset: the 2025 starter Warner (31 career P4 starts, 2,080 @ 69% 13-11) 'moves on' (yr4) and Conklin left; the five spring QBs have 82 total FBS snaps (Athlon).",
+    "Khristian Martin (Maryland transfer, So.) is the front-runner - he battled for the Maryland job, a dual-threat with a big arm; his 20-snap 82.1 is a useless sample. Jayden Mandal (lone returnee, missed '25 injured) + true Fr Rose behind.",
+    "No reliable returning tape, but Martin's real P4 pedigree + the run-element scheme fit make this the thin-tape-plus-pedigree archetype, not the zero-tape floor.",
+    "30: above FIU QB 15 (an experienced but struggling G5 starter) on pedigree/scheme; below any proven-tape G5 room (UNM 34); L because the job is unresolved."
+   ],
+   "key_players": [
+    {"name": "Khristian Martin", "role": "QB1 front-runner (transfer, Maryland)", "evidence": "battled for the Maryland job; dual-threat big arm; 20 snaps 82.1 (tiny)"},
+    {"name": "Jayden Mandal", "role": "QB (returning)", "evidence": "lone returnee; missed '25 (labrum surgery); run element"}
+   ],
+   "data_gaps": ["battle unresolved", "82 total FBS snaps in the room"], "g5_guard_note": null
+  },
+  {
+   "team": "Fresno State", "unit": "RB", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Illinois RB 2025 (32, exemplar anchor)", "Nebraska WRTE 2025 (50, exemplar anchor)"],
+   "rationale_bullets": [
+    "Returns all top three (Athlon): Luke (112 att 84.2 -> 75.2 MWC-adj, elite; also KR) + Donelson (140 att 71.0 -> 62.1; BOLD) + Ramirez (60 att 79.1 -> 70.2, short-yardage), behind RBLK p67.",
+    "Luke is a genuine standout - his 75.2 adj volume-leader grade sits above Illinois RB's 69.6, and the whole rotation returns.",
+    "The RB2 dropoff (Donelson 62.1) and a good-not-elite run block keep the unit under the p50 (Memphis 76.9) line.",
+    "46: clearly above Illinois RB 32 on the higher volume leader + full return; the offense's clearest strength."
+   ],
+   "key_players": [
+    {"name": "Rayshon Luke", "role": "RB1 (returning)", "evidence": "112 att 84.2 (75.2 MWC-adj); elite; also KR"},
+    {"name": "Bryson Donelson", "role": "RB (returning, BOLD)", "evidence": "140 att 71.0 (62.1 adj)"},
+    {"name": "Brandon Ramirez", "role": "RB (returning)", "evidence": "60 att 79.1 (70.2 adj); short-yardage"}
+   ],
+   "data_gaps": ["carry split", "RB2 grade dropoff"], "g5_guard_note": null
+  },
+  {
+   "team": "Fresno State", "unit": "WRTE", "grade": 38, "confidence": "M",
+   "bracketing_exemplars": ["Missouri State WRTE (p25, 61.3 table anchor)", "Nebraska WRTE 2025 (50, exemplar anchor)"],
+   "rationale_bullets": [
+    "Returns the top three WR (Athlon): Freeman (322 routes 72.6 -> 68.9 adj, WR1; yr4 RETURN override, Athlon BOLD Sr.) + Avit (57.2) + McClain (51.5) + Farrar (65.0) + Malau'ulu (55.9).",
+    "Freeman's 68.9 is a legit WR1 - above Nebraska WRTE's grade-50 volume leader - but the WR2/WR3 grades are low (51-57), the TE room is thin (Richie Anderson -> A&M; Appleget 42.9 + Tarwater 61.1), and the unit graded RECV p18 as-played in a downfield-shy scheme.",
+    "The good WR1 + returning continuity lift it off the low tier; the weak support + p18 cap it. Maps ~WRTE p34-40.",
+    "38: above the Missouri-State p25 rail on Freeman + continuity; below Nebraska 50 on weak WR2/3 + thin TE."
+   ],
+   "key_players": [
+    {"name": "Josiah Freeman", "role": "WR1 (returning, yr4 override)", "evidence": "322 routes 72.6 (68.9 adj)"},
+    {"name": "Jayon Farrar", "role": "WR (returning)", "evidence": "96 routes 68.7 (65.0 adj)"},
+    {"name": "Jake Tarwater", "role": "TE (returning)", "evidence": "92 routes 64.8 (61.1 adj)"}
+   ],
+   "data_gaps": ["weak WR2/WR3 grades", "thin TE after Richie Anderson", "RECV p18 downfield-shy scheme"], "g5_guard_note": null
+  },
+  {
+   "team": "Fresno State", "unit": "OL", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25, exemplar anchor)", "Michigan OL (p50, 65.5 table anchor)"],
+   "rationale_bullets": [
+    "Returns a good OT tandem: Walton (LT, 775 snaps 55.3 -> 45.2 adj, started as a true Fr; BOLD) + Fullwood (RT, 68.3 -> 58.2; yr4 override, PS 'one of the P12's best OT tandems') + Fonua (LG, 51.4; BOLD).",
+    "Interior rebuilt: Weigel (San Diego FCS C, no cell, PS 'solid addition') + true Fr Leaupepetele at RG. Loses the star C Spomer (75.5 -> 65.4, yr4) + Polendo + Penright.",
+    "A PBLK p87 line (19 sacks allowed) returning three starters incl. a P12-quality tandem, but the MWC -10.08 offset crushes the grades to 45-58 adj and the interior (transfer C + Fr RG) plus the lost anchor cap it.",
+    "40: well above the WKU-25 rail on the OT tandem + pass-pro pedigree; the rebuilt interior holds it under the p50 line."
+   ],
+   "key_players": [
+    {"name": "Rolan Fullwood", "role": "RT (returning, yr4 override)", "evidence": "779 snaps 68.3 (58.2 adj); P12-best OT tandem (PS)"},
+    {"name": "Brayden Walton", "role": "LT (returning, BOLD)", "evidence": "775 snaps 55.3 (45.2 adj); started as a true Fr"},
+    {"name": "Edward Fonua", "role": "LG (returning, BOLD)", "evidence": "858 snaps 61.5 (51.4 adj)"}
+   ],
+   "data_gaps": ["transfer C + true-Fr RG interior", "star C Spomer gone (yr4)"], "g5_guard_note": null
+  },
+  {
+   "team": "Fresno State", "unit": "DL", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["East Carolina DL (p25, 60.5 table anchor)", "Wake Forest DL 2025 (60, exemplar anchor)"],
+   "rationale_bullets": [
+    "FOUR 5+-start returners (PS): Jacks (ED, 62.0 adj; BOLD) + Xepera (ED, 64.9) + Laffitte (DT, 61.2; BOLD, HM MW) + Owusu (DT, 62.2; BOLD) + Noa (59.3) + Hampsten (Sac St FCS, 8.5 sk, no cell).",
+    "Loses the star Claypool (81.9 -> 79.7, 9 st/6.5 sk, yr4) + Foreman (ex-5*) + M.Jordan + Gandy (all yr4).",
+    "Real depth ('one of the stronger Pac-12 D-lines' - PS) with a tight adjusted cluster (59-65), but NO 72+ pass-rush anchor after Claypool walks, and the run D was RDEF p24.",
+    "44: above the ECU p25 rail on depth + four returning starters; below Wake-DL-60 (four-at-72+) on the missing stud + soft run D."
+   ],
+   "key_players": [
+    {"name": "Merhauti Xepera", "role": "DE (returning)", "evidence": "377 snaps 67.1 (64.9 adj)"},
+    {"name": "Martin Owusu", "role": "DT (returning, BOLD)", "evidence": "286 snaps 64.4 (62.2 adj)"},
+    {"name": "Deijon Laffitte", "role": "DT (returning, BOLD)", "evidence": "433 snaps 63.4 (61.2 adj); HM MW"}
+   ],
+   "data_gaps": ["no 72+ anchor after Claypool", "RDEF p24 run defense"], "g5_guard_note": null
+  },
+  {
+   "team": "Fresno State", "unit": "LB", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Nevada LB (p25, 56.3 table anchor)", "UNLV LB 2025 (40, exemplar anchor)"],
+   "rationale_bullets": [
+    "Returns the rotation minus the leader: Thunderbird (67.1 -> 62.4; BOLD, OFY after 7 starts) + Khajavi (60.1 -> 55.4; BOLD, started last 5) + Studt (66.9 -> 62.2) + J.Johnson (56.1).",
+    "Loses 2nd-Tm MW Pearson (64.2/742, the captain/on-ball leader, yr4).",
+    "A tight returning cluster (55-62 adj, three with starts) but no 72+ playmaker; Fresno's floor is higher than UNLV's (no below-52 body) but its ceiling is lower (UNLV had a 73.9 leader).",
+    "40: sits at the UNLV-LB-40 tier - comparable overall level; above the Nevada p25 rail on the three-deep return."
+   ],
+   "key_players": [
+    {"name": "K'vion Thunderbird", "role": "LB1 (returning, BOLD)", "evidence": "302 snaps 67.1 (62.4 adj); OFY after 7 starts"},
+    {"name": "Logan Studt", "role": "LB (returning)", "evidence": "142 snaps 66.9 (62.2 adj)"},
+    {"name": "Tytus Khajavi", "role": "LB (returning, BOLD)", "evidence": "381 snaps 60.1 (55.4 adj); started last 5"}
+   ],
+   "data_gaps": ["no 72+ playmaker", "lost the on-ball leader Pearson"], "g5_guard_note": null
+  },
+  {
+   "team": "Fresno State", "unit": "DB", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6, exemplar anchor)", "Washington State DB 2025 (72, exemplar anchor)"],
+   "rationale_bullets": [
+    "Keeps the star: Simeon Harris (NB, 625 snaps 80.8 -> 78.4 adj; BOLD, NFL potential) + adds Powell (NIU CB, 305 snaps 78.1 -> 74.8 MAC-adj, 'the NIU transfer' per PS) over Tierney (S, 59.3), Cobb (62.1), Briggs (61.3) and two no-tape young CBs (K.Harris, Mouzon).",
+    "Loses the star CB Hamilton (78.2), both starting S Bracha (72.5) + Wilson (73.6), and Embry (57.0) - all yr4.",
+    "TWO genuine 72+ pieces (Harris 78.4, Powell 74.8) - the Wazzu-DB '2 at 72+' shape - but the proven COV p82 core (three starters) walked and two young CBs start unproven, so the qualifying depth is thinner. Do NOT credit the departed COV p82 tape.",
+    "44: the two stars hold it near median; the young CBs + lost starters cap it well below Wazzu-DB-72, far above FAU-6."
+   ],
+   "key_players": [
+    {"name": "Simeon Harris", "role": "NB1 (returning, BOLD)", "evidence": "625 snaps 80.8 (78.4 adj); NFL potential"},
+    {"name": "Taylor Powell", "role": "CB (transfer, Northern Illinois)", "evidence": "305 snaps 78.1 (74.8 MAC-adj)"},
+    {"name": "Ethan Tierney", "role": "S (returning)", "evidence": "304 snaps 61.7 (59.3 adj)"}
+   ],
+   "data_gaps": ["two no-tape young starting CBs", "lost 3 proven COV-p82 starters"], "g5_guard_note": null
+  },
+  {
+   "team": "Fresno State", "unit": "ST", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Boise State ST 2026 (44, round peer)", "UNLV LB 2025 (40, exemplar anchor - cross-unit floor)"],
+   "rationale_bullets": [
+    "P Verdugo returns (BOLD); KR Luke (dangerous); PR Malau'ulu. Loses K Lynch (yr4) -> Watanabe (Ashland D2, unproven).",
+    "Elite coordinator John Baxter ('one of the best ST coaches in the country' - Athlon); led MW in KO (16.1) + punt (3.0) return coverage; SPEC p79.",
+    "ST driven by specialists + coordinator + continuity (calibration lesson): strong on all but the kicker - docked for the unproven D2-transfer K.",
+    "48: above the Boise-ST-44 tier on the coordinator + MW-best coverage + returner; the open kicker keeps it from higher."
+   ],
+   "key_players": [
+    {"name": "Nick Verdugo", "role": "P (returning, BOLD)", "evidence": "returns; MW-best coverage units"},
+    {"name": "Rayshon Luke", "role": "KR (returning)", "evidence": "dangerous return man"},
+    {"name": "Manaki Watanabe", "role": "K (transfer, Ashland D2)", "evidence": "unproven new kicker"}
+   ],
+   "data_gaps": ["unproven D2-transfer kicker"], "g5_guard_note": null
+  }
+ ]
+}

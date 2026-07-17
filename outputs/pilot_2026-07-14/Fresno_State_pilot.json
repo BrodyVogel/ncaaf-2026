@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T15:41:26+00:00",
+ "team": "Fresno State",
+ "final": -2.31,
+ "rank": 75,
+ "band": 6.18,
+ "resid": -1.96,
+ "adj": -0.69,
+ "class_term": 0.0,
+ "st": -0.04,
+ "anchor_blend": -2.08,
+ "resid_level": 1.13,
+ "resid_shape": -3.09,
+ "implied_off": 22.94,
+ "implied_def": 26.98,
+ "anchor_off": 20.71,
+ "anchor_def": 22.79,
+ "fit_r2": {
+  "off": 0.537,
+  "dfn": 0.615
+ },
+ "low_conf_units": 1,
+ "code_rev": "13cba26",
+ "mode": "PILOT-OOS"
+}
