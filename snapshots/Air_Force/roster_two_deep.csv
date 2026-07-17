@@ -1,0 +1,43 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Liam Szarka,JR,returning,143 snaps 80.6 (73.3 MWC-adj); 7 st 1294 @ 62% 9-5 + 922 rush 13 TD (MWC lead); wrist 100%; BOLD
+QB,QB,2,Josh Johnson,SR,returning,39 snaps 72.1; 4 st 374 @ 57% 4-2
+RB,FB,1,Owen Allen,SR,returning,132 att 73.3 (64.4 adj); 750 @ 5.7; five 100-yd games
+RB,FB,2,Kemper Hodges,SR,returning,245-lb FB; 1 st 207 @ 4.2 + 74 pass; ex-QB
+RB,TB,1,Rocco Conti,SR,returning,24 @ 6.0; PS#250
+RB,TB,2,Gage LaDue,JR,returning,depth
+WRTE,WR,1,Jonah Dawson,JR,returning,66 routes 80.7 (77.0 adj); 260 @ 21.7; 12 rec; leading returner
+WRTE,WR,1,Matt Long,JR,returning,1 st; 23 rush; KR+PR
+WRTE,WR,2,Adam Hrynciw,SR,returning,8 gm
+WRTE,WR,2,Mason Hayes,JR,returning,12 gm
+WRTE,TE,1,Simon Kibbee,SR,returning,1 st; PS#165
+WRTE,TE,2,Griffin Stalfort,SR,returning,1 st
+OL,LT,1,Nathan Elwood,SR,returning,577 snaps 69.3 (59.2 adj); 10 st; BOLD; PS#430
+OL,LG,1,TJ Tarascio,SR,returning,273 snaps 61.8; 17 gm L2Y
+OL,LG,2,Alec Falk,SR,returning,539 snaps 60.8 (50.7 adj); 17 starts L2Y; BOLD-listed backup
+OL,C,1,Rudy Varela,SR,returning,1 gm '25
+OL,RG,1,Jon Ashford,JR,returning,187 snaps 76.9 (66.8 adj); 10 gm
+OL,RT,1,Luke Vonderhaar,SR,returning,297 snaps 85.7 (75.6 adj) - best returning OL tape of MWC round; 2 st 7 gm; PS#373
+OL,C,2,Gabriel Averitt,SO,returning,41 snaps 75.2
+DL,RUSH,1,Isaac Hubert,SR,returning,564 snaps 77.3 (75.1 adj); 11 st 30 tkl 11.5 TFL; BOLD; PFF-ED counted DL
+DL,DE,1,Jaylin Reese,JR,returning,153 snaps 65.3; 1 st 10 tkl 1 sk
+DL,DE,2,Grady Forsythe,JR,returning,1 gm; Athlon DE1
+DL,NG,1,Bennett Williams,JR,returning,DNP '25; PS#429
+DL,NG,2,Lukia Rawls Jr.,SR,returning,211 snaps 55.0; 12 gm 9 tkl
+DL,DT,1,Chaz Barnett,JR,returning,2 gm
+DL,DT,2,Andrew Tillett,SR,returning,228 snaps 54.6; 1 st 11 tkl
+LB,MLB,1,Blake Fletcher,SR,returning,702 snaps 63.4 (58.7 adj); 12 st 108 tkl 2nd-Tm MWC; BOLD
+LB,OLB,1,Dallas Daley,SR,returning,407 snaps 64.7 (60.0 adj); 6 st 45 tkl
+LB,MLB,2,Luke Fisher,SR,returning,167 snaps 48.4
+LB,OLB,2,Vinnie Canosa,JR,returning,11 gm
+LB,LB,3,Brody Bujnoch,SR,returning,209 snaps 60.7
+DB,SS,1,Roger Jones Jr.,JR,returning,719 snaps 60.1 (57.7 adj); 12 st 76 tkl 2 int; 4th-Tm MW (PS) / HM (Athlon); BOLD
+DB,FS,1,Max Mustell,SO,returning,588 snaps 70.9 (68.5 adj); 10 st 59 tkl 7 pd 3 int AS TRUE FR; both prints list FS2 behind DNP Paterson (oddity noted)
+DB,FS,1,Cade Paterson,SO,returning,DNP '25; both prints FS1
+DB,CB,1,Mikhail Seiken,JR,returning,467 snaps 54.1 (51.7 adj); 9 st; BOLD
+DB,CB,1,Korey Johnson,JR,returning,464 snaps 58.5 (56.1 adj); 7 st 34 tkl 4 pbu
+DB,NB,1,Alexander Perez,SO,returning,349 snaps 55.4; 5 st 26 tkl as true FR
+DB,S,2,Nick Beckwith,JR,returning,324 snaps 44.9; 6 st 23 tkl
+DB,CB,2,RJ Reedus,SO,returning,68 snaps 71.2; 1 st
+ST,K,1,Jacob Medina,JR,returning,3-6 FG L/31 26-26 PAT; lost job to Tubbs (grad); re-won in spring
+ST,P,1,Will Duncan,JR,returning,DNP 2 yrs; '#2 punter in 25'
+ST,KR,1,Matt Long,JR,returning,KR+PR both prints

@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Troy",
+  "lastName": "Calhoun",
+  "hireDate": "2006-12-22T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Air Force",
+    "year": 2024,
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -11.5,
+    "spOverall": -11.7,
+    "spOffense": 17.8,
+    "spDefense": 27.5
+   }
+  ]
+ },
+ {
+  "firstName": "Troy",
+  "lastName": "Calhoun",
+  "hireDate": "2006-12-22T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Air Force",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -7.4,
+    "spOverall": -3.2,
+    "spOffense": 28.3,
+    "spDefense": 31.7
+   }
+  ]
+ }
+]

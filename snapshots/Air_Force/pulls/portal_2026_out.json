@@ -1,0 +1,50 @@
+[
+ {
+  "season": 2026,
+  "firstName": "Jordan",
+  "lastName": "Shuler",
+  "position": "LB",
+  "origin": "Air Force",
+  "destination": null,
+  "transferDate": "2026-01-03T20:30:00.000Z",
+  "rating": null,
+  "stars": 2,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Trae",
+  "lastName": "Williams",
+  "position": "CB",
+  "origin": "Air Force",
+  "destination": "Furman",
+  "transferDate": "2026-01-23T05:40:00.000Z",
+  "rating": null,
+  "stars": null,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Jeremiah",
+  "lastName": "Shelby",
+  "position": "EDGE",
+  "origin": "Air Force",
+  "destination": null,
+  "transferDate": "2025-12-15T06:00:00.000Z",
+  "rating": null,
+  "stars": null,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Dominic",
+  "lastName": "Diaz",
+  "position": "LS",
+  "origin": "Air Force",
+  "destination": null,
+  "transferDate": "2025-12-11T06:00:00.000Z",
+  "rating": null,
+  "stars": null,
+  "eligibility": "Immediate"
+ }
+]

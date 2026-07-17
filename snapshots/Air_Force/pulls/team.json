@@ -1,0 +1,36 @@
+{
+ "id": 2005,
+ "school": "Air Force",
+ "mascot": "Falcons",
+ "abbreviation": "AF",
+ "alternateNames": [
+  "AF",
+  "Air Force"
+ ],
+ "conference": "Mountain West",
+ "division": null,
+ "classification": "fbs",
+ "color": "#004a7b",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2005.png"
+ ],
+ "twitter": "@AF_Football",
+ "location": {
+  "id": 3713,
+  "name": "Falcon Stadium",
+  "city": "Colorado Springs",
+  "state": "CO",
+  "zip": "80840",
+  "countryCode": "US",
+  "timezone": "America/Denver",
+  "latitude": 38.9969701,
+  "longitude": -104.8436165,
+  "elevation": "2024.875732",
+  "capacity": 46692,
+  "constructionYear": 1962,
+  "grass": false,
+  "dome": false
+ }
+}

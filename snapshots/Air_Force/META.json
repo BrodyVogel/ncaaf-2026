@@ -1,0 +1,41 @@
+{
+ "team": "Air Force",
+ "conference": "Mountain West",
+ "created_utc": "2026-07-17T00:25:28+00:00",
+ "assembler_git_rev": "de4de69",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Calhoun yr 20 (139-97; 82-32 home). DC-only change: Steve Russ returns (alum, AF DC '14-'17, NFL). OC Thiessen = longest-tenured OC in FBS (yr 13). x1.0.",
+ "portal_departure_confirmed": [
+  "Jordan Shuler",
+  "Jeremiah Shelby",
+  "Dominic Diaz"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "SERVICE ACADEMY": "0 portal in / 4 out; no transfers accepted (Athlon quote). All ≥100-vol 2025 producers absent from 2026 prints = graduation (yr4-consistent): Zdroik (90.4/515), Cooley (789), Burnett (82.0/672 All-MWC), Tate (639), Harris (74.5), Fleischmann (72.2), Q.Smith (80.1), Carson, L.Brown (65.4/334 - PS confirms 'lose one CB (6 st)'), Swartz, Adams, Grobe. Zero override candidates; zero print conflicts.",
+  "Trae Williams": "CB -> Furman (FCS) - the one destination exit; no obligation.",
+  "Reagan Tubbs": "2025 mid-season K (7-9, L/52) - graduated; absent from both prints' 2026 K rooms.",
+  "Cade Paterson": "FS1 in BOTH prints despite DNP '25, ahead of Mustell (10 st, 3 INT as true FR) - coaching-decision oddity documented; room graded not slots.",
+  "Isaac Hubert": "RUSH hybrid: PS lineup at RUSH, Athlon at OLB; PFF ED -> counted in DL room (Echoles convention)."
+ },
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "Liam Szarka": "80.6/143 -> 73.3 adj; MWC-leading 13 rush TD; first FBS QB since Lamar Jackson w/ 3 straight 200-pass/100-rush games; broken wrist -> 100% per both prints.",
+  "Luke Vonderhaar": "85.7/297 -> 75.6 adj = best returning OL tape of the MWC round.",
+  "Payton Zdroik": "90.4/515 graduated - the team's best 2025 defender leaves without a portal entry (academy pattern).",
+  "DB youth curve": "COV p1 earned by true freshmen who all return (Mustell/Perez true-FR starters); PS projects 'leaps and bounds' - graded 18 as volume-vs-tape split.",
+  "2025 luck profile": "three 3-pt losses on missed late FGs + UConn loss after Szarka 2Q injury; 38.3 ppg pre-injury vs 21.3 after."
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "P Duncan has zero college punts",
+  "academy roster year fields approximate class years (141-man roster); prints govern"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}
