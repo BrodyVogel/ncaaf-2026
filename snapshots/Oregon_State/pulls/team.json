@@ -1,0 +1,36 @@
+{
+ "id": 204,
+ "school": "Oregon State",
+ "mascot": "Beavers",
+ "abbreviation": "ORST",
+ "alternateNames": [
+  "ORST",
+  "Oregon St"
+ ],
+ "conference": "Pac-12",
+ "division": null,
+ "classification": "fbs",
+ "color": "#231f20",
+ "alternateColor": "#d73f09",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/204.png"
+ ],
+ "twitter": "@BeaverFootball",
+ "location": {
+  "id": 3893,
+  "name": "Reser Stadium",
+  "city": "Corvallis",
+  "state": "OR",
+  "zip": "97331",
+  "countryCode": "US",
+  "timezone": "America/Los_Angeles",
+  "latitude": 44.5594559,
+  "longitude": -123.2814341,
+  "elevation": "66.90744781",
+  "capacity": 43363,
+  "constructionYear": 1953,
+  "grass": false,
+  "dome": false
+ }
+}

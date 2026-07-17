@@ -1,0 +1,50 @@
+{
+ "team": "Oregon State",
+ "conference": "Pac-12",
+ "created_utc": "2026-07-17T15:45:19+00:00",
+ "assembler_git_rev": "c76a8a9",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC JaMarcus Shephard - Athlon 'Record at School: First Season', 'Career Record: First Season'; PS 'they fired Bray'. -> COACH CHANGE (band x1.13). The CFBD coaches feed still shows Bray (2024-25) - stale; the magazines confirm the Shephard hire. DC Mike MacIntyre hired.",
+ "conference_note": "2-team Pac remnant (with Wazzu) in 2025 -> the PAC offset cell (big positive, reflects the OLD strong Pac-12) is INAPPROPRIATE per pac12_magazine_map.md. OSU's 2025 slate: Cal, Oregon, Texas Tech, Wake (4 P4) + Fresno, Houston, App St, Sam Houston, Tulsa (G5) + Lafayette (FCS) + Wazzu x2 = a G5-plus schedule. TREATMENT: conservative MWC-like cells on returning tape (QB -7.35, RB -8.95, WRTE -3.70, OL -10.08, DL -2.19, LB -4.74, DB -2.43), NOTING the 4 P4 games argue for a lighter (nearer-zero) discount, so the two studs (Hickle, Sullivan) were leaned to the UPPER band. FLAG FOR OWNER. FCS/D2 arrivals = no cell (evidence-only).",
+ "portal_departure_confirmed": [
+  "Gabarri Johnson",
+  "Zachary Card"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Tyler Voltin",
+  "Jacob Schuster",
+  "Raesjon Davis"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Tyler Voltin": "RG, CFBD year==4, but Athlon lists 'TYLER VOLTIN (SR.)' BOLD + 'a key piece at guard' -> yr4 RETURN override. 435 snaps 61.2 -> 51.1 adj.",
+  "Jacob Schuster": "NT, CFBD year==4, but Athlon lists 'Jacob Schuster (Sr.)' as NT2 -> yr4 RETURN override. 212 snaps 65.2 -> 63.0 adj.",
+  "Raesjon Davis": "MLB, CFBD year==4, but Athlon lists 'Raesjon Davis (Sr.)' as MLB2 (ex-USC) -> yr4 RETURN override. 131 snaps 58.3 -> 53.6 adj.",
+  "Anthony Hankerson": "RB1, yr4, NOT in the 2026 two-deep (Athlon: Hatcher is 'the leading returner' -> Hankerson gone) -> GONE. 294 att 73.7; the every-down back (a real loss).",
+  "Van Wells": "C, yr4, NOT in the 2026 two-deep (C is Wagner/Guillaume*) -> GONE. 742 snaps 63.6; the interior anchor.",
+  "Tyler Morano": "T, yr4, NOT in the two-deep -> GONE. 419 snaps 59.0.",
+  "Nikko Taylor": "ED, yr4, NOT in the two-deep -> GONE. 417 snaps 64.3.",
+  "Skyler Thomas": "S, yr4, NOT in the two-deep (S is Howard/Kalahiki*) -> GONE. 666 snaps 65.3; a full-time starter.",
+  "Mason White": "S, yr4, NOT in the two-deep -> GONE. 194 snaps 69.2.",
+  "Kobe Singleton": "CB, yr4, NOT in the two-deep -> GONE. 430 snaps 63.1.",
+  "Bryce Caufield": "TE, yr4, NOT in the two-deep -> GONE. 228 routes 53.1.",
+  "Gabe Milbourn": "TE, yr4, NOT in the two-deep -> GONE. 127 routes 59.7.",
+  "Zachary Card": "WR, portal-out -> None (a.k.a. 'Zack Card' in PFF tape); NOT in the two-deep -> GONE. Name-form mismatch resolved (ledger defaulted RETURNS on 'Zack Card').",
+  "Gabarri Johnson": "QB, portal-out -> None, NOT print-listed -> GONE. 123 snaps 49.1.",
+  "Maalik Murphy": "QB1 returns (BOLD) but in an OPEN 3-way battle; graded on his real 305-snap tape (59.8) + P4 pedigree, not as thin-tape.",
+  "Xayvion Noland": "WR/KR/PR, FCS (UT-Rio Grande Valley) arrival, no cell (evidence-only); 901-yд FCS breakout."
+ },
+ "feed_gap_arrivals_documented": [],
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon 2026 depth chart",
+  "QB1 unresolved (open 3-way battle into mid-August)",
+  "many FCS-transfer starters (K.Johnson, Shoats, Layne, Findlayter, Noland) have no cell - evidence-only projection",
+  "OFFSET is a judgment call (2-team-remnant schedule) - see conference_note; FLAG FOR OWNER"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}

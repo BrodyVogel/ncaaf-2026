@@ -1,0 +1,45 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Maalik Murphy,SR,returning,305 snaps 59.8 (~56 adj, light-discount); BOLD; ex-Texas/Duke 4-star; open 3-way battle
+QB,QB,2,Braden Atkinson,SO,transfer:Mercer,FCS 3,596 34-11 (no cell); battle
+QB,QB,3,Brady Jones,SO,transfer:Western Michigan,51 snaps 38.3 (MAC); battle
+RB,RB,1,Cornell Hatcher Jr.,SO,returning,51 att 63.3 (~59 adj); "leading returner"; impressive limited reps
+RB,RB,2,AJ Newberry,SR,transfer:Vanderbilt,18 att 62.4 (SEC, tiny)
+DL,DE,1,Takari Hickle,SR,returning,408 snaps 78.6 (76.4 MWC-adj / ~78 light); BOLD; "unblockable" spring; the stud
+DL,DT,1,Tygee Hill,JR,returning,347 snaps 65.4 (63.2 adj)
+DL,NT,1,Tevita Pome'e,JR,returning,210 snaps 59.4 (57.2 adj)
+DL,NT,2,Jacob Schuster,SR,returning,212 snaps 65.2 (63.0 adj); yr4 override (Athlon NT2 Sr.)
+DL,DT,1,Tyler Bailey,JR,transfer,DT; depth
+DL,DE,2,Ish Findlayter,JR,transfer:Duquesne,FCS edge (no cell)
+DL,DT,3,Daniel Matagi,JR,transfer:Portland State,FCS (no cell)
+WRTE,WR,1,Karson Boschma,SR,returning,32 routes 65.6 (top returning WR, low volume)
+WRTE,WR,1,Xayvion Noland,JR,transfer:UT Rio Grande Valley,FCS breakout 901 yds (no cell); KR/PR
+WRTE,WR,1,Aeryn Hampton,SO,transfer:Alabama,SEC pedigree; little tape
+WRTE,WR,2,Eddie Freauff,SO,returning,169 routes 57.0 (53.3 adj); depth
+WRTE,TE,1,DeCorion Temple,SR,transfer:Central Michigan,166 routes 54.1 (MAC -7.12 -> 47.0 adj)
+WRTE,WR,2,Adonis McDaniel,SO,transfer:Mercer,FCS (no cell)
+WRTE,TE,2,Eric Olsen,SO,transfer:Utah Tech,FCS (no cell)
+OL,LG,1,Nathan Elu,SR,returning,382 snaps 60.8 (50.7 MWC-adj); BOLD returning starter
+OL,RG,1,Tyler Voltin,SR,returning,435 snaps 61.2 (51.1 adj); BOLD; yr4 override; "key piece", missed spring
+OL,LT,1,Kwan Johnson,SO,transfer:Eastern Illinois,FCS OT (no cell); "look to anchor"
+OL,RT,1,Teko Shoats,JR,transfer:Bethune-Cookman,FCS OT (no cell); "look to anchor"
+OL,C,1,Jack Wagner,SO,returning,young C; minimal tape
+OL,C,2,Carter Guillaume,SO,transfer:Louisville,11 snaps (tiny); ACC
+OL,T,2,Josiah Timoteo,JR,returning,356 snaps 38.3 (28.2 adj); weak
+LB,WLB,1,Aiden Sullivan,SR,returning,576 snaps 84.6 (79.9 MWC-adj / ~84 light); BOLD; #2 tackler; the stud
+LB,MLB,1,Dylan Layne,SR,transfer:Idaho,FCS (no cell); "intriguing tandem with Sullivan"
+LB,MLB,2,Raesjon Davis,SR,returning,131 snaps 58.3 (53.6 adj); yr4 override (Athlon MLB2 Sr.; ex-USC)
+LB,LB,2,Kord Shaw,SO,returning,179 snaps 56.1 (51.4 adj)
+LB,LB,3,Tyree Blake,SO,returning,177 snaps 48.9 (44.2 adj)
+LB,OLB,1,Jabari Odoemenem,SR,transfer:Duquesne,FCS (no cell)
+DB,NB,1,Sailasa Vadrawale III,JR,returning,579 snaps 71.3 (68.9 adj); BOLD; the DB anchor
+DB,S,1,Jaheim Patterson,JR,returning,639 snaps 66.8 (64.4 adj); returning starter
+DB,CB,1,TJ Crandall,JR,returning,missed '25 injured; "cornerstone" per staff
+DB,CB,1,Trey Glasper,SO,returning,600 snaps 49.8 (47.4 adj); BOLD; up-and-down Fr yr
+DB,S,1,Harlem Howard,JR,returning,81 snaps 59.0 (56.6 adj)
+DB,S,2,Kahanu Kalahiki,SO,transfer,S; depth
+DB,CB,2,Isaiah Houi,JR,transfer:Eastern Illinois,FCS CB (no cell)
+DB,S,3,Tyrice Ivy Jr.,SO,returning,37 snaps 64.0 (tiny)
+ST,K,1,Caleb Ojeda,SR,returning,K returns; SPEC p0 was a LS-injury fluke
+ST,P,1,AJ Winsor,JR,returning,set a single-game punt record (53.4 avg); good
+ST,KR,1,Xayvion Noland,JR,transfer:UT Rio Grande Valley,KR/PR
+ST,LS,1,Jonathan Zarut,JR,transfer:Memphis,new snapper (fixes the '25 LS problem)

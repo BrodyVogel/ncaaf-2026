@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Trent",
+  "lastName": "Bray",
+  "hireDate": "2023-11-28T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Oregon State",
+    "year": 2024,
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -9.2,
+    "spOverall": -6.7,
+    "spOffense": 26.1,
+    "spDefense": 32.7
+   }
+  ]
+ },
+ {
+  "firstName": "Trent",
+  "lastName": "Bray",
+  "hireDate": "2023-11-28T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Oregon State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -12.6,
+    "spOverall": -15.9,
+    "spOffense": 17,
+    "spDefense": 30.8
+   }
+  ]
+ }
+]
