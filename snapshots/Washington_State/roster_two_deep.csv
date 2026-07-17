@@ -1,0 +1,42 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Caden Pinnick,SO,transfer:UC Davis,FCS (no cell); "unanswered questions at QB"; both '25 QBs gone
+QB,QB,2,Owen Eshelman,FR,recruit,depth
+RB,RB,1,Kirby Vorhees,JR,returning,137 att 72.4 (63.5 MWC-adj); BOLD; portal-none withdrawal override
+RB,RB,1,Maxwell Woods,SO,returning,36 att 68.8 (59.9 adj)
+RB,RB,2,Leo Pulalasi,SO,returning,38 att 71.2 (62.3 adj)
+WRTE,WR,1,Tony Freeman,SR,returning,279 routes 76.0 (72.3 MWC-adj); BOLD; WR1; portal-none withdrawal override; PR
+WRTE,TE,1,Trey Leckner,JR,returning,144 routes 57.6 (53.9 adj); BOLD
+WRTE,WR,1,Daniel Blood,SR,transfer:Missouri,54 routes 64.8 (SEC)
+WRTE,WR,2,Tank Hawkins,SO,transfer:Florida,21 routes 56.4 (SEC); KR
+WRTE,WR,2,Darrius Clemons,SR,transfer:Oregon State,Pac-remnant WR; xref closed
+WRTE,WR,2,Ryan McKendry,SO,transfer,WR depth
+WRTE,WR,2,Branden Ganashamoorthy,JR,returning,122 routes 52.2 (48.5 adj)
+WRTE,TE,2,Jack Pedersen,SR,transfer:UCLA,115 routes 45.9 (B10)
+OL,LT,1,Ashton Tripp,JR,returning,887 snaps 48.3 (38.2 MWC-adj); BOLD; off a PBLK p4/RBLK p1 base
+OL,LG,1,Jonny Lester,SR,returning,870 snaps 52.8 (42.7 adj); BOLD
+OL,C,1,Kyle Martin,JR,returning,231 snaps 54.1 (44.0 adj)
+OL,RG,1,Noah Dunham,JR,returning,210 snaps 48.9 (38.8 adj)
+OL,RT,1,Maximus McCree,SR,transfer,projected RT
+OL,T,2,Xavier Thorpe,SO,returning,depth
+DL,DE,1,Michael Hughes,JR,returning,146 snaps 79.5 (77.3 MWC-adj); the bright spot (low volume)
+DL,DT,1,Damarjhe Lewis,SR,transfer,projected DT starter
+DL,DT,1,Kaden Beatty,JR,returning,111 snaps 65.2 (63.0 adj)
+DL,DE,1,Matyus McLain,JR,transfer,projected DE starter
+DL,DE,2,Linus Zunk,SR,transfer,projected DE
+DL,DT,2,Jirah Leaupepetele,JR,transfer,DT depth
+DL,DT,2,Paul Hutson III,SR,transfer,DT depth
+LB,LB,1,Keith Brown,SR,returning,projected LB starter; limited tape
+LB,LB,1,DJ Warner,JR,transfer,projected LB starter
+LB,LB,1,Nylan Brown,JR,transfer,projected LB starter
+LB,LB,2,Jack Ellison,SO,returning,108 snaps 38.8 (weak)
+DB,CB,1,Jalil Tucker,SR,transfer:Oregon State,506 snaps 56.8 (Pac-remnant); xref closed
+DB,CB,1,Khamari Terrell,SR,transfer:Texas State,606 snaps 64.3 (SBC -3.62 -> 60.7 adj); xref closed
+DB,SS,1,Jaylen Thomas,SO,transfer,projected SS starter
+DB,FS,1,Jeremiah Bernard,JR,transfer,projected FS starter
+DB,S,1,Matthew Durrance,JR,returning,464 snaps 70.3 (67.9 MWC-adj); the one returning DB contributor
+DB,S,2,Jshawn Frausto-Ramos,JR,transfer,S depth
+DB,CB,2,Kyle Peterson,SO,returning,111 snaps 48.0 (weak)
+ST,K,1,Jack Stevens,SO,returning,K
+ST,P,1,Max Dean,SO,transfer:New Mexico State,55 punts 42.3 avg (SBC)
+ST,KR,1,Tank Hawkins,SO,transfer:Florida,KR
+ST,PR,1,Tony Freeman,SR,returning,PR

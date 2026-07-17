@@ -1,0 +1,14 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Ashton Tripp,176695,T,WASH STATE,13,99.9,0,341,48.3,48.8,48.5,2,21,462,99.8,99.8,97.3,7,24,1,886,0,0,884,887,490,491,0,0,396,2,2025_this_team
+Jonny Lester,158515,G,WASH STATE,13,100.0,0,341,52.8,43.0,54.4,5,18,453,100.0,100.0,96.8,4,26,3,870,0,679,0,870,481,481,0,190,389,0,2025_this_team
+AJ Vaipulu,74652,G,WASH STATE,13,100.0,0,341,51.2,35.8,56.3,3,23,453,100.0,100.0,96.9,9,27,1,869,0,0,0,869,480,480,869,0,389,0,2025_this_team
+Brock Dieu,146503,C,WASH STATE,11,100.0,0,341,61.2,76.3,56.6,0,5,339,100.0,100.0,98.7,5,7,2,657,657,0,0,657,362,362,0,0,295,0,2025_this_team
+Christian Hilborn,146501,T,WASH STATE,9,100.0,1,341,57.4,59.3,53.4,4,15,328,100.0,100.0,97.1,2,19,0,610,0,0,0,610,342,342,0,609,268,1,2025_this_team
+Kyle Martin,176684,C,WASH STATE,4,100.0,0,341,54.1,44.6,55.9,0,5,124,100.0,100.0,96.4,0,7,2,231,231,0,0,231,129,129,0,0,102,0,2025_this_team
+Noah Dunham,176670,G,WASH STATE,7,100.0,0,341,48.9,59.4,44.3,0,6,97,100.0,100.0,95.9,0,7,1,210,0,209,0,210,105,105,0,0,105,0,2025_this_team
+Maximus McCree,156455,T,WASHINGTON,5,100.0,0,340,34.0,27.7,43.6,3,11,122,100.0,100.0,93.4,2,15,1,202,0,0,201,202,125,125,0,0,77,0,arrival_2025_at_WASHINGTON
+Jaylin Caldwell,205510,T,WASH STATE,2,100.0,1,341,37.3,49.6,37.1,0,1,46,100.0,100.0,96.7,2,2,1,81,0,0,0,81,52,52,0,81,29,0,2025_this_team
+Trevor Bindel,205522,G,WASH STATE,3,100.0,0,341,53.4,48.6,53.0,0,1,10,100.0,100.0,95.0,0,1,0,19,0,0,0,19,11,11,19,0,8,0,2025_this_team
+Kalolo Ta'aga,183629,T,UTAH,1,100.0,0,328,55.3,14.0,56.8,0,0,2,100.0,100.0,100.0,0,0,0,16,0,0,0,16,2,2,0,16,14,0,arrival_2025_at_UTAH
+Xavier Thorpe,190383,T,WASH STATE,2,100.0,0,341,59.0,67.7,58.2,0,0,2,100.0,100.0,100.0,0,0,0,8,0,0,0,8,2,2,0,7,6,0,2025_this_team
+Chris Lino,190376,G,WASH STATE,1,100.0,0,341,60.0,,60.1,0,0,0,,,,0,0,0,2,0,0,2,2,0,0,0,0,2,0,2025_this_team

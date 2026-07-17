@@ -1,0 +1,36 @@
+{
+ "id": 265,
+ "school": "Washington State",
+ "mascot": "Cougars",
+ "abbreviation": "WSU",
+ "alternateNames": [
+  "WSU",
+  "Washington St"
+ ],
+ "conference": "Pac-12",
+ "division": null,
+ "classification": "fbs",
+ "color": "#981e32",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/265.png"
+ ],
+ "twitter": "@WSUCougarFB",
+ "location": {
+  "id": 3820,
+  "name": "Gesa Field",
+  "city": "Pullman",
+  "state": "WA",
+  "zip": "99164",
+  "countryCode": "US",
+  "timezone": "America/Los_Angeles",
+  "latitude": 46.731831,
+  "longitude": -117.1604991,
+  "elevation": "773.9526367",
+  "capacity": 32952,
+  "constructionYear": 1972,
+  "grass": false,
+  "dome": false
+ }
+}

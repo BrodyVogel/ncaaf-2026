@@ -1,0 +1,47 @@
+{
+ "team": "Washington State",
+ "conference": "Pac-12",
+ "created_utc": "2026-07-17T16:27:32+00:00",
+ "assembler_git_rev": "646035f",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Kirby Moore - Athlon 'Record at School: First Season', 'Career Record: First Season' (ex-Missouri OC) -> COACH CHANGE (band x1.13). DC Trent Bray (the ex-Oregon State HC, fired at OSU). Former HC Jimmy Rogers left for Vanderbilt, taking six players.",
+ "conference_note": "2025 Pac remnant (with OSU) -> the PAC offset cell (big positive, old strong Pac-12) is INAPPROPRIATE per pac12_magazine_map.md. Wazzu's 2025 slate: Washington, Ole Miss, Virginia, Kansas State (P4) + SDSU, North Texas, CSU, Toledo, La Tech, OSU x3, JMU, Utah State (G5) + Idaho (FCS) = a G5-plus schedule. TREATMENT: conservative MWC-like cells on returning tape (QB -7.35, RB -8.95, WRTE -3.70, OL -10.08, DL -2.19, LB -4.74, DB -2.43), noting the P4 games argue for a lighter (nearer-zero) discount. FLAG FOR OWNER (same convention as Oregon State). Arrivals on origin cells; FCS/D2 arrivals = no cell (Pinnick UC Davis, many defensive transfers).",
+ "portal_departure_confirmed": [
+  "Darrion Dalton",
+  "Mike Sandjo"
+ ],
+ "portal_withdrawal_overrides": [
+  "Kirby Vorhees",
+  "Tony Freeman"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Kirby Vorhees": "RB, ledger PORTAL(none), but Athlon lists 'KIRBY VORHEES (JR.)' BOLD as RB1 -> portal-withdrawal override. 137 att 72.4 -> 63.5 adj; the returning lead back.",
+  "Tony Freeman": "WR, ledger PORTAL(none), but Athlon lists 'TONY FREEMAN (SR.)' BOLD as WR1 -> portal-withdrawal override. 279 routes 76.0 -> 72.3 adj; the offense's best returner.",
+  "Zevi Eckhaus": "QB, yr4, the '25 starter, NOT in the two-deep (QB is Pinnick*) -> GONE. 373 snaps 74.5.",
+  "Joshua Meredith": "WR, yr4, NOT in the two-deep -> GONE. 362 routes 72.5.",
+  "Tucker Large": "S, yr4, NOT in the two-deep -> GONE. 650 snaps 81.4; the secondary's stud (a huge loss).",
+  "Colby Humphrey": "CB, yr4, NOT in the two-deep -> GONE. 602 snaps 78.0.",
+  "Caleb Francl": "DB, yr4, NOT in the two-deep -> GONE. 708 snaps 71.4.",
+  "Jamorri Colson": "DB, yr4, NOT in the two-deep -> GONE. 514 snaps 71.9.",
+  "Isaac Terrell": "DL, portal -> Iowa State (part of the Iowa State cluster) -> GONE. 409 snaps 86.8; the DL stud.",
+  "Buddha Peleti Jr.": "DL, yr4, NOT in the two-deep -> GONE. 415 snaps 73.4.",
+  "Michael Hughes": "DL returns (not yr4/portal); 146 snaps 79.5 -> 77.3 MWC-adj - a low-volume bright spot on an otherwise-rebuilt front.",
+  "Matthew Durrance": "S returns (not yr4/portal); 464 snaps 70.3 -> 67.9 adj - the ONE returning secondary contributor (the rest of COV p81 walked).",
+  "Caden Pinnick": "QB1, UC Davis (FCS) transfer -> no cell, no FBS tape; graded as an unproven thin-tape QB ('unanswered questions at QB' - Athlon)."
+ },
+ "feed_gap_arrivals_documented": [],
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon 2026 depth chart",
+  "DEFENSE has 0 returning starters - an all-transfer rebuild (heavy projection; LB graded L)",
+  "QB1 (Pinnick) is an FCS transfer with no FBS tape (graded L)",
+  "OFFSET is a judgment call (Pac-remnant schedule) - see conference_note; FLAG FOR OWNER",
+  "ANCHOR-vs-grade tension: the market is more optimistic than the departed-tape grades (Kirby Moore + transfers); expect a strongly negative residual"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}
