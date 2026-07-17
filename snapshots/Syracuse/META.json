@@ -21,7 +21,9 @@
   "Dion Wilson Jr.": "DT, yr4, NOT in the two-deep -> GONE. 394 snaps 69.0.",
   "Umari Hatcher": "WR, portal-out -> None, <100-vol '25 producer, Athlon-stale-listed as WR1 (pre-portal) -> treated GONE, not carried in the two-deep. Immaterial (the WR grade is an all-transfer projection)."
  },
- "feed_gap_arrivals_documented": [],
+ "feed_gap_arrivals_documented": [
+  "David Ndukwe (OT <- Houston): Athlon confirms twice - prose 'an experienced OL bolstered by Houston transfer David Ndukwe' + depth chart 'RT Pringle/Ndukwe*' (the * = transfer). Absent from the CFBD portal_2026_in feed (19 rows, only OL arrival is Akinshilo/UCLA) - a feed gap, not a mis-cite. Grade-immaterial: already in roster_two_deep; OL 42 accounts for him as the projected RT."
+ ],
  "known_gaps": [
   "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon 2026 depth chart",
   "QB1 Angeli returning from a torn Achilles - health is the season swing (graded on his healthy tape + Odom insurance)",

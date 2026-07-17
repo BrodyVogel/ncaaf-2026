@@ -10,9 +10,9 @@ LSU,Jackson Harris,Hawai'i,WR 83.9/345 (963 @ 19.7) - verify in-feed + expect fe
 Wake_Forest,Wondame Davis Jr.,UTEP,WR 62.8/322 (the 23.5-ypc leader) - verify in-feed,open,2026-07-17,
 Kentucky,Mark Robinson,UTEP,OT 53.0/813 starter - verify in-feed,open,2026-07-17,
 California,Ashten Emory,UTEP,RB 71.5/119 team rushing leader - verify in-feed,open,2026-07-17,
-Syracuse,Malachi Nelson,UTEP,QB 55.6/222 (ex-PS#1 recruit) - verify in-feed,open,2026-07-17,
-Syracuse,Snowden,MAC-round,MAC wrap parked flag - see mac_wrap_2026-07-16.md,open,2026-07-17,
-Syracuse,D'Appolonia,MAC-round,MAC wrap parked flag - see mac_wrap_2026-07-16.md,open,2026-07-17,
+Syracuse,Malachi Nelson,UTEP,QB 55.6/222 (ex-PS#1 recruit) - verify in-feed,closed,2026-07-17,syracuse-build-2026-07-18 (in-feed verified: Nelson QB<-UTEP)
+Syracuse,Snowden,MAC-round,MAC wrap parked flag - see mac_wrap_2026-07-16.md,closed,2026-07-17,syracuse-build-2026-07-18 (in-feed verified: Amare Snowden CB<-Toledo)
+Syracuse,D'Appolonia,MAC-round,MAC wrap parked flag - see mac_wrap_2026-07-16.md,closed,2026-07-17,syracuse-build-2026-07-18 (in-feed verified: Chris D'Appolonia LB<-Toledo)
 Vanderbilt,Beau Johnson,North_Dakota_State,OT departed NDSU - verify in-feed,open,2026-07-17,
 Liberty,Terron Kellman,Wyoming,RB 72.9/67 - verify in-feed,open,2026-07-17,
 New_Mexico_State,James Williams,UTEP,IOL 60.3/807 starter - verify in-feed,open,2026-07-17,

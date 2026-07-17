@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T19:52:39+00:00",
+ "team": "Syracuse",
+ "final": -2.34,
+ "rank": 76,
+ "band": 6.36,
+ "resid": -2.14,
+ "adj": -0.75,
+ "class_term": -0.0,
+ "st": -0.2,
+ "anchor_blend": -1.88,
+ "resid_level": 1.23,
+ "resid_shape": -3.38,
+ "implied_off": 23.0,
+ "implied_def": 27.42,
+ "anchor_off": 23.31,
+ "anchor_def": 25.59,
+ "fit_r2": {
+  "off": 0.538,
+  "dfn": 0.615
+ },
+ "low_conf_units": 2,
+ "code_rev": "e63329f",
+ "mode": "PILOT-OOS"
+}
