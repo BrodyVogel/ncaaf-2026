@@ -1,0 +1,209 @@
+{
+ "team": "North Dakota State",
+ "units": {
+  "QB": {"grade": 14, "confidence": "L"},
+  "RB": {"grade": 16, "confidence": "M"},
+  "WRTE": {"grade": 12, "confidence": "L"},
+  "OL": {"grade": 20, "confidence": "M"},
+  "DL": {"grade": 16, "confidence": "M"},
+  "LB": {"grade": 14, "confidence": "L"},
+  "DB": {"grade": 14, "confidence": "M"},
+  "ST": {"grade": 14, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-17",
+  "snapshot_rev": "frozen 2026-07-17 (8344a65)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines."},
+  "shadow_proxy_divergence": {
+   "note": "proxy ALL-VOID (artifact #43 pattern - FBS newcomer, 2nd of project). Every grade out-of-model, FCS-evidence-based.",
+   "frame": "elite-FCS tape + documented NFL/P4 exits graded one tier above SacSt-style strong-FCS volume, below FBS-earned snaps; the anchors carry the translation prior, not the grades"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "North Dakota State",
+   "unit": "QB",
+   "grade": 14,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Hayes has ZERO career starts (10 gm relief: 381 @ 57%, 4-1; runner with 'good speed and a strong arm') - the least starter evidence of any projected MWC QB1.",
+    "Payton (2,719 @ 72%, 16-4 + 777 rush, 2nd-Tm AA) drafted #5 DC PHI - the position's FIFTH straight NFL draft pick (Miller #6DC LV the year prior).",
+    "The heavy-run scheme protects first-year starters and the pipeline is documented, but the grade follows tape: none exists.",
+    "14 L: < UTEP 16 L (Colson's 9 FCS starts) and < SacSt QB 20 L (Conklin's FCS FR-AA production); just below the FIU-15 rail."
+   ],
+   "key_players": [
+    {"name": "Nathan Hayes", "role": "QB1 (returning)", "evidence": "0 starts; 381 @ 57% relief '25"},
+    {"name": "Trey Drake", "role": "QB2 (returning)", "evidence": "3 gm LY; PS#327"}
+   ],
+   "data_gaps": ["zero starter tape at any level"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "North Dakota State",
+   "unit": "RB",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Scott (502 @ 5.3 as the #3 rusher) steps to lead back - 'will likely try to double those numbers'; LeGreant (131 @ 5.2), Mitchell rFr, Punni <- Holy Cross (415 @ 5.9) fill the committee.",
+    "Baricka Kpeenu (1,005 @ 5.3, team leader) departs (research-GONE, print-explicit) + FB Werremeyer (2nd-Tm MVFC, yr4).",
+    "The 200+-rush-ypg committee identity has produced regardless of carrier for over a decade (AF Superback logic) behind the round's best evidence-backed OL.",
+    "16: = SJSU/UNM 16, < AF 22 - system + adequate bodies, all FCS tape, no proven lead."
+   ],
+   "key_players": [
+    {"name": "DJ Scott", "role": "RB1 (returning)", "evidence": "502 @ 5.3; 13 gm"},
+    {"name": "Nyeoti Punni", "role": "FB (transfer, Holy Cross)", "evidence": "FCS 415 @ 5.9"}
+   ],
+   "data_gaps": ["no 700+-yd producer in room"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "North Dakota State",
+   "unit": "WRTE",
+   "grade": 12,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Lance (1,079 @ 21.1; 17 rec TD '24) drafted #4 DC NO + Nelson (404) + TE C.Williams + Harris (392, yr4) - the target tree is gone.",
+    "Returns: J.Williams (293 @ 17.2), TE Kessel (335 @ 22.3), Collins (462 @ 21.0 L2Y) - deep-shot efficiency, nobody over 300 yards.",
+    "PS-only feed-gap adds Patterson <- Arizona (196 @ 7.5 L2Y) + McCants <- Jax St = role depth.",
+    "12 L: = Nevada/Wyoming/UTEP 12 L tier; 'need a go-to WR to emerge' (PS)."
+   ],
+   "key_players": [
+    {"name": "Jackson Williams", "role": "WR1 (returning)", "evidence": "3 st, 293 @ 17.2; elite KR/PR"},
+    {"name": "Reis Kessel", "role": "TE1 (returning)", "evidence": "4 st, 335 @ 22.3"},
+    {"name": "Mekhi Collins", "role": "WR (returning)", "evidence": "462 @ 21.0 L2Y"}
+   ],
+   "data_gaps": ["no returner over 300 yds", "Patterson/McCants single-print"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "North Dakota State",
+   "unit": "OL",
+   "grade": 20,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Three returning starters, two decorated: C Empey (13 st, 1st-Tm FCS ALL-AMERICAN), LG Tastad (13 st, 1st-Tm FCS Frosh AA), RG Magin (12 st at RT '25).",
+    "The premier FCS OL program: 200+ rush ypg 2012-23; Zabel drafted #18 overall off the '24 line; the '25 unit paved 444 ypg / 41 ppg.",
+    "RT Anene <- Kansas (76.4 on 4 snaps - pedigree only; both prints RT1, 'solidified the unit in the spring') + LT Babatz (1 st as true Fr); P4 raided the leftovers (Johnson -> Vandy, Fraley -> MichSt w/ FCS-AA billing).",
+    "20: = UNLV 20 tier, < Nevada 22/UNM 24 (FBS-earned tape outranks) - the best evidence-backed unit on the roster."
+   ],
+   "key_players": [
+    {"name": "Griffin Empey", "role": "C (returning)", "evidence": "13 st; 1st-Tm FCS AA"},
+    {"name": "Nate Tastad", "role": "LG (returning)", "evidence": "13 st; 1st-Tm FCS Frosh AA"},
+    {"name": "Kene Anene", "role": "RT (transfer, Kansas)", "evidence": "76.4/4 snaps; both prints RT1"}
+   ],
+   "data_gaps": ["tackles = 1 career start + 4-snap import", "all FCS tape"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "North Dakota State",
+   "unit": "DL",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "DT K.Wilson (13 st, 37 tkl, 8 TFL, 3rd-Tm FCS AA) - 'all-conference performer... leads the group' of 'the heart and soul of the defense' (Polasek).",
+    "9 of the top 12 back from a front that allowed 104 rush ypg @ 3.2 with 33 sacks (#1-FCS 13-ppg scoring D behind it).",
+    "Loses 2 starters incl. the best rusher: 2nd-Tm MVFC DE Toby Anene (7 sk) -> Colorado + yr4 interior.",
+    "16: = SJSU 16/Hawai'i 16 L, > UTEP 10 L - elite-FCS returning volume with the pass-rush question open."
+   ],
+   "key_players": [
+    {"name": "Keenan Wilson", "role": "DT1 (returning)", "evidence": "13 st, 8 TFL; 3rd-Tm FCS AA"},
+    {"name": "Kelton McCaslin", "role": "DE1 (returning)", "evidence": "12 st, 23 tkl"},
+    {"name": "Matthew Stenbroten", "role": "DE (returning)", "evidence": "13 gm, 11 tkl"}
+   ],
+   "data_gaps": ["pass-rush replacement for T.Anene", "all FCS tape"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "North Dakota State",
+   "unit": "LB",
+   "grade": 14,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Woolen (13 st, 41 tkl, 5 TFL, 12 pd) - #1 tackler, All-MVFC, 'best overall player on D' - a real coverage-capable anchor.",
+    "Staehling (1st-Tm AA) left for MICHIGAN on the final day of the portal window - 'weakening what looked like a stellar linebacking corps' (Athlon).",
+    "Around Woolen: K.Williams <- Cornell (3rd-Tm Ivy: 64 tkl, 8 pd; name conflation resolved by feed) + rFr Sell ('should emerge') + Haugo.",
+    "14 L: = UTEP 14, > Hawai'i 12 L, < UNLV/Wyoming 16 - one anchor, two green flanks."
+   ],
+   "key_players": [
+    {"name": "Donovan Woolen", "role": "SLB1 (returning)", "evidence": "13 st, 41 tkl, 12 pd; All-MVFC"},
+    {"name": "Keith Williams Jr.", "role": "WLB1 (transfer, Cornell)", "evidence": "3rd-Tm Ivy; 64 tkl, 8 pd"},
+    {"name": "Gavin Sell", "role": "MLB1 (returning)", "evidence": "rFr; 3 gm, 9 tkl"}
+   ],
+   "data_gaps": ["two first-year starters flank the anchor", "Ivy translation"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "North Dakota State",
+   "unit": "DB",
+   "grade": 14,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "The safety trio is the strength: Givance (12 st, 37 tkl, 6 pd, 2nd-Tm MVFC) + Crumby (14 st L2Y, bolded by both prints) + Eady (3 st; Athlon starts him).",
+    "Both starting CBs transferred out (Duffie -> UCF, Alexander -> Delaware) from a 148-ypg/54% pass D; 'at cornerback, there are questions.'",
+    "CB restock: Voltz (Saginaw Valley D2: 8 pd) + EJ Davis (Wayne St D2) + Tucker (North Dakota FCS) + four returning depth pieces.",
+    "14: = UTEP 14 (their FBS continuity vs NDSU's elite-FCS safeties + D2 corners), < Wyoming 16."
+   ],
+   "key_players": [
+    {"name": "Darius Givance", "role": "SS (returning)", "evidence": "12 st, 37 tkl; 2nd-Tm MVFC"},
+    {"name": "Jaylin Crumby", "role": "FS (returning)", "evidence": "14 st L2Y, 47 tkl"},
+    {"name": "DJ Voltz", "role": "CB1 (transfer, Saginaw Valley D2)", "evidence": "10 gm, 18 tkl, 8 pd"}
+   ],
+   "data_gaps": ["both CB spots to D2 imports/depth", "all FCS tape"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "North Dakota State",
+   "unit": "ST",
+   "grade": 14,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "P Bickerton returns: 34 punts @ 45.4 (39.5 net), 12 I20, All-MVFC - PS caps him as a returning-starter anchor.",
+    "KR/PR J.Williams returns with elite tape: 32.1 KR / 13.9 PR.",
+    "K job OPEN: Ozick (3rd-Tm AA, 54 TB) left for Iowa (graded K1 there); Klein's career = 1-1 FG (a 46-yarder) + kickoffs, vs Fr Onuonga.",
+    "14: = UTEP 14, > AF/Hawai'i 12, < Nevada/Wyoming 16 - elite P/returner, unproven K (PS: 'top 25 if they find a K')."
+   ],
+   "key_players": [
+    {"name": "Aaron Bickerton", "role": "P (returning)", "evidence": "45.4 avg / 39.5 net; All-MVFC"},
+    {"name": "Jackson Williams", "role": "KR/PR (returning)", "evidence": "32.1 KR / 13.9 PR"},
+    {"name": "Drew Klein", "role": "K (returning)", "evidence": "career 1-1 FG + kickoffs"}
+   ],
+   "data_gaps": ["K unresolved"],
+   "g5_guard_note": null
+  }
+ ]
+}
