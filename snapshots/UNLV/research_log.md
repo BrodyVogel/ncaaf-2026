@@ -32,3 +32,12 @@
   import evidence. 2 L -> conf x1.06; coach x1.0.
 - 2026-07-17 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-17 grades.json written + schema-validated (8/8); ledger 41 rows
+  / 0 to adjudicate; gates clean.
+- 2026-07-17 pilot_readout: FINAL -4.59 (r86/138) = new best G5 final of
+  project (beats UNM -6.60). Band ±6.36 (2 L). Zero winsorization;
+  dispersion 5.12; anchor blend +0.36 (only positive G5 anchor of the
+  project so far — anchors price the Mullen reload). Raw resid -13.93 =
+  the largest grade-vs-anchor gap since Toledo (-12.13): the anchors
+  believe in the reload, my roster evidence (defense p24 losing 8 of
+  top 11; WR room zeroed) does not. k x resid -4.87 (unclipped).

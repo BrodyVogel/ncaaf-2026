@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T00:24:30+00:00",
+ "team": "UNLV",
+ "final": -4.59,
+ "rank": 86,
+ "band": 6.36,
+ "resid": -13.93,
+ "adj": -4.87,
+ "class_term": 0.0,
+ "st": -0.6,
+ "anchor_blend": 0.36,
+ "resid_level": -0.19,
+ "resid_shape": -13.73,
+ "implied_off": 19.29,
+ "implied_def": 32.85,
+ "anchor_off": 29.98,
+ "anchor_def": 29.62,
+ "fit_r2": {
+  "off": 0.547,
+  "dfn": 0.614
+ },
+ "low_conf_units": 2,
+ "code_rev": "77d2317",
+ "mode": "PILOT-OOS"
+}
