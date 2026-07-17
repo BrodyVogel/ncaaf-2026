@@ -1,0 +1,51 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Hauss Hejny,FR,transfer:Oklahoma State,74.8/13 (B12, sample-useless); 4-star dual-threat; OkSt opener starter '25 then OFY; battle
+QB,QB,1,K'saan Farrar,FR,transfer:UConn,UConn 11-18-84; strong arm + runner; battle; Mora system
+QB,QB,2,Darius Curry,SO,returning,130 snaps 58.6 (55.0 adj); 740 @ 65% 5-7 in 5 gm; suspended late '25
+RB,RB,1,Mel Brown,SR,transfer:UConn,32 att 71.4 (IND -14.11 -> 57.3 adj); UConn '24: 673 @ 5.7 + 1st-Tm KR; also KR
+RB,RB,2,Durell Robinson,JR,transfer:UConn,UConn '24: 731 @ 6.8 (IND-discounted); 3 att at Auburn '25; PS#37
+RB,RB,3,Oliver Lundberg,SO,transfer:UConn,PS#192; depth
+WRTE,WR,1,Tommy Maher,JR,returning,349 routes 54.4 (50.7 MWC-adj); 358 @ 11.9; lone returning O-starter; BOLD
+WRTE,WR,1,Lavon Brown,JR,returning,213 routes 56.9 (53.2 adj); 244 @ 12.5
+WRTE,TE,1,Juice Vereen,JR,transfer:UConn,145 routes 63.9 (IND -5.25 -> 58.7 adj); big-play TE
+WRTE,WR,2,Jordan Mosley,SR,transfer:Mississippi State,158 routes 49.9 (SEC +5.94 -> 55.8 adj); Athlon WR1 slot
+WRTE,WR,2,Terrence Smith Jr.,SO,transfer:UConn,27 routes 61.5; PR
+WRTE,WR,2,Jackson Harper,JR,returning,depth; Athlon two-deep WR
+WRTE,WR,3,RJ Vick,SR,transfer:Wake,7 routes 54.1 (tiny)
+WRTE,TE,2,Nader Chirchi,SO,transfer:UConn,37 routes 55.6; TE-featured scheme
+WRTE,TE,2,Dominic Toy,SO,transfer,Athlon two-deep TE2
+WRTE,WR,3,Cedric Ross,FR,recruit,PS#140 IFS
+OL,LT,1,Toriyan Johnson,JR,transfer:UConn,122 snaps 62.4 (IND -21.97 -> 40.4 adj); UConn
+OL,LG,1,Diego Rodriguez,SO,transfer:UConn,2 snaps (useless); UConn
+OL,C,1,Phillip Ocon,SO,returning,116 snaps 52.3 (48.7 adj)
+OL,RG,1,Jayden Tuia,SO,transfer:Oregon State,66 snaps 50.6 (tiny); OregonSt (Pac remnant)
+OL,RT,1,Quinton Harris,SR,transfer:TCU,427 snaps 52.9 (B12 +8.45 -> 61.4 adj); best incoming OL tape
+OL,T,2,Payton Stewart,SO,transfer:Michigan State,depth; B10
+OL,G,2,John Holthaus,SO,returning,Athlon two-deep; no meaningful tape
+DL,EDGE,1,Kenyon Agurs,JR,returning,474 snaps 72.3 (70.1 MWC-adj); best returning defender; BOLD
+DL,DT,1,Stephon Wright,SR,transfer:UConn,342 snaps 67.2 (IND -5.34 -> 61.9 adj)
+DL,DT,1,Robby Harrison,SR,transfer:W Kentucky,204 snaps 68.5 (CUSA -7.88 -> 60.6 adj)
+DL,DI,1,Jack Moran,SO,returning,400 snaps 47.2 (45.0 adj); Athlon BOLD
+DL,ED,2,Brandon Kelley,JR,transfer:UConn,63 snaps 60.3 (IND -> 55.0)
+DL,DI,2,Moso'oipala Tuitele,JR,returning,352 snaps 48.9 (46.7 adj); returning rotation
+DL,DI,2,Alton Tarber IV,SR,returning,217 snaps 47.3 (45.1 adj); Athlon two-deep
+DL,ED,3,Gabe Jones,JR,returning,depth; Athlon two-deep DL1
+DL,DT,3,Cleto Chol,JR,transfer,Athlon two-deep DL2
+LB,LB,1,Oumar Diomande,JR,transfer:UConn,846 snaps 64.7 (IND -10.54 -> 54.2 adj); UConn #1 tackler; Mora centerpiece
+LB,LB,1,Jaseim Mitchell,SR,returning,244 snaps 65.2 (60.5 adj); yr4 RETURN override (Athlon lists Sr.); lone returning LB tape
+LB,LB,1,Antarron Turner,SR,transfer:Wisconsin,B10 transfer; no tape pulled
+LB,LB,2,Marc Pretto,SR,transfer:Northern Illinois,247 snaps 64.8 (MAC -12.05 -> 52.8 adj)
+LB,LB,2,Jaylen King,FR,recruit,Athlon #1 recruit (4-star LB)
+DB,CB,1,Caleb Presley,JR,transfer:San José State,191 snaps 69.0 (MWC -> 66.6 adj); best DB
+DB,NB,1,Dylan Phelps,JR,returning,264 snaps 66.2 (63.8 adj); portal-NONE WITHDREW override (Athlon lists Jr.)
+DB,S,1,Elijah Mc-Cantos,SR,transfer:App State,705 snaps 59.6 (SBC -3.62 -> 56.0 adj); key back-end piece
+DB,S,1,Jace Bellah,SR,returning,443 snaps 58.7 (56.3 adj); BOLD
+DB,CB,1,CJ Blocker,JR,returning,348 snaps 53.3 (50.9 adj)
+DB,S,2,Tre'Shawn Moore,JR,transfer,Athlon starting S; no tape pulled
+DB,CB,2,Richard Mosley III,JR,transfer,Athlon two-deep CB; no tape pulled
+DB,S,2,AJ Noland,SO,returning,237 snaps 57.5 (55.1 adj); BOLD
+DB,DB,2,D'Angelo Hagans Jr.,JR,returning,130 snaps 59.9 (57.5 adj); returning depth
+ST,K,1,Kali Nguma,JR,transfer:North Texas,23-39 FG over 2Y (AAC); mediocre
+ST,P,1,Cavan Craig,SO,transfer:Wofford,FCS: 41.8 avg
+ST,KR,1,Mel Brown,SR,transfer:UConn,dangerous KR (1st-Tm All-Conf UConn)
+ST,PR,1,Terrence Smith Jr.,SO,transfer:UConn,PR

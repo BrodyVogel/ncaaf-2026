@@ -1,0 +1,36 @@
+{
+ "id": 36,
+ "school": "Colorado State",
+ "mascot": "Rams",
+ "abbreviation": "CSU",
+ "alternateNames": [
+  "CSU",
+  "Colorado St"
+ ],
+ "conference": "Pac-12",
+ "division": null,
+ "classification": "fbs",
+ "color": "#1e4d2b",
+ "alternateColor": "#c8c372",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/36.png"
+ ],
+ "twitter": "@CSUFootball",
+ "location": {
+  "id": 5388,
+  "name": "Canvas Stadium",
+  "city": "Fort Collins",
+  "state": "CO",
+  "zip": "80521",
+  "countryCode": "US",
+  "timezone": "America/Denver",
+  "latitude": 40.570015,
+  "longitude": -105.088435,
+  "elevation": "1528.4",
+  "capacity": 36500,
+  "constructionYear": 2017,
+  "grass": false,
+  "dome": false
+ }
+}

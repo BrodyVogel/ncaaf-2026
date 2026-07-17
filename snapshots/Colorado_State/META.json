@@ -1,0 +1,49 @@
+{
+ "team": "Colorado State",
+ "conference": "Pac-12",
+ "created_utc": "2026-07-17T14:40:13+00:00",
+ "assembler_git_rev": "0af3c80",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Jim L. Mora (First Season at CSU; career 73-53; ex-UConn 3 bowls in 4 yrs, ex-UCLA + Atlanta NFL). OC Pryce Tracy (ex-UConn passing-game coord, first play-caller). DC Tyson Summers retained (interim HC after Norvell midseason firing) + co-DC Kenny McClendon. x1.13 (full HC change).",
+ "conference_note": "EX-MWC (2-10) -> Pac-12 2026. R14: MWC offsets on returning CSU tape; arrivals on origin-conference cells. HEAVY UConn influx -> IND cells (harshest on the board: OL -21.97, RB -14.11, LB -10.54, WRTE/DL -5.x). Other arrivals: Hejny OkSt/B12, Harris TCU/B12, Mc-Cantos AppSt/SBC, Presley SJSU/MWC, Nguma NTexas/AAC, Harrison WKU/CUSA, Pretto NIU/MAC, Turner Wisc/B10, Mosley MSU/SEC, Stewart MSU/B10.",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Dylan Phelps"
+ ],
+ "yr4_return_overrides_documented": [
+  "Jaseim Mitchell"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Dylan Phelps": "CFBD year==2, entered portal with NO destination, but Athlon 2026 two-deep lists 'Dylan Phelps (Jr.)' as NB/CB -> portal-withdrawal override (R2 Rogers-class). 66.2/264 -> 63.8 adj; a returning starter-quality DB.",
+  "Jaseim Mitchell": "CFBD year==4 but Athlon 2026 two-deep lists 'Jaseim Mitchell (Sr.)' at LB2 -> yr4 return override (single explicit print, R7-class). 65.2/244 -> 60.5 adj; the LONE returning LB with tape.",
+  "Alex Foster": "OL, CFBD year==4, NOT in portal-out, NOT in either 2026 print two-deep -> yr4-EXPIRED GONE. 63.1/381 -> 59.5 adj (a real depth loss; removed from OL room).",
+  "Jernias Tafia": "DL, year==4, not in portal-out, not in either print two-deep -> yr4-EXPIRED GONE. 56.8/421 -> 54.6 adj (the next-best returning DL tape after Agurs).",
+  "Paul Tangelo": "DL/LB (roster pos=LB), year==4, not in portal-out, not in print two-deeps -> yr4-EXPIRED GONE. 54.8/315 -> 52.6 adj.",
+  "Jacob Ellis": "LB, year==4, not in portal-out, not in either print two-deep -> yr4-EXPIRED GONE. 67.2/367 -> 62.5 adj (would have been a returning LB starter; its loss drove LB down to 24).",
+  "Jahari Rogers": "DB/CB, year==4, not in portal-out, not in either print two-deep -> yr4-EXPIRED GONE. 62.5/559 -> 60.1 adj.",
+  "Lemondre Joe": "DB/CB, year==4, not in portal-out, not in either print two-deep -> yr4-EXPIRED GONE. 64.1/775 -> 61.7 adj (the two highest returning DB tapes, Joe + Rogers, both walk; DB dropped to 22).",
+  "Andrew Laurich": "DL, year==2, portal-out -> UConn (confirmed destination) -> GONE. 51.4/416 -> 49.2 adj. A CSU player crossing to Mora's old program.",
+  "Antarron Turner": "LB = Wisconsin transfer IN (Athlon* correct), NOT a returner. No PFF tape pulled (evidence-only).",
+  "Mukendi Wa-Kalonji": "DL captain (18 st, 95 tkl), year==4 -> EXPIRED; PS explicitly 'lost'. Athlon bold-lists him (stale print); R15 data-over-print + PS corroboration -> GONE.",
+  "Kenyon Agurs": "graded in DL (edge, 474 snaps, rushes the passer) though Athlon lists him under LB; 72.3 -> 70.1 MWC-adj, the roster's best defender."
+ },
+ "feed_gap_arrivals_documented": [],
+ "position_notes": {
+  "QB": "no proven starter tape - Hejny (OkSt 4-star, opener-then-OFY, sample-useless) vs Farrar (UConn) real battle; Curry (55.0 adj) lone experienced returner. Pedigree+scheme case, not a floor.",
+  "RB": "Mel Brown (UConn '24: 673 @ 5.7 + 1st-Tm KR) + Robinson (UConn '24: 731 @ 6.8), IND-crushed on paper but real production in Mora's outside-zone scheme 'with a lot of good backs'. The roster's best unit.",
+  "DL": "Agurs (70.1 adj edge) the anchor + Wright (61.9) + Harrison (60.6) transfer tackles; but the next-best returning tapes (Tafia 54.6, Wa-Kalonji 57.3) are yr4-gone -> 60+ support is transfer tape carrying adj uncertainty.",
+  "LB": "gutted - top three returning tapes gone (Long 71.0->ASU, Edmonson 70.6->Illinois portal; Ellis 62.5 yr4). Mitchell (60.5) lone returning tape + Diomande (UConn #1 tackler, IND-crushed 54.2) + 4-star Fr King.",
+  "DB": "two best returners yr4-gone (Joe 61.7, Rogers 60.1). Presley (SJSU 66.6) + Phelps (63.8 returning override) the two starter-quality pieces over mid-50s depth; CB spring-injury questions."
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not published (returning_2026 = 0 rows); yr4 determined from roster_2025 class-year",
+  "Turner (Wisc), Moore (S), R.Mosley (CB), Harper (WR), Toy (TE), Chol (DL) arrivals have no PFF tape pulled - evidence-only depth",
+  "QB battle (Hejny vs Farrar) unresolved; both unproven at college level"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (National Forecast / Pac-12 Prediction / Phil's Forecast / STR excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}

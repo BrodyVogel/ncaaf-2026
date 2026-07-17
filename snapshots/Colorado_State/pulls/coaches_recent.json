@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Jay",
+  "lastName": "Norvell",
+  "hireDate": "2021-12-06T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Colorado State",
+    "year": 2024,
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -8.2,
+    "spOverall": -5.7,
+    "spOffense": 24.2,
+    "spDefense": 29.2
+   }
+  ]
+ },
+ {
+  "firstName": "Jay",
+  "lastName": "Norvell",
+  "hireDate": "2021-12-06T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Colorado State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -13.8,
+    "spOverall": -15.6,
+    "spOffense": 17.6,
+    "spDefense": 32.9
+   }
+  ]
+ }
+]
