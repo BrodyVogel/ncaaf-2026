@@ -1,0 +1,18 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Da'Metrius Weatherspoon,154759,T,SYRACUSE,12,100.0,1,304,72.9,69.5,71.8,1,12,464,100.0,100.0,97.7,3,17,4,817,0,95,0,817,493,493,0,721,324,0,2025_this_team
+Joe Cruz,158295,G,SYRACUSE,12,100.0,0,304,55.8,61.8,51.5,2,10,408,100.0,100.0,98.5,2,12,0,728,147,98,1,728,432,432,482,0,296,0,2025_this_team
+TJ Ferguson,146597,G,SYRACUSE,11,100.0,0,304,65.5,71.2,63.8,3,9,384,100.0,100.0,98.2,3,13,1,649,0,647,0,649,409,409,0,0,240,1,2025_this_team
+Trevion Mack,176032,T,SYRACUSE,10,100.0,0,304,57.2,57.3,56.6,3,11,348,100.0,100.0,97.7,6,15,1,637,0,0,629,637,368,368,1,0,269,5,2025_this_team
+Austin Collins,122700,C,SYRACUSE,10,100.0,0,304,64.2,59.7,64.6,3,13,330,100.0,100.0,96.7,1,19,3,576,576,0,0,576,350,350,0,0,226,0,2025_this_team
+Byron Washington,199233,G,SYRACUSE,9,100.0,0,304,52.4,48.5,51.8,0,11,211,100.0,100.0,96.4,2,13,2,398,0,0,1,398,226,226,396,0,172,0,2025_this_team
+Joshua Miller,173550,C,SYRACUSE,6,100.0,0,304,59.4,52.4,65.2,1,5,131,100.0,100.0,97.7,4,6,0,214,148,7,58,214,141,141,0,0,73,1,2025_this_team
+Naquil Betrand,184528,T,SYRACUSE,7,100.0,0,304,52.5,52.6,53.7,3,0,112,100.0,100.0,98.7,3,3,0,186,0,0,185,186,122,122,0,0,64,1,2025_this_team
+Kam Pringle,184497,T,SYRACUSE,6,100.0,0,304,48.3,46.8,51.4,0,4,81,100.0,100.0,95.1,2,6,2,161,0,0,0,161,86,86,0,160,75,0,2025_this_team
+Oluwafunto Akinshilo,157576,G,UCLA,6,100.0,0,324,59.7,48.7,61.5,1,2,42,100.0,100.0,96.4,0,3,0,61,12,11,0,61,42,42,37,0,19,0,arrival_2025_at_UCLA
+Jayden Mann,204311,G,SYRACUSE,2,100.0,0,304,58.9,78.3,56.7,0,0,6,100.0,100.0,100.0,0,0,0,20,0,19,0,20,7,7,0,0,13,0,2025_this_team
+Zach Rice,156350,G,SYRACUSE,2,100.0,0,304,69.0,55.3,69.7,0,0,7,100.0,100.0,100.0,0,0,0,17,0,17,0,17,7,7,0,0,10,0,2025_this_team
+Kahlil Stewart,204298,C,SYRACUSE,1,100.0,0,304,69.6,73.1,67.1,0,0,2,100.0,100.0,100.0,0,0,0,13,13,0,0,13,3,3,0,0,10,0,2025_this_team
+Vito Shevchenko,197640,T,SYRACUSE,1,100.0,0,304,59.1,,58.3,0,0,0,,,,0,0,0,3,0,0,3,3,0,0,0,0,3,0,2025_this_team
+Carter Clark,158294,G,SYRACUSE,1,100.0,0,304,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,0,1,0,0,1,0,1,0,2025_this_team
+Travis Brown-Miller,197639,G,SYRACUSE,1,100.0,0,304,60.0,72.6,,0,0,1,100.0,100.0,100.0,0,0,0,1,0,0,0,1,1,1,1,0,0,0,2025_this_team
+Matthew Hawn,204308,G,SYRACUSE,1,100.0,0,304,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,0,1,0,0,1,0,1,0,2025_this_team

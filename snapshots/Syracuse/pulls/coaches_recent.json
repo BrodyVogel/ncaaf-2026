@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Fran",
+  "lastName": "Brown",
+  "hireDate": "2023-11-28T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Syracuse",
+    "year": 2024,
+    "games": 13,
+    "wins": 10,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": 20,
+    "srs": 6,
+    "spOverall": 5.5,
+    "spOffense": 35.8,
+    "spDefense": 28.9
+   }
+  ]
+ },
+ {
+  "firstName": "Fran",
+  "lastName": "Brown",
+  "hireDate": "2023-11-28T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Syracuse",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -7.1,
+    "spOverall": -13.1,
+    "spOffense": 18.8,
+    "spDefense": 33
+   }
+  ]
+ }
+]

@@ -1,0 +1,36 @@
+{
+ "id": 183,
+ "school": "Syracuse",
+ "mascot": "Orange",
+ "abbreviation": "SYR",
+ "alternateNames": [
+  "SYR",
+  "Syracuse"
+ ],
+ "conference": "ACC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#ff6500",
+ "alternateColor": "#000e54",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/183.png"
+ ],
+ "twitter": "@CuseFootball",
+ "location": {
+  "id": 1964,
+  "name": "JMA Wireless Dome",
+  "city": "Syracuse",
+  "state": "NY",
+  "zip": "13244",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 43.0362269,
+  "longitude": -76.1363161,
+  "elevation": "162.6989746",
+  "capacity": 49057,
+  "constructionYear": 1980,
+  "grass": false,
+  "dome": true
+ }
+}

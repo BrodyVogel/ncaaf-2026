@@ -1,0 +1,33 @@
+{
+ "team": "Syracuse",
+ "conference": "ACC",
+ "created_utc": "2026-07-17T19:41:40+00:00",
+ "assembler_git_rev": "468e6a5",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Fran Brown, Athlon 'Record at School: 13-12 (2 years)' + PS 'third year HC Fran Brown' -> YEAR 3 -> NO coach change (band x1.00). NEW DCs Vince Kehres + John Scott Jr. (coordinator change only, not HC).",
+ "conference_note": "ACC (P4). R14: ACC cells on returning tape are POSITIVE (QB +2.08, RB +4.90, WRTE +2.36, OL +3.54, DL +1.19, LB +2.13, DB +1.18) - returning tape is credited UP (opposite of the G5 discounting in prior rounds). Arrivals on origin cells: Odom Kennesaw/CUSA (-5.61), Nelson UTEP/MWC, Ju'Juan Johnson LSU/SEC, E.Moore FSU/ACC, Outten PSU/B10, Adeleye UNLV/MWC, Fontus Maryland/B10, Ward+Eugene WKU/CUSA, Snowden+D'Appolonia Toledo/MAC, Ndukwe Houston/AAC, Akinshilo UCLA/B10. FCS arrivals = no cell (K.Johnson UT-Martin, A.Miller Jackson St).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Steve Angeli": "QB1 returns (BOLD); 183 snaps 78.0 -> 80.1 ACC-adj; was leading the nation in passing (1,317) before a torn Achilles at 3-1 in '25; 'expected ready for fall camp' - the season hinges on his recovery.",
+  "Chris Peal": "CB returns (BOLD); 655 snaps 85.1 -> 86.3 ACC-adj - an elite corner, the secondary's anchor.",
+  "Demetres Samuel Jr.": "CB returns (BOLD); 673 snaps 76.1 -> 77.3 adj; also KR/PR.",
+  "Da'Metrius Weatherspoon": "OT, yr4, NOT in the 2026 two-deep -> GONE. 817 snaps 72.9; the best returning OL grade (a real loss).",
+  "Duce Chestnut": "S, yr4, NOT in the 2026 two-deep -> GONE. 473 snaps 63.3.",
+  "Dion Wilson Jr.": "DT, yr4, NOT in the two-deep -> GONE. 394 snaps 69.0.",
+  "Umari Hatcher": "WR, portal-out -> None, <100-vol '25 producer, Athlon-stale-listed as WR1 (pre-portal) -> treated GONE, not carried in the two-deep. Immaterial (the WR grade is an all-transfer projection)."
+ },
+ "feed_gap_arrivals_documented": [],
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon 2026 depth chart",
+  "QB1 Angeli returning from a torn Achilles - health is the season swing (graded on his healthy tape + Odom insurance)",
+  "skill positions (RB/WR) are all-transfer with no returning production - heavy projection (both graded L)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T00:00:00+00:00"
+}
