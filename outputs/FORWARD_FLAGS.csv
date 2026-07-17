@@ -1,6 +1,6 @@
 dest_team_dir,player,from_team,note,status,added,closed_by
 Utah_State,Markie Grant,Wyoming,CB 64.4/316 departed Wyoming - verify in-feed + grade as arrival,open,2026-07-17,
-San_Diego_State,Oliver,Sacramento_State,SacSt exit (MAC-round flag) - verify in-feed,open,2026-07-17,
+San_Diego_State,Oliver,Sacramento_State,SacSt exit (MAC-round flag) - verify in-feed,closed,2026-07-17,sdsu-build-2026-07-17 (in-feed verified)
 Fresno_State,Mosley,Sacramento_State,SacSt exit - verify in-feed,closed,2026-07-17,fresno-build-2026-07-17 (both-sided verified)
 Fresno_State,Hampsten,Sacramento_State,SacSt exit - verify in-feed,closed,2026-07-17,fresno-build-2026-07-17 (both-sided verified)
 Oregon_State,Jones,MAC-round origin,origin check parked at MAC wrap - see mac_wrap_2026-07-16.md,closed,2026-07-17,osu-build-2026-07-17 (Brady Jones in WMU out-feed)
@@ -32,8 +32,8 @@ Georgia_State,D.Johnson,MAC-round,arrival-ORIGIN verify (D.Johnson left GaSt for
 VARIOUS_P4,"Senda, Green, Anes, Alexander, McCullough, Littlejohn, Doyle",MAC-round,SEC/ACC origin-check bulk flag - resolve each at the named origin's build (see mac_wrap_2026-07-16.md),open,2026-07-17,
 UAB,Anta'Veon McKenzie,Sacramento_State,SacSt-log flag; VERIFIED 2026-07-17: present in UAB in-feed (built before SacSt - feed both-sided),closed,2026-07-17,audit-2026-07-17
 Oregon_State,Jayden Tuia,Colorado_State,arrival-ORIGIN verify: CSU OL (66 snaps) from Oregon State - confirm OSU out-feed carries him,closed,2026-07-17,osu-build-2026-07-17 (in OSU out-feed)
-San_Diego_State,Javion Kinnard,Colorado_State,RB departed CSU for SDSU (had 91-yd PR TD '25) - verify SDSU in-feed,open,2026-07-17,
+San_Diego_State,Javion Kinnard,Colorado_State,RB departed CSU for SDSU (had 91-yd PR TD '25) - verify SDSU in-feed,closed,2026-07-17,sdsu-build-2026-07-17 (in-feed verified)
 Texas_State,John Smith,Colorado_State,S departed CSU for Texas State - verify TXST in-feed,open,2026-07-17,
-San_Diego_State,Kai Wallin,Oregon_State,EDGE (69.2/260) departed OSU for SDSU - verify SDSU in-feed,open,2026-07-17,
+San_Diego_State,Kai Wallin,Oregon_State,EDGE (69.2/260) departed OSU for SDSU - verify SDSU in-feed,closed,2026-07-17,sdsu-build-2026-07-17 (in-feed verified)
 Washington_State,Jalil Tucker,Oregon_State,CB (56.8/506) departed OSU for Wazzu - verify in-feed,open,2026-07-17,
 Washington_State,Darrius Clemons,Oregon_State,WR departed OSU for Wazzu - verify in-feed,open,2026-07-17,

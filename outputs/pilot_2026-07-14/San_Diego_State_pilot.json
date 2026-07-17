@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T16:07:34+00:00",
+ "team": "San Diego State",
+ "final": -1.48,
+ "rank": 72,
+ "band": 6.18,
+ "resid": -2.5,
+ "adj": -0.88,
+ "class_term": 0.0,
+ "st": -0.28,
+ "anchor_blend": -0.82,
+ "resid_level": 0.77,
+ "resid_shape": -3.27,
+ "implied_off": 23.89,
+ "implied_def": 27.81,
+ "anchor_off": 23.34,
+ "anchor_def": 24.76,
+ "fit_r2": {
+  "off": 0.542,
+  "dfn": 0.615
+ },
+ "low_conf_units": 1,
+ "code_rev": "df956b8",
+ "mode": "PILOT-OOS"
+}
