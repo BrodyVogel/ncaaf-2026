@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T01:26:33+00:00",
+ "team": "UTEP",
+ "final": -20.09,
+ "rank": 136,
+ "band": 6.72,
+ "resid": 0.76,
+ "adj": 0.27,
+ "class_term": 0.0,
+ "st": -0.72,
+ "anchor_blend": -20.13,
+ "resid_level": 10.61,
+ "resid_shape": -9.85,
+ "implied_off": 15.32,
+ "implied_def": 34.17,
+ "anchor_off": 14.89,
+ "anchor_def": 34.51,
+ "fit_r2": {
+  "off": 0.55,
+  "dfn": 0.611
+ },
+ "low_conf_units": 4,
+ "code_rev": "d446bc6",
+ "mode": "PILOT-OOS"
+}
