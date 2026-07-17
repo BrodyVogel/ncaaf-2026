@@ -1,0 +1,73 @@
+{
+ "team": "New Mexico",
+ "conference": "Mountain West",
+ "created_utc": "2026-07-17T00:02:44+00:00",
+ "assembler_git_rev": "7e2e9a6",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Eck yr 2 (9-4, tied MWC title, first 9-win debut in program history; Idaho 26-13 prior). OC Schleusner + DC Nowinsky retained. x1.0.",
+ "portal_departure_confirmed": [
+  "Max Lantzsch",
+  "Isaiah Blair",
+  "Clint Stephens",
+  "Aiden Valdez",
+  "Travis Gray",
+  "Mihalis Santorineos",
+  "Marko Luera"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Tavian Combs",
+  "Austin Brawley",
+  "Abraham Williams",
+  "James Laubstein"
+ ],
+ "nfl_declare_confirmed": [
+  "Keyshawn James-Newby"
+ ],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "James Laubstein": "yr4 override on a SINGLE print but mechanism-explicit: PS prose 'won his waiver for an extra year and again figures in the offensive plans' + PS lineup line; Athlon QB chart silent (Layne/Moga only). Jordon Thomas precedent. Grade impact minor (QB3/runner).",
+  "Tavian Combs": "feed yr4; Athlon BOLD S1 + PS caps '38 starts, 264 tkl, 11 pd last 5 years' - two prints. STAYS.",
+  "Austin Brawley": "feed yr4; Athlon S1 + PS caps (OFY late '25) - two prints. STAYS. Also PR1.",
+  "Abraham Williams": "feed yr4; Athlon KR1 + PS WR-depth line '7 st (SAF), 22 tkl LY' - two prints. STAYS. Multi-position S/WR/KR; 5 career KO-return TDs at Weber St.",
+  "Keyshawn James-Newby": "yr4 + PS prints '(#7 DC PHI)' = 7th-round draft choice Philadelphia. nfl_declare_confirmed.",
+  "Kiefer Sibley": "North Texas out-feed listed destination=None; both PS prints place him at UNM ('8 gm, 274 @ 6.1 LY at NTex', PS#101). NTU no-dest RESOLVED; their build unaffected (graded GONE). Feed-gap arrival here.",
+  "Cameron Mathews": "TWO-SIDED FEED MISS #3: absent from Memphis out-feed AND UNM in-feed; both prints confirm (rFr, 1 gm '25). Memphis retro clean (depth body).",
+  "Tripp Walsh": "TWO-SIDED FEED MISS #4: absent from Iowa State out-feed AND UNM in-feed; PS confirms (23 gm, 20 yds L2Y at ISU). ISU retro clean (depth TE).",
+  "Lincoln Epstein": "TWO-SIDED FEED MISS #5: absent from CMU out-feed AND UNM in-feed; PS confirms (LS, 3 gm '25 at CMich). CMU retro clean (LS, no grade impact).",
+  "Troy Omeire": "PS caps 'TREY OMEIRE' vs Athlon/feed 'Troy' - same player, feed form canonical. UNLV arrival tape 69.8/236.",
+  "Albert Tuakalau": "Athlon DE2* + PS#167JC (San Mateo JC) - JC-source feed gap, whitelisted.",
+  "Cole Millward": "Athlon LT1 - ABSENT from in-feed. Weber St (FCS): 12 st (RG) '25. Feed-gap.",
+  "Miles Williams": "Athlon WR2* - ABSENT from in-feed. E.Washington (FCS): 12 st, 524 @ 12.7. Feed-gap.",
+  "Jayden Sheridan": "yr4 + single ambiguous PS depth line ('3 st... then OFY LY at Utah Tech') - EXPIRED per Goodell/Hilty.",
+  "Massiah Mingo": "Athlon 'Mingo' vs PS 'Wingo' - FR recruit, Athlon form used."
+ },
+ "feed_gap_arrivals_documented": [
+  "Cole Millward (OL - Weber State FCS; Athlon LT1)",
+  "Miles Williams (WR - Eastern Washington FCS; Athlon WR2*)",
+  "Kiefer Sibley (RB - North Texas; no-dest resolved)",
+  "Cameron Mathews (RB - Memphis; two-sided miss)",
+  "Tripp Walsh (TE - Iowa State; two-sided miss)",
+  "Lincoln Epstein (LS - CMU; two-sided miss)",
+  "Albert Tuakalau (DE - San Mateo JC)",
+  "Markus Fetcho (OL - Laney JC)"
+ ],
+ "position_notes": {
+  "Jaxton Eck": "MWC DEFENSIVE POY, 1st-Tm MW: 83.0/759 -> 78.3 adj, 129 tkl. HC's son - 'truly the heartbeat of that defense' (opposing coach).",
+  "QB battle": "Layne (BOLD, 13 st) LIMITED IN SPRING; Moga (Oregon ex-4-star) live challenge per both prints. Room graded, not one name.",
+  "ST turnover": "ALL FOUR 2025 specialists gone from a top-25 unit; rebuilt with pedigree (Kern PS#3, Romero FCS-FrAA, A.Williams 5 career KR TDs).",
+  "P split print": "PS P1 = Kern (Cal); Athlon P1 = Steinkamp (incumbent KO specialist). Both counted.",
+  "Booker": "Athlon prose says Slayton 'beat out' Booker yet bolds Booker at DT2 - 3rd-Tm MWC per PS; both graded in room.",
+  "feed position labels": "McCray/Kpai fed as DT but PFF-LB; Combs/Coleman fed as S/CB variants - stale labels, PFF governs."
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "Layne spring limitation cause unstated in prints",
+  "K = three-way battle unresolved",
+  "Charles (Memphis EDGE) has no 2025 tape row"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}

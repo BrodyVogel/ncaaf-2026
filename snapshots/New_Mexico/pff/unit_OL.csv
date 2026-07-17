@@ -1,0 +1,12 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Kaden Robnett,175106,C,NEW MEXICO,13,100.0,0,241,66.7,69.1,64.9,0,11,427,100.0,100.0,98.5,2,12,1,865,865,0,0,865,468,468,0,0,397,0,2025_this_team
+Tyler Lawrence,186432,T,NEW MEXICO,13,100.0,0,241,56.7,51.8,58.6,8,20,422,100.0,100.0,94.8,4,36,8,856,0,0,28,856,462,462,0,828,394,0,2025_this_team
+Malik Aliane,184643,T,NEW MEXICO,13,100.0,1,241,58.3,52.0,62.9,4,8,381,100.0,100.0,97.4,9,16,4,772,0,164,607,772,417,417,1,0,355,0,2025_this_team
+Jaymar Tasi,205223,G,NEW MEXICO,12,99.6,1,241,72.6,61.6,75.9,0,4,253,99.2,99.3,98.0,3,7,3,543,0,43,0,545,274,276,449,0,269,3,2025_this_team
+Richard Pearce,151054,G,NEW MEXICO,8,100.0,0,241,64.7,67.8,63.6,2,3,207,100.0,100.0,98.3,3,6,1,417,0,68,0,417,230,230,349,0,187,0,2025_this_team
+Israel Mukwiza,142732,G,NEW MEXICO,11,100.0,1,241,60.1,67.5,60.5,2,5,194,100.0,100.0,97.7,3,8,1,397,0,375,0,397,214,214,22,0,183,0,2025_this_team
+Isaiah Sillemon,146134,G,NEW MEXICO,8,100.0,1,241,51.4,58.9,48.7,0,5,137,100.0,100.0,97.4,3,6,1,278,0,215,0,278,151,151,44,0,127,2,2025_this_team
+Nevell Brown,142736,T,NEW MEXICO,9,100.0,0,241,62.2,49.9,66.8,1,6,107,100.0,100.0,96.7,2,7,0,230,0,0,229,230,116,116,0,0,114,1,2025_this_team
+Tevin Shaw,162515,T,NEW MEXICO,2,100.0,0,241,50.7,43.6,52.7,0,1,20,100.0,100.0,97.5,0,1,0,37,0,0,0,37,23,23,0,37,14,0,2025_this_team
+James Bailey,158641,G,NEW MEXICO,3,100.0,0,241,60.0,63.8,60.0,0,0,1,100.0,100.0,100.0,0,0,0,3,0,0,0,3,1,1,0,0,2,0,2025_this_team
+Mason Jones,128960,T,NEW MEXICO,3,100.0,0,241,60.0,63.8,60.0,0,0,1,100.0,100.0,100.0,0,0,0,3,0,0,0,3,1,1,0,0,2,0,2025_this_team

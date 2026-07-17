@@ -1,0 +1,36 @@
+{
+ "id": 167,
+ "school": "New Mexico",
+ "mascot": "Lobos",
+ "abbreviation": "UNM",
+ "alternateNames": [
+  "UNM",
+  "New Mexico"
+ ],
+ "conference": "Mountain West",
+ "division": null,
+ "classification": "fbs",
+ "color": "#BA0C2F",
+ "alternateColor": "#a7a8aa",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/167.png"
+ ],
+ "twitter": "@UNMLoboFB",
+ "location": {
+  "id": 3971,
+  "name": "University Stadium (NM)",
+  "city": "Albuquerque",
+  "state": "NM",
+  "zip": "87131",
+  "countryCode": "US",
+  "timezone": "America/Denver",
+  "latitude": 35.0669479,
+  "longitude": -106.6283225,
+  "elevation": "1554.471924",
+  "capacity": 39224,
+  "constructionYear": 1960,
+  "grass": false,
+  "dome": false
+ }
+}

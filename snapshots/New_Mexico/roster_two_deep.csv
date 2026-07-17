@@ -1,0 +1,52 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Jack Layne,SR,returning,438 snaps 73.1 (65.8 MWC-adj); 2486 @ 65% 13-10 + 152 rush; BOLD; limited in spring
+QB,QB,2,Luke Moga,SO,transfer:Oregon,7 snaps '25; ex-4-star; 10.4 100m; live battle per both prints
+QB,QB,3,James Laubstein,SR,returning,yr4-OVERRIDE (waiver-explicit single-print); 88.2/23; runner (380 @ 6.2)
+QB,QB,3,Toa Fa'avae,FR,returning,rFr PS#126 'fastest QB'
+RB,RB,1,Scottre Humphrey,SR,returning,78 att 63.1 (54.2 adj); Montana St '24: 1386 @ 7.0; Wk-3 injury '25
+RB,RB,2,Deshaun Buchanan,JR,returning,Idaho '24: 567 @ 7.2; no '25 tape row
+RB,RB,2,Kiefer Sibley,JR,transfer:North Texas,FEED-GAP (NTU no-dest RESOLVED); 274 @ 6.1 '25; PS#101
+RB,RB,3,Cameron Mathews,FR,transfer:Memphis,TWO-SIDED FEED MISS #3; rFr 1 gm; 'makes guys miss'
+WRTE,WR,1,Troy Omeire,SR,transfer:UNLV,236 routes 69.8 '25 (66.1 MWC-adj); 31-514-5; PS#17; Texas/ASU history
+WRTE,WR,1,Miles Williams,SR,transfer:Eastern Washington,FEED-GAP; 12 st 524 @ 12.7 FCS
+WRTE,WR,1,Shawn Miller,SR,returning,317 routes 52.1 (48.4 adj); 9 st 199 @ 13.3; BOLD
+WRTE,WR,2,Zhaiel Smith,SO,returning,252 routes 50.3; 2 st 112 @ 14.0
+WRTE,TE,1,Cade Keith,SO,returning,127 routes 70.3 (66.6 adj); All-MWC candidate; BOLD; TE-emphasis offense
+WRTE,TE,2,Joey Olsen,SO,transfer:USC,4 routes '25; PS#16
+WRTE,TE,3,Tripp Walsh,JR,transfer:Iowa State,TWO-SIDED FEED MISS #4; 23 gm 20 yds L2Y
+OL,LT,1,Cole Millward,JR,transfer:Weber State,FEED-GAP; 12 st (RG) at Weber St '25; 11 gm '24
+OL,LG,1,Malik Aliane,SR,returning,772 snaps 58.3 (48.2 adj); 13 st (11 LT/2 LG); BOLD
+OL,C,1,Kaden Robnett,SO,returning,865 snaps 66.7 (56.6 adj); 13 st 2nd-Tm MWC; All-MWC candidate; BOLD
+OL,RG,1,Jaymar Tasi,SO,returning,545 snaps 72.6 (62.5 adj); 5 st; BOLD
+OL,RT,1,Tyler Lawrence,JR,returning,856 snaps 56.7 (46.6 adj); 13 st; BOLD
+OL,OL,2,Tevin Shaw,SR,returning,37 snaps; 2 st L2Y; PS#156
+OL,OL,2,Ken Meir,SR,transfer:Temple,DNP '25
+OL,OL,2,Markus Fetcho,SO,transfer:Laney JC,JC gap; PS#144JC
+DL,DE,1,Darren Agu,SR,returning,392 snaps 79.2 (77.0 adj); 30 tkl 2 sk; ex-Vanderbilt; 'big season' both prints
+DL,DT,1,Brian Booker,SR,returning,411 snaps 73.0 (70.8 adj); 11 st 3rd-Tm MWC; BOLD (as DT2)
+DL,DT,1,Xavier Slayton,SR,returning,251 snaps 64.1 (61.9 adj); beat out Booker per Athlon
+DL,DT,2,Jalen McIver,JR,returning,211 snaps 62.1; 2 st; JC history
+DL,DT,2,Jayden Marable,JR,transfer:Memphis,222 snaps 67.4 '25 (AAC DL -5.89 -> 61.5 adj)
+DL,DE,1,Jalen Charles,SO,transfer:Memphis,no '25 tape row; Athlon DE1*
+DL,DE,2,Albert Tuakalau,JR,transfer:San Mateo JC,JC gap; 20 tkl 2.5 sk; PS#167JC
+DL,DE,3,Elijah Brody,JR,returning,71 snaps 54.5
+LB,MLB,1,Jaxton Eck,JR,returning,759 snaps 83.0 (78.3 MWC-adj); 129 tkl; MWC DPOY + 1st-Tm MW; HC's son; BOLD
+LB,WLB,1,Mercury Swaim,SR,returning,402 snaps 77.3 (72.6 adj); 52 tkl 6.5 TFL; All-MWC candidate; BOLD
+LB,LB,2,Clay Martineau,SO,transfer:Boise State,10 snaps '25; PS#158
+LB,LB,2,Nick Wheeler,FR,returning,rFr DNP
+DB,CB,1,Frankie Edwards III,JR,returning,497 snaps 70.9 (68.5 adj); 5 st 47 tkl (took over last 6)
+DB,CB,1,Ormanie Arnold,SR,transfer:Cincinnati,258 snaps 56.4 '25 (AAC DB -3.27 -> 53.1 adj); 2 st 22 gm L2Y
+DB,CB,2,Eric McClain,JR,transfer:Ball State,230 snaps 62.9 '25 (MAC DB -3.31 -> 59.6 adj); 52 tkl L2Y
+DB,CB,2,Jahmir Torres,SO,returning,126 snaps 57.5; 1 st
+DB,NB,1,Chris Gant Jr.,SO,returning,36 snaps
+DB,NB,2,Will Hicks,JR,transfer:Hampton,FCS: 12 st 72 tkl 6 TFL
+DB,S,1,Tavian Combs,SR,returning,yr4-OVERRIDE (2 prints); 728 snaps 61.7 (59.3 adj); 38 career starts 264 tkl; BOLD
+DB,S,1,CJ McBean,SO,returning,499 snaps 67.1 (64.7 adj); 40 tkl as true FR; BOLD
+DB,S,2,Austin Brawley,SR,returning,yr4-OVERRIDE (2 prints); 302 snaps 74.1 (71.7 adj); OFY late '25; PR1
+DB,S,2,Drew Speech,SR,returning,305 snaps 70.5 (68.1 adj); 8 pbu
+ST,K,1,Nick Romero,SO,transfer:Wagner,12 st 13-14 FG L/44; FCS Frosh AA; 3-way battle
+ST,K,2,Konner Olson,JR,transfer:Western Kentucky,DNP '25
+ST,P,1,Michael Kern,JR,transfer:California,PS#3; Texas '24: 41.6/35.9 net; Cal '25: 41.5
+ST,P,2,Charles Steinkamp,SR,returning,13 gm 26 KO/17 TB; Athlon P1 (split print)
+ST,KR,1,Abraham Williams,SR,returning,yr4-OVERRIDE (2 prints); 5 KO-return TDs at Weber St '22-23; 7 st (SAF) 22 tkl '25
+ST,PR,1,Austin Brawley,SR,returning,PR1 both prints

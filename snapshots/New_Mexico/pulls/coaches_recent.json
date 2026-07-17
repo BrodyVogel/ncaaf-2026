@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Bronco",
+  "lastName": "Mendenhall",
+  "hireDate": "2023-12-05T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "New Mexico",
+    "year": 2024,
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -12.4,
+    "spOverall": -14.8,
+    "spOffense": 27.6,
+    "spDefense": 40.5
+   }
+  ]
+ },
+ {
+  "firstName": "Jason",
+  "lastName": "Eck",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "New Mexico",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -0.2,
+    "spOverall": 0.9,
+    "spOffense": 25.4,
+    "spDefense": 26.1
+   }
+  ]
+ }
+]
