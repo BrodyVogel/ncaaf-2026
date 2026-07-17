@@ -1,0 +1,209 @@
+{
+ "team": "UTEP",
+ "units": {
+  "QB": {"grade": 16, "confidence": "L"},
+  "RB": {"grade": 12, "confidence": "M"},
+  "WRTE": {"grade": 12, "confidence": "L"},
+  "OL": {"grade": 8, "confidence": "L"},
+  "DL": {"grade": 10, "confidence": "L"},
+  "LB": {"grade": 14, "confidence": "M"},
+  "DB": {"grade": 14, "confidence": "M"},
+  "ST": {"grade": 14, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-17",
+  "snapshot_rev": "frozen 2026-07-17 (c045330)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB None, WRTE None, OL None, DL 9, LB 39, DB 11, ST 27) - known signatures",
+   "LB": "-25 vs proxy 39 - Davey-carryover inflation (81.5/724, #1 FBS tackles, walks via yr4)",
+   "DL": "+1 vs proxy 9, DB +3 vs 11, ST -13 vs 27 - roughly aligned",
+   "offense": "all four proxy cells None (churn too heavy to key) - real grades stand alone"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "UTEP",
+   "unit": "QB",
+   "grade": 16,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Both 2025 QBs depart (Locklear 64.5/274 -> Missouri St; Nelson 55.6/222 -> Syracuse) - the third straight year of imported QBs.",
+    "Colson (UIW, FCS): 2,142 @ 71% (16-4) + 287 rush as a rFr - real efficiency, but UIW went 3-6 in his nine starts and he has 1 FBS start (UCF '24).",
+    "Moore (Morgan St FCS: 1,042 @ 54%, 9-7 as a Fr) + rFr Warner + true Fr Weaver behind - all run threats, none FBS-proven.",
+    "16 L: just above the FIU-15 rail; < NIU/Nevada 18 L and < Wyoming 20 L (Colson's team results and lack of scheme-continuity edge keep him under the Hughes setup)."
+   ],
+   "key_players": [
+    {"name": "EJ Colson", "role": "QB1 (transfer, Incarnate Word)", "evidence": "FCS 2,142 @ 71% 16-4; UIW 3-6 in his starts"},
+    {"name": "Raymond Moore III", "role": "QB2 (transfer, Morgan State)", "evidence": "FCS 1,042 @ 54% 9-7 as Fr"}
+   ],
+   "data_gaps": ["zero FBS-volume tape in room"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UTEP",
+   "unit": "RB",
+   "grade": 12,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Top three 2025 rushers all gone: Emory (71.5/119 -> Cal), QB Locklear, H.Wilson (61.1/47).",
+    "T.Jones (Missouri): El Paso native with SEC pedigree (PS#14 UTEP-rank) but 183 career yards; 6-att tape sample is useless.",
+    "Sperling (Buffalo): 75.7/39 att -> 62.4 MAC-adj; 234 @ 6.0 LY - the only real adjusted signal in the room.",
+    "12: = NIU 12; Walden's 'explosive twitchy group' is pedigree + hope over proven FBS volume."
+   ],
+   "key_players": [
+    {"name": "Tavorus Jones", "role": "RB1 (transfer, Missouri)", "evidence": "183 career yds; PS#14; 6-att sample"},
+    {"name": "Lamar Sperling", "role": "RB2 (transfer, Buffalo)", "evidence": "75.7/39 att (62.4 adj); 234 @ 6.0"}
+   ],
+   "data_gaps": ["no lead-back volume anywhere in room"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UTEP",
+   "unit": "WRTE",
+   "grade": 12,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "A RECV p4 unit loses its top seven: Odom (67.0/334 -> USF), Davis (62.8/322 -> WF, the 23.5-ypc leader), Willis (293), Tate (174), Goins (145), Schuchts TE (66.2/171, research-GONE).",
+    "The returns are OFY guys with '24 tape only: Kam Thomas (yr4 override; 532 @ 11.3 here in '24) + Jaden Smith (yr4 override; 177 @ 8.4 '24) + TE Cash Cheeks (OFY; N.Colo '24 tape).",
+    "C.Cheeks (feed-gap arrival, N.Colorado): FCS 1st-Tm Big Sky 929 @ 13.1, 'turned heads in spring'; J.Brown 54.3 adj/126 (print-conflict resolved to UTEP '25) + Capell 58.3 adj/77.",
+    "12 L: = Nevada/Wyoming 12 L tier; 'could be upgraded' (PS) is a floor statement about a p4 unit."
+   ],
+   "key_players": [
+    {"name": "Kam Thomas", "role": "WR1 (returning, yr4 override)", "evidence": "OFY '25; '24: 9 st, 532 @ 11.3"},
+    {"name": "Carver Cheeks", "role": "WR (transfer, N.Colorado)", "evidence": "FCS 1st-Tm Big Sky; 929 @ 13.1"},
+    {"name": "Jaylan Brown", "role": "WR (returning)", "evidence": "58.5/126 UTEP '25 (54.3 adj)"}
+   ],
+   "data_gaps": ["OFY returns have no 2025 tape", "FCS translation on C.Cheeks"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UTEP",
+   "unit": "OL",
+   "grade": 8,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "ZERO returning starters - all five walk (Escobar 815, Robinson 813 -> Kentucky, Immediato 809, J.Williams 807 -> NMSU, Utley 479 GONE) from an RBLK p3 unit.",
+    "The rebuild is sub-FBS-sourced: B.Williams (Jackson St FCS All-SWAC), Bradley (Cornell Ivy), Aliu-Otokiti (Livingstone D2), Trapp (Tx A&M-Kingsville D2, feed-gap) + Lamb (65.2 on 14 AAC snaps; 7 st at FCS SFA '24).",
+    "Returning tape: Camacho 47.6 adj/89 (1 st) + Roberts 41.7 adj/113 + five rFr.",
+    "8 L: below Hawai'i 10 L - the worst OL evidence of the MWC round; two starters above the FAU-6 rail on print-evidenced starts alone."
+   ],
+   "key_players": [
+    {"name": "Jaymon Lamb", "role": "T (transfer, N.Texas/SFA)", "evidence": "65.2/14 snaps; 7 st SFA '24; 'top option'"},
+    {"name": "Brian Williams Jr.", "role": "LG (transfer, Jackson St)", "evidence": "FCS 3rd-Tm All-SWAC; 9 st"},
+    {"name": "Juan Camacho Jr.", "role": "T (returning)", "evidence": "54.0/89 (47.6 adj); 1 st"}
+   ],
+   "data_gaps": ["no FBS-volume tape anywhere in projected five", "PS/Athlon flip Lamb-Camacho sides"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UTEP",
+   "unit": "DL",
+   "grade": 10,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Seven DL walk (35 sts, 19.5 sk, 210 tkl): KD Johnson (73.5/848 - the anchor of the #8-FBS-TFL front), Hall (433), Ezeani (571 -> NT), Scott (359), Baldwin (307 -> UTSA), Gustafson (259), McCarter + Weber -> SacSt.",
+    "Coker STAYS (no-dest override; 54.7 adj/395, 9 st) + Bowser (55.3 adj/323) are the returning core; Burns (missed all '25) is the print-hyped x-factor.",
+    "Imports: S.Miles (EMich, 57.0 adj/286) + FCS bodies (Fields SFA, Hickey NWSt) + JUCO Fisher.",
+    "10 L: = NIU 10 L; PRSH p13 was already weak WITH the departed producers."
+   ],
+   "key_players": [
+    {"name": "Ashton Coker", "role": "DT1 (returning, STAYS override)", "evidence": "62.6/395 (54.7 adj); 9 st"},
+    {"name": "Shakaun Bowser", "role": "DE1 (returning)", "evidence": "63.2/323 (55.3 adj); 4 st"},
+    {"name": "Derek Burns", "role": "DE (returning, injury)", "evidence": "missed all '25; 'athletic... spark'"}
+   ],
+   "data_gaps": ["Burns health", "FCS translation x2 + JUCO"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UTEP",
+   "unit": "LB",
+   "grade": 14,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Wilson: 74.5/697 -> 62.2 CUSA-adj; 92 tkl (2nd on team), 8 TFL - 'should be an all-league candidate' (Athlon); both prints' MLB in caps/bold.",
+    "Davey walks (81.5/724 - led FBS with 131 tackles) + Rudolph + Shufelt -> the TACK p77 unit loses its engine.",
+    "Depth restock: Bogerty (Texas Southern: 187 career tkl, 82 LY), Hawkins (Austin Peay pedigree), Brunswick 57.4-adj flash, Shay Smith QB-convert.",
+    "14: > Hawai'i 12 L (healthy anchor vs ACL anchor), < UNLV/Wyoming 16; Walden's 'deepest unit' claim is depth-of-bodies, not tape."
+   ],
+   "key_players": [
+    {"name": "Jayden Wilson", "role": "MLB1 (returning)", "evidence": "74.5/697 (62.2 adj); 92 tkl 8 TFL"},
+    {"name": "Isaiah Bogerty", "role": "SLB1 (transfer, Texas Southern)", "evidence": "FCS 187 career tkl; 82 LY"}
+   ],
+   "data_gaps": ["FCS translation on Bogerty", "convert + flashes behind the anchor"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UTEP",
+   "unit": "DB",
+   "grade": 14,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Three returning starters - the continuity unit of the roster: Content (STAYS override; 55.2 adj/774, 11 st, 6 pbu), X.Smith (58.4 adj/636; 3-year starter line, 'backline leader'), Lowe (67.0 adj/350 - best returning DB tape; Athlon asterisk = print error) + Tillman (3 st true Fr).",
+    "But the two best 2025 grades walk: Barnes 80.5/803 (team-best tape) + Campbell 76.3/498 (+ 4 more).",
+    "Restock is sub-FBS: Guillory (W.Ill FCS, FS1), Howard (Virginia St D2, Athlon S1), Miles (E.Tx A&M FCS), L.Thompson (Utah, 40 snaps).",
+    "14: 'the strength of the defense' (Athlon) is relative - COV p17 baseline; > SJSU/NIU 12, < Wyoming 16."
+   ],
+   "key_players": [
+    {"name": "Kode Lowe", "role": "NB (returning)", "evidence": "73.2/350 (67.0 adj); 4 st"},
+    {"name": "Justin Content", "role": "CB1 (returning, STAYS override)", "evidence": "61.4/774 (55.2 adj); 11 st"},
+    {"name": "Xavier Smith", "role": "SS (returning)", "evidence": "64.6/636 (58.4 adj); 60 tkl + INT"}
+   ],
+   "data_gaps": ["S depth is D2/FCS imports", "CB2 green"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "UTEP",
+   "unit": "ST",
+   "grade": 14,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "K Hechter (UT Martin): 15-17 FG, 2nd-Team FCS All-American - a decorated leg replacing a 9-14 committee.",
+    "P Braun (Gardner-Webb): 48.1 on 30 punts (L/61) - big leg, but 36.7 net flags coverage/hang questions; replaces Botsford (46.3/41.1 net).",
+    "KR/PR: 'athletic Kam Thomas should be the primary punt returner'; '25 STR #115 (retrospective).",
+    "14: kicking translates across levels better than position play; > AF/Hawai'i 12, < Nevada/Wyoming 16."
+   ],
+   "key_players": [
+    {"name": "Cade Hechter", "role": "K (transfer, UT Martin)", "evidence": "15-17 FG; 2nd-Tm FCS AA"},
+    {"name": "Brady Braun", "role": "P (transfer, Gardner-Webb)", "evidence": "30 punts 48.1, net 36.7"}
+   ],
+   "data_gaps": ["FCS FG distances", "net-punt gap"],
+   "g5_guard_note": null
+  }
+ ]
+}
