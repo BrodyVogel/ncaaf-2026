@@ -1,0 +1,61 @@
+{
+ "team": "UTEP",
+ "conference": "Mountain West",
+ "created_utc": "2026-07-17T01:12:35+00:00",
+ "assembler_git_rev": "29fa71d",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Walden yr 3 (5-19 here; 39-39 career). BOTH coordinator pairs new (co-OCs Pappalardo/Sampson; co-DCs Beyer/Sigler) - not HC, x1.0 per HC-only rule.",
+ "portal_departure_confirmed": [
+  "Jake Utley",
+  "Jake Riggs",
+  "Dennis Lafferty",
+  "Allan McCarter",
+  "Marquez Taylor",
+  "Toric Goins Jr."
+ ],
+ "portal_withdrawal_overrides": [
+  "Justin Content",
+  "Ashton Coker"
+ ],
+ "yr4_return_overrides_documented": [
+  "Kam Thomas",
+  "Jaden Smith"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Josh Schuchts"
+ ],
+ "known_name_exceptions": {
+  "Justin Content": "CB out-feed NO-DEST but Athlon CB1 BOLD + PS CB1 CAPS (11 st LY) -> STAYS per Rogers/Houston-Booth precedent.",
+  "Ashton Coker": "DL out-feed NO-DEST but Athlon DT1 BOLD CAPS + PS NG1 CAPS (9 st LY) -> STAYS per Rogers precedent. First double-STAYS build of project.",
+  "Kam Thomas": "yr4 list shows 'Kam Thomas (DE)' - position-field noise (he is the 5'9\" WR). Two-print 2026 presence (PS WR1 CAPS + Athlon KR/PR) + OFY '25 mechanism in print -> yr4_return_override.",
+  "Jaden Smith": "yr4 WR, PS-only starter BUT mechanism explicit ('OFY in July', DNP inj LY) -> single-print mechanism override per Jordon Thomas/Laubstein precedent.",
+  "Josh Schuchts": "TE 66.2/171 feed-silent + absent BOTH prints -> departure_confirmed_research (Spoth pattern).",
+  "Jaylan Brown": "PFF row = 126 routes AT UTEP 2025 (2025_this_team provenance) vs PS 'LY at Mich St' + Athlon 'redshirted at MichSt' - DATA GOVERNS: returning UTEP player, prints garbled (likely '24 stats). Not a feed-gap.",
+  "Kode Lowe": "Athlon transfer asterisk = PRINT ERROR (73.2/350 UTEP '25 tape; PS returning NB1). Returning.",
+  "Udoka Ezeani": "yr4 list says DB - noise; he is the ED (45.3/571), portal -> North Texas (exit takes precedence).",
+  "Wondame Davis Jr.": "= 'Kamane Davis' in PS text (the 23.5-ypc leader); portal -> Wake Forest."
+ },
+ "feed_gap_arrivals_documented": [
+  "Carver Cheeks (WR <- Northern Colorado FCS): absent from feed; TWO prints start him. 1st-Tm Big Sky 929 @ 13.1.",
+  "Jayden Trapp (C <- Texas A&M-Kingsville D2): absent from feed; TWO prints print C1*."
+ ],
+ "position_notes": {
+  "EJ Colson": "UIW FCS: 2,142 @ 71% 16-4 + 287 rush, but team went 3-6 in his 9 starts; 1 st at UCF '24. No FBS-volume tape.",
+  "Jayden Wilson": "74.5/697 -> 62.2 CUSA-adj; 92 tkl 8 TFL; the defensive anchor; arrived from New Mexico in '25.",
+  "Kode Lowe": "73.2/350 -> 67.0 adj = best returning DB tape.",
+  "KD Johnson": "73.5/848 DL anchor yr4-expires - part of 'lose 7 DL (35 sts, 19.5 sk, 210 tkl)'.",
+  "Solo Barnes": "80.5/803 = team's best 2025 tape, yr4-expires; Davey 81.5/724 (#1 FBS tackles) yr4-expires.",
+  "OL": "zero returning starters; all five 2025 starters gone (Escobar 815, Robinson 813 -> Kentucky, Immediato 809, J.Williams 807 -> NMSU, Utley 479 GONE); rebuild from Cornell/Jackson St/Livingstone/D2.",
+  "2025 shape": "2-10, 0-6 open, -12 turnovers, 3 net close losses; OVER p8 / OFF p3."
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "Colson/Moore/B.Williams/Bradley/Trapp/Aliu-Otokiti/Fields/Hickey/Bogerty/Guillory/Howard/Miles/C.Cheeks/Hechter/Braun = FCS/D2/Ivy/JUCO arrivals, no FBS tape",
+  "Burns (injury, missed all '25), Kam Thomas + Cash Cheeks + J.Smith (OFY '25) return with no 2025 tape rows"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}

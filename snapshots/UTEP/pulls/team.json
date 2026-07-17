@@ -1,0 +1,37 @@
+{
+ "id": 2638,
+ "school": "UTEP",
+ "mascot": "Miners",
+ "abbreviation": "UTEP",
+ "alternateNames": [
+  "Texas-El Paso",
+  "UTEP",
+  "UTEP"
+ ],
+ "conference": "Mountain West",
+ "division": null,
+ "classification": "fbs",
+ "color": "#ff8200",
+ "alternateColor": "#041e42",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2638.png"
+ ],
+ "twitter": "@UTEPFB",
+ "location": {
+  "id": 3946,
+  "name": "Sun Bowl",
+  "city": "El Paso",
+  "state": "TX",
+  "zip": "79968",
+  "countryCode": "US",
+  "timezone": "America/Denver",
+  "latitude": 31.7733353,
+  "longitude": -106.507957,
+  "elevation": "1183.697876",
+  "capacity": 51500,
+  "constructionYear": 1963,
+  "grass": false,
+  "dome": false
+ }
+}

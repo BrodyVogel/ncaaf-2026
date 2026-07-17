@@ -1,0 +1,50 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,EJ Colson,SO,transfer:Incarnate Word,FCS: 9 st 2142 @ 71% 16-4 + 287 rush; UIW went 3-6 in his starts; 1 st at UCF '24; no FBS-vol tape
+QB,QB,2,Raymond Moore III,SO,transfer:Morgan State,FCS: 7 st as Fr 1042 @ 54% 9-7
+QB,QB,3,Chad Warner,FR,returning,rFr
+QB,QB,3,Bodey Weaver,FR,recruit,PS#75
+RB,RB,1,Tavorus Jones,JR,transfer:Missouri,6 att 63.5 (SEC +10.17 -> 73.7, useless sample); 183 career yds in 3-4 yrs; El Paso native; PS#14
+RB,RB,2,Lamar Sperling,JR,transfer:Buffalo,39 att 75.7 (MAC -13.29 -> 62.4 adj); 234 @ 6.0 LY
+RB,RB,3,Elijah McCoy,SO,returning,47 @ 3.1 true Fr 6 gm
+WRTE,WR,1,Kam Thomas,SR,returning,yr4-OVERRIDE (two prints + OFY mechanism); '24: 9 st 532 @ 11.3 here; no '25 tape (OFY after 1 st)
+WRTE,WR,1,Carver Cheeks,SR,transfer:Northern Colorado,FEED-GAP (two prints); FCS 1st-Tm Big Sky 929 @ 13.1
+WRTE,WR,1,Jaden Smith,SR,returning,yr4-OVERRIDE (PS-only + OFY-inj mechanism); '24: 4 st 177 @ 8.4; DNP '25
+WRTE,WR,2,Jaylan Brown,SO,returning,126 routes 58.5 UTEP '25 (54.3 adj) - PRINT CONFLICT (prints say MichSt; PFF row governs)
+WRTE,WR,2,Royal Capell,SO,transfer:Oklahoma State,77 routes 54.9 (B12 +3.38 -> 58.3 adj)
+WRTE,WR,2,Marcus Torres,SO,returning,33 routes 51.6 (47.4 adj)
+WRTE,TE,1,Cash Cheeks,JR,returning,OFY '25 here; '24 at N.Colo: 171 @ 9.5; PS TE1 CAPS (Athlon prints Fr Andrus)
+WRTE,TE,2,Judah Ezinwa,SR,returning,72 routes 58.7 (54.5 adj); 5 st 76 @ 19.0
+OL,LT,1,Juan Camacho Jr.,SR,returning,89 snaps 54.0 (47.6 adj); 1 st RT 10 gm LY; El Paso native; PS LT1/Athlon RT1 (swing)
+OL,RT,1,Jaymon Lamb,JR,transfer:North Texas,14 snaps 65.2 (AAC +1.18 -> 66.4, tiny); 7 st SFA '24; 'top option'
+OL,LG,1,Brian Williams Jr.,SO,transfer:Jackson State,FCS: 9 st 3rd-Tm All-SWAC LY; 'top option'
+OL,RG,1,Jackson Bradley,SR,transfer:Cornell,Ivy/FCS: 14 st F3Y + 10 st LY; OFY '24
+OL,C,1,Jayden Trapp,SO,transfer:Texas A&M-Kingsville,FEED-GAP (two prints); D2: 7 gm LY
+OL,G,2,Omoruyi Aliu-Otokiti,JR,transfer:Livingstone,D2: 8 st LY; Athlon RG1 (battle)
+OL,T,2,Tyler Roberts,FR,returning,113 snaps 48.1 (41.7 adj); 1 st RT
+OL,G,3,Diego De La Cruz,FR,returning,rFr PS#368
+DL,DT,1,Ashton Coker,JR,returning,STAYS (no-dest + both prints start; Rogers precedent); 395 snaps 62.6 (54.7 adj); 9 st 25 tkl
+DL,DE,1,Shakaun Bowser,SR,returning,323 snaps 63.2 (55.3 adj); 4 st 23 tkl 2 sk
+DL,DE,1,Derek Burns,JR,returning,injury (missed all '25); 'athletic... spark'; PS#159JC
+DL,DT,1,Elijah Fields,SR,transfer:Stephen F. Austin,FCS: 30 gm 65 tkl 4.5 sk L3Y
+DL,DE,2,Sterling Miles,SR,transfer:Eastern Michigan,286 snaps 63.4 (MAC -6.43 -> 57.0 adj); 5 st 34 tkl
+DL,DT,2,Preston Hickey,SR,transfer:Northwestern State,FCS: 12 st 31 tkl
+DL,ED,3,Ekow Taylor,SO,returning,128 snaps 53.3 (45.4 adj)
+DL,DE,3,Oryend Fisher,JR,transfer:JUCO,PS#133JC
+LB,MLB,1,Jayden Wilson,SR,returning,697 snaps 74.5 (62.2 adj); 9 st 92 tkl 8 TFL; all-league candidate; BOLD both prints
+LB,SLB,1,Isaiah Bogerty,SR,transfer:Texas Southern,FCS: 31 gm 187 tkl 4Y; 82 tkl LY
+LB,SAM,1,Garrett Hawkins,JR,returning,67 snaps 56.3 (44.0 adj); 24 gm 50 tkl F2Y Austin Peay
+LB,LB,2,Vashon Brunswick II,SO,returning,64 snaps 69.7 (57.4 adj) flash
+LB,LB,2,Shay Smith,SO,returning,QB->LB convert; PS#120; 'will be a factor'
+DB,CB,1,Justin Content,JR,returning,STAYS (no-dest + both prints start; Rogers precedent); 774 snaps 61.4 (55.2 adj); 11 st 58 tkl 6 pbu
+DB,SS,1,Xavier Smith,SR,returning,636 snaps 64.6 (58.4 adj); 3-yr starter line (AP '23 + UTEP '24-'25); BOLD both prints
+DB,NB,1,Kode Lowe,SR,returning,350 snaps 73.2 (67.0 adj) - best returning DB tape; 4 st (Athlon * = print error)
+DB,CB,1,TJ Tillman,SO,returning,212 snaps 54.3 (48.1 adj); 3 st true Fr
+DB,FS,1,Esteban Guillory,SR,transfer:Western Illinois,FCS: 10 gm 50 tkl LY
+DB,S,2,Donavan Howard,SR,transfer:Virginia St,D2: 28 gm 73 tkl L3Y; Athlon S1*
+DB,CB,2,Kaleb Miles,JR,transfer:East Texas A&M,FCS: 11 gm 49 tkl LY
+DB,CB,2,LaTristan Thompson,SO,transfer:Utah,40 snaps 47.4 (B12 +1.85 -> 49.3, tiny)
+DB,S,3,Allen Gant,FR,returning,45 snaps 61.7 (55.5 adj)
+ST,K,1,Cade Hechter,SR,transfer:UT Martin,FCS: 15-17 FG L/41; 2nd-Tm FCS AA; 1st-Tm Big South/OVC
+ST,P,1,Brady Braun,SR,transfer:Gardner-Webb,FCS: 30 punts 48.1 L/61 but net 36.7
+ST,K,2,Carlos Arreola,SR,returning,3-6 FG 27-28 PAT here LY
+ST,KR/PR,1,Kam Thomas,SR,returning,'athletic... primary punt returner'

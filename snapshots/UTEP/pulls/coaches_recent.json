@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Scotty",
+  "lastName": "Walden",
+  "hireDate": "2023-12-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "UTEP",
+    "year": 2024,
+    "games": 12,
+    "wins": 3,
+    "losses": 9,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -20.2,
+    "spOverall": -22.7,
+    "spOffense": 13.7,
+    "spDefense": 34.2
+   }
+  ]
+ },
+ {
+  "firstName": "Scotty",
+  "lastName": "Walden",
+  "hireDate": "2023-12-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "UTEP",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -17.7,
+    "spOverall": -17.5,
+    "spOffense": 20.2,
+    "spDefense": 36.3
+   }
+  ]
+ }
+]
