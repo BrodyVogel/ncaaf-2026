@@ -1,0 +1,36 @@
+{
+ "id": 278,
+ "school": "Fresno State",
+ "mascot": "Bulldogs",
+ "abbreviation": "FRES",
+ "alternateNames": [
+  "FRES",
+  "Fresno St"
+ ],
+ "conference": "Pac-12",
+ "division": null,
+ "classification": "fbs",
+ "color": "#db0032",
+ "alternateColor": "#002e6d",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/278.png"
+ ],
+ "twitter": "@FresnoStateFB",
+ "location": {
+  "id": 3660,
+  "name": "Valley Children's Stadium",
+  "city": "Fresno",
+  "state": "CA",
+  "zip": "93740",
+  "countryCode": "US",
+  "timezone": "America/Los_Angeles",
+  "latitude": 36.8143527,
+  "longitude": -119.7580092,
+  "elevation": "102.564064",
+  "capacity": 41031,
+  "constructionYear": 1980,
+  "grass": false,
+  "dome": false
+ }
+}

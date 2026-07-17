@@ -1,0 +1,49 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Khristian Martin,SO,transfer:Maryland,20 snaps 82.1 (B10 +0.55 -> tiny sample); battled for Maryland job; dual-threat big arm; front-runner
+QB,QB,2,Jayden Mandal,JR,returning,only QB returnee; missed '25 (labrum surgery); run element
+QB,QB,3,Deagan Rose,FR,recruit,PS#36 true Fr; dual-threat
+DL,ED,1,Jahzon Jacks,SR,returning,480 snaps 64.2 (62.0 MWC-adj); BOLD returning starter; top-notch pass rush
+DL,DT,1,Deijon Laffitte,JR,returning,433 snaps 63.4 (61.2 adj); BOLD; HM MW '25
+DL,DT,1,Martin Owusu,JR,returning,286 snaps 64.4 (62.2 adj); BOLD
+DL,ED,1,Merhauti Xepera,SR,returning,377 snaps 67.1 (64.9 adj); DE2; leaned up top-notch
+DL,DE,2,Sione Noa,SR,returning,96 snaps 61.5 (59.3 adj)
+DL,ED,2,Dylan Hampsten,JR,transfer:Sacramento State,FCS 8.5 sk (no cell, evidence-only); both-sided xref closed
+DL,ED,3,Micah Mosley,JR,transfer:Sacramento State,FCS (no cell, evidence-only); both-sided xref closed
+DL,ED,3,Maverick Noonan,SO,transfer:Nebraska,19 snaps 66.4 (B10 +10.38 -> tiny sample)
+DL,DT,2,Mordecai Hines,JR,returning,93 snaps 56.3 (54.1 adj); potential
+RB,RB,1,Rayshon Luke,SR,returning,112 att 84.2 (75.2 MWC-adj); elite; also KR
+RB,RB,1,Bryson Donelson,JR,returning,140 att 71.0 (62.1 adj); BOLD returning starter
+RB,RB,2,Brandon Ramirez,SO,returning,60 att 79.1 (70.2 adj); FB/short-yardage
+RB,RB,3,Tariq Thomas,SO,transfer:Bucknell,FCS (no cell, evidence-only)
+WRTE,WR,1,Josiah Freeman,SR,returning,322 routes 72.6 (68.9 adj); WR1; yr4 RETURN override (Athlon BOLD Sr.)
+WRTE,WR,1,Ezekiel Avit,JR,returning,206 routes 60.9 (57.2 adj); BOLD returning starter
+WRTE,WR,1,Jahlil McClain,JR,returning,200 routes 55.2 (51.5 adj)
+WRTE,WR,2,Jayon Farrar,SR,returning,96 routes 68.7 (65.0 adj)
+WRTE,WR,2,Jordan Malau'ulu,SO,returning,110 routes 59.6 (55.9 adj); also PR
+WRTE,TE,1,Jake Appleget,SR,transfer:Northern Illinois,159 routes 50.0 (MAC -7.12 -> 42.9 adj)
+WRTE,TE,2,Jake Tarwater,SR,returning,92 routes 64.8 (61.1 adj)
+WRTE,WR,3,Darrian Anderson,SO,transfer:Oregon,B10 WR; depth
+OL,LT,1,Brayden Walton,SO,returning,775 snaps 55.3 (45.2 adj); BOLD; started as true Fr at LT
+OL,LG,1,Edward Fonua,SR,returning,858 snaps 61.5 (51.4 adj); BOLD returning starter
+OL,C,1,Oscar Weigel,SO,transfer:San Diego,FCS (no cell); PS "solid addition at C"
+OL,RG,1,Jonah Leaupepetele,FR,recruit,true Fr RG starter
+OL,RT,1,Rolan Fullwood,SR,returning,779 snaps 68.3 (58.2 adj); BOLD; yr4 override; "P12-best OT tandem"
+OL,G,2,Patrick Barnett,JR,transfer:UCF,B12 IOL depth
+OL,C,2,Ben Baker,SO,returning,30 snaps 75.2 (tiny)
+LB,LB,1,K'vion Thunderbird,JR,returning,302 snaps 67.1 (62.4 adj); BOLD; OFY after 7 starts
+LB,LB,1,Tytus Khajavi,SO,returning,381 snaps 60.1 (55.4 adj); BOLD; started last 5
+LB,LB,2,Logan Studt,SO,returning,142 snaps 66.9 (62.2 adj)
+LB,LB,2,Justin Johnson,JR,returning,32 snaps 60.8 (56.1 adj)
+DB,NB,1,Simeon Harris,SR,returning,625 snaps 80.8 (78.4 adj); BOLD; NFL potential; the returning D star
+DB,CB,1,Taylor Powell,SO,transfer:Northern Illinois,305 snaps 78.1 (MAC -3.31 -> 74.8 adj); "the NIU transfer" (PS)
+DB,CB,1,Kiontre Harris,SO,returning,young CB starter; minimal tape
+DB,S,1,Ethan Tierney,JR,returning,304 snaps 61.7 (59.3 adj)
+DB,S,1,Croix Stewart,SR,transfer:UCLA,9 snaps 59.5 (B10 -> tiny sample)
+DB,CB,2,Loyall Mouzon,SO,returning,young CB; minimal tape
+DB,CB,2,Jomarion Briggs,SR,returning,148 snaps 63.7 (61.3 adj)
+DB,DB,2,Andre Cobb,SR,returning,170 snaps 64.5 (62.1 adj)
+DB,CB,2,Preston Okafor,SO,transfer:Nebraska,1 snap (no tape)
+ST,K,1,Manaki Watanabe,SO,transfer:Ashland,D2 (no cell); new kicker
+ST,P,1,Nick Verdugo,SR,returning,BOLD; punter returns
+ST,KR,1,Rayshon Luke,SR,returning,dangerous KR
+ST,PR,1,Jordan Malau'ulu,SO,returning,PR

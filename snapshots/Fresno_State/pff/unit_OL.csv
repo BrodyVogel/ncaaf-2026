@@ -1,0 +1,13 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Jacob Spomer,163415,C,FRESNO ST,13,100.0,0,169,75.5,81.5,76.6,4,4,415,100.0,100.0,99.0,7,8,0,863,863,0,0,863,437,437,0,0,426,0,2025_this_team
+Edward Fonua,173529,G,FRESNO ST,13,100.0,0,169,61.5,71.2,57.3,3,11,418,100.0,100.0,97.8,1,16,2,858,0,858,0,858,440,440,0,0,418,0,2025_this_team
+Julian Polendo,128188,G,FRESNO ST,12,100.0,0,169,62.9,81.0,57.8,2,2,373,100.0,100.0,99.5,6,4,0,797,0,0,0,797,395,395,797,0,402,0,2025_this_team
+Rolan Fullwood,146051,T,FRESNO ST,12,100.0,0,169,68.3,76.2,63.4,2,8,358,100.0,100.0,97.5,5,14,4,779,0,0,0,779,375,375,0,773,404,6,2025_this_team
+Brayden Walton,198457,T,FRESNO ST,12,100.0,0,169,55.3,67.7,47.9,4,12,370,100.0,100.0,96.8,4,20,4,775,0,0,774,775,389,389,0,0,386,1,2025_this_team
+Toreon Penright,86146,T,FRESNO ST,6,100.0,1,169,66.9,78.7,63.4,0,4,109,100.0,100.0,98.2,3,4,0,215,0,0,118,215,117,117,0,94,98,3,2025_this_team
+Campbell McHarg,147569,G,FRESNO ST,2,100.0,0,169,49.6,41.9,49.0,1,1,37,100.0,100.0,97.3,0,2,0,65,0,0,0,65,37,37,65,0,28,0,2025_this_team
+Braylan Henderson,198454,G,FRESNO ST,3,100.0,0,169,83.4,,81.0,0,0,0,,,,0,0,0,35,0,15,0,35,0,0,13,7,35,0,2025_this_team
+Ben Baker,191076,C,FRESNO ST,2,100.0,0,169,75.2,73.7,70.7,0,0,3,100.0,100.0,100.0,0,0,0,30,30,0,0,30,3,3,0,0,27,0,2025_this_team
+Marcus Simien,163413,G,FRESNO ST,1,100.0,0,169,54.1,79.7,51.3,0,0,8,100.0,100.0,100.0,0,0,0,25,0,7,0,25,8,8,18,0,17,0,2025_this_team
+Matai Bell,163395,G,FRESNO ST,1,100.0,0,169,91.4,,90.1,0,0,0,,,,0,0,0,13,0,13,0,13,0,0,0,0,13,0,2025_this_team
+Kyson Van Vugt,156427,T,FRESNO ST,1,100.0,0,169,62.8,,62.1,0,0,0,,,,0,0,0,13,0,0,0,13,0,0,0,13,13,0,2025_this_team

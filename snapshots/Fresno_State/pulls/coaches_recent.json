@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Tim",
+  "lastName": "Skipper",
+  "hireDate": "2024-07-15T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Fresno State",
+    "year": 2024,
+    "games": 13,
+    "wins": 6,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -6,
+    "spOverall": -3.8,
+    "spOffense": 25.1,
+    "spDefense": 27.6
+   }
+  ]
+ },
+ {
+  "firstName": "Matt",
+  "lastName": "Entz",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Fresno State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -2.7,
+    "spOverall": 1.8,
+    "spOffense": 23,
+    "spDefense": 21.1
+   }
+  ]
+ }
+]

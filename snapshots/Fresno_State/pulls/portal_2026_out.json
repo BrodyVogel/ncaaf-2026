@@ -1,0 +1,122 @@
+[
+ {
+  "season": 2026,
+  "firstName": "Tim",
+  "lastName": "Thomas",
+  "position": "LB",
+  "origin": "Fresno State",
+  "destination": "Sacramento State",
+  "transferDate": "2026-01-20T16:41:00.000Z",
+  "rating": 0.82,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Richie",
+  "lastName": "Anderson",
+  "position": "TE",
+  "origin": "Fresno State",
+  "destination": "Texas A&M",
+  "transferDate": "2026-01-04T23:34:00.000Z",
+  "rating": 0.86,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Isiah",
+  "lastName": "Chala Jr.",
+  "position": "EDGE",
+  "origin": "Fresno State",
+  "destination": "Sacramento State",
+  "transferDate": "2026-01-21T13:29:00.000Z",
+  "rating": 0.82,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "RL",
+  "lastName": "Miller",
+  "position": "S",
+  "origin": "Fresno State",
+  "destination": "Cal Poly",
+  "transferDate": "2026-01-10T02:20:00.000Z",
+  "rating": 0.84,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Jack",
+  "lastName": "Metzler",
+  "position": "EDGE",
+  "origin": "Fresno State",
+  "destination": null,
+  "transferDate": "2025-12-18T04:26:00.000Z",
+  "rating": null,
+  "stars": 2,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Brayden",
+  "lastName": "Turner",
+  "position": "QB",
+  "origin": "Fresno State",
+  "destination": "College of San Mateo",
+  "transferDate": "2026-01-09T01:18:00.000Z",
+  "rating": null,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Josiah",
+  "lastName": "Ayon",
+  "position": "WR",
+  "origin": "Fresno State",
+  "destination": null,
+  "transferDate": "2025-12-14T21:48:00.000Z",
+  "rating": null,
+  "stars": null,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Damarrion",
+  "lastName": "White",
+  "position": "EDGE",
+  "origin": "Fresno State",
+  "destination": null,
+  "transferDate": "2025-12-19T05:57:00.000Z",
+  "rating": null,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Jayden",
+  "lastName": "Davis",
+  "position": "S",
+  "origin": "Fresno State",
+  "destination": "UConn",
+  "transferDate": "2026-01-24T08:05:00.000Z",
+  "rating": 0.83,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Carson",
+  "lastName": "Conklin",
+  "position": "QB",
+  "origin": "Fresno State",
+  "destination": "Sacramento State",
+  "transferDate": "2026-01-15T00:14:00.000Z",
+  "rating": 0.85,
+  "stars": 3,
+  "eligibility": "Immediate"
+ }
+]

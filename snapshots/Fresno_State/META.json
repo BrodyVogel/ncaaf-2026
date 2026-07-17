@@ -1,0 +1,46 @@
+{
+ "team": "Fresno State",
+ "conference": "Pac-12",
+ "created_utc": "2026-07-17T15:24:10+00:00",
+ "assembler_git_rev": "7f6aa9f",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Matt Entz. Athlon: 'Record at School: 9-4 (1 year)'; PS: 'went 7-6 ATS in his debut', 'even stronger in Year 2'. Entz DEBUTED in 2025 (the 9-4 team) -> 2026 is his SECOND season -> NO coach change (band x1.00). Career 69-15 (6 yrs; NDSU FCS-title pedigree). DC Nick Benedetto + ST coord John Baxter RETAINED. The 'Entz coach change' build flag resolves the opposite way from Mora (CSU).",
+ "conference_note": "EX-MWC (9-4, 5-3) -> Pac-12 2026. R14: MWC cells on returning FSU tape (QB -7.35, RB -8.95, WRTE -3.70, OL -10.08, DL -2.19, LB -4.74, DB -2.43). Arrivals on origin cells: Martin Maryland/B10 (+0.55, tiny sample), Powell NIU/MAC (-3.31), Appleget NIU/MAC (-7.12), Noonan Nebraska/B10 + Stewart UCLA/B10 + Okafor Nebraska/B10 (all tiny samples). FCS/D2 arrivals = NO CELL (evidence-only): Hampsten + Mosley (Sac St FCS), Weigel (San Diego FCS), Thomas (Bucknell FCS), Watanabe (Ashland D2).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Josiah Freeman",
+  "Rolan Fullwood"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Josiah Freeman": "WR, CFBD year==4, but Athlon 2026 depth chart lists 'JOSIAH FREEMAN (SR.)' BOLD as a returning starter -> yr4 RETURN override. 322 routes 72.6 -> 68.9 MWC-adj; the WR1.",
+  "Rolan Fullwood": "RT, CFBD year==4, but Athlon lists 'ROLAN FULLWOOD (SR.)' BOLD + PS 'one of the P12's best OT tandems' -> yr4 RETURN override. 779 snaps 68.3 -> 58.2 adj.",
+  "E.J. Warner": "QB, yr4, PS 'both [Warner + Conklin] move on', NOT in the 2026 two-deep -> GONE. 335 snaps 70.3; the 2025 starter. QB is now a Martin(Maryland)-led rebuild.",
+  "Jacob Spomer": "C, yr4, NOT in the 2026 two-deep (C is now Weigel*, San Diego transfer) -> GONE. 863 snaps 75.5 -> 65.4 adj; the star center (a real OL loss).",
+  "Finn Claypool": "DE, yr4, PS 'they lose Claypool (9 st, 6.5 sk)', NOT in the two-deep -> GONE. 504 snaps 81.9 -> 79.7 adj; the star pass-rusher.",
+  "Al'zillion Hamilton": "CB, yr4, NOT in the 2026 two-deep -> GONE. 777 snaps 78.2; the star corner (COV p82 core).",
+  "Camryn Bracha": "S, yr4, NOT in the 2026 two-deep -> GONE. 547 snaps 72.5; a starting safety.",
+  "Ryan Wilson": "S, yr4, a 2025 starter, NOT in the 2026 two-deep (S is Tierney + Stewart*) -> GONE. 398 snaps 73.6.",
+  "Jadon Pearson": "LB, yr4, PS 'they lose 2nd-Tm MW Pearson', NOT in the two-deep -> GONE. 742 snaps 64.2; the on-ball leader/captain (a Utah St transfer who played '25 at FSU).",
+  "Korey Foreman": "DE, yr4, ex-5* USC transfer, NOT in the two-deep -> GONE. 322 snaps 66.6.",
+  "Michael Jordan Jr.": "DT, yr4, NOT in the two-deep -> GONE. 308 snaps 65.3.",
+  "Julius Gandy": "DT, yr4, NOT in the two-deep -> GONE. 232 snaps 53.4.",
+  "Julian Polendo": "G, yr4, NOT in the two-deep -> GONE. 797 snaps 62.9.",
+  "Toreon Penright": "T, yr4, NOT in the two-deep -> GONE. 215 snaps 66.9.",
+  "Jakari Embry": "CB, yr4, NOT in the two-deep -> GONE. 693 snaps 57.0.",
+  "Simeon Harris": "NB, graded in DB; CFBD year<4 so returns cleanly (BOLD). 625 snaps 80.8 -> 78.4 adj; the one returning defensive star (NFL potential).",
+  "Rayshon Luke": "counted once in RB (75.2 adj) and cited as KR in ST; not double-counted in the grade sum."
+ },
+ "feed_gap_arrivals_documented": [],
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not published (returning_2026 empty); yr4 determined from roster_2025 class-year, adjudicated vs Athlon 2026 depth chart",
+  "young CB starters (Kiontre Harris, Loyall Mouzon) have minimal 2025 tape - projection risk",
+  "QB battle (Martin vs Mandal) unresolved; the room has 82 total FBS snaps"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (National Forecast / Pac-12 Prediction / Phil's Forecast / STR excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}
