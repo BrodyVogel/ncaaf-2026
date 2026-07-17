@@ -21,8 +21,9 @@ Delaware,Jaquise Alexander,North_Dakota_State,CB departed NDSU - verify in-feed,
 Missouri_State,Skyler Locklear,UTEP,QB 64.5/274 - verify in-feed,open,2026-07-17,
 Missouri_State,Stratton Shufelt,UTEP,LB 59.0/113 - verify in-feed,open,2026-07-17,
 UConn,SEVENTEEN Toledo exits,Toledo,Candle-pipeline bulk flag: verify all 17 at UConn build - list in Toledo news.md/mac_wrap,open,2026-07-17,
-Virginia_Tech,Caleb Brown,Hawai'i,arrival-ORIGIN verify: UH CB1 boomerang - confirm VT out-feed carries him,open,2026-07-17,
-Virginia_Tech,Devin Alves,Hawai'i,arrival-ORIGIN verify: UH WR - confirm VT out-feed,open,2026-07-17,
+Virginia_Tech,Caleb Brown,Hawai'i,arrival-ORIGIN verify: UH CB1 boomerang - confirm VT out-feed carries him,closed,2026-07-17,vt-build-2026-07-18 (in VT out-feed -> Hawai'i; origin verified)
+Virginia_Tech,Devin Alves,Hawai'i,arrival-ORIGIN verify: UH WR - confirm VT out-feed,closed,2026-07-17,vt-build-2026-07-18 (in VT out-feed -> Hawai'i; origin verified)
+Virginia,Christian Ellis,Virginia_Tech,S (64.1/94) departed VT for UVA - verify UVA in-feed,open,2026-07-18,
 Virginia,Bjorn Jurgensen,Hawai'i,arrival-ORIGIN verify: UH QB2 (rFr DNP) - confirm UVA out-feed,open,2026-07-17,
 Missouri,Tavorus Jones,UTEP,arrival-ORIGIN verify: UTEP RB1 - confirm Mizzou out-feed,open,2026-07-17,
 Western_Kentucky,Ezirim,MAC-round,MAC wrap parked flag (CUSA) - see mac_wrap_2026-07-16.md,open,2026-07-17,

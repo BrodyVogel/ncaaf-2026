@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T20:14:43+00:00",
+ "team": "Virginia Tech",
+ "final": 5.52,
+ "rank": 42,
+ "band": 7.91,
+ "resid": -5.79,
+ "adj": -2.02,
+ "class_term": -0.0,
+ "st": 0.0,
+ "anchor_blend": 7.05,
+ "resid_level": -3.92,
+ "resid_shape": -1.87,
+ "implied_off": 26.12,
+ "implied_def": 24.66,
+ "anchor_off": 29.92,
+ "anchor_def": 22.68,
+ "fit_r2": {
+  "off": 0.542,
+  "dfn": 0.614
+ },
+ "low_conf_units": 2,
+ "code_rev": "d9a92fa",
+ "mode": "PILOT-OOS"
+}
