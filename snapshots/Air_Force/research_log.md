@@ -20,3 +20,9 @@
   split (8 starters back from COV p1). 1 L -> conf x1.03.
 - 2026-07-17 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-17 grades.json written + schema-validated (8/8); ledger 35 rows
+  / 0 to adjudicate; gates clean.
+- 2026-07-17 pilot_readout: FINAL -8.83 (r102/138), band ±6.18 (1 L).
+  SP+ winsorized trivially (-2.4 -> -2.44); dispersion 6.01. Raw resid
+  -8.87 (grades cooler — my DL/ST reads vs anchors pricing the
+  luck-regression bounce).

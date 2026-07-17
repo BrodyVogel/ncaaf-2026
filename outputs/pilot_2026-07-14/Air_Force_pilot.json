@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T00:33:47+00:00",
+ "team": "Air Force",
+ "final": -8.83,
+ "rank": 102,
+ "band": 6.18,
+ "resid": -8.87,
+ "adj": -3.11,
+ "class_term": 0.0,
+ "st": -0.76,
+ "anchor_blend": -5.48,
+ "resid_level": 2.96,
+ "resid_shape": -11.84,
+ "implied_off": 18.81,
+ "implied_def": 33.17,
+ "anchor_off": 23.76,
+ "anchor_def": 29.24,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.615
+ },
+ "low_conf_units": 1,
+ "code_rev": "4db7466",
+ "mode": "PILOT-OOS"
+}
