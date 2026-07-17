@@ -1,0 +1,35 @@
+{
+ "team": "Boston College",
+ "conference": "ACC",
+ "created_utc": "2026-07-17T22:30:13+00:00",
+ "assembler_git_rev": "ca043c0",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Bill O'Brien - Athlon 'head coach Bill O'Brien's squad went 2-10'; PS '3rd Year Here'. YEAR 3 -> NO coach change (band x1.00). BUT near-total STAFF overhaul (new DC Ted Roof; O'Brien 'replaced 75% of his positional staff') - coordinator/staff changes do NOT trigger the band multiplier (HC unchanged). Verified BOTH sources.",
+ "conference_note": "ACC (P4). R14: ACC cells POSITIVE on returning tape; arrivals on origin cells. Arrivals: McKenzie Saginaw Valley State (D2, NO cell - evidence-only), Grayson Wilson Arkansas/SEC; Dickens Liberty/CUSA, Nolan Ray Maryland/B10; Green+Norwood UNC/ACC, Landon Wright Wazzu/PAC-remnant(FLAG), Jackson Wade+Kossmann Florida/SEC, Swanson Colgate (FCS, no cell); Phillips Mich St/B10, Reggie Jackson Jax St/CUSA, Snively E Mich/MAC, Jean-Jumeau Tenn St (FCS), Humphrey NC Central (FCS); Sampson FSU/ACC, Kris Jones Georgia/SEC, Hudson Colorado/B12, Ballard Buffalo/MAC; Kahoun Notre Dame/IND, Palano Wazzu/PAC-remnant(FLAG), Medlock SMU/ACC; Kameron Howard Alabama/SEC, Chandler Jordan Ga St/SBC. FLAG: Palano + Landon Wright tape at Washington State (Pac-remnant) - PAC cell inappropriate; treated MWC-like. FLAG FOR OWNER.",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": ["Cameron Martinez"],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Cameron Martinez": "CB, yr4, Athlon CB2 (Sr.) on the 2026 chart -> RETURNS (yr4_return_override). 52.5/116 (depth).",
+  "Dylan Lonergan": "QB, 70.8/330 (2025 starter) - GONE ->Rutgers (portal). Athlon lists D2 transfer McKenzie QB1.",
+  "Grayson James": "QB, yr4, 60.0/188 - GONE. Not on the 2026 chart (QB1 McKenzie, QB2 Grayson Wilson). EXPIRED(yr4).",
+  "Lewis Bond": "WR, yr4, 74.5/474 (top returning WR) - GONE. Not on the 2026 chart. EXPIRED(yr4). (A real loss - the WR is gutted.)",
+  "Jeremiah Franklin": "TE, yr4, 65.7/333 - GONE. Not on chart (TE is Chudzinski/Kossmann). EXPIRED(yr4).",
+  "Logan Taylor": "OL, yr4, 70.8/837 - GONE. Not on chart. EXPIRED(yr4).",
+  "Kevin Cline": "OL, yr4, 73.7/691 (best OL grade) - GONE. Not on chart. EXPIRED(yr4)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts",
+  "2-10 in 2025 -> BC's most active portal period ever (28-40 in / 30-42 out per source). O'Brien stays (Y3) but overhauled 75% of the staff. Returns almost nobody (Athlon 'OFFENSE (1)' starter).",
+  "QB1 Mason McKenzie is a DIV-II transfer (Saginaw Valley State, GLIAC POY) with NO FBS tape - the round's biggest QB projection (graded L, evidence-only)",
+  "DL/WR heavily rebuilt; PRSH p11 + RDEF p7 + DEF p9 in '25 (bad defense). DB core (Price/Farris/Green) is the most-intact unit.",
+  "Pac-remnant flag: Palano + Landon Wright tape at Washington State (grade-adjacent LB/WR)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T00:00:00+00:00"
+}

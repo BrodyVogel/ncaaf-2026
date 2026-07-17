@@ -1,0 +1,40 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Mason McKenzie,QB,JR,transfer:Saginaw Valley State,Athlon,PS,L,Div-II GLIAC POY; NO FBS tape (no cell); "presumed starter"; O'Brien compares to Chambliss
+QB,2,Grayson Wilson,QB,FR,transfer:Arkansas,Athlon,PS,L,SEC Fr; QB2
+RB,1,Evan Dickens,RB,JR,transfer:Liberty,Athlon,PS,M,84.9/229 (CUSA -7.50 -> 77.4 adj); proven volume; the offensive bright spot
+RB,2,Nolan Ray,RB,JR,transfer:Maryland,Athlon,PS,L,72.0/67 (B10 -0.40 -> 71.6 adj)
+WRTE,1,Kaelan Chudzinski,TE,SO,returning,Athlon,PS,M,73.1/139 (ACC +2.36 -> 74.3 adj); "revelation, could be one of best TEs in ACC"; 24 rec 313 4TD
+WRTE,2,Jaedn Skeete,WR,JR,returning,Athlon,PS,L,57.9/162 (60.3 adj); WR1 by default
+WRTE,3,Javarius Green,WR,SO,transfer:North Carolina,Athlon,PS,L,57.8/150 (ACC +2.36 -> 60.2 adj)
+WRTE,4,Dawson Pough,WR,SO,returning,Athlon,PS,L,53.4/256 (55.8 adj)
+WRTE,5,Landon Wright,WR,SO,transfer:Washington State,Athlon,PS,L,60.8/52 (Pac-remnant, MWC-like)
+WRTE,6,Cameron Kossmann,TE,FR,transfer:Florida,Athlon,PS,L,SEC TE Fr; depth
+OL,1,Michael Crounse,C,JR,returning,Athlon,PS,M,64.6/632 (ACC +3.54 -> 68.1 adj); BOLD
+OL,2,Jude Bowry,T,JR,returning,Athlon,PS,M,66.8/509 (70.3 adj); returning
+OL,3,Reggie Jackson,RT,JR,transfer:Jacksonville State,Athlon,PS,M,69.6/815 (CUSA -6.36 -> 63.2 adj); proven volume
+OL,4,Kristian Phillips,LG,SR,transfer:Michigan State,Athlon,PS,M,63.2/240 (B10 -1.29 -> 61.9 adj)
+OL,5,Robert Smith IV,RG,SO,returning,Athlon,PS,L,57.2/423 (60.7 adj)
+OL,6,Owen Snively,G,SR,transfer:Eastern Michigan,Athlon,PS,L,66.8/703 (MAC -15.20 -> 51.6 adj)
+OL,7,Pape Abdoulaye Sy,LT,SO,returning,Athlon,PS,L,52.6/89 (projected LT)
+DL,1,Chris Marable Jr.,DT,JR,returning,Athlon,PS,M,59.7/446 (ACC +1.19 -> 60.9 adj); BOLD
+DL,2,KJ Sampson,DT,JR,transfer:Florida State,Athlon,PS,M,52.4/163 (ACC +1.19 -> 53.6 adj)
+DL,3,Kris Jones,DE,SO,transfer:Georgia,Athlon,PS,M,58.4/117 (SEC +7.87 -> 66.3 adj)
+DL,4,Demetrius Ballard,EDGE,SR,transfer:Buffalo,Athlon,PS,M,69.7/166 (MAC -6.43 -> 63.3 adj)
+DL,5,Onye Nwosisi,DE,SR,returning,Athlon,PS,L,65.1/49 (66.3 adj)
+DL,6,Favor Bate,DE,JR,returning,Athlon,PS,L,61.9/312 (63.1 adj)
+DL,7,Christian Hudson,DT,SO,transfer:Colorado,Athlon,PS,L,60.4/18 (B12, tiny)
+LB,1,Justin Medlock,LB,SR,transfer:SMU,Athlon,PS,M,69.5/234 (ACC +2.13 -> 71.6 adj)
+LB,2,Anthony Palano,LB,SO,transfer:Washington State,Athlon,PS,M,66.9/406 (Pac-remnant -> MWC-like ~62 adj)
+LB,3,Bam Crouch,LB,JR,returning,Athlon,PS,M,68.5/194 (70.6 adj); returning
+LB,4,Bodie Kahoun,LB,FR,transfer:Notre Dame,Athlon,PS,L,IND LB; tiny sample
+DB,1,KP Price,S,SR,returning,Athlon,PS,M,63.1/765 (ACC +1.18 -> 64.3 adj); BOLD; "leading defensive player"
+DB,2,Isaiah Farris,CB,JR,returning,Athlon,PS,M,68.6/555 (69.8 adj); returning CB
+DB,3,TJ Green,CB,SO,returning,Athlon,PS,M,62.5/334 (63.7 adj); also KR
+DB,4,Max Tucker,CB,SR,returning,Athlon,PS,M,56.2/412 (57.4 adj)
+DB,5,Carter Davis,S,JR,returning,Athlon,PS,L,52.5/582 (53.7 adj)
+DB,6,Kameron Howard,S,JR,transfer:Alabama,Athlon,PS,L,57.6/11 (SEC, tiny)
+DB,7,Ashton Cunningham,CB,SO,returning,Athlon,PS,L,68.7/142 (69.9 adj); depth
+DB,8,Cameron Martinez,CB,SR,returning,Athlon,PS,L,52.5/116 (yr4_return_override); CB2
+ST,1,Luca Lombardo,K,JR,returning,Athlon,PS,H,"arguably BC's best player in '25"; 16/17 FG
+ST,2,Bryce LaFollette,P,JR,transfer:Towson,Athlon,PS,M,FCS P
+ST,3,TJ Green,KR,SO,returning,Athlon,PS,M,KR/PR

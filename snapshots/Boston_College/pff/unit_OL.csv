@@ -1,0 +1,22 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Logan Taylor,151098,G,BOSTON COL,12,99.9,0,121,70.8,71.2,73.7,2,15,518,99.8,99.8,97.4,6,22,5,836,0,0,224,837,537,538,523,84,299,6,2025_this_team
+Reggie Jackson,180915,T,JVILLE ST,12,100.0,0,196,69.6,65.8,71.1,0,19,328,100.0,100.0,97.1,4,19,0,815,0,0,0,815,349,349,0,813,466,1,arrival_2025_at_JVILLE ST
+Owen Snively,128166,G,E MICHIGAN,10,100.0,0,160,66.8,72.8,71.9,1,9,367,100.0,100.0,98.6,9,10,0,703,0,703,0,703,395,395,0,0,308,0,arrival_2025_at_E MICHIGAN
+Kevin Cline,123537,T,BOSTON COL,11,100.0,0,121,73.7,71.8,73.5,2,15,412,100.0,100.0,96.7,4,22,5,691,0,0,0,691,429,429,0,689,262,2,2025_this_team
+Eryx Daugherty,175334,G,BOSTON COL,10,100.0,0,121,67.8,77.2,64.8,2,9,415,100.0,100.0,98.4,2,12,1,646,0,646,0,646,431,431,0,0,215,0,2025_this_team
+Michael Crounse,175333,C,BOSTON COL,11,100.0,0,121,64.6,71.8,63.4,2,9,378,100.0,100.0,98.0,4,13,2,632,632,0,0,632,392,392,0,0,240,0,2025_this_team
+Jude Bowry,156223,T,BOSTON COL,9,100.0,0,121,66.8,66.4,69.5,2,12,311,100.0,100.0,97.7,4,14,0,509,0,0,505,509,320,320,0,0,189,4,2025_this_team
+Robert Smith IV,207829,G,BOSTON COL,8,100.0,0,121,57.2,52.6,55.9,1,8,255,100.0,100.0,97.5,0,11,2,423,0,105,0,423,267,267,318,0,156,0,2025_this_team
+Kristian Phillips,158395,G,MICH STATE,6,100.0,0,223,63.2,83.4,58.9,0,2,115,100.0,100.0,99.1,1,2,0,240,0,0,0,240,125,125,240,0,115,0,arrival_2025_at_MICH STATE
+Dwayne Allick,123530,C,BOSTON COL,4,100.0,0,121,52.6,59.3,55.5,0,8,146,100.0,100.0,97.3,4,8,0,222,222,0,0,222,152,152,0,0,70,0,2025_this_team
+Ryan Mickow,175342,T,BOSTON COL,6,100.0,0,121,59.6,54.8,61.0,1,7,65,100.0,100.0,92.3,0,9,1,93,0,0,43,93,66,66,0,48,27,2,2025_this_team
+Pape Abdoulaye Sy,207807,T,BOSTON COL,3,100.0,0,121,52.6,57.3,47.1,0,5,62,100.0,100.0,92.7,0,7,2,89,0,0,68,89,65,65,0,21,24,0,2025_this_team
+Tommy Matheson,155391,G,BOSTON COL,2,100.0,0,121,58.6,59.3,57.2,0,1,30,100.0,100.0,98.3,0,1,0,65,0,65,0,65,32,32,0,0,33,0,2025_this_team
+Judah Pruitt,190198,G,BOSTON COL,3,100.0,0,121,61.6,63.1,60.6,0,1,21,100.0,100.0,97.6,0,1,0,40,0,31,0,40,22,22,9,0,18,0,2025_this_team
+Souleye Diawara,190188,T,BOSTON COL,1,100.0,0,121,70.6,73.5,70.4,0,0,2,100.0,100.0,100.0,0,0,0,7,0,0,0,7,2,2,0,7,5,0,2025_this_team
+Amir Johnson,171622,T,BOSTON COL,1,100.0,0,121,58.7,74.9,56.5,0,0,2,100.0,100.0,100.0,0,0,0,7,0,0,7,7,2,2,0,0,5,0,2025_this_team
+Jack Flunke,162663,G,BOSTON COL,1,100.0,0,121,66.7,73.8,65.7,0,0,2,100.0,100.0,100.0,0,0,0,6,0,6,0,6,2,2,0,0,4,0,2025_this_team
+Jadon Lafontant,183190,G,BOSTON COL,1,100.0,0,121,64.5,73.8,60.0,0,0,2,100.0,100.0,100.0,0,0,0,3,0,0,0,3,2,2,3,0,1,0,2025_this_team
+DJ Williams,207828,G,BOSTON COL,1,100.0,0,121,60.0,,60.0,0,0,0,,,,0,0,0,1,0,1,0,1,0,0,0,0,1,0,2025_this_team
+Tanner Chlupsa,190182,C,BOSTON COL,1,100.0,0,121,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,0,1,0,0,1,0,1,0,2025_this_team
+Jani Norwood,183335,T,N CAROLINA,1,100.0,0,245,60.0,,60.0,0,0,0,,,,0,0,0,1,0,1,0,1,0,0,0,0,1,0,arrival_2025_at_N CAROLINA

@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Bill",
+  "lastName": "O'Brien",
+  "hireDate": "2024-02-09T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Boston College",
+    "year": 2024,
+    "games": 13,
+    "wins": 7,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 6.1,
+    "spOverall": 1.2,
+    "spOffense": 28,
+    "spDefense": 24.7
+   }
+  ]
+ },
+ {
+  "firstName": "Bill",
+  "lastName": "O'Brien",
+  "hireDate": "2024-02-09T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Boston College",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -5.4,
+    "spOverall": -8.5,
+    "spOffense": 23.3,
+    "spDefense": 33.1
+   }
+  ]
+ }
+]
