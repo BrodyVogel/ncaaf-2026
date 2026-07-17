@@ -1,0 +1,152 @@
+{
+ "team": "Virginia",
+ "units": {
+  "QB": {"grade": 52, "confidence": "L"},
+  "RB": {"grade": 56, "confidence": "M"},
+  "WRTE": {"grade": 44, "confidence": "L"},
+  "OL": {"grade": 58, "confidence": "M"},
+  "DL": {"grade": 50, "confidence": "M"},
+  "LB": {"grade": 54, "confidence": "M"},
+  "DB": {"grade": 52, "confidence": "M"},
+  "ST": {"grade": 54, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18 (246e11f)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; ACC POSITIVE offsets on returning tape, arrivals on origin cells; HC Elliott Year 5 = no coach change; disposition gate resolved before grading - heavy yr4 attrition + withdrawals adjudicated vs both charts); anchor values not consulted",
+  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 52/RB 56/WRTE 44/OL 58/DL 50/LB 54/DB 52/ST 54)."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 62, RB 48, WRTE 36, OL None, DL 39, LB 54, DB 52, ST 63) keys as-played 2025 tape; the 2026 team lost its QB, top DL, elite S, and most WRs to attrition.",
+   "QB": "-10 vs proxy 62 - proxy keys Morris's '25 tape (gone, led the 11-3); the grade keys transfer Pribula (SEC offset weighted down for his part-time/turnover role).",
+   "OL": "OL the backbone (proxy couldn't resolve the intact veteran line); graded 58 on 'most experienced in the nation' + 2 All-ACC, tempered by PBLK p39.",
+   "DL": "+11 vs proxy 39 - proxy keys the loss of the top interior (Melton 85.8/Carter 78.3); the grade credits returning star Camac (81.8 adj) + the transfer wave.",
+   "WRTE": "+8 vs proxy 36 - both key the gutted room; the grade adds a touch for the P4-transfer pedigree (Flores UCLA, Cox UNC)."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Virginia", "unit": "QB", "grade": 52, "confidence": "L",
+   "bracketing_exemplars": ["Virginia Tech QB 2026 (48, round peer)", "Wake Forest QB 2026 (54, round peer)"],
+   "rationale_bullets": [
+    "Beau Pribula (Missouri transfer, 76.1/334 -> SEC +7.72 -> 83.8 adj) is QB1 - a dual-threat entering an ideal situation (elite OL + deep RB), but a #3/part-time starter with 11-9 TD-INT ('must reduce his turnovers').",
+    "2025 starter Chandler Morris (77.4, led the 11-3) is GONE (yr4/eligibility exhausted). Backup Eli Holstein (Pitt).",
+    "The SEC offset over-credits a part-time turnover-prone role, so the 83.8 is weighted DOWN.",
+    "52: a proven-ish SEC dual-threat, unproven as a full-time passer; between Virginia-Tech-48 and Wake-54. L."
+   ],
+   "key_players": [
+    {"name": "Beau Pribula", "role": "QB1 (transfer, Missouri)", "evidence": "76.1/334; 1,941 yds 11-9; dual-threat; must cut turnovers"}
+   ],
+   "data_gaps": ["part-time/#3-starter sample", "11-9 TD-INT (turnovers)"], "g5_guard_note": null
+  },
+  {
+   "team": "Virginia", "unit": "RB", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Virginia Tech RB 2026 (60, round peer)", "Illinois RB 2025 (32, exemplar anchor)"],
+   "rationale_bullets": [
+    "DEEP: Peyton Lewis (Tennessee, 86.2 adj small sample - 'most elite size/speed in Elliott's tenure') + Jekail Middlebrook (MTSU, 71.6 adj) + Xavier Brown (returning, 77.8) + Solomon Beebe (UAB, 79.5).",
+    "Replaces All-ACC J'Mari Taylor but reloaded well; runs behind an elite OL.",
+    "Multiple 72-86 adj backs (small individual samples, collectively deep).",
+    "56: a strong, deep committee; the Hawkins-anchored VT-60 is a touch more proven at the top."
+   ],
+   "key_players": [
+    {"name": "Peyton Lewis", "role": "RB1 (transfer, Tennessee)", "evidence": "76.0/71 (86.2 adj); 'most elite size/speed in Elliott's tenure'"},
+    {"name": "Jekail Middlebrook", "role": "RB (transfer, Middle Tennessee)", "evidence": "79.1/140 (71.6 adj); 'plenty of touches'"}
+   ],
+   "data_gaps": ["individual small samples", "replaces All-ACC Taylor"], "g5_guard_note": null
+  },
+  {
+   "team": "Virginia", "unit": "WRTE", "grade": 44, "confidence": "L",
+   "bracketing_exemplars": ["Ball State WRTE (p3, 53.9 table anchor)", "Missouri State WRTE (p25, 61.3 table anchor)"],
+   "rationale_bullets": [
+    "GUTTED - 'lost six of top seven receptions leaders.' All-transfer reload: Rico Flores (UCLA, 61.7 adj), Da'Shawn Martin (Kent St, 65.0), Tyson Davis (C.Mich, 67.3), Gibson (UMass, 65.8); TEs Twitty (ret) + Connor Cox (UNC, 71.1).",
+    "No proven ACC production; a mid-grade G5-transfer reload with no clear WR1.",
+    "Athlon: 'if the WRs don't pan out, the passing game flops' - the team's clear question mark.",
+    "44: above the Ball-State-p3 rail on pedigree; below the p25 on the no-production. L."
+   ],
+   "key_players": [
+    {"name": "Rico Flores Jr.", "role": "WR (transfer, UCLA)", "evidence": "63.0/226 (61.7 adj); headline WR add"},
+    {"name": "Connor Cox", "role": "TE (transfer, North Carolina)", "evidence": "68.7/62 (71.1 adj)"}
+   ],
+   "data_gaps": ["lost 6 of top 7 WRs", "all-transfer, no clear WR1"], "g5_guard_note": null
+  },
+  {
+   "team": "Virginia", "unit": "OL", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Michigan OL (p50, 65.5 table anchor)", "Virginia Tech OL 2026 (42, round peer context)"],
+   "rationale_bullets": [
+    "THE BACKBONE. Returns all 5: Boley (LT, 75.5 adj, All-ACC) + Josey (LG, 70.3, All-ACC) + Metcalf (C, 68.1) + Thomas (RG) + Mills (RT) - 'the most experienced O-line in the nation' (164-182 career starts).",
+    "Drove 2,502 rush yds in '25 (most since 2004).",
+    "Elite experience + returns-intact + 2 All-ACC; top-5 adj ~70 -> OL p60-68.",
+    "58: one of UVA's best units; tempered below elite by the mid PFF grades + PBLK p39 (pass-pro was only average)."
+   ],
+   "key_players": [
+    {"name": "McKale Boley", "role": "LT (returning, yr4-override, BOLD)", "evidence": "72.0/855 (75.5 ACC-adj); All-ACC '25"},
+    {"name": "Noah Josey", "role": "LG (returning, yr4-override, BOLD)", "evidence": "66.8/983 (70.3 adj); All-ACC '25"},
+    {"name": "Drake Metcalf", "role": "C (returning, yr4-override, BOLD)", "evidence": "64.6/911 (68.1 adj)"}
+   ],
+   "data_gaps": ["PBLK p39 (pass-pro only average despite the experience)"], "g5_guard_note": null
+  },
+  {
+   "team": "Virginia", "unit": "DL", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["East Carolina DL (p25, 60.5 table anchor)", "Virginia Tech DL 2026 (50, round peer)"],
+   "rationale_bullets": [
+    "Loses the top interior: Melton (85.8, yr4) + Carter (78.3, yr4) + Rickert/Holmes (yr4) + Osborne (->Arkansas).",
+    "Returns Camac (yr4-override, 81.8 adj - 'best pass-rusher') + Hammond (67.9) + Britton (70.6); adds a big transfer wave (Fobbs-White Baylor 71.4, Zion Wilson ECU 68.5, Anyanwu, Henry-Young).",
+    "One star + solid returners + transfer depth, having lost the two best interior linemen. PS: 'should be close to '25.'",
+    "50: mid-tier, Camac the driver; the interior losses cap it."
+   ],
+   "key_players": [
+    {"name": "Fisher Camac", "role": "DE (returning, yr4-override, BOLD)", "evidence": "80.6/428 (81.8 ACC-adj); 'best pass-rusher'"},
+    {"name": "Matthew Fobbs-White", "role": "DE (transfer, Baylor)", "evidence": "68.3/387 (71.4 adj)"},
+    {"name": "Zion Wilson", "role": "DT (transfer, East Carolina)", "evidence": "74.4/458 (68.5 adj); ECU starter, 7 sk"}
+   ],
+   "data_gaps": ["lost the top interior (Melton 85.8, Carter 78.3)", "transfer-dependent depth"], "g5_guard_note": null
+  },
+  {
+   "team": "Virginia", "unit": "LB", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest LB 2026 (48, round peer)", "UNLV LB 2025 (40, exemplar anchor)"],
+   "rationale_bullets": [
+    "'Strongest up the middle.' Kam Robinson (72.7 adj - ACC DPOY candidate, but missed 6 gms '25: collarbone + torn ACL) + Maddox Marcellus (withdrawal, 78.1 adj - 'paired as starters').",
+    "Danley + Hardy depth; loses James Jackson (yr4).",
+    "A strong returning duo (Robinson healthy is a POY; Marcellus 78.1 excellent); health is the cap.",
+    "54: above Wake-48 on the better duo; Robinson's injury history holds it below the top tier."
+   ],
+   "key_players": [
+    {"name": "Kam Robinson", "role": "LB (returning, BOLD)", "evidence": "70.6/416 (72.7 ACC-adj); ACC DPOY cand.; missed 6 gms '25"},
+    {"name": "Maddox Marcellus", "role": "LB (returning, withdrawal)", "evidence": "76.0/334 (78.1 adj); 'paired as starters'"}
+   ],
+   "data_gaps": ["Robinson's injury history (collarbone + ACL, missed 6 gms)"], "g5_guard_note": null
+  },
+  {
+   "team": "Virginia", "unit": "DB", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DB 2026 (50, round peer)", "Virginia Tech DB 2026 (60, round peer context)"],
+   "rationale_bullets": [
+    "Loses the stars: Neal (88.0, yr4, elite) + Charles (78.9, yr4) + Karnley (->Washington) + Prevard (->K-State).",
+    "Returns Minter (S, 73.1 adj) + Costner (SPUR, 72.5) + Platt (yr4-override CB, 70.6); adds Hillman (Michigan S, 76.6) + deep transfer wave (Henderson Rutgers, Jaylen Jones Ga St, Agard Wisconsin).",
+    "Elite '25 COV (p94) turned over but reloaded deep - a proven core + high-pedigree transfers. PS: 'could move up more in the PDR.'",
+    "52: ~ Wake-50 shape; below VT-60 (VT's White anchor is elite)."
+   ],
+   "key_players": [
+    {"name": "Ethan Minter", "role": "S (returning, BOLD)", "evidence": "71.9/523 (73.1 ACC-adj)"},
+    {"name": "Brandyn Hillman", "role": "S (transfer, Michigan)", "evidence": "70.3/545 (76.6 adj); 'next productive safety'"},
+    {"name": "Donavon Platt", "role": "CB (returning, yr4-override, BOLD)", "evidence": "69.4/576 (70.6 adj)"}
+   ],
+   "data_gaps": ["lost elite S Neal (88.0) + 2 starting corners", "corners heavily transfer-reloaded"], "g5_guard_note": null
+  },
+  {
+   "team": "Virginia", "unit": "ST", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest ST 2026 (54, round peer)", "Virginia Tech ST 2026 (50, round peer)"],
+   "rationale_bullets": [
+    "K Will Bettridge + P Daniel Sparks - both 'trusted fifth-year starters' returning. KR Beebe + PR Gibson.",
+    "SPEC was p63 in '25 (above average).",
+    "Two proven, veteran specialists returning - both kicking jobs settled. ST driven by specialists (calib).",
+    "54: clearly above average; the settled veteran specialists the assets."
+   ],
+   "key_players": [
+    {"name": "Will Bettridge", "role": "K (returning)", "evidence": "trusted 5th-yr starter"},
+    {"name": "Daniel Sparks", "role": "P (returning)", "evidence": "trusted 5th-yr starter"}
+   ],
+   "data_gaps": ["return game reshuffled to transfers"], "g5_guard_note": null
+  }
+ ]
+}
