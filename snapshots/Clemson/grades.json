@@ -1,0 +1,151 @@
+{
+ "team": "Clemson",
+ "units": {
+  "QB": {"grade": 48, "confidence": "L"},
+  "RB": {"grade": 52, "confidence": "M"},
+  "WRTE": {"grade": 56, "confidence": "M"},
+  "OL": {"grade": 48, "confidence": "L"},
+  "DL": {"grade": 58, "confidence": "M"},
+  "LB": {"grade": 54, "confidence": "M"},
+  "DB": {"grade": 54, "confidence": "M"},
+  "ST": {"grade": 56, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18 (3bec049)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape, arrivals on origin cells; HC Swinney no change; disposition gate resolved before grading - NFL exodus adjudicated vs both charts, 4 junior declares confirmed); anchor values not consulted",
+  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 48/RB 52/WRTE 56/OL 48/DL 58/LB 54/DB 54/ST 56)."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB 45, WRTE 75, OL 48, DL 86, LB 61, DB 84, ST 79) keys as-played 2025 tape; much of the elite defensive tape (Woods/Parker/Terrell) is NFL-gone.",
+   "QB": "48 - proxy None (Klubnik gone); graded on Vizzina's thin 81-snap sample + pedigree.",
+   "DL": "-28 vs proxy 86 - proxy keys the elite '25 front (incl. NFL-gone Woods/Parker); the grade keys the returning Heldt (elite) + transfers.",
+   "DB": "-30 vs proxy 84 - proxy keys the elite '25 secondary (incl. NFL-gone Terrell); the grade keys transfer Myrick (83.7) + Hampton + reload.",
+   "WRTE": "-19 vs proxy 75 - proxy includes NFL-gone Antonio Williams; the grade keys the returning future-pros Moore + Wesco."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Clemson", "unit": "QB", "grade": 48, "confidence": "L",
+   "bracketing_exemplars": ["Virginia Tech QB 2026 (48, round peer)", "New Mexico QB 2025 (34, exemplar anchor context)"],
+   "rationale_bullets": [
+    "Christopher Vizzina (former top-100, 3 years as Klubnik's backup) is the favorite to start - 54.1/81 (56.2 adj), limited to 105 career attempts, 'solid in his first start vs SMU.'",
+    "Klubnik (76.5, the star, 33-6 TD-INT) GONE to the NFL. Backup true-Fr Reynolds.",
+    "An unproven QB1 at a top program - the pedigree + strong supporting cast lift the floor, but 81 snaps is thin. Swinney's 'significant gamble.'",
+    "48: the swing of Clemson's season; ~ Virginia Tech QB 48. L (unproven)."
+   ],
+   "key_players": [
+    {"name": "Christopher Vizzina", "role": "QB1 (returning)", "evidence": "54.1/81 (56.2 adj); former top-100; 3-yr backup; unproven"}
+   ],
+   "data_gaps": ["81-snap sample (105 career attempts)", "Klubnik's elite production leaves"], "g5_guard_note": null
+  },
+  {
+   "team": "Clemson", "unit": "RB", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["California RB 2026 (46, round peer)", "Virginia RB 2026 (56, round peer)"],
+   "rationale_bullets": [
+    "Gideon Davidson (returning, 74.6 adj, small sample - former top recruit) + Chris Johnson Jr. (SMU, 76.5 adj, small sample) - 'a strong 1-2 punch.'",
+    "Lost Adam Randall (yr4).",
+    "Two talented backs on small samples behind a rebuilt OL.",
+    "52: the talent argues up; the samples + OL rebuild temper it."
+   ],
+   "key_players": [
+    {"name": "Gideon Davidson", "role": "RB1 (returning)", "evidence": "69.7/60 (74.6 ACC-adj); former top recruit"},
+    {"name": "Chris Johnson Jr.", "role": "RB (transfer, SMU)", "evidence": "71.6/67 (76.5 adj)"}
+   ],
+   "data_gaps": ["both small samples", "OL rebuild"], "g5_guard_note": null
+  },
+  {
+   "team": "Clemson", "unit": "WRTE", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["California WRTE 2026 (54, round peer)", "Houston WRTE (78, exemplar anchor context)"],
+   "rationale_bullets": [
+    "Two future pros return: Bryant Wesco (77.2 adj) + T.J. Moore (73.2) + Tyler Brown + TEs Patt-Henry + Bentancur (66.4).",
+    "Lost Antonio Williams (80.3, NFL).",
+    "A genuinely strong room even without Williams - two future-pro WRs + TE depth. Top-2 adj ~75 -> WRTE p65+.",
+    "56: the future-pro top-end; above California WRTE 54."
+   ],
+   "key_players": [
+    {"name": "Bryant Wesco Jr.", "role": "WR (returning, BOLD)", "evidence": "74.8/205 (77.2 ACC-adj); 'future pro'"},
+    {"name": "T.J. Moore", "role": "WR (returning, BOLD)", "evidence": "70.8/404 (73.2 adj); 'future pro'"}
+   ],
+   "data_gaps": ["lost Antonio Williams (80.3, NFL)"], "g5_guard_note": null
+  },
+  {
+   "team": "Clemson", "unit": "OL", "grade": 48, "confidence": "L",
+   "bracketing_exemplars": ["California OL 2026 (44, round peer)", "Michigan OL (p50, 65.5 table anchor context)"],
+   "rationale_bullets": [
+    "Replaces 3 of 5 - lost Miller (elite T, NFL) + Linthicum (C) + Leigh (T), all yr4.",
+    "Returns Sewell (C, 63.8 adj) + Sadler (G, 60.2) + Brayden Jacobs (LT, 75.4 - a bright spot); young Thurmon + Fr Ware.",
+    "2-3 returners + young/inexperienced pieces at a top program - 'seeking consistency.'",
+    "48: more pedigree than a typical rebuild; the inexperience + lost-Miller cap it. L."
+   ],
+   "key_players": [
+    {"name": "Brayden Jacobs", "role": "LT (returning)", "evidence": "71.9/362 (75.4 ACC-adj); young but good grade"},
+    {"name": "Harris Sewell", "role": "C (returning, BOLD)", "evidence": "60.3/641 (63.8 adj)"}
+   ],
+   "data_gaps": ["lost 3 of 5 starters (incl. elite Miller, NFL)", "young/inexperienced"], "g5_guard_note": null
+  },
+  {
+   "team": "Clemson", "unit": "DL", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest DL 2026 (58, round peer)", "East Carolina DL (p25, 60.5 table anchor context)"],
+   "rationale_bullets": [
+    "Will Heldt (85.6 adj - ELITE, 'turned down the draft to come back') + Jahiem Lawson (78.9) + Vic Burley + transfers Merritt (Colorado, 75.6) + Markus Strong (Okla, 69.6) + Woods (Texas St, 67.7).",
+    "Lost Peter Woods (72.3) + T.J. Parker (80.6) - both NFL.",
+    "An elite anchor + a quality returner + a deep transfer wave. PS: 'better than expected, better depth.'",
+    "58: Heldt elite; the two NFL losses shave it. ~ Wake Forest DL 58."
+   ],
+   "key_players": [
+    {"name": "Will Heldt", "role": "DE (returning, BOLD)", "evidence": "84.4/579 (85.6 ACC-adj); ELITE; 'turned down the draft'"},
+    {"name": "Jahiem Lawson", "role": "DE (returning)", "evidence": "77.7/300 (78.9 adj)"},
+    {"name": "London Merritt", "role": "EDGE (transfer, Colorado)", "evidence": "72.5/323 (75.6 adj)"}
+   ],
+   "data_gaps": ["lost Woods + Parker (both NFL)", "interior transfer-dependent"], "g5_guard_note": null
+  },
+  {
+   "team": "Clemson", "unit": "LB", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Virginia LB 2026 (54, round peer)", "UNLV LB 2025 (40, exemplar anchor context)"],
+   "rationale_bullets": [
+    "Sammy Brown (72.1 adj - the star, ACC DROY '24) + Kobe McCloud (75.1) + Jeremiah Alexander (69.9, ex-Bama 5-star).",
+    "Lost Woodaz (NFL) + Crayton/Anderson (portal).",
+    "A star + a high-graded returner + a former 5-star; talented and deep.",
+    "54: Brown the anchor; ~ Virginia LB 54."
+   ],
+   "key_players": [
+    {"name": "Sammy Brown", "role": "MLB (returning, BOLD)", "evidence": "70.0/733 (72.1 ACC-adj); star, ACC DROY '24"},
+    {"name": "Kobe McCloud", "role": "WLB (returning)", "evidence": "73.0/233 (75.1 adj)"}
+   ],
+   "data_gaps": ["lost Woodaz (NFL)"], "g5_guard_note": null
+  },
+  {
+   "team": "Clemson", "unit": "DB", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Virginia DB 2026 (52, round peer)", "Virginia Tech DB 2026 (60, round peer context)"],
+   "rationale_bullets": [
+    "Reloaded high: Corey Myrick (S.Miss, 83.7 adj - elite S) + Jerome Carter III (ODU, 72.6) + Ashton Hampton (returning CB, 71.9) + Elliot Washington (PSU, 70.7) + Starr (Auburn, tiny).",
+    "Lost Avieon Terrell (83.5, NFL) + Jones/Barnes (portal).",
+    "An elite S transfer + a proven ODU S + a returning CB - 'longer, faster, more experienced' (PS).",
+    "54: Myrick's elite grade; above Virginia DB 52."
+   ],
+   "key_players": [
+    {"name": "Corey Myrick", "role": "S (transfer, Southern Miss)", "evidence": "87.3/714 (83.7 adj); elite S"},
+    {"name": "Ashton Hampton", "role": "CB (returning, BOLD)", "evidence": "70.7/704 (71.9 ACC-adj)"},
+    {"name": "Jerome Carter III", "role": "S (transfer, Old Dominion)", "evidence": "76.2/707 (72.6 adj)"}
+   ],
+   "data_gaps": ["lost elite CB Terrell (NFL)", "corners transfer-heavy"], "g5_guard_note": null
+  },
+  {
+   "team": "Clemson", "unit": "ST", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest ST 2026 (54, round peer)", "Boston College ST 2026 (52, round peer)"],
+   "rationale_bullets": [
+    "K Nolan Hauser (returning starter - a top kicker, 56-yd FG vs SMU) + P Jack Smith (returning, 42.1 net).",
+    "SPEC p79. Both jobs settled; the return game is a competition.",
+    "Two proven returning specialists off a p79 base. ST driven by specialists (calib).",
+    "56: clearly above average - Hauser one of the better kickers."
+   ],
+   "key_players": [
+    {"name": "Nolan Hauser", "role": "K (returning)", "evidence": "returning starter; 56-yd FG vs SMU; top kicker"},
+    {"name": "Jack Smith", "role": "P (returning)", "evidence": "42.1 net"}
+   ],
+   "data_gaps": ["return game reshuffled (top KR/PR graduated)"], "g5_guard_note": null
+  }
+ ]
+}

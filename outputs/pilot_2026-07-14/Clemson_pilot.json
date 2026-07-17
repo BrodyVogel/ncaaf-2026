@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T22:55:49+00:00",
+ "team": "Clemson",
+ "final": 9.5,
+ "rank": 29,
+ "band": 6.36,
+ "resid": -9.98,
+ "adj": -3.49,
+ "class_term": -0.0,
+ "st": 0.12,
+ "anchor_blend": 12.36,
+ "resid_level": -6.52,
+ "resid_shape": -3.46,
+ "implied_off": 26.09,
+ "implied_def": 24.02,
+ "anchor_off": 29.28,
+ "anchor_def": 17.22,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.61
+ },
+ "low_conf_units": 2,
+ "code_rev": "3bec049",
+ "mode": "PILOT-OOS"
+}
