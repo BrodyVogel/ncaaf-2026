@@ -1,0 +1,36 @@
+{
+ "id": 328,
+ "school": "Utah State",
+ "mascot": "Aggies",
+ "abbreviation": "USU",
+ "alternateNames": [
+  "USU",
+  "Utah State"
+ ],
+ "conference": "Pac-12",
+ "division": null,
+ "classification": "fbs",
+ "color": "#00263a",
+ "alternateColor": "#949ca1",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/328.png"
+ ],
+ "twitter": "@USUFootball",
+ "location": {
+  "id": 3905,
+  "name": "Maverik Stadium",
+  "city": "Logan",
+  "state": "UT",
+  "zip": "84322",
+  "countryCode": "US",
+  "timezone": "America/Denver",
+  "latitude": 41.7517394,
+  "longitude": -111.8116007,
+  "elevation": "1427.914429",
+  "capacity": 25513,
+  "constructionYear": 1968,
+  "grass": false,
+  "dome": false
+ }
+}

@@ -1,0 +1,48 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,McCae Hillstead,JR,transfer:BYU,transferred back to USU; prior USU starts (399 vs JMU); 5 snaps 62.5 (B12, tiny)
+QB,QB,2,Grady Brosterhous,SR,transfer:Virginia,ACC; battle
+RB,RB,1,Javen Jacobs,SR,returning,202 att 73.2 (64.3 MWC-adj); BOLD; also KR/PR weapon
+RB,RB,1,Sesi Vailahi,SO,transfer:Oklahoma State,B12 RB
+RB,RB,2,Noah White,SO,returning,depth; also KR
+WRTE,WR,1,Anthony Garcia,JR,returning,245 routes 62.0 (58.3 MWC-adj); top returning WR
+WRTE,WR,1,Eli Wood,SR,transfer:Virginia,ACC; "finished strong last season"
+WRTE,WR,1,Demick Starling,SR,returning,returning WR; limited tape
+WRTE,WR,2,Rex Haynes,JR,transfer:Arizona,B12 WR
+WRTE,WR,2,Javon Robinson,SR,transfer:Georgia State,SBC WR
+WRTE,WR,2,L.J. Johnson Jr.,SO,transfer:Texas State,SBC WR; xref closed
+WRTE,TE,1,Kache Kaio,JR,returning,returning TE
+WRTE,TE,2,Collin Remenowsky,SR,transfer:Ashland,D2 TE (no cell)
+OL,LG,1,George Maile,SR,returning,899 snaps 54.7 (44.6 MWC-adj); BOLD
+OL,C,1,Jimmy Liston,JR,returning,895 snaps 67.0 (56.9 adj); BOLD
+OL,RG,1,Tavo Motu'apuaka,SR,returning,832 snaps 58.8 (48.7 adj); BOLD
+OL,LT,1,John Randle Jr.,SO,transfer:Purdue,B10 OT; projected LT
+OL,RT,1,Seth Wilfred,JR,transfer:Auburn,SEC OT; projected RT
+OL,G,2,Kadin Lynch,SR,transfer:William & Mary,FCS IOL (no cell)
+OL,G,2,K'leyone Iosua,JR,returning,158 snaps 53.3 (43.2 adj)
+DL,DE,1,Tyree Morris,SR,returning,661 snaps 62.2 (60.0 MWC-adj); BOLD
+DL,DE,1,Carson Tujague,SO,returning,719 snaps 58.4 (56.2 adj); BOLD
+DL,NT,1,Ta'avili Tuitama,SR,transfer,NT; projected starter
+DL,DT,2,Kasen Long,SO,transfer:Texas Tech,B12 DL
+DL,DT,2,Ronnie Mageo,SO,transfer:Baylor,B12 DL
+DL,DE,2,Adonis Jackson,SR,transfer:Mississippi Valley State,FCS edge (no cell)
+DL,DT,2,Quincy Wright,JR,transfer:Arkansas State,SBC DL
+DL,NT,2,Tevita Tuha,JR,returning,152 snaps 57.2 (55.0 adj)
+LB,BUCK,1,Bronson Olevao Jr.,SR,returning,876 snaps 60.9 (56.2 MWC-adj); BOLD
+LB,SLB,1,Chris Joe,SO,returning,581 snaps 64.0 (59.3 adj); BOLD
+LB,MLB,1,Harrison Taggart,SR,transfer:California,ACC LB; projected MLB
+LB,WLB,1,James Jennette,SR,transfer:Virginia Tech,ACC LB; projected WLB
+LB,LB,2,Mataira Brown,JR,returning,384 snaps 61.9 (57.2 adj)
+LB,LB,2,Asher Cunningham,JR,transfer:Elon,FCS LB (no cell)
+DB,BS,1,Brevin Hamblin,SR,returning,944 snaps 62.9 (60.5 MWC-adj); BOLD
+DB,S,1,Noah Flores,JR,returning,375 snaps 71.4 (69.0 adj); returning starter
+DB,NB,1,Bobby Arnold,SR,returning,190 snaps 65.7 (63.3 adj)
+DB,CB,1,Antonio Bluiett,SR,transfer:North Dakota,FCS CB (no cell)
+DB,CB,1,Markie Grant,SO,transfer:Wyoming,MWC CB; xref closed
+DB,FS,1,Chapman Lewis,JR,transfer:Texas Tech,B12 S
+DB,CB,2,D'Angelo Mayes,JR,returning,370 snaps 61.3 (58.9 adj)
+DB,S,2,Kye Stokes,SR,transfer:Cincinnati,B12 S
+DB,S,2,Steven Sannieniola,SO,transfer:Vanderbilt,SEC S
+ST,K,1,Kian Afrookhteh,SR,transfer:Coastal Carolina,HM All-SBC kicker
+ST,P,1,Landon Rehkow,JR,returning,42.9 avg; returns; good
+ST,LS,1,Hyrum Hatch,SO,returning,2024 Freshman All-American LS
+ST,KR,1,Javen Jacobs,SR,returning,return weapon

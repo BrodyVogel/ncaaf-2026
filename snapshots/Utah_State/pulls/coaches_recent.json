@@ -1,0 +1,65 @@
+[
+ {
+  "firstName": "Blake",
+  "lastName": "Anderson",
+  "hireDate": "2020-12-12T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Utah State",
+    "year": 2024,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -11.7,
+    "spOverall": -10.4,
+    "spOffense": 30.2,
+    "spDefense": 40.3
+   }
+  ]
+ },
+ {
+  "firstName": "Nate",
+  "lastName": "Dreiling",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Utah State",
+    "year": 2024,
+    "games": 12,
+    "wins": 4,
+    "losses": 8,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -11.7,
+    "spOverall": -10.4,
+    "spOffense": 30.2,
+    "spDefense": 40.3
+   }
+  ]
+ },
+ {
+  "firstName": "Bronco",
+  "lastName": "Mendenhall",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Utah State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -1.9,
+    "spOverall": -3.1,
+    "spOffense": 29.5,
+    "spDefense": 31.2
+   }
+  ]
+ }
+]

@@ -1,0 +1,42 @@
+{
+ "team": "Utah State",
+ "conference": "Pac-12",
+ "created_utc": "2026-07-17T16:19:48+00:00",
+ "assembler_git_rev": "e987f1e",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Bronco Mendenhall, Athlon 'Record at School: 6-7 (1 year)' -> YEAR 2 -> NO coach change (band x1.00). Career 146-95 (19 yrs). NEW OC Robert Anae (longtime Mendenhall OC); DC Nick Howell. A Year-2 portal overhaul (29 transfers in).",
+ "conference_note": "EX-MWC (6-7, 4-4) -> Pac-12 2026. R14: MWC cells on returning tape (QB -7.35, RB -8.95, WRTE -3.70, OL -10.08, DL -2.19, LB -4.74, DB -2.43). Arrivals on origin cells: Hillstead BYU/B12, Randle Purdue/B10, Wilfred Auburn/SEC, Wood Virginia/ACC, Haynes Arizona/B12, Taggart Cal/ACC, Jennette VT/ACC, Lewis+Long+Stokes/B12, Kabongo+Vailahi OkSt/B12, Sannieniola Vandy/SEC, Grant Wyoming/MWC, Robinson+Wright/SBC. FCS/D2 arrivals = no cell (evidence-only): Bluiett (NDak), Cunningham (Elon), A.Jackson (MVSU), Lynch (W&M), Remenowsky (Ashland), Masdea (Shippensburg).",
+ "portal_departure_confirmed": [
+  "Enoka Migao"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Will Holmes"
+ ],
+ "known_name_exceptions": {
+  "Will Holmes": "DL, PFF tape 'Will Holmes' (64.9/489), but the out-feed has 'William Holmes | EDGE -> Illinois' -> same player, GONE. The ledger defaulted RETURNS on the name-form mismatch; NOT in the 2026 two-deep. Documented as departure_confirmed_research.",
+  "Bryson Barnes": "QB, yr4, the '25 starter, NOT in the two-deep (QB is Hillstead*) -> GONE. 483 snaps 76.6.",
+  "Miles Davis": "RB, yr4, NOT in the two-deep -> GONE. 228 att 76.0; the yr4 co-lead.",
+  "Brady Boyd": "WR, yr4, NOT in the two-deep -> GONE. 476 routes 69.4; the top WR.",
+  "John Miller": "LB, yr4, NOT in the two-deep -> GONE. 935 snaps 78.1; the defensive standout (the biggest single loss).",
+  "Gabriel Iniguez Jr.": "DL, yr4, NOT in the two-deep -> GONE. 782 snaps 67.2.",
+  "Noah Avinger": "S, yr4, NOT in the two-deep -> GONE. 897 snaps 78.4; the best DB.",
+  "Dylan Tucker": "S, yr4, NOT in the two-deep -> GONE. 599 snaps 71.5.",
+  "Ike Larsen": "S, yr4, NOT in the two-deep -> GONE. 559 snaps 69.4.",
+  "Bryson Taylor": "DB, yr4, NOT in the two-deep -> GONE. 513 snaps 67.8.",
+  "McCae Hillstead": "QB1 transfer (from BYU, 'transferred back to USU'); prior USU starts (399 vs JMU); 5 recent snaps 62.5 - graded as a pedigree/limited-recent-tape transfer.",
+  "Javen Jacobs": "RB1 returns (BOLD); 202 att 73.2 -> 64.3 MWC-adj; also the KR/PR weapon."
+ },
+ "feed_gap_arrivals_documented": [],
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon 2026 depth chart",
+  "29-transfer overhaul: many projected starters (Hillstead, Randle, Wilfred, Tuitama, Taggart, Jennette, Bluiett, Lewis, Starling) have no USU tape - heavy projection",
+  "QB1 (Hillstead) has little recent tape (graded L)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}
