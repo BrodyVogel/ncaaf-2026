@@ -1,0 +1,31 @@
+{
+ "team": "Virginia Tech",
+ "conference": "ACC",
+ "created_utc": "2026-07-17T19:54:49+00:00",
+ "assembler_git_rev": "4a82e5e",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC James Franklin (Record at School: First Season; career 128-60; fired at Penn State mid-2025). Brent Pry (fired as VT HC Sept 2025) retained as DC; OC Ty Howle. Verified twice (Athlon + PS). Band x1.13 (HC-only change).",
+ "conference_note": "ACC (P4). R14: ACC cells POSITIVE on returning tape (QB +2.08, RB +4.90, WRTE +2.36, OL +3.54, DL +1.19, LB +2.13, DB +1.18). Arrivals keyed to origin cell: Grunkemeyer+Reynolds+Wylie+Woseley+Mylachi Williams+Troutman PSU/B10; Baker UNC/ACC; Bill Davis Louisiana/SBC; Que'Sean Brown Duke/ACC; Marlion Jackson LA Tech/CUSA; Howland Oklahoma/B12; Terry+Mensah OSU/B10; Curtis Jones WVU/B12; Okunlola Colorado/B12; Hilson Missouri/SEC; Jaquez White Troy/SBC; Cam Chadwick UConn/IND; Nathan Totten Marshall/SBC. NOTE: B10 LB cell (+16.10) inflates Wylie (62.9->79.0) - weighted modestly (215-snap backup, not credited as elite).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": ["Marcellous Hawkins", "Montavious Cunningham", "Elhadj Fall"],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Marcellous Hawkins": "RB, yr4, but Athlon BOLD RB1 (Sr.) + PS RB1 on the 2026 chart -> RETURNS (yr4_return_override). 86.0/181, 6.35 ypc (5th ACC).",
+  "Montavious Cunningham": "OL, yr4, but Athlon RT1 (Sr.) + PS starter (Sr., '15 st 2Y at GaSt') -> RETURNS (yr4_return_override). 55.0/233.",
+  "Elhadj Fall": "DT, yr4, but Athlon DT starter (Sr.) + PS -> RETURNS (yr4_return_override). 63.0/475.",
+  "Kyron Drones": "QB, 2025 starter (1,919 yds), yr4 (CFBD year 4), NOT on either 2026 depth chart (both project transfer Grunkemeyer QB1 + Fr transfer Baker QB2). GONE (roster attrition); classed EXPIRED(yr4). No destination asserted."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 depth charts",
+  "NEW HC Franklin -> massive roster overhaul (27 in / 27 out, ~12 Penn State transfers); heavy first-year-system projection risk",
+  "2025 was 3-9 under a lame-duck staff (Pry fired 0-3, Montgomery interim); many bad-unit 2025 bases (OL PBLK p4, COV p5) projected up on personnel",
+  "several key transfers have tiny VT samples (Mensah 12, Mylachi Williams 35 snaps) - treated as depth, not credited on sample"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T00:00:00+00:00"
+}

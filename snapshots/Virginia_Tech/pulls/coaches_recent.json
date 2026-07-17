@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Brent",
+  "lastName": "Pry",
+  "hireDate": "2021-11-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Virginia Tech",
+    "year": 2024,
+    "games": 13,
+    "wins": 6,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 10.4,
+    "spOverall": 10,
+    "spOffense": 31.3,
+    "spDefense": 22.4
+   }
+  ]
+ },
+ {
+  "firstName": "Brent",
+  "lastName": "Pry",
+  "hireDate": "2021-11-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Virginia Tech",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -4.1,
+    "spOverall": -10.1,
+    "spOffense": 21.4,
+    "spDefense": 30.8
+   }
+  ]
+ }
+]

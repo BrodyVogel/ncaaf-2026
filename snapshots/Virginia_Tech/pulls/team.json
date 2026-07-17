@@ -1,0 +1,36 @@
+{
+ "id": 259,
+ "school": "Virginia Tech",
+ "mascot": "Hokies",
+ "abbreviation": "VT",
+ "alternateNames": [
+  "VT",
+  "Virginia Tech"
+ ],
+ "conference": "ACC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#630031",
+ "alternateColor": "#cf4520",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/259.png"
+ ],
+ "twitter": "@VT_Football",
+ "location": {
+  "id": 3799,
+  "name": "Lane Stadium",
+  "city": "Blacksburg",
+  "state": "VA",
+  "zip": "24061",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 37.2199873,
+  "longitude": -80.4180643,
+  "elevation": "632.2631226",
+  "capacity": 65632,
+  "constructionYear": 1965,
+  "grass": true,
+  "dome": false
+ }
+}

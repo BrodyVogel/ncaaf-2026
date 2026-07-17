@@ -1,0 +1,44 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Ethan Grunkemeyer,QB,SO,transfer:Penn State,Athlon,PS,H,68.5 raw (B10 +0.55 -> 69.1 adj); 777 yds 6TD 0INT final 4 gms '25; came w/ Franklin
+QB,2,Bryce Baker,QB,FR,transfer:North Carolina,Athlon,PS,M,true-Fr transfer; QB2
+RB,1,Marcellous Hawkins,RB,SR,returning,Athlon,PS,H,86.0/181 (ACC +4.90 -> 90.9 adj); 6.35 ypc 5th ACC; yr4_return_override; BOLD
+RB,2,Bill Davis,RB,JR,transfer:Louisiana,Athlon,PS,H,76.1/158 (SBC -2.02 -> 74.1 adj); 796 & 763 rush yds last 2 yrs
+RB,3,Jeffrey Overton Jr.,RB,FR,returning,Athlon,PS,M,true-Fr 146 yds '25; depth
+WRTE,1,Ayden Greene,WR,SR,returning,Athlon,PS,H,63.2/325 (ACC +2.36 -> 65.6 adj); returning top WR (516 yds); BOLD
+WRTE,2,Que'Sean Brown,WR,JR,transfer:Duke,Athlon,PS,H,71.8/397 (ACC +2.36 -> 74.2 adj); 846 yds 5TD at Duke; also PR
+WRTE,3,Takye Heath,WR,JR,returning,Athlon,PS,M,60.4/169 (62.8 adj); BOLD returning
+WRTE,4,Luke Reynolds,TE,JR,transfer:Penn State,Athlon,PS,M,62.8/208 (B10 -1.26 -> 61.5 adj); former 5-star TE
+WRTE,5,Benji Gosnell,TE,SR,returning,Athlon,PS,M,50.0/147; BOLD returning TE
+WRTE,6,Marlion Jackson,WR,SR,transfer:Louisiana Tech,Athlon,PS,L,56.0/212 (CUSA -4.19 -> 51.8 adj)
+OL,1,Kyle Altuner,C,SO,returning,Athlon,PS,H,58.5/793 (ACC +3.54 -> 62.0 adj); BOLD; "locks down the middle"
+OL,2,Layth Ghannam,LG,JR,returning,Athlon,PS,M,55.0/598 (58.5 adj); BOLD
+OL,3,Johnny Garrett,RG,SR,returning,Athlon,PS,M,49.2/619 (52.7 adj); BOLD
+OL,4,Aidan Lynch,RT,SO,returning,Athlon,PS,M,45.6/683 (49.1 adj); BOLD
+OL,5,Logan Howland,LT,JR,transfer:Oklahoma,Athlon,PS,M,60.0/221 (B12 +8.45 -> 68.5 adj); best OL piece
+OL,6,Montavious Cunningham,RT,SR,returning,Athlon,PS,M,55.0/233 (58.5 adj); yr4_return_override; "15 st 2Y at GaSt"
+OL,7,Justin Terry,T,SO,transfer:Ohio State,Athlon,PS,L,62.1/57 (B10 -1.29 -> 60.8 adj; tiny)
+OL,8,Brody Meadows,RG,SR,returning,Athlon,,L,depth RG
+DL,1,Kemari Copeland,DT,SR,returning,Athlon,PS,H,75.3/471 (ACC +1.19 -> 76.5 adj); "NFL grades"; 7.5 TFL 4.5 sk; BOLD
+DL,2,Elhadj Fall,DT,SR,returning,Athlon,PS,M,63.0/475 (64.2 adj); yr4_return_override
+DL,3,Aycen Stevens,DE,JR,returning,Athlon,PS,M,60.6/193 (61.8 adj)
+DL,4,Jason Abbey,DE,JR,returning,Athlon,PS,M,73.6/196 (74.8 adj)
+DL,5,Emmett Laws,DT,SO,returning,Athlon,PS,M,72.3/161 (73.5 adj)
+DL,6,Mylachi Williams,DE,SO,transfer:Penn State,Athlon,PS,L,66.6/35 (B10 +10.38 -> 77.0 adj; tiny sample)
+DL,7,Eric Mensah,DT,SO,transfer:Ohio State,Athlon,PS,L,79.5/12 (tiny sample)
+DL,8,Curtis Jones Jr.,EDGE,JR,transfer:West Virginia,Athlon,PS,M,56.6/253 (B12 +3.12 -> 59.7 adj)
+LB,1,Kaleb Spencer,LB,SR,returning,Athlon,PS,M,58.4/373 (ACC +2.13 -> 60.5 adj); #1 tackler; BOLD
+LB,2,Noah Chambers,LB,SO,returning,Athlon,PS,M,53.5/283 (55.6 adj); "all-conf caliber"; BOLD
+LB,3,Keon Wylie,LB,JR,transfer:Penn State,Athlon,PS,M,62.9/215 (B10 +16.10 -> 79.0 adj; offset-inflated, weight modestly)
+LB,4,George Ballance,LB,JR,returning,Athlon,PS,L,depth
+DB,1,Jaquez White,CB,JR,transfer:Troy,Athlon,PS,H,87.4/879 (SBC -3.62 -> 83.8 adj); ELITE corner, huge sample
+DB,2,Isaiah Brown-Murray,CB,SR,returning,Athlon,PS,H,74.1/694 (ACC +1.18 -> 75.3 adj); BOLD
+DB,3,Thomas Williams,CB,JR,returning,Athlon,PS,H,71.6/561 (72.8 adj); also KR
+DB,4,Cam Chadwick Jr.,CB,JR,transfer:UConn,Athlon,PS,M,75.0/862 (IND -2.92 -> 72.1 adj); huge sample
+DB,5,Quentin Reddish,S,SO,returning,Athlon,PS,M,73.5/110 (74.7 adj); back from shoulder; BOLD
+DB,6,Tyson Flowers,S,SR,returning,Athlon,PS,M,63.8/617 (65.0 adj); BOLD
+DB,7,Kenny Woseley Jr.,CB,SO,transfer:Penn State,Athlon,PS,M,64.4/238 (B10 +6.33 -> 70.7 adj); nickel
+DB,8,Jordan Bass,S,SR,returning,Athlon,PS,L,48.5/390; depth S
+ST,1,John Love,K,SR,returning,Athlon,PS,H,elite career (84.4% FG, 2x All-ACC HM, five 50+); 15-20 '25 (down yr)
+ST,2,Nathan Totten,P,JR,transfer:Marshall,Athlon,PS,M,40.4 net; 2nd-tm SBC
+ST,3,Thomas Williams,KR,JR,returning,Athlon,PS,M,KR
+ST,4,Que'Sean Brown,PR,JR,transfer:Duke,Athlon,PS,M,PR
