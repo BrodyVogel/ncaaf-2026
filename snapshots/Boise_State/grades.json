@@ -1,0 +1,153 @@
+{
+ "team": "Boise State",
+ "units": {
+  "QB": {"grade": 32, "confidence": "M"},
+  "RB": {"grade": 50, "confidence": "M"},
+  "WRTE": {"grade": 14, "confidence": "L"},
+  "OL": {"grade": 20, "confidence": "M"},
+  "DL": {"grade": 50, "confidence": "M"},
+  "LB": {"grade": 30, "confidence": "M"},
+  "DB": {"grade": 46, "confidence": "M"},
+  "ST": {"grade": 44, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-17",
+  "snapshot_rev": "frozen 2026-07-17 (958082e)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; archetype-watch applied per calibration_opus_2026-07-17.md); anchor values not consulted",
+  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 12, RB 40, WRTE 4, OL 17, DL 43, LB 31, DB 58, ST 60)",
+   "DB": "-12 vs proxy 58 - proxy keys COV p86 tape that belonged to 4 DEPARTED starters (carryover inflation); the reload is good (JeRico Washington 72.7 adj) but not p58",
+   "QB": "+20 vs proxy 12 - a 3-yr starter (23-6) is above the raw-grade floor the proxy keys",
+   "RB": "+10 vs proxy 40 - two proven backs (Gaines 77.3, Riley 70.0 adj) aggregate above the proxy"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Boise State", "unit": "QB", "grade": 32, "confidence": "M",
+   "bracketing_exemplars": ["Florida International QB 2025 (15, exemplar anchor)", "Illinois RB 2025 (32, exemplar anchor)"],
+   "rationale_bullets": [
+    "Madsen returns for a 3rd year as starter: 3,018 @ 62% (23-6) + 221 rush in 2025, on 369 snaps (68.4 -> 61.1 MWC-adj); missed 4 games hurt and is 0-4 vs Power 4.",
+    "adj 61.1 maps ~QB p22, but a proven 3-yr starter with a 23-6 TD-INT ratio and real insurance (Cutforth, PS#2 VHT, MW title-game MVP in relief) grades above that floor.",
+    "The opposing-coach read is continuity ('gonna be massive'); the cap is the P4 win-drought and MWC-adjusted grade.",
+    "32: < UNM 34 (Layne 65.8 adj) and Hawai'i 38 (Alejado 69.3 adj) on tape; well above the thin/FCS MWC-round rooms."
+   ],
+   "key_players": [
+    {"name": "Maddux Madsen", "role": "QB1 (returning)", "evidence": "68.4/369 (61.1 adj); 3,018 @ 62% 23-6; 3rd-yr starter"},
+    {"name": "Max Cutforth", "role": "QB2 (returning)", "evidence": "54.7/196; PS#2 VHT; MW title-game MVP relief"}
+   ],
+   "data_gaps": ["Madsen injury recurrence", "0-4 vs P4 ceiling"], "g5_guard_note": null
+  },
+  {
+   "team": "Boise State", "unit": "RB", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40, exemplar anchor)", "Wake Forest DL 2025 (60, exemplar anchor)"],
+   "rationale_bullets": [
+    "Both leading backs return: Riley (78.9/193 att -> 70.0 adj; 1,125 @ 5.8) + Gaines (86.2/162 -> 77.3 adj; 811 @ 5.0 as a true Fr) - combined 1,977 rush yds.",
+    "Aggregate ~74 adj maps ~RB p48-52, behind an elite run scheme (RUN p83, RBLK p70).",
+    "Real portal depth: Sherrod (60.5 adj, yr4 override), Goff (Pitt 73.8 ACC-adj), Stewart (Kansas). 'Yet another highly productive year' (PS).",
+    "50: the best offensive unit on the roster; > every MWC-round RB room; = the Utah-RB tier top."
+   ],
+   "key_players": [
+    {"name": "Sire Gaines", "role": "RB1 (returning)", "evidence": "86.2/162 att (77.3 adj); 811 @ 5.0 as true Fr"},
+    {"name": "Dylan Riley", "role": "RB (returning)", "evidence": "78.9/193 att (70.0 adj); 1,125 @ 5.8"}
+   ],
+   "data_gaps": ["carry split unresolved"], "g5_guard_note": null
+  },
+  {
+   "team": "Boise State", "unit": "WRTE", "grade": 14, "confidence": "L",
+   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6, exemplar anchor)", "Florida International QB 2025 (15, exemplar anchor)"],
+   "rationale_bullets": [
+    "The top 4 pass-catchers all depart (Caples 59.8/412, Marshall 62.4/310 -> Ark, Penry 65.0/228 yr4, TE Lauter 49.9/310 yr4) from a RECV p17 unit.",
+    "Returning top-two grade low: Bates (58.4/265 -> 54.7 adj, projected WR1) + TE Wagner (57.1/179 -> 53.4 adj); Ford (68.3 adj, yr4 override) the exception.",
+    "Aggregate ~55 adj maps ~WRTE p12-16; the corps is 'fresh-faced' (Athlon) with a true-Fr top newcomer (Rasean Jones).",
+    "14 L: a rebuilt, unproven receiving corps - the roster's clear weakness alongside the OL."
+   ],
+   "key_players": [
+    {"name": "Cameron Bates", "role": "WR1 (returning)", "evidence": "58.4/265 (54.7 adj); 8 st, 325 @ 15.5"},
+    {"name": "Ben Ford", "role": "WR (returning, yr4 override)", "evidence": "72.0/158 (68.3 adj); 251 @ 15.5"},
+    {"name": "Matt Wagner", "role": "TE1 (returning)", "evidence": "57.1/179 (53.4 adj); 10 st, 251 @ 10.6"}
+   ],
+   "data_gaps": ["no proven WR1", "true-Fr reliance"], "g5_guard_note": null
+  },
+  {
+   "team": "Boise State", "unit": "OL", "grade": 20, "confidence": "M",
+   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6, exemplar anchor)", "Western Kentucky OL 2025 (25, exemplar anchor)"],
+   "rationale_bullets": [
+    "Loses 2nd-Tm MW LT Casey (80.0/942 - the anchor) + both 2025 centers (Randolph 70.1 OFY-medical, Holmes 65.0).",
+    "Returning grades are MWC-adjusted low: Carreon (64.0 -> 53.9 adj), Jason Steele (62.2 -> 52.1, G->C), Metoyer (44.4 -> 34.3, RT weak spot).",
+    "66 career starts return (PS) and the run block was good (RBLK p70), but PBLK p16 pass-pro + the lost anchor cap it; aggregate ~48 adj maps ~OL p12-18.",
+    "20: graded on the run-block/experience floor, above the FAU-6 rail; the pass protection is the season risk."
+   ],
+   "key_players": [
+    {"name": "Roger Carreon", "role": "RG (returning)", "evidence": "64.0/885 (53.9 adj)"},
+    {"name": "Daylon Metoyer", "role": "RT (returning)", "evidence": "44.4/908 (34.3 adj) - weak spot"},
+    {"name": "Jason Steele", "role": "C (returning, G->C move)", "evidence": "62.2/647 (52.1 adj)"}
+   ],
+   "data_gaps": ["new center", "LT unsettled (Cox/Ethridge)"], "g5_guard_note": null
+  },
+  {
+   "team": "Boise State", "unit": "DL", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40, exemplar anchor)", "Wake Forest DL 2025 (60, exemplar anchor)"],
+   "rationale_bullets": [
+    "Virgin-Morgan returns as a P12 DPOY candidate (turned down the NFL): 75.6/728 -> 73.4 adj, 10 sk / 15 TFL.",
+    "Real supporting front: Stege (67.9 -> 65.7 adj, DE), Latu (69.5 -> 67.3, NT), Madrie (61.7) + high-grade young flashes Caywood (77.9/150 -> 75.7) and Sterling Lane (77.6/50).",
+    "Loses Fely (60.1/619, 2nd-Tm MW DT) + 2 backups; sack production (55 in '24) projected to rebound off the '25 dip. Aggregate ~68 adj maps ~DL p50-56.",
+    "50: with RB, the roster's best unit; the star edge pulls it toward the Wake-DL-60 rail."
+   ],
+   "key_players": [
+    {"name": "Jayden Virgin-Morgan", "role": "EDGE1 (returning)", "evidence": "75.6/728 (73.4 adj); 10 sk, 15 TFL; P12 DPOY cand."},
+    {"name": "Max Stege", "role": "DE (returning)", "evidence": "67.9/626 (65.7 adj)"},
+    {"name": "David Latu", "role": "NT (returning)", "evidence": "69.5/215 (67.3 adj)"}
+   ],
+   "data_gaps": ["interior depth after Fely"], "g5_guard_note": null
+  },
+  {
+   "team": "Boise State", "unit": "LB", "grade": 30, "confidence": "M",
+   "bracketing_exemplars": ["Florida International QB 2025 (15, exemplar anchor)", "UNLV LB 2025 (40, exemplar anchor)"],
+   "rationale_bullets": [
+    "Phelps returns as the leader (65.8/638 -> 61.1 adj; 9 st, #3 tackler, speed/coverage); Ripp (62.0 -> 57.3 adj) + Kansas transfer Brantley behind.",
+    "Loses the #1 tackler Notarainni (68.9/781, yr4); a 'new LB group' (Athlon).",
+    "The unit inherits a documented tackling problem (team TACK p1; 'missed tackles at both levels costly'); LB caution widens the range. Aggregate ~59 adj maps ~LB p28-34.",
+    "30: > the thin MWC-round LB rooms, < the proven ones; tackling is the cap."
+   ],
+   "key_players": [
+    {"name": "Boen Phelps", "role": "OLB1 (returning)", "evidence": "65.8/638 (61.1 adj); 9 st, #3 tackler"},
+    {"name": "Jake Ripp", "role": "ILB (returning)", "evidence": "62.0/428 (57.3 adj)"}
+   ],
+   "data_gaps": ["tackling (TACK p1)", "thin proven depth"], "g5_guard_note": null
+  },
+  {
+   "team": "Boise State", "unit": "DB", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40, exemplar anchor)", "Wake Forest DL 2025 (60, exemplar anchor)"],
+   "rationale_bullets": [
+    "'Lost nearly the entire secondary' (Athlon) - 4 starters out (McCoy 76.7/528, Earby 66.7/783, Z.Washington 57.2/679, Benefield 66.2 -> LSU) - but the reload is genuinely good.",
+    "JeRico Washington (Kennesaw 78.9/975 -> 72.7 CUSA-adj, forced 10 TO) + Sherrod Smith (70.6 adj) + Freeney (69.0) + Ganter (64.7) + Mickey (ND, 63.4, the leader) + Jamerson (TCU) + Tillmon (S.Dakota).",
+    "Aggregate of the projected top-5 (~68 adj) maps ~DB p50; the starter turnover pulls it to 46. NOT the proxy's p58 (that keyed the DEPARTED COV-p86 tape).",
+    "46: > the MWC-round DB rooms on the quality of the reload; the experience loss is the cap."
+   ],
+   "key_players": [
+    {"name": "JeRico Washington Jr.", "role": "CB1 (transfer, Kennesaw)", "evidence": "78.9/975 (72.7 CUSA-adj); forced 10 TO"},
+    {"name": "Sherrod Smith", "role": "CB (returning)", "evidence": "73.0/268 (70.6 adj)"},
+    {"name": "Jaden Mickey", "role": "NB/CB (returning, leader)", "evidence": "65.8/570 (63.4 adj); ND transfer"}
+   ],
+   "data_gaps": ["safety experience thin", "chemistry of a rebuilt back end"], "g5_guard_note": null
+  },
+  {
+   "team": "Boise State", "unit": "ST", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40, exemplar anchor)", "Wake Forest DL 2025 (60, exemplar anchor)"],
+   "rationale_bullets": [
+    "Full specialist continuity: K Boomer (9-13 FG, 3/3 from 50+; UCF) + P Doyle (43.5, 40.2 net; Weber St) both return.",
+    "Team SPEC p60 prior; the kicker is good on the long ones and the punter's net is decent.",
+    "The return game was the documented weakness (explosiveness, 2 return TDs allowed in '24) - the dock from the prior.",
+    "44: continuity + competence, above the MWC-round ST tier."
+   ],
+   "key_players": [
+    {"name": "Colton Boomer", "role": "K (returning)", "evidence": "9-13 FG, 3/3 from 50+; 61 TB/77 KO"},
+    {"name": "Oscar Doyle", "role": "P (returning)", "evidence": "43.5 avg / 40.2 net"}
+   ],
+   "data_gaps": ["return-game explosiveness"], "g5_guard_note": null
+  }
+ ]
+}
