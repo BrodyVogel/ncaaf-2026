@@ -1,0 +1,33 @@
+{
+ "team": "Clemson",
+ "conference": "ACC",
+ "created_utc": "2026-07-17T22:44:38+00:00",
+ "assembler_git_rev": "7c07af8",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Dabo Swinney - Athlon 'Record at School 187-53 (17+ years)'; PS '18th year here, all-time winningest ACC coach.' NO change (band x1.00). NEW coordinators: OC Chad Morris (2nd stint, was here '11-'14) + DC Tom Allen (was Indiana HC '17-'23, Penn St DC '25). Coordinator changes do NOT trigger the band multiplier. Verified BOTH sources.",
+ "conference_note": "ACC (P4). R14: ACC cells POSITIVE on returning tape; arrivals on origin cells. Arrivals: Chris Johnson SMU/ACC; Markus Strong Oklahoma/B12, Merritt Colorado/B12, Woods Texas State/SBC, Kelly West Georgia (D2, no cell); Washington Penn State/B10, Starr Auburn/SEC, Myrick Southern Miss/SBC, Carter Old Dominion/SBC; Brown-Wallace Wingate (D2, no cell), Wesley Howard (FCS, no cell).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": ["Antonio Williams", "Peter Woods", "T.J. Parker", "Avieon Terrell"],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Antonio Williams": "WR, 80.3/269 (highest-graded WR) - NFL EARLY DECLARE (junior, not yr4, not portal). NOT on either 2026 chart; Athlon prose names only Moore + Wesco as the future-pro leaders. GONE (nfl_declare_confirmed).",
+  "Peter Woods": "DT, 72.3/562 - NFL DRAFT. PS 'lose DT Peter Woods (12 st, #1 DC KC)'. Not on 2026 chart. GONE (nfl_declare_confirmed).",
+  "T.J. Parker": "EDGE, 80.6/549 (elite) - NFL DRAFT. PS 'lose DE TJ Parker (12 st, 5 sk, #2 DC BUF)'. GONE (nfl_declare_confirmed).",
+  "Avieon Terrell": "CB, 83.5/653 (elite) - NFL DRAFT. PS 'lose CB Avieon Terrell (12 st, #2 DC ATL)'. GONE (nfl_declare_confirmed).",
+  "Cade Klubnik": "QB, yr4, 76.5/451 (the star, 33-6 TD-INT) - GONE (NFL). yr4 handles the disposition; Vizzina (his 3-yr backup) is QB1.",
+  "Will Heldt": "DE, 84.4/579 (ELITE) - RETURNS. Athlon BOLD DE; 'turned down a draft opportunity to come back to Clemson' - the DL anchor. (Not yr4; clean returner.)"
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts",
+  "7-6 in '25 (Swinney's worst since 2010) but an elite-recruited roster. Heavy NFL exodus: QB Klubnik, WR Antonio Williams (80.3), DT Peter Woods, EDGE TJ Parker (80.6), CB Avieon Terrell (83.5), OT Blake Miller, LB Wade Woodaz - all to the Draft.",
+  "QB1 = Christopher Vizzina (54.1/81, former top-100, 3-yr backup) - unproven; Swinney's 'significant gamble' not pursuing a transfer QB. THE swing.",
+  "OL replaces 3 of 5 starters (incl. elite Miller); DL keeps elite Heldt (turned down draft) + reloads. DB reloads with high transfers (Myrick S.Miss 87.3, Carter ODU 76.2)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T00:00:00+00:00"
+}

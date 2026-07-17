@@ -1,0 +1,35 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Christopher Vizzina,QB,JR,returning,Athlon,PS,L,54.1/81 (ACC +2.08 -> 56.2 adj); former top-100; 3-yr backup; unproven; the swing
+QB,2,Tait Reynolds,QB,FR,returning,Athlon,PS,L,true-Fr; QB2
+RB,1,Gideon Davidson,RB,SO,returning,Athlon,PS,M,69.7/60 (ACC +4.90 -> 74.6 adj, small sample); former top recruit
+RB,2,Chris Johnson Jr.,RB,JR,transfer:SMU,Athlon,PS,M,71.6/67 (ACC +4.90 -> 76.5 adj, small sample)
+WRTE,1,Bryant Wesco Jr.,WR,JR,returning,Athlon,PS,H,74.8/205 (ACC +2.36 -> 77.2 adj); BOLD; "future pro"
+WRTE,2,T.J. Moore,WR,JR,returning,Athlon,PS,H,70.8/404 (73.2 adj); BOLD; "future pro"
+WRTE,3,Tyler Brown,WR,JR,returning,Athlon,PS,M,55.6/207 (58.0 adj); also PR
+WRTE,4,Olsen Patt-Henry,TE,SR,returning,Athlon,PS,M,54.2/160 (56.6 adj); BOLD
+WRTE,5,Christian Bentancur,TE,SO,returning,Athlon,PS,M,64.0/149 (66.4 adj)
+OL,1,Brayden Jacobs,LT,SO,returning,Athlon,PS,M,71.9/362 (ACC +3.54 -> 75.4 adj); young but good grade
+OL,2,Harris Sewell,C,SR,returning,Athlon,PS,M,60.3/641 (63.8 adj); BOLD (G->C)
+OL,3,Collin Sadler,RG,SR,returning,Athlon,PS,M,56.7/599 (60.2 adj); BOLD
+OL,4,Elyjah Thurmon,LG,SO,returning,Athlon,PS,L,55.5/123 (young)
+OL,5,Easton Ware,RT,FR,returning,Athlon,PS,L,true-Fr; projected RT
+OL,6,Ronan O'Connell,G,SO,returning,Athlon,PS,L,65.0/125 (depth)
+DL,1,Will Heldt,DE,SR,returning,Athlon,PS,H,84.4/579 (ACC +1.19 -> 85.6 adj); ELITE; "turned down the draft"; BOLD
+DL,2,Jahiem Lawson,DE,SR,returning,Athlon,PS,M,77.7/300 (78.9 adj)
+DL,3,Vic Burley,DT,JR,returning,Athlon,PS,M,62.6/176 (63.8 adj)
+DL,4,Markus Strong,DT,JR,transfer:Oklahoma,Athlon,PS,M,66.5/106 (B12 +3.12 -> 69.6 adj)
+DL,5,London Merritt,EDGE,SO,transfer:Colorado,Athlon,PS,M,72.5/323 (B12 +3.12 -> 75.6 adj)
+DL,6,Devarrick Woods,DT,JR,transfer:Texas State,Athlon,PS,M,74.2/177 (SBC -6.50 -> 67.7 adj)
+LB,1,Sammy Brown,MLB,JR,returning,Athlon,PS,H,70.0/733 (ACC +2.13 -> 72.1 adj); star; ACC DROY '24; BOLD
+LB,2,Kobe McCloud,WLB,JR,returning,Athlon,PS,M,73.0/233 (75.1 adj)
+LB,3,Jeremiah Alexander,LB,SR,returning,Athlon,PS,M,67.8/219 (69.9 adj); ex-Bama 5-star
+DB,1,Corey Myrick,S,JR,transfer:Southern Miss,Athlon,PS,H,87.3/714 (SBC -3.62 -> 83.7 adj); elite S transfer
+DB,2,Jerome Carter III,S,JR,transfer:Old Dominion,Athlon,PS,M,76.2/707 (SBC -3.62 -> 72.6 adj)
+DB,3,Ashton Hampton,CB,JR,returning,Athlon,PS,M,70.7/704 (ACC +1.18 -> 71.9 adj); BOLD
+DB,4,Elliot Washington II,CB,SR,transfer:Penn State,Athlon,PS,M,64.4/256 (B10 +6.33 -> 70.7 adj)
+DB,5,Corian Gipson,NB,SO,returning,Athlon,PS,M,58.7/188 (59.9 adj)
+DB,6,Donovan Starr,CB,SO,transfer:Auburn,Athlon,PS,L,77.0/18 (SEC, tiny sample)
+DB,7,Ronan Hanafin,S,SR,returning,Athlon,PS,L,63.1/525 (64.3 adj); depth
+ST,1,Nolan Hauser,K,JR,returning,Athlon,PS,H,returning starter; 56-yd FG vs SMU; top kicker
+ST,2,Jack Smith,P,SR,returning,Athlon,PS,M,returning starter; 42.1 net
+ST,3,Gideon Davidson,KR,SO,returning,Athlon,PS,M,KR
