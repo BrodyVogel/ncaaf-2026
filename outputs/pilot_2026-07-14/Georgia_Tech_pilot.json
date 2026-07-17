@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T23:47:52+00:00",
+ "team": "Georgia Tech",
+ "final": 4.66,
+ "rank": 49,
+ "band": 6.54,
+ "resid": -4.75,
+ "adj": -1.66,
+ "class_term": -0.0,
+ "st": 0.24,
+ "anchor_blend": 5.58,
+ "resid_level": -2.69,
+ "resid_shape": -2.06,
+ "implied_off": 26.55,
+ "implied_def": 26.33,
+ "anchor_off": 28.59,
+ "anchor_def": 23.61,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.615
+ },
+ "low_conf_units": 3,
+ "code_rev": "b5ffbfc",
+ "mode": "PILOT-OOS"
+}
