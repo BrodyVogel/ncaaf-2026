@@ -1,0 +1,218 @@
+{
+ "team": "New Mexico",
+ "units": {
+  "QB": {"grade": 34, "confidence": "M"},
+  "RB": {"grade": 16, "confidence": "M"},
+  "WRTE": {"grade": 22, "confidence": "M"},
+  "OL": {"grade": 24, "confidence": "M"},
+  "DL": {"grade": 22, "confidence": "M"},
+  "LB": {"grade": 44, "confidence": "M"},
+  "DB": {"grade": 26, "confidence": "M"},
+  "ST": {"grade": 18, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-17",
+  "snapshot_rev": "frozen 2026-07-17 (9e22a3d)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 35, RB None, WRTE 2, OL 17, DL 53, LB 74, DB 36, ST 56) - artifact #49; the proxy's sanest sheet of the round (returning-heavy roster = its happy path)",
+   "WRTE": "+20 vs proxy 2 - blind to Omeire/Williams imports, counts departed leaders",
+   "LB": "-30 vs proxy 74 - proxy sees Eck but its scale runs hot at the top",
+   "DL": "-31 vs proxy 53 - blind to James-Newby -> NFL",
+   "QB": "-1 vs proxy 35 - near-agreement (rare)"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "New Mexico",
+   "unit": "QB",
+   "grade": 34,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32, exemplar anchor)",
+    "UNLV LB 2025 (40, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Layne is a real 13-start returning starter: 438 snaps, 73.1 -> 65.8 MWC-adj; 2,486 @ 65%, 13-10 - and 10 of the 13 INTs came in three games.",
+    "He was LIMITED IN SPRING and both prints call the Moga battle live - the Oregon ex-4-star (10.4 100m) is a genuine challenger, plus waiver-year runner Laubstein (override).",
+    "Team PASS was p71 - the passing offense worked.",
+    "34 = second-best QB room of the G5 rounds after WMU's 46; above Miami 30, below CMU 38/EMU 40 on tape depth."
+   ],
+   "key_players": [
+    {"name": "Jack Layne", "role": "QB1 (returning, 13 st)", "evidence": "73.1/438 (65.8 adj); 2,486 @ 65%, 13-10; limited in spring"},
+    {"name": "Luke Moga", "role": "QB1 challenger (transfer, Oregon)", "evidence": "ex-4-star; 10.4 100m; 7 career snaps"},
+    {"name": "James Laubstein", "role": "QB3/runner (returning; waiver override)", "evidence": "88.2/23; 380 rush @ 6.2"}
+   ],
+   "data_gaps": ["Layne spring limitation cause", "battle unresolved"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "New Mexico",
+   "unit": "RB",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Top two 2025 backs gone (Bankston expired, McKinney -> Tulsa); Humphrey returns with modest tape here (63.1/78) but real pedigree volume (Montana St '24: 1,386 @ 7.0) and an injury excuse (Wk 3, never recovered).",
+    "FBS depth: Sibley (NTU 274 @ 6.1 - the resolved no-dest ghost), Buchanan (Idaho 567 @ 7.2 in '24), Mathews (Memphis rFr, two-sided miss).",
+    "16 = SJSU/Buffalo tier; a healthy Humphrey is the upside case."
+   ],
+   "key_players": [
+    {"name": "Scottre Humphrey", "role": "RB1 (returning)", "evidence": "63.1/78 (54.2 adj); Montana St '24: 1,386 @ 7.0"},
+    {"name": "Kiefer Sibley", "role": "RB2 (transfer, North Texas - feed-gap)", "evidence": "274 @ 6.1 '25; PS#101"},
+    {"name": "Deshaun Buchanan", "role": "RB (returning)", "evidence": "Idaho '24: 567 @ 7.2; no '25 tape"}
+   ],
+   "data_gaps": ["Humphrey health", "no returning 100-carry back"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "New Mexico",
+   "unit": "WRTE",
+   "grade": 22,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Omeire's import tape (69.8/236 -> 66.1 adj; 31-514-5 at UNLV) out-grades both departed leaders - a rare G5 case of upgrading through the portal.",
+    "Keith (70.3 -> 66.6) is an All-MWC candidate TE in a TE-emphasis offense; Miller (BOLD) and Z.Smith add returning route volume at low grades.",
+    "M.Williams (EWash 12 st, 524 - feed-gap) projected WR2; USC TE Olsen + ISU TE Walsh depth.",
+    "22 = Buffalo tier: real producers, no elite one."
+   ],
+   "key_players": [
+    {"name": "Troy Omeire", "role": "WR1 (transfer, UNLV)", "evidence": "69.8/236 (66.1 adj); 514 @ 16.6"},
+    {"name": "Cade Keith", "role": "TE1 (returning, All-MWC candidate)", "evidence": "70.3/127 (66.6 adj); 253 @ 12.7"},
+    {"name": "Miles Williams", "role": "WR2 (transfer, E.Washington - feed-gap)", "evidence": "12 st, 524 @ 12.7 FCS"},
+    {"name": "Shawn Miller", "role": "WR (returning starter)", "evidence": "52.1/317; 199 @ 13.3"}
+   ],
+   "data_gaps": ["Williams FCS translation", "Miller's grade is poor for a starter"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "New Mexico",
+   "unit": "OL",
+   "grade": 24,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Four returning starters with 52 combined 2025 starts - the most of the MWC round: Robnett (2nd-Tm MWC C, 865 snaps), Tasi (72.6 raw - the best adj grade at 62.5), Aliane (13 st), Lawrence (13 st).",
+    "LT goes to Weber St import Millward (12 st - feed-gap); Temple's Meir + JC Fetcho depth.",
+    "PBLK was p19 as-played - the pass-pro must improve for the passing offense to hold.",
+    "24: edges Nevada 22 on count/continuity; below CMU/WMU 28."
+   ],
+   "key_players": [
+    {"name": "Kaden Robnett", "role": "C (returning, 2nd-Tm MWC)", "evidence": "66.7/865 (56.6 adj); 13 st"},
+    {"name": "Jaymar Tasi", "role": "RG (returning)", "evidence": "72.6/545 (62.5 adj); 5 st"},
+    {"name": "Malik Aliane", "role": "LG (returning)", "evidence": "58.3/772; 13 st (11 LT)"},
+    {"name": "Tyler Lawrence", "role": "RT (returning)", "evidence": "56.7/856; 13 st"},
+    {"name": "Cole Millward", "role": "LT (transfer, Weber St - feed-gap)", "evidence": "12 st (RG) FCS '25"}
+   ],
+   "data_gaps": ["LT = FCS import", "PBLK p19"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "New Mexico",
+   "unit": "DL",
+   "grade": 22,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "James-Newby (88.8/683, 7th-round pick PHI) + Karhu (587) + Lopez (468) leave - the p94 pass rush loses its engine.",
+    "But the retained rotation is real: Agu (79.2/392 -> 77.0 adj - 'big season' per both prints), Booker (73.0/411, 3rd-Tm MWC), Slayton, McIver, + Memphis import Marable (222 snaps).",
+    "PS: 'DT is the strength... DE may be the biggest question mark.'",
+    "22 = KSU tier; below Nevada 26 (no LaBarbera-class piece), above Toledo/WMU 18."
+   ],
+   "key_players": [
+    {"name": "Darren Agu", "role": "DE1 (returning, ex-Vanderbilt)", "evidence": "79.2/392 (77.0 adj); 30 tkl, 2 sk"},
+    {"name": "Brian Booker", "role": "DT (returning, 3rd-Tm MWC)", "evidence": "73.0/411 (70.8 adj)"},
+    {"name": "Xavier Slayton", "role": "DT (returning)", "evidence": "64.1/251; beat out Booker per Athlon"},
+    {"name": "Jayden Marable", "role": "DT (transfer, Memphis)", "evidence": "67.4/222 (61.5 AAC-adj)"}
+   ],
+   "data_gaps": ["edge behind Agu is JC/no-tape", "Charles no '25 row"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "New Mexico",
+   "unit": "LB",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40, exemplar anchor)",
+    "Nebraska WRTE 2025 (50, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Eck is the reigning MWC DEFENSIVE PLAYER OF THE YEAR: 83.0 on 759 snaps (78.3 adj), 129 tackles, 1st-Tm MWC - 'truly the heartbeat of that defense' (opposing coach).",
+    "Swaim (77.3/402 -> 72.6) is an All-MWC candidate running mate - the best returning LB DUO of the G5 rounds, in a scheme built around them.",
+    "Exceeds the UNLV-40 anchor's profile (their leader: 73.9/808); depth behind the duo is thin (Boise's Martineau + rFr/FR).",
+    "44 = new G5-round LB high; capped below 50 by the two-deep."
+   ],
+   "key_players": [
+    {"name": "Jaxton Eck", "role": "MLB (returning, MWC DPOY)", "evidence": "83.0/759 (78.3 adj); 129 tkl, 1st-Tm MWC"},
+    {"name": "Mercury Swaim", "role": "WLB (returning, All-MWC candidate)", "evidence": "77.3/402 (72.6 adj); 6.5 TFL"},
+    {"name": "Clay Martineau", "role": "LB3 (transfer, Boise St)", "evidence": "10 snaps '25; PS#158"}
+   ],
+   "data_gaps": ["two-deep after the duo is unproven"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "New Mexico",
+   "unit": "DB",
+   "grade": 26,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25, exemplar anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Six returning 300+ snap bodies at 61-74 adj: McBean (true-So BOLD), Combs (38 career starts, yr4 override), Edwards, Brawley (74.1, override, back from OFY), Speech, A.Williams - the most returning DB volume of the MWC round.",
+    "Loses its best corner (Jon Johnson 75.4/766) and Coleman; imports Arnold (Cincy), McClain (Ball St), Hicks (Hampton 12 st) restock CB.",
+    "PDR rose to #111 despite injuries; PS: 'should make a solid unit.'",
+    "26 = Miami tier; > Nevada/KSU 18, < EMU 28/WMU 30."
+   ],
+   "key_players": [
+    {"name": "CJ McBean", "role": "S (returning, BOLD true-So)", "evidence": "67.1/499 (64.7 adj); 40 tkl as true FR"},
+    {"name": "Tavian Combs", "role": "S (returning; yr4 override)", "evidence": "61.7/728; 38 career starts, 264 tkl"},
+    {"name": "Frankie Edwards III", "role": "CB (returning)", "evidence": "70.9/497 (68.5 adj); took over last 6"},
+    {"name": "Austin Brawley", "role": "S (returning; override; PR1)", "evidence": "74.1/302 (71.7 adj); OFY late '25"},
+    {"name": "Ormanie Arnold", "role": "CB (transfer, Cincinnati)", "evidence": "56.4/258 (53.1 adj); 22 gm L2Y"}
+   ],
+   "data_gaps": ["CB1 tape gone", "Arnold's grade modest"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "New Mexico",
+   "unit": "ST",
+   "grade": 18,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "ALL FOUR specialists from a top-25 unit are gone (P Hughes 45.9/43.6 -> Florida State; K 15-16; KR Bankston; PR McKinney).",
+    "The rebuild has pedigree: P Kern (PS#3; Texas + Cal history) vs incumbent Steinkamp (split print); K three-way led by Romero (Wagner 13-14, FCS Frosh AA); KR A.Williams (5 career KO-return TDs at Weber St - elite history).",
+    "18 = NIU/BGSU tier: pedigree without 2025 production in these jobs."
+   ],
+   "key_players": [
+    {"name": "Michael Kern", "role": "P (transfer, California)", "evidence": "PS#3; 41.5-41.6 avg at Texas/Cal"},
+    {"name": "Nick Romero", "role": "K (transfer, Wagner)", "evidence": "13-14 FG, L/44; FCS Frosh AA"},
+    {"name": "Abraham Williams", "role": "KR (returning; yr4 override)", "evidence": "5 career KO-return TDs"}
+   ],
+   "data_gaps": ["K battle three-way", "P split print"],
+   "g5_guard_note": null
+  }
+ ]
+}
