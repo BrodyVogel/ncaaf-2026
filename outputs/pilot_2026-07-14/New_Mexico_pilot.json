@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T00:12:54+00:00",
+ "team": "New Mexico",
+ "final": -6.6,
+ "rank": 92,
+ "band": 6.0,
+ "resid": -7.1,
+ "adj": -2.49,
+ "class_term": 0.0,
+ "st": -0.64,
+ "anchor_blend": -3.99,
+ "resid_level": 2.49,
+ "resid_shape": -9.59,
+ "implied_off": 18.53,
+ "implied_def": 30.23,
+ "anchor_off": 23.55,
+ "anchor_def": 28.15,
+ "fit_r2": {
+  "off": 0.54,
+  "dfn": 0.616
+ },
+ "low_conf_units": 0,
+ "code_rev": "456da56",
+ "mode": "PILOT-OOS"
+}

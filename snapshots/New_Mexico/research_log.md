@@ -27,3 +27,11 @@
   since Miami -> conf x1.0; coach x1.0.
 - 2026-07-17 gates: disposition_ledger --write, departure_check,
   blinding_check — results below.
+- 2026-07-17 grades.json written + schema-validated (8/8); ledger 41 rows
+  / 0 to adjudicate; gates clean.
+- 2026-07-17 pilot_readout: FINAL -6.60 (r92/138) = BEST OF MWC ROUND +
+  best G5 final of the project so far (beats Miami -7.41). Band ±6.00
+  (first minimum-band build of the round: 0 L, no coach, no dispersion
+  flag). SP+ winsorized (-0.5 -> -0.94, mild); dispersion 7.21. Raw
+  resid -7.10 (grades cooler than anchors — the anchors love UNM even
+  more than my grades do; FEI/Massey at -7 vs SP+/TR at -0.5/-2).
