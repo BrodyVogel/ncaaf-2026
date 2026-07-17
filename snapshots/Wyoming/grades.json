@@ -1,0 +1,214 @@
+{
+ "team": "Wyoming",
+ "units": {
+  "QB": {"grade": 20, "confidence": "L"},
+  "RB": {"grade": 18, "confidence": "M"},
+  "WRTE": {"grade": 12, "confidence": "L"},
+  "OL": {"grade": 18, "confidence": "M"},
+  "DL": {"grade": 14, "confidence": "L"},
+  "LB": {"grade": 16, "confidence": "M"},
+  "DB": {"grade": 16, "confidence": "M"},
+  "ST": {"grade": 16, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-17",
+  "snapshot_rev": "frozen 2026-07-17 (53d85f6)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "in-session supervised; anchor values not consulted",
+  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB 31, WRTE None, OL 9, DL 27, LB None, DB 12, ST 6) - known signatures, no new artifact number",
+   "DL": "-13 vs proxy 27 - carryover inflation: RDEF p64 keyed while 9 of top-13 front tacklers walk (Florentine 74.8, Westland 69.7 out)",
+   "ST": "+10 vs proxy 6 - kicker-keying: SPEC p6 is FG-driven; elite P (Edmiston 46.1) and PR (DeBlanc) return",
+   "OL": "+9 vs proxy 9 - interior-snaps keying: blind to both tackles returning + Maciejczak/Donaway imports",
+   "RB": "-13 vs proxy 31 - proxy leans team RUN tape; room graded on Harris young lead + Hubbard B12 arrival"
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Wyoming",
+   "unit": "QB",
+   "grade": 20,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Hughes arrives from FCS W&M: 12 st, 2,330 @ 66.2% (20-3) + 670 rush @ 4.3 - and walks into his own college OC's scheme (Taylor reunion, via the Bills).",
+    "Strongest FCS-QB translation setup of the round (production + dual-threat + scheme continuity), but still zero FBS snaps replacing a p8 passing offense.",
+    "Depth is green: Drube 52.3/47 (44.9 adj) true-Fr tape; Sims (JUCO) is an ACL-rehab feed-gap arrival with no weight.",
+    "20 L: = SJSU 20 L, > Nevada 18 L - the setup beats low-grade FBS returns; the L is the FCS bet."
+   ],
+   "key_players": [
+    {"name": "Tyler Hughes", "role": "QB1 (transfer, W&M)", "evidence": "FCS 2,330 @ 66.2% 20-3 + 670 rush; reunited with OC Taylor"},
+    {"name": "Mason Drube", "role": "QB2 (returning)", "evidence": "52.3/47 (44.9 adj); 187 @ 54% as true Fr"}
+   ],
+   "data_gaps": ["no FBS tape on Hughes", "Sims ACL timeline"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Wyoming",
+   "unit": "RB",
+   "grade": 18,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Harris led the team in rushing as a TRUE FRESHMAN: 558 @ 5.6; 74.0/100 att (65.1 MWC-adj).",
+    "Hubbard brings the best adjusted tape in the room from WVU: 71.4/96 att + B12 offset -> 78.6 adj (6 st, 335 yds).",
+    "Holman won the OVC rushing title at W.Illinois (1,063) - a real FCS third body in a run-first identity (RUN p28/RBLK p54).",
+    "18: > SJSU/UNM 16 (three real bodies vs their thinner rooms), < AF 22 (proven Superback lead)."
+   ],
+   "key_players": [
+    {"name": "Samuel Harris", "role": "RB1 (returning)", "evidence": "74.0/100 att (65.1 adj); 558 @ 5.6 as true Fr"},
+    {"name": "Diore Hubbard", "role": "RB2 (transfer, WVU)", "evidence": "71.4/96 att (B12 +7.24 -> 78.6 adj); 6 st"},
+    {"name": "Markell Holman", "role": "RB3 (transfer, W.Illinois FCS)", "evidence": "1,063 yds, led OVC"}
+   ],
+   "data_gaps": ["Holman FCS translation"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Wyoming",
+   "unit": "WRTE",
+   "grade": 12,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "ALL FOUR top targets depart from a RECV p4 unit: Sargent (50.0/250; 480 @ 20.9), Durr (67.9/222 -> Maryland), Fitzgerald (57.8/204), Gyllenborg (54.1/179) + TE Svoboda (47.2/150).",
+    "Returns are role tape: DeBlanc 65.5/98 routes (61.8 adj, slot + elite returner), J.Holman 51.9 adj/139 (injury year), Richardson 50.5 adj/127.",
+    "TE Wilson (DNP '25) is both prints' TE1 - 'could be best in MW' duo with Frendt (52.5 adj/31) - but the projection is health-dependent.",
+    "12 L: = Nevada 12 L tier; a p4 unit losing its entire target tree with sub-FBS imports (Popovich D2, Siddons FCS) behind it."
+   ],
+   "key_players": [
+    {"name": "Deion DeBlanc", "role": "WR1/slot (returning)", "evidence": "65.5/98 routes (61.8 adj); elite return tape"},
+    {"name": "Jake Wilson", "role": "TE1 (returning)", "evidence": "DNP 2025; both prints TE1"},
+    {"name": "Jackson Holman", "role": "WR (returning)", "evidence": "55.6/139 (51.9 adj); injuries '25"}
+   ],
+   "data_gaps": ["Wilson health", "DeBlanc volume jump unproven"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Wyoming",
+   "unit": "OL",
+   "grade": 18,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "Both starting tackles return: Johnsen 59.9/802 (49.8 adj, 12 st) + Jenkins 63.2/383 (53.1 adj, 6 st) - 18 combined tackle starts.",
+    "Maciejczak (Nebraska) is the interior anchor bet: 79.5/33 flash (78.2 adj), 21 gm L2Y, 'coaches excited'; Donaway adds 21 FCS starts at LG.",
+    "Entire 2025 interior walks: Walsh 66.7/802 (C), Barnett 71.3/792 (best returning-volume grade), King 66.2/683 -> WVU, Sandy -> Charlotte.",
+    "18: > SJSU 14/NIU 12 on tackle continuity + the B10 center; < Nevada 22/UNM 24 - PBLK p23 and the green RG cap it. Opposing-coach 'Day 2 pick... massive guys' quote supports the pair."
+   ],
+   "key_players": [
+    {"name": "Rex Johnsen", "role": "LT (returning)", "evidence": "59.9/802 (49.8 adj); 12 st"},
+    {"name": "Braylon Jenkins", "role": "RT (returning)", "evidence": "63.2/383 (53.1 adj); 6 st"},
+    {"name": "Jason Maciejczak", "role": "C (transfer, Nebraska)", "evidence": "79.5/33 (78.2 adj); 21 gm L2Y"}
+   ],
+   "data_gaps": ["Maciejczak 33-snap sample", "green RG (Panozzo)"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Wyoming",
+   "unit": "DL",
+   "grade": 14,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "An RDEF p64 front loses its five best graded linemen: Florentine 74.8/551, Westland 69.7/583, Ifeanyi 66.7/297, Eyabi 69.5/160, B.Wilson 63.0/308 (+ Samsula -> Utah, Vyas yr4) - PS: '9 of top 13 tacklers' gone.",
+    "Returns: Williams 60.3/366 (58.1 adj) + Bogar 67.7/200 (65.5 adj) + Drake (Achilles, DNP '25 - both prints 'top player on the line').",
+    "Three FCS starters imported (Dunkley 12 st/9.5 TFL Duquesne, Wingate S.Illinois, Redfern Murray St) - no offset cells, evidence-only.",
+    "14 L: = AF 14 L tier, > NIU 10 L, < SJSU 16. The L is Drake's health + three FCS translations."
+   ],
+   "key_players": [
+    {"name": "Dante Drake", "role": "DT1 (returning, injury)", "evidence": "DNP '25 Achilles; both prints 'top player on the line'"},
+    {"name": "Jayden Williams", "role": "DT (returning)", "evidence": "60.3/366 (58.1 adj)"},
+    {"name": "Esaia Bogar", "role": "DE (returning)", "evidence": "67.7/200 (65.5 adj)"},
+    {"name": "Jack Dunkley", "role": "DE1 (transfer, Duquesne FCS)", "evidence": "12 st, 9.5 TFL"}
+   ],
+   "data_gaps": ["Drake health", "FCS translation x3"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Wyoming",
+   "unit": "LB",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "The two best 2025 defensive grades walk: B.Johnson 86.8/649 (#1 tackler) + Eller 79.8/622 (#2), both yr4.",
+    "Stuhlsatz is the real replacement anchor: 77.5/268 (72.8 adj) = best returning defensive tape on the roster; yr4 two-print override (both prints MLB1, 'very strong spring... lining up the defense').",
+    "Depth is thin: Rutherford 61.1 adj/69 (So.), Beavers (USC, PS #31 pedigree, 7-snap sample), Vincent 51.4 adj/73 (Athlon slots him at S), green Butts.",
+    "16: = UNLV 16, > Nevada 12 L, < AF 20 - one proven piece in the '240-pound linebackers' identity unit."
+   ],
+   "key_players": [
+    {"name": "Ethan Stuhlsatz", "role": "MLB1 (returning, yr4 override)", "evidence": "77.5/268 (72.8 adj); both prints MLB1"},
+    {"name": "Gary Rutherford", "role": "OLB1 (returning)", "evidence": "65.8/69 (61.1 adj)"},
+    {"name": "Anthony Beavers", "role": "LB (transfer, USC)", "evidence": "67.3/7 snaps; PS #31 pedigree"}
+   ],
+   "data_gaps": ["Stuhlsatz 268-snap sample", "Beavers sample-useless tape"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Wyoming",
+   "unit": "DB",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "A COV p73 unit loses three of its four best grades: Miller 77.2/530 (yr4), A.Johnson 66.1/584 (yr4), Boss 62.9/643 (-> Arizona) + Grant/J.Taylor/Merritt - '5 DBs with 35 starts.'",
+    "Keeps two long-tenured starters: Hearns 70.1/681 (67.7 adj; 3-yr starter NB) + Thomas 51.5/634 (49.1 adj; leading returning tackler, 2 INT + 4 PBU - volume over grade).",
+    "Real adds behind them: Franklin (JaxSt) 68.6/340 -> 62.4 adj at nickel; Cheek 63.0 adj/91 + Bell 63.3 adj/79; but CB1s are a green So. (Shamsid-Deen) + an FCS import (Mackey).",
+    "16: < AF 18/Nevada 18 (their rooms return more), > SJSU 12/NIU 12."
+   ],
+   "key_players": [
+    {"name": "Desman Hearns", "role": "NB (returning)", "evidence": "70.1/681 (67.7 adj); 3-yr starter"},
+    {"name": "Jones Thomas", "role": "S1 (returning)", "evidence": "51.5/634 (49.1 adj); 2 INT 4 PBU; all-league candidate per print"},
+    {"name": "Travis Franklin Jr.", "role": "NB2 (transfer, JaxSt)", "evidence": "68.6/340 (CUSA -6.16 -> 62.4 adj)"}
+   ],
+   "data_gaps": ["green CB1 (Shamsid-Deen <30 snaps)", "Mackey FCS translation"],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Wyoming",
+   "unit": "ST",
+   "grade": 16,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
+   "rationale_bullets": [
+    "P Edmiston: 46.1 avg on 65 punts - both prints' all-league candidate; the best specialist in the room.",
+    "DeBlanc: 16.7 PR avg + 73-yd TD - elite return tape returns.",
+    "K Sandvik: 6-11 FG - the drag; SPEC p6 team tape is FG-driven (proxy keys it at 6 while the two best legs return).",
+    "16: = Nevada 16, > AF 12, < SJSU 22 - elite P/PR vs bad K nets mid-tier."
+   ],
+   "key_players": [
+    {"name": "Bart Edmiston", "role": "P (returning)", "evidence": "46.1 avg / 65 punts"},
+    {"name": "Deion DeBlanc", "role": "KR/PR (returning)", "evidence": "16.7 PR avg; 73-yd TD"},
+    {"name": "Erik Sandvik", "role": "K (returning)", "evidence": "6-11 FG 2025"}
+   ],
+   "data_gaps": ["kicker battle unresolved in prints"],
+   "g5_guard_note": null
+  }
+ ]
+}
