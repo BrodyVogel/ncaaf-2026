@@ -1,0 +1,13 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Zhen Sotelo,146067,G,HAWAII,13,100.0,0,180,63.7,76.5,55.8,0,6,620,100.0,100.0,99.5,4,6,0,936,0,929,0,936,649,649,0,5,287,0,2025_this_team
+James Milovale,175703,T,HAWAII,13,100.0,0,180,59.0,59.5,59.0,6,15,620,100.0,100.0,98.0,7,23,2,932,0,0,0,932,649,649,0,926,283,6,2025_this_team
+Ethan Spencer,158188,C,HAWAII,12,100.0,0,180,62.5,78.0,56.2,0,9,563,100.0,100.0,98.3,6,14,5,853,853,0,0,853,586,586,0,0,267,0,2025_this_team
+Dean Briski,158172,T,HAWAII,12,100.0,2,180,41.7,44.4,47.0,2,26,514,100.0,100.0,96.5,12,32,4,788,0,5,783,788,540,540,0,0,248,0,2025_this_team
+Kuao Peihopa,146489,G,HAWAII,11,100.0,0,180,56.7,68.3,51.0,1,3,410,100.0,100.0,99.0,4,6,2,635,0,0,0,635,427,427,634,0,208,0,2025_this_team
+Judah Kaio,184168,G,HAWAII,9,100.0,0,180,46.5,25.0,54.3,2,9,265,100.0,100.0,96.8,1,14,3,389,82,7,0,389,283,283,299,1,106,0,2025_this_team
+Boogie Henderson,188396,T,HAWAII,6,100.0,0,180,44.9,34.0,49.9,0,6,92,100.0,100.0,95.7,0,7,1,144,0,1,143,144,95,95,0,0,49,0,2025_this_team
+KT Carter,175698,T,HAWAII,5,100.0,0,180,64.5,30.4,74.4,0,1,14,100.0,100.0,96.4,0,1,0,31,0,0,16,31,14,14,0,15,17,0,2025_this_team
+Lautaimi Manuma,188399,G,HAWAII,5,100.0,0,180,61.8,72.1,60.9,0,0,2,100.0,100.0,100.0,0,0,0,14,0,5,0,14,2,2,9,0,12,0,2025_this_team
+Tu'i Muti,188401,C,HAWAII,3,100.0,0,180,61.2,,60.7,0,0,0,,,,0,0,0,12,12,0,0,12,0,0,0,0,12,0,2025_this_team
+Lipe Moala,176595,G,OREGON,2,100.0,0,264,76.4,73.1,75.8,0,0,2,100.0,100.0,100.0,0,0,0,10,0,10,0,10,2,2,0,0,8,0,arrival_2025_at_OREGON
+Jay Tauala-Harris,188403,G,HAWAII,1,100.0,0,180,55.6,,56.2,0,0,0,,,,0,0,0,5,0,0,0,5,0,0,5,0,5,0,2025_this_team

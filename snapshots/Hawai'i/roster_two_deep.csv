@@ -1,0 +1,53 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Micah Alejado,SO,returning,507 snaps 76.6 (69.3 adj) - best QB tape of MWC round; 3106 @ 66% 24-9; MWC FrOY; 5'10 180; missed 2 gm hurt '25; BOLD
+QB,QB,2,Bjorn Jurgensen,FR,transfer:Virginia,rFr DNP; PS#48; 'great arm fastest of the 3'
+QB,QB,3,Maika Eugenio,FR,recruit,PS#101; IFS
+RB,RB,1,Cam Barfield,SR,returning,81 att 72.4 (63.5 adj); 371 @ 4.6 + 27 rec 257; 8 total TD; 2nd-Tm All-MWC returner
+RB,RB,2,DeVon Rice,SO,transfer:Kansas State,26 att 65.5 (B12 +7.24 -> 72.7 adj); 94 @ 3.6
+RB,RB,3,Sitani Mikaele,SO,returning,235-lb power role; green
+WRTE,WR,1,Pofele Ashlock,SR,returning,521 routes 65.3 (61.6 adj); 4th-yr starter; 827 @ 10.9 '25; 2nd-Tm MW; BOLD
+WRTE,WR,1,Audric Harris,JR,transfer:Washington,50 routes 63.1 (B10 -1.26 -> 61.8 adj); 1 st 99 @ 19.8; 'ready to break out' slot
+WRTE,WR,1,Tama Uiliata,SO,returning,243 routes 60.6 (56.9 adj); 231 @ 8.2
+WRTE,WR,2,Tre' Griffiths,SO,transfer:Oklahoma State,2 gm at OKSt; PS#106; Athlon WR1 outside
+WRTE,WR,2,Carson Brown,SR,transfer:Iowa State,49 routes 64.0 (B12 +3.38 -> 67.4 adj); 1 st 83 @ 11.7
+WRTE,WR,2,Devin Alves,SR,transfer:Virginia Tech,46 routes 59.3 (ACC +2.36 -> 61.7 adj); 45 @ 15.0; converted QB
+WRTE,WR,2,Nick Delgadillo,JR,returning,67 routes 55.2 (51.5 adj); Athlon WR1 outside
+WRTE,WR,3,Blaze Kamoku,SR,returning,87 routes 61.4 (57.7 adj); 88 @ 9.7
+WRTE,TE,1,Devon Tauaefa,SR,returning,74 routes 59.7 (56.0 adj); 107 @ 7.6
+OL,C,1,Ethan Spencer,SR,returning,853 snaps 62.5 (52.4 adj); 12 st; BOLD
+OL,LT,1,Dean Briski,SR,returning,788 snaps 41.7 (31.6 adj); 11 st; PS LT1/Athlon RT1; BOLD
+OL,RG,1,Judah Kaio,SR,returning,389 snaps 46.5 (36.4 adj); 5 st
+OL,RT,1,Boogie Henderson,SO,returning,144 snaps 44.9 (34.8 adj); 2 st; Athlon LT1
+OL,LG,1,Lipe Moala,JR,transfer:Oregon,10 snaps 76.4 (B10 -> 75.1, sample-useless); 11 gm L2Y; PS#141
+OL,G,2,Lautaimi Manuma,SO,returning,13 gm; Athlon LG1 (battle)
+OL,T,2,Khalil Walker,JR,transfer:South Florida,DNP '25; PS#65JC; Athlon swing-T backup both sides
+OL,G,2,Denaris DeRosa,SR,transfer:San José State,FEED-GAP (two prints + SJSU out-feed no-dest resolved); 11 gm L2Y; 'highly regarded'
+OL,C,3,Tu'i Muti,SO,returning,DNP '25
+DL,DE,1,Lesterlaisene Lagafuaina,JR,returning,485 snaps 64.2 (62.0 adj); 9 st 37 tkl 8 TFL; 'clear leader up front'; BOLD
+DL,DT,1,Luther McCoy,SR,returning,246 snaps 64.3 (62.1 adj); 22 tkl 1.5 sk
+DL,DE,1,Ka'eo Akana,SR,returning,161 snaps 63.8 (61.6 adj)
+DL,NT,1,Geoffrey Speight,SR,transfer:West Georgia,D2: 9 gm 23 tkl 5 tfl; no cell
+DL,DE,2,Spencer Elliott,SR,transfer:Portland State,FCS: 12 gm 42 tkl; no cell
+DL,DE,2,Adam Tomczyk,SR,transfer:West Virginia,40 snaps 53.9 (B12 +3.12 -> 57.0 adj)
+DL,DT,2,Ozzy Pollard,SO,transfer:Marian College,NAIA: 11 st 32 tkl 5 sk; no cell
+DL,DE,3,Ha'aheo Dela Cruz,SO,returning,73 snaps 64.3 (62.1 adj)
+DL,DT,3,Iosefa Letuli,SO,returning,31 snaps 71.2 (69.0 adj) flash
+DL,DT,3,Jordan Lynch,SO,returning,58 snaps 34.8
+LB,MLB,1,Jamih Otis,SR,returning,549 snaps 60.0 (55.3 adj); 11 st 59 tkl; HM All-MWC; ACL Nov - PRINT CONFLICT on availability; BOLD
+LB,WLB,1,Wynden Ho'ohuli,SR,returning,203 snaps 52.2 (47.5 adj); converted 300-lb DL down to 240; PS#30
+LB,LB,2,Matteus Ioane,SO,returning,13 gm '25; green
+LB,LB,2,Junior Fiaui,SO,returning,PS#254; green
+DB,NB,1,Elijah Palmer,SR,returning,665 snaps 78.8 (76.4 adj) - best returning tape on roster; 4th season starting; HM All-MWC; 52 tkl 6.5 tfl 12 pd; BOLD
+DB,FS,1,Matagi Thompson,SR,returning,208 snaps 74.2 (71.8 adj); 3 st 16 tkl 4 pd
+DB,SS,1,Kona Moore,SR,returning,69 snaps 76.4 (74.0 adj) flash; 7 gm
+DB,CB,1,Caleb Brown,SR,transfer:Virginia Tech,BOOMERANG (UH shutdown CB '24); 55 snaps 41.8 at VT (ACC +1.18 -> 43.0 adj - poor); OFY '25
+DB,CB,1,Zion Allen,SR,returning,49 snaps 55.1 (52.7 adj); 9 gm; PS CB1 (Athlon starts Hughes)
+DB,CB,2,Jeremiah Hughes,SR,transfer:Michigan State,29 snaps 54.1 (B10 +6.33 -> 60.4, tiny); PS#75; Athlon CB1 (battle)
+DB,CB,2,Elijah Gipson,SR,returning,107 snaps 67.3 (64.9 adj); PS#151JC
+DB,S,2,Kodi DeCambra,JR,transfer:UNLV,12 snaps 63.6 (61.2 adj); PS#63; both prints S backup
+DB,S,2,Joenel Figueroa,SR,transfer:West Georgia,D2: 7 gm 25 tkl; no cell
+DB,NB,2,Jaylon Edmond,SO,transfer:Wake Forest,FEED-GAP (PS-only, Strickland); DNP '25
+ST,K,1,Sean Olvera-Harle,SR,returning,kickoff specialist '25; JUCO Saddleback '24: 11-14 FG 46-50 PAT
+ST,P,1,Gehrig Heil,FR,transfer:Texas,FEED-GAP (two prints); rFr DNP; ZERO college punts (HS: 24 punts 44.9)
+ST,KR,1,Cam Barfield,SR,returning,2nd-Tm All-MWC returner; 86-yd KR
+ST,PR,1,Tama Uiliata,SO,returning,PR per Athlon

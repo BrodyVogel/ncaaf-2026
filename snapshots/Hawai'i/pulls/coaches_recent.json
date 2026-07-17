@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Timmy",
+  "lastName": "Chang",
+  "hireDate": "2022-01-22T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Hawai'i",
+    "year": 2024,
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -12.9,
+    "spOverall": -10.9,
+    "spOffense": 20.9,
+    "spDefense": 30
+   }
+  ]
+ },
+ {
+  "firstName": "Timmy",
+  "lastName": "Chang",
+  "hireDate": "2022-01-22T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Hawai'i",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -3.3,
+    "spOverall": 1.7,
+    "spOffense": 27.3,
+    "spDefense": 27.3
+   }
+  ]
+ }
+]

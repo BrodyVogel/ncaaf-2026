@@ -1,0 +1,53 @@
+{
+ "team": "Hawai'i",
+ "conference": "Mountain West",
+ "created_utc": "2026-07-17T00:54:32+00:00",
+ "assembler_git_rev": "504729d",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Chang yr 5 (22-29). OC Arceneaux, DC Thurman (yr 2), ST Sheffield (yr 4) retained. x1.0.",
+ "portal_departure_confirmed": [
+  "Tim Malo",
+  "Deliyon Freeman",
+  "Joey Farthing",
+  "Semaj James"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Luther McCoy"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Luther McCoy": "DL 64.3/246 in yr4 list BUT two-print 2026 starter - PS DT lineup + 'Lagafuaina and Luther McCoy are the top guys up front' + Athlon DT1 (Sr.). PS 'lose six DL (41 st, 20 sk)' count excludes him (the six = Benton/Q.Williams/J.Johnson/Jones/Stocklinski/Sekona exactly). -> yr4_return_override, two-print rule.",
+  "No-dest GONEs": "Malo (S, also yr4), Freeman (CB), Farthing (WR), James (S) - out-feed no destination, absent BOTH prints -> GONE.",
+  "Elijah Palmer": "'starting for his fourth season' (Athlon) but NOT in yr4 roster list - RETURNS; no override needed (roster year field governs).",
+  "Jamih Otis": "NOT yr4 - returns; ACL Nov '25 with PRINT CONFLICT (PS 'full go' vs Athlon 'unclear if and when') -> LB graded L.",
+  "Caleb Brown (CB)": "boomerang: UH shutdown CB '24 -> Virginia Tech '25 (41.8/55) -> back. Distinct from Carson Brown (WR <- Iowa State).",
+  "Jackie Johnson III / De'Jon Benton": "PS 'top two sack guys' - both yr4-expired (76.4/407 ED + 78.8/536 DI), matching 'six DL (41 st, 20 sk)' exactly.",
+  "Kansei Matsuzawa": "PK yr4 (All-America, Groza finalist) - expires outside ledger scope (no ST unit csv); noted in dossier.",
+  "Two Harrises": "Jackson Harris (WR1 '25, 83.9/345) -> LSU; Audric Harris (WR) arrives FROM Washington. Unrelated."
+ },
+ "feed_gap_arrivals_documented": [
+  "Denaris DeRosa (IOL <- San José State): absent from UH in-feed; TWO prints (Athlon depth* + PS RG backup) AND SJSU out-feed carries him no-dest (SJSU build adjudicated no-dest GONE) -> destination resolves to Hawai'i. One-sided in-feed miss; round destination-resolution #4.",
+  "Gehrig Heil (P/K <- Texas): absent from feed; TWO prints (Athlon P1*, PS P lineup 'DNP LY at Texas').",
+  "Jaylon Edmond (DB <- Wake Forest): PS-only (PS#259, DNP LY at WF) -> single-print per Strickland precedent."
+ ],
+ "position_notes": {
+  "Micah Alejado": "76.6/507 -> 69.3 adj = best QB tape of MWC round; MWC FrOY; 3,106 @ 66% 24-9; 5'10 180, missed 2 gm '25.",
+  "Elijah Palmer": "78.8/665 -> 76.4 adj = best returning tape on roster; 4th year starting at NB.",
+  "OL": "returning starters grade 31.6-52.4 adj (Briski 41.7 raw on 788 snaps); top three snap-earners (Sotelo/Milovale/Peihopa) all yr4-expired; PBLK p21/RBLK p11.",
+  "ST walk-out": "K Matsuzawa (All-America) + P Gowers (46.3 -> Indiana, printed P1 there) both gone from #38-STR unit; replacements = kickoff specialist + zero-college-punt rFr.",
+  "Jackson Harris": "83.9/345 (963 @ 19.7) -> LSU - the departing elite tape.",
+  "2025 shape": "9-4: PASS p73/PRSH p75/COV p61/SPEC p67 carried PBLK p21/RBLK p11/RDEF p13/TACK p9."
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "Speight/Figueroa (D2), Elliott (FCS), Pollard (NAIA) arrivals have no FBS tape - evidence-only",
+  "Jurgensen (UVA), Walker (USF), Edmond (WF), Heil (Texas), Muti et al. DNP 2025 - no tape rows",
+  "Otis ACL recovery timeline unresolved (print conflict)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}
