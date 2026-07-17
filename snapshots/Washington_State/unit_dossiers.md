@@ -106,7 +106,7 @@ punter + return men, off a below-average base. ST driven by specialists
   Freeman 76.0, RB trio, TE Leckner) + a transfer QB (Pinnick, FCS) behind
   a historically-bad OL (p1/p4) that returns. The DEFENSE is 100% NEW (0
   returning starters) - the good 2025 D (DEF p75, COV p81) left entirely
-  (a cluster to Iowa State, 6 to Vanderbilt with Rogers), rebuilt with
+  (a large cluster to Iowa State, following former HC Rogers there), rebuilt with
   transfers.
 - COACH: Kirby Moore "Record at School: First Season" -> COACH CHANGE
   (x1.13). DC Trent Bray (the ex-OSU HC).

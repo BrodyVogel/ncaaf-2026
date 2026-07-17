@@ -9,7 +9,9 @@ Blinding v2: National Forecast / Pac-12 Prediction / Phil's Forecast / STR EXCLU
   First Season"** -> COACH CHANGE (x1.13). Ex-Missouri OC. OC Matt Miller.
   DC Trent Bray (the ex-Oregon State HC).
 - 2026-07-17 [Athlon] "After another offseason of big roster turnover" -
-  former HC Jimmy Rogers left for Vanderbilt, taking SIX key players.
+  former HC Jimmy Rogers left for IOWA STATE, taking SIX key players
+  (Athlon; corroborated by the 15-player Iowa State portal cluster). Note:
+  "Vanderbilt" on the page = incoming transfer Linus Zunk's prior school.
 - 2026-07-17 [Athlon] OFFENSE: "unanswered questions at QB" - Caden
   Pinnick (UC Davis FCS transfer) the projected QB1. RB trio Kirby Vorhees
   + Maxwell Woods + [Pulalasi]. Kirby Moore "will guide an offense replete

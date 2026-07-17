@@ -4,7 +4,8 @@ Format: `- YYYY-MM-DD [source] fact`. Facts only - no forecasts.
 
 - 2026-07-17 [program] 2025 Pac remnant (7-6). NEW HC Kirby Moore (First
   Season; ex-Missouri OC) -> COACH CHANGE (band x1.13). DC Trent Bray
-  (ex-OSU HC). Former HC Jimmy Rogers -> Vanderbilt, took 6 players.
+  (ex-OSU HC). Former HC Jimmy Rogers -> Iowa State, took 6 players
+  (they followed him; the 15-player Iowa State portal cluster corroborates).
 - 2026-07-17 [OFFSET CALL — FLAG FOR OWNER] Wazzu is the OTHER Pac
   remnant, so the PAC offset cell is INAPPROPRIATE (per pac12_magazine_
   map.md). 2025 slate: Washington, Ole Miss, Virginia, Kansas State (P4)
@@ -19,7 +20,7 @@ Format: `- YYYY-MM-DD [source] fact`. Facts only - no forecasts.
   flags): Jalil Tucker (CB <- Oregon State) + Darrius Clemons (WR <-
   Oregon State) + Khamari Terrell (CB <- Texas State). All present ->
   3 flags CLOSED. Wazzu departures went to Iowa State (a large cluster),
-  Vanderbilt (6 w/ Rogers), BC, Cincinnati, ODU - none to unbuilt Pac-12
+  Iowa State (a large cluster w/ Rogers), BC, Cincinnati, ODU - none to unbuilt Pac-12
   (all other Pac-12 teams are built).
 - 2026-07-17 [DISPOSITION GATE] adjudicated vs Athlon 2026 depth chart:
   * STAYS — portal-NONE withdrawal overrides (Athlon BOLD): Kirby Vorhees

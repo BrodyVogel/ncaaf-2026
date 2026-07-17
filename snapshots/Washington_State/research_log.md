@@ -6,7 +6,7 @@
 - 2026-07-17 magazines: Athlon PAC12 p.10 (header-verified) w/ 2026 depth
   chart; PS PAC12 p.6 (banner-verified). Blinding v2.
 - 2026-07-17 COACH: TRUE. NEW HC Kirby Moore (First Season; ex-Missouri
-  OC). Band x1.13. DC Trent Bray (ex-OSU HC). Rogers -> Vanderbilt (+6).
+  OC). Band x1.13. DC Trent Bray (ex-OSU HC). Rogers -> Iowa State (+6).
 - 2026-07-17 OFFSET (FLAG FOR OWNER): 2-team Pac remnant -> PAC cell
   inappropriate. G5-plus slate. Conservative MWC-like cells; P4 games
   argue lighter. Same convention as Oregon State.

@@ -5,7 +5,7 @@
  "assembler_git_rev": "646035f",
  "cfbd_pull_dir": "data/cfbd/2026-07-12",
  "coach_change": true,
- "coach_note": "NEW HC Kirby Moore - Athlon 'Record at School: First Season', 'Career Record: First Season' (ex-Missouri OC) -> COACH CHANGE (band x1.13). DC Trent Bray (the ex-Oregon State HC, fired at OSU). Former HC Jimmy Rogers left for Vanderbilt, taking six players.",
+ "coach_note": "NEW HC Kirby Moore - Athlon 'Record at School: First Season', 'Career Record: First Season' (ex-Missouri OC) -> COACH CHANGE (band x1.13). DC Trent Bray (the ex-Oregon State HC, fired at OSU). Former HC Jimmy Rogers left for Iowa State, taking six players (CORRECTED 2026-07-17: originally mis-transcribed as 'Vanderbilt' from jumbled two-column magazine OCR; Athlon says Iowa State, corroborated by the 15-player Iowa State portal-out cluster. 'Vanderbilt' on the page is incoming transfer Linus Zunk's prior school, a separate sentence).",
  "conference_note": "2025 Pac remnant (with OSU) -> the PAC offset cell (big positive, old strong Pac-12) is INAPPROPRIATE per pac12_magazine_map.md. Wazzu's 2025 slate: Washington, Ole Miss, Virginia, Kansas State (P4) + SDSU, North Texas, CSU, Toledo, La Tech, OSU x3, JMU, Utah State (G5) + Idaho (FCS) = a G5-plus schedule. TREATMENT: conservative MWC-like cells on returning tape (QB -7.35, RB -8.95, WRTE -3.70, OL -10.08, DL -2.19, LB -4.74, DB -2.43), noting the P4 games argue for a lighter (nearer-zero) discount. FLAG FOR OWNER (same convention as Oregon State). Arrivals on origin cells; FCS/D2 arrivals = no cell (Pinnick UC Davis, many defensive transfers).",
  "portal_departure_confirmed": [
   "Darrion Dalton",
