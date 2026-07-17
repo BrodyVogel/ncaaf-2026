@@ -11,7 +11,7 @@
  "portal_withdrawal_overrides": [],
  "yr4_return_overrides_documented": ["Cameron Martinez"],
  "nfl_declare_confirmed": [],
- "departure_confirmed_research": [],
+ "departure_confirmed_research": ["Bam Crouch"],
  "feed_gap_arrivals_documented": [],
  "known_name_exceptions": {
   "Cameron Martinez": "CB, yr4, Athlon CB2 (Sr.) on the 2026 chart -> RETURNS (yr4_return_override). 52.5/116 (depth).",
@@ -20,7 +20,8 @@
   "Lewis Bond": "WR, yr4, 74.5/474 (top returning WR) - GONE. Not on the 2026 chart. EXPIRED(yr4). (A real loss - the WR is gutted.)",
   "Jeremiah Franklin": "TE, yr4, 65.7/333 - GONE. Not on chart (TE is Chudzinski/Kossmann). EXPIRED(yr4).",
   "Logan Taylor": "OL, yr4, 70.8/837 - GONE. Not on chart. EXPIRED(yr4).",
-  "Kevin Cline": "OL, yr4, 73.7/691 (best OL grade) - GONE. Not on chart. EXPIRED(yr4)."
+  "Kevin Cline": "OL, yr4, 73.7/691 (best OL grade) - GONE. Not on chart. EXPIRED(yr4).",
+  "Bam Crouch": "LB, 68.5/194 - NAME COLLISION resolved: 'Bam Crouch' (PFF tape) = Daveon Crouch (CFBD roster, yr4 LB) who is in the portal-out -> KANSAS. GONE. The feeds missed it because the portal-out name form ('Daveon') differs from the tape nickname ('Bam'). Caught by departure_check; corrected -> departure_confirmed_research. (Removed from the LB two-deep; LB re-graded 44->42.)"
  },
  "known_gaps": [
   "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts",

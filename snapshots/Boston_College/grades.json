@@ -1,0 +1,149 @@
+{
+ "team": "Boston College",
+ "units": {
+  "QB": {"grade": 40, "confidence": "L"},
+  "RB": {"grade": 50, "confidence": "M"},
+  "WRTE": {"grade": 42, "confidence": "L"},
+  "OL": {"grade": 46, "confidence": "M"},
+  "DL": {"grade": 40, "confidence": "L"},
+  "LB": {"grade": 42, "confidence": "M"},
+  "DB": {"grade": 48, "confidence": "M"},
+  "ST": {"grade": 52, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18 (e5b9dbc)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape, arrivals on origin cells; HC O'Brien Year 3 = no coach change; disposition gate resolved before grading - near-total overhaul adjudicated vs both charts); anchor values not consulted",
+  "planned_vs_final_deviations": {"note": "LB revised 44->42 after a departure_check catch (LB 'Bam Crouch' = Daveon Crouch ->Kansas, a name-collision; wrongly listed returning). All eight finals now match the corrected dossier lines (QB 40/RB 50/WRTE 42/OL 46/DL 40/LB 42/DB 48/ST 52)."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB 45, WRTE 13, OL 44, DL 33, LB 58, DB 19, ST 70) - heavy churn makes it unreliable; the 2026 roster is a near-total overhaul.",
+   "QB": "40 - proxy None (the D2 transfer has no FBS proxy); graded as a total FBS-level projection.",
+   "WRTE": "+29 vs proxy 13 - proxy keys the gutted WR; the grade adds for TE Chudzinski (a genuine piece).",
+   "DB": "+29 vs proxy 19 - proxy under-keys the returning core; the grade credits Price + Farris + Green (the most-intact unit).",
+   "DL": "+7 vs proxy 33 - both key the weak/rebuilt front off the PRSH-p11 base."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Boston College", "unit": "QB", "grade": 40, "confidence": "L",
+   "bracketing_exemplars": ["New Mexico QB 2025 (34, exemplar anchor)", "FIU QB (15, exemplar anchor context)"],
+   "rationale_bullets": [
+    "Mason McKenzie (Div-II Saginaw Valley State, GLIAC POY) is the 'presumed starter' - NO FBS tape (evidence-only, no cell). O'Brien compares him to Chambliss; a scout is skeptical ('I don't know if any of them are elite').",
+    "QB2 Grayson Wilson (Arkansas, Fr). Both '25 QBs GONE (Lonergan ->Rutgers; Grayson James yr4).",
+    "A total FBS-level projection - a D2 POY who could pop or be overmatched; no proven FBS floor.",
+    "40: above the outright-worst tier on the D2-POY pedigree + O'Brien's endorsement; well below any proven FBS starter. L."
+   ],
+   "key_players": [
+    {"name": "Mason McKenzie", "role": "QB1 (transfer, Saginaw Valley State D2)", "evidence": "GLIAC POY; no FBS tape; 'presumed starter'; compared to Chambliss"}
+   ],
+   "data_gaps": ["no FBS tape (D2 transfer)", "new-look offense, no proven QB floor"], "g5_guard_note": "D2 transfer QB1 - graded as an unproven FBS projection; the season swings on whether McKenzie translates"
+  },
+  {
+   "team": "Boston College", "unit": "RB", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["Illinois RB 2025 (32, exemplar anchor)", "California RB 2026 (46, round peer)"],
+   "rationale_bullets": [
+    "Evan Dickens (Liberty, 84.9/229 -> CUSA -7.50 -> 77.4 adj) is a proven volume back - the offensive bright spot.",
+    "Nolan Ray (Maryland, 71.6 adj) complements. Lost Turbo Richard (->Indiana) + McDonald (yr4).",
+    "A genuinely proven transfer lead back behind an RBLK-p78 line.",
+    "50: a clear notch below the elite tier (Dickens' CUSA discount); well above the projection tier."
+   ],
+   "key_players": [
+    {"name": "Evan Dickens", "role": "RB1 (transfer, Liberty)", "evidence": "84.9/229 (77.4 CUSA-adj); proven volume"}
+   ],
+   "data_gaps": ["Dickens unproven at the ACC level", "RUN p10 base"], "g5_guard_note": null
+  },
+  {
+   "team": "Boston College", "unit": "WRTE", "grade": 42, "confidence": "L",
+   "bracketing_exemplars": ["Ball State WRTE (p3, 53.9 table anchor)", "Virginia WRTE 2026 (44, round peer)"],
+   "rationale_bullets": [
+    "GUTTED at WR - lost Bond (74.5, yr4, the top WR) + Harris (->ASU). Returns Skeete (60.3 adj) + Pough; adds transfers Green (UNC), Wright (Wazzu), Wade (Florida).",
+    "TE Kaelan Chudzinski (74.3 adj - 'a revelation, could be one of the best TEs in the ACC') is the one genuine piece.",
+    "Scout: 'they don't have dynamic playmakers... won't out-recruit anyone at WR.'",
+    "42: the TE lifts it off the floor; the no-playmaker WR room caps it. L."
+   ],
+   "key_players": [
+    {"name": "Kaelan Chudzinski", "role": "TE (returning)", "evidence": "73.1/139 (74.3 ACC-adj); 24 rec 313 4TD; 'revelation'"},
+    {"name": "Jaedn Skeete", "role": "WR1 (returning)", "evidence": "57.9/162 (60.3 adj); WR1 by default"}
+   ],
+   "data_gaps": ["lost the top WR (Bond, yr4)", "no dynamic WR playmakers"], "g5_guard_note": null
+  },
+  {
+   "team": "Boston College", "unit": "OL", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Western Kentucky OL 2025 (25, exemplar anchor)", "California OL 2026 (44, round peer)"],
+   "rationale_bullets": [
+    "Returns Crounse (C, 68.1 adj) + Bowry (T, 70.3) + Robert Smith (G); adds a half-dozen transfers 'many in position to start' - Reggie Jackson (Jax St, 63.2 adj, 815 snaps proven) + Phillips (Mich St) + Snively (E Mich).",
+    "Lost Taylor + Cline (yr4, the 2 best) + Daugherty (->Louisville).",
+    "A heavy transfer rebuild with a few proven pieces off an RBLK-p78 base.",
+    "46: more proven bodies than a typical rebuild; the yr4 losses + integration cap it."
+   ],
+   "key_players": [
+    {"name": "Michael Crounse", "role": "C (returning, BOLD)", "evidence": "64.6/632 (68.1 ACC-adj)"},
+    {"name": "Reggie Jackson", "role": "RT (transfer, Jacksonville State)", "evidence": "69.6/815 (63.2 adj); proven volume"}
+   ],
+   "data_gaps": ["lost the 2 best OL (yr4)", "half the line is new transfers"], "g5_guard_note": null
+  },
+  {
+   "team": "Boston College", "unit": "DL", "grade": 40, "confidence": "L",
+   "bracketing_exemplars": ["Buffalo DL (p10, 57.2 table anchor context)", "California DL 2026 (42, round peer)"],
+   "rationale_bullets": [
+    "Rebuild. Returns Marable (60.9 adj) + Bate + Nwosisi; adds Sampson (FSU), Kris Jones (Georgia, 66.3), Ballard (Buffalo, 63.3), Hudson (Colorado).",
+    "Lost McConnell/Hutchins/Kwan Williams (yr4) + Kolenge (->Vanderbilt).",
+    "A weak, rebuilt front off a PRSH-p11 (no pass rush) base - Athlon 'solid job rebuilding the edge' but mostly mid-grade transfers.",
+    "40: near the round floor; the p11 base + rebuild. L."
+   ],
+   "key_players": [
+    {"name": "Chris Marable Jr.", "role": "DT (returning, BOLD)", "evidence": "59.7/446 (60.9 ACC-adj)"},
+    {"name": "Kris Jones", "role": "DE (transfer, Georgia)", "evidence": "58.4/117 (66.3 adj)"}
+   ],
+   "data_gaps": ["PRSH p11 (no pass rush)", "front mostly rebuilt with mid-grade transfers"], "g5_guard_note": null
+  },
+  {
+   "team": "Boston College", "unit": "LB", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["UNLV LB 2025 (40, exemplar anchor)", "California LB 2026 (38, round peer context)"],
+   "rationale_bullets": [
+    "Transfer-BUILT: Medlock (SMU, 71.6 adj) + Palano (Wazzu, ~62 MWC-like) as the starters + Kahoun (Notre Dame, tiny) + returning depth Collins.",
+    "Lost McGowan (yr4) + Steele (->Troy) + Bam/Daveon Crouch (->Kansas; name-collision corrected).",
+    "Two decent transfer starters but NO returning anchor and thin depth; Palano weighted MWC-like (Pac-remnant).",
+    "42: transfer-built and thin; just above the UNLV-40 rail on Medlock/Palano."
+   ],
+   "key_players": [
+    {"name": "Justin Medlock", "role": "LB (transfer, SMU)", "evidence": "69.5/234 (71.6 ACC-adj)"},
+    {"name": "Anthony Palano", "role": "LB (transfer, Washington State)", "evidence": "66.9/406 (Pac-remnant, ~62 MWC-like)"}
+   ],
+   "data_gaps": ["no returning starter (Crouch was a name-collision -> gone)", "Palano's Pac-remnant tape; thin depth"], "g5_guard_note": null
+  },
+  {
+   "team": "Boston College", "unit": "DB", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["California DB 2026 (48, round peer)", "Wake Forest DB 2026 (50, round peer)"],
+   "rationale_bullets": [
+    "The MOST-INTACT unit. Returns Price (S, 64.3 adj - 'BC's leading defensive player from '25') + Farris (CB, 69.8) + TJ Green (CB, 63.7) + Tucker (CB) + Carter Davis (S); adds Howard (Alabama, tiny) + Chandler Jordan (Ga St).",
+    "Lost Thornton (->Miami) + Amari Jackson (->Maryland) + Omarion Davis (->PSU).",
+    "A genuine returning core - the team's defensive backbone - off a COV-p28 base.",
+    "48: a solid-if-unspectacular returning group; ~ Cal DB 48."
+   ],
+   "key_players": [
+    {"name": "KP Price", "role": "S (returning, BOLD)", "evidence": "63.1/765 (64.3 ACC-adj); 'leading defensive player'"},
+    {"name": "Isaiah Farris", "role": "CB (returning)", "evidence": "68.6/555 (69.8 adj)"},
+    {"name": "TJ Green", "role": "CB (returning)", "evidence": "62.5/334 (63.7 adj)"}
+   ],
+   "data_gaps": ["COV p28 base", "lost Thornton (Miami) + 2 corners"], "g5_guard_note": null
+  },
+  {
+   "team": "Boston College", "unit": "ST", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest ST 2026 (54, round peer)", "Virginia ST 2026 (54, round peer)"],
+   "rationale_bullets": [
+    "K Luca Lombardo returns - 'arguably BC's best player in 2025' (16/17 FG, excellent).",
+    "Towson transfer Bryce LaFollette likely the punter; returners Green/Farris. SPEC p70.",
+    "An excellent returning kicker off a p70 ST base. ST driven by specialists (calib).",
+    "52: above average; the kicker a real asset."
+   ],
+   "key_players": [
+    {"name": "Luca Lombardo", "role": "K (returning)", "evidence": "16/17 FG; 'arguably BC's best player in '25'"},
+    {"name": "Bryce LaFollette", "role": "P (transfer, Towson)", "evidence": "FCS punter"}
+   ],
+   "data_gaps": ["new punter (FCS transfer)"], "g5_guard_note": null
+  }
+ ]
+}

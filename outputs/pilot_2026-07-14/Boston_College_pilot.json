@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T22:43:51+00:00",
+ "team": "Boston College",
+ "final": -2.15,
+ "rank": 75,
+ "band": 6.54,
+ "resid": 1.65,
+ "adj": 0.58,
+ "class_term": -0.0,
+ "st": 0.04,
+ "anchor_blend": -3.26,
+ "resid_level": 2.03,
+ "resid_shape": -0.39,
+ "implied_off": 24.68,
+ "implied_def": 26.79,
+ "anchor_off": 24.52,
+ "anchor_def": 28.28,
+ "fit_r2": {
+  "off": 0.538,
+  "dfn": 0.615
+ },
+ "low_conf_units": 3,
+ "code_rev": "e5b9dbc",
+ "mode": "PILOT-OOS"
+}

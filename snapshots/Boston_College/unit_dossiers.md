@@ -74,13 +74,14 @@ Mechanical: a weak, rebuilt front off a PRSH-p11 (no pass rush) base - Athlon
 "solid job rebuilding the edge" but mostly mid-grade transfers. Maps ~DL
 p36-42. Bracket: near the round floor; the p11 base + rebuild. L.
 
-## LB — planned 44
-Room: transfer-led - Medlock (SMU, 71.6 adj) + Palano (Wazzu, ~62 MWC-like) +
-Bam Crouch (returning, 70.6) + Kahoun (Notre Dame, tiny). Lost McGowan (yr4)
-+ Steele (->Troy).
-Mechanical: a couple decent transfers (Medlock) + a returning starter (Crouch);
-Palano weighted MWC-like (Pac-remnant). Maps ~LB p40-46. Bracket: UNLV LB 40
-< this 44 ~ the round's mid rebuilds.
+## LB — planned 42
+Room: transfer-BUILT - Medlock (SMU, 71.6 adj) + Palano (Wazzu, ~62 MWC-like)
++ Kahoun (Notre Dame, tiny) + returning depth Collins. Lost McGowan (yr4) +
+Steele (->Troy) + Bam/Daveon Crouch (->Kansas; name-collision corrected - see
+below). NO significant returning starter.
+Mechanical: two decent transfer starters (Medlock + Palano) but no returning
+anchor and thin depth; Palano weighted MWC-like (Pac-remnant). Maps ~LB p38-44.
+Bracket: UNLV LB 40 < this 42 - transfer-built, thin.
 
 ## DB — planned 48
 Room: the MOST-INTACT unit. Returns Price (S, 64.3 adj - "leading defensive
@@ -109,14 +110,17 @@ a real asset.
   State (Pac-remnant) - MWC-like.
 - DISPOSITION: a near-total overhaul. yr4 GONE: WR Bond (74.5), OL Cline
   (73.7) + Taylor, TE Franklin, DL trio, LB McGowan. yr4 RETURN: CB Martinez.
-  portal->dest GONE: RB Richard, WR Harris, S Thornton. 0 portal-none.
+  portal->dest GONE: RB Richard, WR Harris, S Thornton. NAME-COLLISION
+  CORRECTED: LB "Bam Crouch" (PFF) = Daveon Crouch (roster) ->Kansas, GONE
+  (departure_check catch; was wrongly listed returning -> LB 44->42). 0
+  unresolved portal-none.
 - PROVEN vs PROJECTED: RB Dickens + TE Chudzinski + DB core (Price/Farris/
   Green) + K Lombardo are proven; the QB (D2), DL, WR, and half the OL are
   projections (grades discount the D2 QB + tiny-sample transfers).
 - Confidence: 3 L-units (QB D2-no-FBS-tape; WRTE gutted; DL rebuild+p11).
   Coach x1.00.
 
-PLANNED GRADES: QB 40 L | RB 50 | WRTE 42 L | OL 46 | DL 40 L | LB 44 | DB 48 | ST 52
+PLANNED GRADES: QB 40 L | RB 50 | WRTE 42 L | OL 46 | DL 40 L | LB 42 | DB 48 | ST 52
 
 ## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
 - QB: Dylan Lonergan (70.8/330) PORTAL->Rutgers; Grayson James (60.0/188) EXPIRED(yr4)*
@@ -124,5 +128,5 @@ PLANNED GRADES: QB 40 L | RB 50 | WRTE 42 L | OL 46 | DL 40 L | LB 44 | DB 48 | 
 - WRTE: Reed Harris (65.6/477) PORTAL->Arizona State; Lewis Bond (74.5/474) EXPIRED(yr4)*; Jeremiah Franklin (65.7/333) EXPIRED(yr4)*; Dawson Pough (53.4/256) RETURNS; Jaedn Skeete (57.9/162) RETURNS; Kaelan Chudzinski (73.1/139) RETURNS
 - OL: Logan Taylor (70.8/837) EXPIRED(yr4)*; Kevin Cline (73.7/691) EXPIRED(yr4)*; Eryx Daugherty (67.8/646) PORTAL->Louisville; Michael Crounse (64.6/632) RETURNS; Jude Bowry (66.8/509) RETURNS; Robert Smith IV (57.2/423) RETURNS; Dwayne Allick (52.6/222) EXPIRED(yr4)*
 - DL: Sedarius McConnell (64.2/476) EXPIRED(yr4)*; Chris Marable Jr. (59.7/446) RETURNS; Edwin Kolenge (66.4/443) PORTAL->Vanderbilt; Quintayvious Hutchins (68.2/418) EXPIRED(yr4)*; Kwan Williams (65.4/378) EXPIRED(yr4)*; Favor Bate (61.9/312) RETURNS; E'Lla Boykin (62.7/241) RETURNS; Ty Clemons (57.9/116) PORTAL->Troy
-- LB: Owen McGowan (53.0/659) EXPIRED(yr4)*; Bam Crouch (68.5/194) RETURNS; Bryce Steele (48.0/177) PORTAL->Troy
+- LB: Owen McGowan (53.0/659) EXPIRED(yr4)*; Bam Crouch (68.5/194) GONE (research); Bryce Steele (48.0/177) PORTAL->Troy
 - DB: KP Price (63.1/765) RETURNS; Omar Thornton (69.2/700) PORTAL->Miami; Carter Davis (52.5/582) RETURNS; Isaiah Farris (68.6/555) RETURNS; Max Tucker (56.2/412) RETURNS; TJ Green (62.5/334) RETURNS; Omarion Davis (56.7/153) PORTAL->Penn State; Amari Jackson (66.6/149) PORTAL->Maryland; Ashton Cunningham (68.7/142) RETURNS; Marcus Upton (53.9/134) RETURNS; Charlie Comella (62.4/128) RETURNS; Cameron Martinez (52.5/116) RETURNS (yr4 override, May-print)

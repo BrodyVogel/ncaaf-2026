@@ -24,6 +24,11 @@ Format: `- YYYY-MM-DD [source] fact`. Facts only - no forecasts.
   DL Kolenge ->Vanderbilt; LB Steele ->Troy. 0 portal-none to adjudicate.
 - 2026-07-17 MOST-INTACT unit: DB - returns Price (S, leader), Farris (CB),
   TJ Green (CB), Tucker (CB), Carter Davis (S). K Lombardo (16/17) returns.
+- 2026-07-18 NAME-COLLISION CORRECTED (departure_check catch): LB "Bam Crouch"
+  (PFF tape, 68.5/194) = Daveon Crouch (CFBD roster, yr4 LB) -> KANSAS. The
+  only Crouch on the BC roster is Daveon (portal-out to Kansas); "Bam" is his
+  nickname. He is GONE, not returning. Corrected: removed from the LB two-deep,
+  added to departure_confirmed_research, LB re-graded 44->42.
 
 ## PORTAL IN (26; enrollment via CFBD in-feed) — key arrivals
 - 2026-07-17 QB Mason McKenzie (Saginaw Valley State D2), QB Grayson Wilson
