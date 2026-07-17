@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Justin",
+  "lastName": "Wilcox",
+  "hireDate": "2017-01-14T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "California",
+    "year": 2024,
+    "games": 13,
+    "wins": 6,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 1.8,
+    "spOverall": 4,
+    "spOffense": 27.4,
+    "spDefense": 22.9
+   }
+  ]
+ },
+ {
+  "firstName": "Justin",
+  "lastName": "Wilcox",
+  "hireDate": "2017-01-14T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "California",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -4.1,
+    "spOverall": -3.2,
+    "spOffense": 25.6,
+    "spDefense": 27.9
+   }
+  ]
+ }
+]

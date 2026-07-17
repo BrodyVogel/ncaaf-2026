@@ -1,0 +1,38 @@
+{
+ "team": "California",
+ "conference": "ACC",
+ "created_utc": "2026-07-17T20:49:13+00:00",
+ "assembler_git_rev": "db16dd1",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Tosh Lupoi - Athlon 'New Cal head coach Tosh Lupoi' + 'Record at School: First Season / Career Record: First Season'; PS '1st Year Here'. First-time HC (was Oregon DC 2022-25; Bama DC '18). Band x1.13. GM Ron Rivera. OCs Somerville/Hilliard, DCs Hutchings/Brown. Verified BOTH sources.",
+ "conference_note": "ACC (P4 - Cal joined ACC 2024, so Cal's own tape = ACC cells). Arrivals on origin cells: Mohammed Washington/B10, Emory UTEP/CUSA, Brousseau Colorado State/PAC-remnant(FLAG); Hendricks Ohio/MAC, Strong Rutgers/B10, Cooper Perry+Lopa+Mothudi+Jericho Johnson Oregon/B10, Dorian Thomas New Mexico/MWC, Rico Walker Purdue/B10; Jimothy Lewis+Shepphard Miss State/SEC, Tafai Minnesota/B10, Rivera Kent State/MAC; Solomon Williams+Jernigan Texas A&M/SEC, Okoye Tennessee/SEC, Beadles Louisville/ACC, Pierce+J.Williams North Texas/AAC; Fletcher Ole Miss/SEC, Harris Georgia/SEC, Groves-Killebrew Arizona/B12, Tuitele USC/B10. FLAG: Jackson Brousseau QB tape at Colorado State - CSU is MWC (not Pac-remnant); MWC cell applies. NOTE: Ashten Emory closes the UTEP->Cal forward flag.",
+ "portal_departure_confirmed": ["Jordan Spasojevic-Moko", "Aidan Keanaaina"],
+ "portal_withdrawal_overrides": ["Cam Sidney", "Nate Burrell", "Chase Meyer"],
+ "yr4_return_overrides_documented": ["Stanley Saole-McKenzie"],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Jaron-Keawe Sagapolutele": "QB1 RETURNS - 78.3/577 (led '25 as a true frosh, 3,484 yds 18-9 per PS). New HC Lupoi 'flew to Hawai'i, convinced star QB to return.' The centerpiece. Not in out-feed.",
+  "Cam Sidney": "NB, portal-None but Athlon 'Nickel Cam Sidney returns' + BOLD on 2026 chart -> WITHDREW (portal_withdrawal_override). 68.9/511.",
+  "Nate Burrell": "DE, portal-None but Athlon BOLD DE starter (Sr.) + 'Veterans Nate Burrell... return' -> WITHDREW (portal_withdrawal_override). <100-vol '25.",
+  "Chase Meyer": "K, portal-None but Athlon 'Chase Meyer is back' (10-13 FG, 7-7 inside 40) -> WITHDREW (portal_withdrawal_override).",
+  "Stanley Saole-McKenzie": "DT, yr4, Athlon DT2 (Sr.) on the 2026 chart -> RETURNS (yr4_return_override). 60.2/229.",
+  "Jordan Spasojevic-Moko": "IOL, portal-None, 55.4/852, NOT on either 2026 chart -> GONE (portal_departure_confirmed, no withdrawal evidence).",
+  "Aidan Keanaaina": "DT, portal-None, 76.9/544, NOT on either 2026 chart (Athlon front is Burrell/J.Johnson/Wilkins/S.Williams) -> GONE (portal_departure_confirmed).",
+  "Brent Austin": "CB, yr4, 86.3/828 (elite) - GONE. Not on 2026 chart (corners are transfers Fletcher/Harris); Athlon 'new look secondary... lost key back-end players.' EXPIRED(yr4).",
+  "Hezekiah Masses": "CB, yr4, 79.5/847 - GONE. Not on 2026 chart. EXPIRED(yr4).",
+  "Cade Uluave": "LB, 60.5/662 (1st-tm All-ACC) - GONE ->BYU. Athlon+PS 'portal took away their two stars Uluave + Ferrelli.'",
+  "Luke Ferrelli": "LB, 68.4/743 (ACC DFOY) - GONE ->Ole Miss. Athlon+PS confirm."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts",
+  "NEW HC Lupoi (Y1) + MASSIVE churn (32 in / 36 out) -> heavy first-year projection (band x1.13)",
+  "QB Sagapolutele returns (the centerpiece); WR/TE deep (transfer-led). But the DEFENSE is gutted: LB lost both stars (Uluave All-ACC, Ferrelli DFOY); DB lost elite corners Austin (86.3) + Masses (79.5); DL rebuilt. RUN p9 + RDEF p7 in '25.",
+  "Pac-remnant note: Cal itself is ACC now; Brousseau's tape at Colorado State = MWC cell"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T00:00:00+00:00"
+}

@@ -1,0 +1,36 @@
+{
+ "id": 25,
+ "school": "California",
+ "mascot": "Golden Bears",
+ "abbreviation": "CAL",
+ "alternateNames": [
+  "CAL",
+  "California"
+ ],
+ "conference": "ACC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#031522",
+ "alternateColor": "#ffc423",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/25.png"
+ ],
+ "twitter": "@CalFootball",
+ "location": {
+  "id": 3831,
+  "name": "California Memorial Stadium",
+  "city": "Berkeley",
+  "state": "CA",
+  "zip": "94720",
+  "countryCode": "US",
+  "timezone": "America/Los_Angeles",
+  "latitude": 37.8710434,
+  "longitude": -122.2507729,
+  "elevation": "125.3108063",
+  "capacity": 62467,
+  "constructionYear": 1923,
+  "grass": false,
+  "dome": false
+ }
+}

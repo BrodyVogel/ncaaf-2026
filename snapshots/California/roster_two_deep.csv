@@ -1,0 +1,43 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Jaron-Keawe Sagapolutele,QB,SO,returning,Athlon,PS,H,78.3/577 (ACC +2.08 -> 80.4 adj); 3484 yds 18-9 as a true frosh; the centerpiece (Lupoi convinced him to stay)
+QB,2,Jackson Brousseau,QB,JR,transfer:Colorado State,Athlon,PS,L,55.3/265 (MWC cell); 8 st at CSU
+RB,1,Adam Mohammed,RB,JR,transfer:Washington,Athlon,PS,M,85.9/106 (B10 -0.40 -> 85.5 adj, small sample); "headlines"; 105 yds vs Oregon
+RB,2,Ashten Emory,RB,SO,transfer:UTEP,Athlon,PS,L,71.5/119 (CUSA -7.50 -> 64.0 adj); UTEP rushing leader; xref closed
+RB,3,LJ Johnson Jr.,RB,SR,returning,Athlon,PS,L,58.6/35; returning depth
+WRTE,1,Chase Hendricks,WR,SR,transfer:Ohio,Athlon,PS,M,83.8/382 (MAC -7.12 -> 76.7 adj); 2nd-tm All-MAC
+WRTE,2,Ian Strong,WR,SR,transfer:Rutgers,Athlon,PS,M,78.9/356 (B10 -1.26 -> 77.6 adj)
+WRTE,3,Dorian Thomas,TE,JR,transfer:New Mexico,Athlon,PS,M,65.9/328 (MWC -3.70 -> 62.2 adj); 1st-tm All-MW, top-10 TE nationally
+WRTE,4,Quaron Adams,WR,JR,returning,Athlon,PS,M,73.1/108 (ACC +2.36 -> 75.5 adj); returning
+WRTE,5,Cooper Perry,WR,SO,transfer:Oregon,Athlon,PS,L,47.0/99 (B10 -1.26 -> 45.7 adj)
+WRTE,6,Jordan King,WR,SO,returning,Athlon,PS,L,63.9/198 (66.3 adj)
+WRTE,7,Mason Mini,TE,JR,returning,Athlon,PS,M,57.4/274 (59.8 adj); BOLD; returning TE
+WRTE,8,Rico Walker,TE,JR,transfer:Purdue,Athlon,PS,L,51.0/79 (B10); depth
+OL,1,Tyson Ruffins,RG,JR,returning,Athlon,PS,M,68.0/878 (ACC +3.54 -> 71.5 adj); BOLD; interior anchor
+OL,2,Sioape Vatikani,LG,SR,returning,Athlon,PS,M,57.8/635 (61.3 adj); BOLD
+OL,3,Bastian Swinney,C,SR,returning,Athlon,PS,M,60.0/316 (63.5 adj); returning
+OL,4,Jimothy Lewis Jr.,LT,SO,transfer:Mississippi State,Athlon,PS,L,SEC OT; projected LT
+OL,5,Kahlee Tafai,RT,JR,transfer:Minnesota,Athlon,PS,L,78.6/36 (B10, tiny sample)
+OL,6,Frederick Williams III,T,JR,returning,Athlon,PS,L,51.2/472 (54.7 adj); depth
+OL,7,Ashton Rivera,G,JR,transfer:Kent State,Athlon,PS,L,54.0/569 (MAC); depth
+DL,1,Nate Burrell,DE,SR,returning,Athlon,PS,M,portal-None WITHDREW; BOLD; veteran DE
+DL,2,Derek Wilkins,DT,SR,returning,Athlon,PS,M,55.6/271 (56.8 adj)
+DL,3,Jericho Johnson,DT,SO,transfer:Oregon,Athlon,PS,M,68.8/68 (B10, small sample)
+DL,4,Solomon Williams,DE,SO,transfer:Texas A&M,Athlon,PS,L,76.9/35 (SEC, tiny sample)
+DL,5,Joshua Pierce,DE,JR,transfer:North Texas,Athlon,PS,L,69.7/170 (AAC)
+DL,6,Emmanuel Okoye,DE,SO,transfer:Tennessee,Athlon,PS,L,51.0/15 (SEC, tiny)
+DL,7,Stanley Saole-McKenzie,DT,SR,returning,Athlon,PS,L,60.2/229 (yr4_return_override); DT2
+LB,1,Aaron Hampton,LB,JR,returning,Athlon,PS,M,60.7/173 (ACC +2.13 -> 62.8 adj); the only returning LB starter
+LB,2,Tristan Jernigan,LB,SO,transfer:Texas A&M,Athlon,PS,L,78.4/10 (SEC, tiny sample)
+LB,3,AJ Tuitele,LB,SO,transfer:USC,Athlon,PS,L,76.0/15 (B10, tiny sample)
+LB,4,Kamar Mothudi,LB,SO,transfer:Oregon,Athlon,PS,L,59.1/24 (B10, tiny)
+DB,1,Isaiah Crosby,S,SO,returning,Athlon,PS,M,77.0/197 (ACC +1.18 -> 78.2 adj); returning safety
+DB,2,Cam Sidney,NB,SR,returning,Athlon,PS,M,68.9/511 (portal-None WITHDREW; 70.1 adj); BOLD
+DB,3,Ricky Fletcher,CB,SR,transfer:Ole Miss,Athlon,PS,M,66.2/292 (SEC +5.44 -> 71.6 adj); 6'3"
+DB,4,Daniel Harris,CB,SR,transfer:Georgia,Athlon,PS,L,57.1/138 (SEC +5.44 -> 62.5 adj); 6'3"
+DB,5,Aiden Manutai,S,JR,returning,Athlon,PS,M,66.0/626 (67.2 adj)
+DB,6,Jasiah Wagoner,S,JR,returning,Athlon,PS,M,63.1/388 (64.3 adj)
+DB,7,Kingston Lopa,S,SO,transfer:Oregon,Athlon,PS,L,61.3/169 (B10); depth
+DB,8,Marquis Groves-Killebrew,CB,JR,transfer:Arizona,Athlon,PS,L,61.9/168 (B12); depth
+ST,1,Chase Meyer,K,SR,returning,Athlon,PS,M,portal-None WITHDREW; 10/13 FG, 7/7 inside 40
+ST,2,Angus Davies,P,JR,transfer:Tulsa,Athlon,PS,M,AAC P
+ST,3,Trevor Rogers,KR,SO,returning,Athlon,PS,L,KR

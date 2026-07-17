@@ -1,0 +1,15 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Tyson Ruffins,175727,C,CAL,13,100.0,0,130,68.0,82.9,63.4,1,8,531,100.0,100.2,99.0,7,10,1,878,576,29,0,878,560,559,272,0,318,1,2025_this_team
+Jordan Spasojevic-Moko,147012,G,CAL,13,99.9,0,130,55.4,56.8,59.7,4,16,503,99.8,100.0,97.6,12,22,2,851,0,849,0,852,534,534,0,0,317,3,2025_this_team
+Sioape Vatikani,158334,G,CAL,10,99.8,0,130,57.8,50.9,61.0,1,16,377,99.7,99.8,96.7,4,21,4,634,0,0,0,635,400,401,634,0,234,1,2025_this_team
+Leon Bell,175895,T,CAL,10,99.8,0,130,61.9,65.7,60.1,3,14,338,99.7,99.7,96.6,6,20,3,582,0,0,0,583,362,363,0,582,220,1,2025_this_team
+Ashton Rivera,156547,C,KENT STATE,11,100.0,0,201,54.0,48.7,54.5,2,7,279,100.0,100.0,98.0,1,10,1,569,352,84,0,569,297,297,133,0,272,0,arrival_2025_at_KENT STATE
+Braden Miller,158392,T,CAL,11,100.0,0,130,52.5,55.1,54.5,4,11,300,100.0,100.3,96.8,5,17,2,502,0,49,83,502,315,314,22,341,187,6,2025_this_team
+Frederick Williams III,176569,T,CAL,11,100.0,0,130,51.2,57.1,49.9,3,14,266,100.0,100.0,95.3,4,21,4,472,0,1,436,472,289,289,0,6,183,28,2025_this_team
+Nick Morrow,174222,T,CAL,10,100.0,0,130,61.0,59.1,60.7,4,12,249,100.0,100.4,96.0,1,18,2,421,0,0,414,421,262,261,0,0,159,7,2025_this_team
+Bastian Swinney,146294,C,CAL,5,99.7,0,130,60.0,74.6,59.3,0,5,197,99.5,100.0,98.2,4,6,1,315,309,0,0,316,208,208,6,0,107,0,2025_this_team
+Mykeal Rabess,170405,T,FIU,5,100.0,0,166,65.0,75.1,59.3,0,1,29,100.0,100.0,98.3,0,1,0,53,0,0,18,53,29,29,1,34,24,0,arrival_2025_at_FIU
+Lamar Robinson,164737,C,CAL,2,100.0,0,130,59.7,84.3,53.3,0,0,27,100.0,100.0,100.0,0,0,0,50,50,0,0,50,30,30,0,0,20,0,2025_this_team
+Kahlee Tafai,171941,T,MINNESOTA,3,100.0,0,225,78.6,53.3,78.0,0,0,10,100.0,100.0,90.0,1,1,1,36,0,0,36,36,11,11,0,0,25,0,arrival_2025_at_MINNESOTA
+Akili Calhoun,146309,G,CAL,9,100.0,0,130,67.6,67.9,64.6,0,0,1,100.0,100.0,100.0,0,0,0,31,0,0,0,31,2,2,0,0,29,31,2025_this_team
+LaJuan Owens,169986,G,CAL,1,100.0,0,130,55.9,72.5,54.8,0,0,2,100.0,100.0,100.0,0,0,0,7,0,6,0,7,2,2,0,1,5,0,2025_this_team
