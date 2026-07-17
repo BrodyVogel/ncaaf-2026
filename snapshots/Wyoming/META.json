@@ -1,0 +1,50 @@
+{
+ "team": "Wyoming",
+ "conference": "Mountain West",
+ "created_utc": "2026-07-17T00:34:36+00:00",
+ "assembler_git_rev": "207f9cb",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "Sawvel yr 3 (7-17 school & career). OC-only change: Christian Taylor (Bills, ex-W&M - Hughes' college OC). DC Bohl retained. x1.0 per HC-only rule.",
+ "portal_departure_confirmed": [
+  "Patrick Broadway II",
+  "Gabriel Ikechukwu",
+  "Enock Sibomana"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Ethan Stuhlsatz"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "known_name_exceptions": {
+  "Ethan Stuhlsatz": "LB 77.5/268 in yr4 list BUT two-print starter - Athlon MLB1 ('very strong spring... lining up the defense') + PS lineup MLB -> yr4_return_override, two-print rule.",
+  "Caleb Robinson": "DT yr4 in Athlon two-deep (backup DT) ONLY - single print -> EXPIRED + note per Goodell/Hilty single-print-depth rule.",
+  "No-dest GONEs": "Broadway II (RB), Ikechukwu (DL), Sibomana (LB 60.9/219) - in out-feed with no destination, absent BOTH prints -> GONE.",
+  "Jett Vincent": "feed ATH from CSU; 2025 PFF tape = LB (56.1/73); Athlon lists backup S. Counted LB room per PFF-position convention (Hubert/Echoles); S usage noted.",
+  "Jake Wilson": "TE1 both prints, DNP 2025 (no tape row) - distinct from Brayden Wilson (DE, yr4 expired).",
+  "Dante Drake": "DT1 both prints after missing all 2025 (Achilles) - no tape row.",
+  "Michael Fitzgerald II": "PFF name; earlier OCR read 'Fitzpatrick' corrected against page image.",
+  "Damashja Harris": "RB yr4 AND portal out -> Incarnate Word (FCS); portal exit recorded, no double-count."
+ },
+ "feed_gap_arrivals_documented": [
+  "Landon Sims (JUCO QB): PS-only print mention ('tore ACL, back in fall'), absent from feed and Athlon -> single-print feed-gap arrival per Strickland precedent. No grading weight."
+ ],
+ "position_notes": {
+  "Tyler Hughes": "W&M (FCS): 12 st, 2,330 @ 66.2% 20-3 + 670 rush @ 4.3 - reunited with OC Taylor (scheme continuity). No FBS tape; QB graded L.",
+  "Ethan Stuhlsatz": "77.5/268 -> 72.8 adj = best returning defensive tape on roster.",
+  "Jason Maciejczak": "79.5/33 Nebraska flash -> 78.2 adj; 21 gm L2Y; both prints C1.",
+  "Diore Hubbard": "71.4/96 att at WVU + B12 offset -> 78.6 adj = best RB tape in room.",
+  "Anthony Beavers": "USC: 67.3 on 7 snaps (sample-useless adj 83.4); PS #31 recruit pedigree - graded as pedigree depth.",
+  "LB top-two walk": "B.Johnson 86.8/649 + Eller 79.8/622 (PS: '#1 and #2 tacklers') both yr4-expired - the two best 2025 defensive grades.",
+  "2025 offense regime artifact": "21 ppg/366 ypg first 8 games vs 6 ppg/211 last 4 after mid-year OC firing - as-played OFF p7 tape overstates the 2026-relevant decline."
+ },
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "Hughes/Holman/Dunkley/Wingate/Redfern/Donaway/Mackey + 7 more arrivals have no FBS tape (FCS/D2/JUCO) - evidence-only",
+  "Drake (Achilles) and Wilson (TE, DNP '25) return with no 2025 tape rows"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2 (team-level projections excluded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-17T00:00:00+00:00"
+}

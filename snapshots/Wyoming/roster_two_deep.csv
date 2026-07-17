@@ -1,0 +1,50 @@
+unit,pos,depth,player,class,origin,note
+QB,QB,1,Tyler Hughes,SR,transfer:William & Mary,FCS: 12 st 2330 @ 66.2% 20-3 + 670 rush @ 4.3; reunited w/ OC Taylor (his W&M OC); no FBS tape
+QB,QB,2,Mason Drube,FR,returning,47 snaps 52.3 (44.9 adj); 187 @ 54%
+QB,QB,3,Landon Sims,JR,transfer:JUCO,feed-gap (PS-only print); ACL rehab 'back in fall'; no weight
+RB,RB,1,Samuel Harris,SO,returning,100 att 74.0 (65.1 adj); 558 @ 5.6 as TRUE FR - led team; BOLD
+RB,RB,2,Diore Hubbard,JR,transfer:West Virginia,96 att 71.4 (B12 +7.24 -> 78.6 adj); 6 st 335 yds
+RB,RB,3,Markell Holman,SR,transfer:Western Illinois,FCS: 12 st 1063 led OVC; no FBS tape
+WRTE,WR,1,Deion DeBlanc,SO,returning,98 routes 65.5 (61.8 adj); slot + elite returner
+WRTE,WR,1,Eric Richardson,SR,returning,127 routes 54.2 (50.5 adj); spot duty; BOLD
+WRTE,WR,1,Jackson Holman,JR,returning,139 routes 55.6 (51.9 adj); injuries '25
+WRTE,TE,1,Jake Wilson,JR,returning,DNP 2025 (injury); both prints TE1; 'could be best in MW' duo w/ Frendt
+WRTE,TE,2,Kyle Frendt,SO,returning,31 routes 56.2 (52.5 adj)
+WRTE,WR,2,Justin Popovich,SR,transfer:Lock Haven,D2; Athlon WR backup; no FBS tape
+WRTE,WR,2,Bricen Brantley,JR,returning,49 routes 53.4
+WRTE,TE,3,Tyler Siddons,TE,transfer:Central Arkansas,FCS; feed arrival; depth
+OL,LT,1,Rex Johnsen,SR,returning,802 snaps 59.9 (49.8 adj); 12 st; BOLD
+OL,RT,1,Braylon Jenkins,SO,returning,383 snaps 63.2 (53.1 adj); 6 st
+OL,C,1,Jason Maciejczak,JR,transfer:Nebraska,33 snaps 79.5 (B10 -1.29 -> 78.2 adj); 21 gm L2Y; 'coaches excited'
+OL,LG,1,Chandler Donaway,SR,transfer:East Texas A&M,FCS: 21 st; no FBS tape
+OL,RG,1,Giovanni Panozzo,SO,returning,green (<30 snaps '25)
+OL,T,2,Jake Davies,JR,returning,220 snaps 42.1 (32.0 adj); 13 career st
+OL,T,2,Nathan Geiger,JR,returning,180 snaps 61.7 (51.6 adj); depth (not in print two-deeps)
+OL,G,2,Jeremiah Katt,JR,transfer:Northern Arizona,FCS; feed arrival; depth
+DL,DE,1,Jack Dunkley,SR,transfer:Duquesne,FCS: 12 st 9.5 TFL; Athlon DE1; no FBS tape
+DL,DT,1,Dante Drake,JR,returning,DNP 2025 (Achilles); both prints 'top player on the line'
+DL,DT,1,Jayden Williams,JR,returning,366 snaps 60.3 (58.1 adj)
+DL,DE,1,Esaia Bogar,SR,returning,200 snaps 67.7 (65.5 adj)
+DL,DE,2,Donnie Wingate,SR,transfer:Southern Illinois,FCS starter; no FBS tape
+DL,DT,2,Ja'Quan Redfern,JR,transfer:Murray State,FCS; no FBS tape
+DL,ED,3,Kevin Sjogren,SO,returning,89 snaps 57.1
+DL,DI,3,Tegen Seeds,SO,returning,47 snaps 53.9
+DL,ED,3,Thaddeus Gianaris,JR,transfer:Dartmouth,FCS; feed arrival; depth
+LB,MLB,1,Ethan Stuhlsatz,SR,returning,268 snaps 77.5 (72.8 adj) - best returning def tape; yr4-OVERRIDE (2 prints); 'very strong spring'
+LB,OLB,1,Gary Rutherford,SO,returning,69 snaps 65.8 (61.1 adj)
+LB,LB,2,Anthony Beavers,SR,transfer:USC,7 snaps 67.3 (B10 +16.1 -> 83.4 adj, sample-useless); PS#31 pedigree
+LB,LB,2,Jett Vincent,JR,transfer:Colorado State,73 snaps 56.1 LB tape (MWC -> 51.4 adj); Athlon slots at S; counted LB per PFF pos
+LB,OLB,2,Karson Butts,SO,returning,green; Athlon backup
+DB,NB,1,Desman Hearns,SR,returning,681 snaps 70.1 (67.7 adj); 3-yr starter; BOLD
+DB,S,1,Jones Thomas,JR,returning,634 snaps 51.5 (49.1 adj); leading returning tackler; 2 INT 4 PBU; all-league candidate; BOLD
+DB,CB,1,Tyson Shamsid-Deen,SO,returning,green (<30 snaps '25); Athlon CB1
+DB,CB,1,Logan Mackey,JR,transfer:Weber State,FCS; Athlon CB1 (other side); no FBS tape
+DB,S,1,Brooklyn Cheek,SO,returning,91 snaps 65.4 (63.0 adj); Athlon S1
+DB,NB,2,Travis Franklin Jr.,SR,transfer:Jacksonville State,340 snaps 68.6 (CUSA -6.16 -> 62.4 adj)
+DB,CB,2,Ian Bell,JR,returning,79 snaps 65.7 (63.3 adj)
+DB,CB,2,Junus McGraw,JR,transfer:West Liberty,D2; depth
+DB,S,3,Da'Marion Brownlee,SO,transfer:Missouri Southern State,D2; depth
+ST,P,1,Bart Edmiston,SR,returning,46.1 avg on 65 punts - all-league candidate
+ST,K,1,Erik Sandvik,JR,returning,6-11 FG 2025 (poor)
+ST,KR/PR,1,Deion DeBlanc,SO,returning,16.7 PR avg + 73-yd TD
+ST,LS,1,Nathan Curry,JR,transfer:North Alabama,feed arrival

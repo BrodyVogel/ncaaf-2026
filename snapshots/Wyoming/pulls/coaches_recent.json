@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Jay",
+  "lastName": "Sawvel",
+  "hireDate": "2023-12-06T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Wyoming",
+    "year": 2024,
+    "games": 12,
+    "wins": 3,
+    "losses": 9,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -12.1,
+    "spOverall": -13.6,
+    "spOffense": 16.3,
+    "spDefense": 30.8
+   }
+  ]
+ },
+ {
+  "firstName": "Jay",
+  "lastName": "Sawvel",
+  "hireDate": "2023-12-06T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Wyoming",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -10.7,
+    "spOverall": -11.3,
+    "spOffense": 15.3,
+    "spDefense": 24.7
+   }
+  ]
+ }
+]
