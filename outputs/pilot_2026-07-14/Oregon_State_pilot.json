@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T15:56:26+00:00",
+ "team": "Oregon State",
+ "final": -7.37,
+ "rank": 94,
+ "band": 7.19,
+ "resid": 0.15,
+ "adj": 0.05,
+ "class_term": 0.0,
+ "st": -0.24,
+ "anchor_blend": -7.68,
+ "resid_level": 3.78,
+ "resid_shape": -3.62,
+ "implied_off": 20.23,
+ "implied_def": 27.06,
+ "anchor_off": 20.21,
+ "anchor_def": 27.19,
+ "fit_r2": {
+  "off": 0.537,
+  "dfn": 0.616
+ },
+ "low_conf_units": 2,
+ "code_rev": "7ac7d37",
+ "mode": "PILOT-OOS"
+}
