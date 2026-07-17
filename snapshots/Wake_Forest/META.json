@@ -1,0 +1,35 @@
+{
+ "team": "Wake Forest",
+ "conference": "ACC",
+ "created_utc": "2026-07-17T20:16:33+00:00",
+ "assembler_git_rev": "68253e3",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Jake Dickert - Athlon 'Record at School: 9-4 (1 year)' + PS '2nd Year Here' -> YEAR 2 at Wake -> NO coach change (band x1.00). Dickert was Washington State HC 2021-2024, came to Wake for 2025 (replaced Dave Clawson), went 9-4. OC Rob Ezell (Gio Lopez's OC at South Alabama '24). DC Scottie Hazelton.",
+ "conference_note": "ACC (P4). R14: ACC cells POSITIVE on returning tape (QB +2.08, RB +4.90, WRTE +2.36, OL +3.54, DL +1.19, LB +2.13, DB +1.18). Arrivals on origin cells: Lopez UNC/ACC, Meeks Louisville/ACC, Chase Tyler Duke/ACC, Landon Morris + Buom Jock Cal/ACC (Cal is ACC since 2024); Ny Carr Miami/ACC; Kam Shanks Arkansas/SEC; KD Daniels Florida/SEC; Sydir Mitchell + Calloway LSU/SEC; Wondame Davis UTEP/MWC... (CUSA cell); Dickmann Rice/AAC; McNichols UAB/AAC; Causey Ga State/SBC; Josh Patterson Iowa State/B12; Brian Blades FIU/CUSA. FCS arrivals (Will Way Weber St, Ohnegian Bucknell, Olajide UNH, Seidl North Dakota, Firenze Dayton) = NO cell. FLAG: Ryan Berger (OL) tape earned at OREGON STATE (Pac-remnant) - PAC cell inappropriate; treated MWC-like w/ P4-game caveat (grade-immaterial, OL depth). FLAG FOR OWNER.",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": ["Zach Lohavichan"],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Zach Lohavichan": "DT, yr4, but Athlon BOLD DT starter (Sr.) + PS 'Afalava and Lohavichan are solid' -> RETURNS (yr4_return_override). 61.5/461.",
+  "Nick Andersen": "S, yr4, 87.3/851 (elite, #1 tackler) - GONE. Athlon 'the loss of program pillar Nick Andersen'; PS 'they lose Anderson'. Not in 2026 two-deep. EXPIRED(yr4).",
+  "Karon Prunty": "CB, yr4, 84.1/804 - GONE. Athlon 'replacing two cornerbacks'; PS 'lose ... a CB (13 st)'. Not in 2026 two-deep. EXPIRED(yr4).",
+  "Lardarius Webb Jr.": "NB/CB, yr4, 77.7/630 - GONE. PS 'they lose ... NB Ladarius Webb (last 6 st)'. Not in 2026 two-deep. EXPIRED(yr4).",
+  "Robby Ashford": "QB, yr4, 68.9/405 (2025 starter) - GONE. Athlon 'Gone is a quarterback duo'; UNC transfer Lopez is QB1 (both charts). EXPIRED(yr4).",
+  "Demond Claiborne": "RB, yr4, 68.7/227 (lead back) - GONE. Athlon 'Demond Claiborne is a significant loss'. Not in 2026 two-deep. EXPIRED(yr4).",
+  "Dylan Hazen": "LB, yr4, 71.3/502 - GONE. PS 'they lose ... Dylan Hazen (13 st)'. EXPIRED(yr4).",
+  "Quincy Bryant": "LB, yr4, 75.7/352 - GONE. PS 'they lose ... Quincy Bryant'. EXPIRED(yr4)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 depth charts",
+  "9-4 in 2025 but heavy attrition: lost the QB duo, lead RB, most WRs, 4 of 5 OL starters, 3 DB stars (Andersen/Prunty/Webb), 2 LBs - a strong returning DL is the anchor",
+  "offense returns only 2 starters (WR Hernandez, OL Steih); WR/OL are all-transfer/FCS-heavy reloads (heavy projection)",
+  "Ryan Berger OL tape at Oregon State (Pac-remnant offset flag; grade-immaterial depth)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T00:00:00+00:00"
+}

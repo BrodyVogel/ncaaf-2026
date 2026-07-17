@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Dave",
+  "lastName": "Clawson",
+  "hireDate": "2013-12-09T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Wake Forest",
+    "year": 2024,
+    "games": 12,
+    "wins": 4,
+    "losses": 8,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -6.2,
+    "spOverall": -5.7,
+    "spOffense": 25.8,
+    "spDefense": 31.8
+   }
+  ]
+ },
+ {
+  "firstName": "Jake",
+  "lastName": "Dickert",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Wake Forest",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 4.2,
+    "spOverall": 5.7,
+    "spOffense": 26.6,
+    "spDefense": 20.9
+   }
+  ]
+ }
+]

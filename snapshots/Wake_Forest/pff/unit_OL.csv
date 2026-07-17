@@ -1,0 +1,16 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Melvin Siani,173280,T,WAKE,13,100.0,1,339,73.1,80.8,67.0,3,6,456,100.0,100.0,99.0,7,9,0,859,0,0,853,859,487,487,1,0,372,5,2025_this_team
+George Sell,123401,G,WAKE,13,100.0,0,339,59.9,80.7,51.2,0,11,456,100.0,100.0,98.6,0,12,1,859,0,51,0,859,487,487,804,0,372,4,2025_this_team
+Devin Kylany,131938,C,WAKE,13,100.0,1,339,63.1,75.7,62.6,0,9,456,100.0,100.0,99.0,10,9,0,858,855,0,0,858,487,487,1,0,371,2,2025_this_team
+Fa'alili Fa'amoe,131930,T,WAKE,12,100.0,1,339,67.7,71.2,63.5,2,16,421,100.0,100.0,97.4,4,20,2,789,0,1,0,789,448,448,0,786,341,2,2025_this_team
+George Steih,176076,G,WAKE,9,100.0,1,339,50.7,56.8,48.3,3,9,275,100.0,100.0,97.1,4,14,2,514,0,444,0,514,294,294,0,69,220,1,2025_this_team
+Ryan Berger,176392,G,OREGON ST,9,100.0,0,265,65.8,75.9,65.7,1,2,283,100.0,100.0,99.1,5,4,1,504,77,259,0,504,297,297,168,0,207,0,arrival_2025_at_OREGON ST
+Clinton Richard,183397,G,WAKE,5,100.0,0,339,69.8,71.1,74.6,1,7,183,100.0,100.0,97.8,4,8,0,348,0,348,0,348,194,194,0,0,154,0,2025_this_team
+Jack Hines,183389,G,WAKE,5,100.0,0,339,49.5,76.3,45.3,0,0,45,100.0,100.0,100.0,1,0,0,88,0,1,1,88,49,49,75,10,39,1,2025_this_team
+Ja'Marion Kennedy,170462,G,WAKE,5,100.0,0,339,60.4,77.7,57.0,0,1,24,100.0,100.0,97.9,1,1,0,63,0,51,0,63,27,27,10,1,36,1,2025_this_team
+Elliot Demaine,204441,T,WAKE,4,100.0,0,339,57.5,75.7,51.7,0,1,17,100.0,100.0,97.1,0,1,0,42,0,0,10,42,18,18,0,32,24,0,2025_this_team
+Devin McRae,176075,C,WAKE,5,100.0,0,339,61.3,74.1,58.3,0,0,16,100.0,100.0,100.0,0,0,0,38,37,0,0,38,18,18,0,0,20,1,2025_this_team
+Aidan Martin,204454,T,WAKE,3,100.0,0,339,54.7,8.8,65.3,0,1,14,100.0,100.0,82.1,0,3,2,34,0,0,32,34,15,15,0,0,19,2,2025_this_team
+Derrell Johnson II,157535,G,WAKE,2,100.0,0,339,53.6,69.6,53.1,0,0,2,100.0,100.0,100.0,0,0,0,11,0,3,0,11,2,2,8,0,9,0,2025_this_team
+Cale Doyle,170391,C,WAKE,2,100.0,0,339,56.4,67.6,54.3,0,0,1,100.0,100.0,100.0,0,0,0,5,5,0,0,5,1,1,0,0,4,0,2025_this_team
+Ethan Calloway,184443,T,LSU,1,100.0,0,211,60.0,67.7,60.1,0,0,1,100.0,100.0,100.0,0,0,0,3,0,0,3,3,1,1,0,0,2,0,arrival_2025_at_LSU

@@ -1,0 +1,44 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Gio Lopez,QB,JR,transfer:North Carolina,Athlon,PS,M,73.1/334 (ACC +2.08 -> 75.2 adj); reunites w/ OC Ezell; 3,000 yds/25 TD at S.Ala '24; rough '25 at UNC
+QB,2,Steele Pizzella,QB,FR,returning,Athlon,PS,L,true-Fr; QB2
+RB,1,Ty Clark III,RB,JR,returning,Athlon,PS,M,72.2/76 (ACC +4.90 -> 77.1 adj); small sample; lead back now
+RB,2,KD Daniels,RB,SO,transfer:Florida,Athlon,PS,L,66.1/28 (SEC +10.17 -> 76.3 adj; tiny 28-att sample)
+RB,3,Sawyer Seidl,RB,JR,transfer:North Dakota,Athlon,PS,L,FCS RB (no cell)
+WRTE,1,Carlos Hernandez,WR,SR,returning,Athlon,PS,M,61.5/265 (ACC +2.36 -> 63.9 adj); the ONLY returning WR
+WRTE,2,Ny Carr,WR,SO,transfer:Miami,Athlon,PS,L,79.1/11 (tiny 11-route sample); P4 speed
+WRTE,3,Chase Tyler,WR,SO,transfer:Duke,Athlon,PS,L,69.9/35 (72.3 adj; small sample)
+WRTE,4,Wondame Davis Jr.,WR,SO,transfer:UTEP,Athlon,PS,M,62.8/322 (CUSA -4.19 -> 58.6 adj); most-proven arrival; xref closed
+WRTE,5,Antonio Meeks,WR,JR,transfer:Louisville,Athlon,PS,L,63.6/181 (ACC +2.36 -> 66.0 adj)
+WRTE,6,Kam Shanks,WR,JR,transfer:Arkansas,Athlon,PS,L,55.5/118 (SEC +5.94 -> 61.4 adj); also PR
+WRTE,7,Kamrean Johnson,TE,SR,returning,Athlon,PS,L,55.9/126 (58.3 adj); returning TE1
+WRTE,8,Landon Morris,TE,SR,transfer:California,Athlon,PS,L,54.8/94 (ACC +2.36 -> 57.2 adj)
+OL,1,Clinton Richard,LG,SO,returning,Athlon,PS,M,69.8/348 (ACC +3.54 -> 73.3 adj); "good building block"
+OL,2,George Steih,LT,JR,returning,Athlon,PS,M,50.7/514 (54.2 adj); BOLD returning
+OL,3,Will Way,C,JR,transfer:Weber State,Athlon,PS,L,FCS OL (no cell)
+OL,4,John Ohnegian,RG,SR,transfer:Bucknell,Athlon,PS,L,FCS OL (no cell)
+OL,5,Tolu Olajide,RT,SR,transfer:New Hampshire,Athlon,PS,L,FCS OL (no cell)
+OL,6,Ryan Berger,G,JR,transfer:Oregon State,Athlon,PS,L,65.8/504 (Pac-remnant offset flag; treated MWC-like; depth)
+OL,7,Ethan Calloway,T,SR,transfer:LSU,Athlon,PS,L,60.0/3 (tiny)
+DL,1,Langston Hardy,DE,SR,returning,Athlon,PS,H,75.2/668 (ACC +1.19 -> 76.4 adj); 7 sk; BOLD
+DL,2,Gabe Kirschke,DE,SR,returning,Athlon,PS,H,64.2/499 (65.4 adj); 5 sk; BOLD
+DL,3,Dallas Afalava,DT,SR,returning,Athlon,PS,M,59.9/522 (61.1 adj); BOLD
+DL,4,Zach Lohavichan,DT,SR,returning,Athlon,PS,M,61.5/461 (62.7 adj); yr4_return_override; BOLD
+DL,5,Nuer Gatkuoth,DE,JR,returning,Athlon,PS,M,72.0/426 (73.2 adj); rotation
+DL,6,Tyler Walton,DE,JR,returning,Athlon,PS,M,68.7/187 (69.9 adj)
+DL,7,Sydir Mitchell,DT,JR,transfer:LSU,Athlon,PS,L,SEC DT; depth
+LB,1,Aiden Hall,LB,SR,returning,Athlon,PS,M,70.7/636 (ACC +2.13 -> 72.8 adj); "leader of the group"; BOLD
+LB,2,Frank Cusano,LB,SO,returning,Athlon,PS,M,61.8/336 (63.9 adj); returning starter
+LB,3,Buom Jock,LB,JR,transfer:California,Athlon,PS,M,exp (100 tkl for Colo St '24); Cal '25 tiny
+LB,4,Tylan McNichols,LB,JR,transfer:UAB,Athlon,PS,L,48.1/353 (AAC -10.73 -> 37.4 adj; poor)
+DB,1,Davaughn Patterson,NB,JR,returning,Athlon,PS,H,71.8/824 (ACC +1.18 -> 73.0 adj); "highest-rated NFL prospect"; BOLD
+DB,2,Braylon Johnson,S,JR,returning,Athlon,PS,M,59.5/672 (60.7 adj); BOLD
+DB,3,Travon West,CB,JR,returning,Athlon,PS,M,62.5/347 (63.7 adj); BOLD
+DB,4,Brian Blades II,CB,SR,transfer:Florida International,Athlon,PS,M,FIU CB (CUSA); projected CB starter
+DB,5,Rushaun Tongue,S,SO,returning,Athlon,PS,M,64.8/89 (66.0 adj); back from injury
+DB,6,Bernard Causey III,CB,JR,transfer:Georgia State,Athlon,PS,L,67.4/388 (SBC -3.62 -> 63.8 adj)
+DB,7,Ashaad Williams,CB,SR,returning,Athlon,PS,L,yr4; <100-vol '25; CB depth
+DB,8,Josh Patterson,S,FR,transfer:Iowa State,Athlon,PS,L,B12 S; depth
+ST,1,Connor Calvert,K,SO,returning,Athlon,PS,H,18-22 FG rFr; walk-off vs SMU; SPEC p93 base
+ST,2,Ethan Hyams,P,FR,recruit,Athlon,PS,L,ProKick Australia; replaces the P (glaring '25 issue)
+ST,3,Kam Shanks,PR,JR,transfer:Arkansas,Athlon,PS,M,PR
+ST,4,Koredell Bartley,KR,SO,returning,Athlon,PS,M,KR
