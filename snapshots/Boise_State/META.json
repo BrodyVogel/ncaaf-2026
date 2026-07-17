@@ -18,14 +18,13 @@
  ],
  "portal_withdrawal_overrides": [],
  "yr4_return_overrides_documented": [
-  "Ben Ford",
-  "Malik Sherrod"
+  "Ben Ford"
  ],
  "nfl_declare_confirmed": [],
  "departure_confirmed_research": [],
  "known_name_exceptions": {
   "Ben Ford": "WR yr4 but BOTH prints return him (72.0/158 -> 68.3 adj) -> R7 two-print override.",
-  "Malik Sherrod": "RB yr4 but BOTH prints feature as returning back (2025 Boise tape 69.4/84; 966 @ 5.6 Fresno '23). NOT a 2026 portal arrival despite PS 'add' phrasing (references his '23 Fresno career) -> R7 override.",
+  "Malik Sherrod": "RB, yr4-EXPIRED -> GONE. CORRECTED 2026-07-18 (owner-prompted override audit): the prior session kept him as an R7 yr4 return override claiming 'both prints feature as returning' - that was a MISREAD. PS actually says 'Both [Riley+Gaines] are back as they only LOSE Sherrod (418, 49)', and Athlon's RB two-deep is Riley/Gaines with no Sherrod. Not in the portal-out feed -> yr4 expiration. 2025 Boise tape 69.4/84. GRADE-IMMATERIAL: RB stays 50 (anchored on Riley 70.0 + Gaines 77.3; depth remains Goff/Stewart).",
   "Mason Randolph": "C yr4, 70.1/831 but OFY Week 3 '25 (medical); neither print's 2026 C1 (Athlon=Jason Steele, PS=Taufa) -> EXPIRED(yr4) + note.",
   "A'Marion McCoy": "CB yr4, 76.7/528 - part of 'lost nearly entire secondary' (Athlon); not in either 2026 two-deep -> EXPIRED(yr4). A real loss.",
   "Zander Esty": "IOL arrival from Oregon State (intra-round; OSU unbuilt) - in-feed present; verify OSU out-feed at OSU build."

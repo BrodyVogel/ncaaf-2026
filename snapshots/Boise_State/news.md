@@ -18,9 +18,11 @@ injuries, suspensions, position battles, staff changes. Facts only - no forecast
   Stewart←Kansas (out-feed), Brantley←Kansas (out-feed). Intra-round:
   Esty←Oregon State (OSU unbuilt — verify at OSU build; in-feed
   present).
-- 2026-07-17 [adjudication] yr4 OVERRIDES ×2 (R7 two-print): Ben Ford
-  (WR, both prints return him) + Malik Sherrod (RB, both prints
-  feature as returning back; 2025 Boise tape 69.4/84). yr4
+- 2026-07-17 [adjudication] yr4 OVERRIDE ×1 (R7 two-print): Ben Ford
+  (WR, both prints return him). [Malik Sherrod override REMOVED 2026-07-18:
+  it was a misread - PS says "Both are back as they only LOSE Sherrod",
+  Athlon omits him from the RB two-deep, not in the out-feed -> yr4-gone.]
+  yr4
   EXPIRATIONS print-consistent: Caples (WR, PS "lose #1"), Penry (WR,
   PS "lose #3"), Lauter (TE, PS "lose"), Notarainni (LB, PS "lose #1
   tklr"), Zion Washington (S, PS "lose #3 tklr"), Fely (DL, PS "lose

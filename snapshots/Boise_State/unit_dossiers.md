@@ -38,8 +38,9 @@ adjusted tape; > all thin/FCS MWC-round QB rooms.
 
 ## RB — planned 50
 Room: Riley (193 att, 78.9 → 70.0 adj; 1,125 @ 5.8) + Gaines (162 att,
-86.2 → 77.3 adj; 811 @ 5.0 as a true Fr) — both back — + Sherrod (60.5
-adj, yr4 override) + Goff (Pitt, 73.8 ACC-adj) + Stewart (Kansas). "Yet
+86.2 → 77.3 adj; 811 @ 5.0 as a true Fr) — both back — + Goff (Pitt, 73.8
+ACC-adj) + Stewart (Kansas). [Sherrod removed: yr4-gone, PS "only lose
+Sherrod".] "Yet
 another highly productive year" (PS); combined 1,977 rush yds return.
 Mechanical: two proven backs at 70.0 / 77.3 adj (aggregate ~74) map ~RB
 p48-52, behind an elite run scheme (RUN p83/RBLK p70) with real portal
@@ -131,9 +132,10 @@ continuity.
   run game + a DPOY-candidate edge — while the receiving corps (top 4
   gone), the OL anchor (Casey), the secondary (4 starters), and the top
   LB all walk. A strong program reloading its perimeter.
-- Feed integrity: 6/6 cross-refs closed both-sided; 2 yr4 overrides
-  (Ford, Sherrod); 7 no-dest GONEs; 1 intra-round arrival to verify at
-  OSU (Esty). Clean.
+- Feed integrity: 6/6 cross-refs closed both-sided; 1 yr4 override
+  (Ford); 7 no-dest GONEs; 1 intra-round arrival to verify at OSU (Esty).
+  [CORRECTED 2026-07-18: Malik Sherrod was a 2nd yr4 override - removed as
+  a misread (PS "only lose Sherrod", Athlon omits him); yr4-gone.]
 - Offsets: MWC on returning tape (harsh −); the run/DL/DB units carry
   the discount and still grade as the roster's strengths.
 - G5 guard: max planned grade 50 → N/A.

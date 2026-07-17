@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-07-17T14:38:56+00:00",
+ "run_utc": "2026-07-17T17:10:14+00:00",
  "team": "Boise State",
  "final": 1.6,
  "rank": 60,
@@ -20,6 +20,6 @@
   "dfn": 0.615
  },
  "low_conf_units": 1,
- "code_rev": "5a2de5f",
+ "code_rev": "9269daa",
  "mode": "PILOT-OOS"
 }
