@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-17T23:05:33+00:00",
+ "team": "Duke",
+ "final": 3.72,
+ "rank": 51,
+ "band": 6.54,
+ "resid": -3.12,
+ "adj": -1.09,
+ "class_term": -0.0,
+ "st": 0.0,
+ "anchor_blend": 4.31,
+ "resid_level": -2.12,
+ "resid_shape": -1.0,
+ "implied_off": 27.2,
+ "implied_def": 26.41,
+ "anchor_off": 32.11,
+ "anchor_def": 28.19,
+ "fit_r2": {
+  "off": 0.536,
+  "dfn": 0.615
+ },
+ "low_conf_units": 3,
+ "code_rev": "c4edefa",
+ "mode": "PILOT-OOS"
+}
