@@ -46,6 +46,13 @@ def check(root):
     meta = json.load(open(f"{root}/META.json")) if os.path.exists(f"{root}/META.json") else {}
     overrides = {player_norm(n) for n in meta.get("portal_withdrawal_overrides", [])}
     name_exceptions = {player_norm(n) for n in meta.get("known_name_exceptions", [])}
+    # feed-gap arrivals are documented as sentences beginning with the player
+    # name ("Gehrig Heil (P/K <- Texas): ..."); accept the leading-name form
+    # so documented arrivals never flag as unknown (2026-07-17 handoff fix)
+    for entry in meta.get("feed_gap_arrivals_documented", []):
+        lead = entry.split("(")[0].split(":")[0].strip()
+        if lead:
+            name_exceptions.add(player_norm(lead))
     # early NFL declares: research-confirmed GONE (META nfl_declare_confirmed); citing one
     # as a returner is a violation exactly like a portal departure (Utah Fano/Lomu case)
     nfl_declares = {player_norm(n) for n in meta.get("nfl_declare_confirmed", [])}

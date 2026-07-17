@@ -1,5 +1,5 @@
 {
- "team": "San José State",
+ "team": "San Jos\u00e9 State",
  "conference": "Mountain West",
  "created_utc": "2026-07-16T23:39:00+00:00",
  "assembler_git_rev": "369f94e",
@@ -32,11 +32,14 @@
   "Ethan Powell": "starter-label print split: PS caps (returning starter, 6 st '24 + 6 st '25) vs Athlon DEFENSE (0). Starts documented; treated as the defense's one returning starter-equivalent.",
   "Daniel Tuliau": "Athlon C2 (Sr) PS#394 - not in feed; feed-gap depth, origin unresolved.",
   "Matthew Coleman": "out-feed -> Sacramento State; already closed from SacSt side ('Matt Coleman' cited-form exception there). Both-feed agreement verified this build.",
-  "Walker Eget": "QB -> Duke (out-feed) + yr4 both true; departure doubly confirmed."
+  "Walker Eget": "QB -> Duke (out-feed) + yr4 both true; departure doubly confirmed.",
+  "Daniel Rolovich": "2026 true FR signee (Athlon #4 recruit) - not a feed entity. Documented 2026-07-17."
  },
  "feed_gap_arrivals_documented": [
   "Jordan Anderson (WR - Sacramento State; TWO-SIDED feed miss)",
-  "Daniel Tuliau (OL - origin unresolved; Athlon C2)"
+  "Daniel Tuliau (OL - origin unresolved; Athlon C2)",
+  "Pierce Walker (S <- Portland State FCS): 12 st, 73 tkl - graded arrival, absent from in-feed. Documented 2026-07-17 (post-grades sweep).",
+  "Trajan Sinatra (K <- Idaho State FCS): 18-22 FG L/56, 2nd-Tm FCS AA - graded arrival, absent from in-feed. Documented 2026-07-17."
  ],
  "position_notes": {
   "P4 HARVEST": "10 FBS-destination exits: Scudero (2025 NATIONAL receiving-yards leader) + Taufatofua -> Colorado; Moe + Chavez-Soto + Shoels -> UTAH (x3); Smith -> UCLA; Eget -> Duke; J.Thomas -> Wash St; Hale -> Arizona; Presley -> Colorado St.",

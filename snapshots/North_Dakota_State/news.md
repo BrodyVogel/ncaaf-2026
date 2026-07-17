@@ -60,3 +60,4 @@ injuries, suspensions, position battles, staff changes. Facts only - no forecast
   ppg defense (#1 FCS scoring D); +96 ypg margin vs Valley; 12-0
   before the Illinois St playoff loss (29-28 as 24-pt favorites).
 - 2026-07-17 [audit] Baricka Kpeenu research-GONE entry moved to known_name_exceptions: absent from the CFBD FCS roster pull entirely (no row to flip; documentation-only).
+- 2026-07-17 [audit] Post-grades key_player sweep: CB restock (Voltz/Davis/Tucker) + FB Punni were graded as arrivals but never recorded in feed_gap_arrivals_documented (the 3-player in-feed missed all four). Entries added; grades unchanged.

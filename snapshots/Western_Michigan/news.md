@@ -71,3 +71,4 @@ Format: `- YYYY-MM-DD [source] fact`. Facts only — no forecasts.
 - 2026-07-16 [injury/status] Schleicher C: OFY injury after 3 starts '25
   - both prints project him the 2026 C. Johanningsmeier DT: OFY LY.
   B.Smith OL: broken leg (OFY) at Illinois St LY. Thomas CB: MedRS LY.
+- 2026-07-17 [audit] Post-grades sweep: Tibbs = one-sided in-feed miss (Houston out-feed carries him); Dosh (true FR) noted. Grades unchanged.

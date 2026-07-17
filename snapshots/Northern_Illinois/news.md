@@ -73,3 +73,4 @@ Format: `- YYYY-MM-DD [source] fact`. Facts only — no forecasts.
   S (60.7/621), Myles (63.3/431), Tweedy OL (63.1/648), Ozoh OL, R.+J.
   Williams DL, Dixon, Gulley, Glass PK (ex-Kent St). No print
   conflicts except Lewis (expired w/ note above).
+- 2026-07-17 [audit] Jack Murray (true FR) documented in known_name_exceptions (post-grades sweep; not a feed entity).

@@ -68,3 +68,4 @@ Format: `- YYYY-MM-DD [source] fact`. Facts only — no forecasts.
   PFF on 75 snaps — both prints corroborate expanded 2026 role
   (Rojas-pattern credit). Arnold: benched at both OU and Auburn —
   pedigree vs consistency risk noted in grading.
+- 2026-07-17 [audit] Choules feed-gap arrival documented (post-grades sweep). Grades unchanged.

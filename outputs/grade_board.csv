@@ -1,0 +1,72 @@
+team,conference,QB,RB,WRTE,OL,DL,LB,DB,ST,sum,L_count,final,rank,band,coach_change,snapshot_rev,corrections
+Ohio State,Big Ten,91,76,86,80,76,64,72,64,609,0,26.36,2,6.0,False,frozen 2026-07-16 (b0c0d89),0
+Oregon,Big Ten,89,80,80,56,90,66,74,62,597,0,24.48,5,6.0,False,frozen 2026-07-16 (236ad69),0
+Indiana,Big Ten,70,62,65,74,77,77,72,65,562,0,21.65,7,6.0,False,frozen 2026-07-16 (1fd56c8),0
+Texas Tech,Big 12,50,72,62,60,65,62,70,65,506,0,17.75,10,6.0,False,frozen 2026-07-15,0
+USC,Big Ten,80,72,68,54,72,66,68,50,530,0,15.56,17,6.0,False,frozen 2026-07-16 (03d3d96),0
+Penn State,Big Ten,74,68,58,58,60,68,70,66,522,0,14.96,18,6.78,True,frozen 2026-07-16 (5cceb68),0
+Michigan,Big Ten,60,71,56,64,76,42L,70,55,494,1,14.91,18,6.98,True,frozen 2026-07-16 (ec6341a),0
+BYU,Big 12,72,82,48,68,52,50,70,42,484,0,13.03,21,6.0,False,frozen 2026-07-15,0
+Washington,Big Ten,74,50,56,62,62,72,72,58,506,0,13.03,22,6.0,False,frozen 2026-07-16 (8dd0641),0
+Iowa,Big Ten,32L,70,42,87,48L,58L,80,60L,477,4,12.42,21,6.72,,c091163 (frozen 2026-07-14),0
+Utah,Big 12,70,65,52,46,44,46,58,62,443,0,10.51,28,7.46,"Whittingham -> Michigan (21 yrs); Scalley promoted (HC-in-waiting since '23, won the bowl) - x1.13 w/ maximal continuity mitigants",frozen 2026-07-15,0
+Arizona,Big 12,88,55,52,58,48,60,46,42,449,0,7.73,35,6.0,False,frozen 2026-07-15,0
+Kansas State,Big 12,60,52,52,44,45,44,52,55,404,0,7.34,35,6.78,Klieman retired -> Collin Klein (alum; OC here 22-23; A&M OC) - x1.13 w/ continuity mitigants,frozen 2026-07-15,0
+TCU,Big 12,46,52,50,52,58,42,52,55,407,0,6.99,35,6.0,False,frozen 2026-07-15,0
+Nebraska,Big Ten,62,40,52,66,46,62,65,62,455,0,6.96,35,6.0,False,frozen 2026-07-16 (adac096),0
+Houston,Big 12,62,52,58,46,55,48,60,42,423,0,6.15,40,6.0,False,frozen 2026-07-15,0
+Illinois,Big Ten,62,32,48,38,41,46L,62,30,359,1,5.75,41,6.18,False,frozen 2026-07-16 (511c1b2),0
+Wisconsin,Big Ten,62,58,44,48,52,74,62,48,448,0,5.49,42,6.0,False,frozen 2026-07-16 (abf95f8),0
+Minnesota,Big Ten,58,54,44,60,64,55,64,56,455,0,5.25,44,6.0,False,frozen 2026-07-16 (056d942),0
+UCLA,Big Ten,60,60,52,42,56,60,66,56,452,0,4.7,50,6.78,True,frozen 2026-07-16 (f032e11),0
+Arizona State,Big 12,48,45,56,36,51,50,48,40,374,0,4.27,50,6.0,False,frozen 2026-07-15,0
+Northwestern,Big Ten,52,58,64,46,52,52,68,40,432,0,4.13,50,6.0,False,frozen 2026-07-16 (78722de),0
+Oklahoma State,Big 12,62,60,55,44,45,52,48,45,411,0,3.73,51,7.46,Gundy fired Sept '25 -> Eric Morris (from North Texas 12-2) - x1.13; brought OC Brophy + DC Cassity + 18 NT players,frozen 2026-07-15,0
+Baylor,Big 12,52,44,44,40,47,38L,52,52,369,1,3.29,53,6.18,False,frozen 2026-07-15,0
+Cincinnati,Big 12,44,50,40L,76,28,55,45,52,390,1,2.95,55,6.18,False,frozen 2026-07-15,1
+Kansas,Big 12,42,48,44,45,50,52,42,40,363,0,2.64,56,6.0,False,frozen 2026-07-15,0
+Maryland,Big Ten,60,38,40,40,63,53,60,36,390,0,2.54,56,6.0,False,frozen 2026-07-16 (fcc394e),0
+UCF,Big 12,52,46,48,40,48,52,58,45,389,0,2.05,58,6.0,False,frozen 2026-07-15,0
+Rutgers,Big Ten,52,74,60,50,54,54,36,44,424,0,2.01,59,6.0,False,frozen 2026-07-16 (2d49954),0
+Colorado,Big 12,45,48,56,40,55,50,47,42,383,0,0.36,61,6.0,False,frozen 2026-07-15,0
+West Virginia,Big 12,44,52,44,46,42,40,40,42,350,0,0.36,62,6.0,False,frozen 2026-07-15,0
+Memphis,American Athletic,40L,42,45,38L,52,30L,74,50L,371,4,0.05,63,7.59,Huff (SM) in for Silverfield (Arkansas) Dec 2025 - variance multiplier 1.13 applies,frozen 2026-07-14 (post c091163),0
+Michigan State,Big Ten,53,48,38,46,44,53,44,26,352,0,0.04,64,6.78,True,frozen 2026-07-16 (d4c47dc),0
+Iowa State,Big 12,48,42,40L,32L,46,40L,40,52,340,3,-0.0,63,8.13,Campbell -> Penn State (Dec 5); Rogers (SDSU/Wazzu) hired - x1.13 applies,frozen 2026-07-15,0
+Tulane,American Athletic,45L,58,46,30L,35,28L,42,52,336,3,-0.4,66,7.39,Hall promoted after Sumrall -> Florida - x1.13 applies (internal-continuity mitigant noted),frozen 2026-07-15,0
+East Carolina,American Athletic,44L,50,46,30,54,25L,55,52,356,2,-1.1,71,6.36,False,frozen 2026-07-15,1
+Purdue,Big Ten,44,48,40,38,58,46,44,54,372,0,-1.15,70,6.0,False,frozen 2026-07-16 (56798c9),0
+Navy,American Athletic,45L,40,38,48,18,40,32,55,316,1,-1.34,71,6.18,False,frozen 2026-07-15,0
+Army,American Athletic,62,38,40,84,25,15L,22L,65,351,2,-2.18,74,6.36,False,frozen 2026-07-15,0
+South Florida,American Athletic,48,38,48,32L,35,30L,30L,48,309,3,-2.42,77,7.39,Hartline in for Golesh (Auburn) - x1.13 applies,frozen 2026-07-15,0
+UTSA,American Athletic,55,58,48,30L,18L,30L,23L,52,314,4,-2.96,80,6.72,False,frozen 2026-07-15,0
+UNLV,Mountain West,36,30,16L,20,18L,16,20,20,176,2,-4.59,86,6.36,False,frozen 2026-07-17 (779046e),0
+North Texas,American Athletic,35L,52,38,35L,15L,40,35L,55,305,4,-6.12,91,8.35,Neal Brown in for Eric Morris (OkState) Dec 2025 - x1.13 applies,frozen 2026-07-15,0
+New Mexico,Mountain West,34,16,22,24,22,44,26,18,206,0,-6.6,92,6.0,False,frozen 2026-07-17 (9e22a3d),0
+Tulsa,American Athletic,45,50,32,38,40,33L,58,45,341,1,-7.31,95,6.18,False,frozen 2026-07-15,0
+Miami (OH),Mid-American,30L,26,24,30,28,38,26,40,242,1,-7.41,95,6.18,False,frozen 2026-07-16 (a4426e7),0
+Western Michigan,Mid-American,46,28,26,28,18,16L,30,28,220,1,-8.22,98,6.18,False,frozen 2026-07-16 (d01620e),0
+North Dakota State,Mountain West,14L,16,12L,20,16,14L,14,14,120,3,-8.67,101,7.19,False,frozen 2026-07-17 (8344a65),0
+Air Force,Mountain West,32,22,14,26,14L,20,18,12,158,1,-8.83,102,6.18,False,frozen 2026-07-17 (e925048),0
+Toledo,Mid-American,22L,16,16L,14,18,16,16,24,142,2,-9.12,102,7.91,True,frozen 2026-07-16 (cf02669),0
+Hawai'i,Mountain West,38,14,18,10L,16L,12L,18,12L,138,4,-9.36,103,6.72,False,frozen 2026-07-17 (7b07c22),0
+Temple,American Athletic,35L,40,55,58,15L,25L,14L,45,287,4,-9.37,102,6.72,False,frozen 2026-07-15,0
+Florida Atlantic,American Athletic,55,40,50,33,28,20L,15L,50,291,2,-9.51,104,6.36,False,frozen 2026-07-15,2
+Ohio,Mid-American,22L,20,16,12,18,40,22,24,174,1,-11.5,114,6.98,True,frozen 2026-07-16 (8fb97ff),0
+Rice,American Athletic,38L,48,30,42,30,18L,12L,52,270,3,-12.76,117,6.54,False,frozen 2026-07-15,0
+Central Michigan,Mid-American,38,28,28,28,24,14L,22,26,208,1,-12.81,117,6.18,False,frozen 2026-07-16 (b9b71a2),0
+Wyoming,Mountain West,20L,18,12L,18,14L,16,16,16,130,3,-13.59,121,6.54,False,frozen 2026-07-17 (53d85f6),0
+Bowling Green,Mid-American,34L,28,18,10,34,30,30,18,202,1,-13.67,121,6.18,False,frozen 2026-07-16 (e6c4d93),0
+UAB,American Athletic,42,48,38,45,16L,25L,15L,55,284,3,-13.84,123,7.39,Mortensen first full season (interim after Dilfer mid-2025 firing) - x1.13 applies,frozen 2026-07-15,1
+Buffalo,Mid-American,22L,16,22,16,14,12L,42,22,166,2,-14.01,123,6.36,False,frozen 2026-07-16 (6b0c2c1),0
+Nevada,Mountain West,18L,14,12L,22,26,12L,18,16,138,3,-14.93,125,6.54,False,frozen 2026-07-16 (908b834),0
+Eastern Michigan,Mid-American,40,14,34,18,18,16,28,24,192,0,-15.27,126,6.0,False,frozen 2026-07-16 (6cbb74f),0
+San José State,Mountain West,20L,16,16L,14,16,14,12,22,130,2,-15.58,126,6.36,False,frozen 2026-07-16 (cff1aa3),0
+Northern Illinois,Mountain West,18L,12,16,12,10L,10L,12,18,108,3,-17.92,134,7.39,True,frozen 2026-07-16 (f400d06),0
+Akron,Mid-American,34L,16,28,14,12,12L,22,24,162,2,-18.53,134,6.36,False,frozen 2026-07-16 (aadf7b3),0
+Charlotte,American Athletic,38L,35,44,18L,14L,30L,20L,22L,221,6,-19.14,135,7.59,False,frozen 2026-07-15,0
+Sacramento State,Mid-American,20L,14L,10,8,10L,16,10L,22,110,4,-19.61,135,7.59,True,frozen 2026-07-16 (9dbb540),0
+Kent State,Mid-American,32,10,26,12,22,14,18,26,160,0,-19.77,136,6.0,False,frozen 2026-07-16 (e7b5480),0
+UTEP,Mountain West,16L,12,12L,8L,10L,14,14,14,100,4,-20.09,136,6.72,False,frozen 2026-07-17 (c045330),0
+Ball State,Mid-American,18L,8,12,12,8,8L,14,10,90,2,-21.84,137,6.36,False,frozen 2026-07-16 (cd6d519),0
+Massachusetts,Mid-American,22L,10,14,12,12,30,16,20,136,1,-25.8,138,6.8,False,frozen 2026-07-16 (b94b9c4),0

@@ -60,3 +60,4 @@ Format: `- YYYY-MM-DD [source] fact`. Facts only — no forecasts.
   COLORADO x2 (Scudero, Taufatofua) — Colorado has now taken 4+ from
   Sac St and 2 from SJSU across this project's feeds (Big Sky/MWC
   vacuum).
+- 2026-07-17 [audit] Post-grades sweep: Walker + Sinatra feed-gap arrivals documented; Rolovich (true FR) noted. Grades unchanged.
