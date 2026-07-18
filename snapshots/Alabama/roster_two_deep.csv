@@ -1,17 +1,38 @@
 unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
-QB,1,,,,,,,,
-QB,2,,,,,,,,
-RB,1,,,,,,,,
-RB,2,,,,,,,,
-WRTE,1,,,,,,,,
-WRTE,2,,,,,,,,
-OL,1,,,,,,,,
-OL,2,,,,,,,,
-DL,1,,,,,,,,
-DL,2,,,,,,,,
-LB,1,,,,,,,,
-LB,2,,,,,,,,
-DB,1,,,,,,,,
-DB,2,,,,,,,,
-ST,1,,,,,,,,
-ST,2,,,,,,,,
+QB,1,Keelon Russell,QB,SO,returning,Athlon,PS,L,5-star; elite athleticism; P6 "Russell's skillset eventually wins the job"; unproven
+QB,2,Austin Mack,QB,SR,returning,Athlon,PS,L,66.2/41 (SEC +7.72 -> small sample weighted DOWN); 4th-yr; DeBoer/Grubb exp; 6'6 pocket
+RB,1,Daniel Hill,RB,SO,returning,Athlon,PS,M,66.0/75 (SEC +10.17 -> weighted DOWN ~72; small sample); bruising; Athlon lead back
+RB,2,Kevin Riley,RB,SO,returning,Athlon,PS,L,72.0/59 (small sample)
+RB,3,EJ Crowell,RB,FR,returning,Athlon,PS,L,5-star frosh; 300 yds in state title game
+RB,4,AK Dear,RB,SO,returning,Athlon,PS,L,depth
+WRTE,1,Ryan Coleman-Williams,WR,JR,returning,Athlon,PS,H,66.5/375 (SEC +5.94 -> 72.4 adj); the phenom; high drop rate '25 but talented
+WRTE,2,Lotzeir Brooks,WR,SO,returning,Athlon,PS,M,68.1/245 (SEC +5.94 -> 74.0 adj); proven complement (duo 81 rec/1130 yds)
+WRTE,3,Noah Rogers,WR,JR,transfer:NC State,Athlon,PS,L,65.1/314 (ACC +2.36 -> 67.5 adj); KNEE injury - '26 in question
+WRTE,4,Kaleb Edwards,TE,SO,returning,Athlon,PS,M,51.6/177 (SEC All-Frosh); TE1
+WRTE,5,Josh Ford,TE,JR,transfer:Oklahoma State,Athlon,PS,L,54.7/62 (B12); P4 starter
+WRTE,6,Derek Meadows,WR,FR,returning,Athlon,PS,L,Top100 frosh; 6'4; emerged at A-Day
+OL,1,Michael Carroll,G,SO,returning,Athlon,PS,M,#1 lineman of 2025 class; SEC All-Frosh at G; ONLY returning starter
+OL,2,Jayvin James,OT,JR,transfer:Mississippi State,Athlon,PS,M,58.2/855 (SEC +13.45 -> weighted DOWN; experienced SEC starting tackle)
+OL,3,William Sanders,G,SO,returning,Athlon,PS,L,65.7/185 (SEC; former 4-star; moves up to starter)
+OL,4,Jackson Lloyd,OT,FR,returning,Athlon,PS,L,Top100 RS-frosh; named top LT in spring
+OL,5,Racin Delgatty,C,SR,transfer:Cal Poly,Athlon,PS,L,FCS (NO CELL); emerged in spring; FCS->SEC jump
+OL,6,Ty Haywood,OT,SO,transfer:Michigan,Athlon,PS,L,63.3/15 tiny (B10); Top100 transfer
+DL,1,London Simmons,DI,SO,returning,Athlon,PS,M,69.3/266 (SEC +7.87 -> weighted; SEC All-Frosh, rising); only starter back
+DL,2,Devan Thompkins,DI,SR,transfer:USC,Athlon,PS,M,61.2/494 (B10 +10.38 -> weighted DOWN; 6'5 319; USC starter)
+DL,3,Terrance Green,DI,JR,transfer:Oregon,Athlon,PS,M,61.5/269 (B10 +10.38 -> weighted DOWN; 4-star transfer grade; 6'5 319)
+DL,4,Edric Hill,DI,JR,returning,Athlon,PS,M,72.2/347 (SEC +7.87 -> weighted; former Top200); returns
+DL,5,Desmond Umeozulu,ED,JR,transfer:South Carolina,Athlon,PS,L,64.9/331 (SEC +7.87 -> weighted); SC's 3rd end
+DL,6,Isaia Faga,DI,SO,returning,Athlon,PS,L,72.0/131 (small sample); interior depth
+LB,1,Yhonzae Pierre,ED,JR,returning,Athlon,PS,H,68.4/617 (SEC +14.01 -> weighted DOWN ~76; former 5-star, top pass rusher; potential 1st-rd '27)
+LB,2,Caleb Woodson,LB,JR,transfer:Virginia Tech,Athlon,PS,M,60.1/378 (ACC +2.13 -> 62.2 adj); ACC starter; takes an ILB spot
+LB,3,Jah-Marien Latham,ED,SR,returning,Athlon,PS,M,yr4_return_override; 7th season; edge/DL hybrid
+LB,4,Xavier Griffin,LB,FR,returning,Athlon,PS,L,5-star frosh; battles for the other ILB
+LB,5,Justin Hill,ED,SO,returning,Athlon,PS,L,70.9/218 (Top100; true-frosh snaps '25)
+DB,1,Bray Hubbard,S,SR,returning,Athlon,PS,H,84.1/816 (SEC +5.44 -> 89.5 adj); ALL-AMERICAN
+DB,2,Keon Sabb,S,SR,returning,Athlon,PS,H,81.2/821 (SEC +5.44 -> 86.6 adj); 5th-yr
+DB,3,Zabien Brown,CB,JR,returning,Athlon,PS,H,73.9/764 (SEC +5.44 -> 79.3 adj); "Mr. Pick Six"; potential 1st-rd '27
+DB,4,Dijon Lee Jr.,CB,SO,returning,Athlon,PS,M,79.4/586 (SEC +5.44 -> 84.8 adj); SEC All-Frosh
+DB,5,Zavier Mincey,S,SO,returning,Athlon,PS,L,67.7/218 (5-star depth)
+DB,6,Ivan Taylor,S,SO,returning,Athlon,PS,L,70.3/57 (depth)
+ST,1,Conor Talty,K,SR,returning,Athlon,PS,L,returns 4th yr; missed key kicks '25; competition from Quinn (Marshall)
+ST,2,Alex Asparuhov,P,SO,returning,Athlon,PS,L,punter battle vs FCS Watford

@@ -4,11 +4,41 @@
  "created_utc": "2026-07-18T01:39:39+00:00",
  "assembler_git_rev": "ed655ca",
  "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Kalen DeBoer (Year 2, no change; band x1.00). DC Kane Wommack; OC Ryan Grubb. 11-4 (7-1 SEC) in '25, Playoff at-large; lost Rose Bowl QF to Indiana 38-3. Verified BOTH sources + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC), arrivals on origin cells. SEC offsets are LARGE (QB +7.72, RB +10.17, WRTE +5.94, OL +13.45, DL +7.87, LB +14.01, DB +5.44) - applied to full-sample returning production, but the big cells (OL/LB/RB) WEIGHTED DOWN per the 'over-inflates individuals' calibration note; small samples discounted. Arrivals: Noah Rogers NC State/ACC (+2.36 WRTE - knee injury), Josh Ford Oklahoma State/B12 (TE); Jayvin James Mississippi State/SEC (OL), Racin Delgatty Cal Poly/FCS (OL no-cell), Nick Brooks Texas/SEC (OL), Ty Haywood Michigan/B10 (OL); Devan Thompkins USC/B10 (+10.38 DL weighted), Terrance Green Oregon/B10 (+10.38 DL weighted), Desmond Umeozulu South Carolina/SEC (DL); Caleb Woodson Virginia Tech/ACC (+2.13 LB).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": ["Rico Scott"],
+ "yr4_return_overrides_documented": ["Jah-Marien Latham"],
+ "nfl_declare_confirmed": ["Ty Simpson", "Kadyn Proctor", "Parker Brailsford"],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Ty Simpson": "QB, 83.1/567 (3,567 yds/28 TD/5 INT - the '25 starter) - GONE, NFL DECLARE (FIRST ROUND; junior, NOT on yr4 list). Athlon 'replace Ty Simpson'; P6 'a first-round selection.' nfl_declare_confirmed. 3-SOURCE.",
+  "Kadyn Proctor": "OT, 86.1/985 (elite LT) - GONE, NFL DECLARE (junior, NOT on yr4 list). Athlon 'lost Proctor... to the NFL draft'; P6 'two NFL draft picks.' nfl_declare_confirmed.",
+  "Parker Brailsford": "C, 65.5/905 - GONE, NFL DECLARE (NOT on yr4 list). Athlon 'lost... Brailsford to the NFL draft'; P6 'two NFL draft picks.' nfl_declare_confirmed.",
+  "Jam Miller": "RB, 66.2/130 (starter) - GONE (yr4 AND P6 'off to the pros'). EXPIRED(yr4).",
+  "Josh Cuevas": "TE, 69.6/328 (starter) - GONE (yr4 AND P6 'was drafted'). EXPIRED(yr4).",
+  "LT Overton": "DL/ED, 64.2/483 (starter) - GONE (yr4 AND P6 'went pro'). EXPIRED(yr4).",
+  "Tim Keenan III": "DL/DI, 71.5/400 (starter) - GONE (yr4 AND P6 'went pro'). EXPIRED(yr4).",
+  "Germie Bernard": "WR, 71.9/508 (leading receiver) - GONE (yr4 AND P6 'went pro'). EXPIRED(yr4).",
+  "Justin Jefferson": "LB, 67.7/612 (ILB starter) - GONE (yr4; P6 'both ILBs gone'). EXPIRED(yr4).",
+  "Deontae Lawson": "LB, 77.9/702 (ILB starter) - GONE (yr4; P6 'both ILBs gone'). EXPIRED(yr4).",
+  "Nikhai Hill-Green": "LB, 74.4/448 - GONE (yr4; P6 'just one starter back in the front seven'). EXPIRED(yr4).",
+  "Jah-Marien Latham": "LB/edge, yr4 - RETURNS for a 7TH SEASON (P6 'hopes to get back'). yr4_return_override.",
+  "Ryan Coleman-Williams": "WR (fmr Ryan Williams), 66.5/375 - RETURNS. P6 'proven one-two punch' w/ Brooks. The phenom; high '25 drop rate.",
+  "Bray Hubbard": "S, 84.1/816 - RETURNS. ALL-AMERICAN. The anchor of the elite secondary (SEC +5.44 -> 89.5 adj).",
+  "Zabien Brown": "CB, 73.9/764 - RETURNS. 'Mr. Pick Six'; potential 1st-rd '27. 99-yd + 50-yd Pick Six TDs in '25.",
+  "Domani Jackson": "CB, 73.3/516 (USC transfer, yr4) - NOT named returning (P6 corners = Lee + Brown). EXPIRED(yr4).",
+  "Rico Scott": "WR, 56.0/150 - portal-out feed (no destination) BUT Athlon SEC p3 depth chart lists him returning at WR7 (So.). portal_withdrawal_override. WR7 = below the graded two-deep; grade-neutral."
+ },
  "known_gaps": [
-  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
-  "2026 recruiting team ranks not on CFBD - use 247 site at research time for class context",
-  "two-deep, magazines.md, news.md, Sideline valuations = research phase (RESEARCH_PROCEDURE.md)"
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 2026 charts. HEAVY NFL/portal attrition (17 in / 24 out). Three junior NFL declares (Simpson/Proctor/Brailsford) invisible to yr4+portal feeds - added via override, 3/2-source verified.",
+  "11-4 Playoff team but blown out 38-3 by Indiana in the QF; run game was HISTORICALLY bad ('25: 104 rush ypg, #125 FBS, worst in program history since 1946; OL #118 run push WITH 2 NFL picks). Elite pass game (PASS p87, COV p95).",
+  "2026 = a downgrade nearly everywhere but the secondary (P6). LOST: QB Simpson (1st rd), both top RBs (Miller pro), 4 OL starters (Proctor+Brailsford NFL +2), TE Cuevas (drafted), WR Bernard (pro) + Horton (A&M), all 3 DL starters (Overton+Keenan pro, Smith->OSU) +2, both ILBs (Jefferson+Lawson).",
+  "STRENGTH: the secondary returns ALMOST INTACT + elite - S Hubbard (All-American) + Sabb, CB Zabien Brown + Dijon Lee, 5-star depth (COV p95). RETAINED skill: WR duo Coleman-Williams + Brooks. Edge Pierre returns (former 5-star). QB (Mack/Russell battle) + OL (all-new) + DL (1 starter back) + ILB (rebuilt) are the swings."
  ],
- "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
- "frozen": false
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded); DISCLOSED: Alabama's own P6 ranking header ('#7(TIE) #16') was incidentally visible during facts extraction - logged in research_log.md, NOT used in grading",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T02:24:39+00:00"
 }

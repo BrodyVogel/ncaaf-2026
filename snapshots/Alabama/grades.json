@@ -1,0 +1,328 @@
+{
+ "team": "Alabama",
+ "units": {
+  "QB": {
+   "grade": 48,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 54,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 46,
+   "confidence": "L"
+  },
+  "DL": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 76,
+   "confidence": "H"
+  },
+  "ST": {
+   "grade": 48,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T02:24:39Z",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells OL/LB/RB weighted DOWN per over-inflates note; small samples discounted], arrivals on origin cells; HC DeBoer Year 2 no change [band x1.00]; disposition gate resolved 40 rows / 0 adjudicate / 0 err - HEAVY NFL+portal attrition [17 in / 24 out], 3 junior NFL declares [Simpson/Proctor/Brailsford] added via override, Latham yr4-return + Rico Scott portal-withdrawal adjudicated); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16). DISCLOSED: Alabama's own P6 ranking header incidentally visible during facts extraction - logged, NOT used.",
+  "planned_vs_final_deviations": {
+   "note": "finals match the dossier planned lines exactly (QB48/RB48/WRTE54/OL46/DL46/LB48/DB76/ST48, sum 414). No post-freeze corrections."
+  },
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 92, RB None, WRTE 69, OL 98, DL 72, LB None, DB 100, ST 81) SEVERELY over-credits departed '25 tape; 2026 resets the O + front seven and keeps the secondary.",
+   "QB": "-44 vs proxy 92 - proxy = Simpson (GONE, 1st rd); the grade keys the unproven Mack/Russell battle (zero returning starter production).",
+   "OL": "-52 vs proxy 98 - proxy = Proctor/Brailsford (GONE, NFL); the grade keys the all-new line (only Carroll back).",
+   "DL": "-26 vs proxy 72 - proxy keys the full '25 front; the grade keys the rebuild (only Simmons back; PRSH was p6 even WITH the departed starters).",
+   "WRTE": "-15 vs proxy 69 - both credit the returning duo; the grade trims for Coleman-Williams' drops + Rogers' knee.",
+   "DB": "-24 vs proxy 100 - both key the elite returning secondary; the grade sets it as the board's ceiling (76) without the proxy's max.",
+   "ST": "-33 vs proxy 81 - proxy keys '25 SPEC p81; the grade trims for Talty's missed kicks + the unsettled punter.",
+   "RB/LB": "proxy None - both units lost their proven producers; grades key the projections (RB committee behind a new OL; LB = Pierre + a rebuilt ILB)."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Alabama",
+   "unit": "QB",
+   "grade": 48,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Arizona State QB 2026 (48, peer)",
+    "TCU QB 2026 (46, below)"
+   ],
+   "rationale_bullets": [
+    "Austin Mack (4th-yr, 66.2/41 tiny sample; 6'6 pocket passer, DeBoer/Grubb system exp) vs Keelon Russell (2nd-yr, 5-star, elite athlete; P6 'Russell's skillset eventually wins the job').",
+    "Ty Simpson (83.1/567, the '25 starter - 3,567 yds/28 TD/5 INT) GONE - NFL 1st-round declare.",
+    "A genuine reset: no returning starter production. Elite pedigree + Grubb's QB development + a real 5-star ceiling keep it off the floor, but zero proven SEC snaps at the controls.",
+    "48: ~ASU/Iowa State QB 48 (unproven-but-talented tier); above TCU 46. L."
+   ],
+   "key_players": [
+    {
+     "name": "Austin Mack",
+     "role": "QB (returning, experience)",
+     "evidence": "66.2/41 tiny sample; 4th-yr; 6'6 pocket"
+    },
+    {
+     "name": "Keelon Russell",
+     "role": "QB (returning, ceiling)",
+     "evidence": "5-star; elite athlete; P6 favored to win the job"
+    }
+   ],
+   "data_gaps": [
+    "no returning starter production; Simpson (1st rd) gone",
+    "Mack 41-snap sample; Russell unproven"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Alabama",
+   "unit": "RB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Clemson RB 2026 (52, above)",
+    "Illinois RB 2025 global anchor (32, below)"
+   ],
+   "rationale_bullets": [
+    "Daniel Hill (66.0/75 -> SEC +10.17 weighted DOWN ~72; bruising, Athlon lead back) + Kevin Riley (72.0/59 small sample) + EJ Crowell (5-star frosh) + Khalifa Keith (App State).",
+    "Jam Miller (66.2/130, starter) GONE (pro); top 2 backs gone.",
+    "A committee of small-sample sophomores + an elite frosh behind an ALL-NEW OL that ran 3.4 ypc (RUN p32) WITH two NFL linemen. Talent real, production unproven; SEC RB cell weighted down hard.",
+    "48: below the proven backfields (Clemson 52); upside on talent, drag from the OL reset. M."
+   ],
+   "key_players": [
+    {
+     "name": "Daniel Hill",
+     "role": "RB1 (returning)",
+     "evidence": "66.0/75 (~72 SEC-adj weighted); bruising, Athlon lead back"
+    },
+    {
+     "name": "EJ Crowell",
+     "role": "RB (5-star signee, true frosh)",
+     "evidence": "5-star; 300 yds in a state title game"
+    }
+   ],
+   "data_gaps": [
+    "top 2 backs gone",
+    "small samples; all-new OL in front (RUN p32)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Alabama",
+   "unit": "WRTE",
+   "grade": 54,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Washington WRTE 2026 (56, above)",
+    "Nebraska WRTE 2025 global anchor (50, below)"
+   ],
+   "rationale_bullets": [
+    "Ryan Coleman-Williams (fmr Ryan Williams, 66.5/375 -> SEC +5.94 -> 72.4 adj; the phenom, high '25 drop rate) + Lotzeir Brooks (68.1/245 -> 74.0 adj) - a returning duo (81 catches / 1,130 yds).",
+    "Depth: Noah Rogers (NC State, 65.1/314 -> ACC 67.5 adj, KNEE - '26 in question), Kaleb Edwards (TE1, SEC All-Frosh), Josh Ford (Okla St TE), frosh Meadows/Morgan. Bernard (lead WR) + Cuevas (TE, drafted) + Horton (->A&M) gone.",
+    "The one skill group with proven returning production - a legit SEC WR duo + a serviceable transfer TE room. Drops + Rogers' knee cap the ceiling.",
+    "54: above the reset units + Nebraska 50 anchor; below Washington 56. M."
+   ],
+   "key_players": [
+    {
+     "name": "Ryan Coleman-Williams",
+     "role": "WR1 (returning)",
+     "evidence": "66.5/375 (72.4 SEC-adj); the phenom; high '25 drop rate"
+    },
+    {
+     "name": "Lotzeir Brooks",
+     "role": "WR2 (returning)",
+     "evidence": "68.1/245 (74.0 SEC-adj); duo = 81 rec/1,130 yds"
+    }
+   ],
+   "data_gaps": [
+    "lead WR + starting TE gone",
+    "Coleman-Williams drops; Rogers knee"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Alabama",
+   "unit": "OL",
+   "grade": 46,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Georgia Tech OL 2026 (48, above)",
+    "Florida State OL 2026 (40, below)"
+   ],
+   "rationale_bullets": [
+    "Michael Carroll (SO, nation's #1 lineman of the 2025 class, SEC All-Frosh at G - the ONLY returning starter) + Jayvin James (Miss St, 58.2/855 -> SEC +13.45 weighted DOWN; exp SEC T) + William Sanders (65.7/185, moves up) + RS-frosh Jackson Lloyd + transfers Delgatty (Cal Poly FCS no-cell), Nick Brooks (Texas), Ty Haywood (Michigan).",
+    "Proctor (NFL) + Brailsford (NFL) + 2 more starters GONE - 4 of 5 gone.",
+    "Off a line that STILL produced RUN p32 / RBLK p68. One elite young returner + a pile of transfers + unproven youth; SEC OL cell explicitly weighted down (James discounted for his 58.2 grade).",
+    "46: ~Utah/Houston OL 46; below GT 48; above FSU OL 40. Carroll's ceiling is the one thing holding it up. L."
+   ],
+   "key_players": [
+    {
+     "name": "Michael Carroll",
+     "role": "G (returning, only starter back)",
+     "evidence": "#1 lineman of 2025 class; SEC All-Frosh"
+    },
+    {
+     "name": "Jayvin James",
+     "role": "T (transfer, Mississippi State)",
+     "evidence": "58.2/855 (SEC-adj weighted down); experienced SEC tackle"
+    }
+   ],
+   "data_gaps": [
+    "4 of 5 starters gone (2 NFL 1st rd)",
+    "all-new otherwise; RUN p32 base"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Alabama",
+   "unit": "DL",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Arizona DL 2026 (48, above)",
+    "Kansas State DL 2026 (45, below)"
+   ],
+   "rationale_bullets": [
+    "London Simmons (69.3/266 -> SEC +7.87 weighted; SEC All-Frosh, rising - the ONLY starter back) + Edric Hill (72.2/347, returns) + transfers Devan Thompkins (USC, 61.2/494 -> B10 +10.38 weighted DOWN) + Terrance Green (Oregon, 61.5/269 -> B10 weighted DOWN) + Desmond Umeozulu (S. Carolina, 64.9/331) + Isaia Faga (72.0/131).",
+    "All three '25 DL starters GONE (Overton + Keenan pro, Smith -> Ohio State).",
+    "A near-total rebuild on a front that generated almost NO pass rush in '25 (PRSH p6 - program-worst) even WITH those starters. One rising returner + a portal interior (solid, not disruptive; B10 cells weighted down). Run-D pedigree (RDEF p87) offers floor.",
+    "46: below Arizona/UCF DL 48; volume of bodies but little proven production. M."
+   ],
+   "key_players": [
+    {
+     "name": "London Simmons",
+     "role": "DI (returning, only starter back)",
+     "evidence": "69.3/266 (SEC-adj weighted); SEC All-Frosh, rising"
+    },
+    {
+     "name": "Devan Thompkins",
+     "role": "DI (transfer, USC)",
+     "evidence": "61.2/494 (B10-adj weighted down); 6'5 319"
+    }
+   ],
+   "data_gaps": [
+    "all 3 DL starters gone",
+    "PRSH p6 base; pass rush unproven-to-poor"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Alabama",
+   "unit": "LB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "BYU LB 2026 (50, above)",
+    "UNLV LB 2025 global anchor (40, below)"
+   ],
+   "rationale_bullets": [
+    "Yhonzae Pierre (68.4/617 -> SEC +14.01 weighted DOWN ~76; former 5-star, top returning pass rusher, potential '27 1st-rd - the anchor) + Jah-Marien Latham (edge/DL hybrid, returns for a 7th season) + Caleb Woodson (VT, 60.1/378 -> ACC +2.13 -> 62.2 adj; takes an ILB spot) + 5-star frosh Xavier Griffin + Justin Hill (Top100).",
+    "Both starting ILBs (Jefferson + Lawson) + top backup GONE; only Pierre back in the front seven.",
+    "One genuine star (Pierre, edge) + an ILB spot rebuilt around a modest ACC transfer + a 5-star frosh. SEC LB cell (+14.01, round's most over-inflating) weighted down hard - Pierre's own grade (68.4) is good-not-elite, the pedigree is the upside.",
+    "48: below BYU/Louisville LB 50 (Pierre keeps it off the floor; ILB youth caps it); well above UNLV 40. M."
+   ],
+   "key_players": [
+    {
+     "name": "Yhonzae Pierre",
+     "role": "EDGE (returning, anchor)",
+     "evidence": "68.4/617 (SEC-adj weighted ~76); former 5-star; top returning pass rusher"
+    },
+    {
+     "name": "Caleb Woodson",
+     "role": "ILB (transfer, Virginia Tech)",
+     "evidence": "60.1/378 (62.2 ACC-adj); ACC starter"
+    }
+   ],
+   "data_gaps": [
+    "both ILBs + top backup gone",
+    "ILB rebuilt around a modest transfer + a frosh"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Alabama",
+   "unit": "DB",
+   "grade": 76,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "Oregon DB 2026 (74, just below)",
+    "Washington State DB 2025 global anchor (72, ref)"
+   ],
+   "rationale_bullets": [
+    "Bray Hubbard (S, 84.1/816 -> SEC +5.44 -> 89.5 adj; ALL-AMERICAN) + Keon Sabb (S, 81.2/821 -> 86.6 adj; 5th-yr) + Zabien Brown (CB, 73.9/764 -> 79.3 adj; 'Mr. Pick Six,' potential '27 1st-rd) + Dijon Lee Jr. (CB, 79.4/586 -> 84.8 adj; SEC All-Frosh) - FOUR returning starters, plus 5-star 2-deep.",
+    "Unit graded COV p95 in '25 and returns almost fully intact. Domani Jackson (CB, yr4) not named returning -> EXPIRED.",
+    "THE strength, and genuinely elite - four returning starters all 73.9+ raw (two safeties 81+, an All-American) averaging ~80, with 5-star depth. Arguably the best secondary in the country. SEC DB cell (+5.44) is modest (not weighted down).",
+    "76: sets the board's ceiling, just above Oregon/Memphis DB 74, on the strength of the All-American anchor + four returning starters + COV p95. The lone unit carrying '25's ceiling into '26. H."
+   ],
+   "key_players": [
+    {
+     "name": "Bray Hubbard",
+     "role": "S (returning, All-American)",
+     "evidence": "84.1/816 (89.5 SEC-adj); All-American; unit anchor"
+    },
+    {
+     "name": "Zabien Brown",
+     "role": "CB (returning)",
+     "evidence": "73.9/764 (79.3 SEC-adj); 'Mr. Pick Six'; potential '27 1st-rd"
+    },
+    {
+     "name": "Dijon Lee Jr.",
+     "role": "CB (returning)",
+     "evidence": "79.4/586 (84.8 SEC-adj); SEC All-Frosh"
+    }
+   ],
+   "data_gaps": [
+    "lost only Domani Jackson (yr4) off the two-deep",
+    "the highest DB grade on the board - held at 76 not higher for discipline"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Alabama",
+   "unit": "ST",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "USC ST 2026 (50, above)",
+    "North Carolina ST 2026 (46, below)"
+   ],
+   "rationale_bullets": [
+    "Conor Talty (K, returns 4th yr - but MISSED key kicks in '25; faces Marshall transfer Lorcan Quinn) + punter battle (Asparuhov vs FCS N. Alabama transfer Adam Watford).",
+    "SPEC graded p81 in '25 but the placekicking specifically struggled.",
+    "A returning-but-shaky kicker under real competition + an unsettled punter; the K miss-rate is a live concern.",
+    "48: ~Wisconsin ST 48; below USC 50; above UNC 46. Average; the kicker question keeps it there. M."
+   ],
+   "key_players": [
+    {
+     "name": "Conor Talty",
+     "role": "K (returning)",
+     "evidence": "4th yr; missed key kicks '25; faces Marshall transfer Quinn"
+    },
+    {
+     "name": "Alex Asparuhov",
+     "role": "P (battle)",
+     "evidence": "punter battle vs FCS N. Alabama transfer Watford"
+    }
+   ],
+   "data_gaps": [
+    "kicker miss-rate + open competition",
+    "unsettled punter"
+   ],
+   "g5_guard_note": null
+  }
+ ]
+}
