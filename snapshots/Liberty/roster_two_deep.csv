@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Deshawn Purdie,QB,FR,arrival(Wake Forest-ACC),Athlon,feed,L,Wake Forest transfer (RS Fr); battling Henderson for the job. Ethan Vasko (67.1, recovering from shoulder surgery) buried
+QB,2,Jaylen Henderson,QB,SR,arrival(West Virginia-B12),Athlon,feed,L,West Virginia transfer; in the even QB battle w/ Purdie
+RB,1,Jaylon Coleman,RB,FR,returning,Athlon+beat,web,L,RS-Fr; Liberty's highest-rated recruit ever (Class of 2025, redshirted - no 2025 FBS tape); the beat's projected A-Back starter. An unproven high-pedigree back
+RB,2,Kam Davis,RB,SO,arrival(Florida State-ACC),beat,feed,L,B-Back (Kam Davis FSU / Peyton Jones Duke). FIVE transfer RBs added (Kellman Wyo 72.9, Marshall Colo St 73.1, Udoh ASU 65.4, Davis FSU 70.1, Jones Duke 60.0). A total RB overhaul off RUN p43. LOST Evan Dickens (84.9 -> Boston College) + all returning backs (Blue -> CMU, Fannin-Render -> JMU)
+WRTE,1,Jamari Person,WR,SR,returning,Athlon,feed,M,66.6/212 (CUSA -4.19; the leading returning receiver - 28 catches/315). LOST Donte Lee (80.2 -> Texas Tech)
+WRTE,2,Makai Jackson,WR,SR,arrival(transfer),Athlon,feed,L,a transfer WR + Rashawn Cunningham (transfer). A retooled corps
+OL,1,Aaron Fenimore,C,JR,returning,Athlon,feed,M,73.5/836 (CUSA -6.36; a returning starting center)
+OL,2,Joep Engbers,LG,JR,returning,Athlon,feed,M,70.5/752 (CUSA) + D.J. Geth (LT, 59.1) + Austin Anderson (RT, 64.9) + transfer Alex Birchmeier (RG). RETURNS 4 STARTERS - the OL is the offense's strength. RBLK was p68
+DL,1,Brenton Williams,JOKER,JR,returning-withdrawal,Athlon,feed,M,70.2/432 (CUSA -7.88; portal->None but WITHDREW - Athlon depth-chart JOKER)
+DL,2,Mike Jarvis,DT,SR,returning-yr4override,Athlon,feed,M,56.8/454 (CUSA; yr4 override) + Markus Clark (DT) + Aaron Hester (DE) + transfers. LOST CJ Bazile (73.9 yr4) + Hall (-> UAB). PRSH p31 (a poor pass rush - "plagued them 3 yrs")
+LB,1,Derrell Farrar,LB,JR,returning,Athlon,feed,M,60.0/610 (CUSA -12.31; the team leader - paced the team with 71 tackles)
+LB,2,Micah Pollard,LB,SR,returning,Athlon,feed,M,71.1/156 (CUSA; the top LB grade) + Aidan Vaughan (returning). RDEF was p32 (10th of 12 in CUSA)
+DB,1,Elijah Hopkins,CB,SR,returning,Athlon+beat,feed,M,59.8/86 (CUSA -6.16; a returning corner) + Jiquavious "Quavo" Marshall (CB, 72.1/48, returning) + transfers Izaiah Guy (USF) + Ashton McShane (BC)
+DB,2,D-Icey Hopkins,S,SR,arrival(transfer),Athlon,feed,L,a transfer S + Ashton Whitner (transfer) + Jayden Davis + Izaiah Guy. LOST the top 3: Green (78.6 yr4) + Harmon (74.5 yr4) + Bodnar (71.8 -> Oklahoma St). New DB coach (Peoples, ex-Georgia Tech). COV was p77 (that group left)
+ST,1,Tyler Black,K,SO,returning,Athlon,feed,L,K battle (a Wake transfer who lost the job last yr) vs D2 McKendree's Chase Reeves. LOST K Billingsley + P Morgan (eligibility)
+ST,2,Sam Crossan,P,SO,returning,Athlon,feed,L,in the P battle. A total specialist reset. SPEC was p24

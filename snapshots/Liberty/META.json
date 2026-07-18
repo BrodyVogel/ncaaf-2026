@@ -1,0 +1,53 @@
+{
+ "team": "Liberty",
+ "conference": "Conference USA",
+ "created_utc": "2026-07-18T18:10:00+00:00",
+ "assembler_git_rev": "b575e9f",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Jamey Chadwell (25-13 at school, entering Year 4; NO change; band x1.00). New DC Shawn Quinn (from Virginia Tech) + new DB coach Cory Peoples (from Georgia Tech) - coordinator changes, do NOT trigger the band. '25: 4-8 (3-5 CUSA) - the program's FIRST losing season in 20 years. G5 2-SOURCE build (Athlon primary + scout). HIGH churn (26 in / 19 out).",
+ "conference_note": "Conference USA. Returning tape on CUSA cells (heavily negative); arrivals on origin. Athlon rates Liberty CUSA #2 (NF 91) on Chadwell's track record + the transfer QBs - but the '25 team went 4-8 and turned over heavily. A transfer-QB battle (Purdie Wake, Henderson WVU), FIVE incoming transfer RBs, a retooled WR corps - but a returning 4-starter OL (the strength). The defense lost its top DB/CB/DL (Green 78.6, Harmon 74.5, Bazile 73.9) but keeps LB Farrar + a withdrawn JOKER (Brenton Williams).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Brenton Williams"
+ ],
+ "yr4_return_overrides_documented": [
+  "Mike Jarvis"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Brylan Green",
+  "Damond Harmon",
+  "CJ Bazile Jr.",
+  "Reese Smith",
+  "Casey Cain",
+  "Joseph Carter"
+ ],
+ "feed_gap_arrivals_documented": [
+  "Peyton Jones (RB; one of five incoming transfer RBs - Athlon-named)"
+ ],
+ "known_name_exceptions": {
+  "Deshawn Purdie": "QB - Wake Forest transfer (RS Fr); the depth-chart QB1 in an even battle with WVU transfer Jaylen Henderson. Ethan Vasko (67.1, a poor '25 with 12 INT + shoulder surgery) is recovering/buried.",
+  "Evan Dickens": "RB, 84.9/229 - GONE (portal -> Boston College). The top '25 RB grade; the backfield is FIVE incoming transfers.",
+  "Donte Lee Jr.": "WR, 80.2/227 - GONE (portal -> Texas Tech). The top WR grade; Person (66.6) is the leading returning receiver.",
+  "Brenton Williams": "ED/JOKER, 70.2/432 - RETURNS (portal_withdrawal_override). portal->None but on the Athlon depth chart at JOKER - WITHDREW.",
+  "Mike Jarvis": "DT, 56.8/454 - RETURNS (yr4 override). A returning starting DT (Athlon-named/bold).",
+  "Brylan Green": "S, 78.6/493 - GONE (departure_confirmed_research; yr4). The top DB grade; the secondary is a heavy transfer rebuild.",
+  "Damond Harmon": "CB, 74.5/626 - GONE (yr4). A returning-caliber corner but eligibility expired.",
+  "CJ Bazile Jr.": "DL, 73.9/347 - GONE (yr4). The top DL grade; the front reloads around Jarvis + Brenton Williams + transfers.",
+  "Derrell Farrar": "LB, 60.0/610 - RETURNS. The team leader (71 tackles); the defense's returning anchor.",
+  "Aaron Fenimore": "C, 73.5/836 - RETURNS. A returning starting center - one of 4 returning OL starters (the strength).",
+  "Jaylon Coleman": "RB - RS-Fr RETURNING recruit (Class of 2025, redshirted; Liberty's highest-rated recruit ever per composite). NOT a transfer; the beat's projected A-Back RB1. No 2025 producer tape (redshirt; correctly absent from the disposition ledger). CORRECTION: prior roster draft mis-tagged him a 'SO transfer' and listed him RB2 - fixed to returning RS-Fr, RB1 (web-verified 2026-07-18).",
+  "Jiquavious Marshall": "CB, 72.1/48 - RETURNS ('Quavo' Marshall). CORRECTION: prior roster draft listed a non-existent 'Jamal Miles' as the returning CB alongside Elijah Hopkins - the real returning corner is Jiquavious Marshall (web + feed verified 2026-07-18)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon. HIGH churn (26/19). Athlon rates Liberty CUSA #2 (NF 91) - a BULLISH projection on Chadwell + the transfer QBs - but the grades are anchor-blind: the '25 team went 4-8 (first losing season in 20 yrs) and turned over heavily. Grade-critical departures: RB Dickens (84.9 -> BC), WR Donte Lee (80.2 -> Texas Tech), S Green (78.6, yr4), DL Bazile (73.9, yr4).",
+  "4-8 (3-5 CUSA) in Chadwell's Y3 (now Y4, no change) - a disappointing season with a poor passing game (PASS p27, 12 INT). OFF p59 (RECV p73, RUN p43 - the run game dipped), DEF p47 (RDEF p32 - 10th of 12 in CUSA run D; COV p77 - but that coverage group left). SPEC p24.",
+  "The OFFENSE is a transfer overhaul under new coordinators: a QB battle (Purdie Wake + Henderson WVU; Vasko recovering); FIVE incoming transfer RBs (lost the lead back Dickens 84.9 -> BC); a retooled WR corps (Person the leading returner + transfers) - but a RETURNING 4-STARTER OL (Geth/Engbers/Fenimore/Anderson) is the early strength.",
+  "The DEFENSE has a new DC (Quinn, ex-Virginia Tech) + keeps LB Derrell Farrar (71 tackles) + Micah Pollard + DT Jarvis (yr4-return) + a WITHDRAWN JOKER (Brenton Williams). But it LOST its top DB (Green 78.6, yr4), top CB (Harmon 74.5, yr4), DL Bazile (73.9, yr4) + CB Bodnar (71.8 -> Ok St) - a heavy secondary rebuild via transfers. The pass rush has 'plagued them 3 years' (PRSH p31).",
+  "ST is a TOTAL reset: K Billingsley + P Morgan exhausted eligibility; a K battle (Wake transfer Black vs D2 McKendree's Reeves) + P Crossan, off a poor SPEC-p24 unit."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF91 / CUSA prediction 2 incidentally visible - logged, NOT used. G5 2-source (Athlon primary + scout; PS CUSA text garbled).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T18:20:00+00:00"
+}

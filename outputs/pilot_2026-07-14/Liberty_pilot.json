@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T18:42:13+00:00",
+ "team": "Liberty",
+ "final": -6.49,
+ "rank": 92,
+ "band": 6.54,
+ "resid": 5.91,
+ "adj": 2.07,
+ "class_term": 0.0,
+ "st": -0.24,
+ "anchor_blend": -8.79,
+ "resid_level": 4.65,
+ "resid_shape": 1.26,
+ "implied_off": 24.39,
+ "implied_def": 27.08,
+ "anchor_off": 24.3,
+ "anchor_def": 32.9,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.612
+ },
+ "low_conf_units": 3,
+ "code_rev": "b575e9f",
+ "mode": "PILOT-OOS"
+}

@@ -1,0 +1,36 @@
+{
+ "id": 2335,
+ "school": "Liberty",
+ "mascot": "Flames",
+ "abbreviation": "LIB",
+ "alternateNames": [
+  "LIB",
+  "Liberty"
+ ],
+ "conference": "Conference USA",
+ "division": null,
+ "classification": "fbs",
+ "color": "#071740",
+ "alternateColor": "#a61f21",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2335.png"
+ ],
+ "twitter": "@LibertyFootball",
+ "location": {
+  "id": 3992,
+  "name": "Williams Stadium (VA)",
+  "city": "Lynchburg",
+  "state": "VA",
+  "zip": "24502",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 37.3544305,
+  "longitude": -79.1750239,
+  "elevation": "272.9237061",
+  "capacity": 25000,
+  "constructionYear": 1989,
+  "grass": false,
+  "dome": false
+ }
+}

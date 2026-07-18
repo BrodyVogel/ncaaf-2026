@@ -1,0 +1,15 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Aaron Fenimore,174929,C,LIBERTY,12,100.0,0,206,73.5,63.9,74.2,1,13,359,100.0,100.0,97.8,1,15,1,836,836,0,0,836,380,380,0,0,456,0,2025_this_team
+Harrison Hayes,147549,G,LIBERTY,12,100.0,1,206,64.2,65.1,62.7,1,13,356,100.0,100.0,97.2,3,17,3,829,0,0,0,829,377,377,828,0,452,0,2025_this_team
+Joep Engbers,175950,G,LIBERTY,12,100.0,0,206,70.5,76.7,68.0,1,7,324,100.0,100.0,98.8,3,8,0,752,0,751,0,752,343,343,0,0,409,0,2025_this_team
+D.J. Geth,170103,T,LIBERTY,12,100.0,2,206,59.1,53.7,59.3,4,14,288,100.0,100.0,95.8,6,21,3,677,0,72,604,677,306,306,0,0,371,0,2025_this_team
+Christian Williams,157741,T,LIBERTY,12,100.0,1,206,62.4,70.1,59.7,0,8,261,100.0,100.0,97.3,5,11,3,591,0,0,0,591,275,275,2,588,316,0,2025_this_team
+Jack Tucker,144753,T,LIBERTY,10,100.0,0,206,59.4,49.1,61.2,2,5,78,100.0,100.0,94.2,0,8,1,179,0,0,62,179,82,82,0,116,97,0,2025_this_team
+Trey Bedosky,121481,T,LIBERTY,9,100.0,1,206,60.1,74.8,56.8,1,2,62,100.0,100.0,97.6,1,3,0,156,0,0,156,156,64,64,0,0,92,0,2025_this_team
+Austin Anderson,174919,T,LIBERTY,3,100.0,0,206,64.9,61.8,63.4,0,1,38,100.0,100.0,98.7,0,1,0,118,0,0,25,118,43,43,0,89,75,4,2025_this_team
+Val Erickson,157152,G,NC STATE,7,100.0,0,248,44.7,21.2,50.4,1,1,58,100.0,100.0,98.3,2,2,0,110,0,0,0,110,61,61,58,52,49,0,arrival_2025_at_NC STATE
+Erwil Anthony Jr.,198650,T,LIBERTY,2,100.0,0,206,55.6,26.2,63.1,1,2,29,100.0,100.0,94.8,0,3,0,60,0,0,0,60,30,30,6,54,30,0,2025_this_team
+Andrew Johnson,184690,G,LIBERTY,3,100.0,0,206,59.7,80.3,57.0,0,0,9,100.0,100.0,100.0,0,0,0,24,0,24,0,24,9,9,0,0,15,0,2025_this_team
+Hunter Porterfield,147551,C,LIBERTY,2,100.0,0,206,58.0,74.5,57.0,0,0,3,100.0,100.0,100.0,0,0,0,12,11,0,0,12,3,3,0,0,9,0,2025_this_team
+Braeden Edwards,145041,G,LIBERTY,1,100.0,0,206,62.1,8.5,66.1,0,1,3,100.0,100.0,83.3,0,1,0,11,0,0,0,11,3,3,11,0,8,0,2025_this_team
+Alex Birchmeier,170276,G,PENN STATE,1,50.0,0,266,58.6,,60.0,0,0,0,,0.0,,0,0,0,1,0,0,0,2,0,1,1,0,1,1,arrival_2025_at_PENN STATE

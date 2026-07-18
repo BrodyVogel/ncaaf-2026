@@ -1,0 +1,320 @@
+{
+ "team": "Liberty",
+ "units": {
+  "QB": {
+   "grade": 44,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 42,
+   "confidence": "L"
+  },
+  "WRTE": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 38,
+   "confidence": "L"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18T18:35:00Z",
+  "snapshot_rev": "frozen 2026-07-18T18:20:00Z (Liberty); post-freeze name corrections 2026-07-18 (see planned_vs_final_deviations)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary + A Sea of Red beat two-deep; PS CUSA text GARBLED; no Pick Six for CUSA]; Conference USA -> returning tape on CUSA cells [heavily negative], arrivals on origin [FCS/D2 = no cell]; HC Jamey Chadwell Y4 [NO CHANGE, band x1.00]; new DC Quinn + DB coach Peoples = coordinator changes, do NOT trigger the band; disposition gate 43 rows / 0 adjudicate / 0 err - withdrawal override Brenton Williams [EDGE, portal->None but Athlon/beat JOKER], yr4-return override Mike Jarvis; departure_confirmed_research Green 78.6/Harmon 74.5/Bazile 73.9 [yr4] + Reese Smith/Casey Cain/Joseph Carter; feed-destinationed losses Dickens 84.9->BC, Donte Lee 80.2->Texas Tech, Bodnar 71.8->Ok St, Hall->UAB]; anchor values not consulted. HIGH churn 26 in/19 out. DISCLOSED: Athlon NF91 / CUSA prediction 2 incidentally visible, logged, NOT used [a BULLISH Athlon projection on Chadwell + the QBs; anchor-blind the '25 team went 4-8].",
+  "planned_vs_final_deviations": {
+   "note": "Finals match the dossier planned lines exactly (QB44L/RB42L/WRTE42/OL48/DL42/LB44/DB42/ST38L, sum 342). NO grade changed. TWO post-freeze ROSTER NAME corrections were made during the grade write-up (web-verified; grade-neutral, documented per the Rogers/Golding discipline):",
+   "correction_1_RB": "The draft roster listed 'Jaylon Coleman' as a 'SO transfer' at RB2. Verified he is a REAL RETURNING player - a RS-Fr, Liberty's highest-rated recruit ever (Class of 2025, redshirted, no '25 FBS tape), the beat's projected A-Back RB1. Fixed to returning RS-Fr, RB1. RB stays 42L (a total overhaul: an unproven RS-Fr starter + five mid-tier transfers, lost the 84.9 lead back Dickens).",
+   "correction_2_CB": "The draft roster listed 'Jamal Miles' as a returning CB - a name that appears in NEITHER the CFBD feed NOR the beat depth chart NOR the PFF tape (a name error). Fixed: the real returning corner alongside Elijah Hopkins is Jiquavious 'Quavo' Marshall (72.1/48). DB stays 42 (a near-total secondary rebuild - lost the top 3, reloading via transfers).",
+   "shape": "An OL-anchored high-churn rebuild: the returning 4-starter OL (48) is the strength; unproven skill (QB 44L battle, RB 42L overhaul, WRTE 42 lost the 80.2 WR1) + a rebuilt secondary (42) + a total specialist reset (38L) drag it. 3 L-confidence units (QB, RB, ST)."
+  },
+  "shadow_proxy_divergence": {
+   "note": "The proxy (QB 22, RB None, WRTE None, OL 38, DL 14, LB 2, DB 26, ST 24) understates badly - an artifact of the 26-in/19-out churn (thin returning-producer snaps) + the P4/yr4 departures. RB/WRTE = None (the producers all left). The grades key the verified returners + the beat two-deep + per-player PFF grades, NOT the proxy.",
+   "OL": "+10 vs proxy 38 - the grade keys the FOUR returning starters (Geth/Engbers/Fenimore 73.5/Anderson) the proxy underweights.",
+   "LB": "+42 vs proxy 2 - the grade keys the returning duo (Farrar 71 tackles, Pollard 71.1) the low snap-share proxy misses.",
+   "RB": "42 vs proxy None - graded on personnel (a RS-Fr starter + five transfers) after every producer left.",
+   "WRTE": "42 vs proxy None - graded on the returning WR1 Person (66.6) + transfers after Donte Lee (80.2) left.",
+   "DB": "+16 vs proxy 26 - the grade keys the transfer rebuild (Guy 71.1, Whitner, D-Icey) + Quavo Marshall, not just low-snap returners."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Liberty",
+   "unit": "QB",
+   "grade": 44,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Cincinnati QB 2026 (44, peer)",
+    "West Virginia QB 2026 (44, peer)"
+   ],
+   "rationale_bullets": [
+    "Deshawn Purdie (Wake, RS-Fr, 43.0/97 -> ACC +2.08) vs Jaylen Henderson (WVU, 54.3/26 -> B12 +5.86); Ethan Vasko (returning, 67.1/316 -> CUSA -5.61, but 12 INT, recovering from shoulder surgery).",
+    "An unsettled transfer battle with NO proven quality starter - the only experienced returning arm (Vasko) is off a 12-INT year + surgery; the transfers have thin FBS tape. New OC.",
+    "44: ~Cincinnati/West Virginia QB 44. Three plausible-but-unproven options + Chadwell's QB-dev history vs zero established production + the injury. L (battle open)."
+   ],
+   "key_players": [
+    {
+     "name": "Deshawn Purdie",
+     "role": "QB (arrival, Wake Forest)",
+     "evidence": "43.0/97 at Wake (RS-Fr); the beat/Athlon front-runner in an open battle"
+    },
+    {
+     "name": "Ethan Vasko",
+     "role": "QB (returning)",
+     "evidence": "67.1/316 but 12 INT in '25; recovering from shoulder surgery - the only experienced returning arm"
+    }
+   ],
+   "data_gaps": [
+    "open QB battle (no named starter)",
+    "new OC",
+    "Vasko injury recovery"
+   ],
+   "g5_guard_note": "Conference USA; an unproven transfer QB battle (Purdie/Henderson) + a hurt returner (Vasko) - no established starter; arrivals on origin cells."
+  },
+  {
+   "team": "Liberty",
+   "unit": "RB",
+   "grade": 42,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Memphis RB 2026 (42, peer)",
+    "Iowa State RB 2026 (42, peer)"
+   ],
+   "rationale_bullets": [
+    "Jaylon Coleman (RS-Fr, RETURNING - Liberty's highest-rated recruit ever, redshirted, no FBS tape; the beat's A-Back) + Kam Davis (FSU 70.1) / Peyton Jones (Duke 60.0) + transfers Kellman (Wyo 72.9), Marshall (Colo St 73.1), Udoh (ASU 65.4). LOST Evan Dickens (84.9 -> BC) + ALL returning backs.",
+    "A total overhaul - the projected starter is a high-pedigree RS-Fr with zero FBS production; the mid-tier transfers discount hard off origin; no proven FBS lead after an 84.9 back left.",
+    "42: ~Memphis/Iowa State RB 42. Coleman's pedigree + five bodies of depth vs zero proven FBS lead + the lost 84.9 back. L (unproven at the top)."
+   ],
+   "key_players": [
+    {
+     "name": "Jaylon Coleman",
+     "role": "RB (returning, RS-Fr)",
+     "evidence": "Liberty's highest-rated recruit ever (Class of 2025, redshirted); the beat's projected A-Back RB1 - no FBS tape yet"
+    },
+    {
+     "name": "Justin Marshall",
+     "role": "RB (arrival, Colorado State)",
+     "evidence": "73.1/49 at Colo St - a mid-tier transfer body in a five-deep transfer room"
+    }
+   ],
+   "data_gaps": [
+    "RS-Fr projected starter with zero FBS production",
+    "five transfer RBs, no established FBS lead",
+    "lost the 84.9 lead back + all returning backs"
+   ],
+   "g5_guard_note": "Conference USA; a wiped-clean backfield - a RS-Fr recruit + five origin-discounted transfers after losing an 84.9 producer. L."
+  },
+  {
+   "team": "Liberty",
+   "unit": "WRTE",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Iowa WRTE 2026 (42, peer)",
+    "San Diego State WRTE 2026 (42, peer)"
+   ],
+   "rationale_bullets": [
+    "Jamari Person (66.6/212 -> CUSA -4.19; the leading returning receiver - 28 catches/315) + transfers Makai Jackson (Indiana) + Rashawn Cunningham + TE (Ryan/Johnson). LOST Donte Lee Jr. (80.2 -> Texas Tech) + Reese Smith + Casey Cain (yr4).",
+    "A mid-grade returning WR1 + a retooled corps off a decent-volume '25 receiving game (RECV p73) - but the clear top target (Donte Lee 80.2) left and the passing game was poor (PASS p27).",
+    "42: ~Iowa/San Diego State WRTE 42. Person + the RECV p73 base + transfer depth vs the lost 80.2 WR1 + the poor passing game. M."
+   ],
+   "key_players": [
+    {
+     "name": "Jamari Person",
+     "role": "WR (returning)",
+     "evidence": "66.6/212; 28 catches/315 - the leading returning receiver"
+    },
+    {
+     "name": "Makai Jackson",
+     "role": "WR (arrival, Indiana)",
+     "evidence": "a B10 transfer into a retooled corps"
+    }
+   ],
+   "data_gaps": [
+    "lost the top WR (Donte Lee 80.2)",
+    "poor '25 passing game (PASS p27, 12 INT)"
+   ],
+   "g5_guard_note": "Conference USA; a mid-grade returning WR1 (Person) + transfers on a RECV p73 base after the 80.2 top WR left. M."
+  },
+  {
+   "team": "Liberty",
+   "unit": "OL",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wisconsin OL 2026 (48, peer)",
+    "Georgia Tech OL 2026 (48, peer)"
+   ],
+   "rationale_bullets": [
+    "DJ Geth (LT, 59.1) + Joep Engbers (LG, 70.5/752) + Aaron Fenimore (C, 73.5/836) + Austin Anderson (RT, 64.9) - FOUR returning starters - + transfer G Alex Birchmeier (Penn State). RBLK p68; PBLK p33.",
+    "The offense's genuine strength - four returning starters + a P4 transfer guard, rare on this churn-heavy roster - off decent run blocking (RBLK p68) though middling pass pro (PBLK p33).",
+    "48: ~Wisconsin/Georgia Tech OL 48. The four returning starters + the run-block base vs the poor pass pro + the modest individual grades. M."
+   ],
+   "key_players": [
+    {
+     "name": "Aaron Fenimore",
+     "role": "C (returning)",
+     "evidence": "73.5/836 - the anchor of four returning OL starters"
+    },
+    {
+     "name": "Joep Engbers",
+     "role": "LG (returning)",
+     "evidence": "70.5/752 - a returning starting guard"
+    }
+   ],
+   "data_gaps": [
+    "middling pass pro (PBLK p33)",
+    "modest individual grades outside Fenimore/Engbers"
+   ],
+   "g5_guard_note": "Conference USA; four returning starters + a Penn State transfer - the team's clear strength; CUSA -6.36 cell. M."
+  },
+  {
+   "team": "Liberty",
+   "unit": "DL",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "App State DL 2026 (42, peer)",
+    "Georgia Southern DL 2026 (42, peer)"
+   ],
+   "rationale_bullets": [
+    "Brenton Williams (JOKER, 70.2/432 -> CUSA -7.88; portal->None but WITHDREW) + Mike Jarvis (DT, 56.8/454; yr4 override) + Markus Clark + Aaron Hester (69.1) + transfers (Hicks, Payne). LOST CJ Bazile Jr. (73.9, top DL, yr4) + Eli Hall (-> UAB).",
+    "A returning edge (Brenton Williams 70.2) + a rotation + transfers, but the top DL (Bazile 73.9) left and the pass rush has 'plagued them' (PRSH p31).",
+    "42: ~App State/Georgia Southern DL 42. Brenton Williams + Jarvis + the depth vs the lost top DL + the chronic pass-rush problem. M."
+   ],
+   "key_players": [
+    {
+     "name": "Brenton Williams",
+     "role": "EDGE/JOKER (returning-withdrawal)",
+     "evidence": "70.2/432; portal->None but on the Athlon/beat depth chart - withdrew"
+    },
+    {
+     "name": "Aaron Hester",
+     "role": "DE (returning)",
+     "evidence": "69.1/285 - a returning rotation edge"
+    }
+   ],
+   "data_gaps": [
+    "lost the top DL (Bazile 73.9, yr4)",
+    "chronic pass-rush problem (PRSH p31)"
+   ],
+   "g5_guard_note": "Conference USA; a returning edge (Brenton Williams) + rotation after the top DL left; PRSH p31 caps it. M."
+  },
+  {
+   "team": "Liberty",
+   "unit": "LB",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Kansas State LB 2026 (44, peer)",
+    "Oregon State LB 2026 (44, peer)"
+   ],
+   "rationale_bullets": [
+    "Derrell Farrar (60.0/610 -> CUSA -12.31; the team leader - 71 tackles) + Micah Pollard (71.1/156; the top LB grade) + Aidan Vaughan + Dillano Glaud (79.4/80). LOST Joseph Carter (64.1, yr4).",
+    "A returning starting duo (Farrar's volume + Pollard's grade) - real continuity at LB - but off a poor run defense (RDEF p32, 10th of 12 in CUSA).",
+    "44: ~Kansas State/Oregon State LB 44. Farrar + Pollard returning vs the poor '25 run-defense tape + the thin proven depth. M."
+   ],
+   "key_players": [
+    {
+     "name": "Derrell Farrar",
+     "role": "LB (returning)",
+     "evidence": "60.0/610; team-leading 71 tackles - the defense's returning anchor"
+    },
+    {
+     "name": "Micah Pollard",
+     "role": "LB (returning)",
+     "evidence": "71.1/156 - the top returning LB grade"
+    }
+   ],
+   "data_gaps": [
+    "poor '25 run defense (RDEF p32)",
+    "thin proven depth behind Farrar/Pollard"
+   ],
+   "g5_guard_note": "Conference USA; a returning LB duo (Farrar/Pollard) off a poor run defense; heavy CUSA -12.31 cell. M."
+  },
+  {
+   "team": "Liberty",
+   "unit": "DB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Kansas DB 2026 (42, peer)",
+    "Tulane DB 2026 (42, peer)"
+   ],
+   "rationale_bullets": [
+    "Elijah Hopkins (CB, 59.8/86) + Jiquavious 'Quavo' Marshall (CB, 72.1/48) + Amarian Williams (50.1) + transfers D-Icey Hopkins (Ga St 65.2/541), Whitner (Ball St 67.1/396), Izaiah Guy (USF 71.1), McShane (BC), Gainey (Albany St). LOST Green (78.6, top DB, yr4) + Harmon (74.5, yr4) + Bodnar (71.8 -> Ok St).",
+    "A near-total rebuild - the top 3 corners/safeties are gone; the group reloads around low-snap returners + a stack of mid-grade transfers. COV was p77 in '25 but THAT group left.",
+    "42: ~Kansas/Tulane DB 42. The transfer volume (Guy 71.1, Whitner, D-Icey) + Quavo Marshall vs the lost top-3 back end + the low returning snap-share. M."
+   ],
+   "key_players": [
+    {
+     "name": "Jiquavious Marshall",
+     "role": "CB (returning)",
+     "evidence": "72.1/48 ('Quavo') - the top returning corner grade (low snaps)"
+    },
+    {
+     "name": "Izaiah Guy",
+     "role": "CB (arrival, USF)",
+     "evidence": "71.1 at USF - a mid-grade transfer into a rebuilt secondary"
+    }
+   ],
+   "data_gaps": [
+    "lost the top 3 DBs (Green 78.6, Harmon 74.5, Bodnar 71.8)",
+    "the '25 COV p77 group largely left",
+    "heavy transfer reliance"
+   ],
+   "g5_guard_note": "Conference USA; a near-total secondary rebuild via transfers after the top 3 left; low returning snap-share. M."
+  },
+  {
+   "team": "Liberty",
+   "unit": "ST",
+   "grade": 38,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Utah State ST 2026 (38, peer)",
+    "Oregon State ST 2026 (38, peer)"
+   ],
+   "rationale_bullets": [
+    "TOTAL RESET - K Jay Billingsley + P Max Morgan exhausted eligibility. K battle (Tyler Black, a Wake transfer who lost his job, vs D2 McKendree's Chase Reeves) + P Sam Crossan. SPEC was p24.",
+    "Both specialists are new and unsettled, off a poor '25 special-teams unit (SPEC p24) - no proven returning kicker or punter.",
+    "38: ~Utah State/Oregon State ST 38. A clean slate with competition vs zero proven returning specialist production + the poor '25 baseline. L (both jobs open)."
+   ],
+   "key_players": [
+    {
+     "name": "Tyler Black",
+     "role": "K (returning, contested)",
+     "evidence": "a Wake transfer in an open K battle vs D2 McKendree's Chase Reeves"
+    },
+    {
+     "name": "Sam Crossan",
+     "role": "P (contested)",
+     "evidence": "in the open punt battle after Max Morgan's eligibility expired"
+    }
+   ],
+   "data_gaps": [
+    "both K and P jobs open",
+    "lost the '25 K + P to eligibility",
+    "poor '25 SPEC (p24)"
+   ],
+   "g5_guard_note": "Conference USA; a total specialist reset - no proven returning kicker or punter off a poor SPEC p24. L."
+  }
+ ]
+}
