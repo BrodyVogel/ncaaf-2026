@@ -1,0 +1,42 @@
+{
+ "team": "Georgia Southern",
+ "conference": "Sun Belt",
+ "created_utc": "2026-07-18T14:43:29+00:00",
+ "assembler_git_rev": "1305230",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Clay Helton (NO CHANGE; band x1.00; 17-7 at school per the scout). NEW DC Mike Mutz (from Stephen F. Austin) - coordinator change, no multiplier. '25: 7-6 (4-4 SBC). G5 2-SOURCE build (Athlon + Phil Steele). Verified both mags + a web check on Arnold.",
+ "conference_note": "Sun Belt (G5). SBC offsets NEGATIVE/small; returning tape on SBC cells, arrivals on origin. Arrivals on origin: Max Johnson (North Carolina/ACC), Hollins (Illinois/B10), Noble Johnson (Arizona State/B12), Bynum (Middle Tennessee/CUSA); FCS = NO CELL (Mutz's SFA/Abilene Christian pipeline: Aaron Sears/SFA, Rashon Myles/Abilene Christian, Noah Mangham/Abilene Christian). Modest churn (17 in / 18 out) but heavy OL portal-out losses.",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "MJ Stroud"
+ ],
+ "yr4_return_overrides_documented": [
+  "Chance Gamble",
+  "Ty Furnish"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Omari Arnold"
+ ],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Max Johnson": "QB (North Carolina) - ARRIVES, the projected starter. 51.8/100 (a modest '25 UNC sample) but a 6-year P4 veteran (LSU/A&M/UNC), 24yo journeyman burning a final year at home. JC French (65.4/498, the '25 starter) departed -> Cincinnati.",
+  "Omari Arnold": "RB, 86.1/196 ('OJ Arnold') - GONE. The 1,100-yd '25 back; Athlon 'outgoing... left a 1,100-yard hole,' and a 2026 NFL Draft prospect (web-verified). yr4 in the roster feed as 'OJ Arnold' but the tape name 'Omari Arnold' dodged the yr4 gate -> departure_confirmed_research.",
+  "MJ Stroud": "ED, 74.5/459 - RETURNS. Athlon 'The headliner is All-Sun Belt edge rusher MJ Stroud'; the returning defensive centerpiece. In the portal with dest None -> portal_withdrawal_override (R15).",
+  "Chance Gamble": "NB, 65.0/241 (yr4) - RETURNS. Athlon lists him the NB starter + prose 'cornerback... Chance Gamble' (returning). yr4_return_override (R15).",
+  "Ty Furnish": "C, 61.7/132 (yr4) - RETURNS. Athlon lists him the starting C. yr4_return_override (R15).",
+  "Tracy Hill Jr.": "CB, 65.0/740 - RETURNS. A returning starting corner (Athlon-named); the secondary's returning anchor.",
+  "Josh Dallas": "WR, 60.8/36 - RETURNS. A breakout candidate who missed nearly all of '25 to a hip injury after 6 TD catches in '24; the featured returning target."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS charts + a web check. Disposition: MJ Stroud RETURNS (portal-None, Athlon headliner); Chance Gamble + Ty Furnish yr4-returns (Athlon starters); Omari/OJ Arnold GONE (draft prospect; feed name-mismatch dodged the yr4 gate).",
+  "7-6 with a lopsided '25 profile: a solid, well-blocked offense (as-played OFF p54, PBLK p91) but a HISTORICALLY bad defense (DEF p2, RDEF p0, PRSH p2 - dead last in FBS). New DC Mike Mutz (from SFA) is charged with the rebuild.",
+  "The offense loses its two biggest pieces: RB OJ Arnold (1,100 yds, to the draft) AND four starters off that p91 pass-blocking OL (Cook->USF, Brown->Louisville, Wright->Michigan State, Strong->North Texas). The RB becomes a homegrown committee (Mbadinga et al.); the OL rebuilds from within (Alexander/Furnish/Williams) + a transfer.",
+  "QB resets to veteran journeyman Max Johnson (UNC, a 6-year P4 starter - experienced but a modest 51.8 '25 grade) + frosh Weston Bryan (6 TD/49 snaps). WR reloads via P4 transfers (Hollins/Illinois, Noble Johnson/Arizona State) + injury-return Josh Dallas after losing 3 yr4 WRs.",
+  "Defense: edge MJ Stroud (74.5, All-SBC) is the one bright spot on a dead-last unit; most new arrivals are FCS (Mutz's SFA/Abilene Christian pipeline: Sears, Myles, Mangham). ST: K Tripp Bryant (16-16 inside 40, 2-5 beyond) + a transfer punter, off a '25 SPEC p13."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF102 / Sun Belt East 4 incidentally visible - logged, NOT used. Web check took disposition facts only (Arnold draft status). G5 2-source (Athlon + Phil Steele); no Pick Six for the Sun Belt.",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T14:50:00+00:00"
+}

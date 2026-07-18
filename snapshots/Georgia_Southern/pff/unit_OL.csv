@@ -1,0 +1,17 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Pichon Wimbley,158371,G,GA SOUTHRN,13,100.0,0,174,61.7,74.7,55.2,2,6,474,100.0,100.0,98.3,1,12,4,849,0,848,0,849,495,495,0,0,354,1,2025_this_team
+Caleb Cook,147118,G,GA SOUTHRN,13,99.9,1,174,66.8,74.6,62.6,0,10,465,100.0,99.8,98.7,2,11,1,844,0,0,0,845,491,492,843,0,353,2,2025_this_team
+Johnnie Brown III,184277,T,GA SOUTHRN,13,100.0,1,174,71.0,64.1,73.2,4,13,452,100.0,100.0,97.5,6,20,3,826,0,0,756,826,479,479,0,61,347,6,2025_this_team
+Robert Wright Jr.,174210,T,GA SOUTHRN,12,100.0,0,174,67.4,74.9,58.9,2,13,416,100.0,100.0,97.0,0,20,5,752,0,1,0,752,436,436,0,742,316,9,2025_this_team
+Chandler Strong,158365,C,GA SOUTHRN,13,100.0,0,174,63.2,73.1,58.0,2,10,388,100.0,100.0,97.7,2,15,3,712,712,0,0,712,407,407,0,0,305,0,2025_this_team
+Mo Clipper Jr.,157618,G,CHARLOTTE,12,100.0,0,136,54.8,50.7,53.8,3,13,397,100.0,100.0,96.7,1,21,5,701,0,701,0,701,421,421,0,0,280,0,arrival_2025_at_CHARLOTTE
+Chance Carroll,122826,C,GA SOUTHRN,13,100.0,0,174,61.1,74.4,56.9,0,3,126,100.0,100.0,98.0,1,4,1,215,213,1,0,215,136,136,0,0,79,1,2025_this_team
+Ty Furnish,151082,G,GA SOUTHRN,9,100.0,0,174,61.7,58.1,61.2,1,5,76,100.0,100.0,96.1,1,6,0,132,0,59,0,132,83,83,73,0,49,0,2025_this_team
+Colin Alexander,188367,T,GA SOUTHRN,10,99.2,0,174,61.9,74.4,54.9,0,3,64,100.0,98.6,97.7,1,3,0,118,0,0,3,119,71,72,1,112,47,3,2025_this_team
+Matthew Williams,174201,T,GA SOUTHRN,10,100.0,0,174,77.3,80.4,72.7,0,3,67,100.0,100.0,97.8,0,3,0,112,0,0,103,112,69,69,0,9,43,0,2025_this_team
+Caelan Williams,122466,T,GA SOUTHRN,2,100.0,0,174,64.8,72.8,67.2,0,1,33,100.0,100.0,98.5,1,1,0,54,0,0,54,54,34,34,0,0,20,0,2025_this_team
+Jaylen Slaughter,188383,T,GA SOUTHRN,9,100.0,0,174,49.4,73.7,49.9,0,0,6,100.0,100.0,100.0,0,0,0,30,0,0,1,30,6,6,0,0,24,29,2025_this_team
+Ethan Williams,174190,G,GA SOUTHRN,3,100.0,0,174,65.1,65.2,64.3,0,1,11,100.0,100.0,95.5,0,1,0,20,2,9,0,20,12,12,9,0,8,0,2025_this_team
+Josh Raymond,188522,G,FLORIDA ST,1,100.0,0,167,49.6,66.7,49.5,0,0,1,100.0,100.0,100.0,1,0,0,11,0,11,0,11,1,1,0,0,10,0,arrival_2025_at_FLORIDA ST
+Kyle Frazier,181343,G,GA SOUTHRN,1,91.7,0,174,55.9,26.8,59.8,0,0,6,100.0,87.5,100.0,0,0,0,11,0,11,0,12,7,8,0,0,4,1,2025_this_team
+Kingtriton Samuela,188382,G,GA SOUTHRN,1,100.0,0,174,60.0,74.7,,0,0,2,100.0,100.0,100.0,0,0,0,2,0,0,0,2,2,2,2,0,0,0,2025_this_team

@@ -1,0 +1,131 @@
+{
+ "team": "Georgia Southern",
+ "units": {
+  "QB": {"grade": 46, "confidence": "M"},
+  "RB": {"grade": 42, "confidence": "M"},
+  "WRTE": {"grade": 44, "confidence": "M"},
+  "OL": {"grade": 40, "confidence": "M"},
+  "DL": {"grade": 42, "confidence": "M"},
+  "LB": {"grade": 40, "confidence": "M"},
+  "DB": {"grade": 42, "confidence": "M"},
+  "ST": {"grade": 42, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T14:50:00Z (Georgia Southern)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon + Phil Steele; no Pick Six for SBC]; SBC offsets NEGATIVE on returning tape, arrivals on origin [FCS = no cell]; HC Helton NO change [band x1.00], new DC Mutz [no multiplier]; disposition gate 40 rows / 0 adjudicate / 0 err - Omari/OJ Arnold GONE [research/web-verified draft prospect; feed name-mismatch dodged yr4], MJ Stroud WITHDREW [Athlon headliner], Gamble + Furnish yr4-returns; WEB disposition-only check on Arnold); anchor values not consulted. DISCLOSED: Athlon NF102 incidentally visible, logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB46/RB42/WRTE44/OL40/DL42/LB40/DB42/ST42, sum 338). No post-freeze corrections."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB 80, WRTE None, OL 27, DL 7, LB 7, DB 9, ST 13) - RB 80 is Arnold (GONE to the draft; ignore); the rest reflect the yr4/portal graduation + the dead-last '25 defense.",
+   "RB": "-38 vs proxy 80 - the proxy is entirely Arnold, who is GONE (draft); the grade drops to an unproven committee.",
+   "OL": "+13 vs proxy 27 - proxy reads the gutted line; the grade credits the p91-scheme coaching floor + a yr4-return C (Furnish).",
+   "DL": "+35 vs proxy 7 - proxy reads a dead-last front pre-adjudication; the grade keys the withdrawn All-SBC edge Stroud (74.5).",
+   "DB": "+33 vs proxy 9 - proxy missed the yr4-return Gamble + counts only returning; the grade keys Hill + Gamble + FCS safeties.",
+   "QB": "proxy None (French departed); the grade (46) sets the veteran-journeyman floor (Max Johnson)."
+  }
+ },
+ "grades_detail": [
+  {"team": "Georgia Southern", "unit": "QB", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Tennessee QB 2026 (46, peer)", "Vanderbilt QB 2026 (46, peer)"],
+   "rationale_bullets": [
+    "Max Johnson (North Carolina, 51.8/100 -> ACC; a 6-year P4 starter - LSU/A&M/UNC - burning a final year at home) + frosh Weston Bryan (6 TD/49 snaps). JC French (65.4/498) GONE -> Cincinnati.",
+    "A veteran-journeyman takeover - Johnson has started at three P4 schools (experience + a proven floor) but posted only a 51.8 on a small '25 sample, now behind a rebuilt line.",
+    "46: ~Tennessee/Vanderbilt QB 46. The veteran floor vs the modest tape + the gutted OL. M."
+   ],
+   "key_players": [
+    {"name": "Max Johnson", "role": "QB (transfer, North Carolina)", "evidence": "51.8/100; a 6-year P4 starter (LSU/A&M/UNC); the veteran projected starter"}
+   ],
+   "data_gaps": ["modest '25 grade", "rebuilt OL in front"],
+   "g5_guard_note": "Sun Belt; a well-traveled P4 veteran gives a floor above a bare G5 reset, but the tape is modest."},
+  {"team": "Georgia Southern", "unit": "RB", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["Memphis RB 2026 (42, peer)", "Washington State RB 2026 (42, peer)"],
+   "rationale_bullets": [
+    "A homegrown committee of 3rd-year backs - David Mbadinga + Terrance Gibbs + Jamarian Samuel. OJ/Omari Arnold (86.1/196, 1,100 yds) GONE (2026 draft prospect).",
+    "The offense's biggest loss - a 1,100-yard workhorse replaced by an unproven committee with almost no returning production.",
+    "42: ~Memphis/Washington State RB 42. The committee has depth but no proven lead back. M."
+   ],
+   "key_players": [
+    {"name": "David Mbadinga", "role": "RB (returning, committee)", "evidence": "a 3rd-year homegrown back leading the post-Arnold committee"}
+   ],
+   "data_gaps": ["lost the 1,100-yd back (Arnold, draft)", "no proven returning lead"],
+   "g5_guard_note": "Sun Belt; an unproven committee replacing a 1,100-yd workhorse - graded on projection, not tape."},
+  {"team": "Georgia Southern", "unit": "WRTE", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Virginia WRTE 2026 (44, peer)", "Minnesota WRTE 2026 (44, peer)"],
+   "rationale_bullets": [
+    "Josh Dallas (60.8/36; breakout candidate, hip-injury return, 6 TD in '24) + P4 transfers Ashton Hollins (Illinois) + Noble Johnson (Arizona State) + TE River Helms. LOST Camden Brown (76.5, yr4) + Sanders (yr4) + Cobb (yr4).",
+    "A rebuilt corps - an injury-return breakout + two P4 transfers (who underperformed their rank elsewhere) - after losing three graduating contributors, with a new QB.",
+    "44: ~Virginia/Minnesota WRTE 44. The transfer/injury-return upside vs the graduation losses + the QB reset. M."
+   ],
+   "key_players": [
+    {"name": "Josh Dallas", "role": "WR (returning)", "evidence": "60.8/36; a breakout candidate returning from a '25 hip injury (6 TD in '24)"},
+    {"name": "Ashton Hollins", "role": "WR (transfer, Illinois)", "evidence": "a P4-transfer wideout added to rebuild the corps"}
+   ],
+   "data_gaps": ["3 yr4 WRs graduated", "transfers underperformed their rank elsewhere", "new QB"],
+   "g5_guard_note": "Sun Belt; a P4-transfer/injury-return reload off a graduation-hit room."},
+  {"team": "Georgia Southern", "unit": "OL", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Florida State OL 2026 (40, peer)", "Maryland OL 2026 (40, peer)"],
+   "rationale_bullets": [
+    "Colin Alexander (61.9/119; RT) + Ty Furnish (61.7/132; C, yr4-return) + Caelan Williams (LT) + Mo Clipper (LG) + Cole Norred (RG transfer). LOST FOUR starters off a p91 pass-block unit (Cook->USF, Brown->Louisville, Wright->Michigan State, Strong->North Texas).",
+    "A p91 pass-blocking unit gutted - four starters to the portal - and rebuilt from within with low-vol returners + a transfer.",
+    "40: ~Florida State/Maryland OL 40. The scheme/coaching floor (p91) vs the four-starter loss + unproven personnel. M."
+   ],
+   "key_players": [
+    {"name": "Ty Furnish", "role": "C (returning)", "evidence": "61.7/132; a yr4-return center anchoring the rebuilt interior"}
+   ],
+   "data_gaps": ["4 starters gone off a p91 unit", "unproven new starters"],
+   "g5_guard_note": "Sun Belt; a p91 pass-block unit gutted - the coaching floor keeps it off the bottom, but the personnel is unproven."},
+  {"team": "Georgia Southern", "unit": "DL", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["California DL 2026 (42, peer)", "Oregon State DL 2026 (42, peer)"],
+   "rationale_bullets": [
+    "MJ Stroud (74.5/459 -> SBC; DL -6.50; All-SBC edge, the headliner, withdrew) + Caleb Moore (61.1/545; DT) + Kebba Secka (50.8/427) + Anthony Bynum (Middle Tennessee edge). LOST Rhodes (-> North Texas) + Ferguson (yr4).",
+    "A genuine returning edge (Stroud, All-SBC) + a returning DT on a front that was DEAD LAST in the nation in pass rush (PRSH p2).",
+    "42: ~California/Oregon State DL 42. Stroud anchors it above the dead-last baseline; the surrounding rebuild caps it. M."
+   ],
+   "key_players": [
+    {"name": "MJ Stroud", "role": "ED (returning)", "evidence": "74.5/459; All-Sun Belt edge - the defensive headliner (withdrew from the portal)"},
+    {"name": "Caleb Moore", "role": "DI (returning)", "evidence": "61.1/545; a returning defensive tackle"}
+   ],
+   "data_gaps": ["front was PRSH p2 (dead last)", "modest surrounding pieces"],
+   "g5_guard_note": "Sun Belt; a genuine All-SBC edge (Stroud) on an otherwise dead-last '25 front."},
+  {"team": "Georgia Southern", "unit": "LB", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["North Carolina LB 2026 (40, peer)", "Iowa State LB 2026 (40, peer)"],
+   "rationale_bullets": [
+    "Brandon Tyson (58.1/827; returning starter) + Rashon Myles Jr. (Abilene Christian FCS all-conf) + Holden Trice + CJ Allen. Harrington (yr4) GONE.",
+    "One returning starter (Tyson) + an FCS-transfer all-conf backer + young depth, on a dead-last defense.",
+    "40: ~North Carolina/Iowa State LB 40. Tyson + the FCS add vs the youth + the bad-defense baseline. M."
+   ],
+   "key_players": [
+    {"name": "Brandon Tyson", "role": "LB (returning)", "evidence": "58.1/827; the returning full-time starter"},
+    {"name": "Rashon Myles Jr.", "role": "LB (transfer, Abilene Christian)", "evidence": "an FCS all-conference linebacker"}
+   ],
+   "data_gaps": ["thin", "dead-last '25 defense"],
+   "g5_guard_note": "Sun Belt; one returning LB + an FCS add on a historically bad defense."},
+  {"team": "Georgia Southern", "unit": "DB", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["Kansas DB 2026 (42, peer)", "Tulane DB 2026 (42, peer)"],
+   "rationale_bullets": [
+    "Tracy Hill Jr. (65.0/740; returning CB) + Chance Gamble (65.0/241; NB, yr4-return) + Aaron Sears (SFA FCS all-conf S) + transfers Mangham + Jones. LOST Dorrian Smith (75.7, yr4) + Ayden Jackson (-> USF). COV was p35.",
+    "Two returning starters (Hill + Gamble) + Mutz's FCS-transfer safeties, on the least-bad part of a dead-last defense (COV p35).",
+    "42: ~Kansas/Tulane DB 42. The returning corners + the FCS additions vs the overall defensive baseline. M."
+   ],
+   "key_players": [
+    {"name": "Tracy Hill Jr.", "role": "CB (returning)", "evidence": "65.0/740; the returning starting corner"},
+    {"name": "Aaron Sears", "role": "S (transfer, Stephen F. Austin)", "evidence": "an FCS all-conference safety (the new DC coached him)"}
+   ],
+   "data_gaps": ["dead-last overall defense", "FCS-heavy safety additions"],
+   "g5_guard_note": "Sun Belt; two returning DBs + FCS safeties on a rebuilding, dead-last defense."},
+  {"team": "Georgia Southern", "unit": "ST", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["BYU ST 2026 (42, peer)", "Houston ST 2026 (42, peer)"],
+   "rationale_bullets": [
+    "K Tripp Bryant (16-16 FG inside 40 as a frosh, but 2-5 beyond) + P Alex Smith (transfer) + return men. SPEC was p13.",
+    "A young kicker who is automatic inside 40 but shaky beyond + a transfer punter, off a '25 unit that was SPEC p13.",
+    "42: ~BYU/Houston ST 42. The short-range accuracy vs the range question + the poor '25 baseline. M."
+   ],
+   "key_players": [
+    {"name": "Tripp Bryant", "role": "K (returning)", "evidence": "16-16 FG inside 40 as a frosh (2-5 beyond 40)"}
+   ],
+   "data_gaps": ["kicker range beyond 40", "SPEC p13 in '25"],
+   "g5_guard_note": "Sun Belt; a short-range-accurate young kicker on a below-average '25 ST unit."}
+ ]
+}

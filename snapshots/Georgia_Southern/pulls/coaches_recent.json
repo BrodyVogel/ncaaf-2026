@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Clay",
+  "lastName": "Helton",
+  "hireDate": "2021-11-02T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Georgia Southern",
+    "year": 2024,
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -2.5,
+    "spOverall": -1.7,
+    "spOffense": 26.5,
+    "spDefense": 30.1
+   }
+  ]
+ },
+ {
+  "firstName": "Clay",
+  "lastName": "Helton",
+  "hireDate": "2021-11-02T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Georgia Southern",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -8.6,
+    "spOverall": -9.4,
+    "spOffense": 28.3,
+    "spDefense": 37.7
+   }
+  ]
+ }
+]

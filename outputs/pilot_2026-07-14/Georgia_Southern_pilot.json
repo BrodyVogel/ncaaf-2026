@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T14:52:34+00:00",
+ "team": "Georgia Southern",
+ "final": -7.95,
+ "rank": 98,
+ "band": 6.0,
+ "resid": 7.52,
+ "adj": 2.63,
+ "class_term": 0.0,
+ "st": -0.16,
+ "anchor_blend": -10.89,
+ "resid_level": 5.89,
+ "resid_shape": 1.63,
+ "implied_off": 23.98,
+ "implied_def": 27.34,
+ "anchor_off": 22.21,
+ "anchor_def": 33.09,
+ "fit_r2": {
+  "off": 0.541,
+  "dfn": 0.613
+ },
+ "low_conf_units": 0,
+ "code_rev": "1305230",
+ "mode": "PILOT-OOS"
+}
