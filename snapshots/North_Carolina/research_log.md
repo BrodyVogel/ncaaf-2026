@@ -24,3 +24,12 @@
   QB 48 L | RB 50 | WRTE 48 | OL 44 | DL 54 | LB 40 L | DB 54 | ST 46. Sum 384.
 - 2026-07-18 gates: disposition_ledger --write + --check, departure_check, blinding_check,
   grades_check, post-grades departure_check - below.
+- 2026-07-18 P6 RETRO-QA (post-freeze correction): Pick Six ACC cross-check. CATCH:
+  Allen + Gibson + Dixon (DB) + Vilbert (DL) yr4 overrides were WRONG - my "both list
+  as returning" claims were false (the Athlon defense chart, re-read, lists Patterson/
+  Willie/Cost/Bryson/Smith - none of the four; P6: "four starters are gone from the
+  secondary... Cost is the only full-time starter back" + "end Smith Vilbert graduated").
+  All four removed; Willie (chart CB) + Hoilette (chart DE, was mis-attributed as OL at
+  build) added. DL 54->52, DB 54->48. Rating +1.84 -> +1.58 (rank 58->59). Gates clean.
+  P6 CORROBORATED: Abou Jaoude "retained its top star... poised for All-ACC run," LB
+  gutting (House/Gbayor 4-star transfers out), Seelman/McDonald arrivals, QB battle.

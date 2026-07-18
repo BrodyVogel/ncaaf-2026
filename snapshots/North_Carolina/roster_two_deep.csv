@@ -9,26 +9,25 @@ WRTE,2,Trech Kekahuna,WR,JR,transfer:Wisconsin,Athlon,PS,L,63.8/172 (B10 -1.26 -
 WRTE,3,Nathan Leacock,WR,JR,returning,Athlon,PS,L,44.6/71 (depth)
 WRTE,4,Jelani Thurman,TE,JR,transfer:Ohio State,Athlon,PS,M,82.9/25 tiny (B10 -1.26); OSU pedigree; TE1
 WRTE,5,Jordan Washington,TE,SO,transfer:Texas,Athlon,PS,L,47.6/72 (SEC); TE
-OL,1,Jordan Hall,OT,JR,returning,Athlon,PS,L,58.2/214 (ACC +3.54 -> 61.7 adj); yr4_return_override; LT; unproven pass pro
+OL,1,Jordan Hall,OT,JR,returning,Athlon,PS,L,58.2/214 (ACC +3.54 -> 61.7 adj); yr4_return_override (Athlon chart LT); unproven pass pro
 OL,2,Christo Kelly,C,SR,transfer:Holy Cross,Athlon,PS,M,FCS (NO CELL); 20+ career starts; back from injury; key piece
 OL,3,Aidan Banfield,G,JR,returning,Athlon,PS,L,64.8/185 (68.3 adj); LG
 OL,4,Jonah Rodriguez,G,JR,transfer:transfer,Athlon,PS,L,RG; transfer
 OL,5,Jacqawn McRoy,OT,SO,transfer:transfer,Athlon,PS,L,RT; transfer
-OL,6,Chad Lindberg,C,SR,returning,Athlon,PS,L,72.2/446 (yr4_return_override); C depth
+OL,6,Chad Lindberg,C,SR,returning,Athlon,PS,L,72.2/446 (yr4_return_override; Athlon chart C2); C depth
 DL,1,Melkart Abou Jaoude,ED,SR,returning,Athlon,PS,H,79.0/646 (ACC +1.19 -> 80.2 adj); 10.5 sacks (2nd ACC); anchor
-DL,2,Smith Vilbert,ED,SR,returning,Athlon,PS,M,64.3/534 (65.5 adj)
-DL,3,Isaiah Johnson,DI,JR,returning,Athlon,PS,M,72.9/330 (74.1 adj)
-DL,4,Leroy Jackson,DI,JR,returning,Athlon,PS,M,69.0/368 (70.2 adj)
-DL,5,Xavier Lewis,DI,SO,returning,Athlon,PS,L,70.3/167 (71.5 adj)
-DL,6,Jaylen Harvey,ED,JR,transfer:Penn State,Athlon,PS,L,56.2/159 (B10); DE depth
+DL,2,Isaiah Johnson,DI,JR,returning,Athlon,PS,M,72.9/330 (74.1 adj); Athlon chart DT starter
+DL,3,Leroy Jackson,DI,JR,returning,Athlon,PS,M,69.0/368 (70.2 adj); 300+ snaps interior
+DL,4,Xavier Lewis,DI,SO,returning,Athlon,PS,L,70.3/167 (71.5 adj); flashed as true frosh
+DL,5,Jaylen Harvey,ED,JR,transfer:Penn State,Athlon,PS,L,56.2/159 (B10); DE
+DL,6,Donovan Hoilette,ED,SR,transfer:Richmond,Athlon,PS,L,FCS (NO CELL); Athlon chart DE starter
 LB,1,Peyton Seelman,LB,JR,transfer:Richmond,Athlon,PS,L,FCS (NO CELL); 120 tkl at Richmond
-LB,2,Derek McDonald,LB,SO,transfer:Syracuse,Athlon,PS,L,50.0/90 (ACC +2.13); 28 st at Syracuse
+LB,2,Derek McDonald,LB,SO,transfer:Syracuse,Athlon,PS,L,50.0/90 (ACC +2.13); 28 st at Syracuse; missed most of '25 injured
 LB,3,Timir Hickman-Collins,LB,SO,returning,Athlon,PS,L,57.7/60 (depth)
-DB,1,Marcus Allen,CB,SR,returning,Athlon,PS,M,64.1/722 (ACC +1.18 -> 65.3 adj); yr4_return_override
-DB,2,Gavin Gibson,S,SR,returning,Athlon,PS,M,69.2/636 (ACC +1.18 -> 70.4 adj); yr4_return_override
-DB,3,Greg Smith,S,JR,returning,Athlon,PS,M,79.3/273 (ACC +1.18 -> 80.5 adj); great spring
-DB,4,Jaiden Patterson,CB,JR,returning,Athlon,PS,M,70.8/473 (72.0 adj)
-DB,5,Kaleb Cost,CB,SO,returning,Athlon,PS,M,67.4/480 (68.6 adj); NB
-DB,6,Thaddeus Dixon,CB,JR,returning,Athlon,PS,L,65.2/397 (66.4 adj)
+DB,1,Greg Smith,S,SO,returning,Athlon,PS,M,79.3/273 (ACC +1.18 -> 80.5 adj); great spring; Athlon chart S starter
+DB,2,Jaiden Patterson,CB,JR,returning,Athlon,PS,M,70.8/473 (72.0 adj); started half of '25 at CB
+DB,3,Kaleb Cost,NB,SR,returning,Athlon,PS,M,67.4/480 (68.6 adj); only full-time returning starter (Athlon chart bold NB)
+DB,4,Coleman Bryson,S,SR,returning,Athlon,PS,L,60.0/225 (61.2 adj); Athlon chart S starter
+DB,5,Ade Willie,CB,SR,transfer:Michigan State,Athlon,PS,L,58.3/137 (B10); Athlon chart CB starter
 ST,1,Aeron Burrell,K,JR,transfer:transfer,Athlon,PS,L,transfer PK
 ST,2,Jacob Horvath,P,JR,returning,Athlon,PS,L,punter

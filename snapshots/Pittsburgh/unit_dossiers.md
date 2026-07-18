@@ -63,8 +63,8 @@ rebuilds; the sack history tempers. M.
 
 ## DL — planned 58 (confidence M)
 Room: an elite run front (#8 vs run, RDEF p96). Returns Sean FitzSimmons (77.0/356
--> 78.2), Nick James (72.5), Isaiah Neal (66.2), Jimmy Scott (67.8), Blaine Spires
-(73.9, yr4), Zach Crothers. Lost Francis Brewu (78.4 -> ND) + Whittington (-> Neb).
+-> 78.2), Nick James (72.5), Isaiah Neal (66.2), Jimmy Scott (67.8), Zach Crothers.
+Lost Francis Brewu (78.4 -> ND) + Whittington (-> Neb); Spires yr4-gone (P6 retro-QA).
 Mechanical: a deep, experienced, run-stuffing front (the team's identity) despite
 losing 2 pieces; PS "most experienced in years." Maps ~DL p54-62. Bracket: ~Miami
 DL 60 / UNC DL 54; the run-D pedigree anchors it. M.
@@ -78,12 +78,15 @@ Mechanical: loses its two best (Louis 2nd-Tm AA + Biles) but keeps a strong core
 Lovelace anchors, Lindsey rising, Sanford (Purdue) adds. Maps ~LB p50-58. Bracket:
 above the batch's LBs (Lovelace + Lindsey); the star losses cap the ceiling. M.
 
-## DB — planned 52 (confidence M)
+## DB — planned 50 (confidence M) [P6 retro-QA correction 2026-07-18: was 52]
 Room: Cruce Brookins (S, returning, 80.9/504 -> 82.1 adj; 53 tkl/2 INT) + Shawn Lee
-Jr. (CB, withdrawal, 79.9/427; 4 PBU) + Rashad Battle (CB, 73.5) + Raion Strader
-(Auburn CB) + DeMarco Ward (Memphis S). Narduzzi "loves CB depth; S depth a concern."
-Mechanical: a solid secondary (Brookins + Lee good; deep at CB) but thin at S. COV
-p59. Maps ~DB p48-56. Bracket: ~Louisville DB 52; Brookins + Lee anchor. M.
+Jr. (CB, withdrawal, 79.9/427; 4 PBU - Frosh All-American) + Raion Strader (Auburn
+CB) + DeMarco Ward (Memphis S) + Shadarian Harrison (61.8/518, rotational). LOSES
+FOUR starters (P6): Lynum, Battle, McIntyre, Bains-Marquez - Battle/McIntyre had
+been wrongly carried as yr4 returns; corrected.
+Mechanical: two genuinely good pieces (Brookins + Lee) atop a thinner room than
+first graded; transfers/young fill in. COV p59. Maps ~DB p46-54. Bracket: just
+below Louisville/SMU DB 52; Brookins + Lee anchor it. M.
 
 ## ST — planned 46 (confidence M)
 Room: FCS transfer PK competition (Sam Hunsaker N. Arizona / Antonio Chadha W.
@@ -101,10 +104,20 @@ specialists (calib). Maps ~ST p42-50. Bracket: middling. M.
 - DISPOSITION: NFL DECLARE Kyle Louis (LB, #4 DC - PS-verified). Portal: Holstein (->
   Virginia), Biles (-> Texas), Kenny Johnson (-> TT), Brewu (-> ND), Cooper (-> Vandy).
   WITHDRAWAL: Shawn Lee (CB). RESEARCH-GONE: Raphael Williams (WR, both mags "lose top-2
-  WRs"). yr4 KEPT: Gouveia (OL), Spires (DL), McIntyre/Battle (DB), Censere Lee (WR). 0
-  unresolved. VERIFIED BOTH on grade-critical.
+  WRs"). yr4 KEPT: Gouveia (OL, Athlon prose), Censere Lee (WR, Athlon chart). P6
+  RETRO-QA (2026-07-18): Spires/Battle/McIntyre overrides corrected to GONE (P6 "loses
+  four starters from the secondary... Battle, McIntyre... departing"). 0 unresolved.
 - PROVEN vs PROJECTED: PROVEN = the D front (DL #8-vs-run, Lovelace LB, Brookins/Lee DB).
   PROJECTIONS = QB (young Heintschel - promising), WR (thin). OL veteran but sack-prone.
 - Confidence: 1 L-unit (WRTE thin). Coach x1.00.
 
-PLANNED GRADES: QB 52 | RB 56 | WRTE 42 L | OL 52 | DL 58 | LB 54 | DB 52 | ST 46
+PLANNED GRADES: QB 52 | RB 56 | WRTE 42 L | OL 52 | DL 58 | LB 54 | DB 50 | ST 46
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Mason Heintschel (59.5/418) RETURNS; Eli Holstein (58.7/153) PORTAL->Virginia
+- RB: Ja'Kyrian Turner (77.3/153) RETURNS
+- WRTE: Raphael Williams Jr. (61.9/476) GONE (research); Kenny Johnson (69.0/418) PORTAL->Texas Tech; Cataurus Hicks (55.3/365) RETURNS; Justin Holmes (55.8/246) EXPIRED(yr4)*; Deuce Spann (59.2/162) EXPIRED(yr4)*; Malachi Thomas (71.7/112) PORTAL->LSU; Jake Overman (52.3/102) EXPIRED(yr4)*
+- OL: BJ Williams (64.2/893) RETURNS; Lyndon Cooper (63.6/886) PORTAL->Vanderbilt; Ryan Baer (76.8/882) RETURNS; Ryan Carretta (63.5/582) RETURNS; Kendall Stanley (53.3/582) RETURNS; Jeff Persi (46.4/461) EXPIRED(yr4)*; Keith Gouveia (67.6/213) RETURNS (yr4 override, May-print)
+- DL: Isaiah Neal (65.0/557) RETURNS; Jimmy Scott (66.6/531) RETURNS; Nick James (71.3/486) RETURNS; Francis Brewu (78.4/484) PORTAL->Notre Dame; Sean FitzSimmons (77.0/356) RETURNS; Blaine Spires (72.7/278) EXPIRED(yr4)*; Joey Zelinsky (68.8/250) EXPIRED(yr4)*; Jahsear Whittington (70.6/250) PORTAL->Nebraska; Nate Temple (53.2/170) EXPIRED(yr4)*
+- LB: Braylan Lovelace (70.7/851) RETURNS; Rasheem Biles (83.7/670) PORTAL->Texas; Kyle Louis (73.1/668) NFL-DECLARE (research); Cameron Lindsey (72.1/288) RETURNS
+- DB: Javon McIntyre (56.6/678) EXPIRED(yr4)*; Kavir Bains-Marquez (57.1/606) EXPIRED(yr4)*; Shadarian Harrison (61.8/518) RETURNS; Cruce Brookins (80.9/504) RETURNS; Rashad Battle (72.3/473) EXPIRED(yr4)*; Shawn Lee Jr. (79.9/427) WITHDREW (override); Tamon Lynum (69.1/314) EXPIRED(yr4)*; Josh Guerrier (65.8/135) RETURNS

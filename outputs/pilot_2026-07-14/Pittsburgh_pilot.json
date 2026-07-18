@@ -1,18 +1,18 @@
 {
- "run_utc": "2026-07-18T00:55:56+00:00",
+ "run_utc": "2026-07-18T02:05:24+00:00",
  "team": "Pittsburgh",
- "final": 5.9,
+ "final": 5.83,
  "rank": 41,
  "band": 6.18,
- "resid": -4.76,
- "adj": -1.66,
+ "resid": -4.95,
+ "adj": -1.73,
  "class_term": -0.0,
  "st": -0.08,
  "anchor_blend": 7.14,
  "resid_level": -3.81,
- "resid_shape": -0.95,
+ "resid_shape": -1.14,
  "implied_off": 26.48,
- "implied_def": 24.19,
+ "implied_def": 24.38,
  "anchor_off": 30.52,
  "anchor_def": 23.48,
  "fit_r2": {
@@ -20,6 +20,6 @@
   "dfn": 0.614
  },
  "low_conf_units": 1,
- "code_rev": "ae53f6c",
+ "code_rev": "ed655ca",
  "mode": "PILOT-OOS"
 }

@@ -5,9 +5,9 @@
   "RB": {"grade": 50, "confidence": "M"},
   "WRTE": {"grade": 48, "confidence": "M"},
   "OL": {"grade": 44, "confidence": "M"},
-  "DL": {"grade": 54, "confidence": "M"},
+  "DL": {"grade": 52, "confidence": "M"},
   "LB": {"grade": 40, "confidence": "L"},
-  "DB": {"grade": 54, "confidence": "M"},
+  "DB": {"grade": 48, "confidence": "M"},
   "ST": {"grade": 46, "confidence": "M"}
  },
  "_meta": {
@@ -15,8 +15,8 @@
   "snapshot_rev": "frozen 2026-07-18 (2c6d867)",
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
-  "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape, arrivals on origin cells; HC Belichick Year 2 no change, new OC Petrino noted; disposition gate resolved - massive churn [31 out], Lopez/Thompson/Gbayor departures + 6 yr4 veteran-return overrides [Vilbert/Dixon gate-caught] adjudicated vs both charts); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 48/RB 50/WRTE 48/OL 44/DL 54/LB 40/DB 54/ST 46)."},
+  "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape, arrivals on origin cells; HC Belichick Year 2 no change, new OC Petrino noted; disposition gate resolved - massive churn [31 out], Lopez/Thompson/Gbayor departures adjudicated); anchor values not consulted. P6 RETRO-QA CORRECTION 2026-07-18: Allen/Gibson/Dixon/Vilbert yr4 overrides reversed to GONE (P6 'four starters gone from the secondary... Vilbert graduated' + Athlon defense chart re-read confirms); DL 54->52, DB 54->48.",
+  "planned_vs_final_deviations": {"note": "post-freeze P6 retro-QA correction 2026-07-18: DL 54->52 (Vilbert removed) + DB 54->48 (Allen/Gibson/Dixon removed - actually departed; corrected room = Smith/Patterson/Cost/Bryson/Willie). Other finals match the dossier planned lines; dossier updated."},
   "shadow_proxy_divergence": {
    "note": "proxy (QB None, RB 42, WRTE 80, OL None, DL 80, LB None, DB 65, ST 47) keys the '25 tape; 2026 rebuilds the O + loses the LBs.",
    "WRTE": "-32 vs proxy 80 - proxy keys the '25 room; the grade keys the reload (Shipp returns + transfers) after losing much of the corps.",
@@ -86,19 +86,19 @@
    "data_gaps": ["all 5 starters gone", "tackles unproven; FCS-heavy"], "g5_guard_note": null
   },
   {
-   "team": "North Carolina", "unit": "DL", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["Miami DL 2026 (60, above)", "Boston College DL context"],
+   "team": "North Carolina", "unit": "DL", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Pittsburgh DL 2026 (58, above)", "Boston College DL context"],
    "rationale_bullets": [
-    "Melkart Abou Jaoude (returning, 79.0/646 -> ACC +1.19 -> 80.2 adj; 47 tkl, 10.5 sacks - 2nd in ACC, a real anchor) + Smith Vilbert (65.5) + Isaiah Johnson (74.1) + Leroy Jackson (70.2) + Xavier Lewis.",
-    "Lost Tyler Thompson (81.5 -> Louisville) + CJ Mims (-> A&M) + D'Antre Robinson (-> Oregon).",
-    "An elite pass-rush anchor + a solid returning rotation (PRSH p64) - the defense's strength, despite losing Thompson.",
-    "54: well above the weak DLs (GT/NCST 40); Abou Jaoude anchors. M."
+    "Melkart Abou Jaoude (returning, 79.0/646 -> ACC +1.19 -> 80.2 adj; 47 tkl, 10.5 sacks - 2nd in ACC, a real anchor) + interior Isaiah Johnson (74.1) + Leroy Jackson (70.2) + Xavier Lewis (71.5); edge opposite = Harvey (PSU) + Hoilette (Richmond FCS, chart starter).",
+    "Lost Tyler Thompson (81.5 -> Louisville) + CJ Mims (-> A&M) + D'Antre Robinson (-> Oregon) + Vilbert (yr4-graduated per P6; retro-QA corrected from a wrongly-carried return).",
+    "An elite pass-rush anchor + a decent interior, but the edge opposite Abou Jaoude is FCS/low-grade transfers.",
+    "52: well above the weak DLs (GT/NCST 40); below Pitt DL 58. M."
    ],
    "key_players": [
     {"name": "Melkart Abou Jaoude", "role": "DE (returning)", "evidence": "79.0/646 (80.2 ACC-adj); 47 tkl, 10.5 sacks (2nd ACC)"},
     {"name": "Isaiah Johnson", "role": "DT (returning)", "evidence": "72.9/330 (74.1 ACC-adj)"}
    ],
-   "data_gaps": ["lost Thompson (81.5 edge) + Mims + Robinson"], "g5_guard_note": null
+   "data_gaps": ["lost Thompson (81.5 edge) + Mims + Robinson + Vilbert (P6 retro-QA)", "edge depth = FCS/low-grade transfers"], "g5_guard_note": null
   },
   {
    "team": "North Carolina", "unit": "LB", "grade": 40, "confidence": "L",
@@ -116,13 +116,13 @@
    "data_gaps": ["entire top LB group gone", "FCS/mid transfers; thin depth"], "g5_guard_note": null
   },
   {
-   "team": "North Carolina", "unit": "DB", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["Miami DB 2026 (60, above)", "Louisville DB 2026 (52, below)"],
+   "team": "North Carolina", "unit": "DB", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Georgia Tech DB 2026 (48, round peer)", "NC State DB 2026 (46, below)"],
    "rationale_bullets": [
-    "A DEEP returning veteran corps - Greg Smith (79.3/273 -> 80.5 adj; great spring) + Gavin Gibson (70.4) + Marcus Allen (65.3) + Jaiden Patterson (72.0) + Kaleb Cost (68.6) + Dixon.",
-    "Lost 2 starters + Ziglar (-> USF).",
-    "A genuinely deep, experienced secondary (COV p50 but lots returns) - Belichick's strength.",
-    "54: above Louisville DB 52 (deeper/more veteran); below Miami DB 60. M."
+    "Greg Smith (79.3/273 -> 80.5 adj; great spring; chart S starter) + Jaiden Patterson (72.0; started half of '25) + Kaleb Cost (68.6; the ONLY full-time returning starter per P6) + Coleman Bryson (61.2) + Ade Willie (MSU transfer, chart CB).",
+    "P6: 'FOUR starters are gone from the secondary.' RETRO-QA: Allen (65.3/722) + Gibson (70.4/636) + Dixon had been wrongly carried as yr4 returns - corrected to GONE (Athlon chart lists none of them).",
+    "One high-grade small-sample piece (Smith) + mid returners + a transfer CB - a real step down from the 'deep veteran corps' as first (mis)read. COV p50 base.",
+    "48: ~GT/FSU DB 48; above NC State DB 46. M."
    ],
    "key_players": [
     {"name": "Greg Smith", "role": "S (returning)", "evidence": "79.3/273 (80.5 ACC-adj); 'great spring'"},

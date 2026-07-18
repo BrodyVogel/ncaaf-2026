@@ -1,0 +1,36 @@
+{
+ "id": 333,
+ "school": "Alabama",
+ "mascot": "Crimson Tide",
+ "abbreviation": "ALA",
+ "alternateNames": [
+  "ALA",
+  "Alabama"
+ ],
+ "conference": "SEC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#9e1632",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/333.png"
+ ],
+ "twitter": "@AlabamaFTBL",
+ "location": {
+  "id": 3657,
+  "name": "Bryant-Denny Stadium",
+  "city": "Tuscaloosa",
+  "state": "AL",
+  "zip": "35487",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 33.2082752,
+  "longitude": -87.5503836,
+  "elevation": "70.05136108",
+  "capacity": 101821,
+  "constructionYear": 1929,
+  "grass": true,
+  "dome": false
+ }
+}

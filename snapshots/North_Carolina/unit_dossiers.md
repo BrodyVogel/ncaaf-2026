@@ -12,7 +12,8 @@ A 4-8 team in Belichick's 2nd year with a new OC (Petrino) and MASSIVE churn (20
 in / 31 out). The offense is a rebuild - an unsettled QB (journeyman Edwards Jr /
 A&M's O'Neill; Lopez left for Wake), ALL FIVE OL starters gone, a modest WR corps
 + a decent transfer TE room. The defense is the relative strength: DL anchor
-Abou Jaoude (10.5 sacks) + a returning rotation, a deep veteran secondary - but a
+Abou Jaoude (10.5 sacks) + an interior rotation, and a secondary thinner than
+first read (P6: four starters gone; Cost the lone full-time returner) - plus a
 GUTTED LB room (House, Simpson, Gbayor all gone). Below-average P4.
 
 ## As-played 2025 percentiles (n=136)
@@ -66,14 +67,16 @@ tackles - Athlon "short on P4 experience, tackles unproven in pass pro" (critica
 Petrino's island-tackle scheme). Maps ~OL p40-48. Bracket: ~NC State OL 46, slightly
 below (all-new, FCS-heavy). M.
 
-## DL — planned 54 (confidence M)
+## DL — planned 52 (confidence M) [P6 retro-QA correction 2026-07-18: was 54]
 Room: Melkart Abou Jaoude (returning, 79.0/646 -> ACC +1.19 -> 80.2 adj; 47 tkl, 10.5
-sacks - 2nd in ACC, a real anchor) + Smith Vilbert (64.3/534 -> 65.5) + Isaiah Johnson
-(72.9/330 -> 74.1) + Leroy Jackson (70.2) + Xavier Lewis. Lost Tyler Thompson (81.5 ->
-Louisville) + CJ Mims (-> A&M) + D'Antre Robinson (-> Oregon).
-Mechanical: an elite pass-rush anchor (Abou Jaoude 10.5 sk) + a solid returning
-rotation (PRSH p64) - the defense's strength, despite losing Thompson. Maps ~DL
-p50-58. Bracket: well above the weak DLs (GT/NCST 40); Abou Jaoude anchors. M.
+sacks - 2nd in ACC, a real anchor) + interior Isaiah Johnson (72.9/330 -> 74.1) +
+Leroy Jackson (70.2) + Xavier Lewis (71.5). Edge opposite: transfers Jaylen Harvey
+(PSU) + Donovan Hoilette (Richmond FCS, Athlon chart DE starter). Lost Tyler Thompson
+(81.5 -> Louisville) + CJ Mims (-> A&M) + D'Antre Robinson (-> Oregon) + Vilbert
+(yr4-graduated per P6 - had been wrongly carried as a return; corrected).
+Mechanical: an elite pass-rush anchor + a decent interior, but the edge depth
+opposite Abou Jaoude is FCS/low-grade transfers. Maps ~DL p48-56. Bracket: well
+above the weak DLs (GT/NCST 40); below Pitt DL 58. M.
 
 ## LB — planned 40 (confidence L)
 Room: GUTTED. Loses House (53.0/777 -> Arkansas) + Simpson (74.5/727, yr4) + Gbayor
@@ -82,14 +85,17 @@ tkl) + Derek McDonald (Syracuse) + Ade Willie (Mich St) + young returners.
 Mechanical: a total rebuild with FCS/mid transfers - Athlon "being rebuilt... lack
 of depth could be exposed." Maps ~LB p34-42. Bracket: ~NC State LB 42 (both gutted). L.
 
-## DB — planned 54 (confidence M)
-Room: a DEEP returning veteran corps - Greg Smith (79.3/273 -> 80.5 adj; great spring)
-+ Gavin Gibson (69.2/636 -> 70.4) + Marcus Allen (64.1/722 -> 65.3) + Jaiden Patterson
-(70.8/473 -> 72.0) + Kaleb Cost (67.4/480 -> 68.6) + Dixon. Lost 2 starters + Ziglar
-(-> USF).
-Mechanical: a genuinely deep, experienced secondary (COV p50 but lots returns) -
-Belichick's strength. Maps ~DB p52-60. Bracket: above the batch's other DBs; a
-relative strength. M.
+## DB — planned 48 (confidence M) [P6 retro-QA correction 2026-07-18: was 54]
+Room: Greg Smith (79.3/273 -> 80.5 adj; great spring; chart S starter) + Jaiden
+Patterson (70.8/473 -> 72.0; started half of '25) + Kaleb Cost (67.4/480 -> 68.6;
+the ONLY full-time returning starter per P6) + Coleman Bryson (61.2) + Ade Willie
+(MSU transfer, chart CB starter). "FOUR starters are gone from the secondary" (P6)
+- Allen (65.3/722) + Gibson (70.4/636) + Dixon had been wrongly carried as yr4
+returns; corrected to GONE (Athlon chart confirms: Patterson/Willie/Cost/Bryson/
+Smith, none of the three listed).
+Mechanical: one high-grade small-sample piece (Smith) + mid returners + a transfer
+CB - a real step down from the "deep veteran corps" as first (mis)read. COV p50
+base. Maps ~DB p44-52. Bracket: ~GT/FSU DB 48; above NC State DB 46. M.
 
 ## ST — planned 46 (confidence M)
 Room: K Aeron Burrell (transfer) + P Jacob Horvath. Return game uncertain. SPEC p47.
@@ -107,10 +113,21 @@ driven by specialists (calib). Maps ~ST p44-50. Bracket: middling. M.
 - DISPOSITION: massive churn (31 out). yr4 elite gone: Simpson (LB), Paysour (WR),
   OL starters (Moore/King/Blaske). Portal: Lopez (-> Wake, QB), Thompson (-> Louisville),
   Gbayor (-> FSU), House (-> Ark), Gause (-> NC State), Ty White (-> NC State) - all
-  cross-build confirmed. yr4 KEPT (veteran returners): Hall/Lindberg (OL), Allen/Gibson/
-  Dixon (DB), Vilbert (DL). 0 unresolved. VERIFIED BOTH on grade-critical.
+  cross-build confirmed. yr4 KEPT: Hall/Lindberg (OL, Athlon chart-listed). P6 RETRO-QA
+  (2026-07-18): Allen/Gibson/Dixon (DB) + Vilbert (DL) overrides corrected to GONE -
+  the original "both list as returning" claims were wrong; the Athlon defense chart
+  never listed them and P6 confirms departures. 0 unresolved.
 - PROVEN vs PROJECTED: PROVEN = DL anchor (Abou Jaoude) + the deep secondary. PROJECTIONS
   = QB (unsettled), OL (all-new), LB (gutted). WR modest-but-reloaded.
 - Confidence: 2 L-units (QB unsettled/mediocre; LB gutted). Coach x1.00.
 
-PLANNED GRADES: QB 48 L | RB 50 | WRTE 48 | OL 44 | DL 54 | LB 40 L | DB 54 | ST 46
+PLANNED GRADES: QB 48 L | RB 50 | WRTE 48 | OL 44 | DL 52 | LB 40 L | DB 48 | ST 46
+
+## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
+- QB: Gio Lopez (73.1/334) PORTAL->Wake Forest; Max Johnson (51.8/100) PORTAL->Georgia Southern
+- RB: Demon June (69.8/107) RETURNS
+- WRTE: Jordan Shipp (73.1/378) RETURNS; Kobe Paysour (65.9/307) EXPIRED(yr4)*; Jake Johnson (57.3/206) PORTAL->Auburn; Javarius Green (57.8/150) PORTAL->Boston College
+- OL: Daniel King (66.3/703) EXPIRED(yr4)*; Jakai Moore (68.9/678) EXPIRED(yr4)*; Austin Blaske (64.2/579) EXPIRED(yr4)*; Will O'Steen (55.3/548) EXPIRED(yr4)*; Chad Lindberg (72.2/446) RETURNS (yr4 override, May-print); Jordan Hall (58.2/214) RETURNS (yr4 override, May-print); Aidan Banfield (64.8/185) RETURNS; Miles McVay (71.1/164) PORTAL->Mississippi State
+- DL: Melkart Abou Jaoude (79.0/646) RETURNS; Smith Vilbert (64.3/534) EXPIRED(yr4)*; D'Antre Robinson (67.7/377) PORTAL->Oregon; Leroy Jackson (69.0/368) RETURNS; CJ Mims (69.7/356) PORTAL->Texas A&M; Isaiah Johnson (72.9/330) RETURNS; Tyler Thompson (81.5/291) PORTAL->Louisville; Xavier Lewis (70.3/167) RETURNS; Joseph Mupoyi (57.2/124) RETURNS
+- LB: Khmori House (53.0/777) PORTAL->Arkansas; Andrew Simpson (74.5/727) EXPIRED(yr4)*; Mikai Gbayor (67.1/252) PORTAL->Florida State
+- DB: Marcus Allen (64.1/722) EXPIRED(yr4)*; Gavin Gibson (69.2/636) EXPIRED(yr4)*; Will Hardy (65.6/520) EXPIRED(yr4)*; Kaleb Cost (67.4/480) RETURNS; Jaiden Patterson (70.8/473) RETURNS; Thaddeus Dixon (65.2/397) EXPIRED(yr4)*; Greg Smith (79.3/273) RETURNS; Coleman Bryson (60.0/225) RETURNS; Tre Miller (58.8/117) RETURNS; Jalon Thompson (61.6/112) RETURNS

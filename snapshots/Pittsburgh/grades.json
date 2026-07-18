@@ -7,7 +7,7 @@
   "OL": {"grade": 52, "confidence": "M"},
   "DL": {"grade": 58, "confidence": "M"},
   "LB": {"grade": 54, "confidence": "M"},
-  "DB": {"grade": 52, "confidence": "M"},
+  "DB": {"grade": 50, "confidence": "M"},
   "ST": {"grade": 46, "confidence": "M"}
  },
  "_meta": {
@@ -15,8 +15,8 @@
   "snapshot_rev": "frozen 2026-07-18 (ae53f6c)",
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
-  "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape, arrivals on origin cells [B10 Sanford inflated weighted down]; HC Narduzzi no change; disposition gate resolved - Kyle Louis NFL declare [PS-verified], Shawn Lee withdrawal, Raphael Williams research-departure, Battle yr4 gate-catch adjudicated vs both charts); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 52/RB 56/WRTE 42/OL 52/DL 58/LB 54/DB 52/ST 46)."},
+  "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape, arrivals on origin cells [B10 Sanford inflated weighted down]; HC Narduzzi no change; disposition gate resolved - Kyle Louis NFL declare [PS-verified], Shawn Lee withdrawal, Raphael Williams research-departure); anchor values not consulted. P6 RETRO-QA CORRECTION 2026-07-18: Battle/McIntyre/Spires yr4 overrides reversed to GONE per Pick Six ACC ('loses four starters from the secondary'); DB 52->50.",
+  "planned_vs_final_deviations": {"note": "post-freeze P6 retro-QA correction 2026-07-18: DB 52->50 (Battle/McIntyre removed - actually departed). All other finals match the dossier planned lines (QB 52/RB 56/WRTE 42/OL 52/DL 58/LB 54/ST 46); dossier updated."},
   "shadow_proxy_divergence": {
    "note": "proxy (QB 22, RB 53, WRTE 4, OL 51, DL 60, LB 67, DB 53, ST 41) keys the '25 tape.",
    "WRTE": "+38 vs proxy 4 - proxy keys only the departed top-2 WRs; the grade credits Hicks + the reload off the floor.",
@@ -116,13 +116,13 @@
    "data_gaps": ["lost 2 stars (Louis NFL + Biles)"], "g5_guard_note": null
   },
   {
-   "team": "Pittsburgh", "unit": "DB", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["Louisville DB 2026 (52, round peer)", "NC State DB 2026 (46, below)"],
+   "team": "Pittsburgh", "unit": "DB", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["Louisville DB 2026 (52, above)", "NC State DB 2026 (46, below)"],
    "rationale_bullets": [
-    "Cruce Brookins (S, returning, 80.9/504 -> 82.1 adj; 53 tkl/2 INT) + Shawn Lee Jr. (CB, withdrawal, 79.9/427; 4 PBU) + Rashad Battle (CB, 73.5) + Raion Strader (Auburn CB) + DeMarco Ward (Memphis S).",
-    "Narduzzi 'loves CB depth; S depth a concern.'",
-    "A solid secondary (Brookins + Lee good; deep at CB) but thin at S. COV p59.",
-    "52: ~Louisville DB 52; Brookins + Lee anchor. M."
+    "Cruce Brookins (S, returning, 80.9/504 -> 82.1 adj; 53 tkl/2 INT) + Shawn Lee Jr. (CB, withdrawal, 79.9/427; 4 PBU - Frosh All-American) + Raion Strader (Auburn CB) + DeMarco Ward (Memphis S) + Shadarian Harrison (63.0, rotational).",
+    "LOSES FOUR starters (P6): Lynum, Battle, McIntyre, Bains-Marquez. P6 RETRO-QA: Battle + McIntyre had been wrongly carried as yr4 returns - corrected to GONE.",
+    "Two genuinely good pieces (Brookins + Lee) atop a thinner room than first graded; transfers/young fill in. COV p59.",
+    "50: just below Louisville/SMU DB 52; Brookins + Lee anchor it. M."
    ],
    "key_players": [
     {"name": "Cruce Brookins", "role": "S (returning)", "evidence": "80.9/504 (82.1 ACC-adj); 53 tkl/2 INT"},

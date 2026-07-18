@@ -9,7 +9,7 @@
  "conference_note": "ACC (P4). R14: ACC cells POSITIVE on returning tape; arrivals on origin cells. HEAVY churn (20 in / 31 out). Arrivals: Billy Edwards Jr Wisconsin/B10 (QB - via Maryland; 520 P4 att), Miles O'Neill Texas A&M/SEC (QB), Kaleb Jackson LSU/SEC (+10.17 RB weighted DOWN); Trech Kekahuna Wisconsin/B10 (-1.26 WRTE), Jelani Thurman Ohio State/B10 (-1.26 WRTE - tiny sample), Jordan Washington Texas/SEC (TE); Christo Kelly Holy Cross/FCS (NO CELL - OL), Jonah Rodriguez + Jacqawn McRoy (OL transfers), Donovan Hoilette Richmond/FCS (OL); Jaylen Harvey Penn State/B10 (DL); Peyton Seelman Richmond/FCS (NO CELL - LB), Derek McDonald Syracuse/ACC (+2.13 LB), Ade Willie Michigan State/B10 (DB->LB); Aeron Burrell (K).",
  "portal_departure_confirmed": [],
  "portal_withdrawal_overrides": [],
- "yr4_return_overrides_documented": ["Jordan Hall", "Chad Lindberg", "Marcus Allen", "Gavin Gibson", "Smith Vilbert", "Thaddeus Dixon"],
+ "yr4_return_overrides_documented": ["Jordan Hall", "Chad Lindberg"],
  "nfl_declare_confirmed": [],
  "departure_confirmed_research": [],
  "feed_gap_arrivals_documented": [],
@@ -22,16 +22,18 @@
   "Mikai Gbayor": "LB, 67.1/252 - GONE (-> Florida State, yr4). Confirmed cross-build (listed as FSU LB arrival).",
   "Jordan Hall": "OL LT, 58.2/214 - yr4 but Athlon LT starter + PS lineup -> yr4_return_override.",
   "Chad Lindberg": "OL C, 72.2/446 - yr4 but Athlon C depth -> yr4_return_override.",
-  "Marcus Allen": "CB, 64.1/722 - yr4 but both list as returning CB -> yr4_return_override.",
-  "Gavin Gibson": "S, 69.2/636 - yr4 but both list as returning S -> yr4_return_override.",
-  "Smith Vilbert": "DE, 64.3/534 - yr4 but Athlon 'brings back multiple contributors along the line' (the #2 edge behind Abou Jaoude) -> yr4_return_override. Not in portal-out/not NFL.",
-  "Thaddeus Dixon": "CB, 65.2/397 - yr4 but both frame the DB as a returning veteran core -> yr4_return_override. Not in portal-out/not NFL."
+  "Marcus Allen": "CB, 64.1/722 - P6 RETRO-QA CORRECTION (2026-07-18): my original 'both list as returning' claim was WRONG - the Athlon defense chart (re-read) lists Patterson/Willie/Cost/Bryson/Smith with NO Allen, and P6 'four starters are gone from the secondary... Cost is the only full-time starter back.' GONE (EXPIRED yr4). Removed from two-deep; DB re-graded 54->48.",
+  "Gavin Gibson": "S, 69.2/636 - P6 RETRO-QA CORRECTION (2026-07-18): same as Allen - no print listing (Athlon chart S = Bryson + Smith); P6 four-starters-gone. GONE (EXPIRED yr4). Removed from two-deep.",
+  "Smith Vilbert": "DE, 64.3/534 - P6 RETRO-QA CORRECTION (2026-07-18): P6 explicit 'end Smith Vilbert graduated'; Athlon chart DE = Hoilette + Mupoyi. GONE (EXPIRED yr4). Removed from two-deep; DL re-graded 54->52.",
+  "Thaddeus Dixon": "CB, 65.2/397 - P6 RETRO-QA CORRECTION (2026-07-18): P6 'Patterson started half the year at corner after Dixon was injured' and projects Cost/Patterson/Smith/Bryson/Willie without him; no print listing. GONE (EXPIRED yr4). Removed from two-deep; grade-immaterial (was DB6 depth).",
+  "Donovan Hoilette": "DE (Richmond/FCS transfer) - CORRECTION: I had mis-attributed him as an OL note at build; the Athlon chart lists him as the projected DE starter. Added to DL two-deep (FCS, NO CELL, evidence-only).",
+  "Ade Willie": "CB (Michigan State transfer) - CORRECTION: I had noted him at LB per PS at build; the Athlon chart lists him as the projected CB starter. Added to DB two-deep."
  },
  "known_gaps": [
   "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts. MASSIVE churn (20 in / 31 out) in Belichick's 2nd year.",
   "4-8 (2-6 ACC) in '25 - a below-average team, better on D (DEF p64, PRSH p64) than O (OFF p28, RUN p20). New OC Bobby Petrino for '26.",
   "OFFENSE rebuilt: unsettled QB (Edwards Jr Wisconsin/Maryland journeyman + O'Neill A&M; Lopez -> Wake); ALL FIVE OL starters gone (rebuilt w/ FCS/transfer bodies); modest WR (Shipp returns) + a decent transfer TE room (Thurman OSU).",
-  "DEFENSE relatively better: DL anchor Abou Jaoude (10.5 sk) returns + a rotation; DB deep + veteran (Greg Smith, Gibson, Allen, Cost, Patterson). But LB GUTTED (House -> Ark, Simpson yr4, Gbayor -> FSU) - rebuilt with FCS/mid transfers. Cross-builds: Thompson -> Louisville, Gbayor -> FSU, Gause -> NC State, Ty White -> NC State (all confirmed)."
+  "DEFENSE relatively better: DL anchor Abou Jaoude (10.5 sk) returns + interior rotation (Johnson/Jackson/Lewis) but loses edge depth (Vilbert graduated per P6). DB thinner than first read - P6: 'four starters gone... Cost the only full-time starter back'; returns Smith/Patterson/Cost/Bryson + Willie (MSU). LB GUTTED (House -> Ark, Simpson yr4, Gbayor -> FSU) - rebuilt with FCS/mid transfers. Cross-builds confirmed. P6 RETRO-QA 2026-07-18: Allen/Gibson/Dixon/Vilbert overrides corrected to GONE; DL 54->52, DB 54->48."
  ],
  "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
  "frozen": true,

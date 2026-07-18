@@ -1,0 +1,14 @@
+{
+ "team": "Alabama",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T01:39:39+00:00",
+ "assembler_git_rev": "ed655ca",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "known_gaps": [
+  "CFBD 2026 roster/returning-production/talent/ratings/coaches feeds not yet published (as of pull dir date)",
+  "2026 recruiting team ranks not on CFBD - use 247 site at research time for class context",
+  "two-deep, magazines.md, news.md, Sideline valuations = research phase (RESEARCH_PROCEDURE.md)"
+ ],
+ "blinding": "assembler reads no rating/market data; team_name_map.csv used for names only",
+ "frozen": false
+}

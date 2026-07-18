@@ -23,3 +23,12 @@
   sack-prone): QB 52 | RB 56 | WRTE 42 L | OL 52 | DL 58 | LB 54 | DB 52 | ST 46. Sum 412.
 - 2026-07-18 gates: disposition_ledger --write + --check, departure_check, blinding_check,
   grades_check, post-grades departure_check - below.
+- 2026-07-18 P6 RETRO-QA (post-freeze correction): Pick Six ACC - unused at build
+  (process gap; P6 was a standing third source in the B10/B12 rounds) - cross-checked
+  against all disposition calls. CATCH: Battle + McIntyre + Spires yr4 overrides were
+  WRONG (P6: "Pitt loses four starters from the secondary with Lynum, Battle, McIntyre,
+  and Bains-Marquez all departing"; none had print backing - overrides had been granted
+  on tape volume). All three removed; Harrison (61.8/518, rotational) added as DB depth.
+  DB 52->50. Rating +5.90 -> +5.83 (rank 41 unchanged). Gates re-run clean.
+  P6 CORROBORATED: Louis NFL ("heads to the pros"), Lovelace/Lindsey returns, Shawn Lee
+  retained (Frosh AA), R.Williams graduated, Gouveia return, Brewu->ND, Biles->Texas.

@@ -7,9 +7,9 @@ WRTE,1,Cataurus Hicks,WR,JR,returning,Athlon,PS,M,55.3/365 (ACC +2.36 -> 57.7 ad
 WRTE,2,Malik Knight,WR,SR,transfer:Western Carolina,Athlon,PS,L,FCS (NO CELL); 774 yds at WCU
 WRTE,3,Bryce Yates,WR,SO,returning,Athlon,PS,L,71.6/68 (small sample)
 WRTE,4,Carson Kent,TE,JR,transfer:Oklahoma,Athlon,PS,L,61.5/30 tiny; TE upgrade
-WRTE,5,Censere Lee,WR,SR,returning,Athlon,PS,L,53.7/68 (yr4_return_override); WR depth (Athlon lists)
+WRTE,5,Censere Lee,WR,SR,returning,Athlon,PS,L,53.7/68 (yr4_return_override); WR depth (Athlon chart WR2)
 OL,1,Ryan Baer,OT,SR,returning,Athlon,PS,M,76.8/882 (ACC +3.54 -> 80.3 adj); best OL; RT
-OL,2,Keith Gouveia,G,SR,returning,Athlon,PS,M,67.6/213 (yr4_return_override); LG; leader
+OL,2,Keith Gouveia,G,SR,returning,Athlon,PS,M,67.6/213 (yr4_return_override; Athlon prose "returners Gouveia..."); LG; leader
 OL,3,BJ Williams,G,SR,returning,Athlon,PS,M,64.2/893 (ACC +3.54 -> 67.7 adj); RG
 OL,4,Ryan Carretta,C,JR,returning,Athlon,PS,M,63.5/582 (67.0 adj); C
 OL,5,Kendall Stanley,OT,SR,returning,Athlon,PS,L,53.3/582 (56.8 adj); LT
@@ -18,17 +18,15 @@ DL,1,Sean FitzSimmons,DI,SR,returning,Athlon,PS,M,77.0/356 (ACC +1.19 -> 78.2 ad
 DL,2,Nick James,DI,JR,returning,Athlon,PS,M,71.3/486 (72.5 adj)
 DL,3,Isaiah Neal,ED,JR,returning,Athlon,PS,M,65.0/557 (66.2 adj)
 DL,4,Jimmy Scott,ED,JR,returning,Athlon,PS,M,66.6/531 (67.8 adj)
-DL,5,Blaine Spires,ED,SR,returning,Athlon,PS,M,72.7/278 (yr4_return_override); 73.9 adj
-DL,6,Zach Crothers,ED,SO,returning,Athlon,PS,L,78.8/95 (small sample)
+DL,5,Zach Crothers,ED,SO,returning,Athlon,PS,L,78.8/95 (small sample)
 LB,1,Braylan Lovelace,LB,SR,returning,Athlon,PS,H,70.7/851 (ACC +2.13 -> 72.8 adj); 80 tkl; "next iconic LB"
-LB,2,Cameron Lindsey,LB,JR,returning,Athlon,PS,M,72.1/288 (ACC +2.13 -> 74.2 adj); rising star
+LB,2,Cameron Lindsey,LB,JR,returning,Athlon,PS,M,72.1/288 (ACC +2.13 -> 74.2 adj); rising star; started 3 gms for injured Louis
 LB,3,Alex Sanford Jr.,LB,JR,transfer:Purdue,Athlon,PS,M,54.1/362 (B10 +16.10 -> inflated weighted DOWN)
 LB,4,Nick Lapi,LB,SO,returning,Athlon,PS,L,71.4/97 (small sample); depth
 DB,1,Cruce Brookins,S,JR,returning,Athlon,PS,M,80.9/504 (ACC +1.18 -> 82.1 adj); 53 tkl/2 INT
-DB,2,Shawn Lee Jr.,CB,JR,returning,Athlon,PS,M,79.9/427 (portal_withdrawal_override); 4 PBU; HM ACC
-DB,3,Rashad Battle,CB,SR,returning,Athlon,PS,M,72.3/473 (73.5 adj)
-DB,4,Raion Strader,CB,JR,transfer:Auburn,Athlon,PS,M,62.7/179 (SEC; 1st-Tm MAC '24 at Miami OH)
-DB,5,DeMarco Ward,S,SR,transfer:Memphis,Athlon,PS,L,64.8/644 (AAC -3.27 -> 61.5 adj); S
-DB,6,Javon McIntyre,S,SR,returning,Athlon,PS,L,56.6/678 (yr4_return_override); S depth
+DB,2,Shawn Lee Jr.,CB,JR,returning,Athlon,PS,M,79.9/427 (portal_withdrawal_override); 4 PBU; Frosh All-American
+DB,3,Raion Strader,CB,JR,transfer:Auburn,Athlon,PS,M,62.7/179 (SEC; 1st-Tm MAC '24 at Miami OH)
+DB,4,DeMarco Ward,S,SR,transfer:Memphis,Athlon,PS,L,64.8/644 (AAC -3.27 -> 61.5 adj); S/LB hybrid per P6
+DB,5,Shadarian Harrison,CB,SO,returning,Athlon,PS,L,61.8/518 (63.0 adj); returning rotational CB
 ST,1,Sam Hunsaker,K,SR,transfer:Northern Arizona,Athlon,PS,L,FCS; PK competition
 ST,2,Gabe Russo,P,JR,transfer:Idaho State,Athlon,PS,M,FCS; 46.3 avg (good)
