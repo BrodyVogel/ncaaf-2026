@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Major",
+  "lastName": "Applewhite",
+  "hireDate": "2024-01-18T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "South Alabama",
+    "year": 2024,
+    "games": 13,
+    "wins": 7,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -1.7,
+    "spOverall": 2.8,
+    "spOffense": 29.9,
+    "spDefense": 26.9
+   }
+  ]
+ },
+ {
+  "firstName": "Major",
+  "lastName": "Applewhite",
+  "hireDate": "2024-01-18T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "South Alabama",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -12.8,
+    "spOverall": -12.7,
+    "spOffense": 25.4,
+    "spDefense": 36
+   }
+  ]
+ }
+]

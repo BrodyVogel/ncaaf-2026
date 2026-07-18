@@ -1,0 +1,53 @@
+{
+ "team": "South Alabama",
+ "conference": "Sun Belt",
+ "created_utc": "2026-07-18T16:08:32+00:00",
+ "assembler_git_rev": "a601409",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Major Applewhite (11-14 at school, entering Year 3; NO change; band x1.00). NOTE: new DC Todd Orlando (coordinator change only - does NOT trigger the band multiplier). '25: 4-8 (3-5 SBC). G5 2-SOURCE build (Athlon primary; PS SBC text garbled -> scout/beat corroborating). VERY HIGH out-churn (12 in / 30 out) - a near-total defensive-front + OL rebuild.",
+ "conference_note": "Established Sun Belt (West). SBC offsets NEGATIVE/small; returning tape on SBC cells, arrivals on origin. A 4-8 team with an ELITE run game (RUN p97) but a TERRIBLE defense (RDEF p4, TACK p5, PRSH p10). Keeps QB Davenport + a strong returning backfield (Phillips 84.3 + Martin 80.5); the OL (1 returning starter) + the entire defensive front + the secondary (lost All-SBC Chandler + top S Goodwill) are rebuilds.",
+ "portal_departure_confirmed": [
+  "Brian Dillard"
+ ],
+ "portal_withdrawal_overrides": [
+  "Ethan Hubbard",
+  "Kenton Jerido"
+ ],
+ "yr4_return_overrides_documented": [
+  "Micah Woods"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Kentrel Bullock",
+  "Devin Voisin",
+  "Darius McKenzie"
+ ],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Bishop Davenport": "QB, 66.6/372 - RETURNS. The returning starter (2,072 yds/12 TD/6 INT, all 12 starts, 2nd in the SBC in completion % at 68%). Scout: 'a good player who fit their scheme.' The offense's anchor.",
+  "Kentrel Bullock": "RB, 90.3/218 - GONE (departure_confirmed_research; yr4). The roster's TOP grade + an All-Sun Belt 1st-teamer, but yr4; Athlon 'the departure of All-Sun Belt first-teamer Kentrel Bullock.' RB grade keys the returners Phillips + Martin.",
+  "Keenan Phillips": "RB, 84.3/125 - RETURNS. 'USA's leading returning rusher' (607 yds); a high-graded returning back.",
+  "PJ Martin": "RB, 80.5/61 - RETURNS. 'Shares the load'; the second 80+ returning back off an elite (RUN p97) run game.",
+  "Ethan Hubbard": "RT, 56.6/688 - RETURNS (portal_withdrawal_override). The 'ONE returning OL starter' (Athlon, bold); portal->None but WITHDREW.",
+  "Micah Woods": "WR, 64.0/42 - RETURNS (yr4 override). A gadget/return man; Athlon depth-chart WR + scout 'can be a good every-down receiver.' yr4 but named returning.",
+  "Devin Voisin": "WR, 71.8/325 - GONE (departure_confirmed_research; yr4). The leading WR 'after seven seasons' (Athlon) - eligibility expired.",
+  "Ty Goodwill": "S, 81.2/327 - GONE (portal -> Cincinnati). The top DB grade; a big secondary loss.",
+  "Nehemiah Chandler": "CB, 71.6/608 - GONE (portal -> Florida State). An All-Sun Belt corner; Henderson returns to the other spot.",
+  "Jayvon Henderson": "CB, 75.3/619 - RETURNS. The top returning DB (14 tkl, 5 PBU); 'played well opposite Chandler.'",
+  "Tirrell Johnson": "LB, 73.3/525 - RETURNS. The LB anchor (54 tkl); the feed tags him ED but Athlon lists him a bold returning LB.",
+  "Kenton Jerido": "LG, 49.0/570 - RETURNS (portal_withdrawal_override). portal->None but on the Athlon depth chart at LG (Sr) - WITHDREW. A 2nd returning OL body (with Hubbard) but a below-average grade; the OL is still a heavy rebuild.",
+  "Brian Dillard": "CB, 66.1/236 - GONE (portal_departure_confirmed). yr4 + portal->None + NOT on the Athlon depth chart (CBs are Henderson/Moson/Webb) -> gone.",
+  "Darius McKenzie": "LB, 69.1/552 - GONE (yr4; portal-None, not on the depth chart). A high-snap '25 LB whose eligibility expired."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon. VERY HIGH out-churn (12 in / 30 out). Grade-critical: the top grade (RB Bullock 90.3, All-SBC) is a yr4 graduation, but TWO 80+ backs return (Phillips 84.3 + Martin 80.5). OL Ethan Hubbard (the 1 returning starter) is a portal->None WITHDRAWAL (Athlon bold).",
+  "4-8 in '25 (3-5 SBC), a step back in Applewhite's Y2. OFF p33 (an ELITE run game RUN p97 but the worst run blocking RBLK p1; PASS p19), DEF p16 (RDEF p4, TACK p5, PRSH p10 all bottom-5%; COV p61 the one decent area), SPEC p32.",
+  "The OFFENSE keeps its core: QB Davenport (a full-season returning starter) + a STRONG returning backfield (Phillips 84.3 + Martin 80.5, both 80+) + 3 modest WR returners (Eager/Jenkins/Woods). But it lost the leading WR (Voisin, yr4) + Scott (TCU), and the OL returns just ONE starter (Hubbard, withdrew) off the worst run blocking in the country (RBLK p1).",
+  "The DEFENSE is a near-total rebuild off terrible '25 numbers: the front lost a plethora to the portal (Ed Smith->Tulane, Tyler Thomas + Wiseman->Kentucky, A.Woods->LSU) - 2 rotational returners (Waller, S.Johnson) + 5 FCS transfers; LB keeps the anchor Tirrell Johnson (73.3) + Dozier (from injury) + a ULM transfer; the secondary lost All-SBC CB Chandler (-> FSU) + top S Goodwill (81.2 -> Cincinnati) but keeps CB Henderson (75.3) + safeties + transfers.",
+  "ST: a solid returning punter (Pulkkinen, 40.4 avg) + an unproven K (Little, competing) + good returners (Phillips KR, Woods PR), off SPEC p32."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF115 / Sun Belt West 5 incidentally visible - logged, NOT used. G5 2-source (Athlon primary; PS SBC text garbled -> scout/beat corroborating).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T16:18:00+00:00"
+}

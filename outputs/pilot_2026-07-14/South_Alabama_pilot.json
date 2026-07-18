@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T16:18:11+00:00",
+ "team": "South Alabama",
+ "final": -8.63,
+ "rank": 102,
+ "band": 6.0,
+ "resid": 8.82,
+ "adj": 3.09,
+ "class_term": 0.0,
+ "st": -0.16,
+ "anchor_blend": -12.02,
+ "resid_level": 6.18,
+ "resid_shape": 2.64,
+ "implied_off": 24.66,
+ "implied_def": 27.26,
+ "anchor_off": 23.34,
+ "anchor_def": 34.76,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.617
+ },
+ "low_conf_units": 0,
+ "code_rev": "a601409",
+ "mode": "PILOT-OOS"
+}

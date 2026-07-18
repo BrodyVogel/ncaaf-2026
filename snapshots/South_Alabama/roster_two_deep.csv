@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Bishop Davenport,QB,SR,returning,Athlon,scout,M,66.6/372 (SBC -1.01; the returning starter - 2072 yds/12 TD/6 INT, all 12 starts, 2nd in the SBC in completion % at 68%)
+QB,2,Jared Hollins,QB,SO,returning,Athlon,feed,L,the returning backup
+RB,1,Keenan Phillips,RB,JR,returning,Athlon,scout,H,84.3/125 (SBC -2.02; USA's leading returning rusher, 607 yds). LOST All-SBC 1st-team Kentrel Bullock (90.3 yr4)
+RB,2,PJ Martin,RB,JR,returning,Athlon,feed,M,80.5/61 (SBC; "shares the load"). TWO 80+ returning backs off an ELITE run game (RUN p97)
+WRTE,1,Anthony Eager,WR,JR,returning,Athlon,feed,M,63.4/263 (SBC -0.74; one of "the only two proven pass-catchers")
+WRTE,2,Brendan Jenkins,WR,SR,returning,Athlon,scout,M,61.6/92 (SBC; the other proven pass-catcher; scout: "can have a big year") + Micah Woods (64.0 yr4, gadget/returner). LOST Voisin (71.8 yr4)+Scott(->TCU)
+OL,1,Ethan Hubbard,RT,JR,returning-withdrawal,Athlon,feed,M,56.6/688 (SBC -0.35; the ONE returning starter - portal->None but WITHDREW, Athlon bold)
+OL,2,Devon Waller,C,JR,arrival(transfer),Athlon,feed,L,transfer C + Khayree Lee (LT) + Shalik Hubbard (RG) transfers. LOST the line: Preciado(->Tulsa)/Hale(->Baylor)/Jordan Davis(->UCLA)+yr4. RBLK was p1 (dead last)
+DL,1,Emmanuel Waller,DT,SR,returning,Athlon,feed,M,64.1/310 (SBC -6.50; a returning rotational vet)
+DL,2,Stephen Johnson,NT,JR,returning,Athlon,feed,L,54.3/201 (SBC; rotational returner) + 5 FCS transfers (Mase Lewis McNeese/Dylan Chiedo Furman). LOST a plethora: Ed Smith(->Tulane)/Tyler Thomas(->Kentucky)/Wiseman(->Kentucky)/A.Woods(->LSU). PRSH p10
+LB,1,Tirrell Johnson,LB,SR,returning,Athlon,feed,M,73.3/525 (SBC -8.20; the LB anchor - 54 tkl/1 sk/1 INT; Athlon-designated LB)
+LB,2,Caleb Dozier,LB,SO,returning,Athlon,feed,M,68.5/242 (SBC; returns from injury) + Seidrion Langston (ULM transfer). LOST Myrick(->Miami OH)+McKenzie(69.1 yr4)+Hughes(->Tulane)
+DB,1,Jayvon Henderson,CB,SR,returning,Athlon,feed,M,75.3/619 (SBC -3.62; the top returning DB - 14 tkl/5 PBU; "played well opposite Chandler")
+DB,2,Dallas Young,S,JR,returning,Athlon,feed,M,68.2/294 (SBC; snaps in all 12) + Cole Blaylock (60.8) + transfers (Moson/Webb III/DJ Moore). LOST All-SBC Chandler(71.6->FSU)+Ty Goodwill(81.2->Cincinnati)+Miller(->FIU)
+ST,1,Aleksi Pulkkinen,P,SR,returning,Athlon,feed,M,40.4-yd avg, 9 inside the 20 (a solid returning punter)
+ST,2,Davis Little,K,SO,returning,Athlon,feed,L,competes for the full-time K job (DiBoyan -> Austin Peay). KR Keenan Phillips + PR Micah Woods. SPEC p32

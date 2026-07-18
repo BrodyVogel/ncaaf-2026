@@ -1,0 +1,132 @@
+{
+ "team": "South Alabama",
+ "units": {
+  "QB": {"grade": 46, "confidence": "M"},
+  "RB": {"grade": 52, "confidence": "M"},
+  "WRTE": {"grade": 42, "confidence": "M"},
+  "OL": {"grade": 38, "confidence": "M"},
+  "DL": {"grade": 38, "confidence": "M"},
+  "LB": {"grade": 42, "confidence": "M"},
+  "DB": {"grade": 44, "confidence": "M"},
+  "ST": {"grade": 42, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T16:18:00Z (South Alabama)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary + scout; PS SBC text GARBLED; no Pick Six for SBC]; established Sun Belt team -> returning tape on SBC cells [negative/small], arrivals on origin [FCS = no cell]; HC Major Applewhite Y3 [NO CHANGE, band x1.00; new DC Orlando is a coordinator change - does NOT trigger the band]; disposition gate 40 rows / 0 adjudicate / 0 err - portal_withdrawal_overrides OL Ethan Hubbard + Kenton Jerido [both portal->None but on the Athlon depth chart]; yr4-return override WR Micah Woods; departure_confirmed_research the top grade RB Kentrel Bullock [90.3, All-SBC, yr4] + WR Voisin + LB McKenzie; portal_departure_confirmed CB Dillard; 30-out exodus [DL front + secondary] feed-destinationed]; anchor values not consulted. DISCLOSED: Athlon NF115 / Sun Belt West 5 incidentally visible, logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB46/RB52/WRTE42/OL38/DL38/LB42/DB44/ST42, sum 344). No post-freeze corrections. The RB grade (52) is the standout - TWO 80+ returning backs (Phillips 84.3 + Martin 80.5) off an elite (RUN p97) run game, even after the All-SBC Bullock (90.3, the top grade) graduated."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 34, RB 66, WRTE 26, OL None, DL 23, LB 17, DB 63, ST 32) is healthy at RB/DB, low across the OL + front seven (the 30-out exodus). The grades key the verified returners.",
+   "RB": "-14 vs proxy 66 - the grade (52) is high but calibrated below the raw proxy for losing the All-SBC lead back (Bullock); Phillips + Martin (both 80+) still anchor a strength.",
+   "OL": "+38 vs proxy None - the grade (38) sets the rebuild (1-2 withdrawn returners + transfers) off RBLK p1.",
+   "DL": "+15 vs proxy 23 - the grade keys the 2 rotational returners + the FCS-transfer volume after a plethora left.",
+   "QB": "+12 vs proxy 34 - the grade (46) keys the full-season returning starter (Davenport) above the raw passing proxy (PASS p19).",
+   "DB": "-19 vs proxy 63 - the grade calibrates for losing All-SBC Chandler + top S Goodwill; Henderson (75.3) + the safeties anchor it."
+  }
+ },
+ "grades_detail": [
+  {"team": "South Alabama", "unit": "QB", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Louisville QB 2026 (46, peer)", "TCU QB 2026 (46, peer)"],
+   "rationale_bullets": [
+    "Bishop Davenport (66.6/372 -> SBC -1.01; the returning starter - 2,072 yds/12 TD/6 INT, all 12 starts, 2nd in the SBC in completion % at 68%) + Jared Hollins (So).",
+    "A proven full-season returning starter with decent efficiency (2nd in the SBC in completion %) but modest overall production (PASS p19). Scout: 'a good player who fit their scheme.'",
+    "46: ~Louisville/TCU QB 46. The full-season returning starter vs the modest passing grade. M."
+   ],
+   "key_players": [
+    {"name": "Bishop Davenport", "role": "QB (returning)", "evidence": "66.6/372; 2,072 yds/12 TD, all 12 starts, 2nd in the SBC in completion % (68%)"}
+   ],
+   "data_gaps": ["modest overall passing (PASS p19)", "a step-back offense in '25"],
+   "g5_guard_note": "Sun Belt; a full-season returning starter (SBC -1.01) with decent efficiency but modest production."},
+  {"team": "South Alabama", "unit": "RB", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Kansas State RB 2026 (52, peer)", "Houston RB 2026 (52, peer)"],
+   "rationale_bullets": [
+    "Keenan Phillips (84.3/125 -> SBC -2.02; USA's leading returning rusher, 607 yds) + PJ Martin (80.5/61; 'shares the load'). LOST All-SBC 1st-teamer Kentrel Bullock (90.3, yr4).",
+    "A genuine STRENGTH - TWO returning backs both grading 80+ off an ELITE run game (RUN p97), even after losing an All-SBC back. One of the SBC's best returning backfields.",
+    "52: ~Kansas State/Houston RB 52. Phillips + Martin (both 80+) off a p97 run game vs the Bullock loss + the p1 run blocking. M."
+   ],
+   "key_players": [
+    {"name": "Keenan Phillips", "role": "RB (returning)", "evidence": "84.3/125; USA's leading returning rusher (607 yds)"},
+    {"name": "PJ Martin", "role": "RB (returning)", "evidence": "80.5/61; the second 80+ returning back, shares the load"}
+   ],
+   "data_gaps": ["lost All-SBC Bullock (90.3, yr4)", "the OL run blocking was p1"],
+   "g5_guard_note": "Sun Belt; a top returning backfield - two 80+ backs (Phillips + Martin, SBC -2.02) off an elite RUN-p97 game."},
+  {"team": "South Alabama", "unit": "WRTE", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["Iowa WRTE 2026 (42, peer)", "San Diego State WRTE 2026 (42, peer)"],
+   "rationale_bullets": [
+    "Anthony Eager (63.4/263) + Brendan Jenkins (61.6/92; scout: 'big year') + Micah Woods (64.0; gadget/returner, yr4-return). Athlon: 'the only two proven pass-catchers' (Eager + Jenkins). LOST Devin Voisin (71.8, yr4, the leading WR) + Jeremy Scott (-> TCU) + TEs.",
+    "Three modest returners off a middling receiving unit (RECV p47), having lost the leading WR + depth.",
+    "42: ~Iowa/San Diego State WRTE 42. The proven-enough trio vs the lost top WR + depth. M."
+   ],
+   "key_players": [
+    {"name": "Anthony Eager", "role": "WR (returning)", "evidence": "63.4/263; one of the two proven returning pass-catchers"},
+    {"name": "Micah Woods", "role": "WR (returning, yr4)", "evidence": "a gadget/return man; scout 'can be a good every-down receiver'"}
+   ],
+   "data_gaps": ["lost the leading WR (Voisin, yr4) + Scott (TCU)", "RECV p47"],
+   "g5_guard_note": "Sun Belt; three modest returners (SBC -0.74) after the leading WR left."},
+  {"team": "South Alabama", "unit": "OL", "grade": 38, "confidence": "M",
+   "bracketing_exemplars": ["Illinois OL 2026 (38, peer)", "Purdue OL 2026 (38, peer)"],
+   "rationale_bullets": [
+    "Ethan Hubbard (RT, 56.6/688; the 'one returning starter,' withdrew) + Kenton Jerido (LG, withdrew) + transfers Khayree Lee (LT) + Devon Waller (C) + Shalik Hubbard (RG). LOST the line: Preciado (-> Tulsa) + Hale (-> Baylor) + Jordan Davis (-> UCLA) + yr4.",
+    "A near-total rebuild - 1-2 returning starters + a transfer interior - off the WORST run blocking in the country (RBLK p1).",
+    "38: ~Illinois/Purdue OL 38. The couple of returning bodies + transfer experience vs the wholesale turnover + the dead-last run-block baseline. M."
+   ],
+   "key_players": [
+    {"name": "Ethan Hubbard", "role": "RT (returning, withdrew)", "evidence": "56.6/688; the one returning OL starter (withdrew from the portal)"}
+   ],
+   "data_gaps": ["near-total OL turnover", "RBLK p1 (worst run blocking in the country)"],
+   "g5_guard_note": "Sun Belt; a rebuilt line (1-2 withdrawn returners + transfers, SBC -0.35) off a dead-last run-block baseline."},
+  {"team": "South Alabama", "unit": "DL", "grade": 38, "confidence": "M",
+   "bracketing_exemplars": ["Syracuse DL 2026 (36, below)", "Arkansas State DL 2026 (40, above)"],
+   "rationale_bullets": [
+    "Emmanuel Waller (64.1/310 -> SBC -6.50; a returning rotational vet) + Stephen Johnson (54.3/201; NT) + FIVE DL transfers (Mase Lewis FCS McNeese + Dylan Chiedo FCS Furman + others). Athlon: 'lost a plethora... a rebuild.' LOST Ed Smith (-> Tulane) + Tyler Thomas + Wiseman (-> Kentucky) + Achilles Woods (-> LSU).",
+    "A near-total rebuild - 2 rotational returners + 5 (mostly FCS) transfers - off a bottom-10% pass rush (PRSH p10) + bottom-5% run defense (RDEF p4).",
+    "38: between Syracuse (36) and Arkansas State (40) DL. The vet returners + transfer volume vs the plethora out + the terrible baseline. M."
+   ],
+   "key_players": [
+    {"name": "Emmanuel Waller", "role": "DT (returning)", "evidence": "64.1/310; a returning rotational veteran on a rebuilt front"}
+   ],
+   "data_gaps": ["a plethora of DL out (to P4/AAC)", "RDEF p4 / PRSH p10 (bottom-5%)", "FCS-transfer reload"],
+   "g5_guard_note": "Sun Belt; a near-total DL rebuild (2 returners + 5 FCS transfers, SBC -6.50) off a bottom-5% front."},
+  {"team": "South Alabama", "unit": "LB", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["Arkansas State LB 2026 (42, peer)", "San Diego State LB 2026 (42, peer)"],
+   "rationale_bullets": [
+    "Tirrell Johnson (73.3/525 -> SBC -8.20; the anchor - 54 tkl/1 sk/1 INT) + Caleb Dozier (68.5/242; returns from injury) + Seidrion Langston (ULM transfer) + Parker Shattuck. LOST Blayne Myrick (-> Miami OH) + Darius McKenzie (69.1, yr4) + Dalton Hughes (-> Tulane).",
+    "A solid returning anchor (Tirrell Johnson) + a returning-from-injury piece + a SBC transfer, after several departures.",
+    "42: ~Arkansas State/San Diego State LB 42. Tirrell Johnson + Dozier anchor it; the departures + the bad run-D baseline (TACK p5) cap it. M."
+   ],
+   "key_players": [
+    {"name": "Tirrell Johnson", "role": "LB (returning)", "evidence": "73.3/525; the LB anchor (54 tackles)"},
+    {"name": "Caleb Dozier", "role": "LB (returning)", "evidence": "68.5/242; returns from injury"}
+   ],
+   "data_gaps": ["several LB departures", "TACK p5 (bottom-5% tackling)"],
+   "g5_guard_note": "Sun Belt; a solid returning anchor (Tirrell Johnson, SBC -8.20) + a return-from-injury piece after departures."},
+  {"team": "South Alabama", "unit": "DB", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Fresno State DB 2026 (44, peer)", "Arkansas State DB 2026 (44, peer)"],
+   "rationale_bullets": [
+    "Jayvon Henderson (75.3/619 -> SBC -3.62; the top returning DB, 14 tkl/5 PBU) + Dallas Young (68.2/294) + Cole Blaylock (60.8/187) + transfers (Jaylen Moson/Tre Webb III/DJ Moore). LOST All-SBC CB Nehemiah Chandler (71.6 -> Florida State) + top S Ty Goodwill (81.2 -> Cincinnati) + Wesley Miller (-> FIU) + 2 yr4.",
+    "A legit returning corner (Henderson, 75.3) + snap-tested safeties + transfers, off the one decent defensive area (COV p61), but it lost the All-SBC corner + the top safety.",
+    "44: ~Fresno State/Arkansas State DB 44. Henderson + the returning safeties + the p61 coverage vs the Chandler/Goodwill losses. M."
+   ],
+   "key_players": [
+    {"name": "Jayvon Henderson", "role": "CB (returning)", "evidence": "75.3/619; the top returning DB (14 tkl, 5 PBU), played well opposite Chandler"},
+    {"name": "Dallas Young", "role": "S (returning)", "evidence": "68.2/294; a snap-tested returning safety"}
+   ],
+   "data_gaps": ["lost All-SBC Chandler (FSU) + top S Goodwill (81.2, Cincinnati)", "G5 level"],
+   "g5_guard_note": "Sun Belt; a returning corner (Henderson 75.3, SBC -3.62) + safeties off COV p61, after losing the two best DBs."},
+  {"team": "South Alabama", "unit": "ST", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["BYU ST 2026 (42, peer)", "California ST 2026 (42, peer)"],
+   "rationale_bullets": [
+    "P Aleksi Pulkkinen (40.4 avg, 9 inside the 20; a solid returning punter) + K Davis Little (So; competes after DiBoyan -> Austin Peay) + returners (Phillips KR, Woods PR). SPEC was p32.",
+    "A solid returning punter + an unproven kicker + good returners, off a below-average '25 unit (SPEC p32).",
+    "42: ~BYU/California ST 42. The returning punter + return value vs the unsettled kicking. M."
+   ],
+   "key_players": [
+    {"name": "Aleksi Pulkkinen", "role": "P (returning)", "evidence": "40.4 avg, 9 punts inside the 20 - a solid returning punter"},
+    {"name": "Keenan Phillips", "role": "KR (returning)", "evidence": "returns as the likely kick returner"}
+   ],
+   "data_gaps": ["unsettled placekicking (DiBoyan gone, Little competing)", "SPEC p32"],
+   "g5_guard_note": "Sun Belt; a solid returning punter + return value, but an unsettled kicker off a below-average unit."}
+ ]
+}

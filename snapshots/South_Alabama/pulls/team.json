@@ -1,0 +1,36 @@
+{
+ "id": 6,
+ "school": "South Alabama",
+ "mascot": "Jaguars",
+ "abbreviation": "USA",
+ "alternateNames": [
+  "USA",
+  "South Alabama"
+ ],
+ "conference": "Sun Belt",
+ "division": "West",
+ "classification": "fbs",
+ "color": "#00205B",
+ "alternateColor": "#BF0D3E",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/6.png"
+ ],
+ "twitter": "@SouthAlabamaFB",
+ "location": {
+  "id": 6526,
+  "name": "Hancock Whitney Stadium",
+  "city": "Mobile",
+  "state": "AL",
+  "zip": "85329",
+  "countryCode": "US",
+  "timezone": null,
+  "latitude": 30.6943566,
+  "longitude": -88.0430541,
+  "elevation": null,
+  "capacity": 25450,
+  "constructionYear": null,
+  "grass": false,
+  "dome": false
+ }
+}
