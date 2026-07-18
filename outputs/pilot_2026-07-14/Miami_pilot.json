@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T00:15:30+00:00",
+ "team": "Miami",
+ "final": 17.57,
+ "rank": 12,
+ "band": 6.0,
+ "resid": -15.34,
+ "adj": -5.37,
+ "class_term": -0.0,
+ "st": 0.16,
+ "anchor_blend": 22.25,
+ "resid_level": -11.88,
+ "resid_shape": -3.46,
+ "implied_off": 30.49,
+ "implied_def": 23.87,
+ "anchor_off": 35.03,
+ "anchor_def": 13.07,
+ "fit_r2": {
+  "off": 0.533,
+  "dfn": 0.611
+ },
+ "low_conf_units": 0,
+ "code_rev": "913011b",
+ "mode": "PILOT-OOS"
+}

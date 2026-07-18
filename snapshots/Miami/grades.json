@@ -1,0 +1,151 @@
+{
+ "team": "Miami",
+ "units": {
+  "QB": {"grade": 70, "confidence": "H"},
+  "RB": {"grade": 70, "confidence": "H"},
+  "WRTE": {"grade": 76, "confidence": "H"},
+  "OL": {"grade": 52, "confidence": "M"},
+  "DL": {"grade": 60, "confidence": "M"},
+  "LB": {"grade": 46, "confidence": "M"},
+  "DB": {"grade": 60, "confidence": "M"},
+  "ST": {"grade": 58, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18 (913011b)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape, arrivals on origin cells [SEC/B10 small-sample+inflated arrivals weighted down]; HC Cristobal no change; disposition gate resolved - NFL declares Bain+Mauigoa [PS-draft-verified], yr4 elite exodus, Toure extra-year + Popo/Raul Aguirre nickname catch adjudicated vs both charts); anchor values not consulted",
+  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 70/RB 70/WRTE 76/OL 52/DL 60/LB 46/DB 60/ST 58)."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 84, RB 91, WRTE 97, OL 92, DL 89, LB None, DB 77, ST 62) keys the elite '25 tape; 2026 rebuilds the trenches.",
+   "OL": "-40 vs proxy 92 - proxy keys the p100 '25 line; the grade keys the rebuild (4 starters gone incl NFL Mauigoa, 1 returning starter + true-frosh RT).",
+   "DL": "-29 vs proxy 89 - proxy keys the elite '25 front; the grade loses the two 92-grade edges (Bain/Mesidor) and keys Wilson (9 sk) + the returning DT rotation.",
+   "WRTE": "-21 vs proxy 97 - proxy is at the ceiling; the grade credits the elite Toney+Barkate duo but caps at a very strong (not perfect) room.",
+   "DB": "-17 vs proxy 77 - proxy keys the returning corners; the grade accounts for the elite losses (Scott/Thomas) offset by deep returning production (Fitzgerald 6 INTs).",
+   "RB/QB": "RB -21 / QB -14 vs proxy - proxy at/near ceiling on the skill; grades credit the proven Fletcher + Mensah at strong-but-calibrated levels.",
+   "LB": "proxy None - churn (Bissainthe gone); grade keys Toure + thin depth."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Miami", "unit": "QB", "grade": 70, "confidence": "H",
+   "bracketing_exemplars": ["Georgia Tech QB 2026 (46, well below - unproven)", "top-ACC proven-QB tier"],
+   "rationale_bullets": [
+    "Darian Mensah (Duke transfer, 84.1/588 -> ACC +2.08 -> 86.2 adj) - 34 TD/6 INT; a proven high-level ACC starter; 'one of the ACC's top returning QBs' (Athlon).",
+    "Carson Beck ('25 starter, 73.6/548, led Miami to the title game) GONE (yr4) - Mensah is an upgrade.",
+    "A genuinely PROVEN, high-production QB - the opposite of the batch's unproven projections; full-season grade + elite TD:INT.",
+    "70: far above GT/Louisville QB 46; a legit top-ACC QB. H."
+   ],
+   "key_players": [
+    {"name": "Darian Mensah", "role": "QB1 (transfer, Duke)", "evidence": "84.1/588 (86.2 ACC-adj); 34 TD/6 INT; proven ACC starter"}
+   ],
+   "data_gaps": ["new-to-Miami (system change)", "rebuilt OL in front"], "g5_guard_note": null
+  },
+  {
+   "team": "Miami", "unit": "RB", "grade": 70, "confidence": "H",
+   "bracketing_exemplars": ["Louisville RB 2026 (72, above - two elite backs)", "Georgia Tech RB 2026 (66, below)"],
+   "rationale_bullets": [
+    "Mark Fletcher Jr. (returning, 86.7/217 -> ACC +4.90 -> 91.6 adj; 1,192 yds, 12 TD - proven) + CharMar Brown (returning, 80.9/122 -> 85.8 adj) + Pringle.",
+    "A proven 1,000-yd lead back + a quality complement, behind a REBUILT OL (tempers).",
+    "Top-2 adj ~89 -> RB p72+. Maps ~RB p68-74.",
+    "70: ~Louisville RB 72 (slightly below - one elite back vs two; OL rebuild the tempering factor). H."
+   ],
+   "key_players": [
+    {"name": "Mark Fletcher Jr.", "role": "RB1 (returning)", "evidence": "86.7/217 (91.6 ACC-adj); 1,192 yds, 12 TD"},
+    {"name": "CharMar Brown", "role": "RB2 (returning)", "evidence": "80.9/122 (85.8 adj)"}
+   ],
+   "data_gaps": ["rebuilt OL in front"], "g5_guard_note": null
+  },
+  {
+   "team": "Miami", "unit": "WRTE", "grade": 76, "confidence": "H",
+   "bracketing_exemplars": ["Louisville WRTE 2026 (48, well below)", "elite national WR-room tier"],
+   "rationale_bullets": [
+    "Malachi Toney (returning, 87.6/486 -> ACC +2.36 -> 90.0 adj; 1,211 yds, 10 TD - 'nation's most explosive slot') + Cooper Barkate (Duke, 75.4/470 -> 77.8 adj; 1,106 yds).",
+    "+ Cam Vaughn (WVU) + Vandrevius Jacobs (S Car) + TE Lofton. Lost CJ Daniels + Keelan Marion (yr4).",
+    "TWO 1,000-yd receivers + depth - one of the best WR corps in the country (RECV p95). Top-2 adj ~84 -> WRTE p80+.",
+    "76: the class of the batch by a wide margin; well above all peers. H."
+   ],
+   "key_players": [
+    {"name": "Malachi Toney", "role": "WR (returning)", "evidence": "87.6/486 (90.0 ACC-adj); 1,211 yds, 10 TD - elite slot"},
+    {"name": "Cooper Barkate", "role": "WR (transfer, Duke)", "evidence": "75.4/470 (77.8 ACC-adj); 1,106 yds"}
+   ],
+   "data_gaps": ["TE room modest behind the WRs"], "g5_guard_note": null
+  },
+  {
+   "team": "Miami", "unit": "OL", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Louisville OL 2026 (50, round peer)", "Georgia Tech OL 2026 (48, below)"],
+   "rationale_bullets": [
+    "THE SWING - loses 4 starters from a p100 unit: Mauigoa (NFL #1), Bell (yr4), Brockermeyer (yr4), Cooper (yr4/NFL). Lone returning starter Matthew McCoy (66.5/605 -> 70.0 adj).",
+    "+ blue-chip replacements: true-fr Jackson Cantwell (#1 recruit, RT), former-5-star Okunlola (RG), Ga transfer Meriweather (LG), oft-injured Rodriguez (C, yr4 override).",
+    "Elite RAW talent under OL-guru Cristobal, but 1 returning starter + a true-frosh RT = very inexperienced. Athlon 'the big question.'",
+    "52: above GT/Louisville rebuilds (blue-chip pedigree + Cristobal); the p100->unproven drop + frosh RT cap it. M."
+   ],
+   "key_players": [
+    {"name": "Matthew McCoy", "role": "LT (returning)", "evidence": "66.5/605 (70.0 ACC-adj); lone returning starter; 5-pos value"},
+    {"name": "Jackson Cantwell", "role": "RT (true-fr, #1 recruit)", "evidence": "5-star; no college snaps"}
+   ],
+   "data_gaps": ["4 lost starters from a p100 unit", "true-frosh RT; oft-injured C"], "g5_guard_note": null
+  },
+  {
+   "team": "Miami", "unit": "DL", "grade": 60, "confidence": "M",
+   "bracketing_exemplars": ["Louisville DL 2026 (62, above - elite edge Lubin)", "Florida State DL 2026 (46, below)"],
+   "rationale_bullets": [
+    "Loses ELITE edges Bain (92.8, NFL #1) + Mesidor (92.5, NFL/yr4). Adds Damon Wilson II (Missouri, 78.5/509 -> weighted ~82; 9 sacks - a stud) + returns Ahmad Moten (78.8, 4.5 sk) + Justin Scott (75.3, 6.5 TFL) + Lightfoot (72.9) + Blount.",
+    "+ Keona Davis (Nebraska NT).",
+    "Loses two 92-grade edges but Wilson (9 sk) headlines + a deep, solid DT rotation returns. PS 'won't drop as much as you'd think... 9 VHTs.'",
+    "60: ~Louisville DL 62 (slightly below - no returning 90+ edge). M."
+   ],
+   "key_players": [
+    {"name": "Damon Wilson II", "role": "DE (transfer, Missouri)", "evidence": "78.5/509 (weighted ~82); 9 sacks"},
+    {"name": "Ahmad Moten Sr.", "role": "DT (returning)", "evidence": "77.6/471 (78.8 ACC-adj); 4.5 sk"}
+   ],
+   "data_gaps": ["lost two 92-grade edges (Bain/Mesidor)"], "g5_guard_note": null
+  },
+  {
+   "team": "Miami", "unit": "LB", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Florida State LB 2026 (48, above)", "Duke LB 2026 (46, round peer)"],
+   "rationale_bullets": [
+    "THE CONCERN. Mohamed Toure (returning on an extra year, 60.5/674 -> 62.6 adj; 84 tkl - yr4 override) + Kamal Bonner (NC State transfer, 'need to step up') + Chase Smith (depth) + Cam Pruitt.",
+    "Lost Bissainthe (64.7/625, yr4). Popo/Raul Aguirre -> NC State.",
+    "One solid returning starter (Toure) + genuine question marks - Athlon 'area of concern depth-wise.'",
+    "46: below GT/Louisville LB 50 (thinner, less proven behind Toure). M."
+   ],
+   "key_players": [
+    {"name": "Mohamed Toure", "role": "ILB (returning, extra year)", "evidence": "60.5/674 (62.6 ACC-adj); 84 tkl"},
+    {"name": "Kamal Bonner", "role": "OLB (transfer, NC State)", "evidence": "'need to step up' (Athlon)"}
+   ],
+   "data_gaps": ["thin depth; Bissainthe gone", "Bonner unproven at Miami"], "g5_guard_note": null
+  },
+  {
+   "team": "Miami", "unit": "DB", "grade": 60, "confidence": "M",
+   "bracketing_exemplars": ["Louisville DB 2026 (52, below)", "elite-secondary tier (above)"],
+   "rationale_bullets": [
+    "Loses elite Scott (89.6, NFL/yr4) + Thomas (87.3, NFL/yr4) but returns a DEEP group - CBs Lucas (74.8, INT), O'Connor (76.8), Damari Brown (77.1), Frederique (7 PBU); S Poyser (70.8, 68 tkl) + Bryce Fitzgerald (81.9, 6 INTs) + BC transfer Thornton (70.4, 82 tkl).",
+    "Loses the two elite ones but the returning depth is real - 4 corners + 2 safeties + a proven transfer. COV p89 in '25.",
+    "Fitzgerald's 6 INTs a standout; PS '4 NFL-caliber starters.'",
+    "60: above Louisville DB 52 (deeper, more proven returning production). M."
+   ],
+   "key_players": [
+    {"name": "Bryce Fitzgerald", "role": "nickel/S (returning)", "evidence": "80.7/445 (81.9 ACC-adj); 6 INTs"},
+    {"name": "Ethan O'Connor", "role": "CB (returning)", "evidence": "75.6/633 (76.8 ACC-adj)"}
+   ],
+   "data_gaps": ["lost two elite DBs (Scott/Thomas)"], "g5_guard_note": null
+  },
+  {
+   "team": "Miami", "unit": "ST", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Georgia Tech ST 2026 (62, above)", "Boston College ST 2026 (52, below)"],
+   "rationale_bullets": [
+    "K Jack Olsen (Northwestern transfer, 19-21 FG - proven) + P Dylan Joyce (returning, 44.4 avg - 'one of ACC's best') + Jake Weinberg (FSU, KOs).",
+    "Explosive returner Toney (13.0 PR avg). SPEC p62.",
+    "A proven transfer kicker + an elite returning punter + a dynamic return game. ST driven by specialists (calib).",
+    "58: below GT ST 62 (Birr elite) but clearly good. M."
+   ],
+   "key_players": [
+    {"name": "Dylan Joyce", "role": "P (returning)", "evidence": "44.4 avg; 'one of the ACC's best'"},
+    {"name": "Jack Olsen", "role": "K (transfer, Northwestern)", "evidence": "19-21 FG; proven"}
+   ],
+   "data_gaps": ["kicker new to Miami"], "g5_guard_note": null
+  }
+ ]
+}
