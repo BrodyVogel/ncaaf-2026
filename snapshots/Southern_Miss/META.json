@@ -1,0 +1,50 @@
+{
+ "team": "Southern Miss",
+ "conference": "Sun Belt",
+ "created_utc": "2026-07-18T16:18:55+00:00",
+ "assembler_git_rev": "89beff8",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Blake Anderson (promoted from OC in December 2025; a veteran HC - Arkansas State 2014-20 + Utah State 2021-23; CONFIRMED the 2026 HC via the Southern Miss staff directory + On3). COACH CHANGE -> band x1.13. An internal promotion (some continuity) but a new HC for 2026. G5 2-SOURCE build (Athlon primary + CFN + beat). ENORMOUS churn (37 in / 28 out) - a near-total roster overhaul.",
+ "conference_note": "Established Sun Belt (West). SBC offsets NEGATIVE/small on the RARE returning tape; almost EVERYTHING is arrivals on origin. 'Southern Miss returns exactly ONE starter' (Athlon: 7th-yr C Broderick Roman); 'we're starting from scratch on 99% of this roster' (Anderson). The ELITE 2025 defense (DEF p93, PRSH p93, COV p98) is ENTIRELY gone - ~16 players to Memphis (incl. ED J'Mond Tapp 90.0) + P4 departures (S Myrick 87.3 -> Clemson, ED Ponder -> Baylor, LB C.Jones -> FSU) + yr4 grads. The '25 tape is NOT predictive; this is a transfer projection.",
+ "portal_departure_confirmed": [
+  "JJ Hawkins"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Broderick Roman"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Jeffery Pittman",
+  "Braylon Braxton",
+  "Brodarius Lewis",
+  "Josh Moten"
+ ],
+ "feed_gap_arrivals_documented": [
+  "Hugh Price (QB; a true freshman recruit - not in the CFBD roster/portal feeds)",
+  "Kameron Cyprien (DL; a juco transfer - Athlon-named, not in the CFBD portal-in feed)"
+ ],
+ "known_name_exceptions": {
+  "Blake Anderson": "NEW HC for 2026 (promoted from OC in Dec 2025). COACH CHANGE -> band x1.13. A veteran HC (Arkansas State + Utah State); confirmed the 2026 HC via the Southern Miss staff directory + On3.",
+  "Broderick Roman": "C, 64.3/943 - RETURNS (yr4 override). The ONE returning starter (Athlon, bold); a 7th-year center who took every meaningful snap in '25. The lone proven holdover.",
+  "Jeffery Pittman": "RB, 80.7/156 - GONE (departure_confirmed_research). The top-graded '25 RB but NOT on the '26 depth chart; CFN: 'over 1,000 yds of RB production are gone.' A feed-miss departure (not in my portal-out pull). RB grade keys Briggs + transfers.",
+  "Braylon Braxton": "QB, 74.5/492 - GONE (yr4 graduation; portal-None, not on the '26 depth chart). The '25 starter; QB is now a transfer/freshman battle (Hampton/Price/Lyddy).",
+  "Brodarius Lewis": "DI, 81.3/724 - GONE (yr4 graduation). A top DL grader from the elite '25 front; the DL is now almost entirely transfers.",
+  "Josh Moten": "CB, 80.1/876 - GONE (yr4 graduation). A top DB grader; the '26 secondary is entirely transfers.",
+  "J'Mond Tapp": "ED, 90.0/636 - GONE (portal -> Memphis). The roster's TOP '25 grade; one of ~16 to Memphis. The elite pass rush (PRSH p93) left with him.",
+  "Corey Myrick": "S, 87.3/714 - GONE (portal -> Clemson). A top safety from the COV-p98 secondary.",
+  "Ethan Hampton": "QB - NORTHERN ILLINOIS transfer (14 FBS starts) who barely played '25 at Illinois; the experienced edge in an unsettled QB battle.",
+  "Kaden Saunders": "WR - PENN STATE transfer, a former blue-chip; 'the biggest wild card... could be the most dynamic presence' (a nagging foot injury). The offense's upside piece."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon + CFN. The MOST EXTREME rebuild of the round: 'returns exactly ONE starter' (Roman, C), 37 portal-in, a NEW HC (Anderson). VERIFIED: RB Pittman (80.7) GONE (CFN 'RB production gone', depth-chart-absent - a feed-miss); the elite '25 D (Tapp 90.0->Memphis, Myrick 87.3->Clemson, etc.) all left.",
+  "7-6 in '25 (5-3 SBC; started 5-0 in the SBC then faded). OFF p43 (PASS p74 but RUN p15/RBLK p16), an ELITE DEFENSE (DEF p93, PRSH p93, COV p98), SPEC p63. But 'few traces remain of last year's team' - the tape is NOT predictive.",
+  "The 2026 roster is a TRANSFER PROJECTION with real pedigree but almost no FBS proof: QB Ethan Hampton (NIU, 14 starts) in an unsettled battle w/ Fr Hugh Price; WR Kaden Saunders (Penn State blue-chip, injury wild-card); the DEFENSE is 'almost entirely transfers, none with >500 FBS snaps' - once-touted DBs from Auburn/Ohio State/TCU/Texas/Texas A&M + DL from Ole Miss + juco Cyprien (scout: 'all-conference'). Graded with 3 LOW-confidence units (QB, DL, DB).",
+  "The ONE returning starter is C Broderick Roman (7th-yr, yr4 override). Otherwise the returners are low-snap holdovers (Briggs RB, Dalton WR, Lyddy QB, Rogers G, Haygood LB) + the kickers (Wilbanks/Harradine, inconsistent).",
+  "COACH CHANGE (Anderson, new HC) -> band x1.13; combined with 3 L-confidence units -> a wide band, reflecting the enormous uncertainty of a near-total rebuild."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF123 / Sun Belt West 6 incidentally visible - logged, NOT used. G5 2-source (Athlon primary; PS SBC text garbled -> CFN 2026 preview + beat corroborating).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T16:30:00+00:00"
+}

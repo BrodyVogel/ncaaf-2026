@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Ethan Hampton,QB,SR,arrival(Northern Illinois-MAC),Athlon,CFN,L,6th-yr transfer; 14 FBS starts at NIU but barely played '25 at Illinois; the experienced edge in an unsettled battle. Fr Hugh Price + Landry Lyddy (returning backup) push
+QB,2,Landry Lyddy,QB,SR,returning,Athlon,feed,L,65.4/59 (a returning backup in the mix)
+RB,1,Robert Briggs,RB,SR,returning,Athlon,CFN,M,64.9/63 (the returning contributor - 304 yds/13 catches; a receiving back)
+RB,2,Brandon Hood,RB,SO,arrival(UMass-MAC),Athlon,CFN,L,UMass transfer ("a good 1-2 combination") + Jamarice Wilder (Louisville). "1,000+ yds of '25 RB production GONE" (Pittman incl.)
+WRTE,1,Kaden Saunders,WR,JR,arrival(Penn State-B10),Athlon,scout,M,former blue-chip PSU transfer; "the biggest wild card... could be the most dynamic presence" (a nagging foot injury)
+WRTE,2,Davis Dalton,WR,SR,returning,Athlon,feed,L,62.9/44 (a low-snap returner) + A.J. Little (Chattanooga FCS transfer, return man). Nearly all '25 WRs gone (yr4/portal)
+OL,1,Broderick Roman,C,SR,returning-yr4override,Athlon,CFN,M,64.3/943 (the ONE returning starter - 7th-yr, every meaningful snap at C; yr4 RETURN, Athlon bold)
+OL,2,Braden Cain,LT,JR,arrival(transfer),Athlon,feed,L,transfer LT + Christian Young(RT transfer) + Luke Rogers(LG, returning). "Starting from scratch on 99% of this roster" (Anderson)
+DL,1,Jeffery Rush,DE,SO,arrival(Ole Miss-SEC),Athlon,feed,L,once-touted Ole Miss transfer. "Almost entirely transfers, none with >500 FBS snaps"
+DL,2,Kameron Cyprien,DL,JR,arrival(juco),Athlon,scout,L,juco - scout "gonna be an all-conference player" + A'mari Wilson (Campbell FCS edge) + Xavier McIver (NT transfer)
+LB,1,Mathis Haygood,LB,JR,returning,Athlon,feed,L,51.9/323 (a returning LB - one of the few holdovers)
+LB,2,Andrew Martin,LB,SR,arrival(Stetson-FCS),Athlon,feed,L,"seasoned" FCS transfer. LOST Chris Jones(->FSU)+Montgomery(->Memphis) etc.
+DB,1,Champ Lewis,CB,SR,arrival(TCU-B12),Athlon,feed,L,once-touted TCU transfer + Ishmael Ibraheem (Texas CB) + Hiroshi Carr (Morgan St FCS)
+DB,2,Jyaire Brown,NB,SR,arrival(Ohio State-B10),Athlon,feed,L,once-touted OSU transfer + Laquan Robinson (Auburn) + Jordan Pride (Texas A&M) + Baron Taylor. ALL transfers, none >500 FBS snaps. LOST the elite '25 secondary (Myrick 87.3->Clemson etc.)
+ST,1,Creighton Wilbanks,K,SO,returning,Athlon,feed,L,returning K (inconsistent - the pair hit just 4/10 beyond 40) + Reed Harradine
+ST,2,A.J. Little,KR/PR,JR,arrival(Chattanooga-FCS),Athlon,feed,M,FCS transfer return man (housed 2 punt returns for the Mocs) + P Dusty Zimmer (Australian, transfer). SPEC was p63
