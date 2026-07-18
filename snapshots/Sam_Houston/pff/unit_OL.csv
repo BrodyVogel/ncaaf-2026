@@ -1,0 +1,13 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Josiah Chenault,177028,C,KENNESAW,14,100.0,0,200,67.8,80.1,63.5,3,8,435,100.0,100.0,98.3,3,13,2,893,893,0,0,893,464,464,0,0,429,0,arrival_2025_at_KENNESAW
+Rhett Larson,158273,G,SM HOUSTON,12,100.0,0,281,61.3,59.3,59.2,3,16,480,100.0,100.0,97.0,2,24,5,793,38,0,0,793,512,512,754,0,281,0,2025_this_team
+Kolt Dieterich,175612,T,SM HOUSTON,12,100.0,0,281,72.0,67.3,70.5,3,17,458,100.0,100.0,97.2,4,23,3,763,0,0,0,763,490,490,0,763,273,0,2025_this_team
+Luke Eckardt,163282,T,SM HOUSTON,12,100.0,2,281,51.9,52.3,52.4,5,26,432,100.0,100.0,95.0,5,37,6,701,0,0,699,701,462,462,0,0,239,1,2025_this_team
+James Dawn II,160282,C,SM HOUSTON,10,100.0,0,281,59.3,79.0,50.4,0,7,379,100.0,100.0,98.5,3,9,2,630,630,0,0,630,400,400,0,0,230,0,2025_this_team
+Mich'le Joseph,189899,G,SM HOUSTON,12,100.0,1,281,46.9,59.4,42.5,1,10,305,100.0,100.0,98.2,4,11,0,497,0,497,0,497,324,324,0,0,173,0,2025_this_team
+William McCollum,170503,G,SM HOUSTON,11,100.0,1,281,58.1,64.1,53.3,0,6,198,100.0,100.0,98.5,2,6,0,334,0,295,0,334,215,215,38,0,119,0,2025_this_team
+Denell Nix Jr.,204613,T,APP STATE,8,100.0,0,108,44.0,32.9,50.4,3,8,166,100.0,100.0,94.9,0,14,3,236,0,0,186,236,177,177,0,50,59,0,arrival_2025_at_APP STATE
+Cam Todd,170382,C,SM HOUSTON,6,100.0,1,281,60.7,65.3,64.5,0,2,78,100.0,100.0,97.4,3,3,1,125,124,0,0,125,85,85,0,0,40,0,2025_this_team
+Isaac Sohn,173217,T,SM HOUSTON,6,99.0,0,281,64.4,51.4,67.4,0,3,54,98.2,98.2,97.2,0,3,0,100,0,0,93,101,56,57,0,7,44,0,2025_this_team
+Graceson Jackson-Smith,170502,T,SM HOUSTON,2,100.0,0,281,61.3,38.8,66.9,0,1,10,100.0,100.0,85.0,0,2,1,15,0,0,0,15,10,10,0,15,5,0,2025_this_team
+Kevin Kalonji,170196,T,SM HOUSTON,2,100.0,0,281,57.7,50.6,60.0,0,1,7,100.0,100.0,92.9,0,1,0,8,0,0,0,8,7,7,0,7,1,0,2025_this_team

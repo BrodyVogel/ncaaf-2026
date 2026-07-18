@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Landyn Locke,QB,SO,returning,Athlon,feed,M,40.6/162 (CUSA -5.61; a POOR grade but "solidified his hold on the job" - 6 games, 765 yds/4 TD). The settled QB1. LOST Hunter Watson (60.7, yr4) + Mettauer
+QB,2,DJ Bailey,QB,SO,returning,Athlon,feed,L,the Athlon-named backup. OFF was p1 (worst offense; PASS p10). "Didn't have a QB who could run the scheme" (scout)
+RB,1,Landan Brown,RB,JR,returning,Athlon,feed,M,76.6/113 (CUSA -7.50; "Coco" Brown - a returning back). The offense's STRENGTH: Brown + McCaskill combined for 858 rush yds
+RB,2,Alton McCaskill,RB,SR,returning-yr4override,Athlon,feed,M,72.2/105 (CUSA; yr4 override - Athlon "Brown and McCaskill return"). LOST Elijah Green (76.7, yr4). RUN was p10 (poor team run game - the OL)
+WRTE,1,Chris Reed,WR,SR,returning,Athlon,feed,M,64.0/241 (CUSA -4.19; the WR1 - led the team 460 yds/5 TD, all 12 games) + Grady O'Neill (63.3/285, ret)
+WRTE,2,Kamari Maxwell,WR,SO,arrival(transfer),Athlon,feed,L,feed-gap transfer WR2 + Kyan Berry-Johnson (Wisconsin) + Christian Zachary (NC State) + TE Max Whisner (Akron) + Brock Kuhl (FAU). RECV was p2 (a very poor receiving unit)
+OL,1,Brock Stukes,C,JR,arrival(NC State-ACC),Athlon,feed,L,a TOTAL rebuild - LOST EVERY starter (Larson 793->WKU, Dieterich 763->Washington, + yr4 Eckardt/Dawn/McCollum). Transfers Stukes (NC State) + Carter Kadow (LT) + Denell Nix (App St) + Josiah Chenault (Kennesaw 67.8/893) + Elijah Collins (WCU)
+OL,2,Isaac Sohn,RT,JR,returning,Athlon,feed,L,64.4/101 (a low-snap returner) + Cam Todd (60.7/125, ret). "Rebuilding an OL that lost every starter" (Athlon). PBLK was p38
+DL,1,Dylan Frazier,DT,SR,returning,Athlon,feed,M,68.4/458 (CUSA -7.88; "a nice building block" - 41 tkl/4 TFL/2 sacks - the DL anchor) + Chauncey Chidi (56.0, ret) + She'Fon Boyd (57.9, ret)
+DL,2,Josh Alexander-Felton,DE,SO,arrival(NC State-ACC),Athlon,feed,M,feed-gap DE + P4 transfers Jarra Anderson (Arizona) + Justin Terrell (NC State) + Jayden Fry (BC) + Dimitry Nicolas (Maryland) + Zion Taylor (Houston). LOST JaMair Diaz (85.0->Temple) + Lawton (66.7). Last in CUSA total D; PRSH p8
+LB,1,Dean Ford,LB,SO,returning,Athlon,feed,L,62.6/361 (CUSA -12.31; a returning LB). LOST top-volume LB Antavious Fish (60.7/762, yr4) + CJ Johnson (57.6/433, yr4)
+LB,2,Stacy Bey,LB,SO,arrival(Arizona-B12),Athlon,feed,L,transfers Bey (Arizona) + Brian Bates (Delaware St) + Elijah Groves (NC State) + returning Tokyo Gordon (51.1, ret). A thin, rebuilt LB (last in CUSA total D)
+DB,1,Tyler Bailey,S,SR,returning,Athlon,feed,M,64.1/578 (CUSA -6.16; a returning safety). LOST the 2 BEST safeties: CJ Brown (83.2, yr4) + Cecil Powell (77.4, yr4) + Emon Allen (63.7/702, yr4) + Alonzo Edwards (55.5/608, yr4)
+DB,2,Jace Arnold,STRIKER,JR,returning,Athlon,feed,M,56.1/355 (returning; a striker) + transfers William Davis (WVU) + Jaylon Jones + Caesar Magee (NW St) + Ishmel Atkins (Elon) + Dravon Wilson (53.8, ret). COV was p9 (very poor)
+ST,1,Sam Carpenter,K,JR,arrival(Pittsburgh-ACC),Athlon,feed,L,a K competition (Carpenter, 1-of-3 FG at Pitt / Tate Ryan RS). SPEC was p65 (the least-bad phase). LOST P Curtis Gerrand (->UCLA)
+ST,2,Cal Joseph,P,JR,arrival(Wake Forest-ACC),Athlon,feed,L,the incoming punter (Wake, 38.1 avg). New specialists off a p65 base

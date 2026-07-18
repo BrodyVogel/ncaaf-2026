@@ -1,0 +1,52 @@
+{
+ "team": "Sam Houston",
+ "conference": "Conference USA",
+ "created_utc": "2026-07-18T20:45:00+00:00",
+ "assembler_git_rev": "659bea0",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Phil Longo (entering Year 2; NO change; band x1.00). OC Longo + DC Freddie Aughtry-Lindsay (Y2). '25: 2-10 (1-7 CUSA) - Longo's debut, a collapse after the PREVIOUS staff went 10-3 + won the New Orleans Bowl in 2024 (KC Keeler left for Temple). A 'make-or-break' Y2 for Longo.",
+ "conference_note": "Conference USA. Returning tape on CUSA cells (heavily negative); arrivals on origin. Athlon rates Sam Houston CUSA #10 (dead last; NF 137, dead last nationally). A 2-10 bottom-tier team. DATA-CORRECTED shape (see below). Lost every OL starter + the two best safeties (CJ Brown 83.2, Cecil Powell 77.4, both yr4); rebuilt via P4 transfers. The one strength: a returning RB duo (Brown + McCaskill).",
+ "portal_departure_confirmed": [
+  "Hunter Watson",
+  "Zeiqui Lawton",
+  "Jaidan Scott"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Alton McCaskill"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [
+  "Josh Alexander-Felton (DL; NC State - Athlon-named DE starter, not in the portal-in feed)",
+  "Kamari Maxwell (WR; Athlon-named WR2, not in the feed)",
+  "Carter Kadow (OL; Athlon-named LT, not in the feed)",
+  "Cal Joseph (P; Wake Forest - Athlon-named punter, not in the portal-in feed)"
+ ],
+ "known_name_exceptions": {
+  "DATA_CORRECTION_team_percentiles": "CRITICAL: team_dump.py matched the wrong percentile row - substring fallback 'houston' in 'samhouston' grabbed the Univ of HOUSTON row (10-3, DEF p84, an elite team) instead of 'Sam Houston State' (2-10, DEF p6). The CORRECT Sam Houston State as-played percentiles (n=136): OVER p1, OFF p1, PASS p10, PBLK p38, RECV p2, RUN p10, RBLK p7, DEF p6, RDEF p19, TACK p12, PRSH p8, COV p9, SPEC p65; RECORD 2-10, PF 213, PA 454. Graded on the CORRECT (bottom-1-percentile) shape + player grades. Anchor run UNAFFECTED (keyed to canonical 'Sam Houston', blend -23.69, distinct from Houston +7.47). Logged to FORWARD_FLAGS.",
+  "Phil Longo": "HC (entering Year 2; NO change; band x1.00). 2-10 debut after the prior staff's 2024 10-win/bowl season.",
+  "Landyn Locke": "QB, 40.6/162 - RETURNS. Athlon: 'solidified his hold on the job' (6 games, 765 yds/4 TD) - the settled QB1, but a POOR PFF grade. LOST Hunter Watson (60.7, yr4) + Mettauer.",
+  "Landan Brown": "RB, 76.6/113 - RETURNS ('Coco' Brown). A returning back (combined 858 rush yds with McCaskill).",
+  "Alton McCaskill": "RB, 72.2/105 - RETURNS (yr4 override; Athlon 'Brown and McCaskill return' + BOLD-adjacent depth chart). The other half of the returning RB duo - the offense's strength.",
+  "Elijah Green": "RB, 76.7/57 - GONE (yr4; not on the Athlon depth chart). The RB room is Brown + McCaskill.",
+  "Chris Reed": "WR, 64.0/241 - RETURNS. The WR1 (led the team - 460 yds/5 TD).",
+  "Dylan Frazier": "DL, 68.4/458 - RETURNS. 'A nice building block' (41 tkl, 4 TFL, 2 sacks); the DL anchor.",
+  "CJ Brown": "S, 83.2/544 - GONE (yr4). The TOP DB grade; not on the Athlon depth chart - the secondary's clear wound.",
+  "Cecil Powell": "S, 77.4/535 - GONE (yr4). The 2nd-best safety; also not on the depth chart.",
+  "JaMair Diaz": "EDGE, 85.0/155 - GONE (portal -> Temple). The top edge grade (small sample).",
+  "Hunter Watson": "QB, 60.7/246 - GONE (portal->None + yr4; depth-chart-absent). Adjudicated.",
+  "Zeiqui Lawton": "DL, 66.7/313 - GONE (portal->None; depth-chart-absent). Adjudicated.",
+  "Jaidan Scott": "S, 56.7/314 - GONE (portal->None; depth-chart-absent). Adjudicated."
+ },
+ "known_gaps": [
+  "DATA CORRECTION (see known_name_exceptions): team_dump grabbed Univ of Houston's percentiles ('houston' substring). CORRECT Sam Houston State shape is BOTTOM-1-PERCENTILE (OVER p1, OFF p1, DEF p6), 2-10. Graded on the corrected shape + player grades. FBS-newcomer-adjacent (Sam Houston -> FBS 2023); anchor run correct (blend -23.69, dead last in CUSA).",
+  "HC Phil Longo Y2 (NO change; band x1.00). 2-10 (1-7 CUSA) in his debut, a collapse from the prior staff's 2024 10-win/New Orleans Bowl season. DC Aughtry-Lindsay Y2.",
+  "Grade-critical: a settled-but-poor QB (Locke 40.6); a returning RB duo (Brown 76.6 + McCaskill 72.2 - the strength); a WR1 (Reed 64.0) + transfers off a RECV-p2 unit; the OL lost EVERY starter (a total transfer rebuild); the DL adds P4 transfers around Frazier (68.4) but was last in CUSA; the secondary lost its 2 best safeties (CJ Brown 83.2, Powell 77.4, both yr4) + rebuilt via P4 transfers (COV p9).",
+  "yr4 departures (depth-chart-absent, auto-EXPIRED): CJ Brown (S 83.2), Cecil Powell (S 77.4), Antavious Fish (LB 60.7/762), Emon Allen (DB 63.7/702), Alonzo Edwards (DB), Elijah Green (RB 76.7), + OL yr4 (Eckardt, Dawn, McCollum). yr4-RETURN override: Alton McCaskill (RB). Feed-gap arrivals: Josh Alexander-Felton (DL), Kamari Maxwell (WR), Carter Kadow (OL)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF137 / CUSA prediction 10 incidentally visible - logged, NOT used. G5 2-source (Athlon primary + beat/web; PS CUSA text garbled). DATA-CORRECTED team percentiles (Houston alias).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T20:50:00+00:00"
+}

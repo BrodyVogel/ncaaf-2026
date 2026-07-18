@@ -1,0 +1,37 @@
+{
+ "id": 2534,
+ "school": "Sam Houston",
+ "mascot": "Bearkats",
+ "abbreviation": "SHSU",
+ "alternateNames": [
+  "Sam Houston State",
+  "SHSU",
+  "Sam Houston"
+ ],
+ "conference": "Conference USA",
+ "division": null,
+ "classification": "fbs",
+ "color": "#fe5000",
+ "alternateColor": "#000000",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2534.png"
+ ],
+ "twitter": "@BearkatsFB",
+ "location": {
+  "id": 3647,
+  "name": "Elliott T. Bowers Stadium",
+  "city": "Huntsville",
+  "state": "TX",
+  "zip": "77340",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 30.713926,
+  "longitude": -95.5419802,
+  "elevation": "127.6225204",
+  "capacity": 14000,
+  "constructionYear": 1986,
+  "grass": false,
+  "dome": false
+ }
+}

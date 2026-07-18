@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T21:25:49+00:00",
+ "team": "Sam Houston",
+ "final": -17.4,
+ "rank": 135,
+ "band": 6.36,
+ "resid": 18.46,
+ "adj": 6.0,
+ "class_term": 0.0,
+ "st": -0.16,
+ "anchor_blend": -23.69,
+ "resid_level": 12.59,
+ "resid_shape": 5.87,
+ "implied_off": 23.07,
+ "implied_def": 27.88,
+ "anchor_off": 15.41,
+ "anchor_def": 38.69,
+ "fit_r2": {
+  "off": 0.532,
+  "dfn": 0.606
+ },
+ "low_conf_units": 2,
+ "code_rev": "659bea0",
+ "mode": "PILOT-OOS"
+}

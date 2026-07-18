@@ -1,0 +1,309 @@
+{
+ "team": "Sam Houston",
+ "units": {
+  "QB": {
+   "grade": 38,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 32,
+   "confidence": "L"
+  },
+  "DL": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 36,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 42,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18T20:55:00Z",
+  "snapshot_rev": "frozen 2026-07-18T20:50:00Z (Sam Houston)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary + beat/web; PS CUSA text GARBLED; no Pick Six for CUSA]; Conference USA -> returning tape on CUSA cells [heavily negative], arrivals on origin [FCS/D2 = no cell]; HC Phil Longo Y2 [NO CHANGE, band x1.00]; disposition gate 44 rows / 0 adjudicate / 0 err - 3 portal->None adjudicated GONE [Watson QB, Lawton DL, Jaidan Scott S], yr4-return override Alton McCaskill [RB]; heavy yr4 losses incl. the 2 best safeties [CJ Brown 83.2, Cecil Powell 77.4] + the top-volume LB [Fish 762] + every OL starter; anchor values not consulted. *** DATA CORRECTION: team_dump.py grabbed Univ of HOUSTON's percentile row via 'houston' substring [10-3, DEF p84]; CORRECT Sam Houston State = 2-10, OVER p1/OFF p1/DEF p6 - graded on the CORRECTED bottom-1-percentile shape; anchor run correct [blend -23.69, dead last in CUSA]; logged to FORWARD_FLAGS. *** DISCLOSED: Athlon NF137 / CUSA prediction 10 incidentally visible, logged, NOT used.",
+  "planned_vs_final_deviations": {
+   "note": "Finals match the dossier planned lines exactly (QB38/RB46/WRTE42/OL32L/DL40/LB36L/DB40/ST42, sum 316 - the LOWEST CUSA team graded). NO post-freeze grade corrections. The material correction was a DATA one (see data_correction), applied BEFORE grading.",
+   "data_correction": "CRITICAL: team_dump.py matched the Univ of HOUSTON percentile row ('houston' in 'samhouston' substring) - 10-3, DEF p84, an elite team - instead of 'Sam Houston State' (2-10, OVER p1, OFF p1, DEF p6). Corrected from PFF_2025_team_grades.csv; graded on the true bottom-1-percentile shape. The anchor run was UNAFFECTED (canonical 'Sam Houston', blend -23.69, correctly distinct from Houston +7.47). Without the catch, Sam Houston would have been massively OVER-graded. Logged to FORWARD_FLAGS.",
+   "shape": "The WORST team in CUSA (2-10, dead last in both the national + CUSA projections). One strength - a returning RB duo (46 - Brown + McCaskill). A settled-but-poor QB (38), a WR1 corps off RECV p2 (42), a total OL rebuild that lost every starter (32L), a P4-transfer DL/LB/DB rebuild (40/36L/40), reset ST (42). 2 L units."
+  },
+  "shadow_proxy_divergence": {
+   "note": "The proxy (QB 0, RB None, WRTE 4, OL 16, DL 1, LB 2, DB 2, ST 65) is very low (diagnostic; matches a 2-10 bottom-tier roster). The grades key the verified returners + the Athlon two-deep + player PFF grades, NOT the proxy. NOTE: the team-percentile INPUT was data-corrected (Houston alias).",
+   "RB": "46 vs proxy None - graded on the returning duo (Brown 76.6 + McCaskill 72.2) the proxy can't see.",
+   "DL": "+39 vs proxy 1 - the grade keys the building-block Frazier (68.4) + the P4 transfer haul.",
+   "QB": "+38 vs proxy 0 - graded on the settled starter (Locke) + returning weapons, not the newcomer-low proxy.",
+   "ST": "-23 vs proxy 65 - the grade tempers the p65 base for the reset specialists (K competition + new P)."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Sam Houston",
+   "unit": "QB",
+   "grade": 38,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Hawai'i QB 2026 (38, peer)",
+    "Central Michigan QB 2026 (38, peer)"
+   ],
+   "rationale_bullets": [
+    "Landyn Locke (SO, 40.6/162 -> CUSA -5.61; 'solidified his hold' - 765 yds/4 TD in 6 games) + DJ Bailey (backup). LOST Hunter Watson (60.7/246, yr4) + Mettauer.",
+    "A SETTLED QB1 (a continuity positive) but a POOR PFF grade (40.6), off the worst offense in FBS (OFF p1, PASS p10); the scout noted the '25 QBs didn't fit the scheme.",
+    "38: ~Hawai'i/Central Michigan QB 38. The settled starter + returning weapons vs the 40.6 grade + the p1 offense. M (starter known)."
+   ],
+   "key_players": [
+    {
+     "name": "Landyn Locke",
+     "role": "QB (returning)",
+     "evidence": "40.6/162; 765 yds/4 TD in 6 games - the settled QB1 (a poor grade)"
+    }
+   ],
+   "data_gaps": [
+    "poor QB grade (40.6)",
+    "worst offense in FBS (OFF p1)"
+   ],
+   "g5_guard_note": "Conference USA; a settled-but-poor returning QB (Locke 40.6) off the worst offense in FBS. M."
+  },
+  {
+   "team": "Sam Houston",
+   "unit": "RB",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Old Dominion RB 2026 (46, peer)",
+    "Texas State RB 2026 (46, peer)"
+   ],
+   "rationale_bullets": [
+    "Landan 'Coco' Brown (76.6/113 -> CUSA -7.50) + Alton McCaskill (72.2/105; yr4 override) - a returning duo (combined 858 rush yds). LOST Elijah Green (76.7, yr4).",
+    "The offense's genuine STRENGTH - two returning backs at 72-77 grades (Athlon-highlighted), even though the team run game was poor (RUN p10 - an OL problem, RBLK p7).",
+    "46: ~Old Dominion/Texas State RB 46. The returning 72-77 duo vs the poor team run game + the rebuilt OL in front of them. M."
+   ],
+   "key_players": [
+    {
+     "name": "Landan Brown",
+     "role": "RB (returning)",
+     "evidence": "76.6/113 - 'Coco' Brown; a returning back (858 combined rush yds with McCaskill)"
+    },
+    {
+     "name": "Alton McCaskill",
+     "role": "RB (returning, yr4 override)",
+     "evidence": "72.2/105 - the other half of the returning duo (Athlon 'return')"
+    }
+   ],
+   "data_gaps": [
+    "poor team run game (RUN p10) behind a rebuilt OL",
+    "modest individual volumes"
+   ],
+   "g5_guard_note": "Conference USA; a returning RB duo (Brown 76.6 + McCaskill 72.2) - the offense's strength on a 2-10 team. M."
+  },
+  {
+   "team": "Sam Houston",
+   "unit": "WRTE",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "New Mexico State WRTE 2026 (42, peer)",
+    "Middle Tennessee WRTE 2026 (42, peer)"
+   ],
+   "rationale_bullets": [
+    "Chris Reed (64.0/241 -> CUSA -4.19; the WR1 - 460 yds/5 TD) + Grady O'Neill (63.3/285) + transfers (Kyan Berry-Johnson Wisconsin, Christian Zachary NC State, Kamari Maxwell) + TE Max Whisner (Akron) + Brock Kuhl (FAU).",
+    "A returning WR1 (Reed) + a returning starter (O'Neill) + transfer depth, but off a NEAR-WORST receiving unit (RECV p2).",
+    "42: ~New Mexico State/Middle Tennessee WRTE 42. Reed + O'Neill + the transfers vs the RECV p2 base. M."
+   ],
+   "key_players": [
+    {
+     "name": "Chris Reed",
+     "role": "WR (returning)",
+     "evidence": "64.0/241; 460 yds/5 TD, all 12 games - the WR1"
+    },
+    {
+     "name": "Grady O'Neill",
+     "role": "WR (returning)",
+     "evidence": "63.3/285 - a returning starter"
+    }
+   ],
+   "data_gaps": [
+    "near-worst '25 receiving unit (RECV p2)",
+    "the p1 offense around them"
+   ],
+   "g5_guard_note": "Conference USA; a returning WR1 (Reed) + transfers off a RECV p2 base. M."
+  },
+  {
+   "team": "Sam Houston",
+   "unit": "OL",
+   "grade": 32,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Middle Tennessee OL 2026 (30, bracket-below)",
+    "New Mexico State OL 2026 (34, bracket-above)"
+   ],
+   "rationale_bullets": [
+    "A TOTAL rebuild - LOST EVERY starter (Larson 793 -> WKU, Dieterich 763 -> Washington, + yr4 Eckardt/Dawn/McCollum). Transfers Brock Stukes (NC State) + Carter Kadow (LT) + Denell Nix (App St) + Josiah Chenault (Kennesaw, 67.8/893) + Elijah Collins (WCU) + low-snap returners (Sohn, Todd).",
+    "'Rebuilding an OL that lost EVERY starter' (Athlon) - an all-new starting line of transfers + a few low-snap returners; the '25 pass pro (PBLK p38) does not carry over.",
+    "32: ~Middle Tennessee 30 / New Mexico State 34. The transfer bodies (Chenault 893 snaps, Stukes/Nix) vs the loss of every starter + no continuity. L."
+   ],
+   "key_players": [
+    {
+     "name": "Josiah Chenault",
+     "role": "C (arrival, Kennesaw State)",
+     "evidence": "67.8/893 at Kennesaw - an experienced transfer into an all-new line"
+    },
+    {
+     "name": "Isaac Sohn",
+     "role": "RT (returning)",
+     "evidence": "64.4/101 - a low-snap returner on a rebuilt line"
+    }
+   ],
+   "data_gaps": [
+    "lost EVERY OL starter",
+    "no continuity - an all-transfer starting line"
+   ],
+   "g5_guard_note": "Conference USA; an OL that lost every starter - a total transfer rebuild. L."
+  },
+  {
+   "team": "Sam Houston",
+   "unit": "DL",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "New Mexico State DL 2026 (40, peer)",
+    "UL Monroe DL 2026 (40, peer)"
+   ],
+   "rationale_bullets": [
+    "Dylan Frazier (DT, 68.4/458 -> CUSA -7.88; 'a building block') + Chauncey Chidi (56.0) + She'Fon Boyd (57.9) + a P4 transfer haul: Josh Alexander-Felton (NC State), Jarra Anderson (Arizona), Justin Terrell (NC State), Jayden Fry (BC), Dimitry Nicolas (Maryland). LOST JaMair Diaz (85.0 -> Temple) + Lawton (66.7).",
+    "A building-block DT (Frazier) + a heavy P4-transfer influx, but the unit was LAST in CUSA in total defense (PRSH p8) and lost its top edge (Diaz 85.0).",
+    "40: ~New Mexico State/UL Monroe DL 40. Frazier + the P4 transfers vs the last-in-CUSA base + the lost top edge. M."
+   ],
+   "key_players": [
+    {
+     "name": "Dylan Frazier",
+     "role": "DT (returning)",
+     "evidence": "68.4/458; 41 tkl/4 TFL/2 sacks - 'a building block'"
+    },
+    {
+     "name": "Josh Alexander-Felton",
+     "role": "DE (arrival, NC State)",
+     "evidence": "an ACC transfer set to start (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "last in CUSA total defense (PRSH p8)",
+    "lost the top edge (Diaz 85.0 -> Temple)"
+   ],
+   "g5_guard_note": "Conference USA; a building-block DT (Frazier) + a P4-transfer influx on a last-in-CUSA front. M."
+  },
+  {
+   "team": "Sam Houston",
+   "unit": "LB",
+   "grade": 36,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Utah State LB 2026 (36, peer)",
+    "New Mexico State LB 2026 (38, bracket-above)"
+   ],
+   "rationale_bullets": [
+    "Dean Ford (62.6/361 -> CUSA -12.31) + Tokyo Gordon (51.1/155) + transfers (Stacy Bey Arizona, Brian Bates Delaware St, Elijah Groves NC State). LOST top-volume LB Antavious Fish (60.7/762, yr4) + CJ Johnson (57.6/433, yr4).",
+    "A thin, rebuilt LB room - a returning starter (Ford) + transfers after losing the top-volume LB (Fish); part of a defense that was last in CUSA.",
+    "36: ~Utah State 36 / New Mexico State 38. Ford + the transfers vs the lost top-volume LB + the last-in-CUSA defense. L."
+   ],
+   "key_players": [
+    {
+     "name": "Dean Ford",
+     "role": "LB (returning)",
+     "evidence": "62.6/361 - a returning linebacker"
+    },
+    {
+     "name": "Stacy Bey",
+     "role": "LB (arrival, Arizona)",
+     "evidence": "a B12 transfer set to slide into the lineup (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "lost the top-volume LB (Fish 762, yr4)",
+    "last-in-CUSA defense",
+    "thin/rebuilt room"
+   ],
+   "g5_guard_note": "Conference USA; a thin LB room - Ford + transfers after losing the top-volume LB. L."
+  },
+  {
+   "team": "Sam Houston",
+   "unit": "DB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "App State DB 2026 (40, peer)",
+    "Georgia State DB 2026 (40, peer)"
+   ],
+   "rationale_bullets": [
+    "Tyler Bailey (S, 64.1/578 -> CUSA -6.16) + Jace Arnold (STRIKER, 56.1/355) + Dravon Wilson (53.8) + transfers (William Davis WVU, Jaylon Jones, Caesar Magee NW St, Ishmel Atkins Elon). LOST the 2 BEST safeties CJ Brown (83.2, yr4) + Cecil Powell (77.4, yr4) + Emon Allen (63.7/702, yr4) + Alonzo Edwards (55.5/608, yr4).",
+    "A near-total secondary rebuild - a returning safety (Bailey) + P4 transfers after losing the two best safeties (83.2 + 77.4) + two more starters, off a near-worst coverage unit (COV p9).",
+    "40: ~App State/Georgia State DB 40. Bailey + the P4 transfers vs the lost 2 best safeties + the COV p9 base. M."
+   ],
+   "key_players": [
+    {
+     "name": "Tyler Bailey",
+     "role": "S (returning)",
+     "evidence": "64.1/578 - a returning safety anchoring a rebuilt back end"
+    },
+    {
+     "name": "William Davis",
+     "role": "S (arrival, West Virginia)",
+     "evidence": "a P4 transfer into the secondary rebuild"
+    }
+   ],
+   "data_gaps": [
+    "lost the 2 best safeties (CJ Brown 83.2, Powell 77.4, both yr4)",
+    "near-worst coverage (COV p9)"
+   ],
+   "g5_guard_note": "Conference USA; a secondary rebuilt around Bailey + P4 transfers after losing its 2 best safeties. M."
+  },
+  {
+   "team": "Sam Houston",
+   "unit": "ST",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Old Dominion ST 2026 (42, peer)",
+    "Kennesaw State ST 2026 (42, peer)"
+   ],
+   "rationale_bullets": [
+    "K competition (Sam Carpenter, 1-of-3 at Pitt / Tate Ryan RS) + P Cal Joseph (Wake, 38.1 avg). SPEC was p65. LOST P Curtis Gerrand (-> UCLA).",
+    "The least-bad phase (SPEC p65) but both specialists reset - a K competition + a new punter.",
+    "42: ~Old Dominion/Kennesaw State ST 42. The p65 base vs the new/competing specialists. M."
+   ],
+   "key_players": [
+    {
+     "name": "Cal Joseph",
+     "role": "P (arrival, Wake Forest)",
+     "evidence": "38.1 avg at Wake - the incoming punter"
+    },
+    {
+     "name": "Sam Carpenter",
+     "role": "K (arrival, Pittsburgh)",
+     "evidence": "1-of-3 FG at Pitt - in a K competition"
+    }
+   ],
+   "data_gaps": [
+    "both specialists reset (K competition + new P)"
+   ],
+   "g5_guard_note": "Conference USA; a p65 ST base but both specialists reset (K competition + new punter). M."
+  }
+ ]
+}
