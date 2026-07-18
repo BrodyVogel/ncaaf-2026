@@ -32,7 +32,9 @@
   "Kelby Collins": "DI, 70.1/149 (Alabama transfer) - ARRIVES. Rotational SEC DT for 3 yrs (cross-build confirmed from the Alabama build).",
   "Brady Hunt": "TE, 46.5/184 (yr4) - RETURNS. Athlon lists him the starting TE + P6 'enters his 3rd season, should have an expanded role.' yr4_return_override (R15).",
   "Rodney Newsom Jr.": "OL, 50.0/223 (yr4) - portal-none, not named returning -> GONE. portal_departure_confirmed. OL depth; grade-neutral.",
-  "Myles Norwood": "DB, 49.2/242 (yr4) - portal-none, not named returning -> GONE. portal_departure_confirmed. DB depth; grade-neutral."
+  "Myles Norwood": "DB, 49.2/242 (yr4) - portal-none, not named returning -> GONE. portal_departure_confirmed. DB depth; grade-neutral.",
+  "Shed Sarratt Jr.": "OT, 59.2/477 - RETURNS. NAME-FORM: the roster feed lists him 'Shedrick Sarratt Jr.' (he goes by Shed); present in roster_2025, NOT in portal-out. The lone returning OL starter (LT, stepped up as a true frosh). known_name_exception reconciles the Shed<->Shedrick first-name difference.",
+  "Emmanuel Kojo Poku": "G, All-AAC - ARRIVES. NAME-FORM: the portal-in feed lists him 'Emmanuel Poku' (no middle name Kojo); present in portal_2026_in as an East Carolina transfer (26 straight starts, 0 sacks / 977 snaps). known_name_exception reconciles the middle-name difference."
  },
  "known_gaps": [
   "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 2026 charts. #19 transfer class (6 P4 starters in / 6 starters out). Brandon Cisse (CB) 2nd-round draft - invisible to yr4+portal feeds, added via nfl_declare_confirmed.",
@@ -45,5 +47,5 @@
  "departure_confirmed_research": [
   "Jalon Kilgore"
  ],
- "frozen_utc": "2026-07-18T04:46:58+00:00"
+ "frozen_utc": "2026-07-18T04:52:39+00:00"
 }

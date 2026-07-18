@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T04:53:20+00:00",
+ "team": "South Carolina",
+ "final": 8.47,
+ "rank": 32,
+ "band": 6.18,
+ "resid": -9.64,
+ "adj": -3.37,
+ "class_term": -0.0,
+ "st": -0.04,
+ "anchor_blend": 11.37,
+ "resid_level": -5.82,
+ "resid_shape": -3.82,
+ "implied_off": 25.82,
+ "implied_def": 24.7,
+ "anchor_off": 29.53,
+ "anchor_def": 18.77,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.612
+ },
+ "low_conf_units": 1,
+ "code_rev": "bd6d1a0",
+ "mode": "PILOT-OOS"
+}

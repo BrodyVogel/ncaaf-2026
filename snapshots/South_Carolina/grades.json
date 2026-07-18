@@ -1,0 +1,133 @@
+{
+ "team": "South Carolina",
+ "units": {
+  "QB": {"grade": 56, "confidence": "M"},
+  "RB": {"grade": 48, "confidence": "M"},
+  "WRTE": {"grade": 52, "confidence": "M"},
+  "OL": {"grade": 44, "confidence": "L"},
+  "DL": {"grade": 56, "confidence": "M"},
+  "LB": {"grade": 48, "confidence": "M"},
+  "DB": {"grade": 52, "confidence": "M"},
+  "ST": {"grade": 48, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T04:46:58Z (bd6d1a0)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells weighted DOWN; small samples discounted], arrivals on origin cells; HC Beamer Year 6 NO change [band x1.00], new OC Briles [no multiplier]; disposition gate 40 rows / 0 adjudicate / 0 err - Cisse 2nd-rd draft override, Brady Hunt yr4-return, Thompson withdrawal-but-OUT, FEED-MISS Jalon Kilgore corrected [distinct from Gerald], cross-build ties consistent); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16). DISCLOSED: South Carolina's P6 ranking (#10t) incidentally visible - logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB56/RB48/WRTE52/OL44L/DL56/LB48/DB52/ST48, sum 404). No post-freeze corrections."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 75, RB None, WRTE 25, OL 47, DL 82, LB 78, DB 85, ST 36) keys the '25 roster; the grades key the QB/WR upside + Stewart + reset the OL + trim the D for the star losses.",
+   "WRTE": "+27 vs proxy 25 - proxy UNDER-credits the OL/scheme-hampered '25 receiving; the grade keys Harbor (a real vertical weapon) + the depth.",
+   "DL": "-26 vs proxy 82 / DB -33 vs proxy 85 - proxy over-credits; the grades key Stewart + the reload (DL) and Swain/Williams minus 3 star losses (DB).",
+   "ST": "+12 vs proxy 36 - the elite returner (Swain, 3 TDs) + P Love lift it despite the kicker void.",
+   "OL": "-3 vs proxy 47 - a bottom-10-P4 line, rebuilt but injury-hit at tackle.",
+   "QB/LB": "QB near proxy 75-weighted (Sellers bounce-back); LB continuity."
+  }
+ },
+ "grades_detail": [
+  {"team": "South Carolina", "unit": "QB", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["UTSA QB 2026 (55, below)", "NC State QB 2026 (54, below)"],
+   "rationale_bullets": [
+    "LaNorris Sellers (73.4/410 -> SEC +7.72 weighted; dual-threat phenom - 674 rush yds in '24, down to 270 in '25's one-dimensional scheme) + frosh Cutter Woods.",
+    "A genuinely gifted dual-threat entering a scheme that fits him (Briles - RG3/D'Eriq King/Jefferson lineage), with a documented post-OC-firing offensive uptick (to 29 ppg / top-10).",
+    "The '25 dip (10th in SEC QB Rating) + the still-shaky OL cap it, but the bounce-back upside is real.",
+    "56: above UTSA/NC State QB 54-55. The high-upside-bounce-back tier; the scheme fit + athleticism vs the '25 dip + the OL. M."
+   ],
+   "key_players": [
+    {"name": "LaNorris Sellers", "role": "QB1 (returning)", "evidence": "73.4/410; dual-threat phenom (674 rush yds '24); great fit for Briles"}
+   ],
+   "data_gaps": ["'25 dip in a bad scheme", "still-shaky OL in front"], "g5_guard_note": null},
+  {"team": "South Carolina", "unit": "RB", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Alabama RB 2026 (48, peer)", "Auburn RB 2026 (54, above)"],
+   "rationale_bullets": [
+    "Matt Fuller (68.2/72 -> SEC +10.17 weighted; 260 yds as a frosh) + Christian Clark (Texas, 71.6/56; 4-star) + Jabree Coleman (Penn State, 4-star). Faison + Adaway graduated.",
+    "A rebuilt room - a returning young back + two 4-star P4 transfers - behind a bottom-10 run-blocking line (RBLK p12).",
+    "Talent is fine; the blocking is the drag.",
+    "48: ~Alabama RB 48; below Auburn 54. The transfers vs the OL context. M."
+   ],
+   "key_players": [
+    {"name": "Christian Clark", "role": "RB (transfer, Texas)", "evidence": "71.6/56; 4-star; 105 yds + a score in Texas' bowl"},
+    {"name": "Matt Fuller", "role": "RB (returning)", "evidence": "68.2/72; 260 yds as a frosh"}
+   ],
+   "data_gaps": ["behind a bottom-10 run-blocking OL"], "g5_guard_note": null},
+  {"team": "South Carolina", "unit": "WRTE", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Missouri WRTE 2026 (52, peer)", "Kansas State WRTE 2026 (52, peer)"],
+   "rationale_bullets": [
+    "Nyck Harbor (67.8/295 -> SEC 73.7 adj; former 5-star, FASTEST in FBS, 618 yds/6 TD/20.6 ypc) + Jayden Sellers (70.6/133; slot) + Nitro Tuggle (Purdue, Top100) + Jayden Gibson (Oklahoma, wildcard) + TE Brady Hunt. Lost #2 Jacobs (Miami) + Rowe (UCLA).",
+    "A genuine vertical weapon (Harbor) + a productive slot + a Top100 transfer - a talented, explosive group (the '25 pass game was #29 nationally) whose grades were hampered by the OL/scheme.",
+    "52: ~Missouri/Kansas State WRTE 52. Harbor lifts it, the depth grades + the QB pressure cap it. M."
+   ],
+   "key_players": [
+    {"name": "Nyck Harbor", "role": "WR1 (returning)", "evidence": "67.8/295 (73.7 SEC-adj); former 5-star; fastest in FBS; 20.6 ypc"},
+    {"name": "Jayden Sellers", "role": "WR (returning, slot)", "evidence": "70.6/133 (76.5 SEC-adj small sample)"}
+   ],
+   "data_gaps": ["'25 grades OL/scheme-hampered", "lost the #2 WR (Jacobs)"], "g5_guard_note": null},
+  {"team": "South Carolina", "unit": "OL", "grade": 44, "confidence": "L",
+   "bracketing_exemplars": ["Florida OL 2026 (44, peer)", "Mississippi State OL 2026 (44, peer)"],
+   "rationale_bullets": [
+    "Shed Sarratt (59.2/477 -> SEC weighted DOWN; the ONLY returning starter, a true frosh in '25) + Emmanuel Poku (ECU, All-AAC, 0 sacks over 977 snaps) + Carter Miller (UCF) + Hank Purvis (Purdue) + Dayne Arnett (RT).",
+    "Josiah Thompson OUT (injury); 5-star transfer Peak (NC State) KNEE-QUESTIONABLE.",
+    "The ROSTER'S wound - a bottom-10-P4 line (43 sacks, 13% rate) undergoing a total 8-transfer restart, with real veteran adds (Poku) BUT a starter OUT + its best transfer (Peak) hurt.",
+    "44: ~Florida/Mississippi State OL 44. Better than '25 on paper, but the injuries + the historic-bad base cap it. L."
+   ],
+   "key_players": [
+    {"name": "Emmanuel Kojo Poku", "role": "G (transfer, ECU)", "evidence": "All-AAC; 26 straight starts; 0 sacks over 977 snaps"},
+    {"name": "Shed Sarratt Jr.", "role": "LT (returning, only starter back)", "evidence": "59.2/477; stepped up as a true frosh"}
+   ],
+   "data_gaps": ["bottom-10 P4 (43 sacks)", "Thompson OUT + Peak knee-questionable"], "g5_guard_note": null},
+  {"team": "South Carolina", "unit": "DL", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Oklahoma LB 2026 context", "Kentucky DL 2026 (58, above)"],
+   "rationale_bullets": [
+    "Dylan Stewart (73.6/449 -> SEC +7.87 weighted -> elite; 2nd-team All-SEC, All-American candidate, 1st-round projection) + Gabriel Brownlow-Dindy (74.9/300; 5-star DT) + Tomiwa Durojaiye (Illinois, 74.5/372; B10 starter) + Kelby Collins (Alabama) + Caleb Herring (Tennessee) + 5-star frosh Julian Walker.",
+    "Lost 2 edges + 2 tackles.",
+    "A genuine star edge (Stewart) + a 5-star interior (Brownlow-Dindy) + quality B10/SEC transfers - a strong, reloaded front, though Stewart's back injury (sat spring) is a watch.",
+    "56: below Kentucky DL 58. Stewart + Brownlow-Dindy anchor it, the health + reload cap it. M."
+   ],
+   "key_players": [
+    {"name": "Dylan Stewart", "role": "ED (returning)", "evidence": "73.6/449 (SEC-adj elite); 2nd-team All-SEC; All-American candidate, 1st-round projection"},
+    {"name": "Gabriel Brownlow-Dindy", "role": "DT (returning)", "evidence": "74.9/300; former 5-star"}
+   ],
+   "data_gaps": ["Stewart's back injury (sat spring)", "lost 2 edges + 2 tackles"], "g5_guard_note": null},
+  {"team": "South Carolina", "unit": "LB", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Alabama LB 2026 (48, peer)", "Mississippi State LB context"],
+   "rationale_bullets": [
+    "Justin Okoronkwo (66.6/599 -> SEC +14.01 weighted DOWN) + Fred Johnson (61.4/565) + Shawn Murphy (64.7/430) - all three 4-2-5 backers return - + Jayr Johnson.",
+    "Full continuity (all three starters back) but modest grades (61-67) on a defense that was decent-not-dominant.",
+    "The SEC LB cell weighted down hard.",
+    "48: ~Alabama LB 48. The continuity vs the modest production. M."
+   ],
+   "key_players": [
+    {"name": "Justin Okoronkwo", "role": "LB (returning)", "evidence": "66.6/599; returning starter"},
+    {"name": "Shawn Murphy", "role": "LB (returning)", "evidence": "64.7/430; returning starter"}
+   ],
+   "data_gaps": ["modest grades"], "g5_guard_note": null},
+  {"team": "South Carolina", "unit": "DB", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Mississippi State DB 2026 (56, above)", "Georgia Tech DB 2026 (48, below)"],
+   "rationale_bullets": [
+    "Vicari Swain (72.8/488 -> SEC +5.44 -> 78.2 adj; returning CB + elite PR) + Peyton Williams (73.7/559 -> 79.1 adj; returning S, 2 INT) + Judge Collier (56.1/371; returning CB) + Quay'Sheed Scott (Kentucky; nickel) + frosh Currence (Top100).",
+    "LOST 3 stars (All-SEC Kilgore + Cisse [2nd-rd] + DQ Smith).",
+    "Two genuine returning standouts (Swain + Williams, both 72+) + a returning corner + a Kentucky-transfer nickel, but the room lost THREE '25 stars and leans on youth at the other safety.",
+    "52: below Mississippi State DB 56; above Georgia Tech 48. Swain/Williams anchor it, the star losses cap it. M."
+   ],
+   "key_players": [
+    {"name": "Vicari Swain", "role": "CB/PR (returning)", "evidence": "72.8/488 (78.2 SEC-adj); + 3 punt-return TDs"},
+    {"name": "Peyton Williams", "role": "S (returning)", "evidence": "73.7/559 (79.1 SEC-adj); 2 INT"}
+   ],
+   "data_gaps": ["lost 3 DB stars (Kilgore/Cisse/DQ Smith)", "youth at the other safety"], "g5_guard_note": null},
+  {"team": "South Carolina", "unit": "ST", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Kentucky ST 2026 (48, peer)", "Alabama ST 2026 (48, peer)"],
+   "rationale_bullets": [
+    "Mason Love (P - 4th in the SEC, 45.1 avg) + Vicari Swain (PR - THREE punt-return TDs in '25) + a NEW placekicker (the '25 K is gone). SPEC was p36 in '25.",
+    "An elite return weapon (Swain) + a strong punter - genuine strengths - but NO returning placekicker is a real hole.",
+    "The return/punt game lifts it; the kicker void caps it.",
+    "48: ~Kentucky/Alabama ST 48. The elite returner vs the kicker question. M."
+   ],
+   "key_players": [
+    {"name": "Vicari Swain", "role": "PR (returning)", "evidence": "3 punt-return TDs in '25 (elite return weapon)"},
+    {"name": "Mason Love", "role": "P (returning)", "evidence": "4th in the SEC (45.1 avg)"}
+   ],
+   "data_gaps": ["no returning placekicker"], "g5_guard_note": null}
+ ]
+}
