@@ -1,0 +1,36 @@
+{
+ "id": 201,
+ "school": "Oklahoma",
+ "mascot": "Sooners",
+ "abbreviation": "OU",
+ "alternateNames": [
+  "OU",
+  "Oklahoma"
+ ],
+ "conference": "SEC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#a32036",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/201.png"
+ ],
+ "twitter": "@OU_Football",
+ "location": {
+  "id": 3835,
+  "name": "Memorial Stadium (Norman, OK)",
+  "city": "Norman",
+  "state": "OK",
+  "zip": "73019",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 35.2058537,
+  "longitude": -97.4423145,
+  "elevation": "355.0962524",
+  "capacity": 86112,
+  "constructionYear": 1925,
+  "grass": true,
+  "dome": false
+ }
+}

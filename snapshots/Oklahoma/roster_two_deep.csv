@@ -1,0 +1,33 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,John Mateer,QB,SR,returning,Athlon,PS,H,64.0/482 (SEC +7.72 weighted) - '25 INJURY tape UNDERSTATES him; LED FBS w/ 44 total TD in 2024; mechanics fixed; high ceiling
+QB,2,Whitt Newbauer,QB,SO,returning,Athlon,PS,L,developmental backup
+RB,1,Xavier Robinson,RB,JR,returning,Athlon,PS,M,71.9/82 (SEC +10.17 weighted; 421 yds; behind more experienced blockers + new RB coach McCullough)
+RB,2,Tory Blaylock,RB,SO,returning,Athlon,PS,M,67.3/119 (SEC weighted; 480 yds as a true frosh)
+WRTE,1,Isaiah Sategna III,WR,SR,returning,Athlon,PS,H,70.5/439 (SEC +5.94 -> 76.4 adj; first-team All-SEC slot - top-3 SEC in rec yds/TD)
+WRTE,2,Trell Harris,WR,SR,transfer:Virginia,Athlon,PS,M,77.0/381 (ACC +2.36 -> 79.4 adj; All-ACC, 59/847)
+WRTE,3,Parker Livingstone,WR,SO,transfer:Texas,Athlon,PS,M,67.9/301 (SEC; 17.8 ypc - 4th in the SEC)
+WRTE,4,Hayden Hansen,TE,SR,transfer:Florida,Athlon,PS,M,52.7/296 (SEC; 3-yr starter, 44 catches/2nd in SEC; #2 transfer TE)
+WRTE,5,Mackenzie Alleyne,WR,SO,transfer:Washington State,Athlon,PS,L,spring hero (PAC +6.85 -> weighted; Arbuckle-offense experience)
+WRTE,6,Jer'Michael Carter,WR,SR,returning,Athlon,PS,L,60.9/95 (SEC) + Jack Van Dorselaer (4-star TE); Jason Witten coaches TE
+OL,1,Michael Fasusi,OT,SO,returning,Athlon,PS,M,65.1/676 (SEC +13.45 weighted DOWN; 5-star LT, started all year as a true frosh; 2nd-yr bonus)
+OL,2,Jake Maikkula,C,SR,returning,Athlon,PS,M,68.8/710 (SEC weighted; returning starting C)
+OL,3,Eddy Pierre-Louis,G,SO,returning,Athlon,PS,M,61.1/446 (SEC weighted; started 6 as a frosh)
+OL,4,Ryan Fodje,G,SO,returning,Athlon,PS,M,54.0/433 (SEC weighted; Top100, started 6 as a frosh)
+OL,5,E'Marion Harris,OT,SR,transfer:Arkansas,Athlon,PS,M,57.9/678 (SEC; 2-yr Arkansas starter, 4-star transfer; RT). Lost All-SEC Nwaiwu (drafted). Run push #124
+DL,1,Taylor Wein,ED,JR,returning,Athlon,PS,H,78.0/504 (SEC +7.87 weighted -> elite; All-SEC - 7 sacks/15 TFL/35 pressures; All-America candidate)
+DL,2,David Stone,DI,JR,returning,Athlon,PS,H,76.4/454 (SEC +7.87 weighted; dominant 5-star)
+DL,3,Jayden Jackson,DI,JR,returning,Athlon,PS,M,69.2/308 (SEC weighted; Freshman All-America 2024)
+DL,4,Danny Okoye,ED,SO,returning,Athlon,PS,M,75.2/107 (SEC weighted; Top200, rising)
+DL,5,Adepoju Adebawore,ED,SR,returning,Athlon,PS,M,63.9/283 (SEC; former 5-star)
+DL,6,Bishop Thomas,DI,SR,transfer:Georgia State,Athlon,PS,M,76.6/427 (SBC -6.50 weighted; + Nigel Smith, Jake Kreul Top100). LOST R.M.Thomas (85.3) + Halton (85.0, drafted)
+LB,1,Kip Lewis,LB,SR,returning,Athlon,PS,H,76.7/546 (SEC +14.01 weighted DOWN; leading tackler)
+LB,2,Owen Heinecke,LB,SR,returning,Athlon,PS,M,76.1/468 (SEC weighted; bonus year; top-2 tacklers back, 22.5 combined TFL)
+LB,3,Cole Sullivan,LB,SO,transfer:Michigan,Athlon,PS,M,4-star; started the final 3 games at Michigan (rising)
+LB,4,James Nesta,LB,SO,returning,Athlon,PS,L,53.9/40 (SEC; depth). Backups transferred out
+DB,1,Peyton Bowen,S,JR,returning,Athlon,PS,H,78.6/679 (SEC +5.44 -> elite; 2 INT; the safety anchor)
+DB,2,Eli Bowen,CB,SO,returning,Athlon,PS,H,73.4/462 (SEC +5.44 -> 78.8 adj; All-SEC; 2 INT)
+DB,3,Courtland Guillory,CB,SO,returning,Athlon,PS,M,SEC All-Freshman; the other half of the elite corner duo
+DB,4,Jacobe Johnson,CB,SO,returning,Athlon,PS,M,70.6/175 (SEC; rising)
+DB,5,Omarion Robinson,S,SO,returning,Athlon,PS,L,73.2/36 tiny (SEC; depth). LOST Kendal Daniels (77.4) + Spears-Jennings (yr4). Depth a concern
+ST,1,Tate Sandell,K,SR,returning,Athlon,PS,H,All-America; 16/18 FG from 40+, 8/9 from 50+
+ST,2,Grayson Miller,P,JR,returning,Athlon,PS,M,45.8 avg; Sategna PR threat

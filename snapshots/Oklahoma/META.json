@@ -1,0 +1,37 @@
+{
+ "team": "Oklahoma",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T03:15:00+00:00",
+ "assembler_git_rev": "2408139",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Brent Venables (Year 5, NO CHANGE; band x1.00). GM Jim Nagy. OC Ben Arbuckle (Year 2, Air Raid). '25: 10-3 (6-2 SEC), College Football Playoff. National Forecast 8. Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC); arrivals on origin cells. SEC offsets LARGE - big cells (OL/LB/RB) WEIGHTED DOWN; small samples discounted. LOW churn (16 in / 29 out - portal outflow was mostly 3-star backups). Arrivals on origin: Trell Harris (Virginia/ACC), Livingstone (Texas/SEC), Hansen (Florida/SEC), Alleyne (Washington State/PAC +6.85 weighted), E'Marion Harris (Arkansas/SEC), Bishop Thomas (Georgia State/SBC), Sullivan (Michigan/B10).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Adepoju Adebawore"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "known_name_exceptions": {
+  "John Mateer": "QB, 64.0/482 - RETURNS. The '25 grade is INJURY-hampered tape (thumb surgery late Sept); he LED FBS with 44 total TD in 2024 (at Washington State, pre-OU); fixed his mechanics, healthy, in Arbuckle's Air Raid - a proven, high-ceiling QB whose grade understates him.",
+  "Jaren Kanak": "TE (yr4) - GONE, WENT PRO (P6 'All-SEC Jaren Kanak went pro'). The TE room is a total rebuild (Hansen/Florida + Van Dorselaer). EXPIRED(yr4).",
+  "R Mason Thomas": "ED, 85.3/372 (yr4) - GONE, DRAFTED (P6 'Thomas + Halton drafted'). One of the DL's two best. EXPIRED(yr4).",
+  "Gracen Halton": "DI, 85.0/422 (yr4) - GONE, DRAFTED (P6). One of the DL's two best. EXPIRED(yr4).",
+  "Febechi Nwaiwu": "G, 69.6/845 (yr4) - GONE, All-SEC draft pick. Replaced by E'Marion Harris (Arkansas). EXPIRED(yr4).",
+  "Kendal Daniels": "S, 77.4/541 (yr4) - GONE. A DB-depth loss (the Bowen brothers + Guillory are the returning strength). EXPIRED(yr4).",
+  "Taylor Wein": "ED, 78.0/504 - RETURNS. All-SEC (7 sacks/15 TFL/35 QB pressures); poised for an All-America campaign - the DL anchor (SEC +7.87 -> elite).",
+  "Jovantae Barnes": "RB (yr4) - GONE -> Kentucky (cross-build confirmed). EXPIRED(yr4).",
+  "E'Marion Harris": "OT, 57.9/678 (Arkansas transfer) - ARRIVES. 2-yr Arkansas starter, 4-star transfer billing (cross-build confirmed; his Arkansas departure -> Oklahoma was logged there).",
+  "Adepoju Adebawore": "ED, 63.9/283 - portal-none feed BUT Athlon + P6 both name him a returning DE (former 5-star, 'the next duo up'). portal_withdrawal_override (R15)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 2026 charts. Good retention (16 in / 29 out; P6 'the 6 upperclassmen who transferred out were all 3-star backups who fell behind the youngsters'). Draftees (R.M.Thomas/Halton/Nwaiwu) + Kanak (pro) all yr4 - captured by EXPIRED.",
+  "10-3 CFP team, but a lopsided '25 profile: an ELITE defense (DEF p90, RDEF p93, PRSH p90 - #3 opp-adj, LED the nation in sacks/game + TFL/game) that CARRIED a bad offense (OFF p29, RUN p16, RBLK p30 - the run game 'pathetic' at 3.5 ypc, #124 OL Run Push). PF 341 / PA 201.",
+  "THE ELITE RETURNING CORE: the defense (7 starters back, 4 All-SEC) - All-America-candidate ED Wein (78.0) + 5-star DT Stone (76.4) + Fr-All-America Jackson + the Bowen brothers (Peyton 78.6 S + Eli 73.4 CB, All-SEC) + Guillory (SEC All-Frosh) + top-2-tackler LBs Lewis (76.7) + Heinecke; deep 8-man DL rotation - PLUS an All-America kicker (Sandell). These carry the team.",
+  "THE SWINGS: (1) QB Mateer - a proven, FBS-leading 44-TD talent (2024) whose '25 grade (64.0) reflects a thumb injury; his healthy return is the offense's upside. (2) The RUN GAME / OL - 3.5 ypc (#124 run push) with a young-but-returning line (Fasusi 5-star + 2 more frosh starters, 2nd-yr bonus) + new RB coach McCullough. (3) DL depth after losing 2 drafted stars (R.M.Thomas/Halton)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded); DISCLOSED: Oklahoma's P6 ranking (#2t SEC) incidentally visible during source inspection (one of six teams flagged in SEC_PAGE_MAP.md) - logged in research_log.md, NOT used in grading",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T04:27:58+00:00"
+}
