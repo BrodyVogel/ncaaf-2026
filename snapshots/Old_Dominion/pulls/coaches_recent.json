@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Ricky",
+  "lastName": "Rahne",
+  "hireDate": "2019-12-07T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Old Dominion",
+    "year": 2024,
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -1.6,
+    "spOverall": -6,
+    "spOffense": 25.7,
+    "spDefense": 31.3
+   }
+  ]
+ },
+ {
+  "firstName": "Ricky",
+  "lastName": "Rahne",
+  "hireDate": "2019-12-07T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Old Dominion",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 6.1,
+    "spOverall": 5.9,
+    "spOffense": 31.6,
+    "spDefense": 23.7
+   }
+  ]
+ }
+]

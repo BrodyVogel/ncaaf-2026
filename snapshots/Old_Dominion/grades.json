@@ -1,0 +1,132 @@
+{
+ "team": "Old Dominion",
+ "units": {
+  "QB": {"grade": 44, "confidence": "M"},
+  "RB": {"grade": 46, "confidence": "M"},
+  "WRTE": {"grade": 40, "confidence": "M"},
+  "OL": {"grade": 40, "confidence": "M"},
+  "DL": {"grade": 42, "confidence": "M"},
+  "LB": {"grade": 48, "confidence": "M"},
+  "DB": {"grade": 54, "confidence": "M"},
+  "ST": {"grade": 42, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T16:05:00Z (Old Dominion)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary; PS SBC text GARBLED -> ODU 2026 official roster + CFN + beat as corroborating sources; no Pick Six for SBC]; established Sun Belt team -> returning tape on SBC cells [negative/small], arrivals on origin [JUCO/D2 = no cell]; HC Ricky Rahne Y6 [NO CHANGE, band x1.00]; disposition gate 41 rows / 0 adjudicate / 0 err - portal_withdrawal_overrides LB Jackson Forrest [84.7, the top LB grade] + CB Zion Frink [both portal->None but on the '26 roster]; departure_confirmed_research yr4 DE Kris Trinidad [79.0] + S Mack + S Stiger [all confirmed absent from the '26 roster]; POY QB Joseph->Wisconsin + top 4 WRs + the OL feed-destinationed]; anchor values not consulted. DISCLOSED: Athlon NF94 / Sun Belt East 2 incidentally visible, logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB44/RB46/WRTE40/OL40/DL42/LB48/DB54/ST42, sum 356). No post-freeze corrections. The pivotal move: resolving the disposition BOTH directions against the ODU official '26 roster - two withdrawals return (Forrest 84.7, Frink) and three yr4 defenders are confirmed gone (Trinidad 79.0, Mack, Stiger)."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 57, RB 30, WRTE None, OL None, DL 9, LB None, DB 66, ST 25) captures the offensive exodus (WRTE/OL None) but UNDERSTATES the defense - it can't see the LB withdrawal (Forrest 84.7) or that the DL keeps All-SBC Forbes. The grades key the verified returners.",
+   "LB": "+48 vs proxy None - proxy zeroed on the portal churn; the grade keys the WITHDRAWN Forrest (84.7) + Naotala + MSU-transfer Chapman.",
+   "DL": "+33 vs proxy 9 - proxy reflects the top-edge (Trinidad) departure; the grade keys All-SBC Forbes + Lynch + the rebuild.",
+   "DB": "-12 vs proxy 66 - the grade keeps the secondary a strength (Crutchfield 80.3 + Easterly + Frink withdrew) but calibrates for losing Carter (Clemson) + 2 yr4 safeties.",
+   "WRTE": "+40 vs proxy None - the grade sets the reset (Mbanasor + JUCO/D2 transfers) after all 4 top WRs left.",
+   "QB": "-13 vs proxy 57 - the grade (44) marks the POY departure; Henicle is a promising but unproven returner."
+  }
+ },
+ "grades_detail": [
+  {"team": "Old Dominion", "unit": "QB", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Cincinnati QB 2026 (44, peer)", "West Virginia QB 2026 (44, peer)"],
+   "rationale_bullets": [
+    "Quinn Henicle (67.0/53 -> SBC -1.01; the returner - 'job to lose'; flashed in the Cure Bowl w/ 100+ rush in his 2nd career start; Rahne's QB-friendly system) + Jaxon Potter (Washington State transfer w/ starting experience). LOST the SBC OFF POY Colton Joseph (78.9 -> Wisconsin).",
+    "A promising-but-unproven returner (53 career snaps, a strong bowl) + a P4-transfer safety net, replacing the conference's offensive POY - a projection in a good system.",
+    "44: ~Cincinnati/West Virginia QB 44. Henicle's flash + Potter insurance + the scheme vs the tiny sample + the POY departure. M."
+   ],
+   "key_players": [
+    {"name": "Quinn Henicle", "role": "QB (returning)", "evidence": "67.0/53; flashed in the Cure Bowl (100+ rush in his 2nd start); the QB1 to lose"},
+    {"name": "Jaxon Potter", "role": "QB (transfer, Washington State)", "evidence": "a P4 transfer with starting experience - insurance"}
+   ],
+   "data_gaps": ["lost the SBC Offensive POY (Joseph -> Wisconsin)", "Henicle has only 53 career snaps"],
+   "g5_guard_note": "Sun Belt; a promising unproven returner (SBC -1.01) + a WSU-transfer safety net after the POY QB left."},
+  {"team": "Old Dominion", "unit": "RB", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Arkansas RB 2026 (46, peer)", "UCF RB 2026 (46, peer)"],
+   "rationale_bullets": [
+    "Devin Roche (73.3/111 -> SBC -2.02; the lead back, 100+ in the bowl; LED THE CONF in punt-return avg; elite dual-purpose) + Maurki James (69.7/56). LOST Trequan Jones (85.9 -> Tulsa).",
+    "A proven returning lead back with real dual-purpose value (an elite returner), off an above-average run game (RUN p62), even after losing the top-graded back.",
+    "46: ~Arkansas/UCF RB 46. Roche is one of the SBC's better returning backs; the Jones loss + thin depth cap it. M."
+   ],
+   "key_players": [
+    {"name": "Devin Roche", "role": "RB (returning)", "evidence": "73.3/111; the lead back + led the conference in punt-return average"}
+   ],
+   "data_gaps": ["lost the top-graded back (Jones 85.9 -> Tulsa)", "thin returning depth"],
+   "g5_guard_note": "Sun Belt; a proven returning dual-purpose lead back (SBC -2.02) - one of the better SBC returning RBs."},
+  {"team": "Old Dominion", "unit": "WRTE", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Maryland WRTE 2026 (40, peer)", "Purdue WRTE 2026 (40, peer)"],
+   "rationale_bullets": [
+    "Sidney Mbanasor (59.9/68 -> SBC -0.74; the one returning WR) + TE Leon Haughton (Maryland transfer) + JUCO JJ Harrell (Holmes CC) + D2 Zion Agnew (Lenoir-Rhyne). LOST the TOP 4 WRs: Gladding (75.5 -> Maryland) + Ja'Cory Thomas (75.1 -> Vandy) + Tre' Brown (71.3 -> LSU) + Lott (69.2 -> Troy).",
+    "A near-total reset - all 4 top wideouts left (to P4/Troy) off a RECV-p80 unit, replaced by one returner + JUCO/D2 transfers (Rahne's 'diamonds in the rough' history).",
+    "40: ~Maryland/Purdue WRTE 40. The one returner + Rahne's transfer eye vs the total top-4 turnover + the lower-division reload. M."
+   ],
+   "key_players": [
+    {"name": "Sidney Mbanasor", "role": "WR (returning)", "evidence": "59.9/68; the one returning wideout of note"}
+   ],
+   "data_gaps": ["all 4 top WRs left (to P4/Troy)", "JUCO/D2 transfer reload"],
+   "g5_guard_note": "Sun Belt; a WR reset (one returner + JUCO/D2 transfers, SBC -0.74) after the top 4 left a RECV-p80 unit."},
+  {"team": "Old Dominion", "unit": "OL", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Maryland OL 2026 (40, peer)", "UCF OL 2026 (40, peer)"],
+   "rationale_bullets": [
+    "Logan Cox (RG, the one non-transfer starter) + transfers Raykwon Goldthwaite (LT) + Khi'Len Gates (LG) + Brayden Walker (C) + Demorrsion Brown (RT). Athlon: 'breaking in FIVE new starters along the line.' LOST the entire '25 line (Skyler Grant -> Memphis + yr4 Joyce/Dubose-Bourne).",
+    "A total OL rebuild - 5 new starters (mostly transfers) off a line that was already a poor run-blocking unit (RBLK p19).",
+    "40: ~Maryland/UCF OL 40. The transfer experience vs the wholesale turnover + the weak run-block baseline. M."
+   ],
+   "key_players": [
+    {"name": "Logan Cox", "role": "RG (returning)", "evidence": "the one non-transfer returning starter on a rebuilt line"}
+   ],
+   "data_gaps": ["5 new starters (entire '25 line gone)", "RBLK p19 even before"],
+   "g5_guard_note": "Sun Belt; a total OL rebuild (5 new starters, mostly transfers) off a poor run-blocking baseline."},
+  {"team": "Old Dominion", "unit": "DL", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["App State DL 2026 (42, peer)", "Georgia Southern DL 2026 (42, peer)"],
+   "rationale_bullets": [
+    "Chris Forbes (63.4/402 -> SBC -6.50; All-Sun Belt, 'run-stuffing') + DeAndre Lynch (61.1/399; DT) + Javen Gibson (Sr) + transfer Bucci Farmer (App State). LOST Kris Trinidad (79.0, the top edge, yr4) + Chris Spencer (-> UAB) + 'the most productive players... no longer there.'",
+    "A returning All-SBC run-stuffer (Forbes) + a returning DT, but the top edge (Trinidad) + the sack production left a top-10-in-sacks unit.",
+    "42: ~App State/Georgia Southern DL 42. Forbes + Lynch anchor it; the lost edge/pass-rush caps it. M."
+   ],
+   "key_players": [
+    {"name": "Chris Forbes", "role": "DE (returning)", "evidence": "63.4/402; All-Sun Belt, a run-stuffing anchor"},
+    {"name": "DeAndre Lynch", "role": "DT (returning)", "evidence": "61.1/399; a returning interior lineman"}
+   ],
+   "data_gaps": ["lost the top edge (Trinidad 79.0, yr4)", "the sack production left"],
+   "g5_guard_note": "Sun Belt; a returning All-SBC run-stuffer (Forbes, SBC -6.50) after the top edge + pass-rush left."},
+  {"team": "Old Dominion", "unit": "LB", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Alabama LB 2026 (48, peer)", "Florida State LB 2026 (48, peer)"],
+   "rationale_bullets": [
+    "Jackson Forrest (84.7/307 -> SBC -8.20; the TOP LB grade, portal->None but WITHDREW - confirmed on the '26 roster) + Koa Naotala (RS Sr; returning starter) + Montrell Chapman (Mississippi State transfer, 'to man the middle') + Mario Thompson. LOST Culbreath (-> UCF) + Keshawn Thomas (-> App State).",
+    "A genuine STRENGTH - a stud returning LB (Forrest, 84.7) + a returning starter + a P4 (MSU) transfer, a deep and talented middle even after a couple departures.",
+    "48: ~Alabama/Florida State LB 48. Forrest + Naotala + Chapman anchor a top-tier SBC LB group; the couple of losses temper it. M."
+   ],
+   "key_players": [
+    {"name": "Jackson Forrest", "role": "LB (returning, withdrew)", "evidence": "84.7/307; the top LB grade, withdrew from the portal (confirmed on the '26 roster)"},
+    {"name": "Montrell Chapman", "role": "LB (transfer, Mississippi State)", "evidence": "an SEC transfer brought in 'to man the middle'"}
+   ],
+   "data_gaps": ["lost Culbreath (UCF) + Keshawn Thomas (App State)"],
+   "g5_guard_note": "Sun Belt; a top-tier SBC LB group - Forrest (84.7, withdrew) + a returning starter + an SEC transfer (SBC -8.20)."},
+  {"team": "Old Dominion", "unit": "DB", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Tennessee DB 2026 (54, peer)", "Clemson DB 2026 (54, peer)"],
+   "rationale_bullets": [
+    "Brandon Crutchfield (80.3/521 -> SBC -3.62; 'really flashed on tape... they're back') + Mario Easterly (69.0/694; All-Sun Belt top tackler) + Lucas Struck (74.7/232) + Zion Frink (73.3/632; WITHDREW, '26 roster) + Daevon Iles. LOST Jerome Carter III (76.2 -> Clemson) + Mack (72.8, yr4) + Stiger (78.5, yr4).",
+    "The team strength - a deep, experienced, high-graded secondary (an 80.3 corner + an All-SBC safety + Struck + Frink) off an ELITE coverage unit (COV p99), even after losing Carter + 2 yr4 safeties.",
+    "54: ~Tennessee/Clemson DB 54. Crutchfield + Easterly + the p99 coverage anchor it well; the Carter loss + the G5 level cap it. M."
+   ],
+   "key_players": [
+    {"name": "Brandon Crutchfield", "role": "CB (returning)", "evidence": "80.3/521; 'really flashed on tape,' a top returning corner"},
+    {"name": "Mario Easterly", "role": "S (returning)", "evidence": "69.0/694; All-Sun Belt, the top tackler"}
+   ],
+   "data_gaps": ["lost Carter III (76.2 -> Clemson) + 2 yr4 safeties", "G5 ceiling"],
+   "g5_guard_note": "Sun Belt; the team strength - a deep secondary (Crutchfield 80.3 + All-SBC Easterly + Frink withdrew, SBC -3.62) off COV p99."},
+  {"team": "Old Dominion", "unit": "ST", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["BYU ST 2026 (42, peer)", "California ST 2026 (42, peer)"],
+   "rationale_bullets": [
+    "K Nathanial Eichner (took over in Nov: 7-of-10 FG, 19-of-19 XP) + FAU transfer Nelms + P Ian Brandt (returns; ~41 avg, low end) + KR/PR Devin Roche (LED THE CONF in punt-return avg). SPEC was p25.",
+    "Returning specialists (a decent late-season kicker + a punter) + an ELITE returner (Roche), off a poor '25 unit (SPEC p25). The return game is a real plus.",
+    "42: ~BYU/California ST 42. The returning specialists + Roche's return value vs the poor '25 baseline. M."
+   ],
+   "key_players": [
+    {"name": "Devin Roche", "role": "KR/PR (returning)", "evidence": "led the conference in punt-return average, expanding to kickoffs"},
+    {"name": "Nathanial Eichner", "role": "K (returning)", "evidence": "7-of-10 FG + 19-of-19 XP after taking over in November"}
+   ],
+   "data_gaps": ["SPEC p25 (poor '25 unit)", "the punter's average was low end"],
+   "g5_guard_note": "Sun Belt; returning specialists + an elite returner (Roche) off a poor SPEC-p25 unit."}
+ ]
+}

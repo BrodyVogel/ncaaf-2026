@@ -1,0 +1,50 @@
+{
+ "team": "Old Dominion",
+ "conference": "Sun Belt",
+ "created_utc": "2026-07-18T15:57:35+00:00",
+ "assembler_git_rev": "31a1d9a",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Ricky Rahne (30-33 at school, entering Year 6; NO change; band x1.00). '25: 10-3 (6-2 SBC), a program-best-matching season. G5 2-SOURCE build (Athlon primary; PS SBC text garbled -> CFN 2026 preview + ODU official roster + beat as corroborating sources). Moderate-high churn (15 in / 22 out) - the OFFENSE scattered (SBC POY QB + top WRs + the whole OL), the DEFENSE largely held.",
+ "conference_note": "Established Sun Belt (East). SBC offsets NEGATIVE/small; returning tape on SBC cells, arrivals on origin. The OFFENSE was gutted (POY QB Joseph -> Wisconsin; top 4 WRs to P4/Troy; 5 new OL starters), but the DEFENSE returns starters at every level off an elite unit (COV p99) - incl. two PORTAL WITHDRAWALS (LB Forrest 84.7, CB Frink) confirmed on the '26 roster.",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Jackson Forrest",
+  "Zion Frink"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Kris Trinidad",
+  "Jeremy Mack Jr.",
+  "Nickendre Stiger",
+  "Seth Naotala"
+ ],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Colton Joseph": "QB, 78.9/355 - GONE (portal -> Wisconsin). The 2025 SUN BELT OFFENSIVE POY; the offense's biggest departure. QB grade keys the returner Henicle, not Joseph.",
+  "Quinn Henicle": "QB, 67.0/53 - RETURNS. The new starter ('job to lose'); flashed in the Cure Bowl (100+ rush in his 2nd career start) in Rahne's QB-friendly system. Web-confirmed the '26 QB1.",
+  "Jaxon Potter": "QB - Washington State transfer with starting experience; the insurance behind Henicle.",
+  "Devin Roche": "RB, 73.3/111 - RETURNS. The lead back (100+ in the bowl) + led the conference in punt-return average (elite dual-purpose). The offense's best returning skill piece.",
+  "Trequan Jones": "RB, 85.9/103 - GONE (portal -> Tulsa). The top-graded RB; Roche is the returning lead.",
+  "Jackson Forrest": "LB, 84.7/307 - RETURNS (portal_withdrawal_override). The roster's TOP LB grade; portal->None but WITHDREW - CONFIRMED on the ODU 2026 roster (So). The LB anchor.",
+  "Zion Frink": "CB, 73.3/632 - RETURNS (portal_withdrawal_override). portal->None but WITHDREW - CONFIRMED on the ODU 2026 roster (RS Jr) + an April '26 ODU article. A returning secondary starter.",
+  "Kris Trinidad": "DE, 79.0/574 - GONE (departure_confirmed_research; yr4). The top DL grade + top edge, but yr4 + NOT on the '26 roster (confirmed absent). Athlon: 'the most productive players... are no longer there.'",
+  "Jeremy Mack Jr.": "S, 72.8/740 - GONE (yr4; confirmed absent from the '26 roster). A 740-snap '25 safety whose eligibility expired.",
+  "Nickendre Stiger": "S, 78.5/467 - GONE (yr4; confirmed absent from the '26 roster).",
+  "Seth Naotala": "LB, 78.0/481 - the feed's yr4 LB; the ODU '26 roster shows 'Koa Naotala' (RS Sr) as the returning starter, NOT 'Seth.' Treated as GONE (yr4) if distinct; the LB grade rests on Forrest + Chapman + Koa Naotala regardless.",
+  "Mario Easterly": "S - RETURNS (All-Sun Belt top tackler; not in the yr4 list). A secondary anchor.",
+  "Brandon Crutchfield": "CB, 80.3/521 - RETURNS. 'Really flashed on tape... they're back' (scout); a top returning corner off a COV-p99 unit.",
+  "Chris Forbes": "DE, 63.4/402 - RETURNS (So). All-Sun Belt, 'run-stuffing'; the returning DL anchor."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon + the ODU '26 official roster (fetched). VERIFIED: two portal WITHDRAWALS return (LB Forrest 84.7, CB Frink) - both on the '26 roster; three yr4 defenders (Trinidad 79.0, Mack 72.8, Stiger 78.5) confirmed ABSENT/gone.",
+  "10-3 in '25 (6-2 SBC), matching a program best. OVER p70, OFF p57 (RECV p80, PBLK p76), DEF p86 (COV p99 elite), SPEC p25 (poor). But the OFFENSE scattered in the portal.",
+  "The OFFENSE was GUTTED: SBC OFF POY QB Colton Joseph (78.9) -> Wisconsin (Henicle, a promising returner who flashed in the bowl, + WSU transfer Potter step in); the TOP 4 WRs all left (Gladding->Maryland, Thomas->Vandy, Brown->LSU, Lott->Troy) off a RECV-p80 unit (a JUCO/D2 transfer rebuild); FIVE new OL starters (the entire '25 line gone). RB Devin Roche (73.3, elite returner) is the one proven returning skill piece.",
+  "The DEFENSE is the strength and largely held: LB Jackson Forrest (84.7, WITHDREW) + Koa Naotala + MSU-transfer Chapman; DB Mario Easterly (All-SBC) + Brandon Crutchfield (80.3) + Lucas Struck + Zion Frink (withdrew) off a COV-p99 unit; DL All-SBC Chris Forbes 'run-stuffing.' But it LOST the top edge (Trinidad 79.0, yr4), S Jerome Carter III (76.2 -> Clemson), + 2 yr4 safeties + the top sack production.",
+  "ST: returning K Nathanial Eichner (7-10 FG late) + P Ian Brandt + elite returner Devin Roche (led the conf in punt return), off a poor SPEC-p25 unit."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF94 / Sun Belt East 2 incidentally visible - logged, NOT used. G5 2-source (Athlon primary; PS SBC text garbled -> CFN + ODU official roster + beat as corroborating sources).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T16:05:00+00:00"
+}

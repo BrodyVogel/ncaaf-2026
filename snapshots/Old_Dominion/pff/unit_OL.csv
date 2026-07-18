@@ -1,0 +1,14 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Maarten Woudsma,163544,G,DOMINION,13,100.0,0,263,62.4,65.8,60.1,1,10,376,100.0,100.0,97.7,3,14,3,871,22,8,0,871,397,397,839,0,474,0,2025_this_team
+Stephon Dubose-Bourne,145357,T,DOMINION,13,100.0,0,263,57.7,68.2,52.5,5,9,369,100.0,100.0,97.6,3,16,2,850,0,1,0,850,390,390,0,845,460,0,2025_this_team
+Ryan Joyce,104638,C,DOMINION,13,100.0,0,263,64.0,81.4,59.8,0,6,369,100.0,100.0,99.2,5,6,0,847,847,0,0,847,390,390,0,0,457,0,2025_this_team
+Skyler Grant,145362,G,DOMINION,13,99.9,2,263,60.3,69.8,59.3,1,7,360,100.0,100.0,98.6,6,9,1,829,0,820,8,830,381,381,0,0,448,0,2025_this_team
+Zach Barlev,144807,T,DOMINION,13,100.0,0,263,61.8,67.6,56.2,1,12,318,100.0,100.0,97.3,0,15,2,701,0,0,693,701,337,337,0,0,364,5,2025_this_team
+Logan Cox,188680,G,DOMINION,7,100.0,0,263,48.5,51.5,49.9,1,2,50,100.0,100.0,95.0,1,4,1,144,0,0,71,144,52,52,63,0,92,0,2025_this_team
+Griffin Duggan,144073,T,DOMINION,7,99.2,0,263,54.8,67.1,51.9,0,1,39,97.5,97.7,96.2,0,2,1,132,0,0,125,133,42,43,0,2,90,3,2025_this_team
+Elijah Hoskin,156833,G,DOMINION,8,100.0,0,263,59.9,31.9,62.3,1,1,29,100.0,100.0,96.6,0,2,0,91,44,34,0,91,31,31,11,0,60,0,2025_this_team
+Joshua Schuetzmann,184336,T,DOMINION,2,100.0,0,263,48.3,49.8,48.5,0,0,11,100.0,100.0,100.0,0,0,0,39,0,0,0,39,13,13,0,39,26,0,2025_this_team
+Theo Bachelder,184330,G,DOMINION,4,100.0,0,263,65.0,78.1,63.2,0,0,12,100.0,100.0,100.0,1,0,0,38,0,38,0,38,13,13,0,0,25,0,2025_this_team
+Carson Bradley,200340,T,DOMINION,2,100.0,0,263,48.0,76.5,44.8,0,0,7,100.0,100.0,100.0,0,0,0,24,0,0,0,24,7,7,0,24,17,0,2025_this_team
+Kainan Miller,175827,G,DOMINION,2,100.0,0,263,52.0,33.3,52.6,0,0,1,100.0,100.0,100.0,0,0,0,13,0,13,0,13,2,2,0,0,11,0,2025_this_team
+Jack Scala,172295,T,DOMINION,1,100.0,0,263,43.6,0.0,49.6,0,0,0,,100.0,,0,0,0,10,0,0,10,10,1,1,0,0,9,0,2025_this_team

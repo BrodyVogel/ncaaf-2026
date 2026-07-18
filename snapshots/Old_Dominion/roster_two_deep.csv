@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Quinn Henicle,QB,SO,returning,Athlon,web,M,67.0/53 (SBC -1.01; the returner - "job to lose"; flashed in the Cure Bowl w/ 100+ rush; Rahne's QB-friendly system). LOST SBC OFF POY Colton Joseph (78.9 -> Wisconsin)
+QB,2,Jaxon Potter,QB,JR,arrival(Washington State-B12),Athlon,feed,M,67.3/104 (Washington State transfer with starting experience - insurance behind Henicle)
+RB,1,Devin Roche,RB,JR,returning,Athlon,web,M,73.3/111 (SBC -2.02; the lead back, 100+ in the bowl; LED THE CONF in punt-return avg; elite dual-purpose). LOST Trequan Jones (85.9 -> Tulsa)
+RB,2,Maurki James,RB,SO,returning,Athlon,feed,L,69.7/56 (returning depth)
+WRTE,1,Sidney Mbanasor,WR,SR,returning,Athlon,feed,M,59.9/68 (SBC -0.74; the one returning WR of note). LOST the top 4: Gladding(75.5->Maryland)/Ja'Cory Thomas(75.1->Vandy)/Tre' Brown(71.3->LSU)/Lott(69.2->Troy)
+WRTE,2,Leon Haughton Jr.,TE,SR,arrival(Maryland-B10),Athlon,feed,L,TE transfer + JUCO WR JJ Harrell (Holmes CC) + D2 WR Zion Agnew (Lenoir-Rhyne). A revamped room off RECV p80
+OL,1,Logan Cox,RG,JR,returning,Athlon,feed,L,the one non-transfer OL starter (Athlon: "breaking in FIVE new starters along the line")
+OL,2,Raykwon Goldthwaite,LT,SR,arrival(transfer),Athlon,feed,L,transfer LT + Gates(LG)/Walker(C)/Brown(RT) all transfers. The ENTIRE 2025 line GONE (Grant->Memphis + yr4 Joyce/Dubose-Bourne). RBLK was p19
+DL,1,Chris Forbes,DE,SO,returning,Athlon,CFN,M,63.4/402 (SBC -6.50; All-Sun Belt, "run-stuffing"; the DL anchor)
+DL,2,DeAndre Lynch,DT,JR,returning,Athlon,feed,M,61.1/399 (SBC; returning DT) + Javen Gibson (Sr). LOST Kris Trinidad (79.0 yr4 - the top edge) + the top sack production ("no longer there")
+LB,1,Jackson Forrest,LB,SO,returning-withdrawal,Athlon,ODU-roster,H,84.7/307 (SBC -8.20; the TOP LB grade; portal->None but WITHDREW - CONFIRMED on the '26 roster). A stud returner
+LB,2,Koa Naotala,LB,SR,returning,Athlon,ODU-roster,M,returning starter (RS Sr; '26 roster) + Montrell Chapman (Mississippi State transfer, "to man the middle"). LOST Culbreath(->UCF)+Keshawn Thomas(->App St)
+DB,1,Brandon Crutchfield,CB,JR,returning,Athlon,scout,H,80.3/521 (SBC -3.62; "really flashed on tape... they're back"; a top returning corner)
+DB,2,Mario Easterly,S,SR,returning,Athlon,CFN,M,69.0/694 (SBC; All-Sun Belt top tackler) + Lucas Struck(74.7)+Zion Frink(73.3 WITHDREW,'26 roster)+Iles. Off COV p99. LOST Jerome Carter III(76.2->Clemson)+Mack(72.8 yr4)+Stiger(78.5 yr4)
+ST,1,Nathanial Eichner,K,SR,returning,Athlon,feed,M,took over kicking in Nov (7-10 FG, 19-19 XP the rest of the way); + FAU transfer Nelms to compete. SPEC was p25
+ST,2,Devin Roche,KR/PR,JR,returning,Athlon,feed,M,LED THE CONF in punt-return avg (elite returner), expanding to KR + P Ian Brandt (Jr, returns; ~41 avg, low end)
