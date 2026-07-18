@@ -1,0 +1,130 @@
+{
+ "team": "Jacksonville State",
+ "units": {
+  "QB": {"grade": 52, "confidence": "M"},
+  "RB": {"grade": 42, "confidence": "M"},
+  "WRTE": {"grade": 46, "confidence": "M"},
+  "OL": {"grade": 46, "confidence": "M"},
+  "DL": {"grade": 42, "confidence": "M"},
+  "LB": {"grade": 48, "confidence": "M"},
+  "DB": {"grade": 50, "confidence": "M"},
+  "ST": {"grade": 48, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T17:58:00Z (Jacksonville State)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary + scout; PS CUSA text GARBLED; no Pick Six for CUSA]; Conference USA -> returning tape on CUSA cells [heavily negative], arrivals on origin [FCS/D2 = no cell]; HC Charles Kelly Y2 [first-year HC in 2025 -> NO CHANGE, band x1.00]; disposition gate 40 rows / 0 adjudicate / 0 err - 5 yr4-return overrides [Nix/Fegans/Jenkins/Orr/Stansbury, all Athlon-named]; departure_confirmed_research yr4 backups [Wimsatt 74.9, Trevor Woods 77.3, Tyrin Taylor]; CUSA MVP Cook -> WVU + the top 2 DL graders [Oyebadejo 80.2 -> Florida, Carter 75.9 -> Vandy] feed-destinationed]; anchor values not consulted. DISCLOSED: Athlon NF106 / CUSA prediction 4 incidentally visible, logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB52/RB42/WRTE46/OL46/DL42/LB48/DB50/ST48, sum 374). No post-freeze corrections. A returning-heavy CUSA contender (last 2 title games); the proxy reads low but Athlon confirms the core returns (Creel, Johnson, Nix, Sanders, Fegans/Jenkins, Rippa). The DL is the wound (lost the top 2 graders to P4)."},
+  "shadow_proxy_divergence": {
+   "note": "the proxy (QB 20, RB None, WRTE 12, OL 27, DL 14, LB 8, DB 47, ST 21) understates the returns (an artifact + the P4 departures); only DB 47 registers. The grades key the verified returners the proxy can't see.",
+   "QB": "+32 vs proxy 20 - the grade keys the returning dual-threat star (Creel, 1,075 rush) the proxy missed.",
+   "LB": "+40 vs proxy 8 - the grade keys the returning Sanders (11.5 TFL as a frosh) + O'Steen.",
+   "DB": "+3 vs proxy 47 - the grade keys 1st-team All-CUSA Nix + Fegans/Jenkins/Woods (the proxy's one healthy read).",
+   "DL": "+28 vs proxy 14 - the grade keys Campbell (78.2) + the rotation after the top 2 sack leaders left."
+  }
+ },
+ "grades_detail": [
+  {"team": "Jacksonville State", "unit": "QB", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["UCF QB 2026 (52, peer)", "Baylor QB 2026 (52, peer)"],
+   "rationale_bullets": [
+    "Caden Creel (66.5/309 -> CUSA -5.61; dual-threat - 1,514 pass + 1,075 RUSH yds, 16 total TD) + Jack Moran (RS Fr). LOST backup Wimsatt (74.9, yr4).",
+    "A returning dual-threat star with an elite QB-rushing dimension (1,075 yds) - a genuine CUSA-caliber weapon under a new OC.",
+    "52: ~UCF/Baylor QB 52. Creel's dual-threat production + the return vs the new scheme + the modest passing volume. M."
+   ],
+   "key_players": [
+    {"name": "Caden Creel", "role": "QB (returning)", "evidence": "66.5/309; 1,514 pass + 1,075 RUSH yds + 16 total TD - a dual-threat star"}
+   ],
+   "data_gaps": ["new OC (Housewright)", "low-volume passing game (RECV p5)"],
+   "g5_guard_note": "Conference USA; a returning dual-threat QB with elite rushing (Creel 1,075 rush, offset -5.61) - a genuine CUSA weapon."},
+  {"team": "Jacksonville State", "unit": "RB", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["Memphis RB 2026 (42, peer)", "Iowa State RB 2026 (42, peer)"],
+   "rationale_bullets": [
+    "Justus Savage + Andrew Paul (62.5/30) + Khristian Lando + Jalen Likely + Lucas Farrington. LOST CUSA MVP Cam Cook (85.9 -> West Virginia).",
+    "A committee (no proven lead back) after the CUSA MVP left, off a decent run scheme (RUN p63) - Creel's legs supplement it.",
+    "42: ~Memphis/Iowa State RB 42. The committee depth + the QB run vs the lost MVP. M."
+   ],
+   "key_players": [
+    {"name": "Justus Savage", "role": "RB (returning)", "evidence": "a returning committee back atop a depth room"}
+   ],
+   "data_gaps": ["lost the CUSA MVP (Cook -> WVU)", "no proven lead back"],
+   "g5_guard_note": "Conference USA; a committee (offset -7.50) after the CUSA MVP left - the QB's legs supplement it."},
+  {"team": "Jacksonville State", "unit": "WRTE", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Tulane WRTE 2026 (46, peer)", "East Carolina WRTE 2026 (46, peer)"],
+   "rationale_bullets": [
+    "Deondre Johnson (65.9/348 -> CUSA -4.19; the leading receiver - 30 catches/724/6 TD, 6-8) + Dylan Gentry + Franklin Baret + Gabe Glover + transfers (Ronnel Johnson Mo St, Darius Cannon Murray St FCS).",
+    "A genuine returning WR1 (Johnson, a 6-8 red-zone weapon) + returning depth + transfers, off a LOW-volume passing game (RECV p5).",
+    "46: ~Tulane/East Carolina WRTE 46. Johnson + the depth vs the low passing volume. M."
+   ],
+   "key_players": [
+    {"name": "Deondre Johnson", "role": "WR (returning)", "evidence": "65.9/348; the leading receiver (30 catches/724/6 TD), 6-8"}
+   ],
+   "data_gaps": ["low-volume passing (RECV p5)"],
+   "g5_guard_note": "Conference USA; a returning 6-8 WR1 (Johnson 724 yds, offset -4.19) + depth off a low-volume passing game."},
+  {"team": "Jacksonville State", "unit": "OL", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Northwestern OL 2026 (46, peer)", "NC State OL 2026 (46, peer)"],
+   "rationale_bullets": [
+    "Jeremiah Orr (RT, yr4 override) + Lance Johnson (LT) + Lucas Mrachkovskiy (C) + Daylan Martin (LG) + Ryan Walker (RG transfer). LOST Griffin + Grayson (-> WVU) + Reggie Jackson (-> Boston College).",
+    "3 experienced returning starters (Orr/Johnson/Mrachkovskiy) off good pass pro (PBLK p79) - even after losing 3 linemen to P4.",
+    "46: ~Northwestern/NC State OL 46. The 3 returning starters + p79 pass pro vs the 3 P4 losses. M."
+   ],
+   "key_players": [
+    {"name": "Lance Johnson", "role": "LT (returning)", "evidence": "a returning starting left tackle"},
+    {"name": "Lucas Mrachkovskiy", "role": "C (returning)", "evidence": "a returning starting center"}
+   ],
+   "data_gaps": ["lost 3 OL to P4 (2 to WVU, 1 to BC)"],
+   "g5_guard_note": "Conference USA; 3 returning OL starters (offset -6.36) off good pass pro (PBLK p79)."},
+  {"team": "Jacksonville State", "unit": "DL", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["App State DL 2026 (42, peer)", "Georgia Southern DL 2026 (42, peer)"],
+   "rationale_bullets": [
+    "Jawaun Campbell (78.2/295 -> CUSA -7.88; the top returning DL) + Khurtiss Perry (66.5/374) + Gharin Stansbury (yr4 override) + Wisconsin transfer Angel Toombs. Athlon 'took a hit' - LOST the 2 sack leaders: Emmanuel Oyebadejo (80.2 -> Florida) + Talan Carter (75.9 -> Vanderbilt) + Prater (-> Illinois).",
+    "A good returning DT (Campbell, 78.2) + a rotation + a P4 transfer, but the top 2 pass-rushers left for P4 - the defense's clear wound.",
+    "42: ~App State/Georgia Southern DL 42. Campbell + Perry + Toombs vs the lost 2 sack leaders. M."
+   ],
+   "key_players": [
+    {"name": "Jawaun Campbell", "role": "DT (returning)", "evidence": "78.2/295; the top returning defensive lineman"}
+   ],
+   "data_gaps": ["lost the top 2 DL graders/sack leaders to P4 (Oyebadejo, Carter)"],
+   "g5_guard_note": "Conference USA; a good returning DT (Campbell 78.2, offset -7.88) + rotation after the top 2 sack leaders left for P4."},
+  {"team": "Jacksonville State", "unit": "LB", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Alabama LB 2026 (48, peer)", "South Carolina LB 2026 (48, peer)"],
+   "rationale_bullets": [
+    "Mac Sanders (67.0/627 -> CUSA -12.31; the leading tackler - 85 stops/11.5 TFL as a FRESHMAN) + Walker O'Steen (57.1/529; 84 tackles) + Myles Butler + Ian Mitchell.",
+    "A rising-star LB (Sanders, 11.5 TFL as a frosh - a genuine playmaker) + a returning 84-tackle starter (O'Steen) - a strong returning duo off a top run defense (TACK p84).",
+    "48: ~Alabama/South Carolina LB 48. Sanders + O'Steen anchor a top-tier CUSA LB group; the G5 level caps it. M."
+   ],
+   "key_players": [
+    {"name": "Mac Sanders", "role": "ILB (returning)", "evidence": "67.0/627; 85 stops + 11.5 TFL as a FRESHMAN - the leading tackler"},
+    {"name": "Walker O'Steen", "role": "ILB (returning)", "evidence": "57.1/529; 84 tackles - a returning starter"}
+   ],
+   "data_gaps": ["G5 level"],
+   "g5_guard_note": "Conference USA; a stud returning LB duo - Sanders (11.5 TFL as a frosh) + O'Steen (offset -12.31)."},
+  {"team": "Jacksonville State", "unit": "DB", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["Missouri DB 2026 (50, peer)", "Auburn DB 2026 (50, peer)"],
+   "rationale_bullets": [
+    "Caleb Nix (71.4/713 -> CUSA -6.16; 1st-team All-CUSA - 4 INT/3 FR; yr4 override) + Tre'Quon Fegans (71.2/643; CB, yr4 override) + Jaheim Jenkins (72.3/331; CB, yr4 override) + Marc Woods (77.4/213; S). LOST Trevor Woods (77.3, yr4) + Malcolm Jones (-> Iowa St) + Franklin (-> Wyoming).",
+    "A genuine returning strength - a 1st-team All-CUSA safety (Nix) + two returning starting corners (Fegans, Jenkins) + a high-grade safety (Woods, 77.4) - a deep, experienced secondary.",
+    "50: ~Missouri/Auburn DB 50. Nix + Fegans + Jenkins + Woods anchor a top CUSA secondary; the safety-depth losses temper it. M."
+   ],
+   "key_players": [
+    {"name": "Caleb Nix", "role": "S (returning, yr4)", "evidence": "71.4/713; 1st-team All-CUSA (4 INT, 3 FR) - the secondary anchor"},
+    {"name": "Tre'Quon Fegans", "role": "CB (returning, yr4)", "evidence": "71.2/643; a returning starting corner"}
+   ],
+   "data_gaps": ["lost 2 safeties (Trevor Woods yr4, Malcolm Jones -> Iowa St)"],
+   "g5_guard_note": "Conference USA; a top CUSA secondary - 1st-team All-CUSA Nix + 2 returning CBs (Fegans/Jenkins) + S Woods (offset -6.16)."},
+  {"team": "Jacksonville State", "unit": "ST", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Alabama ST 2026 (48, peer)", "Wisconsin ST 2026 (48, peer)"],
+   "rationale_bullets": [
+    "K Garrison Rippa (1st-team All-CUSA - 40-of-40 XP, 52-yd long FG) + P Conor Donaghy (Ireland, 39.6 avg) + return men (Cannon, Gentry). SPEC was p21.",
+    "An ELITE returning placekicker (1st-team All-CUSA) + a returning punter - a real kicking strength - though the '25 SPEC (p21) reflects poor return/coverage phases.",
+    "48: ~Alabama/Wisconsin ST 48. The All-CUSA K + the returning P vs the poor non-kicking phases. M."
+   ],
+   "key_players": [
+    {"name": "Garrison Rippa", "role": "K (returning)", "evidence": "1st-team All-CUSA - 40-of-40 XP, 52-yd long FG"},
+    {"name": "Conor Donaghy", "role": "P (returning)", "evidence": "the returning Irish punter (39.6 avg)"}
+   ],
+   "data_gaps": ["poor '25 return/coverage phases (SPEC p21)"],
+   "g5_guard_note": "Conference USA; a 1st-team All-CUSA returning kicker (Rippa) + a returning punter - a real kicking strength."}
+ ]
+}

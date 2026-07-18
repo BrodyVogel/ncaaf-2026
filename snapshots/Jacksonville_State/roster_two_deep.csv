@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Caden Creel,QB,JR,returning,Athlon,feed,H,66.5/309 (CUSA -5.61; dual-threat - 1,514 pass + 1,075 RUSH yds, 16 total TD; the returning star). LOST backup Wimsatt (74.9, yr4)
+QB,2,Jack Moran,QB,FR,returning,Athlon,feed,L,RS freshman backup
+RB,1,Justus Savage,RB,SO,returning,Athlon,feed,M,a returning committee back. LOST CUSA MVP Cam Cook (85.9 -> West Virginia)
+RB,2,Andrew Paul,RB,SR,returning,Athlon,feed,L,62.5/30 (returning) + Lando/Likely/Farrington. A committee after the MVP left
+WRTE,1,Deondre Johnson,WR,JR,returning,Athlon,feed,M,65.9/348 (CUSA -4.19; the leading receiver - 30 catches/724 yds/6 TD, 6-8). RECV was p5 (low-volume passing)
+WRTE,2,Dylan Gentry,WR,SO,returning,Athlon,feed,M,returning + Franklin Baret + Gabe Glover + transfers Ronnel Johnson (Missouri St)/Darius Cannon (Murray St FCS)
+OL,1,Jeremiah Orr,RT,SR,returning-yr4override,Athlon,feed,M,an experienced returnee (yr4 override) + Lance Johnson (LT) + Lucas Mrachkovskiy (C). PBLK was p79
+OL,2,Lance Johnson,LT,SO,returning,Athlon,feed,M,returning starting LT + Mrachkovskiy (C) + Ryan Walker (RG transfer). LOST Griffin + Grayson (-> WVU) + Reggie Jackson (-> Boston College)
+DL,1,Jawaun Campbell,DT,JR,returning,Athlon,feed,M,78.2/295 (CUSA -7.88; the top returning DL)
+DL,2,Khurtiss Perry,DT,SR,returning,Athlon,feed,M,66.5/374 (CUSA) + Gharin Stansbury (yr4 override) + Wisconsin transfer Angel Toombs. LOST the 2 sack leaders: Oyebadejo (80.2 -> Florida) + Talan Carter (75.9 -> Vanderbilt) + Prater (-> Illinois)
+LB,1,Mac Sanders,LB,SO,returning,Athlon,feed,H,67.0/627 (CUSA -12.31; the leading tackler - 85 stops/11.5 TFL as a FRESHMAN)
+LB,2,Walker O'Steen,LB,SR,returning,Athlon,feed,M,57.1/529 (CUSA; 84 tackles) + Myles Butler + Ian Mitchell
+DB,1,Caleb Nix,S,SR,returning-yr4override,Athlon,feed,H,71.4/713 (CUSA -6.16; 1st-team All-CUSA - 4 INT/3 FR; yr4 override)
+DB,2,Tre'Quon Fegans,CB,SR,returning-yr4override,Athlon,feed,M,71.2/643 (CUSA; yr4 override) + Jaheim Jenkins (72.3, yr4 override) + Marc Woods (77.4). LOST Trevor Woods (77.3 yr4) + Malcolm Jones (-> Iowa St) + Franklin (-> Wyoming)
+ST,1,Garrison Rippa,K,JR,returning,Athlon,feed,H,1st-team All-CUSA - 40-of-40 XP, 52-yd long FG (a genuine ST strength)
+ST,2,Conor Donaghy,P,SO,returning,Athlon,feed,M,the returning punter (Ireland, 39.6 avg). SPEC was p21 (returns/coverage dragged it)

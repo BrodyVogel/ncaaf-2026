@@ -1,0 +1,52 @@
+{
+ "team": "Jacksonville State",
+ "conference": "Conference USA",
+ "created_utc": "2026-07-18T17:48:38+00:00",
+ "assembler_git_rev": "d5af058",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Charles Kelly (9-5 at school, entering Year 2 - first-year HC in 2025, so NO change for 2026; band x1.00). New OC Taylor Housewright - a coordinator change, does NOT trigger the band. '25: 9-5 (7-1 CUSA), played in the CUSA Championship (lost to Kennesaw St). G5 2-SOURCE build (Athlon primary + scout). LOW churn (20 in / 13 out) - a returning-heavy contender.",
+ "conference_note": "Conference USA. Returning tape on CUSA cells (heavily negative); arrivals on origin. A perennial CUSA contender (last 2 title games). Returns a dual-threat QB (Creel), a strong secondary (Nix 1st-team All-CUSA + Fegans + Jenkins), a stud LB (Sanders, 11.5 TFL as a frosh), an All-CUSA K (Rippa) - but LOST CUSA MVP RB Cam Cook (-> WVU) + the top 2 DL graders (Oyebadejo 80.2 -> Florida, Talan Carter 75.9 -> Vandy) + 2 OL to WVU. Took 'a bunch of D2 guys in the portal' (scout).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Caleb Nix",
+  "Tre'Quon Fegans",
+  "Jaheim Jenkins",
+  "Jeremiah Orr",
+  "Gharin Stansbury"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Gavin Wimsatt",
+  "Trevor Woods",
+  "Tyrin Taylor"
+ ],
+ "feed_gap_arrivals_documented": [
+  "Darius Cannon (WR; a Murray State FCS transfer, 737 yds - Athlon-named)"
+ ],
+ "known_name_exceptions": {
+  "Caden Creel": "QB, 66.5/309 - RETURNS. Dual-threat - 1,514 pass + 1,075 RUSH yds + 16 total TD in '25. The returning star (not yr4 - a junior).",
+  "Cam Cook": "RB, 85.9/295 - GONE (portal -> West Virginia). The CUSA MVP (the top '25 grade); the RB room is a committee after his departure.",
+  "Gavin Wimsatt": "QB, 74.9/129 - GONE (departure_confirmed_research; yr4). A grad-transfer backup (ex-Rutgers); Athlon names RS-Fr Jack Moran as the backup, not Wimsatt.",
+  "Deondre Johnson": "WR, 65.9/348 - RETURNS. The leading receiver (30 catches/724 yds/6 TD, 6-8) - the WR1 (not yr4).",
+  "Caleb Nix": "S, 71.4/713 - RETURNS (yr4 override). 1st-team All-CUSA (4 INT, 3 FR); the secondary anchor.",
+  "Tre'Quon Fegans": "CB, 71.2/643 - RETURNS (yr4 override). A returning starting corner (Athlon: 'strong seasons').",
+  "Jaheim Jenkins": "CB, 72.3/331 - RETURNS (yr4 override). The other returning starting corner.",
+  "Mac Sanders": "ILB, 67.0/627 - RETURNS. The leading tackler (85 stops, 11.5 TFL) as a FRESHMAN - a rising star (not yr4).",
+  "Marc Woods": "S, 77.4/213 - RETURNS. The highest DB grade (a sophomore); a returning safety alongside Nix.",
+  "Emmanuel Oyebadejo": "ED, 80.2/653 - GONE (portal -> Florida). The top DL grade + a sack leader; the DL 'took a hit.'",
+  "Talan Carter": "DI, 75.9/611 - GONE (portal -> Vanderbilt). The other DL sack leader.",
+  "Trevor Woods": "S, 77.3/728 - GONE (departure_confirmed_research; yr4). A high-snap safety; graduated (Nix + Marc Woods anchor the safeties)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon. LOW churn (20/13). Grade-critical departures: CUSA MVP RB Cam Cook (85.9 -> WVU) + the top 2 DL graders (Oyebadejo 80.2 -> Florida, Talan Carter 75.9 -> Vandy). The proxy reads low (QB 20, RB None, LB 8) - Athlon confirms the core returns.",
+  "9-5 (7-1 CUSA) in Charles Kelly's first year (now Y2, no change); played in the CUSA title game (lost 15-19 to Kennesaw). OFF p41 (RECV p5 - a low-volume passing game; RUN p63), DEF p67 (RDEF p76, TACK p84 - strong; PRSH p56), SPEC p21 (the non-kicking phases dragged it despite the All-CUSA kicker).",
+  "The OFFENSE returns its dual-threat QB (Creel, 2,589 total yds) + WR1 Deondre Johnson (724 yds, 6-8) + 3 experienced OL (Orr yr4-return, Lance Johnson, Mrachkovskiy) - but LOST CUSA MVP RB Cam Cook (-> WVU; a committee replaces him) + 2 OL to WVU. A run-first attack.",
+  "The DEFENSE returns a strong secondary (S Nix 1st-team All-CUSA yr4-return + CBs Fegans + Jenkins yr4-return + S Marc Woods 77.4) + a stud LB duo (Sanders 11.5 TFL as a frosh + O'Steen). But the DL 'took a hit' - lost the top 2 graders (Oyebadejo 80.2 -> Florida, Talan Carter 75.9 -> Vandy) + Prater (-> Illinois); returns Campbell (78.2) + Perry + Stansbury (yr4-return) + Wisconsin transfer Toombs.",
+  "ST is a strength: 1st-team All-CUSA K Garrison Rippa (40-40 XP, 52-yd FG) + P Conor Donaghy (Ireland) return."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF106 / CUSA prediction 4 incidentally visible - logged, NOT used. G5 2-source (Athlon primary + scout; PS CUSA text garbled).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T17:58:00+00:00"
+}

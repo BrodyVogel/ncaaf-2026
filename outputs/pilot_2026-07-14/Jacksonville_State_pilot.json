@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T17:56:08+00:00",
+ "team": "Jacksonville State",
+ "final": -6.52,
+ "rank": 93,
+ "band": 6.0,
+ "resid": 8.23,
+ "adj": 2.88,
+ "class_term": 0.0,
+ "st": -0.04,
+ "anchor_blend": -9.83,
+ "resid_level": 5.05,
+ "resid_shape": 3.18,
+ "implied_off": 24.94,
+ "implied_def": 26.05,
+ "anchor_off": 23.73,
+ "anchor_def": 33.07,
+ "fit_r2": {
+  "off": 0.54,
+  "dfn": 0.613
+ },
+ "low_conf_units": 0,
+ "code_rev": "d5af058",
+ "mode": "PILOT-OOS"
+}

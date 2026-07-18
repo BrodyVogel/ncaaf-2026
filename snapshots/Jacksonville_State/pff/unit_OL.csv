@@ -1,0 +1,15 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Amare Grayson,189783,G,JVILLE ST,14,100.0,1,196,68.5,73.1,66.0,1,8,412,100.0,100.0,98.7,4,10,1,1008,0,0,21,1008,440,440,985,0,568,1,2025_this_team
+Cam Griffin,170422,G,JVILLE ST,14,100.0,1,196,64.6,74.3,61.5,0,16,396,100.0,100.0,97.2,3,19,3,971,85,440,311,971,422,422,3,124,549,7,2025_this_team
+Lucas Mrachkovskiy,189802,C,JVILLE ST,14,100.0,1,196,66.3,72.1,64.5,0,12,378,100.0,100.0,98.1,4,13,1,923,923,0,0,923,405,405,0,0,518,0,2025_this_team
+Reggie Jackson,180915,T,JVILLE ST,12,100.0,0,196,69.6,65.8,71.1,0,19,328,100.0,100.0,97.1,4,19,0,815,0,0,0,815,349,349,0,813,466,1,2025_this_team
+Adrian Gumm,182439,G,JVILLE ST,12,100.0,1,196,51.7,82.5,43.6,1,10,248,100.0,100.0,97.8,1,11,0,578,0,576,0,578,264,264,0,0,314,1,2025_this_team
+Lance Johnson,204940,T,JVILLE ST,7,100.0,0,196,62.3,66.5,59.6,0,11,178,100.0,100.0,95.8,1,13,2,432,0,0,431,432,191,191,0,0,241,1,2025_this_team
+Hadine Diaby,171814,G,NEVADA,4,100.0,0,239,55.9,37.2,57.9,2,4,69,100.0,100.0,95.7,0,6,0,141,0,141,0,141,72,72,0,0,69,0,arrival_2025_at_NEVADA
+Jeremiah Orr,143264,T,JVILLE ST,2,100.0,0,196,65.7,70.2,62.1,1,1,47,100.0,100.0,97.9,1,2,0,137,0,0,137,137,51,51,0,0,86,0,2025_this_team
+Nate Smith,175587,T,JVILLE ST,6,100.0,0,196,52.3,55.8,50.3,0,5,57,100.0,100.0,95.6,1,5,0,129,0,1,70,129,61,61,0,55,68,2,2025_this_team
+KD Small,189809,T,JVILLE ST,4,100.0,0,196,43.2,8.4,52.0,1,0,22,100.0,100.0,93.2,0,2,1,53,0,0,43,53,23,23,0,10,30,0,2025_this_team
+Markevian Blake,204927,G,JVILLE ST,4,100.0,0,196,61.1,81.5,58.8,0,0,10,100.0,100.0,100.0,0,0,0,33,0,2,1,33,11,11,30,0,22,0,2025_this_team
+J.R. Jernigan,204926,G,JVILLE ST,3,100.0,0,196,69.6,66.6,68.2,0,1,6,100.0,100.0,91.7,0,1,0,17,0,0,0,17,7,7,0,15,10,1,2025_this_team
+Ryland Bragg,189785,C,JVILLE ST,1,100.0,0,196,67.2,73.6,65.6,0,0,4,100.0,100.0,100.0,0,0,0,10,10,0,0,10,4,4,0,0,6,0,2025_this_team
+Bo Burkes,162745,C,N CAROLINA,1,100.0,0,245,60.0,,60.0,0,0,0,,,,0,0,0,1,1,0,0,1,0,0,0,0,1,0,arrival_2025_at_N CAROLINA
