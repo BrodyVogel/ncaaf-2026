@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-07-18T16:18:11+00:00",
+ "run_utc": "2026-07-18T16:50:56+00:00",
  "team": "South Alabama",
  "final": -8.63,
  "rank": 102,
@@ -20,6 +20,6 @@
   "dfn": 0.617
  },
  "low_conf_units": 0,
- "code_rev": "a601409",
+ "code_rev": "de9a189",
  "mode": "PILOT-OOS"
 }

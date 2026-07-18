@@ -43,3 +43,4 @@ Washington_State,Khamari Terrell,Texas_State,CB (64.3/606) departed TXST for Waz
 NC_State,Joshisa Trader,Miami,WR (58.3/118) departed Miami for NC State - verify NCST in-feed,closed,2026-07-18,ncst-build-2026-07-18 (in-feed + Athlon verified)
 NC_State,Raul Aguirre Jr.,Miami,"LB ""Popo"" (63.1/304) departed Miami for NC State (nickname feed-miss at Miami) - verify NCST in-feed",closed,2026-07-18,ncst-build-2026-07-18 (in-feed + Athlon verified)
 NC_State,Chance Robinson,Miami,WR departed Miami for NC State - verify NCST in-feed,closed,2026-07-18,ncst-build-2026-07-18 (in-feed + Athlon verified)
+UL_Monroe,(PFF-alias),LA MONROE,"TOOLING: PFF team row uses 'LA MONROE' but roster feed uses 'UL Monroe' - team_dump reported NO percentile row + all-None shadow proxy. Per-player PFF grades present + used; team-level percentiles unavailable. FIX: add 'LA MONROE'->'UL Monroe' to the PFF alias/name map, then re-dump.",open,2026-07-18,

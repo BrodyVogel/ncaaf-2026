@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-07-18T16:39:58+00:00",
+ "run_utc": "2026-07-18T16:50:55+00:00",
  "team": "Troy",
  "final": -5.34,
  "rank": 89,
@@ -20,6 +20,6 @@
   "dfn": 0.615
  },
  "low_conf_units": 0,
- "code_rev": "190ffc2",
+ "code_rev": "de9a189",
  "mode": "PILOT-OOS"
 }

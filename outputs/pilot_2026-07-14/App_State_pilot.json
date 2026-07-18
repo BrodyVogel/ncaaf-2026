@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-07-18T14:26:31+00:00",
+ "run_utc": "2026-07-18T16:50:55+00:00",
  "team": "App State",
  "final": -8.21,
  "rank": 99,
@@ -20,6 +20,6 @@
   "dfn": 0.614
  },
  "low_conf_units": 2,
- "code_rev": "58e4395",
+ "code_rev": "de9a189",
  "mode": "PILOT-OOS"
 }

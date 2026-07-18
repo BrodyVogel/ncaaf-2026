@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-07-18T16:28:59+00:00",
+ "run_utc": "2026-07-18T16:50:56+00:00",
  "team": "Southern Miss",
  "final": -11.95,
  "rank": 114,
@@ -20,6 +20,6 @@
   "dfn": 0.623
  },
  "low_conf_units": 3,
- "code_rev": "89beff8",
+ "code_rev": "de9a189",
  "mode": "PILOT-OOS"
 }

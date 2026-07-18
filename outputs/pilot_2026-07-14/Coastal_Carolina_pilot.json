@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-07-18T14:43:03+00:00",
+ "run_utc": "2026-07-18T16:50:56+00:00",
  "team": "Coastal Carolina",
  "final": -9.77,
  "rank": 105,
@@ -20,6 +20,6 @@
   "dfn": 0.616
  },
  "low_conf_units": 2,
- "code_rev": "c121a6a",
+ "code_rev": "de9a189",
  "mode": "PILOT-OOS"
 }

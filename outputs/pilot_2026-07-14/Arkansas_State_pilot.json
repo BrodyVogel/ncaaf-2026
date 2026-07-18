@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-07-18T14:35:36+00:00",
+ "run_utc": "2026-07-18T16:50:55+00:00",
  "team": "Arkansas State",
  "final": -7.02,
  "rank": 95,
@@ -20,6 +20,6 @@
   "dfn": 0.612
  },
  "low_conf_units": 1,
- "code_rev": "2bdaa76",
+ "code_rev": "de9a189",
  "mode": "PILOT-OOS"
 }
