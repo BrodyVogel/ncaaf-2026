@@ -1,0 +1,53 @@
+{
+ "team": "Texas",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T05:16:09+00:00",
+ "assembler_git_rev": "1d5650c",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Steve Sarkisian (48-20 at school; NO CHANGE; band x1.00). DC change: fired Pete Kwiatkowski -> hired Will Muschamp (+ co-DC Johnny Nansen); Smart's double-A-gap pressure - a COORDINATOR change (does NOT trigger the band multiplier). OC Kyle Flood returns. '25: 10-3 (6-2 SEC), CFP miss. Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC); arrivals on origin cells. SEC offsets LARGE - big cells (OL/LB/RB) WEIGHTED DOWN; small samples discounted. #3 transfer haul (10 P4 starters added). Arrivals on origin: Raleek Brown (Arizona State/B12), Smothers (NC State/ACC), Cam Coleman (Auburn/SEC), Masunas+Snow (Michigan State/B10), Berkhalter+Siani (Wake Forest/ACC), Seymore (Western Kentucky/CUSA), Sikorski (Oregon State/B12), Geffrard (Arkansas/SEC), Zion Williams (LSU/SEC), Biles (Pittsburgh/ACC), Cryer (Florida State/ACC), Mascoe (Rutgers/B10), MJ Morris (Coastal Carolina/SBC), K Spetic (Memphis/AAC), P Chiumento (Florida State/ACC).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Kobe Black",
+  "Derek Williams Jr.",
+  "Warren Roberson"
+ ],
+ "yr4_return_overrides_documented": [
+  "Hero Kanu"
+ ],
+ "nfl_declare_confirmed": [
+  "Malik Muhammad",
+  "Anthony Hill Jr.",
+  "Jack Endries"
+ ],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Arch Manning": "QB, 87.3/489 - RETURNS. The centerpiece; 3,163 yds/26 TD/7 INT + 399 rush/10 TD; strong finish (11 TD/1 INT last 5). Second-year boost expected. SEC +7.72 weighted.",
+  "Anthony Hill Jr.": "LB, 71.6/563 - GONE, NFL 2nd round (Tennessee Titans; 247 'junior LB will enter the 2026 draft'). All-American; junior declare invisible to feeds (feed showed RETURNS) -> nfl_declare_confirmed. VERIFIED via web.",
+  "Malik Muhammad": "CB, 70.8/593 - GONE, NFL 4th round (#124 Chicago Bears). All-SEC; junior declare (feed showed RETURNS) -> nfl_declare_confirmed. VERIFIED via web.",
+  "Jack Endries": "TE, 68.5/324 - GONE, NFL 7th round (#221 Bengals). P6 'went pro'; declare invisible to feeds (feed showed RETURNS) -> nfl_declare_confirmed. VERIFIED via web.",
+  "Ethan Burke": "ED, 83.6/378 - GONE, NFL (2026 draft, Day 3). yr4 -> EXPIRED(yr4) auto-handles; VERIFIED drafted. A high-grade edge loss alongside Simmons's return.",
+  "Michael Taaffe": "S, 88.1/600 - GONE, NFL (All-SEC captain, drafted). yr4 -> EXPIRED(yr4). One of two drafted DB starters lost.",
+  "DJ Campbell": "G, 70.9/831 - GONE, NFL (All-SEC, drafted). yr4 -> EXPIRED(yr4). The OL's best player.",
+  "Hero Kanu": "DI, 69.2/476 (yr4) - RETURNS. Athlon lists him the bold SR starting DT + P6 'back at the other tackle spot.' yr4_return_override (R15: named returning).",
+  "Kobe Black": "CB, 61.8/199 - RETURNS. 5-star; Athlon two-deep + P6 'returning starter Kobe Black.' In the portal with dest None -> portal_withdrawal_override (R15).",
+  "Derek Williams Jr.": "S, 57.2/204 - RETURNS. 5-star; P6 'five-stars Derek Williams and Xavier Filsaime battle at the other safety'; Athlon two-deep. Portal dest None -> portal_withdrawal_override.",
+  "Warren Roberson": "CB, 77.9/187 - RETURNS. Athlon two-deep backup CB (Jr). Portal dest None -> portal_withdrawal_override. Depth; grade-light.",
+  "Colin Simmons": "ED, 84.3/615 - RETURNS. All-SEC, led the SEC with 12 sacks, a sure-fire All-America pick; the defensive headliner. SEC +7.87 weighted.",
+  "Cam Coleman": "WR, 69.4/417 (Auburn) - ARRIVES. #1 WR transfer, 5-star, future 1st-round; cross-build confirmed from the Auburn build. SEC cell (SEC-origin arrival)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 charts + targeted web disposition checks. HEAVY two-way churn: #3 transfer haul (10 P4 starters in) offsets major NFL/portal losses. Four junior/soph draftees are invisible to the yr4+portal feeds (Hill LB R2, Muhammad CB R4, Endries TE R7 - all showed RETURNS in the raw feed; + Burke ED, a yr4 draftee).",
+  "The QB (Arch Manning, 87.3, RETURNS) is the anchor - a returning 5-star with a strong late-'25 finish and second-year-boost expectations, though '25 was uneven (Athlon coach: 'a good solid QB... not what he was hyped to be').",
+  "RB is a full transfer reload: the top-3 '25 backs ALL transferred out (Wisner->FSU, Baxter->Kentucky, Gibson->Purdue); Texas signed two all-conference transfers - Raleek Brown (ASU, 80.7) + Hollywood Smothers (NC State, 78.7), both 6.0+ ypc.",
+  "WRTE is a strength ('arguably the best receiver room' - P6): two former 5-stars (returning Wingo + Auburn's Cam Coleman, a projected 1st-rounder) + slot Mosley + Mich St TE Masunas + 5-star frosh (Lockett, Bishop). Lost Endries (NFL) + Livingstone/Moore (portal).",
+  "OL is the flagged limiting factor (#82 in P6's OL Run Push for the 2nd straight year): 3 starters return incl. star LT Goosby (83.3, All-America hype) + C Robertson + Baker (T->G), plus transfers Siani (Wake, 0 sacks/900 snaps) + Seymore (WKU). Lost All-SEC DJ Campbell (drafted).",
+  "DL strong under new DC Muschamp: Simmons (84.3, All-SEC/12 sacks) headlines; 3 starters return + Arkansas NT Geffrard (6-5 380) + 5-star Terry, though Ethan Burke (83.6, NFL) departed. LB reshuffled: lost All-American Hill (NFL R2) + Lefau, added 2x-All-ACC Biles (83.7) + Cryer. Secondary 'needs the most improvement' (fell to #42 QB rating) but reloads with 5-star youth (Kade Phillips, Filsaime, Kobe Black) + McDonald/Littleton after losing two drafted All-SEC starters (Taaffe, Muhammad).",
+  "ST: ALL-new K (Spetic/Memphis), P (Chiumento/FSU), and LS (Dubuc/New Mexico), but an elite returner in Ryan Niblett (#2 national punt returner, 2 return TDs)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded); DISCLOSED: Texas is a SEC_PAGE_MAP-flagged P6-exposure team - its P6 ranking (#2t SEC / #7 overall) + Athlon NF3/SEC2 were incidentally visible during source inspection, logged in research_log.md, NOT used in grading. Web verification took disposition facts only (no rankings).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T05:20:00+00:00"
+}

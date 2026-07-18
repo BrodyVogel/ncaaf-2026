@@ -1,0 +1,134 @@
+{
+ "team": "Texas",
+ "units": {
+  "QB": {"grade": 64, "confidence": "M"},
+  "RB": {"grade": 60, "confidence": "M"},
+  "WRTE": {"grade": 62, "confidence": "M"},
+  "OL": {"grade": 56, "confidence": "M"},
+  "DL": {"grade": 62, "confidence": "M"},
+  "LB": {"grade": 56, "confidence": "M"},
+  "DB": {"grade": 56, "confidence": "M"},
+  "ST": {"grade": 52, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T05:20:00Z (Texas)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells OL/LB/RB weighted DOWN; small samples discounted], arrivals on origin cells; HC Sarkisian Year 6 NO change [band x1.00], new DC Muschamp [coordinator, no multiplier]; disposition gate 40 rows / 0 adjudicate / 0 err - Hill+Muhammad+Endries NFL-declare overrides [all showed RETURNS in raw feed; verified drafted], Burke+Taaffe+DJ Campbell yr4-EXPIRED [drafted], Hero Kanu yr4-return, Kobe Black+Derek Williams+Warren Roberson portal-withdrawal [5-star returners]; cross-build ties consistent [Cam Coleman<-Auburn, Geffrard<-Arkansas, Baxter->Kentucky, C.Clark->SC]); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16). WEB disposition-only verification of Hill/Muhammad/Endries/Burke NFL. DISCLOSED: Texas a SEC_PAGE_MAP P6-exposure team - P6 #2t/#7 + Athlon NF3/SEC2 incidentally visible, logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB64/RB60/WRTE62/OL56/DL62/LB56/DB56/ST52, sum 468). No post-freeze corrections."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 97, RB 86, WRTE 85, OL 92, DL 82, LB 78, DB 93, ST 70) reads the '25 tape at face value; the grades temper the units hit by NFL/portal attrition and keep Manning + the skill talent + Simmons.",
+   "DB": "-37 vs proxy 93 - proxy massively over-credits a room that lost both All-SEC starters (Taaffe 88.1 + Muhammad) to the draft; the grade keeps McDonald + the 5-star reload.",
+   "OL": "-36 vs proxy 92 - proxy over-credits the flagged weak link (#82 run push); the grade keys the star LT + 3 returners at a good-not-elite level.",
+   "QB": "-33 vs proxy 97 - proxy over-credits on Manning's raw 87.3; the grade (64) keeps him high but reflects the uneven overall '25.",
+   "LB": "-22 vs proxy 78 - lost All-American Hill (NFL); the grade keeps Biles (83.7) + the reload.",
+   "DL": "-20 vs proxy 82 - lost Burke (83.6); Simmons (84.3) + the depth hold it strong (62).",
+   "RB/WRTE": "RB 60 / WRTE 62 keep the transfer + 5-star skill talent, tempered for turnover + the OL context."
+  }
+ },
+ "grades_detail": [
+  {"team": "Texas", "unit": "QB", "grade": 64, "confidence": "M",
+   "bracketing_exemplars": ["Ole Miss QB 2026 (70, above)", "Oklahoma QB 2026 (62, below)"],
+   "rationale_bullets": [
+    "Arch Manning (87.3/489 -> SEC +7.72 weighted; 3,163 yds/26 TD/7 INT + 399 rush/10 TD; 11 TD/1 INT over the final five) + MJ Morris (Coastal Carolina, 46.2/68) + true frosh KJ Lacey.",
+    "A returning 5-star starter with a strong late finish + a documented in-season climb (P6: #42 -> #15 P4 passing) + second-year-boost upside.",
+    "Tempered by an uneven overall '25 (Athlon coach: 'a good solid QB... not what he was hyped to be').",
+    "64: below Ole Miss QB 70; above Oklahoma 62. The strong-returning-starter tier; the uneven tape caps it below elite. M."
+   ],
+   "key_players": [
+    {"name": "Arch Manning", "role": "QB1 (returning)", "evidence": "87.3/489; 3,163 yds/26 TD/7 INT + 399 rush/10 TD; 11 TD/1 INT over the final five"}
+   ],
+   "data_gaps": ["uneven overall '25", "one-year starting sample"], "g5_guard_note": null},
+  {"team": "Texas", "unit": "RB", "grade": 60, "confidence": "M",
+   "bracketing_exemplars": ["Indiana RB 2026 (62, above)", "Oklahoma State RB 2026 (60, peer)"],
+   "rationale_bullets": [
+    "Raleek Brown (Arizona State, 80.7/185 -> B12 +7.24; all-conf, 6.0+ ypc) + Hollywood Smothers (NC State, 78.7/160 -> ACC +4.90; led the ACC 85 yds/gm, 6.0+ ypc). The top-3 '25 backs ALL transferred out (Wisner -> FSU, Baxter -> Kentucky, Gibson -> Purdue).",
+    "A full transfer reload, but high-quality - two explosive all-conference backs with strong grades + volume ('a top running back duo' - P6).",
+    "New to the system, behind an OL that was #82 in run push.",
+    "60: ~Oklahoma State RB 60; below Indiana 62. Two proven transfers; the total turnover + OL context cap it. M."
+   ],
+   "key_players": [
+    {"name": "Raleek Brown", "role": "RB (transfer, Arizona State)", "evidence": "80.7/185; all-conference; 6.0+ ypc"},
+    {"name": "Hollywood Smothers", "role": "RB (transfer, NC State)", "evidence": "78.7/160; led the ACC at 85 yds/game"}
+   ],
+   "data_gaps": ["all top-3 '25 backs transferred out", "new to the system", "#82 OL run push"], "g5_guard_note": null},
+  {"team": "Texas", "unit": "WRTE", "grade": 62, "confidence": "M",
+   "bracketing_exemplars": ["Northwestern WRTE 2026 (64, above)", "Texas Tech WRTE 2026 (62, peer)"],
+   "rationale_bullets": [
+    "Cam Coleman (Auburn, 69.4/417; #1 WR transfer, 5-star, future 1st-round) + Ryan Wingo (70.9/355 -> SEC +5.94; 5-star, double-teamed) + Emmett Mosley V (71.7/208; slot) + Michael Masunas (Mich St TE, 76.8/105) + 5-star frosh Lockett + Bishop. Endries (TE, NFL) + Livingstone + DeAndre Moore GONE.",
+    "'Arguably the best receiver room' (P6) - two former 5-star WRs defenses 'can't double-team both' + a productive slot + a transfer TE + a heralded frosh class.",
+    "The raw grades are good-not-elite (69-72), so it grades high but not top-tier.",
+    "62: ~Texas Tech WRTE 62; below Northwestern 64. A genuine strength; the merely-good grades cap it. M."
+   ],
+   "key_players": [
+    {"name": "Cam Coleman", "role": "WR (transfer, Auburn)", "evidence": "69.4/417; #1 WR transfer, 5-star, future 1st-round pick"},
+    {"name": "Ryan Wingo", "role": "WR (returning)", "evidence": "70.9/355; 5-star; the lead target, often double-teamed"}
+   ],
+   "data_gaps": ["good-not-elite raw grades", "lost TE Endries (NFL)"], "g5_guard_note": null},
+  {"team": "Texas", "unit": "OL", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Penn State OL 2026 (58, above)", "Oregon OL 2026 (56, peer)"],
+   "rationale_bullets": [
+    "Trevor Goosby (83.3/847; All-America hype LT) + Brandon Baker (66.3/873; T->G) + Connor Robertson (65.8/557; C) + transfers Melvin Siani (Wake, 73.1/859; 0 sacks/900 snaps; RT) + Laurence Seymore (WKU, 69.4/840; LG). DJ Campbell (drafted All-SEC) + Hutson (yr4) GONE.",
+    "THE flagged limiting factor - 'the inconsistency of last year's OL' drove the fewest ppg of the Sark era, #82 in run push for a 2nd straight year.",
+    "BUT three starters return (a genuine All-America LT in Goosby) + two experienced P4 transfers; as-played PBLK p70 / RBLK p79 aren't bad.",
+    "56: ~Oregon OL 56; below Penn State 58. A star LT + veteran depth vs the run-push problem + the Campbell loss. M."
+   ],
+   "key_players": [
+    {"name": "Trevor Goosby", "role": "LT (returning)", "evidence": "83.3/847; All-America hype; high draft projection"},
+    {"name": "Melvin Siani", "role": "RT (transfer, Wake Forest)", "evidence": "73.1/859; 0 sacks allowed on 900 snaps"}
+   ],
+   "data_gaps": ["#82 OL run push (2 straight years)", "lost All-SEC Campbell"], "g5_guard_note": null},
+  {"team": "Texas", "unit": "DL", "grade": 62, "confidence": "M",
+   "bracketing_exemplars": ["Maryland DL 2026 (63, above)", "LSU DL 2026 (62, peer)"],
+   "rationale_bullets": [
+    "Colin Simmons (84.3/615 -> SEC +7.87 weighted; All-SEC, led the SEC with 12 sacks, sure-fire All-America) + Hero Kanu (69.2/476; yr4-return) + Ian Geffrard (Arkansas, 72.8/462; 6-5 380 NT) + Alex January (66.0/345) + Lance Jackson (58.0/261; SEC All-Frosh) + 5-star Justus Terry (74.4/73). Ethan Burke (83.6, NFL) + Brevard (yr4) GONE.",
+    "A star-anchored, deep front under a proven new DC (Muschamp): a genuine All-America edge + 3 returning starters + a well-stocked interior + a rising 5-star.",
+    "The loss of Burke (83.6) is real, but Simmons + the depth + Muschamp's pressure scheme keep it strong.",
+    "62: ~LSU DL 62; below Maryland 63. An elite edge + deep front; the Burke loss + merely-solid interior grades cap it. M."
+   ],
+   "key_players": [
+    {"name": "Colin Simmons", "role": "ED (returning)", "evidence": "84.3/615; All-SEC; led the SEC with 12 sacks; All-America pick"},
+    {"name": "Ian Geffrard", "role": "DI (transfer, Arkansas)", "evidence": "72.8/462; 6-5 380 space-eating NT"}
+   ],
+   "data_gaps": ["lost Burke (83.6, NFL)", "new scheme install"], "g5_guard_note": null},
+  {"team": "Texas", "unit": "LB", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Ole Miss LB 2026 (58, above)", "Oklahoma LB 2026 (56, peer)"],
+   "rationale_bullets": [
+    "Rasheem Biles (Pittsburgh, 83.7/670 -> ACC +2.13; 2x All-ACC, 3 Pick Sixes) + Ty'Anthony Smith (62.4/450 -> SEC +14.01 weighted DOWN; 'next rising star') + Justin Cryer (FSU, 56.1/381) + Brad Spence (59.9/265) + Top100 frosh Okpala. Anthony Hill (71.6, NFL R2) + Lefau + Elijah Barnes GONE.",
+    "A reshuffle that lost its All-American (Hill, NFL) but landed a high-grade 2x-All-ACC transfer (Biles, 83.7) + a rising returning starter + a P4-transfer starter + a Top100 frosh.",
+    "Biles is a real anchor; the star (Hill) loss + the modest returning grades temper it.",
+    "56: ~Oklahoma LB 56; below Ole Miss 58. Biles + the reload vs the Hill loss. M."
+   ],
+   "key_players": [
+    {"name": "Rasheem Biles", "role": "LB (transfer, Pittsburgh)", "evidence": "83.7/670; 2x All-ACC; 3 Pick Sixes the past two years"},
+    {"name": "Ty'Anthony Smith", "role": "LB (returning)", "evidence": "62.4/450; the 'next rising star'"}
+   ],
+   "data_gaps": ["lost All-American Hill (NFL R2)", "modest returning grades"], "g5_guard_note": null},
+  {"team": "Texas", "unit": "DB", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Utah DB 2026 (58, above)", "Ole Miss DB 2026 (56, peer)"],
+   "rationale_bullets": [
+    "Jelani McDonald (74.4/735 -> SEC +5.44; team leader tkl + INT, All-SEC hype) + Bo Mascoe (Rutgers, 77.2/590; strong B10 coverage) + Graceson Littleton (70.6/616; nickel, Top100) + Kade Phillips (78.6/256; 5-star RS-fr) + Filsaime (66.5/293; 5-star) + Kobe Black (withdrew). Taaffe (88.1, NFL) + Muhammad (70.8, NFL R4) GONE.",
+    "'Needs the most improvement' (fell from #2 to #42 in QB Rating) and lost BOTH All-SEC starters to the draft - but reloads with a deep, five-star-rich group + a proven returning safety + a strong B10-transfer corner.",
+    "Talent-rich, experience-light at the top.",
+    "56: ~Ole Miss DB 56; below Utah 58. The reload's ceiling vs the two drafted losses + the youth. M."
+   ],
+   "key_players": [
+    {"name": "Jelani McDonald", "role": "S (returning)", "evidence": "74.4/735; team leader in tackles + INTs; All-SEC hype"},
+    {"name": "Bo Mascoe", "role": "CB (transfer, Rutgers)", "evidence": "77.2/590; strong coverage in the Big Ten"}
+   ],
+   "data_gaps": ["lost both All-SEC starters (Taaffe/Muhammad, drafted)", "youth at the top"], "g5_guard_note": null},
+  {"team": "Texas", "unit": "ST", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Baylor ST 2026 (52, peer)", "Cincinnati ST 2026 (52, peer)"],
+   "rationale_bullets": [
+    "ALL-new specialists - K Gianni Spetic (Memphis), P Mac Chiumento (FSU), LS Trey Dubuc (New Mexico) - but an elite returner in Ryan Niblett (the nation's #2 punt returner in '25, 2 punt-return TDs) + Raleek Brown on kick returns.",
+    "A coordinated but ALL-new kicker/punter/long-snapper (unproven at Texas) offset by a genuinely elite return game (SPEC was p70 in '25).",
+    "52: ~Baylor/Cincinnati ST 52. The elite returner vs the all-new specialist trio. M."
+   ],
+   "key_players": [
+    {"name": "Ryan Niblett", "role": "PR (returning)", "evidence": "nation's #2 punt returner in '25; 2 punt-return TDs"},
+    {"name": "Gianni Spetic", "role": "K (transfer, Memphis)", "evidence": "the incoming placekicker replacing Will Stone"}
+   ],
+   "data_gaps": ["all-new K/P/LS (unproven at Texas)"], "g5_guard_note": null}
+ ]
+}

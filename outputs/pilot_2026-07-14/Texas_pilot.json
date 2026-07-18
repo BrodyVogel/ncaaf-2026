@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T05:28:09+00:00",
+ "team": "Texas",
+ "final": 17.71,
+ "rank": 11,
+ "band": 6.6,
+ "resid": -17.24,
+ "adj": -6.0,
+ "class_term": -0.0,
+ "st": 0.04,
+ "anchor_blend": 23.13,
+ "resid_level": -12.3,
+ "resid_shape": -4.94,
+ "implied_off": 28.89,
+ "implied_def": 23.39,
+ "anchor_off": 37.32,
+ "anchor_def": 14.58,
+ "fit_r2": {
+  "off": 0.528,
+  "dfn": 0.608
+ },
+ "low_conf_units": 0,
+ "code_rev": "1d5650c",
+ "mode": "PILOT-OOS"
+}

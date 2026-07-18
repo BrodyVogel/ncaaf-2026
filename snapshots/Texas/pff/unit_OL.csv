@@ -1,0 +1,19 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Brandon Baker,184502,T,TEXAS,13,100.0,1,311,66.3,77.6,64.1,2,21,472,100.0,100.0,97.6,12,23,0,873,0,0,16,873,500,500,0,857,373,0,2025_this_team
+Melvin Siani,173280,T,WAKE,13,100.0,1,339,73.1,80.8,67.0,3,6,456,100.0,100.0,99.0,7,9,0,859,0,0,853,859,487,487,1,0,372,5,arrival_2025_at_WAKE
+Trevor Goosby,176177,T,TEXAS,13,100.0,1,311,83.3,80.1,82.1,3,10,464,100.0,100.0,98.0,5,16,3,847,0,1,846,847,492,492,0,0,355,0,2025_this_team
+Laurence Seymore,143949,G,W KENTUCKY,13,100.0,0,346,69.4,82.6,63.9,3,4,503,100.0,100.0,99.1,1,8,1,840,0,840,0,840,532,532,0,0,308,0,arrival_2025_at_W KENTUCKY
+DJ Campbell,163844,G,TEXAS,13,100.0,2,311,70.9,77.6,73.6,6,11,456,100.0,100.0,97.9,10,18,1,831,0,0,0,831,484,484,830,1,347,0,2025_this_team
+Cole Hutson,157304,G,TEXAS,10,100.0,0,311,64.4,43.7,71.6,4,14,354,100.0,100.0,96.9,3,20,2,645,317,327,1,645,374,374,0,0,271,0,2025_this_team
+Connor Robertson,163858,C,TEXAS,10,100.0,1,311,65.8,66.8,66.3,2,11,307,100.0,100.0,97.9,7,13,0,557,557,0,0,557,330,330,0,0,227,0,2025_this_team
+Dylan Sikorski,191224,G,OREGON ST,9,100.0,0,265,61.4,59.9,59.7,1,6,238,100.0,100.0,98.1,0,8,1,444,0,441,0,444,250,250,0,0,194,0,arrival_2025_at_OREGON ST
+Connor Stroh,173167,G,TEXAS,7,100.0,0,311,59.7,64.9,56.4,0,4,156,100.0,100.0,97.4,0,6,2,310,0,291,0,310,166,166,19,0,144,0,2025_this_team
+Nick Brooks,199294,G,TEXAS,5,100.0,0,311,36.6,17.1,46.5,3,13,117,100.0,100.0,89.7,4,20,4,221,0,196,0,221,120,120,0,25,101,0,2025_this_team
+Neto Umeozulu,163866,G,TEXAS,4,100.0,0,311,67.7,86.3,64.2,0,1,31,100.0,100.0,98.4,0,1,0,76,0,73,3,76,31,31,0,0,45,0,2025_this_team
+Nate Kibble,190247,G,TEXAS,3,100.0,0,311,59.5,80.3,57.3,0,0,10,100.0,100.0,100.0,0,0,0,38,0,0,0,38,10,10,38,0,28,0,2025_this_team
+Paris Patterson Jr.,172418,G,SMU,4,100.0,0,287,60.7,73.1,59.5,0,0,5,100.0,100.0,100.0,0,0,0,21,0,21,0,21,5,5,0,0,16,0,arrival_2025_at_SMU
+Jaydon Chatman,173154,T,TEXAS,3,100.0,0,311,74.4,78.3,71.9,0,0,5,100.0,100.0,100.0,0,0,0,15,0,0,10,15,5,5,0,5,10,0,2025_this_team
+Daniel Cruz,184506,C,TEXAS,2,100.0,0,311,66.5,76.0,64.3,0,0,4,100.0,100.0,100.0,0,0,0,14,14,0,0,14,4,4,0,0,10,0,2025_this_team
+Jordan Coleman,205403,T,TEXAS,1,100.0,0,311,63.9,80.3,60.3,0,0,4,100.0,100.0,100.0,0,0,0,11,0,0,11,11,4,4,0,0,7,0,2025_this_team
+Jonte Newman,204338,T,TEXAS A&M,1,100.0,0,312,36.9,,37.1,0,0,0,,,,0,0,0,7,0,0,0,7,0,0,0,7,7,0,arrival_2025_at_TEXAS A&M
+Rick McBroom,125659,G,TEXAS,1,100.0,0,311,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,0,1,0,0,1,0,1,0,2025_this_team

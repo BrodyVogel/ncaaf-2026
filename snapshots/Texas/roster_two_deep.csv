@@ -1,0 +1,34 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Arch Manning,QB,JR,returning,Athlon,PS,H,87.3/489 (SEC +7.72 weighted; 3,163 yds/26 TD/7 INT + 399 rush/10 TD; strong finish - 11 TD/1 INT last 5; second-year boost)
+QB,2,MJ Morris,QB,JR,transfer:Coastal Carolina,Athlon,PS,L,46.2/68 (SBC; backup) + true frosh KJ Lacey
+RB,1,Raleek Brown,RB,SR,transfer:Arizona State,Athlon,PS,M,80.7/185 (B12 +7.24; all-conf, "Tasmanian Devil," 6.0+ ypc)
+RB,2,Hollywood Smothers,RB,JR,transfer:NC State,Athlon,PS,M,78.7/160 (ACC +4.90; led ACC 85 yds/gm, 6.0+ ypc). Top-3 '25 RBs ALL transferred OUT (Wisner->FSU, Baxter->Kentucky, Gibson->Purdue)
+WRTE,1,Cam Coleman,WR,JR,transfer:Auburn,Athlon,PS,H,69.4/417 (SEC; #1 WR transfer, 5-star, future 1st-round; cross-build from Auburn)
+WRTE,2,Ryan Wingo,WR,JR,returning,Athlon,PS,M,70.9/355 (SEC +5.94; 5-star, lead target, often double-teamed)
+WRTE,3,Emmett Mosley V,WR,JR,returning,Athlon,PS,M,71.7/208 (SEC; the slot)
+WRTE,4,Michael Masunas,TE,JR,transfer:Michigan State,Athlon,PS,M,76.8/105 (B10 -1.26; 4-star transfer TE)
+WRTE,5,Sterling Berkhalter,WR,SR,transfer:Wake Forest,Athlon,PS,L,56.1/311 (ACC) + 5-star frosh Kaliq Lockett + Jermaine Bishop Jr. Endries (TE, NFL) + Livingstone (OU) + DeAndre Moore (Colorado) GONE
+OL,1,Trevor Goosby,OT,JR,returning,Athlon,PS,H,83.3/847 (SEC weighted DOWN; All-America hype LT, high draft projection)
+OL,2,Brandon Baker,G,JR,returning,Athlon,PS,M,66.3/873 (SEC weighted; shifting T->G)
+OL,3,Connor Robertson,C,SR,returning,Athlon,PS,M,65.8/557 (SEC weighted; returning C)
+OL,4,Melvin Siani,OT,SR,transfer:Wake Forest,Athlon,PS,M,73.1/859 (ACC +3.54; 0 sacks on 900 snaps; RT)
+OL,5,Laurence Seymore,G,SR,transfer:Western Kentucky,Athlon,PS,M,69.4/840 (CUSA -6.36; FBS veteran; LG). DJ Campbell (70.9, drafted All-SEC) + Hutson (yr4) GONE. #82 OL Run Push
+OL,6,Dylan Sikorski,G,SO,transfer:Oregon State,Athlon,PS,L,61.4/444 (depth) + Paris Patterson (SMU)
+DL,1,Colin Simmons,ED,JR,returning,Athlon,PS,H,84.3/615 (SEC +7.87 weighted; All-SEC, led SEC 12 sacks, All-America)
+DL,2,Hero Kanu,DI,SR,returning,Athlon,PS,M,69.2/476 (SEC weighted; yr4-return - Athlon bold SR + P6 "back at tackle")
+DL,3,Ian Geffrard,DI,SR,transfer:Arkansas,Athlon,PS,M,72.8/462 (SEC; 6-5 380 NT; cross-build from Arkansas)
+DL,4,Alex January,DI,JR,returning,Athlon,PS,M,66.0/345 (SEC; returning tackle)
+DL,5,Lance Jackson,ED,SO,returning,Athlon,PS,M,58.0/261 (SEC; SEC All-Freshman; the other end) + Maraad Watson (60.0/321 330-lb NT) + 5-star Justus Terry (74.4/73) + Zion Williams (LSU)
+DL,6,Zina Umeozulu,ED,SO,returning,Athlon,PS,L,63.9/203 (SEC; edge rotation). Ethan Burke (83.6, NFL) + Cole Brevard (72.6, yr4) GONE
+LB,1,Rasheem Biles,LB,SR,transfer:Pittsburgh,Athlon,PS,H,83.7/670 (ACC +2.13; 2x All-ACC, 3 Pick Sixes)
+LB,2,Ty'Anthony Smith,LB,JR,returning,Athlon,PS,M,62.4/450 (SEC +14.01 weighted DOWN; "next rising star")
+LB,3,Justin Cryer,LB,SR,transfer:Florida State,Athlon,PS,M,56.1/381 (ACC; P4 starter)
+LB,4,Brad Spence,LB,SR,returning,Athlon,PS,M,59.9/265 (SEC; returning starter) + Darius Snow (Mich St 61.7/232) + Top100 frosh Kosi Okpala. Anthony Hill (71.6, NFL R2) + Lefau (Colorado) + E.Barnes (Kentucky) GONE
+DB,1,Jelani McDonald,S,SR,returning,Athlon,PS,H,74.4/735 (SEC +5.44; team leader tkl+INT; All-SEC hype)
+DB,2,Bo Mascoe,CB,SR,transfer:Rutgers,Athlon,PS,M,77.2/590 (B10 +6.33 weighted; strong B10 coverage)
+DB,3,Graceson Littleton,CB,SO,returning,Athlon,PS,M,70.6/616 (SEC; nickel/STAR, Top100, impressed as a frosh)
+DB,4,Kade Phillips,CB,SO,returning,Athlon,PS,M,78.6/256 (SEC; 5-star RS-fr, projected starter)
+DB,5,Xavier Filsaime,S,JR,returning,Athlon,PS,M,66.5/293 (SEC; 5-star, battles at S)
+DB,6,Kobe Black,CB,JR,returning,Athlon,PS,M,61.8/199 (SEC; 5-star, returning starter - withdrew from portal) + Derek Williams Jr. (57.2/204, 5-star, withdrew) + Warren Roberson (77.9/187, withdrew). Taaffe (88.1, NFL) + Muhammad (70.8, NFL R4) GONE
+ST,1,Gianni Spetic,K,SR,transfer:Memphis,Athlon,PS,M,All-new K (replaces Will Stone -> UCF)
+ST,2,Ryan Niblett,PR,JR,returning,Athlon,PS,H,#2 nation punt returner, 2 return TDs + Mac Chiumento (P, FSU) + Raleek Brown KR. All-new K/P/LS

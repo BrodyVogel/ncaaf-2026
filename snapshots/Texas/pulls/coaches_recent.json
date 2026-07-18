@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Steve",
+  "lastName": "Sarkisian",
+  "hireDate": "2021-01-02T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Texas",
+    "year": 2024,
+    "games": 16,
+    "wins": 13,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": 4,
+    "postseasonRank": 4,
+    "srs": 19.4,
+    "spOverall": 24.1,
+    "spOffense": 36.6,
+    "spDefense": 10.8
+   }
+  ]
+ },
+ {
+  "firstName": "Steve",
+  "lastName": "Sarkisian",
+  "hireDate": "2021-01-02T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Texas",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 12.6,
+    "spOverall": 16.2,
+    "spOffense": 32.9,
+    "spDefense": 17.9
+   }
+  ]
+ }
+]
