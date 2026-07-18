@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Rhett",
+  "lastName": "Lashlee",
+  "hireDate": "2021-11-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "SMU",
+    "year": 2024,
+    "games": 14,
+    "wins": 11,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": 12,
+    "srs": 15.7,
+    "spOverall": 17.5,
+    "spOffense": 38.2,
+    "spDefense": 21.1
+   }
+  ]
+ },
+ {
+  "firstName": "Rhett",
+  "lastName": "Lashlee",
+  "hireDate": "2021-11-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "SMU",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 11,
+    "spOverall": 13.4,
+    "spOffense": 34.2,
+    "spDefense": 19.5
+   }
+  ]
+ }
+]

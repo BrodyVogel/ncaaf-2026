@@ -1,0 +1,38 @@
+{
+ "team": "SMU",
+ "conference": "ACC",
+ "created_utc": "2026-07-18T00:56:53+00:00",
+ "assembler_git_rev": "9bceb82",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Rhett Lashlee - PS '5th Year Here / 5th Overall.' NO change (band x1.00). Staff shuffle noted (co-DCs) but not a band trigger. 9-4 (6-2 ACC) in '25; Athlon 'ACC title favorites.' Verified BOTH sources.",
+ "conference_note": "ACC (P4). R14: ACC cells POSITIVE on returning tape; arrivals on origin cells. Arrivals: Kendrick Raphael California/ACC (+4.90 RB - 943 rush), Yannick Smith East Carolina/AAC (+0.45 WRTE), Jalen Hale Alabama/SEC (WRTE tiny), Theo Melin Ohrstrom Texas A&M/SEC (TE), Randy Pittman Florida State/ACC (+2.36 TE - xref FSU); Marques White UMass/MAC (-6.43 DL - 90.2 elite edge weighted), Christian Davis Louisiana Tech/CUSA (-7.88 DL), Malcolm Alcorn-Crowder Kansas State/B12 (+3.12 DL), Ira Singleton IV South Florida/AAC (DL); Caden Marshall Bowling Green/MAC (LB); Jayvon Thomas Texas A&M/SEC (DB), Jimmy Wyrick UTSA/AAC (DB), Jarvis Lee South Florida/AAC (-3.27 DB); Nick Reed New Hampshire/FCS (K - AA).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": ["Jonathan Jefferson", "Keveion'ta Spears"],
+ "nfl_declare_confirmed": ["Matthew Hibner"],
+ "departure_confirmed_research": ["TJ Harden", "Romello Brinson"],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Kevin Jennings": "QB, 78.6/530 (top-10 passer, 3,541 yds) - RETURNS. Proven, healthy super-senior (injured '25). Both feature. The engine.",
+  "Matthew Hibner": "TE, 62.6/319 - GONE, NFL DECLARE. PS 'Hibner (#4 DC BAL)'; Athlon TE = Ohrstrom + Pittman. nfl_declare_confirmed. VERIFIED BOTH.",
+  "TJ Harden": "RB, 76.9/170 (led RBs '25, 787 yds) - GONE. PS 'lose the top two [RBs]'; Athlon RB = Raphael + Green. Not in portal-out/not yr4 -> departure_confirmed_research (feed-miss). VERIFIED BOTH.",
+  "Romello Brinson": "WR, 59.0/387 - GONE. PS 'all 4 [WRs] depart'; Athlon omits. Not in portal-out/not yr4 -> departure_confirmed_research (feed-miss). VERIFIED BOTH.",
+  "Jordan Hudson": "WR, 72.6/364 (led WRs, 766 yds) - GONE (yr4). PS 'all 4 depart.' EXPIRED(yr4).",
+  "Cameron Robertson": "DE, 85.1/605 (senior starter) - GONE (yr4). PS 'lose all 4 senior DL starters.' EXPIRED(yr4).",
+  "Isaiah Smith": "DE, 77.7/777 (senior starter) - GONE (yr4). PS 'lose all 4 senior DL starters.' EXPIRED(yr4).",
+  "Jonathan Jefferson": "DT, 2024 standout - RETURNS from injury (missed all of '25). yr4 but both list as returning. yr4_return_override.",
+  "Keveion'ta Spears": "DT, 68.3/328 - yr4 but returning DT depth. yr4_return_override.",
+  "Randy Pittman Jr.": "TE, 62.2/235 - ARRIVES from Florida State (confirmed cross-build - FSU departure). ACC tape.",
+  "Marques White": "DE, 90.2/470 - ARRIVES from UMass (2025 tape at UMass, elite G5 edge). The DL headliner (MAC-weighted)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts. Moderate churn (14 in / 25 out).",
+  "9-4 (6-2 ACC) in '25 - a strong, balanced team (OFF p73, PBLK p94, DEF p81, RDEF p91, PF 419/PA 267). Athlon 'ACC title favorites.'",
+  "RETURNS: proven QB Kevin Jennings (top-10 passer, super-senior) + a STRONG OL (PJ Williams NFL + Bates + Nichols, 3 returning starters) + an 'impressive LB trio' (Booker NFL upside + Kilgore + Miyazono). Strengths.",
+  "TURNOVER: RB (Harden + Johnson gone; Raphael Cal + Green); WR/TE 'almost completely different' (Hudson yr4/Brinson/Hibner NFL/Maryland gone; Yamir Knight + Hale/Ala + Smith/ECU + TE room); DL loses ALL 4 senior starters (Robertson/Smith/M'ba yr4) reworked w/ White (UMass elite) + transfers + Jefferson (injury return); DB loses top-3 (Moses/Nwokobia/Harmon yr4) keeps Barnes/Nettles/Polley + transfers. ST: K upgrade (Nick Reed AA)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T01:20:00Z"
+}

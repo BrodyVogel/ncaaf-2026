@@ -1,0 +1,37 @@
+{
+ "id": 2567,
+ "school": "SMU",
+ "mascot": "Mustangs",
+ "abbreviation": "SMU",
+ "alternateNames": [
+  "Southern Methodist",
+  "SMU",
+  "SMU"
+ ],
+ "conference": "ACC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#354ca1",
+ "alternateColor": "#cc0035",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2567.png"
+ ],
+ "twitter": "@SMUFB",
+ "location": {
+  "id": 3735,
+  "name": "Gerald J. Ford Stadium",
+  "city": "University Park",
+  "state": "TX",
+  "zip": "75275",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 32.8377223,
+  "longitude": -96.7827859,
+  "elevation": "169.4058075",
+  "capacity": 32000,
+  "constructionYear": 2000,
+  "grass": false,
+  "dome": false
+ }
+}

@@ -1,0 +1,36 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Kevin Jennings,QB,SR,returning,Athlon,PS,H,78.6/530 (ACC +2.08 -> 80.7 adj); 3541 yds top-10 passer; super senior healthy
+QB,2,Ty Hawkins,QB,FR,returning,Athlon,PS,L,"QB of the future"; dual-threat
+RB,1,Kendrick Raphael,RB,JR,transfer:California,Athlon,PS,M,73.7/231 (ACC +4.90 -> 78.6 adj); 943 rush; scored GW TD vs SMU
+RB,2,Dramekco Green,RB,SO,returning,Athlon,PS,L,2nd-year back
+RB,3,Derrick McFall,RB,SO,returning,Athlon,PS,L,67.9/35 depth
+WRTE,1,Yamir Knight,WR,SR,returning,Athlon,PS,M,74.5/307 (ACC +2.36 -> 76.9 adj); dynamic slot; 637 yds
+WRTE,2,Yannick Smith,WR,JR,transfer:East Carolina,Athlon,PS,M,66.3/334 (AAC +0.45 -> 66.8 adj); 583 yds
+WRTE,3,Jalen Hale,WR,JR,transfer:Alabama,Athlon,PS,L,49.1/24 tiny (SEC); healthy 1st time in 3 yrs
+WRTE,4,Jalen Cooper,WR,SO,returning,Athlon,PS,L,61.5/188 (63.9 adj); 2nd-yr
+WRTE,5,Theo Melin Ohrstrom,TE,SR,transfer:Texas A&M,Athlon,PS,M,57.7/192 (SEC); TE1
+WRTE,6,Randy Pittman Jr.,TE,SR,transfer:Florida State,Athlon,PS,L,62.2/235 (ACC +2.36 -> 64.6 adj); [xref FSU closed]
+OL,1,PJ Williams,OT,SR,returning,Athlon,PS,H,80.0/744 (ACC +3.54 -> 83.5 adj); LT; high NFL draft pick
+OL,2,Joshua Bates,C,JR,returning,Athlon,PS,M,70.0/874 (ACC +3.54 -> 73.5 adj); C
+OL,3,Addison Nichols,G,SR,returning,Athlon,PS,M,72.8/875 (ACC +3.54 -> 76.3 adj); RG
+OL,4,Andrew Chamblee,OT,SR,returning,Athlon,PS,M,58.8/311 (62.3 adj); RT
+OL,5,Alex Woods,G,JR,returning,Athlon,PS,L,LG; young starter
+DL,1,Marques White,ED,SR,transfer:UMass,Athlon,PS,H,90.2/470 (MAC -6.43 -> 83.8 adj weighted); elite edge
+DL,2,Jahkai Lang,ED,JR,returning,Athlon,PS,M,79.6/410 (ACC +1.19 -> 80.8 adj)
+DL,3,Jonathan Jefferson,DI,SR,returning,Athlon,PS,M,injury return (missed all '25); 2024 standout; yr4_return_override
+DL,4,Christian Davis,DI,SR,transfer:Louisiana Tech,Athlon,PS,M,69.9/360 (CUSA -7.88 -> weighted ~62)
+DL,5,Malcolm Alcorn-Crowder,DI,JR,transfer:Kansas State,Athlon,PS,M,70.1/337 (B12 +3.12 -> 73.2 adj)
+DL,6,Keveion'ta Spears,DI,SR,returning,Athlon,PS,L,68.3/328 (yr4_return_override); DT depth
+DL,7,Ira Singleton IV,ED,SR,transfer:South Florida,Athlon,PS,L,65.2/357 (AAC); edge depth
+LB,1,Brandon Booker,LB,SR,returning,Athlon,PS,H,72.4/665 (ACC +2.13 -> 74.5 adj); NFL upside
+LB,2,Alexander Kilgore,LB,JR,returning,Athlon,PS,M,68.2/447 (70.3 adj)
+LB,3,Brandon Miyazono,LB,JR,returning,Athlon,PS,M,69.3/424 (71.4 adj)
+LB,4,Caden Marshall,LB,SO,transfer:Bowling Green,Athlon,PS,L,60.6/324 (MAC); depth
+DB,1,Tyren Polley Jr.,S,JR,returning,Athlon,PS,M,80.7/261 (ACC +1.18 -> 81.9 adj); good S
+DB,2,Marcellus Barnes Jr.,CB,SR,returning,Athlon,PS,M,62.7/532 (63.9 adj); all-ACC caliber
+DB,3,William Nettles,CB,JR,returning,Athlon,PS,M,63.4/499 (64.6 adj)
+DB,4,Jayvon Thomas,CB,JR,transfer:Texas A&M,Athlon,PS,M,56.3/66 tiny (SEC); all-ACC caliber (PS)
+DB,5,Jimmy Wyrick,S,JR,transfer:UTSA,Athlon,PS,L,AAC S; transfer
+DB,6,Jarvis Lee,NB,SR,transfer:South Florida,Athlon,PS,M,66.4/656 (AAC -3.27 -> 63.1 adj); 55 tkl
+ST,1,Nick Reed,K,SR,transfer:New Hampshire,Athlon,PS,M,FCS All-American; K upgrade
+ST,2,Wade McSparron,P,JR,returning,Athlon,PS,L,returning punter
