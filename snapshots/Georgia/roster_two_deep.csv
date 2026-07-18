@@ -1,0 +1,37 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Gunner Stockton,QB,SR,returning,Athlon,PS,H,81.1/495 (SEC +7.72 weighted; 3rd-team All-SEC, 2894/24/5 + 462 rush/10 TD; proven, ceiling/floor gap)
+QB,2,Ryan Puglisi,QB,SO,returning,Athlon,PS,L,76.6/30 tiny (SEC); developmental backup
+RB,1,Nate Frazier,RB,JR,returning,Athlon,PS,H,90.0/173 (SEC +10.17 weighted -> elite; 947 yds/5.5; zero fumbles final 11 games)
+RB,2,Chauncey Bowens,RB,SO,returning,Athlon,PS,M,78.1/103 (SEC weighted; 526 yds/5.1)
+RB,3,Dante Dowdell,RB,SR,transfer:Kentucky,Athlon,PS,M,72.3/112 (SEC; short-yardage/goal-line replacement for McCray)
+RB,4,Dwight Phillips Jr.,RB,SO,returning,Athlon,PS,L,73.9/35 (SEC small sample; big-play ability)
+WRTE,1,London Humphreys,WR,SR,returning,Athlon,PS,M,61.5/206 (SEC +5.94 -> 67.4 adj; ONLY top-5 WR back; big-game exp)
+WRTE,2,Isiah Canion,WR,JR,transfer:Georgia Tech,Athlon,PS,M,66.8/283 (ACC +2.36 -> 69.2 adj; 4-star transfer, 480 yds/14.6)
+WRTE,3,Lawson Luckie,TE,SR,returning,Athlon,PS,M,59.8/191 (SEC +5.94 -> 65.7 adj; proven red-zone threat; 3-TD game)
+WRTE,4,Talyn Taylor,WR,FR,returning,Athlon,PS,L,5-star; likely breakout candidate
+WRTE,5,Elyiss Williams,TE,SO,returning,Athlon,PS,L,75.1/34 tiny (SEC; blocking TE)
+WRTE,6,Kaiden Prothro,TE,FR,returning,Athlon,PS,L,6-6 Top50 true frosh; spring hero + Top100 CJ Wiley (WR). LOST Branch (pro) + Young/Bell/Thomas + Delp
+OL,1,Drew Bobo,C,SR,returning,Athlon,PS,H,74.1/721 (SEC +13.45 weighted DOWN; 2nd-team All-SEC C)
+OL,2,Earnest Greene III,OT,SR,returning,Athlon,PS,M,63.2/497 (SEC weighted; excelled at tackle)
+OL,3,Dontrell Glover,G,SO,returning,Athlon,PS,M,64.7/766 (SEC weighted; Freshman All-American)
+OL,4,Juan Gaston,OT,SO,returning,Athlon,PS,M,58.8/496 (SEC weighted; Top100, some frosh starts; open-tackle favorite)
+OL,5,Zykie Helton,G,FR,returning,Athlon,PS,L,frosh spring hero (open guard) + 5-star frosh Ekene Ogboko (T). LOST Freeling (1st rd) + Morris (drafted). Run push #65
+OL,6,Michael Uini,G,SO,returning,Athlon,PS,L,Top100 depth (guard battle)
+DL,1,Elijah Griffin,DI,SO,returning,Athlon,PS,H,71.6/363 (SEC +7.87 weighted; ultra-talented soph DT)
+DL,2,Xzavier McLeod,DI,JR,returning,Athlon,PS,M,69.4/272 (SEC weighted; 4th-yr NT anchor)
+DL,3,Gabe Harris Jr.,ED,SR,returning,Athlon,PS,M,65.4/443 (SEC weighted; returning DE)
+DL,4,Jordan Hall,DI,JR,returning,Athlon,PS,M,DT rotation; part of "8 of the 3-deep back"
+DL,5,Joseph Jonah-Ajonye,ED,SO,returning,Athlon,PS,L,edge rotation + Nnamdi Ogboko (NT)
+DL,6,Isaiah Gibson,ED,FR,returning,Athlon,PS,L,#1 edge recruit of 2025 (5-star). LOST Christen Miller (84.5, pro). PRSH p5 in '25
+LB,1,Chris Cole,LB,JR,returning,Athlon,PS,H,81.8/423 (SEC +14.01 weighted DOWN -> elite; former 5-star ILB)
+LB,2,Raylen Wilson,LB,SR,returning,Athlon,PS,H,70.6/550 (SEC weighted; dominant '25; former 5-star)
+LB,3,Quintavius Johnson,ED,JR,returning,Athlon,PS,M,63.1/549 (SEC weighted; returning JACK/OLB; pass-rush focus)
+LB,4,Justin Williams,LB,JR,returning,Athlon,PS,M,70.3/225 (SEC weighted; 3rd ILB, former 5-star). LOST CJ Allen (All-SEC, pro)
+DB,1,KJ Bolden,S,JR,returning,Athlon,PS,H,85.9/725 (SEC +5.44 -> elite; 2nd-team All-SEC S)
+DB,2,Ellis Robinson IV,CB,SO,returning,Athlon,PS,H,69.1/499 (SEC +5.44 -> 74.5 adj; #1 CB of 2024, FWAA Freshman of Year)
+DB,3,Khalil Barnes,S,SR,transfer:Clemson,Athlon,PS,M,64.9/522 (ACC +1.18 -> 66.1 adj; 3-yr starter; S or Star/nickel)
+DB,4,Demello Jones,CB,JR,returning,Athlon,PS,M,64.7/374 (SEC +5.44 -> 70.1 adj; Top100; other-corner battle)
+DB,5,Gentry Williams,CB,SR,transfer:Oklahoma,Athlon,PS,M,63.8/178 (SEC; other-corner competition)
+DB,6,Ja'Marley Riddle,S,JR,transfer:East Carolina,Athlon,PS,L,All-AAC ballhawk + Zion Branch/Rasean Dinkins depth. LOST Everette (CB)
+ST,1,Peyton Woodring,K,SR,returning,Athlon,PS,H,4th-yr placekicker; "reliable as they come"; clutch
+ST,2,Drew Miller,P,SO,returning,Athlon,PS,M,strong-legged RS-soph; hang time (Thorson gone)

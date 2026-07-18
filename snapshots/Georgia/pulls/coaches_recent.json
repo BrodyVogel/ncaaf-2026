@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Kirby",
+  "lastName": "Smart",
+  "hireDate": "2015-12-06T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Georgia",
+    "year": 2024,
+    "games": 14,
+    "wins": 11,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": 1,
+    "postseasonRank": 6,
+    "srs": 16.3,
+    "spOverall": 24.3,
+    "spOffense": 37.3,
+    "spDefense": 14.9
+   }
+  ]
+ },
+ {
+  "firstName": "Kirby",
+  "lastName": "Smart",
+  "hireDate": "2015-12-06T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Georgia",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 16,
+    "spOverall": 24.1,
+    "spOffense": 37,
+    "spDefense": 14.8
+   }
+  ]
+ }
+]

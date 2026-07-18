@@ -1,0 +1,41 @@
+{
+ "team": "Georgia",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T03:10:00+00:00",
+ "assembler_git_rev": "9208f42",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Kirby Smart (Year 11, NO CHANGE; band x1.00). DC Glenn Schumann. '25: 12-2 (7-1 SEC), Playoff; National Forecast 2. Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC); arrivals on origin cells. SEC offsets LARGE - big cells (OL/LB/RB) WEIGHTED DOWN; small samples discounted. LOW CHURN (9 in / 16 out) - a returning, blue-chip roster. Within-SEC transfers on SEC cell (Dowdell Kentucky, Gentry Williams Oklahoma); others on origin (Canion GT/ACC, Barnes Clemson/ACC, Riddle ECU/AAC).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [
+  "Zachariah Branch",
+  "Christen Miller",
+  "CJ Allen"
+ ],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Zachariah Branch": "WR, 'best offensive weapon' - GONE, WENT PRO (P6). Junior declare, invisible to yr4+portal feeds -> nfl_declare_confirmed.",
+  "Christen Miller": "DI, 84.5/437 (the best returning DL grade) - GONE, WENT PRO (P6 'Christen Miller went pro but the other eight linemen in the 3-deep are all back'). Junior declare -> nfl_declare_confirmed. Grade-critical.",
+  "CJ Allen": "LB, 1st-team All-SEC - GONE, WENT PRO (P6). Junior declare -> nfl_declare_confirmed. The three returning LB starters (Wilson/Cole/Williams) are all former 5-stars.",
+  "Gunner Stockton": "QB, 81.1/495 - RETURNS. 3rd-team All-SEC (2894/24/5 + 462 rush/10 TD); proven, championship-caliber (P6). Ceiling/floor gap (Athlon).",
+  "Nate Frazier": "RB, 90.0/173 - RETURNS. Lead back (947 yds/5.5; zero fumbles final 11). Elite (SEC +10.17 weighted).",
+  "Christen Miller_note": "see above - do NOT carry as returning.",
+  "Daylen Everette": "CB, 69.7/751 (yr4) - GONE. P6 'four starters back in the secondary with Daylen Everette the LONE departure.' EXPIRED(yr4).",
+  "Monroe Freeling": "OT - GONE, 1st-round NFL draft (P6). Micah Morris (G) also drafted.",
+  "Oscar Delp": "TE, 63.2/202 (yr4) - GONE (P6 'loses starting TE Oscar Delp'). TE room stays deep. EXPIRED(yr4).",
+  "Ellis Robinson IV": "CB, 69.1/499 - RETURNS. #1 CB of the 2024 class; FWAA Freshman of the Year (grade modest as a true frosh; the talent is elite)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 2026 charts. LOW churn (9 in / 16 out) - an elite returning roster (14 starters back per P6). Three junior PRO declares (Branch/Miller/CJ Allen) invisible to yr4+portal feeds - added via nfl_declare_confirmed, 3/2-source verified.",
+  "12-2 Playoff team; National Forecast 2; P6's SEC title pick. '25 profile: elite offense (OFF p83, PASS p88, PBLK p96) + elite run D/tackling (RDEF p96, TACK p98) but a SHOCKINGLY bad pass rush (PRSH p5) - the one quantified weakness.",
+  "TWO GENUINE QUESTION MARKS on an otherwise loaded roster: (1) WR - lost its best weapon (Branch, pro) + 3 more; only Humphreys returns of the top 5; leaning on 5-star freshmen (Taylor/Wiley) + a Top50 frosh TE (Prothro) + GT transfer Canion. P6: 'needs the 5-star recruits to rise as game-changers.' (2) PASS RUSH - PRSH p5, lost the best lineman (Miller, pro); deep/talented but unproven at getting home.",
+  "STRENGTHS: proven QB (Stockton, 3rd-team All-SEC), an elite/deep backfield (Frazier 90.0 + Bowens + Dowdell), an experienced blue-chip OL (Bobo/Greene/Glover, 3 starters back), a deep run-stout DL (8 of the 3-deep back, RDEF p96), a 5-star LB corps (Cole 81.8 + Wilson + Williams), a loaded secondary (Bolden 85.9 + Robinson FWAA Fr-of-Year + deep transfers), + an elite K (Woodring)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded); DISCLOSED: Georgia's P6 ranking (#1, SEC title pick) incidentally visible during source inspection (one of six teams flagged in SEC_PAGE_MAP.md) - logged in research_log.md, NOT used in grading",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T03:39:34+00:00"
+}

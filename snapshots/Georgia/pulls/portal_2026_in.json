@@ -1,0 +1,110 @@
+[
+ {
+  "season": 2026,
+  "firstName": "Gentry",
+  "lastName": "Williams",
+  "position": "CB",
+  "origin": "Oklahoma",
+  "destination": "Georgia",
+  "transferDate": "2026-01-13T15:46:00.000Z",
+  "rating": 0.87,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Ja'Marley",
+  "lastName": "Riddle",
+  "position": "S",
+  "origin": "East Carolina",
+  "destination": "Georgia",
+  "transferDate": "2026-01-09T19:40:00.000Z",
+  "rating": 0.87,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "TyQuez",
+  "lastName": "Richardson",
+  "position": "OT",
+  "origin": "Alabama A&M",
+  "destination": "Georgia",
+  "transferDate": "2026-01-16T01:38:00.000Z",
+  "rating": 0.87,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Amaris",
+  "lastName": "Williams",
+  "position": "EDGE",
+  "origin": "Auburn",
+  "destination": "Georgia",
+  "transferDate": "2026-01-08T20:06:00.000Z",
+  "rating": 0.94,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Dante",
+  "lastName": "Dowdell",
+  "position": "RB",
+  "origin": "Kentucky",
+  "destination": "Georgia",
+  "transferDate": "2026-01-12T18:22:00.000Z",
+  "rating": 0.9,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Isiah",
+  "lastName": "Canion",
+  "position": "WR",
+  "origin": "Georgia Tech",
+  "destination": "Georgia",
+  "transferDate": "2026-01-08T18:47:00.000Z",
+  "rating": 0.94,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Bryson",
+  "lastName": "Beaver",
+  "position": "QB",
+  "origin": "Oregon",
+  "destination": "Georgia",
+  "transferDate": "2026-01-15T01:13:00.000Z",
+  "rating": 0.91,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Khalil",
+  "lastName": "Barnes",
+  "position": "S",
+  "origin": "Clemson",
+  "destination": "Georgia",
+  "transferDate": "2026-01-04T21:01:00.000Z",
+  "rating": 0.87,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Braylon",
+  "lastName": "Conley",
+  "position": "CB",
+  "origin": "USC",
+  "destination": "Georgia",
+  "transferDate": "2026-01-08T19:04:00.000Z",
+  "rating": 0.86,
+  "stars": 3,
+  "eligibility": "Immediate"
+ }
+]
