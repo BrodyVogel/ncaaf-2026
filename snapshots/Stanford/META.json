@@ -1,0 +1,37 @@
+{
+ "team": "Stanford",
+ "conference": "ACC",
+ "created_utc": "2026-07-18T01:07:48+00:00",
+ "assembler_git_rev": "f8c4193",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Tavita Pritchard (PS '1st Year Here / 1st Overall'; prior HC exp none). NEW DC Kris Richard. GM Andrew Luck. -> HC-only CHANGE for '26 -> band x1.13. Verified BOTH sources. (2025 was interim Frank Reich; 2024 Troy Taylor - HC churn.)",
+ "conference_note": "ACC (P4; Stanford joined '24 - own '25 tape = ACC, NOT a Pac-remnant offset case). R14: ACC cells POSITIVE on returning tape; arrivals on origin cells. Arrivals: Davis Warren Michigan/B10 (QB - 1,199 yds, off ACL), Nico Brown Yale/FCS (NO CELL - WR, 1,065 Ivy); Leroy Bryant Washington/B10 (+6.33 DB). Light portal (6 in / 12 out).",
+ "portal_departure_confirmed": ["Wilfredo Aybar"],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": ["Matt Rose", "Ernest Cooper", "Tevarua Tafiti", "Zach Rowell", "Fisher Anderson", "David Pantelis"],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Tavita Pritchard": "NEW HC (1st year) - coach_change TRUE, band x1.13. GM Andrew Luck; NEW DC Kris Richard.",
+  "Davis Warren": "QB, Michigan transfer (1,199 yds/7-9 '24) - QB1. Modest, off ACL (missed spring). Gulbranson (yr4) + Elijah Brown (-> Washington) gone.",
+  "Micah Ford": "RB, 81.8/143 (643 yds) - RETURNS, the lead. 'Could flirt with 1,000.' Cole Tabb (-> Cincinnati) gone.",
+  "Matt Rose": "LB, 80.1/622 (106 tkl, 'heart and soul') - RETURNS. yr4 but both list as returning + 'NFL potential.' yr4_return_override.",
+  "CJ Williams": "WR, 76.5/403 (best WR) - GONE (yr4). Both omit (WR = High + Pantelis + Hall). EXPIRED(yr4).",
+  "Sam Roush": "TE, 57.1/391 - GONE (yr4 AND PS '#3 DC CHI' draft note). EXPIRED(yr4).",
+  "Clay Patterson": "DL, 82.8/421 (best DT) - GONE (yr4). Both omit (DL = Cooper/Tafiti/Rowell/Marceau-Olayinka). EXPIRED(yr4). VERIFIED BOTH.",
+  "Ernest Cooper": "DE, 56.3/438 - RETURNS. yr4 but PS 'both starting DEs back.' yr4_return_override.",
+  "Tevarua Tafiti": "DE, 65.3/599 - RETURNS. yr4 but PS 'both starting DEs back.' yr4_return_override.",
+  "Jay Green": "S, 76.5/631 - RETURNS, the safety anchor. Both feature. Not yr4."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts. Light churn (6 in / 12 out). NEW HC Pritchard (band x1.13).",
+  "4-8 (3-5 ACC) in '25 - the ACC's weakest (#17/17, Athlon #84 national). A BAD offense (OFF p12, PASS p6, PBLK p4 - worst pass-block; RBLK p13) + a below-avg D (DEF p20) that played well in the red zone.",
+  "OFFENSE weak: QB Davis Warren (Michigan, modest, off ACL); OL weak (Prongos NFL-caliber LT the bright spot); WR reload (High returns + Ivy transfers Pantelis/Nico Brown; lost CJ Williams yr4 + Roush yr4/draft + Farrell yr4). RB Micah Ford (643, could hit 1,000) the offensive strength.",
+  "DEFENSE has pieces: LB Matt Rose (106 tkl, 'heart+soul', NFL potential) + Galvan; S Jay Green + safety room; but DL weak (lost best DT Patterson yr4; PRSH p17). ST a relative strength (veteran K Kenney + P Flintoft, SPEC p74). New DC Kris Richard."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T01:35:00Z"
+}

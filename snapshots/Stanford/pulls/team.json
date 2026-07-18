@@ -1,0 +1,36 @@
+{
+ "id": 24,
+ "school": "Stanford",
+ "mascot": "Cardinal",
+ "abbreviation": "STAN",
+ "alternateNames": [
+  "STAN",
+  "Stanford"
+ ],
+ "conference": "ACC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#8c1515",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/24.png"
+ ],
+ "twitter": "@StanfordFball",
+ "location": {
+  "id": 3940,
+  "name": "Stanford Stadium",
+  "city": "Stanford",
+  "state": "CA",
+  "zip": "94305",
+  "countryCode": "US",
+  "timezone": "America/Los_Angeles",
+  "latitude": 37.4345556,
+  "longitude": -122.1611271,
+  "elevation": "18.38425636",
+  "capacity": 50424,
+  "constructionYear": 2006,
+  "grass": true,
+  "dome": false
+ }
+}

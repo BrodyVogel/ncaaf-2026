@@ -1,0 +1,10 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Niki Prongos,162464,T,STANFORD,12,100.0,1,300,63.9,75.2,55.5,6,7,442,100.0,100.0,97.2,5,19,6,814,0,0,814,814,465,465,0,0,349,0,2025_this_team
+Kahlil House,188868,T,STANFORD,12,100.0,1,300,43.5,38.5,48.2,9,22,426,100.0,100.0,95.2,6,36,5,777,0,0,0,777,449,449,52,725,328,0,2025_this_team
+Fisher Anderson,128961,C,STANFORD,12,100.0,2,300,55.4,60.9,53.5,5,17,412,100.0,100.0,97.1,7,23,1,748,682,24,0,748,433,433,42,0,315,0,2025_this_team
+Emeka Ugorji,200326,G,STANFORD,10,100.0,1,300,46.5,27.6,51.1,6,11,290,100.0,100.0,94.7,2,24,7,523,0,0,0,523,302,302,434,89,221,0,2025_this_team
+Josh Williams,200324,G,STANFORD,6,100.0,0,300,55.6,52.8,53.5,5,6,208,100.0,100.0,95.9,0,14,3,387,0,387,0,387,220,220,0,0,167,0,2025_this_team
+Ziron Brown,188857,G,STANFORD,7,100.0,1,300,47.4,38.8,51.7,1,9,189,100.0,100.0,95.8,3,13,3,339,132,141,0,339,201,201,66,0,138,0,2025_this_team
+Simione Pale,176626,G,STANFORD,4,100.0,0,300,59.0,34.6,65.1,3,3,101,100.0,100.0,97.0,1,6,0,214,0,0,0,214,107,107,214,0,107,0,2025_this_team
+Zak Yamauchi,200315,G,STANFORD,4,100.0,1,300,49.0,15.1,57.7,1,3,77,100.0,100.0,92.2,1,8,4,142,0,136,0,142,81,81,6,0,61,0,2025_this_team
+Nick Fattig,173636,G,STANFORD,3,100.0,0,300,65.8,85.2,60.4,0,0,65,100.0,100.0,100.0,0,0,0,126,0,126,0,126,67,67,0,0,59,0,2025_this_team

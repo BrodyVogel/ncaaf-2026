@@ -1,0 +1,74 @@
+[
+ {
+  "season": 2026,
+  "firstName": "Carter",
+  "lastName": "Shaw",
+  "position": "WR",
+  "origin": "UCLA",
+  "destination": "Stanford",
+  "transferDate": "2026-01-27T20:54:59.000Z",
+  "rating": 0.84,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Davis",
+  "lastName": "Warren",
+  "position": "QB",
+  "origin": "Michigan",
+  "destination": "Stanford",
+  "transferDate": "2026-01-08T04:08:17.000Z",
+  "rating": 0.85,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Aidan",
+  "lastName": "Kilstrom",
+  "position": "IOL",
+  "origin": "Harvard",
+  "destination": "Stanford",
+  "transferDate": "2026-01-06T20:39:00.000Z",
+  "rating": 0.85,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Nico",
+  "lastName": "Brown",
+  "position": "WR",
+  "origin": "Yale",
+  "destination": "Stanford",
+  "transferDate": "2026-01-21T22:17:00.000Z",
+  "rating": 0.86,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Dara",
+  "lastName": "Adeyemi",
+  "position": "OT",
+  "origin": "Bucknell",
+  "destination": "Stanford",
+  "transferDate": "2026-01-19T19:55:00.000Z",
+  "rating": 0.85,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Leroy",
+  "lastName": "Bryant",
+  "position": "CB",
+  "origin": "Washington",
+  "destination": "Stanford",
+  "transferDate": "2026-01-10T02:35:40.000Z",
+  "rating": 0.86,
+  "stars": 3,
+  "eligibility": "Immediate"
+ }
+]

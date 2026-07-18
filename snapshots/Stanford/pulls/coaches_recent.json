@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Troy",
+  "lastName": "Taylor",
+  "hireDate": "2022-12-10T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Stanford",
+    "year": 2024,
+    "games": 12,
+    "wins": 3,
+    "losses": 9,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -5.7,
+    "spOverall": -8.2,
+    "spOffense": 24.4,
+    "spDefense": 34.1
+   }
+  ]
+ },
+ {
+  "firstName": "Frank",
+  "lastName": "Reich",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Stanford",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -4.1,
+    "spOverall": -11.8,
+    "spOffense": 18.4,
+    "spDefense": 28.6
+   }
+  ]
+ }
+]

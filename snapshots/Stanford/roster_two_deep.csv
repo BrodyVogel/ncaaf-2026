@@ -1,0 +1,32 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Davis Warren,QB,SR,transfer:Michigan,Athlon,PS,L,1199 yds/7-9 at Michigan '24; off ACL (missed spring); veteran pocket presence
+RB,1,Micah Ford,RB,JR,returning,Athlon,PS,M,81.8/143 (ACC +4.90 -> 86.7 adj); 643 yds; "could flirt w/ 1,000"
+RB,2,Sedrick Irvin,RB,SO,returning,Athlon,PS,L,63.9/42; depth
+WRTE,1,Caden High,WR,SR,returning,Athlon,PS,M,68.1/257 (ACC +2.36 -> 70.5 adj); 37 rec/414 yds; top returner
+WRTE,2,David Pantelis,WR,SR,returning,Athlon,PS,L,yr4_return_override; 901 yds Yale '24 (Ivy, RS'25 ACL)
+WRTE,3,Nico Brown,WR,JR,transfer:Yale,Athlon,PS,L,Ivy (NO CELL); 1065 yds/1st-Tm All-Ivy
+WRTE,4,Benji Blackburn,TE,JR,returning,Athlon,PS,M,60.7/77 (63.1 adj); "next great Stanford TE"
+WRTE,5,JonAnthony Hall,WR,FR,returning,Athlon,PS,L,true frosh
+OL,1,Niki Prongos,OT,SR,returning,Athlon,PS,M,63.9/814 (ACC +3.54 -> 67.4 adj); LT; "NFL caliber"
+OL,2,Fisher Anderson,C,SR,returning,Athlon,PS,L,55.4/748 (yr4_return_override); C
+OL,3,Simione Pale,G,JR,returning,Athlon,PS,L,59.0/214 (injured '25); G
+OL,4,Nick Fattig,G,JR,returning,Athlon,PS,L,65.8/126; LG
+OL,5,Kahlil House,OT,SO,returning,Athlon,PS,L,43.5/777 (weak); RT
+DL,1,Tevarua Tafiti,ED,SR,returning,Athlon,PS,M,65.3/599 (ACC +1.19 -> 66.5 adj; yr4_return_override); DE
+DL,2,Ernest Cooper,ED,SR,returning,Athlon,PS,L,56.3/438 (yr4_return_override); DE
+DL,3,Zach Rowell,DI,SR,returning,Athlon,PS,L,49.5/260 (yr4_return_override); NT/interior rush
+DL,4,Braden Marceau-Olayinka,DI,JR,returning,Athlon,PS,M,67.1/276 (68.3 adj); "force"
+DL,5,Omar Staples,DI,JR,returning,Athlon,PS,L,67.1/220 (68.3 adj); depth
+DL,6,Gabe Kaminski,ED,SO,returning,Athlon,PS,L,79.9/54 (small sample); edge depth
+LB,1,Matt Rose,LB,SR,returning,Athlon,PS,H,80.1/622 (ACC +2.13 -> 82.2 adj; yr4_return_override); 106 tkl; "heart and soul"; NFL potential
+LB,2,Jahsiah Galvan,LB,JR,returning,Athlon,PS,M,75.3/315 (ACC +2.13 -> 77.4 adj)
+LB,3,Zach Johnson,LB,SO,returning,Athlon,PS,L,62.0/200; depth
+LB,4,Dylan Stephenson,LB,SO,returning,Athlon,PS,L,young LB
+DB,1,Jay Green,S,JR,returning,Athlon,PS,M,76.5/631 (ACC +1.18 -> 77.7 adj); good S
+DB,2,Brandon Nicholson,CB,JR,returning,Athlon,PS,M,71.3/489 (72.5 adj)
+DB,3,Charlie Eckhardt,S,SO,returning,Athlon,PS,L,61.2/310 (62.4 adj)
+DB,4,Darrius Davis,S,JR,returning,Athlon,PS,L,61.7/311 (62.9 adj)
+DB,5,Leroy Bryant,NB,JR,transfer:Washington,Athlon,PS,L,52.8/259 (B10; 2 INT bowl)
+DB,6,Aaron Morris,CB,SO,returning,Athlon,PS,L,62.9/124; depth
+ST,1,Emmet Kenney,K,SR,returning,Athlon,PS,M,veteran K
+ST,2,Aidan Flintoft,P,JR,returning,Athlon,PS,M,veteran P
