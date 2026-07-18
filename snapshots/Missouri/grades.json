@@ -1,0 +1,134 @@
+{
+ "team": "Missouri",
+ "units": {
+  "QB": {"grade": 50, "confidence": "M"},
+  "RB": {"grade": 72, "confidence": "M"},
+  "WRTE": {"grade": 52, "confidence": "M"},
+  "OL": {"grade": 58, "confidence": "M"},
+  "DL": {"grade": 48, "confidence": "M"},
+  "LB": {"grade": 54, "confidence": "M"},
+  "DB": {"grade": 50, "confidence": "M"},
+  "ST": {"grade": 56, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T04:19:08Z (6f14031)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells weighted DOWN; small samples discounted], arrivals on origin cells; HC Drinkwitz Year 7 NO change [band x1.00], new OC Lindsey [no multiplier]; disposition gate 37 rows / 0 adjudicate / 0 err - Trotter pro override, Giudice yr4-return, Carnell/Pride EXPIRED, cross-build ties consistent); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16). DISCLOSED: Missouri's P6 ranking (#10t) incidentally visible - logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB50/RB72/WRTE52/OL58/DL48/LB54/DB50/ST56, sum 440). No post-freeze corrections."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 13, RB 98, WRTE 79, OL 98, DL 48, LB 98, DB 51, ST 93) keys the '25 roster; the grades keep RB/OL/ST high + reset QB/WR + grade the rebuilt defense to its new personnel.",
+   "RB": "-26 vs proxy 98 - both credit the elite Hardy/Roberts duo; the grade weights the big SEC RB cell down.",
+   "OL": "-40 vs proxy 98 - proxy over-credits; the grade keys the 3 returning starters (Green) minus Trost/Tollison.",
+   "LB": "-44 vs proxy 98 - proxy over-credits the departed LBs; the grade keys Rodriguez + Woodyard (All-SEC) + small-sample 4-stars.",
+   "QB": "+37 vs proxy 13 - proxy = departed Pribula; the grade keys import Simmons (upside + turnover risk).",
+   "DL/DB": "grades near-or-above proxy - a total front-seven/secondary rebuild (Gracial + transfers over the departed All-SEC stars)."
+  }
+ },
+ "grades_detail": [
+  {"team": "Missouri", "unit": "QB", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["NC State QB 2026 (54, above)", "Kansas QB 2026 (42, below)"],
+   "rationale_bullets": [
+    "Austin Simmons (Ole Miss, 74.5/87 tiny -> SEC; huge arm, 4-star transfer, #10 QB this cycle - but all-or-nothing, 5 INT in 5 games before being benched) + Matt Zollers (returning). Pribula (yr4) -> Virginia.",
+    "A strong-armed, mobile transfer with real upside in a run-friendly offense, but a documented turnover problem + a new OC (Lindsey, mixed passing track record) + 3 new WRs.",
+    "High variance.",
+    "50: below NC State QB 54; above Kansas 42. The all-or-nothing transfer tier; the arm/upside vs the mistakes + new pieces. M."
+   ],
+   "key_players": [
+    {"name": "Austin Simmons", "role": "QB1 (transfer, Ole Miss)", "evidence": "74.5/87 tiny; 4-star transfer, #10 QB; huge arm; 5 INT/5 gms"}
+   ],
+   "data_gaps": ["5 INT in 5 games (turnover-prone)", "new OC + 3 new WRs"], "g5_guard_note": null},
+  {"team": "Missouri", "unit": "RB", "grade": 72, "confidence": "M",
+   "bracketing_exemplars": ["Texas Tech RB 2026 (72, peer)", "Rutgers RB 2026 (74, above)"],
+   "rationale_bullets": [
+    "Ahmad Hardy (91.9/257 -> SEC +10.17 weighted -> elite; consensus All-America, P4 rushing TITLE - 1,649 yds, 1,000+ after contact) + Jamal Roberts (76.1/123; 753 yds). Behind an All-SEC-anchored OL.",
+    "An ELITE, proven backfield - a consensus All-American / P4 rushing champion + a 750-yd running mate (one of just four P4 duos with 750+ each, per P6).",
+    "Behind a strong run-blocking line (RBLK p92).",
+    "72: ~Texas Tech RB 72; below Rutgers 74. The elite-backfield tier; Hardy is a genuine star. M."
+   ],
+   "key_players": [
+    {"name": "Ahmad Hardy", "role": "RB1 (returning)", "evidence": "91.9/257 (SEC-adj elite); consensus All-America; P4 rushing champ (1,649 yds)"},
+    {"name": "Jamal Roberts", "role": "RB (returning)", "evidence": "76.1/123; 753 yds"}
+   ],
+   "data_gaps": [], "g5_guard_note": null},
+  {"team": "Missouri", "unit": "WRTE", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Kansas State WRTE 2026 (52, peer)", "Louisville WRTE 2026 (48, below)"],
+   "rationale_bullets": [
+    "Donovan Olugbode (75.5/203 -> SEC 81.4 adj; Top100, 30/401 as a true frosh) + Cayden Lee (Ole Miss, 72.2/329; 4-star, 106/1,623 career, Simmons chemistry) + Caleb Goodie (Cincinnati, 63.5/303; vertical) + TE Brett Norfleet (4th-yr).",
+    "Lost 3 of the top 4 WRs (Coleman pro, Johnson + Manning to P4).",
+    "A reworked room with real pieces - an ascending Top100 returner + a 1,600-yd-career slot transfer (QB chemistry) + a vertical transfer - but new-together with a new QB.",
+    "52: ~Kansas State WRTE 52; above Louisville 48. The reload + chemistry lift it, the turnover caps it. M."
+   ],
+   "key_players": [
+    {"name": "Donovan Olugbode", "role": "WR (returning)", "evidence": "75.5/203 (81.4 SEC-adj); Top100; 30/401 as a true frosh"},
+    {"name": "Cayden Lee", "role": "WR (transfer, Ole Miss)", "evidence": "72.2/329; 4-star; 106/1,623 career; Simmons chemistry"}
+   ],
+   "data_gaps": ["lost 3 of the top 4 WRs", "new-together with a new QB"], "g5_guard_note": null},
+  {"team": "Missouri", "unit": "OL", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Penn State OL 2026 (58, peer)", "Georgia OL 2026 (60, above)"],
+   "rationale_bullets": [
+    "Cayden Green (83.9/750 -> SEC weighted DOWN; All-SEC LT - the anchor) + Dominick Giudice (71.4/897 C) + Curtis Peagler (63.4/833 G) - three returning starters - + Josh Atkins (ASU T) + Owens/Work (Mississippi State) + Tristan Wilson.",
+    "Lost Trost (All-SEC) + Tollison (48-game C).",
+    "A strong, experienced line - three returning starters anchored by an All-SEC LT - that was elite in pass-pro grade (PBLK p97) + improved to #22 in Run Push; pass pro fell to #103 with the young QBs.",
+    "58: ~Penn State OL 58; below Georgia 60. Green + the continuity anchor it. M."
+   ],
+   "key_players": [
+    {"name": "Cayden Green", "role": "LT (returning)", "evidence": "83.9/750; All-SEC; the anchor"},
+    {"name": "Dominick Giudice", "role": "C (returning, yr4-override)", "evidence": "71.4/897; returning interior starter"}
+   ],
+   "data_gaps": ["lost All-SEC G Trost + the 48-game C Tollison"], "g5_guard_note": null},
+  {"team": "Missouri", "unit": "DL", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Arizona DL 2026 (48, peer)", "Virginia DL 2026 (50, above)"],
+   "rationale_bullets": [
+    "Marquis Gracial (80.4/257 -> SEC +7.87 weighted; rises to starter) + Darris Smith (64.1/347; 5.5 TFL/4 sacks, the returning end) + Jalen Marshall (67.5) + Langden Kitchen (71.3) + Kamauryn Morgan (Baylor).",
+    "LOST three All-SEC-caliber pieces - Young (85.0, pro) + Damon Wilson (78.5, -> Miami) + McClellan (78.2) - + Webb.",
+    "A near-total front rebuild off a p95 pass-rush unit - it lost its three best rushers (two SEC top-three in QB pressures). Gracial (80.4) is a real bright spot, but the proven production is gone.",
+    "48: ~Arizona DL 48; below Virginia 50. Gracial + Batoon's scheme the upside, the lost production the drag. M."
+   ],
+   "key_players": [
+    {"name": "Marquis Gracial", "role": "DT (returning)", "evidence": "80.4/257 (SEC-adj); rises to starter"},
+    {"name": "Darris Smith", "role": "DE (returning)", "evidence": "64.1/347; 5.5 TFL/4 sacks"}
+   ],
+   "data_gaps": ["lost 3 All-SEC-caliber rushers (Young/Wilson/McClellan)", "reload unproven/DII/mid-transfer"], "g5_guard_note": null},
+  {"team": "Missouri", "unit": "LB", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["LSU LB 2026 (54, peer)", "Minnesota LB 2026 (55, above)"],
+   "rationale_bullets": [
+    "Nicholas Rodriguez (83.7/352 -> SEC +14.01 weighted DOWN; lone returner, some '25 starts) + Robert Woodyard (Auburn, 78.1/432; All-SEC - the like-for-like for Trotter) + Jeremiah Beasley (89.4/81 tiny) + Dante McClellan (91.9/43 tiny) + Brian Huff (4-star).",
+    "3 of 4 gone (incl. Trotter, pro).",
+    "A strong-on-paper room - a high-graded lone returner + an All-SEC transfer + a stack of high-graded (small-sample) former 4-stars.",
+    "54: ~LSU LB 54; below Minnesota 55. Rodriguez + Woodyard anchor it, the small samples the caveat. M."
+   ],
+   "key_players": [
+    {"name": "Nicholas Rodriguez", "role": "LB (returning)", "evidence": "83.7/352; lone returner; some '25 starts"},
+    {"name": "Robert Woodyard Jr.", "role": "LB (transfer, Auburn)", "evidence": "78.1/432; All-SEC; like-for-like for Trotter"}
+   ],
+   "data_gaps": ["lost star Trotter (pro)", "4-star depth on tiny samples"], "g5_guard_note": null},
+  {"team": "Missouri", "unit": "DB", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["Pittsburgh DB 2026 (50, peer)", "Baylor DB 2026 (52, above)"],
+   "rationale_bullets": [
+    "Chris Graves Jr. (Ole Miss, 64.7/683; experienced CB, high volume) + Santana Banner (63.5/541; the closest to a returning starter - starter-level snaps) + Jahlil Florence (Oregon, 63.9/19 tiny) + young depth.",
+    "ALL FIVE '25 starters gone (4 graduations + Burks -> Wisconsin).",
+    "A near-total rebuild off a COV p84 unit - an experienced Ole Miss transfer corner + a returning starter-snaps safety + an Oregon-transfer corner + youth. Modest grades, thin proven production.",
+    "50: ~Pittsburgh DB 50; below Baylor 52. The experience of Graves/Banner vs the wholesale turnover. M."
+   ],
+   "key_players": [
+    {"name": "Chris Graves Jr.", "role": "CB (transfer, Ole Miss)", "evidence": "64.7/683; experienced, high volume"},
+    {"name": "Santana Banner", "role": "S (returning)", "evidence": "63.5/541; starter-level snaps"}
+   ],
+   "data_gaps": ["all 5 DB starters gone", "modest grades; thin proven production"], "g5_guard_note": null},
+  {"team": "Missouri", "unit": "ST", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Georgia ST 2026 (60, above)", "LSU ST 2026 (54, below)"],
+   "rationale_bullets": [
+    "Blake Craig (K - returns from a torn ACL in the '25 opener; his pre-injury range/reliability) + Connor Weselman (P) + KR DaMarion Fowlkes (returns). SPEC was p93 in '25.",
+    "A healthy, reliable returning placekicker + a returning punter + a proven returner.",
+    "A bounce-back to the '25 unit's strength (p93) with Craig back.",
+    "56: below Georgia ST 60; above LSU 54. Above-average, specialist-driven (calib). M."
+   ],
+   "key_players": [
+    {"name": "Blake Craig", "role": "K (returning)", "evidence": "returns from a torn ACL ('25 opener); pre-injury range/reliability"},
+    {"name": "DaMarion Fowlkes", "role": "KR (returning)", "evidence": "returning return man"}
+   ],
+   "data_gaps": ["Craig returning from ACL"], "g5_guard_note": null}
+ ]
+}
