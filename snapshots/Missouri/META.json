@@ -1,0 +1,44 @@
+{
+ "team": "Missouri",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T03:14:00+00:00",
+ "assembler_git_rev": "a3601d8",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Eli Drinkwitz (Year 7, NO CHANGE; band x1.00). NEW OC Chip Lindsey (from Michigan) + new QB coach - a COORDINATOR change (does NOT trigger the band multiplier). 3rd-yr DC Corey Batoon retained. '25: 8-5 (4-4 SEC). National Forecast 29. Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC); arrivals on origin cells. SEC offsets LARGE - big cells (OL/LB/RB) WEIGHTED DOWN; small samples discounted. Arrivals on origin: Simmons+Lee+Graves (Ole Miss/SEC), Owens+Work (Miss State/SEC), Woodyard (Auburn/SEC), Goodie (Cincinnati/B12), Atkins (Arizona State/B12), Morgan (Baylor/B12), Simpson (Miami/ACC), Florence (Oregon/B10). Within-SEC transfers on SEC cell (small samples weighted down).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Dominick Giudice"
+ ],
+ "nfl_declare_confirmed": [
+  "Josiah Trotter"
+ ],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Beau Pribula": "QB, 76.1/334 (yr4) - the '25 starter (dislocated ankle vs Vanderbilt) - GONE -> Virginia (P6). Austin Simmons (Ole Miss) the new starter. EXPIRED(yr4).",
+  "Ahmad Hardy": "RB, 91.9/257 - RETURNS. Consensus All-America; P4 rushing TITLE (1,649 yds, 1,000+ after contact); the engine (SEC +10.17 weighted -> elite).",
+  "Josiah Trotter": "LB - GONE, WENT PRO (P6 '2025 star... went pro'; a trio of All-SEC front-seven talent gone). Junior declare, invisible to yr4+portal feeds -> nfl_declare_confirmed.",
+  "Zion Young": "DE, 85.0/569 (yr4) - GONE, WENT PRO (P6). All-SEC pass rusher. EXPIRED(yr4).",
+  "Damon Wilson II": "DE, 78.5/509 - GONE -> Miami (P6 'Top-10 overall transfer'). All-SEC pass rusher.",
+  "Chris McClellan": "DT, 78.2/550 (yr4) - GONE. Departing starting tackle. EXPIRED(yr4).",
+  "Kevin Coleman Jr.": "WR (yr4) - GONE, WENT PRO (P6). 1 of the 3 top-4 WRs lost. EXPIRED(yr4).",
+  "Connor Tollison": "OL, C (yr4) - GONE. The 48-game-starting center. EXPIRED(yr4).",
+  "Cayden Green": "OT, 83.9/750 - RETURNS. All-SEC LT; the OL anchor (SEC +13.45 weighted DOWN).",
+  "Robert Woodyard Jr.": "LB, 78.1/432 (Auburn transfer) - the All-SEC 'like-for-like' for Trotter (cross-build confirmed; his Auburn departure was logged there).",
+  "Dominick Giudice": "G/C, 71.4/897 (yr4) - RETURNS. Named a returning interior OL starter by Athlon + P6 ('3 starters back: Green, Peagler, Giudice'). yr4_return_override (R15).",
+  "Daylan Carnell": "S, 70.7/567 (yr4) - GONE. Among the 'all 5 DB starters gone' (graduation). EXPIRED(yr4); removed from the two-deep.",
+  "Toriano Pride Jr.": "CB, 74.4/573 (yr4) - GONE. Among the 'all 5 DB starters gone' (graduation). EXPIRED(yr4); removed from the two-deep."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 2026 charts. 'Reloading nearly the entire starting lineup' - ONLY 4 total starters return (P6). Josiah Trotter (LB) went pro - invisible to yr4+portal feeds, added via nfl_declare_confirmed.",
+  "8-5 (4-4 SEC) but an ELITE '25 profile on paper (OVER p96): a dominant run game (RUN p93, RBLK p92, PBLK p97) + a dominant defense (DEF p96, RDEF p98, PRSH p95) - but a mediocre pass game (PASS p51; #131 QB Rating vs winning teams). Drinkwitz 0-16 vs winning-record SEC teams.",
+  "THE ELITE RETURNING CORE: RB Ahmad Hardy (consensus All-America, P4 rushing champ) + Jamal Roberts - one of America's best duos - behind a 3-starter-back, All-SEC-anchored OL (Cayden Green). ST solid (Craig returns from ACL; SPEC p93). These carry the team.",
+  "THE TWO BIG RESETS: (1) QB/passing - new QB (Simmons, all-or-nothing 5 INT/5 gms) + new OC (Lindsey, mixed passing track record) + 3 new WRs (Lee/Goodie added; Olugbode returns). (2) DEFENSE - ALL 11 starters gone incl. 3 All-SEC front-seven stars (Young/Wilson pro-or-Miami, Trotter pro); Batoon reloads via the portal (Woodyard/Auburn, Graves/Ole Miss, Florence/Oregon) + returning Gracial/Rodriguez, but it's a near-total rebuild off a #8 unit."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded); DISCLOSED: Missouri's P6 ranking (#10t SEC) incidentally visible during source inspection (one of six teams flagged in SEC_PAGE_MAP.md) - logged in research_log.md, NOT used in grading",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T04:19:08+00:00"
+}

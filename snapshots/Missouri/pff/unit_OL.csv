@@ -1,0 +1,17 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Dominick Giudice,144942,G,MISSOURI,13,100.0,1,229,71.4,79.9,68.7,1,10,414,100.0,100.0,98.4,6,12,1,897,12,884,0,897,436,436,0,0,461,1,2025_this_team
+Keagen Trost,102324,T,MISSOURI,13,100.0,0,229,92.0,85.4,91.4,2,4,410,100.0,100.0,99.0,4,7,1,891,0,1,0,891,432,432,0,864,459,25,2025_this_team
+Connor Tollison,146881,C,MISSOURI,13,100.0,0,229,62.7,72.1,59.7,1,10,404,100.0,100.0,97.9,4,14,3,876,876,0,0,876,425,425,0,0,451,0,2025_this_team
+Curtis Peagler,157160,G,MISSOURI,13,100.0,2,229,63.4,79.1,60.6,4,4,391,100.0,100.0,98.7,8,9,1,833,0,0,0,833,411,411,833,0,422,0,2025_this_team
+Josh Atkins,144243,T,ARIZONA ST,12,100.0,0,110,66.0,73.8,59.2,2,13,409,100.0,100.0,97.4,5,18,3,792,0,0,788,792,439,439,0,0,353,3,arrival_2025_at_ARIZONA ST
+Cayden Green,173697,T,MISSOURI,11,100.0,0,229,83.9,89.6,78.2,2,3,347,100.0,100.0,98.7,3,7,2,750,0,0,737,750,367,367,0,0,383,12,2025_this_team
+Jayven Richardson,184485,T,MISSOURI,6,100.0,0,229,61.6,29.4,68.0,1,3,78,100.0,100.0,94.9,0,6,2,197,0,0,185,197,80,80,0,7,117,4,2025_this_team
+Tristan Wilson,157168,G,MISSOURI,9,100.0,0,229,71.4,71.2,68.8,0,2,45,100.0,100.0,97.8,0,2,0,168,60,12,0,168,48,48,94,0,120,0,2025_this_team
+Luke Work,184767,G,MISS STATE,9,100.0,0,227,57.1,74.3,60.2,1,2,71,100.0,100.0,96.5,3,4,1,156,0,55,1,156,74,74,45,53,82,0,arrival_2025_at_MISS STATE
+Jaylen Early,156282,G,MISSOURI,3,100.0,0,229,65.1,77.6,63.5,0,0,8,100.0,100.0,100.0,0,0,0,52,0,52,0,52,8,8,0,0,44,0,2025_this_team
+Johnny Williams IV,173193,T,MISSOURI,3,100.0,0,229,63.8,75.9,61.2,0,0,8,100.0,100.0,100.0,0,0,0,52,0,0,12,52,8,8,0,40,44,0,2025_this_team
+Henry Fenuku,198875,G,MISSOURI,3,100.0,0,229,78.3,74.3,75.7,0,0,3,100.0,100.0,100.0,0,0,0,20,4,0,0,20,3,3,16,0,17,0,2025_this_team
+Keiton Jones,198891,G,MISSOURI,2,100.0,0,229,60.4,69.8,59.8,0,0,1,100.0,100.0,100.0,0,0,0,8,0,0,0,8,1,1,8,0,7,0,2025_this_team
+Ryan Jostes,184479,G,MISSOURI,2,100.0,0,229,58.5,,58.4,0,0,0,,,,0,0,0,5,0,4,0,5,0,0,1,0,5,0,2025_this_team
+Jack Lange,198886,T,MISSOURI,1,100.0,0,229,60.4,,60.4,0,0,0,,,,0,0,0,4,0,0,4,4,0,0,0,0,4,0,2025_this_team
+Logan Reichert,175911,C,MISSOURI,1,100.0,0,229,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,0,1,0,0,0,0,1,0,2025_this_team

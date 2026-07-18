@@ -1,0 +1,29 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Austin Simmons,QB,JR,transfer:Ole Miss,Athlon,PS,M,74.5/87 tiny (SEC; huge arm, 4-star transfer #10 QB; all-or-nothing - 5 INT/5 gms at Ole Miss)
+QB,2,Matt Zollers,QB,SO,returning,Athlon,PS,L,49.3/108 (SEC; started a few games as a frosh - 53%, 4 TD, 2 INT). Pribula (yr4) -> Virginia
+RB,1,Ahmad Hardy,RB,JR,returning,Athlon,PS,H,91.9/257 (SEC +10.17 weighted -> elite; consensus All-America, P4 rushing TITLE 1,649 yds, 1000+ after contact)
+RB,2,Jamal Roberts,RB,JR,returning,Athlon,PS,M,76.1/123 (SEC weighted; 753 yds; the duo = one of the best in America)
+WRTE,1,Donovan Olugbode,WR,SO,returning,Athlon,PS,M,75.5/203 (SEC +5.94 -> 81.4 adj; Top100, 30/401 as a true frosh)
+WRTE,2,Cayden Lee,WR,SR,transfer:Ole Miss,Athlon,PS,M,72.2/329 (SEC; 4-star, slot, 106/1,623 career; Simmons chemistry)
+WRTE,3,Caleb Goodie,WR,SR,transfer:Cincinnati,Athlon,PS,M,63.5/303 (B12 +3.38; vertical outside threat)
+WRTE,4,Brett Norfleet,TE,SR,returning,Athlon,PS,M,55.1/254 (SEC; 4th-yr starting TE)
+WRTE,5,Shaun Terry II,WR,FR,returning,Athlon,PS,L,speedy 4-star frosh + Jordon Harris (TE 66.7/66)
+OL,1,Cayden Green,OT,SR,returning,Athlon,PS,H,83.9/750 (SEC +13.45 weighted DOWN; All-SEC LT - the anchor)
+OL,2,Dominick Giudice,C,SR,returning,Athlon,PS,M,71.4/897 (SEC weighted; returning G/C, huge volume)
+OL,3,Curtis Peagler,G,SR,returning,Athlon,PS,M,63.4/833 (SEC weighted; returning G)
+OL,4,Josh Atkins,OT,SR,transfer:Arizona State,Athlon,PS,M,66.0/792 (B12 +8.45 weighted DOWN; P4 starter)
+OL,5,Zach Owens,G,SR,transfer:Mississippi State,Athlon,PS,L,SEC (3-star transfer) + Luke Work (Miss St), Tristan Wilson (71.4 C). Lost Trost + Tollison (48-game C); pass pro #103
+DL,1,Marquis Gracial,DI,SR,returning,Athlon,PS,M,80.4/257 (SEC +7.87 weighted; rises to starter)
+DL,2,Darris Smith,ED,SR,returning,Athlon,PS,M,64.1/347 (SEC weighted; 5.5 TFL/4 sacks; the returning end)
+DL,3,Jalen Marshall,DI,SR,returning,Athlon,PS,L,67.5/193 (SEC; rises to starter)
+DL,4,Langden Kitchen,ED,SR,returning,Athlon,PS,L,71.3/171 (SEC/DII origin; edge rotation)
+DL,5,Kamauryn Morgan,ED,SO,transfer:Baylor,Athlon,PS,L,60.0/125 (B12; 4-star transfer) + Donta Simpson (Miami). LOST Young+Wilson+McClellan+Webb (all-SEC/starters)
+LB,1,Nicholas Rodriguez,LB,JR,returning,Athlon,PS,M,83.7/352 (SEC +14.01 weighted DOWN; lone returning LB, some '25 starts)
+LB,2,Robert Woodyard Jr.,LB,SR,transfer:Auburn,Athlon,PS,M,78.1/432 (SEC weighted; All-SEC - like-for-like for Trotter; cross-build from Auburn)
+LB,3,Jeremiah Beasley,LB,JR,returning,Athlon,PS,L,89.4/81 tiny (SEC; former 4-star, rising)
+LB,4,Dante McClellan,LB,SO,returning,Athlon,PS,L,91.9/43 tiny (SEC; former 4-star) + Brian Huff (4-star)
+DB,1,Chris Graves Jr.,CB,SR,transfer:Ole Miss,Athlon,PS,M,64.7/683 (SEC; experienced CB, high volume)
+DB,2,Santana Banner,S,JR,returning,Athlon,PS,M,63.5/541 (SEC; starter-level snaps; the closest to a returning starter)
+DB,3,Jahlil Florence,CB,JR,transfer:Oregon,Athlon,PS,L,63.9/19 tiny (B10; other corner). ALL 5 '25 DB starters gone (Carnell+Pride yr4 grad; Burks->Wisconsin); near-total rebuild + young depth
+ST,1,Blake Craig,K,JR,returning,Athlon,PS,M,returns from a torn ACL ('25 opener); pre-injury range/reliability; SPEC p93 unit in '25
+ST,2,Connor Weselman,P,SR,returning,Athlon,PS,L,punter + KR DaMarion Fowlkes (returns)

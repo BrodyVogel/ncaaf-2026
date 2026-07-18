@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Eli",
+  "lastName": "Drinkwitz",
+  "hireDate": "2019-12-09T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Missouri",
+    "year": 2024,
+    "games": 13,
+    "wins": 10,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": 11,
+    "postseasonRank": 22,
+    "srs": 8.9,
+    "spOverall": 14,
+    "spOffense": 33.7,
+    "spDefense": 18.7
+   }
+  ]
+ },
+ {
+  "firstName": "Eli",
+  "lastName": "Drinkwitz",
+  "hireDate": "2019-12-09T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Missouri",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 10.5,
+    "spOverall": 14.4,
+    "spOffense": 31.2,
+    "spDefense": 15.4
+   }
+  ]
+ }
+]
