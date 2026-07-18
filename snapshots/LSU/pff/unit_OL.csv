@@ -1,0 +1,19 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Josh Thompson,145039,G,LSU,12,100.0,0,211,64.2,83.8,56.8,1,6,449,100.0,100.0,99.2,3,7,0,787,0,0,0,787,483,483,786,0,304,1,2025_this_team
+Weston Davis,184448,T,LSU,12,100.0,2,211,47.1,49.5,48.6,3,26,394,100.0,100.0,95.3,9,33,4,699,0,0,0,699,424,424,0,693,275,6,2025_this_team
+Aliou Bah,157068,G,MARYLAND,12,100.0,0,215,60.7,72.3,54.7,2,13,460,100.0,100.0,98.4,2,15,0,681,0,0,0,681,470,470,681,0,211,0,arrival_2025_at_MARYLAND
+Coen Echols,184451,G,LSU,13,100.0,0,211,57.2,68.3,49.7,1,14,376,100.0,100.0,97.2,0,18,3,637,0,613,0,637,405,405,23,0,232,1,2025_this_team
+Braelin Moore,157655,C,LSU,12,100.0,0,211,69.8,81.8,63.2,3,3,366,100.0,100.0,98.9,2,7,1,623,623,0,0,623,394,394,0,0,229,0,2025_this_team
+Jordan Seaton,183886,T,COLORADO,9,100.0,2,143,65.8,84.1,52.0,0,5,312,100.0,100.0,98.6,4,7,2,561,0,0,560,561,328,328,0,0,233,0,arrival_2025_at_COLORADO
+Tyree Adams,172467,T,LSU,9,100.0,0,211,55.5,65.0,47.6,4,6,288,100.0,100.0,97.9,1,11,1,517,0,0,516,517,313,313,0,1,204,0,2025_this_team
+Sean Thompkins Jr.,174645,T,BAYLOR,10,100.0,0,118,50.1,56.0,48.1,2,12,250,100.0,100.0,95.6,2,18,4,460,0,0,446,460,270,270,0,14,190,0,arrival_2025_at_BAYLOR
+Carius Curne,199754,T,LSU,8,100.0,0,211,56.0,54.7,61.3,1,8,188,100.0,100.0,96.0,3,12,3,306,0,0,215,306,200,200,0,90,106,1,2025_this_team
+Paul Mubenga,172488,G,LSU,9,100.0,0,211,51.6,63.8,44.7,2,3,160,100.0,100.0,97.8,0,6,1,298,0,244,0,298,175,175,54,0,123,0,2025_this_team
+DJ Chester,172473,C,LSU,7,100.0,0,211,50.2,40.4,57.6,4,5,158,100.0,100.0,95.9,3,11,2,291,229,0,54,291,173,173,0,7,118,1,2025_this_team
+Ory Williams,184470,T,LSU,4,100.0,0,211,59.4,67.2,68.8,0,1,85,100.0,100.0,99.4,4,1,0,150,0,0,76,150,92,92,3,71,58,0,2025_this_team
+William Satterwhite II,184891,C,TENNESSEE,8,100.0,0,307,48.9,52.2,51.5,1,3,60,100.0,100.0,96.7,1,4,0,137,137,0,0,137,65,65,0,0,72,0,arrival_2025_at_TENNESSEE
+Devin Harper,205087,T,OLE MISS,6,100.0,0,226,71.2,82.3,67.0,0,0,21,100.0,100.0,100.0,0,0,0,72,0,0,7,72,22,22,0,55,50,1,arrival_2025_at_OLE MISS
+Bo Bordelon,157119,G,LSU,5,100.0,0,211,46.9,76.5,43.3,0,0,7,100.0,100.0,100.0,0,0,0,21,0,9,1,21,7,7,0,2,14,9,2025_this_team
+Darrin Strey,200145,T,KENTUCKY,3,100.0,0,202,53.0,77.2,59.1,0,0,6,100.0,100.0,100.0,1,0,0,18,0,0,0,18,7,7,0,18,11,0,arrival_2025_at_KENTUCKY
+Braden Augustus,172468,C,LSU,1,100.0,0,211,60.6,64.2,59.5,0,0,9,100.0,100.0,100.0,0,0,0,15,15,0,0,15,9,9,0,0,6,0,2025_this_team
+Ethan Calloway,184443,T,LSU,1,100.0,0,211,60.0,67.7,60.1,0,0,1,100.0,100.0,100.0,0,0,0,3,0,0,3,3,1,1,0,0,2,0,2025_this_team

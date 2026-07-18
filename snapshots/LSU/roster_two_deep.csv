@@ -1,0 +1,36 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Sam Leavitt,QB,JR,transfer:Arizona State,Athlon,PS,M,76.4/310 (B12 +5.86; #1 transfer QB; led ASU to '24 B12 title; 46 total TD career; Nov foot surgery/missed spring)
+QB,2,Husan Longstreet,QB,FR,transfer:USC,Athlon,PS,L,66.1/22 tiny (B10); 5-star; QB-of-future/injury insurance
+RB,1,Caden Durham,RB,JR,returning,Athlon,PS,M,74.3/111 (SEC +10.17 weighted; split '25 carries; returns)
+RB,2,Harlem Berry,RB,SO,returning,Athlon,PS,M,67.8/104 (SEC weighted; 5-star, #1 RB of 2025 class; spring top spot)
+RB,3,Dilin Jones,RB,SO,transfer:Wisconsin,Athlon,PS,L,70.1/77 (B10 -0.40; split Wisconsin carries)
+WRTE,1,Jackson Harris,WR,JR,transfer:Hawaii,Athlon,PS,M,83.9/345 (MWC -3.70 -> ~80; all-league; top-3 in MWC yds/catch)
+WRTE,2,Trey'Dez Green,TE,JR,returning,Athlon,PS,H,75.0/266 (SEC +5.94 -> 80.9 adj; All-SEC; 6-7 mismatch; the X-factor/best pass-catcher)
+WRTE,3,Jayce Brown,WR,SR,transfer:Kansas State,Athlon,PS,M,75.0/243 (B12 +3.38; All-Big 12)
+WRTE,4,Tre' Brown,WR,JR,transfer:Old Dominion,Athlon,PS,M,71.3/295 (SBC -0.74; all-league; top-3 SBC yds/catch)
+WRTE,5,Winston Watkins Jr.,WR,SO,transfer:Ole Miss,Athlon,PS,M,66.9/184 (SEC; took top spot in spring; scheme familiarity)
+WRTE,6,Eugene Wilson III,WR,JR,transfer:Florida,Athlon,PS,M,57.0/188 (SEC; multi-yr SEC starter; cross-build from Florida)
+OL,1,Jordan Seaton,OT,JR,transfer:Colorado,Athlon,PS,M,65.8/561 (B12 +8.45 weighted DOWN; 5-star, All-Big 12; nation's top transfer LT)
+OL,2,Braelin Moore,C,SR,returning,Athlon,PS,M,69.8/623 (SEC +13.45 weighted DOWN; delayed NFL bid; returns)
+OL,3,Aliou Bah,G,SR,transfer:Maryland,Athlon,PS,M,60.7/681 (B10 -1.29; 24 straight B10 starts, 0 sacks allowed)
+OL,4,Weston Davis,OT,SO,returning,Athlon,PS,M,47.1/699 (SEC weighted; Top100; held tackle spot despite frosh growing pains)
+OL,5,Bo Bordelon,G,SR,returning,Athlon,PS,L,rose to starting G in spring + Devin Harper (Ole Miss 71.2/72) push
+OL,6,Sean Thompkins,OT,JR,transfer:Baylor,Athlon,PS,L,B12 depth push
+DL,1,Princewill Umanmielen,ED,SR,transfer:Ole Miss,Athlon,PS,H,74.3/489 (SEC +7.87 weighted; All-SEC, 9 sacks; #1 portal defender)
+DL,2,Jordan Ross,ED,JR,transfer:Tennessee,Athlon,PS,M,77.2/249 (SEC +7.87 weighted; former 5-star '24)
+DL,3,Stephiylan Green,DI,JR,transfer:Clemson,Athlon,PS,M,71.5/291 (ACC +1.19; 4-star transfer)
+DL,4,Dominick McKinley,DI,JR,returning,Athlon,PS,M,64.1/370 (SEC weighted; 5-star; moves into the starting lineup)
+DL,5,Malik Blocton,DI,JR,transfer:Auburn,Athlon,PS,M,64.5/413 (SEC; Auburn starter)
+DL,6,Lamar Brown,ED,FR,returning,Athlon,PS,L,nation's #1 edge recruit (5-star) + 5-star frosh Richard Anderson (DT). Triple 5-star edge
+LB,1,Whit Weeks,LB,SR,returning,Athlon,PS,M,66.2/309 (SEC +14.01 weighted DOWN; injury bounce-back)
+LB,2,Davhon Keys,LB,JR,returning,Athlon,PS,M,61.2/572 (SEC weighted; led the team in tackles)
+LB,3,TJ Dottery,LB,SR,transfer:Ole Miss,Athlon,PS,M,55.0/958 (SEC; huge volume; Golding's "QB of the defense")
+LB,4,Zach Weeks,LB,FR,returning,Athlon,PS,L,frosh depth (West Weeks yr4 not named returning -> EXPIRED; Harold Perkins WENT PRO)
+DB,1,DJ Pickett,CB,SO,returning,Athlon,PS,H,78.6/524 (SEC +5.44 -> elite; 5-star breakout true frosh; All-SEC hype; heir to Delane)
+DB,2,PJ Woodland,CB,JR,returning,Athlon,PS,M,74.0/614 (SEC +5.44 -> 79.4 adj; returning CB)
+DB,3,Dashawn Spears,S,JR,returning,Athlon,PS,H,90.1/255 (SEC +5.44 -> elite small sample; returning S)
+DB,4,Tamarcus Cooley,S,SR,returning,Athlon,PS,M,56.1/777 (SEC weighted; returning S, high volume)
+DB,5,Ty Benefield,S,SR,transfer:Boise State,Athlon,PS,M,66.2/846 (MWC -2.43; 1st-team All-MW, 107 tkl)
+DB,6,Faheem Delane,S,SO,transfer:Ohio State,Athlon,PS,L,66.4/81 (B10 +6.33 weighted; 2025 Top50). LOST All-SEC Haulcy + Delane (drafted)
+ST,1,Scott Starzyk,K,SO,transfer:Arkansas,Athlon,PS,M,Freshman All-SEC; 14-18 FG + all 47 XP (Ramos yr4 graduated)
+ST,2,Grant Chadwick,P,JR,returning,Athlon,PS,M,45.7 avg (2nd in the SEC); returns

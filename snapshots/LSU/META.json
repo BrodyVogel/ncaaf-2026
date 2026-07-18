@@ -1,0 +1,45 @@
+{
+ "team": "LSU",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T03:12:00+00:00",
+ "assembler_git_rev": "34c7de5",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Lane Kiffin (abrupt departure from Ole Miss) - COACH CHANGE, band x1.13. NEW OC Charlie Weis Jr. RETAINED DC Blake Baker (the '25 D was #13 - a KEY retention). '25: 7-6 (3-5 SEC, under Brian Kelly). 59 newcomers / 43 transfers. National Forecast 10. Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC); arrivals on origin cells. SEC offsets LARGE - big cells (OL/LB/RB) WEIGHTED DOWN; small samples discounted. THE NATION'S #1 TRANSFER HAUL (43 transfers). Origin cells: Leavitt (ASU/B12), Longstreet (USC/B10), Jones (Wisconsin/B10), Harris (Hawaii/MWC), Jayce Brown (Kansas St/B12), Tre' Brown (Old Dominion/SBC), Watkins/Wilson (Ole Miss+Florida/SEC), Seaton (Colorado/B12), Bah (Maryland/B10), Umanmielen/Dottery (Ole Miss/SEC), Ross (Tennessee/SEC), Green (Clemson/ACC), Blocton (Auburn/SEC), Benefield (Boise St/MWC), F. Delane (Ohio State/B10), Starzyk (Arkansas/SEC). Within-SEC transfers on SEC cell (small samples weighted down).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Caden Durham",
+  "Weston Davis",
+  "Dashawn Spears"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [
+  "Harold Perkins"
+ ],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Garrett Nussmeier": "QB (yr4) - the '25 starter, GONE. Sam Leavitt (ASU, 76.4/310) the imported starter. EXPIRED(yr4).",
+  "Mansoor Delane": "CB, 90.5/623 (yr4) - GONE, DRAFTED (P6 'All-SEC DBs Haulcy + Delane drafted in April'). EXPIRED(yr4). DJ Pickett is 'the heir apparent.'",
+  "A.J. Haulcy": "S (yr4) - GONE, DRAFTED (P6). EXPIRED(yr4).",
+  "Harold Perkins": "LB - GONE, WENT PRO (P6 'do-it-all Harold Perkins went pro'). Junior declare, invisible to yr4+portal feeds -> nfl_declare_confirmed.",
+  "Sam Leavitt": "QB, 76.4/310 (Arizona State) - the imported STARTER. #1 transfer QB; led ASU to the '24 Big 12 title run (24 TD/6 INT); Nov foot surgery, missed spring. B12 origin cell.",
+  "Trey'Dez Green": "TE, 75.0/266 - RETURNS. All-SEC; 6-7 athletic-freak mismatch; the X-factor / best pass-catcher (SEC +5.94 -> 80.9 adj).",
+  "DJ Pickett": "CB, 78.6/524 - RETURNS. 5-star breakout true frosh; All-SEC hype; heir to Delane (SEC +5.44 -> elite).",
+  "Harlem Berry": "RB, 67.8/104 - RETURNS. 5-star, #1 RB of the 2025 class; 'persuading him to return was a major coup' (Athlon).",
+  "Dashawn Spears": "S, 90.1/255 - RETURNS. Elite '25 grade (small sample); part of the retained back seven.",
+  "Caden Durham": "RB, 74.3 - portal-none feed BUT Athlon + P6 both name him a returning starter ('both return'). portal_withdrawal_override (R15).",
+  "Weston Davis": "OT, 47.1/699 - portal-none feed BUT P6 'Top100 Weston Davis held his tackle spot.' portal_withdrawal_override (R15).",
+  "West Weeks": "LB, 59.1/564 (yr4) - NOT named returning by any magazine (P6 names only brother Whit Weeks + Keys). EXPIRED(yr4); removed from the two-deep. Grade-neutral (LB depth)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 2026 charts. THE NATION'S #1 TRANSFER HAUL under a new staff (59 newcomers / 43 transfers) - MAXIMAL cohesion risk. Harold Perkins (LB) went pro - invisible to yr4+portal feeds, added via nfl_declare_confirmed.",
+  "7-6 (3-5 SEC, Brian Kelly's last) '25 profile: a pass-first offense (PASS p76 w/ Nussmeier) with a BAD run game (RUN p13, RBLK p7 - the OL couldn't run block) + a strong defense (DEF p78, COV p83 - the team strength, #13). ST p52.",
+  "A GENUINE PLAYOFF-TIER TALENT HAUL (P6 'Playoff or Bust'): #1 transfer QB (Leavitt, health-flagged), the #1 portal WR unit (Harris 83.9 + Jayce Brown + Tre' Brown + Watkins + Wilson, all 4-star transfers), the #1 transfer LT (Seaton), a returning 5-star RB (Berry) + All-SEC TE (Green 80.9 adj), a TRIPLE 5-star edge trio (Umanmielen 74.3 + Ross 77.2 + frosh Lamar Brown), + a loaded, mostly-retained secondary (Pickett 5-star + Woodland + Spears 90.1; DC Baker retained).",
+  "THE QUESTIONS: (1) COHESION - 43 transfers, a brand-new team; not even Kiffin knows if it gels (Athlon). (2) Leavitt's HEALTH (foot surgery, missed spring). (3) RUN GAME/RBLK was p7 in '25, though the OL is rebuilt (Seaton/Bah/Moore)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T04:00:26+00:00"
+}

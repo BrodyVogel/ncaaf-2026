@@ -1,0 +1,37 @@
+{
+ "id": 99,
+ "school": "LSU",
+ "mascot": "Tigers",
+ "abbreviation": "LSU",
+ "alternateNames": [
+  "Louisiana State",
+  "LSU",
+  "LSU"
+ ],
+ "conference": "SEC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#461d7c",
+ "alternateColor": "#fdd023",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/99.png"
+ ],
+ "twitter": "@LSUFootball",
+ "location": {
+  "id": 3958,
+  "name": "Tiger Stadium (LA)",
+  "city": "Baton Rouge",
+  "state": "LA",
+  "zip": "70803",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 30.412035,
+  "longitude": -91.1838163,
+  "elevation": "7.640734673",
+  "capacity": 102321,
+  "constructionYear": 1924,
+  "grass": true,
+  "dome": false
+ }
+}

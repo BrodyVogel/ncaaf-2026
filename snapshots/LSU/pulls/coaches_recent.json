@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Brian",
+  "lastName": "Kelly",
+  "hireDate": "2021-11-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "LSU",
+    "year": 2024,
+    "games": 13,
+    "wins": 9,
+    "losses": 4,
+    "ties": 0,
+    "preseasonRank": 13,
+    "postseasonRank": null,
+    "srs": 12.9,
+    "spOverall": 15.9,
+    "spOffense": 36.8,
+    "spDefense": 21.7
+   }
+  ]
+ },
+ {
+  "firstName": "Brian",
+  "lastName": "Kelly",
+  "hireDate": "2021-11-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "LSU",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 8.2,
+    "spOverall": 10.3,
+    "spOffense": 25.8,
+    "spDefense": 16.1
+   }
+  ]
+ }
+]
