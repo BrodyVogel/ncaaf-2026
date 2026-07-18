@@ -1,0 +1,26 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Anwar O'neal,178137,T,DELAWARE,12,100.0,1,151,66.7,68.1,63.1,2,12,548,100.0,100.0,97.4,3,21,7,910,0,2,906,910,588,588,2,0,322,0,arrival_2025_at_DELAWARE
+Pete Nygra,145875,C,LOUISVILLE,13,100.0,0,210,71.3,83.0,65.4,2,9,439,100.0,100.0,98.5,1,12,1,831,831,0,0,831,464,464,0,0,367,0,2025_this_team
+Rasheed Miller,122451,T,LOUISVILLE,13,100.0,2,210,73.6,66.6,77.5,2,15,437,100.0,100.0,97.8,6,18,1,831,0,157,0,831,462,462,0,672,369,0,2025_this_team
+Johnnie Brown III,184277,T,GA SOUTHRN,13,100.0,1,174,71.0,64.1,73.2,4,13,452,100.0,100.0,97.5,6,20,3,826,0,0,756,826,479,479,0,61,347,6,arrival_2025_at_GA SOUTHRN
+Lance Robinson,121819,G,LOUISVILLE,13,100.0,1,210,70.0,81.6,67.7,3,8,433,100.0,100.0,98.5,6,12,1,817,0,672,0,817,457,457,39,105,360,0,2025_this_team
+Eryx Daugherty,175334,G,BOSTON COL,10,100.0,0,121,67.8,77.2,64.8,2,9,415,100.0,100.0,98.4,2,12,1,646,0,646,0,646,431,431,0,0,215,0,arrival_2025_at_BOSTON COL
+Trevonte Sylvester,123682,T,LOUISVILLE,11,100.0,1,210,57.9,64.9,57.3,2,8,266,100.0,100.0,97.7,9,11,1,535,0,0,502,535,278,278,0,0,257,31,2025_this_team
+Mahamane Moussa,145114,G,LOUISVILLE,12,100.0,0,210,61.2,61.8,59.5,2,9,282,100.0,100.0,97.7,4,12,1,519,0,0,200,519,298,298,257,54,221,6,2025_this_team
+Jordan Church,169904,G,LOUISVILLE,13,100.0,1,210,65.1,50.0,69.1,2,9,269,100.0,100.0,97.6,2,12,1,514,0,2,0,514,287,287,508,0,227,0,2025_this_team
+Mak Pounders,144276,T,LOUISVILLE,9,100.0,1,210,44.9,58.6,44.1,0,2,60,100.0,100.0,98.3,2,2,0,146,0,0,144,146,66,66,0,0,80,0,2025_this_team
+Cason Henry,158126,T,S CAROLINA,4,100.0,0,289,87.0,85.7,82.8,0,1,56,100.0,100.0,99.1,0,1,0,115,0,0,0,115,57,57,0,115,58,0,arrival_2025_at_S CAROLINA
+Sam Secrest,156325,C,LOUISVILLE,6,100.0,0,210,63.6,56.8,62.9,0,0,13,100.0,100.0,100.0,1,0,0,46,36,8,0,46,15,15,0,0,31,0,2025_this_team
+Michael Flores,108560,G,LOUISVILLE,6,100.0,0,210,51.6,81.8,53.0,0,0,13,100.0,100.0,100.0,1,0,0,46,0,17,0,46,15,15,27,0,31,0,2025_this_team
+Vic Cutler,98229,G,LOUISVILLE,5,100.0,0,210,49.1,83.8,44.6,0,0,16,100.0,100.0,100.0,0,0,0,45,8,9,0,45,19,19,27,0,26,1,2025_this_team
+Naeer Jackson,156546,T,LOUISVILLE,2,100.0,1,210,65.0,65.5,63.2,0,1,13,100.0,100.0,96.2,1,1,0,36,0,0,0,36,15,15,0,36,21,0,2025_this_team
+Cameron Gorin,204134,T,LOUISVILLE,3,100.0,0,210,60.9,81.3,56.8,0,0,12,100.0,100.0,100.0,0,0,0,35,0,0,27,35,12,12,0,8,23,0,2025_this_team
+Jimmy Williams III,190597,G,LOUISVILLE,1,100.0,0,210,66.9,79.8,65.1,0,0,9,100.0,100.0,100.0,0,0,0,17,0,0,0,17,9,9,17,0,8,0,2025_this_team
+Carter Guillaume,192860,G,LOUISVILLE,2,100.0,0,210,53.0,71.3,52.3,0,0,3,100.0,100.0,100.0,0,0,0,11,0,10,0,11,3,3,0,0,8,0,2025_this_team
+Evan Wibberley,156645,C,KENTUCKY,4,100.0,0,202,50.6,71.5,50.4,0,0,2,100.0,100.0,100.0,0,0,0,9,9,0,0,9,2,2,0,0,7,0,arrival_2025_at_KENTUCKY
+Fred Johnson,190588,G,LOUISVILLE,1,100.0,0,210,60.0,,60.0,0,0,0,,,,0,0,0,2,0,0,0,2,0,0,2,0,2,0,2025_this_team
+Ellis McAdoo,190590,C,LOUISVILLE,1,100.0,0,210,60.0,,60.0,0,0,0,,,,0,0,0,2,2,0,0,2,0,0,0,0,2,0,2025_this_team
+Tyler Folmar,198706,T,LOUISVILLE,1,100.0,0,210,60.0,,60.0,0,0,0,,,,0,0,0,2,0,0,2,2,0,0,0,0,2,0,2025_this_team
+Gradey Anthony,198710,T,LOUISVILLE,1,100.0,0,210,60.0,,60.0,0,0,0,,,,0,0,0,2,0,2,0,2,0,0,0,0,2,0,2025_this_team
+James Glover-Tyson,174703,T,LOUISVILLE,1,100.0,0,210,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,0,1,0,0,0,1,1,0,2025_this_team
+Ransom McDermott,183317,T,LOUISVILLE,1,100.0,0,210,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,0,1,0,0,0,1,1,0,2025_this_team

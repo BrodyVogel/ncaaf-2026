@@ -1,0 +1,39 @@
+{
+ "team": "Louisville",
+ "conference": "ACC",
+ "created_utc": "2026-07-17T23:49:26+00:00",
+ "assembler_git_rev": "3604caa",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Jeff Brohm - Athlon 'Record at School: 28-12 (3 years); Career 94-56 (12 years)'; PS '4th Year Here / 13th Overall.' NO change (band x1.00). OC Brian Brohm returns; DC Steve Ellis + Mark Ivey. NOTE: lost OL coach Richard Owens to Alabama (opposing coach 'really good... big loss' - noted as OL integration risk, not a band trigger). Verified BOTH sources.",
+ "conference_note": "ACC (P4). R14: ACC cells POSITIVE on returning tape; arrivals on origin cells. HEAVY portal reload (33 in / 39 out - Brohm's MO). Arrivals: Lincoln Kienholz Ohio State/B10 (+0.55 QB - 17-snap sample weighted DOWN), Davin Wydner West Georgia/FCS (NO CELL), Marquise Davis Missouri/SEC (+10.17 RB weighted DOWN); Tre Richardson Vanderbilt/SEC (+5.94 WRTE weighted down), Lawayne McCoy Florida State/ACC (+2.36), Brody Foley Tulsa/AAC (+0.45), Jackson Voth Drake/FCS (NO CELL); Anwar O'neal Delaware/CUSA-1st-yr (low level), Eryx Daugherty Boston College/ACC (+3.54), Evan Wibberley Kentucky/SEC, Cason Henry South Carolina/SEC (+13.45 weighted DOWN), Johnnie Brown III Georgia Southern/SBC; Tyler Thompson North Carolina/ACC (+1.19 DL), Demeco Kennedy Purdue/B10 (+10.38 DL weighted DOWN weak base), Joshua Donald Houston/AAC, Jerod Smith Kentucky/SEC (+7.87 weighted down), Daylen Russell Miami/ACC; Ben Perry UCLA/B10 (+16.10 LB inflated weighted DOWN); Koen Entringer Iowa/B10 (+6.33 DB weighted down), Kaleb Beasley Tennessee/SEC (+5.44), TJ Banks Ole Miss/SEC (+5.44), Santana Wilson Texas/SEC, DJ Waller Kentucky/SEC, Brycen Scott Elon/FCS; Jacob Baker Eastern Kentucky/FCS (P).",
+ "portal_departure_confirmed": ["Micah Carter"],
+ "portal_withdrawal_overrides": ["Isaac Brown", "AJ Green", "Antonio Watts", "TreyShun Hurry"],
+ "yr4_return_overrides_documented": ["Lance Robinson"],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Isaac Brown": "RB, 81.6/100 (All-ACC) - portal-None but Athlon 'RETAINED Brown after a portal scare' + bold RB1 + PS 'top three all return' -> WITHDREW (portal_withdrawal_override). The engine of the offense. VERIFIED BOTH.",
+  "Keyjuan Brown": "RB, 87.7/96 (704 yds/7.3) - RETURNS. PS 'top 3 all return.' Elite complement to Isaac Brown.",
+  "AJ Green": "DE, 80.4/364 - portal-None but Athlon bold DE + PS projected DE -> WITHDREW (portal_withdrawal_override). VERIFIED BOTH.",
+  "Antonio Watts": "LB/S hybrid, 76.8/618 - portal-None but Athlon bold LB + PS 'Watts return' -> WITHDREW (portal_withdrawal_override). VERIFIED BOTH.",
+  "TreyShun Hurry": "WR, 50.4/172 - portal-None but Athlon bold WR + PS lineup WR -> WITHDREW (portal_withdrawal_override). Weak grade but a projected starter. VERIFIED BOTH.",
+  "Lance Robinson": "OL, 70.0/817 (3rd-tm ACC) - yr4 but Athlon bold RG + PS lineup RG -> yr4_return_override. The lone returning OL starter. VERIFIED BOTH.",
+  "Miller Moss": "QB, 68.2/438 (the '25 starter) - GONE (yr4). Both project Ohio State transfer Kienholz QB1. EXPIRED(yr4). VERIFIED BOTH.",
+  "Clev Lubin": "DE, 91.4/597 (All-ACC, 8.5 sk) - RETURNS. Both bold/lineup; PS 'Lubin is back.' ELITE edge anchor.",
+  "Chris Bell": "WR, 81.8/360 (the '25 #1 WR, 1013 yds) - GONE (yr4). PS 'they all depart.' EXPIRED(yr4).",
+  "Justin Beadles": "DL/EDGE, yr4 AND portal-out -> California. GONE (do not confuse with returning edges).",
+  "Nate Kurisky": "TE, 60.3/161 - GATE CATCH: I initially listed him as returning Louisville TE depth, but the portal feed shows PORTAL->Duke. GONE (not returning). Removed from two-deep; the actual returning TE depth is Jaleel Skinner. Duke already graded/frozen.",
+  "Micah Carter": "EDGE, 69.6/100 - portal-None, NOT listed by either magazine -> GONE (portal_departure_confirmed). Distinct from the RETAINED withdrawals (Isaac Brown, AJ Green, Antonio Watts)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts. MASSIVE churn (33 in / 39 out) - Brohm's near-total portal reload. ~18 yr4 producers gone (Moss, Bell, Lacy, Collins, Nygra, R.Miller, Moussa, Sylvester, Konga, Guerad, Bailey, Lowry, Mack, Hutchinson, JoJo Evans, TJ Quinn, Kalib Perry, R.Johnson) + 4 portal-withdrawals RETAINED (Isaac Brown, AJ Green, Antonio Watts, Hurry).",
+  "9-4 (4-4 ACC) in '25 - built on an ELITE defense (DEF p92, PRSH p99, COV p84) + elite run game (RUN p93); WEAK passing (PASS p39). 2026 keeps the RB (Isaac+Keyjuan Brown) + elite edge (Lubin) but reloads the QB (Kienholz, unproven), WR (top-3 gone), OL (transfer-heavy, lost OL coach), interior DL (rebuilt), secondary (transfer haul).",
+  "STRENGTHS retained: RB (Isaac Brown All-ACC + Keyjuan Brown - one of the best backfields in the country) + edge rush (Lubin All-ACC + AJ Green + UNC's Thompson). QUESTIONS: QB (Kienholz - 7 career apps), WR (reload), interior DL (Brohm 'weaker inside'), ST (K competition).",
+  "Lawayne McCoy arrives from Florida State (FWD FLAG from FSU snapshot - closed here). Antonio Meeks departs to Wake Forest (already graded)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T00:05:00Z"
+}

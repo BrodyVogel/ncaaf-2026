@@ -1,0 +1,39 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Lincoln Kienholz,QB,JR,transfer:Ohio State,Athlon,PS,L,86.8/17 TINY sample (B10 +0.55; only 7 apps in 3 yrs at OSU - weighted DOWN hard); mobile run threat; "ton of talent no experience"
+QB,2,Davin Wydner,QB,JR,transfer:West Georgia,Athlon,PS,L,FCS (NO CELL); competition
+RB,1,Isaac Brown,RB,JR,returning,Athlon,PS,H,81.6/100 (ACC +4.90 -> 86.5 adj); All-ACC; RETAINED after portal scare (portal_withdrawal_override); 864 yds/8.8 despite missing 4 gm
+RB,2,Keyjuan Brown,RB,JR,returning,Athlon,PS,H,87.7/96 (ACC +4.90 -> 92.6 adj); 704 yds/7.3; "top 3 return"
+RB,3,Marquise Davis,RB,SO,transfer:Missouri,Athlon,PS,M,86.7/34 (SEC +10.17 -> tiny sample weighted DOWN); #3-rated RB corps
+WRTE,1,Tre Richardson,WR,SR,transfer:Vanderbilt,Athlon,PS,M,75.9/335 (SEC +5.94 -> weighted DOWN ~78); Vandy starting WR
+WRTE,2,Lawayne McCoy,WR,JR,transfer:Florida State,Athlon,PS,M,70.0/265 (ACC +2.36 -> 72.4 adj); FSU transfer [FWD FLAG closed]
+WRTE,3,TreyShun Hurry,WR,SR,returning,Athlon,PS,L,50.4/172 (portal_withdrawal_override); weak returner but projected WR starter
+WRTE,4,Brody Foley,TE,SR,transfer:Tulsa,Athlon,PS,M,72.5/266 (AAC +0.45 -> 73.0 adj); TE1; 528 yds
+WRTE,5,Jaleel Skinner,TE,JR,returning,Athlon,PS,L,53.4/177 (55.7 adj); returning TE depth
+WRTE,6,Jackson Voth,WR,JR,transfer:Drake,Athlon,PS,L,FCS (NO CELL); return exp
+OL,1,Anwar O'neal,OT,SR,transfer:Delaware,Athlon,PS,L,66.7/910 (Delaware CUSA 1st yr - big vol low level ~60 adj); LT
+OL,2,Lance Robinson,G,SR,returning,Athlon,PS,M,70.0/817 (ACC +3.54 -> 73.5 adj); yr4_return_override; RG; 3rd-tm ACC
+OL,3,Eryx Daugherty,G,JR,transfer:Boston College,Athlon,PS,M,67.8/646 (ACC +3.54 -> 71.3 adj); LG
+OL,4,Evan Wibberley,C,SR,transfer:Kentucky,Athlon,PS,L,50.6/9 tiny (SEC); C1
+OL,5,Cason Henry,OT,SR,transfer:South Carolina,Athlon,PS,L,87.0/115 (SEC +13.45 -> small sample weighted DOWN); RT
+OL,6,Johnnie Brown III,OT,FR,transfer:Georgia Southern,Athlon,PS,L,71.0/826 (SBC -0.35 -> 70.7 adj); OT depth
+DL,1,Clev Lubin,ED,SR,returning,Athlon,PS,H,91.4/597 (ACC +1.19 -> 92.6 adj); All-ACC; ELITE edge; 8.5 sk
+DL,2,AJ Green,ED,JR,returning,Athlon,PS,M,80.4/364 (ACC +1.19 -> 81.6 adj); portal_withdrawal_override; returning DE
+DL,3,Tyler Thompson,ED,JR,transfer:North Carolina,Athlon,PS,M,81.5/291 (ACC +1.19 -> 82.7 adj); UNC edge
+DL,4,Demeco Kennedy,DT,JR,transfer:Purdue,Athlon,PS,M,55.2/450 (B10 +10.38 -> weighted DOWN; weak base ~58); interior
+DL,5,Joshua Donald,DT,JR,transfer:Houston,Athlon,PS,L,Houston/AAC DT; interior
+DL,6,Jerod Smith II,ED,JR,transfer:Kentucky,Athlon,PS,L,71.7/283 (SEC +7.87 -> weighted DOWN); depth
+DL,7,Daylen Russell,DT,FR,transfer:Miami,Athlon,PS,L,79.0/29 tiny (ACC); interior depth
+LB,1,Antonio Watts,LB,SR,returning,Athlon,PS,M,76.8/618 (ACC +2.13 -> 78.9 adj); portal_withdrawal_override; S/LB hybrid
+LB,2,T.J. Capers,LB,JR,returning,Athlon,PS,M,68.7/387 (ACC +2.13 -> 70.8 adj); returning
+LB,3,Stanquan Clark,LB,SR,returning,Athlon,PS,M,54.0/164 (injury-shortened '25; 2024 #2 tackler); back from injury
+LB,4,Ben Perry,LB,SR,transfer:UCLA,Athlon,PS,L,B10 +16.10 (inflated, weighted DOWN); depth
+DB,1,Tayon Holloway,CB,SR,returning,Athlon,PS,M,72.4/765 (ACC +1.18 -> 73.6 adj); 2 INT/5 PBU; returning starter
+DB,2,Koen Entringer,S,JR,transfer:Iowa,Athlon,PS,M,65.7/697 (B10 +6.33 -> weighted DOWN ~68); Iowa captain 73 tkl
+DB,3,Kaleb Beasley,S,JR,transfer:Tennessee,Athlon,PS,M,60.3/301 (SEC +5.44 -> weighted DOWN ~62)
+DB,4,DJ Waller Jr.,CB,JR,transfer:Kentucky,Athlon,PS,L,51.3/29 tiny (SEC); CB
+DB,5,TJ Banks,S,JR,transfer:Ole Miss,Athlon,PS,L,51.6/268 (SEC +5.44 -> weighted DOWN); depth
+DB,6,Santana Wilson,CB,SO,transfer:Texas,Athlon,PS,L,72.4/6 tiny (SEC); CB depth
+ST,1,Carson Hilbert,K,FR,returning,Athlon,PS,L,K competition (vs Nick Keller); unsettled
+ST,2,Jacob Baker,P,JR,transfer:Eastern Kentucky,Athlon,PS,L,FCS P; new
+ST,3,Tre Richardson,KR,SR,transfer:Vanderbilt,Athlon,PS,M,return exp
+ST,4,Nick Keller,K,JR,returning,Athlon,PS,L,K competition
