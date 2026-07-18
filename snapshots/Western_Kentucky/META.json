@@ -1,0 +1,53 @@
+{
+ "team": "Western Kentucky",
+ "conference": "Conference USA",
+ "created_utc": "2026-07-18T21:15:00+00:00",
+ "assembler_git_rev": "e420f07",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Tyson Helton (entering Year 8; NO change; band x1.00) - CUSA's longest-tenured HC, a stable 8-9 win program. New OC Bodie Reeder (from Middle Tennessee) - Helton has a 'revolving door at OC' (no OC stays >2 yrs), but the HC is stable, so coordinator change does NOT trigger the band. '25: 9-4 (6-2 CUSA).",
+ "conference_note": "Conference USA. Returning tape on CUSA cells (heavily negative); arrivals on origin. Athlon rates WKU CUSA #1 (NF 89 - BEST in CUSA, picked to WIN the league). A well-coached, talent-RELOADING program. HUGE churn (19 in / 22 out + a 36-man yr4 class): lost the top QB (McIvor, yr4), co-top WR (Henry, yr4), both leading tacklers (Wester + Brackenridge, yr4), the standout edge (Holloman -> WVU), + much of the OL/CB - reloaded via P4 transfers (FSU QB, Alabama/Pitt/Miss St/USF OL, Tulsa-Neb RB, USC LB). Keeps elite pieces: S Jaylen Lewis (81.0), WR K.D. Hutchinson (76.0), S Dave Herard (73.6).",
+ "portal_departure_confirmed": [
+  "Moussa Barry",
+  "Jaavan Mack",
+  "Jalen Emery"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Dave Herard",
+  "Jakeem Fletcher",
+  "Elin Jones"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [
+  "Ajay Allen (RB; Tulsa/Nebraska - the Athlon-named RB1, not in the portal-in feed)",
+  "Nigel Johnson (WR; South Carolina State FCS - Athlon-named starter, not in the feed)"
+ ],
+ "known_name_exceptions": {
+  "Tyson Helton": "HC (Year 8; NO change; band x1.00). CUSA's longest-tenured HC; a consistent 8-9 win program.",
+  "Maverick McIvor": "QB, 73.2/314 - GONE (yr4). The top-snap '25 QB; graduated. The '26 job is a Tisdale/Glenn battle (Athlon), which is why McIvor is not on the depth chart.",
+  "Matthew Henry": "WR, 74.4/423 - GONE (yr4). A co-top WR by grade/volume; graduated (not a mystery departure - the yr4 logic + Athlon's omission agree).",
+  "Rodney Tisdale Jr.": "QB, 64.1/259 - RETURNS. Took over at midseason (1,432 yds/9 TD in 9 games); the Athlon QB1 in a battle with FSU transfer Brock Glenn.",
+  "Brock Glenn": "QB - arrival (Florida State, 73.7/13 tiny sample). The P4-pedigree challenger to Tisdale.",
+  "K.D. Hutchinson": "WR, 76.0/280 - RETURNS. The WR1 (team-high 66 catches/618 yds/3 TD) + PR - 'proven returning talent' (Athlon).",
+  "Ajay Allen": "RB - arrival (Tulsa/Nebraska; feed-gap). The Athlon-named RB1.",
+  "Jaylen Lewis": "S, 81.0/805 - RETURNS. An impact safety (74 tkl, team-high 3 INT) - the defense's anchor; part of the nation's best red-zone TD% defense.",
+  "Dave Herard": "S, 73.6/569 - RETURNS (yr4 override; Athlon 'fellow returning starter... a tough combo' with Lewis).",
+  "Jakeem Fletcher": "DT, 63.7/204 - RETURNS (yr4 override; Athlon 'return to provide some stability').",
+  "Elin Jones": "DE, 61.3/286 - RETURNS (yr4 override; the Athlon depth-chart DE starter).",
+  "Jaylen Wester": "LB, 70.2/688 - GONE (yr4). A leading tackler; exhausted eligibility - the LB is gutted.",
+  "Anthony Brackenridge": "LB, 58.6/581 - GONE (yr4). The other leading tackler; exhausted eligibility.",
+  "Harper Holloman": "EDGE, 70.7/805 - GONE (portal -> West Virginia). The standout DL; a real loss.",
+  "Karsten Upchurch": "RT, 58.1/729 - RETURNS. The ONLY returning OL starter ('almost a complete rebuild')."
+ },
+ "known_gaps": [
+  "HUGE churn (19 in / 22 out + a 36-man yr4 class). Athlon rates WKU CUSA #1 (NF 89) - BULLISH (Helton + the reload); grades are anchor-blind. Grade-critical losses: QB McIvor (73.2, yr4), WR Matthew Henry (74.4, yr4), both leading tacklers (Wester 70.2 + Brackenridge 58.6, yr4), EDGE Holloman (70.7 -> WVU), OL Seymore (69.4 -> Texas) + Nitta (68.9 -> Oklahoma), CB Dylan Flowers (76.6 -> Duke) + Emery (70.8) + Jaavan Mack (68.4). Reloaded via P4 transfers.",
+  "9-4 (6-2 CUSA). OVER p50, OFF p51 (PASS p61, PBLK p63; RBLK p33), DEF p46 (RDEF p48, TACK p14 - poor tackling; but nation's BEST red-zone TD% allowed - 34.7%). SPEC p85 (a strength). The record (9-4) outran the middling grades (p50) - Helton's coaching.",
+  "Grade-critical: a QB battle (Tisdale 64.1 + FSU's Glenn); a transfer-led RB room (Ajay Allen + Hicks + Parrish); a proven WR1 (Hutchinson 76.0) + depth; an OL that is 'almost a complete rebuild' (P4 transfers + Upchurch the only returning starter); a DL with some stability (Sneed/Fletcher/Elin Jones) that lost the standout Holloman; a GUTTED LB (lost both leading tacklers, 'plenty of competition for jobs'); an ELITE safety duo (Lewis 81.0 + Herard 73.6) with rebuilt CBs; good ST (p85) with new specialists.",
+  "yr4-RETURN overrides (Athlon-named): Dave Herard (S), Jakeem Fletcher (DT), Elin Jones (DE). Feed-gap arrivals: Ajay Allen (RB), Nigel Johnson (WR). Adjudicated portal->None GONE: Moussa Barry (WR), Jaavan Mack (CB), Jalen Emery (CB)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF89 / CUSA prediction 1 incidentally visible - logged, NOT used (WKU picked to WIN CUSA). G5 2-source (Athlon primary + beat/web; PS CUSA text garbled).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T21:20:00+00:00"
+}

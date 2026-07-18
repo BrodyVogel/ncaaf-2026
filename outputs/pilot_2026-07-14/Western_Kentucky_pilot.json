@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T21:36:24+00:00",
+ "team": "Western Kentucky",
+ "final": -4.14,
+ "rank": 86,
+ "band": 6.36,
+ "resid": 5.39,
+ "adj": 1.89,
+ "class_term": 0.0,
+ "st": -0.04,
+ "anchor_blend": -6.47,
+ "resid_level": 3.78,
+ "resid_shape": 1.61,
+ "implied_off": 25.0,
+ "implied_def": 26.59,
+ "anchor_off": 24.61,
+ "anchor_def": 31.59,
+ "fit_r2": {
+  "off": 0.547,
+  "dfn": 0.615
+ },
+ "low_conf_units": 2,
+ "code_rev": "e420f07",
+ "mode": "PILOT-OOS"
+}

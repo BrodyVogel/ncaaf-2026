@@ -1,0 +1,18 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Marshall Jackson,72689,T,W KENTUCKY,13,100.0,0,346,61.6,66.1,55.3,5,15,541,100.0,100.0,97.2,4,25,5,916,0,0,903,916,571,571,0,0,345,12,2025_this_team
+Quincy Jenkins,122299,G,W KENTUCKY,13,100.0,2,346,56.1,62.1,53.2,2,20,541,100.0,100.0,97.8,5,23,1,916,61,0,0,916,571,571,855,0,345,0,2025_this_team
+Laurence Seymore,143949,G,W KENTUCKY,13,100.0,0,346,69.4,82.6,63.9,3,4,503,100.0,100.0,99.1,1,8,1,840,0,840,0,840,532,532,0,0,308,0,2025_this_team
+Rhett Larson,158273,G,SM HOUSTON,12,100.0,0,281,61.3,59.3,59.2,3,16,480,100.0,100.0,97.0,2,24,5,793,38,0,0,793,512,512,754,0,281,0,arrival_2025_at_SM HOUSTON
+Karsten Upchurch,184763,T,W KENTUCKY,11,100.0,0,346,58.1,58.7,54.6,9,10,414,100.0,100.0,97.0,1,22,3,729,0,0,0,729,443,443,0,720,286,9,2025_this_team
+Caleb Nitta,174796,C,W KENTUCKY,11,100.0,0,346,68.9,70.6,65.6,1,4,368,100.0,100.0,98.8,0,7,2,653,653,0,0,653,394,394,0,0,259,0,2025_this_team
+Alec Johnson,156693,C,GA STATE,8,100.0,0,175,53.7,59.7,50.2,2,6,283,100.0,100.0,98.6,1,8,0,469,469,0,0,469,301,301,0,0,168,0,arrival_2025_at_GA STATE
+Elijah Williams,188242,C,W KENTUCKY,7,100.0,0,346,59.9,55.6,61.9,1,4,143,100.0,100.0,98.3,1,5,0,239,235,0,0,239,147,147,0,0,92,2,2025_this_team
+Devon Smith,171564,T,W KENTUCKY,4,100.0,1,346,49.3,56.9,42.5,2,7,133,100.0,100.0,95.9,1,10,1,213,0,0,0,213,137,137,0,213,76,0,2025_this_team
+Melvin Collins Jr.,183999,G,W KENTUCKY,9,100.0,0,346,52.7,75.1,53.3,0,0,81,100.0,100.0,100.0,5,0,0,185,0,109,6,185,88,88,61,6,97,1,2025_this_team
+Jemeil Jackson,154116,T,W KENTUCKY,2,100.0,0,346,44.0,41.7,52.8,0,2,6,100.0,100.0,83.3,1,2,0,33,0,0,24,33,9,9,0,9,24,0,2025_this_team
+Isiah Stoudemire,199561,G,W KENTUCKY,2,100.0,0,346,66.8,65.6,66.6,0,0,6,100.0,100.0,100.0,0,0,0,25,0,0,0,25,9,9,24,0,16,1,2025_this_team
+Tyreek Major,189613,G,USF,3,100.0,0,327,64.0,76.6,62.6,0,0,3,100.0,100.0,100.0,0,0,0,21,0,21,0,21,4,4,0,0,17,0,arrival_2025_at_USF
+Tai Ray,175421,G,PITTSBURGH,4,100.0,0,268,64.1,77.7,61.6,0,0,8,100.0,100.0,100.0,0,0,0,17,0,0,1,17,8,8,9,7,9,0,arrival_2025_at_PITTSBURGH
+Alex Lopez,191204,T,MISS STATE,1,100.0,0,227,58.3,,57.9,0,0,0,,,,0,0,0,9,0,0,9,9,0,0,0,0,9,0,arrival_2025_at_MISS STATE
+Hackman Pierre,199552,T,W KENTUCKY,1,100.0,0,346,56.5,,55.8,0,0,0,,,,0,0,0,9,0,0,9,9,0,0,0,0,9,0,2025_this_team
+Gabe Claybrook,188744,G,W KENTUCKY,1,100.0,0,346,58.8,,58.5,0,0,0,,,,0,0,0,9,0,0,0,9,0,0,9,0,9,0,2025_this_team

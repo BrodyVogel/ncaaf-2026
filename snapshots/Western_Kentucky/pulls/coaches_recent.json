@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Tyson",
+  "lastName": "Helton",
+  "hireDate": "2018-11-27T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Western Kentucky",
+    "year": 2024,
+    "games": 14,
+    "wins": 8,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -5.4,
+    "spOverall": -2.2,
+    "spOffense": 22.1,
+    "spDefense": 26.1
+   }
+  ]
+ },
+ {
+  "firstName": "Tyson",
+  "lastName": "Helton",
+  "hireDate": "2018-11-27T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Western Kentucky",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -4.2,
+    "spOverall": 1.6,
+    "spOffense": 28.8,
+    "spDefense": 28.6
+   }
+  ]
+ }
+]

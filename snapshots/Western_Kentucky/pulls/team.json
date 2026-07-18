@@ -1,0 +1,36 @@
+{
+ "id": 98,
+ "school": "Western Kentucky",
+ "mascot": "Hilltoppers",
+ "abbreviation": "WKU",
+ "alternateNames": [
+  "WKU",
+  "Western KY"
+ ],
+ "conference": "Conference USA",
+ "division": null,
+ "classification": "fbs",
+ "color": "#F32026",
+ "alternateColor": "#b3b5b8",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/98.png"
+ ],
+ "twitter": "@WKUFootball",
+ "location": {
+  "id": 3796,
+  "name": "Houchens Industries-L.T. Smith Stadium",
+  "city": "Bowling Green",
+  "state": "KY",
+  "zip": "42101",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 36.9847901,
+  "longitude": -86.4594041,
+  "elevation": "154.4346619",
+  "capacity": 22113,
+  "constructionYear": 1968,
+  "grass": false,
+  "dome": false
+ }
+}

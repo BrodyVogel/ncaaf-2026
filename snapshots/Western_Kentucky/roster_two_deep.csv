@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Rodney Tisdale Jr.,QB,SO,returning,Athlon,feed,M,64.1/259 (CUSA -5.61; took over midseason - 1,432 yds/9 TD in 9 games). The Athlon QB1 in a battle with Glenn. LOST top-snap QB McIvor (73.2, yr4)
+QB,2,Brock Glenn,QB,JR,arrival(Florida State-ACC),Athlon,feed,M,73.7/13 at FSU (tiny sample; P4 pedigree). The challenger to Tisdale. New OC Reeder (pass-game, from MTSU)
+RB,1,Ajay Allen,RB,SR,arrival(Nebraska-B10),Athlon,feed,M,feed-gap (Tulsa/Nebraska) - the Athlon RB1 + Kalib Hicks (Okla State) + returning Marvis Parrish (72.6/105). LOST La'Vell Wright (78.8 -> Pittsburgh, yr4)
+RB,2,Kalib Hicks,RB,JR,arrival(Oklahoma State-B12),Athlon,feed,L,67.4/44 at Okla State + Sincere Baines (Maine). A transfer-led backfield off RUN p56
+WRTE,1,K.D. Hutchinson,WR,SR,returning,Athlon,feed,M,76.0/280 (CUSA -4.19; the WR1 - team-high 66 catches/618 yds/3 TD; "proven returning talent") + PR
+WRTE,2,Cameron Flowers,WR,SO,returning,Athlon,feed,M,63.5/167 (ret) + Quincy Burroughs (54.9) + Nigel Johnson (SC State FCS, feed-gap) + TE CC Ezirim (Toledo). LOST co-top WR Matthew Henry (74.4, yr4) + Moussa Barry (60.1). RECV p52
+OL,1,Karsten Upchurch,RT,SR,returning,Athlon,feed,L,58.1/729 (CUSA -6.36; the ONLY returning starter - "almost a complete rebuild"). LOST Seymore (69.4 -> Texas) + Nitta (68.9 -> Oklahoma) + yr4 (Jackson 916, Jenkins 916)
+OL,2,Roq Montgomery,RG,JR,arrival(Alabama-SEC),Athlon,feed,L,a P4-transfer rebuild: LT Tai Ray (Pitt) + LG Rhett Larson (Sam Houston) + C Alec Johnson (Ga St) + RG Montgomery (Alabama) + Alex Lopez (Miss St) + Tyreek Major (USF). RBLK was p33; PBLK p63
+DL,1,Venson Sneed,DE,SR,returning,Athlon,feed,M,57.3/389 (CUSA -7.88; "provides stability") + Jakeem Fletcher (DT, 63.7/204, yr4-return) + Elin Jones (DE, 61.3/286, yr4-return) + Eric Etienne
+DL,2,Kiawan Murphy,DT,SO,arrival(Akron-MAC),Athlon,feed,M,transfers Murphy (Akron) + Nathan Gonzales (Indiana St) + Javin Griffin. LOST standout Harper Holloman (70.7 -> WVU) + Hayward (64.0 -> TCU) + Harrison (68.5 -> Colo St) + yr4 (Hardy 71.7, Su'a-Filo). PRSH p41
+LB,1,Jordan Donald,LB,JR,returning,Athlon,feed,L,49.2/120 (CUSA -12.31; a thin returner). LB GUTTED - lost BOTH leading tacklers Jaylen Wester (70.2/688, yr4) + Anthony Brackenridge (58.6/581, yr4) + Malone (->Houston) + Hayward (->TCU)
+LB,2,Garrison Madden,LB,SO,arrival(USC-B10),Athlon,feed,L,92.0/6 at USC (tiny) + Geajorm Akpaloo (Coastal 45.0/163) + Zach Smith (45.1). "Thin on experience... plenty of competition for jobs" (Athlon)
+DB,1,Jaylen Lewis,S,SR,returning,Athlon,feed,M,81.0/805 (CUSA -6.16; an IMPACT safety - 74 tkl/team-high 3 INT) + Dave Herard (S, 73.6/569, yr4-return) - "a tough combo." Nation's best red-zone TD% D
+DB,2,Kent Robinson,CB,JR,returning,Athlon,feed,M,65.8/444 (ret) + Lataj Wright (72.8/49) + transfers D'Cambren Verrett (TAMU-K) + Jacob Cosby-Mosley (Wake). LOST CBs Flowers (76.6 -> Duke) + Ward (65.0 -> Syr) + Emery (70.8) + Mack (68.4). COV p63
+ST,1,Michael Buck,K,SO,returning,Athlon,feed,L,"first shot at placekicking" (new). SPEC was p85 (a strength). LOST both '25 K (Cassidy -> WVU, Olson -> New Mexico)
+ST,2,Daniel Wall,P,FR,returning,Athlon,feed,L,Australian Fr P ("looked strong in spring") + a strong return game (PR Hutchinson - "dangerous"; KR Flowers). New specialists off a p85 base

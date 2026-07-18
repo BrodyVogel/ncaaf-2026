@@ -1,0 +1,314 @@
+{
+ "team": "Western Kentucky",
+ "units": {
+  "QB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 42,
+   "confidence": "L"
+  },
+  "DL": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 36,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 48,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18T21:25:00Z",
+  "snapshot_rev": "frozen 2026-07-18T21:20:00Z (Western Kentucky)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary + tape; PS CUSA text GARBLED; no Pick Six for CUSA]; Conference USA -> returning tape on CUSA cells [heavily negative], arrivals on origin [FCS = no cell]; HC Tyson Helton Y8 [NO CHANGE, band x1.00]; new OC Reeder = coordinator change, does NOT trigger the band; disposition gate 46 rows / 0 adjudicate / 0 err - 3 portal->None adjudicated GONE [Barry WR, Jaavan Mack CB, Emery CB], 3 yr4-return overrides [Herard S, Fletcher DT, Elin Jones DE - Athlon-named], 2 feed-gap arrivals [Ajay Allen RB, Nigel Johnson WR]; huge churn 19 in/22 out + a 36-man yr4 class - lost McIvor QB 73.2 + Matthew Henry WR 74.4 [both yr4], both leading tacklers [Wester/Brackenridge, yr4], Holloman EDGE 70.7->WVU; anchor values not consulted. DISCLOSED: Athlon NF89 / CUSA prediction 1 incidentally visible, logged, NOT used [WKU picked to WIN CUSA].",
+  "planned_vs_final_deviations": {
+   "note": "Finals match the dossier planned lines exactly (QB52/RB46/WRTE48/OL42L/DL44/LB36L/DB50/ST48, sum 366). NO post-freeze corrections. Two high-value producers absent from the depth chart (McIvor QB, Henry WR) were confirmed yr4 (graduation) - not mystery departures. No Houston-style alias issue (row correctly 'Western Kentucky', 9-4).",
+   "shape": "CUSA's class (Athlon #1) reloading a heavily-raided roster: strengths in an elite safety duo (50 - Lewis 81.0 + Herard), a proven WR1 (48 - Hutchinson), a credible QB battle (52 - Tisdale + FSU Glenn), good ST (48), a transfer RB room (46); a middling DL that lost its standout (44); weaknesses in a GUTTED LB (36L - lost both leading tacklers) + an almost-complete OL rebuild (42L). The anchor (-6.47, best in CUSA) will make the FINAL the top of the conference. 2 L units."
+  },
+  "shadow_proxy_divergence": {
+   "note": "The proxy (QB 15, RB 15, WRTE 53, OL 12, DL 1, LB None, DB 63, ST 85) is low across most units (the 36-man yr4 class + 22 outs stripped returning-producer snaps) except DB 63 (Lewis/Herard) + ST 85. The grades key the verified returners + the Athlon two-deep, NOT the proxy.",
+   "DB": "-13 vs proxy 63 - the grade keys the elite safety duo (Lewis 81.0 + Herard) but tempers for the heavy CB turnover.",
+   "QB": "+37 vs proxy 15 - the grade keys the credible battle (Tisdale 1,432 yds + FSU Glenn) the churn-low proxy misses.",
+   "WRTE": "-5 vs proxy 53 - the grade keys the proven WR1 (Hutchinson 76.0) after the co-top WR (Henry) graduated.",
+   "LB": "+36 vs proxy None - graded thin (Donald + transfers) after both leading tacklers left; the proxy sees nothing.",
+   "OL": "+30 vs proxy 12 - the grade keys the P4-transfer rebuild (Pitt/Alabama/Miss St) + Upchurch over the stripped base."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Western Kentucky",
+   "unit": "QB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Jacksonville State QB 2026 (52, peer)",
+    "Delaware QB 2026 (52, peer)"
+   ],
+   "rationale_bullets": [
+    "Rodney Tisdale Jr. (SO, 64.1/259 -> CUSA -5.61; took over midseason - 1,432 yds/9 TD in 9 games) vs Brock Glenn (FSU, 73.7/13 tiny) - a battle. LOST top-snap McIvor (73.2/314, yr4). New OC Reeder (a pass-game guy).",
+    "A QB battle between two CREDIBLE options - a productive returning starter (Tisdale) + a P4-pedigree transfer (Glenn) - in a pass-friendly scheme; the unit is good either way.",
+    "52: ~Jacksonville State/Delaware QB 52. Tisdale's 1,432-yd production + Glenn's pedigree vs the open battle + the lost top-snap QB. M."
+   ],
+   "key_players": [
+    {
+     "name": "Rodney Tisdale Jr.",
+     "role": "QB (returning)",
+     "evidence": "64.1/259; 1,432 yds/9 TD in 9 games as the midseason starter"
+    },
+    {
+     "name": "Brock Glenn",
+     "role": "QB (arrival, Florida State)",
+     "evidence": "73.7/13 at FSU - a P4-pedigree challenger"
+    }
+   ],
+   "data_gaps": [
+    "QB battle (Tisdale vs Glenn)",
+    "new OC",
+    "lost the top-snap QB (McIvor, yr4)"
+   ],
+   "g5_guard_note": "Conference USA; a credible QB battle - a productive returning starter (Tisdale) + an FSU transfer. M."
+  },
+  {
+   "team": "Western Kentucky",
+   "unit": "RB",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Old Dominion RB 2026 (46, peer)",
+    "Texas State RB 2026 (46, peer)"
+   ],
+   "rationale_bullets": [
+    "Ajay Allen (Tulsa/Nebraska - the Athlon RB1) + Kalib Hicks (Okla State) + returning Marvis Parrish (72.6/105). LOST La'Vell Wright (78.8 -> Pittsburgh, yr4) + Hart (yr4).",
+    "A transfer-led backfield (Ajay Allen + Hicks) + a returning contributor (Parrish 72.6), off a decent run game (RUN p56).",
+    "46: ~Old Dominion/Texas State RB 46. The transfer bodies + Parrish vs the lost 78.8 back + no proven WKU volume back. M."
+   ],
+   "key_players": [
+    {
+     "name": "Ajay Allen",
+     "role": "RB (arrival, Nebraska)",
+     "evidence": "Tulsa/Nebraska transfer - the Athlon RB1"
+    },
+    {
+     "name": "Marvis Parrish",
+     "role": "RB (returning)",
+     "evidence": "72.6/105 - a returning contributor"
+    }
+   ],
+   "data_gaps": [
+    "lost the top back (La'Vell Wright 78.8, yr4)",
+    "transfer-led room"
+   ],
+   "g5_guard_note": "Conference USA; a transfer-led RB room (Ajay Allen + Hicks) + a returning contributor (Parrish). M."
+  },
+  {
+   "team": "Western Kentucky",
+   "unit": "WRTE",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "South Florida WRTE 2026 (48, peer)",
+    "UTSA WRTE 2026 (48, peer)"
+   ],
+   "rationale_bullets": [
+    "K.D. Hutchinson (76.0/280 -> CUSA -4.19; the WR1 - 66 catches/618 yds/3 TD, 'proven returning talent') + Cameron Flowers (63.5) + Nigel Johnson (SC State FCS) + Quincy Burroughs (54.9) + TE CC Ezirim (Toledo). LOST co-top WR Matthew Henry (74.4, yr4) + Moussa Barry (60.1).",
+    "A genuine, proven WR1 (Hutchinson 76.0) + transfer/returning depth off a solid receiving unit (RECV p52) - even after losing the co-top WR (Henry).",
+    "48: ~South Florida/UTSA WRTE 48. Hutchinson + the depth vs the lost co-top WR + the rebuilt QB throwing to them. M."
+   ],
+   "key_players": [
+    {
+     "name": "K.D. Hutchinson",
+     "role": "WR (returning)",
+     "evidence": "76.0/280; team-high 66 catches/618 yds/3 TD - a proven WR1"
+    },
+    {
+     "name": "Cameron Flowers",
+     "role": "WR (returning)",
+     "evidence": "63.5/167 - returning depth + the KR"
+    }
+   ],
+   "data_gaps": [
+    "lost the co-top WR (Henry 74.4, yr4)",
+    "a rebuilt QB throwing to them"
+   ],
+   "g5_guard_note": "Conference USA; a proven WR1 (Hutchinson 76.0) + depth after the co-top WR graduated. M."
+  },
+  {
+   "team": "Western Kentucky",
+   "unit": "OL",
+   "grade": 42,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Syracuse OL 2026 (42, peer)",
+    "Rice OL 2026 (42, peer)"
+   ],
+   "rationale_bullets": [
+    "'ALMOST A COMPLETE REBUILD' - RT Karsten Upchurch (58.1/729 -> CUSA -6.36) the ONLY returning starter + a P4-transfer line: LT Tai Ray (Pitt) + LG Rhett Larson (Sam Houston) + C Alec Johnson (Ga St) + RG Roq Montgomery (Alabama) + Alex Lopez (Miss St). LOST Seymore (69.4 -> Texas) + Nitta (68.9 -> Oklahoma) + yr4 (Jackson 916, Jenkins 916).",
+    "An almost-entirely-new line - one returning starter + quality P4 transfers (Pitt/Alabama/Miss St) - better pedigree than a typical CUSA rebuild, but cohesion is unproven (RBLK p33).",
+    "42: ~Syracuse/Rice OL 42. The P4-transfer pedigree + Upchurch vs the near-total turnover + the cohesion risk. L."
+   ],
+   "key_players": [
+    {
+     "name": "Karsten Upchurch",
+     "role": "RT (returning)",
+     "evidence": "58.1/729 - the only returning OL starter"
+    },
+    {
+     "name": "Roq Montgomery",
+     "role": "RG (arrival, Alabama)",
+     "evidence": "an SEC transfer into a near-total OL rebuild"
+    }
+   ],
+   "data_gaps": [
+    "only 1 returning starter ('almost a complete rebuild')",
+    "cohesion unproven (RBLK p33)"
+   ],
+   "g5_guard_note": "Conference USA; an almost-complete OL rebuild - 1 returning starter + P4 transfers (Pitt/Alabama). L."
+  },
+  {
+   "team": "Western Kentucky",
+   "unit": "DL",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Kennesaw State DL 2026 (44, peer)",
+    "Louisiana DL 2026 (44, peer)"
+   ],
+   "rationale_bullets": [
+    "Venson Sneed (DE, 57.3/389 -> CUSA -7.88) + Jakeem Fletcher (DT, 63.7/204, yr4-return) + Elin Jones (DE, 61.3/286, yr4-return) + Eric Etienne + transfers (Kiawan Murphy Akron, Nathan Gonzales Indiana St). LOST standout Harper Holloman (70.7 -> WVU) + Hayward (64.0 -> TCU) + Harrison (68.5) + yr4 (Hardy 71.7, Su'a-Filo).",
+    "Some stability (Sneed + the yr4-return duo Fletcher/Elin Jones) + transfers, but lost the standout edge (Holloman) + several pieces; a middling front (PRSH p41).",
+    "44: ~Kennesaw State/Louisiana DL 44. Sneed + Fletcher + Elin Jones + transfers vs the lost standout + the thinned depth. M."
+   ],
+   "key_players": [
+    {
+     "name": "Venson Sneed",
+     "role": "DE (returning)",
+     "evidence": "57.3/389 - a returning end providing stability"
+    },
+    {
+     "name": "Kiawan Murphy",
+     "role": "DT (arrival, Akron)",
+     "evidence": "a transfer into a reloaded front"
+    }
+   ],
+   "data_gaps": [
+    "lost the standout edge (Holloman 70.7 -> WVU)",
+    "thinned depth (several yr4/portal losses)"
+   ],
+   "g5_guard_note": "Conference USA; some DL stability (Sneed + yr4-return Fletcher/Elin Jones) + transfers after losing the standout. M."
+  },
+  {
+   "team": "Western Kentucky",
+   "unit": "LB",
+   "grade": 36,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Utah State LB 2026 (36, peer)",
+    "New Mexico State LB 2026 (38, bracket-above)"
+   ],
+   "rationale_bullets": [
+    "Jordan Donald (49.2/120 -> CUSA -12.31; thin) + transfers (Garrison Madden USC 92.0/6 tiny, Geajorm Akpaloo Coastal 45.0/163) + Zach Smith (45.1). LOST BOTH leading tacklers - Jaylen Wester (70.2/688) + Anthony Brackenridge (58.6/581), both yr4 - + Malone (-> Houston) + Hayward (-> TCU).",
+    "GUTTED - both leading tacklers exhausted eligibility, and the room is 'thin on experience... plenty of competition for jobs' (Athlon); the transfers are low-sample. WKU's clear weakness.",
+    "36: ~Utah State 36 / New Mexico State 38. The USC-transfer upside (Madden) vs losing both leading tacklers + no proven returning LB. L."
+   ],
+   "key_players": [
+    {
+     "name": "Jordan Donald",
+     "role": "LB (returning)",
+     "evidence": "49.2/120 - a thin returning linebacker"
+    },
+    {
+     "name": "Garrison Madden",
+     "role": "LB (arrival, USC)",
+     "evidence": "92.0 on 6 snaps at USC - low-sample transfer upside"
+    }
+   ],
+   "data_gaps": [
+    "lost BOTH leading tacklers (Wester + Brackenridge, yr4)",
+    "'thin on experience... competition for jobs'"
+   ],
+   "g5_guard_note": "Conference USA; a GUTTED LB - lost both leading tacklers, rebuilt via low-sample transfers. L."
+  },
+  {
+   "team": "Western Kentucky",
+   "unit": "DB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Jacksonville State DB 2026 (50, peer)",
+    "Pittsburgh DB 2026 (50, peer)"
+   ],
+   "rationale_bullets": [
+    "Jaylen Lewis (S, 81.0/805 -> CUSA -6.16; an IMPACT safety - 74 tkl/team-high 3 INT) + Dave Herard (S, 73.6/569, yr4-return) - 'a tough combo' - + Kent Robinson (CB, 65.8/444) + Lataj Wright (72.8/49) + transfers (Verrett TAMU-K, Cosby-Mosley Wake). LOST CBs Flowers (76.6 -> Duke) + Ward (65.0 -> Syr) + Emery (70.8) + Mack (68.4).",
+    "An ELITE-for-CUSA safety duo (Lewis 81.0 + Herard 73.6) anchoring the nation's best red-zone TD% defense - even with heavy CB turnover; the safeties carry it.",
+    "50: ~Jacksonville State/Pittsburgh DB 50. The elite safety duo + the red-zone base vs the rebuilt corner room (COV p63). M."
+   ],
+   "key_players": [
+    {
+     "name": "Jaylen Lewis",
+     "role": "S (returning)",
+     "evidence": "81.0/805; 74 tkl/team-high 3 INT - an impact safety"
+    },
+    {
+     "name": "Kent Robinson",
+     "role": "CB (returning)",
+     "evidence": "65.8/444 - a returning corner amid heavy CB turnover"
+    }
+   ],
+   "data_gaps": [
+    "heavy CB turnover (Flowers -> Duke, Ward/Eugene -> Syracuse)",
+    "corners rebuilt via transfers"
+   ],
+   "g5_guard_note": "Conference USA; an elite safety duo (Lewis 81.0 + Herard) carries a rebuilt secondary. M."
+  },
+  {
+   "team": "Western Kentucky",
+   "unit": "ST",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Jacksonville State ST 2026 (48, peer)",
+    "Louisiana ST 2026 (48, peer)"
+   ],
+   "rationale_bullets": [
+    "NEW specialists - K Michael Buck (SO, 'first shot') + P Daniel Wall (Australian Fr, 'looked strong in spring') - + a dangerous return game (PR Hutchinson, KR Flowers). SPEC was p85. LOST both '25 Ks (Cassidy -> WVU, Olson -> New Mexico).",
+    "A strong '25 special-teams base (SPEC p85) + a dangerous returning return game (Hutchinson PR), but both the K and P are new.",
+    "48: ~Jacksonville State/Louisiana ST 48. The p85 base + the return game vs the new K/P. M."
+   ],
+   "key_players": [
+    {
+     "name": "K.D. Hutchinson",
+     "role": "PR (returning)",
+     "evidence": "a dangerous returning punt returner"
+    },
+    {
+     "name": "Cameron Flowers",
+     "role": "KR (returning)",
+     "evidence": "back to handle kickoff returns"
+    }
+   ],
+   "data_gaps": [
+    "new K and P (both first-year at the job)"
+   ],
+   "g5_guard_note": "Conference USA; a strong ST base (SPEC p85) + a dangerous return game, but new K/P. M."
+  }
+ ]
+}
