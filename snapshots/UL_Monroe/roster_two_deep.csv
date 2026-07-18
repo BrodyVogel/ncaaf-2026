@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Aidan Armenta,QB,JR,returning,Athlon,scout,M,62.1/315 (SBC -1.01; the returning starter - 1628 yds/12 TD/8 INT; "a game manager who can run a little"; the passing game was DEAD LAST in the SBC at 160.4 ypg)
+QB,2,Landon Graves,QB,JR,returning,Athlon,feed,L,57.2/45 (the returning backup)
+RB,1,Donald Chaney Jr.,RB,SR,arrival(Louisville/Miami-P4),Athlon,feed,L,former Louisville + Miami (Fla.) RB; the headline backfield add. LOST McReynolds (87.6 -> UAB) + Palmer-Smith (83.6 yr4, leading rusher) + Reed (78.4)
+RB,2,Derrick Jameson,RB,JR,arrival(transfer),Athlon,feed,L,a portal add. The top-3 '25 RBs all GONE - a transfer rebuild ("running the ball was ULM's strength")
+WRTE,1,Nic Trujillo,WR,JR,returning,Athlon,feed,M,62.7/200 (SBC -0.74; the one returning WR of note - 23 rec/368/4 TD)
+WRTE,2,Bryce Anderson,TE,JR,arrival(Memphis-AAC),Athlon,feed,L,Memphis transfer TE + JP Coulter (58.5, returning) + transfers (Marcellus Jackson/LT Robinson). LOST Bibbs (70.3->UCF) + Griffin (73.0->ETSU). "Largely unproven"
+OL,1,AJ Vinson,RT,SR,returning,Athlon,feed,M,68.6/725 (SBC -0.35; the returning starting tackle - anchors an OL that "has to replace FOUR starters")
+OL,2,David Applewhite,LT,JR,returning,Athlon,feed,L,+ transfers Kaliem Croswell (LG) + Sean Dugery (C) + Nolan Anderson (RG). 4 OL starters to replace
+DL,1,Jaeden Calender,ED,JR,returning,Athlon,feed,M,73.2/252 (SBC -6.50; a returning edge)
+DL,2,Cliff Mosley,DT,SR,returning-yr4override,Athlon,feed,M,62.7/468 (SBC; returning DT, yr4 override - Athlon bold) + James Smith (61.7) + Levontae Jacobs (yr4 override). LOST Wells(74.8)+Howell(81.4 yr4)+Hamlin+Woody(->Texas St)+Simmons(->Oregon)+Loa(->NAU)+Ware
+LB,1,Noah Flemmings,LB,SR,returning,Athlon,feed,M,77.9/579 (SBC -8.20; the LB anchor - the top returning grade)
+LB,2,Marcus Ross,LB,SR,returning,Athlon,feed,M,71.4/389 (SBC; a returning starter) + Jabari Tiller + Rickey Banks (transfer). LOST Langston (-> South Alabama). A decent returning LB core
+DB,1,Zy Jackson,CB,SR,returning,Athlon,feed,M,60.0/354 (SBC -3.62; a returning DB) + Lynard Harris + Korian Wilson + Carl Fauntroy
+DB,2,Armoni Rue,CB,SR,arrival(UTEP-CUSA),Athlon,feed,L,juco All-American (5 games at UTEP). "FOUR NEW FACES in the secondary." LOST Godsey (76.9 yr4, the top CB) + Perkins-McAllister (yr4) + Canterbury (->None)
+ST,1,Makenzie Ryan,P,JR,returning,Athlon,feed,M,38.8-yd avg as a soph (the returning punter)
+ST,2,Max Larson,K,SR,returning,Athlon,feed,L,back after missing '25 (injury); a K competition (+ Cal transfer Abram Murray + Chambless). KR/PR JP Coulter

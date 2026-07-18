@@ -1,0 +1,13 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+AJ Vinson,199732,T,LA MONROE,12,100.0,2,209,68.6,80.6,62.3,0,6,328,100.0,100.0,98.5,5,8,2,725,0,1,0,725,354,354,4,715,371,5,2025_this_team
+Que McBroom,190018,T,LA MONROE,12,100.0,1,209,54.8,68.4,53.1,2,14,301,100.0,100.0,96.3,10,19,3,673,0,4,665,673,326,326,0,0,347,4,2025_this_team
+Elijah Fisher,127950,C,LA MONROE,11,100.0,2,209,80.1,89.0,77.1,1,0,296,100.0,100.0,99.5,3,2,1,657,656,0,0,657,322,322,0,0,335,0,2025_this_team
+Jay Mickle,181165,G,LA MONROE,11,100.0,0,209,74.2,87.1,70.9,1,2,269,100.0,100.0,98.3,1,6,3,597,0,4,0,597,292,292,588,3,305,1,2025_this_team
+Nate Green,190010,G,LA MONROE,11,100.0,0,209,59.9,74.2,54.1,1,8,184,100.0,100.0,95.9,0,12,3,398,0,233,1,398,200,200,144,0,198,19,2025_this_team
+Kaliem Croswell,199738,G,LA MONROE,11,100.0,0,209,64.2,77.2,63.0,0,3,151,100.0,100.0,99.0,5,3,0,323,0,319,2,323,159,159,1,1,164,0,2025_this_team
+Reese Steele,175741,G,LA MONROE,4,100.0,0,209,68.5,86.3,64.4,0,2,80,100.0,100.0,98.7,1,2,0,203,0,200,1,203,86,86,2,0,117,0,2025_this_team
+Drew Hutchinson,163508,C,LA MONROE,5,100.0,0,209,66.9,72.3,66.2,0,1,47,100.0,100.0,98.9,1,1,0,106,105,0,0,106,47,47,0,0,59,0,2025_this_team
+David Applewhite,190004,T,LA MONROE,6,100.0,0,209,51.0,54.8,49.5,0,2,43,100.0,100.0,97.7,0,2,0,95,0,0,87,95,44,44,0,0,51,7,2025_this_team
+Quentis Griffin Jr.,184315,T,LA MONROE,4,100.0,0,209,54.1,34.3,57.6,0,1,13,100.0,100.0,96.2,0,1,0,30,0,0,0,30,13,13,0,29,17,0,2025_this_team
+Adameon Botley,163498,T,LA MONROE,1,100.0,0,209,58.7,80.5,56.0,0,0,8,100.0,100.0,100.0,0,0,0,21,0,0,0,21,8,8,21,0,13,0,2025_this_team
+John Curtis Goodman Jr.,163503,T,LA MONROE,1,100.0,0,209,68.3,68.1,68.3,0,0,2,100.0,100.0,100.0,0,0,0,7,0,0,0,7,2,2,0,7,5,0,2025_this_team

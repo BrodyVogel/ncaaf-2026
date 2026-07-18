@@ -1,0 +1,57 @@
+{
+ "team": "UL Monroe",
+ "conference": "Sun Belt",
+ "created_utc": "2026-07-18T16:40:57+00:00",
+ "assembler_git_rev": "4c5def6",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Bryant Vincent (8-16 at school, entering Year 3; NO change; band x1.00). New OC Jesse Montalto - a coordinator change, does NOT trigger the band. '25: 3-9 (1-7 SBC), a step back from 5 wins in 2024. G5 2-SOURCE build (Athlon primary + scout). High churn ('20 juco + 20 portal' per the scout; feed 20 in / 17 out) - a heavily rebuilt roster.",
+ "conference_note": "Established Sun Belt (West). SBC offsets NEGATIVE/small; returning tape on SBC cells, arrivals on origin. Athlon projects ULM LAST in the SBC West (the round's lowest NF, 131). A 3-9 team with a DEAD-LAST passing offense (160.4 ypg) but an improved defense (6th in the SBC in total D). Keeps QB Armenta + a decent LB core (Flemmings 77.9 + Ross 71.4) + WR Trujillo + OL Vinson, but rebuilds the backfield (lost the top RB McReynolds 87.6 -> UAB), the DL, and the secondary (4 new faces).",
+ "data_gap_note": "PFF TEAM-PERCENTILE ROW did NOT match: ULM's PFF data is under the alias 'LA MONROE' (roster feed = 'UL Monroe'), so team_dump reported 'NO ROW' and the shadow proxy is all-None. The PER-PLAYER PFF grades ARE present (under LA MONROE) and were used; the team-level percentile context is unavailable. FLAG for FORWARD_FLAGS: add 'LA MONROE' -> 'UL Monroe' to the PFF alias map. Grading used player grades + Athlon (no as-played percentile line).",
+ "portal_departure_confirmed": [
+  "Que McBroom",
+  "Kevontay Wells",
+  "Jaden Hamlin",
+  "Kamrin Canterbury"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Cliff Mosley",
+  "Levontae Jacobs"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Zach Palmer-Smith",
+  "Dylan Howell",
+  "David Godsey Jr.",
+  "Billy Pullen",
+  "Jyren Ester"
+ ],
+ "feed_gap_arrivals_documented": [
+  "Donald Chaney Jr. (RB; a former Louisville/Miami transfer - Athlon-named, may not be in the CFBD portal-in feed)"
+ ],
+ "known_name_exceptions": {
+  "Aidan Armenta": "QB, 62.1/315 - RETURNS. The returning starter (1,628 yds/12 TD/8 INT); 'a game manager who can run a little' (scout). The passing game was dead last in the SBC (160.4 ypg).",
+  "Zach Palmer-Smith": "RB, 83.6/119 - GONE (departure_confirmed_research; yr4). ULM's leading rusher ('must replace' per Athlon); eligibility expired.",
+  "Bam McReynolds": "RB, 87.6/124 - GONE (portal -> UAB). The top '25 RB grade ('a really good player' per the scout); the backfield is a transfer rebuild (Chaney Jr.).",
+  "Dylan Howell": "DE, 81.4/219 - GONE (yr4). The top DL grade; not on the '26 depth chart - graduated.",
+  "David Godsey Jr.": "CB, 76.9/721 - GONE (yr4). The top DB grade + a 721-snap corner; graduated ('four new faces in the secondary').",
+  "Cliff Mosley": "DT, 62.7/468 - RETURNS (yr4 override). Athlon bold returning starter at DT.",
+  "Levontae Jacobs": "DT, 43.4/44 - RETURNS (yr4 override). Athlon depth-chart DT (Sr); a low-snap yr4 returner.",
+  "Noah Flemmings": "LB, 77.9/579 - RETURNS. The LB anchor + the top returning grade; not yr4.",
+  "Marcus Ross": "LB, 71.4/389 - RETURNS. A returning LB starter; with Flemmings a decent returning core.",
+  "AJ Vinson": "RT, 68.6/725 - RETURNS. The one returning OL starter ('anchors an OL that has to replace FOUR starters').",
+  "Nic Trujillo": "WR, 62.7/200 - RETURNS. The one returning WR of note (23 rec/368/4 TD)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon. High churn ('20 juco + 20 portal' per scout). Grade-critical departures: the top RB (McReynolds 87.6 -> UAB), the leading rusher (Palmer-Smith 83.6, yr4), the top DL (Howell 81.4, yr4), and the top CB (Godsey 76.9, yr4) are all GONE.",
+  "DATA GAP: no PFF team-percentile row (PFF alias 'LA MONROE' != roster 'UL Monroe'); the shadow proxy is all-None. Grading used the per-player PFF grades (present under LA MONROE) + Athlon, without the as-played percentile line. FLAG for the PFF alias map.",
+  "3-9 in '25 (1-7 SBC), a step back. Athlon: 'ranked near the bottom of the SBC in total + scoring offense (323.5 yds/16.6 pts); dead last in passing (160.4 ypg).' The defense IMPROVED (6th in the SBC in total D).",
+  "The OFFENSE keeps QB Armenta (a game-manager) + WR Trujillo + OL Vinson, but rebuilds heavily: the top-3 RBs are gone (a transfer backfield - Louisville/Miami's Chaney Jr.); the WR corps is 'largely unproven' + a Memphis TE transfer; the OL 'has to replace FOUR starters.'",
+  "The DEFENSE keeps a decent LB core (Flemmings 77.9 + Ross 71.4) + a couple DL (Calender, Mosley yr4-return) but lost the top DL (Howell 81.4, yr4) + most of the front + the top CB (Godsey 76.9, yr4); the secondary is 'four new faces' incl. juco AA CB Armoni Rue (UTEP).",
+  "ST: a returning punter (Ryan, 38.8) + a kicking competition (Larson back from a '25 injury + Cal transfer Murray) + KR/PR Coulter."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF131 / Sun Belt West 7 incidentally visible - logged, NOT used. G5 2-source (Athlon primary + scout; PS SBC text garbled).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T16:52:00+00:00"
+}

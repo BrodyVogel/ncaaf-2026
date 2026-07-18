@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Bryant",
+  "lastName": "Vincent",
+  "hireDate": "2023-12-05T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "UL Monroe",
+    "year": 2024,
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -9.8,
+    "spOverall": -16.7,
+    "spOffense": 16.9,
+    "spDefense": 32.5
+   }
+  ]
+ },
+ {
+  "firstName": "Bryant",
+  "lastName": "Vincent",
+  "hireDate": "2023-12-05T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "UL Monroe",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -20,
+    "spOverall": -21.6,
+    "spOffense": 16.1,
+    "spDefense": 35.7
+   }
+  ]
+ }
+]

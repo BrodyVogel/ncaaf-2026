@@ -1,0 +1,130 @@
+{
+ "team": "UL Monroe",
+ "units": {
+  "QB": {"grade": 42, "confidence": "M"},
+  "RB": {"grade": 40, "confidence": "M"},
+  "WRTE": {"grade": 40, "confidence": "M"},
+  "OL": {"grade": 38, "confidence": "M"},
+  "DL": {"grade": 40, "confidence": "M"},
+  "LB": {"grade": 44, "confidence": "M"},
+  "DB": {"grade": 40, "confidence": "L"},
+  "ST": {"grade": 40, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T16:52:00Z (UL Monroe)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary + scout; PS SBC text GARBLED; no Pick Six for SBC]; established Sun Belt team -> returning tape on SBC cells [negative/small], arrivals on origin [juco = no cell]; HC Bryant Vincent Y3 [NO CHANGE, band x1.00; new OC Montalto is a coordinator change - does NOT trigger the band]; DATA GAP - no PFF team-percentile row [PFF alias 'LA MONROE' != roster 'UL Monroe'], graded on per-player PFF grades + Athlon; disposition gate 42 rows / 0 adjudicate / 0 err - yr4-return overrides Cliff Mosley + Levontae Jacobs; departure_confirmed_research the top graders RB Palmer-Smith [83.6] + DL Howell [81.4] + CB Godsey [76.9] + Pullen + Ester [all yr4]; portal_departure_confirmed McBroom/Wells/Hamlin/Canterbury; RB McReynolds 87.6 -> UAB feed-destinationed; DB marked L]; anchor values not consulted. DISCLOSED: Athlon NF131 / Sun Belt West 7 incidentally visible, logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB42/RB40/WRTE40/OL38/DL40/LB44/DB40L/ST40, sum 324, 1 L). No post-freeze corrections. Athlon's lowest-projected SBC team (West last). DATA GAP: no PFF team-percentile row (alias LA MONROE) - grading used per-player PFF grades (Armenta 62.1, Flemmings 77.9, etc.) + Athlon; flagged for the PFF alias map."},
+  "shadow_proxy_divergence": {
+   "note": "the shadow proxy is all-None - a MECHANICAL artifact of the PFF name mismatch (LA MONROE vs UL Monroe), NOT a real returning-production signal. The grades used the per-player PFF grades + Athlon directly; the proxy is not informative here.",
+   "LB": "the grade (44) keys the two returning 70+ LBs (Flemmings 77.9 + Ross 71.4) - the team's best returning unit.",
+   "QB": "the grade (42) keys the returning game-manager (Armenta 62.1) off a dead-last passing attack.",
+   "DB": "the grade (40 L) reflects 'four new faces' - a heavy secondary rebuild after losing the top CB (Godsey 76.9)."
+  }
+ },
+ "grades_detail": [
+  {"team": "UL Monroe", "unit": "QB", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["Kansas QB 2026 (42, peer)", "UAB QB 2026 (42, peer)"],
+   "rationale_bullets": [
+    "Aidan Armenta (62.1/315 -> SBC -1.01; the returning starter - 1,628 yds/12 TD/8 INT; 'a game manager who can run a little') + Landon Graves (57.2/45).",
+    "A returning full-season starter, but a game-manager off a passing game that finished DEAD LAST in the SBC (160.4 ypg).",
+    "42: ~Kansas/UAB QB 42. The returning starter + his mobility vs the dead-last passing production. M."
+   ],
+   "key_players": [
+    {"name": "Aidan Armenta", "role": "QB (returning)", "evidence": "62.1/315; 1,628 yds/12 TD/8 INT, a returning game-manager"}
+   ],
+   "data_gaps": ["dead-last SBC passing (160.4 ypg)", "a game-manager profile"],
+   "g5_guard_note": "Sun Belt; a returning game-manager starter (Armenta, SBC -1.01) off the conference's worst passing attack."},
+  {"team": "UL Monroe", "unit": "RB", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska RB 2026 (40, peer)", "Navy RB 2026 (40, peer)"],
+   "rationale_bullets": [
+    "Donald Chaney Jr. (Louisville/Miami transfer) + Derrick Jameson (transfer). LOST the top 3: Bam McReynolds (87.6 -> UAB) + Zach Palmer-Smith (83.6, yr4, leading rusher) + Tyrell Reed (78.4).",
+    "A total backfield rebuild - a P4-transfer (Chaney) + a portal add - after the top 3 backs left a run game that was ULM's '25 'strength.'",
+    "40: ~Nebraska/Navy RB 40. Chaney's P4 pedigree vs the total turnover. M."
+   ],
+   "key_players": [
+    {"name": "Donald Chaney Jr.", "role": "RB (transfer, Louisville/Miami)", "evidence": "a former P4 (Louisville + Miami) RB - the headline backfield add"}
+   ],
+   "data_gaps": ["top 3 RBs gone (McReynolds -> UAB, Palmer-Smith yr4)", "a transfer rebuild"],
+   "g5_guard_note": "Sun Belt; a total backfield rebuild - a P4-transfer + a portal add after the top 3 left."},
+  {"team": "UL Monroe", "unit": "WRTE", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Maryland WRTE 2026 (40, peer)", "Purdue WRTE 2026 (40, peer)"],
+   "rationale_bullets": [
+    "Nic Trujillo (62.7/200 -> SBC -0.74; the one returning WR of note - 23 rec/368/4 TD) + JP Coulter (58.5) + Memphis TE transfer Bryce Anderson + transfers. LOST Bibbs (70.3 -> UCF) + Griffin (73.0 -> ETSU).",
+    "One proven returning WR (Trujillo) + a Memphis TE + a 'largely unproven' transfer corps, off a dead-last passing attack.",
+    "40: ~Maryland/Purdue WRTE 40. Trujillo + the TE add vs the unproven corps + the poor passing. M."
+   ],
+   "key_players": [
+    {"name": "Nic Trujillo", "role": "WR (returning)", "evidence": "62.7/200; the one returning WR of note (23 rec/368/4 TD)"},
+    {"name": "Bryce Anderson", "role": "TE (transfer, Memphis)", "evidence": "a Memphis transfer TE to help the pass-catching"}
+   ],
+   "data_gaps": ["lost Bibbs (UCF) + Griffin (ETSU)", "'largely unproven' corps", "dead-last passing"],
+   "g5_guard_note": "Sun Belt; one returning WR (Trujillo, SBC -0.74) + a Memphis TE + an unproven corps."},
+  {"team": "UL Monroe", "unit": "OL", "grade": 38, "confidence": "M",
+   "bracketing_exemplars": ["Illinois OL 2026 (38, peer)", "Purdue OL 2026 (38, peer)"],
+   "rationale_bullets": [
+    "AJ Vinson (68.6/725; the returning starting tackle) + David Applewhite (LT) + transfers Kaliem Croswell (LG) + Sean Dugery (C) + Nolan Anderson (RG). Athlon: 'has to replace FOUR starters.'",
+    "One returning starting tackle (Vinson) + a transfer-rebuilt line (4 new starters).",
+    "38: ~Illinois/Purdue OL 38. Vinson anchors a tackle spot; the 4 new starters cap it. M."
+   ],
+   "key_players": [
+    {"name": "AJ Vinson", "role": "RT (returning)", "evidence": "68.6/725; the one returning starting tackle"}
+   ],
+   "data_gaps": ["must replace 4 OL starters", "transfer-rebuilt interior"],
+   "g5_guard_note": "Sun Belt; one returning starting tackle (Vinson, SBC -0.35) + a transfer-rebuilt line."},
+  {"team": "UL Monroe", "unit": "DL", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Arkansas State DL 2026 (40, peer)", "Tulsa DL 2026 (40, peer)"],
+   "rationale_bullets": [
+    "Jaeden Calender (73.2/252 -> SBC -6.50; a returning edge) + Cliff Mosley (62.7/468; DT, yr4 override) + James Smith (61.7) + Levontae Jacobs (yr4 override) + transfers. LOST the top DL Dylan Howell (81.4, yr4) + Kevontay Wells (74.8) + Woody (-> Texas St) + Simmons (-> Oregon).",
+    "A couple of returning linemen (Calender, Mosley) + a transfer rebuild, after the top edge (Howell) + much of the rotation left; the '25 D 'improved' but the front turned over.",
+    "40: ~Arkansas State/Tulsa DL 40. Calender + Mosley vs the heavy front turnover. M."
+   ],
+   "key_players": [
+    {"name": "Jaeden Calender", "role": "ED (returning)", "evidence": "73.2/252; a returning edge"},
+    {"name": "Cliff Mosley", "role": "DT (returning, yr4)", "evidence": "62.7/468; a returning interior lineman (Athlon bold)"}
+   ],
+   "data_gaps": ["lost the top DL (Howell 81.4, yr4) + much of the rotation"],
+   "g5_guard_note": "Sun Belt; a couple returning DL (Calender, Mosley - SBC -6.50) + a transfer rebuild after the front turned over."},
+  {"team": "UL Monroe", "unit": "LB", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Kansas State LB 2026 (44, peer)", "Oregon State LB 2026 (44, peer)"],
+   "rationale_bullets": [
+    "Noah Flemmings (77.9/579 -> SBC -8.20; the LB anchor - the top returning grade) + Marcus Ross (71.4/389; a returning starter) + Jabari Tiller (68.7) + Rickey Banks (transfer). LOST Seidrion Langston (-> South Alabama).",
+    "A genuine returning strength for a bottom team - two 70+ returning LBs (Flemmings + Ross) + depth. The best of ULM's returning units.",
+    "44: ~Kansas State/Oregon State LB 44. Flemmings + Ross anchor it; the G5 bottom-tier level caps it. M."
+   ],
+   "key_players": [
+    {"name": "Noah Flemmings", "role": "LB (returning)", "evidence": "77.9/579; the LB anchor - ULM's top returning grade"},
+    {"name": "Marcus Ross", "role": "LB (returning)", "evidence": "71.4/389; a returning LB starter"}
+   ],
+   "data_gaps": ["lost Langston (-> South Alabama)", "G5 bottom-tier level"],
+   "g5_guard_note": "Sun Belt; the team's best returning unit - two 70+ LBs (Flemmings + Ross, SBC -8.20)."},
+  {"team": "UL Monroe", "unit": "DB", "grade": 40, "confidence": "L",
+   "bracketing_exemplars": ["App State DB 2026 (40, peer)", "Georgia State DB 2026 (40, peer)"],
+   "rationale_bullets": [
+    "Zy Jackson (60.0/354 -> SBC -3.62; a returning DB) + Armoni Rue (juco All-American, 5 games at UTEP) + Lynard Harris + Korian Wilson + Carl Fauntroy. Athlon: 'FOUR NEW FACES in the secondary.' LOST the top CB David Godsey Jr. (76.9, yr4) + Perkins-McAllister (yr4) + Canterbury.",
+    "A heavily rebuilt secondary - 'four new faces' + a juco-AA transfer (Rue) - after losing the top CB + much of the room. High uncertainty.",
+    "40: ~App State/Georgia State DB 40. Rue's juco pedigree + the returners vs the total secondary turnover. L."
+   ],
+   "key_players": [
+    {"name": "Armoni Rue", "role": "CB (transfer, UTEP juco)", "evidence": "a juco All-American who appeared in 5 games for UTEP"},
+    {"name": "Zy Jackson", "role": "CB (returning)", "evidence": "60.0/354; a returning defensive back"}
+   ],
+   "data_gaps": ["four new faces in the secondary", "lost the top CB (Godsey 76.9, yr4)"],
+   "g5_guard_note": "Sun Belt; a 'four new faces' secondary rebuild (SBC -3.62) - low-confidence after losing the top CB."},
+  {"team": "UL Monroe", "unit": "ST", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Arizona State ST 2026 (40, peer)", "Northwestern ST 2026 (40, peer)"],
+   "rationale_bullets": [
+    "P Makenzie Ryan (38.8-yd avg as a soph; returns) + a K competition (Max Larson back from a '25 injury + Cal transfer Abram Murray + Chambless) + KR/PR JP Coulter.",
+    "A returning punter + an unsettled kicking competition + a returning returner.",
+    "40: ~Arizona State/Northwestern ST 40. The returning punter + returner vs the unsettled placekicking. M."
+   ],
+   "key_players": [
+    {"name": "Makenzie Ryan", "role": "P (returning)", "evidence": "38.8-yd avg as a sophomore - the returning punter"},
+    {"name": "JP Coulter", "role": "KR/PR (returning)", "evidence": "the returning kick + punt returner"}
+   ],
+   "data_gaps": ["unsettled kicking competition (Larson back from injury)"],
+   "g5_guard_note": "Sun Belt; a returning punter + returner, but an unsettled kicking competition."}
+ ]
+}
