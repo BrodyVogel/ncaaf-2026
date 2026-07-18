@@ -1,0 +1,135 @@
+{
+ "team": "Tennessee",
+ "units": {
+  "QB": {"grade": 46, "confidence": "L"},
+  "RB": {"grade": 60, "confidence": "M"},
+  "WRTE": {"grade": 56, "confidence": "M"},
+  "OL": {"grade": 58, "confidence": "M"},
+  "DL": {"grade": 50, "confidence": "M"},
+  "LB": {"grade": 58, "confidence": "M"},
+  "DB": {"grade": 54, "confidence": "M"},
+  "ST": {"grade": 54, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T05:05:00Z (Tennessee)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells OL/LB/RB weighted DOWN; small samples discounted], arrivals on origin cells [Penn State B10 imports weighted DOWN]; HC Heupel Year 6 NO change [band x1.00], new DC Knowles [coordinator, no multiplier]; disposition gate 41 rows / 0 adjudicate / 0 err - Aguilar+Josephs yr4-EXPIRED, Brazzell+Hood NFL-declare overrides [Hood a 2nd-rd pick, feed showed RETURNS], Star'Corius Thomas research-gone [apostrophe name-form], Arion Carter withdrawal-return; cross-build ties consistent [Heard->Kentucky, Ross->LSU, Herring->SC, Kayin Lee<-Auburn]); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16). WEB disposition-only verification of Hood/McCoy/Josephs NFL. DISCLOSED: Athlon NF21/SEC8 + P6 '#7t' incidentally visible - logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB46L/RB60/WRTE56/OL58/DL50/LB58/DB54/ST54, sum 436). No post-freeze corrections."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB 93, WRTE 99, OL 91, DL 57, LB 90, DB 74, ST 73) reads the elite '25 offense at face value; the grades reset the QB and trim WRTE/DB for the NFL/yr4 losses while keeping OL/RB/LB and rebuilding DL.",
+   "WRTE": "-43 vs proxy 99 - proxy massively over-credits a corps that lost its #1 (Brazzell, pro) and whose QB (Aguilar) is gone; the grade keeps two proven returners + elite recruits.",
+   "OL": "-33 vs proxy 91 - proxy over-credits; the grade keys the real strength (5 returning starters) at a good-not-elite level.",
+   "DB": "-20 vs proxy 74 - proxy over-credits a room that lost two NFL corners (Hood/McCoy) + two yr4 starters; the grade keeps Redmond + the safety reload.",
+   "DL": "-7 vs proxy 57 - both key the near-total front rebuild (all 4 starters gone).",
+   "RB/LB": "RB 60 keeps proxy-supported Bishop; LB 58 keeps the stacked, weighted-down room.",
+   "QB": "proxy None; the grade (46 L) sets the reset with recruit-ceiling upside."
+  }
+ },
+ "grades_detail": [
+  {"team": "Tennessee", "unit": "QB", "grade": 46, "confidence": "L",
+   "bracketing_exemplars": ["Louisville QB 2026 (46, peer)", "Colorado QB 2026 (45, below)"],
+   "rationale_bullets": [
+    "Aguilar (90.5/483, 3,565 yds) GONE (out of eligibility). Room: RS-fr George MacIntyre (a year in Heupel's system) vs true frosh Faizon Brandon (5-star, #10 overall - P6 projects him to win) + Colorado transfer Ryan Staub (45.7/76; 427 yds).",
+    "A near-total reset off an elite starter - no proven SEC production, but a blue-chip ceiling (Brandon) + Heupel's QB-development track record.",
+    "Athlon: 'too many questions... I don't think they'll be better' (opposing SEC coach).",
+    "46: ~Louisville QB 46; above Colorado 45. The unproven-with-upside tier. L."
+   ],
+   "key_players": [
+    {"name": "George MacIntyre", "role": "QB1 (returning, in-system)", "evidence": "RS-fr; a year in Heupel's scheme; 6-6 Top200 recruit"},
+    {"name": "Faizon Brandon", "role": "QB (true frosh, 5-star signee)", "evidence": "#3 QB / #10 overall recruit; highest ceiling; P6 projects him to win the job"}
+   ],
+   "data_gaps": ["no proven SEC production", "true-frosh/RS-fr battle"], "g5_guard_note": null},
+  {"team": "Tennessee", "unit": "RB", "grade": 60, "confidence": "M",
+   "bracketing_exemplars": ["Florida RB 2026 (60, peer)", "Florida State RB 2026 (58, below)"],
+   "rationale_bullets": [
+    "DeSean Bishop (86.7/201 -> SEC +10.17 weighted -> elite; 2nd-team All-SEC, 1,076 yds/16 TD) + Javin Gordon (Tulane, 72.8/128) + Daune Morris (81.8/35 tiny). Star Thomas + Peyton Lewis GONE.",
+    "A genuinely elite, proven lead back - the offense's engine now that the QB is unsettled - but thin behind him.",
+    "Even with the big SEC RB cell weighted down, Bishop's 86.7 anchors a high grade.",
+    "60: ~Florida RB 60; above Florida State 58. The elite-lead-back tier; the thin depth caps it. M."
+   ],
+   "key_players": [
+    {"name": "DeSean Bishop", "role": "RB1 (returning)", "evidence": "86.7/201; 2nd-team All-SEC; 1,076 yds/16 TD"},
+    {"name": "Javin Gordon", "role": "RB (transfer, Tulane)", "evidence": "72.8/128; 516 yds/4.0 at Tulane"}
+   ],
+   "data_gaps": ["thin depth behind Bishop"], "g5_guard_note": null},
+  {"team": "Tennessee", "unit": "WRTE", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Ole Miss WRTE 2026 (56, peer)", "South Carolina WRTE 2026 (52, below)"],
+   "rationale_bullets": [
+    "Braylon Staley (70.7/406 -> SEC 76.6 adj; SEC Frosh of the Year) + Mike Matthews (67.7/421 -> 73.6 adj) + returning TE Ethan Davis (65.4/141) + 5-star TK Keys (#1 WR in the class) + Travis Smith (Top100). Brazzell (79.4, NFL) + Kitselman (yr4) GONE.",
+    "Two proven returners (combined 1,650 yds/10 TD) + a returning TE + an elite young recruit haul in a WR-driven scheme (RECV p90 in '25).",
+    "It lost its #1 to the NFL and the QB feeding it is unproven.",
+    "56: ~Ole Miss WRTE 56; above South Carolina 52. Above the reset tier; the QB question + youth cap it. M."
+   ],
+   "key_players": [
+    {"name": "Braylon Staley", "role": "WR (returning)", "evidence": "70.7/406 (76.6 SEC-adj); SEC Freshman of the Year"},
+    {"name": "Mike Matthews", "role": "WR (returning)", "evidence": "67.7/421 (73.6 SEC-adj); big-play returner"}
+   ],
+   "data_gaps": ["lost #1 WR Brazzell (NFL)", "unproven QB feeding it"], "g5_guard_note": null},
+  {"team": "Tennessee", "unit": "OL", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Missouri OL 2026 (58, peer)", "Oregon OL 2026 (56, below)"],
+   "rationale_bullets": [
+    "FIVE returning starters: David Sanders Jr. (69.9/480; #1 OL recruit '25, All-SEC potential; LT) + Wendell Moe Jr. (73.8/689) + Sam Pendleton (61.2/814) + Jesse Perry (63.5/750) + Shamurad Umarov (60.8/758) + transfers Ory Williams (LSU) + Donovan Haslam (WVU). Only Heard (LT) GONE -> Kentucky.",
+    "A 'total boomerang' (P6) - a unit that broke in four new starters in '25 and now returns five veterans (top-40 P4 in Run Push + Pass Pro), anchored by a #1-recruit LT.",
+    "The star power is modest (grades mid-60s to low-70s), so it's good-not-elite.",
+    "58: ~Missouri OL 58; above Oregon 56. A top-third-P4 returning line; the merely-solid grades cap it. M."
+   ],
+   "key_players": [
+    {"name": "David Sanders Jr.", "role": "LT (returning)", "evidence": "69.9/480; #1 OL recruit of '25; All-SEC potential"},
+    {"name": "Wendell Moe Jr.", "role": "G (returning)", "evidence": "73.8/689; best OL grade on the returning line"}
+   ],
+   "data_gaps": ["modest star power", "replacing LT Heard"], "g5_guard_note": null},
+  {"team": "Tennessee", "unit": "DL", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["Virginia DL 2026 (50, peer)", "BYU DL 2026 (52, above)"],
+   "rationale_bullets": [
+    "LOST ALL 4 starters + Josephs (87.1, NFL) + Ross (-> LSU) + Herring (-> SC). Returns only rotational Daevin Hobbs (59.0/250) + Tyree Weathersby (67.6/243) + Nathan Robinson (59.7/294); reloads via Penn St transfers Chaz Coleman (81.1/150 tiny) + Xavier Gilliam (62.0/409) + Tulane's Jordan Norman + a 5-VHT frosh class.",
+    "A near-total rebuild ('the D-line loses all 4 starters' - PS) in Knowles's new 4-2-5.",
+    "Real coordinator + P4-transfer upside (Coleman followed Knowles), but unproven and thin on returning production.",
+    "50: ~Virginia DL 50; below BYU 52. A rebuild with a transfer floor; the total starter loss caps it. M."
+   ],
+   "key_players": [
+    {"name": "Chaz Coleman", "role": "ED (transfer, Penn State)", "evidence": "81.1/150 tiny sample; followed Knowles; the upside edge"},
+    {"name": "Tyree Weathersby", "role": "ED (returning)", "evidence": "67.6/243; a returning rotational end"}
+   ],
+   "data_gaps": ["all 4 '25 starters gone", "Coleman's tiny 150-snap sample", "new scheme install"], "g5_guard_note": null},
+  {"team": "Tennessee", "unit": "LB", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Ole Miss LB 2026 (58, peer)", "Oklahoma LB 2026 (56, below)"],
+   "rationale_bullets": [
+    "Arion Carter (59.9/477 -> SEC +14.01 weighted DOWN; All-SEC, forwent the NFL to return) + Amare Campbell (Penn St, 70.3/769 -> B10 weighted; Knowles's 'QB of the defense') + Edwin Spillman (78.7/537; SEC All-Freshman, led the team with 81 tkl) + Jeremiah Telander (63.7/525; 2-yr starter).",
+    "THE strength of the defense - 'absolutely packed' (P6): an All-SEC returner who forwent the draft + a rising SEC All-Frosh + a 2-year starter + Knowles's own signal-caller.",
+    "The SEC/B10 LB cells (+14.01/+16.10) are weighted down hard; the individual grades are good-not-elite.",
+    "58: ~Ole Miss LB 58; above Oklahoma 56. The team's best defensive unit; the weighted grades cap it below elite. M."
+   ],
+   "key_players": [
+    {"name": "Edwin Spillman", "role": "LB (returning)", "evidence": "78.7/537; SEC All-Freshman; led the team with 81 tackles"},
+    {"name": "Arion Carter", "role": "LB (returning)", "evidence": "59.9/477; All-SEC; forwent the early NFL bid to return"}
+   ],
+   "data_gaps": ["grades weighted down hard by the big SEC/B10 LB cells"], "g5_guard_note": null},
+  {"team": "Tennessee", "unit": "DB", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Clemson DB 2026 (54, peer)", "South Carolina DB 2026 (52, below)"],
+   "rationale_bullets": [
+    "Ty Redmond (79.4/783 -> SEC +5.44 -> elite; All-SEC as a true frosh - the anchor) + Edrees Farooq (67.7/740; returning SS) + P4-transfer safeties TJ Metcalf (Michigan, 65.9/718) + Qua Moss (Kansas St, 68.2/513) + Dejuan Lane (Penn St) + Kayin Lee (Auburn, 62.6/582; CB2).",
+    "LOST two NFL-drafted corners (Colton Hood R2, Jermod McCoy R1-proj) + two yr4 starters (Turrentine, McMurray).",
+    "A reload around one elite young corner + a returning SS + a well-stocked P4-transfer safety group; the CB opposite Redmond (Kayin Lee) is the unproven swing.",
+    "54: ~Clemson DB 54; above South Carolina 52. Redmond + safety depth vs the two NFL-corner losses. M."
+   ],
+   "key_players": [
+    {"name": "Ty Redmond", "role": "CB1 (returning)", "evidence": "79.4/783; All-SEC as a true frosh; the anchor after Hood/McCoy left"},
+    {"name": "TJ Metcalf", "role": "S (transfer, Michigan)", "evidence": "65.9/718; a P4 starting safety"}
+   ],
+   "data_gaps": ["lost two NFL corners (Hood/McCoy)", "unproven CB2 opposite Redmond"], "g5_guard_note": null},
+  {"team": "Tennessee", "unit": "ST", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["LSU ST 2026 (54, peer)", "Mississippi State ST 2026 (54, peer)"],
+   "rationale_bullets": [
+    "Cooper Ranvier (K - All-ACC at Louisville; replaces Max Gilbert, who transferred) + Jackson Ross (P - 44.0 avg, 4th-year starter) + Joakim Dodson (KR - KO-return TD vs Illinois in the Music City Bowl).",
+    "A proven All-ACC transfer kicker + a veteran returning punter + a real return threat - a coordinated upgrade on a '25 unit already at SPEC p73.",
+    "54: ~LSU/Mississippi State ST 54. Above-average, kicker-upgraded (calib). M."
+   ],
+   "key_players": [
+    {"name": "Cooper Ranvier", "role": "K (transfer, Louisville)", "evidence": "All-ACC kicker; upgrade over the departed Gilbert"},
+    {"name": "Jackson Ross", "role": "P (returning)", "evidence": "44.0 avg; 4th-year starter"}
+   ],
+   "data_gaps": [], "g5_guard_note": null}
+ ]
+}

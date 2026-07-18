@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T05:15:19+00:00",
+ "team": "Tennessee",
+ "final": 12.55,
+ "rank": 21,
+ "band": 6.18,
+ "resid": -13.19,
+ "adj": -4.62,
+ "class_term": -0.0,
+ "st": 0.08,
+ "anchor_blend": 16.56,
+ "resid_level": -8.8,
+ "resid_shape": -4.4,
+ "implied_off": 27.47,
+ "implied_def": 24.4,
+ "anchor_off": 38.98,
+ "anchor_def": 22.72,
+ "fit_r2": {
+  "off": 0.528,
+  "dfn": 0.615
+ },
+ "low_conf_units": 1,
+ "code_rev": "16140d6",
+ "mode": "PILOT-OOS"
+}

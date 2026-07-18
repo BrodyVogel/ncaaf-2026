@@ -1,0 +1,48 @@
+{
+ "team": "Tennessee",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T04:56:12+00:00",
+ "assembler_git_rev": "16140d6",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Josh Heupel (Year 6, 45-20 at school; NO CHANGE; band x1.00). DC change: fired Tim Banks (5 yrs) -> hired Jim Knowles (Ohio State, 2024 natl title) + co-DC Anthony Poindexter - a COORDINATOR change (does NOT trigger the band multiplier). OC Joey Halzle returns. '25: 8-5 (4-4 SEC). Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC); arrivals on origin cells. SEC offsets LARGE - big cells (OL/LB/RB) WEIGHTED DOWN; small samples discounted. Arrivals on origin: Coleman+Gilliam+Campbell+Lane (Penn State/B10), Metcalf (Michigan/B10), Moss (Kansas State/B12), Gordon+Norman (Tulane/AAC), Staub (Colorado/B12), Haslam (West Virginia/B12), Ory Williams (LSU/SEC), Kayin Lee (Auburn/SEC), Ranvier (Louisville/ACC), Burks (App State/SBC). Knowles imported multiple Penn State starters (B10 DL +10.38 / LB +16.10 / DB +6.33 - all weighted DOWN).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Arion Carter"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [
+  "Chris Brazzell II",
+  "Colton Hood"
+ ],
+ "departure_confirmed_research": [
+  "Star'Corius Thomas"
+ ],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Joey Aguilar": "QB, 90.5/483 - the '25 starter (3,565 yds) and offense's engine. GONE - out of eligibility (lost an appeal; Athlon+PS+P6). yr4-listed -> EXPIRED(yr4) auto-handles. A QB reset.",
+  "Chris Brazzell II": "WR, 79.4/392 - leading '25 WR. GONE - NFL (Athlon 'off to the NFL' + P6 'went pro'). Junior declare invisible to feeds -> nfl_declare_confirmed. 2-source.",
+  "Colton Hood": "CB, 79.2/774 - All-SEC-level '25 corner. GONE - NFL 2nd round (#37 NY Giants; 247 'one-and-done declare'). Junior early-declare; Athlon 2-deep + P6 both omit him -> nfl_declare_confirmed. VERIFIED via web.",
+  "Star'Corius Thomas": "RB, 82.8/116 - the #2 back ('Star Thomas'). GONE (P6 'gone' + PS 'lose Thomas #2'). yr4 in roster as 'Star Thomas' but the apostrophe tape-name dodged the yr4 gate -> departure_confirmed_research.",
+  "Arion Carter": "LB, 59.9/477 - All-SEC. RETURNS - forwent the early NFL bid (P6) + Athlon bold WLB starter. In the portal feed with dest None -> portal_withdrawal_override (R15).",
+  "DeSean Bishop": "RB, 86.7/201 - RETURNS. 2nd-team All-SEC, 1,076 yds/16 TD; the offense's returning centerpiece. SEC +10.17 weighted -> elite.",
+  "David Sanders Jr.": "OT, 69.9/480 - RETURNS. #1 OL recruit of '25; All-SEC potential as a true soph; anchors a 5-returning-starter line.",
+  "Ty Redmond": "CB, 79.4/783 - RETURNS. All-SEC as a true frosh; the lone returning DB anchor after Hood/McCoy went pro.",
+  "Edwin Spillman": "LB, 78.7/537 - RETURNS. SEC All-Freshman; led the team with 81 tackles; the rising piece of a stacked LB room.",
+  "Joshua Josephs": "ED, 87.1/365 - GONE, NFL (#147 Commanders; verified). yr4 -> EXPIRED(yr4). Highest returning DL grade; confirms PS 'the D-line loses all 4 starters.'",
+  "Jermod McCoy": "CB - '24 All-SEC, missed all of '25 (ACL). GONE - NFL (projected R1, pro day). No '25 tape; not a returning factor; documented only.",
+  "Amare Campbell": "LB, 70.3/769 (Penn State) - ARRIVES. Knowles's 'QB of the defense'; B10 +16.10 weighted DOWN.",
+  "Cooper Ranvier": "K (Louisville) - ARRIVES. All-ACC kicker; replaces Max Gilbert (-> Arkansas)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 charts + targeted web disposition checks (Hood/McCoy/Josephs NFL). The secondary and DL lost more than the raw returning-production feed implied: three junior/senior draftees (Hood R2, McCoy R1-proj, Josephs #147) are invisible to the yr4+portal feeds.",
+  "QB is a near-total reset: Aguilar (90.5, the '25 engine) out of eligibility; the room is RS-fr MacIntyre (in-system), true-frosh 5-star Faizon Brandon (#10 overall; P6 projects him to win), and Colorado transfer Ryan Staub (427 yds). No proven SEC production, high recruit ceiling.",
+  "DL is a near-total rebuild (PS: 'loses all 4 starters'): only rotational Hobbs (59.0/250) + Weathersby (67.6/243) return; the unit reloads through Penn State transfers (Coleman 81.1 tiny sample, Gilliam) + Tulane's Norman + a 5-VHT true-frosh class, in Knowles's new 4-2-5.",
+  "STRENGTHS are the OL (5 returning starters, 'boomerang' veteran unit incl. #1-recruit Sanders), RB (All-SEC Bishop), and LB (Carter forwent NFL + Spillman + Telander + Penn St's Campbell - 'absolutely packed'). The secondary keeps Redmond (elite young CB) + Farooq (SS) and reloads with P4-transfer safeties (Metcalf/Moss/Lane) + Kayin Lee.",
+  "2025 as-played: elite offense (OFF p92, PASS p99, RUN p94, RECV p90) built on Aguilar + the skill group; a middling defense (DEF p54, RDEF p28) that P6 put at '#50 of 68 P4.' 2026 keeps the OL/RB/skill spine, resets the QB, rebuilds the DL, and upgrades the coordinator (Knowles)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded); DISCLOSED: Athlon header NF21/SEC8 + Pick Six '#7t SEC/#15 overall' incidentally visible during source inspection - logged in research_log.md, NOT used in grading. Web verification took disposition facts only (no rankings).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T05:05:00+00:00"
+}

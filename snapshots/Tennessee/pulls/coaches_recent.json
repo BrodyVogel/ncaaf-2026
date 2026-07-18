@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Josh",
+  "lastName": "Heupel",
+  "hireDate": "2021-01-27T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Tennessee",
+    "year": 2024,
+    "games": 13,
+    "wins": 10,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": 15,
+    "postseasonRank": 9,
+    "srs": 14.3,
+    "spOverall": 22,
+    "spOffense": 33.7,
+    "spDefense": 13.5
+   }
+  ]
+ },
+ {
+  "firstName": "Josh",
+  "lastName": "Heupel",
+  "hireDate": "2021-01-27T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Tennessee",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 11.7,
+    "spOverall": 15,
+    "spOffense": 39.3,
+    "spDefense": 25.4
+   }
+  ]
+ }
+]

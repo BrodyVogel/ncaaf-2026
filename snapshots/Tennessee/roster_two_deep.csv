@@ -1,0 +1,36 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,George MacIntyre,QB,FR,returning,Athlon,PS,L,RS-fr; a year in Heupel's system; 6-6 Top200 '25 recruit; tiny/no '25 snaps. Aguilar (90.5/483) OUT OF ELIGIBILITY (lost appeal)
+QB,2,Faizon Brandon,QB,FR,returning,Athlon,PS,L,true frosh 5-star (#3 QB, #10 overall); highest ceiling; P6 projects him to win the job
+QB,3,Ryan Staub,QB,JR,transfer:Colorado,Athlon,PS,L,45.7/76 (B12 +5.86); most experience (427 yds/3 TD/4 INT '25); insurance
+RB,1,DeSean Bishop,RB,JR,returning,Athlon,PS,H,86.7/201 (SEC +10.17 weighted -> elite; 2nd-team All-SEC; 1,076 yds/16 TD; former walk-on)
+RB,2,Javin Gordon,RB,SO,transfer:Tulane,Athlon,PS,M,72.8/128 (AAC +2.15; 516 yds/4.0 at Tulane)
+RB,3,Daune Morris,RB,SO,returning,Athlon,PS,L,81.8/35 tiny (SEC). Star Thomas (82.8/116, yr4) + Peyton Lewis (76.0/71 -> Virginia) GONE
+WRTE,1,Mike Matthews,WR,JR,returning,Athlon,PS,M,67.7/421 (SEC +5.94 -> 73.6 adj; big-play returner)
+WRTE,2,Braylon Staley,WR,SO,returning,Athlon,PS,M,70.7/406 (SEC +5.94 -> 76.6 adj; SEC Freshman of the Year)
+WRTE,3,Ethan Davis,TE,JR,returning,Athlon,PS,M,65.4/141 (SEC; returning starting TE)
+WRTE,4,Radarious Jackson,WR,SO,returning,Athlon,PS,L,75.2/43 tiny (SEC; slot competition)
+WRTE,5,Tristen Keys,WR,FR,returning,Athlon,PS,L,5-star #1 WR in the '26 class + Travis Smith Jr. (Top100) + DaSaahn Brame (TE Top100). Brazzell (79.4, NFL) + Kitselman (yr4) GONE
+OL,1,David Sanders Jr.,OT,SO,returning,Athlon,PS,H,69.9/480 (SEC +13.45 weighted DOWN; #1 OL recruit '25; All-SEC potential; LT)
+OL,2,Wendell Moe Jr.,G,SR,returning,Athlon,PS,M,73.8/689 (SEC weighted; best OL grade; LG)
+OL,3,Sam Pendleton,C,JR,returning,Athlon,PS,M,61.2/814 (SEC weighted; started all year; C)
+OL,4,Jesse Perry,G,SO,returning,Athlon,PS,M,63.5/750 (SEC weighted; started all year; RG)
+OL,5,Shamurad Umarov,G,JR,returning,Athlon,PS,M,60.8/758 (SEC weighted; returning starter, interior)
+OL,6,Ory Williams,OT,SO,transfer:LSU,Athlon,PS,M,59.4/150 (SEC; former 4-star; competes at RT) + Donovan Haslam (WVU 61.7/444). Lance Heard (70.5/887 LT) -> Kentucky
+DL,1,Chaz Coleman,ED,SO,transfer:Penn State,Athlon,PS,M,81.1/150 (B10 +10.38 weighted DOWN small sample; followed Knowles; upside edge)
+DL,2,Daevin Hobbs,DI,SR,returning,Athlon,PS,M,59.0/250 (SEC weighted; returning tackle; missed spring - foot)
+DL,3,Xavier Gilliam,DI,SO,transfer:Penn State,Athlon,PS,M,62.0/409 (B10 +10.38 weighted DOWN; Knowles's #7 transfer tackle)
+DL,4,Tyree Weathersby,ED,JR,returning,Athlon,PS,M,67.6/243 (SEC +7.87 weighted; returning end)
+DL,5,Jordan Norman,ED,JR,transfer:Tulane,Athlon,PS,L,71.8/448 (AAC -5.89; edge rotation)
+DL,6,Nathan Robinson,DI,JR,returning,Athlon,PS,L,59.7/294 (SEC) + Mariyon Dye (69.5/98) + 5-star frosh Carter Gooden. LOST ALL 4 starters: Bailey/Eason/Josephs(87.1,NFL)/Moi/West (yr4) + Ross->LSU + Herring->SC
+LB,1,Arion Carter,LB,SR,returning,Athlon,PS,H,59.9/477 (SEC +14.01 weighted DOWN; All-SEC; forwent NFL/withdrew from portal for a final year)
+LB,2,Amare Campbell,LB,SR,transfer:Penn State,Athlon,PS,M,70.3/769 (B10 +16.10 weighted DOWN; Knowles's "QB of the defense")
+LB,3,Edwin Spillman,LB,SO,returning,Athlon,PS,M,78.7/537 (SEC weighted; SEC All-Freshman; led team 81 tkl; rising)
+LB,4,Jeremiah Telander,LB,SR,returning,Athlon,PS,M,63.7/525 (SEC weighted; 2-year starter) + Jadon Perlotte (62.1/202) + Ben Bolton (66.5/151)
+DB,1,Ty Redmond,CB,SO,returning,Athlon,PS,H,79.4/783 (SEC +5.44 -> elite; All-SEC as a true frosh; the anchor)
+DB,2,Edrees Farooq,S,JR,returning,Athlon,PS,M,67.7/740 (SEC +5.44 -> 73.1 adj; returning SS)
+DB,3,TJ Metcalf,S,SR,transfer:Michigan,Athlon,PS,M,65.9/718 (B10 +6.33 weighted; P4 starting S)
+DB,4,Qua Moss,S,SR,transfer:Kansas State,Athlon,PS,M,68.2/513 (B12 +1.85; P4 starter; the nickel)
+DB,5,Kayin Lee,CB,SR,transfer:Auburn,Athlon,PS,M,62.6/582 (SEC; 4-star transfer; CB2; cross-build from Auburn)
+DB,6,Dejuan Lane,S,JR,transfer:Penn State,Athlon,PS,L,70.4/290 (B10 weighted; followed Knowles) + DJ Burks (App St 49.6/600). LOST Hood (79.2, NFL R2) + McCoy (NFL) + Turrentine (773,yr4) + McMurray (551,yr4)
+ST,1,Cooper Ranvier,K,SO,transfer:Louisville,Athlon,PS,M,All-ACC kicker; replaces Max Gilbert (-> Arkansas)
+ST,2,Jackson Ross,P,SR,returning,Athlon,PS,M,44.0 avg 4th-year punter + Joakim Dodson (KR; KO-return TD vs Illinois)
