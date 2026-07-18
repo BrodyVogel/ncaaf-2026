@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T03:07:00+00:00",
+ "team": "Florida",
+ "final": 9.89,
+ "rank": 29,
+ "band": 7.19,
+ "resid": -10.75,
+ "adj": -3.76,
+ "class_term": -0.0,
+ "st": 0.12,
+ "anchor_blend": 13.02,
+ "resid_level": -6.72,
+ "resid_shape": -4.03,
+ "implied_off": 26.31,
+ "implied_def": 24.64,
+ "anchor_off": 29.26,
+ "anchor_def": 16.84,
+ "fit_r2": {
+  "off": 0.537,
+  "dfn": 0.612
+ },
+ "low_conf_units": 2,
+ "code_rev": "2443754",
+ "mode": "PILOT-OOS"
+}

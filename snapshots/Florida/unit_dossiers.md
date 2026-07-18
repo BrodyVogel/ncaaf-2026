@@ -38,8 +38,8 @@ QB None | RB 88 | WRTE 57 | OL 40 | DL 58 | LB 74 | DB 75 | ST 36
 
 ## QB — planned 48 (confidence L)
 Room: Aaron Philo (Georgia Tech, 76.3/32 tiny -> ACC; Faulkner's former backup, knows the
-system) vs Tramell Jones Jr. (returning RS-fr, 65.0/43 tiny; Top250). DJ Lagway (66.7/401,
-former #1 recruit) GONE -> Baylor after regressing.
+system) vs a returning RS-fr, Tramell Jones Jr. (65.0/43 tiny; Top250).
+DJ Lagway (66.7/401, former #1 recruit) GONE -> Baylor after regressing.
 Mechanical: a two-way battle of tiny samples - a system-fit GT transfer vs an unproven RS-fr -
 after losing the (inconsistent) blue-chip starter. Faulkner's scheme + Philo's fit give a
 little more than a bare reset, but there's no proven SEC production. Maps ~QB p44-50. Bracket:
