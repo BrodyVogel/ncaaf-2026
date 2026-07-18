@@ -1,0 +1,43 @@
+{
+ "team": "Auburn",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T02:31:22+00:00",
+ "assembler_git_rev": "a3048d7",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Alex Golesh (from South Florida) - COACH CHANGE, band x1.13. Hugh Freeze out. RETAINED DC DJ Durkin (coordinator change does NOT trigger multiplier; HC change does). NEW OC (Golesh's staff). '25: 5-7 (1-7 SEC). Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC); arrivals on origin cells. SEC offsets LARGE - big cells (OL/LB/RB) WEIGHTED DOWN; small samples discounted. HEAVY TRANSFER OVERHAUL: Golesh imported 10 players off his #5 USF offense (QB Brown, 5 WR, 2 OL, TE, RB) - AAC cells, NOT SEC. Other arrivals on origin cells: Sigler (Ark State/SBC -6.50), Washington (Baylor/B12), Ramil (Mich St/B10), Jordan (UCLA/B10), Nate Johnson (Missouri/SEC), Womack (Ole Miss/SEC), Mathis (LSU/SEC), Farrior (App St/SBC), Jo Simmons (JMU/SBC). Defense RETAINED 5 starters (own SEC tape).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Chris Murray",
+  "Dallas Walker IV",
+  "AnQuon Fegans"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Byrum Brown": "QB, USF 91.5/431 - the imported starter. Elite dual-threat (3,000 pass/1,000 rush; 12th ever; #9 transfer QB, All-AAC). Must deliver in the SEC; missed half of '24 (leg). AAC origin cell.",
+  "Keyron Crawford": "ED, 76.3/616 (yr4) - GONE. P6 'Keldric Faulk + Keyron Crawford will especially be missed off the edges.' EXPIRED(yr4). Do NOT carry as a returner (raw feed looks returning; P6 confirms departed).",
+  "Jalyn Crawford": "CB, 71.7/580 (= 'Jay Crawford') - GONE -> Ole Miss (P6 + portal feed). Do NOT carry as a returner.",
+  "Ashton Daniels": "QB, 71.0/163 (yr4) - GONE -> Florida State (P6 'all 3 QBs transferred out' + portal feed). EXPIRED.",
+  "Eric Singleton Jr.": "WR, 64.5/345 - GONE -> Florida (P6 '5-star stockpile transferred out' + portal feed). Do NOT carry as returning.",
+  "Malcolm Simmons": "WR, 71.2/221 - GONE -> Texas Tech (P6 + portal feed). Do NOT carry as returning.",
+  "Chris Murray": "ED, 71.5/277 (yr4) - RETURNS. P6 'Chris Murray got a bonus year of eligibility.' yr4_return_override (R15).",
+  "Dallas Walker IV": "NT/DI, 72.8/251 (yr4) - RETURNS. P6 'Dallas Walker is back at nose tackle.' yr4_return_override (R15).",
+  "AnQuon Fegans": "S, 61.9/226 (yr4, = 'Antwon Fegans Jr.') - RETURNS. P6 'AnQuon Fegans... could push for a starting role at nickelback.' Athlon lists him a safety returner. yr4_return_override (R15).",
+  "Xavier Atkins": "LB, 72.3/712 - RETURNS. 1st-team All-SEC / first returning All-American defender since Takeo Spikes ('97); SEC-leading 17 TFL. The defensive centerpiece (SEC +14.01 weighted -> ~80).",
+  "Jeremiah Cobb": "RB, 73.2/175 - RETURNS. The LONE returning offensive starter; 3rd-team All-SEC, ~1,000 yds.",
+  "Alex McPherson": "K - RETURNS healthy. Lou Groza candidate; Auburn career FG% record (88.9); surgery cost him '24, now back."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 2026 charts. HEAVY overhaul (38 in / 39 out) - a new HC importing his USF offense wholesale + a retained defense.",
+  "5-7 (1-7 SEC) with a SPLIT '25 profile: a bad offense (OFF p30, PASS p19, RECV p8) that Golesh replaces with his #5 USF offense (Brown + USF skill), and a STRONG defense (DEF p70, RDEF p92, PRSH p81) that Durkin retains (5 starters) though COV was p16.",
+  "3-SOURCE P6 CATCHES: the raw PFF feed shows Keyron Crawford (76.3 edge) + Jalyn/Jay Crawford (71.7 CB) as if returning, but P6 confirms BOTH departed (Crawford 'missed off the edges'; Jay -> Ole Miss). Auburn's entire 5-star WR stockpile transferred out; the WR room is a full USF transplant (AAC cells).",
+  "OL a COMPLETE rebuild (all 5 starters gone, 2 drafted; #132 in pass pro in '25) reloaded with G5/AAC transfers (Best USF, Jo Simmons JMU, Ramil Mich St). DL lost its two best edges (Faulk drafted + Keyron Crawford) but reloads around interior Sigler (85.7 SBC) + Nate Johnson (Missouri edge) + returning Murray/Walker. ST is a real strength on McPherson's healthy return."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded); DISCLOSED: Auburn's P6 ranking ('#9') was incidentally seen during source inspection (one of six teams flagged in SEC_PAGE_MAP.md) - logged in research_log.md, NOT used in grading",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T02:54:00+00:00"
+}

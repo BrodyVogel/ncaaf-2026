@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Hugh",
+  "lastName": "Freeze",
+  "hireDate": "2022-11-29T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Auburn",
+    "year": 2024,
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 6.3,
+    "spOverall": 9.5,
+    "spOffense": 27.9,
+    "spDefense": 17.8
+   }
+  ]
+ },
+ {
+  "firstName": "Hugh",
+  "lastName": "Freeze",
+  "hireDate": "2022-11-29T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Auburn",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 8.3,
+    "spOverall": 11.6,
+    "spOffense": 28.3,
+    "spDefense": 17.4
+   }
+  ]
+ }
+]

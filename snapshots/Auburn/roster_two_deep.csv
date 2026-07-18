@@ -1,0 +1,35 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Byrum Brown,QB,SR,transfer:South Florida,Athlon,PS,H,91.5/431 (AAC +0.38 ~91.9 adj); elite dual-threat (3,000 pass/1,000 rush; #9 transfer QB); missed half of '24 (leg); SEC step-up
+QB,2,Locklan Hewlett,QB,FR,transfer:South Florida,Athlon,PS,L,61.1/15 (AAC tiny); followed Golesh + Tristan Tijana (Oregon St) depth
+RB,1,Jeremiah Cobb,RB,SR,returning,Athlon,PS,H,73.2/175 (SEC +10.17 weighted; 3rd-team All-SEC, ~1,000 yds; lone returning O-starter)
+RB,2,Bryson Washington,RB,JR,transfer:Baylor,Athlon,PS,M,70.3/154 (B12 +7.24 weighted; physical 4-star transfer grade)
+RB,3,Nykahi Davenport,RB,SO,transfer:South Florida,Athlon,PS,M,83.9/97 (AAC; 4-star transfer grade; followed Golesh)
+WRTE,1,Keshaun Singleton,WR,JR,transfer:South Florida,Athlon,PS,M,74.0/343 (AAC +0.45 -> 74.5 adj); led USF in all stat categories
+WRTE,2,Jeremiah Koger,WR,SO,transfer:South Florida,Athlon,PS,M,70.2/258 (AAC 70.6 adj); 4-star transfer grade
+WRTE,3,Chas Nimrod,WR,SR,transfer:South Florida,Athlon,PS,M,68.8/174 (AAC; fastest player in the program)
+WRTE,4,Christian Neptune,WR,SO,transfer:South Florida,Athlon,PS,L,USF frosh standout; the 4 USF WRs combined 149 rec/2,275 yds/20 TD
+WRTE,5,Jake Johnson,TE,SR,transfer:North Carolina,Athlon,PS,M,57.3/206 (ACC; P4 veteran TE)
+WRTE,6,Jonathan Echols,TE,SO,transfer:South Florida,Athlon,PS,L,58.1/102 (AAC; 3 TD; USF import)
+OL,1,Cole Best,C,SR,transfer:South Florida,Athlon,PS,M,72.3/879 (AAC +1.18; All-AAC; the anchor)
+OL,2,Stanton Ramil,OT,JR,transfer:Michigan State,Athlon,PS,M,74.3/163 (B10 -1.29; B10 starter)
+OL,3,Cole Skinner,G,SR,transfer:South Florida,Athlon,PS,M,70.8/412 (AAC +1.18)
+OL,4,Jo Simmons,OT,SR,transfer:James Madison,Athlon,PS,M,All-Sun Belt (SBC -0.35); JMU tackle
+OL,5,Deryc Plazz,G,SO,transfer:Miami,Athlon,PS,L,56.9/20 (ACC tiny); LG competition. ALL 5 '25 starters gone (Lew+Wright drafted); #132 pass pro
+DL,1,Cody Sigler,DI,SR,transfer:Arkansas State,Athlon,PS,H,85.7/518 (SBC -6.50 weighted; 4-star transfer grade; elite interior tape)
+DL,2,Nate Johnson,ED,SR,transfer:Missouri,Athlon,PS,M,79.9/86 (SEC +7.87 small sample; edge)
+DL,3,Chris Murray,ED,SR,returning,Athlon,PS,M,71.5/277 (SEC; bonus year - yr4_return_override; returning edge)
+DL,4,Dallas Walker IV,NT,SR,returning,Athlon,PS,M,72.8/251 (SEC; yr4_return_override; returning NT)
+DL,5,Da'Shawn Womack,ED,SR,transfer:Ole Miss,Athlon,PS,M,68.6/295 (SEC; "huge spring praise")
+DL,6,Jared Smith,DI,SO,returning,Athlon,PS,M,75.4/110 (SEC small sample) + Mathis (LSU), Farrior (App St), Autry/J.Crawford retained. LOST Faulk (drafted) + Keyron Crawford
+LB,1,Xavier Atkins,LB,JR,returning,Athlon,PS,H,72.3/712 (SEC +14.01 weighted -> ~80; 1st-team All-SEC/All-American; SEC-leading 17 TFL; the star)
+LB,2,Elijah Melendez,LB,SO,returning,Athlon,PS,M,66.4/271 (SEC; SEC All-Frosh)
+LB,3,Demarcus Riddick,LB,JR,returning,Athlon,PS,M,51.9/246 (SEC; former Top100, back healthy)
+LB,4,Bryce Deas,LB,SO,returning,Athlon,PS,L,74.3/185 (SEC small sample). Co-star Woodyard left (Missouri)
+DB,1,Andre Jordan Jr.,CB,SR,transfer:UCLA,Athlon,PS,M,72.0/553 (B10 +6.33 weighted -> ~76; All-B10)
+DB,2,Rayshawn Pleasant,CB,SR,returning,Athlon,PS,M,63.9/292 (SEC; game-winning Pick Six in the only SEC win)
+DB,3,Eric Winters,S,SR,returning,Athlon,PS,M,78.5/258 (SEC +5.44 -> 84 adj small sample; returning starter S)
+DB,4,Kaleb Harris,S,JR,returning,Athlon,PS,M,67.0/649 (SEC +5.44 -> 72.4 adj; returning starter S)
+DB,5,AnQuon Fegans,S,SR,returning,Athlon,PS,M,61.9/226 (SEC; Top100 nickel; yr4_return_override); lost both '25 CB starters (Jay Crawford->Ole Miss, Kayin Lee->Tennessee)
+DB,6,Fred Gaskin III,S,SR,transfer:South Florida,Athlon,PS,L,57.7/737 (AAC; 2-yr USF starter) + Blake Woodby (65.7 CB, Top100)
+ST,1,Alex McPherson,K,SR,returning,Athlon,PS,H,elite - Lou Groza candidate; Auburn career FG% record (88.9); HEALTHY return (surgery cost him '24)
+ST,2,Hudson Kaak,P,SO,returning,Athlon,PS,M,2nd-yr starting P; KR Rayshawn Pleasant back

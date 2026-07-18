@@ -1,0 +1,36 @@
+{
+ "id": 2,
+ "school": "Auburn",
+ "mascot": "Tigers",
+ "abbreviation": "AUB",
+ "alternateNames": [
+  "AUB",
+  "Auburn"
+ ],
+ "conference": "SEC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#002b5c",
+ "alternateColor": "#f26522",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2.png"
+ ],
+ "twitter": "@AuburnFootball",
+ "location": {
+  "id": 3785,
+  "name": "Jordan-Hare Stadium",
+  "city": "Auburn",
+  "state": "AL",
+  "zip": "36849",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 32.6025532,
+  "longitude": -85.4897479,
+  "elevation": "201.1737976",
+  "capacity": 87451,
+  "constructionYear": 1939,
+  "grass": true,
+  "dome": false
+ }
+}
