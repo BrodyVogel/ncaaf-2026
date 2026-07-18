@@ -36,5 +36,8 @@
  ],
  "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded); Ole Miss NOT among the six teams flagged in SEC_PAGE_MAP.md for an incidental P6-ranking glimpse; no Ole Miss ranking seen during extraction",
  "frozen": true,
- "frozen_utc": "2026-07-18T04:37:20+00:00"
+ "frozen_utc": "2026-07-18T04:37:20+00:00",
+ "feed_gap_arrivals_documented": [
+  "Jalyn Crawford (CB <- Auburn; 4-star transfer, cross-build confirmed; not in the portal-in feed)"
+ ]
 }

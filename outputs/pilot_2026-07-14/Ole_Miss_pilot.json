@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T04:39:05+00:00",
+ "team": "Ole Miss",
+ "final": 15.4,
+ "rank": 16,
+ "band": 6.78,
+ "resid": -12.1,
+ "adj": -4.24,
+ "class_term": -0.0,
+ "st": 0.24,
+ "anchor_blend": 18.87,
+ "resid_level": -9.88,
+ "resid_shape": -2.22,
+ "implied_off": 29.61,
+ "implied_def": 23.45,
+ "anchor_off": 36.48,
+ "anchor_def": 18.22,
+ "fit_r2": {
+  "off": 0.532,
+  "dfn": 0.613
+ },
+ "low_conf_units": 0,
+ "code_rev": "5e5111f",
+ "mode": "PILOT-OOS"
+}

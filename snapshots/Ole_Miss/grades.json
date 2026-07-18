@@ -1,0 +1,134 @@
+{
+ "team": "Ole Miss",
+ "units": {
+  "QB": {"grade": 70, "confidence": "M"},
+  "RB": {"grade": 68, "confidence": "M"},
+  "WRTE": {"grade": 56, "confidence": "M"},
+  "OL": {"grade": 54, "confidence": "M"},
+  "DL": {"grade": 60, "confidence": "M"},
+  "LB": {"grade": 58, "confidence": "M"},
+  "DB": {"grade": 56, "confidence": "M"},
+  "ST": {"grade": 62, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T04:37:20Z (5e5111f)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells weighted DOWN; small samples discounted], the #2 transfer haul on origin cells; NEW HC Golding -> coach_change band x1.13 [internal-continuity mitigant]; disposition gate 36 rows / 0 adjudicate / 0 err - Chambliss yr4-return [court-won bonus year], Townsend withdrawal override, extensive cross-build ties consistent; calibrated vs the board elite tier; team percentile row unavailable [name-map quirk] - graded on player grades + magazine context); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16).",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB70/RB68/WRTE56/OL54/DL60/LB58/DB56/ST62, sum 484). No post-freeze corrections."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB 95, WRTE 43, OL 81, DL 85, LB 43, DB 67, ST 87) keys the '25 roster; the grades key the elite QB/RB + reloaded D + elite ST and reset the WR/OL-tackle.",
+   "QB": "proxy None (Chambliss's bonus-year status) - the grade keys his elite 87.8 tape + Heisman-favorite profile.",
+   "LB": "+15 vs proxy 43 - proxy UNDER-counts Perkins (PFF classes him at ED); the grade keys the hybrid star + the transfers.",
+   "WRTE": "+13 vs proxy 43 - proxy keys the departed WRs; the grade credits the elite TE pair + the P4 WR haul.",
+   "DL": "-25 vs proxy 85 - both credit a strong front; the grade keys Echoles + the reload minus Umanmielen.",
+   "RB/ST": "grades below proxy (95/87) - elite but SEC-weighted-down (RB) + calibrated (ST)."
+  }
+ },
+ "grades_detail": [
+  {"team": "Ole Miss", "unit": "QB", "grade": 70, "confidence": "M",
+   "bracketing_exemplars": ["Georgia QB 2026 (70, peer)", "BYU QB 2026 (72, above)"],
+   "rationale_bullets": [
+    "Trinidad Chambliss (87.8/515 -> SEC +7.72 weighted -> elite; yr4-return via a court-won bonus year) + 5-star Deuce Knight (Auburn). A Heisman FAVORITE - Kyler Murray comparisons, ~4,000 pass yds, 527 rush, 30 TD, 8th in the Heisman.",
+    "One of the best returning QBs in the country - an elite 87.8 grade, a proven dual-threat who beat Oklahoma's elite defense + Georgia in the Sugar Bowl.",
+    "Minor risks: a new OC (Baker, '80% same scheme') + a WR reload + a one-year-breakout (DII origin) profile.",
+    "70: ~Georgia QB 70; below BYU 72. The elite-QB tier; the proven star vs the new pieces around him. M."
+   ],
+   "key_players": [
+    {"name": "Trinidad Chambliss", "role": "QB1 (returning, yr4-override)", "evidence": "87.8/515 (SEC-adj elite); Heisman favorite; ~4,000/527 rush/30 TD; 8th in the Heisman"}
+   ],
+   "data_gaps": ["new OC + WR reload around him", "one-year breakout (DII origin)"], "g5_guard_note": null},
+  {"team": "Ole Miss", "unit": "RB", "grade": 68, "confidence": "M",
+   "bracketing_exemplars": ["Penn State RB 2026 (68, peer)", "Miami RB 2026 (70, above)"],
+   "rationale_bullets": [
+    "Kewan Lacy (86.9/307 -> SEC +10.17 weighted -> elite; first-team All-SEC, FWAA All-America - 1,567 yds/24 TD) + Makhi Frazier (Michigan State, 74.8/117) + JT Lindsey (LSU).",
+    "An elite, proven lead back (an All-American, P4-best 24 TDs) + a productive B10-transfer complement.",
+    "One of the best backfields in the field.",
+    "68: ~Penn State RB 68; below Miami 70. The elite-backfield tier; Lacy is a genuine star. M."
+   ],
+   "key_players": [
+    {"name": "Kewan Lacy", "role": "RB1 (returning)", "evidence": "86.9/307 (SEC-adj elite); FWAA All-America; 1,567 yds/24 TD (P4-best)"},
+    {"name": "Makhi Frazier", "role": "RB (transfer, Michigan State)", "evidence": "74.8/117; MSU starter"}
+   ],
+   "data_gaps": [], "g5_guard_note": null},
+  {"team": "Ole Miss", "unit": "WRTE", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Georgia WRTE 2026 (56, peer)", "Florida State WRTE 2026 (58, above)"],
+   "rationale_bullets": [
+    "Deuce Alexander (71.7/312 -> SEC 77.6 adj; returning starter, the new #1) + 5-star Caleb Cunningham (breakout) + Johntay Cook + Darrell Gill (Syracuse, combined 1,000+ yds) + an ELITE 5-star TE pair - Luke Hasz (healthy) + Caleb Odom.",
+    "Lost 4 of the top 5 WRs (3,000+ yds).",
+    "A big WR reload - only one returning starter - but restocked with P4 transfers + a 5-star + a genuinely elite TE pair that lifts the combined grade.",
+    "56: ~Georgia WRTE 56; below FSU 58. The TE pair + P4 WR haul lift it, the unproven-together WR caps it. M."
+   ],
+   "key_players": [
+    {"name": "Deuce Alexander", "role": "WR1 (returning)", "evidence": "71.7/312 (77.6 SEC-adj); the new #1"},
+    {"name": "Luke Hasz", "role": "TE (returning)", "evidence": "former 5-star; healthy; elite TE pair with Odom"}
+   ],
+   "data_gaps": ["lost 4 of the top 5 WRs (3,000+ yds)", "WR chemistry new"], "g5_guard_note": null},
+  {"team": "Ole Miss", "unit": "OL", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["USC OL 2026 (54, peer)", "Miami OL 2026 (52, below)"],
+   "rationale_bullets": [
+    "Patrick Kutas (64.6/1081 G) + Brycen Sanders (59.1/1084 C) + Delano Townsend (57.0/933 G) - the returning interior - + Carius Curne (LSU, Top100, #4 transfer lineman - LT) + Terez Davis / Tommy Kinsler (Miami).",
+    "LOST both tackles (All-SEC Pounds + NFL pick Williams + Harper -> LSU).",
+    "A returning, high-volume interior (three starters back, modest grades) + a rebuilt tackle duo led by a Top100 LSU transfer.",
+    "54: ~USC OL 54; above Miami 52. The interior anchors it, the tackle reload caps it. M."
+   ],
+   "key_players": [
+    {"name": "Patrick Kutas", "role": "G (returning)", "evidence": "64.6/1081; returning interior starter"},
+    {"name": "Carius Curne", "role": "LT (transfer, LSU)", "evidence": "56.0/306; Top100, #4 transfer lineman"}
+   ],
+   "data_gaps": ["lost both tackles (Pounds All-SEC + Williams NFL)"], "g5_guard_note": null},
+  {"team": "Ole Miss", "unit": "DL", "grade": 60, "confidence": "M",
+   "bracketing_exemplars": ["Louisville DL 2026 (62, above)", "Oklahoma DL 2026 (62, above)"],
+   "rationale_bullets": [
+    "Will Echoles (79.3/765 -> SEC +7.87 weighted -> elite; first-team All-SEC, led P4 with 39 QB pressures) + Kam Franklin (71.2/702; 9 TFL/5 sacks) + the #2 transfer haul's DL (Purchase Oregon + Renaud Alabama off the edge; Oatis Colorado + Boireau Florida inside).",
+    "Lost Umanmielen (-> LSU).",
+    "A strong, deep front - an All-SEC pressure leader + a productive returning end + four four-star transfers - that replaces its lost edge with quality bodies.",
+    "60: below Louisville/Oklahoma DL 62. Echoles anchors it; the edge reload + transfer-integration cap the very top. M."
+   ],
+   "key_players": [
+    {"name": "Will Echoles", "role": "DT (returning)", "evidence": "79.3/765 (SEC-adj elite); All-SEC; led P4 with 39 QB pressures"},
+    {"name": "Kam Franklin", "role": "DE (returning)", "evidence": "71.2/702; 9 TFL/5 sacks"}
+   ],
+   "data_gaps": ["lost leading edge Umanmielen (-> LSU); edge reloaded"], "g5_guard_note": null},
+  {"team": "Ole Miss", "unit": "LB", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Oklahoma LB 2026 (56, below)", "Arizona LB 2026 (60, above)"],
+   "rationale_bullets": [
+    "Suntarine Perkins (78.7/760 -> SEC +14.01 weighted DOWN; do-it-all hybrid LB/edge - All-American candidate, 18.5 career sacks) + Keaton Thomas (Baylor, 69.3/793; All-Big 12) + Luke Ferrelli (Cal, 68.4/743; ACC Def Rookie of the Year, 91 tackles) + Tah'j Butler (Georgia Tech).",
+    "Lost Dottery (-> LSU).",
+    "'A top national unit' - a genuine star hybrid (Perkins) + two productive P4-transfer starters (an All-B12 + an ACC Def ROY).",
+    "58: above Oklahoma LB 56; below Arizona 60. Perkins + the transfers anchor it. M."
+   ],
+   "key_players": [
+    {"name": "Suntarine Perkins", "role": "LB/edge (returning)", "evidence": "78.7/760 (SEC-adj); All-American candidate; 18.5 career sacks"},
+    {"name": "Luke Ferrelli", "role": "LB (transfer, California)", "evidence": "68.4/743; ACC Def Rookie of the Year (91 tackles)"}
+   ],
+   "data_gaps": ["lost Dottery (-> LSU)"], "g5_guard_note": null},
+  {"team": "Ole Miss", "unit": "DB", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Mississippi State DB 2026 (56, peer)", "Utah DB 2026 (58, above)"],
+   "rationale_bullets": [
+    "Antonio Kite (78.2/717 -> SEC +5.44 -> elite; returning CB) + Jaylon Braxton (61.7/526 -> 67.1 adj; returning CB) + Jalyn Crawford (Auburn, 71.7/580; 4-star transfer) + new S starters Edwin Joseph (FSU, 68.6) + Sharif Denson (Florida) + Joenel Aguero (Georgia).",
+    "A strong returning corner duo (Kite a genuine standout) + an Auburn-transfer corner, with the entire safety room reloaded via three P4-starter transfers.",
+    "The CBs anchor it; the new safeties are the integration question.",
+    "56: ~Mississippi State DB 56; below Utah 58. The CB strength vs the S reload. M."
+   ],
+   "key_players": [
+    {"name": "Antonio Kite", "role": "CB (returning)", "evidence": "78.2/717 (SEC-adj elite); returning starter"},
+    {"name": "Jalyn Crawford", "role": "CB (transfer, Auburn)", "evidence": "71.7/580; Auburn starter, 4-star transfer"}
+   ],
+   "data_gaps": ["entire safety room reloaded via portal"], "g5_guard_note": null},
+  {"team": "Ole Miss", "unit": "ST", "grade": 62, "confidence": "M",
+   "bracketing_exemplars": ["Oklahoma ST 2026 (62, peer)", "Ohio State ST 2026 (64, above)"],
+   "rationale_bullets": [
+    "Lucas Carneiro (K - one of the top in the nation; 31/35 FG; the game-winning 47-yarder in the Sugar Bowl; 2 50+ kicks) + Oscar Bird (P - 46 avg, 14 inside-20 as a frosh).",
+    "An elite, clutch, big-leg placekicker (a Sugar-Bowl game-winner) + a strong young punter.",
+    "A genuine special-teams strength.",
+    "62: ~Oklahoma ST 62; below Ohio State 64. Near the top of the ST tier, kicker-driven (calib). M."
+   ],
+   "key_players": [
+    {"name": "Lucas Carneiro", "role": "K (returning)", "evidence": "31/35 FG; game-winning 47-yarder in the Sugar Bowl; 2 50+ kicks"},
+    {"name": "Oscar Bird", "role": "P (returning)", "evidence": "46 avg; 14 inside-20 as a frosh"}
+   ],
+   "data_gaps": [], "g5_guard_note": null}
+ ]
+}
