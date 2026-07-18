@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Gerad",
+  "lastName": "Parker",
+  "hireDate": "2023-12-18T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Troy",
+    "year": 2024,
+    "games": 12,
+    "wins": 4,
+    "losses": 8,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -9.6,
+    "spOverall": -6.6,
+    "spOffense": 24.1,
+    "spDefense": 30.1
+   }
+  ]
+ },
+ {
+  "firstName": "Gerad",
+  "lastName": "Parker",
+  "hireDate": "2023-12-18T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Troy",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -7.9,
+    "spOverall": -4.8,
+    "spOffense": 23.6,
+    "spDefense": 29
+   }
+  ]
+ }
+]

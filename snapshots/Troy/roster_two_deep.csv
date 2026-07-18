@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Goose Crowder,QB,SR,returning,Athlon,scout,M,73.2/244 (SBC -1.01; 6th-yr; "a steady hand with all-conference potential when healthy" but injury-prone - 14 games missed in 2 yrs)
+QB,2,Tucker Kilcrease,QB,SR,returning,Athlon,scout,M,61.1/308 (SBC; the '25 understudy, 5-2 as a starter, "made plays and won it"). BOTH QBs back (scout: "I don't know how they'll play it")
+RB,1,Jordan Lovett,RB,JR,returning,Athlon,feed,M,62.0/89 (SBC -2.02; the returning back). LOST Tae Meadows (72.6 -> Auburn) + Cooley (-> Washington)
+RB,2,Gavin Griffin,RB,JR,arrival(juco),Athlon,feed,L,JUCO All-America RB (the headline skill add). Off a DEAD-LAST run game (RUN p4)
+WRTE,1,Mojo Dortch,WR,SR,returning-withdrawal,Athlon,scout,M,60.3/84 (SBC -0.74; portal->None but WITHDREW - on the depth chart; scout "a guy to watch for a breakout year" after a '25 season-ending injury)
+WRTE,2,Noreel White,WR,SO,arrival(Ole Miss-SEC),Athlon,feed,L,former Ole Miss signee + TJ Lott (ODU transfer, 69.2). LOST RaRa Thomas (69.9 yr4) + Epps (->WVU) + Mothershed (->LSU) + Higgins (yr4)
+OL,1,Elijah Prather,LT,JR,returning,Athlon,feed,M,the returning LT (his soph campaign ended midseason - injury)
+OL,2,Tra'jon Townsend,RT,JR,returning,Athlon,feed,M,the returning RT + Caleb Ash (So) + Tyler Cappi (C). + transfers Petit/Jones. LOST Matt Henry (yr4, 946 snaps). PBLK was p9 (dead last)
+DL,1,Donnie Smith,ED,SR,returning,Athlon,scout,H,70.4/479 (SBC -6.50; FIRST-TEAM All-Sun Belt at Bandit despite a part-time '25 role; a "vocal leader" - the defensive star)
+DL,2,Kam Curry,DT,SR,returning,Athlon,feed,M,65.0/301 (SBC; returning DT) + SEC transfers Kavion Henderson (Arkansas) + Ty Clemons (BC). LOST Elijah Davis (75.8 yr4) + Peterson (73.3 yr4) + Jah-Mal Williams (66.7 yr4)
+LB,1,Luke Hodge,LB,SR,returning,Athlon,feed,M,68.0/418 (SBC -8.20; the top returning LB)
+LB,2,Bryce Steele,LB,SR,arrival(Boston College-ACC),Athlon,feed,L,BC transfer + TJ Thompson (returning). LOST Jordan Stringer (56.2 yr4, 796 snaps) + Cattledge (64.8 yr4)
+DB,1,Justin Powe,S,SR,returning,Athlon,scout,M,53.2/734 (SBC -3.62; a 3rd-yr starter, former walk-on; scout "a good player and he's back")
+DB,2,Jonathan Pennix,CB,JR,arrival(Southern Miss-SBC),Athlon,feed,M,75.9/472 (Southern Miss transfer) + Joe Lott (returning) + Jabari Strait + Marcus Goree (Tennessee). LOST Jaquez White (87.4 -> Virginia Tech) + Lafayette (75.3 yr4) + Levine (73.2 yr4)
+ST,1,Evan Crenshaw,P,SR,returning,Athlon,feed,H,SUN BELT SPECIAL TEAMS PLAYER OF THE YEAR - 29 punts inside the 20 (most in the nation). A genuine returning strength
+ST,2,Hayden Wolfe,K,JR,arrival(transfer),Athlon,feed,L,K UNSETTLED (4 candidates, none has attempted a D1 FG); the return spots wide open. SPEC was p55

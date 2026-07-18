@@ -1,0 +1,57 @@
+{
+ "team": "Troy",
+ "conference": "Sun Belt",
+ "created_utc": "2026-07-18T16:30:57+00:00",
+ "assembler_git_rev": "190ffc2",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Gerad Parker (12-14 at school, entering Year 3; NO change; band x1.00). New OC Adam Austin (from Tarleton State FCS) - a coordinator change, does NOT trigger the band. '25: 8-6, 6-2 SBC (WON the SBC West via tiebreaker but with DEAD-LAST offense metrics). G5 2-SOURCE build (Athlon primary + scout). High out-churn (14 in / 27 out) + heavy yr4 graduation.",
+ "conference_note": "Established Sun Belt (West). SBC offsets NEGATIVE/small; returning tape on SBC cells, arrivals on origin. Won the '25 West but was 'dead last in the SBC in total offense + yards/play.' Keeps BOTH QBs (Crowder + Kilcrease) + the defensive star (Donnie Smith, All-SBC Bandit) + the ST POY punter (Crenshaw); a JUCO/SEC transfer influx (RB Griffin, WR White, DE Henderson) reloads. But it LOST the top CB (Jaquez White 87.4 -> VT) + most of the defensive back seven (yr4) + several WRs.",
+ "portal_departure_confirmed": [
+  "Tray Taylor",
+  "Matt Henry",
+  "Zerian Hudson",
+  "Rondell Carter"
+ ],
+ "portal_withdrawal_overrides": [
+  "Mojo Dortch"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Elijah Davis",
+  "Devin Lafayette",
+  "Julian Peterson",
+  "Kaleno Levine",
+  "Rara Thomas"
+ ],
+ "feed_gap_arrivals_documented": [
+  "Gavin Griffin (RB; a juco All-America transfer - Athlon-named, may not be in the CFBD portal-in feed)",
+  "Noreel White (WR; a former Ole Miss signee - Athlon-named, not in the CFBD roster/portal-in feed)"
+ ],
+ "known_name_exceptions": {
+  "Goose Crowder": "QB, 73.2/244 - RETURNS. 6th-yr; 'a steady hand with all-conference potential when healthy,' but injury-prone (14 games missed in 2 yrs). The QB1 (Athlon bold).",
+  "Tucker Kilcrease": "QB, 61.1/308 - RETURNS. The '25 understudy who took the majority of snaps (5-2 as a starter, 'made plays'). Both QBs back.",
+  "Mojo Dortch": "WR, 60.3/84 - RETURNS (portal_withdrawal_override). portal->None but on the Athlon depth chart (WR1); a '25 season-ending injury; scout 'a guy to watch for a breakout year.'",
+  "Donnie Smith": "ED/Bandit, 70.4/479 - RETURNS. FIRST-TEAM All-Sun Belt (a juco product who broke out despite a part-time role); 'a vocal leader' - the defensive star.",
+  "Justin Powe": "S, 53.2/734 - RETURNS. A 3rd-yr starter (former walk-on); scout-praised ('a good player and he's back').",
+  "Jaquez White": "CB, 87.4/879 - GONE (portal -> Virginia Tech). The roster's TOP grade; a big secondary loss. DB grade keys Powe + the So Miss transfer Pennix.",
+  "Elijah Davis": "DE, 75.8/511 - GONE (departure_confirmed_research; yr4). A top DL grader; the front reloads via Donnie Smith + SEC transfers.",
+  "Devin Lafayette": "S, 75.3/921 - GONE (yr4). A 921-snap '25 safety whose eligibility expired.",
+  "Julian Peterson": "DT, 73.3/391 - GONE (yr4). A high-snap interior lineman - graduated.",
+  "Kaleno Levine": "CB, 73.2/876 - GONE (yr4). An 876-snap corner - graduated (with White to VT, the '25 secondary is gutted).",
+  "Rara Thomas": "WR, 69.9/315 - GONE (yr4). A high-snap '25 WR - graduated (the WR room is a transfer/withdrawal rebuild).",
+  "Jonathan Pennix": "CB, 75.9/472 - ARRIVAL (Southern Miss transfer, SBC origin). The secondary's proven transfer add alongside Powe.",
+  "Gavin Griffin": "RB - a JUCO All-America transfer (the headline skill add); documented as a feed-gap arrival."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon. High out-churn (14 in / 27 out) + heavy yr4 graduation. Grade-critical: the top grade (CB Jaquez White 87.4) -> Virginia Tech; the secondary + front seven lost most of their '25 snaps (portal + yr4).",
+  "8-6 in '25 (6-2 SBC), WON the West via tiebreaker - but 'dead last in the SBC in total offense + yards/play.' OVER p21, OFF p24 (RUN p4 + PBLK p9 both near-dead-last), DEF p30, SPEC p55. The record (lots of close/OT wins) overstates the '25 quality. Athlon is bullish on '26 (returning QBs + a transfer influx); the grades are anchor-blind.",
+  "The OFFENSE keeps BOTH QBs (Crowder 73.2, all-conference potential but injury-prone; Kilcrease, the 5-2 understudy) + a returning LT (Prather) + RT (Townsend), and reloads the skill spots via a JUCO/transfer influx (juco All-America RB Gavin Griffin; Ole Miss WR Noreel White; ODU transfer TJ Lott; withdrawn WR Mojo Dortch). But it was dead-last in the SBC on offense and had p9 pass pro.",
+  "The DEFENSE lost most of its '25 starters (CB White 87.4 -> VT; yr4 grads Davis 75.8/Lafayette 75.3/Peterson 73.3/Levine 73.2/Stringer/Cattledge) but keeps the STAR (Donnie Smith, All-SBC Bandit) + Kam Curry + S Justin Powe, and reloads via SEC transfers (Arkansas DE Kavion Henderson, Tennessee S Marcus Goree) + a So Miss transfer CB (Pennix 75.9) + BC transfers (Clemons, Steele).",
+  "ST is a relative strength: P Evan Crenshaw is the SUN BELT ST PLAYER OF THE YEAR (29 punts inside the 20, most in the nation). But the placekicker is unsettled (4 candidates, none has attempted a D1 FG) + the return spots are wide open."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF81 / Sun Belt West 1 incidentally visible - logged, NOT used. G5 2-source (Athlon primary + scout; PS SBC text garbled).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T16:42:00+00:00"
+}

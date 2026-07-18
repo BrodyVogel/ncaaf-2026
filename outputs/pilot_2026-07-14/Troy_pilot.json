@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T16:39:58+00:00",
+ "team": "Troy",
+ "final": -5.34,
+ "rank": 89,
+ "band": 6.0,
+ "resid": 4.85,
+ "adj": 1.7,
+ "class_term": 0.0,
+ "st": -0.04,
+ "anchor_blend": -7.48,
+ "resid_level": 4.15,
+ "resid_shape": 0.69,
+ "implied_off": 23.88,
+ "implied_def": 26.71,
+ "anchor_off": 22.86,
+ "anchor_def": 30.54,
+ "fit_r2": {
+  "off": 0.538,
+  "dfn": 0.615
+ },
+ "low_conf_units": 0,
+ "code_rev": "190ffc2",
+ "mode": "PILOT-OOS"
+}
