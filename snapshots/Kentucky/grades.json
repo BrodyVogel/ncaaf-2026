@@ -1,0 +1,134 @@
+{
+ "team": "Kentucky",
+ "units": {
+  "QB": {"grade": 50, "confidence": "M"},
+  "RB": {"grade": 48, "confidence": "M"},
+  "WRTE": {"grade": 48, "confidence": "M"},
+  "OL": {"grade": 54, "confidence": "M"},
+  "DL": {"grade": 58, "confidence": "M"},
+  "LB": {"grade": 44, "confidence": "L"},
+  "DB": {"grade": 50, "confidence": "M"},
+  "ST": {"grade": 48, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T03:50:29Z (f2a50a9)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells weighted DOWN; small samples discounted], within-SEC transfers on SEC cell, non-SEC on origin; NEW HC Stein -> coach_change band x1.13, new DC Bateman; disposition gate 41 rows / 0 adjudicate / 0 err - Boley->ASU, Afari/Rayner graduated, McGowan corrected to EXPIRED, Addison GONE; cross-build ties Dowdell/Alinen/Castell/Gates all consistent); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16).",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB50/RB48/WRTE48/OL54/DL58/LB44L/DB50/ST48, sum 400). No post-freeze corrections."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB None, WRTE 40, OL 73, DL 72, LB None, DB 64, ST 19) keys the '25 roster; the grades key the strong trenches + retained DL + a healthier DB and reset the offense to the transfer projection.",
+   "OL": "-19 vs proxy 73 - proxy keys the '25 line; the grade keys the experienced transfer rebuild (all-new-together caveat).",
+   "DL": "-14 vs proxy 72 - both credit the retained front (Gadson/Humphrey-Grace/Greene); PRSH p87.",
+   "DB": "-14 vs proxy 64 - the grade credits Bryant (All-SEC) + a healthier room over the injury-driven COV p13.",
+   "ST": "+29 vs proxy 19 - proxy keys the bad '25 unit; K Kauwe ('a weapon') lifts it.",
+   "QB/RB/LB": "proxy None - all transfer/rebuild reloads; grades key the projections (Minchey; Baxter/Barnes reclamation; Godfrey + transfers)."
+  }
+ },
+ "grades_detail": [
+  {"team": "Kentucky", "unit": "QB", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["Texas Tech QB 2026 (50, peer)", "Arizona State QB 2026 (48, below)"],
+   "rationale_bullets": [
+    "Kenny Minchey (Notre Dame, 87.5/30 tiny -> IND; 4-star recruit + 4-star transfer grade, nearly beat CJ Carr for the ND job; dual-threat) + Brennen Ward. Cutter Boley (SEC All-Frosh) LEFT for Arizona State; Calzada (yr4) gone.",
+    "A talented, dual-threat transfer with a strong tiny-sample grade but few meaningful college snaps - dropped into Stein's Top-15-offense scheme (4 Top-15 units, 4 different QBs).",
+    "The scheme + talent give more than a bare unknown, but it's unproven.",
+    "50: ~Texas Tech QB 50; above Arizona State 48. The talented-unproven tier; Stein's system the plus. M."
+   ],
+   "key_players": [
+    {"name": "Kenny Minchey", "role": "QB1 (transfer, Notre Dame)", "evidence": "87.5/30 tiny; 4-star recruit + transfer; dual-threat; nearly beat CJ Carr at ND"}
+   ],
+   "data_gaps": ["few meaningful college snaps", "Boley (the promising frosh) left"], "g5_guard_note": null},
+  {"team": "Kentucky", "unit": "RB", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Alabama RB 2026 (48, peer)", "Illinois RB 2025 global anchor (32, below)"],
+   "rationale_bullets": [
+    "CJ Baxter (Texas, 61.1/54 -> B12 weighted; starred '23) + Jovantae Barnes (Oklahoma, 63.2/19 -> SEC; 500+ yd '22 & '24). Dowdell (-> Georgia) + McGowan (yr4) gone.",
+    "Two former super-recruit transfers with real ceilings but injury-filled recent careers - a health bet.",
+    "If both are right, a good SEC backfield; the floor is thin/unproven.",
+    "48: ~Alabama RB 48. The reclamation tier; upside on pedigree, risk on health. M."
+   ],
+   "key_players": [
+    {"name": "CJ Baxter", "role": "RB (transfer, Texas)", "evidence": "61.1/54; starred '23; injury bounce-back"},
+    {"name": "Jovantae Barnes", "role": "RB (transfer, Oklahoma)", "evidence": "63.2/19; 500+ yd '22 & '24; injury bounce-back"}
+   ],
+   "data_gaps": ["both injury-reclamation projects"], "g5_guard_note": null},
+  {"team": "Kentucky", "unit": "WRTE", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["BYU WRTE 2026 (48, peer)", "TCU WRTE 2026 (50, above)"],
+   "rationale_bullets": [
+    "DJ Miller (64.9/112 -> SEC 70.8 adj; breakout potential) + TE Willie Rodriguez (65.8/225 -> 71.7 adj; potential All-SEC) + Nic Anderson (LSU, 59.5/117; '23 Oklahoma form = 798 yds/10 TD) + Cameron Miller (74.0/88 small) + Shane Carr (FCS) + Mikkel Skinner (TE).",
+    "A young, upside-driven corps - two promising returners + a bounce-back transfer + a genuine TE strength (Rodriguez; 'Stein loves TEs').",
+    "RECV was p36; production unproven but ceilings real.",
+    "48: ~BYU WRTE 48; below TCU 50. The TE room + Anderson's upside lift it; the youth caps it. M."
+   ],
+   "key_players": [
+    {"name": "Willie Rodriguez", "role": "TE (returning)", "evidence": "65.8/225 (71.7 SEC-adj); potential All-SEC"},
+    {"name": "Nic Anderson", "role": "WR (transfer, LSU/Oklahoma)", "evidence": "'23 Oklahoma form = 798 yds/10 TD/21 ypc; injury bounce-back"}
+   ],
+   "data_gaps": ["young WR room", "Anderson's bounce-back is a health bet"], "g5_guard_note": null},
+  {"team": "Kentucky", "unit": "OL", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["USC OL 2026 (54, peer)", "Oregon OL 2026 (56, above)"],
+   "rationale_bullets": [
+    "Lance Heard (Tennessee, 70.5/887 -> SEC; All-SEC, former 5-star LT) + Coleton Price (Baylor, 71.0/842 -> B12 weighted DOWN; 3-yr starting C) + Tegra Tshabola (Ohio State, 56.3/607 -> B10; 2-Playoff-team starter) + Malachi Wood (73.7/42 returning RT) + Alinen (Alabama) / Robinson (UTEP All-CUSA).",
+    "'One of the best OL transfer hauls in America' - three multi-year P4 starters incl. an All-SEC tackle + a 3-year center.",
+    "A genuine, experienced rebuild of a line that was only average (PBLK p54, RBLK p65); all-new-together is the caveat.",
+    "54: ~USC OL 54; below Oregon 56. Above-average on experience/pedigree; the cohesion risk caps it. M."
+   ],
+   "key_players": [
+    {"name": "Lance Heard", "role": "LT (transfer, Tennessee)", "evidence": "70.5/887; All-SEC; former 5-star"},
+    {"name": "Coleton Price", "role": "C (transfer, Baylor)", "evidence": "71.0/842; 3-year starting center"}
+   ],
+   "data_gaps": ["all-new-together"], "g5_guard_note": null},
+  {"team": "Kentucky", "unit": "DL", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Clemson DL 2026 (58, peer)", "Miami DL 2026 (60, above)"],
+   "rationale_bullets": [
+    "Tavion Gadson (80.4/345 -> SEC +7.87 weighted -> elite; breakout candidate) + Mi'Quise Humphrey-Grace (72.9/502; 31 tkl/7 TFL/3.5 sacks, star potential) + Sam Greene (75.8/338 edge) + Jamarrion Harkless (Purdue, 62.9/423 -> B10 weighted; instant NT) + Ahmad Breaux (LSU).",
+    "The retained strength - the core of the 91-exemplar '25 front is back (all 72.9+) on a defense that was p87 in pass rush.",
+    "A genuine, proven, disruptive line.",
+    "58: ~Clemson DL 58; below Miami 60. The two lost linemen + the NT reload keep it from higher. M."
+   ],
+   "key_players": [
+    {"name": "Tavion Gadson", "role": "DI (returning)", "evidence": "80.4/345 (SEC-adj elite); breakout candidate"},
+    {"name": "Mi'Quise Humphrey-Grace", "role": "ED (returning)", "evidence": "72.9/502; 31 tkl/7 TFL/3.5 sacks; star potential"}
+   ],
+   "data_gaps": ["2 linemen graduated/transferred; NT reload"], "g5_guard_note": null},
+  {"team": "Kentucky", "unit": "LB", "grade": 44, "confidence": "L",
+   "bracketing_exemplars": ["Kansas State LB 2026 (44, peer)", "Duke LB 2026 (46, above)"],
+   "rationale_bullets": [
+    "Grant Godfrey (62.9/253 -> SEC +14.01 weighted DOWN; lead ILB, some '25 starts) + Elijah Barnes (Texas, 60.6/43 tiny; Top100 4-star transfer, projected starter) + Tavion Wallace (Arkansas, 48.1/11 tiny).",
+    "Afari + Rayner (130 combined tackles) GRADUATED.",
+    "A rebuild that 'chose potential over proven production' - one returning part-starter + two blue-chip transfers on tiny samples; little proven SEC production.",
+    "44: ~Kansas State LB 44; below Duke 46. Pedigree is upside, production a projection. L."
+   ],
+   "key_players": [
+    {"name": "Grant Godfrey", "role": "ILB (returning)", "evidence": "62.9/253; some '25 starts; lead ILB"},
+    {"name": "Elijah Barnes", "role": "LB (transfer, Texas)", "evidence": "60.6/43 tiny; Top100 4-star transfer"}
+   ],
+   "data_gaps": ["both LB leaders graduated (130 tkl)", "transfers on tiny samples"], "g5_guard_note": null},
+  {"team": "Kentucky", "unit": "DB", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["Kansas State DB 2026 (52, above)", "Pittsburgh DB 2026 (50, peer)"],
+   "rationale_bullets": [
+    "Ty Bryant (77.9/647 -> SEC +5.44 -> 83.3 adj; All-SEC S, led the SEC in INTs - the best player) + Terhyon Nichols (67.5/330 -> 72.9 adj; back healthy, spring MVP) + Jordan Castell (Florida, 55.3/605; 35 career starts) + Aaron Gates (Florida, nickel) + Hasaan Sykes (FCS CB).",
+    "Lost Cam Dooley (-> Florida) + Quay'sheed Scott (-> S. Carolina).",
+    "A genuine star safety + a healthy spring-MVP corner + an experienced Florida transfer safety - a real upgrade over the injury-decimated COV p13 unit, though corner depth is still a question.",
+    "50: ~Pittsburgh DB 50; below Kansas State 52. Bryant anchors it; the CB depth caps it. M."
+   ],
+   "key_players": [
+    {"name": "Ty Bryant", "role": "S (returning)", "evidence": "77.9/647 (83.3 SEC-adj); All-SEC; led the SEC in INTs"},
+    {"name": "Terhyon Nichols", "role": "CB (returning)", "evidence": "67.5/330; back healthy; spring MVP"}
+   ],
+   "data_gaps": ["CB depth (injury-decimated in '25)"], "g5_guard_note": null},
+  {"team": "Kentucky", "unit": "ST", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Alabama ST 2026 (48, peer)", "USC ST 2026 (50, above)"],
+   "rationale_bullets": [
+    "Jacob Kauwe (K - 'a weapon,' Athlon) + Thomas O'Hara (Australian P). SPEC was p19 in '25 (unit-wide).",
+    "A praised placekicker + a new Australian punter, off a bottom-tier '25 unit.",
+    "The K is the plus; the rest is unproven.",
+    "48: ~Alabama ST 48; below USC 50. Below-average-to-average, kicker-driven (calib). M."
+   ],
+   "key_players": [
+    {"name": "Jacob Kauwe", "role": "K (returning)", "evidence": "Athlon 'should be a weapon'"},
+    {"name": "Thomas O'Hara", "role": "P (transfer)", "evidence": "Australian punter"}
+   ],
+   "data_gaps": ["SPEC p19 base; new punter"], "g5_guard_note": null}
+ ]
+}

@@ -14,7 +14,9 @@
  "yr4_return_overrides_documented": [],
  "nfl_declare_confirmed": [],
  "departure_confirmed_research": [],
- "feed_gap_arrivals_documented": [],
+ "feed_gap_arrivals_documented": [
+  "Thomas O'Hara (P <- Australia; not in portal feed)"
+ ],
  "known_name_exceptions": {
   "Cutter Boley": "QB - GONE -> Arizona State (P6 'Boley left for Arizona State'). The '25 SEC All-Freshman (#6 P4-frosh QB Rating); a notable loss, replaced by Minchey.",
   "Zach Calzada": "QB, 46.5/69 (yr4) - GONE. 7th-yr, struggled/injured. EXPIRED(yr4).",
