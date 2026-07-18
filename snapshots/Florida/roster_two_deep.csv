@@ -1,0 +1,35 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Aaron Philo,QB,SO,transfer:Georgia Tech,Athlon,PS,L,76.3/32 tiny (ACC +2.08); Faulkner's former GT backup; knows the system
+QB,2,Tramell Jones Jr.,QB,FR,returning,Athlon,PS,L,65.0/43 tiny (SEC); Lagway's '25 backup; Top250. Lagway (66.7/401) GONE -> Baylor
+RB,1,Jadan Baugh,RB,JR,returning,Athlon,PS,H,87.7/221 (SEC +10.17 weighted -> elite; one of SEC's top backs; 266 vs FSU; Fab Five retention)
+RB,2,Evan Pryor,RB,SR,transfer:Cincinnati,Athlon,PS,M,73.8/76 (B12 +7.24 weighted; home-run threat run/receive)
+RB,3,Duke Clark,RB,FR,returning,Athlon,PS,L,frosh + East Carolina transfer depth
+WRTE,1,Vernell Brown III,WR,SO,returning,Athlon,PS,M,65.1/247 (SEC +5.94 -> 71.0 adj); rising star; dangerous KR
+WRTE,2,Dallas Wilson,WR,SO,returning,Athlon,PS,M,67.8/89 (SEC +5.94 -> 73.7 adj small sample); rising star
+WRTE,3,Eric Singleton Jr.,WR,SR,transfer:Auburn,Athlon,PS,M,64.5/345 (SEC +5.94 -> 70.4 adj; played for Faulkner at GT; cross-build confirmed)
+WRTE,4,Lacota Dippre,TE,SR,transfer:James Madison,Athlon,PS,M,72.0/162 (SBC -0.74; TE1)
+WRTE,5,Micah Mays Jr.,WR,JR,transfer:Wake Forest,Athlon,PS,L,56.2/245 (ACC +2.36; spring standout)
+WRTE,6,Luke Harpring,TE,SO,transfer:Georgia Tech,Athlon,PS,L,65.6/118 (ACC +2.36); + Eugene Wilson III depth
+OL,1,Knijeah Harris,G,SR,returning,Athlon,PS,M,65.1/672 (SEC +13.45 weighted DOWN; 3-yr starting G - returns)
+OL,2,Caden Jones,OT,JR,returning,Athlon,PS,M,54.2/541 (SEC weighted DOWN; returning RT)
+OL,3,Harrison Moore,C,JR,transfer:Georgia Tech,Athlon,PS,M,64.0/682 (ACC +3.54; starting experience)
+OL,4,TJ Shanahan Jr.,G,JR,transfer:Penn State,Athlon,PS,M,63.8/419 (B10 -1.29; via Texas A&M)
+OL,5,Emeka Ugorji,OT,SO,transfer:Stanford,Athlon,PS,L,46.5/523 (ACC +3.54 -> ~50; LT projection). LOST All-Amer C Slaughter + NFL LT Barber
+DL,1,Emmanuel Oyebadejo,ED,SR,transfer:Jacksonville State,Athlon,PS,M,80.2/653 (CUSA -7.88 weighted -> ~72; 1st-team All-CUSA; 6-6 303)
+DL,2,Kamran James,ED,SR,returning,Athlon,PS,M,68.3/402 (SEC +7.87 weighted; tied team sack lead)
+DL,3,Jayden Woods,ED,SO,returning,Athlon,PS,M,69.8/448 (SEC +7.87 weighted; SEC All-Frosh; JACK)
+DL,4,Brendan Bett,DI,JR,returning,Athlon,PS,M,66.6/346 (SEC; moves up to starting NT)
+DL,5,LJ McCray,DE,SO,returning,Athlon,PS,L,former 5-star; back from injury (only 4 snaps '25); star potential
+DL,6,Jeramiah McCloud,DI,SO,returning,Athlon,PS,L,65.8/159 (Yr-2 jump) + Mbatchou (61.4). LOST Banks+Gumbs (drafted), Boireau (Ole Miss), Sapp
+LB,1,Myles Graham,LB,JR,returning,Athlon,PS,H,71.9/618 (SEC +14.01 weighted -> ~80; team-high 76 tkl; the leader)
+LB,2,Aaron Chiles,LB,JR,returning,Athlon,PS,M,60.9/472 (SEC weighted; 50+ tkl)
+LB,3,Jaden Robinson,LB,SR,returning,Athlon,PS,M,54.0/491 (SEC weighted; 50+ tkl)
+LB,4,Ty Jackson,LB,SO,returning,Athlon,PS,L,Top100 prospect; depth. "No questions at LB - the strength"
+DB,1,Bryce Thornton,S,SR,returning,Athlon,PS,H,78.3/681 (SEC +5.44 -> 83.7 adj; proven playmaker SS)
+DB,2,DJ Coleman,S,SR,transfer:Baylor,Athlon,PS,M,70.0/593 (B12 +1.85 -> 71.9 adj; physicality)
+DB,3,Cormani McClain,CB,JR,returning,Athlon,PS,M,68.5/460 (SEC +5.44 -> 73.9 adj; former 5-star, breakout '25)
+DB,4,Dijon Johnson,CB,JR,returning,Athlon,PS,M,69.0/145 (SEC; back from injury)
+DB,5,Ben Hanks III,CB,FR,returning,Athlon,PS,L,64.2/148 (SEC; RS-fr, spring standout)
+DB,6,Cam Dooley,S,JR,transfer:Kentucky,Athlon,PS,L,64.1/207 as Kanye Clark? (Kentucky). LOST top CB Devin Moore (83.0, pro) + Castell + Denson
+ST,1,Patrick Durkin,K,SO,transfer:Tulane,Athlon,PS,H,25-of-28 FG in '25 (89%); followed Sumrall from Tulane
+ST,2,Alec Clark,P,JR,transfer:Tulane,Athlon,PS,M,46.5 yds/punt; Vernell Brown = dangerous KR

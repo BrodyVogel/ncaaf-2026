@@ -1,0 +1,36 @@
+{
+ "id": 57,
+ "school": "Florida",
+ "mascot": "Gators",
+ "abbreviation": "FLA",
+ "alternateNames": [
+  "FLA",
+  "Florida"
+ ],
+ "conference": "SEC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#0021a5",
+ "alternateColor": "#fa4616",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/57.png"
+ ],
+ "twitter": "@GatorsFB",
+ "location": {
+  "id": 3634,
+  "name": "Ben Hill Griffin Stadium",
+  "city": "Gainesville",
+  "state": "FL",
+  "zip": "32653",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 29.6499357,
+  "longitude": -82.3485788,
+  "elevation": "44.97250748",
+  "capacity": 88548,
+  "constructionYear": 1930,
+  "grass": true,
+  "dome": false
+ }
+}

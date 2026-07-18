@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Billy",
+  "lastName": "Napier",
+  "hireDate": "2021-11-28T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Florida",
+    "year": 2024,
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 11.7,
+    "spOverall": 13.8,
+    "spOffense": 31.7,
+    "spDefense": 20
+   }
+  ]
+ },
+ {
+  "firstName": "Billy",
+  "lastName": "Napier",
+  "hireDate": "2021-11-28T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Florida",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 5.4,
+    "spOverall": 3.5,
+    "spOffense": 24.5,
+    "spDefense": 22.6
+   }
+  ]
+ }
+]

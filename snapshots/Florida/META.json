@@ -1,0 +1,44 @@
+{
+ "team": "Florida",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T02:31:22+00:00",
+ "assembler_git_rev": "320592f",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Jon Sumrall (from Tulane, 43-12; Florida's 4th HC since 2017) - COACH CHANGE, band x1.13. NEW OC Buster Faulkner (Georgia Tech); NEW DC Brad White (Kentucky, 3-4). '25: 4-8 (2-6 SEC). Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC); arrivals on origin cells. SEC offsets LARGE - big cells (OL/LB/RB) WEIGHTED DOWN; small samples discounted. Transfer additions on ORIGIN cells: Philo (GT/ACC), Singleton (Auburn/SEC), Harpring (GT/ACC), Moore (GT/ACC), Ugorji (Stanford/ACC), Shanahan (Penn St/B10), Pryor (Cincinnati/B12), Oyebadejo (Jax St/CUSA -7.88 weighted), Coleman (Baylor/B12), Dooley (Kentucky/SEC), Dippre (JMU/SBC), Mays (Wake/ACC), Durkin+Clark (Tulane/AAC). P6 NOTE: Florida ranked dead-last in the SEC in the 2-yr transfer average.",
+ "portal_departure_confirmed": [
+  "Brien Taylor Jr."
+ ],
+ "portal_withdrawal_overrides": [
+  "Jayden Woods"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "DJ Lagway": "QB, 66.7/401 - the former #1 overall recruit, REGRESSED (SEC-worst INTs) - GONE -> Baylor (all 3 sources + portal feed).",
+  "Jake Slaughter": "C, 79.3/748 (All-American, yr4) - GONE. P6 'All-American center... drafted.' EXPIRED(yr4).",
+  "Austin Barber": "OT, 83.5/750 (NFL LT, yr4) - GONE. P6 'NFL draft-pick left tackle.' EXPIRED(yr4).",
+  "Caleb Banks": "DI, 68.8/96 (yr4) - GONE - DRAFTED. P6 'two more stars drafted - Caleb Banks + George Gumbs.' EXPIRED(yr4).",
+  "George Gumbs Jr.": "ED, 66.0/345 (yr4) - GONE - DRAFTED. P6 (same). EXPIRED(yr4).",
+  "Tyreak Sapp": "ED, 65.0/407 (yr4) - GONE. '25 edge starter, not in any '26 chart. EXPIRED(yr4).",
+  "Devin Moore": "CB, 83.0/556 (yr4) - GONE - WENT PRO. P6 'top corner Devin Moore going pro.' EXPIRED(yr4). The top-CB loss (grade-critical).",
+  "Jadan Baugh": "RB, 87.7/221 - RETURNS. One of the SEC's top backs (266 vs FSU, 1,000+ yds); Sumrall 'Fab Five' retention. The offense's anchor (SEC +10.17 weighted -> elite).",
+  "Myles Graham": "LB, 71.9/618 - RETURNS. Team-high 76 tackles; the leader of 'the strength' (LB, no questions).",
+  "Bryce Thornton": "S, 78.3/681 - RETURNS. Proven playmaker SS (SEC +5.44 -> 83.7 adj).",
+  "Eric Singleton Jr.": "WR, 64.5/345 - ARRIVES from Auburn (cross-build confirmed - his Auburn departure was logged in that build). Played for Faulkner at GT.",
+  "Jayden Woods": "ED, 69.8/448 - portal-none feed BUT Athlon lists him the JACK starter + P6 'SEC All-Freshman Jayden Woods off the edge.' portal_withdrawal_override (R15).",
+  "Brien Taylor Jr.": "DL, 66.2/268 (yr4) - portal-none feed, NOT named returning by any magazine -> GONE. portal_departure_confirmed. DL depth below the two-deep; grade-neutral."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 2026 charts. Heavy overhaul under a new staff (27 in / 36 out). P6: Florida ranked DEAD-LAST in the SEC in 2-yr transfer average - a thin transfer haul for a coaching change.",
+  "4-8 (2-6 SEC) but a decent underachieving '25 profile: OFF p62 (RUN p71, elite RBLK p93) but PASS p39/RECV p27; DEF p53 (elite TACK p93) but weak PRSH p28. Managed only 1 TD in 5 different losses.",
+  "THE SPINE RETURNS: elite RB Baugh (Fab Five) + the SEC's-strength LB corps (Graham/Robinson/Chiles, all back) + a solid DL front (Woods/James/Bett + McCray injury-return + All-CUSA Oyebadejo) + strong ST (Durkin K 89% + Clark P, both from Tulane). SS Thornton + CB McClain anchor the back.",
+  "THE HOLES: QB is a Philo (GT, 32-snap flash) vs Tramell Jones (RS-fr) battle after Lagway left; OL LOST both studs (All-American C Slaughter + NFL LT Barber) + is a transfer rebuild ('remains an uncertainty'); the secondary lost its top corner (Devin Moore, pro) + 2 more starters. Lines of scrimmage are the swing (P6)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T03:04:34+00:00"
+}
