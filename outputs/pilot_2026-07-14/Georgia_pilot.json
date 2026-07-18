@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T03:41:07+00:00",
+ "team": "Georgia",
+ "final": 21.2,
+ "rank": 8,
+ "band": 6.0,
+ "resid": -17.99,
+ "adj": -6.0,
+ "class_term": -0.0,
+ "st": 0.2,
+ "anchor_blend": 26.46,
+ "resid_level": -13.99,
+ "resid_shape": -4.0,
+ "implied_off": 30.32,
+ "implied_def": 22.45,
+ "anchor_off": 38.68,
+ "anchor_def": 12.82,
+ "fit_r2": {
+  "off": 0.526,
+  "dfn": 0.608
+ },
+ "low_conf_units": 0,
+ "code_rev": "31badf0",
+ "mode": "PILOT-OOS"
+}
