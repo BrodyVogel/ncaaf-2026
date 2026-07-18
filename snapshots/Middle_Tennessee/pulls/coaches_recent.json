@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Derek",
+  "lastName": "Mason",
+  "hireDate": "2023-12-06T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Middle Tennessee",
+    "year": 2024,
+    "games": 12,
+    "wins": 3,
+    "losses": 9,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -23.2,
+    "spOverall": -24.4,
+    "spOffense": 13.7,
+    "spDefense": 37.3
+   }
+  ]
+ },
+ {
+  "firstName": "Derek",
+  "lastName": "Mason",
+  "hireDate": "2023-12-06T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Middle Tennessee",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -18.4,
+    "spOverall": -16,
+    "spOffense": 20.4,
+    "spDefense": 37
+   }
+  ]
+ }
+]

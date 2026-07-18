@@ -1,0 +1,38 @@
+{
+ "team": "Middle Tennessee",
+ "conference": "Conference USA",
+ "created_utc": "2026-07-18T19:05:00+00:00",
+ "assembler_git_rev": "bc43cc7",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Derek Mason (6-18 at school, entering Year 3; NO change; band x1.00). A 'make-or-break' Y3. New OC Anthony Scelfo + DC Brian Stewart - Mason has replaced BOTH coordinators every year (5 new offensive coaches this cycle; OL coach Kendall Simmons was lost mid-2025). Coordinator/staff churn does NOT trigger the band - only an HC change does. '25: 3-9 (2-6 CUSA). Heavy churn (19 in / 18 out) + heavy yr4 losses.",
+ "conference_note": "Conference USA. Returning tape on CUSA cells (heavily negative); arrivals on origin. Athlon rates MTSU CUSA #9 (NF 133) - a BEARISH projection; the '25 team went 3-9 and lost enormous production (both coordinators, the DL's top 4, the leading tackler, the lead RB, most of the WR corps + secondary). The one bright spot: returning QB Roman Gagliano (81.4/172; 1,005 yds/7 TD in 5 games as a frosh; web-confirmed the full-time '26 starter). A good returning punter (Logan). Otherwise a bottom-tier rebuild.",
+ "portal_departure_confirmed": [
+  "EJ Harris",
+  "Juwon Gaston"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Roman Gagliano": "QB, 81.4/172 - RETURNS. The clear returning QB1 (Athlon: 'it's Gagliano's job now'; web-confirmed full-time '26 starter after 1,005 yds/7 TD in 5 games as a frosh). MTSU's single best returning asset; a strong small-sample grade.",
+  "Nicholas Vattiato": "QB, 62.8/433 - GONE (yr4/graduation; Athlon-confirmed, 2,150 yds/16 TD in '25). Gagliano takes over.",
+  "Reggie Johnson": "graded ED (75.0/490) but Athlon lists him at WLB as the TOP returning linebacker (34 tackles, 3.5 sacks) - credited to LB in the grade; the DL separately lost its top pieces.",
+  "Damonte Smith": "DL/NT, 84.7/576 - GONE (yr4). The top DL grade; Athlon: the DL's three returning starters are 'all now gone' + he is not on the depth chart (NT = Felix Hixon).",
+  "Parker Hughes": "LB, 74.7/795 - GONE (yr4). The leading tackler (795 snaps); not on the Athlon LB depth chart; Athlon: 'replace its four leading tacklers.'",
+  "EJ Harris": "OL, 48.7/318 - GONE (portal->None, yr4; depth-chart-absent). adjudicated.",
+  "Juwon Gaston": "S, 71.6/457 - GONE (portal->None; depth-chart-absent - Athlon S = Kalen Woods/Jordan Chestnut). adjudicated.",
+  "DJ Taylor": "RB - the Athlon-named returning RB1 (7.7 ypc on only 26 carries in '25 - a tiny sample); below the 100-vol producer threshold so absent from the ledger. The backfield lost lead back Middlebrook (79.1) to Virginia."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon depth chart. Heavy churn (19/18) + heavy yr4 losses. Athlon rates MTSU CUSA #9 (NF 133) - BEARISH; grades are anchor-blind. Grade-critical losses: DL Damonte Smith (84.7, yr4) + Bynum (75.3->Ga So) + Shakai Woods (71.5->Ark St); LB Parker Hughes (74.7/795, yr4, leading tackler); RB Middlebrook (79.1->Virginia); S Juwon Gaston (71.6); most of the WR corps + secondary.",
+  "3-9 (2-6 CUSA) in Mason's Y2 (now Y3). OFF p10 (a poor offense - PBLK p7, RBLK p10, RECV p8; but PASS p61 on Gagliano's arm; RUN p36). DEF p49 with a strong run D (RDEF p78, TACK p81) but poor coverage (COV p19). SPEC p5 (near-worst).",
+  "The one bright spot is QB Gagliano (81.4/172, small sample). The OL (p7 pass pro, lost its top lineman, a Fr LT + transfers) + the gutted DL (lost the top 4) + the specialist/coverage units (SPEC p5) are the wounds. A returning quality punter (Logan, 44.7 avg, 29 inside the 20) is a real ST positive; the placekicker is new (D3 Susquehanna transfer Bourgeois).",
+  "yr4 departures NOT feed-listed but Athlon-confirmed gone (depth-chart-absent): Damonte Smith (DL 84.7), Parker Hughes (LB 74.7), Myles Butler (WR 66.8), De'Arre McDonald (CB 64.0), Brandon Buckner (DL 71.5), Abdul Muhammad (CB 58.9), Brendon Harris (S 63.3) + the yr4 OL block (Habinowski/Otts/Adams/Miller/Tuiono/Alexander). All correctly EXPIRED by the yr4 logic - no return overrides."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF133 / CUSA prediction 9 incidentally visible - logged, NOT used. G5 2-source (Athlon primary + beat/web; PS CUSA text garbled).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T19:10:00+00:00"
+}

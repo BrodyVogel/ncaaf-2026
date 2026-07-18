@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Roman Gagliano,QB,SO,returning,Athlon,feed,M,81.4/172 (CUSA -5.61; RETURNS - the clear QB1, 1005 yds/7 TD in 5 games as a frosh; web-confirmed full-time '26 starter). MTSU's best returning asset (small sample). LOST Vattiato (62.8, 2150 yds/16 TD, yr4)
+QB,2,Stanley Anderson-Lofton,QB,FR,returning,Athlon,feed,L,the Athlon-named backup (Fr). PASS was p61 on Gagliano's arm
+RB,1,DJ Taylor,RB,SO,returning,Athlon,feed,L,the Athlon-named RB1 - 7.7 ypc on only 26 carries in '25 (tiny sample; below the 100-vol producer line). Also the KR/PR
+RB,2,Antonio Martin Jr.,RB,SR,arrival(Kansas State-B12),Athlon,feed,L,71.1/19 at Kansas State (tiny sample) - an experienced transfer addition. LOST lead back Jekail Middlebrook (79.1 -> Virginia) + Rickey Hunt (-> None). RUN p36
+WRTE,1,Cam'ron Lacy,WR,JR,returning,Athlon,feed,M,73.4/210 (CUSA -4.19; the top returning WR grade). RECV was p8 (a poor receiving unit)
+WRTE,2,AJ Jones,WR,SR,returning,Athlon,feed,M,53.5/312 (CUSA; Athlon: "the lone returning starter on offense") + Landon Collins (66.2/102, ret) + TE Tayvion Galloway (43.3) + transfers Markus Allen (Miss St) + Hogan Wasson (C.Missouri). LOST Cox (62.1->Kansas) + Tipton (TE 62.1->Memphis) + Myles Butler (66.8, yr4)
+OL,1,Otto Janse Van Rensburg,LG,SO,returning,Athlon,feed,L,55.7/286 (CUSA -6.36; returns from injury). A BAD '25 line (30 sacks allowed; PBLK p7, RBLK p10). LOST top lineman Mateo Guevara (61.8/785 -> Kennesaw St) + EJ Harris + the yr4 OL block
+OL,2,Reese Tripp,RG,JR,arrival(Minnesota-B10),Athlon,feed,L,+ C Quentin Butler (Jr, ret) + RT Diego Blattler (40.5, ret) + LT Kyle Larkin (Fr) + C Brennan Smith (Miss St transfer). A young/transfer rebuild off a p7 pass-pro unit
+DL,1,Zeion Simpson-Smith,DT,SO,returning,Athlon,feed,L,60.3/260 (CUSA -7.88; "due for a bigger role" - 3 sacks/FR fumble rec). The DL lost its top 4: Damonte Smith (84.7 yr4) + Bynum (75.3 -> Ga Southern) + Shakai Woods (71.5 -> Ark St) + Buckner (71.5 yr4)
+DL,2,Mathias Malaki-Donaldson,EDGE,SR,returning,Athlon,feed,L,65.1/133 (CUSA; ret) + Felix Hixon (59.5 NT, ret) + transfers Justin Bodford (Missouri) + Trashun Griffin (Troy) + Kaven Call (ETSU). "returns only 7.5 of 23 sacks." PRSH p45
+LB,1,Reggie Johnson,LB,SR,returning,Athlon,feed,M,75.0/490 (Athlon's TOP returning LB - 34 tkl/3.5 sacks; a hybrid edge used at WLB). TACK was p81 (strong tackling)
+LB,2,Ashton Taylor,LB,SR,arrival(Jackson State-FCS),Athlon,feed,M,the Athlon-named MLB starter (JSU transfer) + Korey Smith (61.2/390, ret). LOST Parker Hughes (74.7/795, yr4, the leading tackler) + Alex Mitchell (71.1 -> App St) + Byard (-> UAB)
+DB,1,Jackson Lowe,CB,SO,returning,Athlon,feed,M,60.6/591 (CUSA -6.16; 4 PBU, ret) + KJ Miniefield (NB, ret). COV was p19 (poor; secondary 11th in CUSA pass D)
+DB,2,Kalen Woods,S,SR,returning,Athlon,feed,M,62.7/414 (CUSA; S, ret) + Christofer Noble (53.9, ret) + Devan Carlisle (56.2, ret) + transfers Ricky Lee III (Sac St) + James Johnson (USC) + Dyson McCutcheon (Washington). LOST Gaston (71.6) + De'Arre McDonald (64.0 yr4) + Muhammad (58.9 yr4) + Howse (62.0->Ark) + Brendon Harris (63.3 yr4)
+ST,1,Ashton Logan,P,SR,returning,Athlon,feed,M,a QUALITY returning punter - 44.7 avg on 66 punts, 29 downed inside the 20 in '25. The ST's clear positive
+ST,2,Dominic Bourgeois,K,SR,arrival(Susquehanna-D3),Athlon,feed,L,a NEW placekicker (D3 transfer - no cell, evidence-only) + KR/PR DJ Taylor (17.4 KR avg). SPEC was p5 (near-worst). New K, lost the '25 kickers (yr4)

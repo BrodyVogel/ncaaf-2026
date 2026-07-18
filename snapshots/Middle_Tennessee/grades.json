@@ -1,0 +1,312 @@
+{
+ "team": "Middle Tennessee",
+ "units": {
+  "QB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 40,
+   "confidence": "L"
+  },
+  "WRTE": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 30,
+   "confidence": "L"
+  },
+  "DL": {
+   "grade": 36,
+   "confidence": "L"
+  },
+  "LB": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 40,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18T19:20:00Z",
+  "snapshot_rev": "frozen 2026-07-18T19:10:00Z (Middle Tennessee)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary + beat/web QB confirmation; PS CUSA text GARBLED; no Pick Six for CUSA]; Conference USA -> returning tape on CUSA cells [heavily negative], arrivals on origin [FCS/D2/D3 = no cell]; HC Derek Mason Y3 [NO CHANGE, band x1.00]; new OC Scelfo + DC Stewart + 5 new offensive coaches = staff churn, does NOT trigger the band; disposition gate 44 rows / 0 adjudicate / 0 err - 2 portal->None adjudicated GONE [EJ Harris OL, Juwon Gaston S], NO yr4-return or withdrawal overrides; heavy yr4 losses all depth-chart-absent [Damonte Smith DL 84.7, Parker Hughes LB 74.7/795, Myles Butler WR, De'Arre McDonald CB, Buckner DL, Muhammad CB, Brendon Harris S]; feed-destinationed Bynum 75.3->Ga So, Shakai Woods 71.5->Ark St, Middlebrook 79.1->Virginia]; anchor values not consulted. Heavy churn 19 in/18 out. DISCLOSED: Athlon NF133 / CUSA prediction 9 incidentally visible, logged, NOT used [a BEARISH projection].",
+  "planned_vs_final_deviations": {
+   "note": "Finals match the dossier planned lines exactly (QB50/RB40L/WRTE42/OL30L/DL36L/LB44/DB42/ST40, sum 324). NO post-freeze corrections. OL (30) + DL (36) were placed against the built board's distribution: OL at ~East Carolina/Miami-OH (a p7 pass-pro line that lost its best lineman + starts a Fr LT), DL at ~Syracuse/Utah State (lost its top 4, '7.5 of 23 sacks returning').",
+   "shape": "A 3-9 bottom-tier CUSA rebuild (sum 324 - the lowest CUSA team graded) with ONE bright spot: returning QB Gagliano (50, web-confirmed starter). A returning LB playmaker (44 - Reggie Johnson) + WR grade (42 - Lacy) + quality punter (ST 40 - Logan) + a returning-starter secondary (42) hold a floor; a no-proven-back committee (40L) + a gutted OL (30L) + a gutted DL (36L) drag it. 3 L units."
+  },
+  "shadow_proxy_divergence": {
+   "note": "The proxy (QB 60, RB None, WRTE 9, OL 9, DL 33, LB None, DB 2, ST 5) matches a bottom-tier roster - the 19/18 churn + heavy yr4 losses stripped returning-producer snaps. QB 60 stands alone (Gagliano). The grades key the verified returners + the Athlon two-deep.",
+   "QB": "-10 vs proxy 60 - the grade discounts Gagliano's strong 81.4 tape for the small 172-snap sample + the poor support.",
+   "LB": "+44 vs proxy None - the grade keys the returning Reggie Johnson (75.0, 3.5 sacks) the proxy can't see.",
+   "WRTE": "+33 vs proxy 9 - the grade keys the returning Lacy (73.4) + Jones the low snap-share proxy misses.",
+   "ST": "+35 vs proxy 5 - the grade keys the quality returning punter (Logan) vs the p5 unit baseline.",
+   "OL": "+21 vs proxy 9 - modest lift for the P4-transfer additions + Otto over a stripped, p7-pass-pro base."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Middle Tennessee",
+   "unit": "QB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Marshall QB 2026 (50, peer)",
+    "Duke QB 2026 (50, peer)"
+   ],
+   "rationale_bullets": [
+    "Roman Gagliano (SO, 81.4/172 -> CUSA -5.61; RETURNS - the clear QB1, 1,005 yds/7 TD in 5 games as a frosh; web-confirmed full-time '26 starter). LOST Vattiato (62.8, 2,150 yds/16 TD, yr4).",
+    "MTSU's single bright spot - a returning starter with a STRONG (if small-sample, 172-snap) grade + real freshman production, off a passable '25 pass game (PASS p61).",
+    "50: ~Marshall/Duke QB 50. Gagliano's strong tape + the clear starter role vs the tiny sample + the thin support + a new OC. M."
+   ],
+   "key_players": [
+    {
+     "name": "Roman Gagliano",
+     "role": "QB (returning)",
+     "evidence": "81.4/172; 1,005 yds/7 TD in 5 games as a frosh; web-confirmed full-time '26 starter"
+    }
+   ],
+   "data_gaps": [
+    "small QB sample (172 snaps, 5 games)",
+    "new OC",
+    "very few returning skill players around him"
+   ],
+   "g5_guard_note": "Conference USA; a returning QB1 with a strong small-sample grade (Gagliano) - the team's clear best asset; CUSA -5.61 cell."
+  },
+  {
+   "team": "Middle Tennessee",
+   "unit": "RB",
+   "grade": 40,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Southern Miss RB 2026 (40, peer)",
+    "Georgia State RB 2026 (40, peer)"
+   ],
+   "rationale_bullets": [
+    "DJ Taylor (SO - the Athlon RB1; 7.7 ypc on only 26 carries, a tiny sample) + Antonio Martin Jr. (Kansas State, 71.1/19 - also tiny). LOST lead back Jekail Middlebrook (79.1 -> Virginia) + Rickey Hunt.",
+    "A committee with NO proven volume back after the lead back left - the two options combined have ~45 career carries of tape. Off a mediocre run game (RUN p36).",
+    "40: ~Southern Miss/Georgia State RB 40. Taylor's efficiency flash + Martin's KSU pedigree vs zero proven FBS volume + the lost 79.1 lead back. L."
+   ],
+   "key_players": [
+    {
+     "name": "DJ Taylor",
+     "role": "RB (returning)",
+     "evidence": "7.7 ypc on 26 carries in '25 - the Athlon RB1, a tiny sample"
+    },
+    {
+     "name": "Antonio Martin Jr.",
+     "role": "RB (arrival, Kansas State)",
+     "evidence": "71.1/19 at Kansas State - an experienced transfer body, tiny sample"
+    }
+   ],
+   "data_gaps": [
+    "no proven volume back",
+    "tiny returning/transfer samples",
+    "lost the 79.1 lead back"
+   ],
+   "g5_guard_note": "Conference USA; a no-proven-back committee after the lead back left; two tiny-sample options. L."
+  },
+  {
+   "team": "Middle Tennessee",
+   "unit": "WRTE",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Kennesaw State WRTE 2026 (42, peer)",
+    "Georgia State WRTE 2026 (42, peer)"
+   ],
+   "rationale_bullets": [
+    "Cam'ron Lacy (73.4/210 -> CUSA -4.19; the top returning WR grade) + AJ Jones (53.5/312; 'the lone returning starter on offense') + Landon Collins (66.2) + TE Galloway (43.3) + transfers (Markus Allen Miss St, Hogan Wasson C.Missouri). LOST Cox (62.1) + Tipton (TE) + Myles Butler (66.8, yr4).",
+    "A genuine returning WR grade (Lacy 73.4) + a returning starter (Jones) + depth, but off a poor receiving unit (RECV p8) with heavy turnover.",
+    "42: ~Kennesaw State/Georgia State WRTE 42. Lacy + Jones + Collins returning vs the RECV p8 base + the lost pieces. M."
+   ],
+   "key_players": [
+    {
+     "name": "Cam'ron Lacy",
+     "role": "WR (returning)",
+     "evidence": "73.4/210 - the top returning WR grade"
+    },
+    {
+     "name": "AJ Jones",
+     "role": "WR (returning)",
+     "evidence": "53.5/312 - Athlon's 'lone returning starter on offense'"
+    }
+   ],
+   "data_gaps": [
+    "poor '25 receiving unit (RECV p8)",
+    "heavy WR/TE turnover"
+   ],
+   "g5_guard_note": "Conference USA; a returning WR grade (Lacy) + the lone returning offensive starter (Jones) off a RECV p8 base. M."
+  },
+  {
+   "team": "Middle Tennessee",
+   "unit": "OL",
+   "grade": 30,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "East Carolina OL 2026 (30, peer)",
+    "Miami (OH) OL 2026 (30, peer)"
+   ],
+   "rationale_bullets": [
+    "Otto Janse Van Rensburg (LG, 55.7/286; from injury) + Alex Gale (53.3) + Quentin Butler (C) + Diego Blattler (RT, 40.5) + Fr LT Kyle Larkin + transfers Reese Tripp (Minnesota) + Brennan Smith (Miss St). LOST top lineman Mateo Guevara (61.8/785 -> Kennesaw St) + EJ Harris + the yr4 OL block.",
+    "A bottom-tier line - a p7 pass-pro / p10 run-block unit (30 sacks allowed) that lost its best lineman and starts a true-Fr LT; the P4 transfers + Otto keep it off the very bottom.",
+    "30: ~East Carolina/Miami OH OL 30. The two returning starters + the P4-transfer additions vs the p7 pass-pro tape + the lost top lineman + the Fr LT. L."
+   ],
+   "key_players": [
+    {
+     "name": "Otto Janse Van Rensburg",
+     "role": "LG (returning)",
+     "evidence": "55.7/286; returns from injury - a returning starter on a p7-pass-pro line"
+    },
+    {
+     "name": "Reese Tripp",
+     "role": "RG (arrival, Minnesota)",
+     "evidence": "a B10 transfer into a rebuilt line"
+    }
+   ],
+   "data_gaps": [
+    "near-worst '25 pass pro (PBLK p7)",
+    "lost the top lineman (Guevara 785 snaps)",
+    "true-Fr LT"
+   ],
+   "g5_guard_note": "Conference USA; a p7-pass-pro line that lost its best lineman + starts a Fr LT; P4 transfers keep it off the bottom. L."
+  },
+  {
+   "team": "Middle Tennessee",
+   "unit": "DL",
+   "grade": 36,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Syracuse DL 2026 (36, peer)",
+    "Utah State DL 2026 (36, peer)"
+   ],
+   "rationale_bullets": [
+    "Zeion Simpson-Smith (DT, 60.3/260; 'due for a bigger role') + Felix Hixon (59.5) + Mathias Malaki-Donaldson (EDGE, 65.1) + transfers (Justin Bodford Missouri, Trashun Griffin Troy, Kaven Call ETSU). LOST the TOP 4: Damonte Smith (84.7, yr4) + Bynum (75.3 -> Ga So) + Shakai Woods (71.5 -> Ark St) + Buckner (71.5, yr4).",
+    "A gutted front - 'all three DL starters gone' plus the 84.7 top grader; returns only 7.5 of 23 sacks. Zeion has upside + the transfers add bodies, but the proven production left.",
+    "36: ~Syracuse/Utah State DL 36. Zeion's upside + the transfer rotation vs the loss of the top 4 + '7.5 of 23 sacks.' L."
+   ],
+   "key_players": [
+    {
+     "name": "Zeion Simpson-Smith",
+     "role": "DT (returning)",
+     "evidence": "60.3/260; 3 sacks/FR fumble recovery - 'due for a bigger role'"
+    },
+    {
+     "name": "Mathias Malaki-Donaldson",
+     "role": "EDGE (returning)",
+     "evidence": "65.1/133 - a returning rotation edge"
+    }
+   ],
+   "data_gaps": [
+    "lost the top 4 DL (incl. Damonte Smith 84.7)",
+    "returns only 7.5 of 23 sacks"
+   ],
+   "g5_guard_note": "Conference USA; a gutted front - lost its top 4 + most of its sack production; upside + transfers rebuild it. L."
+  },
+  {
+   "team": "Middle Tennessee",
+   "unit": "LB",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International LB 2026 (44, peer)",
+    "UL Monroe LB 2026 (44, peer)"
+   ],
+   "rationale_bullets": [
+    "Reggie Johnson (75.0/490 - Athlon's TOP returning LB; 34 tkl/3.5 sacks; a hybrid edge at WLB) + Korey Smith (61.2/390) + Ashton Taylor (Jackson State transfer, the Athlon MLB). LOST Parker Hughes (74.7/795, yr4 - the leading tackler) + Alex Mitchell (71.1 -> App St) + Byard.",
+    "A returning playmaker (Reggie Johnson - a 3.5-sack producer) + a returning starter (Korey Smith) + a transfer anchor, off a strong tackling defense (TACK p81) - but the 795-snap leading tackler (Hughes) left.",
+    "44: ~Florida International/UL Monroe LB 44. Reggie Johnson + the TACK p81 base vs the lost leading tackler + thin depth. M."
+   ],
+   "key_players": [
+    {
+     "name": "Reggie Johnson",
+     "role": "LB (returning)",
+     "evidence": "75.0/490; 34 tackles/3.5 sacks - Athlon's top returning LB (a hybrid edge)"
+    },
+    {
+     "name": "Ashton Taylor",
+     "role": "LB (arrival, Jackson State)",
+     "evidence": "the Athlon-named MLB starter (FCS transfer)"
+    }
+   ],
+   "data_gaps": [
+    "lost the leading tackler (Hughes 74.7/795)",
+    "thin proven depth"
+   ],
+   "g5_guard_note": "Conference USA; a returning LB playmaker (Reggie Johnson, 3.5 sacks) + a transfer anchor off a strong tackling defense. M."
+  },
+  {
+   "team": "Middle Tennessee",
+   "unit": "DB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Kennesaw State DB 2026 (42, peer)",
+    "Georgia Southern DB 2026 (42, peer)"
+   ],
+   "rationale_bullets": [
+    "Jackson Lowe (CB, 60.6/591; 4 PBU) + Kalen Woods (S, 62.7/414) + Christofer Noble (53.9) + Devan Carlisle (56.2) + transfers (Ricky Lee III Sac St, James Johnson USC, Dyson McCutcheon Washington). LOST Juwon Gaston (71.6) + De'Arre McDonald (64.0, yr4) + Abdul Muhammad (58.9, yr4) + Howse (62.0) + Brendon Harris (63.3, yr4).",
+    "Two clear returning starters (Lowe + Woods) + P4 transfers (USC, Washington) rebuild a secondary that turned over heavily off a poor coverage unit (COV p19, 11th in CUSA pass D).",
+    "42: ~Kennesaw State/Georgia Southern DB 42. Lowe + Woods + the P4 transfers vs the heavy turnover + the COV p19 base. M."
+   ],
+   "key_players": [
+    {
+     "name": "Jackson Lowe",
+     "role": "CB (returning)",
+     "evidence": "60.6/591; 4 PBU - a returning starting corner"
+    },
+    {
+     "name": "Kalen Woods",
+     "role": "S (returning)",
+     "evidence": "62.7/414 - a returning starting safety"
+    }
+   ],
+   "data_gaps": [
+    "poor '25 coverage (COV p19)",
+    "heavy secondary turnover"
+   ],
+   "g5_guard_note": "Conference USA; two returning starters (Lowe/Woods) + P4 transfers rebuild a p19-coverage secondary. M."
+  },
+  {
+   "team": "Middle Tennessee",
+   "unit": "ST",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Georgia State ST 2026 (40, peer)",
+    "Louisiana Tech ST 2026 (40, peer)"
+   ],
+   "rationale_bullets": [
+    "P Ashton Logan (RETURNS - 44.7 avg on 66 punts, 29 downed inside the 20; a quality returning punter) + NEW K Dominic Bourgeois (D-III Susquehanna transfer, no cell) + KR/PR DJ Taylor (17.4 KR avg). SPEC was p5.",
+    "A genuinely good returning punter (Logan) anchors it - but the placekicker is an unproven D3 transfer and the '25 unit was near-worst (SPEC p5).",
+    "40: ~Georgia State/Louisiana Tech ST 40. Logan's quality punting vs the new/unproven kicker + the p5 baseline. M."
+   ],
+   "key_players": [
+    {
+     "name": "Ashton Logan",
+     "role": "P (returning)",
+     "evidence": "44.7 avg on 66 punts, 29 downed inside the 20 - a quality returning punter"
+    },
+    {
+     "name": "Dominic Bourgeois",
+     "role": "K (arrival, D-III Susquehanna)",
+     "evidence": "a new placekicker, unproven at FBS"
+    }
+   ],
+   "data_gaps": [
+    "near-worst '25 special teams (SPEC p5)",
+    "unproven D3-transfer kicker"
+   ],
+   "g5_guard_note": "Conference USA; a quality returning punter (Logan) anchors it over a p5 unit; the kicker is a new D3 transfer. M."
+  }
+ ]
+}

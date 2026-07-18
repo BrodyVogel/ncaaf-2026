@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T18:56:01+00:00",
+ "team": "Middle Tennessee",
+ "final": -14.89,
+ "rank": 126,
+ "band": 6.54,
+ "resid": 17.04,
+ "adj": 5.96,
+ "class_term": 0.0,
+ "st": -0.2,
+ "anchor_blend": -21.1,
+ "resid_level": 11.52,
+ "resid_shape": 5.52,
+ "implied_off": 23.26,
+ "implied_def": 27.52,
+ "anchor_off": 16.15,
+ "anchor_def": 37.45,
+ "fit_r2": {
+  "off": 0.537,
+  "dfn": 0.613
+ },
+ "low_conf_units": 3,
+ "code_rev": "bc43cc7",
+ "mode": "PILOT-OOS"
+}
