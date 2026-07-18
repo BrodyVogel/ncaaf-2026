@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Arrington Maiden,QB,SO,transfer:Memphis,Athlon,PS,L,played sparingly as a frosh; the projected starter in a 4-way battle. Barnett (71.1 -> UCF) GONE
+QB,2,Davi Belfort,QB,SO,transfer:UCF,Athlon,PS,L,played sparingly + Camden Coleman (Richmond FCS, most starting exp) + JC Evans (returning, '24 Boca Bowl MVP, 21 career passes)
+RB,1,George Pettaway,RB,JR,returning,Athlon,PS,L,65.3/34 tiny (SBC; the returning back). Wayne Knight (81.3 -> UCLA) + Fuller/Adeyi (yr4) GONE
+RB,2,Nick Herman,RB,SO,transfer,Athlon,PS,L,transfer depth + Malachi Fannin-Render + Seth Cromwell
+WRTE,1,Braeden Wisloski,WR,JR,returning,Athlon,PS,M,64.8/165 (SBC; 4 TD over the final 6 games; the top returning target - withdrew from portal)
+WRTE,2,Corey Scott,WR,SR,transfer:West Florida,Athlon,PS,L,D2 (NO CELL) + Jeremiah Harrison (ETSU FCS) + TE Cole Keller. LOST Ellis (77.8, UCLA) + Dippre (72.0, Florida) + yr4s
+OL,1,Zach Greenberg,C,SR,returning,Athlon,PS,M,66.8/925 (SBC -0.35; the returning C - yr4-return per Athlon starter)
+OL,2,Kaedin Massey,G,JR,transfer:Kansas State,Athlon,PS,L,B12 LG + DJ Fox (Wis-River Falls D3 LT) + Daniel Michel (RT) + Deacon Rawls (65.9/159 returns). Greenberg the LONE returning starter. LOST Jo/Joseph Simmons (65.8/877 -> Auburn), Sweazie+Robell (UCLA), Wilson (Iowa) + yr4s
+DL,1,Amar Thomas,ED,JR,returning,Athlon,PS,M,78.8/452 (SBC; DL -6.50; "back after a great season at DE" - withdrew from portal)
+DL,2,Chukwunedu Okeke,ED,SR,transfer:Western Kentucky,Athlon,PS,L,66.8/10 tiny (CUSA) + D2 transfers Kevin Roberts/Jakolbi Wilson/Mason Purham. LOST Gobaira+West (UCLA), Ezeogu (Colorado), McMullin (GONE) + 4 yr4s (Bush/Lockett/Holmes/Taddeo)
+LB,1,Gannon Weathersby,LB,JR,returning,Athlon,PS,M,67.5/539 (SBC -8.20; 57 tkl, a bigger role in '26)
+LB,2,Nakian Jackson,LB,SR,transfer:Nevada,Athlon,PS,L,62.6/402 (MWC) + Lathan Croley (Holy Cross FCS) + Jayden Studio. LOST Hendrick (85.5, yr4) + Spinogatti (77.2, UCLA)
+DB,1,KJ Flowe,S,JR,returning,Athlon,PS,M,72.7/91 tiny (SBC -3.62; pick-6 vs Coastal; a late riser)
+DB,2,DJ Kelly,CB,JR,transfer:Toledo,Athlon,PS,M,76.6/138 (MAC; "might step right into the starting role") + Damier Minkah (Shepherd D2) + Ken Willis (returning). LOST Culp (GONE) + Jacob Thomas (yr4) + Eaglin (Colorado) + Barksdale (UCLA)
+ST,1,Morgan Suarez,K,JR,returning,Athlon,PS,M,transferred in last year + immediately earned the starting job
+ST,2,Patrick Rea,P,JR,returning,Athlon,PS,M,41.0 avg on 48 punts, 16 inside the 20, long of 61

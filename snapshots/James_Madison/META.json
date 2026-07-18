@@ -1,0 +1,51 @@
+{
+ "team": "James Madison",
+ "conference": "Sun Belt",
+ "created_utc": "2026-07-18T15:02:02+00:00",
+ "assembler_git_rev": "c0e549c",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Billy Napier (from Florida, where he was fired; built Louisiana into a G5 power) - COACH CHANGE, band x1.13. '25: 12-2 (8-0 SBC) - the best Sun Belt team. G5 2-SOURCE build (Athlon + Phil Steele). Verified both mags.",
+ "conference_note": "Sun Belt (G5). SBC offsets NEGATIVE/small; returning tape on SBC cells, arrivals on origin. MASSIVE portal exodus (37 in / 30 out) - a huge outflow to UCLA (Knight RB, Ellis WR, Sweazie+Robell OL, Gobaira+West DL, Spinogatti LB, Barksdale DB) + others (Iowa, Colorado, Florida, UCF). The reload leans heavily on LOWER levels: arrivals on origin - Maiden (Memphis/AAC), Belfort (UCF/AAC), Kelly (Toledo/MAC), Nakian Jackson (Nevada/MWC), Massey (Kansas State/B12), Okeke (Western Kentucky/CUSA); FCS/D2/D3 = NO CELL (Coleman/Richmond, Croley/Holy Cross, Harrison/ETSU, Scott/West Florida, Minkah/Shepherd, Fox/Wis-River Falls, + D2 DL Roberts/Wilson/Purham).",
+ "portal_departure_confirmed": [
+  "Mychal McMullin",
+  "Elijah Culp"
+ ],
+ "portal_withdrawal_overrides": [
+  "Braeden Wisloski",
+  "Amar Thomas"
+ ],
+ "yr4_return_overrides_documented": [
+  "Zach Greenberg"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Jo Simmons"
+ ],
+ "feed_gap_arrivals_documented": [
+  "Kevin Roberts (DL <- Division II; a portal DL brought in to play up front, not in the portal-in feed)",
+  "Jakolbi Wilson (DL <- Division II; a portal DL brought in to play up front, not in the portal-in feed)",
+  "Mason Purham (DL <- Division II; a portal DL brought in to play up front, not in the portal-in feed)"
+ ],
+ "known_name_exceptions": {
+  "Braeden Wisloski": "WR, 64.8/165 - RETURNS. Athlon 'Wideout Braeden Wisloski should be a popular target' (bold starter; 4 TD over the final 6). Portal dest None -> portal_withdrawal_override (R15).",
+  "Amar Thomas": "ED, 78.8/452 - RETURNS. Athlon 'Amar Thomas is back after a great season at defensive end.' Portal dest None -> portal_withdrawal_override (R15). The defense's one returning star.",
+  "Zach Greenberg": "C, 66.8/925 (yr4) - RETURNS. Athlon lists him the bold starting C. yr4_return_override (R15). The lone returning OL starter of note.",
+  "Mychal McMullin": "DL, 70.9/297 - portal-none, NOT named returning (not in the DL two-deep/prose) -> GONE. portal_departure_confirmed.",
+  "Elijah Culp": "DB, 72.6/763 - portal-none, NOT named returning (not in the DB two-deep, despite 763 snaps) -> GONE. portal_departure_confirmed. A big DB loss.",
+  "Gannon Weathersby": "LB, 67.5/539 - RETURNS. Athlon 'back in a bigger role' (57 tkl); the defense's returning LB anchor.",
+  "KJ Flowe": "S, 72.7/91 - RETURNS. Athlon 'coming on strong late... pick-6 vs Coastal Carolina'; the returning safety.",
+  "Alonza Barnett III": "QB, 71.1/433 - GONE -> UCF (portal). The '25 starter; the QB now resets to a 4-way transfer/returner competition.",
+  "Jo Simmons": "OL, 65.8/877 - GONE -> Auburn (portal). CAUGHT BY THE GATE: the tape name 'Jo Simmons' didn't match the portal-out 'Joseph Simmons' (OT -> Auburn) because the short 'Jo' first name (<3 chars) failed the ledger's variant-match; departure_confirmed_research corrects it. An 877-snap OL loss - the OL is thinner than the raw ledger implied. Cross-build tie: Auburn."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS charts. NEW HC Napier (band x1.13). 4 portal-None cases adjudicated: Wisloski + Amar Thomas RETURN (Athlon starters); McMullin + Culp GONE (not named). Greenberg yr4-return.",
+  "12-2 (8-0 SBC) with an ELITE '25 profile (as-played OVER p93, DEF p94, RUN p95, COV p91) - the best Sun Belt team - but a MASSIVE roster exodus: a huge outflow to UCLA (8+ players) + others, PLUS the QB (Barnett -> UCF). The returning production is thin; the reload leans heavily on the LOWER levels (D2/D3/FCS).",
+  "The QB is a 4-way competition (Memphis's Maiden + UCF's Belfort played sparingly; Richmond FCS transfer Coleman has the most starting experience; JC Evans has 21 career passes) - no proven returning production, under a new staff (Napier).",
+  "Returning ANCHORS: WR Wisloski (4 TD late), C Zach Greenberg (925 snaps), DE Amar Thomas (78.8, a genuine star), LB Gannon Weathersby (57 tkl), S KJ Flowe (pick-6), + a returning specialist ST (K Suarez + P Rea). Everything else is a lower-levels portal rebuild.",
+  "Napier's high floor (built Louisiana; 'championship culture' per the scout) + the market's #1-in-the-SBC rating (NF 82) vs the anchor-blind reality of a thin, heavily-rebuilt roster after an elite-but-departed 2025. Wide band (coach change x1.13)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF82 / Sun Belt East 1 incidentally visible - logged, NOT used. G5 2-source (Athlon + Phil Steele); no Pick Six for the Sun Belt.",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T15:08:00+00:00"
+}

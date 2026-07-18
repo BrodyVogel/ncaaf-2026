@@ -1,0 +1,131 @@
+{
+ "team": "James Madison",
+ "units": {
+  "QB": {"grade": 44, "confidence": "L"},
+  "RB": {"grade": 46, "confidence": "M"},
+  "WRTE": {"grade": 46, "confidence": "M"},
+  "OL": {"grade": 44, "confidence": "M"},
+  "DL": {"grade": 46, "confidence": "M"},
+  "LB": {"grade": 46, "confidence": "M"},
+  "DB": {"grade": 48, "confidence": "M"},
+  "ST": {"grade": 54, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T15:08:00Z (James Madison)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon + Phil Steele; no Pick Six for SBC]; SBC offsets NEGATIVE on returning tape, arrivals on origin [FCS/D2/D3 = no cell]; NEW HC Napier [COACH CHANGE, band x1.13]; disposition gate 36 rows / 0 adjudicate / 0 err - Wisloski + Amar Thomas WITHDREW [Athlon-named], McMullin + Culp GONE [not named], Greenberg yr4-return, 3 D2-DL feed-gap arrivals; mass exodus to UCLA all feed-destinationed; Jo/Joseph Simmons OL -> Auburn caught by the departure gate [tape-name mismatch] and corrected via departure_confirmed_research; no NFL-declare risk); anchor values not consulted. DISCLOSED: Athlon NF82 incidentally visible, logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines (QB44L/RB46/WRTE46/OL44/DL46/LB46/DB48/ST54, sum 374). Post-freeze correction: OL 46 -> 44 after the departure gate caught Jo/Joseph Simmons (877-snap OL) transferring to Auburn (the tape's short 'Jo' name had dodged the ledger's portal-out match), leaving Greenberg the lone returning OL starter."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB None, WRTE None, OL 38, DL None, LB 28, DB 50, ST 66) is mostly None/low - the elite '25 producers departed (a mass UCLA outflow). The grades key the thin real returners + the lower-levels reload + Napier's floor.",
+   "DL": "+46 vs proxy None - proxy missed the withdrawn Amar Thomas (78.8); the grade keys him + the D2 reload.",
+   "WRTE": "+46 vs proxy None - proxy missed the withdrawn Wisloski; the grade keys him + transfers.",
+   "OL": "+6 vs proxy 38 - proxy missed the yr4-return Greenberg; the grade keys the lone returning starter (Greenberg) + the transfer rebuild after Simmons left for Auburn.",
+   "ST": "-12 vs proxy 66 - the grade keeps the returning-specialist strength (Suarez K + Rea P) but calibrates to scale.",
+   "QB": "proxy None (Barnett departed); the grade (44 L) sets the 4-way reset."
+  }
+ },
+ "grades_detail": [
+  {"team": "James Madison", "unit": "QB", "grade": 44, "confidence": "L",
+   "bracketing_exemplars": ["Cincinnati QB 2026 (44, peer)", "West Virginia QB 2026 (44, peer)"],
+   "rationale_bullets": [
+    "A 4-way competition - Memphis's Arrington Maiden + UCF's Davi Belfort (both sparse frosh) + Richmond FCS transfer Camden Coleman (most starting exp) + JC Evans (21 career passes). Alonza Barnett (71.1/433) GONE -> UCF.",
+    "A full reset off a string of SBC-POY QBs - four unproven contestants under a new staff (Napier); no proven production.",
+    "44: ~Cincinnati/West Virginia QB 44. An unsettled four-way battle; Napier's QB-development reputation is the one intangible. L."
+   ],
+   "key_players": [
+    {"name": "Arrington Maiden", "role": "QB (transfer, Memphis)", "evidence": "played sparingly as a frosh; a candidate in the open 4-way battle"}
+   ],
+   "data_gaps": ["4-way unsettled battle", "no proven production", "new staff/scheme"],
+   "g5_guard_note": "Sun Belt; a full 4-way QB reset with no proven starter - graded low pending the competition + Napier's development."},
+  {"team": "James Madison", "unit": "RB", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Arkansas RB 2026 (46, peer)", "UCF RB 2026 (46, peer)"],
+   "rationale_bullets": [
+    "George Pettaway (65.3/34 tiny; the returning back) + transfer depth. Wayne Knight (81.3 -> UCLA) + Fuller + Adeyi (yr4) GONE.",
+    "A returning-but-low-volume back atop transfer depth, off a RUN-p95 unit whose lead backs left.",
+    "46: ~Arkansas/UCF RB 46. The returning scheme + Pettaway vs the lost lead back. M."
+   ],
+   "key_players": [
+    {"name": "George Pettaway", "role": "RB (returning)", "evidence": "65.3/34; the returning back atop a rebuilt room"}
+   ],
+   "data_gaps": ["lost lead back Knight (UCLA)", "thin returning volume"],
+   "g5_guard_note": "Sun Belt; a low-volume returner + transfer depth off a RUN-p95 unit that lost its backs."},
+  {"team": "James Madison", "unit": "WRTE", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Wake Forest WRTE 2026 (46, peer)", "East Carolina WRTE 2026 (46, peer)"],
+   "rationale_bullets": [
+    "Braeden Wisloski (64.8/165; 4 TD over the final 6; withdrew) + transfers Corey Scott (West Florida D2) + Jeremiah Harrison (ETSU FCS) + TE Cole Keller. LOST Ellis (77.8 -> UCLA) + Dippre (72.0 -> Florida) + yr4s.",
+    "A returning top target (Wisloski) + a lower-levels transfer corps, off a solid '25 (RECV p58), with a 4-way QB throwing to them.",
+    "46: ~Wake Forest/East Carolina WRTE 46. Wisloski anchors it; the FCS/D2 reload + the QB reset cap it. M."
+   ],
+   "key_players": [
+    {"name": "Braeden Wisloski", "role": "WR (returning)", "evidence": "64.8/165; 4 TD over the final 6 games (withdrew from the portal)"}
+   ],
+   "data_gaps": ["lost Ellis (UCLA) + Dippre (Florida)", "lower-levels reload", "QB reset"],
+   "g5_guard_note": "Sun Belt; a returning target + a D2/FCS-reloaded corps with an unsettled QB."},
+  {"team": "James Madison", "unit": "OL", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Utah OL 2026 (46, above)", "Houston OL 2026 (46, above)"],
+   "rationale_bullets": [
+    "Zach Greenberg (66.8/925; C, yr4-return) - the LONE returning starter - + Deacon Rawls (65.9/159) + transfers DJ Fox (Wis-River Falls D3), Kaedin Massey (Kansas State), Daniel Michel. LOST Jo/Joseph Simmons (877 -> Auburn), Sweazie+Robell (UCLA), Wilson (Iowa) + yr4s.",
+    "Down to ONE returning starter (Greenberg, C) after Simmons transferred to Auburn - a P4-transfer guard (Massey) + lower-levels tackles (a D3 LT) fill out a heavy rebuild, off a PBLK p70 / RBLK p84 unit.",
+    "44: below Utah/Houston OL 46. The lone returning center vs a heavily-rebuilt, lower-levels line. M."
+   ],
+   "key_players": [
+    {"name": "Zach Greenberg", "role": "C (returning)", "evidence": "66.8/925; the lone returning starter (yr4-return)"},
+    {"name": "Kaedin Massey", "role": "G (transfer, Kansas State)", "evidence": "a P4-transfer guard on a heavily-rebuilt line"}
+   ],
+   "data_gaps": ["lost 4+ OL (Simmons->Auburn, 2 to UCLA, 1 to Iowa)", "tackles from the lower levels"],
+   "g5_guard_note": "Sun Belt; down to one returning starter (Greenberg) after Simmons left for Auburn - a heavy lower-levels rebuild."},
+  {"team": "James Madison", "unit": "DL", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Alabama DL 2026 (46, peer)", "Florida State DL 2026 (46, peer)"],
+   "rationale_bullets": [
+    "Amar Thomas (78.8/452 -> SBC; DL -6.50; 'back after a great season,' withdrew) + WKU transfer Okeke + D2 transfers Roberts/Wilson/Purham. LOST Gobaira+West (UCLA), Ezeogu (Colorado), McMullin (GONE) + FOUR yr4 starters.",
+    "One genuine returning star (Amar Thomas, 78.8, a real edge) on a front that was PRSH p84 in '25 but lost nearly everyone else - reloaded heavily from D2.",
+    "46: ~Alabama/Florida State DL 46. Amar Thomas anchors it well; the D2-heavy rebuild around him caps it. M."
+   ],
+   "key_players": [
+    {"name": "Amar Thomas", "role": "ED (returning)", "evidence": "78.8/452; back after a great season at DE (withdrew from the portal)"}
+   ],
+   "data_gaps": ["lost 6+ DL (UCLA/Colorado/yr4)", "D2-heavy reload"],
+   "g5_guard_note": "Sun Belt; one genuine returning edge (Amar Thomas) on a D2-rebuilt front."},
+  {"team": "James Madison", "unit": "LB", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Miami LB 2026 (46, peer)", "Illinois LB 2026 (46, peer)"],
+   "rationale_bullets": [
+    "Gannon Weathersby (67.5/539 -> SBC -8.20; 57 tkl, a bigger role) + transfers Nakian Jackson (Nevada, 62.6/402) + Lathan Croley (Holy Cross FCS). LOST Hendrick (85.5, yr4 - the star) + Spinogatti (77.2 -> UCLA).",
+    "A returning starter (Weathersby) + a MWC-transfer backer + FCS depth, off an elite '25 LB group that lost its best two.",
+    "46: ~Miami/Illinois LB 46. Weathersby + Jackson vs the two big losses. M."
+   ],
+   "key_players": [
+    {"name": "Gannon Weathersby", "role": "LB (returning)", "evidence": "67.5/539; 57 tackles, stepping into a bigger role"},
+    {"name": "Nakian Jackson", "role": "LB (transfer, Nevada)", "evidence": "62.6/402; a MWC-transfer backer"}
+   ],
+   "data_gaps": ["lost Hendrick (85.5, the star) + Spinogatti (UCLA)"],
+   "g5_guard_note": "Sun Belt; a returning LB + transfers after losing the room's two best to graduation/UCLA."},
+  {"team": "James Madison", "unit": "DB", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Florida State DB 2026 (48, peer)", "Arizona State DB 2026 (48, peer)"],
+   "rationale_bullets": [
+    "KJ Flowe (72.7/91; pick-6, late riser) + Ken Willis (returning) + transfers DJ Kelly (Toledo, 76.6/138) + Damier Minkah (Shepherd D2). LOST Culp (GONE) + Jacob Thomas (yr4) + Eaglin (Colorado) + Barksdale (UCLA). COV was p91.",
+    "A returning safety (Flowe) + a good MAC-transfer corner (Kelly) on a unit that was elite in '25 (COV p91) but lost most of it.",
+    "48: ~Florida State/Arizona State DB 48. Flowe + Kelly vs the heavy secondary turnover. M."
+   ],
+   "key_players": [
+    {"name": "KJ Flowe", "role": "S (returning)", "evidence": "72.7/91; a pick-6 vs Coastal, a late riser"},
+    {"name": "DJ Kelly", "role": "CB (transfer, Toledo)", "evidence": "76.6/138; 'might step right into the starting role'"}
+   ],
+   "data_gaps": ["heavy secondary turnover off a COV-p91 unit"],
+   "g5_guard_note": "Sun Belt; a returning safety + a good MAC-transfer corner after a big secondary turnover."},
+  {"team": "James Madison", "unit": "ST", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["LSU ST 2026 (54, peer)", "Tennessee ST 2026 (54, peer)"],
+   "rationale_bullets": [
+    "K Morgan Suarez + P Patrick Rea both return (transferred in last year, immediately started; Rea 41.0 avg, 16 inside the 20, long 61).",
+    "A returning specialist pair (K + P) - a rare bit of continuity - off a SPEC-p66 unit. A genuine relative strength.",
+    "54: ~LSU/Tennessee ST 54. Both specialists back (calib). M."
+   ],
+   "key_players": [
+    {"name": "Patrick Rea", "role": "P (returning)", "evidence": "41.0 avg on 48 punts, 16 inside the 20, long of 61"},
+    {"name": "Morgan Suarez", "role": "K (returning)", "evidence": "the returning placekicker (immediate starter as a transfer last year)"}
+   ],
+   "data_gaps": [],
+   "g5_guard_note": "Sun Belt; a returning K+P pair - a genuine relative strength that travels regardless of level."}
+ ]
+}

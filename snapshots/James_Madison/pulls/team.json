@@ -1,0 +1,36 @@
+{
+ "id": 256,
+ "school": "James Madison",
+ "mascot": "Dukes",
+ "abbreviation": "JMU",
+ "alternateNames": [
+  "JMU",
+  "James Madison"
+ ],
+ "conference": "Sun Belt",
+ "division": "East",
+ "classification": "fbs",
+ "color": "#450084",
+ "alternateColor": "#b5a068",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/256.png"
+ ],
+ "twitter": "@JMUFootball",
+ "location": {
+  "id": 3651,
+  "name": "Bridgeforth Stadium",
+  "city": "Harrisonburg",
+  "state": "VA",
+  "zip": "22807",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 38.4352919,
+  "longitude": -78.8729349,
+  "elevation": "399.303009",
+  "capacity": 24877,
+  "constructionYear": 1975,
+  "grass": false,
+  "dome": false
+ }
+}

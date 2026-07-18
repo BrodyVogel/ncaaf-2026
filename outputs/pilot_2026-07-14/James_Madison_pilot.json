@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T15:12:50+00:00",
+ "team": "James Madison",
+ "final": -0.39,
+ "rank": 65,
+ "band": 6.98,
+ "resid": -1.37,
+ "adj": -0.48,
+ "class_term": 0.0,
+ "st": 0.08,
+ "anchor_blend": -0.49,
+ "resid_level": 0.05,
+ "resid_shape": -1.43,
+ "implied_off": 24.58,
+ "implied_def": 26.06,
+ "anchor_off": 25.8,
+ "anchor_def": 25.9,
+ "fit_r2": {
+  "off": 0.538,
+  "dfn": 0.615
+ },
+ "low_conf_units": 1,
+ "code_rev": "c0e549c",
+ "mode": "PILOT-OOS"
+}
