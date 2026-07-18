@@ -1,0 +1,34 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Kenny Minchey,QB,JR,transfer:Notre Dame,Athlon,PS,L,87.5/30 tiny (IND -4.48); 4-star recruit + 4-star transfer; nearly beat CJ Carr at ND; dual-threat; Stein Top-15 scheme
+QB,2,Brennen Ward,QB,SO,returning,Athlon,PS,L,developmental depth (Boley left for ASU; Calzada yr4 gone)
+RB,1,CJ Baxter,RB,JR,transfer:Texas,Athlon,PS,M,61.1/54 (B12 +7.24 weighted; starred '23; injury bounce-back)
+RB,2,Jovantae Barnes,RB,SR,transfer:Oklahoma,Athlon,PS,M,63.2/19 tiny (SEC; 500+ yd '22 & '24; injury bounce-back)
+RB,3,Dexter Boykin,RB,FR,returning,Athlon,PS,L,frosh depth (Dowdell->Georgia, McGowan yr4 both gone)
+WRTE,1,DJ Miller,WR,SO,returning,Athlon,PS,M,64.9/112 (SEC +5.94 -> 70.8 adj; breakout potential)
+WRTE,2,Willie Rodriguez,TE,JR,returning,Athlon,PS,M,65.8/225 (SEC +5.94 -> 71.7 adj; potential All-SEC; Stein loves TEs)
+WRTE,3,Nic Anderson,WR,SR,transfer:LSU,Athlon,PS,M,59.5/117 (SEC; bounce-back to '23 Oklahoma form - 798 yds/10 TD)
+WRTE,4,Cameron Miller,WR,SO,returning,Athlon,PS,L,74.0/88 (SEC small sample)
+WRTE,5,Shane Carr,WR,JR,transfer:Southern Utah,Athlon,PS,L,productive FCS receiver (NO CELL) + Mikkel Skinner (TE, Top200) + Hardley Gilmore
+OL,1,Lance Heard,OT,SR,transfer:Tennessee,Athlon,PS,M,70.5/887 (SEC; All-SEC, former 5-star; NFL-resume LT)
+OL,2,Coleton Price,C,SR,transfer:Baylor,Athlon,PS,M,71.0/842 (B12 +8.45 weighted DOWN; 3-yr starting C)
+OL,3,Tegra Tshabola,G,SR,transfer:Ohio State,Athlon,PS,M,56.3/607 (B10 -1.29; starter on 2 Playoff teams)
+OL,4,Malachi Wood,OT,JR,returning,Athlon,PS,M,73.7/42 tiny (SEC; took RT in spring)
+OL,5,Olaus Alinen,G,JR,transfer:Alabama,Athlon,PS,L,64.3/44 tiny (SEC; former blue-chip, limited exp)
+OL,6,Mark Robinson,OT,SR,transfer:UTEP,Athlon,PS,L,All-CUSA (CUSA -6.36) + Max Anderson (Tennessee) depth. "Best OL transfer hauls in America"
+DL,1,Tavion Gadson,DI,JR,returning,Athlon,PS,H,80.4/345 (SEC +7.87 weighted -> elite; breakout candidate)
+DL,2,Mi'Quise Humphrey-Grace,ED,SR,returning,Athlon,PS,H,72.9/502 (SEC +7.87 weighted; 31 tkl/7 TFL/3.5 sacks; star potential)
+DL,3,Sam Greene,ED,JR,returning,Athlon,PS,M,75.8/338 (SEC +7.87 weighted; returning edge/OLB)
+DL,4,Jamarrion Harkless,DI,JR,transfer:Purdue,Athlon,PS,M,62.9/423 (B10 +10.38 weighted DOWN; instant NT starter)
+DL,5,Ahmad Breaux,DI,JR,transfer:LSU,Athlon,PS,L,60.9/291 (SEC; interior depth) + Jaden Williams (65.7) + Kalen Edwards
+LB,1,Grant Godfrey,LB,JR,returning,Athlon,PS,M,62.9/253 (SEC +14.01 weighted DOWN; lead ILB, some '25 starts)
+LB,2,Elijah Barnes,LB,SO,transfer:Texas,Athlon,PS,L,60.6/43 tiny (SEC; Top100, 4-star transfer, projected starter)
+LB,3,Tavion Wallace,LB,SO,transfer:Arkansas,Athlon,PS,L,48.1/11 tiny (SEC; former blue-chipper). Afari + Rayner (130 tkl) GRADUATED
+LB,4,Antwan Smith,LB,JR,returning,Athlon,PS,L,depth
+DB,1,Ty Bryant,S,SR,returning,Athlon,PS,H,77.9/647 (SEC +5.44 -> 83.3 adj; All-SEC; led the SEC in INTs - the best player)
+DB,2,Terhyon Nichols,CB,JR,returning,Athlon,PS,M,67.5/330 (SEC +5.44 -> 72.9 adj; back healthy; Bateman's spring MVP)
+DB,3,Jordan Castell,S,SR,transfer:Florida,Athlon,PS,M,55.3/605 (SEC; 35 career starts)
+DB,4,Aaron Gates,S,SO,transfer:Florida,Athlon,PS,L,58.5/77 (SEC; nickel)
+DB,5,Hasaan Sykes,CB,JR,transfer:Western Carolina,Athlon,PS,L,top FCS corner (NO CELL); CBs decimated by injury in '25 (COV p13)
+DB,6,Jaden Williams,S,SO,returning,Athlon,PS,L,depth
+ST,1,Jacob Kauwe,K,JR,returning,Athlon,PS,M,"a weapon" (Athlon); SPEC p19 in '25 (unit-wide) but K praised
+ST,2,Thomas O'Hara,P,SO,transfer,Athlon,PS,L,Australian punter (move off rugby-style)

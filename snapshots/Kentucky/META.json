@@ -1,0 +1,40 @@
+{
+ "team": "Kentucky",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T03:12:00+00:00",
+ "assembler_git_rev": "b976519",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Will Stein (from Oregon OC; 4 straight Top-15 offenses at UTSA/Oregon) - COACH CHANGE, band x1.13. Mark Stoops fired. NEW DC Jay Bateman (former Texas A&M DC). '25: 5-7 (2-6 SEC). Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC); arrivals on origin cells. SEC offsets LARGE - big cells (OL/LB/RB) WEIGHTED DOWN; small samples discounted. HEAVY TRANSFER RELOAD (29 in / 27 out, #11 transfer class). Many transfers are FROM SEC schools (their '25 tape = SEC): Heard (Tennessee), Barnes (Oklahoma), Anderson (LSU), Breaux (LSU), Alinen (Alabama), Castell/Gates (Florida), E. Barnes (Texas), Wallace (Arkansas) - SEC cell but small-sample ones weighted DOWN. Non-SEC on origin: Baxter (Texas... note Texas=SEC), Price (Baylor/B12), Tshabola (Ohio State/B10), Harkless (Purdue/B10), Robinson (UTEP/CUSA), Carr+Sykes (FCS = no cell). Minchey (Notre Dame/IND).",
+ "portal_departure_confirmed": [
+  "Nasir Addison"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Cutter Boley": "QB - GONE -> Arizona State (P6 'Boley left for Arizona State'). The '25 SEC All-Freshman (#6 P4-frosh QB Rating); a notable loss, replaced by Minchey.",
+  "Zach Calzada": "QB, 46.5/69 (yr4) - GONE. 7th-yr, struggled/injured. EXPIRED(yr4).",
+  "Kenny Minchey": "QB, 87.5/30 tiny (Notre Dame transfer) - the imported STARTER. 4-star recruit + 4-star transfer grade; nearly beat CJ Carr for the ND job; dual-threat. IND origin cell; tiny sample.",
+  "Dante Dowdell": "RB - GONE -> Georgia (P6 + cross-build confirmed). Seth McGowan (yr4) moved on.",
+  "Alex Afari Jr.": "LB, 63.1/503 (yr4) - GONE, GRADUATED (P6 'Afari + Rayner combined 130 tackles and both graduated'). EXPIRED(yr4). Do NOT carry as returning.",
+  "Daveren Rayner": "LB (yr4) - GONE, GRADUATED (P6). EXPIRED(yr4).",
+  "Tavion Gadson": "DI, 80.4/345 - RETURNS. Breakout candidate; part of the retained '25 DL (the 91-exemplar front). SEC +7.87 weighted.",
+  "Mi'Quise Humphrey-Grace": "ED, 72.9/502 - RETURNS. 31 tkl/7 TFL/3.5 sacks; star potential.",
+  "Ty Bryant": "S, 77.9/647 - RETURNS. All-SEC; led the SEC in interceptions - the retained best player.",
+  "Jordan Castell": "S, 55.3/605 - ARRIVES from Florida (35 career starts; cross-build confirmed - his Florida departure was logged there). Aaron Gates (Florida) came with him (nickel).",
+  "Nasir Addison": "DB, 54.2/175 - portal-none feed, NOT named returning by any magazine -> GONE. portal_departure_confirmed. DB depth below the two-deep; grade-neutral."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 2026 charts. HEAVY transfer reload under a new staff (29 in / 27 out, #11 transfer class). QB Cutter Boley (SEC All-Frosh) LEFT for Arizona State - the new staff imported Minchey (ND).",
+  "5-7 (2-6 SEC) '25 profile: a BAD offense (OFF p35, PASS p13, RUN p33) but a defense with a strong pass rush (PRSH p87) + run D (RDEF p81) and AWFUL coverage (COV p13 - injury-decimated CBs). ST p19.",
+  "TWO RETAINED STRENGTHS + a rebuilt OL: (1) DL - Gadson (80.4) + Humphrey-Grace (72.9, star potential) + Greene (75.8) retained (the 91-exemplar '25 front); PRSH p87. (2) OL - 'one of the best transfer hauls in America' (Heard All-SEC/Tennessee + Price/Baylor + Tshabola/Ohio State). S Ty Bryant (All-SEC, led SEC in INTs) anchors the back.",
+  "THE QUESTIONS: QB (Minchey - talented, ~unproven, though in Stein's Top-15 scheme), RB/WR (injury-reclamation transfers - Baxter/Barnes/Anderson - health-dependent), LB (rebuilt after Afari+Rayner graduated - potential over production), CB (decimated by injury in '25, COV p13 - now healthier)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded)",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T03:50:29+00:00"
+}

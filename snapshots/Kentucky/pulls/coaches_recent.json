@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Mark",
+  "lastName": "Stoops",
+  "hireDate": "2012-11-27T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Kentucky",
+    "year": 2024,
+    "games": 12,
+    "wins": 4,
+    "losses": 8,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 3,
+    "spOverall": 5.5,
+    "spOffense": 24.5,
+    "spDefense": 20.9
+   }
+  ]
+ },
+ {
+  "firstName": "Mark",
+  "lastName": "Stoops",
+  "hireDate": "2012-11-27T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Kentucky",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 2.9,
+    "spOverall": 1.8,
+    "spOffense": 25.5,
+    "spDefense": 23.7
+   }
+  ]
+ }
+]
