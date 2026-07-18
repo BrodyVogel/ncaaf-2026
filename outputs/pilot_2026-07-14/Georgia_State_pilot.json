@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T15:00:16+00:00",
+ "team": "Georgia State",
+ "final": -14.29,
+ "rank": 123,
+ "band": 6.0,
+ "resid": 15.46,
+ "adj": 5.41,
+ "class_term": 0.0,
+ "st": -0.2,
+ "anchor_blend": -19.95,
+ "resid_level": 10.42,
+ "resid_shape": 5.04,
+ "implied_off": 23.9,
+ "implied_def": 27.69,
+ "anchor_off": 19.57,
+ "anchor_def": 38.83,
+ "fit_r2": {
+  "off": 0.542,
+  "dfn": 0.633
+ },
+ "low_conf_units": 0,
+ "code_rev": "9ae2ead",
+ "mode": "PILOT-OOS"
+}

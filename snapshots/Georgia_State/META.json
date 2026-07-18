@@ -1,0 +1,42 @@
+{
+ "team": "Georgia State",
+ "conference": "Sun Belt",
+ "created_utc": "2026-07-18T14:53:30+00:00",
+ "assembler_git_rev": "9ae2ead",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Dell McGee (Year 3; NO CHANGE; band x1.00). Poor '25 defense forced a CO-DC change: Cam Clark (Duke) + John Haneline (FCS Youngstown State) - coordinator change, no multiplier. '25: 1-11 (0-8 SBC). G5 2-SOURCE build (Athlon + Phil Steele). Verified both mags.",
+ "conference_note": "Sun Belt (G5). SBC offsets NEGATIVE/small; returning tape on SBC cells, arrivals on origin. MASSIVE teardown (33 in / 39 out) off a 1-11 season. Arrivals on origin: Keith Adams (Clemson/ACC), Jaydon Hood + Connor Jones (Michigan/B10); FCS = NO CELL (Pereira/Merrimack QB, Mittman + Deuce Lee/Monmouth DBs). The secondary was raided (6+ DBs to the P4).",
+ "portal_departure_confirmed": [
+  "Josiah Robinson",
+  "Jeremiah McCrimmon"
+ ],
+ "portal_withdrawal_overrides": [
+  "Jabriel Rhodes-Nelson",
+  "Deuce Walker"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Cameran Brown": "QB, 79.1/227 - RETURNS. The '25 dual-threat starter (1,296 pass/271 rush; 241 yds/4 TD vs South Alabama when healthy); a genuinely good grade and the roster's clear bright spot. TJ Finley (63.8, the other '25 starter) departed -> Incarnate Word.",
+  "Ted Hurst": "WR, 82.0/413 (yr4) - GONE, NFL (record-setting receiver). yr4 -> EXPIRED(yr4). The offense's biggest loss.",
+  "Jabriel Rhodes-Nelson": "ED, 56.0/456 - RETURNS. Athlon: '41 tackles, the most among returning players... due for a good year' (scout). Portal dest None -> portal_withdrawal_override (R15).",
+  "Deuce Walker": "S, 66.9/509 - RETURNS. Athlon 'missed time but returned to collect 33 tackles.' Portal dest None -> portal_withdrawal_override (R15).",
+  "Josiah Robinson": "LB, 68.6/800 - portal-none, NOT in the Athlon LB two-deep (Butler/Owens/Hood) -> GONE. portal_departure_confirmed. A big LB loss (the snap leader).",
+  "Jeremiah McCrimmon": "OL, 40.5/527 - portal-none, NOT named returning (Athlon names Williams/Duffus/Funsch) -> GONE. portal_departure_confirmed.",
+  "Bishop Thomas": "DL, 76.6/427 - GONE -> Oklahoma (portal). The best DL grade, a P4 transfer-up.",
+  "Keith Adams Jr.": "RB (Clemson) - ARRIVES, the projected starter at a low-production spot (top 2 '25 backs + Simmons/yr4 all gone)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS charts. 4 portal-None cases adjudicated: Rhodes-Nelson + Deuce Walker RETURN (Athlon-named); Josiah Robinson + McCrimmon GONE (not named). MASSIVE teardown (33 in / 39 out) off 1-11.",
+  "1-11 (0-8 SBC) - one of the worst teams in FBS (as-played OFF p5, PBLK p2, DEF p13; near-bottom NF 132). The shadow proxy is ALL-None except ST (the ≥threshold producers nearly all left/expired).",
+  "The one real asset is returning QB Cameran Brown (79.1 - a genuinely good grade; 1,296 pass/271 rush when healthy). He competes with FCS-transfer Ayden Pereira (Merrimack, 1,818 yds/853 rush).",
+  "The offense also returns ascendant TE Grant Hollier (21 catches/4 TD) + WR DJ Riles + a mostly-returning OL (Williams/Funsch/Duffus + Michigan import Connor Jones), but lost record-setting WR Ted Hurst (NFL) and gets Clemson transfer Keith Adams at a thin RB. PBLK was p2.",
+  "The defense (448.8 ypg, 58 TDs allowed) is a near-total rebuild: edge Rhodes-Nelson (the top returning tackler) + S Deuce Walker anchor it; LB snap-leader Josiah Robinson (800) departed; the secondary was RAIDED (6+ DBs to the P4). New co-DCs + Michigan LB transfer Jaydon Hood + FCS-transfer DBs (Mittman, Deuce Lee)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF132 / Sun Belt East 7 incidentally visible - logged, NOT used. G5 2-source (Athlon + Phil Steele); no Pick Six for the Sun Belt.",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T15:00:00+00:00"
+}

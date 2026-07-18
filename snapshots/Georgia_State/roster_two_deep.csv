@@ -1,0 +1,20 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Cameran Brown,QB,JR,returning,Athlon,PS,M,79.1/227 (SBC -1.01; 1,296 pass/271 rush; the most effective '25 QB when healthy - 241 yds/4 TD vs South Alabama). TJ Finley (63.8 -> Incarnate Word) GONE
+QB,2,Ayden Pereira,QB,JR,transfer:Merrimack,Athlon,PS,L,FCS (1,818 pass/853 rush in '25); competing for the job
+RB,1,Keith Adams Jr.,RB,SO,transfer:Clemson,Athlon,PS,L,ACC; gets a shot at a low-production spot (top 2 '25 backs + Jordon Simmons/yr4 GONE)
+RB,2,Branson Robinson,RB,JR,returning,Athlon,PS,L,unproven returning committee depth + Djay Braswell
+WRTE,1,Grant Hollier,TE,SO,returning,Athlon,PS,M,59.3/216 (SBC; ascendant - 21 catches/4 TD after a midseason breakout)
+WRTE,2,DJ Riles,WR,JR,returning,Athlon,PS,L,(SBC; returning WR) + Derrick Avery (48.9/137) + Kyle Washington (52.7/123). Ted Hurst (82.0, NFL/yr4) GONE
+OL,1,Tyhler Williams,C,JR,returning,Athlon,PS,M,50.7/888 (SBC -0.35; the top returner, bold C)
+OL,2,Donovan Funsch,G,JR,returning,Athlon,PS,L,62.1/617 (SBC; returning)
+OL,3,Deandre Duffus,OT,JR,returning,Athlon,PS,L,59.2/488 (SBC; a top returner) + Connor Jones (Michigan import, "high marks") + Pherleski Martin. PBLK p2. McCrimmon (GONE) + Alec Johnson (WKU) + yr4s GONE
+DL,1,Jabriel Rhodes-Nelson,ED,JR,returning,Athlon,PS,M,56.0/456 (SBC; DL -6.50; 41 tkl, most among returners - withdrew; "due for a good year")
+DL,2,Kelan Butler,ED,JR,returning,Athlon,PS,L,63.0/394 (SBC; returning edge)
+DL,3,Richard Kramer,DI,JR,returning,Athlon,PS,L,51.1/155 (SBC). LOST Bishop Thomas (76.6, Oklahoma) + Marlin Dean (UAB) + Flounoy (Syracuse) + yr4s
+LB,1,Jaydon Hood,LB,JR,transfer:Michigan,Athlon,PS,M,"much is expected" (B10 import)
+LB,2,Coby Owens,LB,JR,returning,Athlon,PS,L,47.6/289 (SBC). LOST Josiah Robinson (68.6/800, GONE) + Walker (Baylor) + Wilson (Cincinnati)
+DB,1,Deuce Walker,S,JR,returning,Athlon,PS,M,66.9/509 (SBC -3.62; 33 tkl, returned from injury - withdrew from portal)
+DB,2,Tyson McCrary,CB,JR,returning,Athlon,PS,L,65.7/233 (SBC; returning)
+DB,3,Tre Mittman,S,SR,transfer:Monmouth,Athlon,PS,L,FCS S (75 tkl) + Deuce Lee (Monmouth, top tackler) + Derrick Maxey (58.3/284 returns). LOST 6+ DBs to P4 (Jaylen Jones->Virginia, Fillmore->Illinois, Causey->Wake Forest, Hopkins->Liberty)
+ST,1,Liam Rickman,K,JR,returning,Athlon,PS,L,returning placekicker (McAlister -> Arkansas) + transfer Samer Layous. SPEC p30 in '25
+ST,2,Christian Teeter,P,JR,transfer,Athlon,PS,L,transfer punter

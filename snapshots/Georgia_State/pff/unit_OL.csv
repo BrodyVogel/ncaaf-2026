@@ -1,0 +1,17 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Tyhler Williams,156886,G,GA STATE,12,100.0,0,175,50.7,54.1,51.1,9,16,525,100.0,100.0,97.4,6,26,1,888,419,469,0,888,566,566,0,0,322,0,2025_this_team
+Donovan Funsch,189956,G,GA STATE,11,100.0,0,175,62.1,63.7,61.5,1,10,350,100.0,100.0,98.4,2,11,0,617,0,343,0,617,383,383,273,0,234,1,2025_this_team
+Jeremiah McCrimmon,176576,T,GA STATE,10,100.0,1,175,40.5,38.6,53.6,3,20,306,100.0,100.0,95.3,10,26,3,527,0,0,73,527,330,330,0,454,197,0,2025_this_team
+Derrell Bailey Jr.,123340,T,GA STATE,8,100.0,0,175,56.5,59.2,56.4,5,12,303,100.0,100.0,96.9,4,18,1,509,0,0,509,509,327,327,0,0,182,0,2025_this_team
+Deandre Duffus,170191,G,GA STATE,10,100.0,2,175,59.2,53.3,66.8,4,9,284,100.0,100.0,97.7,7,13,0,488,0,0,0,488,305,305,488,0,183,0,2025_this_team
+Alec Johnson,156693,C,GA STATE,8,100.0,0,175,53.7,59.7,50.2,2,6,283,100.0,100.0,98.6,1,8,0,469,469,0,0,469,301,301,0,0,168,0,2025_this_team
+Mason Cook,123852,T,GA STATE,8,100.0,0,175,47.8,36.0,55.2,3,15,257,100.0,100.0,96.1,1,19,1,448,0,0,305,448,277,277,0,142,171,1,2025_this_team
+Kynjrick Boyd,204884,T,GA STATE,6,100.0,1,175,43.6,41.3,58.9,0,7,156,100.0,100.0,97.8,7,7,0,250,0,0,0,250,169,169,0,248,81,2,2025_this_team
+Pherleski Martin,204909,G,GA STATE,2,100.0,0,175,56.7,49.4,61.2,1,2,67,100.0,100.0,96.3,1,4,1,104,0,0,0,104,73,73,104,0,31,0,2025_this_team
+Jeff Burton,204877,G,GA STATE,2,100.0,0,175,53.1,80.7,45.3,0,1,50,100.0,100.0,99.0,2,1,0,70,0,48,0,70,53,53,22,0,17,0,2025_this_team
+Obadiah Obasuyi,170363,T,GA STATE,5,100.0,1,175,25.0,0.0,46.1,1,5,29,100.0,100.0,86.2,1,7,1,48,0,0,0,48,30,30,0,44,18,4,2025_this_team
+Gage Stanaland,174310,G,OKLA STATE,7,100.0,0,262,40.9,78.0,39.8,0,0,8,100.0,100.0,100.0,0,0,0,40,0,16,0,40,8,8,0,0,32,24,arrival_2025_at_OKLA STATE
+Aidan Andrews,204899,G,GA STATE,4,100.0,0,175,70.9,59.8,74.0,0,0,17,100.0,100.0,94.1,0,1,1,34,0,28,0,34,18,18,0,0,16,6,2025_this_team
+Connor Jones,158539,T,MICHIGAN,2,100.0,0,222,72.3,,70.4,0,0,0,,,,0,0,0,23,0,0,0,23,0,0,8,15,23,0,arrival_2025_at_MICHIGAN
+Jordan Brown,145550,G,ARIZONA,1,100.0,0,109,53.5,74.2,46.7,0,1,15,100.0,100.0,96.7,0,1,0,21,0,21,0,21,16,16,0,0,5,0,arrival_2025_at_ARIZONA
+Malik Jackson,189958,T,GA STATE,1,100.0,0,175,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,0,1,0,0,1,0,1,0,2025_this_team
