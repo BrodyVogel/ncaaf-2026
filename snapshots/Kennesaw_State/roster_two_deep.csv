@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Rickie Collins,QB,JR,arrival(Syracuse-ACC),Athlon,feed,L,Syracuse transfer (orig. LSU); in an even battle with Varnes. LOST Amari Odom (73.0 -> Syracuse - the star; a QB swap)
+QB,2,Landon Varnes,QB,SO,arrival(Miss Gulf Coast CC),Athlon,feed,L,juco transfer; "emerged from spring essentially even" with Collins
+RB,1,Triston Morgan,RB,SR,arrival(Benedict-D2),Athlon,feed,L,D2 transfer (809 yds). "The ALL-NEW crew of running backs." LOST Bennett (82.8 yr4) + Belcher (82.2 yr4)
+RB,2,Latrelle Murrell,RB,JR,arrival(West Georgia-FCS),Athlon,feed,L,FCS West Georgia transfer (893 yds)
+WRTE,1,Javon Rogers,WR,JR,returning,Athlon,feed,M,the holdover WR ("began to emerge in spring"). LOST Benyard (81.0 yr4, graduated) + Moss (-> Washington) + Ravare (-> NMSU)
+WRTE,2,Davis Bryson,WR,SR,arrival(transfer),Athlon,feed,L,transfer + Dylan Gary + TE Reed Jesiolowski (transfer). A retooled corps
+OL,1,JaDarious Lee,LT,SR,returning-yr4override,Athlon,feed,L,38.8/979 (a holdover tackle, yr4 override)
+OL,2,Nikola Milovac,RT,JR,returning-withdrawal,Athlon,feed,M,50.0/1000 (a holdover tackle; portal->None but WITHDREW) + MTSU transfer Mateo Guevara (C) + transfers. RBLK was p6 (dead last)
+DL,1,Marcus Patterson,DE,SR,returning,Athlon,feed,M,66.5/619 (CUSA -7.88; a key returning DE)
+DL,2,Donovan Westmoreland,RUSH,JR,returning,Athlon,feed,M,64.2/374 (South Carolina transfer, healthy - 37 tkl/4 sacks) + Jaiden Grimes (68.3, NT) + Devin Morgan (transfer). LOST Dunlap (78.4 yr4) + Daniels (66.7 yr4) + Hill (-> K-State). Tied 1st in CUSA w/ 31 sacks
+LB,1,Baron Hopson,LB,SR,returning-yr4override,Athlon,feed,M,67.5/765 (CUSA -12.31; the team leader/MLB - 72 tkl/9 TFL; back as a grad; yr4 override)
+LB,2,Tywon Christopher,LB,SO,returning,Athlon,feed,M,64.0/559 (CUSA) + transfer Corey Kelly (OLB)
+DB,1,Isaac Paul,S,JR,returning-withdrawal,Athlon,feed,M,62.3/756 (CUSA -6.16; portal->None but WITHDREW - "came back after dipping a toe in the transfer portal")
+DB,2,Kody Jones,NB,SR,returning-yr4override,Athlon,feed,M,the returning nickel (yr4 override) + Alexander Ford (S) + CBs Lawson/Tookes + transfers. LOST JeRico Washington (78.9 -> Boise, the top DB) + Offord (71.8 yr4) + Milon Jones (yr4)
+ST,1,Daniel Kinney,K,FR,returning,Athlon,feed,L,healthy now (6-of-7 FG with a 50-yd long in 4 games)
+ST,2,Matt McKenzie,P,SR,arrival(Arizona State-B12),Athlon,feed,L,Australian punter (Arizona State transfer, 34.6 avg). SPEC was p16

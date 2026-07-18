@@ -1,0 +1,10 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Nikola Milovac,169998,T,KENNESAW,14,100.0,1,200,50.0,54.9,51.3,5,28,490,100.0,100.0,96.4,11,34,1,1000,0,0,0,1000,523,523,0,982,477,18,2025_this_team
+Brandon Best,156298,G,KENNESAW,14,100.0,0,200,62.7,80.7,55.5,1,7,486,100.0,100.0,99.0,0,9,1,988,0,987,0,988,518,518,0,0,470,1,2025_this_team
+JaDarious Lee,162946,T,KENNESAW,14,100.0,1,200,38.8,33.1,44.7,11,34,479,100.0,100.0,94.7,8,48,3,979,0,0,920,979,511,511,0,4,468,55,2025_this_team
+Josiah Chenault,177028,C,KENNESAW,14,100.0,0,200,67.8,80.1,63.5,3,8,435,100.0,100.0,98.3,3,13,2,893,893,0,0,893,464,464,0,0,429,0,2025_this_team
+JT Pennington,150312,G,KENNESAW,14,100.0,0,200,61.6,72.0,56.4,2,7,435,100.0,100.0,99.0,2,9,0,870,0,0,0,870,465,465,870,0,405,0,2025_this_team
+Mateo Guevara,156598,G,MIDDLE TN,12,100.0,0,224,61.8,69.2,59.3,0,8,517,100.0,100.0,99.0,7,9,1,785,428,342,0,785,551,551,14,0,234,0,arrival_2025_at_MIDDLE TN
+Cameron Williams,142731,G,KENNESAW,9,100.0,0,200,56.9,48.5,57.3,2,3,129,100.0,100.0,98.1,2,5,0,276,111,16,15,276,138,138,134,0,138,0,2025_this_team
+Rene Miller,172218,T,KENNESAW,8,100.0,0,200,66.2,57.9,65.4,0,0,12,100.0,100.0,100.0,0,0,0,41,0,0,40,41,12,12,0,0,29,1,2025_this_team
+Jamiel Williams,198616,T,KENNESAW,3,100.0,0,200,34.1,0.0,51.1,1,0,6,100.0,100.0,75.0,1,2,1,15,0,0,15,15,7,7,0,0,8,0,2025_this_team

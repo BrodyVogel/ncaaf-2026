@@ -1,0 +1,60 @@
+{
+ "team": "Kennesaw State",
+ "conference": "Conference USA",
+ "created_utc": "2026-07-18T17:59:00+00:00",
+ "assembler_git_rev": "5f6d336",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Jerry Mack (10-4 at school, entering Year 2 - first-year HC in 2025, WON CUSA Coach of the Year; NO change for 2026; band x1.00). '25: 10-4, WON the CUSA Championship (KSU's 2nd FBS year). G5 2-SOURCE build (Athlon primary + scout). VERY HIGH churn (29 in / 19 out) - a near-total roster overhaul on both sides.",
+ "conference_note": "Conference USA. Returning tape on CUSA cells (heavily negative); arrivals on origin. The reigning CUSA champ, but 'lost pretty much their entire roster' (scout). The 2025 title was QB-Amari-Odom-driven (-> Syracuse). A transfer rebuild: new QB (Collins from Syracuse or juco Varnes), ALL-NEW RBs (D2/FCS transfers), retooled WRs. The DEFENSE kept SOME pieces (Patterson, Westmoreland, Hopson) + 2 WITHDRAWALS (OL Milovac, S Isaac Paul) but LOST its top DB (JeRico Washington 78.9 -> Boise) + top DL (Dunlap 78.4, yr4).",
+ "portal_departure_confirmed": [
+  "Jaden Kelly"
+ ],
+ "portal_withdrawal_overrides": [
+  "Nikola Milovac",
+  "Isaac Paul"
+ ],
+ "yr4_return_overrides_documented": [
+  "Baron Hopson",
+  "Kody Jones",
+  "JaDarious Lee"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Coleman Bennett",
+  "Chase Belcher",
+  "Tylon Dunlap",
+  "Caleb Offord",
+  "Gabriel Benyard",
+  "Roderick Daniels",
+  "Adam Watkins",
+  "Milon Jones",
+  "Garland Benyard"
+ ],
+ "feed_gap_arrivals_documented": [
+  "Triston Morgan (RB; a Benedict D2 transfer, 809 yds - Athlon-named)",
+  "Latrelle Murrell (RB; a West Georgia FCS transfer, 893 yds - Athlon-named)"
+ ],
+ "known_name_exceptions": {
+  "Amari Odom": "QB, 73.0/372 - GONE (portal -> Syracuse). The star dual-threat who drove the '25 CUSA title ('it all started with Odom'); a QB swap - Syracuse's Collins comes the other way.",
+  "Rickie Collins": "QB - Syracuse transfer (orig. LSU); in an even spring battle with juco Varnes for the new starting job.",
+  "Coleman Bennett": "RB, 82.8/159 - GONE (departure_confirmed_research; yr4). The top '25 RB grade; Athlon confirms an 'all-new crew' of RBs (D2/FCS transfers).",
+  "Nikola Milovac": "OT, 50.0/1000 - RETURNS (portal_withdrawal_override). A holdover tackle (Athlon-named + bold); portal->None but WITHDREW.",
+  "Isaac Paul": "S, 62.3/756 - RETURNS (portal_withdrawal_override). Athlon: 'came back after dipping a toe in the transfer portal' - a withdrawal.",
+  "JeRico Washington Jr.": "CB, 78.9/975 - GONE (portal -> Boise State). The top DB grade; the secondary is a heavy rebuild.",
+  "Tylon Dunlap": "DI, 78.4/564 - GONE (yr4). The top DL grade; the front rebuilds around Patterson + Westmoreland + transfers.",
+  "Baron Hopson": "MLB, 67.5/765 - RETURNS (yr4 override). The team leader - 72 tkl/9 TFL; back as a grad student. The defense's anchor.",
+  "Donovan Westmoreland": "RUSH, 64.2/374 - RETURNS. A South Carolina transfer, healthy in '26 (37 tkl/4 sacks); a returning edge.",
+  "Marcus Patterson": "DE, 66.5/619 - RETURNS. A key returning defensive end."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon. VERY HIGH churn (29/19) - a near-total overhaul. The proxy is nearly ALL None (QB 9, RB/WRTE None, OL 5, DL 10, LB 11, DB 9) - accurate: 'lost pretty much their entire roster' (scout). Grade-critical departures: QB Odom (-> Syracuse), top DB Washington (78.9 -> Boise), top RB Bennett (82.8, yr4), top DL Dunlap (78.4, yr4).",
+  "10-4 in Jerry Mack's first year (now Y2, no change), WON the CUSA title (KSU's 2nd FBS year). OFF p33 (RBLK p6 dead-last run blocking), DEF p44 (PRSH p58 - tied 1st in CUSA with 31 sacks; but the run D/tackling were middling). SPEC p16 (poor).",
+  "The OFFENSE is a near-total rebuild: a NEW QB (Collins from Syracuse OR juco Varnes, even in spring) after Odom left; an ALL-NEW backfield (D2 Benedict's Morgan 809 yds + FCS West Georgia's Murrell 893 yds); a retooled WR corps (holdover Javon Rogers + transfers); an OL with 2 holdover tackles (Lee yr4-return + Milovac withdrew, both modest graders) + a MTSU-transfer C, off dead-last run blocking (RBLK p6).",
+  "The DEFENSE held SOME pieces but is also heavily rebuilt: returns DE Patterson + RUSH Westmoreland (SC transfer) + NT Grimes + MLB Hopson (yr4-return, 72 tkl/9 TFL) + S Isaac Paul (withdrew) + NB Kody Jones (yr4-return). But it LOST its top DB (Washington 78.9 -> Boise) + top DL (Dunlap 78.4, yr4) + Offord (71.8, yr4) + Daniels/Watkins (yr4) + Hill (-> K-State).",
+  "ST: a returning K (Kinney, healthy - 6/7 FG) + an ASU-transfer Australian punter (McKenzie), off a poor SPEC-p16 unit."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF105 / CUSA prediction 3 incidentally visible - logged, NOT used. G5 2-source (Athlon primary + scout; PS CUSA text garbled).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T18:08:00+00:00"
+}

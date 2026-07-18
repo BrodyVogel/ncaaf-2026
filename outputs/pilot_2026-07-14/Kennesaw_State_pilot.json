@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T18:03:39+00:00",
+ "team": "Kennesaw State",
+ "final": -8.97,
+ "rank": 103,
+ "band": 6.36,
+ "resid": 8.48,
+ "adj": 2.97,
+ "class_term": 0.0,
+ "st": -0.16,
+ "anchor_blend": -12.24,
+ "resid_level": 6.35,
+ "resid_shape": 2.12,
+ "implied_off": 23.56,
+ "implied_def": 26.82,
+ "anchor_off": 19.83,
+ "anchor_def": 31.57,
+ "fit_r2": {
+  "off": 0.536,
+  "dfn": 0.615
+ },
+ "low_conf_units": 2,
+ "code_rev": "5f6d336",
+ "mode": "PILOT-OOS"
+}

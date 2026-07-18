@@ -1,0 +1,37 @@
+{
+ "id": 338,
+ "school": "Kennesaw State",
+ "mascot": "Owls",
+ "abbreviation": "KENN",
+ "alternateNames": [
+  "Kennesaw",
+  "KENN",
+  "Kennesaw St"
+ ],
+ "conference": "Conference USA",
+ "division": null,
+ "classification": "fbs",
+ "color": "#fdbb30",
+ "alternateColor": "#000000",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/338.png"
+ ],
+ "twitter": "@KennesawStFB",
+ "location": {
+  "id": 4899,
+  "name": "Fifth Third Stadium",
+  "city": "Kennesaw",
+  "state": "GA",
+  "zip": "48187",
+  "countryCode": "US",
+  "timezone": null,
+  "latitude": 34.0289318,
+  "longitude": -84.5676234,
+  "elevation": "296.9589844",
+  "capacity": 8318,
+  "constructionYear": 2010,
+  "grass": null,
+  "dome": false
+ }
+}
