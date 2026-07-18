@@ -1,0 +1,36 @@
+{
+ "id": 87,
+ "school": "Notre Dame",
+ "mascot": "Fighting Irish",
+ "abbreviation": "ND",
+ "alternateNames": [
+  "ND",
+  "Notre Dame"
+ ],
+ "conference": "FBS Independents",
+ "division": null,
+ "classification": "fbs",
+ "color": "#0c2340",
+ "alternateColor": "#c99700",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/87.png"
+ ],
+ "twitter": "@NDFootball",
+ "location": {
+  "id": 3855,
+  "name": "Notre Dame Stadium",
+  "city": "Notre Dame",
+  "state": "IN",
+  "zip": "46556",
+  "countryCode": "US",
+  "timezone": "America/Indiana/Indianapolis",
+  "latitude": 41.698378,
+  "longitude": -86.2339425,
+  "elevation": "222.645401",
+  "capacity": 80795,
+  "constructionYear": 1930,
+  "grass": false,
+  "dome": false
+ }
+}

@@ -1,6 +1,7 @@
 team,conference,QB,RB,WRTE,OL,DL,LB,DB,ST,sum,L_count,final,rank,band,coach_change,snapshot_rev,corrections
 Ohio State,Big Ten,91,76,86,80,76,64,72,64,609,0,26.36,2,6.0,False,frozen 2026-07-16 (b0c0d89),0
 Oregon,Big Ten,89,80,80,56,90,66,74,62,597,0,24.48,5,6.0,False,frozen 2026-07-16 (236ad69),0
+Notre Dame,FBS Independents,86,66,74,78,80,76,80,62,602,0,23.57,5,6.0,False,frozen 2026-07-18T21:50:00Z (Notre Dame),0
 Indiana,Big Ten,70,62,65,74,77,77,72,65,562,0,21.65,7,6.0,False,frozen 2026-07-16 (1fd56c8),0
 Georgia,SEC,70,70,56,60,58,62,66,60,502,0,21.2,8,6.0,False,frozen 2026-07-18T03:39:34Z (31badf0),0
 Texas Tech,Big 12,50,72,62,60,65,62,70,65,506,0,17.75,10,6.0,False,frozen 2026-07-15,0

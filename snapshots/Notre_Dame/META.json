@@ -1,0 +1,51 @@
+{
+ "team": "Notre Dame",
+ "conference": "FBS Independents",
+ "created_utc": "2026-07-18T21:45:00+00:00",
+ "assembler_git_rev": "0709c3c",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Marcus Freeman (established, entering Year 5; NO change; band x1.00). 2nd-year DC Chris Ash. '25: 10-2 (0-2 start at Miami + vs Texas A&M, then won out - snubbed from the CFP at #11/one spot out). An elite, returning-heavy program on a 'Leave No Doubt' redemption tour.",
+ "conference_note": "FBS Independents. 3-SOURCE P4 build (Athlon primary + Phil Steele + Pick Six per R16). *** IND OFFSET CELL TREATED WITH JUDGMENT: the IND cell is a NOISY artifact of the weak non-ND independents (UConn/ex-UMass); Notre Dame's tape was earned against a PLAYOFF-CALIBER schedule (Pick Six/PS/Athlon all rate ND #4 nationally), so its returning production is graded at ELITE/P4 competition level - the negative IND cell is NOT applied. *** Anchor blend +27.07 (one of the best in FBS). All 3 sources pick ND top-4 (PS + Athlon pick them to win the national title/run the table).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Jason Onye"
+ ],
+ "nfl_declare_confirmed": [
+  "Jeremiyah Love",
+  "Jadarian Price",
+  "Billy Schrauth"
+ ],
+ "departure_confirmed_research": [
+  "Aamil Wagner"
+ ],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "IND_CELL_JUDGMENT": "Notre Dame's returning tape is graded at ELITE/P4 competition level, NOT discounted by the negative IND offset cell (a noisy weak-independents artifact). ND played a playoff-caliber schedule; all 3 sources rate them #4 nationally.",
+  "Marcus Freeman": "HC (established, Year 5; NO change; band x1.00).",
+  "CJ Carr": "QB, 85.1/340 - RETURNS. A Freshman All-America / Heisman candidate (2,741 yds, 24:6 TD:INT; #6 QB Rating, #3 yards/attempt). The face of the offense.",
+  "Jeremiyah Love": "RB, 93.1/222 - GONE (NFL 1st round; unanimous All-America). The elite lead back; a MAJOR personnel loss - the one unit that drops from elite to unproven.",
+  "Jadarian Price": "RB, 78.6/128 - GONE (NFL 1st round). Love's co-star; the RB room turns over to Aneyas Williams (7.6 career ypc, low volume) + Nolan James (Fr).",
+  "Aneyas Williams": "RB - the new lead back (Athlon/Pick Six; a role in the 2024 playoff run, 6 touches/game, 7.6 career ypc). Talented but unproven at volume.",
+  "Billy Schrauth": "OL, 74.9/436 - GONE (NFL draft). One of two OL starters lost; the other 3 return.",
+  "Aamil Wagner": "OL, 68.7/696 - GONE (graduated - Pick Six confirmed; feed-miss, the ledger wrongly showed RETURNS). departure_confirmed_research.",
+  "Anthonie Knapp": "OL, 70.9/688 - RETURNS. A 3rd-year starter shifting to LG; a legit All-America contender (Pick Six).",
+  "Jason Onye": "DL, 78.2/354 - RETURNS (yr4 override; Athlon + Pick Six 'Onye and Hughes return' from the tackle rotation).",
+  "Boubacar Traore": "DL/DE, 79.4/470 - RETURNS. 'Set for national acclaim' (Athlon); a future NFL end.",
+  "Leonard Moore": "CB, 91.8/632 - RETURNS. Unanimous All-America; 'arguably the best overall player in the nation' (Pick Six) - a lockdown corner.",
+  "Kyngstonn Viliamu-Asa": "LB, 89.7/435 - RETURNS. 'High NFL grades' (Pick Six); anchors a fully-returning 4-man LB core.",
+  "Eli Raridon": "TE, 67.6/216 - GONE (drafted/yr4; the latest in ND's drafted-TE streak). The 2026 TEs are Cooper Flanagan + James Flanigan + 5-star recruit Ian Premer.",
+  "Spencer Porath": "K - arrival (Purdue; 15-of-17 FG in '25). A proven-kicker UPGRADE after 2 years of ND placekicking inconsistency.",
+  "Tae Johnson": "S, 82.8/573 - RETURNS. PFF lists him as 'Brauntae Johnson'; the CFBD roster + Pick Six use 'Tae Johnson' (same player - the emergent RS-Fr who took the starting job from Stroman). One player, not two."
+ },
+ "known_gaps": [
+  "3-SOURCE P4 build (Athlon + Phil Steele + Pick Six). All 3 rate ND #4 nationally. Anchor blend +27.07. The IND offset cell is treated with JUDGMENT (not applied) - ND's tape is elite/P4-level, not weak-independent.",
+  "The ONE significant change: the RB room lost BOTH 1st-round backs (Love 93.1 + Price 78.6) to the NFL - replaced by unproven-at-volume Aneyas Williams (7.6 career ypc) + Nolan James (Fr), behind an elite OL + system (RUN p96). Everything else returns strong or reloads with 4-5 star transfers.",
+  "10-2 (elite): OVER p98, OFF p97 (PASS p93, RECV p96, RUN p96; PBLK p51/RBLK p67 - the run/pass-block percentiles understate an elite OL that graded #12 pass-pro / #31 run-push per Pick Six), DEF p97 (RDEF p95, COV p97, PRSH p87; nation's #10 scoring D, 21 INTs). SPEC p82.",
+  "Disposition: NFL declares (feed-miss, forced GONE) - Love, Price, Schrauth. Graduated (feed-miss) - Wagner. yr4-return override (source-named) - Onye. Reloaded via 4-5 star transfers: WR Graham + Porter (Ohio State), DL Brewu (Pitt, All-ACC) + Tionne Gray (Oregon) + Keeley (Alabama), CB McKinney (Colorado) + Sanders (Michigan). 10 defensive starters return."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF4 / PS #4 / Pick Six #4 incidentally visible - logged, NOT used (all pick ND top-4/national-title contender). 3-source P4 build (Athlon + Phil Steele + Pick Six).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T21:50:00+00:00"
+}

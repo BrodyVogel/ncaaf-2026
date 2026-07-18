@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Marcus",
+  "lastName": "Freeman",
+  "hireDate": "2021-12-03T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Notre Dame",
+    "year": 2024,
+    "games": 16,
+    "wins": 14,
+    "losses": 2,
+    "ties": 0,
+    "preseasonRank": 7,
+    "postseasonRank": 2,
+    "srs": 22,
+    "spOverall": 23.9,
+    "spOffense": 38.6,
+    "spDefense": 14.1
+   }
+  ]
+ },
+ {
+  "firstName": "Marcus",
+  "lastName": "Freeman",
+  "hireDate": "2021-12-03T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Notre Dame",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 24.1,
+    "spOverall": 24.4,
+    "spOffense": 40,
+    "spDefense": 16.3
+   }
+  ]
+ }
+]

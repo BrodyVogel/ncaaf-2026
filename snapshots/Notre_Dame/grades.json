@@ -1,0 +1,301 @@
+{
+ "team": "Notre Dame",
+ "units": {
+  "QB": {
+   "grade": 86,
+   "confidence": "H"
+  },
+  "RB": {
+   "grade": 66,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 74,
+   "confidence": "H"
+  },
+  "OL": {
+   "grade": 78,
+   "confidence": "H"
+  },
+  "DL": {
+   "grade": 80,
+   "confidence": "H"
+  },
+  "LB": {
+   "grade": 76,
+   "confidence": "H"
+  },
+  "DB": {
+   "grade": 80,
+   "confidence": "H"
+  },
+  "ST": {
+   "grade": 62,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18T22:05:00Z",
+  "snapshot_rev": "frozen 2026-07-18T21:50:00Z (Notre Dame)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; 3-SOURCE P4 build [Athlon primary + Phil Steele + Pick Six per R16]; FBS Independents -> *** IND OFFSET CELL TREATED WITH JUDGMENT / NOT APPLIED: the IND cell is a noisy weak-independents artifact; ND's tape was earned on a playoff-caliber schedule, graded at ELITE/P4 competition level ***; HC Marcus Freeman established Y5 [NO CHANGE, band x1.00]; disposition gate 39 rows / 0 adjudicate / 0 err; NFL-declare departures forced GONE [Jeremiyah Love RB 93.1, Jadarian Price RB 78.6, Billy Schrauth OL - all drafted]; graduation feed-miss forced GONE [Aamil Wagner OL]; yr4-return override [Onye DL, source-named]; anchor values not consulted. Calibrated against the already-graded P4 board [OSU sum 609, Oregon 597] - ND sum 602. DISCLOSED: Athlon NF4 / PS #4 / Pick Six #4 incidentally visible, logged, NOT used.",
+  "planned_vs_final_deviations": {
+   "note": "Finals match the dossier planned lines exactly (QB86/RB66/WRTE74/OL78/DL80/LB76/DB80/ST62, sum 602, 0 L). NO post-freeze corrections. The material adjudications were pre-grade: NFL-declare departures (Love, Price, Schrauth) + a graduation feed-miss (Wagner), all forced GONE - the ledger had wrongly shown them returning.",
+   "ind_cell_judgment": "The IND offset cell (QB -4.48, RB -14.11, OL -21.97, LB -10.54 ...) is a NOISY artifact of the weak non-ND independents and is NOT applied to Notre Dame - a playoff-caliber team graded at elite/P4 competition level. Applying the negative cell would wrongly discount elite ND production.",
+   "shape": "A top-4 national team (all 3 sources) calibrated just below Ohio State (609). Elite across the board - a Heisman-candidate QB (86 - Carr), an elite/deep DL (80) + secondary (80 - Moore, 'best player in the nation') + LB (76 - Viliamu-Asa) + OL (78), a deep WR corps (74). The ONE hole: the RB room (66) lost BOTH 1st-round backs (Love + Price) to the NFL - unproven Williams/James behind an elite system. 2 M units (RB, ST)."
+  },
+  "shadow_proxy_divergence": {
+   "note": "The proxy (QB 95, RB 90, WRTE None, OL 95, DL 90, LB 94, DB 91, ST 82) is HIGH across the board (an elite returning roster) - it broadly AGREES with the grades EXCEPT at RB.",
+   "RB": "-24 vs proxy 90 - CRITICAL: the proxy sees the elite 2025 RB production (Love 93.1 + Price 78.6) but does NOT know both left for the NFL 1st round; the grade (66) reflects the unproven Williams/James room.",
+   "QB": "-9 vs proxy 95 - the grade (86, elite) is calibrated to the board's QB ceiling (OSU 91) rather than the raw proxy.",
+   "note2": "All other units track the proxy (elite returning production) within the board-calibrated scale."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Notre Dame",
+   "unit": "QB",
+   "grade": 86,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "Arizona QB 2026 (88, bracket-above)",
+    "USC QB 2026 (80, bracket-below)"
+   ],
+   "rationale_bullets": [
+    "CJ Carr (85.1/340; IND cell NOT applied - graded P4-elite) - a Freshman All-America / Heisman candidate (2,741 yds, 24:6 TD:INT; #6 QB Rating, #3 yards/attempt). LOST backup Minchey (-> Kentucky).",
+    "An elite, proven returning starter - the face of a top-5 offense (OFF p97, PASS p93); 'more talented than [Mendoza]' per an opposing coach.",
+    "86: ~just below Arizona (88), above USC (80). A Heisman-candidate returning QB in an elite scheme. H."
+   ],
+   "key_players": [
+    {
+     "name": "CJ Carr",
+     "role": "QB (returning)",
+     "evidence": "85.1/340; 2,741 yds/24:6; Freshman All-America / Heisman candidate"
+    }
+   ],
+   "data_gaps": [
+    "opponent expects the offense to 'take the cuffs off' Carr"
+   ],
+   "g5_guard_note": "FBS Independent (graded P4-elite, IND cell not applied); a Heisman-candidate returning QB (Carr). H."
+  },
+  {
+   "team": "Notre Dame",
+   "unit": "RB",
+   "grade": 66,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Georgia Tech RB 2026 (66, peer)",
+    "Penn State RB 2026 (68, bracket-above)"
+   ],
+   "rationale_bullets": [
+    "LOST BOTH 1st-round backs - Jeremiyah Love (93.1, unanimous All-America, NFL) + Jadarian Price (78.6, NFL). New lead back Aneyas Williams (7.6 career ypc, ~6 touches/game in the 2024 playoff run) + Nolan James (Fr).",
+    "The ONE unit that drops from elite to unproven - talented but low-volume backs ('won't match the Love/Price explosiveness' - Athlon) behind an ELITE OL + system (RUN p96).",
+    "66: ~Georgia Tech (66) / Penn State (68). Williams' pedigree + the elite system vs zero proven FBS volume after losing two 1st-round backs. M."
+   ],
+   "key_players": [
+    {
+     "name": "Aneyas Williams",
+     "role": "RB (returning)",
+     "evidence": "the new lead back; 7.6 career ypc (small sample), a role in the 2024 playoff run"
+    },
+    {
+     "name": "Nolan James Jr.",
+     "role": "RB (returning)",
+     "evidence": "a Fr with burst + tackle-breaking ability (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "lost BOTH 1st-round backs (Love 93.1 + Price 78.6, NFL)",
+    "unproven at volume"
+   ],
+   "g5_guard_note": "FBS Independent; the RB room lost both 1st-round backs to the NFL - unproven Williams/James behind an elite system. M."
+  },
+  {
+   "team": "Notre Dame",
+   "unit": "WRTE",
+   "grade": 74,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "Miami WRTE 2026 (76, bracket-above)",
+    "USC WRTE 2026 (68, bracket-below)"
+   ],
+   "rationale_bullets": [
+    "Jordan Faison (75.7; the '25 receiving leader) + Micah Gilbert (76.6) + Jaden Greathouse (57.8, healthy, '24 title-game standout) + 5-star OSU transfers Mylan Graham (slot) + Quincy Porter + TE Cooper Flanagan + 5-star recruit Ian Premer. LOST Fields (75.8, yr4) + Pauling (67.9, yr4) + Raridon (TE, drafted).",
+    "An 'unusually high number of receivers' (Athlon) - a deep, reloaded corps (a proven WR1 + two 5-star OSU transfers + a strong TE room) off a top-5 receiving unit (RECV p96).",
+    "74: ~just below Miami (76), above USC (68). The proven WR1 + 5-star transfer depth vs the lost Fields/Pauling/Raridon. H."
+   ],
+   "key_players": [
+    {
+     "name": "Jordan Faison",
+     "role": "WR (returning)",
+     "evidence": "75.7; the 2025 receiving leader (quit lacrosse to focus on football)"
+    },
+    {
+     "name": "Mylan Graham",
+     "role": "WR (arrival, Ohio State)",
+     "evidence": "a former 5-star who will start in the slot"
+    }
+   ],
+   "data_gaps": [
+    "lost Fields (75.8) + Pauling (67.9) + TE Raridon (drafted)",
+    "a rebuilt QB->WR chemistry (2nd-year Carr)"
+   ],
+   "g5_guard_note": "FBS Independent; a deep, reloaded WR corps (Faison + 5-star OSU transfers) off a top-5 receiving unit. H."
+  },
+  {
+   "team": "Notre Dame",
+   "unit": "OL",
+   "grade": 78,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "Ohio State OL 2026 (80, bracket-above)",
+    "Cincinnati OL 2026 (76, bracket-below)"
+   ],
+   "rationale_bullets": [
+    "'ELITE AGAIN' (Pick Six; #12 pass-pro / #31 run-push) - 3 of 5 starters return: Anthonie Knapp (70.9, an All-America contender, shifts to LG) + Ashton Craig (C, recovering) + Guerby Lambert (T, rising star) + Sullivan Absher (G) + 5-star RS-Fr Will Black (won the LT job). LOST Schrauth (74.9, NFL) + Wagner (68.7, grad).",
+    "A returning-heavy, elite line under ace OL coach Joe Rudolph - 3 returning starters + a 5-star at LT; the PBLK-p51 percentile understates it (Pick Six graded it #12 in pass protection).",
+    "78: ~just below Ohio State (80), above Cincinnati (76). The 3 returning starters + the elite coaching vs the 2 draft/grad losses + a Fr LT. H."
+   ],
+   "key_players": [
+    {
+     "name": "Anthonie Knapp",
+     "role": "LG (returning)",
+     "evidence": "70.9/688; a 3rd-year starter + All-America contender at guard"
+    },
+    {
+     "name": "Will Black",
+     "role": "LT (returning)",
+     "evidence": "a former 5-star RS-Fr who won the starting LT job"
+    }
+   ],
+   "data_gaps": [
+    "lost Schrauth (NFL) + Wagner (grad)",
+    "C Craig recovering; G Jagusah's health uncertain",
+    "true-ish Fr at LT"
+   ],
+   "g5_guard_note": "FBS Independent; an elite OL (3 returning starters + a 5-star LT) under a top OL coach. H."
+  },
+  {
+   "team": "Notre Dame",
+   "unit": "DL",
+   "grade": 80,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "Oregon DL 2026 (90, bracket-above)",
+    "Indiana DL 2026 (77, bracket-below)"
+   ],
+   "rationale_bullets": [
+    "Boubacar Traore (79.4, 'set for national acclaim') + Bryce Young (72.8) at end; Jason Onye (78.2, yr4-return) + Elijah Hughes (75.5) interior - + 5-star/top-5 transfer DTs Francis Brewu (Pitt, All-ACC) + Tionne Gray (Oregon) + EDGE Keon Keeley (Alabama). LOST Burnham (74.4 -> Indiana) + some yr4 depth.",
+    "An elite, deep front - 'stout at the point of attack' (#8 rush D per Pick Six); both starting ends return + top-5 transfer DTs pack an already-loaded rotation.",
+    "80: ~2nd behind Oregon (90), above Indiana (77). Elite returning ends + interior + top-5 transfer DTs. H."
+   ],
+   "key_players": [
+    {
+     "name": "Boubacar Traore",
+     "role": "DE (returning)",
+     "evidence": "79.4/470; 'set for national acclaim' - a future NFL end"
+    },
+    {
+     "name": "Francis Brewu",
+     "role": "DT (arrival, Pittsburgh)",
+     "evidence": "All-ACC; a top-5 transfer DT"
+    }
+   ],
+   "data_gaps": [
+    "lost Burnham (-> Indiana) + some yr4 rotation depth"
+   ],
+   "g5_guard_note": "FBS Independent; an elite, deep DL (returning ends + top-5 transfer DTs) - a #8 rush defense. H."
+  },
+  {
+   "team": "Notre Dame",
+   "unit": "LB",
+   "grade": 76,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "Indiana LB 2026 (77, bracket-above)",
+    "Wisconsin LB 2026 (74, bracket-below)"
+   ],
+   "rationale_bullets": [
+    "The FULL 4-man LB core returns: Kyngstonn Viliamu-Asa (89.7, 'high NFL grades') + Drayk Bowen (70.7, team captain) + Jaiden Ausberry (64.2) + Jaylen Sneed (69.7) - all top-6 in team TFL. LOST Sacca (-> UCLA) + Kahoun (-> BC).",
+    "A fully-returning, elite LB corps anchored by an NFL-grade star (Viliamu-Asa) + a captain (Bowen) - a top-tier unit on a #6 defense.",
+    "76: ~Indiana (77) / Wisconsin (74). The full elite core returns vs the depth losses. H."
+   ],
+   "key_players": [
+    {
+     "name": "Kyngstonn Viliamu-Asa",
+     "role": "LB (returning)",
+     "evidence": "89.7/435; 'high NFL grades' - an elite anchor"
+    },
+    {
+     "name": "Drayk Bowen",
+     "role": "LB (returning)",
+     "evidence": "70.7/585; a team captain - the full 4-man core returns"
+    }
+   ],
+   "data_gaps": [
+    "lost depth (Sacca -> UCLA, Kahoun -> BC)"
+   ],
+   "g5_guard_note": "FBS Independent; a fully-returning elite LB core (Viliamu-Asa + Bowen). H."
+  },
+  {
+   "team": "Notre Dame",
+   "unit": "DB",
+   "grade": 80,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "Iowa DB 2026 (80, peer)",
+    "Alabama DB 2026 (76, bracket-below)"
+   ],
+   "rationale_bullets": [
+    "Leonard Moore (91.8, unanimous All-America - 'arguably the best overall player in the nation') + Tae Johnson (82.8/573, emergent RS-Fr; PFF 'Brauntae Johnson') + Adon Shuler (75.7, 27 career starts) + Luke Talich (78.6) + NB Christian Gray + transfers DJ McKinney (Colorado) + Jayden Sanders (Michigan). #3 pass D nationally; 21 INTs (4th).",
+    "An elite secondary led by the best CB in the country (Moore) + a deep, experienced cast - a #3 pass defense that reloads its 2nd-corner spot with former top-200 recruits.",
+    "80: ~Iowa (80, the board's top), above Alabama (76). Moore + the elite depth vs some CB/S depth losses. H."
+   ],
+   "key_players": [
+    {
+     "name": "Leonard Moore",
+     "role": "CB (returning)",
+     "evidence": "91.8/632; unanimous All-America - 'arguably the best overall player in the nation'"
+    },
+    {
+     "name": "Tae Johnson",
+     "role": "S (returning)",
+     "evidence": "82.8/573 (PFF lists him 'Brauntae Johnson'); the emergent RS-Fr S who took the starting job from Stroman"
+    }
+   ],
+   "data_gaps": [
+    "some CB/S depth turnover (Blair, Minich, Tucker, Cree Thomas)",
+    "a new 2nd-corner battle"
+   ],
+   "g5_guard_note": "FBS Independent; an elite secondary - the nation's best CB (Moore) + a deep #3-pass-defense cast. H."
+  },
+  {
+   "team": "Notre Dame",
+   "unit": "ST",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Oregon ST 2026 (62, peer)",
+    "Utah ST 2026 (62, peer)"
+   ],
+   "rationale_bullets": [
+    "K Spencer Porath (Purdue transfer, 15-of-17 FG in '25 - a proven-K UPGRADE after 2 years of ND placekicking inconsistency) + Australian Fr P Jasper Scaife + a return game. SPEC was p82.",
+    "A strong '25 special-teams unit (SPEC p82) + a proven transfer kicker - but a new (Fr) punter.",
+    "62: ~Oregon/Utah ST 62 (near the board's ST ceiling of 66). The p82 base + the proven transfer K vs the new punter. M."
+   ],
+   "key_players": [
+    {
+     "name": "Spencer Porath",
+     "role": "K (arrival, Purdue)",
+     "evidence": "15-of-17 FG in 2025 - a proven-kicker upgrade"
+    }
+   ],
+   "data_gaps": [
+    "new (Fr) punter",
+    "new placekicker (though a proven transfer)"
+   ],
+   "g5_guard_note": "FBS Independent; a strong ST unit (SPEC p82) upgraded at kicker (Porath), new at punter. M."
+  }
+ ]
+}

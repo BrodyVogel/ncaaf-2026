@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T22:35:16+00:00",
+ "team": "Notre Dame",
+ "final": 23.57,
+ "rank": 5,
+ "band": 6.0,
+ "resid": -12.19,
+ "adj": -4.27,
+ "class_term": -0.0,
+ "st": 0.24,
+ "anchor_blend": 27.07,
+ "resid_level": -14.54,
+ "resid_shape": 2.35,
+ "implied_off": 33.11,
+ "implied_def": 18.42,
+ "anchor_off": 40.84,
+ "anchor_def": 13.96,
+ "fit_r2": {
+  "off": 0.524,
+  "dfn": 0.607
+ },
+ "low_conf_units": 0,
+ "code_rev": "0709c3c",
+ "mode": "PILOT-OOS"
+}

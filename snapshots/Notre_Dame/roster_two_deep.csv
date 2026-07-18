@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,CJ Carr,QB,SO,returning,Athlon+PickSix,feed,H,85.1/340 (IND-cell NOT applied; graded P4-elite). Freshman All-America / Heisman candidate - 2741 yds, 24:6 TD:INT, #6 QB Rating. LOST backup Minchey (->Kentucky)
+QB,2,Noah Grubbs,QB,FR,returning,Athlon,feed,H,the Athlon-named backup. OFF was p97 (an elite offense)
+RB,1,Aneyas Williams,RB,JR,returning,Athlon+PickSix,feed,M,the new lead back (7.6 career ypc, ~6 touches/game in the 2024 playoff run) - talented but UNPROVEN at volume. LOST BOTH 1st-round backs Jeremiyah Love (93.1 NFL) + Jadarian Price (78.6 NFL)
+RB,2,Nolan James Jr.,RB,FR,returning,Athlon,feed,M,"burst + tackle-breaking ability" (Athlon) but unproven. Behind an elite OL + system (RUN p96)
+WRTE,1,Jordan Faison,WR,SR,returning,Athlon+PickSix,feed,H,75.7/279 (the 2025 receiving leader; quit lacrosse to focus on football). "Unusually high number of receivers" (Athlon)
+WRTE,2,Micah Gilbert,WR,SO,returning,Athlon+PickSix,feed,H,76.6 (ret) + Jaden Greathouse (57.8, healthy, '24 title-game standout) + 5-star OSU transfers Mylan Graham (slot) + Quincy Porter + TE Cooper Flanagan + 5-star recruit Ian Premer. LOST Fields (75.8 yr4) + Pauling (67.9 yr4) + Raridon (TE, drafted)
+OL,1,Anthonie Knapp,LG,JR,returning,Athlon+PickSix,feed,H,70.9/688 (3rd-year starter, shifts to LG; "a legit All-America contender at guard" - Pick Six). "Elite again" (Pick Six; ace OL coach Joe Rudolph)
+OL,2,Ashton Craig,C,SR,returning,Athlon+PickSix,feed,H,64.6/352 (recovering from injury) + RT Guerby Lambert (So, rising star) + RG Sullivan Absher + LT Will Black (5-star RS-Fr, won the job) + Charles Jagusah (inj). LOST Schrauth (74.9 NFL) + Wagner (68.7 grad). 3 starters return
+DL,1,Boubacar Traore,DE,JR,returning,Athlon+PickSix,feed,H,79.4/470 ("set for national acclaim"; a future NFL end) + DE Bryce Young (72.8, former 5-star)
+DL,2,Francis Brewu,DT,JR,arrival(Pittsburgh-ACC),Athlon+PickSix,feed,H,78.4 (All-ACC, a top-5 transfer DT) + Tionne Gray (Oregon, top-5 transfer DT) + Jason Onye (78.2, yr4-return) + Elijah Hughes (75.5, ret) + Keon Keeley (Alabama 5-star). "10 defensive starters return + 5 four-star transfers" (Pick Six). LOST Burnham (->Indiana)
+LB,1,Kyngstonn Viliamu-Asa,LB,JR,returning,Athlon+PickSix,feed,H,89.7/435 ("high NFL grades" - Pick Six). The full 4-man LB core returns (all top-6 in team TFL)
+LB,2,Drayk Bowen,LB,SR,returning,Athlon+PickSix,feed,H,70.7/585 (a team captain) + Jaiden Ausberry (64.2, ret) + Jaylen Sneed (69.7, ret). LOST Sacca (->UCLA) + Kahoun (->BC)
+DB,1,Leonard Moore,CB,JR,returning,Athlon+PickSix,feed,H,91.8/632 (unanimous All-America; "arguably the best overall player in the nation" - Pick Six). A lockdown corner
+DB,2,Tae Johnson,S,JR,returning,Athlon+PickSix,feed,H,82.8/573 (ret) + S Adon Shuler (75.7, 27 career starts) + S Luke Talich (78.6) + NB Christian Gray + transfers DJ McKinney (Colorado) + Jayden Sanders (Michigan). #3 pass D nationally; 21 INTs. LOST some CB/S depth (Blair, Minich, Tucker, Cree Thomas)
+ST,1,Spencer Porath,K,SR,arrival(Purdue-B10),Athlon+PickSix,feed,M,a proven-K UPGRADE (Purdue transfer, 15-of-17 FG in '25) after 2 yrs of ND placekicking inconsistency. SPEC was p82
+ST,2,Jasper Scaife,P,FR,returning,Athlon,feed,M,Australian Fr punter + a good return game. New specialists but the K is a proven transfer

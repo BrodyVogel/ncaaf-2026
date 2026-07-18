@@ -1,0 +1,86 @@
+[
+ {
+  "season": 2026,
+  "firstName": "DJ",
+  "lastName": "McKinney",
+  "position": "CB",
+  "origin": "Colorado",
+  "destination": "Notre Dame",
+  "transferDate": "2026-01-09T20:28:00.000Z",
+  "rating": 0.91,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Mylan",
+  "lastName": "Graham",
+  "position": "WR",
+  "origin": "Ohio State",
+  "destination": "Notre Dame",
+  "transferDate": "2026-01-13T23:25:00.000Z",
+  "rating": 0.91,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Francis",
+  "lastName": "Brewu",
+  "position": "DL",
+  "origin": "Pittsburgh",
+  "destination": "Notre Dame",
+  "transferDate": "2026-01-13T21:45:00.000Z",
+  "rating": 0.94,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Jayden",
+  "lastName": "Sanders",
+  "position": "CB",
+  "origin": "Michigan",
+  "destination": "Notre Dame",
+  "transferDate": "2026-01-12T17:05:00.000Z",
+  "rating": 0.92,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Keon",
+  "lastName": "Keeley",
+  "position": "DL",
+  "origin": "Alabama",
+  "destination": "Notre Dame",
+  "transferDate": "2026-01-12T16:01:00.000Z",
+  "rating": 0.93,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Quincy",
+  "lastName": "Porter",
+  "position": "WR",
+  "origin": "Ohio State",
+  "destination": "Notre Dame",
+  "transferDate": "2026-01-12T15:45:00.000Z",
+  "rating": 0.94,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Tionne",
+  "lastName": "Gray",
+  "position": "DL",
+  "origin": "Oregon",
+  "destination": "Notre Dame",
+  "transferDate": "2026-01-15T15:25:19.000Z",
+  "rating": 0.94,
+  "stars": 4,
+  "eligibility": "Immediate"
+ }
+]
