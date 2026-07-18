@@ -1,0 +1,150 @@
+{
+ "team": "Louisville",
+ "units": {
+  "QB": {"grade": 46, "confidence": "L"},
+  "RB": {"grade": 72, "confidence": "H"},
+  "WRTE": {"grade": 48, "confidence": "M"},
+  "OL": {"grade": 50, "confidence": "M"},
+  "DL": {"grade": 62, "confidence": "M"},
+  "LB": {"grade": 50, "confidence": "M"},
+  "DB": {"grade": 52, "confidence": "M"},
+  "ST": {"grade": 44, "confidence": "L"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18 (7ef9e64)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape, arrivals on origin cells [SEC/B10 small-sample+inflated arrivals weighted down]; HC Brohm no change, OL coach loss noted; disposition gate resolved - Brohm reload [33 in/39 out], 4 withdrawals RETAINED + Kurisky-to-Duke catch adjudicated vs both charts); anchor values not consulted",
+  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 46/RB 72/WRTE 48/OL 50/DL 62/LB 50/DB 52/ST 44)."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB None, WRTE 75, OL 54, DL 90, LB None, DB 63, ST 47) keys as-played 2025 tape; the 2026 team reloaded ~18 yr4 producers via 33 transfers.",
+   "DL": "-28 vs proxy 90 - proxy keys the elite '25 front (PRSH p99) incl the interior (Konga/Guerad/Bailey, all gone); the grade keeps the elite EDGE (Lubin+Green+Thompson) but the interior is rebuilt/weak ('weaker inside').",
+   "WRTE": "-27 vs proxy 75 - proxy keys the '25 room incl the top-3 targets (Bell/Lacy/Collins, all gone); the grade keys the transfer reload (Richardson/McCoy/Foley) + a weak returning WR.",
+   "DB": "-11 vs proxy 63 - proxy keys the returning-tape DBs; the grade accounts for 3 lost starters, floored by the transfer haul (Entringer) + returning Holloway.",
+   "RB": "H vs proxy None - proxy flagged Isaac Brown (portal scare); the grade credits the RETAINED All-ACC duo (Isaac+Keyjuan Brown).",
+   "QB/LB": "proxy None - QB (Moss gone, Kienholz unproven), LB (TJ Quinn gone, churn); grades key the projections/returners."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Louisville", "unit": "QB", "grade": 46, "confidence": "L",
+   "bracketing_exemplars": ["Georgia Tech QB 2026 (46, round peer - unproven transfer)", "Boston College QB 2026 (40, below)"],
+   "rationale_bullets": [
+    "Lincoln Kienholz (Ohio State transfer, 86.8/17 TINY sample -> B10 +0.55, weighted DOWN HARD) - only 7 appearances in 3 years at OSU; mobile run threat; FCS Wydner competes.",
+    "Miller Moss ('25 starter, 68.2/438) GONE (yr4). Brohm: 'ton of talent, just doesn't have the game experience.'",
+    "A near-zero-track-record projection with bust risk but Brohm-QB-developer upside + mobility (fits the run-heavy system).",
+    "46: ~Georgia Tech QB 46 (both unproven transfers); Brohm's record + mobility hold it despite less experience than Mendoza. L."
+   ],
+   "key_players": [
+    {"name": "Lincoln Kienholz", "role": "QB1 (transfer, Ohio State)", "evidence": "86.8/17 tiny sample; 7 career apps; mobile; 'ton of talent no experience'"}
+   ],
+   "data_gaps": ["17-snap sample; 7 career apps", "new-to-Louisville; unproven as a starter"], "g5_guard_note": null
+  },
+  {
+   "team": "Louisville", "unit": "RB", "grade": 72, "confidence": "H",
+   "bracketing_exemplars": ["Georgia Tech RB 2026 (66, below - one elite back)", "SEC/ACC elite-backfield tier"],
+   "rationale_bullets": [
+    "Isaac Brown (All-ACC, RETAINED after portal scare, 81.6/100 -> ACC +4.90 -> 86.5 adj; 864 yds/8.8 despite missing 4 gm; 1,173 as a frosh) + Keyjuan Brown (87.7/96 -> 92.6 adj; 704 yds/7.3).",
+    "+ Marquise Davis (Missouri). PS 'top three all return'; #3-rated RB corps; Brohm 'leaning on Brown.'",
+    "One of the best backfields in the country - two All-ACC-caliber backs with elite adjusted grades. Top-2 adj ~89 -> RB p74+.",
+    "72: well above GT RB 66 (two elite backs vs one); tempered by injury-shortened samples + a rebuilt OL. H."
+   ],
+   "key_players": [
+    {"name": "Isaac Brown", "role": "RB1 (returning, All-ACC)", "evidence": "81.6/100 (86.5 ACC-adj); 864 yds/8.8; retained after portal scare"},
+    {"name": "Keyjuan Brown", "role": "RB2 (returning)", "evidence": "87.7/96 (92.6 adj); 704 yds/7.3"}
+   ],
+   "data_gaps": ["injury-shortened samples (both missed games)", "rebuilt OL in front"], "g5_guard_note": null
+  },
+  {
+   "team": "Louisville", "unit": "WRTE", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Georgia Tech WRTE 2026 (38, below - gutted)", "California WRTE 2026 (54, above)"],
+   "rationale_bullets": [
+    "Transfer RELOAD: Tre Richardson (Vanderbilt, 75.9/335 -> SEC weighted down ~78 - a real starter) + Lawayne McCoy (FSU, 70.0/265 -> 72.4 adj) + TE Brody Foley (Tulsa, 73.0 adj).",
+    "+ TreyShun Hurry (returning, 50.4/172 - weak, WITHDREW) + Skinner/Voth. Lost top-3 targets: Chris Bell (81.8, 1013 yds), Lacy, Collins (all yr4).",
+    "Better-stocked than a gutting - 3 decent transfer options, but nothing proven-together and a weak returning WR. Athlon 'rebuilding at WR.'",
+    "48: above GT WRTE 38 (reloaded with FBS bodies); below proven units. M."
+   ],
+   "key_players": [
+    {"name": "Tre Richardson", "role": "WR (transfer, Vanderbilt)", "evidence": "75.9/335 (SEC weighted down ~78); Vandy starting WR"},
+    {"name": "Brody Foley", "role": "TE (transfer, Tulsa)", "evidence": "72.5/266 (73.0 AAC-adj); 528 yds"}
+   ],
+   "data_gaps": ["top-3 WRs gone; nothing proven-together", "top returning WR (Hurry) weak"], "g5_guard_note": null
+  },
+  {
+   "team": "Louisville", "unit": "OL", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["Georgia Tech OL 2026 (48, round peer)", "Florida State OL 2026 (40, below)"],
+   "rationale_bullets": [
+    "Lance Robinson (RG, returning, 70.0/817 -> 73.5 adj, yr4 override - lone returning starter) + 4 transfers: O'neal (Delaware 1st-yr-FBS, 910 snaps low level), Daugherty (BC, 71.3 adj), Wibberley (Kentucky C), Cason Henry (S Carolina).",
+    "Lost Nygra + R.Miller + Moussa + Sylvester (yr4) AND OL coach Owens (to Alabama - 'big loss').",
+    "Experienced transfer bodies + 1 good returner, but a new line under a new position coach (integration risk). PS 'typical Brohm L'ville Oline.'",
+    "50: ~GT OL 48, slightly above (more experienced transfers), tempered by the coach loss. M."
+   ],
+   "key_players": [
+    {"name": "Lance Robinson", "role": "RG (returning)", "evidence": "70.0/817 (73.5 ACC-adj); 3rd-tm ACC; lone returning starter"},
+    {"name": "Eryx Daugherty", "role": "LG (transfer, Boston College)", "evidence": "67.8/646 (71.3 ACC-adj)"}
+   ],
+   "data_gaps": ["4 new starters; lost OL coach", "O'neal's tape is Delaware 1st-yr-FBS level"], "g5_guard_note": null
+  },
+  {
+   "team": "Louisville", "unit": "DL", "grade": 62, "confidence": "M",
+   "bracketing_exemplars": ["Clemson DL 2026 (round context - strong)", "Georgia Tech DL 2026 (40, well below)"],
+   "rationale_bullets": [
+    "ELITE edge: Clev Lubin (All-ACC, 91.4/597 -> 92.6 adj; 8.5 sk) + AJ Green (returning, 81.6 adj, WITHDREW) + Tyler Thompson (UNC, 82.7 adj).",
+    "Rebuilt interior with transfers: Demeco Kennedy (Purdue, 55.2 weak base), Joshua Donald (Houston), Daylen Russell (Miami). Lost interior Konga (86.4) + Guerad (79.1) + Bailey (77.0) (yr4).",
+    "A genuinely elite edge (Lubin among the best in the country) anchors a strong pass rush (PRSH p99 in '25); the interior is rebuilt/weak - Brohm 'stronger outside, weaker inside.'",
+    "62: far above GT DL 40; the weak interior caps it below elite. M."
+   ],
+   "key_players": [
+    {"name": "Clev Lubin", "role": "DE (returning, All-ACC)", "evidence": "91.4/597 (92.6 ACC-adj); 8.5 sk; elite edge"},
+    {"name": "Tyler Thompson", "role": "DE (transfer, North Carolina)", "evidence": "81.5/291 (82.7 ACC-adj)"}
+   ],
+   "data_gaps": ["interior rebuilt (Konga/Guerad/Bailey gone)", "'weaker inside' per Brohm"], "g5_guard_note": null
+  },
+  {
+   "team": "Louisville", "unit": "LB", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["Georgia Tech LB 2026 (50, round peer)", "Florida State LB 2026 (48, below)"],
+   "rationale_bullets": [
+    "Antonio Watts (returning, 76.8/618 -> 78.9 adj, WITHDREW; S/LB hybrid) + T.J. Capers (68.7/387 -> 70.8 adj) + Stanquan Clark (2024 #2 tackler, back from injury) + Ben Perry (UCLA).",
+    "Lost TJ Quinn (71.4/730, yr4 - 3x team tackle leader).",
+    "A solid returning-plus-withdrawal core (Watts good) but loses the 3x leader. PS 'solid unit in the frontline but not great depth.'",
+    "50: ~GT LB 50 (Watts' grade a plus, Quinn's loss a minus). M."
+   ],
+   "key_players": [
+    {"name": "Antonio Watts", "role": "LB (returning, withdrawal)", "evidence": "76.8/618 (78.9 ACC-adj); S/LB hybrid"},
+    {"name": "T.J. Capers", "role": "LB (returning)", "evidence": "68.7/387 (70.8 adj)"}
+   ],
+   "data_gaps": ["lost 3x tackle leader Quinn", "depth thin"], "g5_guard_note": null
+  },
+  {
+   "team": "Louisville", "unit": "DB", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Georgia Tech DB 2026 (48, below)", "California DB 2026 (48, below)"],
+   "rationale_bullets": [
+    "Tayon Holloway (returning CB, 72.4/765 -> 73.6 adj; 2 INT/5 PBU) + a transfer HAUL: Koen Entringer (Iowa S, 'captain, 73 tkl' - rare Iowa get) + Kaleb Beasley (Tennessee S) + TJ Banks (Ole Miss S) + Waller (Kentucky CB) + Wilson (Texas CB).",
+    "Lost Mack (72.5), Hutchinson (75.2), JoJo Evans (66.6) - 3 starters (yr4).",
+    "3 starters gone but a talented P4 transfer reload + a proven returning CB. COV p84 in '25. Integration is the question.",
+    "52: above GT DB 48 (better transfer haul + Holloway). M."
+   ],
+   "key_players": [
+    {"name": "Tayon Holloway", "role": "CB (returning)", "evidence": "72.4/765 (73.6 ACC-adj); 2 INT/5 PBU"},
+    {"name": "Koen Entringer", "role": "S (transfer, Iowa)", "evidence": "65.7/697; Iowa captain, 73 tkl - rare Iowa portal get"}
+   ],
+   "data_gaps": ["3 starters lost", "secondary heavily new; integration"], "g5_guard_note": null
+  },
+  {
+   "team": "Louisville", "unit": "ST", "grade": 44, "confidence": "L",
+   "bracketing_exemplars": ["Florida State ST 2026 (44, round peer)", "Georgia Tech ST 2026 (62, well above)"],
+   "rationale_bullets": [
+    "K competition (Carson Hilbert Fr vs Nick Keller) - UNSETTLED. P Jacob Baker (FCS Eastern Kentucky, new).",
+    "Returners Tre Richardson + Voth (experience). SPEC p47 in '25 (middling). Lost K Ranvier (-> Tennessee) + both punters.",
+    "An unsettled placekicker + new punter + decent returners. ST driven by specialists (calib) - the K battle floors it.",
+    "44: well below GT ST 62 (no proven kicker); ~FSU ST 44. L."
+   ],
+   "key_players": [
+    {"name": "Carson Hilbert", "role": "K (competing, Fr)", "evidence": "unsettled K battle vs Nick Keller"},
+    {"name": "Tre Richardson", "role": "KR (transfer, Vanderbilt)", "evidence": "return experience"}
+   ],
+   "data_gaps": ["unsettled placekicker", "new punter (FCS)"], "g5_guard_note": null
+  }
+ ]
+}

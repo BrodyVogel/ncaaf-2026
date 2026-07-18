@@ -129,4 +129,4 @@ GT ST 62 (no proven kicker). L.
   (rebuilt), secondary (transfer haul). ST unsettled.
 - Confidence: 2 L-units (QB unproven; ST K battle), 1 H (RB - proven All-ACC). Coach x1.00.
 
-PLANNED GRADES: QB 46 L | RB 72 H | WRTE 48 | OL 50 | DL 62 | LB 50 | DB 52 | ST 44 L
+PLANNED GRADES: QB 46 L | RB 72 | WRTE 48 | OL 50 | DL 62 | LB 50 | DB 52 | ST 44 L
