@@ -1,0 +1,40 @@
+{
+ "team": "Miami",
+ "conference": "ACC",
+ "created_utc": "2026-07-18T00:03:35+00:00",
+ "assembler_git_rev": "1b03056",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Mario Cristobal - Athlon 'Record at School: 35-19 (4 years); Career 97-79'; PS '5th Year Here / 16th Overall.' NO change (band x1.00). OC Shannon Dawson returns; DC Corey Hetherman (2nd yr). Verified BOTH sources.",
+ "conference_note": "ACC (P4). R14: ACC cells POSITIVE on returning tape; arrivals on origin cells. Arrivals: Darian Mensah Duke/ACC (+2.08 QB - PROVEN, 34 TD), Cooper Barkate Duke/ACC (+2.36 WRTE - 1106 yds), Cam Vaughn West Virginia/B12 (+3.38 WRTE), Vandrevius Jacobs South Carolina/SEC (+5.94 weighted down); Jamal Meriweather Georgia/SEC (+13.45 OL tiny sample weighted DOWN); Damon Wilson II Missouri/SEC (+7.87 DL weighted down - 9 sacks), Keona Davis Nebraska/B10 (+10.38 DL weighted DOWN), Jarquez Carter Ohio State/B10 (DL tiny); Omar Thornton Boston College/ACC (+1.18 DB - 82 tkl), Conrad Hussey Oregon State/PAC-remnant (FLAG - pending owner PAC-cell decision); Jack Olsen Northwestern/B10 (K), Jake Weinberg Florida State/ACC (KO specialist).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": ["Mohamed Toure", "Ryan Rodriguez", "Chase Smith"],
+ "nfl_declare_confirmed": ["Rueben Bain Jr.", "Francis Mauigoa"],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Rueben Bain Jr.": "DE, 92.8/897 (ELITE edge) - GONE, NFL DECLARE (junior, not on yr4 list). Athlon 'key losses... Bain'; PS 'Bain (#1 DC TB, 9.5 sk)' = 1st-round declare. nfl_declare_confirmed. VERIFIED BOTH.",
+  "Francis Mauigoa": "OT, 82.6/1034 (star RT) - GONE, NFL DECLARE (junior, not on yr4 list). Athlon 'loses four starters incl RT Mauigoa'; PS 'Mauigoa (#1 DC NYG)' = 1st-round declare. nfl_declare_confirmed. VERIFIED BOTH.",
+  "Akheem Mesidor": "DE, 92.5/827 (elite edge) - GONE (yr4 AND PS #1 DC declare). EXPIRED(yr4).",
+  "Keionte Scott": "CB, 89.6/756 (elite) - GONE (yr4 AND PS #4 DC TB declare). EXPIRED(yr4).",
+  "Jakobe Thomas": "S, 87.3/774 (elite) - GONE (yr4 AND PS #3 DC MIN declare). EXPIRED(yr4).",
+  "Carson Beck": "QB, 73.6/548 (the '25 starter, led Miami to title game) - GONE (yr4). Duke transfer Mensah replaces (an upgrade). EXPIRED(yr4).",
+  "Wesley Bissainthe": "LB, 64.7/625 (starter) - GONE (yr4). PS 'lose Bissainthe (#3 tklr)'; Athlon omits. EXPIRED(yr4). VERIFIED BOTH.",
+  "Mohamed Toure": "LB, 60.5/674 (84 tkl) - RETURNS, 'granted an extra year' (PS) + Athlon bold ILB. yr4_return_override. The lone proven returning LB. VERIFIED BOTH.",
+  "Ryan Rodriguez": "OL C, 72.6/93 (oft-injured) - RETURNS (yr4). Both list as projected C. yr4_return_override.",
+  "Chase Smith": "LB, 62.7/265 (yr4) - RETURNS as depth (Athlon 'Chase Smith... need to step up'). yr4_return_override.",
+  "Malachi Toney": "WR, 87.6/486 (1,211 yds, 10 TD) - RETURNS (So). The elite slot; team's top playmaker.",
+  "Mark Fletcher Jr.": "RB, 86.7/217 (1,192 yds, 12 TD) - RETURNS. Proven lead back.",
+  "Popo Aguirre": "LB, 63.1/304 - NAME-COLLISION CATCH: ledger auto-classes 'Popo Aguirre' as RETURNS, but 'Popo' is the nickname for Raul Aguirre Jr., who the portal feed shows -> NC State. Same person, GONE (feed-miss on the nickname). Correctly excluded from the two-deep; a Bam-Crouch/Rogers-class collision. -> NC State FWD FLAG."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts. Moderate churn (13 in / 19 out) + heavy NFL/yr4 losses of NFL-caliber talent.",
+  "13-3 (6-2 ACC) in '25 - a national-title-game team. ELITE across the board in '25 (OFF p96, PBLK p100, DEF p98, PRSH p100). 2026: loaded perimeter (proven QB Mensah, RB Fletcher, elite WRs Toney+Barkate) but real TRENCH questions.",
+  "OL loses 4 starters (Mauigoa NFL, Bell yr4, Brockermeyer yr4, Cooper yr4/NFL) from a p100 unit - lone returning starter McCoy + blue-chip replacements (true-fr #1 recruit Cantwell, former-5-star Okunlola) + Ga transfer Meriweather. THE swing.",
+  "DL loses elite edges Bain (NFL #1) + Mesidor (NFL/yr4) but adds Missouri's Damon Wilson (9 sk) + returns Moten/Scott/Lightfoot. DB loses elite Scott + Thomas (both NFL/yr4) but returns 4 corners + Poyser + Fitzgerald (6 INTs) + BC's Thornton. LB thin (Bissainthe gone; Toure back on an extra year). Conrad Hussey (Oregon State) = PAC-remnant arrival, FLAGGED for pending owner PAC-cell decision (immaterial - deep DB)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T00:25:00Z"
+}

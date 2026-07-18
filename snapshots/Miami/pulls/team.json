@@ -1,0 +1,37 @@
+{
+ "id": 2390,
+ "school": "Miami",
+ "mascot": "Hurricanes",
+ "abbreviation": "MIA",
+ "alternateNames": [
+  "Miami (FL)",
+  "MIA",
+  "Miami"
+ ],
+ "conference": "ACC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#005030",
+ "alternateColor": "#f47321",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2390.png"
+ ],
+ "twitter": "@CanesFootball",
+ "location": {
+  "id": 3948,
+  "name": "Hard Rock Stadium",
+  "city": "Miami Gardens",
+  "state": "FL",
+  "zip": "33299",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 25.9579665,
+  "longitude": -80.2388604,
+  "elevation": "2.624486446",
+  "capacity": 64767,
+  "constructionYear": 1987,
+  "grass": false,
+  "dome": false
+ }
+}

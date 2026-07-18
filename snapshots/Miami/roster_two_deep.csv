@@ -1,0 +1,40 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Darian Mensah,QB,JR,transfer:Duke,Athlon,PS,H,84.1/588 (ACC +2.08 -> 86.2 adj); 34 TD/6 INT; PROVEN; [FWD FLAG from Duke closed]
+QB,2,Luke Nickel,QB,FR,returning,Athlon,PS,L,backup
+RB,1,Mark Fletcher Jr.,RB,SR,returning,Athlon,PS,H,86.7/217 (ACC +4.90 -> 91.6 adj); 1192 yds/12 TD
+RB,2,CharMar Brown,RB,JR,returning,Athlon,PS,M,80.9/122 (ACC +4.90 -> 85.8 adj)
+RB,3,Girard Pringle Jr.,RB,SO,returning,Athlon,PS,L,74.8/62; depth
+WRTE,1,Malachi Toney,WR,SO,returning,Athlon,PS,H,87.6/486 (ACC +2.36 -> 90.0 adj); 1211 yds/10 TD; elite slot
+WRTE,2,Cooper Barkate,WR,SR,transfer:Duke,Athlon,PS,H,75.4/470 (ACC +2.36 -> 77.8 adj); 1106 yds; [FWD FLAG from Duke closed]
+WRTE,3,Cam Vaughn,WR,JR,transfer:West Virginia,Athlon,PS,M,66.7/311 (B12 +3.38 -> 70.1 adj)
+WRTE,4,Vandrevius Jacobs,WR,JR,transfer:South Carolina,Athlon,PS,L,66.9/295 (SEC +5.94 -> weighted DOWN)
+WRTE,5,Elija Lofton,TE,JR,returning,Athlon,PS,M,61.4/185 (63.8 adj); TE1
+WRTE,6,Joshua Moore,WR,SO,returning,Athlon,PS,L,66.9/129 depth
+OL,1,Matthew McCoy,OT,SR,returning,Athlon,PS,M,66.5/605 (ACC +3.54 -> 70.0 adj); LONE returning starter; 5-pos value
+OL,2,Jamal Meriweather,G,JR,transfer:Georgia,Athlon,PS,L,56.7/56 tiny (SEC); LG
+OL,3,Ryan Rodriguez,C,SR,returning,Athlon,PS,L,72.6/93 (yr4_return_override); oft-injured C
+OL,4,Samson Okunlola,G,JR,returning,Athlon,PS,L,69.0/493 (ACC +3.54 -> 72.5 adj); former 5-star; RG
+OL,5,Jackson Cantwell,OT,FR,returning,Athlon,PS,L,true frosh; #1 recruit; RT projected
+OL,6,Max Buchanan,G,SO,returning,Athlon,PS,L,depth
+DL,1,Damon Wilson II,ED,SR,transfer:Missouri,Athlon,PS,H,78.5/509 (SEC +7.87 -> weighted DOWN ~82); 9 sacks
+DL,2,Ahmad Moten Sr.,DT,SR,returning,Athlon,PS,M,77.6/471 (ACC +1.19 -> 78.8 adj); 4.5 sk; bold
+DL,3,Justin Scott,DT,JR,returning,Athlon,PS,M,74.1/505 (ACC +1.19 -> 75.3 adj); 6.5 TFL; bold
+DL,4,Marquise Lightfoot,ED,JR,returning,Athlon,PS,M,71.7/292 (ACC +1.19 -> 72.9 adj); 2.5 sk
+DL,5,Armondo Blount,DI,JR,returning,Athlon,PS,M,61.5/401 (62.7 adj); 2.5 sk
+DL,6,Keona Davis,DT,JR,transfer:Nebraska,Athlon,PS,L,64.1/406 (B10 +10.38 -> weighted DOWN); NT
+DL,7,Jarquez Carter,DT,SO,transfer:Ohio State,Athlon,PS,L,63.5/51 tiny (B10); depth
+LB,1,Mohamed Toure,LB,SR,returning,Athlon,PS,M,60.5/674 (ACC +2.13 -> 62.6 adj); yr4_return_override; 84 tkl; "granted extra year"
+LB,2,Kamal Bonner,LB,JR,transfer:NC State,Athlon,PS,L,66.6/30 tiny (ACC); OLB; "need to step up"
+LB,3,Chase Smith,LB,SR,returning,Athlon,PS,L,62.7/265 (yr4_return_override); depth
+LB,4,Cam Pruitt,LB,JR,returning,Athlon,PS,L,51.9/57 depth
+DB,1,Xavier Lucas,CB,JR,returning,Athlon,PS,M,73.6/649 (ACC +1.18 -> 74.8 adj); 45 tkl/INT; bold
+DB,2,Ethan O'Connor,CB,JR,returning,Athlon,PS,M,75.6/633 (ACC +1.18 -> 76.8 adj)
+DB,3,Romanas Frederique Jr.,CB,JR,returning,Athlon,PS,M,62.1/368 (63.3 adj); 7 PBU; bold
+DB,4,Zechariah Poyser,S,JR,returning,Athlon,PS,M,69.6/865 (ACC +1.18 -> 70.8 adj); 68 tkl; bold
+DB,5,Bryce Fitzgerald,S,SO,returning,Athlon,PS,M,80.7/445 (ACC +1.18 -> 81.9 adj); 6 INTs; nickel/S
+DB,6,Omar Thornton,NB,JR,transfer:Boston College,Athlon,PS,M,69.2/700 (ACC +1.18 -> 70.4 adj); 82 tkl
+DB,7,Damari Brown,CB,JR,returning,Athlon,PS,M,75.9/385 (77.1 adj); returning corner
+ST,1,Jack Olsen,K,SR,transfer:Northwestern,Athlon,PS,M,19-21 FG; proven kicker
+ST,2,Dylan Joyce,P,SR,returning,Athlon,PS,H,44.4 avg; "one of ACC's best"
+ST,3,Malachi Toney,PR,SO,returning,Athlon,PS,M,13.0 PR avg; explosive returner
+ST,4,Jordan Lyle,KR,JR,returning,Athlon,PS,L,KR

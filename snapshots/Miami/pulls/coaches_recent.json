@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Mario",
+  "lastName": "Cristobal",
+  "hireDate": "2021-12-06T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Miami",
+    "year": 2024,
+    "games": 13,
+    "wins": 10,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": 19,
+    "postseasonRank": 18,
+    "srs": 15.5,
+    "spOverall": 21.6,
+    "spOffense": 44.2,
+    "spDefense": 24.3
+   }
+  ]
+ },
+ {
+  "firstName": "Mario",
+  "lastName": "Cristobal",
+  "hireDate": "2021-12-06T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Miami",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 22.2,
+    "spOverall": 20.7,
+    "spOffense": 34.2,
+    "spDefense": 14.3
+   }
+  ]
+ }
+]
