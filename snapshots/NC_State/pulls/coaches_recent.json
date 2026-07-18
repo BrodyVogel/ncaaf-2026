@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Dave",
+  "lastName": "Doeren",
+  "hireDate": "2012-12-01T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "NC State",
+    "year": 2024,
+    "games": 13,
+    "wins": 6,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": 24,
+    "postseasonRank": null,
+    "srs": -2.1,
+    "spOverall": 3.9,
+    "spOffense": 29.9,
+    "spDefense": 26.5
+   }
+  ]
+ },
+ {
+  "firstName": "Dave",
+  "lastName": "Doeren",
+  "hireDate": "2012-12-01T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "NC State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 7,
+    "spOverall": 4.8,
+    "spOffense": 31.4,
+    "spDefense": 25.5
+   }
+  ]
+ }
+]

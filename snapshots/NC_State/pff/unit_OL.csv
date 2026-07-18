@@ -1,0 +1,15 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Jimarion McCrimon,175196,T,E CAROLINA,13,100.0,0,156,56.9,64.5,52.1,3,10,423,100.0,100.0,97.8,3,16,3,866,0,0,861,866,452,452,0,0,414,4,arrival_2025_at_E CAROLINA
+Jacarrius Peak,157418,T,NC STATE,13,100.0,2,248,73.7,84.1,65.0,0,9,457,100.0,100.0,98.4,8,12,3,850,0,0,848,850,487,487,0,0,363,1,2025_this_team
+Jalen Grant,130364,C,NC STATE,13,100.0,0,248,64.8,69.0,64.9,1,16,455,100.0,100.0,97.7,5,19,2,849,849,0,0,849,485,485,0,0,364,0,2025_this_team
+Teague Andersen,163424,T,NC STATE,12,100.0,2,248,66.5,65.8,65.2,6,19,396,100.0,100.0,96.6,4,26,1,727,0,0,3,727,422,422,0,724,305,0,2025_this_team
+Anthony Carter Jr.,122856,G,NC STATE,11,100.0,3,248,55.1,66.7,53.2,0,10,301,100.0,100.0,98.0,6,11,1,598,0,597,0,598,325,325,0,0,273,0,2025_this_team
+Kamen Smith,176005,G,NC STATE,9,100.0,0,248,56.2,54.1,54.2,1,15,239,100.0,100.0,96.2,0,17,1,426,0,221,0,426,252,252,205,0,174,0,2025_this_team
+Spike Sowells Jr.,198971,G,NC STATE,9,100.0,0,248,69.0,70.4,67.7,0,7,207,100.0,100.0,97.3,1,9,2,350,6,15,0,350,216,216,329,0,134,0,2025_this_team
+Rico Jackson,170372,G,NC STATE,8,100.0,0,248,58.2,72.5,50.8,1,5,167,100.0,100.0,97.6,0,7,1,315,0,15,1,315,179,179,201,97,136,0,2025_this_team
+Yousef Mugharbil,146694,G,NC STATE,6,100.0,0,248,47.4,29.5,48.4,0,6,48,100.0,100.0,93.7,0,6,0,114,0,29,0,114,51,51,84,0,63,0,2025_this_team
+Val Erickson,157152,G,NC STATE,7,100.0,0,248,44.7,21.2,50.4,1,1,58,100.0,100.0,98.3,2,2,0,110,0,0,0,110,61,61,58,52,49,0,2025_this_team
+Darion Rivers,170379,T,NC STATE,2,100.0,0,248,55.6,59.9,53.9,0,0,11,100.0,100.0,100.0,0,0,0,25,0,0,25,25,11,11,0,0,14,0,2025_this_team
+Rylan Vann,157425,C,NC STATE,3,100.0,0,248,73.3,78.6,69.4,0,0,11,100.0,100.0,100.0,0,0,0,23,22,0,0,23,11,11,0,0,12,0,2025_this_team
+Daniel Cruz,184506,C,TEXAS,2,100.0,0,311,66.5,76.0,64.3,0,0,4,100.0,100.0,100.0,0,0,0,14,14,0,0,14,4,4,0,0,10,0,arrival_2025_at_TEXAS
+Matt McCabe,122874,G,NC STATE,4,100.0,0,248,58.4,60.5,57.4,0,0,1,100.0,100.0,100.0,0,0,0,6,0,0,0,6,1,1,0,3,5,0,2025_this_team

@@ -1,0 +1,37 @@
+{
+ "id": 152,
+ "school": "NC State",
+ "mascot": "Wolfpack",
+ "abbreviation": "NCSU",
+ "alternateNames": [
+  "North Carolina St.",
+  "NCSU",
+  "NC State"
+ ],
+ "conference": "ACC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#cc0000",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/152.png"
+ ],
+ "twitter": "@PackFootball",
+ "location": {
+  "id": 3670,
+  "name": "Carter-Finley Stadium",
+  "city": "Raleigh",
+  "state": "NC",
+  "zip": "27695",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 35.8008001,
+  "longitude": -78.7195655,
+  "elevation": "117.0089951",
+  "capacity": 58000,
+  "constructionYear": 1966,
+  "grass": true,
+  "dome": false
+ }
+}

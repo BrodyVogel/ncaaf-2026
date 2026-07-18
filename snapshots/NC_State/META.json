@@ -1,0 +1,36 @@
+{
+ "team": "NC State",
+ "conference": "ACC",
+ "created_utc": "2026-07-18T00:17:29+00:00",
+ "assembler_git_rev": "49b234a",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Dave Doeren - PS '14th Year Here / 16th Overall.' NO change (band x1.00). OC Kurt Roper (2nd yr, 30.2 ppg '25); DC DJ Eliot (2nd yr, pressure-based). Coordinators returning. Verified BOTH sources.",
+ "conference_note": "ACC (P4). R14: ACC cells POSITIVE on returning tape; arrivals on origin cells. NOTE: no percentile row for 'NC State' (pff key = 'North Carolina State' name mismatch) -> evidence-only build off raw PFF unit tape; shadow proxy unreliable. Arrivals: Davion Gause North Carolina/ACC (+4.90 RB), Victor Snow Buffalo/MAC (-7.12 WRTE weighted), Davion Dozier Appalachian State/SBC (-0.74), Joshisa Trader Miami/ACC (+2.36), Chance Robinson Miami/ACC; Jimarion McCrimon East Carolina/AAC (+1.18 OL), Daniel Cruz Texas/SEC (OL tiny); Harvey Dyson Tulane/AAC (-5.89 DL - led AAC 8 sacks), KaTron Evans Marshall/CUSA (-7.88 DL); Popo Aguirre Miami/ACC (+2.13 LB), Da'Karri Nelson Penn State/B10 (+16.10 LB inflated weighted DOWN); King Mack Penn State/B10 (+6.33 DB weighted - ex-Bama), Ondre Evans Georgia/SEC (DB); Jackson Waller Arkansas State/SBC (P).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": ["Sabastian Harsh"],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Sabastian Harsh": "DE, 86.7/658 (2025 best edge) - GONE. Athlon omits him ENTIRELY from the 2026 preview; PS 'rebuilt unit... lose 4 starters'; not in either projected DL. Not in portal-out feed / not yr4 -> departure_confirmed_research (feed-miss). VERIFIED BOTH (both mags omit; DL rebuilt).",
+  "Devon Marshall": "CB, 89.8/706 (elite) - GONE (yr4). Both project Brian Nelson + Ondre Evans (Georgia) at CB; neither lists Marshall. EXPIRED(yr4). VERIFIED BOTH.",
+  "Caden Fordham": "LB, 67.1/823 (3rd-tm AA, team tackle leader) - GONE (yr4). PS 'lose 3rd-tm AA Fordham (13 st, #1 tkl'r)'; Athlon omits. EXPIRED(yr4). VERIFIED BOTH.",
+  "Justin Joly": "TE, 77.9/275 - GONE (yr4). PS 'Joly... all depart' (top-5 pass-catchers); Athlon TE = Preston Douglas. EXPIRED(yr4). VERIFIED BOTH.",
+  "Hollywood Smothers": "RB, 78.7/160 (top rusher) - GONE (-> Texas). Jayden Scott takes over. VERIFIED BOTH.",
+  "Cian Slone": "ED/LB, 76.3/650 - GONE (yr4). Among the 4 lost DL starters; not in projected front. EXPIRED(yr4).",
+  "CJ Bailey": "QB, 67.8/482 (3,105 yds, 25 TD) - RETURNS. 3rd-year starter, 2nd in OC Roper's system. Both feature.",
+  "Popo Aguirre": "LB, 63.1/304 - ARRIVES from Miami (both name 'Popo Aguirre from Miami'). Same person as Raul Aguirre Jr (nickname). [Miami FWD FLAG closed - verified in-feed + Athlon.]",
+  "Sean Brown": "LB, 58.4/298 - GATE CATCH: I'd listed him as returning, but PS 'this year they LOSE... Brown (5 st, #8 tkl)' + he's yr4. GONE (EXPIRED yr4). Removed from two-deep. The LB corps is genuinely thin (Fordham + Brown + Soares all gone)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts. Heavy talent DRAIN (20 in / 22 out): loses elite CB Marshall (yr4), best edge Harsh, LB leader Fordham (yr4), TE Joly (yr4), RB Smothers (Texas), OT Peak (SC), + 'five leading pass-catchers all departed.'",
+  "8-5 (4-4 ACC) in '25. No percentile row (name-key mismatch) -> graded on raw PFF unit tape + magazines (evidence-only). Proxy unreliable.",
+  "RETURNS: proven QB CJ Bailey (3,105 yds/25 TD, 3rd-yr starter) + RB Jayden Scott + WR Victor Snow + OT Teague Andersen + CB Brian Nelson + S Asaad Brown/Ronnie Royal + K Vinesett. A modest returning core.",
+  "Heavy transfer reload (modest pieces): WR Dozier (App St) + Trader/Robinson (Miami) + Snow (Buffalo); OL McCrimon (ECU) + Cruz (Texas); DL Dyson (Tulane, 8 sk) + Evans (Marshall); LB Aguirre (Miami) + Nelson (Penn St); DB King Mack (Penn St) + Ondre Evans (Georgia). Opposing coach + PS skeptical re: NIL/hype."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T00:40:00Z"
+}

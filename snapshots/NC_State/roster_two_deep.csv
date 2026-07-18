@@ -1,0 +1,36 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,CJ Bailey,QB,JR,returning,Athlon,PS,M,67.8/482 (ACC +2.08 -> 69.9 adj); 3105 yds/25 TD/9 INT 68.8%; 3rd-yr starter
+QB,2,Will Wilson,QB,SO,returning,Athlon,PS,L,backup (used as run QB '25)
+RB,1,Jayden Scott,RB,SO,returning,Athlon,PS,M,78.3/106 (ACC +4.90 -> 83.2 adj); RS-soph takes over; 196 yds
+RB,2,Davion Gause,RB,JR,transfer:North Carolina,Athlon,PS,L,73.1/61 (ACC +4.90 -> 78.0 adj); 585 yds 2Y at UNC
+WRTE,1,Victor Snow,WR,SR,transfer:Buffalo,Athlon,PS,M,74.9/448 (MAC -7.12 -> weighted ~68; solid vol); returning arrival
+WRTE,2,Keenan Jackson,WR,JR,returning,Athlon,PS,M,55.1/326 (ACC +2.36 -> 57.5 adj); 28 rec/281 yds; top returner
+WRTE,3,Davion Dozier,WR,JR,transfer:Appalachian State,Athlon,PS,L,62.6/297 (SBC -0.74 -> 61.9 adj)
+WRTE,4,Joshisa Trader,WR,JR,transfer:Miami,Athlon,PS,L,58.3/118 (ACC +2.36 -> 60.7 adj); [FWD FLAG from Miami closed]
+WRTE,5,Preston Douglas,TE,SO,returning,Athlon,PS,L,TE1; young
+WRTE,6,Chance Robinson,WR,SO,transfer:Miami,Athlon,PS,L,WR depth; [FWD FLAG from Miami closed]
+OL,1,Teague Andersen,OT,SR,returning,Athlon,PS,M,66.5/727 (ACC +3.54 -> 70.0 adj); RT; returning starter
+OL,2,Jimarion McCrimon,OT,JR,transfer:East Carolina,Athlon,PS,L,56.9/866 (AAC +1.18 -> 58.1 adj); LT; 1st-tm AAC
+OL,3,Daniel Cruz,C,SO,transfer:Texas,Athlon,PS,L,66.5/14 tiny (SEC); C1
+OL,4,Spike Sowells Jr.,G,SO,returning,Athlon,PS,L,69.0/350 (ACC +3.54 -> 72.5 adj); LG
+OL,5,Rico Jackson,G,JR,returning,Athlon,PS,L,58.2/315 (61.7 adj); RG
+OL,6,Kamen Smith,G,JR,returning,Athlon,PS,L,56.2/426 (depth)
+DL,1,Harvey Dyson,ED,SR,transfer:Tulane,Athlon,PS,M,67.6/451 (AAC -5.89 -> 61.7 adj); led AAC 8 sacks; JACK
+DL,2,Isaiah Shirley,DT,JR,returning,Athlon,PS,L,58.1/344 (59.3 adj); DT
+DL,3,Josiah Victor,NT,SO,returning,Athlon,PS,M,64.3/121 (65.5 adj); anchor NT (Athlon)
+DL,4,KaTron Evans,DT,SR,transfer:Marshall,Athlon,PS,L,63.6/233 (CUSA -7.88 -> weighted ~56); NT depth
+DL,5,Chase Bond,ED,SO,returning,Athlon,PS,L,63.5/230 (64.7 adj); DE
+DL,6,Joseph Adedire,ED,SO,returning,Athlon,PS,L,76.0/95 (small sample); DE depth
+LB,1,Popo Aguirre,LB,SR,transfer:Miami,Athlon,PS,M,63.1/304 (ACC +2.13 -> 65.2 adj); 70 tkl; [FWD FLAG from Miami closed]
+LB,2,DaKarri Nelson,LB,JR,transfer:Penn State,Athlon,PS,L,Penn St/Norfolk St tape; B10 (weighted DOWN); WLB
+LB,3,AJ Richardson,LB,JR,returning,Athlon,PS,L,62.9/88 (returning depth)
+LB,4,LaCorian Hodge,LB,SO,returning,Athlon,PS,L,67.5/41 (small sample); depth
+DB,1,Brian Nelson II,CB,JR,returning,Athlon,PS,M,65.7/637 (ACC +1.18 -> 66.9 adj); 2nd-yr starter
+DB,2,King Mack,S,SR,transfer:Penn State,Athlon,PS,M,79.0/493 (B10 +6.33 -> weighted ~82; ex-Bama); SS
+DB,3,Ondre Evans,CB,SO,transfer:Georgia,Athlon,PS,L,SEC; "earned starting spot" (Athlon); CB
+DB,4,Asaad Brown Jr.,S,SO,returning,Athlon,PS,L,68.0/673 (69.2 adj); S
+DB,5,Ronnie Royal III,S,SO,returning,Athlon,PS,L,49.2/442 (50.4 adj); FS
+DB,6,Jackson Vick,CB,JR,returning,Athlon,PS,L,49.7/632 (50.9 adj); NB
+ST,1,Kanoah Vinesett,K,JR,returning,Athlon,PS,M,5-6 FG (long 51), 48-49 XP; returning kicker
+ST,2,Jackson Waller,P,SR,transfer:Arkansas State,Athlon,PS,L,41.3 avg; new punter
+ST,3,Chance Robinson,PR,SO,transfer:Miami,Athlon,PS,L,return
