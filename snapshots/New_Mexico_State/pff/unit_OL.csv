@@ -1,0 +1,13 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Malik Williams,128441,T,NEW MEX ST,12,100.0,0,242,52.9,49.0,58.4,7,17,537,100.0,100.0,96.3,5,32,8,874,0,0,832,874,577,577,0,42,297,0,2025_this_team
+BJ Tolo,175687,G,NEW MEX ST,12,100.0,0,242,63.4,62.2,65.4,3,14,524,100.0,100.0,98.0,5,19,2,854,267,0,0,854,562,562,587,0,292,0,2025_this_team
+James Williams,199468,G,UTEP,12,100.0,1,330,60.3,68.5,56.4,2,7,461,100.0,100.0,99.0,2,9,0,807,0,807,0,807,497,497,0,0,310,0,arrival_2025_at_UTEP
+Mateo Rodriguez,189867,G,NEW MEX ST,12,100.0,0,242,55.0,54.4,52.4,4,10,411,100.0,100.0,97.6,1,17,3,673,0,395,0,673,437,437,278,0,236,0,2025_this_team
+Armando Nieves,198928,T,NEW MEX ST,11,100.0,0,242,52.0,51.2,59.6,3,19,384,100.0,100.0,95.6,9,28,6,613,0,0,1,613,406,406,0,612,207,0,2025_this_team
+Florian Staehler,148445,G,NEW MEX ST,12,100.0,0,242,63.8,67.3,62.1,2,2,282,100.0,100.0,98.6,2,6,2,470,0,469,0,470,304,304,1,0,166,0,2025_this_team
+Santos Valdez,181614,C,NEW MEX ST,5,100.0,0,242,66.3,72.6,62.5,1,3,262,100.0,100.0,98.1,1,7,3,411,410,1,0,411,284,284,0,0,127,0,2025_this_team
+Elijah Harvey,183976,T,NEW MEX ST,8,100.0,0,242,43.1,34.0,57.9,3,6,136,100.0,100.0,95.2,4,11,2,231,0,0,1,231,153,153,9,221,78,0,2025_this_team
+Kai Wheeler,183982,C,NEW MEX ST,3,100.0,0,242,55.6,59.8,54.6,1,2,124,100.0,100.0,98.0,1,4,1,198,198,0,0,198,136,136,0,0,62,0,2025_this_team
+Tyler Keinath,164945,G,BOISE ST,9,100.0,0,120,58.8,65.4,57.1,0,0,30,100.0,100.0,100.0,0,0,0,106,0,74,0,106,31,31,32,0,75,0,arrival_2025_at_BOISE ST
+Ma'Kyi Lee,157176,T,NEW MEX ST,1,100.0,0,242,62.3,75.6,54.2,0,1,27,100.0,100.0,98.1,0,1,0,41,0,0,41,41,28,28,0,0,13,0,2025_this_team
+Hayden Harlan,189860,G,NEW MEX ST,1,100.0,0,242,60.0,75.7,58.6,0,0,3,100.0,100.0,100.0,0,0,0,10,0,10,0,10,3,3,0,0,7,0,2025_this_team

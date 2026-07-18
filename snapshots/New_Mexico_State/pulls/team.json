@@ -1,0 +1,36 @@
+{
+ "id": 166,
+ "school": "New Mexico State",
+ "mascot": "Aggies",
+ "abbreviation": "NMSU",
+ "alternateNames": [
+  "NMSU",
+  "New Mexico St"
+ ],
+ "conference": "Conference USA",
+ "division": null,
+ "classification": "fbs",
+ "color": "#891216",
+ "alternateColor": "#000000",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/166.png"
+ ],
+ "twitter": "@NMStateFootball",
+ "location": {
+  "id": 3601,
+  "name": "Aggie Memorial Stadium",
+  "city": "Las Cruces",
+  "state": "NM",
+  "zip": "88003",
+  "countryCode": "US",
+  "timezone": "America/Denver",
+  "latitude": 32.2796202,
+  "longitude": -106.7411148,
+  "elevation": "1208.201294",
+  "capacity": 28853,
+  "constructionYear": 1978,
+  "grass": false,
+  "dome": false
+ }
+}

@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Tony",
+  "lastName": "Sanchez",
+  "hireDate": "2023-12-23T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "New Mexico State",
+    "year": 2024,
+    "games": 12,
+    "wins": 3,
+    "losses": 9,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -22.1,
+    "spOverall": -19,
+    "spOffense": 17.8,
+    "spDefense": 38.1
+   }
+  ]
+ },
+ {
+  "firstName": "Tony",
+  "lastName": "Sanchez",
+  "hireDate": "2023-12-23T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "New Mexico State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -16.1,
+    "spOverall": -15.5,
+    "spOffense": 19.7,
+    "spDefense": 34.9
+   }
+  ]
+ }
+]

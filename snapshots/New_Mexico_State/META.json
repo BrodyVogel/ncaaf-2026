@@ -1,0 +1,55 @@
+{
+ "team": "New Mexico State",
+ "conference": "Conference USA",
+ "created_utc": "2026-07-18T20:15:00+00:00",
+ "assembler_git_rev": "1161e9b",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Tony Sanchez (7-17 at school, entering Year 3; NO change; band x1.00). OC David Yost + DC Joe Morris. '25: 4-8 (2-6 CUSA). A MASSIVE juco/transfer-centric rebuild (25 in / 24 out + 31 yr4) - lost ALL FOUR 2025 All-CUSA players (Faupel WR->Ark, Gavin Harris TE->GT, Ezra Christensen DL 88.6->Colorado, Naeten Mitchell S->Colorado).",
+ "conference_note": "Conference USA. Returning tape on CUSA cells (heavily negative); arrivals on origin. Athlon rates NMSU CUSA #8 (NF 129). A bottom-tier rebuild: an OPEN QB competition led by FCS transfer Trey Hedden; the WORST run game in FBS ('25 - 2.6 ypc, RUN p1); a near-total OL rebuild. Strengths: a ball-hawking secondary (24 TOs forced; returns Iya 74.2 + Session + adds returning starter Barnes) + good special teams (SPEC p84). VERIFICATION-CHANGED disposition: LB Tory Gethers is treated as NOT-counted (see below).",
+ "portal_departure_confirmed": [
+  "BJ Tolo",
+  "Elijah Harvey",
+  "Kai Wheeler",
+  "Ta'Avili Tuitama",
+  "Dakerric Hobbs",
+  "Tory Gethers"
+ ],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Nick Session"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Armhan Hale"
+ ],
+ "feed_gap_arrivals_documented": [
+  "Trey Hedden (QB; Furman FCS transfer - the Athlon QB1, not in the portal-in feed)",
+  "Zhakius Thomas (DE; Athlon-named transfer starter - not in the feed)",
+  "AJ Williams III (WR; returns from a 2025 injury - D3 Mary Hardin-Baylor transfer on the '25 roster, no producer tape)"
+ ],
+ "known_name_exceptions": {
+  "Tony Sanchez": "HC (7-17, Year 3; NO change; band x1.00).",
+  "Trey Hedden": "QB - arrival (Furman FCS; feed-gap). The Athlon QB1 but per the beat it is an OPEN competition (Damante + Hedden); an FCS transfer leading a rebuilt QB room.",
+  "Logan Fife": "QB, 58.1/447 - GONE (yr4; the '25 starter, not on the Athlon depth chart).",
+  "Tory Gethers": "LB, 65.3/687 - TREATED AS NOT-COUNTED. VERIFICATION CONFLICT: Athlon lists him BOLD returning ('the duo of Gethers and Aupiu'), but the CFBD feed shows portal->None AND the current beat (Yahoo, Jul 2026) says he 'remains in the portal... hasn't found a new team... can come back.' Per the verify-before-asserting discipline, the stale-magazine return is NOT credited; classified GONE for grading (LB graded thin around Aupiu). His possible return = modest UPSIDE not in the grade. NMSU made NO LB additions.",
+  "Sone Aupiu": "LB, 69.0/483 - RETURNS. 68 tackles; the confirmed LB anchor (if Gethers does not return, the only proven returning LB).",
+  "Nick Session": "S, 64.6/630 - RETURNS (yr4 override; Athlon BOLD + prose 'secondary also features Nick Session').",
+  "Bernock Iya": "S, 74.2/581 - RETURNS. The top returning DB grade; anchors a ball-hawking secondary.",
+  "Tayden Barnes": "S/NB - arrival (Cincinnati). A RETURNING NMSU starter (started all 12 in 2024) who transferred to Cincinnati in 2025 and is back; versatile (NB or either safety).",
+  "Ezra Christensen": "DL, 88.6/494 - GONE (yr4 AND portal -> Colorado). The TOP grade on the roster + 2025 All-CUSA; the DL's clear wound.",
+  "Naeten Mitchell": "S, 64.8/845 - GONE (portal -> Colorado; 2025 All-CUSA). A big secondary loss, but the room reloads (Iya/Session/Barnes).",
+  "Armhan Hale": "S, 67.9/515 - GONE (departure_confirmed_research; NAME-FORM MISMATCH - the dump spelling 'Armhan' did not match the portal-out 'Armahn Hale -> Bowling Green'; the ledger wrongly showed RETURNS. Athlon does not name him). Confirmed gone.",
+  "BJ Tolo": "OL, 63.4/854 - GONE (portal->None/UNLV per beat; depth-chart-absent). adjudicated.",
+  "Kadarius Calloway": "RB, 67.7/138 - GONE (yr4; not on the Athlon depth chart)."
+ },
+ "known_gaps": [
+  "MASSIVE churn (25 in / 24 out + 31 yr4) - a juco/transfer-centric rebuild. Athlon rates NMSU CUSA #8 (NF 129) - BEARISH; grades are anchor-blind. Lost ALL FOUR 2025 All-CUSA players (Faupel, Gavin Harris, Christensen 88.6, Mitchell). Grade-critical: an open QB comp (FCS transfer Hedden), the worst run game in FBS (RUN p1, 2.6 ypc), a rebuilt OL, an uncertain LB room (Gethers in the portal, no LB additions).",
+  "VERIFICATION-CHANGED DISPOSITION: LB Tory Gethers - Athlon (print) says returns, but the current beat says he is uncommitted-in-portal. Treated as NOT-counted (GONE) for the grade; his return would be modest LB upside. This is the verify-before-asserting discipline overriding a stale magazine.",
+  "4-8 (2-6 CUSA). OFF p7 (a very poor offense - PASS p21, PBLK p10, RUN p1 [worst in FBS], RBLK p32; RECV p33). DEF p47 (a ball-hawking unit - 24 TOs forced; RDEF p29, TACK p69, PRSH p68, COV p56). SPEC p84 (a strength).",
+  "yr4 departures (depth-chart-absent, auto-EXPIRED): Logan Fife (QB 58.1), Kadarius Calloway (RB), Jamall Thompson Jr. (DL 69.2/572), Santos Valdez (C 66.3/411), Zedekiah Rodriguez-Brown (CB 72.3/448), Malik Williams (OL 874), Florian Staehler (OL), PJ Johnson III (WR). Feed-gap arrivals (Athlon-named, not in feed): Trey Hedden (QB), Zhakius Thomas (DE), + injury-return AJ Williams III (WR)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF129 / CUSA prediction 8 incidentally visible - logged, NOT used. G5 2-source (Athlon primary + beat/web; PS CUSA text garbled).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T20:20:00+00:00"
+}

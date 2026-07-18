@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T21:13:26+00:00",
+ "team": "New Mexico State",
+ "final": -13.08,
+ "rank": 120,
+ "band": 6.72,
+ "resid": 13.36,
+ "adj": 4.68,
+ "class_term": 0.0,
+ "st": -0.08,
+ "anchor_blend": -18.14,
+ "resid_level": 9.81,
+ "resid_shape": 3.55,
+ "implied_off": 22.62,
+ "implied_def": 27.4,
+ "anchor_off": 16.13,
+ "anchor_def": 34.27,
+ "fit_r2": {
+  "off": 0.533,
+  "dfn": 0.611
+ },
+ "low_conf_units": 4,
+ "code_rev": "1161e9b",
+ "mode": "PILOT-OOS"
+}
