@@ -1,0 +1,36 @@
+{
+ "id": 2623,
+ "school": "Missouri State",
+ "mascot": "Bears",
+ "abbreviation": "MOST",
+ "alternateNames": [
+  "MOST",
+  "Missouri St"
+ ],
+ "conference": "Conference USA",
+ "division": null,
+ "classification": "fbs",
+ "color": "#5F0000",
+ "alternateColor": "#e8e8e8",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2623.png"
+ ],
+ "twitter": "@MOStateFootball",
+ "location": {
+  "id": 3878,
+  "name": "Plaster Sports Complex",
+  "city": "Springfield",
+  "state": "MO",
+  "zip": "65897",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 37.1976229,
+  "longitude": -93.2798119,
+  "elevation": "402.368103",
+  "capacity": 17337,
+  "constructionYear": 1941,
+  "grass": false,
+  "dome": false
+ }
+}

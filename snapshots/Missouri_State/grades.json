@@ -1,0 +1,317 @@
+{
+ "team": "Missouri State",
+ "units": {
+  "QB": {
+   "grade": 42,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 36,
+   "confidence": "L"
+  },
+  "DL": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 44,
+   "confidence": "M"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18T19:55:00Z",
+  "snapshot_rev": "frozen 2026-07-18T19:45:00Z (Missouri State)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary + beat/web QB+HC confirmation; PS CUSA text GARBLED; no Pick Six for CUSA]; Conference USA -> returning tape on CUSA cells [heavily negative], arrivals on origin [FCS/D2 = no cell]; NEW HC Casey Woods [first-time HC, ex-SMU] -> COACH CHANGE, band x1.13; disposition gate 38 rows / 0 adjudicate / 0 err - 3 withdrawal overrides [Askren TE, Brantley DL, O'Neal S - all portal->None but Athlon BOLD returning], 2 yr4-return overrides [BlackStrain, Cope - Athlon key returnees], 3 feed-gap arrivals [Espinoza OL, Boamah CB, Blackmon LB]; huge yr4/portal teardown - lost Clark QB 78.5, Lawrence RB 78.1, Dunbar CB 79.5, Jalen Brooks LB 85.0 [all yr4], Toney DL 75.7->Coastal + the entire starting OL]; FBS-newcomer proxy artifactually LOW [graded on personnel]; anchor values not consulted. DISCLOSED: Athlon NF128 / CUSA prediction 7 incidentally visible, logged, NOT used.",
+  "planned_vs_final_deviations": {
+   "note": "Finals match the dossier planned lines exactly (QB42L/RB44/WRTE46/OL36L/DL42/LB44/DB42/ST44, sum 340). NO post-freeze corrections. WRTE placed at 46 (not 48) because the top two receiving grades (Gardner 76.1, Luke 68.9) left and no elite grade returns (best ~68) despite the p79 depth; OL at 36 (~Arizona State/Utah State) after the entire starting line left.",
+   "shape": "A 7-6 FBS-debut team gutted under a first-time HC (Casey Woods; band x1.13). Strengths: a deep p79 receiving corps (46), an efficient returning RB (44 - Green), an LB centerpiece (44 - Lloyd), a P4-transfer DL (42), returning safeties (42), returning quality specialists (ST 44 - HM All-CUSA K). Wounds: an open transfer QB battle after losing the 78.5 starter (42L) + a near-total OL rebuild (36L). 2 L units."
+  },
+  "shadow_proxy_divergence": {
+   "note": "FBS-NEWCOMER ARTIFACT (the Delaware pattern): the proxy (QB 16, RB None, WRTE 30, OL None, DL 3, LB 19, DB 0, ST 1) reads artifactually low across the board despite clear returning talent. PFF unit data IS present. The grades key the verified returners + the Athlon two-deep, NOT the proxy.",
+   "WRTE": "+16 vs proxy 30 - the grade keys the deep returning corps (Robinson 44 catches + Cope + BlackStrain + Askren) off a p79 unit.",
+   "RB": "44 vs proxy None - graded on the efficient returning Green (81.6, small sample) the proxy can't see.",
+   "ST": "+43 vs proxy 1 - the grade keys the returning HM All-CUSA K (Obeid) + P over the coverage-driven p1 unit rating.",
+   "LB": "+25 vs proxy 19 - the grade keys the returning centerpiece Lloyd (team-tackle leader).",
+   "QB": "+26 vs proxy 16 - graded on two experienced transfer arms (Locklear/Belin) in an open battle, not the newcomer proxy."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Missouri State",
+   "unit": "QB",
+   "grade": 42,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "UAB QB 2026 (42, peer)",
+    "UL Monroe QB 2026 (42, peer)"
+   ],
+   "rationale_bullets": [
+    "Skyler Locklear (UTEP, 64.5/274 -> CUSA -5.61) vs Henry Belin IV (Duke, 64.8/5 -> ACC tiny sample) - an OPEN transfer battle ('both have a chance' - Woods). LOST the '25 starter Jacob Clark (78.5/492, yr4).",
+    "A downgrade from a 78.5 returning starter to two modest-grade transfers in an open battle; Locklear has the fuller CUSA sample but neither graded well. New HC/OC.",
+    "42: ~UAB/UL Monroe QB 42. Two experienced transfer arms + a new scheme vs the lost 78.5 starter + the modest grades + the open competition. L."
+   ],
+   "key_players": [
+    {
+     "name": "Skyler Locklear",
+     "role": "QB (arrival, UTEP)",
+     "evidence": "64.5/274 at UTEP - the fuller-sample transfer in an open battle"
+    },
+    {
+     "name": "Henry Belin IV",
+     "role": "QB (arrival, Duke)",
+     "evidence": "64.8/5 at Duke (tiny sample) - the other half of the battle"
+    }
+   ],
+   "data_gaps": [
+    "open QB battle (no named starter)",
+    "new HC/OC",
+    "lost the 78.5 '25 starter (Clark)"
+   ],
+   "g5_guard_note": "Conference USA; an open transfer QB battle (Locklear/Belin) after losing the 78.5 starter; arrivals on origin cells. L."
+  },
+  {
+   "team": "Missouri State",
+   "unit": "RB",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Baylor RB 2026 (44, peer)",
+    "Memphis RB 2026 (42, bracket-below)"
+   ],
+   "rationale_bullets": [
+    "Ramone Green Jr. (81.6/53 -> CUSA -7.50; a HIGH grade on a SMALL 53-carry sample; the Athlon RB1) + Boise transfer Breezy Dubar (61.5/3). LOST lead back Shomari Lawrence (78.1/239, yr4).",
+    "An efficient returning back (Green - an 81.6 grade is a real signal) but on a small sample, with thin proven depth after the volume back left; off a poor run game (RUN p33, RBLK p3).",
+    "44: ~Baylor RB 44 (Memphis 42 below). Green's efficiency + the return vs the small sample + the thin depth + the lost 78.1 lead back. M."
+   ],
+   "key_players": [
+    {
+     "name": "Ramone Green Jr.",
+     "role": "RB (returning)",
+     "evidence": "81.6/53 - an efficient returning back on a small sample; the Athlon RB1"
+    },
+    {
+     "name": "Breezy Dubar",
+     "role": "RB (arrival, Boise State)",
+     "evidence": "61.5/3 at Boise - the transfer pair-mate"
+    }
+   ],
+   "data_gaps": [
+    "small returning sample (Green 53 carries)",
+    "thin proven depth",
+    "lost the volume back (Lawrence 78.1)"
+   ],
+   "g5_guard_note": "Conference USA; an efficient returning back (Green 81.6, small sample) after the volume back left; heavy CUSA -7.50 cell. M."
+  },
+  {
+   "team": "Missouri State",
+   "unit": "WRTE",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Marshall WRTE 2026 (46, peer)",
+    "Florida International WRTE 2026 (46, peer)"
+   ],
+   "rationale_bullets": [
+    "Jmariyae Robinson (67.2/373 -> CUSA -4.19; the WR1 - 44 catches/7 TD) + Makai Cope (67.8, yr4-return) + James BlackStrain (60.1, yr4-return) + TE Jeron Askren (60.0, withdrawal) + transfers Mekhi Miller (Tulsa) + Isaiah Myers (WKU) + TE Witt Edwards (Vandy). LOST Tristian Gardner (76.1 -> Coastal) + Dash Luke (68.9, yr4).",
+    "A genuinely deep receiving corps off a strong '25 unit (RECV p79) - a WR1 + returning depth + TE depth + transfers - but the top two grades (Gardner 76.1, Luke 68.9) left and no elite grade returns (best ~68).",
+    "46: ~Marshall/Florida International WRTE 46. The p79 depth + Robinson vs the lost top-two grades + no returning star. M."
+   ],
+   "key_players": [
+    {
+     "name": "Jmariyae Robinson",
+     "role": "WR (returning)",
+     "evidence": "67.2/373; team-leading 44 catches/7 TD - the WR1 anchor"
+    },
+    {
+     "name": "Makai Cope",
+     "role": "WR (returning, yr4 override)",
+     "evidence": "67.8/203 - a returning 'key returnee' (Athlon)"
+    }
+   ],
+   "data_gaps": [
+    "lost the top two grades (Gardner 76.1, Luke 68.9)",
+    "no elite returning grade (best ~68)"
+   ],
+   "g5_guard_note": "Conference USA; a deep p79 receiving corps (Robinson + returning depth + transfers) - a genuine strength; no returning star. M."
+  },
+  {
+   "team": "Missouri State",
+   "unit": "OL",
+   "grade": 36,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Arizona State OL 2026 (36, peer)",
+    "Utah State OL 2026 (36, peer)"
+   ],
+   "rationale_bullets": [
+    "Matthew Greene (RT, 63.1/553 -> CUSA -6.36; the LONE returning starter) + a transfer rebuild - LT Sebastian Espinoza + LG King Large (SMU) + C Isaiah Villanueva (JSU) + William Dixon (VMI) + Logan Scrivner. LOST the ENTIRE rest of the starting line (Hudson 874 -> USF, Nnabugwu 804 -> S Car, Cade 803 + Hutchinson 858, both yr4).",
+    "A near-total rebuild - only one returning starter + a stack of transfers; 'OL depth is a concern' (Athlon), off a near-worst run-block unit (RBLK p3) though the '25 pass pro was passable (PBLK p61, but that group is gone).",
+    "36: ~Arizona State/Utah State OL 36. Greene + the transfer pedigree (SMU/VMI/JSU) vs the loss of the whole line + the p3 run-block base + the depth concern. L."
+   ],
+   "key_players": [
+    {
+     "name": "Matthew Greene",
+     "role": "RT (returning)",
+     "evidence": "63.1/553 - the lone returning starter on a rebuilt line"
+    },
+    {
+     "name": "King Large",
+     "role": "LG (arrival, SMU)",
+     "evidence": "an SMU transfer into a near-total OL rebuild"
+    }
+   ],
+   "data_gaps": [
+    "lost the entire starting OL",
+    "near-worst '25 run blocking (RBLK p3)",
+    "'OL depth is a concern'"
+   ],
+   "g5_guard_note": "Conference USA; a near-total OL rebuild - one returning starter + transfers off a p3 run-block base. L."
+  },
+  {
+   "team": "Missouri State",
+   "unit": "DL",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Old Dominion DL 2026 (42, peer)",
+    "Louisiana Tech DL 2026 (42, peer)"
+   ],
+   "rationale_bullets": [
+    "Tim Brantley Jr. (DT, 64.2/352; withdrawal - 'headlines the tackle group') + Caden Wiest (69.4/180, 2 sacks) + a P4 transfer haul: Kellen Lindstrom (Tennessee), Markell Chapman (Iowa State), Dylan Brooks (Kansas), Josh Lukusa (Miami OH), Malachi Madison (UMass). LOST top edge Mitchell Toney (75.7 -> Coastal) + Wesolak (67.4) + yr4 (Smithson/Dietlin/Townley).",
+    "A transfer-loaded rebuild with real P4 additions (Tennessee/Iowa State/Kansas edges) + two returners (Brantley, Wiest), but the top proven producer (Toney 75.7) left; 'a chance to be pretty good if the depth develops' (Woods).",
+    "42: ~Old Dominion/Louisiana Tech DL 42. The P4 transfer influx + Brantley/Wiest vs the lost top edge + the unproven-together front. M."
+   ],
+   "key_players": [
+    {
+     "name": "Tim Brantley Jr.",
+     "role": "DT (returning, withdrawal)",
+     "evidence": "64.2/352; 'headlines the tackle group' - portal->None but Athlon BOLD returning"
+    },
+    {
+     "name": "Markell Chapman",
+     "role": "DT (arrival, Iowa State)",
+     "evidence": "a B12 transfer into a portal-loaded front"
+    }
+   ],
+   "data_gaps": [
+    "lost the top edge (Toney 75.7)",
+    "an unproven-together transfer front"
+   ],
+   "g5_guard_note": "Conference USA; a P4-transfer DL rebuild (Tennessee/Iowa State/Kansas) + Brantley/Wiest after the top edge left. M."
+  },
+  {
+   "team": "Missouri State",
+   "unit": "LB",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International LB 2026 (44, peer)",
+    "Middle Tennessee LB 2026 (44, peer)"
+   ],
+   "rationale_bullets": [
+    "Jared Lloyd (66.8/518 -> CUSA -12.31; the 'centerpiece' - tied for the team lead in tackles) + Cooper Roy (59.6) + Austin Yelder + transfers (Stratton Shufelt UTEP, Martavis Blackmon). LOST Jalen Brooks (85.0/326, yr4 - the TOP LB grade) + Kanye Young (55.9/756, yr4).",
+    "A clear returning anchor (Lloyd - the team-tackle leader) + returning depth + transfers, but the top LB grade (Brooks 85.0) + a 756-snap starter (Young) both left.",
+    "44: ~Florida International/Middle Tennessee LB 44. Lloyd + the returning depth vs the lost top grade (Brooks 85.0) + Young. M."
+   ],
+   "key_players": [
+    {
+     "name": "Jared Lloyd",
+     "role": "LB (returning)",
+     "evidence": "66.8/518; tied for the team lead in tackles - the 'centerpiece' (Woods)"
+    },
+    {
+     "name": "Cooper Roy",
+     "role": "LB (returning)",
+     "evidence": "59.6/175 - returning depth alongside Lloyd"
+    }
+   ],
+   "data_gaps": [
+    "lost the top LB grade (Brooks 85.0, yr4)",
+    "lost a 756-snap starter (Young)"
+   ],
+   "g5_guard_note": "Conference USA; a returning LB centerpiece (Lloyd) + depth after the top grade (Brooks 85.0) left; heavy CUSA -12.31 cell. M."
+  },
+  {
+   "team": "Missouri State",
+   "unit": "DB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Kennesaw State DB 2026 (42, peer)",
+    "Middle Tennessee DB 2026 (42, peer)"
+   ],
+   "rationale_bullets": [
+    "SAFETIES set - Dylan Dixson (53.3/608) + Christian Ford (54.4/763) - 102 combined tackles, both returning - + J.J. O'Neal (withdrawal). CB is a transfer REBUILD: 'two Joels' - Kpassou (Duquesne) + Boamah - + Geo Jallah (Benedict). LOST top CB Jordan Dunbar (79.5/770, yr4) + Thomas Anderson (63.2/789, yr4) + Maguire Neal (64.3, yr4).",
+    "Safety continuity (Dixson + Ford) is a plus, but the corner spot is a near-total rebuild after losing the 79.5 top CB + two 770+-snap starters - reloading via FCS/D2 transfers.",
+    "42: ~Kennesaw State/Middle Tennessee DB 42. The returning safeties vs the gutted, transfer-rebuilt corner room + the COV p37 base. M."
+   ],
+   "key_players": [
+    {
+     "name": "Dylan Dixson",
+     "role": "S (returning)",
+     "evidence": "53.3/608 - a returning safety (Dixson + Ford = 102 combined tackles)"
+    },
+    {
+     "name": "Christian Ford",
+     "role": "S (returning)",
+     "evidence": "54.4/763 - the other returning safety"
+    }
+   ],
+   "data_gaps": [
+    "lost the top CB (Dunbar 79.5) + two 770+-snap starters",
+    "corner room rebuilt via FCS/D2 transfers"
+   ],
+   "g5_guard_note": "Conference USA; returning safeties (Dixson/Ford) + a transfer-rebuilt corner room after losing the 79.5 top CB. M."
+  },
+  {
+   "team": "Missouri State",
+   "unit": "ST",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "App State ST 2026 (44, peer)",
+    "Florida International ST 2026 (44, peer)"
+   ],
+   "rationale_bullets": [
+    "K Yousef Obeid (RETURNS - HM All-Conference USA in '25) + P Stewart McDonald (RETURNS) + KR Robinson (19.4 avg) + PR Kpassou. SPEC was p1.",
+    "Real specialist continuity/quality - a returning HM All-CUSA kicker + the returning punter - which outweighs the p1 unit rating (a coverage/return artifact, not the specialists).",
+    "44: ~App State/Florida International ST 44. The returning quality K + P vs the p1 unit baseline (the coverage/return phases). M."
+   ],
+   "key_players": [
+    {
+     "name": "Yousef Obeid",
+     "role": "K (returning)",
+     "evidence": "HM All-Conference USA in '25 - a quality returning kicker"
+    },
+    {
+     "name": "Stewart McDonald",
+     "role": "P (returning)",
+     "evidence": "the returning punter - specialist continuity"
+    }
+   ],
+   "data_gaps": [
+    "p1 '25 unit (coverage/return phases)",
+    "new staff over the coverage units"
+   ],
+   "g5_guard_note": "Conference USA; returning quality specialists (HM All-CUSA K Obeid + P) outweigh the coverage-driven p1 unit. M."
+  }
+ ]
+}

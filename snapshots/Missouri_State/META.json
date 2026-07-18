@@ -1,0 +1,58 @@
+{
+ "team": "Missouri State",
+ "conference": "Conference USA",
+ "created_utc": "2026-07-18T19:40:00+00:00",
+ "assembler_git_rev": "c3cd7cd",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Casey Woods (from SMU; FIRST-time HC / first season at school). COACH CHANGE -> band x1.13. New OC Mark Cala + DC Jack Curtis. Missouri State's 2nd FBS season (moved up to CUSA in 2025; went 7-6, 5-3 in the FBS debut). A near-total roster turnover under the new staff who 'got there late when the portal opened' (scout).",
+ "conference_note": "Conference USA. Returning tape on CUSA cells (heavily negative); arrivals on origin. FBS newcomer (Y2) - the shadow proxy reads artifactually LOW (QB 16, OL/RB None, DL 3, DB 0) despite clear returning talent; grade on personnel + player PFF grades, NOT the proxy (the Delaware pattern). Athlon rates MO State CUSA #7 (NF 128). HUGE churn: lost the top QB (Clark 78.5, yr4), top RB (Lawrence 78.1, yr4), top CB (Dunbar 79.5, yr4), top LB (Jalen Brooks 85.0, yr4) + the entire starting OL - rebuilt heavily via the portal.",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Jeron Askren",
+  "Tim Brantley Jr.",
+  "J.J. O'Neal"
+ ],
+ "yr4_return_overrides_documented": [
+  "James BlackStrain",
+  "Makai Cope"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [
+  "Sebastian Espinoza (OL; Athlon-named LT transfer - not in the portal-in feed)",
+  "Joel Boamah (CB; Athlon-named - 'two Joels, Kpassou and Boamah' - not in the feed)",
+  "Martavis Blackmon (LB; Athlon-named transfer - not in the feed)"
+ ],
+ "known_name_exceptions": {
+  "Casey Woods": "NEW HC (first-time HC, from SMU as an assistant). COACH CHANGE -> band x1.13.",
+  "Jacob Clark": "QB, 78.5/492 - GONE (yr4). The 2025 starter; the QB job is now an open transfer battle (Belin/Locklear). A significant downgrade; web-confirmed the battle.",
+  "Henry Belin IV": "QB - arrival (Duke, 64.8/5 tiny sample). In the open '26 QB battle vs Locklear; Athlon: 'both have a chance.'",
+  "Skyler Locklear": "QB - arrival (UTEP, 64.5/274 - a fuller CUSA sample). In the open '26 QB battle vs Belin.",
+  "Ramone Green Jr.": "RB, 81.6/53 - RETURNS. A high grade on a SMALL sample (53 carries); the Athlon-named RB1 after lead back Lawrence (78.1) left. Pairs with Boise transfer Dubar.",
+  "Shomari Lawrence": "RB, 78.1/239 - GONE (yr4). The lead back; the room keeps Green + adds Dubar.",
+  "Jmariyae Robinson": "WR, 67.2/373 - RETURNS. Led the team in catches (44) + TDs (7); the WR1 anchor of a deep, p79 receiving corps.",
+  "James BlackStrain": "WR, 60.1/216 - RETURNS (yr4 override; Athlon 'key returnee' + BOLD depth chart).",
+  "Makai Cope": "WR, 67.8/203 - RETURNS (yr4 override; Athlon 'key returnee' + BOLD depth chart).",
+  "Dash Luke": "WR, 68.9/368 - GONE (yr4; not on the Athlon depth chart).",
+  "Jeron Askren": "TE, 60.0/188 - RETURNS (portal_withdrawal_override; portal->None but Athlon BOLD returning starter + 'likes the TE depth').",
+  "Tim Brantley Jr.": "DL, 64.2/352 - RETURNS (portal_withdrawal_override; portal->None but Athlon 'headlines the tackle group' + BOLD).",
+  "J.J. O'Neal": "S, 63.6/86 - RETURNS (portal_withdrawal_override; portal->None but Athlon BOLD returning S; <100vol so not ledger-tracked).",
+  "Mitchell Toney": "DL, 75.7/291 - GONE (portal -> Coastal Carolina). The top returning edge grade.",
+  "Jalen Brooks": "LB, 85.0/326 - GONE (yr4). The TOP LB grade; the LB keeps the centerpiece Lloyd but loses its best grader.",
+  "Jordan Dunbar": "CB, 79.5/770 - GONE (yr4). The TOP CB grade; the corner spot is a transfer rebuild (Kpassou/Boamah).",
+  "Erick Cade": "OL, 66.2/803 - GONE (yr4). Part of an entire starting OL that left (Hudson->USF, Nnabugwu->S Car, Cade/Hutchinson yr4).",
+  "Yousef Obeid": "K - RETURNS (HM All-CUSA in '25). A quality returning kicker despite the SPEC p1 unit rating (coverage-driven).",
+  "Stewart McDonald": "P - RETURNS. The returning punter; specialist continuity."
+ },
+ "known_gaps": [
+  "FBS Y2 newcomer: the shadow proxy is artifactually LOW (QB 16, RB None, OL None, DL 3, DB 0, LB 19, ST 1) despite clear returning talent - grade on personnel + player PFF grades, NOT the proxy (the Delaware pattern). PFF unit data IS present (7-6 FBS season tracked).",
+  "NEW HC Casey Woods (first-time HC, from SMU) -> COACH CHANGE, band x1.13. New OC Cala + DC Jack Curtis.",
+  "HUGE churn under a late-arriving staff. Grade-critical losses: QB Clark (78.5, yr4), RB Lawrence (78.1, yr4), CB Dunbar (79.5, yr4), LB Jalen Brooks (85.0, yr4), DL Toney (75.7->Coastal), WR Gardner (76.1->Coastal) + Dash Luke (68.9, yr4) + the entire starting OL (Hudson 874->USF, Nnabugwu 804->S Car, Cade 803 + Hutchinson 858, both yr4).",
+  "7-6 (5-3 CUSA) FBS debut. OFF p47 (PASS p74, RECV p79 - a strong pass game; but RBLK p3, RUN p33 - a poor run-block/run game). DEF p14 (RDEF p10, TACK p16 - a poor run defense; PRSH p53, COV p37). SPEC p1 (worst - but returns HM All-CUSA K Obeid + P McDonald; the p1 is coverage/return-driven).",
+  "Withdrawals (portal->None but Athlon BOLD returning starters): Jeron Askren (TE), Tim Brantley Jr. (DL), J.J. O'Neal (S). yr4-return overrides (Athlon 'key returnees'): James BlackStrain + Makai Cope (WR). Feed-gap arrivals (Athlon-named, not in the portal feed): Sebastian Espinoza (OL), Joel Boamah (CB), Martavis Blackmon (LB)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF128 / CUSA prediction 7 incidentally visible - logged, NOT used. G5 2-source (Athlon primary + beat/web; PS CUSA text garbled).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T19:45:00+00:00"
+}

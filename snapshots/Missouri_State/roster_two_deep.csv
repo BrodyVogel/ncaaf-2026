@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Skyler Locklear,QB,SR,arrival(UTEP-CUSA),Athlon,feed,L,64.5/274 at UTEP (a fuller CUSA sample). In an OPEN transfer battle vs Belin - "both have a chance" (Woods). Web-confirmed battle
+QB,2,Henry Belin IV,QB,SR,arrival(Duke-ACC),Athlon,feed,L,64.8/5 at Duke (tiny sample). The other half of the QB battle. LOST 2025 starter Jacob Clark (78.5/492, yr4) - a significant downgrade
+RB,1,Ramone Green Jr.,RB,JR,returning,Athlon,feed,M,81.6/53 (CUSA -7.50; a HIGH grade on a SMALL sample - 53 carries). The Athlon-named RB1. LOST lead back Shomari Lawrence (78.1/239, yr4)
+RB,2,Breezy Dubar,RB,SR,arrival(Boise State-MWC),Athlon,feed,L,61.5/3 at Boise (tiny). Pairs with Green. RUN was p33 (a poor run game; RBLK p3)
+WRTE,1,Jmariyae Robinson,WR,SR,returning,Athlon,feed,M,67.2/373 (CUSA -4.19; the WR1 - led the team with 44 catches/7 TD). Also KR (19.4 avg). Anchors a deep, p79 receiving corps
+WRTE,2,Makai Cope,WR,SR,returning-yr4override,Athlon,feed,M,67.8/203 (yr4 override) + James BlackStrain (60.1/216, yr4 override) + TE Jeron Askren (60.0/188, withdrawal) + transfers Mekhi Miller (Tulsa) + Isaiah Myers (WKU) + TE Witt Edwards (Vandy). LOST Gardner (76.1->Coastal) + Dash Luke (68.9 yr4). RECV p79
+OL,1,Matthew Greene,RT,JR,returning,Athlon,feed,L,63.1/553 (CUSA -6.36; the lone returning OL starter). The ENTIRE rest of the starting line left (Hudson 874->USF, Nnabugwu 804->S Car, Cade 803 + Hutchinson 858, both yr4). RBLK p3; PBLK p61
+OL,2,Isaiah Villanueva,C,SR,arrival(Jackson State-FCS),Athlon,feed,L,a transfer rebuild: LT Sebastian Espinoza (feed-gap) + LG King Large (SMU) + C Villanueva (JSU) + William Dixon (VMI) + Logan Scrivner. "OL depth is a concern" (Athlon)
+DL,1,Tim Brantley Jr.,DT,JR,returning-withdrawal,Athlon,feed,M,64.2/352 (CUSA -7.88; portal->None but "headlines the tackle group" - WITHDREW) + Caden Wiest (69.4/180, 2 sacks, ret)
+DL,2,Markell Chapman,DT,JR,arrival(Iowa State-B12),Athlon,feed,M,a transfer-heavy edge/tackle rebuild: Kellen Lindstrom (Tennessee) + Josh Lukusa (Miami OH) + Chapman (Iowa St) + Malachi Madison (UMass) + Dylan Brooks (Kansas). LOST top edge Toney (75.7->Coastal) + Wesolak (67.4->Coastal) + yr4 (Smithson/Dietlin/Townley). PRSH p53
+LB,1,Jared Lloyd,LB,SR,returning,Athlon,feed,M,66.8/518 (CUSA -12.31; the "centerpiece" - tied for the team lead in tackles; "a great offseason leader" - Woods)
+LB,2,Cooper Roy,LB,JR,returning,Athlon,feed,M,59.6/175 (ret) + Austin Yelder + Jashawn Cooper + transfers Stratton Shufelt (UTEP) + Martavis Blackmon (feed-gap). LOST Jalen Brooks (85.0/326, yr4 - the TOP LB grade) + Kanye Young (55.9/756, yr4)
+DB,1,Dylan Dixson,S,SR,returning,Athlon,feed,M,53.3/608 (CUSA -6.16; a returning S - Dixson + Ford combined for 102 tackles) + Christian Ford (54.4/763, ret) + J.J. O'Neal (withdrawal, S)
+DB,2,Joel Kpassou,CB,SR,arrival(Duquesne-FCS),Athlon,feed,L,a CB transfer rebuild: "two Joels" - Kpassou (Duquesne) + Boamah (feed-gap) - + Geo Jallah (Benedict S). LOST top CB Dunbar (79.5/770, yr4) + Thomas Anderson (63.2/789, yr4) + Neal (64.3/775, yr4). COV p37
+ST,1,Yousef Obeid,K,JR,returning,Athlon,feed,M,a QUALITY returning kicker - HM All-CUSA in '25. SPEC was p1 (worst - but that is coverage/return-driven; the specialists are the strength)
+ST,2,Stewart McDonald,P,SO,returning,Athlon,feed,M,the returning punter + KR Robinson (19.4 avg) + PR Kpassou. Real specialist continuity (K + P both back)

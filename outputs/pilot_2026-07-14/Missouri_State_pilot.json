@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T19:07:33+00:00",
+ "team": "Missouri State",
+ "final": -11.55,
+ "rank": 115,
+ "band": 7.19,
+ "resid": 12.18,
+ "adj": 4.26,
+ "class_term": 0.0,
+ "st": -0.12,
+ "anchor_blend": -16.15,
+ "resid_level": 8.46,
+ "resid_shape": 3.72,
+ "implied_off": 23.64,
+ "implied_def": 27.1,
+ "anchor_off": 17.98,
+ "anchor_def": 33.62,
+ "fit_r2": {
+  "off": 0.538,
+  "dfn": 0.612
+ },
+ "low_conf_units": 2,
+ "code_rev": "c3cd7cd",
+ "mode": "PILOT-OOS"
+}
