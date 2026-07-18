@@ -1,0 +1,132 @@
+{
+ "team": "Florida International",
+ "units": {
+  "QB": {"grade": 46, "confidence": "M"},
+  "RB": {"grade": 42, "confidence": "M"},
+  "WRTE": {"grade": 46, "confidence": "M"},
+  "OL": {"grade": 40, "confidence": "M"},
+  "DL": {"grade": 46, "confidence": "M"},
+  "LB": {"grade": 44, "confidence": "M"},
+  "DB": {"grade": 44, "confidence": "M"},
+  "ST": {"grade": 44, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T17:48:00Z (Florida International)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary + scout + web; PS CUSA text GARBLED; no Pick Six for CUSA]; Conference USA -> returning tape on CUSA cells [heavily negative], arrivals on origin [FCS = no cell]; HC Willie Simmons Y2 [first-year HC in 2025 -> NO CHANGE, band x1.00]; disposition gate 41 rows / 0 adjudicate / 0 err - portal_withdrawal_overrides DE Kenton Simmons [2nd-team All-CUSA, web-confirmed on the '26 roster] + OL Antonio Tripp; yr4-return override Zaire Flournoy; departure_confirmed_research Owens [pros] + Chaney [yr4]; portal_departure_confirmed Payne/Cedeno/Shannon; a P4 RAID [8 to P4] feed-destinationed; name-form Deuce=Brian Blades II; OL not a total rebuild - Jaleel Davis 908 snaps returns]; anchor values not consulted. DISCLOSED: Athlon NF112 / CUSA prediction 6 incidentally visible, logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB46/RB42/WRTE46/OL40/DL46/LB44/DB44/ST44, sum 352). No post-freeze corrections. Mid-build refinement: OL set to 40 (not lower) after the ledger revealed a returning 908-snap lineman (Jaleel Davis) - the OL is not the TOTAL rebuild Athlon's 'lost all 5 starters' implied (3 return with snaps). The bullish Athlon prose was checked against the feed's P4 RAID (8 to P4); the withdrawals (Kenton Simmons web-confirmed, Tripp) keep the DL/OL from being under-rated."},
+  "shadow_proxy_divergence": {
+   "note": "the proxy (QB 36, RB 2, WRTE 7, OL 12, DL 0, LB 25, DB 29, ST 47) is low across the board - the P4 raid + the new QB. The grades key the VERIFIED returners the proxy can't see (Kenton Simmons + Dante Anderson at DE; Taylor at LB; Sterlin at S; Stone at WR) + the transfer reload.",
+   "DL": "+46 vs proxy 0 - proxy zeroed the front; the grade keys the withdrawn Kenton Simmons (2nd-team All-CUSA) + Dante Anderson (80.0).",
+   "WRTE": "+39 vs proxy 7 - the grade keys the returning Stone (80.1) + Gaines the proxy missed.",
+   "DB": "+15 vs proxy 29 - the grade keys Sterlin + the transfer reload (Johnson FAU 78.7) after the top 4 DBs left.",
+   "QB": "+10 vs proxy 36 - the grade keys the App St transfer Kohl (an arrival the proxy can't credit)."
+  }
+ },
+ "grades_detail": [
+  {"team": "Florida International", "unit": "QB", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Louisville QB 2026 (46, peer)", "TCU QB 2026 (46, peer)"],
+   "rationale_bullets": [
+    "JJ Kohl (App State transfer, 6-7/250; 1,465 yds/12 TD/2 INT at 61.6% in '25) + Zach Marker (transfer). LOST Keyone Jenkins (-> UCF).",
+    "A proven, efficient G5-transfer starter (an App State arrival) stepping in for the departed Jenkins - new to the FIU offense but with real production.",
+    "46: ~Louisville/TCU QB 46. Kohl's App St production + size vs the new-scheme integration. M."
+   ],
+   "key_players": [
+    {"name": "JJ Kohl", "role": "QB (transfer, App State)", "evidence": "6-7/250; 1,465 yds/12 TD/2 INT at 61.6% in '25 - a proven G5 starter"}
+   ],
+   "data_gaps": ["new to the FIU offense", "lost Jenkins to UCF"],
+   "g5_guard_note": "Conference USA; a proven App State-transfer QB (Kohl) stepping in - an arrival graded on his origin production."},
+  {"team": "Florida International", "unit": "RB", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["Memphis RB 2026 (42, peer)", "Iowa State RB 2026 (42, peer)"],
+   "rationale_bullets": [
+    "Anthony Carrie (63.1/105 -> CUSA -7.50; the returning #2 rusher, a GT transfer - 469 yds/5 TD) + Devonte Lyons. LOST Kejon Owens (81.2, 1,300 yds -> the pros).",
+    "A returning complementary back (Carrie) stepping up after the 1,300-yard lead back left, off a modest run game (RUN p30).",
+    "42: ~Memphis/Iowa State RB 42. Carrie + Lyons vs the lost lead back. M."
+   ],
+   "key_players": [
+    {"name": "Anthony Carrie", "role": "RB (returning)", "evidence": "63.1/105; the returning #2 rusher (469 yds/5 TD), a GT transfer"}
+   ],
+   "data_gaps": ["lost the 1,300-yd lead back (Owens -> pros)", "modest run game (RUN p30)"],
+   "g5_guard_note": "Conference USA; a returning complementary back (Carrie, offset -7.50) stepping up after the lead back left."},
+  {"team": "Florida International", "unit": "WRTE", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Tulane WRTE 2026 (46, peer)", "East Carolina WRTE 2026 (46, peer)"],
+   "rationale_bullets": [
+    "Jojo Stone (80.1/121 -> CUSA -4.19; a high-grade returning WR) + Kyle McNeal (62.6/282) + Maguire Anderson (59.4) + Greg Gaines III (Rhode Island FCS, 1,000-yd). LOST Alex Perry (74.7 -> Illinois).",
+    "A high-grade returning WR (Stone) + returning depth + a 1,000-yard FCS transfer, off a decent receiving unit (RECV p64) - even after losing Perry.",
+    "46: ~Tulane/East Carolina WRTE 46. Stone + Gaines + the returning corps vs the Perry loss + the QB change. M."
+   ],
+   "key_players": [
+    {"name": "Jojo Stone", "role": "WR (returning)", "evidence": "80.1/121; a high-grade returning wideout"},
+    {"name": "Greg Gaines III", "role": "WR (transfer, Rhode Island FCS)", "evidence": "a 1,000-yard FCS receiver added to the corps"}
+   ],
+   "data_gaps": ["lost Alex Perry (74.7 -> Illinois)", "a new QB throwing"],
+   "g5_guard_note": "Conference USA; a high-grade returning WR (Stone, offset -4.19) + an FCS 1,000-yd transfer."},
+  {"team": "Florida International", "unit": "OL", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Maryland OL 2026 (40, peer)", "UCF OL 2026 (40, peer)"],
+   "rationale_bullets": [
+    "Zaire Flournoy (70.4/409; RG, yr4 override) + Antonio Tripp Jr. (LG; withdrew) + Jaleel Davis (908 snaps; returning) + Chad Staley + transfers (Harley C, Ripert RT) + Fr Jeremy Smith (LT). Athlon 'lost all 5 starters,' but 3 return with snaps.",
+    "A heavy rebuild off poor pass pro (PBLK p21) - but NOT total: 3 returning linemen with snaps (Davis 908 + Flournoy + Tripp) + a transfer reload.",
+    "40: ~Maryland/UCF OL 40. The 3 returning bodies + transfers vs the poor pass-pro baseline + the churn. M."
+   ],
+   "key_players": [
+    {"name": "Jaleel Davis", "role": "OL (returning)", "evidence": "908 snaps - a returning lineman (so not a total rebuild)"},
+    {"name": "Antonio Tripp Jr.", "role": "OL (returning, withdrew)", "evidence": "withdrew from the portal to anchor the line"}
+   ],
+   "data_gaps": ["heavy OL churn (several to P4)", "poor pass pro (PBLK p21)"],
+   "g5_guard_note": "Conference USA; a rebuilt line but not total - 3 returners with snaps (Davis/Flournoy/Tripp, offset -6.36) + transfers."},
+  {"team": "Florida International", "unit": "DL", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Alabama DL 2026 (46, peer)", "Florida State DL 2026 (46, peer)"],
+   "rationale_bullets": [
+    "Kenton Simmons (61.1/637 -> CUSA -7.88; 2nd-team All-CUSA, 8 TFL/6 sacks; WITHDREW) + Dante Anderson (80.0/169; 'returns to the edge,' 3 sacks) + Germaine Carter (DT) + transfers (Elijah Simmons WVU). LOST Xion Chapman (73.9 -> Minnesota).",
+    "A genuine returning EDGE duo (Kenton Simmons + Dante Anderson 80.0) - the defense's strength - though the interior lost Chapman + the run D was poor (RDEF p15).",
+    "46: ~Alabama/Florida State DL 46. The edge duo vs the interior turnover + the poor run-D baseline. M."
+   ],
+   "key_players": [
+    {"name": "Kenton Simmons", "role": "ED (returning, withdrew)", "evidence": "61.1/637; 2nd-team All-CUSA (8 TFL/6 sacks), withdrew from the portal"},
+    {"name": "Dante Anderson", "role": "ED (returning)", "evidence": "80.0/169; returns to the edge (3 sacks) - the top DL grade"}
+   ],
+   "data_gaps": ["lost DT Chapman (73.9 -> Minnesota)", "poor run D (RDEF p15)"],
+   "g5_guard_note": "Conference USA; a returning EDGE duo (Kenton Simmons withdrew + Dante Anderson 80.0, offset -7.88) - the defense's strength."},
+  {"team": "Florida International", "unit": "LB", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Kansas State LB 2026 (44, peer)", "Oregon State LB 2026 (44, peer)"],
+   "rationale_bullets": [
+    "Josiah Taylor (71.2/665 -> CUSA -12.31; the leading returning tackler - 76 stops/6.5 TFL/2 sacks) + Percy Courtney Jr. (68.5/298; WLB, 7 TFL) + transfers. LOST Johnny Chaney (69.6, yr4) + Nunoo (-> Akron).",
+    "A proven returning MLB (Taylor) + a returning WLB (Courtney) - a solid returning duo, though the run D was leaky.",
+    "44: ~Kansas State/Oregon State LB 44. Taylor + Courtney vs the lost depth + the poor run-D baseline. M."
+   ],
+   "key_players": [
+    {"name": "Josiah Taylor", "role": "MLB (returning)", "evidence": "71.2/665; the leading returning tackler (76 stops/6.5 TFL/2 sacks)"},
+    {"name": "Percy Courtney Jr.", "role": "WLB (returning)", "evidence": "68.5/298; a returning WLB (7 TFL)"}
+   ],
+   "data_gaps": ["lost Chaney (69.6, yr4)", "leaky run D"],
+   "g5_guard_note": "Conference USA; a proven returning MLB (Taylor, offset -12.31) + a returning WLB - a solid duo."},
+  {"team": "Florida International", "unit": "DB", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Fresno State DB 2026 (44, peer)", "Arkansas State DB 2026 (44, peer)"],
+   "rationale_bullets": [
+    "Shamir Sterlin (72.6/576 -> CUSA -6.16; Freshman All-CUSA, 65 tackles) + Jai-Ayviauynn Celestine (69.2/472) + Demetrius Hill (65.8) + transfers (Lawrence Johnson FAU 78.7, DeAndre Boykins Oklahoma State, Wesley Miller So Ala). LOST the top 4: Blades (79.6 -> Wake) + McGrew (72.5 -> Arizona St) + Clark (-> Purdue) + Evans (-> Nebraska).",
+    "A returning star (Sterlin, Freshman All-CUSA) + a strong transfer reload (Johnson FAU 78.7) after the P4 raid took the top 4 DBs off a COV-p79 unit.",
+    "44: ~Fresno State/Arkansas State DB 44. Sterlin + the transfers vs the total top-4 turnover. M."
+   ],
+   "key_players": [
+    {"name": "Shamir Sterlin", "role": "S (returning)", "evidence": "72.6/576; Freshman All-CUSA (65 tackles) - the secondary anchor"},
+    {"name": "Lawrence Johnson", "role": "CB (transfer, FAU)", "evidence": "78.7/179; a high-grade CUSA-transfer corner"}
+   ],
+   "data_gaps": ["the top 4 DBs left for P4 (Blades/McGrew/Clark/Evans)", "COV-p79 group largely raided"],
+   "g5_guard_note": "Conference USA; a returning star (Sterlin, offset -6.16) + a transfer reload (Johnson FAU 78.7) after the P4 raid."},
+  {"team": "Florida International", "unit": "ST", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Arkansas ST 2026 (44, peer)", "Boise State ST 2026 (44, peer)"],
+   "rationale_bullets": [
+    "K Robert Czeremcha (2-of-3 in '25) + P Stone Springman (Miami transfer) + return men Devonte Lyons + Maguire Anderson (a 97-yd punt-return TD in the bowl). SPEC was p47.",
+    "A genuine returning return threat (Anderson) + a Miami-transfer punter + a young kicker.",
+    "44: ~Arkansas/Boise State ST 44. The return value + the transfer punter vs the unproven kicker. M."
+   ],
+   "key_players": [
+    {"name": "Maguire Anderson", "role": "PR (returning)", "evidence": "a 97-yard punt-return TD in the First Responder Bowl - a return threat"},
+    {"name": "Stone Springman", "role": "P (transfer, Miami)", "evidence": "a Miami transfer taking over punting"}
+   ],
+   "data_gaps": ["young kicker (Czeremcha, 2-3 in '25)"],
+   "g5_guard_note": "Conference USA; a returning return threat (Anderson) + a Miami-transfer punter - a relative ST plus."}
+ ]
+}

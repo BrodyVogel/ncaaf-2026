@@ -1,0 +1,54 @@
+{
+ "team": "Florida International",
+ "conference": "Conference USA",
+ "created_utc": "2026-07-18T17:37:06+00:00",
+ "assembler_git_rev": "1165532",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Willie Simmons (7-6 at school, entering Year 2 - first-year HC in 2025, so NO change for 2026; band x1.00; 73-30 career over 9 yrs). '25: 7-6 (5-3 CUSA) - FIU's first winning season since 2018 + first bowl since 2019. G5 2-SOURCE build (Athlon primary + scout + web). Moderate-high churn (16 in / 21 out) with a P4 RAID.",
+ "conference_note": "Conference USA. Returning tape on CUSA cells (heavily negative); arrivals on origin. A P4 RAID: FIU lost 8 players to P4 (WR Perry -> Illinois, DT Chapman -> Minnesota, S Clark -> Purdue, S McGrew -> Arizona St, CB Blades -> Wake, CB Evans -> Nebraska, OL Rabess -> Cal, OL Buchanon -> TCU) + QB Jenkins -> UCF + all 5 OL starters. Reloads via the portal (QB Kohl App St; CB Johnson FAU; NB Boykins Ok St). Keeps a strong edge (Kenton Simmons withdrew + Dante Anderson) + MLB Taylor + S Sterlin.",
+ "portal_withdrawal_overrides": [
+  "Kenton Simmons",
+  "Antonio Tripp Jr."
+ ],
+ "yr4_return_overrides_documented": [
+  "Zaire Flournoy"
+ ],
+ "nfl_declare_confirmed": [],
+ "portal_departure_confirmed": [
+  "Dallas Payne",
+  "Miguel Cedeno",
+  "Steven Shannon"
+ ],
+ "departure_confirmed_research": [
+  "Kejon Owens",
+  "Johnny Chaney Jr.",
+  "Deuce Blades II"
+ ],
+ "feed_gap_arrivals_documented": [
+  "Greg Gaines III (WR; a Rhode Island FCS 1,000-yd receiver - Athlon-named, may not be in the CFBD portal-in feed)"
+ ],
+ "known_name_exceptions": {
+  "JJ Kohl": "QB - App State transfer (6-7/250); 1,465 yds/12 TD/2 INT at 61.6% in '25. The new starter after Keyone Jenkins left for UCF. An arrival (App State/SBC origin).",
+  "Kenton Simmons": "ED, 61.1/637 - RETURNS (portal_withdrawal_override). 2nd-team All-CUSA (8 TFL/6 sacks); portal->None but WITHDREW - CONFIRMED on the FIU 2026 official roster (web). The DE star.",
+  "Antonio Tripp Jr.": "OL, - RETURNS (portal_withdrawal_override). portal->None but Athlon names him a returnee to 'anchor' the OL (LG on the depth chart) - WITHDREW.",
+  "Zaire Flournoy": "OL - RETURNS (yr4 override). Athlon 'rely on returnees Zaire Flournoy + Antonio Tripp Jr. to anchor the unit' after losing all 5 OL starters.",
+  "Dante Anderson": "ED, 80.0/169 - RETURNS. 'Returns to the edge' (3 sacks); the highest DL grade - a young returning edge alongside Kenton Simmons.",
+  "Deuce Blades II": "CB, 79.6/582 - GONE (portal -> Wake Forest). NAME-FORM: the feed's 'Deuce Blades II' = 'Brian Blades II' in the portal-out feed + yr4 list (nickname). The top DB grade, to a P4.",
+  "Kejon Owens": "RB, 81.2/211 - GONE (departure_confirmed_research; 'departed for the pro ranks' per Athlon + yr4). The 1,300-yd lead back; Carrie (the #2) steps up.",
+  "Alex Perry": "WR, 74.7/393 - GONE (portal -> Illinois). The top WR grade; Stone (80.1) + McNeal anchor the returning corps.",
+  "Shamir Sterlin": "S, 72.6/576 - RETURNS. Freshman All-CUSA (65 tackles); the secondary anchor after the P4 raid on the DBs.",
+  "Josiah Taylor": "MLB, 71.2/665 - RETURNS. The leading returning tackler (76 stops/6.5 TFL/2 sacks).",
+  "Jaleel Davis": "OL, 56.4/908 - RETURNS. A 908-snap returning lineman (feed) - so the OL is not a TOTAL rebuild despite Athlon's 'lost all 5 starters'; 3 return with snaps (Davis + Flournoy yr4-return + Tripp withdrew). OL graded 40 (not lower) to reflect this."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon + the FIU '26 official roster (web-verified Kenton Simmons). Moderate-high churn (16/21) with a P4 RAID (8 players to P4 + QB Jenkins -> UCF + all 5 OL starters).",
+  "7-6 (5-3 CUSA) in Willie Simmons's first year (now Y2, no change) - FIU's first winning season since 2018. OFF p44 (RECV p64, PBLK p21 poor), DEF p42 (RDEF p15 poor run D, COV p79 good coverage - but that coverage group was largely RAIDED).",
+  "The OFFENSE has a NEW QB (App St transfer Kohl, a solid 1,465-yd/12-TD passer) after Jenkins -> UCF; RB Carrie (the returning #2) steps up after Owens (1,300 yds) left for the pros; WRs Stone (80.1) + McNeal + Anderson return + URI transfer Gaines; but it LOST ALL 5 OL starters (rebuild via withdrawn Tripp + yr4-return Flournoy + transfers) off poor pass pro (PBLK p21).",
+  "The DEFENSE keeps a strong EDGE (Kenton Simmons 2nd-team All-CUSA WITHDREW + Dante Anderson 80.0) + MLB Josiah Taylor (leading returning tackler) + S Sterlin (Freshman All-CUSA). But the secondary was RAIDED - the top 4 DBs (Blades 79.6->Wake, McGrew 72.5->Arizona St, Clark->Purdue, Evans->Nebraska) all left for P4; it reloads via transfers (Johnson FAU 78.7, Boykins Ok State). RDEF was p15 (poor run D).",
+  "ST: a returning return threat (Maguire Anderson, a 97-yd punt-return TD) + a Miami-transfer punter (Springman) + a young kicker (Czeremcha, 2-3). SPEC p47."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF112 / CUSA prediction 6 incidentally visible - logged, NOT used. G5 2-source (Athlon primary + scout + web; PS CUSA text garbled).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T17:48:00+00:00"
+}

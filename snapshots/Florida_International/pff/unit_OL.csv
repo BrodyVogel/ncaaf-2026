@@ -1,0 +1,18 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Jaleel Davis,143989,T,FIU,13,99.9,2,166,56.4,54.1,57.4,3,35,476,99.8,99.8,95.4,5,41,3,907,0,2,895,908,509,510,0,0,398,11,2025_this_team
+Jaheim Buchanon,175543,G,FIU,13,100.0,0,166,70.7,75.7,68.0,5,9,468,100.0,100.0,98.3,2,15,1,892,30,860,0,892,501,501,0,2,391,0,2025_this_team
+Julius Pierce,98396,C,FIU,13,100.0,1,166,59.6,64.8,57.5,2,5,464,100.0,100.0,99.2,5,7,0,878,878,0,0,878,495,495,0,0,383,0,2025_this_team
+Antonio Tripp Jr.,170095,G,FIU,12,100.0,0,166,60.0,70.3,59.7,1,4,276,100.0,100.0,98.0,4,8,3,526,0,0,2,526,289,289,524,0,237,0,2025_this_team
+Daniel Michel,175560,T,FIU,11,100.0,1,166,58.0,57.8,62.2,4,13,250,100.0,100.0,95.8,10,19,2,454,0,0,0,454,264,264,2,448,190,3,2025_this_team
+Miguel Cedeno,162991,T,FIU,13,100.0,0,166,54.4,39.4,59.5,3,17,223,100.0,100.0,94.6,1,22,2,453,0,0,0,453,242,242,1,447,211,5,2025_this_team
+Zaire Flournoy,121488,G,FIU,13,100.0,0,166,70.4,66.4,70.6,1,3,214,100.0,100.0,99.1,3,4,0,409,0,26,1,409,235,235,381,1,174,0,2025_this_team
+Chad Staley,165355,C,FIU,12,99.0,0,166,87.7,82.4,77.7,0,0,27,96.4,96.9,100.0,0,0,0,103,21,0,2,104,31,32,0,2,72,69,2025_this_team
+Spencer Webb,175171,T,E MICHIGAN,2,100.0,0,160,44.1,28.6,51.2,0,5,47,100.0,100.0,94.7,1,5,0,94,0,0,0,94,51,51,0,94,43,0,arrival_2025_at_E MICHIGAN
+Akeem Neal,198395,G,FIU,6,100.0,0,166,55.4,16.9,63.1,0,4,28,100.0,100.0,92.9,0,4,0,63,8,54,1,63,29,29,0,0,34,0,2025_this_team
+Mykeal Rabess,170405,T,FIU,5,100.0,0,166,65.0,75.1,59.3,0,1,29,100.0,100.0,98.3,0,1,0,53,0,0,18,53,29,29,1,34,24,0,2025_this_team
+Viliami Makahununiu,157800,G,FIU,5,100.0,0,166,62.3,65.9,60.8,0,1,19,100.0,100.0,92.1,0,2,1,42,0,0,10,42,19,19,32,0,23,0,2025_this_team
+Jackson Schultze,126368,T,FIU,4,100.0,0,166,62.1,80.8,58.8,0,0,9,100.0,100.0,100.0,0,0,0,30,0,4,13,30,9,9,9,1,21,3,2025_this_team
+Jon Rodriguez,189780,C,FIU,4,100.0,0,166,54.0,34.0,56.2,0,0,8,100.0,100.0,100.0,0,0,0,25,17,8,0,25,8,8,0,0,17,0,2025_this_team
+Noah Fernandez,175553,T,FIU,2,100.0,0,166,63.6,77.0,60.2,0,0,6,100.0,100.0,100.0,0,0,0,11,0,0,0,11,6,6,0,11,5,0,2025_this_team
+Jeremy Smith,198402,T,FIU,2,100.0,0,166,67.6,69.9,68.9,0,0,2,100.0,100.0,100.0,0,0,0,5,0,0,5,5,2,2,0,0,3,0,2025_this_team
+Knajee Saffold,189781,G,FIU,1,100.0,0,166,66.7,67.3,66.1,0,0,1,100.0,100.0,100.0,0,0,0,4,0,0,0,4,1,1,4,0,3,0,2025_this_team

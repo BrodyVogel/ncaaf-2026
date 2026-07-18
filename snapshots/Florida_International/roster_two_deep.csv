@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,JJ Kohl,QB,JR,arrival(App State-SBC),Athlon,feed,M,67.5/248 (App State transfer; 6-7/250; 1,465 yds/12 TD/2 INT at 61.6% in '25 - a solid proven G5 starter). LOST Keyone Jenkins (-> UCF)
+QB,2,Zach Marker,QB,SR,arrival(transfer),Athlon,feed,L,a transfer backup
+RB,1,Anthony Carrie,RB,JR,returning,Athlon,scout,M,63.1/105 (CUSA -7.50; the returning #2 rusher, a Georgia Tech transfer - 469 yds/5 TD). LOST Kejon Owens (81.2, 1,300 yds -> pros/yr4)
+RB,2,Devonte Lyons,RB,SO,returning,Athlon,feed,L,59.1/37 (a returning back + KR)
+WRTE,1,Jojo Stone,WR,SO,returning,Athlon,feed,M,80.1/121 (CUSA -4.19; a high-grade returning WR)
+WRTE,2,Kyle McNeal,WR,JR,returning,Athlon,feed,M,62.6/282 (CUSA; returning) + Maguire Anderson (59.4) + Greg Gaines III (Rhode Island FCS, 1,000-yd receiver). LOST Alex Perry (74.7 -> Illinois)
+OL,1,Zaire Flournoy,RG,SR,returning-yr4override,Athlon,feed,M,a returnee named to "anchor" the OL (yr4 override). Athlon: "LOST ALL FIVE OL starters"
+OL,2,Antonio Tripp Jr.,LG,JR,returning-withdrawal,Athlon,feed,M,portal->None but Athlon-named returnee to anchor the OL (WITHDREW). + Jaleel Davis (908 snaps, returning) + Chad Staley + transfers Harley(C)/Ripert(RT)/Colon + Fr Jeremy Smith(LT). Athlon "lost all 5 starters" but 3 return w/ snaps. PBLK was p21
+DL,1,Kenton Simmons,ED,SR,returning-withdrawal,Athlon,web,H,61.1/637 (CUSA -7.88; 2nd-team All-CUSA - 8 TFL/6 sacks; portal->None but WITHDREW - CONFIRMED on the FIU '26 roster)
+DL,2,Dante Anderson,ED,SO,returning,Athlon,feed,M,80.0/169 (CUSA; "returns to the edge" - 3 sacks) + Germaine Carter (DT) + WVU transfer Elijah Simmons. LOST Xion Chapman (73.9 -> Minnesota). RDEF was p15
+LB,1,Josiah Taylor,LB,SO,returning,Athlon,scout,M,71.2/665 (CUSA -12.31; the leading returning tackler - 76 stops/6.5 TFL/2 sacks)
+LB,2,Percy Courtney Jr.,LB,SR,returning,Athlon,feed,M,68.5/298 (CUSA; the WLB - 7 TFL). LOST Johnny Chaney (69.6 yr4) + Nunoo (-> Akron)
+DB,1,Shamir Sterlin,S,SO,returning,Athlon,scout,M,72.6/576 (CUSA -6.16; Freshman All-CUSA - 65 tackles)
+DB,2,Lawrence Johnson,CB,JR,arrival(FAU-CUSA),Athlon,feed,M,78.7/179 (FAU transfer, high grade) + Celestine (69.2) + Hill (65.8) + Boykins (Oklahoma State). LOST the top DBs: Blades (79.6 -> Wake) + McGrew (72.5 -> Arizona St) + Clark (-> Purdue) + Evans (-> Nebraska)
+ST,1,Robert Czeremcha,K,SO,returning,Athlon,feed,L,2-of-3 FG in '25 (takes over placekicking)
+ST,2,Maguire Anderson,PR,JR,returning,Athlon,feed,M,a 97-yd punt-return TD in the First Responder Bowl + P Stone Springman (Miami transfer). SPEC was p47

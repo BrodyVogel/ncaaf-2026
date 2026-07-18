@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T17:46:57+00:00",
+ "team": "Florida International",
+ "final": -10.72,
+ "rank": 111,
+ "band": 6.0,
+ "resid": 12.73,
+ "adj": 4.46,
+ "class_term": 0.0,
+ "st": -0.12,
+ "anchor_blend": -15.51,
+ "resid_level": 8.28,
+ "resid_shape": 4.45,
+ "implied_off": 23.96,
+ "implied_def": 26.53,
+ "anchor_off": 20.6,
+ "anchor_def": 35.9,
+ "fit_r2": {
+  "off": 0.54,
+  "dfn": 0.611
+ },
+ "low_conf_units": 0,
+ "code_rev": "1165532",
+ "mode": "PILOT-OOS"
+}

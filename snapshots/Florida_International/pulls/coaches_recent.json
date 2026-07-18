@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Mike",
+  "lastName": "MacIntyre",
+  "hireDate": "2021-12-09T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Florida International",
+    "year": 2024,
+    "games": 12,
+    "wins": 4,
+    "losses": 8,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -11.6,
+    "spOverall": -12.1,
+    "spOffense": 20.5,
+    "spDefense": 31.3
+   }
+  ]
+ },
+ {
+  "firstName": "Willie",
+  "lastName": "Simmons",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Florida International",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -10.4,
+    "spOverall": -10.5,
+    "spOffense": 26.1,
+    "spDefense": 35.8
+   }
+  ]
+ }
+]
