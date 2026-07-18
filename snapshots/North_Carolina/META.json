@@ -1,0 +1,39 @@
+{
+ "team": "North Carolina",
+ "conference": "ACC",
+ "created_utc": "2026-07-18T00:34:30+00:00",
+ "assembler_git_rev": "7f1b942",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Bill Belichick - PS '2nd Yr Here / 2nd Overall FBS' (coached the '25 4-8 team). NO HC change for '26 (band x1.00). NEW OC Bobby Petrino (arrives '26 - offensive scheme upgrade, NOT a band trigger); DC Steve Belichick returns. Verified BOTH sources.",
+ "conference_note": "ACC (P4). R14: ACC cells POSITIVE on returning tape; arrivals on origin cells. HEAVY churn (20 in / 31 out). Arrivals: Billy Edwards Jr Wisconsin/B10 (QB - via Maryland; 520 P4 att), Miles O'Neill Texas A&M/SEC (QB), Kaleb Jackson LSU/SEC (+10.17 RB weighted DOWN); Trech Kekahuna Wisconsin/B10 (-1.26 WRTE), Jelani Thurman Ohio State/B10 (-1.26 WRTE - tiny sample), Jordan Washington Texas/SEC (TE); Christo Kelly Holy Cross/FCS (NO CELL - OL), Jonah Rodriguez + Jacqawn McRoy (OL transfers), Donovan Hoilette Richmond/FCS (OL); Jaylen Harvey Penn State/B10 (DL); Peyton Seelman Richmond/FCS (NO CELL - LB), Derek McDonald Syracuse/ACC (+2.13 LB), Ade Willie Michigan State/B10 (DB->LB); Aeron Burrell (K).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": ["Jordan Hall", "Chad Lindberg", "Marcus Allen", "Gavin Gibson", "Smith Vilbert", "Thaddeus Dixon"],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Gio Lopez": "QB, 73.1/334 (the '25 starter) - GONE (-> Wake Forest). Wisconsin transfer Billy Edwards Jr projected QB1. VERIFIED BOTH.",
+  "Melkart Abou Jaoude": "DE, 79.0/646 (47 tkl, 10.5 sacks - 2nd in ACC) - RETURNS. The DL anchor. Both feature.",
+  "Andrew Simpson": "LB, 74.5/727 (Boise St transfer, '25 #2 tackler) - GONE (yr4). PS 'Simpson... both depart'; Athlon 'LB rebuilt.' EXPIRED(yr4). VERIFIED BOTH.",
+  "Kobe Paysour": "WR, 65.9/307 - GONE (yr4). PS 'lose Paysour.' EXPIRED(yr4).",
+  "Tyler Thompson": "DE, 81.5/291 - GONE (-> Louisville). Confirmed cross-build (listed as Louisville DL arrival).",
+  "Mikai Gbayor": "LB, 67.1/252 - GONE (-> Florida State, yr4). Confirmed cross-build (listed as FSU LB arrival).",
+  "Jordan Hall": "OL LT, 58.2/214 - yr4 but Athlon LT starter + PS lineup -> yr4_return_override.",
+  "Chad Lindberg": "OL C, 72.2/446 - yr4 but Athlon C depth -> yr4_return_override.",
+  "Marcus Allen": "CB, 64.1/722 - yr4 but both list as returning CB -> yr4_return_override.",
+  "Gavin Gibson": "S, 69.2/636 - yr4 but both list as returning S -> yr4_return_override.",
+  "Smith Vilbert": "DE, 64.3/534 - yr4 but Athlon 'brings back multiple contributors along the line' (the #2 edge behind Abou Jaoude) -> yr4_return_override. Not in portal-out/not NFL.",
+  "Thaddeus Dixon": "CB, 65.2/397 - yr4 but both frame the DB as a returning veteran core -> yr4_return_override. Not in portal-out/not NFL."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts. MASSIVE churn (20 in / 31 out) in Belichick's 2nd year.",
+  "4-8 (2-6 ACC) in '25 - a below-average team, better on D (DEF p64, PRSH p64) than O (OFF p28, RUN p20). New OC Bobby Petrino for '26.",
+  "OFFENSE rebuilt: unsettled QB (Edwards Jr Wisconsin/Maryland journeyman + O'Neill A&M; Lopez -> Wake); ALL FIVE OL starters gone (rebuilt w/ FCS/transfer bodies); modest WR (Shipp returns) + a decent transfer TE room (Thurman OSU).",
+  "DEFENSE relatively better: DL anchor Abou Jaoude (10.5 sk) returns + a rotation; DB deep + veteran (Greg Smith, Gibson, Allen, Cost, Patterson). But LB GUTTED (House -> Ark, Simpson yr4, Gbayor -> FSU) - rebuilt with FCS/mid transfers. Cross-builds: Thompson -> Louisville, Gbayor -> FSU, Gause -> NC State, Ty White -> NC State (all confirmed)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T00:55:00Z"
+}

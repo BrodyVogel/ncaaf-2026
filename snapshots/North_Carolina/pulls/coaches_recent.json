@@ -1,0 +1,65 @@
+[
+ {
+  "firstName": "Mack",
+  "lastName": "Brown",
+  "hireDate": "2018-11-27T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "North Carolina",
+    "year": 2024,
+    "games": 12,
+    "wins": 6,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 0.7,
+    "spOverall": 5,
+    "spOffense": 31.5,
+    "spDefense": 26.3
+   }
+  ]
+ },
+ {
+  "firstName": "Freddie",
+  "lastName": "Kitchens",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "North Carolina",
+    "year": 2024,
+    "games": 1,
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 0.7,
+    "spOverall": 5,
+    "spOffense": 31.5,
+    "spDefense": 26.3
+   }
+  ]
+ },
+ {
+  "firstName": "Bill",
+  "lastName": "Belichick",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "North Carolina",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -6.7,
+    "spOverall": -6.6,
+    "spOffense": 17.2,
+    "spDefense": 25
+   }
+  ]
+ }
+]

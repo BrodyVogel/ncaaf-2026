@@ -1,0 +1,34 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Billy Edwards Jr.,QB,SR,transfer:Wisconsin,Athlon,PS,L,Maryland '24 (2881 yds 15-9); Wisconsin '25 OFY; 520 P4 att; "lacks elite arm"
+QB,2,Miles O'Neill,QB,SO,transfer:Texas A&M,Athlon,PS,L,58.9/22; Petrino-recruited; higher ceiling/risk
+RB,1,Demon June,RB,SO,returning,Athlon,PS,M,69.8/84 (ACC +4.90 -> 74.7 adj); most experience
+RB,2,Benjamin Hall,RB,JR,returning,Athlon,PS,L,69.3/71 (74.2 adj); 230+ lbs
+RB,3,Kaleb Jackson,RB,JR,transfer:LSU,Athlon,PS,L,58.6/7 tiny (SEC); power back
+WRTE,1,Jordan Shipp,WR,JR,returning,Athlon,PS,M,73.1/378 (ACC +2.36 -> 75.5 adj); top returner (671 yds)
+WRTE,2,Trech Kekahuna,WR,JR,transfer:Wisconsin,Athlon,PS,L,63.8/172 (B10 -1.26 -> 62.5 adj); slot; came w/ Edwards
+WRTE,3,Nathan Leacock,WR,JR,returning,Athlon,PS,L,44.6/71 (depth)
+WRTE,4,Jelani Thurman,TE,JR,transfer:Ohio State,Athlon,PS,M,82.9/25 tiny (B10 -1.26); OSU pedigree; TE1
+WRTE,5,Jordan Washington,TE,SO,transfer:Texas,Athlon,PS,L,47.6/72 (SEC); TE
+OL,1,Jordan Hall,OT,JR,returning,Athlon,PS,L,58.2/214 (ACC +3.54 -> 61.7 adj); yr4_return_override; LT; unproven pass pro
+OL,2,Christo Kelly,C,SR,transfer:Holy Cross,Athlon,PS,M,FCS (NO CELL); 20+ career starts; back from injury; key piece
+OL,3,Aidan Banfield,G,JR,returning,Athlon,PS,L,64.8/185 (68.3 adj); LG
+OL,4,Jonah Rodriguez,G,JR,transfer:transfer,Athlon,PS,L,RG; transfer
+OL,5,Jacqawn McRoy,OT,SO,transfer:transfer,Athlon,PS,L,RT; transfer
+OL,6,Chad Lindberg,C,SR,returning,Athlon,PS,L,72.2/446 (yr4_return_override); C depth
+DL,1,Melkart Abou Jaoude,ED,SR,returning,Athlon,PS,H,79.0/646 (ACC +1.19 -> 80.2 adj); 10.5 sacks (2nd ACC); anchor
+DL,2,Smith Vilbert,ED,SR,returning,Athlon,PS,M,64.3/534 (65.5 adj)
+DL,3,Isaiah Johnson,DI,JR,returning,Athlon,PS,M,72.9/330 (74.1 adj)
+DL,4,Leroy Jackson,DI,JR,returning,Athlon,PS,M,69.0/368 (70.2 adj)
+DL,5,Xavier Lewis,DI,SO,returning,Athlon,PS,L,70.3/167 (71.5 adj)
+DL,6,Jaylen Harvey,ED,JR,transfer:Penn State,Athlon,PS,L,56.2/159 (B10); DE depth
+LB,1,Peyton Seelman,LB,JR,transfer:Richmond,Athlon,PS,L,FCS (NO CELL); 120 tkl at Richmond
+LB,2,Derek McDonald,LB,SO,transfer:Syracuse,Athlon,PS,L,50.0/90 (ACC +2.13); 28 st at Syracuse
+LB,3,Timir Hickman-Collins,LB,SO,returning,Athlon,PS,L,57.7/60 (depth)
+DB,1,Marcus Allen,CB,SR,returning,Athlon,PS,M,64.1/722 (ACC +1.18 -> 65.3 adj); yr4_return_override
+DB,2,Gavin Gibson,S,SR,returning,Athlon,PS,M,69.2/636 (ACC +1.18 -> 70.4 adj); yr4_return_override
+DB,3,Greg Smith,S,JR,returning,Athlon,PS,M,79.3/273 (ACC +1.18 -> 80.5 adj); great spring
+DB,4,Jaiden Patterson,CB,JR,returning,Athlon,PS,M,70.8/473 (72.0 adj)
+DB,5,Kaleb Cost,CB,SO,returning,Athlon,PS,M,67.4/480 (68.6 adj); NB
+DB,6,Thaddeus Dixon,CB,JR,returning,Athlon,PS,L,65.2/397 (66.4 adj)
+ST,1,Aeron Burrell,K,JR,transfer:transfer,Athlon,PS,L,transfer PK
+ST,2,Jacob Horvath,P,JR,returning,Athlon,PS,L,punter

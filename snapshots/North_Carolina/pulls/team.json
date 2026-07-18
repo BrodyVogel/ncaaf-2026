@@ -1,0 +1,36 @@
+{
+ "id": 153,
+ "school": "North Carolina",
+ "mascot": "Tar Heels",
+ "abbreviation": "UNC",
+ "alternateNames": [
+  "UNC",
+  "North Carolina"
+ ],
+ "conference": "ACC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#7bafd4",
+ "alternateColor": "#13294b",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/153.png"
+ ],
+ "twitter": "@UNCFootball",
+ "location": {
+  "id": 3787,
+  "name": "Kenan Stadium",
+  "city": "Chapel Hill",
+  "state": "NC",
+  "zip": "27515",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 35.9069294,
+  "longitude": -79.0478889,
+  "elevation": "127.7569809",
+  "capacity": 50500,
+  "constructionYear": 1927,
+  "grass": false,
+  "dome": false
+ }
+}
