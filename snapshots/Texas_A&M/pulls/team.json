@@ -1,0 +1,36 @@
+{
+ "id": 245,
+ "school": "Texas A&M",
+ "mascot": "Aggies",
+ "abbreviation": "TA&M",
+ "alternateNames": [
+  "TA&M",
+  "Texas A&M"
+ ],
+ "conference": "SEC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#500000",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/245.png"
+ ],
+ "twitter": "@AggieFootball",
+ "location": {
+  "id": 3795,
+  "name": "Kyle Field",
+  "city": "College Station",
+  "state": "TX",
+  "zip": "77843",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 30.6098891,
+  "longitude": -96.3403828,
+  "elevation": "108.824585",
+  "capacity": 102733,
+  "constructionYear": 1927,
+  "grass": true,
+  "dome": false
+ }
+}

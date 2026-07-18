@@ -1,0 +1,44 @@
+{
+ "team": "Texas A&M",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T05:29:14+00:00",
+ "assembler_git_rev": "fdbd827",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Mike Elko (Year 3; NO CHANGE; band x1.00). DOUBLE COORDINATOR SWITCH: OC Collin Klein left for the Kansas State HC job -> Elko promoted WR coach Holmon Wiggins (first-time playcaller) + QB coach Joey Lynch; plus a DC change under Elko's 4-2-5. BOTH are coordinator changes (do NOT trigger the band multiplier). '25: 11-2 (7-1 SEC), first Playoff bid, 0-2 finish. Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC); arrivals on origin cells. SEC offsets LARGE - big cells (OL/LB/RB) WEIGHTED DOWN; small samples discounted. Top-10 transfer haul to offset a SCHOOL-RECORD 10 NFL draft picks. Arrivals on origin: Horton (Alabama/SEC), Formby (Alabama/SEC), Tyree Adams+Echols (LSU/SEC), Baugh (South Carolina/SEC), Rickey Gibson (Tennessee/SEC), Saka (Northwestern/B10 - DL +10.38 weighted DOWN), Mims (UNC/ACC), Davis-Swain (Colorado/B12), Coney (Tulsa/AAC - LB -10.73), Byard (Colorado/B12), Olano (Illinois/B10 K), Houston Thomas (UTSA/AAC).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Bryce Anderson"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [
+  "KC Concepcion",
+  "Taurean York",
+  "Chase Bisontis"
+ ],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Marcel Reed": "QB, 68.3/468 - RETURNS. Multi-year starter, top-5 SEC in yds/att; 3,169 yds/25 TD but 12 INT + late-season collapses (2 picks vs Texas, INT vs Miami). Dual-threat (493 rush/6 TD). SEC +7.72 weighted; narrative exceeds the efficiency grade.",
+  "KC Concepcion": "WR, 78.4/374 - GONE, NFL 1st round (Cleveland Browns). Junior declare invisible to feeds (feed showed RETURNS) -> nfl_declare_confirmed. VERIFIED via web. P6 'picked in the first round this April.'",
+  "Chase Bisontis": "G, 62.4/795 - GONE, NFL 2nd round (#34 Arizona Cardinals). All-SEC; junior declare (feed showed RETURNS) -> nfl_declare_confirmed. VERIFIED via web. One of 4 drafted OL starters.",
+  "Taurean York": "LB, 83.7/693 - GONE, NFL (declared, turned pro). 3-yr starter/captain, tackle machine; junior declare (feed showed RETURNS) -> nfl_declare_confirmed. VERIFIED via web (KBTX 'declares for 2026 NFL Draft').",
+  "Cashius Howell": "ED, 81.2/591 - GONE, NFL (SEC Defensive Player of the Year, 11.5 sacks, unanimous All-American, drafted). yr4 -> EXPIRED(yr4). The defense's marquee loss.",
+  "Mario Craver": "WR, 81.4/282 - RETURNS. All-SEC, 917 yds; the returning headliner in the slot after Concepcion (the other 900+ WR) went R1.",
+  "Marcus Ratcliffe": "S, 80.3/685 - RETURNS. The proven star safety; anchors a secondary where all three safeties return.",
+  "Bryce Anderson": "S, 58.0/138 - RETURNS. P6 'all three safeties are back - Dalton Brooks, Marcus Ratcliffe, and Bryce Anderson.' In the portal with dest None -> portal_withdrawal_override (R15).",
+  "Rickey Gibson III": "CB (Tennessee) - ARRIVES. Was an All-SEC candidate before a season-ending injury; cross-build confirmed from the Tennessee build (Gibson -> Texas A&M). SEC-origin arrival.",
+  "Le'Veon Moss": "RB, 76.1/77 (yr4) - the original '25 starter before a midseason injury; not named returning by any magazine (Athlon RB two-deep = Owens + Morrow) + yr4 + below 100-vol -> GONE/grade-neutral."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 charts + targeted web disposition checks. A SCHOOL-RECORD 10 NFL draft picks depart; three high-grade juniors were invisible to the yr4+portal feeds (Concepcion WR R1, Bisontis OL R2, York LB - all showed RETURNS in the raw feed) and were caught + web-verified.",
+  "The QB (Marcel Reed, 68.3, RETURNS) is a proven multi-year dual-threat starter and the market's Heisman-adjacent centerpiece, but the raw efficiency grade is middling (team PASS p32, 12 INT, late-season INT collapses in both losses). The narrative exceeds the tape.",
+  "OL is a near-total rebuild: only C Mark Nabou returns; the other four starters were ALL drafted (Zuhn/Bisontis/Reed-Adams All-SEC + Crownover). Restocked with four SEC-transfer starters (Formby/Alabama, Tyree Adams+Echols/LSU, Baugh/SC; 54 combined SEC starts) + 5-star Lamont Rogers.",
+  "DL reload after losing 3 drafted (SEC DPOY Cashius Howell + tackles Regis/Onyedim): returns Searcy + 5-star DJ Hicks + Marco Jones; adds Anto Saka (Northwestern, 1st-round buzz) + Mims (UNC) + Davis-Swain (Colorado). LB thin: lost BOTH starters to the NFL (York + Scooby Williams), returns Sanford + adds All-AAC Ray Coney (Tulsa, 128 tkl).",
+  "The SECONDARY is the strength (P6 'packed with returning talent'): all three safeties return (Ratcliffe 80.3 + Brooks + Anderson) + CB Dezz Ricks + transfers Rickey Gibson (Tennessee) + Byard (Colorado). Team COV was p85, PRSH p90 in '25 - but that pass rush (Howell et al.) is largely gone. ST upgraded: Illinois K David Olano (86% career FG) fixes an erratic '25 kicking game; Craver/Bussey return kicks/punts."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded); DISCLOSED: Athlon NF9/SEC4 + Pick Six '#6 SEC / #13 overall' incidentally visible during source inspection (A&M is NOT a SEC_PAGE_MAP-flagged team, but the ranking was seen while locating the byline) - logged in research_log.md, NOT used in grading. Web verification took disposition facts only (no rankings).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T05:34:00+00:00"
+}

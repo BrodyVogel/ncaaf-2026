@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Mike",
+  "lastName": "Elko",
+  "hireDate": "2023-11-27T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Texas A&M",
+    "year": 2024,
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "ties": 0,
+    "preseasonRank": 20,
+    "postseasonRank": null,
+    "srs": 12.2,
+    "spOverall": 17,
+    "spOffense": 34,
+    "spDefense": 18.6
+   }
+  ]
+ },
+ {
+  "firstName": "Mike",
+  "lastName": "Elko",
+  "hireDate": "2023-11-27T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Texas A&M",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 16.6,
+    "spOverall": 20.7,
+    "spOffense": 38,
+    "spDefense": 16.4
+   }
+  ]
+ }
+]

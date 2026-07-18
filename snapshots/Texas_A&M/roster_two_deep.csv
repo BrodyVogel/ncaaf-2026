@@ -1,0 +1,31 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Marcel Reed,QB,JR,returning,Athlon,PS,M,68.3/468 (SEC +7.72 weighted; 3,169 yds/25 TD/12 INT + 493 rush/6 TD; top-5 SEC yds/att; late-season INT issues in the 2 losses)
+QB,2,Brady Hart,QB,FR,returning,Athlon,PS,L,developmental true frosh
+RB,1,Rueben Owens II,RB,JR,returning,Athlon,PS,M,76.6/156 (SEC +10.17 weighted; 639 yds/5.4 after taking over for the injured Moss)
+RB,2,Jamarion Morrow,RB,SO,returning,Athlon,PS,L,69.4/43 (SEC; 4-star, the #2). Le'Veon Moss (76.1/77, yr4) + EJ Smith (yr4) GONE
+WRTE,1,Mario Craver,WR,JR,returning,Athlon,PS,H,81.4/282 (SEC +5.94; All-SEC, 917 yds; the headliner/slot)
+WRTE,2,Ashton Bethel-Roman,WR,SO,returning,Athlon,PS,M,59.4/328 (SEC; 20+ ypc over the final 7)
+WRTE,3,Isaiah Horton,WR,SR,transfer:Alabama,Athlon,PS,M,8 TD, 6-4 redzone threat, #7 transfer WR (SEC-origin arrival)
+WRTE,4,Terry Bussey,WR,JR,returning,Athlon,PS,L,52.8/215 (SEC; former 5-star) + Top100 frosh Aaron Gregory
+WRTE,5,Houston Thomas,TE,SR,transfer:UTSA,Athlon,PS,L,All-AAC TE + Micah Riley (returning captain) + Richie Anderson (transfer). Top-3 TEs GONE (Boerkircher/Niblack grad, Ohrstrom->SMU). KC Concepcion (78.4, NFL R1) GONE
+OL,1,Mark Nabou Jr.,C,SR,returning,Athlon,PS,M,64.8/756 (SEC weighted; the LONE returning starter)
+OL,2,Wilkin Formby,OT,SR,transfer:Alabama,Athlon,PS,M,4-star transfer, Top200 recruit; tackle (SEC-origin)
+OL,3,Tyree Adams,OT,JR,transfer:LSU,Athlon,PS,M,4-star transfer, Top200 recruit; LT (SEC-origin)
+OL,4,Coen Echols,G,SO,transfer:LSU,Athlon,PS,M,started 8 games as a RS-fr (SEC-origin)
+OL,5,Trovon Baugh,G,SR,transfer:South Carolina,Athlon,PS,M,multi-year starter (SEC-origin) + 5-star Lamont Rogers + Robert Bourdon. LOST 4 DRAFTED starters: Zuhn/Bisontis/Reed-Adams (All-SEC) + Crownover
+DL,1,Anto Saka,ED,SR,transfer:Northwestern,Athlon,PS,M,All-Big Ten, 1st-round buzz (B10 DL +10.38 weighted DOWN)
+DL,2,TJ Searcy,ED,JR,returning,Athlon,PS,M,71.9/395 (SEC +7.87 weighted; returning starting end)
+DL,3,DJ Hicks,DI,SR,returning,Athlon,PS,M,65.7/378 (SEC; 5-star, moves into a starting spot)
+DL,4,CJ Mims,DI,SR,transfer:North Carolina,Athlon,PS,M,40 tackles at UNC (ACC +1.19)
+DL,5,Marco Jones,ED,SO,returning,Athlon,PS,M,77.1/133 (SEC; rising edge) + Brandon Davis-Swain (Colorado) + Landon Rink (84.2/75 tiny). LOST Howell (81.2, SEC DPOY NFL) + Regis + Onyedim (drafted) + Hayes (yr4)
+LB,1,Ray Coney,LB,SR,transfer:Tulsa,Athlon,PS,M,1st-team All-AAC; 128 tackles (led); 3-yr starter (AAC LB -10.73)
+LB,2,Daymion Sanford,LB,SR,returning,Athlon,PS,M,70.1/525 (SEC +14.01 weighted DOWN; excellent run stopper; spring-injury watch)
+LB,3,Noah Mikhail,LB,FR,returning,Athlon,PS,L,73.2/102 (SEC; Top100 frosh) + Jordan Lockhart (67.8/122). LOST York (83.7, NFL) + Scooby Williams (78.9, NFL) - both went pro
+DB,1,Marcus Ratcliffe,S,SR,returning,Athlon,PS,H,80.3/685 (SEC +5.44; proven star safety)
+DB,2,Dalton Brooks,S,SR,returning,Athlon,PS,M,64.5/631 (SEC; returning safety - all 3 safeties back)
+DB,3,Dezz Ricks,CB,JR,returning,Athlon,PS,M,59.9/681 (SEC; returning starting corner)
+DB,4,Rickey Gibson III,CB,SR,transfer:Tennessee,Athlon,PS,M,All-SEC candidate before a season-ending injury (SEC-origin; cross-build from Tennessee)
+DB,5,Bryce Anderson,S,JR,returning,Athlon,PS,M,58.0/138 (SEC; the 3rd returning safety - withdrew from portal)
+DB,6,Tawfiq Byard,S,JR,transfer:Colorado,Athlon,PS,L,B12 HM (B12 +1.85) + Julio Humphrey (71.6/124). LOST Will Lee (66.5, NFL) + Tyreek Chappell (yr4)
+ST,1,David Olano,K,SR,transfer:Illinois,Athlon,PS,M,86% career FG - a big upgrade on an erratic '25 kicking game
+ST,2,Mario Craver,PR,JR,returning,Athlon,PS,M,explosive punt returner + Terry Bussey (KR). SPEC was p88 in '25
