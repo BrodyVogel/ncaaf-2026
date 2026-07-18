@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Shawn",
+  "lastName": "Clark",
+  "hireDate": "2019-12-13T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "App State",
+    "year": 2024,
+    "games": 11,
+    "wins": 5,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -7.6,
+    "spOverall": -8.1,
+    "spOffense": 27.2,
+    "spDefense": 33.6
+   }
+  ]
+ },
+ {
+  "firstName": "Dowell",
+  "lastName": "Loggains",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "App State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -12.2,
+    "spOverall": -11.4,
+    "spOffense": 23,
+    "spDefense": 35.2
+   }
+  ]
+ }
+]

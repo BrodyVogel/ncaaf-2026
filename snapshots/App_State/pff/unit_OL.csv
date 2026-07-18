@@ -1,0 +1,16 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Will Flowers,138993,C,APP STATE,13,100.0,0,108,62.8,70.3,63.5,0,13,557,100.0,100.0,98.7,8,14,1,949,949,0,0,949,585,585,0,0,364,0,2025_this_team
+Cayden Sweatt,175006,G,APP STATE,13,100.0,1,108,62.1,66.0,59.7,3,9,552,100.0,100.0,98.2,4,16,4,940,0,939,0,940,580,580,0,0,360,1,2025_this_team
+Shamarr Jackson,171069,T,APP STATE,13,100.0,0,108,52.0,47.9,52.9,3,34,484,100.0,100.0,95.4,5,41,4,835,0,10,20,835,508,508,12,793,327,0,2025_this_team
+Jayden Ramsey,147025,T,APP STATE,12,100.0,0,108,65.8,68.6,61.1,4,9,412,100.0,100.0,98.2,2,14,1,743,0,0,740,743,431,431,0,0,312,3,2025_this_team
+Griffin Scroggs,157060,G,APP STATE,8,100.0,0,108,63.6,74.2,57.9,1,4,269,100.0,100.0,98.3,0,7,2,442,0,0,0,442,286,286,441,0,156,1,2025_this_team
+Trent Ramsey,158327,G,APP STATE,7,100.0,1,108,58.7,39.7,63.4,6,9,249,100.0,100.0,96.2,3,17,2,432,0,0,0,432,259,259,432,0,173,0,2025_this_team
+Denell Nix Jr.,204613,T,APP STATE,8,100.0,0,108,44.0,32.9,50.4,3,8,166,100.0,100.0,94.9,0,14,3,236,0,0,186,236,177,177,0,50,59,0,2025_this_team
+Tyriq Poindexter,149980,T,APP STATE,1,100.0,0,108,60.0,60.0,58.3,0,3,53,100.0,100.0,97.2,0,3,0,92,0,0,0,92,55,55,0,92,37,0,2025_this_team
+Lance Williams,174802,G,APP STATE,2,100.0,1,108,61.3,57.2,60.9,0,1,31,100.0,100.0,98.4,1,1,0,65,0,0,0,65,34,34,64,0,31,1,2025_this_team
+Mac Walters,158110,T,S CAROLINA,3,100.0,0,289,77.2,86.0,74.7,0,0,19,100.0,100.0,100.0,0,0,0,48,0,0,23,48,20,20,15,0,28,5,arrival_2025_at_S CAROLINA
+Luke Burgess,174696,T,APP STATE,2,100.0,0,108,29.8,9.0,60.0,1,2,12,100.0,100.0,79.2,1,4,1,15,0,0,1,15,14,14,0,14,1,0,2025_this_team
+Greydon Grimes,191168,T,KANSAS,1,100.0,0,198,69.3,,73.4,0,0,0,,,,0,0,0,4,0,0,0,4,0,0,0,4,4,0,arrival_2025_at_KANSAS
+Felix Doege,184609,G,APP STATE,1,100.0,0,108,60.0,66.5,,0,0,0,,100.0,,0,0,0,1,0,1,0,1,1,1,0,0,0,0,2025_this_team
+Devon Manuel,146633,T,FLORIDA,1,100.0,0,163,60.0,66.9,,0,0,1,100.0,100.0,100.0,0,0,0,1,0,0,1,1,1,1,0,0,0,0,arrival_2025_at_FLORIDA
+Danny Stevens,175005,G,APP STATE,1,100.0,0,108,60.0,64.6,,0,0,0,,100.0,,0,0,0,1,0,0,0,1,1,1,0,0,0,1,2025_this_team

@@ -1,0 +1,21 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Malachi Singleton,QB,JR,transfer:Purdue,Athlon,PS,L,69.9/75 tiny (B10 +0.55; dual-threat, 276 rush; Arkansas+Purdue, 11 apps '25). Both '25 QBs GONE (Swann->Miss St, Kohl->FIU)
+QB,2,Henry Hasselbeck,QB,SO,transfer:UCLA,Athlon,PS,L,competing for the job + Tommy Ulatowski (Kent State, 10 starts)
+RB,1,Jaquari Lewis,RB,SO,returning,Athlon,PS,M,73.8/165 (SBC -2.02; 618 yds/6 TD as a frosh). Dubinion (76.0, yr4) GONE
+RB,2,J'Marion Burnette,RB,SO,transfer:Auburn,Athlon,PS,L,transfer depth + Treyaun Webb (Florida) + returning Khalifa Keith
+WRTE,1,Chris Lofton,WR,JR,transfer:Gardner-Webb,Athlon,PS,M,FCS All-conf (NO CELL); led the Big South with 934 yds
+WRTE,2,Sam Mbake,WR,SR,returning,Athlon,PS,L,56.2/186 (SBC; needs to increase production)
+WRTE,3,Dazmin James,WR,JR,transfer:California,Athlon,PS,L,ACC depth + Alex Sanchez (54.5/156 returns) + Zach Taylor. Barnes/Dozier + Cummings/Larkins (yr4) GONE
+OL,1,Mac Walters,OT,SR,transfer:South Carolina,Athlon,PS,M,77.2/48 tiny (SEC; the LT)
+OL,2,Cayden Sweatt,G,SR,returning,Athlon,PS,M,62.1/940 (SBC; returning starter)
+OL,3,Trent Ramsey,OT,JR,returning,Athlon,PS,L,58.7/432 (SBC; return from injury) + Tyriq Poindexter (injury return) + Greydon Grimes. Flowers/Jackson/Jayden Ramsey (yr4) GONE
+DL,1,Aiden Benton,ED,JR,returning,Athlon,PS,M,74.2/495 (SBC; DL -6.50; the returning edge)
+DL,2,Caleb Sandstrom,ED,JR,returning,Athlon,PS,M,61.7/348 (SBC; returning edge)
+DL,3,Nick Campbell,DI,JR,returning,Athlon,PS,L,64.7/150 (SBC) + Caleb Pitts (56.0/116). LOST Abrams-Verwayne (83.2, yr4) + Porter (79.2, Rutgers) + Manuel (Colorado) + Farrior (Auburn) + Cooper (Wisconsin)
+LB,1,Colton Phares,LB,SR,returning,Athlon,PS,H,87.7/711 (SBC -8.20 weighted; team leader 101 tkl, 3 INT - the star)
+LB,2,Alex Mitchell,LB,JR,transfer:Middle Tennessee,Athlon,PS,M,71.1/155 (CUSA) + Carson Sloan (Samford FCS). Lost all other LB starters (Favors/Arnholt/Willis yr4, Littlejohn FIU)
+DB,1,Ja'Den McBurrows,S,JR,returning,Athlon,PS,M,77.2/115 (SBC; STAR starter, injury return; yr4-return per Athlon "Junior... playmaker if fully healed")
+DB,2,Dylan Hasz,S,JR,returning,Athlon,PS,L,60.9/273 (SBC; returning safety)
+DB,3,Joe Reddish,CB,JR,transfer:Virginia Tech,Athlon,PS,L,ACC + Khalil Conley (UNC) + Juan Berchal (70.4/132 returns) + Josh Williams. LOST Ethan Johnson (yr4) + Floyd/Gamble/McCantos (portal; "9 of top 10 tacklers gone")
+ST,1,James London,K,JR,transfer:Murray State,Athlon,PS,M,FCS All-American (6 FGs of 50+); left Pitt after a '25 competition
+ST,2,Jaxson Dunn,P,SO,transfer:Arkansas State,Athlon,PS,L,never played at the college level (punting questionable)

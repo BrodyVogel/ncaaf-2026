@@ -1,0 +1,37 @@
+{
+ "team": "App State",
+ "conference": "Sun Belt",
+ "created_utc": "2026-07-18T14:18:52+00:00",
+ "assembler_git_rev": "58e4395",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Dowell Loggains (Year 2; NO CHANGE; band x1.00). '25 was his first year (a transition). '25: 5-8 (2-6 SBC). G5 = 2-SOURCE build (Athlon + Phil Steele; no Pick Six for the Sun Belt). Verified both mags.",
+ "conference_note": "Sun Belt (G5). SBC offsets NEGATIVE/small (QB -1.01, RB -2.02, WRTE -0.74, OL -0.35, DL -6.50, LB -8.20, DB -3.62); returning tape on SBC cells, arrivals on origin. MASSIVE roster teardown (38 in / 41 out). Arrivals on origin: Singleton (Purdue/B10) + Hasselbeck (UCLA/B10) + Ulatowski (Kent State/MAC) QBs; Walters (South Carolina/SEC), James (California/ACC), Reddish (Virginia Tech/ACC), Conley (North Carolina/ACC), Mitchell (Middle Tennessee/CUSA), Dunn (Arkansas State/SBC); FCS = NO CELL (Lofton/Gardner-Webb, London/Murray State, Sloan/Samford).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Ja'Den McBurrows"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Colton Phares": "LB, 87.7/711 - RETURNS. The defensive centerpiece; team leader with 101 tackles + 3 INT. SBC LB cell (-8.20) weighted; the one elite returner.",
+  "Aiden Benton": "ED, 74.2/495 - RETURNS. The returning edge; App St's returning pass-rush anchor after a heavy DL exodus.",
+  "Jaquari Lewis": "RB, 73.8/165 - RETURNS. 618 yds/6 TD as a true frosh; the returning run-game engine.",
+  "Ja'Den McBurrows": "S, 77.2/115 (yr4 in feed) - RETURNS. Athlon lists him the returning STAR starter ('Junior Ja'Den McBurrows... can be a playmaker if fully healed from the injury that cost him most of last season'). Magazine class = Jr; yr4_return_override (R15: named returning starter).",
+  "Malachi Singleton": "QB (Purdue) - ARRIVES, the projected starter. Dual-threat (276 rush); 11 apps at Purdue in '25 (limited); previously at Arkansas. Both '25 QBs (Swann, Kohl) departed. B10-origin arrival.",
+  "Kevin Abrams-Verwayne": "DL, 83.2/518 (yr4) - GONE. The top interior DL grade; not named returning -> EXPIRED(yr4). One of many DL losses.",
+  "Rondo Porter": "DL, 79.2/534 - GONE -> Rutgers (portal). A big pass-rush loss (transfer up to the B10)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS charts. MASSIVE roster teardown under 2nd-year HC Loggains (38 portal-in / 41 portal-out). The team-level as-played percentile row is UNAVAILABLE (PFF name-map miss, like the Ole Miss quirk) - built from per-player PFF grades + the shadow proxy + magazine context.",
+  "5-8 (2-6 SBC): a bottom-third SBC offense (24.2 ppg, 22 turnovers / 15 INT) + a leaky defense (416.6 ypg allowed). Both 2025 QBs left (Swann->Miss St, Kohl->FIU); the offense resets around transfer QB Malachi Singleton (Purdue/Arkansas, dual-threat).",
+  "The returning STRENGTHS are three genuine pieces: LB Colton Phares (87.7, 101 tkl/3 INT - a real star), edge Aiden Benton (74.2), and RB Jaquari Lewis (73.8, 618 yds as a frosh). Nearly everything else is a transfer/FCS reload.",
+  "The DL was gutted (Abrams-Verwayne 83.2 yr4, Porter 79.2->Rutgers, Manuel->Colorado, Farrior->Auburn, Cooper->Wisconsin all gone); Benton + Sandstrom anchor a rebuild. The secondary lost '9 of the top 10 tacklers' (PS) and reloads via ACC transfers (Reddish/VT, Conley/UNC) + injury-return McBurrows.",
+  "ST: FCS All-American K James London (Murray State; 6 FGs of 50+) is a real weapon (though he left Pitt after a '25 competition); the punter (Dunn, Arkansas State) has never played a college snap."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF117/SBC-East-5 incidentally visible on the team page - logged in research_log.md, NOT used in grading. G5 2-source (Athlon + Phil Steele); no Pick Six for the Sun Belt.",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T14:26:00+00:00"
+}

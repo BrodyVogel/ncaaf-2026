@@ -1,0 +1,133 @@
+{
+ "team": "App State",
+ "units": {
+  "QB": {"grade": 40, "confidence": "L"},
+  "RB": {"grade": 48, "confidence": "M"},
+  "WRTE": {"grade": 38, "confidence": "L"},
+  "OL": {"grade": 40, "confidence": "M"},
+  "DL": {"grade": 42, "confidence": "M"},
+  "LB": {"grade": 54, "confidence": "M"},
+  "DB": {"grade": 40, "confidence": "M"},
+  "ST": {"grade": 44, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T14:26:00Z (App State)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon + Phil Steele; no Pick Six for SBC]; SBC offsets NEGATIVE on returning tape [DL/LB weighted], arrivals on origin cells [FCS = no cell]; HC Loggains Year 2 NO change [band x1.00]; disposition gate 46 rows / 0 adjudicate / 0 err - McBurrows yr4_return override [Athlon STAR starter], both '25 QBs departed, massive 41-out teardown all feed-destinationed/yr4; no NFL-declare risk at this level); anchor values not consulted. TEAM as-played percentile row unavailable (PFF name-map miss) - built from per-player PFF + shadow proxy. DISCLOSED: Athlon NF117 incidentally visible, logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB40L/RB48/WRTE38L/OL40/DL42/LB54/DB40/ST44, sum 346). No post-freeze corrections."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB 31, WRTE 4, OL 38, DL 33, LB 70, DB 5, ST 41) reads the thin returning production after a 41-out teardown; the grades lift the transfer/FCS-reloaded units modestly above the bare proxy and keep the three real returners (Phares/Benton/Lewis).",
+   "WRTE": "+34 vs proxy 4 - proxy reads only the gutted returning WRs; the grade credits the FCS-star transfer (Lofton, 934 yds) + P4-depth adds, but caps low for the QB reset.",
+   "DB": "+35 vs proxy 5 - proxy reads the near-total secondary loss; the grade credits the ACC-transfer corners (Reddish/Conley) + a healthy McBurrows.",
+   "RB": "+17 vs proxy 31 - the grade keys Lewis (a proven true-frosh season) over the bare returning number.",
+   "LB": "-16 vs proxy 70 - Phares (87.7) carries the proxy; the grade weights the SBC LB cell down + prices the thin support.",
+   "QB": "proxy None (both '25 QBs gone); the grade (40 L) sets the transfer reset at the G5 floor."
+  }
+ },
+ "grades_detail": [
+  {"team": "App State", "unit": "QB", "grade": 40, "confidence": "L",
+   "bracketing_exemplars": ["Arkansas QB 2026 (42, above)", "Memphis QB 2026 (40, peer)"],
+   "rationale_bullets": [
+    "Malachi Singleton (Purdue, 69.9/75 tiny -> B10 +0.55; dual-threat, 276 rush; 11 apps '25, also at Arkansas) vs Henry Hasselbeck (UCLA) + Tommy Ulatowski (Kent State). Both '25 QBs (Swann, Kohl) GONE.",
+    "A full transfer reset on a bottom-third '25 offense (15 INT). Singleton is a live dual-threat but with a tiny P4 sample and no SBC production.",
+    "40: ~Memphis QB 40; below Arkansas 42. An unproven-transfer reset at the G5 floor; the mobility is the one plus. L."
+   ],
+   "key_players": [
+    {"name": "Malachi Singleton", "role": "QB (transfer, Purdue)", "evidence": "69.9/75; dual-threat (276 rush); projected starter; 11 apps at Purdue in '25"}
+   ],
+   "data_gaps": ["both '25 QBs departed", "tiny P4 sample", "no SBC production"],
+   "g5_guard_note": "Sun Belt team; transfer-reset QB graded at the G5 floor - no proven FBS starting production in the room."},
+  {"team": "App State", "unit": "RB", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Alabama RB 2026 (48, peer)", "South Carolina RB 2026 (48, peer)"],
+   "rationale_bullets": [
+    "Jaquari Lewis (73.8/165 -> SBC -2.02; 618 yds/6 TD as a true frosh) + transfer depth (J'Marion Burnette/Auburn, Treyaun Webb/Florida) + returning Khalifa Keith. Dubinion (76.0, yr4) GONE.",
+    "A genuine returning lead back (a productive true-frosh season) - the offense's most proven piece - with unproven transfer depth behind him.",
+    "48: ~Alabama/South Carolina RB 48. Lewis anchors a decent-for-G5 backfield; the reset around him caps it. M."
+   ],
+   "key_players": [
+    {"name": "Jaquari Lewis", "role": "RB (returning)", "evidence": "73.8/165; 618 yds/6 TD as a true freshman"}
+   ],
+   "data_gaps": ["unproven depth behind Lewis"],
+   "g5_guard_note": "Sun Belt; Lewis's 73.8 is a real returning grade but on SBC tape - the level caps the ceiling."},
+  {"team": "App State", "unit": "WRTE", "grade": 38, "confidence": "L",
+   "bracketing_exemplars": ["Georgia Tech WRTE 2026 (38, peer)", "Fresno State WRTE 2026 (38, peer)"],
+   "rationale_bullets": [
+    "Chris Lofton (Gardner-Webb FCS, 934 yds - NO CELL) + Sam Mbake (56.2/186) + Alex Sanchez (54.5/156) + Dazmin James (California) + Zach Taylor. The '25 corps largely GONE (Barnes/Dozier + Cummings/Larkins yr4).",
+    "A near-total rebuild (proxy 4) - two low-grade returners + an FCS-star transfer + P4-depth adds, with a first-year transfer QB throwing to them.",
+    "38: ~Georgia Tech/Fresno State WRTE 38. The FCS/transfer reload lifts it off the floor; the youth + QB reset cap it. L."
+   ],
+   "key_players": [
+    {"name": "Chris Lofton", "role": "WR (transfer, Gardner-Webb)", "evidence": "FCS All-conf; led the Big South with 934 receiving yards"},
+    {"name": "Sam Mbake", "role": "WR (returning)", "evidence": "56.2/186; a returning target who needs to raise production"}
+   ],
+   "data_gaps": ["'25 corps largely gone", "FCS/unproven reload", "transfer QB feeding it"],
+   "g5_guard_note": "Sun Belt; a gutted room reloaded with an FCS star (no cell) + P4-depth transfers - low proven FBS production."},
+  {"team": "App State", "unit": "OL", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Florida State OL 2026 (40, peer)", "UCF OL 2026 (40, peer)"],
+   "rationale_bullets": [
+    "Mac Walters (South Carolina, 77.2/48 tiny; LT) + Cayden Sweatt (62.1/940; returning starter) + Trent Ramsey (58.7/432; injury return) + Tyriq Poindexter (injury return). Flowers/Jackson/Jayden Ramsey (yr4) GONE.",
+    "A returning starter + two injury-return starters + a South Carolina-transfer LT (tiny sample) - a middling, injury-dependent rebuild.",
+    "40: ~Florida State/UCF OL 40. The transfer LT + the injury returns vs the thin proven production. M."
+   ],
+   "key_players": [
+    {"name": "Cayden Sweatt", "role": "OL (returning)", "evidence": "62.1/940; the returning full-time starter"},
+    {"name": "Mac Walters", "role": "LT (transfer, South Carolina)", "evidence": "77.2/48 tiny sample; the projected left tackle"}
+   ],
+   "data_gaps": ["injury-dependent (Ramsey/Poindexter)", "tiny sample on the transfer LT"],
+   "g5_guard_note": "Sun Belt; an injury-dependent rebuild - the grade reflects thin proven continuity at the G5 level."},
+  {"team": "App State", "unit": "DL", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["California DL 2026 (42, peer)", "Illinois DL 2026 (41, below)"],
+   "rationale_bullets": [
+    "Aiden Benton (74.2/495 -> SBC; DL -6.50; the returning edge) + Caleb Sandstrom (61.7/348; edge) + Nick Campbell (64.7/150). LOST the interior core: Abrams-Verwayne (83.2, yr4), Porter (79.2 -> Rutgers), Manuel (-> Colorado), Farrior (-> Auburn), Cooper (-> Wisconsin).",
+    "A returning edge duo (Benton the anchor) on a front that lost its best interior players + top rushers to the P4 portal.",
+    "42: ~California DL 42; above Illinois 41. Benton + Sandstrom vs the gutted interior. M."
+   ],
+   "key_players": [
+    {"name": "Aiden Benton", "role": "ED (returning)", "evidence": "74.2/495; the returning edge anchor"},
+    {"name": "Caleb Sandstrom", "role": "ED (returning)", "evidence": "61.7/348; the other returning edge"}
+   ],
+   "data_gaps": ["gutted interior (5 significant DL departures)"],
+   "g5_guard_note": "Sun Belt; a returning edge duo but a rebuilt interior after heavy P4-portal losses."},
+  {"team": "App State", "unit": "LB", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["LSU LB 2026 (54, peer)", "Auburn LB 2026 (54, peer)"],
+   "rationale_bullets": [
+    "Colton Phares (87.7/711 -> SBC -8.20 weighted; team leader, 101 tkl, 3 INT - a genuine star) + Alex Mitchell (Middle Tennessee, 71.1/155) + Carson Sloan (Samford FCS). Lost all other LB starters (yr4 + Littlejohn -> FIU).",
+    "A star-carried unit - Phares's 87.7 is the roster's best grade - but he's the lone returning starter; the depth is a CUSA transfer + an FCS add.",
+    "54: ~LSU/Auburn LB 54. Phares carries it well above the App St baseline; the thin support + the SBC cell cap it. M."
+   ],
+   "key_players": [
+    {"name": "Colton Phares", "role": "LB (returning)", "evidence": "87.7/711; team leader with 101 tackles + 3 INT"},
+    {"name": "Alex Mitchell", "role": "LB (transfer, Middle Tennessee)", "evidence": "71.1/155; the projected running mate"}
+   ],
+   "data_gaps": ["lone returning starter (Phares); thin support"],
+   "g5_guard_note": "Sun Belt; a genuine star (Phares) carries the unit, but the 87.7 is on SBC tape and the depth is transfer/FCS."},
+  {"team": "App State", "unit": "DB", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Kansas DB 2026 (42, above)", "West Virginia DB 2026 (40, peer)"],
+   "rationale_bullets": [
+    "Ja'Den McBurrows (77.2/115; STAR starter, injury return, yr4-override) + Dylan Hasz (60.9/273) + Juan Berchal (70.4/132) + transfers Joe Reddish (Virginia Tech) + Khalil Conley (North Carolina). LOST '9 of the top 10 tacklers' (PS).",
+    "A near-total rebuild (proxy 5) leaning on a healthy McBurrows + two ACC-transfer corners + returning depth.",
+    "40: ~West Virginia DB 40; below Kansas 42. The ACC-transfer reload + McBurrows vs the near-total turnover. M."
+   ],
+   "key_players": [
+    {"name": "Ja'Den McBurrows", "role": "S/STAR (returning)", "evidence": "77.2/115; the returning STAR starter (injury return)"},
+    {"name": "Joseph Reddish", "role": "CB (transfer, Virginia Tech)", "evidence": "an ACC-transfer corner brought in to rebuild the secondary"}
+   ],
+   "data_gaps": ["9 of top 10 tacklers gone", "McBurrows injury history", "near-total turnover"],
+   "g5_guard_note": "Sun Belt; a secondary rebuilt almost entirely through the ACC portal - talent on paper, no returning continuity."},
+  {"team": "App State", "unit": "ST", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Louisville ST 2026 (44, peer)", "Rutgers ST 2026 (44, peer)"],
+   "rationale_bullets": [
+    "James London (K - Murray State/FCS All-American, 6 FGs of 50+; left Pitt after a '25 competition) + Jaxson Dunn (P - Arkansas State transfer, never played a college snap).",
+    "A genuine FCS-All-American kicker with big range (a real plus) offset by a completely unproven punter.",
+    "44: ~Louisville/Rutgers ST 44. The kicker upside vs the punting question. M."
+   ],
+   "key_players": [
+    {"name": "James London", "role": "K (transfer, Murray State)", "evidence": "FCS All-American; 6 FGs of 50+ yards"},
+    {"name": "Jaxson Dunn", "role": "P (transfer, Arkansas State)", "evidence": "the punter, who has never played a college snap"}
+   ],
+   "data_gaps": ["unproven punter"],
+   "g5_guard_note": "Sun Belt; a strong FCS-transfer kicker but an unproven punting situation."}
+ ]
+}
