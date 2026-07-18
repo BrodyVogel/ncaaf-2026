@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T17:35:10+00:00",
+ "team": "Delaware",
+ "final": -9.02,
+ "rank": 103,
+ "band": 6.6,
+ "resid": 12.98,
+ "adj": 4.54,
+ "class_term": 0.0,
+ "st": -0.16,
+ "anchor_blend": -13.86,
+ "resid_level": 7.34,
+ "resid_shape": 5.65,
+ "implied_off": 25.78,
+ "implied_def": 26.36,
+ "anchor_off": 22.27,
+ "anchor_def": 35.83,
+ "fit_r2": {
+  "off": 0.54,
+  "dfn": 0.614
+ },
+ "low_conf_units": 0,
+ "code_rev": "0aefc25",
+ "mode": "PILOT-OOS"
+}

@@ -1,0 +1,56 @@
+{
+ "team": "Delaware",
+ "conference": "Conference USA",
+ "created_utc": "2026-07-18T17:27:27+00:00",
+ "assembler_git_rev": "0aefc25",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Ryan Carty (33-17 at school, entering Year 5; NO change; band x1.00). New DCs Manny Rojas + Rocco DiMeco - a coordinator change, does NOT trigger the band. '25: 7-6 (4-4 CUSA) in Delaware's FIRST FBS season (reclassified from FCS). G5 2-SOURCE build (Athlon primary; PS CUSA text garbled). LOW churn (13 in / 8 out) - a returning-heavy veteran roster; the scout calls them 'the team to beat.'",
+ "conference_note": "Conference USA. 2025 tape earned in CUSA (Delaware's debut FBS year) -> returning tape on CUSA cells (heavily negative). Arrivals on origin. Delaware LED CUSA in total + passing offense in '25 (a strong, mostly-returning offense) but ranked among CUSA's WORST in points/total/passing yards allowed (a weak defense that returns its stars). A veteran roster (39 yr4 players): many stars return via yr4 overrides, several role players graduate.",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Jo Silver",
+  "Steven Demboski",
+  "Blake Matthews",
+  "Dominick Brogna",
+  "Noah Matthews",
+  "Elijah Sessoms",
+  "Josh Cupitt"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Kyre Duplessis",
+  "Jack Hall",
+  "Nate Evans",
+  "Keyshawn Hunter",
+  "Mysonne Pollard",
+  "Marje Mulumba",
+  "Fintan Brose"
+ ],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Nick Minicucci": "QB, 66.8/604 - RETURNS. 2nd-team All-CUSA; LED CUSA in passing (3,683) + total offense (3,918) + 10 rush TD; orchestrated Carty's spread. The returning star (not yr4).",
+  "Jo Silver": "RB, 73.0/119 - RETURNS (yr4 override). The lead back; Athlon 'return their top four rushers, led by Jo Silver.'",
+  "Sean Wilson": "WR, 77.2/391 - RETURNS. The WR1 (68 catches/877/3 TD); the returning receiving star (not yr4 - a sophomore).",
+  "Steven Demboski": "C, 69.5/850 - RETURNS (yr4 override). All-league center - 'a solid anchor' for the OL after 2 starters left.",
+  "KT Seay": "S, 75.9/885 - RETURNS. 1st-team All-CUSA; 'their best defensive player'; the secondary anchor (not yr4 - a junior).",
+  "Gavin Moul": "ILB, 66.0/880 - RETURNS. 3rd in CUSA in tackles; a proven stopper (not yr4).",
+  "Noah Matthews": "DE, 68.8/465 - RETURNS (yr4 override). 'Landed at Kentucky to start his career' - a returning playmaker on the DL.",
+  "Kyre Duplessis": "WR, 74.1/446 - GONE (departure_confirmed_research; yr4). A high-snap '25 WR; not on the depth chart - graduated.",
+  "Jack Hall": "DL, 74.0/448 - GONE (yr4). A high-snap edge; graduated.",
+  "Nate Evans": "CB, 74.3/715 - GONE (yr4). A 715-snap corner; graduated (secondary depth loss).",
+  "Anwar O'neal": "OT - GONE (portal -> Louisville). 'The two best players on the OL' (with Brose) left; Demboski anchors the rebuild.",
+  "Fintan Brose": "OG, 68.3/992 - GONE (yr4 graduation, Athlon 'Brose's graduation'). A 992-snap guard."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon. LOW churn (13/8). NOTE: the shadow proxy reads oddly LOW (QB 21, RB 7, LB 18, DB 21) - an FBS-NEWCOMER artifact (Delaware's first FBS year); Athlon confirms the stars all return (Minicucci, Silver, Wilson, Demboski, Seay, Moul), so the proxy UNDERSTATES the returns. Graded on personnel + player grades.",
+  "7-6 (4-4 CUSA) in Delaware's DEBUT FBS season - better than expected; a 20-13 bowl win over Louisiana. Athlon CUSA prediction 5, but an opposing coach calls them 'the team to beat' (returning ~the whole team + good portal adds).",
+  "The OFFENSE is the strength (LED CUSA in total + passing O): QB Minicucci (2nd-team All-CUSA, dual-threat) + WR1 Sean Wilson (877 yds) + the top-4 rushers (Silver/Ellison + BGSU transfer Roberts) + all-league C Demboski. It lost 2 OL (Brose yr4 + O'neal -> Louisville) + WR depth (Duplessis 74.1, yr4) but 'should still be strong.'",
+  "The DEFENSE was among CUSA's WORST (points/total/passing yards allowed; PRSH p25) but returns its stars: 1st-team All-CUSA S KT Seay (75.9) + ILB Gavin Moul (3rd in CUSA tackles) + DE Noah Matthews + DT Brogna; the secondary lost 2 yr4 DBs (Evans 74.3, Pollard 70.4) + adds transfers (Michigan St, NDSU).",
+  "ST: lost 2nd-team All-CUSA K Nate Reed (D3-transfer + freshman competition); P Josh Cupitt returns (missed '25 injured); explosive return candidates. SPEC p39."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF107 / CUSA prediction 5 incidentally visible - logged, NOT used. G5 2-source (Athlon primary; PS CUSA text garbled).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T17:38:00+00:00"
+}

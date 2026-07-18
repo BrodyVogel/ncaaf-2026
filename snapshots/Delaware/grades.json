@@ -1,0 +1,131 @@
+{
+ "team": "Delaware",
+ "units": {
+  "QB": {"grade": 52, "confidence": "M"},
+  "RB": {"grade": 48, "confidence": "M"},
+  "WRTE": {"grade": 50, "confidence": "M"},
+  "OL": {"grade": 48, "confidence": "M"},
+  "DL": {"grade": 44, "confidence": "M"},
+  "LB": {"grade": 46, "confidence": "M"},
+  "DB": {"grade": 46, "confidence": "M"},
+  "ST": {"grade": 42, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T17:38:00Z (Delaware)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary + scout; PS CUSA text GARBLED; no Pick Six for CUSA]; Conference USA -> returning tape on CUSA cells [heavily negative], arrivals on origin [FCS/D3 = no cell]; HC Ryan Carty Y5 [NO CHANGE, band x1.00; new DCs = coordinator change, does NOT trigger the band]; disposition gate 40 rows / 0 adjudicate / 0 err - 7 yr4-return overrides [Silver/Demboski/B.Matthews/Brogna/N.Matthews/Sessoms/Cupitt, all Athlon-named]; departure_confirmed_research the yr4 depth grads [Duplessis 74.1, Hall 74.0, Evans 74.3, Hunter, Pollard, Mulumba, Brose]; O'neal -> Louisville feed-destinationed; FBS-newcomer proxy artifact noted]; anchor values not consulted. DISCLOSED: Athlon NF107 / CUSA prediction 5 incidentally visible, logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB52/RB48/WRTE50/OL48/DL44/LB46/DB46/ST42, sum 376). No post-freeze corrections. Delaware is a returning-heavy CUSA contender ('the team to beat' per an opposing coach); the shadow proxy reads misleadingly low (FBS-newcomer artifact, Delaware's 2nd FBS year), so the grades used personnel + player PFF grades - the stars all return (Minicucci, Wilson, Silver, Demboski, Seay, Moul)."},
+  "shadow_proxy_divergence": {
+   "note": "the proxy (QB 21, RB 7, WRTE 51, OL 31, DL 48, LB 18, DB 21, ST 39) UNDERSTATES the returns - an FBS-newcomer artifact (Delaware's first FBS year). Athlon confirms the whole core returns; the grades use personnel + player PFF grades, not the proxy.",
+   "QB": "+31 vs proxy 21 - the grade keys the CUSA-leading returning QB (Minicucci) the proxy can't see.",
+   "RB": "+41 vs proxy 7 - the proxy zeroed the backfield; Athlon returns the top-4 rushers (Silver + Ellison).",
+   "LB": "+28 vs proxy 18 - the grade keys the returning Moul (3rd in CUSA tackles) + Blake Matthews.",
+   "DB": "+25 vs proxy 21 - the grade keys 1st-team All-CUSA Seay + the returning/transfer secondary."
+  }
+ },
+ "grades_detail": [
+  {"team": "Delaware", "unit": "QB", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["UCF QB 2026 (52, peer)", "Baylor QB 2026 (52, peer)"],
+   "rationale_bullets": [
+    "Nick Minicucci (66.8/604 -> CUSA -5.61; 2nd-team All-CUSA; LED CUSA in passing (3,683) + total offense (3,918) + 10 rush TD) + Braden Streeter (So).",
+    "A returning, decorated dual-threat starter who led the conference in passing AND total offense - a genuine CUSA-POY-caliber QB.",
+    "52: ~UCF/Baylor QB 52. The CUSA-leading production + the return + the dual threat vs the G5 ceiling. M."
+   ],
+   "key_players": [
+    {"name": "Nick Minicucci", "role": "QB (returning)", "evidence": "66.8/604; 2nd-team All-CUSA, led CUSA in passing (3,683) + total offense (3,918) + 10 rush TD"}
+   ],
+   "data_gaps": ["G5 ceiling (CUSA production)", "2nd FBS season"],
+   "g5_guard_note": "Conference USA; a returning CUSA-leading dual-threat QB (Minicucci, offset -5.61 on the tape) - a genuine G5 star."},
+  {"team": "Delaware", "unit": "RB", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["App State RB 2026 (48, peer)", "UAB RB 2026 (48, peer)"],
+   "rationale_bullets": [
+    "Jo Silver (73.0/119 -> CUSA -7.50; the lead back, yr4 override) + Viron Ellison Jr. (70.0/118) + Kaderris Roberts (Bowling Green transfer). Athlon: 'return their top FOUR rushers.'",
+    "Two returning 70+ backs + a versatile transfer - the whole rotation is back - though the run game was pass-supplemented (RUN p18).",
+    "48: ~App State/UAB RB 48. The two 70+ returners + the transfer vs the modest run-game volume. M."
+   ],
+   "key_players": [
+    {"name": "Jo Silver", "role": "RB (returning, yr4)", "evidence": "73.0/119; the lead back, top-4 rushers all return"},
+    {"name": "Viron Ellison Jr.", "role": "RB (returning)", "evidence": "70.0/118; a second 70+ returning back"}
+   ],
+   "data_gaps": ["run game was pass-supplemented (RUN p18)"],
+   "g5_guard_note": "Conference USA; the whole backfield returns - two 70+ backs (Silver yr4-return + Ellison, offset -7.50) + a transfer."},
+  {"team": "Delaware", "unit": "WRTE", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["Florida WRTE 2026 (50, peer)", "Vanderbilt WRTE 2026 (50, peer)"],
+   "rationale_bullets": [
+    "Sean Wilson (77.2/391 -> CUSA -4.19; 68 catches/877/3 TD; the WR1 star) + Donovan Lewis (69.0) + Nick Tyree + TE Elijah Sessoms (yr4 override) + transfers. LOST Kyre Duplessis (74.1, yr4) + Thaw (yr4) + Patterson (yr4).",
+    "A genuine returning WR1 star (Wilson) + solid returning depth, off the CUSA-leading passing attack - even after losing Duplessis (74.1).",
+    "50: ~Florida/Vanderbilt WRTE 50. Wilson + the returning corps + the CUSA-leading passing baseline vs the yr4 depth losses. M."
+   ],
+   "key_players": [
+    {"name": "Sean Wilson", "role": "WR (returning)", "evidence": "77.2/391; 68 catches/877/3 TD - the returning WR1 star"},
+    {"name": "Donovan Lewis", "role": "WR (returning)", "evidence": "69.0/144; a reliable returning target"}
+   ],
+   "data_gaps": ["lost Duplessis (74.1, yr4) + depth", "G5 ceiling"],
+   "g5_guard_note": "Conference USA; a returning WR1 star (Wilson 877 yds, offset -4.19) off the CUSA-leading passing attack."},
+  {"team": "Delaware", "unit": "OL", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Wisconsin OL 2026 (48, peer)", "Georgia Tech OL 2026 (48, peer)"],
+   "rationale_bullets": [
+    "Steven Demboski (69.5/850 -> CUSA -6.36; all-league C, 'a solid anchor,' yr4 override) + Noah Rosahac (LT) + Anthony Caccese (RT) + transfer Mustafa Feika (LG). LOST the 2 best OL: Fintan Brose (68.3, yr4, graduation) + Anwar O'neal (-> Louisville).",
+    "3 returning starters (incl. an all-league C) + a transfer guard, off good pass pro (PBLK p75) - 'should still be strong' despite losing its 2 best.",
+    "48: ~Wisconsin/Georgia Tech OL 48. The all-league C + the returning tackles + the p75 pass pro vs the 2 lost starters. M."
+   ],
+   "key_players": [
+    {"name": "Steven Demboski", "role": "C (returning, yr4)", "evidence": "69.5/850; all-league center - the OL anchor"}
+   ],
+   "data_gaps": ["lost the 2 best OL (Brose yr4, O'neal -> Louisville)"],
+   "g5_guard_note": "Conference USA; an all-league C (Demboski, offset -6.36) + returning tackles off good pass pro (p75)."},
+  {"team": "Delaware", "unit": "DL", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Utah DL 2026 (44, peer)", "Mississippi State DL 2026 (44, peer)"],
+   "rationale_bullets": [
+    "Noah Matthews (68.8/465 -> CUSA -7.88; 'landed at Kentucky to start'; yr4 override) + Dominick Brogna (70.4/332; DT, yr4 override) + Kaeden Singleton + transfers (Sam Siafa Penn State). LOST Jack Hall (74.0, yr4) + Keyshawn Hunter (69.9, yr4).",
+    "Two returning veterans (Matthews, Brogna) + a transfer reload, but off a POOR pass rush (PRSH p25) that was part of CUSA's worst defense.",
+    "44: ~Utah/Mississippi State DL 44. The returning vets vs the poor pass-rush baseline + the 2 yr4 losses. M."
+   ],
+   "key_players": [
+    {"name": "Noah Matthews", "role": "ED (returning, yr4)", "evidence": "68.8/465; a returning edge who began at Kentucky"},
+    {"name": "Dominick Brogna", "role": "DT (returning, yr4)", "evidence": "70.4/332; a returning interior lineman"}
+   ],
+   "data_gaps": ["poor pass rush (PRSH p25)", "part of CUSA's worst defense", "lost 2 yr4 DL"],
+   "g5_guard_note": "Conference USA; two returning DL vets (Matthews, Brogna - offset -7.88) off a poor pass-rush baseline."},
+  {"team": "Delaware", "unit": "LB", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Miami LB 2026 (46, peer)", "Utah LB 2026 (46, peer)"],
+   "rationale_bullets": [
+    "Gavin Moul (66.0/880 -> CUSA -12.31; 3rd in CUSA in tackles; the anchor) + Blake Matthews (68.7/674; yr4 override) + Colin Gallagher. LOST Marje Mulumba (67.7, yr4).",
+    "A proven returning tackle-machine (Moul, 3rd in CUSA) + a returning starter (Matthews) - a solid returning LB duo.",
+    "46: ~Miami/Utah LB 46. Moul + Matthews anchor it; the G5 bottom of a leaky '25 D caps it. M."
+   ],
+   "key_players": [
+    {"name": "Gavin Moul", "role": "ILB (returning)", "evidence": "66.0/880; 3rd in CUSA in tackles - a proven stopper"},
+    {"name": "Blake Matthews", "role": "LB (returning, yr4)", "evidence": "68.7/674; a returning starter"}
+   ],
+   "data_gaps": ["part of a leaky '25 defense"],
+   "g5_guard_note": "Conference USA; a returning tackle-machine (Moul, offset -12.31) + a returning starter - a solid LB duo."},
+  {"team": "Delaware", "unit": "DB", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Arizona DB 2026 (46, peer)", "NC State DB 2026 (46, peer)"],
+   "rationale_bullets": [
+    "KT Seay (75.9/885 -> CUSA -6.16; 1st-team All-CUSA, 'their best defensive player') + Kshawn Cox Jr. (62.8/608) + Kahlil Ali (64.5/528) + Jamarion Kolagbodi (a standout frosh) + transfers (George Mullins Michigan St, Jaquise Alexander NDSU). LOST Nate Evans (74.3, yr4) + Mysonne Pollard (70.4, yr4).",
+    "A genuine returning star (Seay, 1st-team All-CUSA) + returning corners + P4/FCS transfers - but the '25 unit was among CUSA's WORST in passing yards allowed, and it lost 2 yr4 DBs.",
+    "46: ~Arizona/NC State DB 46. Seay + the transfers vs the leaky baseline + the yr4 losses. M."
+   ],
+   "key_players": [
+    {"name": "KT Seay", "role": "S (returning)", "evidence": "75.9/885; 1st-team All-CUSA - their best defensive player"},
+    {"name": "George Mullins", "role": "DB (transfer, Michigan State)", "evidence": "a P4-transfer add to the secondary"}
+   ],
+   "data_gaps": ["among CUSA's worst in passing yards allowed", "lost 2 yr4 DBs (Evans, Pollard)"],
+   "g5_guard_note": "Conference USA; a 1st-team All-CUSA safety (Seay, offset -6.16) + transfers off a leaky pass-D baseline."},
+  {"team": "Delaware", "unit": "ST", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["BYU ST 2026 (42, peer)", "California ST 2026 (42, peer)"],
+   "rationale_bullets": [
+    "P Josh Cupitt (returns; missed '25 with a knee injury; 'reliable'; yr4 override) + a K competition (D3 Salisbury transfer Tucker Smack + Fr Kason Mullis) after losing 2nd-team All-CUSA K Nate Reed + 'a slew of explosive return candidates.' SPEC was p39.",
+    "A reliable returning punter + explosive returns, but an unsettled placekicker after losing the All-CUSA kicker.",
+    "42: ~BYU/California ST 42. The punter + return value vs the unsettled kicking. M."
+   ],
+   "key_players": [
+    {"name": "Josh Cupitt", "role": "P (returning, yr4)", "evidence": "the returning punter (missed '25 injured; reliable)"}
+   ],
+   "data_gaps": ["lost 2nd-team All-CUSA K Nate Reed", "unsettled placekicker"],
+   "g5_guard_note": "Conference USA; a reliable returning punter + explosive returns, but an unsettled kicker after losing the All-CUSA K."}
+ ]
+}

@@ -1,0 +1,9 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Fintan Brose,142242,G,DELAWARE,13,100.0,1,151,68.3,78.3,61.4,2,14,593,100.0,100.0,98.3,1,18,2,992,142,842,0,992,636,636,0,2,356,0,2025_this_team
+Anthony Caccese,173606,G,DELAWARE,13,100.0,0,151,65.7,74.0,60.8,3,7,586,100.0,100.0,98.6,5,13,3,981,0,1,0,981,629,629,729,247,352,2,2025_this_team
+Anwar O'neal,178137,T,DELAWARE,12,100.0,1,151,66.7,68.1,63.1,2,12,548,100.0,100.0,97.4,3,21,7,910,0,2,906,910,588,588,2,0,322,0,2025_this_team
+Steven Demboski,164536,C,DELAWARE,11,100.0,0,151,69.5,78.3,63.9,2,11,502,100.0,100.0,98.7,3,13,0,850,850,0,0,850,541,541,0,0,309,0,2025_this_team
+Noah Rosahac,183378,T,DELAWARE,13,100.0,0,151,62.4,57.3,65.5,3,28,480,100.0,100.0,96.6,4,32,1,824,0,2,81,824,511,511,2,737,313,2,2025_this_team
+Patrick Shupp,142268,G,DELAWARE,6,100.0,0,151,63.9,79.0,56.1,0,3,255,100.0,100.0,99.4,0,3,0,401,0,141,0,401,274,274,259,0,127,0,2025_this_team
+Cole Snyder,147656,T,DELAWARE,2,100.0,0,151,55.6,71.8,55.3,0,0,1,100.0,100.0,100.0,0,0,0,5,0,2,0,5,1,1,0,3,4,0,2025_this_team
+Jack Small,189394,T,DUKE,2,100.0,0,154,60.0,,60.3,0,0,0,,,,0,0,0,3,0,0,0,3,0,0,0,3,3,0,arrival_2025_at_DUKE

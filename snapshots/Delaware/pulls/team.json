@@ -1,0 +1,36 @@
+{
+ "id": 48,
+ "school": "Delaware",
+ "mascot": "Blue Hens",
+ "abbreviation": "DEL",
+ "alternateNames": [
+  "DEL",
+  "Delaware"
+ ],
+ "conference": "Conference USA",
+ "division": null,
+ "classification": "fbs",
+ "color": "#033594",
+ "alternateColor": "#e8ce31",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/48.png"
+ ],
+ "twitter": "@DelawareFB",
+ "location": {
+  "id": 3695,
+  "name": "Delaware Stadium",
+  "city": "Newark",
+  "state": "DE",
+  "zip": "19713",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 39.6617428,
+  "longitude": -75.7488224,
+  "elevation": "28.74350357",
+  "capacity": 22000,
+  "constructionYear": 1952,
+  "grass": false,
+  "dome": false
+ }
+}

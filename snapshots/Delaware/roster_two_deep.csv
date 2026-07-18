@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Nick Minicucci,QB,JR,returning,Athlon,feed,H,66.8/604 (CUSA -5.61; 2nd-team All-CUSA; LED CUSA in passing (3,683) + total offense (3,918) + 10 rush TD; the returning star)
+QB,2,Braden Streeter,QB,SO,returning,Athlon,feed,L,the returning backup
+RB,1,Jo Silver,RB,SR,returning-yr4override,Athlon,feed,M,73.0/119 (CUSA -7.50; the lead back, yr4 override; Athlon "return their top four rushers, led by Jo Silver")
+RB,2,Viron Ellison Jr.,RB,SO,returning,Athlon,feed,M,70.0/118 (CUSA; a returning back) + Kaderris Roberts (Bowling Green transfer, 62.8)
+WRTE,1,Sean Wilson,WR,SO,returning,Athlon,feed,H,77.2/391 (CUSA -4.19; 68 catches/877/3 TD; the returning WR1 star)
+WRTE,2,Donovan Lewis,WR,JR,returning,Athlon,feed,M,69.0/144 (CUSA; returning) + Nick Tyree (So) + TE Elijah Sessoms (yr4 override). LOST Duplessis (74.1 yr4) + Thaw (yr4) + Patterson (yr4)
+OL,1,Steven Demboski,C,SR,returning-yr4override,Athlon,feed,M,69.5/850 (CUSA -6.36; all-league C - "a solid anchor," yr4 override)
+OL,2,Noah Rosahac,LT,SO,returning,Athlon,feed,M,the returning LT + Anthony Caccese (RT) + transfer Mustafa Feika (LG). LOST Brose (68.3 yr4, graduation) + O'neal (-> Louisville). PBLK was p75
+DL,1,Noah Matthews,ED,SR,returning-yr4override,Athlon,feed,M,68.8/465 (CUSA -7.88; "landed at Kentucky to start his career"; yr4 override)
+DL,2,Dominick Brogna,DT,SR,returning-yr4override,Athlon,feed,M,70.4/332 (CUSA; a returning DT, yr4 override) + Kaeden Singleton + transfers. LOST Jack Hall (74.0 yr4) + Hunter (69.9 yr4). PRSH was p25
+LB,1,Gavin Moul,LB,JR,returning,Athlon,feed,M,66.0/880 (CUSA -12.31; 3rd in CUSA in tackles; the LB anchor)
+LB,2,Blake Matthews,LB,SR,returning-yr4override,Athlon,feed,M,68.7/674 (CUSA; a returning LB, yr4 override). LOST Marje Mulumba (67.7 yr4)
+DB,1,KT Seay,S,JR,returning,Athlon,feed,H,75.9/885 (CUSA -6.16; 1st-team All-CUSA; "their best defensive player" - covers ground + delivers hits/takeaways)
+DB,2,Kshawn Cox Jr.,CB,JR,returning,Athlon,feed,M,62.8/608 (CUSA; a returning CB) + Kahlil Ali (64.5) + Kolagbodi (Fr standout) + transfers Mullins (Michigan St)/Alexander (NDSU). LOST Nate Evans (74.3 yr4) + Pollard (70.4 yr4). "Worst in CUSA in pass yds allowed"
+ST,1,Josh Cupitt,P,SR,returning-yr4override,Athlon,feed,M,the returning punter (missed '25 with a knee injury; "reliable"; yr4 override)
+ST,2,Tucker Smack,K,JR,arrival(Salisbury-D3),Athlon,feed,L,D3 transfer competing for the K job (LOST 2nd-team All-CUSA K Nate Reed). "A slew of explosive return candidates." SPEC was p39

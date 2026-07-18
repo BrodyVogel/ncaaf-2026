@@ -1,0 +1,98 @@
+[
+ {
+  "season": 2026,
+  "firstName": "Alex",
+  "lastName": "Nash-Lally",
+  "position": "S",
+  "origin": "Delaware",
+  "destination": "Maine",
+  "transferDate": "2026-01-21T13:41:00.000Z",
+  "rating": null,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Meikhi",
+  "lastName": "Cuttino",
+  "position": "LB",
+  "origin": "Delaware",
+  "destination": null,
+  "transferDate": "2025-12-22T20:13:00.000Z",
+  "rating": null,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Thomas",
+  "lastName": "Amankwaa",
+  "position": "WR",
+  "origin": "Delaware",
+  "destination": null,
+  "transferDate": "2025-12-25T05:31:00.000Z",
+  "rating": null,
+  "stars": 4,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Nyair",
+  "lastName": "Domnie",
+  "position": "CB",
+  "origin": "Delaware",
+  "destination": "New Hampshire",
+  "transferDate": "2026-01-19T01:29:00.000Z",
+  "rating": null,
+  "stars": null,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Anwar",
+  "lastName": "O'neal",
+  "position": "OT",
+  "origin": "Delaware",
+  "destination": "Louisville",
+  "transferDate": "2026-01-06T22:50:00.000Z",
+  "rating": 0.85,
+  "stars": 3,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Micah",
+  "lastName": "Pryor",
+  "position": "DL",
+  "origin": "Delaware",
+  "destination": null,
+  "transferDate": "2025-12-11T20:14:00.000Z",
+  "rating": null,
+  "stars": null,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Skyler",
+  "lastName": "Sholder",
+  "position": "K",
+  "origin": "Delaware",
+  "destination": null,
+  "transferDate": "2025-12-25T20:12:00.000Z",
+  "rating": null,
+  "stars": null,
+  "eligibility": "Immediate"
+ },
+ {
+  "season": 2026,
+  "firstName": "Anthony",
+  "lastName": "Crenshaw Jr.",
+  "position": "S",
+  "origin": "Delaware",
+  "destination": "Baylor",
+  "transferDate": "2026-01-19T18:31:37.000Z",
+  "rating": 0.85,
+  "stars": 3,
+  "eligibility": "Immediate"
+ }
+]
