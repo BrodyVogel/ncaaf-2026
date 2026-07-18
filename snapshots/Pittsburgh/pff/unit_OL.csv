@@ -1,0 +1,15 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+BJ Williams,170127,G,PITTSBURGH,13,100.0,0,268,64.2,73.5,58.0,0,14,535,100.0,100.0,97.9,0,18,4,893,0,0,0,893,570,570,893,0,323,0,2025_this_team
+Lyndon Cooper,143987,C,PITTSBURGH,13,100.0,3,268,63.6,73.5,61.7,0,12,531,100.0,100.0,98.3,10,15,3,886,886,0,0,886,566,566,0,0,320,0,2025_this_team
+Ryan Baer,156362,T,PITTSBURGH,13,100.0,0,268,76.8,73.3,75.3,3,21,530,100.0,100.0,96.6,2,30,6,882,0,0,0,882,565,565,0,882,317,0,2025_this_team
+Keylen Davis,163067,G,AKRON,12,100.0,2,102,65.7,49.1,72.5,0,13,385,100.0,100.0,97.3,4,17,4,691,0,0,0,691,407,407,691,0,284,0,arrival_2025_at_AKRON
+Ryan Carretta,175412,G,PITTSBURGH,11,100.0,0,268,63.5,73.3,58.4,1,8,346,100.0,100.0,97.8,1,12,3,582,44,537,0,582,372,372,1,0,210,0,2025_this_team
+Kendall Stanley,157982,T,PITTSBURGH,11,100.0,1,268,53.3,67.1,55.2,1,15,341,100.0,100.0,97.4,10,17,1,582,0,124,442,582,367,367,0,14,215,2,2025_this_team
+Jeff Persi,129593,T,PITTSBURGH,9,100.0,0,268,46.4,46.7,47.3,4,14,287,100.0,100.0,95.1,3,23,5,461,0,0,461,461,299,299,0,0,162,0,2025_this_team
+Keith Gouveia,148417,G,PITTSBURGH,4,100.0,0,268,67.6,73.8,65.1,0,3,134,100.0,100.0,97.4,2,5,2,213,0,213,0,213,138,138,0,0,75,0,2025_this_team
+Jiavani Cooley,189533,T,PITTSBURGH,5,100.0,0,268,44.4,30.9,49.1,1,1,33,100.0,100.0,97.0,1,2,0,65,0,0,33,65,36,36,0,32,29,0,2025_this_team
+Isaiah Montgomery,162771,G,PITTSBURGH,6,100.0,0,268,59.6,67.2,62.2,0,0,35,100.0,100.0,100.0,1,0,0,63,7,31,0,63,38,38,25,0,25,0,2025_this_team
+Jackson Brown,158312,G,PITTSBURGH,4,100.0,0,268,71.1,59.3,73.7,0,0,19,100.0,100.0,100.0,0,0,0,34,0,25,0,34,20,20,9,0,14,0,2025_this_team
+Tai Ray,175421,G,PITTSBURGH,4,100.0,0,268,64.1,77.7,61.6,0,0,8,100.0,100.0,100.0,0,0,0,17,0,0,1,17,8,8,9,7,9,0,2025_this_team
+Torian Chester,204262,C,PITTSBURGH,1,100.0,0,268,49.8,67.3,49.5,0,0,1,100.0,100.0,100.0,0,0,0,7,0,7,0,7,1,1,0,0,6,0,2025_this_team
+Akram Elnagmi,199089,T,PITTSBURGH,1,100.0,0,268,60.0,,59.5,0,0,0,,,,0,0,0,2,0,0,0,2,0,0,0,2,2,0,2025_this_team

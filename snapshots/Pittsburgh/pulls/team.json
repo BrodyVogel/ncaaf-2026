@@ -1,0 +1,37 @@
+{
+ "id": 221,
+ "school": "Pittsburgh",
+ "mascot": "Panthers",
+ "abbreviation": "PITT",
+ "alternateNames": [
+  "Pitt",
+  "PITT",
+  "Pitt"
+ ],
+ "conference": "ACC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#003263",
+ "alternateColor": "#231f20",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/221.png"
+ ],
+ "twitter": "@Pitt_FB",
+ "location": {
+  "id": 3752,
+  "name": "Acrisure Stadium",
+  "city": "Pittsburgh",
+  "state": "PA",
+  "zip": "15260",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 40.4467648,
+  "longitude": -80.0157603,
+  "elevation": "220.5887146",
+  "capacity": 68400,
+  "constructionYear": 2001,
+  "grass": true,
+  "dome": false
+ }
+}

@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Pat",
+  "lastName": "Narduzzi",
+  "hireDate": "2014-12-16T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Pittsburgh",
+    "year": 2024,
+    "games": 13,
+    "wins": 7,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 4.5,
+    "spOverall": 4.9,
+    "spOffense": 29.3,
+    "spDefense": 26.3
+   }
+  ]
+ },
+ {
+  "firstName": "Pat",
+  "lastName": "Narduzzi",
+  "hireDate": "2014-12-16T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Pittsburgh",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 10,
+    "spOverall": 8.4,
+    "spOffense": 31.6,
+    "spDefense": 23.5
+   }
+  ]
+ }
+]

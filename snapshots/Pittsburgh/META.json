@@ -1,0 +1,36 @@
+{
+ "team": "Pittsburgh",
+ "conference": "ACC",
+ "created_utc": "2026-07-18T00:46:31+00:00",
+ "assembler_git_rev": "e44b2b9",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Pat Narduzzi - Athlon 'Record at School: 80-61 (11 years)'; PS '12th Year Here.' NO change (band x1.00). OC Kade Bell returns (20th in scoring '25). Narduzzi is defensive-minded. Verified BOTH sources.",
+ "conference_note": "ACC (P4). R14: ACC cells POSITIVE on returning tape; arrivals on origin cells. Arrivals: Holden Geriner Texas State/SBC (QB backup - via Auburn), La'Vell Wright Western Kentucky/CUSA (-7.50 RB weighted), Malik Knight Western Carolina/FCS (NO CELL - WR), Carson Kent Oklahoma/SEC (TE); Netinho Olivieri Penn/Ivy (NO CELL - OL); Alex Sanford Jr Purdue/B10 (+16.10 LB inflated weighted DOWN); Raion Strader Auburn/SEC (DB - 1st-Tm MAC '24 at Miami OH), DeMarco Ward Memphis/AAC (-3.27 DB); Sam Hunsaker Northern Arizona/FCS (K), Gabe Russo Idaho State/FCS (P).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": ["Shawn Lee Jr."],
+ "yr4_return_overrides_documented": ["Keith Gouveia", "Censere Lee", "Blaine Spires", "Javon McIntyre", "Rashad Battle"],
+ "nfl_declare_confirmed": ["Kyle Louis"],
+ "departure_confirmed_research": ["Raphael Williams Jr."],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Mason Heintschel": "QB, 59.5/418 (frosh revelation, 2,354 yds/16 TD, went 6-3) - RETURNS as QB1. Both feature. The young engine.",
+  "Eli Holstein": "QB, 58.7/153 ('24-'25 starter, injured/benched) - GONE (-> Virginia). Heintschel is QB1.",
+  "Kyle Louis": "LB, 73.1/668 (2nd-Tm AA - 101 tkl/7 sk/4 int '24) - GONE, NFL DECLARE (junior). PS 'Louis (#4 DC MIA)'; Athlon omits. nfl_declare_confirmed. VERIFIED BOTH.",
+  "Rasheem Biles": "LB, 83.7/670 - GONE (-> Texas). LB loses both stars (Louis NFL + Biles); Lovelace + Lindsey + Sanford return.",
+  "Shawn Lee Jr.": "CB, 79.9/427 - portal-None but Athlon 'Shawn Lee leads the secondary' + PS 'CB Shawn Lee returns' -> WITHDREW (portal_withdrawal_override). VERIFIED BOTH.",
+  "Raphael Williams Jr.": "WR, 61.9/476 (led WRs '25, 701 yds) - GONE. PS 'lose the top two WRs'; Athlon omits (WR = Hicks + Knight + Yates). Not in portal-out/not yr4 -> departure_confirmed_research (feed-miss). VERIFIED BOTH.",
+  "Desmond Reid": "RB, 80.1/61 ('24 star, injured half of '25) - GONE (yr4). PS 'lose Reid.' EXPIRED(yr4).",
+  "Kenny Johnson": "WR, 69.0/418 (#2 WR) - GONE (-> Texas Tech). Part of the 'top two WRs' loss.",
+  "Francis Brewu": "DL, 78.4/484 - GONE (-> Notre Dame). Among the 4 DL starters lost."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS 2026 charts. Moderate churn (16 in / 21 out).",
+  "8-5 (6-2 ACC) in '25 - a DEFENSE-led team (DEF p81, RDEF p96 - #8 vs run; TACK p81) whose passing O was weak (PASS p13) until frosh QB Heintschel's 6-3 run.",
+  "QB Heintschel (young, promising, 16 TD frosh) RETURNS. RB Turner (745 frosh) + Wright (WKU); Reid gone (yr4). WR THIN (only Hicks returns; top-2 WRs gone) + FCS/transfer reload. OL experienced (Baer + Gouveia + Williams + Carretta + Ivy LT Olivieri).",
+  "DEFENSE the strength but hit: DL loses Brewu (-> ND) + Whittington (-> Neb) but returns Neal/James/FitzSimmons/Scott (#8 vs run). LB loses BOTH stars - Louis (NFL #4 DC) + Biles (-> Texas) - but keeps Lovelace + Lindsey + Sanford (Purdue). DB returns Brookins + Lee (withdrawal) + Battle + Strader (Auburn); S depth a concern. Holstein -> Virginia (already graded)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T01:05:00Z"
+}
