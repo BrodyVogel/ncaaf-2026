@@ -1,0 +1,136 @@
+{
+ "team": "Arkansas",
+ "units": {
+  "QB": {"grade": 42, "confidence": "L"},
+  "RB": {"grade": 46, "confidence": "M"},
+  "WRTE": {"grade": 44, "confidence": "M"},
+  "OL": {"grade": 44, "confidence": "M"},
+  "DL": {"grade": 48, "confidence": "M"},
+  "LB": {"grade": 44, "confidence": "M"},
+  "DB": {"grade": 48, "confidence": "M"},
+  "ST": {"grade": 44, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T02:42:15Z (7b57cb1)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells OL/LB/RB weighted DOWN; small samples discounted], arrivals on origin cells; NEW HC Silverfield -> coach_change band x1.13; disposition gate resolved 35 rows / 0 adjudicate / 0 err - near-total rebuild [41 in / 43 out], Taylen Green NFL-declare override, Collins+Mitchell portal-withdrawals, Oke yr4-return, Saili GONE); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16). DISCLOSED: Arkansas' own P6 ranking index line incidentally visible during facts extraction - logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB42/RB46/WRTE44/OL44/DL48/LB44/DB48/ST44, sum 360). No post-freeze corrections."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB 45, WRTE 48, OL 69, DL 50, LB 45, DB 66, ST 15) keys the '25 roster; the rebuild inverts it (offense gutted, defense transfused).",
+   "QB": "proxy None - Green (the engine) went pro; the grade keys the unproven Jackson/Hill battle (Jackson's 78.7 on 67 snaps the only signal).",
+   "OL": "-25 vs proxy 69 - proxy over-credits the #1-run-push '25 line; the grade keys the reload (lost All-SEC LT Carmona + Robinson + Harris; 0/10 four-stars; pass-pro liability).",
+   "DB": "-18 vs proxy 66 - both credit the mix; the grade keys the portal upgrade (All-AAC Johnson + Stoutmire + Mitchell) over the p7 '25 base.",
+   "DL": "-2 vs proxy 50 - close; All-SEC Rhodes + KY edge Soles + seven Top200 bodies, capped by tiny transfer samples.",
+   "ST": "+29 vs proxy 15 - proxy keys the p15 '25 unit (2 game-costing missed FGs); the grade credits a fresh transfer K + dynamic returner Sutton Smith, still below average.",
+   "RB/WRTE/LB": "grades reset to the lower-tier reloads (Sutton Smith AAC; CJ Brown + transfers; Shaw + House)."
+  }
+ },
+ "grades_detail": [
+  {"team": "Arkansas", "unit": "QB", "grade": 42, "confidence": "L",
+   "bracketing_exemplars": ["Kansas QB 2026 (42, peer)", "Colorado QB 2026 (45, above)"],
+   "rationale_bullets": [
+    "KJ Jackson (SO, 78.7/67 tiny sample - Green's backup, started the finale, spring leader) vs AJ Hill (Memphis, 52.3/35, 6'5 Top200 RS-fr who followed Silverfield).",
+    "Taylen Green (82.5/417, the '25 engine - 27 total TD, RUN p99) GONE - went pro.",
+    "A reset replacing a dynamic 27-TD dual-threat; Jackson's 78.7 is a real flash but on 67 snaps, Hill a system-fit projection. First QB battle since 2019.",
+    "42: ~Kansas QB 42 (unproven-reset tier); below Colorado 45. Jackson's small-sample flash the only thing above the floor. L."
+   ],
+   "key_players": [
+    {"name": "KJ Jackson", "role": "QB1 (returning)", "evidence": "78.7/67 tiny sample; Green's backup; started finale; spring leader"},
+    {"name": "AJ Hill", "role": "QB (transfer, Memphis)", "evidence": "52.3/35; 6'5 Top200 RS-fr; followed Silverfield"}
+   ],
+   "data_gaps": ["Green (the engine) went pro", "no proven starter workload; 67-snap flash"], "g5_guard_note": null},
+  {"team": "Arkansas", "unit": "RB", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Michigan State RB 2026 (48, above)", "Illinois RB 2025 global anchor (32, below)"],
+   "rationale_bullets": [
+    "Braylen Russell (75.0/55 -> SEC +10.17 weighted DOWN; 286 yds, thumper) + Sutton Smith (Memphis, 73.6/102 -> AAC ~neutral; 669 yds/6.6 ypc, elusive) + Jasper Parker (Michigan Top200).",
+    "Mike Washington (1,000-yd back, 78.3) graduated.",
+    "A real committee - Russell's power + Smith's home-run ability (6.6 ypc on 100 AAC carries) - behind a rebuilt OL that loses its All-SEC left side + switches to zone.",
+    "46: below Michigan State RB 48; a functional backfield capped by the blocking reset. M."
+   ],
+   "key_players": [
+    {"name": "Sutton Smith", "role": "RB (transfer, Memphis)", "evidence": "73.6/102; 669 yds/6.6 ypc; elusive/home-run"},
+    {"name": "Braylen Russell", "role": "RB1 (returning)", "evidence": "75.0/55 (SEC-adj weighted); 286 yds; thumper"}
+   ],
+   "data_gaps": ["1,000-yd back graduated", "behind a rebuilt OL + new scheme"], "g5_guard_note": null},
+  {"team": "Arkansas", "unit": "WRTE", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Memphis WRTE 2026 (45, above)", "Baylor WRTE 2026 (44, peer)"],
+   "rationale_bullets": [
+    "CJ Brown (59.6/368 -> SEC +5.94 -> 65.5 adj; the lone '25 WR returner) + Chris Marshall (Boise St, 62.4/310 -> MWC 58.7 adj; 19.1 ypc) + Jamari Hawkins (Memphis, 69.6/347 -> 70.0 adj) + Jaden Platt (TE, 59.7/209 -> 65.6 adj, surged late) + Crutchfield (Top100) + Cisse (injury bounce).",
+    "O'Mega Blake + Raylen Sharpe + All-SEC TE Rohan Jones (90.3) gone.",
+    "A near-total WR reload around one returner + lower-tier transfers + upside youth; losing a 90.3 All-SEC TE hurts, Platt a decent replacement.",
+    "44: ~Baylor 44 / below Memphis 45; below-average P4, the transfer tier caps it. M."
+   ],
+   "key_players": [
+    {"name": "CJ Brown", "role": "WR1 (returning, lone '25 returner)", "evidence": "59.6/368 (65.5 SEC-adj)"},
+    {"name": "Jamari Hawkins", "role": "WR (transfer, Memphis)", "evidence": "69.6/347 (70.0 AAC-adj)"}
+   ],
+   "data_gaps": ["lost 2 WR starters + a 90.3 All-SEC TE", "reloaded from lower tiers"], "g5_guard_note": null},
+  {"team": "Arkansas", "unit": "OL", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["NC State OL 2026 (46, above)", "Florida State OL 2026 (40, below)"],
+   "rationale_bullets": [
+    "Caden Kitler (C, 57.7/719 -> SEC +13.45 weighted DOWN; returning starter) + Kobe Branham (G, 67.2/733 -> weighted; returning starter) + Bryant Williams (Louisiana, 67.8/719 -> SBC; Top10 tackle transfer) + Malachi Breland (Memphis, 69.4/845 -> AAC +1.18; this staff's '25 starter) + Broussard (Ohio/MAC).",
+    "Lost Carmona (All-SEC LT) + Corey Robinson + Harris (-> Oklahoma).",
+    "Two returning interior starters + experienced non-blue-chip G5 transfers (700+ snaps each). P6 '0/10 four-stars'; pass pro outside Top 100 in Sack Rate 2 yrs; new zone scheme.",
+    "44: below NC State OL 46; above FSU 40. Experienced, unspectacular, unproven in pass pro. M."
+   ],
+   "key_players": [
+    {"name": "Caden Kitler", "role": "C (returning starter)", "evidence": "57.7/719 (SEC-adj weighted); 11/13 starts"},
+    {"name": "Bryant Williams", "role": "OT (transfer, Louisiana)", "evidence": "67.8/719; Top10 tackle transfer this cycle"}
+   ],
+   "data_gaps": ["lost All-SEC LT + a starter", "0/10 four-stars; pass-pro liability; new scheme"], "g5_guard_note": null},
+  {"team": "Arkansas", "unit": "DL", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Arizona DL 2026 (48, peer)", "Boise State DL 2026 (50, above)"],
+   "rationale_bullets": [
+    "Quincy Rhodes Jr. (71.3/650 -> SEC +7.87 weighted -> ~76; All-SEC breakout, the anchor) + Steven Soles (Kentucky, 78.1/184 -> SEC weighted; edge) + Hunter Osborne (Virginia, 61.9/271 -> 63.1 adj) + David Oke (NT, returning) + Charlie Collins (JACK) + Carlon Jones/Sims/Odom/Waller (Auburn Top100) rotation.",
+    "All three '25 starters were the strength lost elsewhere; this room reloads with seven former Top200 prospects.",
+    "The defense's most talented room - a legit All-SEC anchor + a high-grade KY edge - but most transfers carry TINY samples (Jones 61, Sims 10, Odom 10). On a #129 scoring defense.",
+    "48: ~Arizona DL 48; below Boise 50. Rhodes + Soles + depth push it above the offense; unproven cohesion caps it. M."
+   ],
+   "key_players": [
+    {"name": "Quincy Rhodes Jr.", "role": "ED (returning, anchor)", "evidence": "71.3/650 (SEC-adj ~76); All-SEC breakout"},
+    {"name": "Steven Soles Jr.", "role": "ED (transfer, Kentucky)", "evidence": "78.1/184; KY edge starter"}
+   ],
+   "data_gaps": ["most transfers on tiny samples", "#129 scoring defense base; unproven together"], "g5_guard_note": null},
+  {"team": "Arkansas", "unit": "LB", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Kansas State LB 2026 (44, peer)", "Duke LB 2026 (46, above)"],
+   "rationale_bullets": [
+    "Bradley Shaw (58.3/499 -> SEC +14.01 weighted DOWN; solid '25, moves to MLB) + Ja'Quavion Smith (FCS Howard, NO CELL; spring hero) + Khmori House (North Carolina, 53.0/777 -> ACC 55.1 adj; All-ACC HM, moved to hybrid 'star').",
+    "Xavian Sorey + Stephen Dix gone.",
+    "A thin, modest group - one returning contributor (Shaw), an FCS spring riser, an experienced-but-mid P4 transfer (House) shifted to a hybrid role.",
+    "44: ~Kansas State LB 44; below Duke 46. House's snaps + Shaw's return keep it off the floor. M."
+   ],
+   "key_players": [
+    {"name": "Bradley Shaw", "role": "MLB (returning)", "evidence": "58.3/499 (SEC-adj weighted); solid '25 contributor"},
+    {"name": "Khmori House", "role": "STAR/LB (transfer, North Carolina)", "evidence": "53.0/777; All-ACC HM; hybrid role"}
+   ],
+   "data_gaps": ["both ILB starters gone", "thin; modest grades"], "g5_guard_note": null},
+  {"team": "Arkansas", "unit": "DB", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Georgia Tech DB 2026 (48, peer)", "Stanford DB 2026 (50, above)"],
+   "rationale_bullets": [
+    "Jahiem Johnson (Tulane, 76.2/834 -> AAC 76.6 adj; All-AAC 4-star transfer, huge workload) + La'khi Roland (Maryland, 67.7/376 -> B10 weighted ~70; CB) + Miguel Mitchell (67.0/474 -> SEC +5.44 -> 72.4 adj; the ONLY returning starter) + Carter Stoutmire (Colorado, 72.4/461 -> 74.3 adj) + Christian Harrison (Cincinnati, 67.3/685 -> 69.2 adj) + House at star.",
+    "COV was p7 in '25.",
+    "The unit most upgraded by the portal - five defenders with 376+ snaps and 67+ grades, led by a genuine All-AAC corner (Johnson, 834 snaps). Real talent injection over a p7 base, but new-together + stepping up in class.",
+    "48: ~Georgia Tech DB 48; below Stanford 50. The transfer haul lifts it to average-ish P4 despite the p7 base; integration is the risk. M."
+   ],
+   "key_players": [
+    {"name": "Jahiem Johnson", "role": "CB (transfer, Tulane)", "evidence": "76.2/834; All-AAC 4-star transfer; huge workload"},
+    {"name": "Miguel Mitchell", "role": "S (returning, only DB starter back)", "evidence": "67.0/474 (72.4 SEC-adj)"}
+   ],
+   "data_gaps": ["COV p7 base", "new-together; class step-up"], "g5_guard_note": null},
+  {"team": "Arkansas", "unit": "ST", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Rutgers ST 2026 (44, peer)", "UCF ST 2026 (45, above)"],
+   "rationale_bullets": [
+    "Max Gilbert (K, transfer - no returning kickers) + Gavin Rush (P, Fr) + Sutton Smith (dynamic KR/PR).",
+    "SPEC p15 in '25 with two game-costing missed FGs.",
+    "An all-new specialist corps off a bottom-15 unit - a transfer kicker + a freshman punter - with real return juice from Sutton Smith.",
+    "44: ~Rutgers ST 44; below UCF 45. Below-average; the return game is the one plus. M."
+   ],
+   "key_players": [
+    {"name": "Max Gilbert", "role": "K (transfer)", "evidence": "transfer PK; no returning kickers"},
+    {"name": "Sutton Smith", "role": "KR/PR", "evidence": "dynamic returner"}
+   ],
+   "data_gaps": ["no returning K/P; SPEC p15 base", "freshman punter"], "g5_guard_note": null}
+ ]
+}

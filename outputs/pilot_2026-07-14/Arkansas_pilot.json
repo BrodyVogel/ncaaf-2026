@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T02:43:57+00:00",
+ "team": "Arkansas",
+ "final": 3.02,
+ "rank": 54,
+ "band": 6.98,
+ "resid": -6.27,
+ "adj": -2.19,
+ "class_term": -0.0,
+ "st": -0.12,
+ "anchor_blend": 4.83,
+ "resid_level": -2.5,
+ "resid_shape": -3.77,
+ "implied_off": 24.31,
+ "implied_def": 25.96,
+ "anchor_off": 34.01,
+ "anchor_def": 29.39,
+ "fit_r2": {
+  "off": 0.541,
+  "dfn": 0.618
+ },
+ "low_conf_units": 1,
+ "code_rev": "7b57cb1",
+ "mode": "PILOT-OOS"
+}
