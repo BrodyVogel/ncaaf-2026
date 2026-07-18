@@ -1,0 +1,54 @@
+{
+ "team": "Arkansas",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T02:31:22+00:00",
+ "assembler_git_rev": "845877d",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Ryan Silverfield (from Memphis, 50-25; FIRST season at Arkansas) - COACH CHANGE, band x1.13. NEW OC Tim Cramsey; NEW DC Ron Roberts (+ Deron Wilson). Sam Pittman fired (56-13 Notre Dame blowout); Petrino interim 0-7 to close. '25: 2-10 (0-8 SEC). Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC). SEC offsets LARGE (QB +7.72, RB +10.17, WRTE +5.94, OL +13.45, DL +7.87, LB +14.01, DB +5.44) - big cells (OL/LB/RB) WEIGHTED DOWN per over-inflates note; small samples discounted. NEAR-TOTAL REBUILD: heavy transfer influx from LOWER tiers on offense (Memphis/AAC, Boise/MWC, Louisiana/SBC) + higher-upside P4 transfers on defense (Osborne VA/ACC, Jones USC/B10, Sims Oregon/B10, Soles KY/SEC, Johnson Tulane/AAC, Stoutmire Colorado/B12, Harrison Cincinnati/B12, Roland Maryland/B10) - ALL on origin cells. FCS (Ja'Quavion Smith Howard) = NO CELL.",
+ "portal_departure_confirmed": [
+  "Danny Saili"
+ ],
+ "portal_withdrawal_overrides": [
+  "Charlie Collins",
+  "Miguel Mitchell"
+ ],
+ "yr4_return_overrides_documented": [
+  "David Oke"
+ ],
+ "nfl_declare_confirmed": [
+  "Taylen Green"
+ ],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Taylen Green": "QB, 82.5/417 - the '25 starter + offense's engine (RUN p99; 27 total TD, 3,400+ total yds, dynamic dual-threat). GONE - WENT PRO (P6 'Green went pro'; Athlon/PS omit from QB chart). yr4-listed + NOT in portal feed -> nfl_declare_confirmed. 2-SOURCE+.",
+  "Mike Washington Jr.": "RB, 78.3/167 (1,000-yd back) - GONE (yr4 AND P6 'graduated'). EXPIRED(yr4).",
+  "O'Mega Blake": "WR, 74.5/415 (starter) - GONE (yr4 AND P6 'graduated'). EXPIRED(yr4).",
+  "Raylen Sharpe": "WR, 67.5/316 (starter) - GONE (yr4 AND P6 'graduated'). EXPIRED(yr4).",
+  "Rohan Jones": "TE, 90.3/106 (All-SEC) - GONE (yr4 AND P6 'is gone'). EXPIRED(yr4). Big loss.",
+  "Fernando Carmona": "OT, 71.1/790 (All-SEC LT) - GONE (yr4 AND P6 'graduated'). EXPIRED(yr4).",
+  "Corey Robinson II": "G, 64.4/800 (starter) - GONE (yr4 AND P6 'graduated'). EXPIRED(yr4).",
+  "Xavian Sorey Jr.": "LB, 50.3/719 (starter) - GONE (yr4 AND P6 'gone'). EXPIRED(yr4).",
+  "Stephen Dix Jr.": "LB, 64.8/617 (starter) - GONE (yr4 AND P6 'gone'). EXPIRED(yr4).",
+  "Jalen Brown": "WR, 56.7/138 - GONE (P6 'thrown off the team in April').",
+  "E'Marion Harris": "OL - GONE (P6 'transferred out to Oklahoma').",
+  "David Oke": "NT/DI, 69.6/62 (yr4) - RETURNS. Athlon + PS chart both list him the starting NT. yr4_return_override (R15: named in depth chart).",
+  "Quincy Rhodes Jr.": "ED, 71.3/650 - RETURNS. All-SEC breakout; the DL anchor (SEC +7.87 -> ~76 adj).",
+  "KJ Jackson": "QB, 78.7/67 - RETURNS. Green's '25 backup; started the finale; spring leader (tiny 67-snap sample).",
+  "Khmori House": "LB, 53.0/777 (North Carolina transfer) - moved to hybrid 'star' role. All-ACC HM at UNC.",
+  "Charlie Collins": "ED/JACK, 55.3/164 - portal-none feed BUT Athlon lists him the JACK starter + P6 names him 'starter-caliber.' portal_withdrawal_override (R15: named returning starter).",
+  "Miguel Mitchell": "S, 67.0/474 - portal-none feed BUT P6 'the only starter back in the secondary' + Athlon lists him S starter. portal_withdrawal_override (R15).",
+  "Danny Saili": "DL, 68.6/313 (yr4) - portal-none feed, NOT named returning by any magazine -> GONE. portal_departure_confirmed. DL depth below the two-deep; grade-neutral."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 2026 charts. NEAR-TOTAL REBUILD under a new staff (41 in / 43 out per feeds). Taylen Green (QB, offense engine) went pro - invisible to yr4+portal feeds, added via nfl_declare_confirmed, 2-source+ verified.",
+  "2-10 (0-8 SEC) but a paradoxical '25 profile: OFF p68 / RUN p99 (#1 in P6 opp-adjusted rushing, driven by Green + the run-push OL) BUT DEF p17 / COV p7 / SPEC p15. The good half (offense) is GUTTED (Green pro, Washington/Blake/Sharpe/Rohan Jones/Carmona graduated); the bad half (defense) got a high-upside-but-unproven portal transfusion.",
+  "OFFENSE reload = production from LOWER tiers (P6): Memphis (Sutton Smith, Breland, Hawkins, Adcock, AJ Hill), Boise St (Marshall), Louisiana (Bryant Williams). OL 'zero former 4-stars on the two-deep: 0/10'; pass pro outside Top 100 in Sack Rate 2 yrs running; scheme shifts to zone.",
+  "DEFENSE reload = higher-upside P4/AAC transfers but mostly UNPROVEN/small-sample: DL 7 former Top200 (Rhodes All-SEC is the real anchor + Soles KY 78.1); DB genuinely upgraded (All-AAC Johnson 76.2/834, Stoutmire 72.4/461, + Mitchell the only returner). LB thin (Shaw + FCS Howard's Ja'Quavion Smith + House at star)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded); DISCLOSED: Arkansas' own P6 ranking index line ('#16 ARKANSAS') incidentally visible during facts extraction - logged in research_log.md, NOT used in grading",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T02:42:15+00:00"
+}

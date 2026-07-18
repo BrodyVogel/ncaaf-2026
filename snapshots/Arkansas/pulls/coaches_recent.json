@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Sam",
+  "lastName": "Pittman",
+  "hireDate": "2019-12-08T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Arkansas",
+    "year": 2024,
+    "games": 13,
+    "wins": 7,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 6.1,
+    "spOverall": 11,
+    "spOffense": 31.4,
+    "spDefense": 21.7
+   }
+  ]
+ },
+ {
+  "firstName": "Sam",
+  "lastName": "Pittman",
+  "hireDate": "2019-12-08T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Arkansas",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 4,
+    "spOverall": 5.1,
+    "spOffense": 35.8,
+    "spDefense": 31.4
+   }
+  ]
+ }
+]

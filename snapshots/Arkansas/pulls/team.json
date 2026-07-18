@@ -1,0 +1,36 @@
+{
+ "id": 8,
+ "school": "Arkansas",
+ "mascot": "Razorbacks",
+ "abbreviation": "ARK",
+ "alternateNames": [
+  "ARK",
+  "Arkansas"
+ ],
+ "conference": "SEC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#a41f35",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/8.png"
+ ],
+ "twitter": "@RazorbackFB",
+ "location": {
+  "id": 3887,
+  "name": "Razorback Stadium",
+  "city": "Fayetteville",
+  "state": "AR",
+  "zip": "72702",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 36.0680662,
+  "longitude": -94.1789534,
+  "elevation": "403.7972412",
+  "capacity": 80000,
+  "constructionYear": 1938,
+  "grass": false,
+  "dome": false
+ }
+}

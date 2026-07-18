@@ -1,0 +1,36 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,KJ Jackson,QB,SO,returning,Athlon,PS,L,78.7/67 tiny sample (SEC +7.72 weighted DOWN hard); Green's '25 backup; started finale; spring leader
+QB,2,AJ Hill,QB,FR,transfer:Memphis,Athlon,PS,L,52.3/35 (AAC); 6'5 Top200 RS-fr; followed Silverfield from Memphis
+RB,1,Braylen Russell,RB,JR,returning,Athlon,PS,M,75.0/55 (SEC +10.17 weighted DOWN; 286 yds; thumper)
+RB,2,Sutton Smith,RB,SR,transfer:Memphis,Athlon,PS,M,73.6/102 (AAC ~neutral; 669 yds/6.6 ypc; elusive/home-run)
+RB,3,Jasper Parker,RB,FR,transfer:Michigan,Athlon,PS,L,65.9/25 (B10 tiny); Top200
+WRTE,1,CJ Brown,WR,JR,returning,Athlon,PS,M,59.6/368 (SEC +5.94 -> 65.5 adj); the lone 2025 WR returner
+WRTE,2,Chris Marshall,WR,SR,transfer:Boise State,Athlon,PS,M,62.4/310 (MWC -3.70 -> 58.7 adj); 4-star transfer grade; 19.1 ypc
+WRTE,3,Jamari Hawkins,WR,SR,transfer:Memphis,Athlon,PS,M,69.6/347 (AAC +0.45 -> 70.0 adj); experienced
+WRTE,4,Jaden Platt,TE,JR,returning,Athlon,PS,M,59.7/209 (SEC +5.94 -> 65.6 adj); surged late '25; TE1
+WRTE,5,Courtney Crutchfield,WR,SO,returning,Athlon,PS,L,57.5/34 (Top100 super-recruit; breakout potential)
+WRTE,6,Ismael Cisse,WR,JR,returning,Athlon,PS,L,injury bounce-back (poised to start pre-injury); Matt Adcock (Memphis TE) depth
+OL,1,Caden Kitler,C,SR,returning,Athlon,PS,M,57.7/719 (SEC +13.45 weighted DOWN; returning starter, 11/13)
+OL,2,Kobe Branham,G,SO,returning,Athlon,PS,M,67.2/733 (SEC +13.45 weighted DOWN; returning starter)
+OL,3,Bryant Williams,OT,SR,transfer:Louisiana,Athlon,PS,M,67.8/719 (SBC -0.35; Top10 tackle transfer this cycle)
+OL,4,Malachi Breland,G,JR,transfer:Memphis,Athlon,PS,M,69.4/845 (AAC +1.18; this staff's '25 starter)
+OL,5,Kavion Broussard,OT,SO,transfer:Ohio,Athlon,PS,L,53.3/181 (MAC); LT competition
+OL,6,Terence Roberson Jr.,OT,SO,transfer,Athlon,PS,L,depth; "0/10 four-stars on the OL two-deep" (P6)
+DL,1,Quincy Rhodes Jr.,ED,SR,returning,Athlon,PS,H,71.3/650 (SEC +7.87 weighted -> ~76; All-SEC breakout; the anchor)
+DL,2,Steven Soles Jr.,ED,JR,transfer:Kentucky,Athlon,PS,M,78.1/184 (SEC +7.87 weighted; KY edge starter)
+DL,3,Hunter Osborne,DI,JR,transfer:Virginia,Athlon,PS,M,61.9/271 (ACC +1.19 -> 63.1 adj); Top200
+DL,4,David Oke,NT,SR,returning,Athlon,PS,M,69.6/62 (SEC; small sample); chart NT starter
+DL,5,Charlie Collins,ED,JR,returning,Athlon,PS,L,55.3/164 (SEC); JACK hybrid role
+DL,6,Carlon Jones,DI,SO,transfer:USC,Athlon,PS,L,59.9/61 (B10 tiny); + Sims (Oregon), Odom (Ohio St), Jamonta Waller (Auburn Top100)
+LB,1,Bradley Shaw,LB,JR,returning,Athlon,PS,M,58.3/499 (SEC +14.01 weighted DOWN; solid '25; moves to MLB)
+LB,2,Ja'Quavion Smith,LB,JR,transfer:Howard,Athlon,PS,L,FCS (NO CELL); spring hero; WLB
+LB,3,Khmori House,LB,JR,transfer:North Carolina,Athlon,PS,M,53.0/777 (ACC +2.13 -> 55.1 adj); All-ACC HM; moved to hybrid STAR
+LB,4,Wyatt Simmons,LB,SO,returning,Athlon,PS,L,depth
+DB,1,Jahiem Johnson,CB,JR,transfer:Tulane,Athlon,PS,M,76.2/834 (AAC +0.45 -> 76.6 adj); All-AAC 4-star transfer; huge workload
+DB,2,La'khi Roland,CB,JR,transfer:Maryland,Athlon,PS,M,67.7/376 (B10 +6.33 weighted -> ~70; CB starter)
+DB,3,Miguel Mitchell,S,SR,returning,Athlon,PS,M,67.0/474 (SEC +5.44 -> 72.4 adj); the ONLY returning DB starter
+DB,4,Carter Stoutmire,S,SR,transfer:Colorado,Athlon,PS,M,72.4/461 (B12 +1.85 -> 74.3 adj)
+DB,5,Christian Harrison,S,SR,transfer:Cincinnati,Athlon,PS,M,67.3/685 (B12 +1.85 -> 69.2 adj)
+DB,6,Shelton Lewis,CB,JR,transfer,Athlon,PS,L,CB depth (+ DJ Hairston, Braydon Lee); Khmori House plays hybrid STAR/nickel
+ST,1,Max Gilbert,K,JR,transfer,Athlon,PS,L,transfer PK; no returning kickers ('25 SPEC p15, missed 2 costly FGs)
+ST,2,Gavin Rush,P,FR,returning,Athlon,PS,L,new punter; Sutton Smith = dynamic KR/PR
