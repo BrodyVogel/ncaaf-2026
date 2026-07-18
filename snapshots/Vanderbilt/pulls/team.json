@@ -1,0 +1,36 @@
+{
+ "id": 238,
+ "school": "Vanderbilt",
+ "mascot": "Commodores",
+ "abbreviation": "VAN",
+ "alternateNames": [
+  "VAN",
+  "Vanderbilt"
+ ],
+ "conference": "SEC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#866d4b",
+ "alternateColor": "#000000",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/238.png"
+ ],
+ "twitter": "@VandyFootball",
+ "location": {
+  "id": 3973,
+  "name": "FirstBank Stadium",
+  "city": "Nashville",
+  "state": "TN",
+  "zip": "37212",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 36.1440455,
+  "longitude": -86.8088942,
+  "elevation": "159.9194641",
+  "capacity": 40351,
+  "constructionYear": 1922,
+  "grass": false,
+  "dome": false
+ }
+}

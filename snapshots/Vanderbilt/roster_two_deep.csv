@@ -1,0 +1,30 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Jared Curtis,QB,FR,returning,Athlon,PS,L,#1 OVERALL recruit (5-star; flipped from Georgia; Vandy's first-ever 5-star; 6-4; enrolled early, clear #1 in spring; ZERO college experience). Diego Pavia (92.2/484, Heisman 2nd) GRADUATED
+QB,2,Whit Muschamp,QB,FR,returning,Athlon,PS,L,developmental depth behind the true-frosh starter
+RB,1,Sedrick Alexander,RB,JR,returning,Athlon,PS,M,74.2/211 (SEC +10.17 weighted; part of a 981-yd/17-TD duo)
+RB,2,Makhilyn Young,RB,SR,returning,Athlon,PS,M,79.4/109 (SEC weighted; 9.0/carry; yr4-return per P6 "both return") + 4-star Evan Hampton (KY Gatorade POY)
+WRTE,1,Junior Sherrill,WR,SR,returning,Athlon,PS,M,73.3/383 (SEC +5.94; 784 yds/7 TD; a top returning SEC receiver)
+WRTE,2,Ja'Cory Thomas,WR,JR,transfer:Old Dominion,Athlon,PS,M,719 yds/17.5 ypc (SBC; explosive deep threat)
+WRTE,3,Cole Adams,WR,SR,transfer:Alabama,Athlon,PS,M,former blue-chipper (SEC-origin; turned heads in spring)
+WRTE,4,Cole Spence,TE,SR,returning,Athlon,PS,M,66.2/145 (SEC; yr4-return; the 12-personnel starting TE)
+WRTE,5,Jayvontay Conner,TE,JR,transfer:East Carolina,Athlon,PS,L,4-star (AAC; the flex role for Stowers) + Tristen Brown (slot). Eli Stowers (81.6, Mackey, NFL R2) + Tre Richardson (Louisville) GONE
+OL,1,Cade McConnell,G,SR,returning,Athlon,PS,M,52.2/759 (SEC weighted; the LONE returning starter; yr4-return)
+OL,2,Beau Johnson,OT,JR,transfer:North Dakota State,Athlon,PS,M,FCS All-American at tackle (NO CELL; LT)
+OL,3,Lyndon Cooper,C,SR,transfer:Pittsburgh,Athlon,PS,M,multi-year starting C (ACC)
+OL,4,Micah DeBose,G,SO,transfer:Alabama,Athlon,PS,L,Top200 '25 recruit (SEC-origin)
+OL,5,Orion Irving,G,SR,returning,Athlon,PS,L,51.5/107 (SEC; RG) + Clinton Azubuike (RT). LOST 4 starters (Glass/Mitchell/Henderson/White). '25 PBLK p4
+DL,1,Yilanan Ouattara,DI,SR,returning,Athlon,PS,M,NFL-prospect DT (played 1 game in '25 before injury; back healthy)
+DL,2,Miles Capers,ED,SR,returning,Athlon,PS,M,68.0/501 (SEC +7.87 weighted; yr4-return; the returning edge)
+DL,3,Edwin Kolenge,DI,SR,transfer:Boston College,Athlon,PS,M,P4 starter (ACC +1.19)
+DL,4,Glenn Seabrooks III,DI,JR,returning,Athlon,PS,L,65.6/334 (SEC; returning tackle)
+DL,5,Brian Allen Jr.,ED,SR,transfer:Iowa,Athlon,PS,M,4-star transfer grade (B10 +10.38 weighted DOWN) + CJ Jackson (LSU 4-star). Sydnor (71.3) + Singh (77.2, NFL) GONE; rush a concern (5 sacks combined)
+LB,1,Bryan Longwell,LB,JR,returning,Athlon,PS,M,68.1/536 (SEC +14.01 weighted DOWN; 3rd-yr starting ILB)
+LB,2,Nick Rinaldi,LB,SR,returning,Athlon,PS,L,64.5/402 (SEC weighted; yr4-return; moves up)
+LB,3,Bryce Cowan,LB,SR,returning,Athlon,PS,L,60.9/278 (SEC weighted; yr4-return; moves up). Langston Patterson (74.5) - eligibility appeal DECLINED, GONE
+DB,1,Jordan Matthews,CB,JR,returning,Athlon,PS,H,80.1/352 (SEC +5.44; #1 cover corner, possible star)
+DB,2,CJ Heard,S,SR,returning,Athlon,PS,M,69.7/670 (SEC; led the team in tackles)
+DB,3,Ricardo Jones,S,SR,transfer:Clemson,Athlon,PS,M,led the ACC with 6 INT (ACC +1.18; school's first all-conf transfer)
+DB,4,Martel Hight,CB,JR,returning,Athlon,PS,M,68.4/393 (SEC; two-way player, 4 INT)
+DB,5,Dontae Carter,S,SO,returning,Athlon,PS,L,67.3/270 (SEC; top signee) + Carson Lawrence (frosh) + Cayden Daniels (CB). Fontenette (790, Colorado) + yr4 DBs GONE
+ST,1,Brock Taylor,K,SR,returning,Athlon,PS,H,one of CFB's top placekickers (range to 60+); SP+ top ST unit 2 straight years
+ST,2,Tyler Ebel,P,SR,transfer:South Dakota,Athlon,PS,M,FCS punter pickup + return-game continuity. SPEC p90 in '25

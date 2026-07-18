@@ -1,0 +1,47 @@
+{
+ "team": "Vanderbilt",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T05:39:17+00:00",
+ "assembler_git_rev": "0900919",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Clark Lea (Year 5; NO CHANGE; band x1.00). OC Tim Beck RETURNS (the #1 opponent-adjusted '25 offense); no coordinator change. '25: 10-3 (6-2 SEC), the first 10-win season in school history (the Pavia peak). Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC); arrivals on origin cells. SEC offsets LARGE - big cells (OL/LB/RB) WEIGHTED DOWN; small samples discounted. Post-Pavia rebuild via the portal + the #1 overall recruit. Arrivals on origin: Cole Adams+Micah DeBose (Alabama/SEC), Ja'Cory Thomas (Old Dominion/SBC), Jayvontay Conner (East Carolina/AAC), Beau Johnson (North Dakota State/FCS = NO CELL), Lyndon Cooper+Edwin Kolenge (Pitt+Boston College/ACC), Brian Allen (Iowa/B10 - DL +10.38 weighted DOWN), CJ Jackson (LSU/SEC), Ricardo Jones (Clemson/ACC), Tyler Ebel (South Dakota/FCS = NO CELL).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Makhilyn Young",
+  "Cole Spence",
+  "Cade McConnell",
+  "Miles Capers",
+  "Bryce Cowan",
+  "Nick Rinaldi"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Diego Pavia": "QB, 92.2/484 - GONE (graduated). Heisman runner-up, the do-it-all engine of the #1 opponent-adjusted offense (3,593 pass + 862 rush yds). yr4 -> EXPIRED(yr4). Replaced by the #1 overall recruit.",
+  "Jared Curtis": "QB (true frosh) - the #1 OVERALL recruit in the nation (5-star, flipped from Georgia; Vandy's first-ever 5-star). Expected true-freshman starter; ZERO college experience. The QB reset.",
+  "Eli Stowers": "TE, 81.6/301 - GONE, NFL 2nd round (Mackey Award winner, the most productive SEC TE). yr4 -> EXPIRED(yr4). Replaced in the flex role by ECU transfer Conner.",
+  "Joshua Singh": "DL, 77.2/382 (yr4) - GONE, declared for the 2026 NFL Draft (web-verified). NOT named returning by any magazine -> EXPIRED(yr4) correct. A decent-grade edge loss.",
+  "Makhilyn Young": "RB, 79.4/109 (yr4) - RETURNS. P6 'Sedrick Alexander and Makhilyn Young both return at running back'; 9.0 ypc. yr4_return_override (R15: named returning).",
+  "Cole Spence": "TE, 66.2/145 (yr4) - RETURNS. Athlon + P6 'Cole Spence returns as a starter in the 12-personnel.' yr4_return_override (R15).",
+  "Cade McConnell": "OL, 52.2/759 (yr4) - RETURNS. Athlon + P6 'the only returning starting lineman.' yr4_return_override (R15).",
+  "Miles Capers": "ED, 68.0/501 (yr4) - RETURNS. Athlon + P6 'Miles Capers returns at the other edge spot' (projected starter). yr4_return_override (R15).",
+  "Bryce Cowan": "LB, 60.9/278 (yr4) - RETURNS. P6 'Bryce Cowan and Nick Rinaldi move up the depth chart.' yr4_return_override (R15).",
+  "Nick Rinaldi": "LB, 64.5/402 (yr4) - RETURNS. P6 'Bryce Cowan and Nick Rinaldi move up the depth chart.' yr4_return_override (R15).",
+  "Jordan Matthews": "CB, 80.1/352 - RETURNS. Surged up the depth chart to the #1 cover corner, 'a possible star' (P6). The secondary's headliner.",
+  "Ricardo Jones": "S (Clemson) - ARRIVES. Led the ACC with 6 INT; the school's first-ever all-conference transfer. ACC-origin arrival."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 charts + a targeted web check. Vanderbilt's 2025 'misfits' roster leaned heavily on older transfers/JUCO players -> a large yr4 cohort (46 of 113); SIX yr4 producers are magazine-named returning (Young/Spence/McConnell/Capers/Cowan/Rinaldi) and carry yr4_return_overrides (R15).",
+  "The defining loss is QB Diego Pavia (92.2, Heisman runner-up, graduated) - the engine of the #1 opponent-adjusted offense. He is replaced by true freshman Jared Curtis, the #1 OVERALL recruit (a Georgia flip), who has an elite ceiling but ZERO college experience. Opposing coach: 'they won't be as good without Diego.'",
+  "The offense also loses Mackey Award TE Eli Stowers (NFL R2), deep-threat WR Tre Richardson (-> Louisville), and FOUR of five OL starters. The '25 OL was actually poor in pass pro (PBLK p4) - Pavia masked it by scrambling; the rebuild (1 returning starter McConnell + FCS/P4 transfers) pairs an unproven line with a true frosh.",
+  "STRENGTHS: RB (Alexander + Young return, 981 combined yds/17 TD), a loaded, experienced SECONDARY (star CB Jordan Matthews 80.1 + two-way Hight + S CJ Heard + Clemson's 6-INT Ricardo Jones), and ELITE special teams (Brock Taylor, a top-5-caliber placekicker; SP+ top ST unit 2 straight years, SPEC p90).",
+  "The DL returns 3 starters + NFL-prospect DT Ouattara (injury return) + 5 transfers, but the pass rush is a concern (projected edges Capers + Allen combined for just 5 sacks in '25). Post-Pavia, the market (Athlon NF45, P6 #46) projects a clear regression/rebuilding season."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded); DISCLOSED: Athlon NF45/SEC14 + Pick Six '#15 SEC / #46 overall' incidentally visible during source inspection (Vandy is NOT a SEC_PAGE_MAP-flagged team) - logged in research_log.md, NOT used in grading. Web check took disposition facts only (no rankings).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T05:44:00+00:00"
+}

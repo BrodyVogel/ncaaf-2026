@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Clark",
+  "lastName": "Lea",
+  "hireDate": "2020-12-14T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Vanderbilt",
+    "year": 2024,
+    "games": 13,
+    "wins": 7,
+    "losses": 6,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 7.4,
+    "spOverall": 4.9,
+    "spOffense": 28.2,
+    "spDefense": 25.4
+   }
+  ]
+ },
+ {
+  "firstName": "Clark",
+  "lastName": "Lea",
+  "hireDate": "2020-12-14T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Vanderbilt",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 16,
+    "spOverall": 20.3,
+    "spOffense": 39.9,
+    "spDefense": 21.4
+   }
+  ]
+ }
+]

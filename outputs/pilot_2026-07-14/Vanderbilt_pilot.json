@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T05:48:33+00:00",
+ "team": "Vanderbilt",
+ "final": 7.9,
+ "rank": 35,
+ "band": 6.18,
+ "resid": -7.44,
+ "adj": -2.6,
+ "class_term": -0.0,
+ "st": 0.2,
+ "anchor_blend": 9.79,
+ "resid_level": -4.91,
+ "resid_shape": -2.53,
+ "implied_off": 26.13,
+ "implied_def": 24.49,
+ "anchor_off": 33.29,
+ "anchor_def": 24.21,
+ "fit_r2": {
+  "off": 0.535,
+  "dfn": 0.617
+ },
+ "low_conf_units": 1,
+ "code_rev": "0900919",
+ "mode": "PILOT-OOS"
+}
