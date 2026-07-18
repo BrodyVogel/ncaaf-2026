@@ -1,0 +1,34 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Trinidad Chambliss,QB,SR,returning,Athlon,PS,H,87.8/515 (SEC +7.72 weighted -> elite; yr4-return via court-won bonus year; Heisman favorite; ~4000/527 rush/30 TD; 8th Heisman)
+QB,2,Deuce Knight,QB,FR,transfer:Auburn,Athlon,PS,L,69.8/35 tiny (SEC; 5-star MS legend, QB-of-future)
+RB,1,Kewan Lacy,RB,JR,returning,Athlon,PS,H,86.9/307 (SEC +10.17 weighted -> elite; first-team All-SEC, FWAA All-America; 1,567 yds/24 TD)
+RB,2,Makhi Frazier,RB,JR,transfer:Michigan State,Athlon,PS,M,74.8/117 (B10 -0.40; MSU starter)
+RB,3,JT Lindsey,RB,SO,transfer:LSU,Athlon,PS,L,Top200 (SEC); depth
+WRTE,1,Deuce Alexander,WR,JR,returning,Athlon,PS,M,71.7/312 (SEC +5.94 -> 77.6 adj; returning starter, the new #1)
+WRTE,2,Luke Hasz,TE,SR,returning,Athlon,PS,H,former 5-star; finally healthy; elite TE pair
+WRTE,3,Caleb Cunningham,WR,FR,returning,Athlon,PS,M,2025 5-star; ready for a breakout
+WRTE,4,Johntay Cook II,WR,SR,transfer:Syracuse,Athlon,PS,M,62.2/340 (ACC +2.36; Syracuse starter - Cook+Gill combined 1,000+ yds)
+WRTE,5,Caleb Odom,TE,JR,returning,Athlon,PS,M,63.1/108 (SEC; former 5-star; matchup nightmare, plays some WR)
+WRTE,6,Darrell Gill Jr.,WR,SR,transfer:Syracuse,Athlon,PS,L,58.7/412 (ACC) + Horatio Fields (Auburn 62.0), Traylon Ray (WVU), Isaiah Spencer (VT). Lost 4 top WRs (3000+ yds)
+OL,1,Patrick Kutas,G,SR,returning,Athlon,PS,M,64.6/1081 (SEC +13.45 weighted DOWN; returning interior starter, huge volume)
+OL,2,Brycen Sanders,C,JR,returning,Athlon,PS,M,59.1/1084 (SEC weighted; returning C, huge volume)
+OL,3,Delano Townsend,G,JR,returning,Athlon,PS,M,57.0/933 (SEC weighted; returning G)
+OL,4,Carius Curne,OT,SO,transfer:LSU,Athlon,PS,M,56.0/306 (SEC; Top100, #4 transfer lineman - 'stole one back from LSU'; LT)
+OL,5,Terez Davis,OT,SO,returning,Athlon,PS,L,projected RT + Tommy Kinsler (Miami 69.1) + 3 P4 transfers compete. LOST both tackles (Pounds All-SEC + Williams NFL + Harper->LSU)
+DL,1,Will Echoles,DI,JR,returning,Athlon,PS,H,79.3/765 (SEC +7.87 weighted -> elite; first-team All-SEC; led P4 with 39 QB pressures; Sugar Bowl MVP)
+DL,2,Kam Franklin,ED,JR,returning,Athlon,PS,M,71.2/702 (SEC +7.87 weighted; returning end - 9 TFL/5 sacks)
+DL,3,Blake Purchase,ED,JR,transfer:Oregon,Athlon,PS,M,66.2/351 (B10 +10.38 weighted DOWN; replaces Umanmielen off the edge)
+DL,4,Michai Boireau,DI,JR,transfer:Florida,Athlon,PS,M,66.6/296 (SEC; game-winning INT vs MSU '25; interior)
+DL,5,Jehiem Oatis,DI,SR,transfer:Colorado,Athlon,PS,M,64.2/258 (B12; interior)
+DL,6,Jordan Renaud,ED,JR,transfer:Alabama,Athlon,PS,L,56.4/295 (SEC; edge) + Jonathan Maldonado (Nevada All-MW). 8 four-star D transfers total
+LB,1,Suntarine Perkins,LB,SR,returning,Athlon,PS,H,78.7/760 (SEC +14.01 weighted DOWN; do-it-all hybrid LB/edge; All-American candidate; 18.5 career sacks)
+LB,2,Keaton Thomas,LB,SR,transfer:Baylor,Athlon,PS,M,69.3/793 (B12 +5.09; All-Big 12; 'hits like a truck')
+LB,3,Luke Ferrelli,LB,SO,transfer:California,Athlon,PS,M,68.4/743 (ACC +2.13; ACC Def Rookie of the Year - 91 tackles)
+LB,4,Tah'j Butler,LB,JR,transfer:Georgia Tech,Athlon,PS,L,ACC; started some games at GT. Lost Dottery (->LSU)
+DB,1,Antonio Kite,CB,JR,returning,Athlon,PS,H,78.2/717 (SEC +5.44 -> elite; returning CB starter)
+DB,2,Jaylon Braxton,CB,JR,returning,Athlon,PS,M,61.7/526 (SEC +5.44 -> 67.1 adj; returning CB starter)
+DB,3,Jalyn Crawford,CB,SR,transfer:Auburn,Athlon,PS,M,71.7/580 (SEC; Auburn starter, 4-star transfer; cross-build from Auburn)
+DB,4,Edwin Joseph,S,JR,transfer:Florida State,Athlon,PS,M,68.6/621 (ACC +1.18; new S starter)
+DB,5,Sharif Denson,S,JR,transfer:Florida,Athlon,PS,L,SEC (new S); + Joenel Aguero (Georgia S). All-safeties reloaded via portal
+ST,1,Lucas Carneiro,K,JR,returning,Athlon,PS,H,one of the top kickers in the nation; 31/35 FG; game-winning 47-yarder in the Sugar Bowl
+ST,2,Oscar Bird,P,SO,returning,Athlon,PS,M,46 avg; 14 inside-20 as a frosh

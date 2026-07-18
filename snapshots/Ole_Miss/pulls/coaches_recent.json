@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Lane",
+  "lastName": "Kiffin",
+  "hireDate": "2019-12-07T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Ole Miss",
+    "year": 2024,
+    "games": 13,
+    "wins": 10,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": 6,
+    "postseasonRank": 11,
+    "srs": 19.2,
+    "spOverall": 27.9,
+    "spOffense": 37.7,
+    "spDefense": 11.9
+   }
+  ]
+ },
+ {
+  "firstName": "Lane",
+  "lastName": "Kiffin",
+  "hireDate": "2019-12-07T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Ole Miss",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 15.8,
+    "spOverall": 24,
+    "spOffense": 40.4,
+    "spDefense": 18.3
+   }
+  ]
+ }
+]

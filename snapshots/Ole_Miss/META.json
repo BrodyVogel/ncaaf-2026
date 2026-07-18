@@ -1,0 +1,40 @@
+{
+ "team": "Ole Miss",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T03:16:00+00:00",
+ "assembler_git_rev": "0727a29",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Pete Golding (promoted from DC when Kiffin left for LSU; coached the '25 CFP run - internal continuity) - COACH CHANGE, band x1.13. NEW OC John David Baker (Weis's ex-co-coordinator; 'scheme is 80% the same'). '25: 13-2 (7-1 SEC), CFP national semifinalist, AP #3. National Forecast 11. Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC); arrivals on origin cells. SEC offsets LARGE - big cells (OL/LB/RB) WEIGHTED DOWN; small samples discounted. THE #2 TRANSFER HAUL (8 four-star D transfers). Arrivals on origin: Knight (Auburn/SEC), Frazier (Michigan State/B10), Cook+Gill (Syracuse/ACC), Fields+Crawford (Auburn/SEC), Curne (LSU/SEC), Purchase (Oregon/B10), Boireau+Denson (Florida/SEC), Oatis (Colorado/B12), Renaud (Alabama/SEC), Keaton Thomas (Baylor/B12), Ferrelli (Cal/ACC), Butler (Georgia Tech/ACC), Joseph (FSU/ACC), Aguero (Georgia/SEC).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [
+  "Delano Townsend"
+ ],
+ "yr4_return_overrides_documented": [
+  "Trinidad Chambliss"
+ ],
+ "nfl_declare_confirmed": [],
+ "known_name_exceptions": {
+  "Trinidad Chambliss": "QB, 87.8/515 (yr4) - RETURNS via a court-won bonus year of eligibility. ELITE - a Heisman FAVORITE, 'the top returning QB in the country'; ~4,000 pass yds/527 rush/30 TD/8th in the Heisman. yr4_return_override (R15: named returning by all three sources). Grade-critical.",
+  "Kewan Lacy": "RB, 86.9/307 - RETURNS. First-team All-SEC, FWAA All-America; Ole Miss-record-tying 1,567 yds; P4-best 24 TD (SEC +10.17 weighted -> elite).",
+  "Princewill Umanmielen": "ED - GONE -> LSU (cross-build confirmed; his arrival was logged in the LSU build). Leading '25 edge rusher.",
+  "TJ Dottery": "LB - GONE -> LSU (cross-build confirmed). Golding's 'quarterback of the defense.'",
+  "Diego Pounds": "OT (yr4) - GONE. All-SEC tackle. Both starting tackles lost. EXPIRED(yr4).",
+  "Jayden Williams": "OT (yr4) - GONE, NFL draft pick. EXPIRED(yr4).",
+  "Harrison Wallace III": "WR (yr4) - GONE. One of the 4 top WRs lost (3,000+ receiving yds to replace). EXPIRED(yr4).",
+  "Dae'Quan Wright": "TE (yr4) - GONE, WENT PRO. Luke Hasz + Caleb Odom (both 5-star) form the new TE pair. EXPIRED(yr4).",
+  "Will Echoles": "DI, 79.3/765 - RETURNS. First-team All-SEC; led P4 with 39 QB pressures; Sugar Bowl MVP - the DL anchor (SEC +7.87 -> elite).",
+  "Suntarine Perkins": "LB/edge, 78.7/760 - RETURNS. Do-it-all hybrid; All-American candidate; 18.5 career sacks. NOTE: PFF classes him at ED, so the LB proxy (43) UNDER-counts him - he is the LB unit's returning star.",
+  "Delano Townsend": "G, 57.0/933 - portal-none feed BUT Athlon + P6 name him a returning interior OL starter ('returns its interior with guards Kutas and Townsend and center Sanders'). portal_withdrawal_override (R15)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 2026 charts. THE #2 TRANSFER HAUL in America (8 four-star D transfers). Chambliss (QB) won a court case for a bonus year - a yr4 who RETURNS (override).",
+  "DATA NOTE: the team-level as-played percentile row is UNAVAILABLE for Ole Miss in this pull (a name-map quirk - SacSt/NDSU pattern); the per-player PFF grades ARE present, so the unit grades use those + the magazine context. The '25 team was 13-2, CFP national semifinalist, AP #3 (school-record 13 wins, best AP finish in 60+ years).",
+  "AN ELITE RETURNING CORE: QB Chambliss (87.8, Heisman favorite) + RB Lacy (86.9, All-America) - a top-tier backfield - + a strong, deep, RELOADED defense (All-SEC DT Echoles led P4 in pressures; hybrid star Perkins; 8 four-star transfers) + an elite kicker (Carneiro) + an elite 5-star TE pair (Hasz/Odom). These carry a top-10 profile.",
+  "THE RELOADS / QUESTIONS: (1) new HC (Golding, internal) + new OC (Baker, '80% same scheme') - continuity but a first-year staff. (2) WR - lost 4 of the top 5 (3,000+ yds); restocked with P4 transfers (Cook/Gill/Fields/Ray) + a 5-star (Cunningham) but unproven-together. (3) OL TACKLES - lost both (Pounds All-SEC + Williams NFL + Harper->LSU); reloaded (Curne/LSU Top100 + transfers)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded); Ole Miss NOT among the six teams flagged in SEC_PAGE_MAP.md for an incidental P6-ranking glimpse; no Ole Miss ranking seen during extraction",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T04:37:20+00:00"
+}

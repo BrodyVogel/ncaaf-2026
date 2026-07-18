@@ -1,0 +1,17 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Brycen Sanders,172527,C,OLE MISS,15,100.0,1,226,59.1,61.5,56.1,2,11,551,100.0,100.0,98.8,3,13,0,1084,1083,0,0,1084,586,586,1,0,498,0,2025_this_team
+Jayden Williams,146815,T,OLE MISS,15,100.0,0,226,69.7,78.5,60.8,2,13,551,100.0,100.0,98.3,1,17,2,1082,0,0,0,1082,586,586,0,1072,496,9,2025_this_team
+Patrick Kutas,163635,G,OLE MISS,15,100.0,0,226,64.6,66.8,65.0,5,9,551,100.0,100.0,98.5,6,15,1,1081,0,0,0,1081,586,586,1080,1,495,0,2025_this_team
+Diego Pounds,143976,T,OLE MISS,15,100.0,0,226,62.3,75.8,51.7,3,13,548,100.0,100.0,98.5,2,16,0,1079,0,1,1076,1079,583,583,0,0,496,1,2025_this_team
+Delano Townsend,173351,G,OLE MISS,14,100.0,1,226,57.0,61.4,54.4,0,13,464,100.0,100.0,98.2,3,15,2,933,1,932,0,933,494,494,0,0,439,0,2025_this_team
+Carius Curne,199754,T,LSU,8,100.0,0,211,56.0,54.7,61.3,1,8,188,100.0,100.0,96.0,3,12,3,306,0,0,215,306,200,200,0,90,106,1,arrival_2025_at_LSU
+PJ Wilkins,175798,G,OLE MISS,10,100.0,0,226,61.0,67.8,57.7,0,3,100,100.0,100.0,98.5,1,3,0,189,0,188,0,189,105,105,1,0,84,0,2025_this_team
+Devin Harper,205087,T,OLE MISS,6,100.0,0,226,71.2,82.3,67.0,0,0,21,100.0,100.0,100.0,0,0,0,72,0,0,7,72,22,22,0,55,50,1,2025_this_team
+Ethan Fields,172514,G,OLE MISS,5,100.0,0,226,58.5,82.4,59.4,0,0,20,100.0,100.0,100.0,1,0,0,63,0,18,0,63,20,20,44,0,43,0,2025_this_team
+Terez Davis,188246,T,OLE MISS,4,100.0,0,226,83.9,82.4,80.7,0,0,18,100.0,100.0,100.0,0,0,0,58,0,0,43,58,18,18,0,7,40,1,2025_this_team
+Tommy Kinsler IV,175380,T,MIAMI FL,6,100.0,0,220,69.1,43.3,71.8,0,1,22,100.0,100.0,97.7,0,1,0,56,0,0,0,56,22,22,0,55,34,0,arrival_2025_at_MIAMI FL
+Joe Koury,191190,C,OLE MISS,4,100.0,0,226,59.7,71.0,57.7,0,0,17,100.0,100.0,100.0,1,0,0,45,45,0,0,45,17,17,0,0,28,0,2025_this_team
+Troy Everett,147024,C,OKLAHOMA,1,100.0,0,261,59.7,81.4,55.4,0,0,22,100.0,100.0,100.0,0,0,0,39,39,0,0,39,22,22,0,0,17,0,arrival_2025_at_OKLAHOMA
+John Wayne Oliver,191195,C,OLE MISS,2,100.0,0,226,56.9,77.0,55.8,0,0,6,100.0,100.0,100.0,0,0,0,20,15,5,0,20,6,6,0,0,14,0,2025_this_team
+Connor Howes,205068,G,OLE MISS,3,100.0,0,226,60.1,76.4,58.5,0,0,4,100.0,100.0,100.0,0,0,0,19,0,0,0,19,4,4,18,0,15,0,2025_this_team
+Percy Lewis IV,157144,T,OLE MISS,1,100.0,0,226,83.9,79.2,82.6,0,0,6,100.0,100.0,100.0,0,0,0,15,0,0,15,15,6,6,0,0,9,0,2025_this_team
