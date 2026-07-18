@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T00:30:30+00:00",
+ "team": "NC State",
+ "final": 3.5,
+ "rank": 53,
+ "band": 6.54,
+ "resid": -6.69,
+ "adj": -2.34,
+ "class_term": -0.0,
+ "st": -0.04,
+ "anchor_blend": 5.38,
+ "resid_level": -3.18,
+ "resid_shape": -3.51,
+ "implied_off": 26.2,
+ "implied_def": 27.01,
+ "anchor_off": 30.94,
+ "anchor_def": 25.06,
+ "fit_r2": {
+  "off": 0.541,
+  "dfn": 0.618
+ },
+ "low_conf_units": 3,
+ "code_rev": "3e24366",
+ "mode": "PILOT-OOS"
+}

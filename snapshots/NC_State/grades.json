@@ -1,0 +1,147 @@
+{
+ "team": "NC State",
+ "units": {
+  "QB": {"grade": 54, "confidence": "M"},
+  "RB": {"grade": 56, "confidence": "M"},
+  "WRTE": {"grade": 42, "confidence": "L"},
+  "OL": {"grade": 46, "confidence": "M"},
+  "DL": {"grade": 40, "confidence": "L"},
+  "LB": {"grade": 42, "confidence": "L"},
+  "DB": {"grade": 46, "confidence": "M"},
+  "ST": {"grade": 48, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18 (3e24366)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; EVIDENCE-ONLY [no percentile row - name-key mismatch] off raw PFF unit tape + magazines; ACC offsets on returning tape, arrivals on origin cells; HC Doeren no change; disposition gate resolved - heavy drain [Marshall/Harsh/Fordham/Joly gone], Harsh research-departure + Sean Brown yr4 catch adjudicated vs both charts); anchor values not consulted",
+  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 54/RB 56/WRTE 42/OL 46/DL 40/LB 42/DB 46/ST 48)."},
+  "shadow_proxy_divergence": {
+   "note": "shadow proxy (QB 30, RB 68, WRTE 38, OL 47, DL 27, DB 22, ST 39) is MISCOMPUTED on the missing 'NC State' percentile key and is NOT used; grades are evidence-only off the raw PFF unit tape + Athlon/PS.",
+   "DL": "+13 vs proxy 27 - proxy is broken (miscomputed key); the grade keys the rebuilt front (Harsh gone) off low-grade returners + Dyson.",
+   "DB": "+24 vs proxy 22 - proxy broken; the grade keys the returning floor (Nelson/A.Brown/King Mack) minus elite Marshall.",
+   "note2": "proxy divergences here are artifacts of the missing key, not signal."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "NC State", "unit": "QB", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Georgia Tech QB 2026 (46, below - unproven)", "proven-mid-ACC-QB tier"],
+   "rationale_bullets": [
+    "CJ Bailey (returning, 67.8/482 -> ACC +2.08 -> 69.9 adj) - 3,105 yds, 25 TD, 9 INT, 68.8%; 3rd-year starter, 2nd in OC Roper's system.",
+    "A PROVEN, experienced starter with strong counting stats but a modest PFF grade - and 'a mostly new cast of characters around him' (Athlon).",
+    "Maps ~QB p50-58.",
+    "54: above the batch's unproven QBs (GT/Lou 46 - Bailey is proven); the modest grade + gutted weapons cap it. M."
+   ],
+   "key_players": [
+    {"name": "CJ Bailey", "role": "QB1 (returning)", "evidence": "67.8/482 (69.9 ACC-adj); 3,105 yds, 25 TD, 9 INT, 68.8%; 3rd-yr starter"}
+   ],
+   "data_gaps": ["modest PFF grade vs strong box score", "mostly new weapons + OL"], "g5_guard_note": null
+  },
+  {
+   "team": "NC State", "unit": "RB", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Boston College RB context", "Georgia Tech RB 2026 (66, above)"],
+   "rationale_bullets": [
+    "Jayden Scott (returning RS-soph, 78.3/106 -> ACC +4.90 -> 83.2 adj; 196 yds, 'ready to take the reins') + Davion Gause (UNC transfer, 73.1/61 -> 78.0 adj).",
+    "Lost Smothers (78.7 -> Texas).",
+    "A promising but unproven-as-lead back (Scott graded well on a small sample) + a modest transfer.",
+    "56: below the proven backfields (GT 66/Lou 72/Miami 70); a projection. M."
+   ],
+   "key_players": [
+    {"name": "Jayden Scott", "role": "RB1 (returning)", "evidence": "78.3/106 (83.2 ACC-adj); RS-soph; 196 yds"}
+   ],
+   "data_gaps": ["small sample; unproven as lead", "lost top rusher Smothers"], "g5_guard_note": null
+  },
+  {
+   "team": "NC State", "unit": "WRTE", "grade": 42, "confidence": "L",
+   "bracketing_exemplars": ["Georgia Tech WRTE 2026 (38, below)", "California WRTE 2026 (54, above)"],
+   "rationale_bullets": [
+    "'FIVE LEADING PASS-CATCHERS ALL DEPARTED' (Joly TE, Rogers, Anderson, +). Returns Keenan Jackson (55.1/326, 28 rec - modest top returner) + Victor Snow (Buffalo arrival, 74.9/448 - best piece).",
+    "Adds Dozier (App St), Trader + Chance Robinson (Miami), young TE Preston Douglas.",
+    "A gutted receiving corps reloaded with modest transfer bodies (Snow the one solid piece); nothing proven-at-a-high-level.",
+    "42: above Georgia Tech WRTE 38 (Snow lifts it); a bottom-third room. L."
+   ],
+   "key_players": [
+    {"name": "Victor Snow", "role": "WR (arrival, Buffalo)", "evidence": "74.9/448 (MAC weighted ~68); solid volume"},
+    {"name": "Keenan Jackson", "role": "WR (returning)", "evidence": "55.1/326; 28 rec/281 yds - top returner"}
+   ],
+   "data_gaps": ["5 leading pass-catchers gone", "reload is modest; TE young"], "g5_guard_note": null
+  },
+  {
+   "team": "NC State", "unit": "OL", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Georgia Tech OL 2026 (48, above)", "reshuffled-mid-ACC tier"],
+   "rationale_bullets": [
+    "Teague Andersen (RT, returning, 66.5/727 -> 70.0 adj) + Spike Sowells (LG, 69.0/350 -> 72.5) + Rico Jackson + Kamen Smith. Adds Jimarion McCrimon (ECU LT, 56.9/866) + Daniel Cruz (Texas C).",
+    "Lost Peak (-> SC) + Grant (yr4).",
+    "Some returning starts + mid transfers - PS 'best Oline in a while' (discount the hype). A middling, reshuffled line.",
+    "46: ~GT/Louisville OL 48-50, slightly below (lower grades, ECU-level LT). M."
+   ],
+   "key_players": [
+    {"name": "Teague Andersen", "role": "RT (returning)", "evidence": "66.5/727 (70.0 ACC-adj); returning starter"},
+    {"name": "Jimarion McCrimon", "role": "LT (transfer, East Carolina)", "evidence": "56.9/866 (58.1 AAC-adj); 1st-tm AAC"}
+   ],
+   "data_gaps": ["lost Peak (OT) + Grant (C)", "LT is ECU-level"], "g5_guard_note": null
+  },
+  {
+   "team": "NC State", "unit": "DL", "grade": 40, "confidence": "L",
+   "bracketing_exemplars": ["Georgia Tech DL 2026 (40, round peer)", "California DL 2026 (42, above)"],
+   "rationale_bullets": [
+    "REBUILT. Loses best edge Harsh (86.7, research-gone) + Slone (76.3, yr4) + Cleveland (72.1, yr4) ('rebuilt unit, lose 4 starters'). Returns only low-grade youth: Shirley (58.1), Bond (63.5), Victor (64.3/121 - 'anchor').",
+    "Adds Harvey Dyson (Tulane, led AAC 8 sacks, 67.6/451 -> 61.7 AAC-adj) + KaTron Evans (Marshall).",
+    "The star edge gone + a rebuild off low-grade returners; Dyson (8 AAC sacks) the one bright spot but AAC-level.",
+    "40: ~Georgia Tech DL 40 (both weak/rebuilt). L."
+   ],
+   "key_players": [
+    {"name": "Harvey Dyson", "role": "JACK (transfer, Tulane)", "evidence": "67.6/451 (61.7 AAC-adj); led AAC with 8 sacks"},
+    {"name": "Josiah Victor", "role": "NT (returning)", "evidence": "64.3/121; 'primed to anchor' (Athlon)"}
+   ],
+   "data_gaps": ["best edge Harsh gone; 4 DL starters lost", "returners all low-grade youth"], "g5_guard_note": null
+  },
+  {
+   "team": "NC State", "unit": "LB", "grade": 42, "confidence": "L",
+   "bracketing_exemplars": ["Miami LB 2026 (46, above)", "rebuilt-thin tier"],
+   "rationale_bullets": [
+    "REBUILT. Loses AA leader Fordham (67.1/823, yr4) + Sean Brown (yr4) + Soares (-> MSU). Returns only youth: AJ Richardson (62.9/88), LaCorian Hodge.",
+    "Adds Popo Aguirre (Miami, 63.1/304 -> 65.2 adj; 70 tkl) + Da'Karri Nelson (Penn St/Norfolk St).",
+    "Loses its leader + reloads with mid transfers - 'less experienced' (PS).",
+    "42: below GT/Lou/Miami LB (46-50); thin + unproven. L."
+   ],
+   "key_players": [
+    {"name": "Popo Aguirre", "role": "LB (transfer, Miami)", "evidence": "63.1/304 (65.2 ACC-adj); 70 tkl"},
+    {"name": "AJ Richardson", "role": "LB (returning)", "evidence": "62.9/88 small sample"}
+   ],
+   "data_gaps": ["lost AA leader Fordham + Brown + Soares", "returners are low-vol youth"], "g5_guard_note": null
+  },
+  {
+   "team": "NC State", "unit": "DB", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Georgia Tech DB 2026 (48, above)", "Duke DB 2026 (46, round peer)"],
+   "rationale_bullets": [
+    "Loses ELITE CB Devon Marshall (89.8, yr4) - the big hit. Returns Brian Nelson (65.7/637, 2nd-yr starter) + Asaad Brown (68.0/673) + Royal + Vick.",
+    "Adds King Mack (Penn St S, 79.0/493 -> weighted ~82 - good) + Ondre Evans (Georgia CB).",
+    "Loses the elite piece but a real returning/transfer floor remains - Athlon 'the safety room has game reps.'",
+    "46: below Miami/Louisville DB (Marshall loss caps it; King Mack floors it) ~ Duke DB 46. M."
+   ],
+   "key_players": [
+    {"name": "King Mack", "role": "S (transfer, Penn State)", "evidence": "79.0/493 (weighted ~82); ex-Bama"},
+    {"name": "Brian Nelson II", "role": "CB (returning)", "evidence": "65.7/637 (66.9 ACC-adj); 2nd-yr starter"}
+   ],
+   "data_gaps": ["lost elite CB Marshall (89.8)", "corner opposite Nelson unproven"], "g5_guard_note": null
+  },
+  {
+   "team": "NC State", "unit": "ST", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Louisville ST 2026 (44, below)", "Georgia Tech ST 2026 (62, above)"],
+   "rationale_bullets": [
+    "K Kanoah Vinesett (returning, 5-6 FG long 51, 48-49 XP - solid) + P Jackson Waller (Arkansas State transfer, 41.3 avg) + returners (Chance Robinson).",
+    "A decent returning kicker + a new punter + modest return game.",
+    "ST driven by specialists (calib).",
+    "48: middling - above Louisville ST 44 (proven returning K), below GT ST 62. M."
+   ],
+   "key_players": [
+    {"name": "Kanoah Vinesett", "role": "K (returning)", "evidence": "5-6 FG (long 51), 48-49 XP"},
+    {"name": "Jackson Waller", "role": "P (transfer, Arkansas State)", "evidence": "41.3 avg"}
+   ],
+   "data_gaps": ["new punter"], "g5_guard_note": null
+  }
+ ]
+}
