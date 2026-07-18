@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T15:25:58+00:00",
+ "team": "Louisiana",
+ "final": -6.62,
+ "rank": 94,
+ "band": 6.0,
+ "resid": 8.44,
+ "adj": 2.96,
+ "class_term": 0.0,
+ "st": -0.04,
+ "anchor_blend": -10.0,
+ "resid_level": 5.19,
+ "resid_shape": 3.25,
+ "implied_off": 24.75,
+ "implied_def": 25.9,
+ "anchor_off": 24.75,
+ "anchor_def": 34.35,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.62
+ },
+ "low_conf_units": 0,
+ "code_rev": "1342b5f",
+ "mode": "PILOT-OOS"
+}

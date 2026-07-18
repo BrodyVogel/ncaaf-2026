@@ -1,0 +1,14 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Jax Harrington,98255,T,LA LAFAYET,13,100.0,0,207,72.6,68.2,70.9,2,15,385,100.0,100.0,96.8,0,21,4,854,0,0,0,854,423,423,284,569,431,1,2025_this_team
+Kaden Moreau,156738,G,LA LAFAYET,11,100.0,0,207,65.0,61.4,64.5,1,12,323,100.0,100.0,97.7,1,14,1,726,0,726,0,726,356,356,0,0,370,0,2025_this_team
+Bryant Williams,156735,T,LA LAFAYET,11,100.0,0,207,67.8,66.6,68.4,3,8,311,100.0,100.0,98.2,7,11,0,719,0,0,711,719,346,346,0,8,373,0,2025_this_team
+Cooper Fordham,173674,C,LA LAFAYET,11,100.0,1,207,56.3,62.9,61.4,4,10,292,100.0,100.0,97.6,11,14,0,689,689,0,0,689,325,325,0,0,364,0,2025_this_team
+Matthew Broussard,176338,G,LA LAFAYET,12,100.0,0,207,56.0,45.3,59.2,2,10,244,100.0,100.0,96.3,3,15,3,540,8,50,0,540,265,265,482,0,275,0,2025_this_team
+Andrew Martinez,176354,C,LA LAFAYET,4,100.0,0,207,53.5,81.4,47.2,0,2,132,100.0,100.0,99.2,1,2,0,260,206,0,0,260,139,139,54,0,121,0,2025_this_team
+George Jackson,147152,T,LA LAFAYET,4,100.0,0,207,59.0,55.7,63.2,1,2,101,100.0,100.0,97.5,5,4,1,226,0,0,0,226,117,117,0,226,109,0,2025_this_team
+Mackey Maillho,147151,T,LA LAFAYET,8,100.0,0,207,41.0,25.2,51.6,2,6,95,100.0,100.0,93.7,4,10,2,214,0,1,93,214,99,99,33,87,115,0,2025_this_team
+Jakoby Isom,204130,G,LA LAFAYET,5,100.0,1,207,52.6,59.9,53.9,1,1,80,100.0,100.0,98.7,3,2,0,176,0,126,0,176,87,87,50,0,89,0,2025_this_team
+Ryder Bentley,204124,T,LA LAFAYET,1,100.0,0,207,41.9,1.4,60.9,2,2,33,100.0,100.0,90.9,0,5,1,55,0,0,55,55,36,36,0,0,19,0,2025_this_team
+Baylynn Williams,204115,T,LA LAFAYET,1,100.0,0,207,59.5,24.0,65.4,0,1,10,100.0,100.0,95.0,0,1,0,24,0,0,24,24,10,10,0,0,14,0,2025_this_team
+J'Marion Gooch,146880,T,LA LAFAYET,2,100.0,0,207,44.8,40.1,45.9,0,0,3,100.0,100.0,100.0,0,0,0,20,0,0,20,20,4,4,0,0,16,0,2025_this_team
+John Bragg,176336,T,LA LAFAYET,2,100.0,0,207,56.1,32.5,60.2,0,0,6,100.0,100.0,83.3,0,1,1,12,0,0,0,12,8,8,0,12,4,0,2025_this_team

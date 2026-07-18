@@ -1,0 +1,41 @@
+{
+ "team": "Louisiana",
+ "conference": "Sun Belt",
+ "created_utc": "2026-07-18T15:13:30+00:00",
+ "assembler_git_rev": "1342b5f",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Michael Desormeaux (29-25 at school, Year 5; NO CHANGE; band x1.00). '25: 6-7 (started 2-6, won 4 straight to a bowl). G5 2-SOURCE build (Athlon + Phil Steele). Verified both mags. LOW churn (5 in / 7 out) - a stable roster; the defensive turnover is mostly GRADUATION (yr4), not the portal.",
+ "conference_note": "Sun Belt (G5). SBC offsets NEGATIVE/small; returning tape on SBC cells, arrivals on origin. Very low portal churn. Departures to the P4: RBs Zylan Perry (-> Cincinnati) + Bill Davis (-> Virginia Tech); OL Bryant Williams (-> Arkansas); DL Drenon Fite (-> UTSA). The defense's top snap-getters mostly GRADUATED (yr4).",
+ "portal_departure_confirmed": [
+  "Charles Robertson"
+ ],
+ "portal_withdrawal_overrides": [
+  "Fitzgerald West Jr."
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [
+  "Anthony Reagan (RB; Athlon's projected RB1, a newcomer not in the roster/portal-in feed)"
+ ],
+ "known_name_exceptions": {
+  "Lunch Winfield": "QB, 66.4/279 - RETURNS. The dual-threat who took over midseason and led 4 straight wins to a bowl; more of a runner than a passer, room to grow. The returning starter.",
+  "Shelton Sampson Jr.": "WR, 70.3/256 - RETURNS. A former LSU 5-star signee; the top receiver and 'the only remotely proven playmaker still in the fold' (Athlon).",
+  "Brent Gordon Jr.": "CB, 83.4/800 - RETURNS. A rising star - 11 PBU as a true frosh; 'the one holdover' among the top-10 '25 defenders (the other 9 are gone). The defense's centerpiece.",
+  "Fitzgerald West Jr.": "DI, 60.7/409 - RETURNS. LSU transfer; 'got in the portal and then pulled his name out' (scout) + Athlon lists him a rotation veteran. Portal dest None -> portal_withdrawal_override (R15).",
+  "Charles Robertson": "WR, 55.0/240 - portal-none, NOT in the Athlon WR two-deep (Sampson/Johnson/Strother/Dennis) -> GONE. portal_departure_confirmed.",
+  "Anthony Reagan": "RB - Athlon's projected RB1 but NOT in the roster/portal feeds (a newcomer). Documented as a feed_gap arrival. The RB room is otherwise young returners after both '25 starters left for the P4.",
+  "Maurion Eleam": "S, 74.0/424 - RETURNS. A returning safety named by Athlon; the secondary's other proven returner alongside Gordon."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS charts. 2 portal-None cases adjudicated: Fitzgerald West RETURNS (pulled out of the portal); Charles Robertson GONE (not named). Very LOW churn (5/7) - the turnover is mostly graduation.",
+  "6-7 (started 2-6, won 4 straight) with a poor passing offense (as-played OFF p17, PASS p9, RECV p1) but a decent run game + a middling defense (DEF p22). QB Lunch Winfield (a dual-threat) took over midseason and sparked the run to a bowl.",
+  "The OFFENSE keeps its dual-threat QB (Winfield) + its one proven playmaker (5-star WR Sampson) + a VETERAN OL (7 of 10 who started in an injury-plagued, 8-combination '25 return; PBLK was p23 but health should help - 'projects as a strength'). But BOTH proven RBs (Perry + Davis, 3,264 combined yds) transferred to the P4 - the backfield is Winfield's legs + a young/newcomer committee.",
+  "The DEFENSE lost 9 of its top 10 snap-count defenders (mostly GRADUATION): the DL's top graders (Lawson 77.1 + Crider/Whitfield/Baudoin/Miller, all yr4) are gone, and LB is a FULL RESET (the top 3 candidates have played almost exclusively on ST). BUT the secondary is a genuine strength - rising-star CB Brent Gordon (83.4, 11 PBU as a frosh) + S Maurion Eleam (74.0) + depth return; DL vet Fitzgerald West pulled out of the portal.",
+  "ST: returning K Tony Sterner (20-28); the punter is unsettled - '25 P Nathan Torney was a senior (yr4), no returning punter named by Athlon. SPEC-p51 unit. (Post-freeze fix: an earlier 'Mason Golding' punter name was fabricated - not in any feed - and the departure gate caught it.)"
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF114 / Sun Belt West 4 incidentally visible - logged, NOT used. G5 2-source (Athlon + Phil Steele); no Pick Six for the Sun Belt.",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T15:20:00+00:00"
+}

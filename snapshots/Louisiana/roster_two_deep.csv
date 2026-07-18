@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Lunch Winfield,QB,SO,returning,Athlon,PS,M,66.4/279 (SBC -1.01; dual-threat; took over midseason + led 4 straight wins to a bowl; more with his legs, room to grow as a passer)
+QB,2,Daniel Beale,QB,JR,returning,Athlon,PS,L,57.5/111 (SBC; the backup)
+RB,1,Anthony Reagan,RB,JR,transfer,Athlon,PS,L,Athlon's projected RB1 (a newcomer, not in the roster feed). Both '25 starters GONE (Zylan Perry -> Cincinnati, Bill Davis -> Virginia Tech; 3,264 combined yds) - carries up for grabs; Winfield's legs the main run threat
+RB,2,Steven Blanco,RB,SO,returning,Athlon,PS,L,young returning committee depth (Swilley/Smith/Garner)
+WRTE,1,Shelton Sampson Jr.,WR,JR,returning,Athlon,PS,M,70.3/256 (SBC; former LSU 5-star; the top receiver, on breakout watch - the one proven playmaker)
+WRTE,2,Jaydon Johnson,WR,SR,returning,Athlon,PS,L,51.7/117 (SBC) + Caden Jensen (55.8/221) + Landon Strother. Robert Williams (yr4) + Charles Robertson (GONE, not named) departed. RECV p1 in '25
+OL,1,Kaden Moreau,G,JR,returning,Athlon,PS,M,65.0/726 (SBC -0.35; scout-praised interior lineman)
+OL,2,Cooper Fordham,C,JR,returning,Athlon,PS,M,56.3/689 (SBC; scout-praised) + Matthew Broussard (56.0/540) + Andrew Martinez (53.5/260) + Jakoby Isom. "7 of 10 return." Jax Harrington (72.6, yr4) + Bryant Williams (-> Arkansas) GONE. PBLK p23 (8 combos, injuries)
+DL,1,Fitzgerald West Jr.,DI,SR,returning,Athlon,PS,M,60.7/409 (SBC; DL -6.50; LSU transfer; entered the portal then pulled his name out - withdrew)
+DL,2,Chase Edwards,ED,JR,returning,Athlon,PS,L,60.4/196 (SBC) + Ashley Williams (53.1/233) + Lance Williams (58.1/203) + Priest Ashe. LOST Lawson (77.1, yr4) + Crider/Whitfield/Baudoin/Miller (all yr4)
+LB,1,Jake St. Andre,LB,JR,returning,Athlon,PS,M,68.8/319 (SBC -8.20; the one returning LB of note)
+LB,2,Micah Johnson,LB,JR,returning,Athlon,PS,L,ST-only to date (FULL RESET) + Conor McPherson + Ethan Veal (all 3rd/4th-yr, played almost exclusively on ST). LOST Terrence Williams (759) + Dugger (894) + Kibodi (all yr4)
+DB,1,Brent Gordon Jr.,CB,SO,returning,Athlon,PS,H,83.4/800 (SBC -3.62; a rising star - 11 PBU as a true frosh; the ONE top-10 defender back)
+DB,2,Maurion Eleam,S,JR,returning,Athlon,PS,M,74.0/424 (SBC; returning safety) + Kody Jackson (59.2/241) + Collin Jacob (75.1/146) + Avery Demery (66.9/157). LOST Flowers/Skipper/Clark/Tomlinson (all yr4)
+ST,1,Tony Sterner,K,JR,returning,Athlon,PS,M,20-of-28 on FG in '25
+ST,2,Nathan Torney,P,SR,yr4-presumed-gone,Athlon,PS,L,'25 P Torney was a senior (yr4); Athlon names no returning punter - punter job open. SPEC p51 in '25

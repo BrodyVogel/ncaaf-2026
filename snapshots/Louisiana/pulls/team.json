@@ -1,0 +1,37 @@
+{
+ "id": 309,
+ "school": "Louisiana",
+ "mascot": "Ragin' Cajuns",
+ "abbreviation": "UL",
+ "alternateNames": [
+  "UL Lafayette",
+  "UL",
+  "Louisiana"
+ ],
+ "conference": "Sun Belt",
+ "division": "West",
+ "classification": "fbs",
+ "color": "#ce181e",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/309.png"
+ ],
+ "twitter": "@RaginCajunsFB",
+ "location": {
+  "id": 3666,
+  "name": "Cajun Field",
+  "city": "Lafayette",
+  "state": "LA",
+  "zip": "70506",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 30.2158434,
+  "longitude": -92.0417371,
+  "elevation": "3.556508303",
+  "capacity": 41426,
+  "constructionYear": 1971,
+  "grass": false,
+  "dome": false
+ }
+}
