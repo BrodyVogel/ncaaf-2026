@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T04:29:32+00:00",
+ "team": "Oklahoma",
+ "final": 14.73,
+ "rank": 18,
+ "band": 6.0,
+ "resid": -13.87,
+ "adj": -4.86,
+ "class_term": -0.0,
+ "st": 0.24,
+ "anchor_blend": 18.82,
+ "resid_level": -10.02,
+ "resid_shape": -3.85,
+ "implied_off": 27.65,
+ "implied_def": 23.0,
+ "anchor_off": 32.41,
+ "anchor_def": 13.89,
+ "fit_r2": {
+  "off": 0.537,
+  "dfn": 0.607
+ },
+ "low_conf_units": 0,
+ "code_rev": "087d8c0",
+ "mode": "PILOT-OOS"
+}

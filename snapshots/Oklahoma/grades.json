@@ -1,0 +1,134 @@
+{
+ "team": "Oklahoma",
+ "units": {
+  "QB": {"grade": 62, "confidence": "M"},
+  "RB": {"grade": 52, "confidence": "M"},
+  "WRTE": {"grade": 58, "confidence": "M"},
+  "OL": {"grade": 54, "confidence": "M"},
+  "DL": {"grade": 62, "confidence": "M"},
+  "LB": {"grade": 56, "confidence": "M"},
+  "DB": {"grade": 60, "confidence": "M"},
+  "ST": {"grade": 62, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T04:27:58Z (087d8c0)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells weighted DOWN; small samples discounted], arrivals on origin cells; HC Venables Year 5 NO change [band x1.00]; disposition gate 42 rows / 0 adjudicate / 0 err - Adebawore withdrawal override, draftees/Kanak yr4-EXPIRED, E'Marion Harris cross-build; calibrated vs the board elite tier; QB graded UP from Mateer's injury-hampered '25 tape given his proven 2024 44-TD ceiling + healthy return); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16). DISCLOSED: Oklahoma's P6 ranking (#2t) incidentally visible - logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB62/RB52/WRTE58/OL54/DL62/LB56/DB60/ST62, sum 466). No post-freeze corrections."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 49, RB 44, WRTE 76, OL 78, DL 84, LB 92, DB 94, ST 67) keys the '25 roster; the grades hold the elite D high + lift the QB (Mateer's true ceiling) over the injured tape.",
+   "QB": "+13 vs proxy 49 - proxy = the injury-hampered '25 tape; the grade keys Mateer's proven 2024 (FBS 44-TD) ceiling + healthy return.",
+   "DL": "-22 vs proxy 84 - proxy included the 2 drafted stars (R.M.Thomas/Halton); the grade keys the still-elite/deep front (Wein/Stone).",
+   "LB": "-36 vs proxy 92 / DB -34 vs proxy 94 - proxy over-credits; the grades key the returning cores (Lewis/Heinecke; the Bowen brothers/Guillory) minus the departures.",
+   "RB": "+8 vs proxy 44 - proxy = the 'pathetic' '25 run game; the grade credits the returning backs + the new coach.",
+   "OL/WRTE/ST": "grades near-or-below proxy - a young-returning line, a proven WR trio, an All-America kicker."
+  }
+ },
+ "grades_detail": [
+  {"team": "Oklahoma", "unit": "QB", "grade": 62, "confidence": "M",
+   "bracketing_exemplars": ["SMU QB 2026 (62, peer)", "Miami QB 2026 (70, ref-above)"],
+   "rationale_bullets": [
+    "John Mateer (64.0/482 -> SEC +7.72 weighted). His '25 grade is INJURY tape (thumb surgery late Sept); he LED FBS with 44 total TD in 2024; fixed his mechanics, healthy, 'uncanny playmaking,' in Arbuckle's Air Raid.",
+    "A proven, high-ceiling dual-threat whose raw '25 grade badly understates him - an FBS-leading 44-TD season two years ago, now recovered + in his 2nd year in the scheme.",
+    "The downside: the '25 dip was real (13th in SEC QB Rating, 11 INT).",
+    "62: ~SMU QB 62. The proven-high-ceiling tier; the bounce-back bet vs the '25 dip. M."
+   ],
+   "key_players": [
+    {"name": "John Mateer", "role": "QB1 (returning)", "evidence": "64.0/482 ('25 injury tape); LED FBS with 44 total TD in 2024; healthy, mechanics fixed"}
+   ],
+   "data_gaps": ["'25 dip was real (thumb injury; 11 INT)"], "g5_guard_note": "grade lifted above the raw '25 tape on his documented 2024 ceiling + healthy return - an explicit judgment, not a tape read."},
+  {"team": "Oklahoma", "unit": "RB", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["Clemson RB 2026 (52, peer)", "Auburn RB 2026 (54, above)"],
+   "rationale_bullets": [
+    "Xavier Robinson (71.9/82 -> SEC +10.17 weighted; 421 yds) + Tory Blaylock (67.3/119; 480 yds as a true frosh). New RB coach Deland McCullough (Jeanty + Jeremiyah Love).",
+    "Two returning backs with talent behind a line that produced a 'pathetic' 3.5 ypc (#124 run push).",
+    "The backs + an elite new position coach are the upside; the '25 results + the young OL are the drag.",
+    "52: ~Clemson RB 52; below Auburn 54. The talent/coaching vs the broken '25 run game. M."
+   ],
+   "key_players": [
+    {"name": "Xavier Robinson", "role": "RB (returning)", "evidence": "71.9/82; 421 yds"},
+    {"name": "Tory Blaylock", "role": "RB (returning)", "evidence": "67.3/119; 480 yds as a true frosh"}
+   ],
+   "data_gaps": ["'25 run game 3.5 ypc (#124 run push)"], "g5_guard_note": null},
+  {"team": "Oklahoma", "unit": "WRTE", "grade": 58, "confidence": "M",
+   "bracketing_exemplars": ["Penn State WRTE 2026 (58, peer)", "LSU WRTE 2026 (60, above)"],
+   "rationale_bullets": [
+    "Isaiah Sategna III (70.5/439 -> SEC 76.4 adj; first-team All-SEC slot) + Trell Harris (Virginia, 77.0/381 -> ACC 79.4 adj; All-ACC, 59/847) + Parker Livingstone (Texas, 67.9/301; 17.8 ypc, 4th in SEC) + TE Hayden Hansen (Florida, 44 catches/2nd in SEC, #2 transfer TE) + Alleyne (Wazzu).",
+    "'A proven starting trio' - a first-team All-SEC slot + two productive P4 transfers - plus a genuine transfer-TE upgrade (Hansen) with Jason Witten coaching.",
+    "A real strength in the Air Raid.",
+    "58: ~Penn State WRTE 58; below LSU 60. The proven trio + Hansen lift it. M."
+   ],
+   "key_players": [
+    {"name": "Isaiah Sategna III", "role": "WR (returning)", "evidence": "70.5/439 (76.4 SEC-adj); first-team All-SEC"},
+    {"name": "Trell Harris", "role": "WR (transfer, Virginia)", "evidence": "77.0/381 (79.4 ACC-adj); All-ACC; 59/847"}
+   ],
+   "data_gaps": ["next-3 WRs departed (reloaded via portal)"], "g5_guard_note": null},
+  {"team": "Oklahoma", "unit": "OL", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["USC OL 2026 (54, peer)", "Miami OL 2026 (52, below)"],
+   "rationale_bullets": [
+    "Michael Fasusi (65.1/676 -> SEC weighted DOWN; 5-star LT, started all year as a true frosh) + Jake Maikkula (68.8/710 C) + Eddy Pierre-Louis + Ryan Fodje (Top100, started 6 each as frosh) + E'Marion Harris (Arkansas, RT). Lost All-SEC draft pick Nwaiwu.",
+    "A young-but-returning line - three frosh starters (24 combined starts) get a 2nd-year bonus, anchored by a 5-star LT + a returning center + an experienced Arkansas transfer.",
+    "Good pass pro (PBLK p93) but a bottom-10 run push (#124); improvement is likely, the run block the swing.",
+    "54: ~USC OL 54; above Miami 52. The youth/pass-pro base + the run-block question. M."
+   ],
+   "key_players": [
+    {"name": "Michael Fasusi", "role": "LT (returning)", "evidence": "65.1/676; 5-star; started all year as a true frosh"},
+    {"name": "Jake Maikkula", "role": "C (returning)", "evidence": "68.8/710"}
+   ],
+   "data_gaps": ["#124 run push; young line", "lost All-SEC draft-pick G Nwaiwu"], "g5_guard_note": null},
+  {"team": "Oklahoma", "unit": "DL", "grade": 62, "confidence": "M",
+   "bracketing_exemplars": ["LSU DL 2026 (62, peer)", "Maryland DL 2026 (63, above)"],
+   "rationale_bullets": [
+    "Taylor Wein (78.0/504 -> SEC +7.87 weighted -> elite; All-SEC - 7 sacks/15 TFL/35 pressures, All-America candidate) + David Stone (76.4/454; dominant 5-star) + Jayden Jackson (Fr All-America '24) + Danny Okoye (75.2) + Adepoju Adebawore (former 5-star) + Bishop Thomas (Ga State) + Kreul (Top100).",
+    "Lost R Mason Thomas (85.3) + Halton (85.0, both DRAFTED).",
+    "Still a top-tier, deep front (8-man rotation) - an All-America-candidate edge + a dominant 5-star tackle + a Freshman All-American + real depth - on the unit that LED the nation in sacks.",
+    "62: ~LSU DL 62; below Maryland 63. The two drafted losses keep it from higher. M."
+   ],
+   "key_players": [
+    {"name": "Taylor Wein", "role": "ED (returning)", "evidence": "78.0/504 (SEC-adj elite); All-SEC; 7 sacks/15 TFL/35 pressures"},
+    {"name": "David Stone", "role": "DT (returning)", "evidence": "76.4/454; dominant 5-star"}
+   ],
+   "data_gaps": ["lost 2 drafted stars (R.M.Thomas 85.3 + Halton 85.0)"], "g5_guard_note": null},
+  {"team": "Oklahoma", "unit": "LB", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Florida LB 2026 (56, peer)", "SMU LB 2026 (56, peer)"],
+   "rationale_bullets": [
+    "Kip Lewis (76.7/546 -> SEC +14.01 weighted DOWN; leading tackler) + Owen Heinecke (76.1/468; bonus year) - the top-2 tacklers back (22.5 combined TFL) - + Cole Sullivan (Michigan, started the final 3 games) + James Nesta.",
+    "A strong, experienced duo - the team's top-2 tacklers return, both 76+ - plus a rising Michigan transfer.",
+    "The backups transferred out (depth thinner).",
+    "56: ~Florida/SMU LB 56. The returning production anchors it, the depth caps it. M."
+   ],
+   "key_players": [
+    {"name": "Kip Lewis", "role": "LB (returning)", "evidence": "76.7/546; leading tackler"},
+    {"name": "Owen Heinecke", "role": "LB (returning)", "evidence": "76.1/468; bonus year; top-2 tacklers back"}
+   ],
+   "data_gaps": ["backups transferred out (depth)"], "g5_guard_note": null},
+  {"team": "Oklahoma", "unit": "DB", "grade": 60, "confidence": "M",
+   "bracketing_exemplars": ["Miami DB 2026 (60, peer)", "LSU DB 2026 (62, above)"],
+   "rationale_bullets": [
+    "Peyton Bowen (78.6/679 -> SEC +5.44 -> elite; 2 INT S) + Eli Bowen (73.4/462 -> 78.8 adj; All-SEC CB, 2 INT) + Courtland Guillory (SEC All-Freshman CB) + Jacobe Johnson (70.6/175; rising) + Omarion Robinson (S). Lost Kendal Daniels (77.4) + Spears-Jennings.",
+    "An elite, returning back end - a high-graded safety + an All-SEC corner + a SEC All-Freshman corner - on a unit that was COV p79.",
+    "It lost a good safety (Daniels) + some depth, but the top four are excellent.",
+    "60: ~Miami DB 60; below LSU 62. The depth/Daniels loss keeps it from higher. M."
+   ],
+   "key_players": [
+    {"name": "Peyton Bowen", "role": "S (returning)", "evidence": "78.6/679 (SEC-adj elite); 2 INT"},
+    {"name": "Eli Bowen", "role": "CB (returning)", "evidence": "73.4/462 (78.8 SEC-adj); All-SEC; 2 INT"}
+   ],
+   "data_gaps": ["lost S Kendal Daniels (77.4) + depth"], "g5_guard_note": null},
+  {"team": "Oklahoma", "unit": "ST", "grade": 62, "confidence": "M",
+   "bracketing_exemplars": ["Oregon ST 2026 (62, peer)", "Ohio State ST 2026 (64, above)"],
+   "rationale_bullets": [
+    "Tate Sandell (K - All-America; 16/18 FG from 40+, 8/9 from 50+) + Grayson Miller (P - 45.8 avg) + Sategna (elusive PR). SPEC was p67 in '25.",
+    "An elite, All-America placekicker (deadly from distance) + a strong punter + a dangerous returner.",
+    "A genuine special-teams strength.",
+    "62: ~Oregon ST 62; below Ohio State 64. Near the top of the ST tier, kicker-driven (calib). M."
+   ],
+   "key_players": [
+    {"name": "Tate Sandell", "role": "K (returning)", "evidence": "All-America; 16/18 FG from 40+, 8/9 from 50+"},
+    {"name": "Grayson Miller", "role": "P (returning)", "evidence": "45.8 avg"}
+   ],
+   "data_gaps": [], "g5_guard_note": null}
+ ]
+}
