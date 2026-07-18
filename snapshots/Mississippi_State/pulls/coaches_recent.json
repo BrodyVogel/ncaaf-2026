@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Jeff",
+  "lastName": "Lebby",
+  "hireDate": "2023-11-26T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Mississippi State",
+    "year": 2024,
+    "games": 12,
+    "wins": 2,
+    "losses": 10,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -1.6,
+    "spOverall": -4.1,
+    "spOffense": 25.5,
+    "spDefense": 31.2
+   }
+  ]
+ },
+ {
+  "firstName": "Jeff",
+  "lastName": "Lebby",
+  "hireDate": "2023-11-26T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Mississippi State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 2.3,
+    "spOverall": 4.1,
+    "spOffense": 31.6,
+    "spDefense": 29
+   }
+  ]
+ }
+]

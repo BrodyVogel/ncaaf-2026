@@ -1,0 +1,31 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Kamario Taylor,QB,SO,returning,Athlon,PS,M,84.7/114 (SEC +7.72 weighted; highest-rated QB recruit in program history; dual-threat - 458 rush/8 TD as frosh; limited passing sample)
+QB,2,AJ Swann,QB,SR,transfer:Appalachian State,Athlon,PS,L,65.3/250 (SBC -1.01; ex-Vanderbilt/App St starter) + Jaden Rashada (Sac State wildcard)
+RB,1,Fluff Bothwell,RB,JR,returning,Athlon,PS,M,73.6/141 (SEC +10.17 weighted; 677 yds/4.8; clear #1; injury bounce-back)
+RB,2,Xavier Gayten,RB,JR,returning,Athlon,PS,L,65.1/31 (SEC small sample; former 4-star; moves up to #2)
+WRTE,1,Anthony Evans III,WR,SR,returning,Athlon,PS,M,65.1/446 (SEC +5.94 -> 71.0 adj; 67 catches/831 yds; the top returner)
+WRTE,2,Marquis Johnson,WR,SR,transfer:Missouri,Athlon,PS,M,62.3/275 (SEC; Missouri's #3 WR, 4-star transfer; vertical/downfield role)
+WRTE,3,Ayden Williams,WR,SR,returning,Athlon,PS,M,51.9/313 (SEC; former Top100)
+WRTE,4,Sanfrisco Magee,WR,SO,returning,Athlon,PS,L,69.1/34 (SEC small sample; spring hero, surged up)
+WRTE,5,Sam West,TE,JR,returning,Athlon,PS,L,62.3/59 (SEC; TE1) + 4-star frosh Zayion Cotton / Riley Williams (Oregon St)
+WRTE,6,Zion Ragins,WR,FR,returning,Athlon,PS,L,blue-chip frosh (Oklahoma HS); depth
+OL,1,Canon Boone,C,SR,returning,Athlon,PS,M,65.5/940 (SEC +13.45 weighted DOWN; the ONLY returning starter, huge volume)
+OL,2,Miles McVay,OT,JR,transfer:North Carolina,Athlon,PS,M,71.1/164 (ACC +3.54; LT)
+OL,3,DJ Chester,G,JR,transfer:LSU,Athlon,PS,M,50.2/291 (SEC; Top200 LSU transfer, 14 career starts)
+OL,4,LJ Prudhomme,G,FR,transfer:Arkansas,Athlon,PS,L,54.5/11 tiny (SEC; projected Arkansas starting G before the move)
+OL,5,Blake Steen,OT,JR,returning,Athlon,PS,L,RT; original '25 starter injured game 1, returns + Tyler Miller (LSU) / Shumpert-Perkins. FOUR '25 starters transferred OUT; #131 pass pro
+DL,1,Will Whitson,ED,SR,returning,Athlon,PS,M,81.1/46 tiny (SEC +7.87 weighted; edge - high grade, tiny sample; granted a 7th yr)
+DL,2,Kalvin Dinkins,DI,SR,returning,Athlon,PS,M,57.4/395 (SEC weighted; returning DT starter)
+DL,3,Amaree Williams,ED,JR,transfer:Florida State,Athlon,PS,M,64.6/124 (ACC +1.19; edge)
+DL,4,DJ Reed,DI,JR,returning,Athlon,PS,L,55.3/354 (SEC; DT rotation)
+DL,5,Jaray Bledsoe,DI,SR,returning,Athlon,PS,L,55.2/352 (SEC; DT) + Trevion Williams (61.8), Dealyn Evans (A&M). PRSH p1 - WORST in FBS
+LB,1,Jalen Smith,LB,JR,returning,Athlon,PS,M,62.8/373 (SEC +14.01 weighted DOWN; returning starter)
+LB,2,Zakari Tillman,LB,SR,returning,Athlon,PS,M,53.6/405 (SEC weighted; returning starter)
+LB,3,Tyler Lockhart,LB,SO,returning,Athlon,PS,L,50.3/221 (SEC; rotation) + Gav Holman
+DB,1,Kelley Jones,CB,JR,returning,Athlon,PS,H,76.7/694 (SEC +5.44 -> elite; potential 1st-round '27 NFL; the star)
+DB,2,Isaac Smith,S,SR,returning,Athlon,PS,H,75.7/420 (SEC +5.44 -> 81.1 adj; senior anchor)
+DB,3,Marcus Williams,S,SR,transfer:Rice,Athlon,PS,M,72.7/651 (AAC +0.45; experienced S)
+DB,4,Quentin Taylor,CB,SO,transfer:Iowa State,Athlon,PS,M,72.3/404 (B12 +1.85 -> 74.2 adj; other corner)
+DB,5,Jett Jefferson,CB,JR,returning,Athlon,PS,L,66.0/116 (SEC; depth) + Tanner Johnson (74.8 S), Kaylib Singleton (Syracuse CB)
+ST,1,Kyle Ferrie,K,SR,returning,Athlon,PS,H,all-time career scoring record; one of the most consistent placekickers ever
+ST,2,Ethan Pulliam,P,JR,returning,Athlon,PS,M,returning punter; speedy KRs (Evans/Marquis Johnson/Wilson)

@@ -1,0 +1,36 @@
+{
+ "id": 344,
+ "school": "Mississippi State",
+ "mascot": "Bulldogs",
+ "abbreviation": "MSST",
+ "alternateNames": [
+  "MSST",
+  "Mississippi St"
+ ],
+ "conference": "SEC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#5d1725",
+ "alternateColor": "#c1c6c8",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/344.png"
+ ],
+ "twitter": "@HailStateFB",
+ "location": {
+  "id": 3693,
+  "name": "Davis Wade Stadium",
+  "city": "Starkville",
+  "state": "MS",
+  "zip": "39762",
+  "countryCode": "US",
+  "timezone": "America/Chicago",
+  "latitude": 33.4563403,
+  "longitude": -88.7933652,
+  "elevation": "110.2742081",
+  "capacity": 61337,
+  "constructionYear": 1914,
+  "grass": true,
+  "dome": false
+ }
+}

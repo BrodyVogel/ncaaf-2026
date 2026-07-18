@@ -1,0 +1,38 @@
+{
+ "team": "Mississippi State",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T03:13:00+00:00",
+ "assembler_git_rev": "d71bd96",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Jeff Lebby (Year 3, NO CHANGE; band x1.00). Brought back former MSU HC/DC Zach Arnett as DC (fired Coleman Hutzler) - a COORDINATOR change, which does NOT trigger the band multiplier (only HC changes do). '25: 5-8 (1-7 SEC); Lebby 7-18 overall. National Forecast 44. Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC); arrivals on origin cells. SEC offsets LARGE - big cells (OL/LB/RB) WEIGHTED DOWN; small samples discounted. Good starter RETENTION (only the OL had defections). Arrivals on origin: Swann (App St/SBC), Marquis Johnson (Missouri/SEC), McVay (UNC/ACC), Chester+Miller (LSU/SEC), Prudhomme (Arkansas/SEC), Amaree Williams (FSU/ACC), Marcus Williams (Rice/AAC), Quentin Taylor (Iowa St/B12), Singleton (Syracuse/ACC).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Canon Boone"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Blake Shapen": "QB, 68.5/389 (yr4) - the early '25 starter, GRADUATED (P6 'Shapen graduated - Taylor is now the face of the program'). EXPIRED(yr4).",
+  "Kamario Taylor": "QB, 84.7/114 - RETURNS as the starter. Highest-rated QB recruit in program history; dual-threat phenom (458 rush/8 TD as a frosh); took over by the '25 finale. Limited passing sample (114 snaps).",
+  "Brenen Thompson": "WR (yr4) - GRADUATED. The 1,054-yd single-season school record holder (18.5 ypc); Marquis Johnson (Missouri) steps into his vertical role. EXPIRED(yr4).",
+  "Davon Booth": "RB (yr4) - GRADUATED. Xavier Gayten (4-star) moves up to #2. EXPIRED(yr4).",
+  "Seydou Traore": "TE (yr4) - GRADUATED. 4-star frosh Zayion Cotton / Riley Williams (Oregon St) replace. EXPIRED(yr4).",
+  "Kelley Jones": "CB, 76.7/694 - RETURNS. Potential 1st-round '27 NFL pick; the secondary's star (SEC +5.44 -> elite).",
+  "Isaac Smith": "S, 75.7/420 - RETURNS. Senior anchor of the DB (SEC +5.44 -> 81.1 adj).",
+  "Kedrick Bingley-Jones": "DL (yr4) - GONE -> Alabama (cross-build confirmed; among the OL/DL outflow). EXPIRED(yr4).",
+  "Canon Boone": "C, 65.5/940 (yr4) - RETURNS. The ONLY returning OL starter, named by Athlon + PS + P6 (4 game-starting linemen transferred out). yr4_return_override (R15). Blake Steen (RT, injured game 1) also returns."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 2026 charts. GOOD retention (27 in / 40 out but P6 'only the OL had defections; won the Player Retention offseason'). No junior-pro declares (Kelley Jones - a potential '27 pick - RETURNS).",
+  "5-8 (1-7 SEC) '25 profile: a decent Lebby passing offense (PASS p66, #21 explosive passing) with poor run blocking (RBLK p25), + a HISTORICALLY BAD defense (DEF p10, RDEF p15, PRSH p1 - literally the WORST pass rush in FBS). ST p43.",
+  "THE ASCENDING PIECE: phenom soph QB Kamario Taylor (84.7 flash; 458 rush/8 TD; dual-threat), a solid lead RB (Bothwell, 677 yds), + a WR room that stays a strength (Evans 831 yds returns + Marquis Johnson/Missouri + Ayden Williams). THE STRENGTHS: a genuinely good/deep secondary (Kelley Jones 76.7 + Isaac Smith 75.7 + transfers Marcus Williams 72.7 + Quentin Taylor 72.3) + an all-time-record kicker (Ferrie).",
+  "THE WOUNDS (the trenches): OL - #131 pass pro (40 sacks), the ONLY group with portal defections (4 game-starters out); only Boone + injured Steen return; a 'Pick Your Transfer' rebuild. DL - PRSH p1 (worst in FBS), modest returning grades; DC Arnett returns to fix a defense that was last/next-to-last in the SEC two years running."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded); DISCLOSED: MSU's P6 ranking ('#13 SEC / #43 overall') incidentally visible in the editorial header - logged in research_log.md, NOT used in grading",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T04:09:05+00:00"
+}
