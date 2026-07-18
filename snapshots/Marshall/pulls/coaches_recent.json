@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Charles",
+  "lastName": "Huff",
+  "hireDate": "2021-01-16T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Marshall",
+    "year": 2024,
+    "games": 13,
+    "wins": 10,
+    "losses": 3,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": 3.5,
+    "spOverall": 3.1,
+    "spOffense": 29.6,
+    "spDefense": 26.9
+   }
+  ]
+ },
+ {
+  "firstName": "Tony",
+  "lastName": "Gibson",
+  "hireDate": null,
+  "seasons": [
+   {
+    "school": "Marshall",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -5.8,
+    "spOverall": -4.5,
+    "spOffense": 29.6,
+    "spDefense": 34.8
+   }
+  ]
+ }
+]

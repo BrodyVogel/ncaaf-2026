@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T15:56:43+00:00",
+ "team": "Marshall",
+ "final": -5.7,
+ "rank": 91,
+ "band": 6.0,
+ "resid": 5.13,
+ "adj": 1.8,
+ "class_term": 0.0,
+ "st": -0.28,
+ "anchor_blend": -7.69,
+ "resid_level": 4.33,
+ "resid_shape": 0.8,
+ "implied_off": 24.44,
+ "implied_def": 27.31,
+ "anchor_off": 27.85,
+ "anchor_def": 35.85,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.614
+ },
+ "low_conf_units": 0,
+ "code_rev": "5b32e88",
+ "mode": "PILOT-OOS"
+}

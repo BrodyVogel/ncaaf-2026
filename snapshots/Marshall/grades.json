@@ -1,0 +1,133 @@
+{
+ "team": "Marshall",
+ "units": {
+  "QB": {"grade": 50, "confidence": "M"},
+  "RB": {"grade": 40, "confidence": "M"},
+  "WRTE": {"grade": 46, "confidence": "M"},
+  "OL": {"grade": 44, "confidence": "M"},
+  "DL": {"grade": 40, "confidence": "M"},
+  "LB": {"grade": 42, "confidence": "M"},
+  "DB": {"grade": 42, "confidence": "M"},
+  "ST": {"grade": 36, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T15:52:00Z (Marshall)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary; PS SBC text GARBLED -> College Football News 2026 preview + beat as the corroborating source; no Pick Six for SBC]; established Sun Belt team -> returning tape on SBC cells [negative/small], arrivals on origin [FCS/D2 = no cell]; HC Tony Gibson Y2 [first-year HC in 2025 -> NO CHANGE, band x1.00]; disposition gate 38 rows / 0 adjudicate / 0 err - yr4-RETURN overrides Daytione Smith + Josh Pierre-Louis + Jalen Marshall [Athlon-named]; departure_confirmed_research the top 2 graders CB Boogie Trotter [87.0, yr4, Athlon+CFN 'done'] + WR Demarcus Lacey [79.6, yr4, depth-chart-absent] + a raft of yr4 grads; DL decimated [3 of top 4 sack leaders to the portal]; 27-in/22-out churn]; anchor values not consulted. DISCLOSED: Athlon NF95 / Sun Belt East 3 incidentally visible, logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB50/RB40/WRTE46/OL44/DL40/LB42/DB42/ST36, sum 340). No post-freeze corrections. The pivotal pre-grade move: multi-source verification that the roster's top 2 graders (Trotter 87.0, Lacey 79.6) are BOTH gone - and a conflict-resolution on Trotter (a web 'spring game' headline was spring 2025; CFN 'Trotter is done' confirmed the departure)."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 53, RB None, WRTE 35, OL 43, DL None, LB 22, DB 12, ST 24) is healthy at QB/OL but low/None across the defense - the mechanical signal of the 27-in/22-out churn + heavy yr4 graduation. The grades key the verified returners the proxy can't fully see (Ward 80.0 DL; Gilmore LB; Daytione Smith DB).",
+   "QB": "-3 vs proxy 53 - the grade (50) keeps the returning POY QB near the proxy, tempered to the average passing offense.",
+   "DL": "+40 vs proxy None - proxy zeroed on the sack-leader exodus; the grade keys the lone returning edge (Ward 80.0) + the transfer rebuild.",
+   "LB": "+20 vs proxy 22 - the grade keys the one returning starter (Gilmore, 11.5 TFL) + an ACC transfer.",
+   "DB": "+30 vs proxy 12 - the grade keys the safety anchor (Daytione Smith) + a Buffalo-transfer corner after the top grader (Trotter) + 2 starters left.",
+   "ST": "+12 vs proxy 24 - the grade keeps ST low (a transfer K who's never kicked + a freshman P) but above the raw floor."
+  }
+ },
+ "grades_detail": [
+  {"team": "Marshall", "unit": "QB", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["Missouri QB 2026 (50, peer)", "Kentucky QB 2026 (50, peer)"],
+   "rationale_bullets": [
+    "Carlos Del Rio-Wilson (74.1/317 -> SBC -1.01; the SBC PRESEASON OFFENSIVE POY; an efficient passer who led the Herd in rushing in a breakout '25; former Syracuse QB) + Zion Turner (67.0/65; returning backup).",
+    "A returning, decorated dual-threat starter - the league's preseason offensive POY - with real experience + a rushing dimension, off an average passing offense (PASS p47). The clear class of the SBC QBs graded so far.",
+    "50: ~Missouri/Kentucky QB 50. The POY-level returner + dual threat vs the merely-average passing production. M."
+   ],
+   "key_players": [
+    {"name": "Carlos Del Rio-Wilson", "role": "QB (returning)", "evidence": "74.1/317; the 2026 SBC Preseason Offensive POY, an efficient passer + the team's leading rusher"}
+   ],
+   "data_gaps": ["average passing offense (PASS p47)", "run-first, QB-centric scheme"],
+   "g5_guard_note": "Sun Belt; a returning conference-Preseason-POY dual-threat QB (SBC offset -1.01 on the tape) - the class of the SBC QBs graded so far."},
+  {"team": "Marshall", "unit": "RB", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Nebraska RB 2026 (40, peer)", "Navy RB 2026 (40, peer)"],
+   "rationale_bullets": [
+    "Jo'Shon Barbie (69.5/58 -> SBC -2.02; a larger role in '26) + TJ Lester (FCS West Georgia transfer, scout-praised - NO cell). LOST the top 3: Michael Allen (75.8 -> ECU) + Antwan Roberts (69.4 -> Arizona) + Justin Williams-Thomas (69.1 -> UMass).",
+    "A run-first attack (RUN p34, modest) that lost its top 3 backs but keeps a proven complementary runner (Barbie) + a praised FCS transfer - and the QB (Del Rio-Wilson) is the leading rusher.",
+    "40: ~Nebraska/Navy RB 40. Barbie + Lester + the QB-run element vs the lost top 3. M."
+   ],
+   "key_players": [
+    {"name": "Jo'Shon Barbie", "role": "RB (returning)", "evidence": "69.5/58; assumes the lead role after the top 3 backs left"},
+    {"name": "TJ Lester", "role": "RB (transfer, West Georgia FCS)", "evidence": "a scout-praised FCS transfer (evidence-only, no cell)"}
+   ],
+   "data_gaps": ["top 3 backs transferred out (Allen/Roberts/Williams-Thomas)", "RB2 from the FCS level"],
+   "g5_guard_note": "Sun Belt; a returning complementary back (SBC -2.02) + an FCS transfer after the top 3 left; the QB is the leading rusher."},
+  {"team": "Marshall", "unit": "WRTE", "grade": 46, "confidence": "M",
+   "bracketing_exemplars": ["Tulane WRTE 2026 (46, peer)", "East Carolina WRTE 2026 (46, peer)"],
+   "rationale_bullets": [
+    "De'Andre Tamarez (62.3/342) + Adrian Norton (66.3/283) + TE Toby Payne (65.8/297 -> SBC -0.74; starts for the 3rd straight season) - THREE returning starters - + transfers Owen Sweeney (VMI FCS) + Christian Hamilton (WVU). LOST Demarcus Lacey (79.6, yr4 - the top WR grade).",
+    "Strong continuity - 3 returning starters incl. a proven veteran TE - off a solid receiving unit (RECV p59), though it lost its best grader (Lacey).",
+    "46: ~Tulane/East Carolina WRTE 46. The 3 returning starters + the TE vs the Lacey loss + a G5 ceiling. M."
+   ],
+   "key_players": [
+    {"name": "Toby Payne", "role": "TE (returning)", "evidence": "65.8/297; starts for the 3rd consecutive season"},
+    {"name": "Adrian Norton", "role": "WR (returning)", "evidence": "66.3/283; a returning starting wideout"}
+   ],
+   "data_gaps": ["lost the top WR grade (Lacey 79.6, yr4)", "G5 ceiling"],
+   "g5_guard_note": "Sun Belt; 3 returning WR/TE starters (SBC offset -0.74) incl. a 3rd-year-starting TE - strong continuity."},
+  {"team": "Marshall", "unit": "OL", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["Kansas State OL 2026 (44, peer)", "Oklahoma State OL 2026 (44, peer)"],
+   "rationale_bullets": [
+    "Jalen Slappy (65.2/799 -> SBC -0.35; RG) + Tariq Montgomery (58.5/571; LT) - 2 returning starters - + WVU transfers (Robby Martin, Xavier Bausley) + FRESHMEN at C (Dudley) + LG (Joiner). LOST both 852-snap starters Shunmarkus Adams (yr4 G) + Eric Meeks (yr4 C) + Richter (-> UConn).",
+    "Two returning starters (a solid guard + a tackle) + P4-transfer depth off decent pass pro (PBLK p67) - but both 852-snap interior starters graduated and the C+LG are now freshmen.",
+    "44: ~Kansas State/Oklahoma State OL 44. The 2 returning starters + WVU transfers vs the freshman interior + the weak run block (p33). M."
+   ],
+   "key_players": [
+    {"name": "Jalen Slappy", "role": "RG (returning)", "evidence": "65.2/799; the top returning offensive lineman"},
+    {"name": "Tariq Montgomery", "role": "LT (returning)", "evidence": "58.5/571; a returning tackle"}
+   ],
+   "data_gaps": ["both 852-snap interior starters graduated", "C+LG are freshmen", "RBLK p33"],
+   "g5_guard_note": "Sun Belt; 2 returning OL starters (SBC -0.35) + WVU transfers, but a freshman interior after both 852-snap starters graduated."},
+  {"team": "Marshall", "unit": "DL", "grade": 40, "confidence": "M",
+   "bracketing_exemplars": ["Arkansas State DL 2026 (40, peer)", "Tulsa DL 2026 (40, peer)"],
+   "rationale_bullets": [
+    "Braydin Ward (80.0/225 -> SBC -6.50; the lone real returner, a 5-sack '25) + transfers Mickel Williams (UTSA) + B.J. Carter. Athlon: 'the front was DECIMATED - three of the top four sack leaders transferred out' - Crowder (76.5 -> Minnesota) + Hutson (68.7 -> Wash St) + Whyce (65.7 -> Baylor) + Kaba (72.3 -> Minnesota).",
+    "One genuine returning edge (Ward, 80.0) on a front that 'lost a ton' (CFN's biggest portal hit) and was a poor pass rush (PRSH p39) even before - a heavy transfer rebuild around Ward.",
+    "40: ~Arkansas State/Tulsa DL 40. Ward anchors it above the floor; the mass exodus caps it. M."
+   ],
+   "key_players": [
+    {"name": "Braydin Ward", "role": "ED (returning)", "evidence": "80.0/225; the lone real returning lineman, a 5-sack season"}
+   ],
+   "data_gaps": ["3 of the top 4 sack leaders transferred out", "PRSH p39 even before the exodus"],
+   "g5_guard_note": "Sun Belt; one returning edge (Ward, SBC -6.50) on a decimated front - a transfer rebuild around him."},
+  {"team": "Marshall", "unit": "LB", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["Arkansas State LB 2026 (42, peer)", "San Diego State LB 2026 (42, peer)"],
+   "rationale_bullets": [
+    "Javae Gilmore (66.7/535 -> SBC -8.20; 'the lone starting LB returning,' led the team with 11.5 TFL + 63 stops) + Cannon Lewis (57.7/269; returning) + Kelvon McBride (NC State transfer) + Jalen Marshall (yr4 return, depth). LOST Al-Amin (-> Kansas) + Kerion Martin (69.3, yr4) + Parker (yr4).",
+    "One good returning starter (Gilmore, a real tackle-for-loss producer) + a young returner + an ACC transfer, after the room's 'top three tacklers graduated.'",
+    "42: ~Arkansas State/San Diego State LB 42. Gilmore anchors it; the single-returning-starter rebuild caps it. M."
+   ],
+   "key_players": [
+    {"name": "Javae Gilmore", "role": "LB (returning)", "evidence": "66.7/535; the lone returning starter, led the team with 11.5 TFL + 63 stops"},
+    {"name": "Kelvon McBride", "role": "LB (transfer, NC State)", "evidence": "an ACC transfer to replace the lost pass-rush production"}
+   ],
+   "data_gaps": ["only 1 returning starter", "top 3 tacklers graduated"],
+   "g5_guard_note": "Sun Belt; one returning LB starter (Gilmore, SBC -8.20) + an ACC transfer after heavy graduation."},
+  {"team": "Marshall", "unit": "DB", "grade": 42, "confidence": "M",
+   "bracketing_exemplars": ["Georgia Southern DB 2026 (42, peer)", "Oregon State DB 2026 (42, peer)"],
+   "rationale_bullets": [
+    "Daytione Smith (71.0/641 -> SBC -3.62; 'one of the best safeties in the Sun Belt,' yr4 return) + Josh Pierre-Louis (62.9/533; yr4 return) + Caleb Clark-Glover (60.1) + TaShawn Jeter (66.8) + transfers (McCartherens 76.5 + Pleasant, both Buffalo). LOST Boogie Trotter (87.0, yr4 - the TOP grade, 5 INTs) + Cam Smith (69.2, yr4, 732 snaps) + Marvae Myers (67.3, yr4).",
+    "A genuine safety anchor (Daytione Smith) + Pierre-Louis + a Buffalo-transfer corner, but the unit lost its top grader (Trotter) + 2 more starters off a pass D that 'allowed more passing yards than almost anyone.'",
+    "42: ~Georgia Southern/Oregon State DB 42. Daytione Smith + the transfers vs the Trotter loss + the bad baseline. M."
+   ],
+   "key_players": [
+    {"name": "Daytione Smith", "role": "S (returning, yr4)", "evidence": "71.0/641; 'one of the best safeties in the Sun Belt' (CFN); the secondary's anchor"},
+    {"name": "Charles McCartherens", "role": "CB (transfer, Buffalo)", "evidence": "76.5/106; a Buffalo-transfer corner stepping in"}
+   ],
+   "data_gaps": ["lost the top grader (Trotter 87.0) + 2 starters", "a pass D that allowed near-most passing yards"],
+   "g5_guard_note": "Sun Belt; a safety anchor (Daytione Smith, SBC -3.62) + transfers after the top DB (Trotter) + 2 starters left."},
+  {"team": "Marshall", "unit": "ST", "grade": 36, "confidence": "M",
+   "bracketing_exemplars": ["Maryland ST 2026 (36, peer)", "San Diego State ST 2026 (36, peer)"],
+   "rationale_bullets": [
+    "K Jorge Diaz Nicolas (Virginia transfer who has 'yet to attempt a kick in college') + P Cooper Heimbach (true Fr) + KR Xayvion Turner-Bradshaw (Sr, 'the only established starter'). LOST All-MAC K Lorcan Quinn (-> Alabama). SPEC was p24.",
+    "A near-total reset at the worst time - an unproven transfer kicker + a freshman punter replacing an All-MAC kicker, off an already-poor unit (SPEC p24).",
+    "36: ~Maryland/San Diego State ST 36. The reset + the poor '25 baseline. M."
+   ],
+   "key_players": [
+    {"name": "Jorge Diaz Nicolas", "role": "K (transfer, Virginia)", "evidence": "has yet to attempt a kick in college; replaces All-MAC Quinn"},
+    {"name": "Xayvion Turner-Bradshaw", "role": "KR (returning)", "evidence": "the only established returning ST starter"}
+   ],
+   "data_gaps": ["All-MAC kicker (Quinn) left for Alabama", "transfer K never kicked in college + freshman P", "SPEC p24"],
+   "g5_guard_note": "Sun Belt; a specialist reset (unproven transfer K + freshman P) off a poor SPEC-p24 unit."}
+ ]
+}

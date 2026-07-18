@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Carlos Del Rio-Wilson,QB,SR,returning,Athlon,web,H,74.1/317 (SBC -1.01; the SBC PRESEASON OFFENSIVE POY; an efficient passer who led the Herd in rushing in a breakout '25; former Syracuse QB; the returning centerpiece)
+QB,2,Zion Turner,QB,SR,returning,Athlon,feed,M,67.0/65 (SBC; the returning backup)
+RB,1,Jo'Shon Barbie,RB,SR,returning,Athlon,CFN,M,69.5/58 (SBC -2.02; assumes a larger role in '26). LOST the top 3: Michael Allen (75.8 -> ECU) + Antwan Roberts (69.4 -> Arizona) + Williams-Thomas (69.1 -> UMass)
+RB,2,TJ Lester,RB,SO,arrival(West Georgia-FCS),Athlon,feed,L,FCS West Georgia transfer; scout-praised ("really like him"). NO cell (evidence-only)
+WRTE,1,Adrian Norton,WR,SR,returning,Athlon,feed,M,66.3/283 (SBC -0.74; returning WR) + De'Andre Tamarez (62.3/342; returning WR1)
+WRTE,2,Toby Payne,TE,SR,returning,Athlon,feed,M,65.8/297 (SBC; starts for the 3rd straight season). LOST Demarcus Lacey (79.6 yr4 GONE - the top WR grade). + transfers Sweeney(VMI FCS)/Hamilton(WVU)
+OL,1,Jalen Slappy,RG,SR,returning,Athlon,feed,M,65.2/799 (SBC -0.35; the top returning OL)
+OL,2,Tariq Montgomery,LT,SR,returning,Athlon,feed,M,58.5/571 (SBC; returning tackle). LOST both 852-snap starters Shunmarkus Adams (60.1 yr4 G) + Eric Meeks (65.6 yr4 C) + Richter (-> UConn). C+LG now Fr; + WVU transfers Martin/Bausley
+DL,1,Braydin Ward,ED,JR,returning,Athlon,CFN,M,80.0/225 (SBC -6.50; the lone real returning DL - a 5-sack season)
+DL,2,Mickel Williams,DT,SR,arrival(UTSA-AAC),Athlon,feed,L,UTSA transfer. "The front was DECIMATED" - LOST Crowder(76.5->Minnesota)+Hutson(68.7->Wash St)+Whyce(65.7->Baylor)+Kaba(72.3->Minnesota)+Evans(->NC State)
+LB,1,Javae Gilmore,LB,SR,returning,Athlon,CFN,M,66.7/535 (SBC -8.20; "the lone starting LB returning"; led the team with 11.5 TFL + 63 stops)
+LB,2,Kelvon McBride,LB,JR,arrival(NC State-ACC),Athlon,feed,L,NC State transfer + Cannon Lewis (57.7/269; returning). LOST Al-Amin(->Kansas)+Kerion Martin(69.3 yr4)+Parker(yr4)
+DB,1,Daytione Smith,S,SR,returning-yr4override,Athlon,CFN,M,"71.0/641 (SBC -3.62; ""one of the best safeties in the Sun Belt"" (CFN); the main holdover - yr4 RETURN)"
+DB,2,Josh Pierre-Louis,NB,SR,returning-yr4override,Athlon,feed,M,62.9/533 (SBC; the other main holdover - yr4 RETURN). + McCartherens (Buffalo 76.5)/Jeter(66.8)/Clark-Glover. LOST Boogie Trotter (87.0 yr4 GONE - the TOP grade, 5 INTs)+Cam Smith(69.2 yr4)+Myers(67.3 yr4)
+ST,1,Jorge Diaz Nicolas,K,FR,arrival(Virginia-ACC),Athlon,feed,L,Virginia transfer who has "yet to attempt a kick in college"; replaces All-MAC Lorcan Quinn (-> Alabama). SPEC was p24 in '25
+ST,2,Cooper Heimbach,P,FR,returning,Athlon,feed,L,true freshman punter; KR Xayvion Turner-Bradshaw (Sr) is "the only established starter" of the ST group

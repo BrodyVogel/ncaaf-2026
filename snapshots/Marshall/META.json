@@ -1,0 +1,59 @@
+{
+ "team": "Marshall",
+ "conference": "Sun Belt",
+ "created_utc": "2026-07-18T15:45:47+00:00",
+ "assembler_git_rev": "5b32e88",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Tony Gibson (5-7 at school, entering YEAR 2 - he was the FIRST-YEAR HC in 2025, so NO change for 2026; band x1.00). G5 2-SOURCE build (Athlon primary; PS SBC text garbled -> CFN 2026 preview + beat/web as the corroborating source). VERY HIGH churn (27 in / 22 out) - a heavy transfer roster, especially on defense.",
+ "conference_note": "Established Sun Belt (East). SBC offsets NEGATIVE/small; returning tape on SBC cells, arrivals on origin. The DEFENSE was decimated: 3 of the top 4 sack leaders transferred out (Crowder->Minnesota, Hutson->Wash St, Whyce->Baylor; Kaba->Minnesota), the top DB (Trotter) + several starters graduated (yr4), and the All-MAC kicker (Quinn) left for Alabama. The OFFENSE kept its core (QB Del Rio-Wilson, 3 WR/TE starters, 2 OL starters).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Daytione Smith",
+  "Josh Pierre-Louis",
+  "Jalen Marshall"
+ ],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [
+  "Boogie Trotter",
+  "Demarcus Lacey",
+  "Cam Smith",
+  "Marvae Myers",
+  "Kerion Martin",
+  "Jadarius Green-McKnight",
+  "Shunmarkus Adams",
+  "Eric Meeks",
+  "Jalil Rivera-Harvey",
+  "Tyas Martin",
+  "Jayland Parker",
+  "Tyler McDuffie",
+  "Bryce Biggs"
+ ],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Carlos Del Rio-Wilson": "QB, 74.1/317 - RETURNS. The SBC Preseason Offensive POY; an efficient passer who led the Herd in rushing in a breakout '25 (former Syracuse QB). Beat/web-confirmed returning. The offense's centerpiece.",
+  "Boogie Trotter": "CB, 87.0/715 - GONE (departure_confirmed_research; yr4). The roster's TOP grade + 5 INTs, but portal-None + yr4; Athlon 'with Boogie Trotter gone' + CFN 'Leading tackler Boogie Trotter is done' both confirm. (A spring-game web mention was from spring 2025, his final season - not a 2026 return.)",
+  "Demarcus Lacey": "WR, 79.6/279 - GONE (departure_confirmed_research; yr4). The top WR grade but portal-None + yr4 + NOT on the Athlon depth chart -> graduated.",
+  "Daytione Smith": "S, 71.0/641 - RETURNS (yr4 override). 'One of the best safeties in the Sun Belt' (CFN) + Athlon 'the main holdover.' A genuine DB anchor amid the secondary rebuild.",
+  "Josh Pierre-Louis": "NB/S, 62.9/533 - RETURNS (yr4 override). Athlon 'the main holdover' alongside Daytione Smith; depth-chart bold.",
+  "Jalen Marshall": "LB, 69.4/63 - RETURNS (yr4 override). Athlon depth-chart LB backup (Sr); a low-snap yr4 returner.",
+  "Javae Gilmore": "LB, 66.7/535 - RETURNS. 'The lone starting linebacker returning' (Athlon); led the team with 11.5 TFL + 63 stops (CFN).",
+  "Braydin Ward": "ED, 80.0/225 - RETURNS (Jr, not yr4). The lone real returning DL after the front was decimated - a 5-sack '25.",
+  "Cam Smith": "S, 69.2/732 - GONE (yr4 graduation; portal-None, not on the depth chart). A 732-snap '25 starter whose eligibility expired.",
+  "Marvae Myers": "CB, 67.3/535 - GONE (yr4 graduation; portal-None, not on the depth chart).",
+  "Michael Allen": "RB, 75.8/77 - GONE (portal -> East Carolina). The top RB grade; Barbie assumes the lead role.",
+  "Naquan Crowder": "ED, 76.5/317 - GONE (portal -> Minnesota). One of 'three of the top four sack leaders' who transferred out (front decimated).",
+  "Lorcan Quinn": "K, All-MAC - GONE (portal -> Alabama). The All-MAC placekicker; replaced by unproven Virginia transfer Diaz Nicolas (never kicked in college)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon + CFN. VERY HIGH churn (27 in / 22 out). Grade-critical: the roster's top 2 graders are BOTH gone - CB Boogie Trotter (87.0, yr4, Athlon+CFN 'done') + WR Demarcus Lacey (79.6, yr4, depth-chart-absent).",
+  "5-7 in '25 (3-5 SBC) under first-year HC Tony Gibson (now Y2, no change). OFF p46 (an average unit whose 'bones are back'), DEF p64 by PFF but 'one of the worst defenses in the Sun Belt' per Athlon (a terrible pass D), SPEC p24 (poor).",
+  "The OFFENSE kept its core: QB Carlos Del Rio-Wilson (74.1, the SBC Preseason Off POY, efficient + the team's leading rusher) + 3 returning WR/TE starters (Tamarez/Norton + TE Payne, 3rd straight yr) + 2 OL starters (Slappy RG, Montgomery LT) + WVU transfers. But it lost its top RB (Allen -> ECU) + top WR (Lacey, yr4); RB1 is Barbie + FCS transfer Lester; the OL interior (C+LG) is now freshmen.",
+  "The DEFENSE was DECIMATED: the DL lost 3 of the top 4 sack leaders to the portal (Crowder/Hutson/Whyce/Kaba) - Braydin Ward (80.0) the lone real returner + transfers; LB has ONE returning starter (Gilmore, 11.5 TFL) + McBride (NC State) + Lewis; the secondary lost its top grader (Trotter 87.0) + 2 more starters off an already-bad pass D, keeping Daytione Smith ('one of the best SBC safeties') + Pierre-Louis + a slew of transfers.",
+  "ST reset: All-MAC K Lorcan Quinn left for Alabama; replaced by a Virginia transfer who has never kicked in college + a true freshman punter, off a SPEC-p24 unit."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF95 / Sun Belt East 3 incidentally visible - logged, NOT used. G5 2-source (Athlon primary; PS SBC text garbled -> CFN 2026 preview + beat/web as the corroborating source).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T15:52:00+00:00"
+}
