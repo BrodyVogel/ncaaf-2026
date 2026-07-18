@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Tim",
+  "lastName": "Beck",
+  "hireDate": "2022-12-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Coastal Carolina",
+    "year": 2024,
+    "games": 13,
+    "wins": 6,
+    "losses": 7,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -9.2,
+    "spOverall": -6.9,
+    "spOffense": 25.5,
+    "spDefense": 33.4
+   }
+  ]
+ },
+ {
+  "firstName": "Tim",
+  "lastName": "Beck",
+  "hireDate": "2022-12-04T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Coastal Carolina",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -11.6,
+    "spOverall": -15.1,
+    "spOffense": 23.4,
+    "spDefense": 37
+   }
+  ]
+ }
+]

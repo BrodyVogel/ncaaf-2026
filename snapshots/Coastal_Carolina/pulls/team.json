@@ -1,0 +1,36 @@
+{
+ "id": 324,
+ "school": "Coastal Carolina",
+ "mascot": "Chanticleers",
+ "abbreviation": "CCU",
+ "alternateNames": [
+  "CCU",
+  "Coastal"
+ ],
+ "conference": "Sun Belt",
+ "division": "East",
+ "classification": "fbs",
+ "color": "#007073",
+ "alternateColor": "#876447",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/324.png"
+ ],
+ "twitter": "@CoastalFootball",
+ "location": {
+  "id": 3654,
+  "name": "Brooks Stadium (SC)",
+  "city": "Conway",
+  "state": "SC",
+  "zip": "29528",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 33.7928506,
+  "longitude": -79.0166946,
+  "elevation": "13.74894905",
+  "capacity": 21000,
+  "constructionYear": 2003,
+  "grass": false,
+  "dome": false
+ }
+}

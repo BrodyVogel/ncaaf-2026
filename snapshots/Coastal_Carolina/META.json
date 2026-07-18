@@ -1,0 +1,49 @@
+{
+ "team": "Coastal Carolina",
+ "conference": "Sun Belt",
+ "created_utc": "2026-07-18T14:36:34+00:00",
+ "assembler_git_rev": "c121a6a",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Ryan Beard (from Missouri State, where he was a successful HC) - COACH CHANGE, band x1.13. NEW OC Nick Petrino (pro-style, QB under center) + NEW DC L.D. Scott (both from Missouri State). '25: 6-7 (5-3 SBC). G5 2-SOURCE build (Athlon + Phil Steele). Verified both mags.",
+ "conference_note": "Sun Belt (G5). SBC offsets NEGATIVE/small; returning tape on SBC cells, arrivals on origin. MASSIVE teardown (33 in / 43 out) under a new staff. Arrivals on origin: Deuce Bailey (Missouri State/FCS = NO CELL) + Trever Jackson (Arkansas/SEC - no tape) QBs; Coppock (Kennesaw State/CUSA), Chandavian Bradley (Oklahoma State/B12), Pulliam (Michigan State/B10); FCS = NO CELL (Grayson/Samford, Jalen Lee/South Dakota State, Ellison/SC State, both kickers).",
+ "portal_departure_confirmed": [
+  "Cameron Wright",
+  "Dante Thomas"
+ ],
+ "portal_withdrawal_overrides": [
+  "Zach Courtney",
+  "Tray Brown",
+  "Se'Von McDowell",
+  "Ja'Marion Wayne"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [
+  "Deuce Bailey (QB <- Missouri State; RS-fr who followed the new staff, not in the portal-in feed)",
+  "Cyrus Ellison (TE <- South Carolina State; FCS transfer, a featured target, not in the portal-in feed)",
+  "Nico Cavanillas Alti (K <- South Carolina State; FCS all-conf kicker, not in the portal-in feed)"
+ ],
+ "known_name_exceptions": {
+  "Ibrahim Diawara": "ED, 80.0/306 - RETURNS. The new DC's projected defensive strength (the returning edge). SBC DL cell (-6.50); the roster's best returning grade.",
+  "Zeke Durham-Campbell": "DI, 77.5/601 - RETURNS. The returning DT; the front's other returning anchor.",
+  "Zach Courtney": "TE, 55.5/112 - RETURNS. Athlon 'the most impactful returning skill-position player' (with Knicely + Washington). Portal dest None -> portal_withdrawal_override (R15).",
+  "Tray Brown": "LB, 65.4/555 - RETURNS. Athlon 'Linebackers Tray Brown, Wyatt Gedeon and Se'Von McDowell return.' Portal dest None -> portal_withdrawal_override.",
+  "Se'Von McDowell": "LB, 62.3/552 - RETURNS. Athlon names him a returning LB (with Brown + Gedeon). Portal dest None -> portal_withdrawal_override.",
+  "Ja'Marion Wayne": "CB, 64.5/538 - RETURNS. Athlon 'Cornerbacks Ja'Marion Wayne and Myles Woods return.' Portal dest None -> portal_withdrawal_override.",
+  "Cameron Wright": "WR, 59.0/188 - portal-none, NOT named returning by Athlon -> GONE. portal_departure_confirmed.",
+  "Dante Thomas": "DB, 64.4/270 - portal-none, NOT named returning by Athlon -> GONE. portal_departure_confirmed.",
+  "Trever Jackson": "QB (Arkansas) - ARRIVES. 59.5/1 (essentially no tape); one of four in an open competition. NO QB returns from '25 (Hudson -> NC State)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS charts. 6 portal-None cases adjudicated: Courtney/Tray Brown/McDowell/Wayne RETURN (Athlon-named); Cameron Wright + Dante Thomas GONE (not named). NEW staff, 33 in / 43 out.",
+  "NEW HC Ryan Beard (from a successful Missouri State program) + new OC Petrino (pro-style) + new DC Scott - a full staff turnover; band x1.13.",
+  "6-7 with a DREADFUL '25 offense (as-played OFF p4, RECV p1, TACK p13) - one of the worst in FBS. NO QB returns; the offense fully resets around a 4-way competition (Mo State RS-fr Deuce Bailey, Arkansas transfer Trever Jackson [~no tape], JUCO Guerra, frosh Lopez) in a new pro-style scheme.",
+  "Returning STRENGTHS are on defense: a genuine returning DL (edge Ibrahim Diawara 80.0 + DT Zeke Durham-Campbell 77.5 - the new DC calls the line his strength) + LB continuity (Tray Brown + McDowell + Gedeon return + Michigan State transfer Pulliam) + CB continuity (Wayne + Woods, '25 stats leaders).",
+  "The OL is GUTTED (proxy 5): lost BOTH starting tackles to the P4 (Del Grande -> Duke, Hanson -> Oklahoma State) + multiple yr4 starters; only low-grade returners + offseason transfers. ST reloads via two FCS all-conference transfer kickers + a returning punter (Sebafundi, 42.7)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF119 / Sun Belt East 6 incidentally visible - logged, NOT used. G5 2-source (Athlon + Phil Steele); no Pick Six for the Sun Belt.",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T14:42:00+00:00"
+}

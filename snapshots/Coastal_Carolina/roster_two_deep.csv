@@ -1,0 +1,23 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Deuce Bailey,QB,FR,transfer:Missouri State,Athlon,PS,L,RS-fr; followed the new staff from Mo State; run-pass versatile
+QB,2,Trever Jackson,QB,SO,transfer:Arkansas,Athlon,PS,L,59.5/1 (no tape; RS-so) + Tre Guerra (JUCO) + Osiris Lopez (frosh, MA HS TD-record). Tad Hudson (57.7 -> NC State) GONE. NO returning QB
+RB,1,Dominic Knicely,RB,JR,returning,Athlon,PS,M,68.0/119 (SBC -2.02; a top returning skill player)
+RB,2,Jevon Edwards,RB,SO,returning,Athlon,PS,L,62.9/104 (SBC). Simpkins (68.3 -> UAB) GONE
+WRTE,1,Robby Washington,WR,JR,returning,Athlon,PS,M,61.6/160 (SBC; top returning skill player + PR)
+WRTE,2,Clayton Coppock Jr.,WR,JR,transfer:Kennesaw State,Athlon,PS,M,67.9/228 (CUSA; a featured target)
+WRTE,3,Karmello English,WR,SO,returning,Athlon,PS,L,56.0/237 (SBC)
+WRTE,4,Zach Courtney,TE,JR,returning,Athlon,PS,L,55.5/112 (SBC; top returning skill player - withdrew from portal) + Cyrus Ellison (SC State FCS TE). RECV p1 in '25
+OL,1,Kain McDonald,OT,JR,returning,Athlon,PS,L,63.5/196 (SBC)
+OL,2,Tray Franklin,G,JR,returning,Athlon,PS,L,58.4/229 (SBC)
+OL,3,Daniel Jones,G,JR,returning,Athlon,PS,L,36.7/303 (SBC) + offseason transfers. LOST both tackles (Del Grande 79.0 -> Duke, Hanson 71.9 -> Oklahoma State) + yr4s (T.Johnson/Elam/Edwards/Walton). proxy 5
+DL,1,Ibrahim Diawara,ED,SR,returning,Athlon,PS,M,80.0/306 (SBC; DL -6.50; returning edge - the new DC's projected strength)
+DL,2,Zeke Durham-Campbell,DI,JR,returning,Athlon,PS,M,77.5/601 (SBC; returning DT)
+DL,3,Chandavian Bradley,ED,SR,transfer:Oklahoma State,Athlon,PS,M,B12 edge + Donovan Grayson (Samford FCS). LOST Arinze/Goram-Welch (yr4) + Moore (Colorado) + Bryant (KSU) + Mack (Baylor)
+LB,1,Tray Brown,LB,SR,returning,Athlon,PS,M,65.4/555 (SBC -8.20; returning starter - withdrew from portal)
+LB,2,Se'Von McDowell,LB,SR,returning,Athlon,PS,M,62.3/552 (SBC; returning starter - withdrew from portal)
+LB,3,Wyatt Gedeon,LB,JR,returning,Athlon,PS,L,71.8/113 (SBC; returning) + Marcellius Pulliam (Michigan State). Lost Bruce (yr4) + Murphy (UConn) + Lunan (yr4)
+DB,1,Myles Woods,CB,JR,returning,Athlon,PS,M,67.1/679 (SBC -3.62; a '25 secondary stats leader)
+DB,2,Ja'Marion Wayne,CB,JR,returning,Athlon,PS,M,64.5/538 (SBC; a '25 stats leader - withdrew from portal)
+DB,3,Jalen Lee,S,JR,transfer:South Dakota State,Athlon,PS,L,FCS S (NO CELL; welcome addition). LOST Xamarion Gordon (73.5, yr4) + Mooyoung/Whitaker (yr4)
+ST,1,Nico Cavanillas Alti,K,JR,transfer:South Carolina State,Athlon,PS,M,FCS all-conf (competing with Daniel Porto/FAMU, also all-conf)
+ST,2,Emile Sebafundi,P,SR,returning,Athlon,PS,M,42.7 avg, 15 inside the 20 + return speed (Washington/Knicely/Johnson)
