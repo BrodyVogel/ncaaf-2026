@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T01:17:29+00:00",
+ "team": "Stanford",
+ "final": -1.91,
+ "rank": 73,
+ "band": 7.39,
+ "resid": 2.08,
+ "adj": 0.73,
+ "class_term": -0.0,
+ "st": 0.04,
+ "anchor_blend": -3.17,
+ "resid_level": 1.4,
+ "resid_shape": 0.69,
+ "implied_off": 25.04,
+ "implied_def": 25.54,
+ "anchor_off": 22.06,
+ "anchor_def": 24.64,
+ "fit_r2": {
+  "off": 0.543,
+  "dfn": 0.615
+ },
+ "low_conf_units": 3,
+ "code_rev": "456ef48",
+ "mode": "PILOT-OOS"
+}

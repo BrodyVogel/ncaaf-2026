@@ -1,0 +1,149 @@
+{
+ "team": "Stanford",
+ "units": {
+  "QB": {"grade": 42, "confidence": "L"},
+  "RB": {"grade": 56, "confidence": "M"},
+  "WRTE": {"grade": 44, "confidence": "L"},
+  "OL": {"grade": 40, "confidence": "L"},
+  "DL": {"grade": 44, "confidence": "M"},
+  "LB": {"grade": 54, "confidence": "M"},
+  "DB": {"grade": 50, "confidence": "M"},
+  "ST": {"grade": 52, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18 (456ef48)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape [Stanford '25 tape = ACC], arrivals on origin cells; NEW HC Pritchard -> band x1.13; disposition gate resolved - yr4 exodus [CJ Williams/Roush/Patterson], Aybar portal-None departure, 6 yr4 veteran-return overrides adjudicated vs both charts); anchor values not consulted",
+  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 42/RB 56/WRTE 44/OL 40/DL 44/LB 54/DB 50/ST 52)."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB None, RB 88, WRTE None, OL 31, DL 54, LB 61, DB 62, ST 74) keys the '25 tape.",
+   "RB": "-32 vs proxy 88 - proxy keys Ford at his ceiling; the grade credits him strongly but calibrated + thins for the room.",
+   "OL": "+9 vs proxy 31 - proxy keys the worst-in-FBS line; the grade credits Prongos + 'improvement' off the floor.",
+   "LB": "-7 vs proxy 61 - both key Rose + Galvan.",
+   "DB": "-12 vs proxy 62 - proxy keys the returning secondary; the grade credits Green + Nicholson minus 3 lost starters.",
+   "ST": "-22 vs proxy 74 - proxy keys the '25 specialists; the grade credits the veteran K/P at a calibrated level.",
+   "QB/WRTE": "proxy None - QB reset (Warren new), WR churn; grades key the modest projections."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "Stanford", "unit": "QB", "grade": 42, "confidence": "L",
+   "bracketing_exemplars": ["Boston College QB 2026 (40, round peer)", "NC State QB 2026 (54, above)"],
+   "rationale_bullets": [
+    "Davis Warren (Michigan transfer, SR - 1,199 yds, 7 TD, 9 INT '24; good pocket presence + legs; but OFF AN ACL, missed spring).",
+    "Gulbranson (yr4) + Brown (-> Washington) gone.",
+    "A modest, backup-level P4 transfer coming off an ACL - into a new scheme behind the worst pass-block unit in FBS ('25).",
+    "42: ~Boston College QB 40; more experience than a frosh but a low ceiling + injury/OL risk. L."
+   ],
+   "key_players": [
+    {"name": "Davis Warren", "role": "QB1 (transfer, Michigan)", "evidence": "1,199 yds/7-9 at Michigan '24; off an ACL"}
+   ],
+   "data_gaps": ["off ACL, missed spring", "worst-in-FBS pass protection in front"], "g5_guard_note": null
+  },
+  {
+   "team": "Stanford", "unit": "RB", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["NC State RB 2026 (56, round peer)", "Pittsburgh RB 2026 (56, round peer)"],
+   "rationale_bullets": [
+    "Micah Ford (returning, 81.8/143 -> ACC +4.90 -> 86.7 adj; 643 yds - 'could flirt with 1,000') + Sedrick Irvin + young.",
+    "Cole Tabb (-> Cincinnati) gone.",
+    "A genuinely good returning lead (Ford, 81.8) - the offense's one clear strength - though the room thins behind him. RUN p54.",
+    "56: ~NC State/Pitt RB 56; Ford carries it. M."
+   ],
+   "key_players": [
+    {"name": "Micah Ford", "role": "RB1 (returning)", "evidence": "81.8/143 (86.7 ACC-adj); 643 yds"}
+   ],
+   "data_gaps": ["room thins behind Ford (Tabb gone)"], "g5_guard_note": null
+  },
+  {
+   "team": "Stanford", "unit": "WRTE", "grade": 44, "confidence": "L",
+   "bracketing_exemplars": ["Pittsburgh WRTE 2026 (42, below)", "North Carolina WRTE 2026 (48, above)"],
+   "rationale_bullets": [
+    "Caden High (returning, 68.1/257 -> 70.5 adj; 414 yds - top returner) + Ivy transfers David Pantelis (Yale, 901 yds '24) + Nico Brown (Yale, 1,065 - All-Ivy) + TE Benji Blackburn.",
+    "Lost the top-3 (CJ Williams yr4, Roush yr4/draft, Farrell yr4).",
+    "High returns but the top-3 are gone; the reload is Ivy/FCS (no cell - unproven at FBS) + a promising TE. RECV p42.",
+    "44: ~Pitt WRTE 42; High + the TE lift it slightly. L."
+   ],
+   "key_players": [
+    {"name": "Caden High", "role": "WR (returning)", "evidence": "68.1/257 (70.5 ACC-adj); 414 yds - top returner"},
+    {"name": "Nico Brown", "role": "WR (transfer, Yale/Ivy)", "evidence": "1,065 yds, 1st-Tm All-Ivy (FCS, no cell)"}
+   ],
+   "data_gaps": ["top-3 gone; reload is Ivy/FCS"], "g5_guard_note": null
+  },
+  {
+   "team": "Stanford", "unit": "OL", "grade": 40, "confidence": "L",
+   "bracketing_exemplars": ["Florida State OL 2026 (40, round peer)", "worst-pass-block-base tier"],
+   "rationale_bullets": [
+    "Niki Prongos (LT, 63.9/814 -> 67.4 adj - 'NFL caliber,' the bright spot) + Fisher Anderson (C, 55.4) + Simione Pale (injured '25) + Nick Fattig + Kahlil House (43.5 - weak).",
+    "Lost 2 OL.",
+    "The WORST pass-block unit in FBS in '25 (PBLK p4, 41 sacks) - 'should be much improved' but off a rock-bottom base; Prongos the lone quality piece.",
+    "40: near the round floor (~FSU OL 40). L."
+   ],
+   "key_players": [
+    {"name": "Niki Prongos", "role": "LT (returning)", "evidence": "63.9/814 (67.4 ACC-adj); 'NFL caliber'"}
+   ],
+   "data_gaps": ["worst-in-FBS pass block base", "weak interior (House 43.5)"], "g5_guard_note": null
+  },
+  {
+   "team": "Stanford", "unit": "DL", "grade": 44, "confidence": "M",
+   "bracketing_exemplars": ["North Carolina State DL 2026 (40, below)", "North Carolina DL context"],
+   "rationale_bullets": [
+    "DEs Tevarua Tafiti (65.3/599 -> 66.5, yr4) + Ernest Cooper (56.3, yr4) return + NT Zach Rowell (interior rusher) + Braden Marceau-Olayinka (67.1/276 -> 68.3, 'force') + Omar Staples.",
+    "Lost best DT Clay Patterson (82.8, yr4) + Aybar + Franklin.",
+    "A weak front (PRSH p17) that returns its DEs + adds interior rush but lost its best DT; 'improved pass rush expected' off a low base.",
+    "44: above NC State DL 40 (DEs return); the base + Patterson loss cap it. M."
+   ],
+   "key_players": [
+    {"name": "Braden Marceau-Olayinka", "role": "DT (returning)", "evidence": "67.1/276 (68.3 ACC-adj); 'a force'"},
+    {"name": "Tevarua Tafiti", "role": "DE (returning)", "evidence": "65.3/599 (66.5 ACC-adj)"}
+   ],
+   "data_gaps": ["lost best DT Patterson (82.8)", "weak pass-rush base (PRSH p17)"], "g5_guard_note": null
+  },
+  {
+   "team": "Stanford", "unit": "LB", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Pittsburgh LB 2026 (54, round peer)", "SMU LB 2026 (56, above)"],
+   "rationale_bullets": [
+    "Matt Rose (returning, 80.1/622 -> ACC +2.13 -> 82.2 adj; 106 tkl, 8 TFL - 'heart and soul,' NFL potential, yr4 override) + Jahsiah Galvan (75.3/315 -> 77.4) + Dylan Stephenson + depth.",
+    "'5 of top 6 return.'",
+    "The defense's identity - a genuinely good, high-volume anchor (Rose) + a solid running mate (Galvan).",
+    "54: ~Pitt LB 54; Rose is a legit playmaker. M."
+   ],
+   "key_players": [
+    {"name": "Matt Rose", "role": "MLB (returning)", "evidence": "80.1/622 (82.2 ACC-adj); 106 tkl, 8 TFL; NFL potential"},
+    {"name": "Jahsiah Galvan", "role": "LB (returning)", "evidence": "75.3/315 (77.4 ACC-adj)"}
+   ],
+   "data_gaps": ["depth young behind the top-2"], "g5_guard_note": null
+  },
+  {
+   "team": "Stanford", "unit": "DB", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["SMU DB 2026 (52, above)", "North Carolina State DB 2026 (46, below)"],
+   "rationale_bullets": [
+    "Jay Green (S, returning, 76.5/631 -> 77.7 adj - the anchor) + Brandon Nicholson (CB, 71.3/489 -> 72.5) + Charlie Eckhardt + Darrius Davis (safeties) + Leroy Bryant (Washington NB, 2 bowl INTs).",
+    "Lost 3 DB.",
+    "A decent, experienced secondary (Green good; 'safety room strong') off a weak COV base (p19).",
+    "50: ~SMU DB 52 context; Green + Nicholson anchor. M."
+   ],
+   "key_players": [
+    {"name": "Jay Green", "role": "S (returning)", "evidence": "76.5/631 (77.7 ACC-adj); the anchor"},
+    {"name": "Brandon Nicholson", "role": "CB (returning)", "evidence": "71.3/489 (72.5 ACC-adj)"}
+   ],
+   "data_gaps": ["lost 3 DB starters", "weak COV base (p19)"], "g5_guard_note": null
+  },
+  {
+   "team": "Stanford", "unit": "ST", "grade": 52, "confidence": "M",
+   "bracketing_exemplars": ["SMU ST 2026 (50, below)", "NC State ST 2026 (48, below)"],
+   "rationale_bullets": [
+    "Veteran K Emmet Kenney + P Aidan Flintoft (both experienced). SPEC p74. Return game the question (Athlon).",
+    "A proven veteran K/P combo - a relative strength for a bad team.",
+    "ST driven by specialists (calib).",
+    "52: above SMU ST 50 / NC State ST 48; the veteran specialists anchor. M."
+   ],
+   "key_players": [
+    {"name": "Emmet Kenney", "role": "K (returning)", "evidence": "veteran placekicker"},
+    {"name": "Aidan Flintoft", "role": "P (returning)", "evidence": "veteran punter"}
+   ],
+   "data_gaps": ["return game uncertain"], "g5_guard_note": null
+  }
+ ]
+}
