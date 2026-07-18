@@ -1,0 +1,45 @@
+{
+ "team": "Arkansas State",
+ "conference": "Sun Belt",
+ "created_utc": "2026-07-18T14:27:49+00:00",
+ "assembler_git_rev": "2bdaa76",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Butch Jones (NO CHANGE; band x1.00). NEW OC Garrett Altman (ex-Vanderbilt QB coach) - coordinator change, no multiplier. DC Griff McCarley. '25: 7-6 (5-3 SBC), Xbox Bowl win. G5 2-SOURCE build (Athlon + Phil Steele). Verified both mags.",
+ "conference_note": "Sun Belt (G5). SBC offsets NEGATIVE/small; returning tape on SBC cells, arrivals on origin. Arrivals on origin: Trey Owens (Texas/SEC - no tape), Dickey+St-Hilaire (Vanderbilt/SEC) QBs; Welch+Wiggins OL transfers; Donquarius Parker (NC Central/FCS = NO CELL); Five Hamilton (Kennesaw State/CUSA); Vuckovic (Northern Illinois/MAC). DL is a near-total rebuild (5 ends + 6 tackles were spring transfers per Athlon).",
+ "portal_departure_confirmed": [
+  "Bryan Whitehead",
+  "Terry Kirksey Jr.",
+  "Trenton Alan Yowe"
+ ],
+ "portal_withdrawal_overrides": [
+  "Tristian Smith",
+  "AG McGhee"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [
+  "Donquarius Parker (ED <- NC Central; FCS transfer edge, praised as all-conf-caliber, not in the portal-in feed)"
+ ],
+ "known_name_exceptions": {
+  "Jaylen Raynor": "QB, 74.5/615 - GONE -> Iowa State (portal). The '25 starter (6 game-winning drives in 2 years); the scout's praise. A real loss; the offense resets around a 4-man competition.",
+  "Trey Owens": "QB (Texas) - ARRIVES, the projected starter. No PFF tape (Texas 3rd-string; 6-5 pocket passer). Cross-build confirmed from the Texas build (Owens -> Arkansas State). SEC-origin but unproven.",
+  "Tristian Smith": "G, 80.9/677 - RETURNS. Athlon lists him the BOLD returning LG starter (the roster's best OL grade). In the portal with dest None -> portal_withdrawal_override (R15).",
+  "AG McGhee": "S, 59.1/919 - RETURNS. Athlon bold S starter + prose 'the top returning tackler (83 total tackles).' Portal dest None -> portal_withdrawal_override (R15).",
+  "Cody Sigler": "DL, 85.7/518 - GONE -> Auburn (portal). 'Their best defensive player' (scout); the marquee DL loss driving the front rebuild.",
+  "Chauncy Cobb": "WR/KR, 67.7/474 - RETURNS. 5-6 slot, 73 catches; first-team All-Sun Belt return specialist (26.9 avg, KR TDs). A dual WR + ST weapon.",
+  "Bryan Whitehead": "DL, 67.0/396 - portal-none, NOT named returning by Athlon (not in the DL two-deep) -> GONE. portal_departure_confirmed.",
+  "Terry Kirksey Jr.": "LB, 63.0/161 - portal-none, NOT named returning (not in the LB two-deep) -> GONE. portal_departure_confirmed.",
+  "Trenton Alan Yowe": "DB, 67.3/829 - portal-none, NOT named returning (not in the DB two-deep, despite 829 snaps) -> GONE. portal_departure_confirmed."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS charts. 5 portal-None cases adjudicated: Tristian Smith + AG McGhee RETURN (Athlon bold starters); Whitehead/Kirksey/Yowe GONE (not named). 24 in / 37 out.",
+  "7-6 (5-3 SBC): a middling two-way team (as-played OFF p45, DEF p37) with a strong OL (PBLK p77) but a poor pass defense (COV p24). The offense LOSES QB Jaylen Raynor (74.5 -> Iowa State, 6 career game-winning drives) to a 4-man competition led by Texas transfer Trey Owens (no tape) under new OC Altman.",
+  "STRENGTHS: a returning RB duo (Spencer + Clay, 1,082 yds), a good returning WR corps (All-SBC returner/slot Cobb 73 catches + Summers 44), a strong returning OL (Tristian Smith 80.9 + 4 more starters), and an elite special-teams unit (trusted K Van Andel + All-SBC returner Cobb).",
+  "The DL is a near-total REBUILD ('must rebuild their front' - Athlon): lost Cody Sigler (85.7 -> Auburn, the best D player), Hendricks (78.0, yr4), + 4 more; only Reese + Carter return, reloaded via FCS/transfer (Donquarius Parker/NC Central the headliner). LB is young (Nelson + Drew, both '25 frosh moving up). DB reloads via Kennesaw transfer Five Hamilton (77.4)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF100 / Sun Belt West 2 incidentally visible - logged, NOT used. G5 2-source (Athlon + Phil Steele); no Pick Six for the Sun Belt.",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T14:34:00+00:00"
+}

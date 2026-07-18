@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Butch",
+  "lastName": "Jones",
+  "hireDate": "2020-12-12T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Arkansas State",
+    "year": 2024,
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -11.5,
+    "spOverall": -9.9,
+    "spOffense": 24.6,
+    "spDefense": 35.2
+   }
+  ]
+ },
+ {
+  "firstName": "Butch",
+  "lastName": "Jones",
+  "hireDate": "2020-12-12T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Arkansas State",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -10.2,
+    "spOverall": -8.8,
+    "spOffense": 24.4,
+    "spDefense": 33.5
+   }
+  ]
+ }
+]

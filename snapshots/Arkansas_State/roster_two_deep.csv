@@ -1,0 +1,23 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Trey Owens,QB,SO,transfer:Texas,Athlon,PS,L,no PFF tape (Texas 3rd-string; 6-5 pocket passer). Raynor (74.5 -> Iowa State) GONE. 4-man competition + new OC Altman (ex-Vandy)
+QB,2,Ethan Crawford,QB,JR,returning,Athlon,PS,L,breakaway running threat + Vandy transfers Drew Dickey + Jeremy St-Hilaire
+RB,1,Devin Spencer,RB,JR,returning,Athlon,PS,M,73.3/155 (SBC -2.02; part of a 1,082-yd duo)
+RB,2,Kenyon Clay,RB,SR,returning,Athlon,PS,M,64.5/206 (SBC; the other half of the duo)
+WRTE,1,Chauncy Cobb,WR,JR,returning,Athlon,PS,M,67.7/474 (SBC; 5-6 slot, 73 catches; All-SBC returner)
+WRTE,2,Hunter Summers,WR,JR,returning,Athlon,PS,M,62.3/423 (SBC; 6-3, 44 catches)
+WRTE,3,Jaylen Bonelli,WR,SR,returning,Athlon,PS,L,59.9/192 (SBC; PR) + Tyler Little (TE). Corey Rucker (yr4) + Fortenberry (Iowa State) GONE
+OL,1,Tristian Smith,G,SR,returning,Athlon,PS,M,80.9/677 (SBC -0.35; the best OL grade - Athlon bold LG; withdrew from portal)
+OL,2,Mason Myers,C,JR,returning,Athlon,PS,M,61.2/904 (SBC; returning C)
+OL,3,Wil Saxton,G,SR,returning,Athlon,PS,M,63.8/967 (SBC; returning G)
+OL,4,Aleric Watson,OT,SR,returning,Athlon,PS,M,63.7/636 (SBC; returning) + Baker North (57.0/344) + transfers Tanner Welch (LT) + Sterling Wiggins (RT). McGehee (Memphis) + Noah Smith (yr4) GONE
+DL,1,Donquarius Parker,ED,SR,transfer:North Carolina Central,Athlon,PS,M,FCS edge (NO CELL; praised - all-conference potential)
+DL,2,Ryan Reese,DI,SO,returning,Athlon,PS,L,60.3/135 (SBC; the ONLY returning DT)
+DL,3,Tony Carter,ED,SO,returning,Athlon,PS,L,60.1/113 (SBC) + transfers Badmus/Sherman/Hultz/Coleman. LOST Sigler (85.7, Auburn) + Hendricks (78.0, yr4) + Hassler/Boti/Mitchell (yr4) + Whitehead (GONE). Must rebuild the front (39 sacks '25)
+LB,1,Joe Drew,LB,SO,returning,Athlon,PS,M,72.0/342 (SBC -8.20; moves nickel->LB; started the last 5 as a frosh)
+LB,2,Nigel Nelson,LB,SO,returning,Athlon,PS,L,54.2/438 (SBC; 54 tkl as a frosh) + Tre Stevens + Kam Moore (transfers). Lost Taylor (yr4) + Alexander (77.0, North Texas) + Kirksey (GONE)
+DB,1,AG McGhee,S,SR,returning,Athlon,PS,M,59.1/919 (SBC -3.62; top returning tackler 83; Athlon bold S; withdrew from portal)
+DB,2,Brandon Greil,S,SR,returning,Athlon,PS,M,62.0/507 (SBC; returning starter)
+DB,3,Five Hamilton,CB,JR,transfer:Kennesaw State,Athlon,PS,M,77.4/444 (CUSA; in line for a key role)
+DB,4,Brandon Barnes,S,JR,returning,Athlon,PS,L,48.5/871 (SBC; returning starter) + Noah Flores + Dontrae Henderson (transfers). LOST Dickerson (75.1, yr4) + Yowe (GONE). COV p24 (struggled vs pass)
+ST,1,Clune Van Andel,K,SR,returning,Athlon,PS,M,21-27 FG; game-winner vs South Alabama; trusted
+ST,2,Chauncy Cobb,KR,JR,returning,Athlon,PS,H,All-SBC returner (26.9 avg, KR TDs) + Jaylen Bonelli (PR) + Daniel Vuckovic (P, 42.3 at NIU)

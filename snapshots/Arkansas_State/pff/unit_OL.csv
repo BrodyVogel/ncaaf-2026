@@ -1,0 +1,14 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Riley McGehee,188347,T,ARK STATE,13,100.0,0,113,67.7,69.1,64.7,1,28,577,100.0,100.0,96.8,4,33,4,985,0,0,621,985,619,619,0,364,366,0,2025_this_team
+Wil Saxton,156838,G,ARK STATE,13,100.0,1,113,63.8,65.6,64.0,1,23,559,100.0,100.0,97.5,6,26,2,967,0,0,0,967,601,601,967,0,366,0,2025_this_team
+Mason Myers,172201,C,ARK STATE,12,100.0,1,113,61.2,68.3,62.1,1,15,527,100.0,100.0,98.3,9,17,1,904,904,0,0,904,566,566,0,0,338,0,2025_this_team
+Tristian Smith,163472,G,ARK STATE,9,100.0,1,113,80.9,90.1,78.8,0,3,388,100.0,100.0,99.4,4,4,1,677,0,677,0,677,419,419,0,0,258,0,2025_this_team
+Aleric Watson,156654,T,ARK STATE,9,100.0,0,113,63.7,68.8,57.0,3,15,379,100.0,100.0,96.8,1,21,3,636,0,0,0,636,406,406,0,636,230,0,2025_this_team
+Noah Smith,147054,T,ARK STATE,9,100.0,0,113,57.5,60.4,56.8,1,8,204,100.0,100.0,97.3,3,10,1,384,0,0,384,384,219,219,0,0,165,0,2025_this_team
+Baker North,188351,G,ARK STATE,10,100.0,0,113,57.0,55.9,58.2,1,7,199,100.0,100.0,98.0,2,8,0,344,0,328,0,344,210,210,16,0,134,0,2025_this_team
+Gabe Fortson,170068,C,ARK STATE,3,100.0,0,113,61.5,78.6,55.3,0,0,43,100.0,100.0,100.0,0,0,0,70,53,0,0,70,46,46,17,0,24,0,2025_this_team
+Walker Davis,172189,C,ARK STATE,3,100.0,0,113,56.0,41.0,58.5,0,0,24,100.0,100.0,95.8,0,1,1,48,48,0,0,48,24,24,0,0,24,0,2025_this_team
+Landry Cannon,169973,G,TULANE,6,100.0,0,319,45.7,44.0,52.3,0,1,12,100.0,100.0,95.8,1,1,0,28,0,7,1,28,14,14,19,0,14,0,arrival_2025_at_TULANE
+Cameron Ambrose,163450,T,ARK STATE,9,95.2,0,113,78.0,67.4,61.2,0,0,2,66.7,75.0,100.0,0,0,0,20,0,0,0,21,3,4,0,0,17,21,2025_this_team
+Chace Stratford,198134,T,ARK STATE,1,100.0,0,113,51.3,,49.9,0,0,0,,,,0,0,0,5,0,0,0,5,0,0,0,5,5,0,2025_this_team
+Kobe Williams,193175,G,ARK STATE,1,100.0,0,113,63.1,,62.8,0,0,0,,,,0,0,0,5,0,0,0,5,0,0,5,0,5,0,2025_this_team
