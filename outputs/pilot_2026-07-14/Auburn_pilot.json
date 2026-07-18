@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T02:55:32+00:00",
+ "team": "Auburn",
+ "final": 9.08,
+ "rank": 29,
+ "band": 6.78,
+ "resid": -9.16,
+ "adj": -3.2,
+ "class_term": -0.0,
+ "st": 0.12,
+ "anchor_blend": 11.65,
+ "resid_level": -6.13,
+ "resid_shape": -3.02,
+ "implied_off": 26.93,
+ "implied_def": 24.74,
+ "anchor_off": 28.62,
+ "anchor_def": 17.28,
+ "fit_r2": {
+  "off": 0.54,
+  "dfn": 0.611
+ },
+ "low_conf_units": 0,
+ "code_rev": "09136c4",
+ "mode": "PILOT-OOS"
+}

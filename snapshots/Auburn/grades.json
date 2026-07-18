@@ -1,0 +1,137 @@
+{
+ "team": "Auburn",
+ "units": {
+  "QB": {"grade": 60, "confidence": "M"},
+  "RB": {"grade": 54, "confidence": "M"},
+  "WRTE": {"grade": 48, "confidence": "M"},
+  "OL": {"grade": 48, "confidence": "M"},
+  "DL": {"grade": 54, "confidence": "M"},
+  "LB": {"grade": 54, "confidence": "M"},
+  "DB": {"grade": 50, "confidence": "M"},
+  "ST": {"grade": 56, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T02:54:00Z (09136c4)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells weighted DOWN; small samples discounted], the 10 USF imports + other arrivals on ORIGIN cells [AAC/SBC/B10/B12]; NEW HC Golesh -> coach_change band x1.13, DC Durkin retained; disposition gate 42 rows / 0 adjudicate / 0 err - P6 3-source caught Keyron Crawford + Jay Crawford departures the raw feed showed returning; Murray/Walker/Fegans yr4-return overrides); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16). DISCLOSED: Auburn's P6 ranking (#9) incidentally seen during source inspection - logged, NOT used.",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB60/RB54/WRTE48/OL48/DL54/LB54/DB50/ST56, sum 424). No post-freeze corrections."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 95, RB 58, WRTE 65, OL 69, DL 85, LB 82, DB 64, ST 33) over-credits the departed '25 offense + the pre-attrition front; ST 33 keys the '25 backup kicker.",
+   "QB": "-35 vs proxy 95 - proxy keys departed '25 QBs; the grade keys import Brown (91.5 AAC, SEC step-up).",
+   "WRTE": "-17 vs proxy 65 - proxy keys the departed 5-star room; the grade keys the USF transplant stepping up.",
+   "OL": "-21 vs proxy 69 - all 5 '25 starters gone (2 drafted); the grade keys the transfer rebuild.",
+   "DL": "-31 vs proxy 85 - proxy included Faulk + Keyron Crawford; the grade keys the edge-thinned reload (Sigler interior + returners).",
+   "LB": "-28 vs proxy 82 - proxy included Woodyard; the grade keys Atkins (All-American) + a young room.",
+   "ST": "+23 vs proxy 33 - proxy = the '25 backup kicker; McPherson returns healthy (elite).",
+   "RB/DB": "close - Cobb + transfers (RB); safety-strong, CB-reset room over a p16 base (DB)."
+  }
+ },
+ "grades_detail": [
+  {"team": "Auburn", "unit": "QB", "grade": 60, "confidence": "M",
+   "bracketing_exemplars": ["SMU QB 2026 (62, above)", "Kansas QB 2026 (42, below)"],
+   "rationale_bullets": [
+    "Byrum Brown (USF, 91.5/431 -> AAC ~neutral; elite dual-threat - 3,000 pass/1,000 rush, the 12th ever, #9 transfer QB, All-AAC) + Hewlett (USF)/Tijana (Ore St).",
+    "All three '25 Auburn QBs (Arnold, Daniels, Knight) transferred out.",
+    "A genuinely elite producer + system fit (own coach/scheme) - the import most likely to translate - tempered by the SEC step-up, a lower-leg injury that cost half of '24, and an all-new OL + WR room.",
+    "60: below SMU QB 62; well above the rebuild tier. Elite production vs a fully rebuilt support cast. M."
+   ],
+   "key_players": [
+    {"name": "Byrum Brown", "role": "QB1 (transfer, South Florida)", "evidence": "91.5/431; 3,000 pass/1,000 rush; #9 transfer QB; All-AAC"},
+    {"name": "Jeremiah Cobb", "role": "(offense's lone returning starter, at RB)", "evidence": "context - continuity is otherwise nil"}
+   ],
+   "data_gaps": ["SEC step-up from AAC", "missed half of '24 (leg); all-new OL + WR"], "g5_guard_note": "Brown's 91.5 is AAC tape - graded on the AAC origin cell (~neutral), not the SEC cell; the grade reflects a level-jump discount vs his raw production."},
+  {"team": "Auburn", "unit": "RB", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["SMU RB 2026 (54, peer)", "Illinois RB 2025 global anchor (32, below)"],
+   "rationale_bullets": [
+    "Jeremiah Cobb (73.2/175 -> SEC +10.17 weighted; 3rd-team All-SEC, ~1,000 yds - lone returning O-starter) + Bryson Washington (Baylor, 70.3/154 -> B12 weighted; 4-star transfer) + Nykahi Davenport (USF, 83.9/97 -> AAC; 4-star transfer).",
+    "A deep, quality backfield in an up-tempo scheme Golesh wants to run downhill (USF Top-20 rushing).",
+    "Behind a rebuilt OL, but the personnel is genuinely good - a proven All-SEC returner + two 4-star-graded transfers.",
+    "54: ~SMU RB 54; above-average P4, Cobb's proven SEC production the floor. M."
+   ],
+   "key_players": [
+    {"name": "Jeremiah Cobb", "role": "RB1 (returning)", "evidence": "73.2/175 (SEC-adj weighted); 3rd-team All-SEC, ~1,000 yds"},
+    {"name": "Nykahi Davenport", "role": "RB (transfer, South Florida)", "evidence": "83.9/97; 4-star transfer grade"}
+   ],
+   "data_gaps": ["behind a rebuilt OL", "transfer samples modest"], "g5_guard_note": null},
+  {"team": "Auburn", "unit": "WRTE", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Louisville WRTE 2026 (48, peer)", "TCU WRTE 2026 (50, above)"],
+   "rationale_bullets": [
+    "A FULL USF transplant: Keshaun Singleton (74.0/343 -> AAC 74.5) + Jeremiah Koger (70.2/258 -> 70.6; 4-star) + Chas Nimrod (68.8/174) + Christian Neptune - 'the four combined 149 rec/2,275 yds/20 TD' at USF. TE Jake Johnson (UNC) + Echols (USF).",
+    "Auburn's entire 5-star stockpile (Coleman/Singleton/Simmons/Fields/Thompson) transferred out.",
+    "A proven-together AAC corps + a P4-vet TE, but the whole room steps up a level with new QB-WR timing; RECV was p8 in '25 (pre-imports).",
+    "48: ~Louisville WRTE 48; below TCU 50. Above the reset tier; the level-jump caps it. M."
+   ],
+   "key_players": [
+    {"name": "Keshaun Singleton", "role": "WR (transfer, South Florida)", "evidence": "74.0/343 (74.5 AAC-adj); led USF in all stat categories"},
+    {"name": "Jeremiah Koger", "role": "WR (transfer, South Florida)", "evidence": "70.2/258; 4-star transfer grade"}
+   ],
+   "data_gaps": ["whole room stepping up from AAC", "5-star returners all left; new QB timing"], "g5_guard_note": "USF WR corps graded on AAC origin cells, not the SEC cell."},
+  {"team": "Auburn", "unit": "OL", "grade": 48, "confidence": "M",
+   "bracketing_exemplars": ["Georgia Tech OL 2026 (48, peer)", "Louisville OL 2026 (50, above)"],
+   "rationale_bullets": [
+    "Cole Best (USF, 72.3/879 -> AAC +1.18; All-AAC anchor) + Stanton Ramil (Mich St, 74.3/163 -> B10 starter) + Cole Skinner (USF, 70.8/412) + Jo Simmons (JMU, All-Sun Belt) + Deryc Plazz (Miami).",
+    "ALL FIVE '25 starters gone (Lew + Wright DRAFTED).",
+    "A complete rebuild off a line that collapsed in pass pro (#132, sack on 12%), reloaded with a decent G5/AAC+B10 transfer group anchored by an All-AAC center; pass pro the swing.",
+    "48: ~Georgia Tech OL 48; below Louisville 50. Average P4; Best + Ramil keep it off the floor. M."
+   ],
+   "key_players": [
+    {"name": "Cole Best", "role": "C (transfer, South Florida)", "evidence": "72.3/879; All-AAC; the anchor"},
+    {"name": "Stanton Ramil", "role": "OT (transfer, Michigan State)", "evidence": "74.3/163; B10 starter"}
+   ],
+   "data_gaps": ["all 5 starters gone (2 drafted); #132 pass pro", "no continuity"], "g5_guard_note": null},
+  {"team": "Auburn", "unit": "DL", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Rutgers DL 2026 (54, peer)", "UCLA DL 2026 (56, above)"],
+   "rationale_bullets": [
+    "Cody Sigler (Ark State, 85.7/518 -> SBC weighted; 4-star transfer, elite interior tape) + Nate Johnson (Missouri, 79.9/86 -> SEC small sample; edge) + Chris Murray (71.5/277 returning edge, bonus yr) + Dallas Walker IV (72.8/251 returning NT) + Jared Smith (75.4/110) + Womack (Ole Miss).",
+    "LOST Keldric Faulk (drafted, star edge) + Keyron Crawford (76.3) - the two best edges.",
+    "Still a good, deep front (RDEF p92 pedigree) - elite interior transfer + returning NT + two returning edges - but the pass rush takes a real hit; Sigler's grade is SBC tape.",
+    "54: ~Rutgers DL 54; below UCLA 56. Above-average; the lost edge production caps it. M."
+   ],
+   "key_players": [
+    {"name": "Cody Sigler", "role": "DI (transfer, Arkansas State)", "evidence": "85.7/518; 4-star transfer grade; elite interior tape"},
+    {"name": "Chris Murray", "role": "ED (returning, bonus yr)", "evidence": "71.5/277; returning edge"}
+   ],
+   "data_gaps": ["lost 2 best edges (Faulk drafted + Keyron Crawford)", "Sigler SBC tape; Johnson small SEC sample"], "g5_guard_note": null},
+  {"team": "Auburn", "unit": "LB", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Clemson LB 2026 (54, peer)", "SMU LB 2026 (56, above)"],
+   "rationale_bullets": [
+    "Xavier Atkins (72.3/712 -> SEC +14.01 weighted -> ~80; 1st-team All-SEC, first returning All-American defender since Takeo Spikes '97, SEC-leading 17 TFL - a genuine star) + Elijah Melendez (SEC All-Frosh) + Demarcus Riddick (Top100, healthy) + Bryce Deas (74.3/185).",
+    "Co-star Woodyard left (Missouri).",
+    "A legit All-American anchor + a rising SEC All-Frosh + Top100 depth; the SEC LB cell (+14.01) weighted down hard (Atkins' 72.3 is good-not-gaudy but the 17 TFL + honors are real).",
+    "54: ~Clemson LB 54; below SMU 56. Atkins carries it above the pack; the youth behind him caps it. M."
+   ],
+   "key_players": [
+    {"name": "Xavier Atkins", "role": "LB1 (returning, All-American)", "evidence": "72.3/712 (SEC-adj ~80); 1st-team All-SEC; SEC-leading 17 TFL"},
+    {"name": "Elijah Melendez", "role": "LB (returning)", "evidence": "66.4/271; SEC All-Frosh"}
+   ],
+   "data_gaps": ["co-star Woodyard left", "depth behind Atkins young"], "g5_guard_note": null},
+  {"team": "Auburn", "unit": "DB", "grade": 50, "confidence": "M",
+   "bracketing_exemplars": ["Pittsburgh DB 2026 (50, peer)", "Kansas State DB 2026 (52, above)"],
+   "rationale_bullets": [
+    "Andre Jordan Jr. (UCLA, 72.0/553 -> B10 weighted ~76; All-B10) + Rayshawn Pleasant (63.9/292 returning CB - game-winning Pick Six) + Eric Winters (78.5/258 -> SEC ~84 small sample; returning S) + Kaleb Harris (67.0/649 -> 72.4 adj; returning S) + AnQuon Fegans (Top100 nickel) + Fred Gaskin (USF, 2-yr starter).",
+    "LOST both '25 CB starters (Jay Crawford -> Ole Miss, Kayin Lee -> Tennessee).",
+    "A strong, deep safety room + a proven All-B10 transfer corner, but the two starting corners left and COV was p16 in '25 - the coverage is the question.",
+    "50: ~Pittsburgh DB 50; below Kansas State 52. Average P4; safety depth vs the CB reset + p16 base. M."
+   ],
+   "key_players": [
+    {"name": "Eric Winters", "role": "S (returning)", "evidence": "78.5/258 (SEC-adj ~84 small sample); returning starter"},
+    {"name": "Andre Jordan Jr.", "role": "CB (transfer, UCLA)", "evidence": "72.0/553; All-Big Ten"}
+   ],
+   "data_gaps": ["both CB starters left", "COV p16 base"], "g5_guard_note": null},
+  {"team": "Auburn", "unit": "ST", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Minnesota ST 2026 (56, peer)", "Miami ST 2026 (58, above)"],
+   "rationale_bullets": [
+    "Alex McPherson (K - Lou Groza candidate, Auburn career FG% record 88.9; HEALTHY return after surgery cost him '24) + Hudson Kaak (P, 2nd-yr starter) + Rayshawn Pleasant (KR).",
+    "SPEC was p33 in '25 only because a backup kicked (11-20 FG).",
+    "An elite, proven placekicker returning healthy is a real edge; solid punter + return man.",
+    "56: ~Minnesota ST 56; below Miami 58. Above-average, kicker-driven (calib). M."
+   ],
+   "key_players": [
+    {"name": "Alex McPherson", "role": "K (returning)", "evidence": "Lou Groza candidate; career FG% record 88.9; healthy return"},
+    {"name": "Hudson Kaak", "role": "P (returning)", "evidence": "2nd-yr starter"}
+   ],
+   "data_gaps": ["kicker returns from '24 surgery"], "g5_guard_note": null}
+ ]
+}
