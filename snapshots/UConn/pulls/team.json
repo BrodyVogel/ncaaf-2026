@@ -1,0 +1,37 @@
+{
+ "id": 41,
+ "school": "UConn",
+ "mascot": "Huskies",
+ "abbreviation": "CONN",
+ "alternateNames": [
+  "Connecticut",
+  "CONN",
+  "UConn"
+ ],
+ "conference": "FBS Independents",
+ "division": null,
+ "classification": "fbs",
+ "color": "#0c2340",
+ "alternateColor": "#f1f2f3",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/41.png"
+ ],
+ "twitter": "@UConnFootball",
+ "location": {
+  "id": 3892,
+  "name": "Pratt & Whitney Stadium",
+  "city": "East Hartford",
+  "state": "CT",
+  "zip": "6118 ",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 41.7595675,
+  "longitude": -72.6187728,
+  "elevation": "6.515614986",
+  "capacity": 40000,
+  "constructionYear": 2003,
+  "grass": true,
+  "dome": false
+ }
+}

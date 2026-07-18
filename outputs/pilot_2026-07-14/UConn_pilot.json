@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T22:44:49+00:00",
+ "team": "UConn",
+ "final": -6.9,
+ "rank": 95,
+ "band": 7.39,
+ "resid": 10.58,
+ "adj": 3.7,
+ "class_term": 0.0,
+ "st": -0.12,
+ "anchor_blend": -10.95,
+ "resid_level": 6.24,
+ "resid_shape": 4.34,
+ "implied_off": 25.23,
+ "implied_def": 26.19,
+ "anchor_off": 20.43,
+ "anchor_def": 31.97,
+ "fit_r2": {
+  "off": 0.537,
+  "dfn": 0.613
+ },
+ "low_conf_units": 3,
+ "code_rev": "df52a2e",
+ "mode": "PILOT-OOS"
+}

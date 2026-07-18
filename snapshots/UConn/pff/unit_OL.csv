@@ -1,0 +1,18 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Wes Hoeh,144049,C,UCONN,13,100.0,0,146,71.4,73.4,73.2,3,9,481,100.0,100.0,98.8,8,12,0,863,863,0,0,863,509,509,0,0,354,0,2025_this_team
+Kyle Juergens,128133,G,UCONN,13,100.0,0,146,80.2,64.9,84.3,0,12,451,100.0,100.0,97.8,0,16,4,813,0,811,0,813,479,479,0,0,334,1,2025_this_team
+Carsten Casady,171035,T,UCONN,12,100.0,1,146,72.1,62.8,75.3,8,19,441,100.0,100.0,96.9,6,27,0,774,0,0,0,774,465,465,0,767,309,6,2025_this_team
+Ben Murawski,158624,T,UCONN,12,100.0,1,146,75.9,54.4,86.4,6,15,438,100.0,100.0,96.9,4,24,3,773,0,0,765,773,459,459,0,0,314,7,2025_this_team
+Christian Richter,159769,T,MARSHALL,8,99.6,0,214,54.9,69.3,50.7,0,8,212,99.1,99.1,98.1,5,8,0,515,0,0,28,517,230,232,0,486,285,0,arrival_2025_at_MARSHALL
+Ty Chan,156976,G,UCONN,13,100.0,0,146,67.3,74.3,64.8,2,8,277,100.0,100.0,97.8,2,11,1,477,0,33,0,477,297,297,387,55,180,1,2025_this_team
+Brady Wayburn,158638,G,UCONN,12,100.0,0,146,71.9,47.6,77.1,2,8,233,100.0,100.0,97.9,2,10,0,445,0,0,0,445,245,245,445,0,200,0,2025_this_team
+Toriyan Johnson,171051,T,UCONN,6,100.0,0,146,62.4,67.7,58.3,0,1,59,100.0,100.0,99.2,0,1,0,122,0,0,120,122,67,67,0,0,55,1,2025_this_team
+Deron McLaughlin,188210,G,UCONN,3,100.0,0,146,63.7,84.2,63.2,0,0,33,100.0,100.0,100.0,1,0,0,66,28,0,0,66,34,34,38,0,32,0,2025_this_team
+Tank Green,129514,T,UCONN,3,100.0,0,146,57.3,56.9,56.2,0,1,33,100.0,100.0,95.5,1,2,1,64,0,0,0,64,36,36,0,62,28,1,2025_this_team
+Raphael Greene-Nyarko,199318,G,TOLEDO,4,100.0,0,316,51.6,30.0,57.0,0,0,17,100.0,100.0,94.1,1,1,1,56,0,0,0,56,18,18,56,0,38,0,arrival_2025_at_TOLEDO
+Tamarus Walker,170210,G,UCONN,4,100.0,0,146,75.1,58.3,79.0,0,1,26,100.0,100.0,98.1,0,1,0,50,0,49,0,50,27,27,0,0,23,0,2025_this_team
+Jayden Bass,176033,G,UCONN,1,100.0,0,146,79.5,65.7,80.8,0,0,13,100.0,100.0,100.0,0,0,0,24,0,0,0,24,13,13,24,0,11,0,2025_this_team
+Hannes Hammer,174785,T,VA TECH,4,100.0,0,337,62.6,25.9,68.5,0,1,5,100.0,100.0,90.0,0,1,0,17,0,0,12,17,5,5,0,5,12,0,arrival_2025_at_VA TECH
+Jake Kiernan,171054,C,UCONN,2,100.0,0,146,60.0,,59.8,0,0,0,,,,0,0,0,3,3,0,0,3,0,0,0,0,3,0,2025_this_team
+Diego Rodriguez,184037,G,UCONN,1,100.0,0,146,62.0,,68.6,0,0,0,,,,0,0,0,2,0,0,0,2,0,0,0,2,2,0,2025_this_team
+Isiah Switzer,205431,C,TOLEDO,1,100.0,0,316,60.0,,60.0,0,0,0,,,,0,0,0,1,0,0,1,1,0,0,0,0,1,0,arrival_2025_at_TOLEDO

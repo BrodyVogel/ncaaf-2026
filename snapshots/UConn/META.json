@@ -1,0 +1,49 @@
+{
+ "team": "UConn",
+ "conference": "FBS Independents",
+ "created_utc": "2026-07-18T22:25:00+00:00",
+ "assembler_git_rev": "df52a2e",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": true,
+ "coach_note": "NEW HC Jason Candle (from Toledo; never had a losing season in 10 yrs there). COACH CHANGE -> band x1.13. New DC Ryan Manalac (Pitt LB coach 5 yrs). Replaced Jim L. Mora. 'UConn brought in more than 70 new players and almost an entirely new staff' (Athlon). A near-total rebuild - a Toledo-core + P4-transfer roster.",
+ "conference_note": "FBS Independents. 2-SOURCE G5 build (Athlon primary + Phil Steele). DATA NOTE: team_dump found NO percentile row ('UConn' vs the PFF file's 'Connecticut'); correct '25 percentiles computed from the Connecticut row (9-4, OFF p90/DEF p31) - but that was the OLD team (Fagnano/Bell/Edwards), nearly ALL departed. Graded on the '26 rebuild. IND cell applies to the few returners (Chan, Porter, McLean) - most players are arrivals on origin cells. Anchor blend -10.95.",
+ "portal_departure_confirmed": [
+  "Reymello Murphy",
+  "Cleto Chol",
+  "Tyrece Mills"
+ ],
+ "portal_withdrawal_overrides": [
+  "Shamar Porter"
+ ],
+ "yr4_return_overrides_documented": [],
+ "nfl_declare_confirmed": [],
+ "departure_confirmed_research": [],
+ "feed_gap_arrivals_documented": [
+  "Kenji Christian (RB; Toledo - Athlon-named 'followed Candle', not in the portal-in feed)",
+  "Esean Carter (DL; Toledo - Athlon-named 'headlines the DL', not in the feed)"
+ ],
+ "known_name_exceptions": {
+  "UConn_Connecticut_alias": "team_dump found no percentile row - PFF_2025_team_grades.csv uses 'Connecticut'. Correct '25: 9-4, OFF p90/DEF p31 (the departed Fagnano/Bell/Edwards team). Logged to FORWARD_FLAGS.",
+  "Jason Candle": "NEW HC (from Toledo, 10 yrs / no losing seasons). COACH CHANGE -> band x1.13. Brought a Toledo player core.",
+  "Joe Fagnano": "QB, 87.0/477 - GONE (yr4/graduated). UConn's first-ever 3,000-yd passer; the QB job is now a transfer battle (Merklinger/Osborne).",
+  "Skyler Bell": "WR, 81.6/409 - GONE (yr4/graduated). UConn's 1,000-yd receiver; the WR corps is rebuilt (mostly Toledo transfers + Shamar Porter).",
+  "Cam Edwards": "RB, 86.0/250 - GONE (portal -> Michigan State). The 1,000-yd rusher; the backfield is transfers (Cornist CMU + Kenji Christian Toledo + Bowers WVU).",
+  "Shamar Porter": "WR, 51.3/228 - RETURNS (portal_withdrawal_override; portal->None but Athlon 'one of the few returners' + BOLD depth chart - a big target down the field).",
+  "Ty Chan": "G, 67.3/477 - RETURNS. The lone returning OL starter; the rest of the line is a Toledo transplant.",
+  "Malachi McLean": "DB, 74.7/638 - RETURNS. A rare returning defensive producer in a rebuilt, 'less experienced' secondary.",
+  "Kenji Christian": "RB (arrival, Toledo; feed-gap) - followed Candle from Toledo; part of the RB room.",
+  "Esean Carter": "DL (arrival, Toledo; feed-gap) - 'headlines the DL in his senior season' (Athlon).",
+  "K'Von Sherman": "LB (arrival, Toledo) - 94 tkl/4.5 sacks at Toledo in '25; leads the LB corps (Athlon's projected strength).",
+  "Reymello Murphy": "WR, 67.3/297 - GONE (portal->None; depth-chart-absent). Adjudicated.",
+  "Tyrece Mills": "S, 81.0/251 - GONE (portal->None; depth-chart-absent - the secondary is 'less experienced'). Adjudicated."
+ },
+ "known_gaps": [
+  "NEW HC Jason Candle (COACH CHANGE -> band x1.13) + 'more than 70 new players' - a near-total rebuild. Massive churn (53 in / 45 out). The '25 stars (Fagnano 87.0, Bell 81.6, Edwards 86.0) all GONE; the '26 roster is a Toledo core (QB Osborne, RB Kenji Christian, LB Sherman, DL Carter, the OL) + P4 transfers.",
+  "DATA: no team_dump percentile row (UConn vs 'Connecticut'). Correct '25 (Connecticut): OVER p76, OFF p90 (PASS p86, RBLK p98, RUN p78), DEF p31 (RDEF p11, TACK p20, PRSH p30 - a weak defense), SPEC p37. RECORD 9-4. BUT that was the OLD team - graded on the '26 rebuild.",
+  "Grade-critical: a transfer QB battle (Merklinger Tennessee / Osborne Toledo); a transfer RB room (Cornist CMU 76.0); a Toledo-transplant OL (Chan + Toledo's #17-sacks-allowed line); a transfer DL (Carter Toledo + Mickens OSU + Mullix Ore St); the projected STRENGTH at LB (Sherman Toledo 94 tkl + Lista + Murphy); a 'less experienced' rebuilt secondary (McLean returns + P4 transfers); all-new specialists.",
+  "Disposition: withdrawal override Shamar Porter (WR, portal->None but Athlon-returning). portal->None GONE: Reymello Murphy (WR), Cleto Chol (DL), Tyrece Mills (S). Feed-gap arrivals: Kenji Christian (RB), Esean Carter (DL). No yr4-return overrides (the '25 vets graduated/left)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF103 incidentally visible - logged, NOT used. 2-source G5 build (Athlon + Phil Steele). DATA: Connecticot/UConn percentile alias noted.",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T22:30:00+00:00"
+}

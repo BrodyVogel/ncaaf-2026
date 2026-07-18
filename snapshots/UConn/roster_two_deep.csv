@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Jake Merklinger,QB,FR,arrival(Tennessee-SEC),Athlon,feed,L,81.6/28 at Tennessee (tiny sample; SEC pedigree). The Athlon QB1 in a battle w/ Osborne. LOST Fagnano (87.0, UConn's 1st 3000-yd passer, grad)
+QB,2,Kalieb Osborne,QB,FR,arrival(Toledo-MAC),Athlon,feed,L,72.9/82 at Toledo (followed Candle). The other half of the QB battle. A near-total offensive rebuild
+RB,1,Trey Cornist,RB,SO,arrival(Central Michigan-MAC),Athlon,feed,M,76.0/105 at CMU - a proven-ish MAC back + Kenji Christian (Toledo, followed Candle, feed-gap). LOST 1000-yd rusher Cam Edwards (86.0 -> Michigan State)
+RB,2,Cyncir Bowers,RB,SO,arrival(West Virginia-B12),Athlon,feed,L,55.3/63 at WVU + Dashun Reeder (NW) + Jaden Hart (Syracuse). A transfer backfield off RBLK p98 ('25 - but that line left)
+WRTE,1,Shamar Porter,WR,JR,returning-withdrawal,Athlon,feed,M,51.3/228 (portal->None but "one of the few returners" - WITHDREW; a big downfield target). LOST 1000-yd receiver Bell (81.6, grad) + Neider (->WVU) + Murphy
+WRTE,2,Ryder Treadway,WR,FR,arrival(Toledo-MAC),Athlon,feed,L,Toledo transfer + Jediyah Willoughby (Toledo) + Ky Wilson (Youngstown St FCS) + TE Matt Ragan (BC). A Toledo-heavy WR rebuild ("take shots down the field" - Candle)
+OL,1,Ty Chan,RG,SR,returning,Athlon,feed,M,67.3/477 (IND cell; the LONE returning OL starter) + a Toledo transplant: LT Dominic Rivera + LG Andrew Laurich (Colo St) + C Terrence Moore + RT Christian Richter (Marshall). "Toledo tied for 17th nationally in sacks allowed" (Athlon)
+OL,2,Terrence Moore,C,SR,arrival(Toledo-MAC),Athlon,feed,M,a cohesive Toledo OL transplant. LOST Juergens (80.2) + Hoeh (71.4) + Casady (->WVU) + Murawski (->Mich St) - the '25 line
+DL,1,Esean Carter,DT,SR,arrival(Toledo-MAC),Athlon,feed,M,feed-gap (Toledo) - "headlines the DL in his senior season" + Tahjae Mullix (Oregon St) + Melvin Hills (Texas)
+DL,2,Joshua Mickens,EDGE,JR,arrival(Ohio State-B10),Athlon,feed,M,+ Anas Luqman (Ohio) + Avery Dunn (Toledo) + Desmond Aladuge (Duke). A transfer-built DL off a WEAK '25 D (DEF p31, RDEF p11, PRSH p30 - but that group left)
+LB,1,K'Von Sherman,LB,JR,arrival(Toledo-MAC),Athlon,feed,M,94 tkl/4.5 sacks at Toledo in '25 - leads the LB corps (Athlon's projected STRENGTH under new DC Manalac, ex-Pitt LB coach)
+LB,2,Luke Murphy,LB,SR,arrival(Coastal Carolina-SBC),Athlon,feed,M,+ John Lista (Penn FCS) + Rickey Williams (Toledo) + Zakaih Saez. An experienced transfer LB group
+DB,1,Malachi McLean,S,JR,returning,Athlon,feed,L,74.7/638 (IND cell; a rare returning defensive producer) + Braedyn Moore (Jr, "competing for a first full-time role")
+DB,2,Steve Miller,S,SO,arrival(USC-B10),Athlon,feed,L,transfers Miller (USC) + Tracy Revels (Mich St) + CJ Bell (Iowa) + Moussa Kane (Duke) + Renick Dorilas (Rutgers). "The defensive backfield is LESS EXPERIENCED" (Athlon). LOST Chadwick (75.0->VT) + Molette (->Ariz) + Mills (81.0)
+ST,1,Mike Baker,K,JR,arrival(Ole Miss-SEC),Athlon,feed,L,new K (an Ole Miss backup - only 4 XP attempts). All-new specialists
+ST,2,Tommy Warner,P,JR,arrival(Northwest Missouri St-D2),Athlon,feed,L,P competition (Warner / Spencer Sullins ex-Memphis) + KR Julian Allen (Toledo). SPEC was p37; a total specialist reset

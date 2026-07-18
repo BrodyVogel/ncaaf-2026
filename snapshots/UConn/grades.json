@@ -1,0 +1,314 @@
+{
+ "team": "UConn",
+ "units": {
+  "QB": {
+   "grade": 46,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 44,
+   "confidence": "L"
+  },
+  "ST": {
+   "grade": 44,
+   "confidence": "L"
+  }
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18T22:40:00Z",
+  "snapshot_rev": "frozen 2026-07-18T22:30:00Z (UConn)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; 2-SOURCE G5 build [Athlon primary + Phil Steele]; FBS Independents -> IND cell applies to the few returners [Chan, Porter, McLean], arrivals on origin; NEW HC Jason Candle [from Toledo] -> COACH CHANGE, band x1.13; disposition gate 38 rows / 0 adjudicate / 0 err - withdrawal override Shamar Porter [WR, portal->None but Athlon-returning], 3 portal->None adjudicated GONE [Reymello Murphy WR, Cleto Chol DL, Tyrece Mills S], 2 feed-gap arrivals [Kenji Christian RB, Esean Carter DL], NO yr4-return overrides [the '25 vets graduated/left]; massive churn 53 in/45 out - the '25 stars Fagnano 87.0 + Bell 81.6 + Edwards 86.0 all GONE; anchor values not consulted. DATA: no team_dump percentile row [UConn vs 'Connecticut'; correct '25 OFF p90/DEF p31 - the OLD team]. DISCLOSED: Athlon NF103 logged, NOT used.",
+  "planned_vs_final_deviations": {
+   "note": "Finals match the dossier planned lines exactly (QB46L/RB48/WRTE46/OL48/DL46/LB50/DB44L/ST44L, sum 372, 3 L). NO post-freeze corrections. The material context: a near-total rebuild - the '25 percentiles (Connecticut, OFF p90) are the DEPARTED team; graded on the '26 Candle/Toledo roster.",
+   "shape": "A new-HC (Candle from Toledo; x1.13 band) near-total rebuild - projected strength at LB (50 - Sherman + experienced transfers under ex-Pitt DC Manalac); a cohesive Toledo OL transplant (48), a transfer RB room (48 - Cornist), a Toledo/P4 DL (46), a rebuilt WR corps (46). Wounds: an open transfer QB battle (46L, lost the 3,000-yd Fagnano), an inexperienced secondary (44L), all-new specialists (44L). 3 L units."
+  },
+  "shadow_proxy_divergence": {
+   "note": "The proxy (QB None, RB 8, WRTE None, OL 12, DL 5, LB 33, DB 46, ST 37) is near-zero across the board - the 53-in/45-out churn + graduations stripped nearly all returning-producer snaps. The grades key the '26 roster (the Toledo transplant + P4 transfers) + the Athlon depth chart, NOT the proxy.",
+   "LB": "+17 vs proxy 33 - the grade keys the transfer LB core (Sherman 94 tkl) - Athlon's projected strength - the proxy can't see.",
+   "OL": "+36 vs proxy 12 - the grade keys the cohesive Toledo OL transplant (#17 sacks allowed) + returning Chan.",
+   "RB": "+40 vs proxy 8 - graded on the transfer room (Cornist 76.0 at CMU) after the 1,000-yd back left.",
+   "QB": "46 vs proxy None - graded on the transfer battle (Merklinger/Osborne), not the emptied-out proxy."
+  }
+ },
+ "grades_detail": [
+  {
+   "team": "UConn",
+   "unit": "QB",
+   "grade": 46,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Troy QB 2026 (46, peer)",
+    "Georgia Southern QB 2026 (46, peer)"
+   ],
+   "rationale_bullets": [
+    "Jake Merklinger (Tennessee, 81.6/28 tiny) vs Kalieb Osborne (Toledo, 72.9/82; followed Candle) - a transfer battle. LOST Joe Fagnano (87.0, UConn's 1st 3,000-yd passer, grad).",
+    "An open transfer QB battle - a low-sample SEC transfer vs a Toledo transfer - replacing a 3,000-yd passer, under a new staff.",
+    "46: ~Troy/Georgia Southern QB 46. Two transfer arms + Candle's offensive track record vs zero UConn continuity + the lost 87.0 passer. L."
+   ],
+   "key_players": [
+    {
+     "name": "Jake Merklinger",
+     "role": "QB (arrival, Tennessee)",
+     "evidence": "81.6/28 at Tennessee (tiny sample) - the Athlon QB1 in a battle"
+    },
+    {
+     "name": "Kalieb Osborne",
+     "role": "QB (arrival, Toledo)",
+     "evidence": "72.9/82 at Toledo; followed Candle"
+    }
+   ],
+   "data_gaps": [
+    "open transfer QB battle",
+    "lost the 3,000-yd passer (Fagnano)",
+    "new staff"
+   ],
+   "g5_guard_note": "FBS Independent; an open transfer QB battle (Merklinger/Osborne) replacing a 3,000-yd passer under a new HC. L."
+  },
+  {
+   "team": "UConn",
+   "unit": "RB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "App State RB 2026 (48, peer)",
+    "Rice RB 2026 (48, peer)"
+   ],
+   "rationale_bullets": [
+    "Trey Cornist (CMU, 76.0/105 - a proven-ish MAC back) + Kenji Christian (Toledo, followed Candle) + Cyncir Bowers (WVU) + Dashun Reeder (NW) + Jaden Hart (Syracuse). LOST 1,000-yd rusher Cam Edwards (86.0 -> Michigan State).",
+    "A transfer backfield with a proven MAC lead (Cornist 76.0) + Toledo/P4 depth, replacing a 1,000-yd back (the '25 RBLK p98 line also left).",
+    "48: ~App State/Rice RB 48. Cornist + the transfer depth vs the lost 1,000-yd back + the rebuilt line. M."
+   ],
+   "key_players": [
+    {
+     "name": "Trey Cornist",
+     "role": "RB (arrival, Central Michigan)",
+     "evidence": "76.0/105 at CMU - a proven-ish MAC back; the Athlon RB1"
+    },
+    {
+     "name": "Kenji Christian",
+     "role": "RB (arrival, Toledo)",
+     "evidence": "followed Candle from Toledo - part of the room"
+    }
+   ],
+   "data_gaps": [
+    "lost the 1,000-yd back (Edwards 86.0)",
+    "a rebuilt OL in front"
+   ],
+   "g5_guard_note": "FBS Independent; a transfer RB room (Cornist + Toledo/P4 depth) after losing the 1,000-yd rusher. M."
+  },
+  {
+   "team": "UConn",
+   "unit": "WRTE",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Marshall WRTE 2026 (46, peer)",
+    "Jacksonville State WRTE 2026 (46, peer)"
+   ],
+   "rationale_bullets": [
+    "Shamar Porter (51.3; a returning big downfield target - withdrawal) + Toledo transfers Ryder Treadway + Jediyah Willoughby + Ky Wilson (Youngstown St FCS) + TE Matt Ragan (BC). LOST 1,000-yd receiver Skyler Bell (81.6, grad) + Neider (-> WVU).",
+    "A rebuilt corps - one returner (Porter) + a Toledo/FCS transfer group in a 'take shots downfield' scheme, after losing the 1,000-yd Bell.",
+    "46: ~Marshall/Jacksonville State WRTE 46. Porter + the Toledo transfers vs the lost 1,000-yd receiver + the unproven QB. M."
+   ],
+   "key_players": [
+    {
+     "name": "Shamar Porter",
+     "role": "WR (returning, withdrawal)",
+     "evidence": "51.3/228; 'one of the few returners' - a big downfield target (portal->None but Athlon-returning)"
+    },
+    {
+     "name": "Ryder Treadway",
+     "role": "WR (arrival, Toledo)",
+     "evidence": "a Toledo transfer in a downfield-shot scheme"
+    }
+   ],
+   "data_gaps": [
+    "lost the 1,000-yd receiver (Bell 81.6)",
+    "a Toledo-heavy rebuild + an unproven QB"
+   ],
+   "g5_guard_note": "FBS Independent; a rebuilt WR corps (Porter + Toledo transfers) after losing the 1,000-yd receiver. M."
+  },
+  {
+   "team": "UConn",
+   "unit": "OL",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Liberty OL 2026 (48, peer)",
+    "Louisiana OL 2026 (48, peer)"
+   ],
+   "rationale_bullets": [
+    "Ty Chan (RG, 67.3/477 - the LONE returning starter) + a Toledo transplant: LT Dominic Rivera + LG Andrew Laurich (Colo St) + C Terrence Moore + RT Christian Richter (Marshall). LOST Juergens (80.2) + Hoeh (71.4) + Casady (-> WVU) + Murawski (-> Mich St).",
+    "An almost-entirely-new line, but a COHESIVE Toledo transplant ('helped Toledo tie for 17th nationally in sacks allowed') + a returning guard (Chan) - the cohesion is a plus vs a scratch rebuild.",
+    "48: ~Liberty/Louisiana OL 48. The Toledo pass-pro pedigree + Chan vs the loss of the '25 line. M."
+   ],
+   "key_players": [
+    {
+     "name": "Ty Chan",
+     "role": "RG (returning)",
+     "evidence": "67.3/477 - the lone returning OL starter"
+    },
+    {
+     "name": "Terrence Moore",
+     "role": "C (arrival, Toledo)",
+     "evidence": "part of a cohesive Toledo OL transplant (Toledo #17 in sacks allowed)"
+    }
+   ],
+   "data_gaps": [
+    "only 1 returning starter (a near-total rebuild)",
+    "cohesion carries over from Toledo, not UConn"
+   ],
+   "g5_guard_note": "FBS Independent; a cohesive Toledo OL transplant (#17 sacks allowed) + returning Chan. M."
+  },
+  {
+   "team": "UConn",
+   "unit": "DL",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Troy DL 2026 (46, peer)",
+    "Florida International DL 2026 (46, peer)"
+   ],
+   "rationale_bullets": [
+    "Esean Carter (Toledo Sr, 'headlines the DL') + Joshua Mickens (Ohio State) + Tahjae Mullix (Oregon State) + Anas Luqman (Ohio) + Avery Dunn (Toledo) + Melvin Hills (Texas) + Desmond Aladuge (Duke). LOST the '25 DL (yr4 + Wright -> Colorado St).",
+    "A transfer-built front (a Toledo core + P4 depth) replacing a WEAK '25 defense (DEF p31, PRSH p30 - but that group left).",
+    "46: ~Troy/Florida International DL 46. The Toledo/P4 transfer bodies vs zero continuity + the unproven-together front. M."
+   ],
+   "key_players": [
+    {
+     "name": "Esean Carter",
+     "role": "DT (arrival, Toledo)",
+     "evidence": "'headlines the DL in his senior season' (Athlon)"
+    },
+    {
+     "name": "Joshua Mickens",
+     "role": "EDGE (arrival, Ohio State)",
+     "evidence": "a B10 transfer into the rebuilt front"
+    }
+   ],
+   "data_gaps": [
+    "zero DL continuity (all-transfer)",
+    "replacing a weak '25 defense"
+   ],
+   "g5_guard_note": "FBS Independent; a transfer-built DL (Toledo core + P4 depth) - no continuity. M."
+  },
+  {
+   "team": "UConn",
+   "unit": "LB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Coastal Carolina LB 2026 (50, peer)",
+    "Arizona State LB 2026 (50, peer)"
+   ],
+   "rationale_bullets": [
+    "K'Von Sherman (Toledo, 94 tkl/4.5 sacks in '25 - leads the group) + John Lista (Penn FCS) + Luke Murphy (Coastal) + Rickey Williams (Toledo) + Zakaih Saez. New DC Ryan Manalac (ex-Pitt LB coach 5 yrs).",
+    "Athlon's projected STRENGTH - a productive transfer LB (Sherman) + an experienced group under a LB-specialist DC. The most cohesive/proven unit on the roster.",
+    "50: ~Coastal Carolina/Arizona State LB 50. Sherman + the experienced transfers + the DC pedigree vs the all-transfer makeup. M."
+   ],
+   "key_players": [
+    {
+     "name": "K'Von Sherman",
+     "role": "LB (arrival, Toledo)",
+     "evidence": "94 tkl/4.5 sacks at Toledo in '25 - leads the LB corps"
+    },
+    {
+     "name": "Luke Murphy",
+     "role": "LB (arrival, Coastal Carolina)",
+     "evidence": "an experienced SBC transfer"
+    }
+   ],
+   "data_gaps": [
+    "all-transfer (no UConn continuity)",
+    "the projected strength but unproven together"
+   ],
+   "g5_guard_note": "FBS Independent; the projected strength - a transfer LB core (Sherman 94 tkl) under an ex-Pitt LB-coach DC. M."
+  },
+  {
+   "team": "UConn",
+   "unit": "DB",
+   "grade": 44,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Coastal Carolina DB 2026 (44, peer)",
+    "Louisiana Tech DB 2026 (44, peer)"
+   ],
+   "rationale_bullets": [
+    "Malachi McLean (74.7/638 - a rare returning defensive producer) + Braedyn Moore (Jr, 'competing for a first full-time role') + transfers Steve Miller (USC) + Tracy Revels (Mich St) + CJ Bell (Iowa) + Moussa Kane (Duke) + Renick Dorilas (Rutgers). LOST Chadwick (75.0 -> VT) + Molette (-> Ariz) + Mills (81.0).",
+    "'The defensive backfield is LESS EXPERIENCED' (Athlon) - one returning producer (McLean) + P4 transfers competing for first full-time roles, off a poor '25 coverage/tackling base.",
+    "44: ~Coastal Carolina/Louisiana Tech DB 44. McLean + the P4-transfer talent vs the inexperience + no established starters. L."
+   ],
+   "key_players": [
+    {
+     "name": "Malachi McLean",
+     "role": "DB (returning)",
+     "evidence": "74.7/638 - a rare returning defensive producer"
+    },
+    {
+     "name": "Steve Miller",
+     "role": "S (arrival, USC)",
+     "evidence": "a P4 transfer into a 'less experienced' secondary"
+    }
+   ],
+   "data_gaps": [
+    "'less experienced' secondary (Athlon)",
+    "players competing for first full-time roles"
+   ],
+   "g5_guard_note": "FBS Independent; an inexperienced, rebuilt secondary - one returner (McLean) + P4 transfers. L."
+  },
+  {
+   "team": "UConn",
+   "unit": "ST",
+   "grade": 44,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "App State ST 2026 (44, peer)",
+    "Florida International ST 2026 (44, peer)"
+   ],
+   "rationale_bullets": [
+    "ALL-NEW specialists - K Mike Baker (an Ole Miss backup, only 4 XP attempts) + P competition (Sullins ex-Memphis / Warner ex-FCS NW Missouri St) + KR Julian Allen (Toledo). SPEC was p37.",
+    "A total specialist reset - an unproven transfer K + a punt competition, off a middling '25 unit (SPEC p37).",
+    "44: ~App State/Florida International ST 44. The transfer specialists + return-game bodies vs zero proven kicking/punting. L."
+   ],
+   "key_players": [
+    {
+     "name": "Mike Baker",
+     "role": "K (arrival, Ole Miss)",
+     "evidence": "an Ole Miss backup - only 4 XP attempts; unproven"
+    },
+    {
+     "name": "Julian Allen",
+     "role": "KR (arrival, Toledo)",
+     "evidence": "took most return reps in the spring game"
+    }
+   ],
+   "data_gaps": [
+    "all-new, unproven specialists",
+    "a punter competition"
+   ],
+   "g5_guard_note": "FBS Independent; a total specialist reset - an unproven transfer K + a punt competition. L."
+  }
+ ]
+}
