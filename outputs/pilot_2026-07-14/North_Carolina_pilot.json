@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T00:45:56+00:00",
+ "team": "North Carolina",
+ "final": 1.84,
+ "rank": 58,
+ "band": 6.36,
+ "resid": -1.27,
+ "adj": -0.45,
+ "class_term": -0.0,
+ "st": -0.08,
+ "anchor_blend": 1.87,
+ "resid_level": -0.79,
+ "resid_shape": -0.48,
+ "implied_off": 25.34,
+ "implied_def": 25.15,
+ "anchor_off": 23.53,
+ "anchor_def": 22.07,
+ "fit_r2": {
+  "off": 0.539,
+  "dfn": 0.614
+ },
+ "low_conf_units": 2,
+ "code_rev": "2c6d867",
+ "mode": "PILOT-OOS"
+}
