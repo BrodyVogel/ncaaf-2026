@@ -1,0 +1,49 @@
+{
+ "team": "South Carolina",
+ "conference": "SEC",
+ "created_utc": "2026-07-18T03:17:00+00:00",
+ "assembler_git_rev": "982f2bf",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Shane Beamer (Year 6, NO CHANGE; band x1.00). NEW OC Kendal Briles (fired OL coach Oct + OC Shula Nov) - a COORDINATOR change (does NOT trigger the band multiplier). DC Clayton White. '25: 4-8 (1-7 SEC), cratered from 9-4 in '24. National Forecast 28. Verified BOTH mags + P6.",
+ "conference_note": "SEC (P4). R14: SEC cells POSITIVE on returning tape (own '25 tape = SEC); arrivals on origin cells. SEC offsets LARGE - big cells (OL/LB/RB) WEIGHTED DOWN; small samples discounted. #19 transfer class (6 P4 starters in). Arrivals on origin: Clark (Texas/SEC), Coleman (Penn State/B10), Tuggle+Purvis (Purdue/B10), Gibson (Oklahoma/SEC), Peak (NC State/ACC), Poku (ECU/AAC), Miller (UCF/B12), Durojaiye (Illinois/B10), Kelby Collins+Herring (Alabama+Tennessee/SEC), Drew Collins (Ark State/SBC), Scott (Kentucky/SEC).",
+ "portal_departure_confirmed": [
+  "Rodney Newsom Jr.",
+  "Myles Norwood"
+ ],
+ "portal_withdrawal_overrides": [
+  "Josiah Thompson"
+ ],
+ "yr4_return_overrides_documented": [
+  "Brady Hunt"
+ ],
+ "nfl_declare_confirmed": [
+  "Brandon Cisse"
+ ],
+ "known_name_exceptions": {
+  "LaNorris Sellers": "QB, 73.4/410 - RETURNS. Dual-threat phenom (674 rush yds '24 -> 270 '25 in a one-dimensional scheme); a genuine bounce-back candidate in Briles's dual-threat system. Elite athlete (SEC +7.72 weighted).",
+  "Nyck Harbor": "WR, 67.8/295 - RETURNS. Former 5-star; tracked as the FASTEST player in FBS; 618 yds/6 TD, SEC-best 20.6 ypc - the vertical threat.",
+  "Dylan Stewart": "ED, 73.6/449 - RETURNS. 2nd-team All-SEC; a legit All-American candidate + 1st-round projection; the defensive MVP (sat spring - back injury). SEC +7.87 -> elite.",
+  "Brandon Cisse": "CB - GONE, 2nd-ROUND NFL DRAFT PICK (P6). Junior declare, invisible to yr4+portal feeds -> nfl_declare_confirmed. One of 3 DB stars lost.",
+  "DQ Smith": "S, 68.0/732 (yr4) - GONE. A 4-year starter (Athlon). One of 3 DB stars lost. EXPIRED(yr4).",
+  "Jalon Kilgore": "S, 69.7/694 - GONE (P6 'lost 3 stars - All-SEC Jalon Kilgore + Cisse + DQ Smith'). FEED-MISS: the portal/yr4 feeds show him RETURNS; P6 confirms departed. departure_confirmed_research. Distinct from Gerald Kilgore (who RETURNS). NOT in the two-deep; grade-neutral.",
+  "Josiah Thompson": "OT, 48.4/677 - portal-none feed but Athlon/P6 say he's 'back' (withdrawal) yet MISSES 2026 with an injury. portal_withdrawal_override; NOT in the two-deep (OUT); grade-neutral.",
+  "Jacarrius Peak": "OT (NC State transfer, 5-star, All-ACC, 32 straight starts) - KNEE QUESTIONABLE ('questionable at best to play any games' - Athlon). NOT projected in the starting five; a depth/if-healthy upside.",
+  "Kelby Collins": "DI, 70.1/149 (Alabama transfer) - ARRIVES. Rotational SEC DT for 3 yrs (cross-build confirmed from the Alabama build).",
+  "Brady Hunt": "TE, 46.5/184 (yr4) - RETURNS. Athlon lists him the starting TE + P6 'enters his 3rd season, should have an expanded role.' yr4_return_override (R15).",
+  "Rodney Newsom Jr.": "OL, 50.0/223 (yr4) - portal-none, not named returning -> GONE. portal_departure_confirmed. OL depth; grade-neutral.",
+  "Myles Norwood": "DB, 49.2/242 (yr4) - portal-none, not named returning -> GONE. portal_departure_confirmed. DB depth; grade-neutral."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon+PS+P6 2026 charts. #19 transfer class (6 P4 starters in / 6 starters out). Brandon Cisse (CB) 2nd-round draft - invisible to yr4+portal feeds, added via nfl_declare_confirmed.",
+  "4-8 (1-7 SEC), cratered from 9-4: a BAD offense (OFF p16, RUN p14, RBLK p12, PBLK p25 - a bottom-10-P4 OL that allowed 43 sacks/13% rate) + a decent defense (DEF p68, RDEF p83). The OFFENSE - especially the OL - is the wound; the OC was fired midseason (Briles in).",
+  "HIGH-CEILING PIECES: QB LaNorris Sellers (a dual-threat phenom - 674 rush yds in '24 - in a great new scheme fit with Briles; P6 notes a post-firing offensive uptick to 29 ppg / top-10) + WR Nyck Harbor (the fastest player in FBS, 20.6 ypc) + edge Dylan Stewart (All-American candidate, 1st-round projection) + PR Vicari Swain (3 punt-return TDs). These are the reasons for optimism.",
+  "THE WOUNDS: (1) OL - a total restart (8 transfers) off a bottom-10-P4 line, with Thompson OUT + 5-star transfer Peak KNEE-QUESTIONABLE - injury risk on top of the rebuild. (2) DB - lost 3 stars (Kilgore/Cisse/DQ Smith), reloaded around Swain + Williams. (3) NO returning placekicker (P Love + returner Swain are strengths). (4) DL depth reloaded after losing 2 edges + 2 tackles."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; P6 consulted facts-only (rankings/Game-Grader not recorded); DISCLOSED: South Carolina's P6 ranking (#10t SEC) incidentally visible during source inspection (one of six teams flagged in SEC_PAGE_MAP.md) - logged in research_log.md, NOT used in grading",
+ "frozen": true,
+ "departure_confirmed_research": [
+  "Jalon Kilgore"
+ ],
+ "frozen_utc": "2026-07-18T04:46:58+00:00"
+}

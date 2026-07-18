@@ -1,0 +1,34 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,LaNorris Sellers,QB,JR,returning,Athlon,PS,H,73.4/410 (SEC +7.72 weighted); dual-threat phenom (674 rush yds '24 -> 270 '25 in a bad scheme); great fit for Briles; bounce-back candidate
+QB,2,Cutter Woods,QB,FR,returning,Athlon,PS,L,developmental frosh
+RB,1,Matt Fuller,RB,SO,returning,Athlon,PS,M,68.2/72 (SEC +10.17 weighted; 260 yds as a frosh)
+RB,2,Christian Clark,RB,SO,transfer:Texas,Athlon,PS,M,71.6/56 (SEC; 4-star; 105 yds + a score in Texas' bowl)
+RB,3,Jabree Coleman,RB,SO,transfer:Penn State,Athlon,PS,L,B10 -0.40; 4-star (followed RB coach Drayton). Faison + Adaway graduated
+WRTE,1,Nyck Harbor,WR,SR,returning,Athlon,PS,H,67.8/295 (SEC +5.94 -> 73.7 adj; former 5-star; FASTEST player in FBS; 618 yds/6 TD/20.6 ypc)
+WRTE,2,Jayden Sellers,WR,SO,returning,Athlon,PS,M,70.6/133 (SEC +5.94 -> 76.5 adj small sample; the slot, QB's brother)
+WRTE,3,Nitro Tuggle,WR,JR,transfer:Purdue,Athlon,PS,M,56.7/395 (B10 -1.26; Top100, Purdue starter, big-play threat)
+WRTE,4,Donovan Murph,WR,SO,returning,Athlon,PS,L,61.0/174 (SEC)
+WRTE,5,Brady Hunt,TE,SR,returning,Athlon,PS,L,46.5/184 (SEC; 3rd yr, expanded role)
+WRTE,6,Mazeo Bennett Jr.,WR,JR,returning,Athlon,PS,L,56.9/97 (SEC) + Jayden Gibson (Oklahoma, Top200 injury wildcard); #2 Jacobs left (Miami)
+OL,1,Shed Sarratt Jr.,OT,SO,returning,Athlon,PS,M,59.2/477 (SEC +13.45 weighted DOWN; the ONLY returning starter, stepped up as a true frosh; LT)
+OL,2,Emmanuel Kojo Poku,G,SR,transfer:East Carolina,Athlon,PS,M,All-AAC (AAC); 26 straight starts, ZERO sacks over 977 snaps; RG
+OL,3,Carter Miller,C,SR,transfer:UCF,Athlon,PS,M,60.2/593 (B12; started + Hank Purvis 15 combined starts)
+OL,4,Hank Purvis,G,JR,transfer:Purdue,Athlon,PS,M,62.8/496 (B10 -1.29; LG)
+OL,5,Dayne Arnett,OT,SR,returning,Athlon,PS,L,RT + Jacarrius Peak (NC State 5-star, All-ACC 32 starts - KNEE QUESTIONABLE). Josiah Thompson OUT '26. Bottom-10 P4 OL, 43 sacks
+DL,1,Dylan Stewart,ED,JR,returning,Athlon,PS,H,73.6/449 (SEC +7.87 weighted -> elite; 2nd-team All-SEC; All-American candidate, 1st-round projection; back injury/sat spring)
+DL,2,Gabriel Brownlow-Dindy,DI,SR,returning,Athlon,PS,M,74.9/300 (SEC +7.87 weighted; former 5-star DT)
+DL,3,Tomiwa Durojaiye,DI,SR,transfer:Illinois,Athlon,PS,M,74.5/372 (B10 +10.38 weighted DOWN; B10 starter, 4-star transfer)
+DL,4,Caleb Herring,ED,SR,transfer:Tennessee,Athlon,PS,M,52.3/369 (SEC; projected at the end opposite Stewart)
+DL,5,Kelby Collins,DI,SR,transfer:Alabama,Athlon,PS,M,70.1/149 (SEC; rotational SEC DT 3 yrs; cross-build from Alabama)
+DL,6,Julian Walker,ED,FR,returning,Athlon,PS,L,5-star frosh edge + Drew Collins (Ark State 74.3). Lost 2 edges + 2 tackles
+LB,1,Justin Okoronkwo,LB,JR,returning,Athlon,PS,M,66.6/599 (SEC +14.01 weighted DOWN; returning starter)
+LB,2,Fred Johnson,LB,JR,returning,Athlon,PS,M,61.4/565 (SEC weighted; returning starter)
+LB,3,Shawn Murphy,LB,SR,returning,Athlon,PS,M,64.7/430 (SEC weighted; returning starter - all 3 4-2-5 backers back)
+LB,4,Jayr Johnson,LB,JR,returning,Athlon,PS,L,Athlon chart starter; rotation
+DB,1,Vicari Swain,CB,JR,returning,Athlon,PS,H,72.8/488 (SEC +5.44 -> 78.2 adj; returning CB + elite PR - 3 punt-return TDs)
+DB,2,Peyton Williams,S,SR,returning,Athlon,PS,M,73.7/559 (SEC +5.44 -> 79.1 adj; returning S, 2 INT)
+DB,3,Judge Collier,CB,SR,returning,Athlon,PS,M,56.1/371 (SEC; returning CB starter)
+DB,4,Quay'Sheed Scott,S,SR,transfer:Kentucky,Athlon,PS,M,Kentucky starter (SEC); the nickel (cross-build from Kentucky)
+DB,5,J'Zavien Currence,S,FR,returning,Athlon,PS,L,Top100 frosh; battles for the other S. LOST 3 stars (Kilgore + Cisse drafted + DQ Smith)
+ST,1,Mason Love,P,SR,returning,Athlon,PS,M,4th in SEC in punting (45.1 avg); NEEDS A NEW PLACEKICKER ('25 K gone)
+ST,2,Vicari Swain,PR,JR,returning,Athlon,PS,H,returned THREE punts for TDs in '25 - an elite return weapon

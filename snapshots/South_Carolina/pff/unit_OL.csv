@@ -1,0 +1,23 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Jacarrius Peak,157418,T,NC STATE,13,100.0,2,248,73.7,84.1,65.0,0,9,457,100.0,100.0,98.4,8,12,3,850,0,0,848,850,487,487,0,0,363,1,arrival_2025_at_NC STATE
+Ebubedike Nnabugwu,174465,T,MO STATE,12,100.0,2,230,64.5,78.8,63.0,4,14,481,100.0,100.0,97.5,11,21,3,804,0,185,618,804,512,512,0,0,292,0,arrival_2025_at_MO STATE
+Josiah Thompson,184501,T,S CAROLINA,12,100.0,0,289,48.4,46.6,52.2,1,25,391,100.0,100.0,94.9,6,33,7,677,0,1,674,677,418,418,0,0,259,1,2025_this_team
+Armando Nieves,198928,T,NEW MEX ST,11,100.0,0,242,52.0,51.2,59.6,3,19,384,100.0,100.0,95.6,9,28,6,613,0,0,1,613,406,406,0,612,207,0,arrival_2025_at_NEW MEX ST
+Trovon Baugh,175919,G,S CAROLINA,11,100.0,1,289,53.1,59.3,55.7,0,14,334,100.0,100.0,96.4,7,19,5,611,0,1,0,611,354,354,609,0,257,0,2025_this_team
+Boaz Stanley,172366,C,S CAROLINA,10,100.0,0,289,49.6,60.6,51.8,1,15,348,100.0,100.0,96.8,9,19,3,606,551,0,0,606,375,375,55,0,231,0,2025_this_team
+Carter Miller,156713,C,UCF,9,100.0,0,323,60.2,65.5,61.3,3,13,339,100.0,100.0,97.6,6,16,0,593,593,0,0,593,352,352,0,0,241,0,arrival_2025_at_UCF
+Hank Purvis,188497,G,PURDUE,10,100.0,0,273,62.8,71.6,59.3,2,8,273,100.0,100.0,97.8,2,11,1,496,0,220,0,496,294,294,275,0,202,0,arrival_2025_at_PURDUE
+Shed Sarratt Jr.,199949,G,S CAROLINA,10,100.0,0,289,59.2,70.8,51.3,2,7,278,100.0,100.0,97.7,1,11,2,477,0,279,18,477,293,293,1,179,184,0,2025_this_team
+Tree Babalade,175918,T,S CAROLINA,7,100.0,0,289,60.1,68.5,55.0,1,19,236,100.0,100.0,95.3,3,21,1,421,0,0,23,421,255,255,0,398,166,0,2025_this_team
+Nick Sharpe,144205,G,S CAROLINA,8,100.0,1,289,65.9,69.3,65.0,2,3,221,100.0,100.0,97.5,2,8,3,392,0,390,0,392,237,237,0,0,155,0,2025_this_team
+Rodney Newsom Jr.,121781,C,S CAROLINA,9,100.0,0,289,50.0,55.3,47.9,1,3,118,100.0,100.0,94.9,1,8,4,223,135,79,0,223,127,127,6,0,96,3,2025_this_team
+Cason Henry,158126,T,S CAROLINA,4,100.0,0,289,87.0,85.7,82.8,0,1,56,100.0,100.0,99.1,0,1,0,115,0,0,0,115,57,57,0,115,58,0,2025_this_team
+Nolan Hay,161411,C,S CAROLINA,4,100.0,0,289,66.5,79.7,63.6,0,1,74,100.0,100.0,99.3,1,1,0,112,98,0,0,112,77,77,12,0,35,2,2025_this_team
+Markee Anderson,174317,G,S CAROLINA,4,100.0,0,289,62.1,29.8,67.9,0,4,48,100.0,100.0,95.8,1,4,0,93,0,23,0,93,51,51,70,0,42,0,2025_this_team
+Jatavius Shivers,175929,T,S CAROLINA,4,100.0,0,289,51.3,39.3,54.1,1,2,27,100.0,100.0,94.4,0,3,0,81,0,0,25,81,31,31,0,56,50,0,2025_this_team
+Mac Walters,158110,T,S CAROLINA,3,100.0,0,289,77.2,86.0,74.7,0,0,19,100.0,100.0,100.0,0,0,0,48,0,0,23,48,20,20,15,0,28,5,2025_this_team
+Adedamola Ajidahun,199958,T,S CAROLINA,4,100.0,0,289,31.7,10.4,43.8,0,2,25,100.0,100.0,92.0,0,3,1,40,0,0,18,40,25,25,0,16,15,6,2025_this_team
+Chase Sweigart,158106,G,S CAROLINA,2,100.0,0,289,60.7,76.0,59.3,0,0,2,100.0,100.0,100.0,0,0,0,15,0,0,0,15,4,4,15,0,11,0,2025_this_team
+Blake Franks,184490,T,S CAROLINA,1,100.0,0,289,68.8,46.3,68.9,0,0,1,100.0,100.0,100.0,0,0,0,14,0,0,0,14,2,2,0,14,12,0,2025_this_team
+Ryan Brubaker,158104,C,S CAROLINA,1,100.0,0,289,58.0,73.7,56.7,0,0,3,100.0,100.0,100.0,0,0,0,11,0,11,0,11,4,4,0,0,7,0,2025_this_team
+Jake Recker,190235,G,S CAROLINA,1,100.0,0,289,58.0,67.5,56.6,0,0,0,,100.0,,0,0,0,4,0,0,0,4,1,1,0,4,3,0,2025_this_team

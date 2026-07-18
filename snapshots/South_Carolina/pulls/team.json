@@ -1,0 +1,36 @@
+{
+ "id": 2579,
+ "school": "South Carolina",
+ "mascot": "Gamecocks",
+ "abbreviation": "SC",
+ "alternateNames": [
+  "SC",
+  "South Carolina"
+ ],
+ "conference": "SEC",
+ "division": null,
+ "classification": "fbs",
+ "color": "#73000a",
+ "alternateColor": "#ffffff",
+ "logos": [
+  "http://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+  "http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2579.png"
+ ],
+ "twitter": "@GamecockFB",
+ "location": {
+  "id": 3994,
+  "name": "Williams-Brice Stadium",
+  "city": "Columbia",
+  "state": "SC",
+  "zip": "29208",
+  "countryCode": "US",
+  "timezone": "America/New_York",
+  "latitude": 33.9730239,
+  "longitude": -81.0191726,
+  "elevation": "60.54548645",
+  "capacity": 80250,
+  "constructionYear": 1934,
+  "grass": true,
+  "dome": false
+ }
+}
