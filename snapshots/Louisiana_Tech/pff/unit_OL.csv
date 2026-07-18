@@ -1,0 +1,11 @@
+player,player_id,position,team_name,player_game_count,block_percent,declined_penalties,franchise_id,grades_offense,grades_pass_block,grades_run_block,hits_allowed,hurries_allowed,non_spike_pass_block,non_spike_pass_block_percentage,pass_block_percent,pbe,penalties,pressures_allowed,sacks_allowed,snap_counts_block,snap_counts_ce,snap_counts_lg,snap_counts_lt,snap_counts_offense,snap_counts_pass_block,snap_counts_pass_play,snap_counts_rg,snap_counts_rt,snap_counts_run_block,snap_counts_te,_provenance
+Ashanti Cole,167085,G,LA TECH,13,100.0,1,208,58.6,70.7,56.1,1,12,370,100.0,100.0,97.4,4,16,3,875,0,846,0,875,398,398,24,3,477,0,2025_this_team
+Hayden Christman,170453,T,LA TECH,13,100.0,0,208,62.6,70.7,56.2,3,8,363,100.0,100.0,97.4,1,15,4,863,0,0,858,863,391,391,0,0,472,2,2025_this_team
+Landon Nelson,156569,C,LA TECH,12,100.0,0,208,59.5,86.1,56.0,0,3,321,100.0,100.0,99.2,8,4,1,760,760,0,0,760,345,345,0,0,415,0,2025_this_team
+Roy Brackins III,170451,G,LA TECH,13,100.0,0,208,52.6,44.8,58.0,2,8,217,100.0,100.0,95.9,5,14,4,526,114,0,0,526,234,234,312,81,292,17,2025_this_team
+Jonathan Denis,131708,G,LA TECH,10,100.0,0,208,61.0,74.0,56.7,0,4,220,100.0,100.0,99.1,1,4,0,521,0,0,0,521,237,237,521,0,284,0,2025_this_team
+Brett Canis,144755,T,LA TECH,11,100.0,0,208,50.3,55.3,48.9,2,9,209,100.0,100.0,96.4,2,13,2,517,0,0,30,517,223,223,0,483,294,0,2025_this_team
+Kenneth Bannister,145246,T,LA TECH,6,100.0,0,208,38.7,27.4,43.3,3,9,130,100.0,100.0,94.6,1,13,1,306,0,0,0,306,140,140,0,305,166,1,2025_this_team
+Austin Ellis,189818,G,LA TECH,10,100.0,0,208,45.0,64.0,44.8,0,1,28,100.0,100.0,98.2,1,1,0,105,0,45,0,105,31,31,34,0,74,24,2025_this_team
+Troy Smith III,170470,T,LA TECH,11,100.0,0,208,75.8,63.9,72.2,0,0,0,,100.0,,0,0,0,38,0,0,0,38,1,1,0,17,37,18,2025_this_team
+Andrew Richard,189824,C,LA TECH,2,100.0,0,208,67.0,,65.0,0,0,0,,,,0,0,0,17,17,0,0,17,0,0,0,0,17,0,2025_this_team

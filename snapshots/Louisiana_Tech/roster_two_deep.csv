@@ -1,0 +1,17 @@
+unit,slot,player,position,class,origin,source_1,source_2,confidence_HML,notes
+QB,1,Blake Baker,QB,JR,returning,Athlon,CFN,H,73.9/198 (CUSA cell; the returning starter; sophomore in '25 before a Nov. ACL; back through spring drills; the better passer)
+QB,2,Trey Kukuk,QB,SR,returning,Athlon,CFN,M,70.5/138 (CUSA cell; JUCO transfer who ran the 3-game closing win streak; a Taysom-Hill-type runner). BOTH top QBs back
+RB,1,Jaden Miller,RB,JR,arrival(Keiser-NAIA),Athlon,feed,L,Athlon's projected RB1; NAIA transfer (NO cell - evidence-only). "Top 3 RBs all moved on - no returning player has taken an NCAA snap"
+RB,2,Kenny Thomas,RB,FR,arrival(HS),Athlon,feed,L,top-listed recruit + KR; the backfield is transfers/freshmen only. Thevenin(78.1->Rutgers)+Wiggins(80.4->McNeese)+Burnette(yr4) GONE
+WRTE,1,Eli Finley,TE,SR,returning,Athlon,CFN,M,71.5/236 (CUSA cell; "a proven target underneath" - the one real returning receiver)
+WRTE,2,Talyn Shettron,WR,SR,arrival(Oklahoma State-B12),Athlon,feed,M,once-touted P4 recruit; headlines a revamped WR corps. "Top 4 WRs gone"; Devin Gandy (yr4) GONE. + FCS transfer Calwise + injury-return Wilkerson
+OL,1,Hayden Christman,LT,JR,returning,Athlon,CFN,M,62.6/863 (CUSA cell; 24 consecutive starts; anchors the line that allowed the FEWEST SACKS in CUSA in '25)
+OL,2,Ashanti Cole,LG,SR,returning,Athlon,CFN,M,58.6/875 (CUSA cell; returning starting guard). LOST 4 yr4 starters (Nelson C/Denis G/Canis T/Bannister T) + Mealer(->So Miss). RBLK was p10
+DL,1,Donovan Rieman,DL,SR,returning,Athlon,PS,M,68.6/404 (CUSA cell; the top returning DL)
+DL,2,Emmanuel Oguns,ED,SR,returning,Athlon,PS,M,58.7/455 (CUSA cell; returning edge). LOST Madkins(62.4->Tulsa)+Christian Davis(69.9->SMU). + transfers Justice Williams(NT)/McIver/Brantley. PRSH p19
+LB,1,Kolbe Fields,LB,SR,returning-yr4override,Athlon,CFN,H,"78.3/297 (CUSA cell; 6th-yr vet; preseason CUSA DPOY billing before a leg injury; ""headlines a deep unit"" - yr4 RETURN, Athlon-named)"
+LB,2,Jadon Mayfield,LB,SO,returning,Athlon,CFN,M,72.3/588 (CUSA cell; a returning starter - 61 tkl/3.5 sacks/8.5 TFL). LOST Sifa Leota(84.3 yr4 GONE)+Mekhi Mason(66.7->Kansas State). + Jackson/Hill
+DB,1,Kameron Carter,CB,SR,returning,Athlon,CFN,M,69.7/258 (CUSA cell; experienced returning corner)
+DB,2,Jordan McRae,NB,JR,returning,Athlon,PS,M,74.9/108 (CUSA cell; highest returning DB grade). ENTIRE '25 starting 5 GONE: Jakari Foster(87.2 NFL)/Jacob Fields(72.8->TCU)/Richard(67.4->Michigan St)/Shelby(->Nicholls). + Butler/Franklin/Fongang + transfers
+ST,1,Kaegan Kent,K,FR,returning,Athlon,PS,L,true freshman K (opened the door late in '25 after the placekickers went 10-of-18 on FG). John Hoyet Chance (P) ->TCU
+ST,2,Reuben Edwards,P,FR,arrival(Australia),Athlon,feed,L,freshman punter from Australia (spring arrival); NO return-game experience. SPEC was p74 on '25 tape but the personnel turned over

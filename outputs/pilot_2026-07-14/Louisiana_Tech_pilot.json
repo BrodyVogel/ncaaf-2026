@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T15:44:07+00:00",
+ "team": "Louisiana Tech",
+ "final": -6.98,
+ "rank": 94,
+ "band": 6.0,
+ "resid": 7.14,
+ "adj": 2.5,
+ "class_term": 0.0,
+ "st": -0.2,
+ "anchor_blend": -9.76,
+ "resid_level": 5.28,
+ "resid_shape": 1.86,
+ "implied_off": 24.1,
+ "implied_def": 26.72,
+ "anchor_off": 21.57,
+ "anchor_def": 31.33,
+ "fit_r2": {
+  "off": 0.54,
+  "dfn": 0.619
+ },
+ "low_conf_units": 0,
+ "code_rev": "d586ed2",
+ "mode": "PILOT-OOS"
+}

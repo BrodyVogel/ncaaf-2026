@@ -1,0 +1,44 @@
+[
+ {
+  "firstName": "Sonny",
+  "lastName": "Cumbie",
+  "hireDate": "2021-11-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Louisiana Tech",
+    "year": 2024,
+    "games": 13,
+    "wins": 5,
+    "losses": 8,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -12.6,
+    "spOverall": -11.6,
+    "spOffense": 15.9,
+    "spDefense": 26.3
+   }
+  ]
+ },
+ {
+  "firstName": "Sonny",
+  "lastName": "Cumbie",
+  "hireDate": "2021-11-30T00:00:00.000Z",
+  "seasons": [
+   {
+    "school": "Louisiana Tech",
+    "year": 2025,
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "preseasonRank": null,
+    "postseasonRank": null,
+    "srs": -3.9,
+    "spOverall": -1.3,
+    "spOffense": 25.6,
+    "spDefense": 27
+   }
+  ]
+ }
+]

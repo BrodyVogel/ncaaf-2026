@@ -1,0 +1,51 @@
+{
+ "team": "Louisiana Tech",
+ "conference": "Sun Belt",
+ "created_utc": "2026-07-18T15:27:10+00:00",
+ "assembler_git_rev": "d586ed2",
+ "cfbd_pull_dir": "data/cfbd/2026-07-12",
+ "coach_change": false,
+ "coach_note": "HC Sonny Cumbie (19-31 at school, Year 5; NO CHANGE; band x1.00). '25: 8-5 (5-3 CUSA). G5 2-SOURCE build (Athlon primary; PS SBC text GARBLED so CFN 2026 preview used as the corroborating 2nd source). HIGH churn (11 in / 24 out) PLUS heavy yr4 graduation - a near-total rebuild of the skill positions, secondary, and specialists.",
+ "conference_note": "2026 SUN BELT NEWCOMER (left CUSA in April 2026). Its 2025 tape was EARNED IN CUSA -> returning players grade on CUSA ORIGIN cells (heavily negative: QB -5.61, RB -7.50, WRTE -4.19, OL -6.36, DL -7.88, LB -12.31, DB -6.16), NOT the SBC cells. Arrivals on origin: Shettron (Oklahoma State B12), Hylton (Florida State ACC), Ahkhari Johnson (Arkansas SEC); Calwise/J.Williams/Jaden Miller/Bookhart/Moultrie/Ty Jones/Harrison Williams = FCS/D2/NAIA = NO cell (evidence-only).",
+ "portal_departure_confirmed": [],
+ "portal_withdrawal_overrides": [],
+ "yr4_return_overrides_documented": [
+  "Kolbe Fields"
+ ],
+ "nfl_declare_confirmed": [
+  "Jakari Foster"
+ ],
+ "departure_confirmed_research": [
+  "Sifa Leota",
+  "Andrew Burnette",
+  "Devin Gandy"
+ ],
+ "feed_gap_arrivals_documented": [],
+ "known_name_exceptions": {
+  "Blake Baker": "QB, 73.9/198 - RETURNS. The returning starter; a soph in '25 before a Nov. ACL, back through spring non-contact drills; the better passer of the two returning QBs.",
+  "Trey Kukuk": "QB, 70.5/138 - RETURNS. JUCO transfer who ran the 3-game closing win streak; a Taysom-Hill-type runner. BOTH top QBs back - a genuine returning strength.",
+  "Eli Finley": "TE, 71.5/236 - RETURNS. 'A proven target underneath' and 'the only remotely proven playmaker' - the one real returning receiver after the top 4 WRs left.",
+  "Hayden Christman": "LT, 62.6/863 - RETURNS. 24 consecutive starts; anchors the OL that allowed the FEWEST SACKS in CUSA in '25.",
+  "Ashanti Cole": "LG, 58.6/875 - RETURNS. The other returning OL starter (guard). The other 4 OL starters graduated (yr4) or transferred (Mealer).",
+  "Kolbe Fields": "LB, 78.3/297 - RETURNS (yr4 override, R15). 6th-year vet; preseason CUSA DPOY billing before a '25 leg injury; Athlon: 'headlines a deep unit.' The one named yr4 returner.",
+  "Jadon Mayfield": "LB, 72.3/588 - RETURNS. A returning starter (61 tkl/3.5 sacks/8.5 TFL); CFN-confirmed. With Fields the LB anchor.",
+  "Jakari Foster": "S, 87.2/633 - GONE TO THE NFL (nfl_declare_confirmed). The roster's TOP grade; portal-None + yr4 in the feed. Athlon '(NFL)' + Ruston Daily Leader 'declares for the 2026 NFL Draft' + Steelers Depot draft report + CFN all confirm. An NFL early-departure the portal feed hid.",
+  "Sifa Leota": "LB, 84.3/638 - GONE (departure_confirmed_research; yr4 graduation). The roster's #2 grade + a 638-snap '25 starter, but NOT named a 2026 returner by Athlon OR CFN (both list the OTHER LBs). portal-None + yr4 -> graduated.",
+  "Andrew Burnette": "RB, 72.0/95 - GONE (yr4 graduation). Athlon: 'the top 3 RBs all moved on... no returning player has taken an NCAA snap.' Not on the depth chart. departure_confirmed_research.",
+  "Devin Gandy": "WR, 61.6/277 - GONE (yr4 graduation). Athlon: 'the top four wideouts are gone.' Not on the depth chart. departure_confirmed_research.",
+  "Jaden Miller": "RB - Athlon's projected RB1; a Keiser (NAIA) transfer (NO cell - evidence-only). Symbolizes the total backfield reset - no returning NCAA snap in the room.",
+  "Talyn Shettron": "WR - Oklahoma State transfer (B12 cell), a once-touted P4 recruit; the revamped WR corps' headliner.",
+  "Jordan McRae": "NB/S, 74.9/108 - RETURNS. The highest-graded returning DB (limited snaps); a former backup now vying for a starting role after the entire '25 starting 5 left.",
+  "Kameron Carter": "CB, 69.7/258 - RETURNS. An experienced returning corner (CFN-named alongside Amari Butler)."
+ },
+ "known_gaps": [
+  "CFBD 2026 feeds not published; yr4 from roster_2025 class-year adjudicated vs Athlon + CFN. The raw portal-None feed HID the two biggest losses: S Jakari Foster (87.2, the top grade) declared for the NFL, and LB Sifa Leota (84.3, #2 grade) is a yr4 graduation - both caught by the yr4 gate + multi-source verification.",
+  "8-5 in '25 (5-3 CUSA); OFF p21 (PASS p12 poor, RUN p79), DEF p61 (a 22-INT / COV-p78 takeaway unit), SPEC p74. But the 2026 roster turned over almost entirely at the skill positions, the secondary, and the specialists.",
+  "The OFFENSE keeps BOTH top QBs (Baker 73.9 back from ACL + Kukuk 70.5) + TE Finley (71.5) + 2 OL starters (LT Christman 24 straight starts, fewest-sacks-CUSA line, + LG Cole). But the top 3 RBs (Thevenin/Wiggins + yr4 Burnette) + top 4 WRs (+ yr4 Gandy) are gone - RB1 is a NAIA transfer with 'no returning NCAA snap'; the WR corps is P4/FCS transfers + an injury-return.",
+  "The DEFENSE keeps LB Kolbe Fields (78.3, DPOY billing, yr4-return) + Jadon Mayfield (72.3, 588 snaps) - 'few concerns at LB.' But it LOST its top 2 graders (Foster 87.2 NFL + Leota 84.3 graduated), the ENTIRE secondary starting five (Foster/J.Fields->TCU/Richard->MSU/Shelby->Nicholls), and 2 DL starters (Madkins->Tulsa, Davis->SMU). The DB room = experienced backups (McRae 74.9/Carter 69.7/Fongang 71.4) + an influx of transfers.",
+  "ST is a near-total reset: freshman K Kaegan Kent (after the '25 kickers went 10-of-18 on FG) + freshman Australian P Reuben Edwards + NO return experience. The SPEC-p74 proxy is stale (personnel turned over)."
+ ],
+ "blinding": "assembler reads no rating/market data; magazines.md written under blinding v2; DISCLOSED: Athlon NF104 / Sun Belt West 3 incidentally visible - logged, NOT used. G5 2-source (Athlon primary; PS SBC text garbled -> CFN 2026 preview as the corroborating source).",
+ "frozen": true,
+ "frozen_utc": "2026-07-18T15:40:00+00:00"
+}
