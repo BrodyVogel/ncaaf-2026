@@ -1,0 +1,25 @@
+{
+ "run_utc": "2026-07-18T04:01:59+00:00",
+ "team": "LSU",
+ "final": 14.77,
+ "rank": 18,
+ "band": 7.46,
+ "resid": -13.6,
+ "adj": -4.76,
+ "class_term": -0.0,
+ "st": 0.08,
+ "anchor_blend": 18.93,
+ "resid_level": -10.13,
+ "resid_shape": -3.47,
+ "implied_off": 28.12,
+ "implied_def": 23.0,
+ "anchor_off": 31.86,
+ "anchor_def": 13.14,
+ "fit_r2": {
+  "off": 0.537,
+  "dfn": 0.613
+ },
+ "low_conf_units": 0,
+ "code_rev": "ea9e814",
+ "mode": "PILOT-OOS"
+}

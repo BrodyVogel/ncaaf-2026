@@ -1,0 +1,134 @@
+{
+ "team": "LSU",
+ "units": {
+  "QB": {"grade": 60, "confidence": "M"},
+  "RB": {"grade": 56, "confidence": "M"},
+  "WRTE": {"grade": 60, "confidence": "M"},
+  "OL": {"grade": 56, "confidence": "M"},
+  "DL": {"grade": 62, "confidence": "M"},
+  "LB": {"grade": 54, "confidence": "M"},
+  "DB": {"grade": 62, "confidence": "M"},
+  "ST": {"grade": 54, "confidence": "M"}
+ },
+ "_meta": {
+  "graded_utc": "2026-07-18",
+  "snapshot_rev": "frozen 2026-07-18T04:00:26Z (ea9e814)",
+  "prompt": "GRADING_PROMPT.md v1.2.2",
+  "exemplars": "exemplars.md v3.1 FROZEN",
+  "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells weighted DOWN; small samples discounted], the 43 transfers on ORIGIN cells; NEW HC Kiffin -> coach_change band x1.13, RETAINED DC Baker; disposition gate 42 rows / 0 adjudicate / 0 err - Perkins pro override, Durham/Davis/Spears withdrawals, West Weeks EXPIRED, cross-build ties consistent; calibrated vs the board upper tier + discounted for maximal 43-transfer cohesion risk); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16).",
+  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB60/RB56/WRTE60/OL56/DL62/LB54/DB62/ST54, sum 464). No post-freeze corrections."},
+  "shadow_proxy_divergence": {
+   "note": "proxy (QB 78, RB 34, WRTE 85, OL 69, DL 79, LB 68, DB 64, ST 52) keys the '25 roster; the grades reset the offense to the transfer haul + credit the loaded new DL + retained DB, discounted for cohesion.",
+   "QB": "-18 vs proxy 78 - proxy = Nussmeier (gone); the grade keys import Leavitt (health-flagged, new cast).",
+   "RB": "+22 vs proxy 34 - proxy keys the thin '25 backfield; the grade credits the returning Durham/Berry duo (Berry 5-star).",
+   "WRTE": "-25 vs proxy 85 - proxy = Green + the departed WRs; the grade keys the #1 portal WR unit + Green, discounted for all-new-together.",
+   "DL": "-17 vs proxy 79 - both credit a loaded front; the grade keys the triple-5-star edge trio (new-together caveat).",
+   "OL/LB/DB/ST": "grades near proxy - a rebuilt OL, a solid retained/reloaded LB, a loaded retained DB, dependable specialists."
+  }
+ },
+ "grades_detail": [
+  {"team": "LSU", "unit": "QB", "grade": 60, "confidence": "M",
+   "bracketing_exemplars": ["SMU QB 2026 (62, above)", "Miami QB 2026 (70, ref-elite)"],
+   "rationale_bullets": [
+    "Sam Leavitt (Arizona State, 76.4/310 -> B12 +5.86; #1 transfer QB - led ASU to the '24 Big 12 title run, 24 TD/6 INT, 46 total TD career; Nov foot surgery, missed spring) + 5-star Husan Longstreet (USC) insurance. Nussmeier (yr4) gone.",
+    "A proven, mobile, high-ceiling transfer QB (top of the portal) in Kiffin/Weis's Top-3 offense - a real scheme-fit upgrade.",
+    "Tempered by a foot injury that cost his spring + a dip to 13th in QB Rating in '25 + a brand-new supporting cast.",
+    "60: below SMU QB 62. The strong-transfer-QB tier; health + integration cap it. M."
+   ],
+   "key_players": [
+    {"name": "Sam Leavitt", "role": "QB1 (transfer, Arizona State)", "evidence": "76.4/310; #1 transfer QB; led ASU to '24 B12 title; 46 total TD career"}
+   ],
+   "data_gaps": ["Nov foot surgery, missed spring", "brand-new supporting cast"], "g5_guard_note": null},
+  {"team": "LSU", "unit": "RB", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Florida State RB 2026 (58, above)", "Virginia RB 2026 (56, peer)"],
+   "rationale_bullets": [
+    "Caden Durham (74.3/111 -> SEC +10.17 weighted; returns) + Harlem Berry (67.8/104; 5-star, #1 RB of the 2025 class, spring top spot) + Dilin Jones (Wisconsin, 70.1/77).",
+    "A genuine, deep, returning backfield - a proven producer + an elite-recruit riser + a B10 transfer ('a major coup' to keep the two).",
+    "The one drag: they ran behind a line that was RBLK p7 (now rebuilt).",
+    "56: ~Virginia RB 56; below FSU 58. Above-average P4; the '25 blocking context the caveat. M."
+   ],
+   "key_players": [
+    {"name": "Caden Durham", "role": "RB (returning)", "evidence": "74.3/111 (SEC-adj weighted); split '25 carries"},
+    {"name": "Harlem Berry", "role": "RB (returning)", "evidence": "67.8/104; 5-star, #1 RB of 2025 class; spring top spot"}
+   ],
+   "data_gaps": ["ran behind an RBLK p7 line in '25"], "g5_guard_note": null},
+  {"team": "LSU", "unit": "WRTE", "grade": 60, "confidence": "M",
+   "bracketing_exemplars": ["Rutgers WRTE 2026 (60, peer)", "Texas Tech WRTE 2026 (62, above)"],
+   "rationale_bullets": [
+    "Jackson Harris (Hawaii, 83.9/345 -> MWC weighted ~80; all-league) + TE Trey'Dez Green (75.0/266 -> SEC 80.9 adj; All-SEC, 6-7 mismatch, the X-factor) + Jayce Brown (Kansas St, 75.0/243; All-Big 12) + Tre' Brown (Old Dominion, 71.3/295) + Winston Watkins (Ole Miss) + Eugene Wilson (Florida).",
+    "'The top portal WR unit in the country' - five 4-star transfer receivers (three top-3 in their league in yds/catch) around an All-SEC athletic-freak TE.",
+    "Elite talent that fixes LSU's #124 pass explosiveness; the caveat is that it's ALL new-together (10 out, 10 in) with a new QB.",
+    "60: ~Rutgers WRTE 60; below Texas Tech 62. A loaded room; the cohesion caps it below a proven elite unit. M."
+   ],
+   "key_players": [
+    {"name": "Jackson Harris", "role": "WR (transfer, Hawaii)", "evidence": "83.9/345; all-league; top-3 MWC yds/catch"},
+    {"name": "Trey'Dez Green", "role": "TE (returning)", "evidence": "75.0/266 (80.9 SEC-adj); All-SEC; 6-7 mismatch"}
+   ],
+   "data_gaps": ["10 out/10 in - all new-together with a new QB"], "g5_guard_note": null},
+  {"team": "LSU", "unit": "OL", "grade": 56, "confidence": "M",
+   "bracketing_exemplars": ["Oregon OL 2026 (56, peer)", "Penn State OL 2026 (58, above)"],
+   "rationale_bullets": [
+    "Jordan Seaton (Colorado, 65.8/561 -> B12 weighted DOWN; 5-star, All-Big 12 - nation's top transfer LT) + Braelin Moore (69.8/623 C; delayed his NFL bid, returns) + Aliou Bah (Maryland, 60.7/681; 24 straight B10 starts, 0 sacks allowed) + Weston Davis (Top100 T, returns) + Bo Bordelon / Devin Harper (Ole Miss).",
+    "A high-quality rebuild - the top transfer tackle + a returning NFL-caliber center + a zero-sacks-allowed B10 guard - fixing a line that was PBLK p44 / RBLK p7.",
+    "Real pedigree, but new-together + coming off a broken run game.",
+    "56: ~Oregon OL 56; below Penn State 58. Above-average on pedigree; the cohesion + run-block reset cap it. M."
+   ],
+   "key_players": [
+    {"name": "Jordan Seaton", "role": "LT (transfer, Colorado)", "evidence": "65.8/561; 5-star, All-Big 12; nation's top transfer LT"},
+    {"name": "Braelin Moore", "role": "C (returning)", "evidence": "69.8/623; delayed his NFL bid to return"}
+   ],
+   "data_gaps": ["new-together; RBLK p7 base"], "g5_guard_note": null},
+  {"team": "LSU", "unit": "DL", "grade": 62, "confidence": "M",
+   "bracketing_exemplars": ["Louisville DL 2026 (62, peer)", "Washington DL 2026 (62, peer)"],
+   "rationale_bullets": [
+    "Princewill Umanmielen (Ole Miss, 74.3/489 -> SEC weighted; All-SEC, 9 sacks, #1 portal defender) + Jordan Ross (Tennessee, 77.2/249; former 5-star) + Lamar Brown (nation's #1 edge recruit) - a TRIPLE 5-star edge trio - + interior Dominick McKinley (5-star, returns) + Malik Blocton (Auburn) + Stephiylan Green (Clemson, 71.5) + 5-star frosh Richard Anderson.",
+    "An elite, deep front - the portal's #1 defender + a 5-star edge + a #1 edge recruit off the edges, with a blue-chip interior.",
+    "Genuinely loaded pass-rush talent (a clear upgrade on PRSH p47); the caveat is that the top pieces are new-together.",
+    "62: ~Louisville/Washington DL 62. A top-tier P4 front; the integration keeps it from the very top. M."
+   ],
+   "key_players": [
+    {"name": "Princewill Umanmielen", "role": "ED (transfer, Ole Miss)", "evidence": "74.3/489; All-SEC, 9 sacks; #1 portal defender"},
+    {"name": "Jordan Ross", "role": "ED (transfer, Tennessee)", "evidence": "77.2/249; former 5-star"}
+   ],
+   "data_gaps": ["top edges new-together"], "g5_guard_note": null},
+  {"team": "LSU", "unit": "LB", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Clemson LB 2026 (54, peer)", "Florida LB 2026 (56, above)"],
+   "rationale_bullets": [
+    "Whit Weeks (66.2/309 -> SEC +14.01 weighted DOWN; injury bounce-back) + Davhon Keys (61.2/572; led the team in tackles) + TJ Dottery (Ole Miss, 55.0/958; Golding's 'QB of the defense').",
+    "Harold Perkins WENT PRO.",
+    "A solid three-man rotation for the 4-2-5's two spots - a bounce-back returner + the team's leading tackler + a high-volume Ole Miss transfer - but it lost its do-it-all star and the grades are good-not-great.",
+    "54: ~Clemson LB 54; below Florida 56. Perkins' loss + modest grades cap it. M."
+   ],
+   "key_players": [
+    {"name": "Whit Weeks", "role": "LB (returning)", "evidence": "66.2/309; injury bounce-back"},
+    {"name": "Davhon Keys", "role": "LB (returning)", "evidence": "61.2/572; led the team in tackles"}
+   ],
+   "data_gaps": ["Perkins (do-it-all star) went pro"], "g5_guard_note": null},
+  {"team": "LSU", "unit": "DB", "grade": 62, "confidence": "M",
+   "bracketing_exemplars": ["Illinois DB 2026 (62, peer)", "Wisconsin DB 2026 (62, peer)"],
+   "rationale_bullets": [
+    "DJ Pickett (78.6/524 -> SEC +5.44 -> elite; 5-star breakout true frosh, All-SEC hype) + PJ Woodland (74.0/614 -> 79.4 adj) + Dashawn Spears (90.1/255 -> elite small sample) + Tamarcus Cooley (56.1/777) + Ty Benefield (Boise St, 66.2/846; All-MW, 107 tkl) + Faheem Delane (Ohio St, Top50).",
+    "All-SEC Haulcy + Delane (90.5) DRAFTED.",
+    "A loaded, mostly-retained secondary - a breakout 5-star corner + a proven corner + a high-graded safety + two P4/MW transfer starters - under retained ace DC Baker (COV p83).",
+    "62: ~Illinois/Wisconsin DB 62. A top-tier secondary; the two drafted losses keep it from higher. M."
+   ],
+   "key_players": [
+    {"name": "DJ Pickett", "role": "CB (returning)", "evidence": "78.6/524 (SEC-adj elite); 5-star breakout; All-SEC hype"},
+    {"name": "PJ Woodland", "role": "CB (returning)", "evidence": "74.0/614 (79.4 SEC-adj)"}
+   ],
+   "data_gaps": ["lost 2 drafted All-SEC DBs (Haulcy/Delane)"], "g5_guard_note": null},
+  {"team": "LSU", "unit": "ST", "grade": 54, "confidence": "M",
+   "bracketing_exemplars": ["Michigan ST 2026 (55, above)", "Kansas State ST 2026 (55, above)"],
+   "rationale_bullets": [
+    "Scott Starzyk (K, Arkansas - Freshman All-SEC, 14-18 FG + all 47 XP) + Grant Chadwick (P - 45.7 avg, 2nd in the SEC, returns).",
+    "SPEC was p52 in '25.",
+    "A proven All-SEC-caliber punter + an accurate young transfer kicker - dependable specialists.",
+    "54: just below Michigan/Kansas State ST 55. Above-average, specialist-driven (calib). M."
+   ],
+   "key_players": [
+    {"name": "Grant Chadwick", "role": "P (returning)", "evidence": "45.7 avg; 2nd in the SEC"},
+    {"name": "Scott Starzyk", "role": "K (transfer, Arkansas)", "evidence": "Freshman All-SEC; 14-18 FG + all 47 XP"}
+   ],
+   "data_gaps": [], "g5_guard_note": null}
+ ]
+}
