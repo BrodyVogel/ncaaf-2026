@@ -1,0 +1,1163 @@
+[
+ {
+  "team": "North Dakota State",
+  "final": -6.7,
+  "ew": 7.46,
+  "mline": 9.0,
+  "our_po": 0.199,
+  "mkt_po": 0.719,
+  "edge": -0.52
+ },
+ {
+  "team": "San Diego State",
+  "final": -0.3,
+  "ew": 6.73,
+  "mline": 7.0,
+  "our_po": 0.371,
+  "mkt_po": 0.662,
+  "edge": -0.291
+ },
+ {
+  "team": "Boise State",
+  "final": 3.5,
+  "ew": 7.18,
+  "mline": 8.0,
+  "our_po": 0.26,
+  "mkt_po": 0.513,
+  "edge": -0.254
+ },
+ {
+  "team": "Rutgers",
+  "final": 3.5,
+  "ew": 5.49,
+  "mline": 5.0,
+  "our_po": 0.476,
+  "mkt_po": 0.275,
+  "edge": 0.201
+ },
+ {
+  "team": "Massachusetts",
+  "final": -26.7,
+  "ew": 3.93,
+  "mline": 2.5,
+  "our_po": 0.781,
+  "mkt_po": 0.584,
+  "edge": 0.196
+ },
+ {
+  "team": "Texas State",
+  "final": -2.9,
+  "ew": 5.89,
+  "mline": 6.0,
+  "our_po": 0.389,
+  "mkt_po": 0.566,
+  "edge": -0.177
+ },
+ {
+  "team": "Texas",
+  "final": 22.1,
+  "ew": 8.17,
+  "mline": 9.5,
+  "our_po": 0.283,
+  "mkt_po": 0.453,
+  "edge": -0.17
+ },
+ {
+  "team": "Bowling Green",
+  "final": -13.1,
+  "ew": 5.86,
+  "mline": 4.5,
+  "our_po": 0.748,
+  "mkt_po": 0.589,
+  "edge": 0.158
+ },
+ {
+  "team": "Missouri State",
+  "final": -15.6,
+  "ew": 4.98,
+  "mline": 4.5,
+  "our_po": 0.572,
+  "mkt_po": 0.414,
+  "edge": 0.158
+ },
+ {
+  "team": "Boston College",
+  "final": -0.9,
+  "ew": 4.26,
+  "mline": 3.5,
+  "our_po": 0.616,
+  "mkt_po": 0.459,
+  "edge": 0.157
+ },
+ {
+  "team": "Texas Tech",
+  "final": 20.3,
+  "ew": 10.28,
+  "mline": 10.5,
+  "our_po": 0.516,
+  "mkt_po": 0.67,
+  "edge": -0.154
+ },
+ {
+  "team": "East Carolina",
+  "final": -0.4,
+  "ew": 8.0,
+  "mline": 7.5,
+  "our_po": 0.625,
+  "mkt_po": 0.473,
+  "edge": 0.153
+ },
+ {
+  "team": "Tulsa",
+  "final": -7.1,
+  "ew": 6.2,
+  "mline": 5.5,
+  "our_po": 0.625,
+  "mkt_po": 0.473,
+  "edge": 0.152
+ },
+ {
+  "team": "Nevada",
+  "final": -12.6,
+  "ew": 5.16,
+  "mline": 4.5,
+  "our_po": 0.598,
+  "mkt_po": 0.449,
+  "edge": 0.149
+ },
+ {
+  "team": "UTSA",
+  "final": -3.2,
+  "ew": 6.95,
+  "mline": 7.5,
+  "our_po": 0.421,
+  "mkt_po": 0.569,
+  "edge": -0.148
+ },
+ {
+  "team": "Washington State",
+  "final": -3.4,
+  "ew": 4.97,
+  "mline": 5.0,
+  "our_po": 0.393,
+  "mkt_po": 0.539,
+  "edge": -0.146
+ },
+ {
+  "team": "Navy",
+  "final": -2.3,
+  "ew": 7.29,
+  "mline": 7.5,
+  "our_po": 0.482,
+  "mkt_po": 0.625,
+  "edge": -0.143
+ },
+ {
+  "team": "Indiana",
+  "final": 23.9,
+  "ew": 9.74,
+  "mline": 10.5,
+  "our_po": 0.343,
+  "mkt_po": 0.485,
+  "edge": -0.142
+ },
+ {
+  "team": "UAB",
+  "final": -14.9,
+  "ew": 4.4,
+  "mline": 3.5,
+  "our_po": 0.634,
+  "mkt_po": 0.497,
+  "edge": 0.137
+ },
+ {
+  "team": "Colorado",
+  "final": 2.1,
+  "ew": 4.91,
+  "mline": 4.5,
+  "our_po": 0.546,
+  "mkt_po": 0.416,
+  "edge": 0.13
+ },
+ {
+  "team": "Liberty",
+  "final": -10.6,
+  "ew": 7.38,
+  "mline": 8.5,
+  "our_po": 0.327,
+  "mkt_po": 0.457,
+  "edge": -0.13
+ },
+ {
+  "team": "Vanderbilt",
+  "final": 11.7,
+  "ew": 6.56,
+  "mline": 5.5,
+  "our_po": 0.687,
+  "mkt_po": 0.558,
+  "edge": 0.129
+ },
+ {
+  "team": "Kent State",
+  "final": -19.9,
+  "ew": 4.07,
+  "mline": 3.5,
+  "our_po": 0.6,
+  "mkt_po": 0.473,
+  "edge": 0.127
+ },
+ {
+  "team": "Illinois",
+  "final": 7.0,
+  "ew": 6.36,
+  "mline": 7.5,
+  "our_po": 0.291,
+  "mkt_po": 0.411,
+  "edge": -0.119
+ },
+ {
+  "team": "Stanford",
+  "final": -0.5,
+  "ew": 4.4,
+  "mline": 3.5,
+  "our_po": 0.632,
+  "mkt_po": 0.513,
+  "edge": 0.118
+ },
+ {
+  "team": "West Virginia",
+  "final": 1.9,
+  "ew": 5.44,
+  "mline": 5.5,
+  "our_po": 0.471,
+  "mkt_po": 0.586,
+  "edge": -0.115
+ },
+ {
+  "team": "Wake Forest",
+  "final": 5.0,
+  "ew": 6.35,
+  "mline": 5.5,
+  "our_po": 0.643,
+  "mkt_po": 0.531,
+  "edge": 0.113
+ },
+ {
+  "team": "New Mexico",
+  "final": -4.2,
+  "ew": 7.53,
+  "mline": 7.5,
+  "our_po": 0.53,
+  "mkt_po": 0.643,
+  "edge": -0.113
+ },
+ {
+  "team": "Southern Miss",
+  "final": -14.9,
+  "ew": 4.57,
+  "mline": 3.5,
+  "our_po": 0.642,
+  "mkt_po": 0.529,
+  "edge": 0.113
+ },
+ {
+  "team": "Florida Atlantic",
+  "final": -9.9,
+  "ew": 5.43,
+  "mline": 5.5,
+  "our_po": 0.474,
+  "mkt_po": 0.586,
+  "edge": -0.112
+ },
+ {
+  "team": "Cincinnati",
+  "final": 3.8,
+  "ew": 5.78,
+  "mline": 5.5,
+  "our_po": 0.541,
+  "mkt_po": 0.431,
+  "edge": 0.11
+ },
+ {
+  "team": "Arizona State",
+  "final": 6.0,
+  "ew": 5.99,
+  "mline": 6.5,
+  "our_po": 0.4,
+  "mkt_po": 0.509,
+  "edge": -0.109
+ },
+ {
+  "team": "Alabama",
+  "final": 18.0,
+  "ew": 7.82,
+  "mline": 8.5,
+  "our_po": 0.397,
+  "mkt_po": 0.504,
+  "edge": -0.107
+ },
+ {
+  "team": "Duke",
+  "final": 5.3,
+  "ew": 6.32,
+  "mline": 5.5,
+  "our_po": 0.636,
+  "mkt_po": 0.531,
+  "edge": 0.106
+ },
+ {
+  "team": "Charlotte",
+  "final": -20.4,
+  "ew": 2.98,
+  "mline": 2.5,
+  "our_po": 0.537,
+  "mkt_po": 0.431,
+  "edge": 0.106
+ },
+ {
+  "team": "SMU",
+  "final": 11.4,
+  "ew": 8.06,
+  "mline": 8.5,
+  "our_po": 0.436,
+  "mkt_po": 0.541,
+  "edge": -0.105
+ },
+ {
+  "team": "Florida",
+  "final": 13.8,
+  "ew": 6.51,
+  "mline": 7.5,
+  "our_po": 0.337,
+  "mkt_po": 0.436,
+  "edge": -0.1
+ },
+ {
+  "team": "Purdue",
+  "final": 0.0,
+  "ew": 3.83,
+  "mline": 3.5,
+  "our_po": 0.532,
+  "mkt_po": 0.44,
+  "edge": 0.092
+ },
+ {
+  "team": "Houston",
+  "final": 8.6,
+  "ew": 7.47,
+  "mline": 7.5,
+  "our_po": 0.511,
+  "mkt_po": 0.602,
+  "edge": -0.091
+ },
+ {
+  "team": "Northern Illinois",
+  "final": -16.0,
+  "ew": 4.14,
+  "mline": 3.5,
+  "our_po": 0.588,
+  "mkt_po": 0.497,
+  "edge": 0.09
+ },
+ {
+  "team": "Pittsburgh",
+  "final": 7.9,
+  "ew": 7.28,
+  "mline": 7.5,
+  "our_po": 0.474,
+  "mkt_po": 0.562,
+  "edge": -0.087
+ },
+ {
+  "team": "Army",
+  "final": -2.7,
+  "ew": 7.28,
+  "mline": 7.5,
+  "our_po": 0.478,
+  "mkt_po": 0.562,
+  "edge": -0.084
+ },
+ {
+  "team": "Buffalo",
+  "final": -14.2,
+  "ew": 6.45,
+  "mline": 5.5,
+  "our_po": 0.678,
+  "mkt_po": 0.596,
+  "edge": 0.083
+ },
+ {
+  "team": "New Mexico State",
+  "final": -17.2,
+  "ew": 4.86,
+  "mline": 4.5,
+  "our_po": 0.541,
+  "mkt_po": 0.459,
+  "edge": 0.082
+ },
+ {
+  "team": "Iowa State",
+  "final": 1.6,
+  "ew": 5.39,
+  "mline": 5.5,
+  "our_po": 0.458,
+  "mkt_po": 0.378,
+  "edge": 0.08
+ },
+ {
+  "team": "Old Dominion",
+  "final": -5.9,
+  "ew": 7.03,
+  "mline": 7.5,
+  "our_po": 0.429,
+  "mkt_po": 0.509,
+  "edge": -0.08
+ },
+ {
+  "team": "Memphis",
+  "final": 0.5,
+  "ew": 7.83,
+  "mline": 7.5,
+  "our_po": 0.577,
+  "mkt_po": 0.497,
+  "edge": 0.079
+ },
+ {
+  "team": "Penn State",
+  "final": 17.2,
+  "ew": 9.09,
+  "mline": 8.5,
+  "our_po": 0.656,
+  "mkt_po": 0.578,
+  "edge": 0.078
+ },
+ {
+  "team": "Middle Tennessee",
+  "final": -18.9,
+  "ew": 4.55,
+  "mline": 3.5,
+  "our_po": 0.661,
+  "mkt_po": 0.584,
+  "edge": 0.077
+ },
+ {
+  "team": "Wyoming",
+  "final": -11.4,
+  "ew": 5.93,
+  "mline": 5.5,
+  "our_po": 0.562,
+  "mkt_po": 0.485,
+  "edge": 0.076
+ },
+ {
+  "team": "Mississippi State",
+  "final": 7.8,
+  "ew": 5.18,
+  "mline": 4.5,
+  "our_po": 0.605,
+  "mkt_po": 0.531,
+  "edge": 0.074
+ },
+ {
+  "team": "James Madison",
+  "final": -3.2,
+  "ew": 8.07,
+  "mline": 8.5,
+  "our_po": 0.456,
+  "mkt_po": 0.531,
+  "edge": -0.074
+ },
+ {
+  "team": "Arkansas",
+  "final": 6.5,
+  "ew": 4.59,
+  "mline": 4.5,
+  "our_po": 0.477,
+  "mkt_po": 0.406,
+  "edge": 0.071
+ },
+ {
+  "team": "Arizona",
+  "final": 10.4,
+  "ew": 7.55,
+  "mline": 7.5,
+  "our_po": 0.523,
+  "mkt_po": 0.453,
+  "edge": 0.07
+ },
+ {
+  "team": "Georgia Southern",
+  "final": -10.8,
+  "ew": 5.39,
+  "mline": 4.5,
+  "our_po": 0.649,
+  "mkt_po": 0.579,
+  "edge": 0.07
+ },
+ {
+  "team": "Temple",
+  "final": -10.9,
+  "ew": 5.1,
+  "mline": 5.5,
+  "our_po": 0.415,
+  "mkt_po": 0.485,
+  "edge": -0.07
+ },
+ {
+  "team": "Tulane",
+  "final": -0.2,
+  "ew": 7.36,
+  "mline": 7.5,
+  "our_po": 0.5,
+  "mkt_po": 0.431,
+  "edge": 0.069
+ },
+ {
+  "team": "Rice",
+  "final": -13.4,
+  "ew": 4.08,
+  "mline": 3.5,
+  "our_po": 0.576,
+  "mkt_po": 0.509,
+  "edge": 0.067
+ },
+ {
+  "team": "Coastal Carolina",
+  "final": -12.7,
+  "ew": 5.47,
+  "mline": 4.5,
+  "our_po": 0.637,
+  "mkt_po": 0.572,
+  "edge": 0.065
+ },
+ {
+  "team": "UTEP",
+  "final": -18.2,
+  "ew": 3.73,
+  "mline": 3.5,
+  "our_po": 0.511,
+  "mkt_po": 0.449,
+  "edge": 0.062
+ },
+ {
+  "team": "Michigan",
+  "final": 17.6,
+  "ew": 7.61,
+  "mline": 8.5,
+  "our_po": 0.345,
+  "mkt_po": 0.406,
+  "edge": -0.061
+ },
+ {
+  "team": "Texas A&M",
+  "final": 18.7,
+  "ew": 7.97,
+  "mline": 8.5,
+  "our_po": 0.413,
+  "mkt_po": 0.473,
+  "edge": -0.06
+ },
+ {
+  "team": "Virginia",
+  "final": 7.8,
+  "ew": 7.64,
+  "mline": 7.5,
+  "our_po": 0.54,
+  "mkt_po": 0.598,
+  "edge": -0.058
+ },
+ {
+  "team": "North Texas",
+  "final": -7.2,
+  "ew": 6.06,
+  "mline": 5.5,
+  "our_po": 0.587,
+  "mkt_po": 0.531,
+  "edge": 0.057
+ },
+ {
+  "team": "North Carolina",
+  "final": 3.4,
+  "ew": 5.17,
+  "mline": 4.5,
+  "our_po": 0.605,
+  "mkt_po": 0.551,
+  "edge": 0.054
+ },
+ {
+  "team": "Wisconsin",
+  "final": 7.0,
+  "ew": 6.31,
+  "mline": 6.5,
+  "our_po": 0.46,
+  "mkt_po": 0.513,
+  "edge": -0.053
+ },
+ {
+  "team": "South Carolina",
+  "final": 12.5,
+  "ew": 6.5,
+  "mline": 6.5,
+  "our_po": 0.492,
+  "mkt_po": 0.44,
+  "edge": 0.052
+ },
+ {
+  "team": "UCF",
+  "final": 3.9,
+  "ew": 6.27,
+  "mline": 5.5,
+  "our_po": 0.627,
+  "mkt_po": 0.576,
+  "edge": 0.051
+ },
+ {
+  "team": "BYU",
+  "final": 16.3,
+  "ew": 8.78,
+  "mline": 8.5,
+  "our_po": 0.593,
+  "mkt_po": 0.543,
+  "edge": 0.05
+ },
+ {
+  "team": "Akron",
+  "final": -18.8,
+  "ew": 4.42,
+  "mline": 4.5,
+  "our_po": 0.46,
+  "mkt_po": 0.509,
+  "edge": -0.049
+ },
+ {
+  "team": "UL Monroe",
+  "final": -19.1,
+  "ew": 3.92,
+  "mline": 3.5,
+  "our_po": 0.545,
+  "mkt_po": 0.497,
+  "edge": 0.048
+ },
+ {
+  "team": "Georgia State",
+  "final": -17.2,
+  "ew": 4.37,
+  "mline": 4.5,
+  "our_po": 0.446,
+  "mkt_po": 0.398,
+  "edge": 0.047
+ },
+ {
+  "team": "Maryland",
+  "final": 4.2,
+  "ew": 5.57,
+  "mline": 5.5,
+  "our_po": 0.505,
+  "mkt_po": 0.459,
+  "edge": 0.046
+ },
+ {
+  "team": "Florida State",
+  "final": 7.4,
+  "ew": 6.23,
+  "mline": 6.5,
+  "our_po": 0.443,
+  "mkt_po": 0.398,
+  "edge": 0.045
+ },
+ {
+  "team": "LSU",
+  "final": 19.2,
+  "ew": 8.08,
+  "mline": 8.5,
+  "our_po": 0.455,
+  "mkt_po": 0.497,
+  "edge": -0.043
+ },
+ {
+  "team": "USC",
+  "final": 18.5,
+  "ew": 7.99,
+  "mline": 8.5,
+  "our_po": 0.406,
+  "mkt_po": 0.449,
+  "edge": -0.043
+ },
+ {
+  "team": "Kentucky",
+  "final": 8.4,
+  "ew": 5.27,
+  "mline": 4.5,
+  "our_po": 0.608,
+  "mkt_po": 0.565,
+  "edge": 0.043
+ },
+ {
+  "team": "South Florida",
+  "final": -2.8,
+  "ew": 7.77,
+  "mline": 8.5,
+  "our_po": 0.397,
+  "mkt_po": 0.44,
+  "edge": -0.043
+ },
+ {
+  "team": "Louisiana Tech",
+  "final": -10.0,
+  "ew": 5.75,
+  "mline": 5.5,
+  "our_po": 0.543,
+  "mkt_po": 0.586,
+  "edge": -0.043
+ },
+ {
+  "team": "California",
+  "final": 3.0,
+  "ew": 5.95,
+  "mline": 6.5,
+  "our_po": 0.407,
+  "mkt_po": 0.449,
+  "edge": -0.042
+ },
+ {
+  "team": "Ball State",
+  "final": -22.7,
+  "ew": 3.83,
+  "mline": 3.5,
+  "our_po": 0.539,
+  "mkt_po": 0.497,
+  "edge": 0.042
+ },
+ {
+  "team": "Toledo",
+  "final": -9.5,
+  "ew": 7.33,
+  "mline": 7.5,
+  "our_po": 0.491,
+  "mkt_po": 0.531,
+  "edge": -0.04
+ },
+ {
+  "team": "Delaware",
+  "final": -12.7,
+  "ew": 5.8,
+  "mline": 5.5,
+  "our_po": 0.554,
+  "mkt_po": 0.594,
+  "edge": -0.04
+ },
+ {
+  "team": "Iowa",
+  "final": 13.4,
+  "ew": 7.77,
+  "mline": 7.5,
+  "our_po": 0.569,
+  "mkt_po": 0.531,
+  "edge": 0.038
+ },
+ {
+  "team": "Utah",
+  "final": 13.2,
+  "ew": 8.41,
+  "mline": 8.5,
+  "our_po": 0.522,
+  "mkt_po": 0.56,
+  "edge": -0.038
+ },
+ {
+  "team": "Colorado State",
+  "final": -12.0,
+  "ew": 3.76,
+  "mline": 3.5,
+  "our_po": 0.506,
+  "mkt_po": 0.544,
+  "edge": -0.038
+ },
+ {
+  "team": "Tennessee",
+  "final": 16.2,
+  "ew": 7.56,
+  "mline": 7.5,
+  "our_po": 0.522,
+  "mkt_po": 0.485,
+  "edge": 0.037
+ },
+ {
+  "team": "Marshall",
+  "final": -8.6,
+  "ew": 6.95,
+  "mline": 7.5,
+  "our_po": 0.412,
+  "mkt_po": 0.449,
+  "edge": -0.037
+ },
+ {
+  "team": "Missouri",
+  "final": 14.4,
+  "ew": 6.9,
+  "mline": 6.5,
+  "our_po": 0.577,
+  "mkt_po": 0.541,
+  "edge": 0.036
+ },
+ {
+  "team": "Ohio State",
+  "final": 29.6,
+  "ew": 9.85,
+  "mline": 9.5,
+  "our_po": 0.63,
+  "mkt_po": 0.596,
+  "edge": 0.035
+ },
+ {
+  "team": "Kansas State",
+  "final": 9.5,
+  "ew": 7.82,
+  "mline": 7.5,
+  "our_po": 0.575,
+  "mkt_po": 0.609,
+  "edge": -0.035
+ },
+ {
+  "team": "Washington",
+  "final": 15.0,
+  "ew": 7.67,
+  "mline": 7.5,
+  "our_po": 0.55,
+  "mkt_po": 0.584,
+  "edge": -0.034
+ },
+ {
+  "team": "TCU",
+  "final": 9.0,
+  "ew": 7.03,
+  "mline": 6.5,
+  "our_po": 0.603,
+  "mkt_po": 0.569,
+  "edge": 0.034
+ },
+ {
+  "team": "Louisville",
+  "final": 11.7,
+  "ew": 7.77,
+  "mline": 7.5,
+  "our_po": 0.569,
+  "mkt_po": 0.602,
+  "edge": -0.033
+ },
+ {
+  "team": "Georgia",
+  "final": 25.7,
+  "ew": 9.65,
+  "mline": 9.5,
+  "our_po": 0.585,
+  "mkt_po": 0.616,
+  "edge": -0.032
+ },
+ {
+  "team": "Arkansas State",
+  "final": -9.9,
+  "ew": 6.48,
+  "mline": 5.5,
+  "our_po": 0.675,
+  "mkt_po": 0.643,
+  "edge": 0.032
+ },
+ {
+  "team": "Eastern Michigan",
+  "final": -15.2,
+  "ew": 5.75,
+  "mline": 5.5,
+  "our_po": 0.544,
+  "mkt_po": 0.577,
+  "edge": -0.032
+ },
+ {
+  "team": "UNLV",
+  "final": -1.6,
+  "ew": 7.78,
+  "mline": 7.5,
+  "our_po": 0.573,
+  "mkt_po": 0.603,
+  "edge": -0.03
+ },
+ {
+  "team": "Ohio",
+  "final": -12.1,
+  "ew": 6.68,
+  "mline": 6.5,
+  "our_po": 0.54,
+  "mkt_po": 0.569,
+  "edge": -0.029
+ },
+ {
+  "team": "Kansas",
+  "final": 4.1,
+  "ew": 5.86,
+  "mline": 5.5,
+  "our_po": 0.55,
+  "mkt_po": 0.578,
+  "edge": -0.028
+ },
+ {
+  "team": "Georgia Tech",
+  "final": 6.3,
+  "ew": 6.13,
+  "mline": 6.5,
+  "our_po": 0.434,
+  "mkt_po": 0.459,
+  "edge": -0.026
+ },
+ {
+  "team": "Auburn",
+  "final": 13.1,
+  "ew": 6.64,
+  "mline": 6.5,
+  "our_po": 0.522,
+  "mkt_po": 0.497,
+  "edge": 0.025
+ },
+ {
+  "team": "Northwestern",
+  "final": 5.6,
+  "ew": 5.52,
+  "mline": 5.5,
+  "our_po": 0.497,
+  "mkt_po": 0.473,
+  "edge": 0.024
+ },
+ {
+  "team": "Virginia Tech",
+  "final": 7.6,
+  "ew": 6.85,
+  "mline": 6.5,
+  "our_po": 0.562,
+  "mkt_po": 0.582,
+  "edge": -0.02
+ },
+ {
+  "team": "Michigan State",
+  "final": 1.0,
+  "ew": 4.35,
+  "mline": 4.5,
+  "our_po": 0.447,
+  "mkt_po": 0.428,
+  "edge": 0.02
+ },
+ {
+  "team": "Troy",
+  "final": -8.1,
+  "ew": 6.79,
+  "mline": 6.5,
+  "our_po": 0.564,
+  "mkt_po": 0.584,
+  "edge": -0.02
+ },
+ {
+  "team": "Baylor",
+  "final": 5.2,
+  "ew": 6.05,
+  "mline": 6.5,
+  "our_po": 0.41,
+  "mkt_po": 0.391,
+  "edge": 0.019
+ },
+ {
+  "team": "Oklahoma",
+  "final": 19.1,
+  "ew": 7.57,
+  "mline": 7.5,
+  "our_po": 0.526,
+  "mkt_po": 0.543,
+  "edge": -0.017
+ },
+ {
+  "team": "Ole Miss",
+  "final": 20.1,
+  "ew": 8.02,
+  "mline": 7.5,
+  "our_po": 0.61,
+  "mkt_po": 0.595,
+  "edge": 0.015
+ },
+ {
+  "team": "Fresno State",
+  "final": -1.2,
+  "ew": 6.39,
+  "mline": 6.5,
+  "our_po": 0.494,
+  "mkt_po": 0.509,
+  "edge": -0.015
+ },
+ {
+  "team": "South Alabama",
+  "final": -11.4,
+  "ew": 5.77,
+  "mline": 5.5,
+  "our_po": 0.545,
+  "mkt_po": 0.531,
+  "edge": 0.014
+ },
+ {
+  "team": "Notre Dame",
+  "final": 27.5,
+  "ew": 10.88,
+  "mline": 11.5,
+  "our_po": 0.357,
+  "mkt_po": 0.37,
+  "edge": -0.013
+ },
+ {
+  "team": "Western Michigan",
+  "final": -7.7,
+  "ew": 7.01,
+  "mline": 7.5,
+  "our_po": 0.428,
+  "mkt_po": 0.44,
+  "edge": -0.012
+ },
+ {
+  "team": "Central Michigan",
+  "final": -12.4,
+  "ew": 6.26,
+  "mline": 6.5,
+  "our_po": 0.461,
+  "mkt_po": 0.449,
+  "edge": 0.012
+ },
+ {
+  "team": "UCLA",
+  "final": 6.5,
+  "ew": 6.11,
+  "mline": 6.5,
+  "our_po": 0.439,
+  "mkt_po": 0.449,
+  "edge": -0.011
+ },
+ {
+  "team": "Syracuse",
+  "final": -1.0,
+  "ew": 4.45,
+  "mline": 4.5,
+  "our_po": 0.459,
+  "mkt_po": 0.469,
+  "edge": -0.011
+ },
+ {
+  "team": "Utah State",
+  "final": -5.5,
+  "ew": 4.82,
+  "mline": 4.5,
+  "our_po": 0.554,
+  "mkt_po": 0.543,
+  "edge": 0.011
+ },
+ {
+  "team": "Nebraska",
+  "final": 8.0,
+  "ew": 6.2,
+  "mline": 6.5,
+  "our_po": 0.431,
+  "mkt_po": 0.44,
+  "edge": -0.009
+ },
+ {
+  "team": "Oklahoma State",
+  "final": 5.9,
+  "ew": 6.19,
+  "mline": 5.5,
+  "our_po": 0.609,
+  "mkt_po": 0.599,
+  "edge": 0.009
+ },
+ {
+  "team": "Oregon State",
+  "final": -6.4,
+  "ew": 4.76,
+  "mline": 4.0,
+  "our_po": 0.538,
+  "mkt_po": 0.529,
+  "edge": 0.009
+ },
+ {
+  "team": "Clemson",
+  "final": 11.3,
+  "ew": 7.62,
+  "mline": 7.5,
+  "our_po": 0.539,
+  "mkt_po": 0.531,
+  "edge": 0.008
+ },
+ {
+  "team": "Oregon",
+  "final": 28.3,
+  "ew": 10.17,
+  "mline": 10.5,
+  "our_po": 0.466,
+  "mkt_po": 0.459,
+  "edge": 0.006
+ },
+ {
+  "team": "Louisiana",
+  "final": -9.3,
+  "ew": 7.05,
+  "mline": 7.5,
+  "our_po": 0.439,
+  "mkt_po": 0.445,
+  "edge": -0.006
+ },
+ {
+  "team": "Jacksonville State",
+  "final": -10.3,
+  "ew": 7.25,
+  "mline": 7.5,
+  "our_po": 0.47,
+  "mkt_po": 0.465,
+  "edge": 0.006
+ },
+ {
+  "team": "Minnesota",
+  "final": 7.0,
+  "ew": 6.02,
+  "mline": 5.5,
+  "our_po": 0.59,
+  "mkt_po": 0.586,
+  "edge": 0.005
+ },
+ {
+  "team": "Sacramento State",
+  "final": -20.4,
+  "ew": 4.77,
+  "mline": 4.5,
+  "our_po": 0.517,
+  "mkt_po": 0.513,
+  "edge": 0.004
+ },
+ {
+  "team": "Kennesaw State",
+  "final": -13.0,
+  "ew": 6.2,
+  "mline": 6.5,
+  "our_po": 0.452,
+  "mkt_po": 0.449,
+  "edge": 0.003
+ },
+ {
+  "team": "Western Kentucky",
+  "final": -7.7,
+  "ew": 6.94,
+  "mline": 6.5,
+  "our_po": 0.614,
+  "mkt_po": 0.616,
+  "edge": -0.002
+ },
+ {
+  "team": "Air Force",
+  "final": -6.3,
+  "ew": 7.13,
+  "mline": 6.5,
+  "our_po": 0.617,
+  "mkt_po": 0.616,
+  "edge": 0.0
+ }
+]
