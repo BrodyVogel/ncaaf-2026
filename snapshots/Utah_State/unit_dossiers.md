@@ -23,17 +23,19 @@ QB None | RB None | WRTE 14 | OL 12 | DL 16 | LB 26 | DB 19 | ST 10
 
 ---
 
-## QB — planned 34 (confidence M)  [2026-07-19: was 32 L; Hillstead NAMED starter, battle resolved]
-Room: Barnes (76.6, the '25 starter) is yr4-GONE. McCae Hillstead was NAMED
-the 2026 starter (USU official, 2026-04-20) after winning a spring
-competition - the battle that drove the L is RESOLVED. Real prior FBS
-starting tape (4 starts, 1,062 yds, 11 TD as a USU true freshman '23; then
-BYU redshirt '24 / lost the '25 job) + Brosterhous (Virginia) depth. Robert
+## QB — planned 34 (confidence M)  [2026-07-19: was 32 L; refinement, NOT a corrected miss]
+Room: Barnes (76.6, the '25 starter) is yr4-GONE. The freeze grade already
+had McCae Hillstead as QB1 (correct — magazine + CFBD both had him) and
+graded 32 L on "limited recent sample." This is a confidence/level refine,
+not a fixed miss: he was officially NAMED starter (USU, 2026-04-20), and his
+prior production was under-weighted — 4 starts, 1,062 yds, 11 TD as a '23 USU
+true freshman (a full season, not just "399 vs JMU / 5 recent snaps"); then
+BYU redshirt '24 / lost the '25 job. Brosterhous (Virginia) depth. Robert
 Anae's offense. Mechanical: Mendenhall calls QB the team's "strongest
-position"; a returnee with starting tape + a clear staff endorsement, not a
-mystery. Maps ~QB p30-36. Bracket: FIU QB 15 < this 34 ~ New Mexico/San
-Diego State QB 34. M: job settled + FBS starting tape; the 2-yr recent-rep
-gap keeps it from higher.
+position" — a returnee with real starting tape + a clear staff endorsement.
+Maps ~QB p30-36. Bracket: FIU QB 15 < this 34 ~ New Mexico/San Diego State
+QB 34. M: job settled + prior FBS production; the 2-yr recent-rep gap keeps
+it from higher.
 
 ## RB — planned 40
 Room: Jacobs returns (202 att 73.2 -> 64.3 MWC-adj; BOLD; also a KR/PR

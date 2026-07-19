@@ -42,7 +42,7 @@
   "grader": "Opus (median-calibrated; archetype-watch applied; percentile-mapped; disposition gate resolved yr4 + a name-collision before grading); anchor values not consulted",
   "planned_vs_final_deviations": {
    "note": "all eight finals match the dossier planned lines (QB 32/RB 40/WRTE 34/OL 36/DL 36/LB 36/DB 36/ST 38).",
-   "qb_hillstead_named_2026-07-19": "QB 32 L -> 34 M (Pac-12 deep-research pass, owner-directed). Battle RESOLVED: McCae Hillstead named the starter 2026-04-20 (USU official) after a spring competition; he has prior USU starting production (4 st/1,062/11TD '23) and a strong Mendenhall endorsement ('strongest position'). Resolution + prior tape moves him to the proven-G5-starter tier (34) and L->M. Sources: utahstateaggies.com, deseret.com 2026-06-23."
+   "qb_hillstead_refine_2026-07-19": "QB 32 L -> 34 M (Pac-12 deep pass). NOT a missed resolution - the freeze grade correctly had Hillstead as QB1 (magazine + CFBD both had him); it was simply conservative (L, 'limited recent sample'). Refinement basis: official 2026-04-20 naming + Mendenhall 'strongest position' endorsement + foregrounding under-weighted prior production (4 st/1,062/11TD as a '23 freshman) -> L->M and +2 to the proven-starter tier. Sources: utahstateaggies.com, deseret.com 2026-06-23."
   },
   "shadow_proxy_divergence": {
    "note": "proxy (QB None, RB None, WRTE 14, OL 12, DL 16, LB 26, DB 19, ST 10) keys the as-played 2025 team tape; the roster is ~60% new so the proxy floors nearly every unit.",
@@ -62,9 +62,9 @@
     "San Diego State QB 2026 (34, peer)"
    ],
    "rationale_bullets": [
-    "McCae Hillstead NAMED the 2026 starter (Utah State official, 2026-04-20) after winning a spring competition - the battle that drove the L is RESOLVED. He has real prior FBS starting production (4 starts, 1,062 yds, 11 TD as a USU true freshman '23), then BYU (redshirt '24, lost the '25 job to Bachmeier), returned to Logan with 2 yrs left.",
-    "Coach Mendenhall calls QB the team's 'strongest position' and cited Hillstead's 'consistency, production, efficiency'; a returnee with prior starting tape + a clear staff endorsement, not a mystery.",
-    "34 (M, up from 32 L): now at the proven-G5-starter tier (~New Mexico/San Diego State 34) the grade previously placed him just below. M because the job is settled and he has FBS starting tape; the 2-yr recent-rep gap is why it's not higher."
+    "The freeze grade already had Hillstead as QB1 (correct - the magazine AND the CFBD portal pull both had him); it graded 32 L on 'unproven at USU / limited recent sample.' This pass is a CONFIDENCE/LEVEL refinement, NOT a corrected miss.",
+    "Two things push it up: (a) he was officially NAMED starter 2026-04-20 and Mendenhall calls QB the team's 'strongest position'; (b) his prior production was under-weighted - 4 starts, 1,062 yds, 11 TD as a '23 USU true freshman (a full productive season, not just the '399 vs JMU / 5 recent snaps' the grade cited).",
+    "34 (M, up from 32 L): the prior-production evidence puts him AT the proven-G5-starter tier (~New Mexico/San Diego State 34) rather than below it; M because the job is settled with a staff endorsement. The 2-yr recent-rep gap is why it's not higher."
    ],
    "key_players": [
     {
@@ -81,7 +81,7 @@
    "data_gaps": [
     "limited recent reps (barely played '24-'25 at BYU)"
    ],
-   "g5_guard_note": "Mountain West/Pac-12; Hillstead the NAMED starter (2026-04-20) with prior USU starting tape + coach endorsement. M."
+   "g5_guard_note": "Mountain West/Pac-12; Hillstead already the QB1 at freeze - this pass refines an over-conservative 32 L to 34 M on the official naming + coach endorsement + under-weighted prior production. M."
   },
   {
    "team": "Utah State",
