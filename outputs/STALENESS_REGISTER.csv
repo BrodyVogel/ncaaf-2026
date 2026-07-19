@@ -1,0 +1,86 @@
+team,conference,L_units,n_L,qb_L,final,rank,band,new_HC
+Charlotte,American Athletic,QB|OL|DL|LB|DB|ST,6,Y,-19.14,135,7.59,False
+Iowa,Big Ten,QB|DL|LB|ST,4,Y,12.42,21,6.72,
+Memphis,American Athletic,QB|OL|LB|ST,4,Y,0.05,63,7.59,Huff (SM) in for Silverfield (Arkansas) Dec 2025 - variance multiplier 1.13 applies
+North Texas,American Athletic,QB|OL|DL|DB,4,Y,-6.12,91,8.35,Neal Brown in for Eric Morris (OkState) Dec 2025 - x1.13 applies
+Temple,American Athletic,QB|DL|LB|DB,4,Y,-9.37,102,6.72,False
+New Mexico State,Conference USA,QB|RB|OL|LB,4,Y,-13.08,120,6.72,False
+Sacramento State,Mid-American,QB|RB|DL|DB,4,Y,-19.61,135,7.59,True
+UTEP,Mountain West,QB|WRTE|OL|DL,4,Y,-20.09,136,6.72,False
+Florida State,ACC,QB|OL|ST,3,Y,5.74,41,6.54,False
+Georgia Tech,ACC,QB|WRTE|DL,3,Y,4.66,49,6.54,False
+Tulane,American Athletic,QB|OL|LB,3,Y,-0.4,66,7.39,Hall promoted after Sumrall -> Florida - x1.13 applies (internal-continuity mitigant noted)
+Stanford,ACC,QB|WRTE|OL,3,Y,-1.91,73,7.39,True
+Boston College,ACC,QB|WRTE|DL,3,Y,-2.15,75,6.54,False
+Liberty,Conference USA,QB|RB|ST,3,Y,-6.49,92,6.54,False
+UConn,FBS Independents,QB|DB|ST,3,Y,-6.9,95,7.39,True
+North Dakota State,Mountain West,QB|WRTE|LB,3,Y,-8.67,101,7.19,False
+Southern Miss,Sun Belt,QB|DL|DB,3,Y,-11.95,114,8.13,True
+Colorado State,Pac-12,QB|WRTE|OL,3,Y,-12.36,115,7.39,True
+Rice,American Athletic,QB|LB|DB,3,Y,-12.76,117,6.54,False
+Wyoming,Mountain West,QB|WRTE|DL,3,Y,-13.59,121,6.54,False
+Nevada,Mountain West,QB|WRTE|LB,3,Y,-14.93,125,6.54,False
+Northern Illinois,Mountain West,QB|DL|LB,3,Y,-17.92,134,7.39,True
+Alabama,SEC,QB|OL,2,Y,14.63,18,6.36,False
+Clemson,ACC,QB|OL,2,Y,9.5,29,6.36,False
+Florida,SEC,QB|OL,2,Y,9.89,29,7.19,True
+Louisville,ACC,QB|ST,2,Y,9.41,29,6.36,False
+Virginia,ACC,QB|WRTE,2,Y,5.98,41,6.36,False
+Virginia Tech,ACC,QB|LB,2,Y,5.52,42,7.91,True
+North Carolina,ACC,QB|LB,2,Y,1.58,59,6.36,False
+East Carolina,American Athletic,QB|LB,2,Y,-1.1,71,6.36,False
+Washington State,Pac-12,QB|LB,2,Y,-4.12,85,7.91,True
+App State,Sun Belt,QB|WRTE,2,Y,-8.21,99,6.36,False
+Toledo,Mid-American,QB|WRTE,2,Y,-9.12,102,7.91,True
+Kennesaw State,Conference USA,QB|RB,2,Y,-8.97,103,6.36,False
+Coastal Carolina,Sun Belt,QB|OL,2,Y,-9.77,105,7.19,True
+Missouri State,Conference USA,QB|OL,2,Y,-11.55,115,7.19,True
+Buffalo,Mid-American,QB|LB,2,Y,-14.01,123,6.36,False
+San José State,Mountain West,QB|WRTE,2,Y,-15.58,126,6.36,False
+Akron,Mid-American,QB|LB,2,Y,-18.53,134,6.36,False
+Ball State,Mid-American,QB|LB,2,Y,-21.84,137,6.36,False
+Tennessee,SEC,QB,1,Y,12.55,21,6.18,False
+Vanderbilt,SEC,QB,1,Y,7.9,35,6.18,False
+Arkansas,SEC,QB,1,Y,3.02,54,6.98,True
+James Madison,Sun Belt,QB,1,Y,-0.39,65,6.98,True
+Navy,American Athletic,QB,1,Y,-1.34,71,6.18,False
+Fresno State,Pac-12,QB,1,Y,-2.31,75,6.18,False
+Utah State,Pac-12,QB,1,Y,-6.51,93,6.18,False
+Arkansas State,Sun Belt,QB,1,Y,-7.02,95,6.18,False
+Miami (OH),Mid-American,QB,1,Y,-7.41,95,6.18,False
+Ohio,Mid-American,QB,1,Y,-11.5,114,6.98,True
+Bowling Green,Mid-American,QB,1,Y,-13.67,121,6.18,False
+Massachusetts,Mid-American,QB,1,Y,-25.8,138,6.8,False
+UTSA,American Athletic,OL|DL|LB|DB,4,,-2.96,80,6.72,False
+Hawai'i,Mountain West,OL|DL|LB|ST,4,,-9.36,103,6.72,False
+Duke,ACC,WRTE|DL|DB,3,,3.72,51,6.54,False
+NC State,ACC,WRTE|DL|LB,3,,3.5,53,6.54,False
+California,ACC,RB|DL|LB,3,,1.27,60,7.39,True
+Iowa State,Big 12,WRTE|OL|LB,3,,-0.0,63,8.13,Campbell -> Penn State (Dec 5); Rogers (SDSU/Wazzu) hired - x1.13 applies
+South Florida,American Athletic,OL|LB|DB,3,,-2.42,77,7.39,Hartline in for Golesh (Auburn) - x1.13 applies
+UAB,American Athletic,DL|LB|DB,3,,-13.84,123,7.39,Mortensen first full season (interim after Dilfer mid-2025 firing) - x1.13 applies
+Middle Tennessee,Conference USA,RB|OL|DL,3,,-14.89,126,6.54,False
+Wake Forest,ACC,RB|WRTE,2,,2.98,54,6.36,False
+Army,American Athletic,LB|DB,2,,-2.18,74,6.36,False
+Syracuse,ACC,RB|WRTE,2,,-2.34,76,6.36,False
+UNLV,Mountain West,WRTE|DL,2,,-4.59,86,6.36,False
+Western Kentucky,Conference USA,OL|LB,2,,-4.14,86,6.36,False
+Oregon State,Pac-12,WRTE|OL,2,,-7.37,94,7.19,True
+Florida Atlantic,American Athletic,LB|DB,2,,-9.51,104,6.36,False
+Sam Houston,Conference USA,OL|LB,2,,-17.4,135,6.36,False
+Michigan,Big Ten,LB,1,,14.91,18,6.98,True
+South Carolina,SEC,OL,1,,8.47,32,6.18,False
+Illinois,Big Ten,LB,1,,5.75,41,6.18,False
+Pittsburgh,ACC,WRTE,1,,5.83,41,6.18,False
+Kentucky,SEC,LB,1,,4.5,49,6.98,True
+Mississippi State,SEC,OL,1,,4.0,51,6.18,False
+Baylor,Big 12,LB,1,,3.29,53,6.18,False
+Cincinnati,Big 12,WRTE,1,,2.95,55,6.18,False
+Boise State,Pac-12,WRTE,1,,1.6,60,6.18,False
+San Diego State,Pac-12,DB,1,,-1.48,72,6.18,False
+Texas State,Pac-12,DL,1,,-4.3,85,6.18,False
+Tulsa,American Athletic,LB,1,,-7.31,95,6.18,False
+Western Michigan,Mid-American,LB,1,,-8.22,98,6.18,False
+Air Force,Mountain West,DL,1,,-8.83,102,6.18,False
+Central Michigan,Mid-American,LB,1,,-12.81,117,6.18,False
+UL Monroe,Sun Belt,DB,1,,-16.18,132,6.18,False
