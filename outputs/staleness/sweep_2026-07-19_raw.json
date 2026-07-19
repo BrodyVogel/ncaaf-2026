@@ -1,0 +1,19 @@
+{"_meta":{"date":"2026-07-19","pass":"high-leverage L-units (QB/RB/DL/DB) pre-camp triage","method":"11 parallel conference researchers; current sources; owner guardrail = research must not force higher confidence; L stays L unless uncertainty genuinely resolves","units_triaged":96},
+"contradictions_and_directional":[
+ {"team":"California","unit":"DL","status":"RESOLVED_UP","note":"'strengthened rather than gutted'; veteran portal DL (Johnson/Oregon, Williams/UNT, Shepphard/MSU); caveat winter-portal, maybe known at freeze"},
+ {"team":"Duke","unit":"DL","status":"RESOLVED_DOWN","note":"rationale lists Wesley Williams (73.1) as RETURNER but he was DRAFTED R4 2026 NFL Draft -> GONE; returning production lower than graded"},
+ {"team":"NC State","unit":"DL","status":"RESOLVED_UP","note":"added experienced transfers Dyson(Tulane 11TFL/8sk), Adedire, Evans; better-resourced than 'low-grade youth' framing; spring-dated, unproven at ACC"},
+ {"team":"Stanford","unit":"QB","status":"RESOLVED_UP","note":"Warren recovered from ACL, QB rep at ACC Kickoff; downside risk resolved favorably; not official naming"},
+ {"team":"Florida Atlantic","unit":"DB","status":"RESOLVED_UP","note":"graded 'returns most of itself' but anchors Keys/Reid gone (RS-Sr); +4 P4 transfers (JK Johnson OSU/LSU, Foster LSU, Reynolds+Rooks Illinois); remade w/ pedigree, unproven"},
+ {"team":"Vanderbilt","unit":"QB","status":"STILL_OPEN","note":"graded 'clear #1 Curtis' contested; On3 projects Berlowitz; Lea calls it open; Curtis 'favorite not guaranteed'"},
+ {"team":"Miami (OH)","unit":"QB","status":"STILL_OPEN","note":"Gotkowski actually started 3 games + MAC title game run (more proven than 'unproven'); +Heavner (FHSU 3398/24); 3-way"},
+ {"team":"UConn","unit":"QB","status":"STILL_OPEN","note":"broader than Merklinger/Osborne; holdover Tucker McDonald took 1st-team spring reps, leading contender"},
+ {"team":"Bowling Green","unit":"QB","status":"RESOLVED_UP","note":"added Oregon transfer Austin Novosad (ex-4star top-130); contradicts 'only Najm has FBS tape'; Novosad thin production, not locked"},
+ {"team":"San José State","unit":"QB","status":"STILL_OPEN","note":"added Luke Weaver (ex-Hawaii), CFN projects QB1 over McDaniel; 'weak residue' framing missed him"},
+ {"team":"Colorado State","unit":"QB","status":"STILL_OPEN","note":"open 3-way now incl transfers Farrar(UConn)+Hejny(OkSt); 'no longer just Curry'; all inexperienced"},
+ {"team":"Southern Miss","unit":"QB","status":"STILL_OPEN","note":"John White (not in assumption) emerged; Hugh Price expected to redshirt (contradicts 'looming'); no starter named"},
+ {"team":"Texas State","unit":"DL","status":"RESOLVED_UP","note":"gutted DL rebuilt via portal: Bradford(McNeese 5.5sk/15.5TFL), Buchanan(UVA), James(Ark); refilled not empty"},
+ {"team":"Hawai'i","unit":"DL","status":"RESOLVED_UP","note":"restocked via portal (Elliott/PSU, Tomczyk/WVU, Pollard/Marian 5sk); CFN 'losses not enough to matter'; vs 'gutted PRSH front'"}
+],
+"named_starter_confirmations_battle_settled_but_quality_still_thin":["Florida State QB Daniels","Virginia QB Pribula(official)","Navy QB Woodson(captain)","UTEP QB Colson(named)","Utah State QB Hillstead(official)","Rice QB Brown(named)","Louisville QB Kienholz","Georgia Tech QB Mendoza","Boston College QB McKenzie","Massachusetts QB Watson","Akron QB Poffenbarger","Sacramento State QB Conklin","North Dakota State QB Hayes"],
+"still_open_QB_stay_L":["Alabama","Arkansas","Florida","Tennessee","Vanderbilt","Clemson","North Carolina","Tulane","Memphis","North Texas","Charlotte","East Carolina","Temple","Kennesaw State","Liberty","Missouri State","New Mexico State","Ball State","Buffalo","Ohio","Miami (OH)","Toledo","Nevada","Northern Illinois","Wyoming","Fresno State","Washington State","Colorado State","San José State","App State","Arkansas State","Coastal Carolina","James Madison","Southern Miss","Iowa","UConn"]}

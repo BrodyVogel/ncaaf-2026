@@ -1,14 +1,38 @@
 {
  "team": "Duke",
  "units": {
-  "QB": {"grade": 50, "confidence": "M"},
-  "RB": {"grade": 62, "confidence": "M"},
-  "WRTE": {"grade": 48, "confidence": "L"},
-  "OL": {"grade": 52, "confidence": "M"},
-  "DL": {"grade": 44, "confidence": "L"},
-  "LB": {"grade": 46, "confidence": "M"},
-  "DB": {"grade": 46, "confidence": "L"},
-  "ST": {"grade": 50, "confidence": "M"}
+  "QB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 62,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 48,
+   "confidence": "L"
+  },
+  "OL": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 42,
+   "confidence": "L"
+  },
+  "LB": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 46,
+   "confidence": "L"
+  },
+  "ST": {
+   "grade": 50,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,7 +40,10 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape, arrivals on origin cells; HC Diaz no change; disposition gate resolved before grading - QB-to-Miami + NFL-draft losses adjudicated vs both charts); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 50/RB 62/WRTE 48/OL 52/DL 44/LB 46/DB 46/ST 50)."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines (QB 50/RB 62/WRTE 48/OL 52/DL 44/LB 46/DB 46/ST 50).",
+   "dl_williams_draft_correction_2026-07-19": "DL 44 L -> 42 L (owner-directed staleness sweep). The grade counted Wesley Williams (73.1) as a returner, but he was drafted by Jacksonville in Round 4 of the 2026 NFL Draft (Apr 25 2026, pre-freeze) - a roster-accounting error. Removing a drafted starter-quality edge from an already reserve-heavy front drops the level one tier; O'Connor (75.9) remains the lone proven returner. Confidence stays L. Source: goduke.com/NFL.com 2026 draft."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 19, RB 97, WRTE 85, OL 66, DL 60, LB 40, DB 19, ST 72) keys as-played 2025 tape; the 2026 team lost its QB (Mensah), elite LT (Parker), and elite CB (Rivers).",
    "RB": "-35 vs proxy 97 - proxy keys the elite Sheppard alone; the grade credits him heavily but applies a room/depth discount.",
@@ -27,8 +54,14 @@
  },
  "grades_detail": [
   {
-   "team": "Duke", "unit": "QB", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Boston College QB 2026 (40, round peer)", "Wake Forest QB 2026 (54, round peer)"],
+   "team": "Duke",
+   "unit": "QB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Boston College QB 2026 (40, round peer)",
+    "Wake Forest QB 2026 (54, round peer)"
+   ],
    "rationale_bullets": [
     "Walker Eget (San Jose State transfer, 67.5/441 -> MWC -7.35 -> 60.2 adj) - proven (3,051 yds, 17-9), a level down from Mensah (84.1, ->Miami).",
     "Athlon: 'don't quite match Mensah's, but decent shape.'",
@@ -36,13 +69,27 @@
     "50: above the unproven tier (Eget has real production); below the proven-P4-starter tier. M."
    ],
    "key_players": [
-    {"name": "Walker Eget", "role": "QB1 (transfer, San Jose State)", "evidence": "67.5/441 (60.2 MWC-adj); 3,051 yds 17-9; proven, a level down"}
+    {
+     "name": "Walker Eget",
+     "role": "QB1 (transfer, San Jose State)",
+     "evidence": "67.5/441 (60.2 MWC-adj); 3,051 yds 17-9; proven, a level down"
+    }
    ],
-   "data_gaps": ["steps up from the MWC to replace elite Mensah", "new supporting cast at WR"], "g5_guard_note": null
+   "data_gaps": [
+    "steps up from the MWC to replace elite Mensah",
+    "new supporting cast at WR"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Duke", "unit": "RB", "grade": 62, "confidence": "M",
-   "bracketing_exemplars": ["Virginia Tech RB 2026 (60, round peer)", "Illinois RB 2025 (32, exemplar anchor context)"],
+   "team": "Duke",
+   "unit": "RB",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Virginia Tech RB 2026 (60, round peer)",
+    "Illinois RB 2025 (32, exemplar anchor context)"
+   ],
    "rationale_bullets": [
     "Nate Sheppard (89.5/200 -> ACC +4.90 -> 94.4 adj) - a STAR, 1,132 yds + 11 TD as a FRESHMAN, retained. + CJ Campbell (Rutgers) + Jaquez Moore (depth).",
     "An elite, PROVEN volume back (94.4 adj, well above RB p90) leads the room.",
@@ -50,13 +97,26 @@
     "62: above Virginia Tech RB 60 (Sheppard more proven/higher than Hawkins); a slight depth discount off the star's ceiling."
    ],
    "key_players": [
-    {"name": "Nate Sheppard", "role": "RB1 (returning, BOLD)", "evidence": "89.5/200 (94.4 ACC-adj); 1,132 yds 11 TD as a Fr; STAR, retained"}
+    {
+     "name": "Nate Sheppard",
+     "role": "RB1 (returning, BOLD)",
+     "evidence": "89.5/200 (94.4 ACC-adj); 1,132 yds 11 TD as a Fr; STAR, retained"
+    }
    ],
-   "data_gaps": ["ordinary depth behind Sheppard"], "g5_guard_note": null
+   "data_gaps": [
+    "ordinary depth behind Sheppard"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Duke", "unit": "WRTE", "grade": 48, "confidence": "L",
-   "bracketing_exemplars": ["Boston College WRTE 2026 (42, round peer)", "California WRTE 2026 (54, round peer context)"],
+   "team": "Duke",
+   "unit": "WRTE",
+   "grade": 48,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Boston College WRTE 2026 (42, round peer)",
+    "California WRTE 2026 (54, round peer context)"
+   ],
    "rationale_bullets": [
     "Lost the top-3 WRs (Barkate ->Miami, Que'Sean Brown ->VT, Chase Tyler ->Wake) + yr4 (Hagans, Anthony, King).",
     "Returns TE Hasley (74.7 adj) + Jayden Moore; adds Jared Richardson (Penn FCS, 1,000-yd), Javen Nicholas (Charlotte, 70.6), Kurisky (Louisville TE).",
@@ -64,14 +124,32 @@
     "48: above Boston College WRTE 42; the lost-WRs cap it. L."
    ],
    "key_players": [
-    {"name": "Jeremiah Hasley", "role": "TE (returning, BOLD)", "evidence": "72.3/323 (74.7 ACC-adj); top returning receiver"},
-    {"name": "Jared Richardson", "role": "WR (transfer, Penn FCS)", "evidence": "1,000-yd receiver; projected WR1"}
+    {
+     "name": "Jeremiah Hasley",
+     "role": "TE (returning, BOLD)",
+     "evidence": "72.3/323 (74.7 ACC-adj); top returning receiver"
+    },
+    {
+     "name": "Jared Richardson",
+     "role": "WR (transfer, Penn FCS)",
+     "evidence": "1,000-yd receiver; projected WR1"
+    }
    ],
-   "data_gaps": ["lost the top-3 WRs", "reload FCS/G5-heavy"], "g5_guard_note": null
+   "data_gaps": [
+    "lost the top-3 WRs",
+    "reload FCS/G5-heavy"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Duke", "unit": "OL", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["Clemson OL 2026 (48, round peer)", "California OL 2026 (44, round peer context)"],
+   "team": "Duke",
+   "unit": "OL",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Clemson OL 2026 (48, round peer)",
+    "California OL 2026 (44, round peer context)"
+   ],
    "rationale_bullets": [
     "Returns Craycraft (C, 71.9 adj) + Larsen (LG, 56.0) + Bradley Smith (G) + Sahakian (RT, back from injury); adds Del Grande (Coastal LT, 78.7 - 2x All-SBC).",
     "LOST elite LT Brian Parker II (85.5, NFL) + yr4 (Pickett, Fina).",
@@ -79,29 +157,61 @@
     "52: above Clemson OL 48 (Del Grande + Craycraft solid); the lost-Parker caps it."
    ],
    "key_players": [
-    {"name": "Matt Craycraft", "role": "C (returning, BOLD)", "evidence": "68.4/988 (71.9 ACC-adj)"},
-    {"name": "Nick Del Grande", "role": "LT (transfer, Coastal Carolina)", "evidence": "79.0/663 (78.7 adj); 2x All-SBC"}
+    {
+     "name": "Matt Craycraft",
+     "role": "C (returning, BOLD)",
+     "evidence": "68.4/988 (71.9 ACC-adj)"
+    },
+    {
+     "name": "Nick Del Grande",
+     "role": "LT (transfer, Coastal Carolina)",
+     "evidence": "79.0/663 (78.7 adj); 2x All-SBC"
+    }
    ],
-   "data_gaps": ["lost elite LT Parker (NFL)", "Sahakian returning from a lost season"], "g5_guard_note": null
+   "data_gaps": [
+    "lost elite LT Parker (NFL)",
+    "Sahakian returning from a lost season"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Duke", "unit": "DL", "grade": 44, "confidence": "L",
-   "bracketing_exemplars": ["California DL 2026 (42, round peer)", "Boston College DL 2026 (40, round peer)"],
+   "team": "Duke",
+   "unit": "DL",
+   "grade": 42,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "California DL 2026 (42, round peer)",
+    "Boston College DL 2026 (40, round peer)"
+   ],
    "rationale_bullets": [
-    "Reserve-heavy. Returns O'Connor (75.9 adj) + Wesley Williams (73.1) + Watson + Anderson + Reed + Bryce Davis; adds Wafle (PSU, small) + Quinonez (Dartmouth).",
-    "Lost Aaron Hall (72.6) + Josiah Green (74.3), both yr4.",
-    "A weak, reserve-heavy front off a bottom-half-D base (DEF p28) - Athlon 'needs a host of reserves to step into starting roles.'",
-    "44: O'Connor + Williams are decent; the weak base + reserve promotion cap it. L."
+    "Reserve-heavy. Returns O'Connor (75.9 adj) + Watson + Anderson + Reed + Bryce Davis; adds Wafle (PSU, small) + Quinonez (Dartmouth). [2026-07-19 correction: Wesley Williams (73.1), previously counted as a returner, was DRAFTED by Jacksonville in R4 of the 2026 NFL Draft -> GONE.]",
+    "Lost Aaron Hall (72.6) + Josiah Green (74.3), both yr4; and now Wesley Williams (R4 NFL Draft).",
+    "A weak, reserve-heavy front off a bottom-half-D base (DEF p28) - Athlon 'needs a host of reserves to step into starting roles'; the Williams draft loss thins it further.",
+    "42 (was 44): O'Connor the lone proven returner after Williams' draft departure; weak base + reserve promotion. L."
    ],
    "key_players": [
-    {"name": "Kevin O'Connor", "role": "EDGE (returning)", "evidence": "74.7/210 (75.9 ACC-adj)"},
-    {"name": "Wesley Williams", "role": "EDGE (returning)", "evidence": "71.9/639 (73.1 adj)"}
+    {
+     "name": "Kevin O'Connor",
+     "role": "EDGE (returning)",
+     "evidence": "74.7/210 (75.9 ACC-adj)"
+    }
    ],
-   "data_gaps": ["bottom-half defense base (DEF p28)", "reserve-heavy front"], "g5_guard_note": null
+   "data_gaps": [
+    "bottom-half defense base (DEF p28)",
+    "reserve-heavy front",
+    "Wesley Williams (73.1) drafted R4 - counted-returner correction 2026-07-19"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Duke", "unit": "LB", "grade": 46, "confidence": "M",
-   "bracketing_exemplars": ["Boston College LB 2026 (42, round peer)", "California LB 2026 (38, round peer context)"],
+   "team": "Duke",
+   "unit": "LB",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Boston College LB 2026 (42, round peer)",
+    "California LB 2026 (38, round peer context)"
+   ],
    "rationale_bullets": [
     "Luke Mergott (68.5 adj, returning #2 tackler) + Nick Morris (yr4-override, returning from ACL) + Kendall Johnson; adds Jon Morris (UConn).",
     "Lost Tre Freeman (yr4).",
@@ -109,14 +219,32 @@
     "46: above Boston College LB 42 ~ the mid tier."
    ],
    "key_players": [
-    {"name": "Luke Mergott", "role": "LB (returning)", "evidence": "66.4/788 (68.5 ACC-adj); #2 tackler"},
-    {"name": "Nick Morris Jr.", "role": "LB (returning, yr4-override)", "evidence": "60.2/150; returning from a torn ACL"}
+    {
+     "name": "Luke Mergott",
+     "role": "LB (returning)",
+     "evidence": "66.4/788 (68.5 ACC-adj); #2 tackler"
+    },
+    {
+     "name": "Nick Morris Jr.",
+     "role": "LB (returning, yr4-override)",
+     "evidence": "60.2/150; returning from a torn ACL"
+    }
    ],
-   "data_gaps": ["Morris returning from ACL", "thin depth"], "g5_guard_note": null
+   "data_gaps": [
+    "Morris returning from ACL",
+    "thin depth"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Duke", "unit": "DB", "grade": 46, "confidence": "L",
-   "bracketing_exemplars": ["California DB 2026 (48, round peer)", "Boston College DB 2026 (48, round peer)"],
+   "team": "Duke",
+   "unit": "DB",
+   "grade": 46,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "California DB 2026 (48, round peer)",
+    "Boston College DB 2026 (48, round peer)"
+   ],
    "rationale_bullets": [
     "Lost elite CB Rivers (79.2, NFL) + Weaver (yr4) + Francois (yr4) + Ma'khi Jones (->FSU).",
     "Returns Stone (S, 52.8) + Callahan (60.2) + Robinson (64.6) + Pellicciotta; adds Flowers (WKU, 72.4) + Evan Smith (NW, 76.4 small) + Smith-Young (UNT, 68.3) + Ojarikre (Stanford).",
@@ -124,14 +252,32 @@
     "46: the weak base + lost-Rivers cap it; ~ the round peers. L."
    ],
    "key_players": [
-    {"name": "Dylan Flowers", "role": "CB (transfer, Western Kentucky)", "evidence": "76.6/369 (72.4 adj)"},
-    {"name": "DaShawn Stone", "role": "S (returning, BOLD)", "evidence": "51.6/755 (52.8 adj); #3 tackler"}
+    {
+     "name": "Dylan Flowers",
+     "role": "CB (transfer, Western Kentucky)",
+     "evidence": "76.6/369 (72.4 adj)"
+    },
+    {
+     "name": "DaShawn Stone",
+     "role": "S (returning, BOLD)",
+     "evidence": "51.6/755 (52.8 adj); #3 tackler"
+    }
    ],
-   "data_gaps": ["lost elite CB Rivers (NFL)", "COV p24 base; transfers must jell"], "g5_guard_note": null
+   "data_gaps": [
+    "lost elite CB Rivers (NFL)",
+    "COV p24 base; transfers must jell"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Duke", "unit": "ST", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Virginia Tech ST 2026 (50, round peer)", "Duke ST (punter-led)"],
+   "team": "Duke",
+   "unit": "ST",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Virginia Tech ST 2026 (50, round peer)",
+    "Duke ST (punter-led)"
+   ],
    "rationale_bullets": [
     "K Cosme Salas (So - KO specialist stepping into placekicking; 'strong leg, must prove accurate') + P Kade Reynoldson (44.6 avg - 'one of ACC's better punters') + Sheppard PR.",
     "SPEC p72.",
@@ -139,10 +285,21 @@
     "50: above average; the kicker accuracy the question."
    ],
    "key_players": [
-    {"name": "Kade Reynoldson", "role": "P (returning)", "evidence": "44.6 avg; 'one of the ACC's better punters'"},
-    {"name": "Cosme Salas", "role": "K (returning)", "evidence": "KO specialist stepping into placekicking; must prove accurate"}
+    {
+     "name": "Kade Reynoldson",
+     "role": "P (returning)",
+     "evidence": "44.6 avg; 'one of the ACC's better punters'"
+    },
+    {
+     "name": "Cosme Salas",
+     "role": "K (returning)",
+     "evidence": "KO specialist stepping into placekicking; must prove accurate"
+    }
    ],
-   "data_gaps": ["kicker accuracy unproven"], "g5_guard_note": null
+   "data_gaps": [
+    "kicker accuracy unproven"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

@@ -66,13 +66,15 @@ Mechanical: 2-3 returners + a good SBC transfer (Del Grande) + Sahakian back,
 having lost its best (Parker). PBLK was p84. Maps ~OL p48-54. Bracket:
 Clemson OL 48 < this 52 (Del Grande + Craycraft solid); the lost-Parker caps it.
 
-## DL — planned 44 (confidence L)
-Room: reserve-heavy. Returns O'Connor (75.9 adj) + Wesley Williams (73.1) +
-Watson + Anderson + Reed + Bryce Davis; adds Wafle (PSU, small) + Quinonez
-(Dartmouth). Lost Aaron Hall (72.6) + Josiah Green (74.3), both yr4.
-Mechanical: a weak, reserve-heavy front off a bottom-half-D base (DEF p28) -
-Athlon "needs a host of reserves to step into starting roles." O'Connor +
-Williams are decent. Maps ~DL p40-46. Bracket: California DL 42 ~ this 44. L.
+## DL — planned 42 (confidence L)  [2026-07-19: was 44 L; Wesley Williams drafted, counted-returner correction]
+Room: reserve-heavy. Returns O'Connor (75.9 adj) + Watson + Anderson + Reed +
+Bryce Davis; adds Wafle (PSU, small) + Quinonez (Dartmouth). Lost Aaron Hall
+(72.6) + Josiah Green (74.3), both yr4 — AND Wesley Williams (73.1), who was
+DRAFTED by Jacksonville in R4 of the 2026 NFL Draft (previously mis-counted as
+a returner). Mechanical: a weak, reserve-heavy front off a bottom-half-D base
+(DEF p28) - Athlon "needs a host of reserves to step into starting roles."
+O'Connor the lone proven returner after the Williams draft loss. Maps ~DL
+p40-44. Bracket: California DL 42 ~ this 42. L.
 
 ## LB — planned 46
 Room: Luke Mergott (68.5 adj, returning #2 tackler) + Nick Morris (yr4-
@@ -113,13 +115,13 @@ p48-54. Peer rail: above average; the kicker accuracy the question.
 - Confidence: 3 L-units (WRTE lost-the-WRs; DL reserve-heavy; DB lost-Rivers/
   rebuild). Coach x1.00.
 
-PLANNED GRADES: QB 50 | RB 62 | WRTE 48 L | OL 52 | DL 44 L | LB 46 | DB 46 L | ST 50
+PLANNED GRADES: QB 50 | RB 62 | WRTE 48 L | OL 52 | DL 42 L | LB 46 | DB 46 L | ST 50
 
 ## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
 - QB: Darian Mensah (84.1/588) PORTAL->Miami
 - RB: Nate Sheppard (89.5/222) RETURNS; Anderson Castle (76.1/121) EXPIRED(yr4)*
 - WRTE: Cooper Barkate (75.4/470) PORTAL->Miami; Sahmir Hagans (61.6/414) EXPIRED(yr4)*; Que'Sean Brown (71.8/397) PORTAL->Virginia Tech; Jeremiah Hasley (72.3/323) RETURNS; Andrel Anthony (67.3/202) EXPIRED(yr4)*; Landen King (69.4/113) EXPIRED(yr4)*
 - OL: Matt Craycraft (68.4/988) RETURNS; Justin Pickett (67.9/988) EXPIRED(yr4)*; Bruno Fina (64.7/983) EXPIRED(yr4)*; Brian Parker II (85.5/902) NFL-DECLARE (research); Jordan Larsen (52.5/780) RETURNS; Bradley Smith (66.5/337) RETURNS
-- DL: Wesley Williams (71.9/639) RETURNS; Aaron Hall (72.6/621) EXPIRED(yr4)*; Vincent Anthony Jr. (58.2/589) EXPIRED(yr4)*; Josiah Green (74.3/544) EXPIRED(yr4)*; Preston Watson (67.2/305) RETURNS; Tyshon Reed (62.4/235) RETURNS; David Anderson (66.3/232) RETURNS; Kevin O'Connor (74.7/210) RETURNS; Bryce Davis (65.5/155) RETURNS; Semaj Turner (50.3/128) RETURNS
+- DL: Wesley Williams (71.9/639) DRAFTED->Jacksonville R4 2026 (was mis-counted RETURNS; corrected 2026-07-19); Aaron Hall (72.6/621) EXPIRED(yr4)*; Vincent Anthony Jr. (58.2/589) EXPIRED(yr4)*; Josiah Green (74.3/544) EXPIRED(yr4)*; Preston Watson (67.2/305) RETURNS; Tyshon Reed (62.4/235) RETURNS; David Anderson (66.3/232) RETURNS; Kevin O'Connor (74.7/210) RETURNS; Bryce Davis (65.5/155) RETURNS; Semaj Turner (50.3/128) RETURNS
 - LB: Luke Mergott (66.4/788) RETURNS; Tre Freeman (66.2/535) EXPIRED(yr4)*; Kendall Johnson (48.9/359) RETURNS; Nick Morris Jr. (60.2/150) RETURNS (yr4 override, May-print)
 - DB: Chandler Rivers (79.2/862) EXPIRED(yr4)*; Caleb Weaver (66.8/781) EXPIRED(yr4)*; DaShawn Stone (51.6/755) RETURNS; Jaiden Francois (61.0/753) EXPIRED(yr4)*; Landan Callahan (59.0/577) RETURNS; Kimari Robinson (63.4/554) RETURNS; Ma'khi Jones (65.8/305) PORTAL->Florida State; Andrew Pellicciotta (66.0/245) RETURNS; Moussa Kane (65.1/107) PORTAL->UConn

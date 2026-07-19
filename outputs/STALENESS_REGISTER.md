@@ -85,6 +85,20 @@ Focused check of the Tier-3 named items and the marquee Tier-2 battles. Pre-camp
 Nothing in this pass changed a grade. One item (Gethers) is a standing recommendation for
 owner approval; the rest are August watch items.
 
+## High-leverage sweep — 2026-07-19 (Opus; owner-directed)
+
+Full triage of the 96 high-leverage L-units (QB/DL/DB/RB) across 69 teams — 11 parallel
+researchers, adjudicated centrally under the guardrail "research must not force higher
+confidence." Full write-up: `outputs/staleness/SWEEP_2026-07-19.md`; raw findings:
+`outputs/staleness/sweep_2026-07-19_raw.json`.
+
+Result: **1 grade changed of 96** — Duke DL 44 L → 42 L (Wesley Williams counted as a
+returner but was drafted R4 2026; Duke 5.46→5.35). Everything else held: portal reloads
+the grader had already priced (Hawai'i DL, SJSU QB, NC State DL, FAU DB, …) stay L;
+starters named since freeze but still unproven (FSU/Virginia/Navy/UTEP/… QBs) keep their
+quality-L; ~35 QB battles remain genuinely open pre-camp. August fall camp is where the
+bulk resolves — that pass will move more than this one did.
+
 ## Sources (07-19 pass)
 
 - NMSU roster (Gethers, active 2026): https://nmstatesports.com/sports/football/roster/tory-gethers/11119
