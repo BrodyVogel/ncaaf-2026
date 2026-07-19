@@ -66,6 +66,14 @@ def ols(X, y):
     return b, y - X @ b
 
 
+def match_spread(x, target):
+    """Rescale x to the standard deviation of `target`, preserving x's mean. OLS fitted values
+    are shrunk toward the mean by ~sqrt(R^2); this un-shrinks the grade signal onto the anchor's
+    scale before it is blended. Mean-preserving — changes spread, never the field's center."""
+    mx = float(x.mean()); sx = float(x.std())
+    return x.copy() if sx < 1e-9 else mx + (x - mx) * (float(target.std()) / sx)
+
+
 def load_field():
     run = json.load(open(ANCHOR))
     A, cps = run["teams"], run["_meta"]["class_per_side"]
@@ -107,6 +115,14 @@ def main():
     r2o = 1 - ro.var() / yo.var(); r2d = 1 - rd.var() / yd.var()
     implied_off = Xo @ bo; implied_def = Xd @ bd
 
+    # ---- 1b. De-compress the grade signal, step 1: un-shrink the OLS fit ----
+    # OLS fitted values are shrunk toward the mean by ~sqrt(R^2) (off R2~0.67 -> ~82% of anchor
+    # spread, def R2~0.49 -> ~70%). Inflate each fitted side back onto the anchor's (fair) scale.
+    decompress = "--no-decompress" not in sys.argv   # de-compress the grade signal (2026-07-19)
+    if decompress:
+        implied_off = match_spread(implied_off, yo)
+        implied_def = match_spread(implied_def, yd)
+
     # ---- 2. Residual, adjustment, assembly (frozen formula) ----
     resid = (implied_off - yo) - (implied_def - yd)          # + = grades warmer than anchor
     conf_mean = {}
@@ -123,6 +139,20 @@ def main():
     refs = np.array([demean_ref(r) for r in rows])
     if demean:  # OFFICIAL: keep only within-pool roster shape
         resid = resid - refs
+    if decompress:
+        # De-compress step 2: remove the part of the grade residual that is linear in team
+        # strength. Even after un-shrinking (1b), the residual comes out negatively correlated
+        # with the anchor level (grades disagree more negatively for stronger teams) — that
+        # correlation IS the compression, and blending it at K=0.35 dragged every extreme toward
+        # the middle (top teams under, bottom over, even for top teams that never play a bottom-
+        # feeder). Strip the level-linear component; what remains is level-orthogonal, team-
+        # specific signal that never pulls extremes inward. 1b+2 together cut edge~line R^2
+        # 0.32->0.14 and restore the fair spread (SD ~13, matching KFord + market), Spearman 1.00
+        # vs the pre-fix ordering. --no-decompress reproduces the pre-fix (compressed) formula.
+        ancv = np.array([r["blend"] for r in rows])
+        Aq = np.column_stack([np.ones(n), ancv])
+        cq, _ = ols(Aq, resid)
+        resid = resid - Aq @ cq
     adj = np.clip(K * resid, -CAP, CAP)
     cls = np.array([-cps if r["p4"] else cps for r in rows])  # 0.0 in this run
     stv = np.array([(r["g"]["ST"] - 50) / 50 * 1.0 for r in rows])

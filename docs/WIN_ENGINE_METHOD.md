@@ -62,17 +62,14 @@ Across all 129 teams with posted regular-season totals:
 - **Mean edge ≈ 0.0%** — our probabilities are unbiased against the market on average. The
   disagreements are concentrated in specific teams (SD ≈ 8.9% of edge), which is exactly what
   a mispricing finder should produce, not a systematic tilt.
-- **Small residual compression.** Using the skew-robust edge diagnostic (not the naïve
-  E[wins]−line, which is contaminated by the bounded-support skew of win totals), the slope
-  of edge vs rating is −0.0019 — about a **±5% tilt at the extremes** (a touch high on the
-  weakest teams, a touch low on the strongest). A grid search showed this could be flattened
-  with a ~1.15× ratings stretch or by dropping σ_game, but **we left it in**:
-  - `sigma_game = 13.5` is the theoretically correct single-game value (CFB against-the-spread
-    residual SD); lowering it to fit season totals would break single-game calibration.
-  - The ratings are the product of the grading process and shouldn't be silently rescaled to
-    the market.
-  - The large individual edges are far bigger than the ±5% slope and are **idiosyncratic**
-    (e.g. UMass +20%, Boise −25%) — real disagreements to adjudicate, not the tilt.
+- **Rating-scale compression — diagnosed and fixed (2026-07-19).** The original ratings
+  carried a systematic tilt (back low-total dogs, fade high-total favorites; edge~line R² =
+  0.32 overall, 0.43 in the P4) traced to the grade→points OLS fit shrinking the grade signal.
+  It was de-compressed at the source (un-shrink the OLS fit + orthogonalize the grade residual
+  to team strength), cutting edge~line R² to 0.14/0.16 and restoring the fair spread (SD ≈ 13),
+  ordering unchanged. Full write-up in `docs/COMPRESSION_FIX.md`. Note `sigma_game = 13.5` was
+  kept (the theoretically correct single-game value); the fix was in the ratings' scale, not
+  the variance model.
 
 - **Biggest edge is real, not a bug.** North Dakota State (−0.52 edge) is a **reclassifying
   program** — a 9-time FCS champion making its FBS debut in the reshaped Mountain West. The
