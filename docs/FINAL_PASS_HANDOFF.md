@@ -1,7 +1,9 @@
 # FINAL PASS — handoff & repeat procedure (for Opus / any successor)
 
-Written 2026-07-18 by the Fable session that completed the 138-team field and ran the
-first production final pass. Owner: Brody. Read this before touching any grade or board.
+Written 2026-07-18/19 by the Fable session that completed the 138-team field, ran the
+first production final pass, and executed the owner's residual-mode decision. Owner:
+Brody. Read this before touching any grade or board. The step-by-step execution plan
+that remains is in docs/FINALIZATION_PLAN.md.
 
 ## 1. What the final pass is (and why it exists)
 
@@ -14,33 +16,37 @@ outputs/GRADING_BIAS_DIAG_2026-07-16.md:
    SHADOW-PROXY field — known inflated at the bottom (diag Finding 2) — and applied to
    each real-graded team out-of-sample.
 2. **Drifting recenter.** Each pilot final was recentered against whatever hybrid
-   (proxy + real) field existed on its grading day, so the recenter shift differed team
-   to team across the two-week build.
+   (proxy + real) field existed on its grading day.
 
-`pipeline/final_pass.py` fixes both at once: it refits the conversion by OLS on **all
-138 real grades** against the frozen anchor off/def splits, recomputes every residual
-under that one fit, reassembles every final under the frozen formula, and recenters the
-whole field once. It is the step every pilot readout promised ("real-grade refit happens
-at full 138") and the diag deferred to "the refit checkpoint" pending owner approval —
-approval given by Brody in the 2026-07-18 session.
+`pipeline/final_pass.py` fixes both: it refits the conversion by OLS on **all 138 real
+grades** against the frozen anchor off/def splits, recomputes every residual under that
+one fit, reassembles every final under the frozen formula, and recenters the whole
+field once. Deterministic (verified byte-identical across runs); hard-fails on a
+partial or mis-joined field.
 
-## 2. The frozen formula (do NOT change without owner approval)
+## 2. The formula (frozen constants; residual mode per the §6 decision)
 
 ```
 final = anchor_blend                      (frozen anchor run, class0, 2026-07-14)
       + class_term                        (class_per_side = 0.0 in this run)
-      + clip(0.35 * residual, ±6.0)       (K=0.35, CAP=6.0)
+      + clip(0.35 * residual', ±6.0)      (K=0.35, CAP=6.0)
       + (ST_grade - 50)/50                (max ±1 pt)
       - field_mean                        (one recenter over all 138)
 
-residual = (implied_off - anchor_off) - (implied_def - anchor_def)
+residual  = (implied_off - anchor_off) - (implied_def - anchor_def)
+residual' = residual - pool_mean(residual)          <- OFFICIAL mode (see §6)
+pool      = the team's conference; for the 2 FBS Independents (no conference):
+            Notre Dame -> the all-P4 pool mean, UConn -> the all-G5 pool mean
+            (pseudo-pools; anchor run's p4 flag decides class)
 implied_off/def = OLS(all-138 real grades -> anchor off/def), intercept included
 band = 6.0 x (1.13 if HC change) x (1.10 if anchor dispersion flag) x (1 + 0.03*min(L,5))
 ```
 
 Off units: QB RB WRTE OL. Def units: DL LB DB. Coordinator changes do NOT trigger the
-band — only head-coach changes do. The anchor run file is
-`outputs/anchor_runs/anchor_run_2026-07-14_class0.json` and is a FROZEN input.
+band — only head-coach changes. Anchor file:
+`outputs/anchor_runs/anchor_run_2026-07-14_class0.json` (FROZEN input).
+Do not change K, CAP, SIGMA, band multipliers, the class term, or the residual mode
+without owner approval.
 
 ## 3. The repeat loop (Brody plans to edit grades — this is the whole procedure)
 
@@ -48,81 +54,82 @@ band — only head-coach changes do. The anchor run file is
 1. Edit snapshots/<Team_Dir>/grades.json      # change units.<U>.grade / confidence
 2. Keep the paperwork consistent, or grades_check FAILS:
    - either update the dossier "PLANNED GRADES:" line in unit_dossiers.md to match, or
-   - declare the change in grades.json _meta.planned_vs_final_deviations (mention the unit)
+   - declare the change in grades.json _meta.planned_vs_final_deviations (name the unit)
 3. python3 pipeline/grades_check.py <Team_Dir>     # per-team gate must return OK
-4. python3 pipeline/final_pass.py                  # regenerates EVERYTHING
+4. python3 pipeline/final_pass.py                  # regenerates EVERYTHING (official mode)
 5. Read outputs/final_pass/REFIT_DIAG.md           # sanity-check (see §5)
 6. git add -A && git commit && git push
 ```
 
-Notes: the refit re-estimates the conversion on the EDITED grade set (a big edit to one
-team nudges everyone's weights slightly — that is by design; the fit is n=138 so single-
-team edits move weights only marginally). Grades are even integers by convention.
-final_pass.py is deterministic (verified: byte-identical across re-runs) and hard-fails
-if the field is not exactly 138 joined teams or any unit is missing.
+The refit re-estimates the conversion on the EDITED grade set; at n=138 a single-team
+edit moves the weights only marginally. Grades are even integers by convention.
 
 ## 4. What lives where (authority map)
 
 | file | status |
 |---|---|
-| `outputs/FINAL_BOARD_2026.csv` / `.md` | **AUTHORITATIVE** final board (refit) — regenerated by final_pass.py |
+| `outputs/FINAL_BOARD_2026.csv` / `.md` | **AUTHORITATIVE** board — regenerated only by final_pass.py default (official) mode |
 | `outputs/final_pass/ASSEMBLY.csv` | full per-team audit: anchor, implied O/D, resid, adj, ST, recenter, final, band |
-| `outputs/final_pass/REFIT_DIAG.md` | weights, R², level slope, cap census, conference resid table, movers |
-| `outputs/grade_board.csv` | pilot-era at-grading-time finals — HISTORICAL AUDIT ONLY; grading-peer lookup still valid |
-| `outputs/final_pass/*_demeaned.*` | the optional variant's outputs (see §6) — never authoritative unless owner adopts |
+| `outputs/final_pass/REFIT_DIAG.md` | weights, R², level slope, cap census, removed conference component, movers |
+| `outputs/final_pass/*_frozen.*` | the pre-decision (full-residual) comparison variant, via `--frozen-resid` — never authoritative |
+| `outputs/grade_board.csv` | pilot-era at-grading-time finals — HISTORICAL AUDIT ONLY; still the grading peer-rail |
 | `snapshots/<Team>/grades.json` | the only file you edit to change a team's rating |
-
-`build_board.py` still regenerates grade_board.csv from pilot JSONs (useful as the
-grading-time audit + peer rail); it does NOT produce the official ratings anymore.
 
 ## 5. Sanity checks after every final_pass run (60 seconds)
 
-- 138 teams joined, no assertion errors (the script hard-fails otherwise).
-- R² in a sane range (2026-07-18 baseline: off 0.67, def 0.49). A collapse (<0.3) or a
-  jump to ~1.0 means a data problem, not a better model.
-- Level slope (diagnostic only): baseline **-0.363**. It measures scale compression —
-  grades read elite teams cooler / bad teams warmer than anchors. It NEVER enters finals.
-- Cap census: baseline 3 teams (Middle Tennessee, Sam Houston, UL Monroe). Many more
-  capped teams = something structural changed.
-- Movers vs prior board small and explainable; Spearman ~0.99+ unless grades were edited.
-- Recenter shift near +0.6 (baseline +0.59).
+Baselines from the adopted official run (2026-07-19 @ demean default):
+- 138 teams joined, no assertion errors.
+- R²: off **0.67**, def **0.49**. A collapse (<0.3) or a jump to ~1.0 = data problem.
+- Level slope (diagnostic only, never enters finals): **-0.146** official mode
+  (frozen-mode reference -0.363).
+- Cap census: **0** teams capped in official mode (frozen-mode reference: 3).
+- Recenter shift ~ **+0.55**; movers small and explainable; Spearman vs prior ~0.99+
+  unless grades were edited.
+- Post-demean conference mean residuals ≈ 0 (by construction) — shown in the diag.
 
-## 6. The one OPEN DESIGN DECISION (owner's call, quantified and waiting)
+## 6. DECISION RECORD — residual mode (owner: Brody, 2026-07-19)
 
-The refit exposed a strong **between-conference residual pattern** (REFIT_DIAG table):
-CUSA mean resid +13.2, Sun Belt +10.1 vs Mountain West -9.0, SEC -7.6. Under the frozen
-formula this uniformly lifts every CUSA final ~+4.6 and every SBC final ~+3.5 above the
-market anchors, and fades MWC ~-3.2 / SEC ~-2.7. Two readings:
-- partly **scale compression** (a linear grade->points map can't span the anchor range;
-  the level slope -0.363 is the same phenomenon), and
-- possibly some **genuine model-vs-market disagreement** at the G5 floor.
-The VALIDATED part of the residual signal is within-conference ordering (diag Finding 3,
-Spearman 0.94); the cross-conference level component is UNVALIDATED.
+**Adopted: conference-demeaned residual as the OFFICIAL mode** (default in
+final_pass.py). Owner policy: "no conference biases unless quantitatively verified; a
+P4/G5 bias conceivable with significant evidence; per-conference edges presumptively
+distrusted given realignment turnover."
 
-`python3 pipeline/final_pass.py --demean-conf-resid` produces the variant board where
-only within-conference shape enters (level slope collapses to -0.154; zero teams cap;
-CUSA drops ~4.6 toward the anchors, relative order unchanged). It writes ONLY to
-outputs/final_pass/*_demeaned.* — the official board stays frozen-formula until Brody
-says otherwise. If he adopts it, make the flag the default, note the adoption here and
-in the commit, and regenerate.
+Basis, on the record:
+- A direct backtest of the grades' conference-level signal is **impossible** — no
+  historical grades exist from this two-week-old process.
+- The indirect evidence points artifact: the churn rationale was backtest-refuted at
+  n=651 (diag Finding 5); the conference-level component is unstable across fit regimes
+  (AAC flipped -2.4 -> +2.9, Finding 2); the pattern is mechanically confounded with
+  scale compression (level slope -0.363, conferences are level clusters).
+- The class-level (P4/G5) effect the owner would entertain was already measured in the
+  anchor run's class test (2026-07-15): **+0.15 pts, t=0.3 — nil.** Conference demeaning
+  also removes any class component, so nothing evidenced is lost.
+- Realignment makes historical per-conference estimates non-stationary (2026 CUSA
+  contains two FBS newcomers), which caps how convincing any conference backtest could
+  ever be — per the owner's own standard.
+- Effect of adoption: SEC/MWC return ~+2.6/+3.1 toward their anchors, CUSA/SBC drop
+  ~-3.5..-4.7 back to theirs; within-conference ordering (the validated signal,
+  Spearman 0.94) is untouched; 0 teams cap.
+
+Pseudo-pools: the 2 Independents demean against their class pool (ND -> all-P4 mean,
+UConn -> all-G5 mean) — a conference-mean is meaningless for an n=2 "conference" of
+unrelated teams. `--frozen-resid` reproduces the pre-decision board for comparison
+only. Reversal of this decision = owner instruction + flip the default + update this
+record.
 
 ## 7. Known open items a bettor (or successor) should keep in mind
 
 1. **Diag Finding 4 (unresolved):** with grades held fixed, MAC defenses carry a -4.24
-   def-dummy (anchors expect ~+4.6 more margin than the grades imply) — possibly genuine
-   MAC-defense under-grading. Investigate before trusting MAC totals.
-2. **Capped teams** (MTSU, Sam Houston, ULM) are where the model and market disagree
-   most, in the worst-data segment. Treat as uncertainty, not edge.
-3. **Staleness:** all snapshots frozen ~2026-07-18. Open QB battles graded as battles
-   (Liberty, WKU, Missouri State, NMSU, Sam Houston-settled, UConn...), NMSU LB Tory
-   Gethers counted GONE (uncommitted-in-portal — would be modest LB upside if he
-   returns). Re-verify L-flagged units + August camp news before wagering.
-4. **Tooling flags** (outputs/FORWARD_FLAGS.csv, display-layer only, grades unaffected):
-   team_dump.py percentile matcher — 'LA MONROE' (UL Monroe), 'Houston' substring
-   collision (Sam Houston), 'Connecticut' (UConn). Fix before future re-runs.
-5. **Notre Dame IND-cell judgment:** ND graded at elite/P4 level (IND cell NOT applied,
-   documented in its grades.json _meta); a positive-P4-cell reading would add ~2-4 pts.
-   UConn graded G5 (IND cell on its 3 returners; arrivals on origin cells).
-6. Ratings are neutral-field margins. Game conversion needs HFA (~2-2.5) and win-total
-   conversion needs a full schedule sim (schedule_2026.json exists in every snapshot's
-   pulls/) — the board is the INPUT to win totals, not the edges themselves.
+   def-dummy. Investigate before trusting MAC totals. (Note: conference demeaning now
+   neutralizes its *level* effect on finals; the question of MAC defense grading
+   accuracy remains open for within-MAC ordering.)
+2. **Staleness:** snapshots frozen ~2026-07-18. 52 teams carry an L-graded QB (open or
+   thin QB situations); 31 teams carry >=3 L units. Re-verify per
+   docs/FINALIZATION_PLAN.md Step 3 before wagering.
+3. **Tooling flags** (outputs/FORWARD_FLAGS.csv, display-layer only): team_dump.py
+   percentile matcher — 'LA MONroe' (UL Monroe), 'Houston' substring (Sam Houston),
+   'Connecticut' (UConn). Fix before future re-grades.
+4. **Notre Dame IND-cell judgment:** ND graded at elite/P4 level (IND cell NOT applied);
+   a positive-P4-cell reading would add ~2-4 pts. UConn graded G5.
+5. Ratings are neutral-field margins. Win totals require the schedule conversion
+   (FINALIZATION_PLAN Step 4) — the board is the INPUT, not the edges.

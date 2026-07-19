@@ -16,42 +16,42 @@
 intercepts: off +8.09, def +39.54
 
 ## Level slope (diagnostic only; NEVER enters the final)
-- resid ~ a + b*(anchor margin) at n=138: slope **-0.146** (R² 0.19); proxy-regime constant was -0.541 (diag predicted collapse; n=61 gave -0.163).
+- resid ~ a + b*(anchor margin) at n=138: slope **-0.363** (R² 0.38); proxy-regime constant was -0.541 (diag predicted collapse; n=61 gave -0.163).
 
-## Residual census — post-mode residual (mean +0.062; in official mode each conference mean is ≈0 by construction)
-- capped at ±6.0: **0** teams: (none)
-- |resid| p50 3.09 / p90 7.02 / max 13.33
+## Residual census — post-mode residual (mean +0.000; in official mode each conference mean is ≈0 by construction)
+- capped at ±6.0: **3** teams: Middle Tennessee, Sam Houston, UL Monroe
+- |resid| p50 4.75 / p90 12.37 / max 19.81
 
 ## Mean residual by conference (grades-vs-anchor, refit regime)
 | conference | n | mean resid | min | max |
 |---|--:|---:|---:|---:|
-| SEC | 16 | -0.00 | -7.5 | +7.2 |
-| Mid-American | 13 | -0.00 | -13.3 | +10.3 |
-| Big 12 | 16 | +0.00 | -6.3 | +4.4 |
-| American Athletic | 14 | +0.00 | -9.2 | +9.7 |
-| Big Ten | 18 | +0.00 | -7.6 | +5.7 |
-| Sun Belt | 14 | +0.00 | -9.4 | +8.4 |
-| Pac-12 | 8 | +0.00 | -6.8 | +5.9 |
-| ACC | 17 | +0.00 | -7.1 | +6.0 |
-| Mountain West | 10 | +0.00 | -7.9 | +5.9 |
-| Conference USA | 10 | +0.00 | -6.0 | +6.6 |
-| FBS Independents | 2 | +4.30 | -1.1 | +9.7 |
+| Mountain West | 10 | -9.03 | -17.0 | -3.1 |
+| SEC | 16 | -7.58 | -15.1 | -0.4 |
+| Big 12 | 16 | -2.25 | -8.5 | +2.1 |
+| Pac-12 | 8 | -2.08 | -8.9 | +3.9 |
+| ACC | 17 | -1.84 | -9.0 | +4.2 |
+| Mid-American | 13 | -1.27 | -14.6 | +9.0 |
+| Big Ten | 18 | -0.21 | -7.8 | +5.5 |
+| American Athletic | 14 | +2.42 | -6.8 | +12.1 |
+| FBS Independents | 2 | +4.26 | -4.0 | +12.5 |
+| Sun Belt | 14 | +10.08 | +0.6 | +18.5 |
+| Conference USA | 10 | +13.23 | +7.2 | +19.8 |
 
-## Movers vs the pilot-era board (mean |Δ| 2.12, max 4.75; rank Spearman vs pilot-era 0.990)
+## Movers vs the pilot-era board (mean |Δ| 1.06, max 3.75; rank Spearman vs pilot-era 0.999)
 | biggest UP | Δ | | biggest DOWN | Δ |
 |---|---:|---|---|---:|
-| Ole Miss | +4.75 | | New Mexico State | -4.14 |
-| Georgia | +4.47 | | Liberty | -4.08 |
-| LSU | +4.41 | | Kennesaw State | -4.03 |
-| Texas | +4.40 | | Missouri State | -4.03 |
-| Oklahoma | +4.33 | | Middle Tennessee | -4.02 |
-| Texas A&M | +4.13 | | Florida International | -3.84 |
-| Auburn | +4.06 | | Jacksonville State | -3.82 |
-| South Carolina | +4.01 | | Delaware | -3.69 |
-| Missouri | +3.93 | | Sam Houston | -3.60 |
-| Notre Dame | +3.91 | | Western Kentucky | -3.53 |
+| Oregon | +3.75 | | Ball State | -1.28 |
+| Ohio State | +3.17 | | Massachusetts | -1.28 |
+| Notre Dame | +2.93 | | UTEP | -1.25 |
+| USC | +2.88 | | Northern Illinois | -1.21 |
+| Michigan | +2.64 | | North Dakota State | -1.18 |
+| BYU | +2.46 | | Sacramento State | -1.17 |
+| Miami | +2.29 | | San José State | -1.00 |
+| Indiana | +2.27 | | Wyoming | -0.98 |
+| Penn State | +2.27 | | Ohio | -0.96 |
+| Ole Miss | +2.13 | | Nevada | -0.83 |
 
-## Conference-level component REMOVED (official mode) — owner decision 2026-07-19
+## Conference-level component would be removed (frozen comparison run) — owner decision 2026-07-19
 The k*clip(resid) term otherwise moves every team in a conference by ~k x (conference
 mean resid) on top of its within-conference shape. Demeaning drops that shared component.
 Independents pseudo-pooled: ND -> all-P4 mean (-2.89), UConn -> all-G5 mean (+2.81).
@@ -73,5 +73,5 @@ Independents pseudo-pooled: ND -> all-P4 mean (-2.89), UConn -> all-G5 mean (+2.
 
 ## Provenance
 - anchor run: outputs/anchor_runs/anchor_run_2026-07-14_class0.json (frozen); class_per_side 0.0; teams 138/138 joined
-- constants: K=0.35 CAP=6.0 SIGMA=6.0; recenter shift +0.552; mode OFFICIAL (conference-demeaned; IND pseudo-pooled)
+- constants: K=0.35 CAP=6.0 SIGMA=6.0; recenter shift +0.588; mode FROZEN-RESID comparison variant
 - pilot-era finals (at-grading-time, proxy-fit OOS) remain in outputs/grade_board.csv as the audit trail.

@@ -28,12 +28,20 @@ REPEAT LOOP (after any grade edit):
   3. python3 pipeline/final_pass.py                  # refit + rebuild everything
   Outputs regenerate deterministically; the refit re-estimates on the edited grades.
 
-OPTIONAL VARIANT (--demean-conf-resid): subtracts each conference's mean residual
-before the k*clip step, so ONLY within-conference roster shape (the validated
-signal, diag Finding 3) enters the final — the cross-conference level disagreement
-(unvalidated; partly scale compression) is dropped. Writes ALT outputs under
-outputs/final_pass/ (never overwrites the official boards). Default OFF = the
-frozen formula. Adopting it as official requires owner approval.
+RESIDUAL MODE — DECISION RECORD (owner: Brody, 2026-07-19):
+  DEFAULT (OFFICIAL) = CONFERENCE-DEMEANED residual. Each conference's mean residual
+  is subtracted before the k*clip step, so ONLY within-conference roster shape (the
+  validated signal, diag Finding 3, Spearman 0.94) enters the final. The cross-
+  conference level component is removed per owner policy: "no conference biases
+  unless quantitatively verified" — it is unverifiable directly (no historical
+  grades), the churn rationale was backtest-refuted (Finding 5), it is unstable
+  across fit regimes (Finding 2), and the P4/G5 class effect measured nil
+  (+0.15 pts, t=0.3, anchor-run class test 2026-07-15).
+  PSEUDO-POOLS for the 2 Independents (no real conference): Notre Dame demeans
+  against the ALL-P4 pool mean, UConn against the ALL-G5 pool mean (anchor p4 flag).
+  --frozen-resid runs the pre-decision formula (full residual, no demeaning) for
+  comparison; it writes ONLY to outputs/final_pass/*_frozen.* — never the official
+  boards. (--demean-conf-resid is accepted as a no-op for back-compatibility.)
 
 OUTPUTS:
   outputs/final_pass/ASSEMBLY.csv        per-team: anchor, implied O/D, resid, adj,
@@ -87,7 +95,7 @@ def load_field():
 
 
 def main():
-    demean = "--demean-conf-resid" in sys.argv
+    demean = "--frozen-resid" not in sys.argv   # DEFAULT = demeaned (owner decision 2026-07-19)
     rows, cps = load_field()
     n = len(rows); ones = np.ones(n)
 
@@ -105,8 +113,16 @@ def main():
     for r, rs in zip(rows, resid):
         conf_mean.setdefault(r["conf"], []).append(float(rs))
     conf_mean = {c: float(np.mean(v)) for c, v in conf_mean.items()}
-    if demean:  # variant: keep only within-conference shape
-        resid = resid - np.array([conf_mean[r["conf"]] for r in rows])
+    # pseudo-pools for the 2 Independents: ND -> all-P4 mean, UConn -> all-G5 mean
+    p4_mean = float(np.mean([rs for r, rs in zip(rows, resid) if r["p4"]]))
+    g5_mean = float(np.mean([rs for r, rs in zip(rows, resid) if not r["p4"]]))
+    def demean_ref(r):
+        if r["conf"] == "FBS Independents":
+            return p4_mean if r["p4"] else g5_mean
+        return conf_mean[r["conf"]]
+    refs = np.array([demean_ref(r) for r in rows])
+    if demean:  # OFFICIAL: keep only within-pool roster shape
+        resid = resid - refs
     adj = np.clip(K * resid, -CAP, CAP)
     cls = np.array([-cps if r["p4"] else cps for r in rows])  # 0.0 in this run
     stv = np.array([(r["g"]["ST"] - 50) / 50 * 1.0 for r in rows])
@@ -147,9 +163,9 @@ def main():
                              capture_output=True, text=True).stdout.strip()
     stamp = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
     os.makedirs("outputs/final_pass", exist_ok=True)
-    tag = "_demeaned" if demean else ""
-    board_csv = f"outputs/final_pass/FINAL_BOARD{tag}.csv" if demean else "outputs/FINAL_BOARD_2026.csv"
-    board_md = f"outputs/final_pass/FINAL_BOARD{tag}.md" if demean else "outputs/FINAL_BOARD_2026.md"
+    tag = "" if demean else "_frozen"
+    board_csv = "outputs/FINAL_BOARD_2026.csv" if demean else f"outputs/final_pass/FINAL_BOARD{tag}.csv"
+    board_md = "outputs/FINAL_BOARD_2026.md" if demean else f"outputs/final_pass/FINAL_BOARD{tag}.md"
 
     # ---- ASSEMBLY.csv (full audit trail) ----
     with open(f"outputs/final_pass/ASSEMBLY{tag}.csv", "w", newline="") as f:
@@ -173,11 +189,15 @@ def main():
             r = rows[i]
             w.writerow([rk, r["name"], r["conf"], f"{final[i]:.2f}", f"{band[i]:.2f}",
                         sum(r["g"][u] for u in OFF + DEF + ["ST"]), "Y" if r["coach"] else ""])
-    variant_note = " — VARIANT: conference-demeaned residual (NOT the official board)" if demean else ""
+    variant_note = ("" if demean else
+                    " — FROZEN-RESID VARIANT (pre-decision formula; NOT the official board)")
+    mode_line = ("residual mode: CONFERENCE-DEMEANED (official; Independents pseudo-pooled ND->P4, UConn->G5)"
+                 if demean else "residual mode: frozen (full residual; comparison only)")
     L = [f"# 2026 Preseason FBS Power Ratings — Final Board (full-138 REFIT){variant_note}", "",
          f"Produced by pipeline/final_pass.py @ {git_rev} on {stamp}. Conversion refit on all 138",
          "real grades (R² off %.2f / def %.2f); one consistent recenter (%+.2f). power_rating =" % (r2o, r2d, -shift),
-         "projected neutral-field margin vs an average FBS team (points); band = the +/- uncertainty.", "",
+         "projected neutral-field margin vs an average FBS team (points); band = the +/- uncertainty.",
+         mode_line, "",
          "| # | Team | Conf | Rating | Band | New HC |", "|--:|------|------|-------:|-----:|:--:|"]
     for rk, i in enumerate(order, 1):
         r = rows[i]
@@ -203,7 +223,8 @@ def main():
           "## Level slope (diagnostic only; NEVER enters the final)",
           f"- resid ~ a + b*(anchor margin) at n=138: slope **{lvl_slope:+.3f}** "
           f"(R² {lvl_r2:.2f}); proxy-regime constant was -0.541 (diag predicted collapse; n=61 gave -0.163).", "",
-          f"## Residual census (mean {resid.mean():+.3f} — ~0 by construction)",
+          f"## Residual census — post-mode residual (mean {resid.mean():+.3f}; in official mode each"
+          " conference mean is ≈0 by construction)",
           f"- capped at ±{CAP}: **{len(capped)}** teams: {', '.join(capped) if capped else '(none)'}",
           f"- |resid| p50 {np.percentile(abs(resid),50):.2f} / p90 {np.percentile(abs(resid),90):.2f} / max {abs(resid).max():.2f}", "",
           "## Mean residual by conference (grades-vs-anchor, refit regime)",
@@ -221,22 +242,25 @@ def main():
         u = f"{ups[i][0]} | {ups[i][2]:+.2f}" if i < len(ups) else " | "
         d_ = f"{downs[i][0]} | {downs[i][2]:+.2f}" if i < len(downs) else " | "
         D.append(f"| {u} | | {d_} |")
-    # what-if: the conference-demeaned variant (only within-conf shape enters)
-    D += ["", "## What-if: --demean-conf-resid (owner decision; NOT applied to the official board)",
-          "Under the frozen formula the k*clip(resid) term moves every team in a conference by",
-          "~k x (conference mean resid) on top of its within-conference shape. Demeaning drops that",
-          "shared component. Per-conference shift the variant would apply vs the official board:",
-          "| conference | mean resid | ~shift dropped (k x mean, pre-cap) |", "|---|---:|---:|"]
+    # the demean decision: what is (or would be) removed, per pool
+    verb = "REMOVED (official mode)" if demean else "would be removed (frozen comparison run)"
+    D += ["", f"## Conference-level component {verb} — owner decision 2026-07-19",
+          "The k*clip(resid) term otherwise moves every team in a conference by ~k x (conference",
+          "mean resid) on top of its within-conference shape. Demeaning drops that shared component.",
+          f"Independents pseudo-pooled: ND -> all-P4 mean ({p4_mean:+.2f}), UConn -> all-G5 mean ({g5_mean:+.2f}).",
+          "| pool | mean resid (pre-demean) | ~shift dropped (k x mean, pre-cap) |", "|---|---:|---:|"]
     for c in sorted(conf_mean, key=lambda c: conf_mean[c]):
         D.append(f"| {c} | {conf_mean[c]:+.2f} | {K * conf_mean[c]:+.2f} |")
+    D.append(f"| (all-P4 pool / ND ref) | {p4_mean:+.2f} | {K * p4_mean:+.2f} |")
+    D.append(f"| (all-G5 pool / UConn ref) | {g5_mean:+.2f} | {K * g5_mean:+.2f} |")
     D += ["", "## Provenance",
           f"- anchor run: {ANCHOR} (frozen); class_per_side {cps}; teams 138/138 joined",
           f"- constants: K={K} CAP={CAP} SIGMA={SIGMA}; recenter shift {-shift:+.3f}; "
-          f"mode {'DEMEANED-VARIANT' if demean else 'OFFICIAL (frozen formula)'}",
+          f"mode {'OFFICIAL (conference-demeaned; IND pseudo-pooled)' if demean else 'FROZEN-RESID comparison variant'}",
           "- pilot-era finals (at-grading-time, proxy-fit OOS) remain in outputs/grade_board.csv as the audit trail."]
     open(f"outputs/final_pass/REFIT_DIAG{tag}.md", "w").write("\n".join(D) + "\n")
 
-    print(f"FINAL PASS complete ({'DEMEANED VARIANT' if demean else 'OFFICIAL'}): 138 teams | "
+    print(f"FINAL PASS complete ({'OFFICIAL conference-demeaned' if demean else 'FROZEN-RESID variant'}): 138 teams | "
           f"R2 off {r2o:.2f} def {r2d:.2f} | level slope {lvl_slope:+.3f} | capped {len(capped)} | "
           f"recenter {-shift:+.2f} | mean |dFinal| vs pilot-era {np.mean([abs(d[2]) for d in deltas]):.2f}")
     print(f"wrote outputs/final_pass/ASSEMBLY{tag}.csv, outputs/final_pass/REFIT_DIAG{tag}.md, "
