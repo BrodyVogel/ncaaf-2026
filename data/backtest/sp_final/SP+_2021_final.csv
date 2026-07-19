@@ -1,0 +1,131 @@
+year,team,conference,norm_key,final_overall
+2021,Georgia,SEC,georgia,32
+2021,Ohio State,Big Ten,ohiostate,29.3
+2021,Alabama,SEC,alabama,26
+2021,Michigan,Big Ten,michigan,23.4
+2021,Cincinnati,Big 12,cincinnati,21.2
+2021,Texas A&M,SEC,texasam,21.1
+2021,Wisconsin,Big Ten,wisconsin,20.1
+2021,Clemson,ACC,clemson,18.7
+2021,Pittsburgh,ACC,pittsburgh,17.6
+2021,Tennessee,SEC,tennessee,17.5
+2021,Notre Dame,FBS Independents,notredame,17.4
+2021,Oklahoma State,Big 12,oklahomastate,17.2
+2021,Oklahoma,SEC,oklahoma,16.8
+2021,NC State,ACC,ncstate,16.1
+2021,Baylor,Big 12,baylor,15.6
+2021,Utah,Big 12,utah,15.2
+2021,Ole Miss,SEC,olemiss,14.8
+2021,Minnesota,Big Ten,minnesota,14.4
+2021,Iowa State,Big 12,iowastate,14.3
+2021,Penn State,Big Ten,pennstate,14.3
+2021,Kansas State,Big 12,kansasstate,14.2
+2021,Arkansas,SEC,arkansas,13.8
+2021,Kentucky,SEC,kentucky,13.4
+2021,Western Kentucky,Conference USA,westernkentucky,13.3
+2021,Coastal Carolina,Sun Belt,coastalcarolina,13.2
+2021,Arizona State,Big 12,arizonastate,11.8
+2021,Iowa,Big Ten,iowa,11.4
+2021,Michigan State,Big Ten,michiganstate,11.2
+2021,Florida,SEC,florida,11
+2021,Auburn,SEC,auburn,11
+2021,Houston,Big 12,houston,10.9
+2021,Miami,ACC,miamifl,10.8
+2021,Fresno State,Pac-12,fresnostate,10.8
+2021,Mississippi State,SEC,mississippistate,10.5
+2021,App State,Sun Belt,appalachianstate,10.3
+2021,Nebraska,Big Ten,nebraska,10.3
+2021,Purdue,Big Ten,purdue,10.3
+2021,Oregon,Big Ten,oregon,10.2
+2021,Wake Forest,ACC,wakeforest,10.1
+2021,Texas Tech,Big 12,texastech,9.8
+2021,UCLA,Big Ten,ucla,9.4
+2021,Boise State,Pac-12,boisestate,9.4
+2021,UAB,American Athletic,uab,9.1
+2021,Oregon State,Pac-12,oregonstate,8.9
+2021,SMU,ACC,smu,8.9
+2021,BYU,Big 12,byu,8.9
+2021,Louisiana,Sun Belt,louisiana,8.7
+2021,Texas,SEC,texas,8.5
+2021,Liberty,Conference USA,liberty,8.4
+2021,San Diego State,Pac-12,sandiegostate,8.3
+2021,Marshall,Sun Belt,marshall,8
+2021,Louisville,ACC,louisville,7.8
+2021,Florida State,ACC,floridastate,7.6
+2021,Air Force,Mountain West,airforce,7.4
+2021,Virginia,ACC,virginia,7.2
+2021,Toledo,Mid-American,toledo,6.9
+2021,Washington State,Pac-12,washingtonstate,6.7
+2021,UTSA,American Athletic,utsa,6.5
+2021,North Carolina,ACC,northcarolina,6.4
+2021,Maryland,Big Ten,maryland,6.2
+2021,Tulsa,American Athletic,tulsa,5.8
+2021,UCF,Big 12,ucf,4.8
+2021,Army,American Athletic,army,4.7
+2021,Illinois,Big Ten,illinois,4.3
+2021,LSU,SEC,lsu,4.1
+2021,South Carolina,SEC,southcarolina,3.9
+2021,Nevada,Mountain West,nevada,3.6
+2021,California,ACC,california,3.4
+2021,Missouri,SEC,missouri,3.1
+2021,Virginia Tech,ACC,virginiatech,2.4
+2021,Georgia State,Sun Belt,georgiastate,1.8
+2021,West Virginia,Big 12,westvirginia,1.8
+2021,Miami (OH),Mid-American,miamioh,1.5
+2021,Memphis,American Athletic,memphis,1
+2021,Boston College,ACC,bostoncollege,0.9
+2021,Wyoming,Mountain West,wyoming,0.6
+2021,Western Michigan,Mid-American,westernmichigan,0.6
+2021,East Carolina,American Athletic,eastcarolina,0.5
+2021,Syracuse,ACC,syracuse,0.3
+2021,Utah State,Pac-12,utahstate,0.1
+2021,USC,Big Ten,usc,-0.6
+2021,TCU,Big 12,tcu,-0.6
+2021,Washington,Big Ten,washington,-0.7
+2021,Central Michigan,Mid-American,centralmichigan,-1
+2021,San José State,Mountain West,sanjosestate,-1.9
+2021,Hawai'i,Mountain West,hawaii,-2.3
+2021,Colorado State,Pac-12,coloradostate,-2.4
+2021,Rutgers,Big Ten,rutgers,-3
+2021,Tulane,American Athletic,tulane,-3.9
+2021,Middle Tennessee,Conference USA,middletennessee,-4
+2021,UTEP,Mountain West,utep,-4.2
+2021,Florida Atlantic,American Athletic,floridaatlantic,-5.2
+2021,Kent State,Mid-American,kentstate,-6.4
+2021,North Texas,American Athletic,northtexas,-6.5
+2021,Troy,Sun Belt,troy,-6.5
+2021,Georgia Tech,ACC,georgiatech,-6.7
+2021,Northern Illinois,Mountain West,northernillinois,-7.1
+2021,South Alabama,Sun Belt,southalabama,-7.2
+2021,Old Dominion,Sun Belt,olddominion,-7.4
+2021,Indiana,Big Ten,indiana,-7.8
+2021,Eastern Michigan,Mid-American,easternmichigan,-7.8
+2021,Navy,American Athletic,navy,-8.5
+2021,Buffalo,Mid-American,buffalo,-9.5
+2021,Colorado,Big 12,colorado,-10
+2021,Stanford,ACC,stanford,-10.2
+2021,Northwestern,Big Ten,northwestern,-11.1
+2021,Ball State,Mid-American,ballstate,-11.2
+2021,Louisiana Tech,Sun Belt,louisianatech,-11.6
+2021,Ohio,Mid-American,ohio,-11.6
+2021,South Florida,American Athletic,southflorida,-12.1
+2021,Bowling Green,Mid-American,bowlinggreen,-12.4
+2021,Arizona,Big 12,arizona,-12.6
+2021,Duke,ACC,duke,-13.5
+2021,Charlotte,American Athletic,charlotte,-13.7
+2021,UNLV,Mountain West,unlv,-13.8
+2021,Southern Miss,Sun Belt,southernmiss,-14.2
+2021,Georgia Southern,Sun Belt,georgiasouthern,-15.3
+2021,Texas State,Pac-12,texasstate,-16
+2021,Arkansas State,Sun Belt,arkansasstate,-17.9
+2021,New Mexico,Mountain West,newmexico,-18.6
+2021,Temple,American Athletic,temple,-19.1
+2021,Vanderbilt,SEC,vanderbilt,-19.4
+2021,Kansas,Big 12,kansas,-19.7
+2021,UL Monroe,Sun Belt,louisianamonroe,-20.3
+2021,Florida International,Conference USA,floridainternational,-21.6
+2021,Rice,American Athletic,rice,-22.9
+2021,Akron,Mid-American,akron,-23.1
+2021,New Mexico State,Conference USA,newmexicostate,-24.2
+2021,UConn,FBS Independents,connecticut,-25.6
+2021,Massachusetts,Mid-American,massachusetts,-29.3

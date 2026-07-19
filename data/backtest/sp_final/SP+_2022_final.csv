@@ -1,0 +1,132 @@
+year,team,conference,norm_key,final_overall
+2022,Georgia,SEC,georgia,35.3
+2022,Michigan,Big Ten,michigan,32
+2022,Ohio State,Big Ten,ohiostate,31.1
+2022,Alabama,SEC,alabama,30.3
+2022,Tennessee,SEC,tennessee,25.2
+2022,TCU,Big 12,tcu,24.3
+2022,Texas,SEC,texas,23.1
+2022,Penn State,Big Ten,pennstate,22.4
+2022,Kansas State,Big 12,kansasstate,21.4
+2022,Utah,Big 12,utah,19.2
+2022,Oregon,Big Ten,oregon,18.9
+2022,USC,Big Ten,usc,18.9
+2022,Clemson,ACC,clemson,17.6
+2022,LSU,SEC,lsu,16.2
+2022,Ole Miss,SEC,olemiss,16.2
+2022,Minnesota,Big Ten,minnesota,16
+2022,Illinois,Big Ten,illinois,15.9
+2022,Washington,Big Ten,washington,15.7
+2022,Oklahoma,SEC,oklahoma,15.4
+2022,Mississippi State,SEC,mississippistate,15.4
+2022,UCLA,Big Ten,ucla,15
+2022,Oregon State,Pac-12,oregonstate,14.3
+2022,Florida State,ACC,floridastate,13.2
+2022,Cincinnati,Big 12,cincinnati,13.1
+2022,Kentucky,SEC,kentucky,13
+2022,South Carolina,SEC,southcarolina,12.7
+2022,Iowa,Big Ten,iowa,12.7
+2022,Tulane,American Athletic,tulane,12.4
+2022,Arkansas,SEC,arkansas,12
+2022,Baylor,Big 12,baylor,11.7
+2022,Oklahoma State,Big 12,oklahomastate,11.3
+2022,Maryland,Big Ten,maryland,11.2
+2022,South Alabama,Sun Belt,southalabama,10.8
+2022,Florida,SEC,florida,10.4
+2022,Notre Dame,FBS Independents,notredame,10.3
+2022,UCF,Big 12,ucf,10.3
+2022,Washington State,Pac-12,washingtonstate,9.5
+2022,Texas A&M,SEC,texasam,9.1
+2022,Louisville,ACC,louisville,9
+2022,Pittsburgh,ACC,pittsburgh,8.6
+2022,Texas Tech,Big 12,texastech,8.5
+2022,Wisconsin,Big Ten,wisconsin,8.3
+2022,Wake Forest,ACC,wakeforest,8.2
+2022,Troy,Sun Belt,troy,8.1
+2022,Missouri,SEC,missouri,8.1
+2022,North Carolina,ACC,northcarolina,7.8
+2022,Purdue,Big Ten,purdue,7.7
+2022,UTSA,American Athletic,utsa,7.2
+2022,Memphis,American Athletic,memphis,6.8
+2022,NC State,ACC,ncstate,6.8
+2022,James Madison,Sun Belt,jamesmadison,6.5
+2022,Boise State,Pac-12,boisestate,5.7
+2022,Iowa State,Big 12,iowastate,5.3
+2022,Auburn,SEC,auburn,5.1
+2022,Duke,ACC,duke,5
+2022,SMU,ACC,smu,4.7
+2022,Houston,Big 12,houston,4.5
+2022,Air Force,Mountain West,airforce,3.9
+2022,Fresno State,Pac-12,fresnostate,3.3
+2022,Marshall,Sun Belt,marshall,3
+2022,Kansas,Big 12,kansas,2.9
+2022,Syracuse,ACC,syracuse,2.5
+2022,West Virginia,Big 12,westvirginia,2.4
+2022,Louisiana,Sun Belt,louisiana,2
+2022,App State,Sun Belt,appalachianstate,1.7
+2022,Western Kentucky,Conference USA,westernkentucky,1.7
+2022,Michigan State,Big Ten,michiganstate,1.2
+2022,East Carolina,American Athletic,eastcarolina,1.1
+2022,Coastal Carolina,Sun Belt,coastalcarolina,0.6
+2022,UAB,American Athletic,uab,-0.5
+2022,Nebraska,Big Ten,nebraska,-1.2
+2022,BYU,Big 12,byu,-1.4
+2022,Army,American Athletic,army,-1.5
+2022,North Texas,American Athletic,northtexas,-1.5
+2022,Liberty,Conference USA,liberty,-1.5
+2022,Miami,ACC,miamifl,-2.7
+2022,California,ACC,california,-3
+2022,Arizona,Big 12,arizona,-3.2
+2022,Georgia State,Sun Belt,georgiastate,-3.3
+2022,Southern Miss,Sun Belt,southernmiss,-3.5
+2022,Toledo,Mid-American,toledo,-3.7
+2022,Arizona State,Big 12,arizonastate,-4.1
+2022,San José State,Mountain West,sanjosestate,-4.3
+2022,San Diego State,Pac-12,sandiegostate,-4.4
+2022,Ohio,Mid-American,ohio,-4.6
+2022,Vanderbilt,SEC,vanderbilt,-4.7
+2022,Tulsa,American Athletic,tulsa,-6.1
+2022,Georgia Southern,Sun Belt,georgiasouthern,-6.4
+2022,Middle Tennessee,Conference USA,middletennessee,-6.9
+2022,Indiana,Big Ten,indiana,-7.1
+2022,Eastern Michigan,Mid-American,easternmichigan,-7.1
+2022,Florida Atlantic,American Athletic,floridaatlantic,-7.1
+2022,Stanford,ACC,stanford,-7.2
+2022,Navy,American Athletic,navy,-7.2
+2022,Virginia,ACC,virginia,-9
+2022,Rutgers,Big Ten,rutgers,-9.1
+2022,Buffalo,Mid-American,buffalo,-9.2
+2022,Virginia Tech,ACC,virginiatech,-9.5
+2022,UTEP,Mountain West,utep,-10.7
+2022,Wyoming,Mountain West,wyoming,-10.8
+2022,Texas State,Pac-12,texasstate,-11.5
+2022,Georgia Tech,ACC,georgiatech,-11.8
+2022,UNLV,Mountain West,unlv,-11.9
+2022,Miami (OH),Mid-American,miamioh,-12.7
+2022,Temple,American Athletic,temple,-12.9
+2022,Arkansas State,Sun Belt,arkansasstate,-13
+2022,Old Dominion,Sun Belt,olddominion,-13
+2022,Kent State,Mid-American,kentstate,-13.1
+2022,Utah State,Pac-12,utahstate,-13.3
+2022,Northwestern,Big Ten,northwestern,-13.4
+2022,Central Michigan,Mid-American,centralmichigan,-14
+2022,UConn,FBS Independents,connecticut,-14.6
+2022,Boston College,ACC,bostoncollege,-14.9
+2022,Ball State,Mid-American,ballstate,-14.9
+2022,Rice,American Athletic,rice,-15.2
+2022,New Mexico State,Conference USA,newmexicostate,-15.4
+2022,UL Monroe,Sun Belt,louisianamonroe,-15.7
+2022,Charlotte,American Athletic,charlotte,-16.4
+2022,South Florida,American Athletic,southflorida,-17
+2022,Western Michigan,Mid-American,westernmichigan,-17.3
+2022,Louisiana Tech,Sun Belt,louisianatech,-17.8
+2022,Bowling Green,Mid-American,bowlinggreen,-18.1
+2022,Northern Illinois,Mountain West,northernillinois,-18.8
+2022,Colorado,Big 12,colorado,-20.4
+2022,Colorado State,Pac-12,coloradostate,-22.2
+2022,Nevada,Mountain West,nevada,-22.4
+2022,Akron,Mid-American,akron,-23.4
+2022,Hawai'i,Mountain West,hawaii,-24.7
+2022,Florida International,Conference USA,floridainternational,-25.5
+2022,New Mexico,Mountain West,newmexico,-26.9
+2022,Massachusetts,Mid-American,massachusetts,-30.3
