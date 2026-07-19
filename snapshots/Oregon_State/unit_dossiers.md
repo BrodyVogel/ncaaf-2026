@@ -52,7 +52,8 @@ loaded than the freeze grade captured: it MISSED Aaron Butler (Texas
 transfer, former 4-star, PROJECTED 2026 STARTER — roster + multiple portal
 reports) and under-weighted returning 4-star Malachi Durant ("one of the
 highest upsides"). Plus Hampton (Alabama 4-star), Noland (UTRGV FCS 776/7TD),
-Freauff (returner, 12 rec/TD), Boschma (65.6).
+Freauff (returner, 12 rec/TD), Boschma (65.6), + TE Temple (CMU) and
+McDaniel (Mercer FCS) as depth (retained from the freeze grade).
 Mechanical: multiple P4-pedigree pieces (Butler/Texas, Hampton/Alabama,
 Durant 4-star) — a higher ceiling than "a bevy of young unproven weapons";
 SI/247 call the corps "improved with marquee transfer additions." Maps
