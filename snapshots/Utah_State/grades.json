@@ -1,14 +1,38 @@
 {
  "team": "Utah State",
  "units": {
-  "QB": {"grade": 32, "confidence": "L"},
-  "RB": {"grade": 40, "confidence": "M"},
-  "WRTE": {"grade": 34, "confidence": "M"},
-  "OL": {"grade": 36, "confidence": "M"},
-  "DL": {"grade": 36, "confidence": "M"},
-  "LB": {"grade": 36, "confidence": "M"},
-  "DB": {"grade": 36, "confidence": "M"},
-  "ST": {"grade": 38, "confidence": "M"}
+  "QB": {
+   "grade": 34,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 34,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 36,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 36,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 36,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 36,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 38,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-17",
@@ -16,7 +40,10 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; archetype-watch applied; percentile-mapped; disposition gate resolved yr4 + a name-collision before grading); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 32/RB 40/WRTE 34/OL 36/DL 36/LB 36/DB 36/ST 38)."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines (QB 32/RB 40/WRTE 34/OL 36/DL 36/LB 36/DB 36/ST 38).",
+   "qb_hillstead_named_2026-07-19": "QB 32 L -> 34 M (Pac-12 deep-research pass, owner-directed). Battle RESOLVED: McCae Hillstead named the starter 2026-04-20 (USU official) after a spring competition; he has prior USU starting production (4 st/1,062/11TD '23) and a strong Mendenhall endorsement ('strongest position'). Resolution + prior tape moves him to the proven-G5-starter tier (34) and L->M. Sources: utahstateaggies.com, deseret.com 2026-06-23."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB None, RB None, WRTE 14, OL 12, DL 16, LB 26, DB 19, ST 10) keys the as-played 2025 team tape; the roster is ~60% new so the proxy floors nearly every unit.",
    "ST": "+28 vs proxy 10 - the p10 SPEC was kicking-driven; P Rehkow (42.9) + All-American LS Hatch + weapon returner Jacobs + a decent transfer K lift it.",
@@ -26,51 +53,109 @@
  },
  "grades_detail": [
   {
-   "team": "Utah State", "unit": "QB", "grade": 32, "confidence": "L",
-   "bracketing_exemplars": ["Florida International QB 2025 (15, exemplar anchor)", "New Mexico QB 2025 (34, round exemplar)"],
+   "team": "Utah State",
+   "unit": "QB",
+   "grade": 34,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "New Mexico QB 2026 (34, peer)",
+    "San Diego State QB 2026 (34, peer)"
+   ],
    "rationale_bullets": [
-    "Barnes (76.6, the '25 starter) is yr4-GONE. Hillstead (BYU transfer, 'transferred back to Utah State'; prior USU starts incl. 399 yds vs JMU; only 5 recent snaps) is QB1 + Brosterhous (Virginia).",
-    "A transfer QB with real prior starting experience but little recent tape, in Robert Anae's (Mendenhall-familiar) offense.",
-    "The thin-recent-tape-plus-pedigree case, not a floor.",
-    "32: below the proven-G5-starter tier (UNM 34); above the pure thin-tape floor. L: unproven at USU, limited recent sample."
+    "McCae Hillstead NAMED the 2026 starter (Utah State official, 2026-04-20) after winning a spring competition - the battle that drove the L is RESOLVED. He has real prior FBS starting production (4 starts, 1,062 yds, 11 TD as a USU true freshman '23), then BYU (redshirt '24, lost the '25 job to Bachmeier), returned to Logan with 2 yrs left.",
+    "Coach Mendenhall calls QB the team's 'strongest position' and cited Hillstead's 'consistency, production, efficiency'; a returnee with prior starting tape + a clear staff endorsement, not a mystery.",
+    "34 (M, up from 32 L): now at the proven-G5-starter tier (~New Mexico/San Diego State 34) the grade previously placed him just below. M because the job is settled and he has FBS starting tape; the 2-yr recent-rep gap is why it's not higher."
    ],
    "key_players": [
-    {"name": "McCae Hillstead", "role": "QB1 (transfer, BYU)", "evidence": "prior USU starts (399 vs JMU); 5 recent snaps 62.5"},
-    {"name": "Grady Brosterhous", "role": "QB (transfer, Virginia)", "evidence": "battle"}
+    {
+     "name": "McCae Hillstead",
+     "role": "QB (named starter)",
+     "evidence": "named QB1 2026-04-20; prior USU: 4 starts, 1,062 yds, 11 TD ('23); coach's 'strongest position'"
+    },
+    {
+     "name": "Grady Brosterhous",
+     "role": "QB (backup)",
+     "evidence": "Virginia transfer; depth"
+    }
    ],
-   "data_gaps": ["little recent tape", "new to the 2026 room"], "g5_guard_note": null
+   "data_gaps": [
+    "limited recent reps (barely played '24-'25 at BYU)"
+   ],
+   "g5_guard_note": "Mountain West/Pac-12; Hillstead the NAMED starter (2026-04-20) with prior USU starting tape + coach endorsement. M."
   },
   {
-   "team": "Utah State", "unit": "RB", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Akron RB (p3, 60.3 table anchor)", "Illinois RB 2025 (32, exemplar anchor)"],
+   "team": "Utah State",
+   "unit": "RB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Akron RB (p3, 60.3 table anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Jacobs returns (202 att 73.2 -> 64.3 MWC-adj; BOLD; also a KR/PR weapon) + Vailahi (Oklahoma State) + N.White. Loses the yr4 co-lead M.Davis (76.0) + Jameson (-> ULM).",
     "A proven returning starter (64.3 adj) + a B12 transfer + a dangerous return element, behind a weak run block (RBLK p19).",
     "40: a solid returning lead + depth; above the Illinois-32 tier on Jacobs' proven role, capped by the weak run block."
    ],
    "key_players": [
-    {"name": "Javen Jacobs", "role": "RB1 (returning, BOLD)", "evidence": "202 att 73.2 (64.3 MWC-adj); KR/PR weapon"},
-    {"name": "Sesi Vailahi", "role": "RB (transfer, Oklahoma State)", "evidence": "B12 back"}
+    {
+     "name": "Javen Jacobs",
+     "role": "RB1 (returning, BOLD)",
+     "evidence": "202 att 73.2 (64.3 MWC-adj); KR/PR weapon"
+    },
+    {
+     "name": "Sesi Vailahi",
+     "role": "RB (transfer, Oklahoma State)",
+     "evidence": "B12 back"
+    }
    ],
-   "data_gaps": ["lost the yr4 co-lead M.Davis", "weak run block (RBLK p19)"], "g5_guard_note": null
+   "data_gaps": [
+    "lost the yr4 co-lead M.Davis",
+    "weak run block (RBLK p19)"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Utah State", "unit": "WRTE", "grade": 34, "confidence": "M",
-   "bracketing_exemplars": ["Ball State WRTE (p3, 53.9 table anchor)", "Missouri State WRTE (p25, 61.3 table anchor)"],
+   "team": "Utah State",
+   "unit": "WRTE",
+   "grade": 34,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Ball State WRTE (p3, 53.9 table anchor)",
+    "Missouri State WRTE (p25, 61.3 table anchor)"
+   ],
    "rationale_bullets": [
     "Loses the top two (Boyd 69.4 yr4, Pegan 73.7 -> Utah). Keeps Garcia (58.3 adj) + Starling + TE Kaio; reloads with transfers Wood (Virginia), Haynes (Arizona), Robinson (GaSt), L.J.Johnson (Texas State).",
     "One returning WR of note (Garcia) + a transfer reload with real P4/G5 tape but no proven USU production. RECV p42.",
     "34: above the Ball-State p3 rail on Garcia + transfer tape; below the p25 rail on the unproven-together reload."
    ],
    "key_players": [
-    {"name": "Anthony Garcia", "role": "WR (returning)", "evidence": "245 routes 62.0 (58.3 adj); top returning WR"},
-    {"name": "Eli Wood", "role": "WR (transfer, Virginia)", "evidence": "'finished strong last season'"}
+    {
+     "name": "Anthony Garcia",
+     "role": "WR (returning)",
+     "evidence": "245 routes 62.0 (58.3 adj); top returning WR"
+    },
+    {
+     "name": "Eli Wood",
+     "role": "WR (transfer, Virginia)",
+     "evidence": "'finished strong last season'"
+    }
    ],
-   "data_gaps": ["lost the top two receivers", "transfer reload unproven together"], "g5_guard_note": null
+   "data_gaps": [
+    "lost the top two receivers",
+    "transfer reload unproven together"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Utah State", "unit": "OL", "grade": 36, "confidence": "M",
-   "bracketing_exemplars": ["Central Michigan OL (p3, 41.5 table anchor)", "Western Kentucky OL 2025 (25, exemplar anchor)"],
+   "team": "Utah State",
+   "unit": "OL",
+   "grade": 36,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Central Michigan OL (p3, 41.5 table anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Keeps the interior - Maile (LG, 44.6 adj; BOLD) + Liston (C, 56.9; BOLD) + Motu'apuaka (RG, 48.7; BOLD). Tackles are P4 transfers (Randle Purdue, Wilfred Auburn).",
     "Loses Sia (-> BYU) + yr4 (Eichorn, Andersen).",
@@ -78,15 +163,37 @@
     "36: the interior continuity + P4 tackles hold it above the round's rebuild-OL floor; the weak base caps it."
    ],
    "key_players": [
-    {"name": "Jimmy Liston", "role": "C (returning, BOLD)", "evidence": "895 snaps 67.0 (56.9 adj)"},
-    {"name": "Tavo Motu'apuaka", "role": "RG (returning, BOLD)", "evidence": "832 snaps 58.8 (48.7 adj)"},
-    {"name": "John Randle Jr.", "role": "LT (transfer, Purdue)", "evidence": "P4 tackle"}
+    {
+     "name": "Jimmy Liston",
+     "role": "C (returning, BOLD)",
+     "evidence": "895 snaps 67.0 (56.9 adj)"
+    },
+    {
+     "name": "Tavo Motu'apuaka",
+     "role": "RG (returning, BOLD)",
+     "evidence": "832 snaps 58.8 (48.7 adj)"
+    },
+    {
+     "name": "John Randle Jr.",
+     "role": "LT (transfer, Purdue)",
+     "evidence": "P4 tackle"
+    }
    ],
-   "data_gaps": ["weak PBLK p27 / RBLK p19 base", "two new transfer tackles"], "g5_guard_note": null
+   "data_gaps": [
+    "weak PBLK p27 / RBLK p19 base",
+    "two new transfer tackles"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Utah State", "unit": "DL", "grade": 36, "confidence": "M",
-   "bracketing_exemplars": ["Buffalo DL (p10, 57.2 table anchor)", "East Carolina DL (p25, 60.5 table anchor)"],
+   "team": "Utah State",
+   "unit": "DL",
+   "grade": 36,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Buffalo DL (p10, 57.2 table anchor)",
+    "East Carolina DL (p25, 60.5 table anchor)"
+   ],
    "rationale_bullets": [
     "Keeps Morris (DE, 60.0 adj; BOLD) + Tujague (DE, 56.2; BOLD) + Tuha (55.0) + a transfer influx (Tuitama NT, Long TexTech, Mageo Baylor, Wright ArkSt, A.Jackson MVSU).",
     "Loses Iniguez (67.2, yr4), Holmes (-> Illinois; name-collision resolved), Migao (none), + yr4 (Bo Maile, Fahina).",
@@ -94,30 +201,74 @@
     "36: above the Buffalo p10 rail on the returners + P4 transfers; a middling, star-less line."
    ],
    "key_players": [
-    {"name": "Tyree Morris", "role": "DE (returning, BOLD)", "evidence": "661 snaps 62.2 (60.0 adj)"},
-    {"name": "Carson Tujague", "role": "DE (returning, BOLD)", "evidence": "719 snaps 58.4 (56.2 adj)"},
-    {"name": "Kasen Long", "role": "DL (transfer, Texas Tech)", "evidence": "B12 add"}
+    {
+     "name": "Tyree Morris",
+     "role": "DE (returning, BOLD)",
+     "evidence": "661 snaps 62.2 (60.0 adj)"
+    },
+    {
+     "name": "Carson Tujague",
+     "role": "DE (returning, BOLD)",
+     "evidence": "719 snaps 58.4 (56.2 adj)"
+    },
+    {
+     "name": "Kasen Long",
+     "role": "DL (transfer, Texas Tech)",
+     "evidence": "B12 add"
+    }
    ],
-   "data_gaps": ["weak pass rush base (PRSH p16)", "no stud after Iniguez/Holmes left"], "g5_guard_note": null
+   "data_gaps": [
+    "weak pass rush base (PRSH p16)",
+    "no stud after Iniguez/Holmes left"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Utah State", "unit": "LB", "grade": 36, "confidence": "M",
-   "bracketing_exemplars": ["Nevada LB (p25, 56.3 table anchor)", "UNLV LB 2025 (40, exemplar anchor)"],
+   "team": "Utah State",
+   "unit": "LB",
+   "grade": 36,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nevada LB (p25, 56.3 table anchor)",
+    "UNLV LB 2025 (40, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Loses the STUD Miller (78.1/935, yr4). Keeps Olevao (BUCK, 56.2 adj; BOLD) + Joe (SLB, 59.3; BOLD) + Brown (57.2) + P4 transfers Taggart (Cal, MLB) + Jennette (VT, WLB).",
     "Three solid returners + two P4 transfers, but lost the standout (Miller) and the base was TACK p17 (bad tackling).",
     "36: below the UNLV-40 tier - solid returners + P4 adds, capped by the lost stud + the tackling base."
    ],
    "key_players": [
-    {"name": "Chris Joe", "role": "SLB (returning, BOLD)", "evidence": "581 snaps 64.0 (59.3 adj)"},
-    {"name": "Bronson Olevao Jr.", "role": "BUCK (returning, BOLD)", "evidence": "876 snaps 60.9 (56.2 adj)"},
-    {"name": "Harrison Taggart", "role": "MLB (transfer, California)", "evidence": "P4 LB"}
+    {
+     "name": "Chris Joe",
+     "role": "SLB (returning, BOLD)",
+     "evidence": "581 snaps 64.0 (59.3 adj)"
+    },
+    {
+     "name": "Bronson Olevao Jr.",
+     "role": "BUCK (returning, BOLD)",
+     "evidence": "876 snaps 60.9 (56.2 adj)"
+    },
+    {
+     "name": "Harrison Taggart",
+     "role": "MLB (transfer, California)",
+     "evidence": "P4 LB"
+    }
    ],
-   "data_gaps": ["lost the stud Miller (yr4)", "TACK p17 base"], "g5_guard_note": null
+   "data_gaps": [
+    "lost the stud Miller (yr4)",
+    "TACK p17 base"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Utah State", "unit": "DB", "grade": 36, "confidence": "M",
-   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6, exemplar anchor)", "UNLV DB (p25, 62.8 table anchor)"],
+   "team": "Utah State",
+   "unit": "DB",
+   "grade": 36,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "UNLV DB (p25, 62.8 table anchor)"
+   ],
    "rationale_bullets": [
     "Massive turnover - loses four yr4 starters (Avinger 78.4, Tucker 71.5, Larsen 69.4, B.Taylor 67.8) + Ugochukwu (-> UAB).",
     "Keeps Hamblin (BS, 60.5 adj; BOLD) + Flores (S, 69.0) + Mayes (58.9) + Arnold (NB, 63.3); adds a heavy transfer wave (Bluiett NDak, Grant Wyoming, Lewis TexTech, Stokes Cincinnati, Sannieniola Vandy, Kabongo OkSt).",
@@ -125,15 +276,37 @@
     "36: above the FAU-6 rail on the returning core + transfer reload; the four-starter loss caps it."
    ],
    "key_players": [
-    {"name": "Noah Flores", "role": "S (returning)", "evidence": "375 snaps 71.4 (69.0 adj)"},
-    {"name": "Brevin Hamblin", "role": "BS (returning, BOLD)", "evidence": "944 snaps 62.9 (60.5 adj)"},
-    {"name": "Chapman Lewis", "role": "FS (transfer, Texas Tech)", "evidence": "B12 safety"}
+    {
+     "name": "Noah Flores",
+     "role": "S (returning)",
+     "evidence": "375 snaps 71.4 (69.0 adj)"
+    },
+    {
+     "name": "Brevin Hamblin",
+     "role": "BS (returning, BOLD)",
+     "evidence": "944 snaps 62.9 (60.5 adj)"
+    },
+    {
+     "name": "Chapman Lewis",
+     "role": "FS (transfer, Texas Tech)",
+     "evidence": "B12 safety"
+    }
    ],
-   "data_gaps": ["lost four yr4 starters", "heavy transfer reliance"], "g5_guard_note": null
+   "data_gaps": [
+    "lost four yr4 starters",
+    "heavy transfer reliance"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Utah State", "unit": "ST", "grade": 38, "confidence": "M",
-   "bracketing_exemplars": ["Oregon State ST 2026 (38, round peer)", "San Diego State ST 2026 (36, round peer)"],
+   "team": "Utah State",
+   "unit": "ST",
+   "grade": 38,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Oregon State ST 2026 (38, round peer)",
+    "San Diego State ST 2026 (36, round peer)"
+   ],
    "rationale_bullets": [
     "P Rehkow returns (42.9 avg - good) + 2024 Freshman All-American LS Hatch + new K Afrookhteh (Coastal, HM All-Sun Belt) + KR/PR Jacobs (a weapon).",
     "The SPEC p10 in '25 was kicking-driven; the returning good punter + All-American LS + weapon returner + a decent transfer K make this a genuine ST strength emerging.",
@@ -141,11 +314,26 @@
     "38: above the round's rebuild-ST tier on the punter + LS + returner core."
    ],
    "key_players": [
-    {"name": "Landon Rehkow", "role": "P (returning)", "evidence": "42.9 avg"},
-    {"name": "Hyrum Hatch", "role": "LS (returning)", "evidence": "2024 Freshman All-American"},
-    {"name": "Javen Jacobs", "role": "KR/PR (returning)", "evidence": "return weapon"}
+    {
+     "name": "Landon Rehkow",
+     "role": "P (returning)",
+     "evidence": "42.9 avg"
+    },
+    {
+     "name": "Hyrum Hatch",
+     "role": "LS (returning)",
+     "evidence": "2024 Freshman All-American"
+    },
+    {
+     "name": "Javen Jacobs",
+     "role": "KR/PR (returning)",
+     "evidence": "return weapon"
+    }
    ],
-   "data_gaps": ["new kicker unproven at FBS-Pac level"], "g5_guard_note": null
+   "data_gaps": [
+    "new kicker unproven at FBS-Pac level"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

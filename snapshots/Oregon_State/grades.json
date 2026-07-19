@@ -1,14 +1,38 @@
 {
  "team": "Oregon State",
  "units": {
-  "QB": {"grade": 34, "confidence": "M"},
-  "RB": {"grade": 32, "confidence": "M"},
-  "WRTE": {"grade": 26, "confidence": "L"},
-  "OL": {"grade": 24, "confidence": "L"},
-  "DL": {"grade": 42, "confidence": "M"},
-  "LB": {"grade": 44, "confidence": "M"},
-  "DB": {"grade": 42, "confidence": "M"},
-  "ST": {"grade": 38, "confidence": "M"}
+  "QB": {
+   "grade": 34,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 32,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 30,
+   "confidence": "L"
+  },
+  "OL": {
+   "grade": 24,
+   "confidence": "L"
+  },
+  "DL": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 38,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-17",
@@ -16,7 +40,10 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; archetype-watch applied; percentile-mapped; disposition gate split yr4 before grading; MWC-like offset w/ P4-game upper-band lean on the two studs - FLAG FOR OWNER); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 34/RB 32/WRTE 26/OL 24/DL 42/LB 44/DB 42/ST 38)."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines (QB 34/RB 32/WRTE 26/OL 24/DL 42/LB 44/DB 42/ST 38).",
+   "wrte_butler_missed_2026-07-19": "WRTE 26 L -> 30 L (Pac-12 deep-research pass, owner-directed). The freeze grade MISSED Aaron Butler (Texas transfer, former 4-star, projected 2026 starter - roster + portal-report confirmed) and under-weighted returning 4-star Malachi Durant. Multiple P4-pedigree pieces raise the room's ceiling above the graded 'bevy of unproven weapons'; still L (no proven FBS WR1, new scheme/QB). Sources: SI/247 OSU WR preview, osubeavers.com roster, 247/On3 Butler transfer reports."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 36, RB None, WRTE 4, OL 33, DL 60, LB 93, DB 22, ST 0) keys the as-played 2025 team tape.",
    "LB": "-49 vs proxy 93 - proxy keys Sullivan's stud tape (84.6) as the whole unit; the supporting LBs are weak (44-54 adj) + an FCS transfer.",
@@ -27,8 +54,14 @@
  },
  "grades_detail": [
   {
-   "team": "Oregon State", "unit": "QB", "grade": 34, "confidence": "M",
-   "bracketing_exemplars": ["Florida International QB 2025 (15, exemplar anchor)", "New Mexico QB 2025 (34, round exemplar)"],
+   "team": "Oregon State",
+   "unit": "QB",
+   "grade": 34,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "New Mexico QB 2025 (34, round exemplar)"
+   ],
    "rationale_bullets": [
     "Murphy returns (305 snaps 59.8, ~56 adj on a light discount; BOLD) - a former 4-star (Texas/Duke) - the incumbent, but must win an OPEN 3-way battle vs Atkinson (Mercer FCS) + Jones (WMU); no starter until mid-August.",
     "A proven-but-mediocre starter (59.8 on a 2-10 team), his tape earned against a tougher-than-MWC slate (4 P4 games), so his true level sits a shade above the raw-vs-MWC read.",
@@ -36,14 +69,32 @@
     "34: at the proven-mediocre-G5-starter tier; M because Murphy has real starter tape (not a thin-tape room)."
    ],
    "key_players": [
-    {"name": "Maalik Murphy", "role": "QB1 (returning, BOLD; open battle)", "evidence": "305 snaps 59.8; ex-Texas/Duke 4-star; longest run 8 yds (not a runner)"},
-    {"name": "Braden Atkinson", "role": "QB (transfer, Mercer FCS)", "evidence": "FCS 3,596 34-11; battle"}
+    {
+     "name": "Maalik Murphy",
+     "role": "QB1 (returning, BOLD; open battle)",
+     "evidence": "305 snaps 59.8; ex-Texas/Duke 4-star; longest run 8 yds (not a runner)"
+    },
+    {
+     "name": "Braden Atkinson",
+     "role": "QB (transfer, Mercer FCS)",
+     "evidence": "FCS 3,596 34-11; battle"
+    }
    ],
-   "data_gaps": ["3-way battle unresolved into mid-August", "mediocre raw grade on a 2-10 team"], "g5_guard_note": null
+   "data_gaps": [
+    "3-way battle unresolved into mid-August",
+    "mediocre raw grade on a 2-10 team"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Oregon State", "unit": "RB", "grade": 32, "confidence": "M",
-   "bracketing_exemplars": ["Akron RB (p3, 60.3 table anchor)", "Illinois RB 2025 (32, exemplar anchor)"],
+   "team": "Oregon State",
+   "unit": "RB",
+   "grade": 32,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Akron RB (p3, 60.3 table anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "The RB1 workhorse Hankerson (294 att 73.7) is yr4-GONE; Hatcher (63.3 -> ~59 adj, 'the leading returner, impressive in limited reps' - Athlon) + Newberry (Vandy, 18 att) remain.",
     "'Top 3 rushers departed' (PS) - the room lost its every-down back and is 'less experienced'.",
@@ -51,30 +102,75 @@
     "32: at the Illinois-RB tier by placement but on thinner evidence - a real prospect (Hatcher) over little proven volume."
    ],
    "key_players": [
-    {"name": "Cornell Hatcher Jr.", "role": "RB1 (returning)", "evidence": "51 att 63.3 (~59 adj); 'leading returner', impressive limited reps"},
-    {"name": "AJ Newberry", "role": "RB (transfer, Vanderbilt)", "evidence": "18 att 62.4 (tiny)"}
+    {
+     "name": "Cornell Hatcher Jr.",
+     "role": "RB1 (returning)",
+     "evidence": "51 att 63.3 (~59 adj); 'leading returner', impressive limited reps"
+    },
+    {
+     "name": "AJ Newberry",
+     "role": "RB (transfer, Vanderbilt)",
+     "evidence": "18 att 62.4 (tiny)"
+    }
    ],
-   "data_gaps": ["lost the workhorse Hankerson", "Hatcher unproven at volume"], "g5_guard_note": null
+   "data_gaps": [
+    "lost the workhorse Hankerson",
+    "Hatcher unproven at volume"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Oregon State", "unit": "WRTE", "grade": 26, "confidence": "L",
-   "bracketing_exemplars": ["Ball State WRTE (p3, 53.9 table anchor)", "Missouri State WRTE (p25, 61.3 table anchor)"],
+   "team": "Oregon State",
+   "unit": "WRTE",
+   "grade": 30,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Rice WRTE 2026 (30, peer)",
+    "Tulsa WRTE 2026 (32, peer)"
+   ],
    "rationale_bullets": [
-    "A total rebuild: the top-3 WR (Walker 69.4->Houston, Wells 62.5->Tulsa, Reddicks 66.6->UNLV) + Card all gone. Top returner Boschma (65.6, 32 routes) + Freauff (53.3 depth).",
-    "Transfers: Hampton (Alabama, pedigree/little tape) + Noland (UT-Rio Grande Valley FCS, 901-yд breakout, no cell) + McDaniel (Mercer FCS) + Temple (CMU TE 47.0 adj). 'A bevy of young, unproven weapons' (Athlon).",
-    "No returning FBS production of note; an all-transfer/FCS reload whose FCS output carries no cell (evidence-only). RECV p23 as-played.",
-    "26: above the Ball-State-p3 rail on some intriguing FCS production + Alabama pedigree; well below the p25 rail - unproven at the FBS level. L."
+    "A total rebuild - top-3 WR gone (Walker->Houston, Wells->Tulsa, Reddicks->UNLV). BUT the reload is more loaded than the freeze grade captured: it MISSED Aaron Butler (Texas transfer, former 4-star, PROJECTED 2026 STARTER - confirmed on the OSU roster + multiple portal reports) and under-weighted returning 4-star Malachi Durant ('one of the highest upsides'). Plus Hampton (Alabama 4-star), Noland (UTRGV FCS 776/7TD), Freauff (returner, 12 rec/TD).",
+    "Multiple P4 pedigree pieces (Butler/Texas, Hampton/Alabama, Durant 4-star) - a higher ceiling than 'a bevy of young unproven weapons.' SI/247 preview: the corps 'appears improved with marquee transfer additions,' though no established FBS WR1.",
+    "30 (L, up from 26): the missed Butler + the 4-star pedigree lift the room off the p20 rail; still L - no proven FBS WR1, new HC/QB/scheme, transfer/FCS production unproven at Beaver-FBS."
    ],
    "key_players": [
-    {"name": "Karson Boschma", "role": "WR (returning, top returner)", "evidence": "32 routes 65.6 (low volume)"},
-    {"name": "Xayvion Noland", "role": "WR (transfer, UTRGV FCS)", "evidence": "901-yд FCS breakout (no cell)"},
-    {"name": "Aeryn Hampton", "role": "WR (transfer, Alabama)", "evidence": "SEC pedigree; little tape"}
+    {
+     "name": "Aaron Butler",
+     "role": "WR (Texas transfer, projected starter)",
+     "evidence": "former 4-star; projected 2026 OSU starter (missed at freeze)"
+    },
+    {
+     "name": "Karson Boschma",
+     "role": "WR (returning, top returner)",
+     "evidence": "32 routes 65.6 (low volume)"
+    },
+    {
+     "name": "Xayvion Noland",
+     "role": "WR (transfer, UTRGV FCS)",
+     "evidence": "901-yд FCS breakout (no cell)"
+    },
+    {
+     "name": "Aeryn Hampton",
+     "role": "WR (transfer, Alabama)",
+     "evidence": "SEC pedigree; little tape"
+    }
    ],
-   "data_gaps": ["no returning FBS WR production", "FCS output carries no cell"], "g5_guard_note": null
+   "data_gaps": [
+    "no returning FBS WR production",
+    "FCS output carries no cell",
+    "no established FBS WR1; new HC/QB/scheme; transfer production unproven at OSU"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Oregon State", "unit": "OL", "grade": 24, "confidence": "L",
-   "bracketing_exemplars": ["Central Michigan OL (p3, 41.5 table anchor)", "Western Kentucky OL 2025 (25, exemplar anchor)"],
+   "team": "Oregon State",
+   "unit": "OL",
+   "grade": 24,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Central Michigan OL (p3, 41.5 table anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "A near-total rebuild - NINE OL departed (Berger->Wake, Sikorski->Texas, Strand+Hawkes->Auburn/Ark, Cox->UAB, Tuia->CSU, Esty->Boise + yr4 C Van Wells + yr4 T Morano).",
     "Returns two guards: Elu (LG, 50.7 adj; BOLD) + Voltin (RG, 51.1 adj; BOLD override, missed spring). Tackles are FCS transfers (K.Johnson E.Illinois, Shoats Bethune); C is young Wagner / Louisville-11-snap Guillaume.",
@@ -82,15 +178,37 @@
     "24: just below the WKU-25 rail - two returning guards over FCS tackles + a young center. L."
    ],
    "key_players": [
-    {"name": "Nathan Elu", "role": "LG (returning, BOLD)", "evidence": "382 snaps 60.8 (50.7 adj)"},
-    {"name": "Tyler Voltin", "role": "RG (returning, BOLD, yr4 override)", "evidence": "435 snaps 61.2 (51.1 adj); missed spring"},
-    {"name": "Kwan Johnson", "role": "LT (transfer, Eastern Illinois FCS)", "evidence": "no cell; 'look to anchor'"}
+    {
+     "name": "Nathan Elu",
+     "role": "LG (returning, BOLD)",
+     "evidence": "382 snaps 60.8 (50.7 adj)"
+    },
+    {
+     "name": "Tyler Voltin",
+     "role": "RG (returning, BOLD, yr4 override)",
+     "evidence": "435 snaps 61.2 (51.1 adj); missed spring"
+    },
+    {
+     "name": "Kwan Johnson",
+     "role": "LT (transfer, Eastern Illinois FCS)",
+     "evidence": "no cell; 'look to anchor'"
+    }
    ],
-   "data_gaps": ["nine OL departed", "FCS-transfer tackles + young center, no cell"], "g5_guard_note": null
+   "data_gaps": [
+    "nine OL departed",
+    "FCS-transfer tackles + young center, no cell"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Oregon State", "unit": "DL", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["East Carolina DL (p25, 60.5 table anchor)", "Wake Forest DL 2025 (60, exemplar anchor)"],
+   "team": "Oregon State",
+   "unit": "DL",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "East Carolina DL (p25, 60.5 table anchor)",
+    "Wake Forest DL 2025 (60, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Keeps the STUD: Hickle (408 snaps 78.6 -> ~78 light, 'unblockable' in spring; BOLD) + a solid returning interior (Tygee Hill 63.2, Pome'e 57.2, Schuster 63.0 override).",
     "Loses its edge depth: Meikle (74.1 -> USF) + Wallin (69.2 -> SDSU) + Collins/Saez/Mullix + yr4 Taylor. FCS-transfer edges behind (Findlayter, Matagi).",
@@ -98,15 +216,37 @@
     "42: above the ECU p25 rail on Hickle + the interior; below Wake-60 (four-at-72+) - only one stud, thin edge. Offset note: ~1-2 higher under a pure near-zero treatment."
    ],
    "key_players": [
-    {"name": "Takari Hickle", "role": "DE1 (returning, BOLD)", "evidence": "408 snaps 78.6 (~78 light-adj); 'unblockable' in spring"},
-    {"name": "Tygee Hill", "role": "DT (returning)", "evidence": "347 snaps 65.4 (63.2 adj)"},
-    {"name": "Jacob Schuster", "role": "NT (returning, yr4 override)", "evidence": "212 snaps 65.2 (63.0 adj)"}
+    {
+     "name": "Takari Hickle",
+     "role": "DE1 (returning, BOLD)",
+     "evidence": "408 snaps 78.6 (~78 light-adj); 'unblockable' in spring"
+    },
+    {
+     "name": "Tygee Hill",
+     "role": "DT (returning)",
+     "evidence": "347 snaps 65.4 (63.2 adj)"
+    },
+    {
+     "name": "Jacob Schuster",
+     "role": "NT (returning, yr4 override)",
+     "evidence": "212 snaps 65.2 (63.0 adj)"
+    }
    ],
-   "data_gaps": ["lost 70+ edge depth (Meikle, Wallin)", "front 'looked small'"], "g5_guard_note": null
+   "data_gaps": [
+    "lost 70+ edge depth (Meikle, Wallin)",
+    "front 'looked small'"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Oregon State", "unit": "LB", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Nevada LB (p25, 56.3 table anchor)", "UNLV LB 2025 (40, exemplar anchor)"],
+   "team": "Oregon State",
+   "unit": "LB",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nevada LB (p25, 56.3 table anchor)",
+    "UNLV LB 2025 (40, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Keeps the STUD: Sullivan (576 snaps 84.6 -> ~84 light, the #2 tackler; BOLD) + Davis (53.6 override) + Shaw (51.4) + Blake (44.2) + FCS-Idaho Layne ('an intriguing tandem with Sullivan').",
     "Loses Foster (62.5 -> Nebraska).",
@@ -114,15 +254,37 @@
     "44: a stud-over-weak-support shape - the elite ceiling pulls it above the UNLV-40 tier; the thin support caps it. Offset note: ~1-2 higher under near-zero."
    ],
    "key_players": [
-    {"name": "Aiden Sullivan", "role": "WLB1 (returning, BOLD)", "evidence": "576 snaps 84.6 (~84 light-adj); #2 tackler"},
-    {"name": "Dylan Layne", "role": "MLB (transfer, Idaho FCS)", "evidence": "no cell; 'intriguing tandem with Sullivan'"},
-    {"name": "Raesjon Davis", "role": "MLB (returning, yr4 override)", "evidence": "131 snaps 58.3 (53.6 adj); ex-USC"}
+    {
+     "name": "Aiden Sullivan",
+     "role": "WLB1 (returning, BOLD)",
+     "evidence": "576 snaps 84.6 (~84 light-adj); #2 tackler"
+    },
+    {
+     "name": "Dylan Layne",
+     "role": "MLB (transfer, Idaho FCS)",
+     "evidence": "no cell; 'intriguing tandem with Sullivan'"
+    },
+    {
+     "name": "Raesjon Davis",
+     "role": "MLB (returning, yr4 override)",
+     "evidence": "131 snaps 58.3 (53.6 adj); ex-USC"
+    }
    ],
-   "data_gaps": ["weak support behind Sullivan", "FCS transfer at MLB, no cell"], "g5_guard_note": null
+   "data_gaps": [
+    "weak support behind Sullivan",
+    "FCS transfer at MLB, no cell"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Oregon State", "unit": "DB", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6, exemplar anchor)", "UCF DB (p75, 73.0 table anchor)"],
+   "team": "Oregon State",
+   "unit": "DB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "UCF DB (p75, 73.0 table anchor)"
+   ],
    "rationale_bullets": [
     "Keeps the anchor: Vadrawale (NB, 579 snaps 71.3 -> 68.9 adj; BOLD) + Patterson (S, 64.4) + Glasper (CB, 47.4; BOLD) + Howard (56.6) + a returning 'cornerstone' CB Crandall (missed '25 injured, no tape).",
     "Loses three yr4 starters (S Thomas 65.3, S White 69.2, CB Singleton 63.1) + Tucker (-> Wazzu) + Hussey (-> Miami).",
@@ -130,15 +292,37 @@
     "42: above the FAU-6 rail on Vadrawale + Patterson; well below the UCF-p75 rail - lost three starters, thin proven CB."
    ],
    "key_players": [
-    {"name": "Sailasa Vadrawale III", "role": "NB1 (returning, BOLD)", "evidence": "579 snaps 71.3 (68.9 adj); the DB anchor"},
-    {"name": "Jaheim Patterson", "role": "S (returning)", "evidence": "639 snaps 66.8 (64.4 adj)"},
-    {"name": "TJ Crandall", "role": "CB (returning, 'cornerstone')", "evidence": "missed '25 injured; no tape"}
+    {
+     "name": "Sailasa Vadrawale III",
+     "role": "NB1 (returning, BOLD)",
+     "evidence": "579 snaps 71.3 (68.9 adj); the DB anchor"
+    },
+    {
+     "name": "Jaheim Patterson",
+     "role": "S (returning)",
+     "evidence": "639 snaps 66.8 (64.4 adj)"
+    },
+    {
+     "name": "TJ Crandall",
+     "role": "CB (returning, 'cornerstone')",
+     "evidence": "missed '25 injured; no tape"
+    }
    ],
-   "data_gaps": ["lost three yr4 starters", "Glasper 47.4 weak; Crandall untested"], "g5_guard_note": null
+   "data_gaps": [
+    "lost three yr4 starters",
+    "Glasper 47.4 weak; Crandall untested"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Oregon State", "unit": "ST", "grade": 38, "confidence": "M",
-   "bracketing_exemplars": ["Boise State ST 2026 (44, round peer)", "Colorado State ST 2026 (20, round peer)"],
+   "team": "Oregon State",
+   "unit": "ST",
+   "grade": 38,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Boise State ST 2026 (44, round peer)",
+    "Colorado State ST 2026 (20, round peer)"
+   ],
    "rationale_bullets": [
     "K Ojeda + P Winsor RETURN; Winsor set a single-game punt record (53.4 avg); the LS problem is fixed (new snappers Zarut, Sanford); KR/PR Noland.",
     "The SPEC p0 in 2025 was 'one of the worst ST seasons of all time' due to numerous long-snapper injuries - a fluke, NOT a specialist problem.",
@@ -146,11 +330,27 @@
     "38: rebounds from historically-awful to below-average-plus on Winsor + continuity + the LS fix; below the Boise-44 tier on the unproven kicker."
    ],
    "key_players": [
-    {"name": "AJ Winsor", "role": "P (returning)", "evidence": "set a single-game punt record (53.4 avg)"},
-    {"name": "Caleb Ojeda", "role": "K (returning)", "evidence": "returns; quality unproven off a LS-wrecked unit"},
-    {"name": "Jonathan Zarut", "role": "LS (transfer, Memphis)", "evidence": "fixes the '25 long-snapper problem"}
+    {
+     "name": "AJ Winsor",
+     "role": "P (returning)",
+     "evidence": "set a single-game punt record (53.4 avg)"
+    },
+    {
+     "name": "Caleb Ojeda",
+     "role": "K (returning)",
+     "evidence": "returns; quality unproven off a LS-wrecked unit"
+    },
+    {
+     "name": "Jonathan Zarut",
+     "role": "LS (transfer, Memphis)",
+     "evidence": "fixes the '25 long-snapper problem"
+    }
    ],
-   "data_gaps": ["kicker quality unproven", "p0 was LS-injury-driven, not specialist talent"], "g5_guard_note": null
+   "data_gaps": [
+    "kicker quality unproven",
+    "p0 was LS-injury-driven, not specialist talent"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

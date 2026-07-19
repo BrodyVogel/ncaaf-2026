@@ -23,14 +23,17 @@ QB None | RB None | WRTE 14 | OL 12 | DL 16 | LB 26 | DB 19 | ST 10
 
 ---
 
-## QB — planned 32 (confidence L)
-Room: Barnes (76.6, the '25 starter) is yr4-GONE. Hillstead (BYU transfer,
-"transferred back to USU"; prior USU starts incl. 399 vs JMU; 5 recent
-snaps) the QB1 + Brosterhous (Virginia). Robert Anae's offense.
-Mechanical: a transfer QB with real prior starting experience but little
-recent tape, in a new (familiar-to-Mendenhall) scheme - the thin-recent-
-tape-plus-pedigree case, not a floor. Maps ~QB p28-36. Bracket: FIU QB 15
-< this 32 < UNM QB 34. L: unproven at USU, limited recent sample.
+## QB — planned 34 (confidence M)  [2026-07-19: was 32 L; Hillstead NAMED starter, battle resolved]
+Room: Barnes (76.6, the '25 starter) is yr4-GONE. McCae Hillstead was NAMED
+the 2026 starter (USU official, 2026-04-20) after winning a spring
+competition - the battle that drove the L is RESOLVED. Real prior FBS
+starting tape (4 starts, 1,062 yds, 11 TD as a USU true freshman '23; then
+BYU redshirt '24 / lost the '25 job) + Brosterhous (Virginia) depth. Robert
+Anae's offense. Mechanical: Mendenhall calls QB the team's "strongest
+position"; a returnee with starting tape + a clear staff endorsement, not a
+mystery. Maps ~QB p30-36. Bracket: FIU QB 15 < this 34 ~ New Mexico/San
+Diego State QB 34. M: job settled + FBS starting tape; the 2-yr recent-rep
+gap keeps it from higher.
 
 ## RB — planned 40
 Room: Jacobs returns (202 att 73.2 -> 64.3 MWC-adj; BOLD; also a KR/PR
@@ -113,7 +116,7 @@ genuine ST strength emerging. ST driven by specialists + returners
 - G5 guard: max planned 40 -> N/A.
 - Confidence: 1 L-unit (QB - transfer, limited recent tape). Coach x1.00.
 
-PLANNED GRADES: QB 32 L | RB 40 | WRTE 34 | OL 36 | DL 36 | LB 36 | DB 36 | ST 38
+PLANNED GRADES: QB 34 | RB 40 | WRTE 34 | OL 36 | DL 36 | LB 36 | DB 36 | ST 38
 
 ## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
 - QB: Bryson Barnes (76.6/483) EXPIRED(yr4)*

@@ -45,17 +45,19 @@ soph + a low-volume SEC transfer. vs Illinois RB 32 (volume 69.6) —
 Hatcher (63.3) is below, but the room has a real prospect. Maps ~RB p28-34.
 Bracket: Akron RB (p3, 60.3) < this 32 < Illinois RB 32 peer.
 
-## WRTE — planned 26 (confidence L)
+## WRTE — planned 30 (confidence L)  [2026-07-19: was 26 L; grade MISSED Aaron Butler (Texas transfer, projected starter)]
 Room: a total rebuild — the top-3 WR (Walker 69.4->Houston, Wells
-62.5->Tulsa, Reddicks 66.6->UNLV) + Card all gone. Top returner Boschma
-(65.6, 32 routes) + Freauff (53.3 depth). Transfers: Hampton (Alabama,
-pedigree/little tape) + Noland (UTRGV FCS, 901-yд breakout, no cell) +
-McDaniel (Mercer FCS) + Temple (CMU TE 47.0 adj). "A bevy of young,
-unproven weapons" (Athlon).
-Mechanical: no returning FBS production of note; an all-transfer/FCS
-reload whose FCS output carries no cell (evidence-only). RECV p23
-as-played (with the departed). Maps ~WRTE p20-28. Bracket: Ball State
-WRTE (p3, 53.9) < this 26 < Missouri State WRTE (p25, 61.3). L: unproven.
+62.5->Tulsa, Reddicks 66.6->UNLV) + Card all gone. The reload is more
+loaded than the freeze grade captured: it MISSED Aaron Butler (Texas
+transfer, former 4-star, PROJECTED 2026 STARTER — roster + multiple portal
+reports) and under-weighted returning 4-star Malachi Durant ("one of the
+highest upsides"). Plus Hampton (Alabama 4-star), Noland (UTRGV FCS 776/7TD),
+Freauff (returner, 12 rec/TD), Boschma (65.6).
+Mechanical: multiple P4-pedigree pieces (Butler/Texas, Hampton/Alabama,
+Durant 4-star) — a higher ceiling than "a bevy of young unproven weapons";
+SI/247 call the corps "improved with marquee transfer additions." Maps
+~WRTE p24-30. Bracket: Ball State WRTE (p3) < this 30 ~ Rice/Tulsa 30-32.
+L: no proven FBS WR1, new HC/QB/scheme, transfer production unproven at OSU.
 
 ## OL — planned 24 (confidence L)
 Room: a near-total rebuild — NINE OL departed (Berger, Sikorski, Strand,
@@ -138,7 +140,7 @@ rebounds from historically-awful to below-average on Winsor + continuity.
 - G5 guard: max planned 44 -> N/A.
 - Confidence: 2 L-units (WRTE, OL — both gutted/rebuilt). Coach x1.13.
 
-PLANNED GRADES: QB 34 | RB 32 | WRTE 26 L | OL 24 L | DL 42 | LB 44 | DB 42 | ST 38
+PLANNED GRADES: QB 34 | RB 32 | WRTE 30 L | OL 24 L | DL 42 | LB 44 | DB 42 | ST 38
 
 ## DISPOSITION LEDGER (auto-generated; >=100-vol 2025 producers; * = check news.md overrides)
 - QB: Maalik Murphy (59.8/305) RETURNS; Gabarri Johnson (49.1/123) PORTAL(none)-GONE (adjudicated)
