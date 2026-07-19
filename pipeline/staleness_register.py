@@ -16,7 +16,7 @@ Deterministic; reads only frozen inputs.
 import json, glob, os, csv
 
 UNITS = ["QB", "RB", "WRTE", "OL", "DL", "LB", "DB", "ST"]
-BOARD = "outputs/grade_board.csv"
+BOARD = "outputs/FINAL_BOARD_2026.csv"   # AUTHORITATIVE refit board (not grade_board.csv)
 OUT = "outputs/STALENESS_REGISTER.csv"
 
 
@@ -44,10 +44,10 @@ def main():
             "L_units": "|".join(Ls),
             "n_L": len(Ls),
             "qb_L": "Y" if "QB" in Ls else "",
-            "final": br.get("final", "?"),
+            "final": br.get("power_rating", "?"),
             "rank": br.get("rank", "?"),
-            "band": br.get("band", "?"),
-            "new_HC": br.get("coach_change", "?"),
+            "band": br.get("band_±", "?"),
+            "new_HC": br.get("new_HC", "?"),
         })
     # sort: QB-L first, then by n_L desc, then rank
     rows.sort(key=lambda r: (r["qb_L"] != "Y", -r["n_L"],

@@ -44,7 +44,7 @@ called out because they were graded as explicitly open battles.
 
 | team | unit | contingency | direction |
 |---|---|---|---|
-| New Mexico State | LB 38 L | Tory Gethers (88 tkl) graded GONE (in-portal) — see 07-19 finding | **UPSIDE if back** |
+| New Mexico State | LB 38→**44 M** | Tory Gethers back — **RESOLVED & APPLIED 2026-07-19** (see finding) | done |
 | Notre Dame | OL 78 | C Ashton Craig + G Charles Jagusah "if and when" they return from injury | upside if healthy; confirm Craig |
 | Liberty | QB 44 L | Ethan Vasko recovering from shoulder surgery (+12 INT '25) | affects QB floor |
 
@@ -58,19 +58,17 @@ FINALIZATION_PLAN Step 5). Demand extra margin before betting these.
 Focused check of the Tier-3 named items and the marquee Tier-2 battles. Pre-camp, so
 "still open" is the expected and confirmed state for the battles.
 
-- **NMSU LB Tory Gethers — ACTIONABLE (recommend re-grade, owner approval).** The
-  "remains in the portal" note traces to a Yahoo article dated **2026-01-21**. The
-  **current** official NMSU roster (nmstatesports.com, checked 07-19) lists Gethers as an
-  **active senior LB**, bio citing his 2025 season (12 games, 9 starts, 88 tackles — 2nd
-  on the team). A single unexplained asterisk sits by his name. Read together (6-month-old
-  portal note + current active roster listing + no new team ever found) he appears to have
-  **returned**. Grading credited him GONE (documented verification conflict). If he is
-  back, NMSU LB moves from "Aupiu + thin depth" to a proven two-man core.
-  **Recommendation: LB 38 L → ~44 M (owner to confirm magnitude).** NMSU is 120th and
-  unlikely to be a marquee bet, so non-urgent — but the ratings are more accurate with him
-  counted. Not auto-applied; awaiting owner's OK before running the repeat loop.
-  _Confirm-more step before editing: a July/August NMSU depth chart or beat article naming
-  Gethers as a 2026 contributor removes the asterisk ambiguity._
+- **NMSU LB Tory Gethers — RESOLVED & APPLIED (owner-approved 2026-07-19).** The
+  "remains in the portal" note traced to a Yahoo article dated **2026-01-21**; the
+  **current** official NMSU roster lists Gethers as an active senior LB (12 games, 9
+  starts, 88 tackles — 2nd on the team), and the owner confirmed his active X account
+  places him at NMSU (owner trusts legitimate/active player socials). Credited back:
+  **LB 38 L → 44 M** (Aupiu+Gethers duo, 156 combined tackles; depth still thin). Board
+  effect: NMSU rank 128→127, rating −17.22→−17.18 (+0.04), band 6.72→6.54 (4 L→3 L). The
+  small rating move is expected — the LB conversion weight is the smallest of the seven
+  units (−0.022), so even a 6-pt LB change barely moves the central rating; the band
+  tightening is the bigger effect. Repeat loop complete (grades.json + dossier +
+  deviation log + refit).
 - **ND OL Craig/Jagusah — WATCH (no change now).** Both are recovering from injury; the
   post-spring beat frames their availability as "if and when… they return." The dossier
   treats their health as UPSIDE to an already-strong OL 78 (not banked), and the ledger

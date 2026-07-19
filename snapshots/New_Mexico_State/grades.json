@@ -22,8 +22,8 @@
    "confidence": "M"
   },
   "LB": {
-   "grade": 38,
-   "confidence": "L"
+   "grade": 44,
+   "confidence": "M"
   },
   "DB": {
    "grade": 44,
@@ -41,9 +41,10 @@
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary + beat/web; PS CUSA text GARBLED; no Pick Six for CUSA]; Conference USA -> returning tape on CUSA cells [heavily negative], arrivals on origin [FCS/juco = no cell]; HC Tony Sanchez Y3 [NO CHANGE, band x1.00]; disposition gate 40 rows / 0 adjudicate / 0 err; VERIFICATION-CHANGED - LB Tory Gethers treated as NOT-counted [Athlon print says returns, but the current beat says uncommitted-in-portal -> not credited, LB graded thin]; 6 portal->None adjudicated GONE incl. Gethers; yr4-return override Nick Session; name-form-mismatch departure Armhan Hale [=Armahn Hale->Bowling Green]; MASSIVE churn 25 in/24 out + 31 yr4 - lost ALL 4 2025 All-CUSA [Faupel, Gavin Harris, Christensen 88.6, Mitchell]; anchor values not consulted. DISCLOSED: Athlon NF129 / CUSA prediction 8 incidentally visible, logged, NOT used.",
   "planned_vs_final_deviations": {
-   "note": "Finals match the dossier planned lines exactly (QB40L/RB38L/WRTE42/OL34L/DL40/LB38L/DB44/ST46, sum 322). NO post-freeze grade corrections. OL placed at 34 (between MTSU 30 and Missouri State 36) - the worst run game in FBS but 'multiple experienced transfers' + 2 returning starters. LB at 38 reflects the verification-changed Gethers disposition (not counted).",
+   "note": "2026-07-19 post-freeze correction (owner-approved): LB 38 L -> 44 M after Tory Gethers' return was confirmed. New sum 328 (was 322). See gethers_resolution. Unchanged: OL at 34 (between MTSU 30 and Missouri State 36) - worst run game in FBS but multiple experienced transfers + 2 returning starters.",
    "verification_changed_gethers": "LB Tory Gethers: Athlon (print) lists him BOLD returning; the current beat (Yahoo, Jul 2026) says he 'remains in the portal... can come back... hasn't found a new team.' Per the verify-before-asserting discipline the stale-magazine return is NOT credited - Gethers classified GONE for grading, LB graded thin around Aupiu (the confirmed anchor) + NO LB additions. His return = modest LB upside NOT in the 38.",
-   "shape": "A 4-8 juco/transfer teardown (lost all 4 All-CUSA) - a bottom-tier offense (open FCS-transfer QB comp 40L, worst-in-FBS run game 38L, near-total OL rebuild 34L) + a gutted DL (40, lost the 88.6 star) + a thin/uncertain LB (38L); offset by a ball-hawking secondary (44 - Iya/Session/Barnes) + good ST (46). 4 L units."
+   "shape": "A 4-8 juco/transfer teardown (lost all 4 All-CUSA) - a bottom-tier offense (open FCS-transfer QB comp 40L, worst-in-FBS run game 38L, near-total OL rebuild 34L) + a gutted DL (40, lost the 88.6 star) + an improved LB (44 M - the returning Aupiu+Gethers duo); offset by a ball-hawking secondary (44 - Iya/Session/Barnes) + good ST (46). 3 L units (QB/RB/OL; LB resolved off L after Gethers' return).",
+   "gethers_resolution": "2026-07-19 [owner-approved reversal of the freeze-time GONE call]: the 'remains in the portal' beat was dated 2026-01-21; the CURRENT official NM State roster lists Gethers as an active senior LB (88 tkl in '25) and his active X account places him at NMSU (owner trusts legitimate/active player socials). Gethers CREDITED -> LB 38 L -> 44 M (Aupiu+Gethers duo, 156 combined tackles). Depth still thin. Original freeze-time reasoning preserved in verification_changed_gethers."
   },
   "shadow_proxy_divergence": {
    "note": "The proxy (QB 10, RB None, WRTE 6, OL 15, DL 6, LB 26, DB 12, ST 84) reads low from the massive churn EXCEPT ST 84 (the good '25 special teams + return game). The grades key the verified returners + the Athlon two-deep, NOT the proxy.",
@@ -221,35 +222,39 @@
   {
    "team": "New Mexico State",
    "unit": "LB",
-   "grade": 38,
-   "confidence": "L",
+   "grade": 44,
+   "confidence": "M",
    "bracketing_exemplars": [
-    "Miami (OH) LB 2026 (38, peer)",
-    "Georgia State LB 2026 (38, peer)"
+    "Florida International LB 2026 (44, peer)",
+    "Middle Tennessee LB 2026 (44, peer)"
    ],
    "rationale_bullets": [
-    "Sone Aupiu (69.0/483 -> CUSA -12.31; 68 tackles - the CONFIRMED anchor) + Zaiden Davis (56.9/132; thin). Tory Gethers (65.3/687, 88 tkl) is UNCOMMITTED-in-portal (Athlon assumed return; NOT counted - upside). NO LB additions. LOST Quincy Davis (73.0 -> Kansas) + Tyler Martinez (66.2 -> Colorado).",
-    "A good returning MLB (Aupiu) but almost nothing proven behind him - no LB transfer additions, and the top-tackler (Gethers) is uncommitted-in-portal (not credited). A thin, uncertain room.",
-    "38: ~Miami OH/Georgia State LB 38. Aupiu anchors vs the thin/unproven depth + the Gethers uncertainty + no additions. L (Gethers' return would be modest upside)."
+    "Sone Aupiu (69.0/483 -> CUSA -12.31; 68 tackles) + Tory Gethers (65.3/687; 88 tackles - 2nd on the team, 9 starts) RETURN as a proven duo. Gethers - graded GONE at freeze (uncommitted-in-portal per a 2026-01-21 beat) - is back on the current NM State roster and his active X account places him at NMSU (owner-trusted signal). Zaiden Davis (56.9/132) depth. Still NO LB transfer additions.",
+    "Athlon's 'duo of Gethers + Aupiu' - two returning starters (156 combined tackles) anchor the room; the uncertainty that drove the L (Gethers' status) is resolved. Depth behind the two is still thin/unproven.",
+    "44 (M): ~Florida International/Middle Tennessee LB 44. The proven Aupiu+Gethers duo vs still-thin depth + no additions. Up from 38 L (Gethers now credited)."
    ],
    "key_players": [
     {
      "name": "Sone Aupiu",
      "role": "LB (returning)",
-     "evidence": "69.0/483; 68 tackles - the confirmed LB anchor"
+     "evidence": "69.0/483; 68 tackles - a returning starter"
+    },
+    {
+     "name": "Tory Gethers",
+     "role": "LB (returning)",
+     "evidence": "65.3/687; 88 tackles (2nd on team, 9 starts '25) - confirmed back (current roster + active X account); graded GONE at freeze"
     },
     {
      "name": "Zaiden Davis",
      "role": "LB (returning)",
-     "evidence": "56.9/132 - thin, unproven returning depth behind Aupiu"
+     "evidence": "56.9/132 - thin, unproven returning depth"
     }
    ],
    "data_gaps": [
-    "Gethers uncommitted-in-portal (not counted)",
-    "NO LB additions",
-    "thin/unproven depth behind Aupiu"
+    "thin/unproven depth behind the Aupiu+Gethers duo",
+    "NO LB transfer additions"
    ],
-   "g5_guard_note": "Conference USA; a thin LB room - Aupiu the confirmed anchor + unproven depth; Gethers uncommitted (not counted). L."
+   "g5_guard_note": "Conference USA; Aupiu + Gethers - two returning starters (156 combined tackles) anchor the room after Gethers' return was confirmed (current roster + X). Thin depth behind them. M."
   },
   {
    "team": "New Mexico State",

@@ -10,8 +10,8 @@ A 4-8 team gutted by a MASSIVE juco/transfer teardown (25 in / 24 out + 31 yr4) 
 All-CUSA players. The offense is bottom-tier: an OPEN QB competition led by an FCS transfer (Hedden), the WORST
 run game in FBS ('25 - 2.6 ypc), a near-total OL rebuild. The defense is the relative strength: a ball-hawking
 secondary (24 TOs forced) that reloads around Iya (74.2) + Session + a returning-starter transfer (Barnes), and
-good special teams (SPEC p84). The LB room is thin + uncertain (Aupiu the confirmed anchor; Gethers uncommitted-
-in-portal, not counted; no LB additions). Athlon rates them CUSA #8.
+good special teams (SPEC p84). The LB room is anchored by the returning Aupiu+Gethers duo (Gethers' return
+confirmed 2026-07-19; no LB additions; depth still thin). Athlon rates them CUSA #8.
 
 ## As-played 2025 percentiles (n=136)
 OVER 71.3 p18 | OFF 61.7 p7 | PASS 59.0 p21 | PBLK 53.7 p10 | RECV 66.7 p33 | RUN 64.8 p1 |
@@ -68,14 +68,15 @@ Mechanical: a returning rotation (Peterson, Tayou, Vislisel) + transfers off a d
 the 88.6 All-CUSA star left - a real wound. Maps ~DL p38-42 (~Marshall/UL Monroe). Bracket: the returning
 rotation + the PRSH p68 base vs the lost 88.6 star + Thompson. M.
 
-## LB — planned 38 (confidence L)
-Room: Sone Aupiu (69.0/483 -> CUSA -12.31; 68 tackles - the CONFIRMED anchor) + Zaiden Davis (56.9/132; thin).
-Tory Gethers (65.3/687, 88 tkl) is in the portal, uncommitted -> GONE for the grade (NOT counted; a rejoin
-would be modest upside). NO LB additions. LOST Quincy Davis (73.0 -> Kansas) + Tyler Martinez (66.2 -> Colorado).
-Mechanical: a good returning MLB (Aupiu) but almost nothing proven behind him - no LB transfer additions, and
-the top-tackler (Gethers) is uncommitted-in-portal (not credited). A thin, uncertain room. Maps ~LB p36-40
-(~Miami OH/Georgia State). Bracket: Aupiu anchors vs the thin/unproven depth + the Gethers uncertainty + no
-additions. L (a Gethers rejoin would be modest upside; GONE for now).
+## LB — planned 44 (confidence M)  [2026-07-19: was 38 L; Gethers return confirmed, owner-approved]
+Room: Sone Aupiu (69.0/483 -> CUSA -12.31; 68 tackles) + Tory Gethers (65.3/687, 88 tkl - 2nd on the team, 9
+starts) RETURN as a proven duo. Gethers - graded GONE at freeze (uncommitted-in-portal per a 2026-01-21 beat) -
+is back on the current NM State roster and his active X account places him at NMSU (owner-trusted). Zaiden Davis
+(56.9/132) depth. NO LB additions. LOST Quincy Davis (73.0 -> Kansas) + Tyler Martinez (66.2 -> Colorado).
+Mechanical: Athlon's 'duo of Gethers + Aupiu' - two returning starters (156 combined tackles) anchor the room;
+the status uncertainty that drove the L is resolved. Depth behind the two is still thin. Maps ~LB p44-48
+(~Florida International/Middle Tennessee). Bracket: the proven Aupiu+Gethers duo vs still-thin depth + no
+additions. M (up from 38 L now that Gethers is credited).
 
 ## DB — planned 44 (confidence M)
 Room: Bernock Iya (S, 74.2/581 -> CUSA -6.16; the top returning DB) + Nick Session (S, 64.6/630, yr4-return) +
@@ -94,10 +95,10 @@ punter (Minnesota); the specialists turned over but the phase is a relative stre
 the p84 base + the return game + the Minnesota punter vs the new/competing kicker. M.
 
 ---
-PLANNED GRADES: QB 40L | RB 38L | WRTE 42 | OL 34L | DL 40 | LB 38L | DB 44 | ST 46
-SUM 322. Shape: a 4-8 juco/transfer teardown (lost all 4 All-CUSA) - a bottom-tier offense (an open FCS-transfer
+PLANNED GRADES: QB 40L | RB 38L | WRTE 42 | OL 34L | DL 40 | LB 44 | DB 44 | ST 46
+SUM 328. Shape: a 4-8 juco/transfer teardown (lost all 4 All-CUSA) - a bottom-tier offense (an open FCS-transfer
 QB comp 40L, the worst run game in FBS 38L, a near-total OL rebuild 34L, a WR1-anchored corps 42) + a gutted-
-but-rebuilt DL (40, lost the 88.6 star) + a thin/uncertain LB room (38L - Aupiu + the Gethers question); offset
+but-rebuilt DL (40, lost the 88.6 star) + an improved LB room (44 M - the returning Aupiu+Gethers duo); offset
 by a ball-hawking secondary (44 - Iya/Session/Barnes) + good special teams (46 - SPEC p84 + return game). No HC
 change (Sanchez Y3; band x1.00). VERIFICATION-CHANGED: Gethers uncommitted-in-portal, not counted. 4 L units.
 
