@@ -225,16 +225,23 @@ def build_payload():
     from team_primers import build_primers
     PRIMERS = build_primers()
     mkt_stretch, rating_mean = compute_market_stretch(teams, sch, M)
+    # CALIBRATED set (audit 2026-07-20): our ratings shrunk toward the field mean by the factor
+    # that makes preseason ratings actually calibrate on 2021-25 games (probit slope ~1 at 0.75;
+    # raw preseason slope 0.62 — favorites win less than face value implies; hindsight ratings
+    # calibrate perfectly, so this prices forecast uncertainty, not a rating-scale error).
+    cal_shrink = 0.75
     pteams, pfcs, psched, pmarket = {}, {}, {}, {}
     for name, nk in n2.items():
         if nk not in teams:
             continue
         t = teams[nk]
         mm = rating_mean + mkt_stretch * (t['final'] - rating_mean)
+        cal = rating_mean + cal_shrink * (t['final'] - rating_mean)
         pteams[nk] = {'nk': nk, 'name': name, 'conf': t['conf'],
                       'final': round(t['final'], 2), 'band': round(t['band'], 2),
                       'anchor': round(t['anchor'], 2),
                       'market_matched': round(mm, 2),
+                      'calibrated': round(cal, 2),
                       'reclass': name in RECLASS_2026,
                       'der': DER.get(name), 'primer': PRIMERS.get(name)}
     for name, fr in fcs.items():
@@ -259,7 +266,8 @@ def build_payload():
         'meta': {'hfa': E.HFA, 'sigma_game': E.SIGMA_GAME, 'band_to_sd': E.BAND_TO_SD,
                  'gh_nodes': E.GH_NODES, 'gh_weights': E.GH_WEIGHTS,
                  'n_teams': len(pteams), 'reclass': sorted(RECLASS_2026),
-                 'market_stretch': round(mkt_stretch, 4), 'rating_mean': round(rating_mean, 4)},
+                 'market_stretch': round(mkt_stretch, 4), 'rating_mean': round(rating_mean, 4),
+                 'cal_shrink': cal_shrink},
         'teams': pteams, 'fcs': pfcs, 'schedules': psched, 'market': pmarket,
     }
 

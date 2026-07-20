@@ -113,3 +113,75 @@ dispersion stories ≥1.0 only; the calibrated end is the stricter test.
 - HFA fits at 2.7–3.2 on 2021–25 games vs our 2.3 (minor, well within noise year to year).
 - Our grades' incremental accuracy over SP+ preseason is unproven; the 0.75 shrink estimate
   borrows SP+'s error profile as the best available proxy.
+
+---
+
+# Part II — Intellectual audit of the engine (owner request, round 2)
+
+The question: is this the *right way* to simulate a win total, not merely a correct
+implementation of a chosen way? Verdict first: **the architecture is right — probit margin
+model, three-source variance with the shared own-team shock, exact Poisson-Binomial +
+Gauss-Hermite is the correct structure for this object, and better than the Monte-Carlo
+independent-games models most bettors build (those understate tails; the shared shock is the
+single most important choice here and Opus made it correctly). The one first-order thing the
+architecture was missing is the forecast-calibration layer — now added as the Calibrated set.**
+
+## The decisive test: season-level calibration (2021–25, 663 team-seasons)
+
+A win-total engine's output is a season-win *distribution*, so I validated at that level: ran
+the full engine (bands 6, σ 13.5, shared shock, PB+GH) on five seasons of SP+ preseason
+ratings and real schedules, and compared predicted distributions to actual win counts.
+
+| metric | RAW engine (shrink 1.0) | CALIBRATED (×0.75) | target |
+|---|---|---|---|
+| bias (actual − E[W]) | −0.02 wins | −0.03 wins | 0 |
+| dispersion ratio | 1.18 (too narrow) | 1.07 | 1.00 |
+| central-50% coverage | 49.0% | 51.6% | 50% |
+| central-80% coverage | 75.6% | 80.8% | 80% |
+| P(over) reliability, worst bucket | −6.2 pts | −3.9 pts | 0 |
+| P(over) tails (≥0.90 bucket) | −2.1 pts | −0.3 pts | 0 |
+
+The raw engine was well-centered but overconfident exactly as the game-level backtest
+predicted (65% claims hit 60%, 10%-or-less claims hit at nearly double the stated rate).
+The calibrated engine is near-textbook. This is the empirical answer to "is the method
+right": **yes, once the shrink layer is in.**
+
+## Design choices reviewed, one by one
+
+- **Probit (normal-margin) win curve** — right family; margins around true ratings are
+  ~N(0, 13.6) empirically (final-ratings residual SD 13.58 vs σ_game 13.5). Residual
+  non-normality (fat tails / key numbers) matters for spreads, much less for win
+  probabilities; after the shrink, tail buckets calibrate to −0.3 pts. No change needed.
+- **Three-source variance & the shared shock** — conceptually correct and the reason the
+  tails behave. One refinement available: the season-constant δ treats all rating error as
+  fully season-correlated, while part of the real error is *drift* (b decays 0.71 → 0.57
+  across the season), which correlates games less than a constant offset. Effect: current
+  tails are very slightly fat given a calibrated center — visible as the calibrated
+  dispersion ratio 1.07 sitting a touch above 1 while coverage is on target. Second-order;
+  not worth the complexity.
+- **Bands ±6, uniform-ish** — consistent with the preseason-error decomposition (margin
+  residual 16.9² − 13.5² ⇒ per-team τ ≈ 7). Asymmetric team risk (QB-dependency skew) is
+  unmodeled; teams collapse harder than they surge, which the symmetric shock misses. Minor.
+- **HFA 2.3 constant** — 2021–25 fits say 2.7 (margin space); site-specific effects
+  (altitude, Hawai'i travel) unmodeled. Worth ~±0.05 wins; it's a live-tunable in the UI.
+- **FCS opponents at fixed tiers** — error budget trivial (favorites ≥97% either way).
+- **What's genuinely unmodeled at the totals level** — (1) the bowl-eligibility push:
+  teams finish on exactly 6 wins 14.3% vs the model's 13.3% — real, small, argues a
+  half-point of extra respect for overs at 5.5 and unders at 6.5; (2) motivation/tanking
+  and coach-firing dynamics in lost seasons (part of why the left tail is heavy);
+  (3) schedule *order* (irrelevant under a constant δ, mildly relevant under drift).
+- **Portfolio caveat (matters for betting, not simulation)** — fade-the-extremes edges are
+  correlated across teams through the dispersion thesis: in a chalk-holds season they lose
+  together. The ✓✓ bracket bets are the defense — team-specific by construction — and
+  sizing on calibrated EV already prices the per-bet honesty. Do not size the aggregate
+  as if the 51 ✓✓ bets were independent.
+
+## Where the shrink's limits are
+
+×0.75 is borrowed from SP+ preseason's five-year error profile (the best available proxy;
+our blend has no history). If the roster grades genuinely add information beyond SP+, the
+true factor is a bit milder (~0.8). It is a global constant — per-team shrink (shrink less
+for stable veteran rosters, more for high-churn ones) is the natural next refinement, and
+the band machinery (L-counts, coach-change flags) already contains the raw material. The
+shrink is live-tunable in the Methodology tab (default 0.75; setting 1.0 reproduces the
+raw engine exactly).
