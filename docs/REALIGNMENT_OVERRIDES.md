@@ -46,3 +46,6 @@ on a team we can't confidently rate (it now ranks 116/138 by conviction, down fr
 NDSU's false Under 8.5 (was the board's top edge) is gone. Boise/SDSU/Wazzu unders remain (real:
 market over-hypes the rebuilt Pac-12; we and SP+ agree they're lower). Field mean drifts +0.15
 (immaterial). Ratings re-locked: `ASSEMBLY_LOCKED_2026-07-20.csv`.
+
+## AUDIT CORRECTION (2026-07-20, Fable)
+The "Effect" paragraph's market reads ("Boise/SDSU/Wazzu unders remain real edges") predate the discovery that all 8 Pac-12 schedules were missing the Week-13 flex game (see docs/AUDIT_2026-07-20_fable.md §1). With the 12th game restored, the Pac-12 unders largely evaporate (Boise flips to a modest over at 7.5). The rating overrides themselves are unaffected — they were and are correct.

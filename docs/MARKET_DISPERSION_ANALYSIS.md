@@ -73,3 +73,6 @@ spread play. In the artifact: three edge columns on the Board, a conviction scor
 *weaker* of ours and market-matched (default sort), and a ✓✓ flag when both clear +4%. ~60 of 138
 clear it — the market really is that inefficient — so the score/sort matters more than the binary.
 Owner's read: a total standing out on both lenses is the higher-confidence bet.
+
+## AUDIT CORRECTION (2026-07-20, Fable)
+The Pac-12 examples in this doc ("Boise/SDSU/Wazzu unders are real edges") were contaminated by a missing-game data bug: all 8 Pac-12 schedules lacked the Week-13 flex game, deflating E[wins] ~0.3-0.7 vs 12-game market totals. Post-fix, those teams lean modest OVER at posted lines. The dispersion conclusion itself SURVIVES (field-wide gradient nearly unchanged ex-Pac-12; game-level calibration confirms and strengthens it — see docs/AUDIT_2026-07-20_fable.md §3, which also quantifies the sub-1.0 shrink this doc footnoted: the calibrated optimum is ~0.75x, i.e. our own preseason probabilities are overconfident on extremes too).
