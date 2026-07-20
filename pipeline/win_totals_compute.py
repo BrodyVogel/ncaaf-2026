@@ -142,6 +142,50 @@ def _market_block(offers, dist_our, dist_anchor):
             'edge_anchor': edge_block(dist_anchor)}
 
 
+def compute_market_stretch(teams, sch, M):
+    """The MARKET-MATCHED set: our ratings linearly stretched (around the field mean) by the
+    factor s* whose win-total edges have ZERO slope vs the market line — i.e. the version of our
+    ratings that adopts the market's *dispersion*. On this set the systematic fade-favorites/
+    back-dogs tilt is neutralized, so any surviving edge is team-specific. Returns (s*, mean)."""
+    mean = st.mean(t['final'] for t in teams.values())
+
+    def devig(line, offers):
+        at = [o for (l, o, b) in offers if abs(l - line) < 1e-6] or [o for (l, o, b) in offers]
+        oo = st.median(at)
+        po = E.american_to_prob(oo); pu = E.american_to_prob(E.under_from_over(oo))
+        return po / (po + pu)
+
+    def pov(dist, line):
+        need = math.floor(line) + 1
+        return sum(dist[k] for k in range(need, len(dist)))
+
+    def slope(s):
+        xs, ys = [], []
+        for nk, t in teams.items():
+            offers = M.get(t['name'], {}).get('regular')
+            if nk not in sch or not offers:
+                continue
+            L = st.median([l for (l, o, b) in offers])
+            games = []
+            for g in sch[nk]:
+                o = g['opp']
+                om = mean + s * (o['mu_our'] - mean) if o['kind'] == 'fbs' else o['mu_our']
+                games.append({'mu_opp': om, 'site': g['site'], 'band_opp': o['band']})
+            d = E.win_distribution(mean + s * (t['final'] - mean), t['band'], games)['dist']
+            xs.append(L); ys.append(pov(d, L) - devig(L, offers))
+        mx = st.mean(xs); my = st.mean(ys)
+        return sum((x - mx) * (y - my) for x, y in zip(xs, ys)) / sum((x - mx) ** 2 for x in xs)
+
+    lo, hi = 0.8, 1.6
+    for _ in range(22):
+        mid = (lo + hi) / 2
+        if slope(mid) > 0:
+            hi = mid
+        else:
+            lo = mid
+    return (lo + hi) / 2, mean
+
+
 def build_payload():
     """Lean, self-contained inputs the browser computes everything from. Small on purpose:
     no precomputed distributions (JS re-derives them, incl. after manual rating edits)."""
@@ -149,14 +193,17 @@ def build_payload():
     teams, sch, fcs, n2 = D['teams'], D['schedules'], D['fcs'], D['name2nk']
     M = _market()
     DER = _derivations()
+    mkt_stretch, rating_mean = compute_market_stretch(teams, sch, M)
     pteams, pfcs, psched, pmarket = {}, {}, {}, {}
     for name, nk in n2.items():
         if nk not in teams:
             continue
         t = teams[nk]
+        mm = rating_mean + mkt_stretch * (t['final'] - rating_mean)
         pteams[nk] = {'nk': nk, 'name': name, 'conf': t['conf'],
                       'final': round(t['final'], 2), 'band': round(t['band'], 2),
                       'anchor': round(t['anchor'], 2),
+                      'market_matched': round(mm, 2),
                       'reclass': name in RECLASS_2026,
                       'der': DER.get(name)}
     for name, fr in fcs.items():
@@ -177,7 +224,8 @@ def build_payload():
     return {
         'meta': {'hfa': E.HFA, 'sigma_game': E.SIGMA_GAME, 'band_to_sd': E.BAND_TO_SD,
                  'gh_nodes': E.GH_NODES, 'gh_weights': E.GH_WEIGHTS,
-                 'n_teams': len(pteams), 'reclass': sorted(RECLASS_2026)},
+                 'n_teams': len(pteams), 'reclass': sorted(RECLASS_2026),
+                 'market_stretch': round(mkt_stretch, 4), 'rating_mean': round(rating_mean, 4)},
         'teams': pteams, 'fcs': pfcs, 'schedules': psched, 'market': pmarket,
     }
 

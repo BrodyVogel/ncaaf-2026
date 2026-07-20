@@ -107,6 +107,7 @@ tbody tr:hover{background:var(--panel2)}
 .chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:6px;padding:1px 6px;font-size:11px;color:var(--dim)}
 .chip.fcs{color:var(--warn)}.chip.conf{color:var(--acc)}.chip.reclass{color:var(--bad);border-color:var(--bad)}
 .pos{color:var(--good)}.neg{color:var(--bad)}.mut{color:var(--dim)}
+.conv{color:var(--good);letter-spacing:-1px}
 .big{font-size:26px;font-weight:700}
 .kv{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0}
 .kv .k{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:8px 12px;min-width:96px}
@@ -137,7 +138,7 @@ UI_JS = r'''
 'use strict';
 var P = window.PAYLOAD, WE = window.WinEngine, ENG = WE.makeEngine(P.meta);
 var state = { sigma:P.meta.sigma_game, hfa:P.meta.hfa, bts:P.meta.band_to_sd,
-              overrides:{}, team:null, expl:null, boardMode:'regular', boardSort:'ev' };
+              overrides:{}, team:null, expl:null, boardMode:'regular', boardSort:'conv', boardConv:false };
 
 // ---------- helpers ----------
 function fmtOdds(a){ a=Math.round(a); if(Math.abs(a)>100000) return '<span class="mut">—</span>'; return (a>0?'+':'')+a; }
@@ -152,6 +153,13 @@ function ov(ref){ return state.overrides[ref]||null; }
 function ourRating(ref){ var o=ov(ref); return o&&o.final!=null?o.final:baseFinal(ref); }
 function ourBand(ref){ var o=ov(ref); return o&&o.band!=null?o.band:baseBand(ref); }
 function anchorRating(ref){ return baseAnchor(ref); }   // anchor = fixed consensus reference
+// market-matched = our ratings stretched to the market's dispersion (propagates overrides;
+// FCS opponents unchanged). On this set the fade-favorites/back-dogs tilt is neutralized.
+function marketMatchedRating(ref){
+  if(!isFbs(ref)) return P.fcs[ref]?P.fcs[ref].rating:-40;
+  var m=P.meta.rating_mean, s=P.meta.market_stretch; return m+s*(ourRating(ref)-m);
+}
+function ratingFn(kind){ return kind==='our'?ourRating:kind==='mkt'?marketMatchedRating:anchorRating; }
 function nameOf(ref){ return isFbs(ref)?P.teams[ref].name:ref; }
 function isOverridden(ref){ var o=ov(ref); return !!(o&&(o.final!=null||o.band!=null)); }
 function nOverrides(){ return Object.keys(state.overrides).filter(isOverridden).length; }
@@ -175,11 +183,11 @@ function refreshOvbar(){
 
 // ---------- core compute (mirrors win_totals_compute.py) ----------
 function gamesFor(nk, kind, confOnly){
-  var sc=P.schedules[nk]||[], out=[];
+  var sc=P.schedules[nk]||[], out=[], rf=ratingFn(kind), ourB=(kind!=='anchor');
   for(var i=0;i<sc.length;i++){ var g=sc[i]; if(confOnly&&!g.is_conf) continue;
     var ref=g.opp_ref;
-    out.push({mu_opp: kind==='our'?ourRating(ref):anchorRating(ref), site:g.site,
-              band_opp: kind==='our'?ourBand(ref):baseBand(ref), g:g});
+    out.push({mu_opp: rf(ref), site:g.site,
+              band_opp: ourB?ourBand(ref):baseBand(ref), g:g});
   }
   return out;
 }
@@ -192,12 +200,12 @@ function ladder(dist){
 function pOverAt(dist,line){ var need=Math.floor(line)+1,s=0; for(var k=need;k<dist.length;k++) s+=dist[k]; return s; }
 function distBlock(nk, kind, confOnly){
   var gs=gamesFor(nk,kind,confOnly);
-  var mu = kind==='our'?ourRating(nk):anchorRating(nk);
-  var bd = kind==='our'?ourBand(nk):baseBand(nk);
+  var mu = ratingFn(kind)(nk);
+  var bd = kind==='anchor'?baseBand(nk):ourBand(nk);
   var r=ENG.winDistribution(mu,bd,gs.map(function(x){return{mu_opp:x.mu_opp,site:x.site,band_opp:x.band_opp};}),curOpts());
   return {dist:r.dist, ew:r.expected_wins, G:r.G, ladder:ladder(r.dist)};
 }
-function marketBlock(offers, distOur, distAnchor){
+function marketBlock(offers, distOur, distAnchor, distMkt){
   if(!offers||!offers.length) return null;
   var books=offers.map(function(o){return {line:o[0],over_odds:o[1],book:o[2],under_odds:WE.underFromOver(o[1])};})
                   .sort(function(a,b){return a.line-b.line||b.over_odds-a.over_odds;});
@@ -220,21 +228,28 @@ function marketBlock(offers, distOur, distAnchor){
   var pov=WE.americanToProb(oo), puv=WE.americanToProb(WE.underFromOver(oo)), mkt_po=pov/(pov+puv);
   function edge(d){ var op=pOverAt(d.dist,med); return {line:med,mkt_po:mkt_po,our_po:op,
       edge_over:op-mkt_po, edge_under:(1-op)-(1-mkt_po)}; }
-  return {books:books, median_line:med, best:best, edge_our:edge(distOur), edge_anchor:edge(distAnchor)};
+  return {books:books, median_line:med, best:best,
+          edge_our:edge(distOur), edge_anchor:edge(distAnchor), edge_mkt:edge(distMkt)};
 }
 function computeTeam(nk){
   var t=P.teams[nk];
-  var regOur=distBlock(nk,'our',false), regAnc=distBlock(nk,'anchor',false);
-  var regMkt=marketBlock((P.market[nk]||{}).regular, regOur, regAnc);
-  var out={t:t, reg:{our:regOur,anchor:regAnc,market:regMkt}};
+  var regOur=distBlock(nk,'our',false), regAnc=distBlock(nk,'anchor',false), regMm=distBlock(nk,'mkt',false);
+  var regMkt=marketBlock((P.market[nk]||{}).regular, regOur, regAnc, regMm);
+  var out={t:t, reg:{our:regOur,anchor:regAnc,mkt:regMm,market:regMkt}};
   var hasConf=(P.schedules[nk]||[]).some(function(g){return g.is_conf;});
   if(hasConf){
-    var cOur=distBlock(nk,'our',true), cAnc=distBlock(nk,'anchor',true);
-    var cMkt=marketBlock((P.market[nk]||{}).conference, cOur, cAnc);
-    out.conf={our:cOur,anchor:cAnc,market:cMkt};
+    var cOur=distBlock(nk,'our',true), cAnc=distBlock(nk,'anchor',true), cMm=distBlock(nk,'mkt',true);
+    var cMkt=marketBlock((P.market[nk]||{}).conference, cOur, cAnc, cMm);
+    out.conf={our:cOur,anchor:cAnc,mkt:cMm,market:cMkt};
   }
   return out;
 }
+// signed edge on a given side, for a set's edge block
+function sideEdge(eb, side){ return side==='over'?eb.edge_over:eb.edge_under; }
+// conviction = how strongly the best bet stands out on the WEAKER of our two lenses
+// (our roster ratings AND the market-matched set). High score = survives both.
+function convScore(m){ var s=m.best.side; return Math.min(sideEdge(m.edge_our,s), sideEdge(m.edge_mkt,s)); }
+function convicted(m){ return convScore(m) >= 0.04; }
 
 // ---------- rendering ----------
 function teamOptions(sel, cur){
@@ -259,12 +274,14 @@ function renderBoard(){
     var c=computeTeam(nk); var blk=mode==='regular'?c.reg:c.conf; if(!blk||!blk.market) return;
     var m=blk.market, b=m.best;
     rows.push({nk:nk, name:c.t.name, conf:c.t.conf, reclass:c.t.reclass, ew:blk.our.ew,
-      line:m.median_line, edgeOur:(b.side==='over'?m.edge_our.edge_over:m.edge_our.edge_under),
-      edgeAnc:(b.side==='over'?m.edge_anchor.edge_over:m.edge_anchor.edge_under),
-      side:b.side, bestline:b.line, odds:b.odds, ev:b.ev});
+      line:m.median_line, edgeOur:sideEdge(m.edge_our,b.side),
+      edgeAnc:sideEdge(m.edge_anchor,b.side), edgeMm:sideEdge(m.edge_mkt,b.side),
+      conv:convicted(m), cscore:convScore(m), side:b.side, bestline:b.line, odds:b.odds, ev:b.ev});
   });
+  if(state.boardConv) rows=rows.filter(function(r){return r.conv;});
   var key=state.boardSort;
   rows.sort(function(a,b){
+    if(key==='conv') return b.cscore-a.cscore;
     if(key==='ev') return b.ev-a.ev;
     if(key==='edge') return Math.abs(b.edgeOur)-Math.abs(a.edgeOur);
     if(key==='team') return a.name.localeCompare(b.name);
@@ -273,28 +290,35 @@ function renderBoard(){
     return 0; });
   var h='<div class="panel"><h2>Board — every mispricing our model sees</h2>'+
     '<p class="hint">Best bet = highest-EV side across all posted books (under priced at 30&cent; off the over). '+
-    '“Edge” is our probability minus the de-vigged market probability on the best side. '+
-    'Positive EV = our model likes it. Click a row to open the team. Reclassifying programs ('+P.meta.reclass.join(', ')+') carry extra uncertainty.</p>'+
+    'Three edge columns: <b>ours</b> (roster ratings), <b>consensus</b> (analytics anchor), and <b>mkt-match</b> '+
+    '(our ratings stretched to the market&rsquo;s own dispersion, s='+P.meta.market_stretch.toFixed(2)+'). '+
+    'Default sort ranks by <b>conviction</b> = the edge on the <i>weaker</i> of ours and mkt-match, so totals that stand out on '+
+    '<i>both</i> lenses rise to the top; a <b class="conv">✓✓</b> marks those clearing +4% on both. (The market over-disperses win totals, '+
+    'so many totals carry the fade-favorites/back-dogs edge — the mkt-match column strips that market-wide tilt out, leaving the team-specific part.) Click a row to open the team.</p>'+
     '<div class="kv"><label class="hint">View: </label>'+
     '<select id="boardmode"><option value="regular"'+(mode==='regular'?' selected':'')+'>Regular-season wins</option>'+
     '<option value="conference"'+(mode==='conference'?' selected':'')+'>Conference wins (P4)</option></select>'+
-    '<select id="boardsort"><option value="ev">Sort: Best EV</option><option value="edge"'+(key==='edge'?' selected':'')+'>Sort: |Edge|</option>'+
+    '<select id="boardsort"><option value="conv"'+(key==='conv'?' selected':'')+'>Sort: Conviction (both lenses)</option>'+
+    '<option value="ev"'+(key==='ev'?' selected':'')+'>Sort: Best EV</option><option value="edge"'+(key==='edge'?' selected':'')+'>Sort: |Edge|</option>'+
     '<option value="ew"'+(key==='ew'?' selected':'')+'>Sort: Our E[wins]</option>'+
-    '<option value="team"'+(key==='team'?' selected':'')+'>Sort: Team</option></select></div>';
-  h+='<table><thead><tr><th>Team</th><th>Conf</th><th>Our E[w]</th><th>Mkt line</th>'+
-     '<th>Best bet</th><th>Edge (ours)</th><th>Edge (anchor)</th><th>EV /$1</th></tr></thead><tbody>';
+    '<option value="team"'+(key==='team'?' selected':'')+'>Sort: Team</option></select>'+
+    '<label class="hint" style="cursor:pointer"><input type="checkbox" id="convonly"'+(state.boardConv?' checked':'')+'> ✓✓ only (both ≥4%)</label></div>';
+  h+='<table><thead><tr><th>Team</th><th>Conf</th><th></th><th>Our E[w]</th><th>Line</th>'+
+     '<th>Best bet</th><th>Edge (ours)</th><th>Edge (consensus)</th><th>Edge (mkt-match)</th><th>EV /$1</th></tr></thead><tbody>';
   rows.forEach(function(r){
     var evc=r.ev>0.02?'pos edge-strong':(r.ev>0?'pos':'mut');
     h+='<tr data-nk="'+r.nk+'" style="cursor:pointer"><td>'+r.name+(r.reclass?' <span class="chip reclass">FBS debut</span>':'')+'</td>'+
-       '<td class="mut">'+r.conf+'</td><td>'+r.ew.toFixed(2)+'</td><td>'+r.line.toFixed(1)+'</td>'+
+       '<td class="mut">'+r.conf+'</td><td>'+(r.conv?'<b class="conv">✓✓</b>':'')+'</td><td>'+r.ew.toFixed(2)+'</td><td>'+r.line.toFixed(1)+'</td>'+
        '<td>'+(r.side==='over'?'Over':'Under')+' '+r.bestline.toFixed(1)+' <span class="mut">'+fmtOdds(r.odds)+'</span></td>'+
-       '<td>'+edgeCell(r.edgeOur)+'</td><td>'+edgeCell(r.edgeAnc)+'</td>'+
+       '<td>'+edgeCell(r.edgeOur)+'</td><td>'+edgeCell(r.edgeAnc)+'</td><td>'+edgeCell(r.edgeMm)+'</td>'+
        '<td class="'+evc+'">'+sgn(r.ev,3)+'</td></tr>';
   });
-  h+='</tbody></table><p class="hint">'+rows.length+' teams with posted '+mode+' totals.</p></div>';
+  var nconv=rows.filter(function(r){return r.conv;}).length;
+  h+='</tbody></table><p class="hint">'+rows.length+' teams with posted '+mode+' totals'+(state.boardConv?'':' · '+nconv+' double-confirmed (✓✓)')+'.</p></div>';
   v.innerHTML=h;
   document.getElementById('boardmode').onchange=function(){state.boardMode=this.value;renderBoard();};
   document.getElementById('boardsort').onchange=function(){state.boardSort=this.value;renderBoard();};
+  document.getElementById('convonly').onchange=function(){state.boardConv=this.checked;renderBoard();};
   Array.prototype.forEach.call(v.querySelectorAll('tr[data-nk]'),function(tr){
     tr.onclick=function(){ state.team=tr.getAttribute('data-nk'); setTab('team'); };
   });
@@ -313,25 +337,27 @@ function distTable(blk, marketLine){
   return h+'</tbody></table>';
 }
 function ladderTable(blk){
-  var lo=blk.our.ladder, la=blk.anchor.ladder;
-  var h='<table><thead><tr><th>Line</th><th>Over (ours)</th><th>Under (ours)</th><th>P over (ours)</th>'+
-        '<th>Over (anchor)</th><th>Under (anchor)</th></tr></thead><tbody>';
+  var lo=blk.our.ladder, la=blk.anchor.ladder, lm=blk.mkt.ladder;
+  var h='<table><thead><tr><th>Line</th><th>Over (ours)</th><th>Under (ours)</th>'+
+        '<th>Over (cons)</th><th>Under (cons)</th><th>Over (mkt)</th><th>Under (mkt)</th></tr></thead><tbody>';
   for(var i=0;i<lo.length;i++){
     h+='<tr><td>'+lo[i].line.toFixed(1)+'</td><td>'+fmtOdds(lo[i].fair_over)+'</td><td>'+fmtOdds(lo[i].fair_under)+'</td>'+
-       '<td class="mut">'+pct(lo[i].p_over)+'</td><td class="mut">'+fmtOdds(la[i].fair_over)+'</td>'+
-       '<td class="mut">'+fmtOdds(la[i].fair_under)+'</td></tr>';
+       '<td class="mut">'+fmtOdds(la[i].fair_over)+'</td><td class="mut">'+fmtOdds(la[i].fair_under)+'</td>'+
+       '<td class="mut">'+fmtOdds(lm[i].fair_over)+'</td><td class="mut">'+fmtOdds(lm[i].fair_under)+'</td></tr>';
   }
   return h+'</tbody></table>';
 }
 function marketPanel(mkt, blkName){
   if(!mkt) return '<p class="hint">No posted '+blkName+' total.</p>';
   var b=mkt.best;
+  var conv=convicted(mkt);
   var h='<div class="best'+(b.side==='under'?' under':'')+'"><b>Best bet:</b> '+(b.side==='over'?'Over':'Under')+' '+b.line.toFixed(1)+
         ' @ '+fmtOdds(b.odds)+' <span class="mut">('+b.book+')</span> · our P '+pct(b.our_p)+
-        ' · <b>EV '+sgn(b.ev,3)+'/$1</b></div>';
+        ' · <b>EV '+sgn(b.ev,3)+'/$1</b>'+(conv?' &nbsp;<b class="conv">✓✓ confirmed on market-matched</b>':'')+'</div>';
   h+='<div class="kv"><div class="k"><div class="l">Consensus line</div><div class="v">'+mkt.median_line.toFixed(1)+'</div></div>'+
-     '<div class="k"><div class="l">Edge (ours)</div><div class="v">'+edgeCell(b.side==='over'?mkt.edge_our.edge_over:mkt.edge_our.edge_under)+'</div></div>'+
-     '<div class="k"><div class="l">Edge (anchor)</div><div class="v">'+edgeCell(b.side==='over'?mkt.edge_anchor.edge_over:mkt.edge_anchor.edge_under)+'</div></div></div>';
+     '<div class="k"><div class="l">Edge (ours)</div><div class="v">'+edgeCell(sideEdge(mkt.edge_our,b.side))+'</div></div>'+
+     '<div class="k"><div class="l">Edge (consensus)</div><div class="v">'+edgeCell(sideEdge(mkt.edge_anchor,b.side))+'</div></div>'+
+     '<div class="k"><div class="l">Edge (mkt-match)</div><div class="v">'+edgeCell(sideEdge(mkt.edge_mkt,b.side))+'</div></div></div>';
   h+='<h3>Posted lines</h3><table><thead><tr><th>Book</th><th>Line</th><th>Over</th><th>Under (30&cent;)</th>'+
      '<th>P over (ours)</th><th>EV over</th><th>EV under</th></tr></thead><tbody>';
   mkt.books.forEach(function(bk){
@@ -359,11 +385,13 @@ function renderTeam(){
     '<div class="kv"><div class="k"><div class="l">Power (ours)</div>'+
        '<input class="rate" id="ov-final" type="number" step="0.5" value="'+ourRating(nk).toFixed(2)+'"></div>'+
     '<div class="k"><div class="l">Band (±, variance)</div><input class="rate" id="ov-band" type="number" step="0.5" value="'+ourBand(nk).toFixed(2)+'"></div>'+
-    '<div class="k"><div class="l">Consensus anchor</div><div class="v">'+anchorRating(nk).toFixed(1)+'</div></div></div>'+
+    '<div class="k"><div class="l">Consensus anchor</div><div class="v">'+anchorRating(nk).toFixed(1)+'</div></div>'+
+    '<div class="k"><div class="l">Market-matched</div><div class="v">'+marketMatchedRating(nk).toFixed(1)+'</div></div></div>'+
     (isOverridden(nk)?'<p class="hint">Base: power '+baseFinal(nk).toFixed(2)+', band '+baseBand(nk).toFixed(2)+'. <a href="#" id="revert" style="color:var(--warn)">revert this team</a></p>':'')+
     '</div></div>';
   h+='<div class="kv"><div class="k"><div class="l">Reg. E[wins] (ours)</div><div class="v">'+c.reg.our.ew.toFixed(2)+'</div></div>'+
-     '<div class="k"><div class="l">Reg. E[wins] (anchor)</div><div class="v">'+c.reg.anchor.ew.toFixed(2)+'</div></div>'+
+     '<div class="k"><div class="l">E[wins] (consensus)</div><div class="v">'+c.reg.anchor.ew.toFixed(2)+'</div></div>'+
+     '<div class="k"><div class="l">E[wins] (mkt-match)</div><div class="v">'+c.reg.mkt.ew.toFixed(2)+'</div></div>'+
      (c.conf?'<div class="k"><div class="l">Conf. E[wins] (ours)</div><div class="v">'+c.conf.our.ew.toFixed(2)+'</div></div>':'')+
      '<div class="k"><div class="l">Conference</div><div class="v" style="font-size:14px">'+t.conf+'</div></div>'+
      (t.reclass?'<div class="k" style="border-color:var(--bad)"><div class="l">Note</div><div class="v" style="font-size:12px;color:var(--bad)">FBS debut ’26</div></div>':'')+'</div></div>';
@@ -371,32 +399,34 @@ function renderTeam(){
   // schedule
   h+='<div class="panel"><h2>Schedule &amp; per-game win probability</h2>'+
      '<p class="hint">Verify the slate here. Opponent power ratings are editable too (edits ripple into this team\'s totals). '+
-     '“P win” columns use our rating and the consensus anchor respectively.</p>'+
-     '<table><thead><tr><th>Wk</th><th>Opponent</th><th>Site</th><th>Opp power (ours)</th><th>Opp (anchor)</th>'+
-     '<th>P win (ours)</th><th>P win (anchor)</th></tr></thead><tbody>';
+     '“P win” columns use our rating, the consensus anchor, and the market-matched set.</p>'+
+     '<table><thead><tr><th>Wk</th><th>Opponent</th><th>Site</th><th>Opp (ours)</th><th>Opp (cons)</th><th>Opp (mkt)</th>'+
+     '<th>P win (ours)</th><th>P win (cons)</th><th>P win (mkt)</th></tr></thead><tbody>';
   (P.schedules[nk]||[]).forEach(function(g){
     var ref=g.opp_ref;
     var po=ENG.gameWinProb(ourRating(nk),ourRating(ref),g.site,ourBand(ref),curOpts());
     var pa=ENG.gameWinProb(anchorRating(nk),anchorRating(ref),g.site,baseBand(ref),curOpts());
+    var pm=ENG.gameWinProb(marketMatchedRating(nk),marketMatchedRating(ref),g.site,ourBand(ref),curOpts());
     var tags=(g.opp_kind==='fcs'?' <span class="chip fcs">FCS</span>':'')+(g.is_conf?' <span class="chip conf">conf</span>':'')+
              (isFbs(ref)&&P.teams[ref].reclass?' <span class="chip reclass">FBS debut</span>':'');
     var editable='<input class="rate" data-ref="'+ref+'" data-f="final" type="number" step="0.5" value="'+ourRating(ref).toFixed(1)+'">';
     h+='<tr><td>'+g.week+'</td><td>'+g.opp_name+tags+'</td><td>'+siteTag(g.site)+'</td><td>'+editable+'</td>'+
-       '<td class="mut">'+anchorRating(ref).toFixed(1)+'</td><td>'+pct(po)+'</td><td class="mut">'+pct(pa)+'</td></tr>';
+       '<td class="mut">'+anchorRating(ref).toFixed(1)+'</td><td class="mut">'+marketMatchedRating(ref).toFixed(1)+'</td>'+
+       '<td>'+pct(po)+'</td><td class="mut">'+pct(pa)+'</td><td class="mut">'+pct(pm)+'</td></tr>';
   });
   h+='</tbody></table></div>';
 
   // regular win total
   h+='<div class="panel"><h2>Regular-season win total</h2><div class="row">'+
      '<div class="col"><h3>Win distribution &amp; fair odds (per exact win count)</h3>'+distTable(c.reg)+'</div>'+
-     '<div class="col"><h3>Fair no-vig ladder (each line) — ours vs anchor</h3>'+ladderTable(c.reg)+'</div></div>'+
+     '<div class="col"><h3>Fair no-vig ladder (each line) — ours · consensus · mkt-match</h3>'+ladderTable(c.reg)+'</div></div>'+
      '<h3>Market — best price &amp; edge</h3>'+marketPanel(c.reg.market,'regular')+'</div>';
 
   // conference win total
   if(c.conf){
     h+='<div class="panel"><h2>Conference win total</h2><div class="row">'+
        '<div class="col"><h3>Conf. win distribution &amp; fair odds</h3>'+distTable(c.conf)+'</div>'+
-       '<div class="col"><h3>Conf. fair no-vig ladder — ours vs anchor</h3>'+ladderTable(c.conf)+'</div></div>'+
+       '<div class="col"><h3>Conf. fair no-vig ladder — ours · consensus · mkt-match</h3>'+ladderTable(c.conf)+'</div></div>'+
        '<h3>Conference market — best price &amp; edge</h3>'+marketPanel(c.conf.market,'conference')+'</div>';
   }
   v.innerHTML=h;
@@ -475,6 +505,9 @@ function renderMethod(){
   '<p>The win distribution gives a fair no-vig price for every line (over k−0.5 = P(wins ≥ k)). Against the market we assume the owner&rsquo;s <b>30-cent line</b>: an over posted at −175 implies an under at +145. We de-vig the two sides to a market probability and call the difference from our probability the <b>edge</b>; EV is the expected profit per $1 at the posted price.</p>'+
   '<h3>Calibration (what we checked)</h3>'+
   '<p>Across all teams with posted totals, our win probabilities are <b>unbiased against the market on average</b> (mean edge ≈ 0.0%). We also checked whether the disagreements are <i>independent</i> per team (real signal) or a systematic function of the line (a scale artifact). The original ratings failed that test: our grade→points step was an OLS fit, and OLS fitted values are shrunk toward the mean by ~&radic;R², so the grades came out compressed — dragging every extreme toward the middle when blended in, so we systematically backed low-total underdogs&rsquo; overs and faded high-total favorites (~⅓ of edge variance was explained by the line alone). We <b>de-compressed the grade signal</b> (un-shrink the OLS fit + remove the level-correlated component of the grade residual — both market-agnostic), which cut that line-correlation by more than half and restored the fair rating spread (SD ≈ 13, matching KFord and the market), with the team ordering unchanged (Spearman ≈ 1.00). The residual is now concentrated in the extreme tails and traces to specific teams (e.g. reclassifying North Dakota State, where the market prices a 9-time FCS champion&rsquo;s FBS debut far above our grade) — genuine per-team disagreements to adjudicate by hand, not a mechanical tilt.</p>'+
+  '<h3>Three rating sets &amp; the ✓✓ cross-check</h3>'+
+  '<p>Every total is priced under three sets. <b>Ours</b> is the roster-graded power rating (SD ≈ 13, the spread every real rating system and 5 years of actual game outcomes support). <b>Consensus</b> is the analytics anchor (SP+/Pick Six) — close to the market. <b>Market-matched</b> is our ratings linearly stretched (×'+P.meta.market_stretch.toFixed(2)+', to SD ≈ 15.5) so their win totals adopt the <i>market&rsquo;s own dispersion</i> — the stretch whose edge-vs-line slope is exactly zero.</p>'+
+  '<p>Why the third set matters: most of our aggregate edge is the fade-favorites/back-dogs tilt, which comes from the market over-dispersing win totals (documented, and confirmed here — favorites win less than their totals, dogs more). That tilt is a real but <i>market-wide</i> play. The market-matched set <b>removes</b> it by construction, so an edge that survives on <i>both</i> ours and market-matched is <b>team-specific</b> — we disagree about that team even after granting the market its spread. Those are flagged <b class="conv">✓✓</b> and are the higher-conviction bets: two independent reasons to be on the same side, not one reason counted twice.</p>'+
   '<h3>Tune it yourself</h3>'+
   '<p>These are the live constants. Changing them recomputes the entire board and every team instantly — the same pro forma as editing a rating.</p>'+
   '<div class="kv"><div class="k"><div class="l">HFA (home-field pts)</div><input class="rate" id="m-hfa" type="number" step="0.1" value="'+state.hfa+'"></div>'+

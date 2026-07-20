@@ -56,3 +56,20 @@ to match SP+) was the right and sufficient scale correction; no further stretch.
   historical win-total lines and real backtested betting P&L before sizing bets.
 - The mild game-level over-confidence hints at a touch *less* spread or slightly higher
   σ_game — again, opposite of stretching.
+
+## Follow-up (2026-07-20): ratings locked + a third "market-matched" set
+
+**Locked.** The de-compressed ratings (SD 13.2, floor −28.2) are frozen as the official set:
+`outputs/final_pass/ASSEMBLY_LOCKED_2026-07-20.csv` (+ FINAL_BOARD_LOCKED_...). `final_pass.py`
+still regenerates them identically; no further scale changes.
+
+**Third set — MARKET-MATCHED.** Added alongside ours (roster) and consensus (anchor). It is our
+ratings linearly stretched around the field mean by **s\* = 1.177** (SD 13.2 → 15.5) — the factor
+whose win-total edge-vs-line slope is exactly zero, i.e. our ratings wearing the market's own
+dispersion. Since the market over-disperses, most of our aggregate edge is the (market-wide)
+fade-favorites/back-dogs tilt; the market-matched set neutralizes that tilt by construction, so an
+edge that still shows up on it is **team-specific** — a disagreement about that team beyond the
+spread play. In the artifact: three edge columns on the Board, a conviction score = the edge on the
+*weaker* of ours and market-matched (default sort), and a ✓✓ flag when both clear +4%. ~60 of 138
+clear it — the market really is that inefficient — so the score/sort matters more than the binary.
+Owner's read: a total standing out on both lenses is the higher-confidence bet.
