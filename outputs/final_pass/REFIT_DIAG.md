@@ -1,4 +1,4 @@
-# Final-pass refit diagnostic — 2026-07-20T01:07:10+00:00 @ 3abfb2a
+# Final-pass refit diagnostic — 2026-07-20T01:46:01+00:00 @ 4d05dfa
 
 ## Conversion weights (proxy-fit regime -> full-138 real-grade refit)
 | side | unit | proxy-fit | refit-138 |
@@ -37,19 +37,19 @@ intercepts: off +8.07, def +39.50
 | SEC | 16 | +1.37 | -5.6 | +6.5 |
 | FBS Independents | 2 | +8.93 | +6.6 | +11.3 |
 
-## Movers vs the pilot-era board (mean |Δ| 2.49, max 6.61; rank Spearman vs pilot-era 0.990)
+## Movers vs the pilot-era board (mean |Δ| 2.54, max 10.67; rank Spearman vs pilot-era 0.986)
 | biggest UP | Δ | | biggest DOWN | Δ |
 |---|---:|---|---|---:|
-| Notre Dame | +6.61 | | Middle Tennessee | -4.98 |
-| Oregon | +6.28 | | New Mexico State | -4.93 |
-| Georgia | +6.04 | | Missouri State | -4.69 |
-| Ole Miss | +5.85 | | Sam Houston | -4.66 |
-| Texas | +5.55 | | Kennesaw State | -4.51 |
-| Ohio State | +5.52 | | Liberty | -4.44 |
-| LSU | +5.44 | | Florida International | -4.29 |
-| Oklahoma | +5.29 | | UL Monroe | -3.95 |
-| Texas A&M | +4.89 | | Jacksonville State | -3.94 |
-| BYU | +4.77 | | Delaware | -3.91 |
+| North Dakota State | +10.67 | | Middle Tennessee | -4.98 |
+| Notre Dame | +6.61 | | New Mexico State | -4.93 |
+| Oregon | +6.28 | | Missouri State | -4.69 |
+| Georgia | +6.04 | | Sam Houston | -4.66 |
+| Ole Miss | +5.85 | | Liberty | -4.44 |
+| Texas | +5.55 | | Florida International | -4.29 |
+| Ohio State | +5.52 | | UL Monroe | -3.95 |
+| LSU | +5.44 | | Delaware | -3.91 |
+| Oklahoma | +5.29 | | Georgia State | -3.76 |
+| Texas A&M | +4.89 | | Southern Miss | -3.68 |
 
 ## Conference-level component REMOVED (official mode) — owner decision 2026-07-19
 The k*clip(resid) term otherwise moves every team in a conference by ~k x (conference

@@ -1,6 +1,6 @@
 # 2026 Preseason FBS Power Ratings — Final Board (full-138 REFIT)
 
-Produced by pipeline/final_pass.py @ 3abfb2a on 2026-07-20T01:07:10+00:00. Conversion refit on all 138
+Produced by pipeline/final_pass.py @ 4d05dfa on 2026-07-20T01:46:01+00:00. Conversion refit on all 138
 real grades (R² off 0.67 / def 0.49); one consistent recenter (+0.57). power_rating =
 projected neutral-field margin vs an average FBS team (points); band = the +/- uncertainty.
 residual mode: CONFERENCE-DEMEANED (official; Independents pseudo-pooled ND->P4, UConn->G5)
@@ -60,7 +60,7 @@ residual mode: CONFERENCE-DEMEANED (official; Independents pseudo-pooled ND->P4,
 | 51 | Wake Forest | ACC | +5.18 | ±6.4 |  |
 | 52 | NC State | ACC | +5.15 | ±6.5 |  |
 | 53 | Baylor | Big 12 | +5.10 | ±6.2 |  |
-| 54 | Boise State | Pac-12 | +4.06 | ±6.2 |  |
+| 54 | Boise State | Pac-12 | +5.00 | ±6.2 |  |
 | 55 | UCF | Big 12 | +3.96 | ±6.0 |  |
 | 56 | Kansas | Big 12 | +3.86 | ±6.0 |  |
 | 57 | Maryland | Big Ten | +3.84 | ±6.0 |  |
@@ -68,62 +68,62 @@ residual mode: CONFERENCE-DEMEANED (official; Independents pseudo-pooled ND->P4,
 | 59 | Cincinnati | Big 12 | +3.28 | ±6.2 |  |
 | 60 | California | ACC | +2.85 | ±7.4 | Y |
 | 61 | Rutgers | Big Ten | +2.80 | ±6.0 |  |
-| 62 | Colorado | Big 12 | +1.96 | ±6.0 |  |
-| 63 | Memphis | American Athletic | +1.76 | ±7.6 | Y |
-| 64 | West Virginia | Big 12 | +1.34 | ±6.0 |  |
-| 65 | Iowa State | Big 12 | +1.02 | ±8.1 | Y |
-| 66 | East Carolina | American Athletic | +0.60 | ±6.4 |  |
-| 67 | Tulane | American Athletic | +0.25 | ±7.4 | Y |
-| 68 | San Diego State | Pac-12 | -0.04 | ±6.2 |  |
-| 69 | Michigan State | Big Ten | -0.12 | ±6.8 | Y |
-| 70 | Stanford | ACC | -0.85 | ±7.4 | Y |
-| 71 | Fresno State | Pac-12 | -0.90 | ±6.2 |  |
-| 72 | Purdue | Big Ten | -1.02 | ±6.0 |  |
-| 73 | UNLV | Mountain West | -1.20 | ±6.4 |  |
-| 74 | Boston College | ACC | -1.47 | ±6.5 |  |
-| 75 | Syracuse | ACC | -1.77 | ±6.4 |  |
-| 76 | Navy | American Athletic | -2.54 | ±6.2 |  |
-| 77 | South Florida | American Athletic | -2.78 | ±7.4 | Y |
-| 78 | Army | American Athletic | -2.79 | ±6.4 |  |
-| 79 | Texas State | Pac-12 | -2.81 | ±6.2 |  |
-| 80 | James Madison | Sun Belt | -2.99 | ±7.0 | Y |
-| 81 | UTSA | American Athletic | -3.50 | ±6.7 |  |
-| 82 | New Mexico | Mountain West | -3.81 | ±6.0 |  |
-| 83 | Washington State | Pac-12 | -3.87 | ±7.9 | Y |
-| 84 | Utah State | Pac-12 | -5.83 | ±6.0 |  |
-| 85 | Old Dominion | Sun Belt | -5.83 | ±6.0 |  |
-| 86 | Air Force | Mountain West | -6.36 | ±6.2 |  |
-| 87 | UConn | FBS Independents | -6.55 | ±7.4 | Y |
-| 88 | Oregon State | Pac-12 | -6.58 | ±7.2 | Y |
-| 89 | Tulsa | American Athletic | -6.63 | ±6.2 |  |
-| 90 | Hawai'i | Mountain West | -6.76 | ±6.7 |  |
-| 91 | North Dakota State | Mountain West | -7.05 | ±7.2 |  |
+| 62 | North Dakota State | Mountain West | +2.00 | ±8.0 |  |
+| 63 | Colorado | Big 12 | +1.96 | ±6.0 |  |
+| 64 | Memphis | American Athletic | +1.76 | ±7.6 | Y |
+| 65 | West Virginia | Big 12 | +1.34 | ±6.0 |  |
+| 66 | Iowa State | Big 12 | +1.02 | ±8.1 | Y |
+| 67 | East Carolina | American Athletic | +0.60 | ±6.4 |  |
+| 68 | Tulane | American Athletic | +0.25 | ±7.4 | Y |
+| 69 | San Diego State | Pac-12 | -0.04 | ±6.2 |  |
+| 70 | Michigan State | Big Ten | -0.12 | ±6.8 | Y |
+| 71 | Stanford | ACC | -0.85 | ±7.4 | Y |
+| 72 | Fresno State | Pac-12 | -0.90 | ±6.2 |  |
+| 73 | Purdue | Big Ten | -1.02 | ±6.0 |  |
+| 74 | UNLV | Mountain West | -1.20 | ±6.4 |  |
+| 75 | Boston College | ACC | -1.47 | ±6.5 |  |
+| 76 | Syracuse | ACC | -1.77 | ±6.4 |  |
+| 77 | Navy | American Athletic | -2.54 | ±6.2 |  |
+| 78 | South Florida | American Athletic | -2.78 | ±7.4 | Y |
+| 79 | Army | American Athletic | -2.79 | ±6.4 |  |
+| 80 | Texas State | Pac-12 | -2.81 | ±6.2 |  |
+| 81 | James Madison | Sun Belt | -2.99 | ±7.0 | Y |
+| 82 | UTSA | American Athletic | -3.50 | ±6.7 |  |
+| 83 | New Mexico | Mountain West | -3.81 | ±6.0 |  |
+| 84 | Washington State | Pac-12 | -3.87 | ±7.9 | Y |
+| 85 | Utah State | Pac-12 | -5.83 | ±6.0 |  |
+| 86 | Old Dominion | Sun Belt | -5.83 | ±6.0 |  |
+| 87 | Air Force | Mountain West | -6.36 | ±6.2 |  |
+| 88 | UConn | FBS Independents | -6.55 | ±7.4 | Y |
+| 89 | Oregon State | Pac-12 | -6.58 | ±7.2 | Y |
+| 90 | Tulsa | American Athletic | -6.63 | ±6.2 |  |
+| 91 | Hawai'i | Mountain West | -6.76 | ±6.7 |  |
 | 92 | Miami (OH) | Mid-American | -7.11 | ±6.2 |  |
 | 93 | Western Michigan | Mid-American | -7.45 | ±6.2 |  |
 | 94 | Western Kentucky | Conference USA | -7.62 | ±6.4 |  |
 | 95 | North Texas | American Athletic | -7.66 | ±8.4 | Y |
-| 96 | Troy | Sun Belt | -8.28 | ±6.0 |  |
-| 97 | Marshall | Sun Belt | -8.93 | ±6.0 |  |
-| 98 | Louisiana | Sun Belt | -9.34 | ±6.0 |  |
-| 99 | Toledo | Mid-American | -9.97 | ±7.9 | Y |
-| 100 | Arkansas State | Sun Belt | -10.16 | ±6.2 |  |
-| 101 | Louisiana Tech | Sun Belt | -10.32 | ±6.0 |  |
-| 102 | Jacksonville State | Conference USA | -10.46 | ±6.0 |  |
-| 103 | Florida Atlantic | American Athletic | -10.64 | ±6.4 |  |
-| 104 | Liberty | Conference USA | -10.93 | ±6.5 |  |
-| 105 | Georgia Southern | Sun Belt | -11.24 | ±6.0 |  |
-| 106 | App State | Sun Belt | -11.82 | ±6.4 |  |
-| 107 | South Alabama | Sun Belt | -11.83 | ±6.0 |  |
-| 108 | Wyoming | Mountain West | -11.95 | ±6.5 |  |
-| 109 | Temple | American Athletic | -12.03 | ±6.7 |  |
-| 110 | Ohio | Mid-American | -12.47 | ±7.0 | Y |
-| 111 | Central Michigan | Mid-American | -12.51 | ±6.2 |  |
-| 112 | Delaware | Conference USA | -12.93 | ±6.6 |  |
-| 113 | Nevada | Mountain West | -12.98 | ±6.5 |  |
-| 114 | Bowling Green | Mid-American | -12.98 | ±6.2 |  |
-| 115 | Coastal Carolina | Sun Belt | -13.09 | ±7.2 | Y |
-| 116 | Colorado State | Pac-12 | -13.39 | ±7.4 | Y |
-| 117 | Kennesaw State | Conference USA | -13.48 | ±6.4 |  |
+| 96 | Jacksonville State | Conference USA | -8.00 | ±6.0 |  |
+| 97 | Troy | Sun Belt | -8.28 | ±6.0 |  |
+| 98 | Marshall | Sun Belt | -8.93 | ±6.0 |  |
+| 99 | Colorado State | Pac-12 | -9.00 | ±7.4 | Y |
+| 100 | Louisiana | Sun Belt | -9.34 | ±6.0 |  |
+| 101 | Toledo | Mid-American | -9.97 | ±7.9 | Y |
+| 102 | Arkansas State | Sun Belt | -10.16 | ±6.2 |  |
+| 103 | Louisiana Tech | Sun Belt | -10.32 | ±6.0 |  |
+| 104 | Kennesaw State | Conference USA | -10.50 | ±6.4 |  |
+| 105 | Florida Atlantic | American Athletic | -10.64 | ±6.4 |  |
+| 106 | Liberty | Conference USA | -10.93 | ±6.5 |  |
+| 107 | Georgia Southern | Sun Belt | -11.24 | ±6.0 |  |
+| 108 | App State | Sun Belt | -11.82 | ±6.4 |  |
+| 109 | South Alabama | Sun Belt | -11.83 | ±6.0 |  |
+| 110 | Wyoming | Mountain West | -11.95 | ±6.5 |  |
+| 111 | Temple | American Athletic | -12.03 | ±6.7 |  |
+| 112 | Ohio | Mid-American | -12.47 | ±7.0 | Y |
+| 113 | Central Michigan | Mid-American | -12.51 | ±6.2 |  |
+| 114 | Delaware | Conference USA | -12.93 | ±6.6 |  |
+| 115 | Nevada | Mountain West | -12.98 | ±6.5 |  |
+| 116 | Bowling Green | Mid-American | -12.98 | ±6.2 |  |
+| 117 | Coastal Carolina | Sun Belt | -13.09 | ±7.2 | Y |
 | 118 | San José State | Mountain West | -14.14 | ±6.4 |  |
 | 119 | Rice | American Athletic | -14.42 | ±6.5 |  |
 | 120 | Buffalo | Mid-American | -14.53 | ±6.4 |  |

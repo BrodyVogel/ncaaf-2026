@@ -162,9 +162,30 @@ def main():
     shift = float(final_raw.mean())
     final = final_raw - shift
 
+    # ---- 3b. Manual overrides for grade-unreliable teams (owner decision 2026-07-20) ----
+    # A few realignment / recent FCS-reclass teams have no reliable FBS roster grades (e.g. NDSU
+    # was graded ~-27, a pure no-data artifact), leaving their final well below SP+ AND the market
+    # and generating false win-total edges. Replace those with researched values (SP+ + targeted
+    # web research), logged in data/manual_overrides_2026.csv. Applied post-recenter so the
+    # researched number appears exactly; the ~0.15-pt field-mean drift from a handful of teams is
+    # immaterial. --no-overrides skips this (reproduces the pure-model ratings).
+    ovr = {}
+    if "--no-overrides" not in sys.argv and os.path.exists("data/manual_overrides_2026.csv"):
+        for orow in csv.DictReader(open("data/manual_overrides_2026.csv")):
+            ovr[orow["team"]] = orow
+    override_names = []
+    for i, r in enumerate(rows):
+        o = ovr.get(r["name"])
+        if o:
+            final[i] = float(o["rating"]); override_names.append(r["name"])
+
     # ---- 4. Bands (same frozen formula, recomputed from source data) ----
     band = np.array([SIGMA * (1.13 if r["coach"] else 1.0) * (1.10 if r["disp"] else 1.0)
                      * (1 + 0.03 * min(r["L"], 5)) for r in rows])
+    for i, r in enumerate(rows):                      # optional wider band for override teams
+        o = ovr.get(r["name"])
+        if o and o.get("band"):
+            band[i] = float(o["band"])
 
     # ---- 5. Diagnostics ----
     # level slope, re-measured at 138 (diagnostic ONLY — never enters the final)
