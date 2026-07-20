@@ -1,4 +1,4 @@
-# Final-pass refit diagnostic — 2026-07-19T23:53:30+00:00 @ a954a7d
+# Final-pass refit diagnostic — 2026-07-20T00:16:58+00:00 @ f4d5d9e
 
 ## Conversion weights (proxy-fit regime -> full-138 real-grade refit)
 | side | unit | proxy-fit | refit-138 |

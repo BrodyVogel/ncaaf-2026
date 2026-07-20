@@ -1,6 +1,6 @@
 # 2026 Preseason FBS Power Ratings — Final Board (full-138 REFIT)
 
-Produced by pipeline/final_pass.py @ a954a7d on 2026-07-19T23:53:30+00:00. Conversion refit on all 138
+Produced by pipeline/final_pass.py @ f4d5d9e on 2026-07-20T00:16:58+00:00. Conversion refit on all 138
 real grades (R² off 0.67 / def 0.49); one consistent recenter (+0.57). power_rating =
 projected neutral-field margin vs an average FBS team (points); band = the +/- uncertainty.
 residual mode: CONFERENCE-DEMEANED (official; Independents pseudo-pooled ND->P4, UConn->G5)
