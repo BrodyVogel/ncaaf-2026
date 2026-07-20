@@ -44,6 +44,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       <span class="sub">Power ratings &amp; variance model vs the market — finding mispriced totals</span></div>
     <nav id="tabs">
       <button data-tab="board" class="on">Board</button>
+      <button data-tab="props">H2H Props</button>
       <button data-tab="team">Team</button>
       <button data-tab="explainer">Rating Explainer</button>
       <button data-tab="method">Methodology</button>
@@ -57,6 +58,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 </div>
 <main class="wrap">
   <section id="view-board" class="view on"></section>
+  <section id="view-props" class="view"></section>
   <section id="view-team" class="view"></section>
   <section id="view-explainer" class="view"></section>
   <section id="view-method" class="view"></section>
@@ -355,6 +357,85 @@ function renderBoard(){
   });
 }
 
+// ----- Head-to-head props -----
+// win distribution for a team under a rating set, optionally excluding one opponent (nk)
+function propDist(nk, kind, exclNk){
+  var sc=P.schedules[nk]||[], gs=[], rf=ratingFn(kind), ourB=(kind!=='anchor');
+  for(var i=0;i<sc.length;i++){ var g=sc[i];
+    if(exclNk && g.opp_kind==='fbs' && g.opp_ref===exclNk) continue;
+    gs.push({mu_opp:rf(g.opp_ref), site:g.site, band_opp: ourB?ourBand(g.opp_ref):baseBand(g.opp_ref)});
+  }
+  var bd = kind==='anchor'?baseBand(nk):ourBand(nk);
+  return ENG.winDistribution(rf(nk), bd, gs, curOpts()).dist;
+}
+// P(Wfav - Wdog >= t) for independent win distributions
+function diffGe(dfav, ddog, t){
+  var s=0; for(var i=0;i<dfav.length;i++){ for(var j=0;j<ddog.length;j++){ if(i-j>=t) s+=dfav[i]*ddog[j]; } }
+  return s;
+}
+function playsEachOther(a,b){ return (P.schedules[a]||[]).some(function(g){return g.opp_kind==='fbs'&&g.opp_ref===b;}); }
+// P(favorite finishes with >= thresh more wins than dog), under rating set `kind`.
+// Exact head-to-head handling when the two teams actually play: condition on that game.
+function propProb(favNk, dogNk, thresh, kind){
+  if(!playsEachOther(favNk,dogNk)) return diffGe(propDist(favNk,kind), propDist(dogNk,kind), thresh);
+  // find the H2H game on fav's schedule for its site, then split on the result
+  var site=0; var sc=P.schedules[favNk]||[];
+  for(var i=0;i<sc.length;i++){ if(sc[i].opp_kind==='fbs'&&sc[i].opp_ref===dogNk){ site=sc[i].site; break; } }
+  var pf=ENG.gameWinProb(ratingFn(kind)(favNk), ratingFn(kind)(dogNk), site,
+                         (kind!=='anchor'?ourBand(dogNk):baseBand(dogNk)), curOpts());
+  var xf=propDist(favNk,kind,dogNk), xd=propDist(dogNk,kind,favNk);
+  return pf*diffGe(xf,xd,thresh-1) + (1-pf)*diffGe(xf,xd,thresh+1);
+}
+var PROP_OVR = 2*WE.americanToProb(-110);   // standard-juice two-way overround (owner spec)
+function computeProp(pr){
+  var mktp = WE.americanToProb(pr.price)/PROP_OVR;    // de-vig at standard juice
+  var pOur=propProb(pr.fav_nk,pr.dog_nk,pr.thresh,'our');
+  var pCal=propProb(pr.fav_nk,pr.dog_nk,pr.thresh,'cal');
+  var pMkt=propProb(pr.fav_nk,pr.dog_nk,pr.thresh,'mkt');
+  var pAnc=propProb(pr.fav_nk,pr.dog_nk,pr.thresh,'anchor');
+  var dec=WE.americanToDecimal(pr.price);
+  function ev(p){ return p*(dec-1)-(1-p); }
+  var conv=Math.min(pCal-mktp, pMkt-mktp);
+  return {pr:pr, mktp:mktp, our:pOur, cal:pCal, mkt:pMkt, anc:pAnc,
+          edgeOur:pOur-mktp, edgeCal:pCal-mktp, edgeMkt:pMkt-mktp,
+          evOur:ev(pOur), evCal:ev(pCal), conv:conv, h2h:playsEachOther(pr.fav_nk,pr.dog_nk)};
+}
+function renderProps(){
+  var v=document.getElementById('view-props');
+  if(!P.props||!P.props.length){ v.innerHTML='<div class="panel"><p class="hint">No props loaded.</p></div>'; return; }
+  var rows=P.props.map(computeProp);
+  var key=state.propSort||'conv';
+  rows.sort(function(a,b){ return key==='ev'?(b.evCal-a.evCal):key==='edge'?(b.edgeCal-a.edgeCal):(b.conv-a.conv); });
+  var h='<div class="panel"><h2>Head-to-head win-total props</h2>'+
+    '<p class="hint">Each bet: the <b>favorite</b> to finish the regular season with at least <b>⌈line⌉</b> more wins than the underdog, at the posted price. '+
+    'We model it as the <b>difference of the two teams&rsquo; season win distributions</b> (same engine as the board); when the two teams actually play (tagged <span class="chip conf">H2H</span>) that game is handled exactly by conditioning on its result. '+
+    'Market prob de-vigged assuming <b>standard −110 juice</b> on the unposted side. Probabilities shown under <b>calibrated</b> (×'+state.cal.toFixed(2)+', the honest/​sizing lens), <b>ours</b>, and <b>mkt-match</b>; '+
+    '<b>EV</b> is per $1 at the posted price. <b class="conv">✓✓</b> = edge ≥ +4% on <i>both</i> bracket endpoints (calibrated &amp; mkt-match) — robust to the dispersion question. <b>Size with EV (cal).</b></p>'+
+    '<div class="kv"><label class="hint">Sort: </label><select id="propsort">'+
+    '<option value="conv"'+(key==='conv'?' selected':'')+'>Conviction (bracket)</option>'+
+    '<option value="ev"'+(key==='ev'?' selected':'')+'>EV (calibrated)</option>'+
+    '<option value="edge"'+(key==='edge'?' selected':'')+'>Edge (calibrated)</option></select></div>';
+  h+='<table><thead><tr><th>Bet</th><th>Matchup</th><th></th><th>Mkt P</th><th>P (cal)</th><th>P (ours)</th><th>P (mkt-m)</th>'+
+     '<th>Edge (cal)</th><th>EV (ours)</th><th>EV (cal)</th></tr></thead><tbody>';
+  rows.forEach(function(r){
+    var pr=r.pr, sign=pr.price>0?'+':'';
+    var evc=function(e){return e>0.02?'pos edge-strong':(e>0?'pos':'mut');};
+    h+='<tr data-fav="'+pr.fav_nk+'"><td>'+esc(pr.fav)+' −'+(pr.line)+' <span class="mut">'+sign+pr.price+'</span></td>'+
+       '<td class="mut">'+esc(pr.t1)+' / '+esc(pr.t2)+(r.h2h?' <span class="chip conf">H2H</span>':'')+'</td>'+
+       '<td>'+(r.conv>=0.04?'<b class="conv">✓✓</b>':'')+'</td>'+
+       '<td class="mut">'+pct(r.mktp)+'</td><td>'+pct(r.cal)+'</td><td class="mut">'+pct(r.our)+'</td><td class="mut">'+pct(r.mkt)+'</td>'+
+       '<td>'+edgeCell(r.edgeCal)+'</td><td class="'+evc(r.evOur)+'">'+sgn(r.evOur,3)+'</td><td class="'+evc(r.evCal)+'">'+sgn(r.evCal,3)+'</td></tr>';
+  });
+  var n=rows.filter(function(r){return r.conv>=0.04;}).length;
+  h+='</tbody></table><p class="hint">'+rows.length+' props · '+n+' clear the ✓✓ bracket. Difference-of-distributions treats the two seasons as independent apart from any direct H2H game; residual common-opponent correlation (same-conference pairs) is unmodeled and would modestly narrow large-gap probabilities.</p></div>';
+  v.innerHTML=h;
+  document.getElementById('propsort').onchange=function(){state.propSort=this.value;renderProps();};
+  Array.prototype.forEach.call(v.querySelectorAll('tr[data-fav]'),function(tr){
+    tr.style.cursor='pointer';
+    tr.onclick=function(){ state.team=tr.getAttribute('data-fav'); setTab('team'); };
+  });
+}
+
 // ----- Team deep dive -----
 function distTable(blk, marketLine){
   var d=blk.our.dist, da=blk.anchor.dist, G=blk.our.G, mx=Math.max.apply(null,d);
@@ -587,7 +668,7 @@ function renderMethod(){
 }
 
 // ---------- tab machinery ----------
-var RENDER={board:renderBoard, team:renderTeam, explainer:renderExplainer, method:renderMethod};
+var RENDER={board:renderBoard, props:renderProps, team:renderTeam, explainer:renderExplainer, method:renderMethod};
 function setTab(name){
   Array.prototype.forEach.call(document.querySelectorAll('#tabs button'),function(b){b.classList.toggle('on',b.getAttribute('data-tab')===name);});
   Array.prototype.forEach.call(document.querySelectorAll('.view'),function(v){v.classList.remove('on');});

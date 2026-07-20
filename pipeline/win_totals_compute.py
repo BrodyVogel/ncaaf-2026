@@ -93,6 +93,33 @@ def _market():
     return m
 
 
+def _h2h_props(name2nk):
+    """Head-to-head regular-season win-total props: bet is FAVORITE to finish with >= ceil(line)
+    more wins than the DOG, at the posted price (other side assumed standard -110 juice). Resolved
+    to nks; the JS recomputes P(fav wins by threshold) live as the difference of the two win
+    distributions (exact head-to-head handling when the two teams play). Empty file -> no tab."""
+    from win_totals_data import MKT_ALIAS
+    path = 'data/h2h_props_2026.csv'
+    if not os.path.exists(path):
+        return []
+    alias = dict(MKT_ALIAS)
+    alias['Miami Florida'] = 'Miami'
+
+    def nk(nm):
+        return name2nk.get(nm) or name2nk.get(alias.get(nm, ''), None)
+    out = []
+    for r in csv.DictReader(open(path)):
+        fav, dog = r['favorite'], (r['team2'] if r['favorite'] == r['team1'] else r['team1'])
+        fnk, dnk = nk(fav), nk(dog)
+        if not fnk or not dnk:
+            continue
+        out.append({'t1': r['team1'], 't2': r['team2'], 'fav_nk': fnk, 'dog_nk': dnk,
+                    'fav': fav, 'dog': dog, 'line': float(r['line']),
+                    'thresh': math.ceil(float(r['line'])), 'price': int(r['price']),
+                    'book': r['book']})
+    return out
+
+
 def consensus_line(lines):
     """The posted line nearest the median of all posted lines (never a phantom midpoint).
     Tie on distance -> the line more books post; then the lower line."""
@@ -269,6 +296,7 @@ def build_payload():
                  'market_stretch': round(mkt_stretch, 4), 'rating_mean': round(rating_mean, 4),
                  'cal_shrink': cal_shrink},
         'teams': pteams, 'fcs': pfcs, 'schedules': psched, 'market': pmarket,
+        'props': _h2h_props(n2),
     }
 
 
