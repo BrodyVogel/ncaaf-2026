@@ -185,3 +185,98 @@ for stable veteran rosters, more for high-churn ones) is the natural next refine
 the band machinery (L-counts, coach-change flags) already contains the raw material. The
 shrink is live-tunable in the Methodology tab (default 0.75; setting 1.0 reproduces the
 raw engine exactly).
+
+---
+
+# Part III — Grading-cohort audit: did quality drop at the Opus handoff? (owner request, round 3)
+
+## Where the handoff happened
+
+Hard evidence from commit trailers (`Co-Authored-By`), not memory: the switch is commit
+`f6fd648` — **"Handoff hardening + retro-audit corrections," 2026-07-17 02:58** — which also
+retro-audited all 71 pre-handoff builds (5 re-grades) and hardened the gates (team_dump
+evidence script, grades_check, hard-fail departure check) before handing over.
+
+- **Pre-handoff (Fable 5): 71 teams** — Iowa pilot, AAC, Big 12, Big Ten, MAC, Mountain West.
+  Graded 07-14 22:38 → 07-17 01:41.
+- **Post-handoff (Opus 4.8): 67 teams** — Pac-12, ACC, SEC, Sun Belt, CUSA, Independents.
+  Graded 07-17 14:38 → 07-18 22:45.
+
+Fairness note the owner should see: the infamous NDSU −27 grade artifact was **pre-handoff
+(Fable) work** — last team of an overnight session. Of the 5 manual-override teams, 1 is
+Fable-era (NDSU), 4 are Opus-era (Boise, CSU, Kennesaw, Jax State) — but all 4 of those are
+realignment/no-FBS-data teams, the class where grades break regardless of grader.
+
+## Cohort fingerprints (all 137 mapped teams)
+
+| metric | Fable (70) | Opus (67) |
+|---|---|---|
+| dossier length (median words) | 1,474 | 1,443 |
+| distinct named players (median) | 44 | **60** |
+| evidence pulls per team (median) | 10 | 10 |
+| L-flags per team | 1.34 | 1.30 |
+| grade-vs-anchor residual, mean abs | 3.54 | 2.98 |
+| residual max abs | 14.7 | 11.3 |
+
+Same depth, same evidence discipline, same uncertainty-flag usage; Opus names *more* players.
+The one structural difference: Opus's grades sit ~16% closer to the analytics anchor. That
+could have meant timidity (less independent signal) — but the deep audit below shows his
+*boldest* calls (UConn +11.3 above anchor, JMU −9.0 below) were the best-verified dossiers
+in the sample, so it reads as fewer wild misses, not anchor-hugging.
+
+## Deep audit: 10 Opus teams + 4 Fable controls, graders blinded
+
+Protocol: for each team, an independent auditor read the dossier/grades/META, extracted the
+5–7 most load-bearing factual claims (QB rooms, transfers, returnees, coaching, injuries),
+and verified each against July-2026 web sources (official rosters, ESPN/247/On3, beat
+outlets). Sample was leverage-weighted: the biggest grade-vs-anchor deviations (UConn +11.3,
+JMU −9.0, Liberty −7.1, Miss St +6.5) and top board-conviction teams (Texas, Miami,
+Vanderbilt, Wake, Oregon State) plus the reclass risk class (Missouri State).
+
+| team (cohort) | accuracy | specificity | coherence | grade-moving errors |
+|---|---|---|---|---|
+| UConn (O) | 9 | 9 | 9 | none — the +11 optimism fully verified |
+| James Madison (O) | 9 | 9 | 9 | none — the −9 pessimism fully verified |
+| Liberty (O) | 8 | 9 | 9 | none (2 misdescriptions, sub-threshold) |
+| Mississippi St (O) | 8 | 9 | 8 | none (framing inflation only) |
+| Texas (O) | 9 | 9 | 9 | none (Burke UDFA-vs-drafted cosmetic) |
+| Vanderbilt (O) | 8.5 | 9 | 9 | none (QB race framing stale) |
+| Miami (O) | 9.5 | 10 | 9.5 | none |
+| Wake Forest (O) | 9.5 | 9 | 9 | none |
+| Oregon State (O) | 9 | 9 | 8 | none (TE Olsen omitted, +2-4 WRTE at most) |
+| Missouri State (O) | 9 | 9 | 10 | none; no-data class handled honestly |
+| **Opus mean** | **8.9** | **9.1** | **9.0** | **0 of 10 teams** |
+| Tulsa (F) | 9 | 9 | 8 | none (Tease listed departed but returns, +2-3 WRTE) |
+| UTSA (F) | 9 | 9 | 7 | none (Kamar Missouri "returns" likely wrong, −2-3 OL; stale md grades) |
+| New Mexico (F) | 9 | 9 | 9 | none (co-DPOY nit, INT arithmetic slip) |
+| Kent State (F) | 9 | 9 | 9 | none (ST honors undersold) |
+| **Fable mean** | **9.0** | **9.0** | **8.25** | **0 of 4 teams** |
+
+~85 load-bearing claims verified across 14 teams: ~74 CONFIRMED (many to the exact digit),
+~9 PARTLY, ~2 WRONG-but-cosmetic. **Zero errors in either cohort clear the materiality bar**
+(≥6 unit points or ≥1 rating point).
+
+## Verdict
+
+**The fear is not supported. Opus's grading is statistically indistinguishable from the
+pre-handoff work on every dimension measured, and his error profile is the same kind
+(attribution/framing slips, stale details) rather than a worse kind (wrong rosters, invented
+facts).** If anything the audit's two most concrete factual errors — Tulsa's Tease listed as
+departed (he's on the 2026 roster) and UTSA's Kamar Missouri booked as returning (he's
+almost certainly gone) — are both in the *Fable* cohort, whose post-correction file hygiene
+(dossier headers out of sync with corrected grades.json) is also slightly worse.
+
+## Sub-threshold corrections available (owner's call — none move a rating > ~0.2)
+
+| team | unit | direction | basis |
+|---|---|---|---|
+| Tulsa (F) | WRTE +2-3 | up | Micah Tease returns (official roster) — listed as departed |
+| UTSA (F) | OL −2-3 | down | Kamar Missouri likely departed (degree May '25; not on '26 roster) |
+| Liberty (O) | QB +2-4 | up | Purdie is a junior w/ 8 FBS starts, not a thin-tape RS-Fr |
+| Oregon State (O) | WRTE +2-4 | up | TE Eric Olsen (Utah Tech, Athlon 3rd-Tm All-Pac-12) omitted |
+| Kent State (F) | ST +2-4 | up | Clark's MAC STPOY + preseason AA honors undersold |
+
+At K=0.35 with the ±6 clip, each is worth ≤0.2 rating points — noise relative to bands of
+±6. Recommendation: log them, change nothing; or batch them as a "micro-errata" pass if
+purity is preferred. For what it's worth, the two board-relevant ones (Tulsa over, UTSA
+under) both lean *toward* our current positions.
