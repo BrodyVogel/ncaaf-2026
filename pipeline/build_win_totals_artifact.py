@@ -219,11 +219,20 @@ function marketBlock(offers, distOur, distAnchor, distMkt){
                ev:pu*(WE.americanToDecimal(b.under_odds)-1)-(1-pu)});
   });
   var best=cand.reduce(function(a,b){return b.ev>a.ev?b:a;});
+  // consensus line = POSTED line nearest the median (never a phantom midpoint; tie -> more books, then lower)
   var lines=books.map(function(b){return b.line;}).sort(function(a,b){return a-b;});
-  var med=lines[Math.floor((lines.length-1)/2)];
-  if(lines.length%2===0) med=(lines[lines.length/2-1]+lines[lines.length/2])/2;
+  var m0=lines[Math.floor((lines.length-1)/2)];
+  if(lines.length%2===0) m0=(lines[lines.length/2-1]+lines[lines.length/2])/2;
+  var uniq=lines.filter(function(l,i){return lines.indexOf(l)===i;});
+  var cnt=function(L){return lines.filter(function(l){return l===L;}).length;};
+  var med=uniq.reduce(function(a,b){
+    var da=Math.abs(a-m0), db=Math.abs(b-m0);
+    if(db<da-1e-12) return b;
+    if(da<db-1e-12) return a;
+    if(cnt(b)!==cnt(a)) return cnt(b)>cnt(a)?b:a;
+    return Math.min(a,b);
+  });
   var at=books.filter(function(b){return Math.abs(b.line-med)<1e-9;});
-  if(!at.length) at=books;
   var oos=at.map(function(b){return b.over_odds;}).sort(function(a,b){return a-b;});
   var oo=oos[Math.floor((oos.length-1)/2)];
   var pov=WE.americanToProb(oo), puv=WE.americanToProb(WE.underFromOver(oo)), mkt_po=pov/(pov+puv);
@@ -409,13 +418,17 @@ function renderTeam(){
     var pa=ENG.gameWinProb(anchorRating(nk),anchorRating(ref),g.site,baseBand(ref),curOpts());
     var pm=ENG.gameWinProb(marketMatchedRating(nk),marketMatchedRating(ref),g.site,ourBand(ref),curOpts());
     var tags=(g.opp_kind==='fcs'?' <span class="chip fcs">FCS</span>':'')+(g.is_conf?' <span class="chip conf">conf</span>':'')+
+             (g.flex?' <span class="chip reclass" title="Pac-12 Week-13 flex game — pairing is the projected one (conference finalizes Nov 22); counts toward the regular-season total but NOT conference standings">flex (proj.)</span>':'')+
              (isFbs(ref)&&P.teams[ref].reclass?' <span class="chip reclass">FBS debut</span>':'');
     var editable='<input class="rate" data-ref="'+ref+'" data-f="final" type="number" step="0.5" value="'+ourRating(ref).toFixed(1)+'">';
     h+='<tr><td>'+g.week+'</td><td>'+g.opp_name+tags+'</td><td>'+siteTag(g.site)+'</td><td>'+editable+'</td>'+
        '<td class="mut">'+anchorRating(ref).toFixed(1)+'</td><td class="mut">'+marketMatchedRating(ref).toFixed(1)+'</td>'+
        '<td>'+pct(po)+'</td><td class="mut">'+pct(pa)+'</td><td class="mut">'+pct(pm)+'</td></tr>';
   });
-  h+='</tbody></table></div>';
+  h+='</tbody></table>';
+  var hasFlex=(P.schedules[nk]||[]).some(function(g){return g.flex;});
+  if(hasFlex) h+='<p class="hint">⚑ Wk-13 <b>flex game</b>: the Pac-12 assigns the final pairing no later than Nov 22; the one shown is the projected pairing from the Feb 2026 release. It counts in the regular-season win total but not the conference total.</p>';
+  h+='</div>';
 
   // regular win total
   h+='<div class="panel"><h2>Regular-season win total</h2><div class="row">'+
@@ -523,7 +536,8 @@ function renderMethod(){
   '<p>Hold the shared shock &delta; fixed and the games are independent, so the number of wins follows a <b>Poisson-Binomial</b> distribution — computed <b>exactly</b> by dynamic programming, not simulated. We then average those exact distributions over &delta; using <b>21-point Gauss-Hermite quadrature</b> (the right tool for integrating against a normal weight). The result is deterministic: no simulation noise, and the browser reproduces the reference numbers to ~1&times;10<sup>−14</sup>.</p>'+
   '<div class="eq">P(wins = k) = &Sigma;<sub>i</sub> w<sub>i</sub> · PoissonBinomial( k | p<sub>g</sub>(&delta;<sub>i</sub>) )</div>'+
   '<h3>Fair odds &amp; edge</h3>'+
-  '<p>The win distribution gives a fair no-vig price for every line (over k−0.5 = P(wins ≥ k)). Against the market we assume the owner&rsquo;s <b>30-cent line</b>: an over posted at −175 implies an under at +145. We de-vig the two sides to a market probability and call the difference from our probability the <b>edge</b>; EV is the expected profit per $1 at the posted price.</p>'+
+  '<p>The win distribution gives a fair no-vig price for every line (over k−0.5 = P(wins ≥ k)). Against the market we assume the owner&rsquo;s <b>30-cent line</b>: an over posted at −175 implies an under at +145. We de-vig the two sides to a market probability and call the difference from our probability the <b>edge</b>; EV is the expected profit per $1 at the posted price. The headline &ldquo;consensus&rdquo; line is the <b>posted</b> line nearest the books&rsquo; median (when books split 7.5/8.5 we use the more-posted real line, never a phantom 8.0), with odds pooled only at that line. Best bet is still evaluated at every posted price.</p>'+
+  '<p><b>Pac-12 flex games:</b> all 8 Pac-12 teams play a 12th game in Week 13 (Nov 28) against a conference-assigned opponent (finalized Nov 22). Schedule feeds omitted it; we include the projected pairings (Boise@USU, OSU@WSU, SDSU@Fresno, TxSt@CSU), tagged &ldquo;flex (proj.)&rdquo; on team pages. These count in regular-season totals but not conference totals.</p>'+
   '<h3>Calibration (what we checked)</h3>'+
   '<p>Across all teams with posted totals, our win probabilities are <b>unbiased against the market on average</b> (mean edge ≈ 0.0%). We also checked whether the disagreements are <i>independent</i> per team (real signal) or a systematic function of the line (a scale artifact). The original ratings failed that test: our grade→points step was an OLS fit, and OLS fitted values are shrunk toward the mean by ~&radic;R², so the grades came out compressed — dragging every extreme toward the middle when blended in, so we systematically backed low-total underdogs&rsquo; overs and faded high-total favorites (~⅓ of edge variance was explained by the line alone). We <b>de-compressed the grade signal</b> (un-shrink the OLS fit + remove the level-correlated component of the grade residual — both market-agnostic), which cut that line-correlation by more than half and restored the fair rating spread (SD ≈ 13, matching KFord and the market), with the team ordering unchanged (Spearman ≈ 1.00). The residual is now concentrated in the extreme tails and traces to specific teams (e.g. reclassifying North Dakota State, where the market prices a 9-time FCS champion&rsquo;s FBS debut far above our grade) — genuine per-team disagreements to adjudicate by hand, not a mechanical tilt.</p>'+
   '<h3>Three rating sets &amp; the ✓✓ cross-check</h3>'+

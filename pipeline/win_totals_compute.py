@@ -93,6 +93,14 @@ def _market():
     return m
 
 
+def consensus_line(lines):
+    """The posted line nearest the median of all posted lines (never a phantom midpoint).
+    Tie on distance -> the line more books post; then the lower line."""
+    med = st.median(lines)
+    uniq = sorted(set(lines))
+    return min(uniq, key=lambda L: (abs(L - med), -lines.count(L), L))
+
+
 def _ladder(dist):
     """For each half-point line L in 0.5..G-0.5: P(over)=P(wins>=ceil(L)); fair no-vig odds."""
     G = len(dist) - 1
@@ -143,10 +151,12 @@ def _market_block(offers, dist_our, dist_anchor):
                      'odds': b['under_odds'], 'our_p': pu, 'ev': ev_u})
     best = max(cand, key=lambda c: c['ev'])
 
-    # Consensus (median) line + de-vigged market prob there, for a clean edge headline.
-    med_line = st.median([b['line'] for b in books])
-    at = [b['over_odds'] for b in books if abs(b['line'] - med_line) < 1e-6] or \
-         [b['over_odds'] for b in books]
+    # Consensus line + de-vigged market prob there, for a clean edge headline.
+    # Audit fix 2026-07-20: use the POSTED line nearest the median, never a phantom midpoint
+    # (with books split 7.5/8.5 the plain median is 8.0 — a line nobody offers, and pooling
+    # odds across different lines mislabels the headline edge). Tie -> the line more books post.
+    med_line = consensus_line([b['line'] for b in books])
+    at = [b['over_odds'] for b in books if abs(b['line'] - med_line) < 1e-6]
     oo = st.median(at)
     po_v = E.american_to_prob(oo); pu_v = E.american_to_prob(E.under_from_over(oo))
     mkt_po = po_v / (po_v + pu_v)
@@ -169,7 +179,7 @@ def compute_market_stretch(teams, sch, M):
     mean = st.mean(t['final'] for t in teams.values())
 
     def devig(line, offers):
-        at = [o for (l, o, b) in offers if abs(l - line) < 1e-6] or [o for (l, o, b) in offers]
+        at = [o for (l, o, b) in offers if abs(l - line) < 1e-6]
         oo = st.median(at)
         po = E.american_to_prob(oo); pu = E.american_to_prob(E.under_from_over(oo))
         return po / (po + pu)
@@ -184,7 +194,7 @@ def compute_market_stretch(teams, sch, M):
             offers = M.get(t['name'], {}).get('regular')
             if nk not in sch or not offers:
                 continue
-            L = st.median([l for (l, o, b) in offers])
+            L = consensus_line([l for (l, o, b) in offers])
             games = []
             for g in sch[nk]:
                 o = g['opp']
@@ -234,10 +244,13 @@ def build_payload():
         arr = []
         for g in glist:
             o = g['opp']
-            arr.append({'week': g['week'], 'site': g['site'], 'is_conf': g['is_conf'],
-                        'opp_kind': o['kind'],
-                        'opp_ref': (o['nk'] if o['kind'] == 'fbs' else o['name']),
-                        'opp_name': o['name']})
+            e = {'week': g['week'], 'site': g['site'], 'is_conf': g['is_conf'],
+                 'opp_kind': o['kind'],
+                 'opp_ref': (o['nk'] if o['kind'] == 'fbs' else o['name']),
+                 'opp_name': o['name']}
+            if g.get('flex'):
+                e['flex'] = True
+            arr.append(e)
         psched[nk] = arr
         t = teams[nk]
         pmarket[nk] = {'regular': [[l, o, b] for (l, o, b) in M.get(t['name'], {}).get('regular', [])],

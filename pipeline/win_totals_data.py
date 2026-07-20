@@ -86,4 +86,26 @@ def load(fcs_path='data/fcs_ratings_2026.csv', root='.'):
                           'date': g.get('startDate', '')})
         glist.sort(key=lambda x: (x['week'], x['date']))
         schedules[subj_nk] = glist
+
+    # Pac-12 Week-13 FLEX games (audit fix 2026-07-20): CFBD's 2026 pull has no entry for the
+    # conference's flex week (opponent officially TBD until Nov 22), leaving all 8 Pac-12 teams
+    # with 11 games while the market prices 12 — which manufactured phantom Under edges. Append
+    # the projected pairings (CBS/FBSchedules, Feb 2026 release) as non-conference games,
+    # flagged flex=True so the UI can label them projected.
+    fp = p('data/pac12_flex_2026.csv')
+    if os.path.exists(fp):
+        for r in csv.DictReader(open(fp)):
+            wk = int(r['week'])
+            for subj, oppn, site in ((r['away'], r['home'], -1), (r['home'], r['away'], 1)):
+                snk, onk = name2nk.get(subj), name2nk.get(oppn)
+                if snk not in schedules or onk not in teams:
+                    continue
+                if any(g.get('flex') for g in schedules[snk]):
+                    continue                          # already appended
+                o = teams[onk]
+                schedules[snk].append({
+                    'week': wk, 'site': site, 'is_conf': False, 'date': '2026-11-28',
+                    'flex': True,
+                    'opp': {'kind': 'fbs', 'nk': onk, 'name': o['name'],
+                            'mu_our': o['final'], 'mu_anchor': o['anchor'], 'band': o['band']}})
     return {'teams': teams, 'schedules': schedules, 'fcs': fcs, 'name2nk': name2nk}
