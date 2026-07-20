@@ -1,0 +1,58 @@
+# Is the monotonic win-total gradient our error, or the market's? (2026-07-20)
+
+After the grade de-compression fix, the win-total edge stayed monotonic in the line (back
+low-total dogs, fade high-total favorites; slope ~−1.8%/win). The owner read this as residual
+compression in our ratings. A stretch sweep showed the gradient flattens only if our ratings
+are stretched to **effective SD ~15.8** — so *something* is at SD ~16. The question: is it our
+ratings that are too narrow (compression, stretch them) or the market's totals that are too
+wide (over-dispersion, leave ours alone)?
+
+## Verdict: the market over-disperses; our scale is correct. Do NOT stretch.
+
+Three independent lines of evidence, all pointing the same way.
+
+### 1. Every real rating system sits at SD ~13, not ~16
+- SP+ (elite public system), 2021–2025, preseason **and** final: SD 12.3–13.7 (mean ~13).
+- KFord Final 2025: SD 13.0.
+- Our fixed ratings: SD 13.2.
+- Market win totals price an effective spread of **~15–16** — wider than any rating system.
+
+### 2. Game-level calibration (4,332 games, 2021–2025): more spread predicts *worse*
+Using SP+ preseason (our scale) + the win model on actual games:
+
+| model P(win) | actual |
+|---|---|
+| 55.0% | 56.6% |
+| 65.2% | 62.0% |
+| 74.9% | 70.5% |
+| 85.3% | 80.0% |
+| 96.6% | 92.8% |
+
+Favorites win **less** than we predict (all favorites: predicted 80.4%, actual 77.1%) — the
+signature of a mildly **over-confident** model, the opposite of compression. If we were
+compressed, favorites would beat our predictions. Re-fitting the rating-spread multiplier to
+actual games, log-likelihood **monotonically worsens** with more spread: x0.8 −2312 › x1.0
+(ours) −2384 › x1.2 (market) −2508 › x1.3 −2588. The market's wider spread is decisively a
+worse description of reality. (The sub-1.0 optimum is the expected shrinkage of a noisy
+*preseason* forecast, not a target for final ratings — the point is the direction: stretching
+hurts.)
+
+### 3. The one year with market data confirms it at the win-total level
+2025 (136 teams), actual minus market total by tier: low totals (≤5) **+0.34 wins**, mid +0.06,
+high (≥8) **−0.21 wins**. Dogs beat their numbers, favorites missed — the market over-priced
+favorites and under-priced dogs. SP+-scale expected wins also beat the market outright:
+MAE 1.91 vs 1.95, closer 64% of the time when they disagreed.
+
+## Implication
+The monotonic residual is **not** leftover compression — it is the edge. Win-total markets are
+known to over-disperse (recreational money on favorites' overs / dogs' unders; books shade to
+match). Our correctly-scaled ratings lean against it, and in-sample that lean has been right.
+Flattening the gradient by stretching to SD ~16 would destroy the edge *and* make the ratings
+worse at predicting games. The earlier fix (SD 12.5 → 13.2, correcting the OLS grade shrinkage
+to match SP+) was the right and sufficient scale correction; no further stretch.
+
+## Limits / follow-ups
+- 5 years of *game* outcomes but only **1** year of *market* totals. Confirm with 2021–2024
+  historical win-total lines and real backtested betting P&L before sizing bets.
+- The mild game-level over-confidence hints at a touch *less* spread or slightly higher
+  σ_game — again, opposite of stretching.
