@@ -143,6 +143,7 @@ var state = { sigma:P.meta.sigma_game, hfa:P.meta.hfa, bts:P.meta.band_to_sd,
 // ---------- helpers ----------
 function fmtOdds(a){ a=Math.round(a); if(Math.abs(a)>100000) return '<span class="mut">—</span>'; return (a>0?'+':'')+a; }
 function pct(p){ return (100*p).toFixed(1)+'%'; }
+function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function sgn(x,d){ d=d==null?1:d; return (x>=0?'+':'')+x.toFixed(d); }
 function curOpts(){ return {sigma_game:state.sigma, hfa:state.hfa, band_to_sd:state.bts}; }
 function isFbs(ref){ return !!P.teams[ref]; }
@@ -450,6 +451,21 @@ function renderExplainer(){
     '<div class="col"><div class="kv"><div class="k"><div class="l">Power rating</div><div class="v">'+sgn(t.final,1)+'</div></div>'+
     '<div class="k"><div class="l">Band (±)</div><div class="v">'+t.band.toFixed(1)+'</div></div>'+
     '<div class="k"><div class="l">Consensus anchor</div><div class="v">'+sgn(t.anchor,1)+'</div></div></div></div></div></div>';
+  var pr=t.primer;
+  if(pr){
+    h+='<div class="panel"><h2>Why this rating — the scouting read</h2>';
+    if(pr.override) h+='<div class="best under" style="border-color:var(--warn);background:rgba(255,180,84,.10)"><b>⚠ Manual override.</b> '+esc(pr.override)+'</div>';
+    if(pr.summary) h+='<p style="max-width:820px;line-height:1.65;font-size:13.5px">'+esc(pr.summary)+'</p>';
+    if(pr.units && Object.keys(pr.units).length){
+      h+='<h3>Unit-by-unit read</h3><table><tbody>';
+      ['QB','RB','WRTE','OL','DL','LB','DB','ST'].forEach(function(u){
+        if(pr.units[u]) h+='<tr><td style="width:46px;font-weight:600;vertical-align:top">'+u+'</td>'+
+          '<td style="text-align:left;color:#c7cdd6;white-space:normal;line-height:1.5">'+esc(pr.units[u])+'</td></tr>';
+      });
+      h+='</tbody></table>';
+    }
+    h+='<p class="hint">Extracted from the 2026 grading dossier. Grades below quantify this read.</p></div>';
+  }
   if(d){
     h+='<div class="panel"><h2>Unit grades (0–100 scale)</h2><p class="hint">These eight returning-production/talent grades are the engine of the rating. An “L” tag = low-confidence (unsettled battle or thin data). Sum drives the offense/defense split below.</p><div class="units">';
     ['QB','RB','WRTE','OL','DL','LB','DB','ST'].forEach(function(u){
@@ -468,13 +484,18 @@ function renderExplainer(){
        row2('Defense — grade-implied',sgn(d.implied_def,1),'Defense — anchor',sgn(d.anchor_def,1))+
        row2('Anchor blend (starting point)',sgn(d.anchor_blend,1),'Residual (grades − anchor)',sgn(d.residual,1))+
        row2('Residual adjustment (clipped)',sgn(d.resid_adj,1),'Special-teams term',sgn(d.st_term,1))+
-       row2('League re-centering shift',sgn(d.recenter_shift,1),'Final power rating',sgn(d.final,1))+
+       row2('League re-centering shift',sgn(d.recenter_shift,1),(d.overridden?'Grade-derived value (discarded)':'Final power rating'),sgn(d.overridden?d.grade_final:d.final,1))+
        '</tbody></table>'+
-       (d.capped?'<p class="hint"><span class="flag">Movement from anchor was capped this cycle.</span></p>':'')+
-       '<p class="hint">Read it as: start at the <b>anchor blend '+sgn(d.anchor_blend,1)+'</b>; our grades imply a '+
-       (d.residual>=0?'stronger':'weaker')+' team (residual '+sgn(d.residual,1)+'), which after clipping moves the number '+
-       sgn(d.resid_adj,1)+'; special teams '+sgn(d.st_term,1)+' and re-centering '+sgn(d.recenter_shift,1)+
-       ' give the <b>final '+sgn(d.final,1)+'</b>. The band ±'+t.band.toFixed(1)+' is our 1-SD uncertainty on that number.</p></div>';
+       (d.capped?'<p class="hint"><span class="flag">Movement from anchor was capped this cycle.</span></p>':'');
+    if(d.overridden){
+      h+='<div class="best under" style="border-color:var(--warn);background:rgba(255,180,84,.10)"><b>⚠ Final power rating set manually to '+sgn(d.final,1)+'.</b> The grade-derived value '+sgn(d.grade_final,1)+' above was <b>discarded</b>: this roster has no reliable FBS-level grade (reclassifying / heavy realignment), so the grade math is a no-data artifact rather than a real read. The final was set from targeted research and the analytics anchor — see the override rationale in the scouting read above.</div>';
+    } else {
+      h+='<p class="hint">Read it as: start at the <b>anchor blend '+sgn(d.anchor_blend,1)+'</b>; our grades imply a '+
+         (d.residual>=0?'stronger':'weaker')+' team (residual '+sgn(d.residual,1)+'), which after clipping moves the number '+
+         sgn(d.resid_adj,1)+'; special teams '+sgn(d.st_term,1)+' and re-centering '+sgn(d.recenter_shift,1)+
+         ' give the <b>final '+sgn(d.final,1)+'</b>.</p>';
+    }
+    h+='<p class="hint">The band ±'+t.band.toFixed(1)+' is our 1-SD uncertainty on the final number.</p></div>';
   } else h+='<div class="panel"><p class="hint">No derivation on file.</p></div>';
   v.innerHTML=h;
   document.getElementById('explsel').onchange=function(){state.expl=this.value;renderExplainer();};

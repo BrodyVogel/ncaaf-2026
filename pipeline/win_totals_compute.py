@@ -43,18 +43,37 @@ def _derivations():
         row['sum'] = _grade(r.get('sum', ''))[0]
         row['coach_change'] = r.get('coach_change', '') in ('True', 'true', '1')
         units[r['team']] = row
+    # Teams whose final was manually set (grade unreliable): the ASSEMBLY 'final' column is the
+    # override, but the component columns are the *discarded* grade math. Flag them so the primer
+    # shows the override note instead of a grade-sum narrative that doesn't reconcile.
+    ovr = {}
+    if os.path.exists('data/manual_overrides_2026.csv'):
+        for orow in csv.DictReader(open('data/manual_overrides_2026.csv')):
+            ovr[orow['team']] = orow
     der = {}
     for r in csv.DictReader(open('outputs/final_pass/ASSEMBLY.csv')):
         t = r['team']
-        d = {'anchor_blend': float(r['anchor_blend']),
+        cls = (r['class'] or '').replace('+', '')
+        resid_adj = float(r['k_x_resid_clipped'].replace('+', '') or 0)
+        st_term = float((r['st_term'] or '0').replace('+', ''))
+        recenter = float((r['recenter_shift'] or '0').replace('+', ''))
+        anchor_blend = float(r['anchor_blend'])
+        # grade_final = what the power number would have been from grades alone (pre-override);
+        # for non-override teams this equals the printed 'final' up to rounding.
+        grade_final = anchor_blend + resid_adj + (float(cls) if cls else 0.0) + st_term + recenter
+        o = ovr.get(t)
+        d = {'anchor_blend': anchor_blend,
              'implied_off': float(r['implied_off']), 'anchor_off': float(r['anchor_off']),
              'implied_def': float(r['implied_def']), 'anchor_def': float(r['anchor_def']),
              'residual': float(r['residual']),
-             'resid_adj': float(r['k_x_resid_clipped'].replace('+', '') or 0),
-             'class': (r['class'] or '').replace('+', ''),
-             'st_term': float((r['st_term'] or '0').replace('+', '')),
-             'recenter_shift': float((r['recenter_shift'] or '0').replace('+', '')),
+             'resid_adj': resid_adj,
+             'class': cls,
+             'st_term': st_term,
+             'recenter_shift': recenter,
              'final': float(r['final']), 'band': float(r['band']),
+             'grade_final': round(grade_final, 2),
+             'overridden': o is not None,
+             'override_note': (o['note'] if o else ''),
              'L_count': int(r['L_count']) if r['L_count'] else 0,
              'new_HC': (r.get('new_HC', '') or '').strip() not in ('', '0', 'False'),
              'capped': (r.get('capped', '') or '').strip() not in ('', '0', 'False'),
@@ -193,6 +212,8 @@ def build_payload():
     teams, sch, fcs, n2 = D['teams'], D['schedules'], D['fcs'], D['name2nk']
     M = _market()
     DER = _derivations()
+    from team_primers import build_primers
+    PRIMERS = build_primers()
     mkt_stretch, rating_mean = compute_market_stretch(teams, sch, M)
     pteams, pfcs, psched, pmarket = {}, {}, {}, {}
     for name, nk in n2.items():
@@ -205,7 +226,7 @@ def build_payload():
                       'anchor': round(t['anchor'], 2),
                       'market_matched': round(mm, 2),
                       'reclass': name in RECLASS_2026,
-                      'der': DER.get(name)}
+                      'der': DER.get(name), 'primer': PRIMERS.get(name)}
     for name, fr in fcs.items():
         pfcs[name] = {'name': name, 'rating': fr['rating'], 'band': fr['band'],
                       'tier': fr.get('tier', ''), 'note': fr.get('note', '')}
