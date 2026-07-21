@@ -1,15 +1,15 @@
 date,category,team,side,line,odds,book,stake_u,our_p,pct_edge,model_ev,result,pnl_u,note
-2026-07-20,regular,UConn,over,5.5,-105,DK,0.57,0.678,+19.8%,+0.323,pending,+0.000,
+2026-07-20,regular,UConn,over,5.5,-105,DK,0.57,0.678,+19.9%,+0.324,pending,+0.000,
 2026-07-20,regular,Tulsa,over,5.5,+100,CZR,0.55,0.660,+18.5%,+0.319,pending,+0.000,
 2026-07-20,regular,Oregon State,over,3.5,-150,Bet365,0.65,0.758,+18.9%,+0.264,pending,+0.000,
 2026-07-20,regular,Bowling Green,over,4.5,-160,Bet365,0.7,0.772,+18.1%,+0.254,pending,+0.000,
 2026-07-20,regular,Liberty,under,8.5,-145,Bet365,0.6,0.708,+16.5%,+0.196,pending,+0.000,took -145
-2026-07-20,regular,Arizona State,under,6.5,+100,CZR,0.55,0.591,+10.8%,+0.182,pending,+0.000,took +100; juiced out at BetRivers
+2026-07-20,regular,Arizona State,under,6.5,+100,CZR,0.55,0.591,+10.8%,+0.181,pending,+0.000,took +100; juiced out at BetRivers
 2026-07-20,regular,Kennesaw State,over,6.5,+120,Bet365,0.55,0.546,+8.5%,+0.201,pending,+0.000,
 2026-07-20,regular,Illinois,under,7.5,-160,CZR,0.65,0.719,+13.3%,+0.168,pending,+0.000,took -160
 2026-07-20,regular,West Virginia,under,5.5,+132,FD,0.5,0.503,+8.5%,+0.167,pending,+0.000,FD +132
-2026-07-20,regular,East Carolina,over,7.5,+100,CZR,0.55,0.596,+11.5%,+0.191,pending,+0.000,
-2026-07-20,regular,Hawai'i,under,7.5,-120,CZR,0.6,0.642,+9.9%,+0.177,pending,+0.000,took -120 at CZR
-2026-07-20,conference,Florida,under,4.5,-110,,0.5,0.593,+9.0%,+0.131,pending,+0.000,
+2026-07-20,regular,East Carolina,over,7.5,+100,CZR,0.55,0.595,+11.5%,+0.191,pending,+0.000,
+2026-07-20,regular,Hawai'i,under,7.5,-120,CZR,0.6,0.644,+10.1%,+0.181,pending,+0.000,took -120 at CZR
+2026-07-20,conference,Florida,under,4.5,-110,,0.5,0.592,+8.9%,+0.130,pending,+0.000,
 2026-07-20,conference,UCF,over,3.5,-115,DK,0.55,0.609,+10.0%,+0.138,pending,+0.000,DK -115
-2026-07-20,conference,Pittsburgh,under,5.5,-136,DK,0.65,0.645,+8.5%,+0.120,pending,+0.000,DK -136
+2026-07-20,conference,Pittsburgh,under,5.5,-136,DK,0.65,0.645,+8.5%,+0.119,pending,+0.000,DK -136

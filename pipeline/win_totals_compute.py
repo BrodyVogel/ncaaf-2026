@@ -184,9 +184,14 @@ def _market_block(offers, dist_our, dist_anchor):
     # odds across different lines mislabels the headline edge). Tie -> the line more books post.
     med_line = consensus_line([b['line'] for b in books])
     at = [b['over_odds'] for b in books if abs(b['line'] - med_line) < 1e-6]
-    oo = st.median(at)
-    po_v = E.american_to_prob(oo); pu_v = E.american_to_prob(E.under_from_over(oo))
-    mkt_po = po_v / (po_v + pu_v)
+    # Devig fix (2026-07-21, from the bet-tracker audit): st.median() of American odds is
+    # invalid when offers straddle +/-100 (median of [+100, -110] = -5, not a price).
+    # Correct: de-vig each book's two-way (30-cent convention for the unposted side) and
+    # average the fair PROBABILITIES across books.
+    def _fair_po(o):
+        po = E.american_to_prob(o); pu = E.american_to_prob(E.under_from_over(o))
+        return po / (po + pu)
+    mkt_po = sum(_fair_po(o) for o in at) / len(at)
 
     def edge_block(dist):
         our_po = p_over_at(dist['dist'], med_line)
@@ -206,10 +211,13 @@ def compute_market_stretch(teams, sch, M):
     mean = st.mean(t['final'] for t in teams.values())
 
     def devig(line, offers):
+        # Devig fix (2026-07-21): average per-book de-vigged fair probabilities — never the
+        # median of raw American odds (invalid across the +/-100 boundary).
         at = [o for (l, o, b) in offers if abs(l - line) < 1e-6]
-        oo = st.median(at)
-        po = E.american_to_prob(oo); pu = E.american_to_prob(E.under_from_over(oo))
-        return po / (po + pu)
+        def fair_po(o):
+            po = E.american_to_prob(o); pu = E.american_to_prob(E.under_from_over(o))
+            return po / (po + pu)
+        return sum(fair_po(o) for o in at) / len(at)
 
     def pov(dist, line):
         need = math.floor(line) + 1
