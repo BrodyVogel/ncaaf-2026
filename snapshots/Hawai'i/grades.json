@@ -1,14 +1,38 @@
 {
  "team": "Hawai'i",
  "units": {
-  "QB": {"grade": 38, "confidence": "M"},
-  "RB": {"grade": 14, "confidence": "M"},
-  "WRTE": {"grade": 18, "confidence": "M"},
-  "OL": {"grade": 10, "confidence": "L"},
-  "DL": {"grade": 16, "confidence": "L"},
-  "LB": {"grade": 12, "confidence": "L"},
-  "DB": {"grade": 18, "confidence": "M"},
-  "ST": {"grade": 12, "confidence": "L"}
+  "QB": {
+   "grade": 38,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 14,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 18,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 10,
+   "confidence": "L"
+  },
+  "DL": {
+   "grade": 16,
+   "confidence": "L"
+  },
+  "LB": {
+   "grade": 14,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 18,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 12,
+   "confidence": "L"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-17",
@@ -16,13 +40,24 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "in-session supervised; anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines."},
+  "planned_vs_final_deviations": {
+   "note": "seven of eight finals match the dossier planned lines.",
+   "LB": "planned 12 L -> final 14 M. Media-days integration 2026-07-21 (owner-approved delta pass): Otis ACL availability resolved healthy; dossier planned line kept frozen, deviation recorded here. See snapshots/Hawai'i/media_days_addendum.md."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 42, RB None, WRTE 21, OL 3, DL 33, LB 16, DB 83, ST 67) - known signatures, no new artifact number",
    "DB": "-65 vs proxy 83 - purest carryover inflation of the round: COV p61 keyed while SIX DBs (all four starters + two backups) walk via yr4, invisible to the feed",
    "DL": "-17 vs proxy 33 - yr4-blind to six DL (41 st, 20 sk) walking",
    "ST": "-55 vs proxy 67 - SPEC p67 tape belongs to the departed All-America K + 46-yd P",
    "QB/WRTE/OL/LB": "directionally aligned (42/21/3/16 vs 38/18/10/12)"
+  },
+  "media_days_update": {
+   "date": "2026-07-21",
+   "source": "data/media_days/MWC_2026_media_days.md",
+   "grader": "Fable (delta pass, owner-approved)",
+   "changes": [
+    "LB 12 L -> 14 M"
+   ]
   }
  },
  "grades_detail": [
@@ -42,10 +77,21 @@
     "38: > UNLV 36 (Arnold's P4 pedigree vs Alejado's better 2025 production), > UNM 34; just under the UNLV-LB 40 exemplar rail."
    ],
    "key_players": [
-    {"name": "Micah Alejado", "role": "QB1 (returning)", "evidence": "76.6/507 (69.3 adj); 3,106 @ 66% 24-9; MWC FrOY"},
-    {"name": "Bjorn Jurgensen", "role": "QB2 (transfer, Virginia)", "evidence": "rFr, DNP; PS#48"}
+    {
+     "name": "Micah Alejado",
+     "role": "QB1 (returning)",
+     "evidence": "76.6/507 (69.3 adj); 3,106 @ 66% 24-9; MWC FrOY"
+    },
+    {
+     "name": "Bjorn Jurgensen",
+     "role": "QB2 (transfer, Virginia)",
+     "evidence": "rFr, DNP; PS#48"
+    }
    ],
-   "data_gaps": ["injury recurrence risk", "green depth behind QB1"],
+   "data_gaps": [
+    "injury recurrence risk",
+    "green depth behind QB1"
+   ],
    "g5_guard_note": "38 is tape-proven on 507 snaps - guard N/A"
   },
   {
@@ -64,10 +110,20 @@
     "14: = Nevada 14; the four-wide scheme spreads touches and the room's proven volume is the thinnest of the contender tier (RUN p24/RBLK p11)."
    ],
    "key_players": [
-    {"name": "Cam Barfield", "role": "RB1 (returning)", "evidence": "72.4/81 att (63.5 adj); 371 + 257 rec; 8 TD"},
-    {"name": "DeVon Rice", "role": "RB2 (transfer, Kansas State)", "evidence": "65.5/26 att (72.7 adj); 94 yds"}
+    {
+     "name": "Cam Barfield",
+     "role": "RB1 (returning)",
+     "evidence": "72.4/81 att (63.5 adj); 371 + 257 rec; 8 TD"
+    },
+    {
+     "name": "DeVon Rice",
+     "role": "RB2 (transfer, Kansas State)",
+     "evidence": "65.5/26 att (72.7 adj); 94 yds"
+    }
    ],
-   "data_gaps": ["no proven third body"],
+   "data_gaps": [
+    "no proven third body"
+   ],
    "g5_guard_note": null
   },
   {
@@ -86,11 +142,26 @@
     "18: > UNLV/SJSU 16 L (the scheme feeds the unit and the basket is deeper), < UNM 22 (their returning volume was better)."
    ],
    "key_players": [
-    {"name": "Pofele Ashlock", "role": "slot 1 (returning)", "evidence": "65.3/521 (61.6 adj); 827 @ 10.9 '25"},
-    {"name": "Audric Harris", "role": "slot 2 (transfer, Washington)", "evidence": "63.1/50 (61.8 adj); 1 st"},
-    {"name": "Tama Uiliata", "role": "WR (returning)", "evidence": "60.6/243 (56.9 adj); PR"}
+    {
+     "name": "Pofele Ashlock",
+     "role": "slot 1 (returning)",
+     "evidence": "65.3/521 (61.6 adj); 827 @ 10.9 '25"
+    },
+    {
+     "name": "Audric Harris",
+     "role": "slot 2 (transfer, Washington)",
+     "evidence": "63.1/50 (61.8 adj); 1 st"
+    },
+    {
+     "name": "Tama Uiliata",
+     "role": "WR (returning)",
+     "evidence": "60.6/243 (56.9 adj); PR"
+    }
    ],
-   "data_gaps": ["outside spots all unproven", "Griffiths 2-gm sample"],
+   "data_gaps": [
+    "outside spots all unproven",
+    "Griffiths 2-gm sample"
+   ],
    "g5_guard_note": null
   },
   {
@@ -109,11 +180,26 @@
     "10 L: < NIU 12 - the worst OL evidence of the MWC round; 'Chang feels the OLine is improved' is coach-speak against the tape."
    ],
    "key_players": [
-    {"name": "Ethan Spencer", "role": "C (returning)", "evidence": "62.5/853 (52.4 adj); 12 st"},
-    {"name": "Dean Briski", "role": "T (returning)", "evidence": "41.7/788 (31.6 adj); 11 st"},
-    {"name": "Lipe Moala", "role": "LG (transfer, Oregon)", "evidence": "76.4/10 snaps; 11 gm L2Y"}
+    {
+     "name": "Ethan Spencer",
+     "role": "C (returning)",
+     "evidence": "62.5/853 (52.4 adj); 12 st"
+    },
+    {
+     "name": "Dean Briski",
+     "role": "T (returning)",
+     "evidence": "41.7/788 (31.6 adj); 11 st"
+    },
+    {
+     "name": "Lipe Moala",
+     "role": "LG (transfer, Oregon)",
+     "evidence": "76.4/10 snaps; 11 gm L2Y"
+    }
    ],
-   "data_gaps": ["interior battles open (Athlon vs PS lineups differ)", "three imports with no 2025 volume"],
+   "data_gaps": [
+    "interior battles open (Athlon vs PS lineups differ)",
+    "three imports with no 2025 volume"
+   ],
    "g5_guard_note": null
   },
   {
@@ -132,18 +218,33 @@
     "16 L: = SJSU 16, > AF/Wyoming 14 L; 'figure to take a step back' (PS) - the L is the unproven rotation."
    ],
    "key_players": [
-    {"name": "Lesterlaisene Lagafuaina", "role": "DE1 (returning)", "evidence": "64.2/485 (62.0 adj); 8 TFL"},
-    {"name": "Luther McCoy", "role": "DT1 (returning, yr4 override)", "evidence": "64.3/246 (62.1 adj); both prints start him"},
-    {"name": "Ka'eo Akana", "role": "DE (returning)", "evidence": "63.8/161 (61.6 adj)"}
+    {
+     "name": "Lesterlaisene Lagafuaina",
+     "role": "DE1 (returning)",
+     "evidence": "64.2/485 (62.0 adj); 8 TFL"
+    },
+    {
+     "name": "Luther McCoy",
+     "role": "DT1 (returning, yr4 override)",
+     "evidence": "64.3/246 (62.1 adj); both prints start him"
+    },
+    {
+     "name": "Ka'eo Akana",
+     "role": "DE (returning)",
+     "evidence": "63.8/161 (61.6 adj)"
+    }
    ],
-   "data_gaps": ["sub-FBS translation x3", "interior depth"],
+   "data_gaps": [
+    "sub-FBS translation x3",
+    "interior depth"
+   ],
    "g5_guard_note": null
   },
   {
    "team": "Hawai'i",
    "unit": "LB",
-   "grade": 12,
-   "confidence": "L",
+   "grade": 14,
+   "confidence": "M",
    "bracketing_exemplars": [
     "Florida Atlantic DB 2025 (6, exemplar anchor)",
     "Florida International QB 2025 (15, exemplar anchor)"
@@ -152,13 +253,24 @@
     "Otis (60.0/549 -> 55.3 adj; 11 st, HM All-MWC) tore his ACL in November - PRINT CONFLICT: PS 'should be full go' vs Athlon 'unclear if and when he will be able to return.'",
     "Ho'ohuli (52.2/203 -> 47.5 adj) is 'the unit's top player until Otis' return' - a converted 300-lb DL now at 240.",
     "J.Smith (54.4/720, #2 tackler) + Iovino (55.4/220) depart; depth is Ioane (13 gm) + green bodies. Team TACK p9.",
-    "12 L: = Nevada 12 L, > NIU 10 L - modest grades even healthy, and the anchor's availability is unresolved."
+    "12 L: = Nevada 12 L, > NIU 10 L - modest grades even healthy, and the anchor's availability is unresolved.",
+    "MEDIA-DAYS UPDATE 2026-07-21: Otis availability RESOLVED \u2014 attended MW media days as a player rep, named preseason All-MW LB (themw.com 7/15), Feb beat reporting 'fully healthy ahead of camp,' moving MIKE->weak-side/dime. The L was explicitly availability-driven; unwinding the discount moves 12->14 within the frozen bracket (< FIU QB 15 exemplar holds: tape modest even healthy, TACK p9 team, thin depth). Confidence L->M (the data gap that drove L is closed)."
    ],
    "key_players": [
-    {"name": "Jamih Otis", "role": "MLB1 (returning)", "evidence": "60.0/549 (55.3 adj); ACL Nov; print conflict"},
-    {"name": "Wynden Ho'ohuli", "role": "WLB1 (returning)", "evidence": "52.2/203 (47.5 adj); converted DL"}
+    {
+     "name": "Jamih Otis",
+     "role": "MLB1 (returning)",
+     "evidence": "60.0/549 (55.3 adj); Nov ACL RESOLVED healthy (media days 7/15); to WLB/dime"
+    },
+    {
+     "name": "Wynden Ho'ohuli",
+     "role": "WLB1 (returning)",
+     "evidence": "52.2/203 (47.5 adj); converted DL"
+    }
    ],
-   "data_gaps": ["Otis ACL timeline", "no proven third LB"],
+   "data_gaps": [
+    "no proven third LB"
+   ],
    "g5_guard_note": null
   },
   {
@@ -177,11 +289,26 @@
     "18: = AF/Nevada 18, < UNLV 20/UNM 26 - one elite piece + flashes vs a full starting-volume walk-out."
    ],
    "key_players": [
-    {"name": "Elijah Palmer", "role": "NB (returning)", "evidence": "78.8/665 (76.4 adj); 4th yr starting; HM All-MWC"},
-    {"name": "Matagi Thompson", "role": "FS (returning)", "evidence": "74.2/208 (71.8 adj); 3 st"},
-    {"name": "Caleb Brown", "role": "CB1 (boomerang via VTech)", "evidence": "UH shutdown CB '24; 41.8/55 at VT '25"}
+    {
+     "name": "Elijah Palmer",
+     "role": "NB (returning)",
+     "evidence": "78.8/665 (76.4 adj); 4th yr starting; HM All-MWC"
+    },
+    {
+     "name": "Matagi Thompson",
+     "role": "FS (returning)",
+     "evidence": "74.2/208 (71.8 adj); 3 st"
+    },
+    {
+     "name": "Caleb Brown",
+     "role": "CB1 (boomerang via VTech)",
+     "evidence": "UH shutdown CB '24; 41.8/55 at VT '25"
+    }
    ],
-   "data_gaps": ["CB tape thin (Brown poor at VT, Hughes 29 snaps)", "green Fr depth"],
+   "data_gaps": [
+    "CB tape thin (Brown poor at VT, Hughes 29 snaps)",
+    "green Fr depth"
+   ],
    "g5_guard_note": null
   },
   {
@@ -200,11 +327,25 @@
     "12 L: = AF 12 (same downgrade-in-place shape); SPEC p67 tape belongs to the departed legs."
    ],
    "key_players": [
-    {"name": "Cam Barfield", "role": "KR (returning)", "evidence": "2nd-Tm All-MWC returner; 86-yd KR"},
-    {"name": "Sean Olvera-Harle", "role": "K (returning)", "evidence": "kickoffs '25; JUCO 11-14 FG '24"},
-    {"name": "Gehrig Heil", "role": "P (transfer, Texas)", "evidence": "rFr; zero college punts; HS 44.9"}
+    {
+     "name": "Cam Barfield",
+     "role": "KR (returning)",
+     "evidence": "2nd-Tm All-MWC returner; 86-yd KR"
+    },
+    {
+     "name": "Sean Olvera-Harle",
+     "role": "K (returning)",
+     "evidence": "kickoffs '25; JUCO 11-14 FG '24"
+    },
+    {
+     "name": "Gehrig Heil",
+     "role": "P (transfer, Texas)",
+     "evidence": "rFr; zero college punts; HS 44.9"
+    }
    ],
-   "data_gaps": ["both legs unproven at FBS"],
+   "data_gaps": [
+    "both legs unproven at FBS"
+   ],
    "g5_guard_note": null
   }
  ]

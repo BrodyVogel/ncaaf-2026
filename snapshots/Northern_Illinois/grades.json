@@ -1,14 +1,38 @@
 {
  "team": "Northern Illinois",
  "units": {
-  "QB": {"grade": 18, "confidence": "L"},
-  "RB": {"grade": 12, "confidence": "M"},
-  "WRTE": {"grade": 16, "confidence": "M"},
-  "OL": {"grade": 12, "confidence": "M"},
-  "DL": {"grade": 10, "confidence": "L"},
-  "LB": {"grade": 10, "confidence": "L"},
-  "DB": {"grade": 12, "confidence": "M"},
-  "ST": {"grade": 18, "confidence": "M"}
+  "QB": {
+   "grade": 20,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 12,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 16,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 12,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 10,
+   "confidence": "L"
+  },
+  "LB": {
+   "grade": 10,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 12,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 18,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -17,7 +41,8 @@
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "in-session supervised; anchor values not consulted",
   "planned_vs_final_deviations": {
-   "note": "all eight finals match the dossier planned lines."
+   "note": "seven of eight finals match the dossier planned lines.",
+   "QB": "planned 18 L -> final 20 L. Media-days integration 2026-07-21 (owner-approved delta pass): Dickens (SoCon OPOY) joined the room post-freeze; dossier planned line kept frozen, deviation recorded here. See snapshots/Northern_Illinois/media_days_addendum.md."
   },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 0, RB 2, WRTE None, OL 16, DL None, LB None, DB None, ST 33) - artifact #46",
@@ -25,13 +50,21 @@
    "RB": "+10 vs proxy 2 - proxy blind to Johnson (124 att) returning",
    "OL": "-4 vs proxy 16 - near-agreement",
    "ST": "-15 vs proxy 33 - proxy credits SPEC carryover"
+  },
+  "media_days_update": {
+   "date": "2026-07-21",
+   "source": "data/media_days/MWC_2026_media_days.md",
+   "grader": "Fable (delta pass, owner-approved)",
+   "changes": [
+    "QB 18 L -> 20 L"
+   ]
   }
  },
  "grades_detail": [
   {
    "team": "Northern Illinois",
    "unit": "QB",
-   "grade": 18,
+   "grade": 20,
    "confidence": "L",
    "bracketing_exemplars": [
     "Florida International QB 2025 (15, exemplar anchor)",
@@ -41,14 +74,38 @@
     "Three-way battle with no proven FBS piece: Davidson (108 snaps, 37.6 raw / 27.2 MAC-adj - bad true-FR tape), Macon (30 snaps at 71.3 through a hand injury; run-first, 216 rush), Hamric (D2 Charleston: 2,967 @ 59%, 30-5, 962 rush - real volume, IN-SCHEME with OC Sanders).",
     "Holst (173 snaps, 6 starts) adjudicated research-GONE - both prints' room lists exclude him.",
     "2025 team PASS grade was p1 - the worst passing tier in FBS; the room combined 53%, 8-6.",
-    "18 L = Ball State tier: bodies exist, tape argues down; Hamric's in-scheme D2 production is the sole upside case."
+    "18 L = Ball State tier: bodies exist, tape argues down; Hamric's in-scheme D2 production is the sole upside case.",
+    "MEDIA-DAYS UPDATE 2026-07-21: ROOM COMPOSITION CHANGED \u2014 Taron Dickens (WCU, 2025 SoCon Offensive POY, 38 TD) signed ~July 3 (post-freeze; multi-source: SI, Shaw Local, Northern Star) after a UNC signing + May release (reportedly academics). SI: 'Barring an unlikely scenario, Dickens is in line to start.' A SoCon OPOY is strictly a better top option than the graded room's sole-upside D2 case (Hamric); July arrival, the academics wrinkle, and an officially-open battle cap the move. 18->20: peer rail now = SacSt 20/Wyoming 20 FCS-transfer tier (Hughes has the cleaner situation: spring + his own OC), still < the 22 tier, > Ball St 18. Confidence stays L (battle + zero trustworthy FBS sample)."
    ],
    "key_players": [
-    {"name": "Ean Hamric", "role": "QB1 candidate (transfer, D2 Charleston - in-scheme)", "evidence": "17 st, 2,967 @ 59%, 30-5 + 962 rush L2Y"},
-    {"name": "Jalen Macon", "role": "QB1 candidate (returning, Sr)", "evidence": "30 snaps 71.3; hand injury '25; 216 rush @ 4.8"},
-    {"name": "Brady Davidson", "role": "QB1 candidate (returning, So)", "evidence": "108 snaps 37.6; 384 @ 46%, 3-3 as true FR"}
+    {
+     "name": "Ean Hamric",
+     "role": "QB1 candidate (transfer, D2 Charleston - in-scheme)",
+     "evidence": "17 st, 2,967 @ 59%, 30-5 + 962 rush L2Y"
+    },
+    {
+     "name": "Jalen Macon",
+     "role": "QB1 candidate (returning, Sr)",
+     "evidence": "30 snaps 71.3; hand injury '25; 216 rush @ 4.8"
+    },
+    {
+     "name": "Brady Davidson",
+     "role": "QB1 candidate (returning, So)",
+     "evidence": "108 snaps 37.6; 384 @ 46%, 3-3 as true FR"
+    },
+    {
+     "name": "Taron Dickens",
+     "role": "QB1 candidate (WCU transfer, July arrival)",
+     "evidence": "2025 SoCon Off POY, 38 TD; UNC release (academics-reported); SI in-line-to-start"
+    }
    ],
-   "data_gaps": ["three-way unresolved", "Hamric D2 translation", "Holst destination unknown"],
+   "data_gaps": [
+    "three-way unresolved",
+    "Hamric D2 translation",
+    "Holst destination unknown",
+    "Dickens eligibility/academics confirmation",
+    "battle unresolved until camp"
+   ],
    "g5_guard_note": null
   },
   {
@@ -67,10 +124,20 @@
     "12: above KSU/UMass 10 on Johnson's genuine starter volume, below SacSt/EMU 14."
    ],
    "key_players": [
-    {"name": "Telly Johnson Jr.", "role": "RB1 (returning)", "evidence": "124 att, 71.6 (58.3 adj); 712 @ 5.7 (3.9 excl. 4 TD runs); 97 rec"},
-    {"name": "Elijah Porter", "role": "RB2 (returning)", "evidence": "12 att, 72.2; PS#280"}
+    {
+     "name": "Telly Johnson Jr.",
+     "role": "RB1 (returning)",
+     "evidence": "124 att, 71.6 (58.3 adj); 712 @ 5.7 (3.9 excl. 4 TD runs); 97 rec"
+    },
+    {
+     "name": "Elijah Porter",
+     "role": "RB2 (returning)",
+     "evidence": "12 att, 72.2; PS#280"
+    }
    ],
-   "data_gaps": ["nothing proven behind Johnson"],
+   "data_gaps": [
+    "nothing proven behind Johnson"
+   ],
    "g5_guard_note": null
   },
   {
@@ -89,12 +156,31 @@
     "16 = Toledo tier: one real anchor + coherent pieces, RECV p6 as-played (partly QB-caused)."
    ],
    "key_players": [
-    {"name": "DeAree Rogers", "role": "WR1 + PR (returning; no-dest override STAYS)", "evidence": "262 routes, 77.3 (70.2 adj); 46-506"},
-    {"name": "Rickey Taylor Jr.", "role": "WR (returning)", "evidence": "67.0/76; 141 @ 14.9; missed half '25"},
-    {"name": "Cam Thompson", "role": "WR (transfer, Mississippi State - boomerang; feed-gap)", "evidence": "9 st, 391 @ 14.0 at NIU '24"},
-    {"name": "Kevin Holmes Jr.", "role": "WR (transfer, D2 Kingsville; feed-gap)", "evidence": "11 st, 609 @ 10.5"}
+    {
+     "name": "DeAree Rogers",
+     "role": "WR1 + PR (returning; no-dest override STAYS)",
+     "evidence": "262 routes, 77.3 (70.2 adj); 46-506"
+    },
+    {
+     "name": "Rickey Taylor Jr.",
+     "role": "WR (returning)",
+     "evidence": "67.0/76; 141 @ 14.9; missed half '25"
+    },
+    {
+     "name": "Cam Thompson",
+     "role": "WR (transfer, Mississippi State - boomerang; feed-gap)",
+     "evidence": "9 st, 391 @ 14.0 at NIU '24"
+    },
+    {
+     "name": "Kevin Holmes Jr.",
+     "role": "WR (transfer, D2 Kingsville; feed-gap)",
+     "evidence": "11 st, 609 @ 10.5"
+    }
    ],
-   "data_gaps": ["TE room rFr/FR only", "Thompson '25 sample = 3 games"],
+   "data_gaps": [
+    "TE room rFr/FR only",
+    "Thompson '25 sample = 3 games"
+   ],
    "g5_guard_note": null
   },
   {
@@ -113,12 +199,31 @@
     "12 = Ohio/KSU/Ball St tier: real anchors at tackle-and-center, youth everywhere else."
    ],
    "key_players": [
-    {"name": "Landon Hron", "role": "C (returning starter)", "evidence": "749 snaps, 66.3 (51.1 adj); 12 st"},
-    {"name": "Ross Liegel", "role": "LT (returning starter)", "evidence": "384 snaps, 70.0 (54.8 adj); 6 st"},
-    {"name": "Ty Mead", "role": "RG (transfer, D2 Northwood; feed-gap)", "evidence": "32 gm, 3-yr D2 starter"},
-    {"name": "Lane Mahnesmith", "role": "RT (returning)", "evidence": "63 snaps, 44.7; 8 gm"}
+    {
+     "name": "Landon Hron",
+     "role": "C (returning starter)",
+     "evidence": "749 snaps, 66.3 (51.1 adj); 12 st"
+    },
+    {
+     "name": "Ross Liegel",
+     "role": "LT (returning starter)",
+     "evidence": "384 snaps, 70.0 (54.8 adj); 6 st"
+    },
+    {
+     "name": "Ty Mead",
+     "role": "RG (transfer, D2 Northwood; feed-gap)",
+     "evidence": "32 gm, 3-yr D2 starter"
+    },
+    {
+     "name": "Lane Mahnesmith",
+     "role": "RT (returning)",
+     "evidence": "63 snaps, 44.7; 8 gm"
+    }
    ],
-   "data_gaps": ["interior beyond Hron unproven", "Skartvedt DNP '25"],
+   "data_gaps": [
+    "interior beyond Hron unproven",
+    "Skartvedt DNP '25"
+   ],
    "g5_guard_note": null
   },
   {
@@ -137,13 +242,36 @@
     "10 L = SacSt tier; below Akron/UMass 12. Stepping UP a league with this room is the round's biggest single-unit risk."
    ],
    "key_players": [
-    {"name": "Jay'shon Thomas", "role": "DE (returning; ex-TE)", "evidence": "392 snaps, 60.1 (53.7 adj); 3 st, 21 tkl"},
-    {"name": "Amari Washington", "role": "DT (returning, rFr)", "evidence": "50 snaps, 65.1; two-print spring buzz"},
-    {"name": "Jacob McGhee", "role": "DT (transfer, D2 Lincoln; feed-gap)", "evidence": "22 st, 80 tkl, 10.5 TFL"},
-    {"name": "Mathias Smith-Davis", "role": "DE (transfer, D2 Central State; FEED DUPLICATE)", "evidence": "1st-Tm All-SIAC"},
-    {"name": "Kole Sneed", "role": "edge (transfer, FCS St Thomas; feed-gap)", "evidence": "12 st, 41 tkl, 4.5 sk, 2nd-Tm All-PFL"}
+    {
+     "name": "Jay'shon Thomas",
+     "role": "DE (returning; ex-TE)",
+     "evidence": "392 snaps, 60.1 (53.7 adj); 3 st, 21 tkl"
+    },
+    {
+     "name": "Amari Washington",
+     "role": "DT (returning, rFr)",
+     "evidence": "50 snaps, 65.1; two-print spring buzz"
+    },
+    {
+     "name": "Jacob McGhee",
+     "role": "DT (transfer, D2 Lincoln; feed-gap)",
+     "evidence": "22 st, 80 tkl, 10.5 TFL"
+    },
+    {
+     "name": "Mathias Smith-Davis",
+     "role": "DE (transfer, D2 Central State; FEED DUPLICATE)",
+     "evidence": "1st-Tm All-SIAC"
+    },
+    {
+     "name": "Kole Sneed",
+     "role": "edge (transfer, FCS St Thomas; feed-gap)",
+     "evidence": "12 st, 41 tkl, 4.5 sk, 2nd-Tm All-PFL"
+    }
    ],
-   "data_gaps": ["rotation unknowable", "Scarlett/Nnamuchi origins unresolved"],
+   "data_gaps": [
+    "rotation unknowable",
+    "Scarlett/Nnamuchi origins unresolved"
+   ],
    "g5_guard_note": null
   },
   {
@@ -161,12 +289,31 @@
     "10 L: above Ball St's 8 floor only on Windham's senior FBS snaps + Nelson's two-print flash; below the Buffalo/Akron 12 rooms."
    ],
    "key_players": [
-    {"name": "Broderick Windham", "role": "WLB (returning; S->LB move)", "evidence": "128 DB snaps, 59.6; 1 st, 12 tkl"},
-    {"name": "Kimar Nelson", "role": "LB (returning, rFr)", "evidence": "4 gm, 5 tkl; 'came on strong' late (Athlon)"},
-    {"name": "Jack Murray", "role": "MLB1 per PS (TRUE FR)", "evidence": "PS#148; spring buzz"},
-    {"name": "Cooper Mau", "role": "MLB (transfer, JC; feed-gap)", "evidence": "Athlon MLB1"}
+    {
+     "name": "Broderick Windham",
+     "role": "WLB (returning; S->LB move)",
+     "evidence": "128 DB snaps, 59.6; 1 st, 12 tkl"
+    },
+    {
+     "name": "Kimar Nelson",
+     "role": "LB (returning, rFr)",
+     "evidence": "4 gm, 5 tkl; 'came on strong' late (Athlon)"
+    },
+    {
+     "name": "Jack Murray",
+     "role": "MLB1 per PS (TRUE FR)",
+     "evidence": "PS#148; spring buzz"
+    },
+    {
+     "name": "Cooper Mau",
+     "role": "MLB (transfer, JC; feed-gap)",
+     "evidence": "Athlon MLB1"
+    }
    ],
-   "data_gaps": ["true FR penciled at MLB", "zero returning LB production"],
+   "data_gaps": [
+    "true FR penciled at MLB",
+    "zero returning LB production"
+   ],
    "g5_guard_note": null
   },
   {
@@ -185,13 +332,36 @@
     "12: above SacSt 10 on import volume, below Ball St 14. PS: 'bigger drop in the PDR in '26.'"
    ],
    "key_players": [
-    {"name": "Dev'ion Reynolds", "role": "CB + KR (returning)", "evidence": "316 snaps, 50.7 (47.4 adj); 4 st; 96-yd KR TD"},
-    {"name": "Yassine Falke", "role": "CB (transfer, NAIA Marian; feed-gap)", "evidence": "12 st, 44 tkl, 9 pbu, 5 int, all-conf"},
-    {"name": "Avery Jones", "role": "NB (transfer, Lafayette)", "evidence": "12 gm, 47 tkl, 3 int"},
-    {"name": "Tyrese Stanley", "role": "S (transfer, D2 Morehouse)", "evidence": "20 st, 79 tkl L2Y"},
-    {"name": "Justin Harris", "role": "S (transfer, D2 Central St; feed-gap)", "evidence": "4 pbu, 3 int LY; Duquesne '24"}
+    {
+     "name": "Dev'ion Reynolds",
+     "role": "CB + KR (returning)",
+     "evidence": "316 snaps, 50.7 (47.4 adj); 4 st; 96-yd KR TD"
+    },
+    {
+     "name": "Yassine Falke",
+     "role": "CB (transfer, NAIA Marian; feed-gap)",
+     "evidence": "12 st, 44 tkl, 9 pbu, 5 int, all-conf"
+    },
+    {
+     "name": "Avery Jones",
+     "role": "NB (transfer, Lafayette)",
+     "evidence": "12 gm, 47 tkl, 3 int"
+    },
+    {
+     "name": "Tyrese Stanley",
+     "role": "S (transfer, D2 Morehouse)",
+     "evidence": "20 st, 79 tkl L2Y"
+    },
+    {
+     "name": "Justin Harris",
+     "role": "S (transfer, D2 Central St; feed-gap)",
+     "evidence": "4 pbu, 3 int LY; Duquesne '24"
+    }
    ],
-   "data_gaps": ["eight-import integration", "no returning starter above 51 grade"],
+   "data_gaps": [
+    "eight-import integration",
+    "no returning starter above 51 grade"
+   ],
    "g5_guard_note": null
   },
   {
@@ -210,11 +380,26 @@
     "18 = BGSU tier: real pieces on a unit that has finished in the 100s four straight years (SPEC p33)."
    ],
    "key_players": [
-    {"name": "Jake Ference", "role": "P (returning)", "evidence": "30 punts, 43.6, L/61; PS#58"},
-    {"name": "Ryan Short", "role": "K1 candidate (transfer, FCS Butler; feed-gap)", "evidence": "12 st, 15-16 FG L/45; all-conf"},
-    {"name": "Dev'ion Reynolds", "role": "KR (returning)", "evidence": "96-yd TD, 25.3 avg"}
+    {
+     "name": "Jake Ference",
+     "role": "P (returning)",
+     "evidence": "30 punts, 43.6, L/61; PS#58"
+    },
+    {
+     "name": "Ryan Short",
+     "role": "K1 candidate (transfer, FCS Butler; feed-gap)",
+     "evidence": "12 st, 15-16 FG L/45; all-conf"
+    },
+    {
+     "name": "Dev'ion Reynolds",
+     "role": "KR (returning)",
+     "evidence": "96-yd TD, 25.3 avg"
+    }
    ],
-   "data_gaps": ["K battle unresolved", "coverage units rebuilt"],
+   "data_gaps": [
+    "K battle unresolved",
+    "coverage units rebuilt"
+   ],
    "g5_guard_note": null
   }
  ]

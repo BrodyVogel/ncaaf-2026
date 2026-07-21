@@ -81,8 +81,17 @@ def load(fcs_path='data/fcs_ratings_2026.csv', root='.'):
                 opp = {'kind': 'fcs', 'nk': None, 'name': opp_name,
                        'mu_our': fr['rating'], 'mu_anchor': fr['rating'], 'band': fr['band'],
                        'tier': fr.get('tier', ''), 'fcs_note': fr.get('note', '')}
+            is_conf = bool(g['conferenceGame'])
+            # CFBD flag correction (media-days triage 2026-07-21): the 2026 NDSU-SJSU game is a
+            # NON-conference matchup between MW members (SJSU's 13th game via the Hawai'i
+            # exemption). The MW plays a balanced 8-game slate (CBS Sports); NDSU's composition
+            # is 8 MW + 3 non-conf FBS + 1 FCS (ESPN/Sportico/NDSU). CFBD marks it
+            # conferenceGame=True, which gave both teams 9 conf games — census outlier.
+            if {subj_name, opp_name} == {'North Dakota State', 'San José State'} or \
+               {subj_name, opp_name} == {'North Dakota State', 'San Jose State'}:
+                is_conf = False
             glist.append({'week': g['week'], 'opp': opp, 'site': site,
-                          'is_conf': bool(g['conferenceGame']),
+                          'is_conf': is_conf,
                           'date': g.get('startDate', '')})
         glist.sort(key=lambda x: (x['week'], x['date']))
         schedules[subj_nk] = glist
