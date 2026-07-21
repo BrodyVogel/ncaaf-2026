@@ -6,24 +6,25 @@ our_p is our calibrated model's probability of the bet side (the edge at time of
 import json, math, os, sys, csv, html
 sys.path.insert(0, os.path.dirname(__file__))
 import win_engine as E
+from win_totals_compute import _market, consensus_line
 
 ASOF = "2026-07-20"
 # category: 'regular' or 'conference'. result: 'pending'|'W'|'L'|'P'.
 SEED = [
- dict(date="2026-07-20", cat="regular", team="UConn",          side="over",  line=5.5, odds=-105, book="",    stake=0.57, result="pending", note=""),
- dict(date="2026-07-20", cat="regular", team="Tulsa",          side="over",  line=5.5, odds=+100, book="",    stake=0.55, result="pending", note=""),
- dict(date="2026-07-20", cat="regular", team="Oregon State",   side="over",  line=3.5, odds=-150, book="",    stake=0.65, result="pending", note=""),
- dict(date="2026-07-20", cat="regular", team="Bowling Green",  side="over",  line=4.5, odds=-160, book="",    stake=0.70, result="pending", note=""),
- dict(date="2026-07-20", cat="regular", team="Liberty",        side="under", line=8.5, odds=-132, book="",    stake=0.60, result="pending", note=""),
- dict(date="2026-07-20", cat="regular", team="Arizona State",  side="under", line=6.5, odds=+100, book="CZR", stake=0.55, result="pending", note="took +100; juiced out at BetRivers"),
- dict(date="2026-07-20", cat="regular", team="Kennesaw State", side="over",  line=6.5, odds=+120, book="",    stake=0.55, result="pending", note=""),
- dict(date="2026-07-20", cat="regular", team="Illinois",       side="under", line=7.5, odds=-160, book="",    stake=0.65, result="pending", note="took -160"),
- dict(date="2026-07-20", cat="regular", team="West Virginia",  side="under", line=5.5, odds=+132, book="FD",  stake=0.50, result="pending", note="FD +132"),
- dict(date="2026-07-20", cat="regular", team="East Carolina",  side="over",  line=7.5, odds=+100, book="",    stake=0.55, result="pending", note=""),
- dict(date="2026-07-20", cat="regular", team="Hawai'i",        side="under", line=7.5, odds=-120, book="CZR", stake=0.60, result="pending", note="took -120 at CZR"),
- dict(date="2026-07-20", cat="conference", team="Florida",     side="under", line=4.5, odds=-110, book="",    stake=0.50, result="pending", note=""),
- dict(date="2026-07-20", cat="conference", team="UCF",         side="over",  line=3.5, odds=-115, book="DK",  stake=0.55, result="pending", note="DK -115"),
- dict(date="2026-07-20", cat="conference", team="Pittsburgh",  side="under", line=5.5, odds=-136, book="DK",  stake=0.65, result="pending", note="DK -136"),
+ dict(date="2026-07-20", cat="regular", team="UConn",          side="over",  line=5.5, odds=-105, book="DK",    stake=0.57, result="pending", note=""),
+ dict(date="2026-07-20", cat="regular", team="Tulsa",          side="over",  line=5.5, odds=+100, book="CZR",   stake=0.55, result="pending", note=""),
+ dict(date="2026-07-20", cat="regular", team="Oregon State",   side="over",  line=3.5, odds=-150, book="Bet365",stake=0.65, result="pending", note=""),
+ dict(date="2026-07-20", cat="regular", team="Bowling Green",  side="over",  line=4.5, odds=-160, book="Bet365",stake=0.70, result="pending", note=""),
+ dict(date="2026-07-20", cat="regular", team="Liberty",        side="under", line=8.5, odds=-145, book="Bet365",stake=0.60, result="pending", note="took -145"),
+ dict(date="2026-07-20", cat="regular", team="Arizona State",  side="under", line=6.5, odds=+100, book="CZR",   stake=0.55, result="pending", note="took +100; juiced out at BetRivers"),
+ dict(date="2026-07-20", cat="regular", team="Kennesaw State", side="over",  line=6.5, odds=+120, book="Bet365",stake=0.55, result="pending", note=""),
+ dict(date="2026-07-20", cat="regular", team="Illinois",       side="under", line=7.5, odds=-160, book="CZR",   stake=0.65, result="pending", note="took -160"),
+ dict(date="2026-07-20", cat="regular", team="West Virginia",  side="under", line=5.5, odds=+132, book="FD",    stake=0.50, result="pending", note="FD +132"),
+ dict(date="2026-07-20", cat="regular", team="East Carolina",  side="over",  line=7.5, odds=+100, book="CZR",   stake=0.55, result="pending", note=""),
+ dict(date="2026-07-20", cat="regular", team="Hawai'i",        side="under", line=7.5, odds=-120, book="CZR",   stake=0.60, result="pending", note="took -120 at CZR"),
+ dict(date="2026-07-20", cat="conference", team="Florida",     side="under", line=4.5, odds=-110, book="",      stake=0.50, result="pending", note=""),
+ dict(date="2026-07-20", cat="conference", team="UCF",         side="over",  line=3.5, odds=-115, book="DK",    stake=0.55, result="pending", note="DK -115"),
+ dict(date="2026-07-20", cat="conference", team="Pittsburgh",  side="under", line=5.5, odds=-136, book="DK",    stake=0.65, result="pending", note="DK -136"),
 ]
 
 P = json.load(open('outputs/win_totals_payload.json'))
@@ -41,24 +42,41 @@ def model_prob(team, cat, side, line):
     return p_over if side=='over' else 1-p_over
 def dec(a):return 1.0+(a/100.0 if a>0 else 100.0/(-a))
 def profit_mult(a):return dec(a)-1.0
+def implied(a):return (-a)/((-a)+100.0) if a<0 else 100.0/(a+100.0)
+def ufo(o,c=30):return (-o-c) if o<0 else -(o+c)
+M=_market()
+def market_fair(team, cat, line, side):
+    """Market's de-vigged fair probability of the bet side at the line (avg-prob de-vig
+    across books, 30-cent convention for the unposted side). None if no market."""
+    offers=M.get(team,{}).get('regular' if cat=='regular' else 'conference',[])
+    if not offers: return None
+    at=[o for (l,o,b) in offers if abs(l-line)<1e-6]
+    if not at:
+        cl=consensus_line([l for (l,o,b) in offers]); at=[o for (l,o,b) in offers if abs(l-cl)<1e-6]
+    fps=[implied(o)/(implied(o)+implied(ufo(o))) for o in at]
+    fo=sum(fps)/len(fps)
+    return fo if side=='over' else 1-fo
 
 rows=[]
 for b in SEED:
     p=model_prob(b['team'],b['cat'],b['side'],b['line'])
     ev=p*profit_mult(b['odds'])-(1-p)
+    mf=market_fair(b['team'],b['cat'],b['line'],b['side'])
+    edge=(p-mf) if mf is not None else None
     if b['result']=='W':   pnl=b['stake']*profit_mult(b['odds'])
     elif b['result']=='L': pnl=-b['stake']
     else:                  pnl=0.0
-    rows.append({**b,'our_p':round(p,4),'ev':round(ev,4),'pnl':round(pnl,4)})
+    rows.append({**b,'our_p':round(p,4),'ev':round(ev,4),'edge':(round(edge,4) if edge is not None else None),'pnl':round(pnl,4)})
 
 # CSV
 os.makedirs('outputs',exist_ok=True)
 with open('outputs/bet_tracker.csv','w',newline='') as f:
-    w=csv.writer(f); w.writerow(['date','category','team','side','line','odds','book','stake_u','our_p','model_ev','result','pnl_u','note'])
+    w=csv.writer(f); w.writerow(['date','category','team','side','line','odds','book','stake_u','our_p','pct_edge','model_ev','result','pnl_u','note'])
     for r in rows:
         w.writerow([r['date'],r['cat'],r['team'],r['side'],r['line'],
                     ('+%d'%r['odds'] if r['odds']>0 else r['odds']),r['book'],r['stake'],
-                    '%.3f'%r['our_p'],'%+.3f'%r['ev'],r['result'],'%+.3f'%r['pnl'],r['note']])
+                    '%.3f'%r['our_p'],('%+.1f%%'%(100*r['edge']) if r['edge'] is not None else 'n/a'),
+                    '%+.3f'%r['ev'],r['result'],'%+.3f'%r['pnl'],r['note']])
 
 # summary
 n=len(rows); staked=sum(r['stake'] for r in rows)
@@ -67,6 +85,7 @@ wins=sum(r['result']=='W' for r in rows); losses=sum(r['result']=='L' for r in r
 pnl=sum(r['pnl'] for r in rows); risked_g=sum(r['stake'] for r in graded)
 roi=(pnl/risked_g*100) if risked_g else None
 avg_p=sum(r['our_p'] for r in rows)/n; avg_ev=sum(r['ev'] for r in rows)/n
+_ed=[r['edge'] for r in rows if r['edge'] is not None]; avg_edge=(sum(_ed)/len(_ed)) if _ed else None
 
 def odds_str(a):return ('+%d'%a) if a>0 else str(a)
 def esc(s):return html.escape(str(s))
@@ -74,7 +93,8 @@ CARD=lambda label,val,sub='': f'<div class="kpi"><div class="l">{label}</div><di
 kpis=(CARD("Bets",n,f"{len(graded)} graded")+CARD("Staked",f"{staked:.2f}u")+
       CARD("Record",f"{wins}–{losses}", "pending" if not graded else "")+
       CARD("Net P&amp;L",f"{pnl:+.2f}u", ("—" if roi is None else f"ROI {roi:+.1f}%"))+
-      CARD("Avg model win%",f"{avg_p*100:.0f}%")+CARD("Avg model EV",f"{avg_ev:+.2f}/$1"))
+      CARD("Avg % edge",("—" if avg_edge is None else f"{avg_edge*100:+.1f}%"),"vs market fair")+
+      CARD("Avg model EV",f"{avg_ev:+.2f}/$1"))
 trs=""
 for r in sorted(rows,key=lambda x:(x['cat'],-x['ev'])):
     cls={'W':'win','L':'loss','P':'push'}.get(r['result'],'pend')
@@ -82,7 +102,9 @@ for r in sorted(rows,key=lambda x:(x['cat'],-x['ev'])):
     trs+=(f'<tr class="{cls}"><td>{esc(r["date"])}</td><td><span class="chip {r["cat"][:4]}">{r["cat"][:4]}</span></td>'
           f'<td class="bet">{esc(r["team"])} <b>{r["side"]} {r["line"]:g}</b></td>'
           f'<td>{odds_str(r["odds"])}</td><td class="mut">{esc(r["book"]) or "—"}</td><td>{r["stake"]:.2f}u</td>'
-          f'<td>{r["our_p"]*100:.0f}%</td><td class="{"pos" if r["ev"]>0 else "neg"}">{r["ev"]:+.2f}</td>'
+          f'<td>{r["our_p"]*100:.0f}%</td>'
+          f'<td class="{"pos" if (r["edge"] or 0)>0 else "neg"}">{("%+.1f%%"%(100*r["edge"])) if r["edge"] is not None else "—"}</td>'
+          f'<td class="{"pos" if r["ev"]>0 else "neg"}">{r["ev"]:+.2f}</td>'
           f'<td class="res">{res}</td><td>{r["pnl"]:+.2f}u</td><td class="mut">{esc(r["note"])}</td></tr>')
 
 HTML=f'''<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -105,9 +127,9 @@ tr.win .res{{color:var(--good);font-weight:700}} tr.loss .res{{color:var(--bad);
 </style></head><body><div class="wrap">
 <h1>CFB 2026 · Bet Tracker</h1><div class="sub">Season win totals &amp; conference win totals · as of {ASOF} · all bets settle after the regular season</div>
 <div class="kpis">{kpis}</div>
-<table><thead><tr><th>Logged</th><th></th><th>Bet</th><th>Odds</th><th>Book</th><th>Stake</th><th>Model P</th><th>EV/$1</th><th>Result</th><th>P&amp;L</th><th>Note</th></tr></thead>
+<table><thead><tr><th>Logged</th><th></th><th>Bet</th><th>Odds</th><th>Book</th><th>Stake</th><th>Model P</th><th>% edge</th><th>EV/$1</th><th>Result</th><th>P&amp;L</th><th>Note</th></tr></thead>
 <tbody>{trs}</tbody></table>
-<div class="foot">Model P = our calibrated model&rsquo;s win probability for the side at the time of the bet. EV/$1 computed at the price you took. P&amp;L updates as totals grade. Maintained by Claude — tell me when you log or settle a bet.</div>
+<div class="foot">Model P = our <b>calibrated</b> ratings&rsquo; win probability for the side (the honest &times;0.75 set). <b>% edge</b> = model P &minus; the market&rsquo;s de-vigged fair probability (how much sharper our number is). <b>EV/$1</b> = expected profit per $1 at the price you took. P&amp;L updates as totals grade. Maintained by Claude — tell me when you log or settle a bet.</div>
 </div></body></html>'''
 open('outputs/bet_tracker.html','w').write(HTML)
 print(f"tracker: {n} bets, {staked:.2f}u staked, avg model P {avg_p*100:.0f}%, avg EV {avg_ev:+.2f}, record {wins}-{losses}, P&L {pnl:+.2f}u")
