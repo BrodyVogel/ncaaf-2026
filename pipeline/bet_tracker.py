@@ -1,0 +1,114 @@
+#!/usr/bin/env python3
+"""CFB 2026 bet tracker. Bets are defined in SEED below (source of truth, git-tracked).
+Re-run to regenerate outputs/bet_tracker.csv + outputs/bet_tracker.html.
+To log a new bet: append a dict to SEED and re-run. To grade one: set result W/L/P.
+our_p is our calibrated model's probability of the bet side (the edge at time of bet)."""
+import json, math, os, sys, csv, html
+sys.path.insert(0, os.path.dirname(__file__))
+import win_engine as E
+
+ASOF = "2026-07-20"
+# category: 'regular' or 'conference'. result: 'pending'|'W'|'L'|'P'.
+SEED = [
+ dict(date="2026-07-20", cat="regular", team="UConn",          side="over",  line=5.5, odds=-105, book="",    stake=0.57, result="pending", note=""),
+ dict(date="2026-07-20", cat="regular", team="Tulsa",          side="over",  line=5.5, odds=+100, book="",    stake=0.55, result="pending", note=""),
+ dict(date="2026-07-20", cat="regular", team="Oregon State",   side="over",  line=3.5, odds=-150, book="",    stake=0.65, result="pending", note=""),
+ dict(date="2026-07-20", cat="regular", team="Bowling Green",  side="over",  line=4.5, odds=-160, book="",    stake=0.70, result="pending", note=""),
+ dict(date="2026-07-20", cat="regular", team="Liberty",        side="under", line=8.5, odds=-132, book="",    stake=0.60, result="pending", note=""),
+ dict(date="2026-07-20", cat="regular", team="Arizona State",  side="under", line=6.5, odds=+100, book="CZR", stake=0.55, result="pending", note="took +100; juiced out at BetRivers"),
+ dict(date="2026-07-20", cat="regular", team="Kennesaw State", side="over",  line=6.5, odds=+120, book="",    stake=0.55, result="pending", note=""),
+ dict(date="2026-07-20", cat="regular", team="Illinois",       side="under", line=7.5, odds=-160, book="",    stake=0.65, result="pending", note="took -160"),
+ dict(date="2026-07-20", cat="regular", team="West Virginia",  side="under", line=5.5, odds=+132, book="FD",  stake=0.50, result="pending", note="FD +132"),
+ dict(date="2026-07-20", cat="regular", team="East Carolina",  side="over",  line=7.5, odds=+100, book="",    stake=0.55, result="pending", note=""),
+ dict(date="2026-07-20", cat="regular", team="Hawai'i",        side="under", line=7.5, odds=-120, book="CZR", stake=0.60, result="pending", note="took -120 at CZR"),
+ dict(date="2026-07-20", cat="conference", team="Florida",     side="under", line=4.5, odds=-110, book="",    stake=0.50, result="pending", note=""),
+ dict(date="2026-07-20", cat="conference", team="UCF",         side="over",  line=3.5, odds=-115, book="DK",  stake=0.55, result="pending", note="DK -115"),
+ dict(date="2026-07-20", cat="conference", team="Pittsburgh",  side="under", line=5.5, odds=-136, book="DK",  stake=0.65, result="pending", note="DK -136"),
+]
+
+P = json.load(open('outputs/win_totals_payload.json'))
+teams=P['teams']; sched=P['schedules']; fcs=P['fcs']
+NAME2NK={t['name']:nk for nk,t in teams.items()}
+def cal(nk):return teams[nk]['calibrated']
+def oppR(r):return teams[r]['calibrated'] if r in teams else fcs[r]['rating']
+def oppB(r):return teams[r]['band'] if r in teams else fcs[r]['band']
+def model_prob(team, cat, side, line):
+    nk=NAME2NK[team]; conf=(cat=='conference')
+    gl=[{'mu_opp':oppR(g['opp_ref']),'site':g['site'],'band_opp':oppB(g['opp_ref'])}
+        for g in sched[nk] if (g['is_conf'] or not conf)]
+    d=E.win_distribution(cal(nk),teams[nk]['band'],gl)['dist']
+    p_over=sum(d[math.floor(line)+1:])
+    return p_over if side=='over' else 1-p_over
+def dec(a):return 1.0+(a/100.0 if a>0 else 100.0/(-a))
+def profit_mult(a):return dec(a)-1.0
+
+rows=[]
+for b in SEED:
+    p=model_prob(b['team'],b['cat'],b['side'],b['line'])
+    ev=p*profit_mult(b['odds'])-(1-p)
+    if b['result']=='W':   pnl=b['stake']*profit_mult(b['odds'])
+    elif b['result']=='L': pnl=-b['stake']
+    else:                  pnl=0.0
+    rows.append({**b,'our_p':round(p,4),'ev':round(ev,4),'pnl':round(pnl,4)})
+
+# CSV
+os.makedirs('outputs',exist_ok=True)
+with open('outputs/bet_tracker.csv','w',newline='') as f:
+    w=csv.writer(f); w.writerow(['date','category','team','side','line','odds','book','stake_u','our_p','model_ev','result','pnl_u','note'])
+    for r in rows:
+        w.writerow([r['date'],r['cat'],r['team'],r['side'],r['line'],
+                    ('+%d'%r['odds'] if r['odds']>0 else r['odds']),r['book'],r['stake'],
+                    '%.3f'%r['our_p'],'%+.3f'%r['ev'],r['result'],'%+.3f'%r['pnl'],r['note']])
+
+# summary
+n=len(rows); staked=sum(r['stake'] for r in rows)
+graded=[r for r in rows if r['result'] in ('W','L','P')]
+wins=sum(r['result']=='W' for r in rows); losses=sum(r['result']=='L' for r in rows)
+pnl=sum(r['pnl'] for r in rows); risked_g=sum(r['stake'] for r in graded)
+roi=(pnl/risked_g*100) if risked_g else None
+avg_p=sum(r['our_p'] for r in rows)/n; avg_ev=sum(r['ev'] for r in rows)/n
+
+def odds_str(a):return ('+%d'%a) if a>0 else str(a)
+def esc(s):return html.escape(str(s))
+CARD=lambda label,val,sub='': f'<div class="kpi"><div class="l">{label}</div><div class="v">{val}</div><div class="s">{sub}</div></div>'
+kpis=(CARD("Bets",n,f"{len(graded)} graded")+CARD("Staked",f"{staked:.2f}u")+
+      CARD("Record",f"{wins}–{losses}", "pending" if not graded else "")+
+      CARD("Net P&amp;L",f"{pnl:+.2f}u", ("—" if roi is None else f"ROI {roi:+.1f}%"))+
+      CARD("Avg model win%",f"{avg_p*100:.0f}%")+CARD("Avg model EV",f"{avg_ev:+.2f}/$1"))
+trs=""
+for r in sorted(rows,key=lambda x:(x['cat'],-x['ev'])):
+    cls={'W':'win','L':'loss','P':'push'}.get(r['result'],'pend')
+    res={'W':'WON','L':'LOST','P':'PUSH','pending':'pending'}[r['result']]
+    trs+=(f'<tr class="{cls}"><td>{esc(r["date"])}</td><td><span class="chip {r["cat"][:4]}">{r["cat"][:4]}</span></td>'
+          f'<td class="bet">{esc(r["team"])} <b>{r["side"]} {r["line"]:g}</b></td>'
+          f'<td>{odds_str(r["odds"])}</td><td class="mut">{esc(r["book"]) or "—"}</td><td>{r["stake"]:.2f}u</td>'
+          f'<td>{r["our_p"]*100:.0f}%</td><td class="{"pos" if r["ev"]>0 else "neg"}">{r["ev"]:+.2f}</td>'
+          f'<td class="res">{res}</td><td>{r["pnl"]:+.2f}u</td><td class="mut">{esc(r["note"])}</td></tr>')
+
+HTML=f'''<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CFB 2026 · Bet Tracker</title><style>
+:root{{--bg:#0e1116;--panel:#171b22;--pan2:#1e242e;--line:#2a3240;--ink:#e6e9ef;--dim:#9aa4b2;--acc:#4f9dff;--good:#37c98b;--bad:#ff6b6b;--warn:#ffb454;--chip:#232b36}}
+*{{box-sizing:border-box}}body{{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}}
+.wrap{{max-width:1080px;margin:0 auto;padding:20px 18px 48px}}
+h1{{font-size:19px;margin:0 0 2px}} .sub{{color:var(--dim);font-size:12.5px;margin-bottom:16px}}
+.kpis{{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:12px 0 18px}}
+.kpi{{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:11px 13px}}
+.kpi .l{{color:var(--dim);font-size:11px}} .kpi .v{{font-size:20px;font-weight:700;margin-top:2px}} .kpi .s{{color:var(--dim);font-size:11px}}
+table{{border-collapse:collapse;width:100%;font-size:12.5px;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}}
+th,td{{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}}
+th{{color:var(--dim);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.4px;background:var(--pan2)}}
+td.bet{{white-space:normal}} .mut{{color:var(--dim)}} .pos{{color:var(--good)}} .neg{{color:var(--bad)}}
+tr.win{{background:rgba(55,201,139,.07)}} tr.loss{{background:rgba(255,107,107,.07)}}
+tr.win .res{{color:var(--good);font-weight:700}} tr.loss .res{{color:var(--bad);font-weight:700}} tr.pend .res{{color:var(--dim)}}
+.chip{{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:10px;color:var(--dim)}}
+.chip.conf{{color:var(--acc)}} .foot{{color:var(--dim);font-size:11.5px;margin-top:14px}}
+</style></head><body><div class="wrap">
+<h1>CFB 2026 · Bet Tracker</h1><div class="sub">Season win totals &amp; conference win totals · as of {ASOF} · all bets settle after the regular season</div>
+<div class="kpis">{kpis}</div>
+<table><thead><tr><th>Logged</th><th></th><th>Bet</th><th>Odds</th><th>Book</th><th>Stake</th><th>Model P</th><th>EV/$1</th><th>Result</th><th>P&amp;L</th><th>Note</th></tr></thead>
+<tbody>{trs}</tbody></table>
+<div class="foot">Model P = our calibrated model&rsquo;s win probability for the side at the time of the bet. EV/$1 computed at the price you took. P&amp;L updates as totals grade. Maintained by Claude — tell me when you log or settle a bet.</div>
+</div></body></html>'''
+open('outputs/bet_tracker.html','w').write(HTML)
+print(f"tracker: {n} bets, {staked:.2f}u staked, avg model P {avg_p*100:.0f}%, avg EV {avg_ev:+.2f}, record {wins}-{losses}, P&L {pnl:+.2f}u")
+print("wrote outputs/bet_tracker.csv + outputs/bet_tracker.html")

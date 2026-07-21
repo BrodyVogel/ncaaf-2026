@@ -1,0 +1,15 @@
+date,category,team,side,line,odds,book,stake_u,our_p,model_ev,result,pnl_u,note
+2026-07-20,regular,UConn,over,5.5,-105,,0.57,0.678,+0.323,pending,+0.000,
+2026-07-20,regular,Tulsa,over,5.5,+100,,0.55,0.660,+0.319,pending,+0.000,
+2026-07-20,regular,Oregon State,over,3.5,-150,,0.65,0.758,+0.264,pending,+0.000,
+2026-07-20,regular,Bowling Green,over,4.5,-160,,0.7,0.772,+0.254,pending,+0.000,
+2026-07-20,regular,Liberty,under,8.5,-132,,0.6,0.708,+0.244,pending,+0.000,
+2026-07-20,regular,Arizona State,under,6.5,+100,CZR,0.55,0.591,+0.182,pending,+0.000,took +100; juiced out at BetRivers
+2026-07-20,regular,Kennesaw State,over,6.5,+120,,0.55,0.546,+0.201,pending,+0.000,
+2026-07-20,regular,Illinois,under,7.5,-160,,0.65,0.719,+0.168,pending,+0.000,took -160
+2026-07-20,regular,West Virginia,under,5.5,+132,FD,0.5,0.503,+0.167,pending,+0.000,FD +132
+2026-07-20,regular,East Carolina,over,7.5,+100,,0.55,0.596,+0.191,pending,+0.000,
+2026-07-20,regular,Hawai'i,under,7.5,-120,CZR,0.6,0.642,+0.177,pending,+0.000,took -120 at CZR
+2026-07-20,conference,Florida,under,4.5,-110,,0.5,0.593,+0.131,pending,+0.000,
+2026-07-20,conference,UCF,over,3.5,-115,DK,0.55,0.609,+0.138,pending,+0.000,DK -115
+2026-07-20,conference,Pittsburgh,under,5.5,-136,DK,0.65,0.645,+0.120,pending,+0.000,DK -136
