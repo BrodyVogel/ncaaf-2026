@@ -2,10 +2,10 @@
  "team": "Syracuse",
  "units": {
   "QB": {
-   "grade": 44,
+   "grade": 48,
    "confidence": "M",
    "v1_grade": 52,
-   "adjudication": "50/50 blend: dg-18.8"
+   "adjudication": "re-read adjudication: RE-READ: Angeli+Odom values 71-73 GOOD; dg suspect; Achilles risk keeps -4; policy had 44"
   },
   "RB": {
    "grade": 30,

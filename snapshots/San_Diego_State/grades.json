@@ -6,28 +6,28 @@
    "confidence": "M"
   },
   "RB": {
-   "grade": 44,
+   "grade": 50,
    "confidence": "M",
    "v1_grade": 52,
-   "adjudication": "50/50 blend: dg-16.1"
+   "adjudication": "re-read adjudication: RE-READ: Sutton 81.6 elite value; MWC RB cell artifact; revert; policy had 44"
   },
   "WRTE": {
-   "grade": 36,
+   "grade": 39,
    "confidence": "M",
    "v1_grade": 42,
-   "adjudication": "50/50 blend: dg-12.7"
+   "adjudication": "re-read adjudication: RE-READ: Napier real WR1; ACL risk dossier-priced; middle; policy had 36"
   },
   "OL": {
-   "grade": 32,
-   "confidence": "M",
-   "v1_grade": 40,
-   "adjudication": "50/50 blend: dg-15.6"
-  },
-  "DL": {
    "grade": 36,
    "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "re-read adjudication: RE-READ: interior transfers unmatched; halve; policy had 32"
+  },
+  "DL": {
+   "grade": 40,
+   "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "50/50 blend: dg-15.8"
+   "adjudication": "re-read adjudication: RE-READ: deep-mediocre pattern (=Fresno); middle; policy had 36"
   },
   "LB": {
    "grade": 42,

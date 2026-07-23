@@ -6,20 +6,18 @@
    "confidence": "L"
   },
   "RB": {
-   "grade": 65,
+   "grade": 68,
    "confidence": "M",
    "v1_grade": 70,
-   "adjudication": "50/50 blend: dg-9.5"
+   "adjudication": "re-read adjudication: RE-READ: Moulton 78.9 value high; squeeze; halve; policy had 65"
   },
   "WRTE": {
    "grade": 42,
    "confidence": "M"
   },
   "OL": {
-   "grade": 85,
-   "confidence": "M",
-   "v1_grade": 87,
-   "adjudication": "50/50 blend: dg-9.7; info 0.17 \u2014 blend halved"
+   "grade": 87,
+   "confidence": "M"
   },
   "DL": {
    "grade": 48,

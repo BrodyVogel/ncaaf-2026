@@ -5,17 +5,17 @@
    "grade": 63,
    "confidence": "M",
    "v1_grade": 60,
-   "adjudication": "50/50 blend: dg+11.5; info 0.18 \u2014 blend halved"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "RB": {
    "grade": 60,
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 47,
+   "grade": 49,
    "confidence": "M",
    "v1_grade": 52,
-   "adjudication": "50/50 blend: dg-10.8"
+   "adjudication": "re-read adjudication: RE-READ: mixed real values; middle; policy had 47"
   },
   "OL": {
    "grade": 42,
@@ -25,7 +25,7 @@
    "grade": 61,
    "confidence": "M",
    "v1_grade": 56,
-   "adjudication": "50/50 blend: dg+10.7"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "LB": {
    "grade": 60,

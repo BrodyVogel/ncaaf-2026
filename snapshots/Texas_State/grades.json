@@ -2,28 +2,28 @@
  "team": "Texas State",
  "units": {
   "QB": {
-   "grade": 50,
+   "grade": 55,
    "confidence": "M",
    "v1_grade": 58,
-   "adjudication": "50/50 blend: dg-16.9"
+   "adjudication": "re-read adjudication: RE-READ: Jackson 74.9 elite value; offset-axis distortion; light split; policy had 50"
   },
   "RB": {
-   "grade": 40,
+   "grade": 44,
    "confidence": "M",
    "v1_grade": 46,
-   "adjudication": "50/50 blend: dg-13.0"
+   "adjudication": "re-read adjudication: RE-READ: Burrell 79.6 value; cell artifact family; revert; policy had 40"
   },
   "WRTE": {
-   "grade": 46,
+   "grade": 52,
    "confidence": "M",
    "v1_grade": 54,
-   "adjudication": "50/50 blend: dg-18.7"
+   "adjudication": "re-read adjudication: RE-READ: both 1000-yd WRs values 70-74 HIGH; axis distortion; revert; policy had 46"
   },
   "OL": {
    "grade": 41,
    "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-13.3 vs full -14.3); sweep had 40"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "DL": {
    "grade": 30,

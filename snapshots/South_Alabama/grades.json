@@ -2,38 +2,38 @@
  "team": "South Alabama",
  "units": {
   "QB": {
-   "grade": 41,
+   "grade": 43,
    "confidence": "M",
    "v1_grade": 46,
-   "adjudication": "50/50 blend: dg-9.9"
+   "adjudication": "re-read adjudication: RE-READ: proven full-season starter; halve; policy had 41"
   },
   "RB": {
    "grade": 59,
    "confidence": "M",
    "v1_grade": 52,
-   "adjudication": "50/50 blend: dg+13.9"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "WRTE": {
    "grade": 42,
    "confidence": "M"
   },
   "OL": {
-   "grade": 33,
+   "grade": 36,
    "confidence": "M",
    "v1_grade": 38,
-   "adjudication": "50/50 blend: dg-9.7"
+   "adjudication": "re-read adjudication: RE-READ: solo-matched; halve; policy had 33"
   },
   "DL": {
    "grade": 35,
    "confidence": "M",
    "v1_grade": 38,
-   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-6.0 vs full -9.1); sweep had 33"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "LB": {
    "grade": 46,
    "confidence": "M",
    "v1_grade": 42,
-   "adjudication": "LB 0.4 blend: dg+10.4"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "DB": {
    "grade": 51,

@@ -2,26 +2,26 @@
  "team": "Maryland",
  "units": {
   "QB": {
-   "grade": 54,
+   "grade": 56,
    "confidence": "M",
    "v1_grade": 60,
-   "adjudication": "50/50 blend: dg-12.5"
+   "adjudication": "re-read adjudication: RE-READ: consistency with Michigan-Underwood verdict (same tape zone, same y2 logic); policy had 54"
   },
   "RB": {
-   "grade": 43,
+   "grade": 41,
    "confidence": "M",
    "v1_grade": 38,
-   "adjudication": "50/50 blend: dg+10.8"
+   "adjudication": "re-read adjudication: RE-READ: prior-dominated (+); trim; policy had 43"
   },
   "WRTE": {
    "grade": 40,
    "confidence": "M"
   },
   "OL": {
-   "grade": 45,
+   "grade": 43,
    "confidence": "M",
    "v1_grade": 40,
-   "adjudication": "50/50 blend: dg+9.3"
+   "adjudication": "re-read adjudication: RE-READ: experience mass + PBLK-p81 split; middle; policy had 45"
   },
   "DL": {
    "grade": 63,

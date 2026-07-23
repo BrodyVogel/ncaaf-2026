@@ -2,10 +2,10 @@
  "team": "Florida Atlantic",
  "units": {
   "QB": {
-   "grade": 51,
+   "grade": 53,
    "confidence": "M",
    "v1_grade": 55,
-   "adjudication": "50/50 blend: dg-8.3"
+   "adjudication": "re-read adjudication: RE-READ: solo-adjacent (Devillier 26 db); trim; policy had 51"
   },
   "RB": {
    "grade": 40,
@@ -16,10 +16,10 @@
    "confidence": "M"
   },
   "OL": {
-   "grade": 39,
+   "grade": 36,
    "confidence": "M",
    "v1_grade": 33,
-   "adjudication": "50/50 blend: dg+11.3"
+   "adjudication": "re-read adjudication: RE-READ: combined-row blindness; halve; policy had 39"
   },
   "DL": {
    "grade": 28,

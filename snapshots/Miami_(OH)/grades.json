@@ -14,22 +14,22 @@
    "confidence": "M"
   },
   "OL": {
-   "grade": 23,
+   "grade": 26,
    "confidence": "M",
    "v1_grade": 30,
-   "adjudication": "50/50 blend: dg-14.0"
+   "adjudication": "re-read adjudication: RE-READ: dossier already netted honors-vs-grade tension; split; policy had 23"
   },
   "DL": {
-   "grade": 22,
+   "grade": 25,
    "confidence": "M",
    "v1_grade": 28,
-   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-12.3 vs full -13.2); sweep had 21"
+   "adjudication": "re-read adjudication: RE-READ: deep real rotation confirms mediocre-not-terrible; middle; policy had 22"
   },
   "LB": {
-   "grade": 34,
+   "grade": 37,
    "confidence": "M",
    "v1_grade": 38,
-   "adjudication": "LB 0.4 blend: dg-10.3"
+   "adjudication": "re-read adjudication: RE-READ: three 550+ honors bodies; round-bracket careful; revert -1; policy had 34"
   },
   "DB": {
    "grade": 26,

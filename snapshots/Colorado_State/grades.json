@@ -3,9 +3,9 @@
  "units": {
   "QB": {
    "grade": 27,
-   "confidence": "L",
+   "confidence": "M",
    "v1_grade": 24,
-   "adjudication": "50/50 blend: dg+10.7; info 0.16 \u2014 blend halved"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "RB": {
    "grade": 30,
@@ -22,10 +22,10 @@
    "adjudication": "blend logged; override remains operative: dg+15; NOTE team rating override-pinned at -9.0"
   },
   "DL": {
-   "grade": 21,
+   "grade": 24,
    "confidence": "M",
    "v1_grade": 26,
-   "adjudication": "50/50 blend: dg-10.4"
+   "adjudication": "re-read adjudication: RE-READ: dossier's own aggregate maps 24-30; revert to band floor; policy had 21"
   },
   "LB": {
    "grade": 24,
@@ -35,7 +35,7 @@
    "grade": 20,
    "confidence": "M",
    "v1_grade": 22,
-   "adjudication": "DB policy 1/3 blend: dg-11.6; info 0.16 \u2014 blend halved"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "ST": {
    "grade": 20,

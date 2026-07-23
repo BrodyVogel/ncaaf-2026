@@ -2,20 +2,20 @@
  "team": "UAB",
  "units": {
   "QB": {
-   "grade": 48,
+   "grade": 45,
    "confidence": "M",
    "v1_grade": 42,
-   "adjudication": "50/50 blend: dg+11.1"
+   "adjudication": "re-read adjudication: RE-READ: solo-positive flash; halve; policy had 48"
   },
   "RB": {
    "grade": 48,
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 35,
+   "grade": 37,
    "confidence": "M",
    "v1_grade": 38,
-   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-6.8 vs full -8.7); sweep had 34"
+   "adjudication": "re-read adjudication: RE-READ: P4 adds unmatched; trim; policy had 35"
   },
   "OL": {
    "grade": 45,

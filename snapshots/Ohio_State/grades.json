@@ -6,16 +6,16 @@
    "confidence": "H"
   },
   "RB": {
-   "grade": 71,
+   "grade": 74,
    "confidence": "M",
    "v1_grade": 76,
-   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-11.0 vs full -11.0); sweep had 70"
+   "adjudication": "re-read adjudication: RE-READ: Bo Jackson 81.6 top-3 value; ranks agree; squeeze; revert; policy had 71"
   },
   "WRTE": {
-   "grade": 79,
+   "grade": 82,
    "confidence": "M",
    "v1_grade": 86,
-   "adjudication": "50/50 blend: dg-14.2"
+   "adjudication": "re-read adjudication: RE-READ: partial squeeze; Tate/TE losses real; middle; policy had 79"
   },
   "OL": {
    "grade": 80,
@@ -25,7 +25,7 @@
    "grade": 71,
    "confidence": "M",
    "v1_grade": 76,
-   "adjudication": "50/50 blend: dg-10.8"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "LB": {
    "grade": 64,

@@ -6,22 +6,22 @@
    "confidence": "L"
   },
   "RB": {
-   "grade": 34,
+   "grade": 40,
    "confidence": "M",
    "v1_grade": 42,
-   "adjudication": "50/50 blend: dg-18.6"
+   "adjudication": "re-read adjudication: RE-READ: values 72-73 fine; MWC cell artifact; revert; policy had 34"
   },
   "WRTE": {
-   "grade": 36,
+   "grade": 42,
    "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "50/50 blend: dg-19.9"
+   "adjudication": "re-read adjudication: RE-READ: Freeman legit WR1; cell artifact; revert; policy had 36"
   },
   "OL": {
    "grade": 21,
    "confidence": "M",
    "v1_grade": 26,
-   "adjudication": "50/50 blend: dg-9.2"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "DL": {
    "grade": 30,
@@ -29,9 +29,9 @@
   },
   "LB": {
    "grade": 25,
-   "confidence": "L",
+   "confidence": "M",
    "v1_grade": 28,
-   "adjudication": "LB 0.4 blend: dg-8.2"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "DB": {
    "grade": 32,

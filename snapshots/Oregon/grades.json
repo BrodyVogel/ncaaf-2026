@@ -6,10 +6,10 @@
    "confidence": "H"
   },
   "RB": {
-   "grade": 76,
+   "grade": 78,
    "confidence": "M",
    "v1_grade": 80,
-   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-8.8 vs full -9.2); sweep had 75"
+   "adjudication": "re-read adjudication: RE-READ: phenom values 80-81 but 187 combined att; middle; policy had 76"
   },
   "WRTE": {
    "grade": 80,
@@ -20,10 +20,10 @@
    "confidence": "M"
   },
   "DL": {
-   "grade": 82,
+   "grade": 88,
    "confidence": "M",
    "v1_grade": 90,
-   "adjudication": "50/50 blend: dg-17.4"
+   "adjudication": "re-read adjudication: RE-READ: ceiling-squeeze; four 70-78 shrunk values CONFIRM elite; -2 for portaled depth; policy had 82"
   },
   "LB": {
    "grade": 66,
@@ -33,7 +33,7 @@
    "grade": 73,
    "confidence": "M",
    "v1_grade": 74,
-   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-8.0 vs full -9.3); sweep had 72"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "ST": {
    "grade": 62,

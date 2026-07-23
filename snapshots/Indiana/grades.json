@@ -2,10 +2,10 @@
  "team": "Indiana",
  "units": {
   "QB": {
-   "grade": 77,
+   "grade": 74,
    "confidence": "M",
    "v1_grade": 70,
-   "adjudication": "50/50 blend: dg+14.3"
+   "adjudication": "re-read adjudication: RE-READ: solo-positive aggregation inflation; halve (Duke precedent); policy had 77"
   },
   "RB": {
    "grade": 62,
@@ -24,10 +24,10 @@
    "confidence": "M"
   },
   "LB": {
-   "grade": 73,
+   "grade": 75,
    "confidence": "M",
    "v1_grade": 77,
-   "adjudication": "LB 0.4 blend: dg-10.0"
+   "adjudication": "re-read adjudication: RE-READ: squeeze + LB-least-reliable; Fisher read-loss keeps -2; policy had 73"
   },
   "DB": {
    "grade": 72,

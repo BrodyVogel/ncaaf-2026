@@ -9,13 +9,11 @@
    "grade": 48,
    "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "50/50 blend: dg+15.9; info 0.18 \u2014 blend halved"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "WRTE": {
-   "grade": 41,
-   "confidence": "M",
-   "v1_grade": 44,
-   "adjudication": "50/50 blend: dg-12.0; info 0.14 \u2014 blend halved"
+   "grade": 44,
+   "confidence": "M"
   },
   "OL": {
    "grade": 40,

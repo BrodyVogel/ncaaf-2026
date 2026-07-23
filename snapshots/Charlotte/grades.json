@@ -18,10 +18,10 @@
    "confidence": "L"
   },
   "DL": {
-   "grade": 21,
+   "grade": 18,
    "confidence": "M",
    "v1_grade": 14,
-   "adjudication": "50/50 blend: dg+13.1"
+   "adjudication": "re-read adjudication: RE-READ: floor-squeeze discount; matched tape says low-not-14; policy had 21"
   },
   "LB": {
    "grade": 30,
@@ -29,9 +29,9 @@
   },
   "DB": {
    "grade": 22,
-   "confidence": "L",
+   "confidence": "M",
    "v1_grade": 20,
-   "adjudication": "DB policy 1/3 blend: dg+11.5; info 0.10 \u2014 blend halved"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "ST": {
    "grade": 22,

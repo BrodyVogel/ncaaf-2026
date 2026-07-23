@@ -8,32 +8,30 @@
    "adjudication": "split; dossier already flagged optimism: dg-10"
   },
   "RB": {
-   "grade": 27,
+   "grade": 30,
    "confidence": "M",
    "v1_grade": 32,
-   "adjudication": "50/50 blend: dg-10.8"
+   "adjudication": "re-read adjudication: RE-READ: thin evidence (51/18 att); halve; policy had 27"
   },
   "WRTE": {
-   "grade": 27,
-   "confidence": "L",
-   "v1_grade": 30,
-   "adjudication": "50/50 blend: dg-11.9; info 0.16 \u2014 blend halved"
+   "grade": 30,
+   "confidence": "L"
   },
   "OL": {
    "grade": 24,
    "confidence": "L"
   },
   "DL": {
-   "grade": 37,
+   "grade": 39,
    "confidence": "M",
    "v1_grade": 42,
-   "adjudication": "50/50 blend: dg-9.3"
+   "adjudication": "re-read adjudication: RE-READ: Hickle 72.9 stud vs thin behind; middle; policy had 37"
   },
   "LB": {
-   "grade": 41,
+   "grade": 42,
    "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "LB 0.4 blend: dg-14.6; info 0.18 \u2014 blend halved"
+   "adjudication": "re-read adjudication: RE-READ: Sullivan 73.0 value high; support-drag priced by dossier; split; policy had 41"
   },
   "DB": {
    "grade": 38,

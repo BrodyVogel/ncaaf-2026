@@ -1148,3 +1148,259 @@ UAB,WRTE,38,AMENDED (dual-aggregation robustness): starter view smaller (-6.8 vs
 UNLV,RB,30,AMENDED (dual-aggregation robustness): starter view smaller (+8.1 vs full +10.4); sweep had 35,34,M,reconciliation pass
 USC,DL,72,AMENDED (dual-aggregation robustness): starter view smaller (-9.9 vs full -11.3); sweep had 66,67,M,reconciliation pass
 Wisconsin,RB,58,AMENDED (dual-aggregation robustness): starter view smaller (-6.8 vs full -8.5); sweep had 54,55,M,reconciliation pass
+Air Force,DB,18,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,15,M,re-read confirm
+Air Force,DL,14,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,17,M,re-read confirm
+Air Force,QB,32,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,34,M,re-read confirm
+Akron,QB,34,RE-READ: info 0.12 prior-noise; hold dossier; policy had 32,34,M,re-read adjudication
+Alabama,DB,76,RE-READ: elite-tail compression; H multi-source dossier; light -1; policy had 73,75,M,re-read adjudication
+App State,LB,54,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,58,M,re-read confirm
+App State,OL,40,RE-READ: injury-return blind spot; trim blend; policy had 46,44,M,re-read adjudication
+App State,QB,40,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,43,M,re-read confirm
+Arizona,DL,48,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,45,M,re-read confirm
+Arizona,QB,88,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,84,M,re-read confirm
+Arizona,RB,55,RE-READ: all-thin samples (64-89 att); trim; policy had 49,52,M,re-read adjudication
+Arkansas,QB,42,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,44,M,re-read confirm
+Arkansas State,DB,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,36,M,re-read confirm
+Arkansas State,DL,40,RE-READ: Parker (FCS headliner) unmatched + info 0.12; hold; policy had 37,40,M,re-read adjudication
+Arkansas State,OL,54,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,62,M,re-read confirm
+Arkansas State,RB,52,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,49,M,re-read confirm
+Army,DB,22,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,23,M,re-read confirm
+Army,OL,84,RE-READ: ceiling-squeeze + ranks agree; Jeffcoat loss keeps -3; policy had 79,81,M,re-read adjudication
+Auburn,DL,54,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,59,M,re-read confirm
+BYU,OL,68,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,62,M,re-read confirm
+BYU,RB,82,RE-READ: ceiling-squeeze (dossier 82 cannot show cell mean gap); ranks agree; -2 sample; policy had 76,80,M,re-read adjudication
+Ball State,WRTE,12,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,14,M,re-read confirm
+Baylor,RB,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,48,M,re-read confirm
+Baylor,WRTE,44,RE-READ: formula blind to transfer haul (combined rows); hold; policy had 41,44,M,re-read adjudication
+Boise State,DB,46,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,45,M,re-read confirm
+Boise State,DL,50,RE-READ: JVM DPOY-candidate + deep rotation vs cell-relative signal; half revert; policy had 42,46,M,re-read adjudication
+Boise State,RB,50,RE-READ: formula values 77-81 HIGH; MWC RB cell artifact; revert; policy had 44,49,M,re-read adjudication
+Boston College,RB,50,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,55,M,re-read confirm
+California,RB,46,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,51,M,re-read confirm
+Central Michigan,OL,28,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,23,M,re-read confirm
+Central Michigan,RB,28,RE-READ: thin formula (47-82 att); split; policy had 25,27,M,re-read adjudication
+Charlotte,DB,20,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,22,M,re-read confirm
+Charlotte,DL,14,RE-READ: floor-squeeze discount; matched tape says low-not-14; policy had 21,18,M,re-read adjudication
+Cincinnati,DB,45,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,48,M,re-read confirm
+Cincinnati,OL,76,RE-READ: partial squeeze + real openings; middle; policy had 68,71,M,re-read adjudication
+Cincinnati,QB,44,RE-READ: French 65.4/476 mediocre two-level jump; dossier already skeptical; middle; policy had 37,40,M,re-read adjudication
+Clemson,QB,48,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,40,M,re-read confirm
+Coastal Carolina,DB,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,44,M,re-read confirm
+Coastal Carolina,DL,48,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,55,M,re-read confirm
+Coastal Carolina,LB,50,RE-READ: Pulliam (P4 transfer) unmatched; trim; policy had 45,47,M,re-read adjudication
+Colorado,DB,47,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,46,M,re-read confirm
+Colorado,DL,55,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,57,M,re-read confirm
+Colorado,QB,45,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,49,M,re-read confirm
+Colorado State,DB,22,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,20,M,re-read confirm
+Colorado State,DL,26,RE-READ: dossier's own aggregate maps 24-30; revert to band floor; policy had 21,24,M,re-read adjudication
+Colorado State,QB,24,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,27,M,re-read confirm
+Delaware,DB,46,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,51,M,re-read confirm
+Delaware,DL,44,RE-READ: solo-matched (Brogna); halve; policy had 49,46,M,re-read adjudication
+Delaware,WRTE,50,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,58,M,re-read confirm
+Duke,QB,50,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,46,M,re-read confirm
+Duke,RB,62,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,67,M,re-read confirm
+Duke,WRTE,48,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,52,M,re-read confirm
+Eastern Michigan,DB,28,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,26,M,re-read confirm
+Eastern Michigan,QB,40,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,38,M,re-read confirm
+Eastern Michigan,WRTE,34,RE-READ: careful round-bracket + mean-ish tape; light blend only; policy had 29,32,M,re-read adjudication
+Florida,LB,56,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,56,M,re-read confirm
+Florida Atlantic,OL,33,RE-READ: combined-row blindness; halve; policy had 39,36,M,re-read adjudication
+Florida Atlantic,QB,55,RE-READ: solo-adjacent (Devillier 26 db); trim; policy had 51,53,M,re-read adjudication
+Florida International,DL,46,RE-READ: Anderson 80.0 flash + edge-duo story; middle; policy had 40,43,M,re-read adjudication
+Florida International,RB,42,RE-READ: thin evidence (105/37 att); halve; policy had 37,40,M,re-read adjudication
+Florida State,WRTE,58,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,63,M,re-read confirm
+Fresno State,DB,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,43,M,re-read confirm
+Fresno State,DL,44,RE-READ: deep mediocre tape real but PS corroborates depth; middle; policy had 36,40,M,re-read adjudication
+Fresno State,LB,40,RE-READ: moderate info; stale cross-ref in dossier bracket; split; policy had 33,36,M,re-read adjudication
+Fresno State,OL,40,RE-READ: team PBLK p87 pedigree = unit-level blind spot; halve; policy had 32,36,M,re-read adjudication
+Fresno State,RB,46,RE-READ: Luke 78.9 value top-20; MWC RB cell artifact; split; policy had 41,43,M,re-read adjudication
+Fresno State,WRTE,38,RE-READ: dossier's own band floor p34; respect it; policy had 31,35,M,re-read adjudication
+Georgia,DL,58,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,54,M,re-read confirm
+Georgia,QB,70,RE-READ: SEC QB ceiling-squeeze (cell mean +35); Stockton 81.1/458; revert -2; policy had 66,68,M,re-read adjudication
+Georgia Southern,DB,42,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,39,M,re-read confirm
+Georgia Southern,DL,42,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,50,M,re-read confirm
+Georgia Southern,LB,40,RE-READ: solo-matched (Tyson); halve; policy had 36,38,M,re-read adjudication
+Georgia Southern,QB,46,RE-READ: Johnson 51.8/94 decline real but journeyman floor priced; split; policy had 38,42,M,re-read adjudication
+Georgia State,DL,40,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,32,M,re-read confirm
+Georgia State,OL,40,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,32,M,re-read confirm
+Georgia State,WRTE,42,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,37,M,re-read confirm
+Georgia Tech,WRTE,38,RE-READ: above dossier's own band; trim to band edge; policy had 43,41,M,re-read adjudication
+Hawai'i,RB,14,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,19,M,re-read confirm
+Houston,QB,62,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,65,M,re-read confirm
+Houston,WRTE,58,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,62,M,re-read confirm
+Indiana,LB,77,RE-READ: squeeze + LB-least-reliable; Fisher read-loss keeps -2; policy had 73,75,M,re-read adjudication
+Indiana,QB,70,RE-READ: solo-positive aggregation inflation; halve (Duke precedent); policy had 77,74,M,re-read adjudication
+Iowa,OL,87,RE-READ: ceiling-squeeze; Lauck 84.8 + Pieper 83.5 CONFIRM elite; full revert; policy had 85,87,M,re-read adjudication
+Iowa,RB,70,RE-READ: Moulton 78.9 value high; squeeze; halve; policy had 65,68,M,re-read adjudication
+Jacksonville State,DL,42,RE-READ: lost top-2 rushers + unmatched depth; trim; policy had 50,47,M,re-read adjudication
+Jacksonville State,QB,52,RE-READ: NAME COLLISION (CSU DL Jack Moran matched as QB2); solo-real Creel; hold; policy had 51,52,M,re-read adjudication
+Jacksonville State,WRTE,46,RE-READ: transfer blindness; halve; policy had 38,42,M,re-read adjudication
+James Madison,DL,46,RE-READ: solo-matched (Amar Thomas); halve; policy had 54,50,M,re-read adjudication
+James Madison,OL,44,RE-READ: solo-matched (Greenberg); halve; policy had 50,47,M,re-read adjudication
+Kansas State,OL,44,RE-READ: partial blind (combined transfer rows) + look-through Fitzpatrick; halve; policy had 49,47,M,re-read adjudication
+Kansas State,QB,60,RE-READ: solo-positive; halve; policy had 65,63,M,re-read adjudication
+Kansas State,RB,52,RE-READ: Fields 75.4/156 in combined UNMATCHED row (Tulane pattern); halve; policy had 44,48,M,re-read adjudication
+Kent State,DB,18,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,17,M,re-read confirm
+LSU,LB,54,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,50,M,re-read confirm
+Louisiana,DL,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,36,M,re-read confirm
+Louisiana,QB,48,RE-READ: dual-threat run value invisible to passing-facet formula; halve; policy had 40,44,M,re-read adjudication
+Louisiana,WRTE,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,49,M,re-read confirm
+Louisiana Tech,LB,46,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,50,M,re-read confirm
+Louisiana Tech,WRTE,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,50,M,re-read confirm
+Louisville,WRTE,48,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,53,M,re-read confirm
+Marshall,DB,42,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,46,M,re-read confirm
+Marshall,DL,40,RE-READ: solo-real (Ward); halve; policy had 47,44,M,re-read adjudication
+Maryland,OL,40,RE-READ: experience mass + PBLK-p81 split; middle; policy had 45,43,M,re-read adjudication
+Maryland,QB,60,"RE-READ: consistency with Michigan-Underwood verdict (same tape zone, same y2 logic); policy had 54",56,M,re-read adjudication
+Maryland,RB,38,RE-READ: prior-dominated (+); trim; policy had 43,41,M,re-read adjudication
+Massachusetts,RB,10,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,12,M,re-read confirm
+Memphis,LB,30,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,34,M,re-read confirm
+Miami,QB,70,RE-READ: solo-positive (Nickel 1 snap); halve; policy had 74,72,M,re-read adjudication
+Miami (OH),DL,28,RE-READ: deep real rotation confirms mediocre-not-terrible; middle; policy had 22,25,M,re-read adjudication
+Miami (OH),LB,38,RE-READ: three 550+ honors bodies; round-bracket careful; revert -1; policy had 34,37,M,re-read adjudication
+Miami (OH),OL,30,RE-READ: dossier already netted honors-vs-grade tension; split; policy had 23,26,M,re-read adjudication
+Michigan,LB,42,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,45,M,re-read confirm
+Michigan,QB,60,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,56,M,re-read confirm
+Michigan State,DB,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,46,M,re-read confirm
+Michigan State,DL,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,49,M,re-read confirm
+Michigan State,RB,48,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,53,M,re-read confirm
+Middle Tennessee,DB,42,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,39,M,re-read confirm
+Middle Tennessee,LB,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,48,M,re-read confirm
+Middle Tennessee,OL,30,RE-READ: floor-squeeze positive on near-zero info; halve; policy had 34,32,M,re-read adjudication
+Middle Tennessee,QB,50,RE-READ: solo-positive flash (161 snaps); halve; policy had 57,54,M,re-read adjudication
+Mississippi State,OL,44,RE-READ: transfer-heavy unproven; trim; policy had 48,46,M,re-read adjudication
+Missouri,DB,50,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,47,M,re-read confirm
+Missouri,DL,48,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,53,M,re-read confirm
+Missouri,LB,54,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,57,M,re-read confirm
+Missouri State,DB,42,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,39,M,re-read confirm
+Missouri State,QB,42,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,45,M,re-read confirm
+Missouri State,RB,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,48,M,re-read confirm
+Navy,DB,32,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,30,M,re-read confirm
+Navy,OL,48,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,45,M,re-read confirm
+Nebraska,RB,40,RE-READ: three consistent flashes = weak-but-real; middle; policy had 44,42,M,re-read adjudication
+Nevada,DB,18,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,20,M,re-read confirm
+Nevada,DL,26,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,34,M,re-read confirm
+Nevada,LB,12,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,14,M,re-read confirm
+New Mexico,DL,22,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,28,M,re-read confirm
+New Mexico,LB,44,RE-READ: Eck DPOY 83.0/759 + Swaim: values corroborate; cell artifact; full revert; policy had 41,44,M,re-read adjudication
+New Mexico State,DL,40,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,40,M,re-read confirm
+New Mexico State,WRTE,42,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,47,M,re-read confirm
+North Texas,DL,15,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,13,M,re-read confirm
+North Texas,OL,35,RE-READ: blind to most of new line; trim; policy had 41,38,M,re-read adjudication
+North Texas,WRTE,38,RE-READ: info 0.11 one thin tape; trim; policy had 42,40,M,re-read adjudication
+Northern Illinois,OL,12,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,16,M,re-read confirm
+Northern Illinois,RB,12,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,15,M,re-read confirm
+Northern Illinois,WRTE,16,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,20,M,re-read confirm
+Ohio State,DL,76,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,71,M,re-read confirm
+Ohio State,RB,76,RE-READ: Bo Jackson 81.6 top-3 value; ranks agree; squeeze; revert; policy had 71,74,M,re-read adjudication
+Ohio State,WRTE,86,RE-READ: partial squeeze; Tate/TE losses real; middle; policy had 79,82,M,re-read adjudication
+Oklahoma,QB,62,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,54,M,re-read confirm
+Oklahoma State,RB,60,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,67,M,re-read confirm
+Oklahoma State,WRTE,55,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,62,M,re-read confirm
+Old Dominion,DB,54,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,58,M,re-read confirm
+Old Dominion,DL,42,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,36,M,re-read confirm
+Old Dominion,LB,48,RE-READ: solo-positive (Forrest); halve; policy had 52,50,M,re-read adjudication
+Old Dominion,OL,40,"RE-READ: info 0.15, blind to 5 new starters; near-hold; policy had 37",39,M,re-read adjudication
+Old Dominion,WRTE,40,RE-READ: thin evidence; trim; policy had 36,38,M,re-read adjudication
+Oregon,DB,74,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,73,M,re-read confirm
+Oregon,DL,90,RE-READ: ceiling-squeeze; four 70-78 shrunk values CONFIRM elite; -2 for portaled depth; policy had 82,88,M,re-read adjudication
+Oregon,RB,80,RE-READ: phenom values 80-81 but 187 combined att; middle; policy had 76,78,M,re-read adjudication
+Oregon State,DL,42,RE-READ: Hickle 72.9 stud vs thin behind; middle; policy had 37,39,M,re-read adjudication
+Oregon State,LB,44,RE-READ: Sullivan 73.0 value high; support-drag priced by dossier; split; policy had 41,42,M,re-read adjudication
+Oregon State,RB,32,RE-READ: thin evidence (51/18 att); halve; policy had 27,30,M,re-read adjudication
+Oregon State,WRTE,30,RE-READ: formula blind to Butler/Durant/Noland (the corrected reload); hold; policy had 27,30,M,re-read adjudication
+Penn State,QB,74,RE-READ: Becht 75.4 value top-12 = rank agreement with dossier 74; revert -2; policy had 66,72,M,re-read adjudication
+Penn State,RB,68,RE-READ: modest samples; middle; policy had 62,65,M,re-read adjudication
+Purdue,DB,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,46,M,re-read confirm
+Purdue,QB,44,RE-READ: solo-positive (tape-vs-results split); halve; policy had 48,46,M,re-read adjudication
+Rice,RB,48,RE-READ: mid tape; AAC cell-relative; halve; policy had 40,44,M,re-read adjudication
+Rutgers,DL,54,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,61,M,re-read confirm
+Rutgers,QB,52,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,55,M,re-read confirm
+Rutgers,WRTE,60,RE-READ: alpha-shape aggregate blind spot (Duff 77.1); exemplar logic sound; revert -2; policy had 56,58,M,re-read adjudication
+SMU,QB,62,RE-READ: solo-positive; halve; within dossier's own band; policy had 67,64,M,re-read adjudication
+Sacramento State,WRTE,10,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,12,M,re-read confirm
+San Diego State,DL,44,RE-READ: deep-mediocre pattern (=Fresno); middle; policy had 36,40,M,re-read adjudication
+San Diego State,OL,40,RE-READ: interior transfers unmatched; halve; policy had 32,36,M,re-read adjudication
+San Diego State,RB,52,RE-READ: Sutton 81.6 elite value; MWC RB cell artifact; revert; policy had 44,50,M,re-read adjudication
+San Diego State,WRTE,42,RE-READ: Napier real WR1; ACL risk dossier-priced; middle; policy had 36,39,M,re-read adjudication
+San José State,OL,14,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,16,M,re-read confirm
+San José State,WRTE,16,RE-READ: near-zero tape; system premium already in dossier; trim; policy had 19,17,M,re-read adjudication
+South Alabama,DL,38,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,35,M,re-read confirm
+South Alabama,LB,42,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,46,M,re-read confirm
+South Alabama,OL,38,RE-READ: solo-matched; halve; policy had 33,36,M,re-read adjudication
+South Alabama,QB,46,RE-READ: proven full-season starter; halve; policy had 41,43,M,re-read adjudication
+South Alabama,RB,52,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,59,M,re-read confirm
+South Florida,DB,30,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,33,M,re-read confirm
+South Florida,DL,35,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,38,M,re-read confirm
+South Florida,RB,38,RE-READ: FCS pair unmatched — blind; hold; policy had 36,38,M,re-read adjudication
+South Florida,WRTE,48,RE-READ: P4 quartet unmatched + Hartline brand; halve; policy had 42,45,M,re-read adjudication
+Southern Miss,LB,40,RE-READ: solo-matched bad tape; halve; policy had 33,36,M,re-read adjudication
+Southern Miss,OL,40,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,43,M,re-read confirm
+Stanford,QB,42,"RE-READ: SOLO+STALE24 (2024 tape, off ACL); quarter blend only; policy had 49",44,M,re-read adjudication
+Stanford,WRTE,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,45,M,re-read confirm
+Syracuse,QB,52,RE-READ: Angeli+Odom values 71-73 GOOD; dg suspect; Achilles risk keeps -4; policy had 44,48,M,re-read adjudication
+TCU,RB,52,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,56,M,re-read confirm
+TCU,WRTE,50,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,51,M,re-read confirm
+Temple,DL,15,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,13,M,re-read confirm
+Temple,RB,40,RE-READ: info 0.10 (28 att); trim; policy had 43,41,M,re-read adjudication
+Temple,WRTE,55,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,62,M,re-read confirm
+Tennessee,DB,54,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,57,M,re-read confirm
+Tennessee,LB,58,RE-READ: LB least reliable + real continuity; halve; policy had 53,56,M,re-read adjudication
+Texas,DL,62,"RE-READ: FORMULA VOID: Colin Simmons (All-SEC, 12 sk) + Kanu + Terry not in matched set; hold dossier; policy had 54",62,M,re-read adjudication
+Texas A&M,LB,52,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,57,M,re-read confirm
+Texas A&M,QB,58,RE-READ: dual-threat run value invisible; halve; policy had 53,56,M,re-read adjudication
+Texas State,OL,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,41,M,re-read confirm
+Texas State,QB,58,RE-READ: Jackson 74.9 elite value; offset-axis distortion; light split; policy had 50,55,M,re-read adjudication
+Texas State,RB,46,RE-READ: Burrell 79.6 value; cell artifact family; revert; policy had 40,44,M,re-read adjudication
+Texas State,WRTE,54,RE-READ: both 1000-yd WRs values 70-74 HIGH; axis distortion; revert; policy had 46,52,M,re-read adjudication
+Texas Tech,DL,65,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,73,M,re-read confirm
+Troy,DB,44,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,36,M,re-read confirm
+Troy,RB,42,RE-READ: thin + JUCO unmatched; halve; policy had 38,40,M,re-read adjudication
+Tulane,LB,28,RE-READ: tape says low but S.Ala transfer unmatched; trim; policy had 22,25,M,re-read adjudication
+Tulane,RB,58,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,54,M,re-read confirm
+UAB,QB,42,RE-READ: solo-positive flash; halve; policy had 48,45,M,re-read adjudication
+UAB,WRTE,38,RE-READ: P4 adds unmatched; trim; policy had 35,37,M,re-read adjudication
+UCLA,DL,56,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,61,M,re-read confirm
+UCLA,QB,60,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,63,M,re-read confirm
+UCLA,WRTE,52,RE-READ: mixed real values; middle; policy had 47,49,M,re-read adjudication
+UNLV,DL,18,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,22,M,re-read confirm
+UNLV,LB,16,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,18,M,re-read confirm
+UNLV,RB,30,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,34,M,re-read confirm
+USC,DB,68,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,67,M,re-read confirm
+USC,DL,72,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,67,M,re-read confirm
+USC,LB,66,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,62,M,re-read confirm
+UTEP,DB,14,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,16,M,re-read confirm
+UTEP,LB,14,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,17,M,re-read confirm
+UTEP,RB,12,RE-READ: one 39-att signal; trim; policy had 16,14,M,re-read adjudication
+UTEP,WRTE,12,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,14,M,re-read confirm
+UTSA,OL,30,RE-READ: combined-row blindness (Marshall 66.3/631 invisible); halve; policy had 22,26,M,re-read adjudication
+UTSA,RB,58,RE-READ: solo-positive breakout; halve; policy had 63,61,M,re-read adjudication
+UTSA,WRTE,48,RE-READ: real duo; middle; policy had 54,51,M,re-read adjudication
+Utah,DB,58,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,56,M,re-read confirm
+Utah State,DL,36,RE-READ: deep-mediocre pattern; middle; policy had 28,32,M,re-read adjudication
+Utah State,LB,36,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,32,M,re-read confirm
+Utah State,OL,36,RE-READ: mixed full-volume (Liston 65.0 good); middle; policy had 29,32,M,re-read adjudication
+Utah State,RB,40,RE-READ: volume-facet mismatch (spine 65 vs 202 att); thin info; halve; policy had 32,36,M,re-read adjudication
+Vanderbilt,QB,46,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,48,M,re-read confirm
+Vanderbilt,WRTE,50,RE-READ: real transfers but Stowers/Pavia context; trim; policy had 56,54,M,re-read adjudication
+Virginia,QB,52,"RE-READ: formula's proper shrink vs dossier's ad-hoc down-weight; keep most, -2 for part-time sample; policy had 58",56,M,re-read adjudication
+Virginia Tech,OL,42,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,38,M,re-read confirm
+Virginia Tech,WRTE,50,RE-READ: dossier's own top-3 math said p50-58; split; policy had 42,46,M,re-read adjudication
+Wake Forest,QB,54,RE-READ: solo-positive; halve; policy had 58,56,M,re-read adjudication
+Wake Forest,WRTE,46,RE-READ: real mediocre volume vs pedigree; middle; policy had 38,42,M,re-read adjudication
+Washington,LB,72,RE-READ: offset-carried flagged BY dossier; strongest print consensus; middle; policy had 67,69,M,re-read adjudication
+Washington,QB,74,RE-READ: D.Williams 74.9 + elite run value invisible; halve; policy had 69,72,M,re-read adjudication
+Washington State,LB,28,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,25,M,re-read confirm
+Washington State,OL,26,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,21,M,re-read confirm
+Washington State,RB,42,RE-READ: values 72-73 fine; MWC cell artifact; revert; policy had 34,40,M,re-read adjudication
+Washington State,WRTE,44,RE-READ: Freeman legit WR1; cell artifact; revert; policy had 36,42,M,re-read adjudication
+Western Kentucky,DL,44,RE-READ: yr4-return duo unmatched; middle; policy had 36,40,M,re-read adjudication
+Western Kentucky,WRTE,48,RE-READ: dossier band p46-50 + Henry loss; middle; policy had 55,52,M,re-read adjudication
+Western Michigan,DL,18,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,21,M,re-read confirm
+Western Michigan,OL,28,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,26,M,re-read confirm
+Western Michigan,QB,46,RE-READ: Lowry 80.1 ELITE value; FR-drag + axis artifact; revert to -2; policy had 38,44,M,re-read adjudication
+Wisconsin,LB,74,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,71,M,re-read confirm
+Wisconsin,QB,62,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,57,M,re-read confirm
+Wisconsin,RB,58,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,55,M,re-read confirm
+Wyoming,LB,16,RE-READ: dossier+formula evidence reviewed; policy verdict confirmed,19,M,re-read confirm
+Wyoming,RB,18,RE-READ: thin-ish; tiny trim; policy had 23,22,M,re-read adjudication

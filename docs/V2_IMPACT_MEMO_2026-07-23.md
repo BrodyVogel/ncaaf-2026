@@ -147,3 +147,52 @@ bets re-priced: no verdict changes; Florida conf U4.5 gives back ~0.3pp (its LB 
 reverted); UCF conf O3.5 still THIN (mm +1.7%) — hold, no add. Final grade-change count
 vs v1: **299 units across 138 teams**, every one carrying either two-view formula
 agreement, a logged blend with robustness confirmation, or a hand adjudication.
+
+---
+
+## Addendum 2 — sensitivity bound + per-case re-read (v2.2, same day)
+
+**Sensitivity bound (the soft constants are decision-irrelevant).** The board was rebuilt
+with every rule-set blend at 0× (reverted to dossier) and at 2× (double weight, cap ±16),
+and all 14 bets re-priced at both extremes. No bet flips on the min-lens edge anywhere in
+the bracket; 13 of 14 stay ≥ +4.5% at every point. UCF's thinness (+1.9…+2.2%) persists
+even at 0× — it comes from the hand-adjudicated QB verdict and the market, not the blend
+constants. The ⅓/0.4/0.5 weights and ±8 cap can therefore not change any decision we act
+on, which retires their unvalidatability as a practical concern.
+
+**Per-case re-read (all 256 blends, every verdict logged).** Each blended unit got a
+read of its full dossier rationale, per-player formula math, and the *reason* for the
+disagreement. 136 policy verdicts confirmed; **120 adjusted** (mean adjustment ~2.8
+grade pts), overwhelmingly back toward the dossier. What the re-read found that no
+script had:
+
+- **Ceiling-squeeze bias**: cell-mean demeaning breaks near the grade tails — a
+  dossier-90 unit mechanically cannot show its cell's typical +15 gap, producing
+  spurious negative dg. Corrected by rank-agreement checks: Oregon DL 82→88, Iowa OL
+  85→87, Ohio State RB→74/WRTE→82, BYU RB→80, Penn State QB 66→72, Georgia QB→68.
+- **Offset-axis distortion for elite G5 skill units**: MWC/SBC RB-WRTE values compared
+  on a P4-offset axis read spuriously low despite elite raw values — SDSU RB 44→50,
+  Texas State WRTE 46→52 (the only FBS team returning two 1,000-yd receivers),
+  Washington State RB/WRTE, Western Michigan QB 38→44 (Lowry, MAC OPOY, 80.1 value).
+- **Formula-void cases**: Texas DL held at 62 — Colin Simmons (All-SEC, 12 sacks) was
+  absent from the matched set entirely; Jacksonville State QB fixed a name-collision
+  (CSU's DL Jack Moran had matched as the QB2); Oregon State WRTE held — the formula
+  never saw the corrected Butler/Durant reload.
+- **Dual-threat blind spot**: the QB formula is the passing facet only; run value is
+  invisible. Blends halved for running QBs (Louisiana, A&M, Washington QBs).
+- **Solo/positive aggregation inflation** (Duke-precedent, symmetric): Indiana QB
+  77→74, Miami QB 74→72, KSU QB, SMU QB, UAB QB, UTSA RB and peers halved.
+- Confirms where evidence was real: Nevada DL 34 (LaBarbera), Rutgers DL 61 (three
+  all-league transfer tapes), Texas Tech DL 73, Oklahoma QB 54 (the S2-D-B validated
+  hampered-tape read), Arkansas State OL 62, Clemson QB 40.
+
+**Net effect v2.1 → v2.2**: mean |Δfinal| 0.114 (top movers Oregon +0.67, Texas +0.54);
+stretch 1.1557; SD 13.12; census asserts pass; R² unchanged. All 14 bets re-verified —
+no verdict changes; UCF conf O3.5 remains the lone THIN (mm +1.2%, hold/no add).
+Adjudication log now carries **1,405 rows**; every blended unit has a human-written
+verdict with reasoning, and every accept carries two-view formula agreement. Grade
+changes vs v1: 290 units.
+
+**Methodological note for 2027**: future sweeps should compute disagreement on
+within-cell *ranks* (immune to ceiling squeeze and offset-axis artifacts) and add a
+rushing-value term to the QB formula arm. Logged as build candidates.

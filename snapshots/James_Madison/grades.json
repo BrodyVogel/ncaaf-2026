@@ -14,16 +14,16 @@
    "confidence": "M"
   },
   "OL": {
-   "grade": 50,
+   "grade": 47,
    "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+11.8 vs full +15.3); sweep had 52"
+   "adjudication": "re-read adjudication: RE-READ: solo-matched (Greenberg); halve; policy had 50"
   },
   "DL": {
-   "grade": 54,
+   "grade": 50,
    "confidence": "M",
    "v1_grade": 46,
-   "adjudication": "50/50 blend: dg+20.2"
+   "adjudication": "re-read adjudication: RE-READ: solo-matched (Amar Thomas); halve; policy had 54"
   },
   "LB": {
    "grade": 46,

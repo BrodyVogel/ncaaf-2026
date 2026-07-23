@@ -2,10 +2,10 @@
  "team": "Washington",
  "units": {
   "QB": {
-   "grade": 69,
+   "grade": 72,
    "confidence": "M",
    "v1_grade": 74,
-   "adjudication": "50/50 blend: dg-9.7"
+   "adjudication": "re-read adjudication: RE-READ: D.Williams 74.9 + elite run value invisible; halve; policy had 69"
   },
   "RB": {
    "grade": 50,
@@ -24,10 +24,10 @@
    "confidence": "M"
   },
   "LB": {
-   "grade": 67,
+   "grade": 69,
    "confidence": "M",
    "v1_grade": 72,
-   "adjudication": "LB 0.4 blend: dg-12.4"
+   "adjudication": "re-read adjudication: RE-READ: offset-carried flagged BY dossier; strongest print consensus; middle; policy had 67"
   },
   "DB": {
    "grade": 72,

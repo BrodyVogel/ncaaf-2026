@@ -9,7 +9,7 @@
    "grade": 53,
    "confidence": "M",
    "v1_grade": 48,
-   "adjudication": "50/50 blend: dg+9.6"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "WRTE": {
    "grade": 45,
@@ -25,7 +25,7 @@
    "grade": 49,
    "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+10.4 vs full +12.2); sweep had 50"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "LB": {
    "grade": 53,
@@ -35,7 +35,7 @@
    "grade": 46,
    "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "DB policy 1/3 blend: dg+13.4; info 0.11 \u2014 blend halved"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "ST": {
    "grade": 26,

@@ -108,3 +108,10 @@ Dual-aggregation robustness check over all 256 sweep blends (starter-only vs ful
 two-deep; move only by the agreed disagreement). 51 amended toward dossier (mean 1.6,
 max 5 grade pts), 4 full reverts, 205 confirmed. Board effect 0.036 mean |dFinal|.
 v2.1 is the production vintage. Log: 51 AMENDED rows appended to adjudication_v2.csv.
+
+## v2.2 (2026-07-23): sensitivity bound + full per-case re-read
+Sensitivity: bets invariant across blend-weight [0x, 2x] — soft constants decision-irrelevant.
+Re-read: all 256 blends read case-by-case (dossier rationale + player math + disagreement
+reason); 136 confirmed, 120 adjusted (mostly toward dossier; ceiling-squeeze, offset-axis,
+formula-void, dual-threat and solo-aggregation corrections). 2027 candidates: rank-based dg,
+QB rushing-value term. Production vintage = v2.2.

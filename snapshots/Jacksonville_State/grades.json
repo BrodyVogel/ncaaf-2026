@@ -2,30 +2,28 @@
  "team": "Jacksonville State",
  "units": {
   "QB": {
-   "grade": 51,
-   "confidence": "M",
-   "v1_grade": 52,
-   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-1.6 vs full -10.5); sweep had 47"
+   "grade": 52,
+   "confidence": "M"
   },
   "RB": {
    "grade": 42,
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 38,
+   "grade": 42,
    "confidence": "M",
    "v1_grade": 46,
-   "adjudication": "50/50 blend: dg-16.6"
+   "adjudication": "re-read adjudication: RE-READ: transfer blindness; halve; policy had 38"
   },
   "OL": {
    "grade": 46,
    "confidence": "M"
   },
   "DL": {
-   "grade": 50,
+   "grade": 47,
    "confidence": "M",
    "v1_grade": 42,
-   "adjudication": "50/50 blend: dg+21.6"
+   "adjudication": "re-read adjudication: RE-READ: lost top-2 rushers + unmatched depth; trim; policy had 50"
   },
   "LB": {
    "grade": 48,

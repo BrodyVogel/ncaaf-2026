@@ -17,17 +17,17 @@
    "grade": 43,
    "confidence": "M",
    "v1_grade": 40,
-   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+5.9 vs full +11.8); sweep had 46"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "DL": {
    "grade": 42,
    "confidence": "L"
   },
   "LB": {
-   "grade": 33,
+   "grade": 36,
    "confidence": "M",
    "v1_grade": 40,
-   "adjudication": "LB 0.4 blend: dg-17.9"
+   "adjudication": "re-read adjudication: RE-READ: solo-matched bad tape; halve; policy had 33"
   },
   "DB": {
    "grade": 44,

@@ -2,26 +2,26 @@
  "team": "Kansas State",
  "units": {
   "QB": {
-   "grade": 65,
+   "grade": 63,
    "confidence": "M",
    "v1_grade": 60,
-   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+9.8 vs full +11.8); sweep had 66"
+   "adjudication": "re-read adjudication: RE-READ: solo-positive; halve; policy had 65"
   },
   "RB": {
-   "grade": 44,
+   "grade": 48,
    "confidence": "M",
    "v1_grade": 52,
-   "adjudication": "50/50 blend: dg-16.3"
+   "adjudication": "re-read adjudication: RE-READ: Fields 75.4/156 in combined UNMATCHED row (Tulane pattern); halve; policy had 44"
   },
   "WRTE": {
    "grade": 52,
    "confidence": "M"
   },
   "OL": {
-   "grade": 49,
+   "grade": 47,
    "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "50/50 blend: dg+11.0"
+   "adjudication": "re-read adjudication: RE-READ: partial blind (combined transfer rows) + look-through Fitzpatrick; halve; policy had 49"
   },
   "DL": {
    "grade": 45,

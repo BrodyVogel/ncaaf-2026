@@ -2,10 +2,10 @@
  "team": "Georgia",
  "units": {
   "QB": {
-   "grade": 66,
+   "grade": 68,
    "confidence": "M",
    "v1_grade": 70,
-   "adjudication": "50/50 blend: dg-8.6"
+   "adjudication": "re-read adjudication: RE-READ: SEC QB ceiling-squeeze (cell mean +35); Stockton 81.1/458; revert -2; policy had 66"
   },
   "RB": {
    "grade": 70,
@@ -23,7 +23,7 @@
    "grade": 54,
    "confidence": "M",
    "v1_grade": 58,
-   "adjudication": "50/50 blend: dg-9.0"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "LB": {
    "grade": 62,

@@ -2,10 +2,10 @@
  "team": "Louisiana",
  "units": {
   "QB": {
-   "grade": 40,
+   "grade": 44,
    "confidence": "M",
    "v1_grade": 48,
-   "adjudication": "50/50 blend: dg-16.7"
+   "adjudication": "re-read adjudication: RE-READ: dual-threat run value invisible to passing-facet formula; halve; policy had 40"
   },
   "RB": {
    "grade": 42,
@@ -15,7 +15,7 @@
    "grade": 49,
    "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "50/50 blend: dg+9.7"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "OL": {
    "grade": 48,
@@ -25,7 +25,7 @@
    "grade": 36,
    "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "50/50 blend: dg-22.6"
+   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "LB": {
    "grade": 40,

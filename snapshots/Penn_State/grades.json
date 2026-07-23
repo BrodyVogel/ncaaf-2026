@@ -2,16 +2,16 @@
  "team": "Penn State",
  "units": {
   "QB": {
-   "grade": 66,
+   "grade": 72,
    "confidence": "M",
    "v1_grade": 74,
-   "adjudication": "50/50 blend: dg-18.5"
+   "adjudication": "re-read adjudication: RE-READ: Becht 75.4 value top-12 = rank agreement with dossier 74; revert -2; policy had 66"
   },
   "RB": {
-   "grade": 62,
+   "grade": 65,
    "confidence": "M",
    "v1_grade": 68,
-   "adjudication": "50/50 blend: dg-11.1"
+   "adjudication": "re-read adjudication: RE-READ: modest samples; middle; policy had 62"
   },
   "WRTE": {
    "grade": 58,
