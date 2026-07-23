@@ -48,3 +48,17 @@ same convention as final_pass demeaning. Notre Dame's −21 pro forma row must b
 the same way before any conclusion.
 **Bet verdict: UConn O5.5 survives adjudication essentially intact (small QB trim).**
 Remaining: 13 bet teams → shortlist → field, per the plan's tiering.
+
+## Session 2 progress (bet teams adjudicated; method refinement)
+
+**Method fix:** adjudication gaps are computed WITHIN-CONFERENCE (demeaned, mirroring
+final_pass) — the raw v2-vs-dossier comparison was swamped by a scale-convention
+artifact (graders "weighted DOWN" the big SEC offsets; the mechanical arm applies them
+full-size onto compressed tape spreads → every SEC unit ranked 90s). Demeaned, the
+field's disagreements are ~±10, DB-heavy (consistent with S2's DB-unreliability).
+**13 bet teams adjudicated** (adjudication_v2.csv; pending grades — grades.json written
+once at rebuild). **Illinois FLAGGED for full re-open** (formula up +10..+24 on five
+units, against our U7.5). Kennesaw held (override-pinned).
+**Next:** Illinois re-open; demeaned shortlist (Louisiana, Georgia State, South Alabama,
+Tulane, Colorado State, Arizona, Notre Dame w/ IND fix, Rutgers, WKU, Michigan State);
+then the field by conference; then rebuild + impact memo.
