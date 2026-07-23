@@ -125,13 +125,23 @@ def main():
 
     # ---- 2. Residual, adjustment, assembly (frozen formula) ----
     resid = (implied_off - yo) - (implied_def - yd)          # + = grades warmer than anchor
+    # Demeaning-pool fix (2026-07-23, owner-approved): teams on the manual-override list have
+    # grades we explicitly declared unreliable (e.g. NDSU's -27 no-data artifact, raw resid -23).
+    # Before this fix their junk residuals still voted in the conference means, spuriously
+    # boosting innocent pool-mates (+0.33 MW, +0.54 Pac-12, +0.25 CUSA). Exclude them from every
+    # demeaning pool; their own finals are overridden downstream anyway.
+    _ovr_names = set()
+    if "--no-overrides" not in sys.argv and os.path.exists("data/manual_overrides_2026.csv"):
+        _ovr_names = {orow["team"] for orow in csv.DictReader(open("data/manual_overrides_2026.csv"))}
     conf_mean = {}
     for r, rs in zip(rows, resid):
+        if r["name"] in _ovr_names:
+            continue
         conf_mean.setdefault(r["conf"], []).append(float(rs))
     conf_mean = {c: float(np.mean(v)) for c, v in conf_mean.items()}
     # pseudo-pools for the 2 Independents: ND -> all-P4 mean, UConn -> all-G5 mean
-    p4_mean = float(np.mean([rs for r, rs in zip(rows, resid) if r["p4"]]))
-    g5_mean = float(np.mean([rs for r, rs in zip(rows, resid) if not r["p4"]]))
+    p4_mean = float(np.mean([rs for r, rs in zip(rows, resid) if r["p4"] and r["name"] not in _ovr_names]))
+    g5_mean = float(np.mean([rs for r, rs in zip(rows, resid) if not r["p4"] and r["name"] not in _ovr_names]))
     def demean_ref(r):
         if r["conf"] == "FBS Independents":
             return p4_mean if r["p4"] else g5_mean

@@ -1,4 +1,4 @@
-# Final-pass refit diagnostic — 2026-07-21T23:28:16+00:00 @ 1a871aa
+# Final-pass refit diagnostic — 2026-07-23T15:59:53+00:00 @ a78c71f
 
 ## Conversion weights (proxy-fit regime -> full-138 real-grade refit)
 | side | unit | proxy-fit | refit-138 |
@@ -20,56 +20,56 @@ intercepts: off +8.06, def +39.51
 
 ## Residual census — post-mode residual (mean -0.000; in official mode each conference mean is ≈0 by construction)
 - capped at ±6.0: **0** teams: (none)
-- |resid| p50 2.56 / p90 6.31 / max 14.68
+- |resid| p50 2.61 / p90 6.52 / max 14.43
 
 ## Mean residual by conference (grades-vs-anchor, refit regime)
 | conference | n | mean resid | min | max |
 |---|--:|---:|---:|---:|
-| Mid-American | 13 | -1.58 | -14.7 | +5.9 |
-| Conference USA | 10 | -1.50 | -7.1 | +3.5 |
-| Sun Belt | 14 | -1.18 | -9.0 | +5.4 |
-| Mountain West | 10 | -1.01 | -9.0 | +4.5 |
-| American Athletic | 14 | -0.79 | -9.9 | +11.0 |
-| Pac-12 | 8 | -0.45 | -6.1 | +6.0 |
-| ACC | 17 | +0.51 | -3.4 | +4.9 |
-| Big 12 | 16 | +0.62 | -3.8 | +7.8 |
-| Big Ten | 18 | +1.03 | -8.3 | +5.4 |
-| SEC | 16 | +1.37 | -5.6 | +6.5 |
-| FBS Independents | 2 | +8.94 | +6.6 | +11.3 |
+| Conference USA | 10 | -1.86 | -7.5 | +3.2 |
+| Pac-12 | 8 | -1.75 | -7.4 | +4.7 |
+| Mountain West | 10 | -1.66 | -9.7 | +3.9 |
+| Mid-American | 13 | -1.22 | -14.4 | +6.4 |
+| Sun Belt | 14 | -0.86 | -8.8 | +5.9 |
+| American Athletic | 14 | -0.51 | -9.7 | +11.3 |
+| ACC | 17 | +0.66 | -3.3 | +5.1 |
+| Big 12 | 16 | +0.75 | -3.6 | +7.9 |
+| Big Ten | 18 | +1.12 | -8.2 | +5.6 |
+| SEC | 16 | +1.43 | -5.6 | +6.7 |
+| FBS Independents | 2 | +8.90 | +6.5 | +11.3 |
 
-## Movers vs the pilot-era board (mean |Δ| 2.54, max 10.67; rank Spearman vs pilot-era 0.986)
+## Movers vs the pilot-era board (mean |Δ| 2.51, max 10.67; rank Spearman vs pilot-era 0.986)
 | biggest UP | Δ | | biggest DOWN | Δ |
 |---|---:|---|---|---:|
-| North Dakota State | +10.67 | | Middle Tennessee | -4.98 |
-| Notre Dame | +6.62 | | New Mexico State | -4.93 |
-| Oregon | +6.28 | | Missouri State | -4.69 |
-| Georgia | +6.05 | | Sam Houston | -4.66 |
-| Ole Miss | +5.85 | | Liberty | -4.44 |
-| Texas | +5.55 | | Florida International | -4.29 |
-| Ohio State | +5.53 | | UL Monroe | -3.95 |
-| LSU | +5.44 | | Delaware | -3.91 |
-| Oklahoma | +5.29 | | Georgia State | -3.76 |
-| Texas A&M | +4.89 | | Southern Miss | -3.69 |
+| North Dakota State | +10.67 | | Middle Tennessee | -5.08 |
+| Notre Dame | +6.59 | | New Mexico State | -5.04 |
+| Oregon | +6.25 | | Missouri State | -4.81 |
+| Georgia | +6.03 | | Sam Houston | -4.76 |
+| Ole Miss | +5.86 | | Liberty | -4.58 |
+| Texas | +5.54 | | Florida International | -4.42 |
+| Ohio State | +5.49 | | Delaware | -4.04 |
+| LSU | +5.45 | | UL Monroe | -3.80 |
+| Oklahoma | +5.29 | | Western Kentucky | -3.64 |
+| Texas A&M | +4.89 | | Georgia State | -3.62 |
 
 ## Conference-level component REMOVED (official mode) — owner decision 2026-07-19
 The k*clip(resid) term otherwise moves every team in a conference by ~k x (conference
 mean resid) on top of its within-conference shape. Demeaning drops that shared component.
-Independents pseudo-pooled: ND -> all-P4 mean (-0.51), UConn -> all-G5 mean (+0.49).
+Independents pseudo-pooled: ND -> all-P4 mean (-0.51), UConn -> all-G5 mean (+0.83).
 | pool | mean resid (pre-demean) | ~shift dropped (k x mean, pre-cap) |
 |---|---:|---:|
-| Mountain West | -14.68 | -5.14 |
+| Mountain West | -13.73 | -4.81 |
 | Mid-American | -6.26 | -2.19 |
 | SEC | -5.18 | -1.81 |
-| Pac-12 | -3.58 | -1.25 |
+| Pac-12 | -2.03 | -0.71 |
 | Big 12 | -0.66 | -0.23 |
 | ACC | -0.45 | -0.16 |
 | American Athletic | +0.56 | +0.20 |
 | Big Ten | +3.51 | +1.23 |
 | FBS Independents | +8.22 | +2.88 |
 | Sun Belt | +9.97 | +3.49 |
-| Conference USA | +13.08 | +4.58 |
+| Conference USA | +13.80 | +4.83 |
 | (all-P4 pool / ND ref) | -0.51 | -0.18 |
-| (all-G5 pool / UConn ref) | +0.49 | +0.17 |
+| (all-G5 pool / UConn ref) | +0.83 | +0.29 |
 
 ## Provenance
 - anchor run: outputs/anchor_runs/anchor_run_2026-07-14_class0.json (frozen); class_per_side 0.0; teams 138/138 joined
