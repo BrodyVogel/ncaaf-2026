@@ -84,3 +84,13 @@ consistency (the same inputs now always produce the same number).
 - **C (maximum):** B + regrade every unit whose dossier arithmetic materially used the
   retired offsets. Not recommended mid-season — high churn, most moves would be <2
   grade points, and the anchor blend dampens them further.
+
+## Amendment (2026-07-23, post S1-E/S2-C/S2-D)
+
+- **ADDED — look-through for missed-year returners (S2-D-A, validated):** a player absent
+  for a full season projects from his last graded season with volume halved, then
+  standard w(n) + jump term. Single-year gaps only.
+- **NOT added:** origin-roster talent term (S1-E null: +0.13 pts/SD thin-tape movers);
+  career pooling (S2-C: +0.1–0.8%, under bars; 2027 candidate with fitted decay);
+  hampered-season look-through (S2-D-B: worse than using the small tape, which PFF's
+  rate-based grading keeps unbiased).
