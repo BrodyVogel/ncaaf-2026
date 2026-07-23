@@ -71,3 +71,21 @@ point** equivalent, sign-stable across folds. OC/DC table is a later hand-build.
 - PFF grades are themselves estimates; "reliability" here conflates measurement noise
   with true year-over-year change — acceptable because the production use (how much to
   trust n snaps when projecting next season) is exactly this composite quantity.
+
+## Study 2b — HS recruiting composites as the small-sample prior (registered 2026-07-23, before any pull/fit)
+
+Owner hypothesis: HS pedigree should inform the prior that w(n) shrinks toward (a 5-star
+first-time player ≠ a 2-star). Data: CFBD `/recruiting/players` classes 2017–2025 (player
+name, position, stars, composite rating, committedTo), matched by normalized name + school
+to each panel player's **first meaningful-volume season** (volume ≥ the registered VOLMIN
+floors). Outcome: that first-tape grade.
+
+**Bars (same as S1-D for apples-to-apples with the failed transfer-stars test):**
+- S2b-A: partial correlation of composite rating with first-tape grade, controlling
+  position group, **≥ 0.15** → ships as the prior component in w(n): prior =
+  position mean + c·(composite − composite mean).
+- S2b-B: the effect must hold (sign-positive, ≥ half the pooled magnitude) in the
+  **late-breakout slice** — players whose first meaningful volume comes in campus year
+  ≥ 2 (the owner's motivating case) — else ship for true-freshman priors only.
+- Report regardless: means by star tier, per-position partials, match rate, and the
+  comparison to the transfer-stars null.
