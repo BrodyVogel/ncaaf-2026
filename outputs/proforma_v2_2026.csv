@@ -1,0 +1,941 @@
+team,conf,unit,v1_pct,v2_pct,delta,dossier,cov
+Air Force,Mountain West,DB,10.2,10.9,0.7,18,0.9
+Air Force,Mountain West,DL,38.1,39.6,1.5,14,0.9
+Air Force,Mountain West,LB,21.5,35.6,14.1,20,1.0
+Air Force,Mountain West,OL,38.6,25.0,-13.6,26,1.0
+Air Force,Mountain West,QB,49.6,27.2,-22.4,32,1.0
+Air Force,Mountain West,RB,13.2,17.6,4.4,22,1.0
+Air Force,Mountain West,WRTE,17.2,23.1,6.0,14,0.8
+Akron,Mid-American,DB,8.8,19.0,10.2,22,0.8
+Akron,Mid-American,DL,5.2,8.2,3.0,12,0.6
+Akron,Mid-American,LB,40.7,19.3,-21.5,12,0.5
+Akron,Mid-American,OL,5.3,8.3,3.0,14,0.8
+Akron,Mid-American,QB,21.6,3.2,-18.4,34,1.0
+Akron,Mid-American,RB,5.1,3.7,-1.5,16,1.0
+Akron,Mid-American,WRTE,6.7,6.7,0.0,28,0.8
+Alabama,SEC,DB,99.3,100.0,0.7,76,1.0
+Alabama,SEC,DL,86.6,76.9,-9.7,46,1.0
+Alabama,SEC,LB,80.7,81.5,0.7,48,1.0
+Alabama,SEC,OL,93.2,96.2,3.0,46,0.8
+Alabama,SEC,QB,88.0,87.2,-0.8,48,1.0
+Alabama,SEC,RB,71.3,80.9,9.6,48,0.8
+Alabama,SEC,WRTE,60.4,85.8,25.4,54,1.0
+App State,Sun Belt,DB,51.8,29.2,-22.6,40,1.0
+App State,Sun Belt,DL,37.3,32.1,-5.2,42,1.0
+App State,Sun Belt,LB,69.6,53.3,-16.3,54,1.0
+App State,Sun Belt,OL,97.0,54.5,-42.4,40,1.0
+App State,Sun Belt,QB,54.4,54.4,0.0,40,0.5
+App State,Sun Belt,RB,50.0,41.2,-8.8,48,1.0
+App State,Sun Belt,WRTE,97.8,34.3,-63.4,38,0.7
+Arizona,Big 12,DB,98.5,73.0,-25.5,46,0.5
+Arizona,Big 12,DL,53.7,55.2,1.5,48,0.8
+Arizona,Big 12,LB,77.8,72.6,-5.2,60,0.7
+Arizona,Big 12,OL,76.5,84.8,8.3,58,1.0
+Arizona,Big 12,QB,97.6,99.2,1.6,88,1.0
+Arizona,Big 12,RB,52.9,69.1,16.2,55,1.0
+Arizona,Big 12,WRTE,56.7,66.4,9.7,52,0.5
+Arizona State,Big 12,DB,75.2,62.0,-13.1,48,0.8
+Arizona State,Big 12,DL,71.6,65.7,-6.0,51,0.6
+Arizona State,Big 12,LB,53.3,66.7,13.3,50,0.7
+Arizona State,Big 12,OL,78.8,76.5,-2.3,36,0.7
+Arizona State,Big 12,QB,43.2,52.0,8.8,48,0.5
+Arizona State,Big 12,RB,80.1,77.2,-2.9,45,0.5
+Arizona State,Big 12,WRTE,57.5,75.4,17.9,56,0.8
+Arkansas,SEC,DB,72.3,78.8,6.6,48,1.0
+Arkansas,SEC,DL,79.1,82.1,3.0,48,1.0
+Arkansas,SEC,LB,57.0,74.8,17.8,44,0.8
+Arkansas,SEC,OL,80.3,88.6,8.3,44,0.8
+Arkansas,SEC,QB,81.6,86.4,4.8,42,1.0
+Arkansas,SEC,RB,73.5,86.8,13.2,46,1.0
+Arkansas,SEC,WRTE,56.0,77.6,21.6,44,1.0
+Arkansas State,Sun Belt,DB,9.5,3.6,-5.8,44,1.0
+Arkansas State,Sun Belt,DL,8.2,11.2,3.0,40,0.7
+Arkansas State,Sun Belt,LB,31.9,30.4,-1.5,42,1.0
+Arkansas State,Sun Belt,OL,81.1,72.7,-8.3,54,1.0
+Arkansas State,Sun Belt,QB,75.2,46.4,-28.8,44,1.0
+Arkansas State,Sun Belt,RB,34.6,35.3,0.7,52,1.0
+Arkansas State,Sun Belt,WRTE,51.5,49.3,-2.2,50,1.0
+Army,American Athletic,DB,48.2,24.8,-23.4,22,1.0
+Army,American Athletic,DL,11.2,17.2,6.0,25,0.8
+Army,American Athletic,LB,34.8,15.6,-19.3,15,0.5
+Army,American Athletic,OL,90.9,78.8,-12.1,84,1.0
+Army,American Athletic,QB,79.2,70.4,-8.8,62,0.5
+Army,American Athletic,RB,11.0,48.5,37.5,38,0.3
+Army,American Athletic,WRTE,66.4,61.9,-4.5,40,1.0
+Auburn,SEC,DB,79.6,76.6,-2.9,50,1.0
+Auburn,SEC,DL,97.0,98.5,1.5,54,1.0
+Auburn,SEC,LB,94.8,88.1,-6.7,54,1.0
+Auburn,SEC,OL,75.8,97.7,22.0,48,1.0
+Auburn,SEC,QB,91.2,98.4,7.2,60,1.0
+Auburn,SEC,RB,83.8,89.0,5.1,54,1.0
+Auburn,SEC,WRTE,70.9,84.3,13.4,48,1.0
+BYU,Big 12,DB,88.3,75.9,-12.4,70,0.8
+BYU,Big 12,DL,52.2,60.4,8.2,52,0.8
+BYU,Big 12,LB,47.4,60.7,13.3,50,0.8
+BYU,Big 12,OL,92.4,87.9,-4.5,68,0.8
+BYU,Big 12,QB,84.8,89.6,4.8,72,1.0
+BYU,Big 12,RB,95.6,94.1,-1.5,82,1.0
+BYU,Big 12,WRTE,40.3,69.4,29.1,48,0.8
+Ball State,Mid-American,DB,32.1,22.6,-9.5,14,0.5
+Ball State,Mid-American,DL,6.0,5.2,-0.7,8,0.9
+Ball State,Mid-American,LB,22.2,8.1,-14.1,8,0.7
+Ball State,Mid-American,OL,3.0,4.5,1.5,12,0.7
+Ball State,Mid-American,QB,72.0,12.0,-60.0,18,0.3
+Ball State,Mid-American,RB,5.9,2.9,-2.9,8,1.0
+Ball State,Mid-American,WRTE,16.4,5.2,-11.2,12,0.7
+Baylor,Big 12,DB,82.5,67.2,-15.3,52,0.8
+Baylor,Big 12,DL,56.7,57.5,0.7,47,0.7
+Baylor,Big 12,LB,33.3,59.3,25.9,38,0.7
+Baylor,Big 12,OL,73.5,75.8,2.3,40,0.7
+Baylor,Big 12,QB,70.4,79.2,8.8,52,1.0
+Baylor,Big 12,RB,89.7,85.3,-4.4,44,0.5
+Baylor,Big 12,WRTE,28.4,60.4,32.1,44,0.6
+Boise State,Pac-12,DB,38.0,46.0,8.0,46,0.8
+Boise State,Pac-12,DL,47.8,45.5,-2.2,50,0.9
+Boise State,Pac-12,LB,40.0,41.5,1.5,30,1.0
+Boise State,Pac-12,OL,15.2,13.6,-1.5,20,0.9
+Boise State,Pac-12,QB,9.6,11.2,1.6,32,1.0
+Boise State,Pac-12,RB,47.8,29.4,-18.4,50,1.0
+Boise State,Pac-12,WRTE,20.1,16.4,-3.7,14,0.9
+Boston College,ACC,DB,29.2,49.6,20.4,48,1.0
+Boston College,ACC,DL,34.3,44.0,9.7,40,1.0
+Boston College,ACC,LB,44.4,57.8,13.3,42,1.0
+Boston College,ACC,OL,52.3,68.2,15.9,46,1.0
+Boston College,ACC,RB,61.0,79.4,18.4,50,1.0
+Boston College,ACC,WRTE,64.2,62.7,-1.5,42,0.8
+Bowling Green,Mid-American,DB,16.8,23.4,6.6,30,0.6
+Bowling Green,Mid-American,DL,4.5,20.9,16.4,34,0.9
+Bowling Green,Mid-American,LB,28.9,8.9,-20.0,30,0.9
+Bowling Green,Mid-American,OL,0.8,6.8,6.1,10,0.6
+Bowling Green,Mid-American,QB,10.4,1.6,-8.8,34,0.8
+Bowling Green,Mid-American,RB,1.5,8.8,7.4,28,0.8
+Bowling Green,Mid-American,WRTE,10.4,6.0,-4.5,18,0.6
+Buffalo,Mid-American,DB,29.9,29.9,0.0,42,0.9
+Buffalo,Mid-American,DL,1.5,6.0,4.5,14,0.5
+Buffalo,Mid-American,LB,20.0,1.5,-18.5,12,0.3
+Buffalo,Mid-American,OL,17.4,9.8,-7.6,16,0.6
+Buffalo,Mid-American,RB,18.4,4.4,-14.0,16,1.0
+Buffalo,Mid-American,WRTE,11.2,1.5,-9.7,22,0.4
+California,ACC,DB,68.6,55.5,-13.1,48,1.0
+California,ACC,DL,49.3,53.0,3.7,42,1.0
+California,ACC,LB,72.6,54.8,-17.8,38,1.0
+California,ACC,OL,49.2,61.4,12.1,44,1.0
+California,ACC,QB,63.2,69.6,6.4,58,1.0
+California,ACC,RB,63.2,75.7,12.5,46,1.0
+California,ACC,WRTE,63.4,83.6,20.1,54,1.0
+Central Michigan,Mid-American,DB,36.5,10.2,-26.3,22,0.7
+Central Michigan,Mid-American,DL,14.2,14.2,0.0,24,0.6
+Central Michigan,Mid-American,LB,19.3,4.4,-14.8,14,0.7
+Central Michigan,Mid-American,OL,12.1,7.6,-4.5,28,0.7
+Central Michigan,Mid-American,QB,37.6,16.0,-21.6,38,0.8
+Central Michigan,Mid-American,RB,0.7,1.5,0.7,28,0.6
+Central Michigan,Mid-American,WRTE,33.6,10.4,-23.1,28,0.6
+Charlotte,American Athletic,DB,25.5,26.3,0.7,20,0.7
+Charlotte,American Athletic,DL,14.9,23.1,8.2,14,0.8
+Charlotte,American Athletic,LB,9.6,13.3,3.7,30,0.7
+Charlotte,American Athletic,OL,25.8,50.8,25.0,18,0.5
+Charlotte,American Athletic,QB,26.4,40.0,13.6,38,1.0
+Charlotte,American Athletic,RB,62.5,56.6,-5.9,35,0.3
+Charlotte,American Athletic,WRTE,68.7,63.4,-5.2,44,0.5
+Cincinnati,Big 12,DB,87.6,69.3,-18.2,45,0.8
+Cincinnati,Big 12,DL,20.1,37.3,17.2,28,0.5
+Cincinnati,Big 12,LB,61.5,70.4,8.9,55,0.8
+Cincinnati,Big 12,OL,98.5,93.9,-4.5,76,1.0
+Cincinnati,Big 12,QB,34.4,50.4,16.0,44,0.5
+Cincinnati,Big 12,RB,53.7,72.1,18.4,50,0.5
+Cincinnati,Big 12,WRTE,58.2,64.2,6.0,40,0.6
+Clemson,ACC,DB,86.1,65.7,-20.4,54,1.0
+Clemson,ACC,DL,91.0,73.9,-17.2,58,1.0
+Clemson,ACC,LB,64.4,65.9,1.5,54,1.0
+Clemson,ACC,OL,68.2,70.5,2.3,48,0.8
+Clemson,ACC,QB,20.8,32.0,11.2,48,1.0
+Clemson,ACC,RB,56.6,65.4,8.8,52,1.0
+Clemson,ACC,WRTE,79.1,79.9,0.7,56,1.0
+Coastal Carolina,Sun Belt,DB,19.7,12.4,-7.3,44,1.0
+Coastal Carolina,Sun Belt,DL,59.7,49.3,-10.4,48,1.0
+Coastal Carolina,Sun Belt,LB,26.7,26.7,0.0,50,1.0
+Coastal Carolina,Sun Belt,OL,29.5,34.8,5.3,36,1.0
+Coastal Carolina,Sun Belt,QB,19.2,37.6,18.4,38,1.0
+Coastal Carolina,Sun Belt,RB,25.7,33.1,7.4,46,1.0
+Coastal Carolina,Sun Belt,WRTE,21.6,32.8,11.2,40,1.0
+Colorado,Big 12,DB,35.0,51.1,16.1,47,0.8
+Colorado,Big 12,DL,81.3,81.3,0.0,55,0.6
+Colorado,Big 12,LB,77.0,64.4,-12.6,50,0.3
+Colorado,Big 12,OL,59.1,78.0,18.9,40,0.7
+Colorado,Big 12,QB,15.2,82.4,67.2,45,1.0
+Colorado,Big 12,RB,55.1,70.6,15.4,48,0.5
+Colorado,Big 12,WRTE,75.4,86.6,11.2,56,0.8
+Colorado State,Pac-12,DB,12.4,19.7,7.3,22,0.8
+Colorado State,Pac-12,DL,10.4,27.6,17.2,26,1.0
+Colorado State,Pac-12,LB,34.1,43.7,9.6,24,0.8
+Colorado State,Pac-12,OL,11.4,16.7,5.3,16,0.9
+Colorado State,Pac-12,QB,41.6,21.6,-20.0,24,1.0
+Colorado State,Pac-12,RB,19.1,22.8,3.7,30,1.0
+Colorado State,Pac-12,WRTE,12.7,14.9,2.2,16,0.9
+Delaware,Conference USA,DB,46.0,28.5,-17.5,46,1.0
+Delaware,Conference USA,DL,35.1,26.9,-8.2,44,1.0
+Delaware,Conference USA,LB,16.3,20.7,4.4,46,1.0
+Delaware,Conference USA,OL,51.5,36.4,-15.2,48,1.0
+Delaware,Conference USA,QB,28.8,24.0,-4.8,52,1.0
+Delaware,Conference USA,RB,26.5,23.5,-2.9,48,1.0
+Delaware,Conference USA,WRTE,82.1,73.9,-8.2,50,1.0
+Duke,ACC,DB,41.6,48.2,6.6,46,1.0
+Duke,ACC,DL,66.4,59.0,-7.5,42,1.0
+Duke,ACC,LB,45.2,55.6,10.4,46,0.8
+Duke,ACC,OL,61.4,69.7,8.3,52,1.0
+Duke,ACC,QB,22.4,34.4,12.0,50,0.5
+Duke,ACC,RB,89.0,90.4,1.5,62,1.0
+Duke,ACC,WRTE,83.6,85.1,1.5,48,0.8
+East Carolina,American Athletic,DB,58.4,45.3,-13.1,55,0.7
+East Carolina,American Athletic,DL,47.0,42.5,-4.5,54,0.8
+East Carolina,American Athletic,LB,1.5,0.7,-0.7,25,0.7
+East Carolina,American Athletic,OL,35.6,49.2,13.6,30,0.7
+East Carolina,American Athletic,RB,76.5,67.6,-8.8,50,1.0
+East Carolina,American Athletic,WRTE,34.3,39.6,5.2,46,0.8
+Eastern Michigan,Mid-American,DB,2.2,9.5,7.3,28,0.9
+Eastern Michigan,Mid-American,DL,19.4,15.7,-3.7,18,0.8
+Eastern Michigan,Mid-American,LB,3.0,2.2,-0.7,16,0.6
+Eastern Michigan,Mid-American,OL,6.8,3.0,-3.8,18,0.4
+Eastern Michigan,Mid-American,QB,16.8,9.6,-7.2,40,0.2
+Eastern Michigan,Mid-American,RB,16.2,11.0,-5.1,14,0.8
+Eastern Michigan,Mid-American,WRTE,29.9,8.2,-21.6,34,1.0
+Florida,SEC,DB,89.8,94.2,4.4,50,1.0
+Florida,SEC,DL,74.6,90.3,15.7,54,1.0
+Florida,SEC,LB,84.4,82.2,-2.2,56,1.0
+Florida,SEC,OL,72.0,90.9,18.9,44,1.0
+Florida,SEC,QB,78.4,88.8,10.4,48,1.0
+Florida,SEC,RB,97.1,97.8,0.7,60,1.0
+Florida,SEC,WRTE,78.4,88.8,10.4,50,1.0
+Florida Atlantic,American Athletic,DB,13.9,15.3,1.5,15,0.8
+Florida Atlantic,American Athletic,DL,32.8,25.4,-7.5,28,0.8
+Florida Atlantic,American Athletic,LB,4.4,5.9,1.5,20,0.7
+Florida Atlantic,American Athletic,OL,65.9,59.8,-6.1,33,0.5
+Florida Atlantic,American Athletic,QB,33.6,55.2,21.6,55,1.0
+Florida Atlantic,American Athletic,RB,68.4,59.6,-8.8,40,0.5
+Florida Atlantic,American Athletic,WRTE,72.4,72.4,0.0,50,0.6
+Florida International,Conference USA,DB,59.1,13.1,-46.0,44,1.0
+Florida International,Conference USA,DL,23.1,6.7,-16.4,46,1.0
+Florida International,Conference USA,LB,28.1,23.7,-4.4,44,1.0
+Florida International,Conference USA,OL,43.9,31.1,-12.9,40,1.0
+Florida International,Conference USA,QB,39.2,24.8,-14.4,46,1.0
+Florida International,Conference USA,RB,4.4,11.8,7.4,42,1.0
+Florida International,Conference USA,WRTE,86.6,48.5,-38.1,46,1.0
+Florida State,ACC,DB,48.9,56.2,7.3,48,1.0
+Florida State,ACC,DL,61.2,56.0,-5.2,46,1.0
+Florida State,ACC,LB,49.6,57.0,7.4,48,1.0
+Florida State,ACC,OL,43.2,63.6,20.5,40,0.8
+Florida State,ACC,QB,73.6,65.6,-8.0,48,1.0
+Florida State,ACC,RB,91.9,76.5,-15.4,58,1.0
+Florida State,ACC,WRTE,94.0,92.5,-1.5,58,1.0
+Fresno State,Pac-12,DB,43.8,43.8,0.0,44,1.0
+Fresno State,Pac-12,DL,33.6,35.8,2.2,44,0.9
+Fresno State,Pac-12,LB,31.1,38.5,7.4,40,1.0
+Fresno State,Pac-12,OL,23.5,18.2,-5.3,40,0.6
+Fresno State,Pac-12,QB,25.6,13.6,-12.0,30,1.0
+Fresno State,Pac-12,RB,36.0,26.5,-9.6,46,0.8
+Fresno State,Pac-12,WRTE,17.9,17.9,0.0,38,0.9
+Georgia,SEC,DB,92.0,97.8,5.8,66,1.0
+Georgia,SEC,DL,82.8,80.6,-2.2,58,1.0
+Georgia,SEC,LB,99.3,97.8,-1.5,62,1.0
+Georgia,SEC,OL,93.9,98.5,4.5,60,1.0
+Georgia,SEC,QB,96.8,96.8,0.0,70,1.0
+Georgia,SEC,RB,98.5,97.1,-1.5,70,1.0
+Georgia,SEC,WRTE,71.6,87.3,15.7,56,1.0
+Georgia Southern,Sun Belt,DB,23.4,16.1,-7.3,42,0.7
+Georgia Southern,Sun Belt,DL,44.8,41.8,-3.0,42,1.0
+Georgia Southern,Sun Belt,LB,5.9,17.8,11.9,40,0.5
+Georgia Southern,Sun Belt,OL,46.2,42.4,-3.8,40,1.0
+Georgia Southern,Sun Belt,QB,24.8,30.4,5.6,46,1.0
+Georgia Southern,Sun Belt,RB,30.9,36.0,5.1,42,1.0
+Georgia Southern,Sun Belt,WRTE,45.5,42.5,-3.0,44,1.0
+Georgia State,Sun Belt,DB,31.4,24.1,-7.3,40,0.7
+Georgia State,Sun Belt,DL,2.2,1.5,-0.7,40,1.0
+Georgia State,Sun Belt,LB,71.1,25.2,-45.9,38,1.0
+Georgia State,Sun Belt,OL,20.5,28.8,8.3,40,1.0
+Georgia State,Sun Belt,QB,82.4,72.0,-10.4,48,0.5
+Georgia State,Sun Belt,RB,8.8,30.9,22.1,40,0.5
+Georgia State,Sun Belt,WRTE,29.1,31.3,2.2,42,1.0
+Georgia Tech,ACC,DB,53.3,51.8,-1.5,48,1.0
+Georgia Tech,ACC,DL,63.4,53.7,-9.7,40,1.0
+Georgia Tech,ACC,LB,60.0,61.5,1.5,50,1.0
+Georgia Tech,ACC,OL,63.6,71.2,7.6,48,1.0
+Georgia Tech,ACC,QB,95.2,73.6,-21.6,46,0.5
+Georgia Tech,ACC,RB,69.9,78.7,8.8,66,1.0
+Georgia Tech,ACC,WRTE,82.8,70.9,-11.9,38,0.6
+Hawai'i,Mountain West,DB,28.5,42.3,13.9,18,0.9
+Hawai'i,Mountain West,DL,25.4,35.1,9.7,16,0.7
+Hawai'i,Mountain West,LB,3.7,34.1,30.4,14,1.0
+Hawai'i,Mountain West,OL,7.6,12.1,4.5,10,0.8
+Hawai'i,Mountain West,QB,52.0,8.8,-43.2,38,0.7
+Hawai'i,Mountain West,RB,31.6,16.9,-14.7,14,0.7
+Hawai'i,Mountain West,WRTE,20.9,20.1,-0.7,18,0.9
+Houston,Big 12,DB,78.8,70.1,-8.8,60,0.8
+Houston,Big 12,DL,65.7,64.9,-0.7,55,0.8
+Houston,Big 12,LB,70.4,68.1,-2.2,48,0.7
+Houston,Big 12,OL,67.4,86.4,18.9,46,1.0
+Houston,Big 12,QB,85.6,90.4,4.8,62,0.5
+Houston,Big 12,RB,39.0,75.0,36.0,52,0.5
+Houston,Big 12,WRTE,99.3,94.8,-4.5,58,0.8
+Illinois,Big Ten,DB,63.5,78.1,14.6,62,0.6
+Illinois,Big Ten,DL,54.5,78.4,23.9,41,0.7
+Illinois,Big Ten,LB,74.1,80.0,5.9,46,1.0
+Illinois,Big Ten,OL,41.7,35.6,-6.1,38,0.8
+Illinois,Big Ten,QB,92.0,78.4,-13.6,62,0.5
+Illinois,Big Ten,RB,35.3,38.2,2.9,32,1.0
+Illinois,Big Ten,WRTE,67.9,47.0,-20.9,48,0.8
+Indiana,Big Ten,DB,95.6,97.1,1.5,72,0.8
+Indiana,Big Ten,DL,83.6,97.8,14.2,77,1.0
+Indiana,Big Ten,LB,95.6,96.3,0.7,77,1.0
+Indiana,Big Ten,OL,62.1,57.6,-4.5,74,0.8
+Indiana,Big Ten,QB,90.4,76.8,-13.6,70,0.5
+Indiana,Big Ten,RB,74.3,54.4,-19.9,62,1.0
+Indiana,Big Ten,WRTE,90.3,53.0,-37.3,65,0.9
+Iowa,Big Ten,DB,96.4,99.3,2.9,80,0.4
+Iowa,Big Ten,DL,50.7,72.4,21.6,48,0.6
+Iowa,Big Ten,LB,85.2,91.1,5.9,58,0.7
+Iowa,Big Ten,OL,79.5,65.2,-14.4,87,0.7
+Iowa,Big Ten,QB,30.4,48.8,18.4,32,0.7
+Iowa,Big Ten,RB,46.3,50.7,4.4,70,0.7
+Iowa,Big Ten,WRTE,19.4,30.6,11.2,42,0.8
+Iowa State,Big 12,DB,70.1,59.9,-10.2,40,0.5
+Iowa State,Big 12,DL,60.4,59.7,-0.7,46,0.8
+Iowa State,Big 12,LB,36.3,54.1,17.8,40,0.7
+Iowa State,Big 12,OL,56.1,79.5,23.5,32,0.4
+Iowa State,Big 12,QB,48.8,64.8,16.0,48,1.0
+Iowa State,Big 12,RB,11.8,62.5,50.7,42,0.5
+Iowa State,Big 12,WRTE,79.9,65.7,-14.2,40,0.5
+Jacksonville State,Conference USA,DB,38.7,13.9,-24.8,50,1.0
+Jacksonville State,Conference USA,DL,50.0,36.6,-13.4,42,1.0
+Jacksonville State,Conference USA,LB,8.9,11.9,3.0,48,1.0
+Jacksonville State,Conference USA,OL,34.1,28.0,-6.1,46,1.0
+Jacksonville State,Conference USA,QB,12.0,14.4,2.4,52,1.0
+Jacksonville State,Conference USA,RB,9.6,20.6,11.0,42,1.0
+Jacksonville State,Conference USA,WRTE,22.4,25.4,3.0,46,1.0
+James Madison,Sun Belt,DB,67.9,27.7,-40.1,48,1.0
+James Madison,Sun Belt,DL,56.0,48.5,-7.5,46,1.0
+James Madison,Sun Belt,LB,30.4,31.1,0.7,46,1.0
+James Madison,Sun Belt,OL,60.6,62.9,2.3,44,0.5
+James Madison,Sun Belt,QB,45.6,41.6,-4.0,44,1.0
+James Madison,Sun Belt,RB,22.1,33.8,11.8,46,0.5
+James Madison,Sun Belt,WRTE,48.5,44.8,-3.7,46,0.5
+Kansas,Big 12,DB,40.1,54.0,13.9,42,1.0
+Kansas,Big 12,DL,64.9,67.2,2.2,50,0.8
+Kansas,Big 12,LB,88.1,73.3,-14.8,52,0.3
+Kansas,Big 12,OL,71.2,77.3,6.1,45,1.0
+Kansas,Big 12,QB,69.6,80.8,11.2,42,0.5
+Kansas,Big 12,RB,66.9,72.8,5.9,48,0.5
+Kansas,Big 12,WRTE,50.7,73.1,22.4,44,0.8
+Kansas State,Big 12,DB,66.4,65.0,-1.5,52,0.8
+Kansas State,Big 12,DL,58.2,64.2,6.0,45,0.8
+Kansas State,Big 12,LB,17.0,60.0,43.0,44,0.3
+Kansas State,Big 12,OL,96.2,89.4,-6.8,44,0.7
+Kansas State,Big 12,QB,87.2,92.0,4.8,60,0.5
+Kansas State,Big 12,RB,52.2,61.8,9.6,52,0.5
+Kansas State,Big 12,WRTE,69.4,81.3,11.9,52,0.8
+Kennesaw State,Conference USA,DB,5.8,1.5,-4.4,42,1.0
+Kennesaw State,Conference USA,DL,24.6,17.9,-6.7,44,1.0
+Kennesaw State,Conference USA,LB,15.6,20.0,4.4,46,1.0
+Kennesaw State,Conference USA,OL,0.0,0.0,0.0,40,1.0
+Kennesaw State,Conference USA,QB,5.6,2.4,-3.2,44,0.5
+Kennesaw State,Conference USA,WRTE,6.0,9.7,3.7,42,1.0
+Kent State,Mid-American,DB,3.6,4.4,0.7,18,0.9
+Kent State,Mid-American,DL,21.6,14.9,-6.7,22,0.9
+Kent State,Mid-American,LB,48.9,9.6,-39.3,14,0.8
+Kent State,Mid-American,OL,2.3,3.8,1.5,12,0.5
+Kent State,Mid-American,QB,0.0,5.6,5.6,32,0.8
+Kent State,Mid-American,RB,0.0,0.0,0.0,10,0.8
+Kent State,Mid-American,WRTE,26.9,9.0,-17.9,26,0.8
+Kentucky,SEC,DB,83.9,86.9,2.9,50,0.8
+Kentucky,SEC,DL,98.5,95.5,-3.0,58,1.0
+Kentucky,SEC,LB,60.7,76.3,15.6,44,1.0
+Kentucky,SEC,OL,88.6,97.0,8.3,54,1.0
+Kentucky,SEC,QB,92.8,92.8,0.0,50,1.0
+Kentucky,SEC,RB,43.4,74.3,30.9,48,0.7
+Kentucky,SEC,WRTE,87.3,91.0,3.7,48,0.8
+LSU,SEC,DB,94.9,88.3,-6.6,62,1.0
+LSU,SEC,DL,89.6,92.5,3.0,62,1.0
+LSU,SEC,LB,68.9,77.8,8.9,54,1.0
+LSU,SEC,OL,72.7,93.2,20.5,56,0.8
+LSU,SEC,QB,84.0,95.2,11.2,60,1.0
+LSU,SEC,RB,75.7,87.5,11.8,56,1.0
+LSU,SEC,WRTE,96.3,100.0,3.7,60,1.0
+Liberty,Conference USA,DB,7.3,2.2,-5.1,42,1.0
+Liberty,Conference USA,DL,29.9,21.6,-8.2,42,1.0
+Liberty,Conference USA,LB,7.4,5.2,-2.2,44,1.0
+Liberty,Conference USA,OL,59.8,43.2,-16.7,48,1.0
+Liberty,Conference USA,QB,4.8,12.8,8.0,44,1.0
+Liberty,Conference USA,RB,41.9,27.2,-14.7,42,1.0
+Liberty,Conference USA,WRTE,23.9,27.6,3.7,42,1.0
+Louisiana,Sun Belt,DB,91.2,64.2,-27.0,54,1.0
+Louisiana,Sun Belt,DL,9.7,4.5,-5.2,44,1.0
+Louisiana,Sun Belt,LB,35.6,33.3,-2.2,40,0.5
+Louisiana,Sun Belt,OL,48.5,47.0,-1.5,48,1.0
+Louisiana,Sun Belt,QB,31.2,31.2,0.0,48,1.0
+Louisiana,Sun Belt,RB,55.9,41.9,-14.0,42,0.5
+Louisiana,Sun Belt,WRTE,55.2,54.5,-0.7,44,1.0
+Louisiana Tech,Sun Belt,DB,37.2,30.7,-6.6,44,1.0
+Louisiana Tech,Sun Belt,DL,26.9,24.6,-2.2,42,1.0
+Louisiana Tech,Sun Belt,LB,51.1,46.7,-4.4,46,1.0
+Louisiana Tech,Sun Belt,OL,24.2,40.9,16.7,44,1.0
+Louisiana Tech,Sun Belt,QB,44.8,53.6,8.8,48,1.0
+Louisiana Tech,Sun Belt,RB,49.3,36.8,-12.5,38,0.5
+Louisiana Tech,Sun Belt,WRTE,76.1,70.1,-6.0,44,1.0
+Louisville,ACC,DB,59.9,57.7,-2.2,52,1.0
+Louisville,ACC,DL,97.8,75.4,-22.4,62,1.0
+Louisville,ACC,LB,66.7,68.9,2.2,50,0.8
+Louisville,ACC,OL,75.0,72.0,-3.0,50,1.0
+Louisville,ACC,QB,96.0,71.2,-24.8,46,0.5
+Louisville,ACC,RB,94.9,84.6,-10.3,72,1.0
+Louisville,ACC,WRTE,84.3,82.1,-2.2,48,0.8
+Marshall,Sun Belt,DB,40.9,37.2,-3.6,42,1.0
+Marshall,Sun Belt,DL,38.8,38.1,-0.7,40,1.0
+Marshall,Sun Belt,LB,29.6,31.9,2.2,42,1.0
+Marshall,Sun Belt,OL,53.0,51.5,-1.5,44,1.0
+Marshall,Sun Belt,QB,60.0,58.4,-1.6,50,1.0
+Marshall,Sun Belt,RB,29.4,34.6,5.1,40,0.5
+Marshall,Sun Belt,WRTE,59.7,52.2,-7.5,46,1.0
+Maryland,Big Ten,DB,56.2,81.0,24.8,60,1.0
+Maryland,Big Ten,DL,70.1,85.8,15.7,63,1.0
+Maryland,Big Ten,LB,90.4,86.7,-3.7,53,1.0
+Maryland,Big Ten,OL,31.1,37.1,6.1,40,1.0
+Maryland,Big Ten,QB,13.6,39.2,25.6,60,1.0
+Maryland,Big Ten,RB,33.8,39.0,5.1,38,1.0
+Maryland,Big Ten,WRTE,18.7,21.6,3.0,40,1.0
+Massachusetts,Mid-American,DB,14.6,7.3,-7.3,16,1.0
+Massachusetts,Mid-American,DL,26.1,9.0,-17.2,12,0.4
+Massachusetts,Mid-American,LB,18.5,21.5,3.0,30,0.7
+Massachusetts,Mid-American,OL,1.5,2.3,0.8,12,0.6
+Massachusetts,Mid-American,QB,16.0,16.8,0.8,22,0.2
+Massachusetts,Mid-American,RB,21.3,5.9,-15.4,10,0.8
+Massachusetts,Mid-American,WRTE,2.2,0.7,-1.5,14,0.8
+Memphis,American Athletic,DB,90.5,67.9,-22.6,74,0.3
+Memphis,American Athletic,DL,28.4,50.7,22.4,52,0.6
+Memphis,American Athletic,LB,54.8,39.3,-15.6,30,0.3
+Memphis,American Athletic,OL,33.3,58.3,25.0,38,0.3
+Memphis,American Athletic,RB,40.4,52.2,11.8,42,1.0
+Memphis,American Athletic,WRTE,41.8,53.7,11.9,45,0.6
+Miami,ACC,DB,81.0,72.3,-8.8,60,1.0
+Miami,ACC,DL,91.8,68.7,-23.1,60,1.0
+Miami,ACC,LB,41.5,52.6,11.1,46,1.0
+Miami,ACC,OL,74.2,73.5,-0.8,52,1.0
+Miami,ACC,QB,80.0,88.0,8.0,70,1.0
+Miami,ACC,RB,93.4,91.2,-2.2,70,1.0
+Miami,ACC,WRTE,100.0,99.3,-0.7,76,1.0
+Miami (OH),Mid-American,DB,24.8,21.9,-2.9,26,0.9
+Miami (OH),Mid-American,DL,15.7,10.4,-5.2,28,0.9
+Miami (OH),Mid-American,LB,23.7,18.5,-5.2,38,1.0
+Miami (OH),Mid-American,OL,9.1,5.3,-3.8,30,0.7
+Miami (OH),Mid-American,QB,4.0,4.0,0.0,30,0.2
+Miami (OH),Mid-American,RB,16.9,8.1,-8.8,26,0.8
+Miami (OH),Mid-American,WRTE,8.2,2.2,-6.0,24,0.6
+Michigan,Big Ten,DB,52.6,83.2,30.7,70,1.0
+Michigan,Big Ten,DL,76.1,97.0,20.9,76,1.0
+Michigan,Big Ten,LB,74.8,85.9,11.1,42,0.8
+Michigan,Big Ten,OL,45.5,47.7,2.3,64,0.9
+Michigan,Big Ten,QB,14.4,29.6,15.2,60,1.0
+Michigan,Big Ten,RB,66.2,57.4,-8.8,71,1.0
+Michigan,Big Ten,WRTE,32.1,41.8,9.7,56,0.8
+Michigan State,Big Ten,DB,45.3,77.4,32.1,44,0.7
+Michigan State,Big Ten,DL,69.4,82.8,13.4,44,1.0
+Michigan State,Big Ten,LB,67.4,89.6,22.2,53,1.0
+Michigan State,Big Ten,OL,53.8,39.4,-14.4,46,0.9
+Michigan State,Big Ten,QB,53.6,49.6,-4.0,53,1.0
+Michigan State,Big Ten,RB,38.2,47.8,9.6,48,1.0
+Michigan State,Big Ten,WRTE,11.9,38.1,26.1,38,0.6
+Middle Tennessee,Conference USA,DB,4.4,0.7,-3.6,42,1.0
+Middle Tennessee,Conference USA,DL,7.5,3.0,-4.5,36,1.0
+Middle Tennessee,Conference USA,LB,42.2,28.1,-14.1,44,0.5
+Middle Tennessee,Conference USA,OL,14.4,26.5,12.1,30,1.0
+Middle Tennessee,Conference USA,QB,56.0,36.8,-19.2,50,1.0
+Middle Tennessee,Conference USA,RB,17.6,22.1,4.4,40,0.5
+Middle Tennessee,Conference USA,WRTE,50.0,33.6,-16.4,42,1.0
+Minnesota,Big Ten,DB,67.2,84.7,17.5,64,0.9
+Minnesota,Big Ten,DL,70.9,91.0,20.1,64,1.0
+Minnesota,Big Ten,LB,78.5,87.4,8.9,55,1.0
+Minnesota,Big Ten,OL,57.6,50.0,-7.6,60,0.7
+Minnesota,Big Ten,QB,55.2,43.2,-12.0,58,1.0
+Minnesota,Big Ten,RB,58.1,50.0,-8.1,54,1.0
+Minnesota,Big Ten,WRTE,42.5,28.4,-14.2,44,1.0
+Mississippi State,SEC,DB,92.7,95.6,2.9,56,1.0
+Mississippi State,SEC,DL,82.1,71.6,-10.4,44,1.0
+Mississippi State,SEC,LB,65.2,75.6,10.4,46,1.0
+Mississippi State,SEC,OL,82.6,95.5,12.9,44,1.0
+Mississippi State,SEC,QB,94.4,94.4,0.0,54,1.0
+Mississippi State,SEC,RB,80.9,88.2,7.4,52,1.0
+Mississippi State,SEC,WRTE,65.7,80.6,14.9,50,1.0
+Missouri,SEC,DB,65.7,75.2,9.5,50,1.0
+Missouri,SEC,DL,94.0,88.8,-5.2,48,1.0
+Missouri,SEC,LB,100.0,99.3,-0.7,54,1.0
+Missouri,SEC,OL,100.0,100.0,0.0,58,1.0
+Missouri,SEC,QB,74.4,85.6,11.2,50,1.0
+Missouri,SEC,RB,100.0,100.0,0.0,72,1.0
+Missouri,SEC,WRTE,94.8,96.3,1.5,52,1.0
+Missouri State,Conference USA,DB,0.7,0.0,-0.7,42,0.5
+Missouri State,Conference USA,DL,17.2,9.7,-7.5,42,0.5
+Missouri State,Conference USA,LB,10.4,12.6,2.2,44,1.0
+Missouri State,Conference USA,OL,28.8,27.3,-1.5,36,0.5
+Missouri State,Conference USA,QB,24.0,23.2,-0.8,42,1.0
+Missouri State,Conference USA,RB,33.1,32.4,-0.7,44,1.0
+Missouri State,Conference USA,WRTE,44.0,35.1,-9.0,46,1.0
+NC State,ACC,DB,39.4,50.4,10.9,46,0.8
+NC State,ACC,DL,39.6,47.8,8.2,40,1.0
+NC State,ACC,LB,56.3,56.3,0.0,42,1.0
+NC State,ACC,OL,66.7,64.4,-2.3,46,1.0
+NC State,ACC,QB,68.0,62.4,-5.6,54,1.0
+NC State,ACC,RB,81.6,73.5,-8.1,56,1.0
+NC State,ACC,WRTE,44.8,67.2,22.4,42,0.8
+Navy,American Athletic,DB,15.3,14.6,-0.7,32,1.0
+Navy,American Athletic,DL,3.7,7.5,3.7,18,0.8
+Navy,American Athletic,LB,27.4,24.4,-3.0,40,0.7
+Navy,American Athletic,OL,44.7,52.3,7.6,48,1.0
+Navy,American Athletic,QB,99.2,67.2,-32.0,45,1.0
+Navy,American Athletic,RB,22.8,53.7,30.9,40,1.0
+Navy,American Athletic,WRTE,85.1,59.7,-25.4,38,0.7
+Nebraska,Big Ten,DB,73.7,82.5,8.8,65,0.9
+Nebraska,Big Ten,DL,62.7,76.1,13.4,46,1.0
+Nebraska,Big Ten,LB,83.7,95.6,11.9,62,0.8
+Nebraska,Big Ten,OL,65.2,48.5,-16.7,66,1.0
+Nebraska,Big Ten,QB,36.8,51.2,14.4,62,1.0
+Nebraska,Big Ten,RB,60.3,44.9,-15.4,40,1.0
+Nebraska,Big Ten,WRTE,27.6,45.5,17.9,52,1.0
+Nevada,Mountain West,DB,34.3,40.1,5.8,18,0.9
+Nevada,Mountain West,DL,57.5,54.5,-3.0,26,0.9
+Nevada,Mountain West,LB,37.0,37.0,0.0,12,0.8
+Nevada,Mountain West,OL,36.4,22.0,-14.4,22,0.6
+Nevada,Mountain West,QB,7.2,10.4,3.2,18,1.0
+Nevada,Mountain West,RB,10.3,14.0,3.7,14,0.8
+Nevada,Mountain West,WRTE,3.7,13.4,9.7,12,0.6
+New Mexico,Mountain West,DB,21.2,38.0,16.8,26,0.9
+New Mexico,Mountain West,DL,41.8,47.0,5.2,22,0.8
+New Mexico,Mountain West,LB,63.7,50.4,-13.3,44,0.8
+New Mexico,Mountain West,OL,12.9,20.5,7.6,24,0.6
+New Mexico,Mountain West,QB,66.4,26.4,-40.0,34,0.8
+New Mexico,Mountain West,RB,12.5,12.5,0.0,16,0.8
+New Mexico,Mountain West,WRTE,31.3,17.2,-14.2,22,1.0
+New Mexico State,Conference USA,DB,30.7,8.8,-21.9,44,1.0
+New Mexico State,Conference USA,DL,9.0,3.7,-5.2,40,1.0
+New Mexico State,Conference USA,LB,12.6,16.3,3.7,44,1.0
+New Mexico State,Conference USA,OL,22.7,23.5,0.8,34,1.0
+New Mexico State,Conference USA,QB,8.8,17.6,8.8,40,0.5
+New Mexico State,Conference USA,RB,3.7,10.3,6.6,38,0.5
+New Mexico State,Conference USA,WRTE,74.6,57.5,-17.2,42,0.5
+North Carolina,ACC,DB,78.1,63.5,-14.6,48,1.0
+North Carolina,ACC,DL,79.9,69.4,-10.4,52,0.8
+North Carolina,ACC,LB,23.0,51.9,28.9,40,0.7
+North Carolina,ACC,OL,62.9,67.4,4.5,44,0.8
+North Carolina,ACC,QB,11.2,60.0,48.8,48,1.0
+North Carolina,ACC,RB,48.5,63.2,14.7,50,1.0
+North Carolina,ACC,WRTE,67.2,76.9,9.7,48,1.0
+North Dakota State,Mountain West,DB,0.0,41.6,41.6,14,0.1
+North Dakota State,Mountain West,OL,99.2,22.7,-76.5,20,0.1
+North Dakota State,Mountain West,RB,6.6,19.1,12.5,16,0.2
+North Dakota State,Mountain West,WRTE,1.5,14.2,12.7,12,0.3
+North Texas,American Athletic,DB,61.3,40.9,-20.4,35,0.7
+North Texas,American Athletic,DL,0.0,0.0,0.0,15,0.3
+North Texas,American Athletic,LB,52.6,29.6,-23.0,40,0.7
+North Texas,American Athletic,OL,83.3,62.1,-21.2,35,0.7
+North Texas,American Athletic,RB,77.9,64.0,-14.0,52,0.5
+North Texas,American Athletic,WRTE,77.6,67.9,-9.7,38,0.2
+Northern Illinois,Mountain West,DB,2.9,18.2,15.3,12,0.3
+Northern Illinois,Mountain West,DL,12.7,33.6,20.9,10,0.3
+Northern Illinois,Mountain West,LB,11.9,32.6,20.7,10,0.5
+Northern Illinois,Mountain West,OL,3.8,21.2,17.4,12,0.8
+Northern Illinois,Mountain West,QB,2.4,8.0,5.6,20,0.5
+Northern Illinois,Mountain West,RB,2.9,16.2,13.2,12,0.8
+Northern Illinois,Mountain West,WRTE,14.9,19.4,4.5,16,0.8
+Northwestern,Big Ten,DB,57.7,87.6,29.9,68,0.8
+Northwestern,Big Ten,DL,67.2,86.6,19.4,52,0.9
+Northwestern,Big Ten,LB,87.4,85.2,-2.2,52,1.0
+Northwestern,Big Ten,OL,70.5,41.7,-28.8,46,0.8
+Northwestern,Big Ten,QB,57.6,44.0,-13.6,52,1.0
+Northwestern,Big Ten,RB,58.8,49.3,-9.6,58,1.0
+Northwestern,Big Ten,WRTE,54.5,56.7,2.2,64,0.9
+Notre Dame,FBS Independents,DB,100.0,80.3,-19.7,80,0.5
+Notre Dame,FBS Independents,DL,84.3,61.9,-22.4,80,1.0
+Notre Dame,FBS Independents,LB,71.9,48.1,-23.7,76,1.0
+Notre Dame,FBS Independents,OL,6.1,1.5,-4.5,78,1.0
+Notre Dame,FBS Independents,QB,80.8,47.2,-33.6,86,1.0
+Notre Dame,FBS Independents,RB,14.0,6.6,-7.4,66,1.0
+Notre Dame,FBS Independents,WRTE,81.3,50.0,-31.3,74,1.0
+Ohio,Mid-American,DB,18.2,17.5,-0.7,22,0.5
+Ohio,Mid-American,DL,16.4,12.7,-3.7,18,0.9
+Ohio,Mid-American,LB,45.9,25.9,-20.0,40,0.7
+Ohio,Mid-American,OL,18.2,10.6,-7.6,12,0.6
+Ohio,Mid-American,QB,12.8,0.8,-12.0,22,0.5
+Ohio,Mid-American,RB,2.2,0.7,-1.5,20,0.5
+Ohio,Mid-American,WRTE,9.7,4.5,-5.2,16,0.6
+Ohio State,Big Ten,DB,75.9,92.7,16.8,72,1.0
+Ohio State,Big Ten,DL,88.8,91.8,3.0,76,0.9
+Ohio State,Big Ten,LB,91.9,91.9,0.0,64,0.8
+Ohio State,Big Ten,OL,56.8,60.6,3.8,80,1.0
+Ohio State,Big Ten,QB,58.4,77.6,19.2,91,1.0
+Ohio State,Big Ten,RB,69.1,55.1,-14.0,76,1.0
+Ohio State,Big Ten,WRTE,61.9,58.2,-3.7,86,1.0
+Oklahoma,SEC,DB,97.1,98.5,1.5,60,1.0
+Oklahoma,SEC,DL,96.3,96.3,0.0,62,1.0
+Oklahoma,SEC,LB,97.8,94.1,-3.7,56,1.0
+Oklahoma,SEC,OL,91.7,94.7,3.0,54,1.0
+Oklahoma,SEC,QB,59.2,80.0,20.8,62,1.0
+Oklahoma,SEC,RB,77.2,83.8,6.6,52,1.0
+Oklahoma,SEC,WRTE,88.8,93.3,4.5,58,1.0
+Oklahoma State,Big 12,DB,77.4,60.6,-16.8,48,0.5
+Oklahoma State,Big 12,DL,85.1,63.4,-21.6,45,0.8
+Oklahoma State,Big 12,LB,92.6,74.1,-18.5,52,0.7
+Oklahoma State,Big 12,OL,89.4,80.3,-9.1,44,0.2
+Oklahoma State,Big 12,QB,61.6,84.0,22.4,62,1.0
+Oklahoma State,Big 12,RB,99.3,98.5,-0.7,60,0.5
+Oklahoma State,Big 12,WRTE,98.5,98.5,0.0,55,0.8
+Old Dominion,Sun Belt,DB,81.8,48.9,-32.8,54,1.0
+Old Dominion,Sun Belt,DL,17.9,13.4,-4.5,42,1.0
+Old Dominion,Sun Belt,LB,62.2,47.4,-14.8,48,1.0
+Old Dominion,Sun Belt,OL,8.3,33.3,25.0,40,0.5
+Old Dominion,Sun Belt,QB,46.4,38.4,-8.0,44,1.0
+Old Dominion,Sun Belt,RB,39.7,37.5,-2.2,46,1.0
+Old Dominion,Sun Belt,WRTE,13.4,29.1,15.7,40,1.0
+Ole Miss,SEC,DB,86.9,93.4,6.6,56,1.0
+Ole Miss,SEC,DL,93.3,94.0,0.7,60,1.0
+Ole Miss,SEC,LB,94.1,98.5,4.4,58,1.0
+Ole Miss,SEC,OL,95.5,92.4,-3.0,54,1.0
+Ole Miss,SEC,QB,98.4,100.0,1.6,70,1.0
+Ole Miss,SEC,RB,96.3,99.3,2.9,68,0.7
+Ole Miss,SEC,WRTE,91.0,91.8,0.7,56,1.0
+Oregon,Big Ten,DB,50.4,85.4,35.0,74,0.9
+Oregon,Big Ten,DL,87.3,99.3,11.9,90,1.0
+Oregon,Big Ten,LB,96.3,93.3,-3.0,66,1.0
+Oregon,Big Ten,OL,40.2,40.2,0.0,56,0.8
+Oregon,Big Ten,QB,77.6,76.0,-1.6,89,0.7
+Oregon,Big Ten,RB,83.1,61.0,-22.1,80,1.0
+Oregon,Big Ten,WRTE,80.6,71.6,-9.0,80,0.8
+Oregon State,Pac-12,DB,21.9,32.1,10.2,42,0.8
+Oregon State,Pac-12,DL,51.5,44.8,-6.7,42,0.6
+Oregon State,Pac-12,LB,48.1,44.4,-3.7,44,0.7
+Oregon State,Pac-12,OL,47.0,12.9,-34.1,24,0.7
+Oregon State,Pac-12,QB,3.2,6.4,3.2,34,0.7
+Oregon State,Pac-12,RB,45.6,13.2,-32.4,32,1.0
+Oregon State,Pac-12,WRTE,23.1,12.7,-10.4,30,0.6
+Penn State,Big Ten,DB,64.2,86.1,21.9,70,1.0
+Penn State,Big Ten,DL,55.2,79.9,24.6,60,0.9
+Penn State,Big Ten,LB,81.5,92.6,11.1,68,1.0
+Penn State,Big Ten,OL,69.7,43.9,-25.8,58,0.8
+Penn State,Big Ten,QB,72.8,48.0,-24.8,74,1.0
+Penn State,Big Ten,RB,47.1,47.1,0.0,68,1.0
+Penn State,Big Ten,WRTE,59.0,40.3,-18.7,58,0.8
+Pittsburgh,ACC,DB,84.7,68.6,-16.1,50,1.0
+Pittsburgh,ACC,DL,78.4,66.4,-11.9,58,1.0
+Pittsburgh,ACC,LB,65.9,62.2,-3.7,54,1.0
+Pittsburgh,ACC,OL,84.1,75.0,-9.1,52,0.8
+Pittsburgh,ACC,QB,23.2,32.8,9.6,52,1.0
+Pittsburgh,ACC,RB,75.0,71.3,-3.7,56,1.0
+Pittsburgh,ACC,WRTE,35.1,43.3,8.2,42,0.8
+Purdue,Big Ten,DB,42.3,74.5,32.1,44,0.8
+Purdue,Big Ten,DL,67.9,84.3,16.4,58,0.8
+Purdue,Big Ten,LB,54.1,77.0,23.0,46,0.8
+Purdue,Big Ten,OL,37.1,31.8,-5.3,38,0.9
+Purdue,Big Ten,QB,52.8,52.8,0.0,44,0.3
+Purdue,Big Ten,RB,61.8,43.4,-18.4,48,0.8
+Purdue,Big Ten,WRTE,25.4,26.1,0.7,40,0.9
+Rice,American Athletic,DB,10.9,5.1,-5.8,12,0.7
+Rice,American Athletic,DL,29.1,26.1,-3.0,30,0.8
+Rice,American Athletic,LB,32.6,17.0,-15.6,18,0.7
+Rice,American Athletic,OL,39.4,56.8,17.4,42,1.0
+Rice,American Athletic,QB,8.0,60.8,52.8,38,0.5
+Rice,American Athletic,RB,42.6,45.6,2.9,48,1.0
+Rice,American Athletic,WRTE,0.7,24.6,23.9,30,0.3
+Rutgers,Big Ten,DB,13.1,73.7,60.6,36,0.7
+Rutgers,Big Ten,DL,75.4,94.8,19.4,54,0.9
+Rutgers,Big Ten,LB,73.3,83.7,10.4,54,0.8
+Rutgers,Big Ten,OL,58.3,44.7,-13.6,50,0.8
+Rutgers,Big Ten,QB,40.8,59.2,18.4,52,1.0
+Rutgers,Big Ten,RB,67.6,58.1,-9.6,74,1.0
+Rutgers,Big Ten,WRTE,24.6,36.6,11.9,60,0.9
+SMU,ACC,DB,74.5,56.9,-17.5,52,1.0
+SMU,ACC,DL,80.6,70.9,-9.7,52,1.0
+SMU,ACC,LB,58.5,65.2,6.7,56,1.0
+SMU,ACC,OL,87.9,81.8,-6.1,62,1.0
+SMU,ACC,QB,86.4,81.6,-4.8,62,1.0
+SMU,ACC,RB,57.4,66.9,9.6,54,1.0
+SMU,ACC,WRTE,70.1,76.1,6.0,52,1.0
+Sacramento State,Mid-American,DB,8.0,20.4,12.4,10,0.2
+Sacramento State,Mid-American,DL,27.6,18.7,-9.0,10,0.6
+Sacramento State,Mid-American,LB,0.7,3.7,3.0,16,0.3
+Sacramento State,Mid-American,QB,0.8,0.0,-0.8,20,0.2
+Sacramento State,Mid-American,RB,23.5,7.4,-16.2,14,0.2
+Sacramento State,Mid-American,WRTE,15.7,3.7,-11.9,10,0.5
+Sam Houston,Conference USA,DB,22.6,5.8,-16.8,40,0.5
+Sam Houston,Conference USA,DL,40.3,22.4,-17.9,40,0.5
+Sam Houston,Conference USA,RB,24.3,28.7,4.4,46,0.5
+San Diego State,Pac-12,DB,43.1,43.1,0.0,34,0.6
+San Diego State,Pac-12,DL,43.3,40.3,-3.0,44,0.9
+San Diego State,Pac-12,LB,82.2,48.9,-33.3,42,0.5
+San Diego State,Pac-12,OL,22.0,18.9,-3.0,40,0.6
+San Diego State,Pac-12,QB,20.0,18.4,-1.6,34,0.5
+San Diego State,Pac-12,RB,30.1,27.9,-2.2,52,1.0
+San Diego State,Pac-12,WRTE,26.1,23.9,-2.2,42,1.0
+San José State,Mountain West,DB,24.1,35.8,11.7,12,0.4
+San José State,Mountain West,DL,22.4,29.1,6.7,16,0.8
+San José State,Mountain West,LB,25.9,37.8,11.9,14,0.7
+San José State,Mountain West,OL,15.9,17.4,1.5,14,0.8
+San José State,Mountain West,QB,6.4,4.8,-1.6,20,1.0
+San José State,Mountain West,RB,27.2,21.3,-5.9,16,0.8
+San José State,Mountain West,WRTE,37.3,20.9,-16.4,16,1.0
+South Alabama,Sun Belt,DB,65.0,47.4,-17.5,44,1.0
+South Alabama,Sun Belt,DL,13.4,11.9,-1.5,38,1.0
+South Alabama,Sun Belt,LB,46.7,40.7,-5.9,42,1.0
+South Alabama,Sun Belt,OL,27.3,32.6,5.3,38,0.5
+South Alabama,Sun Belt,QB,40.0,35.2,-4.8,46,1.0
+South Alabama,Sun Belt,RB,79.4,58.8,-20.6,52,1.0
+South Alabama,Sun Belt,WRTE,36.6,41.0,4.5,42,1.0
+South Carolina,SEC,DB,85.4,89.1,3.6,52,1.0
+South Carolina,SEC,DL,90.3,85.1,-5.2,56,1.0
+South Carolina,SEC,LB,86.7,79.3,-7.4,48,0.8
+South Carolina,SEC,OL,68.9,87.1,18.2,44,0.8
+South Carolina,SEC,QB,93.6,93.6,0.0,56,1.0
+South Carolina,SEC,RB,72.1,83.1,11.0,48,0.7
+South Carolina,SEC,WRTE,64.9,82.8,17.9,52,1.0
+South Florida,American Athletic,DB,35.8,33.6,-2.2,30,0.8
+South Florida,American Athletic,DL,99.3,43.3,-56.0,35,0.5
+South Florida,American Athletic,LB,79.3,22.2,-57.0,30,0.3
+South Florida,American Athletic,QB,76.0,63.2,-12.8,48,0.5
+South Florida,American Athletic,RB,28.7,42.6,14.0,38,0.3
+South Florida,American Athletic,WRTE,43.3,51.5,8.2,48,0.8
+Southern Miss,Sun Belt,DB,32.8,25.5,-7.3,44,1.0
+Southern Miss,Sun Belt,LB,2.2,10.4,8.1,40,0.5
+Southern Miss,Sun Belt,OL,54.5,55.3,0.8,40,0.5
+Southern Miss,Sun Belt,QB,36.0,45.6,9.6,42,1.0
+Southern Miss,Sun Belt,RB,8.1,30.1,22.1,40,1.0
+Southern Miss,Sun Belt,WRTE,35.8,38.8,3.0,44,0.5
+Stanford,ACC,DB,62.8,62.8,0.0,50,1.0
+Stanford,ACC,DL,45.5,51.5,6.0,44,1.0
+Stanford,ACC,LB,68.1,69.6,1.5,54,1.0
+Stanford,ACC,OL,50.0,59.1,9.1,40,1.0
+Stanford,ACC,QB,64.0,68.0,4.0,42,1.0
+Stanford,ACC,RB,82.4,77.9,-4.4,56,1.0
+Stanford,ACC,WRTE,73.1,78.4,5.2,44,0.4
+Syracuse,ACC,DB,54.0,54.7,0.7,50,1.0
+Syracuse,ACC,DL,46.3,52.2,6.0,36,0.9
+Syracuse,ACC,LB,25.2,49.6,24.4,34,1.0
+Syracuse,ACC,OL,31.8,56.1,24.2,42,1.0
+Syracuse,ACC,QB,38.4,42.4,4.0,52,1.0
+Syracuse,ACC,RB,37.5,52.9,15.4,30,0.5
+Syracuse,ACC,WRTE,38.1,55.2,17.2,32,0.9
+TCU,Big 12,DB,62.0,66.4,4.4,52,1.0
+TCU,Big 12,DL,73.9,70.1,-3.7,58,0.8
+TCU,Big 12,LB,57.8,67.4,9.6,42,1.0
+TCU,Big 12,OL,86.4,84.1,-2.3,52,0.6
+TCU,Big 12,RB,86.0,86.0,0.0,52,0.5
+TCU,Big 12,WRTE,85.8,88.1,2.2,50,0.5
+Temple,American Athletic,DB,1.5,6.6,5.1,14,1.0
+Temple,American Athletic,DL,0.7,2.2,1.5,15,0.4
+Temple,American Athletic,LB,6.7,14.8,8.1,25,0.7
+Temple,American Athletic,OL,78.0,68.9,-9.1,58,1.0
+Temple,American Athletic,RB,84.6,64.7,-19.9,40,0.5
+Temple,American Athletic,WRTE,95.5,90.3,-5.2,55,0.6
+Tennessee,SEC,DB,89.1,96.4,7.3,54,1.0
+Tennessee,SEC,DL,92.5,79.1,-13.4,50,1.0
+Tennessee,SEC,LB,88.9,80.7,-8.1,58,1.0
+Tennessee,SEC,OL,97.7,99.2,1.5,58,1.0
+Tennessee,SEC,QB,32.8,83.2,50.4,46,1.0
+Tennessee,SEC,RB,97.8,96.3,-1.5,60,1.0
+Tennessee,SEC,WRTE,91.8,95.5,3.7,56,1.0
+Texas,SEC,DB,93.4,94.9,1.5,56,1.0
+Texas,SEC,DL,73.1,74.6,1.5,62,1.0
+Texas,SEC,LB,83.0,97.0,14.1,56,1.0
+Texas,SEC,QB,89.6,97.6,8.0,64,1.0
+Texas,SEC,RB,92.6,95.6,2.9,60,1.0
+Texas A&M,SEC,DB,83.2,92.0,8.8,58,1.0
+Texas A&M,SEC,DL,94.8,89.6,-5.2,56,1.0
+Texas A&M,SEC,LB,91.1,100.0,8.9,52,1.0
+Texas A&M,SEC,OL,90.2,91.7,1.5,52,1.0
+Texas A&M,SEC,QB,67.2,84.8,17.6,58,1.0
+Texas A&M,SEC,RB,86.8,91.9,5.1,54,1.0
+Texas A&M,SEC,WRTE,93.3,97.0,3.7,58,1.0
+Texas State,Pac-12,DB,27.0,38.7,11.7,36,0.8
+Texas State,Pac-12,DL,32.1,41.0,9.0,30,0.8
+Texas State,Pac-12,LB,14.1,40.0,25.9,32,1.0
+Texas State,Pac-12,OL,84.8,24.2,-60.6,44,1.0
+Texas State,Pac-12,QB,35.2,28.0,-7.2,58,1.0
+Texas State,Pac-12,RB,50.7,25.0,-25.7,46,1.0
+Texas State,Pac-12,WRTE,41.0,29.9,-11.2,54,0.9
+Texas Tech,Big 12,DB,97.8,90.5,-7.3,70,0.8
+Texas Tech,Big 12,DL,100.0,100.0,0.0,65,0.8
+Texas Tech,Big 12,LB,98.5,78.5,-20.0,62,0.7
+Texas Tech,Big 12,OL,94.7,90.2,-4.5,60,0.8
+Texas Tech,Big 12,QB,62.4,75.2,12.8,50,1.0
+Texas Tech,Big 12,RB,90.4,92.6,2.2,72,1.0
+Texas Tech,Big 12,WRTE,92.5,94.0,1.5,62,0.8
+Toledo,Mid-American,DB,16.1,16.8,0.7,16,0.6
+Toledo,Mid-American,DL,11.9,19.4,7.5,18,0.8
+Toledo,Mid-American,LB,13.3,7.4,-5.9,16,0.4
+Toledo,Mid-American,OL,10.6,6.1,-4.5,14,0.6
+Toledo,Mid-American,QB,32.0,15.2,-16.8,22,0.3
+Toledo,Mid-American,RB,7.4,5.1,-2.2,16,0.6
+Toledo,Mid-American,WRTE,3.0,3.0,0.0,16,0.4
+Troy,Sun Belt,DB,5.1,2.9,-2.2,44,1.0
+Troy,Sun Belt,DL,35.8,28.4,-7.5,46,1.0
+Troy,Sun Belt,LB,24.4,27.4,3.0,42,1.0
+Troy,Sun Belt,OL,37.9,38.6,0.8,40,1.0
+Troy,Sun Belt,QB,50.4,40.8,-9.6,46,1.0
+Troy,Sun Belt,RB,14.7,25.7,11.0,42,0.5
+Troy,Sun Belt,WRTE,53.0,37.3,-15.7,42,1.0
+Tulane,American Athletic,DB,17.5,11.7,-5.8,42,0.8
+Tulane,American Athletic,DL,41.0,30.6,-10.4,35,0.2
+Tulane,American Athletic,LB,0.0,0.0,0.0,28,0.7
+Tulane,American Athletic,OL,42.4,46.2,3.8,30,0.5
+Tulane,American Athletic,RB,32.4,51.5,19.1,58,0.7
+Tulane,American Athletic,WRTE,61.2,61.2,0.0,46,0.6
+Tulsa,American Athletic,DB,54.7,46.7,-8.0,58,1.0
+Tulsa,American Athletic,DL,36.6,34.3,-2.2,40,0.8
+Tulsa,American Athletic,LB,14.8,14.1,-0.7,33,0.7
+Tulsa,American Athletic,OL,47.7,53.0,5.3,38,0.3
+Tulsa,American Athletic,QB,17.6,28.8,11.2,45,1.0
+Tulsa,American Athletic,RB,85.3,80.1,-5.1,50,0.5
+UAB,American Athletic,DB,11.7,8.0,-3.6,15,0.6
+UAB,American Athletic,DL,18.7,16.4,-2.2,16,0.5
+UAB,American Athletic,LB,8.1,6.7,-1.5,25,0.7
+UAB,American Athletic,OL,64.4,65.9,1.5,45,0.7
+UAB,American Athletic,QB,65.6,61.6,-4.0,42,1.0
+UAB,American Athletic,RB,59.6,60.3,0.7,48,0.5
+UAB,American Athletic,WRTE,39.6,44.0,4.5,38,0.7
+UCF,Big 12,DB,73.0,70.8,-2.2,58,1.0
+UCF,Big 12,DL,95.5,73.1,-22.4,48,0.5
+UCF,Big 12,LB,59.3,71.1,11.9,52,0.7
+UCF,Big 12,OL,30.3,82.6,52.3,40,0.8
+UCF,Big 12,QB,27.2,44.8,17.6,52,1.0
+UCF,Big 12,RB,36.8,68.4,31.6,46,0.5
+UCF,Big 12,WRTE,88.1,89.6,1.5,48,0.7
+UCLA,Big Ten,DB,49.6,81.8,32.1,66,1.0
+UCLA,Big Ten,DL,59.0,93.3,34.3,56,0.8
+UCLA,Big Ten,LB,80.0,90.4,10.4,60,0.8
+UCLA,Big Ten,OL,26.5,30.3,3.8,42,0.9
+UCLA,Big Ten,QB,64.8,64.0,-0.8,60,0.3
+UCLA,Big Ten,RB,64.7,44.1,-20.6,60,1.0
+UCLA,Big Ten,WRTE,32.8,26.9,-6.0,52,0.9
+UConn,FBS Independents,DB,69.3,52.6,-16.8,44,1.0
+UConn,FBS Independents,DL,68.7,50.0,-18.7,46,1.0
+UConn,FBS Independents,LB,39.3,36.3,-3.0,50,1.0
+UConn,FBS Independents,OL,9.8,0.8,-9.1,48,1.0
+UConn,FBS Independents,QB,88.8,36.0,-52.8,46,1.0
+UConn,FBS Independents,RB,20.6,2.2,-18.4,48,1.0
+UConn,FBS Independents,WRTE,0.0,0.0,0.0,46,1.0
+UL Monroe,Sun Belt,DB,44.5,21.2,-23.4,40,0.5
+UL Monroe,Sun Belt,LB,97.0,28.9,-68.1,44,0.5
+UL Monroe,Sun Belt,RB,41.2,40.4,-0.7,40,0.5
+UL Monroe,Sun Belt,WRTE,46.3,46.3,0.0,40,1.0
+UNLV,Mountain West,DB,27.7,36.5,8.8,20,1.0
+UNLV,Mountain West,DL,42.5,38.8,-3.7,18,1.0
+UNLV,Mountain West,LB,51.9,43.0,-8.9,16,0.8
+UNLV,Mountain West,OL,32.6,19.7,-12.9,20,0.9
+UNLV,Mountain West,QB,44.0,20.0,-24.0,36,0.7
+UNLV,Mountain West,RB,27.9,31.6,3.7,30,1.0
+UNLV,Mountain West,WRTE,9.0,11.9,3.0,16,1.0
+USC,Big Ten,DB,60.6,79.6,19.0,68,0.8
+USC,Big Ten,DL,76.9,87.3,10.4,72,1.0
+USC,Big Ten,LB,75.6,84.4,8.9,66,0.8
+USC,Big Ten,OL,25.0,34.1,9.1,54,1.0
+USC,Big Ten,QB,76.8,66.4,-10.4,80,1.0
+USC,Big Ten,RB,65.4,55.9,-9.6,72,1.0
+USC,Big Ten,WRTE,47.8,47.8,0.0,68,0.8
+UTEP,Mountain West,DB,6.6,35.0,28.5,14,0.7
+UTEP,Mountain West,DL,6.7,29.9,23.1,10,0.6
+UTEP,Mountain West,LB,5.2,45.9,40.7,14,0.8
+UTEP,Mountain West,OL,13.6,14.4,0.8,8,0.5
+UTEP,Mountain West,QB,1.6,20.8,19.2,16,0.2
+UTEP,Mountain West,RB,19.9,18.4,-1.5,12,1.0
+UTEP,Mountain West,WRTE,14.2,15.7,1.5,12,0.8
+UTSA,American Athletic,DB,47.4,27.0,-20.4,23,0.5
+UTSA,American Athletic,DL,20.9,20.1,-0.7,18,0.3
+UTSA,American Athletic,LB,37.8,23.0,-14.8,30,1.0
+UTSA,American Athletic,OL,18.9,29.5,10.6,30,0.7
+UTSA,American Athletic,QB,48.0,56.0,8.0,55,1.0
+UTSA,American Athletic,RB,91.2,81.6,-9.6,58,0.5
+UTSA,American Athletic,WRTE,76.9,74.6,-2.2,48,0.5
+Utah,Big 12,DB,51.1,61.3,10.2,58,0.5
+Utah,Big 12,DL,77.6,67.9,-9.7,44,0.8
+Utah,Big 12,LB,76.3,71.9,-4.4,46,0.5
+Utah,Big 12,OL,81.8,81.1,-0.8,46,0.5
+Utah,Big 12,QB,100.0,96.0,-4.0,70,1.0
+Utah,Big 12,RB,94.1,93.4,-0.7,65,0.5
+Utah,Big 12,WRTE,89.6,79.1,-10.4,52,0.8
+Utah State,Pac-12,DB,19.0,39.4,20.4,36,0.9
+Utah State,Pac-12,DL,30.6,31.3,0.7,36,0.9
+Utah State,Pac-12,LB,50.4,42.2,-8.1,36,0.8
+Utah State,Pac-12,OL,21.2,15.9,-5.3,36,0.9
+Utah State,Pac-12,QB,47.2,25.6,-21.6,34,0.5
+Utah State,Pac-12,RB,25.0,14.7,-10.3,40,1.0
+Utah State,Pac-12,WRTE,5.2,22.4,17.2,34,0.9
+Vanderbilt,SEC,DB,94.2,91.2,-2.9,58,1.0
+Vanderbilt,SEC,DL,88.1,77.6,-10.4,50,1.0
+Vanderbilt,SEC,LB,89.6,83.0,-6.7,50,1.0
+Vanderbilt,SEC,OL,55.3,85.6,30.3,46,1.0
+Vanderbilt,SEC,QB,56.8,91.2,34.4,46,1.0
+Vanderbilt,SEC,RB,88.2,89.7,1.5,58,1.0
+Vanderbilt,SEC,WRTE,97.0,97.8,0.7,50,1.0
+Virginia,ACC,DB,70.8,59.1,-11.7,52,1.0
+Virginia,ACC,DL,64.2,62.7,-1.5,50,1.0
+Virginia,ACC,LB,63.0,63.0,0.0,54,1.0
+Virginia,ACC,OL,87.1,74.2,-12.9,58,1.0
+Virginia,ACC,QB,83.2,74.4,-8.8,52,1.0
+Virginia,ACC,RB,78.7,69.9,-8.8,56,1.0
+Virginia,ACC,WRTE,47.0,64.9,17.9,44,1.0
+Virginia Tech,ACC,DB,80.3,71.5,-8.8,60,1.0
+Virginia Tech,ACC,DL,72.4,56.7,-15.7,50,1.0
+Virginia Tech,ACC,LB,43.0,51.1,8.1,44,1.0
+Virginia Tech,ACC,OL,40.9,53.8,12.9,42,1.0
+Virginia Tech,ACC,QB,42.4,57.6,15.2,48,1.0
+Virginia Tech,ACC,RB,87.5,82.4,-5.1,60,1.0
+Virginia Tech,ACC,WRTE,38.8,56.0,17.2,50,1.0
+Wake Forest,ACC,DB,46.7,58.4,11.7,50,0.6
+Wake Forest,ACC,DL,53.0,61.2,8.2,58,1.0
+Wake Forest,ACC,LB,38.5,58.5,20.0,48,1.0
+Wake Forest,ACC,OL,77.3,66.7,-10.6,44,0.6
+Wake Forest,ACC,QB,71.2,72.8,1.6,54,1.0
+Wake Forest,ACC,RB,64.0,66.2,2.2,46,0.7
+Wake Forest,ACC,WRTE,53.7,50.7,-3.0,46,1.0
+Washington,Big Ten,DB,76.6,89.8,13.1,72,1.0
+Washington,Big Ten,DL,85.8,88.1,2.2,62,0.9
+Washington,Big Ten,LB,85.9,88.9,3.0,72,1.0
+Washington,Big Ten,OL,34.8,45.5,10.6,62,0.8
+Washington,Big Ten,QB,51.2,56.8,5.6,74,0.7
+Washington,Big Ten,RB,51.5,46.3,-5.1,50,0.8
+Washington,Big Ten,WRTE,52.2,35.8,-16.4,56,0.9
+Washington State,Pac-12,DB,20.4,34.3,13.9,32,0.9
+Washington State,Pac-12,DL,48.5,46.3,-2.2,30,0.7
+Washington State,Pac-12,LB,11.1,34.8,23.7,28,1.0
+Washington State,Pac-12,OL,28.0,11.4,-16.7,26,1.0
+Washington State,Pac-12,RB,72.8,15.4,-57.4,42,1.0
+Washington State,Pac-12,WRTE,49.3,18.7,-30.6,44,0.9
+West Virginia,Big 12,DB,56.9,53.3,-3.6,40,0.5
+West Virginia,Big 12,DL,44.0,58.2,14.2,42,0.5
+West Virginia,Big 12,LB,43.7,63.7,20.0,40,1.0
+West Virginia,Big 12,OL,85.6,83.3,-2.3,46,0.5
+West Virginia,Big 12,QB,60.8,68.8,8.0,44,1.0
+West Virginia,Big 12,RB,70.6,94.9,24.3,52,0.5
+West Virginia,Big 12,WRTE,62.7,68.7,6.0,44,0.7
+Western Kentucky,Conference USA,DB,71.5,44.5,-27.0,50,1.0
+Western Kentucky,Conference USA,DL,3.0,0.7,-2.2,44,1.0
+Western Kentucky,Conference USA,LB,17.8,3.0,-14.8,36,1.0
+Western Kentucky,Conference USA,OL,19.7,25.8,6.1,42,1.0
+Western Kentucky,Conference USA,QB,29.6,22.4,-7.2,52,1.0
+Western Kentucky,Conference USA,RB,54.4,24.3,-30.1,46,1.0
+Western Kentucky,Conference USA,WRTE,73.9,59.0,-14.9,48,1.0
+Western Michigan,Mid-American,DB,33.6,32.8,-0.7,30,0.5
+Western Michigan,Mid-American,DL,31.3,23.9,-7.5,18,0.7
+Western Michigan,Mid-American,LB,20.7,11.1,-9.6,16,0.8
+Western Michigan,Mid-American,OL,4.5,9.1,4.5,28,0.7
+Western Michigan,Mid-American,QB,68.8,7.2,-61.6,46,0.5
+Western Michigan,Mid-American,RB,15.4,9.6,-5.9,28,1.0
+Western Michigan,Mid-American,WRTE,7.5,7.5,0.0,26,0.6
+Wisconsin,Big Ten,DB,55.5,83.9,28.5,62,0.9
+Wisconsin,Big Ten,DL,61.9,83.6,21.6,52,1.0
+Wisconsin,Big Ten,LB,93.3,94.8,1.5,74,1.0
+Wisconsin,Big Ten,OL,50.8,37.9,-12.9,48,0.8
+Wisconsin,Big Ten,QB,18.4,33.6,15.2,62,1.0
+Wisconsin,Big Ten,RB,44.9,39.7,-5.1,58,1.0
+Wisconsin,Big Ten,WRTE,30.6,32.1,1.5,44,0.9
+Wyoming,Mountain West,DB,26.3,31.4,5.1,16,0.7
+Wyoming,Mountain West,DL,23.9,32.8,9.0,14,0.6
+Wyoming,Mountain West,LB,55.6,45.2,-10.4,16,0.8
+Wyoming,Mountain West,OL,16.7,15.2,-1.5,18,0.8
+Wyoming,Mountain West,QB,28.0,19.2,-8.8,20,0.7
+Wyoming,Mountain West,RB,44.1,19.9,-24.3,18,0.7
+Wyoming,Mountain West,WRTE,4.5,11.2,6.7,12,0.6
