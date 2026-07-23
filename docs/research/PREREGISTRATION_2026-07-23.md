@@ -112,3 +112,20 @@ QB 0.55 / LB 0.50). Eval: LOYO MAE on all pairs with vol_t ≥ 10.
 
 **Bars:** pooled arm ships iff it beats single-season by ≥ 1% MAE overall AND ≥ 2% on
 the multi-history slice (players with ≥ 2 prior seasons), with no slice degrading > 0.5%.
+
+## S2-D — interrupted seasons / the comeback case (registered before fit)
+
+Owner case (Penix): elite tape → lost/hampered year → return. Two observable slices
+(cause-agnostic by construction — injury vs redshirt vs buried is unknowable here, but
+the projection question is the same):
+1. **Gap pairs**: player in seasons t and t+2, absent t+1. Does decayed old tape beat a
+   prior-only forecast of the return season?
+2. **Interrupted pairs**: vol_t < 25% of vol_{t−1} (with vol_{t−1} ≥ VOLMIN). Best
+   evidence for t+1 among: the tiny current tape (v2-single), look-through to t−1, or a
+   50/50 blend?
+
+**Bars:** S2-D-A ships a look-through rule for missed-year returners iff old-tape model
+beats prior-only by ≥ 2% LOYO MAE on gap pairs with sign-stable slope. S2-D-B ships the
+winning evidence choice for hampered seasons iff it beats v2-single by ≥ 1% on the slice.
+Report the comeback intercept either way (is hampered-season tape biased low, not just
+noisy?).
