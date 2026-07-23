@@ -33,3 +33,18 @@ Liberty, Arizona State, Kennesaw State, Illinois, West Virginia, East Carolina, 
 Florida, UCF, Pittsburgh) → (2) pro forma |Δteam| > 12 shortlist → (3) remaining field
 by conference. Inputs ready on disk: outputs/proforma_v2_2026.csv (formula numbers per
 unit), snapshots/*/roster_two_deep.csv, spine, recruiting pulls.
+
+## Adjudication log started (2026-07-23) + one formula fix
+
+**UConn adjudicated (worked example, adjudication_v2.csv).** Net: QB 46→44, LB 50→47,
+DB 44→47, DL 46→47, rest hold. Team impact ≈ −0.1 pts — **the pro forma −19 dissolves
+under adjudication**: it was (a) the v1-mech strawman at QB (dossier's L had already
+hand-shrunk the tiny samples the offset arithmetic took at face value) and (b) an
+**Independents artifact**: the IND destination-offset cells (RB −14.11, OL −21.97) are
+fitted on an Army/UMass/UConn pool polluted by Army's option scheme.
+**FIX (applies to ND + UConn in all v2 math): Independents use their class-pool mean
+(ND → P4 pool, UConn → G5 pool) as the destination scale term, never the IND cell** —
+same convention as final_pass demeaning. Notre Dame's −21 pro forma row must be re-read
+the same way before any conclusion.
+**Bet verdict: UConn O5.5 survives adjudication essentially intact (small QB trim).**
+Remaining: 13 bet teams → shortlist → field, per the plan's tiering.

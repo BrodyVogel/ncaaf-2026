@@ -1,0 +1,9 @@
+team,unit,dossier,formula_note,final,conf,reason
+UConn,QB,46,"~40-42 after IND-dest fix; v1-mech 89pct was strawman (dossier L already shrank tiny samples)",44,L,"Merklinger 81.6/28 + Osborne 72.9/82 both shrink to ~71; battle + Candle-system familiarity holds it near dossier; -2"
+UConn,RB,48,"pro forma 2nd pctile = IND dest-offset artifact (-14.11 RB cell, Army-polluted); ex-artifact ~mid-40s",48,M,"Cornist 76.0/105 w=0.49 -> ~74.7 proj; hold"
+UConn,WRTE,46,"formula ~position mean (small samples + FCS)",46,L,"hold; unchanged scope (FCS pieces stay v1 brackets)"
+UConn,OL,48,"pro forma 1st pctile = IND artifact (-21.97 cell); ex-artifact ~mean",48,M,"Chan 67.3/477 + cohesive Toledo transplant; hold"
+UConn,DL,46,"v2 50th pctile",47,M,"Mickens (OSU) + Carter; formula mildly up; +1"
+UConn,LB,50,"v2 36th pctile; k=630 shrinks Sherman's Toledo volume hard",47,M,"dossier leaned Athlon 'strength' narrative; split formula/dossier; -3"
+UConn,DB,44,"v2 53rd; McLean 74.7/638 real tape, w=0.35 -> ~69 proj",47,L,"formula up vs dossier; +3"
+UConn,ST,44,"specialists out of v2 scope",44,L,"hold"
