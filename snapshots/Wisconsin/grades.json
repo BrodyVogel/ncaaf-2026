@@ -8,10 +8,10 @@
    "adjudication": "manual middle ground: dg-20.1 | ADJUDICATOR: Joseph 78.9/334 real full-volume G5 tape (Houser lesson \u2014 do not double-discount); validated G5\u2192P4 charge is only -3.5; backup drag struc"
   },
   "RB": {
-   "grade": 54,
+   "grade": 55,
    "confidence": "M",
    "v1_grade": 58,
-   "adjudication": "50/50 blend: dg-8.5"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-6.8 vs full -8.5); sweep had 54"
   },
   "WRTE": {
    "grade": 44,

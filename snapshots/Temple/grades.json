@@ -12,10 +12,10 @@
    "adjudication": "50/50 blend: dg+10.9; info 0.10 \u2014 blend halved"
   },
   "WRTE": {
-   "grade": 63,
+   "grade": 62,
    "confidence": "M",
    "v1_grade": 55,
-   "adjudication": "50/50 blend: dg+19.8"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+14.8 vs full +19.8); sweep had 63"
   },
   "OL": {
    "grade": 58,

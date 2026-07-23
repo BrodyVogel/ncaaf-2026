@@ -20,10 +20,10 @@
    "adjudication": "50/50 blend: dg-14.0"
   },
   "DL": {
-   "grade": 21,
+   "grade": 22,
    "confidence": "M",
    "v1_grade": 28,
-   "adjudication": "50/50 blend: dg-13.2"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-12.3 vs full -13.2); sweep had 21"
   },
   "LB": {
    "grade": 34,

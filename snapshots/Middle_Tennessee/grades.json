@@ -16,20 +16,20 @@
    "confidence": "M"
   },
   "OL": {
-   "grade": 35,
+   "grade": 34,
    "confidence": "M",
    "v1_grade": 30,
-   "adjudication": "50/50 blend: dg+9.8"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+8.3 vs full +9.8); sweep had 35"
   },
   "DL": {
    "grade": 36,
    "confidence": "L"
   },
   "LB": {
-   "grade": 49,
+   "grade": 48,
    "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "LB 0.4 blend: dg+12.4"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+9.4 vs full +12.4); sweep had 49"
   },
   "DB": {
    "grade": 39,

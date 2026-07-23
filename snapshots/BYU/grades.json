@@ -6,20 +6,20 @@
    "confidence": "H"
   },
   "RB": {
-   "grade": 75,
+   "grade": 76,
    "confidence": "M",
    "v1_grade": 82,
-   "adjudication": "50/50 blend: dg-13.2"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-12.7 vs full -13.2); sweep had 75"
   },
   "WRTE": {
    "grade": 48,
    "confidence": "M"
   },
   "OL": {
-   "grade": 61,
+   "grade": 62,
    "confidence": "M",
    "v1_grade": 68,
-   "adjudication": "50/50 blend: dg-14.5"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-13.0 vs full -14.5); sweep had 61"
   },
   "DL": {
    "grade": 52,

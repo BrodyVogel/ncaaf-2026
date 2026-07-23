@@ -14,10 +14,10 @@
    "confidence": "M"
   },
   "OL": {
-   "grade": 52,
+   "grade": 50,
    "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "50/50 blend: dg+15.3"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+11.8 vs full +15.3); sweep had 52"
   },
   "DL": {
    "grade": 54,

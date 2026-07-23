@@ -24,10 +24,10 @@
    "confidence": "M"
   },
   "LB": {
-   "grade": 51,
+   "grade": 50,
    "confidence": "M",
    "v1_grade": 46,
-   "adjudication": "LB 0.4 blend: dg+12.4"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+9.9 vs full +12.4); sweep had 51"
   },
   "DB": {
    "grade": 44,

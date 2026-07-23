@@ -2,10 +2,10 @@
  "team": "Houston",
  "units": {
   "QB": {
-   "grade": 66,
+   "grade": 65,
    "confidence": "M",
    "v1_grade": 62,
-   "adjudication": "50/50 blend: dg+8.2"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+6.2 vs full +8.2); sweep had 66"
   },
   "RB": {
    "grade": 52,

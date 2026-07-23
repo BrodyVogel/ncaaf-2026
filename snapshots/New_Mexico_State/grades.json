@@ -10,20 +10,18 @@
    "confidence": "L"
   },
   "WRTE": {
-   "grade": 50,
+   "grade": 47,
    "confidence": "M",
    "v1_grade": 42,
-   "adjudication": "50/50 blend: dg+18.7"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+9.8 vs full +18.7); sweep had 50"
   },
   "OL": {
    "grade": 34,
    "confidence": "L"
   },
   "DL": {
-   "grade": 35,
-   "confidence": "M",
-   "v1_grade": 40,
-   "adjudication": "50/50 blend: dg-9.2"
+   "grade": 40,
+   "confidence": "M"
   },
   "LB": {
    "grade": 44,

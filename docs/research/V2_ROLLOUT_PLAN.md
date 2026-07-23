@@ -102,3 +102,9 @@ Impact memo: docs/V2_IMPACT_MEMO_2026-07-23.md. All 14 bets survive; UCF conf O3
 flagged THIN (mm +1.5%) — hold, no add, fall-camp re-check.
 Standing next items: ACC official poll re-sweep (Jul 28), fall-camp QB-battle re-sweeps
 (UCF QB explicitly), Study 3 (continuity × prior-stability) still deferred.
+
+## Reconciliation pass (2026-07-23, post-rollout)
+Dual-aggregation robustness check over all 256 sweep blends (starter-only vs full
+two-deep; move only by the agreed disagreement). 51 amended toward dossier (mean 1.6,
+max 5 grade pts), 4 full reverts, 205 confirmed. Board effect 0.036 mean |dFinal|.
+v2.1 is the production vintage. Log: 51 AMENDED rows appended to adjudication_v2.csv.

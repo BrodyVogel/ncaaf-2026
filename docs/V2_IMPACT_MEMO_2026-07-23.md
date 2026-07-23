@@ -116,3 +116,34 @@ in git history + `ASSEMBLY_LOCKED_2026-07-20`). FCS/D2/JUCO entrants still grade
 the v1 qualitative brackets (out of v2's validated scope). Specialists (ST) were never
 in scope. Everything else — unit→rating OLS, K=0.35, ±6 clip, demeaning pools, bands,
 engine — is unchanged machinery rerun on the new grades.
+
+---
+
+## Addendum — reconciliation pass over the sweep blends (same day)
+
+Owner asked whether the ~230 mid-band blends (scripted policy, no individual eyes)
+deserved reconciliation. Answer: yes, done, via a uniform robustness check rather than
+230 hand re-reads.
+
+**Method.** Every blend's demeaned gap was recomputed under a second aggregation —
+**starters only** (slot-1 rows) — alongside the full two-deep view. The five artifact
+signatures the |dg|>20 review had surfaced (solo-matched units, FR-prior backup drag,
+combined-name parse misses, unmatched-heavy rooms, stale-2024 evidence) are all
+*composition* artifacts: they distort the unit aggregate while the starter-level evidence
+is fine. Rule: the dossier only moves by the disagreement **both views agree on**
+(sign-preserving minimum; zero when the views disagree in direction). Policy weights,
+info/academy halvings, and the ±8 cap unchanged. The five pinned manual overrides kept.
+
+**Result.** 51 of 256 blends amended — **all 51 toward the dossier** (mean 1.6 grade
+points, max 5), the exact signature of artifact-stripping. Four fully reverted
+(Coastal Carolina DB, New Mexico State DL, Florida LB, and the sign-disagreement cases).
+Equally important: cases flagged by intuition but *confirmed* by the starter view
+(Penn State QB, Western Michigan QB) kept their moves — the check cuts both ways.
+205 blends unchanged: both views independently agree on them.
+
+**Board effect: negligible.** v2.0 → v2.1 mean |Δfinal| = 0.036 pts; biggest mover New
+Mexico State +0.33. Stretch 1.1587, SD 13.13, census asserts pass, R² unchanged. All 14
+bets re-priced: no verdict changes; Florida conf U4.5 gives back ~0.3pp (its LB blend
+reverted); UCF conf O3.5 still THIN (mm +1.7%) — hold, no add. Final grade-change count
+vs v1: **299 units across 138 teams**, every one carrying either two-view formula
+agreement, a logged blend with robustness confirmation, or a hand adjudication.

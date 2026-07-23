@@ -2,20 +2,20 @@
  "team": "Rutgers",
  "units": {
   "QB": {
-   "grade": 56,
+   "grade": 55,
    "confidence": "M",
    "v1_grade": 52,
-   "adjudication": "50/50 blend: dg+14.7; info 0.20 \u2014 blend halved"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+13.0 vs full +14.7); sweep had 56"
   },
   "RB": {
    "grade": 74,
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 55,
+   "grade": 56,
    "confidence": "M",
    "v1_grade": 60,
-   "adjudication": "50/50 blend: dg-9.1"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-7.1 vs full -9.1); sweep had 55"
   },
   "OL": {
    "grade": 50,

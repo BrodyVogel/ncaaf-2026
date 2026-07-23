@@ -2,10 +2,10 @@
  "team": "Jacksonville State",
  "units": {
   "QB": {
-   "grade": 47,
+   "grade": 51,
    "confidence": "M",
    "v1_grade": 52,
-   "adjudication": "50/50 blend: dg-10.5"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-1.6 vs full -10.5); sweep had 47"
   },
   "RB": {
    "grade": 42,

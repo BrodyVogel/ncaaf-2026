@@ -1097,3 +1097,54 @@ Wyoming,DL,14,dg+6.8,14,L,T3 verified accept (within 1SD noise band)
 Wyoming,LB,16,dg+14.2; info 0.10 — blend halved,19,M,LB 0.4 blend
 Wyoming,DB,16,dg+6.1,16,M,T3 verified accept (within 1SD noise band)
 Wyoming,ST,16,no formula arm,16,M,T3 hold; news/media-days integrated
+Arizona,DL,48,AMENDED (dual-aggregation robustness): starter view smaller (-6.7 vs full -9.1); sweep had 43,45,M,reconciliation pass
+Arkansas State,RB,52,AMENDED (dual-aggregation robustness): starter view smaller (-6.1 vs full -9.7); sweep had 47,49,M,reconciliation pass
+Auburn,DL,54,AMENDED (dual-aggregation robustness): starter view smaller (+9.5 vs full +12.9); sweep had 60,59,M,reconciliation pass
+BYU,RB,82,AMENDED (dual-aggregation robustness): starter view smaller (-12.7 vs full -13.2); sweep had 75,76,M,reconciliation pass
+BYU,OL,68,AMENDED (dual-aggregation robustness): starter view smaller (-13.0 vs full -14.5); sweep had 61,62,M,reconciliation pass
+Boise State,DB,46,AMENDED (dual-aggregation robustness): starter view smaller (-9.0 vs full -9.3); sweep had 44,45,M,reconciliation pass
+Coastal Carolina,DL,48,AMENDED (dual-aggregation robustness): starter view smaller (+14.0 vs full +18.9); sweep had 56,55,M,reconciliation pass
+Coastal Carolina,DB,44,AMENDED (dual-aggregation robustness): starter view smaller (-1.5 vs full -15.0); sweep had 39,44,M,reconciliation pass
+Colorado,DL,55,AMENDED (dual-aggregation robustness): starter view smaller (+4.8 vs full +9.3); sweep had 60,57,M,reconciliation pass
+Colorado,DB,47,AMENDED (dual-aggregation robustness): starter view smaller (-6.5 vs full -9.1); sweep had 45,46,M,reconciliation pass
+Duke,WRTE,48,AMENDED (dual-aggregation robustness): starter view smaller (+8.4 vs full +13.2); sweep had 55,52,M,reconciliation pass
+Florida,LB,56,AMENDED (dual-aggregation robustness): views disagree (full -8.1 / starter +2.3) — no move; sweep had 53,56,M,reconciliation pass
+Fresno State,RB,46,AMENDED (dual-aggregation robustness): starter view smaller (-10.2 vs full -11.5); sweep had 40,41,M,reconciliation pass
+Fresno State,DB,44,AMENDED (dual-aggregation robustness): starter view smaller (-8.4 vs full -9.5); sweep had 42,43,M,reconciliation pass
+Houston,QB,62,AMENDED (dual-aggregation robustness): starter view smaller (+6.2 vs full +8.2); sweep had 66,65,M,reconciliation pass
+Jacksonville State,QB,52,AMENDED (dual-aggregation robustness): starter view smaller (-1.6 vs full -10.5); sweep had 47,51,M,reconciliation pass
+James Madison,OL,44,AMENDED (dual-aggregation robustness): starter view smaller (+11.8 vs full +15.3); sweep had 52,50,M,reconciliation pass
+Kansas State,QB,60,AMENDED (dual-aggregation robustness): starter view smaller (+9.8 vs full +11.8); sweep had 66,65,M,reconciliation pass
+Louisiana Tech,LB,46,AMENDED (dual-aggregation robustness): starter view smaller (+9.9 vs full +12.4); sweep had 51,50,M,reconciliation pass
+Miami (OH),DL,28,AMENDED (dual-aggregation robustness): starter view smaller (-12.3 vs full -13.2); sweep had 21,22,M,reconciliation pass
+Michigan State,DL,44,AMENDED (dual-aggregation robustness): starter view smaller (+10.4 vs full +12.2); sweep had 50,49,M,reconciliation pass
+Middle Tennessee,OL,30,AMENDED (dual-aggregation robustness): starter view smaller (+8.3 vs full +9.8); sweep had 35,34,M,reconciliation pass
+Middle Tennessee,LB,44,AMENDED (dual-aggregation robustness): starter view smaller (+9.4 vs full +12.4); sweep had 49,48,M,reconciliation pass
+Missouri,LB,54,AMENDED (dual-aggregation robustness): starter view smaller (+7.3 vs full +11.6); sweep had 59,57,M,reconciliation pass
+Missouri State,QB,42,AMENDED (dual-aggregation robustness): starter view smaller (+5.1 vs full +8.3); sweep had 46,45,M,reconciliation pass
+Missouri State,RB,44,AMENDED (dual-aggregation robustness): starter view smaller (+7.7 vs full +9.8); sweep had 49,48,M,reconciliation pass
+New Mexico,LB,44,AMENDED (dual-aggregation robustness): starter view smaller (-7.6 vs full -9.4); sweep had 40,41,M,reconciliation pass
+New Mexico State,WRTE,42,AMENDED (dual-aggregation robustness): starter view smaller (+9.8 vs full +18.7); sweep had 50,47,M,reconciliation pass
+New Mexico State,DL,40,AMENDED (dual-aggregation robustness): views disagree (full -9.2 / starter +5.4) — no move; sweep had 35,40,M,reconciliation pass
+North Texas,DL,15,AMENDED (dual-aggregation robustness): starter view smaller (-9.1 vs full -11.0); sweep had 12,13,M,reconciliation pass
+Ohio State,RB,76,AMENDED (dual-aggregation robustness): starter view smaller (-11.0 vs full -11.0); sweep had 70,71,M,reconciliation pass
+Oklahoma State,WRTE,55,AMENDED (dual-aggregation robustness): starter view smaller (+14.7 vs full +15.8); sweep had 63,62,M,reconciliation pass
+Old Dominion,WRTE,40,AMENDED (dual-aggregation robustness): starter view smaller (-8.5 vs full -10.9); sweep had 35,36,M,reconciliation pass
+Oregon,RB,80,AMENDED (dual-aggregation robustness): starter view smaller (-8.8 vs full -9.2); sweep had 75,76,M,reconciliation pass
+Oregon,DB,74,AMENDED (dual-aggregation robustness): starter view smaller (-8.0 vs full -9.3); sweep had 72,73,M,reconciliation pass
+Rutgers,QB,52,AMENDED (dual-aggregation robustness): starter view smaller (+13.0 vs full +14.7); sweep had 56,55,M,reconciliation pass
+Rutgers,WRTE,60,AMENDED (dual-aggregation robustness): starter view smaller (-7.1 vs full -9.1); sweep had 55,56,M,reconciliation pass
+South Alabama,DL,38,AMENDED (dual-aggregation robustness): starter view smaller (-6.0 vs full -9.1); sweep had 33,35,M,reconciliation pass
+Southern Miss,OL,40,AMENDED (dual-aggregation robustness): starter view smaller (+5.9 vs full +11.8); sweep had 46,43,M,reconciliation pass
+Stanford,QB,42,AMENDED (dual-aggregation robustness): starter view smaller (+14.3 vs full +16.0); sweep had 50,49,M,reconciliation pass
+Stanford,WRTE,44,AMENDED (dual-aggregation robustness): starter view smaller (+2.6 vs full +10.5); sweep had 49,45,M,reconciliation pass
+TCU,WRTE,50,AMENDED (dual-aggregation robustness): starter view smaller (+5.3 vs full +9.6); sweep had 52,51,M,reconciliation pass
+Temple,WRTE,55,AMENDED (dual-aggregation robustness): starter view smaller (+14.8 vs full +19.8); sweep had 63,62,M,reconciliation pass
+Texas A&M,LB,52,AMENDED (dual-aggregation robustness): starter view smaller (+11.5 vs full +14.4); sweep had 58,57,M,reconciliation pass
+Texas State,OL,44,AMENDED (dual-aggregation robustness): starter view smaller (-13.3 vs full -14.3); sweep had 40,41,M,reconciliation pass
+Troy,RB,42,AMENDED (dual-aggregation robustness): starter view smaller (-7.7 vs full -10.0); sweep had 37,38,M,reconciliation pass
+Tulane,LB,28,AMENDED (dual-aggregation robustness): starter view smaller (-15.8 vs full -16.4); sweep had 21,22,M,reconciliation pass
+UAB,WRTE,38,AMENDED (dual-aggregation robustness): starter view smaller (-6.8 vs full -8.7); sweep had 34,35,M,reconciliation pass
+UNLV,RB,30,AMENDED (dual-aggregation robustness): starter view smaller (+8.1 vs full +10.4); sweep had 35,34,M,reconciliation pass
+USC,DL,72,AMENDED (dual-aggregation robustness): starter view smaller (-9.9 vs full -11.3); sweep had 66,67,M,reconciliation pass
+Wisconsin,RB,58,AMENDED (dual-aggregation robustness): starter view smaller (-6.8 vs full -8.5); sweep had 54,55,M,reconciliation pass

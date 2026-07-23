@@ -2,20 +2,20 @@
  "team": "Stanford",
  "units": {
   "QB": {
-   "grade": 50,
+   "grade": 49,
    "confidence": "M",
    "v1_grade": 42,
-   "adjudication": "50/50 blend: dg+16.0"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+14.3 vs full +16.0); sweep had 50"
   },
   "RB": {
    "grade": 56,
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 49,
+   "grade": 45,
    "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "50/50 blend: dg+10.5"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+2.6 vs full +10.5); sweep had 49"
   },
   "OL": {
    "grade": 40,

@@ -2,16 +2,16 @@
  "team": "Missouri State",
  "units": {
   "QB": {
-   "grade": 46,
+   "grade": 45,
    "confidence": "M",
    "v1_grade": 42,
-   "adjudication": "50/50 blend: dg+8.3"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+5.1 vs full +8.3); sweep had 46"
   },
   "RB": {
-   "grade": 49,
+   "grade": 48,
    "confidence": "M",
    "v1_grade": 44,
-   "adjudication": "50/50 blend: dg+9.8"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (+7.7 vs full +9.8); sweep had 49"
   },
   "WRTE": {
    "grade": 46,

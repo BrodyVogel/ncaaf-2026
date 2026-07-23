@@ -12,10 +12,10 @@
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 34,
+   "grade": 35,
    "confidence": "M",
    "v1_grade": 38,
-   "adjudication": "50/50 blend: dg-8.7"
+   "adjudication": "reconciliation pass: AMENDED (dual-aggregation robustness): starter view smaller (-6.8 vs full -8.7); sweep had 34"
   },
   "OL": {
    "grade": 45,
