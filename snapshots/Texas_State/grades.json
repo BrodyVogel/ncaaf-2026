@@ -1,14 +1,46 @@
 {
  "team": "Texas State",
  "units": {
-  "QB": {"grade": 58, "confidence": "M"},
-  "RB": {"grade": 46, "confidence": "M"},
-  "WRTE": {"grade": 54, "confidence": "M"},
-  "OL": {"grade": 44, "confidence": "M"},
-  "DL": {"grade": 30, "confidence": "L"},
-  "LB": {"grade": 32, "confidence": "M"},
-  "DB": {"grade": 36, "confidence": "M"},
-  "ST": {"grade": 42, "confidence": "M"}
+  "QB": {
+   "grade": 50,
+   "confidence": "M",
+   "v1_grade": 58,
+   "adjudication": "50/50 blend: dg-16.9"
+  },
+  "RB": {
+   "grade": 40,
+   "confidence": "M",
+   "v1_grade": 46,
+   "adjudication": "50/50 blend: dg-13.0"
+  },
+  "WRTE": {
+   "grade": 46,
+   "confidence": "M",
+   "v1_grade": 54,
+   "adjudication": "50/50 blend: dg-18.7"
+  },
+  "OL": {
+   "grade": 40,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "50/50 blend: dg-14.3; info 0.18 \u2014 blend halved"
+  },
+  "DL": {
+   "grade": 30,
+   "confidence": "L"
+  },
+  "LB": {
+   "grade": 32,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 36,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 42,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-17",
@@ -16,19 +48,29 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; archetype-watch applied; percentile-mapped; SBC offsets - offense near-zero, defense discounted; disposition gate split yr4/portal before grading); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 58/RB 46/WRTE 54/OL 44/DL 30/LB 32/DB 36/ST 42)."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines (QB 58/RB 46/WRTE 54/OL 44/DL 30/LB 32/DB 36/ST 42)."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 65, RB 81, WRTE 69, OL 58, DL 17, LB 16, DB 6, ST 44) keys the as-played 2025 team tape.",
-   "RB": "-35 vs proxy 81 - proxy keys Pare's departed 1,128-yд workhorse tape; Burrell (efficient) becomes the lead but the proven volume left.",
-   "WRTE": "-15 vs proxy 69 - two real 1,000-yд receivers, but SBC-adjusted + a thin TE room cap the unit below the proxy.",
+   "RB": "-35 vs proxy 81 - proxy keys Pare's departed 1,128-y\u0434 workhorse tape; Burrell (efficient) becomes the lead but the proven volume left.",
+   "WRTE": "-15 vs proxy 69 - two real 1,000-y\u0434 receivers, but SBC-adjusted + a thin TE room cap the unit below the proxy.",
    "DL": "+13 vs proxy 17 - the proxy floors a gutted front; Collins + Owens (Arizona) + Woody give some floor.",
    "DB": "+30 vs proxy 6 - proxy keys the departed tape; Nolan (72.1) + Royal (69.3) are proven returners."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "Texas State", "unit": "QB", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["Hawai'i QB 2025 (38, round exemplar)", "South Carolina QB (p75, 81.1 table anchor)"],
+   "team": "Texas State",
+   "unit": "QB",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Hawai'i QB 2025 (38, round exemplar)",
+    "South Carolina QB (p75, 81.1 table anchor)"
+   ],
    "rationale_bullets": [
     "Brad Jackson returns (470 snaps 79.2 -> 78.2 SBC-adj; BOLD) - an elite dual-threat: 3,224 pass / 21 TD (71%) + 744 rush / 17 TD.",
     "'Kinne will finally have the same starter for consecutive seasons'; both magazines call Jackson 'one of the Pac-12's top QBs'.",
@@ -36,45 +78,102 @@
     "58: well above the proven-G5-starter tier (Hawai'i 38); below the P4-p75 rail. M on elite, settled tape."
    ],
    "key_players": [
-    {"name": "Brad Jackson", "role": "QB1 (returning, BOLD)", "evidence": "470 snaps 79.2 (78.2 SBC-adj); 3,224/21 + 744 rush/17"},
-    {"name": "Shaker Reisig", "role": "QB (transfer, Boston College)", "evidence": "insurance"}
+    {
+     "name": "Brad Jackson",
+     "role": "QB1 (returning, BOLD)",
+     "evidence": "470 snaps 79.2 (78.2 SBC-adj); 3,224/21 + 744 rush/17"
+    },
+    {
+     "name": "Shaker Reisig",
+     "role": "QB (transfer, Boston College)",
+     "evidence": "insurance"
+    }
    ],
-   "data_gaps": ["only one year as the starter"], "g5_guard_note": null
+   "data_gaps": [
+    "only one year as the starter"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Texas State", "unit": "RB", "grade": 46, "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32, exemplar anchor)", "Boise State RB 2026 (50, round peer)"],
+   "team": "Texas State",
+   "unit": "RB",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32, exemplar anchor)",
+    "Boise State RB 2026 (50, round peer)"
+   ],
    "rationale_bullets": [
     "Loses the workhorse Pare (1,128 yds, yr4) but Burrell returns (100 att 86.3 -> 84.3 SBC-adj; 671 @ 6.7 - elite efficiency) as the lead + KR Jenkins (withdrawal override) + Burgess.",
-    "In a RUN p87 / RBLK p76 scheme - 'Kinne always produces a 1,000-yд rusher' (PS).",
+    "In a RUN p87 / RBLK p76 scheme - 'Kinne always produces a 1,000-y\u0434 rusher' (PS).",
     "A high-grade, high-efficiency returning back in an elite run system, but the proven 210-att volume (Pare) is gone.",
     "46: above Illinois RB 32 on Burrell + scheme; below Boise 50 on the lost workhorse volume."
    ],
    "key_players": [
-    {"name": "Greg Burrell", "role": "RB1 (returning)", "evidence": "100 att 86.3 (84.3 SBC-adj); 671 @ 6.7"},
-    {"name": "Jaylen Jenkins", "role": "RB/KR (returning, withdrawal override)", "evidence": "led SBC in KR (27.0, 100-yд TD)"}
+    {
+     "name": "Greg Burrell",
+     "role": "RB1 (returning)",
+     "evidence": "100 att 86.3 (84.3 SBC-adj); 671 @ 6.7"
+    },
+    {
+     "name": "Jaylen Jenkins",
+     "role": "RB/KR (returning, withdrawal override)",
+     "evidence": "led SBC in KR (27.0, 100-y\u0434 TD)"
+    }
    ],
-   "data_gaps": ["lost the workhorse Pare", "Burrell unproven at high volume"], "g5_guard_note": null
+   "data_gaps": [
+    "lost the workhorse Pare",
+    "Burrell unproven at high volume"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Texas State", "unit": "WRTE", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50, exemplar anchor)", "Houston WRTE 2025 (78, exemplar anchor)"],
+   "team": "Texas State",
+   "unit": "WRTE",
+   "grade": 54,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50, exemplar anchor)",
+    "Houston WRTE 2025 (78, exemplar anchor)"
+   ],
    "rationale_bullets": [
-    "THE only FBS program with two 1,000-yд receivers in 2025 - Sparks (1,200; 78.8 SBC-adj; BOLD) + Dawn (1,007; 73.6; BOLD) - both return as seniors. + TE Blake Smith (58.3; BOLD) + transfers D.Jackson (MSU), Z.Sample (ASU).",
+    "THE only FBS program with two 1,000-y\u0434 receivers in 2025 - Sparks (1,200; 78.8 SBC-adj; BOLD) + Dawn (1,007; 73.6; BOLD) - both return as seniors. + TE Blake Smith (58.3; BOLD) + transfers D.Jackson (MSU), Z.Sample (ASU).",
     "Two genuine 72+ receivers returning - the Houston-WRTE '2 at 72+' shape - exceptional for G5; the near-zero SBC-WR offset keeps the grades intact.",
     "Capped below the P4 exemplars by a thinner TE room + RECV p40 as-played.",
-    "54: above Nebraska WRTE 50 on the two 1,000-yд receivers; well below Houston 78 (P4 + deeper)."
+    "54: above Nebraska WRTE 50 on the two 1,000-y\u0434 receivers; well below Houston 78 (P4 + deeper)."
    ],
    "key_players": [
-    {"name": "Beau Sparks", "role": "WR1 (returning, BOLD)", "evidence": "434 routes 79.5 (78.8 adj); 1,200 yds"},
-    {"name": "Chris Dawn Jr.", "role": "WR2 (returning, BOLD)", "evidence": "359 routes 74.3 (73.6 adj); 1,007 yds"},
-    {"name": "Blake Smith", "role": "TE (returning, BOLD)", "evidence": "152 routes 59.0 (58.3 adj)"}
+    {
+     "name": "Beau Sparks",
+     "role": "WR1 (returning, BOLD)",
+     "evidence": "434 routes 79.5 (78.8 adj); 1,200 yds"
+    },
+    {
+     "name": "Chris Dawn Jr.",
+     "role": "WR2 (returning, BOLD)",
+     "evidence": "359 routes 74.3 (73.6 adj); 1,007 yds"
+    },
+    {
+     "name": "Blake Smith",
+     "role": "TE (returning, BOLD)",
+     "evidence": "152 routes 59.0 (58.3 adj)"
+    }
    ],
-   "data_gaps": ["thin TE beyond Smith", "RECV p40 as-played"], "g5_guard_note": null
+   "data_gaps": [
+    "thin TE beyond Smith",
+    "RECV p40 as-played"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Texas State", "unit": "OL", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25, exemplar anchor)", "Michigan OL (p50, 65.5 table anchor)"],
+   "team": "Texas State",
+   "unit": "OL",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25, exemplar anchor)",
+    "Michigan OL (p50, 65.5 table anchor)"
+   ],
    "rationale_bullets": [
     "PBLK p92 (elite pass pro). Keeps Burns (LT, 68.3 adj; BOLD) + DeLeon (C, 66.8) but loses Strawn (75.6, yr4) + Riker (C -> Penn State) + Lockette (-> Maryland) + Obigbo/Moeolo (yr4).",
     "Rebuilt with P4 transfers: Early (Missouri), R.Jackson (TCU), Boone (UNC) + Schultz/Badusi.",
@@ -82,15 +181,37 @@
     "44: above the WKU-25 rail on the pedigree + transfer quality; below the p50 line on three new starters."
    ],
    "key_players": [
-    {"name": "Sully Burns", "role": "LT (returning, BOLD)", "evidence": "937 snaps 68.6 (68.3 SBC-adj)"},
-    {"name": "Justin DeLeon", "role": "C (returning)", "evidence": "421 snaps 67.1 (66.8 adj)"},
-    {"name": "Rasheed Jackson", "role": "RT (transfer, TCU)", "evidence": "projected starter"}
+    {
+     "name": "Sully Burns",
+     "role": "LT (returning, BOLD)",
+     "evidence": "937 snaps 68.6 (68.3 SBC-adj)"
+    },
+    {
+     "name": "Justin DeLeon",
+     "role": "C (returning)",
+     "evidence": "421 snaps 67.1 (66.8 adj)"
+    },
+    {
+     "name": "Rasheed Jackson",
+     "role": "RT (transfer, TCU)",
+     "evidence": "projected starter"
+    }
    ],
-   "data_gaps": ["three new starters (LG, RG, RT)", "lost the best OL grade (Strawn, yr4)"], "g5_guard_note": null
+   "data_gaps": [
+    "three new starters (LG, RG, RT)",
+    "lost the best OL grade (Strawn, yr4)"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Texas State", "unit": "DL", "grade": 30, "confidence": "L",
-   "bracketing_exemplars": ["Buffalo DL (p10, 57.2 table anchor)", "East Carolina DL (p25, 60.5 table anchor)"],
+   "team": "Texas State",
+   "unit": "DL",
+   "grade": 30,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Buffalo DL (p10, 57.2 table anchor)",
+    "East Carolina DL (p25, 60.5 table anchor)"
+   ],
    "rationale_bullets": [
     "The elite pass rush (PRSH p96) is GUTTED - 'lose 6 DL' (PS): T.Jackson (76.6, none), Alexander (68.7, none), Snyder (74.4, yr4), Sanders (77.6 -> FSU), Woods (74.2 -> Clemson), K.Washington (70.8 -> Baylor).",
     "Keeps Russell (58.4 adj) + Collins (65.4) + Carter (55.5; BOLD, override) + adds Woody (ULM), Owens (Arizona 75.3), Bradford (McNeese), James (Arkansas).",
@@ -98,15 +219,37 @@
     "30: near the p10-25 tier - Collins + Owens the upside; a gutted, unproven rebuild. L."
    ],
    "key_players": [
-    {"name": "Ta'Derius Collins", "role": "EDGE (returning)", "evidence": "155 snaps 71.9 (65.4 adj)"},
-    {"name": "Chancellor Owens", "role": "DT (transfer, Arizona)", "evidence": "32 snaps 75.3 (tiny)"},
-    {"name": "Bryce Carter", "role": "DT (returning, BOLD, yr4 override)", "evidence": "312 snaps 62.0 (55.5 adj)"}
+    {
+     "name": "Ta'Derius Collins",
+     "role": "EDGE (returning)",
+     "evidence": "155 snaps 71.9 (65.4 adj)"
+    },
+    {
+     "name": "Chancellor Owens",
+     "role": "DT (transfer, Arizona)",
+     "evidence": "32 snaps 75.3 (tiny)"
+    },
+    {
+     "name": "Bryce Carter",
+     "role": "DT (returning, BOLD, yr4 override)",
+     "evidence": "312 snaps 62.0 (55.5 adj)"
+    }
    ],
-   "data_gaps": ["six DL gone (3 to P4)", "rebuilt with unproven transfers"], "g5_guard_note": null
+   "data_gaps": [
+    "six DL gone (3 to P4)",
+    "rebuilt with unproven transfers"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Texas State", "unit": "LB", "grade": 32, "confidence": "M",
-   "bracketing_exemplars": ["Nevada LB (p25, 56.3 table anchor)", "UNLV LB 2025 (40, exemplar anchor)"],
+   "team": "Texas State",
+   "unit": "LB",
+   "grade": 32,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nevada LB (p25, 56.3 table anchor)",
+    "UNLV LB 2025 (40, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Keeps 2 of the 'top-6 tacklers' - Cooks (61.0 adj; yr4 override) + Jones (53.1; BOLD) - + Nilles (57.2) + Ark St transfers Mackey (MLB) + Sample.",
     "Loses the best LB Payne (77.8, yr4) + Boudoin (yr4) + C.Johnson (-> North Texas).",
@@ -114,15 +257,37 @@
     "32: below the UNLV-40 tier - solid returners dragged by the harsh SBC-LB adjustment + the lost standout."
    ],
    "key_players": [
-    {"name": "Terrence Cooks II", "role": "ILB (returning, yr4 override)", "evidence": "325 snaps 69.2 (61.0 adj); top-6 tackler"},
-    {"name": "Ayden Jones", "role": "ILB (returning, BOLD)", "evidence": "454 snaps 61.3 (53.1 adj)"},
-    {"name": "Javante Mackey", "role": "MLB (transfer, Arkansas State)", "evidence": "153 snaps 63.1"}
+    {
+     "name": "Terrence Cooks II",
+     "role": "ILB (returning, yr4 override)",
+     "evidence": "325 snaps 69.2 (61.0 adj); top-6 tackler"
+    },
+    {
+     "name": "Ayden Jones",
+     "role": "ILB (returning, BOLD)",
+     "evidence": "454 snaps 61.3 (53.1 adj)"
+    },
+    {
+     "name": "Javante Mackey",
+     "role": "MLB (transfer, Arkansas State)",
+     "evidence": "153 snaps 63.1"
+    }
    ],
-   "data_gaps": ["lost the standout Payne (yr4)", "harsh SBC-LB offset"], "g5_guard_note": null
+   "data_gaps": [
+    "lost the standout Payne (yr4)",
+    "harsh SBC-LB offset"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Texas State", "unit": "DB", "grade": 36, "confidence": "M",
-   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6, exemplar anchor)", "UNLV DB (p25, 62.8 table anchor)"],
+   "team": "Texas State",
+   "unit": "DB",
+   "grade": 36,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "UNLV DB (p25, 62.8 table anchor)"
+   ],
    "rationale_bullets": [
     "Keeps two good returners - Nolan (S, 72.1 adj; BOLD, withdrawal override, '#2 tackler') + Royal (CB, 69.3) - + Atwood (55.5; BOLD) + C.Jones (62.3) + transfers Ricks (Liberty), Smith (CSU), Moore.",
     "Loses Terrell (-> Wazzu), Mynatt (-> JMU), Rios (74.2, yr4), Crosby (none).",
@@ -130,27 +295,64 @@
     "36: above the FAU-6 rail on Nolan + Royal; below the p25 rail on the weak coverage base + the losses."
    ],
    "key_players": [
-    {"name": "Ryan Nolan", "role": "S (returning, BOLD, withdrawal override)", "evidence": "681 snaps 75.7 (72.1 adj); #2 tackler"},
-    {"name": "Craig Royal Jr.", "role": "CB (returning)", "evidence": "311 snaps 72.9 (69.3 adj)"},
-    {"name": "Amarion Atwood", "role": "NB (returning, BOLD)", "evidence": "438 snaps 59.1 (55.5 adj)"}
+    {
+     "name": "Ryan Nolan",
+     "role": "S (returning, BOLD, withdrawal override)",
+     "evidence": "681 snaps 75.7 (72.1 adj); #2 tackler"
+    },
+    {
+     "name": "Craig Royal Jr.",
+     "role": "CB (returning)",
+     "evidence": "311 snaps 72.9 (69.3 adj)"
+    },
+    {
+     "name": "Amarion Atwood",
+     "role": "NB (returning, BOLD)",
+     "evidence": "438 snaps 59.1 (55.5 adj)"
+    }
    ],
-   "data_gaps": ["COV p39 base", "lost 5 DBs"], "g5_guard_note": null
+   "data_gaps": [
+    "COV p39 base",
+    "lost 5 DBs"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Texas State", "unit": "ST", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["Fresno State ST 2026 (48, round peer)", "Colorado State ST 2026 (20, round peer)"],
+   "team": "Texas State",
+   "unit": "ST",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Fresno State ST 2026 (48, round peer)",
+    "Colorado State ST 2026 (20, round peer)"
+   ],
    "rationale_bullets": [
     "New K Cunanan (Toledo, 23-32 = 72% FG - decent) + Australian Fr P Flintoff; both prior kickers left for P4 programs.",
-    "KR Jenkins led the SBC (27.0, 100-yд TD) + PR Sparks - a genuine return-game strength. SPEC p44.",
+    "KR Jenkins led the SBC (27.0, 100-y\u0434 TD) + PR Sparks - a genuine return-game strength. SPEC p44.",
     "A solid-if-unproven new kicker + a freshman punter - ST driven by specialists + returners (calib) - middling with a return-game asset.",
     "42: average - the elite KR the differentiator; the new K/P unproven."
    ],
    "key_players": [
-    {"name": "Dylan Cunanan", "role": "K (transfer, Toledo)", "evidence": "23-32 FG (72%) over 2 yr"},
-    {"name": "Jaylen Jenkins", "role": "KR (returning)", "evidence": "led SBC in KR (27.0); 100-yд TD"},
-    {"name": "Beau Sparks", "role": "PR (returning)", "evidence": "return-game asset"}
+    {
+     "name": "Dylan Cunanan",
+     "role": "K (transfer, Toledo)",
+     "evidence": "23-32 FG (72%) over 2 yr"
+    },
+    {
+     "name": "Jaylen Jenkins",
+     "role": "KR (returning)",
+     "evidence": "led SBC in KR (27.0); 100-y\u0434 TD"
+    },
+    {
+     "name": "Beau Sparks",
+     "role": "PR (returning)",
+     "evidence": "return-game asset"
+    }
    ],
-   "data_gaps": ["new K + freshman P unproven"], "g5_guard_note": null
+   "data_gaps": [
+    "new K + freshman P unproven"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

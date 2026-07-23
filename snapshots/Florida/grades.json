@@ -1,14 +1,42 @@
 {
  "team": "Florida",
  "units": {
-  "QB": {"grade": 48, "confidence": "L"},
-  "RB": {"grade": 60, "confidence": "M"},
-  "WRTE": {"grade": 50, "confidence": "M"},
-  "OL": {"grade": 44, "confidence": "L"},
-  "DL": {"grade": 54, "confidence": "M"},
-  "LB": {"grade": 56, "confidence": "M"},
-  "DB": {"grade": 50, "confidence": "M"},
-  "ST": {"grade": 56, "confidence": "M"}
+  "QB": {
+   "grade": 48,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 60,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 44,
+   "confidence": "L"
+  },
+  "DL": {
+   "grade": 54,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 53,
+   "confidence": "M",
+   "v1_grade": 56,
+   "adjudication": "LB 0.4 blend: dg-8.1"
+  },
+  "DB": {
+   "grade": 54,
+   "confidence": "M",
+   "v1_grade": 50,
+   "adjudication": "split; conf U4.5 hurt slightly: dg+10"
+  },
+  "ST": {
+   "grade": 56,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,7 +44,9 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells weighted DOWN; small samples discounted], arrivals on origin cells; NEW HC Sumrall -> coach_change band x1.13, new OC Faulkner + DC White; disposition gate 39 rows / 0 adjudicate / 0 err - Lagway->Baylor, Slaughter/Barber/Banks/Gumbs/Devin Moore all yr4+print-confirmed GONE, Woods portal-withdrawal, Taylor GONE; Eric Singleton cross-build tie from Auburn); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16).",
-  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB48/RB60/WRTE50/OL44/DL54/LB56/DB50/ST56, sum 418). No post-freeze corrections."},
+  "planned_vs_final_deviations": {
+   "note": "finals match the dossier planned lines exactly (QB48/RB60/WRTE50/OL44/DL54/LB56/DB50/ST56, sum 418). No post-freeze corrections."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB None, RB 88, WRTE 57, OL 40, DL 58, LB 74, DB 75, ST 36) keys the '25 roster; the grades keep the spine + reset QB/OL + trim DB for the top-CB loss.",
    "QB": "proxy None - Lagway gone; the grade keys the Philo/Jones battle (tiny samples).",
@@ -25,11 +55,20 @@
    "DB": "-25 vs proxy 75 - proxy over-credits the '25 back seven; the grade trims for the top-CB loss (Devin Moore, pro) + the thin corner room.",
    "LB": "-18 vs proxy 74 - both credit the returning trio; the grade sets it as the team's best unit (56) with the SEC LB cell weighted down.",
    "ST": "+20 vs proxy 36 - proxy keys the '25 unit; Durkin + Clark (Tulane) upgrade it."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
-  {"team": "Florida", "unit": "QB", "grade": 48, "confidence": "L",
-   "bracketing_exemplars": ["Iowa State QB 2026 (48, peer)", "TCU QB 2026 (46, below)"],
+  {
+   "team": "Florida",
+   "unit": "QB",
+   "grade": 48,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Iowa State QB 2026 (48, peer)",
+    "TCU QB 2026 (46, below)"
+   ],
    "rationale_bullets": [
     "Aaron Philo (Georgia Tech, 76.3/32 tiny -> ACC; Faulkner's former backup, knows the system) vs Tramell Jones Jr. (returning RS-fr, 65.0/43 tiny; Top250).",
     "DJ Lagway (66.7/401, former #1 recruit) GONE -> Baylor after regressing.",
@@ -37,12 +76,32 @@
     "48: ~Iowa State QB 48; above TCU 46. System continuity (Philo) the one plus. L."
    ],
    "key_players": [
-    {"name": "Aaron Philo", "role": "QB (transfer, Georgia Tech)", "evidence": "76.3/32 tiny; Faulkner's former backup; system fit"},
-    {"name": "Tramell Jones Jr.", "role": "QB (returning RS-fr)", "evidence": "65.0/43 tiny; Lagway's backup; Top250"}
+    {
+     "name": "Aaron Philo",
+     "role": "QB (transfer, Georgia Tech)",
+     "evidence": "76.3/32 tiny; Faulkner's former backup; system fit"
+    },
+    {
+     "name": "Tramell Jones Jr.",
+     "role": "QB (returning RS-fr)",
+     "evidence": "65.0/43 tiny; Lagway's backup; Top250"
+    }
    ],
-   "data_gaps": ["Lagway (the talent) left", "both options tiny samples"], "g5_guard_note": null},
-  {"team": "Florida", "unit": "RB", "grade": 60, "confidence": "M",
-   "bracketing_exemplars": ["Virginia Tech RB 2026 (60, peer)", "Florida State RB 2026 (58, below)"],
+   "data_gaps": [
+    "Lagway (the talent) left",
+    "both options tiny samples"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Florida",
+   "unit": "RB",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Virginia Tech RB 2026 (60, peer)",
+    "Florida State RB 2026 (58, below)"
+   ],
    "rationale_bullets": [
     "Jadan Baugh (87.7/221 -> SEC +10.17 weighted -> elite; one of the SEC's top backs - 266 vs FSU, 1,000+ yds, 'Fab Five' retention) + Evan Pryor (Cincinnati, 73.8/76 -> B12 weighted; home-run threat) + frosh/ECU depth.",
     "A genuinely elite lead back - a proven SEC workhorse with a strong grade + real volume - plus a dynamic transfer complement.",
@@ -50,12 +109,31 @@
     "60: ~Virginia Tech RB 60; above FSU 58. The elite-back tier; Baugh carries it. M."
    ],
    "key_players": [
-    {"name": "Jadan Baugh", "role": "RB1 (returning)", "evidence": "87.7/221 (SEC-adj elite); 266 vs FSU; Fab Five retention"},
-    {"name": "Evan Pryor", "role": "RB (transfer, Cincinnati)", "evidence": "73.8/76; home-run run/receive threat"}
+    {
+     "name": "Jadan Baugh",
+     "role": "RB1 (returning)",
+     "evidence": "87.7/221 (SEC-adj elite); 266 vs FSU; Fab Five retention"
+    },
+    {
+     "name": "Evan Pryor",
+     "role": "RB (transfer, Cincinnati)",
+     "evidence": "73.8/76; home-run run/receive threat"
+    }
    ],
-   "data_gaps": ["behind a rebuilt OL"], "g5_guard_note": null},
-  {"team": "Florida", "unit": "WRTE", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Kansas State WRTE 2026 (52, above)", "Louisville WRTE 2026 (48, below)"],
+   "data_gaps": [
+    "behind a rebuilt OL"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Florida",
+   "unit": "WRTE",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Kansas State WRTE 2026 (52, above)",
+    "Louisville WRTE 2026 (48, below)"
+   ],
    "rationale_bullets": [
     "Vernell Brown III (65.1/247 -> SEC 71.0 adj; rising) + Dallas Wilson (67.8/89 -> 73.7 adj small sample; rising) + Eric Singleton Jr. (Auburn, 64.5/345 -> SEC 70.4 adj; Faulkner ties) + TE Lacota Dippre (JMU, 72.0/162) + Mays (Wake) + Harpring (GT TE).",
     "Two ascending young returners + a proven SEC-transfer WR + a solid transfer TE.",
@@ -63,12 +141,32 @@
     "50: below Kansas State WRTE 52; above Louisville 48. The QB question + youth cap it. M."
    ],
    "key_players": [
-    {"name": "Vernell Brown III", "role": "WR (returning)", "evidence": "65.1/247 (71.0 SEC-adj); rising star"},
-    {"name": "Eric Singleton Jr.", "role": "WR (transfer, Auburn)", "evidence": "64.5/345 (70.4 SEC-adj); Faulkner ties (played for him at GT)"}
+    {
+     "name": "Vernell Brown III",
+     "role": "WR (returning)",
+     "evidence": "65.1/247 (71.0 SEC-adj); rising star"
+    },
+    {
+     "name": "Eric Singleton Jr.",
+     "role": "WR (transfer, Auburn)",
+     "evidence": "64.5/345 (70.4 SEC-adj); Faulkner ties (played for him at GT)"
+    }
    ],
-   "data_gaps": ["RECV p27 in '25", "unsettled QB feeding it"], "g5_guard_note": null},
-  {"team": "Florida", "unit": "OL", "grade": 44, "confidence": "L",
-   "bracketing_exemplars": ["NC State OL 2026 (46, above)", "Florida State OL 2026 (40, below)"],
+   "data_gaps": [
+    "RECV p27 in '25",
+    "unsettled QB feeding it"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Florida",
+   "unit": "OL",
+   "grade": 44,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "NC State OL 2026 (46, above)",
+    "Florida State OL 2026 (40, below)"
+   ],
    "rationale_bullets": [
     "Knijeah Harris (65.1/672 -> SEC weighted DOWN; 3-yr starting G) + Caden Jones (54.2/541 returning RT) + transfers Harrison Moore (GT, 64.0/682 C) + TJ Shanahan (Penn St, 63.8/419 G) + Emeka Ugorji (Stanford, 46.5/523 T).",
     "LOST All-American C Slaughter (79.3) + NFL LT Barber (83.5) + a third starter.",
@@ -76,12 +174,32 @@
     "44: below NC State OL 46; above FSU 40. Star-power loss + transfer-rebuild caps it; LT/pass pro the swings. L."
    ],
    "key_players": [
-    {"name": "Knijeah Harris", "role": "G (returning, 3-yr starter)", "evidence": "65.1/672 (SEC-adj weighted)"},
-    {"name": "Harrison Moore", "role": "C (transfer, Georgia Tech)", "evidence": "64.0/682; starting experience"}
+    {
+     "name": "Knijeah Harris",
+     "role": "G (returning, 3-yr starter)",
+     "evidence": "65.1/672 (SEC-adj weighted)"
+    },
+    {
+     "name": "Harrison Moore",
+     "role": "C (transfer, Georgia Tech)",
+     "evidence": "64.0/682; starting experience"
+    }
    ],
-   "data_gaps": ["lost All-American C + NFL LT + a 3rd starter", "LT + pass pro unproven"], "g5_guard_note": null},
-  {"team": "Florida", "unit": "DL", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["Rutgers DL 2026 (54, peer)", "UCLA DL 2026 (56, above)"],
+   "data_gaps": [
+    "lost All-American C + NFL LT + a 3rd starter",
+    "LT + pass pro unproven"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Florida",
+   "unit": "DL",
+   "grade": 54,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Rutgers DL 2026 (54, peer)",
+    "UCLA DL 2026 (56, above)"
+   ],
    "rationale_bullets": [
     "Emmanuel Oyebadejo (Jax St, 80.2/653 -> CUSA -7.88 weighted -> ~72; 1st-team All-CUSA, 6-6 303) + Kamran James (68.3/402 returning, tied team sack lead) + Jayden Woods (69.8/448 returning; SEC All-Frosh edge) + Brendan Bett (66.6/346 -> starting NT) + LJ McCray (5-star, injury return) + McCloud/Mbatchou.",
     "LOST Banks + Gumbs (both DRAFTED) + Boireau (-> Ole Miss) + Sapp.",
@@ -89,12 +207,32 @@
     "54: ~Rutgers DL 54; below UCLA 56. The drafted losses + weighted CUSA tape cap it. M."
    ],
    "key_players": [
-    {"name": "Emmanuel Oyebadejo", "role": "ED (transfer, Jacksonville State)", "evidence": "80.2/653 (CUSA weighted ~72); 1st-team All-CUSA; 6-6 303"},
-    {"name": "Kamran James", "role": "DE (returning)", "evidence": "68.3/402; tied team sack lead"}
+    {
+     "name": "Emmanuel Oyebadejo",
+     "role": "ED (transfer, Jacksonville State)",
+     "evidence": "80.2/653 (CUSA weighted ~72); 1st-team All-CUSA; 6-6 303"
+    },
+    {
+     "name": "Kamran James",
+     "role": "DE (returning)",
+     "evidence": "68.3/402; tied team sack lead"
+    }
    ],
-   "data_gaps": ["lost 2 drafted linemen (Banks/Gumbs)", "PRSH p28 base; McCray health"], "g5_guard_note": null},
-  {"team": "Florida", "unit": "LB", "grade": 56, "confidence": "M",
-   "bracketing_exemplars": ["SMU LB 2026 (56, peer)", "Clemson LB 2026 (54, below)"],
+   "data_gaps": [
+    "lost 2 drafted linemen (Banks/Gumbs)",
+    "PRSH p28 base; McCray health"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Florida",
+   "unit": "LB",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "SMU LB 2026 (56, peer)",
+    "Clemson LB 2026 (54, below)"
+   ],
    "rationale_bullets": [
     "Myles Graham (71.9/618 -> SEC +14.01 weighted -> ~80; team-high 76 tkl - the leader) + Aaron Chiles (60.9/472; 50+ tkl) + Jaden Robinson (54.0/491; 50+ tkl) + Ty Jackson (Top100).",
     "THE strength - three returning starters, 'no questions' (Athlon + P6 both call it a top unit).",
@@ -102,12 +240,31 @@
     "56: ~SMU LB 56; above Clemson 54. The team's best unit; the depth grades cap it below elite. M."
    ],
    "key_players": [
-    {"name": "Myles Graham", "role": "LB1 (returning)", "evidence": "71.9/618 (SEC-adj ~80); team-high 76 tackles"},
-    {"name": "Aaron Chiles", "role": "LB (returning)", "evidence": "60.9/472; 50+ tackles"}
+    {
+     "name": "Myles Graham",
+     "role": "LB1 (returning)",
+     "evidence": "71.9/618 (SEC-adj ~80); team-high 76 tackles"
+    },
+    {
+     "name": "Aaron Chiles",
+     "role": "LB (returning)",
+     "evidence": "60.9/472; 50+ tackles"
+    }
    ],
-   "data_gaps": ["Robinson/Chiles grades modest"], "g5_guard_note": null},
-  {"team": "Florida", "unit": "DB", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Baylor DB 2026 (52, above)", "Pittsburgh DB 2026 (50, peer)"],
+   "data_gaps": [
+    "Robinson/Chiles grades modest"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Florida",
+   "unit": "DB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Baylor DB 2026 (52, above)",
+    "Pittsburgh DB 2026 (50, peer)"
+   ],
    "rationale_bullets": [
     "Bryce Thornton (78.3/681 -> SEC +5.44 -> 83.7 adj; proven playmaker SS) + DJ Coleman (Baylor, 70.0/593 -> 71.9 adj) + Cormani McClain (68.5/460 -> 73.9 adj; former 5-star, breakout '25) + Dijon Johnson (injury return) + Ben Hanks III (RS-fr) + Cam Dooley (Kentucky).",
     "LOST top CB Devin Moore (83.0, pro) + Castell + Denson.",
@@ -115,12 +272,32 @@
     "50: ~Pittsburgh DB 50; below Baylor 52. Thornton + McClain vs the top-CB loss + the thin corner room. M."
    ],
    "key_players": [
-    {"name": "Bryce Thornton", "role": "S (returning)", "evidence": "78.3/681 (83.7 SEC-adj); proven playmaker"},
-    {"name": "Cormani McClain", "role": "CB (returning)", "evidence": "68.5/460 (73.9 SEC-adj); former 5-star, breakout '25"}
+    {
+     "name": "Bryce Thornton",
+     "role": "S (returning)",
+     "evidence": "78.3/681 (83.7 SEC-adj); proven playmaker"
+    },
+    {
+     "name": "Cormani McClain",
+     "role": "CB (returning)",
+     "evidence": "68.5/460 (73.9 SEC-adj); former 5-star, breakout '25"
+    }
    ],
-   "data_gaps": ["top CB Devin Moore went pro", "thin at corner; COV p42"], "g5_guard_note": null},
-  {"team": "Florida", "unit": "ST", "grade": 56, "confidence": "M",
-   "bracketing_exemplars": ["Minnesota ST 2026 (56, peer)", "Washington ST 2026 (58, above)"],
+   "data_gaps": [
+    "top CB Devin Moore went pro",
+    "thin at corner; COV p42"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Florida",
+   "unit": "ST",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Minnesota ST 2026 (56, peer)",
+    "Washington ST 2026 (58, above)"
+   ],
    "rationale_bullets": [
     "Patrick Durkin (K - 25-of-28 FG / 89% in '25, followed Sumrall from Tulane) + Alec Clark (P - 46.5 avg, Tulane) + Vernell Brown (dangerous KR).",
     "SPEC was only p36 in '25; this is an upgrade.",
@@ -128,9 +305,21 @@
     "56: ~Minnesota ST 56; below Washington 58. Above-average, specialist-driven (calib). M."
    ],
    "key_players": [
-    {"name": "Patrick Durkin", "role": "K (transfer, Tulane)", "evidence": "25-of-28 FG (89%) in '25"},
-    {"name": "Alec Clark", "role": "P (transfer, Tulane)", "evidence": "46.5 yards/punt"}
+    {
+     "name": "Patrick Durkin",
+     "role": "K (transfer, Tulane)",
+     "evidence": "25-of-28 FG (89%) in '25"
+    },
+    {
+     "name": "Alec Clark",
+     "role": "P (transfer, Tulane)",
+     "evidence": "46.5 yards/punt"
+    }
    ],
-   "data_gaps": ["specialists new to the SEC"], "g5_guard_note": null}
+   "data_gaps": [
+    "specialists new to the SEC"
+   ],
+   "g5_guard_note": null
+  }
  ]
 }

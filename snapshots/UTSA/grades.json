@@ -6,16 +6,22 @@
    "confidence": "M"
   },
   "RB": {
-   "grade": 58,
-   "confidence": "M"
+   "grade": 63,
+   "confidence": "M",
+   "v1_grade": 58,
+   "adjudication": "50/50 blend: dg+10.6"
   },
   "WRTE": {
-   "grade": 48,
-   "confidence": "M"
+   "grade": 54,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "50/50 blend: dg+11.2"
   },
   "OL": {
-   "grade": 30,
-   "confidence": "L"
+   "grade": 22,
+   "confidence": "M",
+   "v1_grade": 30,
+   "adjudication": "50/50 blend: dg-16.8"
   },
   "DL": {
    "grade": 18,
@@ -49,7 +55,9 @@
   },
   "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +High RB 54.0/23 (Cal) - confirms the 'usage minimal' discount already in the rationale; +Osondu LB 1 snap (inert). No changes.",
   "departure_correction_2026_07_15": "Overmyer->Houston, Anyanwu->Virginia (feed destinations); Wyrick portal-no-dest + absent from Athlon chart = gone; McCuin->Ohio St per PS. WRTE 52->48, DL 22->20, DB 28->23. departure_check.py now a permanent gate.",
-  "departure_correction_3_2026_07_15": "Vic Shaw -> NMSU (was cited as returning under PS's 'Vie' variant + my invented first names blinded the gate). DL 20 -> 18. Names corrected: Jameian Buxton, AJ Wilson, Cam Upshaw Jr."
+  "departure_correction_3_2026_07_15": "Vic Shaw -> NMSU (was cited as returning under PS's 'Vie' variant + my invented first names blinded the gate). DL 20 -> 18. Names corrected: Jameian Buxton, AJ Wilson, Cam Upshaw Jr.",
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

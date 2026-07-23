@@ -6,8 +6,10 @@
    "confidence": "M"
   },
   "RB": {
-   "grade": 52,
-   "confidence": "M"
+   "grade": 58,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "formula evidence strong; U5.5 hurt slightly: dg+17: Cam Cook (FBS rush leader) real volume"
   },
   "WRTE": {
    "grade": 44,
@@ -46,7 +48,9 @@
    "DB": "+11 vs proxy 29 (proxy prices the 10th-pctile COV holdovers; Wilson 74.2/801 + Latimer + volume adds are new information)",
    "DL": "+9 vs proxy 33 (all-new rotation with all-league G5 edges vs the departed 46th-pctile group)",
    "ST": "-19 vs proxy 61 (proxy rides the departed specialists; both new legs, unproven FG job)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -202,7 +206,7 @@
    "rationale_bullets": [
     "All four starters and the top six trench players are gone - All-B12 Vesterinen (71.6/553) graduated; Siders/Grant/Kelly expired; Redwood, Russell, Jones portaled - 7 DL and 48 starts out.",
     "The reload: Gabriel (64.1/287) projected at NT, all-league G5 ends Holloman (70.7/805; 5.5 TFL - 'a major disruptor' per Athlon) and Durham-Campbell (3rd-team SBC; 5 sacks), Haastrup (Oregon Top250), Afogho (66.1/481), JUCO All-American Henson plus a premium JUCO class (PS#3/31/33/69).",
-    "The books split: P6 'an upgraded room from 2025 despite the loss'; PS 'should at least equal last year… size up front could be a concern.'",
+    "The books split: P6 'an upgraded room from 2025 despite the loss'; PS 'should at least equal last year\u2026 size up front could be a concern.'",
     "42 = below average from a 46th-pctile RDEF/26th PRSH base: plausible parity, zero proven P4 pieces."
    ],
    "key_players": [

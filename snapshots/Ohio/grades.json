@@ -1,14 +1,38 @@
 {
  "team": "Ohio",
  "units": {
-  "QB": {"grade": 22, "confidence": "L"},
-  "RB": {"grade": 20, "confidence": "M"},
-  "WRTE": {"grade": 16, "confidence": "M"},
-  "OL": {"grade": 12, "confidence": "M"},
-  "DL": {"grade": 18, "confidence": "M"},
-  "LB": {"grade": 40, "confidence": "M"},
-  "DB": {"grade": 22, "confidence": "M"},
-  "ST": {"grade": 24, "confidence": "M"}
+  "QB": {
+   "grade": 22,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 20,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 16,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 12,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 18,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 22,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 24,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -24,7 +48,9 @@
    "LB": "-7 vs proxy 47 - near-agreement (the returning trio is feed-visible)",
    "ST": "+1 vs proxy 23 - rare convergence",
    "DB": "+10 vs proxy 12 (proxy counts departed Thomeson/Pearson/A.Williams; blind to three FCS starter imports)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -43,10 +69,21 @@
     "22, L = Buffalo/UMass 22: FCS production + thin returner; above Ball State's 18 on Vezza's 13-start volume."
    ],
    "key_players": [
-    {"name": "Matt Vezza", "role": "QB1 candidate (transfer, FCS New Hampshire)", "evidence": "2,673 @ 61%, 19-7 + 601 rush; 13 st"},
-    {"name": "Nick Poulos", "role": "QB1 candidate (returning; yr4 override)", "evidence": "52.5/13; 271 @ 45% in '24"}
+    {
+     "name": "Matt Vezza",
+     "role": "QB1 candidate (transfer, FCS New Hampshire)",
+     "evidence": "2,673 @ 61%, 19-7 + 601 rush; 13 st"
+    },
+    {
+     "name": "Nick Poulos",
+     "role": "QB1 candidate (returning; yr4 override)",
+     "evidence": "52.5/13; 271 @ 45% in '24"
+    }
    ],
-   "data_gaps": ["split-print starter", "zero returning FBS production"],
+   "data_gaps": [
+    "split-print starter",
+    "zero returning FBS production"
+   ],
    "g5_guard_note": null
   },
   {
@@ -65,10 +102,20 @@
     "20: a real 120-carry returnee beats Buffalo's 16; Miami's FCS-POY-led 26 beats this."
    ],
    "key_players": [
-    {"name": "Duncan Brune", "role": "RB1 (returning; withdrawal override)", "evidence": "65.5/120; 585 @ 4.9, 8 TD"},
-    {"name": "Victor Rosa", "role": "RB2 (transfer, UConn)", "evidence": "65.1/30; 302 total '25"}
+    {
+     "name": "Duncan Brune",
+     "role": "RB1 (returning; withdrawal override)",
+     "evidence": "65.5/120; 585 @ 4.9, 8 TD"
+    },
+    {
+     "name": "Victor Rosa",
+     "role": "RB2 (transfer, UConn)",
+     "evidence": "65.1/30; 302 total '25"
+    }
    ],
-   "data_gaps": ["the p88 run-blocking context departs"],
+   "data_gaps": [
+    "the p88 run-blocking context departs"
+   ],
    "g5_guard_note": null
   },
   {
@@ -87,11 +134,26 @@
     "16: above UMass's 14 on the P4 pedigree; below BGSU's 18 (their TE grades beat this room's everything)."
    ],
    "key_players": [
-    {"name": "Dom Dorwart", "role": "WR1 (returning starter)", "evidence": "53.5/215; 7 st, 119 yds"},
-    {"name": "Max Rodarte", "role": "WR (returning; yr4 override)", "evidence": "60.9/98; OFY gm 4"},
-    {"name": "Preston Bowman", "role": "WR (transfer, Kentucky)", "evidence": "RS'd; zero tape"}
+    {
+     "name": "Dom Dorwart",
+     "role": "WR1 (returning starter)",
+     "evidence": "53.5/215; 7 st, 119 yds"
+    },
+    {
+     "name": "Max Rodarte",
+     "role": "WR (returning; yr4 override)",
+     "evidence": "60.9/98; OFY gm 4"
+    },
+    {
+     "name": "Preston Bowman",
+     "role": "WR (transfer, Kentucky)",
+     "evidence": "RS'd; zero tape"
+    }
    ],
-   "data_gaps": ["returning production is 24 catches", "adds unplayed"],
+   "data_gaps": [
+    "returning production is 24 catches",
+    "adds unplayed"
+   ],
    "g5_guard_note": null
   },
   {
@@ -110,11 +172,25 @@
     "12: the backup grades + program OL identity nudge it over BGSU's zero-everything 10; 'one of the most uncertain position groups entering 2026' (Athlon)."
    ],
    "key_players": [
-    {"name": "Jarian Shelby", "role": "LT1 (returning backup)", "evidence": "77.4/19; 8-10 gm backup L2Y"},
-    {"name": "CJ Dawson", "role": "RG1 (transfer, Gardner-Webb)", "evidence": "FCS 23 st L2Y"},
-    {"name": "Tigana Cisse", "role": "RT1 (returning; yr4 override)", "evidence": "66.6/92; 7 st at Idaho F2Y"}
+    {
+     "name": "Jarian Shelby",
+     "role": "LT1 (returning backup)",
+     "evidence": "77.4/19; 8-10 gm backup L2Y"
+    },
+    {
+     "name": "CJ Dawson",
+     "role": "RG1 (transfer, Gardner-Webb)",
+     "evidence": "FCS 23 st L2Y"
+    },
+    {
+     "name": "Tigana Cisse",
+     "role": "RT1 (returning; yr4 override)",
+     "evidence": "66.6/92; 7 st at Idaho F2Y"
+    }
    ],
-   "data_gaps": ["zero returning starts at any spot"],
+   "data_gaps": [
+    "zero returning starts at any spot"
+   ],
    "g5_guard_note": null
   },
   {
@@ -133,11 +209,26 @@
     "18 = EMU 18: solid returning quantity, no returning piece above 60-equiv; RDEF p26 as played; the new DC's attacking install is variance."
    ],
    "key_players": [
-    {"name": "Nehemiah Dukes", "role": "NT1 (returning starter; withdrawal override)", "evidence": "56.2/550; 13 st"},
-    {"name": "Isaiah Street", "role": "JACK (transfer, NAIA Marion)", "evidence": "20 st, 112 tkl, 16 sk L2Y"},
-    {"name": "Evan Herrmann", "role": "DE (returning)", "evidence": "68.7/179; ex-Vanderbilt"}
+    {
+     "name": "Nehemiah Dukes",
+     "role": "NT1 (returning starter; withdrawal override)",
+     "evidence": "56.2/550; 13 st"
+    },
+    {
+     "name": "Isaiah Street",
+     "role": "JACK (transfer, NAIA Marion)",
+     "evidence": "20 st, 112 tkl, 16 sk L2Y"
+    },
+    {
+     "name": "Evan Herrmann",
+     "role": "DE (returning)",
+     "evidence": "68.7/179; ex-Vanderbilt"
+    }
    ],
-   "data_gaps": ["top-three exodus", "NAIA translation for Street"],
+   "data_gaps": [
+    "top-three exodus",
+    "NAIA translation for Street"
+   ],
    "g5_guard_note": null
   },
   {
@@ -156,11 +247,25 @@
     "40 EQUALS the UNLV global anchor - deliberate: the room's evidence matches an anchor-grade unit (G5 guard fires only >75, N/A)."
    ],
    "key_players": [
-    {"name": "Charlie Christopher", "role": "ILB1 (returning starter)", "evidence": "90.7/384; #3 tackler as a true FR"},
-    {"name": "Michael Molnar", "role": "ILB1 (returning starter)", "evidence": "80.3/396; 8 st, OFY-ACL; 62 tkl"},
-    {"name": "Jack Fries", "role": "OLB1 (returning starter)", "evidence": "61.4/409; 7 st, 54 tkl"}
+    {
+     "name": "Charlie Christopher",
+     "role": "ILB1 (returning starter)",
+     "evidence": "90.7/384; #3 tackler as a true FR"
+    },
+    {
+     "name": "Michael Molnar",
+     "role": "ILB1 (returning starter)",
+     "evidence": "80.3/396; 8 st, OFY-ACL; 62 tkl"
+    },
+    {
+     "name": "Jack Fries",
+     "role": "OLB1 (returning starter)",
+     "evidence": "61.4/409; 7 st, 54 tkl"
+    }
    ],
-   "data_gaps": ["Molnar ACL return"],
+   "data_gaps": [
+    "Molnar ACL return"
+   ],
    "g5_guard_note": null
   },
   {
@@ -179,11 +284,25 @@
     "22 = CMU/Akron 22: one full-volume returning anchor + FCS reinforcement; PDR #99 as played."
    ],
    "key_players": [
-    {"name": "DJ Walker", "role": "S1 (returning starter)", "evidence": "60.7/795; 2nd-Tm MAC '24"},
-    {"name": "Darren James-Hamilton", "role": "HUSKY1 (transfer, Elon)", "evidence": "FCS 12 st, 81 tkl, 9 pbu"},
-    {"name": "Eli Thompson", "role": "S1 (transfer, Holy Cross)", "evidence": "FCS 12 st, 2nd-Tm Patriot, 85 tkl"}
+    {
+     "name": "DJ Walker",
+     "role": "S1 (returning starter)",
+     "evidence": "60.7/795; 2nd-Tm MAC '24"
+    },
+    {
+     "name": "Darren James-Hamilton",
+     "role": "HUSKY1 (transfer, Elon)",
+     "evidence": "FCS 12 st, 81 tkl, 9 pbu"
+    },
+    {
+     "name": "Eli Thompson",
+     "role": "S1 (transfer, Holy Cross)",
+     "evidence": "FCS 12 st, 2nd-Tm Patriot, 85 tkl"
+    }
    ],
-   "data_gaps": ["three FCS starters projected straight in"],
+   "data_gaps": [
+    "three FCS starters projected straight in"
+   ],
    "g5_guard_note": null
   },
   {
@@ -202,10 +321,20 @@
     "24 = EMU 24: real P + modest K + credible returners; STR #76/SPEC p23 as played caps it under CMU's 26."
    ],
    "key_players": [
-    {"name": "Magnus Haines", "role": "P1 (returning; yr4 override)", "evidence": "42.3 avg, 36.1 net, 13-I20"},
-    {"name": "Will Hryszko", "role": "K1 (transfer, Kent State)", "evidence": "8-11 FG, 31-31 PAT LY"}
+    {
+     "name": "Magnus Haines",
+     "role": "P1 (returning; yr4 override)",
+     "evidence": "42.3 avg, 36.1 net, 13-I20"
+    },
+    {
+     "name": "Will Hryszko",
+     "role": "K1 (transfer, Kent State)",
+     "evidence": "8-11 FG, 31-31 PAT LY"
+    }
    ],
-   "data_gaps": ["K conversion rate modest at both stops"],
+   "data_gaps": [
+    "K conversion rate modest at both stops"
+   ],
    "g5_guard_note": null
   }
  ]

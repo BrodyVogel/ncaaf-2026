@@ -1,14 +1,42 @@
 {
  "team": "New Mexico",
  "units": {
-  "QB": {"grade": 34, "confidence": "M"},
-  "RB": {"grade": 16, "confidence": "M"},
-  "WRTE": {"grade": 22, "confidence": "M"},
-  "OL": {"grade": 24, "confidence": "M"},
-  "DL": {"grade": 22, "confidence": "M"},
-  "LB": {"grade": 44, "confidence": "M"},
-  "DB": {"grade": 26, "confidence": "M"},
-  "ST": {"grade": 18, "confidence": "M"}
+  "QB": {
+   "grade": 34,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 16,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 22,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 24,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 28,
+   "confidence": "M",
+   "v1_grade": 22,
+   "adjudication": "50/50 blend: dg+13.0"
+  },
+  "LB": {
+   "grade": 40,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "LB 0.4 blend: dg-9.4"
+  },
+  "DB": {
+   "grade": 26,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 18,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-17",
@@ -16,14 +44,18 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "in-session supervised; anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 35, RB None, WRTE 2, OL 17, DL 53, LB 74, DB 36, ST 56) - artifact #49; the proxy's sanest sheet of the round (returning-heavy roster = its happy path)",
    "WRTE": "+20 vs proxy 2 - blind to Omeire/Williams imports, counts departed leaders",
    "LB": "-30 vs proxy 74 - proxy sees Eck but its scale runs hot at the top",
    "DL": "-31 vs proxy 53 - blind to James-Newby -> NFL",
    "QB": "-1 vs proxy 35 - near-agreement (rare)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -42,11 +74,26 @@
     "34 = second-best QB room of the G5 rounds after WMU's 46; above Miami 30, below CMU 38/EMU 40 on tape depth."
    ],
    "key_players": [
-    {"name": "Jack Layne", "role": "QB1 (returning, 13 st)", "evidence": "73.1/438 (65.8 adj); 2,486 @ 65%, 13-10; limited in spring"},
-    {"name": "Luke Moga", "role": "QB1 challenger (transfer, Oregon)", "evidence": "ex-4-star; 10.4 100m; 7 career snaps"},
-    {"name": "James Laubstein", "role": "QB3/runner (returning; waiver override)", "evidence": "88.2/23; 380 rush @ 6.2"}
+    {
+     "name": "Jack Layne",
+     "role": "QB1 (returning, 13 st)",
+     "evidence": "73.1/438 (65.8 adj); 2,486 @ 65%, 13-10; limited in spring"
+    },
+    {
+     "name": "Luke Moga",
+     "role": "QB1 challenger (transfer, Oregon)",
+     "evidence": "ex-4-star; 10.4 100m; 7 career snaps"
+    },
+    {
+     "name": "James Laubstein",
+     "role": "QB3/runner (returning; waiver override)",
+     "evidence": "88.2/23; 380 rush @ 6.2"
+    }
    ],
-   "data_gaps": ["Layne spring limitation cause", "battle unresolved"],
+   "data_gaps": [
+    "Layne spring limitation cause",
+    "battle unresolved"
+   ],
    "g5_guard_note": null
   },
   {
@@ -64,11 +111,26 @@
     "16 = SJSU/Buffalo tier; a healthy Humphrey is the upside case."
    ],
    "key_players": [
-    {"name": "Scottre Humphrey", "role": "RB1 (returning)", "evidence": "63.1/78 (54.2 adj); Montana St '24: 1,386 @ 7.0"},
-    {"name": "Kiefer Sibley", "role": "RB2 (transfer, North Texas - feed-gap)", "evidence": "274 @ 6.1 '25; PS#101"},
-    {"name": "Deshaun Buchanan", "role": "RB (returning)", "evidence": "Idaho '24: 567 @ 7.2; no '25 tape"}
+    {
+     "name": "Scottre Humphrey",
+     "role": "RB1 (returning)",
+     "evidence": "63.1/78 (54.2 adj); Montana St '24: 1,386 @ 7.0"
+    },
+    {
+     "name": "Kiefer Sibley",
+     "role": "RB2 (transfer, North Texas - feed-gap)",
+     "evidence": "274 @ 6.1 '25; PS#101"
+    },
+    {
+     "name": "Deshaun Buchanan",
+     "role": "RB (returning)",
+     "evidence": "Idaho '24: 567 @ 7.2; no '25 tape"
+    }
    ],
-   "data_gaps": ["Humphrey health", "no returning 100-carry back"],
+   "data_gaps": [
+    "Humphrey health",
+    "no returning 100-carry back"
+   ],
    "g5_guard_note": null
   },
   {
@@ -87,12 +149,31 @@
     "22 = Buffalo tier: real producers, no elite one."
    ],
    "key_players": [
-    {"name": "Troy Omeire", "role": "WR1 (transfer, UNLV)", "evidence": "69.8/236 (66.1 adj); 514 @ 16.6"},
-    {"name": "Cade Keith", "role": "TE1 (returning, All-MWC candidate)", "evidence": "70.3/127 (66.6 adj); 253 @ 12.7"},
-    {"name": "Miles Williams", "role": "WR2 (transfer, E.Washington - feed-gap)", "evidence": "12 st, 524 @ 12.7 FCS"},
-    {"name": "Shawn Miller", "role": "WR (returning starter)", "evidence": "52.1/317; 199 @ 13.3"}
+    {
+     "name": "Troy Omeire",
+     "role": "WR1 (transfer, UNLV)",
+     "evidence": "69.8/236 (66.1 adj); 514 @ 16.6"
+    },
+    {
+     "name": "Cade Keith",
+     "role": "TE1 (returning, All-MWC candidate)",
+     "evidence": "70.3/127 (66.6 adj); 253 @ 12.7"
+    },
+    {
+     "name": "Miles Williams",
+     "role": "WR2 (transfer, E.Washington - feed-gap)",
+     "evidence": "12 st, 524 @ 12.7 FCS"
+    },
+    {
+     "name": "Shawn Miller",
+     "role": "WR (returning starter)",
+     "evidence": "52.1/317; 199 @ 13.3"
+    }
    ],
-   "data_gaps": ["Williams FCS translation", "Miller's grade is poor for a starter"],
+   "data_gaps": [
+    "Williams FCS translation",
+    "Miller's grade is poor for a starter"
+   ],
    "g5_guard_note": null
   },
   {
@@ -111,13 +192,36 @@
     "24: edges Nevada 22 on count/continuity; below CMU/WMU 28."
    ],
    "key_players": [
-    {"name": "Kaden Robnett", "role": "C (returning, 2nd-Tm MWC)", "evidence": "66.7/865 (56.6 adj); 13 st"},
-    {"name": "Jaymar Tasi", "role": "RG (returning)", "evidence": "72.6/545 (62.5 adj); 5 st"},
-    {"name": "Malik Aliane", "role": "LG (returning)", "evidence": "58.3/772; 13 st (11 LT)"},
-    {"name": "Tyler Lawrence", "role": "RT (returning)", "evidence": "56.7/856; 13 st"},
-    {"name": "Cole Millward", "role": "LT (transfer, Weber St - feed-gap)", "evidence": "12 st (RG) FCS '25"}
+    {
+     "name": "Kaden Robnett",
+     "role": "C (returning, 2nd-Tm MWC)",
+     "evidence": "66.7/865 (56.6 adj); 13 st"
+    },
+    {
+     "name": "Jaymar Tasi",
+     "role": "RG (returning)",
+     "evidence": "72.6/545 (62.5 adj); 5 st"
+    },
+    {
+     "name": "Malik Aliane",
+     "role": "LG (returning)",
+     "evidence": "58.3/772; 13 st (11 LT)"
+    },
+    {
+     "name": "Tyler Lawrence",
+     "role": "RT (returning)",
+     "evidence": "56.7/856; 13 st"
+    },
+    {
+     "name": "Cole Millward",
+     "role": "LT (transfer, Weber St - feed-gap)",
+     "evidence": "12 st (RG) FCS '25"
+    }
    ],
-   "data_gaps": ["LT = FCS import", "PBLK p19"],
+   "data_gaps": [
+    "LT = FCS import",
+    "PBLK p19"
+   ],
    "g5_guard_note": null
   },
   {
@@ -136,12 +240,31 @@
     "22 = KSU tier; below Nevada 26 (no LaBarbera-class piece), above Toledo/WMU 18."
    ],
    "key_players": [
-    {"name": "Darren Agu", "role": "DE1 (returning, ex-Vanderbilt)", "evidence": "79.2/392 (77.0 adj); 30 tkl, 2 sk"},
-    {"name": "Brian Booker", "role": "DT (returning, 3rd-Tm MWC)", "evidence": "73.0/411 (70.8 adj)"},
-    {"name": "Xavier Slayton", "role": "DT (returning)", "evidence": "64.1/251; beat out Booker per Athlon"},
-    {"name": "Jayden Marable", "role": "DT (transfer, Memphis)", "evidence": "67.4/222 (61.5 AAC-adj)"}
+    {
+     "name": "Darren Agu",
+     "role": "DE1 (returning, ex-Vanderbilt)",
+     "evidence": "79.2/392 (77.0 adj); 30 tkl, 2 sk"
+    },
+    {
+     "name": "Brian Booker",
+     "role": "DT (returning, 3rd-Tm MWC)",
+     "evidence": "73.0/411 (70.8 adj)"
+    },
+    {
+     "name": "Xavier Slayton",
+     "role": "DT (returning)",
+     "evidence": "64.1/251; beat out Booker per Athlon"
+    },
+    {
+     "name": "Jayden Marable",
+     "role": "DT (transfer, Memphis)",
+     "evidence": "67.4/222 (61.5 AAC-adj)"
+    }
    ],
-   "data_gaps": ["edge behind Agu is JC/no-tape", "Charles no '25 row"],
+   "data_gaps": [
+    "edge behind Agu is JC/no-tape",
+    "Charles no '25 row"
+   ],
    "g5_guard_note": null
   },
   {
@@ -160,11 +283,25 @@
     "44 = new G5-round LB high; capped below 50 by the two-deep."
    ],
    "key_players": [
-    {"name": "Jaxton Eck", "role": "MLB (returning, MWC DPOY)", "evidence": "83.0/759 (78.3 adj); 129 tkl, 1st-Tm MWC"},
-    {"name": "Mercury Swaim", "role": "WLB (returning, All-MWC candidate)", "evidence": "77.3/402 (72.6 adj); 6.5 TFL"},
-    {"name": "Clay Martineau", "role": "LB3 (transfer, Boise St)", "evidence": "10 snaps '25; PS#158"}
+    {
+     "name": "Jaxton Eck",
+     "role": "MLB (returning, MWC DPOY)",
+     "evidence": "83.0/759 (78.3 adj); 129 tkl, 1st-Tm MWC"
+    },
+    {
+     "name": "Mercury Swaim",
+     "role": "WLB (returning, All-MWC candidate)",
+     "evidence": "77.3/402 (72.6 adj); 6.5 TFL"
+    },
+    {
+     "name": "Clay Martineau",
+     "role": "LB3 (transfer, Boise St)",
+     "evidence": "10 snaps '25; PS#158"
+    }
    ],
-   "data_gaps": ["two-deep after the duo is unproven"],
+   "data_gaps": [
+    "two-deep after the duo is unproven"
+   ],
    "g5_guard_note": null
   },
   {
@@ -183,13 +320,36 @@
     "26 = Miami tier; > Nevada/KSU 18, < EMU 28/WMU 30."
    ],
    "key_players": [
-    {"name": "CJ McBean", "role": "S (returning, BOLD true-So)", "evidence": "67.1/499 (64.7 adj); 40 tkl as true FR"},
-    {"name": "Tavian Combs", "role": "S (returning; yr4 override)", "evidence": "61.7/728; 38 career starts, 264 tkl"},
-    {"name": "Frankie Edwards III", "role": "CB (returning)", "evidence": "70.9/497 (68.5 adj); took over last 6"},
-    {"name": "Austin Brawley", "role": "S (returning; override; PR1)", "evidence": "74.1/302 (71.7 adj); OFY late '25"},
-    {"name": "Ormanie Arnold", "role": "CB (transfer, Cincinnati)", "evidence": "56.4/258 (53.1 adj); 22 gm L2Y"}
+    {
+     "name": "CJ McBean",
+     "role": "S (returning, BOLD true-So)",
+     "evidence": "67.1/499 (64.7 adj); 40 tkl as true FR"
+    },
+    {
+     "name": "Tavian Combs",
+     "role": "S (returning; yr4 override)",
+     "evidence": "61.7/728; 38 career starts, 264 tkl"
+    },
+    {
+     "name": "Frankie Edwards III",
+     "role": "CB (returning)",
+     "evidence": "70.9/497 (68.5 adj); took over last 6"
+    },
+    {
+     "name": "Austin Brawley",
+     "role": "S (returning; override; PR1)",
+     "evidence": "74.1/302 (71.7 adj); OFY late '25"
+    },
+    {
+     "name": "Ormanie Arnold",
+     "role": "CB (transfer, Cincinnati)",
+     "evidence": "56.4/258 (53.1 adj); 22 gm L2Y"
+    }
    ],
-   "data_gaps": ["CB1 tape gone", "Arnold's grade modest"],
+   "data_gaps": [
+    "CB1 tape gone",
+    "Arnold's grade modest"
+   ],
    "g5_guard_note": null
   },
   {
@@ -207,11 +367,26 @@
     "18 = NIU/BGSU tier: pedigree without 2025 production in these jobs."
    ],
    "key_players": [
-    {"name": "Michael Kern", "role": "P (transfer, California)", "evidence": "PS#3; 41.5-41.6 avg at Texas/Cal"},
-    {"name": "Nick Romero", "role": "K (transfer, Wagner)", "evidence": "13-14 FG, L/44; FCS Frosh AA"},
-    {"name": "Abraham Williams", "role": "KR (returning; yr4 override)", "evidence": "5 career KO-return TDs"}
+    {
+     "name": "Michael Kern",
+     "role": "P (transfer, California)",
+     "evidence": "PS#3; 41.5-41.6 avg at Texas/Cal"
+    },
+    {
+     "name": "Nick Romero",
+     "role": "K (transfer, Wagner)",
+     "evidence": "13-14 FG, L/44; FCS Frosh AA"
+    },
+    {
+     "name": "Abraham Williams",
+     "role": "KR (returning; yr4 override)",
+     "evidence": "5 career KO-return TDs"
+    }
    ],
-   "data_gaps": ["K battle three-way", "P split print"],
+   "data_gaps": [
+    "K battle three-way",
+    "P split print"
+   ],
    "g5_guard_note": null
   }
  ]

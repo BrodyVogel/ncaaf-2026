@@ -1,14 +1,44 @@
 {
  "team": "Eastern Michigan",
  "units": {
-  "QB": {"grade": 40, "confidence": "M"},
-  "RB": {"grade": 14, "confidence": "M"},
-  "WRTE": {"grade": 34, "confidence": "M"},
-  "OL": {"grade": 18, "confidence": "M"},
-  "DL": {"grade": 18, "confidence": "M"},
-  "LB": {"grade": 16, "confidence": "M"},
-  "DB": {"grade": 28, "confidence": "M"},
-  "ST": {"grade": 24, "confidence": "M"}
+  "QB": {
+   "grade": 38,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "50/50 blend: dg-8.2; info 0.14 \u2014 blend halved"
+  },
+  "RB": {
+   "grade": 14,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 29,
+   "confidence": "M",
+   "v1_grade": 34,
+   "adjudication": "50/50 blend: dg-9.5"
+  },
+  "OL": {
+   "grade": 18,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 18,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 16,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 26,
+   "confidence": "M",
+   "v1_grade": 28,
+   "adjudication": "DB policy 1/3 blend: dg-13.9; info 0.15 \u2014 blend halved"
+  },
+  "ST": {
+   "grade": 24,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -26,7 +56,9 @@
    "QB": "proxy None despite the round's most proven returning QB (yr4-feed Kim, 7th season granted)",
    "DL": "+13 vs proxy 5 (proxy expires yr4-feed Evans + Adam)",
    "ST": "+21 vs proxy 3 (proxy misses returning K Kessinger 17-23)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -45,10 +77,20 @@
     "40, M: depth behind him is thin (no-tape Stuckey, rFr Button, Yale RS McCaughey) but the grade rides the proven starter."
    ],
    "key_players": [
-    {"name": "Noah Kim", "role": "QB1 (returning starter; yr4 override - 7th season)", "evidence": "67.6/467; 2,817 @ 61.4%, 18-11; led MAC in passing"},
-    {"name": "Brogan McCaughey", "role": "QB depth (transfer, Yale)", "evidence": "390 @ 60% in 2 gm '24; RS'd LY"}
+    {
+     "name": "Noah Kim",
+     "role": "QB1 (returning starter; yr4 override - 7th season)",
+     "evidence": "67.6/467; 2,817 @ 61.4%, 18-11; led MAC in passing"
+    },
+    {
+     "name": "Brogan McCaughey",
+     "role": "QB depth (transfer, Yale)",
+     "evidence": "390 @ 60% in 2 gm '24; RS'd LY"
+    }
    ],
-   "data_gaps": ["zero proven depth behind Kim"],
+   "data_gaps": [
+    "zero proven depth behind Kim"
+   ],
    "g5_guard_note": null
   },
   {
@@ -67,10 +109,20 @@
     "14: above Ball State's 8 on Bennett's pedigree + the Kim-Bennett CCU familiarity; below Buffalo's 16 (Shelton's 244 real yards beat anything here). PS: 'won't match 25's solid production.'"
    ],
    "key_players": [
-    {"name": "Braydon Bennett", "role": "RB1 (grad transfer, Virginia Tech)", "evidence": "61.7/4 LY; CCU '21-24: 1,907 @ 6.1 with QB Kim"},
-    {"name": "Joey Mattord", "role": "RB2 (returning)", "evidence": "67.9/6; 48 yds - top returning rusher"}
+    {
+     "name": "Braydon Bennett",
+     "role": "RB1 (grad transfer, Virginia Tech)",
+     "evidence": "61.7/4 LY; CCU '21-24: 1,907 @ 6.1 with QB Kim"
+    },
+    {
+     "name": "Joey Mattord",
+     "role": "RB2 (returning)",
+     "evidence": "67.9/6; 48 yds - top returning rusher"
+    }
    ],
-   "data_gaps": ["zero recent volume anywhere in the room"],
+   "data_gaps": [
+    "zero recent volume anywhere in the room"
+   ],
    "g5_guard_note": null
   },
   {
@@ -89,11 +141,25 @@
     "34: two all-conference honorees + a third proven piece beats every one-anchor room this round; RECV p38 as played caps it below the Nebraska-50 anchor region."
    ],
    "key_players": [
-    {"name": "Nick Devereaux", "role": "WR1 (returning starter; yr4 override)", "evidence": "67.0/309; 3rd-Tm All-MAC; 510 @ 15.0, 7 TD"},
-    {"name": "Joshua Long", "role": "TE1 (returning starter)", "evidence": "61.6/336; 2nd-Tm All-MAC; 37-357-3"},
-    {"name": "Harold Mack", "role": "WR2 (returning)", "evidence": "69.4/153; 333 @ 16.7 as true FR"}
+    {
+     "name": "Nick Devereaux",
+     "role": "WR1 (returning starter; yr4 override)",
+     "evidence": "67.0/309; 3rd-Tm All-MAC; 510 @ 15.0, 7 TD"
+    },
+    {
+     "name": "Joshua Long",
+     "role": "TE1 (returning starter)",
+     "evidence": "61.6/336; 2nd-Tm All-MAC; 37-357-3"
+    },
+    {
+     "name": "Harold Mack",
+     "role": "WR2 (returning)",
+     "evidence": "69.4/153; 333 @ 16.7 as true FR"
+    }
    ],
-   "data_gaps": ["no 70+ volume grade in the room"],
+   "data_gaps": [
+    "no 70+ volume grade in the room"
+   ],
    "g5_guard_note": null
   },
   {
@@ -112,11 +178,25 @@
     "18: PS's 'best in years' is continuity prose; PBLK p32/RBLK p55 as played and the imports are unproven. Below the WKU-25 anchor."
    ],
    "key_players": [
-    {"name": "Nicholas Gallegos", "role": "C1 (returning starter)", "evidence": "66.2/708; 9 st"},
-    {"name": "Joshua Anderson", "role": "RT1 (returning starter; yr4 override)", "evidence": "52.5/524; 17 st L2Y"},
-    {"name": "Tyler Brumfield", "role": "LT1 (transfer, Oklahoma State)", "evidence": "JC AA; zero FBS snaps; opposing-coach praise"}
+    {
+     "name": "Nicholas Gallegos",
+     "role": "C1 (returning starter)",
+     "evidence": "66.2/708; 9 st"
+    },
+    {
+     "name": "Joshua Anderson",
+     "role": "RT1 (returning starter; yr4 override)",
+     "evidence": "52.5/524; 17 st L2Y"
+    },
+    {
+     "name": "Tyler Brumfield",
+     "role": "LT1 (transfer, Oklahoma State)",
+     "evidence": "JC AA; zero FBS snaps; opposing-coach praise"
+    }
    ],
-   "data_gaps": ["three new starters from zero-FBS-tape imports"],
+   "data_gaps": [
+    "three new starters from zero-FBS-tape imports"
+   ],
    "g5_guard_note": null
   },
   {
@@ -135,11 +215,26 @@
     "18: volume over quality - above Buffalo's one-starter 14, below CMU's 24. Athlon: 'needs more from its front seven.'"
    ],
    "key_players": [
-    {"name": "Carter Evans", "role": "DE1 (returning starter; yr4 override)", "evidence": "66.0/569; 11 st, 37 tkl, 5.5 tfl"},
-    {"name": "Quincy Byas", "role": "EDGE1 (returning)", "evidence": "66.2/287; Def Newcomer OY as true FR"},
-    {"name": "Peyton Christian", "role": "NT1 (transfer, Lamar)", "evidence": "FCS 2nd-Tm Southland; 13 st, 38 tkl, 3 sk"}
+    {
+     "name": "Carter Evans",
+     "role": "DE1 (returning starter; yr4 override)",
+     "evidence": "66.0/569; 11 st, 37 tkl, 5.5 tfl"
+    },
+    {
+     "name": "Quincy Byas",
+     "role": "EDGE1 (returning)",
+     "evidence": "66.2/287; Def Newcomer OY as true FR"
+    },
+    {
+     "name": "Peyton Christian",
+     "role": "NT1 (transfer, Lamar)",
+     "evidence": "FCS 2nd-Tm Southland; 13 st, 38 tkl, 3 sk"
+    }
    ],
-   "data_gaps": ["interior rebuilt around FCS adds", "Adam unseen since '24 (injury)"],
+   "data_gaps": [
+    "interior rebuilt around FCS adds",
+    "Adam unseen since '24 (injury)"
+   ],
    "g5_guard_note": null
   },
   {
@@ -158,11 +253,26 @@
     "16, M (not L): the starters are KNOWN - but the unit graded TACK p1 and allowed foes +70 ypg over average at the second level. Confidently mediocre."
    ],
    "key_players": [
-    {"name": "Barry Manning", "role": "WLB1 (returning starter; yr4 override)", "evidence": "60.1/661; 73 tkl, 5.5 tfl"},
-    {"name": "Zach Mowchan", "role": "MLB1 (returning; yr4 override)", "evidence": "53.1/304; injury-battled"},
-    {"name": "Elgin McDuffey", "role": "MLB2 (JC transfer)", "evidence": "86 tkl at JC L2Y"}
+    {
+     "name": "Barry Manning",
+     "role": "WLB1 (returning starter; yr4 override)",
+     "evidence": "60.1/661; 73 tkl, 5.5 tfl"
+    },
+    {
+     "name": "Zach Mowchan",
+     "role": "MLB1 (returning; yr4 override)",
+     "evidence": "53.1/304; injury-battled"
+    },
+    {
+     "name": "Elgin McDuffey",
+     "role": "MLB2 (JC transfer)",
+     "evidence": "86 tkl at JC L2Y"
+    }
    ],
-   "data_gaps": ["JUCO translation", "Mowchan durability"],
+   "data_gaps": [
+    "JUCO translation",
+    "Mowchan durability"
+   ],
    "g5_guard_note": null
   },
   {
@@ -181,11 +291,25 @@
     "28: one star + volume-at-55-64 lands between CMU's one-anchor 22 and BGSU's two-anchor 30; far from Buffalo's 42."
    ],
    "key_players": [
-    {"name": "Bryce Llewellyn", "role": "S1 (returning starter; yr4 override)", "evidence": "71.7/716; 2nd-Tm All-MAC; team MVP; 102 tkl"},
-    {"name": "Jason Marshall", "role": "BAN1 (returning; yr4 override)", "evidence": "59.6/479; 64 tkl"},
-    {"name": "Caleb Coley", "role": "CB1 (returning)", "evidence": "64.2/204; ex-Michigan St"}
+    {
+     "name": "Bryce Llewellyn",
+     "role": "S1 (returning starter; yr4 override)",
+     "evidence": "71.7/716; 2nd-Tm All-MAC; team MVP; 102 tkl"
+    },
+    {
+     "name": "Jason Marshall",
+     "role": "BAN1 (returning; yr4 override)",
+     "evidence": "59.6/479; 64 tkl"
+    },
+    {
+     "name": "Caleb Coley",
+     "role": "CB1 (returning)",
+     "evidence": "64.2/204; ex-Michigan St"
+    }
    ],
-   "data_gaps": ["experience-vs-tape tension (COV p11 with these bodies)"],
+   "data_gaps": [
+    "experience-vs-tape tension (COV p11 with these bodies)"
+   ],
    "g5_guard_note": null
   },
   {
@@ -204,10 +328,21 @@
     "24 = Akron 24: proven K + unproven P + weak return game; CMU's returning P #14 edges this room."
    ],
    "key_players": [
-    {"name": "Rudy Kessinger", "role": "K1 (returning)", "evidence": "17-23 FG, L/50; 8-14 from 40+"},
-    {"name": "Adam Samaha", "role": "P1 candidate (transfer, Akron)", "evidence": "PS P #13; DNP at Akron LY"}
+    {
+     "name": "Rudy Kessinger",
+     "role": "K1 (returning)",
+     "evidence": "17-23 FG, L/50; 8-14 from 40+"
+    },
+    {
+     "name": "Adam Samaha",
+     "role": "P1 candidate (transfer, Akron)",
+     "evidence": "PS P #13; DNP at Akron LY"
+    }
    ],
-   "data_gaps": ["P battle between two DNPs", "return game unproven"],
+   "data_gaps": [
+    "P battle between two DNPs",
+    "return game unproven"
+   ],
    "g5_guard_note": null
   }
  ]

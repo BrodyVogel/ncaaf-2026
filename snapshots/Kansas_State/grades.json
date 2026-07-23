@@ -2,20 +2,26 @@
  "team": "Kansas State",
  "units": {
   "QB": {
-   "grade": 60,
-   "confidence": "M"
+   "grade": 66,
+   "confidence": "M",
+   "v1_grade": 60,
+   "adjudication": "50/50 blend: dg+11.8"
   },
   "RB": {
-   "grade": 52,
-   "confidence": "M"
+   "grade": 44,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "50/50 blend: dg-16.3"
   },
   "WRTE": {
    "grade": 52,
    "confidence": "M"
   },
   "OL": {
-   "grade": 44,
-   "confidence": "M"
+   "grade": 49,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "50/50 blend: dg+11.0"
   },
   "DL": {
    "grade": 45,
@@ -46,7 +52,9 @@
    "QB": "-14 vs proxy 74 (proxy rides Johnson's record-setting volume; grade tempers on the accuracy tier - #9/#11 B12 rating, 58.3%)",
    "LB": "+18 vs proxy 26 (proxy sees the Purnell/Romaine exodus; can't see Mason's All-CUSA volume arriving)",
    "OL": "-7 vs proxy 51 (proxy can't see that four of five starters walked; Pastore alone carries the returning grade)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

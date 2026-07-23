@@ -10,24 +10,30 @@
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 48,
-   "confidence": "M"
+   "grade": 55,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "50/50 blend: dg+14.2"
   },
   "OL": {
    "grade": 42,
    "confidence": "L"
   },
   "DL": {
-   "grade": 44,
-   "confidence": "M"
+   "grade": 36,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "50/50 blend: dg-16.2"
   },
   "LB": {
    "grade": 36,
    "confidence": "L"
   },
   "DB": {
-   "grade": 50,
-   "confidence": "M"
+   "grade": 58,
+   "confidence": "M",
+   "v1_grade": 50,
+   "adjudication": "1/3 blend cap 8: dg+27; DB policy"
   },
   "ST": {
    "grade": 48,
@@ -51,7 +57,9 @@
    "WRTE": "-5 vs proxy 53 - the grade keys the proven WR1 (Hutchinson 76.0) after the co-top WR (Henry) graduated.",
    "LB": "+36 vs proxy None - graded thin (Donald + transfers) after both leading tacklers left; the proxy sees nothing.",
    "OL": "+30 vs proxy 12 - the grade keys the P4-transfer rebuild (Pitt/Alabama/Miss St) + Upchurch over the stripped base."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

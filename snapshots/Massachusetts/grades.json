@@ -1,14 +1,40 @@
 {
  "team": "Massachusetts",
  "units": {
-  "QB": {"grade": 22, "confidence": "L"},
-  "RB": {"grade": 10, "confidence": "M"},
-  "WRTE": {"grade": 14, "confidence": "M"},
-  "OL": {"grade": 12, "confidence": "M"},
-  "DL": {"grade": 12, "confidence": "M"},
-  "LB": {"grade": 30, "confidence": "M"},
-  "DB": {"grade": 16, "confidence": "M"},
-  "ST": {"grade": 20, "confidence": "M"}
+  "QB": {
+   "grade": 22,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 12,
+   "confidence": "M",
+   "v1_grade": 10,
+   "adjudication": "50/50 blend: dg+8.7; info 0.15 \u2014 blend halved"
+  },
+  "WRTE": {
+   "grade": 14,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 12,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 12,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 30,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 16,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 20,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -24,7 +50,9 @@
    "LB": "-3 vs proxy 33 - rare near-agreement (Martin/Hinspeter feed-visible)",
    "DB": "+16 vs proxy 0 (floor-clip: proxy drops Withdrawn-portal Bournes and counts departed Greene/Craig)",
    "OL": "+10 vs proxy 2 (proxy blind to the 769-snap Colorado State import and the Franks yr4 override)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -43,10 +71,21 @@
     "22, L = Buffalo 22: pedigree-plus-FCS-production over Ball State's 18; the three-way battle and no-cell tape cap it."
    ],
    "key_players": [
-    {"name": "William Watson III", "role": "QB1 candidate (transfer, Virginia Tech)", "evidence": "2 st, 551 @ 58%; ACC OPOW once; 55.0/8 LY"},
-    {"name": "RJ Johnson III", "role": "QB1 candidate (transfer, FCS Florida A&M)", "evidence": "2,597 @ 65%, 18-4, 12 st"}
+    {
+     "name": "William Watson III",
+     "role": "QB1 candidate (transfer, Virginia Tech)",
+     "evidence": "2 st, 551 @ 58%; ACC OPOW once; 55.0/8 LY"
+    },
+    {
+     "name": "RJ Johnson III",
+     "role": "QB1 candidate (transfer, FCS Florida A&M)",
+     "evidence": "2,597 @ 65%, 18-4, 12 st"
+    }
    ],
-   "data_gaps": ["zero returning FBS tape", "three-way battle"],
+   "data_gaps": [
+    "zero returning FBS tape",
+    "three-way battle"
+   ],
    "g5_guard_note": null
   },
   {
@@ -65,10 +104,21 @@
     "10 = Kent State 10: same zero-production battle shape; above only Ball State's 8."
    ],
    "key_players": [
-    {"name": "Jordan Washington", "role": "RB1 (transfer, FCS Murray St)", "evidence": "340 @ 3.9; Athlon projected starter"},
-    {"name": "Elijah Faulkner", "role": "RB2 (returning)", "evidence": "63.5/40; 114 @ 2.9 as true FR"}
+    {
+     "name": "Jordan Washington",
+     "role": "RB1 (transfer, FCS Murray St)",
+     "evidence": "340 @ 3.9; Athlon projected starter"
+    },
+    {
+     "name": "Elijah Faulkner",
+     "role": "RB2 (returning)",
+     "evidence": "63.5/40; 114 @ 2.9 as true FR"
+    }
    ],
-   "data_gaps": ["no returning 50-carry back", "projected starter's tape is 3.9 ypc FCS"],
+   "data_gaps": [
+    "no returning 50-carry back",
+    "projected starter's tape is 3.9 ypc FCS"
+   ],
    "g5_guard_note": null
   },
   {
@@ -87,11 +137,26 @@
     "14: Griffin/Harding pedigree + TE-scheme fit over Ball State's 12; below BGSU's 18 (their tiny-sample grades are better)."
    ],
    "key_players": [
-    {"name": "Max Dowling", "role": "TE1 (returning starter)", "evidence": "55.0/258; 10 st, 199 yds"},
-    {"name": "T.Y. Harding", "role": "WR1 (returning, injury)", "evidence": "57.5/32; OFY after 3 gm; 364 @ 15.8 L2Y"},
-    {"name": "Joseph Griffin Jr.", "role": "WR1 (transfer, Wisconsin)", "evidence": "BC '22-23: 14 st, 579 @ 13.5; Watson's HS teammate"}
+    {
+     "name": "Max Dowling",
+     "role": "TE1 (returning starter)",
+     "evidence": "55.0/258; 10 st, 199 yds"
+    },
+    {
+     "name": "T.Y. Harding",
+     "role": "WR1 (returning, injury)",
+     "evidence": "57.5/32; OFY after 3 gm; 364 @ 15.8 L2Y"
+    },
+    {
+     "name": "Joseph Griffin Jr.",
+     "role": "WR1 (transfer, Wisconsin)",
+     "evidence": "BC '22-23: 14 st, 579 @ 13.5; Watson's HS teammate"
+    }
    ],
-   "data_gaps": ["Griffin's recent tape minimal", "Harding/Adkins health"],
+   "data_gaps": [
+    "Griffin's recent tape minimal",
+    "Harding/Adkins health"
+   ],
    "g5_guard_note": null
   },
   {
@@ -110,11 +175,26 @@
     "12: three-import injection with no piece above 50-equiv - the BSU/KSU 12-tier exactly."
    ],
    "key_players": [
-    {"name": "Aitor Urionabarrenechea", "role": "RG1 (transfer, Colorado State)", "evidence": "59.8/769; 12 st at CSU"},
-    {"name": "Greg Knox", "role": "LT1 (transfer, FCS McNeese)", "evidence": "12 st at LT LY"},
-    {"name": "Brock Taylor", "role": "LG1 (returning)", "evidence": "49.0/345; 4-5 st"}
+    {
+     "name": "Aitor Urionabarrenechea",
+     "role": "RG1 (transfer, Colorado State)",
+     "evidence": "59.8/769; 12 st at CSU"
+    },
+    {
+     "name": "Greg Knox",
+     "role": "LT1 (transfer, FCS McNeese)",
+     "evidence": "12 st at LT LY"
+    },
+    {
+     "name": "Brock Taylor",
+     "role": "LG1 (returning)",
+     "evidence": "49.0/345; 4-5 st"
+    }
    ],
-   "data_gaps": ["three new-import starters", "Franks unseen since '23"],
+   "data_gaps": [
+    "three new-import starters",
+    "Franks unseen since '23"
+   ],
    "g5_guard_note": null
   },
   {
@@ -133,11 +213,26 @@
     "12 = Akron 12: an injured FCS star + thin returning rotation; Nobles' health is the one tail-up."
    ],
    "key_players": [
-    {"name": "Joshua Nobles", "role": "DE1 (returning from injury; yr4 override)", "evidence": "12 st, 57 tkl, 10 sk at Jackson St '24; missed all '25"},
-    {"name": "Tim Passmore Jr.", "role": "NT1 (returning)", "evidence": "53.3/297"},
-    {"name": "Andrew DePaepe", "role": "DE (transfer, Indiana)", "evidence": "59.5/25"}
+    {
+     "name": "Joshua Nobles",
+     "role": "DE1 (returning from injury; yr4 override)",
+     "evidence": "12 st, 57 tkl, 10 sk at Jackson St '24; missed all '25"
+    },
+    {
+     "name": "Tim Passmore Jr.",
+     "role": "NT1 (returning)",
+     "evidence": "53.3/297"
+    },
+    {
+     "name": "Andrew DePaepe",
+     "role": "DE (transfer, Indiana)",
+     "evidence": "59.5/25"
+    }
    ],
-   "data_gaps": ["Nobles health", "zero returning above-average tape"],
+   "data_gaps": [
+    "Nobles health",
+    "zero returning above-average tape"
+   ],
    "g5_guard_note": null
   },
   {
@@ -156,10 +251,21 @@
     "30 = BGSU 30: Martin's volume matches Pringle's ceiling; TACK p41 was this defense's best sub-grade. The unit is the team's one strength."
    ],
    "key_players": [
-    {"name": "Tyler Martin", "role": "MLB1 (returning starter)", "evidence": "70.6/690; 104 tkl; 3rd-Tm All-MAC"},
-    {"name": "Timmy Hinspeter", "role": "WLB1 (returning starter)", "evidence": "76.2/330; 9.9 tkl/gm before injury"}
+    {
+     "name": "Tyler Martin",
+     "role": "MLB1 (returning starter)",
+     "evidence": "70.6/690; 104 tkl; 3rd-Tm All-MAC"
+    },
+    {
+     "name": "Timmy Hinspeter",
+     "role": "WLB1 (returning starter)",
+     "evidence": "76.2/330; 9.9 tkl/gm before injury"
+    }
    ],
-   "data_gaps": ["Hinspeter health", "depth is no-cell FCS"],
+   "data_gaps": [
+    "Hinspeter health",
+    "depth is no-cell FCS"
+   ],
    "g5_guard_note": null
   },
   {
@@ -178,11 +284,26 @@
     "16: Daniel is the one above-average piece; between Ball State's 14 and Kent State's 18."
    ],
    "key_players": [
-    {"name": "Zeraun Daniel", "role": "S1 (returning starter)", "evidence": "65.0/524; 9 st, 75 tkl"},
-    {"name": "Kendall Bournes", "role": "S1 (returning starter; withdrawal override)", "evidence": "49.1/524; 11 st, 62 tkl"},
-    {"name": "T.J. Magee", "role": "CB1 (returning, injury)", "evidence": "65.0/158; missed final 9"}
+    {
+     "name": "Zeraun Daniel",
+     "role": "S1 (returning starter)",
+     "evidence": "65.0/524; 9 st, 75 tkl"
+    },
+    {
+     "name": "Kendall Bournes",
+     "role": "S1 (returning starter; withdrawal override)",
+     "evidence": "49.1/524; 11 st, 62 tkl"
+    },
+    {
+     "name": "T.J. Magee",
+     "role": "CB1 (returning, injury)",
+     "evidence": "65.0/158; missed final 9"
+    }
    ],
-   "data_gaps": ["29-4 ratio as played", "CB room is injury-return + no-cell Ivy tape"],
+   "data_gaps": [
+    "29-4 ratio as played",
+    "CB room is injury-return + no-cell Ivy tape"
+   ],
    "g5_guard_note": null
   },
   {
@@ -201,10 +322,21 @@
     "20: Morris lifts it over BGSU's 18; the rest of the operation keeps it under Buffalo's 22."
    ],
    "key_players": [
-    {"name": "Derek Morris", "role": "K1 (returning)", "evidence": "10-16 FG; 3-5 from 50+; program-record long"},
-    {"name": "Edward Phillipson", "role": "P1 (returning rFr)", "evidence": "Australian; RS'd '25; zero attempts"}
+    {
+     "name": "Derek Morris",
+     "role": "K1 (returning)",
+     "evidence": "10-16 FG; 3-5 from 50+; program-record long"
+    },
+    {
+     "name": "Edward Phillipson",
+     "role": "P1 (returning rFr)",
+     "evidence": "Australian; RS'd '25; zero attempts"
+    }
    ],
-   "data_gaps": ["P has never punted", "return men are injury returns"],
+   "data_gaps": [
+    "P has never punted",
+    "return men are injury returns"
+   ],
    "g5_guard_note": null
   }
  ]

@@ -1,14 +1,38 @@
 {
  "team": "North Carolina",
  "units": {
-  "QB": {"grade": 48, "confidence": "L"},
-  "RB": {"grade": 50, "confidence": "M"},
-  "WRTE": {"grade": 48, "confidence": "M"},
-  "OL": {"grade": 44, "confidence": "M"},
-  "DL": {"grade": 52, "confidence": "M"},
-  "LB": {"grade": 40, "confidence": "L"},
-  "DB": {"grade": 48, "confidence": "M"},
-  "ST": {"grade": 46, "confidence": "M"}
+  "QB": {
+   "grade": 48,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 40,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 46,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,7 +40,9 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape, arrivals on origin cells; HC Belichick Year 2 no change, new OC Petrino noted; disposition gate resolved - massive churn [31 out], Lopez/Thompson/Gbayor departures adjudicated); anchor values not consulted. P6 RETRO-QA CORRECTION 2026-07-18: Allen/Gibson/Dixon/Vilbert yr4 overrides reversed to GONE (P6 'four starters gone from the secondary... Vilbert graduated' + Athlon defense chart re-read confirms); DL 54->52, DB 54->48.",
-  "planned_vs_final_deviations": {"note": "post-freeze P6 retro-QA correction 2026-07-18: DL 54->52 (Vilbert removed) + DB 54->48 (Allen/Gibson/Dixon removed - actually departed; corrected room = Smith/Patterson/Cost/Bryson/Willie). Other finals match the dossier planned lines; dossier updated."},
+  "planned_vs_final_deviations": {
+   "note": "post-freeze P6 retro-QA correction 2026-07-18: DL 54->52 (Vilbert removed) + DB 54->48 (Allen/Gibson/Dixon removed - actually departed; corrected room = Smith/Patterson/Cost/Bryson/Willie). Other finals match the dossier planned lines; dossier updated."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB None, RB 42, WRTE 80, OL None, DL 80, LB None, DB 65, ST 47) keys the '25 tape; 2026 rebuilds the O + loses the LBs.",
    "WRTE": "-32 vs proxy 80 - proxy keys the '25 room; the grade keys the reload (Shipp returns + transfers) after losing much of the corps.",
@@ -24,12 +50,20 @@
    "DB": "-11 vs proxy 65 - both key the deep returning secondary; the grade credits the veteran corps minus 2 starters.",
    "RB": "+8 vs proxy 42 - proxy keys the thin '25 backfield; the grade credits June + Hall + K.Jackson.",
    "QB/OL/LB": "proxy None - QB reset (Lopez gone), OL all-new, LB gutted; grades key the projections/rebuilds."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "North Carolina", "unit": "QB", "grade": 48, "confidence": "L",
-   "bracketing_exemplars": ["Georgia Tech QB 2026 (46, round peer)", "Florida State QB 2026 (48, round peer)"],
+   "team": "North Carolina",
+   "unit": "QB",
+   "grade": 48,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Georgia Tech QB 2026 (46, round peer)",
+    "Florida State QB 2026 (48, round peer)"
+   ],
    "rationale_bullets": [
     "Billy Edwards Jr. (Wisconsin transfer via Maryland - started 11 gms '24: 2,881 yds, 15-9; 520 career P4 attempts; 'lacks elite arm,' OFY at Wisconsin '25) + Miles O'Neill (A&M, 58.9/22, Petrino-recruited - higher ceiling/risk).",
     "Gio Lopez ('25 starter, 73.1) GONE (-> Wake).",
@@ -37,13 +71,27 @@
     "48: ~GT QB 46 / FSU QB 48; Edwards' experience vs the weak supporting cast. L."
    ],
    "key_players": [
-    {"name": "Billy Edwards Jr.", "role": "QB1 (transfer, Wisconsin/Maryland)", "evidence": "2,881 yds/15-9 at Maryland '24; 520 P4 att; 'lacks elite arm'"}
+    {
+     "name": "Billy Edwards Jr.",
+     "role": "QB1 (transfer, Wisconsin/Maryland)",
+     "evidence": "2,881 yds/15-9 at Maryland '24; 520 P4 att; 'lacks elite arm'"
+    }
    ],
-   "data_gaps": ["journeyman; OFY at Wisconsin '25", "rebuilt OL + modest weapons"], "g5_guard_note": null
+   "data_gaps": [
+    "journeyman; OFY at Wisconsin '25",
+    "rebuilt OL + modest weapons"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "North Carolina", "unit": "RB", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["NC State RB 2026 (56, above)", "Boston College RB context"],
+   "team": "North Carolina",
+   "unit": "RB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "NC State RB 2026 (56, above)",
+    "Boston College RB context"
+   ],
    "rationale_bullets": [
     "Demon June (returning, 69.8/84 -> ACC +4.90 -> 74.7 adj; most experience) + Benjamin Hall (69.3/71 -> 74.2 adj) + Kaleb Jackson (LSU).",
     "Lost Gause (-> NC State).",
@@ -51,13 +99,26 @@
     "50: below the proven backfields; unspectacular. M."
    ],
    "key_players": [
-    {"name": "Demon June", "role": "RB1 (returning)", "evidence": "69.8/84 (74.7 ACC-adj); most experience"}
+    {
+     "name": "Demon June",
+     "role": "RB1 (returning)",
+     "evidence": "69.8/84 (74.7 ACC-adj); most experience"
+    }
    ],
-   "data_gaps": ["small samples on the returners"], "g5_guard_note": null
+   "data_gaps": [
+    "small samples on the returners"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "North Carolina", "unit": "WRTE", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["NC State WRTE 2026 (42, below)", "California WRTE 2026 (54, above)"],
+   "team": "North Carolina",
+   "unit": "WRTE",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "NC State WRTE 2026 (42, below)",
+    "California WRTE 2026 (54, above)"
+   ],
    "rationale_bullets": [
     "Jordan Shipp (returning, 73.1/378 -> ACC +2.36 -> 75.5 adj; top returner, 671 yds) + Trech Kekahuna (Wisconsin, slot) + a transfer TE room (Jelani Thurman OSU 82.9/25, Jordan Washington Texas).",
     "Lost Paysour (yr4) + Green (-> BC) + several.",
@@ -65,14 +126,32 @@
     "48: above NC State WRTE 42 (Shipp + the TE room). M."
    ],
    "key_players": [
-    {"name": "Jordan Shipp", "role": "WR (returning)", "evidence": "73.1/378 (75.5 ACC-adj); top returner, 671 yds"},
-    {"name": "Jelani Thurman", "role": "TE (transfer, Ohio State)", "evidence": "82.9/25 tiny sample; OSU pedigree"}
+    {
+     "name": "Jordan Shipp",
+     "role": "WR (returning)",
+     "evidence": "73.1/378 (75.5 ACC-adj); top returner, 671 yds"
+    },
+    {
+     "name": "Jelani Thurman",
+     "role": "TE (transfer, Ohio State)",
+     "evidence": "82.9/25 tiny sample; OSU pedigree"
+    }
    ],
-   "data_gaps": ["lost most of the '25 corps", "TE grades on tiny samples"], "g5_guard_note": null
+   "data_gaps": [
+    "lost most of the '25 corps",
+    "TE grades on tiny samples"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "North Carolina", "unit": "OL", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["North Carolina State OL 2026 (46, above)", "Florida State OL 2026 (40, below)"],
+   "team": "North Carolina",
+   "unit": "OL",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "North Carolina State OL 2026 (46, above)",
+    "Florida State OL 2026 (40, below)"
+   ],
    "rationale_bullets": [
     "REBUILT - ALL FIVE 2025 starters gone. Christo Kelly (FCS Holy Cross, 20+ starts, back from injury - 'key piece') + Jordan Hall (LT, yr4, unproven pass pro) + Banfield (LG) + Rodriguez (RG transfer) + McRoy (RT transfer) + Hoilette (Richmond).",
     "Rebuilt with experienced-but-lower-level (FCS/G5) transfers + unproven tackles.",
@@ -80,14 +159,32 @@
     "44: ~NC State OL 46, slightly below (all-new, FCS-heavy); above FSU OL 40. M."
    ],
    "key_players": [
-    {"name": "Christo Kelly", "role": "C (transfer, Holy Cross/FCS)", "evidence": "20+ career starts; back from injury; key piece"},
-    {"name": "Jordan Hall", "role": "LT (returning)", "evidence": "58.2/214; unproven in pass pro"}
+    {
+     "name": "Christo Kelly",
+     "role": "C (transfer, Holy Cross/FCS)",
+     "evidence": "20+ career starts; back from injury; key piece"
+    },
+    {
+     "name": "Jordan Hall",
+     "role": "LT (returning)",
+     "evidence": "58.2/214; unproven in pass pro"
+    }
    ],
-   "data_gaps": ["all 5 starters gone", "tackles unproven; FCS-heavy"], "g5_guard_note": null
+   "data_gaps": [
+    "all 5 starters gone",
+    "tackles unproven; FCS-heavy"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "North Carolina", "unit": "DL", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["Pittsburgh DL 2026 (58, above)", "Boston College DL context"],
+   "team": "North Carolina",
+   "unit": "DL",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Pittsburgh DL 2026 (58, above)",
+    "Boston College DL context"
+   ],
    "rationale_bullets": [
     "Melkart Abou Jaoude (returning, 79.0/646 -> ACC +1.19 -> 80.2 adj; 47 tkl, 10.5 sacks - 2nd in ACC, a real anchor) + interior Isaiah Johnson (74.1) + Leroy Jackson (70.2) + Xavier Lewis (71.5); edge opposite = Harvey (PSU) + Hoilette (Richmond FCS, chart starter).",
     "Lost Tyler Thompson (81.5 -> Louisville) + CJ Mims (-> A&M) + D'Antre Robinson (-> Oregon) + Vilbert (yr4-graduated per P6; retro-QA corrected from a wrongly-carried return).",
@@ -95,14 +192,32 @@
     "52: well above the weak DLs (GT/NCST 40); below Pitt DL 58. M."
    ],
    "key_players": [
-    {"name": "Melkart Abou Jaoude", "role": "DE (returning)", "evidence": "79.0/646 (80.2 ACC-adj); 47 tkl, 10.5 sacks (2nd ACC)"},
-    {"name": "Isaiah Johnson", "role": "DT (returning)", "evidence": "72.9/330 (74.1 ACC-adj)"}
+    {
+     "name": "Melkart Abou Jaoude",
+     "role": "DE (returning)",
+     "evidence": "79.0/646 (80.2 ACC-adj); 47 tkl, 10.5 sacks (2nd ACC)"
+    },
+    {
+     "name": "Isaiah Johnson",
+     "role": "DT (returning)",
+     "evidence": "72.9/330 (74.1 ACC-adj)"
+    }
    ],
-   "data_gaps": ["lost Thompson (81.5 edge) + Mims + Robinson + Vilbert (P6 retro-QA)", "edge depth = FCS/low-grade transfers"], "g5_guard_note": null
+   "data_gaps": [
+    "lost Thompson (81.5 edge) + Mims + Robinson + Vilbert (P6 retro-QA)",
+    "edge depth = FCS/low-grade transfers"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "North Carolina", "unit": "LB", "grade": 40, "confidence": "L",
-   "bracketing_exemplars": ["NC State LB 2026 (42, above)", "gutted-rebuild tier"],
+   "team": "North Carolina",
+   "unit": "LB",
+   "grade": 40,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "NC State LB 2026 (42, above)",
+    "gutted-rebuild tier"
+   ],
    "rationale_bullets": [
     "GUTTED. Loses House (53.0/777 -> Arkansas) + Simpson (74.5/727, yr4) + Gbayor (-> FSU) - the entire top LB group.",
     "Rebuilt with Peyton Seelman (Richmond FCS, 120 tkl) + Derek McDonald (Syracuse) + Ade Willie (Mich St) + young returners.",
@@ -110,14 +225,32 @@
     "40: ~NC State LB 42 (both gutted). L."
    ],
    "key_players": [
-    {"name": "Peyton Seelman", "role": "LB (transfer, Richmond/FCS)", "evidence": "120 tkl at Richmond (FCS)"},
-    {"name": "Derek McDonald", "role": "LB (transfer, Syracuse)", "evidence": "50.0/90; 28 career starts"}
+    {
+     "name": "Peyton Seelman",
+     "role": "LB (transfer, Richmond/FCS)",
+     "evidence": "120 tkl at Richmond (FCS)"
+    },
+    {
+     "name": "Derek McDonald",
+     "role": "LB (transfer, Syracuse)",
+     "evidence": "50.0/90; 28 career starts"
+    }
    ],
-   "data_gaps": ["entire top LB group gone", "FCS/mid transfers; thin depth"], "g5_guard_note": null
+   "data_gaps": [
+    "entire top LB group gone",
+    "FCS/mid transfers; thin depth"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "North Carolina", "unit": "DB", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["Georgia Tech DB 2026 (48, round peer)", "NC State DB 2026 (46, below)"],
+   "team": "North Carolina",
+   "unit": "DB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Georgia Tech DB 2026 (48, round peer)",
+    "NC State DB 2026 (46, below)"
+   ],
    "rationale_bullets": [
     "Greg Smith (79.3/273 -> 80.5 adj; great spring; chart S starter) + Jaiden Patterson (72.0; started half of '25) + Kaleb Cost (68.6; the ONLY full-time returning starter per P6) + Coleman Bryson (61.2) + Ade Willie (MSU transfer, chart CB).",
     "P6: 'FOUR starters are gone from the secondary.' RETRO-QA: Allen (65.3/722) + Gibson (70.4/636) + Dixon had been wrongly carried as yr4 returns - corrected to GONE (Athlon chart lists none of them).",
@@ -125,14 +258,32 @@
     "48: ~GT/FSU DB 48; above NC State DB 46. M."
    ],
    "key_players": [
-    {"name": "Greg Smith", "role": "S (returning)", "evidence": "79.3/273 (80.5 ACC-adj); 'great spring'"},
-    {"name": "Jaiden Patterson", "role": "CB (returning)", "evidence": "70.8/473 (72.0 ACC-adj)"}
+    {
+     "name": "Greg Smith",
+     "role": "S (returning)",
+     "evidence": "79.3/273 (80.5 ACC-adj); 'great spring'"
+    },
+    {
+     "name": "Jaiden Patterson",
+     "role": "CB (returning)",
+     "evidence": "70.8/473 (72.0 ACC-adj)"
+    }
    ],
-   "data_gaps": ["lost 2 starters", "corner grades mid"], "g5_guard_note": null
+   "data_gaps": [
+    "lost 2 starters",
+    "corner grades mid"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "North Carolina", "unit": "ST", "grade": 46, "confidence": "M",
-   "bracketing_exemplars": ["NC State ST 2026 (48, above)", "Louisville ST 2026 (44, below)"],
+   "team": "North Carolina",
+   "unit": "ST",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "NC State ST 2026 (48, above)",
+    "Louisville ST 2026 (44, below)"
+   ],
    "rationale_bullets": [
     "K Aeron Burrell (transfer) + P Jacob Horvath. Return game uncertain. SPEC p47.",
     "A transfer kicker + a punter; 'steady but unspectacular' (Athlon).",
@@ -140,10 +291,21 @@
     "46: middling - ~NC State ST 48 / Louisville ST 44. M."
    ],
    "key_players": [
-    {"name": "Aeron Burrell", "role": "K (transfer)", "evidence": "transfer placekicker"},
-    {"name": "Jacob Horvath", "role": "P", "evidence": "punter"}
+    {
+     "name": "Aeron Burrell",
+     "role": "K (transfer)",
+     "evidence": "transfer placekicker"
+    },
+    {
+     "name": "Jacob Horvath",
+     "role": "P",
+     "evidence": "punter"
+    }
    ],
-   "data_gaps": ["return game uncertain"], "g5_guard_note": null
+   "data_gaps": [
+    "return game uncertain"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

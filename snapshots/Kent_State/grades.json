@@ -1,14 +1,40 @@
 {
  "team": "Kent State",
  "units": {
-  "QB": {"grade": 32, "confidence": "M"},
-  "RB": {"grade": 10, "confidence": "M"},
-  "WRTE": {"grade": 26, "confidence": "M"},
-  "OL": {"grade": 12, "confidence": "M"},
-  "DL": {"grade": 22, "confidence": "M"},
-  "LB": {"grade": 14, "confidence": "M"},
-  "DB": {"grade": 18, "confidence": "M"},
-  "ST": {"grade": 26, "confidence": "M"}
+  "QB": {
+   "grade": 32,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 10,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 26,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 12,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 22,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 14,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 17,
+   "confidence": "M",
+   "v1_grade": 18,
+   "adjudication": "DB policy 1/3 blend: dg-9.0; info 0.15 \u2014 blend halved"
+  },
+  "ST": {
+   "grade": 26,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -25,7 +51,9 @@
    "DB": "+17 vs proxy 1 (proxy expires feed-yr4-ERROR Jackson III, a 2024 true freshman)",
    "QB": "+23 vs proxy 9 (proxy dilutes returning DeShields with departed Montes/Kargman rows)",
    "ST": "+13 vs proxy 13 (proxy cannot see the returning All-MAC return duo)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -44,10 +72,21 @@
     "32, M: below CMU 38/EMU 40 on raw-grade evidence, a hair under Akron's 34, far above Ball State's empty-room 18."
    ],
    "key_players": [
-    {"name": "Dru DeShields", "role": "QB1 (returning starter)", "evidence": "60.6/300; 2,030 @ 56.7%, 18-3; 9 st"},
-    {"name": "Ethan Thanthanavong", "role": "QB2 (transfer, NAIA Defiance)", "evidence": "1,466 @ 66%, 10-6; no cell"}
+    {
+     "name": "Dru DeShields",
+     "role": "QB1 (returning starter)",
+     "evidence": "60.6/300; 2,030 @ 56.7%, 18-3; 9 st"
+    },
+    {
+     "name": "Ethan Thanthanavong",
+     "role": "QB2 (transfer, NAIA Defiance)",
+     "evidence": "1,466 @ 66%, 10-6; no cell"
+    }
    ],
-   "data_gaps": ["ACL history", "ratio-vs-grade divergence"],
+   "data_gaps": [
+    "ACL history",
+    "ratio-vs-grade divergence"
+   ],
    "g5_guard_note": null
   },
   {
@@ -66,10 +105,21 @@
     "10: above Ball State's 8 on import count alone; below EMU's 14 (Bennett's pedigree beats this pool)."
    ],
    "key_players": [
-    {"name": "Jakorion Caffey", "role": "RB1 candidate (transfer, Cincinnati)", "evidence": "51.0/2; 2 gm as rFr; PS#94"},
-    {"name": "Mason King", "role": "RB1 candidate (transfer, FCS Illinois St)", "evidence": "883 @ 6.6 in 2023 - old tape"}
+    {
+     "name": "Jakorion Caffey",
+     "role": "RB1 candidate (transfer, Cincinnati)",
+     "evidence": "51.0/2; 2 gm as rFr; PS#94"
+    },
+    {
+     "name": "Mason King",
+     "role": "RB1 candidate (transfer, FCS Illinois St)",
+     "evidence": "883 @ 6.6 in 2023 - old tape"
+    }
    ],
-   "data_gaps": ["no RB1 from spring", "zero returning 40-carry backs"],
+   "data_gaps": [
+    "no RB1 from spring",
+    "zero returning 40-carry backs"
+   ],
    "g5_guard_note": null
   },
   {
@@ -88,11 +138,25 @@
     "26: four returning mid pieces beat Buffalo's one-anchor 22; one tick under CMU/Akron 28 (their anchors out-grade anyone here)."
    ],
    "key_players": [
-    {"name": "Wayne Harris", "role": "slot WR1 (returning starter)", "evidence": "66.7/257; 383 @ 10.8; big spring per Athlon"},
-    {"name": "Terik Mulder", "role": "TE1 (returning)", "evidence": "71.5/120; 19-198-4; All-MAC candidate"},
-    {"name": "Da'Realyst Clark", "role": "WR (returning KR star)", "evidence": "67.0/47; 108 @ 36.0 receiving"}
+    {
+     "name": "Wayne Harris",
+     "role": "slot WR1 (returning starter)",
+     "evidence": "66.7/257; 383 @ 10.8; big spring per Athlon"
+    },
+    {
+     "name": "Terik Mulder",
+     "role": "TE1 (returning)",
+     "evidence": "71.5/120; 19-198-4; All-MAC candidate"
+    },
+    {
+     "name": "Da'Realyst Clark",
+     "role": "WR (returning KR star)",
+     "evidence": "67.0/47; 108 @ 36.0 receiving"
+    }
    ],
-   "data_gaps": ["no returning 400-yd receiver"],
+   "data_gaps": [
+    "no returning 400-yd receiver"
+   ],
    "g5_guard_note": null
   },
   {
@@ -111,11 +175,26 @@
     "12 = Ball State 12: three starters back mirrors their frozen room almost exactly (similar raw grades, full volume); Dunn's health is the downside tail."
    ],
    "key_players": [
-    {"name": "Dustyn Morell", "role": "RG1 (returning starter)", "evidence": "64.4/470; 28 career starts"},
-    {"name": "Tyler Meadows", "role": "LT1 (returning starter)", "evidence": "37.6/426; 7 st as a true FR"},
-    {"name": "Jaxon Dunn", "role": "G (returning; injury monitor)", "evidence": "60.4/568; 8 st as rFr; spring injury '? for 26'"}
+    {
+     "name": "Dustyn Morell",
+     "role": "RG1 (returning starter)",
+     "evidence": "64.4/470; 28 career starts"
+    },
+    {
+     "name": "Tyler Meadows",
+     "role": "LT1 (returning starter)",
+     "evidence": "37.6/426; 7 st as a true FR"
+    },
+    {
+     "name": "Jaxon Dunn",
+     "role": "G (returning; injury monitor)",
+     "evidence": "60.4/568; 8 st as rFr; spring injury '? for 26'"
+    }
    ],
-   "data_gaps": ["Dunn spring injury", "FBS-worst pass-pro tape"],
+   "data_gaps": [
+    "Dunn spring injury",
+    "FBS-worst pass-pro tape"
+   ],
    "g5_guard_note": null
   },
   {
@@ -134,11 +213,25 @@
     "22: more returning quality than EMU's 18, less than CMU's 24; nothing returning grades above 62-equiv."
    ],
    "key_players": [
-    {"name": "Thomas Aden", "role": "NT1 (returning starter)", "evidence": "67.7/392; 9 st; ex-Pitt"},
-    {"name": "Darian Blachewicz", "role": "DT (returning riser)", "evidence": "69.2/214; 21 tkl, 3.5 tfl as true FR"},
-    {"name": "Jaihien Roy", "role": "DE1 (returning)", "evidence": "62.5/310; 3rd-year program riser"}
+    {
+     "name": "Thomas Aden",
+     "role": "NT1 (returning starter)",
+     "evidence": "67.7/392; 9 st; ex-Pitt"
+    },
+    {
+     "name": "Darian Blachewicz",
+     "role": "DT (returning riser)",
+     "evidence": "69.2/214; 21 tkl, 3.5 tfl as true FR"
+    },
+    {
+     "name": "Jaihien Roy",
+     "role": "DE1 (returning)",
+     "evidence": "62.5/310; 3rd-year program riser"
+    }
    ],
-   "data_gaps": ["no returning high-end piece post-Mathis"],
+   "data_gaps": [
+    "no returning high-end piece post-Mathis"
+   ],
    "g5_guard_note": null
   },
   {
@@ -157,11 +250,26 @@
     "14 = CMU 14: a real name + a mid returnee beats Buffalo's all-import 12; nowhere near BGSU's 30."
    ],
    "key_players": [
-    {"name": "Rocco Nicholl", "role": "LB1 (boomerang transfer, USF)", "evidence": "8 st, 61 tkl at KSU '24; 77.8/42 at USF"},
-    {"name": "Sayed Abuhamdeh", "role": "LB (returning)", "evidence": "56.3/327; 38 tkl"},
-    {"name": "Hayden Dawahare", "role": "LB (transfer, Kentucky)", "evidence": "85.9/9 - tiny sample"}
+    {
+     "name": "Rocco Nicholl",
+     "role": "LB1 (boomerang transfer, USF)",
+     "evidence": "8 st, 61 tkl at KSU '24; 77.8/42 at USF"
+    },
+    {
+     "name": "Sayed Abuhamdeh",
+     "role": "LB (returning)",
+     "evidence": "56.3/327; 38 tkl"
+    },
+    {
+     "name": "Hayden Dawahare",
+     "role": "LB (transfer, Kentucky)",
+     "evidence": "85.9/9 - tiny sample"
+    }
    ],
-   "data_gaps": ["top-3 tackler exodus", "import samples tiny"],
+   "data_gaps": [
+    "top-3 tackler exodus",
+    "import samples tiny"
+   ],
    "g5_guard_note": null
   },
   {
@@ -180,11 +288,26 @@
     "18: the soph-S volume keeps it off the Ball State floor; the year-2 jump is projection, not tape."
    ],
    "key_players": [
-    {"name": "Derrick Jackson III", "role": "S1 (returning starter; yr4 feed-error override)", "evidence": "57.1/575; 7 st, 49 tkl as true FR"},
-    {"name": "Joel Cordoba", "role": "S1 (returning starter)", "evidence": "50.3/552; 8 st, 68 tkl as true FR"},
-    {"name": "Davion Pritchard", "role": "CB (transfer, Pittsburgh)", "evidence": "64.1/10 at Pitt"}
+    {
+     "name": "Derrick Jackson III",
+     "role": "S1 (returning starter; yr4 feed-error override)",
+     "evidence": "57.1/575; 7 st, 49 tkl as true FR"
+    },
+    {
+     "name": "Joel Cordoba",
+     "role": "S1 (returning starter)",
+     "evidence": "50.3/552; 8 st, 68 tkl as true FR"
+    },
+    {
+     "name": "Davion Pritchard",
+     "role": "CB (transfer, Pittsburgh)",
+     "evidence": "64.1/10 at Pitt"
+    }
    ],
-   "data_gaps": ["corners unresolved", "experience is true-FR-grade tape"],
+   "data_gaps": [
+    "corners unresolved",
+    "experience is true-FR-grade tape"
+   ],
    "g5_guard_note": null
   },
   {
@@ -203,10 +326,21 @@
     "26 = CMU 26: elite proven returners offset the empty kicking jobs; PS expects 'a solid climb.'"
    ],
    "key_players": [
-    {"name": "Da'Realyst Clark", "role": "KR1 (returning)", "evidence": "1st-Tm All-MAC returner; 28.3; 2 KR TDs"},
-    {"name": "Wayne Harris", "role": "PR1 (returning)", "evidence": "MAC-best 13.2 + PR TD"}
+    {
+     "name": "Da'Realyst Clark",
+     "role": "KR1 (returning)",
+     "evidence": "1st-Tm All-MAC returner; 28.3; 2 KR TDs"
+    },
+    {
+     "name": "Wayne Harris",
+     "role": "PR1 (returning)",
+     "evidence": "MAC-best 13.2 + PR TD"
+    }
    ],
-   "data_gaps": ["3-way K battle", "P job between a 31.4-avg holdover and a D2 import"],
+   "data_gaps": [
+    "3-way K battle",
+    "P job between a 31.4-avg holdover and a D2 import"
+   ],
    "g5_guard_note": null
   }
  ]

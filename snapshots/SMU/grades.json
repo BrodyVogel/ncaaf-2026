@@ -1,14 +1,40 @@
 {
  "team": "SMU",
  "units": {
-  "QB": {"grade": 62, "confidence": "H"},
-  "RB": {"grade": 54, "confidence": "M"},
-  "WRTE": {"grade": 52, "confidence": "M"},
-  "OL": {"grade": 62, "confidence": "M"},
-  "DL": {"grade": 52, "confidence": "M"},
-  "LB": {"grade": 56, "confidence": "M"},
-  "DB": {"grade": 52, "confidence": "M"},
-  "ST": {"grade": 50, "confidence": "M"}
+  "QB": {
+   "grade": 67,
+   "confidence": "M",
+   "v1_grade": 62,
+   "adjudication": "50/50 blend: dg+9.6"
+  },
+  "RB": {
+   "grade": 54,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 62,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 56,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 50,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,7 +42,9 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape, arrivals on origin cells [MAC White + CUSA/SEC/AAC arrivals weighted]; HC Lashlee no change; disposition gate resolved - Hibner NFL declare [PS-verified], Harden+Brinson research-departures, yr4 elite exodus [DL+DB], Jefferson injury-return + Nate Anderson gate-catch adjudicated vs both charts); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 62/RB 54/WRTE 52/OL 62/DL 52/LB 56/DB 52/ST 50)."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines (QB 62/RB 54/WRTE 52/OL 62/DL 52/LB 56/DB 52/ST 50)."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 74, RB 2, WRTE 59, OL 85, DL 63, LB 52, DB 47, ST 54) keys the '25 tape.",
    "OL": "-23 vs proxy 85 - proxy keys the elite '25 line at its ceiling; the grade credits the strong returning core (PJ Williams NFL) at a calibrated level with a young LG.",
@@ -24,12 +52,20 @@
    "DL": "-11 vs proxy 63 - proxy keys the '25 senior front (all gone); the grade keys the rework (White elite + Jefferson return + transfers).",
    "DB": "+5 vs proxy 47 - proxy keys the revamped secondary; the grade credits Polley + Barnes + the transfers.",
    "QB": "-12 vs proxy 74 - proxy keys Jennings' full tape; the grade credits a proven-but-not-elite starter."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "SMU", "unit": "QB", "grade": 62, "confidence": "H",
-   "bracketing_exemplars": ["Miami QB 2026 (70, above - elite)", "NC State QB 2026 (54, below)"],
+   "team": "SMU",
+   "unit": "QB",
+   "grade": 62,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "Miami QB 2026 (70, above - elite)",
+    "NC State QB 2026 (54, below)"
+   ],
    "rationale_bullets": [
     "Kevin Jennings (returning, 78.6/530 -> ACC +2.08 -> 80.7 adj) - top-10 nationally in passing (3,541 yds, 26-13); a proven super-senior, now 100% healthy (injured/hobbled '25).",
     "Backup true-fr Ty Hawkins ('QB of the future').",
@@ -37,13 +73,27 @@
     "62: below Miami's Mensah (70 - fewer TDs) but clearly a top-ACC proven starter; well above the projections. H."
    ],
    "key_players": [
-    {"name": "Kevin Jennings", "role": "QB1 (returning)", "evidence": "78.6/530 (80.7 ACC-adj); top-10 passer (3,541 yds); super-senior healthy"}
+    {
+     "name": "Kevin Jennings",
+     "role": "QB1 (returning)",
+     "evidence": "78.6/530 (80.7 ACC-adj); top-10 passer (3,541 yds); super-senior healthy"
+    }
    ],
-   "data_gaps": ["injured/hobbled in '25 (ankle)", "skill positions around him overhauled"], "g5_guard_note": null
+   "data_gaps": [
+    "injured/hobbled in '25 (ankle)",
+    "skill positions around him overhauled"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "SMU", "unit": "RB", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["NC State RB 2026 (56, above)", "North Carolina RB 2026 (50, below)"],
+   "team": "SMU",
+   "unit": "RB",
+   "grade": 54,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "NC State RB 2026 (56, above)",
+    "North Carolina RB 2026 (50, below)"
+   ],
    "rationale_bullets": [
     "Kendrick Raphael (Cal transfer, 73.7/231 -> ACC +4.90 -> 78.6 adj; 943 rush - scored Cal's GW TD vs SMU) + Dramekco Green (2nd-yr) + true frosh Rhodes.",
     "Lost the top-2 ('25): Harden + Johnson (-> Clemson).",
@@ -51,13 +101,26 @@
     "54: ~NC State RB 56; Raphael good but the room is new. M."
    ],
    "key_players": [
-    {"name": "Kendrick Raphael", "role": "RB1 (transfer, California)", "evidence": "73.7/231 (78.6 ACC-adj); 943 rush"}
+    {
+     "name": "Kendrick Raphael",
+     "role": "RB1 (transfer, California)",
+     "evidence": "73.7/231 (78.6 ACC-adj); 943 rush"
+    }
    ],
-   "data_gaps": ["new room; lost top-2 RBs"], "g5_guard_note": null
+   "data_gaps": [
+    "new room; lost top-2 RBs"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "SMU", "unit": "WRTE", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["North Carolina WRTE 2026 (48, below)", "California WRTE 2026 (54, above)"],
+   "team": "SMU",
+   "unit": "WRTE",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "North Carolina WRTE 2026 (48, below)",
+    "California WRTE 2026 (54, above)"
+   ],
    "rationale_bullets": [
     "'almost completely different.' Yamir Knight (returning, 74.5/307 -> 76.9 adj - dynamic slot, 637 yds) + Yannick Smith (ECU, 66.3/334) + Jalen Hale (Alabama, healthy) + Jalen Cooper + TE room (Ohrstrom A&M, Pittman FSU).",
     "Lost Hudson (yr4), Brinson, Hibner (NFL), Maryland.",
@@ -65,14 +128,31 @@
     "52: above NC State/Pitt WRTE 42 (better bodies). M."
    ],
    "key_players": [
-    {"name": "Yamir Knight", "role": "WR (returning)", "evidence": "74.5/307 (76.9 ACC-adj); dynamic slot, 637 yds"},
-    {"name": "Randy Pittman Jr.", "role": "TE (transfer, Florida State)", "evidence": "62.2/235 (64.6 ACC-adj)"}
+    {
+     "name": "Yamir Knight",
+     "role": "WR (returning)",
+     "evidence": "74.5/307 (76.9 ACC-adj); dynamic slot, 637 yds"
+    },
+    {
+     "name": "Randy Pittman Jr.",
+     "role": "TE (transfer, Florida State)",
+     "evidence": "62.2/235 (64.6 ACC-adj)"
+    }
    ],
-   "data_gaps": ["top receivers gone; unproven together"], "g5_guard_note": null
+   "data_gaps": [
+    "top receivers gone; unproven together"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "SMU", "unit": "OL", "grade": 62, "confidence": "M",
-   "bracketing_exemplars": ["Miami OL context", "Virginia OL context (above the rebuilds)"],
+   "team": "SMU",
+   "unit": "OL",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Miami OL context",
+    "Virginia OL context (above the rebuilds)"
+   ],
    "rationale_bullets": [
     "STRONG. PJ Williams (LT, returning, 80.0/744 -> 83.5 adj - high NFL draft pick) + Joshua Bates (C, 73.5) + Addison Nichols (RG, 76.3) + Andrew Chamblee (RT) + Alex Woods (LG, young).",
     "3 returning starters. PBLK p94 in '25.",
@@ -80,14 +160,31 @@
     "62: well above the rebuilds; the young LG (Woods) the only question. M."
    ],
    "key_players": [
-    {"name": "PJ Williams", "role": "LT (returning)", "evidence": "80.0/744 (83.5 ACC-adj); high NFL draft pick"},
-    {"name": "Addison Nichols", "role": "RG (returning)", "evidence": "72.8/875 (76.3 ACC-adj)"}
+    {
+     "name": "PJ Williams",
+     "role": "LT (returning)",
+     "evidence": "80.0/744 (83.5 ACC-adj); high NFL draft pick"
+    },
+    {
+     "name": "Addison Nichols",
+     "role": "RG (returning)",
+     "evidence": "72.8/875 (76.3 ACC-adj)"
+    }
    ],
-   "data_gaps": ["young LG (Woods)"], "g5_guard_note": null
+   "data_gaps": [
+    "young LG (Woods)"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "SMU", "unit": "DL", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["Pittsburgh DL 2026 (58, above)", "North Carolina DL 2026 (54, above)"],
+   "team": "SMU",
+   "unit": "DL",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Pittsburgh DL 2026 (58, above)",
+    "North Carolina DL 2026 (54, above)"
+   ],
    "rationale_bullets": [
     "REWORKED. Loses all 4 senior starters (Robertson 85.1, Smith 77.7, M'ba - yr4). Adds Marques White (UMass, 90.2/470 -> MAC-weighted ~84 - elite edge) + Christian Davis (LaTech) + Malcolm Alcorn-Crowder (KSU, 73.2) + Jonathan Jefferson (2024 standout, injury return). Returns Jahkai Lang (80.8) + Spears.",
     "A transfer-heavy rework off a strong sack pedigree (SMU 2nd in sacks over 3 yrs, PRSH p71) - White elite, Lang returns, Jefferson back - but lost the senior core.",
@@ -95,14 +192,32 @@
     "52: below Pitt DL 58; the senior losses cap it despite White. M."
    ],
    "key_players": [
-    {"name": "Marques White", "role": "DE (transfer, UMass)", "evidence": "90.2/470 (MAC-weighted ~84); elite edge"},
-    {"name": "Jahkai Lang", "role": "DE (returning)", "evidence": "79.6/410 (80.8 ACC-adj)"}
+    {
+     "name": "Marques White",
+     "role": "DE (transfer, UMass)",
+     "evidence": "90.2/470 (MAC-weighted ~84); elite edge"
+    },
+    {
+     "name": "Jahkai Lang",
+     "role": "DE (returning)",
+     "evidence": "79.6/410 (80.8 ACC-adj)"
+    }
    ],
-   "data_gaps": ["lost all 4 senior starters", "White's tape is MAC-level"], "g5_guard_note": null
+   "data_gaps": [
+    "lost all 4 senior starters",
+    "White's tape is MAC-level"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "SMU", "unit": "LB", "grade": 56, "confidence": "M",
-   "bracketing_exemplars": ["Pittsburgh LB 2026 (54, below)", "strong-returning-trio tier"],
+   "team": "SMU",
+   "unit": "LB",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Pittsburgh LB 2026 (54, below)",
+    "strong-returning-trio tier"
+   ],
    "rationale_bullets": [
     "An 'impressive trio' ALL RETURNS - Brandon Booker (72.4/665 -> 74.5 adj; NFL upside) + Alexander Kilgore (68.2/447 -> 70.3) + Brandon Miyazono (69.3/424 -> 71.4). + Caden Marshall (BGSU).",
     "Lost Medlock (-> BC) depth.",
@@ -110,14 +225,31 @@
     "56: above Pitt LB 54; the strength of the D. M."
    ],
    "key_players": [
-    {"name": "Brandon Booker", "role": "MLB (returning)", "evidence": "72.4/665 (74.5 ACC-adj); NFL upside"},
-    {"name": "Brandon Miyazono", "role": "LB (returning)", "evidence": "69.3/424 (71.4 ACC-adj)"}
+    {
+     "name": "Brandon Booker",
+     "role": "MLB (returning)",
+     "evidence": "72.4/665 (74.5 ACC-adj); NFL upside"
+    },
+    {
+     "name": "Brandon Miyazono",
+     "role": "LB (returning)",
+     "evidence": "69.3/424 (71.4 ACC-adj)"
+    }
    ],
-   "data_gaps": ["depth thinner (Medlock gone)"], "g5_guard_note": null
+   "data_gaps": [
+    "depth thinner (Medlock gone)"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "SMU", "unit": "DB", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["Pittsburgh DB 2026 (52, round peer)", "Louisville DB 2026 (52, round peer)"],
+   "team": "SMU",
+   "unit": "DB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Pittsburgh DB 2026 (52, round peer)",
+    "Louisville DB 2026 (52, round peer)"
+   ],
    "rationale_bullets": [
     "revamped. Keeps Tyren Polley (S, 80.7/261 -> 81.9 adj - good) + Marcellus Barnes (CB, 63.9; all-ACC caliber) + William Nettles (CB, 64.6). Adds Jayvon Thomas (A&M CB; all-ACC caliber per PS) + Jimmy Wyrick (UTSA S) + Jarvis Lee (USF NB, 55 tkl).",
     "Lost top-3 (Moses/Nwokobia/Harmon - yr4).",
@@ -125,14 +257,32 @@
     "52: ~Pitt/Louisville DB 52. M."
    ],
    "key_players": [
-    {"name": "Tyren Polley Jr.", "role": "S (returning)", "evidence": "80.7/261 (81.9 ACC-adj)"},
-    {"name": "Jayvon Thomas", "role": "CB (transfer, Texas A&M)", "evidence": "all-ACC caliber (PS)"}
+    {
+     "name": "Tyren Polley Jr.",
+     "role": "S (returning)",
+     "evidence": "80.7/261 (81.9 ACC-adj)"
+    },
+    {
+     "name": "Jayvon Thomas",
+     "role": "CB (transfer, Texas A&M)",
+     "evidence": "all-ACC caliber (PS)"
+    }
    ],
-   "data_gaps": ["lost top-3 by volume", "transfers unproven together"], "g5_guard_note": null
+   "data_gaps": [
+    "lost top-3 by volume",
+    "transfers unproven together"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "SMU", "unit": "ST", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["NC State ST 2026 (48, below)", "Miami ST 2026 (58, above)"],
+   "team": "SMU",
+   "unit": "ST",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "NC State ST 2026 (48, below)",
+    "Miami ST 2026 (58, above)"
+   ],
    "rationale_bullets": [
     "K UPGRADE - FCS New Hampshire All-American Nick Reed (placekicking was 'an adventure' in '25). P Wade McSparron + LS return. SPEC p54.",
     "A proven-FCS kicker upgrade + a returning punter/return game.",
@@ -140,10 +290,21 @@
     "50: above the K-battle teams (NC State ST 48). M."
    ],
    "key_players": [
-    {"name": "Nick Reed", "role": "K (transfer, New Hampshire/FCS)", "evidence": "FCS All-American; K upgrade"},
-    {"name": "Wade McSparron", "role": "P (returning)", "evidence": "returning punter"}
+    {
+     "name": "Nick Reed",
+     "role": "K (transfer, New Hampshire/FCS)",
+     "evidence": "FCS All-American; K upgrade"
+    },
+    {
+     "name": "Wade McSparron",
+     "role": "P (returning)",
+     "evidence": "returning punter"
+    }
    ],
-   "data_gaps": ["kicker new to SMU (FCS)"], "g5_guard_note": null
+   "data_gaps": [
+    "kicker new to SMU (FCS)"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

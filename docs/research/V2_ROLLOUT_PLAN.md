@@ -91,3 +91,14 @@ docs/research/V2_ROLLOUT_PLAN.md — pick up at Notre Dame."
 - 1,041 sweep verdicts appended; 256 blends (118 up / 138 down, mean |move| 5.0); 5 manual
   middle-ground overrides after |dg|>20 review (Duke QB 46, Michigan QB 56, Wisconsin QB 57,
   LaTech WRTE 50, Tulane RB 54). Every unit on every team now has a logged verdict.
+
+## ROLLOUT COMPLETE (2026-07-23)
+All four steps done: (1) v2 baseline accepted; (1a) no conversion refit needed — OLS
+auto-refit R² 0.66/0.47 ≈ unchanged; (2) every unit on every team adjudicated (1,098
+verdicts, 302 changes/122 teams); (3) no model refits beyond the automatic ones (stretch
+1.1475→1.1591 at payload build; calibrated ×0.75 untouched by design); (4) all rating
+variants recomputed and populated into win_totals_2026.html + bet_tracker.html.
+Impact memo: docs/V2_IMPACT_MEMO_2026-07-23.md. All 14 bets survive; UCF conf O3.5
+flagged THIN (mm +1.5%) — hold, no add, fall-camp re-check.
+Standing next items: ACC official poll re-sweep (Jul 28), fall-camp QB-battle re-sweeps
+(UCF QB explicitly), Study 3 (continuity × prior-stability) still deferred.

@@ -1,14 +1,40 @@
 {
  "team": "Georgia Tech",
  "units": {
-  "QB": {"grade": 46, "confidence": "L"},
-  "RB": {"grade": 66, "confidence": "M"},
-  "WRTE": {"grade": 38, "confidence": "L"},
-  "OL": {"grade": 48, "confidence": "M"},
-  "DL": {"grade": 40, "confidence": "L"},
-  "LB": {"grade": 50, "confidence": "M"},
-  "DB": {"grade": 48, "confidence": "M"},
-  "ST": {"grade": 62, "confidence": "M"}
+  "QB": {
+   "grade": 46,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 66,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 43,
+   "confidence": "M",
+   "v1_grade": 38,
+   "adjudication": "50/50 blend: dg+9.0"
+  },
+  "OL": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 40,
+   "confidence": "L"
+  },
+  "LB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 62,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-17",
@@ -16,7 +42,9 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape, arrivals on origin cells [B10/SEC small-sample arrivals weighted down]; HC Key no change; NEW OC+DC noted as scheme risk not band trigger; disposition gate resolved - heavy yr4 wave [King+15 producers] + Melvin Jordan IV withdrawal adjudicated vs both charts); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 46/RB 66/WRTE 38/OL 48/DL 40/LB 50/DB 48/ST 62)."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines (QB 46/RB 66/WRTE 38/OL 48/DL 40/LB 50/DB 48/ST 62)."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB None, RB 66, WRTE 12, OL None, DL 33, LB None, DB 67, ST 85) keys as-played 2025 tape; the 2026 team lost its engine (King), its top-3 WRs, best OL, best DL, and 4 DB starters.",
    "WRTE": "+26 vs proxy 12 - proxy keys ONLY the departures (Rivers/Rutherford/Canion gone); the grade credits frosh Jordan Allen's promise + FCS producer Fuhrmann + the transfer TE room, lifting off the floor.",
@@ -24,12 +52,20 @@
    "DB": "-19 vs proxy 67 - proxy keys the returning-tape DBs; the grade accounts for 4 lost starters + a 4th-DC-in-4-yrs scheme, floored by real returners (Tae Harris/Tobe/Hill/Gilmore) + Duclona.",
    "DL": "+7 vs proxy 33 - both key the weak/rebuilt front; the transfer haul (Thomas, Walker, McCoy) lifts it slightly off the p21 base.",
    "QB/OL/LB": "proxy None - QB (King gone), OL (rebuilt), LB (flag); grades key Mendoza (unproven), the 2 returning OL + 3 new, and the 2 returning LB starters."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "Georgia Tech", "unit": "QB", "grade": 46, "confidence": "L",
-   "bracketing_exemplars": ["Boston College QB 2026 (40, round floor peer)", "Clemson QB 2026 (48, round peer)"],
+   "team": "Georgia Tech",
+   "unit": "QB",
+   "grade": 46,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Boston College QB 2026 (40, round floor peer)",
+    "Clemson QB 2026 (48, round peer)"
+   ],
    "rationale_bullets": [
     "Alberto Mendoza (Indiana transfer, 85.5/25 TINY sample -> B10 +0.55 -> ~86 adj, weighted DOWN HARD) - first-time starter, 25-snap charted sample; brother of '25 Heisman winner Fernando; mobile (190 rush).",
     "Haynes King (85.9, elite '25 starter) GONE (yr4 grad); OC Faulkner gone too. Athlon 'Filling King's shoes will be a tough assignment.'",
@@ -37,13 +73,27 @@
     "46: above Boston College QB 40, just below Clemson/VT/FSU QB 48 (unproven). L."
    ],
    "key_players": [
-    {"name": "Alberto Mendoza", "role": "QB1 (transfer, Indiana)", "evidence": "85.5/25 tiny sample; first-time starter; brother of Heisman winner Fernando; 190 rush"}
+    {
+     "name": "Alberto Mendoza",
+     "role": "QB1 (transfer, Indiana)",
+     "evidence": "85.5/25 tiny sample; first-time starter; brother of Heisman winner Fernando; 190 rush"
+    }
    ],
-   "data_gaps": ["25-snap charted sample - not weight-bearing", "zero starting experience; new OC scheme"], "g5_guard_note": null
+   "data_gaps": [
+    "25-snap charted sample - not weight-bearing",
+    "zero starting experience; new OC scheme"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Georgia Tech", "unit": "RB", "grade": 66, "confidence": "M",
-   "bracketing_exemplars": ["Virginia Tech RB 2026 (60, round peer)", "Florida State RB 2026 (58, round peer context)"],
+   "team": "Georgia Tech",
+   "unit": "RB",
+   "grade": 66,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Virginia Tech RB 2026 (60, round peer)",
+    "Florida State RB 2026 (58, round peer context)"
+   ],
    "rationale_bullets": [
     "Justice Haynes (Michigan transfer, 81.1/121 -> B10 -0.40 -> 80.7 adj) - PROVEN Bama+Michigan; PS#3 RB; opposing coach 'big-time NFL back... f---ing savage.'",
     "+ Malachi Hosley (returning, 79.5, led GT RBs 697 yds) + depth. Jamal Haynes (531 yds '25) GONE (yr4).",
@@ -51,14 +101,32 @@
     "66: above VT RB 60 and FSU RB 58 (Justice Haynes' pedigree + Hosley proven); tempered by the all-rebuilt OL. M."
    ],
    "key_players": [
-    {"name": "Justice Haynes", "role": "RB1 (transfer, Michigan)", "evidence": "81.1/121 (80.7 B10-adj); proven Bama+Michigan; PS#3 RB"},
-    {"name": "Malachi Hosley", "role": "RB2 (returning)", "evidence": "79.5; led GT RBs 697 rush yds '25"}
+    {
+     "name": "Justice Haynes",
+     "role": "RB1 (transfer, Michigan)",
+     "evidence": "81.1/121 (80.7 B10-adj); proven Bama+Michigan; PS#3 RB"
+    },
+    {
+     "name": "Malachi Hosley",
+     "role": "RB2 (returning)",
+     "evidence": "79.5; led GT RBs 697 rush yds '25"
+    }
    ],
-   "data_gaps": ["all-new OL in front", "Hosley small charted sample"], "g5_guard_note": null
+   "data_gaps": [
+    "all-new OL in front",
+    "Hosley small charted sample"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Georgia Tech", "unit": "WRTE", "grade": 38, "confidence": "L",
-   "bracketing_exemplars": ["Boston College WRTE context (round floor)", "California WRTE 2026 (54, round peer context - above)"],
+   "team": "Georgia Tech",
+   "unit": "WRTE",
+   "grade": 38,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Boston College WRTE context (round floor)",
+    "California WRTE 2026 (54, round peer context - above)"
+   ],
    "rationale_bullets": [
     "GUTTED - top-3 WRs by production all GONE: Rivers (72.7, yr4), Rutherford (77.7, yr4), Canion (66.8, ->Georgia). PS 'all three depart.'",
     "Returns only frosh Jordan Allen (77.8/72 small sample, 'higher expectations') + FCS Elon transfer Fuhrmann (907 yds but NO CELL) + Plummer (Cal) + a transfer TE room (Gavin Harris NMSU/CUSA, Corbo Dartmouth/Ivy, Mermans Yale/Ivy).",
@@ -66,14 +134,32 @@
     "38: proxy 12 (departure-only) is too harsh; Allen + the bodies lift it, but among the weakest ACC WRTE rooms. L."
    ],
    "key_players": [
-    {"name": "Jordan Allen", "role": "WR (returning)", "evidence": "77.8/72 small sample; promising true-fr (320 yds)"},
-    {"name": "Isaiah Fuhrmann", "role": "WR (transfer, Elon/FCS)", "evidence": "907 yds/19.7 at Elon (FCS, NO CELL - evidence-only)"}
+    {
+     "name": "Jordan Allen",
+     "role": "WR (returning)",
+     "evidence": "77.8/72 small sample; promising true-fr (320 yds)"
+    },
+    {
+     "name": "Isaiah Fuhrmann",
+     "role": "WR (transfer, Elon/FCS)",
+     "evidence": "907 yds/19.7 at Elon (FCS, NO CELL - evidence-only)"
+    }
    ],
-   "data_gaps": ["top-3 WRs gone; nothing proven-at-FBS returns", "TE room all FCS/Ivy/CUSA transfers"], "g5_guard_note": null
+   "data_gaps": [
+    "top-3 WRs gone; nothing proven-at-FBS returns",
+    "TE room all FCS/Ivy/CUSA transfers"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Georgia Tech", "unit": "OL", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["Florida State OL 2026 (40, all-new - below)", "Virginia OL context (round peer)"],
+   "team": "Georgia Tech",
+   "unit": "OL",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida State OL 2026 (40, all-new - below)",
+    "Virginia OL context (round peer)"
+   ],
    "rationale_bullets": [
     "Returns Ethan Mackenny (LT, 67.8/757 -> 71.3 adj, 'all-conf caliber') + Malachi Carney (RT->G, 67.9/768 -> 71.4 adj, 'NFL caliber' per PS).",
     "3 new starters: C Ionata (Alabama, tiny sample), LG Kevin Peay (rFr), RT Riggs (52.3 adj)/Markell Samuel (OkSt). Lost best-two Rutledge (76.7, yr4) + Fusile (yr4) + Harrison Moore (->Fla) + Alo-Tupuola (->ASU).",
@@ -81,14 +167,32 @@
     "48: above FSU OL 40 (all-new); the rebuild caps the ceiling. M."
    ],
    "key_players": [
-    {"name": "Malachi Carney", "role": "G (returning)", "evidence": "67.9/768 (71.4 ACC-adj); moves RT->guard; 'NFL caliber'"},
-    {"name": "Ethan Mackenny", "role": "LT (returning)", "evidence": "67.8/757 (71.3 adj); 'all-conf caliber'"}
+    {
+     "name": "Malachi Carney",
+     "role": "G (returning)",
+     "evidence": "67.9/768 (71.4 ACC-adj); moves RT->guard; 'NFL caliber'"
+    },
+    {
+     "name": "Ethan Mackenny",
+     "role": "LT (returning)",
+     "evidence": "67.8/757 (71.3 adj); 'all-conf caliber'"
+    }
    ],
-   "data_gaps": ["3 new starters incl a rFr guard", "interior all-new"], "g5_guard_note": null
+   "data_gaps": [
+    "3 new starters incl a rFr guard",
+    "interior all-new"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Georgia Tech", "unit": "DL", "grade": 40, "confidence": "L",
-   "bracketing_exemplars": ["California DL 2026 (42, round peer)", "Duke DL 2026 (44, round peer context)"],
+   "team": "Georgia Tech",
+   "unit": "DL",
+   "grade": 40,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "California DL 2026 (42, round peer)",
+    "Duke DL 2026 (44, round peer context)"
+   ],
    "rationale_bullets": [
     "Heavily rebuilt off a WEAK base ('25 PRSH p21, 13 sacks all year). Returns Hoffler (55.0 adj), Bradford (61.4), Manley (68.0), Fuller. Adds Tawfiq Thomas (Colorado, 84.4 adj small sample - bright spot) + Walker (Rutgers, B10-inflated weight down) + Carroll-Jackson (UConn, 53.0) + Carter (Bama) + McCoy (OkSt, 73.3).",
     "Lost van den Berg (75.0, best) + Alexander/Moore/Stone/Triplette (all yr4).",
@@ -96,14 +200,32 @@
     "40: below Cal DL 42/Duke DL 44 - GT's base was worse and it's a fuller rebuild. Proxy 33. L."
    ],
    "key_players": [
-    {"name": "Tawfiq Thomas", "role": "DT (transfer, Colorado)", "evidence": "81.3/95 (84.4 B12-adj, small sample); the bright spot"},
-    {"name": "Jordan Walker", "role": "DE (transfer, Rutgers)", "evidence": "67.1/337 (B10-inflated, weighted down); 5 sk/57 tkl"}
+    {
+     "name": "Tawfiq Thomas",
+     "role": "DT (transfer, Colorado)",
+     "evidence": "81.3/95 (84.4 B12-adj, small sample); the bright spot"
+    },
+    {
+     "name": "Jordan Walker",
+     "role": "DE (transfer, Rutgers)",
+     "evidence": "67.1/337 (B10-inflated, weighted down); 5 sk/57 tkl"
+    }
    ],
-   "data_gaps": ["p21 pass-rush base", "best DL van den Berg gone; new scheme"], "g5_guard_note": null
+   "data_gaps": [
+    "p21 pass-rush base",
+    "best DL van den Berg gone; new scheme"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Georgia Tech", "unit": "LB", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Florida State LB 2026 (48, round peer)", "Clemson LB 2026 (54, round peer context)"],
+   "team": "Georgia Tech",
+   "unit": "LB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida State LB 2026 (48, round peer)",
+    "Clemson LB 2026 (54, round peer context)"
+   ],
    "rationale_bullets": [
     "E.J. Lightsey (returning, 68.6/671 -> 70.7 adj; 76 tkl - top tackler) + Kyle Efford (returning, 64.3/578 -> 66.4 adj; 67 tkl) - the two top tacklers back.",
     "+ Melvin Jordan IV (WITHDREW, 76.6/148, MLB2) + Cayman Spaulding (depth). Lost Tah'j Butler (->Ole Miss).",
@@ -111,14 +233,31 @@
     "50: above FSU LB 48 (2 returning starters + depth); below Clemson LB 54. M."
    ],
    "key_players": [
-    {"name": "E.J. Lightsey", "role": "LB (returning)", "evidence": "68.6/671 (70.7 ACC-adj); 76 tkl (top tackler)"},
-    {"name": "Kyle Efford", "role": "LB (returning)", "evidence": "64.3/578 (66.4 adj); 67 tkl"}
+    {
+     "name": "E.J. Lightsey",
+     "role": "LB (returning)",
+     "evidence": "68.6/671 (70.7 ACC-adj); 76 tkl (top tackler)"
+    },
+    {
+     "name": "Kyle Efford",
+     "role": "LB (returning)",
+     "evidence": "64.3/578 (66.4 adj); 67 tkl"
+    }
    ],
-   "data_gaps": ["new defensive scheme (4th DC/4 yrs)"], "g5_guard_note": null
+   "data_gaps": [
+    "new defensive scheme (4th DC/4 yrs)"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Georgia Tech", "unit": "DB", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["Duke DB 2026 (46, round peer)", "Florida State DB 2026 (48, round peer)"],
+   "team": "Georgia Tech",
+   "unit": "DB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Duke DB 2026 (46, round peer)",
+    "Florida State DB 2026 (48, round peer)"
+   ],
    "rationale_bullets": [
     "Jonas Duclona (USF transfer, 74.7/581 -> 71.4 adj, 5 PBU - good) + Tae Harris (returning S, 72.2/203 -> 73.4 adj, ascending) + Zachary Tobe (returning CB, 65.3) + Kelvin Hill (returning NB) + Jy Gilmore (returning S, 66.0/414) + Savion Riley (Colorado S) + Mbakwe (Ala WR->CB).",
     "Lost 4 starters to grad: Daniels (72.8), Harvey (71.9), Shelley (68.8), Powell-Lee.",
@@ -126,14 +265,32 @@
     "48: above Duke DB 46 ~ FSU DB 48 (returning bodies floor it). Proxy 67 too high given the losses. M."
    ],
    "key_players": [
-    {"name": "Jonas Duclona", "role": "CB (transfer, South Florida)", "evidence": "74.7/581 (71.4 AAC-adj); 5 st/35 tkl/5 PBU"},
-    {"name": "Tae Harris", "role": "S (returning)", "evidence": "72.2/203 (73.4 adj); ascending"}
+    {
+     "name": "Jonas Duclona",
+     "role": "CB (transfer, South Florida)",
+     "evidence": "74.7/581 (71.4 AAC-adj); 5 st/35 tkl/5 PBU"
+    },
+    {
+     "name": "Tae Harris",
+     "role": "S (returning)",
+     "evidence": "72.2/203 (73.4 adj); ascending"
+    }
    ],
-   "data_gaps": ["4 starters lost to graduation", "new scheme; Mbakwe a WR->CB convert"], "g5_guard_note": null
+   "data_gaps": [
+    "4 starters lost to graduation",
+    "new scheme; Mbakwe a WR->CB convert"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Georgia Tech", "unit": "ST", "grade": 62, "confidence": "M",
-   "bracketing_exemplars": ["Boston College ST 2026 (52, round peer context - below)", "Florida State ST 2026 (44, below)"],
+   "team": "Georgia Tech",
+   "unit": "ST",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Boston College ST 2026 (52, round peer context - below)",
+    "Florida State ST 2026 (44, below)"
+   ],
    "rationale_bullets": [
     "K Aidan Birr (returning) - Athlon 'one of the best placekickers in the country,' 25-28 FG '25, multiple clutch kicks.",
     "P Alex Bacchetta (Rice transfer, new). Return game: Mbakwe (PR) + Shane Marshall (KR) - 'multiple talented playmakers.' SPEC p85 in '25.",
@@ -141,10 +298,21 @@
     "62: above BC ST 52 and FSU ST 44 - the best ST in the ACC batch so far. M."
    ],
    "key_players": [
-    {"name": "Aidan Birr", "role": "K (returning)", "evidence": "'one of the best placekickers in the country'; 25-28 FG '25"},
-    {"name": "Jaylen Mbakwe", "role": "PR (transfer, Alabama)", "evidence": "return threat"}
+    {
+     "name": "Aidan Birr",
+     "role": "K (returning)",
+     "evidence": "'one of the best placekickers in the country'; 25-28 FG '25"
+    },
+    {
+     "name": "Jaylen Mbakwe",
+     "role": "PR (transfer, Alabama)",
+     "evidence": "return threat"
+    }
    ],
-   "data_gaps": ["all-new punter + LS"], "g5_guard_note": null
+   "data_gaps": [
+    "all-new punter + LS"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

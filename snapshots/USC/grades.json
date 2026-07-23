@@ -1,14 +1,44 @@
 {
  "team": "USC",
  "units": {
-  "QB": {"grade": 80, "confidence": "H"},
-  "RB": {"grade": 72, "confidence": "M"},
-  "WRTE": {"grade": 68, "confidence": "M"},
-  "OL": {"grade": 54, "confidence": "M"},
-  "DL": {"grade": 72, "confidence": "M"},
-  "LB": {"grade": 66, "confidence": "M"},
-  "DB": {"grade": 68, "confidence": "M"},
-  "ST": {"grade": 50, "confidence": "M"}
+  "QB": {
+   "grade": 80,
+   "confidence": "H"
+  },
+  "RB": {
+   "grade": 72,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 68,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 54,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 66,
+   "confidence": "M",
+   "v1_grade": 72,
+   "adjudication": "50/50 blend: dg-11.3"
+  },
+  "LB": {
+   "grade": 62,
+   "confidence": "M",
+   "v1_grade": 66,
+   "adjudication": "LB 0.4 blend: dg-10.8"
+  },
+  "DB": {
+   "grade": 67,
+   "confidence": "M",
+   "v1_grade": 68,
+   "adjudication": "DB policy 1/3 blend: dg-8.4; info 0.12 \u2014 blend halved"
+  },
+  "ST": {
+   "grade": 50,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -25,12 +55,20 @@
    "OL": "+25 vs proxy 29 (proxy is pure PFF tape; five returning starters + P6's Top-25 Run Push/Pass Pro results + seven injury combos argue above it)",
    "RB": "+10 vs proxy 62 (Jordan/Miller both graded 80+ on modest injury-shortened volumes)",
    "ST": "+41 vs proxy 9 (proxy is the as-played unit with the 35.6-net P; the strong K returns and the P/STC are replaced)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "USC", "unit": "QB", "grade": 80, "confidence": "H",
-   "bracketing_exemplars": ["South Carolina QB 2025 (p75 ref, 81.1)", "Rutgers QB 2025 (p90 ref, 89.3)"],
+   "team": "USC",
+   "unit": "QB",
+   "grade": 80,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "South Carolina QB 2025 (p75 ref, 81.1)",
+    "Rutgers QB 2025 (p90 ref, 89.3)"
+   ],
    "rationale_bullets": [
     "Maiava returns off a full-proof season: 86.2 PFF/461 dropbacks (B10 +1 -> 87.2, ~p88 tape), 3,711 yards (5th nationally), 9.2 Y/A (2nd in the B10), QBR 89.9 (2nd nationally), 24-10, 3rd-team All-B10.",
     "P6: 'this should remain a Top 10 offense with him at the helm'; PS: 'my #7 QB unit'; Athlon: 'potentially elite.' Riley calls the plays - the system constant.",
@@ -38,15 +76,32 @@
     "80, H: the round's #3 QB tape behind Sayin (91) and Moore (89), a clear tier over Becht's 74 (Maiava's raw line is elite where Becht's dipped)."
    ],
    "key_players": [
-    {"name": "Jayden Maiava", "role": "QB1 (returning starter)", "evidence": "86.2 PFF/461; 3,711 yds, 9.2 Y/A, QBR 89.9 (2nd natl), 24-10"},
-    {"name": "Sam Huard", "role": "QB2 (returning; yr4 override)", "evidence": "dual-print QB2; 2,247 @ 61% at Cal Poly '23"}
+    {
+     "name": "Jayden Maiava",
+     "role": "QB1 (returning starter)",
+     "evidence": "86.2 PFF/461; 3,711 yds, 9.2 Y/A, QBR 89.9 (2nd natl), 24-10"
+    },
+    {
+     "name": "Sam Huard",
+     "role": "QB2 (returning; yr4 override)",
+     "evidence": "dual-print QB2; 2,247 @ 61% at Cal Poly '23"
+    }
    ],
-   "data_gaps": ["INT rate", "no proven young QB2 after Longstreet's exit"],
+   "data_gaps": [
+    "INT rate",
+    "no proven young QB2 after Longstreet's exit"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "USC", "unit": "RB", "grade": 72, "confidence": "M",
-   "bracketing_exemplars": ["Memphis RB 2025 (p50 ref, 76.9)", "Auburn RB 2025 (p75 ref, 83.4)"],
+   "team": "USC",
+   "unit": "RB",
+   "grade": 72,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Memphis RB 2025 (p50 ref, 76.9)",
+    "Auburn RB 2025 (p75 ref, 83.4)"
+   ],
    "rationale_bullets": [
     "Both '25 leads return with 80+ tapes: Jordan (81.6 PFF/88; 576 @ 6.5, two 100-yd games in five healthy starts, OFY after six; 1,614 @ 7.4 JC before) and Miller (80.2/156; the walk-on's 972 @ 6.2 with the 158-yard Michigan flattening).",
     "P6: 'these two return to form a top duo in 2026'; PS: 'my #9 RB corps'; Riley's 'best RB room he has ever had' discounted as coach-speak.",
@@ -54,15 +109,32 @@
     "72, M: duo aggregate ~81 (~p68) on 244 combined injury-shortened carries - real quality, health the variable, elite depth behind."
    ],
    "key_players": [
-    {"name": "Waymond Jordan", "role": "RB1 (returning starter)", "evidence": "81.6 PFF/88; 576 @ 6.5; OFY after 6 starts"},
-    {"name": "King Miller", "role": "RB1B (returning starter)", "evidence": "80.2/156; 972 @ 6.2; 158 vs #15 Michigan"}
+    {
+     "name": "Waymond Jordan",
+     "role": "RB1 (returning starter)",
+     "evidence": "81.6 PFF/88; 576 @ 6.5; OFY after 6 starts"
+    },
+    {
+     "name": "King Miller",
+     "role": "RB1B (returning starter)",
+     "evidence": "80.2/156; 972 @ 6.2; 158 vs #15 Michigan"
+    }
    ],
-   "data_gaps": ["Jordan/Miller injury histories", "FR pair unscouted at volume"],
+   "data_gaps": [
+    "Jordan/Miller injury histories",
+    "FR pair unscouted at volume"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "USC", "unit": "WRTE", "grade": 68, "confidence": "M",
-   "bracketing_exemplars": ["Oklahoma WRTE 2025 (p75 ref, 70.4)", "Houston WRTE 2025 (78 anchor, 71.1)"],
+   "team": "USC",
+   "unit": "WRTE",
+   "grade": 68,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Oklahoma WRTE 2025 (p75 ref, 70.4)",
+    "Houston WRTE 2025 (78 anchor, 71.1)"
+   ],
    "rationale_bullets": [
     "The Biletnikoff void: Lemon (90.8 PFF/369; 1,156 @ 14.4; P4-best 96 ypg; 1st-round PHI) and Lane (77.6/310; rd-3 BAL) are both yr3 NFL declares; TE McRee expired and Lyons left for BYU. RECV was p98 WITH them.",
     "The proven pieces: Hines (75.9/243 -> 74.9; 561 @ 16.5 late surge with 100+ vs Oregon and TCU) + Anderson (72.1/280 at NC State -> 74.1; 629 @ 16.1; 4* transfer; 5th in ACC yds/catch).",
@@ -70,16 +142,37 @@
     "68, M: two ~74-75 adjusted proven tapes + the country's best recruit influx in Riley's system - graded at the p75 line, two tiers under the room it replaces."
    ],
    "key_players": [
-    {"name": "Tanook Hines", "role": "WR1 (returning starter)", "evidence": "75.9 PFF/243; 561 @ 16.5; late-season surge"},
-    {"name": "Terrell Anderson", "role": "WR (transfer, NC State)", "evidence": "72.1/280 (ACC +2 -> 74.1); 629 @ 16.1; 4* transfer"},
-    {"name": "Mark Bowman", "role": "TE (5* true FR signee)", "evidence": "#4 recruit in the class; 'could start right away' (P6)"}
+    {
+     "name": "Tanook Hines",
+     "role": "WR1 (returning starter)",
+     "evidence": "75.9 PFF/243; 561 @ 16.5; late-season surge"
+    },
+    {
+     "name": "Terrell Anderson",
+     "role": "WR (transfer, NC State)",
+     "evidence": "72.1/280 (ACC +2 -> 74.1); 629 @ 16.1; 4* transfer"
+    },
+    {
+     "name": "Mark Bowman",
+     "role": "TE (5* true FR signee)",
+     "evidence": "#4 recruit in the class; 'could start right away' (P6)"
+    }
    ],
-   "data_gaps": ["no returning alpha", "TE1 battle (FR/JC/blocking transfer)"],
+   "data_gaps": [
+    "no returning alpha",
+    "TE1 battle (FR/JC/blocking transfer)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "USC", "unit": "OL", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25 anchor, 55.4)", "Michigan OL 2025 (p50 ref, 65.5)"],
+   "team": "USC",
+   "unit": "OL",
+   "grade": 54,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25 anchor, 55.4)",
+    "Michigan OL 2025 (p50 ref, 65.5)"
+   ],
    "rationale_bullets": [
     "All five original starters return - Paige (69.9/310; 'the anchor'), Tauanuu (53.8/839), Raymond (54.9/840; 13 starts at three spots), Noa (56.5/619; 22 career starts), O'Connor (66.8/329) - the round's most complete returning line ON PAPER.",
     "The documented tension: PFF graded them PBLK p28 / RBLK p19, while P6 credits 'consecutive Top 25 finishes in both OL Run Push and Pass Protection' and notes SEVEN injury-forced combinations - health is the reconciler.",
@@ -87,17 +180,43 @@
     "54, M: the returning-starter tape aggregate (~59, ~p28) graded UP for total continuity, the results record, and the injury context - but a line whose two 840-snap tackles graded 53-55 cannot clear league-average on evidence."
    ],
    "key_players": [
-    {"name": "Elijah Paige", "role": "LT (returning starter)", "evidence": "69.9 PFF/310; 20 st L2Y; injury-limited '25"},
-    {"name": "Kilian O'Connor", "role": "C (returning starter)", "evidence": "66.8/329; 8 st, 16 gm L2Y"},
-    {"name": "Justin Tauanuu", "role": "RT (returning starter)", "evidence": "53.8/839; 12 st 2025"},
-    {"name": "Keenyi Pepe", "role": "T (5* true FR signee)", "evidence": "nation's #1 tackle recruit"}
+    {
+     "name": "Elijah Paige",
+     "role": "LT (returning starter)",
+     "evidence": "69.9 PFF/310; 20 st L2Y; injury-limited '25"
+    },
+    {
+     "name": "Kilian O'Connor",
+     "role": "C (returning starter)",
+     "evidence": "66.8/329; 8 st, 16 gm L2Y"
+    },
+    {
+     "name": "Justin Tauanuu",
+     "role": "RT (returning starter)",
+     "evidence": "53.8/839; 12 st 2025"
+    },
+    {
+     "name": "Keenyi Pepe",
+     "role": "T (5* true FR signee)",
+     "evidence": "nation's #1 tackle recruit"
+    }
    ],
-   "data_gaps": ["tape-vs-results contradiction", "health of Paige/O'Connor", "FR pressure on the two-deep"],
+   "data_gaps": [
+    "tape-vs-results contradiction",
+    "health of Paige/O'Connor",
+    "FR pressure on the two-deep"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "USC", "unit": "DL", "grade": 72, "confidence": "M",
-   "bracketing_exemplars": ["UCF DL 2025 (p75 ref, 75.2)", "Texas A&M DL 2025 (p90 ref, 81.2)"],
+   "team": "USC",
+   "unit": "DL",
+   "grade": 72,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UCF DL 2025 (p75 ref, 75.2)",
+    "Texas A&M DL 2025 (p90 ref, 81.2)"
+   ],
    "rationale_bullets": [
     "Patterson inherits eight bodies at 72-78 adjusted: returners Crawford (67.5/592 -> 77.5), Abasiri (66.9/450 -> 76.9), Stewart (66.6/231 -> 76.6; 5*, Freshman All-America on a bad foot), Shelby (62.1/459 -> 72.1), Boucard (65.6/173 -> 75.6) + imports VanSumeren (66.6/476 at MSU -> 76.6; 12 st) and Fisher (64.5/438 at PSU -> 74.5; 4* transfer).",
     "The class stacks three more: 5* Winfield, 5* Wafle (#1 DE), Top100 Topui; Jarrett (360 lb, ex-Georgia '25-cycle) rotates. Patterson: 'I've never had this big of a defensive line.'",
@@ -105,17 +224,42 @@
     "72, M: depth like the round's 76-77 rooms (Michigan/OSU/Indiana) but without a proven pressure star (PRSH p51; Shelby's 4.5 sk led) and with the p4 floor to fix."
    ],
    "key_players": [
-    {"name": "Kameryn Crawford", "role": "DE (returning starter)", "evidence": "67.5 PFF/592 (-> 77.5); co-led the sack production"},
-    {"name": "Jahkeem Stewart", "role": "DT (returning)", "evidence": "66.6/231 (-> 76.6); 5*; FR All-America"},
-    {"name": "Alex VanSumeren", "role": "DT (transfer, Michigan State)", "evidence": "66.6/476 (B10 +10 -> 76.6); 12 st"},
-    {"name": "Zuriah Fisher", "role": "DE (transfer, Penn State)", "evidence": "64.5/438 (-> 74.5); 4* transfer"}
+    {
+     "name": "Kameryn Crawford",
+     "role": "DE (returning starter)",
+     "evidence": "67.5 PFF/592 (-> 77.5); co-led the sack production"
+    },
+    {
+     "name": "Jahkeem Stewart",
+     "role": "DT (returning)",
+     "evidence": "66.6/231 (-> 76.6); 5*; FR All-America"
+    },
+    {
+     "name": "Alex VanSumeren",
+     "role": "DT (transfer, Michigan State)",
+     "evidence": "66.6/476 (B10 +10 -> 76.6); 12 st"
+    },
+    {
+     "name": "Zuriah Fisher",
+     "role": "DE (transfer, Penn State)",
+     "evidence": "64.5/438 (-> 74.5); 4* transfer"
+    }
    ],
-   "data_gaps": ["no proven double-digit-pressure edge", "Patterson scheme install"],
+   "data_gaps": [
+    "no proven double-digit-pressure edge",
+    "Patterson scheme install"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "USC", "unit": "LB", "grade": 66, "confidence": "M",
-   "bracketing_exemplars": ["Buffalo LB 2025 (p50 ref, 66.5)", "Oregon State LB 2025 (p75 ref, 77.4)"],
+   "team": "USC",
+   "unit": "LB",
+   "grade": 66,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Buffalo LB 2025 (p50 ref, 66.5)",
+    "Oregon State LB 2025 (p75 ref, 77.4)"
+   ],
    "rationale_bullets": [
     "Two full-volume B10 starter tapes man the middle: Stephens (64.6 PFF/712, +16 -> 80.6; team-high 89 tackles) and import Bryant (66.6/520 at Washington -> 82.6; 10 st, 62 tkl).",
     "Gentry (72.0/668) expires - the 'do-it-all' piece whose 'skillset allowed for creative packages' (P6).",
@@ -124,16 +268,37 @@
     "66, M: a solid two-man core with a versatility void and no proven third - the OSU-64/Oregon-66 tier."
    ],
    "key_players": [
-    {"name": "Desman Stephens II", "role": "MLB (returning starter)", "evidence": "64.6 PFF/712 (-> 80.6); 89 tkl (#1)"},
-    {"name": "Deven Bryant", "role": "WLB (transfer, Washington)", "evidence": "66.6/520 (B10 +16 -> 82.6); 10 st, 62 tkl"},
-    {"name": "Talanoa Ili", "role": "LB (Top100 true FR signee)", "evidence": "#10 class recruit; rotation candidate (P6)"}
+    {
+     "name": "Desman Stephens II",
+     "role": "MLB (returning starter)",
+     "evidence": "64.6 PFF/712 (-> 80.6); 89 tkl (#1)"
+    },
+    {
+     "name": "Deven Bryant",
+     "role": "WLB (transfer, Washington)",
+     "evidence": "66.6/520 (B10 +16 -> 82.6); 10 st, 62 tkl"
+    },
+    {
+     "name": "Talanoa Ili",
+     "role": "LB (Top100 true FR signee)",
+     "evidence": "#10 class recruit; rotation candidate (P6)"
+    }
    ],
-   "data_gaps": ["Gentry's versatility unreplaced", "LB3 (Walker tape vs print)"],
+   "data_gaps": [
+    "Gentry's versatility unreplaced",
+    "LB3 (Walker tape vs print)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "USC", "unit": "DB", "grade": 68, "confidence": "M",
-   "bracketing_exemplars": ["Syracuse DB 2025 (p50 ref, 66.9)", "UCF DB 2025 (p75 ref, 73.0)"],
+   "team": "USC",
+   "unit": "DB",
+   "grade": 68,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Syracuse DB 2025 (p50 ref, 66.9)",
+    "UCF DB 2025 (p75 ref, 73.0)"
+   ],
    "rationale_bullets": [
     "The three best tapes left: Fitzgerald (90.3 PFF/540 - 1st-team All-America; yr4), Nicholson (77.0/642; 12 st; yr4), Ramsey (72.5/483; yr3 declare, rd-5 HOU). COV was p86 with them.",
     "The marquee fix: Jontez Williams (83.6/202 at Iowa State, B12 +2 -> 85.6) - 'the #1 transfer corner... an instant starter here' (P6), All-B12.",
@@ -142,17 +307,42 @@
     "68, M: one 85-adjusted import + four 66-72 volume returners + two injury returns - depth without the departed stars; a notch under PSU/Michigan's 70s."
    ],
    "key_players": [
-    {"name": "Jontez Williams", "role": "CB1 (transfer, Iowa State)", "evidence": "83.6 PFF/202 (B12 +2 -> 85.6); All-B12; #1 transfer corner (P6)"},
-    {"name": "Christian Pierce", "role": "S (returning starter)", "evidence": "66.2/622 (-> 72.2)"},
-    {"name": "Marcelles Williams", "role": "CB (returning starter)", "evidence": "64.0/643 (-> 70.0)"},
-    {"name": "Prophet Brown", "role": "FS (returning; yr4 override)", "evidence": "triple-print return from injury; PS FS1"}
+    {
+     "name": "Jontez Williams",
+     "role": "CB1 (transfer, Iowa State)",
+     "evidence": "83.6 PFF/202 (B12 +2 -> 85.6); All-B12; #1 transfer corner (P6)"
+    },
+    {
+     "name": "Christian Pierce",
+     "role": "S (returning starter)",
+     "evidence": "66.2/622 (-> 72.2)"
+    },
+    {
+     "name": "Marcelles Williams",
+     "role": "CB (returning starter)",
+     "evidence": "64.0/643 (-> 70.0)"
+    },
+    {
+     "name": "Prophet Brown",
+     "role": "FS (returning; yr4 override)",
+     "evidence": "triple-print return from injury; PS FS1"
+    }
    ],
-   "data_gaps": ["safety rebuild (both stars gone)", "Johnson/Brown health"],
+   "data_gaps": [
+    "safety rebuild (both stars gone)",
+    "Johnson/Brown health"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "USC", "unit": "ST", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Wake Forest DL 2025 (60)"],
+   "team": "USC",
+   "unit": "ST",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "ST rule: start at the p9 as-played SPEC (PS STR slide #15 -> #43 -> #86) and adjust for the split personality: the K was excellent (Sayeri 21-25, L54, 48-48 PAT, 68 TB/89 KO - 'standout') while the P netted 35.6 and a kickoff-return TD swung the Notre Dame loss.",
     "The fixes: P Carrigan (Memphis) + NEW STC Ekeler (ran Nebraska's strong unit) + Chittenden (26-33 at UNLV '24) as K insurance.",
@@ -160,10 +350,21 @@
     "50, M: a top-shelf K and a credible coordinator upgrade against a bottom-decile prior and two new legs-adjacent roles."
    ],
    "key_players": [
-    {"name": "Ryon Sayeri", "role": "K (returning)", "evidence": "21-25 FG (L54); 68 TB on 89 KO 2025"},
-    {"name": "Lachlan Carrigan", "role": "P (transfer, Memphis)", "evidence": "replaces a 35.6-net punter"}
+    {
+     "name": "Ryon Sayeri",
+     "role": "K (returning)",
+     "evidence": "21-25 FG (L54); 68 TB on 89 KO 2025"
+    },
+    {
+     "name": "Lachlan Carrigan",
+     "role": "P (transfer, Memphis)",
+     "evidence": "replaces a 35.6-net punter"
+    }
    ],
-   "data_gaps": ["coverage/return rebuild under Ekeler", "PR (true FR)"],
+   "data_gaps": [
+    "coverage/return rebuild under Ekeler",
+    "PR (true FR)"
+   ],
    "g5_guard_note": null
   }
  ]

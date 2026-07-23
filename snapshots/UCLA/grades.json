@@ -1,14 +1,44 @@
 {
  "team": "UCLA",
  "units": {
-  "QB": {"grade": 60, "confidence": "M"},
-  "RB": {"grade": 60, "confidence": "M"},
-  "WRTE": {"grade": 52, "confidence": "M"},
-  "OL": {"grade": 42, "confidence": "M"},
-  "DL": {"grade": 56, "confidence": "M"},
-  "LB": {"grade": 60, "confidence": "M"},
-  "DB": {"grade": 66, "confidence": "M"},
-  "ST": {"grade": 56, "confidence": "M"}
+  "QB": {
+   "grade": 63,
+   "confidence": "M",
+   "v1_grade": 60,
+   "adjudication": "50/50 blend: dg+11.5; info 0.18 \u2014 blend halved"
+  },
+  "RB": {
+   "grade": 60,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 47,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "50/50 blend: dg-10.8"
+  },
+  "OL": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 61,
+   "confidence": "M",
+   "v1_grade": 56,
+   "adjudication": "50/50 blend: dg+10.7"
+  },
+  "LB": {
+   "grade": 60,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 66,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 56,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -25,12 +55,20 @@
    "RB": "+14 vs proxy 46 (proxy under-weights Knight's 81.3/206 JMU workhorse tape)",
    "WRTE": "+24 vs proxy 28 (proxy is the departed low-grade '25 room; 13 imports incl. Ellis 77.8 and 4*-grade Mizell)",
    "LB": "-14 vs proxy 74 (proxy counts departed Vaughns + Chisom; caution on Omosigho's 297-snap sample)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "UCLA", "unit": "QB", "grade": 60, "confidence": "M",
-   "bracketing_exemplars": ["Maryland QB 2025 (p50 ref, 71.8)", "South Carolina QB 2025 (p75 ref, 81.1)"],
+   "team": "UCLA",
+   "unit": "QB",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Maryland QB 2025 (p50 ref, 71.8)",
+    "South Carolina QB 2025 (p75 ref, 81.1)"
+   ],
    "rationale_bullets": [
     "Iamaleava returns as the retained face of the rebuild: 72.0 PFF/425 dropbacks (B10 +1 -> 73.0, ~p52 tape), 1,928 @ 64.4% with 13-7, PLUS the team-high 505 rushing yards, the 5-TD Penn State upset, and a November concussion played through.",
     "The two-year career base is real: 2,930 @ 63.6%, 21-5 at Tennessee including a CFP trip.",
@@ -39,15 +77,32 @@
     "60, M: league-median tape + 5* physical ceiling + rush value + scheme fit, discounted for the rating floor and the empty room."
    ],
    "key_players": [
-    {"name": "Nico Iamaleava", "role": "QB1 (returning starter)", "evidence": "72.0 PFF/425; 1,928 @ 64.4 + 505 rush; 5 TD vs #7 PSU"},
-    {"name": "Madden Iamaleava", "role": "QB2 (rFr)", "evidence": "no tape; brother"}
+    {
+     "name": "Nico Iamaleava",
+     "role": "QB1 (returning starter)",
+     "evidence": "72.0 PFF/425; 1,928 @ 64.4 + 505 rush; 5 TD vs #7 PSU"
+    },
+    {
+     "name": "Madden Iamaleava",
+     "role": "QB2 (rFr)",
+     "evidence": "no tape; brother"
+    }
    ],
-   "data_gaps": ["pocket-passing growth", "zero proven QB2"],
+   "data_gaps": [
+    "pocket-passing growth",
+    "zero proven QB2"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "UCLA", "unit": "RB", "grade": 60, "confidence": "M",
-   "bracketing_exemplars": ["Memphis RB 2025 (p50 ref, 76.9)", "Auburn RB 2025 (p75 ref, 83.4)"],
+   "team": "UCLA",
+   "unit": "RB",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Memphis RB 2025 (p50 ref, 76.9)",
+    "Auburn RB 2025 (p75 ref, 83.4)"
+   ],
    "rationale_bullets": [
     "Knight arrives as the proven piece: 81.3 PFF/206 att at JMU (SBC -2 -> 79.3), 1,373 @ 6.6-6.9 including 110 yards on Oregon in the CFP - a 5'7 burst back with real volume.",
     "The returners are credible rotation tape: Woods (72.0/63; 1,155 @ 5.6 at Idaho '23) + J. Thomas (72.9/81; 626 @ 6.3 at Cal '24); Lee (77.0/25 at ISU) adds depth. Berger (74.2/81) expired.",
@@ -55,16 +110,37 @@
     "60, M: a ~p68 adjusted workhorse plus two proven rotation backs behind a rebuilt line - the committee depth lifts it over Purdue's 48-class rebuild."
    ],
    "key_players": [
-    {"name": "Wayne Knight", "role": "RB1 (transfer, James Madison)", "evidence": "81.3 PFF/206; 1,373 @ 6.6-6.9; 110 vs Oregon (CFP)"},
-    {"name": "Anthony Woods", "role": "RB2 (returning)", "evidence": "72.0/63; 1,155 @ 5.6 at Idaho '23"},
-    {"name": "Jaivian Thomas", "role": "RB3 (returning)", "evidence": "72.9/81; 626 @ 6.3 at Cal '24"}
+    {
+     "name": "Wayne Knight",
+     "role": "RB1 (transfer, James Madison)",
+     "evidence": "81.3 PFF/206; 1,373 @ 6.6-6.9; 110 vs Oregon (CFP)"
+    },
+    {
+     "name": "Anthony Woods",
+     "role": "RB2 (returning)",
+     "evidence": "72.0/63; 1,155 @ 5.6 at Idaho '23"
+    },
+    {
+     "name": "Jaivian Thomas",
+     "role": "RB3 (returning)",
+     "evidence": "72.9/81; 626 @ 6.3 at Cal '24"
+    }
    ],
-   "data_gaps": ["SBC-to-B10 translation for Knight", "OL run push (RBLK p28)"],
+   "data_gaps": [
+    "SBC-to-B10 translation for Knight",
+    "OL run push (RBLK p28)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "UCLA", "unit": "WRTE", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["Missouri State WRTE 2025 (p25 ref, 61.3)", "Nebraska WRTE 2025 (50 anchor, 66.4)"],
+   "team": "UCLA",
+   "unit": "WRTE",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Missouri State WRTE 2025 (p25 ref, 61.3)",
+    "Nebraska WRTE 2025 (50 anchor, 66.4)"
+   ],
    "rationale_bullets": [
     "Another full restart - Gilmer (61.0/430) to Nebraska, Flores (63.0/226) to Virginia, Mokiao-Atimalala (62.4/294) expired - off a RECV p16 / #134-explosiveness season.",
     "The imports bring speed and pedigree: Ellis (77.8 PFF/268 at JMU -> 76.8; 624 @ 17.3 - the best tape), Mizell (68.6/125 at Florida, SEC +6 -> 74.6; Top100, 4* transfer grade), Rowe (60.7/177 at SCar -> 66.7; 2025 4*; PS's 'top guy out of spring'), L. Smith (62.3/525 at SJSU -> 58.3; 6'4 at full volume), Morgan (Michigan).",
@@ -73,16 +149,37 @@
     "52, M: weighted aggregate ~65 (~p45) with genuine speed adds but no proven P4 volume producer - graded between the restart floor and the upgrade case."
    ],
    "key_players": [
-    {"name": "Landon Ellis", "role": "WR1 (transfer, James Madison)", "evidence": "77.8 PFF/268; 624 @ 17.3; all-league"},
-    {"name": "Aidan Mizell", "role": "WR (transfer, Florida)", "evidence": "68.6/125 (SEC +6 -> 74.6); Top100; 4* transfer grade"},
-    {"name": "Leland Smith", "role": "WR (transfer, San Jose State)", "evidence": "62.3/525; 688 @ 16.0; 6'4"}
+    {
+     "name": "Landon Ellis",
+     "role": "WR1 (transfer, James Madison)",
+     "evidence": "77.8 PFF/268; 624 @ 17.3; all-league"
+    },
+    {
+     "name": "Aidan Mizell",
+     "role": "WR (transfer, Florida)",
+     "evidence": "68.6/125 (SEC +6 -> 74.6); Top100; 4* transfer grade"
+    },
+    {
+     "name": "Leland Smith",
+     "role": "WR (transfer, San Jose State)",
+     "evidence": "62.3/525; 688 @ 16.0; 6'4"
+    }
    ],
-   "data_gaps": ["no proven P4 producer", "TE production void (blocking-first room)"],
+   "data_gaps": [
+    "no proven P4 producer",
+    "TE production void (blocking-first room)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "UCLA", "unit": "OL", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25 anchor, 55.4)", "Michigan OL 2025 (p50 ref, 65.5)"],
+   "team": "UCLA",
+   "unit": "OL",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25 anchor, 55.4)",
+    "Michigan OL 2025 (p50 ref, 65.5)"
+   ],
    "rationale_bullets": [
     "One returning starter - Brooks (65.1 PFF/696 -> 64.1), 'their best one' (P6) - and 'Pick Your Transfer at the other four spots.'",
     "The imports have starts, not tape: J. Davis (48.6/572 at S. Alabama - 30 career starts, poor grade), the JMU All-SBC pair Sweazie (64.1/805) + Robell (65.1/627), Schmidt (69.5/37 at Boise - the '24 CFP starter on a 37-snap '25 sample), Osman (Harvard All-Ivy, FCS), Na'a, Indestad (50.3/194 at EMU, MAC -15 -> 35.3).",
@@ -91,17 +188,43 @@
     "42, M: projected-starter aggregate ~60 (~p32); more proven-start quantity than Purdue's 38-class line, less than Rutgers' anchored 50."
    ],
    "key_players": [
-    {"name": "Eugene Brooks", "role": "LG (returning starter)", "evidence": "65.1 PFF/696; the lone returning starter"},
-    {"name": "Carter Sweazie", "role": "RG (transfer, James Madison)", "evidence": "64.1/805; All-SBC; 23 st"},
-    {"name": "Riley Robell", "role": "C candidate (transfer, James Madison)", "evidence": "65.1/627; All-SBC; PS C1"},
-    {"name": "Jordan Davis", "role": "LT (transfer, South Alabama)", "evidence": "48.6/572; 30 career starts"}
+    {
+     "name": "Eugene Brooks",
+     "role": "LG (returning starter)",
+     "evidence": "65.1 PFF/696; the lone returning starter"
+    },
+    {
+     "name": "Carter Sweazie",
+     "role": "RG (transfer, James Madison)",
+     "evidence": "64.1/805; All-SBC; 23 st"
+    },
+    {
+     "name": "Riley Robell",
+     "role": "C candidate (transfer, James Madison)",
+     "evidence": "65.1/627; All-SBC; PS C1"
+    },
+    {
+     "name": "Jordan Davis",
+     "role": "LT (transfer, South Alabama)",
+     "evidence": "48.6/572; 30 career starts"
+    }
    ],
-   "data_gaps": ["C battle (Yoon vs Robell)", "Schmidt's 37-snap '25", "second straight all-transfer line"],
+   "data_gaps": [
+    "C battle (Yoon vs Robell)",
+    "Schmidt's 37-snap '25",
+    "second straight all-transfer line"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "UCLA", "unit": "DL", "grade": 56, "confidence": "M",
-   "bracketing_exemplars": ["Baylor DL 2025 (p50 ref, 67.7)", "Wake Forest DL 2025 (60 anchor, 70.5)"],
+   "team": "UCLA",
+   "unit": "DL",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Baylor DL 2025 (p50 ref, 67.7)",
+    "Wake Forest DL 2025 (60 anchor, 70.5)"
+   ],
    "rationale_bullets": [
     "The fix targets the file's worst pass rush (PRSH p0; 22 sacks; 'the least disruptive defense in America' - P6): West (80.5 PFF/562 at JMU, SBC -6 -> 74.5; 7 sk, 14 TFL, Sun Belt FROY) + Gobaira (76.1/481 -> 70.1) + McCulloch (75.4/210 at Cal -> 76.4; 'California's best edge rusher').",
     "The cost side: both starting DTs gone (G. Smith 75.4/517 expired; K. Williams to PSU) plus Taupaki (PSU) and A. Jones (Nebraska).",
@@ -110,17 +233,42 @@
     "56, M: real edge tape (70-76 adjusted) attached to an unproven interior - just under the Wake-60 shape."
    ],
    "key_players": [
-    {"name": "Sahir West", "role": "DE (transfer, James Madison)", "evidence": "80.5 PFF/562 (SBC -6 -> 74.5); 7 sk, 14 TFL; SBC FROY"},
-    {"name": "Ryan McCulloch", "role": "EDGE (transfer, California)", "evidence": "75.4/210 (ACC +1 -> 76.4)"},
-    {"name": "Aiden Gobaira", "role": "DE (transfer, James Madison)", "evidence": "76.1/481 (-> 70.1); 4 sk"},
-    {"name": "Darold DeNgohe", "role": "DT (transfer, Rutgers)", "evidence": "64.0/160 (B10 +10 -> 74.0); injury-shortened '25; JMU '24"}
+    {
+     "name": "Sahir West",
+     "role": "DE (transfer, James Madison)",
+     "evidence": "80.5 PFF/562 (SBC -6 -> 74.5); 7 sk, 14 TFL; SBC FROY"
+    },
+    {
+     "name": "Ryan McCulloch",
+     "role": "EDGE (transfer, California)",
+     "evidence": "75.4/210 (ACC +1 -> 76.4)"
+    },
+    {
+     "name": "Aiden Gobaira",
+     "role": "DE (transfer, James Madison)",
+     "evidence": "76.1/481 (-> 70.1); 4 sk"
+    },
+    {
+     "name": "Darold DeNgohe",
+     "role": "DT (transfer, Rutgers)",
+     "evidence": "64.0/160 (B10 +10 -> 74.0); injury-shortened '25; JMU '24"
+    }
    ],
-   "data_gaps": ["DT interior unproven", "Roy/Ford pedigree-vs-tape gap"],
+   "data_gaps": [
+    "DT interior unproven",
+    "Roy/Ford pedigree-vs-tape gap"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "UCLA", "unit": "LB", "grade": 60, "confidence": "M",
-   "bracketing_exemplars": ["Buffalo LB 2025 (p50 ref, 66.5)", "Oregon State LB 2025 (p75 ref, 77.4)"],
+   "team": "UCLA",
+   "unit": "LB",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Buffalo LB 2025 (p50 ref, 66.5)",
+    "Oregon State LB 2025 (p75 ref, 77.4)"
+   ],
    "rationale_bullets": [
     "Woods (61.7 PFF/414, B10 +16 -> 77.7) is the lone returning starter after Vaughns (65.9/600; 107 tackles) expired and Chisom (66.6/546) left for Oklahoma State.",
     "The marquee add: Omosigho (72.1/297 at Oklahoma, SEC +14 -> 86.1) - a 4* transfer with 89 tackles and 9.5 TFL across two rotation years; 'a really commanding presence' (Chesney). LB caution: it's a 297-snap rotation sample with a heavy offset.",
@@ -129,16 +277,37 @@
     "60, M: a genuine three-deep with pedigree, graded at the cautioned aggregate - between OSU's 64 and Rutgers' 54."
    ],
    "key_players": [
-    {"name": "Jalen Woods", "role": "LB1 (returning starter)", "evidence": "61.7 PFF/414 (B10 +16 -> 77.7)"},
-    {"name": "Sammy Omosigho", "role": "LB (transfer, Oklahoma)", "evidence": "72.1/297 (SEC +14 -> 86.1); 4* transfer; 50 tkl 2025"},
-    {"name": "Drew Spinogatti", "role": "LB (transfer, James Madison)", "evidence": "77.2/463 (SBC -8 -> 69.2); 17 st"}
+    {
+     "name": "Jalen Woods",
+     "role": "LB1 (returning starter)",
+     "evidence": "61.7 PFF/414 (B10 +16 -> 77.7)"
+    },
+    {
+     "name": "Sammy Omosigho",
+     "role": "LB (transfer, Oklahoma)",
+     "evidence": "72.1/297 (SEC +14 -> 86.1); 4* transfer; 50 tkl 2025"
+    },
+    {
+     "name": "Drew Spinogatti",
+     "role": "LB (transfer, James Madison)",
+     "evidence": "77.2/463 (SBC -8 -> 69.2); 17 st"
+    }
    ],
-   "data_gaps": ["Omosigho volume jump", "Sacca no-tape"],
+   "data_gaps": [
+    "Omosigho volume jump",
+    "Sacca no-tape"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "UCLA", "unit": "DB", "grade": 66, "confidence": "M",
-   "bracketing_exemplars": ["Syracuse DB 2025 (p50 ref, 66.9)", "UCF DB 2025 (p75 ref, 73.0)"],
+   "team": "UCLA",
+   "unit": "DB",
+   "grade": 66,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Syracuse DB 2025 (p50 ref, 66.9)",
+    "UCF DB 2025 (p75 ref, 73.0)"
+   ],
    "rationale_bullets": [
     "'The secondary is the unit's strength' (Athlon): Pleasant returns (72.2 PFF/609 -> 78.2) as 'arguably their top defender... all-league potential' (P6), with NB Jackson (69.2/493 -> 75.2; Withdrawn STAYS) and S Martin (60.6/750 -> 66.6; portal-return override - both prints return him).",
     "Starter-grade imports: Johnson (68.9/802 at Utah -> 70.9 - a full-volume B12 starter; 'a phenomenal football player' - Chesney), Barksdale (73.1/782 at JMU -> 69.1; All-SBC, 27 starts), James (69.9/333 at ISU -> 71.9), Gilbert (69.6/288 at UConn).",
@@ -147,17 +316,42 @@
     "66, M: seven bodies at 66-78 adjusted, four at real volume - the deepest position on the roster, without an 80-class star."
    ],
    "key_players": [
-    {"name": "Rodrick Pleasant", "role": "CB1 (returning starter)", "evidence": "72.2 PFF/609 (-> 78.2); 'arguably their top defender' (P6)"},
-    {"name": "Tao Johnson", "role": "S (transfer, Utah)", "evidence": "68.9/802 (B12 +2 -> 70.9); full-volume starter"},
-    {"name": "DJ Barksdale", "role": "NB (transfer, James Madison)", "evidence": "73.1/782 (SBC -4 -> 69.1); All-SBC; 27 st"},
-    {"name": "Scooter Jackson", "role": "NB (returning starter)", "evidence": "69.2/493 (-> 75.2); Withdrawn override STAYS"}
+    {
+     "name": "Rodrick Pleasant",
+     "role": "CB1 (returning starter)",
+     "evidence": "72.2 PFF/609 (-> 78.2); 'arguably their top defender' (P6)"
+    },
+    {
+     "name": "Tao Johnson",
+     "role": "S (transfer, Utah)",
+     "evidence": "68.9/802 (B12 +2 -> 70.9); full-volume starter"
+    },
+    {
+     "name": "DJ Barksdale",
+     "role": "NB (transfer, James Madison)",
+     "evidence": "73.1/782 (SBC -4 -> 69.1); All-SBC; 27 st"
+    },
+    {
+     "name": "Scooter Jackson",
+     "role": "NB (returning starter)",
+     "evidence": "69.2/493 (-> 75.2); Withdrawn override STAYS"
+    }
    ],
-   "data_gaps": ["CB2 (Lovett tape vs projection)", "role shuffle under the new scheme"],
+   "data_gaps": [
+    "CB2 (Lovett tape vs projection)",
+    "role shuffle under the new scheme"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "UCLA", "unit": "ST", "grade": 56, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "team": "UCLA",
+   "unit": "ST",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "ST rule: start at the p72 as-played SPEC and adjust: K Bhaghani RETURNS (Withdrawn override STAYS) with an 83% career (36-44 across two UCLA years; 20-24 with a 57-yarder in '24; 39-of-45 inside 50 career).",
     "The P leaves (Karoll -> Texas Tech) but the replacement is proven-ish: Gerrand (Sam Houston; 43.0 avg / 40.2 net) with Barry (OkSt) behind.",
@@ -165,10 +359,21 @@
     "56, M: a top-quartile K + adequate P + upgraded coordinator pedigree, against the '25 slide."
    ],
    "key_players": [
-    {"name": "Mateen Bhaghani", "role": "K (returning)", "evidence": "83% career; 36-44 L2Y; Withdrawn override STAYS"},
-    {"name": "Curtis Gerrand", "role": "P (transfer, Sam Houston)", "evidence": "43.0 avg / 40.2 net 2025"}
+    {
+     "name": "Mateen Bhaghani",
+     "role": "K (returning)",
+     "evidence": "83% career; 36-44 L2Y; Withdrawn override STAYS"
+    },
+    {
+     "name": "Curtis Gerrand",
+     "role": "P (transfer, Sam Houston)",
+     "evidence": "43.0 avg / 40.2 net 2025"
+    }
    ],
-   "data_gaps": ["P battle (Gerrand vs Barry)", "coverage rebuild under new STC"],
+   "data_gaps": [
+    "P battle (Gerrand vs Barry)",
+    "coverage rebuild under new STC"
+   ],
    "g5_guard_note": null
   }
  ]

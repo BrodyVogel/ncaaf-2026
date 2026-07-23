@@ -1,14 +1,44 @@
 {
  "team": "Nevada",
  "units": {
-  "QB": {"grade": 18, "confidence": "L"},
-  "RB": {"grade": 14, "confidence": "M"},
-  "WRTE": {"grade": 12, "confidence": "L"},
-  "OL": {"grade": 22, "confidence": "M"},
-  "DL": {"grade": 26, "confidence": "M"},
-  "LB": {"grade": 12, "confidence": "L"},
-  "DB": {"grade": 18, "confidence": "M"},
-  "ST": {"grade": 16, "confidence": "M"}
+  "QB": {
+   "grade": 18,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 14,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 12,
+   "confidence": "L"
+  },
+  "OL": {
+   "grade": 22,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 34,
+   "confidence": "M",
+   "v1_grade": 26,
+   "adjudication": "50/50 blend: dg+16.4"
+  },
+  "LB": {
+   "grade": 14,
+   "confidence": "L",
+   "v1_grade": 12,
+   "adjudication": "LB 0.4 blend: dg+9.3; info 0.18 \u2014 blend halved"
+  },
+  "DB": {
+   "grade": 20,
+   "confidence": "M",
+   "v1_grade": 18,
+   "adjudication": "DB policy 1/3 blend: dg+12.9; info 0.13 \u2014 blend halved"
+  },
+  "ST": {
+   "grade": 16,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-17",
@@ -16,13 +46,17 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "in-session supervised; anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 1, RB None, WRTE None, OL None, DL 79, LB None, DB 31, ST 13) - artifact #48",
    "DL": "-53 vs proxy 79 - but this is the proxy's most defensible high read of the round (LaBarbera feed-visible); it still misses Maldonado -> Ole Miss and the yr4 interior",
    "QB": "+17 vs proxy 1 - PASS-p1 team-grade keying (NIU QB-0 family)",
    "DB": "-13 vs proxy 31, ST +3 vs 13 - assorted; five voids"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -41,11 +75,26 @@
     "18 L = NIU/Ball St tier: real FBS snaps that argue down + a P4 backup lottery ticket + age-curve upside on Jones."
    ],
    "key_players": [
-    {"name": "Carter Jones", "role": "QB1 (returning So)", "evidence": "202 snaps, 49.8 (42.5 adj); 1,019 @ 64%, 6-8 as true FR"},
-    {"name": "Luke Duncan", "role": "QB1 candidate (transfer, UCLA)", "evidence": "1 st (Ohio St), 235 @ 62%, 2-0; PS#32"},
-    {"name": "AJ Bianco", "role": "QB3 (returning)", "evidence": "975 career @ 58%"}
+    {
+     "name": "Carter Jones",
+     "role": "QB1 (returning So)",
+     "evidence": "202 snaps, 49.8 (42.5 adj); 1,019 @ 64%, 6-8 as true FR"
+    },
+    {
+     "name": "Luke Duncan",
+     "role": "QB1 candidate (transfer, UCLA)",
+     "evidence": "1 st (Ohio St), 235 @ 62%, 2-0; PS#32"
+    },
+    {
+     "name": "AJ Bianco",
+     "role": "QB3 (returning)",
+     "evidence": "975 career @ 58%"
+    }
    ],
-   "data_gaps": ["battle decided in a brand-new system", "Duncan sample = 34 snaps"],
+   "data_gaps": [
+    "battle decided in a brand-new system",
+    "Duncan sample = 34 snaps"
+   ],
    "g5_guard_note": null
   },
   {
@@ -58,17 +107,32 @@
     "Florida International QB 2025 (15, exemplar anchor)"
    ],
    "rationale_bullets": [
-    "Turner returns (70.0 -> 61.1 adj; 5.1 ypc) but injuries/fumbles限held him to 14-26 combined rushes over six late games - durability unproven.",
+    "Turner returns (70.0 -> 61.1 adj; 5.1 ypc) but injuries/fumbles\u9650held him to 14-26 combined rushes over six late games - durability unproven.",
     "Ramseur (72.3/140, team-leading 683) expired; the depth is a JC add (220-lb Jackson, feed-gap) + power-flash Kelley (23 att).",
     "Team RUN grade was p12 - the ground game was bad even before the losses.",
     "14 = SacSt/EMU tier."
    ],
    "key_players": [
-    {"name": "Herschel Turner", "role": "RB1 (returning)", "evidence": "70.0/68 att (61.1 adj); 395 @ 5.1; injury/fumble-limited"},
-    {"name": "Dominic Kelley", "role": "RB2 (returning)", "evidence": "68.0/23 att; FR power flash"},
-    {"name": "Janerious Jackson", "role": "RB (transfer, JC - feed-gap)", "evidence": "220 lb; PS#69JC"}
+    {
+     "name": "Herschel Turner",
+     "role": "RB1 (returning)",
+     "evidence": "70.0/68 att (61.1 adj); 395 @ 5.1; injury/fumble-limited"
+    },
+    {
+     "name": "Dominic Kelley",
+     "role": "RB2 (returning)",
+     "evidence": "68.0/23 att; FR power flash"
+    },
+    {
+     "name": "Janerious Jackson",
+     "role": "RB (transfer, JC - feed-gap)",
+     "evidence": "220 lb; PS#69JC"
+    }
    ],
-   "data_gaps": ["Turner durability", "zero proven volume behind him"],
+   "data_gaps": [
+    "Turner durability",
+    "zero proven volume behind him"
+   ],
    "g5_guard_note": null
   },
   {
@@ -87,13 +151,37 @@
     "Choate's 'most improved unit' is a coach quote; the evidence says 12 = Ball St tier. L: new Air Raid system could feed anyone."
    ],
    "key_players": [
-    {"name": "Damien Morgan", "role": "WR1 (transfer, Idaho St - FEED-GAP)", "evidence": "12 st, 607 @ 11.4 FCS"},
-    {"name": "Marshaun Brown", "role": "WR (returning)", "evidence": "64.1/177 (60.4 adj); 16 rec"},
-    {"name": "Jaceon Doss", "role": "WR (transfer, Towson)", "evidence": "1,107 @ 19.1 L2Y FCS"},
-    {"name": "Gary Givens III", "role": "WR (transfer, NIU - resolved ghost)", "evidence": "100 yds at NIU '25; Valpo 352 @ 15.3 '24"},
-    {"name": "DJ Asiasi", "role": "TE1 (returning rFr)", "evidence": "4 gm, 5 yds; PS#84"}
+    {
+     "name": "Damien Morgan",
+     "role": "WR1 (transfer, Idaho St - FEED-GAP)",
+     "evidence": "12 st, 607 @ 11.4 FCS"
+    },
+    {
+     "name": "Marshaun Brown",
+     "role": "WR (returning)",
+     "evidence": "64.1/177 (60.4 adj); 16 rec"
+    },
+    {
+     "name": "Jaceon Doss",
+     "role": "WR (transfer, Towson)",
+     "evidence": "1,107 @ 19.1 L2Y FCS"
+    },
+    {
+     "name": "Gary Givens III",
+     "role": "WR (transfer, NIU - resolved ghost)",
+     "evidence": "100 yds at NIU '25; Valpo 352 @ 15.3 '24"
+    },
+    {
+     "name": "DJ Asiasi",
+     "role": "TE1 (returning rFr)",
+     "evidence": "4 gm, 5 yds; PS#84"
+    }
    ],
-   "data_gaps": ["no returning 300-yd receiver", "TE room bare", "new system"],
+   "data_gaps": [
+    "no returning 300-yd receiver",
+    "TE room bare",
+    "new system"
+   ],
    "g5_guard_note": null
   },
   {
@@ -112,13 +200,36 @@
     "22 = clear best OL of the MWC round (> Toledo/SJSU 14), below the CMU/WMU 28 tier."
    ],
    "key_players": [
-    {"name": "Zach Cochnauer", "role": "RT (returning; WITHDRAWN-override STAYS)", "evidence": "640 snaps, 79.5 (69.4 adj); 4th-Tm MWC"},
-    {"name": "Jack Foster", "role": "LT (returning; WITHDRAWN-override STAYS)", "evidence": "738 snaps, 62.8 (52.7 adj); 12 st"},
-    {"name": "Jacob Norcross", "role": "C (transfer, Memphis)", "evidence": "71.5/77 '25; 12 st at Kennesaw '24"},
-    {"name": "Ethan Newman", "role": "RG (transfer, Memphis)", "evidence": "66.9/167 '25; 15 career starts"},
-    {"name": "Snoop Leota-Amaama", "role": "LG (returning)", "evidence": "50.9/381; 5 st"}
+    {
+     "name": "Zach Cochnauer",
+     "role": "RT (returning; WITHDRAWN-override STAYS)",
+     "evidence": "640 snaps, 79.5 (69.4 adj); 4th-Tm MWC"
+    },
+    {
+     "name": "Jack Foster",
+     "role": "LT (returning; WITHDRAWN-override STAYS)",
+     "evidence": "738 snaps, 62.8 (52.7 adj); 12 st"
+    },
+    {
+     "name": "Jacob Norcross",
+     "role": "C (transfer, Memphis)",
+     "evidence": "71.5/77 '25; 12 st at Kennesaw '24"
+    },
+    {
+     "name": "Ethan Newman",
+     "role": "RG (transfer, Memphis)",
+     "evidence": "66.9/167 '25; 15 career starts"
+    },
+    {
+     "name": "Snoop Leota-Amaama",
+     "role": "LG (returning)",
+     "evidence": "50.9/381; 5 st"
+    }
    ],
-   "data_gaps": ["C/G tape is small-sample", "LG grade poor"],
+   "data_gaps": [
+    "C/G tape is small-sample",
+    "LG grade poor"
+   ],
    "g5_guard_note": null
   },
   {
@@ -137,13 +248,36 @@
     "26 = best front of the MWC round; above KSU 22/CMU 24, below BGSU 34. PS: 'Choate's top DL' since arriving."
    ],
    "key_players": [
-    {"name": "Dylan LaBarbera", "role": "DE1 (returning, 1st-Tm MWC)", "evidence": "91.0/668 (88.8 adj); 18 TFL; DPOY candidate"},
-    {"name": "Logologo Va'a", "role": "NT (returning)", "evidence": "69.1/241 (66.9 adj)"},
-    {"name": "David Paine Jr.", "role": "DT (returning)", "evidence": "74.3/122 (72.1 adj)"},
-    {"name": "Tanner Vaughan", "role": "DT (returning; yr4 override)", "evidence": "67.7/158"},
-    {"name": "James Gillespie", "role": "NT depth (transfer, SacSt)", "evidence": "17 tkl FCS '25"}
+    {
+     "name": "Dylan LaBarbera",
+     "role": "DE1 (returning, 1st-Tm MWC)",
+     "evidence": "91.0/668 (88.8 adj); 18 TFL; DPOY candidate"
+    },
+    {
+     "name": "Logologo Va'a",
+     "role": "NT (returning)",
+     "evidence": "69.1/241 (66.9 adj)"
+    },
+    {
+     "name": "David Paine Jr.",
+     "role": "DT (returning)",
+     "evidence": "74.3/122 (72.1 adj)"
+    },
+    {
+     "name": "Tanner Vaughan",
+     "role": "DT (returning; yr4 override)",
+     "evidence": "67.7/158"
+    },
+    {
+     "name": "James Gillespie",
+     "role": "NT depth (transfer, SacSt)",
+     "evidence": "17 tkl FCS '25"
+    }
    ],
-   "data_gaps": ["Maldonado replacement", "edge depth after LaBarbera"],
+   "data_gaps": [
+    "Maldonado replacement",
+    "edge depth after LaBarbera"
+   ],
    "g5_guard_note": null
   },
   {
@@ -162,11 +296,26 @@
     "12 L: just above NIU's 10; Choate's 'weakness to a strength' is aspiration, not evidence."
    ],
    "key_players": [
-    {"name": "EJ Smith", "role": "MLB (returning from OFY)", "evidence": "65.4/280 (60.7 adj); 8 st, 2 int; team leader"},
-    {"name": "Jeremy Naborne-Owens", "role": "WLB (transfer, Colorado St)", "evidence": "55.3/299 (50.6 adj); 4 st, 36 tkl"},
-    {"name": "Poasa Utu", "role": "LB (transfer, Oklahoma St)", "evidence": "67.2/49 - trivial sample"}
+    {
+     "name": "EJ Smith",
+     "role": "MLB (returning from OFY)",
+     "evidence": "65.4/280 (60.7 adj); 8 st, 2 int; team leader"
+    },
+    {
+     "name": "Jeremy Naborne-Owens",
+     "role": "WLB (transfer, Colorado St)",
+     "evidence": "55.3/299 (50.6 adj); 4 st, 36 tkl"
+    },
+    {
+     "name": "Poasa Utu",
+     "role": "LB (transfer, Oklahoma St)",
+     "evidence": "67.2/49 - trivial sample"
+    }
    ],
-   "data_gaps": ["Smith health", "two-deep after the top three is rFr/FR"],
+   "data_gaps": [
+    "Smith health",
+    "two-deep after the top three is rFr/FR"
+   ],
    "g5_guard_note": null
   },
   {
@@ -185,13 +334,36 @@
     "18 = KSU tier; > SJSU/NIU 12."
    ],
    "key_players": [
-    {"name": "Aiden Walker", "role": "CB1 (returning So)", "evidence": "63.7/362 (61.3 adj); 4 st as true FR"},
-    {"name": "Bryson Snelling", "role": "CB (returning)", "evidence": "76.2/206 (73.8 adj); 5 pd"},
-    {"name": "Joshua Scott", "role": "NB (transfer, EMU)", "evidence": "63.0/504 (59.7 MAC-adj); 10 st"},
-    {"name": "Larry Turner-Gooden", "role": "SS (transfer, SJSU - two-sided-miss resolution)", "evidence": "71.4/342 (69.0 adj)"},
-    {"name": "Bishop Turner", "role": "FS (returning)", "evidence": "70.3/306 (67.9 adj)"}
+    {
+     "name": "Aiden Walker",
+     "role": "CB1 (returning So)",
+     "evidence": "63.7/362 (61.3 adj); 4 st as true FR"
+    },
+    {
+     "name": "Bryson Snelling",
+     "role": "CB (returning)",
+     "evidence": "76.2/206 (73.8 adj); 5 pd"
+    },
+    {
+     "name": "Joshua Scott",
+     "role": "NB (transfer, EMU)",
+     "evidence": "63.0/504 (59.7 MAC-adj); 10 st"
+    },
+    {
+     "name": "Larry Turner-Gooden",
+     "role": "SS (transfer, SJSU - two-sided-miss resolution)",
+     "evidence": "71.4/342 (69.0 adj)"
+    },
+    {
+     "name": "Bishop Turner",
+     "role": "FS (returning)",
+     "evidence": "70.3/306 (67.9 adj)"
+    }
    ],
-   "data_gaps": ["replacing an 81.7-graded CB1", "Webb no tape row"],
+   "data_gaps": [
+    "replacing an 81.7-graded CB1",
+    "Webb no tape row"
+   ],
    "g5_guard_note": null
   },
   {
@@ -210,11 +382,26 @@
     "16: K floor keeps it off the bottom; SPEC p13 as-played and the P void cap it."
    ],
    "key_players": [
-    {"name": "Joe McFadden", "role": "K (returning; yr4 override)", "evidence": "19-25 FG, L/50; 20-20 PAT"},
-    {"name": "Ewan Baulch", "role": "P candidate (Australian FR recruit)", "evidence": "100+ Aussie-rules appearances; zero college punts"},
-    {"name": "Ky Woods", "role": "KR (returning)", "evidence": "KR TD '25 (first since 2015)"}
+    {
+     "name": "Joe McFadden",
+     "role": "K (returning; yr4 override)",
+     "evidence": "19-25 FG, L/50; 20-20 PAT"
+    },
+    {
+     "name": "Ewan Baulch",
+     "role": "P candidate (Australian FR recruit)",
+     "evidence": "100+ Aussie-rules appearances; zero college punts"
+    },
+    {
+     "name": "Ky Woods",
+     "role": "KR (returning)",
+     "evidence": "KR TD '25 (first since 2015)"
+    }
    ],
-   "data_gaps": ["P = zero college tape", "coverage units rebuilt"],
+   "data_gaps": [
+    "P = zero college tape",
+    "coverage units rebuilt"
+   ],
    "g5_guard_note": null
   }
  ]

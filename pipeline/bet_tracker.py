@@ -23,7 +23,7 @@ SEED = [
  dict(date="2026-07-20", cat="regular", team="East Carolina",  side="over",  line=7.5, odds=+100, book="CZR",   stake=0.55, result="pending", note=""),
  dict(date="2026-07-20", cat="regular", team="Hawai'i",        side="under", line=7.5, odds=-120, book="CZR",   stake=0.60, result="pending", note="took -120 at CZR"),
  dict(date="2026-07-20", cat="conference", team="Florida",     side="under", line=4.5, odds=-110, book="",      stake=0.50, result="pending", note=""),
- dict(date="2026-07-20", cat="conference", team="UCF",         side="over",  line=3.5, odds=-115, book="DK",    stake=0.55, result="pending", note="DK -115"),
+ dict(date="2026-07-20", cat="conference", team="UCF",         side="over",  line=3.5, odds=-115, book="DK",    stake=0.55, result="pending", note="DK -115; v2 re-price 2026-07-23: mm edge +1.5% (below the 4% double-check bar) — hold ticket, no add"),
  dict(date="2026-07-20", cat="conference", team="Pittsburgh",  side="under", line=5.5, odds=-136, book="DK",    stake=0.65, result="pending", note="DK -136"),
 ]
 

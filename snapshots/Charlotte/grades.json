@@ -18,16 +18,20 @@
    "confidence": "L"
   },
   "DL": {
-   "grade": 14,
-   "confidence": "L"
+   "grade": 21,
+   "confidence": "M",
+   "v1_grade": 14,
+   "adjudication": "50/50 blend: dg+13.1"
   },
   "LB": {
    "grade": 30,
    "confidence": "L"
   },
   "DB": {
-   "grade": 20,
-   "confidence": "L"
+   "grade": 22,
+   "confidence": "L",
+   "v1_grade": 20,
+   "adjudication": "DB policy 1/3 blend: dg+11.5; info 0.10 \u2014 blend halved"
   },
   "ST": {
    "grade": 22,
@@ -50,7 +54,9 @@
    "ST": "+18 (proxy misses returning P + retained STC; K crisis still prices the unit low)"
   },
   "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Wadle WRTE/TE 48.6/112 (GaSt) - below-average tape for a third TE; 44 unchanged.",
-  "name_correction_2026_07_15": "'Nic Cruji' unverifiable AND 'Drew Cunningham' = feed's Andrew Cunningham (portal-out) - checker's surname-match caught it. Verified returners: Shirley 56.1/605, Green 61.8/199. Grade 18 unchanged (floor-tier)."
+  "name_correction_2026_07_15": "'Nic Cruji' unverifiable AND 'Drew Cunningham' = feed's Andrew Cunningham (portal-out) - checker's surname-match caught it. Verified returners: Shirley 56.1/605, Green 61.8/199. Grade 18 unchanged (floor-tier).",
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

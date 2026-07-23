@@ -1,14 +1,38 @@
 {
  "team": "North Dakota State",
  "units": {
-  "QB": {"grade": 14, "confidence": "L"},
-  "RB": {"grade": 16, "confidence": "M"},
-  "WRTE": {"grade": 12, "confidence": "L"},
-  "OL": {"grade": 20, "confidence": "M"},
-  "DL": {"grade": 16, "confidence": "M"},
-  "LB": {"grade": 14, "confidence": "L"},
-  "DB": {"grade": 14, "confidence": "M"},
-  "ST": {"grade": 14, "confidence": "M"}
+  "QB": {
+   "grade": 14,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 16,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 12,
+   "confidence": "L"
+  },
+  "OL": {
+   "grade": 20,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 16,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 14,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 14,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 14,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-17",
@@ -16,11 +40,15 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "in-session supervised; anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy ALL-VOID (artifact #43 pattern - FBS newcomer, 2nd of project). Every grade out-of-model, FCS-evidence-based.",
    "frame": "elite-FCS tape + documented NFL/P4 exits graded one tier above SacSt-style strong-FCS volume, below FBS-earned snaps; the anchors carry the translation prior, not the grades"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -39,10 +67,20 @@
     "14 L: < UTEP 16 L (Colson's 9 FCS starts) and < SacSt QB 20 L (Conklin's FCS FR-AA production); just below the FIU-15 rail."
    ],
    "key_players": [
-    {"name": "Nathan Hayes", "role": "QB1 (returning)", "evidence": "0 starts; 381 @ 57% relief '25"},
-    {"name": "Trey Drake", "role": "QB2 (returning)", "evidence": "3 gm LY; PS#327"}
+    {
+     "name": "Nathan Hayes",
+     "role": "QB1 (returning)",
+     "evidence": "0 starts; 381 @ 57% relief '25"
+    },
+    {
+     "name": "Trey Drake",
+     "role": "QB2 (returning)",
+     "evidence": "3 gm LY; PS#327"
+    }
    ],
-   "data_gaps": ["zero starter tape at any level"],
+   "data_gaps": [
+    "zero starter tape at any level"
+   ],
    "g5_guard_note": null
   },
   {
@@ -61,10 +99,20 @@
     "16: = SJSU/UNM 16, < AF 22 - system + adequate bodies, all FCS tape, no proven lead."
    ],
    "key_players": [
-    {"name": "DJ Scott", "role": "RB1 (returning)", "evidence": "502 @ 5.3; 13 gm"},
-    {"name": "Nyeoti Punni", "role": "FB (transfer, Holy Cross)", "evidence": "FCS 415 @ 5.9"}
+    {
+     "name": "DJ Scott",
+     "role": "RB1 (returning)",
+     "evidence": "502 @ 5.3; 13 gm"
+    },
+    {
+     "name": "Nyeoti Punni",
+     "role": "FB (transfer, Holy Cross)",
+     "evidence": "FCS 415 @ 5.9"
+    }
    ],
-   "data_gaps": ["no 700+-yd producer in room"],
+   "data_gaps": [
+    "no 700+-yd producer in room"
+   ],
    "g5_guard_note": null
   },
   {
@@ -83,11 +131,26 @@
     "12 L: = Nevada/Wyoming/UTEP 12 L tier; 'need a go-to WR to emerge' (PS)."
    ],
    "key_players": [
-    {"name": "Jackson Williams", "role": "WR1 (returning)", "evidence": "3 st, 293 @ 17.2; elite KR/PR"},
-    {"name": "Reis Kessel", "role": "TE1 (returning)", "evidence": "4 st, 335 @ 22.3"},
-    {"name": "Mekhi Collins", "role": "WR (returning)", "evidence": "462 @ 21.0 L2Y"}
+    {
+     "name": "Jackson Williams",
+     "role": "WR1 (returning)",
+     "evidence": "3 st, 293 @ 17.2; elite KR/PR"
+    },
+    {
+     "name": "Reis Kessel",
+     "role": "TE1 (returning)",
+     "evidence": "4 st, 335 @ 22.3"
+    },
+    {
+     "name": "Mekhi Collins",
+     "role": "WR (returning)",
+     "evidence": "462 @ 21.0 L2Y"
+    }
    ],
-   "data_gaps": ["no returner over 300 yds", "Patterson/McCants single-print"],
+   "data_gaps": [
+    "no returner over 300 yds",
+    "Patterson/McCants single-print"
+   ],
    "g5_guard_note": null
   },
   {
@@ -106,11 +169,26 @@
     "20: = UNLV 20 tier, < Nevada 22/UNM 24 (FBS-earned tape outranks) - the best evidence-backed unit on the roster."
    ],
    "key_players": [
-    {"name": "Griffin Empey", "role": "C (returning)", "evidence": "13 st; 1st-Tm FCS AA"},
-    {"name": "Nate Tastad", "role": "LG (returning)", "evidence": "13 st; 1st-Tm FCS Frosh AA"},
-    {"name": "Kene Anene", "role": "RT (transfer, Kansas)", "evidence": "76.4/4 snaps; both prints RT1"}
+    {
+     "name": "Griffin Empey",
+     "role": "C (returning)",
+     "evidence": "13 st; 1st-Tm FCS AA"
+    },
+    {
+     "name": "Nate Tastad",
+     "role": "LG (returning)",
+     "evidence": "13 st; 1st-Tm FCS Frosh AA"
+    },
+    {
+     "name": "Kene Anene",
+     "role": "RT (transfer, Kansas)",
+     "evidence": "76.4/4 snaps; both prints RT1"
+    }
    ],
-   "data_gaps": ["tackles = 1 career start + 4-snap import", "all FCS tape"],
+   "data_gaps": [
+    "tackles = 1 career start + 4-snap import",
+    "all FCS tape"
+   ],
    "g5_guard_note": null
   },
   {
@@ -129,11 +207,26 @@
     "16: = SJSU 16/Hawai'i 16 L, > UTEP 10 L - elite-FCS returning volume with the pass-rush question open."
    ],
    "key_players": [
-    {"name": "Keenan Wilson", "role": "DT1 (returning)", "evidence": "13 st, 8 TFL; 3rd-Tm FCS AA"},
-    {"name": "Kelton McCaslin", "role": "DE1 (returning)", "evidence": "12 st, 23 tkl"},
-    {"name": "Matthew Stenbroten", "role": "DE (returning)", "evidence": "13 gm, 11 tkl"}
+    {
+     "name": "Keenan Wilson",
+     "role": "DT1 (returning)",
+     "evidence": "13 st, 8 TFL; 3rd-Tm FCS AA"
+    },
+    {
+     "name": "Kelton McCaslin",
+     "role": "DE1 (returning)",
+     "evidence": "12 st, 23 tkl"
+    },
+    {
+     "name": "Matthew Stenbroten",
+     "role": "DE (returning)",
+     "evidence": "13 gm, 11 tkl"
+    }
    ],
-   "data_gaps": ["pass-rush replacement for T.Anene", "all FCS tape"],
+   "data_gaps": [
+    "pass-rush replacement for T.Anene",
+    "all FCS tape"
+   ],
    "g5_guard_note": null
   },
   {
@@ -152,11 +245,26 @@
     "14 L: = UTEP 14, > Hawai'i 12 L, < UNLV/Wyoming 16 - one anchor, two green flanks."
    ],
    "key_players": [
-    {"name": "Donovan Woolen", "role": "SLB1 (returning)", "evidence": "13 st, 41 tkl, 12 pd; All-MVFC"},
-    {"name": "Keith Williams Jr.", "role": "WLB1 (transfer, Cornell)", "evidence": "3rd-Tm Ivy; 64 tkl, 8 pd"},
-    {"name": "Gavin Sell", "role": "MLB1 (returning)", "evidence": "rFr; 3 gm, 9 tkl"}
+    {
+     "name": "Donovan Woolen",
+     "role": "SLB1 (returning)",
+     "evidence": "13 st, 41 tkl, 12 pd; All-MVFC"
+    },
+    {
+     "name": "Keith Williams Jr.",
+     "role": "WLB1 (transfer, Cornell)",
+     "evidence": "3rd-Tm Ivy; 64 tkl, 8 pd"
+    },
+    {
+     "name": "Gavin Sell",
+     "role": "MLB1 (returning)",
+     "evidence": "rFr; 3 gm, 9 tkl"
+    }
    ],
-   "data_gaps": ["two first-year starters flank the anchor", "Ivy translation"],
+   "data_gaps": [
+    "two first-year starters flank the anchor",
+    "Ivy translation"
+   ],
    "g5_guard_note": null
   },
   {
@@ -175,11 +283,26 @@
     "14: = UTEP 14 (their FBS continuity vs NDSU's elite-FCS safeties + D2 corners), < Wyoming 16."
    ],
    "key_players": [
-    {"name": "Darius Givance", "role": "SS (returning)", "evidence": "12 st, 37 tkl; 2nd-Tm MVFC"},
-    {"name": "Jaylin Crumby", "role": "FS (returning)", "evidence": "14 st L2Y, 47 tkl"},
-    {"name": "DJ Voltz", "role": "CB1 (transfer, Saginaw Valley D2)", "evidence": "10 gm, 18 tkl, 8 pd"}
+    {
+     "name": "Darius Givance",
+     "role": "SS (returning)",
+     "evidence": "12 st, 37 tkl; 2nd-Tm MVFC"
+    },
+    {
+     "name": "Jaylin Crumby",
+     "role": "FS (returning)",
+     "evidence": "14 st L2Y, 47 tkl"
+    },
+    {
+     "name": "DJ Voltz",
+     "role": "CB1 (transfer, Saginaw Valley D2)",
+     "evidence": "10 gm, 18 tkl, 8 pd"
+    }
    ],
-   "data_gaps": ["both CB spots to D2 imports/depth", "all FCS tape"],
+   "data_gaps": [
+    "both CB spots to D2 imports/depth",
+    "all FCS tape"
+   ],
    "g5_guard_note": null
   },
   {
@@ -198,11 +321,25 @@
     "14: = UTEP 14, > AF/Hawai'i 12, < Nevada/Wyoming 16 - elite P/returner, unproven K (PS: 'top 25 if they find a K')."
    ],
    "key_players": [
-    {"name": "Aaron Bickerton", "role": "P (returning)", "evidence": "45.4 avg / 39.5 net; All-MVFC"},
-    {"name": "Jackson Williams", "role": "KR/PR (returning)", "evidence": "32.1 KR / 13.9 PR"},
-    {"name": "Drew Klein", "role": "K (returning)", "evidence": "career 1-1 FG + kickoffs"}
+    {
+     "name": "Aaron Bickerton",
+     "role": "P (returning)",
+     "evidence": "45.4 avg / 39.5 net; All-MVFC"
+    },
+    {
+     "name": "Jackson Williams",
+     "role": "KR/PR (returning)",
+     "evidence": "32.1 KR / 13.9 PR"
+    },
+    {
+     "name": "Drew Klein",
+     "role": "K (returning)",
+     "evidence": "career 1-1 FG + kickoffs"
+    }
    ],
-   "data_gaps": ["K unresolved"],
+   "data_gaps": [
+    "K unresolved"
+   ],
    "g5_guard_note": null
   }
  ]

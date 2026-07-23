@@ -1,14 +1,38 @@
 {
  "team": "Toledo",
  "units": {
-  "QB": {"grade": 22, "confidence": "L"},
-  "RB": {"grade": 16, "confidence": "M"},
-  "WRTE": {"grade": 16, "confidence": "L"},
-  "OL": {"grade": 14, "confidence": "M"},
-  "DL": {"grade": 18, "confidence": "M"},
-  "LB": {"grade": 16, "confidence": "M"},
-  "DB": {"grade": 16, "confidence": "M"},
-  "ST": {"grade": 24, "confidence": "M"}
+  "QB": {
+   "grade": 22,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 16,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 16,
+   "confidence": "L"
+  },
+  "OL": {
+   "grade": 14,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 18,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 16,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 16,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 24,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -26,7 +50,9 @@
    "DL": "+9 vs proxy 9 - proxy blind to Zock/Odinjor/Camese imports",
    "LB": "+2 vs proxy 14 - near-agreement by accident (proxy sees Long/Zay; blind to feed-gap Fox/Prince)",
    "DB": "-1 vs proxy 17 - coincidental convergence"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -46,11 +72,27 @@
     "22 L = UMass/Buffalo/Ohio tier: legitimate-but-unproven room; above Ball St 18/SacSt 20, far below CMU 38."
    ],
    "key_players": [
-    {"name": "John Alan Richter", "role": "QB1 (returning, Jr)", "evidence": "3 st '24; career 66%, 7 TD/1 INT; 30 snaps 73.8 raw '25"},
-    {"name": "Khamoni Robinson", "role": "QB2 (transfer, D2 Lenoir-Rhyne)", "evidence": "2,391 yds, 20-6 TD-INT"},
-    {"name": "Walter Moses", "role": "QB3 (rFr)", "evidence": "PS#118 recruit rank"}
+    {
+     "name": "John Alan Richter",
+     "role": "QB1 (returning, Jr)",
+     "evidence": "3 st '24; career 66%, 7 TD/1 INT; 30 snaps 73.8 raw '25"
+    },
+    {
+     "name": "Khamoni Robinson",
+     "role": "QB2 (transfer, D2 Lenoir-Rhyne)",
+     "evidence": "2,391 yds, 20-6 TD-INT"
+    },
+    {
+     "name": "Walter Moses",
+     "role": "QB3 (rFr)",
+     "evidence": "PS#118 recruit rank"
+    }
    ],
-   "data_gaps": ["30-snap FBS sample on QB1", "D2 tape has no offset cell", "new scheme"],
+   "data_gaps": [
+    "30-snap FBS sample on QB1",
+    "D2 tape has no offset cell",
+    "new scheme"
+   ],
    "g5_guard_note": null
   },
   {
@@ -69,12 +111,31 @@
     "16 = Buffalo RB tier; above SacSt/EMU 14 (Miller healthy + in-scheme vs Curtis's injury cloud), below Ohio 20 (returning FBS volume)."
    ],
    "key_players": [
-    {"name": "CJ Miller", "role": "RB1 (transfer, Mercer - in-scheme)", "evidence": "957 rush, 1st-Tm SoCon; 1,267 scrimmage, 17 TD"},
-    {"name": "Connor Walendzak", "role": "RB2/change-up (returning)", "evidence": "led Toledo rushing '23; 32 att 61.5 '25"},
-    {"name": "Autavius Ison", "role": "depth (transfer, Mercer)", "evidence": "in-scheme follower"},
-    {"name": "Corey Smith", "role": "depth (transfer, Penn State)", "evidence": "14 att, 63.3 B10 '25"}
+    {
+     "name": "CJ Miller",
+     "role": "RB1 (transfer, Mercer - in-scheme)",
+     "evidence": "957 rush, 1st-Tm SoCon; 1,267 scrimmage, 17 TD"
+    },
+    {
+     "name": "Connor Walendzak",
+     "role": "RB2/change-up (returning)",
+     "evidence": "led Toledo rushing '23; 32 att 61.5 '25"
+    },
+    {
+     "name": "Autavius Ison",
+     "role": "depth (transfer, Mercer)",
+     "evidence": "in-scheme follower"
+    },
+    {
+     "name": "Corey Smith",
+     "role": "depth (transfer, Penn State)",
+     "evidence": "14 att, 63.3 B10 '25"
+    }
    ],
-   "data_gaps": ["Miller's FCS-to-FBS translation", "no returning 100-carry back"],
+   "data_gaps": [
+    "Miller's FCS-to-FBS translation",
+    "no returning 100-carry back"
+   ],
    "g5_guard_note": null
   },
   {
@@ -94,13 +155,37 @@
     "16 L: above UMass 14/SacSt 10 on producer quality; below Buffalo 22/KSU 26 (returning FBS tape). Widest outcome range on the roster."
    ],
    "key_players": [
-    {"name": "Adjatay Dabbs", "role": "WR1 candidate (transfer, Mercer - in-scheme)", "evidence": "856 @ 19.0 ypc"},
-    {"name": "Bryson Hammer", "role": "WR (returning) + PR", "evidence": "35 routes 61.7; MAC PR-yardage leader 2 straight yrs"},
-    {"name": "Rico Bond", "role": "WR (transfer, Lindenwood)", "evidence": "701 yds; Jerry Rice Award finalist"},
-    {"name": "Anthony Simpson", "role": "WR (transfer, Michigan)", "evidence": "UMass '23 ~950 yds; 3 routes '25"},
-    {"name": "Jake Newell", "role": "TE1 (transfer, Akron)", "evidence": "16 career MAC starts; 43.7 raw -> 36.6 adj"}
+    {
+     "name": "Adjatay Dabbs",
+     "role": "WR1 candidate (transfer, Mercer - in-scheme)",
+     "evidence": "856 @ 19.0 ypc"
+    },
+    {
+     "name": "Bryson Hammer",
+     "role": "WR (returning) + PR",
+     "evidence": "35 routes 61.7; MAC PR-yardage leader 2 straight yrs"
+    },
+    {
+     "name": "Rico Bond",
+     "role": "WR (transfer, Lindenwood)",
+     "evidence": "701 yds; Jerry Rice Award finalist"
+    },
+    {
+     "name": "Anthony Simpson",
+     "role": "WR (transfer, Michigan)",
+     "evidence": "UMass '23 ~950 yds; 3 routes '25"
+    },
+    {
+     "name": "Jake Newell",
+     "role": "TE1 (transfer, Akron)",
+     "evidence": "16 career MAC starts; 43.7 raw -> 36.6 adj"
+    }
    ],
-   "data_gaps": ["no returning 100-route receiver", "FCS/D2 translation on three projected starters", "Strickland origin unresolved (feed-gap)"],
+   "data_gaps": [
+    "no returning 100-route receiver",
+    "FCS/D2 translation on three projected starters",
+    "Strickland origin unresolved (feed-gap)"
+   ],
    "g5_guard_note": null
   },
   {
@@ -120,13 +205,37 @@
     "14 = above BGSU 10/Ohio 12/KSU 12 (three returning starters incl. both tackles), below Buffalo 16/EMU 18."
    ],
    "key_players": [
-    {"name": "Stephen Gales", "role": "LT (returning starter; withdrawal-override STAYS)", "evidence": "646 snaps, 11 st; 48.3 raw -> 33.1 MAC-adj"},
-    {"name": "Ibrahim Traore", "role": "RT (returning; yr4 override)", "evidence": "388 snaps, 4 st; 56.8 -> 41.6 adj"},
-    {"name": "Jonathan Harder", "role": "LG (returning)", "evidence": "396 snaps; 59.1 -> 43.9 adj"},
-    {"name": "Dylan Senda", "role": "C (transfer, Auburn)", "evidence": "16 SEC snaps - trivial sample"},
-    {"name": "Matt Hofer", "role": "swing T (returning)", "evidence": "115 snaps at 73.2 raw"}
+    {
+     "name": "Stephen Gales",
+     "role": "LT (returning starter; withdrawal-override STAYS)",
+     "evidence": "646 snaps, 11 st; 48.3 raw -> 33.1 MAC-adj"
+    },
+    {
+     "name": "Ibrahim Traore",
+     "role": "RT (returning; yr4 override)",
+     "evidence": "388 snaps, 4 st; 56.8 -> 41.6 adj"
+    },
+    {
+     "name": "Jonathan Harder",
+     "role": "LG (returning)",
+     "evidence": "396 snaps; 59.1 -> 43.9 adj"
+    },
+    {
+     "name": "Dylan Senda",
+     "role": "C (transfer, Auburn)",
+     "evidence": "16 SEC snaps - trivial sample"
+    },
+    {
+     "name": "Matt Hofer",
+     "role": "swing T (returning)",
+     "evidence": "115 snaps at 73.2 raw"
+    }
    ],
-   "data_gaps": ["interior = zero FBS starts", "Senda sample trivial", "Spoth destination unknown"],
+   "data_gaps": [
+    "interior = zero FBS starts",
+    "Senda sample trivial",
+    "Spoth destination unknown"
+   ],
    "g5_guard_note": null
   },
   {
@@ -146,13 +255,37 @@
     "18 = EMU/Ohio tier: real import quality, zero returning production; below KSU 22/CMU 24 (returning FBS tape)."
    ],
    "key_players": [
-    {"name": "Andrew Zock", "role": "DE1 (transfer, Mercer - in-scheme)", "evidence": "FCS DPOY: 20 TFL, 11.5 sk; P4 offers declined"},
-    {"name": "Ezra Odinjor", "role": "DE (transfer, UAB)", "evidence": "492 snaps, 10 st; 62.3 -> 56.4 AAC-adj"},
-    {"name": "Caden Camese", "role": "DT (transfer, Mercer)", "evidence": "3 st, 30 tkl '23-24; MedRS '25"},
-    {"name": "Zach Johnson", "role": "DE rotation (transfer, UAB)", "evidence": "121 snaps, 69.6 -> 63.7 adj as true FR"},
-    {"name": "Damon Ollison II", "role": "DE (returning; yr4 override; LB->DE)", "evidence": "PS#75; ~no 2025 tape"}
+    {
+     "name": "Andrew Zock",
+     "role": "DE1 (transfer, Mercer - in-scheme)",
+     "evidence": "FCS DPOY: 20 TFL, 11.5 sk; P4 offers declined"
+    },
+    {
+     "name": "Ezra Odinjor",
+     "role": "DE (transfer, UAB)",
+     "evidence": "492 snaps, 10 st; 62.3 -> 56.4 AAC-adj"
+    },
+    {
+     "name": "Caden Camese",
+     "role": "DT (transfer, Mercer)",
+     "evidence": "3 st, 30 tkl '23-24; MedRS '25"
+    },
+    {
+     "name": "Zach Johnson",
+     "role": "DE rotation (transfer, UAB)",
+     "evidence": "121 snaps, 69.6 -> 63.7 adj as true FR"
+    },
+    {
+     "name": "Damon Ollison II",
+     "role": "DE (returning; yr4 override; LB->DE)",
+     "evidence": "PS#75; ~no 2025 tape"
+    }
    ],
-   "data_gaps": ["Zock FCS-to-FBS translation", "Camese coming off MedRS", "interior rotation unsettled"],
+   "data_gaps": [
+    "Zock FCS-to-FBS translation",
+    "Camese coming off MedRS",
+    "interior rotation unsettled"
+   ],
    "g5_guard_note": null
   },
   {
@@ -172,12 +305,32 @@
     "16 = SacSt/EMU tier: demonstrated FCS volume + P4 lottery ticket; above CMU/KSU 14, far below Ohio 40/BGSU 30."
    ],
    "key_players": [
-    {"name": "Julian Fox", "role": "LB1 (transfer, Mercer - in-scheme; FEED-GAP arrival)", "evidence": "12 st, 85 tkl, 8.5 TFL, All-SoCon"},
-    {"name": "Isaac Prince", "role": "LB (transfer, Mercer - in-scheme; FEED-GAP arrival)", "evidence": "53 tkl, 3 sk, 10.5 TFL, All-SoCon"},
-    {"name": "Kari Jackson", "role": "LB (transfer, Penn State)", "evidence": "PS#28; zero 2025 defensive tape; 2 yrs PSU"},
-    {"name": "Langston Long", "role": "LB (returning)", "evidence": "360 snaps, 58.5 -> 46.5 adj; Virginia/USF journeyman"}
+    {
+     "name": "Julian Fox",
+     "role": "LB1 (transfer, Mercer - in-scheme; FEED-GAP arrival)",
+     "evidence": "12 st, 85 tkl, 8.5 TFL, All-SoCon"
+    },
+    {
+     "name": "Isaac Prince",
+     "role": "LB (transfer, Mercer - in-scheme; FEED-GAP arrival)",
+     "evidence": "53 tkl, 3 sk, 10.5 TFL, All-SoCon"
+    },
+    {
+     "name": "Kari Jackson",
+     "role": "LB (transfer, Penn State)",
+     "evidence": "PS#28; zero 2025 defensive tape; 2 yrs PSU"
+    },
+    {
+     "name": "Langston Long",
+     "role": "LB (returning)",
+     "evidence": "360 snaps, 58.5 -> 46.5 adj; Virginia/USF journeyman"
+    }
    ],
-   "data_gaps": ["both projected FCS starters feed-invisible", "Jackson zero tape", "FCS translation"],
+   "data_gaps": [
+    "both projected FCS starters feed-invisible",
+    "Jackson zero tape",
+    "FCS translation"
+   ],
    "g5_guard_note": null
   },
   {
@@ -197,13 +350,37 @@
     "16 = UMass tier: more real bodies than SacSt 10/Ball St 14, below KSU 18/CMU 22 (returning FBS snaps)."
    ],
    "key_players": [
-    {"name": "Armorion Smith", "role": "S (transfer, Michigan State)", "evidence": "425 B10 snaps, 6-7 st; 50.3 -> 56.6 adj"},
-    {"name": "Nicholas Thompson", "role": "S (returning)", "evidence": "268 snaps, 69.4 -> 66.1 adj"},
-    {"name": "Donovan Watkins", "role": "S (transfer, Mercer - in-scheme)", "evidence": "26 career FCS starts; 2 int, 9 pbu LY"},
-    {"name": "Cam Jones", "role": "CB (transfer, Holy Cross)", "evidence": "1st-Tm All-Patriot as true So: 56 tkl, 2 int, 7 pbu"},
-    {"name": "Kaleb Hutchinson", "role": "NB (transfer, Mercer)", "evidence": "11 st, 68 tkl, 1st-Tm SoCon"}
+    {
+     "name": "Armorion Smith",
+     "role": "S (transfer, Michigan State)",
+     "evidence": "425 B10 snaps, 6-7 st; 50.3 -> 56.6 adj"
+    },
+    {
+     "name": "Nicholas Thompson",
+     "role": "S (returning)",
+     "evidence": "268 snaps, 69.4 -> 66.1 adj"
+    },
+    {
+     "name": "Donovan Watkins",
+     "role": "S (transfer, Mercer - in-scheme)",
+     "evidence": "26 career FCS starts; 2 int, 9 pbu LY"
+    },
+    {
+     "name": "Cam Jones",
+     "role": "CB (transfer, Holy Cross)",
+     "evidence": "1st-Tm All-Patriot as true So: 56 tkl, 2 int, 7 pbu"
+    },
+    {
+     "name": "Kaleb Hutchinson",
+     "role": "NB (transfer, Mercer)",
+     "evidence": "11 st, 68 tkl, 1st-Tm SoCon"
+    }
    ],
-   "data_gaps": ["no returning starter", "FCS translation on three projected starters", "CB1 job unsettled"],
+   "data_gaps": [
+    "no returning starter",
+    "FCS translation on three projected starters",
+    "CB1 job unsettled"
+   ],
    "g5_guard_note": null
   },
   {
@@ -222,11 +399,27 @@
     "24 = EMU/Ohio tier: two above-average returning specialists + FCS K; above SacSt/Buffalo 22, below KSU/CMU 26 and Miami 40."
    ],
    "key_players": [
-    {"name": "Emilio Duran", "role": "P (returning)", "evidence": "60 punts 40.6, 36.6 net; PS#55"},
-    {"name": "Bryson Hammer", "role": "PR (returning)", "evidence": "led MAC in PR yardage 2 straight years"},
-    {"name": "Reice Griffith", "role": "K (transfer, Mercer)", "evidence": "14-17 FG, half of makes 40+; program all-time scorer"}
+    {
+     "name": "Emilio Duran",
+     "role": "P (returning)",
+     "evidence": "60 punts 40.6, 36.6 net; PS#55"
+    },
+    {
+     "name": "Bryson Hammer",
+     "role": "PR (returning)",
+     "evidence": "led MAC in PR yardage 2 straight years"
+    },
+    {
+     "name": "Reice Griffith",
+     "role": "K (transfer, Mercer)",
+     "evidence": "14-17 FG, half of makes 40+; program all-time scorer"
+    }
    ],
-   "data_gaps": ["K unproven at FBS", "P job 'up for grabs' per Athlon (Duran vs Meincke/Probst)", "KR new (Bond)"],
+   "data_gaps": [
+    "K unproven at FBS",
+    "P job 'up for grabs' per Athlon (Duran vs Meincke/Probst)",
+    "KR new (Bond)"
+   ],
    "g5_guard_note": null
   }
  ]

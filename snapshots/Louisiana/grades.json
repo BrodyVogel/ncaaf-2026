@@ -1,14 +1,46 @@
 {
  "team": "Louisiana",
  "units": {
-  "QB": {"grade": 48, "confidence": "M"},
-  "RB": {"grade": 42, "confidence": "M"},
-  "WRTE": {"grade": 44, "confidence": "M"},
-  "OL": {"grade": 48, "confidence": "M"},
-  "DL": {"grade": 44, "confidence": "M"},
-  "LB": {"grade": 40, "confidence": "M"},
-  "DB": {"grade": 54, "confidence": "M"},
-  "ST": {"grade": 48, "confidence": "M"}
+  "QB": {
+   "grade": 40,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "50/50 blend: dg-16.7"
+  },
+  "RB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 49,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "50/50 blend: dg+9.7"
+  },
+  "OL": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 36,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "50/50 blend: dg-22.6"
+  },
+  "LB": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 62,
+   "confidence": "M",
+   "v1_grade": 54,
+   "adjudication": "S2-informed blend: dg+27 but DB formula percentiles are low-information (w<=0.35) AND dossier DB confidence unjustified (S2) \u2014 policy: 1/3 toward formula, cap 8"
+  },
+  "ST": {
+   "grade": 48,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,7 +48,9 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon + Phil Steele; no Pick Six for SBC]; SBC offsets NEGATIVE on returning tape, arrivals on origin [FCS/D2/D3 = no cell]; HC Michael Desormeaux Y5 [NO CHANGE, band x1.00]; disposition gate 12 rows / 0 adjudicate / 0 err - Fitzgerald West WITHDREW [scout: 'pulled his name out of the portal'], Charles Robertson GONE [not in the Athlon WR two-deep], Anthony Reagan feed-gap RB1 arrival [newcomer]; RB losses Perry->Cincinnati + Davis->Virginia Tech feed-destinationed; the defense's top-10 turnover mostly GRADUATION [yr4], no NFL-declare risk at this level); anchor values not consulted. DISCLOSED: Athlon NF114 / Sun Belt West 4 incidentally visible, logged, NOT used.",
-  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB48/RB42/WRTE44/OL48/DL44/LB40/DB54/ST48, sum 368). Post-freeze correction: the departure gate flagged a fabricated punter name ('Mason Golding' - not in any FBS feed). Corrected to the real situation - '25 P Nathan Torney was a senior (yr4), Athlon names no returning punter, so the punter job is open. ST held at 48 (anchored on the returning kicker Sterner + SPEC p51; an unsettled punter is a minor consideration already consistent with an average ST grade, so no numeric change)."},
+  "planned_vs_final_deviations": {
+   "note": "finals match the dossier planned lines exactly (QB48/RB42/WRTE44/OL48/DL44/LB40/DB54/ST48, sum 368). Post-freeze correction: the departure gate flagged a fabricated punter name ('Mason Golding' - not in any FBS feed). Corrected to the real situation - '25 P Nathan Torney was a senior (yr4), Athlon names no returning punter, so the punter job is open. ST held at 48 (anchored on the returning kicker Sterner + SPEC p51; an unsettled punter is a minor consideration already consistent with an average ST grade, so no numeric change)."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 33, RB None, WRTE 29, OL 32, DL 0, LB None, DB 76, ST 51) runs low on the front seven - the RB losses (both to the P4) + the yr4 DL/LB graduations zero out those proxies. The grades key the returning QB/WR/OL + the star secondary above the depressed front-seven proxies.",
    "QB": "+15 vs proxy 33 - proxy is the raw '25 PFF (a poor passing year, PASS p9); the grade keys Winfield's returning dual-threat value + the midseason spark.",
@@ -27,108 +61,244 @@
    "LB": "+40 vs proxy None - proxy zeroed on the full graduation; the grade keys St. Andre + the ST-only veterans (a full reset).",
    "DB": "-22 vs proxy 76 - proxy is real (Gordon 83.4 + Eleam 74.0) but calibrated down for the graduated depth around them.",
    "ST": "-3 vs proxy 51 - the grade keeps the returning K+P off a SPEC-p51 unit."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
-  {"team": "Louisiana", "unit": "QB", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["Alabama QB 2026 (48, peer)", "Florida QB 2026 (48, peer)"],
+  {
+   "team": "Louisiana",
+   "unit": "QB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Alabama QB 2026 (48, peer)",
+    "Florida QB 2026 (48, peer)"
+   ],
    "rationale_bullets": [
     "Lunch Winfield (66.4/279 -> SBC -1.01) returns - the dual-threat who took over midseason and led 4 straight wins to a bowl; more damage with his legs, room to grow as a passer. Daniel Beale (57.5/111) backs up.",
     "A returning dual-threat starter with a real rushing dimension + game experience, entering his first full year off a poor passing team (PASS p9).",
     "48: ~Alabama/Florida QB 48. The returning dual-threat + the late-'25 spark vs the passing limitations. M."
    ],
    "key_players": [
-    {"name": "Lunch Winfield", "role": "QB (returning)", "evidence": "66.4/279; took over midseason, led 4 straight wins to a bowl; a runner first"}
+    {
+     "name": "Lunch Winfield",
+     "role": "QB (returning)",
+     "evidence": "66.4/279; took over midseason, led 4 straight wins to a bowl; a runner first"
+    }
    ],
-   "data_gaps": ["modest passer (PASS p9)", "first full year as the starter"],
-   "g5_guard_note": "Sun Belt; a returning dual-threat starter whose legs carry real value - graded at the SBC-returner level, offset -1.01 applied to the tape."},
-  {"team": "Louisiana", "unit": "RB", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["Memphis RB 2026 (42, peer)", "Iowa State RB 2026 (42, peer)"],
+   "data_gaps": [
+    "modest passer (PASS p9)",
+    "first full year as the starter"
+   ],
+   "g5_guard_note": "Sun Belt; a returning dual-threat starter whose legs carry real value - graded at the SBC-returner level, offset -1.01 applied to the tape."
+  },
+  {
+   "team": "Louisiana",
+   "unit": "RB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Memphis RB 2026 (42, peer)",
+    "Iowa State RB 2026 (42, peer)"
+   ],
    "rationale_bullets": [
     "Anthony Reagan (Athlon's projected RB1, a newcomer/feed-gap arrival) + young returners (Steven Blanco et al.). BOTH '25 starters GONE - Zylan Perry (74.6 -> Cincinnati) + Bill Davis (76.1 -> Virginia Tech), 3,264 combined yds.",
     "A gutted backfield - a workmanlike 3,264-yard combo left for the P4, leaving a newcomer + young returners; Winfield's legs are the main run threat.",
     "42: ~Memphis/Iowa State RB 42. The QB-run element vs the two lost proven backs. M."
    ],
    "key_players": [
-    {"name": "Anthony Reagan", "role": "RB (newcomer, Athlon RB1)", "evidence": "Athlon's projected RB1, a newcomer not in the roster/portal feeds"},
-    {"name": "Steven Blanco", "role": "RB (returning)", "evidence": "a young returner in the rebuilt room"}
+    {
+     "name": "Anthony Reagan",
+     "role": "RB (newcomer, Athlon RB1)",
+     "evidence": "Athlon's projected RB1, a newcomer not in the roster/portal feeds"
+    },
+    {
+     "name": "Steven Blanco",
+     "role": "RB (returning)",
+     "evidence": "a young returner in the rebuilt room"
+    }
    ],
-   "data_gaps": ["both '25 starters to the P4 (Perry, Davis)", "RB1 is an unproven newcomer"],
-   "g5_guard_note": "Sun Belt; a newcomer + young returners after both starters left for the P4 - the arrival grades evidence-only, returners on SBC cells."},
-  {"team": "Louisiana", "unit": "WRTE", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Wisconsin WRTE 2026 (44, peer)", "Minnesota WRTE 2026 (44, peer)"],
+   "data_gaps": [
+    "both '25 starters to the P4 (Perry, Davis)",
+    "RB1 is an unproven newcomer"
+   ],
+   "g5_guard_note": "Sun Belt; a newcomer + young returners after both starters left for the P4 - the arrival grades evidence-only, returners on SBC cells."
+  },
+  {
+   "team": "Louisiana",
+   "unit": "WRTE",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wisconsin WRTE 2026 (44, peer)",
+    "Minnesota WRTE 2026 (44, peer)"
+   ],
    "rationale_bullets": [
     "Shelton Sampson Jr. (70.3/256; former LSU 5-star, 'the only remotely proven playmaker still in the fold') + Jaydon Johnson (51.7/117) + Caden Jensen (55.8/221) + Landon Strother. Robert Williams (yr4) + Charles Robertson (GONE) departed.",
     "A genuine returning WR1 (Sampson, a 5-star on breakout watch) + unproven young depth, off a RECV-p1 unit.",
     "44: ~Wisconsin/Minnesota WRTE 44. Sampson anchors it; the p1 receiving baseline + the thin depth cap it. M."
    ],
    "key_players": [
-    {"name": "Shelton Sampson Jr.", "role": "WR (returning)", "evidence": "70.3/256; former LSU 5-star, the one proven playmaker"}
+    {
+     "name": "Shelton Sampson Jr.",
+     "role": "WR (returning)",
+     "evidence": "70.3/256; former LSU 5-star, the one proven playmaker"
+    }
    ],
-   "data_gaps": ["off a RECV-p1 unit", "unproven young depth behind Sampson"],
-   "g5_guard_note": "Sun Belt; a returning 5-star WR1 (Sampson) + thin depth - graded at the SBC-returner level, offset -0.74 on the tape."},
-  {"team": "Louisiana", "unit": "OL", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["Wisconsin OL 2026 (48, peer)", "Georgia Tech OL 2026 (48, peer)"],
+   "data_gaps": [
+    "off a RECV-p1 unit",
+    "unproven young depth behind Sampson"
+   ],
+   "g5_guard_note": "Sun Belt; a returning 5-star WR1 (Sampson) + thin depth - graded at the SBC-returner level, offset -0.74 on the tape."
+  },
+  {
+   "team": "Louisiana",
+   "unit": "OL",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wisconsin OL 2026 (48, peer)",
+    "Georgia Tech OL 2026 (48, peer)"
+   ],
    "rationale_bullets": [
     "Kaden Moreau (65.0/726; G) + Cooper Fordham (56.3/689; C) - both scout-praised inside - + Matthew Broussard (56.0/540) + Andrew Martinez + Jakoby Isom. '7 of 10 return.' Jax Harrington (72.6, yr4) + Bryant Williams (-> Arkansas) GONE.",
     "The offense's projected strength - 7 of 10 who started in an injury-plagued, 8-combination '25 return (healthier), anchored by a scout-praised interior. PBLK was p23, but that was the injury churn.",
     "48: ~Wisconsin/Georgia Tech OL 48. The veteran continuity + health vs the modest '25 grades. M."
    ],
    "key_players": [
-    {"name": "Kaden Moreau", "role": "G (returning)", "evidence": "65.0/726; scout-praised interior lineman"},
-    {"name": "Cooper Fordham", "role": "C (returning)", "evidence": "56.3/689; scout-praised interior lineman"}
+    {
+     "name": "Kaden Moreau",
+     "role": "G (returning)",
+     "evidence": "65.0/726; scout-praised interior lineman"
+    },
+    {
+     "name": "Cooper Fordham",
+     "role": "C (returning)",
+     "evidence": "56.3/689; scout-praised interior lineman"
+    }
    ],
-   "data_gaps": ["PBLK p23 in an injury-plagued '25 (8 combinations)"],
-   "g5_guard_note": "Sun Belt; 7-of-10 returning off an injury-churned line - graded at the SBC-returner level, offset -0.35 on the tape; 'projects as a strength.'"},
-  {"team": "Louisiana", "unit": "DL", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Utah DL 2026 (44, peer)", "Mississippi State DL 2026 (44, peer)"],
+   "data_gaps": [
+    "PBLK p23 in an injury-plagued '25 (8 combinations)"
+   ],
+   "g5_guard_note": "Sun Belt; 7-of-10 returning off an injury-churned line - graded at the SBC-returner level, offset -0.35 on the tape; 'projects as a strength.'"
+  },
+  {
+   "team": "Louisiana",
+   "unit": "DL",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Utah DL 2026 (44, peer)",
+    "Mississippi State DL 2026 (44, peer)"
+   ],
    "rationale_bullets": [
     "Fitzgerald West Jr. (60.7/409 -> SBC -6.50; LSU transfer, 'pulled his name out of the portal') + Chase Edwards (60.4/196) + Ashley Williams (53.1/233) + Lance Williams (58.1/203) + Priest Ashe. LOST the top graders: Lawson (77.1, yr4) + Crider/Whitfield/Baudoin/Miller (all yr4).",
     "A rotation of returning veterans (West the withdrawal-returner) but the top snap-getters/graders all graduated - PRSH was p21. Familiar faces, modest ceiling.",
     "44: ~Utah/Mississippi State DL 44. The veteran rotation vs the graduated top of the front. M."
    ],
    "key_players": [
-    {"name": "Fitzgerald West Jr.", "role": "DI (returning; portal withdrawal)", "evidence": "60.7/409; LSU transfer who pulled his name out of the portal (scout)"},
-    {"name": "Chase Edwards", "role": "DL (returning)", "evidence": "60.4/196; a returning rotation veteran"}
+    {
+     "name": "Fitzgerald West Jr.",
+     "role": "DI (returning; portal withdrawal)",
+     "evidence": "60.7/409; LSU transfer who pulled his name out of the portal (scout)"
+    },
+    {
+     "name": "Chase Edwards",
+     "role": "DL (returning)",
+     "evidence": "60.4/196; a returning rotation veteran"
+    }
    ],
-   "data_gaps": ["top graders graduated (Lawson 77.1 + 4 more yr4)", "modest returning ceiling"],
-   "g5_guard_note": "Sun Belt; a returning vet rotation (West the withdrawal-returner) after the top of the front graduated - offset -6.50 on the tape."},
-  {"team": "Louisiana", "unit": "LB", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["West Virginia LB 2026 (40, peer)", "Navy LB 2026 (40, peer)"],
+   "data_gaps": [
+    "top graders graduated (Lawson 77.1 + 4 more yr4)",
+    "modest returning ceiling"
+   ],
+   "g5_guard_note": "Sun Belt; a returning vet rotation (West the withdrawal-returner) after the top of the front graduated - offset -6.50 on the tape."
+  },
+  {
+   "team": "Louisiana",
+   "unit": "LB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "West Virginia LB 2026 (40, peer)",
+    "Navy LB 2026 (40, peer)"
+   ],
    "rationale_bullets": [
     "Jake St. Andre (68.8/319; the one returning LB of note) + Micah Johnson + Conor McPherson + Ethan Veal (all 3rd/4th-year but ST-only to date). LOST Terrence Williams (759) + Jaden Dugger (894) + Kibodi (all yr4).",
     "A FULL RESET - one returning contributor (St. Andre) + a group of veterans who've played almost exclusively on special teams.",
     "40: ~West Virginia/Navy LB 40. St. Andre + unproven bodies. M."
    ],
    "key_players": [
-    {"name": "Jake St. Andre", "role": "LB (returning)", "evidence": "68.8/319; the one returning linebacker of note"}
+    {
+     "name": "Jake St. Andre",
+     "role": "LB (returning)",
+     "evidence": "68.8/319; the one returning linebacker of note"
+    }
    ],
-   "data_gaps": ["full reset - top 3 candidates have played almost exclusively on ST", "lost 3 yr4 starters"],
-   "g5_guard_note": "Sun Belt; a full LB reset (St. Andre + ST-only veterans) after the room graduated - offset -8.20 on the tape."},
-  {"team": "Louisiana", "unit": "DB", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["Tennessee DB 2026 (54, peer)", "Clemson DB 2026 (54, peer)"],
+   "data_gaps": [
+    "full reset - top 3 candidates have played almost exclusively on ST",
+    "lost 3 yr4 starters"
+   ],
+   "g5_guard_note": "Sun Belt; a full LB reset (St. Andre + ST-only veterans) after the room graduated - offset -8.20 on the tape."
+  },
+  {
+   "team": "Louisiana",
+   "unit": "DB",
+   "grade": 54,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Tennessee DB 2026 (54, peer)",
+    "Clemson DB 2026 (54, peer)"
+   ],
    "rationale_bullets": [
     "Brent Gordon Jr. (83.4/800 -> SBC -3.62; a rising star - 11 PBU as a true frosh; 'the one holdover' among the top-10 '25 defenders) + Maurion Eleam (74.0/424; S) + Kody Jackson (59.2/241) + Collin Jacob (75.1/146) + Avery Demery. LOST Flowers/Skipper/Clark/Tomlinson (all yr4).",
     "A genuine strength - a rising-star CB (Gordon, 83.4, the roster's best grade) + a solid returning safety (Eleam, 74.0) + depth, on a unit that was COV p50 (the least-bad defensive area).",
     "54: ~Tennessee/Clemson DB 54. Gordon + Eleam anchor it well; the graduated depth + the level cap it. M."
    ],
    "key_players": [
-    {"name": "Brent Gordon Jr.", "role": "CB (returning)", "evidence": "83.4/800; 11 PBU as a true frosh, a rising star - the roster's best grade"},
-    {"name": "Maurion Eleam", "role": "S (returning)", "evidence": "74.0/424; the secondary's other proven returner"}
+    {
+     "name": "Brent Gordon Jr.",
+     "role": "CB (returning)",
+     "evidence": "83.4/800; 11 PBU as a true frosh, a rising star - the roster's best grade"
+    },
+    {
+     "name": "Maurion Eleam",
+     "role": "S (returning)",
+     "evidence": "74.0/424; the secondary's other proven returner"
+    }
    ],
-   "data_gaps": ["graduated depth (Flowers/Skipper/Clark/Tomlinson, yr4)"],
-   "g5_guard_note": "Sun Belt; a rising-star CB (Gordon 83.4) + a solid safety (Eleam) - the one genuine defensive strength; offset -3.62 on the tape."},
-  {"team": "Louisiana", "unit": "ST", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["Alabama ST 2026 (48, peer)", "Wisconsin ST 2026 (48, peer)"],
+   "data_gaps": [
+    "graduated depth (Flowers/Skipper/Clark/Tomlinson, yr4)"
+   ],
+   "g5_guard_note": "Sun Belt; a rising-star CB (Gordon 83.4) + a solid safety (Eleam) - the one genuine defensive strength; offset -3.62 on the tape."
+  },
+  {
+   "team": "Louisiana",
+   "unit": "ST",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Alabama ST 2026 (48, peer)",
+    "Wisconsin ST 2026 (48, peer)"
+   ],
    "rationale_bullets": [
     "K Tony Sterner (20-28 in '25) returns; the punter is unsettled - '25 P Nathan Torney was a senior (yr4), no returning punter named by Athlon. SPEC was p51.",
     "A returning kicker (a middling 71% clip) + an unsettled punter, off a SPEC-p51 unit. Average.",
     "48: ~Alabama/Wisconsin ST 48. The returning kicker vs the modest '25 accuracy + the open punter job. M."
    ],
    "key_players": [
-    {"name": "Tony Sterner", "role": "K (returning)", "evidence": "20-28 on field goals in '25 (a middling 71%)"}
+    {
+     "name": "Tony Sterner",
+     "role": "K (returning)",
+     "evidence": "20-28 on field goals in '25 (a middling 71%)"
+    }
    ],
-   "data_gaps": ["middling '25 FG accuracy (71%)", "punter unsettled ('25 P Torney was yr4; none named returning)"],
-   "g5_guard_note": "Sun Belt; a returning kicker (Sterner) + an open punter job off a SPEC-p51 unit - average, calibrated to scale."}
+   "data_gaps": [
+    "middling '25 FG accuracy (71%)",
+    "punter unsettled ('25 P Torney was yr4; none named returning)"
+   ],
+   "g5_guard_note": "Sun Belt; a returning kicker (Sterner) + an open punter job off a SPEC-p51 unit - average, calibrated to scale."
+  }
  ]
 }

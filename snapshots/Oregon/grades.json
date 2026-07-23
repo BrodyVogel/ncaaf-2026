@@ -1,14 +1,44 @@
 {
  "team": "Oregon",
  "units": {
-  "QB": {"grade": 89, "confidence": "H"},
-  "RB": {"grade": 80, "confidence": "M"},
-  "WRTE": {"grade": 80, "confidence": "M"},
-  "OL": {"grade": 56, "confidence": "M"},
-  "DL": {"grade": 90, "confidence": "H"},
-  "LB": {"grade": 66, "confidence": "M"},
-  "DB": {"grade": 74, "confidence": "M"},
-  "ST": {"grade": 62, "confidence": "M"}
+  "QB": {
+   "grade": 89,
+   "confidence": "H"
+  },
+  "RB": {
+   "grade": 75,
+   "confidence": "M",
+   "v1_grade": 80,
+   "adjudication": "50/50 blend: dg-9.2"
+  },
+  "WRTE": {
+   "grade": 80,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 56,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 82,
+   "confidence": "M",
+   "v1_grade": 90,
+   "adjudication": "50/50 blend: dg-17.4"
+  },
+  "LB": {
+   "grade": 66,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 72,
+   "confidence": "M",
+   "v1_grade": 74,
+   "adjudication": "DB policy 1/3 blend: dg-9.3; info 0.19 \u2014 blend halved"
+  },
+  "ST": {
+   "grade": 62,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -25,12 +55,20 @@
    "DB": "-21 vs proxy 95 (proxy counts Thieneman 90.8/812 - yr3 declare - and Canady 85.5/603)",
    "LB": "-24 vs proxy 90 (proxy counts Boettcher 77.6/777)",
    "DL": "-10 vs proxy 100 (grade is 90 - the proxy maxes out; both agree this is the top of the scale)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "Oregon", "unit": "QB", "grade": 89, "confidence": "H",
-   "bracketing_exemplars": ["Rutgers QB 2025 (p90 ref, 89.3)", "Texas QB 2025 (97)"],
+   "team": "Oregon",
+   "unit": "QB",
+   "grade": 89,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "Rutgers QB 2025 (p90 ref, 89.3)",
+    "Texas QB 2025 (97)"
+   ],
    "rationale_bullets": [
     "Moore returns as a Heisman favorite: 90.2 PFF/480 dropbacks (B10 +1 -> 91.2, ~p93), 3,565-3,665 yds by book, 30-10, 72% completion (top five), #5 P4 QB rating, and a 27-of-30 (90%) game vs Minnesota.",
     "He 'surprised by returning' after a projected first-round grade (P6); PS: 'could be the top QB in the 2027 draft.' The one blemish: 'a rough game' in the semifinal (PS).",
@@ -39,15 +77,32 @@
     "89, H = one notch under Sayin (91): nearly identical adjusted tape, elite depth, minor transition noise."
    ],
    "key_players": [
-    {"name": "Dante Moore", "role": "QB1 (returning starter)", "evidence": "90.2 PFF/480; 30-10, 72%, #5 P4 rating 2025"},
-    {"name": "Dylan Raiola", "role": "QB2 (transfer, Nebraska)", "evidence": "62.4/305 2025; stayed after Moore's return (P6)"}
+    {
+     "name": "Dante Moore",
+     "role": "QB1 (returning starter)",
+     "evidence": "90.2 PFF/480; 30-10, 72%, #5 P4 rating 2025"
+    },
+    {
+     "name": "Dylan Raiola",
+     "role": "QB2 (transfer, Nebraska)",
+     "evidence": "62.4/305 2025; stayed after Moore's return (P6)"
+    }
    ],
-   "data_gaps": ["Mehringer's play-calling profile (first year)", "Semi wobble as signal vs noise"],
+   "data_gaps": [
+    "Mehringer's play-calling profile (first year)",
+    "Semi wobble as signal vs noise"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Oregon", "unit": "RB", "grade": 80, "confidence": "M",
-   "bracketing_exemplars": ["Auburn RB 2025 (p75 ref, 83.4)", "Arizona State RB 2025 (p90 ref, 87.9)"],
+   "team": "Oregon",
+   "unit": "RB",
+   "grade": 80,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Auburn RB 2025 (p75 ref, 83.4)",
+    "Arizona State RB 2025 (p90 ref, 87.9)"
+   ],
    "rationale_bullets": [
     "The freshman duo owns the room: Davison (89.1 PFF/113 att; 667 @ 5.9, 15 TD; 236-lb bruiser) + Hill (90.8/74; 656 @ 8.7-8.8 - the nation's best yards/carry). PS: 'could be the first Duck duo to each top 1,000 since 2008'; 'my #3 RB corps in the FBS.'",
     "The revealed-preference tell: their emergence 'sent three other backs to the portal' (P6) - Limar (UW), Harris (KSU), Hughes (Houston) - and Whittington (83.3/129; 829 @ 6.4) graduated.",
@@ -56,15 +111,32 @@
     "80, M = the set's second-best RB room behind nobody proven-at-volume; Athlon's 'thunder and lightning.'"
    ],
    "key_players": [
-    {"name": "Jordon Davison", "role": "RB1A (SO)", "evidence": "89.1 PFF/113; 667 @ 5.9, 15 TD as FR 2025"},
-    {"name": "Dierre Hill Jr.", "role": "RB1B (SO)", "evidence": "90.8/74; 656 @ 8.7 - FBS-best ypc 2025"}
+    {
+     "name": "Jordon Davison",
+     "role": "RB1A (SO)",
+     "evidence": "89.1 PFF/113; 667 @ 5.9, 15 TD as FR 2025"
+    },
+    {
+     "name": "Dierre Hill Jr.",
+     "role": "RB1B (SO)",
+     "evidence": "90.8/74; 656 @ 8.7 - FBS-best ypc 2025"
+    }
    ],
-   "data_gaps": ["Workload scaling from FR samples", "Ball's readiness"],
+   "data_gaps": [
+    "Workload scaling from FR samples",
+    "Ball's readiness"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Oregon", "unit": "WRTE", "grade": 80, "confidence": "M",
-   "bracketing_exemplars": ["Houston WRTE 2025 (78)", "Ohio State WRTE 2025 (p97 ref)"],
+   "team": "Oregon",
+   "unit": "WRTE",
+   "grade": 80,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Houston WRTE 2025 (78)",
+    "Ohio State WRTE 2025 (p97 ref)"
+   ],
    "rationale_bullets": [
     "The five-star pair returns healthy: Dakorien Moore (74.5/235 -> 73.5; the #1 WR recruit of 2025) + Evan Stewart (yr4 MEDICAL override RETURNS - missed all 2025 with the fall-camp knee; 613 @ 12.8 in 2024) - 'an elite one-two punch' (P6), with McClellan (71.8/275) as the third starter and 'position-less' usage planned.",
     "The best incoming tape is the X-factor: Hooks (82.3 PFF/356 routes at UAB, AAC +0; ~900 yds) - plus two MORE five-stars (Lott, Bair).",
@@ -73,17 +145,42 @@
     "Weighted aggregate ~76.3 (~p95) on real volumes; no Smith-class alpha but the deepest blue-chip breadth in the set. 80, M."
    ],
    "key_players": [
-    {"name": "Dakorien Moore", "role": "WR1 (returning starter, SO)", "evidence": "74.5 PFF/235; #1 WR recruit of 2025"},
-    {"name": "Evan Stewart", "role": "WR (yr4 medical override RETURNS)", "evidence": "missed 2025 (knee); 613 @ 12.8 2024; 5*"},
-    {"name": "Iverson Hooks", "role": "WR (transfer, UAB)", "evidence": "82.3/356; ~900 yds 2025"},
-    {"name": "Jamari Johnson", "role": "TE1 (returning starter)", "evidence": "78.1/208; 'matching Sadiq' late 2025 (P6)"}
+    {
+     "name": "Dakorien Moore",
+     "role": "WR1 (returning starter, SO)",
+     "evidence": "74.5 PFF/235; #1 WR recruit of 2025"
+    },
+    {
+     "name": "Evan Stewart",
+     "role": "WR (yr4 medical override RETURNS)",
+     "evidence": "missed 2025 (knee); 613 @ 12.8 2024; 5*"
+    },
+    {
+     "name": "Iverson Hooks",
+     "role": "WR (transfer, UAB)",
+     "evidence": "82.3/356; ~900 yds 2025"
+    },
+    {
+     "name": "Jamari Johnson",
+     "role": "TE1 (returning starter)",
+     "evidence": "78.1/208; 'matching Sadiq' late 2025 (P6)"
+    }
    ],
-   "data_gaps": ["Stewart's post-knee form", "Snap split across five blue-chips"],
+   "data_gaps": [
+    "Stewart's post-knee form",
+    "Snap split across five blue-chips"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Oregon", "unit": "OL", "grade": 56, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "team": "Oregon",
+   "unit": "OL",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "Three All-B10 starters are gone - including the room's best tape (Pregnon 87.0/910) plus both tackles (World 65.4/844, Harkey 64.8/887) - from a Joe Moore-finalist line (PBLK 98p / RBLK 81p, 16 sacks).",
     "What returns: Laloulu (69.1/884 -> 68.1) - PS's 1st-team ALL-AMERICAN center who 'spurned the NFL draft' - and 3rd-year guard Iuli (61.9/907 -> 60.9), plus Rogers (67.7/108).",
@@ -92,16 +189,37 @@
     "56, M = the roster's one ordinary unit - and its clearest failure tail."
    ],
    "key_players": [
-    {"name": "Iapani Laloulu", "role": "C (returning starter)", "evidence": "69.1 PFF/884; 1st-tm AA (PS); spurned draft"},
-    {"name": "Dave Iuli", "role": "G (returning starter)", "evidence": "61.9/907; 3rd-year starter"},
-    {"name": "Fox Crader", "role": "LT battle (SO)", "evidence": "61.1/138 2025; vs Top100 Addison"}
+    {
+     "name": "Iapani Laloulu",
+     "role": "C (returning starter)",
+     "evidence": "69.1 PFF/884; 1st-tm AA (PS); spurned draft"
+    },
+    {
+     "name": "Dave Iuli",
+     "role": "G (returning starter)",
+     "evidence": "61.9/907; 3rd-year starter"
+    },
+    {
+     "name": "Fox Crader",
+     "role": "LT battle (SO)",
+     "evidence": "61.1/138 2025; vs Top100 Addison"
+    }
    ],
-   "data_gaps": ["Both tackle spots unresolved", "FR Utu at RG (Athlon print)"],
+   "data_gaps": [
+    "Both tackle spots unresolved",
+    "FR Utu at RG (Athlon print)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Oregon", "unit": "DL", "grade": 90, "confidence": "H",
-   "bracketing_exemplars": ["Texas A&M DL 2025 (p90 ref, 81.2)", "Kentucky DL 2025 (91)"],
+   "team": "Oregon",
+   "unit": "DL",
+   "grade": 90,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "Texas A&M DL 2025 (p90 ref, 81.2)",
+    "Kentucky DL 2025 (91)"
+   ],
    "rationale_bullets": [
     "THE ENTIRE STARTING FRONT RETURNS - all four juniors explicitly skipping the draft (Athlon): Tuioti (83.8 PFF/705 -> 93.8), Uiagalelei (82.2/726 -> 92.2; led the B10 in sacks in 2024), Washington (80.0/656 -> 90.0), Alexander (73.3/581 -> 83.3).",
     "The consensus is unanimous: 'this could be the best four-man front in the country' (Athlon); 'my #2 rated DLine' (PS); 2025 as-played PRSH 91p / RDEF 80p (116 rush ypg at 3.4).",
@@ -110,17 +228,42 @@
     "Mechanical starter aggregate ~90.4 - at the Kentucky-91 anchor with individually better tapes. 90, H: the first 90-grade defensive unit of the project, settled and proven at volume."
    ],
    "key_players": [
-    {"name": "Teitum Tuioti", "role": "EDGE (returning starter)", "evidence": "83.8 PFF/705; 5.5 sk 2025"},
-    {"name": "Matayo Uiagalelei", "role": "DE (returning starter)", "evidence": "82.2/726; led B10 in sacks 2024"},
-    {"name": "A'Mauri Washington", "role": "DT (returning starter)", "evidence": "80.0/656 2025"},
-    {"name": "Bear Alexander", "role": "DT (returning starter)", "evidence": "73.3/581 2025"}
+    {
+     "name": "Teitum Tuioti",
+     "role": "EDGE (returning starter)",
+     "evidence": "83.8 PFF/705; 5.5 sk 2025"
+    },
+    {
+     "name": "Matayo Uiagalelei",
+     "role": "DE (returning starter)",
+     "evidence": "82.2/726; led B10 in sacks 2024"
+    },
+    {
+     "name": "A'Mauri Washington",
+     "role": "DT (returning starter)",
+     "evidence": "80.0/656 2025"
+    },
+    {
+     "name": "Bear Alexander",
+     "role": "DT (returning starter)",
+     "evidence": "73.3/581 2025"
+    }
    ],
-   "data_gaps": ["Rotation snaps behind the four (backup exodus)", "New DC's front usage (Hampton)"],
+   "data_gaps": [
+    "Rotation snaps behind the four (backup exodus)",
+    "New DC's front usage (Hampton)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Oregon", "unit": "LB", "grade": 66, "confidence": "M",
-   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Oregon State LB 2025 (p75 ref, 77.4)"],
+   "team": "Oregon",
+   "unit": "LB",
+   "grade": 66,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Oregon State LB 2025 (p75 ref, 77.4)"
+   ],
    "rationale_bullets": [
     "The anchor leaves: Boettcher (77.6 PFF/777) - 136 tackles, the most by a Duck since 1979, Burlsworth winner, rd-4. (NB Canady counted at DB.)",
     "Two live returners: Mixon (72.9/560 -> 88.9; 'a breakout 2025 season' - Athlon) and Jackson (66.1/370 -> 82.1; Top100 with 'sprinter speed... poised to finally break out' - P6).",
@@ -128,15 +271,32 @@
     "Mechanical pair aggregate ~86.2 (~p88); LB caution + the departed leader + unproven depth = 66, M."
    ],
    "key_players": [
-    {"name": "Jerry Mixon", "role": "ILB (returning starter)", "evidence": "72.9 PFF/560; breakout 2025"},
-    {"name": "Devon Jackson", "role": "ILB (returning)", "evidence": "66.1/370; Top100; sprinter speed"}
+    {
+     "name": "Jerry Mixon",
+     "role": "ILB (returning starter)",
+     "evidence": "72.9 PFF/560; breakout 2025"
+    },
+    {
+     "name": "Devon Jackson",
+     "role": "ILB (returning)",
+     "evidence": "66.1/370; Top100; sprinter speed"
+    }
    ],
-   "data_gaps": ["Third LB / depth", "New DC's LB usage"],
+   "data_gaps": [
+    "Third LB / depth",
+    "New DC's LB usage"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Oregon", "unit": "DB", "grade": 74, "confidence": "M",
-   "bracketing_exemplars": ["Washington State DB 2025 (72)", "BYU DB 2025 (p90 ref, 77.1)"],
+   "team": "Oregon",
+   "unit": "DB",
+   "grade": 74,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Washington State DB 2025 (72)",
+    "BYU DB 2025 (p90 ref, 77.1)"
+   ],
    "rationale_bullets": [
     "The returning core is young and real: Finney (78.9 PFF/694 -> 84.9) - FRESHMAN All-America, 'one of the best corners, period' (Athlon) - plus FR-year starter Obidegwu (67.7/423 -> 73.7), S Flowers (68.0/741 -> 74.0), 5* Offord (58.2/245; breakout flag), Woodyard (72.4/172).",
     "The losses are the two best tapes: Thieneman (90.8/812 - All-American; yr3 declare override; the best DB tape in this B10 round) and NB Canady (85.5/603; rd-4).",
@@ -145,17 +305,42 @@
     "Mechanical aggregate ~75.0 (~p80); the Thieneman/Canady subtraction and the Perich form bet land it at 74, M."
    ],
    "key_players": [
-    {"name": "Brandon Finney Jr.", "role": "CB1 (returning starter, SO)", "evidence": "78.9 PFF/694; FR All-America 2025"},
-    {"name": "Koi Perich", "role": "S (transfer, Minnesota)", "evidence": "61.0/789 2025 (slump); 2x All-B10; #1 transfer S"},
-    {"name": "Aaron Flowers", "role": "S (returning starter, SO)", "evidence": "68.0/741 2025"},
-    {"name": "Ify Obidegwu", "role": "CB2 (returning starter, SO)", "evidence": "67.7/423 2025"}
+    {
+     "name": "Brandon Finney Jr.",
+     "role": "CB1 (returning starter, SO)",
+     "evidence": "78.9 PFF/694; FR All-America 2025"
+    },
+    {
+     "name": "Koi Perich",
+     "role": "S (transfer, Minnesota)",
+     "evidence": "61.0/789 2025 (slump); 2x All-B10; #1 transfer S"
+    },
+    {
+     "name": "Aaron Flowers",
+     "role": "S (returning starter, SO)",
+     "evidence": "68.0/741 2025"
+    },
+    {
+     "name": "Ify Obidegwu",
+     "role": "CB2 (returning starter, SO)",
+     "evidence": "67.7/423 2025"
+    }
    ],
-   "data_gaps": ["Perich 2024-form recovery", "NB battle (C.Williams vs Grisham)"],
+   "data_gaps": [
+    "Perich 2024-form recovery",
+    "NB battle (C.Williams vs Grisham)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Oregon", "unit": "ST", "grade": 62, "confidence": "M",
-   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "team": "Oregon",
+   "unit": "ST",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
    "rationale_bullets": [
     "ST rule: start at the 88th-percentile prior SPEC (PS STR #23; #11 the year before) and adjust: BOTH legs are gone - K (19-24) and P (38.4 net).",
     "The system stays: ST coach Lorig retained ('#4, #23 and #34 units at Penn St... 3 Top 10 at Memphis' - PS). Replacements: Emmett (Nevada) vs returners Hurych/Graziano; Athlon prints P Ettridge* + LS Todd* (feed-gap arrivals, print-verified).",
@@ -163,10 +348,21 @@
     "62, M - PS: 'should remain strong'; the legs are the unknowns."
    ],
    "key_players": [
-    {"name": "Koi Perich", "role": "KR (transfer, Minnesota)", "evidence": "top PR (6.7) and KR (26.3) at Minnesota (PS)"},
-    {"name": "Keaton Emmett", "role": "K battle (transfer, Nevada)", "evidence": "in-feed; vs Hurych/Graziano"}
+    {
+     "name": "Koi Perich",
+     "role": "KR (transfer, Minnesota)",
+     "evidence": "top PR (6.7) and KR (26.3) at Minnesota (PS)"
+    },
+    {
+     "name": "Keaton Emmett",
+     "role": "K battle (transfer, Nevada)",
+     "evidence": "in-feed; vs Hurych/Graziano"
+    }
    ],
-   "data_gaps": ["Both leg battles", "Ettridge/Todd feed absence (print-verified only)"],
+   "data_gaps": [
+    "Both leg battles",
+    "Ettridge/Todd feed absence (print-verified only)"
+   ],
    "g5_guard_note": null
   }
  ]

@@ -10,20 +10,26 @@
    "confidence": "L"
   },
   "WRTE": {
-   "grade": 42,
-   "confidence": "M"
+   "grade": 38,
+   "confidence": "L",
+   "v1_grade": 42,
+   "adjudication": "split; U8.5 helped: dg-11"
   },
   "OL": {
-   "grade": 48,
-   "confidence": "M"
+   "grade": 51,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "split up: dg+9"
   },
   "DL": {
    "grade": 42,
    "confidence": "M"
   },
   "LB": {
-   "grade": 44,
-   "confidence": "M"
+   "grade": 40,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "split: dg-11: Farrar 60.0/610 shrinks"
   },
   "DB": {
    "grade": 42,
@@ -53,7 +59,9 @@
    "RB": "42 vs proxy None - graded on personnel (a RS-Fr starter + five transfers) after every producer left.",
    "WRTE": "42 vs proxy None - graded on the returning WR1 Person (66.6) + transfers after Donte Lee (80.2) left.",
    "DB": "+16 vs proxy 26 - the grade keys the transfer rebuild (Guy 71.1, Whitner, D-Icey) + Quavo Marshall, not just low-snap returners."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

@@ -51,7 +51,9 @@
    "DL": "+39 vs proxy 1 - the grade keys the building-block Frazier (68.4) + the P4 transfer haul.",
    "QB": "+38 vs proxy 0 - graded on the settled starter (Locke) + returning weapons, not the newcomer-low proxy.",
    "ST": "-23 vs proxy 65 - the grade tempers the p65 base for the reset specialists (K competition + new P)."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

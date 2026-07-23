@@ -1,14 +1,38 @@
 {
  "team": "Kennesaw State",
  "units": {
-  "QB": {"grade": 44, "confidence": "L"},
-  "RB": {"grade": 40, "confidence": "L"},
-  "WRTE": {"grade": 42, "confidence": "M"},
-  "OL": {"grade": 40, "confidence": "M"},
-  "DL": {"grade": 44, "confidence": "M"},
-  "LB": {"grade": 46, "confidence": "M"},
-  "DB": {"grade": 42, "confidence": "M"},
-  "ST": {"grade": 42, "confidence": "M"}
+  "QB": {
+   "grade": 44,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 40,
+   "confidence": "L"
+  },
+  "WRTE": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 42,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,116 +40,263 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary + scout; PS CUSA text GARBLED; no Pick Six for CUSA]; Conference USA -> returning tape on CUSA cells [heavily negative], arrivals on origin [D2/FCS = no cell]; HC Jerry Mack Y2 [first-year HC in 2025 -> NO CHANGE, band x1.00]; disposition gate 41 rows / 0 adjudicate / 0 err - portal_withdrawal_overrides OL Nikola Milovac + S Isaac Paul; yr4-return overrides Hopson/Kody Jones/JaDarious Lee; departure_confirmed_research the yr4/high-grade departures [Bennett 82.8, Dunlap 78.4, Offord 71.8, Belcher 82.2, G.Benyard 81.0, +]; portal_departure_confirmed Jaden Kelly; Odom -> Syracuse + Washington 78.9 -> Boise feed-destinationed; 2 L units (QB/RB) for the unproven transfers]; anchor values not consulted. DISCLOSED: Athlon NF105 / CUSA prediction 3 incidentally visible, logged, NOT used.",
-  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB44L/RB40L/WRTE42/OL40/DL44/LB46/DB42/ST42, sum 340, 2 L). No post-freeze corrections. The reigning CUSA champ but a NEAR-TOTAL overhaul (proxy nearly all-None, accurate) - a transfer projection. The '25 title was Odom-driven (-> Syracuse); the grades key the few returners (Patterson/Westmoreland/Hopson/Paul/Milovac) + the transfer class, NOT the title tape."},
+  "planned_vs_final_deviations": {
+   "note": "finals match the dossier planned lines exactly (QB44L/RB40L/WRTE42/OL40/DL44/LB46/DB42/ST42, sum 340, 2 L). No post-freeze corrections. The reigning CUSA champ but a NEAR-TOTAL overhaul (proxy nearly all-None, accurate) - a transfer projection. The '25 title was Odom-driven (-> Syracuse); the grades key the few returners (Patterson/Westmoreland/Hopson/Paul/Milovac) + the transfer class, NOT the title tape."
+  },
   "shadow_proxy_divergence": {
    "note": "the proxy is nearly ALL None (QB 9, RB/WRTE None, OL 5, DL 10, LB 11, DB 9, ST 16) - accurate ('lost pretty much their entire roster'). The grades are a transfer projection keyed on the few returners + the transfer class.",
    "LB": "+35 vs proxy 11 - the grade keys the returning MLB Hopson (72 tkl/9 TFL) + Christopher.",
    "DL": "+34 vs proxy 10 - the grade keys Patterson + Westmoreland + Grimes off a 31-sack front (after the top DL Dunlap left).",
    "QB": "+35 vs proxy 9 - the grade (44 L) sets an unsettled transfer/juco battle to replace Odom."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
-  {"team": "Kennesaw State", "unit": "QB", "grade": 44, "confidence": "L",
-   "bracketing_exemplars": ["Cincinnati QB 2026 (44, peer)", "West Virginia QB 2026 (44, peer)"],
+  {
+   "team": "Kennesaw State",
+   "unit": "QB",
+   "grade": 44,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Cincinnati QB 2026 (44, peer)",
+    "West Virginia QB 2026 (44, peer)"
+   ],
    "rationale_bullets": [
     "Rickie Collins (Syracuse transfer, orig. LSU) + Landon Varnes (juco) - 'even in spring.' LOST the star Amari Odom (73.0 -> Syracuse; a QB swap).",
     "An unsettled transfer/juco battle to replace the CUSA-title QB - a P4-transfer (Collins) with upside but unproven as a starter.",
     "44: ~Cincinnati/West Virginia QB 44. Collins's P4 pedigree vs no settled starter + replacing Odom's dual-threat production. L."
    ],
    "key_players": [
-    {"name": "Rickie Collins", "role": "QB (transfer, Syracuse)", "evidence": "a Syracuse transfer (orig. LSU) in an even spring battle for the job"}
+    {
+     "name": "Rickie Collins",
+     "role": "QB (transfer, Syracuse)",
+     "evidence": "a Syracuse transfer (orig. LSU) in an even spring battle for the job"
+    }
    ],
-   "data_gaps": ["no settled starter (Collins/Varnes even)", "replacing the title QB (Odom)"],
-   "g5_guard_note": "Conference USA; an unsettled transfer/juco QB battle replacing the departed title QB - low-confidence."},
-  {"team": "Kennesaw State", "unit": "RB", "grade": 40, "confidence": "L",
-   "bracketing_exemplars": ["Nebraska RB 2026 (40, peer)", "Navy RB 2026 (40, peer)"],
+   "data_gaps": [
+    "no settled starter (Collins/Varnes even)",
+    "replacing the title QB (Odom)"
+   ],
+   "g5_guard_note": "Conference USA; an unsettled transfer/juco QB battle replacing the departed title QB - low-confidence."
+  },
+  {
+   "team": "Kennesaw State",
+   "unit": "RB",
+   "grade": 40,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Nebraska RB 2026 (40, peer)",
+    "Navy RB 2026 (40, peer)"
+   ],
    "rationale_bullets": [
     "ALL-NEW - Triston Morgan (Benedict D2, 809 yds) + Latrelle Murrell (West Georgia FCS, 893 yds). LOST the top 2 backs (Bennett 82.8 + Belcher 82.2, both yr4).",
     "A total backfield rebuild via lower-division transfers (productive but unproven at FBS), off dead-last run blocking (RBLK p6).",
     "40: ~Nebraska/Navy RB 40. The D2/FCS production vs the FBS-level jump + the p6 run blocking. L."
    ],
    "key_players": [
-    {"name": "Triston Morgan", "role": "RB (transfer, Benedict D2)", "evidence": "ran for 809 yds at D2 Benedict - the new lead back"},
-    {"name": "Latrelle Murrell", "role": "RB (transfer, West Georgia FCS)", "evidence": "ran for 893 yds at FCS West Georgia"}
+    {
+     "name": "Triston Morgan",
+     "role": "RB (transfer, Benedict D2)",
+     "evidence": "ran for 809 yds at D2 Benedict - the new lead back"
+    },
+    {
+     "name": "Latrelle Murrell",
+     "role": "RB (transfer, West Georgia FCS)",
+     "evidence": "ran for 893 yds at FCS West Georgia"
+    }
    ],
-   "data_gaps": ["all-new (lost the top 2 backs, yr4)", "D2/FCS transfers unproven at FBS", "RBLK p6"],
-   "g5_guard_note": "Conference USA; a total RB rebuild via D2/FCS transfers (no cell) - unproven at FBS (low-confidence)."},
-  {"team": "Kennesaw State", "unit": "WRTE", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["Iowa WRTE 2026 (42, peer)", "San Diego State WRTE 2026 (42, peer)"],
+   "data_gaps": [
+    "all-new (lost the top 2 backs, yr4)",
+    "D2/FCS transfers unproven at FBS",
+    "RBLK p6"
+   ],
+   "g5_guard_note": "Conference USA; a total RB rebuild via D2/FCS transfers (no cell) - unproven at FBS (low-confidence)."
+  },
+  {
+   "team": "Kennesaw State",
+   "unit": "WRTE",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Iowa WRTE 2026 (42, peer)",
+    "San Diego State WRTE 2026 (42, peer)"
+   ],
    "rationale_bullets": [
     "Holdover Javon Rogers ('began to emerge in spring') + transfers (Davis Bryson, Dylan Gary) + TE Jesiolowski (transfer). LOST Gabriel Benyard (81.0, yr4, graduated) + Moss (-> Washington) + Ravare (-> NMSU).",
     "One holdover (Rogers) + a retooled transfer corps, off a decent '25 receiving unit (RECV p56) whose top pieces left.",
     "42: ~Iowa/San Diego State WRTE 42. Rogers + the transfers vs the total top-WR turnover. M."
    ],
    "key_players": [
-    {"name": "Javon Rogers", "role": "WR (returning)", "evidence": "the holdover WR who began to emerge in spring camp"}
+    {
+     "name": "Javon Rogers",
+     "role": "WR (returning)",
+     "evidence": "the holdover WR who began to emerge in spring camp"
+    }
    ],
-   "data_gaps": ["lost the top WRs (Benyard yr4, Moss -> Washington)", "a new QB throwing"],
-   "g5_guard_note": "Conference USA; one holdover WR (Rogers, offset -4.19) + a retooled transfer corps."},
-  {"team": "Kennesaw State", "unit": "OL", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Maryland OL 2026 (40, peer)", "UCF OL 2026 (40, peer)"],
+   "data_gaps": [
+    "lost the top WRs (Benyard yr4, Moss -> Washington)",
+    "a new QB throwing"
+   ],
+   "g5_guard_note": "Conference USA; one holdover WR (Rogers, offset -4.19) + a retooled transfer corps."
+  },
+  {
+   "team": "Kennesaw State",
+   "unit": "OL",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Maryland OL 2026 (40, peer)",
+    "UCF OL 2026 (40, peer)"
+   ],
    "rationale_bullets": [
     "JaDarious Lee (38.8/979; LT, yr4 override) + Nikola Milovac (50.0/1000; RT, withdrew) + MTSU transfer Mateo Guevara (C) + transfers (Wallace, Ekeh). LOST Best (-> ECU) + Chenault (-> Sam Houston).",
     "2 holdover tackles (both modest graders) + a transfer interior, off DEAD-LAST run blocking (RBLK p6).",
     "40: ~Maryland/UCF OL 40. The 2 returning tackles + the MTSU-transfer C vs the poor run-block baseline. M."
    ],
    "key_players": [
-    {"name": "Nikola Milovac", "role": "RT (returning, withdrew)", "evidence": "50.0/1000; a holdover tackle who withdrew from the portal"},
-    {"name": "Mateo Guevara", "role": "C (transfer, Middle Tennessee)", "evidence": "a MTSU transfer, 'locked in at center' after a dominant spring"}
+    {
+     "name": "Nikola Milovac",
+     "role": "RT (returning, withdrew)",
+     "evidence": "50.0/1000; a holdover tackle who withdrew from the portal"
+    },
+    {
+     "name": "Mateo Guevara",
+     "role": "C (transfer, Middle Tennessee)",
+     "evidence": "a MTSU transfer, 'locked in at center' after a dominant spring"
+    }
    ],
-   "data_gaps": ["modest returning-tackle grades", "RBLK p6 (dead-last run blocking)"],
-   "g5_guard_note": "Conference USA; 2 holdover tackles (offset -6.36) + a MTSU-transfer C, off dead-last run blocking."},
-  {"team": "Kennesaw State", "unit": "DL", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Utah DL 2026 (44, peer)", "Mississippi State DL 2026 (44, peer)"],
+   "data_gaps": [
+    "modest returning-tackle grades",
+    "RBLK p6 (dead-last run blocking)"
+   ],
+   "g5_guard_note": "Conference USA; 2 holdover tackles (offset -6.36) + a MTSU-transfer C, off dead-last run blocking."
+  },
+  {
+   "team": "Kennesaw State",
+   "unit": "DL",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Utah DL 2026 (44, peer)",
+    "Mississippi State DL 2026 (44, peer)"
+   ],
    "rationale_bullets": [
     "Marcus Patterson (66.5/619 -> CUSA -7.88; a key returning DE) + Donovan Westmoreland (64.2/374; RUSH, SC transfer, healthy - 4 sacks) + Jaiden Grimes (68.3; NT) + Devin Morgan (transfer). LOST Tylon Dunlap (78.4, yr4) + Daniels/Watkins (yr4) + Hill (-> Kansas State).",
     "A few returning pieces (Patterson, Westmoreland, Grimes) off a front that tied for 1st in CUSA in sacks (31) - but the top DL grader (Dunlap) + depth left.",
     "44: ~Utah/Mississippi State DL 44. The returning edge/NT + the sack pedigree vs the top-DL losses. M."
    ],
    "key_players": [
-    {"name": "Marcus Patterson", "role": "DE (returning)", "evidence": "66.5/619; a key returning defensive end"},
-    {"name": "Donovan Westmoreland", "role": "RUSH (returning)", "evidence": "64.2/374; a healthy SC-transfer edge (37 tkl/4 sacks)"}
+    {
+     "name": "Marcus Patterson",
+     "role": "DE (returning)",
+     "evidence": "66.5/619; a key returning defensive end"
+    },
+    {
+     "name": "Donovan Westmoreland",
+     "role": "RUSH (returning)",
+     "evidence": "64.2/374; a healthy SC-transfer edge (37 tkl/4 sacks)"
+    }
    ],
-   "data_gaps": ["lost the top DL grader (Dunlap 78.4, yr4) + Hill (-> K-State)"],
-   "g5_guard_note": "Conference USA; returning pieces (Patterson/Westmoreland/Grimes, offset -7.88) off a 31-sack front, minus the top DL."},
-  {"team": "Kennesaw State", "unit": "LB", "grade": 46, "confidence": "M",
-   "bracketing_exemplars": ["Miami LB 2026 (46, peer)", "Utah LB 2026 (46, peer)"],
+   "data_gaps": [
+    "lost the top DL grader (Dunlap 78.4, yr4) + Hill (-> K-State)"
+   ],
+   "g5_guard_note": "Conference USA; returning pieces (Patterson/Westmoreland/Grimes, offset -7.88) off a 31-sack front, minus the top DL."
+  },
+  {
+   "team": "Kennesaw State",
+   "unit": "LB",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Miami LB 2026 (46, peer)",
+    "Utah LB 2026 (46, peer)"
+   ],
    "rationale_bullets": [
     "Baron Hopson (67.5/765 -> CUSA -12.31; the team leader/MLB - 72 tkl/9 TFL, back as a grad; yr4 override) + Tywon Christopher (64.0/559) + transfer Corey Kelly.",
     "A proven returning MLB (Hopson, the defensive leader) + a returning starter (Christopher) - a solid returning core, the defense's steadiest unit.",
     "46: ~Miami/Utah LB 46. Hopson + Christopher vs the G5 level + the thinner depth. M."
    ],
    "key_players": [
-    {"name": "Baron Hopson", "role": "MLB (returning, yr4)", "evidence": "67.5/765; the team leader - 72 tkl/9 TFL, back as a grad student"},
-    {"name": "Tywon Christopher", "role": "LB (returning)", "evidence": "64.0/559; a returning starter"}
+    {
+     "name": "Baron Hopson",
+     "role": "MLB (returning, yr4)",
+     "evidence": "67.5/765; the team leader - 72 tkl/9 TFL, back as a grad student"
+    },
+    {
+     "name": "Tywon Christopher",
+     "role": "LB (returning)",
+     "evidence": "64.0/559; a returning starter"
+    }
    ],
-   "data_gaps": ["thinner depth behind the top 2"],
-   "g5_guard_note": "Conference USA; a proven returning MLB (Hopson, offset -12.31) + a returning starter - the defense's steadiest unit."},
-  {"team": "Kennesaw State", "unit": "DB", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["Kansas DB 2026 (42, peer)", "Tulane DB 2026 (42, peer)"],
+   "data_gaps": [
+    "thinner depth behind the top 2"
+   ],
+   "g5_guard_note": "Conference USA; a proven returning MLB (Hopson, offset -12.31) + a returning starter - the defense's steadiest unit."
+  },
+  {
+   "team": "Kennesaw State",
+   "unit": "DB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Kansas DB 2026 (42, peer)",
+    "Tulane DB 2026 (42, peer)"
+   ],
    "rationale_bullets": [
     "Isaac Paul (62.3/756 -> CUSA -6.16; S, withdrew) + Kody Jones (NB, yr4 override) + Alexander Ford (S) + CBs Lawson/Tookes + transfers. LOST the top DB JeRico Washington (78.9 -> Boise) + Offord (71.8, yr4) + Milon Jones (yr4).",
     "A withdrawn safety (Paul) + a returning nickel (Jones) + a rebuilt corner group (transfers), after the top DB (Washington) + 2 yr4 DBs left.",
     "42: ~Kansas/Tulane DB 42. Paul + Jones vs the heavy secondary turnover off a middling COV-p49 unit. M."
    ],
    "key_players": [
-    {"name": "Isaac Paul", "role": "S (returning, withdrew)", "evidence": "62.3/756; withdrew from the portal to return"},
-    {"name": "Kody Jones", "role": "NB (returning, yr4)", "evidence": "the returning nickel"}
+    {
+     "name": "Isaac Paul",
+     "role": "S (returning, withdrew)",
+     "evidence": "62.3/756; withdrew from the portal to return"
+    },
+    {
+     "name": "Kody Jones",
+     "role": "NB (returning, yr4)",
+     "evidence": "the returning nickel"
+    }
    ],
-   "data_gaps": ["lost the top DB (Washington 78.9 -> Boise) + 2 yr4 DBs", "rebuilt corners"],
-   "g5_guard_note": "Conference USA; a withdrawn S (Paul, offset -6.16) + a returning NB + rebuilt corners after the top DB left."},
-  {"team": "Kennesaw State", "unit": "ST", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["BYU ST 2026 (42, peer)", "California ST 2026 (42, peer)"],
+   "data_gaps": [
+    "lost the top DB (Washington 78.9 -> Boise) + 2 yr4 DBs",
+    "rebuilt corners"
+   ],
+   "g5_guard_note": "Conference USA; a withdrawn S (Paul, offset -6.16) + a returning NB + rebuilt corners after the top DB left."
+  },
+  {
+   "team": "Kennesaw State",
+   "unit": "ST",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "BYU ST 2026 (42, peer)",
+    "California ST 2026 (42, peer)"
+   ],
    "rationale_bullets": [
     "K Daniel Kinney (healthy now - 6/7 FG, 50-yd long in 4 games) + P Matt McKenzie (Australian, ex-Arizona State, 34.6 avg) + returners. SPEC was p16.",
     "A healthy returning-ish kicker (limited '25 sample) + an ASU-transfer punter, off a poor '25 unit (SPEC p16).",
     "42: ~BYU/California ST 42. The kicker's small-sample accuracy + the transfer punter vs the poor baseline. M."
    ],
    "key_players": [
-    {"name": "Daniel Kinney", "role": "K (returning)", "evidence": "6-of-7 FG (50-yd long) in 4 games - healthy now"},
-    {"name": "Matt McKenzie", "role": "P (transfer, Arizona State)", "evidence": "an Australian punter (ASU transfer, 34.6 avg)"}
+    {
+     "name": "Daniel Kinney",
+     "role": "K (returning)",
+     "evidence": "6-of-7 FG (50-yd long) in 4 games - healthy now"
+    },
+    {
+     "name": "Matt McKenzie",
+     "role": "P (transfer, Arizona State)",
+     "evidence": "an Australian punter (ASU transfer, 34.6 avg)"
+    }
    ],
-   "data_gaps": ["limited '25 kicker sample", "poor '25 ST unit (SPEC p16)"],
-   "g5_guard_note": "Conference USA; a healthy small-sample kicker + an ASU-transfer punter off a poor SPEC-p16 unit."}
+   "data_gaps": [
+    "limited '25 kicker sample",
+    "poor '25 ST unit (SPEC p16)"
+   ],
+   "g5_guard_note": "Conference USA; a healthy small-sample kicker + an ASU-transfer punter off a poor SPEC-p16 unit."
+  }
  ]
 }

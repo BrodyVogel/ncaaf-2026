@@ -2,12 +2,16 @@
  "team": "Tulsa",
  "units": {
   "QB": {
-   "grade": 45,
-   "confidence": "M"
+   "grade": 40,
+   "confidence": "L",
+   "v1_grade": 45,
+   "adjudication": "split toward formula; O5.5 bet negative signal: dg-25: formula skeptical of thin QB tape"
   },
   "RB": {
-   "grade": 50,
-   "confidence": "M"
+   "grade": 55,
+   "confidence": "M",
+   "v1_grade": 50,
+   "adjudication": "formula credits real volume; split +5: dg+16"
   },
   "WRTE": {
    "grade": 32,
@@ -47,7 +51,9 @@
    "DB": "-6 (agree - strength)",
    "ST": "-18 (proxy rides departed P; K is a 2-XP unknown)"
   },
-  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Madkins DL 62.4/498 (LaTech), +McKinney RB 68.3/110 (UNM), +Nash DL 48.3/9. DL 38->40; RB 50 unchanged (McKinney was already priced as depth)."
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Madkins DL 62.4/498 (LaTech), +McKinney RB 68.3/110 (UNM), +Nash DL 48.3/9. DL 38->40; RB 50 unchanged (McKinney was already priced as depth).",
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

@@ -1,75 +1,75 @@
-# Final-pass refit diagnostic — 2026-07-23T15:59:53+00:00 @ a78c71f
+# Final-pass refit diagnostic — 2026-07-23T21:25:38+00:00 @ 36fcfed
 
 ## Conversion weights (proxy-fit regime -> full-138 real-grade refit)
 | side | unit | proxy-fit | refit-138 |
 |---|---|---:|---:|
-| off | QB | +0.072 | +0.149 |
-| off | RB | +0.092 | +0.147 |
-| off | WRTE | +0.037 | +0.028 |
-| off | OL | +0.082 | +0.064 |
-| def | DL | -0.083 | -0.154 |
-| def | LB | -0.059 | -0.022 |
-| def | DB | -0.096 | -0.134 |
-| off | R² | 0.54 | 0.67 |
-| def | R² | 0.61 | 0.49 |
+| off | QB | +0.072 | +0.132 |
+| off | RB | +0.092 | +0.160 |
+| off | WRTE | +0.037 | +0.021 |
+| off | OL | +0.082 | +0.076 |
+| def | DL | -0.083 | -0.144 |
+| def | LB | -0.059 | -0.032 |
+| def | DB | -0.096 | -0.132 |
+| off | R² | 0.54 | 0.66 |
+| def | R² | 0.61 | 0.47 |
 
-intercepts: off +8.06, def +39.51
+intercepts: off +8.16, def +39.37
 
 ## Level slope (diagnostic only; NEVER enters the final)
-- resid ~ a + b*(anchor margin) at n=138: slope **-0.001** (R² 0.00); proxy-regime constant was -0.541 (diag predicted collapse; n=61 gave -0.163).
+- resid ~ a + b*(anchor margin) at n=138: slope **-0.002** (R² 0.00); proxy-regime constant was -0.541 (diag predicted collapse; n=61 gave -0.163).
 
 ## Residual census — post-mode residual (mean -0.000; in official mode each conference mean is ≈0 by construction)
 - capped at ±6.0: **0** teams: (none)
-- |resid| p50 2.61 / p90 6.52 / max 14.43
+- |resid| p50 2.71 / p90 6.53 / max 13.98
 
 ## Mean residual by conference (grades-vs-anchor, refit regime)
 | conference | n | mean resid | min | max |
 |---|--:|---:|---:|---:|
-| Conference USA | 10 | -1.86 | -7.5 | +3.2 |
-| Pac-12 | 8 | -1.75 | -7.4 | +4.7 |
-| Mountain West | 10 | -1.66 | -9.7 | +3.9 |
-| Mid-American | 13 | -1.22 | -14.4 | +6.4 |
-| Sun Belt | 14 | -0.86 | -8.8 | +5.9 |
-| American Athletic | 14 | -0.51 | -9.7 | +11.3 |
-| ACC | 17 | +0.66 | -3.3 | +5.1 |
-| Big 12 | 16 | +0.75 | -3.6 | +7.9 |
-| Big Ten | 18 | +1.12 | -8.2 | +5.6 |
-| SEC | 16 | +1.43 | -5.6 | +6.7 |
-| FBS Independents | 2 | +8.90 | +6.5 | +11.3 |
+| Conference USA | 10 | -2.11 | -7.7 | +2.9 |
+| Mountain West | 10 | -1.94 | -10.7 | +4.6 |
+| Mid-American | 13 | -1.51 | -14.0 | +6.9 |
+| Pac-12 | 8 | -1.37 | -6.3 | +4.8 |
+| Sun Belt | 14 | -1.08 | -6.7 | +5.5 |
+| American Athletic | 14 | -0.66 | -10.0 | +11.4 |
+| ACC | 17 | +0.76 | -4.3 | +6.5 |
+| Big 12 | 16 | +0.88 | -4.8 | +6.6 |
+| Big Ten | 18 | +1.32 | -4.8 | +7.3 |
+| SEC | 16 | +1.69 | -5.8 | +7.1 |
+| FBS Independents | 2 | +8.85 | +5.7 | +12.0 |
 
-## Movers vs the pilot-era board (mean |Δ| 2.51, max 10.67; rank Spearman vs pilot-era 0.986)
+## Movers vs the pilot-era board (mean |Δ| 2.53, max 10.67; rank Spearman vs pilot-era 0.986)
 | biggest UP | Δ | | biggest DOWN | Δ |
 |---|---:|---|---|---:|
-| North Dakota State | +10.67 | | Middle Tennessee | -5.08 |
-| Notre Dame | +6.59 | | New Mexico State | -5.04 |
-| Oregon | +6.25 | | Missouri State | -4.81 |
-| Georgia | +6.03 | | Sam Houston | -4.76 |
-| Ole Miss | +5.86 | | Liberty | -4.58 |
-| Texas | +5.54 | | Florida International | -4.42 |
-| Ohio State | +5.49 | | Delaware | -4.04 |
-| LSU | +5.45 | | UL Monroe | -3.80 |
-| Oklahoma | +5.29 | | Western Kentucky | -3.64 |
-| Texas A&M | +4.89 | | Georgia State | -3.62 |
+| North Dakota State | +10.67 | | New Mexico State | -5.51 |
+| Notre Dame | +6.32 | | Florida International | -5.38 |
+| Ole Miss | +5.99 | | Sam Houston | -4.96 |
+| Georgia | +5.76 | | Middle Tennessee | -4.90 |
+| LSU | +5.48 | | Liberty | -4.65 |
+| Texas Tech | +5.22 | | Missouri State | -4.59 |
+| Oregon | +5.16 | | Georgia State | -4.24 |
+| Texas | +5.09 | | UL Monroe | -3.93 |
+| Oklahoma | +4.90 | | Arkansas State | -3.82 |
+| Auburn | +4.86 | | Western Kentucky | -3.80 |
 
 ## Conference-level component REMOVED (official mode) — owner decision 2026-07-19
 The k*clip(resid) term otherwise moves every team in a conference by ~k x (conference
 mean resid) on top of its within-conference shape. Demeaning drops that shared component.
-Independents pseudo-pooled: ND -> all-P4 mean (-0.51), UConn -> all-G5 mean (+0.83).
+Independents pseudo-pooled: ND -> all-P4 mean (-0.26), UConn -> all-G5 mean (+0.60).
 | pool | mean resid (pre-demean) | ~shift dropped (k x mean, pre-cap) |
 |---|---:|---:|
-| Mountain West | -13.73 | -4.81 |
-| Mid-American | -6.26 | -2.19 |
-| SEC | -5.18 | -1.81 |
-| Pac-12 | -2.03 | -0.71 |
-| Big 12 | -0.66 | -0.23 |
-| ACC | -0.45 | -0.16 |
-| American Athletic | +0.56 | +0.20 |
-| Big Ten | +3.51 | +1.23 |
-| FBS Independents | +8.22 | +2.88 |
-| Sun Belt | +9.97 | +3.49 |
-| Conference USA | +13.80 | +4.83 |
-| (all-P4 pool / ND ref) | -0.51 | -0.18 |
-| (all-G5 pool / UConn ref) | +0.83 | +0.29 |
+| Mountain West | -12.66 | -4.43 |
+| Mid-American | -6.96 | -2.44 |
+| Pac-12 | -5.42 | -1.90 |
+| SEC | -5.04 | -1.76 |
+| Big 12 | -0.49 | -0.17 |
+| ACC | +0.04 | +0.01 |
+| American Athletic | +0.60 | +0.21 |
+| Big Ten | +3.76 | +1.31 |
+| FBS Independents | +8.05 | +2.82 |
+| Sun Belt | +10.10 | +3.53 |
+| Conference USA | +14.08 | +4.93 |
+| (all-P4 pool / ND ref) | -0.26 | -0.09 |
+| (all-G5 pool / UConn ref) | +0.60 | +0.21 |
 
 ## Provenance
 - anchor run: outputs/anchor_runs/anchor_run_2026-07-14_class0.json (frozen); class_per_side 0.0; teams 138/138 joined

@@ -1,14 +1,46 @@
 {
  "team": "San Diego State",
  "units": {
-  "QB": {"grade": 34, "confidence": "M"},
-  "RB": {"grade": 52, "confidence": "M"},
-  "WRTE": {"grade": 42, "confidence": "M"},
-  "OL": {"grade": 40, "confidence": "M"},
-  "DL": {"grade": 44, "confidence": "M"},
-  "LB": {"grade": 42, "confidence": "M"},
-  "DB": {"grade": 34, "confidence": "L"},
-  "ST": {"grade": 36, "confidence": "M"}
+  "QB": {
+   "grade": 34,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 44,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "50/50 blend: dg-16.1"
+  },
+  "WRTE": {
+   "grade": 36,
+   "confidence": "M",
+   "v1_grade": 42,
+   "adjudication": "50/50 blend: dg-12.7"
+  },
+  "OL": {
+   "grade": 32,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "50/50 blend: dg-15.6"
+  },
+  "DL": {
+   "grade": 36,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "50/50 blend: dg-15.8"
+  },
+  "LB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 34,
+   "confidence": "L"
+  },
+  "ST": {
+   "grade": 36,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-17",
@@ -16,19 +48,29 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; archetype-watch applied; percentile-mapped; disposition gate split yr4/NFL before grading); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 34/RB 52/WRTE 42/OL 40/DL 44/LB 42/DB 34/ST 36)."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines (QB 34/RB 52/WRTE 42/OL 40/DL 44/LB 42/DB 34/ST 36)."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 16, RB 37, WRTE 48, OL 5, DL 39, LB None, DB 48, ST 58) keys the as-played 2025 team tape.",
    "OL": "+35 vs proxy 5 - proxy keys the yr4 line that mostly departs; Borjon + Ellis return and the interior/RT is a P4/G5 transfer rebuild.",
    "DB": "-14 vs proxy 48 - proxy keys the departed COV p93 tape (Chris Johnson 91.6 -> NFL + all corners gone); the 2026 corner room is entirely unproven.",
    "ST": "-22 vs proxy 58 - both proven specialists (K Plascencia, P Green) are gone; only the return game carries over.",
    "RB": "+15 vs proxy 37 - Sutton (76.2 adj, a stud) + deep backfield grade well above the proxy."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "San Diego State", "unit": "QB", "grade": 34, "confidence": "M",
-   "bracketing_exemplars": ["Florida International QB 2025 (15, exemplar anchor)", "New Mexico QB 2025 (34, round exemplar)"],
+   "team": "San Diego State",
+   "unit": "QB",
+   "grade": 34,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "New Mexico QB 2025 (34, round exemplar)"
+   ],
    "rationale_bullets": [
     "Denegal returns (296 snaps 66.5 -> 59.2 MWC-adj; BOLD) - a rarity for SDSU, a healthy returning starter (143-243, 1,807, 9-8) after postseason shoulder surgery. + Saunders (Kentucky).",
     "A proven-but-middling MWC starter (59.2 adj, 9-8 TD-INT), roughly the Boise-Madsen peer tier.",
@@ -36,14 +78,32 @@
     "34: at the proven-mediocre-G5-starter tier; M on real multi-year starter tape."
    ],
    "key_players": [
-    {"name": "Jayden Denegal", "role": "QB1 (returning, BOLD)", "evidence": "296 snaps 66.5 (59.2 adj); 143-243, 1,807, 9-8; healthy post-surgery"},
-    {"name": "Stone Saunders", "role": "QB (transfer, Kentucky)", "evidence": "PS#28; depth"}
+    {
+     "name": "Jayden Denegal",
+     "role": "QB1 (returning, BOLD)",
+     "evidence": "296 snaps 66.5 (59.2 adj); 143-243, 1,807, 9-8; healthy post-surgery"
+    },
+    {
+     "name": "Stone Saunders",
+     "role": "QB (transfer, Kentucky)",
+     "evidence": "PS#28; depth"
+    }
    ],
-   "data_gaps": ["modest 9-8 TD-INT", "coming off shoulder surgery"], "g5_guard_note": null
+   "data_gaps": [
+    "modest 9-8 TD-INT",
+    "coming off shoulder surgery"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "San Diego State", "unit": "RB", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32, exemplar anchor)", "Boise State RB 2026 (50, round peer)"],
+   "team": "San Diego State",
+   "unit": "RB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32, exemplar anchor)",
+    "Boise State RB 2026 (50, round peer)"
+   ],
    "rationale_bullets": [
     "Elite: Sutton (254 att 85.1 -> 76.2 MWC-adj; BOLD; 1,297/10, 'among the nation's top returning RBs') + Cardwell (79.9 -> 71.0) + Washington (72.7 -> 63.8) + Kinnard (CSU, receiving back). RUN p77.",
     "A genuine stud (Sutton 76.2 adj ~ RB p50 individually) atop real depth (two more 60-71 adj backs) behind a good run block.",
@@ -51,15 +111,36 @@
     "52: edges the Boise-RB-50 tandem on Sutton's top-end; well above Illinois RB 32."
    ],
    "key_players": [
-    {"name": "Lucky Sutton", "role": "RB1 (returning, BOLD)", "evidence": "254 att 85.1 (76.2 adj); 1,297/10; top returning RB nationally"},
-    {"name": "Byron Cardwell Jr.", "role": "RB (returning)", "evidence": "48 att 79.9 (71.0 adj)"},
-    {"name": "Javion Kinnard", "role": "RB (transfer, Colorado State)", "evidence": "receiving back; All-MW PR"}
+    {
+     "name": "Lucky Sutton",
+     "role": "RB1 (returning, BOLD)",
+     "evidence": "254 att 85.1 (76.2 adj); 1,297/10; top returning RB nationally"
+    },
+    {
+     "name": "Byron Cardwell Jr.",
+     "role": "RB (returning)",
+     "evidence": "48 att 79.9 (71.0 adj)"
+    },
+    {
+     "name": "Javion Kinnard",
+     "role": "RB (transfer, Colorado State)",
+     "evidence": "receiving back; All-MW PR"
+    }
    ],
-   "data_gaps": ["carry split among a deep room"], "g5_guard_note": null
+   "data_gaps": [
+    "carry split among a deep room"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "San Diego State", "unit": "WRTE", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["Missouri State WRTE (p25, 61.3 table anchor)", "Nebraska WRTE 2025 (50, exemplar anchor)"],
+   "team": "San Diego State",
+   "unit": "WRTE",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Missouri State WRTE (p25, 61.3 table anchor)",
+    "Nebraska WRTE 2025 (50, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Returns the starters: Napier (185 routes 77.4 -> 73.7 adj, WR1; BOLD) + Bostick (53.4; BOLD) + Brown (61.0; BOLD) - but Napier + Bostick are both coming off reconstructive knee surgery. + Emanuel (ex-QB, 170 rush in the bowl) + Ford (TE 53.3) + Lowe (Oregon).",
     "'More depth than SDSU has had in more than a decade' (Athlon).",
@@ -67,15 +148,37 @@
     "42: above the Missouri-State p25 rail on Napier + depth; below Nebraska 50 on the ACL risk + p24 output."
    ],
    "key_players": [
-    {"name": "Jordan Napier", "role": "WR1 (returning, BOLD)", "evidence": "185 routes 77.4 (73.7 adj); coming off ACL"},
-    {"name": "Donovan Brown", "role": "WR (returning, BOLD)", "evidence": "310 routes 64.7 (61.0 adj)"},
-    {"name": "Bert Emanuel Jr.", "role": "WR (returning, ex-QB)", "evidence": "170 rush + 2 TD in the bowl"}
+    {
+     "name": "Jordan Napier",
+     "role": "WR1 (returning, BOLD)",
+     "evidence": "185 routes 77.4 (73.7 adj); coming off ACL"
+    },
+    {
+     "name": "Donovan Brown",
+     "role": "WR (returning, BOLD)",
+     "evidence": "310 routes 64.7 (61.0 adj)"
+    },
+    {
+     "name": "Bert Emanuel Jr.",
+     "role": "WR (returning, ex-QB)",
+     "evidence": "170 rush + 2 TD in the bowl"
+    }
    ],
-   "data_gaps": ["Napier + Bostick rehabbing knee surgery", "RECV p16-24 as-played"], "g5_guard_note": null
+   "data_gaps": [
+    "Napier + Bostick rehabbing knee surgery",
+    "RECV p16-24 as-played"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "San Diego State", "unit": "OL", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25, exemplar anchor)", "Michigan OL (p50, 65.5 table anchor)"],
+   "team": "San Diego State",
+   "unit": "OL",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25, exemplar anchor)",
+    "Michigan OL (p50, 65.5 table anchor)"
+   ],
    "rationale_bullets": [
     "Loses 4 yr4 starters (C.Jones T, Kannike G, Ulugalu-Maseuli C 70.4, Fuimaono) but keeps Borjon (LT, 56.2 adj; BOLD, yr4 override) + Ellis (LG, 45.1; BOLD).",
     "Interior/RT rebuilt with transfers: Montgomery (W.Illinois RG), D.Jones (Texas Southern RT), Watkins (young C) + Lucas (Ball St) / Lawrence (Indiana) / Luniewski (MSU) depth.",
@@ -83,15 +186,37 @@
     "40: above the WKU-25 rail on the returning LT + transfer quality; below the p50 line on three new starters."
    ],
    "key_players": [
-    {"name": "Joseph Borjon", "role": "LT (returning, BOLD, yr4 override)", "evidence": "808 snaps 66.3 (56.2 adj)"},
-    {"name": "Kalan Ellis", "role": "LG (returning, BOLD)", "evidence": "703 snaps 55.2 (45.1 adj)"},
-    {"name": "Matthew Montgomery", "role": "RG (transfer, Western Illinois)", "evidence": "projected starter"}
+    {
+     "name": "Joseph Borjon",
+     "role": "LT (returning, BOLD, yr4 override)",
+     "evidence": "808 snaps 66.3 (56.2 adj)"
+    },
+    {
+     "name": "Kalan Ellis",
+     "role": "LG (returning, BOLD)",
+     "evidence": "703 snaps 55.2 (45.1 adj)"
+    },
+    {
+     "name": "Matthew Montgomery",
+     "role": "RG (transfer, Western Illinois)",
+     "evidence": "projected starter"
+    }
    ],
-   "data_gaps": ["three new starters (C, RG, RT)", "lost the best returning grade (Ulugalu-Maseuli, yr4)"], "g5_guard_note": null
+   "data_gaps": [
+    "three new starters (C, RG, RT)",
+    "lost the best returning grade (Ulugalu-Maseuli, yr4)"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "San Diego State", "unit": "DL", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["East Carolina DL (p25, 60.5 table anchor)", "Wake Forest DL 2025 (60, exemplar anchor)"],
+   "team": "San Diego State",
+   "unit": "DL",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "East Carolina DL (p25, 60.5 table anchor)",
+    "Wake Forest DL 2025 (60, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Loses the STUD White (642 snaps 82.9 -> Texas Tech) + Henderson (-> A&M) + yr4 King (73.8) + yr4 Benjamin (65.4).",
     "Keeps a deep rotation: Nassar (67.2 adj) + Finau (64.1; BOLD) + Comier (65.5) + Clay (54.8) + adds Wallin (OSU 69.2) + Rahman (Rutgers 64.0) + Henrich (Gannon D2). RDEF p84 / PRSH p62.",
@@ -99,15 +224,37 @@
     "44: above the ECU p25 rail on depth; below Wake-60 (four-at-72+) with no remaining stud."
    ],
    "key_players": [
-    {"name": "Brady Nassar", "role": "EDGE (returning)", "evidence": "397 snaps 69.4 (67.2 adj); top returning edge"},
-    {"name": "Malachi Finau", "role": "DT (returning, BOLD)", "evidence": "375 snaps 66.3 (64.1 adj)"},
-    {"name": "Kai Wallin", "role": "EDGE (transfer, Oregon State)", "evidence": "260 snaps 69.2"}
+    {
+     "name": "Brady Nassar",
+     "role": "EDGE (returning)",
+     "evidence": "397 snaps 69.4 (67.2 adj); top returning edge"
+    },
+    {
+     "name": "Malachi Finau",
+     "role": "DT (returning, BOLD)",
+     "evidence": "375 snaps 66.3 (64.1 adj)"
+    },
+    {
+     "name": "Kai Wallin",
+     "role": "EDGE (transfer, Oregon State)",
+     "evidence": "260 snaps 69.2"
+    }
    ],
-   "data_gaps": ["lost the 80+ stud White + yr4 King", "no remaining pass-rush star"], "g5_guard_note": null
+   "data_gaps": [
+    "lost the 80+ stud White + yr4 King",
+    "no remaining pass-rush star"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "San Diego State", "unit": "LB", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["Nevada LB (p25, 56.3 table anchor)", "UNLV LB 2025 (40, exemplar anchor)"],
+   "team": "San Diego State",
+   "unit": "LB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nevada LB (p25, 56.3 table anchor)",
+    "UNLV LB 2025 (40, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Keeps the ELITE Letuli (209 snaps 90.5 -> 85.8 MWC-adj; BOLD, 'a standout') - but coming off reconstructive knee surgery on only 209 '25 snaps.",
     "Support is all-new: Hala (Weber St FCS), Cooper (W.Colorado D2), Lewis. Loses Chambliss (85.5 -> Nebraska) + yr4 Williams (69.8) + yr4 Anderson (72.6).",
@@ -115,14 +262,32 @@
     "42: the ceiling lifts it above the UNLV-40 tier; the ACL + thin support caps it a touch below the healthier OSU-Sullivan-44 room."
    ],
    "key_players": [
-    {"name": "Tano Letuli", "role": "LB1 (returning, BOLD)", "evidence": "209 snaps 90.5 (85.8 adj); coming off ACL"},
-    {"name": "Sione Hala", "role": "LB (transfer, Weber State FCS)", "evidence": "64 tkl; no cell"}
+    {
+     "name": "Tano Letuli",
+     "role": "LB1 (returning, BOLD)",
+     "evidence": "209 snaps 90.5 (85.8 adj); coming off ACL"
+    },
+    {
+     "name": "Sione Hala",
+     "role": "LB (transfer, Weber State FCS)",
+     "evidence": "64 tkl; no cell"
+    }
    ],
-   "data_gaps": ["Letuli ACL + low '25 volume", "all-new FCS/D2 support"], "g5_guard_note": null
+   "data_gaps": [
+    "Letuli ACL + low '25 volume",
+    "all-new FCS/D2 support"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "San Diego State", "unit": "DB", "grade": 34, "confidence": "L",
-   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6, exemplar anchor)", "UNLV DB (p25, 62.8 table anchor)"],
+   "team": "San Diego State",
+   "unit": "DB",
+   "grade": 34,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "UNLV DB (p25, 62.8 table anchor)"
+   ],
    "rationale_bullets": [
     "The COV p93 secondary is GUTTED: Chris Johnson (91.6 -> NFL), McDougle (79.3 -> Nebraska), yr4 Phillips (76.2) + Butler (64.7) + McCuin (71.1) all gone.",
     "Keeps only S Staley (66.4; BOLD, 'the only returning secondary starter') + Cox (57.4) + Hunter (58.6); adds S Thomeson (Ohio 71.4 - the best add). The ENTIRE corner room is new/unproven (Starks So., Lindsay Idaho St, Ricks Idaho).",
@@ -130,27 +295,64 @@
     "34: above the FAU-6 rail on the safety group; capped hard by the corner unknown. L: no proven corner."
    ],
    "key_players": [
-    {"name": "Dalesean Staley", "role": "S (returning, BOLD)", "evidence": "829 snaps 68.8 (66.4 adj); only returning secondary starter"},
-    {"name": "Jalen Thomeson", "role": "S (transfer, Ohio)", "evidence": "777 snaps 74.7 (71.4 MAC-adj); best DB add"},
-    {"name": "Jamison Starks", "role": "CB (returning)", "evidence": "young; minimal tape"}
+    {
+     "name": "Dalesean Staley",
+     "role": "S (returning, BOLD)",
+     "evidence": "829 snaps 68.8 (66.4 adj); only returning secondary starter"
+    },
+    {
+     "name": "Jalen Thomeson",
+     "role": "S (transfer, Ohio)",
+     "evidence": "777 snaps 74.7 (71.4 MAC-adj); best DB add"
+    },
+    {
+     "name": "Jamison Starks",
+     "role": "CB (returning)",
+     "evidence": "young; minimal tape"
+    }
    ],
-   "data_gaps": ["ZERO proven FBS corner", "lost the entire COV-p93 core"], "g5_guard_note": null
+   "data_gaps": [
+    "ZERO proven FBS corner",
+    "lost the entire COV-p93 core"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "San Diego State", "unit": "ST", "grade": 36, "confidence": "M",
-   "bracketing_exemplars": ["Oregon State ST 2026 (38, round peer)", "Colorado State ST 2026 (20, round peer)"],
+   "team": "San Diego State",
+   "unit": "ST",
+   "grade": 36,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Oregon State ST 2026 (38, round peer)",
+    "Colorado State ST 2026 (20, round peer)"
+   ],
    "rationale_bullets": [
-    "Loses BOTH proven specialists: K Plascencia (school's most-accurate ever, graduated) + P Green (-> Washington). New K Clegg (So.) + P Dorje (Sr., 50-yд on 3 punts, tiny).",
+    "Loses BOTH proven specialists: K Plascencia (school's most-accurate ever, graduated) + P Green (-> Washington). New K Clegg (So.) + P Dorje (Sr., 50-y\u0434 on 3 punts, tiny).",
     "Return game good (Napier + Kinnard All-MW PRs). SPEC p58.",
     "ST driven by specialists + continuity (calib lesson) - SDSU loses both, keeping only a strong return game.",
     "36: below-average - the return game is the one asset; both K and P are unproven."
    ],
    "key_players": [
-    {"name": "Nick Clegg", "role": "K (new)", "evidence": "replaces school's most-accurate-ever kicker; unproven"},
-    {"name": "Christian Washington", "role": "KR (returning)", "evidence": "return game asset"},
-    {"name": "Javion Kinnard", "role": "PR (transfer, CSU)", "evidence": "All-MW PR"}
+    {
+     "name": "Nick Clegg",
+     "role": "K (new)",
+     "evidence": "replaces school's most-accurate-ever kicker; unproven"
+    },
+    {
+     "name": "Christian Washington",
+     "role": "KR (returning)",
+     "evidence": "return game asset"
+    },
+    {
+     "name": "Javion Kinnard",
+     "role": "PR (transfer, CSU)",
+     "evidence": "All-MW PR"
+    }
    ],
-   "data_gaps": ["both K and P new/unproven"], "g5_guard_note": null
+   "data_gaps": [
+    "both K and P new/unproven"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

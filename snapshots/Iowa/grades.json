@@ -6,16 +6,20 @@
    "confidence": "L"
   },
   "RB": {
-   "grade": 70,
-   "confidence": "M"
+   "grade": 65,
+   "confidence": "M",
+   "v1_grade": 70,
+   "adjudication": "50/50 blend: dg-9.5"
   },
   "WRTE": {
    "grade": 42,
    "confidence": "M"
   },
   "OL": {
-   "grade": 87,
-   "confidence": "M"
+   "grade": 85,
+   "confidence": "M",
+   "v1_grade": 87,
+   "adjudication": "50/50 blend: dg-9.7; info 0.17 \u2014 blend halved"
   },
   "DL": {
    "grade": 48,
@@ -47,7 +51,9 @@
    "LB": "-32 (LB caution rule: proxy inflated by +16.1 B10 LB offset and Buffington's 85.1 on 28 snaps)",
    "DB": "-13 (proxy blind to CB2/FS unproven spots)",
    "ST": "-34 (proxy carries 2025 SPEC 88.0 earned entirely by departed K/P/RS/STC)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

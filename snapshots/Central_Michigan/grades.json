@@ -1,14 +1,42 @@
 {
  "team": "Central Michigan",
  "units": {
-  "QB": {"grade": 38, "confidence": "M"},
-  "RB": {"grade": 28, "confidence": "M"},
-  "WRTE": {"grade": 28, "confidence": "M"},
-  "OL": {"grade": 28, "confidence": "M"},
-  "DL": {"grade": 24, "confidence": "M"},
-  "LB": {"grade": 14, "confidence": "L"},
-  "DB": {"grade": 22, "confidence": "M"},
-  "ST": {"grade": 26, "confidence": "M"}
+  "QB": {
+   "grade": 38,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 25,
+   "confidence": "M",
+   "v1_grade": 28,
+   "adjudication": "50/50 blend: dg-13.0; info 0.17 \u2014 blend halved"
+  },
+  "WRTE": {
+   "grade": 28,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 23,
+   "confidence": "M",
+   "v1_grade": 28,
+   "adjudication": "50/50 blend: dg-9.7"
+  },
+  "DL": {
+   "grade": 24,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 14,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 22,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 26,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -25,7 +53,9 @@
    "DL": "+24 vs proxy 0 (floor-clip; proxy misses ~1,200 returning rotation snaps behind the Heldman/Decker exodus)",
    "ST": "+19 vs proxy 7 (proxy misses returning P Duley, 13 st, PS P#14)",
    "DB": "+7 vs proxy 15 (directionally aligned - five 350+ snap departures)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -44,10 +74,21 @@
     "38, M: above every MAC-round QB so far on returning FBS tape; capped by small samples and the departed passer."
    ],
    "key_players": [
-    {"name": "Angel Flores", "role": "QB1a - the runner (returning)", "evidence": "82.5/39; 527 rush @ 4.9, 8 TD; 19-of-28 passing"},
-    {"name": "Jadyn Glasser", "role": "QB1b - the passer (returning)", "evidence": "80.1/14; 439 yds in 3 starts as '24 true FR; strong spring"}
+    {
+     "name": "Angel Flores",
+     "role": "QB1a - the runner (returning)",
+     "evidence": "82.5/39; 527 rush @ 4.9, 8 TD; 19-of-28 passing"
+    },
+    {
+     "name": "Jadyn Glasser",
+     "role": "QB1b - the passer (returning)",
+     "evidence": "80.1/14; 439 yds in 3 starts as '24 true FR; strong spring"
+    }
    ],
-   "data_gaps": ["both samples small", "Glasser injury year ('25 OFY vs Pitt)"],
+   "data_gaps": [
+    "both samples small",
+    "Glasser injury year ('25 OFY vs Pitt)"
+   ],
    "g5_guard_note": null
   },
   {
@@ -66,10 +107,21 @@
     "28 = BGSU 28: depth-over-peak vs peak-over-peak - nets even; well clear of Akron 16."
    ],
    "key_players": [
-    {"name": "Vaughn Blue", "role": "RB1 (transfer, Liberty)", "evidence": "65.3/47; 441 @ 5.4 + 162 rec L2Y"},
-    {"name": "Brock Townsend", "role": "RB2 (returning)", "evidence": "73.9/82; 418 @ 5.1"}
+    {
+     "name": "Vaughn Blue",
+     "role": "RB1 (transfer, Liberty)",
+     "evidence": "65.3/47; 441 @ 5.4 + 162 rec L2Y"
+    },
+    {
+     "name": "Brock Townsend",
+     "role": "RB2 (returning)",
+     "evidence": "73.9/82; 418 @ 5.1"
+    }
    ],
-   "data_gaps": ["no returning 100-carry back", "scheme-change usage unknown"],
+   "data_gaps": [
+    "no returning 100-carry back",
+    "scheme-change usage unknown"
+   ],
    "g5_guard_note": null
   },
   {
@@ -88,11 +140,26 @@
     "Losses: Davis 74.4/150 -> Virginia, McIntosh 65.3/228 (eligibility appeal, treated gone), Temple -> Oregon State. 28 = Akron 28, above Buffalo 22 on the All-MAC anchor piece."
    ],
    "key_players": [
-    {"name": "Langston Lewis", "role": "WR1 (returning starter; withdrawal override)", "evidence": "73.9/245; 3rd-Tm All-MAC; 596 @ 13.9"},
-    {"name": "Jaden Allen", "role": "TE1 (transfer, Fordham)", "evidence": "FCS 11 st, 327 @ 17.2; PS TE #153"},
-    {"name": "Nasir Williams", "role": "WR2 (returning)", "evidence": "69.3/29; strong spring"}
+    {
+     "name": "Langston Lewis",
+     "role": "WR1 (returning starter; withdrawal override)",
+     "evidence": "73.9/245; 3rd-Tm All-MAC; 596 @ 13.9"
+    },
+    {
+     "name": "Jaden Allen",
+     "role": "TE1 (transfer, Fordham)",
+     "evidence": "FCS 11 st, 327 @ 17.2; PS TE #153"
+    },
+    {
+     "name": "Nasir Williams",
+     "role": "WR2 (returning)",
+     "evidence": "69.3/29; strong spring"
+    }
    ],
-   "data_gaps": ["McIntosh appeal outcome", "no proven WR2"],
+   "data_gaps": [
+    "McIntosh appeal outcome",
+    "no proven WR2"
+   ],
    "g5_guard_note": null
   },
   {
@@ -111,11 +178,26 @@
     "28: continuity + coaching pedigree over bottom-of-FBS pass-pro tape - just above the WKU-25 anchor and #1 OL of the MAC round."
    ],
    "key_players": [
-    {"name": "Jacob Russell", "role": "LG1 (returning starter)", "evidence": "61.2/508; 13 st at LT; all-league candidate per Athlon"},
-    {"name": "Martin Koivisto", "role": "RT1 (returning starter)", "evidence": "52.8/731; 13 st"},
-    {"name": "Jacob Booth", "role": "LT1 (returning; portal-return override)", "evidence": "61.6/387; 23 gm as backup"}
+    {
+     "name": "Jacob Russell",
+     "role": "LG1 (returning starter)",
+     "evidence": "61.2/508; 13 st at LT; all-league candidate per Athlon"
+    },
+    {
+     "name": "Martin Koivisto",
+     "role": "RT1 (returning starter)",
+     "evidence": "52.8/731; 13 st"
+    },
+    {
+     "name": "Jacob Booth",
+     "role": "LT1 (returning; portal-return override)",
+     "evidence": "61.6/387; 23 gm as backup"
+    }
    ],
-   "data_gaps": ["PBLK p1 vs continuity-case tension", "Nehf/Iannuzzi both returning from OFY"],
+   "data_gaps": [
+    "PBLK p1 vs continuity-case tension",
+    "Nehf/Iannuzzi both returning from OFY"
+   ],
    "g5_guard_note": null
   },
   {
@@ -134,11 +216,26 @@
     "24: solid returning rotation without a high-end piece - between Buffalo's 14 (one starter) and BGSU's 34 (returning 85-grade edge)."
    ],
    "key_players": [
-    {"name": "Korver Demma", "role": "DE1 (returning starter)", "evidence": "68.3/468; 13 st, 27 tkl, 3.5 sk"},
-    {"name": "JJ Douglas", "role": "DE (returning)", "evidence": "59.6/228 as true-FR TE->DE convert; breakout buzz"},
-    {"name": "James Reinbold", "role": "DE (transfer, Cornell - feed-gap)", "evidence": "18 st, 74 tkl, 5 sk L2Y FCS"}
+    {
+     "name": "Korver Demma",
+     "role": "DE1 (returning starter)",
+     "evidence": "68.3/468; 13 st, 27 tkl, 3.5 sk"
+    },
+    {
+     "name": "JJ Douglas",
+     "role": "DE (returning)",
+     "evidence": "59.6/228 as true-FR TE->DE convert; breakout buzz"
+    },
+    {
+     "name": "James Reinbold",
+     "role": "DE (transfer, Cornell - feed-gap)",
+     "evidence": "18 st, 74 tkl, 5 sk L2Y FCS"
+    }
    ],
-   "data_gaps": ["no returning piece above 62-equiv", "two import origins unprinted"],
+   "data_gaps": [
+    "no returning piece above 62-equiv",
+    "two import origins unprinted"
+   ],
    "g5_guard_note": null
   },
   {
@@ -157,11 +254,26 @@
     "14, L: a hair above Buffalo's 12 on ~265 returning FBS snaps (vs their 2), far below BGSU's 30."
    ],
    "key_players": [
-    {"name": "Xavier White", "role": "MLB1 (returning)", "evidence": "60.1/181; rotation LY"},
-    {"name": "Victor Earl", "role": "WLB1 (returning)", "evidence": "60.0/80; limited bench action"},
-    {"name": "Drew Esper", "role": "SLB1 (true FR)", "evidence": "Athlon projected starter; #3 recruit"}
+    {
+     "name": "Xavier White",
+     "role": "MLB1 (returning)",
+     "evidence": "60.1/181; rotation LY"
+    },
+    {
+     "name": "Victor Earl",
+     "role": "WLB1 (returning)",
+     "evidence": "60.0/80; limited bench action"
+    },
+    {
+     "name": "Drew Esper",
+     "role": "SLB1 (true FR)",
+     "evidence": "Athlon projected starter; #3 recruit"
+    }
    ],
-   "data_gaps": ["true-FR projected starter", "no import production"],
+   "data_gaps": [
+    "true-FR projected starter",
+    "no import production"
+   ],
    "g5_guard_note": null
   },
   {
@@ -180,11 +292,26 @@
     "22 = Akron 22: PS expects the pass-defense rating 'to take a drop' - one anchor, everything else projection."
    ],
    "key_players": [
-    {"name": "Jaion Jackson", "role": "CB1 (returning starter)", "evidence": "64.0/610; 3rd-year starter"},
-    {"name": "Justin Taylor", "role": "S1 (transfer, Wyoming)", "evidence": "60.4/276; 1 st, 19 tkl there"},
-    {"name": "Darrell Bryant Jr.", "role": "S1 (transfer, N. Colorado)", "evidence": "FCS 11 st, 75 tkl; UNC '24: 8 st"}
+    {
+     "name": "Jaion Jackson",
+     "role": "CB1 (returning starter)",
+     "evidence": "64.0/610; 3rd-year starter"
+    },
+    {
+     "name": "Justin Taylor",
+     "role": "S1 (transfer, Wyoming)",
+     "evidence": "60.4/276; 1 st, 19 tkl there"
+    },
+    {
+     "name": "Darrell Bryant Jr.",
+     "role": "S1 (transfer, N. Colorado)",
+     "evidence": "FCS 11 st, 75 tkl; UNC '24: 8 st"
+    }
    ],
-   "data_gaps": ["CB2 is a true-FR-vs-unknown-transfer battle", "safety spots inexperienced per Athlon"],
+   "data_gaps": [
+    "CB2 is a true-FR-vs-unknown-transfer battle",
+    "safety spots inexperienced per Athlon"
+   ],
    "g5_guard_note": null
   },
   {
@@ -203,10 +330,21 @@
     "26: the returning P #14 pulls this to the top of the MAC-round ST rooms despite the p7 team tape."
    ],
    "key_players": [
-    {"name": "Declan Duley", "role": "P1 (returning)", "evidence": "13 st; 41.1 avg / 37.9 net; PS P #14"},
-    {"name": "Caden VanHuis", "role": "K1 (returning rFr)", "evidence": "PS K #20; UA All-America HS; zero attempts"}
+    {
+     "name": "Declan Duley",
+     "role": "P1 (returning)",
+     "evidence": "13 st; 41.1 avg / 37.9 net; PS P #14"
+    },
+    {
+     "name": "Caden VanHuis",
+     "role": "K1 (returning rFr)",
+     "evidence": "PS K #20; UA All-America HS; zero attempts"
+    }
    ],
-   "data_gaps": ["K has zero attempts", "return game was negative in '25"],
+   "data_gaps": [
+    "K has zero attempts",
+    "return game was negative in '25"
+   ],
    "g5_guard_note": null
   }
  ]

@@ -1,14 +1,42 @@
 {
  "team": "Texas A&M",
  "units": {
-  "QB": {"grade": 58, "confidence": "M"},
-  "RB": {"grade": 54, "confidence": "M"},
-  "WRTE": {"grade": 58, "confidence": "M"},
-  "OL": {"grade": 52, "confidence": "M"},
-  "DL": {"grade": 56, "confidence": "M"},
-  "LB": {"grade": 52, "confidence": "M"},
-  "DB": {"grade": 58, "confidence": "M"},
-  "ST": {"grade": 56, "confidence": "M"}
+  "QB": {
+   "grade": 53,
+   "confidence": "M",
+   "v1_grade": 58,
+   "adjudication": "50/50 blend: dg-9.4"
+  },
+  "RB": {
+   "grade": 54,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 56,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 58,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "LB 0.4 blend: dg+14.4"
+  },
+  "DB": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 56,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,7 +44,9 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells OL/LB/RB weighted DOWN; small samples discounted], arrivals on origin cells; HC Elko Year 3 NO change [band x1.00], double coordinator switch [no multiplier]; disposition gate 38 rows / 0 adjudicate / 0 err - Concepcion+York+Bisontis NFL-declare overrides [all showed RETURNS in raw feed; verified drafted/pro], Howell+Regis+Onyedim+Zuhn+Reed-Adams+Crownover+Scooby Williams+Will Lee yr4-EXPIRED [school-record 10 draft picks], Bryce Anderson portal-withdrawal; cross-build ties consistent [Rickey Gibson<-Tennessee, SEC-line transfers]); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16). WEB disposition-only verification of Concepcion/York/Bisontis NFL. DISCLOSED: Athlon NF9/SEC4 + P6 #6/#13 incidentally visible, logged, NOT used.",
-  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB58/RB54/WRTE58/OL52/DL56/LB52/DB58/ST56, sum 444). No post-freeze corrections."},
+  "planned_vs_final_deviations": {
+   "note": "finals match the dossier planned lines exactly (QB58/RB54/WRTE58/OL52/DL56/LB52/DB58/ST56, sum 444). No post-freeze corrections."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 61, RB 88, WRTE 75, OL 84, DL 70, LB 90, DB 75, ST 88) reads the '25 tape at face value; the grades rebuild the units gutted by a school-record NFL exodus and keep Reed + Craver + the secondary.",
    "LB": "-38 vs proxy 90 - proxy massively over-credits a room that lost BOTH starters (York 83.7 + Scooby Williams) to the NFL; the grade rebuilds around Sanford + Coney.",
@@ -25,11 +55,20 @@
    "WRTE": "-17 vs proxy 75 - lost Concepcion (R1) + the TE room; Craver + Horton hold it at 58.",
    "DL": "-14 vs proxy 70 - lost the SEC DPOY; Saka + the reload keep it at 56.",
    "DB/QB/ST": "DB 58 keeps the returning-safety strength; QB 58 tempers Reed's narrative to his tape; ST 56 credits the kicker upgrade."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
-  {"team": "Texas A&M", "unit": "QB", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["LSU QB 2026 (60, above)", "Minnesota QB 2026 (58, peer)"],
+  {
+   "team": "Texas A&M",
+   "unit": "QB",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "LSU QB 2026 (60, above)",
+    "Minnesota QB 2026 (58, peer)"
+   ],
    "rationale_bullets": [
     "Marcel Reed (68.3/468 -> SEC +7.72 weighted; 3,169 yds/25 TD/12 INT + 493 rush/6 TD; top-5 SEC in yds/att) + true frosh Brady Hart.",
     "A proven multi-year dual-threat starter + big-game competitor ('a legit Heisman contender into November' - P6), but the tape is middling (team PASS p32, 12 INT, late-season INT collapses in both losses).",
@@ -37,11 +76,27 @@
     "58: ~Minnesota QB 58; below LSU 60. A solid returning dual-threat; the inefficiency + turnovers cap it. M."
    ],
    "key_players": [
-    {"name": "Marcel Reed", "role": "QB1 (returning)", "evidence": "68.3/468; 3,169 yds/25 TD/12 INT + 493 rush/6 TD; top-5 SEC in yds/att"}
+    {
+     "name": "Marcel Reed",
+     "role": "QB1 (returning)",
+     "evidence": "68.3/468; 3,169 yds/25 TD/12 INT + 493 rush/6 TD; top-5 SEC in yds/att"
+    }
    ],
-   "data_gaps": ["team PASS p32", "12 INT + late-season collapses"], "g5_guard_note": null},
-  {"team": "Texas A&M", "unit": "RB", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["LSU RB 2026 (56, above)", "SMU RB 2026 (54, peer)"],
+   "data_gaps": [
+    "team PASS p32",
+    "12 INT + late-season collapses"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Texas A&M",
+   "unit": "RB",
+   "grade": 54,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "LSU RB 2026 (56, above)",
+    "SMU RB 2026 (54, peer)"
+   ],
    "rationale_bullets": [
     "Rueben Owens II (76.6/156 -> SEC +10.17 weighted; 639 yds/5.4 after taking over for the injured Moss) + Jamarion Morrow (69.4/43; 4-star). Le'Veon Moss + EJ Smith (yr4) GONE.",
     "A proven returning lead back with a strong per-carry number, but thin behind him (a tiny-sample 4-star #2).",
@@ -49,11 +104,26 @@
     "54: ~SMU RB 54; below LSU 56. A good lead back; the thin depth caps it. M."
    ],
    "key_players": [
-    {"name": "Rueben Owens II", "role": "RB1 (returning)", "evidence": "76.6/156; 639 yds at 5.4/carry after taking over for the injured Moss"}
+    {
+     "name": "Rueben Owens II",
+     "role": "RB1 (returning)",
+     "evidence": "76.6/156; 639 yds at 5.4/carry after taking over for the injured Moss"
+    }
    ],
-   "data_gaps": ["thin depth (Moss gone)"], "g5_guard_note": null},
-  {"team": "Texas A&M", "unit": "WRTE", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["Penn State WRTE 2026 (58, peer)", "Georgia WRTE 2026 (56, below)"],
+   "data_gaps": [
+    "thin depth (Moss gone)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Texas A&M",
+   "unit": "WRTE",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Penn State WRTE 2026 (58, peer)",
+    "Georgia WRTE 2026 (56, below)"
+   ],
    "rationale_bullets": [
     "Mario Craver (81.4/282 -> SEC +5.94; All-SEC, 917 yds; slot headliner) + Ashton Bethel-Roman (59.4/328; 20+ ypc final 7) + Isaiah Horton (Alabama; 6-4 redzone, #7 transfer WR, 8 TD) + frosh Aaron Gregory + a rebuilt TE room (Riley + UTSA's Houston Thomas). KC Concepcion (78.4, NFL R1) + the top-3 TEs GONE.",
     "The higher-grade of the two 900-yd '25 WRs (Craver, All-SEC) returns as the headliner + a rising deep threat + an Alabama redzone transfer - a real WR strength.",
@@ -61,12 +131,32 @@
     "58: ~Penn State WRTE 58; above Georgia 56. Craver + Horton anchor it; the Concepcion + TE losses cap it. M."
    ],
    "key_players": [
-    {"name": "Mario Craver", "role": "WR (returning)", "evidence": "81.4/282; All-SEC; 917 yds; the returning headliner"},
-    {"name": "Isaiah Horton", "role": "WR (transfer, Alabama)", "evidence": "#7 transfer WR; 6-4 redzone threat; 8 TD last year"}
+    {
+     "name": "Mario Craver",
+     "role": "WR (returning)",
+     "evidence": "81.4/282; All-SEC; 917 yds; the returning headliner"
+    },
+    {
+     "name": "Isaiah Horton",
+     "role": "WR (transfer, Alabama)",
+     "evidence": "#7 transfer WR; 6-4 redzone threat; 8 TD last year"
+    }
    ],
-   "data_gaps": ["lost R1 WR Concepcion", "entire top-3 TE group gone"], "g5_guard_note": null},
-  {"team": "Texas A&M", "unit": "OL", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["USC OL 2026 (54, above)", "Miami OL 2026 (52, peer)"],
+   "data_gaps": [
+    "lost R1 WR Concepcion",
+    "entire top-3 TE group gone"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Texas A&M",
+   "unit": "OL",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "USC OL 2026 (54, above)",
+    "Miami OL 2026 (52, peer)"
+   ],
    "rationale_bullets": [
     "Mark Nabou Jr. (64.8/756; the LONE returning starter, C) + four SEC-transfer starters (54 combined starts): Wilkin Formby (Alabama), Tyree Adams (LSU), Coen Echols (LSU), Trovon Baugh (SC) + 5-star Lamont Rogers. The other four '25 starters were ALL drafted (Zuhn/Bisontis/Reed-Adams All-SEC + Crownover).",
     "A near-total rebuild - a genuinely good '25 unit (Top 30 run push + pass pro, PBLK p82) that lost FOUR drafted starters and returns only its center.",
@@ -74,12 +164,32 @@
     "52: ~Miami OL 52; below USC 54. Veteran SEC transfers vs the four-drafted-starter loss + zero cohesion. M."
    ],
    "key_players": [
-    {"name": "Mark Nabou Jr.", "role": "C (returning)", "evidence": "64.8/756; the lone returning starter"},
-    {"name": "Wilkin Formby", "role": "OT (transfer, Alabama)", "evidence": "four-star transfer, Top200 recruit; SEC starting experience"}
+    {
+     "name": "Mark Nabou Jr.",
+     "role": "C (returning)",
+     "evidence": "64.8/756; the lone returning starter"
+    },
+    {
+     "name": "Wilkin Formby",
+     "role": "OT (transfer, Alabama)",
+     "evidence": "four-star transfer, Top200 recruit; SEC starting experience"
+    }
    ],
-   "data_gaps": ["4 drafted starters gone", "zero cohesion among the transfer additions"], "g5_guard_note": null},
-  {"team": "Texas A&M", "unit": "DL", "grade": 56, "confidence": "M",
-   "bracketing_exemplars": ["Georgia DL 2026 (58, above)", "South Carolina DL 2026 (56, peer)"],
+   "data_gaps": [
+    "4 drafted starters gone",
+    "zero cohesion among the transfer additions"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Texas A&M",
+   "unit": "DL",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Georgia DL 2026 (58, above)",
+    "South Carolina DL 2026 (56, peer)"
+   ],
    "rationale_bullets": [
     "Anto Saka (Northwestern, All-B10, 1st-round buzz -> B10 +10.38 weighted DOWN) + TJ Searcy (71.9/395 -> SEC +7.87 weighted; returning end) + DJ Hicks (65.7/378; 5-star) + CJ Mims (UNC) + Marco Jones (77.1/133; rising edge) + Davis-Swain (Colorado). LOST SEC DPOY Cashius Howell (81.2, NFL) + drafted tackles Regis + Onyedim.",
     "A reload off an elite '25 front (PRSH p90, 4th in the nation in sacks) that lost its unanimous-All-American DPOY + two drafted tackles.",
@@ -87,12 +197,32 @@
     "56: ~South Carolina DL 56; below Georgia 58. The Saka/Searcy/Hicks core vs the DPOY + drafted-tackle losses. M."
    ],
    "key_players": [
-    {"name": "Anto Saka", "role": "ED (transfer, Northwestern)", "evidence": "All-Big Ten; drawing 1st-round buzz as a physical pass rusher"},
-    {"name": "T.J. Searcy", "role": "ED (returning)", "evidence": "71.9/395; the returning starting end"}
+    {
+     "name": "Anto Saka",
+     "role": "ED (transfer, Northwestern)",
+     "evidence": "All-Big Ten; drawing 1st-round buzz as a physical pass rusher"
+    },
+    {
+     "name": "T.J. Searcy",
+     "role": "ED (returning)",
+     "evidence": "71.9/395; the returning starting end"
+    }
    ],
-   "data_gaps": ["lost SEC DPOY Howell + 2 drafted tackles", "new scheme"], "g5_guard_note": null},
-  {"team": "Texas A&M", "unit": "LB", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["Maryland LB 2026 (53, above)", "Northwestern LB 2026 (52, peer)"],
+   "data_gaps": [
+    "lost SEC DPOY Howell + 2 drafted tackles",
+    "new scheme"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Texas A&M",
+   "unit": "LB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Maryland LB 2026 (53, above)",
+    "Northwestern LB 2026 (52, peer)"
+   ],
    "rationale_bullets": [
     "Ray Coney (Tulsa, 1st-team All-AAC, league-best 128 tkl, 3-yr starter -> AAC -10.73) + Daymion Sanford (70.1/525 -> SEC +14.01 weighted DOWN; run stopper; spring-injury watch) + Noah Mikhail (73.2/102; Top100 frosh). Taurean York (83.7, NFL) + Scooby Williams (78.9, NFL) BOTH went pro.",
     "The thinnest spot - the unit lost BOTH starters to the NFL (incl. the 83.7 tackle-machine York) and rebuilds around a returning run-stopper (with an injury watch) + a G5-origin transfer + a Top100 frosh.",
@@ -100,12 +230,32 @@
     "52: ~Northwestern LB 52; below Maryland 53. Sanford + Coney vs the two NFL-starter losses + the injury watch. M."
    ],
    "key_players": [
-    {"name": "Daymion Sanford", "role": "LB (returning)", "evidence": "70.1/525; excellent run stopper (spring-injury watch)"},
-    {"name": "Ray Coney", "role": "LB (transfer, Tulsa)", "evidence": "1st-team All-AAC; league-best 128 tackles; 3-year starter"}
+    {
+     "name": "Daymion Sanford",
+     "role": "LB (returning)",
+     "evidence": "70.1/525; excellent run stopper (spring-injury watch)"
+    },
+    {
+     "name": "Ray Coney",
+     "role": "LB (transfer, Tulsa)",
+     "evidence": "1st-team All-AAC; league-best 128 tackles; 3-year starter"
+    }
    ],
-   "data_gaps": ["both '25 starters to the NFL", "Sanford's spring-injury watch"], "g5_guard_note": null},
-  {"team": "Texas A&M", "unit": "DB", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["Utah DB 2026 (58, peer)", "Texas DB 2026 (56, below)"],
+   "data_gaps": [
+    "both '25 starters to the NFL",
+    "Sanford's spring-injury watch"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Texas A&M",
+   "unit": "DB",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Utah DB 2026 (58, peer)",
+    "Texas DB 2026 (56, below)"
+   ],
    "rationale_bullets": [
     "Marcus Ratcliffe (80.3/685 -> SEC +5.44; proven star S) + Dalton Brooks (64.5/631) + Bryce Anderson (58.0/138; withdrew) + Dezz Ricks (59.9/681; returning CB) + Rickey Gibson (Tennessee; All-SEC candidate pre-injury) + Tawfiq Byard (Colorado). Will Lee (66.5, NFL) + Chappell (yr4) GONE.",
     "THE strength - 'packed with returning talent and proven transfers' (P6): all three safeties return (anchored by a genuine star in Ratcliffe) + a returning starting corner + two P4-transfer corners.",
@@ -113,21 +263,51 @@
     "58: ~Utah DB 58; above Texas 56. The deep, proven secondary; the corner grades cap it below elite. M."
    ],
    "key_players": [
-    {"name": "Marcus Ratcliffe", "role": "S (returning)", "evidence": "80.3/685; the proven star safety of a room where all three safeties return"},
-    {"name": "Dezz Ricks", "role": "CB (returning)", "evidence": "59.9/681; the returning starting corner"}
+    {
+     "name": "Marcus Ratcliffe",
+     "role": "S (returning)",
+     "evidence": "80.3/685; the proven star safety of a room where all three safeties return"
+    },
+    {
+     "name": "Dezz Ricks",
+     "role": "CB (returning)",
+     "evidence": "59.9/681; the returning starting corner"
+    }
    ],
-   "data_gaps": ["middling corner grades", "Gibson's injury history"], "g5_guard_note": null},
-  {"team": "Texas A&M", "unit": "ST", "grade": 56, "confidence": "M",
-   "bracketing_exemplars": ["Missouri ST 2026 (56, peer)", "Auburn ST 2026 (56, peer)"],
+   "data_gaps": [
+    "middling corner grades",
+    "Gibson's injury history"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Texas A&M",
+   "unit": "ST",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Missouri ST 2026 (56, peer)",
+    "Auburn ST 2026 (56, peer)"
+   ],
    "rationale_bullets": [
     "David Olano (K - Illinois transfer, 86% career FG, a big upgrade on an erratic '25 kicking game) + Mario Craver (explosive punt returner) + Terry Bussey (kickoffs).",
     "A proven accurate transfer kicker fixes the one '25 weakness, on a unit that was already elite in the return/coverage game (SPEC p88).",
     "56: ~Missouri/Auburn ST 56. An upgraded kicker + explosive returners (calib). M."
    ],
    "key_players": [
-    {"name": "David Olano", "role": "K (transfer, Illinois)", "evidence": "86% career FG success rate; a big upgrade"},
-    {"name": "Mario Craver", "role": "PR (returning)", "evidence": "explosive punt returner"}
+    {
+     "name": "David Olano",
+     "role": "K (transfer, Illinois)",
+     "evidence": "86% career FG success rate; a big upgrade"
+    },
+    {
+     "name": "Mario Craver",
+     "role": "PR (returning)",
+     "evidence": "explosive punt returner"
+    }
    ],
-   "data_gaps": [], "g5_guard_note": null}
+   "data_gaps": [],
+   "g5_guard_note": null
+  }
  ]
 }

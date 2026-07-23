@@ -1,14 +1,44 @@
 {
  "team": "Temple",
  "units": {
-  "QB": {"grade": 35, "confidence": "L"},
-  "RB": {"grade": 40, "confidence": "M"},
-  "WRTE": {"grade": 55, "confidence": "M"},
-  "OL": {"grade": 58, "confidence": "M"},
-  "DL": {"grade": 15, "confidence": "L"},
-  "LB": {"grade": 25, "confidence": "L"},
-  "DB": {"grade": 14, "confidence": "L"},
-  "ST": {"grade": 45, "confidence": "M"}
+  "QB": {
+   "grade": 35,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 43,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "50/50 blend: dg+10.9; info 0.10 \u2014 blend halved"
+  },
+  "WRTE": {
+   "grade": 63,
+   "confidence": "M",
+   "v1_grade": 55,
+   "adjudication": "50/50 blend: dg+19.8"
+  },
+  "OL": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 13,
+   "confidence": "L",
+   "v1_grade": 15,
+   "adjudication": "50/50 blend: dg-8.8; info 0.16 \u2014 blend halved"
+  },
+  "LB": {
+   "grade": 25,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 14,
+   "confidence": "L"
+  },
+  "ST": {
+   "grade": 45,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-15",
@@ -23,88 +53,241 @@
    "LB": "+17 (Ordonez + two 280-290-snap returners beat the floor)",
    "DB": "+12 (bodies + P4 adds over pure floor)",
    "ST": "+14 (returning K + functional 2025 SPEC)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
-  {"team": "Temple", "unit": "QB", "grade": 35, "confidence": "L",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+  {
+   "team": "Temple",
+   "unit": "QB",
+   "grade": 35,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "All-new room after both 2025 QBs expired (Simon 66.7/357 was a 35th-pctile season): Smolik (PSU, no meaningful snaps) charted over Sheppard (WSU backup profile).",
     "The landing spot is the argument for optimism - seven returning offensive starters, a 90.5-graded TE, and two 74+ OL grades - but neither QB has FBS production.",
     "35 = bottom-third: unproven passers into a good supporting cast."
    ],
-   "key_players": [{"name": "Jaxon Smolik", "role": "QB1 (Athlon chart)", "evidence": "Penn State transfer; no meaningful snaps"}],
-   "data_gaps": ["No tape on either QB", "Battle status post-spring unknown"],
-   "g5_guard_note": null},
-  {"team": "Temple", "unit": "RB", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "UNLV LB 2025 (40)"],
+   "key_players": [
+    {
+     "name": "Jaxon Smolik",
+     "role": "QB1 (Athlon chart)",
+     "evidence": "Penn State transfer; no meaningful snaps"
+    }
+   ],
+   "data_gaps": [
+    "No tape on either QB",
+    "Battle status post-spring unknown"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Temple",
+   "unit": "RB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "UNLV LB 2025 (40)"
+   ],
    "rationale_bullets": [
     "Ducker (83.0/157 - a 68th-pctile room's lead) expired; Rutgers transfer Brown V brings real B10 rotation experience as the charted starter with sophomore Mason behind.",
     "Behind four returning OL starters, the floor is decent; nothing proven at lead-back volume.",
     "40 = below average with infrastructure support."
    ],
-   "key_players": [{"name": "Samuel Brown V", "role": "RB1 (Rutgers)", "evidence": "B10 rotation experience (Athlon chart)"}],
-   "data_gaps": ["Brown's exact 2025 usage not captured"],
-   "g5_guard_note": null},
-  {"team": "Temple", "unit": "WRTE", "grade": 55, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "key_players": [
+    {
+     "name": "Samuel Brown V",
+     "role": "RB1 (Rutgers)",
+     "evidence": "B10 rotation experience (Athlon chart)"
+    }
+   ],
+   "data_gaps": [
+    "Brown's exact 2025 usage not captured"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Temple",
+   "unit": "WRTE",
+   "grade": 55,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "The AAC batch's best returning TE: Clarke - PFF 90.5 on 210 routes, bold returner; plus WRs Chase (64.9/375) and Bermudez (68.5/291) both bold from a 62nd-pctile room.",
     "Hollawayne (63.1/343) expired; adds are modest (Freeman - Stony Brook chart starter; Stocksdale - BG).",
     "Proxy's 75 over-credits departed share; 55 = above average, carried by Clarke + returning volume, capped by the WR ceiling and an unproven QB."
    ],
-   "key_players": [{"name": "Peter Clarke", "role": "TE1, returning starter", "evidence": "PFF 90.5 on 210 routes 2025"}, {"name": "JoJo Bermudez", "role": "WR, returning starter", "evidence": "PFF 68.5/291"}],
-   "data_gaps": ["WR1-caliber target unproven"],
-   "g5_guard_note": null},
-  {"team": "Temple", "unit": "OL", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "key_players": [
+    {
+     "name": "Peter Clarke",
+     "role": "TE1, returning starter",
+     "evidence": "PFF 90.5 on 210 routes 2025"
+    },
+    {
+     "name": "JoJo Bermudez",
+     "role": "WR, returning starter",
+     "evidence": "PFF 68.5/291"
+    }
+   ],
+   "data_gaps": [
+    "WR1-caliber target unproven"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Temple",
+   "unit": "OL",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "Four bold returners from a 67th-pctile unit: Hills (77.0 on 725 as a second-year player - the prize), King (74.9/625), Pruitt (65.5/742), Mains (58.7/726).",
     "The one loss (Barajas 71.1/734, expired) opens RT for Watson with Rutgers/Louisville transfer depth behind; proxy's 69 counts Barajas and is trimmed accordingly.",
     "58 = above average: two quality grades + continuity, one new spot."
    ],
-   "key_players": [{"name": "Giakoby Hills", "role": "LT, returning starter (SO)", "evidence": "PFF 77.0 on 725 snaps 2025"}, {"name": "Eric King", "role": "LG, returning starter", "evidence": "PFF 74.9/625"}],
-   "data_gaps": ["RT unproven"],
-   "g5_guard_note": null},
-  {"team": "Temple", "unit": "DL", "grade": 15, "confidence": "L",
-   "bracketing_exemplars": ["Florida International QB 2025 (15)", "Western Kentucky OL 2025 (25)"],
+   "key_players": [
+    {
+     "name": "Giakoby Hills",
+     "role": "LT, returning starter (SO)",
+     "evidence": "PFF 77.0 on 725 snaps 2025"
+    },
+    {
+     "name": "Eric King",
+     "role": "LG, returning starter",
+     "evidence": "PFF 74.9/625"
+    }
+   ],
+   "data_gaps": [
+    "RT unproven"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Temple",
+   "unit": "DL",
+   "grade": 15,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15)",
+    "Western Kentucky OL 2025 (25)"
+   ],
    "rationale_bullets": [
     "The defense's one elite piece (C.Stewart 88.0/290) expired along with Haye (67.2/442), Poteat (72.1/308) and the rest of the quality two-deep, from a unit already 14th pctile.",
     "The 2026 chart starts a D2 transfer (Hornbeak - Tiffin) and an FCS edge (Joseph - Lafayette) beside Auzenne (58.3/282) and a year-2 DE; P4-depth adds (Artis-PSU, Gillians-Cuse, Fairfax-Memphis) have no meaningful volume.",
     "15 = bottom-eighth, at the FIU anchor."
    ],
-   "key_players": [{"name": "Joseph Auzenne", "role": "DT, returner", "evidence": "PFF 58.3/282"}, {"name": "Kevin Hornbeak", "role": "DT (Tiffin - D2)", "evidence": "Athlon chart starter"}],
-   "data_gaps": ["D2/FCS starter translation", "No returning pressure production"],
-   "g5_guard_note": null},
-  {"team": "Temple", "unit": "LB", "grade": 25, "confidence": "L",
-   "bracketing_exemplars": ["Florida International QB 2025 (15)", "Illinois RB 2025 (32)"],
+   "key_players": [
+    {
+     "name": "Joseph Auzenne",
+     "role": "DT, returner",
+     "evidence": "PFF 58.3/282"
+    },
+    {
+     "name": "Kevin Hornbeak",
+     "role": "DT (Tiffin - D2)",
+     "evidence": "Athlon chart starter"
+    }
+   ],
+   "data_gaps": [
+    "D2/FCS starter translation",
+    "No returning pressure production"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Temple",
+   "unit": "LB",
+   "grade": 25,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15)",
+    "Illinois RB 2025 (32)"
+   ],
    "rationale_bullets": [
     "Ordonez (68.2/571) returns bold with Stuart (53.8/279) and Surprenant (68.0/290) - three usable bodies from a 12th-pctile unit.",
     "Adds are G5/FCS-depth (Desiderio-UMass, Diaz-Sam Houston); LB caution applies to both the bad baseline and the modest returns.",
     "25 = bottom-quarter: real returning volume, no evidence of quality beyond Ordonez."
    ],
-   "key_players": [{"name": "Curly Ordonez", "role": "LB, returning starter", "evidence": "PFF 68.2 on 571 snaps 2025"}],
-   "data_gaps": ["Second LB quality"],
-   "g5_guard_note": null},
-  {"team": "Temple", "unit": "DB", "grade": 14, "confidence": "L",
-   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6)", "Florida International QB 2025 (15)"],
+   "key_players": [
+    {
+     "name": "Curly Ordonez",
+     "role": "LB, returning starter",
+     "evidence": "PFF 68.2 on 571 snaps 2025"
+    }
+   ],
+   "data_gaps": [
+    "Second LB quality"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Temple",
+   "unit": "DB",
+   "grade": 14,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6)",
+    "Florida International QB 2025 (15)"
+   ],
    "rationale_bullets": [
     "8th-pctile 2025 unit whose four best grades all expired (Morton 74.2, Jones 73.5, Castleberry 62.6, Osueke 59.4); the one bold returner is Powell at 44.4/456 - the recorded grade-role divergence.",
     "The chart starts a TRUE FRESHMAN at corner (Ward-Grant) beside sophomore Chavis; safety adds Dinkins (PSU) and Karriem (Illinois) are P4-depth pieces without starter volume.",
     "14 = bottom-tenth: above the FAU-6 anchor on the P4 adds, below FIU-15 on the freshman-CB exposure."
    ],
-   "key_players": [{"name": "Avery Powell", "role": "S, returning starter", "evidence": "PFF 44.4 on 456 snaps 2025"}, {"name": "Kolin Dinkins", "role": "S (Penn State)", "evidence": "Athlon chart starter; no PSU starter volume"}],
-   "data_gaps": ["Freshman CB projection", "Add quality unverified"],
-   "g5_guard_note": null},
-  {"team": "Temple", "unit": "ST", "grade": 45, "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "key_players": [
+    {
+     "name": "Avery Powell",
+     "role": "S, returning starter",
+     "evidence": "PFF 44.4 on 456 snaps 2025"
+    },
+    {
+     "name": "Kolin Dinkins",
+     "role": "S (Penn State)",
+     "evidence": "Athlon chart starter; no PSU starter volume"
+    }
+   ],
+   "data_gaps": [
+    "Freshman CB projection",
+    "Add quality unverified"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Temple",
+   "unit": "ST",
+   "grade": 45,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "K Hardin (Jr) returns as the charted kicker; his 2025 line wasn't retrievable in accessible sources (logged) - graded near-average on continuity alone.",
     "2025 team SPEC was 70.9 (mid); punter not charted in the extract (gap).",
     "45 = slightly below average pending better specialist data."
    ],
-   "key_players": [{"name": "Carl Hardin", "role": "K, returning", "evidence": "Athlon 2026 chart"}],
-   "data_gaps": ["Kicker stats; punter identity (logged)"],
-   "g5_guard_note": null}
+   "key_players": [
+    {
+     "name": "Carl Hardin",
+     "role": "K, returning",
+     "evidence": "Athlon 2026 chart"
+    }
+   ],
+   "data_gaps": [
+    "Kicker stats; punter identity (logged)"
+   ],
+   "g5_guard_note": null
+  }
  ]
 }

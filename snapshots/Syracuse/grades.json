@@ -1,14 +1,40 @@
 {
  "team": "Syracuse",
  "units": {
-  "QB": {"grade": 52, "confidence": "M"},
-  "RB": {"grade": 30, "confidence": "L"},
-  "WRTE": {"grade": 32, "confidence": "L"},
-  "OL": {"grade": 42, "confidence": "M"},
-  "DL": {"grade": 36, "confidence": "M"},
-  "LB": {"grade": 34, "confidence": "M"},
-  "DB": {"grade": 50, "confidence": "M"},
-  "ST": {"grade": 40, "confidence": "M"}
+  "QB": {
+   "grade": 44,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "50/50 blend: dg-18.8"
+  },
+  "RB": {
+   "grade": 30,
+   "confidence": "L"
+  },
+  "WRTE": {
+   "grade": 32,
+   "confidence": "L"
+  },
+  "OL": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 36,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 34,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 40,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,18 +42,28 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; archetype-watch applied; percentile-mapped; ACC POSITIVE offsets on returning tape; disposition gate resolved before grading); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 52/RB 30/WRTE 32/OL 42/DL 36/LB 34/DB 50/ST 40)."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines (QB 52/RB 30/WRTE 32/OL 42/DL 36/LB 34/DB 50/ST 40)."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 32, RB None, WRTE 22, OL 34, DL 42, LB 27, DB 51, ST 16) keys the as-played 2025 tape.",
    "QB": "+20 vs proxy 32 - proxy keys the injury-collapsed offense; the grade credits Angeli's healthy 78.0 tape (led the nation before the Achilles).",
    "DB": "~= proxy 51 - both key the two star corners (Peal 86.3, Samuel 77.3).",
    "OL": "+8 vs proxy 34 - the ACC +3.54 bump + 3 returning starters + P4 transfers lift it off the p15 base."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "Syracuse", "unit": "QB", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["New Mexico QB 2025 (34, round exemplar)", "Texas State QB 2026 (58, round peer)"],
+   "team": "Syracuse",
+   "unit": "QB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "New Mexico QB 2025 (34, round exemplar)",
+    "Texas State QB 2026 (58, round peer)"
+   ],
    "rationale_bullets": [
     "Angeli returns (183 snaps 78.0 -> 80.1 ACC-adj; BOLD) - he was LEADING THE NATION in passing (1,317, incl. a win at Clemson) before a torn Achilles at 3-1; 'expected ready for fall camp'.",
     "Insurance: Odom (Kennesaw 73.0 -> ~67.4 CUSA-adj; 2,594 yds) + Nelson (UTEP, ex-5-star).",
@@ -35,27 +71,59 @@
     "52: well above the proven-G5-starter tier; the injury (not the talent) caps it below the healthy-full-season Texas-State-58."
    ],
    "key_players": [
-    {"name": "Steve Angeli", "role": "QB1 (returning, BOLD)", "evidence": "183 snaps 78.0 (80.1 ACC-adj); led the nation in passing before a torn Achilles"},
-    {"name": "Amari Odom", "role": "QB (transfer, Kennesaw State)", "evidence": "372 snaps 73.0 (67.4 adj); 2,594 yds; insurance"}
+    {
+     "name": "Steve Angeli",
+     "role": "QB1 (returning, BOLD)",
+     "evidence": "183 snaps 78.0 (80.1 ACC-adj); led the nation in passing before a torn Achilles"
+    },
+    {
+     "name": "Amari Odom",
+     "role": "QB (transfer, Kennesaw State)",
+     "evidence": "372 snaps 73.0 (67.4 adj); 2,594 yds; insurance"
+    }
    ],
-   "data_gaps": ["Achilles recovery is the season swing", "183-snap '25 sample"], "g5_guard_note": null
+   "data_gaps": [
+    "Achilles recovery is the season swing",
+    "183-snap '25 sample"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Syracuse", "unit": "RB", "grade": 30, "confidence": "L",
-   "bracketing_exemplars": ["Akron RB (p3, 60.3 table anchor)", "Illinois RB 2025 (32, exemplar anchor)"],
+   "team": "Syracuse",
+   "unit": "RB",
+   "grade": 30,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Akron RB (p3, 60.3 table anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "GUTTED - 'SU doesn't return anyone with >130 rush yds' (Athlon). All-transfer: Ju'Juan Johnson (LSU, pedigree/little tape) + Ahmad Miller (Jackson State FCS).",
     "No returning production; LSU pedigree but unproven. RUN p16.",
     "30: an all-transfer committee just below the Illinois-32 tier. L."
    ],
    "key_players": [
-    {"name": "Ju'Juan Johnson", "role": "RB1 (transfer, LSU)", "evidence": "SEC pedigree; early opportunity; little tape"}
+    {
+     "name": "Ju'Juan Johnson",
+     "role": "RB1 (transfer, LSU)",
+     "evidence": "SEC pedigree; early opportunity; little tape"
+    }
    ],
-   "data_gaps": ["no returning production", "all-transfer, unproven"], "g5_guard_note": null
+   "data_gaps": [
+    "no returning production",
+    "all-transfer, unproven"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Syracuse", "unit": "WRTE", "grade": 32, "confidence": "L",
-   "bracketing_exemplars": ["Ball State WRTE (p3, 53.9 table anchor)", "Missouri State WRTE (p25, 61.3 table anchor)"],
+   "team": "Syracuse",
+   "unit": "WRTE",
+   "grade": 32,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Ball State WRTE (p3, 53.9 table anchor)",
+    "Missouri State WRTE (p25, 61.3 table anchor)"
+   ],
    "rationale_bullets": [
     "GUTTED - top-3 WRs gone (Gill + Cook -> Ole Miss, Hornsby -> Purdue); 5-star Fr Russell out (torn Achilles).",
     "All-transfer: E.Moore (FSU) + Weaver (Miami OH) + Outten (Penn State) + TE M.Smith (S.Carolina).",
@@ -63,14 +131,32 @@
     "32: above the Ball-State-p3 rail on the pedigree; well below the p25 rail. L."
    ],
    "key_players": [
-    {"name": "Elijah Moore", "role": "WR (transfer, Florida State)", "evidence": "ACC WR pedigree"},
-    {"name": "Cole Weaver", "role": "WR (transfer, Miami OH)", "evidence": "early opportunity"}
+    {
+     "name": "Elijah Moore",
+     "role": "WR (transfer, Florida State)",
+     "evidence": "ACC WR pedigree"
+    },
+    {
+     "name": "Cole Weaver",
+     "role": "WR (transfer, Miami OH)",
+     "evidence": "early opportunity"
+    }
    ],
-   "data_gaps": ["no returning production", "5-star Fr Russell (ACL) out"], "g5_guard_note": null
+   "data_gaps": [
+    "no returning production",
+    "5-star Fr Russell (ACL) out"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Syracuse", "unit": "OL", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25, exemplar anchor)", "Michigan OL (p50, 65.5 table anchor)"],
+   "team": "Syracuse",
+   "unit": "OL",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25, exemplar anchor)",
+    "Michigan OL (p50, 65.5 table anchor)"
+   ],
    "rationale_bullets": [
     "Loses the best (Weatherspoon 72.9 -> 76.4 ACC-adj, yr4!) + Ferguson (65.5, yr4) + A.Collins (64.2, yr4).",
     "Keeps Mack (LT, 60.7; BOLD) + Cruz (C, 59.3; BOLD) + B.Washington (55.9) + adds Akinshilo (UCLA) + Ndukwe (Houston, 'bolsters the line').",
@@ -78,15 +164,37 @@
     "42: above the WKU-25 rail on the returners + transfers; the lost anchor + p15 base cap it."
    ],
    "key_players": [
-    {"name": "Trevion Mack", "role": "LT (returning, BOLD)", "evidence": "637 snaps 57.2 (60.7 ACC-adj)"},
-    {"name": "Joe Cruz", "role": "C (returning, BOLD)", "evidence": "728 snaps 55.8 (59.3 adj)"},
-    {"name": "David Ndukwe", "role": "RT (transfer, Houston)", "evidence": "'bolsters the line' (Athlon)"}
+    {
+     "name": "Trevion Mack",
+     "role": "LT (returning, BOLD)",
+     "evidence": "637 snaps 57.2 (60.7 ACC-adj)"
+    },
+    {
+     "name": "Joe Cruz",
+     "role": "C (returning, BOLD)",
+     "evidence": "728 snaps 55.8 (59.3 adj)"
+    },
+    {
+     "name": "David Ndukwe",
+     "role": "RT (transfer, Houston)",
+     "evidence": "'bolsters the line' (Athlon)"
+    }
    ],
-   "data_gaps": ["lost the best lineman (Weatherspoon, yr4)", "PBLK p15 base"], "g5_guard_note": null
+   "data_gaps": [
+    "lost the best lineman (Weatherspoon, yr4)",
+    "PBLK p15 base"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Syracuse", "unit": "DL", "grade": 36, "confidence": "M",
-   "bracketing_exemplars": ["Buffalo DL (p10, 57.2 table anchor)", "East Carolina DL (p25, 60.5 table anchor)"],
+   "team": "Syracuse",
+   "unit": "DL",
+   "grade": 36,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Buffalo DL (p10, 57.2 table anchor)",
+    "East Carolina DL (p25, 60.5 table anchor)"
+   ],
    "rationale_bullets": [
     "RDEF p1 (the WORST run D in FBS, 132nd) - a near-total rebuild. Keeps R.Perry (68.3 adj) + Omopariola (66.4) + Hastings (62.3); adds Adeleye (UNLV 70.5, best) + Fontus (Maryland 64.7) + K.Johnson (UT-Martin FCS).",
     "New DC Kehres, variable 4-3/3-4.",
@@ -94,15 +202,37 @@
     "36: above the Buffalo-p10 rail on the reload; the historically-bad base + integration risk cap it."
    ],
    "key_players": [
-    {"name": "Tunmise Adeleye", "role": "EDGE (transfer, UNLV)", "evidence": "561 snaps 70.5; best DL add"},
-    {"name": "Rashard Perry", "role": "DT (returning)", "evidence": "117 snaps 67.1 (68.3 ACC-adj)"},
-    {"name": "David Omopariola", "role": "DE (returning)", "evidence": "317 snaps 65.2 (66.4 adj)"}
+    {
+     "name": "Tunmise Adeleye",
+     "role": "EDGE (transfer, UNLV)",
+     "evidence": "561 snaps 70.5; best DL add"
+    },
+    {
+     "name": "Rashard Perry",
+     "role": "DT (returning)",
+     "evidence": "117 snaps 67.1 (68.3 ACC-adj)"
+    },
+    {
+     "name": "David Omopariola",
+     "role": "DE (returning)",
+     "evidence": "317 snaps 65.2 (66.4 adj)"
+    }
    ],
-   "data_gaps": ["worst run-D base (RDEF p1)", "reload unproven together, new scheme"], "g5_guard_note": null
+   "data_gaps": [
+    "worst run-D base (RDEF p1)",
+    "reload unproven together, new scheme"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Syracuse", "unit": "LB", "grade": 34, "confidence": "M",
-   "bracketing_exemplars": ["Nevada LB (p25, 56.3 table anchor)", "UNLV LB 2025 (40, exemplar anchor)"],
+   "team": "Syracuse",
+   "unit": "LB",
+   "grade": 34,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nevada LB (p25, 56.3 table anchor)",
+    "UNLV LB 2025 (40, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Deslauriers (63.9 adj; BOLD) + Bryant (51.2; BOLD, led with 60 tackles but a low grade) + D'Appolonia (Toledo, the comms leader).",
     "Loses Sparrow (yr4) + Heard (-> Miss St).",
@@ -110,14 +240,32 @@
     "34: below the UNLV-40 tier - functional but thin and low-graded."
    ],
    "key_players": [
-    {"name": "Antoine Deslauriers", "role": "LB (returning, BOLD)", "evidence": "449 snaps 61.8 (63.9 adj)"},
-    {"name": "Chris D'Appolonia", "role": "LB (transfer, Toledo)", "evidence": "comms leader"}
+    {
+     "name": "Antoine Deslauriers",
+     "role": "LB (returning, BOLD)",
+     "evidence": "449 snaps 61.8 (63.9 adj)"
+    },
+    {
+     "name": "Chris D'Appolonia",
+     "role": "LB (transfer, Toledo)",
+     "evidence": "comms leader"
+    }
    ],
-   "data_gaps": ["Bryant low grade despite volume", "thin depth"], "g5_guard_note": null
+   "data_gaps": [
+    "Bryant low grade despite volume",
+    "thin depth"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Syracuse", "unit": "DB", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["UNLV DB (p25, 62.8 table anchor)", "Washington State DB 2025 (72, exemplar anchor)"],
+   "team": "Syracuse",
+   "unit": "DB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV DB (p25, 62.8 table anchor)",
+    "Washington State DB 2025 (72, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "The STRENGTH - two returning STAR corners: Peal (655 snaps 85.1 -> 86.3 ACC-adj - ELITE) + Samuel (76.1 -> 77.3) both BOLD. + C.Perry (S, 63.8; BOLD) + Long (S, 62.3) + transfers Ward (WKU 65.0) + Eugene (WKU 61.3).",
     "Loses yr4 Chestnut (63.3) + Grant + Buxton.",
@@ -125,15 +273,37 @@
     "50: the two elite corners carry it well above the mid-tier; the thinner safety depth + the bad-team base keep it below the Wazzu-72 rail."
    ],
    "key_players": [
-    {"name": "Chris Peal", "role": "CB1 (returning, BOLD)", "evidence": "655 snaps 85.1 (86.3 ACC-adj); elite corner"},
-    {"name": "Demetres Samuel Jr.", "role": "CB2 (returning, BOLD)", "evidence": "673 snaps 76.1 (77.3 adj)"},
-    {"name": "Cornell Perry", "role": "S (returning, BOLD)", "evidence": "428 snaps 62.6 (63.8 adj)"}
+    {
+     "name": "Chris Peal",
+     "role": "CB1 (returning, BOLD)",
+     "evidence": "655 snaps 85.1 (86.3 ACC-adj); elite corner"
+    },
+    {
+     "name": "Demetres Samuel Jr.",
+     "role": "CB2 (returning, BOLD)",
+     "evidence": "673 snaps 76.1 (77.3 adj)"
+    },
+    {
+     "name": "Cornell Perry",
+     "role": "S (returning, BOLD)",
+     "evidence": "428 snaps 62.6 (63.8 adj)"
+    }
    ],
-   "data_gaps": ["safety depth thinner (lost Chestnut, yr4)", "COV p34 bad-team base"], "g5_guard_note": null
+   "data_gaps": [
+    "safety depth thinner (lost Chestnut, yr4)",
+    "COV p34 bad-team base"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Syracuse", "unit": "ST", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Colorado State ST 2026 (20, round peer)", "Oregon State ST 2026 (38, round peer)"],
+   "team": "Syracuse",
+   "unit": "ST",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Colorado State ST 2026 (20, round peer)",
+    "Oregon State ST 2026 (38, round peer)"
+   ],
    "rationale_bullets": [
     "K Woody returns (12-14 FG, 10/10 inside 40 - good) + KR/PR Samuel; must replace standout P Stonehouse with Fr Gregg. SPEC p16.",
     "A good returning kicker + a dangerous returner, offset by an unproven Fr punter.",
@@ -141,10 +311,21 @@
     "40: below-average-plus - the kicker + returner the assets, the Fr punter the risk."
    ],
    "key_players": [
-    {"name": "Tripp Woody", "role": "K (returning)", "evidence": "12-14 FG, 10/10 inside 40"},
-    {"name": "Demetres Samuel Jr.", "role": "KR/PR (returning)", "evidence": "return weapon"}
+    {
+     "name": "Tripp Woody",
+     "role": "K (returning)",
+     "evidence": "12-14 FG, 10/10 inside 40"
+    },
+    {
+     "name": "Demetres Samuel Jr.",
+     "role": "KR/PR (returning)",
+     "evidence": "return weapon"
+    }
    ],
-   "data_gaps": ["Fr punter (Gregg) unproven"], "g5_guard_note": null
+   "data_gaps": [
+    "Fr punter (Gregg) unproven"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

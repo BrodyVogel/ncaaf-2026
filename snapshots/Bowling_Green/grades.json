@@ -2,8 +2,10 @@
  "team": "Bowling Green",
  "units": {
   "QB": {
-   "grade": 34,
-   "confidence": "L"
+   "grade": 31,
+   "confidence": "L",
+   "v1_grade": 34,
+   "adjudication": "S2b evidence-backed; O4.5 negative signal: dg-10: Novosad year-3 pedigree = validated null"
   },
   "RB": {
    "grade": 28,
@@ -18,12 +20,16 @@
    "confidence": "M"
   },
   "DL": {
-   "grade": 34,
-   "confidence": "M"
+   "grade": 31,
+   "confidence": "M",
+   "v1_grade": 34,
+   "adjudication": "split: dg-9"
   },
   "LB": {
-   "grade": 30,
-   "confidence": "M"
+   "grade": 26,
+   "confidence": "L",
+   "v1_grade": 30,
+   "adjudication": "split toward formula: dg-12"
   },
   "DB": {
    "grade": 30,
@@ -50,7 +56,9 @@
    "DB": "+12 vs proxy 18 (proxy drops yr4-feed JoJo Johnson 74.9, print-confirmed CB1)",
    "RB": "+21 vs proxy 7 (proxy under-weights Dendy 80.6/108, both prints' clear RB1)",
    "ST": "-26 vs proxy 44 (proxy counts all three departed specialists; the 2026 room has a zero-attempt K)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

@@ -46,7 +46,9 @@
    "LB": "+21 vs proxy 31 (proxy can't see Lathan's portal withdrawal - he returns)",
    "RB": "+25 vs proxy 23 (proxy sees the expired pair only; three lead-back transfers invisible)",
    "DB": "+13 vs proxy 29 (three returning starters + adds)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

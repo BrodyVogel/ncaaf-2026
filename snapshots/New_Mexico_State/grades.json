@@ -10,16 +10,20 @@
    "confidence": "L"
   },
   "WRTE": {
-   "grade": 42,
-   "confidence": "M"
+   "grade": 50,
+   "confidence": "M",
+   "v1_grade": 42,
+   "adjudication": "50/50 blend: dg+18.7"
   },
   "OL": {
    "grade": 34,
    "confidence": "L"
   },
   "DL": {
-   "grade": 40,
-   "confidence": "M"
+   "grade": 35,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "50/50 blend: dg-9.2"
   },
   "LB": {
    "grade": 44,
@@ -53,7 +57,9 @@
    "DL": "+34 vs proxy 6 - the grade keys the returning rotation (Peterson/Tayou/Vislisel) off a PRSH p68 base.",
    "ST": "-38 vs proxy 84 - the grade tempers the good '25 base for the turned-over specialists (new K/P).",
    "LB": "+12 vs proxy 26 - the grade is thin (Aupiu + unproven depth); Gethers NOT counted (uncommitted-in-portal)."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

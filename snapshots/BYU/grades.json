@@ -6,16 +6,20 @@
    "confidence": "H"
   },
   "RB": {
-   "grade": 82,
-   "confidence": "H"
+   "grade": 75,
+   "confidence": "M",
+   "v1_grade": 82,
+   "adjudication": "50/50 blend: dg-13.2"
   },
   "WRTE": {
    "grade": 48,
    "confidence": "M"
   },
   "OL": {
-   "grade": 68,
-   "confidence": "M"
+   "grade": 61,
+   "confidence": "M",
+   "v1_grade": 68,
+   "adjudication": "50/50 blend: dg-14.5"
   },
   "DL": {
    "grade": 52,
@@ -47,7 +51,9 @@
    "LB": "+18 vs proxy 30 (proxy can't see Uluave; my 48 still honors the caution rule)",
    "QB": "-11 vs proxy 83 (mine prices thin depth + 8th-in-B12 efficiency; trajectory keeps it 72)"
   },
-  "ps_backfill_2026_07_15": "PS visual page-read: LB 48->50 (three-source qualitative vs tape; lean retained). QB depth text corrected (Bourguet = 4 career starts at WMich '23, not 2 career snaps). ST 42 VALIDATED (PS: 'may be my biggest concern for '26')."
+  "ps_backfill_2026_07_15": "PS visual page-read: LB 48->50 (three-source qualitative vs tape; lean retained). QB depth text corrected (Bourguet = 4 career starts at WMich '23, not 2 career snaps). ST 42 VALIDATED (PS: 'may be my biggest concern for '26').",
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

@@ -2,24 +2,30 @@
  "team": "UCF",
  "units": {
   "QB": {
-   "grade": 52,
-   "confidence": "M"
+   "grade": 46,
+   "confidence": "L",
+   "v1_grade": 52,
+   "adjudication": "split with flag; conf O3.5 negative signal: dg-28: formula skeptical vs SBC-POY qualitative case"
   },
   "RB": {
    "grade": 46,
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 48,
-   "confidence": "M"
+   "grade": 52,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "split: dg+13"
   },
   "OL": {
    "grade": 40,
    "confidence": "M"
   },
   "DL": {
-   "grade": 48,
-   "confidence": "M"
+   "grade": 50,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "split: dg+8"
   },
   "LB": {
    "grade": 52,
@@ -46,7 +52,9 @@
    "ST": "-32 vs proxy 77 (proxy rides the departed K's 76th-pctile season; the new K has zero career FG attempts - Athlon flag)",
    "DL": "-9 vs proxy 57 (proxy counts Lockett's 85.2 small-sample and Dall raw; grade discounts the edge exodus + injury year)",
    "DB": "-9 vs proxy 67 (four of five back is real; Dunnam's 75.3/781 exit and G5/FCS depth temper it)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -166,7 +174,7 @@
     "Nebraska WRTE 2025 (50)"
    ],
    "rationale_bullets": [
-    "One returning starter (Cushman 63.1/753) plus Meadows' four starts - four '25 starters gone from a line that was 23rd-pctile run-blocking, #95 in P6's Run Push, and 'heavily penalized… often killing drives.'",
+    "One returning starter (Cushman 63.1/753) plus Meadows' four starts - four '25 starters gone from a line that was 23rd-pctile run-blocking, #95 in P6's Run Push, and 'heavily penalized\u2026 often killing drives.'",
     "Four three-star transfers rebuild it: Tabansi (64.6/828; 25 Buffalo starts), Wayburn (71.9/445 UConn - the best incoming tape), Terpstra (MSU; 1 start), Gibson (53.2 Charlotte); 60 incoming career starts.",
     "The interior is unsettled (PS prints Meadows at center, Athlon Terpstra); staff confidence ('improved over last year' - PS) is from a low base.",
     "40 = below average: the second straight transfer-built line protecting a new QB."
@@ -207,7 +215,7 @@
     "The edge pair left for the pros (Lawrence 80.1/470 + Kelly 76.2/492 - 10 of 27 team sacks) and the interior lost Walker (70.7) to Ohio State, LeBlanc to Maryland, Lora to Purdue.",
     "What returns is better than the proxy sees: RJ Jackson (69.3/456; 11 st), Lockett (withdrawal override, triple-sourced - 85.2 on 113 snaps before the week-4 injury), 4* Nixon (62.8) and Edwards.",
     "Dall (79.3/628; All-MAC, 8.5 TFL, 7 pd) is the best incoming tape among seven transfers (Collins 12 OreSt starts, Gurley 10.5 TFL FCS, Talley, Top200 Harrold off a DNP).",
-    "PS: 'depth but might be down a notch… looking for more interior pressure'; Athlon: edge is 'the biggest question.' From RDEF 80th/PRSH 71st: 48 = fringe-average."
+    "PS: 'depth but might be down a notch\u2026 looking for more interior pressure'; Athlon: edge is 'the biggest question.' From RDEF 80th/PRSH 71st: 48 = fringe-average."
    ],
    "key_players": [
     {
@@ -280,7 +288,7 @@
    "rationale_bullets": [
     "Four of five starters return from a 75th-pctile coverage unit: Bellamy (76.4/666; 4th-team B12, 8 pbu - 'the top corner'), A.Jackson (66.8/557; 5 pbu), Marshall (64.5/476; 2 INT, must-retain), Henderson (71.0/700; 61 tkl).",
     "The lone loss is real - Dunnam (75.3/781, #3 tackler) - and the open safety is a battle: J.Williams (68.1), Bartrum (Harvard 3rd-team FCS AA; 83 tkl), Wayne St's 12-pd Johnson, Flagg.",
-    "PS: 'maybe they can climb to that '23 [#16 PDR] level… a solid defensive backfield'; Athlon calls the secondary the strength. 58 = the roster's most proven unit."
+    "PS: 'maybe they can climb to that '23 [#16 PDR] level\u2026 a solid defensive backfield'; Athlon calls the secondary the strength. 58 = the roster's most proven unit."
    ],
    "key_players": [
     {

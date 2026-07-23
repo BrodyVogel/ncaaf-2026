@@ -1,14 +1,44 @@
 {
  "team": "Air Force",
  "units": {
-  "QB": {"grade": 32, "confidence": "M"},
-  "RB": {"grade": 22, "confidence": "M"},
-  "WRTE": {"grade": 14, "confidence": "M"},
-  "OL": {"grade": 26, "confidence": "M"},
-  "DL": {"grade": 14, "confidence": "L"},
-  "LB": {"grade": 20, "confidence": "M"},
-  "DB": {"grade": 18, "confidence": "M"},
-  "ST": {"grade": 12, "confidence": "M"}
+  "QB": {
+   "grade": 34,
+   "confidence": "M",
+   "v1_grade": 32,
+   "adjudication": "50/50 blend: dg+8.3; option-scheme blind spot \u2014 blend halved"
+  },
+  "RB": {
+   "grade": 22,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 14,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 26,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 17,
+   "confidence": "L",
+   "v1_grade": 14,
+   "adjudication": "50/50 blend: dg+13.5; option-scheme blind spot \u2014 blend halved"
+  },
+  "LB": {
+   "grade": 20,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 15,
+   "confidence": "M",
+   "v1_grade": 18,
+   "adjudication": "DB policy 1/3 blend: dg-16.3; option-scheme blind spot \u2014 blend halved"
+  },
+  "ST": {
+   "grade": 12,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-17",
@@ -16,13 +46,17 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "in-session supervised; anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 54, RB 13, WRTE None, OL 32, DL 41, LB 27, DB 5, ST 59) - artifact #51",
    "DB": "+13 vs proxy 5 - COV-p1 team keying DEFLATES a unit returning eight starters (inverse of the usual carryover inflation)",
    "DL": "-27 vs proxy 41 - blind to Zdroik (90.4) graduating",
    "QB": "-22 vs proxy 54, ST -47 vs 59 - team-grade keying"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -41,10 +75,21 @@
     "32: elite small-sample scheme fit; just below UNM 34 (Layne's 438-snap volume), above Miami 30."
    ],
    "key_players": [
-    {"name": "Liam Szarka", "role": "QB1 (returning)", "evidence": "80.6/143 (73.3 adj); 13 rush TD (MWC lead); wrist 100%"},
-    {"name": "Josh Johnson", "role": "QB2 (returning)", "evidence": "72.1/39; 4 st, 374 @ 57%"}
+    {
+     "name": "Liam Szarka",
+     "role": "QB1 (returning)",
+     "evidence": "80.6/143 (73.3 adj); 13 rush TD (MWC lead); wrist 100%"
+    },
+    {
+     "name": "Josh Johnson",
+     "role": "QB2 (returning)",
+     "evidence": "72.1/39; 4 st, 374 @ 57%"
+    }
    ],
-   "data_gaps": ["injury recurrence risk", "143-snap sample"],
+   "data_gaps": [
+    "injury recurrence risk",
+    "143-snap sample"
+   ],
    "g5_guard_note": null
   },
   {
@@ -63,11 +108,25 @@
     "22: proven lead + guaranteed volume, no proven depth."
    ],
    "key_players": [
-    {"name": "Owen Allen", "role": "FB1 (returning)", "evidence": "73.3/132 (64.4 adj); 750 @ 5.7; five 100-yd games"},
-    {"name": "Kemper Hodges", "role": "FB2 (returning; ex-QB)", "evidence": "1 st, 207 @ 4.2 + 74 pass"},
-    {"name": "Rocco Conti", "role": "TB1 (returning)", "evidence": "24 @ 6.0"}
+    {
+     "name": "Owen Allen",
+     "role": "FB1 (returning)",
+     "evidence": "73.3/132 (64.4 adj); 750 @ 5.7; five 100-yd games"
+    },
+    {
+     "name": "Kemper Hodges",
+     "role": "FB2 (returning; ex-QB)",
+     "evidence": "1 st, 207 @ 4.2 + 74 pass"
+    },
+    {
+     "name": "Rocco Conti",
+     "role": "TB1 (returning)",
+     "evidence": "24 @ 6.0"
+    }
    ],
-   "data_gaps": ["TB room mostly DNP"],
+   "data_gaps": [
+    "TB room mostly DNP"
+   ],
    "g5_guard_note": null
   },
   {
@@ -86,11 +145,26 @@
     "14: two-deep of 1-start bodies behind one efficient returner."
    ],
    "key_players": [
-    {"name": "Jonah Dawson", "role": "WR1 (returning)", "evidence": "80.7/66 (77.0 adj); 260 @ 21.7"},
-    {"name": "Matt Long", "role": "WR + KR/PR (returning)", "evidence": "1 st; 23 rush yds"},
-    {"name": "Simon Kibbee", "role": "TE1 (returning)", "evidence": "1 st; PS#165"}
+    {
+     "name": "Jonah Dawson",
+     "role": "WR1 (returning)",
+     "evidence": "80.7/66 (77.0 adj); 260 @ 21.7"
+    },
+    {
+     "name": "Matt Long",
+     "role": "WR + KR/PR (returning)",
+     "evidence": "1 st; 23 rush yds"
+    },
+    {
+     "name": "Simon Kibbee",
+     "role": "TE1 (returning)",
+     "evidence": "1 st; PS#165"
+    }
    ],
-   "data_gaps": ["volume projection for Dawson", "TE room 2 combined starts"],
+   "data_gaps": [
+    "volume projection for Dawson",
+    "TE room 2 combined starts"
+   ],
    "g5_guard_note": null
   },
   {
@@ -109,12 +183,31 @@
     "26 = top of the MWC-round OL tier with UNM 24/Nevada 22; below CMU/WMU 28."
    ],
    "key_players": [
-    {"name": "Luke Vonderhaar", "role": "RT (returning)", "evidence": "85.7/297 (75.6 adj); 2 st, 7 gm"},
-    {"name": "Nathan Elwood", "role": "LT (returning starter)", "evidence": "69.3/577 (59.2 adj); 10 st"},
-    {"name": "Jon Ashford", "role": "RG (returning)", "evidence": "76.9/187 (66.8 adj)"},
-    {"name": "Alec Falk", "role": "G (returning)", "evidence": "60.8/539; 17 starts L2Y"}
+    {
+     "name": "Luke Vonderhaar",
+     "role": "RT (returning)",
+     "evidence": "85.7/297 (75.6 adj); 2 st, 7 gm"
+    },
+    {
+     "name": "Nathan Elwood",
+     "role": "LT (returning starter)",
+     "evidence": "69.3/577 (59.2 adj); 10 st"
+    },
+    {
+     "name": "Jon Ashford",
+     "role": "RG (returning)",
+     "evidence": "76.9/187 (66.8 adj)"
+    },
+    {
+     "name": "Alec Falk",
+     "role": "G (returning)",
+     "evidence": "60.8/539; 17 starts L2Y"
+    }
    ],
-   "data_gaps": ["C = 1-game Varela", "post-Burnett interior"],
+   "data_gaps": [
+    "C = 1-game Varela",
+    "post-Burnett interior"
+   ],
    "g5_guard_note": null
   },
   {
@@ -133,11 +226,26 @@
     "14 L: one real edge + an unknowable interior."
    ],
    "key_players": [
-    {"name": "Isaac Hubert", "role": "RUSH (returning starter)", "evidence": "77.3/564 (75.1 adj); 11.5 TFL"},
-    {"name": "Jaylin Reese", "role": "DE (returning)", "evidence": "65.3/153; 1 st"},
-    {"name": "Andrew Tillett", "role": "DT (returning)", "evidence": "54.6/228; 1 st"}
+    {
+     "name": "Isaac Hubert",
+     "role": "RUSH (returning starter)",
+     "evidence": "77.3/564 (75.1 adj); 11.5 TFL"
+    },
+    {
+     "name": "Jaylin Reese",
+     "role": "DE (returning)",
+     "evidence": "65.3/153; 1 st"
+    },
+    {
+     "name": "Andrew Tillett",
+     "role": "DT (returning)",
+     "evidence": "54.6/228; 1 st"
+    }
    ],
-   "data_gaps": ["interior rotation unproven", "no transfer relief possible"],
+   "data_gaps": [
+    "interior rotation unproven",
+    "no transfer relief possible"
+   ],
    "g5_guard_note": null
   },
   {
@@ -156,11 +264,25 @@
     "20: proven tackle machine + returning depth; below UNM's 44 duo by a mile."
    ],
    "key_players": [
-    {"name": "Blake Fletcher", "role": "MLB (returning, 2nd-Tm MWC)", "evidence": "63.4/702 (58.7 adj); 108 tkl"},
-    {"name": "Dallas Daley", "role": "OLB (returning)", "evidence": "64.7/407 (60.0 adj); 6 st"},
-    {"name": "Vinnie Canosa", "role": "OLB2 (returning)", "evidence": "11 gm"}
+    {
+     "name": "Blake Fletcher",
+     "role": "MLB (returning, 2nd-Tm MWC)",
+     "evidence": "63.4/702 (58.7 adj); 108 tkl"
+    },
+    {
+     "name": "Dallas Daley",
+     "role": "OLB (returning)",
+     "evidence": "64.7/407 (60.0 adj); 6 st"
+    },
+    {
+     "name": "Vinnie Canosa",
+     "role": "OLB2 (returning)",
+     "evidence": "11 gm"
+    }
    ],
-   "data_gaps": ["grade ceiling modest"],
+   "data_gaps": [
+    "grade ceiling modest"
+   ],
    "g5_guard_note": null
   },
   {
@@ -179,12 +301,31 @@
     "Only loss: Levi Brown (65.4/334)."
    ],
    "key_players": [
-    {"name": "Max Mustell", "role": "S (returning true-So)", "evidence": "70.9/588 (68.5 adj); 10 st, 3 INT as true FR"},
-    {"name": "Roger Jones Jr.", "role": "SS (returning, 4th-Tm MWC)", "evidence": "60.1/719; 76 tkl, 2 int"},
-    {"name": "Korey Johnson", "role": "CB (returning)", "evidence": "58.5/464; 7 st"},
-    {"name": "Mikhail Seiken", "role": "CB (returning)", "evidence": "54.1/467; 9 st"}
+    {
+     "name": "Max Mustell",
+     "role": "S (returning true-So)",
+     "evidence": "70.9/588 (68.5 adj); 10 st, 3 INT as true FR"
+    },
+    {
+     "name": "Roger Jones Jr.",
+     "role": "SS (returning, 4th-Tm MWC)",
+     "evidence": "60.1/719; 76 tkl, 2 int"
+    },
+    {
+     "name": "Korey Johnson",
+     "role": "CB (returning)",
+     "evidence": "58.5/464; 7 st"
+    },
+    {
+     "name": "Mikhail Seiken",
+     "role": "CB (returning)",
+     "evidence": "54.1/467; 9 st"
+    }
    ],
-   "data_gaps": ["youth-curve magnitude", "Paterson-over-Mustell print oddity"],
+   "data_gaps": [
+    "youth-curve magnitude",
+    "Paterson-over-Mustell print oddity"
+   ],
    "g5_guard_note": null
   },
   {
@@ -203,11 +344,26 @@
     "12: the round's clearest special-teams downgrade-in-place."
    ],
    "key_players": [
-    {"name": "Jacob Medina", "role": "K (returning)", "evidence": "3-6 FG, L/31; re-won job in spring"},
-    {"name": "Will Duncan", "role": "P (returning, DNP 2 yrs)", "evidence": "'#2 punter in 25'"},
-    {"name": "Matt Long", "role": "KR/PR (returning)", "evidence": "1 st WR"}
+    {
+     "name": "Jacob Medina",
+     "role": "K (returning)",
+     "evidence": "3-6 FG, L/31; re-won job in spring"
+    },
+    {
+     "name": "Will Duncan",
+     "role": "P (returning, DNP 2 yrs)",
+     "evidence": "'#2 punter in 25'"
+    },
+    {
+     "name": "Matt Long",
+     "role": "KR/PR (returning)",
+     "evidence": "1 st WR"
+    }
    ],
-   "data_gaps": ["K reliability", "P zero tape"],
+   "data_gaps": [
+    "K reliability",
+    "P zero tape"
+   ],
    "g5_guard_note": null
   }
  ]

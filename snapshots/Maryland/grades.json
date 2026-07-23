@@ -2,20 +2,26 @@
  "team": "Maryland",
  "units": {
   "QB": {
-   "grade": 60,
-   "confidence": "M"
+   "grade": 54,
+   "confidence": "M",
+   "v1_grade": 60,
+   "adjudication": "50/50 blend: dg-12.5"
   },
   "RB": {
-   "grade": 38,
-   "confidence": "M"
+   "grade": 43,
+   "confidence": "M",
+   "v1_grade": 38,
+   "adjudication": "50/50 blend: dg+10.8"
   },
   "WRTE": {
    "grade": 40,
    "confidence": "M"
   },
   "OL": {
-   "grade": 40,
-   "confidence": "M"
+   "grade": 45,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "50/50 blend: dg+9.3"
   },
   "DL": {
    "grade": 63,
@@ -50,7 +56,9 @@
    "DB": "-21 vs proxy 81 (proxy counts Huskey 83.6/678 - drafted - and the Roland/Lee/Humes depth exodus; P6's opponent-adjusted pass-D rank is the bearish dissent)",
    "QB": "+10 vs proxy 50 (second-year-starter consensus: 'elite' per opposing coach, spread refit, freshman-record baseline)"
   },
-  "erratum_2026-07-16": "WRTE rationale contained a McDuffie clause belonging to Northwestern (cross-page extraction contamination). Removed. Grade drivers (Gladding/Durr imports, 3 starters gone, Fleming tape, 7p RECV) unchanged - WRTE stays 40 M. Owner alerted."
+  "erratum_2026-07-16": "WRTE rationale contained a McDuffie clause belonging to Northwestern (cross-page extraction contamination). Removed. Grade drivers (Gladding/Durr imports, 3 starters gone, Fleming tape, 7p RECV) unchanged - WRTE stays 40 M. Owner alerted.",
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

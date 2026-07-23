@@ -1,14 +1,40 @@
 {
  "team": "Mississippi State",
  "units": {
-  "QB": {"grade": 54, "confidence": "M"},
-  "RB": {"grade": 52, "confidence": "M"},
-  "WRTE": {"grade": 50, "confidence": "M"},
-  "OL": {"grade": 44, "confidence": "L"},
-  "DL": {"grade": 44, "confidence": "M"},
-  "LB": {"grade": 46, "confidence": "M"},
-  "DB": {"grade": 56, "confidence": "M"},
-  "ST": {"grade": 54, "confidence": "M"}
+  "QB": {
+   "grade": 54,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 48,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "50/50 blend: dg+8.4"
+  },
+  "DL": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 56,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 54,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,7 +42,9 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells weighted DOWN; small samples discounted], arrivals on origin cells; HC Lebby Year 3 NO change [band x1.00], DC Arnett returns [coordinator change, no multiplier]; disposition gate 43 rows / 0 adjudicate / 0 err - Boone yr4-return override [only OL starter back], Bingley-Jones->Bama cross-build); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16). DISCLOSED: MSU's P6 ranking (#13/#43) incidentally visible - logged, NOT used.",
-  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB54/RB52/WRTE50/OL44L/DL44/LB46/DB56/ST54, sum 400). No post-freeze corrections."},
+  "planned_vs_final_deviations": {
+   "note": "finals match the dossier planned lines exactly (QB54/RB52/WRTE50/OL44L/DL44/LB46/DB56/ST54, sum 400). No post-freeze corrections."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 54, RB 78, WRTE 50, OL 63, DL 39, LB 65, DB 88, ST 43) keys the '25 roster; the grades keep the QB upside + DB + ST and grade the trenches to the '25 reality.",
    "DB": "-32 vs proxy 88 - proxy over-credits; the grade still keys the genuine strength (Jones 1st-rd talent + Smith + transfers) but caps for the COV p33/bad-D context.",
@@ -25,11 +53,20 @@
    "DL": "+5 vs proxy 39 - the grade credits Whitson/Amaree Williams + Arnett's scheme over the p1 base.",
    "ST": "+11 vs proxy 43 - the all-time-record kicker (Ferrie) lifts it.",
    "QB": "matches proxy 54 - Taylor's phenom flash + rushing, capped by the limited passing sample + bad OL."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
-  {"team": "Mississippi State", "unit": "QB", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["NC State QB 2026 (54, peer)", "UTSA QB 2026 (55, above)"],
+  {
+   "team": "Mississippi State",
+   "unit": "QB",
+   "grade": 54,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "NC State QB 2026 (54, peer)",
+    "UTSA QB 2026 (55, above)"
+   ],
    "rationale_bullets": [
     "Kamario Taylor (84.7/114 -> SEC +7.72 weighted; highest-rated QB recruit in program history - dual-threat, 458 rush/8 TD as a frosh, 173 rush in his first full start) + AJ Swann (App St/Vanderbilt) + Rashada (Sac State). Shapen (yr4) gone.",
     "A genuine phenom with an elite frosh flash + a real rushing weapon, but a LIMITED passing sample (114 snaps) behind a bad OL.",
@@ -37,11 +74,27 @@
     "54: ~NC State QB 54; below UTSA 55. The high-upside-but-unproven tier; the rushing + pedigree lift it, the OL caps it. M."
    ],
    "key_players": [
-    {"name": "Kamario Taylor", "role": "QB1 (returning)", "evidence": "84.7/114; highest-rated QB recruit in program history; 458 rush/8 TD as a frosh"}
+    {
+     "name": "Kamario Taylor",
+     "role": "QB1 (returning)",
+     "evidence": "84.7/114; highest-rated QB recruit in program history; 458 rush/8 TD as a frosh"
+    }
    ],
-   "data_gaps": ["limited passing sample (114 snaps)", "behind a #131-pass-pro OL"], "g5_guard_note": null},
-  {"team": "Mississippi State", "unit": "RB", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["Clemson RB 2026 (52, peer)", "Auburn RB 2026 (54, above)"],
+   "data_gaps": [
+    "limited passing sample (114 snaps)",
+    "behind a #131-pass-pro OL"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Mississippi State",
+   "unit": "RB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Clemson RB 2026 (52, peer)",
+    "Auburn RB 2026 (54, above)"
+   ],
    "rationale_bullets": [
     "Fluff Bothwell (73.6/141 -> SEC +10.17 weighted; 677 yds/4.8, the clear #1; injury bounce-back) + Xavier Gayten (former 4-star, #2).",
     "A solid, proven lead back + a 4-star complement, behind a rebuilt OL that was #106 in yards/carry.",
@@ -49,11 +102,26 @@
     "52: ~Clemson RB 52; below Auburn 54. Above-average-ish; Bothwell's production vs the OL context. M."
    ],
    "key_players": [
-    {"name": "Fluff Bothwell", "role": "RB1 (returning)", "evidence": "73.6/141 (SEC-adj weighted); 677 yds/4.8; clear #1"}
+    {
+     "name": "Fluff Bothwell",
+     "role": "RB1 (returning)",
+     "evidence": "73.6/141 (SEC-adj weighted); 677 yds/4.8; clear #1"
+    }
    ],
-   "data_gaps": ["rebuilt OL (#106 yards/carry)"], "g5_guard_note": null},
-  {"team": "Mississippi State", "unit": "WRTE", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Kansas State WRTE 2026 (52, above)", "Louisville WRTE 2026 (48, below)"],
+   "data_gaps": [
+    "rebuilt OL (#106 yards/carry)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Mississippi State",
+   "unit": "WRTE",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Kansas State WRTE 2026 (52, above)",
+    "Louisville WRTE 2026 (48, below)"
+   ],
    "rationale_bullets": [
     "Anthony Evans III (65.1/446 -> SEC 71.0 adj; 67 catches, 831 yds - the top returner) + Marquis Johnson (Missouri, 62.3/275; 4-star transfer, vertical role) + Ayden Williams (former Top100) + Sanfrisco Magee (spring hero) + TE Sam West / 4-star frosh Cotton.",
     "Thompson (1,054 yds) graduated.",
@@ -61,12 +129,31 @@
     "50: below Kansas State 52; above Louisville 48. Evans + the transfer haul lift it, the modest grades cap it. M."
    ],
    "key_players": [
-    {"name": "Anthony Evans III", "role": "WR (returning)", "evidence": "65.1/446 (71.0 SEC-adj); 67 catches, 831 yds"},
-    {"name": "Marquis Johnson", "role": "WR (transfer, Missouri)", "evidence": "62.3/275; Missouri's #3 WR; 4-star transfer"}
+    {
+     "name": "Anthony Evans III",
+     "role": "WR (returning)",
+     "evidence": "65.1/446 (71.0 SEC-adj); 67 catches, 831 yds"
+    },
+    {
+     "name": "Marquis Johnson",
+     "role": "WR (transfer, Missouri)",
+     "evidence": "62.3/275; Missouri's #3 WR; 4-star transfer"
+    }
    ],
-   "data_gaps": ["lost the 1,054-yd school-record WR (Thompson)"], "g5_guard_note": null},
-  {"team": "Mississippi State", "unit": "OL", "grade": 44, "confidence": "L",
-   "bracketing_exemplars": ["Florida State OL 2026 (46, above)", "Florida OL 2026 (44, peer)"],
+   "data_gaps": [
+    "lost the 1,054-yd school-record WR (Thompson)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Mississippi State",
+   "unit": "OL",
+   "grade": 44,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida State OL 2026 (46, above)",
+    "Florida OL 2026 (44, peer)"
+   ],
    "rationale_bullets": [
     "Canon Boone (65.5/940 -> SEC weighted DOWN; the ONLY returning starter) + Miles McVay (UNC, 71.1/164 T) + DJ Chester (LSU, 50.2/291 G; 14 starts) + LJ Prudhomme (Arkansas, projected starter) + Blake Steen (RT, injured game 1 '25, returns) / Tyler Miller (LSU).",
     "The ROSTER'S wound - a line that allowed 40 sacks (#131 pass pro) lost FOUR game-starters to the portal.",
@@ -74,12 +161,32 @@
     "44: ~Florida OL 44; below FSU 46. Below-average P4; the wholesale rebuild + the #131 base. L."
    ],
    "key_players": [
-    {"name": "Canon Boone", "role": "C (returning, only OL starter back)", "evidence": "65.5/940; the lone returning starter"},
-    {"name": "Miles McVay", "role": "OT (transfer, North Carolina)", "evidence": "71.1/164"}
+    {
+     "name": "Canon Boone",
+     "role": "C (returning, only OL starter back)",
+     "evidence": "65.5/940; the lone returning starter"
+    },
+    {
+     "name": "Miles McVay",
+     "role": "OT (transfer, North Carolina)",
+     "evidence": "71.1/164"
+    }
    ],
-   "data_gaps": ["#131 pass pro (40 sacks)", "4 game-starters transferred out"], "g5_guard_note": null},
-  {"team": "Mississippi State", "unit": "DL", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Alabama DL 2026 (46, above)", "Iowa State DL 2026 (46, above)"],
+   "data_gaps": [
+    "#131 pass pro (40 sacks)",
+    "4 game-starters transferred out"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Mississippi State",
+   "unit": "DL",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Alabama DL 2026 (46, above)",
+    "Iowa State DL 2026 (46, above)"
+   ],
    "rationale_bullets": [
     "Will Whitson (81.1/46 tiny -> SEC weighted; edge, granted a 7th yr) + Kalvin Dinkins (57.4/395 DT) + Amaree Williams (FSU, 64.6/124 edge) + DJ Reed (55.3) + Jaray Bledsoe (55.2) + Trevion Williams (61.8) + Dealyn Evans (A&M).",
     "The defense's core problem - PRSH p1 (literally the WORST pass rush in FBS) with modest returning grades (mostly 55-62).",
@@ -87,12 +194,32 @@
     "44: below Alabama/Iowa State DL 46. Below-average P4; the p1 base + modest grades cap it, Arnett the upside. M."
    ],
    "key_players": [
-    {"name": "Kalvin Dinkins", "role": "DT (returning)", "evidence": "57.4/395; returning starter"},
-    {"name": "Amaree Williams", "role": "ED (transfer, Florida State)", "evidence": "64.6/124; edge"}
+    {
+     "name": "Kalvin Dinkins",
+     "role": "DT (returning)",
+     "evidence": "57.4/395; returning starter"
+    },
+    {
+     "name": "Amaree Williams",
+     "role": "ED (transfer, Florida State)",
+     "evidence": "64.6/124; edge"
+    }
    ],
-   "data_gaps": ["PRSH p1 - worst in FBS", "modest returning grades; Whitson tiny sample"], "g5_guard_note": null},
-  {"team": "Mississippi State", "unit": "LB", "grade": 46, "confidence": "M",
-   "bracketing_exemplars": ["Miami LB 2026 (46, peer)", "Alabama LB 2026 (48, above)"],
+   "data_gaps": [
+    "PRSH p1 - worst in FBS",
+    "modest returning grades; Whitson tiny sample"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Mississippi State",
+   "unit": "LB",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Miami LB 2026 (46, peer)",
+    "Alabama LB 2026 (48, above)"
+   ],
    "rationale_bullets": [
     "Jalen Smith (62.8/373 -> SEC +14.01 weighted DOWN; returning starter) + Zakari Tillman (53.6/405; returning starter) + Tyler Lockhart (50.3/221).",
     "A returning-but-modest group - two returning starters with middling grades on a defense that was RDEF p15.",
@@ -100,12 +227,31 @@
     "46: ~Miami LB 46; below Alabama 48. Below-average-to-average; continuity without much production. M."
    ],
    "key_players": [
-    {"name": "Jalen Smith", "role": "LB (returning)", "evidence": "62.8/373; returning starter"},
-    {"name": "Zakari Tillman", "role": "LB (returning)", "evidence": "53.6/405; returning starter"}
+    {
+     "name": "Jalen Smith",
+     "role": "LB (returning)",
+     "evidence": "62.8/373; returning starter"
+    },
+    {
+     "name": "Zakari Tillman",
+     "role": "LB (returning)",
+     "evidence": "53.6/405; returning starter"
+    }
    ],
-   "data_gaps": ["modest grades; RDEF p15 base"], "g5_guard_note": null},
-  {"team": "Mississippi State", "unit": "DB", "grade": 56, "confidence": "M",
-   "bracketing_exemplars": ["Clemson DB 2026 (54, below)", "East Carolina DB 2026 (55, below)"],
+   "data_gaps": [
+    "modest grades; RDEF p15 base"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Mississippi State",
+   "unit": "DB",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Clemson DB 2026 (54, below)",
+    "East Carolina DB 2026 (55, below)"
+   ],
    "rationale_bullets": [
     "Kelley Jones (76.7/694 -> SEC +5.44 -> elite; potential 1st-round '27 NFL - the star) + Isaac Smith (75.7/420 -> 81.1 adj; senior anchor) + Marcus Williams (Rice, 72.7/651; experienced S) + Quentin Taylor (Iowa St, 72.3/404 -> 74.2 adj; other corner) + Jett Jefferson + Tanner Johnson.",
     "Five DBs at 72+ - a potential 1st-round corner + a proven senior safety + two 72+ P4/AAC transfer starters.",
@@ -113,12 +259,31 @@
     "56: above Clemson DB 54 + ECU 55. The team's best unit; the poor pass-rush context + the '25 unit results keep it from higher. M."
    ],
    "key_players": [
-    {"name": "Kelley Jones", "role": "CB (returning)", "evidence": "76.7/694 (SEC-adj elite); potential 1st-round '27 NFL"},
-    {"name": "Isaac Smith", "role": "S (returning)", "evidence": "75.7/420 (81.1 SEC-adj); senior anchor"}
+    {
+     "name": "Kelley Jones",
+     "role": "CB (returning)",
+     "evidence": "76.7/694 (SEC-adj elite); potential 1st-round '27 NFL"
+    },
+    {
+     "name": "Isaac Smith",
+     "role": "S (returning)",
+     "evidence": "75.7/420 (81.1 SEC-adj); senior anchor"
+    }
    ],
-   "data_gaps": ["COV p33 (pass-rush-driven context)"], "g5_guard_note": null},
-  {"team": "Mississippi State", "unit": "ST", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["Michigan ST 2026 (55, above)", "LSU ST 2026 (54, peer)"],
+   "data_gaps": [
+    "COV p33 (pass-rush-driven context)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Mississippi State",
+   "unit": "ST",
+   "grade": 54,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Michigan ST 2026 (55, above)",
+    "LSU ST 2026 (54, peer)"
+   ],
    "rationale_bullets": [
     "Kyle Ferrie (K - all-time career scoring record, one of the most consistent placekickers ever) + Ethan Pulliam (P) + speedy KRs (Evans / Marquis Johnson / Wilson). SPEC p43 in '25.",
     "An elite, record-setting placekicker + a returning punter + real return speed.",
@@ -126,9 +291,19 @@
     "54: ~LSU ST 54; below Michigan 55. Above-average, kicker-driven (calib). M."
    ],
    "key_players": [
-    {"name": "Kyle Ferrie", "role": "K (returning)", "evidence": "all-time career scoring record; most consistent ever"},
-    {"name": "Ethan Pulliam", "role": "P (returning)", "evidence": "returning punter"}
+    {
+     "name": "Kyle Ferrie",
+     "role": "K (returning)",
+     "evidence": "all-time career scoring record; most consistent ever"
+    },
+    {
+     "name": "Ethan Pulliam",
+     "role": "P (returning)",
+     "evidence": "returning punter"
+    }
    ],
-   "data_gaps": [], "g5_guard_note": null}
+   "data_gaps": [],
+   "g5_guard_note": null
+  }
  ]
 }

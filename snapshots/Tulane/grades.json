@@ -6,8 +6,10 @@
    "confidence": "L"
   },
   "RB": {
-   "grade": 58,
-   "confidence": "M"
+   "grade": 54,
+   "confidence": "M",
+   "v1_grade": 58,
+   "adjudication": "manual middle ground: dg-20.3 | ADJUDICATOR: 3 P4 transfer RBs unmatched (combined roster row) \u2014 formula partially blind to the additions; half blend"
   },
   "WRTE": {
    "grade": 46,
@@ -22,12 +24,16 @@
    "confidence": "M"
   },
   "LB": {
-   "grade": 28,
-   "confidence": "L"
+   "grade": 21,
+   "confidence": "M",
+   "v1_grade": 28,
+   "adjudication": "LB 0.4 blend: dg-16.4"
   },
   "DB": {
-   "grade": 42,
-   "confidence": "M"
+   "grade": 34,
+   "confidence": "M",
+   "v1_grade": 42,
+   "adjudication": "1/3 blend down: dg-25; DB policy"
   },
   "ST": {
    "grade": 52,
@@ -50,7 +56,9 @@
   },
   "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Ed Smith DL 61.1/413 (S Alabama) - verified SBC rotation body; DL 50 unchanged (grade already believed the attributed depth claims this confirms).",
   "departure_correction_2026_07_15": "Hopper wrongly claimed as returning (portal-out -> Colorado was in the frozen pulls; research misread). DL 50 -> 38. Caught by P6-Colorado cross-ref; departure_check.py now a permanent gate.",
-  "departure_correction_2_2026_07_15": "McAlpine -> Kansas caught via P6-Kansas cross-ref at the Kansas build; wrong-first-name key_player had blinded departure_check. Full-room audit: DL 38 -> 35; Guidry (83.7/134) surfaced."
+  "departure_correction_2_2026_07_15": "McAlpine -> Kansas caught via P6-Kansas cross-ref at the Kansas build; wrong-first-name key_player had blinded departure_check. Full-room audit: DL 38 -> 35; Guidry (83.7/134) surfaced.",
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

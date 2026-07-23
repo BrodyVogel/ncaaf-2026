@@ -1,14 +1,40 @@
 {
  "team": "California",
  "units": {
-  "QB": {"grade": 58, "confidence": "M"},
-  "RB": {"grade": 46, "confidence": "L"},
-  "WRTE": {"grade": 54, "confidence": "M"},
-  "OL": {"grade": 44, "confidence": "M"},
-  "DL": {"grade": 42, "confidence": "L"},
-  "LB": {"grade": 38, "confidence": "L"},
-  "DB": {"grade": 48, "confidence": "M"},
-  "ST": {"grade": 42, "confidence": "M"}
+  "QB": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 51,
+   "confidence": "M",
+   "v1_grade": 46,
+   "adjudication": "50/50 blend: dg+10.8"
+  },
+  "WRTE": {
+   "grade": 54,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 42,
+   "confidence": "L"
+  },
+  "LB": {
+   "grade": 38,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 42,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,19 +42,29 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets [Cal is ACC], arrivals on origin cells; NEW HC Lupoi Year 1 = coach change, band x1.13; disposition gate resolved before grading - new-coach churn adjudicated vs both charts); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 58/RB 46/WRTE 54/OL 44/DL 42/LB 38/DB 48/ST 42)."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines (QB 58/RB 46/WRTE 54/OL 44/DL 42/LB 38/DB 48/ST 42)."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 5, RB 41, WRTE 85, OL 60, DL 5, LB None, DB None, ST 10) - QB 5 is a glitch (Sagapolutele clearly returns); the None/low-def values key the gutted, churned front seven + secondary.",
    "QB": "+53 vs proxy 5 - the proxy MISFIRED (Sagapolutele 78.3 is the returning starter); the grade keys his real 80.4-adj tape.",
    "WRTE": "-31 vs proxy 85 - proxy keys the raw transfer WR grades (Hendricks/Strong); the grade discounts for losing Grizzell/De Jesus + integration.",
    "LB": "38 - proxy None (couldn't resolve); the grade keys the gutting (lost Uluave + Ferrelli) + tiny-sample transfers.",
    "DL": "+37 vs proxy 5 - proxy keys the churned front; the grade credits the transfer rebuild modestly off the RDEF-p7 base."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "California", "unit": "QB", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["Wake Forest QB 2026 (54, round peer)", "Houston WRTE (78, exemplar context - scale only)"],
+   "team": "California",
+   "unit": "QB",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest QB 2026 (54, round peer)",
+    "Houston WRTE (78, exemplar context - scale only)"
+   ],
    "rationale_bullets": [
     "Jaron-Keawe Sagapolutele returns (78.3/577 -> ACC +2.08 -> 80.4 adj ~QB p72) - the centerpiece Lupoi flew to Hawai'i to retain; 3,484 yds 18-9 as a true frosh; 'one of the ACC's top QBs' (PS).",
     "Backup Jackson Brousseau (Colorado State). Devin Brown (2025 backup) -> Weber State.",
@@ -36,13 +72,27 @@
     "58: above Wake-Lopez-54 (Sagapolutele's tape is higher + proven-returning)."
    ],
    "key_players": [
-    {"name": "Jaron-Keawe Sagapolutele", "role": "QB1 (returning)", "evidence": "78.3/577 (80.4 ACC-adj); 3,484 yds 18-9 as a true frosh; the centerpiece"}
+    {
+     "name": "Jaron-Keawe Sagapolutele",
+     "role": "QB1 (returning)",
+     "evidence": "78.3/577 (80.4 ACC-adj); 3,484 yds 18-9 as a true frosh; the centerpiece"
+    }
    ],
-   "data_gaps": ["new system under new HC Lupoi", "OL protection (PBLK p40)"], "g5_guard_note": null
+   "data_gaps": [
+    "new system under new HC Lupoi",
+    "OL protection (PBLK p40)"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "California", "unit": "RB", "grade": 46, "confidence": "L",
-   "bracketing_exemplars": ["Illinois RB 2025 (32, exemplar anchor)", "Wake Forest RB 2026 (46, round peer)"],
+   "team": "California",
+   "unit": "RB",
+   "grade": 46,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32, exemplar anchor)",
+    "Wake Forest RB 2026 (46, round peer)"
+   ],
    "rationale_bullets": [
     "Lost lead back Kendrick Raphael (->SMU). Transfer-led: Adam Mohammed (Washington, 85.5 adj small sample - 'headlines,' 105 yds vs Oregon) + Ashten Emory (UTEP, 64.0 adj) + LJ Johnson (returning depth).",
     "RUN was p9 (near the bottom of FBS) in '25.",
@@ -50,13 +100,27 @@
     "46: ~ Wake RB 46; well below the proven-committee tier. L."
    ],
    "key_players": [
-    {"name": "Adam Mohammed", "role": "RB1 (transfer, Washington)", "evidence": "85.9/106 (85.5 adj); 'headlines'; 105 yds vs Oregon"}
+    {
+     "name": "Adam Mohammed",
+     "role": "RB1 (transfer, Washington)",
+     "evidence": "85.9/106 (85.5 adj); 'headlines'; 105 yds vs Oregon"
+    }
    ],
-   "data_gaps": ["lost lead back", "small-sample transfers, p9 rushing base"], "g5_guard_note": null
+   "data_gaps": [
+    "lost lead back",
+    "small-sample transfers, p9 rushing base"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "California", "unit": "WRTE", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["Missouri State WRTE (p25, 61.3 table anchor)", "Nebraska WRTE 2025 (50, exemplar anchor)"],
+   "team": "California",
+   "unit": "WRTE",
+   "grade": 54,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Missouri State WRTE (p25, 61.3 table anchor)",
+    "Nebraska WRTE 2025 (50, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Loses the top-2 returning WRs (Grizzell + De Jesus, yr4) but reloads DEEP: Chase Hendricks (Ohio, 76.7 adj, 2nd-tm All-MAC) + Ian Strong (Rutgers, 77.6) + Dorian Thomas (New Mexico TE, 62.2, 1st-tm All-MW, top-10 TE) + Quaron Adams (returning, 75.5) + Mini (TE) + Rico Walker (Purdue).",
     "Two high-grade transfer WRs + a productive All-MW TE + returning depth. 'Gifted WRs, TEs' (Athlon).",
@@ -64,15 +128,37 @@
     "54: the round's best WR room; the strength alongside the QB."
    ],
    "key_players": [
-    {"name": "Chase Hendricks", "role": "WR (transfer, Ohio)", "evidence": "83.8/382 (76.7 adj); 2nd-tm All-MAC"},
-    {"name": "Ian Strong", "role": "WR (transfer, Rutgers)", "evidence": "78.9/356 (77.6 adj)"},
-    {"name": "Dorian Thomas", "role": "TE (transfer, New Mexico)", "evidence": "65.9/328 (62.2 adj); 1st-tm All-MW, top-10 TE"}
+    {
+     "name": "Chase Hendricks",
+     "role": "WR (transfer, Ohio)",
+     "evidence": "83.8/382 (76.7 adj); 2nd-tm All-MAC"
+    },
+    {
+     "name": "Ian Strong",
+     "role": "WR (transfer, Rutgers)",
+     "evidence": "78.9/356 (77.6 adj)"
+    },
+    {
+     "name": "Dorian Thomas",
+     "role": "TE (transfer, New Mexico)",
+     "evidence": "65.9/328 (62.2 adj); 1st-tm All-MW, top-10 TE"
+    }
    ],
-   "data_gaps": ["lost top-2 returning WRs (yr4)", "reload unproven together"], "g5_guard_note": null
+   "data_gaps": [
+    "lost top-2 returning WRs (yr4)",
+    "reload unproven together"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "California", "unit": "OL", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25, exemplar anchor)", "Wake Forest OL 2026 (44, round peer)"],
+   "team": "California",
+   "unit": "OL",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25, exemplar anchor)",
+    "Wake Forest OL 2026 (44, round peer)"
+   ],
    "rationale_bullets": [
     "Returns the interior (Ruffins RG 71.5 adj + Vatikani LG 61.3 + Swinney C) + transfer tackles (Jimothy Lewis Miss St, Kahlee Tafai Minnesota).",
     "Lost 3 tackles (Bell->Colorado, Miller->Duke, Morrow->Kansas) + Spasojevic-Moko.",
@@ -80,14 +166,32 @@
     "44: a solid returning interior + a projected transfer-tackle rebuild off a bad run-block base."
    ],
    "key_players": [
-    {"name": "Tyson Ruffins", "role": "RG (returning, BOLD)", "evidence": "68.0/878 (71.5 ACC-adj); interior anchor"},
-    {"name": "Sioape Vatikani", "role": "LG (returning, BOLD)", "evidence": "57.8/635 (61.3 adj)"}
+    {
+     "name": "Tyson Ruffins",
+     "role": "RG (returning, BOLD)",
+     "evidence": "68.0/878 (71.5 ACC-adj); interior anchor"
+    },
+    {
+     "name": "Sioape Vatikani",
+     "role": "LG (returning, BOLD)",
+     "evidence": "57.8/635 (61.3 adj)"
+    }
    ],
-   "data_gaps": ["lost 3 tackles", "RBLK p14; tackle spots projected"], "g5_guard_note": null
+   "data_gaps": [
+    "lost 3 tackles",
+    "RBLK p14; tackle spots projected"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "California", "unit": "DL", "grade": 42, "confidence": "L",
-   "bracketing_exemplars": ["Buffalo DL (p10, 57.2 table anchor context)", "Virginia Tech OL 2026 (42, round-floor peer context)"],
+   "team": "California",
+   "unit": "DL",
+   "grade": 42,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Buffalo DL (p10, 57.2 table anchor context)",
+    "Virginia Tech OL 2026 (42, round-floor peer context)"
+   ],
    "rationale_bullets": [
     "GUTTED/rebuild. Lost TJ Bush (->Minnesota) + Keanaaina (76.9, portal) + McCulloch (->UCLA).",
     "Returns Wilkins (56.8) + Burrell (withdrawal) + Wayne; transfers Jericho Johnson (Oregon), Solomon Williams (A&M, tiny), Okoye (Tennessee, tiny), Pierce (North Texas).",
@@ -95,14 +199,32 @@
     "42: a body-type rebuild off a p7 run-D base; mostly tiny-sample/mid transfers. L."
    ],
    "key_players": [
-    {"name": "Jericho Johnson", "role": "DT (transfer, Oregon)", "evidence": "68.8/68 (small sample); joined Lupoi from Oregon"},
-    {"name": "Derek Wilkins", "role": "DT (returning)", "evidence": "55.6/271 (56.8 adj)"}
+    {
+     "name": "Jericho Johnson",
+     "role": "DT (transfer, Oregon)",
+     "evidence": "68.8/68 (small sample); joined Lupoi from Oregon"
+    },
+    {
+     "name": "Derek Wilkins",
+     "role": "DT (returning)",
+     "evidence": "55.6/271 (56.8 adj)"
+    }
    ],
-   "data_gaps": ["lost the top interior; RDEF p7", "transfer front mostly tiny samples"], "g5_guard_note": "front-seven rebuild - grades credit returners + Oregon-pipeline transfers, discount 10-35-snap samples"
+   "data_gaps": [
+    "lost the top interior; RDEF p7",
+    "transfer front mostly tiny samples"
+   ],
+   "g5_guard_note": "front-seven rebuild - grades credit returners + Oregon-pipeline transfers, discount 10-35-snap samples"
   },
   {
-   "team": "California", "unit": "LB", "grade": 38, "confidence": "L",
-   "bracketing_exemplars": ["UNLV LB 2025 (40, exemplar anchor)", "Nevada LB (p25, 56.3 table anchor context)"],
+   "team": "California",
+   "unit": "LB",
+   "grade": 38,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40, exemplar anchor)",
+    "Nevada LB (p25, 56.3 table anchor context)"
+   ],
    "rationale_bullets": [
     "DECIMATED - 'portal took away their two stars' All-ACC Cade Uluave (->BYU) + ACC DFOY Luke Ferrelli (->Ole Miss) + Taggart (->Utah State).",
     "Returns ONLY Aaron Hampton (62.8 adj); transfers Jernigan (A&M, 10 snaps), Tuitele (USC, 15), Mothudi (Oregon, 24) - all tiny samples.",
@@ -110,13 +232,27 @@
     "38: one modest returning starter + tiny-sample transfers; the round's worst unit. L."
    ],
    "key_players": [
-    {"name": "Aaron Hampton", "role": "LB (returning)", "evidence": "60.7/173 (62.8 ACC-adj); the only returning LB starter"}
+    {
+     "name": "Aaron Hampton",
+     "role": "LB (returning)",
+     "evidence": "60.7/173 (62.8 ACC-adj); the only returning LB starter"
+    }
    ],
-   "data_gaps": ["lost All-ACC Uluave + DFOY Ferrelli", "transfers are 10-24-snap samples"], "g5_guard_note": null
+   "data_gaps": [
+    "lost All-ACC Uluave + DFOY Ferrelli",
+    "transfers are 10-24-snap samples"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "California", "unit": "DB", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["Wake Forest DB 2026 (50, round peer)", "Virginia DB 2026 (52, round peer)"],
+   "team": "California",
+   "unit": "DB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DB 2026 (50, round peer)",
+    "Virginia DB 2026 (52, round peer)"
+   ],
    "rationale_bullets": [
     "Loses the elite corners (Austin 86.3 + Masses 79.5, both yr4 - the '25 COV-p95 anchors).",
     "Returns Isaiah Crosby (S, 78.2 adj - good) + Sidney (nickel, withdrawal, 70.1) + Manutai (67.2) + Wagoner; adds 6-3 SEC corners Fletcher (Ole Miss, 71.6) + Harris (Georgia, 62.5).",
@@ -124,15 +260,37 @@
     "48: a good returning safety + high-length transfer corners; the all-new corners (projection) + elite losses cap it below Wake/UVA."
    ],
    "key_players": [
-    {"name": "Isaiah Crosby", "role": "S (returning)", "evidence": "77.0/197 (78.2 ACC-adj)"},
-    {"name": "Ricky Fletcher", "role": "CB (transfer, Ole Miss)", "evidence": "66.2/292 (71.6 adj); 6'3\""},
-    {"name": "Cam Sidney", "role": "NB (returning, withdrawal, BOLD)", "evidence": "68.9/511 (70.1 adj)"}
+    {
+     "name": "Isaiah Crosby",
+     "role": "S (returning)",
+     "evidence": "77.0/197 (78.2 ACC-adj)"
+    },
+    {
+     "name": "Ricky Fletcher",
+     "role": "CB (transfer, Ole Miss)",
+     "evidence": "66.2/292 (71.6 adj); 6'3\""
+    },
+    {
+     "name": "Cam Sidney",
+     "role": "NB (returning, withdrawal, BOLD)",
+     "evidence": "68.9/511 (70.1 adj)"
+    }
    ],
-   "data_gaps": ["lost elite corners Austin (86.3) + Masses (79.5)", "corners all-new"], "g5_guard_note": null
+   "data_gaps": [
+    "lost elite corners Austin (86.3) + Masses (79.5)",
+    "corners all-new"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "California", "unit": "ST", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["Colorado State ST 2026 (20, round peer context)", "Virginia Tech ST 2026 (50, round peer context)"],
+   "team": "California",
+   "unit": "ST",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Colorado State ST 2026 (20, round peer context)",
+    "Virginia Tech ST 2026 (50, round peer context)"
+   ],
    "rationale_bullets": [
     "K Chase Meyer returns (withdrawal - 10/13 FG, 7/7 inside 40, decent) + P Angus Davies (Tulsa transfer).",
     "Lost Jacob De Jesus on returns. SPEC was p10 in '25.",
@@ -140,10 +298,22 @@
     "42: below-average-plus; the kicker the one settled asset."
    ],
    "key_players": [
-    {"name": "Chase Meyer", "role": "K (returning, withdrawal)", "evidence": "10/13 FG, 7/7 inside 40"},
-    {"name": "Angus Davies", "role": "P (transfer, Tulsa)", "evidence": "AAC punter"}
+    {
+     "name": "Chase Meyer",
+     "role": "K (returning, withdrawal)",
+     "evidence": "10/13 FG, 7/7 inside 40"
+    },
+    {
+     "name": "Angus Davies",
+     "role": "P (transfer, Tulsa)",
+     "evidence": "AAC punter"
+    }
    ],
-   "data_gaps": ["SPEC p10 base", "return game reshuffled"], "g5_guard_note": null
+   "data_gaps": [
+    "SPEC p10 base",
+    "return game reshuffled"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

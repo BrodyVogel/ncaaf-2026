@@ -45,7 +45,9 @@
    "DL": "-14 vs proxy 60 (proxy counts departed/drafted bodies; my 46 prices the Wazzu import)",
    "ST": "+31 vs proxy 21 (proxy rides the departed punter; Konrardy + natl-best KR return)",
    "QB": "+1, DB +0: proxy directionally right - the exodus has destinations it can see"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

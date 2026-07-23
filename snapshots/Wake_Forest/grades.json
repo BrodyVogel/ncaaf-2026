@@ -1,14 +1,42 @@
 {
  "team": "Wake Forest",
  "units": {
-  "QB": {"grade": 54, "confidence": "M"},
-  "RB": {"grade": 46, "confidence": "L"},
-  "WRTE": {"grade": 46, "confidence": "L"},
-  "OL": {"grade": 44, "confidence": "M"},
-  "DL": {"grade": 58, "confidence": "M"},
-  "LB": {"grade": 48, "confidence": "M"},
-  "DB": {"grade": 50, "confidence": "M"},
-  "ST": {"grade": 54, "confidence": "M"}
+  "QB": {
+   "grade": 58,
+   "confidence": "M",
+   "v1_grade": 54,
+   "adjudication": "50/50 blend: dg+8.8"
+  },
+  "RB": {
+   "grade": 46,
+   "confidence": "L"
+  },
+  "WRTE": {
+   "grade": 38,
+   "confidence": "M",
+   "v1_grade": 46,
+   "adjudication": "50/50 blend: dg-19.1"
+  },
+  "OL": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 54,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,7 +44,9 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; ACC POSITIVE offsets on returning tape, arrivals on origin cells; HC Dickert Year 2 = no coach change; disposition gate resolved before grading - heavy yr4 attrition adjudicated vs both charts); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 54/RB 46/WRTE 46/OL 44/DL 58/LB 48/DB 50/ST 54)."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines (QB 54/RB 46/WRTE 46/OL 44/DL 58/LB 48/DB 50/ST 54)."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 58, RB None, WRTE 26, OL 53, DL 57, LB 25, DB 46, ST 93) keys as-played 2025 tape; 2026 lost the QB duo + most of the skill/OL + the 3 DB stars.",
    "DL": "~= proxy 57 - both key the deep returning front (Hardy/Kirschke/Afalava/Lohavichan/Gatkuoth/Walton).",
@@ -24,12 +54,20 @@
    "LB": "+23 vs proxy 25 - proxy keys the churn/departures; the grade credits returning leader Hall (72.8 adj) + returning starter Cusano + experienced transfers.",
    "ST": "-39 vs proxy 93 - proxy keys the elite '25 ST; the grade discounts hard for the unproven Fr punter (a 'glaring issue') replacing the departed P.",
    "QB": "-4 vs proxy 58 - proxy keys Ashford's '25 VT... WAKE tape (gone); the grade keys transfer Lopez (75.2 adj)."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "Wake Forest", "unit": "QB", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["Virginia Tech QB 2026 (48, round peer)", "FIU QB (15, exemplar anchor context)"],
+   "team": "Wake Forest",
+   "unit": "QB",
+   "grade": 54,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Virginia Tech QB 2026 (48, round peer)",
+    "FIU QB (15, exemplar anchor context)"
+   ],
    "rationale_bullets": [
     "Gio Lopez (North Carolina transfer, 73.1/334 -> ACC +2.08 -> 75.2 adj ~QB p60) reunites with OC Rob Ezell (his OC at South Alabama, where he had 3,000 yds + 25 TD in '24).",
     "The 2025 QB duo is GONE: Ashford (yr4) EXPIRED + Purdie (43.0) PORTAL->Liberty. Steele Pizzella (Fr) backs up.",
@@ -37,13 +75,27 @@
     "54: above Virginia-Tech-Grunkemeyer-48 (Lopez's tape is higher/more proven); the rough '25 + rebuilt supporting cast cap it."
    ],
    "key_players": [
-    {"name": "Gio Lopez", "role": "QB1 (transfer, North Carolina)", "evidence": "73.1/334 (75.2 ACC-adj); reunites w/ OC Ezell; 3,000 yds/25 TD at S.Ala '24"}
+    {
+     "name": "Gio Lopez",
+     "role": "QB1 (transfer, North Carolina)",
+     "evidence": "73.1/334 (75.2 ACC-adj); reunites w/ OC Ezell; 3,000 yds/25 TD at S.Ala '24"
+    }
    ],
-   "data_gaps": ["'rough' 2025 at UNC", "rebuilt offense (only 2 returning O-starters)"], "g5_guard_note": null
+   "data_gaps": [
+    "'rough' 2025 at UNC",
+    "rebuilt offense (only 2 returning O-starters)"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Wake Forest", "unit": "RB", "grade": 46, "confidence": "L",
-   "bracketing_exemplars": ["Illinois RB 2025 (32, exemplar anchor)", "Virginia Tech RB 2026 (60, round peer context)"],
+   "team": "Wake Forest",
+   "unit": "RB",
+   "grade": 46,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32, exemplar anchor)",
+    "Virginia Tech RB 2026 (60, round peer context)"
+   ],
    "rationale_bullets": [
     "Lost lead back Demond Claiborne (yr4, Athlon 'a significant loss').",
     "Ty Clark III returns (72.2/76 -> ACC +4.90 -> 77.1 adj, small sample) + KD Daniels (Florida, 66.1/28 tiny) + Sawyer Seidl (North Dakota FCS).",
@@ -51,14 +103,32 @@
     "46: a change-of-pace returner + unproven transfers; well below VT's proven-committee 60. L."
    ],
    "key_players": [
-    {"name": "Ty Clark III", "role": "RB1 (returning)", "evidence": "72.2/76 (77.1 ACC-adj); small sample, lead back now"},
-    {"name": "KD Daniels", "role": "RB (transfer, Florida)", "evidence": "66.1/28 (tiny sample)"}
+    {
+     "name": "Ty Clark III",
+     "role": "RB1 (returning)",
+     "evidence": "72.2/76 (77.1 ACC-adj); small sample, lead back now"
+    },
+    {
+     "name": "KD Daniels",
+     "role": "RB (transfer, Florida)",
+     "evidence": "66.1/28 (tiny sample)"
+    }
    ],
-   "data_gaps": ["lost lead back (Claiborne)", "small-sample/FCS replacements"], "g5_guard_note": null
+   "data_gaps": [
+    "lost lead back (Claiborne)",
+    "small-sample/FCS replacements"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Wake Forest", "unit": "WRTE", "grade": 46, "confidence": "L",
-   "bracketing_exemplars": ["Ball State WRTE (p3, 53.9 table anchor)", "Missouri State WRTE (p25, 61.3 table anchor)"],
+   "team": "Wake Forest",
+   "unit": "WRTE",
+   "grade": 46,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Ball State WRTE (p3, 53.9 table anchor)",
+    "Missouri State WRTE (p25, 61.3 table anchor)"
+   ],
    "rationale_bullets": [
     "'Only Carlos Hernandez returns' (63.9 adj). All-transfer reload: Ny Carr (Miami, tiny), Chase Tyler (Duke), Wondame Davis (UTEP, 322 routes - most proven), Antonio Meeks (Louisville), Kam Shanks (Arkansas); TEs Kamrean Johnson (ret) + Landon Morris (Cal).",
     "One returner + a P4-pedigree transfer reload, unproven together.",
@@ -66,14 +136,31 @@
     "46: above the Ball-State-p3 rail on the pedigree; below the p25 rail on the no-production. L."
    ],
    "key_players": [
-    {"name": "Carlos Hernandez", "role": "WR (returning)", "evidence": "61.5/265 (63.9 ACC-adj); the only returning WR"},
-    {"name": "Wondame Davis Jr.", "role": "WR (transfer, UTEP)", "evidence": "62.8/322 (58.6 adj); most-proven arrival"}
+    {
+     "name": "Carlos Hernandez",
+     "role": "WR (returning)",
+     "evidence": "61.5/265 (63.9 ACC-adj); the only returning WR"
+    },
+    {
+     "name": "Wondame Davis Jr.",
+     "role": "WR (transfer, UTEP)",
+     "evidence": "62.8/322 (58.6 adj); most-proven arrival"
+    }
    ],
-   "data_gaps": ["gutted room; all-transfer reload unproven together"], "g5_guard_note": null
+   "data_gaps": [
+    "gutted room; all-transfer reload unproven together"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Wake Forest", "unit": "OL", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25, exemplar anchor)", "Virginia Tech OL 2026 (42, round peer)"],
+   "team": "Wake Forest",
+   "unit": "OL",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25, exemplar anchor)",
+    "Virginia Tech OL 2026 (42, round peer)"
+   ],
    "rationale_bullets": [
     "Lost 4 of 5 starters: Siani (Texas, best) + yr4 Sell/Kylany/Fa'amoe.",
     "Returns Clinton Richard (LG, 73.3 adj - 'good building block') + George Steih (LT, 54.2); reloads with mostly-FCS transfers (Way/Weber St, Ohnegian/Bucknell, Olajide/UNH) + Berger (Oregon St) + Calloway (LSU).",
@@ -81,14 +168,32 @@
     "44: 2 returners (one good) + a mostly-FCS rebuild; ~ Virginia Tech OL 42."
    ],
    "key_players": [
-    {"name": "Clinton Richard", "role": "LG (returning)", "evidence": "69.8/348 (73.3 ACC-adj); 'good building block'"},
-    {"name": "George Steih", "role": "LT (returning, BOLD)", "evidence": "50.7/514 (54.2 adj)"}
+    {
+     "name": "Clinton Richard",
+     "role": "LG (returning)",
+     "evidence": "69.8/348 (73.3 ACC-adj); 'good building block'"
+    },
+    {
+     "name": "George Steih",
+     "role": "LT (returning, BOLD)",
+     "evidence": "50.7/514 (54.2 adj)"
+    }
    ],
-   "data_gaps": ["lost 4 of 5 starters incl. the best (Siani)", "FCS-heavy transfer rebuild"], "g5_guard_note": null
+   "data_gaps": [
+    "lost 4 of 5 starters incl. the best (Siani)",
+    "FCS-heavy transfer rebuild"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Wake Forest", "unit": "DL", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["East Carolina DL (p25, 60.5 table anchor)", "Wake DL (60, exemplar anchor neighborhood)"],
+   "team": "Wake Forest",
+   "unit": "DL",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "East Carolina DL (p25, 60.5 table anchor)",
+    "Wake DL (60, exemplar anchor neighborhood)"
+   ],
    "rationale_bullets": [
     "THE STRENGTH. Returns both ends: Langston Hardy (76.4 adj, 7 sk) + Gabe Kirschke (65.4, 5 sk); DTs Afalava (61.1) + Lohavichan (yr4-override, 62.7); rotation Gatkuoth (73.2) + Walton (69.9); adds Sydir Mitchell (LSU).",
     "A deep, experienced, PROVEN front - Athlon 'the strength of last year's team, and that's probably the case again.'",
@@ -96,15 +201,37 @@
     "58: top-4 adj ~71 -> DL p62-70; the 2 losses shave it. Wake's best unit, ~ the Wake-DL-60 neighborhood."
    ],
    "key_players": [
-    {"name": "Langston Hardy", "role": "DE (returning, BOLD)", "evidence": "75.2/668 (76.4 ACC-adj); 7 sacks"},
-    {"name": "Nuer Gatkuoth", "role": "DE (returning, rotation)", "evidence": "72.0/426 (73.2 adj)"},
-    {"name": "Gabe Kirschke", "role": "DE (returning, BOLD)", "evidence": "64.2/499 (65.4 adj); 5 sacks"}
+    {
+     "name": "Langston Hardy",
+     "role": "DE (returning, BOLD)",
+     "evidence": "75.2/668 (76.4 ACC-adj); 7 sacks"
+    },
+    {
+     "name": "Nuer Gatkuoth",
+     "role": "DE (returning, rotation)",
+     "evidence": "72.0/426 (73.2 adj)"
+    },
+    {
+     "name": "Gabe Kirschke",
+     "role": "DE (returning, BOLD)",
+     "evidence": "64.2/499 (65.4 adj); 5 sacks"
+    }
    ],
-   "data_gaps": ["lost Ibirogba (Texas Tech) + Loving (yr4)", "DT depth thinner (PS note)"], "g5_guard_note": null
+   "data_gaps": [
+    "lost Ibirogba (Texas Tech) + Loving (yr4)",
+    "DT depth thinner (PS note)"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Wake Forest", "unit": "LB", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40, exemplar anchor)", "Virginia Tech LB 2026 (44, round peer)"],
+   "team": "Wake Forest",
+   "unit": "LB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40, exemplar anchor)",
+    "Virginia Tech LB 2026 (44, round peer)"
+   ],
    "rationale_bullets": [
     "Aiden Hall returns as 'the leader of the group' (70.7/636 -> ACC +2.13 -> 72.8 adj) + Frank Cusano (63.9, returning starter).",
     "Adds transfers Buom Jock (Cal; 100 tkl at Colo St '24) + McNichols (UAB) + Firenze (Dayton).",
@@ -112,14 +239,32 @@
     "48: one good returning LB + a returning starter + experienced transfers; above Virginia Tech LB 44 on Hall."
    ],
    "key_players": [
-    {"name": "Aiden Hall", "role": "OLB (returning, BOLD)", "evidence": "70.7/636 (72.8 ACC-adj); 'the leader of the group'"},
-    {"name": "Frank Cusano", "role": "MLB (returning)", "evidence": "61.8/336 (63.9 adj)"}
+    {
+     "name": "Aiden Hall",
+     "role": "OLB (returning, BOLD)",
+     "evidence": "70.7/636 (72.8 ACC-adj); 'the leader of the group'"
+    },
+    {
+     "name": "Frank Cusano",
+     "role": "MLB (returning)",
+     "evidence": "61.8/336 (63.9 adj)"
+    }
    ],
-   "data_gaps": ["lost top-2 LBs (Hazen+Bryant, yr4)", "depth transfer-dependent"], "g5_guard_note": null
+   "data_gaps": [
+    "lost top-2 LBs (Hazen+Bryant, yr4)",
+    "depth transfer-dependent"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Wake Forest", "unit": "DB", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Syracuse DB 2026 (50, round peer)", "Virginia Tech DB 2026 (60, round peer context)"],
+   "team": "Wake Forest",
+   "unit": "DB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Syracuse DB 2026 (50, round peer)",
+    "Virginia Tech DB 2026 (60, round peer context)"
+   ],
    "rationale_bullets": [
     "Lost the 3 STARS (Andersen 87.3, Prunty 84.1, Webb 77.7 - all yr4). Elite unit gutted at the top.",
     "Returns Davaughn Patterson (nickel, 73.0 adj - 'highest-rated NFL prospect') + Braylon Johnson (S, 60.7) + Travon West (CB, 63.7) + Tongue (S, back from injury); adds Brian Blades (FIU), Causey (Ga State), Josh Patterson (Iowa St).",
@@ -127,14 +272,32 @@
     "50: an NFL-prospect nickel + real depth, but the star losses cap it; ~ Syracuse DB 50 (deeper/lower-topped), << VT DB 60."
    ],
    "key_players": [
-    {"name": "Davaughn Patterson", "role": "NB (returning, BOLD)", "evidence": "71.8/824 (73.0 ACC-adj); 'highest-rated NFL prospect'"},
-    {"name": "Travon West", "role": "CB (returning, BOLD)", "evidence": "62.5/347 (63.7 adj)"}
+    {
+     "name": "Davaughn Patterson",
+     "role": "NB (returning, BOLD)",
+     "evidence": "71.8/824 (73.0 ACC-adj); 'highest-rated NFL prospect'"
+    },
+    {
+     "name": "Travon West",
+     "role": "CB (returning, BOLD)",
+     "evidence": "62.5/347 (63.7 adj)"
+    }
    ],
-   "data_gaps": ["lost 3 secondary stars (Andersen/Prunty/Webb, yr4)", "new corners projected"], "g5_guard_note": null
+   "data_gaps": [
+    "lost 3 secondary stars (Andersen/Prunty/Webb, yr4)",
+    "new corners projected"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Wake Forest", "unit": "ST", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["Virginia Tech ST 2026 (50, round peer)", "Oregon State ST 2026 (38, round peer context)"],
+   "team": "Wake Forest",
+   "unit": "ST",
+   "grade": 54,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Virginia Tech ST 2026 (50, round peer)",
+    "Oregon State ST 2026 (38, round peer context)"
+   ],
    "rationale_bullets": [
     "Connor Calvert returns (K, 18-22 FG as a rFr, walk-off vs SMU - good) + a dynamic return game (Kam Shanks PR, Bartley KR).",
     "But punting was a 'glaring issue' -> unproven Fr Ethan Hyams (Australia) replaces the departed P. SPEC was p93 in '25.",
@@ -142,10 +305,21 @@
     "54: clearly above average; the Fr punter caps the elite '25 level. Above Virginia Tech ST 50."
    ],
    "key_players": [
-    {"name": "Connor Calvert", "role": "K (returning)", "evidence": "18-22 FG as a rFr; walk-off vs SMU"},
-    {"name": "Kam Shanks", "role": "PR (transfer, Arkansas)", "evidence": "return weapon"}
+    {
+     "name": "Connor Calvert",
+     "role": "K (returning)",
+     "evidence": "18-22 FG as a rFr; walk-off vs SMU"
+    },
+    {
+     "name": "Kam Shanks",
+     "role": "PR (transfer, Arkansas)",
+     "evidence": "return weapon"
+    }
    ],
-   "data_gaps": ["Fr punter (Hyams) unproven - the '25 punting was a glaring issue"], "g5_guard_note": null
+   "data_gaps": [
+    "Fr punter (Hyams) unproven - the '25 punting was a glaring issue"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

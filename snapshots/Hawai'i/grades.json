@@ -2,12 +2,16 @@
  "team": "Hawai'i",
  "units": {
   "QB": {
-   "grade": 38,
-   "confidence": "M"
+   "grade": 36,
+   "confidence": "M",
+   "v1_grade": 38,
+   "adjudication": "small split; U7.5 helped: dg-19: w-cap limits Alejado premium"
   },
   "RB": {
-   "grade": 14,
-   "confidence": "M"
+   "grade": 19,
+   "confidence": "M",
+   "v1_grade": 14,
+   "adjudication": "50/50 blend: dg+10.9"
   },
   "WRTE": {
    "grade": 18,
@@ -26,8 +30,10 @@
    "confidence": "M"
   },
   "DB": {
-   "grade": 18,
-   "confidence": "M"
+   "grade": 22,
+   "confidence": "L",
+   "v1_grade": 18,
+   "adjudication": "split up: dg+8"
   },
   "ST": {
    "grade": 12,
@@ -58,7 +64,9 @@
    "changes": [
     "LB 12 L -> 14 M"
    ]
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

@@ -1,14 +1,42 @@
 {
  "team": "Vanderbilt",
  "units": {
-  "QB": {"grade": 46, "confidence": "L"},
-  "RB": {"grade": 58, "confidence": "M"},
-  "WRTE": {"grade": 50, "confidence": "M"},
-  "OL": {"grade": 46, "confidence": "M"},
-  "DL": {"grade": 50, "confidence": "M"},
-  "LB": {"grade": 50, "confidence": "M"},
-  "DB": {"grade": 58, "confidence": "M"},
-  "ST": {"grade": 60, "confidence": "M"}
+  "QB": {
+   "grade": 48,
+   "confidence": "L",
+   "v1_grade": 46,
+   "adjudication": "50/50 blend: dg+9.8; info 0.19 \u2014 blend halved"
+  },
+  "RB": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 56,
+   "confidence": "M",
+   "v1_grade": 50,
+   "adjudication": "50/50 blend: dg+11.1"
+  },
+  "OL": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 60,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,7 +44,9 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells OL/LB/RB weighted DOWN; small samples discounted], arrivals on origin cells; HC Lea Year 5 NO change [band x1.00], OC Beck returns [no coordinator change]; disposition gate 42 rows / 0 adjudicate / 0 err - Pavia+Stowers+Patterson+Singh yr4-EXPIRED [Pavia graduated/Heisman-2nd, Stowers Mackey/NFL-R2, Patterson appeal-declined, Singh NFL-declare web-verified]; SIX yr4_return overrides all magazine-named [Young/Spence/McConnell/Capers/Cowan/Rinaldi] - the older 'misfits' roster; cross-build ties consistent); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16). WEB disposition-only verification of Singh NFL. DISCLOSED: Athlon NF45/SEC14 + P6 #15/#46 incidentally visible, logged, NOT used.",
-  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB46L/RB58/WRTE50/OL46/DL50/LB50/DB58/ST60, sum 418). No post-freeze corrections."},
+  "planned_vs_final_deviations": {
+   "note": "finals match the dossier planned lines exactly (QB46L/RB58/WRTE50/OL46/DL50/LB50/DB58/ST60, sum 418). No post-freeze corrections."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB None, RB 81, WRTE 96, OL 56, DL 59, LB 85, DB 75, ST 90) reads the Pavia-driven '25 offense at face value; the grades reset the QB, trim WRTE/OL for the losses + the p4 pass-pro reality, and keep RB/DB/ST.",
    "WRTE": "-46 vs proxy 96 - proxy massively over-credits a Pavia-inflated corps that lost its Mackey TE (Stowers) + deep threat (Richardson); the grade keeps Sherrill + the transfers with a true-frosh QB now throwing.",
@@ -24,11 +54,20 @@
    "OL": "-10 vs proxy 56 - both key the rebuild; the grade also prices the p4 pass-pro base.",
    "QB": "proxy None (Pavia gone); the grade (46 L) sets the true-frosh #1-overall reset - elite ceiling, zero experience.",
    "RB/DB/ST": "RB 58 keeps the returning duo; DB 58 keeps the loaded secondary; ST 60 keeps the elite kicker/unit - the three genuine carryover strengths."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
-  {"team": "Vanderbilt", "unit": "QB", "grade": 46, "confidence": "L",
-   "bracketing_exemplars": ["Tennessee QB 2026 (46, peer)", "Colorado QB 2026 (45, below)"],
+  {
+   "team": "Vanderbilt",
+   "unit": "QB",
+   "grade": 46,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Tennessee QB 2026 (46, peer)",
+    "Colorado QB 2026 (45, below)"
+   ],
    "rationale_bullets": [
     "Diego Pavia (92.2/484, Heisman runner-up) GRADUATED. The room is true frosh Jared Curtis - the #1 OVERALL recruit (a 5-star Georgia flip, Vandy's first-ever 5-star; enrolled early, clear #1 in spring) + developmental depth.",
     "A reset off a Heisman-level dual-threat to a true freshman with ZERO college experience - but the highest-possible recruit pedigree ('at least as good as advertised' - Athlon).",
@@ -36,11 +75,27 @@
     "46: ~Tennessee QB 46; above Colorado 45. The high-ceiling true-frosh reset; the zero experience caps it. L."
    ],
    "key_players": [
-    {"name": "Jared Curtis", "role": "QB1 (true frosh, #1 overall recruit)", "evidence": "5-star Georgia flip; Vandy's first-ever 5-star; clear #1 in spring; zero college experience"}
+    {
+     "name": "Jared Curtis",
+     "role": "QB1 (true frosh, #1 overall recruit)",
+     "evidence": "5-star Georgia flip; Vandy's first-ever 5-star; clear #1 in spring; zero college experience"
+    }
    ],
-   "data_gaps": ["zero college experience", "rebuilt OL in front"], "g5_guard_note": null},
-  {"team": "Vanderbilt", "unit": "RB", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["Tennessee RB 2026 (60, above)", "Florida State RB 2026 (58, peer)"],
+   "data_gaps": [
+    "zero college experience",
+    "rebuilt OL in front"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Vanderbilt",
+   "unit": "RB",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Tennessee RB 2026 (60, above)",
+    "Florida State RB 2026 (58, peer)"
+   ],
    "rationale_bullets": [
     "Sedrick Alexander (74.2/211 -> SEC +10.17 weighted) + Makhilyn Young (79.4/109; 9.0 ypc; yr4-return) - a returning duo (981 combined yds, 17 TD) - + 4-star Evan Hampton (KY Gatorade POY).",
     "A genuine returning strength - two proven backs with good grades who inherit a bigger workload without Pavia taking 10-15 carries a game.",
@@ -48,12 +103,32 @@
     "58: ~Florida State RB 58; below Tennessee 60. A proven returning duo; the OL context + the lost QB gravity cap it. M."
    ],
    "key_players": [
-    {"name": "Makhilyn Young", "role": "RB (returning)", "evidence": "79.4/109; 9.0 ypc; part of a 981-yd/17-TD duo"},
-    {"name": "Sedrick Alexander", "role": "RB (returning)", "evidence": "74.2/211; the other half of the returning duo"}
+    {
+     "name": "Makhilyn Young",
+     "role": "RB (returning)",
+     "evidence": "79.4/109; 9.0 ypc; part of a 981-yd/17-TD duo"
+    },
+    {
+     "name": "Sedrick Alexander",
+     "role": "RB (returning)",
+     "evidence": "74.2/211; the other half of the returning duo"
+    }
    ],
-   "data_gaps": ["'25 production Pavia-aided", "OL run-blocking question"], "g5_guard_note": null},
-  {"team": "Vanderbilt", "unit": "WRTE", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Florida WRTE 2026 (50, peer)", "Mississippi State WRTE 2026 (50, peer)"],
+   "data_gaps": [
+    "'25 production Pavia-aided",
+    "OL run-blocking question"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Vanderbilt",
+   "unit": "WRTE",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida WRTE 2026 (50, peer)",
+    "Mississippi State WRTE 2026 (50, peer)"
+   ],
    "rationale_bullets": [
     "Junior Sherrill (73.3/383; 784 yds/7 TD) + transfers Ja'Cory Thomas (ODU, 719 yds/17.5 ypc) + Cole Adams (Alabama) + Cole Spence (66.2/145 TE; yr4-return) + Jayvontay Conner (ECU TE). Eli Stowers (81.6, Mackey, NFL R2) + Tre Richardson (-> Louisville) GONE.",
     "A functional, rebuilt corps - a solid returning WR1 + a returning TE + three transfers.",
@@ -61,12 +136,32 @@
     "50: ~Florida/Mississippi State WRTE 50. Sherrill + the transfers vs the Stowers/Richardson losses + the QB reset. M."
    ],
    "key_players": [
-    {"name": "Junior Sherrill", "role": "WR (returning)", "evidence": "73.3/383; 784 yds/7 TD; a top returning SEC receiver"},
-    {"name": "Ja'Cory Thomas", "role": "WR (transfer, Old Dominion)", "evidence": "719 yds at a 17.5-ypc average; explosive"}
+    {
+     "name": "Junior Sherrill",
+     "role": "WR (returning)",
+     "evidence": "73.3/383; 784 yds/7 TD; a top returning SEC receiver"
+    },
+    {
+     "name": "Ja'Cory Thomas",
+     "role": "WR (transfer, Old Dominion)",
+     "evidence": "719 yds at a 17.5-ypc average; explosive"
+    }
    ],
-   "data_gaps": ["lost Mackey TE Stowers + deep threat Richardson", "true-frosh QB"], "g5_guard_note": null},
-  {"team": "Vanderbilt", "unit": "OL", "grade": 46, "confidence": "M",
-   "bracketing_exemplars": ["Alabama OL 2026 (46, peer)", "South Carolina OL 2026 (44, below)"],
+   "data_gaps": [
+    "lost Mackey TE Stowers + deep threat Richardson",
+    "true-frosh QB"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Vanderbilt",
+   "unit": "OL",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Alabama OL 2026 (46, peer)",
+    "South Carolina OL 2026 (44, below)"
+   ],
    "rationale_bullets": [
     "Cade McConnell (52.2/759; the LONE returning starter, yr4-return) + Orion Irving (51.5/107) + transfers Beau Johnson (NDSU, FCS All-American T) + Lyndon Cooper (Pitt, multi-year C) + Micah DeBose (Alabama, Top200). LOST FOUR starters.",
     "A near-total rebuild of a line that was ALREADY poor in pass protection (PBLK p4 - Pavia masked it by scrambling).",
@@ -74,12 +169,33 @@
     "46: ~Alabama OL 46; above South Carolina 44. The transfer rebuild vs a p4-pass-pro base + the four-starter loss + the frosh QB. M."
    ],
    "key_players": [
-    {"name": "Cade McConnell", "role": "OL (returning)", "evidence": "52.2/759; the only returning starting lineman"},
-    {"name": "Lyndon Cooper", "role": "C (transfer, Pittsburgh)", "evidence": "a multi-year starting center"}
+    {
+     "name": "Cade McConnell",
+     "role": "OL (returning)",
+     "evidence": "52.2/759; the only returning starting lineman"
+    },
+    {
+     "name": "Lyndon Cooper",
+     "role": "C (transfer, Pittsburgh)",
+     "evidence": "a multi-year starting center"
+    }
    ],
-   "data_gaps": ["'25 PBLK p4 (poor pass pro)", "4 starters gone", "protecting a true frosh"], "g5_guard_note": null},
-  {"team": "Vanderbilt", "unit": "DL", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Texas A&M DL 2026 (56, above)", "Tennessee DL 2026 (50, peer)"],
+   "data_gaps": [
+    "'25 PBLK p4 (poor pass pro)",
+    "4 starters gone",
+    "protecting a true frosh"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Vanderbilt",
+   "unit": "DL",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Texas A&M DL 2026 (56, above)",
+    "Tennessee DL 2026 (50, peer)"
+   ],
    "rationale_bullets": [
     "Yilanan Ouattara (NFL-prospect DT, injury return) + Miles Capers (68.0/501; yr4-return edge) + Glenn Seabrooks III (65.6/334) + transfers Edwin Kolenge (Boston College, P4 starter) + Brian Allen (Iowa, 4-star grade) + CJ Jackson (LSU). Sydnor (71.3) + Singh (77.2, NFL) GONE.",
     "Real continuity (3 returning starters + an NFL-prospect DT back from injury) + a deep transfer haul.",
@@ -87,12 +203,31 @@
     "50: ~Tennessee DL 50; below Texas A&M 56. The continuity + Ouattara vs the weak rush + the Sydnor/Singh losses. M."
    ],
    "key_players": [
-    {"name": "Miles Capers", "role": "ED (returning)", "evidence": "68.0/501; the returning edge starter"},
-    {"name": "Yilanan Ouattara", "role": "DI (returning)", "evidence": "NFL-prospect DT back after a 1-game '25 (injury)"}
+    {
+     "name": "Miles Capers",
+     "role": "ED (returning)",
+     "evidence": "68.0/501; the returning edge starter"
+    },
+    {
+     "name": "Yilanan Ouattara",
+     "role": "DI (returning)",
+     "evidence": "NFL-prospect DT back after a 1-game '25 (injury)"
+    }
    ],
-   "data_gaps": ["weak pass rush (5 sacks combined at edge)"], "g5_guard_note": null},
-  {"team": "Vanderbilt", "unit": "LB", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Tennessee LB 2026 (58, above)", "Louisville LB 2026 (50, peer)"],
+   "data_gaps": [
+    "weak pass rush (5 sacks combined at edge)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Vanderbilt",
+   "unit": "LB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Tennessee LB 2026 (58, above)",
+    "Louisville LB 2026 (50, peer)"
+   ],
    "rationale_bullets": [
     "Bryan Longwell (68.1/536 -> SEC +14.01 weighted DOWN; 3rd-year starting ILB) + Nick Rinaldi (64.5/402; yr4-return) + Bryce Cowan (60.9/278; yr4-return) - both 'move up the depth chart.' Langston Patterson (74.5) GONE - eligibility appeal declined.",
     "An experienced but modest group - a proven 3-year starter + two yr4 returners moving up - that lost its best player (Patterson, appeal denied).",
@@ -100,12 +235,32 @@
     "50: ~Louisville LB 50; below Tennessee 58. Longwell + continuity vs the Patterson loss + the modest production. M."
    ],
    "key_players": [
-    {"name": "Bryan Longwell", "role": "LB (returning)", "evidence": "68.1/536; a 3rd-year starting inside backer"},
-    {"name": "Nick Rinaldi", "role": "LB (returning)", "evidence": "64.5/402; moving up the depth chart"}
+    {
+     "name": "Bryan Longwell",
+     "role": "LB (returning)",
+     "evidence": "68.1/536; a 3rd-year starting inside backer"
+    },
+    {
+     "name": "Nick Rinaldi",
+     "role": "LB (returning)",
+     "evidence": "64.5/402; moving up the depth chart"
+    }
    ],
-   "data_gaps": ["lost best LB Patterson (appeal declined)", "modest grades"], "g5_guard_note": null},
-  {"team": "Vanderbilt", "unit": "DB", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["Texas A&M DB 2026 (58, peer)", "Texas DB 2026 (56, below)"],
+   "data_gaps": [
+    "lost best LB Patterson (appeal declined)",
+    "modest grades"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Vanderbilt",
+   "unit": "DB",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Texas A&M DB 2026 (58, peer)",
+    "Texas DB 2026 (56, below)"
+   ],
    "rationale_bullets": [
     "Jordan Matthews (80.1/352 -> SEC +5.44; the #1 cover corner, 'a possible star') + Martel Hight (68.4/393; two-way, 4 INT) + CJ Heard (69.7/670; led the team in tackles) + Ricardo Jones (Clemson; led the ACC with 6 INT - school's first all-conf transfer) + Dontae Carter + 4-star frosh.",
     "THE strength - 'absolutely loaded' (P6): both corners return (led by a potential star in Matthews), a deep experienced safety room, and a marquee transfer who led his league in INTs.",
@@ -113,12 +268,31 @@
     "58: ~Texas A&M DB 58; above Texas 56. The deep, proven, transfer-boosted secondary; the middling grades cap it. M."
    ],
    "key_players": [
-    {"name": "Jordan Matthews", "role": "CB (returning)", "evidence": "80.1/352; the #1 cover corner, a possible star"},
-    {"name": "Ricardo Jones", "role": "S (transfer, Clemson)", "evidence": "led the ACC with 6 INT; the school's first all-conference transfer"}
+    {
+     "name": "Jordan Matthews",
+     "role": "CB (returning)",
+     "evidence": "80.1/352; the #1 cover corner, a possible star"
+    },
+    {
+     "name": "Ricardo Jones",
+     "role": "S (transfer, Clemson)",
+     "evidence": "led the ACC with 6 INT; the school's first all-conference transfer"
+    }
    ],
-   "data_gaps": ["middling corner grades besides Matthews"], "g5_guard_note": null},
-  {"team": "Vanderbilt", "unit": "ST", "grade": 60, "confidence": "M",
-   "bracketing_exemplars": ["Ole Miss ST 2026 (62, above)", "Georgia ST 2026 (60, peer)"],
+   "data_gaps": [
+    "middling corner grades besides Matthews"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Vanderbilt",
+   "unit": "ST",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Ole Miss ST 2026 (62, above)",
+    "Georgia ST 2026 (60, peer)"
+   ],
    "rationale_bullets": [
     "Brock Taylor (K - one of college football's top placekickers, range to 60+) + Tyler Ebel (P - FCS South Dakota transfer) + return-game continuity.",
     "A genuinely ELITE special-teams unit - a top-5-caliber placekicker with huge range, on a group that ranked among the nation's best (SP+) two straight years (SPEC p90 in '25).",
@@ -126,9 +300,19 @@
     "60: ~Georgia ST 60; below Ole Miss 62. An elite kicker + a top-tier ST unit (calib). M."
    ],
    "key_players": [
-    {"name": "Brock Taylor", "role": "K (returning)", "evidence": "one of CFB's top placekickers; range to 60+ yards"},
-    {"name": "Tyler Ebel", "role": "P (transfer, South Dakota)", "evidence": "the punter pickup on an already-elite ST unit"}
+    {
+     "name": "Brock Taylor",
+     "role": "K (returning)",
+     "evidence": "one of CFB's top placekickers; range to 60+ yards"
+    },
+    {
+     "name": "Tyler Ebel",
+     "role": "P (transfer, South Dakota)",
+     "evidence": "the punter pickup on an already-elite ST unit"
+    }
    ],
-   "data_gaps": [], "g5_guard_note": null}
+   "data_gaps": [],
+   "g5_guard_note": null
+  }
  ]
 }

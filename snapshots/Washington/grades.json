@@ -1,14 +1,42 @@
 {
  "team": "Washington",
  "units": {
-  "QB": {"grade": 74, "confidence": "H"},
-  "RB": {"grade": 50, "confidence": "M"},
-  "WRTE": {"grade": 56, "confidence": "M"},
-  "OL": {"grade": 62, "confidence": "M"},
-  "DL": {"grade": 62, "confidence": "M"},
-  "LB": {"grade": 72, "confidence": "M"},
-  "DB": {"grade": 72, "confidence": "M"},
-  "ST": {"grade": 58, "confidence": "M"}
+  "QB": {
+   "grade": 69,
+   "confidence": "M",
+   "v1_grade": 74,
+   "adjudication": "50/50 blend: dg-9.7"
+  },
+  "RB": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 56,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 62,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 62,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 67,
+   "confidence": "M",
+   "v1_grade": 72,
+   "adjudication": "LB 0.4 blend: dg-12.4"
+  },
+  "DB": {
+   "grade": 72,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 58,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -25,12 +53,20 @@
    "DL": "-15 vs proxy 77 (proxy counts four departed 74-77 tapes; seven of the top ten '25 DL tapes are gone)",
    "LB": "-17 vs proxy 89 (caution: all four pedigree tapes are +16-carried; two are injury-shortened samples)",
    "DB": "-14 vs proxy 86 (proxy counts the departed tallest-duo CBs Prysock/Davis + Esteen)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "Washington", "unit": "QB", "grade": 74, "confidence": "H",
-   "bracketing_exemplars": ["Maryland QB 2025 (p50 ref, 71.8)", "South Carolina QB 2025 (p75 ref, 81.1)"],
+   "team": "Washington",
+   "unit": "QB",
+   "grade": 74,
+   "confidence": "H",
+   "bracketing_exemplars": [
+    "Maryland QB 2025 (p50 ref, 71.8)",
+    "South Carolina QB 2025 (p75 ref, 81.1)"
+   ],
    "rationale_bullets": [
     "Williams returns off the round's strangest offseason - retention contract, portal attempt two days later, a near-'precedent-setting court case,' then return (P6; the out-feed entry is overridden with full documentation).",
     "The 2025 season: 79.1 PFF/461 (B10 +1 -> 80.1, ~p73 tape), 4th in B10 QB Rating, a B10-QB-best 611 rushing yards, the 16th 400-pass/100-rush FBS game ever (vs Rutgers), 25-8 overall.",
@@ -39,15 +75,32 @@
     "74, H: the Becht tier - a full-volume dual-threat with a yr-2 starter bonus, graded under Maiava's 80 on tape and the big-game floor."
    ],
    "key_players": [
-    {"name": "Demond Williams Jr.", "role": "QB1 (returning starter; portal-return override)", "evidence": "79.1 PFF/461; 4th B10 rating; 611 rush; 25-8"},
-    {"name": "Elijah Brown", "role": "QB2 (transfer, Stanford)", "evidence": "56.7/152 at Stanford 2025"}
+    {
+     "name": "Demond Williams Jr.",
+     "role": "QB1 (returning starter; portal-return override)",
+     "evidence": "79.1 PFF/461; 4th B10 rating; 611 rush; 25-8"
+    },
+    {
+     "name": "Elijah Brown",
+     "role": "QB2 (transfer, Stanford)",
+     "evidence": "56.7/152 at Stanford 2025"
+    }
    ],
-   "data_gaps": ["ranked-game splits", "post-saga locker-room dynamics (no print concern)"],
+   "data_gaps": [
+    "ranked-game splits",
+    "post-saga locker-room dynamics (no print concern)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Washington", "unit": "RB", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Maryland RB 2025 (p25 ref, 69.6)", "Memphis RB 2025 (p50 ref, 76.9)"],
+   "team": "Washington",
+   "unit": "RB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Maryland RB 2025 (p25 ref, 69.6)",
+    "Memphis RB 2025 (p50 ref, 76.9)"
+   ],
    "rationale_bullets": [
     "The room emptied: Coleman (82.1 PFF/157; 1,100 total, 17 TD) to the NFL, Mohammed (85.9/106; consecutive 100-yd November games) to Cal.",
     "The returning hope is medically flagged: J. Washington (82.7/27) has 'top-notch explosiveness but suffered a severe injury in spring and is DOUBTFUL' (P6) - Athlon still charts him RB1; graded to the P6 note.",
@@ -56,16 +109,37 @@
     "50, M: zero returning healthy volume - the thinnest proven room among the round's contenders; pedigree and scheme hold it at average."
    ],
    "key_players": [
-    {"name": "Jayden Limar", "role": "RB1 candidate (transfer, Oregon)", "evidence": "73.0 PFF/46; 4* pedigree"},
-    {"name": "Jordan Washington", "role": "RB (returning; DOUBTFUL)", "evidence": "82.7/27; severe spring injury (P6)"},
-    {"name": "Brian Bonner Jr.", "role": "RB (4* true FR signee)", "evidence": "#3 class recruit; rotation expected (Athlon)"}
+    {
+     "name": "Jayden Limar",
+     "role": "RB1 candidate (transfer, Oregon)",
+     "evidence": "73.0 PFF/46; 4* pedigree"
+    },
+    {
+     "name": "Jordan Washington",
+     "role": "RB (returning; DOUBTFUL)",
+     "evidence": "82.7/27; severe spring injury (P6)"
+    },
+    {
+     "name": "Brian Bonner Jr.",
+     "role": "RB (4* true FR signee)",
+     "evidence": "#3 class recruit; rotation expected (Athlon)"
+    }
    ],
-   "data_gaps": ["J. Washington availability", "no proven volume anywhere"],
+   "data_gaps": [
+    "J. Washington availability",
+    "no proven volume anywhere"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Washington", "unit": "WRTE", "grade": 56, "confidence": "M",
-   "bracketing_exemplars": ["Missouri State WRTE 2025 (p25 ref, 61.3)", "Nebraska WRTE 2025 (50 anchor, 66.4)"],
+   "team": "Washington",
+   "unit": "WRTE",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Missouri State WRTE 2025 (p25 ref, 61.3)",
+    "Nebraska WRTE 2025 (50 anchor, 66.4)"
+   ],
    "rationale_bullets": [
     "Boston (88.0 PFF/361 - 'a pure #1 receiver,' 2nd-round pick; yr3 declare) leaves the alpha void; Vines-Bright departed to ASU.",
     "The proven riser: Roebuck (70.1/360 -> 69.1) - 42-560-7 as a freshman #2; R. Williams (68.5/24) returns from the September injury that cost him the starting job.",
@@ -74,16 +148,37 @@
     "56, M: one proven riser + heavy FR pedigree + a system that produced RECV p90 - graded above the aggregate (~64), below the room it replaces."
    ],
    "key_players": [
-    {"name": "Dezmen Roebuck", "role": "WR1 (returning starter)", "evidence": "70.1 PFF/360; 42-560-7 as FR"},
-    {"name": "Christian Moss", "role": "WR (transfer, Kennesaw State)", "evidence": "65.7/397; KSU's #2 target"},
-    {"name": "Decker DeGraaf", "role": "TE1 (returning starter)", "evidence": "56.0/323; 32-360"}
+    {
+     "name": "Dezmen Roebuck",
+     "role": "WR1 (returning starter)",
+     "evidence": "70.1 PFF/360; 42-560-7 as FR"
+    },
+    {
+     "name": "Christian Moss",
+     "role": "WR (transfer, Kennesaw State)",
+     "evidence": "65.7/397; KSU's #2 target"
+    },
+    {
+     "name": "Decker DeGraaf",
+     "role": "TE1 (returning starter)",
+     "evidence": "56.0/323; 32-360"
+    }
    ],
-   "data_gaps": ["alpha replacement (FR-dependent)", "R. Williams health"],
+   "data_gaps": [
+    "alpha replacement (FR-dependent)",
+    "R. Williams health"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Washington", "unit": "OL", "grade": 62, "confidence": "M",
-   "bracketing_exemplars": ["Michigan OL 2025 (p50 ref, 65.5)", "Louisville OL 2025 (p75 ref, 71.2)"],
+   "team": "Washington",
+   "unit": "OL",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Michigan OL 2025 (p50 ref, 65.5)",
+    "Louisville OL 2025 (p75 ref, 71.2)"
+   ],
    "rationale_bullets": [
     "Four starters return around a Freshman All-American: Mills (70.2 PFF/589 -> 69.2; FR All-America at LG), Azzopardi (69.0/656 -> 68.0; improved yr 2), L. Hatchett (62.1/532) at C with brother G. Hatchett (66.9/775; yr4 override - 'the Hatchett brothers are back,' P6).",
     "The one void is the best tape: LT Willis (79.9/575) to the NFL; the battle is 5* true FR Greene ('expected to start right away' - Athlon) vs 4* transfer Dieterich (72.0/763 at Sam Houston, CUSA -6 -> 66.0).",
@@ -91,17 +186,42 @@
     "62, M: continuity + a rising young core + credible LT options - a notch under Michigan/Nebraska's mid-60s rooms on the Willis void and FR risk."
    ],
    "key_players": [
-    {"name": "John Mills", "role": "LG (returning starter)", "evidence": "70.2 PFF/589; Freshman All-America"},
-    {"name": "Drew Azzopardi", "role": "RT (returning starter)", "evidence": "69.0/656; 2nd-year starter"},
-    {"name": "Kodi Greene", "role": "LT (5* true FR signee)", "evidence": "#1 class recruit; 'expected to start right away'"},
-    {"name": "Geirean Hatchett", "role": "G/C (returning; yr4 override)", "evidence": "66.9/775; P6 'brothers are back'"}
+    {
+     "name": "John Mills",
+     "role": "LG (returning starter)",
+     "evidence": "70.2 PFF/589; Freshman All-America"
+    },
+    {
+     "name": "Drew Azzopardi",
+     "role": "RT (returning starter)",
+     "evidence": "69.0/656; 2nd-year starter"
+    },
+    {
+     "name": "Kodi Greene",
+     "role": "LT (5* true FR signee)",
+     "evidence": "#1 class recruit; 'expected to start right away'"
+    },
+    {
+     "name": "Geirean Hatchett",
+     "role": "G/C (returning; yr4 override)",
+     "evidence": "66.9/775; P6 'brothers are back'"
+    }
    ],
-   "data_gaps": ["LT (FR vs CUSA transfer)", "RG (Taulealea 103 snaps)"],
+   "data_gaps": [
+    "LT (FR vs CUSA transfer)",
+    "RG (Taulealea 103 snaps)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Washington", "unit": "DL", "grade": 62, "confidence": "M",
-   "bracketing_exemplars": ["Baylor DL 2025 (p50 ref, 67.7)", "UCF DL 2025 (p75 ref, 75.2)"],
+   "team": "Washington",
+   "unit": "DL",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Baylor DL 2025 (p50 ref, 67.7)",
+    "UCF DL 2025 (p75 ref, 75.2)"
+   ],
    "rationale_bullets": [
     "The quiet drain: seven of the top ten '25 DL tapes are gone - Durfee (77.4/484; co-sack leader), Thompson (76.0/397), Lynch (75.1/359), Uiagalelei, Pepa expired; the five-to-P4 portal exodus (Macon/OkSt, both Parkers/Maryland, Butler/TT, C. Smith/Bama).",
     "The anchors: E. Davis (70.8 PFF/424, B10 +10 -> 80.8) - 'the anchor at nose tackle' (P6) - and Lane (67.3/556 -> 77.3), the returning co-sack leader; injury returns Ward (63.3/277) + R. Davis add rotation.",
@@ -109,17 +229,42 @@
     "62, M: two proven B10 tapes at 77-81 adjusted + one MAC starter + projection - graded at the Maryland/Minnesota tier off an RDEF p65 prior."
    ],
    "key_players": [
-    {"name": "Elinneus Davis", "role": "NT (returning starter)", "evidence": "70.8 PFF/424 (-> 80.8); 'the anchor'"},
-    {"name": "Jacob Lane", "role": "EDGE (returning starter)", "evidence": "67.3/556 (-> 77.3); co-sack leader"},
-    {"name": "Darin Conley", "role": "DT (transfer, Ball State)", "evidence": "75.7/533 (MAC -6 -> 69.7); starter"},
-    {"name": "Kai McClendon", "role": "DT (transfer, Mississippi State)", "evidence": "12 gm as true FR; missed '25 (knee)"}
+    {
+     "name": "Elinneus Davis",
+     "role": "NT (returning starter)",
+     "evidence": "70.8 PFF/424 (-> 80.8); 'the anchor'"
+    },
+    {
+     "name": "Jacob Lane",
+     "role": "EDGE (returning starter)",
+     "evidence": "67.3/556 (-> 77.3); co-sack leader"
+    },
+    {
+     "name": "Darin Conley",
+     "role": "DT (transfer, Ball State)",
+     "evidence": "75.7/533 (MAC -6 -> 69.7); starter"
+    },
+    {
+     "name": "Kai McClendon",
+     "role": "DT (transfer, Mississippi State)",
+     "evidence": "12 gm as true FR; missed '25 (knee)"
+    }
    ],
-   "data_gaps": ["five projected two-deep spots to transfers/FRs", "McClendon knee"],
+   "data_gaps": [
+    "five projected two-deep spots to transfers/FRs",
+    "McClendon knee"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Washington", "unit": "LB", "grade": 72, "confidence": "M",
-   "bracketing_exemplars": ["Oregon State LB 2025 (p75 ref, 77.4)", "Iowa LB 2025 (p90 ref, 86.5)"],
+   "team": "Washington",
+   "unit": "LB",
+   "grade": 72,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Oregon State LB 2025 (p75 ref, 77.4)",
+    "Iowa LB 2025 (p90 ref, 86.5)"
+   ],
    "rationale_bullets": [
     "The consensus strength: 'overflowing with star power... the strength of the defense' (P6); 'one of the nation's best linebacking corps' (Athlon) - the strongest two-print LB endorsement of the round.",
     "Four pedigree tapes: Alexander (68.4 PFF/518, +16 -> 84.4; 70 tkl - the full-volume floor), Manu (68.9/233 -> 84.9; yr4 override; the '24 star, injury-shortened - 'should push for All-Big Ten'), Al-Uqdah (64.1/152 -> 80.1; original starter back from injury), Rainey-Sale (67.8/266 -> 83.8; Top100 LB/edge wildcard).",
@@ -128,17 +273,42 @@
     "72, M: cautioned from the ~p85 paper aggregate - between PSU's 68 and Indiana's 77, on print consensus + depth of pedigree."
    ],
    "key_players": [
-    {"name": "Jacob Manu", "role": "ILB (returning; yr4 override)", "evidence": "68.9 PFF/233 (injury-shortened); '24 star; All-B10 push (P6)"},
-    {"name": "Xe'ree Alexander", "role": "ILB (returning)", "evidence": "68.4/518 (-> 84.4); 70 tkl (#2)"},
-    {"name": "Taariq Al-Uqdah", "role": "ILB (returning starter)", "evidence": "64.1/152; original starter back from injury"},
-    {"name": "Zaydrius Rainey-Sale", "role": "LB/EDGE (returning)", "evidence": "67.8/266 (-> 83.8); Top100 wildcard"}
+    {
+     "name": "Jacob Manu",
+     "role": "ILB (returning; yr4 override)",
+     "evidence": "68.9 PFF/233 (injury-shortened); '24 star; All-B10 push (P6)"
+    },
+    {
+     "name": "Xe'ree Alexander",
+     "role": "ILB (returning)",
+     "evidence": "68.4/518 (-> 84.4); 70 tkl (#2)"
+    },
+    {
+     "name": "Taariq Al-Uqdah",
+     "role": "ILB (returning starter)",
+     "evidence": "64.1/152; original starter back from injury"
+    },
+    {
+     "name": "Zaydrius Rainey-Sale",
+     "role": "LB/EDGE (returning)",
+     "evidence": "67.8/266 (-> 83.8); Top100 wildcard"
+    }
    ],
-   "data_gaps": ["Manu/Al-Uqdah health", "all tapes offset-carried"],
+   "data_gaps": [
+    "Manu/Al-Uqdah health",
+    "all tapes offset-carried"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Washington", "unit": "DB", "grade": 72, "confidence": "M",
-   "bracketing_exemplars": ["UCF DB 2025 (p75 ref, 73.0)", "BYU DB 2025 (p90 ref, 77.1)"],
+   "team": "Washington",
+   "unit": "DB",
+   "grade": 72,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UCF DB 2025 (p75 ref, 73.0)",
+    "BYU DB 2025 (p90 ref, 77.1)"
+   ],
    "rationale_bullets": [
     "'The back seven remains elite' (P6). The returning core is young and graded: McLaughlin (70.7 PFF/842, +6 -> 76.7) - 'Defensive MVP,' All-B10 HM, team-high tackles, two defensive TDs; Clark (74.7/387 -> 80.7) at nickel; Dillard-Allen (71.6/377 -> 77.6; Freshman All-American - Athlon); Robinson (67.9/371 -> 73.9; Top200 with 'first-round traits').",
     "The departures are real but absorbed: the nation's tallest CB duo (Prysock 77.9/810 + T. Davis 67.2/421) expired; Esteen (65.0/658) expired; Holmes to OkSt.",
@@ -146,17 +316,42 @@
     "72, M: five bodies at 72-81 adjusted, three of them sophomores - the Oregon-74/OSU-72 tier, with youth as both the upside and the variance."
    ],
    "key_players": [
-    {"name": "Alex McLaughlin", "role": "S (returning starter)", "evidence": "70.7 PFF/842 (-> 76.7); Defensive MVP; 2 def TDs"},
-    {"name": "Rahshawn Clark", "role": "NB (returning)", "evidence": "74.7/387 (-> 80.7)"},
-    {"name": "Rylon Dillard-Allen", "role": "FS (returning)", "evidence": "71.6/377; Freshman All-American (Athlon)"},
-    {"name": "Emmanuel Karnley", "role": "CB (transfer, Virginia)", "evidence": "71.6/657 (ACC +1 -> 72.6); 6'3 ACC starter"}
+    {
+     "name": "Alex McLaughlin",
+     "role": "S (returning starter)",
+     "evidence": "70.7 PFF/842 (-> 76.7); Defensive MVP; 2 def TDs"
+    },
+    {
+     "name": "Rahshawn Clark",
+     "role": "NB (returning)",
+     "evidence": "74.7/387 (-> 80.7)"
+    },
+    {
+     "name": "Rylon Dillard-Allen",
+     "role": "FS (returning)",
+     "evidence": "71.6/377; Freshman All-American (Athlon)"
+    },
+    {
+     "name": "Emmanuel Karnley",
+     "role": "CB (transfer, Virginia)",
+     "evidence": "71.6/657 (ACC +1 -> 72.6); 6'3 ACC starter"
+    }
    ],
-   "data_gaps": ["CB2 youth", "safety depth behind the top four"],
+   "data_gaps": [
+    "CB2 youth",
+    "safety depth behind the top four"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Washington", "unit": "ST", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "team": "Washington",
+   "unit": "ST",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "ST rule: start at the p49 as-played SPEC and adjust: BOTH legs are imported at all-league quality - K Robles (Texas State; 2nd-team All-SBC; 21-of-23, 91.3%) and P Green (San Diego State; #6 nationally at 47.0 avg).",
     "The departures were the weakness (Moczulski to Illinois, Zimmer to Southern Miss); coordinator Petrilli is retained.",
@@ -164,10 +359,21 @@
     "58, M: a league-average prior upgraded at both legs with coordinator continuity - the round's cleanest special-teams import job."
    ],
    "key_players": [
-    {"name": "Tyler Robles", "role": "K (transfer, Texas State)", "evidence": "21-of-23 (91.3%); 2nd-team All-SBC"},
-    {"name": "Hunter Green", "role": "P (transfer, San Diego State)", "evidence": "47.0 avg - #6 nationally"}
+    {
+     "name": "Tyler Robles",
+     "role": "K (transfer, Texas State)",
+     "evidence": "21-of-23 (91.3%); 2nd-team All-SBC"
+    },
+    {
+     "name": "Hunter Green",
+     "role": "P (transfer, San Diego State)",
+     "evidence": "47.0 avg - #6 nationally"
+    }
    ],
-   "data_gaps": ["KR (Washington doubtful)", "G5-to-B10 kicking environments"],
+   "data_gaps": [
+    "KR (Washington doubtful)",
+    "G5-to-B10 kicking environments"
+   ],
    "g5_guard_note": null
   }
  ]

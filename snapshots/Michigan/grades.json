@@ -1,14 +1,42 @@
 {
  "team": "Michigan",
  "units": {
-  "QB": {"grade": 60, "confidence": "M"},
-  "RB": {"grade": 71, "confidence": "M"},
-  "WRTE": {"grade": 56, "confidence": "M"},
-  "OL": {"grade": 64, "confidence": "M"},
-  "DL": {"grade": 76, "confidence": "M"},
-  "LB": {"grade": 42, "confidence": "L"},
-  "DB": {"grade": 70, "confidence": "M"},
-  "ST": {"grade": 55, "confidence": "M"}
+  "QB": {
+   "grade": 56,
+   "confidence": "M",
+   "v1_grade": 60,
+   "adjudication": "manual middle ground: dg-22.1 | ADJUDICATOR: Underwood actual FR tape 69.3/399 is league-average QB play at w-cap; year-2-leap partly narrative; middle ground"
+  },
+  "RB": {
+   "grade": 71,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 56,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 64,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 76,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 45,
+   "confidence": "L",
+   "v1_grade": 42,
+   "adjudication": "LB 0.4 blend: dg+14.7; info 0.15 \u2014 blend halved"
+  },
+  "DB": {
+   "grade": 70,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 55,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -26,12 +54,20 @@
    "RB": "-17 vs proxy 88 (proxy counts Haynes 81.1 -> Georgia Tech)",
    "OL": "+21 vs proxy 43 (proxy treats Sprague/Guarnera/Etta portal entries as departures; all three withdrew - overrides documented)",
    "QB": "+17 vs proxy 43 (Underwood's 69.3 FR tape plus #1-recruit prior and the Beck dual-threat scheme fit)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "Michigan", "unit": "QB", "grade": 60, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Washington State DB 2025 (72)"],
+   "team": "Michigan",
+   "unit": "QB",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Washington State DB 2025 (72)"
+   ],
    "rationale_bullets": [
     "Underwood returns off a true-freshman season as the 2025 #1 overall recruit: 69.3 PFF/417 dropbacks (B10 +1 -> 70.3, ~p48), 2,428 yds at 60.3%, 11-9, plus 392 rush yds (PS).",
     "The named 2025 context: 'limited by a conservative gameplan, plenty of drops from the receivers, but also rookie mistakes' (P6) - 9 INT, three sub-100-yard passing games, #12 B10 QB rating.",
@@ -40,15 +76,32 @@
     "60, M = the Maryland-Washington twin: near-identical mechanical read, higher pedigree, tailored scheme, minus transition noise. P6's own frame - 'Michigan's 2026 fate depends on Underwood's development' - is why confidence is M, not H."
    ],
    "key_players": [
-    {"name": "Bryce Underwood", "role": "QB1 (returning starter, SO)", "evidence": "69.3 PFF/417 2025; 2,428 @ 60.3%, 11-9 + 392 rush as true FR"},
-    {"name": "Brayden Fowler-Nicolosi", "role": "QB2 (transfer, Colorado State)", "evidence": "50.7/99 2025; 3,460 @ 62% 22-16 in 2023 (PS)"}
+    {
+     "name": "Bryce Underwood",
+     "role": "QB1 (returning starter, SO)",
+     "evidence": "69.3 PFF/417 2025; 2,428 @ 60.3%, 11-9 + 392 rush as true FR"
+    },
+    {
+     "name": "Brayden Fowler-Nicolosi",
+     "role": "QB2 (transfer, Colorado State)",
+     "evidence": "50.7/99 2025; 3,460 @ 62% 22-16 in 2023 (PS)"
+    }
    ],
-   "data_gaps": ["No dated spring reporting on Underwood in the Beck install beyond books", "Smigiel (PS#11 FR) camp standing"],
+   "data_gaps": [
+    "No dated spring reporting on Underwood in the Beck install beyond books",
+    "Smigiel (PS#11 FR) camp standing"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Michigan", "unit": "RB", "grade": 71, "confidence": "M",
-   "bracketing_exemplars": ["Washington State DB 2025 (72)", "Auburn RB 2025 (p75 ref, 83.4)"],
+   "team": "Michigan",
+   "unit": "RB",
+   "grade": 71,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Washington State DB 2025 (72)",
+    "Auburn RB 2025 (p75 ref, 83.4)"
+   ],
    "rationale_bullets": [
     "Marshall returns as a proven All-B10 lead: 87.8 PFF/150 att (a whisker under the p90 RB reference of 87.9), 932 yds/10 TD with four straight 100-yard games in weeks 7-10 (P6/PS).",
     "The room lost Haynes (81.1/121; 857 @ 7.1, OFY after USC) to Georgia Tech but signed the class's #1 RB, five-star Savion Hiter - 'should get carries right away and form a top duo with Marshall' (P6); 'looked the part in the spring' (PS).",
@@ -57,15 +110,32 @@
     "Weighted aggregate ~82 (~p72) on moderate samples + elite-recruit upside = 71, M."
    ],
    "key_players": [
-    {"name": "Jordan Marshall", "role": "RB1 (All-B10)", "evidence": "87.8 PFF/150 att, 932/10 TD 2025"},
-    {"name": "Savion Hiter", "role": "RB2 (5* FR signee)", "evidence": "PS#1 RB recruit; 'carries right away' (P6)"}
+    {
+     "name": "Jordan Marshall",
+     "role": "RB1 (All-B10)",
+     "evidence": "87.8 PFF/150 att, 932/10 TD 2025"
+    },
+    {
+     "name": "Savion Hiter",
+     "role": "RB2 (5* FR signee)",
+     "evidence": "PS#1 RB recruit; 'carries right away' (P6)"
+    }
    ],
-   "data_gaps": ["Hiter's true readiness (spring-only evidence)", "Tatum's role after a buried 2025"],
+   "data_gaps": [
+    "Hiter's true readiness (spring-only evidence)",
+    "Tatum's role after a buried 2025"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Michigan", "unit": "WRTE", "grade": 56, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "team": "Michigan",
+   "unit": "WRTE",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "Marsh is the proven piece: 75.8 PFF/288 routes (B10 -1 -> 74.8) as a TRUE FR - 45/651 all after September, B10 honors, 'an instant star' (P6).",
     "GONE: McCulley (66.6/372; #2 at 588 yds - yr4), Morgan (55.7/163 -> UCLA), F.Moore (-> MSU), and BOTH TEs (Bredeson + Klein) - meaningful volume out of a room that already graded RECV 34th pctile with a national-leader drops problem (both books).",
@@ -74,16 +144,37 @@
     "Weighted aggregate ~66.8 (~p52); the TE void and drops history hold it at 56, M - pedigree tail unpriced."
    ],
    "key_players": [
-    {"name": "Andrew Marsh", "role": "WR1 (returning starter, SO)", "evidence": "75.8 PFF/288 routes; 45/651 post-September 2025; also KR/PR"},
-    {"name": "JJ Buchanan", "role": "WR2 (transfer, Utah)", "evidence": "64.2/277 2025; FR starter at Utah; #5 WR transfer (P6)"},
-    {"name": "Jaime Ffrench Jr.", "role": "WR3 (transfer, Texas)", "evidence": "Top50 recruit; low 2025 volume"}
+    {
+     "name": "Andrew Marsh",
+     "role": "WR1 (returning starter, SO)",
+     "evidence": "75.8 PFF/288 routes; 45/651 post-September 2025; also KR/PR"
+    },
+    {
+     "name": "JJ Buchanan",
+     "role": "WR2 (transfer, Utah)",
+     "evidence": "64.2/277 2025; FR starter at Utah; #5 WR transfer (P6)"
+    },
+    {
+     "name": "Jaime Ffrench Jr.",
+     "role": "WR3 (transfer, Texas)",
+     "evidence": "Top50 recruit; low 2025 volume"
+    }
    ],
-   "data_gaps": ["Ffrench's actual 2025 usage at Texas", "TE room production ceiling (Z.Marshall 16 career catches)"],
+   "data_gaps": [
+    "Ffrench's actual 2025 usage at Texas",
+    "TE room production ceiling (Z.Marshall 16 career catches)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Michigan", "unit": "OL", "grade": 64, "confidence": "M",
-   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "team": "Michigan",
+   "unit": "OL",
+   "grade": 64,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
    "rationale_bullets": [
     "Four starters return - two of them rescued from the portal by documented withdrawals: Sprague (72.6/740 -> 71.6; All-B10 as a sophomore) and Guarnera (71.3/710 -> 70.3), plus FR-year LT Frazier (64.4/505; 'stepped up and thrived' - P6) and Link (63.3/373; may shift to guard).",
     "GONE: the other two All-B10 linemen - Crippen (63.6/765) and El-Hadi (65.6/537) - plus a portal wave (Haywood and Strayhorn to Alabama).",
@@ -92,16 +183,37 @@
     "Weighted starter aggregate ~67.7 (~p57) + returning-start mass + coach upgrade = 64, M; Athlon: 'primed to make a jump.'"
    ],
    "key_players": [
-    {"name": "Andrew Sprague", "role": "RT (returning starter; withdrawal override)", "evidence": "72.6 PFF/740 2025; All-B10 as SOPH"},
-    {"name": "Jake Guarnera", "role": "C (returning starter; withdrawal override)", "evidence": "71.3/710 2025"},
-    {"name": "Blake Frazier", "role": "LT (returning starter)", "evidence": "64.4/505 2025; 'thrived at left tackle' as FR (P6)"}
+    {
+     "name": "Andrew Sprague",
+     "role": "RT (returning starter; withdrawal override)",
+     "evidence": "72.6 PFF/740 2025; All-B10 as SOPH"
+    },
+    {
+     "name": "Jake Guarnera",
+     "role": "C (returning starter; withdrawal override)",
+     "evidence": "71.3/710 2025"
+    },
+    {
+     "name": "Blake Frazier",
+     "role": "LT (returning starter)",
+     "evidence": "64.4/505 2025; 'thrived at left tackle' as FR (P6)"
+    }
    ],
-   "data_gaps": ["Interior arrangement (Link G shift, Efobi vs Ka'aha'aina-Torres)", "Babalola health"],
+   "data_gaps": [
+    "Interior arrangement (Link G shift, Efobi vs Ka'aha'aina-Torres)",
+    "Babalola health"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Michigan", "unit": "DL", "grade": 76, "confidence": "M",
-   "bracketing_exemplars": ["Washington State DB 2025 (72)", "Texas Tech OL 2025 (84)"],
+   "team": "Michigan",
+   "unit": "DL",
+   "grade": 76,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Washington State DB 2025 (72)",
+    "Texas Tech OL 2025 (84)"
+   ],
    "rationale_bullets": [
     "The import is a genuine star: Daley (92.0 PFF/513 at Utah, B12 +3 -> 95.0) - first-team All-American who LED THE NATION in sacks (11.5) until his Week-11 injury; 'should be back for fall camp' (P6). Utah's starting DT Lea'ea (66.1/623 -> 69.1) came with him.",
     "The returning interior is credible: Pierce (72.9/405 -> 82.9; Athlon 'bullish'), Etta (62.7/295 -> 72.7; withdrew from the portal and stays), Nichols (72.2/198 -> 82.2), Brandt (59.2/405).",
@@ -110,17 +222,42 @@
     "Weighted adjusted aggregate ~78 (~p82) with four pieces at 72+; graded one notch under the mechanical for Daley's health dependency. 76, M - 'Whittingham always has a solid D-Line' (PS)."
    ],
    "key_players": [
-    {"name": "John Henry Daley", "role": "DE1 (transfer, Utah)", "evidence": "92.0 PFF/513 2025; 1st-tm AA; 11.5 sk (led FBS) pre-Wk11 injury"},
-    {"name": "Trey Pierce", "role": "DT (returning starter)", "evidence": "72.9/405 2025"},
-    {"name": "Jonah Lea'ea", "role": "DT (transfer, Utah)", "evidence": "66.1/623 2025; Utah starting DT"},
-    {"name": "Enow Etta", "role": "DT (withdrawal override)", "evidence": "62.7/295 2025; Athlon DT starter"}
+    {
+     "name": "John Henry Daley",
+     "role": "DE1 (transfer, Utah)",
+     "evidence": "92.0 PFF/513 2025; 1st-tm AA; 11.5 sk (led FBS) pre-Wk11 injury"
+    },
+    {
+     "name": "Trey Pierce",
+     "role": "DT (returning starter)",
+     "evidence": "72.9/405 2025"
+    },
+    {
+     "name": "Jonah Lea'ea",
+     "role": "DT (transfer, Utah)",
+     "evidence": "66.1/623 2025; Utah starting DT"
+    },
+    {
+     "name": "Enow Etta",
+     "role": "DT (withdrawal override)",
+     "evidence": "62.7/295 2025; Athlon DT starter"
+    }
    ],
-   "data_gaps": ["Daley recovery status beyond 'back for fall camp'", "Which Top100 FRs crack the rotation"],
+   "data_gaps": [
+    "Daley recovery status beyond 'back for fall camp'",
+    "Which Top100 FRs crack the rotation"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Michigan", "unit": "LB", "grade": 42, "confidence": "L",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "team": "Michigan",
+   "unit": "LB",
+   "grade": 42,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "'A complete restart' (P6): the All-B10 trio - Rolder (72.2/531; rd-4 DET), Hausmann (65.4/495), Barham - are gone, and 'backer of the future' Sullivan (59.3/331) left for Oklahoma. The unit 'returns 0 starts' (PS).",
     "The proxy prints a BLANK for this unit - zero qualifying returning volume - the cleanest possible statement of the risk.",
@@ -129,16 +266,37 @@
     "LB-caution rule + zero proven volume + scheme install = 42, L - just above the UNLV-40 anchor on pedigree breadth alone; the widest honest uncertainty on the team."
    ],
    "key_players": [
-    {"name": "Troy Bowles", "role": "ILB (returning)", "evidence": "60.6 PFF/210 2025; PS#7 LB"},
-    {"name": "Nathaniel Owusu-Boateng", "role": "ILB (rFr)", "evidence": "54.4/75 2025; Top200 prospect"},
-    {"name": "Nathaniel Staehling", "role": "LB (transfer, North Dakota State)", "evidence": "FCS standout (P6); no FBS tape"}
+    {
+     "name": "Troy Bowles",
+     "role": "ILB (returning)",
+     "evidence": "60.6 PFF/210 2025; PS#7 LB"
+    },
+    {
+     "name": "Nathaniel Owusu-Boateng",
+     "role": "ILB (rFr)",
+     "evidence": "54.4/75 2025; Top200 prospect"
+    },
+    {
+     "name": "Nathaniel Staehling",
+     "role": "LB (transfer, North Dakota State)",
+     "evidence": "FCS standout (P6); no FBS tape"
+    }
    ],
-   "data_gaps": ["Starting pair unresolved in prints", "No run-D/coverage sub-grades for the small samples"],
+   "data_gaps": [
+    "Starting pair unresolved in prints",
+    "No run-D/coverage sub-grades for the small samples"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Michigan", "unit": "DB", "grade": 70, "confidence": "M",
-   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "team": "Michigan",
+   "unit": "DB",
+   "grade": 70,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
    "rationale_bullets": [
     "The corner pair is the case: Hill (77.6/710 -> 83.6) + Berry (65.8/562 -> 71.8) - 'fully loaded with an all-league corner pair' (P6), both printed returning by all three books. Berry carries the build's highest-leverage adjudication (portal-None + yr4 feed vs triple-print return - double override, risk documented).",
     "Snowden (69.3/632 at Utah, B12 +2 -> 71.3; 2nd-team All-B12) imports at the nickel in a scheme Whittingham says plays nickel 90% of snaps; Bracy (68.6/758 at Memphis, AAC -3 -> 65.6; 10 st, 81 tkl) and 3x-captain R.Moore (64.0/85; ACL-limited; yr4 medical override) fill safety with Curtis (76.4/369 -> 82.4) behind.",
@@ -147,17 +305,42 @@
     "Weighted aggregate ~74 (~p78) discounted for Berry risk + Moore health = 70, M."
    ],
    "key_players": [
-    {"name": "Jyaire Hill", "role": "CB1 (returning starter)", "evidence": "77.6 PFF/710 2025; all-league (P6)"},
-    {"name": "Zeke Berry", "role": "CB2 (returning starter; double override)", "evidence": "65.8/562 2025; triple-print return vs portal-None+yr4 feed (news.md)"},
-    {"name": "Smith Snowden", "role": "NB (transfer, Utah)", "evidence": "69.3/632 2025; 2nd-tm All-B12"},
-    {"name": "Rod Moore", "role": "S (yr4 medical override)", "evidence": "64.0/85 2025 (3 games post-ACL); 3x captain"}
+    {
+     "name": "Jyaire Hill",
+     "role": "CB1 (returning starter)",
+     "evidence": "77.6 PFF/710 2025; all-league (P6)"
+    },
+    {
+     "name": "Zeke Berry",
+     "role": "CB2 (returning starter; double override)",
+     "evidence": "65.8/562 2025; triple-print return vs portal-None+yr4 feed (news.md)"
+    },
+    {
+     "name": "Smith Snowden",
+     "role": "NB (transfer, Utah)",
+     "evidence": "69.3/632 2025; 2nd-tm All-B12"
+    },
+    {
+     "name": "Rod Moore",
+     "role": "S (yr4 medical override)",
+     "evidence": "64.0/85 2025 (3 games post-ACL); 3x captain"
+    }
    ],
-   "data_gaps": ["Berry portal-entry timing vs print dates (news.md risk note)", "S battle (Bracy/S.Moa/Curtis)"],
+   "data_gaps": [
+    "Berry portal-entry timing vs print dates (news.md risk note)",
+    "S battle (Bracy/S.Moa/Curtis)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Michigan", "unit": "ST", "grade": 55, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "team": "Michigan",
+   "unit": "ST",
+   "grade": 55,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "ST rule: start at the prior SPEC percentile - 99th - then adjust for personnel, and the adjustments are heavy: Zvada (the elite leg that drove the grade) is GONE, the P netted 38.7, returns went negative (PR -2.25/KR -4.76), STR fell to #80 and the coordinator was fired (PS).",
     "Verified replacements: Butkowski (Pitt; 20-of-23 as a FR), Brown (UNLV; 41.1 net), new STC Kerry Coombs.",
@@ -165,11 +348,25 @@
     "PS: 'should have a Stock Market rise in the STR' - from #80, with a proven young K. 55, M."
    ],
    "key_players": [
-    {"name": "Trey Butkowski", "role": "K (transfer, Pittsburgh)", "evidence": "20-23 FG as a FR (Athlon)"},
-    {"name": "Cameron Brown", "role": "P (transfer, UNLV)", "evidence": "41.1 net 2025 (PS)"},
-    {"name": "Andrew Marsh", "role": "KR/PR (returning)", "evidence": "explosive returns 2025 (Athlon)"}
+    {
+     "name": "Trey Butkowski",
+     "role": "K (transfer, Pittsburgh)",
+     "evidence": "20-23 FG as a FR (Athlon)"
+    },
+    {
+     "name": "Cameron Brown",
+     "role": "P (transfer, UNLV)",
+     "evidence": "41.1 net 2025 (PS)"
+    },
+    {
+     "name": "Andrew Marsh",
+     "role": "KR/PR (returning)",
+     "evidence": "explosive returns 2025 (Athlon)"
+    }
    ],
-   "data_gaps": ["Coverage-unit quality under Coombs unknowable pre-season"],
+   "data_gaps": [
+    "Coverage-unit quality under Coombs unknowable pre-season"
+   ],
    "g5_guard_note": null
   }
  ]

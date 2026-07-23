@@ -1,14 +1,44 @@
 {
  "team": "Miami (OH)",
  "units": {
-  "QB": {"grade": 30, "confidence": "L"},
-  "RB": {"grade": 26, "confidence": "M"},
-  "WRTE": {"grade": 24, "confidence": "M"},
-  "OL": {"grade": 30, "confidence": "M"},
-  "DL": {"grade": 28, "confidence": "M"},
-  "LB": {"grade": 38, "confidence": "M"},
-  "DB": {"grade": 26, "confidence": "M"},
-  "ST": {"grade": 40, "confidence": "M"}
+  "QB": {
+   "grade": 30,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 26,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 24,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 23,
+   "confidence": "M",
+   "v1_grade": 30,
+   "adjudication": "50/50 blend: dg-14.0"
+  },
+  "DL": {
+   "grade": 21,
+   "confidence": "M",
+   "v1_grade": 28,
+   "adjudication": "50/50 blend: dg-13.2"
+  },
+  "LB": {
+   "grade": 34,
+   "confidence": "M",
+   "v1_grade": 38,
+   "adjudication": "LB 0.4 blend: dg-10.3"
+  },
+  "DB": {
+   "grade": 26,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 40,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -25,7 +55,9 @@
    "OL": "+27 vs proxy 3 (proxy cannot see Malcore's 74.5/715 arrival row or weigh 49 returning starts)",
    "DB": "+23 vs proxy 3 (drops Withdrawn-portal Yharbrough; counts departed Blakey/Walters/Beasley)",
    "ST": "-16 vs proxy 56 - directionally aligned for once (everything but the K returns)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -44,11 +76,26 @@
     "30, L: some returning FBS tape + P4-RS pedigree beats the zero-tape rooms (UMass/Buffalo 22); the 44% completion rate and open battle cap it under KSU's 32."
    ],
    "key_players": [
-    {"name": "Thomas Gotkowski", "role": "QB1 candidate (returning)", "evidence": "59.1/109; 3 st, 575 @ 44%, 4-1"},
-    {"name": "David McComb", "role": "QB1 candidate (transfer, Kansas)", "evidence": "RS, zero tape; PS #34"},
-    {"name": "Caleb Heavner", "role": "QB2 (transfer, D2 Fort Hays - feed-gap)", "evidence": "3,239 pass + 1,017 rush over 21 gm"}
+    {
+     "name": "Thomas Gotkowski",
+     "role": "QB1 candidate (returning)",
+     "evidence": "59.1/109; 3 st, 575 @ 44%, 4-1"
+    },
+    {
+     "name": "David McComb",
+     "role": "QB1 candidate (transfer, Kansas)",
+     "evidence": "RS, zero tape; PS #34"
+    },
+    {
+     "name": "Caleb Heavner",
+     "role": "QB2 (transfer, D2 Fort Hays - feed-gap)",
+     "evidence": "3,239 pass + 1,017 rush over 21 gm"
+    }
    ],
-   "data_gaps": ["split-print starter", "no candidate above 109 FBS pass snaps"],
+   "data_gaps": [
+    "split-print starter",
+    "no candidate above 109 FBS pass snaps"
+   ],
    "g5_guard_note": null
   },
   {
@@ -67,11 +114,25 @@
     "26: FCS-POY-led committee lands just under CMU/BGSU's 28 (their FBS tape beats his no-cell tape) and far over Buffalo's 16."
    ],
    "key_players": [
-    {"name": "Rodney Nelson", "role": "RB1 (transfer, FCS Monmouth)", "evidence": "CAA POY; 1,802 @ 6.2, 18 TD"},
-    {"name": "D'Shawntae Jones", "role": "RB2 (returning)", "evidence": "79.8/62; 277 @ 4.4; PS #169"},
-    {"name": "Cade Yacamelli", "role": "RB2 (transfer, Wisconsin)", "evidence": "64.6/38; 571 @ 5.3 over 3 yrs"}
+    {
+     "name": "Rodney Nelson",
+     "role": "RB1 (transfer, FCS Monmouth)",
+     "evidence": "CAA POY; 1,802 @ 6.2, 18 TD"
+    },
+    {
+     "name": "D'Shawntae Jones",
+     "role": "RB2 (returning)",
+     "evidence": "79.8/62; 277 @ 4.4; PS #169"
+    },
+    {
+     "name": "Cade Yacamelli",
+     "role": "RB2 (transfer, Wisconsin)",
+     "evidence": "64.6/38; 571 @ 5.3 over 3 yrs"
+    }
    ],
-   "data_gaps": ["FCS-to-MAC translation for the headliner"],
+   "data_gaps": [
+    "FCS-to-MAC translation for the headliner"
+   ],
    "g5_guard_note": null
   },
   {
@@ -90,11 +151,26 @@
     "24: one 12-start anchor + credentialed unknowns - between Buffalo's 22 and KSU's four-mid-piece 26. 'Almost all the receivers will be newcomers' (Athlon)."
    ],
    "key_players": [
-    {"name": "Keith Reynolds", "role": "WR1 (returning starter)", "evidence": "64.4/324; 12 st, 352 @ 9.8"},
-    {"name": "Damarion Witten", "role": "WR (transfer, Ohio State)", "evidence": "PS WR #22; zero-snap rFr (gap-in-feed origin)"},
-    {"name": "Braylon Isom", "role": "WR (returning)", "evidence": "60.6/166; 158 @ 14.4 L2Y"}
+    {
+     "name": "Keith Reynolds",
+     "role": "WR1 (returning starter)",
+     "evidence": "64.4/324; 12 st, 352 @ 9.8"
+    },
+    {
+     "name": "Damarion Witten",
+     "role": "WR (transfer, Ohio State)",
+     "evidence": "PS WR #22; zero-snap rFr (gap-in-feed origin)"
+    },
+    {
+     "name": "Braylon Isom",
+     "role": "WR (returning)",
+     "evidence": "60.6/166; 158 @ 14.4 L2Y"
+    }
    ],
-   "data_gaps": ["P4 adds have ~10 combined FBS targets", "two import origins unprinted"],
+   "data_gaps": [
+    "P4 adds have ~10 combined FBS targets",
+    "two import origins unprinted"
+   ],
    "g5_guard_note": null
   },
   {
@@ -113,11 +189,26 @@
     "30: edges CMU's 28 on Malcore + start volume; the pass-pro tape keeps it well under the p50 region."
    ],
    "key_players": [
-    {"name": "Evan Malcore", "role": "RT1 (transfer, NIU)", "evidence": "74.5/715; 32 career starts; 3rd-Tm MAC"},
-    {"name": "Kris Manu", "role": "C1 (returning starter)", "evidence": "61.0/809; 14 st"},
-    {"name": "Eric Smith", "role": "LT1 (returning starter)", "evidence": "44.7/793; 14 st; 2nd/3rd-Tm MAC honors vs grade tension"}
+    {
+     "name": "Evan Malcore",
+     "role": "RT1 (transfer, NIU)",
+     "evidence": "74.5/715; 32 career starts; 3rd-Tm MAC"
+    },
+    {
+     "name": "Kris Manu",
+     "role": "C1 (returning starter)",
+     "evidence": "61.0/809; 14 st"
+    },
+    {
+     "name": "Eric Smith",
+     "role": "LT1 (returning starter)",
+     "evidence": "44.7/793; 14 st; 2nd/3rd-Tm MAC honors vs grade tension"
+    }
    ],
-   "data_gaps": ["PBLK p3 with returning personnel", "honors-grade divergence at LT"],
+   "data_gaps": [
+    "PBLK p3 with returning personnel",
+    "honors-grade divergence at LT"
+   ],
    "g5_guard_note": null
   },
   {
@@ -136,11 +227,26 @@
     "28: floor-high, ceiling-modest - above CMU's 24 on depth, below BGSU's 34 (Bradley beats anyone here). PRSH p90 fades with Trick."
    ],
    "key_players": [
-    {"name": "Roosevelt Andrews III", "role": "DT1 (returning starter)", "evidence": "62.9/486; 13 st"},
-    {"name": "Mikah Coleman", "role": "DE (transfer, Cincinnati)", "evidence": "57.6/449; 12 st, 33 tkl"},
-    {"name": "Bai Jobe", "role": "DE (returning)", "evidence": "59.9/342; 1 st, 4 sk; ex-Kentucky"}
+    {
+     "name": "Roosevelt Andrews III",
+     "role": "DT1 (returning starter)",
+     "evidence": "62.9/486; 13 st"
+    },
+    {
+     "name": "Mikah Coleman",
+     "role": "DE (transfer, Cincinnati)",
+     "evidence": "57.6/449; 12 st, 33 tkl"
+    },
+    {
+     "name": "Bai Jobe",
+     "role": "DE (returning)",
+     "evidence": "59.9/342; 1 st, 4 sk; ex-Kentucky"
+    }
    ],
-   "data_gaps": ["no returning 70+ piece post-Trick", "'will need another DE' (PS)"],
+   "data_gaps": [
+    "no returning 70+ piece post-Trick",
+    "'will need another DE' (PS)"
+   ],
    "g5_guard_note": null
   },
   {
@@ -159,11 +265,25 @@
     "38: the deepest honors-bearing LB room of the round - Athlon calls it 'the strongest unit,' Martin his best group; just under the UNLV-40 anchor on offset drag."
    ],
    "key_players": [
-    {"name": "CJ Young", "role": "LB1 (transfer, Kent State - feed-gap)", "evidence": "74.3/563; 2nd-Tm All-MAC; 89 tkl, 8 tfl"},
-    {"name": "Blayne Myrick", "role": "MLB1 (transfer, South Alabama)", "evidence": "62.0/599; 1st-Tm All-Sun Belt '24"},
-    {"name": "Malcolm McCain", "role": "WLB1 (returning starter)", "evidence": "65.1/586; 73 tkl"}
+    {
+     "name": "CJ Young",
+     "role": "LB1 (transfer, Kent State - feed-gap)",
+     "evidence": "74.3/563; 2nd-Tm All-MAC; 89 tkl, 8 tfl"
+    },
+    {
+     "name": "Blayne Myrick",
+     "role": "MLB1 (transfer, South Alabama)",
+     "evidence": "62.0/599; 1st-Tm All-Sun Belt '24"
+    },
+    {
+     "name": "Malcolm McCain",
+     "role": "WLB1 (returning starter)",
+     "evidence": "65.1/586; 73 tkl"
+    }
    ],
-   "data_gaps": ["two import starters in a new scheme"],
+   "data_gaps": [
+    "two import starters in a new scheme"
+   ],
    "g5_guard_note": null
   },
   {
@@ -182,11 +302,26 @@
     "26: two returning volume corners + a converted starter beats CMU's one-anchor 22; the unproven safety pair keeps it under EMU's 28."
    ],
    "key_players": [
-    {"name": "Kaleb Martin", "role": "CB1 (returning starter)", "evidence": "61.3/567; 1 st, 21 tkl"},
-    {"name": "Mychal Yharbrough", "role": "S1 (returning; withdrawal override; CB->S)", "evidence": "63.1/655; 10 st, 48 tkl"},
-    {"name": "Dillon Tatum", "role": "S1 (transfer, Northwestern)", "evidence": "58.6/103; MSU '22-23: 9 st"}
+    {
+     "name": "Kaleb Martin",
+     "role": "CB1 (returning starter)",
+     "evidence": "61.3/567; 1 st, 21 tkl"
+    },
+    {
+     "name": "Mychal Yharbrough",
+     "role": "S1 (returning; withdrawal override; CB->S)",
+     "evidence": "63.1/655; 10 st, 48 tkl"
+    },
+    {
+     "name": "Dillon Tatum",
+     "role": "S1 (transfer, Northwestern)",
+     "evidence": "58.6/103; MSU '22-23: 9 st"
+    }
    ],
-   "data_gaps": ["both safety spots effectively new", "P4 adds have thin recent tape"],
+   "data_gaps": [
+    "both safety spots effectively new",
+    "P4 adds have thin recent tape"
+   ],
    "g5_guard_note": null
   },
   {
@@ -205,11 +340,25 @@
     "40: the round's best ST room by a wide margin - two all-conference returners + proven P + elite system, docked for the FG hole."
    ],
    "key_players": [
-    {"name": "Pierse Stainton", "role": "P1 (returning)", "evidence": "63 punts, 42.3 avg, 39.9 net"},
-    {"name": "Keith Reynolds", "role": "KR1 (returning)", "evidence": "3rd-Tm MAC; 28.5, 1 TD"},
-    {"name": "Kellan McLaughlin", "role": "K1 (returning KO specialist)", "evidence": "71 KO/40 TB; 2-2 career FG"}
+    {
+     "name": "Pierse Stainton",
+     "role": "P1 (returning)",
+     "evidence": "63 punts, 42.3 avg, 39.9 net"
+    },
+    {
+     "name": "Keith Reynolds",
+     "role": "KR1 (returning)",
+     "evidence": "3rd-Tm MAC; 28.5, 1 TD"
+    },
+    {
+     "name": "Kellan McLaughlin",
+     "role": "K1 (returning KO specialist)",
+     "evidence": "71 KO/40 TB; 2-2 career FG"
+    }
    ],
-   "data_gaps": ["FG job on 2 career attempts"],
+   "data_gaps": [
+    "FG job on 2 career attempts"
+   ],
    "g5_guard_note": null
   }
  ]

@@ -1,14 +1,42 @@
 {
  "team": "Virginia Tech",
  "units": {
-  "QB": {"grade": 48, "confidence": "L"},
-  "RB": {"grade": 60, "confidence": "M"},
-  "WRTE": {"grade": 50, "confidence": "M"},
-  "OL": {"grade": 42, "confidence": "M"},
-  "DL": {"grade": 50, "confidence": "M"},
-  "LB": {"grade": 44, "confidence": "L"},
-  "DB": {"grade": 60, "confidence": "M"},
-  "ST": {"grade": 50, "confidence": "M"}
+  "QB": {
+   "grade": 48,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 60,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 42,
+   "confidence": "M",
+   "v1_grade": 50,
+   "adjudication": "50/50 blend: dg-17.9"
+  },
+  "OL": {
+   "grade": 38,
+   "confidence": "M",
+   "v1_grade": 42,
+   "adjudication": "50/50 blend: dg-8.1"
+  },
+  "DL": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 44,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 60,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 50,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,19 +44,29 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; ACC POSITIVE offsets on returning tape, arrivals on origin cells; NEW-HC first-year-system risk carried in band x1.13 not units; disposition gate resolved before grading); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 48/RB 60/WRTE 50/OL 42/DL 50/LB 44/DB 60/ST 50)."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines (QB 48/RB 60/WRTE 50/OL 42/DL 50/LB 44/DB 60/ST 50)."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 42, RB 41, WRTE 43, OL None, DL None, LB None, DB 90, ST 7) keys as-played 2025 tape; the 2026 team is a near-total overhaul under new HC Franklin.",
    "QB": "+6 vs proxy 42 - proxy keys the 2025 VT QB tape (Drones, gone); the grade keys transfer Grunkemeyer (69.1 adj) + the Franklin system.",
    "RB": "+19 vs proxy 41 - proxy keys the returning-production shape; the grade credits Hawkins (90.9 adj, efficient returner) + proven transfer Davis (74.1).",
    "DB": "-30 vs proxy 90 - proxy keys the elite raw personnel (White 87.4, Chadwick 75.0); the grade discounts hard for the COV-p5 '25 base + transfer integration (White/Chadwick stepping up) + first-year system.",
    "ST": "+43 vs proxy 7 - proxy keys the bad '25 return game; the grade credits returning career-elite kicker John Love + transfer P Totten."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "Virginia Tech", "unit": "QB", "grade": 48, "confidence": "L",
-   "bracketing_exemplars": ["New Mexico QB 2025 (34, round exemplar)", "Syracuse QB 2026 (52, round peer)"],
+   "team": "Virginia Tech",
+   "unit": "QB",
+   "grade": 48,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "New Mexico QB 2025 (34, round exemplar)",
+    "Syracuse QB 2026 (52, round peer)"
+   ],
    "rationale_bullets": [
     "Grunkemeyer (Penn State transfer, brought by Franklin) is the clear QB1: 68.5/218 -> B10 +0.55 -> 69.1 adj (~QB p42); 777 yds, 6 TD, 0 INT in PSU's final 4 games '25.",
     "2025 starter Kyron Drones (1,919 yds) is GONE - yr4, on NEITHER 2026 depth chart (both list Fr transfer Baker as QB2, no Drones).",
@@ -36,14 +74,32 @@
     "48: above the proven-nothing tier; below Syracuse-Angeli-52 (whose 80.1 tape was far higher). L (sample + new system)."
    ],
    "key_players": [
-    {"name": "Ethan Grunkemeyer", "role": "QB1 (transfer, Penn State)", "evidence": "68.5/218 (69.1 adj); 777 yds 6TD 0INT final 4 gms; came with Franklin"},
-    {"name": "Bryce Baker", "role": "QB2 (transfer, North Carolina)", "evidence": "true-Fr transfer; insurance"}
+    {
+     "name": "Ethan Grunkemeyer",
+     "role": "QB1 (transfer, Penn State)",
+     "evidence": "68.5/218 (69.1 adj); 777 yds 6TD 0INT final 4 gms; came with Franklin"
+    },
+    {
+     "name": "Bryce Baker",
+     "role": "QB2 (transfer, North Carolina)",
+     "evidence": "true-Fr transfer; insurance"
+    }
    ],
-   "data_gaps": ["218-snap sample, first-year full-time starter", "new system under new HC"], "g5_guard_note": null
+   "data_gaps": [
+    "218-snap sample, first-year full-time starter",
+    "new system under new HC"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Virginia Tech", "unit": "RB", "grade": 60, "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32, exemplar anchor)", "Akron RB (p3, 60.3 table anchor context)"],
+   "team": "Virginia Tech",
+   "unit": "RB",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32, exemplar anchor)",
+    "Akron RB (p3, 60.3 table anchor context)"
+   ],
    "rationale_bullets": [
     "Hawkins (returning yr4-override): 86.0/181 -> ACC +4.90 -> 90.9 adj; 6.35 ypc, 5th in the ACC.",
     "Bill Davis (Louisiana transfer): 76.1 -> SBC -2.02 -> 74.1 adj; 796 & 763 rush yds the last 2 years - proven volume.",
@@ -51,14 +107,32 @@
     "60: a clear notch below the elite-workhorse tier on Hawkins' 181-snap sample; well above the Illinois-32 all-transfer tier."
    ],
    "key_players": [
-    {"name": "Marcellous Hawkins", "role": "RB1 (returning, yr4-override, BOLD)", "evidence": "86.0/181 (90.9 ACC-adj); 6.35 ypc 5th ACC"},
-    {"name": "Bill Davis", "role": "RB (transfer, Louisiana)", "evidence": "76.1 (74.1 adj); 796 & 763 rush yds last 2 yrs"}
+    {
+     "name": "Marcellous Hawkins",
+     "role": "RB1 (returning, yr4-override, BOLD)",
+     "evidence": "86.0/181 (90.9 ACC-adj); 6.35 ypc 5th ACC"
+    },
+    {
+     "name": "Bill Davis",
+     "role": "RB (transfer, Louisiana)",
+     "evidence": "76.1 (74.1 adj); 796 & 763 rush yds last 2 yrs"
+    }
    ],
-   "data_gaps": ["Hawkins 181-snap sample (missed spring)", "new system"], "g5_guard_note": null
+   "data_gaps": [
+    "Hawkins 181-snap sample (missed spring)",
+    "new system"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Virginia Tech", "unit": "WRTE", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Missouri State WRTE (p25, 61.3 table anchor)", "Nebraska WRTE 2025 (50, exemplar anchor)"],
+   "team": "Virginia Tech",
+   "unit": "WRTE",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Missouri State WRTE (p25, 61.3 table anchor)",
+    "Nebraska WRTE 2025 (50, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Que'Sean Brown (Duke): 71.8 -> ACC +2.36 -> 74.2 adj; 846 yds, 5 TD - a proven ACC WR1.",
     "Ayden Greene returns as the top WR (63.2 -> 65.6 adj; 516 yds; BOLD) + Takye Heath (BOLD) + 5-star TE Luke Reynolds (Penn State, 61.5 adj) + TE Gosnell.",
@@ -66,15 +140,36 @@
     "50: a solid, deep P4 room led by a proven WR1; ~ the Nebraska-50 exemplar."
    ],
    "key_players": [
-    {"name": "Que'Sean Brown", "role": "WR (transfer, Duke)", "evidence": "71.8/397 (74.2 adj); 846 yds 5TD; also PR"},
-    {"name": "Ayden Greene", "role": "WR1 (returning, BOLD)", "evidence": "63.2/325 (65.6 adj); 516 yds"},
-    {"name": "Luke Reynolds", "role": "TE (transfer, Penn State)", "evidence": "62.8/208 (61.5 adj); former 5-star"}
+    {
+     "name": "Que'Sean Brown",
+     "role": "WR (transfer, Duke)",
+     "evidence": "71.8/397 (74.2 adj); 846 yds 5TD; also PR"
+    },
+    {
+     "name": "Ayden Greene",
+     "role": "WR1 (returning, BOLD)",
+     "evidence": "63.2/325 (65.6 adj); 516 yds"
+    },
+    {
+     "name": "Luke Reynolds",
+     "role": "TE (transfer, Penn State)",
+     "evidence": "62.8/208 (61.5 adj); former 5-star"
+    }
    ],
-   "data_gaps": ["room reshuffled (top '25 WRs gone), reload unproven together"], "g5_guard_note": null
+   "data_gaps": [
+    "room reshuffled (top '25 WRs gone), reload unproven together"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Virginia Tech", "unit": "OL", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25, exemplar anchor)", "Michigan OL (p50, 65.5 table anchor)"],
+   "team": "Virginia Tech",
+   "unit": "OL",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25, exemplar anchor)",
+    "Michigan OL (p50, 65.5 table anchor)"
+   ],
    "rationale_bullets": [
     "4 returning starters (Altuner C 62.0 adj; Ghannam LG 58.5; Garrett RG 52.7; Lynch RT 49.1) + yr4-override Cunningham (58.5).",
     "Adds P4 transfers Howland (Oklahoma, 68.5 adj - best piece) + Terry (Ohio State, tiny sample).",
@@ -82,15 +177,37 @@
     "42: experience + 2 P4 transfers keep it off the WKU-25 rail; the p4 base + weak grades cap it. Same profile as Syracuse OL 42."
    ],
    "key_players": [
-    {"name": "Kyle Altuner", "role": "C (returning, BOLD)", "evidence": "58.5/793 (62.0 ACC-adj); 'locks down the middle'"},
-    {"name": "Logan Howland", "role": "LT (transfer, Oklahoma)", "evidence": "60.0/221 (68.5 adj); best OL piece"},
-    {"name": "Montavious Cunningham", "role": "RT (returning, yr4-override)", "evidence": "55.0/233 (58.5 adj); 15 st 2Y at GaSt"}
+    {
+     "name": "Kyle Altuner",
+     "role": "C (returning, BOLD)",
+     "evidence": "58.5/793 (62.0 ACC-adj); 'locks down the middle'"
+    },
+    {
+     "name": "Logan Howland",
+     "role": "LT (transfer, Oklahoma)",
+     "evidence": "60.0/221 (68.5 adj); best OL piece"
+    },
+    {
+     "name": "Montavious Cunningham",
+     "role": "RT (returning, yr4-override)",
+     "evidence": "55.0/233 (58.5 adj); 15 st 2Y at GaSt"
+    }
    ],
-   "data_gaps": ["PBLK p4 (worst pass-pro in FBS)", "low returner grades"], "g5_guard_note": null
+   "data_gaps": [
+    "PBLK p4 (worst pass-pro in FBS)",
+    "low returner grades"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Virginia Tech", "unit": "DL", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Buffalo DL (p10, 57.2 table anchor context)", "East Carolina DL (p25, 60.5 table anchor)"],
+   "team": "Virginia Tech",
+   "unit": "DL",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Buffalo DL (p10, 57.2 table anchor context)",
+    "East Carolina DL (p25, 60.5 table anchor)"
+   ],
    "rationale_bullets": [
     "Copeland (returning) is the anchor: 75.3/471 -> 76.5 adj; 'NFL grades', 7.5 TFL 4.5 sk.",
     "Quality returners Abbey (74.8/196) + Laws (73.5/161) + Fall (yr4-override, 64.2) + Stevens (61.8); big transfer wave (M.Williams PSU, Mensah OSU, Curtis Jones WVU, Okunlola, Hilson) held as depth on tiny samples.",
@@ -98,15 +215,37 @@
     "50: a real anchor + quality returners + deep P4 influx; integration risk + Athlon 'few proven playmakers other than Copeland' cap it."
    ],
    "key_players": [
-    {"name": "Kemari Copeland", "role": "DT1 (returning, BOLD)", "evidence": "75.3/471 (76.5 adj); 'NFL grades'; 7.5 TFL 4.5 sk"},
-    {"name": "Jason Abbey", "role": "DE (returning)", "evidence": "73.6/196 (74.8 adj)"},
-    {"name": "Elhadj Fall", "role": "DT (returning, yr4-override)", "evidence": "63.0/475 (64.2 adj)"}
+    {
+     "name": "Kemari Copeland",
+     "role": "DT1 (returning, BOLD)",
+     "evidence": "75.3/471 (76.5 adj); 'NFL grades'; 7.5 TFL 4.5 sk"
+    },
+    {
+     "name": "Jason Abbey",
+     "role": "DE (returning)",
+     "evidence": "73.6/196 (74.8 adj)"
+    },
+    {
+     "name": "Elhadj Fall",
+     "role": "DT (returning, yr4-override)",
+     "evidence": "63.0/475 (64.2 adj)"
+    }
    ],
-   "data_gaps": ["lost the 4 highest-snap DL (yr4)", "transfer wave mostly tiny samples, new scheme"], "g5_guard_note": null
+   "data_gaps": [
+    "lost the 4 highest-snap DL (yr4)",
+    "transfer wave mostly tiny samples, new scheme"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Virginia Tech", "unit": "LB", "grade": 44, "confidence": "L",
-   "bracketing_exemplars": ["Nevada LB (p25, 56.3 table anchor context)", "UNLV LB 2025 (40, exemplar anchor)"],
+   "team": "Virginia Tech",
+   "unit": "LB",
+   "grade": 44,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Nevada LB (p25, 56.3 table anchor context)",
+    "UNLV LB 2025 (40, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Kaleb Spencer (returning, #1 tackler, 60.5 adj) + Noah Chambers (returning, 'all-conf caliber', 55.6) + Keon Wylie (Penn State, 62.9 -> B10 +16.10 -> 79.0 adj BUT offset-inflated on a 215-snap backup - NOT credited as elite).",
     "Loses the top-2 tacklers: Keller (yr4) + Woodson (-> Alabama) + Short (-> TCU).",
@@ -114,15 +253,37 @@
     "44: functional two returning starters + P4 pieces; the thin depth + modest grades cap it near the UNLV-40 tier. L."
    ],
    "key_players": [
-    {"name": "Kaleb Spencer", "role": "LB (returning, #1 tackler)", "evidence": "58.4/373 (60.5 ACC-adj)"},
-    {"name": "Noah Chambers", "role": "LB (returning, BOLD)", "evidence": "53.5/283 (55.6 adj); 'all-conf caliber'"},
-    {"name": "Keon Wylie", "role": "LB (transfer, Penn State)", "evidence": "62.9/215; B10-offset-inflated, weighted modestly"}
+    {
+     "name": "Kaleb Spencer",
+     "role": "LB (returning, #1 tackler)",
+     "evidence": "58.4/373 (60.5 ACC-adj)"
+    },
+    {
+     "name": "Noah Chambers",
+     "role": "LB (returning, BOLD)",
+     "evidence": "53.5/283 (55.6 adj); 'all-conf caliber'"
+    },
+    {
+     "name": "Keon Wylie",
+     "role": "LB (transfer, Penn State)",
+     "evidence": "62.9/215; B10-offset-inflated, weighted modestly"
+    }
    ],
-   "data_gaps": ["lost top-2 tacklers", "thin depth; Wylie offset over-corrects the individual"], "g5_guard_note": null
+   "data_gaps": [
+    "lost top-2 tacklers",
+    "thin depth; Wylie offset over-corrects the individual"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Virginia Tech", "unit": "DB", "grade": 60, "confidence": "M",
-   "bracketing_exemplars": ["Syracuse DB 2026 (50, round peer)", "Washington State DB 2025 (72, exemplar anchor)"],
+   "team": "Virginia Tech",
+   "unit": "DB",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Syracuse DB 2026 (50, round peer)",
+    "Washington State DB 2025 (72, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "THE STRENGTH: Jaquez White (Troy) is elite on a huge sample - 87.4/879 -> SBC -3.62 -> 83.8 adj.",
     "FOUR more DBs at 72+ adj: returning corners Brown-Murray (75.3/694) + Thomas Williams (72.8/561), transfer Chadwick (UConn, 72.1/862), S Reddish (74.7, back from injury); + S Flowers (65.0) + nickel Woseley (70.7).",
@@ -130,15 +291,37 @@
     "60: a clear notch above Syracuse-50 on depth; discounted below the elite tier for the historically-bad p5 base + White/Chadwick stepping up in competition + first-year system."
    ],
    "key_players": [
-    {"name": "Jaquez White", "role": "CB1 (transfer, Troy)", "evidence": "87.4/879 (83.8 adj); elite corner, huge sample"},
-    {"name": "Isaiah Brown-Murray", "role": "CB (returning, BOLD)", "evidence": "74.1/694 (75.3 ACC-adj)"},
-    {"name": "Cam Chadwick Jr.", "role": "CB (transfer, UConn)", "evidence": "75.0/862 (72.1 adj); huge sample"}
+    {
+     "name": "Jaquez White",
+     "role": "CB1 (transfer, Troy)",
+     "evidence": "87.4/879 (83.8 adj); elite corner, huge sample"
+    },
+    {
+     "name": "Isaiah Brown-Murray",
+     "role": "CB (returning, BOLD)",
+     "evidence": "74.1/694 (75.3 ACC-adj)"
+    },
+    {
+     "name": "Cam Chadwick Jr.",
+     "role": "CB (transfer, UConn)",
+     "evidence": "75.0/862 (72.1 adj); huge sample"
+    }
    ],
-   "data_gaps": ["COV p5 '25 team base", "top 2 corners are transfers stepping up in competition"], "g5_guard_note": null
+   "data_gaps": [
+    "COV p5 '25 team base",
+    "top 2 corners are transfers stepping up in competition"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Virginia Tech", "unit": "ST", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Oregon State ST 2026 (38, round peer)", "Boise State ST 2026 (round peer context)"],
+   "team": "Virginia Tech",
+   "unit": "ST",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Oregon State ST 2026 (38, round peer)",
+    "Boise State ST 2026 (round peer context)"
+   ],
    "rationale_bullets": [
     "K John Love returns - one of the nation's best career kickers (84.4% FG, 2x All-ACC HM, five 50+ in 2 yrs), though a down 15-20 in '25.",
     "Adds P Nathan Totten (Marshall, 40.4 net, 2nd-tm SBC); KR Thomas Williams + PR Que'Sean Brown.",
@@ -146,10 +329,22 @@
     "50: a genuinely good career kicker + solid transfer punter lift it above average; the bad '25 return game + Love's down FG year cap it."
    ],
    "key_players": [
-    {"name": "John Love", "role": "K (returning)", "evidence": "84.4% career FG, 2x All-ACC HM, five 50+; 15-20 in '25"},
-    {"name": "Nathan Totten", "role": "P (transfer, Marshall)", "evidence": "40.4 net; 2nd-tm SBC"}
+    {
+     "name": "John Love",
+     "role": "K (returning)",
+     "evidence": "84.4% career FG, 2x All-ACC HM, five 50+; 15-20 in '25"
+    },
+    {
+     "name": "Nathan Totten",
+     "role": "P (transfer, Marshall)",
+     "evidence": "40.4 net; 2nd-tm SBC"
+    }
    ],
-   "data_gaps": ["Love's '25 FG dipped to 75%", "return game rebuilt"], "g5_guard_note": null
+   "data_gaps": [
+    "Love's '25 FG dipped to 75%",
+    "return game rebuilt"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

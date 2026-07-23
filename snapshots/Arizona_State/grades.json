@@ -2,16 +2,20 @@
  "team": "Arizona State",
  "units": {
   "QB": {
-   "grade": 48,
-   "confidence": "M"
+   "grade": 42,
+   "confidence": "L",
+   "v1_grade": 48,
+   "adjudication": "formula + podium open-race; U6.5 helped: dg-17: Boley unproven + open battle"
   },
   "RB": {
    "grade": 45,
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 56,
-   "confidence": "M"
+   "grade": 52,
+   "confidence": "M",
+   "v1_grade": 56,
+   "adjudication": "split: dg-9"
   },
   "OL": {
    "grade": 36,
@@ -48,7 +52,9 @@
    "ST": "+20 vs proxy 20 (departed-specialist artifact; pedigree replacements invisible)",
    "RB": "proxy null (no qualifying membership) - engine imputes 50"
   },
-  "ps_backfill_2026_07_15": "PS visual page-read: no grade changes. Lapuaho origin resolved (JUCO, PS#8JC); Boley '25 detail (2,160, 66%, 15-12); Alo-Tupuola precision (4 st/10 gm at GT - partial starter, tape already priced); PS punter-battle note (Floyd projected over McLarty)."
+  "ps_backfill_2026_07_15": "PS visual page-read: no grade changes. Lapuaho origin resolved (JUCO, PS#8JC); Boley '25 detail (2,160, 66%, 15-12); Alo-Tupuola precision (4 st/10 gm at GT - partial starter, tape already priced); PS punter-battle note (Floyd projected over McLarty).",
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

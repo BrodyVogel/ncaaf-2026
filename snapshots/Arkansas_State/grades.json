@@ -1,14 +1,46 @@
 {
  "team": "Arkansas State",
  "units": {
-  "QB": {"grade": 44, "confidence": "L"},
-  "RB": {"grade": 52, "confidence": "M"},
-  "WRTE": {"grade": 50, "confidence": "M"},
-  "OL": {"grade": 54, "confidence": "M"},
-  "DL": {"grade": 40, "confidence": "M"},
-  "LB": {"grade": 42, "confidence": "M"},
-  "DB": {"grade": 44, "confidence": "M"},
-  "ST": {"grade": 56, "confidence": "M"}
+  "QB": {
+   "grade": 44,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 47,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "50/50 blend: dg-9.7"
+  },
+  "WRTE": {
+   "grade": 50,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 62,
+   "confidence": "M",
+   "v1_grade": 54,
+   "adjudication": "50/50 blend: dg+15.2"
+  },
+  "DL": {
+   "grade": 37,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "50/50 blend: dg-11.9; info 0.12 \u2014 blend halved"
+  },
+  "LB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 36,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "DB policy 1/3 blend: dg-23.8"
+  },
+  "ST": {
+   "grade": 56,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,7 +48,9 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon + Phil Steele; no Pick Six for SBC]; SBC offsets NEGATIVE on returning tape, arrivals on origin [FCS = no cell]; HC Jones NO change [band x1.00], new OC Altman [no multiplier]; disposition gate 37 rows / 0 adjudicate / 0 err - 5 portal-None adjudicated [Tristian Smith 80.9 + AG McGhee WITHDREW per Athlon bold; Whitehead/Kirksey/Yowe GONE, not named]; Trey Owens<-Texas cross-build; no NFL-declare risk at this level); anchor values not consulted. DISCLOSED: Athlon NF100 incidentally visible, logged, NOT used.",
-  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB44L/RB52/WRTE50/OL54/DL40/LB42/DB44/ST56, sum 382). No post-freeze corrections."},
+  "planned_vs_final_deviations": {
+   "note": "finals match the dossier planned lines exactly (QB44L/RB52/WRTE50/OL54/DL40/LB42/DB44/ST56, sum 382). No post-freeze corrections."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB None, RB 19, WRTE 34, OL 41, DL 34, LB 2, DB 5, ST 69) was depressed pre-adjudication (McGhee 919 + Tristian Smith 677 sat in the portal-None pool); with both restored, OL/DB grade above the bare proxy.",
    "OL": "+13 vs proxy 41 - proxy missed the withdrawn Tristian Smith (80.9); the grade keys 4 returning starters (PBLK p77).",
@@ -24,111 +58,256 @@
    "RB/WRTE": "RB 52 / WRTE 50 credit the proven returning skill (1,082-yd RB duo; Cobb's 73 catches) over the bare proxy.",
    "DL": "+6 vs proxy 34 - both key the front rebuild; the grade adds the FCS-edge upside (Parker).",
    "ST": "-13 vs proxy 69 - the grade keeps the special-teams strength (Cobb + Van Andel) but calibrates to the ST scale."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
-  {"team": "Arkansas State", "unit": "QB", "grade": 44, "confidence": "L",
-   "bracketing_exemplars": ["Cincinnati QB 2026 (44, peer)", "West Virginia QB 2026 (44, peer)"],
+  {
+   "team": "Arkansas State",
+   "unit": "QB",
+   "grade": 44,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Cincinnati QB 2026 (44, peer)",
+    "West Virginia QB 2026 (44, peer)"
+   ],
    "rationale_bullets": [
     "Trey Owens (Texas, no PFF tape; 6-5 pocket passer) vs Ethan Crawford + Vandy transfers Dickey + St-Hilaire - a 4-man competition under new OC Altman. Jaylen Raynor (74.5/615, 6 career game-winning drives) GONE -> Iowa State.",
     "A full reset off a proven game-manager to an unsettled 4-man battle led by an untested Texas transfer (0 college tape) in a new scheme.",
     "44: ~Cincinnati/West Virginia QB 44. An unproven-transfer reset; the P4-transfer pedigree (Owens) is the plus over a bare G5 reset. L."
    ],
    "key_players": [
-    {"name": "Trey Owens", "role": "QB (transfer, Texas)", "evidence": "no PFF tape (Texas 3rd-string); 6-5 pocket passer; the projected starter in a 4-man battle"}
+    {
+     "name": "Trey Owens",
+     "role": "QB (transfer, Texas)",
+     "evidence": "no PFF tape (Texas 3rd-string); 6-5 pocket passer; the projected starter in a 4-man battle"
+    }
    ],
-   "data_gaps": ["no returning production", "Owens has 0 college tape", "4-man competition + new scheme"],
-   "g5_guard_note": "Sun Belt; a QB reset with no proven FBS starter in the room - graded low pending the competition."},
-  {"team": "Arkansas State", "unit": "RB", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["Oklahoma RB 2026 (52, peer)", "Kansas State RB 2026 (52, peer)"],
+   "data_gaps": [
+    "no returning production",
+    "Owens has 0 college tape",
+    "4-man competition + new scheme"
+   ],
+   "g5_guard_note": "Sun Belt; a QB reset with no proven FBS starter in the room - graded low pending the competition."
+  },
+  {
+   "team": "Arkansas State",
+   "unit": "RB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Oklahoma RB 2026 (52, peer)",
+    "Kansas State RB 2026 (52, peer)"
+   ],
    "rationale_bullets": [
     "Devin Spencer (73.3/155 -> SBC -2.02) + Kenyon Clay (64.5/206) - a returning duo (1,082 combined yds) - behind a returning OL.",
     "A proven returning backfield (both backs back, 1,082 yds) - the offense's most stable piece - running behind a good pass-pro line.",
     "52: ~Oklahoma/Kansas State RB 52. A solid returning duo; the level + the QB reset cap it. M."
    ],
    "key_players": [
-    {"name": "Devin Spencer", "role": "RB (returning)", "evidence": "73.3/155; part of a returning 1,082-yd duo"},
-    {"name": "Kenyon Clay", "role": "RB (returning)", "evidence": "64.5/206; the other half (scout-praised)"}
+    {
+     "name": "Devin Spencer",
+     "role": "RB (returning)",
+     "evidence": "73.3/155; part of a returning 1,082-yd duo"
+    },
+    {
+     "name": "Kenyon Clay",
+     "role": "RB (returning)",
+     "evidence": "64.5/206; the other half (scout-praised)"
+    }
    ],
-   "data_gaps": ["running behind a new QB"],
-   "g5_guard_note": "Sun Belt; a genuinely returning duo but on SBC tape - the level caps the ceiling."},
-  {"team": "Arkansas State", "unit": "WRTE", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Vanderbilt WRTE 2026 (50, peer)", "Florida WRTE 2026 (50, peer)"],
+   "data_gaps": [
+    "running behind a new QB"
+   ],
+   "g5_guard_note": "Sun Belt; a genuinely returning duo but on SBC tape - the level caps the ceiling."
+  },
+  {
+   "team": "Arkansas State",
+   "unit": "WRTE",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Vanderbilt WRTE 2026 (50, peer)",
+    "Florida WRTE 2026 (50, peer)"
+   ],
    "rationale_bullets": [
     "Chauncy Cobb (67.7/474; 5-6 slot, 73 catches; All-SBC returner) + Hunter Summers (62.3/423; 6-3, 44 catches) + Jaylen Bonelli (59.9/192) + TE Tyler Little. Rucker (yr4) + Fortenberry (Iowa State) GONE.",
     "Two proven returning targets (Cobb's 73 catches + Summers's 44) - a real returning corps - with a new QB feeding them.",
     "50: ~Vanderbilt/Florida WRTE 50. Cobb + Summers anchor a good SBC group; the QB reset caps it. M."
    ],
    "key_players": [
-    {"name": "Chauncy Cobb", "role": "WR (returning)", "evidence": "67.7/474; 73 catches; first-team All-SBC returner"},
-    {"name": "Hunter Summers", "role": "WR (returning)", "evidence": "62.3/423; 6-3, 44 catches"}
+    {
+     "name": "Chauncy Cobb",
+     "role": "WR (returning)",
+     "evidence": "67.7/474; 73 catches; first-team All-SBC returner"
+    },
+    {
+     "name": "Hunter Summers",
+     "role": "WR (returning)",
+     "evidence": "62.3/423; 6-3, 44 catches"
+    }
    ],
-   "data_gaps": ["new QB feeding the corps"],
-   "g5_guard_note": "Sun Belt; two proven returning targets on SBC tape - solid for the level."},
-  {"team": "Arkansas State", "unit": "OL", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["USC OL 2026 (54, peer)", "Ole Miss OL 2026 (54, peer)"],
+   "data_gaps": [
+    "new QB feeding the corps"
+   ],
+   "g5_guard_note": "Sun Belt; two proven returning targets on SBC tape - solid for the level."
+  },
+  {
+   "team": "Arkansas State",
+   "unit": "OL",
+   "grade": 54,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "USC OL 2026 (54, peer)",
+    "Ole Miss OL 2026 (54, peer)"
+   ],
    "rationale_bullets": [
     "Tristian Smith (80.9/677 -> SBC -0.35; the best OL grade, bold LG, withdrew) + Mason Myers (61.2/904; C) + Wil Saxton (63.8/967; G) + Aleric Watson (63.7/636) + Baker North + transfers Welch (LT) + Wiggins (RT). McGehee (-> Memphis) + Noah Smith (yr4) GONE.",
     "A genuine strength - FOUR returning starters (led by an 80.9 in Tristian Smith) on a unit that was PBLK p77, plus two transfer tackles.",
     "54: ~USC/Ole Miss OL 54. A strong, veteran returning line; the level + the two new tackles cap it. M."
    ],
    "key_players": [
-    {"name": "Tristian Smith", "role": "G (returning)", "evidence": "80.9/677; the roster's best OL grade (withdrew from the portal)"},
-    {"name": "Wil Saxton", "role": "G (returning)", "evidence": "63.8/967; a returning full-time starter"}
+    {
+     "name": "Tristian Smith",
+     "role": "G (returning)",
+     "evidence": "80.9/677; the roster's best OL grade (withdrew from the portal)"
+    },
+    {
+     "name": "Wil Saxton",
+     "role": "G (returning)",
+     "evidence": "63.8/967; a returning full-time starter"
+    }
    ],
-   "data_gaps": ["two new tackles (Welch/Wiggins)"],
-   "g5_guard_note": "Sun Belt; a strong, veteran returning line (PBLK p77) - the SBC level caps the ceiling despite the 80.9 anchor."},
-  {"team": "Arkansas State", "unit": "DL", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Georgia Tech DL 2026 (40, peer)", "Boston College DL 2026 (40, peer)"],
+   "data_gaps": [
+    "two new tackles (Welch/Wiggins)"
+   ],
+   "g5_guard_note": "Sun Belt; a strong, veteran returning line (PBLK p77) - the SBC level caps the ceiling despite the 80.9 anchor."
+  },
+  {
+   "team": "Arkansas State",
+   "unit": "DL",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Georgia Tech DL 2026 (40, peer)",
+    "Boston College DL 2026 (40, peer)"
+   ],
    "rationale_bullets": [
     "Donquarius Parker (NC Central FCS edge - NO CELL; praised as all-conf-caliber) + Ryan Reese (60.3/135; the ONLY returning DT) + Tony Carter (60.1/113) + transfers Badmus/Sherman/Hultz/Coleman. LOST Cody Sigler (85.7 -> Auburn), Hendricks (78.0, yr4), + more.",
     "A near-total rebuild ('must rebuild their front' - Athlon) off a 39-sack unit that lost its star + nearly every producer; only two rotational pieces return.",
     "40: ~Georgia Tech/Boston College DL 40. The FCS-edge upside (Parker) vs the gutted front. M."
    ],
    "key_players": [
-    {"name": "Donquarius Parker", "role": "ED (transfer, NC Central)", "evidence": "an FCS-transfer edge praised as a potential all-conference player"},
-    {"name": "Ryan Reese", "role": "DI (returning)", "evidence": "60.3/135; the only returning defensive tackle"}
+    {
+     "name": "Donquarius Parker",
+     "role": "ED (transfer, NC Central)",
+     "evidence": "an FCS-transfer edge praised as a potential all-conference player"
+    },
+    {
+     "name": "Ryan Reese",
+     "role": "DI (returning)",
+     "evidence": "60.3/135; the only returning defensive tackle"
+    }
    ],
-   "data_gaps": ["lost Sigler (85.7) + nearly the whole front", "FCS/transfer-heavy rebuild"],
-   "g5_guard_note": "Sun Belt; a gutted front rebuilt around an FCS edge (no cell) + spring transfers - unproven together."},
-  {"team": "Arkansas State", "unit": "LB", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["Michigan LB 2026 (42, peer)", "TCU LB 2026 (42, peer)"],
+   "data_gaps": [
+    "lost Sigler (85.7) + nearly the whole front",
+    "FCS/transfer-heavy rebuild"
+   ],
+   "g5_guard_note": "Sun Belt; a gutted front rebuilt around an FCS edge (no cell) + spring transfers - unproven together."
+  },
+  {
+   "team": "Arkansas State",
+   "unit": "LB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Michigan LB 2026 (42, peer)",
+    "TCU LB 2026 (42, peer)"
+   ],
    "rationale_bullets": [
     "Joe Drew (72.0/342; moves nickel->LB; started the last 5 as a frosh) + Nigel Nelson (54.2/438; 54 tkl as a frosh) + transfers Tre Stevens + Kam Moore. Lost Taylor (yr4) + Aaron Alexander (77.0 -> North Texas) + Kirksey (GONE).",
     "A young, thin group - two returning ex-freshmen moving up (Drew the more promising) + two transfers - after losing its best LB.",
     "42: ~Michigan/TCU LB 42. Drew's upside vs the youth + the Alexander loss. M."
    ],
    "key_players": [
-    {"name": "Joe Drew", "role": "LB (returning)", "evidence": "72.0/342; moves from nickel to LB (started the last 5 as a frosh)"},
-    {"name": "Nigel Nelson", "role": "LB (returning)", "evidence": "54.2/438; 54 tackles as a freshman"}
+    {
+     "name": "Joe Drew",
+     "role": "LB (returning)",
+     "evidence": "72.0/342; moves from nickel to LB (started the last 5 as a frosh)"
+    },
+    {
+     "name": "Nigel Nelson",
+     "role": "LB (returning)",
+     "evidence": "54.2/438; 54 tackles as a freshman"
+    }
    ],
-   "data_gaps": ["young, thin", "lost best LB (Alexander) to North Texas"],
-   "g5_guard_note": "Sun Belt; a young LB room (two ex-frosh moving up) after losing its best backer."},
-  {"team": "Arkansas State", "unit": "DB", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Michigan State DB 2026 (44, peer)", "Fresno State DB 2026 (44, peer)"],
+   "data_gaps": [
+    "young, thin",
+    "lost best LB (Alexander) to North Texas"
+   ],
+   "g5_guard_note": "Sun Belt; a young LB room (two ex-frosh moving up) after losing its best backer."
+  },
+  {
+   "team": "Arkansas State",
+   "unit": "DB",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Michigan State DB 2026 (44, peer)",
+    "Fresno State DB 2026 (44, peer)"
+   ],
    "rationale_bullets": [
     "AG McGhee (59.1/919; top returning tackler, 83; bold S, withdrew) + Brandon Greil (62.0/507) + Brandon Barnes (48.5/871) + Five Hamilton (Kennesaw State, 77.4/444) + transfers Flores/Henderson. LOST Dickerson (75.1, yr4) + Yowe (GONE). COV was p24.",
     "Real continuity (three returning starters + the top tackler McGhee) + a good CUSA-transfer corner (Hamilton) - but the unit was p24 in coverage and lost its best cover man.",
     "44: ~Michigan State/Fresno State DB 44. The returning tacklers + Hamilton vs the poor '25 coverage. M."
    ],
    "key_players": [
-    {"name": "AG McGhee", "role": "S (returning)", "evidence": "59.1/919; the top returning tackler (83; withdrew from the portal)"},
-    {"name": "Five Hamilton", "role": "CB (transfer, Kennesaw State)", "evidence": "77.4/444; in line for a key coverage role"}
+    {
+     "name": "AG McGhee",
+     "role": "S (returning)",
+     "evidence": "59.1/919; the top returning tackler (83; withdrew from the portal)"
+    },
+    {
+     "name": "Five Hamilton",
+     "role": "CB (transfer, Kennesaw State)",
+     "evidence": "77.4/444; in line for a key coverage role"
+    }
    ],
-   "data_gaps": ["COV p24 in '25", "lost best cover man Dickerson (yr4)"],
-   "g5_guard_note": "Sun Belt; returning tacklers + a CUSA-transfer corner, but a poor '25 coverage baseline."},
-  {"team": "Arkansas State", "unit": "ST", "grade": 56, "confidence": "M",
-   "bracketing_exemplars": ["Texas A&M ST 2026 (56, peer)", "Missouri ST 2026 (56, peer)"],
+   "data_gaps": [
+    "COV p24 in '25",
+    "lost best cover man Dickerson (yr4)"
+   ],
+   "g5_guard_note": "Sun Belt; returning tacklers + a CUSA-transfer corner, but a poor '25 coverage baseline."
+  },
+  {
+   "team": "Arkansas State",
+   "unit": "ST",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Texas A&M ST 2026 (56, peer)",
+    "Missouri ST 2026 (56, peer)"
+   ],
    "rationale_bullets": [
     "Clune Van Andel (K - 21-27, a game-winner vs South Alabama; trusted) + Chauncy Cobb (first-team All-SBC returner - 26.9 avg, KR TDs vs Arkansas + Louisiana) + Jaylen Bonelli (PR) + Daniel Vuckovic (P - 42.3 at Northern Illinois).",
     "A genuine special-teams strength - a reliable veteran kicker + an All-SBC return weapon (Cobb) + a solid transfer punter (SPEC p69).",
     "56: ~Texas A&M/Missouri ST 56. The returner + the trusted kicker (calib). M."
    ],
    "key_players": [
-    {"name": "Chauncy Cobb", "role": "KR (returning)", "evidence": "first-team All-SBC returner; 26.9 avg with KR TDs"},
-    {"name": "Clune Van Andel", "role": "K (returning)", "evidence": "21-27 FG; hit a game-winner vs South Alabama"}
+    {
+     "name": "Chauncy Cobb",
+     "role": "KR (returning)",
+     "evidence": "first-team All-SBC returner; 26.9 avg with KR TDs"
+    },
+    {
+     "name": "Clune Van Andel",
+     "role": "K (returning)",
+     "evidence": "21-27 FG; hit a game-winner vs South Alabama"
+    }
    ],
    "data_gaps": [],
-   "g5_guard_note": "Sun Belt; a genuine special-teams strength (All-SBC returner + trusted kicker) that travels regardless of level."}
+   "g5_guard_note": "Sun Belt; a genuine special-teams strength (All-SBC returner + trusted kicker) that travels regardless of level."
+  }
  ]
 }

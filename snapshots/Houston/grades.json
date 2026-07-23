@@ -2,16 +2,20 @@
  "team": "Houston",
  "units": {
   "QB": {
-   "grade": 62,
-   "confidence": "M"
+   "grade": 66,
+   "confidence": "M",
+   "v1_grade": 62,
+   "adjudication": "50/50 blend: dg+8.2"
   },
   "RB": {
    "grade": 52,
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 58,
-   "confidence": "M"
+   "grade": 62,
+   "confidence": "M",
+   "v1_grade": 58,
+   "adjudication": "50/50 blend: dg+8.3"
   },
   "OL": {
    "grade": 46,
@@ -46,7 +50,9 @@
    "DL": "-16 vs proxy 71 (proxy rides expired Walls/Allen - the top two)",
    "DB": "-10 vs proxy 70 (proxy carries expired All-B12 pair McCutchin/Brown)",
    "QB": "-11 vs proxy 73 (proxy near-right for once; mine slightly lower on efficiency tier)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

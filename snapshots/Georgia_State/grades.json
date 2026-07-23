@@ -1,14 +1,46 @@
 {
  "team": "Georgia State",
  "units": {
-  "QB": {"grade": 48, "confidence": "M"},
-  "RB": {"grade": 40, "confidence": "M"},
-  "WRTE": {"grade": 42, "confidence": "M"},
-  "OL": {"grade": 40, "confidence": "M"},
-  "DL": {"grade": 40, "confidence": "M"},
-  "LB": {"grade": 38, "confidence": "M"},
-  "DB": {"grade": 40, "confidence": "M"},
-  "ST": {"grade": 40, "confidence": "M"}
+  "QB": {
+   "grade": 56,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "50/50 cap 8: dg+24; QB formula moderately informative"
+  },
+  "RB": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 37,
+   "confidence": "M",
+   "v1_grade": 42,
+   "adjudication": "50/50 blend: dg-10.7"
+  },
+  "OL": {
+   "grade": 32,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "50/50 blend: dg-15.5"
+  },
+  "DL": {
+   "grade": 32,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "50/50 blend: dg-21.6"
+  },
+  "LB": {
+   "grade": 38,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 40,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,115 +48,257 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon + Phil Steele; no Pick Six for SBC]; SBC offsets NEGATIVE on returning tape, arrivals on origin [FCS = no cell]; HC McGee NO change [band x1.00], new co-DCs [no multiplier]; disposition gate 46 rows / 0 adjudicate / 0 err - Rhodes-Nelson + Deuce Walker WITHDREW [Athlon-named], Josiah Robinson [800] + McCrimmon GONE [not named], Ted Hurst yr4-NFL; no NFL-declare mystery); anchor values not consulted. Shadow proxy ALL-None (roster gutted) - built from per-player PFF + Athlon. DISCLOSED: Athlon NF132 incidentally visible, logged, NOT used.",
-  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB48/RB40/WRTE42/OL40/DL40/LB38/DB40/ST40, sum 328). No post-freeze corrections."},
+  "planned_vs_final_deviations": {
+   "note": "finals match the dossier planned lines exactly (QB48/RB40/WRTE42/OL40/DL40/LB38/DB40/ST40, sum 328). No post-freeze corrections."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy is ALL-None except ST 30 (nearly every >=threshold '25 producer left/expired). The grades are built from per-player PFF + Athlon; they key the returning QB (Brown 79.1) + the named returners above a bare-floor read.",
    "QB": "proxy None - the grade (48) keys the returning dual-threat Brown (79.1), the roster's one real asset.",
    "OL/DL/DB": "proxies None - the grades key the handful of named returners (Williams/Duffus OL; Rhodes-Nelson DL; Deuce Walker DB) + transfers at a bottom-tier level.",
    "LB": "proxy None - the grade (38) is the thinnest unit after the 800-snap leader (Robinson) departed."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
-  {"team": "Georgia State", "unit": "QB", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["Alabama QB 2026 (48, peer)", "Florida QB 2026 (48, peer)"],
+  {
+   "team": "Georgia State",
+   "unit": "QB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Alabama QB 2026 (48, peer)",
+    "Florida QB 2026 (48, peer)"
+   ],
    "rationale_bullets": [
     "Cameran Brown (79.1/227 -> SBC -1.01; 1,296 pass/271 rush; the most effective '25 QB when healthy - 241/4 vs South Alabama) + FCS-transfer Ayden Pereira (Merrimack, 1,818/853). TJ Finley (63.8) GONE -> Incarnate Word.",
     "The roster's one real asset - a returning dual-threat with a genuinely good grade (79.1), though he missed time and plays on a 1-11 team with a thin cast.",
     "48: ~Alabama/Florida QB 48. A good returning QB well above the team's baseline; the injury history + thin support cap it. M."
    ],
    "key_players": [
-    {"name": "Cameran Brown", "role": "QB (returning)", "evidence": "79.1/227; 1,296 pass/271 rush; the most effective '25 starter when healthy"}
+    {
+     "name": "Cameran Brown",
+     "role": "QB (returning)",
+     "evidence": "79.1/227; 1,296 pass/271 rush; the most effective '25 starter when healthy"
+    }
    ],
-   "data_gaps": ["missed time in '25", "thin supporting cast on a 1-11 team"],
-   "g5_guard_note": "Sun Belt; a genuinely good returning QB grade (79.1) but on a 1-11 team - the surrounding roster caps the team ceiling."},
-  {"team": "Georgia State", "unit": "RB", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska RB 2026 (40, peer)", "Utah State RB 2026 (40, peer)"],
+   "data_gaps": [
+    "missed time in '25",
+    "thin supporting cast on a 1-11 team"
+   ],
+   "g5_guard_note": "Sun Belt; a genuinely good returning QB grade (79.1) but on a 1-11 team - the surrounding roster caps the team ceiling."
+  },
+  {
+   "team": "Georgia State",
+   "unit": "RB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska RB 2026 (40, peer)",
+    "Utah State RB 2026 (40, peer)"
+   ],
    "rationale_bullets": [
     "Keith Adams Jr. (Clemson) at 'a position high on potential, low on production' + returning committee (Branson Robinson, Djay Braswell). The top 2 '25 backs + Simmons (yr4) GONE.",
     "A Clemson transfer atop an unproven committee, behind a p2 pass-block / p4 run-block line - almost no returning production.",
     "40: ~Nebraska/Utah State RB 40. The transfer upside vs a dreadful blocking context + no proven back. M."
    ],
    "key_players": [
-    {"name": "Keith Adams Jr.", "role": "RB (transfer, Clemson)", "evidence": "the projected starter at a low-production spot"}
+    {
+     "name": "Keith Adams Jr.",
+     "role": "RB (transfer, Clemson)",
+     "evidence": "the projected starter at a low-production spot"
+    }
    ],
-   "data_gaps": ["top 2 '25 backs gone", "p2/p4 blocking context"],
-   "g5_guard_note": "Sun Belt; a transfer atop an unproven committee behind a near-dead-last blocking unit."},
-  {"team": "Georgia State", "unit": "WRTE", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["Iowa WRTE 2026 (42, peer)", "NC State WRTE 2026 (42, peer)"],
+   "data_gaps": [
+    "top 2 '25 backs gone",
+    "p2/p4 blocking context"
+   ],
+   "g5_guard_note": "Sun Belt; a transfer atop an unproven committee behind a near-dead-last blocking unit."
+  },
+  {
+   "team": "Georgia State",
+   "unit": "WRTE",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Iowa WRTE 2026 (42, peer)",
+    "NC State WRTE 2026 (42, peer)"
+   ],
    "rationale_bullets": [
     "TE Grant Hollier (59.3/216; ascendant - 21 catches/4 TD) + WR DJ Riles + Derrick Avery (48.9/137) + Kyle Washington (52.7/123). Ted Hurst (82.0, NFL/yr4) GONE.",
     "An ascendant returning TE (Hollier) + a returning WR + depth - but the corps lost its record-setting NFL WR (Hurst) and was RECV p30.",
     "42: ~Iowa/NC State WRTE 42. Hollier + Riles vs the Hurst loss + the level. M."
    ],
    "key_players": [
-    {"name": "Grant Hollier", "role": "TE (returning)", "evidence": "59.3/216; ascendant - 21 catches/4 TD after a midseason breakout"},
-    {"name": "DJ Riles", "role": "WR (returning)", "evidence": "a returning wideout in a corps that lost NFL WR Ted Hurst"}
+    {
+     "name": "Grant Hollier",
+     "role": "TE (returning)",
+     "evidence": "59.3/216; ascendant - 21 catches/4 TD after a midseason breakout"
+    },
+    {
+     "name": "DJ Riles",
+     "role": "WR (returning)",
+     "evidence": "a returning wideout in a corps that lost NFL WR Ted Hurst"
+    }
    ],
-   "data_gaps": ["lost record-setting WR Hurst (NFL)", "RECV p30"],
-   "g5_guard_note": "Sun Belt; an ascendant TE + returning WR off a corps that lost its NFL headliner."},
-  {"team": "Georgia State", "unit": "OL", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Florida State OL 2026 (40, peer)", "Maryland OL 2026 (40, peer)"],
+   "data_gaps": [
+    "lost record-setting WR Hurst (NFL)",
+    "RECV p30"
+   ],
+   "g5_guard_note": "Sun Belt; an ascendant TE + returning WR off a corps that lost its NFL headliner."
+  },
+  {
+   "team": "Georgia State",
+   "unit": "OL",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida State OL 2026 (40, peer)",
+    "Maryland OL 2026 (40, peer)"
+   ],
    "rationale_bullets": [
     "Tyhler Williams (50.7/888; C) + Donovan Funsch (62.1/617) + Deandre Duffus (59.2/488) + Michigan import Connor Jones + Pherleski Martin. McCrimmon (GONE) + Alec Johnson (-> WKU) + yr4s GONE.",
     "Three returning starters (a rare bit of continuity) + a Michigan transfer, but off a unit that was PBLK p2 / RBLK p4 (near-dead-last blocking).",
     "40: ~Florida State/Maryland OL 40. The returning bodies vs the historically poor blocking baseline. M."
    ],
    "key_players": [
-    {"name": "Tyhler Williams", "role": "C (returning)", "evidence": "50.7/888; a returning full-time starter (the bold C)"},
-    {"name": "Deandre Duffus", "role": "OL (returning)", "evidence": "59.2/488; a top returner"}
+    {
+     "name": "Tyhler Williams",
+     "role": "C (returning)",
+     "evidence": "50.7/888; a returning full-time starter (the bold C)"
+    },
+    {
+     "name": "Deandre Duffus",
+     "role": "OL (returning)",
+     "evidence": "59.2/488; a top returner"
+    }
    ],
-   "data_gaps": ["PBLK p2 / RBLK p4 in '25"],
-   "g5_guard_note": "Sun Belt; genuine returning continuity but off a near-dead-last blocking unit."},
-  {"team": "Georgia State", "unit": "DL", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Georgia Tech DL 2026 (40, peer)", "Boston College DL 2026 (40, peer)"],
+   "data_gaps": [
+    "PBLK p2 / RBLK p4 in '25"
+   ],
+   "g5_guard_note": "Sun Belt; genuine returning continuity but off a near-dead-last blocking unit."
+  },
+  {
+   "team": "Georgia State",
+   "unit": "DL",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Georgia Tech DL 2026 (40, peer)",
+    "Boston College DL 2026 (40, peer)"
+   ],
    "rationale_bullets": [
     "Jabriel Rhodes-Nelson (56.0/456 -> SBC; DL -6.50; 41 tkl, most among returners, withdrew) + Kelan Butler (63.0/394) + Richard Kramer. LOST Bishop Thomas (76.6 -> Oklahoma) + Marlin Dean (-> UAB) + Flounoy (-> Syracuse) + yr4s.",
     "A returning edge (Rhodes-Nelson, the top returning tackler) + a rotational returner on a front that lost its best player (Bishop Thomas) + produced only 18 sacks.",
     "40: ~Georgia Tech/Boston College DL 40. Rhodes-Nelson's upside vs the gutted, low-production front. M."
    ],
    "key_players": [
-    {"name": "Jabriel Rhodes-Nelson", "role": "ED (returning)", "evidence": "56.0/456; 41 tackles, the most among returning players (withdrew)"},
-    {"name": "Kelan Butler", "role": "ED (returning)", "evidence": "63.0/394; a returning edge"}
+    {
+     "name": "Jabriel Rhodes-Nelson",
+     "role": "ED (returning)",
+     "evidence": "56.0/456; 41 tackles, the most among returning players (withdrew)"
+    },
+    {
+     "name": "Kelan Butler",
+     "role": "ED (returning)",
+     "evidence": "63.0/394; a returning edge"
+    }
    ],
-   "data_gaps": ["lost best DL (Bishop Thomas -> Oklahoma)", "18 sacks in '25"],
-   "g5_guard_note": "Sun Belt; a returning edge on a gutted, low-production front."},
-  {"team": "Georgia State", "unit": "LB", "grade": 38, "confidence": "M",
-   "bracketing_exemplars": ["Baylor LB 2026 (38, peer)", "Miami (OH) LB 2026 (38, peer)"],
+   "data_gaps": [
+    "lost best DL (Bishop Thomas -> Oklahoma)",
+    "18 sacks in '25"
+   ],
+   "g5_guard_note": "Sun Belt; a returning edge on a gutted, low-production front."
+  },
+  {
+   "team": "Georgia State",
+   "unit": "LB",
+   "grade": 38,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Baylor LB 2026 (38, peer)",
+    "Miami (OH) LB 2026 (38, peer)"
+   ],
    "rationale_bullets": [
     "Michigan transfer Jaydon Hood ('much is expected') + Coby Owens (47.6/289). LOST snap-leader Josiah Robinson (68.6/800, GONE) + Kedrick Walker (-> Baylor) + Wilson (-> Cincinnati).",
     "The thinnest unit - the 800-snap leader (Robinson) departed, leaving a Michigan transfer + a low-grade returner on a dead-defense baseline.",
     "38: ~Baylor/Miami (OH) LB 38. Hood's P4 pedigree vs the near-total LB turnover. M."
    ],
    "key_players": [
-    {"name": "Jaydon Hood", "role": "LB (transfer, Michigan)", "evidence": "a B10 import; 'much is expected' (Athlon)"},
-    {"name": "Coby Owens", "role": "LB (returning)", "evidence": "47.6/289; a low-grade returner"}
+    {
+     "name": "Jaydon Hood",
+     "role": "LB (transfer, Michigan)",
+     "evidence": "a B10 import; 'much is expected' (Athlon)"
+    },
+    {
+     "name": "Coby Owens",
+     "role": "LB (returning)",
+     "evidence": "47.6/289; a low-grade returner"
+    }
    ],
-   "data_gaps": ["lost the 800-snap leader (Robinson)", "near-total LB turnover"],
-   "g5_guard_note": "Sun Belt; the thinnest unit - a Michigan transfer + a low-grade returner after the snap leader left."},
-  {"team": "Georgia State", "unit": "DB", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["West Virginia DB 2026 (40, peer)", "App State DB 2026 (40, peer)"],
+   "data_gaps": [
+    "lost the 800-snap leader (Robinson)",
+    "near-total LB turnover"
+   ],
+   "g5_guard_note": "Sun Belt; the thinnest unit - a Michigan transfer + a low-grade returner after the snap leader left."
+  },
+  {
+   "team": "Georgia State",
+   "unit": "DB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "West Virginia DB 2026 (40, peer)",
+    "App State DB 2026 (40, peer)"
+   ],
    "rationale_bullets": [
     "Deuce Walker (66.9/509; 33 tkl, injury return, withdrew) + Tyson McCrary (65.7/233) + Derrick Maxey (58.3/284) + FCS transfers Tre Mittman (Monmouth, 75 tkl) + Deuce Lee. LOST 6+ DBs to the P4 (Jaylen Jones -> Virginia, Fillmore -> Illinois, Causey -> Wake Forest, Hopkins -> Liberty).",
     "A room RAIDED to the P4 (6+ departures) but with two returning contributors (Walker + McCrary) + productive FCS transfers. COV was p18.",
     "40: ~West Virginia/App State DB 40. Walker + the FCS adds vs the mass exodus. M."
    ],
    "key_players": [
-    {"name": "Deuce Walker", "role": "S (returning)", "evidence": "66.9/509; 33 tackles (injury return; withdrew from the portal)"},
-    {"name": "Tre Mittman", "role": "S (transfer, Monmouth)", "evidence": "an FCS-transfer safety with 75 tackles"}
+    {
+     "name": "Deuce Walker",
+     "role": "S (returning)",
+     "evidence": "66.9/509; 33 tackles (injury return; withdrew from the portal)"
+    },
+    {
+     "name": "Tre Mittman",
+     "role": "S (transfer, Monmouth)",
+     "evidence": "an FCS-transfer safety with 75 tackles"
+    }
    ],
-   "data_gaps": ["6+ DBs raided to the P4", "COV p18"],
-   "g5_guard_note": "Sun Belt; two returning DBs + FCS transfers after a P4 raid on the secondary."},
-  {"team": "Georgia State", "unit": "ST", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Arizona State ST 2026 (40, peer)", "Kansas ST 2026 (40, peer)"],
+   "data_gaps": [
+    "6+ DBs raided to the P4",
+    "COV p18"
+   ],
+   "g5_guard_note": "Sun Belt; two returning DBs + FCS transfers after a P4 raid on the secondary."
+  },
+  {
+   "team": "Georgia State",
+   "unit": "ST",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Arizona State ST 2026 (40, peer)",
+    "Kansas ST 2026 (40, peer)"
+   ],
    "rationale_bullets": [
     "Returning K Liam Rickman (McAlister -> Arkansas) + transfer P Christian Teeter + return men. SPEC was p30.",
     "A modest, largely-returning unit off a below-average '25 ST (p30).",
     "40: ~Arizona State/Kansas ST 40. The returning kicker vs the poor baseline. M."
    ],
    "key_players": [
-    {"name": "Liam Rickman", "role": "K (returning)", "evidence": "the returning placekicker"}
+    {
+     "name": "Liam Rickman",
+     "role": "K (returning)",
+     "evidence": "the returning placekicker"
+    }
    ],
-   "data_gaps": ["SPEC p30 in '25"],
-   "g5_guard_note": "Sun Belt; a modest, largely-returning ST unit off a below-average '25."}
+   "data_gaps": [
+    "SPEC p30 in '25"
+   ],
+   "g5_guard_note": "Sun Belt; a modest, largely-returning ST unit off a below-average '25."
+  }
  ]
 }

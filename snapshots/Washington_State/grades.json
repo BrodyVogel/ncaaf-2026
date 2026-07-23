@@ -1,14 +1,46 @@
 {
  "team": "Washington State",
  "units": {
-  "QB": {"grade": 28, "confidence": "L"},
-  "RB": {"grade": 42, "confidence": "M"},
-  "WRTE": {"grade": 44, "confidence": "M"},
-  "OL": {"grade": 26, "confidence": "M"},
-  "DL": {"grade": 30, "confidence": "M"},
-  "LB": {"grade": 28, "confidence": "L"},
-  "DB": {"grade": 32, "confidence": "M"},
-  "ST": {"grade": 32, "confidence": "M"}
+  "QB": {
+   "grade": 28,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 34,
+   "confidence": "M",
+   "v1_grade": 42,
+   "adjudication": "50/50 blend: dg-18.6"
+  },
+  "WRTE": {
+   "grade": 36,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "50/50 blend: dg-19.9"
+  },
+  "OL": {
+   "grade": 21,
+   "confidence": "M",
+   "v1_grade": 26,
+   "adjudication": "50/50 blend: dg-9.2"
+  },
+  "DL": {
+   "grade": 30,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 25,
+   "confidence": "L",
+   "v1_grade": 28,
+   "adjudication": "LB 0.4 blend: dg-8.2"
+  },
+  "DB": {
+   "grade": 32,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 32,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-17",
@@ -16,18 +48,28 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; archetype-watch applied; percentile-mapped; MWC-like Pac-remnant offset w/ P4 caveat - FLAG FOR OWNER; disposition gate resolved yr4/portal before grading); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 28/RB 42/WRTE 44/OL 26/DL 30/LB 28/DB 32/ST 32). NOTE: the market anchor is more optimistic than these departed-tape grades (Kirby Moore + transfer class + schedule) - a strongly negative residual is expected and documented, not an error."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines (QB 28/RB 42/WRTE 44/OL 26/DL 30/LB 28/DB 32/ST 32). NOTE: the market anchor is more optimistic than these departed-tape grades (Kirby Moore + transfer class + schedule) - a strongly negative residual is expected and documented, not an error."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB None, RB None, WRTE None, OL 29, DL 39, LB None, DB 22, ST 29) keys the as-played 2025 tape; the None proxies reflect that the keyed producers all left.",
    "WRTE": "keys None but graded 44 - WR1 Freeman (72.3) + TE Leckner return (withdrawal overrides) off a RECV p76 unit.",
    "DB": "+10 vs proxy 22 - the proven COV p81 secondary all left; Durrance (67.9) the one returner + transfers.",
    "DL": "-9 vs proxy 39 - the Iowa State cluster (Isaac Terrell 86.8) left; only Hughes (low-volume) returns."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "Washington State", "unit": "QB", "grade": 28, "confidence": "L",
-   "bracketing_exemplars": ["Florida International QB 2025 (15, exemplar anchor)", "New Mexico QB 2025 (34, round exemplar)"],
+   "team": "Washington State",
+   "unit": "QB",
+   "grade": 28,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "New Mexico QB 2025 (34, round exemplar)"
+   ],
    "rationale_bullets": [
     "Both '25 QBs gone (Eckhaus 74.5 yr4; Potter -> Old Dominion). Pinnick (UC Davis FCS transfer) the projected QB1 - 'unanswered questions at QB' (Athlon).",
     "No cell (FCS), no FBS starting tape.",
@@ -35,27 +77,59 @@
     "28: below the proven-G5-starter tier (UNM 34); above the pure floor on the scheme. L: unproven at the FBS level."
    ],
    "key_players": [
-    {"name": "Caden Pinnick", "role": "QB1 (transfer, UC Davis FCS)", "evidence": "no FBS tape; 'unanswered questions at QB'"}
+    {
+     "name": "Caden Pinnick",
+     "role": "QB1 (transfer, UC Davis FCS)",
+     "evidence": "no FBS tape; 'unanswered questions at QB'"
+    }
    ],
-   "data_gaps": ["FCS transfer, no FBS tape", "both '25 QBs gone"], "g5_guard_note": null
+   "data_gaps": [
+    "FCS transfer, no FBS tape",
+    "both '25 QBs gone"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Washington State", "unit": "RB", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["Akron RB (p3, 60.3 table anchor)", "Illinois RB 2025 (32, exemplar anchor)"],
+   "team": "Washington State",
+   "unit": "RB",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Akron RB (p3, 60.3 table anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Vorhees returns (137 att 72.4 -> 63.5 MWC-adj; BOLD, withdrawal override) + Woods (59.9) + Pulalasi (62.3) - 'the RB trio' (Athlon).",
     "A solid returning trio (all 60-63 adj) behind a poor run block (RBLK p1 - the cap).",
     "42: the skill is real (above the Illinois-32 tier); the historically-bad run block is the drag."
    ],
    "key_players": [
-    {"name": "Kirby Vorhees", "role": "RB1 (returning, BOLD, withdrawal override)", "evidence": "137 att 72.4 (63.5 adj)"},
-    {"name": "Leo Pulalasi", "role": "RB (returning)", "evidence": "38 att 71.2 (62.3 adj)"}
+    {
+     "name": "Kirby Vorhees",
+     "role": "RB1 (returning, BOLD, withdrawal override)",
+     "evidence": "137 att 72.4 (63.5 adj)"
+    },
+    {
+     "name": "Leo Pulalasi",
+     "role": "RB (returning)",
+     "evidence": "38 att 71.2 (62.3 adj)"
+    }
    ],
-   "data_gaps": ["RBLK p1 run block", "behind a new QB"], "g5_guard_note": null
+   "data_gaps": [
+    "RBLK p1 run block",
+    "behind a new QB"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Washington State", "unit": "WRTE", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Missouri State WRTE (p25, 61.3 table anchor)", "Nebraska WRTE 2025 (50, exemplar anchor)"],
+   "team": "Washington State",
+   "unit": "WRTE",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Missouri State WRTE (p25, 61.3 table anchor)",
+    "Nebraska WRTE 2025 (50, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Keeps WR1 Freeman (279 routes 76.0 -> 72.3 MWC-adj; BOLD, withdrawal override) + TE Leckner (53.9; BOLD) + transfers Blood (Missouri), Hawkins (Florida), Clemons (OSU). Loses Meredith (72.5, yr4) + Noga (yr4).",
     "A legit WR1 (Freeman 72.3, above the Nebraska-50 volume leader) + real P4-transfer depth, off a RECV p76 unit.",
@@ -63,15 +137,37 @@
     "44: above the Missouri-State p25 rail on Freeman + the receiving base; just below Nebraska 50."
    ],
    "key_players": [
-    {"name": "Tony Freeman", "role": "WR1 (returning, BOLD, withdrawal override)", "evidence": "279 routes 76.0 (72.3 adj)"},
-    {"name": "Trey Leckner", "role": "TE (returning, BOLD)", "evidence": "144 routes 57.6 (53.9 adj)"},
-    {"name": "Daniel Blood", "role": "WR (transfer, Missouri)", "evidence": "SEC depth"}
+    {
+     "name": "Tony Freeman",
+     "role": "WR1 (returning, BOLD, withdrawal override)",
+     "evidence": "279 routes 76.0 (72.3 adj)"
+    },
+    {
+     "name": "Trey Leckner",
+     "role": "TE (returning, BOLD)",
+     "evidence": "144 routes 57.6 (53.9 adj)"
+    },
+    {
+     "name": "Daniel Blood",
+     "role": "WR (transfer, Missouri)",
+     "evidence": "SEC depth"
+    }
    ],
-   "data_gaps": ["depth is transfer-reload", "new QB throwing"], "g5_guard_note": null
+   "data_gaps": [
+    "depth is transfer-reload",
+    "new QB throwing"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Washington State", "unit": "OL", "grade": 26, "confidence": "M",
-   "bracketing_exemplars": ["Central Michigan OL (p3, 41.5 table anchor)", "Western Kentucky OL 2025 (25, exemplar anchor)"],
+   "team": "Washington State",
+   "unit": "OL",
+   "grade": 26,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Central Michigan OL (p3, 41.5 table anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Returns 4 starters off a HISTORICALLY-BAD base (PBLK p4, RBLK p1 - near-worst in FBS): Tripp (LT, 38.2 adj; BOLD) + Lester (LG, 42.7; BOLD) + Martin (C, 44.0) + Dunham (RG, 38.8) + transfer McCree (RT).",
     "Continuity, but of a p1-run-block unit - the MWC offset crushes the already-awful grades to 38-44 adj (below the WKU-OL rail).",
@@ -79,14 +175,31 @@
     "26: just above the WKU-25 rail on the returning starters; the p1/p4 base + the MWC-crushed grades cap it hard."
    ],
    "key_players": [
-    {"name": "Ashton Tripp", "role": "LT (returning, BOLD)", "evidence": "887 snaps 48.3 (38.2 adj)"},
-    {"name": "Jonny Lester", "role": "LG (returning, BOLD)", "evidence": "870 snaps 52.8 (42.7 adj)"}
+    {
+     "name": "Ashton Tripp",
+     "role": "LT (returning, BOLD)",
+     "evidence": "887 snaps 48.3 (38.2 adj)"
+    },
+    {
+     "name": "Jonny Lester",
+     "role": "LG (returning, BOLD)",
+     "evidence": "870 snaps 52.8 (42.7 adj)"
+    }
    ],
-   "data_gaps": ["PBLK p4 / RBLK p1 base (near-worst in FBS)"], "g5_guard_note": null
+   "data_gaps": [
+    "PBLK p4 / RBLK p1 base (near-worst in FBS)"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Washington State", "unit": "DL", "grade": 30, "confidence": "M",
-   "bracketing_exemplars": ["Buffalo DL (p10, 57.2 table anchor)", "East Carolina DL (p25, 60.5 table anchor)"],
+   "team": "Washington State",
+   "unit": "DL",
+   "grade": 30,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Buffalo DL (p10, 57.2 table anchor)",
+    "East Carolina DL (p25, 60.5 table anchor)"
+   ],
    "rationale_bullets": [
     "The proven front is GONE - the Iowa State cluster (Isaac Terrell 86.8, Lamb, Ta'ase, Janikowski, Fitzmaurice, Baloun) + yr4 (Peleti, Finau, Stevenson).",
     "Keeps only Hughes (146 snaps 79.5 -> 77.3 adj - a low-volume bright spot) + Beatty (63.0) + all-transfer (McLain, D.Lewis, Zunk).",
@@ -94,14 +207,32 @@
     "30: above the Buffalo p10 rail on Hughes + the transfers; a from-scratch front."
    ],
    "key_players": [
-    {"name": "Michael Hughes", "role": "DE (returning)", "evidence": "146 snaps 79.5 (77.3 adj); low-volume bright spot"},
-    {"name": "Damarjhe Lewis", "role": "DT (transfer)", "evidence": "projected starter"}
+    {
+     "name": "Michael Hughes",
+     "role": "DE (returning)",
+     "evidence": "146 snaps 79.5 (77.3 adj); low-volume bright spot"
+    },
+    {
+     "name": "Damarjhe Lewis",
+     "role": "DT (transfer)",
+     "evidence": "projected starter"
+    }
    ],
-   "data_gaps": ["proven front all left (Iowa State cluster)", "Hughes on a tiny sample"], "g5_guard_note": null
+   "data_gaps": [
+    "proven front all left (Iowa State cluster)",
+    "Hughes on a tiny sample"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Washington State", "unit": "LB", "grade": 28, "confidence": "L",
-   "bracketing_exemplars": ["Liberty LB (p3, 47.4 table anchor)", "Nevada LB (p25, 56.3 table anchor)"],
+   "team": "Washington State",
+   "unit": "LB",
+   "grade": 28,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Liberty LB (p3, 47.4 table anchor)",
+    "Nevada LB (p25, 56.3 table anchor)"
+   ],
    "rationale_bullets": [
     "ZERO returning starters - McKenna (yr4), Palano (-> BC), Schlimgen (-> Iowa St) gone. Keeps only Ellison (38.8, weak). All-transfer projected starters (K.Brown, Warner, N.Brown).",
     "An all-transfer rebuild off a TACK p0 base (historically-bad tackling).",
@@ -109,14 +240,32 @@
     "28: between the Liberty-p3 and Nevada-p25 rails - a from-scratch, unproven unit. L."
    ],
    "key_players": [
-    {"name": "DJ Warner", "role": "LB (transfer)", "evidence": "projected starter"},
-    {"name": "Nylan Brown", "role": "LB (transfer)", "evidence": "projected starter"}
+    {
+     "name": "DJ Warner",
+     "role": "LB (transfer)",
+     "evidence": "projected starter"
+    },
+    {
+     "name": "Nylan Brown",
+     "role": "LB (transfer)",
+     "evidence": "projected starter"
+    }
    ],
-   "data_gaps": ["0 returning starters", "TACK p0 base"], "g5_guard_note": null
+   "data_gaps": [
+    "0 returning starters",
+    "TACK p0 base"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Washington State", "unit": "DB", "grade": 32, "confidence": "M",
-   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6, exemplar anchor)", "UNLV DB (p25, 62.8 table anchor)"],
+   "team": "Washington State",
+   "unit": "DB",
+   "grade": 32,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "UNLV DB (p25, 62.8 table anchor)"
+   ],
    "rationale_bullets": [
     "The entire proven secondary (COV p81) is yr4/portal GONE - Francl (71.4), Large (81.4 - a stud), Humphrey (78.0), Colson (71.9), Reeder; Worthy (-> Cincinnati).",
     "Keeps only Durrance (S, 464 snaps 70.3 -> 67.9 adj - the one returning contributor); adds transfers Tucker (OSU 56.8), Terrell (Texas State 60.7), J.Thomas, Bernard.",
@@ -124,14 +273,32 @@
     "32: above the FAU-6 rail on Durrance + the transfers; the total loss of the proven core caps it."
    ],
    "key_players": [
-    {"name": "Matthew Durrance", "role": "S (returning)", "evidence": "464 snaps 70.3 (67.9 adj); the one returning DB"},
-    {"name": "Khamari Terrell", "role": "CB (transfer, Texas State)", "evidence": "606 snaps 64.3 (60.7 adj)"}
+    {
+     "name": "Matthew Durrance",
+     "role": "S (returning)",
+     "evidence": "464 snaps 70.3 (67.9 adj); the one returning DB"
+    },
+    {
+     "name": "Khamari Terrell",
+     "role": "CB (transfer, Texas State)",
+     "evidence": "606 snaps 64.3 (60.7 adj)"
+    }
    ],
-   "data_gaps": ["proven COV-p81 core all gone", "heavy transfer reliance"], "g5_guard_note": null
+   "data_gaps": [
+    "proven COV-p81 core all gone",
+    "heavy transfer reliance"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Washington State", "unit": "ST", "grade": 32, "confidence": "M",
-   "bracketing_exemplars": ["Colorado State ST 2026 (20, round peer)", "San Diego State ST 2026 (36, round peer)"],
+   "team": "Washington State",
+   "unit": "ST",
+   "grade": 32,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Colorado State ST 2026 (20, round peer)",
+    "San Diego State ST 2026 (36, round peer)"
+   ],
    "rationale_bullets": [
     "K Stevens (So., returns) + P Dean (New Mexico State transfer, 55 punts 42.3 avg) + KR Hawkins (Florida) + PR Freeman. SPEC p29.",
     "A middling unit - a returning kicker + a decent transfer punter + return men, off a below-average base.",
@@ -139,10 +306,21 @@
     "32: below-average - no clear strength, but competent specialists."
    ],
    "key_players": [
-    {"name": "Max Dean", "role": "P (transfer, New Mexico State)", "evidence": "55 punts 42.3 avg"},
-    {"name": "Jack Stevens", "role": "K (returning)", "evidence": "returning kicker"}
+    {
+     "name": "Max Dean",
+     "role": "P (transfer, New Mexico State)",
+     "evidence": "55 punts 42.3 avg"
+    },
+    {
+     "name": "Jack Stevens",
+     "role": "K (returning)",
+     "evidence": "returning kicker"
+    }
    ],
-   "data_gaps": ["below-average SPEC p29 base"], "g5_guard_note": null
+   "data_gaps": [
+    "below-average SPEC p29 base"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

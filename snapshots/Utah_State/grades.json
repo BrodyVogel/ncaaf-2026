@@ -6,24 +6,32 @@
    "confidence": "M"
   },
   "RB": {
-   "grade": 40,
-   "confidence": "M"
+   "grade": 32,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "50/50 blend: dg-17.3"
   },
   "WRTE": {
    "grade": 34,
    "confidence": "M"
   },
   "OL": {
-   "grade": 36,
-   "confidence": "M"
+   "grade": 29,
+   "confidence": "M",
+   "v1_grade": 36,
+   "adjudication": "50/50 blend: dg-14.6"
   },
   "DL": {
-   "grade": 36,
-   "confidence": "M"
+   "grade": 28,
+   "confidence": "M",
+   "v1_grade": 36,
+   "adjudication": "50/50 blend: dg-16.7"
   },
   "LB": {
-   "grade": 36,
-   "confidence": "M"
+   "grade": 32,
+   "confidence": "M",
+   "v1_grade": 36,
+   "adjudication": "LB 0.4 blend: dg-8.8"
   },
   "DB": {
    "grade": 36,
@@ -49,7 +57,9 @@
    "ST": "+28 vs proxy 10 - the p10 SPEC was kicking-driven; P Rehkow (42.9) + All-American LS Hatch + weapon returner Jacobs + a decent transfer K lift it.",
    "DB": "+17 vs proxy 19 - lost four yr4 starters, but keeps Flores (69.0) + Hamblin + Arnold and adds a heavy P4/G5 transfer wave.",
    "OL": "+24 vs proxy 12 - the interior three (Maile/Liston/Motu'apuaka) return + P4 transfer tackles."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

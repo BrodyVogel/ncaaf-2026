@@ -18,8 +18,10 @@
    "confidence": "M"
   },
   "DL": {
-   "grade": 65,
-   "confidence": "M"
+   "grade": 73,
+   "confidence": "M",
+   "v1_grade": 65,
+   "adjudication": "50/50 blend: dg+18.7"
   },
   "LB": {
    "grade": 62,
@@ -48,7 +50,9 @@
    "OL": "-27 vs proxy 87 (proxy counts the 2nd-tm guard's 949 snaps that left)",
    "ST": "-31 vs proxy 96 (proxy rides the #2-STR season; new punter + regression baked into 65)",
    "global": "every unit graded below proxy - the proxy linearly extends a 98th-pctile as-played season; grades price the QB/DL/LB star exits and G5 guard"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -285,7 +289,7 @@
    "rationale_bullets": [
     "Four starters return from a 99th-pctile coverage unit (#8 PDR), three with 80+ tape: Pollock (82.5/797; 1st-team B12, 13 pd, 5 INT - 'high NFL DC next year'), Jordan (82.3/794; 14 st FS), Curry (80.9/745; 14 st STAR, #4 tackler), plus Boyd (73.4/528; 9 pd).",
     "The one opening goes to Morgan (71.5/113; Top200 'spring hero and ballhawk'), and the depth tape is real: Hampton (82.7/97), Balfour (72.2/334).",
-    "The loss is the drafted FS Wisniewski (83.9/808; #3 tackler); PS: 'remains strong… will probably drop some.'",
+    "The loss is the drafted FS Wisniewski (83.9/808; #3 tackler); PS: 'remains strong\u2026 will probably drop some.'",
     "70, H = just under the WSU-DB-72 exemplar: three 80+ returning starters; H on tape/source unanimity."
    ],
    "key_players": [

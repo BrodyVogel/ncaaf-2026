@@ -2,8 +2,10 @@
  "team": "UConn",
  "units": {
   "QB": {
-   "grade": 46,
-   "confidence": "L"
+   "grade": 44,
+   "confidence": "L",
+   "v1_grade": 46,
+   "adjudication": "Merklinger 81.6/28 + Osborne 72.9/82 both shrink to ~71; battle + Candle-system familiarity holds it near dossier; -2: ~40-42 after IND-dest fix; v1-mech 89pct was strawman (dossier L already shrank tiny samples)"
   },
   "RB": {
    "grade": 48,
@@ -18,16 +20,22 @@
    "confidence": "M"
   },
   "DL": {
-   "grade": 46,
-   "confidence": "M"
+   "grade": 47,
+   "confidence": "M",
+   "v1_grade": 46,
+   "adjudication": "Mickens (OSU) + Carter; formula mildly up; +1: v2 50th pctile"
   },
   "LB": {
-   "grade": 50,
-   "confidence": "M"
+   "grade": 47,
+   "confidence": "M",
+   "v1_grade": 50,
+   "adjudication": "dossier leaned Athlon 'strength' narrative; split formula/dossier; -3: v2 36th pctile; k=630 shrinks Sherman's Toledo volume hard"
   },
   "DB": {
-   "grade": 44,
-   "confidence": "L"
+   "grade": 47,
+   "confidence": "L",
+   "v1_grade": 44,
+   "adjudication": "formula up vs dossier; +3: v2 53rd; McLean 74.7/638 real tape, w=0.35 -> ~69 proj"
   },
   "ST": {
    "grade": 44,
@@ -50,7 +58,9 @@
    "OL": "+36 vs proxy 12 - the grade keys the cohesive Toledo OL transplant (#17 sacks allowed) + returning Chan.",
    "RB": "+40 vs proxy 8 - graded on the transfer room (Cornist 76.0 at CMU) after the 1,000-yd back left.",
    "QB": "46 vs proxy None - graded on the transfer battle (Merklinger/Osborne), not the emptied-out proxy."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

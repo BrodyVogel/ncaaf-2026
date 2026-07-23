@@ -1,14 +1,40 @@
 {
  "team": "Sacramento State",
  "units": {
-  "QB": {"grade": 20, "confidence": "L"},
-  "RB": {"grade": 14, "confidence": "L"},
-  "WRTE": {"grade": 10, "confidence": "M"},
-  "OL": {"grade": 8, "confidence": "M"},
-  "DL": {"grade": 10, "confidence": "L"},
-  "LB": {"grade": 16, "confidence": "M"},
-  "DB": {"grade": 10, "confidence": "L"},
-  "ST": {"grade": 22, "confidence": "M"}
+  "QB": {
+   "grade": 20,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 14,
+   "confidence": "L"
+  },
+  "WRTE": {
+   "grade": 12,
+   "confidence": "M",
+   "v1_grade": 10,
+   "adjudication": "50/50 blend: dg+9.3; info 0.16 \u2014 blend halved"
+  },
+  "OL": {
+   "grade": 8,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 10,
+   "confidence": "L"
+  },
+  "LB": {
+   "grade": 16,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 10,
+   "confidence": "L"
+  },
+  "ST": {
+   "grade": 22,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -21,7 +47,9 @@
   },
   "shadow_proxy_divergence": {
    "note": "proxy ALL-VOID (8/8 None) - artifact #43, the project's first fully-empty sheet. Every grade is out-of-model; no divergences computable."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -40,10 +68,21 @@
     "20, L: strong-FCS pedigree discounted by the failed FBS cameo - between Ball State's 18 and the 22-tier FCS-producer rooms."
    ],
    "key_players": [
-    {"name": "Carson Conklin", "role": "QB1 (boomerang via Fresno State)", "evidence": "FCS FR All-American '24; 48.1/105 at Fresno '25"},
-    {"name": "Brian Salazar", "role": "QB2 (JC, feed-gap)", "evidence": "3,210 @ 63%, 36-11 JC"}
+    {
+     "name": "Carson Conklin",
+     "role": "QB1 (boomerang via Fresno State)",
+     "evidence": "FCS FR All-American '24; 48.1/105 at Fresno '25"
+    },
+    {
+     "name": "Brian Salazar",
+     "role": "QB2 (JC, feed-gap)",
+     "evidence": "3,210 @ 63%, 36-11 JC"
+    }
    ],
-   "data_gaps": ["only FBS tape in room is a bad 105-snap sample", "third scheme in three years"],
+   "data_gaps": [
+    "only FBS tape in room is a bad 105-snap sample",
+    "third scheme in three years"
+   ],
    "g5_guard_note": null
   },
   {
@@ -62,10 +101,20 @@
     "14, L = EMU 14: FCS-star pedigree over the 10-floor rooms; health is the whole bet."
    ],
    "key_players": [
-    {"name": "Jamar Curtis", "role": "RB1 (returning; withdrawal override)", "evidence": "FCS AA at Lafayette; 1,460 in '23; RS'd hurt '25"},
-    {"name": "Davion Godley", "role": "RB2 (transfer, Weber St)", "evidence": "FCS 1,142 @ 5.8 over 2 yrs"}
+    {
+     "name": "Jamar Curtis",
+     "role": "RB1 (returning; withdrawal override)",
+     "evidence": "FCS AA at Lafayette; 1,460 in '23; RS'd hurt '25"
+    },
+    {
+     "name": "Davion Godley",
+     "role": "RB2 (transfer, Weber St)",
+     "evidence": "FCS 1,142 @ 5.8 over 2 yrs"
+    }
    ],
-   "data_gaps": ["both lead backs have injury clouds"],
+   "data_gaps": [
+    "both lead backs have injury clouds"
+   ],
    "g5_guard_note": null
   },
   {
@@ -84,10 +133,21 @@
     "10 - new project WRTE floor: below Ball State's 12 (their Hamilton beat anything here)."
    ],
    "key_players": [
-    {"name": "Jordan Williams", "role": "TE1 (returning starter)", "evidence": "10 st, 170 @ 15.5"},
-    {"name": "Matt Coleman", "role": "WR1 (transfer, San Jose St)", "evidence": "4 st, 651 career @ 9.9"}
+    {
+     "name": "Jordan Williams",
+     "role": "TE1 (returning starter)",
+     "evidence": "10 st, 170 @ 15.5"
+    },
+    {
+     "name": "Matt Coleman",
+     "role": "WR1 (transfer, San Jose St)",
+     "evidence": "4 st, 651 career @ 9.9"
+    }
    ],
-   "data_gaps": ["no returning 200-yd receiver", "JC-heavy two-deep"],
+   "data_gaps": [
+    "no returning 200-yd receiver",
+    "JC-heavy two-deep"
+   ],
    "g5_guard_note": null
   },
   {
@@ -106,10 +166,20 @@
     "8 - NEW PROJECT OL FLOOR, below BGSU's 10 (their zero-starter room at least had FBS-adjacent bodies)."
    ],
    "key_players": [
-    {"name": "Bryson Summers", "role": "LT1 (returning)", "evidence": "2 st @ RG '24 + 2 st @ LT '25"},
-    {"name": "Vae Soifua", "role": "RG1 (transfer, Weber St)", "evidence": "4 st, 6 gm there '25"}
+    {
+     "name": "Bryson Summers",
+     "role": "LT1 (returning)",
+     "evidence": "2 st @ RG '24 + 2 st @ LT '25"
+    },
+    {
+     "name": "Vae Soifua",
+     "role": "RG1 (transfer, Weber St)",
+     "evidence": "4 st, 6 gm there '25"
+    }
    ],
-   "data_gaps": ["zero FBS starts on the entire two-deep"],
+   "data_gaps": [
+    "zero FBS starts on the entire two-deep"
+   ],
    "g5_guard_note": null
   },
   {
@@ -128,10 +198,21 @@
     "10, L: one strong-FCS edge + unknowable rotation, learning a 3-3 stack, up a division."
    ],
    "key_players": [
-    {"name": "Xavier Williams", "role": "DE1 (returning starter)", "evidence": "11 st, 31 tkl, 6 sk (FCS)"},
-    {"name": "Jamel Howard", "role": "DT1 (transfer, Wisconsin)", "evidence": "50.1/4; won the job in spring"}
+    {
+     "name": "Xavier Williams",
+     "role": "DE1 (returning starter)",
+     "evidence": "11 st, 31 tkl, 6 sk (FCS)"
+    },
+    {
+     "name": "Jamel Howard",
+     "role": "DT1 (transfer, Wisconsin)",
+     "evidence": "50.1/4; won the job in spring"
+    }
    ],
-   "data_gaps": ["rotation unknowable", "new 3-3 stack"],
+   "data_gaps": [
+    "rotation unknowable",
+    "new 3-3 stack"
+   ],
    "g5_guard_note": null
   },
   {
@@ -150,10 +231,21 @@
     "16: three returning FCS starters with volume beats the FBS-thin 14-rooms; the division jump caps it far below UMass's FBS-tape 30."
    ],
    "key_players": [
-    {"name": "Derek Houston", "role": "MLB1 (returning; portal-return override)", "evidence": "71 tkl as rFr '24; 5 st '25 then OFY"},
-    {"name": "Alex Rocha", "role": "MLB2 (returning starter)", "evidence": "7 st, 49 tkl, 4.5 tfl"}
+    {
+     "name": "Derek Houston",
+     "role": "MLB1 (returning; portal-return override)",
+     "evidence": "71 tkl as rFr '24; 5 st '25 then OFY"
+    },
+    {
+     "name": "Alex Rocha",
+     "role": "MLB2 (returning starter)",
+     "evidence": "7 st, 49 tkl, 4.5 tfl"
+    }
    ],
-   "data_gaps": ["health (one healthy quarter together)", "all FCS tape"],
+   "data_gaps": [
+    "health (one healthy quarter together)",
+    "all FCS tape"
+   ],
    "g5_guard_note": null
   },
   {
@@ -172,11 +264,25 @@
     "10, L: above only the FAU-6 global floor tier; below Ball State's 14."
    ],
    "key_players": [
-    {"name": "Boogsie Silvera", "role": "S1 (transfer, USF)", "evidence": "51.0/25; McNeese 153 tkl '23-24"},
-    {"name": "Amari Wallace", "role": "S1 (transfer, Miami FL)", "evidence": "rFr, PS#49, zero tape"},
-    {"name": "Elias Mullican", "role": "CB1 (returning)", "evidence": "3 st '25; 10 st '24"}
+    {
+     "name": "Boogsie Silvera",
+     "role": "S1 (transfer, USF)",
+     "evidence": "51.0/25; McNeese 153 tkl '23-24"
+    },
+    {
+     "name": "Amari Wallace",
+     "role": "S1 (transfer, Miami FL)",
+     "evidence": "rFr, PS#49, zero tape"
+    },
+    {
+     "name": "Elias Mullican",
+     "role": "CB1 (returning)",
+     "evidence": "3 st '25; 10 st '24"
+    }
    ],
-   "data_gaps": ["nine transfers, 25 combined FBS snaps"],
+   "data_gaps": [
+    "nine transfers, 25 combined FBS snaps"
+   ],
    "g5_guard_note": null
   },
   {
@@ -195,10 +301,21 @@
     "22 = Buffalo 22: a real kicker + blank everything else."
    ],
    "key_players": [
-    {"name": "Grant Meadors", "role": "K1 (returning)", "evidence": "12-15 FG, L/42; ex-Oregon"},
-    {"name": "Jay Brockhaus", "role": "P1 (transfer, SELU - feed-gap)", "evidence": "38.7 net '24; DNP '25"}
+    {
+     "name": "Grant Meadors",
+     "role": "K1 (returning)",
+     "evidence": "12-15 FG, L/42; ex-Oregon"
+    },
+    {
+     "name": "Jay Brockhaus",
+     "role": "P1 (transfer, SELU - feed-gap)",
+     "evidence": "38.7 net '24; DNP '25"
+    }
    ],
-   "data_gaps": ["punter unsettled", "return jobs new"],
+   "data_gaps": [
+    "punter unsettled",
+    "return jobs new"
+   ],
    "g5_guard_note": null
   }
  ]

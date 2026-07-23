@@ -6,12 +6,16 @@
    "confidence": "M"
   },
   "RB": {
-   "grade": 44,
-   "confidence": "M"
+   "grade": 48,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "50/50 blend: dg+15.9; info 0.18 \u2014 blend halved"
   },
   "WRTE": {
-   "grade": 44,
-   "confidence": "M"
+   "grade": 41,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "50/50 blend: dg-12.0; info 0.14 \u2014 blend halved"
   },
   "OL": {
    "grade": 40,
@@ -47,7 +51,9 @@
    "ST": "-45 vs proxy 97 (proxy rides both specialists; K left LATE portal window, only the Ray Guy punter returns)",
    "QB": "-7 vs proxy 57 (proxy credits Robertson-era passing infrastructure; my 50 prices Lagway directly)"
   },
-  "ps_backfill_2026_07_15": "PS visual page-read: QB 50->52 (injury context), RB 42->44 (2024 Pendergrass volume), OL 38->40 (93 incoming career starts). DL 47 held (PS 'best Baylor DL since Aranda arrived' noted); LB 38 L held (PS optimism is health-conditional - the same caveat)."
+  "ps_backfill_2026_07_15": "PS visual page-read: QB 50->52 (injury context), RB 42->44 (2024 Pendergrass volume), OL 38->40 (93 incoming career starts). DL 47 held (PS 'best Baylor DL since Aranda arrived' noted); LB 38 L held (PS optimism is health-conditional - the same caveat).",
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

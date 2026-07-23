@@ -2,16 +2,22 @@
  "team": "Duke",
  "units": {
   "QB": {
-   "grade": 50,
-   "confidence": "M"
+   "grade": 46,
+   "confidence": "M",
+   "v1_grade": 50,
+   "adjudication": "manual middle ground: dg-24.8 | ADJUDICATOR: solo-matched unit (FR QB2 unmatched) \u2014 aggregation artifact; Eget v2 player-value ABOVE v1 (spec worked example); partial blend only"
   },
   "RB": {
-   "grade": 62,
-   "confidence": "M"
+   "grade": 67,
+   "confidence": "M",
+   "v1_grade": 62,
+   "adjudication": "50/50 blend: dg+9.5"
   },
   "WRTE": {
-   "grade": 48,
-   "confidence": "L"
+   "grade": 55,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "50/50 blend: dg+13.2"
   },
   "OL": {
    "grade": 52,
@@ -50,7 +56,9 @@
    "QB": "+31 vs proxy 19 - proxy keys the loss of Mensah; the grade credits proven transfer Eget (60.2 adj).",
    "OL": "-14 vs proxy 66 - proxy includes NFL-gone Parker (85.5); the grade keys the returners + Del Grande without him.",
    "DB": "+27 vs proxy 19 - proxy keys the loss of Rivers + weak COV; the grade adds for the transfer reload."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

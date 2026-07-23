@@ -2,32 +2,44 @@
  "team": "Oregon State",
  "units": {
   "QB": {
-   "grade": 34,
-   "confidence": "M"
+   "grade": 31,
+   "confidence": "L",
+   "v1_grade": 34,
+   "adjudication": "split; dossier already flagged optimism: dg-10"
   },
   "RB": {
-   "grade": 32,
-   "confidence": "M"
+   "grade": 27,
+   "confidence": "M",
+   "v1_grade": 32,
+   "adjudication": "50/50 blend: dg-10.8"
   },
   "WRTE": {
-   "grade": 30,
-   "confidence": "L"
+   "grade": 27,
+   "confidence": "L",
+   "v1_grade": 30,
+   "adjudication": "50/50 blend: dg-11.9; info 0.16 \u2014 blend halved"
   },
   "OL": {
    "grade": 24,
    "confidence": "L"
   },
   "DL": {
-   "grade": 42,
-   "confidence": "M"
+   "grade": 37,
+   "confidence": "M",
+   "v1_grade": 42,
+   "adjudication": "50/50 blend: dg-9.3"
   },
   "LB": {
-   "grade": 44,
-   "confidence": "M"
+   "grade": 41,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "LB 0.4 blend: dg-14.6; info 0.18 \u2014 blend halved"
   },
   "DB": {
-   "grade": 42,
-   "confidence": "M"
+   "grade": 38,
+   "confidence": "M",
+   "v1_grade": 42,
+   "adjudication": "split; 'studs leaned high' flag corroborated: dg-11"
   },
   "ST": {
    "grade": 38,
@@ -50,7 +62,9 @@
    "DL": "-18 vs proxy 60 - Hickle (78.6) is a genuine stud, but the front 'looked small' and lost its 70+ edge depth (Meikle, Wallin).",
    "ST": "+38 vs proxy 0 - the p0 was a long-snapper-injury fluke; K Ojeda + record-punter Winsor return and the LS is fixed.",
    "DB": "+20 vs proxy 22 - proxy keys the departed yr4 tape; the unit keeps Vadrawale (68.9) + Patterson (64.4)."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -147,7 +161,7 @@
     {
      "name": "Xayvion Noland",
      "role": "WR (transfer, UTRGV FCS)",
-     "evidence": "901-yд FCS breakout (no cell)"
+     "evidence": "901-y\u0434 FCS breakout (no cell)"
     },
     {
      "name": "Aeryn Hampton",

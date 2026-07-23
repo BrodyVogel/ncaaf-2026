@@ -1,14 +1,44 @@
 {
  "team": "UNLV",
  "units": {
-  "QB": {"grade": 36, "confidence": "M"},
-  "RB": {"grade": 30, "confidence": "M"},
-  "WRTE": {"grade": 16, "confidence": "L"},
-  "OL": {"grade": 20, "confidence": "M"},
-  "DL": {"grade": 18, "confidence": "L"},
-  "LB": {"grade": 16, "confidence": "M"},
-  "DB": {"grade": 20, "confidence": "M"},
-  "ST": {"grade": 20, "confidence": "M"}
+  "QB": {
+   "grade": 36,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 35,
+   "confidence": "M",
+   "v1_grade": 30,
+   "adjudication": "50/50 blend: dg+10.4"
+  },
+  "WRTE": {
+   "grade": 16,
+   "confidence": "L"
+  },
+  "OL": {
+   "grade": 20,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 22,
+   "confidence": "M",
+   "v1_grade": 18,
+   "adjudication": "50/50 blend: dg+8.7"
+  },
+  "LB": {
+   "grade": 18,
+   "confidence": "M",
+   "v1_grade": 16,
+   "adjudication": "LB 0.4 blend: dg+12.0; info 0.16 \u2014 blend halved"
+  },
+  "DB": {
+   "grade": 20,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 20,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-17",
@@ -16,13 +46,17 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "in-session supervised; anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 57, RB 49, WRTE 12, OL 16, DL 33, LB 27, DB 26, ST 40) - artifact #50: first zero-void sheet of the MWC round",
    "QB": "-21 vs proxy 57 - PASS-p90 team keying on a room whose 89.9 engine (Colandrea) left",
    "RB": "-19 vs proxy 49 - proxy under-credits the FBS-best returning rusher relative to my 30... inverted sign: proxy HIGHER at QB, LOWER at RB than roster reality",
    "DL": "-15 vs proxy 33, LB -11 vs 27, DB -6, ST -20, OL +4, WRTE +4"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -41,10 +75,21 @@
     "36: above UNM 34 (Arnold's adjusted tape > Layne's), below CMU 38's demonstrated G5 production."
    ],
    "key_players": [
-    {"name": "Jackson Arnold", "role": "QB1 (transfer, Auburn)", "evidence": "66.2/295 (73.9 SEC-adj); 18 P4 starts; 22-8 career"},
-    {"name": "Alex Orji", "role": "QB2 (returning; yr4 override)", "evidence": "ex-Michigan; OFY Sept '25; run-first"}
+    {
+     "name": "Jackson Arnold",
+     "role": "QB1 (transfer, Auburn)",
+     "evidence": "66.2/295 (73.9 SEC-adj); 18 P4 starts; 22-8 career"
+    },
+    {
+     "name": "Alex Orji",
+     "role": "QB2 (returning; yr4 override)",
+     "evidence": "ex-Michigan; OFY Sept '25; run-first"
+    }
    ],
-   "data_gaps": ["Arnold benching history", "no G5 tape for either QB"],
+   "data_gaps": [
+    "Arnold benching history",
+    "no G5 tape for either QB"
+   ],
    "g5_guard_note": null
   },
   {
@@ -63,10 +108,20 @@
     "30 = just under the Illinois-32 P4 rail; the round's best skill unit."
    ],
    "key_players": [
-    {"name": "Jai'Den Thomas", "role": "RB1 (returning, 1st-Tm MWC)", "evidence": "90.7/148 (81.8 adj); 1,036 @ 7.0, 12 TD"},
-    {"name": "Jaylon Glover", "role": "RB2 (returning)", "evidence": "73.4/64; 384 @ 6.0; Utah '23"}
+    {
+     "name": "Jai'Den Thomas",
+     "role": "RB1 (returning, 1st-Tm MWC)",
+     "evidence": "90.7/148 (81.8 adj); 1,036 @ 7.0, 12 TD"
+    },
+    {
+     "name": "Jaylon Glover",
+     "role": "RB2 (returning)",
+     "evidence": "73.4/64; 384 @ 6.0; Utah '23"
+    }
    ],
-   "data_gaps": ["depth after the top two is rFr/FR"],
+   "data_gaps": [
+    "depth after the top two is rFr/FR"
+   ],
    "g5_guard_note": null
   },
   {
@@ -85,12 +140,32 @@
     "16 L = the NIU/SJSU/Toledo tier; Mullen's own 'much younger' caveat carries the L."
    ],
    "key_players": [
-    {"name": "Taz Reddicks", "role": "WR (transfer, Oregon St)", "evidence": "66.6/203 (71.2 adj); 3 st, 391 yds"},
-    {"name": "Kayden McGee", "role": "WR (returning So)", "evidence": "team's fastest; game-winning ST TD; 97 @ 32.3 '24"},
-    {"name": "Taeshaun Lyons", "role": "WR (returning)", "evidence": "62.4/114; 241 @ 15.0"},
-    {"name": "Keyan Burnett", "role": "TE1 (transfer, Arizona)", "evidence": "39.5/43 '25; PS#7 TE; 272 career yds"}
+    {
+     "name": "Taz Reddicks",
+     "role": "WR (transfer, Oregon St)",
+     "evidence": "66.6/203 (71.2 adj); 3 st, 391 yds"
+    },
+    {
+     "name": "Kayden McGee",
+     "role": "WR (returning So)",
+     "evidence": "team's fastest; game-winning ST TD; 97 @ 32.3 '24"
+    },
+    {
+     "name": "Taeshaun Lyons",
+     "role": "WR (returning)",
+     "evidence": "62.4/114; 241 @ 15.0"
+    },
+    {
+     "name": "Keyan Burnett",
+     "role": "TE1 (transfer, Arizona)",
+     "evidence": "39.5/43 '25; PS#7 TE; 272 career yds"
+    }
    ],
-   "data_gaps": ["zero returning starters", "TE tape poor", "McGee receiving projection"],
+   "data_gaps": [
+    "zero returning starters",
+    "TE tape poor",
+    "McGee receiving projection"
+   ],
    "g5_guard_note": null
   },
   {
@@ -109,12 +184,31 @@
     "20: below Nevada 22/UNM 24 on proven tape, above SJSU/Toledo 14."
    ],
    "key_players": [
-    {"name": "Austin Boyd", "role": "C (returning, 2nd-Tm MWC at RT)", "evidence": "65.4/896 (55.3 adj); 13 st; position move"},
-    {"name": "Will Thomas", "role": "LT (returning)", "evidence": "54.4/838 (44.3 adj); 14 st"},
-    {"name": "Griffin Scroggs", "role": "RG (transfer, App St)", "evidence": "63.6/442 '25; 9 st L2Y"},
-    {"name": "BJ Tolo", "role": "C2/G (transfer, NMSU - feed-gap)", "evidence": "21 st L2Y"}
+    {
+     "name": "Austin Boyd",
+     "role": "C (returning, 2nd-Tm MWC at RT)",
+     "evidence": "65.4/896 (55.3 adj); 13 st; position move"
+    },
+    {
+     "name": "Will Thomas",
+     "role": "LT (returning)",
+     "evidence": "54.4/838 (44.3 adj); 14 st"
+    },
+    {
+     "name": "Griffin Scroggs",
+     "role": "RG (transfer, App St)",
+     "evidence": "63.6/442 '25; 9 st L2Y"
+    },
+    {
+     "name": "BJ Tolo",
+     "role": "C2/G (transfer, NMSU - feed-gap)",
+     "evidence": "21 st L2Y"
+    }
    ],
-   "data_gaps": ["Boyd position change", "guard tape thin"],
+   "data_gaps": [
+    "Boyd position change",
+    "guard tape thin"
+   ],
    "g5_guard_note": null
   },
   {
@@ -133,12 +227,31 @@
     "18 L: Conti + the flash + role players (L.Thomas, Rudolph, Fuller); the interior two-deep is rFr/no-start transfers."
    ],
    "key_players": [
-    {"name": "Lucas Conti", "role": "DT (returning; WITHDRAWN-override STAYS)", "evidence": "67.5/426 (65.3 adj); 11 st"},
-    {"name": "Andre Porter", "role": "DE (returning breakout candidate)", "evidence": "88.4/75 (86.2 adj); both prints project expansion"},
-    {"name": "Landen Thomas", "role": "DE (returning)", "evidence": "64.0/212"},
-    {"name": "Cohen Fuller", "role": "NT (returning)", "evidence": "56.4/326; 3 st"}
+    {
+     "name": "Lucas Conti",
+     "role": "DT (returning; WITHDRAWN-override STAYS)",
+     "evidence": "67.5/426 (65.3 adj); 11 st"
+    },
+    {
+     "name": "Andre Porter",
+     "role": "DE (returning breakout candidate)",
+     "evidence": "88.4/75 (86.2 adj); both prints project expansion"
+    },
+    {
+     "name": "Landen Thomas",
+     "role": "DE (returning)",
+     "evidence": "64.0/212"
+    },
+    {
+     "name": "Cohen Fuller",
+     "role": "NT (returning)",
+     "evidence": "56.4/326; 3 st"
+    }
    ],
-   "data_gaps": ["Porter sample = 75 snaps", "interior depth unproven"],
+   "data_gaps": [
+    "Porter sample = 75 snaps",
+    "interior depth unproven"
+   ],
    "g5_guard_note": null
   },
   {
@@ -157,11 +270,26 @@
     "16 = the Toledo-LB shape (returning starter + elite FCS import + P4 bodies)."
    ],
    "key_players": [
-    {"name": "Blesyng Alualu-Tuiolemotu", "role": "WLB (returning starter)", "evidence": "63.3/488 (58.6 adj); 11 st, 61 tkl"},
-    {"name": "Cam Santee", "role": "MLB (transfer, Holy Cross)", "evidence": "CAA DPOY: 110 tkl, 14 TFL; green-dot"},
-    {"name": "Dee Crayton", "role": "LB (transfer, Clemson)", "evidence": "65.7/79 (67.8 adj); 30 career gm"}
+    {
+     "name": "Blesyng Alualu-Tuiolemotu",
+     "role": "WLB (returning starter)",
+     "evidence": "63.3/488 (58.6 adj); 11 st, 61 tkl"
+    },
+    {
+     "name": "Cam Santee",
+     "role": "MLB (transfer, Holy Cross)",
+     "evidence": "CAA DPOY: 110 tkl, 14 TFL; green-dot"
+    },
+    {
+     "name": "Dee Crayton",
+     "role": "LB (transfer, Clemson)",
+     "evidence": "65.7/79 (67.8 adj); 30 career gm"
+    }
    ],
-   "data_gaps": ["Santee FCS translation", "two-deep thin"],
+   "data_gaps": [
+    "Santee FCS translation",
+    "two-deep thin"
+   ],
    "g5_guard_note": null
   },
   {
@@ -180,13 +308,36 @@
     "20: volume without quality certainty; COV was p39 with the departed group."
    ],
    "key_players": [
-    {"name": "Jake Pope", "role": "S (returning leader)", "evidence": "51.3/781 (48.9 adj); Bama/UGA pedigree; 14 st"},
-    {"name": "Quandarius Keyes", "role": "CB (returning)", "evidence": "74.7/384 (72.3 adj)"},
-    {"name": "Kyron Chambers", "role": "NB (transfer, SMU)", "evidence": "62.6/410 (63.8 adj)"},
-    {"name": "Tre Fulton", "role": "S (returning)", "evidence": "70.7/359 (68.3 adj)"},
-    {"name": "Avery Helm", "role": "CB (transfer, TCU - two-sided miss)", "evidence": "11 st '23; PS top-DB tag"}
+    {
+     "name": "Jake Pope",
+     "role": "S (returning leader)",
+     "evidence": "51.3/781 (48.9 adj); Bama/UGA pedigree; 14 st"
+    },
+    {
+     "name": "Quandarius Keyes",
+     "role": "CB (returning)",
+     "evidence": "74.7/384 (72.3 adj)"
+    },
+    {
+     "name": "Kyron Chambers",
+     "role": "NB (transfer, SMU)",
+     "evidence": "62.6/410 (63.8 adj)"
+    },
+    {
+     "name": "Tre Fulton",
+     "role": "S (returning)",
+     "evidence": "70.7/359 (68.3 adj)"
+    },
+    {
+     "name": "Avery Helm",
+     "role": "CB (transfer, TCU - two-sided miss)",
+     "evidence": "11 st '23; PS top-DB tag"
+    }
    ],
-   "data_gaps": ["Pope grade vs role", "Helm single-print"],
+   "data_gaps": [
+    "Pope grade vs role",
+    "Helm single-print"
+   ],
    "g5_guard_note": null
   },
   {
@@ -205,11 +356,26 @@
     "20: K floor + return-game returner (Irvin), capped by the P void and coaching discontinuity."
    ],
    "key_players": [
-    {"name": "Ramon Villela", "role": "K (returning)", "evidence": "15-20 FG; two clutch kicks '25"},
-    {"name": "Matt Choules", "role": "P (transfer, Kennesaw St; Australian)", "evidence": "DNP '25; Canberra native"},
-    {"name": "DeAngelo Irvin Jr.", "role": "KR/PR (returning)", "evidence": "4 st WR; both return jobs"}
+    {
+     "name": "Ramon Villela",
+     "role": "K (returning)",
+     "evidence": "15-20 FG; two clutch kicks '25"
+    },
+    {
+     "name": "Matt Choules",
+     "role": "P (transfer, Kennesaw St; Australian)",
+     "evidence": "DNP '25; Canberra native"
+    },
+    {
+     "name": "DeAngelo Irvin Jr.",
+     "role": "KR/PR (returning)",
+     "evidence": "4 st WR; both return jobs"
+    }
    ],
-   "data_gaps": ["P zero FBS punts", "STC unresolved"],
+   "data_gaps": [
+    "P zero FBS punts",
+    "STC unresolved"
+   ],
    "g5_guard_note": null
   }
  ]

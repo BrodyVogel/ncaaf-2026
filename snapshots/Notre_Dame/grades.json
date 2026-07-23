@@ -2,20 +2,26 @@
  "team": "Notre Dame",
  "units": {
   "QB": {
-   "grade": 86,
-   "confidence": "H"
+   "grade": 84,
+   "confidence": "M",
+   "v1_grade": 86,
+   "adjudication": "partial blend: IND-fix: v2_pct 89.6, dg-9.6 vs P4 pool; Carr 85.1/317 at w-cap; FR-backup drag partly artifact"
   },
   "RB": {
-   "grade": 66,
-   "confidence": "M"
+   "grade": 64,
+   "confidence": "M",
+   "v1_grade": 66,
+   "adjudication": "light blend: dg-11.3 but w=0.19/0.11 \u2014 formula near-zero info; system+OL priced by dossier"
   },
   "WRTE": {
    "grade": 74,
    "confidence": "H"
   },
   "OL": {
-   "grade": 78,
-   "confidence": "H"
+   "grade": 74,
+   "confidence": "M",
+   "v1_grade": 78,
+   "adjudication": "partial blend: dg-13.3; PFF individuals lukewarm (only Knapp >65), C recovering, FR LT; PickSix unit-level override partly retained"
   },
   "DL": {
    "grade": 80,
@@ -50,7 +56,9 @@
    "RB": "-24 vs proxy 90 - CRITICAL: the proxy sees the elite 2025 RB production (Love 93.1 + Price 78.6) but does NOT know both left for the NFL 1st round; the grade (66) reflects the unproven Williams/James room.",
    "QB": "-9 vs proxy 95 - the grade (86, elite) is calibrated to the board's QB ceiling (OSU 91) rather than the raw proxy.",
    "note2": "All other units track the proxy (elite returning production) within the board-calibrated scale."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

@@ -6,12 +6,16 @@
    "confidence": "M"
   },
   "RB": {
-   "grade": 52,
-   "confidence": "M"
+   "grade": 56,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "50/50 blend: dg+8.7"
   },
   "WRTE": {
-   "grade": 50,
-   "confidence": "M"
+   "grade": 52,
+   "confidence": "M",
+   "v1_grade": 50,
+   "adjudication": "50/50 blend: dg+9.6; info 0.19 \u2014 blend halved"
   },
   "OL": {
    "grade": 52,
@@ -47,7 +51,9 @@
    "WRTE": "-22 vs proxy 72 (proxy counts McAlister-era complementary tape; the 1,190-yd engine left)",
    "OL": "-20 vs proxy 72 (proxy sees returning snap-mass; grade discounts 49th-pctile run blocking + unsettled interior)",
    "QB": "None->46 (Craig has no PFF row - FCS; proxy defaults 50, grade sits just below on the level jump)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -125,8 +131,8 @@
    ],
    "rationale_bullets": [
     "The 90th-pctile RECV engine departs: McAlister (76.1; 1,190/10, 3rd-team AA, Biletnikoff semifinalist), Manjack (69.9; 579), TE Rogers (72.4; 319).",
-    "Dwyer (71.1; 730/7, 3rd-team B12) steps up as the #1; TE Pimpton (Top100 pedigree; 'exploded in spring… third-down favorite' - withdrawal override, triple-sourced) and Kaiuway (78.2/8 gm) give the pro-style install real TE material.",
-    "Behind them it's pedigree over production: former 4*s Small (186 as FR), Shelton ('6'4 spring hero'), James (ex-ND), plus Scott (S Alabama) - PS: 'less talented and exp'd… no true star yet.'",
+    "Dwyer (71.1; 730/7, 3rd-team B12) steps up as the #1; TE Pimpton (Top100 pedigree; 'exploded in spring\u2026 third-down favorite' - withdrawal override, triple-sourced) and Kaiuway (78.2/8 gm) give the pro-style install real TE material.",
+    "Behind them it's pedigree over production: former 4*s Small (186 as FR), Shelton ('6'4 spring hero'), James (ex-ND), plus Scott (S Alabama) - PS: 'less talented and exp'd\u2026 no true star yet.'",
     "50 = average: one proven producer + TE quality + unproven youth."
    ],
    "key_players": [
@@ -164,7 +170,7 @@
    "rationale_bullets": [
     "Three-plus starters return: Taylor-Whitfield (66.7/895; third-year LT, 'most impressive spring lineman'), Bennett (60.4/564; year 7 via appeal), Van Hoy (13 gm), Hughes (injury return), Powers (65.4/376).",
     "The transfer pair is quality: Buchanon (70.7/892; 2nd-team CUSA, 2 sacks over 1,600 snaps at FIU) + McKinney (66.5/390; near-4* transfer grade from OkSt) - 95 career FBS starts in the room.",
-    "PS: 'best OL in years… most size and strength of the Dykes era'; Athlon-Dykes: 'deepest of his tenure.' The counterweight: 49th-pctile run blocking and #103/#97 Run Push two straight years, with the interior arrangement unsettled (PS and Athlon print different centers).",
+    "PS: 'best OL in years\u2026 most size and strength of the Dykes era'; Athlon-Dykes: 'deepest of his tenure.' The counterweight: 49th-pctile run blocking and #103/#97 Run Push two straight years, with the interior arrangement unsettled (PS and Athlon print different centers).",
     "52 = average-plus: pass-pro floor is real (78th pctile), the run-game proof isn't."
    ],
    "key_players": [
@@ -271,7 +277,7 @@
    "rationale_bullets": [
     "Johnson (72.7/906; 2nd-team All-B12, 96 tkl, 5 INT - 'a stud at SS' per PS) and Glover (71.0/659; 13 st) anchor the returning group; Gil Jackson (61.0/134; 6'3) is the spring-surge consensus at the other corner with Kylin Jackson (65.1/227) to nickel.",
     "Losses are real: Clark (80.4/725; 3x All-B12), nickel Jordan (69.5/601), Canada (63.0/655) - from a unit that was already 43rd-pctile COV (#70 PDR).",
-    "Fields (72.8/775; C-USA Defensive POY, 92 tkl at LTech) fills Clark's spot; K.Carroll (74.6/722 CMU) and Parks (49.7/431 Colorado) add corner depth - 'outstanding depth, especially at corner… Stock Market rise in the PDR' (PS).",
+    "Fields (72.8/775; C-USA Defensive POY, 92 tkl at LTech) fills Clark's spot; K.Carroll (74.6/722 CMU) and Parks (49.7/431 Colorado) add corner depth - 'outstanding depth, especially at corner\u2026 Stock Market rise in the PDR' (PS).",
     "52 = average-plus: proven safety tape + depth, corner production still projection."
    ],
    "key_players": [

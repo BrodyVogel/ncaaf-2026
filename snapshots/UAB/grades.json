@@ -2,16 +2,20 @@
  "team": "UAB",
  "units": {
   "QB": {
-   "grade": 42,
-   "confidence": "M"
+   "grade": 48,
+   "confidence": "M",
+   "v1_grade": 42,
+   "adjudication": "50/50 blend: dg+11.1"
   },
   "RB": {
    "grade": 48,
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 38,
-   "confidence": "M"
+   "grade": 34,
+   "confidence": "M",
+   "v1_grade": 38,
+   "adjudication": "50/50 blend: dg-8.7"
   },
   "OL": {
    "grade": 45,
@@ -51,7 +55,9 @@
   "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +McReynolds RB 87.6/124 (ULM), +Dean DL 65.1/414, +Nelson DL 67.0/60 (GaSt). RB 45->48, DL 28->31.",
   "corrections": [
    "2026-07-17: DL 31 -> 16 L (two-deep reconcile audit; see news.md)"
-  ]
+  ],
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

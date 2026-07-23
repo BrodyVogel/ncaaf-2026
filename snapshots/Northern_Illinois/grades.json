@@ -6,16 +6,22 @@
    "confidence": "L"
   },
   "RB": {
-   "grade": 12,
-   "confidence": "M"
+   "grade": 15,
+   "confidence": "M",
+   "v1_grade": 12,
+   "adjudication": "50/50 blend: dg+12.2; info 0.16 \u2014 blend halved"
   },
   "WRTE": {
-   "grade": 16,
-   "confidence": "M"
+   "grade": 20,
+   "confidence": "M",
+   "v1_grade": 16,
+   "adjudication": "50/50 blend: dg+8.9"
   },
   "OL": {
-   "grade": 12,
-   "confidence": "M"
+   "grade": 16,
+   "confidence": "M",
+   "v1_grade": 12,
+   "adjudication": "50/50 blend: dg+14.7; info 0.12 \u2014 blend halved"
   },
   "DL": {
    "grade": 10,
@@ -58,7 +64,9 @@
    "changes": [
     "QB 18 L -> 20 L"
    ]
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

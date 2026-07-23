@@ -2,8 +2,10 @@
  "team": "Florida Atlantic",
  "units": {
   "QB": {
-   "grade": 55,
-   "confidence": "M"
+   "grade": 51,
+   "confidence": "M",
+   "v1_grade": 55,
+   "adjudication": "50/50 blend: dg-8.3"
   },
   "RB": {
    "grade": 40,
@@ -14,8 +16,10 @@
    "confidence": "M"
   },
   "OL": {
-   "grade": 33,
-   "confidence": "M"
+   "grade": 39,
+   "confidence": "M",
+   "v1_grade": 33,
+   "adjudication": "50/50 blend: dg+11.3"
   },
   "DL": {
    "grade": 28,
@@ -53,7 +57,9 @@
   "corrections": [
    "2026-07-17: DL 30 -> 28 M (two-deep reconcile audit; see news.md)",
    "2026-07-17: OL 35 -> 33 M (two-deep reconcile audit; Atcavage yr4-expired was counted as depth)"
-  ]
+  ],
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

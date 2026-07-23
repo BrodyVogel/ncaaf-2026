@@ -10,16 +10,22 @@
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 38,
-   "confidence": "M"
+   "grade": 42,
+   "confidence": "M",
+   "v1_grade": 38,
+   "adjudication": "50/50 blend: dg+14.4; info 0.11 \u2014 blend halved"
   },
   "OL": {
-   "grade": 35,
-   "confidence": "L"
+   "grade": 41,
+   "confidence": "M",
+   "v1_grade": 35,
+   "adjudication": "50/50 blend: dg+11.6"
   },
   "DL": {
-   "grade": 15,
-   "confidence": "L"
+   "grade": 12,
+   "confidence": "L",
+   "v1_grade": 15,
+   "adjudication": "50/50 blend: dg-11.0; info 0.18 \u2014 blend halved"
   },
   "LB": {
    "grade": 40,
@@ -48,7 +54,9 @@
    "LB": "-10 (proxy same senior artifact partially; Alexander is real)",
    "ST": "+5 (returning 92.3% kicker)"
   },
-  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Thomas DL 51.5/89 (Cal) below-avg depth, +Priester OL 1-snap row (inert). No changes."
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Thomas DL 51.5/89 (Cal) below-avg depth, +Priester OL 1-snap row (inert). No changes.",
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

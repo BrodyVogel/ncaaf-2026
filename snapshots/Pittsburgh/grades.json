@@ -1,14 +1,44 @@
 {
  "team": "Pittsburgh",
  "units": {
-  "QB": {"grade": 52, "confidence": "M"},
-  "RB": {"grade": 56, "confidence": "M"},
-  "WRTE": {"grade": 42, "confidence": "L"},
-  "OL": {"grade": 52, "confidence": "M"},
-  "DL": {"grade": 58, "confidence": "M"},
-  "LB": {"grade": 54, "confidence": "M"},
-  "DB": {"grade": 50, "confidence": "M"},
-  "ST": {"grade": 46, "confidence": "M"}
+  "QB": {
+   "grade": 45,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "formula-backed; conf U5.5 SUPPORTED: dg-29: 59.5 tape vs 6-3-record narrative"
+  },
+  "RB": {
+   "grade": 56,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 36,
+   "confidence": "L",
+   "v1_grade": 42,
+   "adjudication": "split; U5.5 supported: dg-23"
+  },
+  "OL": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 54,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 54,
+   "confidence": "M",
+   "v1_grade": 50,
+   "adjudication": "split: dg+10"
+  },
+  "ST": {
+   "grade": 46,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,7 +46,9 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape, arrivals on origin cells [B10 Sanford inflated weighted down]; HC Narduzzi no change; disposition gate resolved - Kyle Louis NFL declare [PS-verified], Shawn Lee withdrawal, Raphael Williams research-departure); anchor values not consulted. P6 RETRO-QA CORRECTION 2026-07-18: Battle/McIntyre/Spires yr4 overrides reversed to GONE per Pick Six ACC ('loses four starters from the secondary'); DB 52->50.",
-  "planned_vs_final_deviations": {"note": "post-freeze P6 retro-QA correction 2026-07-18: DB 52->50 (Battle/McIntyre removed - actually departed). All other finals match the dossier planned lines (QB 52/RB 56/WRTE 42/OL 52/DL 58/LB 54/ST 46); dossier updated."},
+  "planned_vs_final_deviations": {
+   "note": "post-freeze P6 retro-QA correction 2026-07-18: DB 52->50 (Battle/McIntyre removed - actually departed). All other finals match the dossier planned lines (QB 52/RB 56/WRTE 42/OL 52/DL 58/LB 54/ST 46); dossier updated."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 22, RB 53, WRTE 4, OL 51, DL 60, LB 67, DB 53, ST 41) keys the '25 tape.",
    "WRTE": "+38 vs proxy 4 - proxy keys only the departed top-2 WRs; the grade credits Hicks + the reload off the floor.",
@@ -24,12 +56,20 @@
    "LB": "-13 vs proxy 67 - proxy keys the '25 star LBs (Louis/Biles, both gone); the grade keeps Lovelace + Lindsey + Sanford.",
    "DL": "-2 vs proxy 60 - both key the #8-vs-run front (loses Brewu/Whittington).",
    "RB": "+3 vs proxy 53 - proxy keys the thin '25 room; grade credits Turner + Wright."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "Pittsburgh", "unit": "QB", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["NC State QB 2026 (54, round peer)", "Georgia Tech QB 2026 (46, below)"],
+   "team": "Pittsburgh",
+   "unit": "QB",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "NC State QB 2026 (54, round peer)",
+    "Georgia Tech QB 2026 (46, below)"
+   ],
    "rationale_bullets": [
     "Mason Heintschel (returning, 59.5/418 -> ACC +2.08 -> 61.6 adj) - frosh revelation (2,354 yds, 16 TD, 8 INT, 63.6%; went 6-3, 4 road wins incl at FSU/GT; 9 fumbles + 5 late INTs).",
     "Backup Holden Geriner (Auburn/Texas St). Holstein ('24-25 starter) GONE (-> Virginia).",
@@ -37,13 +77,27 @@
     "52: ~NC State QB 54; above the pure projections (GT/Lou 46 - he has 9 starts). M."
    ],
    "key_players": [
-    {"name": "Mason Heintschel", "role": "QB1 (returning)", "evidence": "59.5/418; 2,354 yds/16 TD/8 INT frosh; went 6-3"}
+    {
+     "name": "Mason Heintschel",
+     "role": "QB1 (returning)",
+     "evidence": "59.5/418; 2,354 yds/16 TD/8 INT frosh; went 6-3"
+    }
    ],
-   "data_gaps": ["frosh turnovers (9 fumbles, 5 late INTs)", "thin WR corps around him"], "g5_guard_note": null
+   "data_gaps": [
+    "frosh turnovers (9 fumbles, 5 late INTs)",
+    "thin WR corps around him"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Pittsburgh", "unit": "RB", "grade": 56, "confidence": "M",
-   "bracketing_exemplars": ["NC State RB 2026 (56, round peer)", "North Carolina RB 2026 (50, below)"],
+   "team": "Pittsburgh",
+   "unit": "RB",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "NC State RB 2026 (56, round peer)",
+    "North Carolina RB 2026 (50, below)"
+   ],
    "rationale_bullets": [
     "Ja'Kyrian Turner (returning, 77.3/137 -> ACC +4.90 -> 82.2 adj; 745 yds/5.3/7 TD frosh - emerged late, 201 at GT) + La'Vell Wright (WKU, 78.8/88 -> weighted ~72).",
     "Reid (yr4) + Goff (-> Boise) gone.",
@@ -51,13 +105,26 @@
     "56: ~NC State RB 56. M."
    ],
    "key_players": [
-    {"name": "Ja'Kyrian Turner", "role": "RB1 (returning)", "evidence": "77.3/137 (82.2 ACC-adj); 745 yds/5.3/7 TD frosh"}
+    {
+     "name": "Ja'Kyrian Turner",
+     "role": "RB1 (returning)",
+     "evidence": "77.3/137 (82.2 ACC-adj); 745 yds/5.3/7 TD frosh"
+    }
    ],
-   "data_gaps": ["young lead; small samples"], "g5_guard_note": null
+   "data_gaps": [
+    "young lead; small samples"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Pittsburgh", "unit": "WRTE", "grade": 42, "confidence": "L",
-   "bracketing_exemplars": ["NC State WRTE 2026 (42, round peer)", "Georgia Tech WRTE 2026 (38, below)"],
+   "team": "Pittsburgh",
+   "unit": "WRTE",
+   "grade": 42,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "NC State WRTE 2026 (42, round peer)",
+    "Georgia Tech WRTE 2026 (38, below)"
+   ],
    "rationale_bullets": [
     "THIN. Only Cataurus Hicks (returning, 55.3/365; 24 rec/422 yds) of note. Lost the top-2 WRs (Williams research-gone + Johnson -> Texas Tech).",
     "Reload: Malik Knight (WCU FCS), Carson Kent (TE, Oklahoma), Bryce Yates (soph), frosh Wester.",
@@ -65,14 +132,32 @@
     "42: ~NC State WRTE 42. L."
    ],
    "key_players": [
-    {"name": "Cataurus Hicks", "role": "WR (returning)", "evidence": "55.3/365; 24 rec/422 yds - only exp returner"},
-    {"name": "Malik Knight", "role": "WR (transfer, Western Carolina/FCS)", "evidence": "774 yds at WCU (FCS)"}
+    {
+     "name": "Cataurus Hicks",
+     "role": "WR (returning)",
+     "evidence": "55.3/365; 24 rec/422 yds - only exp returner"
+    },
+    {
+     "name": "Malik Knight",
+     "role": "WR (transfer, Western Carolina/FCS)",
+     "evidence": "774 yds at WCU (FCS)"
+    }
    ],
-   "data_gaps": ["top-2 WRs gone", "reload is FCS/young"], "g5_guard_note": null
+   "data_gaps": [
+    "top-2 WRs gone",
+    "reload is FCS/young"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Pittsburgh", "unit": "OL", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["NC State OL 2026 (46, below)", "Virginia Tech OL context"],
+   "team": "Pittsburgh",
+   "unit": "OL",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "NC State OL 2026 (46, below)",
+    "Virginia Tech OL context"
+   ],
    "rationale_bullets": [
     "Returns Ryan Baer (RT, 76.8/882 -> 80.3 adj - the anchor) + Keith Gouveia (LG, yr4) + BJ Williams (RG, 67.7) + Ryan Carretta (C, 67.0) + Kendall Stanley (LT). Adds All-Ivy LT Netinho Olivieri (Penn, 28 starts).",
     "Lost Lyndon Cooper (-> Vandy).",
@@ -80,14 +165,32 @@
     "52: above the rebuilds; the sack history tempers. M."
    ],
    "key_players": [
-    {"name": "Ryan Baer", "role": "RT (returning)", "evidence": "76.8/882 (80.3 ACC-adj); the anchor"},
-    {"name": "Netinho Olivieri", "role": "LT (transfer, Penn/Ivy)", "evidence": "All-Ivy; 28 career starts"}
+    {
+     "name": "Ryan Baer",
+     "role": "RT (returning)",
+     "evidence": "76.8/882 (80.3 ACC-adj); the anchor"
+    },
+    {
+     "name": "Netinho Olivieri",
+     "role": "LT (transfer, Penn/Ivy)",
+     "evidence": "All-Ivy; 28 career starts"
+    }
    ],
-   "data_gaps": ["44 sacks allowed in '25", "injury history"], "g5_guard_note": null
+   "data_gaps": [
+    "44 sacks allowed in '25",
+    "injury history"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Pittsburgh", "unit": "DL", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["Miami DL 2026 (60, above)", "North Carolina DL 2026 (54, below)"],
+   "team": "Pittsburgh",
+   "unit": "DL",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Miami DL 2026 (60, above)",
+    "North Carolina DL 2026 (54, below)"
+   ],
    "rationale_bullets": [
     "An elite run front (#8 vs run, RDEF p96). Returns Sean FitzSimmons (78.2), Nick James (72.5), Isaiah Neal (66.2), Jimmy Scott (67.8), Blaine Spires (73.9, yr4), Zach Crothers.",
     "Lost Francis Brewu (78.4 -> ND) + Whittington (-> Neb).",
@@ -95,14 +198,32 @@
     "58: ~Miami DL 60 / above UNC DL 54; the run-D pedigree anchors it. M."
    ],
    "key_players": [
-    {"name": "Sean FitzSimmons", "role": "DT (returning)", "evidence": "77.0/356 (78.2 ACC-adj)"},
-    {"name": "Nick James", "role": "DT (returning)", "evidence": "71.3/486 (72.5 ACC-adj)"}
+    {
+     "name": "Sean FitzSimmons",
+     "role": "DT (returning)",
+     "evidence": "77.0/356 (78.2 ACC-adj)"
+    },
+    {
+     "name": "Nick James",
+     "role": "DT (returning)",
+     "evidence": "71.3/486 (72.5 ACC-adj)"
+    }
    ],
-   "data_gaps": ["lost Brewu (78.4) + Whittington", "pass rush (PRSH p54) less elite than run D"], "g5_guard_note": null
+   "data_gaps": [
+    "lost Brewu (78.4) + Whittington",
+    "pass rush (PRSH p54) less elite than run D"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Pittsburgh", "unit": "LB", "grade": 54, "confidence": "M",
-   "bracketing_exemplars": ["North Carolina State LB context", "Miami LB 2026 (46, below)"],
+   "team": "Pittsburgh",
+   "unit": "LB",
+   "grade": 54,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "North Carolina State LB context",
+    "Miami LB 2026 (46, below)"
+   ],
    "rationale_bullets": [
     "Braylan Lovelace (returning, 70.7/851 -> 72.8 adj; 80 tkl, 100-yd INT TD - 'next iconic LB') + Cameron Lindsey (72.1/288 -> 74.2; rising star) + Alex Sanford (Purdue) + Nick Lapi.",
     "LOST BOTH STARS: Kyle Louis (NFL #4 DC) + Rasheem Biles (-> Texas).",
@@ -110,14 +231,31 @@
     "54: above the batch's LBs (Lovelace + Lindsey); the star losses cap the ceiling. M."
    ],
    "key_players": [
-    {"name": "Braylan Lovelace", "role": "LB (returning)", "evidence": "70.7/851 (72.8 ACC-adj); 80 tkl, 100-yd INT TD"},
-    {"name": "Cameron Lindsey", "role": "LB (returning)", "evidence": "72.1/288 (74.2 ACC-adj); rising star"}
+    {
+     "name": "Braylan Lovelace",
+     "role": "LB (returning)",
+     "evidence": "70.7/851 (72.8 ACC-adj); 80 tkl, 100-yd INT TD"
+    },
+    {
+     "name": "Cameron Lindsey",
+     "role": "LB (returning)",
+     "evidence": "72.1/288 (74.2 ACC-adj); rising star"
+    }
    ],
-   "data_gaps": ["lost 2 stars (Louis NFL + Biles)"], "g5_guard_note": null
+   "data_gaps": [
+    "lost 2 stars (Louis NFL + Biles)"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Pittsburgh", "unit": "DB", "grade": 50, "confidence": "M",
-   "bracketing_exemplars": ["Louisville DB 2026 (52, above)", "NC State DB 2026 (46, below)"],
+   "team": "Pittsburgh",
+   "unit": "DB",
+   "grade": 50,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Louisville DB 2026 (52, above)",
+    "NC State DB 2026 (46, below)"
+   ],
    "rationale_bullets": [
     "Cruce Brookins (S, returning, 80.9/504 -> 82.1 adj; 53 tkl/2 INT) + Shawn Lee Jr. (CB, withdrawal, 79.9/427; 4 PBU - Frosh All-American) + Raion Strader (Auburn CB) + DeMarco Ward (Memphis S) + Shadarian Harrison (63.0, rotational).",
     "LOSES FOUR starters (P6): Lynum, Battle, McIntyre, Bains-Marquez. P6 RETRO-QA: Battle + McIntyre had been wrongly carried as yr4 returns - corrected to GONE.",
@@ -125,14 +263,31 @@
     "50: just below Louisville/SMU DB 52; Brookins + Lee anchor it. M."
    ],
    "key_players": [
-    {"name": "Cruce Brookins", "role": "S (returning)", "evidence": "80.9/504 (82.1 ACC-adj); 53 tkl/2 INT"},
-    {"name": "Shawn Lee Jr.", "role": "CB (returning, withdrawal)", "evidence": "79.9/427; 4 PBU; HM ACC"}
+    {
+     "name": "Cruce Brookins",
+     "role": "S (returning)",
+     "evidence": "80.9/504 (82.1 ACC-adj); 53 tkl/2 INT"
+    },
+    {
+     "name": "Shawn Lee Jr.",
+     "role": "CB (returning, withdrawal)",
+     "evidence": "79.9/427; 4 PBU; HM ACC"
+    }
    ],
-   "data_gaps": ["S depth a concern"], "g5_guard_note": null
+   "data_gaps": [
+    "S depth a concern"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Pittsburgh", "unit": "ST", "grade": 46, "confidence": "M",
-   "bracketing_exemplars": ["North Carolina ST 2026 (46, round peer)", "NC State ST 2026 (48, above)"],
+   "team": "Pittsburgh",
+   "unit": "ST",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "North Carolina ST 2026 (46, round peer)",
+    "NC State ST 2026 (48, above)"
+   ],
    "rationale_bullets": [
     "FCS transfer PK competition (Sam Hunsaker N. Arizona / Antonio Chadha W. Illinois) + P Gabe Russo (Idaho St, 46.3 avg - good).",
     "SPEC p41.",
@@ -140,10 +295,21 @@
     "46: middling - ~UNC ST 46. M."
    ],
    "key_players": [
-    {"name": "Gabe Russo", "role": "P (transfer, Idaho State)", "evidence": "46.3 avg on 38 punts '25"},
-    {"name": "Sam Hunsaker", "role": "K (competing, N. Arizona)", "evidence": "FCS transfer PK battle"}
+    {
+     "name": "Gabe Russo",
+     "role": "P (transfer, Idaho State)",
+     "evidence": "46.3 avg on 38 punts '25"
+    },
+    {
+     "name": "Sam Hunsaker",
+     "role": "K (competing, N. Arizona)",
+     "evidence": "FCS transfer PK battle"
+    }
    ],
-   "data_gaps": ["unsettled placekicker"], "g5_guard_note": null
+   "data_gaps": [
+    "unsettled placekicker"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

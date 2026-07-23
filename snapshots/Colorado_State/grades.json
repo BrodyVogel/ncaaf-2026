@@ -1,14 +1,46 @@
 {
  "team": "Colorado State",
  "units": {
-  "QB": {"grade": 24, "confidence": "L"},
-  "RB": {"grade": 30, "confidence": "M"},
-  "WRTE": {"grade": 16, "confidence": "L"},
-  "OL": {"grade": 16, "confidence": "L"},
-  "DL": {"grade": 26, "confidence": "M"},
-  "LB": {"grade": 24, "confidence": "M"},
-  "DB": {"grade": 22, "confidence": "M"},
-  "ST": {"grade": 20, "confidence": "M"}
+  "QB": {
+   "grade": 27,
+   "confidence": "L",
+   "v1_grade": 24,
+   "adjudication": "50/50 blend: dg+10.7; info 0.16 \u2014 blend halved"
+  },
+  "RB": {
+   "grade": 30,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 16,
+   "confidence": "L"
+  },
+  "OL": {
+   "grade": 24,
+   "confidence": "M",
+   "v1_grade": 16,
+   "adjudication": "blend logged; override remains operative: dg+15; NOTE team rating override-pinned at -9.0"
+  },
+  "DL": {
+   "grade": 21,
+   "confidence": "M",
+   "v1_grade": 26,
+   "adjudication": "50/50 blend: dg-10.4"
+  },
+  "LB": {
+   "grade": 24,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 20,
+   "confidence": "M",
+   "v1_grade": 22,
+   "adjudication": "DB policy 1/3 blend: dg-11.6; info 0.16 \u2014 blend halved"
+  },
+  "ST": {
+   "grade": 20,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-17",
@@ -16,18 +48,28 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; archetype-watch applied per calibration_opus_2026-07-17.md; disposition gate resolved 7 departures before grading); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the post-gate dossier planned lines (QB 24/RB 30/WRTE 16/OL 16/DL 26/LB 24/DB 22/ST 20). Pre-gate lines were OL 18/DL 28/LB 28/DB 24; the disposition gate removed departed players and drove those four down."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the post-gate dossier planned lines (QB 24/RB 30/WRTE 16/OL 16/DL 26/LB 24/DB 22/ST 20). Pre-gate lines were OL 18/DL 28/LB 28/DB 24; the disposition gate removed departed players and drove those four down."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 9, RB None, WRTE 2, OL None, DL 9, LB 19, DB 2, ST 3) keys the p1 2025 team tape; the roster is ~60% new so the proxy floors nearly every unit far below the transfer-reloaded reality.",
    "DB": "+20 vs proxy 2 - proxy keys the departed/injured 2025 back end; the reload (Presley 66.6, Phelps 63.8) is functional, not p2.",
    "DL": "+17 vs proxy 9 - the injury-suppressed p1 front understates a healthier 2026 group with a genuine edge anchor (Agurs 70.1) + two 60+ transfer tackles.",
    "LB": "+5 vs proxy 19 - the closest; the p1 LB tape is near the hollowed-out rebuilt reality (only Mitchell returns with tape)."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "Colorado State", "unit": "QB", "grade": 24, "confidence": "L",
-   "bracketing_exemplars": ["Florida International QB 2025 (15, exemplar anchor)", "Illinois RB 2025 (32, exemplar anchor)"],
+   "team": "Colorado State",
+   "unit": "QB",
+   "grade": 24,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "No proven starter tape: Fowler-Nicolosi (2,742) benched then transferred to Michigan; Brousseau (1,354) to California; only Curry returns (740 @ 65% in 5 gm, 58.6/130 -> 55.0 adj) and was suspended late.",
     "The 2026 job is a real battle between Hejny (Oklahoma State, former 4-star, opener-then-OFY so 74.8/13 is sample-useless) and Farrar (UConn, strong arm + legs) - 'both inexperienced at the college level, both talented' (Athlon).",
@@ -35,15 +77,37 @@
     "24: > the pure zero-tape/FCS rooms, < any proven G5 starter; L because the battle is unresolved and neither has college production."
    ],
    "key_players": [
-    {"name": "Hauss Hejny", "role": "QB1 battle (transfer, Oklahoma State)", "evidence": "former 4-star dual-threat; OkSt opener starter '25 then OFY; 74.8/13 sample-useless"},
-    {"name": "K'saan Farrar", "role": "QB1 battle (transfer, UConn)", "evidence": "11-18-84; strong arm + running ability; Mora system"},
-    {"name": "Darius Curry", "role": "QB (returning)", "evidence": "58.6/130 (55.0 adj); 740 @ 65% 5-7 in 5 gm; suspended late '25"}
+    {
+     "name": "Hauss Hejny",
+     "role": "QB1 battle (transfer, Oklahoma State)",
+     "evidence": "former 4-star dual-threat; OkSt opener starter '25 then OFY; 74.8/13 sample-useless"
+    },
+    {
+     "name": "K'saan Farrar",
+     "role": "QB1 battle (transfer, UConn)",
+     "evidence": "11-18-84; strong arm + running ability; Mora system"
+    },
+    {
+     "name": "Darius Curry",
+     "role": "QB (returning)",
+     "evidence": "58.6/130 (55.0 adj); 740 @ 65% 5-7 in 5 gm; suspended late '25"
+    }
    ],
-   "data_gaps": ["battle unresolved", "no college starter production on the roster"], "g5_guard_note": null
+   "data_gaps": [
+    "battle unresolved",
+    "no college starter production on the roster"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Colorado State", "unit": "RB", "grade": 30, "confidence": "M",
-   "bracketing_exemplars": ["Florida International QB 2025 (15, exemplar anchor)", "Illinois RB 2025 (32, exemplar anchor)"],
+   "team": "Colorado State",
+   "unit": "RB",
+   "grade": 30,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "A UConn backfield reload: Mel Brown (71.4/32 -> 57.3 IND-adj; UConn '24: 673 @ 5.7 + 1st-Tm All-Conf KR) + Durell Robinson (UConn '24: 731 @ 6.8, IND-discounted) - the '25 leader Dupree (508) left for Kansas.",
     "The IND discount crushes the PFF grades on paper, but the underlying '24 UConn production (673 / 731 rush yards) is real and Mora's 'dangerous outside-zone run team with a lot of good backs' (Athlon) is a documented scheme positive.",
@@ -51,14 +115,32 @@
     "30: a bottom-third RB room with two genuinely productive backs and a real scheme; > every returning-tape-thin room, held under the mid-30s by the level discount."
    ],
    "key_players": [
-    {"name": "Mel Brown", "role": "RB1 (transfer, UConn)", "evidence": "UConn '24: 673 @ 5.7 + 1st-Tm All-Conf KR; 71.4/32 (57.3 IND-adj)"},
-    {"name": "Durell Robinson", "role": "RB2 (transfer, UConn)", "evidence": "UConn '24: 731 @ 6.8 (IND-discounted); PS#37"}
+    {
+     "name": "Mel Brown",
+     "role": "RB1 (transfer, UConn)",
+     "evidence": "UConn '24: 673 @ 5.7 + 1st-Tm All-Conf KR; 71.4/32 (57.3 IND-adj)"
+    },
+    {
+     "name": "Durell Robinson",
+     "role": "RB2 (transfer, UConn)",
+     "evidence": "UConn '24: 731 @ 6.8 (IND-discounted); PS#37"
+    }
    ],
-   "data_gaps": ["no CSU tape", "IND-level competition discount"], "g5_guard_note": null
+   "data_gaps": [
+    "no CSU tape",
+    "IND-level competition discount"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Colorado State", "unit": "WRTE", "grade": 16, "confidence": "L",
-   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6, exemplar anchor)", "Florida International QB 2025 (15, exemplar anchor)"],
+   "team": "Colorado State",
+   "unit": "WRTE",
+   "grade": 16,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Florida International QB 2025 (15, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "The top pass-catchers all depart from a RECV p10 unit (TE Beers 69.7, Lanier 60.4, Winfield 61.2 -> USF); Maher (54.4/349 -> 50.7 adj, lone returning O-starter) + Lavon Brown (53.2 adj) are the returners.",
     "The reload is unproven transfers: TE Vereen (UConn, 58.7 adj, big-play; TE-featured scheme gives him a role) + Mosley (Miss St, 55.8 adj) + T.Smith (UConn) + Chirchi (UConn TE).",
@@ -66,15 +148,37 @@
     "16: graded above the FAU-DB-6 rail on transfer depth + the TE feature, below the FIU-15 rail's peer floor; L because there is no proven WR1."
    ],
    "key_players": [
-    {"name": "Tommy Maher", "role": "WR1 (returning, lone O-starter)", "evidence": "54.4/349 (50.7 adj); 358 @ 11.9"},
-    {"name": "Juice Vereen", "role": "TE1 (transfer, UConn)", "evidence": "145 routes 63.9 (58.7 adj); big-play TE in a TE-featured scheme"},
-    {"name": "Jordan Mosley", "role": "WR (transfer, Mississippi State)", "evidence": "158 routes 49.9 (55.8 SEC-adj)"}
+    {
+     "name": "Tommy Maher",
+     "role": "WR1 (returning, lone O-starter)",
+     "evidence": "54.4/349 (50.7 adj); 358 @ 11.9"
+    },
+    {
+     "name": "Juice Vereen",
+     "role": "TE1 (transfer, UConn)",
+     "evidence": "145 routes 63.9 (58.7 adj); big-play TE in a TE-featured scheme"
+    },
+    {
+     "name": "Jordan Mosley",
+     "role": "WR (transfer, Mississippi State)",
+     "evidence": "158 routes 49.9 (55.8 SEC-adj)"
+    }
    ],
-   "data_gaps": ["no proven WR1", "9-transfer reload unproven together"], "g5_guard_note": null
+   "data_gaps": [
+    "no proven WR1",
+    "9-transfer reload unproven together"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Colorado State", "unit": "OL", "grade": 16, "confidence": "L",
-   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6, exemplar anchor)", "Western Kentucky OL 2025 (25, exemplar anchor)"],
+   "team": "Colorado State",
+   "unit": "OL",
+   "grade": 16,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "A full rebuild - the entire good returning line departed (Karas 64.3/779 -> Memphis, C.Martin 53.2/778 -> Illinois, Urionabarrenechea 59.8/769 C -> UMass, Morley -> Kansas State) AND depth G Foster (59.5 adj) is yr4-EXPIRED (not in either 2026 print two-deep).",
     "Projected starters: Harris (TCU, 52.9/427 -> 61.4 B12-adj, best incoming) + Johnson (UConn, 62.4/122 -> 40.4 IND-adj!) + Ocon (48.7/116) + Tuia (OregonSt, 66 snaps tiny) + Rodriguez (UConn, 2 snaps - no tape).",
@@ -82,15 +186,38 @@
     "16: held off the FAU-6 floor only by the one proven B12 tackle; a transfer-assembled line is the roster's clear weakness alongside WRTE. L."
    ],
    "key_players": [
-    {"name": "Quinton Harris", "role": "RT (transfer, TCU)", "evidence": "427 snaps 52.9 (61.4 B12-adj); the lone proven starter"},
-    {"name": "Toriyan Johnson", "role": "LT (transfer, UConn)", "evidence": "122 snaps 62.4 (40.4 IND-adj)"},
-    {"name": "Phillip Ocon", "role": "C (returning)", "evidence": "116 snaps 52.3 (48.7 adj)"}
+    {
+     "name": "Quinton Harris",
+     "role": "RT (transfer, TCU)",
+     "evidence": "427 snaps 52.9 (61.4 B12-adj); the lone proven starter"
+    },
+    {
+     "name": "Toriyan Johnson",
+     "role": "LT (transfer, UConn)",
+     "evidence": "122 snaps 62.4 (40.4 IND-adj)"
+    },
+    {
+     "name": "Phillip Ocon",
+     "role": "C (returning)",
+     "evidence": "116 snaps 52.3 (48.7 adj)"
+    }
    ],
-   "data_gaps": ["two no-tape interior starters (Rodriguez, Tuia)", "IND-crushed UConn tape", "Foster yr4-gone"], "g5_guard_note": null
+   "data_gaps": [
+    "two no-tape interior starters (Rodriguez, Tuia)",
+    "IND-crushed UConn tape",
+    "Foster yr4-gone"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Colorado State", "unit": "DL", "grade": 26, "confidence": "M",
-   "bracketing_exemplars": ["Florida International QB 2025 (15, exemplar anchor)", "Illinois RB 2025 (32, exemplar anchor)"],
+   "team": "Colorado State",
+   "unit": "DL",
+   "grade": 26,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Agurs returns as a genuine edge anchor and the roster's best defender (474 snaps, 72.3 -> 70.1 MWC-adj); supported by transfer tackles Wright (UConn, 61.9 adj) + Harrison (WKU, 60.6 adj).",
     "The 2025 DEF p1 tape is injury-suppressed ('virtually no healthy DL'); the 2026 front is bigger in numbers (Athlon), but the two best returning tapes after Agurs (Tafia 54.6, Wa-Kalonji 57.3) are yr4-gone and Laurich (49.2) transferred to UConn.",
@@ -98,15 +225,37 @@
     "26: the defense's relative strength on Agurs' standout tape, docked for a low-grade rotation and transfer-adjustment risk behind the top three."
    ],
    "key_players": [
-    {"name": "Kenyon Agurs", "role": "EDGE1 (returning)", "evidence": "474 snaps 72.3 (70.1 MWC-adj); the roster's best defender"},
-    {"name": "Stephon Wright", "role": "DT (transfer, UConn)", "evidence": "342 snaps 67.2 (61.9 IND-adj)"},
-    {"name": "Robby Harrison", "role": "DT (transfer, W Kentucky)", "evidence": "204 snaps 68.5 (60.6 CUSA-adj)"}
+    {
+     "name": "Kenyon Agurs",
+     "role": "EDGE1 (returning)",
+     "evidence": "474 snaps 72.3 (70.1 MWC-adj); the roster's best defender"
+    },
+    {
+     "name": "Stephon Wright",
+     "role": "DT (transfer, UConn)",
+     "evidence": "342 snaps 67.2 (61.9 IND-adj)"
+    },
+    {
+     "name": "Robby Harrison",
+     "role": "DT (transfer, W Kentucky)",
+     "evidence": "204 snaps 68.5 (60.6 CUSA-adj)"
+    }
    ],
-   "data_gaps": ["next-best returning tapes (Tafia, Wa-Kalonji) yr4-gone", "low-grade rotation behind top three"], "g5_guard_note": null
+   "data_gaps": [
+    "next-best returning tapes (Tafia, Wa-Kalonji) yr4-gone",
+    "low-grade rotation behind top three"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Colorado State", "unit": "LB", "grade": 24, "confidence": "M",
-   "bracketing_exemplars": ["Florida International QB 2025 (15, exemplar anchor)", "Illinois RB 2025 (32, exemplar anchor)"],
+   "team": "Colorado State",
+   "unit": "LB",
+   "grade": 24,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "A gutted, transfer-rebuilt room: the THREE best returning LB tapes are gone - Long (71.0/770 -> Arizona State) + Edmonson (70.6/331 -> Illinois) to the portal, AND Ellis (67.2/367 -> 62.5) yr4-EXPIRED (not in either 2026 print two-deep).",
     "Mitchell (65.2/244 -> 60.5, yr4 return override - Athlon lists him Sr.) is the LONE returning LB with tape, alongside Mora's UConn centerpiece Diomande (846 snaps / UConn #1 tackler; IND-crushed to 54.2 but the counting production is real) + Pretto (NIU, 52.8) + a Wisconsin body (Turner, no tape).",
@@ -114,15 +263,37 @@
     "24: functional but hollowed-out - 'depth the only question' (PS) now reads as a talent question too."
    ],
    "key_players": [
-    {"name": "Jaseim Mitchell", "role": "LB1 (returning, yr4 override)", "evidence": "244 snaps 65.2 (60.5 adj); the lone returning LB with tape"},
-    {"name": "Oumar Diomande", "role": "LB1 (transfer, UConn - Mora centerpiece)", "evidence": "846 snaps 64.7 (54.2 IND-adj); UConn #1 tackler"},
-    {"name": "Jaylen King", "role": "LB (recruit)", "evidence": "Athlon #1 CSU recruit (4-star LB)"}
+    {
+     "name": "Jaseim Mitchell",
+     "role": "LB1 (returning, yr4 override)",
+     "evidence": "244 snaps 65.2 (60.5 adj); the lone returning LB with tape"
+    },
+    {
+     "name": "Oumar Diomande",
+     "role": "LB1 (transfer, UConn - Mora centerpiece)",
+     "evidence": "846 snaps 64.7 (54.2 IND-adj); UConn #1 tackler"
+    },
+    {
+     "name": "Jaylen King",
+     "role": "LB (recruit)",
+     "evidence": "Athlon #1 CSU recruit (4-star LB)"
+    }
    ],
-   "data_gaps": ["top three returning tapes all gone", "Turner no tape pulled"], "g5_guard_note": null
+   "data_gaps": [
+    "top three returning tapes all gone",
+    "Turner no tape pulled"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Colorado State", "unit": "DB", "grade": 22, "confidence": "M",
-   "bracketing_exemplars": ["Florida International QB 2025 (15, exemplar anchor)", "Illinois RB 2025 (32, exemplar anchor)"],
+   "team": "Colorado State",
+   "unit": "DB",
+   "grade": 22,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida International QB 2025 (15, exemplar anchor)",
+    "Illinois RB 2025 (32, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "The two best returning DBs are yr4-EXPIRED - Joe (64.1/775 -> 61.7) and Rogers (62.5/559 -> 60.1), neither in the 2026 print two-deep - so the 'deep returning volume' is thinner than the headcount suggests.",
     "What returns: Phelps (66.2/264 -> 63.8; portal-NONE withdrawal override, Athlon lists Jr.) + Bellah (56.3) + Noland (55.1) + Blocker (50.9) + Hagans (57.5 depth). Transfers: Presley (SJSU 66.6 - the best DB) + Mc-Cantos (App St 56.0) + two no-tape bodies (Moore S, R.Mosley CB).",
@@ -130,15 +301,38 @@
     "22: do not inflate on volume - the absolute level is bottom-third and the top-end returning tape (Joe, Rogers) walked."
    ],
    "key_players": [
-    {"name": "Caleb Presley", "role": "CB1 (transfer, San Jose State)", "evidence": "191 snaps 69.0 (66.6 MWC-adj); the best DB"},
-    {"name": "Dylan Phelps", "role": "NB/CB (returning, withdrawal override)", "evidence": "264 snaps 66.2 (63.8 adj)"},
-    {"name": "Elijah Mc-Cantos", "role": "S (transfer, App State)", "evidence": "705 snaps 59.6 (56.0 SBC-adj); key back-end piece"}
+    {
+     "name": "Caleb Presley",
+     "role": "CB1 (transfer, San Jose State)",
+     "evidence": "191 snaps 69.0 (66.6 MWC-adj); the best DB"
+    },
+    {
+     "name": "Dylan Phelps",
+     "role": "NB/CB (returning, withdrawal override)",
+     "evidence": "264 snaps 66.2 (63.8 adj)"
+    },
+    {
+     "name": "Elijah Mc-Cantos",
+     "role": "S (transfer, App State)",
+     "evidence": "705 snaps 59.6 (56.0 SBC-adj); key back-end piece"
+    }
    ],
-   "data_gaps": ["two best returners (Joe, Rogers) yr4-gone", "CB spring injuries", "two no-tape transfer starters"], "g5_guard_note": null
+   "data_gaps": [
+    "two best returners (Joe, Rogers) yr4-gone",
+    "CB spring injuries",
+    "two no-tape transfer starters"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Colorado State", "unit": "ST", "grade": 20, "confidence": "M",
-   "bracketing_exemplars": ["Florida Atlantic DB 2025 (6, exemplar anchor)", "Western Kentucky OL 2025 (25, exemplar anchor)"],
+   "team": "Colorado State",
+   "unit": "ST",
+   "grade": 20,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Florida Atlantic DB 2025 (6, exemplar anchor)",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "Brand-new unit off a SPEC p3 base: K Nguma (North Texas, 23-39 FG over 2 yr = 59%, mediocre) + P Craig (Wofford FCS, 41.8 avg) both new; CSU lost its '25 K and P.",
     "The one real upgrade is the return game - Mel Brown (UConn, 1st-Tm All-Conf KR) is a dangerous kickoff returner (Athlon).",
@@ -146,11 +340,27 @@
     "20: above the FAU-DB-6 rail on the KR + a competent-if-unspectacular new battery, below the WKU-25 rail; bottom-tier."
    ],
    "key_players": [
-    {"name": "Kali Nguma", "role": "K (transfer, North Texas)", "evidence": "23-39 FG over 2 yr (59%); mediocre"},
-    {"name": "Mel Brown", "role": "KR (transfer, UConn)", "evidence": "dangerous KR; 1st-Tm All-Conf UConn"},
-    {"name": "Cavan Craig", "role": "P (transfer, Wofford FCS)", "evidence": "41.8 avg"}
+    {
+     "name": "Kali Nguma",
+     "role": "K (transfer, North Texas)",
+     "evidence": "23-39 FG over 2 yr (59%); mediocre"
+    },
+    {
+     "name": "Mel Brown",
+     "role": "KR (transfer, UConn)",
+     "evidence": "dangerous KR; 1st-Tm All-Conf UConn"
+    },
+    {
+     "name": "Cavan Craig",
+     "role": "P (transfer, Wofford FCS)",
+     "evidence": "41.8 avg"
+    }
    ],
-   "data_gaps": ["new kicker poor percentage", "FCS punter unproven at FBS"], "g5_guard_note": null
+   "data_gaps": [
+    "new kicker poor percentage",
+    "FCS punter unproven at FBS"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

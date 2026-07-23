@@ -1,14 +1,44 @@
 {
  "team": "Wisconsin",
  "units": {
-  "QB": {"grade": 62, "confidence": "M"},
-  "RB": {"grade": 58, "confidence": "M"},
-  "WRTE": {"grade": 44, "confidence": "M"},
-  "OL": {"grade": 48, "confidence": "M"},
-  "DL": {"grade": 52, "confidence": "M"},
-  "LB": {"grade": 74, "confidence": "M"},
-  "DB": {"grade": 62, "confidence": "M"},
-  "ST": {"grade": 48, "confidence": "M"}
+  "QB": {
+   "grade": 57,
+   "confidence": "M",
+   "v1_grade": 62,
+   "adjudication": "manual middle ground: dg-20.1 | ADJUDICATOR: Joseph 78.9/334 real full-volume G5 tape (Houser lesson \u2014 do not double-discount); validated G5\u2192P4 charge is only -3.5; backup drag struc"
+  },
+  "RB": {
+   "grade": 54,
+   "confidence": "M",
+   "v1_grade": 58,
+   "adjudication": "50/50 blend: dg-8.5"
+  },
+  "WRTE": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 71,
+   "confidence": "M",
+   "v1_grade": 74,
+   "adjudication": "LB 0.4 blend: dg-8.5"
+  },
+  "DB": {
+   "grade": 62,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 48,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -25,12 +55,20 @@
    "LB": "-15 vs proxy 89 (proxy counts departed Alliegro/Curtis; the phenom pair carries it but the two-deep cliffs)",
    "DB": "-15 vs proxy 77 (proxy counts Hallman/Brown/Hill/Zachman - five of the top six departed)",
    "ST": "-39 vs proxy 87 (as-played unit lost its P to UCF and fields an unproven-FG kicker via the redshirt override)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "Wisconsin", "unit": "QB", "grade": 62, "confidence": "M",
-   "bracketing_exemplars": ["Syracuse QB 2025 (p25 ref, 63.2)", "Maryland QB 2025 (p50 ref, 71.8)"],
+   "team": "Wisconsin",
+   "unit": "QB",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Syracuse QB 2025 (p25 ref, 63.2)",
+    "Maryland QB 2025 (p50 ref, 71.8)"
+   ],
    "rationale_bullets": [
     "The fourth consecutive transfer-QB bet, but the first all-league one: Joseph (78.9 PFF/355 at ODU, SBC -1 -> 77.9, ~p68 tape) - Sun Belt OPOY (Athlon), 1,000+ rush yards with two 75-yd TDs vs Indiana, 4,200/1,600/56 TD over two seasons.",
     "The fit is the case: 'a true dual-threat... a mobile element that the program has been missing' (P6); the RVO play-action downfield scheme matches his ODU profile (Athlon); Joseph out-gained the entire '25 Wisconsin team in 10+ yard runs, 37-33.",
@@ -39,15 +77,32 @@
     "62, M: a ~p68 G5-adjusted dual-threat entering a P4 rebuild - the Iamaleava-60/Illinois-62 tier on quality, with G5 translation as the variance."
    ],
    "key_players": [
-    {"name": "Colton Joseph", "role": "QB1 (transfer, Old Dominion)", "evidence": "78.9 PFF/355; SBC OPOY; 1,000+ rush 2025"},
-    {"name": "Danny O'Neil", "role": "QB2 (returning)", "evidence": "51.3/123; injured game 4; back for fall camp"}
+    {
+     "name": "Colton Joseph",
+     "role": "QB1 (transfer, Old Dominion)",
+     "evidence": "78.9 PFF/355; SBC OPOY; 1,000+ rush 2025"
+    },
+    {
+     "name": "Danny O'Neil",
+     "role": "QB2 (returning)",
+     "evidence": "51.3/123; injured game 4; back for fall camp"
+    }
    ],
-   "data_gaps": ["G5-to-B10 translation", "the three-year QB injury pattern"],
+   "data_gaps": [
+    "G5-to-B10 translation",
+    "the three-year QB injury pattern"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Wisconsin", "unit": "RB", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["Maryland RB 2025 (p25 ref, 69.6)", "Memphis RB 2025 (p50 ref, 76.9)"],
+   "team": "Wisconsin",
+   "unit": "RB",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Maryland RB 2025 (p25 ref, 69.6)",
+    "Memphis RB 2025 (p50 ref, 76.9)"
+   ],
    "rationale_bullets": [
     "Sama (80.0 PFF/140 at Iowa State, B12 +7 -> 87.0) is the best adjusted RB tape imported by any of the round's bottom-half teams: 1,933 career yards including the 270-yard 2024 'Snowmageddon' game.",
     "Dupree (61.2/120) returns as the '25 lead rusher from a room that missed seven combined games (663 total yards; 3.3 ypc, #128; no 100-yard rusher until game 11); D. Jones (70.1) left for LSU.",
@@ -56,16 +111,37 @@
     "58, M: an ~87-adjusted lead tape on 140 carries + credible rotation, behind a line still being rebuilt."
    ],
    "key_players": [
-    {"name": "Abu Sama III", "role": "RB1 (transfer, Iowa State)", "evidence": "80.0 PFF/140 (B12 +7 -> 87.0); 1,933 career; Snowmageddon 270"},
-    {"name": "Darrion Dupree", "role": "RB2 (returning)", "evidence": "61.2/120; '25 lead rusher"},
-    {"name": "Bryan Jackson II", "role": "RB3 (transfer, USC)", "evidence": "63.4/36 at USC 2025"}
+    {
+     "name": "Abu Sama III",
+     "role": "RB1 (transfer, Iowa State)",
+     "evidence": "80.0 PFF/140 (B12 +7 -> 87.0); 1,933 career; Snowmageddon 270"
+    },
+    {
+     "name": "Darrion Dupree",
+     "role": "RB2 (returning)",
+     "evidence": "61.2/120; '25 lead rusher"
+    },
+    {
+     "name": "Bryan Jackson II",
+     "role": "RB3 (transfer, USC)",
+     "evidence": "63.4/36 at USC 2025"
+    }
    ],
-   "data_gaps": ["Sama sample (140 att)", "line in front"],
+   "data_gaps": [
+    "Sama sample (140 att)",
+    "line in front"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Wisconsin", "unit": "WRTE", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Missouri State WRTE 2025 (p25 ref, 61.3)", "Nebraska WRTE 2025 (50 anchor, 66.4)"],
+   "team": "Wisconsin",
+   "unit": "WRTE",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Missouri State WRTE 2025 (p25 ref, 61.3)",
+    "Nebraska WRTE 2025 (50 anchor, 66.4)"
+   ],
    "rationale_bullets": [
     "The '25 volume leaves: Anthony (67.7/257) + Kekahuna (63.8/172, to UNC) took 'the vast majority of snaps and catches'; TE Mason (67.1/211; team-high 398 yds) and Ballard expired.",
     "The retained pieces are adjudication wins, not proven producers: Hilton (59.3/76; 4*; Withdrawn STAYS - 'the staff kept [him] away from the portal,' P6) + Henry (62.6/32; yr4 override; spring praise) + Brooks (61.1/131) + TE Stec (62.7/52; FR flash before injury).",
@@ -73,16 +149,37 @@
     "44, M: aggregate ~62 (~p30) with zero proven P4 producers - a Purdue-40/Minnesota-44 class room whose upside is pedigree variance."
    ],
    "key_players": [
-    {"name": "Shamar Rigby", "role": "slot (transfer, Oklahoma State)", "evidence": "63.7 PFF/251 (B12 +3 -> 66.7); OkSt starter"},
-    {"name": "Eugene Hilton Jr.", "role": "WR (returning; Withdrawn STAYS)", "evidence": "59.3/76; 4*; P6 retention note"},
-    {"name": "Jacob Harris", "role": "TE (transfer, Bowling Green)", "evidence": "74.1/146 (MAC -7 -> 67.1); 5 TD"}
+    {
+     "name": "Shamar Rigby",
+     "role": "slot (transfer, Oklahoma State)",
+     "evidence": "63.7 PFF/251 (B12 +3 -> 66.7); OkSt starter"
+    },
+    {
+     "name": "Eugene Hilton Jr.",
+     "role": "WR (returning; Withdrawn STAYS)",
+     "evidence": "59.3/76; 4*; P6 retention note"
+    },
+    {
+     "name": "Jacob Harris",
+     "role": "TE (transfer, Bowling Green)",
+     "evidence": "74.1/146 (MAC -7 -> 67.1); 5 TD"
+    }
    ],
-   "data_gaps": ["no alpha, no proven P4 volume", "Stec health"],
+   "data_gaps": [
+    "no alpha, no proven P4 volume",
+    "Stec health"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Wisconsin", "unit": "OL", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["Western Kentucky OL 2025 (25 anchor, 55.4)", "Michigan OL 2025 (p50 ref, 65.5)"],
+   "team": "Wisconsin",
+   "unit": "OL",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Western Kentucky OL 2025 (25 anchor, 55.4)",
+    "Michigan OL 2025 (p50 ref, 65.5)"
+   ],
    "rationale_bullets": [
     "Two starters return (Cubberly 59.2/393, Mandell 62.6/704) plus Heywood - the '25 projected LT who tore his ACL last preseason and has no tape.",
     "The exits sting twice: Brunner (66.5/694) to Indiana with 'a high four-star grade' and Renfro (69.8/225) to Illinois, plus four yr4s including Mahlman (62.9/698).",
@@ -91,16 +188,38 @@
     "48, M: a nominal ~64 aggregate carried by small SEC samples and an ACL return - the Rutgers-50/MSU-46 tier."
    ],
    "key_players": [
-    {"name": "Austin Kawecki", "role": "C (transfer, Oklahoma State)", "evidence": "62.4 PFF/710 (B12 +8 -> 70.4); OkSt starting C"},
-    {"name": "Emerson Mandell", "role": "RG (returning starter)", "evidence": "62.6/704"},
-    {"name": "Kevin Heywood", "role": "LT (returning)", "evidence": "'25 projected starter; preseason ACL - no tape"}
+    {
+     "name": "Austin Kawecki",
+     "role": "C (transfer, Oklahoma State)",
+     "evidence": "62.4 PFF/710 (B12 +8 -> 70.4); OkSt starting C"
+    },
+    {
+     "name": "Emerson Mandell",
+     "role": "RG (returning starter)",
+     "evidence": "62.6/704"
+    },
+    {
+     "name": "Kevin Heywood",
+     "role": "LT (returning)",
+     "evidence": "'25 projected starter; preseason ACL - no tape"
+    }
    ],
-   "data_gaps": ["Heywood ACL", "RT (Simmons no volume)", "new position coach install"],
+   "data_gaps": [
+    "Heywood ACL",
+    "RT (Simmons no volume)",
+    "new position coach install"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Wisconsin", "unit": "DL", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["Baylor DL 2025 (p50 ref, 67.7)", "East Carolina DL 2025 (p25 ref, 60.5)"],
+   "team": "Wisconsin",
+   "unit": "DL",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Baylor DL 2025 (p50 ref, 67.7)",
+    "East Carolina DL 2025 (p25 ref, 60.5)"
+   ],
    "rationale_bullets": [
     "The purge: eight yr4 tapes expire at once - Reiger (82.4 PFF/514) and Peterson (81.0/385) headline 'the top four defensive linemen [and] top four outside backers are all gone' (P6) - off a front that graded RDEF p74 / PRSH p79 and held Washington and Illinois to 10 points apiece.",
     "The returning ends are real: Cheeks (70.2/368, B10 +10 -> 80.2; #2 in pressures) + Fearbry (78.2/73 -> 88.2 - elite small sample) + Perkins (62.9/73; Withdrawn STAYS).",
@@ -109,17 +228,42 @@
     "52, M: one proven B10 edge at volume + one small-sample stud + a G5 interior - the Rutgers-54 shape with a better top and thinner middle."
    ],
    "key_players": [
-    {"name": "Sebastian Cheeks", "role": "EDGE (returning)", "evidence": "70.2 PFF/368 (-> 80.2); #2 in pressures"},
-    {"name": "Tyreese Fearbry", "role": "JACK (returning)", "evidence": "78.2/73 (-> 88.2 small)"},
-    {"name": "Junior Poyser", "role": "DT (transfer, Buffalo)", "evidence": "71.0/423 (MAC -6 -> 65.0); All-MAC"},
-    {"name": "Charles Perkins", "role": "DE (returning; Withdrawn STAYS)", "evidence": "62.9/73; Athlon DE1"}
+    {
+     "name": "Sebastian Cheeks",
+     "role": "EDGE (returning)",
+     "evidence": "70.2 PFF/368 (-> 80.2); #2 in pressures"
+    },
+    {
+     "name": "Tyreese Fearbry",
+     "role": "JACK (returning)",
+     "evidence": "78.2/73 (-> 88.2 small)"
+    },
+    {
+     "name": "Junior Poyser",
+     "role": "DT (transfer, Buffalo)",
+     "evidence": "71.0/423 (MAC -6 -> 65.0); All-MAC"
+    },
+    {
+     "name": "Charles Perkins",
+     "role": "DE (returning; Withdrawn STAYS)",
+     "evidence": "62.9/73; Athlon DE1"
+    }
    ],
-   "data_gaps": ["interior all-G5", "edge depth behind the top two"],
+   "data_gaps": [
+    "interior all-G5",
+    "edge depth behind the top two"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Wisconsin", "unit": "LB", "grade": 74, "confidence": "M",
-   "bracketing_exemplars": ["Oregon State LB 2025 (p75 ref, 77.4)", "Iowa LB 2025 (p90 ref, 86.5)"],
+   "team": "Wisconsin",
+   "unit": "LB",
+   "grade": 74,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Oregon State LB 2025 (p75 ref, 77.4)",
+    "Iowa LB 2025 (p90 ref, 86.5)"
+   ],
    "rationale_bullets": [
     "The phenom pair is the roster's crown: Posa (80.0 PFF/363, B10 +16 -> 96.0 - the scale top; ALL-BIG TEN HONORS AS A TRUE FRESHMAN) + Catalano (69.4/362 -> 85.4) - first and second in tackles with 117 tackles and 6 sacks combined. Both retained ('major retention wins' - Athlon).",
     "The caution nuance cuts FOR them: Posa's 80.0 is elite RAW - the caution rule targets offset-inflation, and his number precedes the +16; the All-B10 honor corroborates. The samples (~360 snaps each) are the only tempering.",
@@ -128,16 +272,37 @@
     "74, M: an Indiana-class top two with a two-deep cliff - graded between Indiana's 77 and Washington's 72."
    ],
    "key_players": [
-    {"name": "Mason Posa", "role": "ILB (returning starter)", "evidence": "80.0 PFF/363; All-B10 as a TRUE FR"},
-    {"name": "Cooper Catalano", "role": "ILB (returning starter)", "evidence": "69.4/362 (-> 85.4); #2 in tackles"},
-    {"name": "Jon Jon Kamara", "role": "LB3 (transfer, Kansas)", "evidence": "58.2/239 (B12 +5 -> 63.2)"}
+    {
+     "name": "Mason Posa",
+     "role": "ILB (returning starter)",
+     "evidence": "80.0 PFF/363; All-B10 as a TRUE FR"
+    },
+    {
+     "name": "Cooper Catalano",
+     "role": "ILB (returning starter)",
+     "evidence": "69.4/362 (-> 85.4); #2 in tackles"
+    },
+    {
+     "name": "Jon Jon Kamara",
+     "role": "LB3 (transfer, Kansas)",
+     "evidence": "58.2/239 (B12 +5 -> 63.2)"
+    }
    ],
-   "data_gaps": ["two-deep cliff behind the pair", "FR-sample volume"],
+   "data_gaps": [
+    "two-deep cliff behind the pair",
+    "FR-sample volume"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Wisconsin", "unit": "DB", "grade": 62, "confidence": "M",
-   "bracketing_exemplars": ["UNLV DB 2025 (p25 ref, 62.8)", "UCF DB 2025 (p75 ref, 73.0)"],
+   "team": "Wisconsin",
+   "unit": "DB",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV DB 2025 (p25 ref, 62.8)",
+    "UCF DB 2025 (p75 ref, 73.0)"
+   ],
    "rationale_bullets": [
     "'Five of the top six defensive backs are gone' (P6): Hallman (71.0 PFF/713 - the proven CB), A. Brown (672 snaps), Hill (386) expired; Latimer to WVU, Agard to Virginia, Zachman (79.6/116 - the best rate tape) to Indiana. COV was p22.",
     "The imports are the case: Burks (75.2/605 at Missouri, SEC +5 -> 80.2 - the best incoming tape; 'SEC game experience') + Robinson (70.5/659 at ASU, B12 +2 -> 72.5; 'a certainty, having started the past two years in the Big 12') + Fletcher (64.8/271 at OkSt) + ex-4*s West (67.8/91 at OSU -> 73.8) and Bates (FSU).",
@@ -146,17 +311,42 @@
     "62, M: two quality volume imports + one returning starter + pedigree smalls, into a p22 coverage prior - the Nebraska-65/Minnesota-64 tier, a step under."
    ],
    "key_players": [
-    {"name": "Marvin Burks Jr.", "role": "FS (transfer, Missouri)", "evidence": "75.2 PFF/605 (SEC +5 -> 80.2)"},
-    {"name": "Javan Robinson", "role": "CB1 (transfer, Arizona State)", "evidence": "70.5/659 (B12 +2 -> 72.5); 2-yr starter"},
-    {"name": "Matthew Jung", "role": "SS (returning starter)", "evidence": "64.2/628 (-> 70.2)"},
-    {"name": "Bryce West", "role": "NB (transfer, Ohio State)", "evidence": "67.8/91 (B10 +6 -> 73.8); ex-4*"}
+    {
+     "name": "Marvin Burks Jr.",
+     "role": "FS (transfer, Missouri)",
+     "evidence": "75.2 PFF/605 (SEC +5 -> 80.2)"
+    },
+    {
+     "name": "Javan Robinson",
+     "role": "CB1 (transfer, Arizona State)",
+     "evidence": "70.5/659 (B12 +2 -> 72.5); 2-yr starter"
+    },
+    {
+     "name": "Matthew Jung",
+     "role": "SS (returning starter)",
+     "evidence": "64.2/628 (-> 70.2)"
+    },
+    {
+     "name": "Bryce West",
+     "role": "NB (transfer, Ohio State)",
+     "evidence": "67.8/91 (B10 +6 -> 73.8); ex-4*"
+    }
    ],
-   "data_gaps": ["four new starters", "corner room built on smalls (Bates 26 snaps)"],
+   "data_gaps": [
+    "four new starters",
+    "corner room built on smalls (Bates 26 snaps)"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Wisconsin", "unit": "ST", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Wake Forest DL 2025 (60)"],
+   "team": "Wisconsin",
+   "unit": "ST",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "ST rule: start at the p87 as-played SPEC and adjust hard: the P (Bertrams) left for UCF, and the K spot goes to Lahm - whose yr4 override is the round's cleanest (Athlon: 'redshirted last season in order to be eligible this season') but whose FG resume is unproven (a 'big leg as a kickoff specialist').",
     "The investment: the FIRST full-time special teams coordinator of the Fickell era (Ligashesky, poached from Minnesota) - 'more coaching investment in the third phase' (Athlon).",
@@ -164,10 +354,21 @@
     "48, M: an elite prior minus both proven legs, plus a coordinator upgrade - the Purdue-54 shape without Purdue's proven P."
    ],
    "key_players": [
-    {"name": "Gavin Lahm", "role": "K (returning; yr4 override)", "evidence": "redshirted-for-eligibility (Athlon); big-leg KO man, unproven FG"},
-    {"name": "Tyrell Henry", "role": "KR/PR (returning; yr4 override)", "evidence": "Athlon KR1/PR1; spring praise"}
+    {
+     "name": "Gavin Lahm",
+     "role": "K (returning; yr4 override)",
+     "evidence": "redshirted-for-eligibility (Athlon); big-leg KO man, unproven FG"
+    },
+    {
+     "name": "Tyrell Henry",
+     "role": "KR/PR (returning; yr4 override)",
+     "evidence": "Athlon KR1/PR1; spring praise"
+    }
    ],
-   "data_gaps": ["Lahm FG resume", "P room (redshirt So + D3 transfer)"],
+   "data_gaps": [
+    "Lahm FG resume",
+    "P room (redshirt So + D3 transfer)"
+   ],
    "g5_guard_note": null
   }
  ]

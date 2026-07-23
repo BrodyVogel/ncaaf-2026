@@ -1,14 +1,42 @@
 {
  "team": "Louisiana Tech",
  "units": {
-  "QB": {"grade": 48, "confidence": "M"},
-  "RB": {"grade": 38, "confidence": "M"},
-  "WRTE": {"grade": 44, "confidence": "M"},
-  "OL": {"grade": 44, "confidence": "M"},
-  "DL": {"grade": 42, "confidence": "M"},
-  "LB": {"grade": 46, "confidence": "M"},
-  "DB": {"grade": 44, "confidence": "M"},
-  "ST": {"grade": 40, "confidence": "M"}
+  "QB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 38,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 50,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "manual middle ground: dg+25.4 | ADJUDICATOR: half the matched evidence is a 92-route 2024 sample; room lost its top 4; trimmed blend"
+  },
+  "OL": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 51,
+   "confidence": "M",
+   "v1_grade": 46,
+   "adjudication": "LB 0.4 blend: dg+12.4"
+  },
+  "DB": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 40,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,7 +44,9 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary; PS SBC text GARBLED -> College Football News 2026 preview as the corroborating source; no Pick Six for SBC]; 2026 SUN BELT NEWCOMER but 2025 tape earned in CUSA -> returning players on CUSA ORIGIN cells [heavily negative], arrivals on origin [FCS/D2/NAIA = no cell]; HC Sonny Cumbie Y5 [NO CHANGE, band x1.00]; disposition gate 43 rows / 0 adjudicate / 0 err - yr4-RETURN override Kolbe Fields [Athlon-named DPOY headliner]; NFL-declare Jakari Foster [87.2, the top grade - Athlon '(NFL)' + Ruston Leader + Steelers Depot + CFN]; departure_confirmed_research Sifa Leota [84.3, yr4 grad, magazine/web-absent] + Burnette + Gandy; 24-out portal exodus feed-destinationed; RB1 a NAIA transfer]; anchor values not consulted. DISCLOSED: Athlon NF104 / Sun Belt West 3 incidentally visible, logged, NOT used.",
-  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB48/RB38/WRTE44/OL44/DL42/LB46/DB44/ST40, sum 346). No post-freeze corrections. The build's pivotal move was pre-grade: the multi-source verification that the roster's top 2 graders (Foster 87.2, Leota 84.3) are BOTH gone despite the portal-None feed - grading off the raw feed would have massively over-rated DB and LB."},
+  "planned_vs_final_deviations": {
+   "note": "finals match the dossier planned lines exactly (QB48/RB38/WRTE44/OL44/DL42/LB46/DB44/ST40, sum 346). No post-freeze corrections. The build's pivotal move was pre-grade: the multi-source verification that the roster's top 2 graders (Foster 87.2, Leota 84.3) are BOTH gone despite the portal-None feed - grading off the raw feed would have massively over-rated DB and LB."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy is ALL None except ST 74 - a mechanical artifact of the near-total turnover (the feed can't map a returning starter at 7 of 8 units). The grades key the VERIFIED returners the proxy can't see (both QBs, Finley, Christman/Cole, Fields/Mayfield) + the transfer reload; the None's do NOT mean 'empty.'",
    "QB": "proxy None but the grade (48) keys two returning 70+-grading QBs (Baker 73.9 + Kukuk 70.5) the proxy missed.",
@@ -24,110 +54,257 @@
    "LB": "proxy None but the grade (46) keys Fields (DPOY billing, yr4-return) + Mayfield (588 snaps) - the defense's strength.",
    "DB": "proxy None; the grade (44) keys experienced returning backups (McRae 74.9/Carter 69.7/Fongang 71.4) + a 22-INT scheme, AFTER all 5 starters (incl. Foster to the NFL) left.",
    "ST": "-34 vs proxy 74 - the proxy is stale '25 tape; the '26 unit is all-freshman specialists (freshman K + Australian freshman P) with no return experience."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
-  {"team": "Louisiana Tech", "unit": "QB", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["Alabama QB 2026 (48, peer)", "Florida QB 2026 (48, peer)"],
+  {
+   "team": "Louisiana Tech",
+   "unit": "QB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Alabama QB 2026 (48, peer)",
+    "Florida QB 2026 (48, peer)"
+   ],
    "rationale_bullets": [
     "Blake Baker (73.9/198 -> CUSA -5.61; the returning starter, a soph in '25 before a Nov. ACL, back through spring drills, the better passer) + Trey Kukuk (70.5/138; JUCO transfer who ran the 3-game closing win streak, a Taysom-Hill-type runner). BOTH top QBs back.",
     "A rare two-deep of returning QBs both grading 70+ - real experience + Kukuk's run dimension - but off a poor passing offense (PASS p12) with Baker recovering from an ACL.",
     "48: ~Alabama/Florida QB 48. The two-QB certainty vs the poor passing baseline + the ACL. M."
    ],
    "key_players": [
-    {"name": "Blake Baker", "role": "QB (returning)", "evidence": "73.9/198; the returning starter, back from a Nov. ACL, the better passer"},
-    {"name": "Trey Kukuk", "role": "QB (returning)", "evidence": "70.5/138; ran the 3-game closing win streak, a Taysom-Hill-type runner"}
+    {
+     "name": "Blake Baker",
+     "role": "QB (returning)",
+     "evidence": "73.9/198; the returning starter, back from a Nov. ACL, the better passer"
+    },
+    {
+     "name": "Trey Kukuk",
+     "role": "QB (returning)",
+     "evidence": "70.5/138; ran the 3-game closing win streak, a Taysom-Hill-type runner"
+    }
    ],
-   "data_gaps": ["PASS p12 (poor passing)", "Baker's ACL recovery"],
-   "g5_guard_note": "Sun Belt newcomer; two returning 70+ QBs graded on CUSA origin cells (offset -5.61) - above-average QB certainty for the level."},
-  {"team": "Louisiana Tech", "unit": "RB", "grade": 38, "confidence": "M",
-   "bracketing_exemplars": ["Maryland RB 2026 (38, peer)", "Army RB 2026 (38, peer)"],
+   "data_gaps": [
+    "PASS p12 (poor passing)",
+    "Baker's ACL recovery"
+   ],
+   "g5_guard_note": "Sun Belt newcomer; two returning 70+ QBs graded on CUSA origin cells (offset -5.61) - above-average QB certainty for the level."
+  },
+  {
+   "team": "Louisiana Tech",
+   "unit": "RB",
+   "grade": 38,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Maryland RB 2026 (38, peer)",
+    "Army RB 2026 (38, peer)"
+   ],
    "rationale_bullets": [
     "Jaden Miller (Athlon's RB1, a Keiser/NAIA transfer - NO cell) + freshmen Kenny Thomas + Dylone Brooks. Athlon: 'the top 3 RBs all moved on, leaving the position WITHOUT A PLAYER WHO HAS PLAYED A SNAP AT THE NCAA LEVEL.' Thevenin (78.1 -> Rutgers) + Wiggins (80.4 -> McNeese) + Burnette (yr4) GONE.",
     "A total reset - zero returning NCAA carries; a NAIA transfer + freshmen behind a run-first '25 attack (RUN p79) that lost everyone.",
     "38: ~Maryland/Army RB 38 (near the floor). A hard reset with some transfer/HS bodies. M."
    ],
    "key_players": [
-    {"name": "Jaden Miller", "role": "RB (arrival, Keiser NAIA)", "evidence": "Athlon's projected RB1; a NAIA transfer (evidence-only, no cell)"}
+    {
+     "name": "Jaden Miller",
+     "role": "RB (arrival, Keiser NAIA)",
+     "evidence": "Athlon's projected RB1; a NAIA transfer (evidence-only, no cell)"
+    }
    ],
-   "data_gaps": ["no returning player has taken an NCAA snap", "RB1 from the NAIA level"],
-   "g5_guard_note": "Sun Belt newcomer; a total backfield reset (NAIA transfer + freshmen) - the arrivals grade evidence-only (no cell)."},
-  {"team": "Louisiana Tech", "unit": "WRTE", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Wisconsin WRTE 2026 (44, peer)", "Minnesota WRTE 2026 (44, peer)"],
+   "data_gaps": [
+    "no returning player has taken an NCAA snap",
+    "RB1 from the NAIA level"
+   ],
+   "g5_guard_note": "Sun Belt newcomer; a total backfield reset (NAIA transfer + freshmen) - the arrivals grade evidence-only (no cell)."
+  },
+  {
+   "team": "Louisiana Tech",
+   "unit": "WRTE",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wisconsin WRTE 2026 (44, peer)",
+    "Minnesota WRTE 2026 (44, peer)"
+   ],
    "rationale_bullets": [
     "Eli Finley (71.5/236 -> CUSA -4.19; 'a proven target underneath,' the one real returner) + Talyn Shettron (Oklahoma State transfer, a once-touted P4 recruit) + Marcus Calwise Jr. (Eastern Kentucky FCS) + injury-return Jay Wilkerson. 'Top 4 WRs gone'; Devin Gandy (yr4) GONE.",
     "A proven returning TE (Finley) + a P4-pedigree transfer WR1 (Shettron) atop an otherwise rebuilt corps, off a poor receiving unit (RECV p12).",
     "44: ~Wisconsin/Minnesota WRTE 44. Finley + Shettron's pedigree vs the total WR turnover + the poor baseline. M."
    ],
    "key_players": [
-    {"name": "Eli Finley", "role": "TE (returning)", "evidence": "71.5/236; a proven target underneath, the one real returning receiver"},
-    {"name": "Talyn Shettron", "role": "WR (transfer, Oklahoma State)", "evidence": "a once-touted P4 recruit; the revamped corps' headliner"}
+    {
+     "name": "Eli Finley",
+     "role": "TE (returning)",
+     "evidence": "71.5/236; a proven target underneath, the one real returning receiver"
+    },
+    {
+     "name": "Talyn Shettron",
+     "role": "WR (transfer, Oklahoma State)",
+     "evidence": "a once-touted P4 recruit; the revamped corps' headliner"
+    }
    ],
-   "data_gaps": ["top 4 WRs gone off RECV p12", "corps otherwise rebuilt from transfers"],
-   "g5_guard_note": "Sun Belt newcomer; a returning TE (Finley, CUSA offset -4.19) + a B12-transfer WR + a rebuilt corps."},
-  {"team": "Louisiana Tech", "unit": "OL", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Kansas State OL 2026 (44, peer)", "Oklahoma State OL 2026 (44, peer)"],
+   "data_gaps": [
+    "top 4 WRs gone off RECV p12",
+    "corps otherwise rebuilt from transfers"
+   ],
+   "g5_guard_note": "Sun Belt newcomer; a returning TE (Finley, CUSA offset -4.19) + a B12-transfer WR + a rebuilt corps."
+  },
+  {
+   "team": "Louisiana Tech",
+   "unit": "OL",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Kansas State OL 2026 (44, peer)",
+    "Oklahoma State OL 2026 (44, peer)"
+   ],
    "rationale_bullets": [
     "Hayden Christman (62.6/863 -> CUSA -6.36; LT, 24 CONSECUTIVE STARTS, anchored the line that allowed the FEWEST SACKS in CUSA) + Ashanti Cole (58.6/875; LG) + role players + transfers (Hylton FSU). LOST 4 yr4 starters (Nelson/Denis/Canis/Bannister) + Mealer (-> So Miss).",
     "Two returning 850+-snap starters (a durable LT + a guard) + the fewest-sacks-in-CUSA pass-pro reputation - but 4 starters graduated and the run blocking was p10.",
     "44: ~Kansas State/Oklahoma State OL 44. The LT/LG continuity + elite pass pro vs the interior turnover + RBLK p10. M."
    ],
    "key_players": [
-    {"name": "Hayden Christman", "role": "LT (returning)", "evidence": "62.6/863; 24 consecutive starts; anchored the fewest-sacks-in-CUSA line"},
-    {"name": "Ashanti Cole", "role": "LG (returning)", "evidence": "58.6/875; the other returning OL starter"}
+    {
+     "name": "Hayden Christman",
+     "role": "LT (returning)",
+     "evidence": "62.6/863; 24 consecutive starts; anchored the fewest-sacks-in-CUSA line"
+    },
+    {
+     "name": "Ashanti Cole",
+     "role": "LG (returning)",
+     "evidence": "58.6/875; the other returning OL starter"
+    }
    ],
-   "data_gaps": ["4 starters graduated (C + interior)", "RBLK p10 (poor run blocking)"],
-   "g5_guard_note": "Sun Belt newcomer; two returning starters (CUSA offset -6.36) off the fewest-sacks-CUSA line, rebuilding the interior."},
-  {"team": "Louisiana Tech", "unit": "DL", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["App State DL 2026 (42, peer)", "Georgia Southern DL 2026 (42, peer)"],
+   "data_gaps": [
+    "4 starters graduated (C + interior)",
+    "RBLK p10 (poor run blocking)"
+   ],
+   "g5_guard_note": "Sun Belt newcomer; two returning starters (CUSA offset -6.36) off the fewest-sacks-CUSA line, rebuilding the interior."
+  },
+  {
+   "team": "Louisiana Tech",
+   "unit": "DL",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "App State DL 2026 (42, peer)",
+    "Georgia Southern DL 2026 (42, peer)"
+   ],
    "rationale_bullets": [
     "Donovan Rieman (68.6/404 -> CUSA -7.88; the top returning DL) + Emmanuel Oguns (58.7/455; ED) + transfers Justice Williams (West Florida NT) + Joshua Brantley (Tulane). LOST Jayden Madkins (62.4 -> Tulsa) + Christian Davis (69.9 -> SMU).",
     "Two returning veterans + a transfer reload on a front that was a poor pass rush in '25 (PRSH p19) and lost its two most disruptive linemen.",
     "42: ~App State/Georgia Southern DL 42. The vet returners vs the lost starters + the poor pass rush. M."
    ],
    "key_players": [
-    {"name": "Donovan Rieman", "role": "DL (returning)", "evidence": "68.6/404; the top returning defensive lineman"},
-    {"name": "Emmanuel Oguns", "role": "ED (returning)", "evidence": "58.7/455; a returning edge"}
+    {
+     "name": "Donovan Rieman",
+     "role": "DL (returning)",
+     "evidence": "68.6/404; the top returning defensive lineman"
+    },
+    {
+     "name": "Emmanuel Oguns",
+     "role": "ED (returning)",
+     "evidence": "58.7/455; a returning edge"
+    }
    ],
-   "data_gaps": ["lost 2 starters (Madkins->Tulsa, Davis->SMU)", "PRSH p19 (poor pass rush)"],
-   "g5_guard_note": "Sun Belt newcomer; two returning DL (CUSA offset -7.88) + transfers after losing the front's two most disruptive."},
-  {"team": "Louisiana Tech", "unit": "LB", "grade": 46, "confidence": "M",
-   "bracketing_exemplars": ["Miami LB 2026 (46, peer)", "Utah LB 2026 (46, peer)"],
+   "data_gaps": [
+    "lost 2 starters (Madkins->Tulsa, Davis->SMU)",
+    "PRSH p19 (poor pass rush)"
+   ],
+   "g5_guard_note": "Sun Belt newcomer; two returning DL (CUSA offset -7.88) + transfers after losing the front's two most disruptive."
+  },
+  {
+   "team": "Louisiana Tech",
+   "unit": "LB",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Miami LB 2026 (46, peer)",
+    "Utah LB 2026 (46, peer)"
+   ],
    "rationale_bullets": [
     "Kolbe Fields (78.3/297 -> CUSA -12.31; 6th-yr, preseason CUSA DPOY billing before a '25 leg injury, 'headlines a deep unit' - yr4 RETURN) + Jadon Mayfield (72.3/588; a returning starter, 61 tkl/8.5 TFL) + Alonzo Jackson Jr. + Zheric Hill. LOST Sifa Leota (84.3, yr4 GONE) + Mekhi Mason (66.7 -> Kansas State).",
     "The defense's clear strength - a DPOY-caliber returner (Fields, health permitting) + a proven 588-snap sophomore (Mayfield) + young depth ('few concerns... a deep unit') - but it lost real production (Leota's 638 snaps + Mason's 14.5 sacks).",
     "46: ~Miami/Utah LB 46. Fields + Mayfield anchor a top-half-G5 unit; the Leota/Mason losses + Fields's injury history cap it. M."
    ],
    "key_players": [
-    {"name": "Kolbe Fields", "role": "LB (returning, yr4 override)", "evidence": "78.3/297; 6th-yr, preseason CUSA DPOY billing before a leg injury; headlines the unit"},
-    {"name": "Jadon Mayfield", "role": "LB (returning)", "evidence": "72.3/588; 61 tkl/3.5 sacks/8.5 TFL, a returning starter"}
+    {
+     "name": "Kolbe Fields",
+     "role": "LB (returning, yr4 override)",
+     "evidence": "78.3/297; 6th-yr, preseason CUSA DPOY billing before a leg injury; headlines the unit"
+    },
+    {
+     "name": "Jadon Mayfield",
+     "role": "LB (returning)",
+     "evidence": "72.3/588; 61 tkl/3.5 sacks/8.5 TFL, a returning starter"
+    }
    ],
-   "data_gaps": ["lost Leota (84.3, graduated) + Mason (14.5 sacks -> K-State)", "Fields's leg-injury history"],
-   "g5_guard_note": "Sun Belt newcomer; the defense's strength - Fields (DPOY billing, yr4-return) + Mayfield (588 snaps), graded on CUSA cells (offset -12.31)."},
-  {"team": "Louisiana Tech", "unit": "DB", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Fresno State DB 2026 (44, peer)", "Arkansas State DB 2026 (44, peer)"],
+   "data_gaps": [
+    "lost Leota (84.3, graduated) + Mason (14.5 sacks -> K-State)",
+    "Fields's leg-injury history"
+   ],
+   "g5_guard_note": "Sun Belt newcomer; the defense's strength - Fields (DPOY billing, yr4-return) + Mayfield (588 snaps), graded on CUSA cells (offset -12.31)."
+  },
+  {
+   "team": "Louisiana Tech",
+   "unit": "DB",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Fresno State DB 2026 (44, peer)",
+    "Arkansas State DB 2026 (44, peer)"
+   ],
    "rationale_bullets": [
     "Kameron Carter (69.7/258; CB) + Jordan McRae (74.9/108; the top returning DB grade) + Amari Butler (64.8/400) + Kam Franklin (65.1/189) + Sam Fongang (71.4/188) + transfers (Ahkhari Johnson ex-Arkansas). LOST THE ENTIRE STARTING FIVE: Jakari Foster (87.2, NFL) + Jacob Fields (72.8 -> TCU) + Michael Richard (67.4 -> Michigan State) + Jhamal Shelby (-> Nicholls).",
     "A ball-hawking scheme (22 INTs, COV p78) but EVERY '25 starter is gone - experienced backups with real grades (McRae 74.9, Carter 69.7, Fongang 71.4) + an influx of transfers step up.",
     "44: ~Fresno State/Arkansas State DB 44. The returning-backup grades + the takeaway scheme vs losing all five starters (incl. Foster to the NFL). M."
    ],
    "key_players": [
-    {"name": "Jordan McRae", "role": "S/NB (returning)", "evidence": "74.9/108; the highest returning DB grade, a former backup now starting"},
-    {"name": "Kameron Carter", "role": "CB (returning)", "evidence": "69.7/258; an experienced returning corner"}
+    {
+     "name": "Jordan McRae",
+     "role": "S/NB (returning)",
+     "evidence": "74.9/108; the highest returning DB grade, a former backup now starting"
+    },
+    {
+     "name": "Kameron Carter",
+     "role": "CB (returning)",
+     "evidence": "69.7/258; an experienced returning corner"
+    }
    ],
-   "data_gaps": ["entire '25 starting five gone (incl. Foster to the NFL)", "leans on backups + transfers"],
-   "g5_guard_note": "Sun Belt newcomer; experienced returning backups (CUSA cells, offset -6.16) + a 22-INT scheme after all 5 starters left."},
-  {"team": "Louisiana Tech", "unit": "ST", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Arizona State ST 2026 (40, peer)", "Northwestern ST 2026 (40, peer)"],
+   "data_gaps": [
+    "entire '25 starting five gone (incl. Foster to the NFL)",
+    "leans on backups + transfers"
+   ],
+   "g5_guard_note": "Sun Belt newcomer; experienced returning backups (CUSA cells, offset -6.16) + a 22-INT scheme after all 5 starters left."
+  },
+  {
+   "team": "Louisiana Tech",
+   "unit": "ST",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Arizona State ST 2026 (40, peer)",
+    "Northwestern ST 2026 (40, peer)"
+   ],
    "rationale_bullets": [
     "K Kaegan Kent (true Fr; opened the door late in '25 after the placekickers went 10-of-18 on FG) + P Reuben Edwards (Fr, from Australia) + NO return-game experience. John Hoyet Chance (P) -> TCU.",
     "A near-total reset - freshmen at BOTH specialist spots + no returning returner, after a poor '25 placekicking year (56% on FG). The SPEC-p74 proxy is stale.",
     "40: ~Arizona State/Northwestern ST 40. All-freshman specialists + the poor recent kicking. M."
    ],
    "key_players": [
-    {"name": "Kaegan Kent", "role": "K (returning, Fr)", "evidence": "a true freshman who opened the door late in '25 after the kickers went 10-of-18"}
+    {
+     "name": "Kaegan Kent",
+     "role": "K (returning, Fr)",
+     "evidence": "a true freshman who opened the door late in '25 after the kickers went 10-of-18"
+    }
    ],
-   "data_gaps": ["freshmen at both K and P", "no return-game experience", "56% team FG in '25"],
-   "g5_guard_note": "Sun Belt newcomer; an all-freshman specialist reset - the SPEC-p74 proxy is stale (different personnel)."}
+   "data_gaps": [
+    "freshmen at both K and P",
+    "no return-game experience",
+    "56% team FG in '25"
+   ],
+   "g5_guard_note": "Sun Belt newcomer; an all-freshman specialist reset - the SPEC-p74 proxy is stale (different personnel)."
+  }
  ]
 }

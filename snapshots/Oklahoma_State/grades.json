@@ -6,12 +6,16 @@
    "confidence": "M"
   },
   "RB": {
-   "grade": 60,
-   "confidence": "M"
+   "grade": 67,
+   "confidence": "M",
+   "v1_grade": 60,
+   "adjudication": "50/50 blend: dg+13.2"
   },
   "WRTE": {
-   "grade": 55,
-   "confidence": "M"
+   "grade": 63,
+   "confidence": "M",
+   "v1_grade": 55,
+   "adjudication": "50/50 blend: dg+15.8"
   },
   "OL": {
    "grade": 44,
@@ -47,7 +51,9 @@
    "WRTE": "-21 vs proxy 76 (Young 89.0 + Coleman 81.1 are AAC-graded; only Barnes/Bowick bring P4 tape)",
    "QB": "-14 vs proxy 76 (Mestemaker 88.3 vs AAC; scheme continuity partially offsets, hence 62 not lower)",
    "ST": "+38 vs proxy 7 (proxy rides the departed 7th-pctile unit; Keltner/Pozzobon arrive with real tape)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -204,7 +210,7 @@
     "Seven linemen gone (30 st/117 tkl/9 sk) including the best player: Gregory (71.4/419, B12 Def Newcomer of the Year) -> Kansas State; Duhon (70.1/230) -> Tulsa, Nnodim -> Penn State.",
     "Retained partials are real: Jaleel Johnson (78.2/150 - best returning tape on the defense, injury-shortened) and Malik Charles (67.5/279; 4 st, 28 tkl, 3 sk).",
     "Ten transfers arrive as a deep 62-73 rotation with no premium anchor: Huddleston (70.4/409 NT), Clements (66.4/368 NG), Williams (69.9/249 FSU 'pass rush specialist'), Lawson (68.8/226), Rigsby (73.2/133), White (71.6/60, ex-PSU 4*), DJ Jackson (62.2/350).",
-    "'25 was RDEF 50th / PRSH 16th pctile; PS: 'better shape on the outside… still needs reliable interior run-stuffers.' 45 = fringe-below-average."
+    "'25 was RDEF 50th / PRSH 16th pctile; PS: 'better shape on the outside\u2026 still needs reliable interior run-stuffers.' 45 = fringe-below-average."
    ],
    "key_players": [
     {

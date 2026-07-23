@@ -1,14 +1,42 @@
 {
  "team": "Georgia",
  "units": {
-  "QB": {"grade": 70, "confidence": "M"},
-  "RB": {"grade": 70, "confidence": "M"},
-  "WRTE": {"grade": 56, "confidence": "M"},
-  "OL": {"grade": 60, "confidence": "M"},
-  "DL": {"grade": 58, "confidence": "M"},
-  "LB": {"grade": 62, "confidence": "M"},
-  "DB": {"grade": 66, "confidence": "M"},
-  "ST": {"grade": 60, "confidence": "M"}
+  "QB": {
+   "grade": 66,
+   "confidence": "M",
+   "v1_grade": 70,
+   "adjudication": "50/50 blend: dg-8.6"
+  },
+  "RB": {
+   "grade": 70,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 56,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 60,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 54,
+   "confidence": "M",
+   "v1_grade": 58,
+   "adjudication": "50/50 blend: dg-9.0"
+  },
+  "LB": {
+   "grade": 62,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 66,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 60,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,17 +44,28 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; SEC offsets on returning tape [big cells weighted DOWN; small samples discounted], within-SEC transfers on SEC cell, others on origin; HC Smart no change [band x1.00]; disposition gate 45 rows / 0 adjudicate / 0 err - 3 junior pro declares [Branch/Miller/CJ Allen] added via override, Everette EXPIRED the lone DB departure; calibrated vs the board elite tier OSU 609/Oregon 597); anchor values not consulted. 3-SOURCE (Athlon+PS+P6, R16). DISCLOSED: Georgia's P6 ranking (#1) incidentally visible - logged, NOT used.",
-  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB70/RB70/WRTE56/OL60/DL58/LB62/DB66/ST60, sum 502). No post-freeze corrections."},
+  "planned_vs_final_deviations": {
+   "note": "finals match the dossier planned lines exactly (QB70/RB70/WRTE56/OL60/DL58/LB62/DB66/ST60, sum 502). No post-freeze corrections."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 88, RB 95, WRTE 81, OL 95, DL 81, LB 95, DB 78, ST 78) keys the loaded '25 roster; the grades keep the proven core high + trim WRTE (WR youth) + DL (pass-rush question).",
    "WRTE": "-25 vs proxy 81 - proxy over-credits the departed WRs (Branch/Young/Bell/Thomas); the grade keys the young reload + the deep TE room.",
    "DL": "-23 vs proxy 81 - proxy included Miller + the full front; the grade keys the run-stout depth minus Miller with PRSH p5.",
    "QB/RB/OL/LB/DB/ST": "grades near or moderately below proxy - the proven elite core (Frazier/Cole/Bolden/Bobo/Woodring) carries; the SEC big-cell weighting + the level of the field pull the elite proxies to top-5 (not proxy-max) grades."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
-  {"team": "Georgia", "unit": "QB", "grade": 70, "confidence": "M",
-   "bracketing_exemplars": ["Miami QB 2026 (70, peer)", "BYU QB 2026 (72, above)"],
+  {
+   "team": "Georgia",
+   "unit": "QB",
+   "grade": 70,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Miami QB 2026 (70, peer)",
+    "BYU QB 2026 (72, above)"
+   ],
    "rationale_bullets": [
     "Gunner Stockton (81.1/495 -> SEC +7.72 weighted; 3rd-team All-SEC - 2,894 yds, 24 TD, 5 INT + 462 rush/10 TD, 4th in SEC QB Rating) + Ryan Puglisi (76.6/30 tiny).",
     "A proven, championship-caliber dual-threat starter in Year 2 - efficient (24-5), mobile (10 rush TD).",
@@ -34,11 +73,26 @@
     "70: ~Miami/Indiana QB 70; below BYU 72. The proven-SEC-starter tier; inconsistency caps the ceiling. M."
    ],
    "key_players": [
-    {"name": "Gunner Stockton", "role": "QB1 (returning)", "evidence": "81.1/495; 3rd-team All-SEC; 2894/24/5 + 462 rush/10 TD"}
+    {
+     "name": "Gunner Stockton",
+     "role": "QB1 (returning)",
+     "evidence": "81.1/495; 3rd-team All-SEC; 2894/24/5 + 462 rush/10 TD"
+    }
    ],
-   "data_gaps": ["ceiling/floor inconsistency"], "g5_guard_note": null},
-  {"team": "Georgia", "unit": "RB", "grade": 70, "confidence": "M",
-   "bracketing_exemplars": ["Miami RB 2026 (70, peer)", "Michigan RB 2026 (71, above)"],
+   "data_gaps": [
+    "ceiling/floor inconsistency"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Georgia",
+   "unit": "RB",
+   "grade": 70,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Miami RB 2026 (70, peer)",
+    "Michigan RB 2026 (71, above)"
+   ],
    "rationale_bullets": [
     "Nate Frazier (90.0/173 -> SEC +10.17 weighted -> elite; 947 yds/5.5, zero fumbles over the final 11) + Chauncey Bowens (78.1/103; 526/5.1) + Dante Dowdell (Kentucky, 72.3/112; short-yardage) + Dwight Phillips Jr. (73.9/35).",
     "An elite, deep backfield - a genuine star lead back (one of the best RB grades in the field) + a proven complement + an SEC goal-line back.",
@@ -46,12 +100,29 @@
     "70: ~Miami RB 70; below Michigan 71. The elite-backfield tier. M."
    ],
    "key_players": [
-    {"name": "Nate Frazier", "role": "RB1 (returning)", "evidence": "90.0/173 (SEC-adj elite); 947 yds/5.5; zero fumbles final 11"},
-    {"name": "Chauncey Bowens", "role": "RB (returning)", "evidence": "78.1/103; 526 yds/5.1"}
+    {
+     "name": "Nate Frazier",
+     "role": "RB1 (returning)",
+     "evidence": "90.0/173 (SEC-adj elite); 947 yds/5.5; zero fumbles final 11"
+    },
+    {
+     "name": "Chauncey Bowens",
+     "role": "RB (returning)",
+     "evidence": "78.1/103; 526 yds/5.1"
+    }
    ],
-   "data_gaps": [], "g5_guard_note": null},
-  {"team": "Georgia", "unit": "WRTE", "grade": 56, "confidence": "M",
-   "bracketing_exemplars": ["Michigan WRTE 2026 (56, peer)", "Florida State WRTE 2026 (58, above)"],
+   "data_gaps": [],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Georgia",
+   "unit": "WRTE",
+   "grade": 56,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Michigan WRTE 2026 (56, peer)",
+    "Florida State WRTE 2026 (58, above)"
+   ],
    "rationale_bullets": [
     "London Humphreys (61.5/206 -> SEC 67.4 adj; ONLY top-5 WR back) + Isiah Canion (GT, 66.8/283 -> ACC 69.2 adj; 480 yds/14.6) + TE Lawson Luckie (59.8/191 -> 65.7 adj; red-zone threat) + 5-star frosh Talyn Taylor + Top100 CJ Wiley + 6-6 Top50 frosh TE Kaiden Prothro + Elyiss Williams.",
     "The ROSTER'S soft spot - lost its best weapon (Branch, pro) + three WRs; a young, elite-recruit reload with almost no proven production.",
@@ -59,12 +130,32 @@
     "56: ~Michigan WRTE 56; below FSU 58. Above-average on the TE room + talent; the unproven WR youth caps it. M."
    ],
    "key_players": [
-    {"name": "London Humphreys", "role": "WR (returning, only top-5 back)", "evidence": "61.5/206 (67.4 SEC-adj); big-game experience"},
-    {"name": "Isiah Canion", "role": "WR (transfer, Georgia Tech)", "evidence": "66.8/283 (69.2 ACC-adj); 480 yds/14.6; 4-star transfer"}
+    {
+     "name": "London Humphreys",
+     "role": "WR (returning, only top-5 back)",
+     "evidence": "61.5/206 (67.4 SEC-adj); big-game experience"
+    },
+    {
+     "name": "Isiah Canion",
+     "role": "WR (transfer, Georgia Tech)",
+     "evidence": "66.8/283 (69.2 ACC-adj); 480 yds/14.6; 4-star transfer"
+    }
    ],
-   "data_gaps": ["lost Branch (pro) + 3 WRs; only Humphreys back of the top 5", "leaning on unproven 5-star frosh"], "g5_guard_note": null},
-  {"team": "Georgia", "unit": "OL", "grade": 60, "confidence": "M",
-   "bracketing_exemplars": ["Texas Tech OL 2026 (60, peer)", "Washington OL 2026 (62, above)"],
+   "data_gaps": [
+    "lost Branch (pro) + 3 WRs; only Humphreys back of the top 5",
+    "leaning on unproven 5-star frosh"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Georgia",
+   "unit": "OL",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Texas Tech OL 2026 (60, peer)",
+    "Washington OL 2026 (62, above)"
+   ],
    "rationale_bullets": [
     "Drew Bobo (74.1/721 -> SEC weighted DOWN; 2nd-team All-SEC C) + Earnest Greene (63.2/497 T) + Dontrell Glover (64.7/766 G; Freshman All-American) - three returning starters - + Juan Gaston (Top100) + frosh Zykie Helton (spring hero) / 5-star Ekene Ogboko.",
     "Lost a 1st-round LT (Freeling) + a drafted guard (Morris); the openings go to Top100/5-star youth.",
@@ -72,12 +163,32 @@
     "60: ~Texas Tech OL 60; below Washington 62. Strong, experienced; the run push + two new spots cap it. M."
    ],
    "key_players": [
-    {"name": "Drew Bobo", "role": "C (returning)", "evidence": "74.1/721; 2nd-team All-SEC"},
-    {"name": "Dontrell Glover", "role": "G (returning)", "evidence": "64.7/766; Freshman All-American"}
+    {
+     "name": "Drew Bobo",
+     "role": "C (returning)",
+     "evidence": "74.1/721; 2nd-team All-SEC"
+    },
+    {
+     "name": "Dontrell Glover",
+     "role": "G (returning)",
+     "evidence": "64.7/766; Freshman All-American"
+    }
    ],
-   "data_gaps": ["lost 1st-round LT + a drafted G", "run push #65/#66"], "g5_guard_note": null},
-  {"team": "Georgia", "unit": "DL", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["Clemson DL 2026 (58, peer)", "Miami DL 2026 (60, above)"],
+   "data_gaps": [
+    "lost 1st-round LT + a drafted G",
+    "run push #65/#66"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Georgia",
+   "unit": "DL",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Clemson DL 2026 (58, peer)",
+    "Miami DL 2026 (60, above)"
+   ],
    "rationale_bullets": [
     "Elijah Griffin (71.6/363 -> SEC weighted; ultra-talented soph DT) + Xzavier McLeod (69.4/272 NT, 4th yr) + Gabe Harris (65.4/443 DE) + Jordan Hall (DT) + Jonah-Ajonye/Nnamdi Ogboko + #1 edge recruit Isaiah Gibson.",
     "Christen Miller (84.5, the best lineman) WENT PRO.",
@@ -85,12 +196,32 @@
     "58: ~Clemson DL 58; below Miami 60. Above-average on depth/run-D; PRSH p5 + Miller's loss cap it well below an elite front. M."
    ],
    "key_players": [
-    {"name": "Elijah Griffin", "role": "DT (returning)", "evidence": "71.6/363; ultra-talented sophomore"},
-    {"name": "Xzavier McLeod", "role": "NT (returning)", "evidence": "69.4/272; 4th-year anchor"}
+    {
+     "name": "Elijah Griffin",
+     "role": "DT (returning)",
+     "evidence": "71.6/363; ultra-talented sophomore"
+    },
+    {
+     "name": "Xzavier McLeod",
+     "role": "NT (returning)",
+     "evidence": "69.4/272; 4th-year anchor"
+    }
    ],
-   "data_gaps": ["PRSH p5 in '25", "best lineman (Miller) went pro"], "g5_guard_note": null},
-  {"team": "Georgia", "unit": "LB", "grade": 62, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska LB 2026 (62, peer)", "Ohio State LB 2026 (64, above)"],
+   "data_gaps": [
+    "PRSH p5 in '25",
+    "best lineman (Miller) went pro"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Georgia",
+   "unit": "LB",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska LB 2026 (62, peer)",
+    "Ohio State LB 2026 (64, above)"
+   ],
    "rationale_bullets": [
     "Chris Cole (81.8/423 -> SEC +14.01 weighted DOWN -> elite; former 5-star) + Raylen Wilson (70.6/550; dominant '25, former 5-star) + Justin Williams (70.3/225; former 5-star) + Quintavius Johnson (63.1/549; returning JACK).",
     "1st-team All-SEC CJ Allen WENT PRO.",
@@ -98,12 +229,31 @@
     "62: ~Nebraska LB 62; below Ohio State 64. A top-tier P4 linebacker room; the depth-behind-the-3 caps it. M."
    ],
    "key_players": [
-    {"name": "Chris Cole", "role": "LB (returning)", "evidence": "81.8/423 (SEC-adj elite); former 5-star"},
-    {"name": "Raylen Wilson", "role": "LB (returning)", "evidence": "70.6/550; dominant '25; former 5-star"}
+    {
+     "name": "Chris Cole",
+     "role": "LB (returning)",
+     "evidence": "81.8/423 (SEC-adj elite); former 5-star"
+    },
+    {
+     "name": "Raylen Wilson",
+     "role": "LB (returning)",
+     "evidence": "70.6/550; dominant '25; former 5-star"
+    }
    ],
-   "data_gaps": ["lost All-SEC CJ Allen (pro)"], "g5_guard_note": null},
-  {"team": "Georgia", "unit": "DB", "grade": 66, "confidence": "M",
-   "bracketing_exemplars": ["USC DB 2026 (68, above)", "Northwestern DB 2026 (68, above)"],
+   "data_gaps": [
+    "lost All-SEC CJ Allen (pro)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Georgia",
+   "unit": "DB",
+   "grade": 66,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "USC DB 2026 (68, above)",
+    "Northwestern DB 2026 (68, above)"
+   ],
    "rationale_bullets": [
     "KJ Bolden (85.9/725 -> SEC +5.44 -> elite; 2nd-team All-SEC S) + Ellis Robinson IV (69.1/499 -> 74.5 adj; #1 CB of 2024, FWAA Freshman of the Year) + Khalil Barnes (Clemson, 64.9/522; 3-yr starter) + Demello Jones (Top100) + Gentry Williams (Oklahoma) + Ja'Marley Riddle (ECU, All-AAC).",
     "Everette (CB) the lone starter departure.",
@@ -111,12 +261,31 @@
     "66: just below USC/Northwestern DB 68; a top-10 secondary. Robinson's modest '25 grade (true frosh) keeps it from higher. M."
    ],
    "key_players": [
-    {"name": "KJ Bolden", "role": "S (returning)", "evidence": "85.9/725 (SEC-adj elite); 2nd-team All-SEC"},
-    {"name": "Ellis Robinson IV", "role": "CB (returning)", "evidence": "69.1/499; #1 CB of 2024; FWAA Freshman of the Year"}
+    {
+     "name": "KJ Bolden",
+     "role": "S (returning)",
+     "evidence": "85.9/725 (SEC-adj elite); 2nd-team All-SEC"
+    },
+    {
+     "name": "Ellis Robinson IV",
+     "role": "CB (returning)",
+     "evidence": "69.1/499; #1 CB of 2024; FWAA Freshman of the Year"
+    }
    ],
-   "data_gaps": ["Robinson's '25 grade modest (true frosh)"], "g5_guard_note": null},
-  {"team": "Georgia", "unit": "ST", "grade": 60, "confidence": "M",
-   "bracketing_exemplars": ["Miami ST 2026 (58, below)", "Nebraska ST 2026 (62, above)"],
+   "data_gaps": [
+    "Robinson's '25 grade modest (true frosh)"
+   ],
+   "g5_guard_note": null
+  },
+  {
+   "team": "Georgia",
+   "unit": "ST",
+   "grade": 60,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Miami ST 2026 (58, below)",
+    "Nebraska ST 2026 (62, above)"
+   ],
    "rationale_bullets": [
     "Peyton Woodring (K - 4th yr, 'reliable as they come,' clutch) + Drew Miller (P - strong-legged RS-soph, hang time). Brett Thorson (P) gone.",
     "SPEC was p78 in '25.",
@@ -124,9 +293,19 @@
     "60: above Miami ST 58; below Nebraska 62. Above-average, kicker-driven (calib). M."
    ],
    "key_players": [
-    {"name": "Peyton Woodring", "role": "K (returning)", "evidence": "4th-year; 'reliable as they come'; clutch"},
-    {"name": "Drew Miller", "role": "P (returning)", "evidence": "strong-legged RS-soph; hang time"}
+    {
+     "name": "Peyton Woodring",
+     "role": "K (returning)",
+     "evidence": "4th-year; 'reliable as they come'; clutch"
+    },
+    {
+     "name": "Drew Miller",
+     "role": "P (returning)",
+     "evidence": "strong-legged RS-soph; hang time"
+    }
    ],
-   "data_gaps": [], "g5_guard_note": null}
+   "data_gaps": [],
+   "g5_guard_note": null
+  }
  ]
 }

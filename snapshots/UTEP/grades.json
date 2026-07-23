@@ -1,14 +1,46 @@
 {
  "team": "UTEP",
  "units": {
-  "QB": {"grade": 16, "confidence": "L"},
-  "RB": {"grade": 12, "confidence": "M"},
-  "WRTE": {"grade": 12, "confidence": "L"},
-  "OL": {"grade": 8, "confidence": "L"},
-  "DL": {"grade": 10, "confidence": "L"},
-  "LB": {"grade": 14, "confidence": "M"},
-  "DB": {"grade": 14, "confidence": "M"},
-  "ST": {"grade": 14, "confidence": "M"}
+  "QB": {
+   "grade": 16,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 16,
+   "confidence": "M",
+   "v1_grade": 12,
+   "adjudication": "50/50 blend: dg+14.4; info 0.14 \u2014 blend halved"
+  },
+  "WRTE": {
+   "grade": 14,
+   "confidence": "L",
+   "v1_grade": 12,
+   "adjudication": "50/50 blend: dg+9.1; info 0.18 \u2014 blend halved"
+  },
+  "OL": {
+   "grade": 8,
+   "confidence": "L"
+  },
+  "DL": {
+   "grade": 10,
+   "confidence": "L"
+  },
+  "LB": {
+   "grade": 17,
+   "confidence": "M",
+   "v1_grade": 14,
+   "adjudication": "LB 0.4 blend: dg+16.9; info 0.14 \u2014 blend halved"
+  },
+  "DB": {
+   "grade": 16,
+   "confidence": "M",
+   "v1_grade": 14,
+   "adjudication": "DB policy 1/3 blend: dg+11.8; info 0.13 \u2014 blend halved"
+  },
+  "ST": {
+   "grade": 14,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-17",
@@ -16,13 +48,17 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "in-session supervised; anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB None, RB None, WRTE None, OL None, DL 9, LB 39, DB 11, ST 27) - known signatures",
    "LB": "-25 vs proxy 39 - Davey-carryover inflation (81.5/724, #1 FBS tackles, walks via yr4)",
    "DL": "+1 vs proxy 9, DB +3 vs 11, ST -13 vs 27 - roughly aligned",
    "offense": "all four proxy cells None (churn too heavy to key) - real grades stand alone"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -41,10 +77,20 @@
     "16 L: just above the FIU-15 rail; < NIU/Nevada 18 L and < Wyoming 20 L (Colson's team results and lack of scheme-continuity edge keep him under the Hughes setup)."
    ],
    "key_players": [
-    {"name": "EJ Colson", "role": "QB1 (transfer, Incarnate Word)", "evidence": "FCS 2,142 @ 71% 16-4; UIW 3-6 in his starts"},
-    {"name": "Raymond Moore III", "role": "QB2 (transfer, Morgan State)", "evidence": "FCS 1,042 @ 54% 9-7 as Fr"}
+    {
+     "name": "EJ Colson",
+     "role": "QB1 (transfer, Incarnate Word)",
+     "evidence": "FCS 2,142 @ 71% 16-4; UIW 3-6 in his starts"
+    },
+    {
+     "name": "Raymond Moore III",
+     "role": "QB2 (transfer, Morgan State)",
+     "evidence": "FCS 1,042 @ 54% 9-7 as Fr"
+    }
    ],
-   "data_gaps": ["zero FBS-volume tape in room"],
+   "data_gaps": [
+    "zero FBS-volume tape in room"
+   ],
    "g5_guard_note": null
   },
   {
@@ -63,10 +109,20 @@
     "12: = NIU 12; Walden's 'explosive twitchy group' is pedigree + hope over proven FBS volume."
    ],
    "key_players": [
-    {"name": "Tavorus Jones", "role": "RB1 (transfer, Missouri)", "evidence": "183 career yds; PS#14; 6-att sample"},
-    {"name": "Lamar Sperling", "role": "RB2 (transfer, Buffalo)", "evidence": "75.7/39 att (62.4 adj); 234 @ 6.0"}
+    {
+     "name": "Tavorus Jones",
+     "role": "RB1 (transfer, Missouri)",
+     "evidence": "183 career yds; PS#14; 6-att sample"
+    },
+    {
+     "name": "Lamar Sperling",
+     "role": "RB2 (transfer, Buffalo)",
+     "evidence": "75.7/39 att (62.4 adj); 234 @ 6.0"
+    }
    ],
-   "data_gaps": ["no lead-back volume anywhere in room"],
+   "data_gaps": [
+    "no lead-back volume anywhere in room"
+   ],
    "g5_guard_note": null
   },
   {
@@ -85,11 +141,26 @@
     "12 L: = Nevada/Wyoming 12 L tier; 'could be upgraded' (PS) is a floor statement about a p4 unit."
    ],
    "key_players": [
-    {"name": "Kam Thomas", "role": "WR1 (returning, yr4 override)", "evidence": "OFY '25; '24: 9 st, 532 @ 11.3"},
-    {"name": "Carver Cheeks", "role": "WR (transfer, N.Colorado)", "evidence": "FCS 1st-Tm Big Sky; 929 @ 13.1"},
-    {"name": "Jaylan Brown", "role": "WR (returning)", "evidence": "58.5/126 UTEP '25 (54.3 adj)"}
+    {
+     "name": "Kam Thomas",
+     "role": "WR1 (returning, yr4 override)",
+     "evidence": "OFY '25; '24: 9 st, 532 @ 11.3"
+    },
+    {
+     "name": "Carver Cheeks",
+     "role": "WR (transfer, N.Colorado)",
+     "evidence": "FCS 1st-Tm Big Sky; 929 @ 13.1"
+    },
+    {
+     "name": "Jaylan Brown",
+     "role": "WR (returning)",
+     "evidence": "58.5/126 UTEP '25 (54.3 adj)"
+    }
    ],
-   "data_gaps": ["OFY returns have no 2025 tape", "FCS translation on C.Cheeks"],
+   "data_gaps": [
+    "OFY returns have no 2025 tape",
+    "FCS translation on C.Cheeks"
+   ],
    "g5_guard_note": null
   },
   {
@@ -108,11 +179,26 @@
     "8 L: below Hawai'i 10 L - the worst OL evidence of the MWC round; two starters above the FAU-6 rail on print-evidenced starts alone."
    ],
    "key_players": [
-    {"name": "Jaymon Lamb", "role": "T (transfer, N.Texas/SFA)", "evidence": "65.2/14 snaps; 7 st SFA '24; 'top option'"},
-    {"name": "Brian Williams Jr.", "role": "LG (transfer, Jackson St)", "evidence": "FCS 3rd-Tm All-SWAC; 9 st"},
-    {"name": "Juan Camacho Jr.", "role": "T (returning)", "evidence": "54.0/89 (47.6 adj); 1 st"}
+    {
+     "name": "Jaymon Lamb",
+     "role": "T (transfer, N.Texas/SFA)",
+     "evidence": "65.2/14 snaps; 7 st SFA '24; 'top option'"
+    },
+    {
+     "name": "Brian Williams Jr.",
+     "role": "LG (transfer, Jackson St)",
+     "evidence": "FCS 3rd-Tm All-SWAC; 9 st"
+    },
+    {
+     "name": "Juan Camacho Jr.",
+     "role": "T (returning)",
+     "evidence": "54.0/89 (47.6 adj); 1 st"
+    }
    ],
-   "data_gaps": ["no FBS-volume tape anywhere in projected five", "PS/Athlon flip Lamb-Camacho sides"],
+   "data_gaps": [
+    "no FBS-volume tape anywhere in projected five",
+    "PS/Athlon flip Lamb-Camacho sides"
+   ],
    "g5_guard_note": null
   },
   {
@@ -131,11 +217,26 @@
     "10 L: = NIU 10 L; PRSH p13 was already weak WITH the departed producers."
    ],
    "key_players": [
-    {"name": "Ashton Coker", "role": "DT1 (returning, STAYS override)", "evidence": "62.6/395 (54.7 adj); 9 st"},
-    {"name": "Shakaun Bowser", "role": "DE1 (returning)", "evidence": "63.2/323 (55.3 adj); 4 st"},
-    {"name": "Derek Burns", "role": "DE (returning, injury)", "evidence": "missed all '25; 'athletic... spark'"}
+    {
+     "name": "Ashton Coker",
+     "role": "DT1 (returning, STAYS override)",
+     "evidence": "62.6/395 (54.7 adj); 9 st"
+    },
+    {
+     "name": "Shakaun Bowser",
+     "role": "DE1 (returning)",
+     "evidence": "63.2/323 (55.3 adj); 4 st"
+    },
+    {
+     "name": "Derek Burns",
+     "role": "DE (returning, injury)",
+     "evidence": "missed all '25; 'athletic... spark'"
+    }
    ],
-   "data_gaps": ["Burns health", "FCS translation x2 + JUCO"],
+   "data_gaps": [
+    "Burns health",
+    "FCS translation x2 + JUCO"
+   ],
    "g5_guard_note": null
   },
   {
@@ -154,10 +255,21 @@
     "14: > Hawai'i 12 L (healthy anchor vs ACL anchor), < UNLV/Wyoming 16; Walden's 'deepest unit' claim is depth-of-bodies, not tape."
    ],
    "key_players": [
-    {"name": "Jayden Wilson", "role": "MLB1 (returning)", "evidence": "74.5/697 (62.2 adj); 92 tkl 8 TFL"},
-    {"name": "Isaiah Bogerty", "role": "SLB1 (transfer, Texas Southern)", "evidence": "FCS 187 career tkl; 82 LY"}
+    {
+     "name": "Jayden Wilson",
+     "role": "MLB1 (returning)",
+     "evidence": "74.5/697 (62.2 adj); 92 tkl 8 TFL"
+    },
+    {
+     "name": "Isaiah Bogerty",
+     "role": "SLB1 (transfer, Texas Southern)",
+     "evidence": "FCS 187 career tkl; 82 LY"
+    }
    ],
-   "data_gaps": ["FCS translation on Bogerty", "convert + flashes behind the anchor"],
+   "data_gaps": [
+    "FCS translation on Bogerty",
+    "convert + flashes behind the anchor"
+   ],
    "g5_guard_note": null
   },
   {
@@ -176,11 +288,26 @@
     "14: 'the strength of the defense' (Athlon) is relative - COV p17 baseline; > SJSU/NIU 12, < Wyoming 16."
    ],
    "key_players": [
-    {"name": "Kode Lowe", "role": "NB (returning)", "evidence": "73.2/350 (67.0 adj); 4 st"},
-    {"name": "Justin Content", "role": "CB1 (returning, STAYS override)", "evidence": "61.4/774 (55.2 adj); 11 st"},
-    {"name": "Xavier Smith", "role": "SS (returning)", "evidence": "64.6/636 (58.4 adj); 60 tkl + INT"}
+    {
+     "name": "Kode Lowe",
+     "role": "NB (returning)",
+     "evidence": "73.2/350 (67.0 adj); 4 st"
+    },
+    {
+     "name": "Justin Content",
+     "role": "CB1 (returning, STAYS override)",
+     "evidence": "61.4/774 (55.2 adj); 11 st"
+    },
+    {
+     "name": "Xavier Smith",
+     "role": "SS (returning)",
+     "evidence": "64.6/636 (58.4 adj); 60 tkl + INT"
+    }
    ],
-   "data_gaps": ["S depth is D2/FCS imports", "CB2 green"],
+   "data_gaps": [
+    "S depth is D2/FCS imports",
+    "CB2 green"
+   ],
    "g5_guard_note": null
   },
   {
@@ -199,10 +326,21 @@
     "14: kicking translates across levels better than position play; > AF/Hawai'i 12, < Nevada/Wyoming 16."
    ],
    "key_players": [
-    {"name": "Cade Hechter", "role": "K (transfer, UT Martin)", "evidence": "15-17 FG; 2nd-Tm FCS AA"},
-    {"name": "Brady Braun", "role": "P (transfer, Gardner-Webb)", "evidence": "30 punts 48.1, net 36.7"}
+    {
+     "name": "Cade Hechter",
+     "role": "K (transfer, UT Martin)",
+     "evidence": "15-17 FG; 2nd-Tm FCS AA"
+    },
+    {
+     "name": "Brady Braun",
+     "role": "P (transfer, Gardner-Webb)",
+     "evidence": "30 punts 48.1, net 36.7"
+    }
    ],
-   "data_gaps": ["FCS FG distances", "net-punt gap"],
+   "data_gaps": [
+    "FCS FG distances",
+    "net-punt gap"
+   ],
    "g5_guard_note": null
   }
  ]

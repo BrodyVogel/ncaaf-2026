@@ -1,14 +1,42 @@
 {
  "team": "Southern Miss",
  "units": {
-  "QB": {"grade": 42, "confidence": "L"},
-  "RB": {"grade": 40, "confidence": "M"},
-  "WRTE": {"grade": 44, "confidence": "M"},
-  "OL": {"grade": 40, "confidence": "M"},
-  "DL": {"grade": 42, "confidence": "L"},
-  "LB": {"grade": 40, "confidence": "M"},
-  "DB": {"grade": 44, "confidence": "L"},
-  "ST": {"grade": 42, "confidence": "M"}
+  "QB": {
+   "grade": 42,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 40,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 44,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 46,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "50/50 blend: dg+11.8"
+  },
+  "DL": {
+   "grade": 42,
+   "confidence": "L"
+  },
+  "LB": {
+   "grade": 33,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "LB 0.4 blend: dg-17.9"
+  },
+  "DB": {
+   "grade": 44,
+   "confidence": "L"
+  },
+  "ST": {
+   "grade": 42,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,7 +44,9 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; G5 2-source [Athlon primary + CFN + beat; PS SBC text GARBLED; no Pick Six for SBC]; established Sun Belt team but a TRANSFER PROJECTION - 'returns exactly ONE starter' [C Roman, yr4 override], 37 portal-in, the elite '25 defense entirely gone [not predictive]; arrivals on origin [FCS/juco = no cell]; NEW HC Blake Anderson [COACH CHANGE, band x1.13 - promoted from OC Dec 2025, confirmed via the SoMiss staff directory + On3]; disposition gate 41 rows / 0 adjudicate / 0 err - departure_confirmed_research RB Pittman [80.7, a feed-miss - CFN confirms 'RB production gone'] + yr4 grads Braxton/Brodarius Lewis/Moten; portal_departure_confirmed JJ Hawkins; ~16 to Memphis + P4 departures feed-destinationed; 3 L-confidence units [QB/DL/DB] for the unproven transfers]; anchor values not consulted. DISCLOSED: Athlon NF123 / Sun Belt West 6 incidentally visible, logged, NOT used.",
-  "planned_vs_final_deviations": {"note": "finals match the dossier planned lines exactly (QB42L/RB40/WRTE44/OL40/DL42L/LB40/DB44L/ST42, sum 334, 3 L). No post-freeze corrections. This is a TRANSFER PROJECTION - the '25 tape (an elite defense) is not predictive because the entire two-deep left; the grades key the arrivals' pedigree + the new-HC band. Grade-critical verification: RB Pittman (80.7) is GONE (CFN + depth-chart absence - a feed-miss); Blake Anderson confirmed the new HC (band x1.13)."},
+  "planned_vs_final_deviations": {
+   "note": "finals match the dossier planned lines exactly (QB42L/RB40/WRTE44/OL40/DL42L/LB40/DB44L/ST42, sum 334, 3 L). No post-freeze corrections. This is a TRANSFER PROJECTION - the '25 tape (an elite defense) is not predictive because the entire two-deep left; the grades key the arrivals' pedigree + the new-HC band. Grade-critical verification: RB Pittman (80.7) is GONE (CFN + depth-chart absence - a feed-miss); Blake Anderson confirmed the new HC (band x1.13)."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy is almost ALL None (QB/WRTE/OL/DL/DB None; RB 15, LB 34, ST 63) - the mechanical signature of 'returns exactly one starter.' The proxy CANNOT inform the grades (nothing returns); the grades are a transfer projection keyed on arrival pedigree.",
    "DB": "+44 vs proxy None - the grade keys once-touted P4 transfers (TCU/Ohio State/Texas/Auburn/A&M) - real pedigree, no FBS proof (L).",
@@ -24,110 +54,257 @@
    "WRTE": "+44 vs proxy None - the grade keys the Penn State blue-chip Saunders (an injury wild-card).",
    "OL": "the grade (40) keys the one returning starter (Roman, C) + a transfer line.",
    "QB": "proxy None; the grade (42 L) sets an unsettled transfer/freshman battle."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
-  {"team": "Southern Miss", "unit": "QB", "grade": 42, "confidence": "L",
-   "bracketing_exemplars": ["Kansas QB 2026 (42, peer)", "UAB QB 2026 (42, peer)"],
+  {
+   "team": "Southern Miss",
+   "unit": "QB",
+   "grade": 42,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Kansas QB 2026 (42, peer)",
+    "UAB QB 2026 (42, peer)"
+   ],
    "rationale_bullets": [
     "Ethan Hampton (Northern Illinois transfer, 6th-yr, 14 FBS starts but barely played '25 at Illinois; the experienced edge) + true Fr Hugh Price (6-5, 'looming') + Landry Lyddy (65.4/59; returning backup). LOST '25 starter Braylon Braxton (74.5, yr4).",
     "An unsettled battle - a much-traveled transfer with starts (benched in '25) vs a big-upside true freshman, under a new staff. A projection with no clear answer.",
     "42: ~Kansas/UAB QB 42. Hampton's experience + Price's ceiling vs no settled starter + a new scheme. L."
    ],
    "key_players": [
-    {"name": "Ethan Hampton", "role": "QB (transfer, Northern Illinois)", "evidence": "6th-yr, 14 FBS starts at NIU; the experienced edge in an unsettled battle"},
-    {"name": "Hugh Price", "role": "QB (true Fr)", "evidence": "6-5, 'looming, literally and figuratively' - the upside option"}
+    {
+     "name": "Ethan Hampton",
+     "role": "QB (transfer, Northern Illinois)",
+     "evidence": "6th-yr, 14 FBS starts at NIU; the experienced edge in an unsettled battle"
+    },
+    {
+     "name": "Hugh Price",
+     "role": "QB (true Fr)",
+     "evidence": "6-5, 'looming, literally and figuratively' - the upside option"
+    }
    ],
-   "data_gaps": ["no settled starter", "Hampton barely played in '25", "new staff/scheme"],
-   "g5_guard_note": "Sun Belt; an unsettled transfer/freshman QB battle under a new HC - graded low-confidence pending the competition."},
-  {"team": "Southern Miss", "unit": "RB", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska RB 2026 (40, peer)", "Navy RB 2026 (40, peer)"],
+   "data_gaps": [
+    "no settled starter",
+    "Hampton barely played in '25",
+    "new staff/scheme"
+   ],
+   "g5_guard_note": "Sun Belt; an unsettled transfer/freshman QB battle under a new HC - graded low-confidence pending the competition."
+  },
+  {
+   "team": "Southern Miss",
+   "unit": "RB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska RB 2026 (40, peer)",
+    "Navy RB 2026 (40, peer)"
+   ],
    "rationale_bullets": [
     "Robert Briggs (64.9/63; the returning contributor - 304 yds/13 catches, a receiving back) + Brandon Hood (UMass transfer, 'a good 1-2 combination') + Jamarice Wilder (Louisville transfer). LOST 1,000+ yds of '25 RB production (incl. top-grader Jeffery Pittman 80.7 - a feed-miss GONE).",
     "A returning role player (Briggs) + two G5/P4 transfers, after the entire lead production left, off a poor run game (RUN p15).",
     "40: ~Nebraska/Navy RB 40. Briggs + the transfer duo vs the lost 1,000+ yds. M."
    ],
    "key_players": [
-    {"name": "Robert Briggs", "role": "RB (returning)", "evidence": "64.9/63; 304 yds + 13 catches, a returning receiving back"},
-    {"name": "Brandon Hood", "role": "RB (transfer, UMass)", "evidence": "'a good factor in a 1-2 combination'"}
+    {
+     "name": "Robert Briggs",
+     "role": "RB (returning)",
+     "evidence": "64.9/63; 304 yds + 13 catches, a returning receiving back"
+    },
+    {
+     "name": "Brandon Hood",
+     "role": "RB (transfer, UMass)",
+     "evidence": "'a good factor in a 1-2 combination'"
+    }
    ],
-   "data_gaps": ["1,000+ yds of '25 RB production gone (incl. Pittman 80.7)", "poor '25 run game (RUN p15)"],
-   "g5_guard_note": "Sun Belt; a returning role back + transfers after the lead production left."},
-  {"team": "Southern Miss", "unit": "WRTE", "grade": 44, "confidence": "M",
-   "bracketing_exemplars": ["Baylor WRTE 2026 (44, peer)", "Arkansas WRTE 2026 (44, peer)"],
+   "data_gaps": [
+    "1,000+ yds of '25 RB production gone (incl. Pittman 80.7)",
+    "poor '25 run game (RUN p15)"
+   ],
+   "g5_guard_note": "Sun Belt; a returning role back + transfers after the lead production left."
+  },
+  {
+   "team": "Southern Miss",
+   "unit": "WRTE",
+   "grade": 44,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Baylor WRTE 2026 (44, peer)",
+    "Arkansas WRTE 2026 (44, peer)"
+   ],
    "rationale_bullets": [
     "Kaden Saunders (Penn State transfer, a former blue-chip - 'the biggest wild card... the most dynamic presence' at full speed, off a foot injury) + Davis Dalton (62.9/44; returner) + A.J. Little (Chattanooga FCS transfer). Nearly all '25 WRs gone.",
     "A genuine upside piece (Saunders's blue-chip pedigree) atop a transfer/low-snap-returner room, off a decent '25 receiving unit (RECV p54) whose personnel left.",
     "44: ~Baylor/Arkansas WRTE 44. Saunders's ceiling vs his injury layoff + the unproven supporting cast. M."
    ],
    "key_players": [
-    {"name": "Kaden Saunders", "role": "WR (transfer, Penn State)", "evidence": "a former blue-chip; 'the most dynamic presence' at full speed (off a nagging foot injury)"}
+    {
+     "name": "Kaden Saunders",
+     "role": "WR (transfer, Penn State)",
+     "evidence": "a former blue-chip; 'the most dynamic presence' at full speed (off a nagging foot injury)"
+    }
    ],
-   "data_gaps": ["Saunders 2+ yrs from a live rep (foot injury)", "unproven supporting cast"],
-   "g5_guard_note": "Sun Belt; a blue-chip transfer wild-card (Saunders) atop a rebuilt WR room."},
-  {"team": "Southern Miss", "unit": "OL", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Maryland OL 2026 (40, peer)", "UCF OL 2026 (40, peer)"],
+   "data_gaps": [
+    "Saunders 2+ yrs from a live rep (foot injury)",
+    "unproven supporting cast"
+   ],
+   "g5_guard_note": "Sun Belt; a blue-chip transfer wild-card (Saunders) atop a rebuilt WR room."
+  },
+  {
+   "team": "Southern Miss",
+   "unit": "OL",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Maryland OL 2026 (40, peer)",
+    "UCF OL 2026 (40, peer)"
+   ],
    "rationale_bullets": [
     "Broderick Roman (64.3/943 -> SBC; the ONE returning starter - a 7th-yr C, yr4 override) + transfers Braden Cain (LT) + Christian Young (RT) + Luke Rogers (LG, returning). 'Starting from scratch on 99%.'",
     "One proven, veteran returning starter (Roman, C) + a transfer-built line, off a modest '25 unit (PBLK p66 / RBLK p16).",
     "40: ~Maryland/UCF OL 40. Roman anchors the middle; the four new transfer starters around him cap it. M."
    ],
    "key_players": [
-    {"name": "Broderick Roman", "role": "C (returning, yr4)", "evidence": "64.3/943; the one returning starter - a 7th-yr center, every meaningful snap in '25"}
+    {
+     "name": "Broderick Roman",
+     "role": "C (returning, yr4)",
+     "evidence": "64.3/943; the one returning starter - a 7th-yr center, every meaningful snap in '25"
+    }
    ],
-   "data_gaps": ["4 new transfer starters around Roman", "RBLK p16"],
-   "g5_guard_note": "Sun Belt; one veteran returning starter (Roman, C) + a from-scratch transfer line."},
-  {"team": "Southern Miss", "unit": "DL", "grade": 42, "confidence": "L",
-   "bracketing_exemplars": ["App State DL 2026 (42, peer)", "Georgia Southern DL 2026 (42, peer)"],
+   "data_gaps": [
+    "4 new transfer starters around Roman",
+    "RBLK p16"
+   ],
+   "g5_guard_note": "Sun Belt; one veteran returning starter (Roman, C) + a from-scratch transfer line."
+  },
+  {
+   "team": "Southern Miss",
+   "unit": "DL",
+   "grade": 42,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "App State DL 2026 (42, peer)",
+    "Georgia Southern DL 2026 (42, peer)"
+   ],
    "rationale_bullets": [
     "'Almost entirely transfers, none with >500 FBS snaps' - once-touted Jeffery Rush (Ole Miss) + juco Kameron Cyprien (scout: 'gonna be an all-conference player') + A'mari Wilson (Campbell FCS edge) + Xavier McIver (NT). The elite '25 front (J'Mond Tapp 90.0 -> Memphis, Ponder 80.9 -> Baylor) all left.",
     "A from-scratch transfer front with real pedigree (an Ole Miss edge + a touted juco) but zero proven FBS production.",
     "42: ~App State/Georgia Southern DL 42. The transfer pedigree + Cyprien's projection vs the total lack of proof. L."
    ],
    "key_players": [
-    {"name": "Kameron Cyprien", "role": "DL (transfer, juco)", "evidence": "scout: 'gonna be an all-conference player'"},
-    {"name": "Jeffery Rush", "role": "DE (transfer, Ole Miss)", "evidence": "a once-touted SEC transfer"}
+    {
+     "name": "Kameron Cyprien",
+     "role": "DL (transfer, juco)",
+     "evidence": "scout: 'gonna be an all-conference player'"
+    },
+    {
+     "name": "Jeffery Rush",
+     "role": "DE (transfer, Ole Miss)",
+     "evidence": "a once-touted SEC transfer"
+    }
    ],
-   "data_gaps": ["none with >500 FBS snaps", "the elite '25 front entirely gone"],
-   "g5_guard_note": "Sun Belt; a from-scratch transfer DL (Ole Miss + touted juco) - real pedigree, no FBS proof (low-confidence)."},
-  {"team": "Southern Miss", "unit": "LB", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["West Virginia LB 2026 (40, peer)", "Fresno State LB 2026 (40, peer)"],
+   "data_gaps": [
+    "none with >500 FBS snaps",
+    "the elite '25 front entirely gone"
+   ],
+   "g5_guard_note": "Sun Belt; a from-scratch transfer DL (Ole Miss + touted juco) - real pedigree, no FBS proof (low-confidence)."
+  },
+  {
+   "team": "Southern Miss",
+   "unit": "LB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "West Virginia LB 2026 (40, peer)",
+    "Fresno State LB 2026 (40, peer)"
+   ],
    "rationale_bullets": [
     "Mathis Haygood (51.9/323 -> SBC; a returning LB, one of the few holdovers) + Andrew Martin (Stetson FCS, 'seasoned') + transfers. LOST Chris Jones (-> FSU) + Michael Montgomery (-> Memphis).",
     "One modest returning LB + an FCS transfer + portal bodies, after the room's best left.",
     "40: ~West Virginia/Fresno State LB 40. Haygood + the transfer additions vs the lost starters + the thin proof. M."
    ],
    "key_players": [
-    {"name": "Mathis Haygood", "role": "LB (returning)", "evidence": "51.9/323; a returning linebacker, one of the few holdovers"},
-    {"name": "Andrew Martin", "role": "LB (transfer, Stetson FCS)", "evidence": "a 'seasoned' FCS transfer"}
+    {
+     "name": "Mathis Haygood",
+     "role": "LB (returning)",
+     "evidence": "51.9/323; a returning linebacker, one of the few holdovers"
+    },
+    {
+     "name": "Andrew Martin",
+     "role": "LB (transfer, Stetson FCS)",
+     "evidence": "a 'seasoned' FCS transfer"
+    }
    ],
-   "data_gaps": ["lost the room's best (Jones->FSU, Montgomery->Memphis)", "thin FBS proof"],
-   "g5_guard_note": "Sun Belt; one modest returning LB (Haygood) + FCS/portal additions after the starters left."},
-  {"team": "Southern Miss", "unit": "DB", "grade": 44, "confidence": "L",
-   "bracketing_exemplars": ["Fresno State DB 2026 (44, peer)", "Arkansas State DB 2026 (44, peer)"],
+   "data_gaps": [
+    "lost the room's best (Jones->FSU, Montgomery->Memphis)",
+    "thin FBS proof"
+   ],
+   "g5_guard_note": "Sun Belt; one modest returning LB (Haygood) + FCS/portal additions after the starters left."
+  },
+  {
+   "team": "Southern Miss",
+   "unit": "DB",
+   "grade": 44,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Fresno State DB 2026 (44, peer)",
+    "Arkansas State DB 2026 (44, peer)"
+   ],
    "rationale_bullets": [
     "'Almost entirely transfers' - once-touted Champ Lewis (TCU) + Jyaire Brown (Ohio State) + Ishmael Ibraheem (Texas) + Laquan Robinson (Auburn) + Jordan Pride (Texas A&M) + Hiroshi Carr (Morgan St FCS). The elite '25 secondary (Myrick 87.3 -> Clemson, Moten 80.1) all left.",
     "A from-scratch secondary of former BLUE-CHIP P4 transfers - real recruiting pedigree but none with >500 FBS snaps - off a COV-p98 unit whose personnel is gone. High-ceiling, high-uncertainty.",
     "44: ~Fresno State/Arkansas State DB 44. The blue-chip transfer pedigree vs the total lack of FBS proof. L."
    ],
    "key_players": [
-    {"name": "Champ Lewis", "role": "CB (transfer, TCU)", "evidence": "a once-touted P4 (TCU) transfer"},
-    {"name": "Jyaire Brown", "role": "DB (transfer, Ohio State)", "evidence": "a once-touted P4 (Ohio State) transfer"}
+    {
+     "name": "Champ Lewis",
+     "role": "CB (transfer, TCU)",
+     "evidence": "a once-touted P4 (TCU) transfer"
+    },
+    {
+     "name": "Jyaire Brown",
+     "role": "DB (transfer, Ohio State)",
+     "evidence": "a once-touted P4 (Ohio State) transfer"
+    }
    ],
-   "data_gaps": ["none with >500 FBS snaps", "the elite '25 secondary (COV p98) entirely gone"],
-   "g5_guard_note": "Sun Belt; a from-scratch secondary of former blue-chip P4 transfers - high pedigree, no FBS proof (low-confidence)."},
-  {"team": "Southern Miss", "unit": "ST", "grade": 42, "confidence": "M",
-   "bracketing_exemplars": ["BYU ST 2026 (42, peer)", "California ST 2026 (42, peer)"],
+   "data_gaps": [
+    "none with >500 FBS snaps",
+    "the elite '25 secondary (COV p98) entirely gone"
+   ],
+   "g5_guard_note": "Sun Belt; a from-scratch secondary of former blue-chip P4 transfers - high pedigree, no FBS proof (low-confidence)."
+  },
+  {
+   "team": "Southern Miss",
+   "unit": "ST",
+   "grade": 42,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "BYU ST 2026 (42, peer)",
+    "California ST 2026 (42, peer)"
+   ],
    "rationale_bullets": [
     "K Creighton Wilbanks (+ Reed Harradine; returning but inconsistent - the pair hit just 4/10 beyond 40) + P Dusty Zimmer (Australian transfer) + KR/PR A.J. Little (Chattanooga FCS, housed 2 punt returns). SPEC p63.",
     "Returning-but-inconsistent kicking + a new punter + a genuine return threat (Little), off a decent '25 unit (SPEC p63).",
     "42: ~BYU/California ST 42. The return value + a decent baseline vs the shaky placekicking. M."
    ],
    "key_players": [
-    {"name": "A.J. Little", "role": "KR/PR (transfer, Chattanooga FCS)", "evidence": "housed 2 punt returns for the Mocs in '25 - a genuine return threat"},
-    {"name": "Creighton Wilbanks", "role": "K (returning)", "evidence": "returning but inconsistent (the pair hit just 4/10 beyond 40)"}
+    {
+     "name": "A.J. Little",
+     "role": "KR/PR (transfer, Chattanooga FCS)",
+     "evidence": "housed 2 punt returns for the Mocs in '25 - a genuine return threat"
+    },
+    {
+     "name": "Creighton Wilbanks",
+     "role": "K (returning)",
+     "evidence": "returning but inconsistent (the pair hit just 4/10 beyond 40)"
+    }
    ],
-   "data_gaps": ["shaky placekicking (4/10 beyond 40)", "a new punter"],
-   "g5_guard_note": "Sun Belt; a genuine return threat (Little) + inconsistent returning kicking off a decent SPEC-p63 unit."}
+   "data_gaps": [
+    "shaky placekicking (4/10 beyond 40)",
+    "a new punter"
+   ],
+   "g5_guard_note": "Sun Belt; a genuine return threat (Little) + inconsistent returning kicking off a decent SPEC-p63 unit."
+  }
  ]
 }

@@ -2,24 +2,32 @@
  "team": "Arizona",
  "units": {
   "QB": {
-   "grade": 88,
-   "confidence": "H"
+   "grade": 84,
+   "confidence": "M",
+   "v1_grade": 88,
+   "adjudication": "50/50 blend: dg-9.0"
   },
   "RB": {
-   "grade": 55,
-   "confidence": "M"
+   "grade": 49,
+   "confidence": "M",
+   "v1_grade": 55,
+   "adjudication": "50/50 blend: dg-12.0"
   },
   "WRTE": {
-   "grade": 52,
-   "confidence": "M"
+   "grade": 45,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "50/50: dg-14"
   },
   "OL": {
    "grade": 58,
    "confidence": "M"
   },
   "DL": {
-   "grade": 48,
-   "confidence": "M"
+   "grade": 43,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "50/50 blend: dg-9.1"
   },
   "LB": {
    "grade": 60,
@@ -48,7 +56,9 @@
    "RB": "+13 vs proxy 42 (proxy over-weights Mahdi exit; Reescano 83.0-run-grade return is the quality)"
   },
   "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Bootle DB 67.5/434 (Charlotte) - a 9th transfer DB with real CUSA tape; DB 46 unchanged (grade already priced an 8-body volume reload; cohesion/P4-level starter quality remain the cap, not body count).",
-  "ps_backfill_2026_07_15": "PS visual page-read: +Roussaw LB add (58->60); Molette (UConn 63.4/739) documented as PS-projected BS starter within the priced 8-transfer reload (DB 46 holds); QB depth corrected (Locke -> Tarleton St; backups all untested - 88 H holds on Fifita); Cole honors precision (3rd-tm)."
+  "ps_backfill_2026_07_15": "PS visual page-read: +Roussaw LB add (58->60); Molette (UConn 63.4/739) documented as PS-projected BS starter within the priced 8-transfer reload (DB 46 holds); QB depth corrected (Locke -> Tarleton St; backups all untested - 88 H holds on Fifita); Cole honors precision (3rd-tm).",
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

@@ -1,14 +1,40 @@
 {
  "team": "Florida State",
  "units": {
-  "QB": {"grade": 48, "confidence": "L"},
-  "RB": {"grade": 58, "confidence": "M"},
-  "WRTE": {"grade": 58, "confidence": "M"},
-  "OL": {"grade": 40, "confidence": "L"},
-  "DL": {"grade": 46, "confidence": "M"},
-  "LB": {"grade": 48, "confidence": "M"},
-  "DB": {"grade": 48, "confidence": "M"},
-  "ST": {"grade": 44, "confidence": "L"}
+  "QB": {
+   "grade": 48,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 58,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 63,
+   "confidence": "M",
+   "v1_grade": 58,
+   "adjudication": "50/50 blend: dg+10.6"
+  },
+  "OL": {
+   "grade": 40,
+   "confidence": "L"
+  },
+  "DL": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 48,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 44,
+   "confidence": "L"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-18",
@@ -16,19 +42,29 @@
   "prompt": "GRADING_PROMPT.md v1.2.2",
   "exemplars": "exemplars.md v3.1 FROZEN",
   "grader": "Opus (median-calibrated; percentile-mapped; ACC offsets on returning tape, arrivals on origin cells [SEC over-credits weighted down]; HC Norvell no change; disposition gate resolved - 5 withdrawals + yr4 exodus adjudicated vs both charts); anchor values not consulted",
-  "planned_vs_final_deviations": {"note": "all eight finals match the dossier planned lines (QB 48/RB 58/WRTE 58/OL 40/DL 46/LB 48/DB 48/ST 44)."},
+  "planned_vs_final_deviations": {
+   "note": "all eight finals match the dossier planned lines (QB 48/RB 58/WRTE 58/OL 40/DL 46/LB 48/DB 48/ST 44)."
+  },
   "shadow_proxy_divergence": {
    "note": "proxy (QB 68, RB 78, WRTE 91, OL 44, DL 64, LB 43, DB 52, ST 70) keys as-played 2025 tape; the 2026 team keeps the skill but rebuilt the QB + OL.",
    "WRTE": "-33 vs proxy 91 - proxy keys the elite Robinson/Danzy duo; the grade credits them heavily but caps a two-star room.",
    "QB": "-20 vs proxy 68 - proxy keys Castellanos (gone); the grade keys inconsistent transfer Daniels (weighted-down SEC-adj).",
    "OL": "-4 vs proxy 44 - both key the all-new rebuild; the grade sits near the floor.",
    "ST": "-26 vs proxy 70 - proxy keys the '25 specialists (gone); the grade keys the all-new transfer specialists (unknown)."
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "Florida State", "unit": "QB", "grade": 48, "confidence": "L",
-   "bracketing_exemplars": ["Boston College QB 2026 (40, round peer)", "Clemson QB 2026 (48, round peer)"],
+   "team": "Florida State",
+   "unit": "QB",
+   "grade": 48,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Boston College QB 2026 (40, round peer)",
+    "Clemson QB 2026 (48, round peer)"
+   ],
    "rationale_bullets": [
     "Ashton Daniels (Auburn transfer, 71.0/163 -> SEC +7.72 -> 78.7 adj, weighted DOWN) - 'inconsistent throughout his career' + limited '25 action; ex-Stanford starter.",
     "Castellanos (85.1, elite '25 starter) GONE (yr4). Backup true-Fr Sperry.",
@@ -36,13 +72,27 @@
     "48: ~ Clemson/VT QB 48; the inconsistency + OL questions cap it. L."
    ],
    "key_players": [
-    {"name": "Ashton Daniels", "role": "QB1 (transfer, Auburn)", "evidence": "71.0/163; inconsistent career; ex-Stanford starter; limited '25 action"}
+    {
+     "name": "Ashton Daniels",
+     "role": "QB1 (transfer, Auburn)",
+     "evidence": "71.0/163; inconsistent career; ex-Stanford starter; limited '25 action"
+    }
    ],
-   "data_gaps": ["career inconsistency; limited '25 sample", "all-new OL in front of him"], "g5_guard_note": null
+   "data_gaps": [
+    "career inconsistency; limited '25 sample",
+    "all-new OL in front of him"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Florida State", "unit": "RB", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["Virginia Tech RB 2026 (60, round peer)", "Duke RB 2026 (62, round peer context)"],
+   "team": "Florida State",
+   "unit": "RB",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Virginia Tech RB 2026 (60, round peer)",
+    "Duke RB 2026 (62, round peer context)"
+   ],
    "rationale_bullets": [
     "'Three-headed monster' - Wisner (Texas, 87.5 adj - proven) + Kromah (returning, 84.6 adj, small sample) + Singleton (returning, 90.0 adj, tiny sample).",
     "'Gives defenses fits' (Athlon).",
@@ -50,14 +100,32 @@
     "58: ~ Virginia Tech RB 60; the OL question tempers the elite backfield."
    ],
    "key_players": [
-    {"name": "Quintrevion Wisner", "role": "RB1 (transfer, Texas)", "evidence": "77.3/130 (87.5 SEC-adj); proven Texas back"},
-    {"name": "Samuel Singleton Jr.", "role": "RB (returning)", "evidence": "85.1/51 (90.0 adj, tiny sample)"}
+    {
+     "name": "Quintrevion Wisner",
+     "role": "RB1 (transfer, Texas)",
+     "evidence": "77.3/130 (87.5 SEC-adj); proven Texas back"
+    },
+    {
+     "name": "Samuel Singleton Jr.",
+     "role": "RB (returning)",
+     "evidence": "85.1/51 (90.0 adj, tiny sample)"
+    }
    ],
-   "data_gaps": ["small samples on the returners", "all-new OL"], "g5_guard_note": null
+   "data_gaps": [
+    "small samples on the returners",
+    "all-new OL"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Florida State", "unit": "WRTE", "grade": 58, "confidence": "M",
-   "bracketing_exemplars": ["Clemson WRTE 2026 (56, round peer)", "California WRTE 2026 (54, round peer context)"],
+   "team": "Florida State",
+   "unit": "WRTE",
+   "grade": 58,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Clemson WRTE 2026 (56, round peer)",
+    "California WRTE 2026 (54, round peer context)"
+   ],
    "rationale_bullets": [
     "Duce Robinson (81.9 adj - 1,000-yd, a star) + Micahi Danzy (72.5 - explosive) - 'could be one of the best WR duos in the country' (Athlon).",
     "+ Boggs + ECU TE Riles. Lost McCoy (->Louisville) + Pittman (->SMU).",
@@ -65,14 +133,31 @@
     "58: above Clemson WRTE 56 (the elite duo); FSU's best unit alongside the RBs."
    ],
    "key_players": [
-    {"name": "Duce Robinson", "role": "WR (returning, BOLD)", "evidence": "79.5/357 (81.9 ACC-adj); 1,000-yd season; a star"},
-    {"name": "Micahi Danzy", "role": "WR (returning, BOLD)", "evidence": "70.1/276 (72.5 adj); explosive"}
+    {
+     "name": "Duce Robinson",
+     "role": "WR (returning, BOLD)",
+     "evidence": "79.5/357 (81.9 ACC-adj); 1,000-yd season; a star"
+    },
+    {
+     "name": "Micahi Danzy",
+     "role": "WR (returning, BOLD)",
+     "evidence": "70.1/276 (72.5 adj); explosive"
+    }
    ],
-   "data_gaps": ["depth thin behind the duo"], "g5_guard_note": null
+   "data_gaps": [
+    "depth thin behind the duo"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Florida State", "unit": "OL", "grade": 40, "confidence": "L",
-   "bracketing_exemplars": ["Boston College OL context", "Western Kentucky OL 2025 (25, exemplar anchor)"],
+   "team": "Florida State",
+   "unit": "OL",
+   "grade": 40,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "Boston College OL context",
+    "Western Kentucky OL 2025 (25, exemplar anchor)"
+   ],
    "rationale_bullets": [
     "ENTIRELY NEW (2nd straight year). All-transfer/reshuffled - Chaplin (Auburn, 68.9 adj weighted-down) + Pabst (Bowling Green, 55.8) + Otto (returning, small) + Nwaiwu + Bowling (Troy, 63.5).",
     "Lost the entire '25 line (yr4 wave: Petitbon, Hansen, Medley, Pettus, Rizy, Leonard).",
@@ -80,14 +165,32 @@
     "40: near the round floor; the biggest question alongside the QB. L."
    ],
    "key_players": [
-    {"name": "Xavier Chaplin", "role": "LT (transfer, Auburn)", "evidence": "55.5/823 (68.9 SEC-adj, weighted down)"},
-    {"name": "Nate Pabst", "role": "RG (transfer, Bowling Green)", "evidence": "71.0/767 (55.8 MAC-adj)"}
+    {
+     "name": "Xavier Chaplin",
+     "role": "LT (transfer, Auburn)",
+     "evidence": "55.5/823 (68.9 SEC-adj, weighted down)"
+    },
+    {
+     "name": "Nate Pabst",
+     "role": "RG (transfer, Bowling Green)",
+     "evidence": "71.0/767 (55.8 MAC-adj)"
+    }
    ],
-   "data_gaps": ["entire OL new (2nd straight year)", "no returning starter of note"], "g5_guard_note": null
+   "data_gaps": [
+    "entire OL new (2nd straight year)",
+    "no returning starter of note"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Florida State", "unit": "DL", "grade": 46, "confidence": "M",
-   "bracketing_exemplars": ["Duke DL 2026 (44, round peer)", "California DL 2026 (42, round peer)"],
+   "team": "Florida State",
+   "unit": "DL",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Duke DL 2026 (44, round peer)",
+    "California DL 2026 (42, round peer)"
+   ],
    "rationale_bullets": [
     "Revamped. Returns McCray (73.7 adj) + Lyons (70.2, 'leader') + the Desir twins (withdrawals: Darryll 67.5, Mandrell 58.6); adds Kennedy (A&M, 76.0) + Sanders (Texas St, 71.1).",
     "Lost a wave to the portal (Williams ->OkSt, Jenkins/A.Williams ->MissSt, Jones ->Mizzou) + yr4 Darrell Jackson.",
@@ -95,14 +198,32 @@
     "46: above Duke DL 44; the weak base + churn cap it."
    ],
    "key_players": [
-    {"name": "Deante McCray", "role": "DT (returning)", "evidence": "72.5/297 (73.7 ACC-adj)"},
-    {"name": "Rylan Kennedy", "role": "JACK (transfer, Texas A&M)", "evidence": "68.1/176 (76.0 SEC-adj); only DE added"}
+    {
+     "name": "Deante McCray",
+     "role": "DT (returning)",
+     "evidence": "72.5/297 (73.7 ACC-adj)"
+    },
+    {
+     "name": "Rylan Kennedy",
+     "role": "JACK (transfer, Texas A&M)",
+     "evidence": "68.1/176 (76.0 SEC-adj); only DE added"
+    }
    ],
-   "data_gaps": ["PRSH p28 base", "heavy portal churn on the front"], "g5_guard_note": null
+   "data_gaps": [
+    "PRSH p28 base",
+    "heavy portal churn on the front"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Florida State", "unit": "LB", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["Duke LB 2026 (46, round peer)", "Clemson LB 2026 (54, round peer context)"],
+   "team": "Florida State",
+   "unit": "LB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Duke LB 2026 (46, round peer)",
+    "Clemson LB 2026 (54, round peer context)"
+   ],
    "rationale_bullets": [
     "Chris Jones (S.Miss, 59.6 adj - top-10 FBS tackler, 133 tkl, SBC-discounted) + Nichelson (returning, 68.9) + Gbayor (UNC, 69.2 - knows DC White's scheme) + Omar Graham (withdrawal, 69.7).",
     "Lost Cryer (->Texas) + Herring/Thompson (yr4).",
@@ -110,14 +231,32 @@
     "48: above Duke LB 46; solid but not elite."
    ],
    "key_players": [
-    {"name": "Blake Nichelson", "role": "LB (returning, BOLD)", "evidence": "66.8/420 (68.9 ACC-adj)"},
-    {"name": "Chris Jones", "role": "MLB (transfer, Southern Miss)", "evidence": "67.8/706 (59.6 SBC-adj); top-10 FBS tackler, 133 tkl"}
+    {
+     "name": "Blake Nichelson",
+     "role": "LB (returning, BOLD)",
+     "evidence": "66.8/420 (68.9 ACC-adj)"
+    },
+    {
+     "name": "Chris Jones",
+     "role": "MLB (transfer, Southern Miss)",
+     "evidence": "67.8/706 (59.6 SBC-adj); top-10 FBS tackler, 133 tkl"
+    }
    ],
-   "data_gaps": ["Chris Jones' SBC-level production", "lost Cryer + yr4 LBs"], "g5_guard_note": null
+   "data_gaps": [
+    "Chris Jones' SBC-level production",
+    "lost Cryer + yr4 LBs"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Florida State", "unit": "DB", "grade": 48, "confidence": "M",
-   "bracketing_exemplars": ["Duke DB 2026 (46, round peer)", "California DB 2026 (48, round peer)"],
+   "team": "Florida State",
+   "unit": "DB",
+   "grade": 48,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Duke DB 2026 (46, round peer)",
+    "California DB 2026 (48, round peer)"
+   ],
    "rationale_bullets": [
     "Rawls (withdrawal, 74.2 adj - 'crucial') + Barker (withdrawal rover, 73.0 - 'crucial') + Chandler (S.Ala, 68.0) + Ma'khi Jones (Duke, 67.0) + Q.Jones.",
     "Lost Earl Little (#1 tklr ->Ohio St) + Joseph (->Ole Miss) + Arnoux (->Auburn).",
@@ -125,14 +264,32 @@
     "48: above Duke DB 46 (Rawls + Barker retained)."
    ],
    "key_players": [
-    {"name": "Ja'Bril Rawls", "role": "CB (returning, withdrawal, BOLD)", "evidence": "73.0/374 (74.2 ACC-adj); 'crucial'"},
-    {"name": "Ashlynd Barker", "role": "Rover (returning, withdrawal)", "evidence": "71.8/488 (73.0 adj); 'crucial'"}
+    {
+     "name": "Ja'Bril Rawls",
+     "role": "CB (returning, withdrawal, BOLD)",
+     "evidence": "73.0/374 (74.2 ACC-adj); 'crucial'"
+    },
+    {
+     "name": "Ashlynd Barker",
+     "role": "Rover (returning, withdrawal)",
+     "evidence": "71.8/488 (73.0 adj); 'crucial'"
+    }
    ],
-   "data_gaps": ["COV p24 base", "lost Little (#1 tklr) + 2 starters"], "g5_guard_note": null
+   "data_gaps": [
+    "COV p24 base",
+    "lost Little (#1 tklr) + 2 starters"
+   ],
+   "g5_guard_note": null
   },
   {
-   "team": "Florida State", "unit": "ST", "grade": 44, "confidence": "L",
-   "bracketing_exemplars": ["California ST 2026 (42, round peer)", "Boston College ST 2026 (52, round peer context)"],
+   "team": "Florida State",
+   "unit": "ST",
+   "grade": 44,
+   "confidence": "L",
+   "bracketing_exemplars": [
+    "California ST 2026 (42, round peer)",
+    "Boston College ST 2026 (52, round peer context)"
+   ],
    "rationale_bullets": [
     "ALL-NEW specialists - K Gabe Panikowski (Oklahoma State) + P Daniel Hughes (New Mexico) + LS Bowers (NDSU).",
     "Intriguing return game (Singleton, Danzy). SPEC p70 in '25 - but those specialists are gone.",
@@ -140,10 +297,21 @@
     "44: 'relatively unknown' (Athlon); the return threats floor it. L."
    ],
    "key_players": [
-    {"name": "Gabe Panikowski", "role": "K (transfer, Oklahoma State)", "evidence": "B12 transfer kicker; all-new"},
-    {"name": "Samuel Singleton Jr.", "role": "KR (returning)", "evidence": "return threat"}
+    {
+     "name": "Gabe Panikowski",
+     "role": "K (transfer, Oklahoma State)",
+     "evidence": "B12 transfer kicker; all-new"
+    },
+    {
+     "name": "Samuel Singleton Jr.",
+     "role": "KR (returning)",
+     "evidence": "return threat"
+    }
    ],
-   "data_gaps": ["all-new specialists (unknown at FSU)"], "g5_guard_note": null
+   "data_gaps": [
+    "all-new specialists (unknown at FSU)"
+   ],
+   "g5_guard_note": null
   }
  ]
 }

@@ -10,8 +10,10 @@
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 46,
-   "confidence": "M"
+   "grade": 38,
+   "confidence": "L",
+   "v1_grade": 46,
+   "adjudication": "split; O7.5 negative signal: dg-22"
   },
   "OL": {
    "grade": 30,
@@ -22,8 +24,10 @@
    "confidence": "M"
   },
   "LB": {
-   "grade": 25,
-   "confidence": "L"
+   "grade": 21,
+   "confidence": "L",
+   "v1_grade": 25,
+   "adjudication": "split: dg-13"
   },
   "DB": {
    "grade": 55,
@@ -53,7 +57,9 @@
   "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Joseph WRTE 60.7/21 (Miami) - 21 routes, depth flier as priced. No change.",
   "corrections": [
    "2026-07-17: RB 56 -> 50 M (two-deep reconcile audit; see news.md)"
-  ]
+  ],
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

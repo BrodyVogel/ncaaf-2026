@@ -1,14 +1,38 @@
 {
  "team": "Buffalo",
  "units": {
-  "QB": {"grade": 22, "confidence": "L"},
-  "RB": {"grade": 16, "confidence": "M"},
-  "WRTE": {"grade": 22, "confidence": "M"},
-  "OL": {"grade": 16, "confidence": "M"},
-  "DL": {"grade": 14, "confidence": "M"},
-  "LB": {"grade": 12, "confidence": "L"},
-  "DB": {"grade": 42, "confidence": "M"},
-  "ST": {"grade": 22, "confidence": "M"}
+  "QB": {
+   "grade": 22,
+   "confidence": "L"
+  },
+  "RB": {
+   "grade": 16,
+   "confidence": "M"
+  },
+  "WRTE": {
+   "grade": 22,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 16,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 14,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 12,
+   "confidence": "L"
+  },
+  "DB": {
+   "grade": 42,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 22,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -23,7 +47,9 @@
    "note": "proxy (QB None, RB None, WRTE None, OL None, DL None, LB None, DB 45, ST 82) - six-unit void, items #18-23 on the running artifact list (widest of project)",
    "DB": "-3 vs proxy 45 - rare near-agreement (four returning volume DBs are feed-visible)",
    "ST": "-60 vs proxy 82 (proxy counts all three departed specialists: Howes, Drennan->Purdue, Snow->NC State; the 2026 room has zero FBS-tape specialists)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
@@ -42,11 +68,26 @@
     "22, L: +4 over Ball State's 18 on Wright's print buzz and McNeil's FR rank; well below Akron/BGSU 34 (proven MAC floor or P4 pedigree)."
    ],
    "key_players": [
-    {"name": "Jason Wright", "role": "QB1 candidate (returning rFr)", "evidence": "43 rush @ 2.9, ZERO pass att; Athlon starter; PS#131"},
-    {"name": "Elijah Holmes", "role": "QB1 candidate (transfer, D2 Wingate)", "evidence": "3,040 @ 59%, 24-6 + 290 rush; PS projected starter"},
-    {"name": "Qur'an McNeil", "role": "QB3 (true FR)", "evidence": "PS QB #55; Athlon #3 recruit"}
+    {
+     "name": "Jason Wright",
+     "role": "QB1 candidate (returning rFr)",
+     "evidence": "43 rush @ 2.9, ZERO pass att; Athlon starter; PS#131"
+    },
+    {
+     "name": "Elijah Holmes",
+     "role": "QB1 candidate (transfer, D2 Wingate)",
+     "evidence": "3,040 @ 59%, 24-6 + 290 rush; PS projected starter"
+    },
+    {
+     "name": "Qur'an McNeil",
+     "role": "QB3 (true FR)",
+     "evidence": "PS QB #55; Athlon #3 recruit"
+    }
    ],
-   "data_gaps": ["zero FBS pass attempts in the room", "split-print starter projection"],
+   "data_gaps": [
+    "zero FBS pass attempts in the room",
+    "split-print starter projection"
+   ],
    "g5_guard_note": null
   },
   {
@@ -65,10 +106,21 @@
     "16 = Akron 16: above Ball State's 8 on Shelton's trajectory + Enlow (Athlon #4 recruit), far below Bowling Green's 28."
    ],
    "key_players": [
-    {"name": "Terrance Shelton Jr.", "role": "RB1 (returning)", "evidence": "64.5/59; 244 @ 4.3; HC comp to Henderson"},
-    {"name": "Messiah Burch", "role": "RB2 gadget (returning)", "evidence": "67.1/11; 194 rush + 98 rec L2Y"}
+    {
+     "name": "Terrance Shelton Jr.",
+     "role": "RB1 (returning)",
+     "evidence": "64.5/59; 244 @ 4.3; HC comp to Henderson"
+    },
+    {
+     "name": "Messiah Burch",
+     "role": "RB2 gadget (returning)",
+     "evidence": "67.1/11; 194 rush + 98 rec L2Y"
+    }
    ],
-   "data_gaps": ["no returning 100-carry back", "true-FR Enlow unseen"],
+   "data_gaps": [
+    "no returning 100-carry back",
+    "true-FR Enlow unseen"
+   ],
    "g5_guard_note": null
   },
   {
@@ -87,11 +139,26 @@
     "22: returns ~610 receiving yards (vs BGSU's ~250) but lacks BGSU's TE-grade quality; nobody near Akron's 28-level returning production."
    ],
    "key_players": [
-    {"name": "Jasaiah Gathings", "role": "WR1 (returning starter, yr4 override)", "evidence": "60.9/379; 410 @ 11.4; 2nd-Tm MAC at Akron '23"},
-    {"name": "Chance Morrow", "role": "WR (returning)", "evidence": "66.6/69; 6-4 red-zone threat"},
-    {"name": "Jaylin Andrews", "role": "WR (transfer, D2 E. Stroudsburg)", "evidence": "623 @ 15.6, all-conf; feed-gap arrival"}
+    {
+     "name": "Jasaiah Gathings",
+     "role": "WR1 (returning starter, yr4 override)",
+     "evidence": "60.9/379; 410 @ 11.4; 2nd-Tm MAC at Akron '23"
+    },
+    {
+     "name": "Chance Morrow",
+     "role": "WR (returning)",
+     "evidence": "66.6/69; 6-4 red-zone threat"
+    },
+    {
+     "name": "Jaylin Andrews",
+     "role": "WR (transfer, D2 E. Stroudsburg)",
+     "evidence": "623 @ 15.6, all-conf; feed-gap arrival"
+    }
    ],
-   "data_gaps": ["one proven FBS receiver", "three no-cell imports projected into rotation"],
+   "data_gaps": [
+    "one proven FBS receiver",
+    "three no-cell imports projected into rotation"
+   ],
    "g5_guard_note": null
   },
   {
@@ -110,11 +177,26 @@
     "16: one real starter + pedigree imports beats BGSU's 10 (zero starters) and Ball State's 12 (low-graded trio) on evidence quality. Athlon: 'not clear that the Bulls upgraded there.'"
    ],
    "key_players": [
-    {"name": "Alex Heininger", "role": "RG1 (lone returning starter)", "evidence": "62.8/484; 9 st then OFY injury"},
-    {"name": "Joe Crocker", "role": "G (transfer, Baylor)", "evidence": "18 gm L2Y at Baylor; PS OL #67; verified in Baylor's frozen out-feed"},
-    {"name": "Gabriel Arena", "role": "LT1 (returning)", "evidence": "77.6/8; ex-Virginia Tech; 9 gm '24"}
+    {
+     "name": "Alex Heininger",
+     "role": "RG1 (lone returning starter)",
+     "evidence": "62.8/484; 9 st then OFY injury"
+    },
+    {
+     "name": "Joe Crocker",
+     "role": "G (transfer, Baylor)",
+     "evidence": "18 gm L2Y at Baylor; PS OL #67; verified in Baylor's frozen out-feed"
+    },
+    {
+     "name": "Gabriel Arena",
+     "role": "LT1 (returning)",
+     "evidence": "77.6/8; ex-Virginia Tech; 9 gm '24"
+    }
    ],
-   "data_gaps": ["four new starters minimum", "Heininger injury return"],
+   "data_gaps": [
+    "four new starters minimum",
+    "Heininger injury return"
+   ],
    "g5_guard_note": null
   },
   {
@@ -133,11 +215,26 @@
     "14: above Akron's 12 on the import quality; nowhere near BGSU's 34. PS's 2024 rebuilt-line precedent is prose, not tape."
    ],
    "key_players": [
-    {"name": "Cornell Evans", "role": "NT1 (lone returning starter)", "evidence": "50.7/399; 7 st"},
-    {"name": "Sedrick Vessah", "role": "DE1 (transfer, D2 PennWest Cal)", "evidence": "52 tkl, 11.5 sk, 4.5 tfl - all-league"},
-    {"name": "Logan Goodwin", "role": "JACK1 (transfer, D2 IUP)", "evidence": "64 tkl, 12.5 sk, 8.5 tfl L2Y - all-league"}
+    {
+     "name": "Cornell Evans",
+     "role": "NT1 (lone returning starter)",
+     "evidence": "50.7/399; 7 st"
+    },
+    {
+     "name": "Sedrick Vessah",
+     "role": "DE1 (transfer, D2 PennWest Cal)",
+     "evidence": "52 tkl, 11.5 sk, 4.5 tfl - all-league"
+    },
+    {
+     "name": "Logan Goodwin",
+     "role": "JACK1 (transfer, D2 IUP)",
+     "evidence": "64 tkl, 12.5 sk, 8.5 tfl L2Y - all-league"
+    }
    ],
-   "data_gaps": ["one returning starter", "D2-to-MAC translation for both edges"],
+   "data_gaps": [
+    "one returning starter",
+    "D2-to-MAC translation for both edges"
+   ],
    "g5_guard_note": null
   },
   {
@@ -156,11 +253,26 @@
     "12, L = Akron 12: above Ball State's 8 on import quality; the Dolac->Murdock development lineage lost its architect (DC Bowen to Pitt)."
    ],
    "key_players": [
-    {"name": "Joey Cheshire", "role": "MLB1 (transfer, Cornell)", "evidence": "10 st, 73 tkl, 4 tfl FCS"},
-    {"name": "Zach Bergmann", "role": "WLB1 (transfer, D2 Missouri Southern)", "evidence": "100 tkl, 5.5 tfl, 2 int"},
-    {"name": "Stevie Bracey", "role": "MLB2 (transfer, Virginia)", "evidence": "PS #125; 1 st '23, med-RS '24"}
+    {
+     "name": "Joey Cheshire",
+     "role": "MLB1 (transfer, Cornell)",
+     "evidence": "10 st, 73 tkl, 4 tfl FCS"
+    },
+    {
+     "name": "Zach Bergmann",
+     "role": "WLB1 (transfer, D2 Missouri Southern)",
+     "evidence": "100 tkl, 5.5 tfl, 2 int"
+    },
+    {
+     "name": "Stevie Bracey",
+     "role": "MLB2 (transfer, Virginia)",
+     "evidence": "PS #125; 1 st '23, med-RS '24"
+    }
    ],
-   "data_gaps": ["2 returning FBS snaps", "every projected starter is a no-cell import"],
+   "data_gaps": [
+    "2 returning FBS snaps",
+    "every projected starter is a no-cell import"
+   ],
    "g5_guard_note": null
   },
   {
@@ -179,11 +291,25 @@
     "42: best DB room of the MAC round and this team's lone above-average FBS unit; thin depth behind the four caps it."
    ],
    "key_players": [
-    {"name": "Kobi Blackwell", "role": "CB1 (returning starter)", "evidence": "74.0/401; 7 st, 8 pd as rFr"},
-    {"name": "Miles Greer", "role": "S1 (returning)", "evidence": "75.2/631; 74 tkl; 1st-Tm PSAC '24"},
-    {"name": "SaVeon Brown", "role": "NB1 (returning starter; withdrawal override)", "evidence": "64.2/701; 8 st, #7 tklr, 6.5 tfl"}
+    {
+     "name": "Kobi Blackwell",
+     "role": "CB1 (returning starter)",
+     "evidence": "74.0/401; 7 st, 8 pd as rFr"
+    },
+    {
+     "name": "Miles Greer",
+     "role": "S1 (returning)",
+     "evidence": "75.2/631; 74 tkl; 1st-Tm PSAC '24"
+    },
+    {
+     "name": "SaVeon Brown",
+     "role": "NB1 (returning starter; withdrawal override)",
+     "evidence": "64.2/701; 8 st, #7 tklr, 6.5 tfl"
+    }
    ],
-   "data_gaps": ["depth behind the top four is rookies/FCS"],
+   "data_gaps": [
+    "depth behind the top four is rookies/FCS"
+   ],
    "g5_guard_note": null
   },
   {
@@ -202,10 +328,21 @@
     "22: personnel-blank + system-strong lands above BGSU's 18 (which has a proven P but no system edge) and under Akron's 24."
    ],
    "key_players": [
-    {"name": "Oliver Hautanen", "role": "K1 (returning rFr)", "evidence": "PS K #67; zero college action"},
-    {"name": "Andrew VanSlyke", "role": "P1 (transfer, JMU)", "evidence": "DNP at JMU"}
+    {
+     "name": "Oliver Hautanen",
+     "role": "K1 (returning rFr)",
+     "evidence": "PS K #67; zero college action"
+    },
+    {
+     "name": "Andrew VanSlyke",
+     "role": "P1 (transfer, JMU)",
+     "evidence": "DNP at JMU"
+    }
    ],
-   "data_gaps": ["zero FBS-tape specialists at K and P", "both return jobs unproven"],
+   "data_gaps": [
+    "zero FBS-tape specialists at K and P",
+    "both return jobs unproven"
+   ],
    "g5_guard_note": null
   }
  ]

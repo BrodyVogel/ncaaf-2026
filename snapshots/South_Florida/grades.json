@@ -6,28 +6,36 @@
    "confidence": "M"
   },
   "RB": {
-   "grade": 38,
-   "confidence": "M"
+   "grade": 36,
+   "confidence": "M",
+   "v1_grade": 38,
+   "adjudication": "50/50 blend: dg-9.1; info 0.13 \u2014 blend halved"
   },
   "WRTE": {
-   "grade": 48,
-   "confidence": "M"
+   "grade": 42,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "50/50 blend: dg-12.0"
   },
   "OL": {
    "grade": 32,
    "confidence": "L"
   },
   "DL": {
-   "grade": 35,
-   "confidence": "M"
+   "grade": 38,
+   "confidence": "M",
+   "v1_grade": 35,
+   "adjudication": "50/50 blend: dg+12.2; info 0.16 \u2014 blend halved"
   },
   "LB": {
    "grade": 30,
    "confidence": "L"
   },
   "DB": {
-   "grade": 30,
-   "confidence": "L"
+   "grade": 33,
+   "confidence": "L",
+   "v1_grade": 30,
+   "adjudication": "DB policy 1/3 blend: dg+8.8"
   },
   "ST": {
    "grade": 48,
@@ -48,7 +56,9 @@
    "DB": "+11 (Ward verified returning + P4 adds)",
    "ST": "+10 (returning 18-24 kicker)"
   },
-  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Seldon WRTE 61.1/117 (VT), +Simmons DL 61.5/48 (Duke); both already cited in rationales as adds - tape confirms priced roles. No changes."
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Seldon WRTE 61.1/117 (VT), +Simmons DL 61.5/48 (Duke); both already cited in rationales as adds - tape confirms priced roles. No changes.",
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

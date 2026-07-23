@@ -6,8 +6,10 @@
    "confidence": "L"
   },
   "RB": {
-   "grade": 48,
-   "confidence": "M"
+   "grade": 40,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "50/50 blend: dg-16.2"
   },
   "WRTE": {
    "grade": 30,
@@ -48,7 +50,9 @@
    "DB": "+11 (proxy floor-pinned; three sub-60 returners + P4-depth adds are slightly better than 1)",
    "ST": "+22 (proxy misses returning K Gota + Durkin's Kent State line)"
   },
-  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Lane RB row (VA, minimal) + Machado LB 66.6/15 (Houston). No changes."
+  "repair_2026_07_15": "PFF arrival-row repair 2026-07-15 (see repair_pff_arrivals.py): +Lane RB row (VA, minimal) + Machado LB 66.6/15 (Houston). No changes.",
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {

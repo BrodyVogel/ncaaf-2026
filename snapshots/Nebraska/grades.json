@@ -1,14 +1,40 @@
 {
  "team": "Nebraska",
  "units": {
-  "QB": {"grade": 62, "confidence": "M"},
-  "RB": {"grade": 40, "confidence": "M"},
-  "WRTE": {"grade": 52, "confidence": "M"},
-  "OL": {"grade": 66, "confidence": "M"},
-  "DL": {"grade": 46, "confidence": "M"},
-  "LB": {"grade": 62, "confidence": "M"},
-  "DB": {"grade": 65, "confidence": "M"},
-  "ST": {"grade": 62, "confidence": "M"}
+  "QB": {
+   "grade": 62,
+   "confidence": "M"
+  },
+  "RB": {
+   "grade": 44,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "50/50 blend: dg+14.7; info 0.20 \u2014 blend halved"
+  },
+  "WRTE": {
+   "grade": 52,
+   "confidence": "M"
+  },
+  "OL": {
+   "grade": 66,
+   "confidence": "M"
+  },
+  "DL": {
+   "grade": 46,
+   "confidence": "M"
+  },
+  "LB": {
+   "grade": 62,
+   "confidence": "M"
+  },
+  "DB": {
+   "grade": 65,
+   "confidence": "M"
+  },
+  "ST": {
+   "grade": 62,
+   "confidence": "M"
+  }
  },
  "_meta": {
   "graded_utc": "2026-07-16",
@@ -25,12 +51,20 @@
    "OL": "-12 vs proxy 78 (proxy rides the PBLK-88 tape; grade discounts for the #112 sack-rate outcomes and five-man gel risk)",
    "DL": "-12 vs proxy 58 (PRSH 4th percentile production; the offsets flatter 54-63 raws)",
    "ST": "-36 vs proxy 98 (KR Williams + STC Ekeler gone; both legs stay)"
-  }
+  },
+  "vintage": "v2 2026-07",
+  "adjudication_log": "data/research/adjudication_v2.csv"
  },
  "grades_detail": [
   {
-   "team": "Nebraska", "unit": "QB", "grade": 62, "confidence": "M",
-   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "team": "Nebraska",
+   "unit": "QB",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
    "rationale_bullets": [
     "Colandrea arrives as the reigning MW Player of the Year with full-volume tape: 89.9 PFF/514 dropbacks at UNLV (MWC -7 -> 82.9 adjusted, ~p77), 3,459 @ 65.9% with a 23-5 ratio (PS) plus 649 rush yds and 10 rush TDs (P6).",
     "The named risk is variance: 'gunslinger... will also turn it over (29 picks and 17 fumbles over three seasons)' (P6); his Virginia stint (11 starts, 26-20 ratio) is the mediocre-P4 prior - though the 2025 ratio shows the correction.",
@@ -39,15 +73,32 @@
     "62, M = the Houser tier: similar adjusted tape with a POY laurel, same earlier-P4-struggle shape, wider turnover tails."
    ],
    "key_players": [
-    {"name": "Anthony Colandrea", "role": "QB1 (transfer, UNLV)", "evidence": "89.9 PFF/514; MW POY; 3,459 @ 65.9%, 23-5 + 649 rush 2025"},
-    {"name": "TJ Lateef", "role": "QB2 (returning, SO)", "evidence": "52.0/155 2025; won the UCLA start"}
+    {
+     "name": "Anthony Colandrea",
+     "role": "QB1 (transfer, UNLV)",
+     "evidence": "89.9 PFF/514; MW POY; 3,459 @ 65.9%, 23-5 + 649 rush 2025"
+    },
+    {
+     "name": "TJ Lateef",
+     "role": "QB2 (returning, SO)",
+     "evidence": "52.0/155 2025; won the UCLA start"
+    }
    ],
-   "data_gaps": ["Spring reporting on the Holgorsen install beyond books", "Turnover profile vs B10 defenses untested"],
+   "data_gaps": [
+    "Spring reporting on the Holgorsen install beyond books",
+    "Turnover profile vs B10 defenses untested"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Nebraska", "unit": "RB", "grade": 40, "confidence": "M",
-   "bracketing_exemplars": ["Illinois RB 2025 (32)", "Nebraska WRTE 2025 (50)"],
+   "team": "Nebraska",
+   "unit": "RB",
+   "grade": 40,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Illinois RB 2025 (32)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "Emmett Johnson is gone to the draft (85.6 PFF/251 att; 1,451 @ 5.8 + 370 receiving; 2nd-team All-American; rd-5 KC) - a yr3 early declare caught by the override mechanism (feed would print RETURNS).",
     "Rhule chose NOT to supplement from the portal (P6) - the room is hints only: Nelson (82.3/28), converted WR Mozee (73.1/26), hamstring-limited power back Ives (75.9/20), and true FR Rule (PS#46; 75-yd spring TD; 'home run ability').",
@@ -56,15 +107,32 @@
     "40, M = the same priors-only shape as Michigan State's bought room minus the buying."
    ],
    "key_players": [
-    {"name": "Mekhi Nelson", "role": "RB1 candidate (SO)", "evidence": "82.3 PFF/28 att 2025; 147 @ 5.4 (PS)"},
-    {"name": "Jamal Rule", "role": "RB (true FR signee)", "evidence": "PS#46; 75-yd spring-game TD"}
+    {
+     "name": "Mekhi Nelson",
+     "role": "RB1 candidate (SO)",
+     "evidence": "82.3 PFF/28 att 2025; 147 @ 5.4 (PS)"
+    },
+    {
+     "name": "Jamal Rule",
+     "role": "RB (true FR signee)",
+     "evidence": "PS#46; 75-yd spring-game TD"
+    }
    ],
-   "data_gaps": ["RB1 unresolved", "Ives hamstring status"],
+   "data_gaps": [
+    "RB1 unresolved",
+    "Ives hamstring status"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Nebraska", "unit": "WRTE", "grade": 52, "confidence": "M",
-   "bracketing_exemplars": ["Nebraska WRTE 2025 (50)", "Wake Forest DL 2025 (60)"],
+   "team": "Nebraska",
+   "unit": "WRTE",
+   "grade": 52,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Nebraska WRTE 2025 (50)",
+    "Wake Forest DL 2025 (60)"
+   ],
    "rationale_bullets": [
     "Two experienced starters return with near-identical tape: Hunter (69.0/334 -> 68.0; team-high 617 @ 14.3; 'could push for All-Big Ten' - P6) and Barney (68.8/316 -> 67.8; a 55-catch true-FR year in 2024).",
     "TE Lindenmeyer (66.9/279 -> 65.9; 29/312) earned HM All-B10 and returns as a real outlet.",
@@ -73,16 +141,37 @@
     "Weighted aggregate ~64.9 (~p42) + experience/continuity = 52, M - fittingly, a whisker above the Nebraska-WRTE-2025 exemplar that defines 50."
    ],
    "key_players": [
-    {"name": "Nyziah Hunter", "role": "WR1 (returning starter)", "evidence": "69.0 PFF/334 routes; 617 @ 14.3 2025"},
-    {"name": "Jacory Barney Jr.", "role": "WR2 (returning starter)", "evidence": "68.8/316; 484 yds 2025; 55 rec 2024"},
-    {"name": "Luke Lindenmeyer", "role": "TE1 (returning starter)", "evidence": "66.9/279; 29/312, HM All-B10 2025"}
+    {
+     "name": "Nyziah Hunter",
+     "role": "WR1 (returning starter)",
+     "evidence": "69.0 PFF/334 routes; 617 @ 14.3 2025"
+    },
+    {
+     "name": "Jacory Barney Jr.",
+     "role": "WR2 (returning starter)",
+     "evidence": "68.8/316; 484 yds 2025; 55 rec 2024"
+    },
+    {
+     "name": "Luke Lindenmeyer",
+     "role": "TE1 (returning starter)",
+     "evidence": "66.9/279; 29/312, HM All-B10 2025"
+    }
    ],
-   "data_gaps": ["WR3 rotation behind the trio", "Clark's spring evidence"],
+   "data_gaps": [
+    "WR3 rotation behind the trio",
+    "Clark's spring evidence"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Nebraska", "unit": "OL", "grade": 66, "confidence": "M",
-   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "team": "Nebraska",
+   "unit": "OL",
+   "grade": 66,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
    "rationale_bullets": [
     "The analytic split governs this grade: PFF graded the 2025 line 88th percentile in BOTH pass- and run-blocking while the sack-rate OUTCOME was #112 - 21 of 33 sacks came in three games and PFF charged them to the QB's time-to-throw. The QB who held the ball left; a scrambler arrived.",
     "The best returning interior tape in this B10 round: C Evans (78.6/798 -> 77.6) plus ex-5* LT Pritchett (68.5/552 -> 67.5; 'developing into a pro prospect' - P6) and OFY-returnee Gottula (70.0/338).",
@@ -91,16 +180,37 @@
     "Weighted aggregate ~73.2 (~p77), graded to 66, M for five-man gel risk and the outcome history."
    ],
    "key_players": [
-    {"name": "Justin Evans", "role": "C (returning starter)", "evidence": "78.6 PFF/798 snaps 2025"},
-    {"name": "Elijah Pritchett", "role": "LT (returning starter; ex-5*)", "evidence": "68.5/552 2025; 'pro prospect' (P6)"},
-    {"name": "Brendan Black", "role": "RG (transfer, Iowa State)", "evidence": "66.9/738; 30 career starts; 4* transfer grade (P6)"}
+    {
+     "name": "Justin Evans",
+     "role": "C (returning starter)",
+     "evidence": "78.6 PFF/798 snaps 2025"
+    },
+    {
+     "name": "Elijah Pritchett",
+     "role": "LT (returning starter; ex-5*)",
+     "evidence": "68.5/552 2025; 'pro prospect' (P6)"
+    },
+    {
+     "name": "Brendan Black",
+     "role": "RG (transfer, Iowa State)",
+     "evidence": "66.9/738; 30 career starts; 4* transfer grade (P6)"
+    }
    ],
-   "data_gaps": ["RT arrangement (Babalade vs Gottula)", "Whether the sack split repeats with a mobile QB"],
+   "data_gaps": [
+    "RT arrangement (Babalade vs Gottula)",
+    "Whether the sack split repeats with a mobile QB"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Nebraska", "unit": "DL", "grade": 46, "confidence": "M",
-   "bracketing_exemplars": ["UNLV LB 2025 (40)", "Nebraska WRTE 2025 (50)"],
+   "team": "Nebraska",
+   "unit": "DL",
+   "grade": 46,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "UNLV LB 2025 (40)",
+    "Nebraska WRTE 2025 (50)"
+   ],
    "rationale_bullets": [
     "The 2025 production was near the FBS floor: PRSH 4th percentile, 22 sacks (<2/game), 175 rush ypg allowed (4.8), #114 vs the run (P6). PS: 'from a strength to a question mark.'",
     "The departures were low-graded but voluminous: Jeudy (54.1/464) + Davis (64.1/406) both to Miami (P6), McCullough (66.0/350).",
@@ -109,16 +219,37 @@
     "Mechanical aggregate ~69.8 (~p55) flatters 54-63 raw tape via the B10 +10; the production floor holds the grade at 46, M."
    ],
    "key_players": [
-    {"name": "Williams Nwaneri", "role": "DE (returning; ex-5*)", "evidence": "63.4 PFF/463 2025; PS top-DE list"},
-    {"name": "Jahsear Whittington", "role": "DT (transfer, Pittsburgh)", "evidence": "70.6/250 2025; breakout FR (P6)"},
-    {"name": "Cameron Lenhardt", "role": "DE (returning starter)", "evidence": "56.6/370 2025"}
+    {
+     "name": "Williams Nwaneri",
+     "role": "DE (returning; ex-5*)",
+     "evidence": "63.4 PFF/463 2025; PS top-DE list"
+    },
+    {
+     "name": "Jahsear Whittington",
+     "role": "DT (transfer, Pittsburgh)",
+     "evidence": "70.6/250 2025; breakout FR (P6)"
+    },
+    {
+     "name": "Cameron Lenhardt",
+     "role": "DE (returning starter)",
+     "evidence": "56.6/370 2025"
+    }
    ],
-   "data_gaps": ["Rotation in the new front", "Whether Nwaneri's leap is scheme-driven or hope"],
+   "data_gaps": [
+    "Rotation in the new front",
+    "Whether Nwaneri's leap is scheme-driven or hope"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Nebraska", "unit": "LB", "grade": 62, "confidence": "M",
-   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "team": "Nebraska",
+   "unit": "LB",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
    "rationale_bullets": [
     "The DC brought his own anchor: Chambliss (85.5 PFF/765 at SDSU, MWC -5 -> 80.5) - 110 tackles and 1st-team All-MW playing for Aurich in this exact 4-2-5; the strongest scheme-continuity prior a transfer can carry.",
     "Shavers returns as the proven B10 piece: 70.3/547 (-> 86.3), 61 tkl/7.5 TFL through injuries, a Blackshirt.",
@@ -127,15 +258,32 @@
     "Weighted aggregate ~78.3 (~p76); LB caution moderated by real volumes on both anchors. 62, M."
    ],
    "key_players": [
-    {"name": "Owen Chambliss", "role": "LB (transfer, SDSU)", "evidence": "85.5 PFF/765; 110 tkl; 1st-tm All-MW under Aurich 2025"},
-    {"name": "Vincent Shavers Jr.", "role": "LB (returning starter)", "evidence": "70.3/547; 61 tkl, 7.5 TFL 2025"}
+    {
+     "name": "Owen Chambliss",
+     "role": "LB (transfer, SDSU)",
+     "evidence": "85.5 PFF/765; 110 tkl; 1st-tm All-MW under Aurich 2025"
+    },
+    {
+     "name": "Vincent Shavers Jr.",
+     "role": "LB (returning starter)",
+     "evidence": "70.3/547; 61 tkl, 7.5 TFL 2025"
+    }
    ],
-   "data_gaps": ["Foster/Hawthorne/Merritt rotation", "Sub-grade extract unavailable"],
+   "data_gaps": [
+    "Foster/Hawthorne/Merritt rotation",
+    "Sub-grade extract unavailable"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Nebraska", "unit": "DB", "grade": 65, "confidence": "M",
-   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "team": "Nebraska",
+   "unit": "DB",
+   "grade": 65,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
    "rationale_bullets": [
     "The 2025 room held up: #3 nationally in pass ypg, #28 in P6's opponent-adjusted number, PDR #30, and PS calls the 2026 group 'my #15 rated unit.'",
     "RETURN: Marshall (70.0/662 -> 76.0) - the returning All-B10 corner - plus D.Jones (72.2/658 -> 78.2 as a FRESHMAN; moves to the new nickel), Guthrie (59.1/532; started the last 8), Conn (75.5/114).",
@@ -144,16 +292,37 @@
     "Weighted aggregate ~73.4 (~p77); CB2 projection + scheme install land it at 65, M."
    ],
    "key_players": [
-    {"name": "Andrew Marshall", "role": "CB1 (returning starter)", "evidence": "70.0 PFF/662 2025; All-B10 (P6)"},
-    {"name": "Dwayne McDougle III", "role": "S (transfer, SDSU)", "evidence": "79.3/716 2025; Aurich's starting S"},
-    {"name": "Donovan Jones", "role": "NB (returning starter, SO)", "evidence": "72.2/658 as FR 2025"}
+    {
+     "name": "Andrew Marshall",
+     "role": "CB1 (returning starter)",
+     "evidence": "70.0 PFF/662 2025; All-B10 (P6)"
+    },
+    {
+     "name": "Dwayne McDougle III",
+     "role": "S (transfer, SDSU)",
+     "evidence": "79.3/716 2025; Aurich's starting S"
+    },
+    {
+     "name": "Donovan Jones",
+     "role": "NB (returning starter, SO)",
+     "evidence": "72.2/658 as FR 2025"
+    }
    ],
-   "data_gaps": ["CB2 battle (Odem FR vs Charles)", "Guthrie's low grade at volume (59.1/532) vs his 8 starts"],
+   "data_gaps": [
+    "CB2 battle (Odem FR vs Charles)",
+    "Guthrie's low grade at volume (59.1/532) vs his 8 starts"
+   ],
    "g5_guard_note": null
   },
   {
-   "team": "Nebraska", "unit": "ST", "grade": 62, "confidence": "M",
-   "bracketing_exemplars": ["Wake Forest DL 2025 (60)", "Washington State DB 2025 (72)"],
+   "team": "Nebraska",
+   "unit": "ST",
+   "grade": 62,
+   "confidence": "M",
+   "bracketing_exemplars": [
+    "Wake Forest DL 2025 (60)",
+    "Washington State DB 2025 (72)"
+   ],
    "rationale_bullets": [
     "ST rule: start at the 97th-percentile prior SPEC (PS STR #18 - highest since 2014) and adjust: BOTH legs return - K Cunanan (16-19, long of 52) and ambipedal Aussie P Wilson (39.4/38.3 net).",
     "Subtractions: KR K.Williams (95-yd TD; 32.9 avg) to MSU, and STC Ekeler to USC - Maher (ex-NFL/Nebraska K) takes over; LS Wills imported from MSU.",
@@ -161,10 +330,21 @@
     "62, M - the Utah-62 shape: strong prior, legs retained, coordinator/returner churn. PS: 'could drop some after the large rise.'"
    ],
    "key_players": [
-    {"name": "Kyle Cunanan", "role": "K (returning)", "evidence": "16-19 FG, L52 2025"},
-    {"name": "Archie Wilson", "role": "P (returning)", "evidence": "39.4/38.3 net 2025; ambipedal"}
+    {
+     "name": "Kyle Cunanan",
+     "role": "K (returning)",
+     "evidence": "16-19 FG, L52 2025"
+    },
+    {
+     "name": "Archie Wilson",
+     "role": "P (returning)",
+     "evidence": "39.4/38.3 net 2025; ambipedal"
+    }
    ],
-   "data_gaps": ["Return-game replacement production", "Maher's coordination (first year)"],
+   "data_gaps": [
+    "Return-game replacement production",
+    "Maher's coordination (first year)"
+   ],
    "g5_guard_note": null
   }
  ]
