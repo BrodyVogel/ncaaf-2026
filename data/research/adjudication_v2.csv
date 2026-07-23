@@ -45,7 +45,1055 @@ South Alabama,DB,44,"dg+20; DB policy",51,M,"1/3 blend"
 Tulane,DB,42,"dg-25; DB policy",34,M,"1/3 blend down"
 Colorado State,OL,16,"dg+15; NOTE team rating override-pinned at -9.0",24,M,"blend logged; override remains operative"
 Arizona,WRTE,52,"dg-14",45,M,"50/50"
-Notre Dame,ALL,-,"DEFERRED: IND demeaning pool (n=2) is meaningless; needs Illinois-style re-open under the Independents fix",reopen,-,"next session, first item"
 Rutgers,DB,36,"dg+17; DB policy",42,M,"1/3 blend"
 Western Kentucky,DB,50,"dg+27; DB policy",58,M,"1/3 blend cap 8"
 Michigan State,WRTE,38,"dg+14",45,M,"50/50"
+Notre Dame,QB,86,"IND-fix: v2_pct 89.6, dg-9.6 vs P4 pool; Carr 85.1/317 at w-cap; FR-backup drag partly artifact",84,M,"partial blend"
+Notre Dame,RB,66,"dg-11.3 but w=0.19/0.11 — formula near-zero info; system+OL priced by dossier",64,M,"light blend"
+Notre Dame,WRTE,74,"dg+3.6",74,H,"T3 verified accept"
+Notre Dame,OL,78,"dg-13.3; PFF individuals lukewarm (only Knapp >65), C recovering, FR LT; PickSix unit-level override partly retained",74,M,"partial blend"
+Notre Dame,DL,80,"dg-1.7; formula p99 confirms elite",80,H,"T3 verified accept"
+Notre Dame,LB,76,"dg-2.4; KVA 89.7 at LB w-cap",76,H,"T3 verified accept"
+Notre Dame,DB,80,"dg+1.1; Moore p100 raw; Johnson unmatched (PFF name known)",80,H,"T3 verified accept"
+Notre Dame,ST,62,"no formula arm; news clean; proven K transfer",62,M,"T3 screens only"
+Air Force,QB,32,dg+8.3; option-scheme blind spot — blend halved,34,M,50/50 blend
+Air Force,RB,22,dg+3.6,22,M,T3 verified accept
+Air Force,WRTE,14,dg+14.6 but unit info 0.09 — formula is prior-noise,14,M,T3 hold; formula uninformative
+Air Force,OL,26,dg+4.4,26,M,T3 verified accept (within 1SD noise band)
+Air Force,DL,14,dg+13.5; option-scheme blind spot — blend halved,17,L,50/50 blend
+Air Force,LB,20,dg+0.5,20,M,T3 verified accept
+Air Force,DB,18,dg-16.3; option-scheme blind spot — blend halved,15,M,DB policy 1/3 blend
+Air Force,ST,12,no formula arm,12,M,T3 hold; news/media-days integrated
+Akron,QB,34,dg-8.6; info 0.12 — blend halved,32,L,50/50 blend
+Akron,RB,16,dg+0.5,16,M,T3 verified accept
+Akron,WRTE,28,dg-5.7,28,M,T3 verified accept (within 1SD noise band)
+Akron,OL,14,dg+5.1,14,M,T3 verified accept (within 1SD noise band)
+Akron,DL,12,dg+0.6,12,M,T3 verified accept
+Akron,LB,12,dg+16.5 but unit info 0.06 — formula is prior-noise,12,L,T3 hold; formula uninformative
+Akron,DB,22,dg+1.6,22,M,T3 verified accept
+Akron,ST,24,no formula arm,24,M,T3 hold; news/media-days integrated
+Alabama,QB,48,dg+3.0,48,L,T3 verified accept
+Alabama,RB,48,dg-0.6,48,M,T3 verified accept
+Alabama,WRTE,54,dg-5.6,54,M,T3 verified accept (within 1SD noise band)
+Alabama,OL,46,dg+7.1,46,L,T3 verified accept (within 1SD noise band)
+Alabama,DL,46,dg-0.7,46,M,T3 verified accept
+Alabama,LB,48,dg-0.9,48,M,T3 verified accept
+Alabama,DB,76,dg-10.3,73,H,DB policy 1/3 blend
+Alabama,ST,48,no formula arm,48,M,T3 hold; news/media-days integrated
+App State,QB,40,dg+13.7; info 0.18 — blend halved,43,L,50/50 blend
+App State,RB,48,dg+0.2,48,M,T3 verified accept
+App State,WRTE,38,dg-3.7,38,L,T3 verified accept
+App State,OL,40,dg+11.0,46,M,50/50 blend
+App State,DL,42,dg+7.0,42,M,T3 verified accept (within 1SD noise band)
+App State,LB,54,dg+10.3,58,M,LB 0.4 blend
+App State,DB,40,dg+5.8,40,M,T3 verified accept (within 1SD noise band)
+App State,ST,44,no formula arm,44,M,T3 hold; news/media-days integrated
+Arizona,QB,88,dg-9.0,84,M,50/50 blend
+Arizona,RB,55,dg-12.0,49,M,50/50 blend
+Arizona,OL,58,dg-7.6,58,M,T3 verified accept (within 1SD noise band)
+Arizona,DL,48,dg-9.1,43,M,50/50 blend
+Arizona,LB,60,dg-5.9,60,M,T3 verified accept (within 1SD noise band)
+Arizona,DB,46,dg+13.1 but unit info 0.08 — formula is prior-noise,46,M,T3 hold; formula uninformative
+Arizona,ST,42,no formula arm,42,M,T3 hold; news/media-days integrated
+Arizona State,RB,45,dg+6.9,45,M,T3 verified accept (within 1SD noise band)
+Arizona State,OL,36,dg+5.4,36,M,T3 verified accept (within 1SD noise band)
+Arizona State,DL,51,dg-2.4,51,M,T3 verified accept
+Arizona State,LB,50,dg-1.8,50,M,T3 verified accept
+Arizona State,DB,48,dg+0.1,48,M,T3 verified accept
+Arizona State,ST,40,no formula arm,40,M,T3 hold; news/media-days integrated
+Arkansas,QB,42,dg+8.2; info 0.19 — blend halved,44,L,50/50 blend
+Arkansas,RB,46,dg+7.3,46,M,T3 verified accept (within 1SD noise band)
+Arkansas,WRTE,44,dg-3.8,44,M,T3 verified accept
+Arkansas,OL,44,dg+1.5,44,M,T3 verified accept
+Arkansas,DL,48,dg+2.5,48,M,T3 verified accept
+Arkansas,LB,44,dg-3.5,44,M,T3 verified accept
+Arkansas,DB,48,dg-2.8,48,M,T3 verified accept
+Arkansas,ST,44,no formula arm,44,M,T3 hold; news/media-days integrated
+Arkansas State,QB,44,dg+2.5,44,L,T3 verified accept
+Arkansas State,RB,52,dg-9.7,47,M,50/50 blend
+Arkansas State,WRTE,50,dg-0.8,50,M,T3 verified accept
+Arkansas State,OL,54,dg+15.2,62,M,50/50 blend
+Arkansas State,DL,40,dg-11.9; info 0.12 — blend halved,37,M,50/50 blend
+Arkansas State,LB,42,dg+0.1,42,M,T3 verified accept
+Arkansas State,DB,44,dg-23.8,36,M,DB policy 1/3 blend
+Arkansas State,ST,56,no formula arm,56,M,T3 hold; news/media-days integrated
+Army,QB,62,dg-0.1,62,M,T3 verified accept
+Army,RB,38,dg-3.3,38,M,T3 verified accept
+Army,WRTE,40,dg+6.5,40,M,T3 verified accept (within 1SD noise band)
+Army,OL,84,dg-20.8; option-scheme blind spot — blend halved,79,M,50/50 blend
+Army,DL,25,dg-3.9,25,M,T3 verified accept
+Army,LB,15,dg+12.2 but unit info 0.01 — formula is prior-noise,15,L,T3 hold; formula uninformative
+Army,DB,22,dg+8.1; info 0.10 — blend halved; option-scheme blind spot — blend halved,23,L,DB policy 1/3 blend
+Army,ST,65,no formula arm,65,M,T3 hold; news/media-days integrated
+Auburn,QB,60,dg+3.0,60,M,T3 verified accept
+Auburn,RB,54,dg+1.5,54,M,T3 verified accept
+Auburn,WRTE,48,dg-1.1,48,M,T3 verified accept
+Auburn,OL,48,dg+6.6,48,M,T3 verified accept (within 1SD noise band)
+Auburn,DL,54,dg+12.9,60,M,50/50 blend
+Auburn,LB,54,dg-0.2,54,M,T3 verified accept
+Auburn,DB,50,dg-6.9,50,M,T3 verified accept (within 1SD noise band)
+Auburn,ST,56,no formula arm,56,M,T3 hold; news/media-days integrated
+BYU,QB,72,dg-3.4,72,H,T3 verified accept
+BYU,RB,82,dg-13.2,75,M,50/50 blend
+BYU,WRTE,48,dg-7.0,48,M,T3 verified accept (within 1SD noise band)
+BYU,OL,68,dg-14.5,61,M,50/50 blend
+BYU,DL,52,dg-7.8,52,M,T3 verified accept (within 1SD noise band)
+BYU,LB,50,dg-7.7,50,M,T3 verified accept (within 1SD noise band)
+BYU,DB,70,dg-8.0,70,M,T3 verified accept (within 1SD noise band)
+BYU,ST,42,no formula arm,42,M,T3 hold; news/media-days integrated
+Ball State,QB,18,dg+16.2 but unit info 0.00 — formula is prior-noise,18,L,T3 hold; formula uninformative
+Ball State,RB,8,dg+7.7,8,M,T3 verified accept (within 1SD noise band)
+Ball State,WRTE,12,dg+8.8; info 0.17 — blend halved,14,M,50/50 blend
+Ball State,OL,12,dg+3.3,12,M,T3 verified accept
+Ball State,DL,8,dg+1.6,8,M,T3 verified accept
+Ball State,LB,8,dg+9.4 but unit info 0.04 — formula is prior-noise,8,L,T3 hold; formula uninformative
+Ball State,DB,14,dg+13.3 but unit info 0.06 — formula is prior-noise,14,M,T3 hold; formula uninformative
+Ball State,ST,10,no formula arm,10,M,T3 hold; news/media-days integrated
+Baylor,QB,52,dg+6.2,52,M,T3 verified accept (within 1SD noise band)
+Baylor,RB,44,dg+15.9; info 0.18 — blend halved,48,M,50/50 blend
+Baylor,WRTE,44,dg-12.0; info 0.14 — blend halved,41,M,50/50 blend
+Baylor,OL,40,dg+0.6,40,M,T3 verified accept
+Baylor,DL,47,dg-5.8,47,M,T3 verified accept (within 1SD noise band)
+Baylor,LB,38,dg+2.8,38,L,T3 verified accept
+Baylor,DB,52,dg+1.3,52,M,T3 verified accept
+Baylor,ST,52,no formula arm,52,M,T3 hold; news/media-days integrated
+Boise State,QB,32,dg-7.7,32,M,T3 verified accept (within 1SD noise band)
+Boise State,RB,50,dg-11.9,44,M,50/50 blend
+Boise State,WRTE,14,dg+7.9,14,L,T3 verified accept (within 1SD noise band)
+Boise State,OL,20,dg-0.9,20,M,T3 verified accept
+Boise State,DL,50,dg-16.5,42,M,50/50 blend
+Boise State,LB,30,dg-3.5,30,M,T3 verified accept
+Boise State,DB,46,dg-9.3; info 0.14 — blend halved,44,M,DB policy 1/3 blend
+Boise State,ST,44,no formula arm,44,M,T3 hold; news/media-days integrated
+Boston College,QB,40,no matched players — formula uninformative,40,L,T3 hold; no formula info
+Boston College,RB,50,dg+10.5,55,M,50/50 blend
+Boston College,WRTE,42,dg-3.2,42,L,T3 verified accept
+Boston College,OL,46,dg+2.3,46,M,T3 verified accept
+Boston College,DL,40,dg-7.0,40,L,T3 verified accept (within 1SD noise band)
+Boston College,LB,42,dg+3.9,42,M,T3 verified accept
+Boston College,DB,48,dg-6.1,48,M,T3 verified accept (within 1SD noise band)
+Boston College,ST,52,no formula arm,52,M,T3 hold; news/media-days integrated
+Bowling Green,RB,28,dg-7.1,28,M,T3 verified accept (within 1SD noise band)
+Bowling Green,WRTE,18,dg+3.5,18,M,T3 verified accept
+Bowling Green,OL,10,dg+7.5,10,M,T3 verified accept (within 1SD noise band)
+Bowling Green,DB,30,dg-2.0,30,M,T3 verified accept
+Bowling Green,ST,18,no formula arm,18,M,T3 hold; news/media-days integrated
+Buffalo,QB,22,no matched players — formula uninformative,22,L,T3 hold; no formula info
+Buffalo,RB,16,dg+1.2,16,M,T3 verified accept
+Buffalo,WRTE,22,dg-4.9,22,M,T3 verified accept (within 1SD noise band)
+Buffalo,OL,16,dg+4.6,16,M,T3 verified accept (within 1SD noise band)
+Buffalo,DL,14,dg-3.7,14,M,T3 verified accept
+Buffalo,LB,12,dg-1.3,12,L,T3 verified accept
+Buffalo,DB,42,dg-7.4,42,M,T3 verified accept (within 1SD noise band)
+Buffalo,ST,22,no formula arm,22,M,T3 hold; news/media-days integrated
+California,QB,58,dg+1.6,58,M,T3 verified accept
+California,RB,46,dg+10.8,51,M,50/50 blend
+California,WRTE,54,dg+5.7,54,M,T3 verified accept (within 1SD noise band)
+California,OL,44,dg-2.5,44,M,T3 verified accept
+California,DL,42,dg-0.1,42,L,T3 verified accept
+California,LB,38,dg+5.0,38,L,T3 verified accept (within 1SD noise band)
+California,DB,48,dg-0.9,48,M,T3 verified accept
+California,ST,42,no formula arm,42,M,T3 hold; news/media-days integrated
+Central Michigan,QB,38,dg+0.2,38,M,T3 verified accept
+Central Michigan,RB,28,dg-13.0; info 0.17 — blend halved,25,M,50/50 blend
+Central Michigan,WRTE,28,dg-1.2,28,M,T3 verified accept
+Central Michigan,OL,28,dg-9.7,23,M,50/50 blend
+Central Michigan,DL,24,dg-5.4,24,M,T3 verified accept (within 1SD noise band)
+Central Michigan,LB,14,dg-0.3,14,L,T3 verified accept
+Central Michigan,DB,22,dg-7.1,22,M,T3 verified accept (within 1SD noise band)
+Central Michigan,ST,26,no formula arm,26,M,T3 hold; news/media-days integrated
+Charlotte,QB,38,dg-5.7,38,L,T3 verified accept (within 1SD noise band)
+Charlotte,RB,35,dg+7.8,35,M,T3 verified accept (within 1SD noise band)
+Charlotte,WRTE,44,dg+4.0,44,M,T3 verified accept
+Charlotte,OL,18,dg+17.2 but unit info 0.10 — formula is prior-noise,18,L,T3 hold; formula uninformative
+Charlotte,DL,14,dg+13.1,21,M,50/50 blend
+Charlotte,LB,30,dg-5.0,30,L,T3 verified accept (within 1SD noise band)
+Charlotte,DB,20,dg+11.5; info 0.10 — blend halved,22,L,DB policy 1/3 blend
+Charlotte,ST,22,no formula arm,22,L,T3 hold; news/media-days integrated
+Cincinnati,QB,44,dg-14.6,37,M,50/50 blend
+Cincinnati,RB,50,dg-3.3,50,M,T3 verified accept
+Cincinnati,WRTE,40,dg-4.3,40,L,T3 verified accept (within 1SD noise band)
+Cincinnati,OL,76,dg-16.5,68,M,50/50 blend
+Cincinnati,DL,28,dg-7.0,28,M,T3 verified accept (within 1SD noise band)
+Cincinnati,LB,55,dg-3.1,55,M,T3 verified accept
+Cincinnati,DB,45,dg+10.4,48,M,DB policy 1/3 blend
+Cincinnati,ST,52,no formula arm,52,M,T3 hold; news/media-days integrated
+Clemson,QB,48,dg-25.2,40,M,50/50 blend
+Clemson,RB,52,dg-6.2,52,M,T3 verified accept (within 1SD noise band)
+Clemson,WRTE,56,dg-0.0,56,M,T3 verified accept
+Clemson,OL,48,dg+2.5,48,L,T3 verified accept
+Clemson,DL,58,dg+4.1,58,M,T3 verified accept (within 1SD noise band)
+Clemson,LB,54,dg+0.1,54,M,T3 verified accept
+Clemson,DB,54,dg+3.3,54,M,T3 verified accept
+Clemson,ST,56,no formula arm,56,M,T3 hold; news/media-days integrated
+Coastal Carolina,QB,38,dg-0.3,38,L,T3 verified accept
+Coastal Carolina,RB,46,dg-5.9,46,M,T3 verified accept (within 1SD noise band)
+Coastal Carolina,WRTE,40,dg-7.2,40,M,T3 verified accept (within 1SD noise band)
+Coastal Carolina,OL,36,dg-4.7,36,L,T3 verified accept (within 1SD noise band)
+Coastal Carolina,DL,48,dg+18.9,56,M,50/50 blend
+Coastal Carolina,LB,50,dg-11.6,45,M,LB 0.4 blend
+Coastal Carolina,DB,44,dg-15.0,39,M,DB policy 1/3 blend
+Coastal Carolina,ST,44,no formula arm,44,M,T3 hold; news/media-days integrated
+Colorado,QB,45,dg+16.4; info 0.17 — blend halved,49,M,50/50 blend
+Colorado,RB,48,dg-3.5,48,M,T3 verified accept
+Colorado,WRTE,56,dg+2.1,56,M,T3 verified accept
+Colorado,OL,40,dg+2.9,40,M,T3 verified accept
+Colorado,DL,55,dg+9.3,60,M,50/50 blend
+Colorado,LB,50,dg-4.0,50,M,T3 verified accept (within 1SD noise band)
+Colorado,DB,47,dg-9.1; info 0.19 — blend halved,45,M,DB policy 1/3 blend
+Colorado,ST,42,no formula arm,42,M,T3 hold; news/media-days integrated
+Colorado State,QB,24,dg+10.7; info 0.16 — blend halved,27,L,50/50 blend
+Colorado State,RB,30,dg+0.8,30,M,T3 verified accept
+Colorado State,WRTE,16,dg+4.4,16,L,T3 verified accept (within 1SD noise band)
+Colorado State,DL,26,dg-10.4,21,M,50/50 blend
+Colorado State,LB,24,dg+4.7,24,M,T3 verified accept (within 1SD noise band)
+Colorado State,DB,22,dg-11.6; info 0.16 — blend halved,20,M,DB policy 1/3 blend
+Colorado State,ST,20,no formula arm,20,M,T3 hold; news/media-days integrated
+Delaware,QB,52,dg-0.9,52,M,T3 verified accept
+Delaware,RB,48,dg-3.7,48,M,T3 verified accept
+Delaware,WRTE,50,dg+27.1,58,M,50/50 blend
+Delaware,OL,48,dg+2.4,48,M,T3 verified accept
+Delaware,DL,44,dg+9.9,49,M,50/50 blend
+Delaware,LB,46,dg+3.0,46,M,T3 verified accept
+Delaware,DB,46,dg+14.8,51,M,DB policy 1/3 blend
+Delaware,ST,42,no formula arm,42,M,T3 hold; news/media-days integrated
+Duke,QB,50,dg-24.8 | ADJUDICATOR: solo-matched unit (FR QB2 unmatched) — aggregation artifact; Eget v2 player-value ABOVE v1 (spec worked example); partial blend only,46,M,manual middle ground
+Duke,RB,62,dg+9.5,67,M,50/50 blend
+Duke,WRTE,48,dg+13.2,55,M,50/50 blend
+Duke,OL,52,dg-2.2,52,M,T3 verified accept
+Duke,DL,42,dg+5.9,42,L,T3 verified accept (within 1SD noise band)
+Duke,LB,46,dg-2.3,46,M,T3 verified accept
+Duke,DB,46,dg-6.2,46,L,T3 verified accept (within 1SD noise band)
+Duke,ST,50,no formula arm,50,M,T3 hold; news/media-days integrated
+East Carolina,QB,44,no matched players — formula uninformative,44,L,T3 hold; no formula info
+East Carolina,RB,50,dg+3.9,50,M,T3 verified accept
+East Carolina,OL,30,dg+3.7,30,M,T3 verified accept
+East Carolina,DL,54,dg-7.5,54,M,T3 verified accept (within 1SD noise band)
+East Carolina,DB,55,dg-4.5,55,M,T3 verified accept (within 1SD noise band)
+East Carolina,ST,52,no formula arm,52,M,T3 hold; news/media-days integrated
+Eastern Michigan,QB,40,dg-8.2; info 0.14 — blend halved,38,M,50/50 blend
+Eastern Michigan,RB,14,dg+9.1 but unit info 0.02 — formula is prior-noise,14,M,T3 hold; formula uninformative
+Eastern Michigan,WRTE,34,dg-9.5,29,M,50/50 blend
+Eastern Michigan,OL,18,dg-4.2,18,M,T3 verified accept (within 1SD noise band)
+Eastern Michigan,DL,18,dg+2.0,18,M,T3 verified accept
+Eastern Michigan,LB,16,dg-4.6,16,M,T3 verified accept (within 1SD noise band)
+Eastern Michigan,DB,28,dg-13.9; info 0.15 — blend halved,26,M,DB policy 1/3 blend
+Eastern Michigan,ST,24,no formula arm,24,M,T3 hold; news/media-days integrated
+Florida,QB,48,dg+4.6,48,L,T3 verified accept (within 1SD noise band)
+Florida,RB,60,dg+4.3,60,M,T3 verified accept (within 1SD noise band)
+Florida,WRTE,50,dg+1.4,50,M,T3 verified accept
+Florida,OL,44,dg+3.8,44,L,T3 verified accept
+Florida,DL,54,dg+4.7,54,M,T3 verified accept (within 1SD noise band)
+Florida,LB,56,dg-8.1,53,M,LB 0.4 blend
+Florida,ST,56,no formula arm,56,M,T3 hold; news/media-days integrated
+Florida Atlantic,QB,55,dg-8.3,51,M,50/50 blend
+Florida Atlantic,RB,40,dg+5.8,40,M,T3 verified accept (within 1SD noise band)
+Florida Atlantic,WRTE,50,dg+6.9,50,M,T3 verified accept (within 1SD noise band)
+Florida Atlantic,OL,33,dg+11.3,39,M,50/50 blend
+Florida Atlantic,DL,28,dg+1.3,28,M,T3 verified accept
+Florida Atlantic,LB,20,dg-2.4,20,L,T3 verified accept
+Florida Atlantic,DB,15,dg+5.6,15,L,T3 verified accept (within 1SD noise band)
+Florida Atlantic,ST,50,no formula arm,50,M,T3 hold; news/media-days integrated
+Florida International,QB,46,dg+5.9,46,M,T3 verified accept (within 1SD noise band)
+Florida International,RB,42,dg-9.5,37,M,50/50 blend
+Florida International,WRTE,46,dg+6.5,46,M,T3 verified accept (within 1SD noise band)
+Florida International,OL,40,dg+4.3,40,M,T3 verified accept (within 1SD noise band)
+Florida International,DL,46,dg-12.2,40,M,50/50 blend
+Florida International,LB,44,dg+8.0,44,M,T3 verified accept (within 1SD noise band)
+Florida International,DB,44,dg+1.4,44,M,T3 verified accept
+Florida International,ST,44,no formula arm,44,M,T3 hold; news/media-days integrated
+Florida State,QB,48,dg+7.6,48,L,T3 verified accept (within 1SD noise band)
+Florida State,RB,58,dg-0.5,58,M,T3 verified accept
+Florida State,WRTE,58,dg+10.6,63,M,50/50 blend
+Florida State,OL,40,dg+3.7,40,L,T3 verified accept
+Florida State,DL,46,dg-1.1,46,M,T3 verified accept
+Florida State,LB,48,dg-2.8,48,M,T3 verified accept
+Florida State,DB,48,dg-0.2,48,M,T3 verified accept
+Florida State,ST,44,no formula arm,44,L,T3 hold; news/media-days integrated
+Fresno State,QB,30,dg-3.3,30,L,T3 verified accept
+Fresno State,RB,46,dg-11.5,40,M,50/50 blend
+Fresno State,WRTE,38,dg-14.6,31,M,50/50 blend
+Fresno State,OL,40,dg-16.4,32,M,50/50 blend
+Fresno State,DL,44,dg-20.2,36,M,50/50 blend
+Fresno State,LB,40,dg-17.2,33,M,LB 0.4 blend
+Fresno State,DB,44,dg-9.5; info 0.12 — blend halved,42,M,DB policy 1/3 blend
+Fresno State,ST,48,no formula arm,48,M,T3 hold; news/media-days integrated
+Georgia,QB,70,dg-8.6,66,M,50/50 blend
+Georgia,RB,70,dg-6.4,70,M,T3 verified accept (within 1SD noise band)
+Georgia,WRTE,56,dg-6.1,56,M,T3 verified accept (within 1SD noise band)
+Georgia,OL,60,dg-4.6,60,M,T3 verified accept (within 1SD noise band)
+Georgia,DL,58,dg-9.0,54,M,50/50 blend
+Georgia,LB,62,dg+2.2,62,M,T3 verified accept
+Georgia,DB,66,dg-2.5,66,M,T3 verified accept
+Georgia,ST,60,no formula arm,60,M,T3 hold; news/media-days integrated
+Georgia Southern,QB,46,dg-15.5,38,M,50/50 blend
+Georgia Southern,RB,42,dg+1.1,42,M,T3 verified accept
+Georgia Southern,WRTE,44,dg-1.5,44,M,T3 verified accept
+Georgia Southern,OL,40,dg-1.1,40,M,T3 verified accept
+Georgia Southern,DL,42,dg+16.7,50,M,50/50 blend
+Georgia Southern,LB,40,dg-10.5,36,M,LB 0.4 blend
+Georgia Southern,DB,42,dg-9.4,39,M,DB policy 1/3 blend
+Georgia Southern,ST,42,no formula arm,42,M,T3 hold; news/media-days integrated
+Georgia State,RB,40,dg-2.1,40,M,T3 verified accept
+Georgia State,WRTE,42,dg-10.7,37,M,50/50 blend
+Georgia State,OL,40,dg-15.5,32,M,50/50 blend
+Georgia State,DL,40,dg-21.6,32,M,50/50 blend
+Georgia State,LB,38,dg-1.1,38,M,T3 verified accept
+Georgia State,DB,40,dg+0.7,40,M,T3 verified accept
+Georgia State,ST,40,no formula arm,40,M,T3 hold; news/media-days integrated
+Georgia Tech,QB,46,dg+17.6 but unit info 0.07 — formula is prior-noise,46,L,T3 hold; formula uninformative
+Georgia Tech,RB,66,dg-6.3,66,M,T3 verified accept (within 1SD noise band)
+Georgia Tech,WRTE,38,dg+9.0,43,M,50/50 blend
+Georgia Tech,OL,48,dg+3.3,48,M,T3 verified accept
+Georgia Tech,DL,40,dg+2.7,40,L,T3 verified accept
+Georgia Tech,LB,50,dg-0.4,50,M,T3 verified accept
+Georgia Tech,DB,48,dg-3.9,48,M,T3 verified accept
+Georgia Tech,ST,62,no formula arm,62,M,T3 hold; news/media-days integrated
+Hawai'i,RB,14,dg+10.9,19,M,50/50 blend
+Hawai'i,WRTE,18,dg+7.6,18,M,T3 verified accept (within 1SD noise band)
+Hawai'i,OL,10,dg+7.6,10,L,T3 verified accept (within 1SD noise band)
+Hawai'i,DL,16,dg+7.0,16,L,T3 verified accept (within 1SD noise band)
+Hawai'i,LB,14,dg+5.1,14,M,T3 verified accept (within 1SD noise band)
+Hawai'i,ST,12,no formula arm,12,L,T3 hold; news/media-days integrated
+Houston,QB,62,dg+8.2,66,M,50/50 blend
+Houston,RB,52,dg-2.3,52,M,T3 verified accept
+Houston,WRTE,58,dg+8.3,62,M,50/50 blend
+Houston,OL,46,dg+6.0,46,M,T3 verified accept (within 1SD noise band)
+Houston,DL,55,dg-7.1,55,M,T3 verified accept (within 1SD noise band)
+Houston,LB,48,dg+1.7,48,M,T3 verified accept
+Houston,DB,60,dg-3.8,60,M,T3 verified accept
+Houston,ST,42,no formula arm,42,M,T3 hold; news/media-days integrated
+Illinois,DB,62,dg-3.9,62,M,T3 verified accept
+Illinois,ST,30,no formula arm,30,M,T3 hold; news/media-days integrated
+Indiana,QB,70,dg+14.3,77,M,50/50 blend
+Indiana,RB,62,dg+2.2,62,M,T3 verified accept
+Indiana,WRTE,65,dg+1.6,65,M,T3 verified accept
+Indiana,OL,74,dg-4.3,74,H,T3 verified accept (within 1SD noise band)
+Indiana,DL,77,dg-5.9,77,M,T3 verified accept (within 1SD noise band)
+Indiana,LB,77,dg-10.0,73,M,LB 0.4 blend
+Indiana,DB,72,dg+4.4,72,M,T3 verified accept (within 1SD noise band)
+Indiana,ST,65,no formula arm,65,M,T3 hold; news/media-days integrated
+Iowa,QB,32,dg+24.3 but unit info 0.03 — formula is prior-noise,32,L,T3 hold; formula uninformative
+Iowa,RB,70,dg-9.5,65,M,50/50 blend
+Iowa,WRTE,42,dg+2.9,42,M,T3 verified accept
+Iowa,OL,87,dg-9.7; info 0.17 — blend halved,85,M,50/50 blend
+Iowa,DL,48,dg-2.2,48,L,T3 verified accept
+Iowa,LB,58,dg+3.8,58,L,T3 verified accept
+Iowa,DB,80,dg-1.4,80,M,T3 verified accept
+Iowa,ST,60,no formula arm,60,L,T3 hold; news/media-days integrated
+Iowa State,QB,48,dg-4.2,48,M,T3 verified accept (within 1SD noise band)
+Iowa State,RB,42,dg-5.6,42,M,T3 verified accept (within 1SD noise band)
+Iowa State,WRTE,40,dg-2.8,40,L,T3 verified accept
+Iowa State,OL,32,dg+12.4 but unit info 0.02 — formula is prior-noise,32,L,T3 hold; formula uninformative
+Iowa State,DL,46,dg-2.6,46,M,T3 verified accept
+Iowa State,LB,40,dg-4.4,40,L,T3 verified accept (within 1SD noise band)
+Iowa State,DB,40,dg+6.0,40,M,T3 verified accept (within 1SD noise band)
+Iowa State,ST,52,no formula arm,52,M,T3 hold; news/media-days integrated
+Jacksonville State,QB,52,dg-10.5,47,M,50/50 blend
+Jacksonville State,RB,42,dg-0.7,42,M,T3 verified accept
+Jacksonville State,WRTE,46,dg-16.6,38,M,50/50 blend
+Jacksonville State,OL,46,dg-4.7,46,M,T3 verified accept (within 1SD noise band)
+Jacksonville State,DL,42,dg+21.6,50,M,50/50 blend
+Jacksonville State,LB,48,dg-7.9,48,M,T3 verified accept (within 1SD noise band)
+Jacksonville State,DB,50,dg-3.8,50,M,T3 verified accept
+Jacksonville State,ST,48,no formula arm,48,M,T3 hold; news/media-days integrated
+James Madison,QB,44,dg-2.3,44,L,T3 verified accept
+James Madison,RB,46,dg-5.1,46,M,T3 verified accept (within 1SD noise band)
+James Madison,WRTE,46,dg-1.2,46,M,T3 verified accept
+James Madison,OL,44,dg+15.3,52,M,50/50 blend
+James Madison,DL,46,dg+20.2,54,M,50/50 blend
+James Madison,LB,46,dg-3.2,46,M,T3 verified accept
+James Madison,DB,48,dg-3.7,48,M,T3 verified accept
+James Madison,ST,54,no formula arm,54,M,T3 hold; news/media-days integrated
+Kansas,QB,42,dg+17.8 but unit info 0.05 — formula is prior-noise,42,M,T3 hold; formula uninformative
+Kansas,RB,48,dg-0.6,48,M,T3 verified accept
+Kansas,WRTE,44,dg+0.7,44,M,T3 verified accept
+Kansas,OL,45,dg-2.9,45,M,T3 verified accept
+Kansas,DL,50,dg+0.1,50,M,T3 verified accept
+Kansas,LB,52,dg+2.9,52,M,T3 verified accept
+Kansas,DB,42,dg-1.9,42,M,T3 verified accept
+Kansas,ST,40,no formula arm,40,M,T3 hold; news/media-days integrated
+Kansas State,QB,60,dg+11.8,66,M,50/50 blend
+Kansas State,RB,52,dg-16.3,44,M,50/50 blend
+Kansas State,WRTE,52,dg+0.9,52,M,T3 verified accept
+Kansas State,OL,44,dg+11.0,49,M,50/50 blend
+Kansas State,DL,45,dg+2.1,45,M,T3 verified accept
+Kansas State,LB,44,dg-2.5,44,M,T3 verified accept
+Kansas State,DB,52,dg-0.9,52,M,T3 verified accept
+Kansas State,ST,55,no formula arm,55,M,T3 hold; news/media-days integrated
+Kent State,QB,32,dg-4.2,32,M,T3 verified accept (within 1SD noise band)
+Kent State,RB,10,dg+3.5,10,M,T3 verified accept
+Kent State,WRTE,26,dg-0.7,26,M,T3 verified accept
+Kent State,OL,12,dg+2.5,12,M,T3 verified accept
+Kent State,DL,22,dg-2.7,22,M,T3 verified accept
+Kent State,LB,14,dg+4.8,14,M,T3 verified accept (within 1SD noise band)
+Kent State,DB,18,dg-9.0; info 0.15 — blend halved,17,M,DB policy 1/3 blend
+Kent State,ST,26,no formula arm,26,M,T3 hold; news/media-days integrated
+Kentucky,QB,50,dg+7.4,50,M,T3 verified accept (within 1SD noise band)
+Kentucky,RB,48,dg-7.2,48,M,T3 verified accept (within 1SD noise band)
+Kentucky,WRTE,48,dg+5.6,48,M,T3 verified accept (within 1SD noise band)
+Kentucky,OL,54,dg-0.1,54,M,T3 verified accept
+Kentucky,DL,58,dg+6.0,58,M,T3 verified accept (within 1SD noise band)
+Kentucky,LB,44,dg-2.1,44,L,T3 verified accept
+Kentucky,DB,50,dg+2.5,50,M,T3 verified accept
+Kentucky,ST,48,no formula arm,48,M,T3 hold; news/media-days integrated
+LSU,QB,60,dg-0.2,60,M,T3 verified accept
+LSU,RB,56,dg-1.9,56,M,T3 verified accept
+LSU,WRTE,60,dg+3.3,60,M,T3 verified accept
+LSU,OL,56,dg-5.9,56,M,T3 verified accept (within 1SD noise band)
+LSU,DL,62,dg-1.0,62,M,T3 verified accept
+LSU,LB,54,dg-10.6,50,M,LB 0.4 blend
+LSU,DB,62,dg-8.0,62,M,T3 verified accept (within 1SD noise band)
+LSU,ST,54,no formula arm,54,M,T3 hold; news/media-days integrated
+Liberty,QB,44,dg-4.1,44,L,T3 verified accept (within 1SD noise band)
+Liberty,RB,42,dg+5.9,42,L,T3 verified accept (within 1SD noise band)
+Liberty,DL,42,dg+6.7,42,M,T3 verified accept (within 1SD noise band)
+Liberty,DB,42,dg-7.5,42,M,T3 verified accept (within 1SD noise band)
+Liberty,ST,38,no formula arm,38,L,T3 hold; news/media-days integrated
+Louisiana,QB,48,dg-16.7,40,M,50/50 blend
+Louisiana,RB,42,dg+7.0,42,M,T3 verified accept (within 1SD noise band)
+Louisiana,WRTE,44,dg+9.7,49,M,50/50 blend
+Louisiana,OL,48,dg-4.6,48,M,T3 verified accept (within 1SD noise band)
+Louisiana,DL,44,dg-22.6,36,M,50/50 blend
+Louisiana,LB,40,dg+5.0,40,M,T3 verified accept (within 1SD noise band)
+Louisiana,ST,48,no formula arm,48,M,T3 hold; news/media-days integrated
+Louisiana Tech,QB,48,dg+4.9,48,M,T3 verified accept (within 1SD noise band)
+Louisiana Tech,RB,38,dg+5.8,38,M,T3 verified accept (within 1SD noise band)
+Louisiana Tech,WRTE,44,dg+25.4 | ADJUDICATOR: half the matched evidence is a 92-route 2024 sample; room lost its top 4; trimmed blend,50,M,manual middle ground
+Louisiana Tech,OL,44,dg-6.6,44,M,T3 verified accept (within 1SD noise band)
+Louisiana Tech,DL,42,dg-0.4,42,M,T3 verified accept
+Louisiana Tech,LB,46,dg+12.4,51,M,LB 0.4 blend
+Louisiana Tech,DB,44,dg+3.2,44,M,T3 verified accept
+Louisiana Tech,ST,40,no formula arm,40,M,T3 hold; news/media-days integrated
+Louisville,QB,46,dg+15.2 but unit info 0.05 — formula is prior-noise,46,L,T3 hold; formula uninformative
+Louisville,RB,72,dg-6.4,72,H,T3 verified accept (within 1SD noise band)
+Louisville,WRTE,48,dg+10.2,53,M,50/50 blend
+Louisville,OL,50,dg+2.1,50,M,T3 verified accept
+Louisville,DL,62,dg+1.6,62,M,T3 verified accept
+Louisville,LB,50,dg+7.0,50,M,T3 verified accept (within 1SD noise band)
+Louisville,DB,52,dg-2.8,52,M,T3 verified accept
+Louisville,ST,44,no formula arm,44,L,T3 hold; news/media-days integrated
+Marshall,QB,50,dg+7.7,50,M,T3 verified accept (within 1SD noise band)
+Marshall,RB,40,dg+1.6,40,M,T3 verified accept
+Marshall,WRTE,46,dg+5.5,46,M,T3 verified accept (within 1SD noise band)
+Marshall,OL,44,dg+4.0,44,M,T3 verified accept
+Marshall,DL,40,dg+15.0,47,M,50/50 blend
+Marshall,LB,42,dg+1.5,42,M,T3 verified accept
+Marshall,DB,42,dg+11.8,46,M,DB policy 1/3 blend
+Marshall,ST,36,no formula arm,36,M,T3 hold; news/media-days integrated
+Maryland,QB,60,dg-12.5,54,M,50/50 blend
+Maryland,RB,38,dg+10.8,43,M,50/50 blend
+Maryland,WRTE,40,dg-4.0,40,M,T3 verified accept (within 1SD noise band)
+Maryland,OL,40,dg+9.3,45,M,50/50 blend
+Maryland,DL,63,dg-3.8,63,M,T3 verified accept
+Maryland,LB,53,dg+4.4,53,M,T3 verified accept (within 1SD noise band)
+Maryland,DB,60,dg+0.3,60,M,T3 verified accept
+Maryland,ST,36,no formula arm,36,M,T3 hold; news/media-days integrated
+Massachusetts,QB,22,dg+17.0 but unit info 0.01 — formula is prior-noise,22,L,T3 hold; formula uninformative
+Massachusetts,RB,10,dg+8.7; info 0.15 — blend halved,12,M,50/50 blend
+Massachusetts,WRTE,14,dg+2.3,14,M,T3 verified accept
+Massachusetts,OL,12,dg+1.0,12,M,T3 verified accept
+Massachusetts,DL,12,dg+1.3,12,M,T3 verified accept
+Massachusetts,LB,30,dg+0.7,30,M,T3 verified accept
+Massachusetts,DB,16,dg-4.1,16,M,T3 verified accept (within 1SD noise band)
+Massachusetts,ST,20,no formula arm,20,M,T3 hold; news/media-days integrated
+Memphis,QB,40,no matched players — formula uninformative,40,L,T3 hold; no formula info
+Memphis,RB,42,dg-3.6,42,M,T3 verified accept
+Memphis,WRTE,45,dg-6.7,45,M,T3 verified accept (within 1SD noise band)
+Memphis,OL,38,dg+4.8,38,L,T3 verified accept (within 1SD noise band)
+Memphis,DL,52,dg+2.7,52,M,T3 verified accept
+Memphis,LB,30,dg+20.2; info 0.17 — blend halved,34,M,LB 0.4 blend
+Memphis,DB,74,dg-0.9,74,M,T3 verified accept
+Memphis,ST,50,no formula arm,50,L,T3 hold; news/media-days integrated
+Miami,QB,70,dg+8.0,74,M,50/50 blend
+Miami,RB,70,dg+2.2,70,H,T3 verified accept
+Miami,WRTE,76,dg+0.1,76,H,T3 verified accept
+Miami,OL,52,dg+1.6,52,M,T3 verified accept
+Miami,DL,60,dg-3.1,60,M,T3 verified accept
+Miami,LB,46,dg-5.3,46,M,T3 verified accept (within 1SD noise band)
+Miami,DB,60,dg+3.8,60,M,T3 verified accept
+Miami,ST,58,no formula arm,58,M,T3 hold; news/media-days integrated
+Miami (OH),QB,30,dg-3.8,30,L,T3 verified accept
+Miami (OH),RB,26,dg-5.9,26,M,T3 verified accept (within 1SD noise band)
+Miami (OH),WRTE,24,dg-6.2,24,M,T3 verified accept (within 1SD noise band)
+Miami (OH),OL,30,dg-14.0,23,M,50/50 blend
+Miami (OH),DL,28,dg-13.2,21,M,50/50 blend
+Miami (OH),LB,38,dg-10.3,34,M,LB 0.4 blend
+Miami (OH),DB,26,dg+0.5,26,M,T3 verified accept
+Miami (OH),ST,40,no formula arm,40,M,T3 hold; news/media-days integrated
+Michigan,QB,60,dg-22.1 | ADJUDICATOR: Underwood actual FR tape 69.3/399 is league-average QB play at w-cap; year-2-leap partly narrative; middle ground,56,M,manual middle ground
+Michigan,RB,71,dg-3.8,71,M,T3 verified accept
+Michigan,WRTE,56,dg+0.1,56,M,T3 verified accept
+Michigan,OL,64,dg-4.1,64,M,T3 verified accept (within 1SD noise band)
+Michigan,DL,76,dg-5.6,76,M,T3 verified accept (within 1SD noise band)
+Michigan,LB,42,dg+14.7; info 0.15 — blend halved,45,L,LB 0.4 blend
+Michigan,DB,70,dg-7.5,70,M,T3 verified accept (within 1SD noise band)
+Michigan,ST,55,no formula arm,55,M,T3 hold; news/media-days integrated
+Michigan State,QB,53,dg+4.1,53,M,T3 verified accept (within 1SD noise band)
+Michigan State,RB,48,dg+9.6,53,M,50/50 blend
+Michigan State,OL,46,dg+5.6,46,M,T3 verified accept (within 1SD noise band)
+Michigan State,DL,44,dg+12.2,50,M,50/50 blend
+Michigan State,LB,53,dg+7.4,53,M,T3 verified accept (within 1SD noise band)
+Michigan State,DB,44,dg+13.4; info 0.11 — blend halved,46,M,DB policy 1/3 blend
+Michigan State,ST,26,no formula arm,26,M,T3 hold; news/media-days integrated
+Middle Tennessee,QB,50,dg+13.9,57,M,50/50 blend
+Middle Tennessee,RB,40,dg+2.8,40,L,T3 verified accept
+Middle Tennessee,WRTE,42,dg-4.4,42,M,T3 verified accept (within 1SD noise band)
+Middle Tennessee,OL,30,dg+9.8,35,M,50/50 blend
+Middle Tennessee,DL,36,dg-5.9,36,L,T3 verified accept (within 1SD noise band)
+Middle Tennessee,LB,44,dg+12.4,49,M,LB 0.4 blend
+Middle Tennessee,DB,42,dg-9.0,39,M,DB policy 1/3 blend
+Middle Tennessee,ST,40,no formula arm,40,M,T3 hold; news/media-days integrated
+Minnesota,QB,58,dg-6.5,58,M,T3 verified accept (within 1SD noise band)
+Minnesota,RB,54,dg+5.8,54,M,T3 verified accept (within 1SD noise band)
+Minnesota,WRTE,44,dg-1.3,44,M,T3 verified accept
+Minnesota,OL,60,dg+2.2,60,M,T3 verified accept
+Minnesota,DL,64,dg+0.4,64,M,T3 verified accept
+Minnesota,LB,55,dg+3.1,55,M,T3 verified accept
+Minnesota,DB,64,dg-0.0,64,M,T3 verified accept
+Minnesota,ST,56,no formula arm,56,M,T3 hold; news/media-days integrated
+Mississippi State,QB,54,dg+5.0,54,M,T3 verified accept (within 1SD noise band)
+Mississippi State,RB,52,dg+2.8,52,M,T3 verified accept
+Mississippi State,WRTE,50,dg-6.9,50,M,T3 verified accept (within 1SD noise band)
+Mississippi State,OL,44,dg+8.4,48,M,50/50 blend
+Mississippi State,DL,44,dg-3.9,44,M,T3 verified accept
+Mississippi State,LB,46,dg-4.8,46,M,T3 verified accept (within 1SD noise band)
+Mississippi State,DB,56,dg+5.3,56,M,T3 verified accept (within 1SD noise band)
+Mississippi State,ST,54,no formula arm,54,M,T3 hold; news/media-days integrated
+Missouri,QB,50,dg-0.6,50,M,T3 verified accept
+Missouri,RB,72,dg-5.4,72,M,T3 verified accept (within 1SD noise band)
+Missouri,WRTE,52,dg+7.6,52,M,T3 verified accept (within 1SD noise band)
+Missouri,OL,58,dg-1.1,58,M,T3 verified accept
+Missouri,DL,48,dg+9.2,53,M,50/50 blend
+Missouri,LB,54,dg+11.6,59,M,LB 0.4 blend
+Missouri,DB,50,dg-8.4,47,M,DB policy 1/3 blend
+Missouri,ST,56,no formula arm,56,M,T3 hold; news/media-days integrated
+Missouri State,QB,42,dg+8.3,46,M,50/50 blend
+Missouri State,RB,44,dg+9.8,49,M,50/50 blend
+Missouri State,WRTE,46,dg-6.9,46,M,T3 verified accept (within 1SD noise band)
+Missouri State,OL,36,dg+4.5,36,L,T3 verified accept (within 1SD noise band)
+Missouri State,DL,42,dg-5.2,42,M,T3 verified accept (within 1SD noise band)
+Missouri State,LB,44,dg-3.1,44,M,T3 verified accept
+Missouri State,DB,42,dg-9.7,39,M,DB policy 1/3 blend
+Missouri State,ST,44,no formula arm,44,M,T3 hold; news/media-days integrated
+NC State,QB,54,dg-1.6,54,M,T3 verified accept
+NC State,RB,56,dg-1.4,56,M,T3 verified accept
+NC State,WRTE,42,dg+1.3,42,L,T3 verified accept
+NC State,OL,46,dg-1.5,46,M,T3 verified accept
+NC State,DL,40,dg-2.5,40,L,T3 verified accept
+NC State,LB,42,dg+2.4,42,L,T3 verified accept
+NC State,DB,46,dg-3.3,46,M,T3 verified accept
+NC State,ST,48,no formula arm,48,M,T3 hold; news/media-days integrated
+Navy,QB,45,dg+13.7 but unit info 0.10 — formula is prior-noise,45,L,T3 hold; formula uninformative
+Navy,RB,40,dg-0.1,40,M,T3 verified accept
+Navy,WRTE,38,dg+6.2,38,M,T3 verified accept (within 1SD noise band)
+Navy,OL,48,dg-11.3; option-scheme blind spot — blend halved,45,M,50/50 blend
+Navy,DL,18,dg-6.6,18,M,T3 verified accept (within 1SD noise band)
+Navy,LB,40,dg-3.9,40,M,T3 verified accept
+Navy,DB,32,dg-12.2; option-scheme blind spot — blend halved,30,M,DB policy 1/3 blend
+Navy,ST,55,no formula arm,55,M,T3 hold; news/media-days integrated
+Nebraska,QB,62,dg-3.3,62,M,T3 verified accept
+Nebraska,RB,40,dg+14.7; info 0.20 — blend halved,44,M,50/50 blend
+Nebraska,WRTE,52,dg+7.9,52,M,T3 verified accept (within 1SD noise band)
+Nebraska,OL,66,dg-5.4,66,M,T3 verified accept (within 1SD noise band)
+Nebraska,DL,46,dg+3.5,46,M,T3 verified accept
+Nebraska,LB,62,dg+4.3,62,M,T3 verified accept (within 1SD noise band)
+Nebraska,DB,65,dg-3.2,65,M,T3 verified accept
+Nebraska,ST,62,no formula arm,62,M,T3 hold; news/media-days integrated
+Nevada,QB,18,dg+5.5,18,L,T3 verified accept (within 1SD noise band)
+Nevada,RB,14,dg+8.0,14,M,T3 verified accept (within 1SD noise band)
+Nevada,WRTE,12,dg+6.9,12,L,T3 verified accept (within 1SD noise band)
+Nevada,OL,22,dg+5.4,22,M,T3 verified accept (within 1SD noise band)
+Nevada,DL,26,dg+16.4,34,M,50/50 blend
+Nevada,LB,12,dg+9.3; info 0.18 — blend halved,14,L,LB 0.4 blend
+Nevada,DB,18,dg+12.9; info 0.13 — blend halved,20,M,DB policy 1/3 blend
+Nevada,ST,16,no formula arm,16,M,T3 hold; news/media-days integrated
+New Mexico,QB,34,dg+5.5,34,M,T3 verified accept (within 1SD noise band)
+New Mexico,RB,16,dg+4.5,16,M,T3 verified accept (within 1SD noise band)
+New Mexico,WRTE,22,dg+0.6,22,M,T3 verified accept
+New Mexico,OL,24,dg+1.9,24,M,T3 verified accept
+New Mexico,DL,22,dg+13.0,28,M,50/50 blend
+New Mexico,LB,44,dg-9.4,40,M,LB 0.4 blend
+New Mexico,DB,26,dg+2.7,26,M,T3 verified accept
+New Mexico,ST,18,no formula arm,18,M,T3 hold; news/media-days integrated
+New Mexico State,QB,40,dg+4.7,40,L,T3 verified accept (within 1SD noise band)
+New Mexico State,RB,38,dg-7.0,38,L,T3 verified accept (within 1SD noise band)
+New Mexico State,WRTE,42,dg+18.7,50,M,50/50 blend
+New Mexico State,OL,34,dg+2.7,34,L,T3 verified accept
+New Mexico State,DL,40,dg-9.2,35,M,50/50 blend
+New Mexico State,LB,44,dg+0.6,44,M,T3 verified accept
+New Mexico State,DB,44,dg-2.9,44,M,T3 verified accept
+New Mexico State,ST,46,no formula arm,46,M,T3 hold; news/media-days integrated
+North Carolina,QB,48,dg+2.0,48,L,T3 verified accept
+North Carolina,RB,50,dg-6.4,50,M,T3 verified accept (within 1SD noise band)
+North Carolina,WRTE,48,dg+5.0,48,M,T3 verified accept (within 1SD noise band)
+North Carolina,OL,44,dg+3.5,44,M,T3 verified accept
+North Carolina,DL,52,dg+5.6,52,M,T3 verified accept (within 1SD noise band)
+North Carolina,LB,40,dg+0.0,40,L,T3 verified accept
+North Carolina,DB,48,dg+7.1,48,M,T3 verified accept (within 1SD noise band)
+North Carolina,ST,46,no formula arm,46,M,T3 hold; news/media-days integrated
+North Dakota State,QB,14,no matched players — formula uninformative,14,L,T3 hold; no formula info
+North Dakota State,RB,16,dg+11.1 but unit info 0.00 — formula is prior-noise,16,M,T3 hold; formula uninformative
+North Dakota State,WRTE,12,dg+7.6,12,L,T3 verified accept (within 1SD noise band)
+North Dakota State,OL,20,dg+8.2 but unit info 0.00 — formula is prior-noise,20,M,T3 hold; formula uninformative
+North Dakota State,DL,16,no matched players — formula uninformative,16,M,T3 hold; no formula info
+North Dakota State,LB,14,no matched players — formula uninformative,14,L,T3 hold; no formula info
+North Dakota State,DB,14,dg+18.3 but unit info 0.00 — formula is prior-noise,14,M,T3 hold; formula uninformative
+North Dakota State,ST,14,no formula arm,14,M,T3 hold; news/media-days integrated
+North Texas,QB,35,no matched players — formula uninformative,35,L,T3 hold; no formula info
+North Texas,RB,52,dg-1.8,52,M,T3 verified accept
+North Texas,WRTE,38,dg+14.4; info 0.11 — blend halved,42,M,50/50 blend
+North Texas,OL,35,dg+11.6,41,M,50/50 blend
+North Texas,DL,15,dg-11.0; info 0.18 — blend halved,12,L,50/50 blend
+North Texas,LB,40,dg+1.3,40,M,T3 verified accept
+North Texas,DB,35,dg+11.1 but unit info 0.04 — formula is prior-noise,35,L,T3 hold; formula uninformative
+North Texas,ST,55,no formula arm,55,M,T3 hold; news/media-days integrated
+Northern Illinois,QB,20,dg+1.1,20,L,T3 verified accept
+Northern Illinois,RB,12,dg+12.2; info 0.16 — blend halved,15,M,50/50 blend
+Northern Illinois,WRTE,16,dg+8.9,20,M,50/50 blend
+Northern Illinois,OL,12,dg+14.7; info 0.12 — blend halved,16,M,50/50 blend
+Northern Illinois,DL,10,dg+11.5 but unit info 0.08 — formula is prior-noise,10,L,T3 hold; formula uninformative
+Northern Illinois,LB,10,dg+7.6,10,L,T3 verified accept (within 1SD noise band)
+Northern Illinois,DB,12,dg-3.0,12,M,T3 verified accept
+Northern Illinois,ST,18,no formula arm,18,M,T3 hold; news/media-days integrated
+Northwestern,QB,52,dg+0.3,52,M,T3 verified accept
+Northwestern,RB,58,dg+1.1,58,M,T3 verified accept
+Northwestern,WRTE,64,dg+6.3,64,M,T3 verified accept (within 1SD noise band)
+Northwestern,OL,46,dg+7.8,46,M,T3 verified accept (within 1SD noise band)
+Northwestern,DL,52,dg+7.9,52,M,T3 verified accept (within 1SD noise band)
+Northwestern,LB,52,dg+3.9,52,M,T3 verified accept
+Northwestern,DB,68,dg-1.1,68,M,T3 verified accept
+Northwestern,ST,40,no formula arm,40,M,T3 hold; news/media-days integrated
+Ohio,QB,22,dg+1.0,22,L,T3 verified accept
+Ohio,RB,20,dg-5.7,20,M,T3 verified accept (within 1SD noise band)
+Ohio,WRTE,16,dg+4.0,16,M,T3 verified accept (within 1SD noise band)
+Ohio,OL,12,dg+9.3 but unit info 0.03 — formula is prior-noise,12,M,T3 hold; formula uninformative
+Ohio,DL,18,dg-0.9,18,M,T3 verified accept
+Ohio,LB,40,dg-4.9,40,M,T3 verified accept (within 1SD noise band)
+Ohio,DB,22,dg+0.2,22,M,T3 verified accept
+Ohio,ST,24,no formula arm,24,M,T3 hold; news/media-days integrated
+Ohio State,QB,91,dg-5.9,91,H,T3 verified accept (within 1SD noise band)
+Ohio State,RB,76,dg-11.0,70,M,50/50 blend
+Ohio State,WRTE,86,dg-14.2,79,M,50/50 blend
+Ohio State,OL,80,dg-7.2,80,H,T3 verified accept (within 1SD noise band)
+Ohio State,DL,76,dg-10.8,71,M,50/50 blend
+Ohio State,LB,64,dg-1.4,64,M,T3 verified accept
+Ohio State,DB,72,dg-0.0,72,M,T3 verified accept
+Ohio State,ST,64,no formula arm,64,M,T3 hold; news/media-days integrated
+Oklahoma,QB,62,dg-18.2,54,M,50/50 blend
+Oklahoma,RB,52,dg-1.6,52,M,T3 verified accept
+Oklahoma,WRTE,58,dg-2.2,58,M,T3 verified accept
+Oklahoma,OL,54,dg-2.4,54,M,T3 verified accept
+Oklahoma,DL,62,dg+2.7,62,M,T3 verified accept
+Oklahoma,LB,56,dg+3.7,56,M,T3 verified accept
+Oklahoma,DB,60,dg+4.2,60,M,T3 verified accept (within 1SD noise band)
+Oklahoma,ST,62,no formula arm,62,M,T3 hold; news/media-days integrated
+Oklahoma State,QB,62,dg+1.0,62,M,T3 verified accept
+Oklahoma State,RB,60,dg+13.2,67,M,50/50 blend
+Oklahoma State,WRTE,55,dg+15.8,63,M,50/50 blend
+Oklahoma State,OL,44,dg+1.1,44,M,T3 verified accept
+Oklahoma State,DL,45,dg+1.4,45,M,T3 verified accept
+Oklahoma State,LB,52,dg+3.6,52,M,T3 verified accept
+Oklahoma State,DB,48,dg-1.3,48,M,T3 verified accept
+Oklahoma State,ST,45,no formula arm,45,M,T3 hold; news/media-days integrated
+Old Dominion,QB,44,dg-5.5,44,M,T3 verified accept (within 1SD noise band)
+Old Dominion,RB,46,dg-1.5,46,M,T3 verified accept
+Old Dominion,WRTE,40,dg-10.9,35,M,50/50 blend
+Old Dominion,OL,40,dg-10.2; info 0.15 — blend halved,37,M,50/50 blend
+Old Dominion,DL,42,dg-11.6,36,M,50/50 blend
+Old Dominion,LB,48,dg+11.1,52,M,LB 0.4 blend
+Old Dominion,DB,54,dg+12.2,58,M,DB policy 1/3 blend
+Old Dominion,ST,42,no formula arm,42,M,T3 hold; news/media-days integrated
+Ole Miss,QB,70,dg-5.4,70,M,T3 verified accept (within 1SD noise band)
+Ole Miss,RB,68,dg-2.2,68,M,T3 verified accept
+Ole Miss,WRTE,56,dg-1.7,56,M,T3 verified accept
+Ole Miss,OL,54,dg-4.7,54,M,T3 verified accept (within 1SD noise band)
+Ole Miss,DL,60,dg+2.5,60,M,T3 verified accept
+Ole Miss,LB,58,dg+6.9,58,M,T3 verified accept (within 1SD noise band)
+Ole Miss,DB,56,dg+3.1,56,M,T3 verified accept
+Ole Miss,ST,62,no formula arm,62,M,T3 hold; news/media-days integrated
+Oregon,QB,89,dg-5.5,89,H,T3 verified accept (within 1SD noise band)
+Oregon,RB,80,dg-9.2,75,M,50/50 blend
+Oregon,WRTE,80,dg+5.2,80,M,T3 verified accept (within 1SD noise band)
+Oregon,OL,56,dg-3.7,56,M,T3 verified accept
+Oregon,DL,90,dg-17.4,82,M,50/50 blend
+Oregon,LB,66,dg-1.9,66,M,T3 verified accept
+Oregon,DB,74,dg-9.3; info 0.19 — blend halved,72,M,DB policy 1/3 blend
+Oregon,ST,62,no formula arm,62,M,T3 hold; news/media-days integrated
+Oregon State,RB,32,dg-10.8,27,M,50/50 blend
+Oregon State,WRTE,30,dg-11.9; info 0.16 — blend halved,27,L,50/50 blend
+Oregon State,OL,24,dg-5.7,24,L,T3 verified accept (within 1SD noise band)
+Oregon State,DL,42,dg-9.3,37,M,50/50 blend
+Oregon State,LB,44,dg-14.6; info 0.18 — blend halved,41,M,LB 0.4 blend
+Oregon State,ST,38,no formula arm,38,M,T3 hold; news/media-days integrated
+Penn State,QB,74,dg-18.5,66,M,50/50 blend
+Penn State,RB,68,dg-11.1,62,M,50/50 blend
+Penn State,WRTE,58,dg-3.4,58,M,T3 verified accept
+Penn State,OL,58,dg-1.9,58,M,T3 verified accept
+Penn State,DL,60,dg-6.8,60,M,T3 verified accept (within 1SD noise band)
+Penn State,LB,68,dg-4.7,68,M,T3 verified accept (within 1SD noise band)
+Penn State,DB,70,dg-4.6,70,M,T3 verified accept (within 1SD noise band)
+Penn State,ST,66,no formula arm,66,M,T3 hold; news/media-days integrated
+Pittsburgh,RB,56,dg-3.6,56,M,T3 verified accept
+Pittsburgh,OL,52,dg+3.1,52,M,T3 verified accept
+Pittsburgh,DL,58,dg-3.4,58,M,T3 verified accept
+Pittsburgh,LB,54,dg-3.6,54,M,T3 verified accept
+Pittsburgh,ST,46,no formula arm,46,M,T3 hold; news/media-days integrated
+Purdue,QB,44,dg+16.3; info 0.18 — blend halved,48,M,50/50 blend
+Purdue,RB,48,dg+5.2,48,M,T3 verified accept (within 1SD noise band)
+Purdue,WRTE,40,dg+0.4,40,M,T3 verified accept
+Purdue,OL,38,dg+5.2,38,M,T3 verified accept (within 1SD noise band)
+Purdue,DL,58,dg-0.3,58,M,T3 verified accept
+Purdue,LB,46,dg+1.8,46,M,T3 verified accept
+Purdue,DB,44,dg+10.5; info 0.17 — blend halved,46,M,DB policy 1/3 blend
+Purdue,ST,54,no formula arm,54,M,T3 hold; news/media-days integrated
+Rice,QB,38,dg+14.3 but unit info 0.02 — formula is prior-noise,38,L,T3 hold; formula uninformative
+Rice,RB,48,dg-16.2,40,M,50/50 blend
+Rice,WRTE,30,dg-20.1 but unit info 0.07 — formula is prior-noise,30,M,T3 hold; formula uninformative
+Rice,OL,42,dg-0.7,42,M,T3 verified accept
+Rice,DL,30,dg+0.1,30,M,T3 verified accept
+Rice,LB,18,dg+10.7 but unit info 0.03 — formula is prior-noise,18,L,T3 hold; formula uninformative
+Rice,DB,12,dg-1.7,12,L,T3 verified accept
+Rice,ST,52,no formula arm,52,M,T3 hold; news/media-days integrated
+Rutgers,QB,52,dg+14.7; info 0.20 — blend halved,56,M,50/50 blend
+Rutgers,RB,74,dg-6.1,74,M,T3 verified accept (within 1SD noise band)
+Rutgers,WRTE,60,dg-9.1,55,M,50/50 blend
+Rutgers,OL,50,dg+6.9,50,M,T3 verified accept (within 1SD noise band)
+Rutgers,DL,54,dg+14.2,61,M,50/50 blend
+Rutgers,LB,54,dg+0.4,54,M,T3 verified accept
+Rutgers,ST,44,no formula arm,44,M,T3 hold; news/media-days integrated
+SMU,QB,62,dg+9.6,67,M,50/50 blend
+SMU,RB,54,dg-6.8,54,M,T3 verified accept (within 1SD noise band)
+SMU,WRTE,52,dg+0.2,52,M,T3 verified accept
+SMU,OL,62,dg-0.1,62,M,T3 verified accept
+SMU,DL,52,dg+7.1,52,M,T3 verified accept (within 1SD noise band)
+SMU,LB,56,dg-2.7,56,M,T3 verified accept
+SMU,DB,52,dg-3.5,52,M,T3 verified accept
+SMU,ST,50,no formula arm,50,M,T3 hold; news/media-days integrated
+Sacramento State,QB,20,dg+2.2,20,L,T3 verified accept
+Sacramento State,RB,14,dg+5.4,14,L,T3 verified accept (within 1SD noise band)
+Sacramento State,WRTE,10,dg+9.3; info 0.16 — blend halved,12,M,50/50 blend
+Sacramento State,OL,8,no matched players — formula uninformative,8,M,T3 hold; no formula info
+Sacramento State,DL,10,dg+13.0 but unit info 0.09 — formula is prior-noise,10,L,T3 hold; formula uninformative
+Sacramento State,LB,16,dg-3.1,16,M,T3 verified accept
+Sacramento State,DB,10,dg+15.1 but unit info 0.00 — formula is prior-noise,10,L,T3 hold; formula uninformative
+Sacramento State,ST,22,no formula arm,22,M,T3 hold; news/media-days integrated
+Sam Houston,QB,38,no matched players — formula uninformative,38,M,T3 hold; no formula info
+Sam Houston,RB,46,dg+3.4,46,M,T3 verified accept
+Sam Houston,WRTE,42,no matched players — formula uninformative,42,M,T3 hold; no formula info
+Sam Houston,OL,32,no matched players — formula uninformative,32,L,T3 hold; no formula info
+Sam Houston,DL,40,dg+9.5 but unit info 0.01 — formula is prior-noise,40,M,T3 hold; formula uninformative
+Sam Houston,LB,36,no matched players — formula uninformative,36,L,T3 hold; no formula info
+Sam Houston,DB,40,dg-1.9,40,M,T3 verified accept
+Sam Houston,ST,42,no formula arm,42,M,T3 hold; news/media-days integrated
+San Diego State,QB,34,dg-2.5,34,M,T3 verified accept
+San Diego State,RB,52,dg-16.1,44,M,50/50 blend
+San Diego State,WRTE,42,dg-12.7,36,M,50/50 blend
+San Diego State,OL,40,dg-15.6,32,M,50/50 blend
+San Diego State,DL,44,dg-15.8,36,M,50/50 blend
+San Diego State,LB,42,dg-8.9 but unit info 0.09 — formula is prior-noise,42,M,T3 hold; formula uninformative
+San Diego State,DB,34,dg-0.2,34,L,T3 verified accept
+San Diego State,ST,36,no formula arm,36,M,T3 hold; news/media-days integrated
+San José State,QB,20,dg-2.1,20,L,T3 verified accept
+San José State,RB,16,dg+13.3 but unit info 0.10 — formula is prior-noise,16,M,T3 hold; formula uninformative
+San José State,WRTE,16,dg+10.3; info 0.13 — blend halved,19,L,50/50 blend
+San José State,OL,14,dg+8.9; info 0.15 — blend halved,16,M,50/50 blend
+San José State,DL,16,dg+1.0,16,M,T3 verified accept
+San José State,LB,14,dg+8.0 but unit info 0.08 — formula is prior-noise,14,M,T3 hold; formula uninformative
+San José State,DB,12,dg+14.5 but unit info 0.02 — formula is prior-noise,12,M,T3 hold; formula uninformative
+San José State,ST,22,no formula arm,22,M,T3 hold; news/media-days integrated
+South Alabama,QB,46,dg-9.9,41,M,50/50 blend
+South Alabama,RB,52,dg+13.9,59,M,50/50 blend
+South Alabama,WRTE,42,dg-1.0,42,M,T3 verified accept
+South Alabama,OL,38,dg-9.7,33,M,50/50 blend
+South Alabama,DL,38,dg-9.1,33,M,50/50 blend
+South Alabama,LB,42,dg+10.4,46,M,LB 0.4 blend
+South Alabama,ST,42,no formula arm,42,M,T3 hold; news/media-days integrated
+South Carolina,QB,56,dg+2.2,56,M,T3 verified accept
+South Carolina,RB,48,dg+1.6,48,M,T3 verified accept
+South Carolina,WRTE,52,dg-6.6,52,M,T3 verified accept (within 1SD noise band)
+South Carolina,OL,44,dg+0.0,44,L,T3 verified accept
+South Carolina,DL,56,dg-2.5,56,M,T3 verified accept
+South Carolina,LB,48,dg-3.1,48,M,T3 verified accept
+South Carolina,DB,52,dg+2.7,52,M,T3 verified accept
+South Carolina,ST,48,no formula arm,48,M,T3 hold; news/media-days integrated
+South Florida,QB,48,dg+6.7,48,M,T3 verified accept (within 1SD noise band)
+South Florida,RB,38,dg-9.1; info 0.13 — blend halved,36,M,50/50 blend
+South Florida,WRTE,48,dg-12.0,42,M,50/50 blend
+South Florida,OL,32,no matched players — formula uninformative,32,L,T3 hold; no formula info
+South Florida,DL,35,dg+12.2; info 0.16 — blend halved,38,M,50/50 blend
+South Florida,LB,30,dg+3.9,30,L,T3 verified accept
+South Florida,DB,30,dg+8.8,33,L,DB policy 1/3 blend
+South Florida,ST,48,no formula arm,48,M,T3 hold; news/media-days integrated
+Southern Miss,QB,42,dg+3.7,42,L,T3 verified accept
+Southern Miss,RB,40,dg-2.8,40,M,T3 verified accept
+Southern Miss,WRTE,44,dg-5.2,44,M,T3 verified accept (within 1SD noise band)
+Southern Miss,OL,40,dg+11.8,46,M,50/50 blend
+Southern Miss,DL,42,no matched players — formula uninformative,42,L,T3 hold; no formula info
+Southern Miss,LB,40,dg-17.9,33,M,LB 0.4 blend
+Southern Miss,DB,44,dg-1.9,44,L,T3 verified accept
+Southern Miss,ST,42,no formula arm,42,M,T3 hold; news/media-days integrated
+Stanford,QB,42,dg+16.0,50,M,50/50 blend
+Stanford,RB,56,dg+3.0,56,M,T3 verified accept
+Stanford,WRTE,44,dg+10.5,49,M,50/50 blend
+Stanford,OL,40,dg-0.8,40,L,T3 verified accept
+Stanford,DL,44,dg-3.6,44,M,T3 verified accept
+Stanford,LB,54,dg+3.8,54,M,T3 verified accept
+Stanford,DB,50,dg+4.4,50,M,T3 verified accept (within 1SD noise band)
+Stanford,ST,52,no formula arm,52,M,T3 hold; news/media-days integrated
+Syracuse,QB,52,dg-18.8,44,M,50/50 blend
+Syracuse,RB,30,dg+3.3,30,L,T3 verified accept
+Syracuse,WRTE,32,dg-0.7,32,L,T3 verified accept
+Syracuse,OL,42,dg-5.9,42,M,T3 verified accept (within 1SD noise band)
+Syracuse,DL,36,dg+5.2,36,M,T3 verified accept (within 1SD noise band)
+Syracuse,LB,34,dg+3.8,34,M,T3 verified accept
+Syracuse,DB,50,dg-3.7,50,M,T3 verified accept
+Syracuse,ST,40,no formula arm,40,M,T3 hold; news/media-days integrated
+TCU,QB,46,no matched players — formula uninformative,46,M,T3 hold; no formula info
+TCU,RB,52,dg+8.7,56,M,50/50 blend
+TCU,WRTE,50,dg+9.6; info 0.19 — blend halved,52,M,50/50 blend
+TCU,OL,52,dg-3.1,52,M,T3 verified accept
+TCU,DL,58,dg-4.9,58,M,T3 verified accept (within 1SD noise band)
+TCU,LB,42,dg+7.0,42,M,T3 verified accept (within 1SD noise band)
+TCU,DB,52,dg+0.5,52,M,T3 verified accept
+TCU,ST,55,no formula arm,55,M,T3 hold; news/media-days integrated
+Temple,QB,35,no matched players — formula uninformative,35,L,T3 hold; no formula info
+Temple,RB,40,dg+10.9; info 0.10 — blend halved,43,M,50/50 blend
+Temple,WRTE,55,dg+19.8,63,M,50/50 blend
+Temple,OL,58,dg-4.6,58,M,T3 verified accept (within 1SD noise band)
+Temple,DL,15,dg-8.8; info 0.16 — blend halved,13,L,50/50 blend
+Temple,LB,25,dg+1.5,25,L,T3 verified accept
+Temple,DB,14,dg-2.2,14,L,T3 verified accept
+Temple,ST,45,no formula arm,45,M,T3 hold; news/media-days integrated
+Tennessee,QB,46,dg+1.0,46,L,T3 verified accept
+Tennessee,RB,60,dg+2.9,60,M,T3 verified accept
+Tennessee,WRTE,56,dg+2.8,56,M,T3 verified accept
+Tennessee,OL,58,dg-1.8,58,M,T3 verified accept
+Tennessee,DL,50,dg-2.5,50,M,T3 verified accept
+Tennessee,LB,58,dg-11.6,53,M,LB 0.4 blend
+Tennessee,DB,54,dg+8.0,57,M,DB policy 1/3 blend
+Tennessee,ST,54,no formula arm,54,M,T3 hold; news/media-days integrated
+Texas,QB,64,dg-1.8,64,M,T3 verified accept
+Texas,RB,60,dg+2.1,60,M,T3 verified accept
+Texas,WRTE,62,no matched players — formula uninformative,62,M,T3 hold; no formula info
+Texas,OL,56,no matched players — formula uninformative,56,M,T3 hold; no formula info
+Texas,DL,62,dg-18.9,54,M,50/50 blend
+Texas,LB,56,dg+7.4,56,M,T3 verified accept (within 1SD noise band)
+Texas,DB,56,dg+4.6,56,M,T3 verified accept (within 1SD noise band)
+Texas,ST,52,no formula arm,52,M,T3 hold; news/media-days integrated
+Texas A&M,QB,58,dg-9.4,53,M,50/50 blend
+Texas A&M,RB,54,dg+4.5,54,M,T3 verified accept (within 1SD noise band)
+Texas A&M,WRTE,58,dg+2.3,58,M,T3 verified accept
+Texas A&M,OL,52,dg-3.4,52,M,T3 verified accept
+Texas A&M,DL,56,dg+2.0,56,M,T3 verified accept
+Texas A&M,LB,52,dg+14.4,58,M,LB 0.4 blend
+Texas A&M,DB,58,dg-0.3,58,M,T3 verified accept
+Texas A&M,ST,56,no formula arm,56,M,T3 hold; news/media-days integrated
+Texas State,QB,58,dg-16.9,50,M,50/50 blend
+Texas State,RB,46,dg-13.0,40,M,50/50 blend
+Texas State,WRTE,54,dg-18.7,46,M,50/50 blend
+Texas State,OL,44,dg-14.3; info 0.18 — blend halved,40,M,50/50 blend
+Texas State,DL,30,dg-1.0,30,L,T3 verified accept
+Texas State,LB,32,dg-7.7,32,M,T3 verified accept (within 1SD noise band)
+Texas State,DB,36,dg-6.6,36,M,T3 verified accept (within 1SD noise band)
+Texas State,ST,42,no formula arm,42,M,T3 hold; news/media-days integrated
+Texas Tech,QB,50,dg+4.2,50,M,T3 verified accept (within 1SD noise band)
+Texas Tech,RB,72,dg-4.7,72,H,T3 verified accept (within 1SD noise band)
+Texas Tech,WRTE,62,dg+3.6,62,M,T3 verified accept
+Texas Tech,OL,60,dg-4.3,60,M,T3 verified accept (within 1SD noise band)
+Texas Tech,DL,65,dg+18.7,73,M,50/50 blend
+Texas Tech,LB,62,dg-1.9,62,M,T3 verified accept
+Texas Tech,DB,70,dg+5.9,70,H,T3 verified accept (within 1SD noise band)
+Texas Tech,ST,65,no formula arm,65,M,T3 hold; news/media-days integrated
+Toledo,QB,22,dg+15.4 but unit info 0.04 — formula is prior-noise,22,L,T3 hold; formula uninformative
+Toledo,RB,16,dg+1.9,16,M,T3 verified accept
+Toledo,WRTE,16,dg+2.6,16,L,T3 verified accept
+Toledo,OL,14,dg+2.8,14,M,T3 verified accept
+Toledo,DL,18,dg+5.8,18,M,T3 verified accept (within 1SD noise band)
+Toledo,LB,16,dg+0.6,16,M,T3 verified accept
+Toledo,DB,16,dg+5.4,16,M,T3 verified accept (within 1SD noise band)
+Toledo,ST,24,no formula arm,24,M,T3 hold; news/media-days integrated
+Troy,QB,46,dg-5.1,46,M,T3 verified accept (within 1SD noise band)
+Troy,RB,42,dg-10.0,37,M,50/50 blend
+Troy,WRTE,42,dg-4.7,42,M,T3 verified accept (within 1SD noise band)
+Troy,OL,40,dg-4.9,40,M,T3 verified accept (within 1SD noise band)
+Troy,DL,46,dg-0.7,46,M,T3 verified accept
+Troy,LB,42,dg-2.9,42,M,T3 verified accept
+Troy,DB,44,dg-24.5,36,M,DB policy 1/3 blend
+Troy,ST,48,no formula arm,48,M,T3 hold; news/media-days integrated
+Tulane,QB,45,no matched players — formula uninformative,45,L,T3 hold; no formula info
+Tulane,RB,58,dg-20.3 | ADJUDICATOR: 3 P4 transfer RBs unmatched (combined roster row) — formula partially blind to the additions; half blend,54,M,manual middle ground
+Tulane,WRTE,46,dg-0.3,46,M,T3 verified accept
+Tulane,OL,30,dg+0.7,30,L,T3 verified accept
+Tulane,DL,35,dg-0.4,35,M,T3 verified accept
+Tulane,LB,28,dg-16.4,21,M,LB 0.4 blend
+Tulane,ST,52,no formula arm,52,M,T3 hold; news/media-days integrated
+Tulsa,WRTE,32,no matched players — formula uninformative,32,M,T3 hold; no formula info
+Tulsa,OL,38,dg-0.5,38,M,T3 verified accept
+Tulsa,DL,40,dg-1.7,40,M,T3 verified accept
+Tulsa,LB,33,dg-7.3,33,L,T3 verified accept (within 1SD noise band)
+Tulsa,DB,58,dg-6.1,58,M,T3 verified accept (within 1SD noise band)
+Tulsa,ST,45,no formula arm,45,M,T3 hold; news/media-days integrated
+UAB,QB,42,dg+11.1,48,M,50/50 blend
+UAB,RB,48,dg-1.5,48,M,T3 verified accept
+UAB,WRTE,38,dg-8.7,34,M,50/50 blend
+UAB,OL,45,dg+5.4,45,M,T3 verified accept (within 1SD noise band)
+UAB,DL,16,dg+4.4,16,L,T3 verified accept (within 1SD noise band)
+UAB,LB,25,dg-6.7,25,L,T3 verified accept (within 1SD noise band)
+UAB,DB,15,dg-1.7,15,L,T3 verified accept
+UAB,ST,55,no formula arm,55,M,T3 hold; news/media-days integrated
+UCF,RB,46,dg-3.7,46,M,T3 verified accept
+UCF,OL,40,dg+7.4,40,M,T3 verified accept (within 1SD noise band)
+UCF,LB,52,dg+0.7,52,M,T3 verified accept
+UCF,DB,58,dg-1.1,58,M,T3 verified accept
+UCF,ST,45,no formula arm,45,M,T3 hold; news/media-days integrated
+UCLA,QB,60,dg+11.5; info 0.18 — blend halved,63,M,50/50 blend
+UCLA,RB,60,dg-6.1,60,M,T3 verified accept (within 1SD noise band)
+UCLA,WRTE,52,dg-10.8,47,M,50/50 blend
+UCLA,OL,42,dg-0.3,42,M,T3 verified accept
+UCLA,DL,56,dg+10.7,61,M,50/50 blend
+UCLA,LB,60,dg+1.1,60,M,T3 verified accept
+UCLA,DB,66,dg-5.0,66,M,T3 verified accept (within 1SD noise band)
+UCLA,ST,56,no formula arm,56,M,T3 hold; news/media-days integrated
+UL Monroe,QB,42,no matched players — formula uninformative,42,M,T3 hold; no formula info
+UL Monroe,RB,40,dg+7.5,40,M,T3 verified accept (within 1SD noise band)
+UL Monroe,WRTE,40,dg+6.3,40,M,T3 verified accept (within 1SD noise band)
+UL Monroe,OL,38,no matched players — formula uninformative,38,M,T3 hold; no formula info
+UL Monroe,DL,40,no matched players — formula uninformative,40,M,T3 hold; no formula info
+UL Monroe,LB,44,dg-3.4,44,M,T3 verified accept
+UL Monroe,DB,40,dg-2.3,40,L,T3 verified accept
+UL Monroe,ST,40,no formula arm,40,M,T3 hold; news/media-days integrated
+UNLV,QB,36,dg-2.9,36,M,T3 verified accept
+UNLV,RB,30,dg+10.4,35,M,50/50 blend
+UNLV,WRTE,16,dg+1.4,16,L,T3 verified accept
+UNLV,OL,20,dg+5.1,20,M,T3 verified accept (within 1SD noise band)
+UNLV,DL,18,dg+8.7,22,M,50/50 blend
+UNLV,LB,16,dg+12.0; info 0.16 — blend halved,18,M,LB 0.4 blend
+UNLV,DB,20,dg+7.2,20,M,T3 verified accept (within 1SD noise band)
+UNLV,ST,20,no formula arm,20,M,T3 hold; news/media-days integrated
+USC,QB,80,dg-6.1,80,H,T3 verified accept (within 1SD noise band)
+USC,RB,72,dg-6.3,72,M,T3 verified accept (within 1SD noise band)
+USC,WRTE,68,dg-5.9,68,M,T3 verified accept (within 1SD noise band)
+USC,OL,54,dg-7.8,54,M,T3 verified accept (within 1SD noise band)
+USC,DL,72,dg-11.3,66,M,50/50 blend
+USC,LB,66,dg-10.8,62,M,LB 0.4 blend
+USC,DB,68,dg-8.4; info 0.12 — blend halved,67,M,DB policy 1/3 blend
+USC,ST,50,no formula arm,50,M,T3 hold; news/media-days integrated
+UTEP,QB,16,dg+17.9 but unit info 0.01 — formula is prior-noise,16,L,T3 hold; formula uninformative
+UTEP,RB,12,dg+14.4; info 0.14 — blend halved,16,M,50/50 blend
+UTEP,WRTE,12,dg+9.1; info 0.18 — blend halved,14,L,50/50 blend
+UTEP,OL,8,dg+11.8 but unit info 0.04 — formula is prior-noise,8,L,T3 hold; formula uninformative
+UTEP,DL,10,dg+7.8,10,L,T3 verified accept (within 1SD noise band)
+UTEP,LB,14,dg+16.9; info 0.14 — blend halved,17,M,LB 0.4 blend
+UTEP,DB,14,dg+11.8; info 0.13 — blend halved,16,M,DB policy 1/3 blend
+UTEP,ST,14,no formula arm,14,M,T3 hold; news/media-days integrated
+UTSA,QB,55,dg-7.5,55,M,T3 verified accept (within 1SD noise band)
+UTSA,RB,58,dg+10.6,63,M,50/50 blend
+UTSA,WRTE,48,dg+11.2,54,M,50/50 blend
+UTSA,OL,30,dg-16.8,22,M,50/50 blend
+UTSA,DL,18,dg+6.1,18,L,T3 verified accept (within 1SD noise band)
+UTSA,LB,30,dg+4.6,30,L,T3 verified accept (within 1SD noise band)
+UTSA,DB,23,dg+9.2 but unit info 0.07 — formula is prior-noise,23,L,T3 hold; formula uninformative
+UTSA,ST,52,no formula arm,52,M,T3 hold; news/media-days integrated
+Utah,QB,70,dg+5.8,70,M,T3 verified accept (within 1SD noise band)
+Utah,RB,65,dg+3.0,65,M,T3 verified accept
+Utah,WRTE,52,dg-1.3,52,M,T3 verified accept
+Utah,OL,46,dg-0.1,46,M,T3 verified accept
+Utah,DL,44,dg+6.9,44,M,T3 verified accept (within 1SD noise band)
+Utah,LB,46,dg+7.4,46,M,T3 verified accept (within 1SD noise band)
+Utah,DB,58,dg-10.6; info 0.18 — blend halved,56,M,DB policy 1/3 blend
+Utah,ST,62,no formula arm,62,M,T3 hold; news/media-days integrated
+Utah State,QB,34,dg+4.7,34,M,T3 verified accept (within 1SD noise band)
+Utah State,RB,40,dg-17.3,32,M,50/50 blend
+Utah State,WRTE,34,dg-6.2,34,M,T3 verified accept (within 1SD noise band)
+Utah State,OL,36,dg-14.6,29,M,50/50 blend
+Utah State,DL,36,dg-16.7,28,M,50/50 blend
+Utah State,LB,36,dg-8.8,32,M,LB 0.4 blend
+Utah State,DB,36,dg-5.9,36,M,T3 verified accept (within 1SD noise band)
+Utah State,ST,38,no formula arm,38,M,T3 hold; news/media-days integrated
+Vanderbilt,QB,46,dg+9.8; info 0.19 — blend halved,48,L,50/50 blend
+Vanderbilt,RB,58,dg-1.7,58,M,T3 verified accept
+Vanderbilt,WRTE,50,dg+11.1,56,M,50/50 blend
+Vanderbilt,OL,46,dg-3.5,46,M,T3 verified accept
+Vanderbilt,DL,50,dg-4.0,50,M,T3 verified accept
+Vanderbilt,LB,50,dg-1.4,50,M,T3 verified accept
+Vanderbilt,DB,58,dg-1.1,58,M,T3 verified accept
+Vanderbilt,ST,60,no formula arm,60,M,T3 hold; news/media-days integrated
+Virginia,QB,52,dg+12.4,58,M,50/50 blend
+Virginia,RB,56,dg-5.8,56,M,T3 verified accept (within 1SD noise band)
+Virginia,WRTE,44,dg-3.0,44,L,T3 verified accept
+Virginia,OL,58,dg-3.7,58,M,T3 verified accept
+Virginia,DL,50,dg+0.9,50,M,T3 verified accept
+Virginia,LB,54,dg-2.9,54,M,T3 verified accept
+Virginia,DB,52,dg-1.3,52,M,T3 verified accept
+Virginia,ST,54,no formula arm,54,M,T3 hold; news/media-days integrated
+Virginia Tech,QB,48,dg-0.4,48,L,T3 verified accept
+Virginia Tech,RB,60,dg+3.4,60,M,T3 verified accept
+Virginia Tech,WRTE,50,dg-17.9,42,M,50/50 blend
+Virginia Tech,OL,42,dg-8.1,38,M,50/50 blend
+Virginia Tech,DL,50,dg-4.3,50,M,T3 verified accept (within 1SD noise band)
+Virginia Tech,LB,44,dg-4.7,44,L,T3 verified accept (within 1SD noise band)
+Virginia Tech,DB,60,dg+3.1,60,M,T3 verified accept
+Virginia Tech,ST,50,no formula arm,50,M,T3 hold; news/media-days integrated
+Wake Forest,QB,54,dg+8.8,58,M,50/50 blend
+Wake Forest,RB,46,dg+0.5,46,L,T3 verified accept
+Wake Forest,WRTE,46,dg-19.1,38,M,50/50 blend
+Wake Forest,OL,44,dg+2.8,44,M,T3 verified accept
+Wake Forest,DL,58,dg-7.9,58,M,T3 verified accept (within 1SD noise band)
+Wake Forest,LB,48,dg-1.3,48,M,T3 verified accept
+Wake Forest,DB,50,dg-0.0,50,M,T3 verified accept
+Wake Forest,ST,54,no formula arm,54,M,T3 hold; news/media-days integrated
+Washington,QB,74,dg-9.7,69,M,50/50 blend
+Washington,RB,50,dg+6.1,50,M,T3 verified accept (within 1SD noise band)
+Washington,WRTE,56,dg-5.8,56,M,T3 verified accept (within 1SD noise band)
+Washington,OL,62,dg-4.4,62,M,T3 verified accept (within 1SD noise band)
+Washington,DL,62,dg-0.6,62,M,T3 verified accept
+Washington,LB,72,dg-12.4,67,M,LB 0.4 blend
+Washington,DB,72,dg-2.9,72,M,T3 verified accept
+Washington,ST,58,no formula arm,58,M,T3 hold; news/media-days integrated
+Washington State,QB,28,no matched players — formula uninformative,28,L,T3 hold; no formula info
+Washington State,RB,42,dg-18.6,34,M,50/50 blend
+Washington State,WRTE,44,dg-19.9,36,M,50/50 blend
+Washington State,OL,26,dg-9.2,21,M,50/50 blend
+Washington State,DL,30,dg+4.2,30,M,T3 verified accept (within 1SD noise band)
+Washington State,LB,28,dg-8.2,25,L,LB 0.4 blend
+Washington State,DB,32,dg-7.0,32,M,T3 verified accept (within 1SD noise band)
+Washington State,ST,32,no formula arm,32,M,T3 hold; news/media-days integrated
+West Virginia,QB,44,dg+3.8,44,M,T3 verified accept
+West Virginia,WRTE,44,dg-3.8,44,M,T3 verified accept
+West Virginia,OL,46,dg+2.2,46,M,T3 verified accept
+West Virginia,DL,42,dg-0.1,42,M,T3 verified accept
+West Virginia,LB,40,dg+5.2,40,M,T3 verified accept (within 1SD noise band)
+West Virginia,DB,40,dg-0.6,40,M,T3 verified accept
+West Virginia,ST,42,no formula arm,42,M,T3 hold; news/media-days integrated
+Western Kentucky,QB,52,dg-2.5,52,M,T3 verified accept
+Western Kentucky,RB,46,dg-1.0,46,M,T3 verified accept
+Western Kentucky,WRTE,48,dg+14.2,55,M,50/50 blend
+Western Kentucky,OL,42,dg-3.0,42,L,T3 verified accept
+Western Kentucky,DL,44,dg-16.2,36,M,50/50 blend
+Western Kentucky,LB,36,dg-4.8,36,L,T3 verified accept (within 1SD noise band)
+Western Kentucky,ST,48,no formula arm,48,M,T3 hold; news/media-days integrated
+Western Michigan,QB,46,dg-16.6,38,M,50/50 blend
+Western Michigan,RB,28,dg-6.4,28,M,T3 verified accept (within 1SD noise band)
+Western Michigan,WRTE,26,dg-2.2,26,M,T3 verified accept
+Western Michigan,OL,28,dg-8.2; info 0.19 — blend halved,26,M,50/50 blend
+Western Michigan,DL,18,dg+10.3; info 0.17 — blend halved,21,M,50/50 blend
+Western Michigan,LB,16,dg+4.3,16,L,T3 verified accept (within 1SD noise band)
+Western Michigan,DB,30,dg+7.5,30,M,T3 verified accept (within 1SD noise band)
+Western Michigan,ST,28,no formula arm,28,M,T3 hold; news/media-days integrated
+Wisconsin,QB,62,dg-20.1 | ADJUDICATOR: Joseph 78.9/334 real full-volume G5 tape (Houser lesson — do not double-discount); validated G5→P4 charge is only -3.5; backup drag structural,57,M,manual middle ground
+Wisconsin,RB,58,dg-8.5,54,M,50/50 blend
+Wisconsin,WRTE,44,dg+2.4,44,M,T3 verified accept
+Wisconsin,OL,48,dg+2.0,48,M,T3 verified accept
+Wisconsin,DL,52,dg+5.0,52,M,T3 verified accept (within 1SD noise band)
+Wisconsin,LB,74,dg-8.5,71,M,LB 0.4 blend
+Wisconsin,DB,62,dg+1.2,62,M,T3 verified accept
+Wisconsin,ST,48,no formula arm,48,M,T3 hold; news/media-days integrated
+Wyoming,QB,20,dg+12.3 but unit info 0.07 — formula is prior-noise,20,L,T3 hold; formula uninformative
+Wyoming,RB,18,dg+9.9,23,M,50/50 blend
+Wyoming,WRTE,12,dg+4.6,12,L,T3 verified accept (within 1SD noise band)
+Wyoming,OL,18,dg+2.6,18,M,T3 verified accept
+Wyoming,DL,14,dg+6.8,14,L,T3 verified accept (within 1SD noise band)
+Wyoming,LB,16,dg+14.2; info 0.10 — blend halved,19,M,LB 0.4 blend
+Wyoming,DB,16,dg+6.1,16,M,T3 verified accept (within 1SD noise band)
+Wyoming,ST,16,no formula arm,16,M,T3 hold; news/media-days integrated

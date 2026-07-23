@@ -79,3 +79,15 @@ Illinois-style re-open under the Independents fix, first item next session).**
 vintage for all 138 → final_pass → payload → artifacts → tracker → full impact memo
 (all bets re-priced). Start a fresh thread with: "Continue the v2 rollout per
 docs/research/V2_ROLLOUT_PLAN.md — pick up at Notre Dame."
+
+## Session update (cont.) — field sweep complete
+- ND re-opened under the Independents fix (P4-pool scale term): QB 86→84, RB 66→64, OL 78→74,
+  five units hold. The pro forma craters were 100% polluted IND cells (OL cell −22.0 vs P4 pool +6.0).
+- Field sweep: trigger reset |dg|>4 → |dg|>8 (=1 SD of the demeaned gap, 8.49; matches the manual
+  rounds' de facto floor — |dg|>4 would have blended 61% of the field, i.e. noise). Added: unit-info
+  guard (matched volume-weight share; <0.10 hold "formula uninformative" [37 cases, e.g. Iowa QB w̄=0.03],
+  <0.20 blend halved), option-academy halving (Army/Navy/AF — PFF option-scheme distortion),
+  FR-prior info credit 0.25 (S2b). Blend weights: DB 1/3, LB 0.40, others 0.50, cap ±8.
+- 1,041 sweep verdicts appended; 256 blends (118 up / 138 down, mean |move| 5.0); 5 manual
+  middle-ground overrides after |dg|>20 review (Duke QB 46, Michigan QB 56, Wisconsin QB 57,
+  LaTech WRTE 50, Tulane RB 54). Every unit on every team now has a logged verdict.
