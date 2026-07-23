@@ -89,3 +89,26 @@ floors). Outcome: that first-tape grade.
   ≥ 2 (the owner's motivating case) — else ship for true-freshman priors only.
 - Report regardless: means by star tier, per-position partials, match rate, and the
   comparison to the transfer-stars null.
+
+## S1-E — origin-program talent as a thin-tape mover prior (registered before fit)
+
+Owner hypothesis (the "Georgia backup → UAB" case): a thin-tape mover from an elite
+roster should project above one from a weak roster, beyond the class-jump term. Predictor:
+CFBD team talent composite of the ORIGIN team in season t, z-scored within year. Sample:
+movers with any tape (vol_t ≥ 10); "thin" = below the position-median mover volume.
+Model: S1 base (grade_t, log vol, position FE, jump dummies) + talent_z (+ talent_z×thin).
+
+**Bars:** ships as a thin-tape origin-talent term iff ΔR² ≥ 0.01 on the thin-mover
+subsample AND talent_z sign-positive in all 4 LOYO folds. Report effect size per 1 SD of
+origin talent either way.
+
+## S2-C — career-pooled evidence vs last-season-only (registered before fit)
+
+Owner's journeyman case: a 5th-year player's many prior seasons should pin him better
+than one season can. Pooled evidence: volume- and recency-weighted career grade with
+decay 0.5 per season back (FIXED a priori, not tuned); n_eff = Σ decayed volume.
+Both arms use the full v2 formula (prior + w(n)·(evidence − prior) + jump term; w caps
+QB 0.55 / LB 0.50). Eval: LOYO MAE on all pairs with vol_t ≥ 10.
+
+**Bars:** pooled arm ships iff it beats single-season by ≥ 1% MAE overall AND ≥ 2% on
+the multi-history slice (players with ≥ 2 prior seasons), with no slice degrading > 0.5%.
