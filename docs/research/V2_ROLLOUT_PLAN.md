@@ -62,3 +62,20 @@ units, against our U7.5). Kennesaw held (override-pinned).
 **Next:** Illinois re-open; demeaned shortlist (Louisiana, Georgia State, South Alabama,
 Tulane, Colorado State, Arizona, Notre Dame w/ IND fix, Rutgers, WKU, Michigan State);
 then the field by conference; then rebuild + impact memo.
+
+## Session 2 close: Illinois re-opened, shortlist adjudicated, Tier-3 blend rule adopted
+
+**Owner amendment:** middle-ground blending allowed at EVERY tier (not binary
+accept/reopen); Tier 3 additionally requires coverage + staleness screens before accept.
+**Illinois (re-opened):** formula vindicated — Houser's 84.0/473db is real full-volume
+tape the dossier double-discounted (the v1 failure mode). QB 62→70, RB 32→38, WRTE
+48→52, DL 41→45, OL 38→42, LB 46→48. Net ≈ +1 rating pt at rebuild → U7.5 thins ~3-4pp
+but stays +EV. **DB adjudication policy (S2-informed):** dossier DB grades over-confident
+AND formula DB percentiles under-informative (w≤0.35) → blend 1/3 toward formula, cap ±8.
+Shortlist done except **Notre Dame (deferred — IND pool n=2 makes demeaning meaningless;
+Illinois-style re-open under the Independents fix, first item next session).**
+**Remaining:** ND re-open → ~110-team Tier-3 field sweep (scripted: blend rule where
+|dg|>4, coverage+staleness screens, every unit logged) → regenerate grades.json v2
+vintage for all 138 → final_pass → payload → artifacts → tracker → full impact memo
+(all bets re-priced). Start a fresh thread with: "Continue the v2 rollout per
+docs/research/V2_ROLLOUT_PLAN.md — pick up at Notre Dame."
