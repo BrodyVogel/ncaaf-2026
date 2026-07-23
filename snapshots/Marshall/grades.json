@@ -2,8 +2,10 @@
  "team": "Marshall",
  "units": {
   "QB": {
-   "grade": 50,
-   "confidence": "M"
+   "grade": 52,
+   "confidence": "M",
+   "v1_grade": 50,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): POY + dual-threat run value invisible; was accept 50"
   },
   "RB": {
    "grade": 40,

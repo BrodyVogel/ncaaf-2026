@@ -2,8 +2,10 @@
  "team": "Utah",
  "units": {
   "QB": {
-   "grade": 70,
-   "confidence": "M"
+   "grade": 72,
+   "confidence": "M",
+   "v1_grade": 70,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): Dampier 83.1 + Ficklin 90.5 duo; was accept 70"
   },
   "RB": {
    "grade": 65,
@@ -18,8 +20,10 @@
    "confidence": "M"
   },
   "DL": {
-   "grade": 44,
-   "confidence": "M"
+   "grade": 46,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): Holtzclaw + Moe 83.1 + Day; rank+60; was accept 44"
   },
   "LB": {
    "grade": 46,

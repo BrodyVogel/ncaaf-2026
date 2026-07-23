@@ -18,8 +18,10 @@
    "confidence": "L"
   },
   "OL": {
-   "grade": 24,
-   "confidence": "L"
+   "grade": 22,
+   "confidence": "M",
+   "v1_grade": 24,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): rank-53; Timoteo 38.3 + FCS tackles; was accept 24"
   },
   "DL": {
    "grade": 39,

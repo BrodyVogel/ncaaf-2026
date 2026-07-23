@@ -20,8 +20,10 @@
    "confidence": "M"
   },
   "DL": {
-   "grade": 52,
-   "confidence": "M"
+   "grade": 55,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): White 90.2 + Lang 79.6; start+20.5; was accept 52"
   },
   "LB": {
    "grade": 56,

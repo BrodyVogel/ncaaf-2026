@@ -16,8 +16,10 @@
    "confidence": "M"
   },
   "OL": {
-   "grade": 26,
-   "confidence": "M"
+   "grade": 28,
+   "confidence": "M",
+   "v1_grade": 26,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): Vonderhaar 85.7 best MWC-round OL tape; was accept 26"
   },
   "DL": {
    "grade": 17,

@@ -20,8 +20,10 @@
    "adjudication": "50/50: dg-14"
   },
   "OL": {
-   "grade": 58,
-   "confidence": "M"
+   "grade": 56,
+   "confidence": "M",
+   "v1_grade": 58,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): interior gutted; -2; was accept 58"
   },
   "DL": {
    "grade": 45,

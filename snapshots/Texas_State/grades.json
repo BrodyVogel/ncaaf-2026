@@ -30,8 +30,10 @@
    "confidence": "L"
   },
   "LB": {
-   "grade": 32,
-   "confidence": "M"
+   "grade": 30,
+   "confidence": "M",
+   "v1_grade": 32,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): rank-25; mid returners lost best; was accept 32"
   },
   "DB": {
    "grade": 36,

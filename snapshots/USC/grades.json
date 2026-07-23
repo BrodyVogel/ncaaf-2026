@@ -14,8 +14,10 @@
    "confidence": "M"
   },
   "OL": {
-   "grade": 54,
-   "confidence": "M"
+   "grade": 52,
+   "confidence": "M",
+   "v1_grade": 54,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): five return with bad tape (53-57 at volume); tape-side; was accept 54"
   },
   "DL": {
    "grade": 67,

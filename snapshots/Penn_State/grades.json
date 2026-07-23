@@ -22,8 +22,10 @@
    "confidence": "M"
   },
   "DL": {
-   "grade": 60,
-   "confidence": "M"
+   "grade": 57,
+   "confidence": "M",
+   "v1_grade": 60,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): lost entire front + best tape; transfer wave mid grades; was accept 60"
   },
   "LB": {
    "grade": 68,

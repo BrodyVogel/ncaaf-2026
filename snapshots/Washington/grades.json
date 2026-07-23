@@ -12,8 +12,10 @@
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 56,
-   "confidence": "M"
+   "grade": 54,
+   "confidence": "M",
+   "v1_grade": 56,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): rank-24; aggregate p42, one riser; was accept 56"
   },
   "OL": {
    "grade": 62,

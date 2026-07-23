@@ -2,8 +2,10 @@
  "team": "Mississippi State",
  "units": {
   "QB": {
-   "grade": 54,
-   "confidence": "M"
+   "grade": 56,
+   "confidence": "M",
+   "v1_grade": 54,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): Taylor 84.7 phenom flash + run value; was accept 54"
   },
   "RB": {
    "grade": 52,
@@ -28,8 +30,10 @@
    "confidence": "M"
   },
   "DB": {
-   "grade": 56,
-   "confidence": "M"
+   "grade": 58,
+   "confidence": "M",
+   "v1_grade": 56,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): five DBs at 72+ real; was accept 56"
   },
   "ST": {
    "grade": 54,

@@ -26,12 +26,16 @@
    "confidence": "M"
   },
   "LB": {
-   "grade": 44,
-   "confidence": "L"
+   "grade": 42,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): rank-25; modest returners; was accept 44"
   },
   "DB": {
-   "grade": 60,
-   "confidence": "M"
+   "grade": 62,
+   "confidence": "M",
+   "v1_grade": 60,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): White 87.4/879 + four 72+ at volume; was accept 60"
   },
   "ST": {
    "grade": 50,

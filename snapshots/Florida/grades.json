@@ -6,8 +6,10 @@
    "confidence": "L"
   },
   "RB": {
-   "grade": 60,
-   "confidence": "M"
+   "grade": 62,
+   "confidence": "M",
+   "v1_grade": 60,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): Baugh 87.7/221 elite; was accept 60"
   },
   "WRTE": {
    "grade": 50,
@@ -18,8 +20,10 @@
    "confidence": "L"
   },
   "DL": {
-   "grade": 54,
-   "confidence": "M"
+   "grade": 56,
+   "confidence": "M",
+   "v1_grade": 54,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): Oyebadejo 80.2/653 + real duo; was accept 54"
   },
   "LB": {
    "grade": 56,

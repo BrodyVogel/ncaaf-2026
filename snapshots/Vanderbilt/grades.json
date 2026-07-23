@@ -18,12 +18,16 @@
    "adjudication": "re-read adjudication: RE-READ: real transfers but Stowers/Pavia context; trim; policy had 56"
   },
   "OL": {
-   "grade": 46,
-   "confidence": "M"
+   "grade": 44,
+   "confidence": "M",
+   "v1_grade": 46,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): start-12.6; McConnell 52.2 weak + frosh QB; was accept 46"
   },
   "DL": {
-   "grade": 50,
-   "confidence": "M"
+   "grade": 48,
+   "confidence": "M",
+   "v1_grade": 50,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): start-16.5; weak-rush flag real; was accept 50"
   },
   "LB": {
    "grade": 50,

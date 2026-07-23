@@ -14,8 +14,10 @@
    "confidence": "L"
   },
   "OL": {
-   "grade": 22,
-   "confidence": "M"
+   "grade": 24,
+   "confidence": "M",
+   "v1_grade": 22,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): Cochnauer 79.5/640 + four real starters; was accept 22"
   },
   "DL": {
    "grade": 34,

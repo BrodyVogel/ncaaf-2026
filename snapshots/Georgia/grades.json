@@ -12,8 +12,10 @@
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 56,
-   "confidence": "M"
+   "grade": 54,
+   "confidence": "M",
+   "v1_grade": 56,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): start-17.7; young reload, tapes 59-67; was accept 56"
   },
   "OL": {
    "grade": 60,

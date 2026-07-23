@@ -2,8 +2,10 @@
  "team": "New Mexico",
  "units": {
   "QB": {
-   "grade": 34,
-   "confidence": "M"
+   "grade": 36,
+   "confidence": "M",
+   "v1_grade": 34,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): Layne 73.1/399 13-start; was accept 34"
   },
   "RB": {
    "grade": 16,

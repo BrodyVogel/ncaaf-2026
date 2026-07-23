@@ -24,8 +24,10 @@
    "confidence": "M"
   },
   "LB": {
-   "grade": 46,
-   "confidence": "M"
+   "grade": 44,
+   "confidence": "M",
+   "v1_grade": 46,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): Toure solo; was accept 46"
   },
   "DB": {
    "grade": 60,

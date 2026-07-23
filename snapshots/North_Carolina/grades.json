@@ -6,20 +6,26 @@
    "confidence": "L"
   },
   "RB": {
-   "grade": 50,
-   "confidence": "M"
+   "grade": 48,
+   "confidence": "M",
+   "v1_grade": 50,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): start-12.4; thin samples; was accept 50"
   },
   "WRTE": {
-   "grade": 48,
-   "confidence": "M"
+   "grade": 50,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): Shipp 73.1/378 + TE pedigree; was accept 48"
   },
   "OL": {
    "grade": 44,
    "confidence": "M"
   },
   "DL": {
-   "grade": 52,
-   "confidence": "M"
+   "grade": 54,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): Abou Jaoude 79.0/646 elite anchor; was accept 52"
   },
   "LB": {
    "grade": 40,

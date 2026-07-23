@@ -6,8 +6,10 @@
    "confidence": "M"
   },
   "RB": {
-   "grade": 48,
-   "confidence": "M"
+   "grade": 46,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): start-10.5; tiny samples + health bets; was accept 48"
   },
   "WRTE": {
    "grade": 48,
@@ -18,8 +20,10 @@
    "confidence": "M"
   },
   "DL": {
-   "grade": 58,
-   "confidence": "M"
+   "grade": 60,
+   "confidence": "M",
+   "v1_grade": 58,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): Gadson 80.4 + core real; was accept 58"
   },
   "LB": {
    "grade": 44,

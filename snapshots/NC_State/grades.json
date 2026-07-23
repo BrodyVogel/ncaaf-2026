@@ -10,16 +10,20 @@
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 42,
-   "confidence": "L"
+   "grade": 44,
+   "confidence": "M",
+   "v1_grade": 42,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): Snow 74.9/448 real; was accept 42"
   },
   "OL": {
    "grade": 46,
    "confidence": "M"
   },
   "DL": {
-   "grade": 40,
-   "confidence": "L"
+   "grade": 38,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): start-16; low-grade youth; was accept 40"
   },
   "LB": {
    "grade": 42,

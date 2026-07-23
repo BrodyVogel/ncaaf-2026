@@ -12,8 +12,10 @@
    "adjudication": "re-read adjudication: RE-READ: ceiling-squeeze (dossier 82 cannot show cell mean gap); ranks agree; -2 sample; policy had 76"
   },
   "WRTE": {
-   "grade": 48,
-   "confidence": "M"
+   "grade": 46,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): lost all production; pedigree fills; was accept 48"
   },
   "OL": {
    "grade": 62,
@@ -22,12 +24,16 @@
    "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "DL": {
-   "grade": 52,
-   "confidence": "M"
+   "grade": 50,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): rank-38; mid tape, lost top volume grades; was accept 52"
   },
   "LB": {
-   "grade": 50,
-   "confidence": "M"
+   "grade": 48,
+   "confidence": "M",
+   "v1_grade": 50,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): align with dossier's own text (48); tape 57-62 at volume; was accept 50"
   },
   "DB": {
    "grade": 70,

@@ -18,8 +18,10 @@
    "adjudication": "split; U5.5 supported: dg-23"
   },
   "OL": {
-   "grade": 52,
-   "confidence": "M"
+   "grade": 54,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): Baer 76.8/882 + 127 starts; start+13.7; was accept 52"
   },
   "DL": {
    "grade": 58,

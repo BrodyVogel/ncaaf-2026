@@ -20,12 +20,16 @@
    "confidence": "M"
   },
   "DL": {
-   "grade": 62,
-   "confidence": "M"
+   "grade": 65,
+   "confidence": "M",
+   "v1_grade": 62,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): Lubin 91.4/597 elite trio; start+20.5; was accept 62"
   },
   "LB": {
-   "grade": 50,
-   "confidence": "M"
+   "grade": 52,
+   "confidence": "M",
+   "v1_grade": 50,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): Watts 76.8/618 real; was accept 50"
   },
   "DB": {
    "grade": 52,

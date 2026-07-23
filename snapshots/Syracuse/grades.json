@@ -16,8 +16,10 @@
    "confidence": "L"
   },
   "OL": {
-   "grade": 42,
-   "confidence": "M"
+   "grade": 40,
+   "confidence": "M",
+   "v1_grade": 42,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): start-10.4; weak tape 48-59, lost best; was accept 42"
   },
   "DL": {
    "grade": 36,

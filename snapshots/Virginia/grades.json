@@ -12,8 +12,10 @@
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 44,
-   "confidence": "L"
+   "grade": 42,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): start-14.1; mid G5 reload; was accept 44"
   },
   "OL": {
    "grade": 58,

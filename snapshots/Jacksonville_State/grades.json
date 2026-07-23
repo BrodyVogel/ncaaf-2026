@@ -26,8 +26,10 @@
    "adjudication": "re-read adjudication: RE-READ: lost top-2 rushers + unmatched depth; trim; policy had 50"
   },
   "LB": {
-   "grade": 48,
-   "confidence": "M"
+   "grade": 46,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): rank-75; LB caution but production real; -2; was accept 48"
   },
   "DB": {
    "grade": 50,

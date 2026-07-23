@@ -30,8 +30,10 @@
    "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "DB": {
-   "grade": 70,
-   "confidence": "M"
+   "grade": 68,
+   "confidence": "M",
+   "v1_grade": 70,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): rank-18; Berry override risk; was accept 70"
   },
   "ST": {
    "grade": 55,

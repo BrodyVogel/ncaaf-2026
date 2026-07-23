@@ -115,3 +115,9 @@ Re-read: all 256 blends read case-by-case (dossier rationale + player math + dis
 reason); 136 confirmed, 120 adjusted (mostly toward dossier; ceiling-squeeze, offset-axis,
 formula-void, dual-threat and solo-aggregation corrections). 2027 candidates: rank-based dg,
 QB rushing-value term. Production vintage = v2.2.
+
+## v2.3 (2026-07-23): accept-layer completion — full field adjudicated
+False-agreement screens over all 625 accepts (rank-view, starter-view, missing-star,
+dual-QB) → 320 case reads (68 adjustments ±2-3, 252 confirms); deep band sample-validated
+0/40 (pre-registered rule, no expansion); ST 138/138 single-source scanned. Board delta
+0.049 mean. All 14 bets stable; UCF THIN unchanged. Production vintage = v2.3.

@@ -32,8 +32,10 @@
    "confidence": "L"
   },
   "DB": {
-   "grade": 30,
-   "confidence": "M"
+   "grade": 32,
+   "confidence": "M",
+   "v1_grade": 30,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): five 350+ returners real; was accept 30"
   },
   "ST": {
    "grade": 28,

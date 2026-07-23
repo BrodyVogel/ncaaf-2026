@@ -32,8 +32,10 @@
    "confidence": "M"
   },
   "DB": {
-   "grade": 46,
-   "confidence": "L"
+   "grade": 44,
+   "confidence": "M",
+   "v1_grade": 46,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): start-10.6; mid tapes + lost Rivers; was accept 46"
   },
   "ST": {
    "grade": 50,

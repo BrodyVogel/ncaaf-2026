@@ -2,8 +2,10 @@
  "team": "Western Kentucky",
  "units": {
   "QB": {
-   "grade": 52,
-   "confidence": "M"
+   "grade": 50,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): rank-50; mid tape battle; was accept 52"
   },
   "RB": {
    "grade": 46,

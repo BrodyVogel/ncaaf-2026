@@ -24,8 +24,10 @@
    "confidence": "M"
   },
   "LB": {
-   "grade": 62,
-   "confidence": "M"
+   "grade": 64,
+   "confidence": "M",
+   "v1_grade": 62,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): Chambliss 85.5/765 in-scheme + Shavers; was accept 62"
   },
   "DB": {
    "grade": 65,

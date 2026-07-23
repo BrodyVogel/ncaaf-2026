@@ -14,8 +14,10 @@
    "confidence": "M"
   },
   "OL": {
-   "grade": 56,
-   "confidence": "M"
+   "grade": 54,
+   "confidence": "M",
+   "v1_grade": 56,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): rank-36; Davis 47.1/699 weak link; was accept 56"
   },
   "DL": {
    "grade": 62,

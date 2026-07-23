@@ -2,8 +2,10 @@
  "team": "Auburn",
  "units": {
   "QB": {
-   "grade": 60,
-   "confidence": "M"
+   "grade": 62,
+   "confidence": "M",
+   "v1_grade": 60,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): B.Brown 91.5/405 elite + run value invisible; was accept 60"
   },
   "RB": {
    "grade": 54,
@@ -14,8 +16,10 @@
    "confidence": "M"
   },
   "OL": {
-   "grade": 48,
-   "confidence": "M"
+   "grade": 50,
+   "confidence": "M",
+   "v1_grade": 48,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): Best 72.3/879 + real transfer tapes; rank+; was accept 48"
   },
   "DL": {
    "grade": 59,

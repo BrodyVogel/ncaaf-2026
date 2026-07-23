@@ -196,3 +196,42 @@ changes vs v1: 290 units.
 **Methodological note for 2027**: future sweeps should compute disagreement on
 within-cell *ranks* (immune to ceiling squeeze and offset-axis artifacts) and add a
 rushing-value term to the QB formula arm. Logged as build candidates.
+
+---
+
+## Addendum 3 — full-field completion: the accept layer (v2.3, same day)
+
+The final layer: every unit that had been a Tier-3 *accept* (or hold) got the treatment
+appropriate to its evidence structure, completing owner-directed adjudication of the
+entire 1,104-unit field.
+
+**Design.** Accepts differ from blends: two views already agree, so the failure mode is
+*false agreement* (an artifact masking a real disagreement). All 625 remaining accepts
+were screened four ways — within-cell rank disagreement (immune to ceiling/axis
+artifacts), starter-only view, missing-star scan of unmatched roster rows, and a
+dual-threat-QB flag. 101 flagged + 179 near-trigger (|dg| 4–8) got full case reads;
+310 deep-clean accepts got a pre-registered 40-case random sample with an expansion
+rule (≥2 real adjustments → read the whole band). The 138 ST units (no formula arm
+exists) got a single-source scan: stored-vs-text grade reconciliation + unresolved-flag
+search.
+
+**Results.**
+- 320 case reads → **68 adjustments, all ±2–3 grade points** (252 confirms). Typical
+  moves: Louisville DL 62→65 (Lubin 91.4/597 + two 80+ tapes), Clemson DL 58→61,
+  Virginia Tech DB 60→62 (White 87.4/879 + four 72+ at volume), Penn State DL 60→57
+  (entire front + best per-snap tape gone), USC OL 54→52 (five returners, tape 53–57
+  at volume), BYU LB 50→48 (aligning the stored grade with the dossier's own text).
+- **Sample: 0 of 40 deep accepts needed adjustment** → no expansion; the 310-case band
+  stands as screen-cleared and sample-validated.
+- **ST scan: 138/138 clean** (one benign open-kicker-battle flag at Indiana, already
+  priced by its confidence letter).
+- Board effect v2.2 → v2.3: **mean |Δfinal| 0.049** (max Boston College −0.31); stretch
+  1.1545; SD 13.12; census asserts pass. All 14 bets re-verified — no changes; UCF conf
+  O3.5 remains the lone THIN hold (mm +1.6%).
+
+**Where this leaves the ledger.** 1,104 units: ~80 hand-adjudicated in the manual
+rounds, 256 blends re-read case-by-case, 280 flagged/near-trigger accepts read
+case-by-case, 310 deep accepts screen-cleared + sample-validated (0/40), 138 ST
+single-source scanned, and 37 info-holds (formula uninformative by construction)
+reviewed wherever any screen flagged them. Grade changes vs v1: **358 units**. The
+adjudication log stands at 1,863 rows. v2.3 is the production vintage.

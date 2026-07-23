@@ -18,12 +18,16 @@
    "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "OL": {
-   "grade": 46,
-   "confidence": "M"
+   "grade": 48,
+   "confidence": "M",
+   "v1_grade": 46,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): Hurst/Boswell/Terrill 76-80 tapes at 700+; was accept 46"
   },
   "DL": {
-   "grade": 55,
-   "confidence": "M"
+   "grade": 53,
+   "confidence": "M",
+   "v1_grade": 55,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): rotation minus the stars; was accept 55"
   },
   "LB": {
    "grade": 48,

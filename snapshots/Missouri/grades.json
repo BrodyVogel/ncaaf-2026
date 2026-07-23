@@ -10,8 +10,10 @@
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 52,
-   "confidence": "M"
+   "grade": 54,
+   "confidence": "M",
+   "v1_grade": 52,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): Olugbode 75.5 + Lee real; was accept 52"
   },
   "OL": {
    "grade": 58,

@@ -2,8 +2,10 @@
  "team": "Florida International",
  "units": {
   "QB": {
-   "grade": 46,
-   "confidence": "M"
+   "grade": 48,
+   "confidence": "M",
+   "v1_grade": 46,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): Kohl efficient production; rank+38; was accept 46"
   },
   "RB": {
    "grade": 40,
@@ -12,12 +14,16 @@
    "adjudication": "re-read adjudication: RE-READ: thin evidence (105/37 att); halve; policy had 37"
   },
   "WRTE": {
-   "grade": 46,
-   "confidence": "M"
+   "grade": 48,
+   "confidence": "M",
+   "v1_grade": 46,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): Stone 80.1 flash + volume; was accept 46"
   },
   "OL": {
-   "grade": 40,
-   "confidence": "M"
+   "grade": 42,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): 3 returning bodies; rank+38; was accept 40"
   },
   "DL": {
    "grade": 43,
@@ -26,8 +32,10 @@
    "adjudication": "re-read adjudication: RE-READ: Anderson 80.0 flash + edge-duo story; middle; policy had 40"
   },
   "LB": {
-   "grade": 44,
-   "confidence": "M"
+   "grade": 47,
+   "confidence": "M",
+   "v1_grade": 44,
+   "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): Taylor 71.2/665 + Courtney; rank+75; was accept 44"
   },
   "DB": {
    "grade": 44,
