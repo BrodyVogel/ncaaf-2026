@@ -139,3 +139,8 @@ dual-QB) → 320 case reads (68 adjustments ±2-3, 252 confirms); deep band samp
   under bar (S4-C FAIL). Within-group texture: miss lives in lo/mid-volume tape (+0.037/+0.040),
   hi-volume slightly over-retained (-0.036) -> 2027 remedy = refit w(n) FUNCTIONAL FORM
   (volume-dependent), not a flat beta and not per-group k. See FINDINGS_S4_2026-07-24.md.
+- UPDATE 2026-07-24 (Study 4b): per-group two-parameter form FAILED all three registered bars
+  (LOYO gain +0.003 vs bar +0.015; residual slope still same-sign; fold fits unstable). Third
+  corrective form to fail under registration -> stopped by rule. Ships instead: S4 adjudication
+  doctrine (thin-tape formula pulls discounted in case reads) + Study 4c pre-registered NOW
+  (pooled two-parameter form, five folds incl. 2025->26) for the 2027 build. v2.3 stands.
