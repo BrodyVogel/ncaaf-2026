@@ -1,14 +1,14 @@
 date,category,team,side,line,odds,book,stake_u,our_p,pct_edge,model_ev,result,pnl_u,note
-2026-07-20,regular,UConn,over,5.5,-105,DK,0.57,0.684,+20.5%,+0.336,pending,+0.000,
-2026-07-20,regular,Tulsa,over,5.5,+100,CZR,0.55,0.658,+18.4%,+0.317,pending,+0.000,
-2026-07-20,regular,Oregon State,over,3.5,-150,Bet365,0.65,0.745,+17.5%,+0.241,pending,+0.000,
-2026-07-20,regular,Bowling Green,over,4.5,-160,Bet365,0.7,0.758,+16.8%,+0.232,pending,+0.000,
-2026-07-20,regular,Liberty,under,8.5,-145,Bet365,0.6,0.713,+17.0%,+0.204,pending,+0.000,took -145
-2026-07-20,regular,Arizona State,under,6.5,+100,CZR,0.55,0.603,+12.0%,+0.206,pending,+0.000,took +100; juiced out at BetRivers
-2026-07-20,regular,Kennesaw State,over,6.5,+120,Bet365,0.55,0.552,+9.1%,+0.216,pending,+0.000,
-2026-07-20,regular,Illinois,under,7.5,-160,CZR,0.65,0.692,+10.7%,+0.125,pending,+0.000,took -160
-2026-07-20,regular,West Virginia,under,5.5,+132,FD,0.5,0.489,+7.1%,+0.135,pending,+0.000,FD +132
-2026-07-20,regular,East Carolina,over,7.5,+100,CZR,0.55,0.588,+10.8%,+0.177,pending,+0.000,
+2026-07-20,regular,UConn,over,5.5,-105,DK,0.57,0.679,+19.9%,+0.325,pending,+0.000,
+2026-07-20,regular,Tulsa,over,5.5,+100,CZR,0.55,0.651,+17.6%,+0.302,pending,+0.000,
+2026-07-20,regular,Oregon State,over,3.5,-150,Bet365,0.65,0.730,+16.1%,+0.217,pending,+0.000,
+2026-07-20,regular,Bowling Green,over,4.5,-160,Bet365,0.7,0.739,+14.8%,+0.201,pending,+0.000,
+2026-07-20,regular,Liberty,under,8.5,-145,Bet365,0.6,0.718,+17.4%,+0.212,pending,+0.000,took -145
+2026-07-20,regular,Arizona State,under,6.5,+100,CZR,0.55,0.604,+12.1%,+0.208,pending,+0.000,took +100; juiced out at BetRivers
+2026-07-20,regular,Kennesaw State,over,6.5,+120,Bet365,0.55,0.545,+8.4%,+0.199,pending,+0.000,
+2026-07-20,regular,Illinois,under,7.5,-160,CZR,0.65,0.695,+10.9%,+0.129,pending,+0.000,took -160
+2026-07-20,regular,West Virginia,under,5.5,+132,FD,0.5,0.494,+7.6%,+0.146,pending,+0.000,FD +132
+2026-07-20,regular,East Carolina,over,7.5,+100,CZR,0.55,0.585,+10.4%,+0.169,pending,+0.000,
 2026-07-20,regular,Hawai'i,under,7.5,-120,CZR,0.6,0.647,+10.4%,+0.187,pending,+0.000,took -120 at CZR
 2026-07-20,conference,Florida,under,4.5,-110,,0.5,0.574,+7.1%,+0.095,pending,+0.000,
 2026-07-20,conference,UCF,over,3.5,-115,DK,0.55,0.598,+8.9%,+0.118,pending,+0.000,"DK -115; v2 re-price 2026-07-23: mm edge +1.5% (below the 4% double-check bar) — hold ticket, no add"

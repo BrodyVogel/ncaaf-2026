@@ -31,7 +31,7 @@ P = json.load(open('outputs/win_totals_payload.json'))
 teams=P['teams']; sched=P['schedules']; fcs=P['fcs']
 NAME2NK={t['name']:nk for nk,t in teams.items()}
 def cal(nk):return teams[nk]['calibrated']
-def oppR(r):return teams[r]['calibrated'] if r in teams else fcs[r]['rating']
+def oppR(r):return teams[r]['calibrated'] if r in teams else fcs[r]['rating']*0.75  # FCS scaled to cal lens (matches dive harness)
 def oppB(r):return teams[r]['band'] if r in teams else fcs[r]['band']
 def model_prob(team, cat, side, line):
     nk=NAME2NK[team]; conf=(cat=='conference')
