@@ -121,3 +121,15 @@ False-agreement screens over all 625 accepts (rank-view, starter-view, missing-s
 dual-QB) → 320 case reads (68 adjustments ±2-3, 252 confirms); deep band sample-validated
 0/40 (pre-registered rule, no expansion); ST 138/138 single-source scanned. Board delta
 0.049 mean. All 14 bets stable; UCF THIN unchanged. Production vintage = v2.3.
+
+## 2027-build candidate register (consolidated, owner Q&A 2026-07-24)
+- Rank-based dg for adjudication sweeps (kills ceiling-squeeze / offset-axis artifacts).
+- QB rushing-value term (formula is passing-facet only; dual-threat blind spot).
+- Career pooling with FITTED decay (S2-C: directionally right, under bar with decay fixed at 0.5).
+- Class-year aging interaction, retried jointly with career pooling (Study 2: stayers improve
+  +1.3–1.9 uniformly — cancels in field rescale; FR/SO differential flipped sign across seasons,
+  failed stability bar; more seasons of pairs may stabilize it).
+- NEW: program-x-unit development residuals ("Iowa OL" effect) — regress unit as-played grade on
+  prior-year projection; test whether program-unit residuals persist across seasons (fold-stable,
+  pre-registered bar before shipping). Currently covered only by the dossier arm case-by-case
+  and by the team-level anchor blend.
