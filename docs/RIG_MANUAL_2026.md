@@ -221,7 +221,7 @@ not "what is priced."
 ## 7. Market-matched ratings (×s*) — the isolation device
 
 ```
-mm_T = field_mean + s* · (ours_T − field_mean)      s* refit each build; currently 1.1543 (payload meta key: market_stretch)
+mm_T = field_mean + s* · (ours_T − field_mean)      s* refit each build; currently 1.1545 (payload meta key: market_stretch)
 ```
 
 `win_totals_compute.compute_market_stretch` bisects s* ∈ [0.8, 1.6] until the slope of
