@@ -133,3 +133,9 @@ dual-QB) → 320 case reads (68 adjustments ±2-3, 252 confirms); deep band samp
   prior-year projection; test whether program-unit residuals persist across seasons (fold-stable,
   pre-registered bar before shipping). Currently covered only by the dossier arm case-by-case
   and by the team-level anchor blend.
+- Retention calibration of w(n) — Study 4 (2026-07-24, pre-registered): global under-retention
+  beta +0.059 fold-stable 4/4 (S4-A PASS); NOT a tail/spline effect (S4-B FAIL — supersedes the
+  spline idea from the 07-24 decile peek, which was never registered here); per-group k regrid
+  under bar (S4-C FAIL). Within-group texture: miss lives in lo/mid-volume tape (+0.037/+0.040),
+  hi-volume slightly over-retained (-0.036) -> 2027 remedy = refit w(n) FUNCTIONAL FORM
+  (volume-dependent), not a flat beta and not per-group k. See FINDINGS_S4_2026-07-24.md.
