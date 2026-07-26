@@ -116,6 +116,10 @@ def _h2h_props(name2nk):
         out.append({'t1': r['team1'], 't2': r['team2'], 'fav_nk': fnk, 'dog_nk': dnk,
                     'fav': fav, 'dog': dog, 'line': float(r['line']),
                     'thresh': math.ceil(float(r['line'])), 'price': int(r['price']),
+                    # dog side: REAL posted price when the board carries it; -110 is a
+                    # placeholder assumption, flagged so downstream can label it as such.
+                    'price_dog': int(r['price_dog']) if (r.get('price_dog') or '').strip() else -110,
+                    'dog_price_real': bool((r.get('price_dog') or '').strip()),
                     'book': r['book']})
     return out
 
