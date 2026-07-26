@@ -22,9 +22,20 @@ SEED = [
  dict(date="2026-07-20", cat="regular", team="West Virginia",  side="under", line=5.5, odds=+132, book="FD",    stake=0.50, result="pending", note="FD +132"),
  dict(date="2026-07-20", cat="regular", team="East Carolina",  side="over",  line=7.5, odds=+100, book="CZR",   stake=0.55, result="pending", note=""),
  dict(date="2026-07-20", cat="regular", team="Hawai'i",        side="under", line=7.5, odds=-120, book="CZR",   stake=0.60, result="pending", note="took -120 at CZR"),
- dict(date="2026-07-20", cat="conference", team="Florida",     side="under", line=4.5, odds=-110, book="",      stake=0.50, result="pending", note=""),
+ dict(date="2026-07-20", cat="conference", team="Florida",     side="under", line=4.5, odds=-110, book="CZR",   stake=0.50, result="pending", note="book confirmed CZR 2026-07-26"),
  dict(date="2026-07-20", cat="conference", team="UCF",         side="over",  line=3.5, odds=-115, book="DK",    stake=0.55, result="pending", note="DK -115; v2 re-price 2026-07-23: mm edge +1.5% (below the 4% double-check bar) — hold ticket, no add"),
  dict(date="2026-07-20", cat="conference", team="Pittsburgh",  side="under", line=5.5, odds=-136, book="DK",    stake=0.65, result="pending", note="DK -136"),
+ # 2026-07-26 placement round (plan: session of 07-24; BR unavailable — B365-heavy fills)
+ dict(date="2026-07-26", cat="regular",    team="Wisconsin",      side="under", line=6.5, odds=+100, book="CZR",  stake=0.60, result="pending", note="rec 0.60 @ +100; exact fill"),
+ dict(date="2026-07-26", cat="regular",    team="Florida",        side="under", line=6.5, odds=+144, book="DK",   stake=0.40, result="pending", note="off-market 6.5 (field 7.5); rec 0.60, sized 0.40; team total 0.90 w/ conf leg"),
+ dict(date="2026-07-26", cat="regular",    team="Bowling Green",  side="over",  line=4.5, odds=-160, book="DK",   stake=0.35, result="pending", note="ADD; team total 1.05"),
+ dict(date="2026-07-26", cat="conference", team="Arizona State",  side="under", line=4.5, odds=+115, book="DK",   stake=0.40, result="pending", note="beat +106 inference; reg-add leg skipped; team total 0.95"),
+ dict(date="2026-07-26", cat="regular",    team="Buffalo",        side="over",  line=5.5, odds=-144, book="FD",   stake=0.75, result="pending", note="rec 0.45 — owner sized up; MAC cluster w/ BGSU (wk8 h2h)"),
+ dict(date="2026-07-26", cat="regular",    team="UConn",          side="over",  line=5.5, odds=-106, book="FD",   stake=0.50, result="pending", note="ADD; team total 1.07"),
+ dict(date="2026-07-26", cat="regular",    team="Tulsa",          side="over",  line=5.5, odds=-105, book="B365", stake=0.55, result="pending", note="ADD at backup book (CZR +100 gone); team total 1.10 = cap"),
+ dict(date="2026-07-26", cat="regular",    team="Nevada",         side="over",  line=4.5, odds=+120, book="B365", stake=0.75, result="pending", note="rec 0.65 — owner sized up; top conviction"),
+ dict(date="2026-07-26", cat="regular",    team="Wake Forest",    side="over",  line=5.5, odds=-130, book="B365", stake=0.90, result="pending", note="rec 0.60 — owner sized up; backup price"),
+ dict(date="2026-07-26", cat="regular",    team="Rutgers",        side="over",  line=4.5, odds=-140, book="B365", stake=0.80, result="pending", note="rec 0.60 — owner sized up; provenance note: ~60% of edge from v2 re-adjudication"),
 ]
 
 P = json.load(open('outputs/win_totals_payload.json'))
