@@ -123,6 +123,12 @@ dual-QB) → 320 case reads (68 adjustments ±2-3, 252 confirms); deep band samp
 0.049 mean. All 14 bets stable; UCF THIN unchanged. Production vintage = v2.3.
 
 ## 2027-build candidate register (consolidated, owner Q&A 2026-07-24)
+- S8 follow-ups (2026-07-27, S8 primary FAIL — see FINDINGS_S8): G5-only × large-|D|-only
+  arm effect as a REGISTERED PRIMARY (S8 report-only: G5 c=+3.54 t=+2.94 ≈0.26 realization;
+  large-|D| tercile c=+1.58 t=+2.16); value-scale (non-percentile) team score variant;
+  fix ND/IND conference-offset artifact; formula arm enters 2027 ratings at λ*=0 unless
+  the registered retry passes. S8-L2b settles the "Iowa OL" question at current power:
+  program persistence real but small (LB .133*, OL .115*, RB .106*), below claim bar.
 - Rank-based dg for adjudication sweeps (kills ceiling-squeeze / offset-axis artifacts).
 - QB rushing-value term (formula is passing-facet only; dual-threat blind spot).
 - Career pooling with FITTED decay (S2-C: directionally right, under bar with decay fixed at 0.5).
