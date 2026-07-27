@@ -268,10 +268,14 @@ SEED list (source of truth), re-priced by the tracker against the current payloa
 
 Stated plainly, in order of how much we lean on each:
 
-1. **Attention asymmetry.** Books and the public price 20 marquee teams with real
-   effort; the G5 and the bottom of the P4 get formula-plus-vibes. Our unit-level roster
-   work is deepest exactly where the market's is shallowest. It is no accident the book
-   is heavy on UConn/Tulsa/BGSU/Nevada-class positions.
+1. **Attention asymmetry — stated carefully (owner correction 2026-07-27: totals
+   markets are NOT thin; sharps are active in them).** The measurable facts are: the
+   dispersion tilt (s* = 1.15), the 27-cent cross-book price spread on identical
+   markets, and the 2025 result (consensus beat the totals market, 64% on
+   disagreements). None of these require a thin market — posted limits and hold can
+   keep a bias alive despite sharp participation. Our claim is that per-team roster
+   attention is deepest where OUR work concentrates, not that nobody sharp is
+   watching. The edge, if real, survives sharps; it does not require their absence.
 2. **Portal-era information decay.** Rosters now turn over faster than public priors
    update. A system that regrades every two-deep from tape each July should beat
    numbers anchored to last season's brand. (This is also our biggest exposure: our
