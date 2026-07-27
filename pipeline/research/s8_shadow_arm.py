@@ -193,8 +193,32 @@ def membership_portal(year, confs, spine):
     return out
 
 
-def build_shadow(year, mode, spine=None):
-    """-> units: {(team_nk, unit): dict(value, n_tape, n_fr, wsum)}, plus diagnostics."""
+G5_GROUPS = ('AAC', 'CUSA', 'MAC', 'MWC', 'SBC')
+
+
+def build_shadow(year, mode, spine=None, overrides=None):
+    """-> units: {(team_nk, unit): dict(value, n_tape, n_fr, wsum)}, plus diagnostics.
+
+    overrides (S8b live-mirror fixes; default None reproduces S8 exactly):
+      {'p4':     {(season, team_nk): bool},   # per-team independent classing
+       'offgrp': {(season, team_nk): conf-group str or 'G5MEAN'}}
+    """
+    ovP = (overrides or {}).get('p4', {})
+    ovO = (overrides or {}).get('offgrp', {})
+
+    def p4_of(team_nk, conf, season, spine_flag=None):
+        if (season, team_nk) in ovP:
+            return ovP[(season, team_nk)]
+        return bool(spine_flag) if spine_flag is not None else is_p4(conf, season)
+
+    def off_of(u, team_nk, conf, season):
+        g = ovO.get((season, team_nk))
+        if g == 'G5MEAN':
+            return sum(OFF[u].get(x, 0.0) for x in G5_GROUPS) / len(G5_GROUPS)
+        if g:
+            return OFF[u].get(g, 0.0)
+        return OFF[u].get(off_group(conf, season), 0.0)
+
     spine = spine if spine is not None else load_spine()
     confs = conf_map(year)
     tape = TapeIndex(spine, year)
@@ -217,12 +241,12 @@ def build_shadow(year, mode, spine=None):
             u = row['grp']
             pm = POSMEAN[u]
             w = min(ev / (ev + K[u]), WCAP.get(u, 1.0))
-            p4_from = bool(row['p4'])
-            p4_to = is_p4(confs[tk], year)
+            p4_from = p4_of(row['team'], row['conf'], row['season'], spine_flag=row['p4'])
+            p4_to = p4_of(tk, confs[tk], year, spine_flag=None)
             jump = 0.0
             if row['team'] != tk:
                 jump = JUMP_G5P4 if (not p4_from and p4_to) else (JUMP_P4G5 if (p4_from and not p4_to) else 0.0)
-            v2 = pm + w * (row['grade'] - pm) + jump + OFF[u].get(off_group(confs[tk], year), 0.0)
+            v2 = pm + w * (row['grade'] - pm) + jump + off_of(u, tk, confs[tk], year)
             pool[u].append((ev, v2, nm))
             diag['matched'] += 1
         for u in GRPS:
@@ -234,7 +258,7 @@ def build_shadow(year, mode, spine=None):
             n_fill = max(0, NSLOT1[u] + NSLOT2[u] - len(vals))
             for comp in recs.get((tk, u), [])[:n_fill]:
                 b0, sl = FRB[u]
-                vals.append(b0 + sl * (comp - 0.861) + OFF[u].get(off_group(confs[tk], year), 0.0))
+                vals.append(b0 + sl * (comp - 0.861) + off_of(u, tk, confs[tk], year))
                 wts.append(1.0 if len(vals) <= NSLOT1[u] else 0.33)
                 diag['fr_used'] += 1
             if vals:
