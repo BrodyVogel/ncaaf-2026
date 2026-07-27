@@ -9,7 +9,8 @@
   },
   "RB": {
    "grade": 40,
-   "confidence": "L"
+   "confidence": "M",
+   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (FLAG): case read; accept confirmed"
   },
   "WRTE": {
    "grade": 42,
@@ -23,7 +24,8 @@
   },
   "DL": {
    "grade": 36,
-   "confidence": "L"
+   "confidence": "M",
+   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (BAND): case read; accept confirmed"
   },
   "LB": {
    "grade": 48,

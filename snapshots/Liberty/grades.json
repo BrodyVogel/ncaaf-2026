@@ -3,11 +3,13 @@
  "units": {
   "QB": {
    "grade": 44,
-   "confidence": "L"
+   "confidence": "M",
+   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (BAND): case read; accept confirmed"
   },
   "RB": {
    "grade": 42,
-   "confidence": "L"
+   "confidence": "M",
+   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (BAND): case read; accept confirmed"
   },
   "WRTE": {
    "grade": 38,

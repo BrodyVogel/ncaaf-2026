@@ -23,11 +23,13 @@
   },
   "DL": {
    "grade": 16,
-   "confidence": "L"
+   "confidence": "M",
+   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (BAND): case read; accept confirmed"
   },
   "LB": {
    "grade": 25,
-   "confidence": "L"
+   "confidence": "M",
+   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (BAND): case read; accept confirmed"
   },
   "DB": {
    "grade": 15,

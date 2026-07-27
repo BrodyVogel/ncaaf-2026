@@ -9,11 +9,13 @@
   },
   "RB": {
    "grade": 70,
-   "confidence": "H"
+   "confidence": "M",
+   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (SAMPLE): case read; accept confirmed"
   },
   "WRTE": {
    "grade": 76,
-   "confidence": "H"
+   "confidence": "M",
+   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (SAMPLE): case read; accept confirmed"
   },
   "OL": {
    "grade": 52,

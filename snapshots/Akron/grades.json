@@ -3,7 +3,8 @@
  "units": {
   "QB": {
    "grade": 34,
-   "confidence": "L"
+   "confidence": "M",
+   "adjudication": "re-read adjudication: RE-READ: info 0.12 prior-noise; hold dossier; policy had 32"
   },
   "RB": {
    "grade": 16,

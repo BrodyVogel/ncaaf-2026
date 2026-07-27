@@ -23,7 +23,8 @@
   },
   "LB": {
    "grade": 40,
-   "confidence": "L"
+   "confidence": "M",
+   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (BAND): case read; accept confirmed"
   },
   "DB": {
    "grade": 40,

@@ -3,7 +3,8 @@
  "units": {
   "QB": {
    "grade": 38,
-   "confidence": "L"
+   "confidence": "M",
+   "adjudication": "media-days 2026-07-27 AAC digest \u2014 named starter; conf L->M; grade holds: media-days: Jacurri Brown named starting QB out of spring (Thamel/Roost)"
   },
   "RB": {
    "grade": 44,
@@ -29,7 +30,8 @@
   },
   "DB": {
    "grade": 12,
-   "confidence": "L"
+   "confidence": "M",
+   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (SAMPLE): case read; accept confirmed"
   },
   "ST": {
    "grade": 52,

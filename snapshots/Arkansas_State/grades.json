@@ -3,7 +3,8 @@
  "units": {
   "QB": {
    "grade": 44,
-   "confidence": "L"
+   "confidence": "M",
+   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (FLAG): case read; accept confirmed"
   },
   "RB": {
    "grade": 49,

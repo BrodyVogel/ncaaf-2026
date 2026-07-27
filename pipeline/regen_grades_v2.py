@@ -22,12 +22,15 @@ for gpath in sorted(glob.glob('snapshots/*/grades.json')):
         key = (team, u)
         if key not in fin: continue      # Kennesaw ALL-hold etc.
         f, conf, reason, note = fin[key]
-        if f != d['grade']:
+        grade_chg = (f != d['grade'])
+        conf_chg = bool(conf) and conf != '-' and conf != d.get('confidence')
+        if grade_chg:
             d['v1_grade'] = d['grade']
             d['grade'] = f
+            n_changed += 1
+        if grade_chg or conf_chg:      # conf-only rows must apply too (fix 2026-07-27)
             if conf and conf != '-': d['confidence'] = conf
             d['adjudication'] = f"{reason}: {note[:160]}"
-            n_changed += 1
     g.setdefault('_meta', {})['vintage'] = 'v2 2026-07'
     g['_meta']['adjudication_log'] = 'data/research/adjudication_v2.csv'
     json.dump(g, open(gpath, 'w'), indent=1)

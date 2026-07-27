@@ -3,7 +3,8 @@
  "units": {
   "QB": {
    "grade": 20,
-   "confidence": "L"
+   "confidence": "M",
+   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (SAMPLE): case read; accept confirmed"
   },
   "RB": {
    "grade": 15,
@@ -29,7 +30,8 @@
   },
   "LB": {
    "grade": 10,
-   "confidence": "L"
+   "confidence": "M",
+   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (BAND): case read; accept confirmed"
   },
   "DB": {
    "grade": 12,
