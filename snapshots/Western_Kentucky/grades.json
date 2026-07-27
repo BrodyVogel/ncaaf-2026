@@ -19,8 +19,7 @@
   },
   "OL": {
    "grade": 42,
-   "confidence": "M",
-   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (FLAG): case read; accept confirmed"
+   "confidence": "L"
   },
   "DL": {
    "grade": 40,
@@ -30,8 +29,7 @@
   },
   "LB": {
    "grade": 36,
-   "confidence": "M",
-   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (BAND): case read; accept confirmed"
+   "confidence": "L"
   },
   "DB": {
    "grade": 58,

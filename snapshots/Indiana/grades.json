@@ -17,8 +17,7 @@
   },
   "OL": {
    "grade": 74,
-   "confidence": "M",
-   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (BAND): case read; accept confirmed"
+   "confidence": "H"
   },
   "DL": {
    "grade": 77,

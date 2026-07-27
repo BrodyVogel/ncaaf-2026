@@ -7,8 +7,7 @@
   },
   "RB": {
    "grade": 72,
-   "confidence": "M",
-   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (FLAG): case read; accept confirmed"
+   "confidence": "H"
   },
   "WRTE": {
    "grade": 53,

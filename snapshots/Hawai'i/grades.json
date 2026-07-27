@@ -19,13 +19,11 @@
   },
   "OL": {
    "grade": 10,
-   "confidence": "M",
-   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (BAND): case read; accept confirmed"
+   "confidence": "L"
   },
   "DL": {
    "grade": 16,
-   "confidence": "M",
-   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (BAND): case read; accept confirmed"
+   "confidence": "L"
   },
   "LB": {
    "grade": 14,

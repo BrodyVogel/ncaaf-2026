@@ -13,8 +13,7 @@
   },
   "WRTE": {
    "grade": 40,
-   "confidence": "M",
-   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (BAND): case read; accept confirmed"
+   "confidence": "L"
   },
   "OL": {
    "grade": 71,

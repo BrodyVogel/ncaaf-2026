@@ -7,8 +7,7 @@
   },
   "RB": {
    "grade": 72,
-   "confidence": "M",
-   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (BAND): case read; accept confirmed"
+   "confidence": "H"
   },
   "WRTE": {
    "grade": 62,
@@ -30,8 +29,7 @@
   },
   "DB": {
    "grade": 70,
-   "confidence": "M",
-   "adjudication": "accept-pass confirm: ACCEPT-REVIEW (BAND): case read; accept confirmed"
+   "confidence": "H"
   },
   "ST": {
    "grade": 65,

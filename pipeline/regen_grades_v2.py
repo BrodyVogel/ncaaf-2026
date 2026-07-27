@@ -2,7 +2,7 @@
 """Regenerate snapshots/*/grades.json as v2 vintage from data/research/adjudication_v2.csv.
 Last-write-wins per (team,unit); 'ALL' = hold all units; 'FLAG' rows skipped.
 Changed units get v1_grade preserved + an adjudication note; _meta.vintage set on every file."""
-import csv, json, glob
+import csv, json, glob, re
 
 fin = {}
 for r in csv.DictReader(open('data/research/adjudication_v2.csv')):
@@ -23,7 +23,11 @@ for gpath in sorted(glob.glob('snapshots/*/grades.json')):
         if key not in fin: continue      # Kennesaw ALL-hold etc.
         f, conf, reason, note = fin[key]
         grade_chg = (f != d['grade'])
-        conf_chg = bool(conf) and conf != '-' and conf != d.get('confidence')
+        # conf-only rows apply ONLY when explicitly directed ("conf" in reason) —
+        # historical sweep/accept rows carry incidental conf values that must not rewrite
+        # dossier confidences (2026-07-27).
+        conf_chg = (bool(conf) and conf != '-' and conf != d.get('confidence')
+                    and re.search(r'conf [LMH]->[LMH]', reason))
         if grade_chg:
             d['v1_grade'] = d['grade']
             d['grade'] = f
