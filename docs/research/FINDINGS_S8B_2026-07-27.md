@@ -60,3 +60,17 @@ c ≈ 0.12 holds, 2026's ~130 teams take expected t past 2; (2) **score the ACTU
 live arm**: the curated adjustments are frozen in the shipped board now; in December,
 regress realized 2026 SP+ drift on them. That is the true out-of-sample test of the
 rig as it actually bets — pre-registrable today with zero look-ahead risk (S8c).
+
+## ADDENDUM (2026-07-27, owner question, report-only): size-of-disagreement pattern
+
+Residualized miss (reversion removed), sign-agreement and mean captured drift by
+|R_pre| bucket: Q1–Q3 (|R| < 6.2) = 47–49% sides, capture ≈ 0; Q4 (6.2–8.6) = 49%,
++0.77; **top decile (|R| ≥ 8.6, n=52) = 57.7% sides, +2.26 pts mean capture**
+(binomial on hit-rate alone p=0.17 — the magnitude-weighted slope, not the hit rate,
+carries the significance). Post-hoc functional-form probe: miss ~ sp + R + R·|R|
+gives interaction **t=+3.14** (slope ≈ 0 or slightly negative below |R|≈6, climbing
+to ~+0.2–0.4 by |R|=10–13). Threshold, not gradient — fourth consistent echo
+(S8 large-tercile t 2.16, S8b registered tercile t 2.36, jackknife dependence), and
+it rhymes with S7's consensus-vs-market cliff at |d|≥1.0. All report-only: post-hoc
+form, tail n=52 overlapping the jackknife-five. 2027 design implication: the arm as a
+THRESHOLDED overlay (act only above ~top-decile |R|), never a blanket λ.
