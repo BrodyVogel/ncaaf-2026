@@ -1,0 +1,276 @@
+{
+ "rep_2026": {
+  "label": "2026 auto(ModeA) vs curated",
+  "units": {
+   "QB": {
+    "n": 126,
+    "pearson": 0.9459481906883239,
+    "spearman": 0.9459587551556056,
+    "mad": 6.192276711679698
+   },
+   "RB": {
+    "n": 135,
+    "pearson": 0.9847842251833164,
+    "spearman": 0.9845527265632624,
+    "mad": 3.4389026063100134
+   },
+   "WRTE": {
+    "n": 134,
+    "pearson": 0.933621078588149,
+    "spearman": 0.9340340902006259,
+    "mad": 7.434284460052678
+   },
+   "OL": {
+    "n": 133,
+    "pearson": 0.9791080992244824,
+    "spearman": 0.9791881331551402,
+    "mad": 3.833433949838099
+   },
+   "DL": {
+    "n": 135,
+    "pearson": 0.9524759943496119,
+    "spearman": 0.9527216856892011,
+    "mad": 6.246858710562415
+   },
+   "LB": {
+    "n": 135,
+    "pearson": 0.9721016123710269,
+    "spearman": 0.9724124475660912,
+    "mad": 4.759128540305011
+   },
+   "DB": {
+    "n": 138,
+    "pearson": 0.9452185261281034,
+    "spearman": 0.9452406338971981,
+    "mad": 6.878483021263091
+   }
+  },
+  "n_teams": 138,
+  "team_score_rho": 0.983834261931137,
+  "gate_rho_D": 0.9575922138486448,
+  "spearman_D": 0.9381354326250203
+ },
+ "rep_2025_bridge": {
+  "label": "2025 ModeA vs ModeB",
+  "units": {
+   "QB": {
+    "n": 132,
+    "pearson": 0.8956609557156324,
+    "spearman": 0.8949820769828802,
+    "mad": 9.24586776859504
+   },
+   "RB": {
+    "n": 134,
+    "pearson": 0.9876017481876448,
+    "spearman": 0.98754099178294,
+    "mad": 2.5729561149476496
+   },
+   "WRTE": {
+    "n": 135,
+    "pearson": 0.9626600377611492,
+    "spearman": 0.9626085259974637,
+    "mad": 5.346477489097721
+   },
+   "OL": {
+    "n": 134,
+    "pearson": 0.977931289703226,
+    "spearman": 0.9782241673836333,
+    "mad": 3.9524351087118554
+   },
+   "DL": {
+    "n": 135,
+    "pearson": 0.9726874157993757,
+    "spearman": 0.9727051019412741,
+    "mad": 4.929058411645475
+   },
+   "LB": {
+    "n": 136,
+    "pearson": 0.9777443824245032,
+    "spearman": 0.9777443824245026,
+    "mad": 4.2592592592592595
+   },
+   "DB": {
+    "n": 135,
+    "pearson": 0.9652814359574678,
+    "spearman": 0.9652814359574677,
+    "mad": 5.2183526810392475
+   }
+  },
+  "n_teams": 133,
+  "team_score_rho": 0.9899373272063258,
+  "gate_rho_D": 0.9716420340237449,
+  "spearman_D": 0.9670631803389069
+ },
+ "diag": {
+  "auto26": {
+   "teams": 138,
+   "matched": 7015,
+   "ambiguous_dropped": 0,
+   "fr_used": 192
+  },
+  "a25": {
+   "teams": 136,
+   "matched": 5729,
+   "ambiguous_dropped": 0,
+   "fr_used": 385
+  },
+  "b25": {
+   "teams": 136,
+   "matched": 7110,
+   "ambiguous_dropped": 0,
+   "fr_used": 155
+  }
+ },
+ "top_gaps": [
+  {
+   "team": "uconn",
+   "unit": "DL",
+   "auto": 0.0,
+   "curated": 50.0
+  },
+  {
+   "team": "newmexicostate",
+   "unit": "WRTE",
+   "auto": 12.5,
+   "curated": 57.5
+  },
+  {
+   "team": "delaware",
+   "unit": "WRTE",
+   "auto": 29.4,
+   "curated": 73.9
+  },
+  {
+   "team": "uconn",
+   "unit": "DB",
+   "auto": 13.9,
+   "curated": 52.6
+  },
+  {
+   "team": "georgiasouthern",
+   "unit": "DL",
+   "auto": 3.7,
+   "curated": 41.8
+  },
+  {
+   "team": "northdakotastate",
+   "unit": "DB",
+   "auto": 5.8,
+   "curated": 41.6
+  },
+  {
+   "team": "washington",
+   "unit": "QB",
+   "auto": 21.6,
+   "curated": 56.8
+  },
+  {
+   "team": "olemiss",
+   "unit": "QB",
+   "auto": 64.9,
+   "curated": 100.0
+  },
+  {
+   "team": "westernkentucky",
+   "unit": "DB",
+   "auto": 9.5,
+   "curated": 44.5
+  },
+  {
+   "team": "westernkentucky",
+   "unit": "WRTE",
+   "auto": 25.7,
+   "curated": 59.0
+  },
+  {
+   "team": "pennstate",
+   "unit": "QB",
+   "auto": 79.9,
+   "curated": 48.0
+  },
+  {
+   "team": "southernmiss",
+   "unit": "LB",
+   "auto": 39.7,
+   "curated": 10.4
+  },
+  {
+   "team": "utsa",
+   "unit": "OL",
+   "auto": 57.7,
+   "curated": 29.5
+  },
+  {
+   "team": "arkansasstate",
+   "unit": "OL",
+   "auto": 45.3,
+   "curated": 72.7
+  },
+  {
+   "team": "nebraska",
+   "unit": "QB",
+   "auto": 77.6,
+   "curated": 51.2
+  },
+  {
+   "team": "notredame",
+   "unit": "DB",
+   "auto": 54.0,
+   "curated": 80.3
+  },
+  {
+   "team": "notredame",
+   "unit": "WRTE",
+   "auto": 24.3,
+   "curated": 50.0
+  },
+  {
+   "team": "texastech",
+   "unit": "QB",
+   "auto": 100.0,
+   "curated": 75.2
+  },
+  {
+   "team": "uconn",
+   "unit": "LB",
+   "auto": 11.8,
+   "curated": 36.3
+  },
+  {
+   "team": "jamesmadison",
+   "unit": "DL",
+   "auto": 24.4,
+   "curated": 48.5
+  },
+  {
+   "team": "louisianatech",
+   "unit": "WRTE",
+   "auto": 46.3,
+   "curated": 70.1
+  },
+  {
+   "team": "utsa",
+   "unit": "RB",
+   "auto": 58.5,
+   "curated": 81.6
+  },
+  {
+   "team": "bowlinggreen",
+   "unit": "LB",
+   "auto": 31.6,
+   "curated": 8.9
+  },
+  {
+   "team": "louisiana",
+   "unit": "DB",
+   "auto": 41.6,
+   "curated": 64.2
+  },
+  {
+   "team": "floridainternational",
+   "unit": "WRTE",
+   "auto": 26.5,
+   "curated": 48.5
+  }
+ ]
+}
