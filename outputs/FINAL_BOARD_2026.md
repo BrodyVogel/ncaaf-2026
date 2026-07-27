@@ -1,6 +1,6 @@
 # 2026 Preseason FBS Power Ratings — Final Board (full-138 REFIT)
 
-Produced by pipeline/final_pass.py @ 45ec30c on 2026-07-23T23:13:29+00:00. Conversion refit on all 138
+Produced by pipeline/final_pass.py @ 83839f5 on 2026-07-27T16:50:03+00:00. Conversion refit on all 138
 real grades (R² off 0.67 / def 0.48); one consistent recenter (+0.57). power_rating =
 projected neutral-field margin vs an average FBS team (points); band = the +/- uncertainty.
 residual mode: CONFERENCE-DEMEANED (official; Independents pseudo-pooled ND->P4, UConn->G5)
@@ -10,42 +10,42 @@ residual mode: CONFERENCE-DEMEANED (official; Independents pseudo-pooled ND->P4,
 | 1 | Ohio State | Big Ten | +31.30 | ±6.0 |  |
 | 2 | Oregon | Big Ten | +30.47 | ±6.0 |  |
 | 3 | Notre Dame | FBS Independents | +29.80 | ±6.0 |  |
-| 4 | Georgia | SEC | +26.80 | ±6.0 |  |
+| 4 | Georgia | SEC | +26.81 | ±6.0 |  |
 | 5 | Indiana | Big Ten | +25.92 | ±6.0 |  |
-| 6 | Texas | SEC | +23.33 | ±6.6 |  |
-| 7 | Texas Tech | Big 12 | +22.88 | ±6.0 |  |
+| 6 | Texas | SEC | +23.34 | ±6.6 |  |
+| 7 | Texas Tech | Big 12 | +22.89 | ±6.0 |  |
 | 8 | Miami | ACC | +22.22 | ±6.0 |  |
-| 9 | Ole Miss | SEC | +21.31 | ±6.8 | Y |
+| 9 | Ole Miss | SEC | +21.32 | ±6.8 | Y |
 | 10 | LSU | SEC | +20.10 | ±7.5 | Y |
-| 11 | Oklahoma | SEC | +19.52 | ±6.0 |  |
-| 12 | Texas A&M | SEC | +19.37 | ±6.0 |  |
+| 11 | Oklahoma | SEC | +19.53 | ±6.0 |  |
+| 12 | Texas A&M | SEC | +19.38 | ±6.0 |  |
 | 13 | USC | Big Ten | +19.25 | ±6.0 |  |
 | 14 | Michigan | Big Ten | +18.60 | ±6.8 | Y |
-| 15 | Alabama | SEC | +18.42 | ±6.4 |  |
+| 15 | Alabama | SEC | +18.43 | ±6.4 |  |
 | 16 | Penn State | Big Ten | +17.60 | ±6.8 | Y |
 | 17 | BYU | Big 12 | +17.35 | ±6.0 |  |
-| 18 | Tennessee | SEC | +16.81 | ±6.2 |  |
+| 18 | Tennessee | SEC | +16.82 | ±6.2 |  |
 | 19 | Washington | Big Ten | +15.46 | ±6.0 |  |
-| 20 | Missouri | SEC | +15.14 | ±6.0 |  |
-| 21 | Florida | SEC | +14.63 | ±7.2 | Y |
-| 22 | Auburn | SEC | +14.02 | ±6.8 | Y |
+| 20 | Missouri | SEC | +15.02 | ±6.0 |  |
+| 21 | Florida | SEC | +14.64 | ±7.2 | Y |
+| 22 | Auburn | SEC | +14.03 | ±6.8 | Y |
 | 23 | Utah | Big 12 | +14.02 | ±7.5 | Y |
-| 24 | Iowa | Big Ten | +13.80 | ±6.7 |  |
+| 24 | Iowa | Big Ten | +13.81 | ±6.7 |  |
 | 25 | Louisville | ACC | +13.14 | ±6.4 |  |
-| 26 | South Carolina | SEC | +12.78 | ±6.2 |  |
+| 26 | South Carolina | SEC | +12.79 | ±6.2 |  |
 | 27 | SMU | ACC | +12.52 | ±6.0 |  |
-| 28 | Clemson | ACC | +11.81 | ±6.2 |  |
-| 29 | Vanderbilt | SEC | +11.81 | ±6.0 |  |
-| 30 | Arizona | Big 12 | +10.20 | ±6.0 |  |
+| 28 | Vanderbilt | SEC | +11.82 | ±6.2 |  |
+| 29 | Clemson | ACC | +11.81 | ±6.2 |  |
+| 30 | Arizona | Big 12 | +10.19 | ±6.0 |  |
 | 31 | TCU | Big 12 | +9.82 | ±6.0 |  |
 | 32 | Kansas State | Big 12 | +9.67 | ±6.8 | Y |
-| 33 | Houston | Big 12 | +9.27 | ±6.0 |  |
-| 34 | Kentucky | SEC | +8.43 | ±7.0 | Y |
+| 33 | Houston | Big 12 | +9.26 | ±6.0 |  |
+| 34 | Kentucky | SEC | +8.44 | ±7.0 | Y |
 | 35 | Virginia | ACC | +8.42 | ±6.0 |  |
 | 36 | Pittsburgh | ACC | +8.28 | ±6.2 |  |
 | 37 | Virginia Tech | ACC | +7.94 | ±7.7 | Y |
-| 38 | Mississippi State | SEC | +7.80 | ±6.0 |  |
-| 39 | Nebraska | Big Ten | +7.76 | ±6.0 |  |
+| 38 | Mississippi State | SEC | +7.81 | ±6.0 |  |
+| 39 | Nebraska | Big Ten | +7.75 | ±6.0 |  |
 | 40 | Florida State | ACC | +7.63 | ±6.5 |  |
 | 41 | Illinois | Big Ten | +7.39 | ±6.0 |  |
 | 42 | Minnesota | Big Ten | +7.18 | ±6.0 |  |
@@ -53,7 +53,7 @@ residual mode: CONFERENCE-DEMEANED (official; Independents pseudo-pooled ND->P4,
 | 44 | Oklahoma State | Big 12 | +6.55 | ±7.5 | Y |
 | 45 | Georgia Tech | ACC | +6.43 | ±6.4 |  |
 | 46 | Wisconsin | Big Ten | +6.37 | ±6.0 |  |
-| 47 | Arkansas | SEC | +6.22 | ±6.8 | Y |
+| 47 | Arkansas | SEC | +6.23 | ±6.8 | Y |
 | 48 | Arizona State | Big 12 | +5.59 | ±6.2 |  |
 | 49 | Duke | ACC | +5.41 | ±6.2 |  |
 | 50 | Northwestern | Big Ten | +5.35 | ±6.0 |  |
@@ -78,7 +78,7 @@ residual mode: CONFERENCE-DEMEANED (official; Independents pseudo-pooled ND->P4,
 | 69 | San Diego State | Pac-12 | -0.34 | ±6.2 |  |
 | 70 | Tulane | American Athletic | -0.43 | ±7.2 | Y |
 | 71 | Purdue | Big Ten | -0.68 | ±6.0 |  |
-| 72 | Stanford | ACC | -0.69 | ±7.0 | Y |
+| 72 | Stanford | ACC | -0.68 | ±7.0 | Y |
 | 73 | UNLV | Mountain West | -1.24 | ±6.2 |  |
 | 74 | Boston College | ACC | -1.41 | ±6.4 |  |
 | 75 | Fresno State | Pac-12 | -1.47 | ±6.2 |  |
@@ -87,14 +87,14 @@ residual mode: CONFERENCE-DEMEANED (official; Independents pseudo-pooled ND->P4,
 | 78 | James Madison | Sun Belt | -2.53 | ±7.0 | Y |
 | 79 | Navy | American Athletic | -2.70 | ±6.2 |  |
 | 80 | Army | American Athletic | -2.72 | ±6.2 |  |
-| 81 | Texas State | Pac-12 | -3.22 | ±6.2 |  |
+| 81 | Texas State | Pac-12 | -3.23 | ±6.2 |  |
 | 82 | UTSA | American Athletic | -3.28 | ±6.5 |  |
 | 83 | New Mexico | Mountain West | -3.93 | ±6.0 |  |
 | 84 | Washington State | Pac-12 | -4.06 | ±7.7 | Y |
 | 85 | Old Dominion | Sun Belt | -6.13 | ±6.0 |  |
-| 86 | UConn | FBS Independents | -6.41 | ±7.4 | Y |
+| 86 | UConn | FBS Independents | -6.40 | ±7.4 | Y |
 | 87 | Utah State | Pac-12 | -6.42 | ±6.0 |  |
-| 88 | Tulsa | American Athletic | -6.55 | ±6.4 |  |
+| 88 | Tulsa | American Athletic | -6.55 | ±6.2 |  |
 | 89 | Air Force | Mountain West | -6.82 | ±6.0 |  |
 | 90 | Hawai'i | Mountain West | -7.09 | ±6.7 |  |
 | 91 | Western Michigan | Mid-American | -7.17 | ±6.2 |  |
@@ -113,13 +113,13 @@ residual mode: CONFERENCE-DEMEANED (official; Independents pseudo-pooled ND->P4,
 | 104 | Arkansas State | Sun Belt | -10.55 | ±6.2 |  |
 | 105 | Florida Atlantic | American Athletic | -10.59 | ±6.4 |  |
 | 106 | Georgia Southern | Sun Belt | -11.02 | ±6.0 |  |
-| 107 | Liberty | Conference USA | -11.19 | ±6.7 |  |
+| 107 | Liberty | Conference USA | -11.18 | ±6.7 |  |
 | 108 | South Alabama | Sun Belt | -11.33 | ±6.0 |  |
 | 109 | App State | Sun Belt | -11.35 | ±6.2 |  |
 | 110 | Temple | American Athletic | -11.91 | ±6.5 |  |
-| 111 | Ohio | Mid-American | -12.24 | ±7.0 | Y |
+| 111 | Ohio | Mid-American | -12.23 | ±7.0 | Y |
 | 112 | Wyoming | Mountain West | -12.32 | ±6.5 |  |
-| 113 | Coastal Carolina | Sun Belt | -12.46 | ±7.2 | Y |
+| 113 | Coastal Carolina | Sun Belt | -12.45 | ±7.2 | Y |
 | 114 | Central Michigan | Mid-American | -12.53 | ±6.2 |  |
 | 115 | Delaware | Conference USA | -12.68 | ±6.6 |  |
 | 116 | Nevada | Mountain West | -12.76 | ±6.4 |  |

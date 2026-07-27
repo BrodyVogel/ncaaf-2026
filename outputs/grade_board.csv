@@ -20,14 +20,14 @@ Washington,Big Ten,72,50,54,62,62,69,72,58,499,0,13.03,22,6.0,False,frozen 2026-
 Tennessee,SEC,46L,60,56,58,50,56,57,54,437,1,12.55,21,6.18,False,frozen 2026-07-18T05:05:00Z (Tennessee),0
 Iowa,Big Ten,32L,68,42,87,48L,58L,80,60L,475,4,12.42,21,6.72,,c091163 (frozen 2026-07-14),0
 Utah,Big 12,72,65,52,46,46,46,56,62,445,0,10.51,28,7.46,"Whittingham -> Michigan (21 yrs); Scalley promoted (HC-in-waiting since '23, won the bowl) - x1.13 w/ maximal continuity mitigants",frozen 2026-07-15,0
-Missouri,SEC,50,72,54,58,53,57,47,56,447,0,10.45,28,6.0,False,frozen 2026-07-18T04:19:08Z (6f14031),0
+Missouri,SEC,50,70,54,58,53,57,47,56,445,0,10.45,28,6.0,False,frozen 2026-07-18T04:19:08Z (6f14031),0
 Florida,SEC,48L,62,50,44L,56,56,54,56,426,2,9.89,29,7.19,True,frozen 2026-07-18T03:04:34Z (2443754),0
 Clemson,ACC,40,52,56,48L,61,54,54,56,421,1,9.5,29,6.36,False,frozen 2026-07-18 (3bec049),0
 Louisville,ACC,46L,72,53,50,65,52,52,44L,434,2,9.41,29,6.36,False,frozen 2026-07-18 (7ef9e64),0
 SMU,ACC,64,54,52,62,55,56,52,50,445,0,9.39,30,6.0,False,frozen 2026-07-18 (647ccd9),0
 Auburn,SEC,62,54,48,50,59,54,50,56,433,0,9.08,29,6.78,True,frozen 2026-07-18T02:54:00Z (09136c4),0
 South Carolina,SEC,58,48,52,44L,56,48,52,48,406,1,8.47,32,6.18,False,frozen 2026-07-18T04:46:58Z (bd6d1a0),0
-Vanderbilt,SEC,48,58,54,44,48,50,58,60,420,0,7.9,35,6.18,False,frozen 2026-07-18T05:44:00Z (Vanderbilt),0
+Vanderbilt,SEC,48L,58,54,44,48,50,58,60,420,1,7.9,35,6.18,False,frozen 2026-07-18T05:44:00Z (Vanderbilt),0
 Arizona,Big 12,84,52,45,56,45,60,46,42,430,0,7.73,35,6.0,False,frozen 2026-07-15,0
 Kansas State,Big 12,63,48,52,47,45,44,52,55,406,0,7.34,35,6.78,Klieman retired -> Collin Klein (alum; OC here 22-23; A&M OC) - x1.13 w/ continuity mitigants,frozen 2026-07-15,0
 TCU,Big 12,46,56,51,52,58,42,52,55,412,0,6.99,35,6.0,False,frozen 2026-07-15,0
@@ -94,7 +94,7 @@ Louisiana,Sun Belt,44,42,49,48,36,40,62,48,369,0,-6.62,94,6.0,False,frozen 2026-
 UConn,FBS Independents,44L,48,46,48,47,47,47L,44L,371,3,-6.9,95,7.39,True,frozen 2026-07-18T22:30:00Z (UConn),0
 Louisiana Tech,Sun Belt,50,38,50,42,42,50,44,40,356,0,-6.98,94,6.0,False,frozen 2026-07-18T15:40:00Z (Louisiana Tech),0
 Arkansas State,Sun Belt,44L,49,50,62,40,42,36,56,379,1,-7.02,95,6.18,False,frozen 2026-07-18T14:34:00Z (Arkansas State),0
-Tulsa,American Athletic,40L,55,32,38,40,33L,58,45,341,2,-7.31,95,6.18,False,frozen 2026-07-15,0
+Tulsa,American Athletic,40,55,32,38,40,33L,58,45,341,1,-7.31,95,6.18,False,frozen 2026-07-15,0
 Oregon State,Pac-12,31L,30,30L,22,39,42,38,38,270,2,-7.37,94,7.19,True,frozen 2026-07-17 (7ac7d37),0
 Miami (OH),Mid-American,30L,26,24,26,25,37,26,40,234,1,-7.41,95,6.18,False,frozen 2026-07-16 (a4426e7),0
 Georgia Southern,Sun Belt,42,42,44,40,50,38,39,42,337,0,-7.95,98,6.0,False,frozen 2026-07-18T14:50:00Z (Georgia Southern),0

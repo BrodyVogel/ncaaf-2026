@@ -6,8 +6,10 @@
    "confidence": "M"
   },
   "RB": {
-   "grade": 72,
-   "confidence": "M"
+   "grade": 70,
+   "confidence": "M",
+   "v1_grade": 72,
+   "adjudication": "media-days 2026-07-27 SEC digest \u2014 availability risk to season start; -2: media-days: Hardy cleared but 5-8wk return protocol, bone involvement, recovery quality unknown (Drinkwitz)"
   },
   "WRTE": {
    "grade": 54,
