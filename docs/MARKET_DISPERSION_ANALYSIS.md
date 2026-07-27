@@ -76,3 +76,13 @@ Owner's read: a total standing out on both lenses is the higher-confidence bet.
 
 ## AUDIT CORRECTION (2026-07-20, Fable)
 The Pac-12 examples in this doc ("Boise/SDSU/Wazzu unders are real edges") were contaminated by a missing-game data bug: all 8 Pac-12 schedules lacked the Week-13 flex game, deflating E[wins] ~0.3-0.7 vs 12-game market totals. Post-fix, those teams lean modest OVER at posted lines. The dispersion conclusion itself SURVIVES (field-wide gradient nearly unchanged ex-Pac-12; game-level calibration confirms and strengthens it — see docs/AUDIT_2026-07-20_fable.md §3, which also quantifies the sub-1.0 shrink this doc footnoted: the calibrated optimum is ~0.75x, i.e. our own preseason probabilities are overconfident on extremes too).
+
+## Addendum 2026-07-27 — disagreement-SIZE buckets (owner question)
+Same 2025 panel (128 joined teams), consensus-implied wins vs market median line, bucketed
+by |disagreement|: <0.5: side-win 49% (n=63) · 0.5–1.0: 49% (n=49) · **1.0–1.75: 80%
+(n=15), MAE 1.67 vs 2.17**. The edge concentrated in the LARGE disagreements; the market
+was not "catching something" where it strayed furthest from consensus — the opposite.
+Contrast the S5 spread result (big rating-vs-CLOSER disagreements: 45–49%): against a
+sharp number, a big disagreement means you're missing something; against a soft June
+total, it means the market never did the work. Caveats: one season; n=15 in the money
+bucket (SE ~10%); crude unshrunk expected-wins proxy.
