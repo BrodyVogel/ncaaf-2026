@@ -1,0 +1,23 @@
+side @ best number (own spread)              fair(hm)   cons  honest    mkt    MIN
+wk1 East Carolina +26.5 @ Alabama                +20.2  -26.0  +12.9 +15.2  +12.9 ✓✓ [BOOK]
+wk1 Stanford -3 v Hawai'i                         +8.7   -3.5  +11.8 +12.2  +11.8 ✓✓ [BOOK]
+wk2 Ohio State +1.5 @ Texas                       -5.7   -1.5  +14.8 +10.9  +10.9 ✓✓
+wk1 James Madison -6 v Liberty                   +11.0   -6.2  +10.0  +9.9   +9.9 ✓✓ [BOOK]
+wk1 Memphis +5.5 @ UNLV                           -0.7   -4.2  +12.6  +9.8   +9.8 ✓✓
+wk1 North Texas +40.5 @ Indiana                  +35.8  -40.5   +9.0 +15.2   +9.0 ✓✓ [EXTRAP]
+wk1 North Dakota State -7.5 v Jacksonville State   +12.3   -8.8   +9.3  +8.9   +8.9 ✓✓
+wk1 Coastal Carolina +20.5 @ West Virginia       +16.6  -19.0   +7.1  +8.7   +7.1 ✓✓ [BOOK]
+wk1 Memphis -10.5 v Arkansas State               +14.6  -10.5   +7.7  +6.6   +6.6 ✓✓
+wk1 Ohio State -49.5 v Ball State                +57.7  -50.0  +17.0  +5.5   +5.5 ✓✓ [EXTRAP]
+wk1 Stanford +23.5 v Miami                       -20.6  +22.5   +4.7 +12.5   +4.7 ✓✓
+wk1 Wake Forest -22.5 v Akron                    +27.1  -22.5   +8.9  +4.7   +4.7 ✓✓ [BOOK]
+wk1 Penn State -23.5 v Marshall                  +28.2  -23.5   +9.0  +4.6   +4.6 ✓✓
+wk1 Virginia -3 v NC State                        +5.7   -4.2   +4.5  +5.7   +4.5 ✓✓
+wk1 South Florida -12.5 v Florida International   +15.4  -12.5   +4.8  +3.6   +3.6  ~
+wk1 New Mexico State +30.5 @ Florida State       +28.2  -30.0   +3.3  +7.8   +3.3  ~
+wk1 Boston College +9.5 @ Cincinnati              +6.9   -8.5   +4.1  +3.2   +3.2  ~
+wk1 Michigan State -10.5 v Toledo                +12.9  -10.5   +3.6  +3.0   +3.0  ~
+wk1 UAB +27.5 @ Illinois                         +25.4  -27.5   +2.8  +6.6   +2.8  ~ [BOOK]
+wk1 San José State +4 @ Eastern Michigan          +1.3   -3.8   +4.5  +2.1   +2.1  ~
+
+12 inside-support ✓✓ | 2 extrapolation-zone ✓✓ (info only)
