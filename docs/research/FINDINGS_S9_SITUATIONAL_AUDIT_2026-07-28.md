@@ -60,3 +60,28 @@ applies (Buffalo, BGSU, Nevada, OSU, Wake, Rutgers, UConn, Tulsa).
   and note disruption UNDERS at mid totals get the headwind as a tailwind.
 - 2027 candidate: a small disruption prior (−0.3..−0.5 w) on heavily-disrupted teams
   at the consensus-lens stage — register properly before use.
+
+## ADDENDUM (2026-07-28, owner question): is the RP effect level-dependent?
+
+Horse race (owner's collinearity read): miss ~ sp + rp + newHC + thin → rp +2.53
+(t 1.77), newHC −1.14 (t 1.44), thin −1.50 (t 1.62). No variable survives alone —
+ONE disruption factor, RP the best single window; owner's read supported.
+
+Level dependence: rp × level interaction +1.42 (t 0.97). Terciles by preseason SP+
+(within year): bottom +1.18 (t 0.46), **middle +5.88 (t 2.49)**, top +1.71 (t 0.71).
+Owner's exposure zone: G5-only +1.13 (t 0.59); sp≤−4 +0.65 (t 0.28); G5∩sp≤−4
++0.91 (t 0.37). The effect concentrates in MID-EXPECTATION teams and is ~nil at the
+bottom (and top). Mechanism (plausible, unproven): bad teams return bad production
+(continuity uninformative); elite programs reload via recruiting; the middle is where
+roster capital is both scarce and valuable. Caveats: within-slice SE ≈ 2.4 (bottom/top
+"nil" = undetectable, not proven zero); one of three slices at t 2.49 is only
+moderately beyond chance; report-only.
+
+Book re-read: the disruption headwind on the G5 bottom-tercile overs (UConn, Buffalo,
+Nevada, BGSU, KSU) measured in THEIR zone is ~−0.1 wins, not the pooled −0.5 —
+S9's caution on those legs largely dissolves. Mid-band positions now cut BOTH ways:
+turnover helps the Wisconsin/ASU/Florida UNDERS (~−0.3..−0.4 w tailwind at their
+turnover levels); **ECU O7.5 is the one leg sitting mid-band on the wrong side** —
+flag stands (third independent knock). KSU softens on this axis (bottom tercile);
+its loud-arm caution remains. Completion-round rule refined: avoid MID-expectation
+disruption overs; bottom-tercile disruption overs are K3-covered and RP-clean.
