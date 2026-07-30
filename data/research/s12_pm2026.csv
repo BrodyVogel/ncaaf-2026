@@ -1,0 +1,139 @@
+team,nk,coach,pm,n_prior,new_hc
+Ohio State,ohiostate,Ryan Day,0.96,5,N
+Oregon,oregon,Dan Lanning,3.17,4,N
+Notre Dame,notredame,Marcus Freeman,-1.9,4,N
+Georgia,georgia,Kirby Smart,0.68,5,N
+Indiana,indiana,Curt Cignetti,19.5,3,N
+Texas,texas,Steve Sarkisian,-1.8,5,N
+Texas Tech,texastech,Joey McGuire,2.42,4,N
+Miami,miami,Mario Cristobal,,0,N
+Ole Miss,olemiss,,,0,Y
+LSU,lsu,,,0,Y
+Oklahoma,oklahoma,Brent Venables,-5.1,4,N
+Texas A&M,texasam,Mike Elko,7.07,3,N
+USC,usc,Lincoln Riley,0.48,4,N
+Michigan,michigan,,,0,Y
+Alabama,alabama,Kalen DeBoer,-0.55,4,N
+Penn State,pennstate,,,0,Y
+BYU,byu,Kalani Sitake,-0.86,5,N
+Tennessee,tennessee,Josh Heupel,1.86,5,N
+Washington,washington,Jedd Fisch,3.34,5,N
+Missouri,missouri,Eli Drinkwitz,0.26,5,N
+Florida,florida,,,0,Y
+Auburn,auburn,,,0,Y
+Utah,utah,,,0,Y
+Iowa,iowa,Kirk Ferentz,-1.12,5,N
+Louisville,louisville,Jeff Brohm,0.58,5,N
+South Carolina,southcarolina,Shane Beamer,-0.2,5,N
+SMU,smu,Rhett Lashlee,1.0,4,N
+Clemson,clemson,Dabo Swinney,-8.46,5,N
+Vanderbilt,vanderbilt,Clark Lea,3.3,5,N
+Arizona,arizona,Brent Brennan,0.98,5,N
+TCU,tcu,Sonny Dykes,2.0,4,N
+Kansas State,kansasstate,,,0,Y
+Houston,houston,Willie Fritz,4.2,3,N
+Kentucky,kentucky,,,0,Y
+Virginia,virginia,Tony Elliott,-1.0,4,N
+Pittsburgh,pittsburgh,Pat Narduzzi,-0.98,5,N
+Virginia Tech,virginiatech,,,0,Y
+Mississippi State,mississippistate,Jeff Lebby,-0.9,2,N
+Nebraska,nebraska,Matt Rhule,-3.13,3,N
+Florida State,floridastate,Mike Norvell,-3.72,5,N
+Illinois,illinois,Bret Bielema,4.38,5,N
+Minnesota,minnesota,P.J. Fleck,-1.86,5,N
+UCLA,ucla,,,0,Y
+Oklahoma State,oklahomastate,,,0,Y
+Georgia Tech,georgiatech,Brent Key,0.73,4,N
+Wisconsin,wisconsin,Luke Fickell,-5.74,5,N
+Arkansas,arkansas,,,0,Y
+Arizona State,arizonastate,Kenny Dillingham,-1.43,3,N
+Duke,duke,Manny Diaz,1.25,2,N
+Northwestern,northwestern,David Braun,3.97,3,N
+Baylor,baylor,Dave Aranda,-2.72,5,N
+Wake Forest,wakeforest,Jake Dickert,6.6,3,N
+Boise State,boisestate,Spencer Danielson,-1.53,3,N
+NC State,ncstate,Dave Doeren,-2.24,5,N
+Rutgers,rutgers,Greg Schiano,-0.2,5,N
+Kansas,kansas,Lance Leipold,1.78,5,N
+Maryland,maryland,Mike Locksley,-0.62,5,N
+UCF,ucf,Scott Frost,-2.75,2,N
+North Carolina,northcarolina,Bill Belichick,-10.7,1,N
+California,california,,,0,Y
+Cincinnati,cincinnati,Scott Satterfield,-2.02,5,N
+Colorado,colorado,Deion Sanders,-0.5,3,N
+North Dakota State,northdakotastate,,,0,N
+West Virginia,westvirginia,Rich Rodriguez,5.77,3,N
+Memphis,memphis,,,0,Y
+Iowa State,iowastate,,,0,Y
+Michigan State,michiganstate,,,0,Y
+East Carolina,eastcarolina,Blake Harrell,15.1,1,N
+San Diego State,sandiegostate,Sean Lewis,2.38,4,N
+Tulane,tulane,,,0,Y
+Purdue,purdue,Barry Odom,11.57,3,N
+Stanford,stanford,,,0,Y
+UNLV,unlv,Dan Mullen,-1.8,2,N
+Boston College,bostoncollege,Bill O'Brien,-3.25,2,N
+Fresno State,fresnostate,Matt Entz,8.3,1,N
+Syracuse,syracuse,Fran Brown,-4.95,2,N
+South Florida,southflorida,,,0,Y
+James Madison,jamesmadison,,,0,Y
+Navy,navy,Brian Newberry,7.27,3,N
+Army,army,Jeff Monken,6.7,5,N
+Texas State,texasstate,G.J. Kinne,12.57,3,N
+UTSA,utsa,Jeff Traylor,3.12,5,N
+New Mexico,newmexico,Jason Eck,19.5,1,N
+Washington State,washingtonstate,,,0,Y
+Old Dominion,olddominion,Ricky Rahne,8.56,5,N
+UConn,uconn,Jason Candle,3.0,5,Y
+Utah State,utahstate,Bronco Mendenhall,6.57,3,N
+Tulsa,tulsa,Tre Lamb,6.8,1,N
+Air Force,airforce,Troy Calhoun,3.64,5,N
+Hawai'i,hawaii,Timmy Chang,2.68,4,N
+Western Michigan,westernmichigan,Lance Taylor,5.8,3,N
+Miami (OH),miamioh,Chuck Martin,4.7,5,N
+Oregon State,oregonstate,,,0,Y
+North Texas,northtexas,,,0,Y
+Western Kentucky,westernkentucky,Tyson Helton,6.96,5,N
+Jacksonville State,jacksonvillestate,Charles Kelly,4.5,1,N
+Marshall,marshall,Tony Gibson,5.3,1,N
+Troy,troy,Gerad Parker,-1.8,2,N
+Colorado State,coloradostate,,,0,Y
+Toledo,toledo,Mike Jacobs,,0,Y
+Louisiana,louisiana,Michael Desormeaux,2.0,4,N
+Louisiana Tech,louisianatech,Sonny Cumbie,3.4,4,N
+Kennesaw State,kennesawstate,Jerry Mack,14.7,1,N
+Arkansas State,arkansasstate,Butch Jones,0.26,5,N
+Florida Atlantic,floridaatlantic,Zach Kittley,4.9,1,N
+Georgia Southern,georgiasouthern,Clay Helton,4.5,4,N
+Liberty,liberty,Jamey Chadwell,1.32,4,N
+South Alabama,southalabama,Major Applewhite,0.3,2,N
+App State,appstate,Dowell Loggains,,0,N
+Temple,temple,K.C. Keeler,7.6,3,N
+Ohio,ohio,John Hauser,,0,Y
+Wyoming,wyoming,Jay Sawvel,-2.25,2,N
+Coastal Carolina,coastalcarolina,,,0,Y
+Central Michigan,centralmichigan,Matt Drinkall,7.0,1,N
+Delaware,delaware,Ryan Carty,3.5,1,N
+Nevada,nevada,Jeff Choate,2.45,2,N
+Bowling Green,bowlinggreen,Eddie George,1.8,1,N
+Rice,rice,Scott Abell,0.6,1,N
+Buffalo,buffalo,Pete Lembo,0.3,1,N
+San José State,sanjosestate,Ken Niumatalolo,0.42,4,N
+Florida International,floridainternational,Willie Simmons,7.8,1,N
+Southern Miss,southernmiss,,,0,Y
+UAB,uab,,,0,Y
+Eastern Michigan,easternmichigan,Chris Creighton,0.74,5,N
+Missouri State,missouristate,,,0,Y
+Northern Illinois,northernillinois,,,0,Y
+New Mexico State,newmexicostate,Tony Sanchez,-0.8,2,N
+Georgia State,georgiastate,Dell McGee,-8.45,2,N
+Akron,akron,Joe Moorhead,1.9,4,N
+UTEP,utep,Scotty Walden,-2.8,2,N
+Middle Tennessee,middletennessee,Derek Mason,-4.7,2,N
+UL Monroe,ulmonroe,Bryant Vincent,-3.6,1,N
+Kent State,kentstate,Mark Carney,6.0,1,N
+Sacramento State,sacramentostate,,,0,Y
+Charlotte,charlotte,Tim Albin,2.9,5,N
+Sam Houston,samhouston,Phil Longo,-15.0,1,N
+Ball State,ballstate,Mike Uremovich,-1.1,1,N
+Massachusetts,massachusetts,Joe Harasymiak,-12.6,1,N
