@@ -85,3 +85,37 @@ turnover levels); **ECU O7.5 is the one leg sitting mid-band on the wrong side**
 flag stands (third independent knock). KSU softens on this axis (bottom tercile);
 its loud-arm caution remains. Completion-round rule refined: avoid MID-expectation
 disruption overs; bottom-tercile disruption overs are K3-covered and RP-clean.
+
+## ADDENDUM 2 (2026-07-31, owner hypothesis): coach track-record persistence
+
+Owner asked (a-priori, motivated by ASU/Dillingham): do coaches with a history of
+beating their preseason rating keep doing it? Test: miss_y ~ sp_pre + coach's mean
+PRIOR miss (2021+ window, any school), panel 2022-25, n=411 (first-year-ever HCs
+excluded by construction; fired coaches exit — selection noted).
+
+**coef +0.164, t +2.82, LOYO positive 4/4** — the strongest situational predictor
+found to date. Survives the horse race: prior_miss +0.155 (t 2.62) WITH rp +3.30
+(t 2.04) both alive; newHC dies (+0.28). Scale: a career +10 coach (Cignetti-tier)
+projects ≈ +1.6 pts ≈ +0.5 wins of drift; ±5 coach ≈ ±0.25 wins. Confound: coach ≈
+program over short windows (skill vs ascending-program momentum not separable).
+Ported-history slice (new team, n=27): +0.24, t 0.96 — right sign, underpowered.
+
+Ledger face-validity: top = Cignetti +19.5 (min +14 in all 3), Kinne +12.6,
+Odom +11.6, Wommack +10.8, Mora +10.8; bottom = Dabo −8.5, Tom Allen −8.3,
+Tucker −7.8, Gundy −7.5, Mack Brown −7.2.
+
+**Book reads (report-only overlay, no bars, no grade changes):**
+- **ASU U6.5: hesitation RELIEVED — Dillingham career mean −1.43** (2023 −10.3,
+  2024 +13.4, 2025 −7.4). The market premium (line 6.5 vs SP+ 5.96) rests on his
+  one outlier year; 2025 already paid the fade.
+- Wisconsin U6.5 tailwind: Fickell −5.74, five years trending down (2025 −13.3).
+- Wake O5.5 nod: Dickert +6.6 (Wake yr-1 +10.4). UConn O mild nod: Candle +3.0
+  (4/5 positive). Nevada (Choate +2.5), Tulsa (Lamb +6.8, n=1) mild nods.
+- Mild cautions, consistent with existing no-add stance: Hawai'i U (Chang +2.7,
+  2025 +13.3), Illinois U (Bielema +4.4 volatile), WVU U (Rich Rod +5.8 but WVU
+  yr-1 −8.8). Neutral: Schiano −0.2, Narduzzi −1.0, Lembo +0.3.
+- Single-season, no claim: Harrell (ECU) +15.1, Mack (KSU) +14.7 — noteworthy as
+  the source of those teams' market/consensus warmth.
+
+Status: report-only diagnostic on an owner a-priori hypothesis; **S12 (coach prior)
+added to the 2027 registry** for proper registration before any rating/sizing use.
