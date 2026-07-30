@@ -1,25 +1,25 @@
 date,category,team,side,line,odds,book,stake_u,our_p,pct_edge,model_ev,result,pnl_u,note
 2026-07-20,regular,UConn,over,5.5,-105,DK,0.57,0.679,+20.0%,+0.326,pending,+0.000,
 2026-07-20,regular,Tulsa,over,5.5,+100,CZR,0.55,0.653,+17.9%,+0.306,pending,+0.000,
-2026-07-20,regular,Oregon State,over,3.5,-150,Bet365,0.65,0.730,+16.1%,+0.217,pending,+0.000,
+2026-07-20,regular,Oregon State,over,3.5,-150,Bet365,0.65,0.730,+16.1%,+0.216,pending,+0.000,
 2026-07-20,regular,Bowling Green,over,4.5,-160,Bet365,0.7,0.739,+14.8%,+0.201,pending,+0.000,
 2026-07-20,regular,Liberty,under,8.5,-145,Bet365,0.6,0.717,+17.4%,+0.212,pending,+0.000,took -145
-2026-07-20,regular,Arizona State,under,6.5,+100,CZR,0.55,0.604,+12.1%,+0.208,pending,+0.000,took +100; juiced out at BetRivers
+2026-07-20,regular,Arizona State,under,6.5,+100,CZR,0.55,0.604,+12.1%,+0.207,pending,+0.000,took +100; juiced out at BetRivers
 2026-07-20,regular,Kennesaw State,over,6.5,+120,Bet365,0.55,0.545,+8.4%,+0.199,pending,+0.000,
-2026-07-20,regular,Illinois,under,7.5,-160,CZR,0.65,0.695,+10.9%,+0.129,pending,+0.000,took -160
+2026-07-20,regular,Illinois,under,7.5,-160,CZR,0.65,0.695,+11.0%,+0.130,pending,+0.000,took -160
 2026-07-20,regular,West Virginia,under,5.5,+132,FD,0.5,0.494,+7.6%,+0.146,pending,+0.000,FD +132
 2026-07-20,regular,East Carolina,over,7.5,+100,CZR,0.55,0.585,+10.4%,+0.170,pending,+0.000,
 2026-07-20,regular,Hawai'i,under,7.5,-120,CZR,0.6,0.647,+10.4%,+0.187,pending,+0.000,took -120 at CZR
 2026-07-20,conference,Florida,under,4.5,-110,CZR,0.5,0.573,+7.0%,+0.094,pending,+0.000,book confirmed CZR 2026-07-26
-2026-07-20,conference,UCF,over,3.5,-115,DK,0.55,0.598,+8.9%,+0.118,pending,+0.000,"DK -115; v2 re-price 2026-07-23: mm edge +1.5% (below the 4% double-check bar) — hold ticket, no add"
+2026-07-20,conference,UCF,over,3.5,-115,DK,0.55,0.599,+9.1%,+0.121,pending,+0.000,"DK -115; v2 re-price 2026-07-23: mm edge +1.5% (below the 4% double-check bar) — hold ticket, no add"
 2026-07-20,conference,Pittsburgh,under,5.5,-136,DK,0.65,0.650,+9.0%,+0.127,pending,+0.000,DK -136
 2026-07-26,regular,Wisconsin,under,6.5,+100,CZR,0.6,0.563,+7.3%,+0.126,pending,+0.000,rec 0.60 @ +100; exact fill
-2026-07-26,regular,Florida,under,6.5,+144,DK,0.4,0.485,+9.5%,+0.185,pending,+0.000,"off-market 6.5 (field 7.5); rec 0.60, sized 0.40; team total 0.90 w/ conf leg"
+2026-07-26,regular,Florida,under,6.5,+144,DK,0.4,0.485,+9.5%,+0.184,pending,+0.000,"off-market 6.5 (field 7.5); rec 0.60, sized 0.40; team total 0.90 w/ conf leg"
 2026-07-26,regular,Bowling Green,over,4.5,-160,DK,0.35,0.739,+14.8%,+0.201,pending,+0.000,ADD; team total 1.05
-2026-07-26,conference,Arizona State,under,4.5,+115,DK,0.4,0.611,+13.1%,+0.314,pending,+0.000,beat +106 inference; reg-add leg skipped; team total 0.95
+2026-07-26,conference,Arizona State,under,4.5,+115,DK,0.4,0.611,+13.1%,+0.313,pending,+0.000,beat +106 inference; reg-add leg skipped; team total 0.95
 2026-07-26,regular,Buffalo,over,5.5,-144,FD,0.75,0.656,+6.9%,+0.112,pending,+0.000,rec 0.45 — owner sized up; MAC cluster w/ BGSU (wk8 h2h)
-2026-07-26,regular,UConn,over,5.5,-106,FD,0.5,0.679,+20.0%,+0.320,pending,+0.000,ADD; team total 1.07
+2026-07-26,regular,UConn,over,5.5,-106,FD,0.5,0.679,+20.0%,+0.319,pending,+0.000,ADD; team total 1.07
 2026-07-26,regular,Tulsa,over,5.5,-105,B365,0.55,0.653,+17.9%,+0.275,pending,+0.000,ADD at backup book (CZR +100 gone); team total 1.10 = cap
-2026-07-26,regular,Nevada,over,4.5,+120,B365,0.75,0.618,+17.0%,+0.360,pending,+0.000,rec 0.65 — owner sized up; top conviction
-2026-07-26,regular,Wake Forest,over,5.5,-130,B365,0.9,0.649,+12.0%,+0.148,pending,+0.000,rec 0.60 — owner sized up; backup price
-2026-07-26,regular,Rutgers,over,4.5,-140,B365,0.8,0.734,+18.1%,+0.258,pending,+0.000,rec 0.60 — owner sized up; provenance note: ~60% of edge from v2 re-adjudication
+2026-07-26,regular,Nevada,over,4.5,+120,B365,0.75,0.619,+17.1%,+0.361,pending,+0.000,rec 0.65 — owner sized up; top conviction
+2026-07-26,regular,Wake Forest,over,5.5,-130,B365,0.9,0.648,+11.9%,+0.147,pending,+0.000,rec 0.60 — owner sized up; backup price
+2026-07-26,regular,Rutgers,over,4.5,-140,B365,0.8,0.734,+18.2%,+0.259,pending,+0.000,rec 0.60 — owner sized up; provenance note: ~60% of edge from v2 re-adjudication

@@ -3,9 +3,9 @@
  "units": {
   "QB": {
    "grade": 46,
-   "confidence": "L",
+   "confidence": "M",
    "v1_grade": 52,
-   "adjudication": "split with flag; conf O3.5 negative signal: dg-28: formula skeptical vs SBC-POY qualitative case"
+   "adjudication": "camp-sweep-1 2026-07-30 \u2014 battle/injury uncertainty resolved; conf L->M; grade holds: camp sweep 1: Frost named Barnett clear QB1 at B12 media days 7/22 (post-B12-triage); 'full go' after minor spring injury"
   },
   "RB": {
    "grade": 46,

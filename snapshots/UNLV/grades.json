@@ -2,8 +2,10 @@
  "team": "UNLV",
  "units": {
   "QB": {
-   "grade": 36,
-   "confidence": "M"
+   "grade": 34,
+   "confidence": "L",
+   "v1_grade": 36,
+   "adjudication": "camp-sweep-1 2026-07-30 \u2014 room uncertainty real on both paths; -2; conf M->L: camp sweep 1: OPEN Arnold/Orji race at camp open; Orji off Gr3 LCL + severe hamstring; S10 down-transfer prior discounts Arnold pedigree"
   },
   "RB": {
    "grade": 34,

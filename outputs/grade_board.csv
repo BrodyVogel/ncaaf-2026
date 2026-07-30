@@ -55,7 +55,7 @@ Wake Forest,ACC,56,46L,42,44,58,48,50,54,398,1,2.98,54,6.36,False,frozen 2026-07
 Cincinnati,Big 12,40,50,40L,71,28,55,48,52,384,1,2.95,55,6.18,False,frozen 2026-07-15,1
 Kansas,Big 12,42,48,44,45,50,52,42,40,363,0,2.64,56,6.0,False,frozen 2026-07-15,0
 Maryland,Big Ten,56,41,40,43,63,53,60,36,392,0,2.54,56,6.0,False,frozen 2026-07-16 (fcc394e),0
-UCF,Big 12,46L,46,52,42,50,52,58,45,391,1,2.05,58,6.0,False,frozen 2026-07-15,0
+UCF,Big 12,46,46,52,42,50,52,58,45,391,0,2.05,58,6.0,False,frozen 2026-07-15,0
 Rutgers,Big Ten,55,74,58,52,61,54,42,44,440,0,2.01,59,6.0,False,frozen 2026-07-16 (2d49954),0
 Boise State,Pac-12,32,49,14L,20,46,30,45,44,280,1,1.6,60,6.18,False,frozen 2026-07-17 (958082e),0
 North Carolina,ACC,48L,48,50,44,54,40L,48,46,378,2,1.58,59,6.36,False,frozen 2026-07-18 (2c6d867),0
@@ -82,7 +82,7 @@ Old Dominion,Sun Belt,44,46,38,39,36,50,58,42,353,0,-3.12,82,6.0,False,frozen 20
 Washington State,Pac-12,28L,40,42,21,30,25,32,32,250,1,-4.12,85,7.91,True,frozen 2026-07-17 (2490cde),0
 Western Kentucky,Conference USA,50,46,52,42L,40,36L,58,48,372,2,-4.14,86,6.36,False,frozen 2026-07-18T21:20:00Z (Western Kentucky),0
 Texas State,Pac-12,55,44,52,41,30L,30,36,42,330,1,-4.3,85,6.18,False,frozen 2026-07-17 (eff6e84),0
-UNLV,Mountain West,36,34,16L,20,22,18,20,20,186,1,-4.59,86,6.36,False,frozen 2026-07-17 (779046e),0
+UNLV,Mountain West,34L,34,16L,20,22,18,20,20,184,2,-4.59,86,6.36,False,frozen 2026-07-17 (779046e),0
 Troy,Sun Belt,46,40,42,40,46,42,36,48,340,0,-5.34,89,6.0,False,frozen 2026-07-18T16:42:00Z (Troy),0
 Marshall,Sun Belt,52,40,46,44,44,42,46,36,350,0,-5.7,91,6.0,False,frozen 2026-07-18T15:52:00Z (Marshall),0
 North Texas,American Athletic,35L,52,40,38,13,40,35L,55,308,2,-6.12,91,8.35,Neal Brown in for Eric Morris (OkState) Dec 2025 - x1.13 applies,frozen 2026-07-15,0
