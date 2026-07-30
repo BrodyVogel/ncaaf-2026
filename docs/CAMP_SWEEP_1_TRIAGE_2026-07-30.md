@@ -53,6 +53,29 @@ grades_detail blocks out of sync since the v2 regen era — e.g. Wyoming, Ohio S
 fail identically with no local changes). final_pass's own hard validation passes.
 Queue a one-time metadata resync; does not block builds.
 
+## Camp sweep 2 queue (mid-August; carried forward)
+
+Named re-verifications: UTEP Schuchts (dossier GONE-research vs yr4 default),
+EMU Devereaux (RETURNS yr4-override, May-print — whole WRTE grade leans on him),
+ECU QB naming, UNLV Arnold/Orji, Miami (OH) QB1.
+
+Eligibility-cluster verifications (from two-deep uncertainty census 2026-07-31,
+pipeline/research/twodeep_uncertainty_census.py — May-print yr4-override starters
+concentrated on held OVERS, adverse direction if any fail to appear in August):
+
+- **ECU (O7.5 held):** defensive spine is 5–6 override/ambiguous names — Wilk
+  (639), TyMir Brown (598), D. Wilson LB (532), Robinson DL (407), Jean (419),
+  Merrell (347). Confirm all on the August roster/depth chart.
+- **Rutgers (O4.5 held):** dossier's own words — "the yr4-skew cluster
+  concentrates here": OL Asamoah (849), Needham (751), plus medical/low-tape
+  Langsdale, Chin, Salami; DL Angoy (332), Griffin (305), Blue-Eli. Confirm the
+  projected five.
+- Second tier: Oregon State Voltin (435)/Schuster (212)/R. Davis (131); KSU
+  Hopson (765)/Jones (472) (note: KSU board number is override-pinned, so grade
+  impact only); Buffalo Gathings (379); Nevada Vaughan/Williams. Wisconsin
+  Tyrell Henry has no dossier grade line (WRTE/returner, class-4) — confirm
+  status and whether he was graded.
+
 ## Screen status
 
 Both rule-doc gates now satisfied (sweep integrated; UNLV/Miami-OH re-reads done).
