@@ -53,3 +53,12 @@ UNLV / Miami (OH) QB re-reads from the down-transfer audit are adjudicated.
 
 Log fills in bet_tracker SEED; refresh the S9 exposure table (standing report);
 note CLV targets for the August 26 closing-board capture.
+
+## AMENDMENT 1 (2026-07-31, licensed by S13 L1+L2 PASS — see FINDINGS_S13)
+
+- Mid-band disruption-over exclusion RETAINED, now board-validated (S13-L2:
+  zone 71.4%→80.8% under the mid-band rp term).
+- rp alignment (high-rp overs / low-rp unders; 2026 = frozen tape-retention proxy)
+  is a registered TIE-BREAKER among qualifying legs and a ±0.25-win nudge on the
+  gap ONLY for choosing the 0.15/0.20/0.25u stake tier. It does not qualify or
+  disqualify legs; the qualifying consensus gap remains raw.
