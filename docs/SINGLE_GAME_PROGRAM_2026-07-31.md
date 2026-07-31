@@ -56,12 +56,20 @@ are only:
   The market's own numbers as the base; registered candidate situations where
   openers (or closes) systematically misprice. Pre-committed candidate list to
   cage multiplicity — see S16 scope below.
-- **T2 — depth-knowledge at news time (not backtestable; 2026 paper pilot).**
-  The one differentiated in-season asset we own: the whole field's two-deeps
-  carry exemplar-ruler grades, so when a QB1/star goes down between close and
-  opener, our backup-quality estimate is research, not a guess. Paper bets
-  frozen at Sunday post, scored December: ≥55% on n≥50 or demonstrable CLV →
-  2027 money test; else dead.
+- **T2 — the full weekly rig, paper-traded (REDEFINED 2026-08-01, owner).**
+  Owner's vision, now the program's center: replicate the sharp workflow —
+  our own ratings for every team, updated every week (mechanical arm
+  adjudicated against qualitative research, mirroring the preseason rig), with
+  the edge claim being "we rate teams better than the openers on a rolling
+  basis." Not backtestable (the qualitative arm has no history); the 2026
+  paper year IS the test. Depth-grade knowledge at news time (graded backups
+  vs the market's guess) is one component inside it, not the whole thesis.
+  Paper bets frozen at Sunday post with REASON CODES (injury/depth, perf-vs-
+  market divergence, spot, other) so December attribution shows WHICH arm won.
+  Bars: ≥55% on n≥50 or demonstrable CLV → 2027 money test; else dead.
+  Pre-stated edge-location prediction (falsifiable in December): if real, wins
+  cluster in news-timing weeks, depth-chart disruptions, low-attention G5
+  games, and weeks 1–5 — not spread uniformly.
 - The weekly rating chain itself claims NO edge (S14: 48.4% even at openers).
   It survives as infrastructure: fair-number baseline that T2 deltas apply to,
   feature source for T1, and 2027 preseason-build inputs.
@@ -73,12 +81,28 @@ situational terms, ALL registered with bars before any outcome is computed,
 each scored vs OPENER (the bet point) and vs CLOSE (the alpha test), LOYO:
 (i) preseason-prior retention mid-season (market overweights recent results?
 — the S14-D wk4–8 report cells are DISCLOSED AS SEEN and non-monotone; bars
-set fresh); (ii) post-blowout overreaction (opponent-adjusted); (iii)
-post-upset-loss bounce; (iv) rest/travel/spot set (bye edge, consecutive road,
-short week, altitude, body-clock); (v) opener→close drift structure (do
-Sunday numbers systematically migrate in predictable directions?). Sobriety
-anchor registered up front: S14-B showed openers already price preseason
-consensus; the null is that books are fine and every cell is ~50%.
+set fresh); (ii) shock-blowout response, TWO-SIDED (owner hypothesizes
+UNDER-penalization of early-season favorites who get destroyed; my prior was
+overreaction — sign not assumed, claim at |t|≥2 + LOYO sign stability);
+(iii) post-upset-loss bounce; (iv) rest/travel/spot set (bye edge, consecutive
+road, short week, altitude, body-clock); (v) opener→close drift structure (do
+Sunday numbers systematically migrate in predictable directions?); (vi) OWNER
+CANDIDATE: accumulative efficiency-vs-market divergence — cumulative
+opponent-adjusted YPP/PPA margin outrunning the team's market-implied rating
+change over a multi-week window (the "five straight weeks of a big YPP edge
+against good opponents and the market hasn't moved" case) — does the gap
+predict ATS forward? Sobriety anchor registered up front: S14-B showed openers
+already price preseason consensus; the null is that books are fine and every
+cell is ~50%.
+
+Design decisions recorded (owner may veto): the weekly MECHANICAL arm is
+MARKET-BLIND (preseason prior + performance data only) — the market-implied
+chain runs in parallel as fair-number reference, S16 feature source, and
+final shrink target (the weekly analog of the K-shrink/blinding philosophy in
+the preseason rig; keeps edge attribution clean). Weekly qualitative layer is
+TRIAGE-based, not exhaustive: full-field availability sweep + deep reads only
+on trigger (mechanical move > threshold, news flag, paper-card candidate) —
+exhaustive weekly dossiers for 136 teams are not a real labor option.
 
 ## Data plan
 
