@@ -1,0 +1,107 @@
+PPA->points map (2016-19): points ~ 17.97 + 0.950*totalPPA  (n=5804)
+
+===== M1 baseline grid =====
+sp=4.0 rho=1.0 sigm=1.0: pooled 12.987  <-- best
+sp=4.0 rho=1.0 sigm=1.5: pooled 12.898  <-- best
+sp=4.0 rho=1.0 sigm=2.0: pooled 12.925
+sp=4.0 rho=0.95 sigm=1.0: pooled 12.948
+sp=4.0 rho=0.95 sigm=1.5: pooled 12.879  <-- best
+sp=4.0 rho=0.95 sigm=2.0: pooled 12.916
+sp=4.0 rho=0.9 sigm=1.0: pooled 12.934
+sp=4.0 rho=0.9 sigm=1.5: pooled 12.882
+sp=4.0 rho=0.9 sigm=2.0: pooled 12.930
+sp=5.5 rho=1.0 sigm=1.0: pooled 13.072
+sp=5.5 rho=1.0 sigm=1.5: pooled 12.937
+sp=5.5 rho=1.0 sigm=2.0: pooled 12.941
+sp=5.5 rho=0.95 sigm=1.0: pooled 13.026
+sp=5.5 rho=0.95 sigm=1.5: pooled 12.907
+sp=5.5 rho=0.95 sigm=2.0: pooled 12.919
+sp=5.5 rho=0.9 sigm=1.0: pooled 13.004
+sp=5.5 rho=0.9 sigm=1.5: pooled 12.900
+sp=5.5 rho=0.9 sigm=2.0: pooled 12.920
+sp=7.0 rho=1.0 sigm=1.0: pooled 13.166
+sp=7.0 rho=1.0 sigm=1.5: pooled 12.993
+sp=7.0 rho=1.0 sigm=2.0: pooled 12.985
+sp=7.0 rho=0.95 sigm=1.0: pooled 13.117
+sp=7.0 rho=0.95 sigm=1.5: pooled 12.960
+sp=7.0 rho=0.95 sigm=2.0: pooled 12.960
+sp=7.0 rho=0.9 sigm=1.0: pooled 13.093
+sp=7.0 rho=0.9 sigm=1.5: pooled 12.950
+sp=7.0 rho=0.9 sigm=2.0: pooled 12.957
+M1 winner: sig_prior=4.0 rho=0.95 sig_m=1.5 (12.879)
+
+----- HFA refine -----
+hfa=2.0: 12.886
+hfa=2.5: 12.879
+hfa=3.0: 12.887
+
+----- mu refine -----
+mu=-2.0: 12.879
+mu=0.0: 12.879
+mu=2.0: 12.879
+
+===== M2 per-game noise =====
+to_pen: 12.883
+blow_pen: 12.907
+wqb=0.5: 12.908
+wqb=0.25: 12.985
+
+===== M3 robustness =====
+clip2: 13.127
+clip3: 12.913
+t4: 13.135
+t8: 13.045
+
+===== M4 market-augmented arm =====
+sig_mkt=2.0: 12.945
+sig_mkt=3.0: 12.906
+sig_mkt=5.0: 12.873  KEEP
+shipping arm: market-augmented
+
+===== M5 conditioning =====
+g5x1.25: 12.874 (folds better: 2/4)
+g5x1.5: 12.876 (folds better: 2/4)
+
+FINAL config: {'sig_prior': 4.0, 'rho': 0.95, 'sig_eff': 9.0, 'sig_m': 1.5, 'mu': 0.0, 'hfa': 2.5, 'wqb': 1.0, 'robust': 'none', 'irls': 1, 'sig_mkt': 5.0}
+FINAL pooled tune MAE: 12.873
+
+===== GATES (tune folds) =====
+  fold      B1  frozen  beats?
+  2021  12.959  14.331     yes
+  2022  12.367  13.383     yes
+  2023  12.209  13.200     yes
+  2024  12.535  14.202     yes
+B1-i (wk3+ vs frozen): pooled 12.517 vs 13.779, folds 4/4 -> PASS
+B1-ii (vs Elo K=0.2): 12.510 vs 12.617 -> PASS
+
+===== B1-iii gap to closes (clean segment, tune folds) =====
+  2021 wk2-4: RMSE vs close 4.08 (n=89)
+  2021 wk5-8: RMSE vs close 3.12 (n=120)
+  2021 wk9-15: RMSE vs close 2.74 (n=151)
+  2022 wk2-4: RMSE vs close 3.95 (n=88)
+  2022 wk5-8: RMSE vs close 3.64 (n=128)
+  2022 wk9-15: RMSE vs close 4.66 (n=142)
+  2023 wk2-4: RMSE vs close 5.20 (n=92)
+  2023 wk5-8: RMSE vs close 2.74 (n=97)
+  2023 wk9-15: RMSE vs close 3.74 (n=145)
+  2024 wk2-4: RMSE vs close 4.27 (n=94)
+  2024 wk5-8: RMSE vs close 4.04 (n=107)
+  2024 wk9-15: RMSE vs close 3.90 (n=192)
+
+===== B1-iv effective preseason weight by week =====
+  wk 1: corr(pred, preseason-implied) 0.999
+  wk 2: corr(pred, preseason-implied) 0.981
+  wk 3: corr(pred, preseason-implied) 0.989
+  wk 4: corr(pred, preseason-implied) 0.962
+  wk 5: corr(pred, preseason-implied) 0.953
+  wk 6: corr(pred, preseason-implied) 0.924
+  wk 7: corr(pred, preseason-implied) 0.930
+  wk 8: corr(pred, preseason-implied) 0.936
+  wk 9: corr(pred, preseason-implied) 0.933
+  wk10: corr(pred, preseason-implied) 0.907
+  wk11: corr(pred, preseason-implied) 0.819
+  wk12: corr(pred, preseason-implied) 0.872
+  wk13: corr(pred, preseason-implied) 0.836
+  wk14: corr(pred, preseason-implied) 0.789
+
+constants written (freeze pending findings commit)
