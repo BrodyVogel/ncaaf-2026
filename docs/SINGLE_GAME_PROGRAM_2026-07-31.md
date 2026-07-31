@@ -43,26 +43,42 @@ travel distance, altitude, kick window — computable from schedule data;
 whether the market misprices any of them is an empirical question (proposed
 S15 audit on the 2021–25 lines panel BEFORE any spot term earns points).
 
-## Where the money output points (licensed vs pilot)
+## Where the money output points (CORRECTED 2026-08-01, owner)
 
-- **LICENSED: season-totals repricing.** The validated soft market. Weekly
-  rating set → refreshed win distributions → (i) manage/hedge the held book,
-  (ii) qualify mid-season totals adds under the committed screen rules, (iii)
-  the rp receiving term's legitimate live home (owner-waived for in-season).
-- **PILOT (paper only): Sunday openers on sides.** Updater + dossier card
-  produces a logged, frozen-at-post paper bet each Sunday it finds one.
-  Scored in December: ≥55% on n≥50 (or demonstrable CLV vs close) → register
-  a 2027 money test; else sides stay dead. No dollars in 2026.
+**STRUCK: season-totals repricing.** Owner correction: in-season season-total
+markets are very illiquid with punishing holds — not a tradeable channel. The
+original memo leaned on it as the licensed money output; that pillar is gone,
+and with it the main argument for Path-A ("our belief evolves") as the spine.
+The in-season program is now STRICTLY single games, and the honest edge theses
+are only:
+
+- **T1 — situational/overreaction terms (owner's Path B; backtestable = S16).**
+  The market's own numbers as the base; registered candidate situations where
+  openers (or closes) systematically misprice. Pre-committed candidate list to
+  cage multiplicity — see S16 scope below.
+- **T2 — depth-knowledge at news time (not backtestable; 2026 paper pilot).**
+  The one differentiated in-season asset we own: the whole field's two-deeps
+  carry exemplar-ruler grades, so when a QB1/star goes down between close and
+  opener, our backup-quality estimate is research, not a guess. Paper bets
+  frozen at Sunday post, scored December: ≥55% on n≥50 or demonstrable CLV →
+  2027 money test; else dead.
+- The weekly rating chain itself claims NO edge (S14: 48.4% even at openers).
+  It survives as infrastructure: fair-number baseline that T2 deltas apply to,
+  feature source for T1, and 2027 preseason-build inputs.
 
 ## Backtest plan (S16, to be registered before running)
 
-Historical replay on the pulled 2021–25 lines: build weekly market-implied
-ratings, apply the frozen K_w performance rule, test (a) next-week spread
-prediction vs anchor-alone (does the update layer add accuracy the market
-hasn't?), (b) simulated totals repricing value on SBD boards. LOYO; owner's
-in-sample concern stands — mitigations: rule frozen at registration, gain form
-chosen from S14-C (already published), leave-2025-out headline. Verdict rules
-registered then, same honesty regime as S1–S14.
+Panel: 2021–25 lines (opener + close both present ~55–60% of rows). Candidate
+situational terms, ALL registered with bars before any outcome is computed,
+each scored vs OPENER (the bet point) and vs CLOSE (the alpha test), LOYO:
+(i) preseason-prior retention mid-season (market overweights recent results?
+— the S14-D wk4–8 report cells are DISCLOSED AS SEEN and non-monotone; bars
+set fresh); (ii) post-blowout overreaction (opponent-adjusted); (iii)
+post-upset-loss bounce; (iv) rest/travel/spot set (bye edge, consecutive road,
+short week, altitude, body-clock); (v) opener→close drift structure (do
+Sunday numbers systematically migrate in predictable directions?). Sobriety
+anchor registered up front: S14-B showed openers already price preseason
+consensus; the null is that books are fine and every cell is ~50%.
 
 ## Data plan
 
@@ -72,9 +88,10 @@ owner wants the 2027 evaluation enabled (cost = his sub + ~10 min/wk; decision
 his, no urgency). Weekly SP+: not needed (Layer 1 substitute). Injury/news:
 researcher layer (me), owner may contribute preferred sources.
 
-## Worth-it criteria (December review)
+## Worth-it criteria (December review; bar RAISED by the 08-01 correction)
 
-In-season build survives to 2027 iff: totals repricing produced ≥3 qualified
-adds or one materially-improved exit, OR the paper side pilot clears its bar,
-OR S16 shows the update layer beats anchor-alone out-of-fold. Otherwise camp 2
-reduces to ratings maintenance for the 2027 preseason build — also a win.
+In-season build survives to 2027 iff: ≥1 S16 situational term passes its
+registered bars (esp. vs close), OR the T2 paper pilot clears ≥55%/n≥50 or
+positive CLV. If both come back empty, camp 2 was ratings maintenance for the
+2027 build and nothing else — the owner accepts that outcome in advance, and
+the build effort is sized accordingly (lean v1, no speculative polish).
