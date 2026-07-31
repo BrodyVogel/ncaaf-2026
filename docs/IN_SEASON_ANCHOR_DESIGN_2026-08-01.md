@@ -166,6 +166,23 @@ expected edge); the S16 registration slot is reassigned to the P1 build
    ritual (Sept 2026 start) is the sole path to a 2027 evaluation — owner's
    call, standing.
 
+5. **Clipping bias, acknowledged and engineered around (owner Q, 2026-08-01).**
+   Known bias of robust filters: conditional on TRUE regime change, clipping
+   under-responds with a consistent sign (toward the prior) and compounds
+   across weeks; a global threshold adds level-dependent stickiness (G5 true
+   swings are larger). Design answer: (i) weekly RE-SMOOTHING makes discounts
+   provisional — corroborated outliers are retroactively un-discounted
+   (two consistent surprises ≈ signal); (ii) SOFT heavy-tailed down-weighting
+   (Student-t observation noise) instead of a hard wall, acting only on
+   residue the per-game σ model doesn't already explain; (iii) saturation
+   escalation: consecutive same-direction binds auto-widen that team's
+   process noise (pre-specified rule); (iv) thresholds in σ units per team
+   (prior width / level), not global points; (v) every bind logged as a
+   Sunday triage trigger + human override. REGISTERED P1 DIAGNOSTIC: does
+   the discounted innovation residue predict the team's subsequent 3-week
+   drift? (predictive → discarding signal, loosen; flat → removing noise,
+   keep) + head-to-head hard-clip / soft-t / no-robustness on held-out loss.
+
 ## What "as good as our preseason anchors" means, measurably
 
 The preseason anchor's virtue is calibrated unbiasedness — it lets the
