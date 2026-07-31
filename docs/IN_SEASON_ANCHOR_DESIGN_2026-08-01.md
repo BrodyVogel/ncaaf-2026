@@ -117,6 +117,55 @@ S16's situational-term slot is SHELVED (owner: expository examples, not
 expected edge); the S16 registration slot is reassigned to the P1 build
 (loss, folds, benchmarks, freeze rules registered before fitting).
 
+## Amendments (2026-08-01, owner design review)
+
+1. **Consensus-in-the-anchor: position REVERSED.** Owner's point accepted:
+   week T−1 closes are information about PAST games, not the week-T prices we
+   bet — ingesting them is what sharps do, and the goal is forecast accuracy,
+   full stop. P1 therefore fits BOTH arms on the same loss: (a) market-blind
+   (prior + performance only) and (b) market-augmented (adds last-week
+   market-implied ratings as an extra measurement with fitted weight). The
+   better forecaster SHIPS as the anchor; the blind arm is COMPUTED AND
+   REPORTED every week regardless, as the attribution reference (the weekly
+   analog of the preseason anchor-vs-residual lens split). Note the expected
+   side effect, which matches the program's intent: a market-augmented anchor
+   hugs the market, so paper-card candidates will be generated almost
+   entirely by the qualitative layer's deltas — the test concentrates
+   exactly where the owner says the edge lives. Weekly SP+ grabs remain
+   unnecessary (market-implied dominates SP+ on accuracy every week,
+   S14-C); owner's offer stands if P1 shows coverage gaps.
+2. **Per-game information weighting (owner: "a game with no fumbles carries
+   more signal").** σ_obs is per-game, not global: fit a noise model on
+   history — residual² regressed on game features (turnover count, garbage
+   share, plays run, weather where known, return-TD/fluke events, blowout
+   starter-pull indicators). Clean 35-10 with no turnovers = low σ; 3-fumble
+   24-21 rock fight = high σ. Partially built-in already: efficiency
+   observations (PPA/success) strip much of the turnover/fluke luck that
+   margins carry; the per-game σ model handles the remainder.
+3. **Robustness vs responsiveness — the answer to "the most dangerous step"
+   (cluster injuries, mid-season scheme reworks).** The mechanical arm is
+   built ROBUST-SLOW: innovation clipping (cap any single game's influence at
+   a fitted bound) protects the state from unmodeled special situations —
+   cluster OL injuries, a bug game, chaos — that no historical flag can
+   catch. The cost is slower response to REAL regime changes (the
+   Indiana-was-real problem). That speed is deliberately delegated to the
+   qualitative layer, which owns two adjudication tools: OVERRIDE-THE-CLIP
+   (this outlier is real — take the full innovation) and REGIME RESET
+   (re-center/widen a team's prior when the world changed: new QB archetype,
+   offense reworked). Mirrors the preseason rig exactly: conservative
+   formula, human adjudication supplies the violence. Historical fitting is
+   protected by the same clip + the QB-modal down-weight + σ_obs inflation;
+   live operation is protected by the dossier patching availability before
+   the number ships.
+4. **Unit/player grades:** exclusion from v1 CONFIRMED (owner: counting
+   stats too noisy, no historical point-in-time PFF exists). The v2 middle
+   path is unit-LEVEL efficiency (pass/rush PPA splits, line yards, sack and
+   havoc rates — all CFBD-derivable historically) which carries unit
+   structure without player grades. Point-in-time player grades will only
+   ever exist if we start capturing them: the optional Sunday PFF snapshot
+   ritual (Sept 2026 start) is the sole path to a 2027 evaluation — owner's
+   call, standing.
+
 ## What "as good as our preseason anchors" means, measurably
 
 The preseason anchor's virtue is calibrated unbiasedness — it lets the
