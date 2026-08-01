@@ -49,3 +49,24 @@ is a calibration signal in its favor.
 Three opponents defaulted to −41 (mid) for lack of a specific read: East Texas A&M, Eastern
 Kentucky, UT Rio Grande Valley (UTRGV is a first-year program). All are heavy road underdogs
 regardless; the default does not create any flagged close game.
+
+## Addendum 2026-08-01 — market-calibration protocol + three re-rates
+
+Owner flag (BGSU/Tarleton market capture) exposed a stale input: Tarleton at
+-27 ("strong") despite a 2025 #6 final ranking / FCS quarterfinal (12-3) and
+Opta preseason #8. Re-rates applied: **Tarleton -27 -> -14** (owner capture
+BGSU -0.5/-1.5 at home implies ~-12..-16; tier -> elite), **Montana State
+-18 -> -15** (defending national champion, Opta #1), **Montana -19 -> -16**
+(Opta #2). Rest of the Opta top 10 checked: table-consistent, unchanged.
+
+**Standing protocol:** as FBS-FCS lines post in August, back out each FCS
+team's market-implied rating vs our rated FBS opponent; any |table - implied|
+>= 6 triggers a research read + adjudicated re-rate. Owner book captures are
+first-class inputs. Note the original "within 10 of FBS host" tripwire was
+sound but ran on the stale input; under the new numbers BGSU-Tarleton (+3.1)
+correctly enters the verified-close-game class.
+
+Board impact (calibrated lens, tracker): BGSU O4.5 our_p .739 -> .703
+(edge +14.8% -> +11.2%) — survives bars; Nevada O4.5 .619 -> .610; OSU O3.5
+.730 -> .722. No other totals touched (only these three FBS teams play the
+re-rated trio).
