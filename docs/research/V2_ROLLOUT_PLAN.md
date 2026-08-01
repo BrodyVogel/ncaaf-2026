@@ -156,11 +156,11 @@ dual-QB) → 320 case reads (68 adjustments ±2-3, 252 confirms); deep band samp
   (pooled two-parameter form, five folds incl. 2025->26) for the 2027 build. v2.3 stands.
 - PARKING LOT (owner, 2026-07-27): (1) artifact cleanup pass incl. full per-bet edge
   decomposition into macro/consensus/idiosyncratic components (machinery exists from the
-  07-27 anchor-lens analysis; wire into HTML). (2) Week-to-week rating-update protocol
+  07-27 anchor-lens analysis; wire into HTML). (2) [CLEARED 2026-08-01 — resolved by SINGLE_GAME_PROGRAM + B1/B2 builds; no PFF needed for v1] Week-to-week rating-update protocol
   design talk — decide feasibility BEFORE any bulk historical PFF pull (the update rule
-  determines the data need; a results-based update layer may need none). (3) Owner may
+  determines the data need; a results-based update layer may need none). (3) [CLEARED 2026-08-01 — SBD 2022-24 sourced and used by S7/S12/S13] Owner may
   source historical preseason win-total boards 2021-24 — unlocks the multi-year totals
-  kill-test (single-season 2025 evidence today). (4) Weekly point-in-time SP+ collection:
+  kill-test (single-season 2025 evidence today). (4) [CLEARED 2026-08-01 — B1 proved market-implied substitute empirically] Weekly point-in-time SP+ collection:
   parked — CFBD pregame Elo (already in our game pulls) + market-implied weekly ratings
   from closing spreads cover the backtest need more cheaply.
 - PARKING LOT additions (owner, 2026-08-01): (5) **Evidence-class tagging** for
