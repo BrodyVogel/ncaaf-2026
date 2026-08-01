@@ -163,3 +163,21 @@ dual-QB) → 320 case reads (68 adjustments ±2-3, 252 confirms); deep band samp
   kill-test (single-season 2025 evidence today). (4) Weekly point-in-time SP+ collection:
   parked — CFBD pregame Elo (already in our game pulls) + market-implied weekly ratings
   from closing spreads cover the backtest need more cheaply.
+- PARKING LOT additions (owner, 2026-08-01): (5) **Evidence-class tagging** for
+  qualitative grade inputs (taxonomy: mag-consensus, all-conference honors, camp
+  report, beat-news, transfer-pedigree, tape-graded, coach-quote, May-print) so
+  December scoring can decompose grade errors BY evidence class and calibrate source
+  reliability (owner hypothesis to test: mags/news systematically overrate no-tape
+  P4 arrivals — the S10 down-transfer shape, generalized). ACTION NOW: all camp-sweep-2
+  and later adjudication rows carry an evidence-class tag in the reason field; history
+  is partially retro-taggable from existing source conventions (Athlon/P6/research/
+  May-print). (6) **Finer-than-G5/P4 conditioning** for fitted parameters (k-table,
+  posmean, jump term): owner notes the Georgia-vs-Purdue gulf inside P4. Preferred
+  reformulation: CONTINUOUS conditioning on consensus rating rather than a third
+  categorical tier (Top-10 = n=10/yr, unfittable without heavy shrinkage). 2027
+  registry item. (7) **Counter-steam study**: are we -EV betting opposite heavy
+  win-total line moves (UConn 6.5 -> 5.5 shaded under while we hold the over)?
+  Testable now on the 2025 open->near-close panel (movement direction vs settlement),
+  properly in December with 2026 CLV data. Interim policy: the committed screen's
+  Liberty doctrine (no ADDS against >=0.5 moves) already covers new bets; holds
+  unaffected pending evidence.
