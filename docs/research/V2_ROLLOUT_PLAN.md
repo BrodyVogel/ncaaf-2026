@@ -180,4 +180,15 @@ dual-QB) → 320 case reads (68 adjustments ±2-3, 252 confirms); deep band samp
   Testable now on the 2025 open->near-close panel (movement direction vs settlement),
   properly in December with 2026 CLV data. Interim policy: the committed screen's
   Liberty doctrine (no ADDS against >=0.5 moves) already covers new bets; holds
-  unaffected pending evidence.
+  unaffected pending evidence. (8) **Per-team social source network** (owner offer,
+  2026-08-01: X + Reddit APIs): curated follow list per FBS team (beat writers,
+  practice observers, credentialed locals) + general-analyst list. Value thesis:
+  the collection layer for exactly the information B2-N6 proved the market's early
+  edge consists of (current-week availability/depth news), plus faster camp sweeps
+  and roster hygiene (the May-print class). Alpha concentrated in LOW-ATTENTION
+  teams; headline news is priced in minutes. "Good" defined operationally:
+  proximity + specificity heuristics to seed, then per-source RESOLUTION SCORES
+  (logged claims vs outcomes, riding the evidence-class taxonomy of item 5) to
+  promote/demote. PHASED: Tier-1 = ~30 book-relevant teams + analyst list;
+  full-field only if the T2 paper year validates delta cards. Blocked on owner
+  API provisioning; weekly scripted pulls at the Sunday cadence.
