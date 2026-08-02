@@ -70,3 +70,33 @@ units), fall back to delta = w_share × (curve − shipped) with w_share vs
 the unit's k-mass at shipped grade. The 18 numeric cases keep the original
 mechanism. Sanity gate re-stated for the full cohort: abort on >10% of
 UNITS beyond ±8 pre-cap or a one-directional degenerate distribution.
+
+## AMENDMENT 1 RESULT: SANITY GATE FIRED — INTEGRATION ABORTED, ZERO ROWS WRITTEN (2026-08-02)
+
+Full-cohort run: mean delta +29.6, 87.2% beyond ±8, direction 204-up/8-down
+— both registered abort conditions triggered. ROOT CAUSE (diagnosed): scale
+incommensurability. Dossier player numbers and S17 curve grades live on the
+PFF player-grade scale (~40–75); shipped unit grades live on the v2
+PERCENTILE-mapped 0–100 unit scale (weak G5 units legitimately sit 8–30).
+Amendment 1's recompute compared across the two scales without the v2
+percentile bridge, manufacturing +30-to-+200 phantom deltas. The n=18
+numeric mechanism shares a milder version of the same defect (player-point
+deltas applied to percentile-scale grades without the local Jacobian) — its
+two RB flags remain directionally interesting but magnitudes unreliable.
+
+**Process note: the pre-registered gate did exactly its job — a same-turn
+"just integrate it" would have shipped ~+30 grade pts of nonsense across
+150 units.**
+
+## AMENDMENT 2 (spec direction, to be registered fully before the next run)
+
+The 2026 integration REQUIRES the real v2 bridge: inject curve grades (with
+FCS snaps as volume) into the proforma machinery (player aggregate →
+national percentile → unit scale) and diff the resulting FORMULA unit
+numbers against shipped grades — deltas then live on the correct scale and
+the standard dg/adjudication conventions apply natively. This is the
+"formula-arm rewiring" originally deferred to 2027; scale-correctness makes
+it the 2026 requirement too. Next block: read proforma_v2.py's aggregation
+path, register the injection spec (volume convention, percentile pool
+vintage, dg threshold reuse), rerun the shadow on the correct scale, THEN
+integrate per the original rules. Board unchanged until then.
