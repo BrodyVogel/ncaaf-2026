@@ -100,3 +100,29 @@ it the 2026 requirement too. Next block: read proforma_v2.py's aggregation
 path, register the injection spec (volume convention, percentile pool
 vintage, dg threshold reuse), rerun the shadow on the correct scale, THEN
 integrate per the original rules. Board unchanged until then.
+
+## AMENDMENT 2 FINAL SPEC (2026-08-02, registered before the run)
+
+Confirmed from proforma_v2.py: FCS entrants fall to the unmatched bucket —
+the formula arm literally does not see them. Injection mechanism (native
+scale, no new constants):
+
+- Entrant's player-scale projection: **v2_ent = curve + OFF[unit][dest_conf]**
+  — the S17 curve already performs BOTH the shrink (slope 0.339 is the
+  fitted attenuation) and the class translation (intercept), so NO w(n)
+  re-shrink and NO jump term (either would double-count); the destination-
+  conference offset is added for scale comparability with the other
+  players' v2 values, exactly as proforma does for everyone.
+- Slot weight 1.0/0.33 as for all players; recompute unit aggregates WITH
+  entrants; re-rank percentiles across the same 138-team field, same
+  method. Δpct = injected_pct − original_pct (formula-vs-formula, both on
+  the unit percentile scale).
+- Transmission to shipped grades via the STANDARD sweep blend weights
+  (DB 1/3, LB 0.40, others 0.50): new_grade = shipped + blend×Δpct,
+  row threshold |blend×Δpct| ≥ 2, cap ±8, confidence unchanged.
+- GUARD: if find_row already matched the entrant's name in the spine
+  (false-identity risk, S16-audit class), skip injection and flag for
+  manual read.
+- SANITY GATE: abort if >10% of affected units move >8 post-blend pre-cap,
+  or >90% single-direction. (Up-skew is EXPECTED — invisible contributors
+  becoming visible mostly helps weak units — but not degeneracy.)
