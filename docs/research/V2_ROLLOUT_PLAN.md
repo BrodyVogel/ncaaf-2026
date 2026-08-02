@@ -191,4 +191,17 @@ dual-QB) → 320 case reads (68 adjustments ±2-3, 252 confirms); deep band samp
   (logged claims vs outcomes, riding the evidence-class taxonomy of item 5) to
   promote/demote. PHASED: Tier-1 = ~30 book-relevant teams + analyst list;
   full-field only if the T2 paper year validates delta cards. Blocked on owner
-  API provisioning; weekly scripted pulls at the Sunday cadence.
+  API provisioning; weekly scripted pulls at the Sunday cadence. (9) **Sub-FBS up-transfer
+  forecasting** (owner, 2026-08-02): FCS/D2/JuCo/NAIA entrants carry v1
+  qualitative brackets only — no tape-based mechanical arm. Census: 313
+  two-deep players on G5 teams carry sub-FBS markers (131 PROJECTED STARTERS;
+  34 of 63 G5 teams have >=4; heaviest UTEP 16, Buffalo 14, UMass 14,
+  Wyoming 14). P4: 114/35. Owner thesis: accurate FBS translation of these
+  players = large G5 edge. Phased design: (a) PFF covers FCS — check data
+  access for FCS grades (the S16 machinery then extends directly: FCS->FBS
+  pairs with tape both sides, continuous-gap form; expect a LARGE negative
+  context term); (b) D2/JuCo have stats-only (messy) — dossier-bracket
+  calibration study instead (score the v1 brackets' historical hit rate if
+  reconstructible, else start logging now for 2027); (c) December: score the
+  2026 brackets vs realized play as the first calibration point. 2027 build
+  candidate alongside S16's continuous jumps.

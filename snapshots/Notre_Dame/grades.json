@@ -3,7 +3,7 @@
  "units": {
   "QB": {
    "grade": 84,
-   "confidence": "M",
+   "confidence": "H",
    "v1_grade": 86,
    "adjudication": "partial blend: IND-fix: v2_pct 89.6, dg-9.6 vs P4 pool; Carr 85.1/317 at w-cap; FR-backup drag partly artifact"
   },
@@ -19,7 +19,7 @@
   },
   "OL": {
    "grade": 74,
-   "confidence": "M",
+   "confidence": "H",
    "v1_grade": 78,
    "adjudication": "partial blend: dg-13.3; PFF individuals lukewarm (only Knapp >65), C recovering, FR LT; PickSix unit-level override partly retained"
   },

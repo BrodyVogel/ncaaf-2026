@@ -3,7 +3,7 @@
  "units": {
   "QB": {
    "grade": 44,
-   "confidence": "M",
+   "confidence": "L",
    "v1_grade": 42,
    "adjudication": "re-read adjudication: RE-READ: SOLO+STALE24 (2024 tape, off ACL); quarter blend only; policy had 49"
   },
@@ -13,7 +13,7 @@
   },
   "WRTE": {
    "grade": 45,
-   "confidence": "M",
+   "confidence": "L",
    "v1_grade": 44,
    "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },

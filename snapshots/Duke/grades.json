@@ -15,7 +15,7 @@
   },
   "WRTE": {
    "grade": 52,
-   "confidence": "M",
+   "confidence": "L",
    "v1_grade": 48,
    "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
@@ -33,7 +33,7 @@
   },
   "DB": {
    "grade": 44,
-   "confidence": "M",
+   "confidence": "L",
    "v1_grade": 46,
    "adjudication": "accept-pass adjust: ACCEPT-REVIEW (BAND): start-10.6; mid tapes + lost Rivers; was accept 46"
   },

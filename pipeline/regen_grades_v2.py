@@ -33,7 +33,10 @@ for gpath in sorted(glob.glob('snapshots/*/grades.json')):
             d['grade'] = f
             n_changed += 1
         if grade_chg or conf_chg:      # conf-only rows must apply too (fix 2026-07-27)
-            if conf and conf != '-': d['confidence'] = conf
+            # AUDIT D5 (2026-08-02, owner-approved): confidence applies ONLY on explicit
+            # 'conf X->Y' direction (regex above) — grade-changing sweep/re-read rows carry
+            # incidental conf values that silently overwrote 46 dossier letters (38 L->M, 8 H->M).
+            if conf_chg: d['confidence'] = conf
             d['adjudication'] = f"{reason}: {note[:160]}"
     g.setdefault('_meta', {})['vintage'] = 'v2 2026-07'
     g['_meta']['adjudication_log'] = 'data/research/adjudication_v2.csv'

@@ -3,7 +3,7 @@
  "units": {
   "QB": {
    "grade": 27,
-   "confidence": "M",
+   "confidence": "L",
    "v1_grade": 24,
    "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
@@ -17,7 +17,7 @@
   },
   "OL": {
    "grade": 24,
-   "confidence": "M",
+   "confidence": "L",
    "v1_grade": 16,
    "adjudication": "blend logged; override remains operative: dg+15; NOTE team rating override-pinned at -9.0"
   },

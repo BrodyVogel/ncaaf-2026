@@ -3,7 +3,7 @@
  "units": {
   "QB": {
    "grade": 56,
-   "confidence": "M",
+   "confidence": "L",
    "v1_grade": 52,
    "adjudication": "re-read adjudication: RE-READ: formula's proper shrink vs dossier's ad-hoc down-weight; keep most, -2 for part-time sample; policy had 58"
   },
@@ -13,7 +13,7 @@
   },
   "WRTE": {
    "grade": 42,
-   "confidence": "M",
+   "confidence": "L",
    "v1_grade": 44,
    "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): start-14.1; mid G5 reload; was accept 44"
   },

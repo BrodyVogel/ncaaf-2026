@@ -66,12 +66,15 @@ def ols(X, y):
     return b, y - X @ b
 
 
-def match_spread(x, target):
+def match_spread(x, target, mask=None):
     """Rescale x to the standard deviation of `target`, preserving x's mean. OLS fitted values
     are shrunk toward the mean by ~sqrt(R^2); this un-shrinks the grade signal onto the anchor's
-    scale before it is blended. Mean-preserving — changes spread, never the field's center."""
-    mx = float(x.mean()); sx = float(x.std())
-    return x.copy() if sx < 1e-9 else mx + (x - mx) * (float(target.std()) / sx)
+    scale before it is blended. Mean-preserving — changes spread, never the field's center.
+    AUDIT D2 (2026-08-02): scale statistics computed on `mask` rows (reliable teams) only."""
+    xm = x if mask is None else x[mask]
+    tm = target if mask is None else target[mask]
+    mx = float(xm.mean()); sx = float(xm.std())
+    return x.copy() if sx < 1e-9 else mx + (x - mx) * (float(tm.std()) / sx)
 
 
 def load_field():
@@ -107,12 +110,21 @@ def main():
     rows, cps = load_field()
     n = len(rows); ones = np.ones(n)
 
-    # ---- 1. REFIT the conversion on all 138 real grades (OLS with intercept) ----
+    # AUDIT D2 (2026-08-02, owner-approved): teams on the manual-override list carry
+    # grades we declared unreliable; they are excluded from EVERY fit (conversion OLS,
+    # un-shrink scale, strip regression, recenter mean) — they still receive predictions
+    # and their finals are overridden downstream. Mirrors the 07-23 demeaning-pool fix.
+    _ovr_fit = set()
+    if "--no-overrides" not in sys.argv and os.path.exists("data/manual_overrides_2026.csv"):
+        _ovr_fit = {orow["team"] for orow in csv.DictReader(open("data/manual_overrides_2026.csv"))}
+    vote = np.array([r["name"] not in _ovr_fit for r in rows])
+
+    # ---- 1. REFIT the conversion on the 133 reliable real grades (OLS with intercept) ----
     Xo = np.column_stack([ones] + [np.array([r["g"][u] for r in rows]) for u in OFF])
     Xd = np.column_stack([ones] + [np.array([r["g"][u] for r in rows]) for u in DEF])
     yo = np.array([r["off"] for r in rows]); yd = np.array([r["dfn"] for r in rows])
-    bo, ro = ols(Xo, yo); bd, rd = ols(Xd, yd)
-    r2o = 1 - ro.var() / yo.var(); r2d = 1 - rd.var() / yd.var()
+    bo, ro = ols(Xo[vote], yo[vote]); bd, rd = ols(Xd[vote], yd[vote])
+    r2o = 1 - ro.var() / yo[vote].var(); r2d = 1 - rd.var() / yd[vote].var()
     implied_off = Xo @ bo; implied_def = Xd @ bd
 
     # ---- 1b. De-compress the grade signal, step 1: un-shrink the OLS fit ----
@@ -120,8 +132,8 @@ def main():
     # spread, def R2~0.49 -> ~70%). Inflate each fitted side back onto the anchor's (fair) scale.
     decompress = "--no-decompress" not in sys.argv   # de-compress the grade signal (2026-07-19)
     if decompress:
-        implied_off = match_spread(implied_off, yo)
-        implied_def = match_spread(implied_def, yd)
+        implied_off = match_spread(implied_off, yo, mask=vote)   # AUDIT D2: scale fit on reliable rows
+        implied_def = match_spread(implied_def, yd, mask=vote)
 
     # ---- 2. Residual, adjustment, assembly (frozen formula) ----
     resid = (implied_off - yo) - (implied_def - yd)          # + = grades warmer than anchor
@@ -130,24 +142,27 @@ def main():
     # Before this fix their junk residuals still voted in the conference means, spuriously
     # boosting innocent pool-mates (+0.33 MW, +0.54 Pac-12, +0.25 CUSA). Exclude them from every
     # demeaning pool; their own finals are overridden downstream anyway.
-    _ovr_names = set()
-    if "--no-overrides" not in sys.argv and os.path.exists("data/manual_overrides_2026.csv"):
-        _ovr_names = {orow["team"] for orow in csv.DictReader(open("data/manual_overrides_2026.csv"))}
-    conf_mean = {}
-    for r, rs in zip(rows, resid):
-        if r["name"] in _ovr_names:
-            continue
-        conf_mean.setdefault(r["conf"], []).append(float(rs))
-    conf_mean = {c: float(np.mean(v)) for c, v in conf_mean.items()}
-    # pseudo-pools for the 2 Independents: ND -> all-P4 mean, UConn -> all-G5 mean
-    p4_mean = float(np.mean([rs for r, rs in zip(rows, resid) if r["p4"] and r["name"] not in _ovr_names]))
-    g5_mean = float(np.mean([rs for r, rs in zip(rows, resid) if not r["p4"] and r["name"] not in _ovr_names]))
-    def demean_ref(r):
-        if r["conf"] == "FBS Independents":
-            return p4_mean if r["p4"] else g5_mean
-        return conf_mean[r["conf"]]
-    refs = np.array([demean_ref(r) for r in rows])
-    if demean:  # OFFICIAL: keep only within-pool roster shape
+    _ovr_names = _ovr_fit
+
+    def pool_refs(vec):
+        """Within-pool means (override teams excluded from pools; Independents pseudo-pooled)."""
+        cm = {}
+        for r, rs in zip(rows, vec):
+            if r["name"] in _ovr_names:
+                continue
+            cm.setdefault(r["conf"], []).append(float(rs))
+        cm = {c: float(np.mean(v)) for c, v in cm.items()}
+        p4m = float(np.mean([rs for r, rs in zip(rows, vec) if r["p4"] and r["name"] not in _ovr_names]))
+        g5m = float(np.mean([rs for r, rs in zip(rows, vec) if not r["p4"] and r["name"] not in _ovr_names]))
+        out = []
+        for r in rows:
+            if r["conf"] == "FBS Independents":
+                out.append(p4m if r["p4"] else g5m)
+            else:
+                out.append(cm[r["conf"]])
+        return np.array(out), cm, p4m, g5m
+    refs, conf_mean, p4_mean, g5_mean = pool_refs(resid)
+    if demean and not decompress:  # single demean (comparison modes)
         resid = resid - refs
     if decompress:
         # De-compress step 2: remove the part of the grade residual that is linear in team
@@ -161,15 +176,34 @@ def main():
         # vs the pre-fix ordering. --no-decompress reproduces the pre-fix (compressed) formula.
         ancv = np.array([r["blend"] for r in rows])
         Aq = np.column_stack([np.ones(n), ancv])
-        cq, _ = ols(Aq, resid)
-        resid = resid - Aq @ cq
+        if demean:
+            # AUDIT D1 (2026-08-02, owner-approved): sequential demean-then-strip re-inserted
+            # conference means through the level fit (verified +0.56 SEC / -0.50 CUSA tilt xK).
+            # Alternate the two projections to their JOINT fixed point: the shipped residual is
+            # orthogonal to the demeaning pools AND the anchor level simultaneously.
+            for _ in range(20):
+                prev = resid.copy()
+                rf, conf_mean, p4_mean, g5_mean = pool_refs(resid)
+                resid = resid - rf
+                cq, _ = ols(Aq[vote], resid[vote])      # AUDIT D2: strip fit on reliable rows
+                resid = resid - Aq @ cq
+                if float(np.abs(resid - prev).max()) < 1e-9:
+                    break
+        else:
+            cq, _ = ols(Aq[vote], resid[vote])
+            resid = resid - Aq @ cq
     adj = np.clip(K * resid, -CAP, CAP)
     cls = np.array([-cps if r["p4"] else cps for r in rows])  # 0.0 in this run
     stv = np.array([(r["g"]["ST"] - 50) / 50 * 1.0 for r in rows])
+    if demean:
+        # AUDIT D3 (2026-08-02, owner-approved): ST was the one channel bypassing demeaning
+        # (conference ST-grade means span ~16..54 => a hidden +0.29 P4-G5 level term).
+        st_refs, _, _, _ = pool_refs(stv)
+        stv = stv - st_refs
     final_raw = np.array([r["blend"] for r in rows]) + cls + adj + stv
 
     # ---- 3. One consistent recenter over the full real field ----
-    shift = float(final_raw.mean())
+    shift = float(final_raw[vote].mean())   # AUDIT D2: recenter on reliable rows
     final = final_raw - shift
 
     # ---- 3b. Manual overrides for grade-unreliable teams (owner decision 2026-07-20) ----

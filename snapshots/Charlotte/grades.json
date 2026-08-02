@@ -19,7 +19,7 @@
   },
   "DL": {
    "grade": 18,
-   "confidence": "M",
+   "confidence": "L",
    "v1_grade": 14,
    "adjudication": "re-read adjudication: RE-READ: floor-squeeze discount; matched tape says low-not-14; policy had 21"
   },
@@ -29,7 +29,7 @@
   },
   "DB": {
    "grade": 22,
-   "confidence": "M",
+   "confidence": "L",
    "v1_grade": 20,
    "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },

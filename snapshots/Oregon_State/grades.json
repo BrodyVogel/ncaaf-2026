@@ -3,7 +3,7 @@
  "units": {
   "QB": {
    "grade": 31,
-   "confidence": "L",
+   "confidence": "M",
    "v1_grade": 34,
    "adjudication": "split; dossier already flagged optimism: dg-10"
   },
@@ -19,7 +19,7 @@
   },
   "OL": {
    "grade": 22,
-   "confidence": "M",
+   "confidence": "L",
    "v1_grade": 24,
    "adjudication": "accept-pass adjust: ACCEPT-REVIEW (FLAG): rank-53; Timoteo 38.3 + FCS tackles; was accept 24"
   },
