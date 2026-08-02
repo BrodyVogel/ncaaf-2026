@@ -62,3 +62,12 @@ note CLV targets for the August 26 closing-board capture.
   is a registered TIE-BREAKER among qualifying legs and a ±0.25-win nudge on the
   gap ONLY for choosing the 0.15/0.20/0.25u stake tier. It does not qualify or
   disqualify legs; the qualifying consensus gap remains raw.
+
+## AMENDMENT 2 (2026-08-02, owner-approved — F5, licensed by S18 A+B PASS)
+
+- **F5 FCS-influx alignment** (2026 = frozen s18_fcs2026.csv): among
+  QUALIFYING legs, top-quartile Q aligned with the OVER = tie-breaker among
+  legs and a one-tier sizing nudge (same license shape as Amendment 1's rp).
+  Low Q is NEUTRAL — positive-tail factor, never a fade signal. A 3+
+  same-origin FCS cluster on a candidate team (S18-F, +3.0 dose) is card
+  color supporting the nudge. Qualification bars remain RAW and untouched.
