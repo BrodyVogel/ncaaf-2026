@@ -71,3 +71,13 @@ note CLV targets for the August 26 closing-board capture.
   Low Q is NEUTRAL — positive-tail factor, never a fade signal. A 3+
   same-origin FCS cluster on a candidate team (S18-F, +3.0 dose) is card
   color supporting the nudge. Qualification bars remain RAW and untouched.
+
+## AMENDMENT 3 (2026-08-02, owner-approved — bounded F5 pilot lane)
+
+- At most **2 F5-led legs**, 0.15u each: requirements = top-DECILE 2026 Q
+  (s18_fcs2026.csv), N ≥ 15 FCS intake, same-origin cluster present
+  (clust_max ≥ 2), cal-lens ≥ +2.5% at the available number; the consensus-
+  gap requirement is WAIVED for this lane only. Explicitly a live pilot:
+  December scoring of these legs + the frozen table = F5's promotion exam
+  (full eligibility lane in 2027 rules requires it). Mirage cost bounded at
+  0.30u.
