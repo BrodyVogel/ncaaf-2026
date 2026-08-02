@@ -2,8 +2,10 @@
  "team": "Louisville",
  "units": {
   "QB": {
-   "grade": 46,
-   "confidence": "L"
+   "grade": 43,
+   "confidence": "L",
+   "v1_grade": 46,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Davin Wydner curve 65; formula dpct -5.6"
   },
   "RB": {
    "grade": 72,

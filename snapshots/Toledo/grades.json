@@ -18,8 +18,10 @@
    "confidence": "M"
   },
   "DL": {
-   "grade": 18,
-   "confidence": "M"
+   "grade": 22,
+   "confidence": "M",
+   "v1_grade": 18,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Andrew Zock curve 72; formula dpct +9.0"
   },
   "LB": {
    "grade": 16,

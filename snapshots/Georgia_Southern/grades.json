@@ -26,16 +26,16 @@
    "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
   },
   "LB": {
-   "grade": 38,
+   "grade": 41,
    "confidence": "M",
    "v1_grade": 40,
-   "adjudication": "re-read adjudication: RE-READ: solo-matched (Tyson); halve; policy had 36"
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.4 x dpct, capped: S17 curve via proforma bridge: Rashon Myles Jr. curve 70; formula dpct +7.4"
   },
   "DB": {
-   "grade": 39,
+   "grade": 37,
    "confidence": "M",
    "v1_grade": 42,
-   "adjudication": "re-read confirm: RE-READ: dossier+formula evidence reviewed; policy verdict confirmed"
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.3333333333333333 x dpct, capped: S17 curve via proforma bridge: Aaron Sears curve 63; formula dpct -7.3"
   },
   "ST": {
    "grade": 42,

@@ -2,10 +2,10 @@
  "team": "Georgia State",
  "units": {
   "QB": {
-   "grade": 56,
+   "grade": 53,
    "confidence": "M",
    "v1_grade": 48,
-   "adjudication": "50/50 cap 8: dg+24; QB formula moderately informative"
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Ayden Pereira curve 68; formula dpct -6.4"
   },
   "RB": {
    "grade": 40,
@@ -34,8 +34,10 @@
    "confidence": "M"
   },
   "DB": {
-   "grade": 40,
-   "confidence": "M"
+   "grade": 36,
+   "confidence": "M",
+   "v1_grade": 40,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.3333333333333333 x dpct, capped: S17 curve via proforma bridge: Tre Mittman curve 61; formula dpct -10.9"
   },
   "ST": {
    "grade": 40,

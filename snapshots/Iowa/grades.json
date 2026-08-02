@@ -12,8 +12,10 @@
    "adjudication": "re-read adjudication: RE-READ: Moulton 78.9 value high; squeeze; halve; policy had 65"
   },
   "WRTE": {
-   "grade": 42,
-   "confidence": "M"
+   "grade": 45,
+   "confidence": "M",
+   "v1_grade": 42,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Tony Diaz curve 68; Evan James curve 70; formula dpct +6.7"
   },
   "OL": {
    "grade": 87,

@@ -14,8 +14,10 @@
    "confidence": "M"
   },
   "OL": {
-   "grade": 18,
-   "confidence": "L"
+   "grade": 21,
+   "confidence": "L",
+   "v1_grade": 18,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Nic Cruji curve 64; formula dpct +6.8"
   },
   "DL": {
    "grade": 18,

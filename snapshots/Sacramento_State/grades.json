@@ -6,8 +6,10 @@
    "confidence": "L"
   },
   "RB": {
-   "grade": 14,
-   "confidence": "L"
+   "grade": 11,
+   "confidence": "L",
+   "v1_grade": 14,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Davion Godley curve 69; formula dpct -5.1"
   },
   "WRTE": {
    "grade": 12,
@@ -28,8 +30,10 @@
    "confidence": "M"
   },
   "DB": {
-   "grade": 10,
-   "confidence": "L"
+   "grade": 5,
+   "confidence": "L",
+   "v1_grade": 10,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.3333333333333333 x dpct, capped: S17 curve via proforma bridge: Malikai Nichols curve 57; formula dpct -16.1"
   },
   "ST": {
    "grade": 22,

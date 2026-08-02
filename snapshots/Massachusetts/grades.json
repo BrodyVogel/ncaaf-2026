@@ -2,8 +2,10 @@
  "team": "Massachusetts",
  "units": {
   "QB": {
-   "grade": 22,
-   "confidence": "L"
+   "grade": 20,
+   "confidence": "L",
+   "v1_grade": 22,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Logan Inagawa curve 65; formula dpct -4.0"
   },
   "RB": {
    "grade": 12,

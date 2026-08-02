@@ -12,8 +12,10 @@
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 38,
-   "confidence": "L"
+   "grade": 46,
+   "confidence": "L",
+   "v1_grade": 38,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Chris Lofton curve 70; formula dpct +35.8"
   },
   "OL": {
    "grade": 44,

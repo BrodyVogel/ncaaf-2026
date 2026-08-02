@@ -2,8 +2,10 @@
  "team": "Ohio",
  "units": {
   "QB": {
-   "grade": 22,
-   "confidence": "L"
+   "grade": 24,
+   "confidence": "L",
+   "v1_grade": 22,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Matt Vezza curve 71; formula dpct +4.8"
   },
   "RB": {
    "grade": 20,
@@ -26,8 +28,10 @@
    "confidence": "M"
   },
   "DB": {
-   "grade": 22,
-   "confidence": "M"
+   "grade": 27,
+   "confidence": "M",
+   "v1_grade": 22,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.3333333333333333 x dpct, capped: S17 curve via proforma bridge: Darren James-Hamilton curve 66; Barry Dillon curve 65; KJ Sejour curve 67; Eli Thompson curve 68; formula dpct +16.1"
   },
   "ST": {
    "grade": 24,

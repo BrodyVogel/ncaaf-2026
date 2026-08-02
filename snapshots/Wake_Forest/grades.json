@@ -8,8 +8,10 @@
    "adjudication": "re-read adjudication: RE-READ: solo-positive; halve; policy had 58"
   },
   "RB": {
-   "grade": 46,
-   "confidence": "L"
+   "grade": 41,
+   "confidence": "L",
+   "v1_grade": 46,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Sawyer Seidl curve 65; formula dpct -10.3"
   },
   "WRTE": {
    "grade": 42,

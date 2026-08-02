@@ -2,8 +2,10 @@
  "team": "UTEP",
  "units": {
   "QB": {
-   "grade": 16,
-   "confidence": "L"
+   "grade": 13,
+   "confidence": "L",
+   "v1_grade": 16,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Raymond Moore III curve 62; formula dpct -5.6"
   },
   "RB": {
    "grade": 14,

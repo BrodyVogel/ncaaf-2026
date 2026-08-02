@@ -6,8 +6,10 @@
    "confidence": "L"
   },
   "RB": {
-   "grade": 16,
-   "confidence": "M"
+   "grade": 13,
+   "confidence": "M",
+   "v1_grade": 16,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Nyeoti Punni curve 64; formula dpct -5.1"
   },
   "WRTE": {
    "grade": 12,

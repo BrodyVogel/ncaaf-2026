@@ -2,8 +2,10 @@
  "team": "New Mexico State",
  "units": {
   "QB": {
-   "grade": 40,
-   "confidence": "L"
+   "grade": 42,
+   "confidence": "L",
+   "v1_grade": 40,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Trey Hedden curve 68; formula dpct +4.0"
   },
   "RB": {
    "grade": 38,

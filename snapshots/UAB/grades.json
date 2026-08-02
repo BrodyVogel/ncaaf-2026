@@ -22,8 +22,10 @@
    "confidence": "M"
   },
   "DL": {
-   "grade": 16,
-   "confidence": "L"
+   "grade": 18,
+   "confidence": "L",
+   "v1_grade": 16,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Blanche Gold curve 68; formula dpct +4.5"
   },
   "LB": {
    "grade": 25,

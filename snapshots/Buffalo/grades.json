@@ -22,12 +22,16 @@
    "confidence": "M"
   },
   "LB": {
-   "grade": 12,
-   "confidence": "L"
+   "grade": 15,
+   "confidence": "L",
+   "v1_grade": 12,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.4 x dpct, capped: S17 curve via proforma bridge: Joey Cheshire curve 64; formula dpct +6.7"
   },
   "DB": {
-   "grade": 42,
-   "confidence": "M"
+   "grade": 40,
+   "confidence": "M",
+   "v1_grade": 42,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.3333333333333333 x dpct, capped: S17 curve via proforma bridge: Sayre Smothers curve 62; formula dpct -7.3"
   },
   "ST": {
    "grade": 22,

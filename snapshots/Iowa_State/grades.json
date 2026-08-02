@@ -10,8 +10,10 @@
    "confidence": "M"
   },
   "WRTE": {
-   "grade": 40,
-   "confidence": "L"
+   "grade": 46,
+   "confidence": "L",
+   "v1_grade": 40,
+   "adjudication": "B4-A2 FCS-curve integration 2026-08-02 \u2014 systematic per registration; blend 0.5 x dpct, capped: S17 curve via proforma bridge: Cody Jackson curve 68; formula dpct +11.9"
   },
   "OL": {
    "grade": 32,
