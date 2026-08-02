@@ -50,3 +50,23 @@ unmatched keep brackets and join the December control group.
 2027: full formula-arm rewiring (curve grades enter proforma/percentile
 machinery natively) — registered build candidate alongside S16 continuous
 jumps; this B4 is the 2026 production expression via adjudication rows.
+
+## AMENDMENT 1 (2026-08-02, pre-integration — registered before the full run)
+
+Shadow finding: the registered delta mechanism assumed dossier lines carry
+numeric grades for FCS entrants; they do for only 18 of 218 (the class was
+graded in prose — the owner's "vibes" description was literal). The n=18
+computable slice: mean +1.07, two-directional, two RB units at +8 (real
+under-credits on elite-FCS workhorses, not construction error — the >=8
+sanity clause's intent was pathology; distribution shape is consistent
+with S17's compressive curve). REGISTERED REPLACEMENT MECHANISM for
+no-number entrants: recompute the unit as the w(n)-weighted mean of the
+dossier's LISTED tape players plus the entrant at (curve grade, 2025 FCS
+snaps); delta = recomputed − shipped unit grade. Same |delta| >= 2 row
+threshold, same ±8 cap, same conf-unchanged convention. Interpretation:
+"if the entrant plays to curve at his volume, the unit computes to X; the
+human shipped Y." Where a unit has NO listed tape players (total rebuild
+units), fall back to delta = w_share × (curve − shipped) with w_share vs
+the unit's k-mass at shipped grade. The 18 numeric cases keep the original
+mechanism. Sanity gate re-stated for the full cohort: abort on >10% of
+UNITS beyond ±8 pre-cap or a one-directional degenerate distribution.
