@@ -50,7 +50,7 @@ def cover(fair, s, side):
     return ph if side == 'home' else 1 - ph
 
 rows = []
-for g in json.load(open('/tmp/lines2026.json')):
+for g in json.load(open('data/cfbd/lines/lines_2026_probe_2026-07-31.json')):
     if not g['lines']: continue
     th, ta = team(g['homeTeam']), team(g['awayTeam'])
     if th is None or ta is None: continue

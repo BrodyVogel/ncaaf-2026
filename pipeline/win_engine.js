@@ -123,7 +123,10 @@
   function americanToDecimal(a) { return 1.0 + (a > 0 ? a / 100.0 : 100.0 / (-a)); }
   function underFromOver(over, cents) {
     cents = cents == null ? 30 : cents;
-    return over < 0 ? (-over - cents) : -(over + cents);
+    // AUDIT FIX 2026-08-02: correct +/-100 ladder crossing (-105 <-> -125)
+    if (over <= -(100 + cents)) return -over - cents;
+    if (over < 0) return -((200 + cents) - Math.abs(over));
+    return -(over + cents);
   }
 
   var api = { makeEngine: makeEngine, phi: phi, erf: erf, erfc: erfc, ndtr: ndtr,

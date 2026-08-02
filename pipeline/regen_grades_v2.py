@@ -29,7 +29,7 @@ for gpath in sorted(glob.glob('snapshots/*/grades.json')):
         conf_chg = (bool(conf) and conf != '-' and conf != d.get('confidence')
                     and re.search(r'conf [LMH]->[LMH]', reason))
         if grade_chg:
-            d['v1_grade'] = d['grade']
+            d.setdefault('v1_grade', d['grade'])  # AUDIT FIX 2026-08-02: never clobber lineage on re-runs
             d['grade'] = f
             n_changed += 1
         if grade_chg or conf_chg:      # conf-only rows must apply too (fix 2026-07-27)

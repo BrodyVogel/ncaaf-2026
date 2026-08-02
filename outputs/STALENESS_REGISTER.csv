@@ -1,85 +1,80 @@
 team,conference,L_units,n_L,qb_L,final,rank,band,new_HC
-Charlotte,American Athletic,QB|OL|DL|LB|DB|ST,6,Y,-20.44,135,7.59,
-Iowa,Big Ten,QB|DL|LB|ST,4,Y,13.44,22,6.72,
-Memphis,American Athletic,QB|OL|LB|ST,4,Y,0.49,66,7.59,Y
-North Texas,American Athletic,QB|OL|DL|DB,4,Y,-7.15,92,8.35,Y
-Temple,American Athletic,QB|DL|LB|DB,4,Y,-10.92,106,6.72,
-UTEP,Mountain West,QB|WRTE|OL|DL,4,Y,-18.22,129,6.72,
-Sacramento State,Mid-American,QB|RB|DL|DB,4,Y,-20.38,134,7.59,Y
-Florida State,ACC,QB|OL|ST,3,Y,7.43,40,6.54,
-Georgia Tech,ACC,QB|WRTE|DL,3,Y,6.32,46,6.54,
-Tulane,American Athletic,QB|OL|LB,3,Y,-0.22,68,7.39,Y
-Stanford,ACC,QB|WRTE|OL,3,Y,-0.49,71,7.39,Y
-Boston College,ACC,QB|WRTE|DL,3,Y,-0.87,72,6.54,
-North Dakota State,Mountain West,QB|WRTE|LB,3,Y,-6.72,89,7.19,
-UConn,FBS Independents,QB|DB|ST,3,Y,-7.14,91,7.39,Y
-Liberty,Conference USA,QB|RB|ST,3,Y,-10.58,104,6.54,
-Wyoming,Mountain West,QB|WRTE|DL,3,Y,-11.44,109,6.54,
-Colorado State,Pac-12,QB|WRTE|OL,3,Y,-12.03,110,7.39,Y
-Nevada,Mountain West,QB|WRTE|LB,3,Y,-12.62,113,6.54,
-Rice,American Athletic,QB|LB|DB,3,Y,-13.41,118,6.54,
-Southern Miss,Sun Belt,QB|DL|DB,3,Y,-14.95,123,8.13,Y
-Northern Illinois,Mountain West,QB|DL|LB,3,Y,-16.00,126,7.39,Y
-New Mexico State,Conference USA,QB|RB|OL,3,Y,-17.18,127,6.54,
-Alabama,SEC,QB|OL,2,Y,18.03,14,6.36,
-Florida,SEC,QB|OL,2,Y,13.75,21,7.19,Y
-Louisville,ACC,QB|ST,2,Y,11.72,27,6.36,
-Clemson,ACC,QB|OL,2,Y,11.34,29,6.36,
-Virginia,ACC,QB|WRTE,2,Y,7.77,38,6.36,
-Virginia Tech,ACC,QB|LB,2,Y,7.59,39,7.91,Y
-North Carolina,ACC,QB|LB,2,Y,3.38,60,6.36,
-East Carolina,American Athletic,QB|LB,2,Y,-0.40,70,6.36,
-Washington State,Pac-12,QB|LB,2,Y,-3.43,82,7.91,Y
-Toledo,Mid-American,QB|WRTE,2,Y,-9.52,99,7.91,Y
-App State,Sun Belt,QB|WRTE,2,Y,-11.31,107,6.36,
-Coastal Carolina,Sun Belt,QB|OL,2,Y,-12.67,114,7.19,Y
-Kennesaw State,Conference USA,QB|RB,2,Y,-13.01,116,6.36,
-San José State,Mountain West,QB|WRTE,2,Y,-13.45,119,6.36,
-Buffalo,Mid-American,QB|LB,2,Y,-14.20,120,6.36,
-Missouri State,Conference USA,QB|OL,2,Y,-15.59,125,7.19,Y
-Akron,Mid-American,QB|LB,2,Y,-18.76,130,6.36,
-Ball State,Mid-American,QB|LB,2,Y,-22.71,137,6.36,
-Tennessee,SEC,QB,1,Y,16.17,18,6.18,
-Vanderbilt,SEC,QB,1,Y,11.73,26,6.18,
-Arkansas,SEC,QB,1,Y,6.46,45,6.98,Y
-Fresno State,Pac-12,QB,1,Y,-1.19,74,6.18,
-Navy,American Athletic,QB,1,Y,-2.32,76,6.18,
-James Madison,Sun Belt,QB,1,Y,-3.16,80,6.98,Y
-Miami (OH),Mid-American,QB,1,Y,-7.40,93,6.18,
-Arkansas State,Sun Belt,QB,1,Y,-9.86,100,6.18,
-Ohio,Mid-American,QB,1,Y,-12.09,111,6.98,Y
-Bowling Green,Mid-American,QB,1,Y,-13.14,117,6.18,
-Massachusetts,Mid-American,QB,1,Y,-26.69,138,6.80,
-UTSA,American Athletic,OL|DL|LB|DB,4,,-3.24,81,6.72,
-Hawai'i,Mountain West,OL|DL|LB|ST,4,,-6.65,88,6.72,
-Duke,ACC,WRTE|DL|DB,3,,5.35,50,6.54,
-NC State,ACC,WRTE|DL|LB,3,,5.27,51,6.54,
-California,ACC,RB|DL|LB,3,,3.05,61,7.39,Y
-Iowa State,Big 12,WRTE|OL|LB,3,,1.64,64,8.13,Y
-South Florida,American Athletic,OL|LB|DB,3,,-2.80,78,7.39,Y
-UAB,American Athletic,DL|LB|DB,3,,-14.86,122,7.39,Y
-Middle Tennessee,Conference USA,RB|OL|DL,3,,-18.93,131,6.54,
-Wake Forest,ACC,RB|WRTE,2,,4.96,53,6.36,
-Syracuse,ACC,RB|WRTE,2,,-1.01,73,6.36,
-UNLV,Mountain West,WRTE|DL,2,,-1.60,75,6.36,
-Army,American Athletic,LB|DB,2,,-2.71,77,6.36,
-Oregon State,Pac-12,WRTE|OL,2,,-6.39,87,7.19,Y
-Western Kentucky,Conference USA,OL|LB,2,,-7.66,94,6.36,
-Florida Atlantic,American Athletic,LB|DB,2,,-9.92,101,6.36,
-Sam Houston,Conference USA,OL|LB,2,,-21.00,136,6.36,
-Michigan,Big Ten,LB,1,,17.63,15,6.98,Y
-South Carolina,SEC,OL,1,,12.49,25,6.18,
-Kentucky,SEC,LB,1,,8.39,34,6.98,Y
-Pittsburgh,ACC,WRTE,1,,7.86,36,6.18,
-Mississippi State,SEC,OL,1,,7.82,37,6.18,
-Illinois,Big Ten,LB,1,,6.95,43,6.18,
-Baylor,Big 12,LB,1,,5.22,52,6.18,
-Cincinnati,Big 12,WRTE,1,,3.81,57,6.18,
-Boise State,Pac-12,WRTE,1,,3.45,59,6.18,
-San Diego State,Pac-12,DB,1,,-0.30,69,6.18,
-Texas State,Pac-12,DL,1,,-2.86,79,6.18,
-Air Force,Mountain West,DL,1,,-6.34,86,6.18,
-Tulsa,American Athletic,LB,1,,-7.08,90,6.18,
-Western Michigan,Mid-American,LB,1,,-7.71,95,6.18,
-Central Michigan,Mid-American,LB,1,,-12.44,112,6.18,
-UL Monroe,Sun Belt,DB,1,,-19.12,132,6.18,
+Iowa,Big Ten,QB|DL|LB|ST,4,Y,13.84,24,6.72,
+Liberty,Conference USA,QB|RB|WRTE|ST,4,Y,-11.18,107,6.72,
+Sacramento State,Mid-American,QB|RB|DL|DB,4,Y,-21.53,134,7.59,Y
+Charlotte,American Athletic,QB|OL|LB|ST,4,Y,-21.65,135,7.39,
+Florida State,ACC,QB|OL|ST,3,Y,7.63,40,6.54,
+North Dakota State,Mountain West,QB|WRTE|LB,3,Y,2.00,63,8.00,
+Memphis,American Athletic,QB|OL|ST,3,Y,1.74,65,7.39,Y
+East Carolina,American Athletic,QB|WRTE|LB,3,Y,0.54,68,6.54,
+UConn,FBS Independents,QB|DB|ST,3,Y,-6.40,86,7.39,Y
+Temple,American Athletic,QB|LB|DB,3,Y,-11.90,110,6.54,
+Wyoming,Mountain West,QB|WRTE|DL,3,Y,-12.30,112,6.54,
+Southern Miss,Sun Belt,QB|DL|DB,3,Y,-15.61,122,8.13,Y
+Northern Illinois,Mountain West,QB|DL|LB,3,Y,-17.26,126,7.39,Y
+New Mexico State,Conference USA,QB|RB|OL,3,Y,-18.29,127,6.54,
+UTEP,Mountain West,QB|OL|DL,3,Y,-19.74,130,6.54,
+Alabama,SEC,QB|OL,2,Y,18.43,15,6.36,
+Florida,SEC,QB|OL,2,Y,14.65,21,7.19,Y
+Louisville,ACC,QB|ST,2,Y,13.15,25,6.36,
+Georgia Tech,ACC,QB|DL,2,Y,6.43,45,6.36,
+North Carolina,ACC,QB|LB,2,Y,3.38,59,6.36,
+Tulane,American Athletic,QB|OL,2,Y,-0.43,70,7.19,Y
+UNLV,Mountain West,QB|WRTE,2,Y,-1.35,73,6.36,
+Boston College,ACC,QB|WRTE,2,Y,-1.40,74,6.36,
+Oregon State,Pac-12,QB|WRTE,2,Y,-7.35,93,7.19,Y
+North Texas,American Athletic,QB|DB,2,Y,-7.61,94,7.91,Y
+Toledo,Mid-American,QB|WRTE,2,Y,-9.76,100,7.91,Y
+Kennesaw State,Conference USA,QB|RB,2,Y,-10.50,103,6.36,
+Coastal Carolina,Sun Belt,QB|OL,2,Y,-12.45,113,7.19,Y
+Nevada,Mountain West,QB|WRTE,2,Y,-12.74,116,6.36,
+Bowling Green,Mid-American,QB|LB,2,Y,-13.22,117,6.36,
+Buffalo,Mid-American,QB|LB,2,Y,-14.55,119,6.36,
+Akron,Mid-American,QB|LB,2,Y,-19.57,129,6.36,
+Ball State,Mid-American,QB|LB,2,Y,-24.07,137,6.36,
+Tennessee,SEC,QB,1,Y,16.83,18,6.18,
+Vanderbilt,SEC,QB,1,Y,11.82,29,6.18,
+Virginia Tech,ACC,QB,1,Y,7.94,37,7.68,Y
+Arizona State,Big 12,QB,1,Y,5.60,48,6.18,
+Fresno State,Pac-12,QB,1,Y,-1.46,75,6.18,
+James Madison,Sun Belt,QB,1,Y,-2.53,78,6.98,Y
+Navy,American Athletic,QB,1,Y,-2.70,79,6.18,
+Washington State,Pac-12,QB,1,Y,-4.05,84,7.68,Y
+Miami (OH),Mid-American,QB,1,Y,-7.20,92,6.18,
+Arkansas State,Sun Belt,QB,1,Y,-10.54,104,6.18,
+Ohio,Mid-American,QB,1,Y,-12.23,111,6.98,Y
+San José State,Mountain West,QB,1,Y,-14.73,120,6.18,
+Massachusetts,Mid-American,QB,1,Y,-27.90,138,6.80,
+Hawai'i,Mountain West,OL|DL|DB|ST,4,,-7.09,90,6.72,
+Iowa State,Big 12,WRTE|OL|LB,3,,1.04,66,8.13,Y
+UTSA,American Athletic,DL|LB|DB,3,,-3.29,82,6.54,
+UAB,American Athletic,DL|LB|DB,3,,-15.73,123,7.39,Y
+California,ACC,DL|LB,2,,3.20,60,7.19,Y
+Syracuse,ACC,RB|WRTE,2,,-2.29,76,6.36,
+South Florida,American Athletic,OL|LB,2,,-2.33,77,7.19,Y
+Western Kentucky,Conference USA,OL|LB,2,,-7.91,95,6.36,
+Florida Atlantic,American Athletic,LB|DB,2,,-10.60,105,6.36,
+Rice,American Athletic,LB|DB,2,,-14.40,118,6.36,
+Middle Tennessee,Conference USA,RB|DL,2,,-20.09,131,6.36,
+Sam Houston,Conference USA,OL|LB,2,,-22.32,136,6.36,
+South Carolina,SEC,OL,1,,12.78,26,6.18,
+Clemson,ACC,OL,1,,11.82,28,6.18,
+Kentucky,SEC,LB,1,,8.44,34,6.98,Y
+Pittsburgh,ACC,WRTE,1,,8.28,36,6.18,
+Duke,ACC,DL,1,,5.42,49,6.18,
+Baylor,Big 12,LB,1,,5.32,51,6.18,
+Wake Forest,ACC,RB,1,,5.25,52,6.18,
+Boise State,Pac-12,WRTE,1,,5.00,53,6.18,
+NC State,ACC,LB,1,,4.99,54,6.18,
+Cincinnati,Big 12,WRTE,1,,3.16,61,6.18,
+San Diego State,Pac-12,DB,1,,-0.34,69,6.18,
+Stanford,ACC,OL,1,,-0.68,72,6.98,Y
+Army,American Athletic,LB,1,,-2.73,80,6.18,
+Texas State,Pac-12,DL,1,,-3.24,81,6.18,
+Tulsa,American Athletic,LB,1,,-6.55,88,6.18,
+Western Michigan,Mid-American,LB,1,,-7.18,91,6.18,
+Colorado State,Pac-12,WRTE,1,,-9.00,99,6.98,Y
+App State,Sun Belt,WRTE,1,,-11.35,109,6.18,
+Central Michigan,Mid-American,LB,1,,-12.53,114,6.18,
+Missouri State,Conference USA,OL,1,,-16.26,125,6.98,Y
+UL Monroe,Sun Belt,DB,1,,-20.12,132,6.18,

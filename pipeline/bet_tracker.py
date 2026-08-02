@@ -54,7 +54,8 @@ def model_prob(team, cat, side, line):
 def dec(a):return 1.0+(a/100.0 if a>0 else 100.0/(-a))
 def profit_mult(a):return dec(a)-1.0
 def implied(a):return (-a)/((-a)+100.0) if a<0 else 100.0/(a+100.0)
-def ufo(o,c=30):return (-o-c) if o<0 else -(o+c)
+def ufo(o,c=30):  # AUDIT FIX 2026-08-02: correct +/-100 ladder crossing
+    return (-o-c) if o<=-(100+c) else (-((200+c)-abs(o)) if o<0 else -(o+c))
 M=_market()
 def market_fair(team, cat, line, side):
     """Market's de-vigged fair probability of the bet side at the line (avg-prob de-vig

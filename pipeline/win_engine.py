@@ -135,8 +135,16 @@ def american_to_decimal(a):
 
 
 def under_from_over(over_american, cents=30):
-    """Owner's convention: 30-cent line. over -175 <-> under +145."""
-    return (-over_american - cents) if over_american < 0 else -(over_american + cents)
+    """Owner's convention: 30-cent line. over -175 <-> under +145.
+    AUDIT FIX 2026-08-02: correct the +/-100 ladder crossing — the naive
+    mirror produced invalid odds (e.g. -105 -> +75) for overs in (-100-cents, -100].
+    -105 <-> -125, -110 <-> -120, -130 <-> +100 (matches weekend_scan convention)."""
+    o = over_american
+    if o <= -(100 + cents):
+        return -o - cents
+    if o < 0:
+        return -((200 + cents) - abs(o))
+    return -(o + cents)
 
 
 def market_edge(our_p_over, line, over_american, cents=30):
