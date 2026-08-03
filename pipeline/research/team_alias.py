@@ -54,6 +54,8 @@ PFF_ABBREV = {
     'vatech': 'virginiatech', 'wake': 'wakeforest',
     'washstate': 'washingtonstate', 'wvirginia': 'westvirginia',
     'ndakst': 'northdakotastate', 'sacramento': 'sacramentostate',
+    # legacy board spellings (caught by rejoin coverage guard 2026-08-03)
+    'louisianalafayette': 'louisiana', 'ullafayette': 'louisiana',
 }
 
 _ANY = {}

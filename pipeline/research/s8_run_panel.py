@@ -13,17 +13,26 @@ from s8_shadow_arm import (build_shadow, percentiles, team_scores, load_spine,
                            JUMP_P4G5, FRB, is_p4, conf_map, TapeIndex,
                            membership_roster, recruits_for, NSLOT1, NSLOT2)
 
+from team_alias import to_nk
+
 YEARS = [2022, 2023, 2024, 2025]
-SP_ALIAS = {'connecticut': 'uconn'}
+# JOIN FIX 2026-08-03 (owner-approved): all cross-source names route through
+# team_alias.to_nk(). The old bare-norm joins (a) dropped Miami-FL/App State/
+# UL Monroe rows and (b) priced 61 real-FBS games at the 0.95 FCS constant
+# inside exp_wins (see s7s8_rejoin_2026-08-03.py for the before/after).
 
 
 def read_sp(path, valcol):
     out = {}
     with open(path) as f:
         for r in csv.DictReader(f):
-            k = r['norm_key']
-            out[SP_ALIAS.get(k, k)] = float(r[valcol])
+            out[r['norm_key']] = float(r[valcol])
     return out
+
+
+def nkify(d):
+    """Re-key a shadow-space dict to canonical norm_key (identity for FCS/unknown)."""
+    return {to_nk(k) or k: v for k, v in d.items()}
 
 
 def ols(X, y):
@@ -63,6 +72,7 @@ for y in YEARS:
         rw = [(UW[u], uu.get(u, 50.0)) for u in ('QB', 'RB', 'WRTE', 'LB', 'DB')]
         tr[tk] = sum(w * v for w, v in tw) / sum(w for w, _ in tw)
         rs[tk] = sum(w * v for w, v in rw) / sum(w for w, _ in rw)
+    scores, tr, rs = nkify(scores), nkify(tr), nkify(rs)
     sp_pre = read_sp(f'{R}/data/backtest/sp_preseason/SP+_{y}_preseason.csv', 'sp_plus_overall')
     sp_fin = read_sp(f'{R}/data/backtest/sp_final/SP+_{y}_final.csv', 'final_overall')
     common = [t for t in scores if t in sp_pre and t in sp_fin]
@@ -71,12 +81,13 @@ for y in YEARS:
     trz, _ = zvec({t: tr[t] for t in common})
     rsz, _ = zvec({t: rs[t] for t in common})
     confs = conf_map(y)
-    for t in common:
+    confs_nk = nkify(confs)          # canonical view for panel rows (proj_raw below
+    for t in common:                 # stays in shadow space and keeps `confs`)
         D = scz[t] - spz[t]
         panel.append(dict(year=y, team=t, sp_pre=sp_pre[t], sp_final=sp_fin[t],
                           miss=sp_fin[t] - sp_pre[t], D=D, D_pts=D * sp_sd,
                           D_t=trz[t] - spz[t], D_r=rsz[t] - spz[t],
-                          p4=int(is_p4(confs.get(t, '?'), y)),
+                          p4=int(is_p4(confs_nk.get(t, '?'), y)),
                           n_units=scores[t]['n_units']))
     # raw projections for Leg 2b (no offsets, no percentile — grade scale)
     tape = TapeIndex(spine, y)
@@ -191,15 +202,22 @@ def phi(x):
     return 0.5 * (1 + math.erf(x / math.sqrt(2)))
 
 
+def _gkeys(g):
+    """Canonical keys for a game row; non-FBS names prefixed so they can never
+    collide with a canonical norm_key."""
+    return (to_nk(g['homeTeam']) or '~' + norm(g['homeTeam']),
+            to_nk(g['awayTeam']) or '~' + norm(g['awayTeam']))
+
+
 def exp_wins(team_nk, y, ratings, bump=0.0):
     ew = 0.0
     for g in json.load(open(f'{R}/data/cfbd/2026-07-12/games_{y}_regular.json')):
-        h, a = norm(g['homeTeam']), norm(g['awayTeam'])
+        h, a = _gkeys(g)
         if team_nk not in (h, a):
             continue
         opp = a if team_nk == h else h
         if opp not in ratings:
-            ew += 0.95      # FCS opponent
+            ew += 0.95      # true non-FBS opponent (join fix: FBS always resolves)
             continue
         site = 0.0 if g.get('neutralSite') else (1.0 if team_nk == h else -1.0)
         mu = (ratings[team_nk] + bump) - ratings[opp] + 2.3 * site
@@ -210,7 +228,7 @@ def exp_wins(team_nk, y, ratings, bump=0.0):
 def actual_wins(team_nk, y):
     wn = 0
     for g in json.load(open(f'{R}/data/cfbd/2026-07-12/games_{y}_regular.json')):
-        h, a = norm(g['homeTeam']), norm(g['awayTeam'])
+        h, a = _gkeys(g)
         if team_nk not in (h, a) or g.get('homePoints') is None:
             continue
         mine = g['homePoints'] if team_nk == h else g['awayPoints']
@@ -222,7 +240,10 @@ def actual_wins(team_nk, y):
 rows3 = []
 for y in (2022, 2023, 2024):
     for r in csv.DictReader(open(f'{R}/data/win_totals/sbd_historical/sbd_{y}.csv')):
-        tk = SP_ALIAS.get(norm(r['team']), norm(r['team']))
+        tk = to_nk(r['team'])
+        if tk is None:
+            print(f'  [join guard] unresolved SBD team {y}: {r["team"]!r}')
+            continue
         if (y, tk) not in Dmap or tk not in sp_pre_by[y]:
             continue
         line = float(r['line'])
@@ -270,7 +291,8 @@ for y in [min(YEARS) - 1] + YEARS:
     for c in json.load(open(f'{R}/data/cfbd/2026-07-12/coaches_{y}.json')):
         for s in c.get('seasons', []):
             if s.get('year') == y:
-                hc_by[(y, norm(s['school']))] = c.get('firstName', '') + c.get('lastName', '')
+                hc_by[(y, to_nk(s['school']) or norm(s['school']))] = \
+                    c.get('firstName', '') + c.get('lastName', '')
 newhc = {(y, t) for (y, t) in hc_by if y in YEARS
          and hc_by.get((y - 1, t)) not in (None, hc_by[(y, t)])}
 for lab, m in (('P4 ', np.array([r['p4'] == 1 for r in panel])),
