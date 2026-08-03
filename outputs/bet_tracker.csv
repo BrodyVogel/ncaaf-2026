@@ -20,6 +20,6 @@ date,category,team,side,line,odds,book,stake_u,our_p,pct_edge,model_ev,result,pn
 2026-07-26,regular,Buffalo,over,5.5,-144,FD,0.75,0.695,+10.8%,+0.177,pending,+0.000,rec 0.45 — owner sized up; MAC cluster w/ BGSU (wk8 h2h)
 2026-07-26,regular,UConn,over,5.5,-106,FD,0.5,0.657,+17.2%,+0.277,pending,+0.000,ADD; team total 1.07
 2026-07-26,regular,Tulsa,over,5.5,-105,B365,0.55,0.660,+18.0%,+0.288,pending,+0.000,ADD at backup book (CZR +100 gone); team total 1.10 = cap
-2026-07-26,regular,Nevada,over,4.5,+120,B365,0.75,0.615,+16.7%,+0.354,pending,+0.000,rec 0.65 — owner sized up; top conviction
+2026-07-26,regular,Nevada,over,4.5,+145,B365,0.75,0.615,+16.7%,+0.508,C,+0.000,"CLOSED 2026-08-03 free B365 cash-out (P&L 0.00u) after rejoin fix killed F2o, its only tag (gap +0.76->+0.46 was a flat-0.95 FCS artifact). Odds corrected +120->+145 per owner statement 2026-08-03 (original log said +120). MSU@NEV wk2 opener = re-entry trigger. Was: rec 0.65 — owner sized up; top conviction"
 2026-07-26,regular,Wake Forest,over,5.5,-130,B365,0.9,0.634,+10.5%,+0.122,pending,+0.000,rec 0.60 — owner sized up; backup price
 2026-07-26,regular,Rutgers,over,4.5,-140,B365,0.8,0.708,+15.6%,+0.214,pending,+0.000,rec 0.60 — owner sized up; provenance note: ~60% of edge from v2 re-adjudication

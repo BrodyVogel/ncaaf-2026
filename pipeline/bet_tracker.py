@@ -2,14 +2,16 @@
 """CFB 2026 bet tracker. Bets are defined in SEED below (source of truth, git-tracked).
 Re-run to regenerate outputs/bet_tracker.csv + outputs/bet_tracker.html.
 To log a new bet: append a dict to SEED and re-run. To grade one: set result W/L/P.
-our_p is our calibrated model's probability of the bet side (the edge at time of bet)."""
+To close one early (cash-out): result="C" + cashout_u=<realized P&L in units> (0.0
+for an at-stake close). our_p is our calibrated model's probability of the bet side
+(the edge at time of bet)."""
 import json, math, os, sys, csv, html
 sys.path.insert(0, os.path.dirname(__file__))
 import win_engine as E
 from win_totals_compute import _market, consensus_line
 
 ASOF = "2026-07-20"
-# category: 'regular' or 'conference'. result: 'pending'|'W'|'L'|'P'.
+# category: 'regular' or 'conference'. result: 'pending'|'W'|'L'|'P'|'C' (closed early).
 SEED = [
  dict(date="2026-07-20", cat="regular", team="UConn",          side="over",  line=5.5, odds=-105, book="DK",    stake=0.57, result="pending", note=""),
  dict(date="2026-07-20", cat="regular", team="Tulsa",          side="over",  line=5.5, odds=+100, book="CZR",   stake=0.55, result="pending", note=""),
@@ -33,7 +35,7 @@ SEED = [
  dict(date="2026-07-26", cat="regular",    team="Buffalo",        side="over",  line=5.5, odds=-144, book="FD",   stake=0.75, result="pending", note="rec 0.45 — owner sized up; MAC cluster w/ BGSU (wk8 h2h)"),
  dict(date="2026-07-26", cat="regular",    team="UConn",          side="over",  line=5.5, odds=-106, book="FD",   stake=0.50, result="pending", note="ADD; team total 1.07"),
  dict(date="2026-07-26", cat="regular",    team="Tulsa",          side="over",  line=5.5, odds=-105, book="B365", stake=0.55, result="pending", note="ADD at backup book (CZR +100 gone); team total 1.10 = cap"),
- dict(date="2026-07-26", cat="regular",    team="Nevada",         side="over",  line=4.5, odds=+120, book="B365", stake=0.75, result="pending", note="rec 0.65 — owner sized up; top conviction"),
+ dict(date="2026-07-26", cat="regular",    team="Nevada",         side="over",  line=4.5, odds=+145, book="B365", stake=0.75, result="C", cashout_u=0.0, note="CLOSED 2026-08-03 free B365 cash-out (P&L 0.00u) after rejoin fix killed F2o, its only tag (gap +0.76->+0.46 was a flat-0.95 FCS artifact). Odds corrected +120->+145 per owner statement 2026-08-03 (original log said +120). MSU@NEV wk2 opener = re-entry trigger. Was: rec 0.65 — owner sized up; top conviction"),
  dict(date="2026-07-26", cat="regular",    team="Wake Forest",    side="over",  line=5.5, odds=-130, book="B365", stake=0.90, result="pending", note="rec 0.60 — owner sized up; backup price"),
  dict(date="2026-07-26", cat="regular",    team="Rutgers",        side="over",  line=4.5, odds=-140, book="B365", stake=0.80, result="pending", note="rec 0.60 — owner sized up; provenance note: ~60% of edge from v2 re-adjudication"),
 ]
@@ -77,6 +79,7 @@ for b in SEED:
     edge=(p-mf) if mf is not None else None
     if b['result']=='W':   pnl=b['stake']*profit_mult(b['odds'])
     elif b['result']=='L': pnl=-b['stake']
+    elif b['result']=='C': pnl=b.get('cashout_u', 0.0)
     else:                  pnl=0.0
     rows.append({**b,'our_p':round(p,4),'ev':round(ev,4),'edge':(round(edge,4) if edge is not None else None),'pnl':round(pnl,4)})
 
@@ -92,7 +95,7 @@ with open('outputs/bet_tracker.csv','w',newline='') as f:
 
 # summary
 n=len(rows); staked=sum(r['stake'] for r in rows)
-graded=[r for r in rows if r['result'] in ('W','L','P')]
+graded=[r for r in rows if r['result'] in ('W','L','P','C')]
 wins=sum(r['result']=='W' for r in rows); losses=sum(r['result']=='L' for r in rows)
 pnl=sum(r['pnl'] for r in rows); risked_g=sum(r['stake'] for r in graded)
 roi=(pnl/risked_g*100) if risked_g else None
@@ -109,8 +112,8 @@ kpis=(CARD("Bets",n,f"{len(graded)} graded")+CARD("Staked",f"{staked:.2f}u")+
       CARD("Avg model EV",f"{avg_ev:+.2f}/$1"))
 trs=""
 for r in sorted(rows,key=lambda x:(x['cat'],-x['ev'])):
-    cls={'W':'win','L':'loss','P':'push'}.get(r['result'],'pend')
-    res={'W':'WON','L':'LOST','P':'PUSH','pending':'pending'}[r['result']]
+    cls={'W':'win','L':'loss','P':'push','C':'push'}.get(r['result'],'pend')
+    res={'W':'WON','L':'LOST','P':'PUSH','C':'CLOSED','pending':'pending'}[r['result']]
     trs+=(f'<tr class="{cls}"><td>{esc(r["date"])}</td><td><span class="chip {r["cat"][:4]}">{r["cat"][:4]}</span></td>'
           f'<td class="bet">{esc(r["team"])} <b>{r["side"]} {r["line"]:g}</b></td>'
           f'<td>{odds_str(r["odds"])}</td><td class="mut">{esc(r["book"]) or "—"}</td><td>{r["stake"]:.2f}u</td>'

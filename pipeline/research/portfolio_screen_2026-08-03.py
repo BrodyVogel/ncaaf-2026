@@ -42,17 +42,18 @@ P = json.load(open('outputs/win_totals_payload.json'))
 teams, sched, M, fcs = P['teams'], P['schedules'], P['market'], P['fcs']
 FCSR = {norm(k): v['rating'] for k, v in fcs.items()}
 
+# 2026-08-03: Nevada O4.5 0.75u CLOSED (free B365 cash-out; see bet_tracker SEED).
 HELD = {'connecticut': 1.07, 'tulsa': 1.10, 'oregonstate': 0.65, 'bowlinggreen': 1.05,
         'liberty': 0.60, 'arizonastate': 0.95, 'kennesawstate': 0.55, 'illinois': 0.65,
         'westvirginia': 0.50, 'eastcarolina': 0.55, 'hawaii': 0.60, 'florida': 0.90,
         'ucf': 0.55, 'pittsburgh': 0.65, 'wisconsin': 0.60, 'buffalo': 0.75,
-        'nevada': 0.75, 'wakeforest': 0.90, 'rutgers': 0.80}
+        'wakeforest': 0.90, 'rutgers': 0.80}
 HELD_SIDE = {'connecticut': 'over', 'tulsa': 'over', 'oregonstate': 'over',
              'bowlinggreen': 'over', 'liberty': 'under', 'arizonastate': 'under',
              'kennesawstate': 'over', 'illinois': 'under', 'westvirginia': 'under',
              'eastcarolina': 'over', 'hawaii': 'under', 'florida': 'under',
              'ucf': 'over', 'pittsburgh': 'under', 'wisconsin': 'under',
-             'buffalo': 'over', 'nevada': 'over', 'wakeforest': 'over', 'rutgers': 'over'}
+             'buffalo': 'over', 'wakeforest': 'over', 'rutgers': 'over'}
 _bad = [k for k in HELD if k not in teams]
 assert not _bad, f'HELD keys missing from payload: {_bad}'
 
