@@ -6,6 +6,9 @@ from collections import defaultdict
 import numpy as np
 
 os.chdir(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+import sys
+sys.path.insert(0, 'pipeline/research')
+from team_alias import to_nk
 
 
 def norm(s):
@@ -13,7 +16,7 @@ def norm(s):
     return re.sub(r'[^a-z0-9]', '', s.lower())
 
 
-AL = {'connecticut': 'uconn'}
+# 2026-08-02 join fix: all cross-source names via team_alias.to_nk (canonical keys)
 POSGRP = {'QB': 'QB', 'HB': 'skill', 'FB': 'skill', 'WR': 'skill', 'TE': 'skill',
           'T': 'trench', 'G': 'trench', 'C': 'trench', 'DI': 'trench', 'ED': 'trench',
           'LB': 'back7', 'CB': 'back7', 'S': 'back7'}
@@ -103,7 +106,7 @@ def curve_proj(b, g, grp):
 
 # ---- team-year intake metrics from portal files ----
 def rdmap(path, col):
-    return {AL.get(r['norm_key'], r['norm_key']): float(r[col]) for r in csv.DictReader(open(path))}
+    return {to_nk(r['norm_key']) or r['norm_key']: float(r[col]) for r in csv.DictReader(open(path))}
 
 
 FBS_TEAMS = {}
@@ -111,12 +114,16 @@ for y in range(2022, 2026):
     FBS_TEAMS[y] = set(rdmap(f'data/backtest/sp_preseason/SP+_{y}_preseason.csv', 'sp_plus_overall'))
 
 metrics = defaultdict(lambda: dict(N=0, Q=0.0, Q55=0.0, Q61=0.0, groups=defaultdict(int)))
+drop_hist = defaultdict(int)
 for y in range(2022, 2026):
     fcs_prev = FCS_Y[y - 1]
     b = CURVES[y - 1]
     for e in json.load(open(f'data/cfbd/2026-07-12/portal_{y}.json')):
-        o = norm(e.get('origin')); d = AL.get(norm(e.get('destination')), norm(e.get('destination')))
-        if o not in FCS_SCHOOLS or d not in FBS_TEAMS[y]:
+        o = norm(e.get('origin')); d = to_nk(e.get('destination')) or norm(e.get('destination'))
+        if o not in FCS_SCHOOLS:
+            continue
+        if d not in FBS_TEAMS[y]:
+            drop_hist[d] += 1
             continue
         m = metrics[(y, d)]
         m['N'] += 1
@@ -132,6 +139,9 @@ for y in range(2022, 2026):
 nz = sum(1 for v in metrics.values() if v['N'] > 0)
 tape = sum(1 for v in metrics.values() if abs(v['Q']) > 0)
 print(f'team-years with FCS intake: {nz} | with tape-covered Q: {tape}')
+_unk = {k: v for k, v in drop_hist.items() if to_nk(k)}
+print(f'hist FCS-origin rows dropped at dest join: {sum(drop_hist.values())}'
+      f' | dropped-but-FBS-aliasable (should be 0): {_unk}')
 
 # ---- panel assembly ----
 P4C = ('SEC', 'Big Ten', 'Big 12', 'ACC')
@@ -139,19 +149,19 @@ conf_by = {}
 for y in range(2021, 2026):
     for r in json.load(open(f'data/cfbd/2026-07-12/records_{y}.json')):
         if r.get('classification') == 'fbs':
-            conf_by[(y, norm(r['team']))] = r.get('conference')
+            conf_by[(y, to_nk(r['team']) or norm(r['team']))] = r.get('conference')
 hc = {}
 for y in range(2021, 2026):
     for c in json.load(open(f'data/cfbd/2026-07-12/coaches_{y}.json')):
         nmc = (c.get('firstName', '') + ' ' + c.get('lastName', '')).strip()
         for s in c.get('seasons', []):
-            hc[(s.get('year'), norm(s['school']))] = nmc
+            hc[(s.get('year'), to_nk(s['school']) or norm(s['school']))] = nmc
 rp = {}
 for y in range(2022, 2026):
     for e in json.load(open(f'data/cfbd/2026-07-12/returning_{y}.json')):
         v = e.get('percentPPA')
         if v is not None:
-            rp[(y, norm(e['team']))] = float(v)
+            rp[(y, to_nk(e['team']) or norm(e['team']))] = float(v)
 
 rows = []
 for y in range(2022, 2026):
@@ -228,7 +238,7 @@ print('\n===== S18-F: cluster (player level) =====')
 port_groups = defaultdict(int)
 for y in range(2022, 2026):
     for e in json.load(open(f'data/cfbd/2026-07-12/portal_{y}.json')):
-        o = norm(e.get('origin')); d = AL.get(norm(e.get('destination')), norm(e.get('destination')))
+        o = norm(e.get('origin')); d = to_nk(e.get('destination')) or norm(e.get('destination'))
         if o in FCS_SCHOOLS:
             port_groups[(y, o, d)] += 1
 # map each pair to its portal record (origin/destination) via name
@@ -236,7 +246,7 @@ port_by_name = {}
 for y in range(2022, 2026):
     for e in json.load(open(f'data/cfbd/2026-07-12/portal_{y}.json')):
         nm = norm((e.get('firstName') or '') + (e.get('lastName') or ''))
-        port_by_name[(y, nm)] = (norm(e.get('origin')), AL.get(norm(e.get('destination')), norm(e.get('destination'))))
+        port_by_name[(y, nm)] = (norm(e.get('origin')), to_nk(e.get('destination')) or norm(e.get('destination')))
 resid, comp, pyr = [], [], []
 for p in pairs:
     yy = p['y'] + 1
@@ -281,7 +291,7 @@ def sched_exp(tk, y, ratings):
         games_cache[y] = json.load(open(f'data/cfbd/2026-07-12/games_{y}_regular.json'))
     ew = 0.0
     for g in games_cache[y]:
-        h, a = norm(g['homeTeam']), norm(g['awayTeam'])
+        h, a = to_nk(g['homeTeam']) or norm(g['homeTeam']), to_nk(g['awayTeam']) or norm(g['awayTeam'])
         if tk not in (h, a):
             continue
         opp = a if tk == h else h
@@ -298,7 +308,7 @@ def wins(tk, y):
         games_cache[y] = json.load(open(f'data/cfbd/2026-07-12/games_{y}_regular.json'))
     w = 0
     for g in games_cache[y]:
-        h, a = norm(g['homeTeam']), norm(g['awayTeam'])
+        h, a = to_nk(g['homeTeam']) or norm(g['homeTeam']), to_nk(g['awayTeam']) or norm(g['awayTeam'])
         if tk not in (h, a) or g.get('homePoints') is None:
             continue
         mine = g['homePoints'] if tk == h else g['awayPoints']
@@ -314,7 +324,7 @@ for y in (2022, 2023, 2024):
     pre = rdmap(f'data/backtest/sp_preseason/SP+_{y}_preseason.csv', 'sp_plus_overall')
     adj = {t: pre[t] + lamA * qmap.get((y, t), 0.0) for t in pre}
     for r in csv.DictReader(open(f'data/win_totals/sbd_historical/sbd_{y}.csv')):
-        tk = AL.get(norm(r['team']), norm(r['team']))
+        tk = to_nk(r['team']) or norm(r['team'])
         if tk not in pre:
             continue
         line = float(r['line']); W = wins(tk, y)
@@ -331,12 +341,16 @@ print(f'S18-B: {"PASS" if (mk_ < mc and zk >= zc - 0.05) else "FAIL"}')
 
 # ===== S18-D: 2026 freeze =====
 m26 = defaultdict(lambda: dict(N=0, Q=0.0, groups=defaultdict(int)))
+drop26 = defaultdict(int)
 fcs25 = FCS_Y[2025]
 b26 = CURVES[2025]
 teams26 = set(rdmap('data/anchors/SP+_2026preseason_2026-07-12.csv', 'sp_plus_overall'))
 for e in json.load(open('data/cfbd/2026-07-12/portal_2026.json')):
-    o = norm(e.get('origin')); d = AL.get(norm(e.get('destination')), norm(e.get('destination')))
-    if o not in FCS_SCHOOLS or d not in teams26:
+    o = norm(e.get('origin')); d = to_nk(e.get('destination')) or norm(e.get('destination'))
+    if o not in FCS_SCHOOLS:
+        continue
+    if d not in teams26:
+        drop26[d] += 1
         continue
     mm = m26[d]
     mm['N'] += 1
@@ -351,6 +365,9 @@ with open('data/research/s18_fcs2026.csv', 'w', newline='') as f:
     for d in sorted(m26):
         mm = m26[d]
         w.writerow([d, mm['N'], round(mm['Q'], 2), max(mm['groups'].values()) if mm['groups'] else 0])
+_unk26 = {k: v for k, v in drop26.items() if to_nk(k)}
+print(f'2026 FCS-origin rows dropped at dest join: {sum(drop26.values())}'
+      f' | dropped-but-FBS-aliasable (should be 0): {_unk26}')
 qs = sorted(((mm['Q'], d, mm['N']) for d, mm in m26.items()), reverse=True)
 print(f'\n2026 freeze: {len(m26)} teams -> s18_fcs2026.csv | top Q: ' + ', '.join(f'{d}({q:+.0f},N{n})' for q, d, n in qs[:8]))
 print('bottom Q:', ', '.join(f'{d}({q:+.0f})' for q, d, n in qs[-4:]))
