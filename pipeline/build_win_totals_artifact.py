@@ -8,15 +8,174 @@ regenerable (owner's requirement: "not a one-off build").
     python3 pipeline/build_win_totals_artifact.py
     -> outputs/win_totals_2026.html
 """
-import os, sys, json
+import os, sys, json, csv, re
 sys.path.insert(0, os.path.dirname(__file__))
 from win_totals_compute import build_payload
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# Display-name -> canonical-name aliases needed to join the market captures. FBS side maps into
+# payload['teams'] (by name, then to nk); FCS side maps into payload['fcs'] (keyed by name).
+# Same four FBS aliases as pipeline/sides_screen.py. NEVER join on a display name without these.
+FBS_ALIASES = [('Hawai’i', "Hawai'i"), ('Miami (FL)', 'Miami'),
+               ('UMass', 'Massachusetts'), ('Appalachian State', 'App State')]
+FCS_ALIASES = {'University at Albany': 'UAlbany', 'LIU': 'Long Island University',
+               'Nicholls State': 'Nicholls', 'Southeastern Louisiana': 'SE Louisiana'}
+
+SPREADS_CSV = os.path.join(ROOT, 'data', 'market', 'spreads_wk01_goty_2026-08-03.csv')
+TRACKER_CSV = os.path.join(ROOT, 'outputs', 'bet_tracker.csv')
+DD_DIR = os.path.join(ROOT, 'docs', 'research', 'deep_dives')
+
+# The raw lens = the spread market's own scale (calibration study: slope 1.02, corr 0.978).
+# In the 2026-08-03 capture, market_matched was built as 1.15x the raw lens, so raw_scale is
+# pinned to market_stretch/1.15; check_spread_lenses() verifies that live recompute still
+# reproduces the stored capture columns, and warns if the ratings have drifted underneath them.
+MM_OVER_RAW = 1.15
+# HFA the spread market implies (house constant is meta.hfa = 2.3). Edges must be sign-stable
+# across both before they are even looked at -- see docs SIDES_SCREEN_2026-08-04.md.
+HFA_MARKET = 3.5
+
+# Player-prop rows in the tracker are labelled "Name (ABBR) market"; map ABBR -> payload nk so
+# the page can deep-link into the Team tab.
+PROP_TEAM_NK = {'OSU': 'ohiostate', 'OKST': 'oklahomastate', 'ORE': 'oregon',
+                'UGA': 'georgia', 'TEX': 'texas'}
+NOTE_MARKERS = ['KILL', 'REVERSE', 'CORR', 'CLV', 'Provenance']
+
+
+def build_name_maps(payload):
+    teams, fcs = payload['teams'], payload['fcs']
+    n2k = {t['name']: nk for nk, t in teams.items()}
+    for a, b in FBS_ALIASES:
+        n2k[a] = n2k[b]
+    return n2k, fcs
+
+
+def load_games(payload):
+    """Posted single-game lines -> payload['games'].
+
+    Carries MARKET data only (posted spread, total, book, book count, site). The model side of
+    every row is recomputed live in the browser off the current rating state, so editing a
+    rating or HFA moves every disagreement instantly. All 117 captured rows are carried; rows
+    with an FCS participant are tagged and excluded from the aggregates (FCS-at-FBS error is
+    ~+9 pts in every lens -- it measures our FCS tier, not the FBS host)."""
+    n2k, fcs = build_name_maps(payload)
+
+    def resolve(nm):
+        if nm in n2k:
+            return n2k[nm], 'fbs'
+        alt = FCS_ALIASES.get(nm, nm)
+        if alt in fcs:
+            return alt, 'fcs'
+        return None, 'none'
+
+    def num(v):
+        try:
+            return float(v)
+        except (TypeError, ValueError):
+            return None
+
+    rows = []
+    for r in csv.DictReader(open(SPREADS_CSV)):
+        aref, akind = resolve(r['away'])
+        href, hkind = resolve(r['home'])
+        tier = 'fbs' if akind == 'fbs' and hkind == 'fbs' else ('none' if 'none' in (akind, hkind) else 'fcs')
+        rows.append(dict(bucket=r['bucket'], away=r['away'], home=r['home'],
+                         aref=aref, href=href, akind=akind, hkind=hkind, tier=tier,
+                         site=int(float(r['site'])), assumed=(r['site_src'] == 'assumed-home'),
+                         posted=num(r['h_spread']), total=num(r['total']),
+                         book=r['sp_book'], nb=int(r['n_books']),
+                         cap_raw=num(r['raw'])))
+    return rows
+
+
+def check_spread_lenses(payload, games):
+    """Build-time guard: recompute the capture's `raw` column from the CURRENT payload ratings
+    and report the worst deviation. Large numbers mean the ratings have moved since the
+    2026-08-03 capture -- the page is still right (it recomputes live) but the stored column,
+    and anything quoting it, is stale."""
+    teams, fcs = payload['teams'], payload['fcs']
+    m, scale = payload['meta']['rating_mean'], payload['meta']['raw_scale']
+
+    def rate(ref, kind):
+        if kind == 'fbs':
+            return m + scale * (teams[ref]['final'] - m)
+        return fcs[ref]['rating'] if kind == 'fcs' else None
+
+    worst, n, stale = 0.0, 0, 0
+    for g in games:
+        if g['cap_raw'] is None or g['tier'] == 'none':
+            continue
+        a, h = rate(g['aref'], g['akind']), rate(g['href'], g['hkind'])
+        d = abs((a - h - payload['meta']['hfa'] * g['site']) - g['cap_raw'])
+        worst = max(worst, d)
+        n += 1
+        if d > 0.25:
+            stale += 1
+    return n, worst, stale
+
+
+def split_note(note):
+    """Tracker note -> ordered [(label, text)] blocks on the logged markers."""
+    pat = re.compile(r'\b(' + '|'.join(NOTE_MARKERS) + r'):\s*')
+    hits = list(pat.finditer(note))
+    out = []
+    head = note[:hits[0].start()].strip() if hits else note.strip()
+    if head:
+        out.append(('Derivation', head))
+    for i, mt in enumerate(hits):
+        end = hits[i + 1].start() if i + 1 < len(hits) else len(note)
+        out.append((mt.group(1), note[mt.end():end].strip().rstrip(';').strip()))
+    return out
+
+
+def load_qbprops(payload):
+    """Player props -> payload['qbprops']. Priced by the QB pass-yards model (v2 pricer), NOT
+    by the win engine, so these rows are static: the board's rating controls do not move them.
+    Edge is measured against the breakeven of the price actually taken, because the opposing
+    quote was never captured (see the tracker footnote)."""
+    n2k, _ = build_name_maps(payload)
+    out = []
+    for r in csv.DictReader(open(TRACKER_CSV)):
+        if r['category'] != 'prop' or not r['team'].endswith('pass yds'):
+            continue
+        mt = re.match(r'^(.*?)\s*\(([A-Z]+)\)\s*(.*)$', r['team'])
+        player, abbr, market = (mt.group(1), mt.group(2), mt.group(3)) if mt else (r['team'], '', '')
+        nk = PROP_TEAM_NK.get(abbr)
+        blocks = split_note(r['note'])
+        prov = next((t for k, t in blocks if k == 'Provenance'), '')
+        verdict = ''
+        if prov:
+            path = os.path.join(DD_DIR, prov)
+            if os.path.exists(path):
+                first = open(path).readline().strip()
+                verdict = re.sub(r'^#\s*VERDICT:\s*', '', first)
+        odds = int(r['odds'])
+        dec = (100 + odds) / 100.0 if odds > 0 else (100 - odds) / abs(odds)
+        p = float(r['our_p'])
+        out.append(dict(player=player, abbr=abbr, nk=(nk if nk in payload['teams'] else None),
+                        market=market, side=r['side'], line=float(r['line']), odds=odds,
+                        book=r['book'], stake=float(r['stake_u']), p=p,
+                        breakeven=abs(odds) / (abs(odds) + 100.0) if odds < 0 else 100.0 / (odds + 100.0),
+                        ev=p * (dec - 1) - (1 - p), edge=float(r['pct_edge'].strip('%+')) / 100.0,
+                        result=r['result'], date=r['date'], verdict=verdict, blocks=blocks))
+    out.sort(key=lambda x: -x['ev'])
+    return out
+
 
 def main():
     payload = build_payload()
+    payload['meta']['raw_scale'] = payload['meta']['market_stretch'] / MM_OVER_RAW
+    payload['meta']['hfa_market'] = HFA_MARKET
+    payload['games'] = load_games(payload)
+    payload['qbprops'] = load_qbprops(payload)
+    n, worst, stale = check_spread_lenses(payload, payload['games'])
+    print(f"  games        {len(payload['games'])} rows "
+          f"({sum(1 for g in payload['games'] if g['tier'] == 'fbs')} FBS-FBS, "
+          f"{sum(1 for g in payload['games'] if g['tier'] == 'fcs')} FCS, "
+          f"{sum(1 for g in payload['games'] if g['tier'] == 'none')} unjoined)")
+    print(f"  lens check   n={n}  max|live-capture| {worst:.3f} pts  rows>0.25: {stale}"
+          + ('   <-- ratings have drifted since capture' if stale else ''))
+    print(f"  qbprops      {len(payload['qbprops'])} legs")
     engine_js = open(os.path.join(ROOT, 'pipeline', 'win_engine.js')).read()
     ui_js = UI_JS
     css = CSS
@@ -45,6 +204,8 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     <nav id="tabs">
       <button data-tab="board" class="on">Board</button>
       <button data-tab="props">H2H Props</button>
+      <button data-tab="qbprops">Player Props</button>
+      <button data-tab="games">Single Games</button>
       <button data-tab="team">Team</button>
       <button data-tab="explainer">Rating Explainer</button>
       <button data-tab="method">Methodology</button>
@@ -59,6 +220,8 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 <main class="wrap">
   <section id="view-board" class="view on"></section>
   <section id="view-props" class="view"></section>
+  <section id="view-qbprops" class="view"></section>
+  <section id="view-games" class="view"></section>
   <section id="view-team" class="view"></section>
   <section id="view-explainer" class="view"></section>
   <section id="view-method" class="view"></section>
@@ -131,6 +294,20 @@ tbody tr:hover{background:var(--panel2)}
 .unit .u{color:var(--dim);font-size:10px}.unit .g{font-size:16px;font-weight:700}
 .unit.L{border-color:var(--warn)}
 .flag{display:inline-block;margin:2px 6px 2px 0;font-size:11px;color:var(--warn)}
+.banner{background:rgba(255,180,84,.10);border:1px solid var(--warn);border-radius:10px;padding:11px 14px;margin:10px 0;font-size:12.5px;color:#e8dcc6}
+.banner b{color:var(--warn)}
+.leg{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0}
+.leg .hd{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.leg .hd .nm{font-size:15px;font-weight:700}
+.leg .hd .ln{color:var(--acc);font-weight:600}
+.leg .vd{color:#cfd6e0;font-size:12.5px;margin:7px 0 2px;max-width:900px}
+.blk{margin:7px 0;font-size:12px;color:var(--dim);max-width:900px}
+.blk .lab{display:inline-block;min-width:78px;font-weight:700;font-size:10.5px;letter-spacing:.5px;color:var(--dim);vertical-align:top}
+.blk.KILL .lab,.blk.REVERSE .lab{color:var(--bad)}
+.blk.CORR .lab{color:var(--warn)}
+.blk.CLV .lab{color:var(--acc)}
+.blk .tx{display:inline-block;max-width:820px;vertical-align:top}
+td.wide,th.wide{white-space:normal}
 @media(max-width:640px){.units{grid-template-columns:repeat(4,1fr)}.col{min-width:100%}}
 '''
 
@@ -141,7 +318,8 @@ UI_JS = r'''
 var P = window.PAYLOAD, WE = window.WinEngine, ENG = WE.makeEngine(P.meta);
 var state = { sigma:P.meta.sigma_game, hfa:P.meta.hfa, bts:P.meta.band_to_sd,
               cal:(P.meta.cal_shrink||0.75),
-              overrides:{}, team:null, expl:null, boardMode:'regular', boardSort:'conv', boardConv:false };
+              overrides:{}, team:null, expl:null, boardMode:'regular', boardSort:'conv', boardConv:false,
+              gamesSort:'edge', gamesBucket:'all', gamesFcs:false };
 
 // ---------- helpers ----------
 function fmtOdds(a){ a=Math.round(a); if(Math.abs(a)>100000) return '<span class="mut">—</span>'; return (a>0?'+':'')+a; }
@@ -149,6 +327,10 @@ function pct(p){ return (100*p).toFixed(1)+'%'; }
 function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function sgn(x,d){ d=d==null?1:d; return (x>=0?'+':'')+x.toFixed(d); }
 function curOpts(){ return {sigma_game:state.sigma, hfa:state.hfa, band_to_sd:state.bts}; }
+// A control that re-renders the container it lives in has to do it OUT of the blur/change tick,
+// or the browser throws "node to be removed is no longer a child of this node" when the input
+// loses focus into a subtree we just replaced. Every in-panel control goes through this.
+function redraw(fn){ setTimeout(fn,0); }
 function isFbs(ref){ return !!P.teams[ref]; }
 function baseFinal(ref){ return isFbs(ref)?P.teams[ref].final:(P.fcs[ref]?P.fcs[ref].rating:-40); }
 function baseAnchor(ref){ return isFbs(ref)?P.teams[ref].anchor:(P.fcs[ref]?P.fcs[ref].rating:-40); }
@@ -170,7 +352,14 @@ function calibratedRating(ref){
   if(!isFbs(ref)) return P.fcs[ref]?P.fcs[ref].rating:-40;
   var m=P.meta.rating_mean; return m+state.cal*(ourRating(ref)-m);
 }
-function ratingFn(kind){ return kind==='our'?ourRating:kind==='mkt'?marketMatchedRating:kind==='cal'?calibratedRating:anchorRating; }
+// raw = the SPREAD market's own scale (calibration study: slope 1.02, corr 0.978 against posted
+// spreads). This is the lens to compare against a posted number; a raw-lens delta converts to the
+// calibrated/sizing lens by x cal_shrink. FCS ratings pass through unchanged (D4 raw-FCS).
+function rawRating(ref){
+  if(!isFbs(ref)) return P.fcs[ref]?P.fcs[ref].rating:-40;
+  var m=P.meta.rating_mean; return m+P.meta.raw_scale*(ourRating(ref)-m);
+}
+function ratingFn(kind){ return kind==='our'?ourRating:kind==='mkt'?marketMatchedRating:kind==='cal'?calibratedRating:kind==='raw'?rawRating:anchorRating; }
 function nameOf(ref){ return isFbs(ref)?P.teams[ref].name:ref; }
 function isOverridden(ref){ var o=ov(ref); return !!(o&&(o.final!=null||o.band!=null)); }
 function nOverrides(){ return Object.keys(state.overrides).filter(isOverridden).length; }
@@ -351,9 +540,9 @@ function renderBoard(){
   var nconv=rows.filter(function(r){return r.conv;}).length;
   h+='</tbody></table><p class="hint">'+rows.length+' teams with posted '+mode+' totals'+(state.boardConv?'':' · '+nconv+' double-confirmed (✓✓)')+'.</p></div>';
   v.innerHTML=h;
-  document.getElementById('boardmode').onchange=function(){state.boardMode=this.value;renderBoard();};
-  document.getElementById('boardsort').onchange=function(){state.boardSort=this.value;renderBoard();};
-  document.getElementById('convonly').onchange=function(){state.boardConv=this.checked;renderBoard();};
+  document.getElementById('boardmode').onchange=function(){state.boardMode=this.value;redraw(renderBoard);};
+  document.getElementById('boardsort').onchange=function(){state.boardSort=this.value;redraw(renderBoard);};
+  document.getElementById('convonly').onchange=function(){state.boardConv=this.checked;redraw(renderBoard);};
   Array.prototype.forEach.call(v.querySelectorAll('tr[data-nk]'),function(tr){
     tr.onclick=function(){ state.team=tr.getAttribute('data-nk'); setTab('team'); };
   });
@@ -431,10 +620,191 @@ function renderProps(){
   var n=rows.filter(function(r){return r.conv>=0.04;}).length;
   h+='</tbody></table><p class="hint">'+rows.length+' props · '+n+' clear the ✓✓ bracket. Difference-of-distributions treats the two seasons as independent apart from any direct H2H game; residual common-opponent correlation (same-conference pairs) is unmodeled and would modestly narrow large-gap probabilities.</p></div>';
   v.innerHTML=h;
-  document.getElementById('propsort').onchange=function(){state.propSort=this.value;renderProps();};
+  document.getElementById('propsort').onchange=function(){state.propSort=this.value;redraw(renderProps);};
   Array.prototype.forEach.call(v.querySelectorAll('tr[data-fav]'),function(tr){
     tr.style.cursor='pointer';
     tr.onclick=function(){ state.team=tr.getAttribute('data-fav'); setTab('team'); };
+  });
+}
+
+// ----- Player props (QB regular-season passing yards) -----
+// These are priced by the pass-yards model, NOT the win engine: the rating/HFA controls above
+// do not move them. Edge is measured against the BREAKEVEN OF THE PRICE TAKEN, not a de-vigged
+// fair number, because the opposing quote was never captured.
+function renderQbProps(){
+  var v=document.getElementById('view-qbprops');
+  var L=P.qbprops||[];
+  if(!L.length){ v.innerHTML='<div class="panel"><p class="hint">No player props loaded.</p></div>'; return; }
+  var stake=L.reduce(function(a,b){return a+b.stake;},0);
+  var ev=L.reduce(function(a,b){return a+b.stake*b.ev;},0);
+  var h='<div class="panel"><h2>Player props — QB regular-season passing yards</h2>'+
+    '<p class="hint">Five FanDuel unders taken '+esc(L[0].date)+', all at −113. Priced by the QB pass-yards model '+
+    '(availability hazard × per-game μ × games played), <b>not</b> by the win engine — the rating and HFA controls on this board do not move these numbers. '+
+    'Settlement is <b>strict-12</b>: FanDuel&rsquo;s regular-season market excludes conference championship games, and its ≥1-snap action rule means a season never played <b>voids</b> rather than loses.</p>'+
+    '<div class="kv">'+
+    '<div class="k"><div class="l">legs</div><div class="v">'+L.length+'</div></div>'+
+    '<div class="k"><div class="l">staked</div><div class="v">'+stake.toFixed(2)+'u</div></div>'+
+    '<div class="k"><div class="l">model EV</div><div class="v pos">'+sgn(ev,3)+'u</div></div>'+
+    '<div class="k"><div class="l">breakeven @ −113</div><div class="v">'+pct(L[0].breakeven)+'</div></div>'+
+    '<div class="k"><div class="l">status</div><div class="v">'+esc(L[0].result)+'</div></div></div>';
+  h+='<table><thead><tr><th>Leg</th><th>Bet</th><th>Price</th><th>P (ours)</th><th>Breakeven</th><th>Edge</th><th>EV /$1</th><th>Stake</th></tr></thead><tbody>';
+  L.forEach(function(r){
+    h+='<tr'+(r.nk?' data-nk="'+r.nk+'"':'')+'><td>'+esc(r.player)+' <span class="chip">'+esc(r.abbr)+'</span></td>'+
+       '<td class="mut">'+esc(r.side)+' '+r.line.toFixed(1)+' '+esc(r.market)+'</td>'+
+       '<td class="mut">'+(r.odds>0?'+':'')+r.odds+' <span class="chip">'+esc(r.book)+'</span></td>'+
+       '<td>'+pct(r.p)+'</td><td class="mut">'+pct(r.breakeven)+'</td>'+
+       '<td>'+edgeCell(r.p-r.breakeven)+'</td>'+
+       '<td class="pos edge-strong">'+sgn(r.ev,3)+'</td><td>'+r.stake.toFixed(2)+'u</td></tr>';
+  });
+  h+='</tbody></table>'+
+     '<p class="hint">Edge = our probability − the breakeven of the price taken ('+pct(L[0].breakeven)+' at −113). It is <b>not</b> measured against a de-vigged fair line: '+
+     'FanDuel&rsquo;s opposing (over) quote was never captured, so no two-way de-vig is possible and this is the honest, conservative basis. '+
+     'Row click opens that team on the Team tab.</p></div>';
+  h+='<div class="panel"><h2>Dive detail</h2><p class="hint">The logged thesis, kill triggers, cross-leg correlation and CLV checkpoints for each leg, as recorded at the time of the bet. '+
+     '<b class="conv">Verdict</b> lines are the one-sentence headline from each deep dive; the honest edge stated there is the number to trust, not the mechanical pricer output.</p>';
+  L.forEach(function(r){
+    h+='<div class="leg"><div class="hd"><span class="nm">'+esc(r.player)+'</span>'+
+       '<span class="ln">'+esc(r.side)+' '+r.line.toFixed(1)+' @ '+(r.odds>0?'+':'')+r.odds+'</span>'+
+       '<span class="chip">'+r.stake.toFixed(2)+'u</span><span class="chip">EV '+sgn(r.ev,3)+'</span></div>';
+    if(r.verdict) h+='<div class="vd"><b class="conv">Verdict</b> '+esc(r.verdict)+'</div>';
+    r.blocks.forEach(function(b){
+      var lab=b[0]==='Derivation'?'DERIVATION':b[0]==='Provenance'?'SOURCE':b[0].toUpperCase();
+      h+='<div class="blk '+esc(b[0])+'"><span class="lab">'+lab+'</span><span class="tx">'+esc(b[1])+'</span></div>';
+    });
+    h+='</div>';
+  });
+  h+='<p class="hint">A leg that trips a <b class="neg">KILL</b> trigger comes off at the next available price; <b class="neg">REVERSE</b> notes name the conditions under which the obvious read is backwards. '+
+     '<b style="color:var(--warn)">CORR</b> flags legs whose seasons intersect directly — those are not independent and are floor-sized for that reason. '+
+     '<b style="color:var(--acc)">CLV</b> gives the re-check points (Week 0 and close) that grade whether the number was right regardless of how the props settle.</p></div>';
+  v.innerHTML=h;
+  Array.prototype.forEach.call(v.querySelectorAll('tr[data-nk]'),function(tr){
+    tr.style.cursor='pointer';
+    tr.onclick=function(){ state.team=tr.getAttribute('data-nk'); setTab('team'); };
+  });
+}
+
+// ----- Single games (posted spreads vs the board, recomputed live) -----
+// err(g,h) = model_home_spread(h) - posted_home_spread = d_home - d_away,  d_t = market's rating
+// of t minus ours. So err > 0 => the market rates the HOME team higher than we do => our
+// (nominal) value is on the AWAY side. Spread sign convention: negative = home favored.
+function gSpread(g, hfa){
+  if(g.tier==='none'||g.posted==null) return null;
+  return rawRating(g.aref) - rawRating(g.href) - hfa*g.site;
+}
+function gErr(g, hfa){ var s=gSpread(g,hfa); return s==null?null:s-g.posted; }
+function fbsGames(){ return (P.games||[]).filter(function(g){return g.tier==='fbs'&&g.posted!=null;}); }
+function dIn(g, ref, hfa){ var e=gErr(g,hfa); return g.href===ref?e:-e; }
+// delta for `ref` from game g, netting out the opponent's read from the opponent's OTHER capture
+// games. nOther === 0 means the pair is UNIDENTIFIABLE: full attribution is an upper bound, not
+// an estimate, and a 50/50 split is all the data supports.
+function localized(ref, g, hfa){
+  var opp=(g.href===ref)?g.aref:g.href, oth=fbsGames().filter(function(o){
+    return o!==g && (o.href===opp||o.aref===opp); });
+  var d=0; oth.forEach(function(o){ d+=dIn(o,opp,hfa); });
+  return {d: dIn(g,ref,hfa) + (oth.length?d/oth.length:0), n: oth.length};
+}
+function renderGames(){
+  var v=document.getElementById('view-games');
+  var all=P.games||[];
+  if(!all.length){ v.innerHTML='<div class="panel"><p class="hint">No posted lines loaded.</p></div>'; return; }
+  var hA=state.hfa, hB=P.meta.hfa_market, same=Math.abs(hA-hB)<1e-9;
+  var showFcs=!!state.gamesFcs, key=state.gamesSort||'edge', bucket=state.gamesBucket||'all';
+  var fbs=fbsGames();
+  // aggregates: FBS-FBS only. FCS-at-FBS rows carry a ~+9 pt error in every lens -- they measure
+  // our FCS tier, not the FBS host -- so they never enter a mean.
+  function stats(hfa){
+    var e=fbs.map(function(g){return gErr(g,hfa);});
+    var n=e.length, mu=e.reduce(function(a,b){return a+b;},0)/n;
+    var sd=Math.sqrt(e.reduce(function(a,b){return a+(b-mu)*(b-mu);},0)/(n-1));
+    return {n:n, mae:e.reduce(function(a,b){return a+Math.abs(b);},0)/n, mean:mu, sd:sd};
+  }
+  var sA=stats(hA), sB=stats(hB);
+  var rows=all.filter(function(g){ return (showFcs||g.tier==='fbs') && (bucket==='all'||g.bucket===bucket); })
+    .map(function(g){
+      var eA=gErr(g,hA), eB=gErr(g,hB);
+      var stable=(eA==null)?false:(same?true:(eA*eB>0));
+      var cons=(eA==null)?null:(same?eA:(Math.abs(eA)<Math.abs(eB)?eA:eB));   // conservative endpoint
+      var side=null, num=null, loc=null;
+      if(cons!=null && g.tier==='fbs' && stable){
+        var vref=cons>0?g.aref:g.href;
+        side=nameOf(vref); num=(vref===g.href)?g.posted:-g.posted;
+        // Team read is ALWAYS taken at the market-implied HFA, never at the live one: it is only
+        // interpretable where the aggregate mean error is ~0. At the house 2.3 every read inherits
+        // the +1 pt systematic home bias and the attribution just re-reports the HFA gap.
+        loc=localized(vref,g,hB);
+      }
+      return {g:g, eA:eA, eB:eB, stable:stable, cons:cons, side:side, num:num, loc:loc};
+    });
+  rows.sort(function(a,b){
+    if(key==='books') return b.g.nb-a.g.nb;
+    if(key==='posted') return (a.g.posted||0)-(b.g.posted||0);
+    var x=a.cons==null?-1:(a.stable?Math.abs(a.cons):-1), y=b.cons==null?-1:(b.stable?Math.abs(b.cons):-1);
+    return y-x;
+  });
+  var nStable=fbs.filter(function(g){var a=gErr(g,hA),b=gErr(g,hB);return same?true:a*b>0;}).length;
+
+  var h='<div class="panel"><h2>Posted single-game lines vs the board</h2>'+
+    '<p class="hint">The 2026-08-03 capture: Week 0, Week 1 and the Game-of-the-Year board, '+all.length+' lines. '+
+    'The model side is <b>recomputed live from the current rating state</b> — edit a rating or move HFA and every row below moves with it. '+
+    'Spreads are quoted <b>home-side</b> (negative = home favored) under the <b>raw lens</b> (×'+P.meta.raw_scale.toFixed(3)+'), which is the spread market&rsquo;s own scale — the correct one for comparing to a posted number. '+
+    'A raw-lens gap converts to the calibrated/sizing lens by ×'+state.cal.toFixed(2)+'.</p>'+
+    '<div class="banner"><b>These are not bets.</b> Preseason-consensus disagreement with posted spreads was preregistered as S14, tested, and <b>flushed</b>: 48.6% on n=395 and 48.4% on n=382, with no threshold redemption (8+ pt cells hit 49.2% on n=585 once the early-sample noise is excluded). '+
+    'Decision text: <i>&ldquo;Sides at market prices are DROPPED from the 2026 program as consensus-disagreement plays.&rdquo;</i> This page is a <b>diagnostic</b> — it measures where the market disagrees with our team ratings, which is a read on <i>our numbers</i>, not a menu. '+
+    'The screen&rsquo;s own finding reinforces that: the largest gaps localize to <b>team-level rating differences</b>, not game-level mispricings.</div>'+
+    '<div class="kv">'+
+    '<div class="k"><div class="l">FBS-FBS rows</div><div class="v">'+sA.n+'</div></div>'+
+    '<div class="k"><div class="l">MAE @ HFA '+hA.toFixed(1)+'</div><div class="v">'+sA.mae.toFixed(2)+'</div></div>'+
+    '<div class="k"><div class="l">mean @ '+hA.toFixed(1)+'</div><div class="v '+(Math.abs(sA.mean)>0.5?'neg':'')+'">'+sgn(sA.mean,2)+'</div></div>'+
+    '<div class="k"><div class="l">MAE @ HFA '+hB.toFixed(1)+'</div><div class="v">'+sB.mae.toFixed(2)+'</div></div>'+
+    '<div class="k"><div class="l">mean @ '+hB.toFixed(1)+'</div><div class="v '+(Math.abs(sB.mean)>0.5?'neg':'')+'">'+sgn(sB.mean,2)+'</div></div>'+
+    '<div class="k"><div class="l">sign-stable</div><div class="v">'+nStable+'/'+sA.n+'</div></div></div>'+
+    '<p class="hint">A non-zero <b>mean</b> is a systematic HFA statement, not a set of edges: at the house constant 2.3 the FBS-FBS mean error runs about +1 pt (we give the home team too little), and near 3.5 it vanishes. '+
+    'That is why nothing is looked at unless its sign survives <b>both</b> constants'+(same?' — and with HFA set to '+hA.toFixed(1)+' the two endpoints coincide, so the stability test is currently vacuous.':'.')+' '+
+    'FCS-at-FBS rows are excluded from every aggregate: their error is ≈ +9 pts in all lenses, which measures our FCS tier rather than the FBS host.</p>'+
+    '<div class="kv"><label class="hint">Sort: </label><select id="gsort">'+
+      '<option value="edge"'+(key==='edge'?' selected':'')+'>Disagreement (conservative)</option>'+
+      '<option value="books"'+(key==='books'?' selected':'')+'>Book count</option>'+
+      '<option value="posted"'+(key==='posted'?' selected':'')+'>Posted spread</option></select>'+
+    '<label class="hint">Slate: </label><select id="gbucket">'+
+      ['all','Week 0','Week 1','Game of the Year'].map(function(b){
+        return '<option value="'+b+'"'+(bucket===b?' selected':'')+'>'+(b==='all'?'All':b)+'</option>';}).join('')+
+    '</select><label class="hint"><input type="checkbox" id="gfcs"'+(showFcs?' checked':'')+'> show FCS / unjoined rows</label></div>';
+  h+='<table><thead><tr><th>Game</th><th>Slate</th><th>Bk</th><th>Posted</th><th>Ours ('+hA.toFixed(1)+')</th>'+
+     '<th>Err ('+hA.toFixed(1)+')</th><th>Err ('+hB.toFixed(1)+')</th><th></th><th>Nominal side</th><th>Team read @'+hB.toFixed(1)+'</th><th>Ident</th></tr></thead><tbody>';
+  rows.forEach(function(r){
+    var g=r.g, tag=g.tier==='fbs'?'':(g.tier==='fcs'?' <span class="chip fcs">FCS</span>':' <span class="chip reclass">unjoined</span>');
+    var sp=gSpread(g,hA);
+    h+='<tr'+(g.tier==='fbs'?' data-nk="'+g.href+'"':'')+'><td>'+esc(g.away)+' @ '+esc(g.home)+tag+
+       (g.assumed?' <span class="chip">site assumed</span>':'')+'</td>'+
+       '<td class="mut">'+esc(g.bucket)+'</td><td class="mut">'+g.nb+'</td>'+
+       '<td>'+(g.posted==null?'—':sgn(g.posted,1))+'</td>'+
+       '<td class="mut">'+(sp==null?'—':sgn(sp,1))+'</td>'+
+       // the sign here is DIRECTION (which side the nominal value sits on), not quality. Deliberately
+       // NOT coloured pos/neg -- everywhere else on the board green/red means +EV/-EV, and a big
+       // negative err is exactly as interesting as a big positive one.
+       '<td>'+(r.eA==null?'—':'<span class="'+(Math.abs(r.eA)>=3?'edge-strong':'mut')+'">'+sgn(r.eA,2)+'</span>')+'</td>'+
+       '<td class="mut">'+(r.eB==null?'—':sgn(r.eB,2))+'</td>'+
+       '<td>'+(r.cons==null?'':(r.stable?'':'<span class="chip fcs">flips</span>'))+'</td>'+
+       '<td class="mut">'+(r.side?esc(r.side)+' '+sgn(r.num,1):'—')+'</td>'+
+       '<td class="mut">'+(r.loc?sgn(-r.loc.d,2):'—')+'</td>'+
+       '<td class="mut">'+(r.loc?(r.loc.n>=2?'yes':(r.loc.n===1?'partial':'<span class="chip fcs">no</span>')):'—')+'</td></tr>';
+  });
+  h+='</tbody></table>'+
+     '<p class="hint">'+rows.length+' rows shown. <b>Err</b> = our home spread − the posted home spread; positive means the market rates the <b>home</b> team higher than we do, so the nominal value sits on the away side. '+
+     '<b>Ours</b> is the raw-lens model spread at the live HFA. <b>Team read</b> attributes the gap to the named side after netting out the opponent&rsquo;s read from that opponent&rsquo;s <i>other</i> capture games '+
+     '(<b>positive = our rating sits above the market-implied one</b> for that team, i.e. the disagreement really does belong to the named side). A <i>negative</i> read on the nominal side is a warning: '+
+     'the localized attribution puts the gap on the <b>opponent</b> instead — we are not rating the named team above the market, we are rating its opponent below it. '+
+     'It is fixed at HFA '+hB.toFixed(1)+' on purpose and does <b>not</b> follow the live control: an attributed team number is only interpretable where the aggregate mean error is ~0, '+
+     'otherwise it just re-reports the HFA gap. <b>Ident</b> is how many other capture games the opponent has: <i>yes</i> ≥2, <i>partial</i> 1, '+
+     '<i>no</i> = 0, meaning the pair is <b>unidentifiable</b> — the attribution is then an upper bound, not an estimate, and a 50/50 split is all the data supports. '+
+     'Thin books (1–2) are the noisiest rows and routinely give the same team contradictory signs. Row click opens the home team on the Team tab.</p></div>';
+  v.innerHTML=h;
+  document.getElementById('gsort').onchange=function(){state.gamesSort=this.value;redraw(renderGames);};
+  document.getElementById('gbucket').onchange=function(){state.gamesBucket=this.value;redraw(renderGames);};
+  document.getElementById('gfcs').onchange=function(){state.gamesFcs=this.checked;redraw(renderGames);};
+  Array.prototype.forEach.call(v.querySelectorAll('tr[data-nk]'),function(tr){
+    tr.style.cursor='pointer';
+    tr.onclick=function(){ state.team=tr.getAttribute('data-nk'); setTab('team'); };
   });
 }
 
@@ -555,13 +925,13 @@ function renderTeam(){
   }
   v.innerHTML=h;
 
-  document.getElementById('teamsel').onchange=function(){state.team=this.value;renderTeam();};
+  document.getElementById('teamsel').onchange=function(){state.team=this.value;redraw(renderTeam);};
   var fin=document.getElementById('ov-final'), bnd=document.getElementById('ov-band');
-  fin.onchange=function(){ setOverride(nk,'final',parseFloat(this.value)); renderTeam(); };
-  bnd.onchange=function(){ setOverride(nk,'band',parseFloat(this.value)); renderTeam(); };
-  var rev=document.getElementById('revert'); if(rev) rev.onclick=function(e){e.preventDefault();delete state.overrides[nk];refreshOvbar();renderTeam();};
+  fin.onchange=function(){ setOverride(nk,'final',parseFloat(this.value)); redraw(renderTeam); };
+  bnd.onchange=function(){ setOverride(nk,'band',parseFloat(this.value)); redraw(renderTeam); };
+  var rev=document.getElementById('revert'); if(rev) rev.onclick=function(e){e.preventDefault();delete state.overrides[nk];refreshOvbar();redraw(renderTeam);};
   Array.prototype.forEach.call(v.querySelectorAll('input[data-ref]'),function(inp){
-    inp.onchange=function(){ setOverride(inp.getAttribute('data-ref'),'final',parseFloat(this.value)); renderTeam(); };
+    inp.onchange=function(){ setOverride(inp.getAttribute('data-ref'),'final',parseFloat(this.value)); redraw(renderTeam); };
   });
 }
 
@@ -621,7 +991,7 @@ function renderExplainer(){
     h+='<p class="hint">The band ±'+t.band.toFixed(1)+' is our 1-SD uncertainty on the final number.</p></div>';
   } else h+='<div class="panel"><p class="hint">No derivation on file.</p></div>';
   v.innerHTML=h;
-  document.getElementById('explsel').onchange=function(){state.expl=this.value;renderExplainer();};
+  document.getElementById('explsel').onchange=function(){state.expl=this.value;redraw(renderExplainer);};
 }
 function row2(l1,v1,l2,v2){ return '<tr><td>'+l1+'</td><td>'+v1+'</td><td style="color:var(--dim)">'+l2+'</td><td>'+v2+'</td></tr>'; }
 
@@ -664,13 +1034,14 @@ function renderMethod(){
   '3-pt favorite '+pct(ENG.phi(3/state.sigma))+', 7-pt '+pct(ENG.phi(7/state.sigma))+', 10-pt '+pct(ENG.phi(10/state.sigma))+', 14-pt '+pct(ENG.phi(14/state.sigma))+'.</p>'+
   '</div>';
   v.innerHTML=h;
-  function bind(id,key,fn){ var el=document.getElementById(id); el.onchange=function(){ var x=parseFloat(this.value); if(!isNaN(x)){ state[key]=x; refreshOvbar(); renderMethod(); } }; }
+  function bind(id,key,fn){ var el=document.getElementById(id); el.onchange=function(){ var x=parseFloat(this.value); if(!isNaN(x)){ state[key]=x; refreshOvbar(); redraw(renderMethod); } }; }
   bind('m-hfa','hfa'); bind('m-sig','sigma'); bind('m-bts','bts'); bind('m-cal','cal');
-  document.getElementById('m-reset').onclick=function(e){e.preventDefault();state.hfa=P.meta.hfa;state.sigma=P.meta.sigma_game;state.bts=P.meta.band_to_sd;state.cal=(P.meta.cal_shrink||0.75);refreshOvbar();renderMethod();};
+  document.getElementById('m-reset').onclick=function(e){e.preventDefault();state.hfa=P.meta.hfa;state.sigma=P.meta.sigma_game;state.bts=P.meta.band_to_sd;state.cal=(P.meta.cal_shrink||0.75);refreshOvbar();redraw(renderMethod);};
 }
 
 // ---------- tab machinery ----------
-var RENDER={board:renderBoard, props:renderProps, team:renderTeam, explainer:renderExplainer, method:renderMethod};
+var RENDER={board:renderBoard, props:renderProps, qbprops:renderQbProps, games:renderGames,
+            team:renderTeam, explainer:renderExplainer, method:renderMethod};
 function setTab(name){
   Array.prototype.forEach.call(document.querySelectorAll('#tabs button'),function(b){b.classList.toggle('on',b.getAttribute('data-tab')===name);});
   Array.prototype.forEach.call(document.querySelectorAll('.view'),function(v){v.classList.remove('on');});
