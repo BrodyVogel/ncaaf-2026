@@ -1,0 +1,21 @@
+team,cat,side,line,stake,our_p,wt_delta,n_games,opp_other,spread_delta,spread_delta_split,p_reprice_split,move_split,ridge_l1,p_reprice,move,confirm_ratio,direction
+Tulsa,regular,over,5.5,1.1,0.66,-5.26,1,1,-2.86,-2.86,0.5638,-9.6,-1.85,0.5638,-9.6,0.54,against
+UConn,regular,over,5.5,1.07,0.657,-5.51,0,,,,,,,,,,
+Bowling Green,regular,over,4.5,1.05,0.728,-4.33,0,,,,,,,,,,
+Wake Forest,regular,over,5.5,0.9,0.634,-3.12,1,0,-2.38,-1.19,0.5946,-3.9,-0.79,0.5543,-8.0,0.38,against
+Rutgers,regular,over,4.5,0.8,0.708,-4.8,1,0,-1.45,-0.72,0.6862,-2.2,-0.48,0.6635,-4.5,0.15,against
+Buffalo,regular,over,5.5,0.75,0.695,-3.4,0,,,,,,,,,,
+Oregon State,regular,over,3.5,0.65,0.726,-5.33,1,0,-0.71,-0.36,0.7166,-0.9,-0.24,0.7069,-1.9,0.07,against
+Illinois,regular,under,7.5,0.65,0.679,2.84,1,0,2.49,1.25,0.6392,-4.0,0.83,0.5979,-8.1,0.44,against
+Pittsburgh,conference,under,5.5,0.65,0.653,2.9,1,0,0.62,0.31,0.6436,-0.9,0.21,0.6338,-1.9,0.11,against
+Liberty,regular,under,8.5,0.6,0.701,5.0,1,0,5.23,2.62,0.6199,-8.1,1.74,0.5331,-16.8,0.52,against
+Hawai'i,regular,under,7.5,0.6,0.618,2.27,2,1,1.97,1.97,0.5513,-6.7,0.93,0.5513,-6.7,0.87,against
+Wisconsin,regular,under,6.5,0.6,0.568,2.22,1,1,-0.13,-0.13,0.5721,0.4,0.75,0.5721,0.4,-0.06,supports
+Arizona State,regular,under,6.5,0.55,0.609,3.61,1,1,5.04,5.04,0.4299,-17.9,1.07,0.4299,-17.9,1.4,against
+Kennesaw State,regular,over,6.5,0.55,0.55,-2.56,0,,,,,,,,,,
+East Carolina,regular,over,7.5,0.55,0.612,-3.74,1,3,-7.54,-7.54,0.3577,-25.4,-3.45,0.3577,-25.4,2.02,against
+UCF,conference,over,3.5,0.55,0.595,-2.44,0,,,,,,,,,,
+West Virginia,regular,under,5.5,0.5,0.515,2.74,1,0,5.3,2.65,0.4211,-9.4,1.77,0.3312,-18.4,0.97,against
+Florida,conference,under,4.5,0.5,0.583,2.65,1,0,0.58,0.29,0.5739,-0.9,0.19,0.5649,-1.8,0.11,against
+Florida,regular,under,6.5,0.4,0.497,3.36,1,0,0.58,0.29,0.4881,-0.9,0.19,0.4787,-1.8,0.09,against
+Arizona State,conference,under,4.5,0.4,0.613,3.93,1,1,5.04,5.04,0.4411,-17.2,1.07,0.4411,-17.2,1.28,against

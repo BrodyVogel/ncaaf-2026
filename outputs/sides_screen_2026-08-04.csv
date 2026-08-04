@@ -1,0 +1,59 @@
+away,home,bucket,books,posted,ours,edge,value_side,value_number,team_read,opp_other_games,identified
+East Carolina,Alabama,Week 1,8,-28.5,-19.31,9.19,East Carolina,28.5,7.54,3,yes
+Ohio State,Texas,Game of the Year,8,-1.5,5.16,6.66,Ohio State,1.5,3.86,2,yes
+North Texas,Indiana,Week 1,8,-40.5,-34.84,5.66,North Texas,40.5,5.49,2,yes
+Coastal Carolina,West Virginia,Week 1,8,-21.0,-15.7,5.3,Coastal Carolina,21.0,5.3,0,no
+Ohio,Nebraska,Week 1,8,-24.0,-19.63,4.37,Ohio,24.0,4.37,0,no
+Oklahoma State,Tulsa,Week 1,8,13.5,8.08,4.22,Tulsa,13.5,2.86,1,partial
+San José State,USC,Week 0,8,-38.5,-34.35,4.15,San José State,38.5,3.47,2,yes
+Liberty,James Madison,Week 1,8,-6.5,-11.73,4.03,James Madison,-6.5,5.23,0,no
+Jacksonville State,North Dakota State,Week 0,8,-7.5,-12.69,3.99,North Dakota State,-7.5,5.19,0,no
+Memphis,UNLV,Week 0,8,-5.5,-1.53,3.97,Memphis,5.5,5.02,1,partial
+Ball State,Ohio State,Week 1,8,-50.5,-55.47,3.77,Ohio State,-50.5,4.97,0,no
+Arkansas,Utah,Game of the Year,2,-7.5,-12.43,3.73,Utah,-7.5,4.93,0,no
+New Mexico State,Florida State,Week 0,8,-30.5,-26.89,3.61,New Mexico State,30.5,3.86,1,partial
+Missouri State,Texas A&M,Week 1,8,-39.0,-35.73,3.27,Missouri State,39.0,5.04,1,partial
+Arkansas State,Memphis,Week 1,8,-10.5,-14.95,3.25,Memphis,-10.5,4.45,0,no
+Texas State,Texas,Week 1,8,-30.5,-27.61,2.89,Texas State,30.5,-1.8,2,yes
+Texas,Oklahoma,Game of the Year,1,6.5,3.79,2.71,Oklahoma,6.5,-2.07,2,yes
+BYU,Utah,Game of the Year,1,-3.0,-0.37,2.63,BYU,3.0,7.56,1,partial
+Wisconsin,Notre Dame,Week 1,8,-20.5,-23.07,2.57,Notre Dame,-20.5,2.57,0,no
+Oregon,Oklahoma State,Game of the Year,5,17.5,20.06,2.56,Oregon,-17.5,-2.86,1,partial
+UAB,Illinois,Week 1,8,-27.5,-25.01,2.49,UAB,27.5,2.49,0,no
+Tulane,Duke,Week 1,8,-10.0,-7.6,2.4,Tulane,10.0,2.4,0,no
+Miami,Stanford,Week 1,8,23.5,19.92,2.38,Stanford,23.5,0.88,1,partial
+Iowa State,Iowa,Game of the Year,4,-12.5,-15.79,2.09,Iowa,-12.5,3.29,0,no
+Boise State,Oregon,Week 1,8,-24.5,-27.61,1.91,Oregon,-24.5,3.11,0,no
+Georgia,Alabama,Game of the Year,1,2.5,4.4,1.9,Georgia,-2.5,-2.18,3,yes
+Michigan,Ohio State,Game of the Year,1,-13.5,-16.57,1.87,Ohio State,-13.5,2.74,2,yes
+Auburn,Alabama,Game of the Year,1,-10.5,-8.67,1.83,Auburn,10.5,-2.28,3,yes
+Marshall,Penn State,Week 1,8,-23.5,-26.53,1.83,Penn State,-23.5,3.03,0,no
+Toledo,Michigan State,Week 1,8,-11.5,-9.85,1.65,Toledo,11.5,1.65,0,no
+Kent State,South Carolina,Week 1,8,-34.5,-32.97,1.53,Kent State,34.5,1.53,0,no
+Miami,Notre Dame,Game of the Year,2,-7.0,-9.7,1.5,Notre Dame,-7.0,-0.88,1,partial
+San José State,Eastern Michigan,Week 1,8,-4.5,-3.04,1.46,San José State,4.5,3.38,1,partial
+Florida International,South Florida,Week 1,8,-12.5,-15.15,1.45,South Florida,-12.5,2.65,0,no
+Hawai'i,Stanford,Week 0,8,-4.5,-7.0,1.3,Stanford,-4.5,1.45,1,partial
+Akron,Wake Forest,Week 1,8,-22.5,-24.88,1.18,Wake Forest,-22.5,2.38,0,no
+UL Monroe,Mississippi State,Week 1,8,-29.5,-28.36,1.14,UL Monroe,29.5,1.14,0,no
+Wyoming,Colorado State,Week 1,8,-3.5,-5.8,1.1,Colorado State,-3.5,2.3,0,no
+Fresno State,USC,Week 1,8,-23.5,-22.41,1.09,Fresno State,23.5,-1.12,2,yes
+UNLV,Hawai'i,Week 1,8,1.0,2.05,1.05,UNLV,-1.0,-1.45,1,partial
+UTEP,Oklahoma,Week 1,8,-40.5,-39.46,1.04,UTEP,40.5,2.2,2,yes
+Western Michigan,Michigan,Week 1,8,-26.5,-25.47,1.03,Western Michigan,26.5,-0.31,2,yes
+UCLA,California,Week 1,8,1.0,-1.17,0.97,California,1.0,2.17,0,no
+Louisville,Ole Miss,Week 1,8,-6.5,-7.25,0.75,Ole Miss,-6.5,0.75,0,no
+Central Michigan,New Mexico,Week 1,8,-12.5,-11.76,0.74,Central Michigan,12.5,0.74,0,no
+Sacramento State,Eastern Michigan,Week 0,8,-8.0,-9.92,0.72,Eastern Michigan,-8.0,1.92,0,no
+LSU,Ole Miss,Game of the Year,1,-2.5,-4.42,0.72,Ole Miss,-2.5,3.1,2,yes
+Oregon State,Houston,Week 1,8,-19.5,-18.79,0.71,Oregon State,19.5,0.71,0,no
+North Carolina,TCU,Week 0,8,-7.0,-6.33,0.67,North Carolina,7.0,0.67,0,no
+Miami (OH),Pittsburgh,Week 1,8,-16.5,-15.88,0.62,Miami (OH),16.5,0.62,0,no
+Ohio State,Indiana,Game of the Year,1,1.5,2.09,0.59,Ohio State,-1.5,-2.11,2,yes
+Florida Atlantic,Florida,Week 1,8,-26.5,-25.92,0.58,Florida Atlantic,26.5,0.58,0,no
+Washington State,Washington,Week 1,8,-21.5,-20.93,0.57,Washington State,21.5,0.57,0,no
+Arizona State,Texas A&M,Game of the Year,3,-14.5,-16.27,0.57,Texas A&M,-14.5,1.77,0,no
+Baylor,Auburn,Week 1,8,-7.0,-7.43,0.43,Auburn,-7.0,0.43,0,no
+Massachusetts,Rutgers,Week 1,7,-30.5,-31.95,0.25,Rutgers,-30.5,1.45,0,no
+NC State,Virginia,Week 0,7,-5.5,-6.73,0.03,Virginia,-5.5,1.23,0,no
+Alabama,LSU,Game of the Year,1,-3.5,-4.73,0.03,LSU,-3.5,-3.08,3,yes
