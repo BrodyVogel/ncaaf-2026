@@ -1,0 +1,155 @@
+[
+ {
+  "qb": "Arch Manning",
+  "line": 2850.5,
+  "pace0": 245,
+  "ratio": 0.97,
+  "transfer": false,
+  "p_under_v1": 0.566,
+  "verdict": "UNDER  +3.6"
+ },
+ {
+  "qb": "Bear Bachmeier",
+  "line": 2575.5,
+  "pace0": 208,
+  "ratio": 1.032,
+  "transfer": false,
+  "p_under_v1": 0.621,
+  "verdict": "UNDER  +9.1"
+ },
+ {
+  "qb": "CJ Bailey",
+  "line": 2600.5,
+  "pace0": 240,
+  "ratio": 0.903,
+  "transfer": false,
+  "p_under_v1": 0.484,
+  "verdict": "pass"
+ },
+ {
+  "qb": "CJ Carr",
+  "line": 2875.5,
+  "pace0": 245,
+  "ratio": 0.978,
+  "transfer": false,
+  "p_under_v1": 0.576,
+  "verdict": "UNDER  +4.5"
+ },
+ {
+  "qb": "Conner Weigman",
+  "line": 2475.5,
+  "pace0": 206,
+  "ratio": 1.001,
+  "transfer": false,
+  "p_under_v1": 0.602,
+  "verdict": "UNDER  +7.1"
+ },
+ {
+  "qb": "Dante Moore",
+  "line": 2850.5,
+  "pace0": 228,
+  "ratio": 1.042,
+  "transfer": false,
+  "p_under_v1": 0.628,
+  "verdict": "UNDER  +9.7"
+ },
+ {
+  "qb": "Darian Mensah",
+  "line": 2900.5,
+  "pace0": 280,
+  "ratio": 0.863,
+  "transfer": false,
+  "p_under_v1": 0.462,
+  "verdict": "over   +0.7"
+ },
+ {
+  "qb": "Demond Williams",
+  "line": 2575.5,
+  "pace0": 238,
+  "ratio": 0.902,
+  "transfer": false,
+  "p_under_v1": 0.482,
+  "verdict": "pass"
+ },
+ {
+  "qb": "Drew Mestemaker",
+  "line": 3000.5,
+  "pace0": 317,
+  "ratio": 0.789,
+  "transfer": true,
+  "p_under_v1": 0.619,
+  "verdict": "UNDER  +8.9"
+ },
+ {
+  "qb": "Gunner Stockton",
+  "line": 2650.5,
+  "pace0": 207,
+  "ratio": 1.067,
+  "transfer": false,
+  "p_under_v1": 0.633,
+  "verdict": "UNDER  +10.3"
+ },
+ {
+  "qb": "Jayden Maiava",
+  "line": 3075.5,
+  "pace0": 286,
+  "ratio": 0.896,
+  "transfer": false,
+  "p_under_v1": 0.478,
+  "verdict": "pass"
+ },
+ {
+  "qb": "John Mateer",
+  "line": 2475.5,
+  "pace0": 234,
+  "ratio": 0.882,
+  "transfer": false,
+  "p_under_v1": 0.471,
+  "verdict": "pass"
+ },
+ {
+  "qb": "Josh Hoover",
+  "line": 2800.5,
+  "pace0": 289,
+  "ratio": 0.808,
+  "transfer": true,
+  "p_under_v1": 0.622,
+  "verdict": "UNDER  +9.2"
+ },
+ {
+  "qb": "Julian Sayin",
+  "line": 3000.5,
+  "pace0": 256,
+  "ratio": 0.977,
+  "transfer": false,
+  "p_under_v1": 0.574,
+  "verdict": "UNDER  +4.4"
+ },
+ {
+  "qb": "LaNorris Sellers",
+  "line": 2525.5,
+  "pace0": 213,
+  "ratio": 0.988,
+  "transfer": false,
+  "p_under_v1": 0.587,
+  "verdict": "UNDER  +5.7"
+ },
+ {
+  "qb": "Nico Iamaleava",
+  "line": 2175.5,
+  "pace0": 175,
+  "ratio": 1.036,
+  "transfer": false,
+  "p_under_v1": 0.624,
+  "verdict": "UNDER  +9.3"
+ },
+ {
+  "qb": "Trinidad Chambliss",
+  "line": 2800.5,
+  "pace0": 296,
+  "ratio": 0.788,
+  "transfer": false,
+  "p_under_v1": 0.456,
+  "verdict": "over   +1.4"
+ }
+]
