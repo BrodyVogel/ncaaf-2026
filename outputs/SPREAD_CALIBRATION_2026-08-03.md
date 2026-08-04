@@ -82,3 +82,17 @@ Rutgers, UMass, Nevada, ASU, Oregon State, Wake, Pitt, Florida, Hawai'i
 FCSR spelling aliases (UAlbany etc.); HFA study on the games archive; NDSU
 reclass grade review; re-pull this capture near close for CLV once bets are
 graded; MSU@Nevada line watch (re-entry trigger).
+
+## CORRECTION (2026-08-03, owner-reported transcription error, append-only)
+
+The JaxState@NDSU row was transcribed with the wrong sign in the source sheet:
+Jacksonville State is CATCHING 7.5, i.e. posted NDSU −7.5 (not +7.5). §4 is
+retracted as written: the "19-point outlier" is a data-entry artifact. The
+corrected read is posted −7.5 vs payload raw −11.5 — market rates NDSU ~4 pts
+below payload, a mild lean inside the single-game noise band, same direction
+and size as the Sacramento State wk0 read (~3). Transition-team payload review
+downgraded from "recommended" to watch-list; the Hawai'i-U/Nevada-re-entry
+implications shrink to noise. Corrected aggregates (FBS-FBS n=62): raw MAE
+2.50 (was 2.75), slope 1.020, corr 0.978, mean −1.08; HFA read firms slightly
+to ~3.5 implied vs our 2.3. Dataset CSV corrected in place; owner may want to
+fix the source xlsx cell for his own records.
