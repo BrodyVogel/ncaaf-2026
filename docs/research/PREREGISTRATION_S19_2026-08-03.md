@@ -75,3 +75,39 @@ SP+-only baseline.
 
 2026 magazine content (already consumed by the dossier layer under its own
 rules); betting decisions of any kind; in-season updates.
+
+## AMENDMENT 1 (2026-08-03, owner-approved, still PRE-extraction)
+
+Registered before any magazine content has been staged or read; the taxonomy
+grows to include, each tagged (direction|variance) × (team|player):
+
+- **T7 Anonymous opposing-coach quotes** (Athlon) — valence −2..+2, phrase
+  rules frozen in the extraction script. Direction; team+unit. Priority type.
+- **T8 Variance family** — scheme/coordinator change, unresolved QB battle,
+  hot-seat coach (incl. modern portal-decay channel: hot-seat × weak roster →
+  directional late-season under), mass turnover. Outcome |miss|, feeds band
+  machinery.
+- **T9 Player-level module** — preseason AA/all-conference vs anchor-implied
+  grade (registered TWO-SIDED: owner's outperform-if-healthy vs name-inertia
+  overpricing); offseason-change narratives (variance-first); system-fit
+  (player type × scheme tag). Outcome: realized 2025 PFF grade/production vs
+  expectation; n in the hundreds — the power escape from single-season
+  team-level limits.
+- **T10 Cross-magazine consensus/disagreement** — Steele & Athlon jointly vs
+  SP+ (agreement = F1-style arm; disagreement = variance).
+- **T11 Two-deep friction** — count of printed "OR" designations per team;
+  validate externally against our band L-counts; test |miss|.
+- **T12 Steele returning-starter delta** — his idiosyncratic count minus the
+  standard count (the judgment embedded in his adjustment). Direction.
+- **T13 Schedule texture** (road strings, bye placement, body-clock flags) —
+  residual direction test; the market prices SOS, maybe not texture.
+- **Asymmetry hypothesis (formalizing owner's negativity thesis):** in
+  promotional print, negative content is costly ⇒ REGISTERED PREDICTION:
+  |effect of negative items| > |effect of positive items| within T3/T5/T7.
+- **Market-attention discipline:** every test carries a G5/P4 interaction —
+  July lines have already read June print; surviving signal should
+  concentrate where the market digests print worst.
+
+Cut list (considered, excluded): coach press-conference tone (no selection
+pressure), bowl projections (redundant with T4), recruiting-trajectory notes
+(inside the anchor already).
