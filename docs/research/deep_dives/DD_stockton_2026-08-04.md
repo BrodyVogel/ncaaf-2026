@@ -528,3 +528,44 @@ before computation; see PRICER_V2_SPEC_2026-08-04.md). Reconciliation:
 - **Verdict unchanged: BET 0.10u, owner approval pending** — now 8th on the
   v2 board rather than 1st on v1's. The sizing logic in §7 (availability is
   the whole edge and the softest input) stands.
+
+---
+
+## RECHECK (2026-08-04, owner-requested; v2-consistent framework, append-only)
+
+Full re-derivation under the machinery now standard across DDs 2-3 (v2
+conditionals + judgment hazard + CCG-aware 13th-game mass + k=0.85):
+
+| estimator | p | edge |
+|---|---|---|
+| v2 mechanical (base secure hazard, panel P(13)=.062) | 0.614 | +8.4 |
+| **recheck overlay: P(12+)=.50, CCG-INCLUDED (P13=.23)** | **0.579** | **+4.9** |
+| recheck overlay: P(12+)=.50, strict-12 | 0.604 | +7.4 |
+| DD 1 original judgment layer (for reference) | 0.588 | +5.7 |
+
+Conditionals at μ̂=230.6: P(under|G=13/12/11/10/9) = .29/.42/.58/.75/.89.
+
+**Reconciliation of the three prior numbers.** DD 1's empirical cell inputs
+(P(u|12+)=.32, P(u|<12)=.93) vs the sim's (.42, ~.75-.80 weighted): the .32 is
+inside its own CI [13,54] of the sim value; the .93 is validated by the cell's
+sub-12 games distribution, which clusters LOW (median 8 games — the missing
+seasons are big misses, not 11-game near-misses). The two biases roughly
+cancel; DD 1's +5.7 lands almost exactly on the consistent framework's central
+value. **The v2-addendum's +9.0 was the outlier** (base hazard, no CCG mass) —
+the DD 1 arithmetic was closer to right than its own reconciliation implied.
+
+**New availability datum:** Stockton played through a mid-season **oblique**
+injury in 2025 (his own account, DawgNation newsletter, July 2026) in addition
+to the resolved spring knee. Both minor and resolved; both consistent with the
+"real rush exposure" note in §2. No camp red flags through 2026-08-03
+(Bulldawg daily threads running quiet; camp opened on schedule).
+
+**Kill-criteria status:** none triggered. No line information since the
+2026-08-03 capture (re-confirm at fill); no Puglisi movement; no tempo
+reports.
+
+**RECHECK VERDICT: BET 0.10u REAFFIRMED — central edge ≈ +6 (range +4.9
+CCG-included to +7.4 excluded).** Ranking note for the cull: this is now the
+THINNEST of the four live legs (Sayin ~+10, Mestemaker ~+10, Moore ~+6,
+Stockton ~+6 with the widest CCG sensitivity). If the FD text confirms CCGs
+are INCLUDED and the ≤5 cap binds after Carr's dive, this is the natural cut.
