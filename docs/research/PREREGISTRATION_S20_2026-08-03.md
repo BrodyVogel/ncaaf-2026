@@ -70,3 +70,27 @@ cap per prop, max 5 props until the first season settles, owner approves each.
 Soft-market caveat logged: FD first-post limits are low and the 17 names are
 the shaded marquee subset. Deviations from this doc get timestamped notes in
 the findings file.
+
+## AMENDMENT 1 (2026-08-03, owner-prompted, registered BEFORE these cuts are run)
+
+The owner's objection to the pilot: the posted 17 skew (a) second-year
+clearcut starters, (b) preseason all-conference profiles, (c) draft/award-
+motivated volume seekers — none conditioned on in H1/H2. Registered subgroup
+analyses, run on the existing frozen panel immediately after this commit:
+
+- **H10 — year-2 starter cut.** Panel rows where t−1 was the QB's FIRST
+  ≥250-att season and no prior season ≥150 att (window 2020+; left-censoring
+  noted, t restricted to 2022–2025). Report under rate, P(12+ games), pace
+  change vs the rest of the panel. Prediction left TWO-SIDED: development
+  offsets reversion by an unknown amount.
+- **H11 — elite-profile cut** (ex-ante proxy for "preseason all-conference,"
+  pending the true honors flags from S19 extraction / research sweep):
+  t−1 PFF pass grade ≥ 80, sensitivity at ≥ 75. Same reports.
+- **H12 — the Sayin/Moore/Carr analog cell:** H10 ∩ (grade ≥ 75). Small-n
+  expected; report with exact binomial CIs, no bar claims either way.
+- Decision rule, registered now: if the analog cell's under rate (point
+  estimate) falls below 55%, the v0 pilot slate is WITHDRAWN pending the
+  full pricer (H4/H6/H9 layers + holdout calibration). If it holds ≥60% with
+  n ≥ 15, the pilot returns to the owner with that number attached. In
+  between: held, more evidence required. No stake in any case without
+  explicit owner approval of each leg.
