@@ -1,0 +1,118 @@
+bucket,away,home,type,site,site_src,h_spread,total,sp_book,n_books,calibrated,market_matched,raw
+Week 0,Sacramento State,Eastern Michigan,FBS at FBS,1,payload,-8.0,53.5,Caesars,8,-7.53,-9.68,-8.72
+Week 0,New Mexico State,Florida State,FBS at FBS,1,payload,-30.5,53.5,BetMGM,8,-21.39,-29.2,-25.69
+Week 0,Jacksonville State,North Dakota State,FBS at FBS,1,payload,7.5,48.5,Caesars,8,-9.8,-12.87,-11.49
+Week 0,Hawai’i,Stanford,FBS at FBS,1,payload,-4.5,50.5,FanDuel,8,-5.16,-6.32,-5.8
+Week 0,North Carolina,TCU,FBS at FBS,0,payload,-7.0,48.5,BetMGM,8,-5.16,-7.28,-6.33
+Week 0,Memphis,UNLV,FBS at FBS,1,payload,-5.5,59.5,Caesars,8,-0.69,-0.04,-0.33
+Week 0,San José State,USC,FBS at FBS,1,payload,-38.5,59.5,BetMGM,8,-27.48,-37.78,-33.15
+Week 0,NC State,Virginia,FBS at FBS,1,payload,-5.5,54.5,bet365,7,-4.93,-6.01,-5.53
+Week 1,University at Albany,Buffalo,FCS at FBS,1.0,assumed-home,-26.5,48.5,FanDuel,3,,,
+Week 1,Merrimack,Delaware,FCS at FBS,1,payload,-28.5,56.5,FanDuel,3,-40.11,-36.41,-38.07
+Week 1,Colorado,Georgia Tech,FBS at FBS,1,payload,-7.5,51.5,bet365,8,-5.92,-7.39,-6.73
+Week 1,UAB,Illinois,FBS at FBS,1,payload,-27.5,56.5,FanDuel,8,-19.85,-27.04,-23.81
+Week 1,West Georgia,Kennesaw State,FCS at FBS,1,payload,-23.5,53.5,FanDuel,3,-40.39,-37.21,-38.64
+Week 1,Eastern Illinois,Minnesota,FCS at FBS,1,payload,-45.5,51.5,FanDuel,3,-51.52,-53.3,-52.5
+Week 1,Arkansas-Pine Bluff,Missouri,FCS at FBS,1,payload,-52.5,60.5,FanDuel,3,-59.48,-63.7,-61.8
+Week 1,UMass,Rutgers,FBS at FBS,1,payload,-30.5,55.5,FanDuel,7,-25.51,-35.02,-30.75
+Week 1,Bethune-Cookman,UCF,FCS at FBS,1,payload,-38.5,57.5,FanDuel,3,-49.4,-50.32,-49.91
+Week 1,Idaho,Utah,FCS at FBS,1,payload,-34.5,57.5,FanDuel,3,-41.73,-46.05,-44.11
+Week 1,Akron,Wake Forest,FBS at FBS,1,payload,-22.5,49.5,FanDuel,8,-19.75,-26.89,-23.68
+Week 1,San José State,Eastern Michigan,FBS at FBS,1,payload,-4.5,54.5,Caesars,8,-1.92,-1.77,-1.84
+Week 1,North Carolina A&T,Georgia State,FCS at FBS,1,payload,-27.5,63.5,FanDuel,3,-31.5,-25.51,-28.2
+Week 1,LIU,Kansas,FCS at FBS,1.0,assumed-home,-40.5,52.5,FanDuel,2,,,
+Week 1,Toledo,Michigan State,FBS at FBS,1,payload,-11.5,48.5,Caesars,8,-7.47,-9.6,-8.65
+Week 1,UTEP,Oklahoma,FBS at FBS,1,payload,-40.5,50.5,Caesars,8,-31.64,-43.65,-38.26
+Week 1,Indiana State,Purdue,FCS at FBS,1,payload,-36.5,57.5,FanDuel,3,-42.04,-41.17,-41.56
+Week 1,Miami (FL),Stanford,FBS at FBS,1,payload,23.5,49.5,FanDuel,8,16.8,24.63,21.12
+Week 1,Fresno State,USC,FBS at FBS,1,payload,-23.5,51.5,Caesars,8,-17.74,-24.05,-21.21
+Week 1,Duquesne,Air Force,FCS at FBS,1,payload,-28.0,56.5,Fanatics,2,-40.86,-39.1,-39.89
+Week 1,East Carolina,Alabama,FBS at FBS,1,payload,-28.5,54.5,DraftKings,8,-15.2,-20.48,-18.11
+Week 1,Maine,Appalachian State,FCS at FBS,1,payload,-18.5,51.5,FanDuel,2,-36.74,-33.3,-34.85
+Week 1,Northern Arizona,Arizona,FCS at FBS,1,payload,-29.5,57.5,FanDuel,2,-48.52,-51.54,-50.18
+Week 1,Morgan State,Arizona State,FCS at FBS,1,payload,-42.5,52.5,Fanatics,2,-50.96,-52.52,-51.82
+Week 1,North Alabama,Arkansas,FCS at FBS,1,payload,-40.5,61.5,FanDuel,2,-47.44,-48.78,-48.18
+Week 1,Bryant,Army,FCS at FBS,1,payload,-38.5,51.5,FanDuel,2,-43.49,-42.8,-43.11
+Week 1,Baylor,Auburn,FBS at FBS,0,payload,-7.0,59.5,Caesars,8,-6.06,-8.54,-7.43
+Week 1,Utah Tech,BYU,FCS at FBS,1,payload,-48.5,55.5,FanDuel,2,-62.28,-67.65,-65.24
+Week 1,Tarleton State,Bowling Green,FCS at FBS,1,payload,-2.5,47.5,FanDuel,1,-6.75,-2.91,-4.64
+Week 1,UCLA,California,FBS at FBS,1,payload,1.0,55.5,Caesars,8,-0.4,0.38,0.03
+Week 1,The Citadel,Charlotte,FCS at FBS,1,payload,-12.5,45.5,FanDuel,2,-26.97,-19.93,-23.09
+Week 1,Boston College,Cincinnati,FBS at FBS,1,payload,-7.5,54.5,BetMGM,8,-6.22,-7.82,-7.1
+Week 1,Wyoming,Colorado State,FBS at FBS,1,payload,-3.5,48.5,FanDuel,8,-4.17,-4.95,-4.6
+Week 1,Tulane,Duke,FBS at FBS,1,payload,-10.0,52.5,Caesars,8,-5.64,-7.01,-6.4
+Week 1,Florida Atlantic,Florida,FBS at FBS,1,payload,-26.5,58.5,Caesars,8,-20.59,-28.08,-24.72
+Week 1,Tennessee State,Georgia,FCS at FBS,1,payload,-45.5,55.0,FanDuel,2,-64.36,-72.64,-68.92
+Week 1,Charleston Southern,Georgia Southern,FCS at FBS,1,payload,-27.5,52.5,FanDuel,2,-36.95,-33.59,-35.1
+Week 1,UNLV,Hawai’i,FBS at FBS,1,payload,1.0,58.5,Fanatics,8,2.23,4.08,3.25
+Week 1,Oregon State,Houston,FBS at FBS,1,payload,-19.5,50.5,Caesars,8,-14.78,-19.88,-17.59
+Week 1,North Texas,Indiana,FBS at FBS,1,payload,-40.5,55.5,Caesars,8,-27.88,-38.34,-33.64
+Week 1,Northern Illinois,Iowa,FBS at FBS,1,payload,-30.5,45.5,BetMGM,8,-25.16,-34.51,-30.31
+Week 1,Southeast Missouri State,Iowa State,FCS at FBS,1,payload,-31.0,52.5,Fanatics,2,-42.17,-42.17,-42.17
+Week 1,Eastern Kentucky,Jacksonville State,FCS at FBS,1,payload,-21.0,54.5,Fanatics,2,-37.26,-34.85,-35.93
+Week 1,Liberty,James Madison,FBS at FBS,1,payload,-6.5,52.5,FanDuel,8,-9.02,-11.77,-10.53
+Week 1,Nicholls State,Kansas State,FCS at FBS,1.0,assumed-home,-42.5,54.5,FanDuel,2,,,
+Week 1,Youngstown State,Kentucky,FCS at FBS,1,payload,-24.0,62.5,Fanatics,2,-35.16,-37.21,-36.29
+Week 1,Clemson,LSU,FBS at FBS,1,payload,-9.5,50.5,bet365,8,-8.12,-10.5,-9.43
+Week 1,Lamar,Louisiana,FCS at FBS,1,payload,-17.5,49.5,FanDuel,2,-27.31,-24.51,-25.77
+Week 1,Northwestern State,Louisiana Tech,FCS at FBS,1,payload,-42.5,53.5,FanDuel,2,-39.87,-36.89,-38.23
+Week 1,Hampton,Maryland,FCS at FBS,1,payload,-45.5,57.5,FanDuel,1,-48.88,-49.58,-49.26
+Week 1,Arkansas State,Memphis,FBS at FBS,1,payload,-10.5,55.5,Caesars,8,-11.65,-15.47,-13.75
+Week 1,Western Michigan,Michigan,FBS at FBS,1,payload,-26.5,46.5,FanDuel,8,-20.23,-27.57,-24.27
+Week 1,Murray State,Middle Tennessee,FCS at FBS,1,payload,-24.5,60.5,FanDuel,2,-27.96,-21.73,-24.52
+Week 1,UL Monroe,Mississippi State,FBS at FBS,1,payload,-29.5,55.5,Caesars,8,-22.59,-30.89,-27.16
+Week 1,Towson,Navy,FCS at FBS,1,payload,-31.5,53.5,FanDuel,2,-40.65,-40.04,-40.32
+Week 1,Ohio,Nebraska,FBS at FBS,1,payload,-24.0,47.5,Caesars,8,-15.46,-20.85,-18.43
+Week 1,Western Kentucky,Nevada,FBS at FBS,1,payload,3.0,52.5,Caesars,8,2.15,3.98,3.16
+Week 1,Central Michigan,New Mexico,FBS at FBS,1,payload,-12.5,49.5,Caesars,8,-9.04,-11.8,-10.56
+Week 1,Mercyhurst,New Mexico State,FCS at FBS,1,payload,-26.5,51.5,FanDuel,2,-38.65,-33.12,-35.6
+Week 1,Fordham,North Dakota State,FCS at FBS,1,payload,-38.5,57.5,FanDuel,2,-43.76,-44.42,-44.12
+Week 1,South Dakota State,Northwestern,FCS at FBS,1,payload,-13.5,46.5,Fanatics,2,-25.26,-26.54,-25.97
+Week 1,Ball State,Ohio State,FBS at FBS,1,payload,-50.5,56.5,FanDuel,8,-44.71,-62.06,-54.27
+Week 1,Norfolk State,Old Dominion,FCS at FBS,1,payload,-40.5,53.5,FanDuel,2,-40.28,-38.7,-39.41
+Week 1,Boise State,Oregon,FBS at FBS,1,payload,-24.5,51.5,Caesars,8,-21.98,-30.03,-26.41
+Week 1,Marshall,Penn State,FBS at FBS,1,payload,-23.5,53.5,BetMGM,8,-21.09,-28.79,-25.33
+Week 1,Miami (OH),Pittsburgh,FBS at FBS,1,payload,-16.5,50.5,DraftKings,8,-12.4,-16.54,-14.68
+Week 1,Houston Christian,Rice,FCS at FBS,1,payload,-24.5,47.5,FanDuel,2,-37.55,-32.8,-34.93
+Week 1,Mississippi Valley State,Sacramento State,FCS at FBS,1,payload,-35.5,55.5,FanDuel,2,-37.75,-31.03,-34.05
+Week 1,Portland State,San Diego State,FCS at FBS,1,payload,-41.5,58.5,FanDuel,2,-43.06,-43.02,-43.04
+Week 1,Southeastern Louisiana,South Alabama,FCS at FBS,1.0,assumed-home,-11.5,51.5,FanDuel,2,,,
+Week 1,Kent State,South Carolina,FBS at FBS,1,payload,-34.5,52.5,BetMGM,8,-26.35,-36.19,-31.77
+Week 1,Florida International,South Florida,FBS at FBS,1,payload,-12.5,55.5,BetMGM,8,-11.81,-15.7,-13.95
+Week 1,Alcorn State,Southern Miss,FCS at FBS,1,payload,-22.5,52.5,FanDuel,2,-34.32,-29.48,-31.65
+Week 1,New Hampshire,Syracuse,FCS at FBS,1,payload,-32.5,57.5,FanDuel,1,-39.68,-38.67,-39.12
+Week 1,Rhode Island,Temple,FCS at FBS,1,payload,-10.5,52.5,FanDuel,2,-19.21,-15.55,-17.19
+Week 1,Furman,Tennessee,FCS at FBS,1,payload,-48.5,66.5,FanDuel,2,-47.21,-52.15,-49.93
+Week 1,Texas State,Texas,FBS at FBS,1,payload,-30.5,59.5,Caesars,8,-21.98,-30.03,-26.41
+Week 1,Missouri State,Texas A&M,FBS at FBS,1,payload,-39.0,52.5,Fanatics,8,-28.61,-39.37,-34.53
+Week 1,Abilene Christian,Texas Tech,FCS at FBS,1,payload,-42.5,58.5,FanDuel,2,-53.89,-61.15,-57.89
+Week 1,Sam Houston,Troy,FBS at FBS,1,payload,-16.0,51.5,Caesars,8,-13.11,-17.53,-15.54
+Week 1,Oklahoma State,Tulsa,FBS at FBS,1,payload,13.5,62.0,DraftKings,8,7.15,11.02,9.28
+Week 1,Lafayette,UConn,FCS at FBS,1,payload,-17.5,56.5,FanDuel,2,-40.78,-38.58,-39.57
+Week 1,UT Rio Grande Valley,UTSA,FCS at FBS,1,payload,-29.5,59.5,FanDuel,1,-40.99,-40.11,-40.51
+Week 1,Idaho State,Utah State,FCS at FBS,1,payload,-16.5,61.5,FanDuel,2,-32.25,-30.25,-31.15
+Week 1,Austin Peay,Vanderbilt,FCS at FBS,1,payload,-32.5,60.5,FanDuel,2,-41.03,-44.26,-42.81
+Week 1,VMI,Virginia Tech,FCS at FBS,1,payload,-51.5,58.5,FanDuel,2,-53.87,-56.21,-55.16
+Week 1,Coastal Carolina,West Virginia,FBS at FBS,1,payload,-21.0,57.5,BetMGM,8,-12.26,-16.33,-14.5
+Week 1,Wisconsin,Notre Dame,FBS at FBS,0,payload,-20.5,47.5,DraftKings,8,-18.82,-26.53,-23.07
+Week 1,Louisville,Ole Miss,FBS at FBS,0,payload,-6.5,55.5,Caesars,8,-5.92,-8.34,-7.25
+Week 1,Washington State,Washington,FBS at FBS,1,payload,-21.5,50.5,Caesars,8,-16.52,-22.34,-19.73
+Week 1,SMU,Florida State,FBS at FBS,1,payload,1.5,53.5,DraftKings,8,1.57,3.16,2.45
+Game of the Year,Missouri,Kansas,FBS at FBS,1,payload,6.5,52.5,BetMGM,4,5.73,9.02,7.54
+Game of the Year,Iowa State,Iowa,FBS at FBS,1,payload,-12.5,41.5,FanDuel,4,-12.32,-16.43,-14.59
+Game of the Year,Oklahoma,Michigan,FBS at FBS,1,payload,-2.5,47.5,BetMGM,8,-1.79,-1.59,-1.68
+Game of the Year,Oregon,Oklahoma State,FBS at FBS,1,payload,17.5,60.5,FanDuel,5,16.93,24.79,21.26
+Game of the Year,Ohio State,Texas,FBS at FBS,1,payload,-1.5,47.5,Caesars,8,4.77,7.66,6.36
+Game of the Year,Arizona State,Texas A&M,FBS at FBS,1,payload,-14.5,51.5,DraftKings,3,-12.73,-16.99,-15.07
+Game of the Year,Arkansas,Utah,FBS at FBS,1,payload,-7.5,54.5,FanDuel,2,-9.59,-12.57,-11.23
+Game of the Year,LSU,Ole Miss,nan,1,payload,-2.5,57.5,Unibet (Kambi),1,-3.05,-3.36,-3.22
+Game of the Year,Georgia,Alabama,nan,1,payload,2.5,49.0,Unibet (Kambi),1,4.15,6.79,5.6
+Game of the Year,Texas,Oklahoma,nan,0,payload,6.5,48.5,Unibet (Kambi),1,3.09,4.36,3.79
+Game of the Year,Ohio State,Indiana,nan,1,payload,1.5,48.5,Unibet (Kambi),1,2.26,4.13,3.29
+Game of the Year,Alabama,LSU,FBS at FBS,1,payload,-3.5,54.5,DraftKings,1,-3.31,-3.71,-3.53
+Game of the Year,Miami (FL),Notre Dame,FBS at FBS,1,payload,-7.0,55.5,DraftKings,2,-7.36,-9.43,-8.5
+Game of the Year,BYU,Utah,FBS at FBS,1,payload,-3.0,51.5,DraftKings,1,0.25,1.3,0.83
+Game of the Year,USC,Indiana,FBS at FBS,1,payload,-10.0,58.5,DraftKings,1,-7.81,-10.07,-9.06
+Game of the Year,Auburn,Alabama,nan,1,payload,-10.5,,Unibet (Kambi),1,-6.51,-8.24,-7.47
+Game of the Year,Michigan,Ohio State,nan,1,payload,-13.5,45.5,Unibet (Kambi),1,-12.97,-17.33,-15.37
+Game of the Year,Virginia,Virginia Tech,nan,1,payload,-2.5,,Unibet (Kambi),1,-2.04,-1.94,-1.99
