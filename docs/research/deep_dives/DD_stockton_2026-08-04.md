@@ -499,3 +499,32 @@ coordinator contracts (July 2026); AJC + CBS Sports, Stockton knee (2026-03-31);
 DawgNation, Bobo/2026 offensive upside (2026-01-22); Bulldawg Illustrated daily
 thread (2026-07-31). The SI "What We Know About Georgia Entering Fall Camp" piece
 returned by search is dated **July 2025** and was discarded as wrong-season.
+
+---
+
+## ADDENDUM — v2 reconciliation (2026-08-04, post-review, append-only)
+
+The owner-directed review of this DD's §1B led to pricer v2 (spec registered
+before computation; see PRICER_V2_SPEC_2026-08-04.md). Reconciliation:
+
+- **v2 mechanical: p = 0.620, edge +9.0** (strict-12: +9.9). This DD's
+  judgment-layer number: p = 0.588, edge +5.7. The gap decomposes exactly:
+  v2 uses the base secure hazard P(12+)=0.451 where §7 used 0.50 (job
+  security bump — REDUCES the under), and v2's holdout-derived shrink is
+  k=0.85 where §7 reused v1's 0.70 (v2's spec beat v1's on holdout Brier,
+  0.167 vs 0.229, so the lighter shrink is earned).
+- §1B's three ad-hoc estimators (quartile cells, ±30 window, grid-logistic)
+  are retired; they served to demonstrate the mis-specification, and v2 now
+  supersedes them. The review also found §1B's OLS included <6-game pace₁
+  seasons; the restricted refit (slope 0.409, t=5.01) reverts HARDER,
+  strengthening rather than weakening the correction.
+- **CCG asymmetry (review finding):** if FD's passing-yards market INCLUDES
+  CCGs, Georgia's ~50% CCG probability vs the panel's 6% P(g=13) costs this
+  leg roughly 5 points of edge (~+4); if it EXCLUDES them, +9.9. The §0
+  framing ("neutral vs bonus") was right about the panel but wrong to treat
+  the included branch as neutral FOR GEORGIA specifically. This widens the
+  honest range to +4…+10 and RAISES the priority of verifying the FD text
+  before staking.
+- **Verdict unchanged: BET 0.10u, owner approval pending** — now 8th on the
+  v2 board rather than 1st on v1's. The sizing logic in §7 (availability is
+  the whole edge and the softest input) stands.

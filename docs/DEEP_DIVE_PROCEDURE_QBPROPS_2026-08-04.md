@@ -102,3 +102,26 @@ sections 0–7, every external claim dated and sourced, every internal
 number reproducible from a named repo file. Verdict in the first line.
 No grades or ratings changes from this process — findings that implicate
 the main model go to the owner as flags, not edits.
+
+## CORRECTIONS (2026-08-04, append-only — apply to all subsequent dives)
+
+1. **Step 0 kill switch as written is WRONG — do not follow it.** It assumes
+   the historical panel is a strict-12 basis. It is not: the S20 panel used
+   CFBD seasonType=regular, which INCLUDES conference championship games.
+   Therefore: FD-includes-CCGs = matches panel basis (approximately neutral;
+   for CCG-LIKELY teams it is mildly ANTI-under, since their true P(13th
+   game) far exceeds the panel's ~6% — quantify per team); FD-excludes-CCGs
+   = under bonus (use the strict-12 column in pricer_v2 JSON). Neither
+   branch is a stop. The FD text itself is still unverified for this market
+   — owner verification remains a pre-stake gate.
+2. **Step 1 basis:** prior pace = total yards / games with ≥10 attempts
+   (panel-consistent, confirmed 181/181). Do NOT divide by all games played;
+   relief cameos corrupt the anchor (Carr, Sellers, Chambliss cases). Strip
+   generational suffixes before joining (the "Demond Williams Jr." case —
+   the Step 1 warning about suffixes was vindicated in practice).
+3. **Benchmark pricer is now v2** (pricer_v2_2026-08-04.json, spec in
+   PRICER_V2_SPEC_2026-08-04.md). Step 1's reconcile-within-0.01 check runs
+   against v2's p_raw/p_v2, and Step 1 must quote BOTH the v1 and v2 numbers
+   so drift stays visible. The DD's job is the judgment layer ON TOP of v2's
+   mechanical price: availability vs the hazard base rate, CCG probability,
+   scheme/destination context the transfer shift can't see, benching risk.
